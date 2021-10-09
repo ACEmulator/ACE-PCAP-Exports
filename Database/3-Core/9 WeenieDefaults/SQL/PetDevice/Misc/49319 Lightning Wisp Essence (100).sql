@@ -17,7 +17,7 @@ VALUES (49319,   1,        128) /* ItemType - Misc */
      , (49319, 105,          8) /* ItemWorkmanship */
      , (49319, 114,          0) /* Attuned - Normal */
      , (49319, 280,        213) /* SharedCooldown */
-     , (49319, 366,         54) /* UseRequiresSkill */
+     , (49319, 366,         54) /* UseRequiresSkill - Summoning */
      , (49319, 367,        400) /* UseRequiresSkillLevel */
      , (49319, 369,         90) /* UseRequiresLevel */
      , (49319, 370,         16) /* GearDamage */
@@ -38,20 +38,20 @@ VALUES (49319,   1, 'Lightning Wisp Essence (100)') /* Name */
      , (49319,  14, 'Use this essence to summon or dismiss your Lightning Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49319,   1,   33554817) /* Setup */
-     , (49319,   3,  536870932) /* SoundTable */
-     , (49319,   6,   67111919) /* PaletteBase */
-     , (49319,   8,  100693035) /* Icon */
-     , (49319,  22,  872415275) /* PhysicsEffectTable */
-     , (49319,  50,  100693028) /* IconOverlay */
-     , (49319,  52,  100693024) /* IconUnderlay */
+VALUES (49319,   1, 0x02000181) /* Setup */
+     , (49319,   3, 0x20000014) /* SoundTable */
+     , (49319,   6, 0x04000BEF) /* PaletteBase */
+     , (49319,   8, 0x0600742B) /* Icon */
+     , (49319,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49319,  50, 0x06007424) /* IconOverlay */
+     , (49319,  52, 0x06007420) /* IconUnderlay */
      , (49319, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49319, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49319, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49319, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49319, 8000, 3354585004) /* PCAPRecordedObjectIID */;
+VALUES (49319, 8000, 0xC7F2E7AC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49319, 67111921, 0, 0);

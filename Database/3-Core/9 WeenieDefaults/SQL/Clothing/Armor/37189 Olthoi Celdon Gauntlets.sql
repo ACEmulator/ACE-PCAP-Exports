@@ -50,23 +50,23 @@ VALUES (37189,   1, 'Olthoi Celdon Gauntlets') /* Name */
      , (37189,  16, 'Olthoi Celdon Gauntlets of Finesse Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37189,   1,   33554648) /* Setup */
-     , (37189,   3,  536870932) /* SoundTable */
-     , (37189,   6,   67108990) /* PaletteBase */
-     , (37189,   8,  100674653) /* Icon */
-     , (37189,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37189,   1, 0x020000D8) /* Setup */
+     , (37189,   3, 0x20000014) /* SoundTable */
+     , (37189,   6, 0x0400007E) /* PaletteBase */
+     , (37189,   8, 0x06002C5D) /* Icon */
+     , (37189,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37189, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (37189, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37189, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37189, 8000, 3429389315) /* PCAPRecordedObjectIID */;
+VALUES (37189, 8000, 0xCC685403) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37189,   327,      2)  /* DaggerMasterySelf6 */
-     , (37189,  1540,      2)  /* LightningBane6 */
-     , (37189,  2108,      2)  /* Impenetrability7 */
+VALUES (37189,  1540,      2)  /* LightningBane6 */
+     , (37189,   327,      2)  /* FinesseWeaponsMasterySelf6 */
      , (37189,  2574,      2)  /* CANTRIPFOCUS2 */
+     , (37189,  2108,      2)  /* Impenetrability7 */
      , (37189,  3965,      2)  /* CANTRIPSTRENGTH3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

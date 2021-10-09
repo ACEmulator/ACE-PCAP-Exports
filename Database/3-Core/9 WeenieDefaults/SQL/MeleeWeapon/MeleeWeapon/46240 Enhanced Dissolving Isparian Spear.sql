@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46240,   1, 'Enhanced Dissolving Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46240,   1,   33556367) /* Setup */
-     , (46240,   3,  536870932) /* SoundTable */
-     , (46240,   6,   67111919) /* PaletteBase */
-     , (46240,   8,  100672930) /* Icon */
-     , (46240,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46240,   1, 0x0200078F) /* Setup */
+     , (46240,   3, 0x20000014) /* SoundTable */
+     , (46240,   6, 0x04000BEF) /* PaletteBase */
+     , (46240,   8, 0x060025A2) /* Icon */
+     , (46240,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46240, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46240, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46240, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46240, 8000, 2148597908) /* PCAPRecordedObjectIID */;
+VALUES (46240, 8000, 0x80110094) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46240, 67111923, 0, 0);

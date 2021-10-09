@@ -24,13 +24,13 @@ VALUES (20404,   1, 'Scroll of Swordsman''s Bane') /* Name */
 Increases a shield or piece of armor''s resistance to slashing damage by 170%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20404,   1,   33554826) /* Setup */
-     , (20404,   8,  100676649) /* Icon */
-     , (20404,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20404,   1, 0x0200018A) /* Setup */
+     , (20404,   8, 0x06003429) /* Icon */
+     , (20404,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20404,  28,       2094) /* Spell - BladeBane7 */
      , (20404, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20404, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20404, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20404, 8000, 3694260236) /* PCAPRecordedObjectIID */;
+VALUES (20404, 8000, 0xDC31F00C) /* PCAPRecordedObjectIID */;

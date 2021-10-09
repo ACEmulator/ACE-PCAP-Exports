@@ -8,7 +8,6 @@ VALUES (33580,   1,          2) /* ItemType - Armor */
      , (33580,   4,      32768) /* ClothingPriority - Hands */
      , (33580,   5,        225) /* EncumbranceVal */
      , (33580,   9,         32) /* ValidLocations - HandWear */
-     , (33580,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (33580,  16,          1) /* ItemUseable - No */
      , (33580,  18,          1) /* UiEffects - Magical */
      , (33580,  19,      20000) /* Value */
@@ -42,22 +41,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33580,   1, 'Ancient Relic Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33580,   1,   33554648) /* Setup */
-     , (33580,   3,  536870932) /* SoundTable */
-     , (33580,   8,  100688353) /* Icon */
-     , (33580,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33580,   1, 0x020000D8) /* Setup */
+     , (33580,   3, 0x20000014) /* SoundTable */
+     , (33580,   8, 0x060061E1) /* Icon */
+     , (33580,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33580, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (33580, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33580, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33580, 8000, 3106648613) /* PCAPRecordedObjectIID */;
+VALUES (33580, 8000, 0xB92BB225) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33580,  2617,      2)  /* CANTRIPBLUDGEONINGWARD1 */
+VALUES (33580,  3094,      2)  /* SkinFiazhat */
      , (33580,  2663,      2)  /* ModerateStrength */
-     , (33580,  3094,      2)  /* SkinFiazhat */
-     , (33580,  3308,      2)  /* FlangeAegis */;
+     , (33580,  3308,      2)  /* FlangeAegis */
+     , (33580,  2617,      2)  /* CANTRIPBLUDGEONINGWARD1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (33580, 0, 83894333, 83897511);

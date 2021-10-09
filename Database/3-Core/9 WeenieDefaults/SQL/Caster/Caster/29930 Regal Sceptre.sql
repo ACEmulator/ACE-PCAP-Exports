@@ -10,6 +10,7 @@ VALUES (29930,   1,      32768) /* ItemType - Caster */
      , (29930,  16,          1) /* ItemUseable - No */
      , (29930,  18,          1) /* UiEffects - Magical */
      , (29930,  19,       6000) /* Value */
+     , (29930,  46,        512) /* DefaultCombatStyle - Magic */
      , (29930,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29930,  94,         16) /* TargetType - Creature */
      , (29930, 106,        280) /* ItemSpellcraft */
@@ -38,20 +39,20 @@ VALUES (29930,   1, 'Regal Sceptre') /* Name */
      , (29930,  25, 'Ninavie') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29930,   1,   33559055) /* Setup */
-     , (29930,   3,  536870932) /* SoundTable */
-     , (29930,   8,  100676981) /* Icon */
-     , (29930,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29930,   1, 0x0200120F) /* Setup */
+     , (29930,   3, 0x20000014) /* SoundTable */
+     , (29930,   8, 0x06003575) /* Icon */
+     , (29930,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29930, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (29930, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29930, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29930, 8000, 2166170653) /* PCAPRecordedObjectIID */;
+VALUES (29930, 8000, 0x811D241D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29930,   248,      2)  /* InvulnerabilitySelf5 */
-     , (29930,   616,      2)  /* LifeMagicMasteryOther6 */
-     , (29930,   640,      2)  /* WarMagicMasteryOther6 */
+VALUES (29930,   640,      2)  /* WarMagicMasteryOther6 */
+     , (29930,  2117,      2)  /* HermeticLinkSelf7 */
      , (29930,  1354,      2)  /* EnduranceSelf6 */
-     , (29930,  2117,      2)  /* HermeticLinkSelf7 */;
+     , (29930,   616,      2)  /* LifeMagicMasteryOther6 */
+     , (29930,   248,      2)  /* InvulnerabilitySelf5 */;

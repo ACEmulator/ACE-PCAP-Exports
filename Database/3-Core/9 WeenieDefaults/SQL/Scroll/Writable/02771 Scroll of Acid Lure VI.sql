@@ -24,13 +24,13 @@ VALUES (2771,   1, 'Scroll of Acid Lure VI') /* Name */
 Decreases a shield or piece of armor''s resistance to acid damage by 150%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2771,   1,   33554826) /* Setup */
-     , (2771,   8,  100676663) /* Icon */
-     , (2771,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2771,   1, 0x0200018A) /* Setup */
+     , (2771,   8, 0x06003437) /* Icon */
+     , (2771,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2771,  28,       1504) /* Spell - AcidLure6 */
      , (2771, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2771, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2771, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2771, 8000, 3692012150) /* PCAPRecordedObjectIID */;
+VALUES (2771, 8000, 0xDC0FA276) /* PCAPRecordedObjectIID */;

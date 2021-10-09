@@ -14,7 +14,8 @@ VALUES (29649,   1,        128) /* ItemType - Misc */
      , (29649, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29649,  22, True ) /* Inscribable */;
+VALUES (29649,  22, True ) /* Inscribable */
+     , (29649,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29649,  39,       2) /* DefaultScale */;
@@ -24,13 +25,13 @@ VALUES (29649,   1, 'Clue Card') /* Name */
      , (29649,  16, 'A card with a clue!  The fine print reads: "Clue given at time of pickup.  Only one clue card may be obtained at one time.  Give this card to the arbiter if you need to get a new clue card."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29649,   1,   33554773) /* Setup */
-     , (29649,   3,  536870932) /* SoundTable */
-     , (29649,   8,  100668176) /* Icon */
-     , (29649,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29649,   1, 0x02000155) /* Setup */
+     , (29649,   3, 0x20000014) /* SoundTable */
+     , (29649,   8, 0x06001310) /* Icon */
+     , (29649,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29649, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (29649, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29649, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29649, 8000, 2153220001) /* PCAPRecordedObjectIID */;
+VALUES (29649, 8000, 0x805787A1) /* PCAPRecordedObjectIID */;

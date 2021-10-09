@@ -17,6 +17,7 @@ VALUES (44985,   1,       8192) /* ItemType - Writable */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44985,  22, True ) /* Inscribable */
+     , (44985,  23, True ) /* DestroyOnSell */
      , (44985,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -27,17 +28,17 @@ VALUES (44985,   1, 'Large Tome') /* Name */
      , (44985,  16, 'A large and well cared-for tome, filled with elegant Dericostian script.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44985,   1,   33554771) /* Setup */
-     , (44985,   3,  536870932) /* SoundTable */
-     , (44985,   8,  100668117) /* Icon */
-     , (44985,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44985,   1, 0x02000153) /* Setup */
+     , (44985,   3, 0x20000014) /* SoundTable */
+     , (44985,   8, 0x060012D5) /* Icon */
+     , (44985,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44985, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (44985, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (44985, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44985, 8040, 2332295908, 72.087, -45.5152, 0.982, 0.9956775, 0, 0, -0.09287804) /* PCAPRecordedLocation */
+VALUES (44985, 8040, 0x8B0402E4, 72.087, -45.5152, 0.982, 0.995678, 0, 0, -0.092878) /* PCAPRecordedLocation */
 /* @teleloc 0x8B0402E4 [72.087000 -45.515200 0.982000] 0.995678 0.000000 0.000000 -0.092878 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44985, 8000, 3701262601) /* PCAPRecordedObjectIID */;
+VALUES (44985, 8000, 0xDC9CC909) /* PCAPRecordedObjectIID */;

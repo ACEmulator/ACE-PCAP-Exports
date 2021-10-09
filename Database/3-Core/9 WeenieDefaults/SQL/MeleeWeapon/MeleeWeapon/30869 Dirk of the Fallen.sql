@@ -45,16 +45,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30869,   1, 'Dirk of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30869,   1,   33559276) /* Setup */
-     , (30869,   3,  536870932) /* SoundTable */
-     , (30869,   8,  100677506) /* Icon */
-     , (30869,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30869,   1, 0x020012EC) /* Setup */
+     , (30869,   3, 0x20000014) /* SoundTable */
+     , (30869,   8, 0x06003782) /* Icon */
+     , (30869,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30869, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (30869, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30869, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30869, 8000, 2192134519) /* PCAPRecordedObjectIID */;
+VALUES (30869, 8000, 0x82A95177) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30869,  2096,      2)  /* BloodDrinkerSelf7 */

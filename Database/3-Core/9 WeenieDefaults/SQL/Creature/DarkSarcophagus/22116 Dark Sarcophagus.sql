@@ -26,21 +26,21 @@ VALUES (22116,   1, 'Dark Sarcophagus') /* Name */
      , (22116, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22116,   1,   33558043) /* Setup */
-     , (22116,   2,  150995217) /* MotionTable */
-     , (22116,   3,  536870998) /* SoundTable */
-     , (22116,   8,  100671209) /* Icon */
-     , (22116,  22,  872415331) /* PhysicsEffectTable */
+VALUES (22116,   1, 0x02000E1B) /* Setup */
+     , (22116,   2, 0x09000111) /* MotionTable */
+     , (22116,   3, 0x20000056) /* SoundTable */
+     , (22116,   8, 0x06001EE9) /* Icon */
+     , (22116,  22, 0x34000063) /* PhysicsEffectTable */
      , (22116, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (22116, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22116, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22116, 8040, 1448149340, 20, -170, -59.985, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (22116, 8040, 0x5651015C, 20, -170, -59.985, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5651015C [20.000000 -170.000000 -59.985000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22116, 8000, 2618373575) /* PCAPRecordedObjectIID */;
+VALUES (22116, 8000, 0x9C1135C7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22116,   1,  10, 0, 0) /* Strength */

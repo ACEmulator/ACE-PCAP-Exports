@@ -17,7 +17,7 @@ VALUES (41785,   1,        256) /* ItemType - MissileWeapon */
      , (41785,  45,          4) /* DamageType - Bludgeon */
      , (41785,  48,         47) /* WeaponSkill - MissileWeapons */
      , (41785,  49,          5) /* WeaponTime */
-     , (41785,  51,          2) /* CombatUse - Missle */
+     , (41785,  51,          2) /* CombatUse - Missile */
      , (41785,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (41785, 106,        520) /* ItemSpellcraft */
      , (41785, 107,        150) /* ItemCurMana */
@@ -49,19 +49,19 @@ VALUES (41785,   1, 'Mana Phial of Fester') /* Name */
      , (41785,  20, 'Mana Phials of Fester') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41785,   1,   33560312) /* Setup */
-     , (41785,   3,  536870932) /* SoundTable */
-     , (41785,   6,   67111919) /* PaletteBase */
-     , (41785,   8,  100690318) /* Icon */
-     , (41785,  22,  872415275) /* PhysicsEffectTable */
-     , (41785,  50,  100690194) /* IconOverlay */
+VALUES (41785,   1, 0x020016F8) /* Setup */
+     , (41785,   3, 0x20000014) /* SoundTable */
+     , (41785,   6, 0x04000BEF) /* PaletteBase */
+     , (41785,   8, 0x0600698E) /* Icon */
+     , (41785,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41785,  50, 0x06006912) /* IconOverlay */
      , (41785,  55,       2178) /* ProcSpell - FesterOther7 */
      , (41785, 8001, 1075933721) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, IconOverlay */
      , (41785, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41785, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41785, 8000, 2210356837) /* PCAPRecordedObjectIID */;
+VALUES (41785, 8000, 0x83BF5E65) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41785,  4017,      2)  /* SkillThrownWeaponPhialsAccuracy */;

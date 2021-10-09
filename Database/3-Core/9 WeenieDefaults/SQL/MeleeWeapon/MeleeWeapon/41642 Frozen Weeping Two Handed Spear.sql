@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41642,   1, 'Frozen Weeping Two Handed Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41642,   1,   33558479) /* Setup */
-     , (41642,   3,  536870932) /* SoundTable */
-     , (41642,   6,   67114522) /* PaletteBase */
-     , (41642,   8,  100690834) /* Icon */
-     , (41642,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41642,   1, 0x02000FCF) /* Setup */
+     , (41642,   3, 0x20000014) /* SoundTable */
+     , (41642,   6, 0x0400161A) /* PaletteBase */
+     , (41642,   8, 0x06006B92) /* Icon */
+     , (41642,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41642, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (41642, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41642, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41642, 8000, 2237242547) /* PCAPRecordedObjectIID */;
+VALUES (41642, 8000, 0x85599CB3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41642, 67114523, 0, 0);

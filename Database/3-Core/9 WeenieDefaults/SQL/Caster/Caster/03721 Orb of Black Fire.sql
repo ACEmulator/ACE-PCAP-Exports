@@ -10,6 +10,7 @@ VALUES (3721,   1,      32768) /* ItemType - Caster */
      , (3721,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (3721,  18,          1) /* UiEffects - Magical */
      , (3721,  19,       5700) /* Value */
+     , (3721,  46,        512) /* DefaultCombatStyle - Magic */
      , (3721,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3721,  94,         16) /* TargetType - Creature */
      , (3721, 106,        250) /* ItemSpellcraft */
@@ -34,11 +35,11 @@ VALUES (3721,   1, 'Orb of Black Fire') /* Name */
      , (3721,   8, 'Ripley') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3721,   1,   33558249) /* Setup */
-     , (3721,   3,  536870932) /* SoundTable */
-     , (3721,   6,   67111928) /* PaletteBase */
-     , (3721,   8,  100668730) /* Icon */
-     , (3721,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3721,   1, 0x02000EE9) /* Setup */
+     , (3721,   3, 0x20000014) /* SoundTable */
+     , (3721,   6, 0x04000BF8) /* PaletteBase */
+     , (3721,   8, 0x0600153A) /* Icon */
+     , (3721,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3721,  28,        145) /* Spell - FlameVolley5 */
      , (3721,  37,         33) /* ItemSkillLimit - LifeMagic */
      , (3721, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
@@ -46,11 +47,11 @@ VALUES (3721,   1,   33558249) /* Setup */
      , (3721, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3721, 8000, 3656750334) /* PCAPRecordedObjectIID */;
+VALUES (3721, 8000, 0xD9F594FE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3721,   518,      2)  /* AcidProtectionSelf4 */
-     , (3721,  1092,      2)  /* FireProtectionSelf4 */;
+VALUES (3721,  1092,      2)  /* FireProtectionSelf4 */
+     , (3721,   518,      2)  /* AcidProtectionSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3721, 67111925, 0, 0);

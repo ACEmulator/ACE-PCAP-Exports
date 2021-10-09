@@ -16,6 +16,7 @@ VALUES (52817,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52817,  22, True ) /* Inscribable */
+     , (52817,  23, True ) /* DestroyOnSell */
      , (52817,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -23,17 +24,17 @@ VALUES (52817,   1, 'Helm of Tremb''Orh') /* Name */
      , (52817,  16, 'The helmet ripped from the corpse of Tremb''Orh. Give this item to the Master of the Gauntlet for a reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52817,   1,   33554649) /* Setup */
-     , (52817,   3,  536870932) /* SoundTable */
-     , (52817,   6,   67108990) /* PaletteBase */
-     , (52817,   8,  100667347) /* Icon */
-     , (52817,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52817,   1, 0x020000D9) /* Setup */
+     , (52817,   3, 0x20000014) /* SoundTable */
+     , (52817,   6, 0x0400007E) /* PaletteBase */
+     , (52817,   8, 0x06000FD3) /* Icon */
+     , (52817,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52817, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (52817, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52817, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52817, 8000, 2416231772) /* PCAPRecordedObjectIID */;
+VALUES (52817, 8000, 0x9004C55C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52817, 67110015, 240, 10)

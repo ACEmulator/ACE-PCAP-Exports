@@ -8,7 +8,6 @@ VALUES (28070,   1,          4) /* ItemType - Clothing */
      , (28070,   4,        126) /* ClothingPriority - UnderwearUpperLegs, UnderwearLowerLegs, UnderwearChest, UnderwearAbdomen, UnderwearUpperArms, UnderwearLowerArms */
      , (28070,   5,        350) /* EncumbranceVal */
      , (28070,   9,        222) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear, UpperLegWear, LowerLegWear */
-     , (28070,  10,        222) /* CurrentWieldedLocation - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear, UpperLegWear, LowerLegWear */
      , (28070,  16,          1) /* ItemUseable - No */
      , (28070,  19,      10000) /* Value */
      , (28070,  28,          0) /* ArmorLevel */
@@ -39,17 +38,17 @@ VALUES (28070,   1, 'Silken Wrap') /* Name */
      , (28070,  16, 'A wrap crafted by the tailor To-ping Ra for use under the armor. This wrap has been stitched with pyreal woven thread to enhance the magical qualities of the object.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28070,   1,   33554854) /* Setup */
-     , (28070,   3,  536870932) /* SoundTable */
-     , (28070,   6,   67108990) /* PaletteBase */
-     , (28070,   8,  100676695) /* Icon */
-     , (28070,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28070,   1, 0x020001A6) /* Setup */
+     , (28070,   3, 0x20000014) /* SoundTable */
+     , (28070,   6, 0x0400007E) /* PaletteBase */
+     , (28070,   8, 0x06003457) /* Icon */
+     , (28070,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28070, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (28070, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28070, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28070, 8000, 2274290683) /* PCAPRecordedObjectIID */;
+VALUES (28070, 8000, 0x878EEBFB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28070,  3362,      2)  /* BlessingHorn */

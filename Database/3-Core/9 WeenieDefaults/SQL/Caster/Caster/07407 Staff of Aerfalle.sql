@@ -11,6 +11,7 @@ VALUES (7407,   1,      32768) /* ItemType - Caster */
      , (7407,  18,          1) /* UiEffects - Magical */
      , (7407,  19,      10150) /* Value */
      , (7407,  33,          1) /* Bonded - Bonded */
+     , (7407,  46,        512) /* DefaultCombatStyle - Magic */
      , (7407,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7407,  94,         16) /* TargetType - Creature */
      , (7407, 106,        210) /* ItemSpellcraft */
@@ -41,11 +42,11 @@ VALUES (7407,   1, 'Staff of Aerfalle') /* Name */
      , (7407,  25, 'Wahooka the Great') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7407,   1,   33556630) /* Setup */
-     , (7407,   3,  536870932) /* SoundTable */
-     , (7407,   6,   67111919) /* PaletteBase */
-     , (7407,   8,  100670752) /* Icon */
-     , (7407,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7407,   1, 0x02000896) /* Setup */
+     , (7407,   3, 0x20000014) /* SoundTable */
+     , (7407,   6, 0x04000BEF) /* PaletteBase */
+     , (7407,   8, 0x06001D20) /* Icon */
+     , (7407,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7407,  28,       1794) /* Spell - AcidStreak5 */
      , (7407,  37,         34) /* ItemSkillLimit - WarMagic */
      , (7407, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
@@ -53,12 +54,12 @@ VALUES (7407,   1,   33556630) /* Setup */
      , (7407, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7407, 8000, 3697840536) /* PCAPRecordedObjectIID */;
+VALUES (7407, 8000, 0xDC689198) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7407,   615,      2)  /* LifeMagicMasteryOther5 */
-     , (7407,   639,      2)  /* WarMagicMasteryOther5 */
-     , (7407,   908,      2)  /* LeadershipMasteryOther5 */;
+VALUES (7407,   908,      2)  /* LeadershipMasteryOther5 */
+     , (7407,   615,      2)  /* LifeMagicMasteryOther5 */
+     , (7407,   639,      2)  /* WarMagicMasteryOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7407, 67111920, 0, 0);

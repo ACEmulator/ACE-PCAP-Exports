@@ -23,16 +23,16 @@ VALUES (48823,   1, 'Desert Dwelling') /* Name */
      , (48823, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48823,   1,   33555924) /* Setup */
-     , (48823,   2,  150994947) /* MotionTable */
-     , (48823,   8,  100667499) /* Icon */
+VALUES (48823,   1, 0x020005D4) /* Setup */
+     , (48823,   2, 0x09000003) /* MotionTable */
+     , (48823,   8, 0x0600106B) /* Icon */
      , (48823, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (48823, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (48823, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48823, 8040, 2288320570, 187.636, 39.858, 7.82102, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (48823, 8040, 0x8865003A, 187.636, 39.858, 7.82102, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8865003A [187.636000 39.858000 7.821020] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48823, 8000, 2022068257) /* PCAPRecordedObjectIID */;
+VALUES (48823, 8000, 0x78865021) /* PCAPRecordedObjectIID */;

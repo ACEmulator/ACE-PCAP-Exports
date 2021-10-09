@@ -18,20 +18,21 @@ VALUES (41932,   1,        128) /* ItemType - Misc */
      , (41932, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41932,  69, False) /* IsSellable */;
+VALUES (41932,  23, True ) /* DestroyOnSell */
+     , (41932,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41932,   1, 'Lord Hendrel''s Brand') /* Name */
      , (41932,  15, 'A burning brand with the champion mark of Lord Hendrel.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41932,   1,   33554695) /* Setup */
-     , (41932,   3,  536870932) /* SoundTable */
-     , (41932,   8,  100667478) /* Icon */
-     , (41932,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41932,   1, 0x02000107) /* Setup */
+     , (41932,   3, 0x20000014) /* SoundTable */
+     , (41932,   8, 0x06001056) /* Icon */
+     , (41932,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41932, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (41932, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41932, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41932, 8000, 3683029322) /* PCAPRecordedObjectIID */;
+VALUES (41932, 8000, 0xDB86914A) /* PCAPRecordedObjectIID */;

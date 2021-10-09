@@ -8,7 +8,6 @@ VALUES (51868,   1,          4) /* ItemType - Clothing */
      , (51868,   4,     131072) /* ClothingPriority - 131072 */
      , (51868,   5,         10) /* EncumbranceVal */
      , (51868,   9,  134217728) /* ValidLocations - Cloak */
-     , (51868,  10,  134217728) /* CurrentWieldedLocation - Cloak */
      , (51868,  16,          1) /* ItemUseable - No */
      , (51868,  18,          1) /* UiEffects - Magical */
      , (51868,  19,      50000) /* Value */
@@ -32,6 +31,7 @@ VALUES (51868,   4, 15000000000) /* ItemTotalXp */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51868,  22, True ) /* Inscribable */
+     , (51868,  23, True ) /* DestroyOnSell */
      , (51868,  99, True ) /* Ivoryable */
      , (51868, 100, False) /* Dyable */;
 
@@ -51,18 +51,18 @@ VALUES (51868,   1, 'Rynthid Energy Tentacles') /* Name */
      , (51868,   8, 'Crog') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51868,   1,   33561386) /* Setup */
-     , (51868,   3,  536870932) /* SoundTable */
-     , (51868,   8,  100693225) /* Icon */
-     , (51868,  22,  872415275) /* PhysicsEffectTable */
-     , (51868,  50,  100690999) /* IconOverlay */
+VALUES (51868,   1, 0x02001B2A) /* Setup */
+     , (51868,   3, 0x20000014) /* SoundTable */
+     , (51868,   8, 0x060074E9) /* Icon */
+     , (51868,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51868,  50, 0x06006C37) /* IconOverlay */
      , (51868,  55,       6151) /* ProcSpell - LightningRingRed */
      , (51868, 8001, 1076330648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, IconOverlay */
      , (51868, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51868, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51868, 8000, 2153074324) /* PCAPRecordedObjectIID */;
+VALUES (51868, 8000, 0x80554E94) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (51868, 0, 16797047);

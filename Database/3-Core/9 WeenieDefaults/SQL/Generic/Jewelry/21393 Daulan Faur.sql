@@ -33,17 +33,17 @@ VALUES (21393,   1, 'Daulan Faur') /* Name */
      , (21393,  15, 'A black necklace with a blue stone setting.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21393,   1,   33554689) /* Setup */
-     , (21393,   3,  536870932) /* SoundTable */
-     , (21393,   6,   67111919) /* PaletteBase */
-     , (21393,   8,  100673498) /* Icon */
-     , (21393,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21393,   1, 0x02000101) /* Setup */
+     , (21393,   3, 0x20000014) /* SoundTable */
+     , (21393,   6, 0x04000BEF) /* PaletteBase */
+     , (21393,   8, 0x060027DA) /* Icon */
+     , (21393,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21393, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (21393, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21393, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21393, 8000, 2461535763) /* PCAPRecordedObjectIID */;
+VALUES (21393, 8000, 0x92B80E13) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21393,   272,      2)  /* MagicResistanceOther5 */

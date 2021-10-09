@@ -22,6 +22,7 @@ VALUES (40456,   1,          4) /* ItemType - Clothing */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40456,  22, True ) /* Inscribable */
+     , (40456,  23, True ) /* DestroyOnSell */
      , (40456,  99, True ) /* Ivoryable */
      , (40456, 100, True ) /* Dyable */;
 
@@ -40,24 +41,24 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40456,   1, 'Pathwarden Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40456,   1,   33559315) /* Setup */
-     , (40456,   3,  536870932) /* SoundTable */
-     , (40456,   6,   67108990) /* PaletteBase */
-     , (40456,   8,  100687434) /* Icon */
-     , (40456,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40456,   1, 0x02001313) /* Setup */
+     , (40456,   3, 0x20000014) /* SoundTable */
+     , (40456,   6, 0x0400007E) /* PaletteBase */
+     , (40456,   8, 0x06005E4A) /* Icon */
+     , (40456,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40456, 8001,    2441232) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Priority, Burden */
      , (40456, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40456, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40456, 8000, 3622527152) /* PCAPRecordedObjectIID */;
+VALUES (40456, 8000, 0xD7EB60B0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40456,  1328,      2)  /* StrengthSelf2 */
-     , (40456,  1350,      2)  /* EnduranceSelf2 */
+VALUES (40456,  1350,      2)  /* EnduranceSelf2 */
+     , (40456,  1482,      2)  /* Impenetrability2 */
      , (40456,  1422,      2)  /* FocusSelf2 */
      , (40456,  1446,      2)  /* WillpowerSelf2 */
-     , (40456,  1482,      2)  /* Impenetrability2 */;
+     , (40456,  1328,      2)  /* StrengthSelf2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40456, 67116018, 207, 33)

@@ -22,13 +22,13 @@ VALUES (38749,   1, 'Parabolic Quill of Infliction') /* Name */
      , (38749,  20, 'Parabolic Quills of Infliction') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38749,   1,   33559616) /* Setup */
-     , (38749,   8,  100690196) /* Icon */
-     , (38749,  52,  100676443) /* IconUnderlay */
+VALUES (38749,   1, 0x02001440) /* Setup */
+     , (38749,   8, 0x06006914) /* Icon */
+     , (38749,  52, 0x0600335B) /* IconUnderlay */
      , (38749, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (38749, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (38749, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (38749, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38749, 8000, 2158698202) /* PCAPRecordedObjectIID */;
+VALUES (38749, 8000, 0x80AB1EDA) /* PCAPRecordedObjectIID */;

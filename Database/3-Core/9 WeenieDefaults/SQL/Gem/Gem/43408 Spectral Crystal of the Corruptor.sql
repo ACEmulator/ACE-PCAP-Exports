@@ -25,7 +25,8 @@ VALUES (43408,   1,       2048) /* ItemType - Gem */
      , (43408, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43408,  69, False) /* IsSellable */
+VALUES (43408,  23, True ) /* DestroyOnSell */
+     , (43408,  69, False) /* IsSellable */
      , (43408, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -34,20 +35,20 @@ VALUES (43408,   1, 'Spectral Crystal of the Corruptor') /* Name */
      , (43408,  20, 'Spectral Crystals of the Corruptor') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43408,   1,   33554809) /* Setup */
-     , (43408,   3,  536870932) /* SoundTable */
-     , (43408,   8,  100686697) /* Icon */
-     , (43408,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43408,   1, 0x02000179) /* Setup */
+     , (43408,   3, 0x20000014) /* SoundTable */
+     , (43408,   8, 0x06005B69) /* Icon */
+     , (43408,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43408,  28,       5435) /* Spell - VoidMagicMasterySpectral */
-     , (43408,  50,  100691567) /* IconOverlay */
-     , (43408,  52,  100686604) /* IconUnderlay */
+     , (43408,  50, 0x06006E6F) /* IconOverlay */
+     , (43408,  52, 0x06005B0C) /* IconUnderlay */
      , (43408, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (43408, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (43408, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (43408, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43408, 8000, 2765398815) /* PCAPRecordedObjectIID */;
+VALUES (43408, 8000, 0xA4D4A31F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43408, 0, 83890391, 83890391);

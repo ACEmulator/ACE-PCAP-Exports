@@ -17,15 +17,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15695,   1, 'Broken Haft Vale') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15695,   1,   33557463) /* Setup */
-     , (15695,   8,  100668115) /* Icon */
+VALUES (15695,   1, 0x02000BD7) /* Setup */
+     , (15695,   8, 0x060012D3) /* Icon */
      , (15695, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (15695, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (15695, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15695, 8040, 3302555677, 92.0228, 112.285, 82, -0.791993, 0, 0, 0.61053) /* PCAPRecordedLocation */
+VALUES (15695, 8040, 0xC4D9001D, 92.0228, 112.285, 82, -0.791993, 0, 0, 0.61053) /* PCAPRecordedLocation */
 /* @teleloc 0xC4D9001D [92.022800 112.285000 82.000000] -0.791993 0.000000 0.000000 0.610530 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15695, 8000, 2085458353) /* PCAPRecordedObjectIID */;
+VALUES (15695, 8000, 0x7C4D91B1) /* PCAPRecordedObjectIID */;

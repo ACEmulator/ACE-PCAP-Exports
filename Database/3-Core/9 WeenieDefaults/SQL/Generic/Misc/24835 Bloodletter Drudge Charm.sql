@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24835,   1, 'Bloodletter Drudge Charm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24835,   1,   33554683) /* Setup */
-     , (24835,   3,  536870932) /* SoundTable */
-     , (24835,   8,  100674479) /* Icon */
-     , (24835,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24835,   1, 0x020000FB) /* Setup */
+     , (24835,   3, 0x20000014) /* SoundTable */
+     , (24835,   8, 0x06002BAF) /* Icon */
+     , (24835,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24835, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (24835, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24835, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24835, 8000, 3681314365) /* PCAPRecordedObjectIID */;
+VALUES (24835, 8000, 0xDB6C663D) /* PCAPRecordedObjectIID */;

@@ -19,24 +19,25 @@ VALUES (7469,   1,       2048) /* ItemType - Gem */
      , (7469, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7469,  22, True ) /* Inscribable */;
+VALUES (7469,  22, True ) /* Inscribable */
+     , (7469,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7469,   1, 'Black Fire Atlan Stone') /* Name */
      , (7469,  14, 'Use this stone on an Empyrean or Isparian weapon or on a piece of Shadow Armor. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7469,   1,   33556407) /* Setup */
-     , (7469,   3,  536870932) /* SoundTable */
-     , (7469,   6,   67111919) /* PaletteBase */
-     , (7469,   8,  100670494) /* Icon */
-     , (7469,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7469,   1, 0x020007B7) /* Setup */
+     , (7469,   3, 0x20000014) /* SoundTable */
+     , (7469,   6, 0x04000BEF) /* PaletteBase */
+     , (7469,   8, 0x06001C1E) /* Icon */
+     , (7469,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7469, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7469, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7469, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7469, 8000, 3706516809) /* PCAPRecordedObjectIID */;
+VALUES (7469, 8000, 0xDCECF549) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7469, 67111927, 0, 0);

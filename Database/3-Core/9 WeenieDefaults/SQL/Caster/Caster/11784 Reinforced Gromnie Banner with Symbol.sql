@@ -11,6 +11,7 @@ VALUES (11784,   1,      32768) /* ItemType - Caster */
      , (11784,  18,          1) /* UiEffects - Magical */
      , (11784,  19,          0) /* Value */
      , (11784,  33,          1) /* Bonded - Bonded */
+     , (11784,  46,        512) /* DefaultCombatStyle - Magic */
      , (11784,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11784,  94,         16) /* TargetType - Creature */
      , (11784, 106,        200) /* ItemSpellcraft */
@@ -22,6 +23,7 @@ VALUES (11784,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11784,  22, True ) /* Inscribable */
+     , (11784,  23, True ) /* DestroyOnSell */
      , (11784,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,15 +36,15 @@ VALUES (11784,   1, 'Reinforced Gromnie Banner with Symbol') /* Name */
      , (11784,  16, 'A reinforced, symbol tipped banner with a gromnie on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the gromnie, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11784,   1,   33557255) /* Setup */
-     , (11784,   8,  100671937) /* Icon */
-     , (11784,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11784,   1, 0x02000B07) /* Setup */
+     , (11784,   8, 0x060021C1) /* Icon */
+     , (11784,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11784, 8001,    2703504) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, TargetType, Burden */
      , (11784, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11784, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11784, 8000, 3711401995) /* PCAPRecordedObjectIID */;
+VALUES (11784, 8000, 0xDD37800B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11784,   657,      2)  /* ManaMasterySelf5 */

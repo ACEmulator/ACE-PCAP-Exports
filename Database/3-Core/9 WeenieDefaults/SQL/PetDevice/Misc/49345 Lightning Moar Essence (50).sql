@@ -17,7 +17,7 @@ VALUES (49345,   1,        128) /* ItemType - Misc */
      , (49345, 105,          7) /* ItemWorkmanship */
      , (49345, 114,          0) /* Attuned - Normal */
      , (49345, 280,        213) /* SharedCooldown */
-     , (49345, 366,         54) /* UseRequiresSkill */
+     , (49345, 366,         54) /* UseRequiresSkill - Summoning */
      , (49345, 367,        310) /* UseRequiresSkillLevel */
      , (49345, 369,         40) /* UseRequiresLevel */
      , (49345, 370,         10) /* GearDamage */
@@ -37,23 +37,20 @@ VALUES (49345,   1, 'Lightning Moar Essence (50)') /* Name */
      , (49345,  14, 'Use this essence to summon or dismiss your Lightning Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49345,   1,   33554817) /* Setup */
-     , (49345,   3,  536870932) /* SoundTable */
-     , (49345,   6,   67111919) /* PaletteBase */
-     , (49345,   8,  100693034) /* Icon */
-     , (49345,  22,  872415275) /* PhysicsEffectTable */
-     , (49345,  50,  100693026) /* IconOverlay */
-     , (49345,  52,  100693024) /* IconUnderlay */
+VALUES (49345,   1, 0x02000181) /* Setup */
+     , (49345,   3, 0x20000014) /* SoundTable */
+     , (49345,   6, 0x04000BEF) /* PaletteBase */
+     , (49345,   8, 0x0600742A) /* Icon */
+     , (49345,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49345,  50, 0x06007422) /* IconOverlay */
+     , (49345,  52, 0x06007420) /* IconUnderlay */
      , (49345, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49345, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49345, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49345, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49345, 8000, 3690338178) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49345, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */;
+VALUES (49345, 8000, 0xDBF61782) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49345, 67111921, 0, 0);

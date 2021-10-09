@@ -28,17 +28,17 @@ VALUES (7039,   1, 'Fire Auroch Horn') /* Name */
      , (7039,  16, 'The horn of a departed Fire Auroch.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7039,   1,   33556594) /* Setup */
-     , (7039,   3,  536870932) /* SoundTable */
-     , (7039,   6,   67112869) /* PaletteBase */
-     , (7039,   8,  100668178) /* Icon */
-     , (7039,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7039,   1, 0x02000872) /* Setup */
+     , (7039,   3, 0x20000014) /* SoundTable */
+     , (7039,   6, 0x04000FA5) /* PaletteBase */
+     , (7039,   8, 0x06001312) /* Icon */
+     , (7039,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7039, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7039, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7039, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7039, 8000, 2779768811) /* PCAPRecordedObjectIID */;
+VALUES (7039, 8000, 0xA5AFE7EB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7039, 67112870, 0, 0);

@@ -49,16 +49,16 @@ VALUES (32499,   1, 'Axe of Winter Flame') /* Name */
      , (32499,  16, 'An axe once wielded by the ancient slave Korogaith, and touched by the seething energies of his brother Farelaith.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32499,   1,   33559805) /* Setup */
-     , (32499,   3,  536870932) /* SoundTable */
-     , (32499,   8,  100688525) /* Icon */
-     , (32499,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32499,   1, 0x020014FD) /* Setup */
+     , (32499,   3, 0x20000014) /* SoundTable */
+     , (32499,   8, 0x0600628D) /* Icon */
+     , (32499,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32499, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (32499, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32499, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32499, 8000, 2174536819) /* PCAPRecordedObjectIID */;
+VALUES (32499, 8000, 0x819CCC73) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32499,  1616,      2)  /* BloodDrinkerSelf6 */

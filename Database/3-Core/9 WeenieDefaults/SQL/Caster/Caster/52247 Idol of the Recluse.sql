@@ -7,10 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52247,   1,      32768) /* ItemType - Caster */
      , (52247,   5,        200) /* EncumbranceVal */
      , (52247,   9,   16777216) /* ValidLocations - Held */
-     , (52247,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (52247,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (52247,  19,       5000) /* Value */
      , (52247,  33,          1) /* Bonded - Bonded */
+     , (52247,  46,        512) /* DefaultCombatStyle - Magic */
      , (52247,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52247,  94,         16) /* TargetType - Creature */
      , (52247, 106,        400) /* ItemSpellcraft */
@@ -26,6 +26,7 @@ VALUES (52247,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52247,  22, True ) /* Inscribable */
+     , (52247,  23, True ) /* DestroyOnSell */
      , (52247,  69, False) /* IsSellable */
      , (52247,  99, True ) /* Ivoryable */;
 
@@ -41,9 +42,9 @@ VALUES (52247,   1, 'Idol of the Recluse') /* Name */
      , (52247,  16, 'An idol depicting the ancient Mu-miyah Recluse. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52247,   1,   33561621) /* Setup */
-     , (52247,   6,   67108990) /* PaletteBase */
-     , (52247,   8,  100669122) /* Icon */
+VALUES (52247,   1, 0x02001C15) /* Setup */
+     , (52247,   6, 0x0400007E) /* PaletteBase */
+     , (52247,   8, 0x060016C2) /* Icon */
      , (52247,  28,       3203) /* Spell - DispelAllBadOther7NoManaCon */
      , (52247, 8001,  275480600) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (52247, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -51,16 +52,16 @@ VALUES (52247,   1,   33561621) /* Setup */
      , (52247, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52247, 8040, 4095213581, 36.9231, 48.70957, 169.729, -0.6935199, -0.6935199, -0.1379497, -0.1379497) /* PCAPRecordedLocation */
+VALUES (52247, 8040, 0xF418000D, 36.9231, 48.70957, 169.729, -0.69352, -0.69352, -0.13795, -0.13795) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [36.923100 48.709570 169.729000] -0.693520 -0.693520 -0.137950 -0.137950 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52247, 8000, 2601344448) /* PCAPRecordedObjectIID */
-     , (52247, 8008, 1343084377) /* PCAPRecordedParentIID */;
+VALUES (52247, 8000, 0x9B0D5DC0) /* PCAPRecordedObjectIID */
+     , (52247, 8008, 0x500DD759) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52247,  4530,      2)  /* CreatureEnchantmentMasterySelf8 */
-     , (52247,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */;
+VALUES (52247,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */
+     , (52247,  4530,      2)  /* CreatureEnchantmentMasterySelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52247, 67113142, 0, 0);

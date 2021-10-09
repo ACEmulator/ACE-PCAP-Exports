@@ -22,16 +22,16 @@ VALUES (11959,   1, 'Base of the Timaru Plateau Portal') /* Name */
      , (11959, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11959,   1,   33554867) /* Setup */
-     , (11959,   2,  150994947) /* MotionTable */
-     , (11959,   8,  100667499) /* Icon */
+VALUES (11959,   1, 0x020001B3) /* Setup */
+     , (11959,   2, 0x09000003) /* MotionTable */
+     , (11959,   8, 0x0600106B) /* Icon */
      , (11959, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (11959, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (11959, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11959, 8040, 515244045, 36.5311, 99.0092, 119.937, 0.7902355, 0, 0, -0.6128033) /* PCAPRecordedLocation */
+VALUES (11959, 8040, 0x1EB6000D, 36.5311, 99.0092, 119.937, 0.790236, 0, 0, -0.612803) /* PCAPRecordedLocation */
 /* @teleloc 0x1EB6000D [36.531100 99.009200 119.937000] 0.790236 0.000000 0.000000 -0.612803 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11959, 8000, 1911250965) /* PCAPRecordedObjectIID */;
+VALUES (11959, 8000, 0x71EB6015) /* PCAPRecordedObjectIID */;

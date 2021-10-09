@@ -26,22 +26,22 @@ VALUES (10806,   1, 'Ascendant Tumerok') /* Name */
      , (10806, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10806,   1,   33559567) /* Setup */
-     , (10806,   2,  150994954) /* MotionTable */
-     , (10806,   3,  536870931) /* SoundTable */
-     , (10806,   6,   67116625) /* PaletteBase */
-     , (10806,   8,  100667452) /* Icon */
-     , (10806,  22,  872415270) /* PhysicsEffectTable */
+VALUES (10806,   1, 0x0200140F) /* Setup */
+     , (10806,   2, 0x0900000A) /* MotionTable */
+     , (10806,   3, 0x20000013) /* SoundTable */
+     , (10806,   6, 0x04001E51) /* PaletteBase */
+     , (10806,   8, 0x0600103C) /* Icon */
+     , (10806,  22, 0x34000026) /* PhysicsEffectTable */
      , (10806, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (10806, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (10806, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10806, 8040, 1138556941, 37.63845, 98.75504, 7.776914, -0.1345346, 0, 0, -0.9909089) /* PCAPRecordedLocation */
+VALUES (10806, 8040, 0x43DD000D, 37.63845, 98.75504, 7.776914, -0.134535, 0, 0, -0.990909) /* PCAPRecordedLocation */
 /* @teleloc 0x43DD000D [37.638450 98.755040 7.776914] -0.134535 0.000000 0.000000 -0.990909 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10806, 8000, 3690731543) /* PCAPRecordedObjectIID */;
+VALUES (10806, 8000, 0xDBFC1817) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10806,   1, 280, 0, 0) /* Strength */
@@ -193,7 +193,11 @@ VALUES (10806, 2, 23700,  1, 0, 0, False) /* Create Tachi (23700) for Wield */
      , (10806, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
      , (10806, 9, 43335,  0, 0, 0, False) /* Create Scroll of Festering Curse VII (43335) for ContainTreasure */
      , (10806, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
-     , (10806, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */;
+     , (10806, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */
+     , (10806, 9, 27234,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Self (27234) for ContainTreasure */
+     , (10806, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */
+     , (10806, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (10806, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10806, 67116625, 57, 48)

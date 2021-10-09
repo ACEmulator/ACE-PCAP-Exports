@@ -58,21 +58,21 @@ VALUES (3852,   1, 'Frost Scimitar') /* Name */
      , (3852,  40, 'Varizma') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3852,   1,   33555774) /* Setup */
-     , (3852,   3,  536870932) /* SoundTable */
-     , (3852,   8,  100668975) /* Icon */
-     , (3852,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3852,   1, 0x0200053E) /* Setup */
+     , (3852,   3, 0x20000014) /* SoundTable */
+     , (3852,   8, 0x0600162F) /* Icon */
+     , (3852,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3852,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (3852,  52,  100676435) /* IconUnderlay */
+     , (3852,  52, 0x06003353) /* IconUnderlay */
      , (3852, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3852, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (3852, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (3852, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3852, 8000, 2173387646) /* PCAPRecordedObjectIID */;
+VALUES (3852, 8000, 0x818B437E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3852,  1378,      2)  /* CoordinationSelf6 */
-     , (3852,  1616,      2)  /* BloodDrinkerSelf6 */
+VALUES (3852,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (3852,  1378,      2)  /* CoordinationSelf6 */
      , (3852,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;

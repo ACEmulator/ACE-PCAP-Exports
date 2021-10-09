@@ -34,17 +34,17 @@ VALUES (60,   1, 'Olthoi Celdon Girth') /* Name */
      , (60,   8, 'Dez''mron Loremaster') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (60,   1,   33554647) /* Setup */
-     , (60,   3,  536870932) /* SoundTable */
-     , (60,   6,   67108990) /* PaletteBase */
-     , (60,   8,  100674643) /* Icon */
-     , (60,  22,  872415275) /* PhysicsEffectTable */
+VALUES (60,   1, 0x020000D7) /* Setup */
+     , (60,   3, 0x20000014) /* SoundTable */
+     , (60,   6, 0x0400007E) /* PaletteBase */
+     , (60,   8, 0x06002C53) /* Icon */
+     , (60,  22, 0x3400002B) /* PhysicsEffectTable */
      , (60, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (60, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (60, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (60, 8000, 2461403481) /* PCAPRecordedObjectIID */;
+VALUES (60, 8000, 0x92B60959) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (60, 67116576, 72, 12)

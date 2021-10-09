@@ -24,13 +24,13 @@ VALUES (2931,   1, 'Scroll of Force Bolt III') /* Name */
 Shoots a bolt of force at the target. The bolt does 42-84 points of piercing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2931,   1,   33554826) /* Setup */
-     , (2931,   8,  100677019) /* Icon */
-     , (2931,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2931,   1, 0x0200018A) /* Setup */
+     , (2931,   8, 0x0600359B) /* Icon */
+     , (2931,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2931,  28,         88) /* Spell - ForceBolt3 */
      , (2931, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2931, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2931, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2931, 8000, 3360407662) /* PCAPRecordedObjectIID */;
+VALUES (2931, 8000, 0xC84BC06E) /* PCAPRecordedObjectIID */;

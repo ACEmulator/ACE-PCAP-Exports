@@ -26,14 +26,14 @@ VALUES (29162,   1, 'Amber Wort') /* Name */
      , (29162,  20, 'Amber Worts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29162,   1,   33559154) /* Setup */
-     , (29162,   3,  536870932) /* SoundTable */
-     , (29162,   8,  100686462) /* Icon */
-     , (29162,  22,  872415275) /* PhysicsEffectTable */
-     , (29162,  50,  100687549) /* IconOverlay */
+VALUES (29162,   1, 0x02001272) /* Setup */
+     , (29162,   3, 0x20000014) /* SoundTable */
+     , (29162,   8, 0x06005A7E) /* Icon */
+     , (29162,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29162,  50, 0x06005EBD) /* IconOverlay */
      , (29162, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (29162, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29162, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29162, 8000, 3696553968) /* PCAPRecordedObjectIID */;
+VALUES (29162, 8000, 0xDC54EFF0) /* PCAPRecordedObjectIID */;

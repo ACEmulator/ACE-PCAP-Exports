@@ -25,27 +25,27 @@ VALUES (29300,   1, 'Viamontian Warcaster') /* Name */
      , (29300, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29300,   1,   33554433) /* Setup */
-     , (29300,   2,  150994945) /* MotionTable */
-     , (29300,   3,  536870913) /* SoundTable */
-     , (29300,   8,  100667446) /* Icon */
-     , (29300,   9,   83890513) /* EyesTexture */
-     , (29300,  10,   83890554) /* NoseTexture */
-     , (29300,  11,   83890655) /* MouthTexture */
-     , (29300,  15,   67117080) /* HairPalette */
-     , (29300,  16,   67110064) /* EyesPalette */
-     , (29300,  17,   67115902) /* SkinPalette */
-     , (29300,  22,  872415236) /* PhysicsEffectTable */
+VALUES (29300,   1, 0x02000001) /* Setup */
+     , (29300,   2, 0x09000001) /* MotionTable */
+     , (29300,   3, 0x20000001) /* SoundTable */
+     , (29300,   8, 0x06001036) /* Icon */
+     , (29300,   9, 0x05001151) /* EyesTexture */
+     , (29300,  10, 0x0500117A) /* NoseTexture */
+     , (29300,  11, 0x050011DF) /* MouthTexture */
+     , (29300,  15, 0x04002018) /* HairPalette */
+     , (29300,  16, 0x040004B0) /* EyesPalette */
+     , (29300,  17, 0x04001B7E) /* SkinPalette */
+     , (29300,  22, 0x34000004) /* PhysicsEffectTable */
      , (29300, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (29300, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (29300, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29300, 8040, 1966614, 60.5162, -160.022, -5.995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (29300, 8040, 0x001E0216, 60.5162, -160.022, -5.995, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x001E0216 [60.516200 -160.022000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29300, 8000, 3690851641) /* PCAPRecordedObjectIID */;
+VALUES (29300, 8000, 0xDBFDED39) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29300,   1, 225, 0, 0) /* Strength */

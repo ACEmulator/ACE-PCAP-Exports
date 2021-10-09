@@ -15,12 +15,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47831,   1, 'Sealed Letter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47831,   1,   33554678) /* Setup */
-     , (47831,   3,  536870932) /* SoundTable */
-     , (47831,   8,  100689293) /* Icon */
+VALUES (47831,   1, 0x020000F6) /* Setup */
+     , (47831,   3, 0x20000014) /* SoundTable */
+     , (47831,   8, 0x0600658D) /* Icon */
      , (47831, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (47831, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (47831, 8005,     133121) /* PCAPRecordedPhysicsDesc - CSetup, STable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47831, 8000, 2876885933) /* PCAPRecordedObjectIID */;
+VALUES (47831, 8000, 0xAB79CBAD) /* PCAPRecordedObjectIID */;

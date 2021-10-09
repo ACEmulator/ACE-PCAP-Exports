@@ -24,13 +24,13 @@ VALUES (3370,   1, 'Scroll of Life Magic Mastery Other IV') /* Name */
 Increases the target''s Life Magic skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3370,   1,   33554826) /* Setup */
-     , (3370,   8,  100676462) /* Icon */
-     , (3370,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3370,   1, 0x0200018A) /* Setup */
+     , (3370,   8, 0x0600336E) /* Icon */
+     , (3370,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3370,  28,        614) /* Spell - LifeMagicMasteryOther4 */
      , (3370, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3370, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3370, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3370, 8000, 3681522673) /* PCAPRecordedObjectIID */;
+VALUES (3370, 8000, 0xDB6F93F1) /* PCAPRecordedObjectIID */;

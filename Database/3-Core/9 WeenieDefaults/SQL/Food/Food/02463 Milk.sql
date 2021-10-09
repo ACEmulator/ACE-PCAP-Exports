@@ -23,17 +23,17 @@ VALUES (2463,   1, 'Milk') /* Name */
      , (2463,  20, 'Bottles of Milk') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2463,   1,   33554602) /* Setup */
-     , (2463,   3,  536870932) /* SoundTable */
-     , (2463,   6,   67111919) /* PaletteBase */
-     , (2463,   8,  100668493) /* Icon */
-     , (2463,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2463,   1, 0x020000AA) /* Setup */
+     , (2463,   3, 0x20000014) /* SoundTable */
+     , (2463,   6, 0x04000BEF) /* PaletteBase */
+     , (2463,   8, 0x0600144D) /* Icon */
+     , (2463,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2463, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (2463, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (2463, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2463, 8000, 3710937425) /* PCAPRecordedObjectIID */;
+VALUES (2463, 8000, 0xDD306951) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2463, 67111927, 0, 0);

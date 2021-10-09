@@ -34,25 +34,25 @@ VALUES (30208,   1, 'Gelid''s Jewel') /* Name */
      , (30208,  20, 'Gelid''s Jewels') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30208,   1,   33554809) /* Setup */
-     , (30208,   3,  536870932) /* SoundTable */
-     , (30208,   6,   67111919) /* PaletteBase */
-     , (30208,   8,  100686696) /* Icon */
-     , (30208,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30208,   1, 0x02000179) /* Setup */
+     , (30208,   3, 0x20000014) /* SoundTable */
+     , (30208,   6, 0x04000BEF) /* PaletteBase */
+     , (30208,   8, 0x06005B68) /* Icon */
+     , (30208,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30208,  28,       3692) /* Spell - ColdProtectionRare */
-     , (30208,  50,  100686654) /* IconOverlay */
-     , (30208,  52,  100686604) /* IconUnderlay */
+     , (30208,  50, 0x06005B3E) /* IconOverlay */
+     , (30208,  52, 0x06005B0C) /* IconUnderlay */
      , (30208, 8001, 1349005457) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30208, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30208, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30208, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30208, 8040, 23855548, 52.75872, -28.3301, -0.001000002, -0.2516992, 0, 0, -0.9678055) /* PCAPRecordedLocation */
+VALUES (30208, 8040, 0x016C01BC, 52.75872, -28.3301, -0.001, -0.251699, 0, 0, -0.967806) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [52.758720 -28.330100 -0.001000] -0.251699 0.000000 0.000000 -0.967806 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30208, 8000, 2525884415) /* PCAPRecordedObjectIID */;
+VALUES (30208, 8000, 0x968DEFFF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30208, 67111919, 0, 0);

@@ -23,13 +23,13 @@ VALUES (41192,   1, 'Apostate Excavation Laboratory Key') /* Name */
      , (41192,  16, 'A key taken from the Foreman of the Apostate Excavation.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41192,   1,   33554784) /* Setup */
-     , (41192,   3,  536870932) /* SoundTable */
-     , (41192,   8,  100668441) /* Icon */
-     , (41192,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41192,   1, 0x02000160) /* Setup */
+     , (41192,   3, 0x20000014) /* SoundTable */
+     , (41192,   8, 0x06001419) /* Icon */
+     , (41192,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41192, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (41192, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41192, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41192, 8000, 3703308218) /* PCAPRecordedObjectIID */;
+VALUES (41192, 8000, 0xDCBBFFBA) /* PCAPRecordedObjectIID */;

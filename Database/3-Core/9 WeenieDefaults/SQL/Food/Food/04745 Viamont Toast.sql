@@ -26,13 +26,13 @@ VALUES (4745,   1, 'Viamont Toast') /* Name */
      , (4745,  20, 'Pieces of Viamont Toast') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4745,   1,   33554806) /* Setup */
-     , (4745,   3,  536870932) /* SoundTable */
-     , (4745,   8,  100670039) /* Icon */
-     , (4745,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4745,   1, 0x02000176) /* Setup */
+     , (4745,   3, 0x20000014) /* SoundTable */
+     , (4745,   8, 0x06001A57) /* Icon */
+     , (4745,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4745, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (4745, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (4745, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4745, 8000, 2624934778) /* PCAPRecordedObjectIID */;
+VALUES (4745, 8000, 0x9C75537A) /* PCAPRecordedObjectIID */;

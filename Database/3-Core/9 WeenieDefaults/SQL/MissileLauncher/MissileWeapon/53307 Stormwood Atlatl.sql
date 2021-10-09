@@ -15,7 +15,7 @@ VALUES (53307,   1,        256) /* ItemType - MissileWeapon */
      , (53307,  48,         47) /* WeaponSkill - MissileWeapons */
      , (53307,  49,         25) /* WeaponTime */
      , (53307,  50,          4) /* AmmoType - Atlatl */
-     , (53307,  51,          2) /* CombatUse - Missle */
+     , (53307,  51,          2) /* CombatUse - Missile */
      , (53307,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53307, 105,          8) /* ItemWorkmanship */
      , (53307, 106,        450) /* ItemSpellcraft */
@@ -51,20 +51,20 @@ VALUES (53307,   1, 'Stormwood Atlatl') /* Name */
      , (53307,  16, 'An atlatl imbued with the energies of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53307,   1,   33561662) /* Setup */
-     , (53307,   3,  536870932) /* SoundTable */
-     , (53307,   8,  100693333) /* Icon */
-     , (53307,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53307,   1, 0x02001C3E) /* Setup */
+     , (53307,   3, 0x20000014) /* SoundTable */
+     , (53307,   8, 0x06007555) /* Icon */
+     , (53307,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53307, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (53307, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (53307, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53307, 8000, 3630241481) /* PCAPRecordedObjectIID */;
+VALUES (53307, 8000, 0xD86116C9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53307,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (53307,  4400,      2)  /* DefenderSelf8 */
-     , (53307,  4417,      2)  /* SwiftKillerSelf8 */
-     , (53307,  4522,      2)  /* BowMasterySelf8 */
-     , (53307,  6044,      2)  /* CantripBowAptitude4 */;
+VALUES (53307,  4417,      2)  /* SwiftKillerSelf8 */
+     , (53307,  6044,      2)  /* CantripMissileWeaponsAptitude4 */
+     , (53307,  4522,      2)  /* MissileWeaponsMasterySelf8 */
+     , (53307,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (53307,  4400,      2)  /* DefenderSelf8 */;

@@ -42,26 +42,26 @@ VALUES (12213,   1, 'Veil of Darkness') /* Name */
      , (12213,  16, 'A facial wrap that shields your face from sight. It is rumored that these were the same masks worn by the Elite Shagar Zharala that assassinated King Laszko.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12213,   1,   33557385) /* Setup */
-     , (12213,   3,  536870932) /* SoundTable */
-     , (12213,   8,  100672217) /* Icon */
-     , (12213,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12213,   1, 0x02000B89) /* Setup */
+     , (12213,   3, 0x20000014) /* SoundTable */
+     , (12213,   8, 0x060022D9) /* Icon */
+     , (12213,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12213, 8001,  270860440) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, HookType */
      , (12213, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12213, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12213, 8040, 23855549, 50.54018, -37.89431, -0.015, 0.9717073, 0, 0, -0.2361881) /* PCAPRecordedLocation */
+VALUES (12213, 8040, 0x016C01BD, 50.54018, -37.89431, -0.015, 0.971707, 0, 0, -0.236188) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [50.540180 -37.894310 -0.015000] 0.971707 0.000000 0.000000 -0.236188 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12213, 8000, 3690314157) /* PCAPRecordedObjectIID */;
+VALUES (12213, 8000, 0xDBF5B9AD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12213,   248,      2)  /* InvulnerabilitySelf5 */
-     , (12213,   398,      2)  /* StaffMasterySelf5 */
+VALUES (12213,   398,      2)  /* StaffMasterySelf5 */
+     , (12213,  1311,      2)  /* ArmorSelf5 */
      , (12213,   876,      2)  /* HealingMasterySelf3 */
-     , (12213,  1311,      2)  /* ArmorSelf5 */;
+     , (12213,   248,      2)  /* InvulnerabilitySelf5 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (12213, 0, 16787408);

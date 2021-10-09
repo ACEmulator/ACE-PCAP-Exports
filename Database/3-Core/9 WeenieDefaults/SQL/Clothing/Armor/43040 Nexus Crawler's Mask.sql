@@ -8,7 +8,6 @@ VALUES (43040,   1,          2) /* ItemType - Armor */
      , (43040,   4,      16384) /* ClothingPriority - Head */
      , (43040,   5,        200) /* EncumbranceVal */
      , (43040,   9,          1) /* ValidLocations - HeadWear */
-     , (43040,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (43040,  16,          1) /* ItemUseable - No */
      , (43040,  18,          1) /* UiEffects - Magical */
      , (43040,  19,          0) /* Value */
@@ -44,23 +43,23 @@ VALUES (43040,   1, 'Nexus Crawler''s Mask') /* Name */
      , (43040,  25, 'Ryochu Xao') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43040,   1,   33561077) /* Setup */
-     , (43040,   3,  536870932) /* SoundTable */
-     , (43040,   6,   67108990) /* PaletteBase */
-     , (43040,   8,  100691344) /* Icon */
-     , (43040,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43040,   1, 0x020019F5) /* Setup */
+     , (43040,   3, 0x20000014) /* SoundTable */
+     , (43040,   6, 0x0400007E) /* PaletteBase */
+     , (43040,   8, 0x06006D90) /* Icon */
+     , (43040,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43040, 8001,  271024272) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (43040, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43040, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43040, 8000, 2181543961) /* PCAPRecordedObjectIID */;
+VALUES (43040, 8000, 0x8207B819) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43040,  2053,      2)  /* ArmorSelf7 */
-     , (43040,  2108,      2)  /* Impenetrability7 */
      , (43040,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */
-     , (43040,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */;
+     , (43040,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */
+     , (43040,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43040, 67116924, 240, 16);

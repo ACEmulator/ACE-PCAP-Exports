@@ -14,20 +14,21 @@ VALUES (41713,   1,       2048) /* ItemType - Gem */
      , (41713, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41713,  22, True ) /* Inscribable */;
+VALUES (41713,  22, True ) /* Inscribable */
+     , (41713,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41713,   1, 'Whispering Blade Token') /* Name */
      , (41713,  16, 'This token represents a Silveran weapon. Use this token to purchase a Silveran weapon from the Whispering Blade Quatermaster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41713,   1,   33559991) /* Setup */
-     , (41713,   3,  536870932) /* SoundTable */
-     , (41713,   8,  100686367) /* Icon */
-     , (41713,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41713,   1, 0x020015B7) /* Setup */
+     , (41713,   3, 0x20000014) /* SoundTable */
+     , (41713,   8, 0x06005A1F) /* Icon */
+     , (41713,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41713, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (41713, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41713, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41713, 8000, 2447293233) /* PCAPRecordedObjectIID */;
+VALUES (41713, 8000, 0x91DEBB31) /* PCAPRecordedObjectIID */;

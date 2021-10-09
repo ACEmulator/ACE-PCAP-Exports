@@ -20,7 +20,8 @@ VALUES (43817,   1,       2048) /* ItemType - Gem */
      , (43817, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43817,  22, True ) /* Inscribable */;
+VALUES (43817,  22, True ) /* Inscribable */
+     , (43817,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43817,   1, 'Shadownether Stone') /* Name */
@@ -28,13 +29,13 @@ VALUES (43817,   1, 'Shadownether Stone') /* Name */
      , (43817,  16, 'A fragile black crystal enshrouded in nether. It looks like it can be fitted into a Perfect Isparian Wand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43817,   1,   33559809) /* Setup */
-     , (43817,   3,  536870932) /* SoundTable */
-     , (43817,   8,  100691696) /* Icon */
-     , (43817,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43817,   1, 0x02001501) /* Setup */
+     , (43817,   3, 0x20000014) /* SoundTable */
+     , (43817,   8, 0x06006EF0) /* Icon */
+     , (43817,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43817, 8001,    2650264) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (43817, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43817, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43817, 8000, 2217299913) /* PCAPRecordedObjectIID */;
+VALUES (43817, 8000, 0x84294FC9) /* PCAPRecordedObjectIID */;

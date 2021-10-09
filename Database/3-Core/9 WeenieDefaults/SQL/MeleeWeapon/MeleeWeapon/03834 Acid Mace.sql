@@ -48,18 +48,18 @@ VALUES (3834,   1, 'Acid Mace') /* Name */
      , (3834,  16, 'Acid Mace of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3834,   1,   33555759) /* Setup */
-     , (3834,   3,  536870932) /* SoundTable */
-     , (3834,   6,   67111919) /* PaletteBase */
-     , (3834,   8,  100668964) /* Icon */
-     , (3834,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3834,   1, 0x0200052F) /* Setup */
+     , (3834,   3, 0x20000014) /* SoundTable */
+     , (3834,   6, 0x04000BEF) /* PaletteBase */
+     , (3834,   8, 0x06001624) /* Icon */
+     , (3834,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3834,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3834, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3834, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3834, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3834, 8000, 3701069358) /* PCAPRecordedObjectIID */;
+VALUES (3834, 8000, 0xDC99D62E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3834,  1601,      2)  /* DefenderSelf2 */

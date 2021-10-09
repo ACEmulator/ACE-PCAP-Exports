@@ -22,13 +22,13 @@ VALUES (38751,   1, 'Inflictive Quill of Conveyance') /* Name */
      , (38751,  20, 'Inflictive Quills of Conveyance') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38751,   1,   33559616) /* Setup */
-     , (38751,   8,  100690196) /* Icon */
-     , (38751,  52,  100676437) /* IconUnderlay */
+VALUES (38751,   1, 0x02001440) /* Setup */
+     , (38751,   8, 0x06006914) /* Icon */
+     , (38751,  52, 0x06003355) /* IconUnderlay */
      , (38751, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (38751, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (38751, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (38751, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38751, 8000, 2158698201) /* PCAPRecordedObjectIID */;
+VALUES (38751, 8000, 0x80AB1ED9) /* PCAPRecordedObjectIID */;

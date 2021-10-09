@@ -24,16 +24,13 @@ VALUES (45250,   1, 'Scroll of Dirty Fighting Mastery Other VII') /* Name */
 Increases the target''s Dirty Fighting skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45250,   1,   33554826) /* Setup */
-     , (45250,   8,  100692255) /* Icon */
-     , (45250,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45250,   1, 0x0200018A) /* Setup */
+     , (45250,   8, 0x0600711F) /* Icon */
+     , (45250,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45250,  28,       5777) /* Spell - DirtyFightingMasteryOther7 */
      , (45250, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45250, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45250, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45250, 8000, 3680411648) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45250, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
+VALUES (45250, 8000, 0xDB5EA000) /* PCAPRecordedObjectIID */;

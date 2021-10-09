@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38621,   1, 'Leatherbound Journal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38621,   1,   33556929) /* Setup */
-     , (38621,   3,  536870932) /* SoundTable */
-     , (38621,   8,  100671237) /* Icon */
-     , (38621,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38621,   1, 0x020009C1) /* Setup */
+     , (38621,   3, 0x20000014) /* SoundTable */
+     , (38621,   8, 0x06001F05) /* Icon */
+     , (38621,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38621, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (38621, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38621, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38621, 8040, 15401778, 101.493, -62.9576, 0.0855, 0.9847265, 0, 0, 0.1741079) /* PCAPRecordedLocation */
+VALUES (38621, 8040, 0x00EB0332, 101.493, -62.9576, 0.0855, 0.984727, 0, 0, 0.174108) /* PCAPRecordedLocation */
 /* @teleloc 0x00EB0332 [101.493000 -62.957600 0.085500] 0.984727 0.000000 0.000000 0.174108 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38621, 8000, 2627736967) /* PCAPRecordedObjectIID */;
+VALUES (38621, 8000, 0x9CA01587) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (20480,   1, 'Scroll of Storm''s Boon') /* Name */
 Reduces damage the target takes from Lightning by 65%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20480,   1,   33554826) /* Setup */
-     , (20480,   8,  100676948) /* Icon */
-     , (20480,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20480,   1, 0x0200018A) /* Setup */
+     , (20480,   8, 0x06003554) /* Icon */
+     , (20480,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20480,  28,       2158) /* Spell - LightningProtectionOther7 */
      , (20480, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20480, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20480, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20480, 8000, 3701762357) /* PCAPRecordedObjectIID */;
+VALUES (20480, 8000, 0xDCA46935) /* PCAPRecordedObjectIID */;

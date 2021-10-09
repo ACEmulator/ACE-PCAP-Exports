@@ -18,21 +18,22 @@ VALUES (45151,   1,        128) /* ItemType - Misc */
      , (45151, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45151,  69, False) /* IsSellable */;
+VALUES (45151,  23, True ) /* DestroyOnSell */
+     , (45151,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45151,   1, 'Mhoire Oubliette Portal Glyph') /* Name */
      , (45151,  15, 'These glyphs power the portals of the Mhoire Oubliette. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45151,   1,   33554809) /* Setup */
-     , (45151,   3,  536870932) /* SoundTable */
-     , (45151,   8,  100668361) /* Icon */
-     , (45151,  22,  872415275) /* PhysicsEffectTable */
-     , (45151,  50,  100688913) /* IconOverlay */
+VALUES (45151,   1, 0x02000179) /* Setup */
+     , (45151,   3, 0x20000014) /* SoundTable */
+     , (45151,   8, 0x060013C9) /* Icon */
+     , (45151,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45151,  50, 0x06006411) /* IconOverlay */
      , (45151, 8001, 1075867664) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (45151, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (45151, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45151, 8000, 2210356886) /* PCAPRecordedObjectIID */;
+VALUES (45151, 8000, 0x83BF5E96) /* PCAPRecordedObjectIID */;

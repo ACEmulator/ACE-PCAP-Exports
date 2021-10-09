@@ -15,7 +15,7 @@ VALUES (27594,   1,        256) /* ItemType - MissileWeapon */
      , (27594,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27594,  49,         40) /* WeaponTime */
      , (27594,  50,          1) /* AmmoType - Arrow */
-     , (27594,  51,          2) /* CombatUse - Missle */
+     , (27594,  51,          2) /* CombatUse - Missile */
      , (27594,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27594, 106,        225) /* ItemSpellcraft */
      , (27594, 107,       3558) /* ItemCurMana */
@@ -51,22 +51,22 @@ VALUES (27594,   1, 'Sublime Elari Wood Bow') /* Name */
      , (27594,  16, 'A lightweight bow made of living elaniwood found only on Marae Lassel. It is strung with silvery gromnie sinew that holds incredible tension. You notice a small note shoved into a crack in the haft. You pull it out and read, "A step in the right direction. The living wood allows superior draw weight. Not as good as larchess was reputed to be, at least according to that overweening blowhard Locke. If only my hatchet could chip those damned glowing trees! Floating creatures still dogging me, but wary since I punctured that ''mouthless'' one." - Lilitha') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27594,   1,   33557228) /* Setup */
-     , (27594,   3,  536870932) /* SoundTable */
-     , (27594,   8,  100671861) /* Icon */
-     , (27594,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27594,   1, 0x02000AEC) /* Setup */
+     , (27594,   3, 0x20000014) /* SoundTable */
+     , (27594,   8, 0x06002175) /* Icon */
+     , (27594,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27594, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27594, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27594, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27594, 8000, 3372263977) /* PCAPRecordedObjectIID */;
+VALUES (27594, 8000, 0xC900AA29) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27594,  1384,      2)  /* CoordinationOther6 */
+VALUES (27594,  2629,      2)  /* HuntressBoon */
      , (27594,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (27594,  1384,      2)  /* CoordinationOther6 */
      , (27594,  2416,      2)  /* HighTensionString */
      , (27594,  2423,      2)  /* Precise */
-     , (27594,  2426,      2)  /* StrongPull */
      , (27594,  2488,      2)  /* ElariBowFamiliarity */
-     , (27594,  2629,      2)  /* HuntressBoon */;
+     , (27594,  2426,      2)  /* StrongPull */;

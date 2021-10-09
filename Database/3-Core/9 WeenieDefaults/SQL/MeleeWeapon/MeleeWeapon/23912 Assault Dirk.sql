@@ -49,20 +49,20 @@ VALUES (23912,   1, 'Assault Dirk') /* Name */
      , (23912,  16, 'A reward for defeating the leaders of the Shreth Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23912,   1,   33558208) /* Setup */
-     , (23912,   3,  536870932) /* SoundTable */
-     , (23912,   8,  100671745) /* Icon */
-     , (23912,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23912,   1, 0x02000EC0) /* Setup */
+     , (23912,   3, 0x20000014) /* SoundTable */
+     , (23912,   8, 0x06002101) /* Icon */
+     , (23912,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23912,  30,         88) /* PhysicsScript - Create */
      , (23912, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23912, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23912, 8005,     161921) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23912, 8000, 2192305053) /* PCAPRecordedObjectIID */;
+VALUES (23912, 8000, 0x82ABEB9D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23912,  1377,      2)  /* CoordinationSelf5 */
-     , (23912,  1590,      2)  /* HeartSeekerSelf4 */
-     , (23912,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (23912,  2004,      2)  /* WarriorsVitality */;
+VALUES (23912,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (23912,  2004,      2)  /* WarriorsVitality */
+     , (23912,  1377,      2)  /* CoordinationSelf5 */
+     , (23912,  1590,      2)  /* HeartSeekerSelf4 */;

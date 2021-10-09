@@ -22,19 +22,19 @@ VALUES (53299,   1, 'Luminous Amber: Gauntlets of the Storm') /* Name */
      , (53299,  20, 'Luminous Ambers: Gauntlets of the Storm') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53299,   1,   33554809) /* Setup */
-     , (53299,   3,  536870932) /* SoundTable */
-     , (53299,   6,   67111919) /* PaletteBase */
-     , (53299,   8,  100693328) /* Icon */
-     , (53299,  22,  872415275) /* PhysicsEffectTable */
-     , (53299,  52,  100691593) /* IconUnderlay */
+VALUES (53299,   1, 0x02000179) /* Setup */
+     , (53299,   3, 0x20000014) /* SoundTable */
+     , (53299,   6, 0x04000BEF) /* PaletteBase */
+     , (53299,   8, 0x06007550) /* Icon */
+     , (53299,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53299,  52, 0x06006E89) /* IconUnderlay */
      , (53299, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (53299, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (53299, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (53299, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53299, 8000, 3036619108) /* PCAPRecordedObjectIID */;
+VALUES (53299, 8000, 0xB4FF2164) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53299, 67111921, 0, 0);

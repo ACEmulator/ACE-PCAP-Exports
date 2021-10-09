@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46087,   1, 'Enhanced Stinging Atlan Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46087,   1,   33556363) /* Setup */
-     , (46087,   3,  536870932) /* SoundTable */
-     , (46087,   6,   67111919) /* PaletteBase */
-     , (46087,   8,  100670544) /* Icon */
-     , (46087,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46087,   1, 0x0200078B) /* Setup */
+     , (46087,   3, 0x20000014) /* SoundTable */
+     , (46087,   6, 0x04000BEF) /* PaletteBase */
+     , (46087,   8, 0x06001C50) /* Icon */
+     , (46087,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46087, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46087, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46087, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46087, 8000, 2148598019) /* PCAPRecordedObjectIID */;
+VALUES (46087, 8000, 0x80110103) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46087, 67111923, 0, 0);

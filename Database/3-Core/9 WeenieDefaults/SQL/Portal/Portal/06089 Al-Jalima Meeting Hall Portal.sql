@@ -22,16 +22,16 @@ VALUES (6089,   1, 'Al-Jalima Meeting Hall Portal') /* Name */
      , (6089, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6089,   1,   33554867) /* Setup */
-     , (6089,   2,  150994947) /* MotionTable */
-     , (6089,   8,  100667499) /* Icon */
+VALUES (6089,   1, 0x020001B3) /* Setup */
+     , (6089,   2, 0x09000003) /* MotionTable */
+     , (6089,   8, 0x0600106B) /* Icon */
      , (6089, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (6089, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (6089, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6089, 8040, 2240348417, 108.931, 12.9724, 87.937, -0.9469137, 0, 0, -0.3214879) /* PCAPRecordedLocation */
+VALUES (6089, 8040, 0x85890101, 108.931, 12.9724, 87.937, -0.946914, 0, 0, -0.321488) /* PCAPRecordedLocation */
 /* @teleloc 0x85890101 [108.931000 12.972400 87.937000] -0.946914 0.000000 0.000000 -0.321488 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6089, 8000, 2019069954) /* PCAPRecordedObjectIID */;
+VALUES (6089, 8000, 0x78589002) /* PCAPRecordedObjectIID */;

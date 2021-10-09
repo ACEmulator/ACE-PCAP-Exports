@@ -30,21 +30,21 @@ VALUES (29862,   1, 'Aun Pitamaura') /* Name */
      , (29862, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29862,   1,   33557117) /* Setup */
-     , (29862,   2,  150994954) /* MotionTable */
-     , (29862,   3,  536870931) /* SoundTable */
-     , (29862,   6,   67113280) /* PaletteBase */
-     , (29862,   8,  100671756) /* Icon */
+VALUES (29862,   1, 0x02000A7D) /* Setup */
+     , (29862,   2, 0x0900000A) /* MotionTable */
+     , (29862,   3, 0x20000013) /* SoundTable */
+     , (29862,   6, 0x04001140) /* PaletteBase */
+     , (29862,   8, 0x0600210C) /* Icon */
      , (29862, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (29862, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (29862, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29862, 8040, 565248017, 57.566, 16.4766, 2.0055, -0.23099, 0, 0, 0.972956) /* PCAPRecordedLocation */
+VALUES (29862, 8040, 0x21B10011, 57.566, 16.4766, 2.0055, -0.23099, 0, 0, 0.972956) /* PCAPRecordedLocation */
 /* @teleloc 0x21B10011 [57.566000 16.476600 2.005500] -0.230990 0.000000 0.000000 0.972956 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29862, 8000, 3691229768) /* PCAPRecordedObjectIID */;
+VALUES (29862, 8000, 0xDC03B248) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29862,   1, 120, 0, 0) /* Strength */

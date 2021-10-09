@@ -22,20 +22,20 @@ VALUES (43536,   1, 'Passage to Olthoi Island') /* Name */
      , (43536, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43536,   1,   33554867) /* Setup */
-     , (43536,   2,  150994947) /* MotionTable */
-     , (43536,   6,   67109370) /* PaletteBase */
-     , (43536,   8,  100667499) /* Icon */
+VALUES (43536,   1, 0x020001B3) /* Setup */
+     , (43536,   2, 0x09000003) /* MotionTable */
+     , (43536,   6, 0x040001FA) /* PaletteBase */
+     , (43536,   8, 0x0600106B) /* Icon */
      , (43536, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (43536, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (43536, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43536, 8040, 3721330745, 174.152, 10.8512, 1.424334, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43536, 8040, 0xDDCF0039, 174.152, 10.8512, 1.424334, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xDDCF0039 [174.152000 10.851200 1.424334] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43536, 8000, 3361454931) /* PCAPRecordedObjectIID */;
+VALUES (43536, 8000, 0xC85BBB53) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43536, 67111849, 1, 255);

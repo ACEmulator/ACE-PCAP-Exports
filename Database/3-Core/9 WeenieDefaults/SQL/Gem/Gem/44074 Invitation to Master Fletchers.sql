@@ -33,10 +33,10 @@ VALUES (44074,   1, 'Invitation to Master Fletchers') /* Name */
      , (44074,  16, 'An elegantly written invitation addressed to those who have specialized in the skills of fletching.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44074,   1,   33554818) /* Setup */
-     , (44074,   3,  536870932) /* SoundTable */
-     , (44074,   8,  100667503) /* Icon */
-     , (44074,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44074,   1, 0x02000182) /* Setup */
+     , (44074,   3, 0x20000014) /* SoundTable */
+     , (44074,   8, 0x0600106F) /* Icon */
+     , (44074,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44074,  28,        157) /* Spell - SummonPortal1 */
      , (44074, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (44074, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -44,4 +44,4 @@ VALUES (44074,   1,   33554818) /* Setup */
      , (44074, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44074, 8000, 3132645460) /* PCAPRecordedObjectIID */;
+VALUES (44074, 8000, 0xBAB86054) /* PCAPRecordedObjectIID */;

@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30404,   1, 'Champion of Sanamar Token') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30404,   1,   33554769) /* Setup */
-     , (30404,   3,  536870932) /* SoundTable */
-     , (30404,   8,  100686370) /* Icon */
-     , (30404,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30404,   1, 0x02000151) /* Setup */
+     , (30404,   3, 0x20000014) /* SoundTable */
+     , (30404,   8, 0x06005A22) /* Icon */
+     , (30404,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30404, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (30404, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30404, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30404, 8000, 3706136576) /* PCAPRecordedObjectIID */;
+VALUES (30404, 8000, 0xDCE72800) /* PCAPRecordedObjectIID */;

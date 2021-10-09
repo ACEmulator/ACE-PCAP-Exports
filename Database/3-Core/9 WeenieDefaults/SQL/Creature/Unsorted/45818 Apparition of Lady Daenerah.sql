@@ -26,22 +26,22 @@ VALUES (45818,   1, 'Apparition of Lady Daenerah') /* Name */
      , (45818, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45818,   1,   33561104) /* Setup */
-     , (45818,   2,  150995469) /* MotionTable */
-     , (45818,   3,  536870913) /* SoundTable */
-     , (45818,   6,   67108990) /* PaletteBase */
-     , (45818,   8,  100667446) /* Icon */
-     , (45818,  22,  872415236) /* PhysicsEffectTable */
+VALUES (45818,   1, 0x02001A10) /* Setup */
+     , (45818,   2, 0x0900020D) /* MotionTable */
+     , (45818,   3, 0x20000001) /* SoundTable */
+     , (45818,   6, 0x0400007E) /* PaletteBase */
+     , (45818,   8, 0x06001036) /* Icon */
+     , (45818,  22, 0x34000004) /* PhysicsEffectTable */
      , (45818, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (45818, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (45818, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45818, 8040, 1498285475, 50.8647, -126.901, -29.99425, -0.7079743, 0, 0, -0.7062382) /* PCAPRecordedLocation */
+VALUES (45818, 8040, 0x594E05A3, 50.8647, -126.901, -29.99425, -0.707974, 0, 0, -0.706238) /* PCAPRecordedLocation */
 /* @teleloc 0x594E05A3 [50.864700 -126.901000 -29.994250] -0.707974 0.000000 0.000000 -0.706238 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45818, 8000, 3694691418) /* PCAPRecordedObjectIID */;
+VALUES (45818, 8000, 0xDC38845A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45818, 2, 38850,  1, 0, 0, False) /* Create Piercing Baton (38850) for Wield */;

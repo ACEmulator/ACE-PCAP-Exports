@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40519,   1,          1) /* ItemType - MeleeWeapon */
      , (40519,   5,        450) /* EncumbranceVal */
      , (40519,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (40519,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (40519,  16,          1) /* ItemUseable - No */
      , (40519,  18,          1) /* UiEffects - Magical */
      , (40519,  19,      17500) /* Value */
@@ -53,29 +52,29 @@ VALUES (40519,   1, 'Skeletonbane Sword of Lost Light') /* Name */
      , (40519,  25, 'Kromwell') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40519,   1,   33560711) /* Setup */
-     , (40519,   3,  536870932) /* SoundTable */
-     , (40519,   8,  100674513) /* Icon */
-     , (40519,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40519,   1, 0x02001887) /* Setup */
+     , (40519,   3, 0x20000014) /* SoundTable */
+     , (40519,   8, 0x06002BD1) /* Icon */
+     , (40519,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40519, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (40519, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40519, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (40519, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40519, 8040, 23855554, 62.59197, -34.73466, -0.071, -0.5003142, -0.5003142, -0.4996856, -0.4996856) /* PCAPRecordedLocation */
+VALUES (40519, 8040, 0x016C01C2, 62.59197, -34.73466, -0.071, -0.500314, -0.500314, -0.499686, -0.499686) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [62.591970 -34.734660 -0.071000] -0.500314 -0.500314 -0.499686 -0.499686 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40519, 8000, 2147915852) /* PCAPRecordedObjectIID */
-     , (40519, 8008, 1342359774) /* PCAPRecordedParentIID */;
+VALUES (40519, 8000, 0x8006984C) /* PCAPRecordedObjectIID */
+     , (40519, 8008, 0x5002C8DE) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40519,  2059,      2)  /* CoordinationSelf7 */
+VALUES (40519,  2116,      2)  /* SwiftKillerSelf7 */
+     , (40519,  2059,      2)  /* CoordinationSelf7 */
+     , (40519,  4624,      2)  /* HeavyWeaponsMasterySelf8 */
      , (40519,  2087,      2)  /* StrengthSelf7 */
-     , (40519,  2101,      2)  /* DefenderSelf7 */
-     , (40519,  2106,      2)  /* HeartSeekerSelf7 */
-     , (40519,  2116,      2)  /* SwiftKillerSelf7 */
+     , (40519,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */
      , (40519,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (40519,  4624,      2)  /* SwordMasterySelf8 */
-     , (40519,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;
+     , (40519,  2101,      2)  /* DefenderSelf7 */
+     , (40519,  2106,      2)  /* HeartSeekerSelf7 */;

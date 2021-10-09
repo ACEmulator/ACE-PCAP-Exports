@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6072,   1, 'Dho War Apprentice Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6072,   1,   33554854) /* Setup */
-     , (6072,   3,  536870932) /* SoundTable */
-     , (6072,   6,   67108990) /* PaletteBase */
-     , (6072,   8,  100670367) /* Icon */
-     , (6072,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6072,   1, 0x020001A6) /* Setup */
+     , (6072,   3, 0x20000014) /* SoundTable */
+     , (6072,   6, 0x0400007E) /* PaletteBase */
+     , (6072,   8, 0x06001B9F) /* Icon */
+     , (6072,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6072, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (6072, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6072, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6072, 8000, 2723580578) /* PCAPRecordedObjectIID */;
+VALUES (6072, 8000, 0xA2568AA2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6072, 67110026, 96, 12)

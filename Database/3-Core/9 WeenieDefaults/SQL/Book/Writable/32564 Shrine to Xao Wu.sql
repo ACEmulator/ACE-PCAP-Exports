@@ -26,17 +26,17 @@ VALUES (32564,   1, 'Shrine to Xao Wu') /* Name */
      , (32564, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32564,   1,   33558344) /* Setup */
-     , (32564,   2,  150995196) /* MotionTable */
-     , (32564,   3,  536870932) /* SoundTable */
-     , (32564,   8,  100674324) /* Icon */
+VALUES (32564,   1, 0x02000F48) /* Setup */
+     , (32564,   2, 0x090000FC) /* MotionTable */
+     , (32564,   3, 0x20000014) /* SoundTable */
+     , (32564,   8, 0x06002B14) /* Icon */
      , (32564, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (32564, 8003,        276) /* PCAPRecordedObjectDesc - Stuck, Attackable, Book */
      , (32564, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32564, 8040, 3027238954, 124.5, 32, 42, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (32564, 8040, 0xB470002A, 124.5, 32, 42, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xB470002A [124.500000 32.000000 42.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32564, 8000, 2068250677) /* PCAPRecordedObjectIID */;
+VALUES (32564, 8000, 0x7B470035) /* PCAPRecordedObjectIID */;

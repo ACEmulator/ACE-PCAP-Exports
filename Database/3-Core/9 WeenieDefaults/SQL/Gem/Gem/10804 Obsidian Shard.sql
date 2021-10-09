@@ -26,13 +26,13 @@ VALUES (10804,   1, 'Obsidian Shard') /* Name */
      , (10804,  16, 'A chunk of polished volcanic rock.  As you look at it, you can see what seems to be movement just under its surface.  You feel a strange pressure in the back of your mind, but it slowly recedes.  (Bring it to Diyas in Zaikhal)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10804,   1,   33555391) /* Setup */
-     , (10804,   3,  536870932) /* SoundTable */
-     , (10804,   8,  100671395) /* Icon */
-     , (10804,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10804,   1, 0x020003BF) /* Setup */
+     , (10804,   3, 0x20000014) /* SoundTable */
+     , (10804,   8, 0x06001FA3) /* Icon */
+     , (10804,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10804, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (10804, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10804, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10804, 8000, 3701756666) /* PCAPRecordedObjectIID */;
+VALUES (10804, 8000, 0xDCA452FA) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (2134,   1, 'Scroll of Bludgeoning Volley III') /* Name */
 Shoots three shock waves toward the target. Each wave does 15-31 points of bludgeoning damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2134,   1,   33554826) /* Setup */
-     , (2134,   8,  100677008) /* Icon */
-     , (2134,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2134,   1, 0x0200018A) /* Setup */
+     , (2134,   8, 0x06003590) /* Icon */
+     , (2134,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2134,  28,        131) /* Spell - BludgeoningVolley3 */
      , (2134, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2134, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2134, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2134, 8000, 3631307396) /* PCAPRecordedObjectIID */;
+VALUES (2134, 8000, 0xD8715A84) /* PCAPRecordedObjectIID */;

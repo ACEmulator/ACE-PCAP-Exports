@@ -18,16 +18,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35114,   1, '"Mag-Ma!"') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35114,   1,   33557928) /* Setup */
-     , (35114,   3,  536870994) /* SoundTable */
-     , (35114,   8,  100667465) /* Icon */
+VALUES (35114,   1, 0x02000DA8) /* Setup */
+     , (35114,   3, 0x20000052) /* SoundTable */
+     , (35114,   8, 0x06001049) /* Icon */
      , (35114, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (35114, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (35114, 8005,      34817) /* PCAPRecordedPhysicsDesc - CSetup, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35114, 8040, 2332230281, 230, -70, -72.25, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35114, 8040, 0x8B030289, 230, -70, -72.25, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8B030289 [230.000000 -70.000000 -72.250000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35114, 8000, 2024812610) /* PCAPRecordedObjectIID */;
+VALUES (35114, 8000, 0x78B03042) /* PCAPRecordedObjectIID */;

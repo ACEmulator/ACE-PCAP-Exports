@@ -23,17 +23,17 @@ VALUES (6117,   1, 'Pile of Long Sticks') /* Name */
      , (6117,  20, 'Piles of Long Sticks') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6117,   1,   33556409) /* Setup */
-     , (6117,   3,  536870932) /* SoundTable */
-     , (6117,   8,  100670473) /* Icon */
-     , (6117,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6117,   1, 0x020007B9) /* Setup */
+     , (6117,   3, 0x20000014) /* SoundTable */
+     , (6117,   8, 0x06001C09) /* Icon */
+     , (6117,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6117, 8001,     536601) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, TargetType */
      , (6117, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (6117, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6117, 8040, 2261254156, 27.50322, 82.71441, 111.0539, 0.9990482, 0, 0, -0.04361939) /* PCAPRecordedLocation */
+VALUES (6117, 8040, 0x86C8000C, 27.50322, 82.71441, 111.0539, 0.999048, 0, 0, -0.043619) /* PCAPRecordedLocation */
 /* @teleloc 0x86C8000C [27.503220 82.714410 111.053900] 0.999048 0.000000 0.000000 -0.043619 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6117, 8000, 3684968753) /* PCAPRecordedObjectIID */;
+VALUES (6117, 8000, 0xDBA42931) /* PCAPRecordedObjectIID */;

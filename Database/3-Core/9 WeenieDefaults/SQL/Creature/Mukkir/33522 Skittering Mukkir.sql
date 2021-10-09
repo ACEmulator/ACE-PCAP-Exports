@@ -26,23 +26,23 @@ VALUES (33522,   1, 'Skittering Mukkir') /* Name */
      , (33522, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33522,   1,   33559741) /* Setup */
-     , (33522,   2,  150995349) /* MotionTable */
-     , (33522,   3,  536871107) /* SoundTable */
-     , (33522,   6,   67116771) /* PaletteBase */
-     , (33522,   8,  100669122) /* Icon */
-     , (33522,  22,  872415417) /* PhysicsEffectTable */
+VALUES (33522,   1, 0x020014BD) /* Setup */
+     , (33522,   2, 0x09000195) /* MotionTable */
+     , (33522,   3, 0x200000C3) /* SoundTable */
+     , (33522,   6, 0x04001EE3) /* PaletteBase */
+     , (33522,   8, 0x060016C2) /* Icon */
+     , (33522,  22, 0x340000B9) /* PhysicsEffectTable */
      , (33522,  30,         84) /* PhysicsScript - BreatheFlame */
      , (33522, 8001,         22) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable */
      , (33522, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (33522, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33522, 8040, 15729000, 62.53, -60, 6, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (33522, 8040, 0x00F00168, 62.53, -60, 6, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00F00168 [62.530000 -60.000000 6.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33522, 8000, 3707781710) /* PCAPRecordedObjectIID */;
+VALUES (33522, 8000, 0xDD00424E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (33522,   1,     0, 0, 0, 6130) /* MaxHealth */;

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15873,   1,        256) /* ItemType - MissileWeapon */
      , (15873,   5,        980) /* EncumbranceVal */
      , (15873,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (15873,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (15873,  16,          1) /* ItemUseable - No */
      , (15873,  19,        350) /* Value */
      , (15873,  33,         -2) /* Bonded - Destroy */
@@ -16,7 +15,7 @@ VALUES (15873,   1,        256) /* ItemType - MissileWeapon */
      , (15873,  48,         47) /* WeaponSkill - MissileWeapons */
      , (15873,  49,         -1) /* WeaponTime */
      , (15873,  50,          1) /* AmmoType - Arrow */
-     , (15873,  51,          2) /* CombatUse - Missle */
+     , (15873,  51,          2) /* CombatUse - Missile */
      , (15873,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15873, 114,          1) /* Attuned - Attuned */
      , (15873, 353,          8) /* WeaponType - Bow */
@@ -24,7 +23,8 @@ VALUES (15873,   1,        256) /* ItemType - MissileWeapon */
      , (15873, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15873,  22, True ) /* Inscribable */;
+VALUES (15873,  22, True ) /* Inscribable */
+     , (15873,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15873,  21,       0) /* WeaponLength */
@@ -39,23 +39,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15873,   1, 'Bronze Longbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15873,   1,   33554728) /* Setup */
-     , (15873,   3,  536870932) /* SoundTable */
-     , (15873,   6,   67111919) /* PaletteBase */
-     , (15873,   8,  100672768) /* Icon */
-     , (15873,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15873,   1, 0x02000128) /* Setup */
+     , (15873,   3, 0x20000014) /* SoundTable */
+     , (15873,   6, 0x04000BEF) /* PaletteBase */
+     , (15873,   8, 0x06002500) /* Icon */
+     , (15873,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15873, 8001,    2327320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (15873, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15873, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (15873, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15873, 8040, 1415119377, 108.5491, -80.16212, 9.584134, 0.7059588, 0, 0, 0.7082528) /* PCAPRecordedLocation */
+VALUES (15873, 8040, 0x54590211, 108.5491, -80.16212, 9.584134, 0.705959, 0, 0, 0.708253) /* PCAPRecordedLocation */
 /* @teleloc 0x54590211 [108.549100 -80.162120 9.584134] 0.705959 0.000000 0.000000 0.708253 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15873, 8000, 3359553134) /* PCAPRecordedObjectIID */
-     , (15873, 8008, 3360318646) /* PCAPRecordedParentIID */;
+VALUES (15873, 8000, 0xC83EB66E) /* PCAPRecordedObjectIID */
+     , (15873, 8008, 0xC84A64B6) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15873, 67113836, 0, 0);

@@ -25,22 +25,22 @@ VALUES (35174,   1, 'High Acolyte of the Blood') /* Name */
      , (35174, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35174,   1,   33558437) /* Setup */
-     , (35174,   2,  150994967) /* MotionTable */
-     , (35174,   3,  536870934) /* SoundTable */
-     , (35174,   6,   67114480) /* PaletteBase */
-     , (35174,   8,  100674805) /* Icon */
-     , (35174,  22,  872415272) /* PhysicsEffectTable */
+VALUES (35174,   1, 0x02000FA5) /* Setup */
+     , (35174,   2, 0x09000017) /* MotionTable */
+     , (35174,   3, 0x20000016) /* SoundTable */
+     , (35174,   6, 0x040015F0) /* PaletteBase */
+     , (35174,   8, 0x06002CF5) /* Icon */
+     , (35174,  22, 0x34000028) /* PhysicsEffectTable */
      , (35174, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35174, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35174, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35174, 8040, 14942506, 29.47847, -50.97635, -29.9895, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35174, 8040, 0x00E4012A, 29.47847, -50.97635, -29.9895, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00E4012A [29.478470 -50.976350 -29.989500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35174, 8000, 3708729190) /* PCAPRecordedObjectIID */;
+VALUES (35174, 8000, 0xDD0EB766) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (35174,   1,     0, 0, 0, 150000) /* MaxHealth */;

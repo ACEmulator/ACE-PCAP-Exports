@@ -24,13 +24,13 @@ VALUES (20253,   1, 'Scroll of Might of the 5 Mules') /* Name */
 Increases the target''s Strength by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20253,   1,   33554826) /* Setup */
-     , (20253,   8,  100676474) /* Icon */
-     , (20253,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20253,   1, 0x0200018A) /* Setup */
+     , (20253,   8, 0x0600337A) /* Icon */
+     , (20253,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20253,  28,       2086) /* Spell - StrengthOther7 */
      , (20253, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20253, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20253, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20253, 8000, 2929227022) /* PCAPRecordedObjectIID */;
+VALUES (20253, 8000, 0xAE98750E) /* PCAPRecordedObjectIID */;

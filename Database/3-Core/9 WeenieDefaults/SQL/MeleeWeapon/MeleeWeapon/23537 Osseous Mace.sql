@@ -47,22 +47,22 @@ VALUES (23537,   1, 'Osseous Mace') /* Name */
      , (23537,  16, 'The leg of a Relic Bones.  It is inscribed with runes, and the entire bone shines with a ruddy flame.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23537,   1,   33557329) /* Setup */
-     , (23537,   3,  536870932) /* SoundTable */
-     , (23537,   8,  100674096) /* Icon */
-     , (23537,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23537,   1, 0x02000B51) /* Setup */
+     , (23537,   3, 0x20000014) /* SoundTable */
+     , (23537,   8, 0x06002A30) /* Icon */
+     , (23537,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23537, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23537, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23537, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23537, 8000, 2174519399) /* PCAPRecordedObjectIID */;
+VALUES (23537, 8000, 0x819C8867) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23537,  1035,      2)  /* ColdProtectionSelf6 */
-     , (23537,  1311,      2)  /* ArmorSelf5 */
-     , (23537,  1592,      2)  /* HeartSeekerSelf6 */
-     , (23537,  1605,      2)  /* DefenderSelf6 */
+VALUES (23537,  1605,      2)  /* DefenderSelf6 */
+     , (23537,  1035,      2)  /* ColdProtectionSelf6 */
      , (23537,  1616,      2)  /* BloodDrinkerSelf6 */
      , (23537,  1625,      2)  /* SwiftKillerSelf4 */
-     , (23537,  2486,      2)  /* BLOODTHIRST */;
+     , (23537,  1311,      2)  /* ArmorSelf5 */
+     , (23537,  2486,      2)  /* BLOODTHIRST */
+     , (23537,  1592,      2)  /* HeartSeekerSelf6 */;

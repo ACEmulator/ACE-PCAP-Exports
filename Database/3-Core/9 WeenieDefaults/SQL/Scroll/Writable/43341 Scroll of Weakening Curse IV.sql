@@ -24,17 +24,17 @@ VALUES (43341,   1, 'Scroll of Weakening Curse IV') /* Name */
 Decreases the target''s damage rating by 6.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43341,   1,   33554826) /* Setup */
-     , (43341,   8,  100691574) /* Icon */
-     , (43341,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43341,   1, 0x0200018A) /* Setup */
+     , (43341,   8, 0x06006E76) /* Icon */
+     , (43341,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43341,  28,       5382) /* Spell - CurseWeakness4 */
      , (43341, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (43341, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43341, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43341, 8040, 28181160, 73.48937, -106.6017, -5.9145, 0.9984533, 0, 0, -0.05559801) /* PCAPRecordedLocation */
+VALUES (43341, 8040, 0x01AE02A8, 73.48937, -106.6017, -5.9145, 0.998453, 0, 0, -0.055598) /* PCAPRecordedLocation */
 /* @teleloc 0x01AE02A8 [73.489370 -106.601700 -5.914500] 0.998453 0.000000 0.000000 -0.055598 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43341, 8000, 2615114114) /* PCAPRecordedObjectIID */;
+VALUES (43341, 8000, 0x9BDF7982) /* PCAPRecordedObjectIID */;

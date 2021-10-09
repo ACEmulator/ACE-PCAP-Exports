@@ -48,24 +48,24 @@ VALUES (43054,   1, 'Knorr Academy Tassets') /* Name */
      , (43054,  16, 'Knorr Academy Tassets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43054,   1,   33554656) /* Setup */
-     , (43054,   3,  536870932) /* SoundTable */
-     , (43054,   6,   67108990) /* PaletteBase */
-     , (43054,   8,  100691426) /* Icon */
-     , (43054,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43054,   1, 0x020000E0) /* Setup */
+     , (43054,   3, 0x20000014) /* SoundTable */
+     , (43054,   6, 0x0400007E) /* PaletteBase */
+     , (43054,   8, 0x06006DE2) /* Icon */
+     , (43054,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43054, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (43054, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43054, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43054, 8000, 3701468814) /* PCAPRecordedObjectIID */;
+VALUES (43054, 8000, 0xDC9FEE8E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43054,  1516,      2)  /* BludgeonBane6 */
+VALUES (43054,  2527,      2)  /* CANTRIPPERSONATTUNEMENT2 */
+     , (43054,  1516,      2)  /* BludgeonBane6 */
      , (43054,  2094,      2)  /* BladeBane7 */
-     , (43054,  2108,      2)  /* Impenetrability7 */
-     , (43054,  2527,      2)  /* CANTRIPPERSONATTUNEMENT2 */
-     , (43054,  4409,      2)  /* LightningBane8 */;
+     , (43054,  4409,      2)  /* LightningBane8 */
+     , (43054,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43054, 67110345, 136, 16)

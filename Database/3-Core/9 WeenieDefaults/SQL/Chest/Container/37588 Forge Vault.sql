@@ -24,21 +24,21 @@ VALUES (37588,   1, 'Forge Vault') /* Name */
      , (37588, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37588,   1,   33560226) /* Setup */
-     , (37588,   2,  150995333) /* MotionTable */
-     , (37588,   3,  536870950) /* SoundTable */
-     , (37588,   8,  100677492) /* Icon */
-     , (37588,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37588,   1, 0x020016A2) /* Setup */
+     , (37588,   2, 0x09000185) /* MotionTable */
+     , (37588,   3, 0x20000026) /* SoundTable */
+     , (37588,   8, 0x06003774) /* Icon */
+     , (37588,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37588, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (37588, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (37588, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37588, 8040, 15335736, 120, -50, -77.98215, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (37588, 8040, 0x00EA0138, 120, -50, -77.98215, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00EA0138 [120.000000 -50.000000 -77.982150] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37588, 8000, 1880006924) /* PCAPRecordedObjectIID */;
+VALUES (37588, 8000, 0x700EA10C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37588, -1, 20548, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Gears Unwound (20548) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -25,18 +25,18 @@ VALUES (29126,   1, 'Spoiled Barley') /* Name */
      , (29126,  20, 'Bags of Spoiled Barley') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29126,   1,   33556223) /* Setup */
-     , (29126,   3,  536870932) /* SoundTable */
-     , (29126,   6,   67111928) /* PaletteBase */
-     , (29126,   8,  100686445) /* Icon */
-     , (29126,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29126,   1, 0x020006FF) /* Setup */
+     , (29126,   3, 0x20000014) /* SoundTable */
+     , (29126,   6, 0x04000BF8) /* PaletteBase */
+     , (29126,   8, 0x06005A6D) /* Icon */
+     , (29126,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29126, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (29126, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29126, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (29126, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29126, 8000,      29126) /* PCAPRecordedObjectIID */;
+VALUES (29126, 8000, 0x000071C6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29126, 67112642, 0, 0);

@@ -22,16 +22,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14774,   1, 'Peppermint Pumpkin Pie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14774,   1,   33555978) /* Setup */
-     , (14774,   3,  536870932) /* SoundTable */
-     , (14774,   8,  100672577) /* Icon */
-     , (14774,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14774,   1, 0x0200060A) /* Setup */
+     , (14774,   3, 0x20000014) /* SoundTable */
+     , (14774,   8, 0x06002441) /* Icon */
+     , (14774,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14774, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (14774, 8003,      32786) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Food */
      , (14774, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14774, 8000, 2153231644) /* PCAPRecordedObjectIID */;
+VALUES (14774, 8000, 0x8057B51C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (14774, 0, 83892147, 83888861);

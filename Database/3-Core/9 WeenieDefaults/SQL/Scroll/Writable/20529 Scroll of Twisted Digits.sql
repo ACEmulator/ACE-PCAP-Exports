@@ -24,16 +24,13 @@ VALUES (20529,   1, 'Scroll of Twisted Digits') /* Name */
 Decreases the target''s Fletching skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20529,   1,   33554826) /* Setup */
-     , (20529,   8,  100676457) /* Icon */
-     , (20529,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20529,   1, 0x0200018A) /* Setup */
+     , (20529,   8, 0x06003369) /* Icon */
+     , (20529,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20529,  28,       2234) /* Spell - FletchingIneptitudeOther7 */
      , (20529, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20529, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20529, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20529, 8000, 3701525936) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20529, 2, 21435,  1, 0, 0, False) /* Create Shauraloi (21435) for Wield */;
+VALUES (20529, 8000, 0xDCA0CDB0) /* PCAPRecordedObjectIID */;

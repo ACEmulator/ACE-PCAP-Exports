@@ -33,6 +33,7 @@ VALUES (45948,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45948,  22, True ) /* Inscribable */
+     , (45948,  23, True ) /* DestroyOnSell */
      , (45948,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,24 +51,24 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45948,   1, 'Seasoned Explorer Shamshir') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45948,   1,   33554750) /* Setup */
-     , (45948,   3,  536870932) /* SoundTable */
-     , (45948,   6,   67111919) /* PaletteBase */
-     , (45948,   8,  100668978) /* Icon */
-     , (45948,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45948,   1, 0x0200013E) /* Setup */
+     , (45948,   3, 0x20000014) /* SoundTable */
+     , (45948,   6, 0x04000BEF) /* PaletteBase */
+     , (45948,   8, 0x06001632) /* Icon */
+     , (45948,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45948, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (45948, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45948, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45948, 8000, 2629411532) /* PCAPRecordedObjectIID */;
+VALUES (45948, 8000, 0x9CB9A2CC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45948,  1592,      2)  /* HeartSeekerSelf6 */
-     , (45948,  1605,      2)  /* DefenderSelf6 */
+VALUES (45948,  1605,      2)  /* DefenderSelf6 */
      , (45948,  1616,      2)  /* BloodDrinkerSelf6 */
      , (45948,  1627,      2)  /* SwiftKillerSelf6 */
-     , (45948,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */
+     , (45948,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */
+     , (45948,  1592,      2)  /* HeartSeekerSelf6 */
      , (45948,  5884,      2)  /* CantripDualWieldAptitude1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

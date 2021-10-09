@@ -22,16 +22,16 @@ VALUES (1339,   1, 'Moss Chamber') /* Name */
      , (1339, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1339,   1,   33555926) /* Setup */
-     , (1339,   2,  150994947) /* MotionTable */
-     , (1339,   8,  100667499) /* Icon */
+VALUES (1339,   1, 0x020005D6) /* Setup */
+     , (1339,   2, 0x09000003) /* MotionTable */
+     , (1339,   8, 0x0600106B) /* Icon */
      , (1339, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (1339, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1339, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1339, 8040, 2123431969, 111.8, 15.7, 75.937, 0.9743701, 0, 0, -0.224951) /* PCAPRecordedLocation */
+VALUES (1339, 8040, 0x7E910021, 111.8, 15.7, 75.937, 0.97437, 0, 0, -0.224951) /* PCAPRecordedLocation */
 /* @teleloc 0x7E910021 [111.800000 15.700000 75.937000] 0.974370 0.000000 0.000000 -0.224951 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1339, 8000, 2011762689) /* PCAPRecordedObjectIID */;
+VALUES (1339, 8000, 0x77E91001) /* PCAPRecordedObjectIID */;

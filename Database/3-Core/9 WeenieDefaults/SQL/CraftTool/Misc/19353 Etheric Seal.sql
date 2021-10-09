@@ -23,17 +23,17 @@ VALUES (19353,   1, 'Etheric Seal') /* Name */
      , (19353,  14, 'Use this seal on a town pedestal to dissolve the stone.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19353,   1,   33557705) /* Setup */
-     , (19353,   3,  536870932) /* SoundTable */
-     , (19353,   8,  100672958) /* Icon */
-     , (19353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19353,   1, 0x02000CC9) /* Setup */
+     , (19353,   3, 0x20000014) /* SoundTable */
+     , (19353,   8, 0x060025BE) /* Icon */
+     , (19353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19353, 8001,    2633744) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, TargetType, Burden */
      , (19353, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19353, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19353, 8040, 23855555, 56.4952, -39.04106, 0, 0.8435741, 0, 0, -0.5370128) /* PCAPRecordedLocation */
+VALUES (19353, 8040, 0x016C01C3, 56.4952, -39.04106, 0, 0.843574, 0, 0, -0.537013) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.495200 -39.041060 0.000000] 0.843574 0.000000 0.000000 -0.537013 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19353, 8000, 2166510693) /* PCAPRecordedObjectIID */;
+VALUES (19353, 8000, 0x81225465) /* PCAPRecordedObjectIID */;

@@ -33,21 +33,21 @@ VALUES (11381,   1, 'Hea Kiriona the Shopkeep') /* Name */
      , (11381, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11381,   1,   33559553) /* Setup */
-     , (11381,   2,  150994954) /* MotionTable */
-     , (11381,   3,  536870931) /* SoundTable */
-     , (11381,   6,   67116625) /* PaletteBase */
-     , (11381,   8,  100667452) /* Icon */
+VALUES (11381,   1, 0x02001401) /* Setup */
+     , (11381,   2, 0x0900000A) /* MotionTable */
+     , (11381,   3, 0x20000013) /* SoundTable */
+     , (11381,   6, 0x04001E51) /* PaletteBase */
+     , (11381,   8, 0x0600103C) /* Icon */
      , (11381, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (11381, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (11381, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11381, 8040, 247070749, 86.276, 102.357, 1.47525, -0.2714499, 0, 0, -0.9624526) /* PCAPRecordedLocation */
+VALUES (11381, 8040, 0x0EBA001D, 86.276, 102.357, 1.47525, -0.27145, 0, 0, -0.962453) /* PCAPRecordedLocation */
 /* @teleloc 0x0EBA001D [86.276000 102.357000 1.475250] -0.271450 0.000000 0.000000 -0.962453 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11381, 8000, 3691258977) /* PCAPRecordedObjectIID */;
+VALUES (11381, 8000, 0xDC042461) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11381,   1,  80, 0, 0) /* Strength */

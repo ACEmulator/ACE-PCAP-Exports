@@ -15,13 +15,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46021,   1, 'Letter from Mouf') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46021,   1,   33554773) /* Setup */
-     , (46021,   3,  536870932) /* SoundTable */
-     , (46021,   8,  100668176) /* Icon */
-     , (46021,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46021,   1, 0x02000155) /* Setup */
+     , (46021,   3, 0x20000014) /* SoundTable */
+     , (46021,   8, 0x06001310) /* Icon */
+     , (46021,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46021, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (46021, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (46021, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46021, 8000, 2153503779) /* PCAPRecordedObjectIID */;
+VALUES (46021, 8000, 0x805BDC23) /* PCAPRecordedObjectIID */;

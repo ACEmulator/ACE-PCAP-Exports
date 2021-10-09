@@ -24,6 +24,7 @@ VALUES (43197,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43197,  22, True ) /* Inscribable */
+     , (43197,  23, True ) /* DestroyOnSell */
      , (43197,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -42,24 +43,24 @@ VALUES (43197,   1, 'Apostate Grand Director''s Mask') /* Name */
      , (43197,  15, 'A mask crafted from a shard of the mask of the Apostate Grand Director.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43197,   1,   33561077) /* Setup */
-     , (43197,   3,  536870932) /* SoundTable */
-     , (43197,   6,   67108990) /* PaletteBase */
-     , (43197,   8,  100691483) /* Icon */
-     , (43197,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43197,   1, 0x020019F5) /* Setup */
+     , (43197,   3, 0x20000014) /* SoundTable */
+     , (43197,   6, 0x0400007E) /* PaletteBase */
+     , (43197,   8, 0x06006E1B) /* Icon */
+     , (43197,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43197, 8001,  270876816) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (43197, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43197, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43197, 8000, 3706478182) /* PCAPRecordedObjectIID */;
+VALUES (43197, 8000, 0xDCEC5E66) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43197,  4232,      2)  /* CANTRIPLEADERSHIP3 */
-     , (43197,  4291,      2)  /* ArmorSelf8 */
-     , (43197,  4407,      2)  /* Impenetrability8 */
+VALUES (43197,  4291,      2)  /* ArmorSelf8 */
+     , (43197,  4232,      2)  /* CANTRIPLEADERSHIP3 */
      , (43197,  4697,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE3 */
-     , (43197,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */;
+     , (43197,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */
+     , (43197,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43197, 67116923, 240, 16);

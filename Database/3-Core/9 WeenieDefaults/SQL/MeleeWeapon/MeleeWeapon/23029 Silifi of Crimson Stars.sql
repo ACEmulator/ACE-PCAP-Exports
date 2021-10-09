@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23029,   1,          1) /* ItemType - MeleeWeapon */
      , (23029,   5,        950) /* EncumbranceVal */
      , (23029,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (23029,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (23029,  16,          1) /* ItemUseable - No */
      , (23029,  18,          1) /* UiEffects - Magical */
      , (23029,  19,       2500) /* Value */
@@ -29,6 +28,7 @@ VALUES (23029,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23029,  22, True ) /* Inscribable */
+     , (23029,  23, True ) /* DestroyOnSell */
      , (23029,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -47,23 +47,23 @@ VALUES (23029,   1, 'Silifi of Crimson Stars') /* Name */
      , (23029,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Plate Armoredillo. There are three notches on the haft.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23029,   1,   33556553) /* Setup */
-     , (23029,   3,  536870932) /* SoundTable */
-     , (23029,   6,   67111919) /* PaletteBase */
-     , (23029,   8,  100670613) /* Icon */
-     , (23029,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23029,   1, 0x02000849) /* Setup */
+     , (23029,   3, 0x20000014) /* SoundTable */
+     , (23029,   6, 0x04000BEF) /* PaletteBase */
+     , (23029,   8, 0x06001C95) /* Icon */
+     , (23029,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23029, 8001,    2327192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (23029, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23029, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (23029, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23029, 8040, 23855548, 48.57788, -26.51118, -0.07025, 0.1941537, 0.1941537, -0.6799297, -0.6799297) /* PCAPRecordedLocation */
+VALUES (23029, 8040, 0x016C01BC, 48.57788, -26.51118, -0.07025, 0.194154, 0.194154, -0.67993, -0.67993) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [48.577880 -26.511180 -0.070250] 0.194154 0.194154 -0.679930 -0.679930 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23029, 8000, 3338574117) /* PCAPRecordedObjectIID */
-     , (23029, 8008, 1343354926) /* PCAPRecordedParentIID */;
+VALUES (23029, 8000, 0xC6FE9925) /* PCAPRecordedObjectIID */
+     , (23029, 8008, 0x5011F82E) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23029, 67111921, 0, 0);

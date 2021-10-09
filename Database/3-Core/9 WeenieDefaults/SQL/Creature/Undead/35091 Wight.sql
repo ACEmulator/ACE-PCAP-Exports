@@ -26,22 +26,22 @@ VALUES (35091,   1, 'Wight') /* Name */
      , (35091, 8006, 'BwA9ACUALUjlpuhCF/HGQpVDwEBP7gkfAAAAQAAAAAD//39/zczMPgAAcEEAAAAAdyUaQA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35091,   1,   33560225) /* Setup */
-     , (35091,   2,  150995358) /* MotionTable */
-     , (35091,   3,  536870934) /* SoundTable */
-     , (35091,   6,   67110722) /* PaletteBase */
-     , (35091,   8,  100667942) /* Icon */
-     , (35091,  22,  872415272) /* PhysicsEffectTable */
+VALUES (35091,   1, 0x020016A1) /* Setup */
+     , (35091,   2, 0x0900019E) /* MotionTable */
+     , (35091,   3, 0x20000016) /* SoundTable */
+     , (35091,   6, 0x04000742) /* PaletteBase */
+     , (35091,   8, 0x06001226) /* Icon */
+     , (35091,  22, 0x34000028) /* PhysicsEffectTable */
      , (35091, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35091, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35091, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35091, 8040, 1210908709, 119.4645, 101.1096, 6.00825, -0.5182458, 0, 0, -0.8552317) /* PCAPRecordedLocation */
+VALUES (35091, 8040, 0x482D0025, 119.4645, 101.1096, 6.00825, -0.518246, 0, 0, -0.855232) /* PCAPRecordedLocation */
 /* @teleloc 0x482D0025 [119.464500 101.109600 6.008250] -0.518246 0.000000 0.000000 -0.855232 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35091, 8000, 2921434990) /* PCAPRecordedObjectIID */;
+VALUES (35091, 8000, 0xAE218F6E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35091,   1, 250, 0, 0) /* Strength */
@@ -226,7 +226,9 @@ VALUES (35091, 2, 48076,  1, 0, 0, False) /* Create Lightning Silifi (48076) for
      , (35091, 9, 20481,  0, 0, 0, False) /* Create Scroll of Storm's Blessing (20481) for ContainTreasure */
      , (35091, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (35091, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (35091, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */;
+     , (35091, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (35091, 9, 49543,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (180) (49543) for ContainTreasure */
+     , (35091, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35091, 67111342, 0, 0);

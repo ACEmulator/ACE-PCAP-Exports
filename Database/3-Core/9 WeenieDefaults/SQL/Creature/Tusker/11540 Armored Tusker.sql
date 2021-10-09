@@ -25,22 +25,22 @@ VALUES (11540,   1, 'Armored Tusker') /* Name */
      , (11540, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11540,   1,   33556836) /* Setup */
-     , (11540,   2,  150994956) /* MotionTable */
-     , (11540,   3,  536870929) /* SoundTable */
-     , (11540,   6,   67113007) /* PaletteBase */
-     , (11540,   8,  100667443) /* Icon */
-     , (11540,  22,  872415271) /* PhysicsEffectTable */
+VALUES (11540,   1, 0x02000964) /* Setup */
+     , (11540,   2, 0x0900000C) /* MotionTable */
+     , (11540,   3, 0x20000011) /* SoundTable */
+     , (11540,   6, 0x0400102F) /* PaletteBase */
+     , (11540,   8, 0x06001033) /* Icon */
+     , (11540,  22, 0x34000027) /* PhysicsEffectTable */
      , (11540, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (11540, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (11540, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11540, 8040, 4067295275, 136.7861, 69.28873, -0.8868001, -0.7736908, 0, 0, -0.6335633) /* PCAPRecordedLocation */
+VALUES (11540, 8040, 0xF26E002B, 136.7861, 69.28873, -0.8868, -0.773691, 0, 0, -0.633563) /* PCAPRecordedLocation */
 /* @teleloc 0xF26E002B [136.786100 69.288730 -0.886800] -0.773691 0.000000 0.000000 -0.633563 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11540, 8000, 3690479890) /* PCAPRecordedObjectIID */;
+VALUES (11540, 8000, 0xDBF84112) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11540,   1, 230, 0, 0) /* Strength */
@@ -262,7 +262,49 @@ VALUES (11540, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasu
      , (11540, 9, 45314,  0, 0, 0, False) /* Create Scroll of Shield Ineptitude Other VII (45314) for ContainTreasure */
      , (11540, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
      , (11540, 9, 28946,  0, 0, 0, False) /* Create Scroll of Arcanum Enlightenment VII (28946) for ContainTreasure */
-     , (11540, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */;
+     , (11540, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
+     , (11540, 9, 44851,  0, 0, 0, False) /* Create Chevron Cloak (44851) for ContainTreasure */
+     , (11540, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (11540, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (11540, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
+     , (11540, 9, 49381,  0, 0, 0, False) /* Create Fire Grievver Essence (80) (49381) for ContainTreasure */
+     , (11540, 9, 27237,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Self (27237) for ContainTreasure */
+     , (11540, 9, 45122,  0, 0, 0, False) /* Create Frost Hand Wraps (45122) for ContainTreasure */
+     , (11540, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+     , (11540, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */
+     , (11540, 9,  3067,  0, 0, 0, False) /* Create Scroll of Piercing Protection Other VI (3067) for ContainTreasure */
+     , (11540, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
+     , (11540, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (11540, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (11540, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
+     , (11540, 9, 45396,  0, 0, 0, False) /* Create Short Sword (45396) for ContainTreasure */
+     , (11540, 9,  5955,  0, 0, 0, False) /* Create Scroll of Cooking Mastery Other VI (5955) for ContainTreasure */
+     , (11540, 9,  3592,  0, 0, 0, False) /* Create Scroll of Weapon Tinkering Ignorance VI (3592) for ContainTreasure */
+     , (11540, 9, 49428,  0, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for ContainTreasure */
+     , (11540, 9, 49241,  0, 0, 0, False) /* Create Lightning Zombie Essence (80) (49241) for ContainTreasure */
+     , (11540, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (11540, 9, 21159,  0, 0, 0, False) /* Create Covenant Tassets (21159) for ContainTreasure */
+     , (11540, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (11540, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
+     , (11540, 9, 20403,  0, 0, 0, False) /* Create Scroll of Olthoi Bait (20403) for ContainTreasure */
+     , (11540, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (11540, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (11540, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (11540, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
+     , (11540, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (11540, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (11540, 9, 43334,  0, 0, 0, False) /* Create Scroll of Festering Curse VI (43334) for ContainTreasure */
+     , (11540, 9, 20535,  0, 0, 0, False) /* Create Scroll of Web of Deflection (20535) for ContainTreasure */
+     , (11540, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (11540, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (11540, 9,  2721,  0, 0, 0, False) /* Create Scroll of Quickness Self VI (2721) for ContainTreasure */
+     , (11540, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */
+     , (11540, 9, 49373,  0, 0, 0, False) /* Create Lightning Grievver Essence (50) (49373) for ContainTreasure */
+     , (11540, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */
+     , (11540, 9, 41301,  0, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Other VI (41301) for ContainTreasure */
+     , (11540, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */
+     , (11540, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (11540, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11540, 67113009, 0, 0);

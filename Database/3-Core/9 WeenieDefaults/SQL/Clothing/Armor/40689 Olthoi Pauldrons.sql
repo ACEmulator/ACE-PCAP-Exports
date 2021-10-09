@@ -53,24 +53,24 @@ VALUES (40689,   1, 'Olthoi Pauldrons') /* Name */
      , (40689,  16, 'Olthoi Pauldrons of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40689,   1,   33554641) /* Setup */
-     , (40689,   3,  536870932) /* SoundTable */
-     , (40689,   6,   67108990) /* PaletteBase */
-     , (40689,   8,  100674581) /* Icon */
-     , (40689,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40689,   1, 0x020000D1) /* Setup */
+     , (40689,   3, 0x20000014) /* SoundTable */
+     , (40689,   6, 0x0400007E) /* PaletteBase */
+     , (40689,   8, 0x06002C15) /* Icon */
+     , (40689,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40689,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (40689, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40689, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40689, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40689, 8000, 2149243755) /* PCAPRecordedObjectIID */;
+VALUES (40689, 8000, 0x801ADB6B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40689,  1354,      2)  /* EnduranceSelf6 */
+     , (40689,  2574,      2)  /* CANTRIPFOCUS2 */
      , (40689,  2104,      2)  /* FrostBane7 */
-     , (40689,  2108,      2)  /* Impenetrability7 */
-     , (40689,  2574,      2)  /* CANTRIPFOCUS2 */;
+     , (40689,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40689, 67116568, 128, 8)

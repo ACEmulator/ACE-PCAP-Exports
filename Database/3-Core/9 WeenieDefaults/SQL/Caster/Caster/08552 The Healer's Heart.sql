@@ -7,10 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8552,   1,      32768) /* ItemType - Caster */
      , (8552,   5,         50) /* EncumbranceVal */
      , (8552,   9,   16777216) /* ValidLocations - Held */
-     , (8552,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (8552,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (8552,  18,          1) /* UiEffects - Magical */
      , (8552,  19,       5400) /* Value */
+     , (8552,  46,        512) /* DefaultCombatStyle - Magic */
      , (8552,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8552,  94,         16) /* TargetType - Creature */
      , (8552, 106,        225) /* ItemSpellcraft */
@@ -35,11 +35,11 @@ VALUES (8552,   1, 'The Healer''s Heart') /* Name */
      , (8552,  16, 'A magical orb found in the cathedral of Ithaenc. This artifact was crafted by Lady Adja, a member of the Yalaini Council of Five, for use by her religious order.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8552,   1,   33556909) /* Setup */
-     , (8552,   3,  536870932) /* SoundTable */
-     , (8552,   6,   67111928) /* PaletteBase */
-     , (8552,   8,  100671213) /* Icon */
-     , (8552,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8552,   1, 0x020009AD) /* Setup */
+     , (8552,   3, 0x20000014) /* SoundTable */
+     , (8552,   6, 0x04000BF8) /* PaletteBase */
+     , (8552,   8, 0x06001EED) /* Icon */
+     , (8552,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8552,  28,       1166) /* Spell - HealOther6 */
      , (8552,  37,         33) /* ItemSkillLimit - LifeMagic */
      , (8552, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
@@ -48,17 +48,17 @@ VALUES (8552,   1,   33556909) /* Setup */
      , (8552, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8552, 8040, 2847146241, 77.90692, 132.8379, 69.42901, 0.6444163, 0.6444163, -0.2910801, -0.2910801) /* PCAPRecordedLocation */
+VALUES (8552, 8040, 0xA9B40101, 77.90692, 132.8379, 69.42901, 0.644416, 0.644416, -0.29108, -0.29108) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40101 [77.906920 132.837900 69.429010] 0.644416 0.644416 -0.291080 -0.291080 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8552, 8000, 3128049460) /* PCAPRecordedObjectIID */
-     , (8552, 8008, 1343298052) /* PCAPRecordedParentIID */;
+VALUES (8552, 8000, 0xBA723F34) /* PCAPRecordedObjectIID */
+     , (8552, 8008, 0x50111A04) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8552,   170,      2)  /* RegenerationSelf6 */
-     , (8552,   879,      2)  /* HealingMasterySelf6 */
-     , (8552,  1997,      2)  /* LifeGiver */;
+VALUES (8552,  1997,      2)  /* LifeGiver */
+     , (8552,   170,      2)  /* RegenerationSelf6 */
+     , (8552,   879,      2)  /* HealingMasterySelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8552, 67111921, 0, 0);

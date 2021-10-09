@@ -21,18 +21,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5583,   1, 'Aluvian Cookbook') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5583,   1,   33559084) /* Setup */
-     , (5583,   3,  536870932) /* SoundTable */
-     , (5583,   6,   67112626) /* PaletteBase */
-     , (5583,   8,  100668117) /* Icon */
-     , (5583,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5583,   1, 0x0200122C) /* Setup */
+     , (5583,   3, 0x20000014) /* SoundTable */
+     , (5583,   6, 0x04000EB2) /* PaletteBase */
+     , (5583,   8, 0x060012D5) /* Icon */
+     , (5583,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5583, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (5583, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (5583, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (5583, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5583, 8000,       5583) /* PCAPRecordedObjectIID */;
+VALUES (5583, 8000, 0x000015CF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5583, 67113862, 0, 0);

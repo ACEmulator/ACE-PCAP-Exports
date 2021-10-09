@@ -24,13 +24,13 @@ VALUES (2991,   1, 'Scroll of Blade Protection Other V') /* Name */
 Reduces damage the target takes from Slashing by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2991,   1,   33554826) /* Setup */
-     , (2991,   8,  100676954) /* Icon */
-     , (2991,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2991,   1, 0x0200018A) /* Setup */
+     , (2991,   8, 0x0600355A) /* Icon */
+     , (2991,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2991,  28,       1119) /* Spell - BladeProtectionOther5 */
      , (2991, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2991, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2991, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2991, 8000, 2881471852) /* PCAPRecordedObjectIID */;
+VALUES (2991, 8000, 0xABBFC56C) /* PCAPRecordedObjectIID */;

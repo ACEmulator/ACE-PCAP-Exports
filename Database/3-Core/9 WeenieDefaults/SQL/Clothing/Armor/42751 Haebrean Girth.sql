@@ -48,23 +48,23 @@ VALUES (42751,   1, 'Haebrean Girth') /* Name */
      , (42751,  16, 'Haebrean Girth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42751,   1,   33554647) /* Setup */
-     , (42751,   3,  536870932) /* SoundTable */
-     , (42751,   6,   67108990) /* PaletteBase */
-     , (42751,   8,  100691090) /* Icon */
-     , (42751,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42751,   1, 0x020000D7) /* Setup */
+     , (42751,   3, 0x20000014) /* SoundTable */
+     , (42751,   6, 0x0400007E) /* PaletteBase */
+     , (42751,   8, 0x06006C92) /* Icon */
+     , (42751,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42751, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (42751, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42751, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42751, 8000, 3430335039) /* PCAPRecordedObjectIID */;
+VALUES (42751, 8000, 0xCC76C23F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42751,  2098,      2)  /* BludgeonBane7 */
-     , (42751,  2108,      2)  /* Impenetrability7 */
+VALUES (42751,  4676,      2)  /* CANTRIPFROSTWARD3 */
+     , (42751,  2098,      2)  /* BludgeonBane7 */
      , (42751,  4019,      2)  /* CANTRIPQUICKNESS3 */
-     , (42751,  4676,      2)  /* CANTRIPFROSTWARD3 */;
+     , (42751,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42751, 67110024, 72, 8)

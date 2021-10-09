@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24200,   1,          1) /* ItemType - MeleeWeapon */
      , (24200,   5,        125) /* EncumbranceVal */
      , (24200,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (24200,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (24200,  16,          1) /* ItemUseable - No */
      , (24200,  18,          1) /* UiEffects - Magical */
      , (24200,  19,       8000) /* Value */
@@ -57,22 +56,22 @@ VALUES (24200,   1, 'Weeping Claw') /* Name */
      , (24200,  25, 'Ingeborg') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24200,   1,   33558294) /* Setup */
-     , (24200,   3,  536870932) /* SoundTable */
-     , (24200,   8,  100674268) /* Icon */
-     , (24200,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24200,   1, 0x02000F16) /* Setup */
+     , (24200,   3, 0x20000014) /* SoundTable */
+     , (24200,   8, 0x06002ADC) /* Icon */
+     , (24200,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24200, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (24200, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24200, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (24200, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24200, 8040, 2429550613, 95.521, 84.025, 277.13, -0.5, -0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (24200, 8040, 0x90D00015, 95.521, 84.025, 277.13, -0.5, -0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x90D00015 [95.521000 84.025000 277.130000] -0.500000 -0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24200, 8000, 3230633735) /* PCAPRecordedObjectIID */
-     , (24200, 8008, 1343478874) /* PCAPRecordedParentIID */;
+VALUES (24200, 8000, 0xC08F8F07) /* PCAPRecordedObjectIID */
+     , (24200, 8008, 0x5013DC5A) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24200,  2694,      2)  /* ModerateSwordAptitude */;

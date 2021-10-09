@@ -18,18 +18,18 @@ VALUES (848,   1, 'Black Swan Inn') /* Name */
      , (848,  16, 'Black Swan Inn') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (848,   1,   33555594) /* Setup */
-     , (848,   8,  100668115) /* Icon */
+VALUES (848,   1, 0x0200048A) /* Setup */
+     , (848,   8, 0x060012D3) /* Icon */
      , (848, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (848, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (848, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (848, 8040, 3663003651, 19.8432, 64.9365, 23.5041, -0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
+VALUES (848, 8040, 0xDA550003, 19.8432, 64.9365, 23.5041, -0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
 /* @teleloc 0xDA550003 [19.843200 64.936500 23.504100] -0.923880 0.000000 0.000000 -0.382683 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (848, 8000, 2107985983) /* PCAPRecordedObjectIID */;
+VALUES (848, 8000, 0x7DA5503F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (848, 0, 83891180, 83891184);

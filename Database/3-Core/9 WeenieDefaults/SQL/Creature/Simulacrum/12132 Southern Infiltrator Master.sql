@@ -24,34 +24,36 @@ VALUES (12132,   1, 'Southern Infiltrator Master') /* Name */
      , (12132, 8006, 'AAA9AEYAAADTAAAAAEAAAMA/AAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12132,   1,   33554510) /* Setup */
-     , (12132,   2,  150995141) /* MotionTable */
-     , (12132,   3,  536871045) /* SoundTable */
-     , (12132,   6,   67108990) /* PaletteBase */
-     , (12132,   8,  100667446) /* Icon */
-     , (12132,   9,   83890282) /* EyesTexture */
-     , (12132,  10,   83890317) /* NoseTexture */
-     , (12132,  11,   83890324) /* MouthTexture */
-     , (12132,  15,   67116993) /* HairPalette */
-     , (12132,  16,   67109567) /* EyesPalette */
-     , (12132,  17,   67109558) /* SkinPalette */
-     , (12132,  22,  872415381) /* PhysicsEffectTable */
+VALUES (12132,   1, 0x0200004E) /* Setup */
+     , (12132,   2, 0x090000C5) /* MotionTable */
+     , (12132,   3, 0x20000085) /* SoundTable */
+     , (12132,   6, 0x0400007E) /* PaletteBase */
+     , (12132,   8, 0x06001036) /* Icon */
+     , (12132,   9, 0x0500106A) /* EyesTexture */
+     , (12132,  10, 0x0500108D) /* NoseTexture */
+     , (12132,  11, 0x05001094) /* MouthTexture */
+     , (12132,  15, 0x04001FC1) /* HairPalette */
+     , (12132,  16, 0x040002BF) /* EyesPalette */
+     , (12132,  17, 0x040002B6) /* SkinPalette */
+     , (12132,  22, 0x34000095) /* PhysicsEffectTable */
      , (12132, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (12132, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12132, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12132, 8040, 60948749, 14.5143, -365.4919, 0.004999995, 0.5982656, 0, 0, -0.8012979) /* PCAPRecordedLocation */
+VALUES (12132, 8040, 0x03A2010D, 14.5143, -365.4919, 0.005, 0.598266, 0, 0, -0.801298) /* PCAPRecordedLocation */
 /* @teleloc 0x03A2010D [14.514300 -365.491900 0.005000] 0.598266 0.000000 0.000000 -0.801298 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12132, 8000, 2875279972) /* PCAPRecordedObjectIID */;
+VALUES (12132, 8000, 0xAB614A64) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (12132,   1,     0, 0, 0, 845) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12132, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
+VALUES (12132, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
+     , (12132, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
+     , (12132, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
      , (12132, 9, 29238,  0, 0, 0, False) /* Create Acid Bow (29238) for ContainTreasure */
      , (12132, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
      , (12132, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */

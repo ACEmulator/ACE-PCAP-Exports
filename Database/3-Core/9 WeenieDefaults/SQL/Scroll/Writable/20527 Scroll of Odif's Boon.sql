@@ -24,13 +24,13 @@ VALUES (20527,   1, 'Scroll of Odif''s Boon') /* Name */
 Increases the target''s Loyalty skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20527,   1,   33554826) /* Setup */
-     , (20527,   8,  100676446) /* Icon */
-     , (20527,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20527,   1, 0x0200018A) /* Setup */
+     , (20527,   8, 0x0600335E) /* Icon */
+     , (20527,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20527,  28,       2232) /* Spell - FealtyOther7 */
      , (20527, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20527, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20527, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20527, 8000, 3710516113) /* PCAPRecordedObjectIID */;
+VALUES (20527, 8000, 0xDD29FB91) /* PCAPRecordedObjectIID */;

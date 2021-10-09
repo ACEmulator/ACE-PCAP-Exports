@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11327,   1, 'Wooden Tumerok Figurine') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11327,   1,   33557308) /* Setup */
-     , (11327,   3,  536870932) /* SoundTable */
-     , (11327,   8,  100672028) /* Icon */
-     , (11327,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11327,   1, 0x02000B3C) /* Setup */
+     , (11327,   3, 0x20000014) /* SoundTable */
+     , (11327,   8, 0x0600221C) /* Icon */
+     , (11327,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11327, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11327, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11327, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11327, 8000, 2240733877) /* PCAPRecordedObjectIID */;
+VALUES (11327, 8000, 0x858EE2B5) /* PCAPRecordedObjectIID */;

@@ -21,13 +21,13 @@ VALUES (25736,   1, 'Nexus Town Information Guide') /* Name */
      , (25736,  15, 'A book listing the portals linking the Nexus towns as well as those leading to where the Nexus town stamps can be found. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25736,   1,   33554771) /* Setup */
-     , (25736,   3,  536870932) /* SoundTable */
-     , (25736,   8,  100668117) /* Icon */
-     , (25736,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25736,   1, 0x02000153) /* Setup */
+     , (25736,   3, 0x20000014) /* SoundTable */
+     , (25736,   8, 0x060012D5) /* Icon */
+     , (25736,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25736, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (25736, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (25736, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25736, 8000, 2186220492) /* PCAPRecordedObjectIID */;
+VALUES (25736, 8000, 0x824F13CC) /* PCAPRecordedObjectIID */;

@@ -23,13 +23,13 @@ VALUES (40490,   1, 'Apostate Orders') /* Name */
      , (40490,  15, 'A translation of a Virindi message shard found in the Apostate Citadel.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40490,   1,   33554773) /* Setup */
-     , (40490,   3,  536870932) /* SoundTable */
-     , (40490,   8,  100668176) /* Icon */
-     , (40490,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40490,   1, 0x02000155) /* Setup */
+     , (40490,   3, 0x20000014) /* SoundTable */
+     , (40490,   8, 0x06001310) /* Icon */
+     , (40490,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40490, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (40490, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (40490, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40490, 8000, 3703546029) /* PCAPRecordedObjectIID */;
+VALUES (40490, 8000, 0xDCBFA0AD) /* PCAPRecordedObjectIID */;

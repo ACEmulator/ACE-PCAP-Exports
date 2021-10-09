@@ -37,21 +37,21 @@ VALUES (24467,   1, 'Sunstone Gauntlets') /* Name */
      , (24467,  16, 'These gauntlets have been carved from Sunstone to fit the human hand. They are mystical in nature and have a grooved slot about the size of a small amulet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24467,   1,   33554648) /* Setup */
-     , (24467,   3,  536870932) /* SoundTable */
-     , (24467,   6,   67108990) /* PaletteBase */
-     , (24467,   8,  100674345) /* Icon */
-     , (24467,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24467,   1, 0x020000D8) /* Setup */
+     , (24467,   3, 0x20000014) /* SoundTable */
+     , (24467,   6, 0x0400007E) /* PaletteBase */
+     , (24467,   8, 0x06002B29) /* Icon */
+     , (24467,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24467, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (24467, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24467, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24467, 8000, 2975608602) /* PCAPRecordedObjectIID */;
+VALUES (24467, 8000, 0xB15C2F1A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24467,  1383,      2)  /* CoordinationOther5 */
-     , (24467,  1485,      2)  /* Impenetrability5 */;
+VALUES (24467,  1485,      2)  /* Impenetrability5 */
+     , (24467,  1383,      2)  /* CoordinationOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24467, 67114352, 168, 6);

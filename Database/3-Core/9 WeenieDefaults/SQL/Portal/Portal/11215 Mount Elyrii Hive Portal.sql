@@ -21,16 +21,16 @@ VALUES (11215,   1, 'Mount Elyrii Hive Portal') /* Name */
      , (11215, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11215,   1,   33555925) /* Setup */
-     , (11215,   2,  150994947) /* MotionTable */
-     , (11215,   8,  100667499) /* Icon */
+VALUES (11215,   1, 0x020005D5) /* Setup */
+     , (11215,   2, 0x09000003) /* MotionTable */
+     , (11215,   8, 0x0600106B) /* Icon */
      , (11215, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (11215, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (11215, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11215, 8040, 431751185, 64.0845, 11.8681, 235.2774, 0.674594, 0, 0, 0.738189) /* PCAPRecordedLocation */
+VALUES (11215, 8040, 0x19BC0011, 64.0845, 11.8681, 235.2774, 0.674594, 0, 0, 0.738189) /* PCAPRecordedLocation */
 /* @teleloc 0x19BC0011 [64.084500 11.868100 235.277400] 0.674594 0.000000 0.000000 0.738189 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11215, 8000, 1906032640) /* PCAPRecordedObjectIID */;
+VALUES (11215, 8000, 0x719BC000) /* PCAPRecordedObjectIID */;

@@ -23,21 +23,21 @@ VALUES (765,   1, 'Amaranth') /* Name */
      , (765,  20, 'Sacks of Amaranth') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (765,   1,   33554817) /* Setup */
-     , (765,   3,  536870932) /* SoundTable */
-     , (765,   6,   67111919) /* PaletteBase */
-     , (765,   8,  100668417) /* Icon */
-     , (765,  22,  872415275) /* PhysicsEffectTable */
+VALUES (765,   1, 0x02000181) /* Setup */
+     , (765,   3, 0x20000014) /* SoundTable */
+     , (765,   6, 0x04000BEF) /* PaletteBase */
+     , (765,   8, 0x06001401) /* Icon */
+     , (765,  22, 0x3400002B) /* PhysicsEffectTable */
      , (765, 8001,    2109465) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden */
      , (765, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (765, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (765, 8040, 2292056110, 124.1686, 130.4879, 132.5937, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (765, 8040, 0x889E002E, 124.1686, 130.4879, 132.5937, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x889E002E [124.168600 130.487900 132.593700] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (765, 8000, 3700627340) /* PCAPRecordedObjectIID */;
+VALUES (765, 8000, 0xDC93178C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (765, 67111918, 0, 0);

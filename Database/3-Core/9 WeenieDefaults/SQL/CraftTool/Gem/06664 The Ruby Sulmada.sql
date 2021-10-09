@@ -19,24 +19,25 @@ VALUES (6664,   1,       2048) /* ItemType - Gem */
      , (6664, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6664,  22, True ) /* Inscribable */;
+VALUES (6664,  22, True ) /* Inscribable */
+     , (6664,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6664,   1, 'The Ruby Sulmada') /* Name */
      , (6664,  16, 'The third Crimson Star Ruby, pulsing with magical energy. When attached to the Silifi of Crimson Stars, this Ruby adds a Coordination enchantment to the weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6664,   1,   33554809) /* Setup */
-     , (6664,   3,  536870932) /* SoundTable */
-     , (6664,   6,   67111919) /* PaletteBase */
-     , (6664,   8,  100670643) /* Icon */
-     , (6664,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6664,   1, 0x02000179) /* Setup */
+     , (6664,   3, 0x20000014) /* SoundTable */
+     , (6664,   6, 0x04000BEF) /* PaletteBase */
+     , (6664,   8, 0x06001CB3) /* Icon */
+     , (6664,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6664, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (6664, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6664, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6664, 8000, 3627642458) /* PCAPRecordedObjectIID */;
+VALUES (6664, 8000, 0xD8396E5A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6664, 67111924, 0, 0);

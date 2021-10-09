@@ -24,13 +24,13 @@ VALUES (20597,   1, 'Scroll of Koga''s Boon') /* Name */
 Increases the target''s Weapon Tinkering skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20597,   1,   33554826) /* Setup */
-     , (20597,   8,  100676477) /* Icon */
-     , (20597,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20597,   1, 0x0200018A) /* Setup */
+     , (20597,   8, 0x0600337D) /* Icon */
+     , (20597,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20597,  28,       2324) /* Spell - WeaponExpertiseOther7 */
      , (20597, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20597, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20597, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20597, 8000, 3683103642) /* PCAPRecordedObjectIID */;
+VALUES (20597, 8000, 0xDB87B39A) /* PCAPRecordedObjectIID */;

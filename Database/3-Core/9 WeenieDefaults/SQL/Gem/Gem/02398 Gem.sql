@@ -35,17 +35,17 @@ VALUES (2398,   1, 'Gem') /* Name */
      , (2398,  16, 'Gem of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2398,   1,   33554809) /* Setup */
-     , (2398,   3,  536870932) /* SoundTable */
-     , (2398,   6,   67111919) /* PaletteBase */
-     , (2398,   8,  100674719) /* Icon */
-     , (2398,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2398,   1, 0x02000179) /* Setup */
+     , (2398,   3, 0x20000014) /* SoundTable */
+     , (2398,   6, 0x04000BEF) /* PaletteBase */
+     , (2398,   8, 0x06002C9F) /* Icon */
+     , (2398,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2398, 8001, 2166386712) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, Workmanship, MaterialType */
      , (2398, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2398, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2398, 8000, 3688254419) /* PCAPRecordedObjectIID */;
+VALUES (2398, 8000, 0xDBD64BD3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2398,  1377,      2)  /* CoordinationSelf5 */;

@@ -39,22 +39,22 @@ VALUES (12252,   1, 'Obsidian Director''s Mask') /* Name */
      , (12252,  16, 'A Virindi mask taken from the Director of the Singular Obsidian Repository.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12252,   1,   33556827) /* Setup */
-     , (12252,   3,  536870932) /* SoundTable */
-     , (12252,   6,   67108990) /* PaletteBase */
-     , (12252,   8,  100672192) /* Icon */
-     , (12252,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12252,   1, 0x0200095B) /* Setup */
+     , (12252,   3, 0x20000014) /* SoundTable */
+     , (12252,   6, 0x0400007E) /* PaletteBase */
+     , (12252,   8, 0x060022C0) /* Icon */
+     , (12252,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12252, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (12252, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12252, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12252, 8000, 2779730395) /* PCAPRecordedObjectIID */;
+VALUES (12252, 8000, 0xA5AF51DB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12252,   248,      2)  /* InvulnerabilitySelf5 */
+VALUES (12252,  1485,      2)  /* Impenetrability5 */
      , (12252,  1425,      2)  /* FocusSelf5 */
-     , (12252,  1485,      2)  /* Impenetrability5 */;
+     , (12252,   248,      2)  /* InvulnerabilitySelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12252, 67113397, 240, 16);

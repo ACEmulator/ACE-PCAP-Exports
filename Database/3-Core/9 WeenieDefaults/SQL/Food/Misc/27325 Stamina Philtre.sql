@@ -23,20 +23,17 @@ VALUES (27325,   1, 'Stamina Philtre') /* Name */
      , (27325,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27325,   1,   33554603) /* Setup */
-     , (27325,   3,  536870932) /* SoundTable */
-     , (27325,   6,   67111919) /* PaletteBase */
-     , (27325,   8,  100676320) /* Icon */
-     , (27325,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27325,   1, 0x020000AB) /* Setup */
+     , (27325,   3, 0x20000014) /* SoundTable */
+     , (27325,   6, 0x04000BEF) /* PaletteBase */
+     , (27325,   8, 0x060032E0) /* Icon */
+     , (27325,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27325, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (27325, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (27325, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27325, 8000, 2151960055) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27325, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */;
+VALUES (27325, 8000, 0x80444DF7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27325, 67111920, 0, 0);

@@ -39,14 +39,14 @@ VALUES (42979,   1, 'Core Plating Integrator') /* Name */
      , (42979,  16, 'This Aetherium core integrator forges Gear Plating using the materials and magical essence derived from armor and clothing. Use this item on armor and clothing to convert the item to Armor Plating.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42979,   1,   33555677) /* Setup */
-     , (42979,   3,  536870932) /* SoundTable */
-     , (42979,   8,  100690663) /* Icon */
-     , (42979,  22,  872415275) /* PhysicsEffectTable */
-     , (42979,  50,  100691312) /* IconOverlay */
+VALUES (42979,   1, 0x020004DD) /* Setup */
+     , (42979,   3, 0x20000014) /* SoundTable */
+     , (42979,   8, 0x06006AE7) /* Icon */
+     , (42979,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42979,  50, 0x06006D70) /* IconOverlay */
      , (42979, 8001, 1076654104) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Priority, TargetType, Burden, IconOverlay */
      , (42979, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42979, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42979, 8000, 3618495993) /* PCAPRecordedObjectIID */;
+VALUES (42979, 8000, 0xD7ADDDF9) /* PCAPRecordedObjectIID */;

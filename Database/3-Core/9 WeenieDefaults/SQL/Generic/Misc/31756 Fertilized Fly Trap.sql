@@ -20,13 +20,13 @@ VALUES (31756,   1, 'Fertilized Fly Trap') /* Name */
      , (31756,  15, 'A *MONSTER* Fly Trap. It twitches gently as you watch it, but it seems ... sated. Thank goodness for that -- it could eat you whole!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31756,   1,   33559603) /* Setup */
-     , (31756,   3,  536870932) /* SoundTable */
-     , (31756,   8,  100687930) /* Icon */
-     , (31756,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31756,   1, 0x02001433) /* Setup */
+     , (31756,   3, 0x20000014) /* SoundTable */
+     , (31756,   8, 0x0600603A) /* Icon */
+     , (31756,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31756, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (31756, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31756, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31756, 8000, 2166154767) /* PCAPRecordedObjectIID */;
+VALUES (31756, 8000, 0x811CE60F) /* PCAPRecordedObjectIID */;

@@ -29,17 +29,17 @@ VALUES (29109,   1, 'Tusker Spit Ale') /* Name */
      , (29109,  20, 'Bottles of Tusker Spit Ale') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29109,   1,   33559128) /* Setup */
-     , (29109,   3,  536870932) /* SoundTable */
-     , (29109,   8,  100686437) /* Icon */
-     , (29109,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29109,   1, 0x02001258) /* Setup */
+     , (29109,   3, 0x20000014) /* SoundTable */
+     , (29109,   8, 0x06005A65) /* Icon */
+     , (29109,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29109,  28,       3530) /* Spell - KetnansBoon */
-     , (29109,  50,  100687554) /* IconOverlay */
-     , (29109,  52,  100687547) /* IconUnderlay */
+     , (29109,  50, 0x06005EC2) /* IconOverlay */
+     , (29109,  52, 0x06005EBB) /* IconUnderlay */
      , (29109, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */
      , (29109, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (29109, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (29109, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29109, 8000, 3041952608) /* PCAPRecordedObjectIID */;
+VALUES (29109, 8000, 0xB5508360) /* PCAPRecordedObjectIID */;

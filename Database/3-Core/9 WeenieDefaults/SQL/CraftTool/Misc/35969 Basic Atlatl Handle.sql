@@ -22,13 +22,13 @@ VALUES (35969,   1, 'Basic Atlatl Handle') /* Name */
      , (35969,  16, 'A basic bone handle carved from an undead thighbone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35969,   1,   33556603) /* Setup */
-     , (35969,   3,  536870932) /* SoundTable */
-     , (35969,   8,  100689587) /* Icon */
-     , (35969,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35969,   1, 0x0200087B) /* Setup */
+     , (35969,   3, 0x20000014) /* SoundTable */
+     , (35969,   8, 0x060066B3) /* Icon */
+     , (35969,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35969, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (35969, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35969, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35969, 8000, 2174252675) /* PCAPRecordedObjectIID */;
+VALUES (35969, 8000, 0x81987683) /* PCAPRecordedObjectIID */;

@@ -13,7 +13,8 @@ VALUES (28760,   1,        128) /* ItemType - Misc */
      , (28760, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28760,  22, True ) /* Inscribable */;
+VALUES (28760,  22, True ) /* Inscribable */
+     , (28760,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28760, 8010,       0) /* PCAPRecordedVelocityX */
@@ -25,17 +26,17 @@ VALUES (28760,   1, 'Eleonora''s Heart') /* Name */
      , (28760,  16, 'The heart of the warrior Eleonora.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28760,   1,   33559148) /* Setup */
-     , (28760,   3,  536870932) /* SoundTable */
-     , (28760,   8,  100686368) /* Icon */
-     , (28760,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28760,   1, 0x0200126C) /* Setup */
+     , (28760,   3, 0x20000014) /* SoundTable */
+     , (28760,   8, 0x06005A20) /* Icon */
+     , (28760,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28760, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (28760, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28760, 8005,      38917) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28760, 8040, 48955666, 80.0859, -227.431, -35.0126, -0.999938, 0, 0, -0.0111645) /* PCAPRecordedLocation */
+VALUES (28760, 8040, 0x02EB0112, 80.0859, -227.431, -35.0126, -0.999938, 0, 0, -0.011165) /* PCAPRecordedLocation */
 /* @teleloc 0x02EB0112 [80.085900 -227.431000 -35.012600] -0.999938 0.000000 0.000000 -0.011165 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28760, 8000, 3710325195) /* PCAPRecordedObjectIID */;
+VALUES (28760, 8000, 0xDD2711CB) /* PCAPRecordedObjectIID */;

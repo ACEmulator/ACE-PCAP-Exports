@@ -25,23 +25,23 @@ VALUES (23987,   1, 'Olthoi Swarm Guardian') /* Name */
      , (23987, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23987,   1,   33557046) /* Setup */
-     , (23987,   2,  150995130) /* MotionTable */
-     , (23987,   3,  536871036) /* SoundTable */
-     , (23987,   6,   67113194) /* PaletteBase */
-     , (23987,   8,  100667623) /* Icon */
-     , (23987,  22,  872415378) /* PhysicsEffectTable */
+VALUES (23987,   1, 0x02000A36) /* Setup */
+     , (23987,   2, 0x090000BA) /* MotionTable */
+     , (23987,   3, 0x2000007C) /* SoundTable */
+     , (23987,   6, 0x040010EA) /* PaletteBase */
+     , (23987,   8, 0x060010E7) /* Icon */
+     , (23987,  22, 0x34000092) /* PhysicsEffectTable */
      , (23987,  30,         86) /* PhysicsScript - BreatheAcid */
      , (23987, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (23987, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (23987, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23987, 8040, 1565262129, 249.969, -69.2541, -30.016, 0.020795, 0, 0, -0.9997838) /* PCAPRecordedLocation */
+VALUES (23987, 8040, 0x5D4C0131, 249.969, -69.2541, -30.016, 0.020795, 0, 0, -0.999784) /* PCAPRecordedLocation */
 /* @teleloc 0x5D4C0131 [249.969000 -69.254100 -30.016000] 0.020795 0.000000 0.000000 -0.999784 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23987, 8000, 2622008985) /* PCAPRecordedObjectIID */;
+VALUES (23987, 8000, 0x9C48AE99) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23987,   1, 330, 0, 0) /* Strength */

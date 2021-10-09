@@ -45,23 +45,20 @@ VALUES (2587,   1, 'Shirt') /* Name */
      , (2587,  16, 'Loose Shirt of Piercing Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2587,   1,   33554644) /* Setup */
-     , (2587,   3,  536870932) /* SoundTable */
-     , (2587,   6,   67108990) /* PaletteBase */
-     , (2587,   8,  100667373) /* Icon */
-     , (2587,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2587,   1, 0x020000D4) /* Setup */
+     , (2587,   3, 0x20000014) /* SoundTable */
+     , (2587,   6, 0x0400007E) /* PaletteBase */
+     , (2587,   8, 0x06000FED) /* Icon */
+     , (2587,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2587, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (2587, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2587, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2587, 8000, 2186220386) /* PCAPRecordedObjectIID */;
+VALUES (2587, 8000, 0x824F1362) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2587,  1136,      2)  /* PiercingProtectionSelf4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2587, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2587, 67110353, 40, 24)

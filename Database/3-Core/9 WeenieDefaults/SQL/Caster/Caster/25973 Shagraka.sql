@@ -10,6 +10,7 @@ VALUES (25973,   1,      32768) /* ItemType - Caster */
      , (25973,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (25973,  18,          1) /* UiEffects - Magical */
      , (25973,  19,       5000) /* Value */
+     , (25973,  46,        512) /* DefaultCombatStyle - Magic */
      , (25973,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25973,  94,         16) /* TargetType - Creature */
      , (25973, 106,        250) /* ItemSpellcraft */
@@ -35,16 +36,16 @@ VALUES (25973,   1, 'Shagraka') /* Name */
      , (25973,  15, 'This stave is a symbol of the sorcerers of the Shagar Zharala. This particular stave was once the property of the Zharalim traitor Rheth Al'' Thok.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25973,   1,   33558572) /* Setup */
-     , (25973,   6,   67111919) /* PaletteBase */
-     , (25973,   8,  100675678) /* Icon */
-     , (25973,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25973,   1, 0x0200102C) /* Setup */
+     , (25973,   6, 0x04000BEF) /* PaletteBase */
+     , (25973,   8, 0x0600305E) /* Icon */
+     , (25973,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25973, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (25973, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25973, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25973, 8000, 2173673365) /* PCAPRecordedObjectIID */;
+VALUES (25973, 8000, 0x818F9F95) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25973,  3013,      2)  /* OasisHealthRegen */

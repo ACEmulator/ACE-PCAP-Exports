@@ -37,17 +37,17 @@ VALUES (28611,   1, 'Viamontian Laced Boots') /* Name */
      , (28611,  16, 'Viamontian Laced Boots') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28611,   1,   33559325) /* Setup */
-     , (28611,   3,  536870932) /* SoundTable */
-     , (28611,   6,   67108990) /* PaletteBase */
-     , (28611,   8,  100682436) /* Icon */
-     , (28611,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28611,   1, 0x0200131D) /* Setup */
+     , (28611,   3, 0x20000014) /* SoundTable */
+     , (28611,   6, 0x0400007E) /* PaletteBase */
+     , (28611,   8, 0x06004AC4) /* Icon */
+     , (28611,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28611, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (28611, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28611, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28611, 8000, 2174501823) /* PCAPRecordedObjectIID */;
+VALUES (28611, 8000, 0x819C43BF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28611, 67115819, 160, 8);

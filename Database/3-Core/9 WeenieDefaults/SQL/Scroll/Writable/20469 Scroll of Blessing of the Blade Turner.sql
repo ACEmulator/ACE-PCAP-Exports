@@ -24,13 +24,13 @@ VALUES (20469,   1, 'Scroll of Blessing of the Blade Turner') /* Name */
 Reduces damage the caster takes from Slashing by 65%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20469,   1,   33554826) /* Setup */
-     , (20469,   8,  100676954) /* Icon */
-     , (20469,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20469,   1, 0x0200018A) /* Setup */
+     , (20469,   8, 0x0600355A) /* Icon */
+     , (20469,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20469,  28,       2151) /* Spell - BladeProtectionSelf7 */
      , (20469, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20469, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20469, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20469, 8000, 2461819247) /* PCAPRecordedObjectIID */;
+VALUES (20469, 8000, 0x92BC616F) /* PCAPRecordedObjectIID */;

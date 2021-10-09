@@ -24,13 +24,13 @@ VALUES (20519,   1, 'Scroll of Finesse Weapon Ineptitude Other VII') /* Name */
 Decreases the target''s Finesse Weapons skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20519,   1,   33554826) /* Setup */
-     , (20519,   8,  100692250) /* Icon */
-     , (20519,  22,  872415275) /* PhysicsEffectTable */
-     , (20519,  28,       2220) /* Spell - DaggerIneptitudeOther7 */
+VALUES (20519,   1, 0x0200018A) /* Setup */
+     , (20519,   8, 0x0600711A) /* Icon */
+     , (20519,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20519,  28,       2220) /* Spell - FinesseWeaponsIneptitudeOther7 */
      , (20519, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20519, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20519, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20519, 8000, 3358579586) /* PCAPRecordedObjectIID */;
+VALUES (20519, 8000, 0xC82FDB82) /* PCAPRecordedObjectIID */;

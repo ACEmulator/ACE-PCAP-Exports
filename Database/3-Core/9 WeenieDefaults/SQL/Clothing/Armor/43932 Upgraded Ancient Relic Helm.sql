@@ -41,26 +41,26 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43932,   1, 'Upgraded Ancient Relic Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43932,   1,   33559082) /* Setup */
-     , (43932,   3,  536870932) /* SoundTable */
-     , (43932,   8,  100688343) /* Icon */
-     , (43932,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43932,   1, 0x0200122A) /* Setup */
+     , (43932,   3, 0x20000014) /* SoundTable */
+     , (43932,   8, 0x060061D7) /* Icon */
+     , (43932,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43932, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
      , (43932, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43932, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43932, 8040, 3583574079, 172.099, 152.1563, 374.0303, 0.8905933, 0, 0, -0.4548005) /* PCAPRecordedLocation */
+VALUES (43932, 8040, 0xD599003F, 172.099, 152.1563, 374.0303, 0.890593, 0, 0, -0.454801) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [172.099000 152.156300 374.030300] 0.890593 0.000000 0.000000 -0.454801 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43932, 8000, 2501622462) /* PCAPRecordedObjectIID */;
+VALUES (43932, 8000, 0x951BBABE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43932,  2574,      2)  /* CANTRIPFOCUS2 */
-     , (43932,  2614,      2)  /* CANTRIPSLASHINGWARD2 */
+     , (43932,  3154,      2)  /* ScytheAegis */
      , (43932,  3094,      2)  /* SkinFiazhat */
-     , (43932,  3154,      2)  /* ScytheAegis */;
+     , (43932,  2614,      2)  /* CANTRIPSLASHINGWARD2 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43932, 0, 83895724, 83897512)

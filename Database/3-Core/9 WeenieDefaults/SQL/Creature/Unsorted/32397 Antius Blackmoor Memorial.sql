@@ -17,36 +17,15 @@ VALUES (32397,   1,         16) /* ItemType - Creature */
      , (32397,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (32397,  95,          8) /* RadarBlipColor - Yellow */
      , (32397, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (32397, 307,          0) /* DamageRating */
-     , (32397, 308,          0) /* DamageResistRating */
-     , (32397, 313,          0) /* CritRating */
-     , (32397, 314,          0) /* CritDamageRating */
-     , (32397, 315,          0) /* CritResistRating */
-     , (32397, 316,          0) /* CritDamageResistRating */
-     , (32397, 370,          0) /* GearDamage */
-     , (32397, 371,          0) /* GearDamageResist */
-     , (32397, 372,          0) /* GearCrit */
-     , (32397, 373,          0) /* GearCritResist */
-     , (32397, 374,          0) /* GearCritDamage */
-     , (32397, 375,          0) /* GearCritDamageResist */
-     , (32397, 376,          0) /* GearHealingBoost */
-     , (32397, 377,          0) /* GearNetherResist */
-     , (32397, 378,          0) /* GearLifeResist */
-     , (32397, 379,          0) /* GearMaxHealth */
-     , (32397, 381,          0) /* PKDamageRating */
-     , (32397, 382,          0) /* PKDamageResistRating */
-     , (32397, 383,          0) /* GearPKDamageRating */
-     , (32397, 384,          0) /* GearPKDamageResistRating */
-     , (32397, 386,          0) /* Overpower */
-     , (32397, 387,          0) /* OverpowerResist */
-     , (32397, 388,          0) /* GearOverpower */
-     , (32397, 389,          0) /* GearOverpowerResist */
      , (32397, 8007,          0) /* PCAPRecordedAutonomousMovement */
      , (32397, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32397,   1, True ) /* Stuck */
-     , (32397,  19, False) /* Attackable */;
+     , (32397,  19, False) /* Attackable */
+     , (32397,  52, True ) /* AiImmobile */
+     , (32397,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (32397,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32397,  21,       0) /* WeaponLength */
@@ -63,21 +42,21 @@ VALUES (32397,   1, 'Antius Blackmoor Memorial') /* Name */
      , (32397, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32397,   1,   33554433) /* Setup */
-     , (32397,   2,  150995175) /* MotionTable */
-     , (32397,   3,  536870913) /* SoundTable */
-     , (32397,   6,   67108990) /* PaletteBase */
-     , (32397,   8,  100667446) /* Icon */
+VALUES (32397,   1, 0x02000001) /* Setup */
+     , (32397,   2, 0x090000E7) /* MotionTable */
+     , (32397,   3, 0x20000001) /* SoundTable */
+     , (32397,   6, 0x0400007E) /* PaletteBase */
+     , (32397,   8, 0x06001036) /* Icon */
      , (32397, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (32397, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (32397, 8005,     100547) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32397, 8040, 3027173400, 60, 180, 48.815, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (32397, 8040, 0xB46F0018, 60, 180, 48.815, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xB46F0018 [60.000000 180.000000 48.815000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32397, 8000, 3685095290) /* PCAPRecordedObjectIID */;
+VALUES (32397, 8000, 0xDBA6177A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32397, 2, 32565,  1, 0, 0, False) /* Create Memorial Sword of Lost Light (32565) for Wield */;

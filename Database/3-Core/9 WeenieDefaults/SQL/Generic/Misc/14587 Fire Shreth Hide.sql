@@ -19,17 +19,17 @@ VALUES (14587,   1, 'Fire Shreth Hide') /* Name */
      , (14587,  15, 'One could use a noodle cutter to slice leather straps from this hide.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14587,   1,   33554817) /* Setup */
-     , (14587,   3,  536870932) /* SoundTable */
-     , (14587,   6,   67111919) /* PaletteBase */
-     , (14587,   8,  100672525) /* Icon */
-     , (14587,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14587,   1, 0x02000181) /* Setup */
+     , (14587,   3, 0x20000014) /* SoundTable */
+     , (14587,   6, 0x04000BEF) /* PaletteBase */
+     , (14587,   8, 0x0600240D) /* Icon */
+     , (14587,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14587, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (14587, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14587, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14587, 8000, 3687888662) /* PCAPRecordedObjectIID */;
+VALUES (14587, 8000, 0xDBD0B716) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14587, 67111918, 0, 0);

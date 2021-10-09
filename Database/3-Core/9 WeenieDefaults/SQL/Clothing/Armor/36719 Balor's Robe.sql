@@ -40,22 +40,22 @@ VALUES (36719,   1, 'Balor''s Robe') /* Name */
      , (36719,  16, 'A lovingly crafted robe. It''s white fur glistens with protective magic.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36719,   1,   33554854) /* Setup */
-     , (36719,   3,  536870932) /* SoundTable */
-     , (36719,   6,   67108990) /* PaletteBase */
-     , (36719,   8,  100672462) /* Icon */
-     , (36719,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36719,   1, 0x020001A6) /* Setup */
+     , (36719,   3, 0x20000014) /* SoundTable */
+     , (36719,   6, 0x0400007E) /* PaletteBase */
+     , (36719,   8, 0x060023CE) /* Icon */
+     , (36719,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36719, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (36719, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36719, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36719, 8000, 2461713234) /* PCAPRecordedObjectIID */;
+VALUES (36719, 8000, 0x92BAC352) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36719,  2155,      2)  /* ColdProtectionSelf7 */
-     , (36719,  2619,      2)  /* CANTRIPFROSTWARD1 */
-     , (36719,  4018,      2)  /* Permafrost */;
+     , (36719,  4018,      2)  /* Permafrost */
+     , (36719,  2619,      2)  /* CANTRIPFROSTWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36719, 67113088, 40, 40)

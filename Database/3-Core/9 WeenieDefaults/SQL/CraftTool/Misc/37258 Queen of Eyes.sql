@@ -22,17 +22,17 @@ VALUES (37258,   1, 'Queen of Eyes') /* Name */
      , (37258,  20, 'Queens of Eyes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37258,   1,   33560547) /* Setup */
-     , (37258,   3,  536870932) /* SoundTable */
-     , (37258,   8,  100689855) /* Icon */
-     , (37258,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37258,   1, 0x020017E3) /* Setup */
+     , (37258,   3, 0x20000014) /* SoundTable */
+     , (37258,   8, 0x060067BF) /* Icon */
+     , (37258,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37258, 8001,    2633745) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, TargetType, Burden */
      , (37258, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37258, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37258, 8040, 23855554, 59.37451, -34.10564, -9.313226E-10, 0.2009764, 0, 0, -0.9795961) /* PCAPRecordedLocation */
+VALUES (37258, 8040, 0x016C01C2, 59.37451, -34.10564, 0, 0.200976, 0, 0, -0.979596) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [59.374510 -34.105640 0.000000] 0.200976 0.000000 0.000000 -0.979596 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37258, 8000, 3704151943) /* PCAPRecordedObjectIID */;
+VALUES (37258, 8000, 0xDCC8DF87) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (43299,   1, 'Scroll of Nether Arc VI') /* Name */
 Shoots a bolt of nether at the target. The bolt does 105-210 points of nether damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43299,   1,   33554826) /* Setup */
-     , (43299,   8,  100691569) /* Icon */
-     , (43299,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43299,   1, 0x0200018A) /* Setup */
+     , (43299,   8, 0x06006E71) /* Icon */
+     , (43299,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43299,  28,       5366) /* Spell - NetherArc6 */
      , (43299, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43299, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43299, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43299, 8000, 3355056423) /* PCAPRecordedObjectIID */;
+VALUES (43299, 8000, 0xC7FA1927) /* PCAPRecordedObjectIID */;

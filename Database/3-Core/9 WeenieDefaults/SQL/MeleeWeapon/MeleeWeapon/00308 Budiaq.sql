@@ -41,19 +41,19 @@ VALUES (308,   1, 'Budiaq') /* Name */
      , (308,  16, 'Budiaq') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (308,   1,   33554756) /* Setup */
-     , (308,   3,  536870932) /* SoundTable */
-     , (308,   6,   67111919) /* PaletteBase */
-     , (308,   8,  100669012) /* Icon */
-     , (308,  22,  872415275) /* PhysicsEffectTable */
-     , (308,  52,  100676443) /* IconUnderlay */
+VALUES (308,   1, 0x02000144) /* Setup */
+     , (308,   3, 0x20000014) /* SoundTable */
+     , (308,   6, 0x04000BEF) /* PaletteBase */
+     , (308,   8, 0x06001654) /* Icon */
+     , (308,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (308,  52, 0x0600335B) /* IconUnderlay */
      , (308, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (308, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (308, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (308, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (308, 8000, 2174499371) /* PCAPRecordedObjectIID */;
+VALUES (308, 8000, 0x819C3A2B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (308, 67111924, 0, 0);

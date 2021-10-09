@@ -32,21 +32,21 @@ VALUES (52793,   1, 'Gauntlet Magic Chest') /* Name */
      , (52793, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52793,   1,   33558324) /* Setup */
-     , (52793,   2,  150995235) /* MotionTable */
-     , (52793,   3,  536870945) /* SoundTable */
-     , (52793,   8,  100674256) /* Icon */
-     , (52793,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52793,   1, 0x02000F34) /* Setup */
+     , (52793,   2, 0x09000123) /* MotionTable */
+     , (52793,   3, 0x20000021) /* SoundTable */
+     , (52793,   8, 0x06002AD0) /* Icon */
+     , (52793,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52793, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (52793, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (52793, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52793, 8040, 1500184834, 102.467, -22.8371, -2.793968E-09, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52793, 8040, 0x596B0102, 102.467, -22.8371, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0102 [102.467000 -22.837100 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52793, 8000, 1972809744) /* PCAPRecordedObjectIID */;
+VALUES (52793, 8000, 0x7596B010) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52793, -1, 42637, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Aetheria (42637) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

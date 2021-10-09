@@ -8,7 +8,6 @@ VALUES (7674,   1,          2) /* ItemType - Armor */
      , (7674,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (7674,   5,        875) /* EncumbranceVal */
      , (7674,   9,       1024) /* ValidLocations - AbdomenArmor */
-     , (7674,  10,       1024) /* CurrentWieldedLocation - AbdomenArmor */
      , (7674,  16,          1) /* ItemUseable - No */
      , (7674,  19,       1610) /* Value */
      , (7674,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -21,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7674,   1, 'Greater Celdon Shadow Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7674,   1,   33554647) /* Setup */
-     , (7674,   3,  536870932) /* SoundTable */
-     , (7674,   6,   67108990) /* PaletteBase */
-     , (7674,   8,  100670414) /* Icon */
-     , (7674,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7674,   1, 0x020000D7) /* Setup */
+     , (7674,   3, 0x20000014) /* SoundTable */
+     , (7674,   6, 0x0400007E) /* PaletteBase */
+     , (7674,   8, 0x06001BCE) /* Icon */
+     , (7674,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7674, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (7674, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7674, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7674, 8000, 2861561155) /* PCAPRecordedObjectIID */;
+VALUES (7674, 8000, 0xAA8FF543) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7674, 67109964, 80, 12)

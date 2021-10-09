@@ -22,16 +22,16 @@ VALUES (14648,   1, 'Loredane Villas Portal') /* Name */
      , (14648, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14648,   1,   33554867) /* Setup */
-     , (14648,   2,  150994947) /* MotionTable */
-     , (14648,   8,  100667499) /* Icon */
+VALUES (14648,   1, 0x020001B3) /* Setup */
+     , (14648,   2, 0x09000003) /* MotionTable */
+     , (14648,   8, 0x0600106B) /* Icon */
      , (14648, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14648, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14648, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14648, 8040, 2106523675, 82.0801, 57.9855, 123.937, 0.5696898, 0, 0, -0.8218598) /* PCAPRecordedLocation */
+VALUES (14648, 8040, 0x7D8F001B, 82.0801, 57.9855, 123.937, 0.56969, 0, 0, -0.82186) /* PCAPRecordedLocation */
 /* @teleloc 0x7D8F001B [82.080100 57.985500 123.937000] 0.569690 0.000000 0.000000 -0.821860 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14648, 8000, 2010705931) /* PCAPRecordedObjectIID */;
+VALUES (14648, 8000, 0x77D8F00B) /* PCAPRecordedObjectIID */;

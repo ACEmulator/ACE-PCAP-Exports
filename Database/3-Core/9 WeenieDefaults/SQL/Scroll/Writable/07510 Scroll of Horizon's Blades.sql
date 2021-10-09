@@ -24,13 +24,13 @@ VALUES (7510,   1, 'Scroll of Horizon''s Blades') /* Name */
 Shoots eight blades outward from the caster. Each blade does 42-84 points of slashing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7510,   1,   33554826) /* Setup */
-     , (7510,   8,  100677024) /* Icon */
-     , (7510,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7510,   1, 0x0200018A) /* Setup */
+     , (7510,   8, 0x060035A0) /* Icon */
+     , (7510,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7510,  28,       1784) /* Spell - BladeRing */
      , (7510, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (7510, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7510, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7510, 8000, 2226910402) /* PCAPRecordedObjectIID */;
+VALUES (7510, 8000, 0x84BBF4C2) /* PCAPRecordedObjectIID */;

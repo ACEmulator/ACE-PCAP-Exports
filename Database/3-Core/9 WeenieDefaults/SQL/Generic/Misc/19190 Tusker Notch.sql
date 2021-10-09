@@ -17,15 +17,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19190,   1, 'Tusker Notch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19190,   1,   33557463) /* Setup */
-     , (19190,   8,  100668115) /* Icon */
+VALUES (19190,   1, 0x02000BD7) /* Setup */
+     , (19190,   8, 0x060012D3) /* Icon */
      , (19190, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (19190, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19190, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19190, 8040, 2225864732, 90.5232, 82.2971, 101.5436, 0.559714, 0, 0, 0.828686) /* PCAPRecordedLocation */
+VALUES (19190, 8040, 0x84AC001C, 90.5232, 82.2971, 101.5436, 0.559714, 0, 0, 0.828686) /* PCAPRecordedLocation */
 /* @teleloc 0x84AC001C [90.523200 82.297100 101.543600] 0.559714 0.000000 0.000000 0.828686 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19190, 8000, 2018165169) /* PCAPRecordedObjectIID */;
+VALUES (19190, 8000, 0x784AC1B1) /* PCAPRecordedObjectIID */;

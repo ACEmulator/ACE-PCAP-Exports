@@ -27,17 +27,17 @@ VALUES (13230,   1, 'Academy Mana Potion') /* Name */
      , (13230,  15, 'Many items, such as potions, are stackable. This means that they will stack on top of each other in the same slot in your Inventory. Academy potions, however, are not stackable.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13230,   1,   33554603) /* Setup */
-     , (13230,   3,  536870932) /* SoundTable */
-     , (13230,   6,   67111919) /* PaletteBase */
-     , (13230,   8,  100670837) /* Icon */
-     , (13230,  22,  872415275) /* PhysicsEffectTable */
+VALUES (13230,   1, 0x020000AB) /* Setup */
+     , (13230,   3, 0x20000014) /* SoundTable */
+     , (13230,   6, 0x04000BEF) /* PaletteBase */
+     , (13230,   8, 0x06001D75) /* Icon */
+     , (13230,  22, 0x3400002B) /* PhysicsEffectTable */
      , (13230, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (13230, 8003,      32786) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Food */
      , (13230, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13230, 8000, 3658163612) /* PCAPRecordedObjectIID */;
+VALUES (13230, 8000, 0xDA0B259C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (13230, 67111919, 0, 0);

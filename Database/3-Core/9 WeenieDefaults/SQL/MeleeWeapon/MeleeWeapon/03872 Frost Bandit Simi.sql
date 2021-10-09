@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3872,   1,          1) /* ItemType - MeleeWeapon */
      , (3872,   5,        400) /* EncumbranceVal */
      , (3872,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (3872,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (3872,  16,          1) /* ItemUseable - No */
      , (3872,  18,        129) /* UiEffects - Magical, Frost */
      , (3872,  51,          1) /* CombatUse - Melee */
@@ -26,19 +25,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3872,   1, 'Frost Bandit Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3872,   1,   33555768) /* Setup */
-     , (3872,   3,  536870932) /* SoundTable */
-     , (3872,   8,  100668164) /* Icon */
-     , (3872,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3872,   1, 0x02000538) /* Setup */
+     , (3872,   3, 0x20000014) /* SoundTable */
+     , (3872,   8, 0x06001304) /* Icon */
+     , (3872,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3872, 8001, 2435023504) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (3872, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3872, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (3872, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3872, 8040, 2847146026, 141.4736, 35.68509, 93.92901, -0.6872892, -0.6872892, -0.1662332, -0.1662332) /* PCAPRecordedLocation */
+VALUES (3872, 8040, 0xA9B4002A, 141.4736, 35.68509, 93.92901, -0.687289, -0.687289, -0.166233, -0.166233) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [141.473600 35.685090 93.929010] -0.687289 -0.687289 -0.166233 -0.166233 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3872, 8000, 3334655494) /* PCAPRecordedObjectIID */
-     , (3872, 8008, 1342829318) /* PCAPRecordedParentIID */;
+VALUES (3872, 8000, 0xC6C2CE06) /* PCAPRecordedObjectIID */
+     , (3872, 8008, 0x5009F306) /* PCAPRecordedParentIID */;

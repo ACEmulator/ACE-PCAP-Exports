@@ -23,17 +23,17 @@ VALUES (768,   1, 'Damiana') /* Name */
      , (768,  20, 'Sacks of Damiana') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (768,   1,   33554817) /* Setup */
-     , (768,   3,  536870932) /* SoundTable */
-     , (768,   6,   67111919) /* PaletteBase */
-     , (768,   8,  100668419) /* Icon */
-     , (768,  22,  872415275) /* PhysicsEffectTable */
+VALUES (768,   1, 0x02000181) /* Setup */
+     , (768,   3, 0x20000014) /* SoundTable */
+     , (768,   6, 0x04000BEF) /* PaletteBase */
+     , (768,   8, 0x06001403) /* Icon */
+     , (768,  22, 0x3400002B) /* PhysicsEffectTable */
      , (768, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (768, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (768, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (768, 8000, 2856726450) /* PCAPRecordedObjectIID */;
+VALUES (768, 8000, 0xAA462FB2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (768, 67111922, 0, 0);

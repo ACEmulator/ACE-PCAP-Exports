@@ -23,17 +23,17 @@ VALUES (509,   1, 'Life Stone') /* Name */
      , (509, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (509,   1,   33555182) /* Setup */
-     , (509,   2,  150994982) /* MotionTable */
-     , (509,   3,  536870932) /* SoundTable */
-     , (509,   8,  100668245) /* Icon */
+VALUES (509,   1, 0x020002EE) /* Setup */
+     , (509,   2, 0x09000026) /* MotionTable */
+     , (509,   3, 0x20000014) /* SoundTable */
+     , (509,   8, 0x06001355) /* Icon */
      , (509, 8001,    9437232) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (509, 8003,      16404) /* PCAPRecordedObjectDesc - Stuck, Attackable, LifeStone */
      , (509, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (509, 8040, 3694723080, 5.57258, 173.828, 14, -0.8503788, 0, 0, 0.5261709) /* PCAPRecordedLocation */
+VALUES (509, 8040, 0xDC390008, 5.57258, 173.828, 14, -0.850379, 0, 0, 0.526171) /* PCAPRecordedLocation */
 /* @teleloc 0xDC390008 [5.572580 173.828000 14.000000] -0.850379 0.000000 0.000000 0.526171 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (509, 8000, 2109968387) /* PCAPRecordedObjectIID */;
+VALUES (509, 8000, 0x7DC39003) /* PCAPRecordedObjectIID */;

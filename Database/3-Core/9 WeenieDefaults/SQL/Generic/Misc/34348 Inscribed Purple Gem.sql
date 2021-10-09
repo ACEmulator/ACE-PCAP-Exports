@@ -13,26 +13,29 @@ VALUES (34348,   1,        128) /* ItemType - Misc */
      , (34348, 114,          1) /* Attuned - Attuned */
      , (34348, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (34348,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34348,   1, 'Inscribed Purple Gem') /* Name */
      , (34348,  16, 'One purple gem found among a hoard located in the Mountain Sewer. Its unique magic causes you to not be able to pick up more than one at a time. You can perceive very faint Empyrean letters on the inside of the gem - in order to read them, you would need to get the writing translated by someone skilled in Empyrean writings. You can feel the gem pulsing, but it seems to slow the longer you hold the gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34348,   1,   33556769) /* Setup */
-     , (34348,   3,  536870932) /* SoundTable */
-     , (34348,   6,   67111919) /* PaletteBase */
-     , (34348,   8,  100670965) /* Icon */
-     , (34348,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34348,   1, 0x02000921) /* Setup */
+     , (34348,   3, 0x20000014) /* SoundTable */
+     , (34348,   6, 0x04000BEF) /* PaletteBase */
+     , (34348,   8, 0x06001DF5) /* Icon */
+     , (34348,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34348, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (34348, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34348, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34348, 8040, 26280273, 117.142, -6.87177, -60.001, 0.6018152, 0, 0, -0.7986354) /* PCAPRecordedLocation */
+VALUES (34348, 8040, 0x01910151, 117.142, -6.87177, -60.001, 0.601815, 0, 0, -0.798635) /* PCAPRecordedLocation */
 /* @teleloc 0x01910151 [117.142000 -6.871770 -60.001000] 0.601815 0.000000 0.000000 -0.798635 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34348, 8000, 2924582492) /* PCAPRecordedObjectIID */;
+VALUES (34348, 8000, 0xAE51965C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34348, 67112925, 0, 0);

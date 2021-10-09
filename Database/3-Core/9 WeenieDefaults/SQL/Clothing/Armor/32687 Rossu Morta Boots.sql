@@ -42,18 +42,18 @@ VALUES (32687,   1, 'Rossu Morta Boots') /* Name */
      , (32687,  16, 'Well-crafted boots worn by the fearsome Ordina Rossu Morta of Viamont.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32687,   1,   33559835) /* Setup */
-     , (32687,   3,  536870932) /* SoundTable */
-     , (32687,   8,  100688593) /* Icon */
-     , (32687,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32687,   1, 0x0200151B) /* Setup */
+     , (32687,   3, 0x20000014) /* SoundTable */
+     , (32687,   8, 0x060062D1) /* Icon */
+     , (32687,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32687, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (32687, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32687, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32687, 8000, 2982964711) /* PCAPRecordedObjectIID */;
+VALUES (32687, 8000, 0xB1CC6DE7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32687,  1332,      2)  /* StrengthSelf6 */
-     , (32687,  2108,      2)  /* Impenetrability7 */
-     , (32687,  2663,      2)  /* ModerateStrength */;
+VALUES (32687,  2663,      2)  /* ModerateStrength */
+     , (32687,  1332,      2)  /* StrengthSelf6 */
+     , (32687,  2108,      2)  /* Impenetrability7 */;

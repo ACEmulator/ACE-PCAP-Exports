@@ -17,11 +17,11 @@ VALUES (53480,   1,        128) /* ItemType - Misc */
      , (53480,  98, 1485848356) /* CreationTimestamp */
      , (53480, 114,          1) /* Attuned - Attuned */
      , (53480, 267,      15000) /* Lifespan */
-     , (53480, 268,      15000) /* RemainingLifespan */
      , (53480, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53480,  69, False) /* IsSellable */;
+VALUES (53480,  23, True ) /* DestroyOnSell */
+     , (53480,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53480,   1, 'Viridian Key of the Second Portal') /* Name */
@@ -29,15 +29,15 @@ VALUES (53480,   1, 'Viridian Key of the Second Portal') /* Name */
      , (53480,  20, 'Viridian Keys of the Second Portal') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53480,   1,   33554784) /* Setup */
-     , (53480,   3,  536870932) /* SoundTable */
-     , (53480,   8,  100667486) /* Icon */
-     , (53480,  22,  872415275) /* PhysicsEffectTable */
-     , (53480,  52,  100689826) /* IconUnderlay */
+VALUES (53480,   1, 0x02000160) /* Setup */
+     , (53480,   3, 0x20000014) /* SoundTable */
+     , (53480,   8, 0x0600105E) /* Icon */
+     , (53480,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53480,  52, 0x060067A2) /* IconUnderlay */
      , (53480, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (53480, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (53480, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (53480, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53480, 8000, 2885482810) /* PCAPRecordedObjectIID */;
+VALUES (53480, 8000, 0xABFCF93A) /* PCAPRecordedObjectIID */;

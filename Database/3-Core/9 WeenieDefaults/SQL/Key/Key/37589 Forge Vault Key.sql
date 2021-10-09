@@ -22,13 +22,13 @@ VALUES (37589,   1, 'Forge Vault Key') /* Name */
      , (37589,  14, 'This key unlocks the Forge Vault.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37589,   1,   33554784) /* Setup */
-     , (37589,   3,  536870932) /* SoundTable */
-     , (37589,   8,  100667486) /* Icon */
-     , (37589,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37589,   1, 0x02000160) /* Setup */
+     , (37589,   3, 0x20000014) /* SoundTable */
+     , (37589,   8, 0x0600105E) /* Icon */
+     , (37589,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37589, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (37589, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37589, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37589, 8000, 3675214088) /* PCAPRecordedObjectIID */;
+VALUES (37589, 8000, 0xDB0F5108) /* PCAPRecordedObjectIID */;

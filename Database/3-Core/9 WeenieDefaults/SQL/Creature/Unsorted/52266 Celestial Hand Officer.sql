@@ -21,21 +21,21 @@ VALUES (52266,   1, 'Celestial Hand Officer') /* Name */
      , (52266, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52266,   1,   33554433) /* Setup */
-     , (52266,   2,  150994945) /* MotionTable */
-     , (52266,   3,  536870913) /* SoundTable */
-     , (52266,   6,   67108990) /* PaletteBase */
-     , (52266,   8,  100667377) /* Icon */
+VALUES (52266,   1, 0x02000001) /* Setup */
+     , (52266,   2, 0x09000001) /* MotionTable */
+     , (52266,   3, 0x20000001) /* SoundTable */
+     , (52266,   6, 0x0400007E) /* PaletteBase */
+     , (52266,   8, 0x06000FF1) /* Icon */
      , (52266, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (52266, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (52266, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52266, 8040, 1499529514, 4.41263, -20.3879, 6.005, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (52266, 8040, 0x5961012A, 4.41263, -20.3879, 6.005, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x5961012A [4.412630 -20.387900 6.005000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52266, 8000, 3694524893) /* PCAPRecordedObjectIID */;
+VALUES (52266, 8000, 0xDC35F9DD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52266, 67109559, 0, 24)

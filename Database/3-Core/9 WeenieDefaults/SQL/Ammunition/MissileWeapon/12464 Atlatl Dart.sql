@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12464,   1,        256) /* ItemType - MissileWeapon */
      , (12464,   5,          5) /* EncumbranceVal */
      , (12464,   9,    8388608) /* ValidLocations - MissileAmmo */
-     , (12464,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
      , (12464,  11,       1000) /* MaxStackSize */
      , (12464,  12,          1) /* StackSize */
      , (12464,  13,          5) /* StackUnitEncumbrance */
@@ -42,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12464,   1, 'Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12464,   1,   33557434) /* Setup */
-     , (12464,   3,  536870932) /* SoundTable */
-     , (12464,   6,   67111919) /* PaletteBase */
-     , (12464,   8,  100672373) /* Icon */
-     , (12464,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12464,   1, 0x02000BBA) /* Setup */
+     , (12464,   3, 0x20000014) /* SoundTable */
+     , (12464,   6, 0x04000BEF) /* PaletteBase */
+     , (12464,   8, 0x06002375) /* Icon */
+     , (12464,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12464, 8001,  270775064) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (12464, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (12464, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12464, 8000, 2157267148) /* PCAPRecordedObjectIID */;
+VALUES (12464, 8000, 0x809548CC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12464, 67111919, 0, 0);

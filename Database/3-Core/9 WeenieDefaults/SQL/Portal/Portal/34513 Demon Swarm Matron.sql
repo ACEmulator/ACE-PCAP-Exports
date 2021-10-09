@@ -24,28 +24,20 @@ VALUES (34513,   1, 'Demon Swarm Matron') /* Name */
      , (34513, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34513,   1,   33557165) /* Setup */
-     , (34513,   2,  150995398) /* MotionTable */
-     , (34513,   3,  536871052) /* SoundTable */
-     , (34513,   8,  100667623) /* Icon */
+VALUES (34513,   1, 0x02000AAD) /* Setup */
+     , (34513,   2, 0x090001C6) /* MotionTable */
+     , (34513,   3, 0x2000008C) /* SoundTable */
+     , (34513,   8, 0x060010E7) /* Icon */
      , (34513, 8001,    9437200) /* PCAPRecordedWeenieHeader - Usable, RadarBlipColor, RadarBehavior */
      , (34513, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (34513, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34513, 8040, 11469097, 37.5, -50, 0, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (34513, 8040, 0x00AF0129, 37.5, -50, 0, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF0129 [37.500000 -50.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34513, 8000, 1879765074) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34513, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (34513, 9, 34451,  0, 0, 0, False) /* Create Demon Swarm Matron Token (34451) for ContainTreasure */
-     , (34513, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
-     , (34513, 9, 49221,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (80) (49221) for ContainTreasure */
-     , (34513, 9, 45112,  0, 0, 0, False) /* Create Shadow Blade of Frost (45112) for ContainTreasure */
-     , (34513, 9, 20413,  0, 0, 0, False) /* Create Scroll of Inferno Bait (20413) for ContainTreasure */;
+VALUES (34513, 8000, 0x700AF052) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (34513, 0, 83893576, 83897667)

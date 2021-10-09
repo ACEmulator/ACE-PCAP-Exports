@@ -23,21 +23,21 @@ VALUES (201,   1, 'Obsidian Golem') /* Name */
      , (201, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (201,   1,   33556440) /* Setup */
-     , (201,   2,  150995073) /* MotionTable */
-     , (201,   3,  536870933) /* SoundTable */
-     , (201,   8,  100667940) /* Icon */
-     , (201,  22,  872415327) /* PhysicsEffectTable */
+VALUES (201,   1, 0x020007D8) /* Setup */
+     , (201,   2, 0x09000081) /* MotionTable */
+     , (201,   3, 0x20000015) /* SoundTable */
+     , (201,   8, 0x06001224) /* Icon */
+     , (201,  22, 0x3400005F) /* PhysicsEffectTable */
      , (201, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (201, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (201, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (201, 8040, 1570635827, 165.0536, 68.60508, 22.04738, -0.2065221, 0, 0, -0.978442) /* PCAPRecordedLocation */
+VALUES (201, 8040, 0x5D9E0033, 165.0536, 68.60508, 22.04738, -0.206522, 0, 0, -0.978442) /* PCAPRecordedLocation */
 /* @teleloc 0x5D9E0033 [165.053600 68.605080 22.047380] -0.206522 0.000000 0.000000 -0.978442 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (201, 8000, 3684997900) /* PCAPRecordedObjectIID */;
+VALUES (201, 8000, 0xDBA49B0C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (201,   1, 150, 0, 0) /* Strength */

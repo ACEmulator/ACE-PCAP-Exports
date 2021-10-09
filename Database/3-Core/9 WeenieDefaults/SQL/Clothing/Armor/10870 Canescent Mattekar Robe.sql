@@ -38,17 +38,17 @@ VALUES (10870,   1, 'Canescent Mattekar Robe') /* Name */
      , (10870,  25, 'Aliah the radiant') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10870,   1,   33554854) /* Setup */
-     , (10870,   3,  536870932) /* SoundTable */
-     , (10870,   6,   67108990) /* PaletteBase */
-     , (10870,   8,  100672350) /* Icon */
-     , (10870,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10870,   1, 0x020001A6) /* Setup */
+     , (10870,   3, 0x20000014) /* SoundTable */
+     , (10870,   6, 0x0400007E) /* PaletteBase */
+     , (10870,   8, 0x0600235E) /* Icon */
+     , (10870,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10870, 8001,  270876688) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (10870, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10870, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10870, 8000, 2274309644) /* PCAPRecordedObjectIID */;
+VALUES (10870, 8000, 0x878F360C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10870, 67110556, 96, 12)

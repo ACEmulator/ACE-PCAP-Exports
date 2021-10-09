@@ -23,17 +23,17 @@ VALUES (1533,   1, 'Small Rusted Key') /* Name */
      , (1533,  16, 'This key is badly rusted. It will open the door to Colier Mine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1533,   1,   33554784) /* Setup */
-     , (1533,   3,  536870932) /* SoundTable */
-     , (1533,   8,  100668441) /* Icon */
-     , (1533,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1533,   1, 0x02000160) /* Setup */
+     , (1533,   3, 0x20000014) /* SoundTable */
+     , (1533,   8, 0x06001419) /* Icon */
+     , (1533,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1533, 8001,    2624536) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, TargetType, Burden */
      , (1533, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1533, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1533, 8040, 2847146009, 93.48009, 15.75177, 94.024, -0.5815747, 0, 0, -0.813493) /* PCAPRecordedLocation */
+VALUES (1533, 8040, 0xA9B40019, 93.48009, 15.75177, 94.024, -0.581575, 0, 0, -0.813493) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [93.480090 15.751770 94.024000] -0.581575 0.000000 0.000000 -0.813493 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1533, 8000, 3622551750) /* PCAPRecordedObjectIID */;
+VALUES (1533, 8000, 0xD7EBC0C6) /* PCAPRecordedObjectIID */;

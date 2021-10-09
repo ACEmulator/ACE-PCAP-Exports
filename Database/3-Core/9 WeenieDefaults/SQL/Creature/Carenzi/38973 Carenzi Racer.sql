@@ -29,22 +29,22 @@ VALUES (38973,   1, 'Carenzi Racer') /* Name */
      , (38973, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38973,   1,   33558553) /* Setup */
-     , (38973,   2,  150995133) /* MotionTable */
-     , (38973,   3,  536871035) /* SoundTable */
-     , (38973,   6,   67114722) /* PaletteBase */
-     , (38973,   8,  100671754) /* Icon */
-     , (38973,  22,  872415377) /* PhysicsEffectTable */
+VALUES (38973,   1, 0x02001019) /* Setup */
+     , (38973,   2, 0x090000BD) /* MotionTable */
+     , (38973,   3, 0x2000007B) /* SoundTable */
+     , (38973,   6, 0x040016E2) /* PaletteBase */
+     , (38973,   8, 0x0600210A) /* Icon */
+     , (38973,  22, 0x34000091) /* PhysicsEffectTable */
      , (38973, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (38973, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (38973, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38973, 8040, 271908916, 158.474, 81.9942, 72, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (38973, 8040, 0x10350034, 158.474, 81.9942, 72, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x10350034 [158.474000 81.994200 72.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38973, 8000, 3359674924) /* PCAPRecordedObjectIID */;
+VALUES (38973, 8000, 0xC840922C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38973,   1, 520, 0, 0) /* Strength */

@@ -24,16 +24,13 @@ VALUES (2880,   1, 'Scroll of Strengthen Lock V') /* Name */
 Increases a lock''s resistance to picking by 100 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2880,   1,   33554826) /* Setup */
-     , (2880,   8,  100676678) /* Icon */
-     , (2880,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2880,   1, 0x0200018A) /* Setup */
+     , (2880,   8, 0x06003446) /* Icon */
+     , (2880,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2880,  28,       1579) /* Spell - StrengthenLock5 */
      , (2880, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2880, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2880, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2880, 8000, 2618618319) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2880, 2, 12187,  1, 0, 0, False) /* Create Assassin's Acid Jambiya (12187) for Wield */;
+VALUES (2880, 8000, 0x9C14F1CF) /* PCAPRecordedObjectIID */;

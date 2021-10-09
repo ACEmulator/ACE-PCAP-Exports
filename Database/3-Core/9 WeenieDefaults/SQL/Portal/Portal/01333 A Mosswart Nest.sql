@@ -22,16 +22,16 @@ VALUES (1333,   1, 'A Mosswart Nest') /* Name */
      , (1333, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1333,   1,   33554867) /* Setup */
-     , (1333,   2,  150994947) /* MotionTable */
-     , (1333,   8,  100667499) /* Icon */
+VALUES (1333,   1, 0x020001B3) /* Setup */
+     , (1333,   2, 0x09000003) /* MotionTable */
+     , (1333,   8, 0x0600106B) /* Icon */
      , (1333, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (1333, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1333, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1333, 8040, 3427926074, 179.643, 38.143, 54.23467, 0.6801121, 0, 0, 0.7331081) /* PCAPRecordedLocation */
+VALUES (1333, 8040, 0xCC52003A, 179.643, 38.143, 54.23467, 0.680112, 0, 0, 0.733108) /* PCAPRecordedLocation */
 /* @teleloc 0xCC52003A [179.643000 38.143000 54.234670] 0.680112 0.000000 0.000000 0.733108 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1333, 8000, 2093293568) /* PCAPRecordedObjectIID */;
+VALUES (1333, 8000, 0x7CC52000) /* PCAPRecordedObjectIID */;

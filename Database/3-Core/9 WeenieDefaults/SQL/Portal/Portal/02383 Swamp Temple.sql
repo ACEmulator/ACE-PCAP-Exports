@@ -21,16 +21,16 @@ VALUES (2383,   1, 'Swamp Temple') /* Name */
      , (2383, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2383,   1,   33555922) /* Setup */
-     , (2383,   2,  150994947) /* MotionTable */
-     , (2383,   8,  100667499) /* Icon */
+VALUES (2383,   1, 0x020005D2) /* Setup */
+     , (2383,   2, 0x09000003) /* MotionTable */
+     , (2383,   8, 0x0600106B) /* Icon */
      , (2383, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (2383, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (2383, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2383, 8040, 3143762207, 53.8094, 48.6628, -14.863, 0.9718013, 0, 0, 0.2358011) /* PCAPRecordedLocation */
+VALUES (2383, 8040, 0xBB62011F, 53.8094, 48.6628, -14.863, 0.971801, 0, 0, 0.235801) /* PCAPRecordedLocation */
 /* @teleloc 0xBB62011F [53.809400 48.662800 -14.863000] 0.971801 0.000000 0.000000 0.235801 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2383, 8000, 2075533312) /* PCAPRecordedObjectIID */;
+VALUES (2383, 8000, 0x7BB62000) /* PCAPRecordedObjectIID */;

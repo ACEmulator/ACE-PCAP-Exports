@@ -49,13 +49,13 @@ Speed 20') /* Inscription */
      , (3780,  25, 'Lonsgard') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3780,   1,   33555716) /* Setup */
-     , (3780,   3,  536870932) /* SoundTable */
-     , (3780,   8,  100667589) /* Icon */
-     , (3780,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3780,   1, 0x02000504) /* Setup */
+     , (3780,   3, 0x20000014) /* SoundTable */
+     , (3780,   8, 0x060010C5) /* Icon */
+     , (3780,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3780, 8001, 2434876048) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3780, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3780, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3780, 8000, 2981037278) /* PCAPRecordedObjectIID */;
+VALUES (3780, 8000, 0xB1AF04DE) /* PCAPRecordedObjectIID */;

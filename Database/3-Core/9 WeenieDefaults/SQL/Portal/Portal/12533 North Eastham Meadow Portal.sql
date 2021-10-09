@@ -22,16 +22,16 @@ VALUES (12533,   1, 'North Eastham Meadow Portal') /* Name */
      , (12533, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12533,   1,   33554867) /* Setup */
-     , (12533,   2,  150994947) /* MotionTable */
-     , (12533,   8,  100667499) /* Icon */
+VALUES (12533,   1, 0x020001B3) /* Setup */
+     , (12533,   2, 0x09000003) /* MotionTable */
+     , (12533,   8, 0x0600106B) /* Icon */
      , (12533, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12533, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12533, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12533, 8040, 3432316946, 59.4769, 42.5984, 20.53046, -0.253108, 0, 0, -0.967438) /* PCAPRecordedLocation */
+VALUES (12533, 8040, 0xCC950012, 59.4769, 42.5984, 20.53046, -0.253108, 0, 0, -0.967438) /* PCAPRecordedLocation */
 /* @teleloc 0xCC950012 [59.476900 42.598400 20.530460] -0.253108 0.000000 0.000000 -0.967438 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12533, 8000, 2093568000) /* PCAPRecordedObjectIID */;
+VALUES (12533, 8000, 0x7CC95000) /* PCAPRecordedObjectIID */;

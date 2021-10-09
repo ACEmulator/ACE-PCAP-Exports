@@ -26,22 +26,22 @@ VALUES (1631,   1, 'Drudge Servant') /* Name */
      , (1631, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1631,   1,   33556445) /* Setup */
-     , (1631,   2,  150994952) /* MotionTable */
-     , (1631,   3,  536870919) /* SoundTable */
-     , (1631,   6,   67112812) /* PaletteBase */
-     , (1631,   8,  100667445) /* Icon */
-     , (1631,  22,  872415258) /* PhysicsEffectTable */
+VALUES (1631,   1, 0x020007DD) /* Setup */
+     , (1631,   2, 0x09000008) /* MotionTable */
+     , (1631,   3, 0x20000007) /* SoundTable */
+     , (1631,   6, 0x04000F6C) /* PaletteBase */
+     , (1631,   8, 0x06001035) /* Icon */
+     , (1631,  22, 0x3400001A) /* PhysicsEffectTable */
      , (1631, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1631, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1631, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1631, 8040, 2471690285, 129.2767, 116.9864, 14.95948, 0.8191521, 0, 0, -0.5735765) /* PCAPRecordedLocation */
+VALUES (1631, 8040, 0x9353002D, 129.2767, 116.9864, 14.95948, 0.819152, 0, 0, -0.573577) /* PCAPRecordedLocation */
 /* @teleloc 0x9353002D [129.276700 116.986400 14.959480] 0.819152 0.000000 0.000000 -0.573577 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1631, 8000, 3685886854) /* PCAPRecordedObjectIID */;
+VALUES (1631, 8000, 0xDBB22B86) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1631,   1,  80, 0, 0) /* Strength */
@@ -418,7 +418,9 @@ VALUES (1631, 2, 47344,  1, 0, 0, False) /* Create Club (47344) for Wield */
      , (1631, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
      , (1631, 9, 10804,  1, 0, 0, False) /* Create Obsidian Shard (10804) for ContainTreasure */
      , (1631, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
-     , (1631, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (1631, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (1631, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (1631, 9, 40764,  0, 0, 0, False) /* Create Frost Nodachi (40764) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1631, 67112816, 0, 0);

@@ -45,24 +45,24 @@ VALUES (23541,   1, 'Crystal Sword') /* Name */
      , (23541,  16, 'A crystalline sword, made out of a what appears to be a shard of the original soul crystal.  It is cold to the touch, and seems to glow with an inner radiance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23541,   1,   33557340) /* Setup */
-     , (23541,   3,  536870932) /* SoundTable */
-     , (23541,   6,   67111919) /* PaletteBase */
-     , (23541,   8,  100674099) /* Icon */
-     , (23541,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23541,   1, 0x02000B5C) /* Setup */
+     , (23541,   3, 0x20000014) /* SoundTable */
+     , (23541,   6, 0x04000BEF) /* PaletteBase */
+     , (23541,   8, 0x06002A33) /* Icon */
+     , (23541,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23541, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23541, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23541, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23541, 8000, 2150466688) /* PCAPRecordedObjectIID */;
+VALUES (23541, 8000, 0x802D8480) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23541,  1094,      2)  /* FireProtectionSelf6 */
-     , (23541,  1591,      2)  /* HeartSeekerSelf5 */
-     , (23541,  1604,      2)  /* DefenderSelf5 */
+VALUES (23541,  1604,      2)  /* DefenderSelf5 */
+     , (23541,  1094,      2)  /* FireProtectionSelf6 */
      , (23541,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (23541,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (23541,  1625,      2)  /* SwiftKillerSelf4 */
+     , (23541,  1591,      2)  /* HeartSeekerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23541, 67111921, 0, 0);

@@ -26,22 +26,22 @@ VALUES (1255,   1, 'Drudge Slave Keyholder') /* Name */
      , (1255, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1255,   1,   33556445) /* Setup */
-     , (1255,   2,  150994952) /* MotionTable */
-     , (1255,   3,  536870919) /* SoundTable */
-     , (1255,   6,   67112812) /* PaletteBase */
-     , (1255,   8,  100667445) /* Icon */
-     , (1255,  22,  872415258) /* PhysicsEffectTable */
+VALUES (1255,   1, 0x020007DD) /* Setup */
+     , (1255,   2, 0x09000008) /* MotionTable */
+     , (1255,   3, 0x20000007) /* SoundTable */
+     , (1255,   6, 0x04000F6C) /* PaletteBase */
+     , (1255,   8, 0x06001035) /* Icon */
+     , (1255,  22, 0x3400001A) /* PhysicsEffectTable */
      , (1255, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1255, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1255, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1255, 8040, 31785533, 120, -90, 0.004199982, 0.5948228, 0, 0, -0.8038568) /* PCAPRecordedLocation */
+VALUES (1255, 8040, 0x01E5023D, 120, -90, 0.0042, 0.594823, 0, 0, -0.803857) /* PCAPRecordedLocation */
 /* @teleloc 0x01E5023D [120.000000 -90.000000 0.004200] 0.594823 0.000000 0.000000 -0.803857 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1255, 8000, 3360966136) /* PCAPRecordedObjectIID */;
+VALUES (1255, 8000, 0xC85445F8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1255,   1,  45, 0, 0) /* Strength */
@@ -64,6 +64,7 @@ VALUES (1255, 2,   315,  1, 0, 0, False) /* Create Throwing Dagger (315) for Wie
      , (1255, 2,   314,  1, 0, 0, False) /* Create Dagger (314) for Wield */
      , (1255, 2,   356,  1, 0, 0, False) /* Create Tofun (356) for Wield */
      , (1255, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
+     , (1255, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
      , (1255, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
      , (1255, 9,  1265,  0, 0, 0, False) /* Create Key (1265) for ContainTreasure */
      , (1255, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */

@@ -25,13 +25,13 @@ VALUES (7824,   1, 'Metal Press') /* Name */
      , (7824,  15, 'A simple press, for pressing certain foods.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7824,   1,   33556681) /* Setup */
-     , (7824,   3,  536870932) /* SoundTable */
-     , (7824,   8,  100670879) /* Icon */
-     , (7824,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7824,   1, 0x020008C9) /* Setup */
+     , (7824,   3, 0x20000014) /* SoundTable */
+     , (7824,   8, 0x06001D9F) /* Icon */
+     , (7824,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7824, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (7824, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7824, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7824, 8000, 2981038611) /* PCAPRecordedObjectIID */;
+VALUES (7824, 8000, 0xB1AF0A13) /* PCAPRecordedObjectIID */;

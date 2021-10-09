@@ -22,21 +22,21 @@ VALUES (51877,   1, 'Enraged Shadow') /* Name */
      , (51877, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51877,   1,   33561596) /* Setup */
-     , (51877,   2,  150995455) /* MotionTable */
-     , (51877,   3,  536870914) /* SoundTable */
-     , (51877,   8,  100670398) /* Icon */
-     , (51877,  22,  872415331) /* PhysicsEffectTable */
+VALUES (51877,   1, 0x02001BFC) /* Setup */
+     , (51877,   2, 0x090001FF) /* MotionTable */
+     , (51877,   3, 0x20000002) /* SoundTable */
+     , (51877,   8, 0x06001BBE) /* Icon */
+     , (51877,  22, 0x34000063) /* PhysicsEffectTable */
      , (51877, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51877, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (51877, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51877, 8040, 1498679220, 300, -110, -11.995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51877, 8040, 0x595407B4, 300, -110, -11.995, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x595407B4 [300.000000 -110.000000 -11.995000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51877, 8000, 3707081738) /* PCAPRecordedObjectIID */;
+VALUES (51877, 8000, 0xDCF5940A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (51877,   1,     0, 0, 0, 2380) /* MaxHealth */;

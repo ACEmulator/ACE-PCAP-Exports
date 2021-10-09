@@ -44,24 +44,24 @@ VALUES (1439,   1, 'Acid Axe') /* Name */
      , (1439,  16, 'A double-headed battle axe, dripping with vitriol. The handle appears to be made of ivory inlaid with tourmaline.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1439,   1,   33555414) /* Setup */
-     , (1439,   8,  100672844) /* Icon */
-     , (1439,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1439,   1, 0x020003D6) /* Setup */
+     , (1439,   8, 0x0600254C) /* Icon */
+     , (1439,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1439, 8001,  270598808) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, HookType */
      , (1439, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1439, 8005,     167937) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1439, 8040, 2224226579, 156.642, 137.126, 223.2, -0.888186, 0, 0, -0.459485) /* PCAPRecordedLocation */
+VALUES (1439, 8040, 0x84930113, 156.642, 137.126, 223.2, -0.888186, 0, 0, -0.459485) /* PCAPRecordedLocation */
 /* @teleloc 0x84930113 [156.642000 137.126000 223.200000] -0.888186 0.000000 0.000000 -0.459485 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1439, 8000, 3700024092) /* PCAPRecordedObjectIID */;
+VALUES (1439, 8000, 0xDC89E31C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1439,    49,      2)  /* SwiftKillerSelf1 */
+VALUES (1439,  1601,      2)  /* DefenderSelf2 */
      , (1439,   517,      2)  /* AcidProtectionSelf3 */
-     , (1439,  1020,      2)  /* BludgeonProtectionSelf3 */
+     , (1439,  1613,      2)  /* BloodDrinkerSelf3 */
+     , (1439,    49,      2)  /* SwiftKillerSelf1 */
      , (1439,  1589,      2)  /* HeartSeekerSelf3 */
-     , (1439,  1601,      2)  /* DefenderSelf2 */
-     , (1439,  1613,      2)  /* BloodDrinkerSelf3 */;
+     , (1439,  1020,      2)  /* BludgeonProtectionSelf3 */;

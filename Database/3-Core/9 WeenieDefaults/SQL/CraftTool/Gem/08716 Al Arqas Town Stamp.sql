@@ -19,7 +19,8 @@ VALUES (8716,   1,       2048) /* ItemType - Gem */
      , (8716, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8716,  22, True ) /* Inscribable */;
+VALUES (8716,  22, True ) /* Inscribable */
+     , (8716,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8716,  39,       3) /* DefaultScale */;
@@ -30,13 +31,13 @@ VALUES (8716,   1, 'Al Arqas Town Stamp') /* Name */
      , (8716,  16, 'A town stamp of Al Arqas to be used on any Red or Gold Letters you come across.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8716,   1,   33556922) /* Setup */
-     , (8716,   3,  536870932) /* SoundTable */
-     , (8716,   8,  100671218) /* Icon */
-     , (8716,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8716,   1, 0x020009BA) /* Setup */
+     , (8716,   3, 0x20000014) /* SoundTable */
+     , (8716,   8, 0x06001EF2) /* Icon */
+     , (8716,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8716, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (8716, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8716, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8716, 8000, 2420203290) /* PCAPRecordedObjectIID */;
+VALUES (8716, 8000, 0x90415F1A) /* PCAPRecordedObjectIID */;

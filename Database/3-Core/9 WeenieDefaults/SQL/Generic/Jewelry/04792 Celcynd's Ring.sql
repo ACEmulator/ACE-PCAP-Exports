@@ -15,7 +15,8 @@ VALUES (4792,   1,          8) /* ItemType - Jewelry */
      , (4792, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4792,  22, True ) /* Inscribable */;
+VALUES (4792,  22, True ) /* Inscribable */
+     , (4792,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4792,  39,     0.5) /* DefaultScale */;
@@ -27,17 +28,17 @@ VALUES (4792,   1, 'Celcynd''s Ring') /* Name */
      , (4792,  16, 'A plain, thin, fragile-looking ring.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4792,   1,   33554691) /* Setup */
-     , (4792,   3,  536870932) /* SoundTable */
-     , (4792,   6,   67111919) /* PaletteBase */
-     , (4792,   8,  100668669) /* Icon */
-     , (4792,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4792,   1, 0x02000103) /* Setup */
+     , (4792,   3, 0x20000014) /* SoundTable */
+     , (4792,   6, 0x04000BEF) /* PaletteBase */
+     , (4792,   8, 0x060014FD) /* Icon */
+     , (4792,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4792, 8001,    2179088) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden */
      , (4792, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4792, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4792, 8000, 2929175824) /* PCAPRecordedObjectIID */;
+VALUES (4792, 8000, 0xAE97AD10) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4792, 67111924, 0, 0);

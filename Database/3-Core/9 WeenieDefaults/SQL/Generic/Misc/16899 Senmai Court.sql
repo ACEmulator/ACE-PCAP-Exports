@@ -18,15 +18,15 @@ VALUES (16899,   1, 'Senmai Court') /* Name */
      , (16899,  16, 'Senmai Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16899,   1,   33557653) /* Setup */
-     , (16899,   8,  100672342) /* Icon */
+VALUES (16899,   1, 0x02000C95) /* Setup */
+     , (16899,   8, 0x06002356) /* Icon */
      , (16899, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (16899, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (16899, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (16899, 8040, 1415905660, 80.0653, -22.8432, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (16899, 8040, 0x5465017C, 80.0653, -22.8432, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5465017C [80.065300 -22.843200 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (16899, 8000, 1967542287) /* PCAPRecordedObjectIID */;
+VALUES (16899, 8000, 0x7546500F) /* PCAPRecordedObjectIID */;

@@ -45,23 +45,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31751,   1, 'Squalid Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31751,   1,   33554642) /* Setup */
-     , (31751,   3,  536870932) /* SoundTable */
-     , (31751,   6,   67108990) /* PaletteBase */
-     , (31751,   8,  100687770) /* Icon */
-     , (31751,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31751,   1, 0x020000D2) /* Setup */
+     , (31751,   3, 0x20000014) /* SoundTable */
+     , (31751,   6, 0x0400007E) /* PaletteBase */
+     , (31751,   8, 0x06005F9A) /* Icon */
+     , (31751,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31751, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (31751, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31751, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31751, 8000, 2166072171) /* PCAPRecordedObjectIID */;
+VALUES (31751, 8000, 0x811BA36B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31751,   279,      2)  /* MagicResistanceSelf6 */
-     , (31751,  1023,      2)  /* BludgeonProtectionSelf6 */
-     , (31751,  1486,      2)  /* Impenetrability6 */
-     , (31751,  2617,      2)  /* CANTRIPBLUDGEONINGWARD1 */;
+VALUES (31751,  1486,      2)  /* Impenetrability6 */
+     , (31751,   279,      2)  /* MagicResistanceSelf6 */
+     , (31751,  2617,      2)  /* CANTRIPBLUDGEONINGWARD1 */
+     , (31751,  1023,      2)  /* BludgeonProtectionSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31751, 67116615, 174, 66)

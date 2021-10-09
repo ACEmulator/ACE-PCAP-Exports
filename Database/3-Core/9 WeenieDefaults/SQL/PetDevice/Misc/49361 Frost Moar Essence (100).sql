@@ -17,7 +17,7 @@ VALUES (49361,   1,        128) /* ItemType - Misc */
      , (49361, 105,          8) /* ItemWorkmanship */
      , (49361, 114,          0) /* Attuned - Normal */
      , (49361, 280,        213) /* SharedCooldown */
-     , (49361, 366,         54) /* UseRequiresSkill */
+     , (49361, 366,         54) /* UseRequiresSkill - Summoning */
      , (49361, 367,        400) /* UseRequiresSkillLevel */
      , (49361, 369,         90) /* UseRequiresLevel */
      , (49361, 370,         14) /* GearDamage */
@@ -37,23 +37,20 @@ VALUES (49361,   1, 'Frost Moar Essence (100)') /* Name */
      , (49361,  14, 'Use this essence to summon or dismiss your Frost Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49361,   1,   33554817) /* Setup */
-     , (49361,   3,  536870932) /* SoundTable */
-     , (49361,   6,   67111919) /* PaletteBase */
-     , (49361,   8,  100693034) /* Icon */
-     , (49361,  22,  872415275) /* PhysicsEffectTable */
-     , (49361,  50,  100693028) /* IconOverlay */
-     , (49361,  52,  100693024) /* IconUnderlay */
+VALUES (49361,   1, 0x02000181) /* Setup */
+     , (49361,   3, 0x20000014) /* SoundTable */
+     , (49361,   6, 0x04000BEF) /* PaletteBase */
+     , (49361,   8, 0x0600742A) /* Icon */
+     , (49361,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49361,  50, 0x06007424) /* IconOverlay */
+     , (49361,  52, 0x06007420) /* IconUnderlay */
      , (49361, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49361, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49361, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49361, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49361, 8000, 3354616509) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49361, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
+VALUES (49361, 8000, 0xC7F362BD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49361, 67111919, 0, 0);

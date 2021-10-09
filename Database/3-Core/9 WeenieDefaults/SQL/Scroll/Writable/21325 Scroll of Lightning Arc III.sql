@@ -24,13 +24,13 @@ VALUES (21325,   1, 'Scroll of Lightning Arc III') /* Name */
 Shoots a bolt of lighting at the target. The bolt does 42-84 points of electrical damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21325,   1,   33554826) /* Setup */
-     , (21325,   8,  100677013) /* Icon */
-     , (21325,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21325,   1, 0x0200018A) /* Setup */
+     , (21325,   8, 0x06003595) /* Icon */
+     , (21325,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21325,  28,       2734) /* Spell - LightningArc3 */
      , (21325, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (21325, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21325, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21325, 8000, 3695126574) /* PCAPRecordedObjectIID */;
+VALUES (21325, 8000, 0xDC3F282E) /* PCAPRecordedObjectIID */;

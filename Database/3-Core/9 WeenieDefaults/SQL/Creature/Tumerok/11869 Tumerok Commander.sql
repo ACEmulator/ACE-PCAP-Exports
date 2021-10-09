@@ -26,22 +26,22 @@ VALUES (11869,   1, 'Tumerok Commander') /* Name */
      , (11869, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11869,   1,   33559563) /* Setup */
-     , (11869,   2,  150994954) /* MotionTable */
-     , (11869,   3,  536870931) /* SoundTable */
-     , (11869,   6,   67116625) /* PaletteBase */
-     , (11869,   8,  100667452) /* Icon */
-     , (11869,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11869,   1, 0x0200140B) /* Setup */
+     , (11869,   2, 0x0900000A) /* MotionTable */
+     , (11869,   3, 0x20000013) /* SoundTable */
+     , (11869,   6, 0x04001E51) /* PaletteBase */
+     , (11869,   8, 0x0600103C) /* Icon */
+     , (11869,  22, 0x34000026) /* PhysicsEffectTable */
      , (11869, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (11869, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (11869, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11869, 8040, 1467416897, 141.399, -67.5714, -23.9945, -0.03734199, 0, 0, -0.9993026) /* PCAPRecordedLocation */
+VALUES (11869, 8040, 0x57770141, 141.399, -67.5714, -23.9945, -0.037342, 0, 0, -0.999303) /* PCAPRecordedLocation */
 /* @teleloc 0x57770141 [141.399000 -67.571400 -23.994500] -0.037342 0.000000 0.000000 -0.999303 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11869, 8000, 2629202316) /* PCAPRecordedObjectIID */;
+VALUES (11869, 8000, 0x9CB6718C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11869,   1, 170, 0, 0) /* Strength */
@@ -371,7 +371,10 @@ VALUES (11869, 2, 11751,  1, 0, 0, False) /* Create Hafted Falcon Spear (11751) 
      , (11869, 9, 30581,  0, 0, 0, False) /* Create Mazule (30581) for ContainTreasure */
      , (11869, 9,  3415,  0, 0, 0, False) /* Create Scroll of Magic Item Tinkering Expertise Self IV (3415) for ContainTreasure */
      , (11869, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
-     , (11869, 9, 49220,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for ContainTreasure */;
+     , (11869, 9, 49220,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for ContainTreasure */
+     , (11869, 9,  2873,  0, 0, 0, False) /* Create Scroll of Piercing Lure III (2873) for ContainTreasure */
+     , (11869, 9, 45422,  0, 0, 0, False) /* Create Acid Dagger (45422) for ContainTreasure */
+     , (11869, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11869, 67116625, 57, 48)

@@ -22,23 +22,23 @@ VALUES (49168,   1, 'Skeleton') /* Name */
      , (49168, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49168,   1,   33561493) /* Setup */
-     , (49168,   2,  150994945) /* MotionTable */
-     , (49168,   3,  536870942) /* SoundTable */
-     , (49168,   6,   67108990) /* PaletteBase */
-     , (49168,   8,  100671323) /* Icon */
-     , (49168,  22,  872415269) /* PhysicsEffectTable */
+VALUES (49168,   1, 0x02001B95) /* Setup */
+     , (49168,   2, 0x09000001) /* MotionTable */
+     , (49168,   3, 0x2000001E) /* SoundTable */
+     , (49168,   6, 0x0400007E) /* PaletteBase */
+     , (49168,   8, 0x06001F5B) /* Icon */
+     , (49168,  22, 0x34000025) /* PhysicsEffectTable */
      , (49168, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49168, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
      , (49168, 8003,   67108884) /* PCAPRecordedObjectDesc - Stuck, Attackable, IncludesSecondHeader */
      , (49168, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49168, 8040, 11927825, 29.98419, -325.83, -11.89, 0.1990458, 0, 0, -0.9799902) /* PCAPRecordedLocation */
+VALUES (49168, 8040, 0x00B60111, 29.98419, -325.83, -11.89, 0.199046, 0, 0, -0.97999) /* PCAPRecordedLocation */
 /* @teleloc 0x00B60111 [29.984190 -325.830000 -11.890000] 0.199046 0.000000 0.000000 -0.979990 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49168, 8000, 2930042132) /* PCAPRecordedObjectIID */;
+VALUES (49168, 8000, 0xAEA4E514) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (49168,   1,     0, 0, 0, 920) /* MaxHealth */;

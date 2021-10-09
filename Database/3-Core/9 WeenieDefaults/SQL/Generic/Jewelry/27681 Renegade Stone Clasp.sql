@@ -31,21 +31,21 @@ VALUES (27681,   1, 'Renegade Stone Clasp') /* Name */
      , (27681,  16, 'Coarse stone and gems have been fitted together to craft this heavy bracelet. After its construction, powerful magic rituals imbued the bracelet with defensive properties versus blades and lightning.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27681,   1,   33554683) /* Setup */
-     , (27681,   3,  536870932) /* SoundTable */
-     , (27681,   6,   67111919) /* PaletteBase */
-     , (27681,   8,  100676518) /* Icon */
-     , (27681,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27681,   1, 0x020000FB) /* Setup */
+     , (27681,   3, 0x20000014) /* SoundTable */
+     , (27681,   6, 0x04000BEF) /* PaletteBase */
+     , (27681,   8, 0x060033A6) /* Icon */
+     , (27681,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27681, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (27681, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27681, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27681, 8000, 2162366517) /* PCAPRecordedObjectIID */;
+VALUES (27681, 8000, 0x80E31835) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27681,  1076,      2)  /* LightningProtectionOther5 */
-     , (27681,  1119,      2)  /* BladeProtectionOther5 */;
+VALUES (27681,  1119,      2)  /* BladeProtectionOther5 */
+     , (27681,  1076,      2)  /* LightningProtectionOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27681, 67111919, 0, 0);

@@ -23,22 +23,22 @@ VALUES (1630,   1, 'Lich Lord') /* Name */
      , (1630, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1630,   1,   33554839) /* Setup */
-     , (1630,   2,  150994967) /* MotionTable */
-     , (1630,   3,  536870934) /* SoundTable */
-     , (1630,   6,   67110722) /* PaletteBase */
-     , (1630,   8,  100667942) /* Icon */
-     , (1630,  22,  872415272) /* PhysicsEffectTable */
+VALUES (1630,   1, 0x02000197) /* Setup */
+     , (1630,   2, 0x09000017) /* MotionTable */
+     , (1630,   3, 0x20000016) /* SoundTable */
+     , (1630,   6, 0x04000742) /* PaletteBase */
+     , (1630,   8, 0x06001226) /* Icon */
+     , (1630,  22, 0x34000028) /* PhysicsEffectTable */
      , (1630, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1630, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1630, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1630, 8040, 3677946112, 54.93, 85.6178, 22.8075, 0.981332, 0, 0, -0.192321) /* PCAPRecordedLocation */
+VALUES (1630, 8040, 0xDB390100, 54.93, 85.6178, 22.8075, 0.981332, 0, 0, -0.192321) /* PCAPRecordedLocation */
 /* @teleloc 0xDB390100 [54.930000 85.617800 22.807500] 0.981332 0.000000 0.000000 -0.192321 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1630, 8000, 3685774806) /* PCAPRecordedObjectIID */;
+VALUES (1630, 8000, 0xDBB075D6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1630,   1, 100, 0, 0) /* Strength */
@@ -76,6 +76,7 @@ VALUES (1630, 2, 47956,  1, 0, 0, False) /* Create Acid Silifi (47956) for Wield
      , (1630, 2, 47959,  1, 0, 0, False) /* Create Acid Ono (47959) for Wield */
      , (1630, 2, 47949,  1, 0, 0, False) /* Create Acid Katar (47949) for Wield */
      , (1630, 2, 47957,  1, 0, 0, False) /* Create Lightning Silifi (47957) for Wield */
+     , (1630, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
      , (1630, 9, 46856,  0, 0, 0, False) /* Create Aura of Defender Other VI (46856) for ContainTreasure */
      , (1630, 9, 28626,  0, 0, 0, False) /* Create Diforsa Tassets (28626) for ContainTreasure */
      , (1630, 9, 27324,  1, 0, 0, False) /* Create Stamina Brew (27324) for ContainTreasure */
@@ -433,7 +434,9 @@ VALUES (1630, 2, 47956,  1, 0, 0, False) /* Create Acid Silifi (47956) for Wield
      , (1630, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
      , (1630, 9,   793,  0, 0, 0, False) /* Create Scalemail Coif (793) for ContainTreasure */
      , (1630, 9, 49538,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for ContainTreasure */
-     , (1630, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */;
+     , (1630, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
+     , (1630, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
+     , (1630, 9,  3915,  0, 0, 0, False) /* Create Flaming Yari (3915) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1630, 67111665, 0, 0);

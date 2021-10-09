@@ -25,7 +25,8 @@ VALUES (20019,   1,       2048) /* ItemType - Gem */
      , (20019, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20019,  22, True ) /* Inscribable */;
+VALUES (20019,  22, True ) /* Inscribable */
+     , (20019,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20019,  76,     0.5) /* Translucency */;
@@ -36,18 +37,18 @@ VALUES (20019,   1, 'Portal Gem to the Callous Heart') /* Name */
      , (20019,  15, 'A glowing black gem.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20019,   1,   33556769) /* Setup */
-     , (20019,   3,  536870932) /* SoundTable */
-     , (20019,   6,   67111919) /* PaletteBase */
-     , (20019,   8,  100673039) /* Icon */
-     , (20019,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20019,   1, 0x02000921) /* Setup */
+     , (20019,   3, 0x20000014) /* SoundTable */
+     , (20019,   6, 0x04000BEF) /* PaletteBase */
+     , (20019,   8, 0x0600260F) /* Icon */
+     , (20019,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20019,  28,       2671) /* Spell - PortalSendingLabyrinthRewards */
      , (20019, 8001,    6844560) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (20019, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20019, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20019, 8000, 2274298724) /* PCAPRecordedObjectIID */;
+VALUES (20019, 8000, 0x878F0B64) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20019, 67111927, 0, 0);

@@ -48,26 +48,26 @@ VALUES (43831,   1, 'Sedgemail Leather Pants') /* Name */
      , (43831,  16, 'Sedgemail Leather Pants') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43831,   1,   33554856) /* Setup */
-     , (43831,   3,  536870932) /* SoundTable */
-     , (43831,   6,   67108990) /* PaletteBase */
-     , (43831,   8,  100691738) /* Icon */
-     , (43831,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43831,   1, 0x020001A8) /* Setup */
+     , (43831,   3, 0x20000014) /* SoundTable */
+     , (43831,   6, 0x0400007E) /* PaletteBase */
+     , (43831,   8, 0x06006F1A) /* Icon */
+     , (43831,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43831,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (43831, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (43831, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43831, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43831, 8000, 3690476354) /* PCAPRecordedObjectIID */;
+VALUES (43831, 8000, 0xDBF83342) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43831,  2092,      2)  /* AcidBane7 */
-     , (43831,  2108,      2)  /* Impenetrability7 */
-     , (43831,  2110,      2)  /* LightningBane7 */
+VALUES (43831,  6050,      2)  /* CantripDualWieldAptitude4 */
+     , (43831,  2092,      2)  /* AcidBane7 */
      , (43831,  4401,      2)  /* FlameBane8 */
      , (43831,  4664,      2)  /* CANTRIPFLAMEBANE3 */
-     , (43831,  6050,      2)  /* CantripDualWieldAptitude4 */;
+     , (43831,  2108,      2)  /* Impenetrability7 */
+     , (43831,  2110,      2)  /* LightningBane7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43831, 67110340, 72, 8)

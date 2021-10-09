@@ -24,13 +24,13 @@ VALUES (2872,   1, 'Scroll of Piercing Lure II') /* Name */
 Decreases a shield or piece of armor''s resistance to piercing damage by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2872,   1,   33554826) /* Setup */
-     , (2872,   8,  100676669) /* Icon */
-     , (2872,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2872,   1, 0x0200018A) /* Setup */
+     , (2872,   8, 0x0600343D) /* Icon */
+     , (2872,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2872,  28,       1564) /* Spell - PiercingLure2 */
      , (2872, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2872, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2872, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2872, 8000, 3623570343) /* PCAPRecordedObjectIID */;
+VALUES (2872, 8000, 0xD7FB4BA7) /* PCAPRecordedObjectIID */;

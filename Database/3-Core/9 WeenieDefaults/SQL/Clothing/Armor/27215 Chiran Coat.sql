@@ -46,29 +46,25 @@ VALUES (27215,   1, 'Chiran Coat') /* Name */
      , (27215,  16, 'Chiran Coat') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27215,   1,   33554854) /* Setup */
-     , (27215,   3,  536870932) /* SoundTable */
-     , (27215,   6,   67108990) /* PaletteBase */
-     , (27215,   8,  100676000) /* Icon */
-     , (27215,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27215,   1, 0x020001A6) /* Setup */
+     , (27215,   3, 0x20000014) /* SoundTable */
+     , (27215,   6, 0x0400007E) /* PaletteBase */
+     , (27215,   8, 0x060031A0) /* Icon */
+     , (27215,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27215, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (27215, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27215, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27215, 8000, 2174519426) /* PCAPRecordedObjectIID */;
+VALUES (27215, 8000, 0x819C8882) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27215,  1516,      2)  /* BludgeonBane6 */
-     , (27215,  2108,      2)  /* Impenetrability7 */
-     , (27215,  2570,      2)  /* CANTRIPWEAPONEXPERTISE1 */
+VALUES (27215,  2570,      2)  /* CANTRIPWEAPONEXPERTISE1 */
      , (27215,  2577,      2)  /* CANTRIPWILLPOWER2 */
+     , (27215,  1516,      2)  /* BludgeonBane6 */
+     , (27215,  5427,      2)  /* CantripVoidMagicAptitude1 */
      , (27215,  2616,      2)  /* CANTRIPACIDWARD1 */
-     , (27215,  5427,      2)  /* CantripVoidMagicAptitude1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27215, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (27215, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
+     , (27215,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27215, 67114988, 96, 12)

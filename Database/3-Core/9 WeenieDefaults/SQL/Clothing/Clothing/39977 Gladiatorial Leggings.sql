@@ -8,7 +8,6 @@ VALUES (39977,   1,          4) /* ItemType - Clothing */
      , (39977,   4,         22) /* ClothingPriority - UnderwearUpperLegs, UnderwearLowerLegs, UnderwearAbdomen */
      , (39977,   5,         50) /* EncumbranceVal */
      , (39977,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
-     , (39977,  10,        196) /* CurrentWieldedLocation - AbdomenWear, UpperLegWear, LowerLegWear */
      , (39977,  16,          1) /* ItemUseable - No */
      , (39977,  19,         25) /* Value */
      , (39977,  28,        220) /* ArmorLevel */
@@ -42,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39977,   1, 'Gladiatorial Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39977,   1,   33554653) /* Setup */
-     , (39977,   3,  536870932) /* SoundTable */
-     , (39977,   6,   67108990) /* PaletteBase */
-     , (39977,   8,  100682346) /* Icon */
-     , (39977,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39977,   1, 0x020000DD) /* Setup */
+     , (39977,   3, 0x20000014) /* SoundTable */
+     , (39977,   6, 0x0400007E) /* PaletteBase */
+     , (39977,   8, 0x06004A6A) /* Icon */
+     , (39977,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39977, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (39977, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39977, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39977, 8000, 2343130102) /* PCAPRecordedObjectIID */;
+VALUES (39977, 8000, 0x8BA953F6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (39977,  2572,      2)  /* CANTRIPCOORDINATION2 */

@@ -14,20 +14,21 @@ VALUES (46418,   1,        128) /* ItemType - Misc */
      , (46418, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46418,  69, False) /* IsSellable */;
+VALUES (46418,  23, True ) /* DestroyOnSell */
+     , (46418,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46418,   1, 'Item Spells Certificate') /* Name */
      , (46418,  15, 'A certificate that grants the bearer all level 8 item spells. Bring this certificate to an Agent of the Arcanum. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46418,   1,   33554659) /* Setup */
-     , (46418,   3,  536870932) /* SoundTable */
-     , (46418,   8,  100692711) /* Icon */
-     , (46418,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46418,   1, 0x020000E3) /* Setup */
+     , (46418,   3, 0x20000014) /* SoundTable */
+     , (46418,   8, 0x060072E7) /* Icon */
+     , (46418,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46418, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (46418, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (46418, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46418, 8000, 3677682007) /* PCAPRecordedObjectIID */;
+VALUES (46418, 8000, 0xDB34F957) /* PCAPRecordedObjectIID */;

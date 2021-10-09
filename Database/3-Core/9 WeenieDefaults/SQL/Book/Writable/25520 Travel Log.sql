@@ -17,17 +17,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25520,   1, 'Travel Log') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25520,   1,   33556929) /* Setup */
-     , (25520,   3,  536870932) /* SoundTable */
-     , (25520,   8,  100673476) /* Icon */
-     , (25520,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25520,   1, 0x020009C1) /* Setup */
+     , (25520,   3, 0x20000014) /* SoundTable */
+     , (25520,   8, 0x060027C4) /* Icon */
+     , (25520,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25520, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (25520, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (25520, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25520, 8040, 2724134960, 143.6347, 183.596, 20.057, -0.551001, 0, 0, -0.8345046) /* PCAPRecordedLocation */
+VALUES (25520, 8040, 0xA25F0030, 143.6347, 183.596, 20.057, -0.551001, 0, 0, -0.834505) /* PCAPRecordedLocation */
 /* @teleloc 0xA25F0030 [143.634700 183.596000 20.057000] -0.551001 0.000000 0.000000 -0.834505 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25520, 8000, 3350288900) /* PCAPRecordedObjectIID */;
+VALUES (25520, 8000, 0xC7B15A04) /* PCAPRecordedObjectIID */;

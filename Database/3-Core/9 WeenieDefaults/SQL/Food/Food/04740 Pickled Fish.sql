@@ -20,13 +20,13 @@ VALUES (4740,   1, 'Pickled Fish') /* Name */
      , (4740,  20, 'Pickled Fish') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4740,   1,   33555973) /* Setup */
-     , (4740,   3,  536870932) /* SoundTable */
-     , (4740,   8,  100670298) /* Icon */
-     , (4740,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4740,   1, 0x02000605) /* Setup */
+     , (4740,   3, 0x20000014) /* SoundTable */
+     , (4740,   8, 0x06001B5A) /* Icon */
+     , (4740,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4740, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (4740, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (4740, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4740, 8000, 3711293211) /* PCAPRecordedObjectIID */;
+VALUES (4740, 8000, 0xDD35D71B) /* PCAPRecordedObjectIID */;

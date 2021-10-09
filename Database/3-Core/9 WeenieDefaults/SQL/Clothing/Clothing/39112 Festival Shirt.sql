@@ -39,17 +39,17 @@ VALUES (39112,   1, 'Festival Shirt') /* Name */
      , (39112,  16, 'A shirt celebrating the Festival Season.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39112,   1,   33554883) /* Setup */
-     , (39112,   3,  536870932) /* SoundTable */
-     , (39112,   6,   67108990) /* PaletteBase */
-     , (39112,   8,  100667377) /* Icon */
-     , (39112,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39112,   1, 0x020001C3) /* Setup */
+     , (39112,   3, 0x20000014) /* SoundTable */
+     , (39112,   6, 0x0400007E) /* PaletteBase */
+     , (39112,   8, 0x06000FF1) /* Icon */
+     , (39112,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39112, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (39112, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39112, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39112, 8000, 2210356817) /* PCAPRecordedObjectIID */;
+VALUES (39112, 8000, 0x83BF5E51) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (39112,  2501,      2)  /* CANTRIPALCHEMICALPROWESS2 */

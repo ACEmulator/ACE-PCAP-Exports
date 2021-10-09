@@ -18,19 +18,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31611,   1, 'Arctic Mattekar Annihilator Plaque') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31611,   1,   33559570) /* Setup */
-     , (31611,   3,  536870932) /* SoundTable */
-     , (31611,   6,   67111919) /* PaletteBase */
-     , (31611,   8,  100669121) /* Icon */
-     , (31611,  22,  872415275) /* PhysicsEffectTable */
-     , (31611,  52,  100687685) /* IconUnderlay */
+VALUES (31611,   1, 0x02001412) /* Setup */
+     , (31611,   3, 0x20000014) /* SoundTable */
+     , (31611,   6, 0x04000BEF) /* PaletteBase */
+     , (31611,   8, 0x060016C1) /* Icon */
+     , (31611,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31611,  52, 0x06005F45) /* IconUnderlay */
      , (31611, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (31611, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31611, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (31611, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31611, 8000, 2981039358) /* PCAPRecordedObjectIID */;
+VALUES (31611, 8000, 0xB1AF0CFE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31611, 67111921, 0, 0);

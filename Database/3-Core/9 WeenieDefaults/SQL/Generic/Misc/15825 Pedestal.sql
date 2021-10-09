@@ -21,11 +21,11 @@ VALUES (15825,   1, 'Pedestal') /* Name */
      , (15825,  15, 'An ornamental pedestal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15825,   1,   33557633) /* Setup */
-     , (15825,   8,  100672835) /* Icon */
+VALUES (15825,   1, 0x02000C81) /* Setup */
+     , (15825,   8, 0x06002543) /* Icon */
      , (15825, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (15825, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15825, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15825, 8000, 3658159453) /* PCAPRecordedObjectIID */;
+VALUES (15825, 8000, 0xDA0B155D) /* PCAPRecordedObjectIID */;

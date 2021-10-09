@@ -27,21 +27,21 @@ VALUES (29079,   1, 'An old chest') /* Name */
      , (29079, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29079,   1,   33554556) /* Setup */
-     , (29079,   2,  150994948) /* MotionTable */
-     , (29079,   3,  536870945) /* SoundTable */
-     , (29079,   8,  100667426) /* Icon */
-     , (29079,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29079,   1, 0x0200007C) /* Setup */
+     , (29079,   2, 0x09000004) /* MotionTable */
+     , (29079,   3, 0x20000021) /* SoundTable */
+     , (29079,   8, 0x06001022) /* Icon */
+     , (29079,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29079, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (29079, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (29079, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29079, 8040, 48496947, 177.114, -102.544, -12, -0.3619741, 0, 0, -0.9321882) /* PCAPRecordedLocation */
+VALUES (29079, 8040, 0x02E40133, 177.114, -102.544, -12, -0.361974, 0, 0, -0.932188) /* PCAPRecordedLocation */
 /* @teleloc 0x02E40133 [177.114000 -102.544000 -12.000000] -0.361974 0.000000 0.000000 -0.932188 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29079, 8000, 1882079243) /* PCAPRecordedObjectIID */;
+VALUES (29079, 8000, 0x702E400B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29079, -1, 29086, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Stolen Ring (29086) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

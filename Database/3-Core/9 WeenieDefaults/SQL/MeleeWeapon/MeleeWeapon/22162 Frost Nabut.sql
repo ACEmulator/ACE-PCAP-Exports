@@ -55,23 +55,23 @@ VALUES (22162,   1, 'Frost Nabut') /* Name */
      , (22162,  16, 'Frost Nabut of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22162,   1,   33558073) /* Setup */
-     , (22162,   3,  536870932) /* SoundTable */
-     , (22162,   6,   67111919) /* PaletteBase */
-     , (22162,   8,  100673626) /* Icon */
-     , (22162,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22162,   1, 0x02000E39) /* Setup */
+     , (22162,   3, 0x20000014) /* SoundTable */
+     , (22162,   6, 0x04000BEF) /* PaletteBase */
+     , (22162,   8, 0x0600285A) /* Icon */
+     , (22162,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22162,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (22162, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (22162, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22162, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22162, 8000, 3690475955) /* PCAPRecordedObjectIID */;
+VALUES (22162, 8000, 0xDBF831B3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22162,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (22162,  2116,      2)  /* SwiftKillerSelf7 */
-     , (22162,  4708,      2)  /* CANTRIPSALVAGING3 */;
+VALUES (22162,  2116,      2)  /* SwiftKillerSelf7 */
+     , (22162,  4708,      2)  /* CANTRIPSALVAGING3 */
+     , (22162,  2096,      2)  /* BloodDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22162, 67111919, 0, 0);

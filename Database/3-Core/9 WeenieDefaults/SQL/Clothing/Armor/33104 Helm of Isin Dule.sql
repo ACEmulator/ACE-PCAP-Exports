@@ -43,16 +43,16 @@ VALUES (33104,   1, 'Helm of Isin Dule') /* Name */
      , (33104,  16, 'A black, crystalline helm created by the Shadow, Isin Dule.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33104,   1,   33559922) /* Setup */
-     , (33104,   3,  536870932) /* SoundTable */
-     , (33104,   8,  100688917) /* Icon */
-     , (33104,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33104,   1, 0x02001572) /* Setup */
+     , (33104,   3, 0x20000014) /* SoundTable */
+     , (33104,   8, 0x06006415) /* Icon */
+     , (33104,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33104, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (33104, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33104, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33104, 8000, 2779769081) /* PCAPRecordedObjectIID */;
+VALUES (33104, 8000, 0xA5AFE8F9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33104,  2066,      2)  /* FocusOther7 */

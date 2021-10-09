@@ -34,14 +34,14 @@ VALUES (36448,   1, 'Rock Candy Knath') /* Name */
      , (36448,  16, 'A festival treat. A delicious knath made of sugar crystals grown in mana pools.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36448,   1,   33555630) /* Setup */
-     , (36448,   3,  536870932) /* SoundTable */
-     , (36448,   8,  100689671) /* Icon */
-     , (36448,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36448,   1, 0x020004AE) /* Setup */
+     , (36448,   3, 0x20000014) /* SoundTable */
+     , (36448,   8, 0x06006707) /* Icon */
+     , (36448,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36448,  28,       4210) /* Spell - JumpSpin */
      , (36448, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (36448, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36448, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36448, 8000, 2981045109) /* PCAPRecordedObjectIID */;
+VALUES (36448, 8000, 0xB1AF2375) /* PCAPRecordedObjectIID */;

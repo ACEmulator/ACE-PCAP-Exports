@@ -26,16 +26,16 @@ VALUES (39914,   1, 'Empyrean Crystal') /* Name */
      , (39914,  16, 'An ancient Empyrean Crystal used to enhance magical items of Empyrean origin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39914,   1,   33556407) /* Setup */
-     , (39914,   3,  536870932) /* SoundTable */
-     , (39914,   8,  100672516) /* Icon */
-     , (39914,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39914,   1, 0x020007B7) /* Setup */
+     , (39914,   3, 0x20000014) /* SoundTable */
+     , (39914,   8, 0x06002404) /* Icon */
+     , (39914,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39914, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (39914, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39914, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39914, 8000, 2221332699) /* PCAPRecordedObjectIID */;
+VALUES (39914, 8000, 0x8466D8DB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (39914, 0, 83889688, 83890391);

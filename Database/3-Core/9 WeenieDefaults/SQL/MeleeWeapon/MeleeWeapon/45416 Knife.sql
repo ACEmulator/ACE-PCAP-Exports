@@ -55,22 +55,22 @@ VALUES (45416,   1, 'Knife') /* Name */
      , (45416,  16, 'Knife of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45416,   1,   33554745) /* Setup */
-     , (45416,   3,  536870932) /* SoundTable */
-     , (45416,   6,   67111919) /* PaletteBase */
-     , (45416,   8,  100668945) /* Icon */
-     , (45416,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45416,   1, 0x02000139) /* Setup */
+     , (45416,   3, 0x20000014) /* SoundTable */
+     , (45416,   6, 0x04000BEF) /* PaletteBase */
+     , (45416,   8, 0x06001611) /* Icon */
+     , (45416,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45416,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45416, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45416, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45416, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45416, 8000, 3691249488) /* PCAPRecordedObjectIID */;
+VALUES (45416, 8000, 0xDC03FF50) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45416,  1591,      2)  /* HeartSeekerSelf5 */
-     , (45416,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (45416,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (45416,  1591,      2)  /* HeartSeekerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45416, 67111919, 0, 0);

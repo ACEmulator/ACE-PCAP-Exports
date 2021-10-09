@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29093,   1,          8) /* ItemType - Jewelry */
      , (29093,   5,         60) /* EncumbranceVal */
      , (29093,   9,     196608) /* ValidLocations - WristWear */
-     , (29093,  10,     131072) /* CurrentWieldedLocation - WristWearRight */
      , (29093,  16,          1) /* ItemUseable - No */
      , (29093,  18,          1) /* UiEffects - Magical */
      , (29093,  19,       1000) /* Value */
@@ -30,22 +29,22 @@ VALUES (29093,   1, 'Viamontian Guardian Bracelet') /* Name */
      , (29093,  16, 'This bracelet is conferred upon those who have done a service to the Ferran Knights of Sanamar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29093,   1,   33554683) /* Setup */
-     , (29093,   3,  536870932) /* SoundTable */
-     , (29093,   6,   67111919) /* PaletteBase */
-     , (29093,   8,  100686435) /* Icon */
-     , (29093,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29093,   1, 0x020000FB) /* Setup */
+     , (29093,   3, 0x20000014) /* SoundTable */
+     , (29093,   6, 0x04000BEF) /* PaletteBase */
+     , (29093,   8, 0x06005A63) /* Icon */
+     , (29093,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29093, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (29093, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29093, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29093, 8000, 2981544780) /* PCAPRecordedObjectIID */;
+VALUES (29093, 8000, 0xB1B6C34C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29093,    24,      2)  /* ArmorSelf1 */
-     , (29093,   165,      2)  /* RegenerationSelf1 */
-     , (29093,   982,      2)  /* SprintSelf1 */;
+VALUES (29093,   982,      2)  /* SprintSelf1 */
+     , (29093,    24,      2)  /* ArmorSelf1 */
+     , (29093,   165,      2)  /* RegenerationSelf1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29093, 67111919, 0, 0);

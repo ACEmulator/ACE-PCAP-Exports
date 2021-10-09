@@ -16,6 +16,7 @@ VALUES (9096,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9096,  22, True ) /* Inscribable */
+     , (9096,  23, True ) /* DestroyOnSell */
      , (9096,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -33,17 +34,17 @@ VALUES (9096,   1, 'Unkindled Thaumaturgic Plate Leggings') /* Name */
      , (9096,  16, 'A pair of thaumaturgic plate leggings. A Kindling Stone must be applied to them before they may be worn.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9096,   1,   33554856) /* Setup */
-     , (9096,   3,  536870932) /* SoundTable */
-     , (9096,   6,   67108990) /* PaletteBase */
-     , (9096,   8,  100671359) /* Icon */
-     , (9096,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9096,   1, 0x020001A8) /* Setup */
+     , (9096,   3, 0x20000014) /* SoundTable */
+     , (9096,   6, 0x0400007E) /* PaletteBase */
+     , (9096,   8, 0x06001F7F) /* Icon */
+     , (9096,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9096, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (9096, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9096, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9096, 8000, 2879881125) /* PCAPRecordedObjectIID */;
+VALUES (9096, 8000, 0xABA77FA5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9096, 67113130, 136, 16);

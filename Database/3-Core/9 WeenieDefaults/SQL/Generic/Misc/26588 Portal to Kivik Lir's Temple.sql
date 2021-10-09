@@ -23,11 +23,11 @@ VALUES (26588,   1, 'Portal to Kivik Lir''s Temple') /* Name */
      , (26588,  16, 'This device looks to be akin to a portal. It seems to be dormant at the moment. Perhaps if it were hooked in a mansion.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26588,   1,   33558645) /* Setup */
-     , (26588,   8,  100675779) /* Icon */
+VALUES (26588,   1, 0x02001075) /* Setup */
+     , (26588,   8, 0x060030C3) /* Icon */
      , (26588, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
      , (26588, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26588, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26588, 8000, 2191828351) /* PCAPRecordedObjectIID */;
+VALUES (26588, 8000, 0x82A4A57F) /* PCAPRecordedObjectIID */;

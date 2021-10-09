@@ -22,16 +22,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8206,   1, 'Ogre Mask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8206,   1,   33556862) /* Setup */
-     , (8206,   3,  536870932) /* SoundTable */
-     , (8206,   8,  100671134) /* Icon */
-     , (8206,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8206,   1, 0x0200097E) /* Setup */
+     , (8206,   3, 0x20000014) /* SoundTable */
+     , (8206,   8, 0x06001E9E) /* Icon */
+     , (8206,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8206, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (8206, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8206, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8206, 8000, 2541837572) /* PCAPRecordedObjectIID */;
+VALUES (8206, 8000, 0x97815D04) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (8206, 0, 16785203);

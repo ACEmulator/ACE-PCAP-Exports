@@ -17,7 +17,7 @@ VALUES (8211,   1,        256) /* ItemType - MissileWeapon */
      , (8211,  45,          1) /* DamageType - Slash */
      , (8211,  48,         47) /* WeaponSkill - MissileWeapons */
      , (8211,  49,         20) /* WeaponTime */
-     , (8211,  51,          2) /* CombatUse - Missle */
+     , (8211,  51,          2) /* CombatUse - Missile */
      , (8211,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (8211, 151,          2) /* HookType - Wall */
      , (8211, 353,         10) /* WeaponType - Thrown */
@@ -40,17 +40,17 @@ VALUES (8211,   1, 'Discus') /* Name */
      , (8211,  16, 'A metal ring, with decorative Empyrean inscriptions around the rim. This seems to be a thrown weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8211,   1,   33556852) /* Setup */
-     , (8211,   3,  536871012) /* SoundTable */
-     , (8211,   6,   67111919) /* PaletteBase */
-     , (8211,   8,  100671128) /* Icon */
-     , (8211,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8211,   1, 0x02000974) /* Setup */
+     , (8211,   3, 0x20000064) /* SoundTable */
+     , (8211,   6, 0x04000BEF) /* PaletteBase */
+     , (8211,   8, 0x06001E98) /* Icon */
+     , (8211,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8211, 8001,  270627352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (8211, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8211, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8211, 8000, 3683069695) /* PCAPRecordedObjectIID */;
+VALUES (8211, 8000, 0xDB872EFF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8211, 67111926, 0, 0);

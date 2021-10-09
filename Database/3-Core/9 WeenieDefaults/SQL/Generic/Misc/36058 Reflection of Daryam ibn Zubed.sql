@@ -18,17 +18,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36058,   1, 'Reflection of Daryam ibn Zubed') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36058,   1,   33556769) /* Setup */
-     , (36058,   3,  536870932) /* SoundTable */
-     , (36058,   8,  100689641) /* Icon */
-     , (36058,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36058,   1, 0x02000921) /* Setup */
+     , (36058,   3, 0x20000014) /* SoundTable */
+     , (36058,   8, 0x060066E9) /* Icon */
+     , (36058,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36058, 8001,    2097296) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Burden */
      , (36058, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36058, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36058, 8040, 10682829, 225.5635, -140.3141, -12.001, 0.6793593, 0, 0, -0.7338058) /* PCAPRecordedLocation */
+VALUES (36058, 8040, 0x00A301CD, 225.5635, -140.3141, -12.001, 0.679359, 0, 0, -0.733806) /* PCAPRecordedLocation */
 /* @teleloc 0x00A301CD [225.563500 -140.314100 -12.001000] 0.679359 0.000000 0.000000 -0.733806 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36058, 8000, 3704759678) /* PCAPRecordedObjectIID */;
+VALUES (36058, 8000, 0xDCD2257E) /* PCAPRecordedObjectIID */;

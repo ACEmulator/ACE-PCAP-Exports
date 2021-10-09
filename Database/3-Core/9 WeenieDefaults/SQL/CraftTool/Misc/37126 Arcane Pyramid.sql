@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37126,   1, 'Arcane Pyramid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37126,   1,   33560535) /* Setup */
-     , (37126,   3,  536870932) /* SoundTable */
-     , (37126,   8,  100689841) /* Icon */
-     , (37126,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37126,   1, 0x020017D7) /* Setup */
+     , (37126,   3, 0x20000014) /* SoundTable */
+     , (37126,   8, 0x060067B1) /* Icon */
+     , (37126,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37126, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (37126, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37126, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37126, 8000, 2147529111) /* PCAPRecordedObjectIID */;
+VALUES (37126, 8000, 0x8000B197) /* PCAPRecordedObjectIID */;

@@ -26,21 +26,21 @@ VALUES (52800,   1, 'Master of the Gauntlet') /* Name */
      , (52800, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52800,   1,   33561110) /* Setup */
-     , (52800,   2,  150994945) /* MotionTable */
-     , (52800,   3,  536870913) /* SoundTable */
-     , (52800,   6,   67108990) /* PaletteBase */
-     , (52800,   8,  100667377) /* Icon */
+VALUES (52800,   1, 0x02001A16) /* Setup */
+     , (52800,   2, 0x09000001) /* MotionTable */
+     , (52800,   3, 0x20000001) /* SoundTable */
+     , (52800,   6, 0x0400007E) /* PaletteBase */
+     , (52800,   8, 0x06000FF1) /* Icon */
      , (52800, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (52800, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (52800, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52800, 8040, 1500184845, 105.744, -157.723, 0.005999982, 0.701223, 0, 0, -0.712942) /* PCAPRecordedLocation */
+VALUES (52800, 8040, 0x596B010D, 105.744, -157.723, 0.006, 0.701223, 0, 0, -0.712942) /* PCAPRecordedLocation */
 /* @teleloc 0x596B010D [105.744000 -157.723000 0.006000] 0.701223 0.000000 0.000000 -0.712942 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52800, 8000, 3694525383) /* PCAPRecordedObjectIID */;
+VALUES (52800, 8000, 0xDC35FBC7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52800, 67116856, 32, 8)

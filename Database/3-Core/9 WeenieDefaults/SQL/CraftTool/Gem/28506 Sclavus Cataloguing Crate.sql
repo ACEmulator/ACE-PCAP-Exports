@@ -21,6 +21,7 @@ VALUES (28506,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28506,  22, True ) /* Inscribable */
+     , (28506,  23, True ) /* DestroyOnSell */
      , (28506,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -29,13 +30,13 @@ VALUES (28506,   1, 'Sclavus Cataloguing Crate') /* Name */
      , (28506,  16, 'A functional crate for storing messy materials. This crate has four lined bags inside that are labeled for sclavus body parts. The first is for a small Sclavus hide. You should collect that piece first.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28506,   1,   33554930) /* Setup */
-     , (28506,   3,  536870932) /* SoundTable */
-     , (28506,   8,  100676965) /* Icon */
-     , (28506,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28506,   1, 0x020001F2) /* Setup */
+     , (28506,   3, 0x20000014) /* SoundTable */
+     , (28506,   8, 0x06003565) /* Icon */
+     , (28506,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28506, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (28506, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28506, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28506, 8000, 2272749271) /* PCAPRecordedObjectIID */;
+VALUES (28506, 8000, 0x877766D7) /* PCAPRecordedObjectIID */;

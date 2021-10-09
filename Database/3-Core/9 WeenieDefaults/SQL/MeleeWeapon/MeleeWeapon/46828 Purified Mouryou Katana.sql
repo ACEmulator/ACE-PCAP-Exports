@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46828,   1,          1) /* ItemType - MeleeWeapon */
      , (46828,   5,        220) /* EncumbranceVal */
      , (46828,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (46828,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (46828,  16,          1) /* ItemUseable - No */
      , (46828,  18,          1) /* UiEffects - Magical */
      , (46828,  19,          0) /* Value */
@@ -64,11 +63,11 @@ VALUES (46828,   1, 'Purified Mouryou Katana') /* Name */
      , (46828,  25, 'Des of the Sword') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46828,   1,   33561503) /* Setup */
-     , (46828,   3,  536870932) /* SoundTable */
-     , (46828,   8,  100692957) /* Icon */
-     , (46828,  22,  872415275) /* PhysicsEffectTable */
-     , (46828,  52,  100689896) /* IconUnderlay */
+VALUES (46828,   1, 0x02001B9F) /* Setup */
+     , (46828,   3, 0x20000014) /* SoundTable */
+     , (46828,   8, 0x060073DD) /* Icon */
+     , (46828,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (46828,  52, 0x060067E8) /* IconUnderlay */
      , (46828, 8001,  270762640) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (46828, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (46828, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
@@ -76,18 +75,18 @@ VALUES (46828,   1,   33561503) /* Setup */
      , (46828, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46828, 8040, 4095213581, 35.27824, 99.40891, 159.929, -0.7068353, -0.7068353, -0.01959369, -0.01959369) /* PCAPRecordedLocation */
+VALUES (46828, 8040, 0xF418000D, 35.27824, 99.40891, 159.929, -0.706835, -0.706835, -0.019594, -0.019594) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [35.278240 99.408910 159.929000] -0.706835 -0.706835 -0.019594 -0.019594 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46828, 8000, 2147535432) /* PCAPRecordedObjectIID */
-     , (46828, 8008, 1343084399) /* PCAPRecordedParentIID */;
+VALUES (46828, 8000, 0x8000CA48) /* PCAPRecordedObjectIID */
+     , (46828, 8008, 0x500DD76F) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46828,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (46828,  3965,      2)  /* CANTRIPSTRENGTH3 */
+VALUES (46828,  4417,      2)  /* SwiftKillerSelf8 */
      , (46828,  4395,      2)  /* BloodDrinkerSelf8 */
      , (46828,  4400,      2)  /* DefenderSelf8 */
      , (46828,  4405,      2)  /* HeartSeekerSelf8 */
-     , (46828,  4417,      2)  /* SwiftKillerSelf8 */
-     , (46828,  6072,      2)  /* CantripSwordAptitude4 */;
+     , (46828,  6072,      2)  /* CantripHeavyWeaponsAptitude4 */
+     , (46828,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (46828,  3965,      2)  /* CANTRIPSTRENGTH3 */;

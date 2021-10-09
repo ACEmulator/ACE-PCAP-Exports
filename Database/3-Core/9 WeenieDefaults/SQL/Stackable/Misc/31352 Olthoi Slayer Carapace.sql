@@ -17,18 +17,21 @@ VALUES (31352,   1,        128) /* ItemType - Misc */
      , (31352, 114,          1) /* Attuned - Attuned */
      , (31352, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31352,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31352,   1, 'Olthoi Slayer Carapace') /* Name */
      , (31352,  16, 'The pristine carapace of an Olthoi Slayer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31352,   1,   33554817) /* Setup */
-     , (31352,   3,  536870932) /* SoundTable */
-     , (31352,   8,  100687694) /* Icon */
-     , (31352,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31352,   1, 0x02000181) /* Setup */
+     , (31352,   3, 0x20000014) /* SoundTable */
+     , (31352,   8, 0x06005F4E) /* Icon */
+     , (31352,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31352, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (31352, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31352, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31352, 8000, 3294563704) /* PCAPRecordedObjectIID */;
+VALUES (31352, 8000, 0xC45F0D78) /* PCAPRecordedObjectIID */;

@@ -24,17 +24,17 @@ VALUES (2798,   1, 'Scroll of Bludgeon Lure III') /* Name */
 Decreases a shield or piece of armor''s resistance to bludgeoning damage by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2798,   1,   33554826) /* Setup */
-     , (2798,   8,  100676665) /* Icon */
-     , (2798,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2798,   1, 0x0200018A) /* Setup */
+     , (2798,   8, 0x06003439) /* Icon */
+     , (2798,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2798,  28,       1507) /* Spell - BludgeonLure3 */
      , (2798, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (2798, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2798, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2798, 8040, 3097428025, 185.6754, 3.626091, 84.0855, 0.334344, 0, 0, -0.9424511) /* PCAPRecordedLocation */
+VALUES (2798, 8040, 0xB89F0039, 185.6754, 3.626091, 84.0855, 0.334344, 0, 0, -0.942451) /* PCAPRecordedLocation */
 /* @teleloc 0xB89F0039 [185.675400 3.626091 84.085500] 0.334344 0.000000 0.000000 -0.942451 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2798, 8000, 3694317556) /* PCAPRecordedObjectIID */;
+VALUES (2798, 8000, 0xDC32CFF4) /* PCAPRecordedObjectIID */;

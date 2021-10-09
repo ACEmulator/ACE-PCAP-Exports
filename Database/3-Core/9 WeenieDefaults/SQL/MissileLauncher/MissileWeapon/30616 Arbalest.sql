@@ -15,7 +15,7 @@ VALUES (30616,   1,        256) /* ItemType - MissileWeapon */
      , (30616,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30616,  49,        113) /* WeaponTime */
      , (30616,  50,          2) /* AmmoType - Bolt */
-     , (30616,  51,          2) /* CombatUse - Missle */
+     , (30616,  51,          2) /* CombatUse - Missile */
      , (30616,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30616, 105,          5) /* ItemWorkmanship */
      , (30616, 106,        226) /* ItemSpellcraft */
@@ -52,22 +52,22 @@ VALUES (30616,   1, 'Arbalest') /* Name */
      , (30616,  16, 'Arbalest of Recklessness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30616,   1,   33559303) /* Setup */
-     , (30616,   3,  536870932) /* SoundTable */
-     , (30616,   6,   67115556) /* PaletteBase */
-     , (30616,   8,  100687036) /* Icon */
-     , (30616,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30616,   1, 0x02001307) /* Setup */
+     , (30616,   3, 0x20000014) /* SoundTable */
+     , (30616,   6, 0x04001A24) /* PaletteBase */
+     , (30616,   8, 0x06005CBC) /* Icon */
+     , (30616,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30616,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (30616, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30616, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30616, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30616, 8000, 3707987548) /* PCAPRecordedObjectIID */;
+VALUES (30616, 8000, 0xDD03665C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30616,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (30616,  5832,      2)  /* RecklessnessMasterySelf6 */;
+VALUES (30616,  5832,      2)  /* RecklessnessMasterySelf6 */
+     , (30616,  1616,      2)  /* BloodDrinkerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30616, 67116439, 0, 0);

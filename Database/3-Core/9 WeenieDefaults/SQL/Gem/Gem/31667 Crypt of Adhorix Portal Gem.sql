@@ -25,7 +25,8 @@ VALUES (31667,   1,       2048) /* ItemType - Gem */
      , (31667, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31667,  22, True ) /* Inscribable */;
+VALUES (31667,  22, True ) /* Inscribable */
+     , (31667,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31667, 167,      15) /* CooldownDuration */;
@@ -36,20 +37,20 @@ VALUES (31667,   1, 'Crypt of Adhorix Portal Gem') /* Name */
      , (31667,  16, 'This portal gem will create a temporary portal to the Crypt of Adhorix.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31667,   1,   33556769) /* Setup */
-     , (31667,   3,  536870932) /* SoundTable */
-     , (31667,   6,   67111919) /* PaletteBase */
-     , (31667,   8,  100668362) /* Icon */
-     , (31667,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31667,   1, 0x02000921) /* Setup */
+     , (31667,   3, 0x20000014) /* SoundTable */
+     , (31667,   6, 0x04000BEF) /* PaletteBase */
+     , (31667,   8, 0x060013CA) /* Icon */
+     , (31667,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31667,  28,        157) /* Spell - SummonPortal1 */
-     , (31667,  50,  100676404) /* IconOverlay */
+     , (31667,  50, 0x06003334) /* IconOverlay */
      , (31667, 8001, 1080586256) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, IconOverlay */
      , (31667, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (31667, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (31667, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31667, 8000, 2173414271) /* PCAPRecordedObjectIID */;
+VALUES (31667, 8000, 0x818BAB7F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31667, 67111923, 0, 0);

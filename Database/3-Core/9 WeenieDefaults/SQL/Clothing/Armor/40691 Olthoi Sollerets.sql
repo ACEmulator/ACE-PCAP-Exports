@@ -50,28 +50,28 @@ VALUES (40691,   1, 'Olthoi Sollerets') /* Name */
      , (40691,  16, 'Olthoi Sollerets of Finesse Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40691,   1,   33554654) /* Setup */
-     , (40691,   3,  536870932) /* SoundTable */
-     , (40691,   6,   67108990) /* PaletteBase */
-     , (40691,   8,  100674543) /* Icon */
-     , (40691,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40691,   1, 0x020000DE) /* Setup */
+     , (40691,   3, 0x20000014) /* SoundTable */
+     , (40691,   6, 0x0400007E) /* PaletteBase */
+     , (40691,   8, 0x06002BEF) /* Icon */
+     , (40691,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40691,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (40691, 8001, 2166685720) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40691, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40691, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40691, 8040, 23855473, 22.08619, -64.75161, -0.0006459951, 0.8307009, 0, 0, -0.5567189) /* PCAPRecordedLocation */
+VALUES (40691, 8040, 0x016C0171, 22.08619, -64.75161, -0.000646, 0.830701, 0, 0, -0.556719) /* PCAPRecordedLocation */
 /* @teleloc 0x016C0171 [22.086190 -64.751610 -0.000646] 0.830701 0.000000 0.000000 -0.556719 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40691, 8000, 3520979836) /* PCAPRecordedObjectIID */;
+VALUES (40691, 8000, 0xD1DDE37C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40691,   327,      2)  /* DaggerMasterySelf6 */
+VALUES (40691,   327,      2)  /* FinesseWeaponsMasterySelf6 */
+     , (40691,  2573,      2)  /* CANTRIPENDURANCE2 */
      , (40691,  2102,      2)  /* FlameBane7 */
-     , (40691,  2108,      2)  /* Impenetrability7 */
-     , (40691,  2573,      2)  /* CANTRIPENDURANCE2 */;
+     , (40691,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40691, 67116587, 164, 4)

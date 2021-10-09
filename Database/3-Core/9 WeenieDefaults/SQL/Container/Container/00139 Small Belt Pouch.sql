@@ -25,17 +25,17 @@ VALUES (139,   1, 'Small Belt Pouch') /* Name */
      , (139,  14, 'Use this item to close it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (139,   1,   33554825) /* Setup */
-     , (139,   3,  536870932) /* SoundTable */
-     , (139,   8,  100675533) /* Icon */
-     , (139,  22,  872415275) /* PhysicsEffectTable */
+VALUES (139,   1, 0x02000189) /* Setup */
+     , (139,   3, 0x20000014) /* SoundTable */
+     , (139,   8, 0x06002FCD) /* Icon */
+     , (139,  22, 0x3400002B) /* PhysicsEffectTable */
      , (139, 8001,    2097178) /* PCAPRecordedWeenieHeader - ItemsCapacity, Value, Usable, Burden */
      , (139, 8003,         19) /* PCAPRecordedObjectDesc - Openable, Inscribable, Attackable */
      , (139, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (139, 8040, 23855554, 55.16236, -27.68048, 0.0667503, -0.02748624, 0, 0, -0.9996222) /* PCAPRecordedLocation */
+VALUES (139, 8040, 0x016C01C2, 55.16236, -27.68048, 0.06675, -0.027486, 0, 0, -0.999622) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.162360 -27.680480 0.066750] -0.027486 0.000000 0.000000 -0.999622 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (139, 8000, 2148447020) /* PCAPRecordedObjectIID */;
+VALUES (139, 8000, 0x800EB32C) /* PCAPRecordedObjectIID */;

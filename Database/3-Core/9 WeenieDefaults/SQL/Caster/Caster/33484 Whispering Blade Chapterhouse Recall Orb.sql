@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33484,   1,      32768) /* ItemType - Caster */
      , (33484,   5,         50) /* EncumbranceVal */
      , (33484,   9,   16777216) /* ValidLocations - Held */
-     , (33484,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (33484,  16,     655364) /* ItemUseable - 655364 */
      , (33484,  18,          1) /* UiEffects - Magical */
      , (33484,  19,       5000) /* Value */
      , (33484,  33,          1) /* Bonded - Bonded */
+     , (33484,  46,        512) /* DefaultCombatStyle - Magic */
      , (33484,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (33484,  94,         16) /* TargetType - Creature */
      , (33484, 106,        400) /* ItemSpellcraft */
@@ -27,7 +27,8 @@ VALUES (33484,   1,      32768) /* ItemType - Caster */
      , (33484, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33484,  22, True ) /* Inscribable */;
+VALUES (33484,  22, True ) /* Inscribable */
+     , (33484,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33484,  29,       1) /* WeaponDefense */
@@ -39,11 +40,11 @@ VALUES (33484,   1, 'Whispering Blade Chapterhouse Recall Orb') /* Name */
      , (33484,  16, 'A spellcasting orb used to recall to the Whispering Blade Chapterhouse.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33484,   1,   33554669) /* Setup */
-     , (33484,   3,  536870932) /* SoundTable */
-     , (33484,   6,   67111928) /* PaletteBase */
-     , (33484,   8,  100668722) /* Icon */
-     , (33484,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33484,   1, 0x020000ED) /* Setup */
+     , (33484,   3, 0x20000014) /* SoundTable */
+     , (33484,   6, 0x04000BF8) /* PaletteBase */
+     , (33484,   8, 0x06001532) /* Icon */
+     , (33484,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33484,  28,       3930) /* Spell - RecallWhisperingBlade */
      , (33484, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (33484, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -51,12 +52,12 @@ VALUES (33484,   1,   33554669) /* Setup */
      , (33484, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33484, 8040, 306512128, 92.50031, 169.9679, -5.271, -0.05547893, -0.05547893, -0.704927, -0.704927) /* PCAPRecordedLocation */
+VALUES (33484, 8040, 0x12450100, 92.50031, 169.9679, -5.271, -0.055479, -0.055479, -0.704927, -0.704927) /* PCAPRecordedLocation */
 /* @teleloc 0x12450100 [92.500310 169.967900 -5.271000] -0.055479 -0.055479 -0.704927 -0.704927 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33484, 8000, 2148587205) /* PCAPRecordedObjectIID */
-     , (33484, 8008, 1343276127) /* PCAPRecordedParentIID */;
+VALUES (33484, 8000, 0x8010D6C5) /* PCAPRecordedObjectIID */
+     , (33484, 8008, 0x5010C45F) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33484, 67111919, 0, 0);

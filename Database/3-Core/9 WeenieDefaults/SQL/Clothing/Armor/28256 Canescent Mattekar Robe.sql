@@ -8,7 +8,6 @@ VALUES (28256,   1,          2) /* ItemType - Armor */
      , (28256,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (28256,   5,        500) /* EncumbranceVal */
      , (28256,   9,      32512) /* ValidLocations - Armor */
-     , (28256,  10,      32512) /* CurrentWieldedLocation - Armor */
      , (28256,  16,          1) /* ItemUseable - No */
      , (28256,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28256, 151,          2) /* HookType - Wall */
@@ -21,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28256,   1, 'Canescent Mattekar Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28256,   1,   33554854) /* Setup */
-     , (28256,   3,  536870932) /* SoundTable */
-     , (28256,   6,   67108990) /* PaletteBase */
-     , (28256,   8,  100672051) /* Icon */
-     , (28256,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28256,   1, 0x020001A6) /* Setup */
+     , (28256,   3, 0x20000014) /* SoundTable */
+     , (28256,   6, 0x0400007E) /* PaletteBase */
+     , (28256,   8, 0x06002233) /* Icon */
+     , (28256,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28256, 8001,  271024144) /* PCAPRecordedWeenieHeader - Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (28256, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28256, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28256, 8000, 3697679909) /* PCAPRecordedObjectIID */;
+VALUES (28256, 8000, 0xDC661E25) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28256, 67110026, 96, 12)

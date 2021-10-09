@@ -13,24 +13,25 @@ VALUES (25323,   1,        128) /* ItemType - Misc */
      , (25323, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25323,  22, True ) /* Inscribable */;
+VALUES (25323,  22, True ) /* Inscribable */
+     , (25323,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25323,   1, 'Alloy Cogwheel') /* Name */
      , (25323,  16, 'This mechanism appears to be made of some unknown alloy. Perhaps an Agent of the Arcanum would know what it is?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25323,   1,   33558439) /* Setup */
-     , (25323,   3,  536870932) /* SoundTable */
-     , (25323,   8,  100674835) /* Icon */
-     , (25323,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25323,   1, 0x02000FA7) /* Setup */
+     , (25323,   3, 0x20000014) /* SoundTable */
+     , (25323,   8, 0x06002D13) /* Icon */
+     , (25323,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25323, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (25323, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25323, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25323, 8040, 31523075, 43.6498, -46.95, -42.00803, 0.9959103, 0, 0, -0.09034713) /* PCAPRecordedLocation */
+VALUES (25323, 8040, 0x01E10103, 43.6498, -46.95, -42.00803, 0.99591, 0, 0, -0.090347) /* PCAPRecordedLocation */
 /* @teleloc 0x01E10103 [43.649800 -46.950000 -42.008030] 0.995910 0.000000 0.000000 -0.090347 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25323, 8000, 3355879458) /* PCAPRecordedObjectIID */;
+VALUES (25323, 8000, 0xC806A822) /* PCAPRecordedObjectIID */;

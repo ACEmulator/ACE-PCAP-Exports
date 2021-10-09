@@ -40,22 +40,22 @@ VALUES (6071,   1, 'Faran War Apprentice Robe') /* Name */
      , (6071,  16, 'A finely tailored Aluvian robe for inexperienced mages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6071,   1,   33554854) /* Setup */
-     , (6071,   3,  536870932) /* SoundTable */
-     , (6071,   6,   67108990) /* PaletteBase */
-     , (6071,   8,  100670349) /* Icon */
-     , (6071,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6071,   1, 0x020001A6) /* Setup */
+     , (6071,   3, 0x20000014) /* SoundTable */
+     , (6071,   6, 0x0400007E) /* PaletteBase */
+     , (6071,   8, 0x06001B8D) /* Icon */
+     , (6071,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6071,  37,         34) /* ItemSkillLimit - WarMagic */
      , (6071, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (6071, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6071, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6071, 8000, 3675386051) /* PCAPRecordedObjectIID */;
+VALUES (6071, 8000, 0xDB11F0C3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6071,   635,      2)  /* WarMagicMasteryOther1 */
-     , (6071,  1451,      2)  /* WillpowerOther1 */;
+VALUES (6071,  1451,      2)  /* WillpowerOther1 */
+     , (6071,   635,      2)  /* WarMagicMasteryOther1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6071, 67110026, 96, 12)

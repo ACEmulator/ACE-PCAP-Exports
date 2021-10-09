@@ -29,22 +29,22 @@ VALUES (11478,   1, 'Olthoi Eviscerator') /* Name */
      , (11478, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11478,   1,   33557046) /* Setup */
-     , (11478,   2,  150995130) /* MotionTable */
-     , (11478,   3,  536871036) /* SoundTable */
-     , (11478,   8,  100667623) /* Icon */
-     , (11478,  22,  872415378) /* PhysicsEffectTable */
+VALUES (11478,   1, 0x02000A36) /* Setup */
+     , (11478,   2, 0x090000BA) /* MotionTable */
+     , (11478,   3, 0x2000007C) /* SoundTable */
+     , (11478,   8, 0x060010E7) /* Icon */
+     , (11478,  22, 0x34000092) /* PhysicsEffectTable */
      , (11478,  30,         86) /* PhysicsScript - BreatheAcid */
      , (11478, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (11478, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (11478, 8005,     129159) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11478, 8040, 2277244965, 99.97915, 109.8286, 85.24201, 0.5889069, 0, 0, -0.8082008) /* PCAPRecordedLocation */
+VALUES (11478, 8040, 0x87BC0025, 99.97915, 109.8286, 85.24201, 0.588907, 0, 0, -0.808201) /* PCAPRecordedLocation */
 /* @teleloc 0x87BC0025 [99.979150 109.828600 85.242010] 0.588907 0.000000 0.000000 -0.808201 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11478, 8000, 3685943236) /* PCAPRecordedObjectIID */;
+VALUES (11478, 8000, 0xDBB307C4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11478,   1, 300, 0, 0) /* Strength */
@@ -60,7 +60,8 @@ VALUES (11478,   1,   125, 0, 0, 275) /* MaxHealth */
      , (11478,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11478, 9,  3768,  0, 0, 0, False) /* Create Flaming Club (3768) for ContainTreasure */
+VALUES (11478, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (11478, 9,  3768,  0, 0, 0, False) /* Create Flaming Club (3768) for ContainTreasure */
      , (11478, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (11478, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
      , (11478, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
@@ -627,4 +628,9 @@ VALUES (11478, 9,  3768,  0, 0, 0, False) /* Create Flaming Club (3768) for Cont
      , (11478, 9,  3750,  0, 0, 0, False) /* Create Acid Battle Axe (3750) for ContainTreasure */
      , (11478, 9, 30612,  0, 0, 0, False) /* Create Lightning Knuckles (30612) for ContainTreasure */
      , (11478, 9, 41050,  0, 0, 0, False) /* Create Frost Pike (41050) for ContainTreasure */
-     , (11478, 9, 20257,  0, 0, 0, False) /* Create Scroll of Mind Blossom (20257) for ContainTreasure */;
+     , (11478, 9, 20257,  0, 0, 0, False) /* Create Scroll of Mind Blossom (20257) for ContainTreasure */
+     , (11478, 9,  2432,  1, 0, 0, False) /* Create Gem (2432) for ContainTreasure */
+     , (11478, 9, 41048,  0, 0, 0, False) /* Create Lightning Pike (41048) for ContainTreasure */
+     , (11478, 9,  2786,  0, 0, 0, False) /* Create Aura of Blood Drinker Self VI (2786) for ContainTreasure */
+     , (11478, 9, 41047,  0, 0, 0, False) /* Create Acid Pike (41047) for ContainTreasure */
+     , (11478, 9, 44799,  0, 0, 0, False) /* Create Faran Over-robe (44799) for ContainTreasure */;

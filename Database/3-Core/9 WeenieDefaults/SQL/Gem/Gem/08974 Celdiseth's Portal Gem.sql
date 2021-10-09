@@ -32,11 +32,11 @@ VALUES (8974,   1, 'Celdiseth''s Portal Gem') /* Name */
      , (8974,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8974,   1,   33556769) /* Setup */
-     , (8974,   3,  536870932) /* SoundTable */
-     , (8974,   6,   67111919) /* PaletteBase */
-     , (8974,   8,  100674865) /* Icon */
-     , (8974,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8974,   1, 0x02000921) /* Setup */
+     , (8974,   3, 0x20000014) /* SoundTable */
+     , (8974,   6, 0x04000BEF) /* PaletteBase */
+     , (8974,   8, 0x06002D31) /* Icon */
+     , (8974,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8974,  28,        157) /* Spell - SummonPortal1 */
      , (8974, 8001,  275263640) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType */
      , (8974, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -44,11 +44,11 @@ VALUES (8974,   1,   33556769) /* Setup */
      , (8974, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8974, 8040, 18809102, 32.72004, -28.05618, -0.001000002, -0.71494, 0, 0, -0.6991858) /* PCAPRecordedLocation */
+VALUES (8974, 8040, 0x011F010E, 32.72004, -28.05618, -0.001, -0.71494, 0, 0, -0.699186) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010E [32.720040 -28.056180 -0.001000] -0.714940 0.000000 0.000000 -0.699186 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8974, 8000, 3706881755) /* PCAPRecordedObjectIID */;
+VALUES (8974, 8000, 0xDCF286DB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8974, 67111922, 0, 0);

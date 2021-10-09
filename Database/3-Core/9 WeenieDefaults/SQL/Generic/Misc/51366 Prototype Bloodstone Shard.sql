@@ -14,6 +14,7 @@ VALUES (51366,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51366,  22, True ) /* Inscribable */
+     , (51366,  23, True ) /* DestroyOnSell */
      , (51366,  69, False) /* IsSellable */
      , (51366,  99, False) /* Ivoryable */;
 
@@ -23,13 +24,13 @@ VALUES (51366,   1, 'Prototype Bloodstone Shard') /* Name */
      , (51366,  16, 'A small fragment from the Prototype Bloodstone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51366,   1,   33561167) /* Setup */
-     , (51366,   3,  536870932) /* SoundTable */
-     , (51366,   8,  100691499) /* Icon */
-     , (51366,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51366,   1, 0x02001A4F) /* Setup */
+     , (51366,   3, 0x20000014) /* SoundTable */
+     , (51366,   8, 0x06006E2B) /* Icon */
+     , (51366,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51366, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (51366, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51366, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51366, 8000, 3699985863) /* PCAPRecordedObjectIID */;
+VALUES (51366, 8000, 0xDC894DC7) /* PCAPRecordedObjectIID */;

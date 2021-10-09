@@ -22,18 +22,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8704,   1, 'An Explorer Jitte') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8704,   1,   33554740) /* Setup */
-     , (8704,   3,  536870932) /* SoundTable */
-     , (8704,   6,   67111919) /* PaletteBase */
-     , (8704,   8,  100668895) /* Icon */
-     , (8704,  22,  872415275) /* PhysicsEffectTable */
-     , (8704,  50,  100675462) /* IconOverlay */
+VALUES (8704,   1, 0x02000134) /* Setup */
+     , (8704,   3, 0x20000014) /* SoundTable */
+     , (8704,   6, 0x04000BEF) /* PaletteBase */
+     , (8704,   8, 0x060015DF) /* Icon */
+     , (8704,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (8704,  50, 0x06002F86) /* IconOverlay */
      , (8704, 8001, 1344357016) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (8704, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8704, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8704, 8000, 3261430939) /* PCAPRecordedObjectIID */;
+VALUES (8704, 8000, 0xC2657C9B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8704, 67111919, 0, 0);

@@ -42,29 +42,24 @@ VALUES (127,   1, 'Pants') /* Name */
      , (127,  16, 'Pants of Piercing Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (127,   1,   33554653) /* Setup */
-     , (127,   3,  536870932) /* SoundTable */
-     , (127,   6,   67108990) /* PaletteBase */
-     , (127,   8,  100667370) /* Icon */
-     , (127,  22,  872415275) /* PhysicsEffectTable */
+VALUES (127,   1, 0x020000DD) /* Setup */
+     , (127,   3, 0x20000014) /* SoundTable */
+     , (127,   6, 0x0400007E) /* PaletteBase */
+     , (127,   8, 0x06000FEA) /* Icon */
+     , (127,  22, 0x3400002B) /* PhysicsEffectTable */
      , (127, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (127, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (127, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (127, 8040, 3111190798, 32.35411, 37.79568, 22.4025, 0.997676, 0, 0, 0.0681302) /* PCAPRecordedLocation */
+VALUES (127, 8040, 0xB971010E, 32.35411, 37.79568, 22.4025, 0.997676, 0, 0, 0.06813) /* PCAPRecordedLocation */
 /* @teleloc 0xB971010E [32.354110 37.795680 22.402500] 0.997676 0.000000 0.000000 0.068130 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (127, 8000, 3685626334) /* PCAPRecordedObjectIID */;
+VALUES (127, 8000, 0xDBAE31DE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (127,  1137,      2)  /* PiercingProtectionSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (127, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
-     , (127, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (127, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (127, 67110338, 64, 8)

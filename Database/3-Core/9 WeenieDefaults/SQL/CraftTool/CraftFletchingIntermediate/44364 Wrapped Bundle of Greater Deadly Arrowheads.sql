@@ -19,7 +19,8 @@ VALUES (44364,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44364, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44364,  69, False) /* IsSellable */;
+VALUES (44364,  23, True ) /* DestroyOnSell */
+     , (44364,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44364,   1, 'Wrapped Bundle of Greater Deadly Arrowheads') /* Name */
@@ -27,14 +28,14 @@ VALUES (44364,   1, 'Wrapped Bundle of Greater Deadly Arrowheads') /* Name */
      , (44364,  20, 'Wrapped Bundles of Greater Deadly Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44364,   1,   33557030) /* Setup */
-     , (44364,   3,  536870932) /* SoundTable */
-     , (44364,   8,  100672695) /* Icon */
-     , (44364,  22,  872415275) /* PhysicsEffectTable */
-     , (44364,  50,  100689661) /* IconOverlay */
+VALUES (44364,   1, 0x02000A26) /* Setup */
+     , (44364,   3, 0x20000014) /* SoundTable */
+     , (44364,   8, 0x060024B7) /* Icon */
+     , (44364,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44364,  50, 0x060066FD) /* IconOverlay */
      , (44364, 8001, 1074294809) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, IconOverlay */
      , (44364, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44364, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44364, 8000, 2881953009) /* PCAPRecordedObjectIID */;
+VALUES (44364, 8000, 0xABC71CF1) /* PCAPRecordedObjectIID */;

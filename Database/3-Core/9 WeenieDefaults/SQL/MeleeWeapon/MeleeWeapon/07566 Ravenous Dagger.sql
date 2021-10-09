@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7566,   1, 'Ravenous Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7566,   1,   33556656) /* Setup */
-     , (7566,   3,  536870932) /* SoundTable */
-     , (7566,   8,  100668875) /* Icon */
-     , (7566,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7566,   1, 0x020008B0) /* Setup */
+     , (7566,   3, 0x20000014) /* SoundTable */
+     , (7566,   8, 0x060015CB) /* Icon */
+     , (7566,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7566, 8001,    2179736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
      , (7566, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7566, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7566, 8000, 2765235713) /* PCAPRecordedObjectIID */;
+VALUES (7566, 8000, 0xA4D22601) /* PCAPRecordedObjectIID */;

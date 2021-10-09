@@ -18,7 +18,8 @@ VALUES (43904,   1,        128) /* ItemType - Misc */
      , (43904, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43904,  69, False) /* IsSellable */;
+VALUES (43904,  23, True ) /* DestroyOnSell */
+     , (43904,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43904,  39,     0.5) /* DefaultScale */;
@@ -29,13 +30,13 @@ VALUES (43904,   1, 'Boxed Colosseum Coin') /* Name */
      , (43904,  16, 'A box containing a Colosseum Coin') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43904,   1,   33554718) /* Setup */
-     , (43904,   3,  536870932) /* SoundTable */
-     , (43904,   8,  100691792) /* Icon */
-     , (43904,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43904,   1, 0x0200011E) /* Setup */
+     , (43904,   3, 0x20000014) /* SoundTable */
+     , (43904,   8, 0x06006F50) /* Icon */
+     , (43904,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43904, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (43904, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43904, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43904, 8000, 3361326490) /* PCAPRecordedObjectIID */;
+VALUES (43904, 8000, 0xC859C59A) /* PCAPRecordedObjectIID */;

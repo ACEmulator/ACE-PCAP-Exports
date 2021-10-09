@@ -17,17 +17,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11999,   1, 'Broken Virindi Inquisitor Mask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11999,   1,   33556827) /* Setup */
-     , (11999,   3,  536870932) /* SoundTable */
-     , (11999,   6,   67108990) /* PaletteBase */
-     , (11999,   8,  100672105) /* Icon */
-     , (11999,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11999,   1, 0x0200095B) /* Setup */
+     , (11999,   3, 0x20000014) /* SoundTable */
+     , (11999,   6, 0x0400007E) /* PaletteBase */
+     , (11999,   8, 0x06002269) /* Icon */
+     , (11999,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11999, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (11999, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11999, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11999, 8000, 3628992393) /* PCAPRecordedObjectIID */;
+VALUES (11999, 8000, 0xD84E0789) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11999, 67116923, 240, 16);

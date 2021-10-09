@@ -22,22 +22,22 @@ VALUES (23555,   1, 'Telumiat Hollow Minion') /* Name */
      , (23555, 8006, 'BgA8AHFQDFBgA5EChMFSQ/SnTsNVv+A/8O9BAK0L0T/NzMw9AADIQgAAgD8AAHBBAAAAAHNPM0A=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23555,   1,   33556792) /* Setup */
-     , (23555,   2,  150995101) /* MotionTable */
-     , (23555,   3,  536871013) /* SoundTable */
-     , (23555,   6,   67112967) /* PaletteBase */
-     , (23555,   8,  100671140) /* Icon */
-     , (23555,  22,  872415367) /* PhysicsEffectTable */
+VALUES (23555,   1, 0x02000938) /* Setup */
+     , (23555,   2, 0x0900009D) /* MotionTable */
+     , (23555,   3, 0x20000065) /* SoundTable */
+     , (23555,   6, 0x04001007) /* PaletteBase */
+     , (23555,   8, 0x06001EA4) /* Icon */
+     , (23555,  22, 0x34000087) /* PhysicsEffectTable */
      , (23555, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (23555, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (23555, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23555, 8040, 43058016, 208.8528, -191.6685, 0.002499998, 0.1955364, 0, 0, -0.9806964) /* PCAPRecordedLocation */
+VALUES (23555, 8040, 0x02910360, 208.8528, -191.6685, 0.0025, 0.195536, 0, 0, -0.980696) /* PCAPRecordedLocation */
 /* @teleloc 0x02910360 [208.852800 -191.668500 0.002500] 0.195536 0.000000 0.000000 -0.980696 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23555, 8000, 3688391903) /* PCAPRecordedObjectIID */;
+VALUES (23555, 8000, 0xDBD864DF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23555,   1, 300, 0, 0) /* Strength */

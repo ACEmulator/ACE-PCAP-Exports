@@ -46,17 +46,17 @@ VALUES (28607,   1, 'Lace Shirt') /* Name */
      , (28607,  16, 'Lace Shirt of Cold Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28607,   1,   33554854) /* Setup */
-     , (28607,   3,  536870932) /* SoundTable */
-     , (28607,   6,   67108990) /* PaletteBase */
-     , (28607,   8,  100685812) /* Icon */
-     , (28607,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28607,   1, 0x020001A6) /* Setup */
+     , (28607,   3, 0x20000014) /* SoundTable */
+     , (28607,   6, 0x0400007E) /* PaletteBase */
+     , (28607,   8, 0x060057F4) /* Icon */
+     , (28607,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28607, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (28607, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28607, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28607, 8000, 3685210008) /* PCAPRecordedObjectIID */;
+VALUES (28607, 8000, 0xDBA7D798) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28607,  2155,      2)  /* ColdProtectionSelf7 */;

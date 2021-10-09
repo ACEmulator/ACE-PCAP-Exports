@@ -26,16 +26,16 @@ VALUES (11839,   1, 'Reinforced Banner Haft') /* Name */
      , (11839,  16, 'A reinforced banner haft with a worn handle.  If joined with either a Serpent or Falcon banner, it will raise its value substantially.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11839,   1,   33557244) /* Setup */
-     , (11839,   3,  536870932) /* SoundTable */
-     , (11839,   8,  100671951) /* Icon */
-     , (11839,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11839,   1, 0x02000AFC) /* Setup */
+     , (11839,   3, 0x20000014) /* SoundTable */
+     , (11839,   8, 0x060021CF) /* Icon */
+     , (11839,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11839, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11839, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11839, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11839, 8000, 2166051874) /* PCAPRecordedObjectIID */;
+VALUES (11839, 8000, 0x811B5422) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11839, 0, 83893725, 83893724);

@@ -27,16 +27,16 @@ VALUES (42645,   1, 'Aetheria Mana Stone') /* Name */
      , (42645,  16, 'An specially enhanced mana stone used to bathe Coalesced Aetheria in mana.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42645,   1,   33556407) /* Setup */
-     , (42645,   3,  536870932) /* SoundTable */
-     , (42645,   8,  100690958) /* Icon */
-     , (42645,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42645,   1, 0x020007B7) /* Setup */
+     , (42645,   3, 0x20000014) /* SoundTable */
+     , (42645,   8, 0x06006C0E) /* Icon */
+     , (42645,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42645, 8001,    2650256) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (42645, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42645, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42645, 8000, 3679296501) /* PCAPRecordedObjectIID */;
+VALUES (42645, 8000, 0xDB4D9BF5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (42645, 0, 83889688, 83890391);

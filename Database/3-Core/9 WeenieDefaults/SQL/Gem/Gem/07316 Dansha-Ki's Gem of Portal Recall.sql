@@ -27,18 +27,18 @@ VALUES (7316,   1, 'Dansha-Ki''s Gem of Portal Recall') /* Name */
      , (7316,  16, 'A powerful dark streak swirls within this rose quartz gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7316,   1,   33554809) /* Setup */
-     , (7316,   3,  536870932) /* SoundTable */
-     , (7316,   6,   67111919) /* PaletteBase */
-     , (7316,   8,  100670731) /* Icon */
-     , (7316,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7316,   1, 0x02000179) /* Setup */
+     , (7316,   3, 0x20000014) /* SoundTable */
+     , (7316,   6, 0x04000BEF) /* PaletteBase */
+     , (7316,   8, 0x06001D0B) /* Icon */
+     , (7316,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7316,  28,       2645) /* Spell - PortalRecall */
      , (7316, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (7316, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7316, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7316, 8000, 3346122520) /* PCAPRecordedObjectIID */;
+VALUES (7316, 8000, 0xC771C718) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7316, 67111922, 0, 0);

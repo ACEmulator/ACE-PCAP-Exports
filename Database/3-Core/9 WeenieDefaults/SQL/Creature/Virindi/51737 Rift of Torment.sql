@@ -25,21 +25,21 @@ VALUES (51737,   1, 'Rift of Torment') /* Name */
      , (51737, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51737,   1,   33561566) /* Setup */
-     , (51737,   2,  150995087) /* MotionTable */
-     , (51737,   3,  536871001) /* SoundTable */
-     , (51737,   8,  100671702) /* Icon */
-     , (51737,  22,  872415375) /* PhysicsEffectTable */
+VALUES (51737,   1, 0x02001BDE) /* Setup */
+     , (51737,   2, 0x0900008F) /* MotionTable */
+     , (51737,   3, 0x20000059) /* SoundTable */
+     , (51737,   8, 0x060020D6) /* Icon */
+     , (51737,  22, 0x3400008F) /* PhysicsEffectTable */
      , (51737, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51737, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (51737, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51737, 8040, 758186023, 111.6704, 154.049, 126.862, 0.4285391, 0, 0, -0.9035233) /* PCAPRecordedLocation */
+VALUES (51737, 8040, 0x2D310027, 111.6704, 154.049, 126.862, 0.428539, 0, 0, -0.903523) /* PCAPRecordedLocation */
 /* @teleloc 0x2D310027 [111.670400 154.049000 126.862000] 0.428539 0.000000 0.000000 -0.903523 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51737, 8000, 3707648561) /* PCAPRecordedObjectIID */;
+VALUES (51737, 8000, 0xDCFE3A31) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (51737,   1,     0, 0, 0, 10100) /* MaxHealth */;

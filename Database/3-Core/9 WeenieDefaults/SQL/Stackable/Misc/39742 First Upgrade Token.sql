@@ -21,18 +21,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39742,   1, 'First Upgrade Token') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39742,   1,   33556750) /* Setup */
-     , (39742,   3,  536870932) /* SoundTable */
-     , (39742,   6,   67111919) /* PaletteBase */
-     , (39742,   8,  100690339) /* Icon */
-     , (39742,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39742,   1, 0x0200090E) /* Setup */
+     , (39742,   3, 0x20000014) /* SoundTable */
+     , (39742,   6, 0x04000BEF) /* PaletteBase */
+     , (39742,   8, 0x060069A3) /* Icon */
+     , (39742,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39742, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (39742, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (39742, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (39742, 8044,       8644) /* PCAPPhysicsDIDDataTemplatedFrom - Lapyan Plant */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39742, 8000,      39742) /* PCAPRecordedObjectIID */;
+VALUES (39742, 8000, 0x00009B3E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39742, 67111926, 0, 0);

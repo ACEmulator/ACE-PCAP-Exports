@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x5874;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75874121, 51597, 0x587401B1, 116.974, -210, -0.06299996, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x75874121, 51597, 0x587401B1, 116.974, -210, -0.063, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x587401B1 [116.974000 -210.000000 -0.063000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -57,13 +57,13 @@ VALUES (0x75874152, 14804, 0x5874010D, 200, -180, -12, 1, 0, 0, 0, False, '2019-
 /* @teleloc 0x5874010D [200.000000 -180.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75874153, 14804, 0x5874010E, 200, -190, -12, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Acid */
+VALUES (0x75874153, 14804, 0x5874010E, 200, -190, -12, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Acid */
 /* @teleloc 0x5874010E [200.000000 -190.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75874154, 14804, 0x5874010F, 200, -200, -12, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Acid */
+VALUES (0x75874154, 14804, 0x5874010F, 200, -200, -12, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Acid */
 /* @teleloc 0x5874010F [200.000000 -200.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75874156, 51643, 0x58740121, -4.131, -115.898, 0, -0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Chorizite Chest */
+VALUES (0x75874156, 51643, 0x58740121, -4.131, -115.898, 0, -0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Chorizite Chest */
 /* @teleloc 0x58740121 [-4.131000 -115.898000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */

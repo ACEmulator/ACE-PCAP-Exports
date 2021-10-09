@@ -44,21 +44,21 @@ VALUES (21375,   1, 'Elemental Master Robe') /* Name */
      , (21375,  15, 'A red robe trimmed in black, it is lined with an unknown material but feels like the perfect insulator.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21375,   1,   33554854) /* Setup */
-     , (21375,   3,  536870932) /* SoundTable */
-     , (21375,   6,   67108990) /* PaletteBase */
-     , (21375,   8,  100673471) /* Icon */
-     , (21375,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21375,   1, 0x020001A6) /* Setup */
+     , (21375,   3, 0x20000014) /* SoundTable */
+     , (21375,   6, 0x0400007E) /* PaletteBase */
+     , (21375,   8, 0x060027BF) /* Icon */
+     , (21375,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21375, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (21375, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21375, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21375, 8000, 2274286882) /* PCAPRecordedObjectIID */;
+VALUES (21375, 8000, 0x878EDD22) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21375,  1316,      2)  /* ArmorOther5 */
-     , (21375,  1486,      2)  /* Impenetrability6 */
+VALUES (21375,  1486,      2)  /* Impenetrability6 */
+     , (21375,  1316,      2)  /* ArmorOther5 */
      , (21375,  2616,      2)  /* CANTRIPACIDWARD1 */
      , (21375,  2618,      2)  /* CANTRIPFLAMEWARD1 */
      , (21375,  2619,      2)  /* CANTRIPFROSTWARD1 */

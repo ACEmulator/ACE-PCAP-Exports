@@ -24,13 +24,13 @@ VALUES (3147,   1, 'Scroll of Armor Tinkering Expertise Other VI') /* Name */
 Increases the target''s Armor Tinkering skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3147,   1,   33554826) /* Setup */
-     , (3147,   8,  100676477) /* Icon */
-     , (3147,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3147,   1, 0x0200018A) /* Setup */
+     , (3147,   8, 0x0600337D) /* Icon */
+     , (3147,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3147,  28,        713) /* Spell - ArmorExpertiseOther6 */
      , (3147, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3147, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3147, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3147, 8000, 2925392372) /* PCAPRecordedObjectIID */;
+VALUES (3147, 8000, 0xAE5DF1F4) /* PCAPRecordedObjectIID */;

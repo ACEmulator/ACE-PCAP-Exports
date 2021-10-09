@@ -14,23 +14,24 @@ VALUES (22331,   1,       2048) /* ItemType - Gem */
      , (22331, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22331,  22, True ) /* Inscribable */;
+VALUES (22331,  22, True ) /* Inscribable */
+     , (22331,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22331,   1, 'Leadership Gem of Forgetfulness') /* Name */
      , (22331,  14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return two skill credits when used to unspecialize or four skill credits when used to untrain the Leadership skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22331,   1,   33558087) /* Setup */
-     , (22331,   6,   67111919) /* PaletteBase */
-     , (22331,   8,  100673789) /* Icon */
-     , (22331,  50,  100673770) /* IconOverlay */
+VALUES (22331,   1, 0x02000E47) /* Setup */
+     , (22331,   6, 0x04000BEF) /* PaletteBase */
+     , (22331,   8, 0x060028FD) /* Icon */
+     , (22331,  50, 0x060028EA) /* IconOverlay */
      , (22331, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (22331, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22331, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22331, 8000, 3327758618) /* PCAPRecordedObjectIID */;
+VALUES (22331, 8000, 0xC659911A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22331, 67111924, 0, 0);

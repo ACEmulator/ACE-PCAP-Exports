@@ -21,6 +21,7 @@ VALUES (28501,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28501,  22, True ) /* Inscribable */
+     , (28501,  23, True ) /* DestroyOnSell */
      , (28501,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -29,13 +30,13 @@ VALUES (28501,   1, 'Golem Heart Crate') /* Name */
      , (28501,  16, 'A crate with four empty slots. Currently only the first slot has been filled, a granite heart is within that slot. The second slot appears to be labeled for a Copper Golem Heart.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28501,   1,   33554930) /* Setup */
-     , (28501,   3,  536870932) /* SoundTable */
-     , (28501,   8,  100676970) /* Icon */
-     , (28501,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28501,   1, 0x020001F2) /* Setup */
+     , (28501,   3, 0x20000014) /* SoundTable */
+     , (28501,   8, 0x0600356A) /* Icon */
+     , (28501,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28501, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (28501, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28501, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28501, 8000, 3708564730) /* PCAPRecordedObjectIID */;
+VALUES (28501, 8000, 0xDD0C34FA) /* PCAPRecordedObjectIID */;

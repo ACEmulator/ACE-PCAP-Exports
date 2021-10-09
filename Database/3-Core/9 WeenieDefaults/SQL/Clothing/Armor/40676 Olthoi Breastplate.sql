@@ -54,21 +54,21 @@ VALUES (40676,   1, 'Olthoi Breastplate') /* Name */
      , (40676,  16, 'Olthoi Breastplate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40676,   1,   33554642) /* Setup */
-     , (40676,   3,  536870932) /* SoundTable */
-     , (40676,   6,   67108990) /* PaletteBase */
-     , (40676,   8,  100674609) /* Icon */
-     , (40676,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40676,   1, 0x020000D2) /* Setup */
+     , (40676,   3, 0x20000014) /* SoundTable */
+     , (40676,   6, 0x0400007E) /* PaletteBase */
+     , (40676,   8, 0x06002C31) /* Icon */
+     , (40676,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40676, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40676, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40676, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40676, 8000, 2401204126) /* PCAPRecordedObjectIID */;
+VALUES (40676, 8000, 0x8F1F779E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40676,  2108,      2)  /* Impenetrability7 */
-     , (40676,  4715,      2)  /* CANTRIPWARMAGICAPTITUDE3 */;
+VALUES (40676,  4715,      2)  /* CANTRIPWARMAGICAPTITUDE3 */
+     , (40676,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40676, 67116561, 207, 33)

@@ -24,13 +24,13 @@ VALUES (20464,   1, 'Scroll of Rending Wind') /* Name */
 Sends a magical blade streaking towards the target. The bolt does 42-84 points of slashing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20464,   1,   33554826) /* Setup */
-     , (20464,   8,  100677028) /* Icon */
-     , (20464,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20464,   1, 0x0200018A) /* Setup */
+     , (20464,   8, 0x060035A4) /* Icon */
+     , (20464,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20464,  28,       2147) /* Spell - WhirlingBladeStreak7 */
      , (20464, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20464, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20464, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20464, 8000, 3698130326) /* PCAPRecordedObjectIID */;
+VALUES (20464, 8000, 0xDC6CFD96) /* PCAPRecordedObjectIID */;

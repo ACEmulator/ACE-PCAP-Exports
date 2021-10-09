@@ -24,13 +24,13 @@ VALUES (8936,   1, 'Scroll of Frost Streak II') /* Name */
 Sends a bolt of frost streaking towards the target. The bolt does 18-35 points of cold damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8936,   1,   33554826) /* Setup */
-     , (8936,   8,  100677016) /* Icon */
-     , (8936,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8936,   1, 0x0200018A) /* Setup */
+     , (8936,   8, 0x06003598) /* Icon */
+     , (8936,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8936,  28,       1809) /* Spell - FrostStreak2 */
      , (8936, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (8936, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8936, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8936, 8000, 2624509621) /* PCAPRecordedObjectIID */;
+VALUES (8936, 8000, 0x9C6ED6B5) /* PCAPRecordedObjectIID */;

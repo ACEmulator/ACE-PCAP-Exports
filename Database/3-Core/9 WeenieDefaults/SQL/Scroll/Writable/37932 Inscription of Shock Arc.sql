@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37932,   1, 'Inscription of Shock Arc') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37932,   1,   33554826) /* Setup */
-     , (37932,   8,  100677008) /* Icon */
-     , (37932,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37932,   1, 0x0200018A) /* Setup */
+     , (37932,   8, 0x06003590) /* Icon */
+     , (37932,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37932,  28,       4427) /* Spell - ShockArc8 */
      , (37932, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37932, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37932, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37932, 8000, 3663619957) /* PCAPRecordedObjectIID */;
+VALUES (37932, 8000, 0xDA5E6775) /* PCAPRecordedObjectIID */;

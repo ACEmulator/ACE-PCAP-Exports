@@ -53,27 +53,27 @@ VALUES (30610,   1, 'Acid Bastone') /* Name */
      , (30610,  16, 'Acid Bastone of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30610,   1,   33559496) /* Setup */
-     , (30610,   3,  536870932) /* SoundTable */
-     , (30610,   6,   67116428) /* PaletteBase */
-     , (30610,   8,  100687024) /* Icon */
-     , (30610,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30610,   1, 0x020013C8) /* Setup */
+     , (30610,   3, 0x20000014) /* SoundTable */
+     , (30610,   6, 0x04001D8C) /* PaletteBase */
+     , (30610,   8, 0x06005CB0) /* Icon */
+     , (30610,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30610,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (30610, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30610, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30610, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30610, 8040, 12321027, 24.00742, -14.67607, -35.969, 0.4576451, 0, 0, -0.8891349) /* PCAPRecordedLocation */
+VALUES (30610, 8040, 0x00BC0103, 24.00742, -14.67607, -35.969, 0.457645, 0, 0, -0.889135) /* PCAPRecordedLocation */
 /* @teleloc 0x00BC0103 [24.007420 -14.676070 -35.969000] 0.457645 0.000000 0.000000 -0.889135 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30610, 8000, 3698344694) /* PCAPRecordedObjectIID */;
+VALUES (30610, 8000, 0xDC7042F6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30610,  1616,      2)  /* BloodDrinkerSelf6 */
+VALUES (30610,  2059,      2)  /* CoordinationSelf7 */
+     , (30610,  1616,      2)  /* BloodDrinkerSelf6 */
      , (30610,  1627,      2)  /* SwiftKillerSelf6 */
-     , (30610,  2059,      2)  /* CoordinationSelf7 */
      , (30610,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -28,17 +28,17 @@ VALUES (23315,   1, 'Rusted Medalion') /* Name */
      , (23315,   8, 'Ramulus') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23315,   1,   33554680) /* Setup */
-     , (23315,   3,  536870932) /* SoundTable */
-     , (23315,   6,   67111919) /* PaletteBase */
-     , (23315,   8,  100674226) /* Icon */
-     , (23315,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23315,   1, 0x020000F8) /* Setup */
+     , (23315,   3, 0x20000014) /* SoundTable */
+     , (23315,   6, 0x04000BEF) /* PaletteBase */
+     , (23315,   8, 0x06002AB2) /* Icon */
+     , (23315,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23315, 8001, 2166440984) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, Container, ValidLocations, Burden, Workmanship, MaterialType */
      , (23315, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23315, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23315, 8000, 2166216969) /* PCAPRecordedObjectIID */;
+VALUES (23315, 8000, 0x811DD909) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23315, 67111927, 0, 0);

@@ -28,21 +28,21 @@ VALUES (27376,   1, 'Old Runed Chest') /* Name */
      , (27376, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27376,   1,   33558095) /* Setup */
-     , (27376,   2,  150994948) /* MotionTable */
-     , (27376,   3,  536870945) /* SoundTable */
-     , (27376,   8,  100667424) /* Icon */
-     , (27376,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27376,   1, 0x02000E4F) /* Setup */
+     , (27376,   2, 0x09000004) /* MotionTable */
+     , (27376,   3, 0x20000021) /* SoundTable */
+     , (27376,   8, 0x06001020) /* Icon */
+     , (27376,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27376, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (27376, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (27376, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27376, 8040, 9044625, 223.421, -193.317, 0, 0.3826829, 0, 0, -0.9238797) /* PCAPRecordedLocation */
+VALUES (27376, 8040, 0x008A0291, 223.421, -193.317, 0, 0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0x008A0291 [223.421000 -193.317000 0.000000] 0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27376, 8000, 1879613479) /* PCAPRecordedObjectIID */;
+VALUES (27376, 8000, 0x7008A027) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27376, -1, 40700, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Covenant Greaves (40700) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

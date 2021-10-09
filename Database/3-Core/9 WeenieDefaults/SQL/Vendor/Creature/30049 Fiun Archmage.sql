@@ -33,21 +33,21 @@ VALUES (30049,   1, 'Fiun Archmage') /* Name */
      , (30049, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30049,   1,   33559124) /* Setup */
-     , (30049,   2,  150994945) /* MotionTable */
-     , (30049,   3,  536870913) /* SoundTable */
-     , (30049,   6,   67115466) /* PaletteBase */
-     , (30049,   8,  100677369) /* Icon */
+VALUES (30049,   1, 0x02001254) /* Setup */
+     , (30049,   2, 0x09000001) /* MotionTable */
+     , (30049,   3, 0x20000001) /* SoundTable */
+     , (30049,   6, 0x040019CA) /* PaletteBase */
+     , (30049,   8, 0x060036F9) /* Icon */
      , (30049, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (30049, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (30049, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30049, 8040, 955711744, 103.523, 9.38596, 2.21048, 0.5405036, 0, 0, -0.8413417) /* PCAPRecordedLocation */
+VALUES (30049, 8040, 0x38F70100, 103.523, 9.38596, 2.21048, 0.540504, 0, 0, -0.841342) /* PCAPRecordedLocation */
 /* @teleloc 0x38F70100 [103.523000 9.385960 2.210480] 0.540504 0.000000 0.000000 -0.841342 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30049, 8000, 1938780162) /* PCAPRecordedObjectIID */;
+VALUES (30049, 8000, 0x738F7002) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30049,   1, 150, 0, 0) /* Strength */
@@ -177,6 +177,8 @@ VALUES (30049, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (30049, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */
      , (30049, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (30049, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (30049, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (30049, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (30049, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (30049, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (30049, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */

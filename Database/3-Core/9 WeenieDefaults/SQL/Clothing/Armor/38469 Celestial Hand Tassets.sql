@@ -8,7 +8,6 @@ VALUES (38469,   1,          2) /* ItemType - Armor */
      , (38469,   4,        256) /* ClothingPriority - OuterwearUpperLegs */
      , (38469,   5,        587) /* EncumbranceVal */
      , (38469,   9,       8192) /* ValidLocations - UpperLegArmor */
-     , (38469,  10,       8192) /* CurrentWieldedLocation - UpperLegArmor */
      , (38469,  16,          1) /* ItemUseable - No */
      , (38469,  18,          1) /* UiEffects - Magical */
      , (38469,  19,       9614) /* Value */
@@ -55,24 +54,24 @@ VALUES (38469,   1, 'Celestial Hand Tassets') /* Name */
      , (38469,  39, 'Straharik') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38469,   1,   33554656) /* Setup */
-     , (38469,   3,  536870932) /* SoundTable */
-     , (38469,   8,  100690170) /* Icon */
-     , (38469,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38469,   1, 0x020000E0) /* Setup */
+     , (38469,   3, 0x20000014) /* SoundTable */
+     , (38469,   8, 0x060068FA) /* Icon */
+     , (38469,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38469, 8001, 2166849688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, Workmanship, MaterialType */
      , (38469, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
      , (38469, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38469, 8000, 3231352860) /* PCAPRecordedObjectIID */;
+VALUES (38469, 8000, 0xC09A881C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38469,  1332,      2)  /* StrengthSelf6 */
+VALUES (38469,  4226,      2)  /* CANTRIPENDURANCE3 */
      , (38469,  1552,      2)  /* FlameBane6 */
-     , (38469,  2108,      2)  /* Impenetrability7 */
-     , (38469,  2110,      2)  /* LightningBane7 */
      , (38469,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */
-     , (38469,  4226,      2)  /* CANTRIPENDURANCE3 */;
+     , (38469,  1332,      2)  /* StrengthSelf6 */
+     , (38469,  2108,      2)  /* Impenetrability7 */
+     , (38469,  2110,      2)  /* LightningBane7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38469, 0, 83887064, 83897922);

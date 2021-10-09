@@ -26,22 +26,22 @@ VALUES (29342,   1, 'Ruschk Laktar') /* Name */
      , (29342, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29342,   1,   33559104) /* Setup */
-     , (29342,   2,  150994951) /* MotionTable */
-     , (29342,   3,  536871101) /* SoundTable */
-     , (29342,   6,   67115447) /* PaletteBase */
-     , (29342,   8,  100677373) /* Icon */
-     , (29342,  22,  872415364) /* PhysicsEffectTable */
+VALUES (29342,   1, 0x02001240) /* Setup */
+     , (29342,   2, 0x09000007) /* MotionTable */
+     , (29342,   3, 0x200000BD) /* SoundTable */
+     , (29342,   6, 0x040019B7) /* PaletteBase */
+     , (29342,   8, 0x060036FD) /* Icon */
+     , (29342,  22, 0x34000084) /* PhysicsEffectTable */
      , (29342, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (29342, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (29342, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29342, 8040, 1072693302, 154.7764, 131.2027, 14.0066, -0.5895939, 0, 0, -0.8076998) /* PCAPRecordedLocation */
+VALUES (29342, 8040, 0x3FF00036, 154.7764, 131.2027, 14.0066, -0.589594, 0, 0, -0.8077) /* PCAPRecordedLocation */
 /* @teleloc 0x3FF00036 [154.776400 131.202700 14.006600] -0.589594 0.000000 0.000000 -0.807700 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29342, 8000, 3692755035) /* PCAPRecordedObjectIID */;
+VALUES (29342, 8000, 0xDC1AF85B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29342,   1, 250, 0, 0) /* Strength */
@@ -114,7 +114,9 @@ VALUES (29342, 2, 48631,  1, 0, 0, False) /* Create Ice Shard (48631) for Wield 
      , (29342, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
      , (29342, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */
      , (29342, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (29342, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */;
+     , (29342, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (29342, 9, 20406,  0, 0, 0, False) /* Create Aura of Infected Caress (20406) for ContainTreasure */
+     , (29342, 9, 31812,  0, 0, 0, False) /* Create Slashing Slingshot (31812) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29342, 67116361, 0, 0);

@@ -24,13 +24,13 @@ VALUES (8916,   1, 'Scroll of Acid Streak III') /* Name */
 Sends a stream of acid streaking towards the target. The stream does 21-42 points of acid damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8916,   1,   33554826) /* Setup */
-     , (8916,   8,  100677026) /* Icon */
-     , (8916,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8916,   1, 0x0200018A) /* Setup */
+     , (8916,   8, 0x060035A2) /* Icon */
+     , (8916,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8916,  28,       1792) /* Spell - AcidStreak3 */
      , (8916, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (8916, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8916, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8916, 8000, 3357348427) /* PCAPRecordedObjectIID */;
+VALUES (8916, 8000, 0xC81D124B) /* PCAPRecordedObjectIID */;

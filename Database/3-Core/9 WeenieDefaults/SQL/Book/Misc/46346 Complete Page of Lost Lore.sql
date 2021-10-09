@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46346,   1, 'Complete Page of Lost Lore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46346,   1,   33554773) /* Setup */
-     , (46346,   3,  536870932) /* SoundTable */
-     , (46346,   8,  100692694) /* Icon */
-     , (46346,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46346,   1, 0x02000155) /* Setup */
+     , (46346,   3, 0x20000014) /* SoundTable */
+     , (46346,   8, 0x060072D6) /* Icon */
+     , (46346,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46346, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (46346, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (46346, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46346, 8000, 3360676047) /* PCAPRecordedObjectIID */;
+VALUES (46346, 8000, 0xC84FD8CF) /* PCAPRecordedObjectIID */;

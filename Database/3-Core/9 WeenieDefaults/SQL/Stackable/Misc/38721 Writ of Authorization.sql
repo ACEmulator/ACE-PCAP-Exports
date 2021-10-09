@@ -18,7 +18,8 @@ VALUES (38721,   1,        128) /* ItemType - Misc */
      , (38721, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38721,  69, False) /* IsSellable */
+VALUES (38721,  23, True ) /* DestroyOnSell */
+     , (38721,  69, False) /* IsSellable */
      , (38721,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -28,13 +29,13 @@ VALUES (38721,   1, 'Writ of Authorization') /* Name */
      , (38721,  20, 'Writs of Authorization') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38721,   1,   33554776) /* Setup */
-     , (38721,   3,  536870932) /* SoundTable */
-     , (38721,   8,  100667503) /* Icon */
-     , (38721,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38721,   1, 0x02000158) /* Setup */
+     , (38721,   3, 0x20000014) /* SoundTable */
+     , (38721,   8, 0x0600106F) /* Icon */
+     , (38721,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38721, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (38721, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38721, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38721, 8000, 3357273838) /* PCAPRecordedObjectIID */;
+VALUES (38721, 8000, 0xC81BEEEE) /* PCAPRecordedObjectIID */;

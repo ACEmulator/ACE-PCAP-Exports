@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41744,   1, 'A Comprehensive Guide to Gearcrafting') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41744,   1,   33554771) /* Setup */
-     , (41744,   3,  536870932) /* SoundTable */
-     , (41744,   8,  100668117) /* Icon */
-     , (41744,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41744,   1, 0x02000153) /* Setup */
+     , (41744,   3, 0x20000014) /* SoundTable */
+     , (41744,   8, 0x060012D5) /* Icon */
+     , (41744,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41744, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (41744, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (41744, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41744, 8000, 2161047838) /* PCAPRecordedObjectIID */;
+VALUES (41744, 8000, 0x80CEF91E) /* PCAPRecordedObjectIID */;

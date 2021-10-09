@@ -33,17 +33,17 @@ VALUES (9247,   1, 'Sclavus Skin Helmet') /* Name */
      , (9247,  16, 'A helmet reinforced by the skin shed from a potent Sclavus.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9247,   1,   33556992) /* Setup */
-     , (9247,   3,  536870932) /* SoundTable */
-     , (9247,   6,   67108990) /* PaletteBase */
-     , (9247,   8,  100671410) /* Icon */
-     , (9247,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9247,   1, 0x02000A00) /* Setup */
+     , (9247,   3, 0x20000014) /* SoundTable */
+     , (9247,   6, 0x0400007E) /* PaletteBase */
+     , (9247,   8, 0x06001FB2) /* Icon */
+     , (9247,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9247, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (9247, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9247, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9247, 8000, 2982947189) /* PCAPRecordedObjectIID */;
+VALUES (9247, 8000, 0xB1CC2975) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9247, 67113146, 250, 6)

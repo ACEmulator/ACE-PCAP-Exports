@@ -18,19 +18,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31608,   1, 'Ebon Gromnie Eradicator Plaque') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31608,   1,   33559570) /* Setup */
-     , (31608,   3,  536870932) /* SoundTable */
-     , (31608,   6,   67111919) /* PaletteBase */
-     , (31608,   8,  100667938) /* Icon */
-     , (31608,  22,  872415275) /* PhysicsEffectTable */
-     , (31608,  52,  100687685) /* IconUnderlay */
+VALUES (31608,   1, 0x02001412) /* Setup */
+     , (31608,   3, 0x20000014) /* SoundTable */
+     , (31608,   6, 0x04000BEF) /* PaletteBase */
+     , (31608,   8, 0x06001222) /* Icon */
+     , (31608,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31608,  52, 0x06005F45) /* IconUnderlay */
      , (31608, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (31608, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31608, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (31608, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31608, 8000, 2981039356) /* PCAPRecordedObjectIID */;
+VALUES (31608, 8000, 0xB1AF0CFC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31608, 67111921, 0, 0);

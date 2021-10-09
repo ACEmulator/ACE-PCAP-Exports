@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51964,   1, 'Contract for Legendary Quests') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51964,   1,   33557625) /* Setup */
-     , (51964,   3,  536870932) /* SoundTable */
-     , (51964,   8,  100691928) /* Icon */
-     , (51964,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51964,   1, 0x02000C79) /* Setup */
+     , (51964,   3, 0x20000014) /* SoundTable */
+     , (51964,   8, 0x06006FD8) /* Icon */
+     , (51964,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51964, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (51964, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (51964, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (51964,   1,   33557625) /* Setup */
      , (51964, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51964, 8000,      51964) /* PCAPRecordedObjectIID */;
+VALUES (51964, 8000, 0x0000CAFC) /* PCAPRecordedObjectIID */;

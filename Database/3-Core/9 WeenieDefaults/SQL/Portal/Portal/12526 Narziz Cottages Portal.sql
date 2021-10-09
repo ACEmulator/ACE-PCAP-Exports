@@ -21,16 +21,16 @@ VALUES (12526,   1, 'Narziz Cottages Portal') /* Name */
      , (12526, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12526,   1,   33554867) /* Setup */
-     , (12526,   2,  150994947) /* MotionTable */
-     , (12526,   8,  100667499) /* Icon */
+VALUES (12526,   1, 0x020001B3) /* Setup */
+     , (12526,   2, 0x09000003) /* MotionTable */
+     , (12526,   8, 0x0600106B) /* Icon */
      , (12526, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12526, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12526, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12526, 8040, 2757754916, 110.746, 80.7933, 29.66189, 0.9999298, 0, 0, -0.0118458) /* PCAPRecordedLocation */
+VALUES (12526, 8040, 0xA4600024, 110.746, 80.7933, 29.66189, 0.99993, 0, 0, -0.011846) /* PCAPRecordedLocation */
 /* @teleloc 0xA4600024 [110.746000 80.793300 29.661890] 0.999930 0.000000 0.000000 -0.011846 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12526, 8000, 2051407874) /* PCAPRecordedObjectIID */;
+VALUES (12526, 8000, 0x7A460002) /* PCAPRecordedObjectIID */;

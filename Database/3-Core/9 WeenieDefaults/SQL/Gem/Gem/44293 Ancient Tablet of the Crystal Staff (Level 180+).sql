@@ -30,21 +30,18 @@ VALUES (44293,   1, 'Ancient Tablet of the Crystal Staff (Level 180+)') /* Name 
      , (44293,  16, 'An ancient contract with instructions to enter a Catacomb containing a crystal staff. (Recommended Levels 180+)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44293,   1,   33554773) /* Setup */
-     , (44293,   3,  536870932) /* SoundTable */
-     , (44293,   8,  100691957) /* Icon */
-     , (44293,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44293,   1, 0x02000155) /* Setup */
+     , (44293,   3, 0x20000014) /* SoundTable */
+     , (44293,   8, 0x06006FF5) /* Icon */
+     , (44293,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44293, 8001,     536720) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, TargetType */
      , (44293, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44293, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44293, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44293, 8040, 3332964380, 81.06934, 92.42748, 42.079, 0.9038728, 0, 0, -0.4278013) /* PCAPRecordedLocation */
+VALUES (44293, 8040, 0xC6A9001C, 81.06934, 92.42748, 42.079, 0.903873, 0, 0, -0.427801) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [81.069340 92.427480 42.079000] 0.903873 0.000000 0.000000 -0.427801 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44293, 8000, 2158509835) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44293, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (44293, 8000, 0x80A83F0B) /* PCAPRecordedObjectIID */;

@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2905,   1, 'Scroll of Summon Primary Portal II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2905,   1,   33554826) /* Setup */
-     , (2905,   8,  100676673) /* Icon */
-     , (2905,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2905,   1, 0x0200018A) /* Setup */
+     , (2905,   8, 0x06003441) /* Icon */
+     , (2905,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2905,  28,        158) /* Spell - SummonPortal2 */
      , (2905, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2905, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2905, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2905, 8000, 2631404667) /* PCAPRecordedObjectIID */;
+VALUES (2905, 8000, 0x9CD80C7B) /* PCAPRecordedObjectIID */;

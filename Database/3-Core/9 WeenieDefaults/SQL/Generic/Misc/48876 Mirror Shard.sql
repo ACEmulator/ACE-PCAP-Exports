@@ -13,7 +13,8 @@ VALUES (48876,   1,        128) /* ItemType - Misc */
      , (48876, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48876,  22, True ) /* Inscribable */;
+VALUES (48876,  22, True ) /* Inscribable */
+     , (48876,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48876,  39,     0.5) /* DefaultScale */;
@@ -23,13 +24,13 @@ VALUES (48876,   1, 'Mirror Shard') /* Name */
      , (48876,  16, 'A shard from a shattered silver mirror.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48876,   1,   33559137) /* Setup */
-     , (48876,   3,  536870932) /* SoundTable */
-     , (48876,   8,  100686363) /* Icon */
-     , (48876,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48876,   1, 0x02001261) /* Setup */
+     , (48876,   3, 0x20000014) /* SoundTable */
+     , (48876,   8, 0x06005A1B) /* Icon */
+     , (48876,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48876, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (48876, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48876, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48876, 8000, 2442924313) /* PCAPRecordedObjectIID */;
+VALUES (48876, 8000, 0x919C1119) /* PCAPRecordedObjectIID */;

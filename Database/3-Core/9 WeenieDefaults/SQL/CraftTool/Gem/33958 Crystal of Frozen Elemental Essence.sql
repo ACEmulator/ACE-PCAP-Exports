@@ -20,17 +20,17 @@ VALUES (33958,   1, 'Crystal of Frozen Elemental Essence') /* Name */
      , (33958,  16, 'A crystal of Frozen Elemental Essence.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33958,   1,   33556407) /* Setup */
-     , (33958,   3,  536870932) /* SoundTable */
-     , (33958,   6,   67111919) /* PaletteBase */
-     , (33958,   8,  100670489) /* Icon */
-     , (33958,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33958,   1, 0x020007B7) /* Setup */
+     , (33958,   3, 0x20000014) /* SoundTable */
+     , (33958,   6, 0x04000BEF) /* PaletteBase */
+     , (33958,   8, 0x06001C19) /* Icon */
+     , (33958,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33958, 8001,    2637840) /* PCAPRecordedWeenieHeader - Usable, Container, TargetType, Burden */
      , (33958, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33958, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33958, 8000, 3364589052) /* PCAPRecordedObjectIID */;
+VALUES (33958, 8000, 0xC88B8DFC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33958, 67111919, 0, 0);

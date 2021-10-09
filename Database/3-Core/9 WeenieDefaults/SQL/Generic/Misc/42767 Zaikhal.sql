@@ -19,15 +19,15 @@ VALUES (42767,   1, 'Zaikhal') /* Name */
      , (42767,  16, 'Zaikhal is the capital city of the Gharu''ndim. It rests among the hills in the northern edge of the Desert people''s realm, an area not unlike the mountainous Taban region back in Gharu''n on Ispar. Zaikhal was the original headquarters of the Arcanum - a group of scholars, alchemists, and mages, and is still a center of study today. The great Gharu''ndim library is located here, and within it one may find the translator of the ancient runes of Dericost. The scholar of the Virindi language also resides here, and can translate the strange shards of obsidian they use to record messages. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42767,   1,   33560963) /* Setup */
-     , (42767,   8,  100668115) /* Icon */
+VALUES (42767,   1, 0x02001983) /* Setup */
+     , (42767,   8, 0x060012D3) /* Icon */
      , (42767, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42767, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42767, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42767, 8040, 459022, 10.0638, -55.1006, 3.014, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42767, 8040, 0x0007010E, 10.0638, -55.1006, 3.014, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x0007010E [10.063800 -55.100600 3.014000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42767, 8000, 1879076868) /* PCAPRecordedObjectIID */;
+VALUES (42767, 8000, 0x70007004) /* PCAPRecordedObjectIID */;

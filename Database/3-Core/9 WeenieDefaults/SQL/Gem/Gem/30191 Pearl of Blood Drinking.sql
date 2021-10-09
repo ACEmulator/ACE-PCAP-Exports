@@ -34,21 +34,21 @@ VALUES (30191,   1, 'Pearl of Blood Drinking') /* Name */
      , (30191,  20, 'Pearls of Blood Drinking') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30191,   1,   33554809) /* Setup */
-     , (30191,   3,  536870932) /* SoundTable */
-     , (30191,   6,   67111919) /* PaletteBase */
-     , (30191,   8,  100686695) /* Icon */
-     , (30191,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30191,   1, 0x02000179) /* Setup */
+     , (30191,   3, 0x20000014) /* SoundTable */
+     , (30191,   6, 0x04000BEF) /* PaletteBase */
+     , (30191,   8, 0x06005B67) /* Icon */
+     , (30191,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30191,  28,       3688) /* Spell - BloodDrinkerRare */
-     , (30191,  50,  100686635) /* IconOverlay */
-     , (30191,  52,  100686604) /* IconUnderlay */
+     , (30191,  50, 0x06005B2B) /* IconOverlay */
+     , (30191,  52, 0x06005B0C) /* IconUnderlay */
      , (30191, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30191, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30191, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30191, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30191, 8000, 3453929851) /* PCAPRecordedObjectIID */;
+VALUES (30191, 8000, 0xCDDEC97B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30191, 67111924, 0, 0);

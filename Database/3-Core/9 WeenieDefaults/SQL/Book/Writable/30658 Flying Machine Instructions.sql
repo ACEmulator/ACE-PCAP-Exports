@@ -26,17 +26,17 @@ VALUES (30658,   1, 'Flying Machine Instructions') /* Name */
      , (30658,  16, 'Give these instructions to the Drudge Flying Machine in order to fly it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30658,   1,   33554773) /* Setup */
-     , (30658,   3,  536870932) /* SoundTable */
-     , (30658,   8,  100674008) /* Icon */
-     , (30658,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30658,   1, 0x02000155) /* Setup */
+     , (30658,   3, 0x20000014) /* SoundTable */
+     , (30658,   8, 0x060029D8) /* Icon */
+     , (30658,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30658, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (30658, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (30658, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30658, 8040, 3332964379, 80.08957, 69.30011, 42.079, 0.787006, 0, 0, -0.6169453) /* PCAPRecordedLocation */
+VALUES (30658, 8040, 0xC6A9001B, 80.08957, 69.30011, 42.079, 0.787006, 0, 0, -0.616945) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [80.089570 69.300110 42.079000] 0.787006 0.000000 0.000000 -0.616945 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30658, 8000, 3695172693) /* PCAPRecordedObjectIID */;
+VALUES (30658, 8000, 0xDC3FDC55) /* PCAPRecordedObjectIID */;

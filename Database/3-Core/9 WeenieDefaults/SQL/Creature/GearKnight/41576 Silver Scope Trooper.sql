@@ -26,21 +26,21 @@ VALUES (41576,   1, 'Silver Scope Trooper') /* Name */
      , (41576, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41576,   1,   33560844) /* Setup */
-     , (41576,   2,  150995368) /* MotionTable */
-     , (41576,   3,  536871123) /* SoundTable */
-     , (41576,   8,  100674350) /* Icon */
-     , (41576,  22,  872415269) /* PhysicsEffectTable */
+VALUES (41576,   1, 0x0200190C) /* Setup */
+     , (41576,   2, 0x090001A8) /* MotionTable */
+     , (41576,   3, 0x200000D3) /* SoundTable */
+     , (41576,   8, 0x06002B2E) /* Icon */
+     , (41576,  22, 0x34000025) /* PhysicsEffectTable */
      , (41576, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (41576, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (41576, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41576, 8040, 2270363670, 50.77351, 140.0114, 7.54375, 0.789404, 0, 0, 0.613874) /* PCAPRecordedLocation */
+VALUES (41576, 8040, 0x87530016, 50.77351, 140.0114, 7.54375, 0.789404, 0, 0, 0.613874) /* PCAPRecordedLocation */
 /* @teleloc 0x87530016 [50.773510 140.011400 7.543750] 0.789404 0.000000 0.000000 0.613874 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41576, 8000, 3709162158) /* PCAPRecordedObjectIID */;
+VALUES (41576, 8000, 0xDD1552AE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41576,   1, 280, 0, 0) /* Strength */

@@ -28,16 +28,16 @@ VALUES (41513,   1, 'Pathwarden Trinket') /* Name */
      , (41513,  16, 'A gearwork compass, may it guide your way.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41513,   1,   33554809) /* Setup */
-     , (41513,   3,  536870932) /* SoundTable */
-     , (41513,   8,  100690596) /* Icon */
-     , (41513,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41513,   1, 0x02000179) /* Setup */
+     , (41513,   3, 0x20000014) /* SoundTable */
+     , (41513,   8, 0x06006AA4) /* Icon */
+     , (41513,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41513, 8001,    2179096) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden */
      , (41513, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41513, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41513, 8000, 3693861840) /* PCAPRecordedObjectIID */;
+VALUES (41513, 8000, 0xDC2BDBD0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41513,  5154,      2)  /* TrinketXPBoost2 */;

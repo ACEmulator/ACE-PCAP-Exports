@@ -35,6 +35,7 @@ VALUES (21430,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21430,  22, True ) /* Inscribable */
+     , (21430,  23, True ) /* DestroyOnSell */
      , (21430,  69, False) /* IsSellable */
      , (21430,  99, True ) /* Ivoryable */;
 
@@ -52,16 +53,16 @@ VALUES (21430,   1, 'Sacraloi') /* Name */
      , (21430,  15, 'A dagger constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21430,   1,   33557961) /* Setup */
-     , (21430,   3,  536870932) /* SoundTable */
-     , (21430,   8,  100673488) /* Icon */
-     , (21430,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21430,   1, 0x02000DC9) /* Setup */
+     , (21430,   3, 0x20000014) /* SoundTable */
+     , (21430,   8, 0x060027D0) /* Icon */
+     , (21430,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21430, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (21430, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21430, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21430, 8000, 2164419487) /* PCAPRecordedObjectIID */;
+VALUES (21430, 8000, 0x81026B9F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21430,   296,      2)  /* AxeMasteryOther5 */;
+VALUES (21430,   296,      2)  /* LightWeaponsMasteryOther5 */;

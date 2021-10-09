@@ -27,16 +27,16 @@ VALUES (33182,   1, 'Fleshy Lump') /* Name */
      , (33182,  16, 'An unidentifiable fleshy organism, it has no apparent orifices for eyes or mouth in its thin membranous skin. Dark Empyrean script is burned into its flesh. It wriggles grotesquely in your grasp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33182,   1,   33556232) /* Setup */
-     , (33182,   3,  536870932) /* SoundTable */
-     , (33182,   8,  100670890) /* Icon */
-     , (33182,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33182,   1, 0x02000708) /* Setup */
+     , (33182,   3, 0x20000014) /* SoundTable */
+     , (33182,   8, 0x06001DAA) /* Icon */
+     , (33182,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33182, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (33182, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (33182, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33182, 8000, 3689944521) /* PCAPRecordedObjectIID */;
+VALUES (33182, 8000, 0xDBF015C9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (33182, 0, 83888868, 83892604);

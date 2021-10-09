@@ -35,21 +35,21 @@ VALUES (30219,   1, 'Pearl of Lightning Baning') /* Name */
      , (30219,  20, 'Pearls of Lightning Baning') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30219,   1,   33554809) /* Setup */
-     , (30219,   3,  536870932) /* SoundTable */
-     , (30219,   6,   67111919) /* PaletteBase */
-     , (30219,   8,  100686695) /* Icon */
-     , (30219,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30219,   1, 0x02000179) /* Setup */
+     , (30219,   3, 0x20000014) /* SoundTable */
+     , (30219,   6, 0x04000BEF) /* PaletteBase */
+     , (30219,   8, 0x06005B67) /* Icon */
+     , (30219,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30219,  28,       3718) /* Spell - LightningBaneRare */
-     , (30219,  50,  100686666) /* IconOverlay */
-     , (30219,  52,  100686604) /* IconUnderlay */
+     , (30219,  50, 0x06005B4A) /* IconOverlay */
+     , (30219,  52, 0x06005B0C) /* IconUnderlay */
      , (30219, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30219, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30219, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30219, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30219, 8000, 2981039424) /* PCAPRecordedObjectIID */;
+VALUES (30219, 8000, 0xB1AF0D40) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30219, 67112924, 0, 0);

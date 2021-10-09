@@ -35,17 +35,17 @@ VALUES (2407,   1, 'Gem') /* Name */
      , (2407,  16, 'Gem of Blade Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2407,   1,   33554809) /* Setup */
-     , (2407,   3,  536870932) /* SoundTable */
-     , (2407,   6,   67111919) /* PaletteBase */
-     , (2407,   8,  100674717) /* Icon */
-     , (2407,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2407,   1, 0x02000179) /* Setup */
+     , (2407,   3, 0x20000014) /* SoundTable */
+     , (2407,   6, 0x04000BEF) /* PaletteBase */
+     , (2407,   8, 0x06002C9D) /* Icon */
+     , (2407,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2407, 8001, 2166386712) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, Workmanship, MaterialType */
      , (2407, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2407, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2407, 8000, 3688282296) /* PCAPRecordedObjectIID */;
+VALUES (2407, 8000, 0xDBD6B8B8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2407,  1113,      2)  /* BladeProtectionSelf5 */;

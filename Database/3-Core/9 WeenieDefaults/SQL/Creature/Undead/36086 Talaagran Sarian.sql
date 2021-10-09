@@ -29,22 +29,22 @@ VALUES (36086,   1, 'Talaagran Sarian') /* Name */
      , (36086, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36086,   1,   33559744) /* Setup */
-     , (36086,   2,  150994945) /* MotionTable */
-     , (36086,   3,  536870934) /* SoundTable */
-     , (36086,   6,   67108990) /* PaletteBase */
-     , (36086,   8,  100669122) /* Icon */
-     , (36086,  22,  872415272) /* PhysicsEffectTable */
+VALUES (36086,   1, 0x020014C0) /* Setup */
+     , (36086,   2, 0x09000001) /* MotionTable */
+     , (36086,   3, 0x20000016) /* SoundTable */
+     , (36086,   6, 0x0400007E) /* PaletteBase */
+     , (36086,   8, 0x060016C2) /* Icon */
+     , (36086,  22, 0x34000028) /* PhysicsEffectTable */
      , (36086, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (36086, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (36086, 8005,     366659) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36086, 8040, 10682636, 249.5, -186.432, -35.9925, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (36086, 8040, 0x00A3010C, 249.5, -186.432, -35.9925, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00A3010C [249.500000 -186.432000 -35.992500] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36086, 8000, 3706686086) /* PCAPRecordedObjectIID */;
+VALUES (36086, 8000, 0xDCEF8A86) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36086,   1,  90, 0, 0) /* Strength */

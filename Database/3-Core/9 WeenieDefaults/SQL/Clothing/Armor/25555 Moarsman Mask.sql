@@ -33,16 +33,16 @@ VALUES (25555,   1, 'Moarsman Mask') /* Name */
      , (25555,  16, 'A finely sewed and maintained Moarsman head, patched with utmost precision, and conveniently fitted for use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25555,   1,   33556823) /* Setup */
-     , (25555,   3,  536870932) /* SoundTable */
-     , (25555,   8,  100674947) /* Icon */
-     , (25555,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25555,   1, 0x02000957) /* Setup */
+     , (25555,   3, 0x20000014) /* SoundTable */
+     , (25555,   8, 0x06002D83) /* Icon */
+     , (25555,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25555, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (25555, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25555, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25555, 8000, 2982968684) /* PCAPRecordedObjectIID */;
+VALUES (25555, 8000, 0xB1CC7D6C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (25555, 0, 16789608);

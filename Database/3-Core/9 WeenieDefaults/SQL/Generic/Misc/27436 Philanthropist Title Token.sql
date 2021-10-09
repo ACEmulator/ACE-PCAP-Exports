@@ -15,6 +15,7 @@ VALUES (27436,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27436,  22, True ) /* Inscribable */
+     , (27436,  23, True ) /* DestroyOnSell */
      , (27436,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,13 +23,13 @@ VALUES (27436,   1, 'Philanthropist Title Token') /* Name */
      , (27436,  15, 'Give this token to a member of the Guild of Bestowers, and they will grant you the title of "Philanthropist".') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27436,   1,   33554802) /* Setup */
-     , (27436,   3,  536870932) /* SoundTable */
-     , (27436,   8,  100676406) /* Icon */
-     , (27436,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27436,   1, 0x02000172) /* Setup */
+     , (27436,   3, 0x20000014) /* SoundTable */
+     , (27436,   8, 0x06003336) /* Icon */
+     , (27436,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27436, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (27436, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27436, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27436, 8000, 2629315393) /* PCAPRecordedObjectIID */;
+VALUES (27436, 8000, 0x9CB82B41) /* PCAPRecordedObjectIID */;

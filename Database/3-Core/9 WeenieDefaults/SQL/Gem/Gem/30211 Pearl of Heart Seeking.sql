@@ -34,21 +34,21 @@ VALUES (30211,   1, 'Pearl of Heart Seeking') /* Name */
      , (30211,  20, 'Pearls of Heart Seeking') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30211,   1,   33554809) /* Setup */
-     , (30211,   3,  536870932) /* SoundTable */
-     , (30211,   6,   67111919) /* PaletteBase */
-     , (30211,   8,  100686695) /* Icon */
-     , (30211,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30211,   1, 0x02000179) /* Setup */
+     , (30211,   3, 0x20000014) /* SoundTable */
+     , (30211,   6, 0x04000BEF) /* PaletteBase */
+     , (30211,   8, 0x06005B67) /* Icon */
+     , (30211,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30211,  28,       3708) /* Spell - HeartSeekerRare */
-     , (30211,  50,  100686657) /* IconOverlay */
-     , (30211,  52,  100686604) /* IconUnderlay */
+     , (30211,  50, 0x06005B41) /* IconOverlay */
+     , (30211,  52, 0x06005B0C) /* IconUnderlay */
      , (30211, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30211, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30211, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30211, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30211, 8000, 2174497970) /* PCAPRecordedObjectIID */;
+VALUES (30211, 8000, 0x819C34B2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30211, 67111924, 0, 0);

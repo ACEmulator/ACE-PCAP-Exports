@@ -47,21 +47,21 @@ VALUES (15435,   1, 'Deadly Fire Arrow') /* Name */
      , (15435,  16, 'A flaming arrow that appears to do fire damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15435,   1,   33555406) /* Setup */
-     , (15435,   3,  536870932) /* SoundTable */
-     , (15435,   6,   67111919) /* PaletteBase */
-     , (15435,   8,  100672663) /* Icon */
-     , (15435,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15435,   1, 0x020003CE) /* Setup */
+     , (15435,   3, 0x20000014) /* SoundTable */
+     , (15435,   6, 0x04000BEF) /* PaletteBase */
+     , (15435,   8, 0x06002497) /* Icon */
+     , (15435,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15435, 8001,  270611352) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, ValidLocations, Burden, HookType */
      , (15435, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15435, 8005,     170881) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15435, 8040, 3102408708, 20.92868, 90.26336, 37.38972, -0.9739432, 0, 0, -0.2267922) /* PCAPRecordedLocation */
+VALUES (15435, 8040, 0xB8EB0004, 20.92868, 90.26336, 37.38972, -0.973943, 0, 0, -0.226792) /* PCAPRecordedLocation */
 /* @teleloc 0xB8EB0004 [20.928680 90.263360 37.389720] -0.973943 0.000000 0.000000 -0.226792 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15435, 8000, 3700710717) /* PCAPRecordedObjectIID */;
+VALUES (15435, 8000, 0xDC945D3D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15435, 67111921, 0, 0);

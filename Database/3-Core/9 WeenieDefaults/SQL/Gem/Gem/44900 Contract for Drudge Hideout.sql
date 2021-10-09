@@ -32,14 +32,14 @@ VALUES (44900,   1, 'Contract for Drudge Hideout') /* Name */
      , (44900,  16, 'Alfrin needs a brave warrior to retrieve his stolen supplies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44900,   1,   33554773) /* Setup */
-     , (44900,   3,  536870932) /* SoundTable */
-     , (44900,   8,  100691929) /* Icon */
-     , (44900,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44900,   1, 0x02000155) /* Setup */
+     , (44900,   3, 0x20000014) /* SoundTable */
+     , (44900,   8, 0x06006FD9) /* Icon */
+     , (44900,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44900, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44900, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44900, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44900, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44900, 8000, 3622233558) /* PCAPRecordedObjectIID */;
+VALUES (44900, 8000, 0xD7E6E5D6) /* PCAPRecordedObjectIID */;

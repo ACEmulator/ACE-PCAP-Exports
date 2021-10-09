@@ -18,15 +18,15 @@ VALUES (42991,   1, 'Timaru') /* Name */
      , (42991,  16, 'Timaru is the capital city of the Aun Tumeroks who have made peace with the Isparians and their allies. It is located on the Marescent Plateau of Marae Lassel. Sitting atop an even smaller plateau, Aun Firanauri the Gate Keeper vigilantly guards the town, and will not allow entry to anyone who has offended the Aun Xuta.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42991,   1,   33561061) /* Setup */
-     , (42991,   8,  100668115) /* Icon */
+VALUES (42991,   1, 0x020019E5) /* Setup */
+     , (42991,   8, 0x060012D3) /* Icon */
      , (42991, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42991, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42991, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42991, 8040, 459067, 59.97, -174.899, 3.014, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42991, 8040, 0x0007013B, 59.97, -174.899, 3.014, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0007013B [59.970000 -174.899000 3.014000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42991, 8000, 1879076940) /* PCAPRecordedObjectIID */;
+VALUES (42991, 8000, 0x7000704C) /* PCAPRecordedObjectIID */;

@@ -33,21 +33,21 @@ VALUES (30050,   1, 'Fiun Shopkeeper') /* Name */
      , (30050, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30050,   1,   33559124) /* Setup */
-     , (30050,   2,  150994945) /* MotionTable */
-     , (30050,   3,  536870913) /* SoundTable */
-     , (30050,   6,   67115466) /* PaletteBase */
-     , (30050,   8,  100677369) /* Icon */
+VALUES (30050,   1, 0x02001254) /* Setup */
+     , (30050,   2, 0x09000001) /* MotionTable */
+     , (30050,   3, 0x20000001) /* SoundTable */
+     , (30050,   6, 0x040019CA) /* PaletteBase */
+     , (30050,   8, 0x060036F9) /* Icon */
      , (30050, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (30050, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (30050, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30050, 8040, 955711747, 57.652, 11.206, 2.21048, 0.9972965, 0, 0, -0.07348207) /* PCAPRecordedLocation */
+VALUES (30050, 8040, 0x38F70103, 57.652, 11.206, 2.21048, 0.997297, 0, 0, -0.073482) /* PCAPRecordedLocation */
 /* @teleloc 0x38F70103 [57.652000 11.206000 2.210480] 0.997297 0.000000 0.000000 -0.073482 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30050, 8000, 1938780164) /* PCAPRecordedObjectIID */;
+VALUES (30050, 8000, 0x738F7004) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30050,   1, 150, 0, 0) /* Strength */
@@ -110,13 +110,17 @@ VALUES (30050, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30050, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (30050, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (30050, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (30050, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (30050, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (30050, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (30050, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (30050, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (30050, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (30050, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (30050, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
      , (30050, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
      , (30050, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
-     , (30050, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
-     , (30050, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */;
+     , (30050, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30050, 67116344, 0, 0);

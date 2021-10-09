@@ -25,22 +25,22 @@ VALUES (36819,   1, 'Banderling Savage') /* Name */
      , (36819, 8006, 'BwA8ADgAVBR7mhpDmdk5Q6kDjEIP7kEAAAAAAAAAAAD//39/AACAPwAAcEEAAAAAuSMeQA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36819,   1,   33558024) /* Setup */
-     , (36819,   2,  150994951) /* MotionTable */
-     , (36819,   3,  536870917) /* SoundTable */
-     , (36819,   6,   67114021) /* PaletteBase */
-     , (36819,   8,  100667453) /* Icon */
-     , (36819,  22,  872415255) /* PhysicsEffectTable */
+VALUES (36819,   1, 0x02000E08) /* Setup */
+     , (36819,   2, 0x09000007) /* MotionTable */
+     , (36819,   3, 0x20000005) /* SoundTable */
+     , (36819,   6, 0x04001425) /* PaletteBase */
+     , (36819,   8, 0x0600103D) /* Icon */
+     , (36819,  22, 0x34000017) /* PhysicsEffectTable */
      , (36819, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (36819, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (36819, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36819, 8040, 341049400, 144.7204, 182.251, 70.00715, 0.8957317, 0, 0, -0.4445951) /* PCAPRecordedLocation */
+VALUES (36819, 8040, 0x14540038, 144.7204, 182.251, 70.00715, 0.895732, 0, 0, -0.444595) /* PCAPRecordedLocation */
 /* @teleloc 0x14540038 [144.720400 182.251000 70.007150] 0.895732 0.000000 0.000000 -0.444595 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36819, 8000, 3700484442) /* PCAPRecordedObjectIID */;
+VALUES (36819, 8000, 0xDC90E95A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36819,   1, 245, 0, 0) /* Strength */

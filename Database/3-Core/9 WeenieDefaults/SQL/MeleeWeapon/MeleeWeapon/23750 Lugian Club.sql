@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23750,   1,          1) /* ItemType - MeleeWeapon */
      , (23750,   5,       2200) /* EncumbranceVal */
      , (23750,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (23750,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (23750,  16,          1) /* ItemUseable - No */
      , (23750,  19,        200) /* Value */
      , (23750,  33,         -2) /* Bonded - Destroy */
@@ -39,19 +38,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23750,   1, 'Lugian Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23750,   1,   33554731) /* Setup */
-     , (23750,   3,  536870932) /* SoundTable */
-     , (23750,   8,  100667587) /* Icon */
-     , (23750,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23750,   1, 0x0200012B) /* Setup */
+     , (23750,   3, 0x20000014) /* SoundTable */
+     , (23750,   8, 0x060010C3) /* Icon */
+     , (23750,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23750, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (23750, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23750, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (23750, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23750, 8040, 1699348874, 132.59, -1.149943, 5.83, -0.5560139, -0.5560139, -0.4368621, -0.4368621) /* PCAPRecordedLocation */
+VALUES (23750, 8040, 0x654A018A, 132.59, -1.149943, 5.83, -0.556014, -0.556014, -0.436862, -0.436862) /* PCAPRecordedLocation */
 /* @teleloc 0x654A018A [132.590000 -1.149943 5.830000] -0.556014 -0.556014 -0.436862 -0.436862 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23750, 8000, 3698128259) /* PCAPRecordedObjectIID */
-     , (23750, 8008, 3697954741) /* PCAPRecordedParentIID */;
+VALUES (23750, 8000, 0xDC6CF583) /* PCAPRecordedObjectIID */
+     , (23750, 8008, 0xDC6A4FB5) /* PCAPRecordedParentIID */;

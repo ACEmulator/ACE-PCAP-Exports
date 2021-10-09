@@ -26,21 +26,21 @@ VALUES (46305,   1, 'Frigid Ice Golem') /* Name */
      , (46305, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46305,   1,   33556439) /* Setup */
-     , (46305,   2,  150995073) /* MotionTable */
-     , (46305,   3,  536870933) /* SoundTable */
-     , (46305,   8,  100667940) /* Icon */
-     , (46305,  22,  872415322) /* PhysicsEffectTable */
+VALUES (46305,   1, 0x020007D7) /* Setup */
+     , (46305,   2, 0x09000081) /* MotionTable */
+     , (46305,   3, 0x20000015) /* SoundTable */
+     , (46305,   8, 0x06001224) /* Icon */
+     , (46305,  22, 0x3400005A) /* PhysicsEffectTable */
      , (46305, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46305, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (46305, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46305, 8040, 1481442116, 120, -150, 6.011, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
+VALUES (46305, 8040, 0x584D0344, 120, -150, 6.011, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
 /* @teleloc 0x584D0344 [120.000000 -150.000000 6.011000] 0.714421 0.000000 0.000000 -0.699716 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46305, 8000, 3708402236) /* PCAPRecordedObjectIID */;
+VALUES (46305, 8000, 0xDD09BA3C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (46305,   1,     0, 0, 0, 1810) /* MaxHealth */;

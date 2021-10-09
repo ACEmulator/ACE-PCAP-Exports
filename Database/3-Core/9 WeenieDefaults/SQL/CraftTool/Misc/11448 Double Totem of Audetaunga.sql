@@ -29,13 +29,13 @@ VALUES (11448,   1, 'Double Totem of Audetaunga') /* Name */
      , (11448,  16, 'A double totem representing Audetaunga. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11448,   1,   33557264) /* Setup */
-     , (11448,   3,  536870932) /* SoundTable */
-     , (11448,   8,  100671990) /* Icon */
-     , (11448,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11448,   1, 0x02000B10) /* Setup */
+     , (11448,   3, 0x20000014) /* SoundTable */
+     , (11448,   8, 0x060021F6) /* Icon */
+     , (11448,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11448, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11448, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11448, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11448, 8000, 2221328205) /* PCAPRecordedObjectIID */;
+VALUES (11448, 8000, 0x8466C74D) /* PCAPRecordedObjectIID */;

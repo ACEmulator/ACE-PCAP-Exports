@@ -31,27 +31,27 @@ VALUES (38078,   1, 'Lacarra Avanthi') /* Name */
      , (38078, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38078,   1,   33554510) /* Setup */
-     , (38078,   2,  150994945) /* MotionTable */
-     , (38078,   3,  536870914) /* SoundTable */
-     , (38078,   6,   67108990) /* PaletteBase */
-     , (38078,   8,  100667446) /* Icon */
-     , (38078,   9,   83890279) /* EyesTexture */
-     , (38078,  10,   83890286) /* NoseTexture */
-     , (38078,  11,   83890342) /* MouthTexture */
-     , (38078,  15,   67117017) /* HairPalette */
-     , (38078,  16,   67110065) /* EyesPalette */
-     , (38078,  17,   67115907) /* SkinPalette */
+VALUES (38078,   1, 0x0200004E) /* Setup */
+     , (38078,   2, 0x09000001) /* MotionTable */
+     , (38078,   3, 0x20000002) /* SoundTable */
+     , (38078,   6, 0x0400007E) /* PaletteBase */
+     , (38078,   8, 0x06001036) /* Icon */
+     , (38078,   9, 0x05001067) /* EyesTexture */
+     , (38078,  10, 0x0500106E) /* NoseTexture */
+     , (38078,  11, 0x050010A6) /* MouthTexture */
+     , (38078,  15, 0x04001FD9) /* HairPalette */
+     , (38078,  16, 0x040004B1) /* EyesPalette */
+     , (38078,  17, 0x04001B83) /* SkinPalette */
      , (38078, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (38078, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (38078, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38078, 8040, 1060241426, 69.8132, 27.9696, 0.004999995, -0.0848111, 0, 0, -0.996397) /* PCAPRecordedLocation */
+VALUES (38078, 8040, 0x3F320012, 69.8132, 27.9696, 0.005, -0.084811, 0, 0, -0.996397) /* PCAPRecordedLocation */
 /* @teleloc 0x3F320012 [69.813200 27.969600 0.005000] -0.084811 0.000000 0.000000 -0.996397 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38078, 8000, 3707766122) /* PCAPRecordedObjectIID */;
+VALUES (38078, 8000, 0xDD00056A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38078,   1, 200, 0, 0) /* Strength */

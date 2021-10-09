@@ -52,22 +52,22 @@ VALUES (31795,   1, 'Acid Lancet') /* Name */
      , (31795,  16, 'Acid Lancet of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31795,   1,   33559661) /* Setup */
-     , (31795,   3,  536870932) /* SoundTable */
-     , (31795,   6,   67116700) /* PaletteBase */
-     , (31795,   8,  100688067) /* Icon */
-     , (31795,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31795,   1, 0x0200146D) /* Setup */
+     , (31795,   3, 0x20000014) /* SoundTable */
+     , (31795,   6, 0x04001E9C) /* PaletteBase */
+     , (31795,   8, 0x060060C3) /* Icon */
+     , (31795,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31795,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (31795, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31795, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31795, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31795, 8000, 3704941720) /* PCAPRecordedObjectIID */;
+VALUES (31795, 8000, 0xDCD4EC98) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31795,  1590,      2)  /* HeartSeekerSelf4 */
-     , (31795,  1616,      2)  /* BloodDrinkerSelf6 */;
+VALUES (31795,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (31795,  1590,      2)  /* HeartSeekerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31795, 67116700, 1, 100)

@@ -49,26 +49,26 @@ VALUES (31782,   1, 'Fire Spine Glaive') /* Name */
      , (31782,  16, 'Fire Spine Glaive of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31782,   1,   33559652) /* Setup */
-     , (31782,   3,  536870932) /* SoundTable */
-     , (31782,   6,   67116700) /* PaletteBase */
-     , (31782,   8,  100688100) /* Icon */
-     , (31782,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31782,   1, 0x02001464) /* Setup */
+     , (31782,   3, 0x20000014) /* SoundTable */
+     , (31782,   6, 0x04001E9C) /* PaletteBase */
+     , (31782,   8, 0x060060E4) /* Icon */
+     , (31782,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31782,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (31782,  52,  100676438) /* IconUnderlay */
+     , (31782,  52, 0x06003356) /* IconUnderlay */
      , (31782, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31782, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31782, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (31782, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31782, 8000, 2174542691) /* PCAPRecordedObjectIID */;
+VALUES (31782, 8000, 0x819CE363) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31782,  1329,      2)  /* StrengthSelf3 */
-     , (31782,  1591,      2)  /* HeartSeekerSelf5 */
-     , (31782,  1603,      2)  /* DefenderSelf4 */
-     , (31782,  1614,      2)  /* BloodDrinkerSelf4 */;
+VALUES (31782,  1603,      2)  /* DefenderSelf4 */
+     , (31782,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (31782,  1329,      2)  /* StrengthSelf3 */
+     , (31782,  1591,      2)  /* HeartSeekerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31782, 67116700, 1, 100)

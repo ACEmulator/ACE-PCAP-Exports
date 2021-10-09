@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34998,   1,          1) /* ItemType - MeleeWeapon */
      , (34998,   5,        135) /* EncumbranceVal */
      , (34998,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (34998,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (34998,  16,          1) /* ItemUseable - No */
      , (34998,  18,          1) /* UiEffects - Magical */
      , (34998,  19,       2500) /* Value */
@@ -49,10 +48,10 @@ VALUES (34998,   1, 'Channeling Guruk Fist') /* Name */
      , (34998,  16, 'This normal Burun fist has had mucor-altered granite applied to it, resulting in a magically enhanced weapon with unique magical properties.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34998,   1,   33560185) /* Setup */
-     , (34998,   3,  536870932) /* SoundTable */
-     , (34998,   8,  100689318) /* Icon */
-     , (34998,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34998,   1, 0x02001679) /* Setup */
+     , (34998,   3, 0x20000014) /* SoundTable */
+     , (34998,   8, 0x060065A6) /* Icon */
+     , (34998,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34998,  55,       4069) /* ProcSpell - MucorJolt */
      , (34998, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (34998, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -60,15 +59,15 @@ VALUES (34998,   1,   33560185) /* Setup */
      , (34998, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34998, 8040, 19202318, 31.03973, -26.01664, -0.071, 0.1801753, 0.1801753, -0.6837667, -0.6837667) /* PCAPRecordedLocation */
+VALUES (34998, 8040, 0x0125010E, 31.03973, -26.01664, -0.071, 0.180175, 0.180175, -0.683767, -0.683767) /* PCAPRecordedLocation */
 /* @teleloc 0x0125010E [31.039730 -26.016640 -0.071000] 0.180175 0.180175 -0.683767 -0.683767 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34998, 8000, 2678017390) /* PCAPRecordedObjectIID */
-     , (34998, 8008, 1343234599) /* PCAPRecordedParentIID */;
+VALUES (34998, 8000, 0x9F9F4D6E) /* PCAPRecordedObjectIID */
+     , (34998, 8008, 0x50102227) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34998,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (34998,  2116,      2)  /* SwiftKillerSelf7 */
+     , (34998,  2096,      2)  /* BloodDrinkerSelf7 */
      , (34998,  2101,      2)  /* DefenderSelf7 */
-     , (34998,  2106,      2)  /* HeartSeekerSelf7 */
-     , (34998,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (34998,  2106,      2)  /* HeartSeekerSelf7 */;

@@ -51,21 +51,21 @@ VALUES (24613,   1, 'Sword of Lost Light') /* Name */
      , (24613,  25, 'Callaway') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24613,   1,   33558416) /* Setup */
-     , (24613,   3,  536870932) /* SoundTable */
-     , (24613,   8,  100674513) /* Icon */
-     , (24613,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24613,   1, 0x02000F90) /* Setup */
+     , (24613,   3, 0x20000014) /* SoundTable */
+     , (24613,   8, 0x06002BD1) /* Icon */
+     , (24613,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24613, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24613, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24613, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24613, 8000, 3703788101) /* PCAPRecordedObjectIID */;
+VALUES (24613, 8000, 0xDCC35245) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24613,   423,      2)  /* SwordMasterySelf6 */
-     , (24613,  1378,      2)  /* CoordinationSelf6 */
-     , (24613,  1592,      2)  /* HeartSeekerSelf6 */
-     , (24613,  1605,      2)  /* DefenderSelf6 */
+VALUES (24613,  1605,      2)  /* DefenderSelf6 */
      , (24613,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (24613,  1624,      2)  /* SwiftKillerSelf3 */;
+     , (24613,  1624,      2)  /* SwiftKillerSelf3 */
+     , (24613,  1378,      2)  /* CoordinationSelf6 */
+     , (24613,   423,      2)  /* HeavyWeaponsMasterySelf6 */
+     , (24613,  1592,      2)  /* HeartSeekerSelf6 */;

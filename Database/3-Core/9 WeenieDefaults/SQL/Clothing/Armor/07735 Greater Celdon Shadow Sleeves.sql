@@ -8,7 +8,6 @@ VALUES (7735,   1,          2) /* ItemType - Armor */
      , (7735,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (7735,   5,       1100) /* EncumbranceVal */
      , (7735,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
-     , (7735,  10,       6144) /* CurrentWieldedLocation - UpperArmArmor, LowerArmArmor */
      , (7735,  16,          1) /* ItemUseable - No */
      , (7735,  19,       1870) /* Value */
      , (7735,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -21,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7735,   1, 'Greater Celdon Shadow Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7735,   1,   33554655) /* Setup */
-     , (7735,   3,  536870932) /* SoundTable */
-     , (7735,   6,   67108990) /* PaletteBase */
-     , (7735,   8,  100670430) /* Icon */
-     , (7735,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7735,   1, 0x020000DF) /* Setup */
+     , (7735,   3, 0x20000014) /* SoundTable */
+     , (7735,   6, 0x0400007E) /* PaletteBase */
+     , (7735,   8, 0x06001BDE) /* Icon */
+     , (7735,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7735, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (7735, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7735, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7735, 8000, 2861561156) /* PCAPRecordedObjectIID */;
+VALUES (7735, 8000, 0xAA8FF544) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7735, 67109964, 96, 12)

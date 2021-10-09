@@ -20,13 +20,13 @@ VALUES (8144,   1, 'Banderling Head') /* Name */
      , (8144,  16, 'A battered, beaten and bloody Banderling head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8144,   1,   33556822) /* Setup */
-     , (8144,   3,  536870932) /* SoundTable */
-     , (8144,   8,  100671029) /* Icon */
-     , (8144,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8144,   1, 0x02000956) /* Setup */
+     , (8144,   3, 0x20000014) /* SoundTable */
+     , (8144,   8, 0x06001E35) /* Icon */
+     , (8144,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8144, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (8144, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8144, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8144, 8000, 2982968614) /* PCAPRecordedObjectIID */;
+VALUES (8144, 8000, 0xB1CC7D26) /* PCAPRecordedObjectIID */;

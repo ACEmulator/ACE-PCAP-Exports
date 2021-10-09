@@ -54,27 +54,24 @@ VALUES (7793,   1, 'Acid Trident') /* Name */
      , (7793,  16, 'Acid Trident of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7793,   1,   33556673) /* Setup */
-     , (7793,   3,  536870932) /* SoundTable */
-     , (7793,   6,   67111919) /* PaletteBase */
-     , (7793,   8,  100670790) /* Icon */
-     , (7793,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7793,   1, 0x020008C1) /* Setup */
+     , (7793,   3, 0x20000014) /* SoundTable */
+     , (7793,   6, 0x04000BEF) /* PaletteBase */
+     , (7793,   8, 0x06001D46) /* Icon */
+     , (7793,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7793,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (7793, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (7793, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7793, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7793, 8000, 3690161087) /* PCAPRecordedObjectIID */;
+VALUES (7793, 8000, 0xDBF363BF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7793,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (7793,  2116,      2)  /* SwiftKillerSelf7 */
-     , (7793,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
-     , (7793,  2573,      2)  /* CANTRIPENDURANCE2 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7793, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */;
+VALUES (7793,  2116,      2)  /* SwiftKillerSelf7 */
+     , (7793,  2573,      2)  /* CANTRIPENDURANCE2 */
+     , (7793,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (7793,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7793, 67111920, 0, 0);

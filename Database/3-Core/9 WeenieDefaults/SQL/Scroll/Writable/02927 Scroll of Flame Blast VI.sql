@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2927,   1, 'Scroll of Flame Blast VI') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2927,   1,   33554826) /* Setup */
-     , (2927,   8,  100677022) /* Icon */
-     , (2927,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2927,   1, 0x0200018A) /* Setup */
+     , (2927,   8, 0x0600359E) /* Icon */
+     , (2927,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2927,  28,        118) /* Spell - FlameBlast6 */
      , (2927, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2927, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -31,4 +31,4 @@ VALUES (2927,   1,   33554826) /* Setup */
      , (2927, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2927, 8000,       2927) /* PCAPRecordedObjectIID */;
+VALUES (2927, 8000, 0x00000B6F) /* PCAPRecordedObjectIID */;

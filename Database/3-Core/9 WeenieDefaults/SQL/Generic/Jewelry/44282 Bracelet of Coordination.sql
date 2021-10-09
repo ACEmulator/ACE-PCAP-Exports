@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44282,   1,          8) /* ItemType - Jewelry */
      , (44282,   5,         60) /* EncumbranceVal */
      , (44282,   9,     196608) /* ValidLocations - WristWear */
-     , (44282,  10,     131072) /* CurrentWieldedLocation - WristWearRight */
      , (44282,  16,          1) /* ItemUseable - No */
      , (44282,  19,         20) /* Value */
      , (44282,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -35,21 +34,21 @@ VALUES (44282,   1, 'Bracelet of Coordination') /* Name */
      , (44282,  16, 'This bracelet increases coordination.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44282,   1,   33554683) /* Setup */
-     , (44282,   3,  536870932) /* SoundTable */
-     , (44282,   6,   67111919) /* PaletteBase */
-     , (44282,   8,  100668625) /* Icon */
-     , (44282,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44282,   1, 0x020000FB) /* Setup */
+     , (44282,   3, 0x20000014) /* SoundTable */
+     , (44282,   6, 0x04000BEF) /* PaletteBase */
+     , (44282,   8, 0x060014D1) /* Icon */
+     , (44282,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44282, 8001,    2326552) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (44282, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
      , (44282, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44282, 8000, 2210356985) /* PCAPRecordedObjectIID */;
+VALUES (44282, 8000, 0x83BF5EF9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44282,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (44282,  4296,      2)  /* CoordinationOther8 */;
+VALUES (44282,  4296,      2)  /* CoordinationOther8 */
+     , (44282,  3963,      2)  /* CANTRIPCOORDINATION3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44282, 67111922, 0, 0);

@@ -23,19 +23,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30361,   1, 'Loop of Opposing Benedictions') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30361,   1,   33554691) /* Setup */
-     , (30361,   3,  536870932) /* SoundTable */
-     , (30361,   6,   67111919) /* PaletteBase */
-     , (30361,   8,  100686823) /* Icon */
-     , (30361,  22,  872415275) /* PhysicsEffectTable */
-     , (30361,  52,  100686604) /* IconUnderlay */
+VALUES (30361,   1, 0x02000103) /* Setup */
+     , (30361,   3, 0x20000014) /* SoundTable */
+     , (30361,   6, 0x04000BEF) /* PaletteBase */
+     , (30361,   8, 0x06005BE7) /* Icon */
+     , (30361,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30361,  52, 0x06005B0C) /* IconUnderlay */
      , (30361, 8001,  270614552) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden, HookType */
      , (30361, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30361, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30361, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30361, 8000, 2149503866) /* PCAPRecordedObjectIID */;
+VALUES (30361, 8000, 0x801ED37A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30361, 67111919, 0, 0);

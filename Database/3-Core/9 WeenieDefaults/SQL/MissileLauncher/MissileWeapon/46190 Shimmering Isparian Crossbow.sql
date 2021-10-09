@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46190,   1,        256) /* ItemType - MissileWeapon */
      , (46190,   5,       1400) /* EncumbranceVal */
      , (46190,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (46190,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (46190,  16,          1) /* ItemUseable - No */
      , (46190,  18,          1) /* UiEffects - Magical */
      , (46190,  19,       8000) /* Value */
@@ -17,7 +16,7 @@ VALUES (46190,   1,        256) /* ItemType - MissileWeapon */
      , (46190,  48,         47) /* WeaponSkill - MissileWeapons */
      , (46190,  49,         45) /* WeaponTime */
      , (46190,  50,          2) /* AmmoType - Bolt */
-     , (46190,  51,          2) /* CombatUse - Missle */
+     , (46190,  51,          2) /* CombatUse - Missile */
      , (46190,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46190, 106,        300) /* ItemSpellcraft */
      , (46190, 107,        303) /* ItemCurMana */
@@ -35,6 +34,7 @@ VALUES (46190,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46190,  22, True ) /* Inscribable */
+     , (46190,  23, True ) /* DestroyOnSell */
      , (46190,  69, False) /* IsSellable */
      , (46190,  99, True ) /* Ivoryable */;
 
@@ -54,28 +54,28 @@ VALUES (46190,   1, 'Shimmering Isparian Crossbow') /* Name */
      , (46190,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46190,   1,   33557730) /* Setup */
-     , (46190,   3,  536870932) /* SoundTable */
-     , (46190,   8,  100673202) /* Icon */
-     , (46190,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46190,   1, 0x02000CE2) /* Setup */
+     , (46190,   3, 0x20000014) /* SoundTable */
+     , (46190,   8, 0x060026B2) /* Icon */
+     , (46190,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46190, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (46190, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46190, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (46190, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46190, 8040, 459075, 70.026, -60.004, -0.07000001, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (46190, 8040, 0x00070143, 70.026, -60.004, -0.07, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [70.026000 -60.004000 -0.070000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46190, 8000, 2928621478) /* PCAPRecordedObjectIID */
-     , (46190, 8008, 1343188794) /* PCAPRecordedParentIID */;
+VALUES (46190, 8000, 0xAE8F37A6) /* PCAPRecordedObjectIID */
+     , (46190, 8008, 0x500F6F3A) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46190,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (46190,  2101,      2)  /* DefenderSelf7 */
-     , (46190,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46190,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */;
+VALUES (46190,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46190,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+     , (46190,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46190,  2101,      2)  /* DefenderSelf7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46190, 0, 83889688, 83892492)

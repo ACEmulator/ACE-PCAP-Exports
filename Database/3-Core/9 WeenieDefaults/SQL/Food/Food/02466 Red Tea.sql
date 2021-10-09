@@ -20,14 +20,14 @@ VALUES (2466,   1, 'Red Tea') /* Name */
      , (2466,  20, 'Cups of Red Tea') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2466,   1,   33556220) /* Setup */
-     , (2466,   3,  536870932) /* SoundTable */
-     , (2466,   8,  100667430) /* Icon */
-     , (2466,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2466,   1, 0x020006FC) /* Setup */
+     , (2466,   3, 0x20000014) /* SoundTable */
+     , (2466,   8, 0x06001026) /* Icon */
+     , (2466,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2466, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (2466, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (2466, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
      , (2466, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2466, 8000,       2466) /* PCAPRecordedObjectIID */;
+VALUES (2466, 8000, 0x000009A2) /* PCAPRecordedObjectIID */;

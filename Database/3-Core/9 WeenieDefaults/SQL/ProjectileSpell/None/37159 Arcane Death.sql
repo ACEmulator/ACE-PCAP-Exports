@@ -26,10 +26,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37159,   1, 'Arcane Death') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37159,   1,   33560532) /* Setup */
-     , (37159,   3,  536870972) /* SoundTable */
-     , (37159,   8,  100689841) /* Icon */
-     , (37159,  22,  872415240) /* PhysicsEffectTable */
+VALUES (37159,   1, 0x020017D4) /* Setup */
+     , (37159,   3, 0x2000003C) /* SoundTable */
+     , (37159,   8, 0x060067B1) /* Icon */
+     , (37159,  22, 0x34000008) /* PhysicsEffectTable */
      , (37159,  28,       4264) /* Spell - ArcaneDeath */
      , (37159,  30,         90) /* PhysicsScript - ProjectileCollision */
      , (37159, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
@@ -37,8 +37,8 @@ VALUES (37159,   1,   33560532) /* Setup */
      , (37159, 8005,      64277) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Omega, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37159, 8040, 4181394348, 89.95512, 58.80515, -56.37167, -0.1180224, -0.3640288, 0.8788445, -0.2849317) /* PCAPRecordedLocation */
+VALUES (37159, 8040, 0xF93B03AC, 89.95512, 58.80515, -56.37167, -0.118022, -0.364029, 0.878845, -0.284932) /* PCAPRecordedLocation */
 /* @teleloc 0xF93B03AC [89.955120 58.805150 -56.371670] -0.118022 -0.364029 0.878845 -0.284932 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37159, 8000, 2629806542) /* PCAPRecordedObjectIID */;
+VALUES (37159, 8000, 0x9CBFA9CE) /* PCAPRecordedObjectIID */;

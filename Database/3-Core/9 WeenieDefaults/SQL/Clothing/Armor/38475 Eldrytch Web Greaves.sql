@@ -50,22 +50,22 @@ VALUES (38475,   1, 'Eldrytch Web Greaves') /* Name */
      , (38475,  16, 'Eldrytch Web Greaves of Summoning Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38475,   1,   33554641) /* Setup */
-     , (38475,   3,  536870932) /* SoundTable */
-     , (38475,   8,  100690247) /* Icon */
-     , (38475,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38475,   1, 0x020000D1) /* Setup */
+     , (38475,   3, 0x20000014) /* SoundTable */
+     , (38475,   8, 0x06006947) /* Icon */
+     , (38475,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38475, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38475, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38475, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38475, 8000, 3428515426) /* PCAPRecordedObjectIID */;
+VALUES (38475, 8000, 0xCC5AFE62) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38475,  2113,      2)  /* PiercingBane7 */
-     , (38475,  4407,      2)  /* Impenetrability8 */
+     , (38475,  6123,      2)  /* SummoningMasterySelf8 */
      , (38475,  4662,      2)  /* CANTRIPBLUDGEONINGBANE3 */
-     , (38475,  6123,      2)  /* SummoningMasterySelf8 */;
+     , (38475,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38475, 0, 83886788, 83897946);

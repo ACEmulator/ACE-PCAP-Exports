@@ -19,11 +19,11 @@ VALUES (44725,   1, 'Burun') /* Name */
      , (44725,  16, 'Thousands of years ago, the Falatacot witches made visits to the world of Bur and influenced the direction of this world on a grand scale. They showed favor on a race called the Fiazhat, and the enemies of the Fiazhat -- the Burun -- were driven back and nearly rendered extinct. Over the long course of time, since the fall of the Falatacot civilization, the Burun have fought to reclaim their world. Their prophecies spoke of a time when the gates between worlds would open again, and they could take their vengeance upon the Fiazhat''s gods. In Portal Year 15, an Isparian adventurer named Rage Lao accidentally triggered an ancient Falatacot portal beacon, re-opening the gates between Auberean and Bur. The first to come through were the smaller Ruuk Burun. Soon followed the mighty Guruk, and then the leaders know as the Kukuur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44725,   1,   33561325) /* Setup */
-     , (44725,   8,  100668115) /* Icon */
+VALUES (44725,   1, 0x02001AED) /* Setup */
+     , (44725,   8, 0x060012D3) /* Icon */
      , (44725, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44725, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44725, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44725, 8000, 3706982208) /* PCAPRecordedObjectIID */;
+VALUES (44725, 8000, 0xDCF40F40) /* PCAPRecordedObjectIID */;

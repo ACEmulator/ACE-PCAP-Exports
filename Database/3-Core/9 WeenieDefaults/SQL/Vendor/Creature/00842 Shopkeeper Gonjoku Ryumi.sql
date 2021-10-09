@@ -36,27 +36,27 @@ VALUES (842,   1, 'Shopkeeper Gonjoku Ryumi') /* Name */
      , (842, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (842,   1,   33554433) /* Setup */
-     , (842,   2,  150994945) /* MotionTable */
-     , (842,   3,  536870913) /* SoundTable */
-     , (842,   6,   67108990) /* PaletteBase */
-     , (842,   8,  100667446) /* Icon */
-     , (842,   9,   83890453) /* EyesTexture */
-     , (842,  10,   83890519) /* NoseTexture */
-     , (842,  11,   83890628) /* MouthTexture */
-     , (842,  15,   67117070) /* HairPalette */
-     , (842,  16,   67110062) /* EyesPalette */
-     , (842,  17,   67110047) /* SkinPalette */
+VALUES (842,   1, 0x02000001) /* Setup */
+     , (842,   2, 0x09000001) /* MotionTable */
+     , (842,   3, 0x20000001) /* SoundTable */
+     , (842,   6, 0x0400007E) /* PaletteBase */
+     , (842,   8, 0x06001036) /* Icon */
+     , (842,   9, 0x05001115) /* EyesTexture */
+     , (842,  10, 0x05001157) /* NoseTexture */
+     , (842,  11, 0x050011C4) /* MouthTexture */
+     , (842,  15, 0x0400200E) /* HairPalette */
+     , (842,  16, 0x040004AE) /* EyesPalette */
+     , (842,  17, 0x0400049F) /* SkinPalette */
      , (842, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (842, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (842, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (842, 8040, 3663004059, 89.48, 57.6844, 20.045, -0.8870111, 0, 0, -0.4617482) /* PCAPRecordedLocation */
+VALUES (842, 8040, 0xDA55019B, 89.48, 57.6844, 20.045, -0.887011, 0, 0, -0.461748) /* PCAPRecordedLocation */
 /* @teleloc 0xDA55019B [89.480000 57.684400 20.045000] -0.887011 0.000000 0.000000 -0.461748 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (842, 8000, 2107985970) /* PCAPRecordedObjectIID */;
+VALUES (842, 8000, 0x7DA55032) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (842,   1,  45, 0, 0) /* Strength */
@@ -116,85 +116,7 @@ VALUES (842, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (842, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (842, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (842, 4,  7824, -1, 0, 0, False) /* Create Metal Press (7824) for Shop */
-     , (842, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
-     , (842, 4, 45422, -1, 0, 0, False) /* Create Acid Dagger (45422) for Shop */
-     , (842, 4, 31785, -1, 0, 0, False) /* Create Acid Claw (31785) for Shop */
-     , (842, 4, 41041, -1, 0, 0, False) /* Create Magari Yari (41041) for Shop */
-     , (842, 4, 25661, -1, 0, 0, False) /* Create Leather Boots (25661) for Shop */
-     , (842, 4, 45423, -1, 0, 0, False) /* Create Lightning Dagger (45423) for Shop */
-     , (842, 4, 28608, -1, 0, 0, False) /* Create Poet's Shirt (28608) for Shop */
-     , (842, 4, 40702, -1, 0, 0, False) /* Create Covenant Pauldrons (40702) for Shop */
-     , (842, 4, 21155, -1, 0, 0, False) /* Create Covenant Greaves (21155) for Shop */
-     , (842, 4,  3823, -1, 0, 0, False) /* Create Lightning Ken (3823) for Shop */
-     , (842, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass (53) for Shop */
-     , (842, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
-     , (842, 4, 31783, -1, 0, 0, False) /* Create Frost Claw (31783) for Shop */
-     , (842, 4, 37196, -1, 0, 0, False) /* Create Olthoi Amuli Helm (37196) for Shop */
-     , (842, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
-     , (842, 4, 45112, -1, 0, 0, False) /* Create Shadow Blade of Frost (45112) for Shop */
-     , (842, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
-     , (842, 4, 31864, -1, 0, 0, False) /* Create Teardrop Crown (31864) for Shop */
-     , (842, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
-     , (842, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
-     , (842, 4, 31764, -1, 0, 0, False) /* Create Lugian Hammer (31764) for Shop */
-     , (842, 4, 28610, -1, 0, 0, False) /* Create Loafers (28610) for Shop */
-     , (842, 4, 25643, -1, 0, 0, False) /* Create Leather Girth (25643) for Shop */
-     , (842, 4, 31803, -1, 0, 0, False) /* Create Frost Compound Bow (31803) for Shop */
-     , (842, 4,  3842, -1, 0, 0, False) /* Create Acid Ono (3842) for Shop */
-     , (842, 4, 22156, -1, 0, 0, False) /* Create Flaming Jo (22156) for Shop */
-     , (842, 4, 31786, -1, 0, 0, False) /* Create Lightning Claw (31786) for Shop */
-     , (842, 4,   325, -1, 0, 0, False) /* Create Kasrullah (325) for Shop */
-     , (842, 4, 21158, -1, 0, 0, False) /* Create Covenant Shield (21158) for Shop */
-     , (842, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
-     , (842, 4, 30593, -1, 0, 0, False) /* Create Lightning Partizan (30593) for Shop */
-     , (842, 4, 44802, -1, 0, 0, False) /* Create Vestiri Over-robe (44802) for Shop */
-     , (842, 4, 43831, -1, 0, 0, False) /* Create Sedgemail Leather Pants (43831) for Shop */
-     , (842, 4, 28629, -1, 0, 0, False) /* Create Alduressa Coat (28629) for Shop */
-     , (842, 4,  6043, -1, 0, 0, False) /* Create Celdon Girth (6043) for Shop */
-     , (842, 4,  6004, -1, 0, 0, False) /* Create Koujia Leggings (6004) for Shop */
-     , (842, 4,  6045, -1, 0, 0, False) /* Create Celdon Leggings (6045) for Shop */
-     , (842, 4, 49334, -1, 0, 0, False) /* Create Frost Wisp Essence (125) (49334) for Shop */
-     , (842, 4,   148, -1, 0, 0, False) /* Create Cup (148) for Shop */
-     , (842, 4,   141, -1, 0, 0, False) /* Create Bowl (141) for Shop */
-     , (842, 4,  2590, -1, 0, 0, False) /* Create Baggy Shirt (2590) for Shop */
-     , (842, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
-     , (842, 4,  2587, -1, 0, 0, False) /* Create Shirt (2587) for Shop */
-     , (842, 4,    84, -1, 0, 0, False) /* Create Studded  Leggings (84) for Shop */
-     , (842, 4, 45434, -1, 0, 0, False) /* Create Flaming Khanjar (45434) for Shop */
-     , (842, 4,   243, -1, 0, 0, False) /* Create Dinner Plate (243) for Shop */
-     , (842, 4,    48, -1, 0, 0, False) /* Create Studded Leather Coat (48) for Shop */
-     , (842, 4,   154, -1, 0, 0, False) /* Create Goblet (154) for Shop */
-     , (842, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
-     , (842, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
-     , (842, 4, 45416, -1, 0, 0, False) /* Create Knife (45416) for Shop */
-     , (842, 4, 44976, -1, 0, 0, False) /* Create Hood (44976) for Shop */
-     , (842, 4, 44840, -1, 0, 0, False) /* Create Cloak (44840) for Shop */
-     , (842, 4, 31787, -1, 0, 0, False) /* Create Flaming Claw (31787) for Shop */
-     , (842, 4, 25638, -1, 0, 0, False) /* Create Leather Vest (25638) for Shop */
-     , (842, 4, 30611, -1, 0, 0, False) /* Create Knuckles (30611) for Shop */
-     , (842, 4,  3940, -1, 0, 0, False) /* Create Lightning Morning Star (3940) for Shop */
-     , (842, 4,  2603, -1, 0, 0, False) /* Create Baggy Breeches (2603) for Shop */
-     , (842, 4, 45432, -1, 0, 0, False) /* Create Acid Khanjar (45432) for Shop */
-     , (842, 4, 37190, -1, 0, 0, False) /* Create Olthoi Koujia Gauntlets (37190) for Shop */
-     , (842, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
-     , (842, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */
-     , (842, 4, 41068, -1, 0, 0, False) /* Create Acid Shashqa (41068) for Shop */
-     , (842, 4, 49439, -1, 0, 0, False) /* Create Fire Spectre Essence (150) (49439) for Shop */
-     , (842, 4, 29241, -1, 0, 0, False) /* Create Fire Bow (29241) for Shop */
-     , (842, 4,  6044, -1, 0, 0, False) /* Create Celdon Breastplate (6044) for Shop */
-     , (842, 4, 27227, -1, 0, 0, False) /* Create Nariyid Breastplate (27227) for Shop */
-     , (842, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
-     , (842, 4, 48963, -1, 0, 0, False) /* Create Fire Elemental Essence (100) (48963) for Shop */
-     , (842, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
-     , (842, 4, 45120, -1, 0, 0, False) /* Create Lightning Hand Wraps (45120) for Shop */
-     , (842, 4, 31868, -1, 0, 0, False) /* Create Signet Crown (31868) for Shop */
-     , (842, 4,  3850, -1, 0, 0, False) /* Create Lightning Scimitar (3850) for Shop */
-     , (842, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
-     , (842, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
-     , (842, 4,   142, -1, 0, 0, False) /* Create Chalice (142) for Shop */
-     , (842, 4, 30950, -1, 0, 0, False) /* Create Alduressa Boots (30950) for Shop */
-     , (842, 4, 40701, -1, 0, 0, False) /* Create Covenant Helm (40701) for Shop */
-     , (842, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */;
+     , (842, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (842, 67109969, 92, 4)

@@ -24,13 +24,13 @@ VALUES (1770,   1, 'Scroll of Coordination Self') /* Name */
 Increases the caster''s Coordination by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1770,   1,   33554826) /* Setup */
-     , (1770,   8,  100676452) /* Icon */
-     , (1770,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1770,   1, 0x0200018A) /* Setup */
+     , (1770,   8, 0x06003364) /* Icon */
+     , (1770,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1770,  28,       1373) /* Spell - CoordinationSelf1 */
      , (1770, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1770, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1770, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1770, 8000, 2629584144) /* PCAPRecordedObjectIID */;
+VALUES (1770, 8000, 0x9CBC4510) /* PCAPRecordedObjectIID */;

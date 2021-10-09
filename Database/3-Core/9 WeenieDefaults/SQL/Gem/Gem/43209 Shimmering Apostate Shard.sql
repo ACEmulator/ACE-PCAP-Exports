@@ -19,11 +19,11 @@ VALUES (43209,   1,       2048) /* ItemType - Gem */
      , (43209,  98, 1485672877) /* CreationTimestamp */
      , (43209, 114,          1) /* Attuned - Attuned */
      , (43209, 267,       3600) /* Lifespan */
-     , (43209, 268,       3578) /* RemainingLifespan */
      , (43209, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43209,  22, True ) /* Inscribable */;
+VALUES (43209,  22, True ) /* Inscribable */
+     , (43209,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43209, 167,      10) /* CooldownDuration */;
@@ -34,18 +34,18 @@ VALUES (43209,   1, 'Shimmering Apostate Shard') /* Name */
      , (43209,  16, 'A shard of congealed energy, attuned to one of the Apostate Nexi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43209,   1,   33554809) /* Setup */
-     , (43209,   3,  536870932) /* SoundTable */
-     , (43209,   6,   67111919) /* PaletteBase */
-     , (43209,   8,  100691482) /* Icon */
-     , (43209,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43209,   1, 0x02000179) /* Setup */
+     , (43209,   3, 0x20000014) /* SoundTable */
+     , (43209,   6, 0x04000BEF) /* PaletteBase */
+     , (43209,   8, 0x06006E1A) /* Icon */
+     , (43209,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43209, 8001,     553104) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (43209, 8002,          4) /* PCAPRecordedWeenieHeader2 - CooldownDuration */
      , (43209, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (43209, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43209, 8000, 3707036733) /* PCAPRecordedObjectIID */;
+VALUES (43209, 8000, 0xDCF4E43D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43209, 67111922, 0, 0);

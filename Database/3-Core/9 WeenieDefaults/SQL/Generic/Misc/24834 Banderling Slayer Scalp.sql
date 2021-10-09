@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24834,   1, 'Banderling Slayer Scalp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24834,   1,   33554817) /* Setup */
-     , (24834,   3,  536870932) /* SoundTable */
-     , (24834,   6,   67111919) /* PaletteBase */
-     , (24834,   8,  100674478) /* Icon */
-     , (24834,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24834,   1, 0x02000181) /* Setup */
+     , (24834,   3, 0x20000014) /* SoundTable */
+     , (24834,   6, 0x04000BEF) /* PaletteBase */
+     , (24834,   8, 0x06002BAE) /* Icon */
+     , (24834,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24834, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (24834, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24834, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24834, 8000, 2192761492) /* PCAPRecordedObjectIID */;
+VALUES (24834, 8000, 0x82B2E294) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24834, 67111920, 0, 0);

@@ -22,21 +22,21 @@ VALUES (51831,   1, 'Pillar of Frost') /* Name */
      , (51831, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51831,   1,   33560372) /* Setup */
-     , (51831,   2,  150995290) /* MotionTable */
-     , (51831,   3,  536871001) /* SoundTable */
-     , (51831,   8,  100672514) /* Icon */
-     , (51831,  22,  872415389) /* PhysicsEffectTable */
+VALUES (51831,   1, 0x02001734) /* Setup */
+     , (51831,   2, 0x0900015A) /* MotionTable */
+     , (51831,   3, 0x20000059) /* SoundTable */
+     , (51831,   8, 0x06002402) /* Icon */
+     , (51831,  22, 0x3400009D) /* PhysicsEffectTable */
      , (51831, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51831, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (51831, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51831, 8040, 1484259957, 121.2213, -20.47102, -18.00334, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (51831, 8040, 0x58780275, 121.2213, -20.47102, -18.00334, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x58780275 [121.221300 -20.471020 -18.003340] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51831, 8000, 3632946528) /* PCAPRecordedObjectIID */;
+VALUES (51831, 8000, 0xD88A5D60) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (51831,   1,  90, 0, 0) /* Strength */

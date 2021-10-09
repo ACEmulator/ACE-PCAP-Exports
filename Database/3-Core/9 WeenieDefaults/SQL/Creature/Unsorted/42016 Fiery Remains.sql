@@ -11,30 +11,6 @@ VALUES (42016,   1,         16) /* ItemType - Creature */
      , (42016,  93,    4195348) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, EdgeSlide */
      , (42016,  95,          8) /* RadarBlipColor - Yellow */
      , (42016, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (42016, 307,          0) /* DamageRating */
-     , (42016, 308,          0) /* DamageResistRating */
-     , (42016, 313,          0) /* CritRating */
-     , (42016, 314,          0) /* CritDamageRating */
-     , (42016, 315,          0) /* CritResistRating */
-     , (42016, 316,          0) /* CritDamageResistRating */
-     , (42016, 370,          0) /* GearDamage */
-     , (42016, 371,          0) /* GearDamageResist */
-     , (42016, 372,          0) /* GearCrit */
-     , (42016, 373,          0) /* GearCritResist */
-     , (42016, 374,          0) /* GearCritDamage */
-     , (42016, 375,          0) /* GearCritDamageResist */
-     , (42016, 376,          0) /* GearHealingBoost */
-     , (42016, 377,          0) /* GearNetherResist */
-     , (42016, 378,          0) /* GearLifeResist */
-     , (42016, 379,          0) /* GearMaxHealth */
-     , (42016, 381,          0) /* PKDamageRating */
-     , (42016, 382,          0) /* PKDamageResistRating */
-     , (42016, 383,          0) /* GearPKDamageRating */
-     , (42016, 384,          0) /* GearPKDamageResistRating */
-     , (42016, 386,          0) /* Overpower */
-     , (42016, 387,          0) /* OverpowerResist */
-     , (42016, 388,          0) /* GearOverpower */
-     , (42016, 389,          0) /* GearOverpowerResist */
      , (42016, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -50,18 +26,18 @@ VALUES (42016,   1, 'Fiery Remains') /* Name */
      , (42016, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42016,   1,   33556637) /* Setup */
-     , (42016,   2,  150995355) /* MotionTable */
-     , (42016,   3,  536870913) /* SoundTable */
-     , (42016,   8,  100667494) /* Icon */
-     , (42016,  22,  872415363) /* PhysicsEffectTable */
+VALUES (42016,   1, 0x0200089D) /* Setup */
+     , (42016,   2, 0x0900019B) /* MotionTable */
+     , (42016,   3, 0x20000001) /* SoundTable */
+     , (42016,   8, 0x06001066) /* Icon */
+     , (42016,  22, 0x34000083) /* PhysicsEffectTable */
      , (42016, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (42016, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (42016, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42016, 8040, 2349008868, 207.8534, -210.5634, 24.006, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42016, 8040, 0x8C0307E4, 207.8534, -210.5634, 24.006, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8C0307E4 [207.853400 -210.563400 24.006000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42016, 8000, 2629423661) /* PCAPRecordedObjectIID */;
+VALUES (42016, 8000, 0x9CB9D22D) /* PCAPRecordedObjectIID */;

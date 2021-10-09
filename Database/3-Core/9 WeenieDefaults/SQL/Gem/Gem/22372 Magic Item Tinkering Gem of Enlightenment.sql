@@ -17,16 +17,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22372,   1, 'Magic Item Tinkering Gem of Enlightenment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22372,   1,   33558088) /* Setup */
-     , (22372,   6,   67111919) /* PaletteBase */
-     , (22372,   8,  100673788) /* Icon */
-     , (22372,  50,  100673776) /* IconOverlay */
+VALUES (22372,   1, 0x02000E48) /* Setup */
+     , (22372,   6, 0x04000BEF) /* PaletteBase */
+     , (22372,   8, 0x060028FC) /* Icon */
+     , (22372,  50, 0x060028F0) /* IconOverlay */
      , (22372, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (22372, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22372, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22372, 8000, 3635107092) /* PCAPRecordedObjectIID */;
+VALUES (22372, 8000, 0xD8AB5514) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22372, 67111923, 0, 0);

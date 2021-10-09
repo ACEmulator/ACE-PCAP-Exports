@@ -48,13 +48,13 @@ VALUES (21434,   1, 'Iasparailaun') /* Name */
      , (21434,  15, 'A sword crafted by Gaerlan using techniques stolen from the Arcanum.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21434,   1,   33557926) /* Setup */
-     , (21434,   3,  536870932) /* SoundTable */
-     , (21434,   8,  100673479) /* Icon */
-     , (21434,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21434,   1, 0x02000DA6) /* Setup */
+     , (21434,   3, 0x20000014) /* SoundTable */
+     , (21434,   8, 0x060027C7) /* Icon */
+     , (21434,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21434, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (21434, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21434, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21434, 8000, 2192079973) /* PCAPRecordedObjectIID */;
+VALUES (21434, 8000, 0x82A87C65) /* PCAPRecordedObjectIID */;

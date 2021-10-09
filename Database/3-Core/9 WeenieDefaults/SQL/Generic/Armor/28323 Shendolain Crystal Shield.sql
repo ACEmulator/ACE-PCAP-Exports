@@ -45,24 +45,24 @@ VALUES (28323,   1, 'Shendolain Crystal Shield') /* Name */
      , (28323,  15, 'A shield imbued with the power of the Shendolain Crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28323,   1,   33554786) /* Setup */
-     , (28323,   3,  536870932) /* SoundTable */
-     , (28323,   6,   67111919) /* PaletteBase */
-     , (28323,   8,  100670978) /* Icon */
-     , (28323,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28323,   1, 0x02000162) /* Setup */
+     , (28323,   3, 0x20000014) /* SoundTable */
+     , (28323,   6, 0x04000BEF) /* PaletteBase */
+     , (28323,   8, 0x06001E02) /* Icon */
+     , (28323,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28323, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (28323, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28323, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28323, 8000, 2982964610) /* PCAPRecordedObjectIID */;
+VALUES (28323, 8000, 0xB1CC6D82) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28323,   248,      2)  /* InvulnerabilitySelf5 */
-     , (28323,   260,      2)  /* ImpregnabilitySelf5 */
+VALUES (28323,   260,      2)  /* ImpregnabilitySelf5 */
      , (28323,  1485,      2)  /* Impenetrability5 */
      , (28323,  2005,      2)  /* WarriorsGreaterVitality */
-     , (28323,  2009,      2)  /* WarriorsGreaterVigor */;
+     , (28323,  2009,      2)  /* WarriorsGreaterVigor */
+     , (28323,   248,      2)  /* InvulnerabilitySelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28323, 67111923, 0, 0);

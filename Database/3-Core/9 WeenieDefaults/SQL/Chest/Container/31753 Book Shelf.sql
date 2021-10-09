@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31753,   1, 'Book Shelf') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31753,   1,   33554819) /* Setup */
-     , (31753,   3,  536870932) /* SoundTable */
-     , (31753,   8,  100668246) /* Icon */
-     , (31753,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31753,   1, 0x02000183) /* Setup */
+     , (31753,   3, 0x20000014) /* SoundTable */
+     , (31753,   8, 0x06001356) /* Icon */
+     , (31753,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31753, 8001,    2097202) /* PCAPRecordedWeenieHeader - ItemsCapacity, Usable, UseRadius, Burden */
      , (31753, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (31753, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31753, 8040, 1253376256, 104.428, 14.2789, 240.067, -0.7144, 0, 0, -0.699738) /* PCAPRecordedLocation */
+VALUES (31753, 8040, 0x4AB50100, 104.428, 14.2789, 240.067, -0.7144, 0, 0, -0.699738) /* PCAPRecordedLocation */
 /* @teleloc 0x4AB50100 [104.428000 14.278900 240.067000] -0.714400 0.000000 0.000000 -0.699738 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31753, 8000, 1957384192) /* PCAPRecordedObjectIID */;
+VALUES (31753, 8000, 0x74AB5000) /* PCAPRecordedObjectIID */;

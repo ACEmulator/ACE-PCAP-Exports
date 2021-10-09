@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42724,   1, 'Armor Layering Tool (Top)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42724,   1,   33555677) /* Setup */
-     , (42724,   3,  536870932) /* SoundTable */
-     , (42724,   8,  100691006) /* Icon */
-     , (42724,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42724,   1, 0x020004DD) /* Setup */
+     , (42724,   3, 0x20000014) /* SoundTable */
+     , (42724,   8, 0x06006C3E) /* Icon */
+     , (42724,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42724, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (42724, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (42724, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42724, 8000, 3443531062) /* PCAPRecordedObjectIID */;
+VALUES (42724, 8000, 0xCD401D36) /* PCAPRecordedObjectIID */;

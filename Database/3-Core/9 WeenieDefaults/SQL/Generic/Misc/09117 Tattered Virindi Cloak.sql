@@ -14,7 +14,8 @@ VALUES (9117,   1,        128) /* ItemType - Misc */
      , (9117, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9117,  22, True ) /* Inscribable */;
+VALUES (9117,  22, True ) /* Inscribable */
+     , (9117,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9117,  39,    0.75) /* DefaultScale */;
@@ -26,17 +27,17 @@ VALUES (9117,   1, 'Tattered Virindi Cloak') /* Name */
      , (9117,  15, 'Remember, no Virindi is immune to destruction.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9117,   1,   33554817) /* Setup */
-     , (9117,   3,  536870932) /* SoundTable */
-     , (9117,   6,   67111919) /* PaletteBase */
-     , (9117,   8,  100671380) /* Icon */
-     , (9117,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9117,   1, 0x02000181) /* Setup */
+     , (9117,   3, 0x20000014) /* SoundTable */
+     , (9117,   6, 0x04000BEF) /* PaletteBase */
+     , (9117,   8, 0x06001F94) /* Icon */
+     , (9117,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9117, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (9117, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9117, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9117, 8000, 3261434735) /* PCAPRecordedObjectIID */;
+VALUES (9117, 8000, 0xC2658B6F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9117, 67111921, 0, 0);

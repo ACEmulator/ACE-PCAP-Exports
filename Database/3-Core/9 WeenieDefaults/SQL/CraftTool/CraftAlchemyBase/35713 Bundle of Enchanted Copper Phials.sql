@@ -23,17 +23,17 @@ VALUES (35713,   1, 'Bundle of Enchanted Copper Phials') /* Name */
      , (35713,  20, 'Bundles of Enchanted Copper Phials') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35713,   1,   33560312) /* Setup */
-     , (35713,   3,  536870932) /* SoundTable */
-     , (35713,   6,   67111919) /* PaletteBase */
-     , (35713,   8,  100689524) /* Icon */
-     , (35713,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35713,   1, 0x020016F8) /* Setup */
+     , (35713,   3, 0x20000014) /* SoundTable */
+     , (35713,   6, 0x04000BEF) /* PaletteBase */
+     , (35713,   8, 0x06006674) /* Icon */
+     , (35713,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35713, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (35713, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35713, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35713, 8000, 3697839671) /* PCAPRecordedObjectIID */;
+VALUES (35713, 8000, 0xDC688E37) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35713, 67111918, 0, 0);

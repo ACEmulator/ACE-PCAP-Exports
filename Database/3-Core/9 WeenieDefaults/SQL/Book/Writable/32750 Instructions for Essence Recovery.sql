@@ -21,22 +21,22 @@ VALUES (32750,   1, 'Instructions for Essence Recovery') /* Name */
      , (32750,  16, 'Instructions on procuring samples from the four Essences.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32750,   1,   33554773) /* Setup */
-     , (32750,   3,  536870932) /* SoundTable */
-     , (32750,   8,  100668176) /* Icon */
-     , (32750,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32750,   1, 0x02000155) /* Setup */
+     , (32750,   3, 0x20000014) /* SoundTable */
+     , (32750,   8, 0x06001310) /* Icon */
+     , (32750,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32750, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (32750, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (32750, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32750, 8000, 2149416415) /* PCAPRecordedObjectIID */;
+VALUES (32750, 8000, 0x801D7DDF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (32750, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (32750, 0, 4294967295, 'Ciandra, Arcanum Alchemist', 'Password is cheese', False, 'Instructions:
+VALUES (32750, 0, 4294967295, 'Ciandra, Arcanum Alchemist', 'prewritten', False, 'Instructions:
 Travel to the Arcanum Research Facility outside of Al-Jalima and collect four Enchanted Decanters.
 
 Important Note: Do not use the Nullified Essence potion that Ciandra gives you if you wish to fight the Essences. The Essence Chamber is inaccessible once the Harbinger''s link to them is broken by the Nullification Barrier the potion creates.

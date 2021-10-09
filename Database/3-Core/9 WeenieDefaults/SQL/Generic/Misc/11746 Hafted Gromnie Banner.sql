@@ -17,16 +17,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11746,   1, 'Hafted Gromnie Banner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11746,   1,   33557241) /* Setup */
-     , (11746,   3,  536870932) /* SoundTable */
-     , (11746,   8,  100671901) /* Icon */
-     , (11746,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11746,   1, 0x02000AF9) /* Setup */
+     , (11746,   3, 0x20000014) /* SoundTable */
+     , (11746,   8, 0x0600219D) /* Icon */
+     , (11746,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11746, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (11746, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11746, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11746, 8000, 3621497380) /* PCAPRecordedObjectIID */;
+VALUES (11746, 8000, 0xD7DBAA24) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11746, 0, 83893727, 83893727)

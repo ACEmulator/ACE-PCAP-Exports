@@ -47,13 +47,13 @@ VALUES (3860,   1, 'Frost Shou-ono') /* Name */
      , (3860,  16, 'Frost Shou-ono') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3860,   1,   33555705) /* Setup */
-     , (3860,   3,  536870932) /* SoundTable */
-     , (3860,   8,  100670225) /* Icon */
-     , (3860,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3860,   1, 0x020004F9) /* Setup */
+     , (3860,   3, 0x20000014) /* SoundTable */
+     , (3860,   8, 0x06001B11) /* Icon */
+     , (3860,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3860, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3860, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3860, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3860, 8000, 3682776968) /* PCAPRecordedObjectIID */;
+VALUES (3860, 8000, 0xDB82B788) /* PCAPRecordedObjectIID */;

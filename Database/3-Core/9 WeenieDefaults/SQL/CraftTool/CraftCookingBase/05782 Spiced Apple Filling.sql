@@ -26,13 +26,13 @@ VALUES (5782,   1, 'Spiced Apple Filling') /* Name */
      , (5782,  20, 'Batches of Spiced Apple Filling') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5782,   1,   33555968) /* Setup */
-     , (5782,   3,  536870932) /* SoundTable */
-     , (5782,   8,  100670297) /* Icon */
-     , (5782,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5782,   1, 0x02000600) /* Setup */
+     , (5782,   3, 0x20000014) /* SoundTable */
+     , (5782,   8, 0x06001B59) /* Icon */
+     , (5782,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5782, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (5782, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5782, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5782, 8000, 3709814504) /* PCAPRecordedObjectIID */;
+VALUES (5782, 8000, 0xDD1F46E8) /* PCAPRecordedObjectIID */;

@@ -19,15 +19,15 @@ VALUES (34082,   1, 'Seed of Hope') /* Name */
      , (34082,  16, 'A small pumpkin seed. This one appears to have been untouched by the Pumpkin Lord''s anger and hatred. It looks as if it might sprout right in your hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34082,   1,   33556678) /* Setup */
-     , (34082,   3,  536870932) /* SoundTable */
-     , (34082,   8,  100689228) /* Icon */
-     , (34082,  22,  872415275) /* PhysicsEffectTable */
-     , (34082,  52,  100667856) /* IconUnderlay */
+VALUES (34082,   1, 0x020008C6) /* Setup */
+     , (34082,   3, 0x20000014) /* SoundTable */
+     , (34082,   8, 0x0600654C) /* Icon */
+     , (34082,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (34082,  52, 0x060011D0) /* IconUnderlay */
      , (34082, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (34082, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (34082, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (34082, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34082, 8000, 2175201616) /* PCAPRecordedObjectIID */;
+VALUES (34082, 8000, 0x81A6F150) /* PCAPRecordedObjectIID */;

@@ -19,7 +19,8 @@ VALUES (14882,   1,       2048) /* ItemType - Gem */
      , (14882, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14882,  22, True ) /* Inscribable */;
+VALUES (14882,  22, True ) /* Inscribable */
+     , (14882,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14882,  39,     0.8) /* DefaultScale */;
@@ -30,17 +31,17 @@ VALUES (14882,   1, 'Ring of a Singularity Key') /* Name */
      , (14882,  16, 'The upper half of a green singularity key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14882,   1,   33557000) /* Setup */
-     , (14882,   3,  536870932) /* SoundTable */
-     , (14882,   6,   67111346) /* PaletteBase */
-     , (14882,   8,  100672606) /* Icon */
-     , (14882,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14882,   1, 0x02000A08) /* Setup */
+     , (14882,   3, 0x20000014) /* SoundTable */
+     , (14882,   6, 0x040009B2) /* PaletteBase */
+     , (14882,   8, 0x0600245E) /* Icon */
+     , (14882,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14882, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (14882, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14882, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14882, 8000, 3621813120) /* PCAPRecordedObjectIID */;
+VALUES (14882, 8000, 0xD7E07B80) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14882, 67113796, 0, 0);

@@ -19,7 +19,8 @@ VALUES (8365,   1,       2048) /* ItemType - Gem */
      , (8365, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8365,  22, True ) /* Inscribable */;
+VALUES (8365,  22, True ) /* Inscribable */
+     , (8365,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8365,   1, 'Banderling Mace Shaft') /* Name */
@@ -27,21 +28,21 @@ VALUES (8365,   1, 'Banderling Mace Shaft') /* Name */
      , (8365,  16, 'A long and heavy shaft with strange markings on the side.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8365,   1,   33554731) /* Setup */
-     , (8365,   3,  536870932) /* SoundTable */
-     , (8365,   6,   67111919) /* PaletteBase */
-     , (8365,   8,  100671136) /* Icon */
-     , (8365,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8365,   1, 0x0200012B) /* Setup */
+     , (8365,   3, 0x20000014) /* SoundTable */
+     , (8365,   6, 0x04000BEF) /* PaletteBase */
+     , (8365,   8, 0x06001EA0) /* Icon */
+     , (8365,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8365, 8001,    2633752) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, TargetType, Burden */
      , (8365, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8365, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8365, 8040, 46661912, 21.976, -222.624, -5.9125, 0.9751679, 0, 0, 0.221467) /* PCAPRecordedLocation */
+VALUES (8365, 8040, 0x02C80118, 21.976, -222.624, -5.9125, 0.975168, 0, 0, 0.221467) /* PCAPRecordedLocation */
 /* @teleloc 0x02C80118 [21.976000 -222.624000 -5.912500] 0.975168 0.000000 0.000000 0.221467 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8365, 8000, 2617962520) /* PCAPRecordedObjectIID */;
+VALUES (8365, 8000, 0x9C0AF018) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8365, 67111921, 0, 0);

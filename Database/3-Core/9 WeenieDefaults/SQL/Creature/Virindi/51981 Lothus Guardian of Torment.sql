@@ -22,22 +22,22 @@ VALUES (51981,   1, 'Lothus Guardian of Torment') /* Name */
      , (51981, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51981,   1,   33561226) /* Setup */
-     , (51981,   2,  150994984) /* MotionTable */
-     , (51981,   3,  536870930) /* SoundTable */
-     , (51981,   6,   67111346) /* PaletteBase */
-     , (51981,   8,  100667943) /* Icon */
-     , (51981,  22,  872415273) /* PhysicsEffectTable */
+VALUES (51981,   1, 0x02001A8A) /* Setup */
+     , (51981,   2, 0x09000028) /* MotionTable */
+     , (51981,   3, 0x20000012) /* SoundTable */
+     , (51981,   6, 0x040009B2) /* PaletteBase */
+     , (51981,   8, 0x06001227) /* Icon */
+     , (51981,  22, 0x34000029) /* PhysicsEffectTable */
      , (51981, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51981, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (51981, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51981, 8040, 1498677569, 32.5474, -103.7549, -41.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51981, 8040, 0x59540141, 32.5474, -103.7549, -41.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59540141 [32.547400 -103.754900 -41.971000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51981, 8000, 3707623511) /* PCAPRecordedObjectIID */;
+VALUES (51981, 8000, 0xDCFDD857) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (51981,   1,     0, 0, 0, 20000) /* MaxHealth */;

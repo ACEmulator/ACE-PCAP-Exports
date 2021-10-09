@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45849,   1, 'Contract for Splitting Grael (Mid)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45849,   1,   33557625) /* Setup */
-     , (45849,   3,  536870932) /* SoundTable */
-     , (45849,   8,  100691932) /* Icon */
-     , (45849,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45849,   1, 0x02000C79) /* Setup */
+     , (45849,   3, 0x20000014) /* SoundTable */
+     , (45849,   8, 0x06006FDC) /* Icon */
+     , (45849,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45849, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (45849, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (45849, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (45849,   1,   33557625) /* Setup */
      , (45849, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45849, 8000,      45849) /* PCAPRecordedObjectIID */;
+VALUES (45849, 8000, 0x0000B319) /* PCAPRecordedObjectIID */;

@@ -19,18 +19,18 @@ VALUES (808,   1, 'Bowyer Tentou') /* Name */
      , (808,  16, 'Bowyer Tentou') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (808,   1,   33555088) /* Setup */
-     , (808,   8,  100668115) /* Icon */
+VALUES (808,   1, 0x02000290) /* Setup */
+     , (808,   8, 0x060012D3) /* Icon */
      , (808, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (808, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (808, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (808, 8040, 3845259322, 177.84, 36.24, 28.08, -0.986429, 0, 0, -0.164188) /* PCAPRecordedLocation */
+VALUES (808, 8040, 0xE532003A, 177.84, 36.24, 28.08, -0.986429, 0, 0, -0.164188) /* PCAPRecordedLocation */
 /* @teleloc 0xE532003A [177.840000 36.240000 28.080000] -0.986429 0.000000 0.000000 -0.164188 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (808, 8000, 2119376912) /* PCAPRecordedObjectIID */;
+VALUES (808, 8000, 0x7E532010) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (808, 0, 83891055, 83889907);

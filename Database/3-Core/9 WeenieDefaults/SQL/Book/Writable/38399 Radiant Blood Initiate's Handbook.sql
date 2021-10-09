@@ -17,17 +17,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38399,   1, 'Radiant Blood Initiate''s Handbook') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38399,   1,   33554771) /* Setup */
-     , (38399,   3,  536870932) /* SoundTable */
-     , (38399,   8,  100668117) /* Icon */
-     , (38399,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38399,   1, 0x02000153) /* Setup */
+     , (38399,   3, 0x20000014) /* SoundTable */
+     , (38399,   8, 0x060012D5) /* Icon */
+     , (38399,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38399, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (38399, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (38399, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38399, 8040, 23855554, 63.51319, -32.07479, 0.0684, 0.8799793, 0, 0, -0.475012) /* PCAPRecordedLocation */
+VALUES (38399, 8040, 0x016C01C2, 63.51319, -32.07479, 0.0684, 0.879979, 0, 0, -0.475012) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [63.513190 -32.074790 0.068400] 0.879979 0.000000 0.000000 -0.475012 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38399, 8000, 3671001634) /* PCAPRecordedObjectIID */;
+VALUES (38399, 8000, 0xDACF0A22) /* PCAPRecordedObjectIID */;

@@ -29,35 +29,35 @@ VALUES (29922,   1, 'Pack Ancient Olthoi Queen') /* Name */
      , (29922,  16, 'The Ancient Olthoi Queen, brood mistress of all Olthoi on Auberean') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29922,   1,   33559086) /* Setup */
-     , (29922,   3,  536870932) /* SoundTable */
-     , (29922,   6,   67113288) /* PaletteBase */
-     , (29922,   8,  100667623) /* Icon */
-     , (29922,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29922,   1, 0x0200122E) /* Setup */
+     , (29922,   3, 0x20000014) /* SoundTable */
+     , (29922,   6, 0x04001148) /* PaletteBase */
+     , (29922,   8, 0x060010E7) /* Icon */
+     , (29922,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29922, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
      , (29922, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (29922, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29922, 8000, 2186220427) /* PCAPRecordedObjectIID */;
+VALUES (29922, 8000, 0x824F138B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29922, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29922, 0, 4294967295, 'The Council of Sages', 'Password is cheese', False, 'There are many Olthoi Queens on Auberean, but one Queen holds power over them all -- the Ancient Queen.
+VALUES (29922, 0, 4294967295, 'The Council of Sages', 'prewritten', False, 'There are many Olthoi Queens on Auberean, but one Queen holds power over them all -- the Ancient Queen.
 
 The Ancient Queen was the first Olthoi Queen brought to Auberean by the forces of the Yalain Empire. Asheron''s portal magic had allowed them to discover the Olthoi homeworld, and they sought to study the Olthoi further. When Asheron saw this Queen, he was alarmed to see that it was the same Olthoi that nearly killed him on a prior expedition. It bore the scar of Asheron''s magic on its breastplate.
 ')
-     , (29922, 1, 4294967295, 'The Council of Sages', 'Password is cheese', False, 'When Olthoi first began to overrun the Yalaini Archipelago, it was this Queen that seemed to control them psychicly. The surviving Empyrean fled to Dereth, and there was no sign of the Ancient Queen for thousands of years.
+     , (29922, 1, 4294967295, 'The Council of Sages', 'prewritten', False, 'When Olthoi first began to overrun the Yalaini Archipelago, it was this Queen that seemed to control them psychicly. The surviving Empyrean fled to Dereth, and there was no sign of the Ancient Queen for thousands of years.
 
 In Portal Year 14, she made her return. There appears to be a form of psychic link between the Queen and Asheron, and for hundreds of years she and her minions had been tunneling beneath the ocean, attempting to reach Asheron in Dereth and exact her revenge. 
 ')
-     , (29922, 2, 4294967295, 'The Council of Sages', 'Password is cheese', False, 'As Olthoi overran Dereth, Asheron found himself imprisoned in his tower. Some Olthoi appear to have the power to nullify most forms of magic, and these same creatures encamped in the tunnels beneath Asheron''s island. 
+     , (29922, 2, 4294967295, 'The Council of Sages', 'prewritten', False, 'As Olthoi overran Dereth, Asheron found himself imprisoned in his tower. Some Olthoi appear to have the power to nullify most forms of magic, and these same creatures encamped in the tunnels beneath Asheron''s island. 
 
 The Isparians fought against the Queen and her children, but it was not until the sorceress Nuhmudira enacted an ancient Falatacot ritual that they were able to defeat her. 
 ')
-     , (29922, 3, 4294967295, 'The Council of Sages', 'Password is cheese', False, 'Isparians used a Dericost poison to infect the food of the Olthoi, and Nuhmudira''s ritual allowed her to contact the mind of the Queen and direct the Isparian forces. 
+     , (29922, 3, 4294967295, 'The Council of Sages', 'prewritten', False, 'Isparians used a Dericost poison to infect the food of the Olthoi, and Nuhmudira''s ritual allowed her to contact the mind of the Queen and direct the Isparian forces. 
 
 After a long and bloody battle, the Queen retreated into her tunnels, collapsing them behind her. The Dericost have completed the destruction of these tunnels, but somewhere in Auberean the Ancient Queen plots her return. 
 

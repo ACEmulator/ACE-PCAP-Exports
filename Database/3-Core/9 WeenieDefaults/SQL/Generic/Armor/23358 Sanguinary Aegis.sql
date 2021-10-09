@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23358,   1,          2) /* ItemType - Armor */
      , (23358,   5,        600) /* EncumbranceVal */
      , (23358,   9,    2097152) /* ValidLocations - Shield */
-     , (23358,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (23358,  16,          1) /* ItemUseable - No */
      , (23358,  19,          0) /* Value */
      , (23358,  28,          0) /* ArmorLevel */
@@ -41,23 +40,23 @@ VALUES (23358,   1, 'Sanguinary Aegis') /* Name */
      , (23358,  25, 'Pugilatrix') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23358,   1,   33555834) /* Setup */
-     , (23358,   3,  536870932) /* SoundTable */
-     , (23358,   6,   67111919) /* PaletteBase */
-     , (23358,   8,  100669656) /* Icon */
-     , (23358,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23358,   1, 0x0200057A) /* Setup */
+     , (23358,   3, 0x20000014) /* SoundTable */
+     , (23358,   6, 0x04000BEF) /* PaletteBase */
+     , (23358,   8, 0x060018D8) /* Icon */
+     , (23358,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23358, 8001,  270762512) /* PCAPRecordedWeenieHeader - Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (23358, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23358, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
      , (23358, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23358, 8040, 459075, 68.75664, -62.83774, -0.07400001, 0.4129599, 0.6345888, -0.5543291, 0.3456592) /* PCAPRecordedLocation */
+VALUES (23358, 8040, 0x00070143, 68.75664, -62.83774, -0.074, 0.41296, 0.634589, -0.554329, 0.345659) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [68.756640 -62.837740 -0.074000] 0.412960 0.634589 -0.554329 0.345659 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23358, 8000, 3293636999) /* PCAPRecordedObjectIID */
-     , (23358, 8008, 1343257492) /* PCAPRecordedParentIID */;
+VALUES (23358, 8000, 0xC450E987) /* PCAPRecordedObjectIID */
+     , (23358, 8008, 0x50107B94) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23358, 67111922, 0, 0);

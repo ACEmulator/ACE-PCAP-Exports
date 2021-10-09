@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49567,   1, 'Contract for Ritual Disruption') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49567,   1,   33557625) /* Setup */
-     , (49567,   3,  536870932) /* SoundTable */
-     , (49567,   8,  100691928) /* Icon */
-     , (49567,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49567,   1, 0x02000C79) /* Setup */
+     , (49567,   3, 0x20000014) /* SoundTable */
+     , (49567,   8, 0x06006FD8) /* Icon */
+     , (49567,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49567, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (49567, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (49567, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (49567,   1,   33557625) /* Setup */
      , (49567, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49567, 8000,      49567) /* PCAPRecordedObjectIID */;
+VALUES (49567, 8000, 0x0000C19F) /* PCAPRecordedObjectIID */;

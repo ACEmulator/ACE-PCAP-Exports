@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42637,   1,       2048) /* ItemType - Gem */
      , (42637,   5,         50) /* EncumbranceVal */
      , (42637,   9,  536870912) /* ValidLocations - SigilTwo */
-     , (42637,  10,  536870912) /* CurrentWieldedLocation - SigilTwo */
      , (42637,  11,          1) /* MaxStackSize */
      , (42637,  12,          1) /* StackSize */
      , (42637,  13,         50) /* StackUnitEncumbrance */
@@ -36,19 +35,19 @@ VALUES (42637,   1, 'Aetheria') /* Name */
      , (42637,  16, 'This aetheria''s sigil now shows on the surface.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42637,   1,   33554809) /* Setup */
-     , (42637,   3,  536870932) /* SoundTable */
-     , (42637,   6,   67111919) /* PaletteBase */
-     , (42637,   8,  100690951) /* Icon */
-     , (42637,  22,  872415275) /* PhysicsEffectTable */
-     , (42637,  50,  100690997) /* IconOverlay */
+VALUES (42637,   1, 0x02000179) /* Setup */
+     , (42637,   3, 0x20000014) /* SoundTable */
+     , (42637,   6, 0x04000BEF) /* PaletteBase */
+     , (42637,   8, 0x06006C07) /* Icon */
+     , (42637,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42637,  50, 0x06006C35) /* IconOverlay */
      , (42637,  55,       5207) /* ProcSpell - AetheriaProcHealDebuff */
      , (42637, 8001, 1076080792) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, IconOverlay */
      , (42637, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42637, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42637, 8000, 3680242626) /* PCAPRecordedObjectIID */;
+VALUES (42637, 8000, 0xDB5C0BC2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42637, 67111921, 0, 0);

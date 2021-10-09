@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8525,   1,        256) /* ItemType - MissileWeapon */
      , (8525,   5,         15) /* EncumbranceVal */
      , (8525,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (8525,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (8525,  11,         60) /* MaxStackSize */
      , (8525,  12,          1) /* StackSize */
      , (8525,  13,         15) /* StackUnitEncumbrance */
@@ -20,7 +19,7 @@ VALUES (8525,   1,        256) /* ItemType - MissileWeapon */
      , (8525,  45,          2) /* DamageType - Pierce */
      , (8525,  48,         47) /* WeaponSkill - MissileWeapons */
      , (8525,  49,         20) /* WeaponTime */
-     , (8525,  51,          2) /* CombatUse - Missle */
+     , (8525,  51,          2) /* CombatUse - Missile */
      , (8525,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (8525, 151,          2) /* HookType - Wall */
      , (8525, 353,         10) /* WeaponType - Thrown */
@@ -42,19 +41,19 @@ VALUES (8525,   1, 'Asmolum''s Throwing Dagger') /* Name */
      , (8525,  16, 'An ancient throwing dagger of Dericostian design. This weapon appears to be totally unreactive to spellcraft.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8525,   1,   33554744) /* Setup */
-     , (8525,   3,  536870932) /* SoundTable */
-     , (8525,   8,  100668935) /* Icon */
-     , (8525,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8525,   1, 0x02000138) /* Setup */
+     , (8525,   3, 0x20000014) /* SoundTable */
+     , (8525,   8, 0x06001607) /* Icon */
+     , (8525,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8525, 8001,  270774936) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (8525, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8525, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
      , (8525, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8525, 8040, 3094282269, 0.2329054, 104.2131, 17.929, 0.4860243, 0.4860243, -0.5135956, -0.5135956) /* PCAPRecordedLocation */
+VALUES (8525, 8040, 0xB86F001D, 0.232905, 104.2131, 17.929, 0.486024, 0.486024, -0.513596, -0.513596) /* PCAPRecordedLocation */
 /* @teleloc 0xB86F001D [0.232905 104.213100 17.929000] 0.486024 0.486024 -0.513596 -0.513596 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8525, 8000, 3362809183) /* PCAPRecordedObjectIID */
-     , (8525, 8008, 1342377334) /* PCAPRecordedParentIID */;
+VALUES (8525, 8000, 0xC870655F) /* PCAPRecordedObjectIID */
+     , (8525, 8008, 0x50030D76) /* PCAPRecordedParentIID */;

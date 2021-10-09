@@ -28,18 +28,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44372,   1, 'Deadly Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44372,   1,   33554724) /* Setup */
-     , (44372,   3,  536870932) /* SoundTable */
-     , (44372,   6,   67111919) /* PaletteBase */
-     , (44372,   8,  100672667) /* Icon */
-     , (44372,  22,  872415275) /* PhysicsEffectTable */
-     , (44372,  50,  100689661) /* IconOverlay */
+VALUES (44372,   1, 0x02000124) /* Setup */
+     , (44372,   3, 0x20000014) /* SoundTable */
+     , (44372,   6, 0x04000BEF) /* PaletteBase */
+     , (44372,   8, 0x0600249B) /* Icon */
+     , (44372,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44372,  50, 0x060066FD) /* IconOverlay */
      , (44372, 8001, 1344369432) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (44372, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44372, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44372, 8000, 2153263249) /* PCAPRecordedObjectIID */;
+VALUES (44372, 8000, 0x80583091) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44372, 67111919, 0, 0);

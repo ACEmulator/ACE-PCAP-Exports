@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7061,   1, 'Composite Stave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7061,   1,   33556598) /* Setup */
-     , (7061,   3,  536870932) /* SoundTable */
-     , (7061,   6,   67112869) /* PaletteBase */
-     , (7061,   8,  100670676) /* Icon */
-     , (7061,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7061,   1, 0x02000876) /* Setup */
+     , (7061,   3, 0x20000014) /* SoundTable */
+     , (7061,   6, 0x04000FA5) /* PaletteBase */
+     , (7061,   8, 0x06001CD4) /* Icon */
+     , (7061,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7061, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7061, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7061, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7061, 8000, 2249707820) /* PCAPRecordedObjectIID */;
+VALUES (7061, 8000, 0x8617D12C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7061, 67112871, 0, 0);

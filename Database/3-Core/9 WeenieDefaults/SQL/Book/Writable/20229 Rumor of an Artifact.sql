@@ -21,22 +21,22 @@ VALUES (20229,   1, 'Rumor of an Artifact') /* Name */
      , (20229,  15, 'Rumor of an Empyrean Artifact') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20229,   1,   33554773) /* Setup */
-     , (20229,   3,  536870932) /* SoundTable */
-     , (20229,   8,  100672829) /* Icon */
-     , (20229,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20229,   1, 0x02000155) /* Setup */
+     , (20229,   3, 0x20000014) /* SoundTable */
+     , (20229,   8, 0x0600253D) /* Icon */
+     , (20229,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20229, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (20229, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (20229, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20229, 8000, 2448210569) /* PCAPRecordedObjectIID */;
+VALUES (20229, 8000, 0x91ECBA89) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (20229, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (20229, 0, 4294967295, 'Aluvian Rumor', 'Password is cheese', False, '
+VALUES (20229, 0, 4294967295, 'Aluvian Rumor', 'prewritten', False, '
 A friend of mine came across a man in a small cottage northwest of the West Lytelthorpe Outpost. He said his name is Slithe Tradittor and claims to be an Explorer for the Explorer Society. He expounded upon a tale of discovering an unusual locale which harbors a strange device. This device is apparently an artifact of Empyrean technology. This Explorer hungers to obtain this device and study it.
 
 ');

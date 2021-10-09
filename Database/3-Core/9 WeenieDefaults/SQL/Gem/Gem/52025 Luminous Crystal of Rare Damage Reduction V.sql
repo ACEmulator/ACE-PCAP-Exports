@@ -25,7 +25,8 @@ VALUES (52025,   1,       2048) /* ItemType - Gem */
      , (52025, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52025,  69, False) /* IsSellable */;
+VALUES (52025,  23, True ) /* DestroyOnSell */
+     , (52025,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52025,   1, 'Luminous Crystal of Rare Damage Reduction V') /* Name */
@@ -33,21 +34,21 @@ VALUES (52025,   1, 'Luminous Crystal of Rare Damage Reduction V') /* Name */
      , (52025,  20, 'Luminous Crystals of Rare Damage Reduction V') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52025,   1,   33554809) /* Setup */
-     , (52025,   3,  536870932) /* SoundTable */
-     , (52025,   6,   67111919) /* PaletteBase */
-     , (52025,   8,  100690568) /* Icon */
-     , (52025,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52025,   1, 0x02000179) /* Setup */
+     , (52025,   3, 0x20000014) /* SoundTable */
+     , (52025,   6, 0x04000BEF) /* PaletteBase */
+     , (52025,   8, 0x06006A88) /* Icon */
+     , (52025,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52025,  28,       5192) /* Spell - RareDamageReduction5 */
-     , (52025,  50,  100686629) /* IconOverlay */
-     , (52025,  52,  100691593) /* IconUnderlay */
+     , (52025,  50, 0x06005B25) /* IconOverlay */
+     , (52025,  52, 0x06006E89) /* IconUnderlay */
      , (52025, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (52025, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (52025, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (52025, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52025, 8000, 3693038994) /* PCAPRecordedObjectIID */;
+VALUES (52025, 8000, 0xDC1F4D92) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52025, 67111924, 0, 0);

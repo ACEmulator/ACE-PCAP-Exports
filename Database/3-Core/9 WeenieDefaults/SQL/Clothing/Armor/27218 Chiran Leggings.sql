@@ -47,24 +47,24 @@ VALUES (27218,   1, 'Chiran Leggings') /* Name */
      , (27218,  16, 'Chiran Leggings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27218,   1,   33554856) /* Setup */
-     , (27218,   3,  536870932) /* SoundTable */
-     , (27218,   6,   67108990) /* PaletteBase */
-     , (27218,   8,  100675968) /* Icon */
-     , (27218,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27218,   1, 0x020001A8) /* Setup */
+     , (27218,   3, 0x20000014) /* SoundTable */
+     , (27218,   6, 0x0400007E) /* PaletteBase */
+     , (27218,   8, 0x06003180) /* Icon */
+     , (27218,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27218, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (27218, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27218, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27218, 8000, 2174543154) /* PCAPRecordedObjectIID */;
+VALUES (27218, 8000, 0x819CE532) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27218,  1528,      2)  /* FrostBane6 */
+VALUES (27218,  4227,      2)  /* CANTRIPWILLPOWER3 */
+     , (27218,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */
      , (27218,  2094,      2)  /* BladeBane7 */
-     , (27218,  4227,      2)  /* CANTRIPWILLPOWER3 */
      , (27218,  4407,      2)  /* Impenetrability8 */
-     , (27218,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */;
+     , (27218,  1528,      2)  /* FrostBane6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27218, 67115003, 84, 12)

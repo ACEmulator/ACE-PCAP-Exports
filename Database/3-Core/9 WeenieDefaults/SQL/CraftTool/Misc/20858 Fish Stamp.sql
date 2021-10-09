@@ -27,17 +27,17 @@ VALUES (20858,   1, 'Fish Stamp') /* Name */
      , (20858,  15, 'A stamp with the symbol of a fish.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20858,   1,   33556922) /* Setup */
-     , (20858,   3,  536870932) /* SoundTable */
-     , (20858,   8,  100673243) /* Icon */
-     , (20858,  22,  872415275) /* PhysicsEffectTable */
-     , (20858,  50,  100673137) /* IconOverlay */
+VALUES (20858,   1, 0x020009BA) /* Setup */
+     , (20858,   3, 0x20000014) /* SoundTable */
+     , (20858,   8, 0x060026DB) /* Icon */
+     , (20858,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20858,  50, 0x06002671) /* IconOverlay */
      , (20858, 8001, 1344827416) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType, IconOverlay */
      , (20858, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20858, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20858, 8000, 3686006359) /* PCAPRecordedObjectIID */;
+VALUES (20858, 8000, 0xDBB3FE57) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20858, 0, 83892954, 83893871)

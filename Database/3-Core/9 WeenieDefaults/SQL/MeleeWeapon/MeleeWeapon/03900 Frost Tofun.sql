@@ -54,24 +54,24 @@ VALUES (3900,   1, 'Frost Tofun') /* Name */
      , (3900,  16, 'Frost Tofun of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3900,   1,   33555741) /* Setup */
-     , (3900,   3,  536870932) /* SoundTable */
-     , (3900,   6,   67111919) /* PaletteBase */
-     , (3900,   8,  100668964) /* Icon */
-     , (3900,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3900,   1, 0x0200051D) /* Setup */
+     , (3900,   3, 0x20000014) /* SoundTable */
+     , (3900,   6, 0x04000BEF) /* PaletteBase */
+     , (3900,   8, 0x06001624) /* Icon */
+     , (3900,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3900,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3900, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3900, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3900, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3900, 8000, 2629447749) /* PCAPRecordedObjectIID */;
+VALUES (3900, 8000, 0x9CBA3045) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3900,  1332,      2)  /* StrengthSelf6 */
+VALUES (3900,  2575,      2)  /* CANTRIPQUICKNESS2 */
      , (3900,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (3900,  2575,      2)  /* CANTRIPQUICKNESS2 */
-     , (3900,  2578,      2)  /* CANTRIPARMOR1 */;
+     , (3900,  2578,      2)  /* CANTRIPARMOR1 */
+     , (3900,  1332,      2)  /* StrengthSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3900, 67111926, 0, 0);

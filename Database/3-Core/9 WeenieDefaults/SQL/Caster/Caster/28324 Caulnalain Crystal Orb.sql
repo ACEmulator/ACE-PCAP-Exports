@@ -10,6 +10,7 @@ VALUES (28324,   1,      32768) /* ItemType - Caster */
      , (28324,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (28324,  18,          1) /* UiEffects - Magical */
      , (28324,  19,       2000) /* Value */
+     , (28324,  46,        512) /* DefaultCombatStyle - Magic */
      , (28324,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (28324,  94,         16) /* TargetType - Creature */
      , (28324, 106,        250) /* ItemSpellcraft */
@@ -34,22 +35,22 @@ VALUES (28324,   1, 'Caulnalain Crystal Orb') /* Name */
      , (28324,  15, 'An orb imbued with the power of the Caulnalain Crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28324,   1,   33556767) /* Setup */
-     , (28324,   3,  536870932) /* SoundTable */
-     , (28324,   6,   67111928) /* PaletteBase */
-     , (28324,   8,  100670982) /* Icon */
-     , (28324,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28324,   1, 0x0200091F) /* Setup */
+     , (28324,   3, 0x20000014) /* SoundTable */
+     , (28324,   6, 0x04000BF8) /* PaletteBase */
+     , (28324,   8, 0x06001E06) /* Icon */
+     , (28324,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28324, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (28324, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28324, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28324, 8000, 2187177944) /* PCAPRecordedObjectIID */;
+VALUES (28324, 8000, 0x825DAFD8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28324,   560,      2)  /* CreatureEnchantmentMasterySelf4 */
-     , (28324,   584,      2)  /* ItemEnchantmentMasterySelf4 */
-     , (28324,  2012,      2)  /* WizardsIntellect */;
+VALUES (28324,   584,      2)  /* ItemEnchantmentMasterySelf4 */
+     , (28324,  2012,      2)  /* WizardsIntellect */
+     , (28324,   560,      2)  /* CreatureEnchantmentMasterySelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28324, 67112925, 0, 0);

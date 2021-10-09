@@ -33,13 +33,13 @@ VALUES (36357,   1, 'Bandana with Eyepatch') /* Name */
      , (36357,  16, 'A bandana with an attached eyepatch, taken from an Undead Sailor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36357,   1,   33560407) /* Setup */
-     , (36357,   3,  536870932) /* SoundTable */
-     , (36357,   8,  100689694) /* Icon */
-     , (36357,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36357,   1, 0x02001757) /* Setup */
+     , (36357,   3, 0x20000014) /* SoundTable */
+     , (36357,   8, 0x0600671E) /* Icon */
+     , (36357,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36357, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (36357, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36357, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36357, 8000, 2968349362) /* PCAPRecordedObjectIID */;
+VALUES (36357, 8000, 0xB0ED6AB2) /* PCAPRecordedObjectIID */;

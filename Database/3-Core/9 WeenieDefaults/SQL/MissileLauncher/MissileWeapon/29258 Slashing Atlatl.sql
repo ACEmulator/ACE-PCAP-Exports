@@ -15,7 +15,7 @@ VALUES (29258,   1,        256) /* ItemType - MissileWeapon */
      , (29258,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29258,  49,         22) /* WeaponTime */
      , (29258,  50,          4) /* AmmoType - Atlatl */
-     , (29258,  51,          2) /* CombatUse - Missle */
+     , (29258,  51,          2) /* CombatUse - Missile */
      , (29258,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29258, 105,          7) /* ItemWorkmanship */
      , (29258, 131,         51) /* MaterialType - Ivory */
@@ -48,17 +48,17 @@ VALUES (29258,   1, 'Slashing Atlatl') /* Name */
      , (29258,  16, 'Slashing Atlatl') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29258,   1,   33559241) /* Setup */
-     , (29258,   3,  536870932) /* SoundTable */
-     , (29258,   6,   67115373) /* PaletteBase */
-     , (29258,   8,  100677457) /* Icon */
-     , (29258,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29258,   1, 0x020012C9) /* Setup */
+     , (29258,   3, 0x20000014) /* SoundTable */
+     , (29258,   6, 0x0400196D) /* PaletteBase */
+     , (29258,   8, 0x06003751) /* Icon */
+     , (29258,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29258, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (29258, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29258, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29258, 8000, 3699036484) /* PCAPRecordedObjectIID */;
+VALUES (29258, 8000, 0xDC7AD144) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29258, 67115375, 0, 0);

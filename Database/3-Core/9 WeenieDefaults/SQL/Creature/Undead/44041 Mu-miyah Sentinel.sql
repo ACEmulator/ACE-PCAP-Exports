@@ -28,22 +28,22 @@ VALUES (44041,   1, 'Mu-miyah Sentinel') /* Name */
      , (44041, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44041,   1,   33554433) /* Setup */
-     , (44041,   2,  150994981) /* MotionTable */
-     , (44041,   3,  536870942) /* SoundTable */
-     , (44041,   6,   67108990) /* PaletteBase */
-     , (44041,   8,  100669122) /* Icon */
-     , (44041,  22,  872415272) /* PhysicsEffectTable */
+VALUES (44041,   1, 0x02000001) /* Setup */
+     , (44041,   2, 0x09000025) /* MotionTable */
+     , (44041,   3, 0x2000001E) /* SoundTable */
+     , (44041,   6, 0x0400007E) /* PaletteBase */
+     , (44041,   8, 0x060016C2) /* Icon */
+     , (44041,  22, 0x34000028) /* PhysicsEffectTable */
      , (44041, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44041, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44041, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44041, 8040, 2271477795, 103.0245, 54.25718, 52.32798, 0.6418033, 0, 0, 0.7668693) /* PCAPRecordedLocation */
+VALUES (44041, 8040, 0x87640023, 103.0245, 54.25718, 52.32798, 0.641803, 0, 0, 0.766869) /* PCAPRecordedLocation */
 /* @teleloc 0x87640023 [103.024500 54.257180 52.327980] 0.641803 0.000000 0.000000 0.766869 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44041, 8000, 3360236523) /* PCAPRecordedObjectIID */;
+VALUES (44041, 8000, 0xC84923EB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44041,   1, 210, 0, 0) /* Strength */
@@ -61,6 +61,7 @@ VALUES (44041,   1,  4490, 0, 0, 4600) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44041, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (44041, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (44041, 2, 23134,  1, 0, 0, False) /* Create Lugian Morning Star (23134) for Wield */
      , (44041, 9, 40691,  0, 0, 0, False) /* Create Olthoi Sollerets (40691) for ContainTreasure */
      , (44041, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
      , (44041, 9, 44296,  1, 0, 0, False) /* Create Ancient Tablet of the Crystal Idol (Level 180+) (44296) for ContainTreasure */

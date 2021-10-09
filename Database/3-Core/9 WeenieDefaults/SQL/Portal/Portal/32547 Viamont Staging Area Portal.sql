@@ -12,7 +12,6 @@ VALUES (32547,   1,      65536) /* ItemType - Portal */
      , (32547, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (32547, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (32547, 267,        300) /* Lifespan */
-     , (32547, 268,        299) /* RemainingLifespan */
      , (32547, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -26,16 +25,16 @@ VALUES (32547,   1, 'Viamont Staging Area Portal') /* Name */
      , (32547, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32547,   1,   33555925) /* Setup */
-     , (32547,   2,  150994947) /* MotionTable */
-     , (32547,   8,  100667499) /* Icon */
+VALUES (32547,   1, 0x020005D5) /* Setup */
+     , (32547,   2, 0x09000003) /* MotionTable */
+     , (32547,   8, 0x0600106B) /* Icon */
      , (32547, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (32547, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (32547, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32547, 8040, 2728460308, 59.9461, 83.3932, 194.45, 0.999925, 0, 0, -0.0122292) /* PCAPRecordedLocation */
+VALUES (32547, 8040, 0xA2A10014, 59.9461, 83.3932, 194.45, 0.999925, 0, 0, -0.012229) /* PCAPRecordedLocation */
 /* @teleloc 0xA2A10014 [59.946100 83.393200 194.450000] 0.999925 0.000000 0.000000 -0.012229 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32547, 8000, 3702703339) /* PCAPRecordedObjectIID */;
+VALUES (32547, 8000, 0xDCB2C4EB) /* PCAPRecordedObjectIID */;

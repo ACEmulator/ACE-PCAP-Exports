@@ -19,18 +19,18 @@ VALUES (24584,   1, 'Sangi''s Goods') /* Name */
      , (24584,  16, 'Nearly fresh produce and goods guaranteed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24584,   1,   33555088) /* Setup */
-     , (24584,   8,  100668115) /* Icon */
+VALUES (24584,   1, 0x02000290) /* Setup */
+     , (24584,   8, 0x060012D3) /* Icon */
      , (24584, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (24584, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24584, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24584, 8040, 722534422, 58.5404, 130.362, 48, -0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
+VALUES (24584, 8040, 0x2B110016, 58.5404, 130.362, 48, -0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0x2B110016 [58.540400 130.362000 48.000000] -0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24584, 8000, 1924206624) /* PCAPRecordedObjectIID */;
+VALUES (24584, 8000, 0x72B11020) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (24584, 0, 83891055, 83889906);

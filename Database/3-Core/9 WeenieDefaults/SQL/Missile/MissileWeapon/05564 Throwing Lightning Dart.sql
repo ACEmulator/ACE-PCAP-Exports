@@ -14,7 +14,7 @@ VALUES (5564,   1,        256) /* ItemType - MissileWeapon */
      , (5564,  16,          1) /* ItemUseable - No */
      , (5564,  18,         64) /* UiEffects - Lightning */
      , (5564,  19,          4) /* Value */
-     , (5564,  51,          2) /* CombatUse - Missle */
+     , (5564,  51,          2) /* CombatUse - Missile */
      , (5564,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5564, 151,          2) /* HookType - Wall */
      , (5564, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -27,13 +27,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5564,   1, 'Throwing Lightning Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5564,   1,   33555719) /* Setup */
-     , (5564,   3,  536870932) /* SoundTable */
-     , (5564,   8,  100667591) /* Icon */
-     , (5564,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5564,   1, 0x02000507) /* Setup */
+     , (5564,   3, 0x20000014) /* SoundTable */
+     , (5564,   8, 0x060010C7) /* Icon */
+     , (5564,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5564, 8001,  270627480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (5564, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5564, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5564, 8000, 2885468790) /* PCAPRecordedObjectIID */;
+VALUES (5564, 8000, 0xABFCC276) /* PCAPRecordedObjectIID */;

@@ -32,11 +32,11 @@ VALUES (30046,   1, 'Silyun Portal Gem') /* Name */
      , (30046,  16, 'Use this gem to summon a short-lived portal to Silyun.  This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30046,   1,   33556769) /* Setup */
-     , (30046,   3,  536870932) /* SoundTable */
-     , (30046,   6,   67111919) /* PaletteBase */
-     , (30046,   8,  100674858) /* Icon */
-     , (30046,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30046,   1, 0x02000921) /* Setup */
+     , (30046,   3, 0x20000014) /* SoundTable */
+     , (30046,   6, 0x04000BEF) /* PaletteBase */
+     , (30046,   8, 0x06002D2A) /* Icon */
+     , (30046,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30046,  28,        157) /* Spell - SummonPortal1 */
      , (30046, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (30046, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -44,7 +44,7 @@ VALUES (30046,   1,   33556769) /* Setup */
      , (30046, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30046, 8000, 2988191129) /* PCAPRecordedObjectIID */;
+VALUES (30046, 8000, 0xB21C2D99) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30046, 67111922, 0, 0);

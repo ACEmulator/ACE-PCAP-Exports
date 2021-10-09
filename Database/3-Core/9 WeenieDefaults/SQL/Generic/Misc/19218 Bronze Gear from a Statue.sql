@@ -13,7 +13,8 @@ VALUES (19218,   1,        128) /* ItemType - Misc */
      , (19218, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19218,  22, True ) /* Inscribable */;
+VALUES (19218,  22, True ) /* Inscribable */
+     , (19218,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19218,  39,     1.2) /* DefaultScale */;
@@ -23,11 +24,11 @@ VALUES (19218,   1, 'Bronze Gear from a Statue') /* Name */
      , (19218,  15, 'A bronze gear taken from the ruins of a living Bronze Statue of a Reedshark. The Arcanum Tinker or the Arcanum Researcher might find this item of great interest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19218,   1,   33557681) /* Setup */
-     , (19218,   8,  100672956) /* Icon */
+VALUES (19218,   1, 0x02000CB1) /* Setup */
+     , (19218,   8, 0x060025BC) /* Icon */
      , (19218, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (19218, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19218, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19218, 8000, 2240725098) /* PCAPRecordedObjectIID */;
+VALUES (19218, 8000, 0x858EC06A) /* PCAPRecordedObjectIID */;

@@ -15,6 +15,7 @@ VALUES (31334,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31334,  22, True ) /* Inscribable */
+     , (31334,  23, True ) /* DestroyOnSell */
      , (31334,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,13 +23,13 @@ VALUES (31334,   1, 'Crate of Fake Niffis Pearls') /* Name */
      , (31334,  16, 'A crate of Fake Niffis Pearls. Return this to an Agent of the Arcanum as evidence.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31334,   1,   33554817) /* Setup */
-     , (31334,   3,  536870932) /* SoundTable */
-     , (31334,   8,  100674799) /* Icon */
-     , (31334,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31334,   1, 0x02000181) /* Setup */
+     , (31334,   3, 0x20000014) /* SoundTable */
+     , (31334,   8, 0x06002CEF) /* Icon */
+     , (31334,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31334, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (31334, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31334, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31334, 8000, 3708152451) /* PCAPRecordedObjectIID */;
+VALUES (31334, 8000, 0xDD05EA83) /* PCAPRecordedObjectIID */;

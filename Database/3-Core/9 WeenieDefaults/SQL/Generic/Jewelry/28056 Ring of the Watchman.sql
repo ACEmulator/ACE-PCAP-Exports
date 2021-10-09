@@ -31,23 +31,23 @@ VALUES (28056,   1, 'Ring of the Watchman') /* Name */
      , (28056,  16, 'A small ring of pale silver, taken from the finger of the Relic Watchman on Aerlinthe Island.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28056,   1,   33554691) /* Setup */
-     , (28056,   3,  536870932) /* SoundTable */
-     , (28056,   6,   67111919) /* PaletteBase */
-     , (28056,   8,  100670751) /* Icon */
-     , (28056,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28056,   1, 0x02000103) /* Setup */
+     , (28056,   3, 0x20000014) /* SoundTable */
+     , (28056,   6, 0x04000BEF) /* PaletteBase */
+     , (28056,   8, 0x06001D1F) /* Icon */
+     , (28056,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28056,  37,         31) /* ItemSkillLimit - CreatureEnchantment */
      , (28056, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (28056, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28056, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28056, 8000, 3347437751) /* PCAPRecordedObjectIID */;
+VALUES (28056, 8000, 0xC785D8B7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28056,   567,      2)  /* CreatureEnchantmentMasteryOther5 */
-     , (28056,   591,      2)  /* ItemEnchantmentMasteryOther5 */
-     , (28056,   663,      2)  /* ManaMasteryOther5 */;
+VALUES (28056,   591,      2)  /* ItemEnchantmentMasteryOther5 */
+     , (28056,   663,      2)  /* ManaMasteryOther5 */
+     , (28056,   567,      2)  /* CreatureEnchantmentMasteryOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28056, 67111924, 0, 0);

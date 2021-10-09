@@ -14,7 +14,8 @@ VALUES (34015,   1,        128) /* ItemType - Misc */
      , (34015, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34015,  22, True ) /* Inscribable */;
+VALUES (34015,  22, True ) /* Inscribable */
+     , (34015,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34015,   1, 'Golden Shuriken of Tanada') /* Name */
@@ -23,13 +24,13 @@ VALUES (34015,   1, 'Golden Shuriken of Tanada') /* Name */
      , (34015,  16, 'A golden shuriken with an inscription on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34015,   1,   33554752) /* Setup */
-     , (34015,   3,  536870932) /* SoundTable */
-     , (34015,   8,  100689093) /* Icon */
-     , (34015,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34015,   1, 0x02000140) /* Setup */
+     , (34015,   3, 0x20000014) /* SoundTable */
+     , (34015,   8, 0x060064C5) /* Icon */
+     , (34015,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34015, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (34015, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34015, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34015, 8000, 2988576465) /* PCAPRecordedObjectIID */;
+VALUES (34015, 8000, 0xB2220ED1) /* PCAPRecordedObjectIID */;

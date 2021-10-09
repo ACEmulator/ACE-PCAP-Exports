@@ -17,18 +17,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35725,   1, 'A Treatise on the Combat Uses of Alchemical Phials') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35725,   1,   33559084) /* Setup */
-     , (35725,   3,  536870932) /* SoundTable */
-     , (35725,   6,   67112626) /* PaletteBase */
-     , (35725,   8,  100668117) /* Icon */
-     , (35725,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35725,   1, 0x0200122C) /* Setup */
+     , (35725,   3, 0x20000014) /* SoundTable */
+     , (35725,   6, 0x04000EB2) /* PaletteBase */
+     , (35725,   8, 0x060012D5) /* Icon */
+     , (35725,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35725, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (35725, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (35725, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (35725, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35725, 8000,      35725) /* PCAPRecordedObjectIID */;
+VALUES (35725, 8000, 0x00008B8D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35725, 67113862, 0, 0);

@@ -24,17 +24,17 @@ VALUES (37061,   1, 'West Gate Harmonic Crystal') /* Name */
      , (37061,  16, 'A crystal with intricate imperfections in it''s core. It hums quietly in your hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37061,   1,   33554809) /* Setup */
-     , (37061,   3,  536870932) /* SoundTable */
-     , (37061,   6,   67111919) /* PaletteBase */
-     , (37061,   8,  100670080) /* Icon */
-     , (37061,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37061,   1, 0x02000179) /* Setup */
+     , (37061,   3, 0x20000014) /* SoundTable */
+     , (37061,   6, 0x04000BEF) /* PaletteBase */
+     , (37061,   8, 0x06001A80) /* Icon */
+     , (37061,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37061, 8001,    2125976) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (37061, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37061, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37061, 8000, 2448607457) /* PCAPRecordedObjectIID */;
+VALUES (37061, 8000, 0x91F2C8E1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37061, 67111924, 0, 0);

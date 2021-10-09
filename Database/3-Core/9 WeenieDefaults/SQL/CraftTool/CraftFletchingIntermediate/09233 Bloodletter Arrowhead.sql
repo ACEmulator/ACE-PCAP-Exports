@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9233,   1, 'Bloodletter Arrowhead') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9233,   1,   33556985) /* Setup */
-     , (9233,   3,  536870932) /* SoundTable */
-     , (9233,   8,  100671399) /* Icon */
-     , (9233,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9233,   1, 0x020009F9) /* Setup */
+     , (9233,   3, 0x20000014) /* SoundTable */
+     , (9233,   8, 0x06001FA7) /* Icon */
+     , (9233,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9233, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (9233, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9233, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9233, 8000, 2981037288) /* PCAPRecordedObjectIID */;
+VALUES (9233, 8000, 0xB1AF04E8) /* PCAPRecordedObjectIID */;

@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11178,   1, 'Magic Item Tinkering Tessera') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11178,   1,   33557218) /* Setup */
-     , (11178,   3,  536870932) /* SoundTable */
-     , (11178,   8,  100672000) /* Icon */
-     , (11178,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11178,   1, 0x02000AE2) /* Setup */
+     , (11178,   3, 0x20000014) /* SoundTable */
+     , (11178,   8, 0x06002200) /* Icon */
+     , (11178,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11178, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (11178, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11178, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11178, 8000, 2943497944) /* PCAPRecordedObjectIID */;
+VALUES (11178, 8000, 0xAF7236D8) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (20357,   1, 'Scroll of Devour Item Magic') /* Name */
 Dispels 3-6 negative Item Magic enchantments of level 4 or lower from the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20357,   1,   33554826) /* Setup */
-     , (20357,   8,  100676659) /* Icon */
-     , (20357,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20357,   1, 0x0200018A) /* Setup */
+     , (20357,   8, 0x06003433) /* Icon */
+     , (20357,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20357,  28,       1939) /* Spell - DispelItemBadOther4 */
      , (20357, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20357, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20357, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20357, 8000, 2884752877) /* PCAPRecordedObjectIID */;
+VALUES (20357, 8000, 0xABF1D5ED) /* PCAPRecordedObjectIID */;

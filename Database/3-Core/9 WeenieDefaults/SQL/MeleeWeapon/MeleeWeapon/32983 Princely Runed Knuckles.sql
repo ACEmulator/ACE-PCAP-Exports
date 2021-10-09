@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32983,   1,          1) /* ItemType - MeleeWeapon */
      , (32983,   5,        200) /* EncumbranceVal */
      , (32983,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (32983,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (32983,  16,          1) /* ItemUseable - No */
      , (32983,  19,      10000) /* Value */
      , (32983,  44,         46) /* Damage */
@@ -48,12 +47,12 @@ VALUES (32983,   1, 'Princely Runed Knuckles') /* Name */
      , (32983,  15, 'A set of fighting knuckles crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32983,   1,   33559867) /* Setup */
-     , (32983,   3,  536870932) /* SoundTable */
-     , (32983,   6,   67115556) /* PaletteBase */
-     , (32983,   8,  100687027) /* Icon */
-     , (32983,  22,  872415275) /* PhysicsEffectTable */
-     , (32983,  50,  100688913) /* IconOverlay */
+VALUES (32983,   1, 0x0200153B) /* Setup */
+     , (32983,   3, 0x20000014) /* SoundTable */
+     , (32983,   6, 0x04001A24) /* PaletteBase */
+     , (32983,   8, 0x06005CB3) /* Icon */
+     , (32983,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32983,  50, 0x06006411) /* IconOverlay */
      , (32983,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (32983, 8001, 1344504344) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType, IconOverlay */
      , (32983, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -61,18 +60,18 @@ VALUES (32983,   1,   33559867) /* Setup */
      , (32983, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32983, 8040, 3465871405, 139.9073, 107.0423, 19.929, 0.7051418, 0.7051418, -0.05267891, -0.05267891) /* PCAPRecordedLocation */
+VALUES (32983, 8040, 0xCE95002D, 139.9073, 107.0423, 19.929, 0.705142, 0.705142, -0.052679, -0.052679) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [139.907300 107.042300 19.929000] 0.705142 0.705142 -0.052679 -0.052679 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32983, 8000, 3674680260) /* PCAPRecordedObjectIID */
-     , (32983, 8008, 1343252571) /* PCAPRecordedParentIID */;
+VALUES (32983, 8000, 0xDB072BC4) /* PCAPRecordedObjectIID */
+     , (32983, 8008, 0x5010685B) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32983,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (32983,  2116,      2)  /* SwiftKillerSelf7 */
+     , (32983,  2096,      2)  /* BloodDrinkerSelf7 */
      , (32983,  2101,      2)  /* DefenderSelf7 */
-     , (32983,  2106,      2)  /* HeartSeekerSelf7 */
-     , (32983,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (32983,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32983, 67116440, 0, 0);

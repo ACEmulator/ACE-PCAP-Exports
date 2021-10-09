@@ -37,17 +37,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24626,   1, 'Good Olthoi Brood Queen Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24626,   1,   33558419) /* Setup */
-     , (24626,   3,  536870932) /* SoundTable */
-     , (24626,   6,   67108990) /* PaletteBase */
-     , (24626,   8,  100674622) /* Icon */
-     , (24626,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24626,   1, 0x02000F93) /* Setup */
+     , (24626,   3, 0x20000014) /* SoundTable */
+     , (24626,   6, 0x0400007E) /* PaletteBase */
+     , (24626,   8, 0x06002C3E) /* Icon */
+     , (24626,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24626, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (24626, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24626, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24626, 8000, 2657345272) /* PCAPRecordedObjectIID */;
+VALUES (24626, 8000, 0x9E63DEF8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24626, 67114436, 240, 10)

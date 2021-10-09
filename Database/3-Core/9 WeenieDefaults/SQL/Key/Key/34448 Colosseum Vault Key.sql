@@ -17,7 +17,8 @@ VALUES (34448,   1,      16384) /* ItemType - Key */
      , (34448, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34448,  22, True ) /* Inscribable */;
+VALUES (34448,  22, True ) /* Inscribable */
+     , (34448,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34448,   1, 'Colosseum Vault Key') /* Name */
@@ -25,12 +26,12 @@ VALUES (34448,   1, 'Colosseum Vault Key') /* Name */
      , (34448,  16, 'A golden Empyrean key') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34448,   1,   33554784) /* Setup */
-     , (34448,   8,  100689384) /* Icon */
-     , (34448,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34448,   1, 0x02000160) /* Setup */
+     , (34448,   8, 0x060065E8) /* Icon */
+     , (34448,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34448, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (34448, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34448, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34448, 8000, 2765243241) /* PCAPRecordedObjectIID */;
+VALUES (34448, 8000, 0xA4D24369) /* PCAPRecordedObjectIID */;

@@ -25,23 +25,23 @@ VALUES (9243,   1, 'Innocuous Doll') /* Name */
      , (9243, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9243,   1,   33556996) /* Setup */
-     , (9243,   2,  150994984) /* MotionTable */
-     , (9243,   3,  536871022) /* SoundTable */
-     , (9243,   6,   67113150) /* PaletteBase */
-     , (9243,   8,  100671421) /* Icon */
-     , (9243,  22,  872415373) /* PhysicsEffectTable */
+VALUES (9243,   1, 0x02000A04) /* Setup */
+     , (9243,   2, 0x09000028) /* MotionTable */
+     , (9243,   3, 0x2000006E) /* SoundTable */
+     , (9243,   6, 0x040010BE) /* PaletteBase */
+     , (9243,   8, 0x06001FBD) /* Icon */
+     , (9243,  22, 0x3400008D) /* PhysicsEffectTable */
      , (9243,  30,         87) /* PhysicsScript - BreatheLightning */
      , (9243, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (9243, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (9243, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9243, 8040, 2519793714, 151.3374, 43.81679, 119.4175, 0.8825892, 0, 0, -0.470145) /* PCAPRecordedLocation */
+VALUES (9243, 8040, 0x96310032, 151.3374, 43.81679, 119.4175, 0.882589, 0, 0, -0.470145) /* PCAPRecordedLocation */
 /* @teleloc 0x96310032 [151.337400 43.816790 119.417500] 0.882589 0.000000 0.000000 -0.470145 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9243, 8000, 3685861575) /* PCAPRecordedObjectIID */;
+VALUES (9243, 8000, 0xDBB1C8C7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9243,   1, 150, 0, 0) /* Strength */

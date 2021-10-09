@@ -26,23 +26,23 @@ VALUES (44476,   1, 'Grievver Shredder') /* Name */
      , (44476, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44476,   1,   33556698) /* Setup */
-     , (44476,   2,  150995098) /* MotionTable */
-     , (44476,   3,  536871009) /* SoundTable */
-     , (44476,   6,   67112927) /* PaletteBase */
-     , (44476,   8,  100670960) /* Icon */
-     , (44476,  22,  872415364) /* PhysicsEffectTable */
+VALUES (44476,   1, 0x020008DA) /* Setup */
+     , (44476,   2, 0x0900009A) /* MotionTable */
+     , (44476,   3, 0x20000061) /* SoundTable */
+     , (44476,   6, 0x04000FDF) /* PaletteBase */
+     , (44476,   8, 0x06001DF0) /* Icon */
+     , (44476,  22, 0x34000084) /* PhysicsEffectTable */
      , (44476,  30,         86) /* PhysicsScript - BreatheAcid */
      , (44476, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44476, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44476, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44476, 8040, 4133158965, 155.9055, 102.2478, 32.84217, 0.3605969, 0, 0, -0.9327217) /* PCAPRecordedLocation */
+VALUES (44476, 8040, 0xF65B0035, 155.9055, 102.2478, 32.84217, 0.360597, 0, 0, -0.932722) /* PCAPRecordedLocation */
 /* @teleloc 0xF65B0035 [155.905500 102.247800 32.842170] 0.360597 0.000000 0.000000 -0.932722 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44476, 8000, 3685988833) /* PCAPRecordedObjectIID */;
+VALUES (44476, 8000, 0xDBB3B9E1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44476,   1, 280, 0, 0) /* Strength */
@@ -428,7 +428,24 @@ VALUES (44476, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) 
      , (44476, 9, 20561,  0, 0, 0, False) /* Create Scroll of Celdiseth's Boon (20561) for ContainTreasure */
      , (44476, 9,    66,  0, 0, 0, False) /* Create Platemail Greaves (66) for ContainTreasure */
      , (44476, 9, 20234,  0, 0, 0, False) /* Create Scroll of Boon of Refinement (20234) for ContainTreasure */
-     , (44476, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */;
+     , (44476, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+     , (44476, 9, 40623,  0, 0, 0, False) /* Create Quadrelle (40623) for ContainTreasure */
+     , (44476, 9, 31822,  0, 0, 0, False) /* Create Aerbax's Defeat (31822) for ContainTreasure */
+     , (44476, 9, 42753,  0, 0, 0, False) /* Create Haebrean Helm (42753) for ContainTreasure */
+     , (44476, 9, 20238,  0, 0, 0, False) /* Create Scroll of Anemia (20238) for ContainTreasure */
+     , (44476, 9, 20480,  0, 0, 0, False) /* Create Scroll of Storm's Boon (20480) for ContainTreasure */
+     , (44476, 9, 20557,  0, 0, 0, False) /* Create Scroll of Oswald's Blessing (20557) for ContainTreasure */
+     , (44476, 9, 29260,  0, 0, 0, False) /* Create Blunt Sceptre (29260) for ContainTreasure */
+     , (44476, 9, 40638,  0, 0, 0, False) /* Create Flaming Tetsubo (40638) for ContainTreasure */
+     , (44476, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */
+     , (44476, 9, 20473,  0, 0, 0, False) /* Create Scroll of Tusker's Gift (20473) for ContainTreasure */
+     , (44476, 9,   357,  0, 0, 0, False) /* Create Tungi (357) for ContainTreasure */
+     , (44476, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
+     , (44476, 9, 37355,  1, 0, 0, False) /* Create Ink of Objectification (37355) for ContainTreasure */
+     , (44476, 9,   336,  0, 0, 0, False) /* Create Ono (336) for ContainTreasure */
+     , (44476, 9, 20540,  0, 0, 0, False) /* Create Scroll of Celcynd's Boon (20540) for ContainTreasure */
+     , (44476, 9, 30612,  0, 0, 0, False) /* Create Lightning Knuckles (30612) for ContainTreasure */
+     , (44476, 9, 29250,  0, 0, 0, False) /* Create Piercing Crossbow (29250) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44476, 67114286, 0, 0);

@@ -21,11 +21,11 @@ VALUES (36909,   1, 'Festivus Rug') /* Name */
      , (36909,  16, 'A holiday rug for the rest of us.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36909,   1,   33560427) /* Setup */
-     , (36909,   8,  100689758) /* Icon */
+VALUES (36909,   1, 0x0200176B) /* Setup */
+     , (36909,   8, 0x0600675E) /* Icon */
      , (36909, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (36909, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36909, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36909, 8000, 2192311777) /* PCAPRecordedObjectIID */;
+VALUES (36909, 8000, 0x82AC05E1) /* PCAPRecordedObjectIID */;

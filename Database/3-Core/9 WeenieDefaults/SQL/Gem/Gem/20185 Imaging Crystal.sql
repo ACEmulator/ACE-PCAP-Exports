@@ -19,7 +19,8 @@ VALUES (20185,   1,       2048) /* ItemType - Gem */
      , (20185, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20185,  22, True ) /* Inscribable */;
+VALUES (20185,  22, True ) /* Inscribable */
+     , (20185,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20185,  39,     1.2) /* DefaultScale */;
@@ -30,17 +31,17 @@ VALUES (20185,   1, 'Imaging Crystal') /* Name */
      , (20185,  15, 'A blank Imaging Crystal') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20185,   1,   33555194) /* Setup */
-     , (20185,   3,  536870932) /* SoundTable */
-     , (20185,   6,   67111092) /* PaletteBase */
-     , (20185,   8,  100673070) /* Icon */
-     , (20185,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20185,   1, 0x020002FA) /* Setup */
+     , (20185,   3, 0x20000014) /* SoundTable */
+     , (20185,   6, 0x040008B4) /* PaletteBase */
+     , (20185,   8, 0x0600262E) /* Icon */
+     , (20185,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20185, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (20185, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20185, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20185, 8000, 2911369555) /* PCAPRecordedObjectIID */;
+VALUES (20185, 8000, 0xAD87F953) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20185, 67112926, 0, 0);

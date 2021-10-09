@@ -29,28 +29,28 @@ VALUES (6535,   1, 'Small Shadow Child') /* Name */
      , (6535, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6535,   1,   33554433) /* Setup */
-     , (6535,   2,  150994945) /* MotionTable */
-     , (6535,   3,  536871090) /* SoundTable */
-     , (6535,   6,   67108990) /* PaletteBase */
-     , (6535,   8,  100670397) /* Icon */
-     , (6535,   9,   83890258) /* EyesTexture */
-     , (6535,  10,   83890312) /* NoseTexture */
-     , (6535,  11,   83890342) /* MouthTexture */
-     , (6535,  15,   67117000) /* HairPalette */
-     , (6535,  16,   67110064) /* EyesPalette */
-     , (6535,  17,   67109558) /* SkinPalette */
-     , (6535,  22,  872415331) /* PhysicsEffectTable */
+VALUES (6535,   1, 0x02000001) /* Setup */
+     , (6535,   2, 0x09000001) /* MotionTable */
+     , (6535,   3, 0x200000B2) /* SoundTable */
+     , (6535,   6, 0x0400007E) /* PaletteBase */
+     , (6535,   8, 0x06001BBD) /* Icon */
+     , (6535,   9, 0x05001052) /* EyesTexture */
+     , (6535,  10, 0x05001088) /* NoseTexture */
+     , (6535,  11, 0x050010A6) /* MouthTexture */
+     , (6535,  15, 0x04001FC8) /* HairPalette */
+     , (6535,  16, 0x040004B0) /* EyesPalette */
+     , (6535,  17, 0x040002B6) /* SkinPalette */
+     , (6535,  22, 0x34000063) /* PhysicsEffectTable */
      , (6535, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (6535, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (6535, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6535, 8040, 3730243643, 186.29, 53.50206, 19.54399, -0.6006484, 0, 0, -0.7995133) /* PCAPRecordedLocation */
+VALUES (6535, 8040, 0xDE57003B, 186.29, 53.50206, 19.54399, -0.600648, 0, 0, -0.799513) /* PCAPRecordedLocation */
 /* @teleloc 0xDE57003B [186.290000 53.502060 19.543990] -0.600648 0.000000 0.000000 -0.799513 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6535, 8000, 3684991255) /* PCAPRecordedObjectIID */;
+VALUES (6535, 8000, 0xDBA48117) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6535,   1,  40, 0, 0) /* Strength */
@@ -181,7 +181,10 @@ VALUES (6535, 2, 47859,  1, 0, 0, False) /* Create Acid Katar (47859) for Wield 
      , (6535, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
      , (6535, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
      , (6535, 9,  8921,  0, 0, 0, False) /* Create Scroll of Flame Streak II (8921) for ContainTreasure */
-     , (6535, 9,   377,  1, 0, 0, False) /* Create Potion of Healing (377) for ContainTreasure */;
+     , (6535, 9,   377,  1, 0, 0, False) /* Create Potion of Healing (377) for ContainTreasure */
+     , (6535, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (6535, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
+     , (6535, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6535, 67112860, 0, 0);

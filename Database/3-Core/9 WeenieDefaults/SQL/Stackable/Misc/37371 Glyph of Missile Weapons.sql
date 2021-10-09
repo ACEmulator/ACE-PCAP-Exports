@@ -20,18 +20,18 @@ VALUES (37371,   1, 'Glyph of Missile Weapons') /* Name */
      , (37371,  20, 'Glyphs of Missile Weapons') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37371,   1,   33554809) /* Setup */
-     , (37371,   3,  536870932) /* SoundTable */
-     , (37371,   6,   67111919) /* PaletteBase */
-     , (37371,   8,  100690191) /* Icon */
-     , (37371,  22,  872415275) /* PhysicsEffectTable */
-     , (37371,  50,  100686638) /* IconOverlay */
+VALUES (37371,   1, 0x02000179) /* Setup */
+     , (37371,   3, 0x20000014) /* SoundTable */
+     , (37371,   6, 0x04000BEF) /* PaletteBase */
+     , (37371,   8, 0x0600690F) /* Icon */
+     , (37371,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37371,  50, 0x06005B2E) /* IconOverlay */
      , (37371, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (37371, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37371, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37371, 8000, 3146614431) /* PCAPRecordedObjectIID */;
+VALUES (37371, 8000, 0xBB8D869F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37371, 67111924, 0, 0);

@@ -14,7 +14,8 @@ VALUES (7817,   1,        128) /* ItemType - Misc */
      , (7817, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7817,  22, True ) /* Inscribable */;
+VALUES (7817,  22, True ) /* Inscribable */
+     , (7817,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7817,   1, 'Skull of High Acolyte') /* Name */
@@ -22,13 +23,13 @@ VALUES (7817,   1, 'Skull of High Acolyte') /* Name */
      , (7817,  16, 'The skull of the High Acolyte is covered with moss and green slime. Even so, it looks pretty unique and is probably  worth something to someone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7817,   1,   33556825) /* Setup */
-     , (7817,   3,  536870932) /* SoundTable */
-     , (7817,   8,  100671032) /* Icon */
-     , (7817,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7817,   1, 0x02000959) /* Setup */
+     , (7817,   3, 0x20000014) /* SoundTable */
+     , (7817,   8, 0x06001E38) /* Icon */
+     , (7817,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7817, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (7817, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7817, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7817, 8000, 2919152077) /* PCAPRecordedObjectIID */;
+VALUES (7817, 8000, 0xADFEB9CD) /* PCAPRecordedObjectIID */;

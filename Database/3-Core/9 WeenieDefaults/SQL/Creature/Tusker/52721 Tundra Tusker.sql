@@ -26,21 +26,21 @@ VALUES (52721,   1, 'Tundra Tusker') /* Name */
      , (52721, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52721,   1,   33561141) /* Setup */
-     , (52721,   2,  150994956) /* MotionTable */
-     , (52721,   3,  536870929) /* SoundTable */
-     , (52721,   8,  100667443) /* Icon */
-     , (52721,  22,  872415271) /* PhysicsEffectTable */
+VALUES (52721,   1, 0x02001A35) /* Setup */
+     , (52721,   2, 0x0900000C) /* MotionTable */
+     , (52721,   3, 0x20000011) /* SoundTable */
+     , (52721,   8, 0x06001033) /* Icon */
+     , (52721,  22, 0x34000027) /* PhysicsEffectTable */
      , (52721, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (52721, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (52721, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52721, 8040, 1499529479, 18.64985, -15.73058, 0.01430011, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52721, 8040, 0x59610107, 18.64985, -15.73058, 0.0143, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59610107 [18.649850 -15.730580 0.014300] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52721, 8000, 3694745579) /* PCAPRecordedObjectIID */;
+VALUES (52721, 8000, 0xDC3957EB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (52721,   1,     0, 0, 0, 172725) /* MaxHealth */;

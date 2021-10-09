@@ -24,16 +24,13 @@ VALUES (20586,   1, 'Scroll of Heavy Weapon Mastery Self VII') /* Name */
 Increases the caster''s Heavy Weapons skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20586,   1,   33554826) /* Setup */
-     , (20586,   8,  100692254) /* Icon */
-     , (20586,  22,  872415275) /* PhysicsEffectTable */
-     , (20586,  28,       2309) /* Spell - SwordMasterySelf7 */
+VALUES (20586,   1, 0x0200018A) /* Setup */
+     , (20586,   8, 0x0600711E) /* Icon */
+     , (20586,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20586,  28,       2309) /* Spell - HeavyWeaponsMasterySelf7 */
      , (20586, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20586, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20586, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20586, 8000, 3695926292) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20586, 2, 47390,  1, 0, 0, False) /* Create Flaming Club (47390) for Wield */;
+VALUES (20586, 8000, 0xDC4B5C14) /* PCAPRecordedObjectIID */;

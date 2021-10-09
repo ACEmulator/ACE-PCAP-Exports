@@ -27,21 +27,21 @@ VALUES (41937,   1, 'Lady Saliane') /* Name */
      , (41937, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41937,   1,   33558816) /* Setup */
-     , (41937,   2,  150995302) /* MotionTable */
-     , (41937,   3,  536871094) /* SoundTable */
-     , (41937,   6,   67115251) /* PaletteBase */
-     , (41937,   8,  100676679) /* Icon */
+VALUES (41937,   1, 0x02001120) /* Setup */
+     , (41937,   2, 0x09000166) /* MotionTable */
+     , (41937,   3, 0x200000B6) /* SoundTable */
+     , (41937,   6, 0x040018F3) /* PaletteBase */
+     , (41937,   8, 0x06003447) /* Icon */
      , (41937, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (41937, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (41937, 8005,     362499) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41937, 8040, 1210974518, 20.8826, 37.7151, 3.684, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (41937, 8040, 0x482E0136, 20.8826, 37.7151, 3.684, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x482E0136 [20.882600 37.715100 3.684000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41937, 8000, 3683409279) /* PCAPRecordedObjectIID */;
+VALUES (41937, 8000, 0xDB8C5D7F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (41937,   1,     0, 0, 0, 20250) /* MaxHealth */;

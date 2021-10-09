@@ -32,21 +32,21 @@ VALUES (32928,   1, 'Rabbit Hutch') /* Name */
      , (32928, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32928,   1,   33555471) /* Setup */
-     , (32928,   2,  150994980) /* MotionTable */
-     , (32928,   3,  536870945) /* SoundTable */
-     , (32928,   8,  100688868) /* Icon */
-     , (32928,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32928,   1, 0x0200040F) /* Setup */
+     , (32928,   2, 0x09000024) /* MotionTable */
+     , (32928,   3, 0x20000021) /* SoundTable */
+     , (32928,   8, 0x060063E4) /* Icon */
+     , (32928,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32928, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (32928, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (32928, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32928, 8040, 9896193, 163.545, -120, -48, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (32928, 8040, 0x00970101, 163.545, -120, -48, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00970101 [163.545000 -120.000000 -48.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32928, 8000, 1879666688) /* PCAPRecordedObjectIID */;
+VALUES (32928, 8000, 0x70097000) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32928, -1, 31799, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Acid Compound Bow (31799) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

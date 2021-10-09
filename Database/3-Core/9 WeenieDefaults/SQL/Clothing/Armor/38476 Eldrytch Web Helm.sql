@@ -51,23 +51,23 @@ VALUES (38476,   1, 'Eldrytch Web Helm') /* Name */
      , (38476,  16, 'Eldrytch Web Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38476,   1,   33560112) /* Setup */
-     , (38476,   3,  536870932) /* SoundTable */
-     , (38476,   8,  100690248) /* Icon */
-     , (38476,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38476,   1, 0x02001630) /* Setup */
+     , (38476,   3, 0x20000014) /* SoundTable */
+     , (38476,   8, 0x06006948) /* Icon */
+     , (38476,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38476,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (38476, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (38476, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38476, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38476, 8000, 2996451160) /* PCAPRecordedObjectIID */;
+VALUES (38476, 8000, 0xB29A3758) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38476,  2094,      2)  /* BladeBane7 */
+VALUES (38476,  6084,      2)  /* CantripPiercingWard4 */
+     , (38476,  2094,      2)  /* BladeBane7 */
      , (38476,  2102,      2)  /* FlameBane7 */
-     , (38476,  2108,      2)  /* Impenetrability7 */
-     , (38476,  6084,      2)  /* CantripPiercingWard4 */;
+     , (38476,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (38476, 0, 16794168);

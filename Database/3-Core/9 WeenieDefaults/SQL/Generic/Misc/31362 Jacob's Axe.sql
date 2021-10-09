@@ -14,7 +14,8 @@ VALUES (31362,   1,        128) /* ItemType - Misc */
      , (31362, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31362,  22, True ) /* Inscribable */;
+VALUES (31362,  22, True ) /* Inscribable */
+     , (31362,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31362,   1, 'Jacob''s Axe') /* Name */
@@ -23,13 +24,13 @@ VALUES (31362,   1, 'Jacob''s Axe') /* Name */
      , (31362,  16, 'A well-used axe.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31362,   1,   33554817) /* Setup */
-     , (31362,   3,  536870932) /* SoundTable */
-     , (31362,   8,  100667606) /* Icon */
-     , (31362,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31362,   1, 0x02000181) /* Setup */
+     , (31362,   3, 0x20000014) /* SoundTable */
+     , (31362,   8, 0x060010D6) /* Icon */
+     , (31362,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31362, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (31362, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31362, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31362, 8000, 2618408456) /* PCAPRecordedObjectIID */;
+VALUES (31362, 8000, 0x9C11BE08) /* PCAPRecordedObjectIID */;

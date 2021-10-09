@@ -26,13 +26,13 @@ VALUES (44879,   1, 'Armor Lower Reduction Tool') /* Name */
      , (44879,  16, 'This tool will reduce Sleeves to Bracers and Leggings to Greaves coverage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44879,   1,   33555677) /* Setup */
-     , (44879,   3,  536870932) /* SoundTable */
-     , (44879,   8,  100692209) /* Icon */
-     , (44879,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44879,   1, 0x020004DD) /* Setup */
+     , (44879,   3, 0x20000014) /* SoundTable */
+     , (44879,   8, 0x060070F1) /* Icon */
+     , (44879,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44879, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (44879, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44879, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44879, 8000, 2788806223) /* PCAPRecordedObjectIID */;
+VALUES (44879, 8000, 0xA639CE4F) /* PCAPRecordedObjectIID */;

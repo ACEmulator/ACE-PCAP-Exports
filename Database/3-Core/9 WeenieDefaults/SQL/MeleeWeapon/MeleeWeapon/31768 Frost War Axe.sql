@@ -49,11 +49,11 @@ VALUES (31768,   1, 'Frost War Axe') /* Name */
      , (31768,  16, 'Frost War Axe of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31768,   1,   33555686) /* Setup */
-     , (31768,   3,  536870932) /* SoundTable */
-     , (31768,   6,   67111919) /* PaletteBase */
-     , (31768,   8,  100672847) /* Icon */
-     , (31768,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31768,   1, 0x020004E6) /* Setup */
+     , (31768,   3, 0x20000014) /* SoundTable */
+     , (31768,   6, 0x04000BEF) /* PaletteBase */
+     , (31768,   8, 0x0600254F) /* Icon */
+     , (31768,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31768,  30,         88) /* PhysicsScript - Create */
      , (31768,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (31768, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
@@ -61,12 +61,12 @@ VALUES (31768,   1,   33555686) /* Setup */
      , (31768, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31768, 8000, 3700025728) /* PCAPRecordedObjectIID */;
+VALUES (31768, 8000, 0xDC89E980) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31768,  1590,      2)  /* HeartSeekerSelf4 */
-     , (31768,  1603,      2)  /* DefenderSelf4 */
-     , (31768,  1613,      2)  /* BloodDrinkerSelf3 */;
+VALUES (31768,  1603,      2)  /* DefenderSelf4 */
+     , (31768,  1613,      2)  /* BloodDrinkerSelf3 */
+     , (31768,  1590,      2)  /* HeartSeekerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31768, 67111926, 0, 0);

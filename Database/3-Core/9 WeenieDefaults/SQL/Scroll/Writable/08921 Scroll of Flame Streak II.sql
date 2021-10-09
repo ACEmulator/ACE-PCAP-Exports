@@ -24,13 +24,13 @@ VALUES (8921,   1, 'Scroll of Flame Streak II') /* Name */
 Sends a bolt of flame streaking towards the target.  The bolt does 18-35 points of fire damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8921,   1,   33554826) /* Setup */
-     , (8921,   8,  100677022) /* Icon */
-     , (8921,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8921,   1, 0x0200018A) /* Setup */
+     , (8921,   8, 0x0600359E) /* Icon */
+     , (8921,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8921,  28,       1797) /* Spell - FlameStreak2 */
      , (8921, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (8921, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8921, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8921, 8000, 2264331435) /* PCAPRecordedObjectIID */;
+VALUES (8921, 8000, 0x86F6F4AB) /* PCAPRecordedObjectIID */;

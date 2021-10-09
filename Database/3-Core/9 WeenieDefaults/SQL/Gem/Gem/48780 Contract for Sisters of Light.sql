@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48780,   1, 'Contract for Sisters of Light') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48780,   1,   33557625) /* Setup */
-     , (48780,   3,  536870932) /* SoundTable */
-     , (48780,   8,  100691930) /* Icon */
-     , (48780,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48780,   1, 0x02000C79) /* Setup */
+     , (48780,   3, 0x20000014) /* SoundTable */
+     , (48780,   8, 0x06006FDA) /* Icon */
+     , (48780,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48780, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (48780, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (48780, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (48780,   1,   33557625) /* Setup */
      , (48780, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48780, 8000,      48780) /* PCAPRecordedObjectIID */;
+VALUES (48780, 8000, 0x0000BE8C) /* PCAPRecordedObjectIID */;

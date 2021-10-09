@@ -28,17 +28,17 @@ VALUES (25957,   1, 'Shreth-Gnawed Corpse') /* Name */
      , (25957,  15, 'This corpse has been gnawed upon by a pack of Malus Shreth.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25957,   1,   33556617) /* Setup */
-     , (25957,   3,  536870932) /* SoundTable */
-     , (25957,   8,  100667504) /* Icon */
-     , (25957,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25957,   1, 0x02000889) /* Setup */
+     , (25957,   3, 0x20000014) /* SoundTable */
+     , (25957,   8, 0x06001070) /* Icon */
+     , (25957,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25957, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (25957, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (25957, 8005,      38917) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25957, 8040, 1453522972, 89.10701, 75.81573, 35.8657, -0.1736482, 0, 0, -0.9848077) /* PCAPRecordedLocation */
+VALUES (25957, 8040, 0x56A3001C, 89.10701, 75.81573, 35.8657, -0.173648, 0, 0, -0.984808) /* PCAPRecordedLocation */
 /* @teleloc 0x56A3001C [89.107010 75.815730 35.865700] -0.173648 0.000000 0.000000 -0.984808 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25957, 8000, 3687236079) /* PCAPRecordedObjectIID */;
+VALUES (25957, 8000, 0xDBC6C1EF) /* PCAPRecordedObjectIID */;

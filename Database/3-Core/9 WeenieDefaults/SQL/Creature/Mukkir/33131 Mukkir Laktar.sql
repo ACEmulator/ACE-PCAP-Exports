@@ -26,23 +26,23 @@ VALUES (33131,   1, 'Mukkir Laktar') /* Name */
      , (33131, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33131,   1,   33559858) /* Setup */
-     , (33131,   2,  150995348) /* MotionTable */
-     , (33131,   3,  536871107) /* SoundTable */
-     , (33131,   6,   67116771) /* PaletteBase */
-     , (33131,   8,  100688542) /* Icon */
-     , (33131,  22,  872415417) /* PhysicsEffectTable */
+VALUES (33131,   1, 0x02001532) /* Setup */
+     , (33131,   2, 0x09000194) /* MotionTable */
+     , (33131,   3, 0x200000C3) /* SoundTable */
+     , (33131,   6, 0x04001EE3) /* PaletteBase */
+     , (33131,   8, 0x0600629E) /* Icon */
+     , (33131,  22, 0x340000B9) /* PhysicsEffectTable */
      , (33131,  30,         87) /* PhysicsScript - BreatheLightning */
      , (33131, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33131, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33131, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33131, 8040, 7734227, 136.0816, -67.01636, -30, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33131, 8040, 0x007603D3, 136.0816, -67.01636, -30, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x007603D3 [136.081600 -67.016360 -30.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33131, 8000, 3359105572) /* PCAPRecordedObjectIID */;
+VALUES (33131, 8000, 0xC837E224) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33131,   1, 500, 0, 0) /* Strength */
@@ -108,7 +108,8 @@ VALUES (33131, 9, 20468,  0, 0, 0, False) /* Create Scroll of Boon of the Blade 
      , (33131, 9, 29247,  0, 0, 0, False) /* Create Electric Crossbow (29247) for ContainTreasure */
      , (33131, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
      , (33131, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
-     , (33131, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */;
+     , (33131, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (33131, 9, 45121,  0, 0, 0, False) /* Create Flaming Hand Wraps (45121) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33131, 67116778, 0, 0);

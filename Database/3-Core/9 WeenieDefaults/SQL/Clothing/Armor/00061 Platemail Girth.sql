@@ -44,17 +44,17 @@ VALUES (61,   1, 'Platemail Girth') /* Name */
      , (61,  16, 'Platemail Girth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (61,   1,   33554647) /* Setup */
-     , (61,   3,  536870932) /* SoundTable */
-     , (61,   6,   67108990) /* PaletteBase */
-     , (61,   8,  100669333) /* Icon */
-     , (61,  22,  872415275) /* PhysicsEffectTable */
+VALUES (61,   1, 0x020000D7) /* Setup */
+     , (61,   3, 0x20000014) /* SoundTable */
+     , (61,   6, 0x0400007E) /* PaletteBase */
+     , (61,   8, 0x06001795) /* Icon */
+     , (61,  22, 0x3400002B) /* PhysicsEffectTable */
      , (61, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (61, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (61, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (61, 8000, 3701256164) /* PCAPRecordedObjectIID */;
+VALUES (61, 8000, 0xDC9CAFE4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (61,  1485,      2)  /* Impenetrability5 */

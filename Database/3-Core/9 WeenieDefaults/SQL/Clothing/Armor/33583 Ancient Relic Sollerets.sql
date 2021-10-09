@@ -43,22 +43,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33583,   1, 'Ancient Relic Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33583,   1,   33554654) /* Setup */
-     , (33583,   3,  536870932) /* SoundTable */
-     , (33583,   8,  100673453) /* Icon */
-     , (33583,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33583,   1, 0x020000DE) /* Setup */
+     , (33583,   3, 0x20000014) /* SoundTable */
+     , (33583,   8, 0x060027AD) /* Icon */
+     , (33583,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33583, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (33583, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33583, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33583, 8000, 2622938458) /* PCAPRecordedObjectIID */;
+VALUES (33583, 8000, 0x9C56DD5A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33583,  2620,      2)  /* CANTRIPPIERCINGWARD1 */
+VALUES (33583,  3094,      2)  /* SkinFiazhat */
      , (33583,  2662,      2)  /* ModerateQuickness */
-     , (33583,  3094,      2)  /* SkinFiazhat */
-     , (33583,  3311,      2)  /* LanceAegis */;
+     , (33583,  3311,      2)  /* LanceAegis */
+     , (33583,  2620,      2)  /* CANTRIPPIERCINGWARD1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (33583, 0, 83889344, 83897516)

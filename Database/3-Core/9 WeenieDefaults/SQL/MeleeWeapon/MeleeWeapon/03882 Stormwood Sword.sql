@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3882,   1,          1) /* ItemType - MeleeWeapon */
      , (3882,   5,        262) /* EncumbranceVal */
      , (3882,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (3882,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (3882,  16,          1) /* ItemUseable - No */
      , (3882,  18,         65) /* UiEffects - Magical, Lightning */
      , (3882,  19,      14194) /* Value */
@@ -55,13 +54,13 @@ VALUES (3882,   1, 'Stormwood Sword') /* Name */
      , (3882,  16, 'Lightning Long Sword of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3882,   1,   33561671) /* Setup */
-     , (3882,   3,  536870932) /* SoundTable */
-     , (3882,   8,  100693342) /* Icon */
-     , (3882,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3882,   1, 0x02001C47) /* Setup */
+     , (3882,   3, 0x20000014) /* SoundTable */
+     , (3882,   8, 0x0600755E) /* Icon */
+     , (3882,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3882,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (3882,  50,  100688854) /* IconOverlay */
-     , (3882,  52,  100676436) /* IconUnderlay */
+     , (3882,  50, 0x060063D6) /* IconOverlay */
+     , (3882,  52, 0x06003354) /* IconUnderlay */
      , (3882, 8001, 3508765336) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (3882, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (3882, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -69,12 +68,12 @@ VALUES (3882,   1,   33561671) /* Setup */
      , (3882, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3882, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (3882, 8040, 0x016C01BC, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3882, 8000, 2183167592) /* PCAPRecordedObjectIID */
-     , (3882, 8008, 1342789086) /* PCAPRecordedParentIID */;
+VALUES (3882, 8000, 0x82207E68) /* PCAPRecordedObjectIID */
+     , (3882, 8008, 0x500955DE) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3882,  2096,      2)  /* BloodDrinkerSelf7 */

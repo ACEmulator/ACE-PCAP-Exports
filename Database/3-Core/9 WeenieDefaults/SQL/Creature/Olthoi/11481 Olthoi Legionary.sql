@@ -25,23 +25,23 @@ VALUES (11481,   1, 'Olthoi Legionary') /* Name */
      , (11481, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11481,   1,   33557162) /* Setup */
-     , (11481,   2,  150994946) /* MotionTable */
-     , (11481,   3,  536870925) /* SoundTable */
-     , (11481,   6,   67113236) /* PaletteBase */
-     , (11481,   8,  100667623) /* Icon */
-     , (11481,  22,  872415265) /* PhysicsEffectTable */
+VALUES (11481,   1, 0x02000AAA) /* Setup */
+     , (11481,   2, 0x09000002) /* MotionTable */
+     , (11481,   3, 0x2000000D) /* SoundTable */
+     , (11481,   6, 0x04001114) /* PaletteBase */
+     , (11481,   8, 0x060010E7) /* Icon */
+     , (11481,  22, 0x34000021) /* PhysicsEffectTable */
      , (11481,  30,         86) /* PhysicsScript - BreatheAcid */
      , (11481, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (11481, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (11481, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11481, 8040, 2295398431, 93.5499, 144.6004, 153.8459, -0.2594765, 0, 0, -0.9657494) /* PCAPRecordedLocation */
+VALUES (11481, 8040, 0x88D1001F, 93.5499, 144.6004, 153.8459, -0.259477, 0, 0, -0.965749) /* PCAPRecordedLocation */
 /* @teleloc 0x88D1001F [93.549900 144.600400 153.845900] -0.259477 0.000000 0.000000 -0.965749 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11481, 8000, 3685886849) /* PCAPRecordedObjectIID */;
+VALUES (11481, 8000, 0xDBB22B81) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11481,   1, 280, 0, 0) /* Strength */
@@ -432,7 +432,17 @@ VALUES (11481, 9,  3267,  0, 0, 0, False) /* Create Scroll of Fealty Self VI (32
      , (11481, 9,   354,  0, 0, 0, False) /* Create Takuba (354) for ContainTreasure */
      , (11481, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
      , (11481, 9,  3182,  0, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Other VI (3182) for ContainTreasure */
-     , (11481, 9, 40705,  0, 0, 0, False) /* Create Covenant Sollerets (40705) for ContainTreasure */;
+     , (11481, 9, 40705,  0, 0, 0, False) /* Create Covenant Sollerets (40705) for ContainTreasure */
+     , (11481, 9, 45119,  0, 0, 0, False) /* Create Acid Hand Wraps (45119) for ContainTreasure */
+     , (11481, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (11481, 9, 31773,  0, 0, 0, False) /* Create Frost Board with Nail (31773) for ContainTreasure */
+     , (11481, 9, 49339,  0, 0, 0, False) /* Create Acid Moar Essence (80) (49339) for ContainTreasure */
+     , (11481, 9,  3252,  0, 0, 0, False) /* Create Scroll of Defenselessness VI (3252) for ContainTreasure */
+     , (11481, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */
+     , (11481, 9, 31767,  0, 0, 0, False) /* Create Flaming Lugian Hammer (31767) for ContainTreasure */
+     , (11481, 9, 20404,  0, 0, 0, False) /* Create Scroll of Swordsman's Bane (20404) for ContainTreasure */
+     , (11481, 9, 28628,  0, 0, 0, False) /* Create Diforsa Breastplate (28628) for ContainTreasure */
+     , (11481, 9, 45115,  0, 0, 0, False) /* Create Lightning Hammer (45115) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11481, 67113317, 0, 0);

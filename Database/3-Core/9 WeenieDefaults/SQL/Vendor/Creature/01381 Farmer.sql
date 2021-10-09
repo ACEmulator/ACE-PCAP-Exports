@@ -36,27 +36,27 @@ VALUES (1381,   1, 'Farmer') /* Name */
      , (1381, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1381,   1,   33554433) /* Setup */
-     , (1381,   2,  150994945) /* MotionTable */
-     , (1381,   3,  536870913) /* SoundTable */
-     , (1381,   6,   67108990) /* PaletteBase */
-     , (1381,   8,  100667446) /* Icon */
-     , (1381,   9,   83890509) /* EyesTexture */
-     , (1381,  10,   83890559) /* NoseTexture */
-     , (1381,  11,   83890659) /* MouthTexture */
-     , (1381,  15,   67116993) /* HairPalette */
-     , (1381,  16,   67109565) /* EyesPalette */
-     , (1381,  17,   67109558) /* SkinPalette */
+VALUES (1381,   1, 0x02000001) /* Setup */
+     , (1381,   2, 0x09000001) /* MotionTable */
+     , (1381,   3, 0x20000001) /* SoundTable */
+     , (1381,   6, 0x0400007E) /* PaletteBase */
+     , (1381,   8, 0x06001036) /* Icon */
+     , (1381,   9, 0x0500114D) /* EyesTexture */
+     , (1381,  10, 0x0500117F) /* NoseTexture */
+     , (1381,  11, 0x050011E3) /* MouthTexture */
+     , (1381,  15, 0x04001FC1) /* HairPalette */
+     , (1381,  16, 0x040002BD) /* EyesPalette */
+     , (1381,  17, 0x040002B6) /* SkinPalette */
      , (1381, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (1381, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (1381, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1381, 8040, 1691681057, 60.8419, 84.7625, 78.005, -0.9976351, 0, 0, -0.06873373) /* PCAPRecordedLocation */
+VALUES (1381, 8040, 0x64D50121, 60.8419, 84.7625, 78.005, -0.997635, 0, 0, -0.068734) /* PCAPRecordedLocation */
 /* @teleloc 0x64D50121 [60.841900 84.762500 78.005000] -0.997635 0.000000 0.000000 -0.068734 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1381, 8000, 1984778257) /* PCAPRecordedObjectIID */;
+VALUES (1381, 8000, 0x764D5011) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1381,   1,  75, 0, 0) /* Strength */
@@ -73,6 +73,8 @@ VALUES (1381,   1,    90, 0, 0, 130) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1381, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (1381, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (1381, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (1381, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (1381, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
      , (1381, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */

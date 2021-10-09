@@ -20,14 +20,14 @@ VALUES (4729,   1, 'Fried Egg') /* Name */
      , (4729,  20, 'Fried Eggs') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4729,   1,   33556220) /* Setup */
-     , (4729,   3,  536870932) /* SoundTable */
-     , (4729,   8,  100669960) /* Icon */
-     , (4729,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4729,   1, 0x020006FC) /* Setup */
+     , (4729,   3, 0x20000014) /* SoundTable */
+     , (4729,   8, 0x06001A08) /* Icon */
+     , (4729,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4729, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (4729, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (4729, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
      , (4729, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4729, 8000,       4729) /* PCAPRecordedObjectIID */;
+VALUES (4729, 8000, 0x00001279) /* PCAPRecordedObjectIID */;

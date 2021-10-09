@@ -36,10 +36,10 @@ VALUES (27771,   1, 'Entrancing Adjanite Gem') /* Name */
      , (27771,  15, 'A green portal gem surrounded by a clasp and held by an amethyst cradle.  ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27771,   1,   33558803) /* Setup */
-     , (27771,   3,  536870932) /* SoundTable */
-     , (27771,   8,  100676634) /* Icon */
-     , (27771,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27771,   1, 0x02001113) /* Setup */
+     , (27771,   3, 0x20000014) /* SoundTable */
+     , (27771,   8, 0x0600341A) /* Icon */
+     , (27771,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27771,  28,        157) /* Spell - SummonPortal1 */
      , (27771, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (27771, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -47,4 +47,4 @@ VALUES (27771,   1,   33558803) /* Setup */
      , (27771, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27771, 8000, 2192743755) /* PCAPRecordedObjectIID */;
+VALUES (27771, 8000, 0x82B29D4B) /* PCAPRecordedObjectIID */;

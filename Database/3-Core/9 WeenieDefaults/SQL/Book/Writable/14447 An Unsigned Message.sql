@@ -22,22 +22,22 @@ VALUES (14447,   1, 'An Unsigned Message') /* Name */
      , (14447,  15, 'A note.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14447,   1,   33557474) /* Setup */
-     , (14447,   3,  536870932) /* SoundTable */
-     , (14447,   8,  100672466) /* Icon */
-     , (14447,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14447,   1, 0x02000BE2) /* Setup */
+     , (14447,   3, 0x20000014) /* SoundTable */
+     , (14447,   8, 0x060023D2) /* Icon */
+     , (14447,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14447, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (14447, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (14447, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14447, 8000, 3658163544) /* PCAPRecordedObjectIID */;
+VALUES (14447, 8000, 0xDA0B2558) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (14447, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (14447, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'I have seeded one of my farmers in the cove of Yaraq. He will procure only the greenest of the crops for your harvest. Old Man Witshire''s granaries are nearly ready to be filled.  I need not emphasize the importance of your mission. Do not disappoint me again.
+VALUES (14447, 0, 4294967295, '', 'prewritten', False, 'I have seeded one of my farmers in the cove of Yaraq. He will procure only the greenest of the crops for your harvest. Old Man Witshire''s granaries are nearly ready to be filled.  I need not emphasize the importance of your mission. Do not disappoint me again.
 
 (unsigned)
 

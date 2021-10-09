@@ -23,16 +23,16 @@ VALUES (25835,   1, 'Firebird''s Splendor') /* Name */
      , (25835, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25835,   1,   33555926) /* Setup */
-     , (25835,   2,  150994947) /* MotionTable */
-     , (25835,   8,  100667499) /* Icon */
+VALUES (25835,   1, 0x020005D6) /* Setup */
+     , (25835,   2, 0x09000003) /* MotionTable */
+     , (25835,   8, 0x0600106B) /* Icon */
      , (25835, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (25835, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (25835, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25835, 8040, 3527147572, 161.6, 77.3654, 384.0623, -0.501408, 0, 0, 0.865211) /* PCAPRecordedLocation */
+VALUES (25835, 8040, 0xD23C0034, 161.6, 77.3654, 384.0623, -0.501408, 0, 0, 0.865211) /* PCAPRecordedLocation */
 /* @teleloc 0xD23C0034 [161.600000 77.365400 384.062300] -0.501408 0.000000 0.000000 0.865211 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25835, 8000, 2099494912) /* PCAPRecordedObjectIID */;
+VALUES (25835, 8000, 0x7D23C000) /* PCAPRecordedObjectIID */;

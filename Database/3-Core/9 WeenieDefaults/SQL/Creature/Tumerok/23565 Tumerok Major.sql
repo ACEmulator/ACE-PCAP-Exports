@@ -25,22 +25,22 @@ VALUES (23565,   1, 'Tumerok Major') /* Name */
      , (23565, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23565,   1,   33559557) /* Setup */
-     , (23565,   2,  150994954) /* MotionTable */
-     , (23565,   3,  536870931) /* SoundTable */
-     , (23565,   6,   67116625) /* PaletteBase */
-     , (23565,   8,  100667452) /* Icon */
-     , (23565,  22,  872415270) /* PhysicsEffectTable */
+VALUES (23565,   1, 0x02001405) /* Setup */
+     , (23565,   2, 0x0900000A) /* MotionTable */
+     , (23565,   3, 0x20000013) /* SoundTable */
+     , (23565,   6, 0x04001E51) /* PaletteBase */
+     , (23565,   8, 0x0600103C) /* Icon */
+     , (23565,  22, 0x34000026) /* PhysicsEffectTable */
      , (23565, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (23565, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (23565, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23565, 8040, 1486749725, 94.47797, 107.0622, 23.82023, 0.9961947, 0, 0, -0.08715574) /* PCAPRecordedLocation */
+VALUES (23565, 8040, 0x589E001D, 94.47797, 107.0622, 23.82023, 0.996195, 0, 0, -0.087156) /* PCAPRecordedLocation */
 /* @teleloc 0x589E001D [94.477970 107.062200 23.820230] 0.996195 0.000000 0.000000 -0.087156 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23565, 8000, 3686791265) /* PCAPRecordedObjectIID */;
+VALUES (23565, 8000, 0xDBBFF861) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23565,   1, 200, 0, 0) /* Strength */
@@ -360,7 +360,11 @@ VALUES (23565, 2, 23686,  1, 0, 0, False) /* Create Kite Shield (23686) for Wiel
      , (23565, 9, 45434,  0, 0, 0, False) /* Create Flaming Khanjar (45434) for ContainTreasure */
      , (23565, 9, 31763,  0, 0, 0, False) /* Create Frost Lugian Hammer (31763) for ContainTreasure */
      , (23565, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (23565, 9, 30558,  0, 0, 0, False) /* Create Lightning Hatchet (30558) for ContainTreasure */;
+     , (23565, 9, 30558,  0, 0, 0, False) /* Create Lightning Hatchet (30558) for ContainTreasure */
+     , (23565, 9, 20244,  0, 0, 0, False) /* Create Scroll of Adja's Gift (20244) for ContainTreasure */
+     , (23565, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
+     , (23565, 9,  2461,  1, 0, 0, False) /* Create Mana Elixir (2461) for ContainTreasure */
+     , (23565, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23565, 67116625, 105, 48)

@@ -29,13 +29,13 @@ VALUES (11817,   1, 'Shreth Crest') /* Name */
      , (11817,  16, 'A Shreth Crest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11817,   1,   33557280) /* Setup */
-     , (11817,   3,  536870932) /* SoundTable */
-     , (11817,   8,  100671947) /* Icon */
-     , (11817,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11817,   1, 0x02000B20) /* Setup */
+     , (11817,   3, 0x20000014) /* SoundTable */
+     , (11817,   8, 0x060021CB) /* Icon */
+     , (11817,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11817, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11817, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11817, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11817, 8000, 3329575072) /* PCAPRecordedObjectIID */;
+VALUES (11817, 8000, 0xC67548A0) /* PCAPRecordedObjectIID */;

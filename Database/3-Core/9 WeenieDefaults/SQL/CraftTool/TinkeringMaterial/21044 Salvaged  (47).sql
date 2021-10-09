@@ -35,18 +35,18 @@ VALUES (21044,   1, 'Salvaged  (47)') /* Name */
      , (21044,  15, 'Chips of citrine material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21044,   1,   33554817) /* Setup */
-     , (21044,   3,  536870932) /* SoundTable */
-     , (21044,   6,   67111919) /* PaletteBase */
-     , (21044,   8,  100673214) /* Icon */
-     , (21044,  22,  872415275) /* PhysicsEffectTable */
-     , (21044,  50,  100673268) /* IconOverlay */
+VALUES (21044,   1, 0x02000181) /* Setup */
+     , (21044,   3, 0x20000014) /* SoundTable */
+     , (21044,   6, 0x04000BEF) /* PaletteBase */
+     , (21044,   8, 0x060026BE) /* Icon */
+     , (21044,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21044,  50, 0x060026F4) /* IconOverlay */
      , (21044, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (21044, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21044, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21044, 8000, 2157267539) /* PCAPRecordedObjectIID */;
+VALUES (21044, 8000, 0x80954A53) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21044, 67111918, 0, 0);

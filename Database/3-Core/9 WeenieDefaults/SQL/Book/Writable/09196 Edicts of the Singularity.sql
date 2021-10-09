@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9196,   1, 'Edicts of the Singularity') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9196,   1,   33554773) /* Setup */
-     , (9196,   3,  536870932) /* SoundTable */
-     , (9196,   8,  100668176) /* Icon */
-     , (9196,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9196,   1, 0x02000155) /* Setup */
+     , (9196,   3, 0x20000014) /* SoundTable */
+     , (9196,   8, 0x06001310) /* Icon */
+     , (9196,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9196, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (9196, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (9196, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9196, 8000, 2584296001) /* PCAPRecordedObjectIID */;
+VALUES (9196, 8000, 0x9A093A41) /* PCAPRecordedObjectIID */;

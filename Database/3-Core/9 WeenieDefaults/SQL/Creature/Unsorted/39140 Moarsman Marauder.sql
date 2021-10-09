@@ -24,23 +24,23 @@ VALUES (39140,   1, 'Moarsman Marauder') /* Name */
      , (39140, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39140,   1,   33556882) /* Setup */
-     , (39140,   2,  150995104) /* MotionTable */
-     , (39140,   3,  536871018) /* SoundTable */
-     , (39140,   6,   67112872) /* PaletteBase */
-     , (39140,   8,  100671185) /* Icon */
-     , (39140,  22,  872415337) /* PhysicsEffectTable */
+VALUES (39140,   1, 0x02000992) /* Setup */
+     , (39140,   2, 0x090000A0) /* MotionTable */
+     , (39140,   3, 0x2000006A) /* SoundTable */
+     , (39140,   6, 0x04000FA8) /* PaletteBase */
+     , (39140,   8, 0x06001ED1) /* Icon */
+     , (39140,  22, 0x34000069) /* PhysicsEffectTable */
      , (39140,  30,         84) /* PhysicsScript - BreatheFlame */
      , (39140, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (39140, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (39140, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39140, 8040, 13304129, 63.3604, -23.9931, -29.9936, 0.9980528, 0, 0, 0.06237499) /* PCAPRecordedLocation */
+VALUES (39140, 8040, 0x00CB0141, 63.3604, -23.9931, -29.9936, 0.998053, 0, 0, 0.062375) /* PCAPRecordedLocation */
 /* @teleloc 0x00CB0141 [63.360400 -23.993100 -29.993600] 0.998053 0.000000 0.000000 0.062375 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39140, 8000, 3332247662) /* PCAPRecordedObjectIID */;
+VALUES (39140, 8000, 0xC69E106E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39140, 67115231, 0, 0);

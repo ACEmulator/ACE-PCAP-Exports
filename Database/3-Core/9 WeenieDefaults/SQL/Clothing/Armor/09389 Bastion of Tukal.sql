@@ -33,17 +33,17 @@ VALUES (9389,   1, 'Bastion of Tukal') /* Name */
      , (9389,  16, 'A chestplate with the seal of Linvak Tukal on the chest.  The armor is elegant yet simple, and sturdily crafted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9389,   1,   33554644) /* Setup */
-     , (9389,   3,  536870932) /* SoundTable */
-     , (9389,   6,   67108990) /* PaletteBase */
-     , (9389,   8,  100671501) /* Icon */
-     , (9389,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9389,   1, 0x020000D4) /* Setup */
+     , (9389,   3, 0x20000014) /* SoundTable */
+     , (9389,   6, 0x0400007E) /* PaletteBase */
+     , (9389,   8, 0x0600200D) /* Icon */
+     , (9389,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9389, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (9389, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9389, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9389, 8000, 2157272685) /* PCAPRecordedObjectIID */;
+VALUES (9389, 8000, 0x80955E6D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9389, 67113177, 72, 8)

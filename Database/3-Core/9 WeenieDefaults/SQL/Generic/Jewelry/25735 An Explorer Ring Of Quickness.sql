@@ -28,17 +28,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25735,   1, 'An Explorer Ring Of Quickness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25735,   1,   33554691) /* Setup */
-     , (25735,   3,  536870932) /* SoundTable */
-     , (25735,   6,   67111919) /* PaletteBase */
-     , (25735,   8,  100675466) /* Icon */
-     , (25735,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25735,   1, 0x02000103) /* Setup */
+     , (25735,   3, 0x20000014) /* SoundTable */
+     , (25735,   6, 0x04000BEF) /* PaletteBase */
+     , (25735,   8, 0x06002F8A) /* Icon */
+     , (25735,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25735, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (25735, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25735, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25735, 8000, 3327046057) /* PCAPRecordedObjectIID */;
+VALUES (25735, 8000, 0xC64EB1A9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25735,  1405,      2)  /* QuicknessOther3 */;

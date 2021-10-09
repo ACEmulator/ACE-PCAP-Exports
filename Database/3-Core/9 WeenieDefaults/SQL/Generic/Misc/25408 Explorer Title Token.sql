@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25408,   1, 'Explorer Title Token') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25408,   1,   33558119) /* Setup */
-     , (25408,   3,  536870932) /* SoundTable */
-     , (25408,   8,  100674823) /* Icon */
-     , (25408,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25408,   1, 0x02000E67) /* Setup */
+     , (25408,   3, 0x20000014) /* SoundTable */
+     , (25408,   8, 0x06002D07) /* Icon */
+     , (25408,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25408, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (25408, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25408, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25408, 8000, 3611373192) /* PCAPRecordedObjectIID */;
+VALUES (25408, 8000, 0xD7412E88) /* PCAPRecordedObjectIID */;

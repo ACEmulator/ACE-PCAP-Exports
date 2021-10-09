@@ -17,6 +17,7 @@ VALUES (25982,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25982,  22, True ) /* Inscribable */
+     , (25982,  23, True ) /* DestroyOnSell */
      , (25982, 100, True ) /* Dyable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,17 +35,17 @@ VALUES (25982,   1, 'Battle Pants') /* Name */
      , (25982,  16, 'Loose pants originally used to protect the legs from carenzi while running like a mite through Marae Lassal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25982,   1,   33554856) /* Setup */
-     , (25982,   3,  536870932) /* SoundTable */
-     , (25982,   6,   67108990) /* PaletteBase */
-     , (25982,   8,  100675714) /* Icon */
-     , (25982,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25982,   1, 0x020001A8) /* Setup */
+     , (25982,   3, 0x20000014) /* SoundTable */
+     , (25982,   6, 0x0400007E) /* PaletteBase */
+     , (25982,   8, 0x06003082) /* Icon */
+     , (25982,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25982, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (25982, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25982, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25982, 8000, 3441907146) /* PCAPRecordedObjectIID */;
+VALUES (25982, 8000, 0xCD2755CA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25982, 67114858, 136, 24)

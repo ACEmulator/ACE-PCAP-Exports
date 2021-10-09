@@ -16,6 +16,7 @@ VALUES (51704,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51704,  22, True ) /* Inscribable */
+     , (51704,  23, True ) /* DestroyOnSell */
      , (51704,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -23,17 +24,17 @@ VALUES (51704,   1, 'Shroud of Envy') /* Name */
      , (51704,  16, 'A scrap of cloth torn from the Apparition of Envy. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51704,   1,   33554854) /* Setup */
-     , (51704,   3,  536870932) /* SoundTable */
-     , (51704,   6,   67108990) /* PaletteBase */
-     , (51704,   8,  100693210) /* Icon */
-     , (51704,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51704,   1, 0x020001A6) /* Setup */
+     , (51704,   3, 0x20000014) /* SoundTable */
+     , (51704,   6, 0x0400007E) /* PaletteBase */
+     , (51704,   8, 0x060074DA) /* Icon */
+     , (51704,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51704, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (51704, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51704, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51704, 8000, 3632370243) /* PCAPRecordedObjectIID */;
+VALUES (51704, 8000, 0xD8819243) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51704, 67110014, 92, 4)

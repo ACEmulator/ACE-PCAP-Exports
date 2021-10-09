@@ -32,13 +32,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28863,   1, 'Burun Ruuk Mask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28863,   1,   33558994) /* Setup */
-     , (28863,   3,  536870932) /* SoundTable */
-     , (28863,   8,  100677080) /* Icon */
-     , (28863,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28863,   1, 0x020011D2) /* Setup */
+     , (28863,   3, 0x20000014) /* SoundTable */
+     , (28863,   8, 0x060035D8) /* Icon */
+     , (28863,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28863, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (28863, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28863, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28863, 8000, 2982968625) /* PCAPRecordedObjectIID */;
+VALUES (28863, 8000, 0xB1CC7D31) /* PCAPRecordedObjectIID */;

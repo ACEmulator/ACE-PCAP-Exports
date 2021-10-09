@@ -38,16 +38,16 @@ VALUES (44982,   1, 'Creeping Blight Cloak') /* Name */
      , (44982,   8, 'The Guardian of Lost Light') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44982,   1,   33561386) /* Setup */
-     , (44982,   3,  536870932) /* SoundTable */
-     , (44982,   8,  100692134) /* Icon */
-     , (44982,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44982,   1, 0x02001B2A) /* Setup */
+     , (44982,   3, 0x20000014) /* SoundTable */
+     , (44982,   8, 0x060070A6) /* Icon */
+     , (44982,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44982, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (44982, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44982, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44982, 8000, 2648348198) /* PCAPRecordedObjectIID */;
+VALUES (44982, 8000, 0x9DDA9626) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (44982, 0, 16795852);

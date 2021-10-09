@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44157,   1, 'Contract for Assault (Low)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44157,   1,   33554773) /* Setup */
-     , (44157,   3,  536870932) /* SoundTable */
-     , (44157,   8,  100691929) /* Icon */
-     , (44157,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44157,   1, 0x02000155) /* Setup */
+     , (44157,   3, 0x20000014) /* SoundTable */
+     , (44157,   8, 0x06006FD9) /* Icon */
+     , (44157,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44157, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44157, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44157, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44157, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44157, 8000, 3704942457) /* PCAPRecordedObjectIID */;
+VALUES (44157, 8000, 0xDCD4EF79) /* PCAPRecordedObjectIID */;

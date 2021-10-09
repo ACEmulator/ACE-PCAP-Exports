@@ -24,13 +24,13 @@ VALUES (20489,   1, 'Scroll of Battlemage''s Boon') /* Name */
 Increases the target''s natural mana rate by 115%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20489,   1,   33554826) /* Setup */
-     , (20489,   8,  100676939) /* Icon */
-     , (20489,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20489,   1, 0x0200018A) /* Setup */
+     , (20489,   8, 0x0600354B) /* Icon */
+     , (20489,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20489,  28,       2182) /* Spell - ManaRenewalOther7 */
      , (20489, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20489, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20489, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20489, 8000, 3706736942) /* PCAPRecordedObjectIID */;
+VALUES (20489, 8000, 0xDCF0512E) /* PCAPRecordedObjectIID */;

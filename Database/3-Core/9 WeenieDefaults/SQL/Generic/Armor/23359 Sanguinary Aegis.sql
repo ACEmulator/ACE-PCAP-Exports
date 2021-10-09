@@ -43,17 +43,17 @@ VALUES (23359,   1, 'Sanguinary Aegis') /* Name */
      , (23359,  25, 'Ripley') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23359,   1,   33555835) /* Setup */
-     , (23359,   3,  536870932) /* SoundTable */
-     , (23359,   6,   67111919) /* PaletteBase */
-     , (23359,   8,  100669660) /* Icon */
-     , (23359,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23359,   1, 0x0200057B) /* Setup */
+     , (23359,   3, 0x20000014) /* SoundTable */
+     , (23359,   6, 0x04000BEF) /* PaletteBase */
+     , (23359,   8, 0x060018DC) /* Icon */
+     , (23359,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23359, 8001,  270615056) /* PCAPRecordedWeenieHeader - Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23359, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23359, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23359, 8000, 2186220611) /* PCAPRecordedObjectIID */;
+VALUES (23359, 8000, 0x824F1443) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23359, 67111924, 0, 0);

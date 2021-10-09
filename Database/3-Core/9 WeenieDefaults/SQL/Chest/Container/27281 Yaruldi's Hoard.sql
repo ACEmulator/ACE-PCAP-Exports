@@ -31,21 +31,21 @@ VALUES (27281,   1, 'Yaruldi''s Hoard') /* Name */
      , (27281, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27281,   1,   33558675) /* Setup */
-     , (27281,   2,  150995247) /* MotionTable */
-     , (27281,   3,  536870950) /* SoundTable */
-     , (27281,   8,  100676401) /* Icon */
-     , (27281,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27281,   1, 0x02001093) /* Setup */
+     , (27281,   2, 0x0900012F) /* MotionTable */
+     , (27281,   3, 0x20000026) /* SoundTable */
+     , (27281,   8, 0x06003331) /* Icon */
+     , (27281,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27281, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (27281, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (27281, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27281, 8040, 1699217695, 89.9331, -156.207, -84.00216, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (27281, 8040, 0x6548011F, 89.9331, -156.207, -84.00216, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x6548011F [89.933100 -156.207000 -84.002160] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27281, 8000, 1985249524) /* PCAPRecordedObjectIID */;
+VALUES (27281, 8000, 0x765480F4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27281, -1, 42108, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Shadow Gem (42108) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

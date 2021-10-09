@@ -23,12 +23,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25761,   1, 'Doorbell') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25761,   1,   33554714) /* Setup */
-     , (25761,   3,  536871075) /* SoundTable */
-     , (25761,   8,  100675562) /* Icon */
+VALUES (25761,   1, 0x0200011A) /* Setup */
+     , (25761,   3, 0x200000A3) /* SoundTable */
+     , (25761,   8, 0x06002FEA) /* Icon */
      , (25761, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
      , (25761, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25761, 8005,     133249) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25761, 8000, 2906759653) /* PCAPRecordedObjectIID */;
+VALUES (25761, 8000, 0xAD41A1E5) /* PCAPRecordedObjectIID */;

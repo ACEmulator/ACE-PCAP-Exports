@@ -19,17 +19,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9061,   1, 'Hasina''s Mortar and Pestle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9061,   1,   33555966) /* Setup */
-     , (9061,   3,  536870932) /* SoundTable */
-     , (9061,   8,  100670116) /* Icon */
-     , (9061,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9061,   1, 0x020005FE) /* Setup */
+     , (9061,   3, 0x20000014) /* SoundTable */
+     , (9061,   8, 0x06001AA4) /* Icon */
+     , (9061,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9061, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (9061, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (9061, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9061, 8040, 2519334975, 176.6759, 154.9265, 98.62389, 0.9659258, 0, 0, -0.258819) /* PCAPRecordedLocation */
+VALUES (9061, 8040, 0x962A003F, 176.6759, 154.9265, 98.62389, 0.965926, 0, 0, -0.258819) /* PCAPRecordedLocation */
 /* @teleloc 0x962A003F [176.675900 154.926500 98.623890] 0.965926 0.000000 0.000000 -0.258819 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9061, 8000, 3361098267) /* PCAPRecordedObjectIID */;
+VALUES (9061, 8000, 0xC8564A1B) /* PCAPRecordedObjectIID */;

@@ -22,16 +22,16 @@ VALUES (6094,   1, 'Glenden Wood Meeting Hall Portal') /* Name */
      , (6094, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6094,   1,   33554867) /* Setup */
-     , (6094,   2,  150994947) /* MotionTable */
-     , (6094,   8,  100667499) /* Icon */
+VALUES (6094,   1, 0x020001B3) /* Setup */
+     , (6094,   2, 0x09000003) /* MotionTable */
+     , (6094,   8, 0x0600106B) /* Icon */
      , (6094, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (6094, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (6094, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6094, 8040, 2711880039, 135.881, 174.368, 51.937, -0.7145279, 0, 0, 0.6996069) /* PCAPRecordedLocation */
+VALUES (6094, 8040, 0xA1A40167, 135.881, 174.368, 51.937, -0.714528, 0, 0, 0.699607) /* PCAPRecordedLocation */
 /* @teleloc 0xA1A40167 [135.881000 174.368000 51.937000] -0.714528 0.000000 0.000000 0.699607 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6094, 8000, 2048540768) /* PCAPRecordedObjectIID */;
+VALUES (6094, 8000, 0x7A1A4060) /* PCAPRecordedObjectIID */;

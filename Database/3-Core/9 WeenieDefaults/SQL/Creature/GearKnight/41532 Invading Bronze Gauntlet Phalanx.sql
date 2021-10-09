@@ -26,21 +26,21 @@ VALUES (41532,   1, 'Invading Bronze Gauntlet Phalanx') /* Name */
      , (41532, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41532,   1,   33560840) /* Setup */
-     , (41532,   2,  150995368) /* MotionTable */
-     , (41532,   3,  536871123) /* SoundTable */
-     , (41532,   8,  100674350) /* Icon */
-     , (41532,  22,  872415269) /* PhysicsEffectTable */
+VALUES (41532,   1, 0x02001908) /* Setup */
+     , (41532,   2, 0x090001A8) /* MotionTable */
+     , (41532,   3, 0x200000D3) /* SoundTable */
+     , (41532,   8, 0x06002B2E) /* Icon */
+     , (41532,  22, 0x34000025) /* PhysicsEffectTable */
      , (41532, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (41532, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (41532, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41532, 8040, 462356520, 109.7146, 172.4023, 98.37767, -0.9639225, 0, 0, -0.266183) /* PCAPRecordedLocation */
+VALUES (41532, 8040, 0x1B8F0028, 109.7146, 172.4023, 98.37767, -0.963923, 0, 0, -0.266183) /* PCAPRecordedLocation */
 /* @teleloc 0x1B8F0028 [109.714600 172.402300 98.377670] -0.963923 0.000000 0.000000 -0.266183 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41532, 8000, 3702759927) /* PCAPRecordedObjectIID */;
+VALUES (41532, 8000, 0xDCB3A1F7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41532,   1, 395, 0, 0) /* Strength */

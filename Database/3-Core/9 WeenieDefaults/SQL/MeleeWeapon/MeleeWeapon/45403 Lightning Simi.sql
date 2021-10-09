@@ -54,22 +54,19 @@ VALUES (45403,   1, 'Lightning Simi') /* Name */
      , (45403,  16, 'Lightning Simi of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45403,   1,   33555778) /* Setup */
-     , (45403,   3,  536870932) /* SoundTable */
-     , (45403,   8,  100668995) /* Icon */
-     , (45403,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45403,   1, 0x02000542) /* Setup */
+     , (45403,   3, 0x20000014) /* SoundTable */
+     , (45403,   8, 0x06001643) /* Icon */
+     , (45403,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45403,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45403,  52,  100676436) /* IconUnderlay */
+     , (45403,  52, 0x06003354) /* IconUnderlay */
      , (45403, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45403, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45403, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
      , (45403, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45403, 8000, 2173726217) /* PCAPRecordedObjectIID */;
+VALUES (45403, 8000, 0x81906E09) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45403,  1614,      2)  /* BloodDrinkerSelf4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45403, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

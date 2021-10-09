@@ -22,16 +22,16 @@ VALUES (10851,   1, 'The Dark Lair') /* Name */
      , (10851, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10851,   1,   33555922) /* Setup */
-     , (10851,   2,  150994947) /* MotionTable */
-     , (10851,   8,  100667499) /* Icon */
+VALUES (10851,   1, 0x020005D2) /* Setup */
+     , (10851,   2, 0x09000003) /* MotionTable */
+     , (10851,   8, 0x0600106B) /* Icon */
      , (10851, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (10851, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (10851, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10851, 8040, 699793466, 176.609, 35.8586, 21.937, -0.5269341, 0, 0, 0.8499061) /* PCAPRecordedLocation */
+VALUES (10851, 8040, 0x29B6003A, 176.609, 35.8586, 21.937, -0.526934, 0, 0, 0.849906) /* PCAPRecordedLocation */
 /* @teleloc 0x29B6003A [176.609000 35.858600 21.937000] -0.526934 0.000000 0.000000 0.849906 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10851, 8000, 1922785280) /* PCAPRecordedObjectIID */;
+VALUES (10851, 8000, 0x729B6000) /* PCAPRecordedObjectIID */;

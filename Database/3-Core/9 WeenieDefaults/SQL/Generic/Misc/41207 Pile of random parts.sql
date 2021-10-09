@@ -15,6 +15,7 @@ VALUES (41207,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41207,  22, True ) /* Inscribable */
+     , (41207,  23, True ) /* DestroyOnSell */
      , (41207,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -23,13 +24,13 @@ VALUES (41207,   1, 'Pile of random parts') /* Name */
      , (41207,  16, 'A pile of old, abused-looking pieces of armor, or a golem, or something akin to that.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41207,   1,   33560838) /* Setup */
-     , (41207,   3,  536870932) /* SoundTable */
-     , (41207,   8,  100690544) /* Icon */
-     , (41207,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41207,   1, 0x02001906) /* Setup */
+     , (41207,   3, 0x20000014) /* SoundTable */
+     , (41207,   8, 0x06006A70) /* Icon */
+     , (41207,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41207, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (41207, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41207, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41207, 8000, 2307516443) /* PCAPRecordedObjectIID */;
+VALUES (41207, 8000, 0x8989E81B) /* PCAPRecordedObjectIID */;

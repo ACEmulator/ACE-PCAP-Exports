@@ -26,22 +26,22 @@ VALUES (33513,   1, 'Harrak the White Spear') /* Name */
      , (33513, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33513,   1,   33559104) /* Setup */
-     , (33513,   2,  150994951) /* MotionTable */
-     , (33513,   3,  536871101) /* SoundTable */
-     , (33513,   6,   67115447) /* PaletteBase */
-     , (33513,   8,  100677373) /* Icon */
-     , (33513,  22,  872415364) /* PhysicsEffectTable */
+VALUES (33513,   1, 0x02001240) /* Setup */
+     , (33513,   2, 0x09000007) /* MotionTable */
+     , (33513,   3, 0x200000BD) /* SoundTable */
+     , (33513,   6, 0x040019B7) /* PaletteBase */
+     , (33513,   8, 0x060036FD) /* Icon */
+     , (33513,  22, 0x34000084) /* PhysicsEffectTable */
      , (33513, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33513, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33513, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33513, 8040, 1307836672, 60.124, 146.761, -5.1934, -0.0330282, 0, 0, -0.999454) /* PCAPRecordedLocation */
+VALUES (33513, 8040, 0x4DF40100, 60.124, 146.761, -5.1934, -0.033028, 0, 0, -0.999454) /* PCAPRecordedLocation */
 /* @teleloc 0x4DF40100 [60.124000 146.761000 -5.193400] -0.033028 0.000000 0.000000 -0.999454 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33513, 8000, 2447932158) /* PCAPRecordedObjectIID */;
+VALUES (33513, 8000, 0x91E87AFE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33513,   1, 250, 0, 0) /* Strength */

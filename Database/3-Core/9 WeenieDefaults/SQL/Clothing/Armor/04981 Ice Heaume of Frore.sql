@@ -33,17 +33,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4981,   1, 'Ice Heaume of Frore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4981,   1,   33555248) /* Setup */
-     , (4981,   3,  536870932) /* SoundTable */
-     , (4981,   6,   67108990) /* PaletteBase */
-     , (4981,   8,  100669408) /* Icon */
-     , (4981,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4981,   1, 0x02000330) /* Setup */
+     , (4981,   3, 0x20000014) /* SoundTable */
+     , (4981,   6, 0x0400007E) /* PaletteBase */
+     , (4981,   8, 0x060017E0) /* Icon */
+     , (4981,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4981, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (4981, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4981, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4981, 8000, 2401430558) /* PCAPRecordedObjectIID */;
+VALUES (4981, 8000, 0x8F22EC1E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4981, 67110537, 240, 10);

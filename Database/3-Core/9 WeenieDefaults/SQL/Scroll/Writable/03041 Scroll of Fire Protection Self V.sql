@@ -24,13 +24,13 @@ VALUES (3041,   1, 'Scroll of Fire Protection Self V') /* Name */
 Reduces damage the caster takes from Fire by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3041,   1,   33554826) /* Setup */
-     , (3041,   8,  100676949) /* Icon */
-     , (3041,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3041,   1, 0x0200018A) /* Setup */
+     , (3041,   8, 0x06003555) /* Icon */
+     , (3041,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3041,  28,       1093) /* Spell - FireProtectionSelf5 */
      , (3041, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3041, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3041, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3041, 8000, 3708731610) /* PCAPRecordedObjectIID */;
+VALUES (3041, 8000, 0xDD0EC0DA) /* PCAPRecordedObjectIID */;

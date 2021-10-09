@@ -17,9 +17,9 @@ VALUES (49267,   1,        128) /* ItemType - Misc */
      , (49267, 105,          7) /* ItemWorkmanship */
      , (49267, 114,          0) /* Attuned - Normal */
      , (49267, 280,        213) /* SharedCooldown */
-     , (49267, 366,         54) /* UseRequiresSkill */
+     , (49267, 366,         54) /* UseRequiresSkill - Summoning */
      , (49267, 367,        570) /* UseRequiresSkillLevel */
-     , (49267, 368,         54) /* UseRequiresSkillSpec */
+     , (49267, 368,         54) /* UseRequiresSkillSpec - Summoning */
      , (49267, 369,        185) /* UseRequiresLevel */
      , (49267, 371,         11) /* GearDamageResist */
      , (49267, 372,         10) /* GearCrit */
@@ -40,20 +40,20 @@ VALUES (49267,   1, 'Caustic Knight Essence') /* Name */
      , (49267,  14, 'Use this essence to summon or dismiss your Caustic Knight.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49267,   1,   33554817) /* Setup */
-     , (49267,   3,  536870932) /* SoundTable */
-     , (49267,   6,   67111919) /* PaletteBase */
-     , (49267,   8,  100672513) /* Icon */
-     , (49267,  22,  872415275) /* PhysicsEffectTable */
-     , (49267,  50,  100693032) /* IconOverlay */
-     , (49267,  52,  100693024) /* IconUnderlay */
+VALUES (49267,   1, 0x02000181) /* Setup */
+     , (49267,   3, 0x20000014) /* SoundTable */
+     , (49267,   6, 0x04000BEF) /* PaletteBase */
+     , (49267,   8, 0x06002401) /* Icon */
+     , (49267,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49267,  50, 0x06007428) /* IconOverlay */
+     , (49267,  52, 0x06007420) /* IconUnderlay */
      , (49267, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49267, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49267, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49267, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49267, 8000, 2622707500) /* PCAPRecordedObjectIID */;
+VALUES (49267, 8000, 0x9C53572C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49267, 67111920, 0, 0);

@@ -24,13 +24,13 @@ VALUES (21333,   1, 'Scroll of Shock Arc IV') /* Name */
 Shoots a shock wave at the target. The wave does 52-105 points of bludgeoning damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21333,   1,   33554826) /* Setup */
-     , (21333,   8,  100677008) /* Icon */
-     , (21333,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21333,   1, 0x0200018A) /* Setup */
+     , (21333,   8, 0x06003590) /* Icon */
+     , (21333,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21333,  28,       2749) /* Spell - ShockArc4 */
      , (21333, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (21333, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21333, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21333, 8000, 2925966814) /* PCAPRecordedObjectIID */;
+VALUES (21333, 8000, 0xAE66B5DE) /* PCAPRecordedObjectIID */;

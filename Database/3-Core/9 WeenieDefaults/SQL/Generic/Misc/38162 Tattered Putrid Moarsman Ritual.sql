@@ -14,20 +14,21 @@ VALUES (38162,   1,        128) /* ItemType - Misc */
      , (38162, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38162,  22, True ) /* Inscribable */;
+VALUES (38162,  22, True ) /* Inscribable */
+     , (38162,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38162,   1, 'Tattered Putrid Moarsman Ritual') /* Name */
      , (38162,  16, 'This tattered piece of paper is mostly written in a strange language, but at the top, in Roulean, are the words, "Procedures By Which a Putrid Moarsman May Be Converted To The Creeping Blight."  It is far too damaged to utilize in any fashion except as proof of a deed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38162,   1,   33554773) /* Setup */
-     , (38162,   3,  536870932) /* SoundTable */
-     , (38162,   8,  100668176) /* Icon */
-     , (38162,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38162,   1, 0x02000155) /* Setup */
+     , (38162,   3, 0x20000014) /* SoundTable */
+     , (38162,   8, 0x06001310) /* Icon */
+     , (38162,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38162, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (38162, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38162, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38162, 8000, 2881987164) /* PCAPRecordedObjectIID */;
+VALUES (38162, 8000, 0xABC7A25C) /* PCAPRecordedObjectIID */;

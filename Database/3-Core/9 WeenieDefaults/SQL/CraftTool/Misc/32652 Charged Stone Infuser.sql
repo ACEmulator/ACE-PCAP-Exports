@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32652,   1, 'Charged Stone Infuser') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32652,   1,   33554769) /* Setup */
-     , (32652,   3,  536870932) /* SoundTable */
-     , (32652,   8,  100686432) /* Icon */
-     , (32652,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32652,   1, 0x02000151) /* Setup */
+     , (32652,   3, 0x20000014) /* SoundTable */
+     , (32652,   8, 0x06005A60) /* Icon */
+     , (32652,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32652, 8001,    2650256) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (32652, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32652, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32652, 8000, 2155931638) /* PCAPRecordedObjectIID */;
+VALUES (32652, 8000, 0x8080E7F6) /* PCAPRecordedObjectIID */;

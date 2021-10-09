@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37359,   1, 'Alacritous Ink') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37359,   1,   33554602) /* Setup */
-     , (37359,   3,  536870932) /* SoundTable */
-     , (37359,   8,  100690185) /* Icon */
-     , (37359,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37359,   1, 0x020000AA) /* Setup */
+     , (37359,   3, 0x20000014) /* SoundTable */
+     , (37359,   8, 0x06006909) /* Icon */
+     , (37359,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37359, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (37359, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37359, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37359, 8000, 2619143049) /* PCAPRecordedObjectIID */;
+VALUES (37359, 8000, 0x9C1CF389) /* PCAPRecordedObjectIID */;

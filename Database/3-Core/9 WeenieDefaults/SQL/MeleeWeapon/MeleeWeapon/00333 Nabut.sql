@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (333,   1,          1) /* ItemType - MeleeWeapon */
      , (333,   5,        550) /* EncumbranceVal */
      , (333,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (333,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (333,  16,          1) /* ItemUseable - No */
      , (333,  19,        180) /* Value */
      , (333,  44,         15) /* Damage */
@@ -48,11 +47,11 @@ VALUES (333,   1, 'Nabut') /* Name */
      , (333,  16, 'Exquisitely crafted Ebony Nabut of Endurance, set with 1 White Sapphire') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (333,   1,   33554749) /* Setup */
-     , (333,   3,  536870932) /* SoundTable */
-     , (333,   6,   67111919) /* PaletteBase */
-     , (333,   8,  100669105) /* Icon */
-     , (333,  22,  872415275) /* PhysicsEffectTable */
+VALUES (333,   1, 0x0200013D) /* Setup */
+     , (333,   3, 0x20000014) /* SoundTable */
+     , (333,   6, 0x04000BEF) /* PaletteBase */
+     , (333,   8, 0x060016B1) /* Icon */
+     , (333,  22, 0x3400002B) /* PhysicsEffectTable */
      , (333,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (333, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (333, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -60,17 +59,17 @@ VALUES (333,   1,   33554749) /* Setup */
      , (333, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (333, 8040, 2103705918, 89.90535, 62.09169, 11.929, -0.5380818, -0.5380818, -0.4587678, -0.4587678) /* PCAPRecordedLocation */
+VALUES (333, 8040, 0x7D64013E, 89.90535, 62.09169, 11.929, -0.538082, -0.538082, -0.458768, -0.458768) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64013E [89.905350 62.091690 11.929000] -0.538082 -0.538082 -0.458768 -0.458768 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (333, 8000, 3691986464) /* PCAPRecordedObjectIID */
-     , (333, 8008, 3692020559) /* PCAPRecordedParentIID */;
+VALUES (333, 8000, 0xDC0F3E20) /* PCAPRecordedObjectIID */
+     , (333, 8008, 0xDC0FC34F) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (333,  1352,      2)  /* EnduranceSelf4 */
-     , (333,  1590,      2)  /* HeartSeekerSelf4 */
-     , (333,  1613,      2)  /* BloodDrinkerSelf3 */;
+     , (333,  1613,      2)  /* BloodDrinkerSelf3 */
+     , (333,  1590,      2)  /* HeartSeekerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (333, 67111919, 0, 0);

@@ -55,24 +55,24 @@ VALUES (45412,   1, 'Acid Spada') /* Name */
      , (45412,  16, 'Acid Spada of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45412,   1,   33559463) /* Setup */
-     , (45412,   3,  536870932) /* SoundTable */
-     , (45412,   6,   67115557) /* PaletteBase */
-     , (45412,   8,  100686947) /* Icon */
-     , (45412,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45412,   1, 0x020013A7) /* Setup */
+     , (45412,   3, 0x20000014) /* SoundTable */
+     , (45412,   6, 0x04001A25) /* PaletteBase */
+     , (45412,   8, 0x06005C63) /* Icon */
+     , (45412,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45412,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (45412, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45412, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45412, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45412, 8000, 3682990975) /* PCAPRecordedObjectIID */;
+VALUES (45412, 8000, 0xDB85FB7F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45412,  1332,      2)  /* StrengthSelf6 */
+VALUES (45412,  2116,      2)  /* SwiftKillerSelf7 */
      , (45412,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (45412,  2116,      2)  /* SwiftKillerSelf7 */
-     , (45412,  2580,      2)  /* CANTRIPENDURANCE1 */;
+     , (45412,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (45412,  1332,      2)  /* StrengthSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45412, 67116390, 0, 0);

@@ -18,7 +18,8 @@ VALUES (38810,   1,        128) /* ItemType - Misc */
      , (38810, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38810,  69, False) /* IsSellable */;
+VALUES (38810,  23, True ) /* DestroyOnSell */
+     , (38810,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38810,  39,     0.9) /* DefaultScale */;
@@ -29,13 +30,13 @@ VALUES (38810,   1, 'Lord Cynreft''s Ancient Emblem of Mhoire') /* Name */
      , (38810,  16, 'This bronze medallion bears the symbol of the ancient house of Mhoire.  It might be of interest to the Arcanum, in specific the Mana-smiths.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38810,   1,   33554669) /* Setup */
-     , (38810,   3,  536870932) /* SoundTable */
-     , (38810,   8,  100690253) /* Icon */
-     , (38810,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38810,   1, 0x020000ED) /* Setup */
+     , (38810,   3, 0x20000014) /* SoundTable */
+     , (38810,   8, 0x0600694D) /* Icon */
+     , (38810,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38810, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (38810, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38810, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38810, 8000, 2628448038) /* PCAPRecordedObjectIID */;
+VALUES (38810, 8000, 0x9CAAEF26) /* PCAPRecordedObjectIID */;

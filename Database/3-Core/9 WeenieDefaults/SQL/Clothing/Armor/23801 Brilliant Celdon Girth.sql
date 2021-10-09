@@ -41,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23801,   1, 'Brilliant Celdon Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23801,   1,   33554647) /* Setup */
-     , (23801,   3,  536870932) /* SoundTable */
-     , (23801,   6,   67108990) /* PaletteBase */
-     , (23801,   8,  100674070) /* Icon */
-     , (23801,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23801,   1, 0x020000D7) /* Setup */
+     , (23801,   3, 0x20000014) /* SoundTable */
+     , (23801,   6, 0x0400007E) /* PaletteBase */
+     , (23801,   8, 0x06002A16) /* Icon */
+     , (23801,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23801, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (23801, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23801, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23801, 8000, 2615777964) /* PCAPRecordedObjectIID */;
+VALUES (23801, 8000, 0x9BE99AAC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23801,  2571,      2)  /* CANTRIPARMOR2 */;

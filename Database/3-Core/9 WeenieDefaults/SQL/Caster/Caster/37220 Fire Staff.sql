@@ -11,6 +11,7 @@ VALUES (37220,   1,      32768) /* ItemType - Caster */
      , (37220,  18,         33) /* UiEffects - Magical, Fire */
      , (37220,  19,      30198) /* Value */
      , (37220,  45,         16) /* DamageType - Fire */
+     , (37220,  46,        512) /* DefaultCombatStyle - Magic */
      , (37220,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37220,  94,         16) /* TargetType - Creature */
      , (37220, 105,          6) /* ItemWorkmanship */
@@ -45,22 +46,22 @@ VALUES (37220,   1, 'Fire Staff') /* Name */
      , (37220,  16, 'Fire Staff of Force') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37220,   1,   33560653) /* Setup */
-     , (37220,   3,  536870932) /* SoundTable */
-     , (37220,   6,   67111919) /* PaletteBase */
-     , (37220,   8,  100690005) /* Icon */
-     , (37220,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37220,   1, 0x0200184D) /* Setup */
+     , (37220,   3, 0x20000014) /* SoundTable */
+     , (37220,   6, 0x04000BEF) /* PaletteBase */
+     , (37220,   8, 0x06006855) /* Icon */
+     , (37220,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37220,  28,       2136) /* Spell - FrostBolt7 */
      , (37220, 8001, 2439594136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
      , (37220, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37220, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37220, 8000, 2159970495) /* PCAPRecordedObjectIID */;
+VALUES (37220, 8000, 0x80BE88BF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37220,  2117,      2)  /* HermeticLinkSelf7 */
-     , (37220,  2132,      2)  /* ForceBolt7 */
+VALUES (37220,  2132,      2)  /* ForceBolt7 */
+     , (37220,  2117,      2)  /* HermeticLinkSelf7 */
      , (37220,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */
      , (37220,  4329,      2)  /* WillpowerSelf8 */;
 

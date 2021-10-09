@@ -33,6 +33,7 @@ VALUES (23528,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23528,  22, True ) /* Inscribable */
+     , (23528,  23, True ) /* DestroyOnSell */
      , (23528,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -51,17 +52,17 @@ VALUES (23528,   1, 'Hamud''s Pyreal Katar') /* Name */
      , (23528,  16, 'An exquisitely crafted katar with a charged blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23528,   1,   33555745) /* Setup */
-     , (23528,   3,  536870932) /* SoundTable */
-     , (23528,   6,   67111919) /* PaletteBase */
-     , (23528,   8,  100668928) /* Icon */
-     , (23528,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23528,   1, 0x02000521) /* Setup */
+     , (23528,   3, 0x20000014) /* SoundTable */
+     , (23528,   6, 0x04000BEF) /* PaletteBase */
+     , (23528,   8, 0x06001600) /* Icon */
+     , (23528,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23528, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23528, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23528, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23528, 8000, 2967711595) /* PCAPRecordedObjectIID */;
+VALUES (23528, 8000, 0xB0E3AF6B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23528,  1623,      2)  /* SwiftKillerSelf2 */

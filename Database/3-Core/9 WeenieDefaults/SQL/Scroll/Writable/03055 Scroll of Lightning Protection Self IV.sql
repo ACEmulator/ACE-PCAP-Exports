@@ -24,17 +24,17 @@ VALUES (3055,   1, 'Scroll of Lightning Protection Self IV') /* Name */
 Reduces damage the caster takes from Lightning by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3055,   1,   33554826) /* Setup */
-     , (3055,   8,  100676948) /* Icon */
-     , (3055,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3055,   1, 0x0200018A) /* Setup */
+     , (3055,   8, 0x06003554) /* Icon */
+     , (3055,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3055,  28,       1069) /* Spell - LightningProtectionSelf4 */
      , (3055, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (3055, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3055, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3055, 8040, 3561816080, 34.60389, 173.0897, 36, 0.8793442, 0, 0, -0.4761867) /* PCAPRecordedLocation */
+VALUES (3055, 8040, 0xD44D0010, 34.60389, 173.0897, 36, 0.879344, 0, 0, -0.476187) /* PCAPRecordedLocation */
 /* @teleloc 0xD44D0010 [34.603890 173.089700 36.000000] 0.879344 0.000000 0.000000 -0.476187 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3055, 8000, 3708674545) /* PCAPRecordedObjectIID */;
+VALUES (3055, 8000, 0xDD0DE1F1) /* PCAPRecordedObjectIID */;

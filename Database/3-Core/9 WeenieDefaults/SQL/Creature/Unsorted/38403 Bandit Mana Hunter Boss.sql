@@ -20,22 +20,22 @@ VALUES (38403,   1, 'Bandit Mana Hunter Boss') /* Name */
      , (38403, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38403,   1,   33554433) /* Setup */
-     , (38403,   2,  150994945) /* MotionTable */
-     , (38403,   3,  536870913) /* SoundTable */
-     , (38403,   6,   67108990) /* PaletteBase */
-     , (38403,   8,  100667446) /* Icon */
-     , (38403,  22,  872415236) /* PhysicsEffectTable */
+VALUES (38403,   1, 0x02000001) /* Setup */
+     , (38403,   2, 0x09000001) /* MotionTable */
+     , (38403,   3, 0x20000001) /* SoundTable */
+     , (38403,   6, 0x0400007E) /* PaletteBase */
+     , (38403,   8, 0x06001036) /* Icon */
+     , (38403,  22, 0x34000004) /* PhysicsEffectTable */
      , (38403, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (38403, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (38403, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38403, 8040, 4164616472, 171.426, 69.2203, -40.445, -0.3517298, 0, 0, 0.9361016) /* PCAPRecordedLocation */
+VALUES (38403, 8040, 0xF83B0118, 171.426, 69.2203, -40.445, -0.35173, 0, 0, 0.936102) /* PCAPRecordedLocation */
 /* @teleloc 0xF83B0118 [171.426000 69.220300 -40.445000] -0.351730 0.000000 0.000000 0.936102 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38403, 8000, 3360529154) /* PCAPRecordedObjectIID */;
+VALUES (38403, 8000, 0xC84D9B02) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38403, 67109560, 0, 24)

@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4241,   1, 'Mattekar Hide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4241,   1,   33554817) /* Setup */
-     , (4241,   3,  536870932) /* SoundTable */
-     , (4241,   6,   67111919) /* PaletteBase */
-     , (4241,   8,  100670051) /* Icon */
-     , (4241,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4241,   1, 0x02000181) /* Setup */
+     , (4241,   3, 0x20000014) /* SoundTable */
+     , (4241,   6, 0x04000BEF) /* PaletteBase */
+     , (4241,   8, 0x06001A63) /* Icon */
+     , (4241,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4241, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (4241, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4241, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4241, 8000, 3658160657) /* PCAPRecordedObjectIID */;
+VALUES (4241, 8000, 0xDA0B1A11) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4241, 67111927, 0, 0);

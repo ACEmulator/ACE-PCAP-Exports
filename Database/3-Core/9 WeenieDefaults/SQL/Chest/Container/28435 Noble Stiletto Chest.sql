@@ -31,18 +31,18 @@ VALUES (28435,   1, 'Noble Stiletto Chest') /* Name */
      , (28435, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28435,   1,   33558857) /* Setup */
-     , (28435,   2,  150994948) /* MotionTable */
-     , (28435,   3,  536870945) /* SoundTable */
-     , (28435,   8,  100676961) /* Icon */
-     , (28435,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28435,   1, 0x02001149) /* Setup */
+     , (28435,   2, 0x09000004) /* MotionTable */
+     , (28435,   3, 0x20000021) /* SoundTable */
+     , (28435,   8, 0x06003561) /* Icon */
+     , (28435,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28435, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (28435, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (28435, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28435, 8040, 42008886, 23.7, -20, 0, -0.7071068, 0, 0, 0.7071068) /* PCAPRecordedLocation */
+VALUES (28435, 8040, 0x02810136, 23.7, -20, 0, -0.707107, 0, 0, 0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x02810136 [23.700000 -20.000000 0.000000] -0.707107 0.000000 0.000000 0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28435, 8000, 1881673751) /* PCAPRecordedObjectIID */;
+VALUES (28435, 8000, 0x70281017) /* PCAPRecordedObjectIID */;

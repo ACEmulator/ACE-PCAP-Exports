@@ -24,13 +24,13 @@ VALUES (2636,   1, 'Scroll of Bafflement Other IV') /* Name */
 Decreases the target''s Focus by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2636,   1,   33554826) /* Setup */
-     , (2636,   8,  100676458) /* Icon */
-     , (2636,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2636,   1, 0x0200018A) /* Setup */
+     , (2636,   8, 0x0600336A) /* Icon */
+     , (2636,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2636,  28,       1442) /* Spell - BafflementOther4 */
      , (2636, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2636, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2636, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2636, 8000, 3622502966) /* PCAPRecordedObjectIID */;
+VALUES (2636, 8000, 0xD7EB0236) /* PCAPRecordedObjectIID */;

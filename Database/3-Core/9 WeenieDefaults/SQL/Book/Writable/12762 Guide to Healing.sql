@@ -22,26 +22,26 @@ VALUES (12762,   1, 'Guide to Healing') /* Name */
      , (12762,  15, 'A guide to regaining Health, Stamina, and Mana.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12762,   1,   33554771) /* Setup */
-     , (12762,   3,  536870932) /* SoundTable */
-     , (12762,   8,  100668117) /* Icon */
-     , (12762,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12762,   1, 0x02000153) /* Setup */
+     , (12762,   3, 0x20000014) /* SoundTable */
+     , (12762,   8, 0x060012D5) /* Icon */
+     , (12762,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12762, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (12762, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (12762, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12762, 8040, 2248344124, 58.8709, -32.4703, 0.95454, 0.939346, 0, 0, -0.342971) /* PCAPRecordedLocation */
+VALUES (12762, 8040, 0x8603023C, 58.8709, -32.4703, 0.95454, 0.939346, 0, 0, -0.342971) /* PCAPRecordedLocation */
 /* @teleloc 0x8603023C [58.870900 -32.470300 0.954540] 0.939346 0.000000 0.000000 -0.342971 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12762, 8000, 3692563063) /* PCAPRecordedObjectIID */;
+VALUES (12762, 8000, 0xDC180A77) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (12762, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (12762, 0, 4294967295, 'Training Master', 'Password is cheese', False, 'GUIDE TO HEALING
+VALUES (12762, 0, 4294967295, 'Training Master', 'prewritten', False, 'GUIDE TO HEALING
 
 The three bars at the top of the screen show your Health, Stamina, and Mana (magical energy).
 
@@ -51,7 +51,7 @@ All three will replenish themselves in time, but there are ways to make this pro
 
 (Click the green button to read more.)
 ')
-     , (12762, 1, 4294967295, 'Training Master', 'Password is cheese', False, 'Regaining Health
+     , (12762, 1, 4294967295, 'Training Master', 'prewritten', False, 'Regaining Health
 
 Those with the Healing Skill can use healing kits to regain health points. Double-click on the healing kit, then select the injured person.
 
@@ -61,7 +61,7 @@ Alternatively, you can use health potions to regain health. Double-click on thes
 
 (Click on the green button to read more.)
 ')
-     , (12762, 2, 4294967295, 'Training Master', 'Password is cheese', False, 'Regaining Stamina
+     , (12762, 2, 4294967295, 'Training Master', 'prewritten', False, 'Regaining Stamina
 
 There are many foods as well as stamina potions in Dereth that you may consume in order to regain stamina.  Double-click on them to use them.  If you run out of both, you can also lie down in a safe place--your stamina will return as you rest.
 
@@ -71,7 +71,7 @@ These are also some foods that will help you regain mana. The most easily availa
 
 (Click on the green button to read more.)
 ')
-     , (12762, 3, 4294967295, 'Training Master', 'Password is cheese', False, 'Death and Resurrection
+     , (12762, 3, 4294967295, 'Training Master', 'prewritten', False, 'Death and Resurrection
 
 Characters die when their Health points reach zero.
 
@@ -79,7 +79,7 @@ Your character will be resurrected immediately at the last lifestone you used or
 
 (Click on the green button to read more.)
 ')
-     , (12762, 4, 4294967295, 'Training Master', 'Password is cheese', False, 'Your corpse will remain where you died for a short time, making it possible for you or others to retrieve your lost items.
+     , (12762, 4, 4294967295, 'Training Master', 'prewritten', False, 'Your corpse will remain where you died for a short time, making it possible for you or others to retrieve your lost items.
 
 Vitae
 
@@ -87,7 +87,7 @@ When your character dies and is resurrected, your Vitae (lifeforce) is temporari
 
 (Click on the green button to read more.)
 ')
-     , (12762, 5, 4294967295, 'Training Master', 'Password is cheese', False, 'Corpse Recovery
+     , (12762, 5, 4294967295, 'Training Master', 'prewritten', False, 'Corpse Recovery
 
 To find your corpse, type "@corpse". Your corpse''s location will appear in the chat window.
 ');

@@ -20,13 +20,13 @@ VALUES (25559,   1, 'Hollow Minion''s Face') /* Name */
      , (25559,  16, 'A piece of tattered cloth and metal with a face cut into it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25559,   1,   33559765) /* Setup */
-     , (25559,   3,  536870932) /* SoundTable */
-     , (25559,   8,  100688427) /* Icon */
-     , (25559,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25559,   1, 0x020014D5) /* Setup */
+     , (25559,   3, 0x20000014) /* SoundTable */
+     , (25559,   8, 0x0600622B) /* Icon */
+     , (25559,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25559, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (25559, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25559, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25559, 8000, 2192068358) /* PCAPRecordedObjectIID */;
+VALUES (25559, 8000, 0x82A84F06) /* PCAPRecordedObjectIID */;

@@ -15,7 +15,7 @@ VALUES (31495,   1,        256) /* ItemType - MissileWeapon */
      , (31495,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31495,  49,         80) /* WeaponTime */
      , (31495,  50,          2) /* AmmoType - Bolt */
-     , (31495,  51,          2) /* CombatUse - Missle */
+     , (31495,  51,          2) /* CombatUse - Missile */
      , (31495,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31495, 106,        300) /* ItemSpellcraft */
      , (31495, 107,        600) /* ItemCurMana */
@@ -45,16 +45,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31495,   1, 'Battered Old Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31495,   1,   33559590) /* Setup */
-     , (31495,   3,  536870932) /* SoundTable */
-     , (31495,   8,  100687873) /* Icon */
-     , (31495,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31495,   1, 0x02001426) /* Setup */
+     , (31495,   3, 0x20000014) /* SoundTable */
+     , (31495,   8, 0x06006001) /* Icon */
+     , (31495,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31495, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (31495, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31495, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31495, 8000, 2629655384) /* PCAPRecordedObjectIID */;
+VALUES (31495, 8000, 0x9CBD5B58) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31495,  1604,      2)  /* DefenderSelf5 */

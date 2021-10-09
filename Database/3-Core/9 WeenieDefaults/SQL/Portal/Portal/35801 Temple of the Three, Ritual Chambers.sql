@@ -23,16 +23,16 @@ VALUES (35801,   1, 'Temple of the Three, Ritual Chambers') /* Name */
      , (35801, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35801,   1,   33555925) /* Setup */
-     , (35801,   2,  150994947) /* MotionTable */
-     , (35801,   8,  100667499) /* Icon */
+VALUES (35801,   1, 0x020005D5) /* Setup */
+     , (35801,   2, 0x09000003) /* MotionTable */
+     , (35801,   8, 0x0600106B) /* Icon */
      , (35801, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (35801, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (35801, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35801, 8040, 13895183, 228.617, -81.2211, -12.063, -0.9254113, 0, 0, 0.3789642) /* PCAPRecordedLocation */
+VALUES (35801, 8040, 0x00D4060F, 228.617, -81.2211, -12.063, -0.925411, 0, 0, 0.378964) /* PCAPRecordedLocation */
 /* @teleloc 0x00D4060F [228.617000 -81.221100 -12.063000] -0.925411 0.000000 0.000000 0.378964 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35801, 8000, 1879916623) /* PCAPRecordedObjectIID */;
+VALUES (35801, 8000, 0x700D404F) /* PCAPRecordedObjectIID */;

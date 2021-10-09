@@ -25,22 +25,22 @@ VALUES (5429,   1, 'Desert Rabbit') /* Name */
      , (5429, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5429,   1,   33555579) /* Setup */
-     , (5429,   2,  150995042) /* MotionTable */
-     , (5429,   3,  536870973) /* SoundTable */
-     , (5429,   6,   67109300) /* PaletteBase */
-     , (5429,   8,  100669116) /* Icon */
-     , (5429,  22,  872415277) /* PhysicsEffectTable */
+VALUES (5429,   1, 0x0200047B) /* Setup */
+     , (5429,   2, 0x09000062) /* MotionTable */
+     , (5429,   3, 0x2000003D) /* SoundTable */
+     , (5429,   6, 0x040001B4) /* PaletteBase */
+     , (5429,   8, 0x060016BC) /* Icon */
+     , (5429,  22, 0x3400002D) /* PhysicsEffectTable */
      , (5429, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (5429, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (5429, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5429, 8040, 2471886868, 58.08004, 81.5031, 21.20807, 0.3427622, 0, 0, -0.9394222) /* PCAPRecordedLocation */
+VALUES (5429, 8040, 0x93560014, 58.08004, 81.5031, 21.20807, 0.342762, 0, 0, -0.939422) /* PCAPRecordedLocation */
 /* @teleloc 0x93560014 [58.080040 81.503100 21.208070] 0.342762 0.000000 0.000000 -0.939422 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5429, 8000, 3685887361) /* PCAPRecordedObjectIID */;
+VALUES (5429, 8000, 0xDBB22D81) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5429,   1,  10, 0, 0) /* Strength */

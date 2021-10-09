@@ -25,21 +25,21 @@ VALUES (31702,   1, 'Camp Blacksmith') /* Name */
      , (31702, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31702,   1,   33554433) /* Setup */
-     , (31702,   2,  150994945) /* MotionTable */
-     , (31702,   3,  536870913) /* SoundTable */
-     , (31702,   6,   67108990) /* PaletteBase */
-     , (31702,   8,  100667446) /* Icon */
+VALUES (31702,   1, 0x02000001) /* Setup */
+     , (31702,   2, 0x09000001) /* MotionTable */
+     , (31702,   3, 0x20000001) /* SoundTable */
+     , (31702,   6, 0x0400007E) /* PaletteBase */
+     , (31702,   8, 0x06001036) /* Icon */
      , (31702, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (31702, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (31702, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31702, 8040, 1004994817, 40.2, 55.7957, -0.2950001, -0.128606, 0, 0, -0.991696) /* PCAPRecordedLocation */
+VALUES (31702, 8040, 0x3BE70101, 40.2, 55.7957, -0.295, -0.128606, 0, 0, -0.991696) /* PCAPRecordedLocation */
 /* @teleloc 0x3BE70101 [40.200000 55.795700 -0.295000] -0.128606 0.000000 0.000000 -0.991696 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31702, 8000, 2878769403) /* PCAPRecordedObjectIID */;
+VALUES (31702, 8000, 0xAB9688FB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31702, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */;

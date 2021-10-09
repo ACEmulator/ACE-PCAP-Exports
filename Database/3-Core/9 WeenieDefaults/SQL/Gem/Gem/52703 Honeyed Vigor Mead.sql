@@ -32,20 +32,20 @@ VALUES (52703,   1, 'Honeyed Vigor Mead') /* Name */
      , (52703,  20, 'Bottles of Honeyed Vigor Mead') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52703,   1,   33554603) /* Setup */
-     , (52703,   3,  536870932) /* SoundTable */
-     , (52703,   6,   67111919) /* PaletteBase */
-     , (52703,   8,  100676320) /* Icon */
-     , (52703,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52703,   1, 0x020000AB) /* Setup */
+     , (52703,   3, 0x20000014) /* SoundTable */
+     , (52703,   6, 0x04000BEF) /* PaletteBase */
+     , (52703,   8, 0x060032E0) /* Icon */
+     , (52703,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52703,  28,       6172) /* Spell - HoneyedVigorMead */
-     , (52703,  52,  100689826) /* IconUnderlay */
+     , (52703,  52, 0x060067A2) /* IconUnderlay */
      , (52703, 8001,  275280025) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (52703, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (52703, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (52703, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52703, 8000, 2629576079) /* PCAPRecordedObjectIID */;
+VALUES (52703, 8000, 0x9CBC258F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52703, 67111920, 0, 0);

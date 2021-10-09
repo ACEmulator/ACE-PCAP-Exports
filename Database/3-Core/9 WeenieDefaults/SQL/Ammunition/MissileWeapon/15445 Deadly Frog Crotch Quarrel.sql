@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15445,   1,        256) /* ItemType - MissileWeapon */
      , (15445,   5,          5) /* EncumbranceVal */
      , (15445,   9,    8388608) /* ValidLocations - MissileAmmo */
-     , (15445,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
      , (15445,  11,       1000) /* MaxStackSize */
      , (15445,  12,          1) /* StackSize */
      , (15445,  13,          5) /* StackUnitEncumbrance */
@@ -46,17 +45,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15445,   1, 'Deadly Frog Crotch Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15445,   1,   33554730) /* Setup */
-     , (15445,   3,  536870932) /* SoundTable */
-     , (15445,   6,   67111919) /* PaletteBase */
-     , (15445,   8,  100672654) /* Icon */
-     , (15445,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15445,   1, 0x0200012A) /* Setup */
+     , (15445,   3, 0x20000014) /* SoundTable */
+     , (15445,   6, 0x04000BEF) /* PaletteBase */
+     , (15445,   8, 0x0600248E) /* Icon */
+     , (15445,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15445, 8001,  270775064) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (15445, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15445, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15445, 8000, 3393087297) /* PCAPRecordedObjectIID */;
+VALUES (15445, 8000, 0xCA3E6741) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15445, 67111918, 0, 0);

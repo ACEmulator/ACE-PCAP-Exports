@@ -19,24 +19,25 @@ VALUES (6663,   1,       2048) /* ItemType - Gem */
      , (6663, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6663,  22, True ) /* Inscribable */;
+VALUES (6663,  22, True ) /* Inscribable */
+     , (6663,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6663,   1, 'The Ruby Yujazik') /* Name */
      , (6663,  16, 'The second Crimson Star Ruby, pulsing with magical energy. When attached to the Silifi of Crimson Stars, this Ruby adds a Fire Protection enchantment to the weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6663,   1,   33554809) /* Setup */
-     , (6663,   3,  536870932) /* SoundTable */
-     , (6663,   6,   67111919) /* PaletteBase */
-     , (6663,   8,  100670642) /* Icon */
-     , (6663,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6663,   1, 0x02000179) /* Setup */
+     , (6663,   3, 0x20000014) /* SoundTable */
+     , (6663,   6, 0x04000BEF) /* PaletteBase */
+     , (6663,   8, 0x06001CB2) /* Icon */
+     , (6663,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6663, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (6663, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6663, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6663, 8000, 2368875770) /* PCAPRecordedObjectIID */;
+VALUES (6663, 8000, 0x8D322CFA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6663, 67111924, 0, 0);

@@ -49,19 +49,19 @@ VALUES (3908,   1, 'Frost War Hammer') /* Name */
      , (3908,  16, 'Frost War Hammer of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3908,   1,   33555820) /* Setup */
-     , (3908,   3,  536870932) /* SoundTable */
-     , (3908,   8,  100669074) /* Icon */
-     , (3908,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3908,   1, 0x0200056C) /* Setup */
+     , (3908,   3, 0x20000014) /* SoundTable */
+     , (3908,   8, 0x06001692) /* Icon */
+     , (3908,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3908,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3908, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3908, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3908, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3908, 8000, 3692328809) /* PCAPRecordedObjectIID */;
+VALUES (3908, 8000, 0xDC147769) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3908,    35,      2)  /* BloodDrinkerSelf1 */
-     , (3908,  1589,      2)  /* HeartSeekerSelf3 */
-     , (3908,  1601,      2)  /* DefenderSelf2 */;
+VALUES (3908,  1601,      2)  /* DefenderSelf2 */
+     , (3908,    35,      2)  /* BloodDrinkerSelf1 */
+     , (3908,  1589,      2)  /* HeartSeekerSelf3 */;

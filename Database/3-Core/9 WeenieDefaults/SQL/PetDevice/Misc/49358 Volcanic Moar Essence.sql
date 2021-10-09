@@ -17,9 +17,9 @@ VALUES (49358,   1,        128) /* ItemType - Misc */
      , (49358, 105,          7) /* ItemWorkmanship */
      , (49358, 114,          0) /* Attuned - Normal */
      , (49358, 280,        213) /* SharedCooldown */
-     , (49358, 366,         54) /* UseRequiresSkill */
+     , (49358, 366,         54) /* UseRequiresSkill - Summoning */
      , (49358, 367,        570) /* UseRequiresSkillLevel */
-     , (49358, 368,         54) /* UseRequiresSkillSpec */
+     , (49358, 368,         54) /* UseRequiresSkillSpec - Summoning */
      , (49358, 369,        185) /* UseRequiresLevel */
      , (49358, 370,         17) /* GearDamage */
      , (49358, 371,          8) /* GearDamageResist */
@@ -40,20 +40,20 @@ VALUES (49358,   1, 'Volcanic Moar Essence') /* Name */
      , (49358,  14, 'Use this essence to summon or dismiss your Volcanic Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49358,   1,   33554817) /* Setup */
-     , (49358,   3,  536870932) /* SoundTable */
-     , (49358,   6,   67111919) /* PaletteBase */
-     , (49358,   8,  100693034) /* Icon */
-     , (49358,  22,  872415275) /* PhysicsEffectTable */
-     , (49358,  50,  100693032) /* IconOverlay */
-     , (49358,  52,  100693024) /* IconUnderlay */
+VALUES (49358,   1, 0x02000181) /* Setup */
+     , (49358,   3, 0x20000014) /* SoundTable */
+     , (49358,   6, 0x04000BEF) /* PaletteBase */
+     , (49358,   8, 0x0600742A) /* Icon */
+     , (49358,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49358,  50, 0x06007428) /* IconOverlay */
+     , (49358,  52, 0x06007420) /* IconUnderlay */
      , (49358, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49358, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49358, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49358, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49358, 8000, 2174542317) /* PCAPRecordedObjectIID */;
+VALUES (49358, 8000, 0x819CE1ED) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49358, 67111923, 0, 0);

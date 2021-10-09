@@ -7,12 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7038,   1,        256) /* ItemType - MissileWeapon */
      , (7038,   5,       1920) /* EncumbranceVal */
      , (7038,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (7038,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (7038,  16,          1) /* ItemUseable - No */
      , (7038,  18,          1) /* UiEffects - Magical */
      , (7038,  19,        375) /* Value */
      , (7038,  50,          2) /* AmmoType - Bolt */
-     , (7038,  51,          2) /* CombatUse - Missle */
+     , (7038,  51,          2) /* CombatUse - Missile */
      , (7038,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7038, 151,          2) /* HookType - Wall */
      , (7038, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
@@ -27,23 +26,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7038,   1, 'Composite Crossbow with Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7038,   1,   33556596) /* Setup */
-     , (7038,   3,  536870932) /* SoundTable */
-     , (7038,   6,   67112869) /* PaletteBase */
-     , (7038,   8,  100670692) /* Icon */
-     , (7038,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7038,   1, 0x02000874) /* Setup */
+     , (7038,   3, 0x20000014) /* SoundTable */
+     , (7038,   6, 0x04000FA5) /* PaletteBase */
+     , (7038,   8, 0x06001CE4) /* Icon */
+     , (7038,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7038, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (7038, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7038, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (7038, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7038, 8040, 459059, 69.974, -79.996, -0.07000001, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (7038, 8040, 0x00070133, 69.974, -79.996, -0.07, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070133 [69.974000 -79.996000 -0.070000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7038, 8000, 2858639094) /* PCAPRecordedObjectIID */
-     , (7038, 8008, 1342876670) /* PCAPRecordedParentIID */;
+VALUES (7038, 8000, 0xAA635EF6) /* PCAPRecordedObjectIID */
+     , (7038, 8008, 0x500AABFE) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7038, 67112871, 0, 0);

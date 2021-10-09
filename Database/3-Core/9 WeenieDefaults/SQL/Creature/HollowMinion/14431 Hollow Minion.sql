@@ -22,21 +22,21 @@ VALUES (14431,   1, 'Hollow Minion') /* Name */
      , (14431, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14431,   1,   33556792) /* Setup */
-     , (14431,   2,  150995146) /* MotionTable */
-     , (14431,   3,  536871013) /* SoundTable */
-     , (14431,   8,  100671140) /* Icon */
-     , (14431,  22,  872415367) /* PhysicsEffectTable */
+VALUES (14431,   1, 0x02000938) /* Setup */
+     , (14431,   2, 0x090000CA) /* MotionTable */
+     , (14431,   3, 0x20000065) /* SoundTable */
+     , (14431,   8, 0x06001EA4) /* Icon */
+     , (14431,  22, 0x34000087) /* PhysicsEffectTable */
      , (14431, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (14431, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14431, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14431, 8040, 29491646, 49.659, -9.39889, 0.002499998, 0.9917489, 0, 0, -0.128196) /* PCAPRecordedLocation */
+VALUES (14431, 8040, 0x01C201BE, 49.659, -9.39889, 0.0025, 0.991749, 0, 0, -0.128196) /* PCAPRecordedLocation */
 /* @teleloc 0x01C201BE [49.659000 -9.398890 0.002500] 0.991749 0.000000 0.000000 -0.128196 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14431, 8000, 2780676376) /* PCAPRecordedObjectIID */;
+VALUES (14431, 8000, 0xA5BDC118) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14431,   1, 160, 0, 0) /* Strength */

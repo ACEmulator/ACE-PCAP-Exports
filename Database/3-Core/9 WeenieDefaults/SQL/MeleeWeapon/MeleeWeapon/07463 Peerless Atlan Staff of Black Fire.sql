@@ -50,25 +50,25 @@ VALUES (7463,   1, 'Peerless Atlan Staff of Black Fire') /* Name */
      , (7463,  25, 'Lonsgard') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7463,   1,   33557408) /* Setup */
-     , (7463,   3,  536870932) /* SoundTable */
-     , (7463,   6,   67111919) /* PaletteBase */
-     , (7463,   8,  100670563) /* Icon */
-     , (7463,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7463,   1, 0x02000BA0) /* Setup */
+     , (7463,   3, 0x20000014) /* SoundTable */
+     , (7463,   6, 0x04000BEF) /* PaletteBase */
+     , (7463,   8, 0x06001C63) /* Icon */
+     , (7463,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7463, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (7463, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7463, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7463, 8000, 2979050476) /* PCAPRecordedObjectIID */;
+VALUES (7463, 8000, 0xB190B3EC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7463,   303,      2)  /* AxeMasterySelf6 */
-     , (7463,  1592,      2)  /* HeartSeekerSelf6 */
-     , (7463,  1605,      2)  /* DefenderSelf6 */
+VALUES (7463,  1605,      2)  /* DefenderSelf6 */
      , (7463,  1616,      2)  /* BloodDrinkerSelf6 */
      , (7463,  1627,      2)  /* SwiftKillerSelf6 */
-     , (7463,  1846,      2)  /* MagicYieldBlackFire */;
+     , (7463,   303,      2)  /* LightWeaponsMasterySelf6 */
+     , (7463,  1846,      2)  /* MagicYieldBlackFire */
+     , (7463,  1592,      2)  /* HeartSeekerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7463, 67111927, 0, 0);

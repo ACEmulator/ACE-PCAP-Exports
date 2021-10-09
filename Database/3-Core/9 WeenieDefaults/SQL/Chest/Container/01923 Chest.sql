@@ -27,21 +27,21 @@ VALUES (1923,   1, 'Chest') /* Name */
      , (1923, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1923,   1,   33554556) /* Setup */
-     , (1923,   2,  150994948) /* MotionTable */
-     , (1923,   3,  536870945) /* SoundTable */
-     , (1923,   8,  100667424) /* Icon */
-     , (1923,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1923,   1, 0x0200007C) /* Setup */
+     , (1923,   2, 0x09000004) /* MotionTable */
+     , (1923,   3, 0x20000021) /* SoundTable */
+     , (1923,   8, 0x06001020) /* Icon */
+     , (1923,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1923, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (1923, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (1923, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1923, 8040, 390529297, 110.794, 10.5007, 68, 0.7004109, 0, 0, -0.7137399) /* PCAPRecordedLocation */
+VALUES (1923, 8040, 0x17470111, 110.794, 10.5007, 68, 0.700411, 0, 0, -0.71374) /* PCAPRecordedLocation */
 /* @teleloc 0x17470111 [110.794000 10.500700 68.000000] 0.700411 0.000000 0.000000 -0.713740 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1923, 8000, 1903456310) /* PCAPRecordedObjectIID */;
+VALUES (1923, 8000, 0x71747036) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1923, -1, 29265, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Winter Orb (29265) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

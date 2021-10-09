@@ -49,27 +49,24 @@ VALUES (21155,   1, 'Covenant Greaves') /* Name */
      , (21155,  16, 'Covenant Greaves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21155,   1,   33554641) /* Setup */
-     , (21155,   3,  536870932) /* SoundTable */
-     , (21155,   6,   67108990) /* PaletteBase */
-     , (21155,   8,  100673417) /* Icon */
-     , (21155,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21155,   1, 0x020000D1) /* Setup */
+     , (21155,   3, 0x20000014) /* SoundTable */
+     , (21155,   6, 0x0400007E) /* PaletteBase */
+     , (21155,   8, 0x06002789) /* Icon */
+     , (21155,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21155, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (21155, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21155, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21155, 8000, 3694326438) /* PCAPRecordedObjectIID */;
+VALUES (21155, 8000, 0xDC32F2A6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21155,  2092,      2)  /* AcidBane7 */
+VALUES (21155,  2113,      2)  /* PiercingBane7 */
+     , (21155,  2538,      2)  /* CANTRIPARMOREXPERTISE1 */
+     , (21155,  2092,      2)  /* AcidBane7 */
      , (21155,  2094,      2)  /* BladeBane7 */
-     , (21155,  2108,      2)  /* Impenetrability7 */
-     , (21155,  2113,      2)  /* PiercingBane7 */
-     , (21155,  2538,      2)  /* CANTRIPARMOREXPERTISE1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21155, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+     , (21155,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21155, 67113980, 136, 16);

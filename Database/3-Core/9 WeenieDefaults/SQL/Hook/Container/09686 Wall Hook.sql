@@ -36,16 +36,16 @@ VALUES (9686,   1, 'Wall Hook') /* Name */
 Hoary Mattekar Robe') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9686,   1,   33557134) /* Setup */
-     , (9686,   8,  100671680) /* Icon */
-     , (9686,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9686,   1, 0x02000A8E) /* Setup */
+     , (9686,   8, 0x060020C0) /* Icon */
+     , (9686,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9686, 8001,  840958010) /* PCAPRecordedWeenieHeader - ItemsCapacity, Value, Usable, UseRadius, Burden, HouseOwner, HookType, HookItemTypes */
      , (9686, 8003,        149) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable, UiHidden */
      , (9686, 8005,      36993) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9686, 8040, 2399928582, 52.4972, 120.348, 7.675, 7.54979E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (9686, 8040, 0x8F0C0106, 52.4972, 120.348, 7.675, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x8F0C0106 [52.497200 120.348000 7.675000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9686, 8000, 2029043716) /* PCAPRecordedObjectIID */;
+VALUES (9686, 8000, 0x78F0C004) /* PCAPRecordedObjectIID */;

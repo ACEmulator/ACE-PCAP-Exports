@@ -26,19 +26,16 @@ VALUES (1955,   1, 'Gateway') /* Name */
      , (1955, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1955,   1,   33556212) /* Setup */
-     , (1955,   2,  150994947) /* MotionTable */
-     , (1955,   8,  100667499) /* Icon */
+VALUES (1955,   1, 0x020006F4) /* Setup */
+     , (1955,   2, 0x09000003) /* MotionTable */
+     , (1955,   8, 0x0600106B) /* Icon */
      , (1955, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (1955, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1955, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1955, 8040, 3409772585, 139.7829, 22.91368, 176.2991, 0.3420202, 0, 0, -0.9396926) /* PCAPRecordedLocation */
+VALUES (1955, 8040, 0xCB3D0029, 139.7829, 22.91368, 176.2991, 0.34202, 0, 0, -0.939693) /* PCAPRecordedLocation */
 /* @teleloc 0xCB3D0029 [139.782900 22.913680 176.299100] 0.342020 0.000000 0.000000 -0.939693 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1955, 8000, 3685036600) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1955, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (1955, 8000, 0xDBA53238) /* PCAPRecordedObjectIID */;

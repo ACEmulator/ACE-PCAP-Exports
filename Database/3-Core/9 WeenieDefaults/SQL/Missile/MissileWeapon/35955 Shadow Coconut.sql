@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35955,   1,        256) /* ItemType - MissileWeapon */
      , (35955,   5,         20) /* EncumbranceVal */
      , (35955,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (35955,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (35955,  11,         30) /* MaxStackSize */
      , (35955,  12,          1) /* StackSize */
      , (35955,  13,         20) /* StackUnitEncumbrance */
@@ -19,7 +18,7 @@ VALUES (35955,   1,        256) /* ItemType - MissileWeapon */
      , (35955,  45,          0) /* DamageType - Undef */
      , (35955,  48,         47) /* WeaponSkill - MissileWeapons */
      , (35955,  49,         -1) /* WeaponTime */
-     , (35955,  51,          2) /* CombatUse - Missle */
+     , (35955,  51,          2) /* CombatUse - Missile */
      , (35955,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (35955, 307,          5) /* DamageRating */
      , (35955, 313,          0) /* CritRating */
@@ -50,23 +49,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35955,   1, 'Shadow Coconut') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35955,   1,   33559853) /* Setup */
-     , (35955,   3,  536871061) /* SoundTable */
-     , (35955,   6,   67111928) /* PaletteBase */
-     , (35955,   8,  100668730) /* Icon */
-     , (35955,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35955,   1, 0x0200152D) /* Setup */
+     , (35955,   3, 0x20000095) /* SoundTable */
+     , (35955,   6, 0x04000BF8) /* PaletteBase */
+     , (35955,   8, 0x0600153A) /* Icon */
+     , (35955,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35955, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (35955, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35955, 8005,     433057) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame, Translucency */
      , (35955, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35955, 8040, 3932946690, 201.4129, 255.3698, -47.3056, -0.8598796, 0, 0, 0.5104969) /* PCAPRecordedLocation */
+VALUES (35955, 8040, 0xEA6C0102, 201.4129, 255.3698, -47.3056, -0.85988, 0, 0, 0.510497) /* PCAPRecordedLocation */
 /* @teleloc 0xEA6C0102 [201.412900 255.369800 -47.305600] -0.859880 0.000000 0.000000 0.510497 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35955, 8000, 3699866705) /* PCAPRecordedObjectIID */
-     , (35955, 8008, 3699866704) /* PCAPRecordedParentIID */;
+VALUES (35955, 8000, 0xDC877C51) /* PCAPRecordedObjectIID */
+     , (35955, 8008, 0xDC877C50) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35955, 67111925, 0, 0);

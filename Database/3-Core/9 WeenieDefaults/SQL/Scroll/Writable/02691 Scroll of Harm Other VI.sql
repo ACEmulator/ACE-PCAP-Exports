@@ -24,13 +24,13 @@ VALUES (2691,   1, 'Scroll of Harm Other VI') /* Name */
 Drains 33-63 points of the target''s Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2691,   1,   33554826) /* Setup */
-     , (2691,   8,  100676934) /* Icon */
-     , (2691,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2691,   1, 0x0200018A) /* Setup */
+     , (2691,   8, 0x06003546) /* Icon */
+     , (2691,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2691,  28,       1176) /* Spell - HarmOther6 */
      , (2691, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2691, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2691, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2691, 8000, 3354098792) /* PCAPRecordedObjectIID */;
+VALUES (2691, 8000, 0xC7EB7C68) /* PCAPRecordedObjectIID */;

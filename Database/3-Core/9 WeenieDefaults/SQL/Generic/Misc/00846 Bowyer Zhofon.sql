@@ -18,18 +18,18 @@ VALUES (846,   1, 'Bowyer Zhofon') /* Name */
      , (846,  16, 'Bowyer Zhofon') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (846,   1,   33555594) /* Setup */
-     , (846,   8,  100668115) /* Icon */
+VALUES (846,   1, 0x0200048A) /* Setup */
+     , (846,   8, 0x060012D3) /* Icon */
      , (846, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (846, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (846, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (846, 8040, 3663003654, 20.4398, 132.498, 23.143, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (846, 8040, 0xDA550006, 20.4398, 132.498, 23.143, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xDA550006 [20.439800 132.498000 23.143000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (846, 8000, 2107985985) /* PCAPRecordedObjectIID */;
+VALUES (846, 8000, 0x7DA55041) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (846, 0, 83891180, 83891181);

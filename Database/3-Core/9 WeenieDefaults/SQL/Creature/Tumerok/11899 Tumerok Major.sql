@@ -26,22 +26,22 @@ VALUES (11899,   1, 'Tumerok Major') /* Name */
      , (11899, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11899,   1,   33559557) /* Setup */
-     , (11899,   2,  150994954) /* MotionTable */
-     , (11899,   3,  536870931) /* SoundTable */
-     , (11899,   6,   67116625) /* PaletteBase */
-     , (11899,   8,  100667452) /* Icon */
-     , (11899,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11899,   1, 0x02001405) /* Setup */
+     , (11899,   2, 0x0900000A) /* MotionTable */
+     , (11899,   3, 0x20000013) /* SoundTable */
+     , (11899,   6, 0x04001E51) /* PaletteBase */
+     , (11899,   8, 0x0600103C) /* Icon */
+     , (11899,  22, 0x34000026) /* PhysicsEffectTable */
      , (11899, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (11899, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (11899, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11899, 8040, 1447231875, 141.891, -168.237, -23.994, 0.7195091, 0, 0, -0.694483) /* PCAPRecordedLocation */
+VALUES (11899, 8040, 0x56430183, 141.891, -168.237, -23.994, 0.719509, 0, 0, -0.694483) /* PCAPRecordedLocation */
 /* @teleloc 0x56430183 [141.891000 -168.237000 -23.994000] 0.719509 0.000000 0.000000 -0.694483 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11899, 8000, 2629758379) /* PCAPRecordedObjectIID */;
+VALUES (11899, 8000, 0x9CBEEDAB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11899,   1, 100, 0, 0) /* Strength */
@@ -74,7 +74,8 @@ VALUES (11899, 2, 11892,  1, 0, 0, False) /* Create Balister of the Quiddity (11
      , (11899, 2, 11907,  1, 0, 0, False) /* Create Mace of the Quiddity (11907) for Wield */
      , (11899, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
      , (11899, 2, 11913,  1, 0, 0, False) /* Create Lance of the Quiddity (11913) for Wield */
-     , (11899, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */;
+     , (11899, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+     , (11899, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11899, 67116625, 105, 48)

@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43662,   1, 'Spitter Foot Metamorphi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43662,   1,   33554653) /* Setup */
-     , (43662,   3,  536870932) /* SoundTable */
-     , (43662,   6,   67108990) /* PaletteBase */
-     , (43662,   8,  100691617) /* Icon */
-     , (43662,  22,  872415275) /* PhysicsEffectTable */
-     , (43662,  52,  100691610) /* IconUnderlay */
+VALUES (43662,   1, 0x020000DD) /* Setup */
+     , (43662,   3, 0x20000014) /* SoundTable */
+     , (43662,   6, 0x0400007E) /* PaletteBase */
+     , (43662,   8, 0x06006EA1) /* Icon */
+     , (43662,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43662,  52, 0x06006E9A) /* IconUnderlay */
      , (43662, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (43662, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (43662, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -33,7 +33,7 @@ VALUES (43662,   1,   33554653) /* Setup */
      , (43662, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43662, 8000,      43662) /* PCAPRecordedObjectIID */;
+VALUES (43662, 8000, 0x0000AA8E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43662, 67110337, 64, 8);

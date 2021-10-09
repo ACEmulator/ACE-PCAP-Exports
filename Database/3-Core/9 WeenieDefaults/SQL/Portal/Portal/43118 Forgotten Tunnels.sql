@@ -23,16 +23,16 @@ VALUES (43118,   1, 'Forgotten Tunnels') /* Name */
      , (43118, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43118,   1,   33555925) /* Setup */
-     , (43118,   2,  150994947) /* MotionTable */
-     , (43118,   8,  100667499) /* Icon */
+VALUES (43118,   1, 0x020005D5) /* Setup */
+     , (43118,   2, 0x09000003) /* MotionTable */
+     , (43118,   8, 0x0600106B) /* Icon */
      , (43118, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (43118, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (43118, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43118, 8040, 940245250, 60.0445, 20.7545, -5.663, -0.9999653, 0, 0, 0.008333672) /* PCAPRecordedLocation */
+VALUES (43118, 8040, 0x380B0102, 60.0445, 20.7545, -5.663, -0.999965, 0, 0, 0.008334) /* PCAPRecordedLocation */
 /* @teleloc 0x380B0102 [60.044500 20.754500 -5.663000] -0.999965 0.000000 0.000000 0.008334 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43118, 8000, 1937813504) /* PCAPRecordedObjectIID */;
+VALUES (43118, 8000, 0x7380B000) /* PCAPRecordedObjectIID */;

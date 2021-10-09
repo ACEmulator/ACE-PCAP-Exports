@@ -23,21 +23,21 @@ VALUES (19207,   1, 'Nullified Statue of a Virindi') /* Name */
      , (19207, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19207,   1,   33554497) /* Setup */
-     , (19207,   2,  150995173) /* MotionTable */
-     , (19207,   3,  536871052) /* SoundTable */
-     , (19207,   6,   67111346) /* PaletteBase */
-     , (19207,   8,  100667943) /* Icon */
+VALUES (19207,   1, 0x02000041) /* Setup */
+     , (19207,   2, 0x090000E5) /* MotionTable */
+     , (19207,   3, 0x2000008C) /* SoundTable */
+     , (19207,   6, 0x040009B2) /* PaletteBase */
+     , (19207,   8, 0x06001227) /* Icon */
      , (19207, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (19207, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19207, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19207, 8040, 288620572, 89.5038, 87.375, 48.916, 0.9972084, 0, 0, -0.07466833) /* PCAPRecordedLocation */
+VALUES (19207, 8040, 0x1134001C, 89.5038, 87.375, 48.916, 0.997208, 0, 0, -0.074668) /* PCAPRecordedLocation */
 /* @teleloc 0x1134001C [89.503800 87.375000 48.916000] 0.997208 0.000000 0.000000 -0.074668 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19207, 8000, 1897087027) /* PCAPRecordedObjectIID */;
+VALUES (19207, 8000, 0x71134033) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19207, 67113828, 0, 0);

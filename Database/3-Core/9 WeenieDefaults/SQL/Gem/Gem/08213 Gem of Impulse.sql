@@ -25,7 +25,8 @@ VALUES (8213,   1,       2048) /* ItemType - Gem */
      , (8213, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8213,  22, True ) /* Inscribable */;
+VALUES (8213,  22, True ) /* Inscribable */
+     , (8213,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8213,  76,     0.5) /* Translucency */;
@@ -35,14 +36,14 @@ VALUES (8213,   1, 'Gem of Impulse') /* Name */
      , (8213,  16, 'A spherical blue gem, made from the egg of a Knath''taed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8213,   1,   33556851) /* Setup */
-     , (8213,   3,  536870932) /* SoundTable */
-     , (8213,   8,  100671182) /* Icon */
-     , (8213,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8213,   1, 0x02000973) /* Setup */
+     , (8213,   3, 0x20000014) /* SoundTable */
+     , (8213,   8, 0x06001ECE) /* Icon */
+     , (8213,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8213,  28,       2016) /* Spell - Impulse */
      , (8213, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (8213, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8213, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8213, 8000, 2979050481) /* PCAPRecordedObjectIID */;
+VALUES (8213, 8000, 0xB190B3F1) /* PCAPRecordedObjectIID */;

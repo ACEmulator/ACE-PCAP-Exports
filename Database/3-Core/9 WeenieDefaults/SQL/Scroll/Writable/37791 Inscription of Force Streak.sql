@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37791,   1, 'Inscription of Force Streak') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37791,   1,   33554826) /* Setup */
-     , (37791,   8,  100677019) /* Icon */
-     , (37791,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37791,   1, 0x0200018A) /* Setup */
+     , (37791,   8, 0x0600359B) /* Icon */
+     , (37791,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37791,  28,       4444) /* Spell - ForceStreak8 */
      , (37791, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37791, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37791, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37791, 8000, 3663815296) /* PCAPRecordedObjectIID */;
+VALUES (37791, 8000, 0xDA616280) /* PCAPRecordedObjectIID */;

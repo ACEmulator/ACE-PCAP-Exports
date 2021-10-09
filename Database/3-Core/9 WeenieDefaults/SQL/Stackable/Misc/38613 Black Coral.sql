@@ -17,6 +17,9 @@ VALUES (38613,   1,        128) /* ItemType - Misc */
      , (38613,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38613, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38613,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38613,  39,     0.2) /* DefaultScale */;
 
@@ -26,13 +29,13 @@ VALUES (38613,   1, 'Black Coral') /* Name */
      , (38613,  16, 'A piece of coral, black with a faint glowing aura around it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38613,   1,   33560657) /* Setup */
-     , (38613,   3,  536870932) /* SoundTable */
-     , (38613,   8,  100690159) /* Icon */
-     , (38613,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38613,   1, 0x02001851) /* Setup */
+     , (38613,   3, 0x20000014) /* SoundTable */
+     , (38613,   8, 0x060068EF) /* Icon */
+     , (38613,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38613, 8001,    2125968) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (38613, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38613, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38613, 8000, 2210356891) /* PCAPRecordedObjectIID */;
+VALUES (38613, 8000, 0x83BF5E9B) /* PCAPRecordedObjectIID */;

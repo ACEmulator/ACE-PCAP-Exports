@@ -18,21 +18,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (492,   1, 'Directions to Bandit Castle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (492,   1,   33554773) /* Setup */
-     , (492,   3,  536870932) /* SoundTable */
-     , (492,   8,  100668176) /* Icon */
-     , (492,  22,  872415275) /* PhysicsEffectTable */
+VALUES (492,   1, 0x02000155) /* Setup */
+     , (492,   3, 0x20000014) /* SoundTable */
+     , (492,   8, 0x06001310) /* Icon */
+     , (492,  22, 0x3400002B) /* PhysicsEffectTable */
      , (492, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (492, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (492, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (492, 8000, 2917029757) /* PCAPRecordedObjectIID */;
+VALUES (492, 8000, 0xADDE577D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (492, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (492, 0, 4294967295, ' ', 'Password is cheese', False, '     First, get yourself to Arwic. You''re on your own there - if you can''t do that much, might as well give up now.
+VALUES (492, 0, 4294967295, ' ', 'prewritten', False, '     First, get yourself to Arwic. You''re on your own there - if you can''t do that much, might as well give up now.
      Once you''re there, go north. Don''t stop till you reach the mountains.
 ');

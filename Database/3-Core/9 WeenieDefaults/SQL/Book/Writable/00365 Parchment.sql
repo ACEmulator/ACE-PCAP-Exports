@@ -26,24 +26,24 @@ VALUES (365,   1, 'Parchment') /* Name */
      , (365,   8, 'Zajhora') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (365,   1,   33554773) /* Setup */
-     , (365,   3,  536870932) /* SoundTable */
-     , (365,   8,  100668176) /* Icon */
-     , (365,  22,  872415275) /* PhysicsEffectTable */
+VALUES (365,   1, 0x02000155) /* Setup */
+     , (365,   3, 0x20000014) /* SoundTable */
+     , (365,   8, 0x06001310) /* Icon */
+     , (365,  22, 0x3400002B) /* PhysicsEffectTable */
      , (365, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (365, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (365, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (365, 8040, 2224423221, 80.63207, 154.4071, 120.08, 0.9448352, 0, 0, -0.3275461) /* PCAPRecordedLocation */
+VALUES (365, 8040, 0x84960135, 80.63207, 154.4071, 120.08, 0.944835, 0, 0, -0.327546) /* PCAPRecordedLocation */
 /* @teleloc 0x84960135 [80.632070 154.407100 120.080000] 0.944835 0.000000 0.000000 -0.327546 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (365,   7, 1342565092) /* Scribe */
-     , (365, 8000, 3663162149) /* PCAPRecordedObjectIID */;
+VALUES (365,   7, 0x5005EAE4) /* Scribe */
+     , (365, 8000, 0xDA576B25) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (365, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (365, 0, 1343301116, 'Callaway', 'Password is cheese', False, 'hi');
+VALUES (365, 0, 1343301116, 'Callaway', 'prewritten', False, 'hi');

@@ -37,27 +37,27 @@ VALUES (1816,   1, 'Djuyat ibn Fisa the Armorer') /* Name */
      , (1816, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1816,   1,   33554433) /* Setup */
-     , (1816,   2,  150994945) /* MotionTable */
-     , (1816,   3,  536870913) /* SoundTable */
-     , (1816,   6,   67108990) /* PaletteBase */
-     , (1816,   8,  100667446) /* Icon */
-     , (1816,   9,   83890505) /* EyesTexture */
-     , (1816,  10,   83890560) /* NoseTexture */
-     , (1816,  11,   83890654) /* MouthTexture */
-     , (1816,  15,   67116992) /* HairPalette */
-     , (1816,  16,   67110062) /* EyesPalette */
-     , (1816,  17,   67109550) /* SkinPalette */
+VALUES (1816,   1, 0x02000001) /* Setup */
+     , (1816,   2, 0x09000001) /* MotionTable */
+     , (1816,   3, 0x20000001) /* SoundTable */
+     , (1816,   6, 0x0400007E) /* PaletteBase */
+     , (1816,   8, 0x06001036) /* Icon */
+     , (1816,   9, 0x05001149) /* EyesTexture */
+     , (1816,  10, 0x05001180) /* NoseTexture */
+     , (1816,  11, 0x050011DE) /* MouthTexture */
+     , (1816,  15, 0x04001FC0) /* HairPalette */
+     , (1816,  16, 0x040004AE) /* EyesPalette */
+     , (1816,  17, 0x040002AE) /* SkinPalette */
      , (1816, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (1816, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (1816, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1816, 8040, 2238578944, 130.02, 18.8609, 13.205, -0.5973159, 0, 0, -0.802006) /* PCAPRecordedLocation */
+VALUES (1816, 8040, 0x856E0100, 130.02, 18.8609, 13.205, -0.597316, 0, 0, -0.802006) /* PCAPRecordedLocation */
 /* @teleloc 0x856E0100 [130.020000 18.860900 13.205000] -0.597316 0.000000 0.000000 -0.802006 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1816, 8000, 2018959365) /* PCAPRecordedObjectIID */;
+VALUES (1816, 8000, 0x7856E005) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1816,   1,  90, 0, 0) /* Strength */

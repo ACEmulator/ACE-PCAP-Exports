@@ -26,23 +26,23 @@ VALUES (7981,   1, 'Harrower Grievver') /* Name */
      , (7981, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7981,   1,   33556698) /* Setup */
-     , (7981,   2,  150995098) /* MotionTable */
-     , (7981,   3,  536871009) /* SoundTable */
-     , (7981,   6,   67112927) /* PaletteBase */
-     , (7981,   8,  100670960) /* Icon */
-     , (7981,  22,  872415364) /* PhysicsEffectTable */
+VALUES (7981,   1, 0x020008DA) /* Setup */
+     , (7981,   2, 0x0900009A) /* MotionTable */
+     , (7981,   3, 0x20000061) /* SoundTable */
+     , (7981,   6, 0x04000FDF) /* PaletteBase */
+     , (7981,   8, 0x06001DF0) /* Icon */
+     , (7981,  22, 0x34000084) /* PhysicsEffectTable */
      , (7981,  30,         86) /* PhysicsScript - BreatheAcid */
      , (7981, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7981, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7981, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7981, 8040, 1709637649, 48.41687, 7.142816, 46.75707, 0.8660254, 0, 0, -0.5) /* PCAPRecordedLocation */
+VALUES (7981, 8040, 0x65E70011, 48.41687, 7.142816, 46.75707, 0.866025, 0, 0, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x65E70011 [48.416870 7.142816 46.757070] 0.866025 0.000000 0.000000 -0.500000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7981, 8000, 3688128803) /* PCAPRecordedObjectIID */;
+VALUES (7981, 8000, 0xDBD46123) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7981,   1, 210, 0, 0) /* Strength */

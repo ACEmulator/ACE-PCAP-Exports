@@ -8,7 +8,6 @@ VALUES (23779,   1,          2) /* ItemType - Armor */
      , (23779,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (23779,   5,       1600) /* EncumbranceVal */
      , (23779,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
-     , (23779,  10,       6656) /* CurrentWieldedLocation - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (23779,  16,          1) /* ItemUseable - No */
      , (23779,  18,        128) /* UiEffects - Frost */
      , (23779,  19,       2610) /* Value */
@@ -42,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23779,   1, 'Frosty Amuli Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23779,   1,   33554854) /* Setup */
-     , (23779,   3,  536870932) /* SoundTable */
-     , (23779,   6,   67108990) /* PaletteBase */
-     , (23779,   8,  100674067) /* Icon */
-     , (23779,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23779,   1, 0x020001A6) /* Setup */
+     , (23779,   3, 0x20000014) /* SoundTable */
+     , (23779,   6, 0x0400007E) /* PaletteBase */
+     , (23779,   8, 0x06002A13) /* Icon */
+     , (23779,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23779, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (23779, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23779, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23779, 8000, 2183443883) /* PCAPRecordedObjectIID */;
+VALUES (23779, 8000, 0x8224B5AB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23779,  2612,      2)  /* CANTRIPFROSTWARD2 */;

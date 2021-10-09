@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10841,   1,          8) /* ItemType - Jewelry */
      , (10841,   5,         60) /* EncumbranceVal */
      , (10841,   9,     196608) /* ValidLocations - WristWear */
-     , (10841,  10,      65536) /* CurrentWieldedLocation - WristWearLeft */
      , (10841,  16,          1) /* ItemUseable - No */
      , (10841,  18,          1) /* UiEffects - Magical */
      , (10841,  19,          0) /* Value */
@@ -23,6 +22,7 @@ VALUES (10841,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10841,  22, True ) /* Inscribable */
+     , (10841,  23, True ) /* DestroyOnSell */
      , (10841,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,17 +34,17 @@ VALUES (10841,   1, 'A Bracelet of Piercing Protection') /* Name */
      , (10841,  15, 'A bracelet of piercing protection, given by Behdo Yii for completing the Soldier quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10841,   1,   33554683) /* Setup */
-     , (10841,   3,  536870932) /* SoundTable */
-     , (10841,   6,   67111919) /* PaletteBase */
-     , (10841,   8,  100668622) /* Icon */
-     , (10841,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10841,   1, 0x020000FB) /* Setup */
+     , (10841,   3, 0x20000014) /* SoundTable */
+     , (10841,   6, 0x04000BEF) /* PaletteBase */
+     , (10841,   8, 0x060014CE) /* Icon */
+     , (10841,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10841, 8001,  270762128) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (10841, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10841, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10841, 8000, 2981544786) /* PCAPRecordedObjectIID */;
+VALUES (10841, 8000, 0xB1B6C352) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10841,   241,      2)  /* InvulnerabilityOther3 */

@@ -18,18 +18,18 @@ VALUES (4418,   1, 'Cortarn''s Provisions') /* Name */
      , (4418,  16, 'Cortarn''s Provisions') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4418,   1,   33555593) /* Setup */
-     , (4418,   8,  100668115) /* Icon */
+VALUES (4418,   1, 0x02000489) /* Setup */
+     , (4418,   8, 0x060012D3) /* Icon */
      , (4418, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (4418, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4418, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4418, 8040, 3212836873, 41.886, 19.862, 41, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (4418, 8040, 0xBF800009, 41.886, 19.862, 41, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xBF800009 [41.886000 19.862000 41.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4418, 8000, 2079850544) /* PCAPRecordedObjectIID */;
+VALUES (4418, 8000, 0x7BF80030) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (4418, 0, 83889909, 83889906);

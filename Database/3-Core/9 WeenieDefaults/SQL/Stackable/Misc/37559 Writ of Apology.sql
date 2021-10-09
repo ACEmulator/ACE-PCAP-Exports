@@ -18,7 +18,8 @@ VALUES (37559,   1,        128) /* ItemType - Misc */
      , (37559, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37559,  69, False) /* IsSellable */;
+VALUES (37559,  23, True ) /* DestroyOnSell */
+     , (37559,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37559,  39,     2.5) /* DefaultScale */;
@@ -30,13 +31,13 @@ VALUES (37559,   1, 'Writ of Apology') /* Name */
      , (37559,  20, 'Writs of Apology') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37559,   1,   33557387) /* Setup */
-     , (37559,   3,  536870932) /* SoundTable */
-     , (37559,   8,  100689883) /* Icon */
-     , (37559,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37559,   1, 0x02000B8B) /* Setup */
+     , (37559,   3, 0x20000014) /* SoundTable */
+     , (37559,   8, 0x060067DB) /* Icon */
+     , (37559,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37559, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (37559, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37559, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37559, 8000, 2988657744) /* PCAPRecordedObjectIID */;
+VALUES (37559, 8000, 0xB2234C50) /* PCAPRecordedObjectIID */;

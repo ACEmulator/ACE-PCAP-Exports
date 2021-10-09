@@ -15,7 +15,7 @@ VALUES (42208,   1,        256) /* ItemType - MissileWeapon */
      , (42208,  48,         47) /* WeaponSkill - MissileWeapons */
      , (42208,  49,         15) /* WeaponTime */
      , (42208,  50,          4) /* AmmoType - Atlatl */
-     , (42208,  51,          2) /* CombatUse - Missle */
+     , (42208,  51,          2) /* CombatUse - Missile */
      , (42208,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42208, 106,        150) /* ItemSpellcraft */
      , (42208, 107,        400) /* ItemCurMana */
@@ -44,21 +44,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42208,   1, 'Silver Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42208,   1,   33557433) /* Setup */
-     , (42208,   3,  536870932) /* SoundTable */
-     , (42208,   6,   67111919) /* PaletteBase */
-     , (42208,   8,  100672413) /* Icon */
-     , (42208,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42208,   1, 0x02000BB9) /* Setup */
+     , (42208,   3, 0x20000014) /* SoundTable */
+     , (42208,   6, 0x04000BEF) /* PaletteBase */
+     , (42208,   8, 0x0600239D) /* Icon */
+     , (42208,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42208, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (42208, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42208, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42208, 8000, 3705594331) /* PCAPRecordedObjectIID */;
+VALUES (42208, 8000, 0xDCDEE1DB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42208,   535,      2)  /* ThrownWeaponMasteryOther3 */
-     , (42208,  1612,      2)  /* BloodDrinkerSelf2 */;
+VALUES (42208,  1612,      2)  /* BloodDrinkerSelf2 */
+     , (42208,   535,      2)  /* ThrownWeaponMasteryOther3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42208, 67111920, 0, 0);

@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5700,   1, 'The Story of Koji''s Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5700,   1,   33554771) /* Setup */
-     , (5700,   3,  536870932) /* SoundTable */
-     , (5700,   8,  100668117) /* Icon */
-     , (5700,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5700,   1, 0x02000153) /* Setup */
+     , (5700,   3, 0x20000014) /* SoundTable */
+     , (5700,   8, 0x060012D5) /* Icon */
+     , (5700,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5700, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (5700, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (5700, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5700, 8000, 2166235508) /* PCAPRecordedObjectIID */;
+VALUES (5700, 8000, 0x811E2174) /* PCAPRecordedObjectIID */;

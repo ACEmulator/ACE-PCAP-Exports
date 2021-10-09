@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29556,   1, 'Gem of Inner Brilliance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29556,   1,   33554809) /* Setup */
-     , (29556,   3,  536870932) /* SoundTable */
-     , (29556,   6,   67111919) /* PaletteBase */
-     , (29556,   8,  100677138) /* Icon */
-     , (29556,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29556,   1, 0x02000179) /* Setup */
+     , (29556,   3, 0x20000014) /* SoundTable */
+     , (29556,   6, 0x04000BEF) /* PaletteBase */
+     , (29556,   8, 0x06003612) /* Icon */
+     , (29556,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29556, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (29556, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29556, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29556, 8000, 2248052889) /* PCAPRecordedObjectIID */;
+VALUES (29556, 8000, 0x85FE9099) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29556, 67111921, 0, 0);

@@ -23,17 +23,17 @@ VALUES (27319,   1, 'Health Tincture') /* Name */
      , (27319,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27319,   1,   33554603) /* Setup */
-     , (27319,   3,  536870932) /* SoundTable */
-     , (27319,   6,   67111919) /* PaletteBase */
-     , (27319,   8,  100676311) /* Icon */
-     , (27319,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27319,   1, 0x020000AB) /* Setup */
+     , (27319,   3, 0x20000014) /* SoundTable */
+     , (27319,   6, 0x04000BEF) /* PaletteBase */
+     , (27319,   8, 0x060032D7) /* Icon */
+     , (27319,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27319, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (27319, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (27319, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27319, 8000, 3687086590) /* PCAPRecordedObjectIID */;
+VALUES (27319, 8000, 0xDBC479FE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27319, 67111922, 0, 0);

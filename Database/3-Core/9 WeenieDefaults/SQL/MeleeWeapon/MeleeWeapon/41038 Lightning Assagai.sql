@@ -53,24 +53,24 @@ VALUES (41038,   1, 'Lightning Assagai') /* Name */
      , (41038,  16, 'Lightning Assagai of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41038,   1,   33560873) /* Setup */
-     , (41038,   3,  536870932) /* SoundTable */
-     , (41038,   6,   67115558) /* PaletteBase */
-     , (41038,   8,  100690630) /* Icon */
-     , (41038,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41038,   1, 0x02001929) /* Setup */
+     , (41038,   3, 0x20000014) /* SoundTable */
+     , (41038,   6, 0x04001A26) /* PaletteBase */
+     , (41038,   8, 0x06006AC6) /* Icon */
+     , (41038,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41038,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41038, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41038, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41038, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41038, 8000, 3692401891) /* PCAPRecordedObjectIID */;
+VALUES (41038, 8000, 0xDC1594E3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41038,  1605,      2)  /* DefenderSelf6 */
+     , (41038,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */
      , (41038,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (41038,  2106,      2)  /* HeartSeekerSelf7 */
-     , (41038,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */;
+     , (41038,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41038, 67116386, 0, 0);

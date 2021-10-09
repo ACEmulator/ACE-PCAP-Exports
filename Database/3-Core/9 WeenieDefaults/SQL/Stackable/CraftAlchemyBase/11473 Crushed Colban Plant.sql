@@ -26,17 +26,17 @@ VALUES (11473,   1, 'Crushed Colban Plant') /* Name */
      , (11473,  20, 'Crushed Colban Plants') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11473,   1,   33556752) /* Setup */
-     , (11473,   3,  536870932) /* SoundTable */
-     , (11473,   6,   67111919) /* PaletteBase */
-     , (11473,   8,  100670923) /* Icon */
-     , (11473,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11473,   1, 0x02000910) /* Setup */
+     , (11473,   3, 0x20000014) /* SoundTable */
+     , (11473,   6, 0x04000BEF) /* PaletteBase */
+     , (11473,   8, 0x06001DCB) /* Icon */
+     , (11473,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11473, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (11473, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (11473, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11473, 8000, 2158100641) /* PCAPRecordedObjectIID */;
+VALUES (11473, 8000, 0x80A200A1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11473, 67111918, 0, 0);

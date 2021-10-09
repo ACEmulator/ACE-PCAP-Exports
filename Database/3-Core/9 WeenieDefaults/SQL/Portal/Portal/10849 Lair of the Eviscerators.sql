@@ -23,16 +23,16 @@ VALUES (10849,   1, 'Lair of the Eviscerators') /* Name */
      , (10849, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10849,   1,   33555926) /* Setup */
-     , (10849,   2,  150994947) /* MotionTable */
-     , (10849,   8,  100667499) /* Icon */
+VALUES (10849,   1, 0x020005D6) /* Setup */
+     , (10849,   2, 0x09000003) /* MotionTable */
+     , (10849,   8, 0x0600106B) /* Icon */
      , (10849, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (10849, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (10849, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10849, 8040, 532807725, 134.266, 110.936, 81.937, -0.02180311, 0, 0, 0.9997623) /* PCAPRecordedLocation */
+VALUES (10849, 8040, 0x1FC2002D, 134.266, 110.936, 81.937, -0.021803, 0, 0, 0.999762) /* PCAPRecordedLocation */
 /* @teleloc 0x1FC2002D [134.266000 110.936000 81.937000] -0.021803 0.000000 0.000000 0.999762 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10849, 8000, 1912348672) /* PCAPRecordedObjectIID */;
+VALUES (10849, 8000, 0x71FC2000) /* PCAPRecordedObjectIID */;

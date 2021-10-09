@@ -32,10 +32,10 @@ VALUES (30809,   1, 'Warrior''s Emblem') /* Name */
      , (30809,  15, 'A brightly colored military medal. This honor was once pinned to the chest of one of the Undead warriors who fell at the battle of Ayn Tayn.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30809,   1,   33559265) /* Setup */
-     , (30809,   3,  536870932) /* SoundTable */
-     , (30809,   8,  100677497) /* Icon */
-     , (30809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30809,   1, 0x020012E1) /* Setup */
+     , (30809,   3, 0x20000014) /* SoundTable */
+     , (30809,   8, 0x06003779) /* Icon */
+     , (30809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30809,  28,        157) /* Spell - SummonPortal1 */
      , (30809, 8001,    6844440) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (30809, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -43,4 +43,4 @@ VALUES (30809,   1,   33559265) /* Setup */
      , (30809, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30809, 8000, 2628162876) /* PCAPRecordedObjectIID */;
+VALUES (30809, 8000, 0x9CA6953C) /* PCAPRecordedObjectIID */;

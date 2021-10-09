@@ -49,26 +49,23 @@ VALUES (21157,   1, 'Covenant Pauldrons') /* Name */
      , (21157,  16, 'Covenant Pauldrons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21157,   1,   33554641) /* Setup */
-     , (21157,   3,  536870932) /* SoundTable */
-     , (21157,   6,   67108990) /* PaletteBase */
-     , (21157,   8,  100673447) /* Icon */
-     , (21157,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21157,   1, 0x020000D1) /* Setup */
+     , (21157,   3, 0x20000014) /* SoundTable */
+     , (21157,   6, 0x0400007E) /* PaletteBase */
+     , (21157,   8, 0x060027A7) /* Icon */
+     , (21157,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21157,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (21157, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (21157, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21157, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21157, 8000, 3706647844) /* PCAPRecordedObjectIID */;
+VALUES (21157, 8000, 0xDCEEF524) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21157,  1485,      2)  /* Impenetrability5 */
      , (21157,  1552,      2)  /* FlameBane6 */
      , (21157,  1561,      2)  /* BladeBane5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21157, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21157, 67113929, 116, 12);

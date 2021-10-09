@@ -44,18 +44,18 @@ VALUES (68,   1, 'Studded Leather Greaves') /* Name */
      , (68,  16, 'Studded Leather Greaves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (68,   1,   33554641) /* Setup */
-     , (68,   3,  536870932) /* SoundTable */
-     , (68,   6,   67108990) /* PaletteBase */
-     , (68,   8,  100668123) /* Icon */
-     , (68,  22,  872415275) /* PhysicsEffectTable */
+VALUES (68,   1, 0x020000D1) /* Setup */
+     , (68,   3, 0x20000014) /* SoundTable */
+     , (68,   6, 0x0400007E) /* PaletteBase */
+     , (68,   8, 0x060012DB) /* Icon */
+     , (68,  22, 0x3400002B) /* PhysicsEffectTable */
      , (68,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (68, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (68, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (68, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (68, 8000, 3182804621) /* PCAPRecordedObjectIID */;
+VALUES (68, 8000, 0xBDB5BE8D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (68,  1486,      2)  /* Impenetrability6 */

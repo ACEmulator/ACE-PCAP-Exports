@@ -34,16 +34,16 @@ VALUES (25478,   1, 'Crystal Ring of Protection') /* Name */
      , (25478,  25, 'Chatlin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25478,   1,   33554690) /* Setup */
-     , (25478,   3,  536870932) /* SoundTable */
-     , (25478,   8,  100674800) /* Icon */
-     , (25478,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25478,   1, 0x02000102) /* Setup */
+     , (25478,   3, 0x20000014) /* SoundTable */
+     , (25478,   8, 0x06002CF0) /* Icon */
+     , (25478,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25478, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (25478, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25478, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25478, 8000, 2153688119) /* PCAPRecordedObjectIID */;
+VALUES (25478, 8000, 0x805EAC37) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25478,   512,      2)  /* AcidProtectionOther4 */;

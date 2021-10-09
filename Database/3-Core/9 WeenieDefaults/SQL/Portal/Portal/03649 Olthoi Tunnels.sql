@@ -23,16 +23,16 @@ VALUES (3649,   1, 'Olthoi Tunnels') /* Name */
      , (3649, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3649,   1,   33555923) /* Setup */
-     , (3649,   2,  150994947) /* MotionTable */
-     , (3649,   8,  100667499) /* Icon */
+VALUES (3649,   1, 0x020005D3) /* Setup */
+     , (3649,   2, 0x09000003) /* MotionTable */
+     , (3649,   8, 0x0600106B) /* Icon */
      , (3649, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (3649, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (3649, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3649, 8040, 3250257965, 128.309, 100.343, 151.5751, 0.4409499, 0, 0, 0.8975317) /* PCAPRecordedLocation */
+VALUES (3649, 8040, 0xC1BB002D, 128.309, 100.343, 151.5751, 0.44095, 0, 0, 0.897532) /* PCAPRecordedLocation */
 /* @teleloc 0xC1BB002D [128.309000 100.343000 151.575100] 0.440950 0.000000 0.000000 0.897532 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3649, 8000, 2082189312) /* PCAPRecordedObjectIID */;
+VALUES (3649, 8000, 0x7C1BB000) /* PCAPRecordedObjectIID */;

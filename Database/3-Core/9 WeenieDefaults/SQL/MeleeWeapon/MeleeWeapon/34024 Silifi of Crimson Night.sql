@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34024,   1,          1) /* ItemType - MeleeWeapon */
      , (34024,   5,        950) /* EncumbranceVal */
      , (34024,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (34024,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (34024,  16,          1) /* ItemUseable - No */
      , (34024,  18,          1) /* UiEffects - Magical */
      , (34024,  19,      11900) /* Value */
@@ -58,28 +57,28 @@ VALUES (34024,   1, 'Silifi of Crimson Night') /* Name */
      , (34024,  25, 'Azrakin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34024,   1,   33556553) /* Setup */
-     , (34024,   3,  536870932) /* SoundTable */
-     , (34024,   6,   67111919) /* PaletteBase */
-     , (34024,   8,  100670613) /* Icon */
-     , (34024,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34024,   1, 0x02000849) /* Setup */
+     , (34024,   3, 0x20000014) /* SoundTable */
+     , (34024,   6, 0x04000BEF) /* PaletteBase */
+     , (34024,   8, 0x06001C95) /* Icon */
+     , (34024,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34024, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (34024, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34024, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (34024, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34024, 8040, 2156855310, 38.025, 138, 123.929, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (34024, 8040, 0x808F000E, 38.025, 138, 123.929, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x808F000E [38.025000 138.000000 123.929000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34024, 8000, 3692406708) /* PCAPRecordedObjectIID */
-     , (34024, 8008, 3692406704) /* PCAPRecordedParentIID */;
+VALUES (34024, 8000, 0xDC15A7B4) /* PCAPRecordedObjectIID */
+     , (34024, 8008, 0xDC15A7B0) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34024,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (34024,  2101,      2)  /* DefenderSelf7 */
-     , (34024,  2158,      2)  /* LightningProtectionOther7 */;
+VALUES (34024,  2158,      2)  /* LightningProtectionOther7 */
+     , (34024,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (34024,  2101,      2)  /* DefenderSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34024, 67111921, 0, 0);

@@ -23,16 +23,16 @@ VALUES (24436,   1, 'Matron Hive North') /* Name */
      , (24436, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24436,   1,   33555926) /* Setup */
-     , (24436,   2,  150994947) /* MotionTable */
-     , (24436,   8,  100667499) /* Icon */
+VALUES (24436,   1, 0x020005D6) /* Setup */
+     , (24436,   2, 0x09000003) /* MotionTable */
+     , (24436,   8, 0x0600106B) /* Icon */
      , (24436, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (24436, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (24436, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24436, 8040, 2655256609, 103.121, 15.0475, 33.78438, 0.116012, 0, 0, 0.9932478) /* PCAPRecordedLocation */
+VALUES (24436, 8040, 0x9E440021, 103.121, 15.0475, 33.78438, 0.116012, 0, 0, 0.993248) /* PCAPRecordedLocation */
 /* @teleloc 0x9E440021 [103.121000 15.047500 33.784380] 0.116012 0.000000 0.000000 0.993248 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24436, 8000, 2045001756) /* PCAPRecordedObjectIID */;
+VALUES (24436, 8000, 0x79E4401C) /* PCAPRecordedObjectIID */;

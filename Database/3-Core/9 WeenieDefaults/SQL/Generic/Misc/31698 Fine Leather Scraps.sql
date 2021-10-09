@@ -15,13 +15,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31698,   1, 'Fine Leather Scraps') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31698,   1,   33554817) /* Setup */
-     , (31698,   3,  536870932) /* SoundTable */
-     , (31698,   8,  100687784) /* Icon */
-     , (31698,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31698,   1, 0x02000181) /* Setup */
+     , (31698,   3, 0x20000014) /* SoundTable */
+     , (31698,   8, 0x06005FA8) /* Icon */
+     , (31698,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31698, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (31698, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31698, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31698, 8000, 3696861662) /* PCAPRecordedObjectIID */;
+VALUES (31698, 8000, 0xDC59A1DE) /* PCAPRecordedObjectIID */;

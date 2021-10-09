@@ -46,20 +46,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24241,   1, 'Olthoi Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24241,   1,   33558330) /* Setup */
-     , (24241,   3,  536870932) /* SoundTable */
-     , (24241,   8,  100674294) /* Icon */
-     , (24241,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24241,   1, 0x02000F3A) /* Setup */
+     , (24241,   3, 0x20000014) /* SoundTable */
+     , (24241,   8, 0x06002AF6) /* Icon */
+     , (24241,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24241, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24241, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24241, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24241, 8000, 2461429141) /* PCAPRecordedObjectIID */;
+VALUES (24241, 8000, 0x92B66D95) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24241,  1592,      2)  /* HeartSeekerSelf6 */
-     , (24241,  1605,      2)  /* DefenderSelf6 */
+VALUES (24241,  1605,      2)  /* DefenderSelf6 */
      , (24241,  1616,      2)  /* BloodDrinkerSelf6 */
      , (24241,  1627,      2)  /* SwiftKillerSelf6 */
-     , (24241,  2609,      2)  /* CANTRIPACIDWARD2 */;
+     , (24241,  2609,      2)  /* CANTRIPACIDWARD2 */
+     , (24241,  1592,      2)  /* HeartSeekerSelf6 */;

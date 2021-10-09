@@ -23,10 +23,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52621,   1, 'Lightning Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52621,   1,   33561636) /* Setup */
-     , (52621,   3,  536870968) /* SoundTable */
-     , (52621,   8,  100667494) /* Icon */
-     , (52621,  22,  872415447) /* PhysicsEffectTable */
+VALUES (52621,   1, 0x02001C24) /* Setup */
+     , (52621,   3, 0x20000038) /* SoundTable */
+     , (52621,   8, 0x06001066) /* Icon */
+     , (52621,  22, 0x340000D7) /* PhysicsEffectTable */
      , (52621,  28,         75) /* Spell - LightningBolt1 */
      , (52621,  30,         90) /* PhysicsScript - ProjectileCollision */
      , (52621, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
@@ -34,8 +34,8 @@ VALUES (52621,   1,   33561636) /* Setup */
      , (52621, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52621, 8040, 3007905856, 182.0737, 170.6257, 119.1759, 0.03265416, 0, 0, -0.9994667) /* PCAPRecordedLocation */
+VALUES (52621, 8040, 0xB3490040, 182.0737, 170.6257, 119.1759, 0.032654, 0, 0, -0.999467) /* PCAPRecordedLocation */
 /* @teleloc 0xB3490040 [182.073700 170.625700 119.175900] 0.032654 0.000000 0.000000 -0.999467 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52621, 8000, 3684404438) /* PCAPRecordedObjectIID */;
+VALUES (52621, 8000, 0xDB9B8CD6) /* PCAPRecordedObjectIID */;

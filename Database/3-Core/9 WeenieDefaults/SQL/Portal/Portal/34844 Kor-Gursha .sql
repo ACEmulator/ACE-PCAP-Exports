@@ -22,16 +22,16 @@ VALUES (34844,   1, 'Kor-Gursha ') /* Name */
      , (34844, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34844,   1,   33560217) /* Setup */
-     , (34844,   2,  150995314) /* MotionTable */
-     , (34844,   8,  100667499) /* Icon */
+VALUES (34844,   1, 0x02001699) /* Setup */
+     , (34844,   2, 0x09000172) /* MotionTable */
+     , (34844,   8, 0x0600106B) /* Icon */
      , (34844, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (34844, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (34844, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34844, 8040, 10224196, 44, -70, -18.20983, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (34844, 8040, 0x009C0244, 44, -70, -18.20983, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x009C0244 [44.000000 -70.000000 -18.209830] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34844, 8000, 1879687171) /* PCAPRecordedObjectIID */;
+VALUES (34844, 8000, 0x7009C003) /* PCAPRecordedObjectIID */;

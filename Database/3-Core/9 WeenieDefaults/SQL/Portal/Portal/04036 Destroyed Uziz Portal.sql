@@ -22,16 +22,16 @@ VALUES (4036,   1, 'Destroyed Uziz Portal') /* Name */
      , (4036, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4036,   1,   33561060) /* Setup */
-     , (4036,   2,  150995314) /* MotionTable */
-     , (4036,   8,  100667499) /* Icon */
+VALUES (4036,   1, 0x020019E4) /* Setup */
+     , (4036,   2, 0x09000172) /* MotionTable */
+     , (4036,   8, 0x0600106B) /* Icon */
      , (4036, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (4036, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (4036, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4036, 8040, 288555030, 61.41, 138.396, 65.79017, 0.9982881, 0, 0, -0.05848821) /* PCAPRecordedLocation */
+VALUES (4036, 8040, 0x11330016, 61.41, 138.396, 65.79017, 0.998288, 0, 0, -0.058488) /* PCAPRecordedLocation */
 /* @teleloc 0x11330016 [61.410000 138.396000 65.790170] 0.998288 0.000000 0.000000 -0.058488 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4036, 8000, 1897082880) /* PCAPRecordedObjectIID */;
+VALUES (4036, 8000, 0x71133000) /* PCAPRecordedObjectIID */;

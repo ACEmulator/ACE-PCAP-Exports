@@ -28,13 +28,13 @@ VALUES (29161,   1, 'Brew Kettle') /* Name */
      , (29161,  14, 'Use this Brew Kettle to brew up quality brews! Brew on, brewmaster!') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29161,   1,   33559154) /* Setup */
-     , (29161,   3,  536870932) /* SoundTable */
-     , (29161,   8,  100686433) /* Icon */
-     , (29161,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29161,   1, 0x02001272) /* Setup */
+     , (29161,   3, 0x20000014) /* SoundTable */
+     , (29161,   8, 0x06005A61) /* Icon */
+     , (29161,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29161, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (29161, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29161, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29161, 8000, 3040504652) /* PCAPRecordedObjectIID */;
+VALUES (29161, 8000, 0xB53A6B4C) /* PCAPRecordedObjectIID */;

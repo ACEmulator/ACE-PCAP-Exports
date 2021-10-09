@@ -28,21 +28,21 @@ VALUES (33922,   1, 'Pet Ursuin Cub') /* Name */
      , (33922, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33922,   1,   33556773) /* Setup */
-     , (33922,   2,  150995284) /* MotionTable */
-     , (33922,   3,  536871011) /* SoundTable */
-     , (33922,   8,  100670959) /* Icon */
-     , (33922,  22,  872415366) /* PhysicsEffectTable */
+VALUES (33922,   1, 0x02000925) /* Setup */
+     , (33922,   2, 0x09000154) /* MotionTable */
+     , (33922,   3, 0x20000063) /* SoundTable */
+     , (33922,   8, 0x06001DEF) /* Icon */
+     , (33922,  22, 0x34000086) /* PhysicsEffectTable */
      , (33922, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (33922, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (33922, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33922, 8040, 3583574080, 188.7853, 169.148, 374.001, -0.3998594, 0, 0, -0.9165765) /* PCAPRecordedLocation */
+VALUES (33922, 8040, 0xD5990040, 188.7853, 169.148, 374.001, -0.399859, 0, 0, -0.916577) /* PCAPRecordedLocation */
 /* @teleloc 0xD5990040 [188.785300 169.148000 374.001000] -0.399859 0.000000 0.000000 -0.916577 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33922, 8000, 3711594916) /* PCAPRecordedObjectIID */;
+VALUES (33922, 8000, 0xDD3A71A4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33922,   1,  50, 0, 0) /* Strength */

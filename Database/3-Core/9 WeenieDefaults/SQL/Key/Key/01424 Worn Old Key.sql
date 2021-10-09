@@ -25,13 +25,13 @@ VALUES (1424,   1, 'Worn Old Key') /* Name */
      , (1424,  16, 'An unidentified, mysterious key of unknown purpose.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1424,   1,   33554784) /* Setup */
-     , (1424,   3,  536870932) /* SoundTable */
-     , (1424,   8,  100668436) /* Icon */
-     , (1424,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1424,   1, 0x02000160) /* Setup */
+     , (1424,   3, 0x20000014) /* SoundTable */
+     , (1424,   8, 0x06001414) /* Icon */
+     , (1424,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1424, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (1424, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1424, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1424, 8000, 3701147929) /* PCAPRecordedObjectIID */;
+VALUES (1424, 8000, 0xDC9B0919) /* PCAPRecordedObjectIID */;

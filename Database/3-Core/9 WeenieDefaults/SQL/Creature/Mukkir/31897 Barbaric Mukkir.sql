@@ -25,23 +25,23 @@ VALUES (31897,   1, 'Barbaric Mukkir') /* Name */
      , (31897, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31897,   1,   33559741) /* Setup */
-     , (31897,   2,  150995348) /* MotionTable */
-     , (31897,   3,  536871107) /* SoundTable */
-     , (31897,   6,   67116771) /* PaletteBase */
-     , (31897,   8,  100688542) /* Icon */
-     , (31897,  22,  872415417) /* PhysicsEffectTable */
+VALUES (31897,   1, 0x020014BD) /* Setup */
+     , (31897,   2, 0x09000194) /* MotionTable */
+     , (31897,   3, 0x200000C3) /* SoundTable */
+     , (31897,   6, 0x04001EE3) /* PaletteBase */
+     , (31897,   8, 0x0600629E) /* Icon */
+     , (31897,  22, 0x340000B9) /* PhysicsEffectTable */
      , (31897,  30,         85) /* PhysicsScript - BreatheFrost */
      , (31897, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (31897, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (31897, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31897, 8040, 7537702, 16.9512, -41.8995, -18, 0.369001, 0, 0, -0.929429) /* PCAPRecordedLocation */
+VALUES (31897, 8040, 0x00730426, 16.9512, -41.8995, -18, 0.369001, 0, 0, -0.929429) /* PCAPRecordedLocation */
 /* @teleloc 0x00730426 [16.951200 -41.899500 -18.000000] 0.369001 0.000000 0.000000 -0.929429 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31897, 8000, 3359105273) /* PCAPRecordedObjectIID */;
+VALUES (31897, 8000, 0xC837E0F9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31897,   1, 455, 0, 0) /* Strength */

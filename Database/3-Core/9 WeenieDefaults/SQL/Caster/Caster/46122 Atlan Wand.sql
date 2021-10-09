@@ -11,6 +11,7 @@ VALUES (46122,   1,      32768) /* ItemType - Caster */
      , (46122,  18,          1) /* UiEffects - Magical */
      , (46122,  19,       4000) /* Value */
      , (46122,  33,          1) /* Bonded - Bonded */
+     , (46122,  46,        512) /* DefaultCombatStyle - Magic */
      , (46122,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46122,  94,         16) /* TargetType - Creature */
      , (46122, 151,          2) /* HookType - Wall */
@@ -29,17 +30,17 @@ VALUES (46122,   1, 'Atlan Wand') /* Name */
      , (46122,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46122,   1,   33557782) /* Setup */
-     , (46122,   3,  536870932) /* SoundTable */
-     , (46122,   6,   67111919) /* PaletteBase */
-     , (46122,   8,  100672989) /* Icon */
-     , (46122,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46122,   1, 0x02000D16) /* Setup */
+     , (46122,   3, 0x20000014) /* SoundTable */
+     , (46122,   6, 0x04000BEF) /* PaletteBase */
+     , (46122,   8, 0x060025DD) /* Icon */
+     , (46122,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46122, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (46122, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46122, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46122, 8000, 3694004959) /* PCAPRecordedObjectIID */;
+VALUES (46122, 8000, 0xDC2E0ADF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46122, 67111919, 0, 0);

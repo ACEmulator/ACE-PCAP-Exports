@@ -24,13 +24,13 @@ VALUES (43319,   1, 'Scroll of Clouded Soul') /* Name */
 Shoots eight waves of nether outward from the caster. Each wave does 94-147 points of nether damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43319,   1,   33554826) /* Setup */
-     , (43319,   8,  100691572) /* Icon */
-     , (43319,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43319,   1, 0x0200018A) /* Setup */
+     , (43319,   8, 0x06006E74) /* Icon */
+     , (43319,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43319,  28,       5361) /* Spell - NetherRing */
      , (43319, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43319, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43319, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43319, 8000, 2226778264) /* PCAPRecordedObjectIID */;
+VALUES (43319, 8000, 0x84B9F098) /* PCAPRecordedObjectIID */;

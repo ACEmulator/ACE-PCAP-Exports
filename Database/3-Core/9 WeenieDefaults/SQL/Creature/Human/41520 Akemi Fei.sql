@@ -31,27 +31,27 @@ VALUES (41520,   1, 'Akemi Fei') /* Name */
      , (41520, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41520,   1,   33554433) /* Setup */
-     , (41520,   2,  150994945) /* MotionTable */
-     , (41520,   3,  536870913) /* SoundTable */
-     , (41520,   6,   67108990) /* PaletteBase */
-     , (41520,   8,  100667377) /* Icon */
-     , (41520,   9,   83890448) /* EyesTexture */
-     , (41520,  10,   83890562) /* NoseTexture */
-     , (41520,  11,   83890630) /* MouthTexture */
-     , (41520,  15,   67117023) /* HairPalette */
-     , (41520,  16,   67109565) /* EyesPalette */
-     , (41520,  17,   67110050) /* SkinPalette */
+VALUES (41520,   1, 0x02000001) /* Setup */
+     , (41520,   2, 0x09000001) /* MotionTable */
+     , (41520,   3, 0x20000001) /* SoundTable */
+     , (41520,   6, 0x0400007E) /* PaletteBase */
+     , (41520,   8, 0x06000FF1) /* Icon */
+     , (41520,   9, 0x05001110) /* EyesTexture */
+     , (41520,  10, 0x05001182) /* NoseTexture */
+     , (41520,  11, 0x050011C6) /* MouthTexture */
+     , (41520,  15, 0x04001FDF) /* HairPalette */
+     , (41520,  16, 0x040002BD) /* EyesPalette */
+     , (41520,  17, 0x040004A2) /* SkinPalette */
      , (41520, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (41520, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (41520, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41520, 8040, 3880648735, 92.4366, 154.3, 37.005, 0.989689, 0, 0, -0.143233) /* PCAPRecordedLocation */
+VALUES (41520, 8040, 0xE74E001F, 92.4366, 154.3, 37.005, 0.989689, 0, 0, -0.143233) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E001F [92.436600 154.300000 37.005000] 0.989689 0.000000 0.000000 -0.143233 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41520, 8000, 3684813856) /* PCAPRecordedObjectIID */;
+VALUES (41520, 8000, 0xDBA1CC20) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41520,   1,  60, 0, 0) /* Strength */

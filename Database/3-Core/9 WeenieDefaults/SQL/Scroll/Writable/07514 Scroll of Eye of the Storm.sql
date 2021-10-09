@@ -24,13 +24,13 @@ VALUES (7514,   1, 'Scroll of Eye of the Storm') /* Name */
 Shoots eight waves of lightning outward from the caster. Each wave does 42-84 points of electric damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7514,   1,   33554826) /* Setup */
-     , (7514,   8,  100677012) /* Icon */
-     , (7514,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7514,   1, 0x0200018A) /* Setup */
+     , (7514,   8, 0x06003594) /* Icon */
+     , (7514,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7514,  28,       1788) /* Spell - LightningRing */
      , (7514, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (7514, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7514, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7514, 8000, 2192288943) /* PCAPRecordedObjectIID */;
+VALUES (7514, 8000, 0x82ABACAF) /* PCAPRecordedObjectIID */;

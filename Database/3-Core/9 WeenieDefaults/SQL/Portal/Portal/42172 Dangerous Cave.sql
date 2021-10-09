@@ -25,16 +25,16 @@ VALUES (42172,   1, 'Dangerous Cave') /* Name */
      , (42172, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42172,   1,   33554867) /* Setup */
-     , (42172,   2,  150994947) /* MotionTable */
-     , (42172,   8,  100667499) /* Icon */
+VALUES (42172,   1, 0x020001B3) /* Setup */
+     , (42172,   2, 0x09000003) /* MotionTable */
+     , (42172,   8, 0x0600106B) /* Icon */
      , (42172, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (42172, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (42172, 8005,      98435) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42172, 8040, 2315387403, 120, -69.9866, 0.25273, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (42172, 8040, 0x8A02020B, 120, -69.9866, 0.25273, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x8A02020B [120.000000 -69.986600 0.252730] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42172, 8000, 2023760068) /* PCAPRecordedObjectIID */;
+VALUES (42172, 8000, 0x78A020C4) /* PCAPRecordedObjectIID */;

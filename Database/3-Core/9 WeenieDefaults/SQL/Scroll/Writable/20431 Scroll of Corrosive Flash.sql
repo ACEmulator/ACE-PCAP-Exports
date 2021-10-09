@@ -24,13 +24,13 @@ VALUES (20431,   1, 'Scroll of Corrosive Flash') /* Name */
 Sends a stream of acid streaking towards the target. The stream does 42-84 points of acid damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20431,   1,   33554826) /* Setup */
-     , (20431,   8,  100677026) /* Icon */
-     , (20431,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20431,   1, 0x0200018A) /* Setup */
+     , (20431,   8, 0x060035A2) /* Icon */
+     , (20431,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20431,  28,       2121) /* Spell - AcidStreak7 */
      , (20431, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20431, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20431, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20431, 8000, 3701524094) /* PCAPRecordedObjectIID */;
+VALUES (20431, 8000, 0xDCA0C67E) /* PCAPRecordedObjectIID */;

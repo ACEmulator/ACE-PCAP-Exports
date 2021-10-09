@@ -19,18 +19,18 @@ VALUES (807,   1, 'Tonsho''s Remedies') /* Name */
      , (807,  16, 'Tonsho''s Remedies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (807,   1,   33555088) /* Setup */
-     , (807,   8,  100668115) /* Icon */
+VALUES (807,   1, 0x02000290) /* Setup */
+     , (807,   8, 0x060012D3) /* Icon */
      , (807, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (807, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (807, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (807, 8040, 3845259313, 156.84, 21.96, 28.08, -0.199368, 0, 0, 0.979925) /* PCAPRecordedLocation */
+VALUES (807, 8040, 0xE5320031, 156.84, 21.96, 28.08, -0.199368, 0, 0, 0.979925) /* PCAPRecordedLocation */
 /* @teleloc 0xE5320031 [156.840000 21.960000 28.080000] -0.199368 0.000000 0.000000 0.979925 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (807, 8000, 2119376911) /* PCAPRecordedObjectIID */;
+VALUES (807, 8000, 0x7E53200F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (807, 0, 83891055, 83889901);

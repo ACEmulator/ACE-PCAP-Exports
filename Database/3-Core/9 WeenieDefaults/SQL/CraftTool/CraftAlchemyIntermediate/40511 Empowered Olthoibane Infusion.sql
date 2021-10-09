@@ -24,17 +24,17 @@ VALUES (40511,   1, 'Empowered Olthoibane Infusion') /* Name */
      , (40511,  20, 'Empowered Olthoibane Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40511,   1,   33555965) /* Setup */
-     , (40511,   3,  536870932) /* SoundTable */
-     , (40511,   6,   67111919) /* PaletteBase */
-     , (40511,   8,  100690379) /* Icon */
-     , (40511,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40511,   1, 0x020005FD) /* Setup */
+     , (40511,   3, 0x20000014) /* SoundTable */
+     , (40511,   6, 0x04000BEF) /* PaletteBase */
+     , (40511,   8, 0x060069CB) /* Icon */
+     , (40511,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40511, 8001,    2650257) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (40511, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40511, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40511, 8000, 2148598027) /* PCAPRecordedObjectIID */;
+VALUES (40511, 8000, 0x8011010B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40511, 67111924, 0, 0);

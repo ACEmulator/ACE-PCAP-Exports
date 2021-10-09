@@ -24,13 +24,13 @@ VALUES (3439,   1, 'Scroll of Monster Attunement Other III') /* Name */
 Increases the target''s Assess Monster skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3439,   1,   33554826) /* Setup */
-     , (3439,   8,  100676448) /* Icon */
-     , (3439,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3439,   1, 0x0200018A) /* Setup */
+     , (3439,   8, 0x06003360) /* Icon */
+     , (3439,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3439,  28,        806) /* Spell - MonsterAttunementOther3 */
      , (3439, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3439, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3439, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3439, 8000, 3621824582) /* PCAPRecordedObjectIID */;
+VALUES (3439, 8000, 0xD7E0A846) /* PCAPRecordedObjectIID */;

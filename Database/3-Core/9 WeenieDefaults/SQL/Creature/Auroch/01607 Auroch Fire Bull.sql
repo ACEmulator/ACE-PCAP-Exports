@@ -26,23 +26,23 @@ VALUES (1607,   1, 'Auroch Fire Bull') /* Name */
      , (1607, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1607,   1,   33554478) /* Setup */
-     , (1607,   2,  150994969) /* MotionTable */
-     , (1607,   3,  536870916) /* SoundTable */
-     , (1607,   6,   67109302) /* PaletteBase */
-     , (1607,   8,  100667936) /* Icon */
-     , (1607,  22,  872415254) /* PhysicsEffectTable */
+VALUES (1607,   1, 0x0200002E) /* Setup */
+     , (1607,   2, 0x09000019) /* MotionTable */
+     , (1607,   3, 0x20000004) /* SoundTable */
+     , (1607,   6, 0x040001B6) /* PaletteBase */
+     , (1607,   8, 0x06001220) /* Icon */
+     , (1607,  22, 0x34000016) /* PhysicsEffectTable */
      , (1607,  30,         84) /* PhysicsScript - BreatheFlame */
      , (1607, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1607, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1607, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1607, 8040, 2457796671, 186.3784, 162.3334, 44.0131, -0.8494273, 0, 0, -0.5277056) /* PCAPRecordedLocation */
+VALUES (1607, 8040, 0x927F003F, 186.3784, 162.3334, 44.0131, -0.849427, 0, 0, -0.527706) /* PCAPRecordedLocation */
 /* @teleloc 0x927F003F [186.378400 162.333400 44.013100] -0.849427 0.000000 0.000000 -0.527706 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1607, 8000, 3685848175) /* PCAPRecordedObjectIID */;
+VALUES (1607, 8000, 0xDBB1946F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1607,   1, 145, 0, 0) /* Strength */

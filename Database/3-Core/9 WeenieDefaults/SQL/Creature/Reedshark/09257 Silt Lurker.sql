@@ -25,22 +25,22 @@ VALUES (9257,   1, 'Silt Lurker') /* Name */
      , (9257, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9257,   1,   33554489) /* Setup */
-     , (9257,   2,  150994970) /* MotionTable */
-     , (9257,   3,  536870928) /* SoundTable */
-     , (9257,   6,   67109313) /* PaletteBase */
-     , (9257,   8,  100667939) /* Icon */
-     , (9257,  22,  872415268) /* PhysicsEffectTable */
+VALUES (9257,   1, 0x02000039) /* Setup */
+     , (9257,   2, 0x0900001A) /* MotionTable */
+     , (9257,   3, 0x20000010) /* SoundTable */
+     , (9257,   6, 0x040001C1) /* PaletteBase */
+     , (9257,   8, 0x06001223) /* Icon */
+     , (9257,  22, 0x34000024) /* PhysicsEffectTable */
      , (9257, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (9257, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (9257, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9257, 8040, 2536833032, 14.89552, 182.5483, 37.57687, -0.7660444, 0, 0, -0.6427876) /* PCAPRecordedLocation */
+VALUES (9257, 8040, 0x97350008, 14.89552, 182.5483, 37.57687, -0.766044, 0, 0, -0.642788) /* PCAPRecordedLocation */
 /* @teleloc 0x97350008 [14.895520 182.548300 37.576870] -0.766044 0.000000 0.000000 -0.642788 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9257, 8000, 3685863000) /* PCAPRecordedObjectIID */;
+VALUES (9257, 8000, 0xDBB1CE58) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9257,   1,  95, 0, 0) /* Strength */
@@ -209,7 +209,9 @@ VALUES (9257, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTre
      , (9257, 9,  2684,  0, 0, 0, False) /* Create Scroll of Frailty Other IV (2684) for ContainTreasure */
      , (9257, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
      , (9257, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
-     , (9257, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */;
+     , (9257, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (9257, 9,  3420,  0, 0, 0, False) /* Create Scroll of Magic Item Tinkering Ignorance IV (3420) for ContainTreasure */
+     , (9257, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9257, 67113143, 0, 0);

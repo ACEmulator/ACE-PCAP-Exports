@@ -22,16 +22,16 @@ VALUES (22191,   1, 'Olthoi Arcade') /* Name */
      , (22191, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22191,   1,   33554867) /* Setup */
-     , (22191,   2,  150994947) /* MotionTable */
-     , (22191,   8,  100667499) /* Icon */
+VALUES (22191,   1, 0x020001B3) /* Setup */
+     , (22191,   2, 0x09000003) /* MotionTable */
+     , (22191,   8, 0x0600106B) /* Icon */
      , (22191, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (22191, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (22191, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22191, 8040, 1531183419, 130.089, -495.744, -48.063, 0.012538, 0, 0, 0.9999214) /* PCAPRecordedLocation */
+VALUES (22191, 8040, 0x5B44013B, 130.089, -495.744, -48.063, 0.012538, 0, 0, 0.999921) /* PCAPRecordedLocation */
 /* @teleloc 0x5B44013B [130.089000 -495.744000 -48.063000] 0.012538 0.000000 0.000000 0.999921 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22191, 8000, 1974747483) /* PCAPRecordedObjectIID */;
+VALUES (22191, 8000, 0x75B4415B) /* PCAPRecordedObjectIID */;

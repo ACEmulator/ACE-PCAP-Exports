@@ -23,18 +23,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45508,   1, 'Foolproof Jet Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45508,   1,   33556769) /* Setup */
-     , (45508,   3,  536870932) /* SoundTable */
-     , (45508,   6,   67111919) /* PaletteBase */
-     , (45508,   8,  100673039) /* Icon */
-     , (45508,  22,  872415275) /* PhysicsEffectTable */
-     , (45508,  50,  100674744) /* IconOverlay */
+VALUES (45508,   1, 0x02000921) /* Setup */
+     , (45508,   3, 0x20000014) /* SoundTable */
+     , (45508,   6, 0x04000BEF) /* PaletteBase */
+     , (45508,   8, 0x0600260F) /* Icon */
+     , (45508,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45508,  50, 0x06002CB8) /* IconOverlay */
      , (45508, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (45508, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45508, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45508, 8000, 2926034191) /* PCAPRecordedObjectIID */;
+VALUES (45508, 8000, 0xAE67BD0F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45508, 67111927, 0, 0);

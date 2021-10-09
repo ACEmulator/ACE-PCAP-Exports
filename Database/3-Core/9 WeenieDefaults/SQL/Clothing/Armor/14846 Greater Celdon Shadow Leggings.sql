@@ -8,7 +8,6 @@ VALUES (14846,   1,          2) /* ItemType - Armor */
      , (14846,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (14846,   5,       3100) /* EncumbranceVal */
      , (14846,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
-     , (14846,  10,      24576) /* CurrentWieldedLocation - UpperLegArmor, LowerLegArmor */
      , (14846,  16,          1) /* ItemUseable - No */
      , (14846,  19,       2140) /* Value */
      , (14846,  28,        210) /* ArmorLevel */
@@ -37,17 +36,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14846,   1, 'Greater Celdon Shadow Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14846,   1,   33554856) /* Setup */
-     , (14846,   3,  536870932) /* SoundTable */
-     , (14846,   6,   67108990) /* PaletteBase */
-     , (14846,   8,  100672618) /* Icon */
-     , (14846,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14846,   1, 0x020001A8) /* Setup */
+     , (14846,   3, 0x20000014) /* SoundTable */
+     , (14846,   6, 0x0400007E) /* PaletteBase */
+     , (14846,   8, 0x0600246A) /* Icon */
+     , (14846,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14846, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (14846, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14846, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14846, 8000, 2164419673) /* PCAPRecordedObjectIID */;
+VALUES (14846, 8000, 0x81026C59) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14846, 67113799, 136, 16)

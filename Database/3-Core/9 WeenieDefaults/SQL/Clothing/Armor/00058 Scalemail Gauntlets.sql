@@ -43,24 +43,21 @@ VALUES (58,   1, 'Scalemail Gauntlets') /* Name */
      , (58,  16, 'Scalemail Gauntlets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (58,   1,   33554648) /* Setup */
-     , (58,   3,  536870932) /* SoundTable */
-     , (58,   6,   67108990) /* PaletteBase */
-     , (58,   8,  100669675) /* Icon */
-     , (58,  22,  872415275) /* PhysicsEffectTable */
+VALUES (58,   1, 0x020000D8) /* Setup */
+     , (58,   3, 0x20000014) /* SoundTable */
+     , (58,   6, 0x0400007E) /* PaletteBase */
+     , (58,   8, 0x060018EB) /* Icon */
+     , (58,  22, 0x3400002B) /* PhysicsEffectTable */
      , (58,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (58, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (58, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (58, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (58, 8000, 2186220483) /* PCAPRecordedObjectIID */;
+VALUES (58, 8000, 0x824F13C3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (58,  1484,      2)  /* Impenetrability4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (58, 2, 47514,  1, 0, 0, False) /* Create Lightning Tachi (47514) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (58, 67110548, 168, 6);

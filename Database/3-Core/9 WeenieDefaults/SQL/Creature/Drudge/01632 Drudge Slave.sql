@@ -23,22 +23,22 @@ VALUES (1632,   1, 'Drudge Slave') /* Name */
      , (1632, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1632,   1,   33556445) /* Setup */
-     , (1632,   2,  150994952) /* MotionTable */
-     , (1632,   3,  536870919) /* SoundTable */
-     , (1632,   6,   67112812) /* PaletteBase */
-     , (1632,   8,  100667445) /* Icon */
-     , (1632,  22,  872415258) /* PhysicsEffectTable */
+VALUES (1632,   1, 0x020007DD) /* Setup */
+     , (1632,   2, 0x09000008) /* MotionTable */
+     , (1632,   3, 0x20000007) /* SoundTable */
+     , (1632,   6, 0x04000F6C) /* PaletteBase */
+     , (1632,   8, 0x06001035) /* Icon */
+     , (1632,  22, 0x3400001A) /* PhysicsEffectTable */
      , (1632, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1632, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1632, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1632, 8040, 2536964132, 97.85068, 74.20371, 32.18715, 0.9659258, 0, 0, -0.258819) /* PCAPRecordedLocation */
+VALUES (1632, 8040, 0x97370024, 97.85068, 74.20371, 32.18715, 0.965926, 0, 0, -0.258819) /* PCAPRecordedLocation */
 /* @teleloc 0x97370024 [97.850680 74.203710 32.187150] 0.965926 0.000000 0.000000 -0.258819 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1632, 8000, 3685862882) /* PCAPRecordedObjectIID */;
+VALUES (1632, 8000, 0xDBB1CDE2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1632,   1,  80, 0, 0) /* Strength */
@@ -516,7 +516,9 @@ VALUES (1632, 2, 47249,  1, 0, 0, False) /* Create Board with Nail (47249) for W
      , (1632, 9, 40635,  0, 0, 0, False) /* Create Tetsubo (40635) for ContainTreasure */
      , (1632, 9, 45431,  0, 0, 0, False) /* Create Khanjar (45431) for ContainTreasure */
      , (1632, 9, 21296,  0, 0, 0, False) /* Create Scroll of Blade Arc II (21296) for ContainTreasure */
-     , (1632, 9, 45252,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Self (45252) for ContainTreasure */;
+     , (1632, 9, 45252,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Self (45252) for ContainTreasure */
+     , (1632, 9,  2877,  0, 0, 0, False) /* Create Scroll of Strengthen Lock II (2877) for ContainTreasure */
+     , (1632, 9, 22165,  0, 0, 0, False) /* Create Lightning Quarter Staff (22165) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1632, 67112818, 0, 0);

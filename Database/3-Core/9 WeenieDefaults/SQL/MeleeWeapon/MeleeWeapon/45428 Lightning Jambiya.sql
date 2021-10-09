@@ -47,17 +47,17 @@ VALUES (45428,   1, 'Lightning Jambiya') /* Name */
      , (45428,  16, 'Lightning Jambiya') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45428,   1,   33555728) /* Setup */
-     , (45428,   3,  536870932) /* SoundTable */
-     , (45428,   8,  100668892) /* Icon */
-     , (45428,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45428,   1, 0x02000510) /* Setup */
+     , (45428,   3, 0x20000014) /* SoundTable */
+     , (45428,   8, 0x060015DC) /* Icon */
+     , (45428,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45428, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45428, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45428, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45428, 8040, 2847146026, 128.2484, 40.6387, 94.05099, 0.07865743, 0, 0, -0.9969017) /* PCAPRecordedLocation */
+VALUES (45428, 8040, 0xA9B4002A, 128.2484, 40.6387, 94.05099, 0.078657, 0, 0, -0.996902) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [128.248400 40.638700 94.050990] 0.078657 0.000000 0.000000 -0.996902 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45428, 8000, 3699119962) /* PCAPRecordedObjectIID */;
+VALUES (45428, 8000, 0xDC7C175A) /* PCAPRecordedObjectIID */;

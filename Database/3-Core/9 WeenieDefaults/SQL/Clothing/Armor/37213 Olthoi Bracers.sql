@@ -46,17 +46,17 @@ VALUES (37213,   1, 'Olthoi Bracers') /* Name */
      , (37213,  16, 'Olthoi Bracers') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37213,   1,   33554641) /* Setup */
-     , (37213,   3,  536870932) /* SoundTable */
-     , (37213,   6,   67108990) /* PaletteBase */
-     , (37213,   8,  100674527) /* Icon */
-     , (37213,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37213,   1, 0x020000D1) /* Setup */
+     , (37213,   3, 0x20000014) /* SoundTable */
+     , (37213,   6, 0x0400007E) /* PaletteBase */
+     , (37213,   8, 0x06002BDF) /* Icon */
+     , (37213,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37213, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (37213, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37213, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37213, 8000, 3484338528) /* PCAPRecordedObjectIID */;
+VALUES (37213, 8000, 0xCFAEC960) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37213, 67116577, 96, 12)

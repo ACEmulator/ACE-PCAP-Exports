@@ -8,7 +8,6 @@ VALUES (25527,   1,          2) /* ItemType - Armor */
      , (25527,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (25527,   5,        750) /* EncumbranceVal */
      , (25527,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
-     , (25527,  10,      25600) /* CurrentWieldedLocation - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (25527,  16,          1) /* ItemUseable - No */
      , (25527,  19,       4500) /* Value */
      , (25527,  28,        230) /* ArmorLevel */
@@ -33,17 +32,17 @@ VALUES (25527,   1, 'Gauloth Leggings') /* Name */
      , (25527,  16, 'A pair of leather leggings crafted from the hide of Gauloth Shreth. The leggings have been reinforced with bands of metal and bony structures.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25527,   1,   33554856) /* Setup */
-     , (25527,   3,  536870932) /* SoundTable */
-     , (25527,   6,   67108990) /* PaletteBase */
-     , (25527,   8,  100675043) /* Icon */
-     , (25527,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25527,   1, 0x020001A8) /* Setup */
+     , (25527,   3, 0x20000014) /* SoundTable */
+     , (25527,   6, 0x0400007E) /* PaletteBase */
+     , (25527,   8, 0x06002DE3) /* Icon */
+     , (25527,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25527, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (25527, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25527, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25527, 8000, 2929184051) /* PCAPRecordedObjectIID */;
+VALUES (25527, 8000, 0xAE97CD33) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25527, 67114592, 72, 20)

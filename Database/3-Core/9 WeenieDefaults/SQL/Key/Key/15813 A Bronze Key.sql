@@ -23,16 +23,16 @@ VALUES (15813,   1, 'A Bronze Key') /* Name */
      , (15813,  15, 'A Key to Brontynn Marshad''s Chest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15813,   1,   33554784) /* Setup */
-     , (15813,   3,  536870932) /* SoundTable */
-     , (15813,   8,  100672825) /* Icon */
-     , (15813,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15813,   1, 0x02000160) /* Setup */
+     , (15813,   3, 0x20000014) /* SoundTable */
+     , (15813,   8, 0x06002539) /* Icon */
+     , (15813,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15813, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (15813, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15813, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15813, 8000, 2186220409) /* PCAPRecordedObjectIID */;
+VALUES (15813, 8000, 0x824F1379) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (15813, 0, 83888936, 83886763);

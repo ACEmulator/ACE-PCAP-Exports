@@ -50,22 +50,22 @@ VALUES (45106,   1, 'Flaming Rapier') /* Name */
      , (45106,  16, 'Flaming Rapier of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45106,   1,   33561418) /* Setup */
-     , (45106,   3,  536870932) /* SoundTable */
-     , (45106,   6,   67111919) /* PaletteBase */
-     , (45106,   8,  100670665) /* Icon */
-     , (45106,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45106,   1, 0x02001B4A) /* Setup */
+     , (45106,   3, 0x20000014) /* SoundTable */
+     , (45106,   6, 0x04000BEF) /* PaletteBase */
+     , (45106,   8, 0x06001CC9) /* Icon */
+     , (45106,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45106,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45106, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45106, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45106, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45106, 8000, 3681700364) /* PCAPRecordedObjectIID */;
+VALUES (45106, 8000, 0xDB724A0C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45106,  1589,      2)  /* HeartSeekerSelf3 */
-     , (45106,  1612,      2)  /* BloodDrinkerSelf2 */;
+VALUES (45106,  1612,      2)  /* BloodDrinkerSelf2 */
+     , (45106,  1589,      2)  /* HeartSeekerSelf3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45106, 67111926, 0, 0);

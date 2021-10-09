@@ -19,7 +19,8 @@ VALUES (44367,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44367, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44367,  69, False) /* IsSellable */;
+VALUES (44367,  23, True ) /* DestroyOnSell */
+     , (44367,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44367,   1, 'Wrapped Bundle of Greater Deadly Frog Crotch Arrowheads') /* Name */
@@ -27,14 +28,14 @@ VALUES (44367,   1, 'Wrapped Bundle of Greater Deadly Frog Crotch Arrowheads') /
      , (44367,  20, 'Wrapped Bundles of Greater Deadly Frog Crotch Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44367,   1,   33557030) /* Setup */
-     , (44367,   3,  536870932) /* SoundTable */
-     , (44367,   8,  100672692) /* Icon */
-     , (44367,  22,  872415275) /* PhysicsEffectTable */
-     , (44367,  50,  100689661) /* IconOverlay */
+VALUES (44367,   1, 0x02000A26) /* Setup */
+     , (44367,   3, 0x20000014) /* SoundTable */
+     , (44367,   8, 0x060024B4) /* Icon */
+     , (44367,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44367,  50, 0x060066FD) /* IconOverlay */
      , (44367, 8001, 1074294809) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, IconOverlay */
      , (44367, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44367, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44367, 8000, 3341328212) /* PCAPRecordedObjectIID */;
+VALUES (44367, 8000, 0xC7289F54) /* PCAPRecordedObjectIID */;

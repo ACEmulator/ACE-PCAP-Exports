@@ -22,22 +22,22 @@ VALUES (36600,   1, 'Demerax the Sculptor') /* Name */
      , (36600, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36600,   1,   33558343) /* Setup */
-     , (36600,   2,  150994984) /* MotionTable */
-     , (36600,   3,  536870930) /* SoundTable */
-     , (36600,   6,   67114250) /* PaletteBase */
-     , (36600,   8,  100674323) /* Icon */
-     , (36600,  22,  872415273) /* PhysicsEffectTable */
+VALUES (36600,   1, 0x02000F47) /* Setup */
+     , (36600,   2, 0x09000028) /* MotionTable */
+     , (36600,   3, 0x20000012) /* SoundTable */
+     , (36600,   6, 0x0400150A) /* PaletteBase */
+     , (36600,   8, 0x06002B13) /* Icon */
+     , (36600,  22, 0x34000029) /* PhysicsEffectTable */
      , (36600, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (36600, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (36600, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36600, 8040, 10749009, 43.77494, -40.08339, 24.029, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (36600, 8040, 0x00A40451, 43.77494, -40.08339, 24.029, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00A40451 [43.774940 -40.083390 24.029000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36600, 8000, 3684473687) /* PCAPRecordedObjectIID */;
+VALUES (36600, 8000, 0xDB9C9B57) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (36600,   1,     0, 0, 0, 5000) /* MaxHealth */;

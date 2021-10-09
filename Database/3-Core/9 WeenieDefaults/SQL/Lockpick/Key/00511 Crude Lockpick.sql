@@ -25,11 +25,11 @@ VALUES (511,   1, 'Crude Lockpick') /* Name */
      , (511,  14, 'Use this item on a locked door or chest to pick the lock.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (511,   1,   33554790) /* Setup */
-     , (511,   8,  100670823) /* Icon */
+VALUES (511,   1, 0x02000166) /* Setup */
+     , (511,   8, 0x06001D67) /* Icon */
      , (511, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (511, 8003,     131090) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Lockpick */
      , (511, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (511, 8000, 2856726396) /* PCAPRecordedObjectIID */;
+VALUES (511, 8000, 0xAA462F7C) /* PCAPRecordedObjectIID */;

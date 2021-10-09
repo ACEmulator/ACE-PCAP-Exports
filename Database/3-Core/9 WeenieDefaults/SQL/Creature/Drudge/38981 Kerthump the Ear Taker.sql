@@ -30,22 +30,22 @@ VALUES (38981,   1, 'Kerthump the Ear Taker') /* Name */
      , (38981, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38981,   1,   33556445) /* Setup */
-     , (38981,   2,  150994952) /* MotionTable */
-     , (38981,   3,  536870919) /* SoundTable */
-     , (38981,   6,   67112812) /* PaletteBase */
-     , (38981,   8,  100667445) /* Icon */
-     , (38981,  22,  872415258) /* PhysicsEffectTable */
+VALUES (38981,   1, 0x020007DD) /* Setup */
+     , (38981,   2, 0x09000008) /* MotionTable */
+     , (38981,   3, 0x20000007) /* SoundTable */
+     , (38981,   6, 0x04000F6C) /* PaletteBase */
+     , (38981,   8, 0x06001035) /* Icon */
+     , (38981,  22, 0x3400001A) /* PhysicsEffectTable */
      , (38981, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (38981, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (38981, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38981, 8040, 869924892, 93, 89, 60.0049, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (38981, 8040, 0x33DA001C, 93, 89, 60.0049, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x33DA001C [93.000000 89.000000 60.004900] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38981, 8000, 3706619721) /* PCAPRecordedObjectIID */;
+VALUES (38981, 8000, 0xDCEE8749) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38981,   1, 500, 0, 0) /* Strength */

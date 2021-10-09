@@ -25,23 +25,23 @@ VALUES (35146,   1, 'Olthoi Slayer') /* Name */
      , (35146, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35146,   1,   33557164) /* Setup */
-     , (35146,   2,  150994946) /* MotionTable */
-     , (35146,   3,  536870925) /* SoundTable */
-     , (35146,   6,   67113236) /* PaletteBase */
-     , (35146,   8,  100667623) /* Icon */
-     , (35146,  22,  872415265) /* PhysicsEffectTable */
+VALUES (35146,   1, 0x02000AAC) /* Setup */
+     , (35146,   2, 0x09000002) /* MotionTable */
+     , (35146,   3, 0x2000000D) /* SoundTable */
+     , (35146,   6, 0x04001114) /* PaletteBase */
+     , (35146,   8, 0x060010E7) /* Icon */
+     , (35146,  22, 0x34000021) /* PhysicsEffectTable */
      , (35146,  30,         86) /* PhysicsScript - BreatheAcid */
      , (35146, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35146, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35146, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35146, 8040, 11534729, 35.14165, -846.6882, 0.105, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35146, 8040, 0x00B00189, 35.14165, -846.6882, 0.105, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B00189 [35.141650 -846.688200 0.105000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35146, 8000, 2447684082) /* PCAPRecordedObjectIID */;
+VALUES (35146, 8000, 0x91E4B1F2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35146,   1, 380, 0, 0) /* Strength */

@@ -29,20 +29,20 @@ VALUES (5360,   1, 'Corpse of Abmim ibn Ibsar') /* Name */
      , (5360,  16, 'The corpse of Abmim ibn Ibsar, bobbing gently near the surface of the water.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5360,   1,   33555323) /* Setup */
-     , (5360,   3,  536870932) /* SoundTable */
-     , (5360,   8,  100667504) /* Icon */
-     , (5360,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5360,   1, 0x0200037B) /* Setup */
+     , (5360,   3, 0x20000014) /* SoundTable */
+     , (5360,   8, 0x06001070) /* Icon */
+     , (5360,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5360, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (5360, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (5360, 8005,      38917) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5360, 8040, 2036531237, 108.145, 116.666, -0.15175, -0.976921, 0, 0, -0.213601) /* PCAPRecordedLocation */
+VALUES (5360, 8040, 0x79630025, 108.145, 116.666, -0.15175, -0.976921, 0, 0, -0.213601) /* PCAPRecordedLocation */
 /* @teleloc 0x79630025 [108.145000 116.666000 -0.151750] -0.976921 0.000000 0.000000 -0.213601 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5360, 8000, 2006331401) /* PCAPRecordedObjectIID */;
+VALUES (5360, 8000, 0x77963009) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5360, -1, 5361, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Abmim's Jambiya (5361) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

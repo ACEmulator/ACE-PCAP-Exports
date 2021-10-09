@@ -24,13 +24,13 @@ VALUES (20230,   1, 'Scroll of Executor''s Boon') /* Name */
 Increases the target''s natural armor by 225 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20230,   1,   33554826) /* Setup */
-     , (20230,   8,  100676928) /* Icon */
-     , (20230,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20230,   1, 0x0200018A) /* Setup */
+     , (20230,   8, 0x06003540) /* Icon */
+     , (20230,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20230,  28,       2052) /* Spell - ArmorOther7 */
      , (20230, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20230, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20230, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20230, 8000, 3690997719) /* PCAPRecordedObjectIID */;
+VALUES (20230, 8000, 0xDC0027D7) /* PCAPRecordedObjectIID */;

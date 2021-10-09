@@ -36,27 +36,27 @@ VALUES (5877,   1, 'Surnad the Peddler') /* Name */
      , (5877, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5877,   1,   33554433) /* Setup */
-     , (5877,   2,  150994945) /* MotionTable */
-     , (5877,   3,  536870913) /* SoundTable */
-     , (5877,   6,   67108990) /* PaletteBase */
-     , (5877,   8,  100667446) /* Icon */
-     , (5877,   9,   83890511) /* EyesTexture */
-     , (5877,  10,   83890550) /* NoseTexture */
-     , (5877,  11,   83890627) /* MouthTexture */
-     , (5877,  15,   67116982) /* HairPalette */
-     , (5877,  16,   67110063) /* EyesPalette */
-     , (5877,  17,   67109561) /* SkinPalette */
+VALUES (5877,   1, 0x02000001) /* Setup */
+     , (5877,   2, 0x09000001) /* MotionTable */
+     , (5877,   3, 0x20000001) /* SoundTable */
+     , (5877,   6, 0x0400007E) /* PaletteBase */
+     , (5877,   8, 0x06001036) /* Icon */
+     , (5877,   9, 0x0500114F) /* EyesTexture */
+     , (5877,  10, 0x05001176) /* NoseTexture */
+     , (5877,  11, 0x050011C3) /* MouthTexture */
+     , (5877,  15, 0x04001FB6) /* HairPalette */
+     , (5877,  16, 0x040004AF) /* EyesPalette */
+     , (5877,  17, 0x040002B9) /* SkinPalette */
      , (5877, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (5877, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (5877, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5877, 8040, 3316777218, 182.142, 156.189, 261.205, -0.6719992, 0, 0, -0.7405519) /* PCAPRecordedLocation */
+VALUES (5877, 8040, 0xC5B20102, 182.142, 156.189, 261.205, -0.671999, 0, 0, -0.740552) /* PCAPRecordedLocation */
 /* @teleloc 0xC5B20102 [182.142000 156.189000 261.205000] -0.671999 0.000000 0.000000 -0.740552 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5877, 8000, 2086346754) /* PCAPRecordedObjectIID */;
+VALUES (5877, 8000, 0x7C5B2002) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5877,   1,  80, 0, 0) /* Strength */
@@ -120,12 +120,15 @@ VALUES (5877, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (5877, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
      , (5877, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
      , (5877, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (5877, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (5877, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (5877, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (5877, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (5877, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (5877, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (5877, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (5877, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
-     , (5877, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (5877, 4, 31238, -1, 0, 0, False) /* Create Viamontian Leggings (31238) for Shop */;
+     , (5877, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5877, 67109561, 0, 24)

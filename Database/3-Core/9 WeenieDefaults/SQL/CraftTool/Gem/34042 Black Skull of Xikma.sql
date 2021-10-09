@@ -20,7 +20,8 @@ VALUES (34042,   1,       2048) /* ItemType - Gem */
      , (34042, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34042,  69, False) /* IsSellable */;
+VALUES (34042,  23, True ) /* DestroyOnSell */
+     , (34042,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34042,   1, 'Black Skull of Xikma') /* Name */
@@ -28,17 +29,17 @@ VALUES (34042,   1, 'Black Skull of Xikma') /* Name */
      , (34042,  16, 'A black skull with sockets so dark they seem to be emptier than a mere lack of light can explain. The Skull is empowered to enchant a single weapon against the Undead.  This effect is permanent, but fragile, and therefore cannot be applied to any weapon previously empowered.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34042,   1,   33556926) /* Setup */
-     , (34042,   3,  536870932) /* SoundTable */
-     , (34042,   6,   67111919) /* PaletteBase */
-     , (34042,   8,  100689142) /* Icon */
-     , (34042,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34042,   1, 0x020009BE) /* Setup */
+     , (34042,   3, 0x20000014) /* SoundTable */
+     , (34042,   6, 0x04000BEF) /* PaletteBase */
+     , (34042,   8, 0x060064F6) /* Icon */
+     , (34042,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34042, 8001,    2650264) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (34042, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34042, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34042, 8000, 2644174769) /* PCAPRecordedObjectIID */;
+VALUES (34042, 8000, 0x9D9AE7B1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34042, 67111924, 0, 0);

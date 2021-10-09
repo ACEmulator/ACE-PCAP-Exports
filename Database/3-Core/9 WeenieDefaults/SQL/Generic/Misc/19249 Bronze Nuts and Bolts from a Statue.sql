@@ -20,11 +20,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19249,   1, 'Bronze Nuts and Bolts from a Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19249,   1,   33557679) /* Setup */
-     , (19249,   8,  100672954) /* Icon */
+VALUES (19249,   1, 0x02000CAF) /* Setup */
+     , (19249,   8, 0x060025BA) /* Icon */
      , (19249, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (19249, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19249, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19249, 8000, 3703462164) /* PCAPRecordedObjectIID */;
+VALUES (19249, 8000, 0xDCBE5914) /* PCAPRecordedObjectIID */;

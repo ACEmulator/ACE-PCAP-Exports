@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41397,   1, 'Abrasive Polish') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41397,   1,   33554598) /* Setup */
-     , (41397,   3,  536870932) /* SoundTable */
-     , (41397,   8,  100690724) /* Icon */
-     , (41397,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41397,   1, 0x020000A6) /* Setup */
+     , (41397,   3, 0x20000014) /* SoundTable */
+     , (41397,   8, 0x06006B24) /* Icon */
+     , (41397,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41397, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (41397, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41397, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41397, 8000, 2885093108) /* PCAPRecordedObjectIID */;
+VALUES (41397, 8000, 0xABF706F4) /* PCAPRecordedObjectIID */;

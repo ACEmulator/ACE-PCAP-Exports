@@ -13,7 +13,8 @@ VALUES (33988,   1,        128) /* ItemType - Misc */
      , (33988, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33988,  22, True ) /* Inscribable */;
+VALUES (33988,  22, True ) /* Inscribable */
+     , (33988,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33988,  39,     1.3) /* DefaultScale */;
@@ -24,12 +25,12 @@ VALUES (33988,   1, 'Fossilized Bone') /* Name */
      , (33988,  16, 'A large fossilized bone. You have no way of knowing how old it might be. The bone looks like it came from a huge bird''s wing. Its surface glows with an inner radiance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33988,   1,   33560098) /* Setup */
-     , (33988,   3,  536870932) /* SoundTable */
-     , (33988,   8,  100689106) /* Icon */
+VALUES (33988,   1, 0x02001622) /* Setup */
+     , (33988,   3, 0x20000014) /* SoundTable */
+     , (33988,   8, 0x060064D2) /* Icon */
      , (33988, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (33988, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33988, 8005,       2177) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33988, 8000, 3307026733) /* PCAPRecordedObjectIID */;
+VALUES (33988, 8000, 0xC51D392D) /* PCAPRecordedObjectIID */;

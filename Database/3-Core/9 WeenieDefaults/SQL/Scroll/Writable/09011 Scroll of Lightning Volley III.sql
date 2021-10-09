@@ -24,13 +24,13 @@ VALUES (9011,   1, 'Scroll of Lightning Volley III') /* Name */
 Shoots three bolts of lightning toward the target. Each bolt does 15-31 points of electric damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9011,   1,   33554826) /* Setup */
-     , (9011,   8,  100677013) /* Icon */
-     , (9011,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9011,   1, 0x0200018A) /* Setup */
+     , (9011,   8, 0x06003595) /* Icon */
+     , (9011,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9011,  28,        139) /* Spell - LightningVolley3 */
      , (9011, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (9011, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9011, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9011, 8000, 3631307391) /* PCAPRecordedObjectIID */;
+VALUES (9011, 8000, 0xD8715A7F) /* PCAPRecordedObjectIID */;

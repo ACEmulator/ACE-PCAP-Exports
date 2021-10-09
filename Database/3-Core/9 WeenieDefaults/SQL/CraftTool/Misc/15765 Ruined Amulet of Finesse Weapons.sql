@@ -25,17 +25,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15765,   1, 'Ruined Amulet of Finesse Weapons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15765,   1,   33554680) /* Setup */
-     , (15765,   3,  536870932) /* SoundTable */
-     , (15765,   6,   67111919) /* PaletteBase */
-     , (15765,   8,  100692285) /* Icon */
-     , (15765,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15765,   1, 0x020000F8) /* Setup */
+     , (15765,   3, 0x20000014) /* SoundTable */
+     , (15765,   6, 0x04000BEF) /* PaletteBase */
+     , (15765,   8, 0x0600713D) /* Icon */
+     , (15765,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15765, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (15765, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15765, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15765, 8000, 2368875721) /* PCAPRecordedObjectIID */;
+VALUES (15765, 8000, 0x8D322CC9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15765, 67111922, 0, 0);

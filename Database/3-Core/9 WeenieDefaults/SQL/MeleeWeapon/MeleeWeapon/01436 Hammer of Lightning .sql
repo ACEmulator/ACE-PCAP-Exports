@@ -43,19 +43,19 @@ VALUES (1436,   1, 'Hammer of Lightning ') /* Name */
      , (1436,  16, 'A powerful hammer, coruscating with energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1436,   1,   33555415) /* Setup */
-     , (1436,   8,  100667619) /* Icon */
-     , (1436,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1436,   1, 0x020003D7) /* Setup */
+     , (1436,   8, 0x060010E3) /* Icon */
+     , (1436,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1436, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (1436, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1436, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1436, 8000, 3690194268) /* PCAPRecordedObjectIID */;
+VALUES (1436, 8000, 0xDBF3E55C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1436,  1069,      2)  /* LightningProtectionSelf4 */
-     , (1436,  1589,      2)  /* HeartSeekerSelf3 */
-     , (1436,  1602,      2)  /* DefenderSelf3 */
+VALUES (1436,  1602,      2)  /* DefenderSelf3 */
      , (1436,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (1436,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (1436,  1625,      2)  /* SwiftKillerSelf4 */
+     , (1436,  1069,      2)  /* LightningProtectionSelf4 */
+     , (1436,  1589,      2)  /* HeartSeekerSelf3 */;

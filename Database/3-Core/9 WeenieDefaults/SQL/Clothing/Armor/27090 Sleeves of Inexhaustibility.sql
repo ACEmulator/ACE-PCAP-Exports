@@ -8,7 +8,6 @@ VALUES (27090,   1,          2) /* ItemType - Armor */
      , (27090,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (27090,   5,        270) /* EncumbranceVal */
      , (27090,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
-     , (27090,  10,       6144) /* CurrentWieldedLocation - UpperArmArmor, LowerArmArmor */
      , (27090,  16,          1) /* ItemUseable - No */
      , (27090,  18,          1) /* UiEffects - Magical */
      , (27090,  19,       2000) /* Value */
@@ -44,22 +43,22 @@ VALUES (27090,   1, 'Sleeves of Inexhaustibility') /* Name */
      , (27090,  15, 'Never tire and never surrender. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27090,   1,   33554655) /* Setup */
-     , (27090,   6,   67108990) /* PaletteBase */
-     , (27090,   8,  100671481) /* Icon */
-     , (27090,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27090,   1, 0x020000DF) /* Setup */
+     , (27090,   6, 0x0400007E) /* PaletteBase */
+     , (27090,   8, 0x06001FF9) /* Icon */
+     , (27090,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27090, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (27090, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27090, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27090, 8000, 2368875955) /* PCAPRecordedObjectIID */;
+VALUES (27090, 8000, 0x8D322DB3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27090,   296,      2)  /* AxeMasteryOther5 */
-     , (27090,  1360,      2)  /* EnduranceOther6 */
+VALUES (27090,  1360,      2)  /* EnduranceOther6 */
      , (27090,  2385,      2)  /* Vigilance */
-     , (27090,  2386,      2)  /* Indomitability */;
+     , (27090,  2386,      2)  /* Indomitability */
+     , (27090,   296,      2)  /* LightWeaponsMasteryOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27090, 67110386, 40, 24);

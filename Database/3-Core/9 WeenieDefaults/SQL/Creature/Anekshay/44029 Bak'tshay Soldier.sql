@@ -27,22 +27,22 @@ VALUES (44029,   1, 'Bak''tshay Soldier') /* Name */
      , (44029, 8006, 'BwA9AEAAZIiyUjZDOr0wQwYdqD9P7kEAAAAAQAAAAAD//39/zczMPgAAcEEAAAAAmNAuQA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44029,   1,   33561251) /* Setup */
-     , (44029,   2,  150994945) /* MotionTable */
-     , (44029,   3,  536870933) /* SoundTable */
-     , (44029,   6,   67108990) /* PaletteBase */
-     , (44029,   8,  100670274) /* Icon */
-     , (44029,  22,  872415269) /* PhysicsEffectTable */
+VALUES (44029,   1, 0x02001AA3) /* Setup */
+     , (44029,   2, 0x09000001) /* MotionTable */
+     , (44029,   3, 0x20000015) /* SoundTable */
+     , (44029,   6, 0x0400007E) /* PaletteBase */
+     , (44029,   8, 0x06001B42) /* Icon */
+     , (44029,  22, 0x34000025) /* PhysicsEffectTable */
      , (44029, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44029, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44029, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44029, 8040, 2288255040, 176.4962, 176.7738, 1.835191, 0.8109631, 0, 0, -0.5850973) /* PCAPRecordedLocation */
+VALUES (44029, 8040, 0x88640040, 176.4962, 176.7738, 1.835191, 0.810963, 0, 0, -0.585097) /* PCAPRecordedLocation */
 /* @teleloc 0x88640040 [176.496200 176.773800 1.835191] 0.810963 0.000000 0.000000 -0.585097 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44029, 8000, 3360145491) /* PCAPRecordedObjectIID */;
+VALUES (44029, 8000, 0xC847C053) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44029,   1, 230, 0, 0) /* Strength */

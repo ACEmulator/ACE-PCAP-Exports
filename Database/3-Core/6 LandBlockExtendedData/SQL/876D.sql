@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x876D;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7876D000,  1795, 0x876D0012, 53.9293, 41.2033, 13.4163, 0.5495643, 0, 0, -0.8354514, False, '2019-02-10 00:00:00'); /* Medicaments */
+VALUES (0x7876D000,  1795, 0x876D0012, 53.9293, 41.2033, 13.4163, 0.549564, 0, 0, -0.835451, False, '2019-02-10 00:00:00'); /* Medicaments */
 /* @teleloc 0x876D0012 [53.929300 41.203300 13.416300] 0.549564 0.000000 0.000000 -0.835451 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -41,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45978,   1, 'Amateur Explorer Tassets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45978,   1,   33554656) /* Setup */
-     , (45978,   3,  536870932) /* SoundTable */
-     , (45978,   6,   67108990) /* PaletteBase */
-     , (45978,   8,  100691128) /* Icon */
-     , (45978,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45978,   1, 0x020000E0) /* Setup */
+     , (45978,   3, 0x20000014) /* SoundTable */
+     , (45978,   6, 0x0400007E) /* PaletteBase */
+     , (45978,   8, 0x06006CB8) /* Icon */
+     , (45978,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45978, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (45978, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45978, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45978, 8000, 2575928223) /* PCAPRecordedObjectIID */;
+VALUES (45978, 8000, 0x99898B9F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45978,  1095,      2)  /* FireProtectionOther5 */

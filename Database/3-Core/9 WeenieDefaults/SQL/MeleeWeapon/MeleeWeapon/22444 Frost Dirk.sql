@@ -53,23 +53,23 @@ VALUES (22444,   1, 'Frost Dirk') /* Name */
      , (22444,  16, 'Frost Dirk of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22444,   1,   33558091) /* Setup */
-     , (22444,   3,  536870932) /* SoundTable */
-     , (22444,   6,   67111919) /* PaletteBase */
-     , (22444,   8,  100673790) /* Icon */
-     , (22444,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22444,   1, 0x02000E4B) /* Setup */
+     , (22444,   3, 0x20000014) /* SoundTable */
+     , (22444,   6, 0x04000BEF) /* PaletteBase */
+     , (22444,   8, 0x060028FE) /* Icon */
+     , (22444,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22444,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (22444, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (22444, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22444, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22444, 8000, 3213979276) /* PCAPRecordedObjectIID */;
+VALUES (22444, 8000, 0xBF916E8C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22444,  2116,      2)  /* SwiftKillerSelf7 */
      , (22444,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (22444,  6072,      2)  /* CantripSwordAptitude4 */;
+     , (22444,  6072,      2)  /* CantripHeavyWeaponsAptitude4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22444, 67111919, 0, 0);

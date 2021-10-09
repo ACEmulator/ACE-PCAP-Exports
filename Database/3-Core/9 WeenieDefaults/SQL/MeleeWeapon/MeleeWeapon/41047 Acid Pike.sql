@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41047,   1,          1) /* ItemType - MeleeWeapon */
      , (41047,   5,        559) /* EncumbranceVal */
      , (41047,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (41047,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (41047,  16,          1) /* ItemUseable - No */
      , (41047,  18,        257) /* UiEffects - Magical, Acid */
      , (41047,  19,      10837) /* Value */
@@ -49,14 +48,14 @@ VALUES (41047,   1, 'Acid Pike') /* Name */
      , (41047,  16, 'Acid Pike of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41047,   1,   33560876) /* Setup */
-     , (41047,   3,  536870932) /* SoundTable */
-     , (41047,   6,   67115558) /* PaletteBase */
-     , (41047,   8,  100690632) /* Icon */
-     , (41047,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41047,   1, 0x0200192C) /* Setup */
+     , (41047,   3, 0x20000014) /* SoundTable */
+     , (41047,   6, 0x04001A26) /* PaletteBase */
+     , (41047,   8, 0x06006AC8) /* Icon */
+     , (41047,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41047,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
-     , (41047,  50,  100688854) /* IconOverlay */
-     , (41047,  52,  100676440) /* IconUnderlay */
+     , (41047,  50, 0x060063D6) /* IconOverlay */
+     , (41047,  52, 0x06003358) /* IconUnderlay */
      , (41047, 8001, 3508765336) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (41047, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (41047, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -64,19 +63,16 @@ VALUES (41047,   1,   33560876) /* Setup */
      , (41047, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41047, 8040, 2847145993, 43.88592, 13.17736, 86.6326, 0.697145, 0.697145, -0.1182744, -0.1182744) /* PCAPRecordedLocation */
+VALUES (41047, 8040, 0xA9B40009, 43.88592, 13.17736, 86.6326, 0.697145, 0.697145, -0.118274, -0.118274) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40009 [43.885920 13.177360 86.632600] 0.697145 0.697145 -0.118274 -0.118274 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41047, 8000, 2408205086) /* PCAPRecordedObjectIID */
-     , (41047, 8008, 1343928354) /* PCAPRecordedParentIID */;
+VALUES (41047, 8000, 0x8F8A4B1E) /* PCAPRecordedObjectIID */
+     , (41047, 8008, 0x501AB822) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41047,  1601,      2)  /* DefenderSelf2 */
      , (41047,  1612,      2)  /* BloodDrinkerSelf2 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41047, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41047, 67116378, 0, 0);

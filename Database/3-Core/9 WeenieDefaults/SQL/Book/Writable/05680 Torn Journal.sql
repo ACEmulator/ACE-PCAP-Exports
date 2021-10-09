@@ -22,13 +22,13 @@ VALUES (5680,   1, 'Torn Journal') /* Name */
      , (5680,  16, 'The first half of a small, handwritten journal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5680,   1,   33554771) /* Setup */
-     , (5680,   3,  536870932) /* SoundTable */
-     , (5680,   8,  100668117) /* Icon */
-     , (5680,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5680,   1, 0x02000153) /* Setup */
+     , (5680,   3, 0x20000014) /* SoundTable */
+     , (5680,   8, 0x060012D5) /* Icon */
+     , (5680,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5680, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (5680, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (5680, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5680, 8000, 3682984781) /* PCAPRecordedObjectIID */;
+VALUES (5680, 8000, 0xDB85E34D) /* PCAPRecordedObjectIID */;

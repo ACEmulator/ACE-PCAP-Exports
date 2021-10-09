@@ -21,13 +21,13 @@ VALUES (28732,   1, 'Aluvian Leg') /* Name */
      , (28732,  16, 'A severed leg.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28732,   1,   33554817) /* Setup */
-     , (28732,   3,  536870932) /* SoundTable */
-     , (28732,   8,  100686359) /* Icon */
-     , (28732,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28732,   1, 0x02000181) /* Setup */
+     , (28732,   3, 0x20000014) /* SoundTable */
+     , (28732,   8, 0x06005A17) /* Icon */
+     , (28732,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28732, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (28732, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28732, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28732, 8000, 3692504185) /* PCAPRecordedObjectIID */;
+VALUES (28732, 8000, 0xDC172479) /* PCAPRecordedObjectIID */;

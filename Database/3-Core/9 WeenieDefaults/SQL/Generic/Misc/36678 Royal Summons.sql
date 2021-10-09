@@ -15,6 +15,7 @@ VALUES (36678,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36678,  22, True ) /* Inscribable */
+     , (36678,  23, True ) /* DestroyOnSell */
      , (36678,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,13 +23,13 @@ VALUES (36678,   1, 'Royal Summons') /* Name */
      , (36678,  16, 'A sealed royal summons for Lord Kresovus of Linvak Tukal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36678,   1,   33554818) /* Setup */
-     , (36678,   3,  536870932) /* SoundTable */
-     , (36678,   8,  100689293) /* Icon */
-     , (36678,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36678,   1, 0x02000182) /* Setup */
+     , (36678,   3, 0x20000014) /* SoundTable */
+     , (36678,   8, 0x0600658D) /* Icon */
+     , (36678,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36678, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (36678, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36678, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36678, 8000, 3709515506) /* PCAPRecordedObjectIID */;
+VALUES (36678, 8000, 0xDD1AB6F2) /* PCAPRecordedObjectIID */;

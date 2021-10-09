@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46945,   1,      32768) /* ItemType - Caster */
      , (46945,   5,        100) /* EncumbranceVal */
      , (46945,   9,   16777216) /* ValidLocations - Held */
-     , (46945,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (46945,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (46945,  18,          1) /* UiEffects - Magical */
      , (46945,  19,       4000) /* Value */
      , (46945,  33,          1) /* Bonded - Bonded */
+     , (46945,  46,        512) /* DefaultCombatStyle - Magic */
      , (46945,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46945,  94,         16) /* TargetType - Creature */
      , (46945, 106,        450) /* ItemSpellcraft */
@@ -44,11 +44,11 @@ VALUES (46945,   1, 'Modified Saulandoi') /* Name */
      , (46945,  25, 'Nihoawa') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46945,   1,   33557968) /* Setup */
-     , (46945,   3,  536870932) /* SoundTable */
-     , (46945,   6,   67111919) /* PaletteBase */
-     , (46945,   8,  100673495) /* Icon */
-     , (46945,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46945,   1, 0x02000DD0) /* Setup */
+     , (46945,   3, 0x20000014) /* SoundTable */
+     , (46945,   6, 0x04000BEF) /* PaletteBase */
+     , (46945,   8, 0x060027D7) /* Icon */
+     , (46945,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46945,  28,       2785) /* Spell - LesserStasisField */
      , (46945, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (46945, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -56,16 +56,16 @@ VALUES (46945,   1,   33557968) /* Setup */
      , (46945, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46945, 8040, 3465871412, 155.3718, 95.55672, 19.9295, 0.4525288, 0.4525288, -0.5433394, -0.5433394) /* PCAPRecordedLocation */
+VALUES (46945, 8040, 0xCE950034, 155.3718, 95.55672, 19.9295, 0.452529, 0.452529, -0.543339, -0.543339) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950034 [155.371800 95.556720 19.929500] 0.452529 0.452529 -0.543339 -0.543339 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46945, 8000, 3687897913) /* PCAPRecordedObjectIID */
-     , (46945, 8008, 1343488604) /* PCAPRecordedParentIID */;
+VALUES (46945, 8000, 0xDBD0DB39) /* PCAPRecordedObjectIID */
+     , (46945, 8008, 0x5014025C) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46945,  4581,      2)  /* LifeMagicMasteryOther8 */
-     , (46945,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */;
+VALUES (46945,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */
+     , (46945,  4581,      2)  /* LifeMagicMasteryOther8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46945, 67111919, 0, 0);

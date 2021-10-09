@@ -57,25 +57,25 @@ VALUES (3764,   1, 'Flaming Budiaq') /* Name */
      , (3764,  40, 'Oldon') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3764,   1,   33555412) /* Setup */
-     , (3764,   3,  536870932) /* SoundTable */
-     , (3764,   6,   67111919) /* PaletteBase */
-     , (3764,   8,  100669006) /* Icon */
-     , (3764,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3764,   1, 0x020003D4) /* Setup */
+     , (3764,   3, 0x20000014) /* SoundTable */
+     , (3764,   6, 0x04000BEF) /* PaletteBase */
+     , (3764,   8, 0x0600164E) /* Icon */
+     , (3764,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3764,  37,         45) /* ItemSkillLimit - LightWeapons */
-     , (3764,  52,  100676441) /* IconUnderlay */
+     , (3764,  52, 0x06003359) /* IconUnderlay */
      , (3764, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3764, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (3764, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
      , (3764, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3764, 8000, 2174239189) /* PCAPRecordedObjectIID */;
+VALUES (3764, 8000, 0x819841D5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3764,  1378,      2)  /* CoordinationSelf6 */
-     , (3764,  1591,      2)  /* HeartSeekerSelf5 */
-     , (3764,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (3764,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (3764,  1378,      2)  /* CoordinationSelf6 */
+     , (3764,  1591,      2)  /* HeartSeekerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3764, 67111920, 0, 0);

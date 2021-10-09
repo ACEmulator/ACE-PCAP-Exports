@@ -18,7 +18,8 @@ VALUES (41809,   1,        128) /* ItemType - Misc */
      , (41809, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41809,  69, False) /* IsSellable */;
+VALUES (41809,  23, True ) /* DestroyOnSell */
+     , (41809,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41809,  39,     0.4) /* DefaultScale */;
@@ -29,17 +30,17 @@ VALUES (41809,   1, 'Damaged Celestial Hand Commendation Ribbon') /* Name */
      , (41809,  16, 'A damaged commendation ribbon lost by a Celestial Hand agent.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41809,   1,   33554817) /* Setup */
-     , (41809,   3,  536870932) /* SoundTable */
-     , (41809,   6,   67111919) /* PaletteBase */
-     , (41809,   8,  100690845) /* Icon */
-     , (41809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41809,   1, 0x02000181) /* Setup */
+     , (41809,   3, 0x20000014) /* SoundTable */
+     , (41809,   6, 0x04000BEF) /* PaletteBase */
+     , (41809,   8, 0x06006B9D) /* Icon */
+     , (41809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41809, 8001,      28688) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container */
      , (41809, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41809, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41809, 8000, 2627851429) /* PCAPRecordedObjectIID */;
+VALUES (41809, 8000, 0x9CA1D4A5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41809, 67111919, 0, 0);

@@ -19,11 +19,11 @@ VALUES (44730,   1, 'Crystal') /* Name */
      , (44730,  16, 'As the Soul Crystals that had kept Bael''Zharon imprisoned were destroyed, Isparians encountered increasing numbers of Crystal Fragments wandering the face of Dereth. It would seem that the magic used to create the Soul Crystals was powerful enough to survive their shattering. These Fragments continue to wander the world, and judging by their persistent appearances, are somehow self-replicating.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44730,   1,   33561330) /* Setup */
-     , (44730,   8,  100668115) /* Icon */
+VALUES (44730,   1, 0x02001AF2) /* Setup */
+     , (44730,   8, 0x060012D3) /* Icon */
      , (44730, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44730, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44730, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44730, 8000, 2461713255) /* PCAPRecordedObjectIID */;
+VALUES (44730, 8000, 0x92BAC367) /* PCAPRecordedObjectIID */;

@@ -17,15 +17,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15696,   1, 'Colier View Hill') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15696,   1,   33557463) /* Setup */
-     , (15696,   8,  100668115) /* Icon */
+VALUES (15696,   1, 0x02000BD7) /* Setup */
+     , (15696,   8, 0x060012D3) /* Icon */
      , (15696, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (15696, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (15696, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15696, 8040, 2999517221, 108.09, 100.507, 142.7512, 0.156839, 0, 0, 0.987624) /* PCAPRecordedLocation */
+VALUES (15696, 8040, 0xB2C90025, 108.09, 100.507, 142.7512, 0.156839, 0, 0, 0.987624) /* PCAPRecordedLocation */
 /* @teleloc 0xB2C90025 [108.090000 100.507000 142.751200] 0.156839 0.000000 0.000000 0.987624 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15696, 8000, 2066518449) /* PCAPRecordedObjectIID */;
+VALUES (15696, 8000, 0x7B2C91B1) /* PCAPRecordedObjectIID */;

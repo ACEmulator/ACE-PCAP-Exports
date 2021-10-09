@@ -25,22 +25,22 @@ VALUES (41797,   1, 'Killer Phyntos Drone') /* Name */
      , (41797, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41797,   1,   33558817) /* Setup */
-     , (41797,   2,  150995303) /* MotionTable */
-     , (41797,   3,  536870926) /* SoundTable */
-     , (41797,   6,   67115262) /* PaletteBase */
-     , (41797,   8,  100667450) /* Icon */
-     , (41797,  22,  872415266) /* PhysicsEffectTable */
+VALUES (41797,   1, 0x02001121) /* Setup */
+     , (41797,   2, 0x09000167) /* MotionTable */
+     , (41797,   3, 0x2000000E) /* SoundTable */
+     , (41797,   6, 0x040018FE) /* PaletteBase */
+     , (41797,   8, 0x0600103A) /* Icon */
+     , (41797,  22, 0x34000022) /* PhysicsEffectTable */
      , (41797, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (41797, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (41797, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41797, 8040, 4180673970, 30, 145, 80.411, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (41797, 8040, 0xF93005B2, 30, 145, 80.411, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF93005B2 [30.000000 145.000000 80.411000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41797, 8000, 3360280393) /* PCAPRecordedObjectIID */;
+VALUES (41797, 8000, 0xC849CF49) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (41797,   1,     0, 0, 0, 905) /* MaxHealth */;

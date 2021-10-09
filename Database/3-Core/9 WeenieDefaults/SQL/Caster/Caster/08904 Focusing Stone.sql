@@ -11,6 +11,7 @@ VALUES (8904,   1,      32768) /* ItemType - Caster */
      , (8904,  18,          1) /* UiEffects - Magical */
      , (8904,  19,       3000) /* Value */
      , (8904,  33,          1) /* Bonded - Bonded */
+     , (8904,  46,        512) /* DefaultCombatStyle - Magic */
      , (8904,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8904,  94,         16) /* TargetType - Creature */
      , (8904, 106,        200) /* ItemSpellcraft */
@@ -24,6 +25,7 @@ VALUES (8904,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8904,  22, True ) /* Inscribable */
+     , (8904,  23, True ) /* DestroyOnSell */
      , (8904,  69, False) /* IsSellable */
      , (8904,  94, True ) /* AppraisalHasAllowedActivator */
      , (8904,  99, True ) /* Ivoryable */;
@@ -41,18 +43,18 @@ VALUES (8904,   1, 'Focusing Stone') /* Name */
      , (8904,  25, 'Ripley') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8904,   1,   33556976) /* Setup */
-     , (8904,   3,  536870932) /* SoundTable */
-     , (8904,   6,   67111928) /* PaletteBase */
-     , (8904,   8,  100671374) /* Icon */
-     , (8904,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8904,   1, 0x020009F0) /* Setup */
+     , (8904,   3, 0x20000014) /* SoundTable */
+     , (8904,   6, 0x04000BF8) /* PaletteBase */
+     , (8904,   8, 0x06001F8E) /* Icon */
+     , (8904,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8904,  28,       2348) /* Spell - BrillianceOther */
      , (8904, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (8904, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8904, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8904, 8000, 2186220462) /* PCAPRecordedObjectIID */;
+VALUES (8904, 8000, 0x824F13AE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8904,  2346,      2)  /* MaledictionSelf */

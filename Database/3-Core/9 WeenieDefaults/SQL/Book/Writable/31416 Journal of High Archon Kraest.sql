@@ -23,13 +23,13 @@ VALUES (31416,   1, 'Journal of High Archon Kraest') /* Name */
      , (31416,  16, 'A small journal written by Kraest, a High Archon in the Order of the Raven Hand. This text was discovered within the ruins of the Nightmare Sepulcher.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31416,   1,   33554776) /* Setup */
-     , (31416,   3,  536870932) /* SoundTable */
-     , (31416,   8,  100667503) /* Icon */
-     , (31416,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31416,   1, 0x02000158) /* Setup */
+     , (31416,   3, 0x20000014) /* SoundTable */
+     , (31416,   8, 0x0600106F) /* Icon */
+     , (31416,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31416, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (31416, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (31416, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31416, 8000, 3314528658) /* PCAPRecordedObjectIID */;
+VALUES (31416, 8000, 0xC58FB192) /* PCAPRecordedObjectIID */;

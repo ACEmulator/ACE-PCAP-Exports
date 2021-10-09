@@ -14,7 +14,7 @@ VALUES (12741,   1,        256) /* ItemType - MissileWeapon */
      , (12741,  48,         47) /* WeaponSkill - MissileWeapons */
      , (12741,  49,         40) /* WeaponTime */
      , (12741,  50,          1) /* AmmoType - Arrow */
-     , (12741,  51,          2) /* CombatUse - Missle */
+     , (12741,  51,          2) /* CombatUse - Missile */
      , (12741,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12741, 151,          2) /* HookType - Wall */
      , (12741, 353,          8) /* WeaponType - Bow */
@@ -38,17 +38,17 @@ VALUES (12741,   1, 'Training Shortbow') /* Name */
      , (12741,  15, 'A basic shortbow forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12741,   1,   33554729) /* Setup */
-     , (12741,   3,  536870932) /* SoundTable */
-     , (12741,   6,   67111919) /* PaletteBase */
-     , (12741,   8,  100668834) /* Icon */
-     , (12741,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12741,   1, 0x02000129) /* Setup */
+     , (12741,   3, 0x20000014) /* SoundTable */
+     , (12741,   6, 0x04000BEF) /* PaletteBase */
+     , (12741,   8, 0x060015A2) /* Icon */
+     , (12741,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12741, 8001,  270615320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (12741, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12741, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12741, 8000, 3655153841) /* PCAPRecordedObjectIID */;
+VALUES (12741, 8000, 0xD9DD38B1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12741, 67111926, 0, 0);

@@ -27,17 +27,17 @@ VALUES (8045,   1, 'Berimphur Dye Pot') /* Name */
      , (8045,  20, 'Berimphur Dye Pots') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8045,   1,   33556753) /* Setup */
-     , (8045,   3,  536870932) /* SoundTable */
-     , (8045,   6,   67111919) /* PaletteBase */
-     , (8045,   8,  100670941) /* Icon */
-     , (8045,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8045,   1, 0x02000911) /* Setup */
+     , (8045,   3, 0x20000014) /* SoundTable */
+     , (8045,   6, 0x04000BEF) /* PaletteBase */
+     , (8045,   8, 0x06001DDD) /* Icon */
+     , (8045,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8045, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (8045, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8045, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8045, 8000, 2917029934) /* PCAPRecordedObjectIID */;
+VALUES (8045, 8000, 0xADDE582E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8045, 67111921, 0, 0);

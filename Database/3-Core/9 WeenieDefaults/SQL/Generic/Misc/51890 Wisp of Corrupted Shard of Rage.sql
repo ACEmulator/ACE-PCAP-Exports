@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51890,   1, 'Wisp of Corrupted Shard of Rage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51890,   1,   33561597) /* Setup */
-     , (51890,   3,  536870932) /* SoundTable */
-     , (51890,   8,  100673955) /* Icon */
-     , (51890,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51890,   1, 0x02001BFD) /* Setup */
+     , (51890,   3, 0x20000014) /* SoundTable */
+     , (51890,   8, 0x060029A3) /* Icon */
+     , (51890,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51890, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (51890, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51890, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51890, 8000, 2361930046) /* PCAPRecordedObjectIID */;
+VALUES (51890, 8000, 0x8CC8313E) /* PCAPRecordedObjectIID */;

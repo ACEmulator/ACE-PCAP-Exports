@@ -39,17 +39,17 @@ VALUES (2604,   1, 'Wide Breeches') /* Name */
      , (2604,  16, 'Wide Breeches') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2604,   1,   33554960) /* Setup */
-     , (2604,   3,  536870932) /* SoundTable */
-     , (2604,   6,   67108990) /* PaletteBase */
-     , (2604,   8,  100667366) /* Icon */
-     , (2604,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2604,   1, 0x02000210) /* Setup */
+     , (2604,   3, 0x20000014) /* SoundTable */
+     , (2604,   6, 0x0400007E) /* PaletteBase */
+     , (2604,   8, 0x06000FE6) /* Icon */
+     , (2604,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2604, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (2604, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2604, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2604, 8000, 2164984867) /* PCAPRecordedObjectIID */;
+VALUES (2604, 8000, 0x810B0C23) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2604, 67110015, 72, 8)

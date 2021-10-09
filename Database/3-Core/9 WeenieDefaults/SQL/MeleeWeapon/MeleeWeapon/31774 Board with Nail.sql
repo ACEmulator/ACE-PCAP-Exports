@@ -43,20 +43,17 @@ VALUES (31774,   1, 'Board with Nail') /* Name */
      , (31774,  16, 'Board with Nail') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31774,   1,   33559627) /* Setup */
-     , (31774,   3,  536870932) /* SoundTable */
-     , (31774,   6,   67116700) /* PaletteBase */
-     , (31774,   8,  100688088) /* Icon */
-     , (31774,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31774,   1, 0x0200144B) /* Setup */
+     , (31774,   3, 0x20000014) /* SoundTable */
+     , (31774,   6, 0x04001E9C) /* PaletteBase */
+     , (31774,   8, 0x060060D8) /* Icon */
+     , (31774,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31774, 8001, 2434875928) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31774, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31774, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31774, 8000, 3687970018) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31774, 2, 46402,  1, 0, 0, False) /* Create T'thuun Dagger (46402) for Wield */;
+VALUES (31774, 8000, 0xDBD1F4E2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31774, 67116700, 0, 101)

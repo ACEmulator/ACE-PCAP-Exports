@@ -22,13 +22,13 @@ VALUES (36065,   1, 'Virindi Essence') /* Name */
      , (36065,  16, 'Looking into this vaguely gem-like object, you perceive the swirling eddies of portal space and, within them, the vague image of Ayan Baqur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36065,   1,   33556769) /* Setup */
-     , (36065,   3,  536870932) /* SoundTable */
-     , (36065,   8,  100689641) /* Icon */
-     , (36065,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36065,   1, 0x02000921) /* Setup */
+     , (36065,   3, 0x20000014) /* SoundTable */
+     , (36065,   8, 0x060066E9) /* Icon */
+     , (36065,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36065, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (36065, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36065, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36065, 8000, 2172469018) /* PCAPRecordedObjectIID */;
+VALUES (36065, 8000, 0x817D3F1A) /* PCAPRecordedObjectIID */;

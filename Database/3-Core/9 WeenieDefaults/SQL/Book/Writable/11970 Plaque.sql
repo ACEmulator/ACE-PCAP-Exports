@@ -26,11 +26,11 @@ VALUES (11970,   1, 'Plaque') /* Name */
      , (11970,  15, 'This item can be used on an wall hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11970,   1,   33557262) /* Setup */
-     , (11970,   8,  100673829) /* Icon */
+VALUES (11970,   1, 0x02000B0E) /* Setup */
+     , (11970,   8, 0x06002925) /* Icon */
      , (11970, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
      , (11970, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (11970, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11970, 8000, 2148134990) /* PCAPRecordedObjectIID */;
+VALUES (11970, 8000, 0x8009F04E) /* PCAPRecordedObjectIID */;

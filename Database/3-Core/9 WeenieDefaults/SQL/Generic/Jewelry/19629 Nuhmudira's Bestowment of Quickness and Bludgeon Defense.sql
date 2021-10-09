@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19629,   1,          8) /* ItemType - Jewelry */
      , (19629,   5,        150) /* EncumbranceVal */
      , (19629,   9,      32768) /* ValidLocations - NeckWear */
-     , (19629,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (19629,  16,          1) /* ItemUseable - No */
      , (19629,  18,          1) /* UiEffects - Magical */
      , (19629,  19,       5000) /* Value */
@@ -25,17 +24,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19629,   1, 'Nuhmudira''s Bestowment of Quickness and Bludgeon Defense') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19629,   1,   33554687) /* Setup */
-     , (19629,   3,  536870932) /* SoundTable */
-     , (19629,   6,   67111919) /* PaletteBase */
-     , (19629,   8,  100672963) /* Icon */
-     , (19629,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19629,   1, 0x020000FF) /* Setup */
+     , (19629,   3, 0x20000014) /* SoundTable */
+     , (19629,   6, 0x04000BEF) /* PaletteBase */
+     , (19629,   8, 0x060025C3) /* Icon */
+     , (19629,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19629, 8001,  270762136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (19629, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19629, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19629, 8000, 2201682236) /* PCAPRecordedObjectIID */;
+VALUES (19629, 8000, 0x833B013C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19629, 67111918, 0, 0);

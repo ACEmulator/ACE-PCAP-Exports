@@ -19,7 +19,8 @@ VALUES (15817,   1,        128) /* ItemType - Misc */
      , (15817, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15817,  22, True ) /* Inscribable */;
+VALUES (15817,  22, True ) /* Inscribable */
+     , (15817,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15817,  39,     1.2) /* DefaultScale */;
@@ -30,16 +31,16 @@ VALUES (15817,   1, 'Wax') /* Name */
      , (15817,  15, 'A big lump of soft wax.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15817,   1,   33554669) /* Setup */
-     , (15817,   3,  536870932) /* SoundTable */
-     , (15817,   8,  100672828) /* Icon */
-     , (15817,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15817,   1, 0x020000ED) /* Setup */
+     , (15817,   3, 0x20000014) /* SoundTable */
+     , (15817,   8, 0x0600253C) /* Icon */
+     , (15817,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15817, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (15817, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15817, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15817, 8000, 2166217017) /* PCAPRecordedObjectIID */;
+VALUES (15817, 8000, 0x811DD939) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (15817, 0, 83888861, 83893208);

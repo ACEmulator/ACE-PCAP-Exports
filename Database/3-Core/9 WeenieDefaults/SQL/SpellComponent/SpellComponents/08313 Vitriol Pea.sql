@@ -24,17 +24,17 @@ VALUES (8313,   1, 'Vitriol Pea') /* Name */
      , (8313,  16, 'A concentrated vitriol pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8313,   1,   33555209) /* Setup */
-     , (8313,   3,  536870932) /* SoundTable */
-     , (8313,   6,   67111919) /* PaletteBase */
-     , (8313,   8,  100671037) /* Icon */
-     , (8313,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8313,   1, 0x02000309) /* Setup */
+     , (8313,   3, 0x20000014) /* SoundTable */
+     , (8313,   6, 0x04000BEF) /* PaletteBase */
+     , (8313,   8, 0x06001E3D) /* Icon */
+     , (8313,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8313, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8313, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8313, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8313, 8000, 2258805208) /* PCAPRecordedObjectIID */;
+VALUES (8313, 8000, 0x86A2A1D8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8313, 67111926, 0, 0);

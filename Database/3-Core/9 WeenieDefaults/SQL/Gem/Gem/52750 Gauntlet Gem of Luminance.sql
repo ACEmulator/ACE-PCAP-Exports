@@ -20,14 +20,14 @@ VALUES (52750,   1, 'Gauntlet Gem of Luminance') /* Name */
      , (52750,  20, 'Gauntlet Gems of Luminance') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52750,   1,   33557625) /* Setup */
-     , (52750,   3,  536870932) /* SoundTable */
-     , (52750,   8,  100692117) /* Icon */
-     , (52750,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52750,   1, 0x02000C79) /* Setup */
+     , (52750,   3, 0x20000014) /* SoundTable */
+     , (52750,   8, 0x06007095) /* Icon */
+     , (52750,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52750, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (52750, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (52750, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
      , (52750, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52750, 8000,      52750) /* PCAPRecordedObjectIID */;
+VALUES (52750, 8000, 0x0000CE0E) /* PCAPRecordedObjectIID */;

@@ -34,21 +34,21 @@ VALUES (30207,   1, 'Pearl of Frost Baning') /* Name */
      , (30207,  20, 'Pearls of Frost Baning') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30207,   1,   33554809) /* Setup */
-     , (30207,   3,  536870932) /* SoundTable */
-     , (30207,   6,   67111919) /* PaletteBase */
-     , (30207,   8,  100686695) /* Icon */
-     , (30207,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30207,   1, 0x02000179) /* Setup */
+     , (30207,   3, 0x20000014) /* SoundTable */
+     , (30207,   6, 0x04000BEF) /* PaletteBase */
+     , (30207,   8, 0x06005B67) /* Icon */
+     , (30207,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30207,  28,       3706) /* Spell - FrostBaneRare */
-     , (30207,  50,  100686653) /* IconOverlay */
-     , (30207,  52,  100686604) /* IconUnderlay */
+     , (30207,  50, 0x06005B3D) /* IconOverlay */
+     , (30207,  52, 0x06005B0C) /* IconUnderlay */
      , (30207, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30207, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30207, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30207, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30207, 8000, 3071096721) /* PCAPRecordedObjectIID */;
+VALUES (30207, 8000, 0xB70D3791) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30207, 67111919, 0, 0);

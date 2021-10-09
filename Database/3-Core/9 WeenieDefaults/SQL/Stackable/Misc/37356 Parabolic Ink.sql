@@ -19,16 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37356,   1, 'Parabolic Ink') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37356,   1,   33554602) /* Setup */
-     , (37356,   3,  536870932) /* SoundTable */
-     , (37356,   8,  100690184) /* Icon */
-     , (37356,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37356,   1, 0x020000AA) /* Setup */
+     , (37356,   3, 0x20000014) /* SoundTable */
+     , (37356,   8, 0x06006908) /* Icon */
+     , (37356,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37356, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (37356, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37356, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37356, 8000, 2461826758) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37356, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (37356, 8000, 0x92BC7EC6) /* PCAPRecordedObjectIID */;

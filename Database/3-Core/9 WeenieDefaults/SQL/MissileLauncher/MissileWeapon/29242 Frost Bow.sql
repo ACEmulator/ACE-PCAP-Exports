@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29242,   1,        256) /* ItemType - MissileWeapon */
      , (29242,   5,        666) /* EncumbranceVal */
      , (29242,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (29242,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (29242,  16,          1) /* ItemUseable - No */
      , (29242,  18,        129) /* UiEffects - Magical, Frost */
      , (29242,  19,       8574) /* Value */
@@ -16,7 +15,7 @@ VALUES (29242,   1,        256) /* ItemType - MissileWeapon */
      , (29242,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29242,  49,         38) /* WeaponTime */
      , (29242,  50,          1) /* AmmoType - Arrow */
-     , (29242,  51,          2) /* CombatUse - Missle */
+     , (29242,  51,          2) /* CombatUse - Missile */
      , (29242,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29242, 105,          8) /* ItemWorkmanship */
      , (29242, 106,        370) /* ItemSpellcraft */
@@ -54,13 +53,13 @@ VALUES (29242,   1, 'Frost Bow') /* Name */
      , (29242,  16, 'Frost Bow of Blooddrinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29242,   1,   33559026) /* Setup */
-     , (29242,   3,  536870932) /* SoundTable */
-     , (29242,   6,   67115373) /* PaletteBase */
-     , (29242,   8,  100677124) /* Icon */
-     , (29242,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29242,   1, 0x020011F2) /* Setup */
+     , (29242,   3, 0x20000014) /* SoundTable */
+     , (29242,   6, 0x0400196D) /* PaletteBase */
+     , (29242,   8, 0x06003604) /* Icon */
+     , (29242,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29242,  37,         47) /* ItemSkillLimit - MissileWeapons */
-     , (29242,  52,  100676435) /* IconUnderlay */
+     , (29242,  52, 0x06003353) /* IconUnderlay */
      , (29242, 8001, 2435023768) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (29242, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (29242, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -68,16 +67,16 @@ VALUES (29242,   1,   33559026) /* Setup */
      , (29242, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29242, 8040, 1615200999, 103.4863, -60.10806, 17.93, -0.8734888, 0, 0, -0.4868443) /* PCAPRecordedLocation */
+VALUES (29242, 8040, 0x604602E7, 103.4863, -60.10806, 17.93, -0.873489, 0, 0, -0.486844) /* PCAPRecordedLocation */
 /* @teleloc 0x604602E7 [103.486300 -60.108060 17.930000] -0.873489 0.000000 0.000000 -0.486844 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29242, 8000, 3412584197) /* PCAPRecordedObjectIID */
-     , (29242, 8008, 1343219288) /* PCAPRecordedParentIID */;
+VALUES (29242, 8000, 0xCB67E705) /* PCAPRecordedObjectIID */
+     , (29242, 8008, 0x500FE658) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29242,  1332,      2)  /* StrengthSelf6 */
-     , (29242,  4395,      2)  /* BloodDrinkerSelf8 */
+VALUES (29242,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (29242,  1332,      2)  /* StrengthSelf6 */
      , (29242,  4663,      2)  /* CANTRIPDEFENDER3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -24,22 +24,22 @@ VALUES (45488,   1, 'Some Changes for February 2012') /* Name */
      , (45488,  16, 'A summary of the combat skill changes for February 2012.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45488,   1,   33554771) /* Setup */
-     , (45488,   3,  536870932) /* SoundTable */
-     , (45488,   8,  100668117) /* Icon */
-     , (45488,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45488,   1, 0x02000153) /* Setup */
+     , (45488,   3, 0x20000014) /* SoundTable */
+     , (45488,   8, 0x060012D5) /* Icon */
+     , (45488,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45488, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (45488, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (45488, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45488, 8000, 2186220498) /* PCAPRecordedObjectIID */;
+VALUES (45488, 8000, 0x824F13D2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (45488, 8, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (45488, 0, 4294967295, 'RACIAL CHANGES                      ', 'Password is cheese', False, 'Racial Changes
+VALUES (45488, 0, 4294967295, 'RACIAL CHANGES                      ', 'prewritten', False, 'Racial Changes
 
 Racial advantages have been revamped.
 
@@ -51,7 +51,7 @@ Each race still gets a free starting Augmentation. Each race also gets a bonus t
 
 If you used a racial weapon skill you will have to train or specialize one of the new weapons skills described on the next page.
 ')
-     , (45488, 1, 4294967295, 'WEAPON SKILL CHANGES                      ', 'Password is cheese', False, 'Weapon Skill Changes
+     , (45488, 1, 4294967295, 'WEAPON SKILL CHANGES                      ', 'prewritten', False, 'Weapon Skill Changes
     
 Weapon skills have been revamped. Weapons are now organized into 5 combat skills:
 
@@ -83,7 +83,7 @@ Bow, Crossbow and Thrown Weapon skills have been removed. If you had any of thos
 
 Two Handed Weapon skill remains unchanged.
 ')
-     , (45488, 2, 4294967295, 'SHIELD AND DUAL WIELD', 'Password is cheese', False, 'Shield and Dual Wield
+     , (45488, 2, 4294967295, 'SHIELD AND DUAL WIELD', 'prewritten', False, 'Shield and Dual Wield
 
 A Shield skill and Dual Wield skill were added. If you use shields you will want to train or specialize the Shield skill or higher level shields will be far less effective for you. You can also learn to effectively wield a one handed weapon in your off hand.
 
@@ -97,7 +97,7 @@ Cost: 2/2
 (Str + Coord)/3
 You can equip a weapon in each hand. Your skill in the off hand is limited by your Dual Wield skill.
 ')
-     , (45488, 3, 4294967295, 'LOOT WEAPONS                  ', 'Password is cheese', False, 'Loot Weapons
+     , (45488, 3, 4294967295, 'LOOT WEAPONS                  ', 'prewritten', False, 'Loot Weapons
 
 Your loot weapons have been converted to the new skills.
 
@@ -109,7 +109,7 @@ Other weapons have been changed to Light Weapons and the damage has been increas
 
 New weapons drop in loot. Each type of weapon (Dagger, Sword, Mace, etc.) is represented in each skill. There are, for example, Heavy Daggers, Light Axes, Finesse Sword, etc.
 ')
-     , (45488, 4, 4294967295, 'QUEST WEAPONS                                   ', 'Password is cheese', False, 'Quest Weapons
+     , (45488, 4, 4294967295, 'QUEST WEAPONS                                   ', 'prewritten', False, 'Quest Weapons
 
 Quest weapons have been updated, and they have been redistributed among the new weapon skills.
 
@@ -117,13 +117,13 @@ To help you get going with the changes, Asheron has sent an Emissary to Arwic to
 
 Find the Emissary of Asheron in Arwic to claim your free quest weapon.
 ')
-     , (45488, 5, 4294967295, 'Imbues and Modifications                           ', 'Password is cheese', False, 'Imbues and Modifications
+     , (45488, 5, 4294967295, 'Imbues and Modifications                           ', 'prewritten', False, 'Imbues and Modifications
 
 To help you transition to the new skills and prepare new weapons, all adventurers are given six imbue swap coins that can be used to purchase new imbues
 
 You can claim these coins from one of Asheron''s Emissaries in Arwic. These coins can be traded to other characters.
 ')
-     , (45488, 6, 4294967295, 'New Skills                          ', 'Password is cheese', False, 'Other New Skills
+     , (45488, 6, 4294967295, 'New Skills                          ', 'prewritten', False, 'Other New Skills
 
 The combat masters of Dereth have developed new skills which you can learn.
 
@@ -142,7 +142,7 @@ Cost: 2/2
 (Str + Coord)/3
 Your melee and missile attacks have a chance to weaken your opponent. High attacks can reduce the attack skills of the opponent. Low attacks can reduce the defense skills of the opponent. Medium attacks can reduce healing effects on the opponent and cause small amounts of bleeding damage.
 ')
-     , (45488, 7, 4294967295, 'And More!', 'Password is cheese', False, '
+     , (45488, 7, 4294967295, 'And More!', 'prewritten', False, '
 These are just some of the changes for the February 2012 patch.
 
 For more complete information visit the Asheron''s Call official forums.

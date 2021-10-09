@@ -14,7 +14,8 @@ VALUES (29647,   1,        128) /* ItemType - Misc */
      , (29647, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29647,  22, True ) /* Inscribable */;
+VALUES (29647,  22, True ) /* Inscribable */
+     , (29647,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29647,  39,     1.5) /* DefaultScale */;
@@ -24,15 +25,15 @@ VALUES (29647,   1, 'Violet Ball') /* Name */
      , (29647,  16, 'A large violet ball.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29647,   1,   33554669) /* Setup */
-     , (29647,   6,   67111928) /* PaletteBase */
-     , (29647,   8,  100668728) /* Icon */
+VALUES (29647,   1, 0x020000ED) /* Setup */
+     , (29647,   6, 0x04000BF8) /* PaletteBase */
+     , (29647,   8, 0x06001538) /* Icon */
      , (29647, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (29647, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29647, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29647, 8000, 2173456313) /* PCAPRecordedObjectIID */;
+VALUES (29647, 8000, 0x818C4FB9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29647, 67111923, 0, 0);

@@ -23,6 +23,7 @@ VALUES (31000,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31000,  22, True ) /* Inscribable */
+     , (31000,  23, True ) /* DestroyOnSell */
      , (31000,  63, True ) /* UnlimitedUse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -33,10 +34,10 @@ VALUES (31000,   1, 'Blackmoor''s Favor') /* Name */
      , (31000,  16, 'A gift from the late Antius Blackmoor and his Page in Arwic. This gem is eternal. You can use it as often as you like.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31000,   1,   33554809) /* Setup */
-     , (31000,   3,  536870932) /* SoundTable */
-     , (31000,   8,  100683149) /* Icon */
-     , (31000,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31000,   1, 0x02000179) /* Setup */
+     , (31000,   3, 0x20000014) /* SoundTable */
+     , (31000,   8, 0x06004D8D) /* Icon */
+     , (31000,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31000,  28,       3811) /* Spell - BlackmoorsFavor */
      , (31000, 8001,  273182864) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Spell, HookType */
      , (31000, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -44,4 +45,4 @@ VALUES (31000,   1,   33554809) /* Setup */
      , (31000, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31000, 8000, 2186220418) /* PCAPRecordedObjectIID */;
+VALUES (31000, 8000, 0x824F1382) /* PCAPRecordedObjectIID */;

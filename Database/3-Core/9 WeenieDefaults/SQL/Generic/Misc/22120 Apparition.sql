@@ -20,19 +20,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22120,   1, 'Apparition') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22120,   1,   33554839) /* Setup */
-     , (22120,   6,   67110722) /* PaletteBase */
-     , (22120,   8,  100667942) /* Icon */
+VALUES (22120,   1, 0x02000197) /* Setup */
+     , (22120,   6, 0x04000742) /* PaletteBase */
+     , (22120,   8, 0x06001226) /* Icon */
      , (22120, 8001,    8388624) /* PCAPRecordedWeenieHeader - Usable, RadarBehavior */
      , (22120, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22120, 8005,     295041) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Position, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22120, 8040, 3062300937, 79.0892, 127.868, 84.809, 0.04063111, 0, 0, -0.9991742) /* PCAPRecordedLocation */
+VALUES (22120, 8040, 0xB6870109, 79.0892, 127.868, 84.809, 0.040631, 0, 0, -0.999174) /* PCAPRecordedLocation */
 /* @teleloc 0xB6870109 [79.089200 127.868000 84.809000] 0.040631 0.000000 0.000000 -0.999174 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22120, 8000, 2070442062) /* PCAPRecordedObjectIID */;
+VALUES (22120, 8000, 0x7B68704E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22120, 67111341, 0, 0);

@@ -23,13 +23,13 @@ VALUES (45357,   1, 'Spectral Dual Wield Mastery Crystal') /* Name */
      , (45357,  20, 'Spectral Dual Wield Mastery Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45357,   1,   33557625) /* Setup */
-     , (45357,   3,  536870932) /* SoundTable */
-     , (45357,   8,  100686697) /* Icon */
-     , (45357,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45357,   1, 0x02000C79) /* Setup */
+     , (45357,   3, 0x20000014) /* SoundTable */
+     , (45357,   8, 0x06005B69) /* Icon */
+     , (45357,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45357,  28,       5904) /* Spell - DualWieldMasterySpectral */
-     , (45357,  50,  100692245) /* IconOverlay */
-     , (45357,  52,  100686604) /* IconUnderlay */
+     , (45357,  50, 0x06007115) /* IconOverlay */
+     , (45357,  52, 0x06005B0C) /* IconUnderlay */
      , (45357, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (45357, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45357, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
@@ -37,4 +37,4 @@ VALUES (45357,   1,   33557625) /* Setup */
      , (45357, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45357, 8000,      45357) /* PCAPRecordedObjectIID */;
+VALUES (45357, 8000, 0x0000B12D) /* PCAPRecordedObjectIID */;

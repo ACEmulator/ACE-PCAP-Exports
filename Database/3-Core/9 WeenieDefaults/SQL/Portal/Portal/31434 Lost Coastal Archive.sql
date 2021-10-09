@@ -24,16 +24,16 @@ VALUES (31434,   1, 'Lost Coastal Archive') /* Name */
      , (31434, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31434,   1,   33555926) /* Setup */
-     , (31434,   2,  150994947) /* MotionTable */
-     , (31434,   8,  100667499) /* Icon */
+VALUES (31434,   1, 0x020005D6) /* Setup */
+     , (31434,   2, 0x09000003) /* MotionTable */
+     , (31434,   8, 0x0600106B) /* Icon */
      , (31434, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (31434, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (31434, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31434, 8040, 3551396096, 36, 54, -6.408, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (31434, 8040, 0xD3AE0100, 36, 54, -6.408, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD3AE0100 [36.000000 54.000000 -6.408000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31434, 8000, 2101010432) /* PCAPRecordedObjectIID */;
+VALUES (31434, 8000, 0x7D3AE000) /* PCAPRecordedObjectIID */;

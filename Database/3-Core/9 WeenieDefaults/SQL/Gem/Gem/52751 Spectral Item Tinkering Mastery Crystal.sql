@@ -23,16 +23,16 @@ VALUES (52751,   1, 'Spectral Item Tinkering Mastery Crystal') /* Name */
      , (52751,  20, 'Spectral Item Tinkering Mastery Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52751,   1,   33557625) /* Setup */
-     , (52751,   3,  536870932) /* SoundTable */
-     , (52751,   8,  100686697) /* Icon */
-     , (52751,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52751,   1, 0x02000C79) /* Setup */
+     , (52751,   3, 0x20000014) /* SoundTable */
+     , (52751,   8, 0x06005B69) /* Icon */
+     , (52751,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52751,  28,       6177) /* Spell - GauntletItemMastery */
-     , (52751,  50,  100686661) /* IconOverlay */
+     , (52751,  50, 0x06005B45) /* IconOverlay */
      , (52751, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (52751, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (52751, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
      , (52751, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52751, 8000,      52751) /* PCAPRecordedObjectIID */;
+VALUES (52751, 8000, 0x0000CE0F) /* PCAPRecordedObjectIID */;

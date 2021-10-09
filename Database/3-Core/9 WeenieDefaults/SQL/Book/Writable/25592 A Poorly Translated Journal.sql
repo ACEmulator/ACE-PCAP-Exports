@@ -15,6 +15,9 @@ VALUES (25592,   1,       8192) /* ItemType - Writable */
      , (25592, 8042,          4) /* PCAPRecordedAppraisalPages */
      , (25592, 8043,          4) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (25592,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25592,  54,       1) /* UseRadius */;
 
@@ -23,13 +26,13 @@ VALUES (25592,   1, 'A Poorly Translated Journal') /* Name */
      , (25592,  16, 'A book with notes from the translator Fanzen San') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25592,   1,   33556929) /* Setup */
-     , (25592,   3,  536870932) /* SoundTable */
-     , (25592,   8,  100675050) /* Icon */
-     , (25592,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25592,   1, 0x020009C1) /* Setup */
+     , (25592,   3, 0x20000014) /* SoundTable */
+     , (25592,   8, 0x06002DEA) /* Icon */
+     , (25592,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25592, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (25592, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (25592, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25592, 8000, 2149416174) /* PCAPRecordedObjectIID */;
+VALUES (25592, 8000, 0x801D7CEE) /* PCAPRecordedObjectIID */;

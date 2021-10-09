@@ -39,26 +39,26 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2032,   1, 'Jaleh''s Chain Shirt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2032,   1,   33554883) /* Setup */
-     , (2032,   3,  536870932) /* SoundTable */
-     , (2032,   6,   67108990) /* PaletteBase */
-     , (2032,   8,  100674274) /* Icon */
-     , (2032,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2032,   1, 0x020001C3) /* Setup */
+     , (2032,   3, 0x20000014) /* SoundTable */
+     , (2032,   6, 0x0400007E) /* PaletteBase */
+     , (2032,   8, 0x06002AE2) /* Icon */
+     , (2032,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2032,  37,         34) /* ItemSkillLimit - WarMagic */
      , (2032, 8001,  270860440) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, HookType */
      , (2032, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2032, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2032, 8040, 23855548, 50.6357, -32.35233, 0, -0.9929641, 0, 0, -0.118416) /* PCAPRecordedLocation */
+VALUES (2032, 8040, 0x016C01BC, 50.6357, -32.35233, 0, -0.992964, 0, 0, -0.118416) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [50.635700 -32.352330 0.000000] -0.992964 0.000000 0.000000 -0.118416 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2032, 8000, 3681878683) /* PCAPRecordedObjectIID */;
+VALUES (2032, 8000, 0xDB75029B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2032,  1033,      2)  /* ColdProtectionSelf4 */
-     , (2032,  1092,      2)  /* FireProtectionSelf4 */;
+VALUES (2032,  1092,      2)  /* FireProtectionSelf4 */
+     , (2032,  1033,      2)  /* ColdProtectionSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2032, 67114228, 116, 20)

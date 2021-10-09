@@ -23,13 +23,13 @@ VALUES (10962,   1, 'Hea Totem') /* Name */
      , (10962,  16, 'A small, pale gold Tumerok Insignia, of the type given to veteran warriors of the Hea xuta. This particular one came from Hea Temenua.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10962,   1,   33554680) /* Setup */
-     , (10962,   3,  536870932) /* SoundTable */
-     , (10962,   8,  100671830) /* Icon */
-     , (10962,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10962,   1, 0x020000F8) /* Setup */
+     , (10962,   3, 0x20000014) /* SoundTable */
+     , (10962,   8, 0x06002156) /* Icon */
+     , (10962,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10962, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (10962, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10962, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10962, 8000, 2148384227) /* PCAPRecordedObjectIID */;
+VALUES (10962, 8000, 0x800DBDE3) /* PCAPRecordedObjectIID */;

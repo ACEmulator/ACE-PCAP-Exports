@@ -16,6 +16,9 @@ VALUES (32713,   1,       8192) /* ItemType - Writable */
      , (32713, 8042,          6) /* PCAPRecordedAppraisalPages */
      , (32713, 8043,          6) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (32713,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32713,  39,    1.22) /* DefaultScale */
      , (32713,  54,     0.3) /* UseRadius */;
@@ -25,34 +28,34 @@ VALUES (32713,   1, 'Tumerok Record Book') /* Name */
      , (32713,  16, 'A log book found within a Tumerok fortification overrun by the Viamontian Bloodstone Company.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32713,   1,   33559593) /* Setup */
-     , (32713,   3,  536870932) /* SoundTable */
-     , (32713,   8,  100687891) /* Icon */
-     , (32713,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32713,   1, 0x02001429) /* Setup */
+     , (32713,   3, 0x20000014) /* SoundTable */
+     , (32713,   8, 0x06006013) /* Icon */
+     , (32713,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32713, 8001,  270532656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden, HookType */
      , (32713, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (32713, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32713, 8040, 1083375644, 81.0389, 83.6787, 235.2695, -0.9999775, 0, 0, 0.006707727) /* PCAPRecordedLocation */
+VALUES (32713, 8040, 0x4093001C, 81.0389, 83.6787, 235.2695, -0.999978, 0, 0, 0.006708) /* PCAPRecordedLocation */
 /* @teleloc 0x4093001C [81.038900 83.678700 235.269500] -0.999978 0.000000 0.000000 0.006708 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32713, 8000, 2878532463) /* PCAPRecordedObjectIID */;
+VALUES (32713, 8000, 0xAB92EB6F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (32713, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (32713, 0, 4294967295, 'Unknown Tumerok', 'Password is cheese', False, 'My shame takes hold of me as we fall to defeat, but I must put these words to parchment. It is important for all to know the vileness of the blue-skinned human fiends, and the story of what happened here. Yes, even those we have fought and those we sundered alliances from, for even in our fights with those enemies there was honor. But the Bloodstone Company holds no honor.
+VALUES (32713, 0, 4294967295, 'Unknown Tumerok', 'prewritten', False, 'My shame takes hold of me as we fall to defeat, but I must put these words to parchment. It is important for all to know the vileness of the blue-skinned human fiends, and the story of what happened here. Yes, even those we have fought and those we sundered alliances from, for even in our fights with those enemies there was honor. But the Bloodstone Company holds no honor.
 ')
-     , (32713, 1, 4294967295, 'Unknown Tumerok', 'Password is cheese', False, 'We have held our fort for many seasons, keeping the human Fort Tethana separated from the other akiekie to the north. We would launch attacks against the human fort, and they would attack us. But we could not win, and they could not win. And so the seasons passed.
+     , (32713, 1, 4294967295, 'Unknown Tumerok', 'prewritten', False, 'We have held our fort for many seasons, keeping the human Fort Tethana separated from the other akiekie to the north. We would launch attacks against the human fort, and they would attack us. But we could not win, and they could not win. And so the seasons passed.
 ')
-     , (32713, 2, 4294967295, 'Unknown Tumerok', 'Password is cheese', False, 'When it was the time of the highest sun in the sky, the blue-skinned humans approached our leaders. They wanted alliance with we who are called Renegade. They would help us defeat the other humans. We agreed, and our Lugian buhdis joined the blue-skinned humans in attacking the human settlement called Zaikhal.
+     , (32713, 2, 4294967295, 'Unknown Tumerok', 'prewritten', False, 'When it was the time of the highest sun in the sky, the blue-skinned humans approached our leaders. They wanted alliance with we who are called Renegade. They would help us defeat the other humans. We agreed, and our Lugian buhdis joined the blue-skinned humans in attacking the human settlement called Zaikhal.
 ')
-     , (32713, 3, 4294967295, 'Unknown Tumerok', 'Password is cheese', False, 'This morning, as the blood sun rose over the sea, a band of blue-skinned humans approached our fort. They called us brother and said they were the Bloodstone Company, come in peace to help us against the fort to the southwest. We invited them to our fort.
+     , (32713, 3, 4294967295, 'Unknown Tumerok', 'prewritten', False, 'This morning, as the blood sun rose over the sea, a band of blue-skinned humans approached our fort. They called us brother and said they were the Bloodstone Company, come in peace to help us against the fort to the southwest. We invited them to our fort.
 ')
-     , (32713, 4, 4294967295, 'Unknown Tumerok', 'Password is cheese', False, 'We were tricked. The blue-skinned humans sought not our alliance, but our blood. Many warriors died with shame, with no weapon in hand. I do not know why they have done this. I only know that they now hold this fort.
+     , (32713, 4, 4294967295, 'Unknown Tumerok', 'prewritten', False, 'We were tricked. The blue-skinned humans sought not our alliance, but our blood. Many warriors died with shame, with no weapon in hand. I do not know why they have done this. I only know that they now hold this fort.
 ')
-     , (32713, 5, 4294967295, 'Unknown Tumerok', 'Password is cheese', False, 'I write this from the tower of our fort. I have barred the way, but they threaten to break through soon. I would rage forth and engage them in combat now, but I must finish this writing first. Before today, I would have said that I would wish my writing to fall only into the hands of my xuta, but today I have no such wish. I do not care if Hea, Aun, atual arutoa, Lugian, or human find this writing - only that the blue-skinned humans do not. Let all be warned of the treachery of the blue-skinned humans.
+     , (32713, 5, 4294967295, 'Unknown Tumerok', 'prewritten', False, 'I write this from the tower of our fort. I have barred the way, but they threaten to break through soon. I would rage forth and engage them in combat now, but I must finish this writing first. Before today, I would have said that I would wish my writing to fall only into the hands of my xuta, but today I have no such wish. I do not care if Hea, Aun, atual arutoa, Lugian, or human find this writing - only that the blue-skinned humans do not. Let all be warned of the treachery of the blue-skinned humans.
 ');

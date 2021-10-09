@@ -22,16 +22,16 @@ VALUES (12567,   1, 'Woodshore Cottages Portal') /* Name */
      , (12567, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12567,   1,   33554867) /* Setup */
-     , (12567,   2,  150994947) /* MotionTable */
-     , (12567,   8,  100667499) /* Icon */
+VALUES (12567,   1, 0x020001B3) /* Setup */
+     , (12567,   2, 0x09000003) /* MotionTable */
+     , (12567,   8, 0x0600106B) /* Icon */
      , (12567, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12567, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12567, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12567, 8040, 1725300748, 45.3124, 92.2383, 77.04114, -0.8114721, 0, 0, 0.5843911) /* PCAPRecordedLocation */
+VALUES (12567, 8040, 0x66D6000C, 45.3124, 92.2383, 77.04114, -0.811472, 0, 0, 0.584391) /* PCAPRecordedLocation */
 /* @teleloc 0x66D6000C [45.312400 92.238300 77.041140] -0.811472 0.000000 0.000000 0.584391 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12567, 8000, 1986879490) /* PCAPRecordedObjectIID */;
+VALUES (12567, 8000, 0x766D6002) /* PCAPRecordedObjectIID */;

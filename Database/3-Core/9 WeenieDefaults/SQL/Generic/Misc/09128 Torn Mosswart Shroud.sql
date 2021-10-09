@@ -14,7 +14,8 @@ VALUES (9128,   1,        128) /* ItemType - Misc */
      , (9128, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9128,  22, True ) /* Inscribable */;
+VALUES (9128,  22, True ) /* Inscribable */
+     , (9128,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9128,  39,    0.75) /* DefaultScale */;
@@ -24,17 +25,17 @@ VALUES (9128,   1, 'Torn Mosswart Shroud') /* Name */
      , (9128,  15, 'This is what is left of a religious artifact that has been with the Mosswarts for over a hundred generations.  I destroyed it as they destroyed my life.  Remember this.  Martine.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9128,   1,   33554817) /* Setup */
-     , (9128,   3,  536870932) /* SoundTable */
-     , (9128,   6,   67111919) /* PaletteBase */
-     , (9128,   8,  100671378) /* Icon */
-     , (9128,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9128,   1, 0x02000181) /* Setup */
+     , (9128,   3, 0x20000014) /* SoundTable */
+     , (9128,   6, 0x04000BEF) /* PaletteBase */
+     , (9128,   8, 0x06001F92) /* Icon */
+     , (9128,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9128, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (9128, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9128, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9128, 8000, 2343279685) /* PCAPRecordedObjectIID */;
+VALUES (9128, 8000, 0x8BAB9C45) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9128, 67111920, 0, 0);

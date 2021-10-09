@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38885,   1, 'Lord Grymar Mhoire''s Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38885,   1,   33554784) /* Setup */
-     , (38885,   8,  100667485) /* Icon */
-     , (38885,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38885,   1, 0x02000160) /* Setup */
+     , (38885,   8, 0x0600105D) /* Icon */
+     , (38885,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38885, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (38885, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38885, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38885, 8000, 2174027077) /* PCAPRecordedObjectIID */;
+VALUES (38885, 8000, 0x81950545) /* PCAPRecordedObjectIID */;

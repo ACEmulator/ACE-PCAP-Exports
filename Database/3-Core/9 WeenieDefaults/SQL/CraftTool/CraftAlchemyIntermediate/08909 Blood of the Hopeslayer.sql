@@ -19,7 +19,8 @@ VALUES (8909,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (8909, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8909,  22, True ) /* Inscribable */;
+VALUES (8909,  22, True ) /* Inscribable */
+     , (8909,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8909,  39,     0.7) /* DefaultScale */;
@@ -31,17 +32,17 @@ VALUES (8909,   1, 'Blood of the Hopeslayer') /* Name */
      , (8909,  20, 'Blood of the Hopeslayer') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8909,   1,   33554603) /* Setup */
-     , (8909,   3,  536870932) /* SoundTable */
-     , (8909,   6,   67111919) /* PaletteBase */
-     , (8909,   8,  100671326) /* Icon */
-     , (8909,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8909,   1, 0x020000AB) /* Setup */
+     , (8909,   3, 0x20000014) /* SoundTable */
+     , (8909,   6, 0x04000BEF) /* PaletteBase */
+     , (8909,   8, 0x06001F5E) /* Icon */
+     , (8909,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8909, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (8909, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8909, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8909, 8000, 3315702285) /* PCAPRecordedObjectIID */;
+VALUES (8909, 8000, 0xC5A19A0D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8909, 67111922, 0, 0);

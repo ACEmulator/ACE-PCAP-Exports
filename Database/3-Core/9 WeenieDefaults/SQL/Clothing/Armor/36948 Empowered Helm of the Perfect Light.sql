@@ -25,6 +25,7 @@ VALUES (36948,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36948,  22, True ) /* Inscribable */
+     , (36948,  23, True ) /* DestroyOnSell */
      , (36948,  69, False) /* IsSellable */
      , (36948,  99, True ) /* Ivoryable */;
 
@@ -44,26 +45,24 @@ VALUES (36948,   1, 'Empowered Helm of the Perfect Light') /* Name */
      , (36948,  16, 'A helm forged from Thaumaturgic Plate Crystal, and then imbedded with spells by Asheron himself.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36948,   1,   33558266) /* Setup */
-     , (36948,   3,  536870932) /* SoundTable */
-     , (36948,   8,  100689792) /* Icon */
-     , (36948,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36948,   1, 0x02000EFA) /* Setup */
+     , (36948,   3, 0x20000014) /* SoundTable */
+     , (36948,   8, 0x06006780) /* Icon */
+     , (36948,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36948, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
      , (36948, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36948, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36948, 8040, 23855555, 55.3852, -37.47757, -0.002499998, 0.9938313, 0, 0, -0.1109029) /* PCAPRecordedLocation */
+VALUES (36948, 8040, 0x016C01C3, 55.3852, -37.47757, -0.0025, 0.993831, 0, 0, -0.110903) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [55.385200 -37.477570 -0.002500] 0.993831 0.000000 0.000000 -0.110903 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36948, 8000, 3540135192) /* PCAPRecordedObjectIID */;
+VALUES (36948, 8000, 0xD3022D18) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36948,  2350,      2)  /* DecayDurance */
-     , (36948,  2351,      2)  /* ConsumptionDurance */
-     , (36948,  2352,      2)  /* StasisDurance */
-     , (36948,  2353,      2)  /* StimulationDurance */
+VALUES (36948,  4231,      2)  /* LeadershipMasteryOtherIncantation */
+     , (36948,  4232,      2)  /* CANTRIPLEADERSHIP3 */
      , (36948,  2377,      2)  /* AnnihilationVision */
      , (36948,  2378,      2)  /* BeastMurmur */
      , (36948,  2380,      2)  /* InstrumentalityGrip */
@@ -73,8 +72,10 @@ VALUES (36948,  2350,      2)  /* DecayDurance */
      , (36948,  2962,      2)  /* SlashingDurance */
      , (36948,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */
      , (36948,  4077,      2)  /* ManaConvertMasteryIncantation */
-     , (36948,  4231,      2)  /* LeadershipMasteryOtherIncantation */
-     , (36948,  4232,      2)  /* CANTRIPLEADERSHIP3 */;
+     , (36948,  2350,      2)  /* DecayDurance */
+     , (36948,  2351,      2)  /* ConsumptionDurance */
+     , (36948,  2352,      2)  /* StasisDurance */
+     , (36948,  2353,      2)  /* StimulationDurance */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (36948, 0, 16793802);

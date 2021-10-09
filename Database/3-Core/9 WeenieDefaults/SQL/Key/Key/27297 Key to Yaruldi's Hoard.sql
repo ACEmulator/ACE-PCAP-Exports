@@ -23,13 +23,13 @@ VALUES (27297,   1, 'Key to Yaruldi''s Hoard') /* Name */
      , (27297,  16, 'This key was taken from the corpse of the Margul guardian, Yaruldi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27297,   1,   33554784) /* Setup */
-     , (27297,   3,  536870932) /* SoundTable */
-     , (27297,   8,  100676399) /* Icon */
-     , (27297,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27297,   1, 0x02000160) /* Setup */
+     , (27297,   3, 0x20000014) /* SoundTable */
+     , (27297,   8, 0x0600332F) /* Icon */
+     , (27297,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27297, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (27297, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27297, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27297, 8000, 3691128195) /* PCAPRecordedObjectIID */;
+VALUES (27297, 8000, 0xDC022583) /* PCAPRecordedObjectIID */;

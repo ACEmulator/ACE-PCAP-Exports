@@ -36,27 +36,27 @@ VALUES (14930,   1, 'Wedding Planner') /* Name */
      , (14930, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14930,   1,   33554510) /* Setup */
-     , (14930,   2,  150994945) /* MotionTable */
-     , (14930,   3,  536870914) /* SoundTable */
-     , (14930,   6,   67108990) /* PaletteBase */
-     , (14930,   8,  100667446) /* Icon */
-     , (14930,   9,   83890243) /* EyesTexture */
-     , (14930,  10,   83890296) /* NoseTexture */
-     , (14930,  11,   83890348) /* MouthTexture */
-     , (14930,  15,   67117002) /* HairPalette */
-     , (14930,  16,   67109565) /* EyesPalette */
-     , (14930,  17,   67110045) /* SkinPalette */
+VALUES (14930,   1, 0x0200004E) /* Setup */
+     , (14930,   2, 0x09000001) /* MotionTable */
+     , (14930,   3, 0x20000002) /* SoundTable */
+     , (14930,   6, 0x0400007E) /* PaletteBase */
+     , (14930,   8, 0x06001036) /* Icon */
+     , (14930,   9, 0x05001043) /* EyesTexture */
+     , (14930,  10, 0x05001078) /* NoseTexture */
+     , (14930,  11, 0x050010AC) /* MouthTexture */
+     , (14930,  15, 0x04001FCA) /* HairPalette */
+     , (14930,  16, 0x040002BD) /* EyesPalette */
+     , (14930,  17, 0x0400049D) /* SkinPalette */
      , (14930, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (14930, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (14930, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14930, 8040, 3862757708, 108.591, 62.4213, 86.005, -0.2525769, 0, 0, -0.9675768) /* PCAPRecordedLocation */
+VALUES (14930, 8040, 0xE63D014C, 108.591, 62.4213, 86.005, -0.252577, 0, 0, -0.967577) /* PCAPRecordedLocation */
 /* @teleloc 0xE63D014C [108.591000 62.421300 86.005000] -0.252577 0.000000 0.000000 -0.967577 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14930, 8000, 2120470568) /* PCAPRecordedObjectIID */;
+VALUES (14930, 8000, 0x7E63D028) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14930,   1,  90, 0, 0) /* Strength */
@@ -84,13 +84,29 @@ VALUES (14930, 4, 14931, -1, 0, 0, False) /* Create Wedding Handbook (14931) for
      , (14930, 4, 14905, -1, 0, 0, False) /* Create Wedding Gown (14905) for Shop */
      , (14930, 4, 14904, -1, 0, 0, False) /* Create Wedding Cyclas (14904) for Shop */
      , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
      , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
-     , (14930, 4,    73, -1, 0, 0, False) /* Create Scalemail Hauberk (73) for Shop */
-     , (14930, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
-     , (14930, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (14930, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
-     , (14930, 4,  2419, -1, 0, 0, False) /* Create Gem (2419) for Shop */
-     , (14930, 4,  2415, -1, 0, 0, False) /* Create Gem (2415) for Shop */;
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14930, 67109565, 32, 8)

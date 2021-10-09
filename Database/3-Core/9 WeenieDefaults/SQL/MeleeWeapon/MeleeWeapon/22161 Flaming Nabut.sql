@@ -47,17 +47,17 @@ VALUES (22161,   1, 'Flaming Nabut') /* Name */
      , (22161,  16, 'Flaming Nabut') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22161,   1,   33558071) /* Setup */
-     , (22161,   3,  536870932) /* SoundTable */
-     , (22161,   6,   67111919) /* PaletteBase */
-     , (22161,   8,  100673598) /* Icon */
-     , (22161,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22161,   1, 0x02000E37) /* Setup */
+     , (22161,   3, 0x20000014) /* SoundTable */
+     , (22161,   6, 0x04000BEF) /* PaletteBase */
+     , (22161,   8, 0x0600283E) /* Icon */
+     , (22161,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22161, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (22161, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22161, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22161, 8000, 3699121646) /* PCAPRecordedObjectIID */;
+VALUES (22161, 8000, 0xDC7C1DEE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22161, 67111925, 0, 0);

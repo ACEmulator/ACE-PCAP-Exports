@@ -26,6 +26,7 @@ VALUES (9042,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9042,  22, True ) /* Inscribable */
+     , (9042,  23, True ) /* DestroyOnSell */
      , (9042,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -33,18 +34,18 @@ VALUES (9042,   1, 'Lyceum Recall Gem') /* Name */
      , (9042,  16, 'A portal gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9042,   1,   33556769) /* Setup */
-     , (9042,   3,  536870932) /* SoundTable */
-     , (9042,   6,   67111919) /* PaletteBase */
-     , (9042,   8,  100670993) /* Icon */
-     , (9042,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9042,   1, 0x02000921) /* Setup */
+     , (9042,   3, 0x20000014) /* SoundTable */
+     , (9042,   6, 0x04000BEF) /* PaletteBase */
+     , (9042,   8, 0x06001E11) /* Icon */
+     , (9042,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9042,  28,       2358) /* Spell - RecallLyceum */
      , (9042, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (9042, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9042, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9042, 8000, 2150615362) /* PCAPRecordedObjectIID */;
+VALUES (9042, 8000, 0x802FC942) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9042, 67111922, 0, 0);

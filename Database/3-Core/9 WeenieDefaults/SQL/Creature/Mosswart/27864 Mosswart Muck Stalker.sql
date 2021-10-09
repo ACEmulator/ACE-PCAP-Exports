@@ -26,22 +26,22 @@ VALUES (27864,   1, 'Mosswart Muck Stalker') /* Name */
      , (27864, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27864,   1,   33557327) /* Setup */
-     , (27864,   2,  150994953) /* MotionTable */
-     , (27864,   3,  536870959) /* SoundTable */
-     , (27864,   6,   67113400) /* PaletteBase */
-     , (27864,   8,  100667449) /* Icon */
-     , (27864,  22,  872415264) /* PhysicsEffectTable */
+VALUES (27864,   1, 0x02000B4F) /* Setup */
+     , (27864,   2, 0x09000009) /* MotionTable */
+     , (27864,   3, 0x2000002F) /* SoundTable */
+     , (27864,   6, 0x040011B8) /* PaletteBase */
+     , (27864,   8, 0x06001039) /* Icon */
+     , (27864,  22, 0x34000020) /* PhysicsEffectTable */
      , (27864, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (27864, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (27864, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27864, 8040, 31130117, 120.366, -60.6426, -2.9934, -0.784396, 0, 0, -0.62026) /* PCAPRecordedLocation */
+VALUES (27864, 8040, 0x01DB0205, 120.366, -60.6426, -2.9934, -0.784396, 0, 0, -0.62026) /* PCAPRecordedLocation */
 /* @teleloc 0x01DB0205 [120.366000 -60.642600 -2.993400] -0.784396 0.000000 0.000000 -0.620260 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27864, 8000, 3699152800) /* PCAPRecordedObjectIID */;
+VALUES (27864, 8000, 0xDC7C97A0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27864,   1, 180, 0, 0) /* Strength */

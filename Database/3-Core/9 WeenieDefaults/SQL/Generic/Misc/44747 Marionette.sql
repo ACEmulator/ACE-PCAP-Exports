@@ -19,15 +19,15 @@ VALUES (44747,   1, 'Marionette') /* Name */
      , (44747,  16, 'Marionettes are strange constructs that appeared in Dereth in Portal Year 12. Most have no idea where or when they began to appear, only that they can now be found in the deeps of the A''mun desert. Some whisper that the Virindi have something to do with their sudden appearance, and look with fear at the empty crypts of the desert. They are creatures to be feared, for all types can cast magic, and are extremely resistant to cold and lightning.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44747,   1,   33561347) /* Setup */
-     , (44747,   8,  100668115) /* Icon */
+VALUES (44747,   1, 0x02001B03) /* Setup */
+     , (44747,   8, 0x060012D3) /* Icon */
      , (44747, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
      , (44747, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44747, 8005,      32897) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44747, 8040, 23855606, 78.17616, -49.85006, -3.72529E-09, -0.7001362, 0, 0, 0.7140093) /* PCAPRecordedLocation */
+VALUES (44747, 8040, 0x016C01F6, 78.17616, -49.85006, 0, -0.700136, 0, 0, 0.714009) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01F6 [78.176160 -49.850060 0.000000] -0.700136 0.000000 0.000000 0.714009 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44747, 8000, 3707149568) /* PCAPRecordedObjectIID */;
+VALUES (44747, 8000, 0xDCF69D00) /* PCAPRecordedObjectIID */;

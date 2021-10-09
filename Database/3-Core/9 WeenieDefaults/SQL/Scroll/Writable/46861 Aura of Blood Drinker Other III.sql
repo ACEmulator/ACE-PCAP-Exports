@@ -24,13 +24,13 @@ VALUES (46861,   1, 'Aura of Blood Drinker Other III') /* Name */
 Increases a weapon''s damage value by 8 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46861,   1,   33554826) /* Setup */
-     , (46861,   8,  100676655) /* Icon */
-     , (46861,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46861,   1, 0x0200018A) /* Setup */
+     , (46861,   8, 0x0600342F) /* Icon */
+     , (46861,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46861,  28,       5992) /* Spell - BloodDrinkerOther3 */
      , (46861, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (46861, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46861, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46861, 8000, 3706667840) /* PCAPRecordedObjectIID */;
+VALUES (46861, 8000, 0xDCEF4340) /* PCAPRecordedObjectIID */;

@@ -53,21 +53,21 @@ VALUES (45407,   1, 'Acid Yaoji') /* Name */
      , (45407,  16, 'Acid Yaoji of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45407,   1,   33555804) /* Setup */
-     , (45407,   3,  536870932) /* SoundTable */
-     , (45407,   8,  100669077) /* Icon */
-     , (45407,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45407,   1, 0x0200055C) /* Setup */
+     , (45407,   3, 0x20000014) /* SoundTable */
+     , (45407,   8, 0x06001695) /* Icon */
+     , (45407,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45407,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45407,  52,  100676437) /* IconUnderlay */
+     , (45407,  52, 0x06003355) /* IconUnderlay */
      , (45407, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45407, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45407, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45407, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45407, 8000, 2173705900) /* PCAPRecordedObjectIID */;
+VALUES (45407, 8000, 0x81901EAC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45407,  1591,      2)  /* HeartSeekerSelf5 */
-     , (45407,  1604,      2)  /* DefenderSelf5 */
-     , (45407,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (45407,  1604,      2)  /* DefenderSelf5 */
+     , (45407,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (45407,  1591,      2)  /* HeartSeekerSelf5 */;

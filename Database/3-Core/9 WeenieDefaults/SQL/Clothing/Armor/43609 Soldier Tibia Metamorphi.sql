@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43609,   1, 'Soldier Tibia Metamorphi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43609,   1,   33554653) /* Setup */
-     , (43609,   3,  536870932) /* SoundTable */
-     , (43609,   6,   67108990) /* PaletteBase */
-     , (43609,   8,  100691618) /* Icon */
-     , (43609,  22,  872415275) /* PhysicsEffectTable */
-     , (43609,  52,  100691610) /* IconUnderlay */
+VALUES (43609,   1, 0x020000DD) /* Setup */
+     , (43609,   3, 0x20000014) /* SoundTable */
+     , (43609,   6, 0x0400007E) /* PaletteBase */
+     , (43609,   8, 0x06006EA2) /* Icon */
+     , (43609,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43609,  52, 0x06006E9A) /* IconUnderlay */
      , (43609, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (43609, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (43609, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -33,7 +33,7 @@ VALUES (43609,   1,   33554653) /* Setup */
      , (43609, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43609, 8000,      43609) /* PCAPRecordedObjectIID */;
+VALUES (43609, 8000, 0x0000AA59) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43609, 67110337, 64, 8);

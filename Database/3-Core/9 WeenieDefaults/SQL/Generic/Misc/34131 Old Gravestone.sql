@@ -24,16 +24,16 @@ VALUES (34131,   1, 'Old Gravestone') /* Name */
      , (34131, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34131,   1,   33560113) /* Setup */
-     , (34131,   2,  150994977) /* MotionTable */
-     , (34131,   8,  100689224) /* Icon */
+VALUES (34131,   1, 0x02001631) /* Setup */
+     , (34131,   2, 0x09000021) /* MotionTable */
+     , (34131,   8, 0x06006548) /* Icon */
      , (34131, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (34131, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (34131, 8005,      98311) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34131, 8040, 3366191113, 47.62449, 11.76795, 52.99336, -0.9930365, 0, 0, -0.1178068) /* PCAPRecordedLocation */
+VALUES (34131, 8040, 0xC8A40009, 47.62449, 11.76795, 52.99336, -0.993037, 0, 0, -0.117807) /* PCAPRecordedLocation */
 /* @teleloc 0xC8A40009 [47.624490 11.767950 52.993360] -0.993037 0.000000 0.000000 -0.117807 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34131, 8000, 3692325411) /* PCAPRecordedObjectIID */;
+VALUES (34131, 8000, 0xDC146A23) /* PCAPRecordedObjectIID */;

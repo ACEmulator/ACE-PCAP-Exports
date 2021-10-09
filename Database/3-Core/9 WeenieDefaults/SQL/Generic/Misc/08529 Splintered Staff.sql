@@ -14,24 +14,25 @@ VALUES (8529,   1,        128) /* ItemType - Misc */
      , (8529, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8529,  22, True ) /* Inscribable */;
+VALUES (8529,  22, True ) /* Inscribable */
+     , (8529,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8529,   1, 'Splintered Staff') /* Name */
      , (8529,  16, 'A broken staff.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8529,   1,   33556554) /* Setup */
-     , (8529,   3,  536870932) /* SoundTable */
-     , (8529,   6,   67111919) /* PaletteBase */
-     , (8529,   8,  100671212) /* Icon */
-     , (8529,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8529,   1, 0x0200084A) /* Setup */
+     , (8529,   3, 0x20000014) /* SoundTable */
+     , (8529,   6, 0x04000BEF) /* PaletteBase */
+     , (8529,   8, 0x06001EEC) /* Icon */
+     , (8529,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8529, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (8529, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8529, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8529, 8000, 2384638304) /* PCAPRecordedObjectIID */;
+VALUES (8529, 8000, 0x8E22B160) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8529, 67111924, 0, 0);

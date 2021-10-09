@@ -52,18 +52,18 @@ VALUES (41056,   1, 'Frost Greataxe') /* Name */
      , (41056,  16, 'Frost Greataxe of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41056,   1,   33560806) /* Setup */
-     , (41056,   3,  536870932) /* SoundTable */
-     , (41056,   6,   67115558) /* PaletteBase */
-     , (41056,   8,  100690776) /* Icon */
-     , (41056,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41056,   1, 0x020018E6) /* Setup */
+     , (41056,   3, 0x20000014) /* SoundTable */
+     , (41056,   6, 0x04001A26) /* PaletteBase */
+     , (41056,   8, 0x06006B58) /* Icon */
+     , (41056,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41056,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41056, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41056, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41056, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41056, 8000, 3700900934) /* PCAPRecordedObjectIID */;
+VALUES (41056, 8000, 0xDC974446) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41056,  1602,      2)  /* DefenderSelf3 */

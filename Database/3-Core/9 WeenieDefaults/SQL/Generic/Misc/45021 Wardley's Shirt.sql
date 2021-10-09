@@ -16,13 +16,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45021,   1, 'Wardley''s Shirt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45021,   1,   33556108) /* Setup */
-     , (45021,   3,  536870932) /* SoundTable */
-     , (45021,   8,  100673744) /* Icon */
-     , (45021,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45021,   1, 0x0200068C) /* Setup */
+     , (45021,   3, 0x20000014) /* SoundTable */
+     , (45021,   8, 0x060028D0) /* Icon */
+     , (45021,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45021, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (45021, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45021, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45021, 8000, 3701370732) /* PCAPRecordedObjectIID */;
+VALUES (45021, 8000, 0xDC9E6F6C) /* PCAPRecordedObjectIID */;

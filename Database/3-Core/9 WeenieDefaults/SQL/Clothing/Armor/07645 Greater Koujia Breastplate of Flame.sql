@@ -8,7 +8,6 @@ VALUES (7645,   1,          2) /* ItemType - Armor */
      , (7645,   4,       1024) /* ClothingPriority - OuterwearChest */
      , (7645,   5,       1300) /* EncumbranceVal */
      , (7645,   9,        512) /* ValidLocations - ChestArmor */
-     , (7645,  10,        512) /* CurrentWieldedLocation - ChestArmor */
      , (7645,  16,          1) /* ItemUseable - No */
      , (7645,  19,       2320) /* Value */
      , (7645,  28,        195) /* ArmorLevel */
@@ -20,6 +19,7 @@ VALUES (7645,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7645,  22, True ) /* Inscribable */
+     , (7645,  23, True ) /* DestroyOnSell */
      , (7645,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -38,17 +38,17 @@ VALUES (7645,   1, 'Greater Koujia Breastplate of Flame') /* Name */
      , (7645,   8, 'Cygmus') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7645,   1,   33554642) /* Setup */
-     , (7645,   3,  536870932) /* SoundTable */
-     , (7645,   6,   67108990) /* PaletteBase */
-     , (7645,   8,  100670453) /* Icon */
-     , (7645,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7645,   1, 0x020000D2) /* Setup */
+     , (7645,   3, 0x20000014) /* SoundTable */
+     , (7645,   6, 0x0400007E) /* PaletteBase */
+     , (7645,   8, 0x06001BF5) /* Icon */
+     , (7645,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7645, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (7645, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7645, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7645, 8000, 2584296057) /* PCAPRecordedObjectIID */;
+VALUES (7645, 8000, 0x9A093A79) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7645, 67109968, 186, 12)

@@ -23,11 +23,11 @@ VALUES (27437,   1, 'Dark Monolith') /* Name */
      , (27437,  16, 'A dark obsidian stone. It hums in a low and ominous way.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27437,   1,   33558688) /* Setup */
-     , (27437,   8,  100676417) /* Icon */
+VALUES (27437,   1, 0x020010A0) /* Setup */
+     , (27437,   8, 0x06003341) /* Icon */
      , (27437, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
      , (27437, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27437, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27437, 8000, 2157269317) /* PCAPRecordedObjectIID */;
+VALUES (27437, 8000, 0x80955145) /* PCAPRecordedObjectIID */;

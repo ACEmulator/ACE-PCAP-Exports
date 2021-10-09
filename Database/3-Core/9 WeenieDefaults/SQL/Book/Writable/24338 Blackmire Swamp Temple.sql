@@ -18,18 +18,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24338,   1, 'Blackmire Swamp Temple') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24338,   1,   33559084) /* Setup */
-     , (24338,   3,  536870932) /* SoundTable */
-     , (24338,   6,   67112626) /* PaletteBase */
-     , (24338,   8,  100668176) /* Icon */
-     , (24338,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24338,   1, 0x0200122C) /* Setup */
+     , (24338,   3, 0x20000014) /* SoundTable */
+     , (24338,   6, 0x04000EB2) /* PaletteBase */
+     , (24338,   8, 0x06001310) /* Icon */
+     , (24338,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24338, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (24338, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (24338, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (24338, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24338, 8000,      24338) /* PCAPRecordedObjectIID */;
+VALUES (24338, 8000, 0x00005F12) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24338, 67113862, 0, 0);

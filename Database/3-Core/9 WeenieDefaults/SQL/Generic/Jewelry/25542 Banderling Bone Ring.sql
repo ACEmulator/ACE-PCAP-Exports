@@ -32,17 +32,17 @@ VALUES (25542,   1, 'Banderling Bone Ring') /* Name */
      , (25542,  16, 'A ring of bone once used as a body piercing for a Banderling Scalper. The magic within the bone is still active and small bits have been stripped away so the ring can now be worn on the finger.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25542,   1,   33554690) /* Setup */
-     , (25542,   3,  536870932) /* SoundTable */
-     , (25542,   8,  100674498) /* Icon */
-     , (25542,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25542,   1, 0x02000102) /* Setup */
+     , (25542,   3, 0x20000014) /* SoundTable */
+     , (25542,   8, 0x06002BC2) /* Icon */
+     , (25542,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25542, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (25542, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25542, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25542, 8000, 2157272713) /* PCAPRecordedObjectIID */;
+VALUES (25542, 8000, 0x80955E89) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25542,  1337,      2)  /* StrengthOther6 */
-     , (25542,  1432,      2)  /* FocusOther6 */;
+VALUES (25542,  1432,      2)  /* FocusOther6 */
+     , (25542,  1337,      2)  /* StrengthOther6 */;

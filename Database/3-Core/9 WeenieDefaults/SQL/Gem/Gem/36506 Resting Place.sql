@@ -35,20 +35,20 @@ VALUES (36506,   1, 'Resting Place') /* Name */
      , (36506,  16, 'We must put aside our disputes and cooperate with the decomposing masses. The Interlopers spread further and invade more of our resting places every season. We will make plans in the meeting place of old, my map room. May his Eternal Splendor rule forever. - Ward of the Retreat') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36506,   1,   33556769) /* Setup */
-     , (36506,   3,  536870932) /* SoundTable */
-     , (36506,   6,   67111919) /* PaletteBase */
-     , (36506,   8,  100676445) /* Icon */
-     , (36506,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36506,   1, 0x02000921) /* Setup */
+     , (36506,   3, 0x20000014) /* SoundTable */
+     , (36506,   6, 0x04000BEF) /* PaletteBase */
+     , (36506,   8, 0x0600335D) /* Icon */
+     , (36506,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36506,  28,        157) /* Spell - SummonPortal1 */
-     , (36506,  50,  100676404) /* IconOverlay */
+     , (36506,  50, 0x06003334) /* IconOverlay */
      , (36506, 8001, 1349021720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (36506, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (36506, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (36506, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36506, 8000, 2222088980) /* PCAPRecordedObjectIID */;
+VALUES (36506, 8000, 0x84726314) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36506, 67111921, 0, 0);

@@ -14,23 +14,24 @@ VALUES (22359,   1,       2048) /* ItemType - Gem */
      , (22359, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22359,  22, True ) /* Inscribable */;
+VALUES (22359,  22, True ) /* Inscribable */
+     , (22359,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22359,   1, 'Finesse Weapons Gem of Enlightenment') /* Name */
      , (22359,  14, 'Use this gem to specialize a trained skill. It will cost you four skill credits to specialize the Finesse Weapons skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22359,   1,   33558088) /* Setup */
-     , (22359,   6,   67111919) /* PaletteBase */
-     , (22359,   8,  100673788) /* Icon */
-     , (22359,  50,  100692238) /* IconOverlay */
+VALUES (22359,   1, 0x02000E48) /* Setup */
+     , (22359,   6, 0x04000BEF) /* PaletteBase */
+     , (22359,   8, 0x060028FC) /* Icon */
+     , (22359,  50, 0x0600710E) /* IconOverlay */
      , (22359, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (22359, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22359, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22359, 8000, 2929803911) /* PCAPRecordedObjectIID */;
+VALUES (22359, 8000, 0xAEA14287) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22359, 67111923, 0, 0);

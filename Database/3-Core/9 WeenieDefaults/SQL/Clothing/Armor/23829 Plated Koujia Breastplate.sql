@@ -43,17 +43,17 @@ VALUES (23829,   1, 'Plated Koujia Breastplate') /* Name */
      , (23829,   8, 'Jet Fang') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23829,   1,   33554642) /* Setup */
-     , (23829,   3,  536870932) /* SoundTable */
-     , (23829,   6,   67108990) /* PaletteBase */
-     , (23829,   8,  100674073) /* Icon */
-     , (23829,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23829,   1, 0x020000D2) /* Setup */
+     , (23829,   3, 0x20000014) /* SoundTable */
+     , (23829,   6, 0x0400007E) /* PaletteBase */
+     , (23829,   8, 0x06002A19) /* Icon */
+     , (23829,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23829, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (23829, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23829, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23829, 8000, 2192761125) /* PCAPRecordedObjectIID */;
+VALUES (23829, 8000, 0x82B2E125) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23829,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */;

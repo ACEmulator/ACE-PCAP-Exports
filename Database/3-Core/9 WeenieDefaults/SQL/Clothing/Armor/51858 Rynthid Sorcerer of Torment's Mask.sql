@@ -48,26 +48,26 @@ VALUES (51858,   1, 'Rynthid Sorcerer of Torment''s Mask') /* Name */
      , (51858,  25, 'Verdre') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51858,   1,   33561594) /* Setup */
-     , (51858,   3,  536870932) /* SoundTable */
-     , (51858,   8,  100693222) /* Icon */
-     , (51858,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51858,   1, 0x02001BFA) /* Setup */
+     , (51858,   3, 0x20000014) /* SoundTable */
+     , (51858,   8, 0x060074E6) /* Icon */
+     , (51858,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51858, 8001,  270860432) /* PCAPRecordedWeenieHeader - Usable, UiEffects, ValidLocations, Priority, Burden, HookType */
      , (51858, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51858, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51858, 8040, 3583574079, 179.0235, 158.8356, 373.9975, 0.812439, 0, 0, -0.5830463) /* PCAPRecordedLocation */
+VALUES (51858, 8040, 0xD599003F, 179.0235, 158.8356, 373.9975, 0.812439, 0, 0, -0.583046) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [179.023500 158.835600 373.997500] 0.812439 0.000000 0.000000 -0.583046 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51858, 8000, 2158297561) /* PCAPRecordedObjectIID */;
+VALUES (51858, 8000, 0x80A501D9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51858,  4407,      2)  /* Impenetrability8 */
-     , (51858,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */
+VALUES (51858,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */
      , (51858,  6051,      2)  /* CantripFealty4 */
-     , (51858,  6063,      2)  /* CantripMagicResistance4 */;
+     , (51858,  6063,      2)  /* CantripMagicResistance4 */
+     , (51858,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (51858, 0, 16797000);

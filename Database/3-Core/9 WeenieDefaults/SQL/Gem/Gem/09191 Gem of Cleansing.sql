@@ -31,18 +31,18 @@ VALUES (9191,   1, 'Gem of Cleansing') /* Name */
      , (9191,  20, 'Gems of Cleansing') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9191,   1,   33554809) /* Setup */
-     , (9191,   3,  536870932) /* SoundTable */
-     , (9191,   6,   67111919) /* PaletteBase */
-     , (9191,   8,  100671406) /* Icon */
-     , (9191,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9191,   1, 0x02000179) /* Setup */
+     , (9191,   3, 0x20000014) /* SoundTable */
+     , (9191,   6, 0x04000BEF) /* PaletteBase */
+     , (9191,   8, 0x06001FAE) /* Icon */
+     , (9191,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9191,  28,       1876) /* Spell - DispelAllBadSelf5 */
      , (9191, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (9191, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9191, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9191, 8000, 2174241367) /* PCAPRecordedObjectIID */;
+VALUES (9191, 8000, 0x81984A57) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9191, 67111919, 0, 0);

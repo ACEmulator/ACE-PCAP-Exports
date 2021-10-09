@@ -53,23 +53,23 @@ VALUES (30590,   1, 'Frost Flanged Mace') /* Name */
      , (30590,  16, 'Frost Flanged Mace of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30590,   1,   33559476) /* Setup */
-     , (30590,   3,  536870932) /* SoundTable */
-     , (30590,   6,   67115559) /* PaletteBase */
-     , (30590,   8,  100686975) /* Icon */
-     , (30590,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30590,   1, 0x020013B4) /* Setup */
+     , (30590,   3, 0x20000014) /* SoundTable */
+     , (30590,   6, 0x04001A27) /* PaletteBase */
+     , (30590,   8, 0x06005C7F) /* Icon */
+     , (30590,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30590,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30590, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30590, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30590, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30590, 8000, 3469253846) /* PCAPRecordedObjectIID */;
+VALUES (30590, 8000, 0xCEC89CD6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30590,  1378,      2)  /* CoordinationSelf6 */
-     , (30590,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (30590,  2515,      2)  /* CANTRIPINVULNERABILITY2 */;
+VALUES (30590,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (30590,  2515,      2)  /* CANTRIPINVULNERABILITY2 */
+     , (30590,  1378,      2)  /* CoordinationSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30590, 67116398, 0, 0);

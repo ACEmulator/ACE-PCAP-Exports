@@ -23,23 +23,23 @@ VALUES (10769,   1, 'Battered Doll') /* Name */
      , (10769, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10769,   1,   33557063) /* Setup */
-     , (10769,   2,  150994984) /* MotionTable */
-     , (10769,   3,  536871022) /* SoundTable */
-     , (10769,   6,   67113150) /* PaletteBase */
-     , (10769,   8,  100671421) /* Icon */
-     , (10769,  22,  872415373) /* PhysicsEffectTable */
+VALUES (10769,   1, 0x02000A47) /* Setup */
+     , (10769,   2, 0x09000028) /* MotionTable */
+     , (10769,   3, 0x2000006E) /* SoundTable */
+     , (10769,   6, 0x040010BE) /* PaletteBase */
+     , (10769,   8, 0x06001FBD) /* Icon */
+     , (10769,  22, 0x3400008D) /* PhysicsEffectTable */
      , (10769,  30,         87) /* PhysicsScript - BreatheLightning */
      , (10769, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (10769, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (10769, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10769, 8040, 2271412228, 7.709252, 73.39518, 23.0075, 0.9659258, 0, 0, -0.258819) /* PCAPRecordedLocation */
+VALUES (10769, 8040, 0x87630004, 7.709252, 73.39518, 23.0075, 0.965926, 0, 0, -0.258819) /* PCAPRecordedLocation */
 /* @teleloc 0x87630004 [7.709252 73.395180 23.007500] 0.965926 0.000000 0.000000 -0.258819 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10769, 8000, 2883730884) /* PCAPRecordedObjectIID */;
+VALUES (10769, 8000, 0xABE23DC4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10769, 67113151, 0, 0);

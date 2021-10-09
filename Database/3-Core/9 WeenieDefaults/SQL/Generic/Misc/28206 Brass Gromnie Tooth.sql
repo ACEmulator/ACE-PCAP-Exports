@@ -21,16 +21,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28206,   1, 'Brass Gromnie Tooth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28206,   1,   33554817) /* Setup */
-     , (28206,   3,  536870932) /* SoundTable */
-     , (28206,   8,  100676756) /* Icon */
-     , (28206,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28206,   1, 0x02000181) /* Setup */
+     , (28206,   3, 0x20000014) /* SoundTable */
+     , (28206,   8, 0x06003494) /* Icon */
+     , (28206,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28206, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (28206, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28206, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28206, 8000, 2164131901) /* PCAPRecordedObjectIID */;
+VALUES (28206, 8000, 0x80FE083D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (28206, 0, 83890064, 83890069);

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7454,   1,          1) /* ItemType - MeleeWeapon */
      , (7454,   5,        135) /* EncumbranceVal */
      , (7454,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (7454,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (7454,  16,          1) /* ItemUseable - No */
      , (7454,  18,          1) /* UiEffects - Magical */
      , (7454,  19,       5000) /* Value */
@@ -33,6 +32,7 @@ VALUES (7454,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7454,  22, True ) /* Inscribable */
+     , (7454,  23, True ) /* DestroyOnSell */
      , (7454,  69, False) /* IsSellable */
      , (7454,  99, True ) /* Ivoryable */;
 
@@ -49,31 +49,31 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7454,   1, 'Peerless Atlan Dagger of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7454,   1,   33557400) /* Setup */
-     , (7454,   3,  536870932) /* SoundTable */
-     , (7454,   6,   67111919) /* PaletteBase */
-     , (7454,   8,  100670523) /* Icon */
-     , (7454,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7454,   1, 0x02000B98) /* Setup */
+     , (7454,   3, 0x20000014) /* SoundTable */
+     , (7454,   6, 0x04000BEF) /* PaletteBase */
+     , (7454,   8, 0x06001C3B) /* Icon */
+     , (7454,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7454, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (7454, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7454, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (7454, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7454, 8040, 3332964380, 77.79651, 78.163, 41.929, 0.6687801, 0.6687801, -0.2296369, -0.2296369) /* PCAPRecordedLocation */
+VALUES (7454, 8040, 0xC6A9001C, 77.79651, 78.163, 41.929, 0.66878, 0.66878, -0.229637, -0.229637) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [77.796510 78.163000 41.929000] 0.668780 0.668780 -0.229637 -0.229637 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7454, 8000, 2349981432) /* PCAPRecordedObjectIID */
-     , (7454, 8008, 1342700291) /* PCAPRecordedParentIID */;
+VALUES (7454, 8000, 0x8C11DEF8) /* PCAPRecordedObjectIID */
+     , (7454, 8008, 0x5007FB03) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7454,   327,      2)  /* DaggerMasterySelf6 */
-     , (7454,  1592,      2)  /* HeartSeekerSelf6 */
-     , (7454,  1605,      2)  /* DefenderSelf6 */
+VALUES (7454,  1605,      2)  /* DefenderSelf6 */
+     , (7454,   327,      2)  /* FinesseWeaponsMasterySelf6 */
      , (7454,  1616,      2)  /* BloodDrinkerSelf6 */
      , (7454,  1627,      2)  /* SwiftKillerSelf6 */
-     , (7454,  1846,      2)  /* MagicYieldBlackFire */;
+     , (7454,  1846,      2)  /* MagicYieldBlackFire */
+     , (7454,  1592,      2)  /* HeartSeekerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7454, 67111927, 0, 0);

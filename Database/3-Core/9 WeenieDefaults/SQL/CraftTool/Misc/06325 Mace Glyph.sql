@@ -27,18 +27,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6325,   1, 'Mace Glyph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6325,   1,   33556223) /* Setup */
-     , (6325,   3,  536870932) /* SoundTable */
-     , (6325,   6,   67111928) /* PaletteBase */
-     , (6325,   8,  100670479) /* Icon */
-     , (6325,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6325,   1, 0x020006FF) /* Setup */
+     , (6325,   3, 0x20000014) /* SoundTable */
+     , (6325,   6, 0x04000BF8) /* PaletteBase */
+     , (6325,   8, 0x06001C0F) /* Icon */
+     , (6325,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6325, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (6325, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6325, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (6325, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6325, 8000,       6325) /* PCAPRecordedObjectIID */;
+VALUES (6325, 8000, 0x000018B5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6325, 67112642, 0, 0);

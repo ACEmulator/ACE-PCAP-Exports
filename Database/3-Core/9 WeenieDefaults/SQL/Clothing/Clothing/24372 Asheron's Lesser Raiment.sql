@@ -8,7 +8,6 @@ VALUES (24372,   1,          4) /* ItemType - Clothing */
      , (24372,   4,        126) /* ClothingPriority - UnderwearUpperLegs, UnderwearLowerLegs, UnderwearChest, UnderwearAbdomen, UnderwearUpperArms, UnderwearLowerArms */
      , (24372,   5,        800) /* EncumbranceVal */
      , (24372,   9,        222) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear, UpperLegWear, LowerLegWear */
-     , (24372,  10,        222) /* CurrentWieldedLocation - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear, UpperLegWear, LowerLegWear */
      , (24372,  16,          1) /* ItemUseable - No */
      , (24372,  19,       5000) /* Value */
      , (24372,  28,          0) /* ArmorLevel */
@@ -42,21 +41,21 @@ VALUES (24372,   1, 'Asheron''s Lesser Raiment') /* Name */
      , (24372,  16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24372,   1,   33554854) /* Setup */
-     , (24372,   3,  536870932) /* SoundTable */
-     , (24372,   6,   67108990) /* PaletteBase */
-     , (24372,   8,  100674396) /* Icon */
-     , (24372,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24372,   1, 0x020001A6) /* Setup */
+     , (24372,   3, 0x20000014) /* SoundTable */
+     , (24372,   6, 0x0400007E) /* PaletteBase */
+     , (24372,   8, 0x06002B5C) /* Icon */
+     , (24372,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24372, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (24372, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24372, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24372, 8000, 2166186163) /* PCAPRecordedObjectIID */;
+VALUES (24372, 8000, 0x811D60B3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24372,  1144,      2)  /* PiercingProtectionOther6 */
-     , (24372,  1432,      2)  /* FocusOther6 */;
+VALUES (24372,  1432,      2)  /* FocusOther6 */
+     , (24372,  1144,      2)  /* PiercingProtectionOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24372, 67114389, 40, 24)

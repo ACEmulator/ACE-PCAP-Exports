@@ -19,6 +19,7 @@ VALUES (46140,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46140,  22, True ) /* Inscribable */
+     , (46140,  23, True ) /* DestroyOnSell */
      , (46140,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -26,13 +27,13 @@ VALUES (46140,   1, 'Superb Infused Pyreal Ingot') /* Name */
      , (46140,  16, 'A pyreal ingot of exceedingly high quality infused with the essence of missile weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46140,   1,   33555677) /* Setup */
-     , (46140,   3,  536870932) /* SoundTable */
-     , (46140,   8,  100670501) /* Icon */
-     , (46140,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46140,   1, 0x020004DD) /* Setup */
+     , (46140,   3, 0x20000014) /* SoundTable */
+     , (46140,   8, 0x06001C25) /* Icon */
+     , (46140,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46140, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (46140, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46140, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46140, 8000, 3313755209) /* PCAPRecordedObjectIID */;
+VALUES (46140, 8000, 0xC583E449) /* PCAPRecordedObjectIID */;

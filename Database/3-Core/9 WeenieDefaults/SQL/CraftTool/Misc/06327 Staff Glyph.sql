@@ -26,13 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6327,   1, 'Staff Glyph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6327,   1,   33556438) /* Setup */
-     , (6327,   3,  536870932) /* SoundTable */
-     , (6327,   8,  100670481) /* Icon */
-     , (6327,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6327,   1, 0x020007D6) /* Setup */
+     , (6327,   3, 0x20000014) /* SoundTable */
+     , (6327,   8, 0x06001C11) /* Icon */
+     , (6327,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6327, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (6327, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6327, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6327, 8000, 2981038642) /* PCAPRecordedObjectIID */;
+VALUES (6327, 8000, 0xB1AF0A32) /* PCAPRecordedObjectIID */;

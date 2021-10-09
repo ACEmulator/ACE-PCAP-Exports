@@ -15,6 +15,7 @@ VALUES (15270,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15270,  22, True ) /* Inscribable */
+     , (15270,  23, True ) /* DestroyOnSell */
      , (15270,  69, False) /* IsSellable */
      , (15270,  81, True ) /* RequiresBackpackSlot */;
 
@@ -26,18 +27,18 @@ VALUES (15270,   1, 'Foci of Verdancy') /* Name */
      , (15270,  15, 'A foci used to cast spells from the School of the Heart. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15270,   1,   33554769) /* Setup */
-     , (15270,   3,  536870932) /* SoundTable */
-     , (15270,   6,   67111919) /* PaletteBase */
-     , (15270,   8,  100671683) /* Icon */
-     , (15270,  22,  872415275) /* PhysicsEffectTable */
-     , (15270,  50,  100671683) /* IconOverlay */
+VALUES (15270,   1, 0x02000151) /* Setup */
+     , (15270,   3, 0x20000014) /* SoundTable */
+     , (15270,   6, 0x04000BEF) /* PaletteBase */
+     , (15270,   8, 0x060020C3) /* Icon */
+     , (15270,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15270,  50, 0x060020C3) /* IconOverlay */
      , (15270, 8001, 1075855384) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, IconOverlay */
      , (15270, 8003,    8388626) /* PCAPRecordedObjectDesc - Inscribable, Attackable, RequiresPackSlot */
      , (15270, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15270, 8000, 3689585455) /* PCAPRecordedObjectIID */;
+VALUES (15270, 8000, 0xDBEA9B2F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15270, 67111922, 0, 0);

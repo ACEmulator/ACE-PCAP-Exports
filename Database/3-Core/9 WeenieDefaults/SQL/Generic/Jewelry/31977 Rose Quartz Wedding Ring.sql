@@ -23,7 +23,8 @@ VALUES (31977,   1,          8) /* ItemType - Jewelry */
      , (31977, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31977,  22, True ) /* Inscribable */;
+VALUES (31977,  22, True ) /* Inscribable */
+     , (31977,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31977,   5,   -0.05) /* ManaRate */
@@ -34,23 +35,23 @@ VALUES (31977,   1, 'Rose Quartz Wedding Ring') /* Name */
      , (31977,  16, 'A rose colored wedding ring with a subtle rose shaped design carved into it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31977,   1,   33554690) /* Setup */
-     , (31977,   3,  536870932) /* SoundTable */
-     , (31977,   6,   67111919) /* PaletteBase */
-     , (31977,   8,  100668568) /* Icon */
-     , (31977,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31977,   1, 0x02000102) /* Setup */
+     , (31977,   3, 0x20000014) /* SoundTable */
+     , (31977,   6, 0x04000BEF) /* PaletteBase */
+     , (31977,   8, 0x06001498) /* Icon */
+     , (31977,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31977, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (31977, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31977, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31977, 8000, 3708630976) /* PCAPRecordedObjectIID */;
+VALUES (31977, 8000, 0xDD0D37C0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31977,  2513,      2)  /* CANTRIPHEALINGPROWESS2 */
-     , (31977,  2611,      2)  /* CANTRIPFLAMEWARD2 */
-     , (31977,  3848,      2)  /* CombatMedication */
-     , (31977,  3849,      2)  /* NightRunner */;
+VALUES (31977,  3848,      2)  /* CombatMedication */
+     , (31977,  3849,      2)  /* NightRunner */
+     , (31977,  2513,      2)  /* CANTRIPHEALINGPROWESS2 */
+     , (31977,  2611,      2)  /* CANTRIPFLAMEWARD2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31977, 67111923, 0, 0);

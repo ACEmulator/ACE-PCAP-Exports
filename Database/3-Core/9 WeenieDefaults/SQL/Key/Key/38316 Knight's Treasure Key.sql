@@ -18,6 +18,7 @@ VALUES (38316,   1,      16384) /* ItemType - Key */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38316,  22, True ) /* Inscribable */
+     , (38316,  23, True ) /* DestroyOnSell */
      , (38316,  69, False) /* IsSellable */
      , (38316,  99, False) /* Ivoryable */;
 
@@ -27,12 +28,12 @@ VALUES (38316,   1, 'Knight''s Treasure Key') /* Name */
      , (38316,  16, 'A key, rewarded to you for achieving the Rank of Knight within your Society.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38316,   1,   33554784) /* Setup */
-     , (38316,   8,  100668441) /* Icon */
-     , (38316,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38316,   1, 0x02000160) /* Setup */
+     , (38316,   8, 0x06001419) /* Icon */
+     , (38316,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38316, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (38316, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38316, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38316, 8000, 2218678749) /* PCAPRecordedObjectIID */;
+VALUES (38316, 8000, 0x843E59DD) /* PCAPRecordedObjectIID */;

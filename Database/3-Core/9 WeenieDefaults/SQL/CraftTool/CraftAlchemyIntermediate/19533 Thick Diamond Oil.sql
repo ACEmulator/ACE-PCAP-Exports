@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19533,   1, 'Thick Diamond Oil') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19533,   1,   33555965) /* Setup */
-     , (19533,   3,  536870932) /* SoundTable */
-     , (19533,   6,   67111919) /* PaletteBase */
-     , (19533,   8,  100672867) /* Icon */
-     , (19533,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19533,   1, 0x020005FD) /* Setup */
+     , (19533,   3, 0x20000014) /* SoundTable */
+     , (19533,   6, 0x04000BEF) /* PaletteBase */
+     , (19533,   8, 0x06002563) /* Icon */
+     , (19533,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19533, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (19533, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19533, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19533, 8000, 2982968648) /* PCAPRecordedObjectIID */;
+VALUES (19533, 8000, 0xB1CC7D48) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19533, 67111925, 0, 0);

@@ -48,22 +48,22 @@ VALUES (33942,   1, 'Enhanced Serpent''s Fang') /* Name */
      , (33942,  16, 'A spear crafted in the semblance of a large snake.  The eyes seem to be crafted from some sort of gems, and acid drips from the fangs. This weapon has been enhanced by Belinda du Loc.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33942,   1,   33557337) /* Setup */
-     , (33942,   3,  536870932) /* SoundTable */
-     , (33942,   8,  100674087) /* Icon */
-     , (33942,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33942,   1, 0x02000B59) /* Setup */
+     , (33942,   3, 0x20000014) /* SoundTable */
+     , (33942,   8, 0x06002A27) /* Icon */
+     , (33942,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33942,  55,       2121) /* ProcSpell - AcidStreak7 */
      , (33942, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (33942, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33942, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33942, 8000, 2147923136) /* PCAPRecordedObjectIID */;
+VALUES (33942, 8000, 0x8006B4C0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33942,   249,      2)  /* InvulnerabilitySelf6 */
+VALUES (33942,  2005,      2)  /* WarriorsGreaterVitality */
      , (33942,  1625,      2)  /* SwiftKillerSelf4 */
-     , (33942,  2005,      2)  /* WarriorsGreaterVitality */
      , (33942,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33942,  2101,      2)  /* DefenderSelf7 */
+     , (33942,   249,      2)  /* InvulnerabilitySelf6 */
      , (33942,  2106,      2)  /* HeartSeekerSelf7 */;

@@ -22,17 +22,17 @@ VALUES (41509,   1, 'Minor Item Tinkering Armature') /* Name */
      , (41509,  15, 'A Minor Item Tinkering Armature.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41509,   1,   33554817) /* Setup */
-     , (41509,   3,  536870932) /* SoundTable */
-     , (41509,   6,   67111919) /* PaletteBase */
-     , (41509,   8,  100673216) /* Icon */
-     , (41509,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41509,   1, 0x02000181) /* Setup */
+     , (41509,   3, 0x20000014) /* SoundTable */
+     , (41509,   6, 0x04000BEF) /* PaletteBase */
+     , (41509,   8, 0x060026C0) /* Icon */
+     , (41509,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41509, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (41509, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41509, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41509, 8000, 2464944492) /* PCAPRecordedObjectIID */;
+VALUES (41509, 8000, 0x92EC116C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41509, 67111919, 0, 0);

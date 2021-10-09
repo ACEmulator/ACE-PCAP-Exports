@@ -24,13 +24,13 @@ VALUES (43335,   1, 'Scroll of Festering Curse VII') /* Name */
 The heal rating of the target is decreased by 35.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43335,   1,   33554826) /* Setup */
-     , (43335,   8,  100691571) /* Icon */
-     , (43335,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43335,   1, 0x0200018A) /* Setup */
+     , (43335,   8, 0x06006E73) /* Icon */
+     , (43335,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43335,  28,       5377) /* Spell - CurseFestering7 */
      , (43335, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43335, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43335, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43335, 8000, 2461819248) /* PCAPRecordedObjectIID */;
+VALUES (43335, 8000, 0x92BC6170) /* PCAPRecordedObjectIID */;

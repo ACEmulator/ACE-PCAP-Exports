@@ -18,16 +18,19 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2906,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2906,   1, 'Scroll of Summon Primary Portal III') /* Name */;
+VALUES (2906,   1, 'Scroll of Summon Primary Portal III') /* Name */
+     , (2906,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (2906,  16, 'Inscribed spell: Summon Primary Portal III
+Summons a portal that goes to the destination of the caster''s linked portal, set with Primary Portal Tie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2906,   1,   33554826) /* Setup */
-     , (2906,   8,  100676673) /* Icon */
-     , (2906,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2906,   1, 0x0200018A) /* Setup */
+     , (2906,   8, 0x06003441) /* Icon */
+     , (2906,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2906,  28,       1637) /* Spell - SummonPortal3 */
      , (2906, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2906, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2906, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2906, 8000, 2949169209) /* PCAPRecordedObjectIID */;
+VALUES (2906, 8000, 0xAFC8C039) /* PCAPRecordedObjectIID */;

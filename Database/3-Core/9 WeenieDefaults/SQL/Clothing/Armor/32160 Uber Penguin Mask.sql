@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32160,   1, 'Uber Penguin Mask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32160,   1,   33559768) /* Setup */
-     , (32160,   3,  536870932) /* SoundTable */
-     , (32160,   8,  100688480) /* Icon */
-     , (32160,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32160,   1, 0x020014D8) /* Setup */
+     , (32160,   3, 0x20000014) /* SoundTable */
+     , (32160,   8, 0x06006260) /* Icon */
+     , (32160,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32160, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (32160, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32160, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32160, 8000, 3655645818) /* PCAPRecordedObjectIID */;
+VALUES (32160, 8000, 0xD9E4BA7A) /* PCAPRecordedObjectIID */;

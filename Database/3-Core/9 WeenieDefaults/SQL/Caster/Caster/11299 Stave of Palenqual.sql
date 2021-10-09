@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11299,   1,      32768) /* ItemType - Caster */
      , (11299,   5,        200) /* EncumbranceVal */
      , (11299,   9,   16777216) /* ValidLocations - Held */
-     , (11299,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (11299,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (11299,  18,          1) /* UiEffects - Magical */
      , (11299,  19,          0) /* Value */
      , (11299,  33,          1) /* Bonded - Bonded */
+     , (11299,  46,        512) /* DefaultCombatStyle - Magic */
      , (11299,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11299,  94,         16) /* TargetType - Creature */
      , (11299, 106,        250) /* ItemSpellcraft */
@@ -39,11 +39,11 @@ VALUES (11299,   1, 'Stave of Palenqual') /* Name */
      , (11299,  25, 'Deathspawner') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11299,   1,   33557232) /* Setup */
-     , (11299,   3,  536870932) /* SoundTable */
-     , (11299,   6,   67111919) /* PaletteBase */
-     , (11299,   8,  100671868) /* Icon */
-     , (11299,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11299,   1, 0x02000AF0) /* Setup */
+     , (11299,   3, 0x20000014) /* SoundTable */
+     , (11299,   6, 0x04000BEF) /* PaletteBase */
+     , (11299,   8, 0x0600217C) /* Icon */
+     , (11299,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11299,  28,       1836) /* Spell - FrostStrike */
      , (11299, 8001,  275480720) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (11299, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -51,19 +51,19 @@ VALUES (11299,   1,   33557232) /* Setup */
      , (11299, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11299, 8040, 3316121654, 154.5285, 131.6311, 41.929, -0.236927, -0.236927, -0.6662324, -0.6662324) /* PCAPRecordedLocation */
+VALUES (11299, 8040, 0xC5A80036, 154.5285, 131.6311, 41.929, -0.236927, -0.236927, -0.666232, -0.666232) /* PCAPRecordedLocation */
 /* @teleloc 0xC5A80036 [154.528500 131.631100 41.929000] -0.236927 -0.236927 -0.666232 -0.666232 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11299, 8000, 2188209239) /* PCAPRecordedObjectIID */
-     , (11299, 8008, 1342878685) /* PCAPRecordedParentIID */;
+VALUES (11299, 8000, 0x826D6C57) /* PCAPRecordedObjectIID */
+     , (11299, 8008, 0x500AB3DD) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11299,   217,      2)  /* ManaRenewalSelf6 */
+VALUES (11299,  1480,      2)  /* HermeticLinkSelf6 */
      , (11299,   658,      2)  /* ManaMasterySelf6 */
-     , (11299,  1480,      2)  /* HermeticLinkSelf6 */
-     , (11299,  2428,      2)  /* TimaruShelterMagic */
-     , (11299,  2581,      2)  /* CANTRIPFOCUS1 */;
+     , (11299,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (11299,   217,      2)  /* ManaRenewalSelf6 */
+     , (11299,  2428,      2)  /* TimaruShelterMagic */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11299, 67111919, 0, 0);

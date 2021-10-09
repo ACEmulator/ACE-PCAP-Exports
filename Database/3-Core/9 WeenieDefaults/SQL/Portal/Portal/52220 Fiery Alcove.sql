@@ -23,16 +23,16 @@ VALUES (52220,   1, 'Fiery Alcove') /* Name */
      , (52220, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52220,   1,   33555924) /* Setup */
-     , (52220,   2,  150994947) /* MotionTable */
-     , (52220,   8,  100667499) /* Icon */
+VALUES (52220,   1, 0x020005D4) /* Setup */
+     , (52220,   2, 0x09000003) /* MotionTable */
+     , (52220,   8, 0x0600106B) /* Icon */
      , (52220, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (52220, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (52220, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52220, 8040, 4011589693, 186.132, 115.477, -0.06299996, 0.701348, 0, 0, -0.712819) /* PCAPRecordedLocation */
+VALUES (52220, 8040, 0xEF1C003D, 186.132, 115.477, -0.063, 0.701348, 0, 0, -0.712819) /* PCAPRecordedLocation */
 /* @teleloc 0xEF1C003D [186.132000 115.477000 -0.063000] 0.701348 0.000000 0.000000 -0.712819 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52220, 8000, 2129772544) /* PCAPRecordedObjectIID */;
+VALUES (52220, 8000, 0x7EF1C000) /* PCAPRecordedObjectIID */;

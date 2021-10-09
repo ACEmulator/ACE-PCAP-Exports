@@ -1,19 +1,19 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x7F90;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F90000,   990, 0x7F900111, 101.52, 155.88, 144.005, 0.5849578, 0, 0, -0.8110637, False, '2019-02-10 00:00:00'); /* Healer Hisuf ibn Shudir */
+VALUES (0x77F90000,   990, 0x7F900111, 101.52, 155.88, 144.005, 0.584958, 0, 0, -0.811064, False, '2019-02-10 00:00:00'); /* Healer Hisuf ibn Shudir */
 /* @teleloc 0x7F900111 [101.520000 155.880000 144.005000] 0.584958 0.000000 0.000000 -0.811064 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F90001,   992, 0x7F90011B, 107.48, 161.144, 144.005, 0.02879396, 0, 0, -0.9995854, False, '2019-02-10 00:00:00'); /* Jizal al-Nurla the Scribe */
+VALUES (0x77F90001,   992, 0x7F90011B, 107.48, 161.144, 144.005, 0.028794, 0, 0, -0.999585, False, '2019-02-10 00:00:00'); /* Jizal al-Nurla the Scribe */
 /* @teleloc 0x7F90011B [107.480000 161.144000 144.005000] 0.028794 0.000000 0.000000 -0.999585 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F90002,   984, 0x7F900113, 113.596, 155.162, 144.005, -0.5785699, 0, 0, -0.8156328, False, '2019-02-10 00:00:00'); /* Archmage Asaina al-Arqis */
+VALUES (0x77F90002,   984, 0x7F900113, 113.596, 155.162, 144.005, -0.57857, 0, 0, -0.815633, False, '2019-02-10 00:00:00'); /* Archmage Asaina al-Arqis */
 /* @teleloc 0x7F900113 [113.596000 155.162000 144.005000] -0.578570 0.000000 0.000000 -0.815633 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F90003,  2045, 0x7F900114, 112.945, 155.63, 147.205, -0.362605, 0, 0, -0.9319429, False, '2019-02-10 00:00:00'); /* Suma bint Nayn the Librarian */
+VALUES (0x77F90003,  2045, 0x7F900114, 112.945, 155.63, 147.205, -0.362605, 0, 0, -0.931943, False, '2019-02-10 00:00:00'); /* Suma bint Nayn the Librarian */
 /* @teleloc 0x7F900114 [112.945000 155.630000 147.205000] -0.362605 0.000000 0.000000 -0.931943 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

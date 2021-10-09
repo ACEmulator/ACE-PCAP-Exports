@@ -24,13 +24,13 @@ VALUES (2685,   1, 'Scroll of Frailty Other V') /* Name */
 Decreases the target''s Endurance by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2685,   1,   33554826) /* Setup */
-     , (2685,   8,  100676456) /* Icon */
-     , (2685,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2685,   1, 0x0200018A) /* Setup */
+     , (2685,   8, 0x06003368) /* Icon */
+     , (2685,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2685,  28,       1371) /* Spell - FrailtyOther5 */
      , (2685, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2685, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2685, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2685, 8000, 3701087387) /* PCAPRecordedObjectIID */;
+VALUES (2685, 8000, 0xDC9A1C9B) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (20419,   1, 'Scroll of Lugian''s Speed') /* Name */
 Worsens a weapon''s speed by 70 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20419,   1,   33554826) /* Setup */
-     , (20419,   8,  100676662) /* Icon */
-     , (20419,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20419,   1, 0x0200018A) /* Setup */
+     , (20419,   8, 0x06003436) /* Icon */
+     , (20419,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20419,  28,       2109) /* Spell - LeadenWeapon7 */
      , (20419, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20419, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20419, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20419, 8000, 3681782524) /* PCAPRecordedObjectIID */;
+VALUES (20419, 8000, 0xDB738AFC) /* PCAPRecordedObjectIID */;

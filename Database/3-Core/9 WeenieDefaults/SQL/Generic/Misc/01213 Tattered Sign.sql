@@ -19,15 +19,15 @@ VALUES (1213,   1, 'Tattered Sign') /* Name */
      , (1213,  16, 'You should Heed this Warning: Turn back now! You are trotting in the wrong direction! Riches of gold and splendor can be found on the other path.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1213,   1,   33555088) /* Setup */
-     , (1213,   8,  100668115) /* Icon */
+VALUES (1213,   1, 0x02000290) /* Setup */
+     , (1213,   8, 0x060012D3) /* Icon */
      , (1213, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (1213, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1213, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1213, 8040, 31523348, 123.922, -52.9564, -6, 0.729119, 0, 0, -0.684387) /* PCAPRecordedLocation */
+VALUES (1213, 8040, 0x01E10214, 123.922, -52.9564, -6, 0.729119, 0, 0, -0.684387) /* PCAPRecordedLocation */
 /* @teleloc 0x01E10214 [123.922000 -52.956400 -6.000000] 0.729119 0.000000 0.000000 -0.684387 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1213, 8000, 1881018466) /* PCAPRecordedObjectIID */;
+VALUES (1213, 8000, 0x701E1062) /* PCAPRecordedObjectIID */;

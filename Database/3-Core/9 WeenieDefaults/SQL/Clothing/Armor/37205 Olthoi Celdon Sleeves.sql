@@ -48,28 +48,28 @@ VALUES (37205,   1, 'Olthoi Celdon Sleeves') /* Name */
      , (37205,  16, 'Olthoi Celdon Sleeves of Regeneration') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37205,   1,   33554655) /* Setup */
-     , (37205,   3,  536870932) /* SoundTable */
-     , (37205,   6,   67108990) /* PaletteBase */
-     , (37205,   8,  100674685) /* Icon */
-     , (37205,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37205,   1, 0x020000DF) /* Setup */
+     , (37205,   3, 0x20000014) /* SoundTable */
+     , (37205,   6, 0x0400007E) /* PaletteBase */
+     , (37205,   8, 0x06002C7D) /* Icon */
+     , (37205,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37205,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (37205, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (37205, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37205, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37205, 8040, 23855473, 21.8771, -61.83859, 0, -0.1638941, 0, 0, -0.9864779) /* PCAPRecordedLocation */
+VALUES (37205, 8040, 0x016C0171, 21.8771, -61.83859, 0, -0.163894, 0, 0, -0.986478) /* PCAPRecordedLocation */
 /* @teleloc 0x016C0171 [21.877100 -61.838590 0.000000] -0.163894 0.000000 0.000000 -0.986478 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37205, 8000, 3483416270) /* PCAPRecordedObjectIID */;
+VALUES (37205, 8000, 0xCFA0B6CE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37205,  2108,      2)  /* Impenetrability7 */
-     , (37205,  2185,      2)  /* RegenerationSelf7 */
+VALUES (37205,  2185,      2)  /* RegenerationSelf7 */
      , (37205,  2510,      2)  /* CANTRIPDECEPTIONPROWESS2 */
-     , (37205,  4403,      2)  /* FrostBane8 */;
+     , (37205,  4403,      2)  /* FrostBane8 */
+     , (37205,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37205, 67116592, 96, 12)

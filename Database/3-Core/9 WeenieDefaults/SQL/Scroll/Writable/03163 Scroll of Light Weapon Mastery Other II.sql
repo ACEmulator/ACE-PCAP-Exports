@@ -24,13 +24,13 @@ VALUES (3163,   1, 'Scroll of Light Weapon Mastery Other II') /* Name */
 Increases the target''s Light Weapons skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3163,   1,   33554826) /* Setup */
-     , (3163,   8,  100692249) /* Icon */
-     , (3163,  22,  872415275) /* PhysicsEffectTable */
-     , (3163,  28,        293) /* Spell - AxeMasteryOther2 */
+VALUES (3163,   1, 0x0200018A) /* Setup */
+     , (3163,   8, 0x06007119) /* Icon */
+     , (3163,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3163,  28,        293) /* Spell - LightWeaponsMasteryOther2 */
      , (3163, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3163, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3163, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3163, 8000, 2623854250) /* PCAPRecordedObjectIID */;
+VALUES (3163, 8000, 0x9C64D6AA) /* PCAPRecordedObjectIID */;

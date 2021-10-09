@@ -48,23 +48,23 @@ VALUES (23542,   1, 'Staff of the Nomads') /* Name */
      , (23542,  16, 'A sturdy wooden staff, worn smooth. It is inscribed, "I found this branch scoured clean by the winds in the High Desert of my birth; a gift rendered unto me by Isishaa, god of the devouring sands. In eternal debt to his forbearance, I wield this weapon. When he calls, my bones shall fall into his dry embrace as this tree once did."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23542,   1,   33558224) /* Setup */
-     , (23542,   3,  536870932) /* SoundTable */
-     , (23542,   8,  100674090) /* Icon */
-     , (23542,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23542,   1, 0x02000ED0) /* Setup */
+     , (23542,   3, 0x20000014) /* SoundTable */
+     , (23542,   8, 0x06002A2A) /* Icon */
+     , (23542,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23542, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23542, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23542, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23542, 8000, 2981038678) /* PCAPRecordedObjectIID */;
+VALUES (23542, 8000, 0xB1AF0A56) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23542,   273,      2)  /* MagicResistanceOther6 */
-     , (23542,   321,      2)  /* DaggerMasteryOther6 */
+VALUES (23542,   321,      2)  /* FinesseWeaponsMasteryOther6 */
+     , (23542,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (23542,  1360,      2)  /* EnduranceOther6 */
+     , (23542,   273,      2)  /* MagicResistanceOther6 */
+     , (23542,  2009,      2)  /* WarriorsGreaterVigor */
      , (23542,   993,      2)  /* SprintOther6 */
      , (23542,  1317,      2)  /* ArmorOther6 */
-     , (23542,  1360,      2)  /* EnduranceOther6 */
-     , (23542,  1384,      2)  /* CoordinationOther6 */
-     , (23542,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (23542,  2009,      2)  /* WarriorsGreaterVigor */;
+     , (23542,  1384,      2)  /* CoordinationOther6 */;

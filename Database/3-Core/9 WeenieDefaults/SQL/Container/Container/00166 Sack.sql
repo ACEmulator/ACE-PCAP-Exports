@@ -22,17 +22,17 @@ VALUES (166,   1, 'Sack') /* Name */
      , (166,  14, 'Use this item to close it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (166,   1,   33554817) /* Setup */
-     , (166,   3,  536870932) /* SoundTable */
-     , (166,   6,   67111919) /* PaletteBase */
-     , (166,   8,  100670082) /* Icon */
-     , (166,  22,  872415275) /* PhysicsEffectTable */
+VALUES (166,   1, 0x02000181) /* Setup */
+     , (166,   3, 0x20000014) /* SoundTable */
+     , (166,   6, 0x04000BEF) /* PaletteBase */
+     , (166,   8, 0x06001A82) /* Icon */
+     , (166,  22, 0x3400002B) /* PhysicsEffectTable */
      , (166, 8001,    2113562) /* PCAPRecordedWeenieHeader - ItemsCapacity, Value, Usable, Container, Burden */
      , (166, 8003,         19) /* PCAPRecordedObjectDesc - Openable, Inscribable, Attackable */
      , (166, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (166, 8000, 3689585449) /* PCAPRecordedObjectIID */;
+VALUES (166, 8000, 0xDBEA9B29) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (166, 67111919, 0, 0);

@@ -19,17 +19,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23117,   1, 'Chipped Message Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23117,   1,   33555391) /* Setup */
-     , (23117,   3,  536870932) /* SoundTable */
-     , (23117,   8,  100671183) /* Icon */
-     , (23117,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23117,   1, 0x020003BF) /* Setup */
+     , (23117,   3, 0x20000014) /* SoundTable */
+     , (23117,   8, 0x06001ECF) /* Icon */
+     , (23117,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23117, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (23117, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (23117, 8005,     301185) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23117, 8040, 1615331765, 69.015, -32.5457, -5.981, 0.6866403, 0, 0, 0.7269973) /* PCAPRecordedLocation */
+VALUES (23117, 8040, 0x604801B5, 69.015, -32.5457, -5.981, 0.68664, 0, 0, 0.726997) /* PCAPRecordedLocation */
 /* @teleloc 0x604801B5 [69.015000 -32.545700 -5.981000] 0.686640 0.000000 0.000000 0.726997 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23117, 8000, 3688360480) /* PCAPRecordedObjectIID */;
+VALUES (23117, 8000, 0xDBD7EA20) /* PCAPRecordedObjectIID */;

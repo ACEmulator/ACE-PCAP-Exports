@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7575,   1,          1) /* ItemType - MeleeWeapon */
      , (7575,   5,        450) /* EncumbranceVal */
      , (7575,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (7575,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (7575,  16,          1) /* ItemUseable - No */
      , (7575,  19,       4000) /* Value */
      , (7575,  33,          1) /* Bonded - Bonded */
@@ -25,7 +24,8 @@ VALUES (7575,   1,          1) /* ItemType - MeleeWeapon */
      , (7575, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7575,  22, True ) /* Inscribable */;
+VALUES (7575,  22, True ) /* Inscribable */
+     , (7575,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7575,  21,       0) /* WeaponLength */
@@ -43,19 +43,19 @@ VALUES (7575,   1, 'Hollow Sword') /* Name */
      , (7575,  16, 'A sword crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7575,   1,   33556645) /* Setup */
-     , (7575,   3,  536870932) /* SoundTable */
-     , (7575,   8,  100668915) /* Icon */
-     , (7575,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7575,   1, 0x020008A5) /* Setup */
+     , (7575,   3, 0x20000014) /* SoundTable */
+     , (7575,   8, 0x060015F3) /* Icon */
+     , (7575,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7575, 8001,    2327064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (7575, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7575, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */
      , (7575, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7575, 8040, 1925775389, 94.17503, 97.59402, 79.64699, -0.212059, -0.212059, -0.6745598, -0.6745598) /* PCAPRecordedLocation */
+VALUES (7575, 8040, 0x72C9001D, 94.17503, 97.59402, 79.64699, -0.212059, -0.212059, -0.67456, -0.67456) /* PCAPRecordedLocation */
 /* @teleloc 0x72C9001D [94.175030 97.594020 79.646990] -0.212059 -0.212059 -0.674560 -0.674560 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7575, 8000, 3338054989) /* PCAPRecordedObjectIID */
-     , (7575, 8008, 1342617488) /* PCAPRecordedParentIID */;
+VALUES (7575, 8000, 0xC6F6AD4D) /* PCAPRecordedObjectIID */
+     , (7575, 8008, 0x5006B790) /* PCAPRecordedParentIID */;

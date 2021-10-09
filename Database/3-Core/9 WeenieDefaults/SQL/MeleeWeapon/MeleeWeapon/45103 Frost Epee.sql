@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45103,   1,          1) /* ItemType - MeleeWeapon */
      , (45103,   5,        316) /* EncumbranceVal */
      , (45103,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (45103,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (45103,  16,          1) /* ItemUseable - No */
      , (45103,  18,        129) /* UiEffects - Magical, Frost */
      , (45103,  19,       8106) /* Value */
@@ -52,13 +51,13 @@ VALUES (45103,   1, 'Frost Epee') /* Name */
      , (45103,  16, 'Frost Epee of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45103,   1,   33561440) /* Setup */
-     , (45103,   3,  536870932) /* SoundTable */
-     , (45103,   6,   67111919) /* PaletteBase */
-     , (45103,   8,  100692291) /* Icon */
-     , (45103,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45103,   1, 0x02001B60) /* Setup */
+     , (45103,   3, 0x20000014) /* SoundTable */
+     , (45103,   6, 0x04000BEF) /* PaletteBase */
+     , (45103,   8, 0x06007143) /* Icon */
+     , (45103,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45103,  37,         45) /* ItemSkillLimit - LightWeapons */
-     , (45103,  52,  100676435) /* IconUnderlay */
+     , (45103,  52, 0x06003353) /* IconUnderlay */
      , (45103, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (45103, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45103, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -66,17 +65,17 @@ VALUES (45103,   1,   33561440) /* Setup */
      , (45103, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45103, 8040, 3465871405, 151.0719, 112.6264, 17.34125, -0.6622602, -0.6622602, -0.2478133, -0.2478133) /* PCAPRecordedLocation */
+VALUES (45103, 8040, 0xCE95002D, 151.0719, 112.6264, 17.34125, -0.66226, -0.66226, -0.247813, -0.247813) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [151.071900 112.626400 17.341250] -0.662260 -0.662260 -0.247813 -0.247813 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45103, 8000, 3682577063) /* PCAPRecordedObjectIID */
-     , (45103, 8008, 1343310691) /* PCAPRecordedParentIID */;
+VALUES (45103, 8000, 0xDB7FAAA7) /* PCAPRecordedObjectIID */
+     , (45103, 8008, 0x50114B63) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45103,  1592,      2)  /* HeartSeekerSelf6 */
-     , (45103,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (45103,  5879,      2)  /* SneakAttackMasterySelf5 */;
+VALUES (45103,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (45103,  5879,      2)  /* SneakAttackMasterySelf5 */
+     , (45103,  1592,      2)  /* HeartSeekerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45103, 67111922, 0, 0);

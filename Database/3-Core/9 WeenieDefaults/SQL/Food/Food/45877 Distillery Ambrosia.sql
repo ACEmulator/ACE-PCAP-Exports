@@ -22,13 +22,13 @@ VALUES (45877,   1, 'Distillery Ambrosia') /* Name */
      , (45877,  20, 'Bottles of Distillery Ambrosia') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45877,   1,   33554602) /* Setup */
-     , (45877,   3,  536870932) /* SoundTable */
-     , (45877,   8,  100667410) /* Icon */
-     , (45877,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45877,   1, 0x020000AA) /* Setup */
+     , (45877,   3, 0x20000014) /* SoundTable */
+     , (45877,   8, 0x06001012) /* Icon */
+     , (45877,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45877, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
      , (45877, 8003,      32786) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Food */
      , (45877, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45877, 8000, 2273377621) /* PCAPRecordedObjectIID */;
+VALUES (45877, 8000, 0x8780FD55) /* PCAPRecordedObjectIID */;

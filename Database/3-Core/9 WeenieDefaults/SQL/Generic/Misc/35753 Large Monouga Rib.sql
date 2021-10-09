@@ -17,17 +17,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35753,   1, 'Large Monouga Rib') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35753,   1,   33554817) /* Setup */
-     , (35753,   3,  536870932) /* SoundTable */
-     , (35753,   6,   67111919) /* PaletteBase */
-     , (35753,   8,  100667436) /* Icon */
-     , (35753,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35753,   1, 0x02000181) /* Setup */
+     , (35753,   3, 0x20000014) /* SoundTable */
+     , (35753,   6, 0x04000BEF) /* PaletteBase */
+     , (35753,   8, 0x0600102C) /* Icon */
+     , (35753,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35753, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (35753, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35753, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35753, 8000, 2963060118) /* PCAPRecordedObjectIID */;
+VALUES (35753, 8000, 0xB09CB596) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35753, 67111922, 0, 0);

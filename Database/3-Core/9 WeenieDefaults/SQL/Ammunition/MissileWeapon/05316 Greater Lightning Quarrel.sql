@@ -43,21 +43,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5316,   1, 'Greater Lightning Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5316,   1,   33555695) /* Setup */
-     , (5316,   3,  536870932) /* SoundTable */
-     , (5316,   6,   67111919) /* PaletteBase */
-     , (5316,   8,  100670250) /* Icon */
-     , (5316,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5316,   1, 0x020004EF) /* Setup */
+     , (5316,   3, 0x20000014) /* SoundTable */
+     , (5316,   6, 0x04000BEF) /* PaletteBase */
+     , (5316,   8, 0x06001B2A) /* Icon */
+     , (5316,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5316, 8001,  270611352) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, ValidLocations, Burden, HookType */
      , (5316, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5316, 8005,     170881) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5316, 8040, 3332964379, 83.91006, 66.67138, 42.11, 0.4344043, 0, 0, -0.900718) /* PCAPRecordedLocation */
+VALUES (5316, 8040, 0xC6A9001B, 83.91006, 66.67138, 42.11, 0.434404, 0, 0, -0.900718) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [83.910060 66.671380 42.110000] 0.434404 0.000000 0.000000 -0.900718 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5316, 8000, 2243216256) /* PCAPRecordedObjectIID */;
+VALUES (5316, 8000, 0x85B4C380) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5316, 67111923, 0, 0);

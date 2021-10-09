@@ -30,21 +30,21 @@ VALUES (33161,   1, 'Fleshy Trove') /* Name */
      , (33161, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33161,   1,   33559939) /* Setup */
-     , (33161,   2,  150994980) /* MotionTable */
-     , (33161,   3,  536870991) /* SoundTable */
-     , (33161,   8,  100670890) /* Icon */
-     , (33161,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33161,   1, 0x02001583) /* Setup */
+     , (33161,   2, 0x09000024) /* MotionTable */
+     , (33161,   3, 0x2000004F) /* SoundTable */
+     , (33161,   8, 0x06001DAA) /* Icon */
+     , (33161,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33161, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (33161, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33161, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33161, 8040, 185335847, 119.339, 156.044, 278.65, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33161, 8040, 0x0B0C0027, 119.339, 156.044, 278.65, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0B0C0027 [119.339000 156.044000 278.650000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33161, 8000, 1890631685) /* PCAPRecordedObjectIID */;
+VALUES (33161, 8000, 0x70B0C005) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33161, -1, 28610, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Loafers (28610) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

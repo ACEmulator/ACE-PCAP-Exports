@@ -24,13 +24,13 @@ VALUES (20408,   1, 'Scroll of Tusker''s Bane') /* Name */
 Increases a shield or piece of armor''s resistance to bludgeoning damage by 170%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20408,   1,   33554826) /* Setup */
-     , (20408,   8,  100676650) /* Icon */
-     , (20408,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20408,   1, 0x0200018A) /* Setup */
+     , (20408,   8, 0x0600342A) /* Icon */
+     , (20408,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20408,  28,       2098) /* Spell - BludgeonBane7 */
      , (20408, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20408, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20408, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20408, 8000, 3675625438) /* PCAPRecordedObjectIID */;
+VALUES (20408, 8000, 0xDB1597DE) /* PCAPRecordedObjectIID */;

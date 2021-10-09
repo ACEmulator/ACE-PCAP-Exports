@@ -31,21 +31,21 @@ VALUES (43405,   1, 'Shade of Lady Adja') /* Name */
      , (43405, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43405,   1,   33561134) /* Setup */
-     , (43405,   2,  150995463) /* MotionTable */
-     , (43405,   3,  536870914) /* SoundTable */
-     , (43405,   6,   67108990) /* PaletteBase */
-     , (43405,   8,  100689361) /* Icon */
+VALUES (43405,   1, 0x02001A2E) /* Setup */
+     , (43405,   2, 0x09000207) /* MotionTable */
+     , (43405,   3, 0x20000002) /* SoundTable */
+     , (43405,   6, 0x0400007E) /* PaletteBase */
+     , (43405,   8, 0x060065D1) /* Icon */
      , (43405, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (43405, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (43405, 8005,     362627) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43405, 8040, 4095213842, 34.917, 18.1413, 169.8065, 0.9999954, 0, 0, 0.003055031) /* PCAPRecordedLocation */
+VALUES (43405, 8040, 0xF4180112, 34.917, 18.1413, 169.8065, 0.999995, 0, 0, 0.003055) /* PCAPRecordedLocation */
 /* @teleloc 0xF4180112 [34.917000 18.141300 169.806500] 0.999995 0.000000 0.000000 0.003055 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43405, 8000, 3692523538) /* PCAPRecordedObjectIID */;
+VALUES (43405, 8000, 0xDC177012) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43405,   1, 400, 0, 0) /* Strength */

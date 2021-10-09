@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30625,   1,        256) /* ItemType - MissileWeapon */
      , (30625,   5,        980) /* EncumbranceVal */
      , (30625,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (30625,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (30625,  16,          1) /* ItemUseable - No */
      , (30625,  19,        350) /* Value */
      , (30625,  44,          0) /* Damage */
@@ -15,7 +14,7 @@ VALUES (30625,   1,        256) /* ItemType - MissileWeapon */
      , (30625,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30625,  49,         43) /* WeaponTime */
      , (30625,  50,          1) /* AmmoType - Arrow */
-     , (30625,  51,          2) /* CombatUse - Missle */
+     , (30625,  51,          2) /* CombatUse - Missile */
      , (30625,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30625, 105,          7) /* ItemWorkmanship */
      , (30625, 106,        274) /* ItemSpellcraft */
@@ -50,11 +49,11 @@ VALUES (30625,   1, 'War Bow') /* Name */
      , (30625,  16, 'War Bow of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30625,   1,   33559302) /* Setup */
-     , (30625,   3,  536870932) /* SoundTable */
-     , (30625,   6,   67115555) /* PaletteBase */
-     , (30625,   8,  100687046) /* Icon */
-     , (30625,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30625,   1, 0x02001306) /* Setup */
+     , (30625,   3, 0x20000014) /* SoundTable */
+     , (30625,   6, 0x04001A23) /* PaletteBase */
+     , (30625,   8, 0x06005CC6) /* Icon */
+     , (30625,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30625,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (30625, 8001,  270762776) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (30625, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -62,12 +61,12 @@ VALUES (30625,   1,   33559302) /* Setup */
      , (30625, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30625, 8040, 869859332, 19.83689, 76.30633, 51.93, -0.00141017, 0, 0, -0.999999) /* PCAPRecordedLocation */
+VALUES (30625, 8040, 0x33D90004, 19.83689, 76.30633, 51.93, -0.00141, 0, 0, -0.999999) /* PCAPRecordedLocation */
 /* @teleloc 0x33D90004 [19.836890 76.306330 51.930000] -0.001410 0.000000 0.000000 -0.999999 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30625, 8000, 2155456764) /* PCAPRecordedObjectIID */
-     , (30625, 8008, 1933414408) /* PCAPRecordedParentIID */;
+VALUES (30625, 8000, 0x8079A8FC) /* PCAPRecordedObjectIID */
+     , (30625, 8008, 0x733D9008) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30625,  1605,      2)  /* DefenderSelf6 */

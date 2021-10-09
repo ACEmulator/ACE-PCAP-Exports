@@ -18,19 +18,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32113,   1, 'Siraluun Slasher Plaque') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32113,   1,   33559570) /* Setup */
-     , (32113,   3,  536870932) /* SoundTable */
-     , (32113,   6,   67111919) /* PaletteBase */
-     , (32113,   8,  100671751) /* Icon */
-     , (32113,  22,  872415275) /* PhysicsEffectTable */
-     , (32113,  52,  100687684) /* IconUnderlay */
+VALUES (32113,   1, 0x02001412) /* Setup */
+     , (32113,   3, 0x20000014) /* SoundTable */
+     , (32113,   6, 0x04000BEF) /* PaletteBase */
+     , (32113,   8, 0x06002107) /* Icon */
+     , (32113,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32113,  52, 0x06005F44) /* IconUnderlay */
      , (32113, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (32113, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (32113, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (32113, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32113, 8000, 2981039354) /* PCAPRecordedObjectIID */;
+VALUES (32113, 8000, 0xB1AF0CFA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32113, 67111923, 0, 0);

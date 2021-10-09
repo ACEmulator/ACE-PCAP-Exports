@@ -8,7 +8,6 @@ VALUES (27652,   1,          2) /* ItemType - Armor */
      , (27652,   4,      16384) /* ClothingPriority - Head */
      , (27652,   5,        950) /* EncumbranceVal */
      , (27652,   9,          1) /* ValidLocations - HeadWear */
-     , (27652,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (27652,  16,          1) /* ItemUseable - No */
      , (27652,  18,          1) /* UiEffects - Magical */
      , (27652,  19,       4500) /* Value */
@@ -43,22 +42,22 @@ VALUES (27652,   1, 'Horned Lugian Helm') /* Name */
      , (27652,  15, 'A horned helm taken from the Renegade Lugian, General Fostok.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27652,   1,   33558742) /* Setup */
-     , (27652,   3,  536870932) /* SoundTable */
-     , (27652,   6,   67108990) /* PaletteBase */
-     , (27652,   8,  100676488) /* Icon */
-     , (27652,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27652,   1, 0x020010D6) /* Setup */
+     , (27652,   3, 0x20000014) /* SoundTable */
+     , (27652,   6, 0x0400007E) /* PaletteBase */
+     , (27652,   8, 0x06003388) /* Icon */
+     , (27652,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27652, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (27652, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27652, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27652, 8000, 2982964672) /* PCAPRecordedObjectIID */;
+VALUES (27652, 8000, 0xB1CC6DC0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27652,  2086,      2)  /* StrengthOther7 */
-     , (27652,  2280,      2)  /* MagicResistanceOther7 */
      , (27652,  2663,      2)  /* ModerateStrength */
+     , (27652,  2280,      2)  /* MagicResistanceOther7 */
      , (27652,  2811,      2)  /* ModerateMagicResistance */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

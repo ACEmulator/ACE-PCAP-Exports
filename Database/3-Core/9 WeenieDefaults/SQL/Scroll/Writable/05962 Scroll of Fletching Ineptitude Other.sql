@@ -24,13 +24,13 @@ VALUES (5962,   1, 'Scroll of Fletching Ineptitude Other') /* Name */
 Decreases the target''s Fletching skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5962,   1,   33554826) /* Setup */
-     , (5962,   8,  100676457) /* Icon */
-     , (5962,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5962,   1, 0x0200018A) /* Setup */
+     , (5962,   8, 0x06003369) /* Icon */
+     , (5962,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5962,  28,       1745) /* Spell - FletchingIneptitudeOther1 */
      , (5962, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5962, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5962, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5962, 8000, 2624775909) /* PCAPRecordedObjectIID */;
+VALUES (5962, 8000, 0x9C72E6E5) /* PCAPRecordedObjectIID */;

@@ -25,21 +25,21 @@ VALUES (7984,   1, 'Parfal Niffis') /* Name */
      , (7984, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7984,   1,   33556774) /* Setup */
-     , (7984,   2,  150995099) /* MotionTable */
-     , (7984,   3,  536871010) /* SoundTable */
-     , (7984,   8,  100670961) /* Icon */
-     , (7984,  22,  872415365) /* PhysicsEffectTable */
+VALUES (7984,   1, 0x02000926) /* Setup */
+     , (7984,   2, 0x0900009B) /* MotionTable */
+     , (7984,   3, 0x20000062) /* SoundTable */
+     , (7984,   8, 0x06001DF1) /* Icon */
+     , (7984,  22, 0x34000085) /* PhysicsEffectTable */
      , (7984, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7984, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7984, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7984, 8040, 3348037676, 129.9824, 90.87537, 4, 0.9063078, 0, 0, -0.4226183) /* PCAPRecordedLocation */
+VALUES (7984, 8040, 0xC78F002C, 129.9824, 90.87537, 4, 0.906308, 0, 0, -0.422618) /* PCAPRecordedLocation */
 /* @teleloc 0xC78F002C [129.982400 90.875370 4.000000] 0.906308 0.000000 0.000000 -0.422618 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7984, 8000, 3694288302) /* PCAPRecordedObjectIID */;
+VALUES (7984, 8000, 0xDC325DAE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7984,   1,  50, 0, 0) /* Strength */

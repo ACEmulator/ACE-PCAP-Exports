@@ -42,21 +42,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33586,   1, 'Noble Relic Helm of Will') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33586,   1,   33559080) /* Setup */
-     , (33586,   3,  536870932) /* SoundTable */
-     , (33586,   8,  100677228) /* Icon */
-     , (33586,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33586,   1, 0x02001228) /* Setup */
+     , (33586,   3, 0x20000014) /* SoundTable */
+     , (33586,   8, 0x0600366C) /* Icon */
+     , (33586,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33586, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (33586, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33586, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33586, 8000, 2974414673) /* PCAPRecordedObjectIID */;
+VALUES (33586, 8000, 0xB149F751) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33586,  2108,      2)  /* Impenetrability7 */
-     , (33586,  2206,      2)  /* BowMasteryOther7 */
-     , (33586,  3574,      2)  /* InnerWill */;
+VALUES (33586,  2206,      2)  /* MissileWeaponsMasteryOther7 */
+     , (33586,  3574,      2)  /* InnerWill */
+     , (33586,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (33586, 0, 16793166);

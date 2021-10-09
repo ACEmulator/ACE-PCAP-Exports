@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43320,   1, 'Scroll of Destructive Curse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43320,   1,   33554826) /* Setup */
-     , (43320,   8,  100691570) /* Icon */
-     , (43320,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43320,   1, 0x0200018A) /* Setup */
+     , (43320,   8, 0x06006E72) /* Icon */
+     , (43320,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43320,  28,       5339) /* Spell - CurseDestructionOther1 */
      , (43320, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43320, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43320, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43320, 8000, 2928766195) /* PCAPRecordedObjectIID */;
+VALUES (43320, 8000, 0xAE916CF3) /* PCAPRecordedObjectIID */;

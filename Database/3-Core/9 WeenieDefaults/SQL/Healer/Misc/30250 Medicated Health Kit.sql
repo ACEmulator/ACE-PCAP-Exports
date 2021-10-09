@@ -28,16 +28,16 @@ VALUES (30250,   1, 'Medicated Health Kit') /* Name */
      , (30250,  16, 'This Medicated Health Kit does not last long, but it is very powerful!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30250,   1,   33555194) /* Setup */
-     , (30250,   8,  100686702) /* Icon */
-     , (30250,  52,  100686604) /* IconUnderlay */
+VALUES (30250,   1, 0x020002FA) /* Setup */
+     , (30250,   8, 0x06005B6E) /* Icon */
+     , (30250,  52, 0x06005B0C) /* IconUnderlay */
      , (30250, 8001,  271076368) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden, HookType */
      , (30250, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30250, 8003,   67174418) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer, IncludesSecondHeader */
      , (30250, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30250, 8000, 2149243760) /* PCAPRecordedObjectIID */;
+VALUES (30250, 8000, 0x801ADB70) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (30250, 0, 83889681, 83894377)

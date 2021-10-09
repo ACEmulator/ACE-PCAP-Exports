@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7338,   1, 'Diamond Heart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7338,   1,   33554817) /* Setup */
-     , (7338,   3,  536870932) /* SoundTable */
-     , (7338,   6,   67111919) /* PaletteBase */
-     , (7338,   8,  100670732) /* Icon */
-     , (7338,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7338,   1, 0x02000181) /* Setup */
+     , (7338,   3, 0x20000014) /* SoundTable */
+     , (7338,   6, 0x04000BEF) /* PaletteBase */
+     , (7338,   8, 0x06001D0C) /* Icon */
+     , (7338,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7338, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (7338, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7338, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7338, 8000, 3681956924) /* PCAPRecordedObjectIID */;
+VALUES (7338, 8000, 0xDB76343C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7338, 67111926, 0, 0);

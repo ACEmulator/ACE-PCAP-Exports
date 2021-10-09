@@ -26,13 +26,13 @@ VALUES (11822,   1, 'Falcon Symbol') /* Name */
      , (11822,  16, 'A Falcon Symbol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11822,   1,   33557248) /* Setup */
-     , (11822,   3,  536870932) /* SoundTable */
-     , (11822,   8,  100671964) /* Icon */
-     , (11822,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11822,   1, 0x02000B00) /* Setup */
+     , (11822,   3, 0x20000014) /* SoundTable */
+     , (11822,   8, 0x060021DC) /* Icon */
+     , (11822,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11822, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11822, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11822, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11822, 8000, 2166106296) /* PCAPRecordedObjectIID */;
+VALUES (11822, 8000, 0x811C28B8) /* PCAPRecordedObjectIID */;

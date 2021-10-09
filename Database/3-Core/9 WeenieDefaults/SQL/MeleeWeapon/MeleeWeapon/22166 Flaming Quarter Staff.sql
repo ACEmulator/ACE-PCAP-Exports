@@ -54,27 +54,22 @@ VALUES (22166,   1, 'Flaming Quarter Staff') /* Name */
      , (22166,  16, 'Flaming Quarter Staff of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22166,   1,   33558066) /* Setup */
-     , (22166,   3,  536870932) /* SoundTable */
-     , (22166,   6,   67111919) /* PaletteBase */
-     , (22166,   8,  100673625) /* Icon */
-     , (22166,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22166,   1, 0x02000E32) /* Setup */
+     , (22166,   3, 0x20000014) /* SoundTable */
+     , (22166,   6, 0x04000BEF) /* PaletteBase */
+     , (22166,   8, 0x06002859) /* Icon */
+     , (22166,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22166,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (22166, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (22166, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22166, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22166, 8000, 3701170527) /* PCAPRecordedObjectIID */;
+VALUES (22166, 8000, 0xDC9B615F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22166,  1615,      2)  /* BloodDrinkerSelf5 */
      , (22166,  2583,      2)  /* CANTRIPSTRENGTH1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22166, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (22166, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (22166, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22166, 67111919, 0, 0);

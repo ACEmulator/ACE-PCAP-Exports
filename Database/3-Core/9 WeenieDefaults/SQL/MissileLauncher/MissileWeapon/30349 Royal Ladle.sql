@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30349,   1,        256) /* ItemType - MissileWeapon */
      , (30349,   5,        500) /* EncumbranceVal */
      , (30349,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (30349,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (30349,  16,          1) /* ItemUseable - No */
      , (30349,  17,        252) /* RareId */
      , (30349,  19,      50000) /* Value */
@@ -16,7 +15,7 @@ VALUES (30349,   1,        256) /* ItemType - MissileWeapon */
      , (30349,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30349,  49,          0) /* WeaponTime */
      , (30349,  50,          4) /* AmmoType - Atlatl */
-     , (30349,  51,          2) /* CombatUse - Missle */
+     , (30349,  51,          2) /* CombatUse - Missile */
      , (30349,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30349, 106,        350) /* ItemSpellcraft */
      , (30349, 107,       1287) /* ItemCurMana */
@@ -53,12 +52,12 @@ VALUES (30349,   1, 'Royal Ladle') /* Name */
      , (30349,  16, 'Oddly enough, this was used as a kitchen ladle before it was pressed into service as an atlatl.  Apparently due to the ladle''s resemblance to a serpent it was deemed inappropriate for use in the kitchen. After all, serpents are synonymous with poison.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30349,   1,   33559412) /* Setup */
-     , (30349,   3,  536870932) /* SoundTable */
-     , (30349,   6,   67111919) /* PaletteBase */
-     , (30349,   8,  100686808) /* Icon */
-     , (30349,  22,  872415275) /* PhysicsEffectTable */
-     , (30349,  52,  100686604) /* IconUnderlay */
+VALUES (30349,   1, 0x02001374) /* Setup */
+     , (30349,   3, 0x20000014) /* SoundTable */
+     , (30349,   6, 0x04000BEF) /* PaletteBase */
+     , (30349,   8, 0x06005BD8) /* Icon */
+     , (30349,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30349,  52, 0x06005B0C) /* IconUnderlay */
      , (30349, 8001,  270762776) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (30349, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30349, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -66,21 +65,21 @@ VALUES (30349,   1,   33559412) /* Setup */
      , (30349, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30349, 8040, 2749825341, 106.5877, 36.59145, 61.93, 0.2834048, 0.2834048, -0.6478285, -0.6478285) /* PCAPRecordedLocation */
+VALUES (30349, 8040, 0xA3E7013D, 106.5877, 36.59145, 61.93, 0.283405, 0.283405, -0.647829, -0.647829) /* PCAPRecordedLocation */
 /* @teleloc 0xA3E7013D [106.587700 36.591450 61.930000] 0.283405 0.283405 -0.647829 -0.647829 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30349, 8000, 2803230513) /* PCAPRecordedObjectIID */
-     , (30349, 8008, 1343890287) /* PCAPRecordedParentIID */;
+VALUES (30349, 8000, 0xA715E731) /* PCAPRecordedObjectIID */
+     , (30349, 8008, 0x501A236F) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30349,  4400,      2)  /* DefenderSelf8 */
-     , (30349,  4417,      2)  /* SwiftKillerSelf8 */
+VALUES (30349,  4417,      2)  /* SwiftKillerSelf8 */
+     , (30349,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */
+     , (30349,  4688,      2)  /* CANTRIPCOOKINGPROWESS3 */
      , (30349,  4460,      2)  /* AcidProtectionSelf8 */
      , (30349,  4526,      2)  /* CookingMasterySelf8 */
-     , (30349,  4596,      2)  /* MagicResistanceSelf8 */
-     , (30349,  4687,      2)  /* CANTRIPBOWAPTITUDE3 */
-     , (30349,  4688,      2)  /* CANTRIPCOOKINGPROWESS3 */;
+     , (30349,  4400,      2)  /* DefenderSelf8 */
+     , (30349,  4596,      2)  /* MagicResistanceSelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30349, 67111920, 0, 0);

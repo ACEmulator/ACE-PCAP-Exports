@@ -24,13 +24,13 @@ VALUES (3246,   1, 'Scroll of Deception Mastery Self V') /* Name */
 Increases the caster''s Deception skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3246,   1,   33554826) /* Setup */
-     , (3246,   8,  100676448) /* Icon */
-     , (3246,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3246,   1, 0x0200018A) /* Setup */
+     , (3246,   8, 0x06003360) /* Icon */
+     , (3246,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3246,  28,        854) /* Spell - DeceptionMasterySelf5 */
      , (3246, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3246, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3246, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3246, 8000, 3681393193) /* PCAPRecordedObjectIID */;
+VALUES (3246, 8000, 0xDB6D9A29) /* PCAPRecordedObjectIID */;

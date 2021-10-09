@@ -8,7 +8,6 @@ VALUES (25523,   1,          2) /* ItemType - Armor */
      , (25523,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (25523,   5,        850) /* EncumbranceVal */
      , (25523,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
-     , (25523,  10,       6656) /* CurrentWieldedLocation - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (25523,  16,          1) /* ItemUseable - No */
      , (25523,  19,       4500) /* Value */
      , (25523,  28,        250) /* ArmorLevel */
@@ -34,17 +33,17 @@ VALUES (25523,   1, 'Rendeath Coat') /* Name */
      , (25523,  16, 'This coat has been reinforced with bone structures and metal strapping. The main body of the coat came from the hide of a Rendeath Shreth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25523,   1,   33554854) /* Setup */
-     , (25523,   3,  536870932) /* SoundTable */
-     , (25523,   6,   67108990) /* PaletteBase */
-     , (25523,   8,  100675042) /* Icon */
-     , (25523,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25523,   1, 0x020001A6) /* Setup */
+     , (25523,   3, 0x20000014) /* SoundTable */
+     , (25523,   6, 0x0400007E) /* PaletteBase */
+     , (25523,   8, 0x06002DE2) /* Icon */
+     , (25523,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25523, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (25523, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25523, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25523, 8000, 2929184050) /* PCAPRecordedObjectIID */;
+VALUES (25523, 8000, 0xAE97CD32) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25523, 67114591, 96, 40)

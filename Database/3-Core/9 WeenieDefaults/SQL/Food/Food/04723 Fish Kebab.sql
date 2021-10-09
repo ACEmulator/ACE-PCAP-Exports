@@ -20,14 +20,14 @@ VALUES (4723,   1, 'Fish Kebab') /* Name */
      , (4723,  20, 'Fish Kebabs') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4723,   1,   33556220) /* Setup */
-     , (4723,   3,  536870932) /* SoundTable */
-     , (4723,   8,  100669956) /* Icon */
-     , (4723,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4723,   1, 0x020006FC) /* Setup */
+     , (4723,   3, 0x20000014) /* SoundTable */
+     , (4723,   8, 0x06001A04) /* Icon */
+     , (4723,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4723, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (4723, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (4723, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
      , (4723, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4723, 8000,       4723) /* PCAPRecordedObjectIID */;
+VALUES (4723, 8000, 0x00001273) /* PCAPRecordedObjectIID */;

@@ -21,25 +21,25 @@ VALUES (10759,   1, 'Muddy Towel') /* Name */
      , (10759,  16, 'An old and well-used towel, spattered heavily with thick mud.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10759,   1,   33554647) /* Setup */
-     , (10759,   3,  536870932) /* SoundTable */
-     , (10759,   6,   67108990) /* PaletteBase */
-     , (10759,   8,  100671664) /* Icon */
-     , (10759,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10759,   1, 0x020000D7) /* Setup */
+     , (10759,   3, 0x20000014) /* SoundTable */
+     , (10759,   6, 0x0400007E) /* PaletteBase */
+     , (10759,   8, 0x060020B0) /* Icon */
+     , (10759,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10759, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (10759, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (10759, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10759, 8000, 3104736509) /* PCAPRecordedObjectIID */;
+VALUES (10759, 8000, 0xB90E84FD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (10759, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (10759, 0, 4294967295, 'A.D.', 'Password is cheese', False, 'Greetings, traveler! If you''ve found this towel, no doubt something unfortunate has happened to me, because we all know that only the most dire circumstances could part a traveler from his trusty towel. It wouldn''t be the first time, certainly, that something unacceptably rude has happened to me since I started traveling with F.P. 
+VALUES (10759, 0, 4294967295, 'A.D.', 'prewritten', False, 'Greetings, traveler! If you''ve found this towel, no doubt something unfortunate has happened to me, because we all know that only the most dire circumstances could part a traveler from his trusty towel. It wouldn''t be the first time, certainly, that something unacceptably rude has happened to me since I started traveling with F.P. 
 ')
-     , (10759, 1, 4294967295, 'A.D.', 'Password is cheese', False, 'In any case, please return this towel to an Explorer''s Society agent. They can be located in Shoushi, Yanshi, Nanto, Yaraq, al-Arqas, Samsur, Lytelthorpe, Rithwic, and Holtburg. I''m sure those fine chaps will come up with a nice and useful keepsake for you.
+     , (10759, 1, 4294967295, 'A.D.', 'prewritten', False, 'In any case, please return this towel to an Explorer''s Society agent. They can be located in Shoushi, Yanshi, Nanto, Yaraq, al-Arqas, Samsur, Lytelthorpe, Rithwic, and Holtburg. I''m sure those fine chaps will come up with a nice and useful keepsake for you.
         In gratitude,
         A.D.
 ');

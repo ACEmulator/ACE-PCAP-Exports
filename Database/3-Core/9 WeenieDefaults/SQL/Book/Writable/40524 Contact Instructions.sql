@@ -13,13 +13,13 @@ VALUES (40524,   1,       8192) /* ItemType - Writable */
      , (40524,  98, 1485747299) /* CreationTimestamp */
      , (40524, 114,          1) /* Attuned - Attuned */
      , (40524, 267,        600) /* Lifespan */
-     , (40524, 268,        420) /* RemainingLifespan */
      , (40524, 8041,        101) /* PCAPRecordedPlacement - Resting */
      , (40524, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (40524, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40524,  69, True ) /* IsSellable */;
+VALUES (40524,  23, True ) /* DestroyOnSell */
+     , (40524,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40524,  54,       1) /* UseRadius */;
@@ -29,22 +29,22 @@ VALUES (40524,   1, 'Contact Instructions') /* Name */
      , (40524,  15, 'This message will soon self destruct! Commit it to memory. You have less than a week to make contact before this will become invalid. You''ll want to bring MMD trade notes if you''re interested in purchasing any services. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40524,   1,   33554773) /* Setup */
-     , (40524,   3,  536870932) /* SoundTable */
-     , (40524,   8,  100688999) /* Icon */
-     , (40524,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40524,   1, 0x02000155) /* Setup */
+     , (40524,   3, 0x20000014) /* SoundTable */
+     , (40524,   8, 0x06006467) /* Icon */
+     , (40524,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40524, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (40524, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (40524, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40524, 8000, 3708730713) /* PCAPRecordedObjectIID */;
+VALUES (40524, 8000, 0xDD0EBD59) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (40524, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (40524, 0, 4294967295, 'Unknown', 'Password is cheese', False, '
+VALUES (40524, 0, 4294967295, 'Unknown', 'prewritten', False, '
 We often search for answers at the bottom of a bottle.
 This time, you may find the answer is right.
 ');

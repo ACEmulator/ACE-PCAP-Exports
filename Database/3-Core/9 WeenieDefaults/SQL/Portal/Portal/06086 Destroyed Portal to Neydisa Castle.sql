@@ -22,16 +22,16 @@ VALUES (6086,   1, 'Destroyed Portal to Neydisa Castle') /* Name */
      , (6086, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6086,   1,   33561060) /* Setup */
-     , (6086,   2,  150995314) /* MotionTable */
-     , (6086,   8,  100667499) /* Icon */
+VALUES (6086,   1, 0x020019E4) /* Setup */
+     , (6086,   2, 0x09000172) /* MotionTable */
+     , (6086,   8, 0x0600106B) /* Icon */
      , (6086, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (6086, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (6086, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6086, 8040, 45809924, 20, -3.3, -18.20983, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (6086, 8040, 0x02BB0104, 20, -3.3, -18.20983, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x02BB0104 [20.000000 -3.300000 -18.209830] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6086, 8000, 1881911299) /* PCAPRecordedObjectIID */;
+VALUES (6086, 8000, 0x702BB003) /* PCAPRecordedObjectIID */;

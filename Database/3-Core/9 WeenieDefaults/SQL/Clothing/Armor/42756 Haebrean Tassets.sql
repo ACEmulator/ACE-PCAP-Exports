@@ -49,23 +49,23 @@ VALUES (42756,   1, 'Haebrean Tassets') /* Name */
      , (42756,  16, 'Haebrean Tassets of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42756,   1,   33554656) /* Setup */
-     , (42756,   3,  536870932) /* SoundTable */
-     , (42756,   6,   67108990) /* PaletteBase */
-     , (42756,   8,  100691131) /* Icon */
-     , (42756,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42756,   1, 0x020000E0) /* Setup */
+     , (42756,   3, 0x20000014) /* SoundTable */
+     , (42756,   6, 0x0400007E) /* PaletteBase */
+     , (42756,   8, 0x06006CBB) /* Icon */
+     , (42756,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42756, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (42756, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42756, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42756, 8000, 3330723362) /* PCAPRecordedObjectIID */;
+VALUES (42756, 8000, 0xC686CE22) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42756,  1354,      2)  /* EnduranceSelf6 */
+     , (42756,  3964,      2)  /* CANTRIPFOCUS3 */
      , (42756,  2108,      2)  /* Impenetrability7 */
-     , (42756,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
-     , (42756,  3964,      2)  /* CANTRIPFOCUS3 */;
+     , (42756,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42756, 67110551, 152, 8);

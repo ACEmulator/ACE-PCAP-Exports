@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10971,   1,          8) /* ItemType - Jewelry */
      , (10971,   5,         50) /* EncumbranceVal */
      , (10971,   9,      32768) /* ValidLocations - NeckWear */
-     , (10971,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (10971,  16,          1) /* ItemUseable - No */
      , (10971,  18,          1) /* UiEffects - Magical */
      , (10971,  19,       5800) /* Value */
@@ -32,18 +31,18 @@ VALUES (10971,   1, 'Reshalra''s Collar') /* Name */
      , (10971,  16, 'A spiked collar, smelling faintly of Reedshark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10971,   1,   33554810) /* Setup */
-     , (10971,   3,  536870932) /* SoundTable */
-     , (10971,   8,  100671855) /* Icon */
-     , (10971,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10971,   1, 0x0200017A) /* Setup */
+     , (10971,   3, 0x20000014) /* SoundTable */
+     , (10971,   8, 0x0600216F) /* Icon */
+     , (10971,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10971,  37,         36) /* ItemSkillLimit - Loyalty */
      , (10971, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (10971, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10971, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10971, 8000, 2401416481) /* PCAPRecordedObjectIID */;
+VALUES (10971, 8000, 0x8F22B521) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10971,   957,      2)  /* FealtyOther6 */
-     , (10971,  1337,      2)  /* StrengthOther6 */;
+VALUES (10971,  1337,      2)  /* StrengthOther6 */
+     , (10971,   957,      2)  /* FealtyOther6 */;

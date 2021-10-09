@@ -19,18 +19,18 @@ VALUES (5589,   1, 'Fletcher') /* Name */
      , (5589,  16, 'Fletcher') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5589,   1,   33555088) /* Setup */
-     , (5589,   8,  100668115) /* Icon */
+VALUES (5589,   1, 0x02000290) /* Setup */
+     , (5589,   8, 0x060012D3) /* Icon */
      , (5589, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (5589, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (5589, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5589, 8040, 3364618269, 74.6018, 108.721, 22, -0.668858, 0, 0, 0.74339) /* PCAPRecordedLocation */
+VALUES (5589, 8040, 0xC88C001D, 74.6018, 108.721, 22, -0.668858, 0, 0, 0.74339) /* PCAPRecordedLocation */
 /* @teleloc 0xC88C001D [74.601800 108.721000 22.000000] -0.668858 0.000000 0.000000 0.743390 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5589, 8000, 2089336884) /* PCAPRecordedObjectIID */;
+VALUES (5589, 8000, 0x7C88C034) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (5589, 0, 83891055, 83889907);

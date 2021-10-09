@@ -24,13 +24,13 @@ VALUES (20574,   1, 'Scroll of Web of Resistance') /* Name */
 Increases the target''s Magic Defense skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20574,   1,   33554826) /* Setup */
-     , (20574,   8,  100676465) /* Icon */
-     , (20574,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20574,   1, 0x0200018A) /* Setup */
+     , (20574,   8, 0x06003371) /* Icon */
+     , (20574,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20574,  28,       2280) /* Spell - MagicResistanceOther7 */
      , (20574, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20574, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20574, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20574, 8000, 3690111300) /* PCAPRecordedObjectIID */;
+VALUES (20574, 8000, 0xDBF2A144) /* PCAPRecordedObjectIID */;

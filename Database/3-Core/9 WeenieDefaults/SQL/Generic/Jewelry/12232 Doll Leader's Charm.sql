@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12232,   1,          8) /* ItemType - Jewelry */
      , (12232,   5,         60) /* EncumbranceVal */
      , (12232,   9,     196608) /* ValidLocations - WristWear */
-     , (12232,  10,     131072) /* CurrentWieldedLocation - WristWearRight */
      , (12232,  16,          1) /* ItemUseable - No */
      , (12232,  18,          1) /* UiEffects - Magical */
      , (12232,  19,       3000) /* Value */
@@ -31,22 +30,22 @@ VALUES (12232,   1, 'Doll Leader''s Charm') /* Name */
      , (12232,  16, 'A Doll''s charm that can be worn as a bracelet.  Taken from the leader of the Singular Pyreal Repository.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12232,   1,   33554683) /* Setup */
-     , (12232,   3,  536870932) /* SoundTable */
-     , (12232,   6,   67111919) /* PaletteBase */
-     , (12232,   8,  100672215) /* Icon */
-     , (12232,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12232,   1, 0x020000FB) /* Setup */
+     , (12232,   3, 0x20000014) /* SoundTable */
+     , (12232,   6, 0x04000BEF) /* PaletteBase */
+     , (12232,   8, 0x060022D7) /* Icon */
+     , (12232,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12232,  37,         34) /* ItemSkillLimit - WarMagic */
      , (12232, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (12232, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12232, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12232, 8000, 2609581344) /* PCAPRecordedObjectIID */;
+VALUES (12232, 8000, 0x9B8B0D20) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12232,   632,      2)  /* WarMagicMasterySelf4 */
-     , (12232,  1424,      2)  /* FocusSelf4 */;
+VALUES (12232,  1424,      2)  /* FocusSelf4 */
+     , (12232,   632,      2)  /* WarMagicMasterySelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12232, 67111922, 0, 0);

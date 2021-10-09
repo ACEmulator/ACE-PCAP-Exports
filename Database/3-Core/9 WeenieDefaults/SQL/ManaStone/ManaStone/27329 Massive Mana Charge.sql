@@ -28,15 +28,15 @@ VALUES (27329,   1, 'Massive Mana Charge') /* Name */
      , (27329,  14, 'Use on a magic item to give the stone''s stored Mana to that item.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27329,   1,   33555641) /* Setup */
-     , (27329,   8,  100676403) /* Icon */
+VALUES (27329,   1, 0x020004B9) /* Setup */
+     , (27329,   8, 0x06003333) /* Icon */
      , (27329, 8001,  271057048) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, TargetType, Burden, HookType */
      , (27329, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27329, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27329, 8040, 23855548, 54.99567, -28.01208, 0, 0.4127075, 0, 0, -0.9108636) /* PCAPRecordedLocation */
+VALUES (27329, 8040, 0x016C01BC, 54.99567, -28.01208, 0, 0.412708, 0, 0, -0.910864) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [54.995670 -28.012080 0.000000] 0.412708 0.000000 0.000000 -0.910864 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27329, 8000, 3706805629) /* PCAPRecordedObjectIID */;
+VALUES (27329, 8000, 0xDCF15D7D) /* PCAPRecordedObjectIID */;

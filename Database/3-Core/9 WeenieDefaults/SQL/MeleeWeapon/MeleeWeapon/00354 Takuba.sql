@@ -54,25 +54,22 @@ VALUES (354,   1, 'Takuba') /* Name */
      , (354,  16, 'Takuba of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (354,   1,   33554763) /* Setup */
-     , (354,   3,  536870932) /* SoundTable */
-     , (354,   6,   67111919) /* PaletteBase */
-     , (354,   8,  100669051) /* Icon */
-     , (354,  22,  872415275) /* PhysicsEffectTable */
+VALUES (354,   1, 0x0200014B) /* Setup */
+     , (354,   3, 0x20000014) /* SoundTable */
+     , (354,   6, 0x04000BEF) /* PaletteBase */
+     , (354,   8, 0x0600167B) /* Icon */
+     , (354,  22, 0x3400002B) /* PhysicsEffectTable */
      , (354,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (354, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (354, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (354, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (354, 8000, 3700884073) /* PCAPRecordedObjectIID */;
+VALUES (354, 8000, 0xDC970269) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (354,  1616,      2)  /* BloodDrinkerSelf6 */
      , (354,  2580,      2)  /* CANTRIPENDURANCE1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (354, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (354, 67111923, 0, 0);

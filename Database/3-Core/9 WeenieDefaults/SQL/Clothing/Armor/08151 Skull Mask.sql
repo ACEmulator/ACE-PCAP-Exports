@@ -33,16 +33,16 @@ VALUES (8151,   1, 'Skull Mask') /* Name */
      , (8151,  16, 'A very well assembled Skeletal Mask.  It has a movable jaw, and is well padded on the inside to better insulate you from the environment.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8151,   1,   33556825) /* Setup */
-     , (8151,   3,  536870932) /* SoundTable */
-     , (8151,   8,  100671025) /* Icon */
-     , (8151,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8151,   1, 0x02000959) /* Setup */
+     , (8151,   3, 0x20000014) /* SoundTable */
+     , (8151,   8, 0x06001E31) /* Icon */
+     , (8151,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8151, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (8151, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8151, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8151, 8000, 2981037231) /* PCAPRecordedObjectIID */;
+VALUES (8151, 8000, 0xB1AF04AF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (8151, 0, 16784991);

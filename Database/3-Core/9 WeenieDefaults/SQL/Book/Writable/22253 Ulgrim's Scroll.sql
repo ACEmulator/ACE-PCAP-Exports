@@ -20,16 +20,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22253,   1, 'Ulgrim''s Scroll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22253,   1,   33554826) /* Setup */
-     , (22253,   8,  100673883) /* Icon */
-     , (22253,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22253,   1, 0x0200018A) /* Setup */
+     , (22253,   8, 0x0600295B) /* Icon */
+     , (22253,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22253, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (22253, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (22253, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22253, 8040, 23855549, 52.80579, -37.49158, 0.0855, -0.6482595, 0, 0, -0.7614195) /* PCAPRecordedLocation */
+VALUES (22253, 8040, 0x016C01BD, 52.80579, -37.49158, 0.0855, -0.64826, 0, 0, -0.76142) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [52.805790 -37.491580 0.085500] -0.648260 0.000000 0.000000 -0.761420 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22253, 8000, 2363237022) /* PCAPRecordedObjectIID */;
+VALUES (22253, 8000, 0x8CDC229E) /* PCAPRecordedObjectIID */;

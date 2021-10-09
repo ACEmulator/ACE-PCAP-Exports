@@ -25,21 +25,21 @@ VALUES (43797,   1, 'Fiery Defender') /* Name */
      , (43797, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43797,   1,   33556427) /* Setup */
-     , (43797,   2,  150995073) /* MotionTable */
-     , (43797,   3,  536870933) /* SoundTable */
-     , (43797,   8,  100667940) /* Icon */
-     , (43797,  22,  872415323) /* PhysicsEffectTable */
+VALUES (43797,   1, 0x020007CB) /* Setup */
+     , (43797,   2, 0x09000081) /* MotionTable */
+     , (43797,   3, 0x20000015) /* SoundTable */
+     , (43797,   8, 0x06001224) /* Icon */
+     , (43797,  22, 0x3400005B) /* PhysicsEffectTable */
      , (43797, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (43797, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (43797, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43797, 8040, 2114127645, 270.9239, -46.52232, 6.0075, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43797, 8040, 0x7E03071D, 270.9239, -46.52232, 6.0075, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x7E03071D [270.923900 -46.522320 6.007500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43797, 8000, 3360786656) /* PCAPRecordedObjectIID */;
+VALUES (43797, 8000, 0xC85188E0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43797,   1, 420, 0, 0) /* Strength */

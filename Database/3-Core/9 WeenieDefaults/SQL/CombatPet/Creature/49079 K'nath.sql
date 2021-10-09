@@ -31,22 +31,22 @@ VALUES (49079,   1, 'K''nath') /* Name */
      , (49079, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49079,   1,   33561536) /* Setup */
-     , (49079,   2,  150994994) /* MotionTable */
-     , (49079,   3,  536870984) /* SoundTable */
-     , (49079,   8,  100668443) /* Icon */
-     , (49079,  22,  872415261) /* PhysicsEffectTable */
+VALUES (49079,   1, 0x02001BC0) /* Setup */
+     , (49079,   2, 0x09000032) /* MotionTable */
+     , (49079,   3, 0x20000048) /* SoundTable */
+     , (49079,   8, 0x0600141B) /* Icon */
+     , (49079,  22, 0x3400001D) /* PhysicsEffectTable */
      , (49079, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49079, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
      , (49079, 8003,   67108884) /* PCAPRecordedObjectDesc - Stuck, Attackable, IncludesSecondHeader */
      , (49079, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49079, 8040, 3300196857, 95.33553, 102.8528, 204.4306, -0.1229038, 0, 0, -0.9924186) /* PCAPRecordedLocation */
+VALUES (49079, 8040, 0xC4B501F9, 95.33553, 102.8528, 204.4306, -0.122904, 0, 0, -0.992419) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B501F9 [95.335530 102.852800 204.430600] -0.122904 0.000000 0.000000 -0.992419 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49079, 8000, 3701471659) /* PCAPRecordedObjectIID */;
+VALUES (49079, 8000, 0xDC9FF9AB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49079,   1, 210, 0, 0) /* Strength */
@@ -60,7 +60,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49079,   1,  1250, 0, 0, 1370) /* MaxHealth */
      , (49079,   3,  1500, 0, 0, 1740) /* MaxStamina */
      , (49079,   5,   900, 0, 0, 1070) /* MaxMana */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49079, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
-     , (49079, 2, 32852,  1, 0, 0, False) /* Create Blade of the Realm (32852) for Wield */;

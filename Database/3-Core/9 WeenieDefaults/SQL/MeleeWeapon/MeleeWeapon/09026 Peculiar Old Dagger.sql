@@ -38,16 +38,16 @@ VALUES (9026,   1, 'Peculiar Old Dagger') /* Name */
      , (9026,  16, 'An object covered with centuries of accumulated filth. While it is shaped vaguely like a dagger and may be used as such, it doesn''t look like that was its original use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9026,   1,   33554740) /* Setup */
-     , (9026,   3,  536870932) /* SoundTable */
-     , (9026,   8,  100671362) /* Icon */
-     , (9026,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9026,   1, 0x02000134) /* Setup */
+     , (9026,   3, 0x20000014) /* SoundTable */
+     , (9026,   8, 0x06001F82) /* Icon */
+     , (9026,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9026, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (9026, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9026, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9026, 8000, 2920185808) /* PCAPRecordedObjectIID */;
+VALUES (9026, 8000, 0xAE0E7FD0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (9026, 0, 83888778, 83888944)

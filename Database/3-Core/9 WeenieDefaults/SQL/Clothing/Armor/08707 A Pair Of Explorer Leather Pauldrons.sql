@@ -40,21 +40,21 @@ VALUES (8707,   1, 'A Pair Of Explorer Leather Pauldrons') /* Name */
      , (8707,   8, 'Aziz al-Jamal') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8707,   1,   33554641) /* Setup */
-     , (8707,   3,  536870932) /* SoundTable */
-     , (8707,   6,   67108990) /* PaletteBase */
-     , (8707,   8,  100669697) /* Icon */
-     , (8707,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8707,   1, 0x020000D1) /* Setup */
+     , (8707,   3, 0x20000014) /* SoundTable */
+     , (8707,   6, 0x0400007E) /* PaletteBase */
+     , (8707,   8, 0x06001901) /* Icon */
+     , (8707,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8707, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (8707, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8707, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8707, 8000, 2917029782) /* PCAPRecordedObjectIID */;
+VALUES (8707, 8000, 0xADDE5796) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8707,   270,      2)  /* MagicResistanceOther3 */
-     , (8707,  1483,      2)  /* Impenetrability3 */;
+VALUES (8707,  1483,      2)  /* Impenetrability3 */
+     , (8707,   270,      2)  /* MagicResistanceOther3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8707, 67110375, 128, 8);

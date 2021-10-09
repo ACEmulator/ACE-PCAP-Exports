@@ -26,23 +26,23 @@ VALUES (35733,   1, 'Paradox-touched Olthoi Eviscerator Nymph') /* Name */
      , (35733, 8006, 'AAA8AIEAAAA8AFEAAQAAAIA/AAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35733,   1,   33560314) /* Setup */
-     , (35733,   2,  150995130) /* MotionTable */
-     , (35733,   3,  536871036) /* SoundTable */
-     , (35733,   6,   67113194) /* PaletteBase */
-     , (35733,   8,  100667623) /* Icon */
-     , (35733,  22,  872415378) /* PhysicsEffectTable */
+VALUES (35733,   1, 0x020016FA) /* Setup */
+     , (35733,   2, 0x090000BA) /* MotionTable */
+     , (35733,   3, 0x2000007C) /* SoundTable */
+     , (35733,   6, 0x040010EA) /* PaletteBase */
+     , (35733,   8, 0x060010E7) /* Icon */
+     , (35733,  22, 0x34000092) /* PhysicsEffectTable */
      , (35733,  30,         84) /* PhysicsScript - BreatheFlame */
      , (35733, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35733, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35733, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35733, 8040, 1581580855, 48.541, -151.051, -6.0128, 0.8723342, 0, 0, 0.4889101) /* PCAPRecordedLocation */
+VALUES (35733, 8040, 0x5E450237, 48.541, -151.051, -6.0128, 0.872334, 0, 0, 0.48891) /* PCAPRecordedLocation */
 /* @teleloc 0x5E450237 [48.541000 -151.051000 -6.012800] 0.872334 0.000000 0.000000 0.488910 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35733, 8000, 3690278973) /* PCAPRecordedObjectIID */;
+VALUES (35733, 8000, 0xDBF5303D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35733,   1, 330, 0, 0) /* Strength */

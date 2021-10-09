@@ -40,25 +40,25 @@ VALUES (40631,   1, 'Assassin''s Cowl') /* Name */
      , (40631,  16, 'The cowl of Selaina the Subtle the leader of an unnamed fraternity of assassins.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40631,   1,   33554883) /* Setup */
-     , (40631,   3,  536870932) /* SoundTable */
-     , (40631,   6,   67108990) /* PaletteBase */
-     , (40631,   8,  100675684) /* Icon */
-     , (40631,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40631,   1, 0x020001C3) /* Setup */
+     , (40631,   3, 0x20000014) /* SoundTable */
+     , (40631,   6, 0x0400007E) /* PaletteBase */
+     , (40631,   8, 0x06003064) /* Icon */
+     , (40631,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40631, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (40631, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40631, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40631, 8000, 2248268465) /* PCAPRecordedObjectIID */;
+VALUES (40631, 8000, 0x8601DAB1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40631,  2058,      2)  /* CoordinationOther7 */
-     , (40631,  2080,      2)  /* QuicknessOther7 */
-     , (40631,  2190,      2)  /* AlchemyMasteryOther7 */
-     , (40631,  2240,      2)  /* HealingMasteryOther7 */
+VALUES (40631,  2240,      2)  /* HealingMasteryOther7 */
+     , (40631,  2058,      2)  /* CoordinationOther7 */
      , (40631,  2572,      2)  /* CANTRIPCOORDINATION2 */
+     , (40631,  2190,      2)  /* AlchemyMasteryOther7 */
      , (40631,  2575,      2)  /* CANTRIPQUICKNESS2 */
+     , (40631,  2080,      2)  /* QuicknessOther7 */
      , (40631,  4986,      2)  /* AlchemyPercentBoost1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

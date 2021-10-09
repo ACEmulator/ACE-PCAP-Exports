@@ -54,22 +54,22 @@ VALUES (3896,   1, 'Frost Takuba') /* Name */
      , (3896,  16, 'Frost Takuba of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3896,   1,   33555821) /* Setup */
-     , (3896,   3,  536870932) /* SoundTable */
-     , (3896,   8,  100669052) /* Icon */
-     , (3896,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3896,   1, 0x0200056D) /* Setup */
+     , (3896,   3, 0x20000014) /* SoundTable */
+     , (3896,   8, 0x0600167C) /* Icon */
+     , (3896,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3896,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3896, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3896, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3896, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3896, 8040, 3332964380, 76.80225, 94.91811, 42.02601, 0.7082336, 0, 0, -0.7059782) /* PCAPRecordedLocation */
+VALUES (3896, 8040, 0xC6A9001C, 76.80225, 94.91811, 42.02601, 0.708234, 0, 0, -0.705978) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [76.802250 94.918110 42.026010] 0.708234 0.000000 0.000000 -0.705978 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3896, 8000, 2156287740) /* PCAPRecordedObjectIID */;
+VALUES (3896, 8000, 0x808656FC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3896,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (3896,  2588,      2)  /* CANTRIPDEFENDER2 */;
+VALUES (3896,  2588,      2)  /* CANTRIPDEFENDER2 */
+     , (3896,  2096,      2)  /* BloodDrinkerSelf7 */;

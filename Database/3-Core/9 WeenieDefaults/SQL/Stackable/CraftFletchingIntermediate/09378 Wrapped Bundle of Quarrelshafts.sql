@@ -23,13 +23,13 @@ VALUES (9378,   1, 'Wrapped Bundle of Quarrelshafts') /* Name */
      , (9378,  20, 'Wrapped Bundles of Quarrelshafts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9378,   1,   33557032) /* Setup */
-     , (9378,   3,  536870932) /* SoundTable */
-     , (9378,   8,  100671609) /* Icon */
-     , (9378,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9378,   1, 0x02000A28) /* Setup */
+     , (9378,   3, 0x20000014) /* SoundTable */
+     , (9378,   8, 0x06002079) /* Icon */
+     , (9378,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9378, 8001,      28681) /* PCAPRecordedWeenieHeader - PluralName, Value, StackSize, MaxStackSize, Container */
      , (9378, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9378, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9378, 8000, 3315043721) /* PCAPRecordedObjectIID */;
+VALUES (9378, 8000, 0xC5978D89) /* PCAPRecordedObjectIID */;

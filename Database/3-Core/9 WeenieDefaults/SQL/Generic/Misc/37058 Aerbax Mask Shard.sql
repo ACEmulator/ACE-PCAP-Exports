@@ -14,7 +14,8 @@ VALUES (37058,   1,        128) /* ItemType - Misc */
      , (37058, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37058,  69, False) /* IsSellable */;
+VALUES (37058,  23, True ) /* DestroyOnSell */
+     , (37058,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37058,   1, 'Aerbax Mask Shard') /* Name */
@@ -22,13 +23,13 @@ VALUES (37058,   1, 'Aerbax Mask Shard') /* Name */
      , (37058,  16, 'A broken shard of Aerbax''s shattered mask. Little tendrils of shadow writhe around it and holding it makes you exceedingly nervous.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37058,   1,   33560507) /* Setup */
-     , (37058,   3,  536870932) /* SoundTable */
-     , (37058,   8,  100689804) /* Icon */
-     , (37058,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37058,   1, 0x020017BB) /* Setup */
+     , (37058,   3, 0x20000014) /* SoundTable */
+     , (37058,   8, 0x0600678C) /* Icon */
+     , (37058,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37058, 8001,    2113688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, Burden */
      , (37058, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37058, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37058, 8000, 3685708572) /* PCAPRecordedObjectIID */;
+VALUES (37058, 8000, 0xDBAF731C) /* PCAPRecordedObjectIID */;

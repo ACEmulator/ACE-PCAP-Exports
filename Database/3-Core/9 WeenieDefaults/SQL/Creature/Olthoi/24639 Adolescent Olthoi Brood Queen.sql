@@ -26,23 +26,23 @@ VALUES (24639,   1, 'Adolescent Olthoi Brood Queen') /* Name */
      , (24639, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24639,   1,   33557165) /* Setup */
-     , (24639,   2,  150995135) /* MotionTable */
-     , (24639,   3,  536871037) /* SoundTable */
-     , (24639,   6,   67113288) /* PaletteBase */
-     , (24639,   8,  100667623) /* Icon */
-     , (24639,  22,  872415379) /* PhysicsEffectTable */
+VALUES (24639,   1, 0x02000AAD) /* Setup */
+     , (24639,   2, 0x090000BF) /* MotionTable */
+     , (24639,   3, 0x2000007D) /* SoundTable */
+     , (24639,   6, 0x04001148) /* PaletteBase */
+     , (24639,   8, 0x060010E7) /* Icon */
+     , (24639,  22, 0x34000093) /* PhysicsEffectTable */
      , (24639,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24639, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24639, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24639, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24639, 8040, 1581908327, 490, -350, -120, 0.889293, 0, 0, 0.457338) /* PCAPRecordedLocation */
+VALUES (24639, 8040, 0x5E4A0167, 490, -350, -120, 0.889293, 0, 0, 0.457338) /* PCAPRecordedLocation */
 /* @teleloc 0x5E4A0167 [490.000000 -350.000000 -120.000000] 0.889293 0.000000 0.000000 0.457338 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24639, 8000, 3707341822) /* PCAPRecordedObjectIID */;
+VALUES (24639, 8000, 0xDCF98BFE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (24639,   1,     0, 0, 0, 5000) /* MaxHealth */;

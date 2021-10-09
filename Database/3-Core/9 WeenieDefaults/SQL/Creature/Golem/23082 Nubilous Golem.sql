@@ -22,21 +22,21 @@ VALUES (23082,   1, 'Nubilous Golem') /* Name */
      , (23082, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23082,   1,   33556644) /* Setup */
-     , (23082,   2,  150995073) /* MotionTable */
-     , (23082,   3,  536870933) /* SoundTable */
-     , (23082,   8,  100667940) /* Icon */
-     , (23082,  22,  872415322) /* PhysicsEffectTable */
+VALUES (23082,   1, 0x020008A4) /* Setup */
+     , (23082,   2, 0x09000081) /* MotionTable */
+     , (23082,   3, 0x20000015) /* SoundTable */
+     , (23082,   8, 0x06001224) /* Icon */
+     , (23082,  22, 0x3400005A) /* PhysicsEffectTable */
      , (23082, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (23082, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (23082, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23082, 8040, 2277244974, 143.7734, 131.2699, 79.80438, 0.04149814, 0, 0, -0.9991386) /* PCAPRecordedLocation */
+VALUES (23082, 8040, 0x87BC002E, 143.7734, 131.2699, 79.80438, 0.041498, 0, 0, -0.999139) /* PCAPRecordedLocation */
 /* @teleloc 0x87BC002E [143.773400 131.269900 79.804380] 0.041498 0.000000 0.000000 -0.999139 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23082, 8000, 3685943234) /* PCAPRecordedObjectIID */;
+VALUES (23082, 8000, 0xDBB307C2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23082,   1, 160, 0, 0) /* Strength */

@@ -26,23 +26,23 @@ VALUES (24960,   1, 'Olthoi Piercer') /* Name */
      , (24960, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24960,   1,   33558421) /* Setup */
-     , (24960,   2,  150995243) /* MotionTable */
-     , (24960,   3,  536871070) /* SoundTable */
-     , (24960,   6,   67114440) /* PaletteBase */
-     , (24960,   8,  100674626) /* Icon */
-     , (24960,  22,  872415398) /* PhysicsEffectTable */
+VALUES (24960,   1, 0x02000F95) /* Setup */
+     , (24960,   2, 0x0900012B) /* MotionTable */
+     , (24960,   3, 0x2000009E) /* SoundTable */
+     , (24960,   6, 0x040015C8) /* PaletteBase */
+     , (24960,   8, 0x06002C42) /* Icon */
+     , (24960,  22, 0x340000A6) /* PhysicsEffectTable */
      , (24960,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24960, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24960, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24960, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24960, 8040, 2312175624, 2.78599, 174.4333, 164.0043, -0.768697, 0, 0, -0.6396132) /* PCAPRecordedLocation */
+VALUES (24960, 8040, 0x89D10008, 2.78599, 174.4333, 164.0043, -0.768697, 0, 0, -0.639613) /* PCAPRecordedLocation */
 /* @teleloc 0x89D10008 [2.785990 174.433300 164.004300] -0.768697 0.000000 0.000000 -0.639613 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24960, 8000, 3685886963) /* PCAPRecordedObjectIID */;
+VALUES (24960, 8000, 0xDBB22BF3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24960,   1, 110, 0, 0) /* Strength */

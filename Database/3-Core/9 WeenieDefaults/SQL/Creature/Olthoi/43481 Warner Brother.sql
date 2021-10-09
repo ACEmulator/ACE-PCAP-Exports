@@ -15,7 +15,7 @@ VALUES (43481,   1,         16) /* ItemType - Creature */
      , (43481, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43481, 134,          4) /* PlayerKillerStatus - PK */
      , (43481, 188,         13) /* HeritageGroup - OlthoiAcid */
-     , (43481, 261,        712) /* CharacterTitleId */
+     , (43481, 261,        712) /* CharacterTitleId - AcidSpitter */
      , (43481, 390,          0) /* Enlightenment */
      , (43481, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -30,28 +30,28 @@ VALUES (43481,   1, 'Warner Brother') /* Name */
      , (43481, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43481,   1,   33561120) /* Setup */
-     , (43481,   2,  150995461) /* MotionTable */
-     , (43481,   3,  536871070) /* SoundTable */
-     , (43481,   6,   67116974) /* PaletteBase */
-     , (43481,   8,  100674626) /* Icon */
-     , (43481,   9,   83891927) /* EyesTexture */
-     , (43481,  10,   83891927) /* NoseTexture */
-     , (43481,  11,   83891927) /* MouthTexture */
-     , (43481,  15,   67116886) /* HairPalette */
-     , (43481,  16,   67116855) /* EyesPalette */
-     , (43481,  17,   67116875) /* SkinPalette */
-     , (43481,  22,  872415398) /* PhysicsEffectTable */
+VALUES (43481,   1, 0x02001A20) /* Setup */
+     , (43481,   2, 0x09000205) /* MotionTable */
+     , (43481,   3, 0x2000009E) /* SoundTable */
+     , (43481,   6, 0x04001FAE) /* PaletteBase */
+     , (43481,   8, 0x06002C42) /* Icon */
+     , (43481,   9, 0x050016D7) /* EyesTexture */
+     , (43481,  10, 0x050016D7) /* NoseTexture */
+     , (43481,  11, 0x050016D7) /* MouthTexture */
+     , (43481,  15, 0x04001F56) /* HairPalette */
+     , (43481,  16, 0x04001F37) /* EyesPalette */
+     , (43481,  17, 0x04001F4B) /* SkinPalette */
+     , (43481,  22, 0x340000A6) /* PhysicsEffectTable */
      , (43481, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (43481, 8003,         60) /* PCAPRecordedObjectDesc - Stuck, Player, Attackable, PlayerKiller */
      , (43481, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43481, 8040, 3872587806, 90.35706, 130.1648, 227.1746, -0.735414, 0, 0, -0.677618) /* PCAPRecordedLocation */
+VALUES (43481, 8040, 0xE6D3001E, 90.35706, 130.1648, 227.1746, -0.735414, 0, 0, -0.677618) /* PCAPRecordedLocation */
 /* @teleloc 0xE6D3001E [90.357060 130.164800 227.174600] -0.735414 0.000000 0.000000 -0.677618 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43481, 8000, 1344175067) /* PCAPRecordedObjectIID */;
+VALUES (43481, 8000, 0x501E7BDB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43481,   1, 200, 0, 0) /* Strength */

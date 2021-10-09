@@ -18,16 +18,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25993,   1, 'Foot Massager') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25993,   1,   33558575) /* Setup */
-     , (25993,   3,  536870994) /* SoundTable */
-     , (25993,   8,  100667465) /* Icon */
+VALUES (25993,   1, 0x0200102F) /* Setup */
+     , (25993,   3, 0x20000052) /* SoundTable */
+     , (25993,   8, 0x06001049) /* Icon */
      , (25993, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (25993, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (25993, 8005,      34817) /* PCAPRecordedPhysicsDesc - CSetup, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25993, 8040, 1698890009, 67.3287, -60.2669, -9.313226E-10, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (25993, 8040, 0x65430119, 67.3287, -60.2669, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x65430119 [67.328700 -60.266900 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25993, 8000, 1985228800) /* PCAPRecordedObjectIID */;
+VALUES (25993, 8000, 0x76543000) /* PCAPRecordedObjectIID */;

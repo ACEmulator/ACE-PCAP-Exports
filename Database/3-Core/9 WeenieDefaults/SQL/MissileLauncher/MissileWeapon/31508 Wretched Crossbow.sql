@@ -16,7 +16,7 @@ VALUES (31508,   1,        256) /* ItemType - MissileWeapon */
      , (31508,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31508,  49,         50) /* WeaponTime */
      , (31508,  50,          2) /* AmmoType - Bolt */
-     , (31508,  51,          2) /* CombatUse - Missle */
+     , (31508,  51,          2) /* CombatUse - Missile */
      , (31508,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31508, 106,        300) /* ItemSpellcraft */
      , (31508, 107,        299) /* ItemCurMana */
@@ -33,6 +33,7 @@ VALUES (31508,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31508,  22, True ) /* Inscribable */
+     , (31508,  23, True ) /* DestroyOnSell */
      , (31508,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,16 +51,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31508,   1, 'Wretched Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31508,   1,   33559544) /* Setup */
-     , (31508,   3,  536870932) /* SoundTable */
-     , (31508,   8,  100687781) /* Icon */
-     , (31508,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31508,   1, 0x020013F8) /* Setup */
+     , (31508,   3, 0x20000014) /* SoundTable */
+     , (31508,   8, 0x06005FA5) /* Icon */
+     , (31508,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31508, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (31508, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31508, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31508, 8000, 3682705070) /* PCAPRecordedObjectIID */;
+VALUES (31508, 8000, 0xDB819EAE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31508,  1616,      2)  /* BloodDrinkerSelf6 */;

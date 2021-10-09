@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7435,   1,          1) /* ItemType - MeleeWeapon */
      , (7435,   5,        450) /* EncumbranceVal */
      , (7435,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (7435,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (7435,  16,          1) /* ItemUseable - No */
      , (7435,  18,          1) /* UiEffects - Magical */
      , (7435,  19,      14300) /* Value */
@@ -51,10 +50,10 @@ May you Rest In Peace
      , (7435,  16, 'The Sword of Lost Light, infused with blue, white, and red fire from the volcanoes of Lethe, Esper, and Tenkarrdun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7435,   1,   33555927) /* Setup */
-     , (7435,   3,  536870932) /* SoundTable */
-     , (7435,   8,  100669772) /* Icon */
-     , (7435,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7435,   1, 0x020005D7) /* Setup */
+     , (7435,   3, 0x20000014) /* SoundTable */
+     , (7435,   8, 0x0600194C) /* Icon */
+     , (7435,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7435,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (7435, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (7435, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -62,17 +61,17 @@ VALUES (7435,   1,   33555927) /* Setup */
      , (7435, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7435, 8040, 3583574079, 186.6001, 165.0764, 373.929, -0.1984342, -0.1984342, -0.6786928, -0.6786928) /* PCAPRecordedLocation */
+VALUES (7435, 8040, 0xD599003F, 186.6001, 165.0764, 373.929, -0.198434, -0.198434, -0.678693, -0.678693) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [186.600100 165.076400 373.929000] -0.198434 -0.198434 -0.678693 -0.678693 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7435, 8000, 2913665872) /* PCAPRecordedObjectIID */
-     , (7435, 8008, 1342562332) /* PCAPRecordedParentIID */;
+VALUES (7435, 8000, 0xADAB0350) /* PCAPRecordedObjectIID */
+     , (7435, 8008, 0x5005E01C) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7435,   415,      2)  /* SwordMasteryOther4 */
-     , (7435,  1335,      2)  /* StrengthOther4 */
-     , (7435,  1358,      2)  /* EnduranceOther4 */
-     , (7435,  1406,      2)  /* QuicknessOther4 */
+VALUES (7435,  1358,      2)  /* EnduranceOther4 */
      , (7435,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (7435,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (7435,  1625,      2)  /* SwiftKillerSelf4 */
+     , (7435,   415,      2)  /* HeavyWeaponsMasteryOther4 */
+     , (7435,  1335,      2)  /* StrengthOther4 */
+     , (7435,  1406,      2)  /* QuicknessOther4 */;

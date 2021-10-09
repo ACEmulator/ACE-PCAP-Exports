@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8613,   1, 'Rumuba''s Jade Spearhead') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8613,   1,   33556902) /* Setup */
-     , (8613,   3,  536870932) /* SoundTable */
-     , (8613,   6,   67111919) /* PaletteBase */
-     , (8613,   8,  100671206) /* Icon */
-     , (8613,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8613,   1, 0x020009A6) /* Setup */
+     , (8613,   3, 0x20000014) /* SoundTable */
+     , (8613,   6, 0x04000BEF) /* PaletteBase */
+     , (8613,   8, 0x06001EE6) /* Icon */
+     , (8613,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8613, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (8613, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8613, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8613, 8000, 3621497311) /* PCAPRecordedObjectIID */;
+VALUES (8613, 8000, 0xD7DBA9DF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8613, 67111923, 0, 0);

@@ -17,15 +17,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14745,   1, 'Vulture''s Eye Villas') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14745,   1,   33557463) /* Setup */
-     , (14745,   8,  100668115) /* Icon */
+VALUES (14745,   1, 0x02000BD7) /* Setup */
+     , (14745,   8, 0x060012D3) /* Icon */
      , (14745, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (14745, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14745, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14745, 8040, 2691563557, 109.57, 107.124, 26, 0.42586, 0, 0, -0.904789) /* PCAPRecordedLocation */
+VALUES (14745, 8040, 0xA06E0025, 109.57, 107.124, 26, 0.42586, 0, 0, -0.904789) /* PCAPRecordedLocation */
 /* @teleloc 0xA06E0025 [109.570000 107.124000 26.000000] 0.425860 0.000000 0.000000 -0.904789 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14745, 8000, 2047271388) /* PCAPRecordedObjectIID */;
+VALUES (14745, 8000, 0x7A06E1DC) /* PCAPRecordedObjectIID */;

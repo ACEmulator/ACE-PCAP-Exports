@@ -30,6 +30,7 @@ VALUES (40908,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40908,  22, True ) /* Inscribable */
+     , (40908,  23, True ) /* DestroyOnSell */
      , (40908,  69, False) /* IsSellable */
      , (40908,  99, True ) /* Ivoryable */;
 
@@ -49,13 +50,13 @@ VALUES (40908,   1, 'Reforged Ashbane') /* Name */
      , (40908,  16, 'A heavily enchanted flaming sword, wrought from magically-reinforced silver.  The magics are so elegantly inlaid into the weapon that there is no visible enchantment on the blade.  Its ivory haft is inscribed ''Ashbane,'' and bears the name of Leikotha Arenir.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40908,   1,   33558823) /* Setup */
-     , (40908,   3,  536870932) /* SoundTable */
-     , (40908,   8,  100671001) /* Icon */
-     , (40908,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40908,   1, 0x02001127) /* Setup */
+     , (40908,   3, 0x20000014) /* SoundTable */
+     , (40908,   8, 0x06001E19) /* Icon */
+     , (40908,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40908, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (40908, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40908, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40908, 8000, 2919834038) /* PCAPRecordedObjectIID */;
+VALUES (40908, 8000, 0xAE0921B6) /* PCAPRecordedObjectIID */;

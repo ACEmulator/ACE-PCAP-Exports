@@ -17,18 +17,21 @@ VALUES (31353,   1,        128) /* ItemType - Misc */
      , (31353, 114,          1) /* Attuned - Attuned */
      , (31353, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31353,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31353,   1, 'Olthoi Larvae Steak') /* Name */
      , (31353,  16, 'A choice cut of meat from a young Olthoi Larvae. Although the toxins in this meat have made it inedible, it may still have some value to a collector.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31353,   1,   33554817) /* Setup */
-     , (31353,   3,  536870932) /* SoundTable */
-     , (31353,   8,  100687697) /* Icon */
-     , (31353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31353,   1, 0x02000181) /* Setup */
+     , (31353,   3, 0x20000014) /* SoundTable */
+     , (31353,   8, 0x06005F51) /* Icon */
+     , (31353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31353, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (31353, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31353, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31353, 8000, 3251373294) /* PCAPRecordedObjectIID */;
+VALUES (31353, 8000, 0xC1CC04EE) /* PCAPRecordedObjectIID */;

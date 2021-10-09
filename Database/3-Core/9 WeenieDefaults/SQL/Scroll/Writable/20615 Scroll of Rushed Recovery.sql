@@ -24,13 +24,13 @@ VALUES (20615,   1, 'Scroll of Rushed Recovery') /* Name */
 Drains one-half of the caster''s Stamina and gives 175% of that to his/her Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20615,   1,   33554826) /* Setup */
-     , (20615,   8,  100676946) /* Icon */
-     , (20615,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20615,   1, 0x0200018A) /* Setup */
+     , (20615,   8, 0x06003552) /* Icon */
+     , (20615,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20615,  28,       2343) /* Spell - StaminaToHealthSelf7 */
      , (20615, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20615, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20615, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20615, 8000, 3682455853) /* PCAPRecordedObjectIID */;
+VALUES (20615, 8000, 0xDB7DD12D) /* PCAPRecordedObjectIID */;

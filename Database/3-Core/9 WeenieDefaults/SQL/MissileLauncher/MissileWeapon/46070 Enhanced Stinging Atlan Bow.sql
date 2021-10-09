@@ -16,7 +16,7 @@ VALUES (46070,   1,        256) /* ItemType - MissileWeapon */
      , (46070,  48,         47) /* WeaponSkill - MissileWeapons */
      , (46070,  49,         45) /* WeaponTime */
      , (46070,  50,          1) /* AmmoType - Arrow */
-     , (46070,  51,          2) /* CombatUse - Missle */
+     , (46070,  51,          2) /* CombatUse - Missile */
      , (46070,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46070, 106,        350) /* ItemSpellcraft */
      , (46070, 107,        201) /* ItemCurMana */
@@ -54,26 +54,26 @@ VALUES (46070,   1, 'Enhanced Stinging Atlan Bow') /* Name */
      , (46070,  25, 'Peace Mezzir-Garrett') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46070,   1,   33557754) /* Setup */
-     , (46070,   3,  536870932) /* SoundTable */
-     , (46070,   6,   67111919) /* PaletteBase */
-     , (46070,   8,  100673015) /* Icon */
-     , (46070,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46070,   1, 0x02000CFA) /* Setup */
+     , (46070,   3, 0x20000014) /* SoundTable */
+     , (46070,   6, 0x04000BEF) /* PaletteBase */
+     , (46070,   8, 0x060025F7) /* Icon */
+     , (46070,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46070, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46070, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46070, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46070, 8000, 2823142947) /* PCAPRecordedObjectIID */;
+VALUES (46070, 8000, 0xA845BE23) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46070,  2059,      2)  /* CoordinationSelf7 */
-     , (46070,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (46070,  2101,      2)  /* DefenderSelf7 */
-     , (46070,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (46070,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46070,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+     , (46070,  2059,      2)  /* CoordinationSelf7 */
+     , (46070,  2586,      2)  /* CANTRIPBLOODTHIRST2 */
      , (46070,  2149,      2)  /* AcidProtectionSelf7 */
-     , (46070,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */
-     , (46070,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;
+     , (46070,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46070,  2101,      2)  /* DefenderSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46070, 67111923, 0, 0);

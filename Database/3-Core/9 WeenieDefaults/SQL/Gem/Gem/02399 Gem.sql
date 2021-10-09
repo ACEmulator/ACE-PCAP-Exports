@@ -27,18 +27,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2399,   1, 'Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2399,   1,   33554809) /* Setup */
-     , (2399,   3,  536870932) /* SoundTable */
-     , (2399,   6,   67111919) /* PaletteBase */
-     , (2399,   8,  100674721) /* Icon */
-     , (2399,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2399,   1, 0x02000179) /* Setup */
+     , (2399,   3, 0x20000014) /* SoundTable */
+     , (2399,   6, 0x04000BEF) /* PaletteBase */
+     , (2399,   8, 0x06002CA1) /* Icon */
+     , (2399,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2399,  28,       1331) /* Spell - StrengthSelf5 */
      , (2399, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
      , (2399, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2399, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2399, 8000, 3688159051) /* PCAPRecordedObjectIID */;
+VALUES (2399, 8000, 0xDBD4D74B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2399, 67111920, 0, 0);

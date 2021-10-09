@@ -22,16 +22,16 @@ VALUES (1124,   1, 'Shoushi Grotto Portal') /* Name */
      , (1124, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1124,   1,   33554867) /* Setup */
-     , (1124,   2,  150994947) /* MotionTable */
-     , (1124,   8,  100667499) /* Icon */
+VALUES (1124,   1, 0x020001B3) /* Setup */
+     , (1124,   2, 0x09000003) /* MotionTable */
+     , (1124,   8, 0x0600106B) /* Icon */
      , (1124, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (1124, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1124, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1124, 8040, 3662938139, 91.8, 69, 40.337, -0.9993908, 0, 0, -0.03489949) /* PCAPRecordedLocation */
+VALUES (1124, 8040, 0xDA54001B, 91.8, 69, 40.337, -0.999391, 0, 0, -0.034899) /* PCAPRecordedLocation */
 /* @teleloc 0xDA54001B [91.800000 69.000000 40.337000] -0.999391 0.000000 0.000000 -0.034899 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1124, 8000, 2107981824) /* PCAPRecordedObjectIID */;
+VALUES (1124, 8000, 0x7DA54000) /* PCAPRecordedObjectIID */;

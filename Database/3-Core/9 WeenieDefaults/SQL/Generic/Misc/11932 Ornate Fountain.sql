@@ -20,11 +20,11 @@ VALUES (11932,   1, 'Ornate Fountain') /* Name */
      , (11932,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11932,   1,   33557155) /* Setup */
-     , (11932,   8,  100671774) /* Icon */
+VALUES (11932,   1, 0x02000AA3) /* Setup */
+     , (11932,   8, 0x0600211E) /* Icon */
      , (11932, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (11932, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11932, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11932, 8000, 3658160297) /* PCAPRecordedObjectIID */;
+VALUES (11932, 8000, 0xDA0B18A9) /* PCAPRecordedObjectIID */;

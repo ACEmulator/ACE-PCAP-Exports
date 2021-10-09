@@ -26,17 +26,17 @@ VALUES (5781,   1, 'Cinnamon') /* Name */
      , (5781,  20, 'Jars of Cinnamon') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5781,   1,   33555208) /* Setup */
-     , (5781,   3,  536870932) /* SoundTable */
-     , (5781,   6,   67111919) /* PaletteBase */
-     , (5781,   8,  100670295) /* Icon */
-     , (5781,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5781,   1, 0x02000308) /* Setup */
+     , (5781,   3, 0x20000014) /* SoundTable */
+     , (5781,   6, 0x04000BEF) /* PaletteBase */
+     , (5781,   8, 0x06001B57) /* Icon */
+     , (5781,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5781, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (5781, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5781, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5781, 8000, 2785564770) /* PCAPRecordedObjectIID */;
+VALUES (5781, 8000, 0xA6085862) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5781, 67111922, 0, 0);

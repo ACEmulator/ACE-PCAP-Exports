@@ -24,13 +24,13 @@ VALUES (21104,   1, 'Scroll of Martyr''s Blight III') /* Name */
 Drains one-quarter of the caster''s mana into a bolt of energy.  When struck by the bolt, the target''s mana is reduced by 105% of the amount drained.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21104,   1,   33554826) /* Setup */
-     , (21104,   8,  100676937) /* Icon */
-     , (21104,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21104,   1, 0x0200018A) /* Setup */
+     , (21104,   8, 0x06003549) /* Icon */
+     , (21104,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21104,  28,       2776) /* Spell - ManaBolt3 */
      , (21104, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (21104, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21104, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21104, 8000, 3345491417) /* PCAPRecordedObjectIID */;
+VALUES (21104, 8000, 0xC76825D9) /* PCAPRecordedObjectIID */;

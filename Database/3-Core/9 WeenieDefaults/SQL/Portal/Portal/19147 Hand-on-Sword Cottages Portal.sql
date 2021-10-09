@@ -22,16 +22,16 @@ VALUES (19147,   1, 'Hand-on-Sword Cottages Portal') /* Name */
      , (19147, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19147,   1,   33554867) /* Setup */
-     , (19147,   2,  150994947) /* MotionTable */
-     , (19147,   8,  100667499) /* Icon */
+VALUES (19147,   1, 0x020001B3) /* Setup */
+     , (19147,   2, 0x09000003) /* MotionTable */
+     , (19147,   8, 0x0600106B) /* Icon */
      , (19147, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (19147, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (19147, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19147, 8040, 3383230500, 117.003, 92.8671, 50.18675, 0.48818, 0, 0, 0.872743) /* PCAPRecordedLocation */
+VALUES (19147, 8040, 0xC9A80024, 117.003, 92.8671, 50.18675, 0.48818, 0, 0, 0.872743) /* PCAPRecordedLocation */
 /* @teleloc 0xC9A80024 [117.003000 92.867100 50.186750] 0.488180 0.000000 0.000000 0.872743 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19147, 8000, 2090500114) /* PCAPRecordedObjectIID */;
+VALUES (19147, 8000, 0x7C9A8012) /* PCAPRecordedObjectIID */;

@@ -44,17 +44,17 @@ VALUES (27224,   1, 'Lorica Leggings') /* Name */
      , (27224,  16, 'Lorica Leggings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27224,   1,   33554856) /* Setup */
-     , (27224,   3,  536870932) /* SoundTable */
-     , (27224,   6,   67108990) /* PaletteBase */
-     , (27224,   8,  100676082) /* Icon */
-     , (27224,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27224,   1, 0x020001A8) /* Setup */
+     , (27224,   3, 0x20000014) /* SoundTable */
+     , (27224,   6, 0x0400007E) /* PaletteBase */
+     , (27224,   8, 0x060031F2) /* Icon */
+     , (27224,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27224, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (27224, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27224, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27224, 8000, 3688341274) /* PCAPRecordedObjectIID */;
+VALUES (27224, 8000, 0xDBD79F1A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27224,  2094,      2)  /* BladeBane7 */

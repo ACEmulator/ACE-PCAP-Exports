@@ -25,16 +25,16 @@ VALUES (4955,   1, 'Stone Cathedral') /* Name */
      , (4955, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4955,   1,   33555922) /* Setup */
-     , (4955,   2,  150994947) /* MotionTable */
-     , (4955,   8,  100667499) /* Icon */
+VALUES (4955,   1, 0x020005D2) /* Setup */
+     , (4955,   2, 0x09000003) /* MotionTable */
+     , (4955,   8, 0x0600106B) /* Icon */
      , (4955, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (4955, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (4955, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4955, 8040, 3629383938, 85.0052, 26.3172, 25.976, 0.9998592, 0, 0, 0.0167822) /* PCAPRecordedLocation */
+VALUES (4955, 8040, 0xD8540102, 85.0052, 26.3172, 25.976, 0.999859, 0, 0, 0.016782) /* PCAPRecordedLocation */
 /* @teleloc 0xD8540102 [85.005200 26.317200 25.976000] 0.999859 0.000000 0.000000 0.016782 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4955, 8000, 2105884674) /* PCAPRecordedObjectIID */;
+VALUES (4955, 8000, 0x7D854002) /* PCAPRecordedObjectIID */;

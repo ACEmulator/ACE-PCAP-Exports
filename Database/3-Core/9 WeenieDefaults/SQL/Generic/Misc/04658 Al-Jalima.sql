@@ -19,15 +19,15 @@ VALUES (4658,   1, 'Al-Jalima') /* Name */
      , (4658,  16, 'Welcome to Al-Jalima') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4658,   1,   33556194) /* Setup */
-     , (4658,   8,  100668115) /* Icon */
+VALUES (4658,   1, 0x020006E2) /* Setup */
+     , (4658,   8, 0x060012D3) /* Icon */
      , (4658, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (4658, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4658, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4658, 8040, 2240282669, 124.818, 101.968, 89.00533, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (4658, 8040, 0x8588002D, 124.818, 101.968, 89.00533, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8588002D [124.818000 101.968000 89.005330] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4658, 8000, 2019065872) /* PCAPRecordedObjectIID */;
+VALUES (4658, 8000, 0x78588010) /* PCAPRecordedObjectIID */;

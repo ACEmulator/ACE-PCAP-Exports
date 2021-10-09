@@ -21,16 +21,16 @@ VALUES (14494,   1, 'Lower Empyrean Acid Cistern') /* Name */
      , (14494, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14494,   1,   33555925) /* Setup */
-     , (14494,   2,  150994947) /* MotionTable */
-     , (14494,   8,  100667499) /* Icon */
+VALUES (14494,   1, 0x020005D5) /* Setup */
+     , (14494,   2, 0x09000003) /* MotionTable */
+     , (14494,   8, 0x0600106B) /* Icon */
      , (14494, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14494, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14494, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14494, 8040, 1382940929, -2.86129, -90.0263, -48.063, 0.714421, 0, 0, 0.699716) /* PCAPRecordedLocation */
+VALUES (14494, 8040, 0x526E0101, -2.86129, -90.0263, -48.063, 0.714421, 0, 0, 0.699716) /* PCAPRecordedLocation */
 /* @teleloc 0x526E0101 [-2.861290 -90.026300 -48.063000] 0.714421 0.000000 0.000000 0.699716 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14494, 8000, 1965481984) /* PCAPRecordedObjectIID */;
+VALUES (14494, 8000, 0x7526E000) /* PCAPRecordedObjectIID */;

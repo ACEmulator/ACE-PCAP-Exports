@@ -22,16 +22,16 @@ VALUES (12469,   1, 'Al-Hatar Settlement Portal') /* Name */
      , (12469, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12469,   1,   33554867) /* Setup */
-     , (12469,   2,  150994947) /* MotionTable */
-     , (12469,   8,  100667499) /* Icon */
+VALUES (12469,   1, 0x020001B3) /* Setup */
+     , (12469,   2, 0x09000003) /* MotionTable */
+     , (12469,   8, 0x0600106B) /* Icon */
      , (12469, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12469, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12469, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12469, 8040, 2404712509, 171.841, 102.295, 12.46158, -0.3727728, 0, 0, 0.9279226) /* PCAPRecordedLocation */
+VALUES (12469, 8040, 0x8F55003D, 171.841, 102.295, 12.46158, -0.372773, 0, 0, 0.927923) /* PCAPRecordedLocation */
 /* @teleloc 0x8F55003D [171.841000 102.295000 12.461580] -0.372773 0.000000 0.000000 0.927923 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12469, 8000, 2029342721) /* PCAPRecordedObjectIID */;
+VALUES (12469, 8000, 0x78F55001) /* PCAPRecordedObjectIID */;

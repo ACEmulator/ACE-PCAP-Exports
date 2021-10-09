@@ -24,16 +24,16 @@ VALUES (35318,   1, 'Tanada House of Water') /* Name */
      , (35318, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35318,   1,   33555925) /* Setup */
-     , (35318,   2,  150994947) /* MotionTable */
-     , (35318,   8,  100667499) /* Icon */
+VALUES (35318,   1, 0x020005D5) /* Setup */
+     , (35318,   2, 0x09000003) /* MotionTable */
+     , (35318,   8, 0x0600106B) /* Icon */
      , (35318, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (35318, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (35318, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35318, 8040, 2014576655, 44, 148, 5.603666, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (35318, 8040, 0x7814000F, 44, 148, 5.603666, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x7814000F [44.000000 148.000000 5.603666] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35318, 8000, 2004959232) /* PCAPRecordedObjectIID */;
+VALUES (35318, 8000, 0x77814000) /* PCAPRecordedObjectIID */;

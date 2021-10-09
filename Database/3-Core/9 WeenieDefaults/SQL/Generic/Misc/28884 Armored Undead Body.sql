@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28884,   1, 'Armored Undead Body') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28884,   1,   33559006) /* Setup */
-     , (28884,   3,  536870932) /* SoundTable */
-     , (28884,   8,  100677085) /* Icon */
-     , (28884,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28884,   1, 0x020011DE) /* Setup */
+     , (28884,   3, 0x20000014) /* SoundTable */
+     , (28884,   8, 0x060035DD) /* Icon */
+     , (28884,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28884, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (28884, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28884, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28884, 8000, 2949259037) /* PCAPRecordedObjectIID */;
+VALUES (28884, 8000, 0xAFCA1F1D) /* PCAPRecordedObjectIID */;

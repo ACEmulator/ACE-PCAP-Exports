@@ -24,17 +24,17 @@ VALUES (3494,   1, 'Scroll of Sprint Self III') /* Name */
 Increases the caster''s Run skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3494,   1,   33554826) /* Setup */
-     , (3494,   8,  100676470) /* Icon */
-     , (3494,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3494,   1, 0x0200018A) /* Setup */
+     , (3494,   8, 0x06003376) /* Icon */
+     , (3494,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3494,  28,        984) /* Spell - SprintSelf3 */
      , (3494, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (3494, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3494, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3494, 8040, 3330801681, 61.35759, 16.1043, 32.0855, -0.06908172, 0, 0, -0.997611) /* PCAPRecordedLocation */
+VALUES (3494, 8040, 0xC6880011, 61.35759, 16.1043, 32.0855, -0.069082, 0, 0, -0.997611) /* PCAPRecordedLocation */
 /* @teleloc 0xC6880011 [61.357590 16.104300 32.085500] -0.069082 0.000000 0.000000 -0.997611 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3494, 8000, 3622283149) /* PCAPRecordedObjectIID */;
+VALUES (3494, 8000, 0xD7E7A78D) /* PCAPRecordedObjectIID */;

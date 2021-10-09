@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33848,   1, 'Force Bomb') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33848,   1,   33560088) /* Setup */
-     , (33848,   3,  536870971) /* SoundTable */
-     , (33848,   8,  100667494) /* Icon */
+VALUES (33848,   1, 0x02001618) /* Setup */
+     , (33848,   3, 0x2000003B) /* SoundTable */
+     , (33848,   8, 0x06001066) /* Icon */
      , (33848,  28,       3972) /* Spell - ForceBomb */
      , (33848, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (33848, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (33848, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33848, 8040, 2114127973, 405.4266, -59.75156, 8, -0.844431, 0, 0, -0.5356643) /* PCAPRecordedLocation */
+VALUES (33848, 8040, 0x7E030865, 405.4266, -59.75156, 8, -0.844431, 0, 0, -0.535664) /* PCAPRecordedLocation */
 /* @teleloc 0x7E030865 [405.426600 -59.751560 8.000000] -0.844431 0.000000 0.000000 -0.535664 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33848, 8000, 3360821985) /* PCAPRecordedObjectIID */;
+VALUES (33848, 8000, 0xC85212E1) /* PCAPRecordedObjectIID */;

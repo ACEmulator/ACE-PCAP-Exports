@@ -28,17 +28,17 @@ VALUES (7046,   1, 'Sclavus Tongue') /* Name */
      , (7046,  16, 'The tongue of a departed Sclavus.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7046,   1,   33554817) /* Setup */
-     , (7046,   3,  536870932) /* SoundTable */
-     , (7046,   6,   67111919) /* PaletteBase */
-     , (7046,   8,  100670687) /* Icon */
-     , (7046,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7046,   1, 0x02000181) /* Setup */
+     , (7046,   3, 0x20000014) /* SoundTable */
+     , (7046,   6, 0x04000BEF) /* PaletteBase */
+     , (7046,   8, 0x06001CDF) /* Icon */
+     , (7046,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7046, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7046, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7046, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7046, 8000, 2192761496) /* PCAPRecordedObjectIID */;
+VALUES (7046, 8000, 0x82B2E298) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7046, 67111923, 0, 0);

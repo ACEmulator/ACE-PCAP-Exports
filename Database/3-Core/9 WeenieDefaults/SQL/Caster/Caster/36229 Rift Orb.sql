@@ -9,6 +9,7 @@ VALUES (36229,   1,      32768) /* ItemType - Caster */
      , (36229,   9,   16777216) /* ValidLocations - Held */
      , (36229,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (36229,  19,      17000) /* Value */
+     , (36229,  46,        512) /* DefaultCombatStyle - Magic */
      , (36229,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36229,  94,         16) /* TargetType - Creature */
      , (36229, 106,        425) /* ItemSpellcraft */
@@ -36,10 +37,10 @@ VALUES (36229,   1, 'Rift Orb') /* Name */
      , (36229,   8, 'Azrakin') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36229,   1,   33560377) /* Setup */
-     , (36229,   3,  536870932) /* SoundTable */
-     , (36229,   8,  100689612) /* Icon */
-     , (36229,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36229,   1, 0x02001739) /* Setup */
+     , (36229,   3, 0x20000014) /* SoundTable */
+     , (36229,   8, 0x060066CC) /* Icon */
+     , (36229,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36229,  28,       2100) /* Spell - Brittlemail7 */
      , (36229,  37,         32) /* ItemSkillLimit - ItemEnchantment */
      , (36229, 8001,  275333144) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, TargetType, Burden, Spell, HookType */
@@ -47,10 +48,10 @@ VALUES (36229,   1,   33560377) /* Setup */
      , (36229, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36229, 8000, 2210356824) /* PCAPRecordedObjectIID */;
+VALUES (36229, 8000, 0x83BF5E58) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36229,  2014,      2)  /* WizardsUltimateIntellect */
-     , (36229,  2248,      2)  /* ItemEnchantmentMasteryOther7 */
-     , (36229,  2286,      2)  /* ManaMasteryOther7 */
-     , (36229,  2516,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE2 */;
+VALUES (36229,  2248,      2)  /* ItemEnchantmentMasteryOther7 */
+     , (36229,  2516,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE2 */
+     , (36229,  2014,      2)  /* WizardsUltimateIntellect */
+     , (36229,  2286,      2)  /* ManaMasteryOther7 */;

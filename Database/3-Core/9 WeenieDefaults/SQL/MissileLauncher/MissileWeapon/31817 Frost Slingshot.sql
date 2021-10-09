@@ -15,7 +15,7 @@ VALUES (31817,   1,        256) /* ItemType - MissileWeapon */
      , (31817,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31817,  49,         20) /* WeaponTime */
      , (31817,  50,          4) /* AmmoType - Atlatl */
-     , (31817,  51,          2) /* CombatUse - Missle */
+     , (31817,  51,          2) /* CombatUse - Missile */
      , (31817,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31817, 105,          6) /* ItemWorkmanship */
      , (31817, 106,        273) /* ItemSpellcraft */
@@ -55,23 +55,23 @@ VALUES (31817,   1, 'Frost Slingshot') /* Name */
      , (31817,  16, 'Frost Slingshot of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31817,   1,   33559675) /* Setup */
-     , (31817,   3,  536870932) /* SoundTable */
-     , (31817,   6,   67116700) /* PaletteBase */
-     , (31817,   8,  100688027) /* Icon */
-     , (31817,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31817,   1, 0x0200147B) /* Setup */
+     , (31817,   3, 0x20000014) /* SoundTable */
+     , (31817,   6, 0x04001E9C) /* PaletteBase */
+     , (31817,   8, 0x0600609B) /* Icon */
+     , (31817,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31817,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (31817, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31817, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31817, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31817, 8000, 3690298019) /* PCAPRecordedObjectIID */;
+VALUES (31817, 8000, 0xDBF57AA3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31817,  2087,      2)  /* StrengthSelf7 */
-     , (31817,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (31817,  2514,      2)  /* CANTRIPIMPREGNABILITY2 */;
+VALUES (31817,  2514,      2)  /* CANTRIPIMPREGNABILITY2 */
+     , (31817,  2087,      2)  /* StrengthSelf7 */
+     , (31817,  2096,      2)  /* BloodDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31817, 67116700, 1, 100)

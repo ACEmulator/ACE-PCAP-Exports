@@ -51,20 +51,20 @@ VALUES (3763,   1, 'Lightning Budiaq') /* Name */
      , (3763,  16, 'Lightning Budiaq of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3763,   1,   33555789) /* Setup */
-     , (3763,   3,  536870932) /* SoundTable */
-     , (3763,   6,   67111919) /* PaletteBase */
-     , (3763,   8,  100669007) /* Icon */
-     , (3763,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3763,   1, 0x0200054D) /* Setup */
+     , (3763,   3, 0x20000014) /* SoundTable */
+     , (3763,   6, 0x04000BEF) /* PaletteBase */
+     , (3763,   8, 0x0600164F) /* Icon */
+     , (3763,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3763,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (3763,  52,  100676436) /* IconUnderlay */
+     , (3763,  52, 0x06003354) /* IconUnderlay */
      , (3763, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3763, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (3763, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (3763, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3763, 8000, 2174542975) /* PCAPRecordedObjectIID */;
+VALUES (3763, 8000, 0x819CE47F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3763,  1613,      2)  /* BloodDrinkerSelf3 */;

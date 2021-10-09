@@ -23,13 +23,13 @@ VALUES (34400,   1, 'Holiday Hearth') /* Name */
      , (34400,  15, 'This item can be used on floor hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34400,   1,   33560162) /* Setup */
-     , (34400,   3,  536870932) /* SoundTable */
-     , (34400,   8,  100672429) /* Icon */
-     , (34400,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34400,   1, 0x02001662) /* Setup */
+     , (34400,   3, 0x20000014) /* SoundTable */
+     , (34400,   8, 0x060023AD) /* Icon */
+     , (34400,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34400, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (34400, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34400, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34400, 8000, 2148264617) /* PCAPRecordedObjectIID */;
+VALUES (34400, 8000, 0x800BEAA9) /* PCAPRecordedObjectIID */;

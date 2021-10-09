@@ -44,29 +44,29 @@ VALUES (33889,   1, 'Helm of the Abyssal Totem') /* Name */
      , (33889,  16, 'A helm of powerful enchantments, granted as a reward for the destruction of the Abyssal Totem of Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33889,   1,   33556856) /* Setup */
-     , (33889,   3,  536870932) /* SoundTable */
-     , (33889,   6,   67108990) /* PaletteBase */
-     , (33889,   8,  100688251) /* Icon */
-     , (33889,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33889,   1, 0x02000978) /* Setup */
+     , (33889,   3, 0x20000014) /* SoundTable */
+     , (33889,   6, 0x0400007E) /* PaletteBase */
+     , (33889,   8, 0x0600617B) /* Icon */
+     , (33889,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33889, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (33889, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33889, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33889, 8000, 2150254811) /* PCAPRecordedObjectIID */;
+VALUES (33889, 8000, 0x802A48DB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33889,  2092,      2)  /* AcidBane7 */
+VALUES (33889,  2113,      2)  /* PiercingBane7 */
+     , (33889,  2573,      2)  /* CANTRIPENDURANCE2 */
+     , (33889,  2661,      2)  /* ModerateFocus */
+     , (33889,  2092,      2)  /* AcidBane7 */
      , (33889,  2094,      2)  /* BladeBane7 */
      , (33889,  2098,      2)  /* BludgeonBane7 */
      , (33889,  2102,      2)  /* FlameBane7 */
      , (33889,  2104,      2)  /* FrostBane7 */
      , (33889,  2108,      2)  /* Impenetrability7 */
-     , (33889,  2110,      2)  /* LightningBane7 */
-     , (33889,  2113,      2)  /* PiercingBane7 */
-     , (33889,  2573,      2)  /* CANTRIPENDURANCE2 */
-     , (33889,  2661,      2)  /* ModerateFocus */;
+     , (33889,  2110,      2)  /* LightningBane7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33889, 67110348, 250, 6)

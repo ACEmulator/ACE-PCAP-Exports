@@ -37,22 +37,22 @@ VALUES (37477,   1, 'Hurnmel the Smith') /* Name */
      , (37477, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37477,   1,   33554433) /* Setup */
-     , (37477,   2,  150994945) /* MotionTable */
-     , (37477,   3,  536870913) /* SoundTable */
-     , (37477,   6,   67108990) /* PaletteBase */
-     , (37477,   8,  100667446) /* Icon */
+VALUES (37477,   1, 0x02000001) /* Setup */
+     , (37477,   2, 0x09000001) /* MotionTable */
+     , (37477,   3, 0x20000001) /* SoundTable */
+     , (37477,   6, 0x0400007E) /* PaletteBase */
+     , (37477,   8, 0x06001036) /* Icon */
      , (37477,  57,      37492) /* AlternateCurrency - Spectral Ingot */
      , (37477, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (37477, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (37477, 8005,     362691) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37477, 8040, 15335737, 120.753, -59.8032, -77.994, 0.7094972, 0, 0, -0.7047082) /* PCAPRecordedLocation */
+VALUES (37477, 8040, 0x00EA0139, 120.753, -59.8032, -77.994, 0.709497, 0, 0, -0.704708) /* PCAPRecordedLocation */
 /* @teleloc 0x00EA0139 [120.753000 -59.803200 -77.994000] 0.709497 0.000000 0.000000 -0.704708 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37477, 8000, 3675214003) /* PCAPRecordedObjectIID */;
+VALUES (37477, 8000, 0xDB0F50B3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (37477,   1,  75, 0, 0) /* Strength */
@@ -68,7 +68,8 @@ VALUES (37477,   1,    60, 0, 0, 95) /* MaxHealth */
      , (37477,   5,    40, 0, 0, 70) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37477, 4, 37465, -1, 0, 0, False) /* Create Axe Stamped Spectral Ingot (37465) for Shop */
+VALUES (37477, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
+     , (37477, 4, 37465, -1, 0, 0, False) /* Create Axe Stamped Spectral Ingot (37465) for Shop */
      , (37477, 4, 37469, -1, 0, 0, False) /* Create Claw Stamped Spectral Ingot (37469) for Shop */
      , (37477, 4, 37471, -1, 0, 0, False) /* Create Dagger Stamped Spectral Ingot (37471) for Shop */
      , (37477, 4, 37472, -1, 0, 0, False) /* Create Mace Stamped Spectral Ingot (37472) for Shop */

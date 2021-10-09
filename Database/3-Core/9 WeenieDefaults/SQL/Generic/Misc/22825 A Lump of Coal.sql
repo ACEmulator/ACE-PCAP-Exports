@@ -23,17 +23,17 @@ VALUES (22825,   1, 'A Lump of Coal') /* Name */
      , (22825,  15, 'A Lump of Coal') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22825,   1,   33554669) /* Setup */
-     , (22825,   3,  536870932) /* SoundTable */
-     , (22825,   6,   67111928) /* PaletteBase */
-     , (22825,   8,  100673875) /* Icon */
-     , (22825,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22825,   1, 0x020000ED) /* Setup */
+     , (22825,   3, 0x20000014) /* SoundTable */
+     , (22825,   6, 0x04000BF8) /* PaletteBase */
+     , (22825,   8, 0x06002953) /* Icon */
+     , (22825,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22825, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (22825, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22825, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22825, 8000, 2186220493) /* PCAPRecordedObjectIID */;
+VALUES (22825, 8000, 0x824F13CD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22825, 67111925, 0, 0);

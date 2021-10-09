@@ -36,13 +36,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (530,   1, 'Starter Shou-ono') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (530,   1,   33554727) /* Setup */
-     , (530,   3,  536870932) /* SoundTable */
-     , (530,   8,  100667581) /* Icon */
-     , (530,  22,  872415275) /* PhysicsEffectTable */
+VALUES (530,   1, 0x02000127) /* Setup */
+     , (530,   3, 0x20000014) /* SoundTable */
+     , (530,   8, 0x060010BD) /* Icon */
+     , (530,  22, 0x3400002B) /* PhysicsEffectTable */
      , (530, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (530, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (530, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (530, 8000, 2931887696) /* PCAPRecordedObjectIID */;
+VALUES (530, 8000, 0xAEC10E50) /* PCAPRecordedObjectIID */;

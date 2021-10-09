@@ -17,16 +17,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22324,   1, 'Finesse Weapons Gem of Forgetfulness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22324,   1,   33558087) /* Setup */
-     , (22324,   6,   67111919) /* PaletteBase */
-     , (22324,   8,  100673789) /* Icon */
-     , (22324,  50,  100692238) /* IconOverlay */
+VALUES (22324,   1, 0x02000E47) /* Setup */
+     , (22324,   6, 0x04000BEF) /* PaletteBase */
+     , (22324,   8, 0x060028FD) /* Icon */
+     , (22324,  50, 0x0600710E) /* IconOverlay */
      , (22324, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (22324, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22324, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22324, 8000, 2182531482) /* PCAPRecordedObjectIID */;
+VALUES (22324, 8000, 0x8216C99A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22324, 67111924, 0, 0);

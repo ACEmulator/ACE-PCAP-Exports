@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7774,   1, 'Concerning the Revelations of Anti-Magic') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7774,   1,   33554771) /* Setup */
-     , (7774,   3,  536870932) /* SoundTable */
-     , (7774,   8,  100668117) /* Icon */
-     , (7774,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7774,   1, 0x02000153) /* Setup */
+     , (7774,   3, 0x20000014) /* SoundTable */
+     , (7774,   8, 0x060012D5) /* Icon */
+     , (7774,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7774, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (7774, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (7774, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7774, 8000, 2882361290) /* PCAPRecordedObjectIID */;
+VALUES (7774, 8000, 0xABCD57CA) /* PCAPRecordedObjectIID */;

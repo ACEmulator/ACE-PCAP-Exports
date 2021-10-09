@@ -24,13 +24,13 @@ VALUES (20609,   1, 'Scroll of Gift of Vigor') /* Name */
 Drains one-quarter of the caster''s Stamina and gives 175% of that to the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20609,   1,   33554826) /* Setup */
-     , (20609,   8,  100676930) /* Icon */
-     , (20609,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20609,   1, 0x0200018A) /* Setup */
+     , (20609,   8, 0x06003542) /* Icon */
+     , (20609,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20609,  28,       2337) /* Spell - InfuseStamina7 */
      , (20609, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20609, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20609, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20609, 8000, 3682417236) /* PCAPRecordedObjectIID */;
+VALUES (20609, 8000, 0xDB7D3A54) /* PCAPRecordedObjectIID */;

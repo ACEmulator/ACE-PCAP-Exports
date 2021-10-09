@@ -24,13 +24,13 @@ VALUES (45270,   1, 'Scroll of Dual Wield Mastery Other III') /* Name */
 Increases the target''s Dual Wield skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45270,   1,   33554826) /* Setup */
-     , (45270,   8,  100692251) /* Icon */
-     , (45270,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45270,   1, 0x0200018A) /* Setup */
+     , (45270,   8, 0x0600711B) /* Icon */
+     , (45270,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45270,  28,       5797) /* Spell - DualWieldMasteryOther3 */
      , (45270, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45270, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45270, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45270, 8000, 3361414908) /* PCAPRecordedObjectIID */;
+VALUES (45270, 8000, 0xC85B1EFC) /* PCAPRecordedObjectIID */;

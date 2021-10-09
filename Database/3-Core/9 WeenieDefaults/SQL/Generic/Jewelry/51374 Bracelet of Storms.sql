@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51374,   1,          8) /* ItemType - Jewelry */
      , (51374,   5,         60) /* EncumbranceVal */
      , (51374,   9,     196608) /* ValidLocations - WristWear */
-     , (51374,  10,      65536) /* CurrentWieldedLocation - WristWearLeft */
      , (51374,  16,          1) /* ItemUseable - No */
      , (51374,  18,         64) /* UiEffects - Lightning */
      , (51374,  19,      20000) /* Value */
@@ -33,17 +32,17 @@ VALUES (51374,   1, 'Bracelet of Storms') /* Name */
      , (51374,  15, 'A bracelet of lightning protection, given by Behdo Yii for completing the Hive Warrior quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51374,   1,   33554683) /* Setup */
-     , (51374,   3,  536870932) /* SoundTable */
-     , (51374,   6,   67111919) /* PaletteBase */
-     , (51374,   8,  100668628) /* Icon */
-     , (51374,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51374,   1, 0x020000FB) /* Setup */
+     , (51374,   3, 0x20000014) /* SoundTable */
+     , (51374,   6, 0x04000BEF) /* PaletteBase */
+     , (51374,   8, 0x060014D4) /* Icon */
+     , (51374,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51374, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (51374, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51374, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51374, 8000, 2345789216) /* PCAPRecordedObjectIID */;
+VALUES (51374, 8000, 0x8BD1E720) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51374,  4469,      2)  /* LightningProtectionOther8 */

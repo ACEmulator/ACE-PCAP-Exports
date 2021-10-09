@@ -14,7 +14,7 @@ VALUES (51271,   1,         16) /* ItemType - Creature */
      , (51271,  95,          8) /* RadarBlipColor - Yellow */
      , (51271, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (51271, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (51271, 281,          2) /* Faction1Bits */
+     , (51271, 281,          2) /* Faction1Bits - EldrytchWeb */
      , (51271, 288,          1) /* SocietyRankEldweb */
      , (51271, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -31,21 +31,21 @@ VALUES (51271,   1, 'Tressar') /* Name */
      , (51271, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51271,   1,   33561250) /* Setup */
-     , (51271,   2,  150994945) /* MotionTable */
-     , (51271,   3,  536870914) /* SoundTable */
-     , (51271,   6,   67108990) /* PaletteBase */
-     , (51271,   8,  100667446) /* Icon */
+VALUES (51271,   1, 0x02001AA2) /* Setup */
+     , (51271,   2, 0x09000001) /* MotionTable */
+     , (51271,   3, 0x20000002) /* SoundTable */
+     , (51271,   6, 0x0400007E) /* PaletteBase */
+     , (51271,   8, 0x06001036) /* Icon */
      , (51271, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (51271, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (51271, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51271, 8040, 12059247, 156.07, -42.2549, -17.995, 0.00333196, 0, 0, -0.999994) /* PCAPRecordedLocation */
+VALUES (51271, 8040, 0x00B8026F, 156.07, -42.2549, -17.995, 0.003332, 0, 0, -0.999994) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026F [156.070000 -42.254900 -17.995000] 0.003332 0.000000 0.000000 -0.999994 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51271, 8000, 2921673416) /* PCAPRecordedObjectIID */;
+VALUES (51271, 8000, 0xAE2532C8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (51271,   1, 290, 0, 0) /* Strength */

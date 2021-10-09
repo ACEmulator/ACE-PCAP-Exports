@@ -16,7 +16,7 @@ VALUES (28331,   1,        256) /* ItemType - MissileWeapon */
      , (28331,  48,         47) /* WeaponSkill - MissileWeapons */
      , (28331,  49,         30) /* WeaponTime */
      , (28331,  50,          8) /* AmmoType - ArrowCrystal */
-     , (28331,  51,          2) /* CombatUse - Missle */
+     , (28331,  51,          2) /* CombatUse - Missile */
      , (28331,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28331, 106,        200) /* ItemSpellcraft */
      , (28331, 107,        499) /* ItemCurMana */
@@ -47,20 +47,20 @@ VALUES (28331,   1, 'Fenmalain Crystal Bow') /* Name */
      , (28331,  15, 'A bow imbued with the essence of the Fenmalain Crystal. Uses crystal-tipped arrows.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28331,   1,   33554729) /* Setup */
-     , (28331,   3,  536870932) /* SoundTable */
-     , (28331,   6,   67111919) /* PaletteBase */
-     , (28331,   8,  100670998) /* Icon */
-     , (28331,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28331,   1, 0x02000129) /* Setup */
+     , (28331,   3, 0x20000014) /* SoundTable */
+     , (28331,   6, 0x04000BEF) /* PaletteBase */
+     , (28331,   8, 0x06001E16) /* Icon */
+     , (28331,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28331, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (28331, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28331, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28331, 8000, 2884942166) /* PCAPRecordedObjectIID */;
+VALUES (28331, 8000, 0xABF4B956) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28331,   463,      2)  /* BowMasteryOther3 */;
+VALUES (28331,   463,      2)  /* MissileWeaponsMasteryOther3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28331, 67112924, 0, 0);

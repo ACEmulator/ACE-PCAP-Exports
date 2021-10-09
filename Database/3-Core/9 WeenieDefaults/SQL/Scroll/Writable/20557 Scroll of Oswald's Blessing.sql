@@ -24,13 +24,13 @@ VALUES (20557,   1, 'Scroll of Oswald''s Blessing') /* Name */
 Increases the caster''s Lockpick skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20557,   1,   33554826) /* Setup */
-     , (20557,   8,  100676463) /* Icon */
-     , (20557,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20557,   1, 0x0200018A) /* Setup */
+     , (20557,   8, 0x0600336F) /* Icon */
+     , (20557,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20557,  28,       2271) /* Spell - LockpickMasterySelf7 */
      , (20557, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20557, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20557, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20557, 8000, 3357942871) /* PCAPRecordedObjectIID */;
+VALUES (20557, 8000, 0xC8262457) /* PCAPRecordedObjectIID */;

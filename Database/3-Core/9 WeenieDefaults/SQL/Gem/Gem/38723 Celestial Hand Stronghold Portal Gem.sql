@@ -26,7 +26,8 @@ VALUES (38723,   1,       2048) /* ItemType - Gem */
      , (38723, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38723,  69, False) /* IsSellable */;
+VALUES (38723,  23, True ) /* DestroyOnSell */
+     , (38723,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38723, 167,      15) /* CooldownDuration */;
@@ -36,11 +37,11 @@ VALUES (38723,   1, 'Celestial Hand Stronghold Portal Gem') /* Name */
      , (38723,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38723,   1,   33556769) /* Setup */
-     , (38723,   3,  536870932) /* SoundTable */
-     , (38723,   6,   67111919) /* PaletteBase */
-     , (38723,   8,  100672464) /* Icon */
-     , (38723,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38723,   1, 0x02000921) /* Setup */
+     , (38723,   3, 0x20000014) /* SoundTable */
+     , (38723,   6, 0x04000BEF) /* PaletteBase */
+     , (38723,   8, 0x060023D0) /* Icon */
+     , (38723,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38723,  28,        157) /* Spell - SummonPortal1 */
      , (38723, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (38723, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -48,7 +49,7 @@ VALUES (38723,   1,   33556769) /* Setup */
      , (38723, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38723, 8000, 3018341925) /* PCAPRecordedObjectIID */;
+VALUES (38723, 8000, 0xB3E83E25) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38723, 67111922, 0, 0);

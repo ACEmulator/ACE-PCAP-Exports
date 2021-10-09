@@ -26,20 +26,20 @@ VALUES (42443,   1, 'Corrosion Wisp') /* Name */
      , (42443, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42443,   1,   33557068) /* Setup */
-     , (42443,   2,  150995087) /* MotionTable */
-     , (42443,   3,  536870985) /* SoundTable */
-     , (42443,   8,  100671683) /* Icon */
+VALUES (42443,   1, 0x02000A4C) /* Setup */
+     , (42443,   2, 0x0900008F) /* MotionTable */
+     , (42443,   3, 0x20000049) /* SoundTable */
+     , (42443,   8, 0x060020C3) /* Icon */
      , (42443, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (42443, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42443, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42443, 8040, 625279022, 142.041, 129.992, 0.006500006, 0.7062593, 0, 0, 0.7079533) /* PCAPRecordedLocation */
+VALUES (42443, 8040, 0x2545002E, 142.041, 129.992, 0.0065, 0.706259, 0, 0, 0.707953) /* PCAPRecordedLocation */
 /* @teleloc 0x2545002E [142.041000 129.992000 0.006500] 0.706259 0.000000 0.000000 0.707953 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42443, 8000, 3679439290) /* PCAPRecordedObjectIID */;
+VALUES (42443, 8000, 0xDB4FC9BA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (42443,   1,     0, 0, 0, 325) /* MaxHealth */;

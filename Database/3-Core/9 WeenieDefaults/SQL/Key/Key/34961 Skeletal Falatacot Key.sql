@@ -24,13 +24,13 @@ VALUES (34961,   1, 'Skeletal Falatacot Key') /* Name */
      , (34961,  15, 'A grim-looking bone key with dark red stains that you suspect are old blood stains.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34961,   1,   33554784) /* Setup */
-     , (34961,   3,  536870932) /* SoundTable */
-     , (34961,   8,  100689406) /* Icon */
-     , (34961,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34961,   1, 0x02000160) /* Setup */
+     , (34961,   3, 0x20000014) /* SoundTable */
+     , (34961,   8, 0x060065FE) /* Icon */
+     , (34961,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34961, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (34961, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34961, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34961, 8000, 2461713256) /* PCAPRecordedObjectIID */;
+VALUES (34961, 8000, 0x92BAC368) /* PCAPRecordedObjectIID */;

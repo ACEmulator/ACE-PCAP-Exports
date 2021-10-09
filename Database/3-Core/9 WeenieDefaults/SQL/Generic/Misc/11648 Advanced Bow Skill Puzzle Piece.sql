@@ -21,16 +21,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11648,   1, 'Advanced Bow Skill Puzzle Piece') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11648,   1,   33554669) /* Setup */
-     , (11648,   3,  536870932) /* SoundTable */
-     , (11648,   8,  100671707) /* Icon */
-     , (11648,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11648,   1, 0x020000ED) /* Setup */
+     , (11648,   3, 0x20000014) /* SoundTable */
+     , (11648,   8, 0x060020DB) /* Icon */
+     , (11648,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11648, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (11648, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11648, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11648, 8000, 3629959759) /* PCAPRecordedObjectIID */;
+VALUES (11648, 8000, 0xD85CCA4F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11648, 0, 83888861, 83890936);

@@ -36,27 +36,27 @@ VALUES (2252,   1, 'Kiun Baicho the Barkeeper') /* Name */
      , (2252, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2252,   1,   33554510) /* Setup */
-     , (2252,   2,  150994945) /* MotionTable */
-     , (2252,   3,  536870914) /* SoundTable */
-     , (2252,   6,   67108990) /* PaletteBase */
-     , (2252,   8,  100667446) /* Icon */
-     , (2252,   9,   83890244) /* EyesTexture */
-     , (2252,  10,   83890292) /* NoseTexture */
-     , (2252,  11,   83890325) /* MouthTexture */
-     , (2252,  15,   67117068) /* HairPalette */
-     , (2252,  16,   67110063) /* EyesPalette */
-     , (2252,  17,   67110061) /* SkinPalette */
+VALUES (2252,   1, 0x0200004E) /* Setup */
+     , (2252,   2, 0x09000001) /* MotionTable */
+     , (2252,   3, 0x20000002) /* SoundTable */
+     , (2252,   6, 0x0400007E) /* PaletteBase */
+     , (2252,   8, 0x06001036) /* Icon */
+     , (2252,   9, 0x05001044) /* EyesTexture */
+     , (2252,  10, 0x05001074) /* NoseTexture */
+     , (2252,  11, 0x05001095) /* MouthTexture */
+     , (2252,  15, 0x0400200C) /* HairPalette */
+     , (2252,  16, 0x040004AF) /* EyesPalette */
+     , (2252,  17, 0x040004AD) /* SkinPalette */
      , (2252, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2252, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2252, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2252, 8040, 3443589376, 162.438, 111.823, 54.005, -0.8208731, 0, 0, -0.5711105) /* PCAPRecordedLocation */
+VALUES (2252, 8040, 0xCD410100, 162.438, 111.823, 54.005, -0.820873, 0, 0, -0.571111) /* PCAPRecordedLocation */
 /* @teleloc 0xCD410100 [162.438000 111.823000 54.005000] -0.820873 0.000000 0.000000 -0.571111 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2252, 8000, 2094272547) /* PCAPRecordedObjectIID */;
+VALUES (2252, 8000, 0x7CD41023) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2252,   1,  85, 0, 0) /* Strength */

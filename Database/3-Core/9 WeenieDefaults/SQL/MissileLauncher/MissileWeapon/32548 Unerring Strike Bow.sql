@@ -15,7 +15,7 @@ VALUES (32548,   1,        256) /* ItemType - MissileWeapon */
      , (32548,  48,         47) /* WeaponSkill - MissileWeapons */
      , (32548,  49,          0) /* WeaponTime */
      , (32548,  50,          1) /* AmmoType - Arrow */
-     , (32548,  51,          2) /* CombatUse - Missle */
+     , (32548,  51,          2) /* CombatUse - Missile */
      , (32548,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32548, 106,        300) /* ItemSpellcraft */
      , (32548, 107,       2984) /* ItemCurMana */
@@ -50,23 +50,23 @@ VALUES (32548,   1, 'Unerring Strike Bow') /* Name */
      , (32548,  16, 'One of a set of bows made by Tomo Genza. It is an amazingly well balanced and lovingly crafted weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32548,   1,   33559028) /* Setup */
-     , (32548,   3,  536870932) /* SoundTable */
-     , (32548,   6,   67115373) /* PaletteBase */
-     , (32548,   8,  100677117) /* Icon */
-     , (32548,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32548,   1, 0x020011F4) /* Setup */
+     , (32548,   3, 0x20000014) /* SoundTable */
+     , (32548,   6, 0x0400196D) /* PaletteBase */
+     , (32548,   8, 0x060035FD) /* Icon */
+     , (32548,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32548, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (32548, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32548, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32548, 8000, 3330405386) /* PCAPRecordedObjectIID */;
+VALUES (32548, 8000, 0xC681F40A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32548,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (32548,  2101,      2)  /* DefenderSelf7 */
-     , (32548,  2116,      2)  /* SwiftKillerSelf7 */
-     , (32548,  2659,      2)  /* ModerateCoordination */;
+VALUES (32548,  2116,      2)  /* SwiftKillerSelf7 */
+     , (32548,  2659,      2)  /* ModerateCoordination */
+     , (32548,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (32548,  2101,      2)  /* DefenderSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32548, 67115376, 0, 0);

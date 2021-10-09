@@ -26,19 +26,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43947,   1, 'Sealed crate of Salvaged Black Garnet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43947,   1,   33556223) /* Setup */
-     , (43947,   3,  536870932) /* SoundTable */
-     , (43947,   6,   67111928) /* PaletteBase */
-     , (43947,   8,  100668152) /* Icon */
-     , (43947,  22,  872415275) /* PhysicsEffectTable */
-     , (43947,  50,  100673264) /* IconOverlay */
+VALUES (43947,   1, 0x020006FF) /* Setup */
+     , (43947,   3, 0x20000014) /* SoundTable */
+     , (43947,   6, 0x04000BF8) /* PaletteBase */
+     , (43947,   8, 0x060012F8) /* Icon */
+     , (43947,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43947,  50, 0x060026F0) /* IconOverlay */
      , (43947, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (43947, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43947, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (43947, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43947, 8000,      43947) /* PCAPRecordedObjectIID */;
+VALUES (43947, 8000, 0x0000ABAB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43947, 67112642, 0, 0);

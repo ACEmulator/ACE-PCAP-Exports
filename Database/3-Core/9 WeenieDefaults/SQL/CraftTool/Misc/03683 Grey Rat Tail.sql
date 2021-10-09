@@ -27,17 +27,17 @@ VALUES (3683,   1, 'Grey Rat Tail') /* Name */
      , (3683,  14, 'This has no apparent use.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3683,   1,   33554817) /* Setup */
-     , (3683,   3,  536870932) /* SoundTable */
-     , (3683,   6,   67111919) /* PaletteBase */
-     , (3683,   8,  100670065) /* Icon */
-     , (3683,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3683,   1, 0x02000181) /* Setup */
+     , (3683,   3, 0x20000014) /* SoundTable */
+     , (3683,   6, 0x04000BEF) /* PaletteBase */
+     , (3683,   8, 0x06001A71) /* Icon */
+     , (3683,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3683, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (3683, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3683, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3683, 8000, 3356963940) /* PCAPRecordedObjectIID */;
+VALUES (3683, 8000, 0xC8173464) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3683, 67111926, 0, 0);

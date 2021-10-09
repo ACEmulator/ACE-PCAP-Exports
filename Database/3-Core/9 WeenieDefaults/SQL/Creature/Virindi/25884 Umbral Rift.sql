@@ -26,21 +26,21 @@ VALUES (25884,   1, 'Umbral Rift') /* Name */
      , (25884, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25884,   1,   33558551) /* Setup */
-     , (25884,   2,  150995087) /* MotionTable */
-     , (25884,   3,  536871001) /* SoundTable */
-     , (25884,   8,  100671702) /* Icon */
-     , (25884,  22,  872415375) /* PhysicsEffectTable */
+VALUES (25884,   1, 0x02001017) /* Setup */
+     , (25884,   2, 0x0900008F) /* MotionTable */
+     , (25884,   3, 0x20000059) /* SoundTable */
+     , (25884,   8, 0x060020D6) /* Icon */
+     , (25884,  22, 0x3400008F) /* PhysicsEffectTable */
      , (25884, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (25884, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (25884, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25884, 8040, 118292516, 118.4827, 92.01466, 17.34328, 0.9950003, 0, 0, -0.0998721) /* PCAPRecordedLocation */
+VALUES (25884, 8040, 0x070D0024, 118.4827, 92.01466, 17.34328, 0.995, 0, 0, -0.099872) /* PCAPRecordedLocation */
 /* @teleloc 0x070D0024 [118.482700 92.014660 17.343280] 0.995000 0.000000 0.000000 -0.099872 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25884, 8000, 3689353424) /* PCAPRecordedObjectIID */;
+VALUES (25884, 8000, 0xDBE710D0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25884,   1, 180, 0, 0) /* Strength */
@@ -62,4 +62,6 @@ VALUES (25884, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for Co
      , (25884, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
      , (25884, 9,    90,  0, 0, 0, False) /* Create Yoroi Pauldrons (90) for ContainTreasure */
      , (25884, 9, 20594,  0, 0, 0, False) /* Create Scroll of Wrath of the Hieromancer (20594) for ContainTreasure */
-     , (25884, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */;
+     , (25884, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (25884, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (25884, 9, 21322,  0, 0, 0, False) /* Create Scroll of Frost Arc VII (21322) for ContainTreasure */;

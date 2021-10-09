@@ -34,25 +34,25 @@ VALUES (30201,   1, 'Pearl of Defending') /* Name */
      , (30201,  20, 'Pearls of Defending') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30201,   1,   33554809) /* Setup */
-     , (30201,   3,  536870932) /* SoundTable */
-     , (30201,   6,   67111919) /* PaletteBase */
-     , (30201,   8,  100686695) /* Icon */
-     , (30201,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30201,   1, 0x02000179) /* Setup */
+     , (30201,   3, 0x20000014) /* SoundTable */
+     , (30201,   6, 0x04000BEF) /* PaletteBase */
+     , (30201,   8, 0x06005B67) /* Icon */
+     , (30201,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30201,  28,       3699) /* Spell - DefenderRare */
-     , (30201,  50,  100686646) /* IconOverlay */
-     , (30201,  52,  100686604) /* IconUnderlay */
+     , (30201,  50, 0x06005B36) /* IconOverlay */
+     , (30201,  52, 0x06005B0C) /* IconUnderlay */
      , (30201, 8001, 1349005457) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30201, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30201, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30201, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30201, 8040, 23855548, 53.04251, -28.4129, -0.001000002, -0.02943131, 0, 0, -0.9995668) /* PCAPRecordedLocation */
+VALUES (30201, 8040, 0x016C01BC, 53.04251, -28.4129, -0.001, -0.029431, 0, 0, -0.999567) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [53.042510 -28.412900 -0.001000] -0.029431 0.000000 0.000000 -0.999567 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30201, 8000, 2900503853) /* PCAPRecordedObjectIID */;
+VALUES (30201, 8000, 0xACE22D2D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30201, 67111919, 0, 0);

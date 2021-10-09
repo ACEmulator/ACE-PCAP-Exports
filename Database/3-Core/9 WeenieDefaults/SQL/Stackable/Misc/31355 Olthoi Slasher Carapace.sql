@@ -17,18 +17,21 @@ VALUES (31355,   1,        128) /* ItemType - Misc */
      , (31355, 114,          1) /* Attuned - Attuned */
      , (31355, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31355,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31355,   1, 'Olthoi Slasher Carapace') /* Name */
      , (31355,  16, 'The pristine carapace of an Olthoi Slasher.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31355,   1,   33554817) /* Setup */
-     , (31355,   3,  536870932) /* SoundTable */
-     , (31355,   8,  100687695) /* Icon */
-     , (31355,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31355,   1, 0x02000181) /* Setup */
+     , (31355,   3, 0x20000014) /* SoundTable */
+     , (31355,   8, 0x06005F4F) /* Icon */
+     , (31355,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31355, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (31355, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31355, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31355, 8000, 2155931568) /* PCAPRecordedObjectIID */;
+VALUES (31355, 8000, 0x8080E7B0) /* PCAPRecordedObjectIID */;

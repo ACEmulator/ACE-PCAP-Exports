@@ -24,13 +24,13 @@ VALUES (27234,   1, 'Scroll of Eradicate Creature Magic Self') /* Name */
 Dispels 3-6 negative Creature Magic enchantments of level 7 or lower from the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27234,   1,   33554826) /* Setup */
-     , (27234,   8,  100676647) /* Icon */
-     , (27234,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27234,   1, 0x0200018A) /* Setup */
+     , (27234,   8, 0x06003427) /* Icon */
+     , (27234,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27234,  28,       3185) /* Spell - DispelCreatureBadSelf7 */
      , (27234, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (27234, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27234, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27234, 8000, 3707987641) /* PCAPRecordedObjectIID */;
+VALUES (27234, 8000, 0xDD0366B9) /* PCAPRecordedObjectIID */;

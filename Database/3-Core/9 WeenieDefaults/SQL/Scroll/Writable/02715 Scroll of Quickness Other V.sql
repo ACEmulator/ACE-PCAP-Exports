@@ -24,13 +24,13 @@ VALUES (2715,   1, 'Scroll of Quickness Other V') /* Name */
 Increases the target''s Quickness by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2715,   1,   33554826) /* Setup */
-     , (2715,   8,  100676469) /* Icon */
-     , (2715,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2715,   1, 0x0200018A) /* Setup */
+     , (2715,   8, 0x06003375) /* Icon */
+     , (2715,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2715,  28,       1407) /* Spell - QuicknessOther5 */
      , (2715, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2715, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2715, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2715, 8000, 2368871074) /* PCAPRecordedObjectIID */;
+VALUES (2715, 8000, 0x8D321AA2) /* PCAPRecordedObjectIID */;

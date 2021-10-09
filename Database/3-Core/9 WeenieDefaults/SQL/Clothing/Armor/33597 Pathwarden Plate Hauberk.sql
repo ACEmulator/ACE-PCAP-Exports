@@ -22,6 +22,7 @@ VALUES (33597,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33597,  22, True ) /* Inscribable */
+     , (33597,  23, True ) /* DestroyOnSell */
      , (33597,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -40,21 +41,21 @@ VALUES (33597,   1, 'Pathwarden Plate Hauberk') /* Name */
      , (33597,  16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33597,   1,   33554644) /* Setup */
-     , (33597,   3,  536870932) /* SoundTable */
-     , (33597,   6,   67108990) /* PaletteBase */
-     , (33597,   8,  100668150) /* Icon */
-     , (33597,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33597,   1, 0x020000D4) /* Setup */
+     , (33597,   3, 0x20000014) /* SoundTable */
+     , (33597,   6, 0x0400007E) /* PaletteBase */
+     , (33597,   8, 0x060012F6) /* Icon */
+     , (33597,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33597, 8001,    2441232) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Priority, Burden */
      , (33597, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33597, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33597, 8000, 3693861837) /* PCAPRecordedObjectIID */;
+VALUES (33597, 8000, 0xDC2BDBCD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33597,  1328,      2)  /* StrengthSelf2 */
-     , (33597,  1482,      2)  /* Impenetrability2 */;
+VALUES (33597,  1482,      2)  /* Impenetrability2 */
+     , (33597,  1328,      2)  /* StrengthSelf2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33597, 67110015, 80, 12)

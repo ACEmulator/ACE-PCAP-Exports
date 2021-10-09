@@ -40,17 +40,17 @@ VALUES (28339,   1, 'Ancient Armored Leggings') /* Name */
      , (28339,  15, 'These armored leggings appear to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28339,   1,   33554856) /* Setup */
-     , (28339,   3,  536870932) /* SoundTable */
-     , (28339,   6,   67108990) /* PaletteBase */
-     , (28339,   8,  100688328) /* Icon */
-     , (28339,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28339,   1, 0x020001A8) /* Setup */
+     , (28339,   3, 0x20000014) /* SoundTable */
+     , (28339,   6, 0x0400007E) /* PaletteBase */
+     , (28339,   8, 0x060061C8) /* Icon */
+     , (28339,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28339, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (28339, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28339, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28339, 8000, 2979050480) /* PCAPRecordedObjectIID */;
+VALUES (28339, 8000, 0xB190B3F0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28339,  3094,      2)  /* SkinFiazhat */

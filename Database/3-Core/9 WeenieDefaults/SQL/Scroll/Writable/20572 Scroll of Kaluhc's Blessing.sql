@@ -24,13 +24,13 @@ VALUES (20572,   1, 'Scroll of Kaluhc''s Blessing') /* Name */
 Increases the caster''s Assess Person skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20572,   1,   33554826) /* Setup */
-     , (20572,   8,  100676448) /* Icon */
-     , (20572,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20572,   1, 0x0200018A) /* Setup */
+     , (20572,   8, 0x06003360) /* Icon */
+     , (20572,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20572,  28,       2293) /* Spell - PersonAttunementSelf7 */
      , (20572, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20572, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20572, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20572, 8000, 2461819204) /* PCAPRecordedObjectIID */;
+VALUES (20572, 8000, 0x92BC6144) /* PCAPRecordedObjectIID */;

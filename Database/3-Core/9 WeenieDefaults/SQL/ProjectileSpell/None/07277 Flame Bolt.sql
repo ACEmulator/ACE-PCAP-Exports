@@ -23,10 +23,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7277,   1, 'Flame Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7277,   1,   33555469) /* Setup */
-     , (7277,   3,  536870967) /* SoundTable */
-     , (7277,   8,  100667494) /* Icon */
-     , (7277,  22,  872415237) /* PhysicsEffectTable */
+VALUES (7277,   1, 0x0200040D) /* Setup */
+     , (7277,   3, 0x20000037) /* SoundTable */
+     , (7277,   8, 0x06001066) /* Icon */
+     , (7277,  22, 0x34000005) /* PhysicsEffectTable */
      , (7277,  28,         27) /* Spell - FlameBolt1 */
      , (7277,  30,         90) /* PhysicsScript - ProjectileCollision */
      , (7277, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
@@ -34,22 +34,8 @@ VALUES (7277,   1,   33555469) /* Setup */
      , (7277, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7277, 8040, 32834085, 49.96867, -142.4962, 1.041333, -0.999988, 0, 0, -0.00489531) /* PCAPRecordedLocation */
+VALUES (7277, 8040, 0x01F50225, 49.96867, -142.4962, 1.041333, -0.999988, 0, 0, -0.004895) /* PCAPRecordedLocation */
 /* @teleloc 0x01F50225 [49.968670 -142.496200 1.041333] -0.999988 0.000000 0.000000 -0.004895 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7277, 8000, 3690342683) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7277, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (7277, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
-     , (7277, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (7277, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
-     , (7277, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
-     , (7277, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
-     , (7277, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (7277, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
-     , (7277, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
-     , (7277, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
-     , (7277, 2, 40760,  1, 0, 0, False) /* Create Nodachi (40760) for Wield */
-     , (7277, 2, 12463,  1, 0, 0, False) /* Create Atlatl (12463) for Wield */;
+VALUES (7277, 8000, 0xDBF6291B) /* PCAPRecordedObjectIID */;

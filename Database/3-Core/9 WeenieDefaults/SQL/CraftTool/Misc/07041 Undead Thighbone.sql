@@ -26,13 +26,13 @@ VALUES (7041,   1, 'Undead Thighbone') /* Name */
      , (7041,  16, 'The thighbone of a departed undead.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7041,   1,   33556593) /* Setup */
-     , (7041,   3,  536870932) /* SoundTable */
-     , (7041,   8,  100670681) /* Icon */
-     , (7041,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7041,   1, 0x02000871) /* Setup */
+     , (7041,   3, 0x20000014) /* SoundTable */
+     , (7041,   8, 0x06001CD9) /* Icon */
+     , (7041,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7041, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (7041, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7041, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7041, 8000, 3658159436) /* PCAPRecordedObjectIID */;
+VALUES (7041, 8000, 0xDA0B154C) /* PCAPRecordedObjectIID */;

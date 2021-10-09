@@ -24,13 +24,13 @@ VALUES (2882,   1, 'Aura of Swift Killer Self II') /* Name */
 Improves a weapon''s speed by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2882,   1,   33554826) /* Setup */
-     , (2882,   8,  100676676) /* Icon */
-     , (2882,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2882,   1, 0x0200018A) /* Setup */
+     , (2882,   8, 0x06003444) /* Icon */
+     , (2882,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2882,  28,       1623) /* Spell - SwiftKillerSelf2 */
      , (2882, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2882, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2882, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2882, 8000, 2240725084) /* PCAPRecordedObjectIID */;
+VALUES (2882, 8000, 0x858EC05C) /* PCAPRecordedObjectIID */;

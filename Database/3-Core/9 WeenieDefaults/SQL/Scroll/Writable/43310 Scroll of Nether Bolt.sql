@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43310,   1, 'Scroll of Nether Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43310,   1,   33554826) /* Setup */
-     , (43310,   8,  100691569) /* Icon */
-     , (43310,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43310,   1, 0x0200018A) /* Setup */
+     , (43310,   8, 0x06006E71) /* Icon */
+     , (43310,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43310,  28,       5349) /* Spell - NetherBolt1 */
      , (43310, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43310, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43310, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43310, 8000, 2622579226) /* PCAPRecordedObjectIID */;
+VALUES (43310, 8000, 0x9C51621A) /* PCAPRecordedObjectIID */;

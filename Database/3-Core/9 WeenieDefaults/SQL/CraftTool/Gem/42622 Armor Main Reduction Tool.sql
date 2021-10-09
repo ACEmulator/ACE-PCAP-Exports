@@ -26,13 +26,13 @@ VALUES (42622,   1, 'Armor Main Reduction Tool') /* Name */
      , (42622,  16, 'This tool will reduce Hauberk/Coats/Cuirass to Breastplate coverage. It will reduce Sleeves to Pauldron coverage and Leggings to Girth coverage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42622,   1,   33555677) /* Setup */
-     , (42622,   3,  536870932) /* SoundTable */
-     , (42622,   8,  100692208) /* Icon */
-     , (42622,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42622,   1, 0x020004DD) /* Setup */
+     , (42622,   3, 0x20000014) /* SoundTable */
+     , (42622,   8, 0x060070F0) /* Icon */
+     , (42622,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42622, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (42622, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42622, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42622, 8000, 3333351273) /* PCAPRecordedObjectIID */;
+VALUES (42622, 8000, 0xC6AEE769) /* PCAPRecordedObjectIID */;

@@ -54,24 +54,21 @@ VALUES (40624,   1, 'Acid Quadrelle') /* Name */
      , (40624,  16, 'Acid Quadrelle of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40624,   1,   33560725) /* Setup */
-     , (40624,   3,  536870932) /* SoundTable */
-     , (40624,   6,   67116833) /* PaletteBase */
-     , (40624,   8,  100690784) /* Icon */
-     , (40624,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40624,   1, 0x02001895) /* Setup */
+     , (40624,   3, 0x20000014) /* SoundTable */
+     , (40624,   6, 0x04001F21) /* PaletteBase */
+     , (40624,   8, 0x06006B60) /* Icon */
+     , (40624,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40624,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (40624, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40624, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40624, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40624, 8000, 3707011150) /* PCAPRecordedObjectIID */;
+VALUES (40624, 8000, 0xDCF4804E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40624,  1615,      2)  /* BloodDrinkerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40624, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40624, 67116840, 0, 0);

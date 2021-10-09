@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30833,   1,          2) /* ItemType - Armor */
      , (30833,   5,       1000) /* EncumbranceVal */
      , (30833,   9,    2097152) /* ValidLocations - Shield */
-     , (30833,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (30833,  16,          1) /* ItemUseable - No */
      , (30833,  19,       8000) /* Value */
      , (30833,  28,        425) /* ArmorLevel */
@@ -49,28 +48,28 @@ VALUES (30833,   1, 'Doppelganger Shield') /* Name */
      , (30833,  16, 'A shield looted from the corpse of the Shadow Lugian Shoktok.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30833,   1,   33559252) /* Setup */
-     , (30833,   3,  536870932) /* SoundTable */
-     , (30833,   8,  100677465) /* Icon */
-     , (30833,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30833,   1, 0x020012D4) /* Setup */
+     , (30833,   3, 0x20000014) /* SoundTable */
+     , (30833,   8, 0x06003759) /* Icon */
+     , (30833,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30833, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (30833, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30833, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
      , (30833, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30833, 8040, 3465871412, 155.3916, 95.32764, 19.927, 0.5338204, 0.01981433, -0.8423724, -0.07107718) /* PCAPRecordedLocation */
+VALUES (30833, 8040, 0xCE950034, 155.3916, 95.32764, 19.927, 0.53382, 0.019814, -0.842372, -0.071077) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950034 [155.391600 95.327640 19.927000] 0.533820 0.019814 -0.842372 -0.071077 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30833, 8000, 3596513267) /* PCAPRecordedObjectIID */
-     , (30833, 8008, 1343462661) /* PCAPRecordedParentIID */;
+VALUES (30833, 8000, 0xD65E6FF3) /* PCAPRecordedObjectIID */
+     , (30833, 8008, 0x50139D05) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30833,  1023,      2)  /* BludgeonProtectionSelf6 */
+VALUES (30833,  3801,      2)  /* CantripShadowTouch */
      , (30833,  1114,      2)  /* BladeProtectionSelf6 */
      , (30833,  1138,      2)  /* PiercingProtectionSelf6 */
-     , (30833,  3801,      2)  /* CantripShadowTouch */;
+     , (30833,  1023,      2)  /* BludgeonProtectionSelf6 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (30833, 0, 83895780, 83895780)

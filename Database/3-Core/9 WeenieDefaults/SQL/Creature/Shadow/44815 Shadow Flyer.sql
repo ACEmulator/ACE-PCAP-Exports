@@ -26,22 +26,22 @@ VALUES (44815,   1, 'Shadow Flyer') /* Name */
      , (44815, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44815,   1,   33561289) /* Setup */
-     , (44815,   2,  150995049) /* MotionTable */
-     , (44815,   3,  536870975) /* SoundTable */
-     , (44815,   6,   67109305) /* PaletteBase */
-     , (44815,   8,  100669123) /* Icon */
-     , (44815,  22,  872415351) /* PhysicsEffectTable */
+VALUES (44815,   1, 0x02001AC9) /* Setup */
+     , (44815,   2, 0x09000069) /* MotionTable */
+     , (44815,   3, 0x2000003F) /* SoundTable */
+     , (44815,   6, 0x040001B9) /* PaletteBase */
+     , (44815,   8, 0x060016C3) /* Icon */
+     , (44815,  22, 0x34000077) /* PhysicsEffectTable */
      , (44815, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44815, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44815, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44815, 8040, 4133158968, 162.4371, 177.1411, 20.011, 0.999748, 0, 0, 0.0224479) /* PCAPRecordedLocation */
+VALUES (44815, 8040, 0xF65B0038, 162.4371, 177.1411, 20.011, 0.999748, 0, 0, 0.022448) /* PCAPRecordedLocation */
 /* @teleloc 0xF65B0038 [162.437100 177.141100 20.011000] 0.999748 0.000000 0.000000 0.022448 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44815, 8000, 3685988854) /* PCAPRecordedObjectIID */;
+VALUES (44815, 8000, 0xDBB3B9F6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44815,   1, 100, 0, 0) /* Strength */

@@ -52,22 +52,22 @@ VALUES (41060,   1, 'Flaming Great Star Mace') /* Name */
      , (41060,  16, 'Flaming Great Star Mace') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41060,   1,   33560830) /* Setup */
-     , (41060,   3,  536870932) /* SoundTable */
-     , (41060,   6,   67115558) /* PaletteBase */
-     , (41060,   8,  100690534) /* Icon */
-     , (41060,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41060,   1, 0x020018FE) /* Setup */
+     , (41060,   3, 0x20000014) /* SoundTable */
+     , (41060,   6, 0x04001A26) /* PaletteBase */
+     , (41060,   8, 0x06006A66) /* Icon */
+     , (41060,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41060,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41060, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41060, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41060, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41060, 8040, 23855554, 55.31837, -31.83311, 0, 0.6309341, 0, 0, -0.7758365) /* PCAPRecordedLocation */
+VALUES (41060, 8040, 0x016C01C2, 55.31837, -31.83311, 0, 0.630934, 0, 0, -0.775837) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.318370 -31.833110 0.000000] 0.630934 0.000000 0.000000 -0.775837 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41060, 8000, 3692957653) /* PCAPRecordedObjectIID */;
+VALUES (41060, 8000, 0xDC1E0FD5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41060,  1603,      2)  /* DefenderSelf4 */

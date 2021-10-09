@@ -36,22 +36,18 @@ VALUES (2403,   1, 'Gem') /* Name */
      , (2403,  16, 'Gem of Bludgeon Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2403,   1,   33554809) /* Setup */
-     , (2403,   3,  536870932) /* SoundTable */
-     , (2403,   6,   67111919) /* PaletteBase */
-     , (2403,   8,  100674732) /* Icon */
-     , (2403,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2403,   1, 0x02000179) /* Setup */
+     , (2403,   3, 0x20000014) /* SoundTable */
+     , (2403,   6, 0x04000BEF) /* PaletteBase */
+     , (2403,   8, 0x06002CAC) /* Icon */
+     , (2403,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2403,  28,       1022) /* Spell - BludgeonProtectionSelf5 */
      , (2403, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
      , (2403, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2403, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2403, 8000, 3692262283) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2403, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
-     , (2403, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
+VALUES (2403, 8000, 0xDC13738B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2403, 67111924, 0, 0);

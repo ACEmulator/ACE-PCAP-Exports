@@ -18,7 +18,8 @@ VALUES (9043,   1,       2048) /* ItemType - Gem */
      , (9043, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9043,  22, True ) /* Inscribable */;
+VALUES (9043,  22, True ) /* Inscribable */
+     , (9043,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9043,  39,     1.5) /* DefaultScale */
@@ -29,17 +30,17 @@ VALUES (9043,   1, 'Large Pale Crystal') /* Name */
      , (9043,  16, 'A large pale crystal, taken from a Nephol Golem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9043,   1,   33554809) /* Setup */
-     , (9043,   3,  536870932) /* SoundTable */
-     , (9043,   6,   67111919) /* PaletteBase */
-     , (9043,   8,  100671333) /* Icon */
-     , (9043,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9043,   1, 0x02000179) /* Setup */
+     , (9043,   3, 0x20000014) /* SoundTable */
+     , (9043,   6, 0x04000BEF) /* PaletteBase */
+     , (9043,   8, 0x06001F65) /* Icon */
+     , (9043,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9043, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (9043, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9043, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9043, 8000, 2912622111) /* PCAPRecordedObjectIID */;
+VALUES (9043, 8000, 0xAD9B161F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9043, 67111920, 0, 0);

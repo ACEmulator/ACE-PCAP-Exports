@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23809,   1, 'Brilliant Celdon Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23809,   1,   33554856) /* Setup */
-     , (23809,   3,  536870932) /* SoundTable */
-     , (23809,   6,   67108990) /* PaletteBase */
-     , (23809,   8,  100674071) /* Icon */
-     , (23809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23809,   1, 0x020001A8) /* Setup */
+     , (23809,   3, 0x20000014) /* SoundTable */
+     , (23809,   6, 0x0400007E) /* PaletteBase */
+     , (23809,   8, 0x06002A17) /* Icon */
+     , (23809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23809, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (23809, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23809, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23809, 8000, 2175071782) /* PCAPRecordedObjectIID */;
+VALUES (23809, 8000, 0x81A4F626) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23809, 67109945, 152, 8)

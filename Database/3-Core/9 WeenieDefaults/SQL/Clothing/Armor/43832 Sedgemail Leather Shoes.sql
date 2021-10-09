@@ -49,26 +49,26 @@ VALUES (43832,   1, 'Sedgemail Leather Shoes') /* Name */
      , (43832,  16, 'Sedgemail Leather Shoes') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43832,   1,   33554654) /* Setup */
-     , (43832,   3,  536870932) /* SoundTable */
-     , (43832,   6,   67108990) /* PaletteBase */
-     , (43832,   8,  100691746) /* Icon */
-     , (43832,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43832,   1, 0x020000DE) /* Setup */
+     , (43832,   3, 0x20000014) /* SoundTable */
+     , (43832,   6, 0x0400007E) /* PaletteBase */
+     , (43832,   8, 0x06006F22) /* Icon */
+     , (43832,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43832, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (43832, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43832, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43832, 8040, 3600351239, 1.87023, 157.2591, 373.9994, 0.5842389, 0, 0, -0.8115817) /* PCAPRecordedLocation */
+VALUES (43832, 8040, 0xD6990007, 1.87023, 157.2591, 373.9994, 0.584239, 0, 0, -0.811582) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990007 [1.870230 157.259100 373.999400] 0.584239 0.000000 0.000000 -0.811582 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43832, 8000, 3710078221) /* PCAPRecordedObjectIID */;
+VALUES (43832, 8000, 0xDD234D0D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43832,  2102,      2)  /* FlameBane7 */
-     , (43832,  2108,      2)  /* Impenetrability7 */
-     , (43832,  5893,      2)  /* CantripDirtyFightingProwess3 */;
+VALUES (43832,  5893,      2)  /* CantripDirtyFightingProwess3 */
+     , (43832,  2102,      2)  /* FlameBane7 */
+     , (43832,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43832, 67110340, 160, 8);

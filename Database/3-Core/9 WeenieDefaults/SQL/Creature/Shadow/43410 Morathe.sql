@@ -31,27 +31,27 @@ VALUES (43410,   1, 'Morathe') /* Name */
      , (43410, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43410,   1,   33560942) /* Setup */
-     , (43410,   2,  150994945) /* MotionTable */
-     , (43410,   3,  536870913) /* SoundTable */
-     , (43410,   6,   67108990) /* PaletteBase */
-     , (43410,   8,  100667446) /* Icon */
-     , (43410,   9,   83890513) /* EyesTexture */
-     , (43410,  10,   83890522) /* NoseTexture */
-     , (43410,  11,   83890667) /* MouthTexture */
-     , (43410,  15,   67117071) /* HairPalette */
-     , (43410,  16,   67116845) /* EyesPalette */
-     , (43410,  17,   67116851) /* SkinPalette */
+VALUES (43410,   1, 0x0200196E) /* Setup */
+     , (43410,   2, 0x09000001) /* MotionTable */
+     , (43410,   3, 0x20000001) /* SoundTable */
+     , (43410,   6, 0x0400007E) /* PaletteBase */
+     , (43410,   8, 0x06001036) /* Icon */
+     , (43410,   9, 0x05001151) /* EyesTexture */
+     , (43410,  10, 0x0500115A) /* NoseTexture */
+     , (43410,  11, 0x050011EB) /* MouthTexture */
+     , (43410,  15, 0x0400200F) /* HairPalette */
+     , (43410,  16, 0x04001F2D) /* EyesPalette */
+     , (43410,  17, 0x04001F33) /* SkinPalette */
      , (43410, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (43410, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (43410, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43410, 8040, 722534684, 165.653, 173.53, 47.205, -0.3413002, 0, 0, -0.9399543) /* PCAPRecordedLocation */
+VALUES (43410, 8040, 0x2B11011C, 165.653, 173.53, 47.205, -0.3413, 0, 0, -0.939954) /* PCAPRecordedLocation */
 /* @teleloc 0x2B11011C [165.653000 173.530000 47.205000] -0.341300 0.000000 0.000000 -0.939954 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43410, 8000, 3688978173) /* PCAPRecordedObjectIID */;
+VALUES (43410, 8000, 0xDBE156FD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43410,   1,  60, 0, 0) /* Strength */
@@ -65,6 +65,9 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (43410,   1,    10, 0, 0, 45) /* MaxHealth */
      , (43410,   3,    10, 0, 0, 80) /* MaxStamina */
      , (43410,   5,    10, 0, 0, 140) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43410, 2, 46368,  1, 0, 0, False) /* Create Spectral Acid Nekode (46368) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43410, 67109945, 216, 24)

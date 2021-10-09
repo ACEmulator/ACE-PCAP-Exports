@@ -22,16 +22,16 @@ VALUES (19356,   1, 'Allain Court Portal') /* Name */
      , (19356, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19356,   1,   33554867) /* Setup */
-     , (19356,   2,  150994947) /* MotionTable */
-     , (19356,   8,  100667499) /* Icon */
+VALUES (19356,   1, 0x020001B3) /* Setup */
+     , (19356,   2, 0x09000003) /* MotionTable */
+     , (19356,   8, 0x0600106B) /* Icon */
      , (19356, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (19356, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (19356, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19356, 8040, 1449001231, 10, -60, -0.06299996, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (19356, 8040, 0x565E010F, 10, -60, -0.063, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x565E010F [10.000000 -60.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19356, 8000, 1969610758) /* PCAPRecordedObjectIID */;
+VALUES (19356, 8000, 0x7565E006) /* PCAPRecordedObjectIID */;

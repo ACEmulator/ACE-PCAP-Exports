@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8681,   1, 'A Pair Of Society Leather Boots') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8681,   1,   33554640) /* Setup */
-     , (8681,   3,  536870932) /* SoundTable */
-     , (8681,   6,   67108990) /* PaletteBase */
-     , (8681,   8,  100667310) /* Icon */
-     , (8681,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8681,   1, 0x020000D0) /* Setup */
+     , (8681,   3, 0x20000014) /* SoundTable */
+     , (8681,   6, 0x0400007E) /* PaletteBase */
+     , (8681,   8, 0x06000FAE) /* Icon */
+     , (8681,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8681, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (8681, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8681, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8681, 8000, 3629879903) /* PCAPRecordedObjectIID */;
+VALUES (8681, 8000, 0xD85B925F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8681, 67110377, 160, 8);

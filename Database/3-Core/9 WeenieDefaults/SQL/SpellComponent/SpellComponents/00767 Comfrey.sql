@@ -23,17 +23,17 @@ VALUES (767,   1, 'Comfrey') /* Name */
      , (767,  20, 'Sacks of Comfrey') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (767,   1,   33554817) /* Setup */
-     , (767,   3,  536870932) /* SoundTable */
-     , (767,   6,   67111919) /* PaletteBase */
-     , (767,   8,  100668418) /* Icon */
-     , (767,  22,  872415275) /* PhysicsEffectTable */
+VALUES (767,   1, 0x02000181) /* Setup */
+     , (767,   3, 0x20000014) /* SoundTable */
+     , (767,   6, 0x04000BEF) /* PaletteBase */
+     , (767,   8, 0x06001402) /* Icon */
+     , (767,  22, 0x3400002B) /* PhysicsEffectTable */
      , (767, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (767, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (767, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (767, 8000, 2856726454) /* PCAPRecordedObjectIID */;
+VALUES (767, 8000, 0xAA462FB6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (767, 67111927, 0, 0);

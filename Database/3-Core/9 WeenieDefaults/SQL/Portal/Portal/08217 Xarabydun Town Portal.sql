@@ -22,16 +22,16 @@ VALUES (8217,   1, 'Xarabydun Town Portal') /* Name */
      , (8217, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8217,   1,   33554867) /* Setup */
-     , (8217,   2,  150994947) /* MotionTable */
-     , (8217,   8,  100667499) /* Icon */
+VALUES (8217,   1, 0x020001B3) /* Setup */
+     , (8217,   2, 0x09000003) /* MotionTable */
+     , (8217,   8, 0x0600106B) /* Icon */
      , (8217, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (8217, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (8217, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8217, 8040, 47382791, 10.05, -66.123, -0.06299996, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (8217, 8040, 0x02D30107, 10.05, -66.123, -0.063, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x02D30107 [10.050000 -66.123000 -0.063000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8217, 8000, 1882009600) /* PCAPRecordedObjectIID */;
+VALUES (8217, 8000, 0x702D3000) /* PCAPRecordedObjectIID */;

@@ -24,18 +24,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9430,   1, 'Lightning Sapphire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9430,   1,   33554809) /* Setup */
-     , (9430,   3,  536870932) /* SoundTable */
-     , (9430,   6,   67111919) /* PaletteBase */
-     , (9430,   8,  100668360) /* Icon */
-     , (9430,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9430,   1, 0x02000179) /* Setup */
+     , (9430,   3, 0x20000014) /* SoundTable */
+     , (9430,   6, 0x04000BEF) /* PaletteBase */
+     , (9430,   8, 0x060013C8) /* Icon */
+     , (9430,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9430,  28,       2395) /* Spell - ElectricShield */
      , (9430, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (9430, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9430, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9430, 8000, 3358025561) /* PCAPRecordedObjectIID */;
+VALUES (9430, 8000, 0xC8276759) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9430, 67111919, 0, 0);

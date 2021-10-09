@@ -24,13 +24,13 @@ VALUES (20410,   1, 'Scroll of Tattercoat') /* Name */
 Worsens a shield or piece of armor''s armor value by 220 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20410,   1,   33554826) /* Setup */
-     , (20410,   8,  100676657) /* Icon */
-     , (20410,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20410,   1, 0x0200018A) /* Setup */
+     , (20410,   8, 0x06003431) /* Icon */
+     , (20410,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20410,  28,       2100) /* Spell - Brittlemail7 */
      , (20410, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20410, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20410, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20410, 8000, 3682570355) /* PCAPRecordedObjectIID */;
+VALUES (20410, 8000, 0xDB7F9073) /* PCAPRecordedObjectIID */;

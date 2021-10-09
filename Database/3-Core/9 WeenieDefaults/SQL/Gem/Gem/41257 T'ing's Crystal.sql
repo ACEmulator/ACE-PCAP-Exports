@@ -33,20 +33,20 @@ VALUES (41257,   1, 'T''ing''s Crystal') /* Name */
      , (41257,  16, 'Using this gem will increase your Two Handed Weapon skill by 250 for 15 minutes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41257,   1,   33554809) /* Setup */
-     , (41257,   3,  536870932) /* SoundTable */
-     , (41257,   8,  100686697) /* Icon */
-     , (41257,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41257,   1, 0x02000179) /* Setup */
+     , (41257,   3, 0x20000014) /* SoundTable */
+     , (41257,   8, 0x06005B69) /* Icon */
+     , (41257,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41257,  28,       5026) /* Spell - TwoHandedMasteryRare */
-     , (41257,  50,  100690691) /* IconOverlay */
-     , (41257,  52,  100686604) /* IconUnderlay */
+     , (41257,  50, 0x06006B03) /* IconOverlay */
+     , (41257,  52, 0x06005B0C) /* IconUnderlay */
      , (41257, 8001, 1349021840) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (41257, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (41257, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (41257, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41257, 8000, 3071753238) /* PCAPRecordedObjectIID */;
+VALUES (41257, 8000, 0xB7173C16) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (41257, 0, 83890391, 83890391);

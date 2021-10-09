@@ -23,22 +23,22 @@ VALUES (7097,   1, 'Platinum Golem') /* Name */
      , (7097, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7097,   1,   33556426) /* Setup */
-     , (7097,   2,  150995073) /* MotionTable */
-     , (7097,   3,  536871066) /* SoundTable */
-     , (7097,   6,   67112775) /* PaletteBase */
-     , (7097,   8,  100667940) /* Icon */
-     , (7097,  22,  872415325) /* PhysicsEffectTable */
+VALUES (7097,   1, 0x020007CA) /* Setup */
+     , (7097,   2, 0x09000081) /* MotionTable */
+     , (7097,   3, 0x2000009A) /* SoundTable */
+     , (7097,   6, 0x04000F47) /* PaletteBase */
+     , (7097,   8, 0x06001224) /* Icon */
+     , (7097,  22, 0x3400005D) /* PhysicsEffectTable */
      , (7097, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7097, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7097, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7097, 8040, 357761045, 53.12737, 107.6772, 11.71912, 0.6152062, 0, 0, -0.7883663) /* PCAPRecordedLocation */
+VALUES (7097, 8040, 0x15530015, 53.12737, 107.6772, 11.71912, 0.615206, 0, 0, -0.788366) /* PCAPRecordedLocation */
 /* @teleloc 0x15530015 [53.127370 107.677200 11.719120] 0.615206 0.000000 0.000000 -0.788366 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7097, 8000, 3700484963) /* PCAPRecordedObjectIID */;
+VALUES (7097, 8000, 0xDC90EB63) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7097,   1, 270, 0, 0) /* Strength */
@@ -54,7 +54,8 @@ VALUES (7097,   1,   400, 0, 0, 540) /* MaxHealth */
      , (7097,   5,   275, 0, 0, 445) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7097, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+VALUES (7097, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+     , (7097, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (7097, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */
      , (7097, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
      , (7097, 9, 45354,  0, 0, 0, False) /* Create Scroll of Sneak Attack Mastery Self VII (45354) for ContainTreasure */

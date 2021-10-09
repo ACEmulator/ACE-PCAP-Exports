@@ -22,16 +22,16 @@ VALUES (4038,   1, 'Destroyed Tufa Portal') /* Name */
      , (4038, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4038,   1,   33561060) /* Setup */
-     , (4038,   2,  150995314) /* MotionTable */
-     , (4038,   8,  100667499) /* Icon */
+VALUES (4038,   1, 0x020019E4) /* Setup */
+     , (4038,   2, 0x09000172) /* MotionTable */
+     , (4038,   8, 0x0600106B) /* Icon */
      , (4038, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (4038, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (4038, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4038, 8040, 45809929, 30, -16.7, -18.20983, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (4038, 8040, 0x02BB0109, 30, -16.7, -18.20983, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x02BB0109 [30.000000 -16.700000 -18.209830] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4038, 8000, 1881911302) /* PCAPRecordedObjectIID */;
+VALUES (4038, 8000, 0x702BB006) /* PCAPRecordedObjectIID */;

@@ -46,19 +46,19 @@ VALUES (45406,   1, 'Yaoji') /* Name */
      , (45406,  16, 'Yaoji') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45406,   1,   33554765) /* Setup */
-     , (45406,   3,  536870932) /* SoundTable */
-     , (45406,   6,   67111919) /* PaletteBase */
-     , (45406,   8,  100669077) /* Icon */
-     , (45406,  22,  872415275) /* PhysicsEffectTable */
-     , (45406,  52,  100676444) /* IconUnderlay */
+VALUES (45406,   1, 0x0200014D) /* Setup */
+     , (45406,   3, 0x20000014) /* SoundTable */
+     , (45406,   6, 0x04000BEF) /* PaletteBase */
+     , (45406,   8, 0x06001695) /* Icon */
+     , (45406,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45406,  52, 0x0600335C) /* IconUnderlay */
      , (45406, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45406, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45406, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45406, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45406, 8000, 2174255209) /* PCAPRecordedObjectIID */;
+VALUES (45406, 8000, 0x81988069) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45406, 67111921, 0, 0);

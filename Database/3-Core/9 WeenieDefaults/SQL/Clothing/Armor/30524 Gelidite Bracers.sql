@@ -49,20 +49,20 @@ VALUES (30524,   1, 'Gelidite Bracers') /* Name */
      , (30524,  16, 'After the destruction of the Great Work, some human mages who followed the  Gelidite agenda returned to Frore in hopes of reviving the project. Finding only shattered fragments of the Great Work, they attempted to rebuild it by using the shards as a foundation. Years later, they had achieved little success, and the project was soon abandoned. Not wanting to waste their efforts, they took the remaining crystals and fashioned great suits of armor. This is one piece of one such suit of armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30524,   1,   33559440) /* Setup */
-     , (30524,   3,  536870932) /* SoundTable */
-     , (30524,   8,  100686890) /* Icon */
-     , (30524,  22,  872415275) /* PhysicsEffectTable */
-     , (30524,  52,  100686604) /* IconUnderlay */
+VALUES (30524,   1, 0x02001390) /* Setup */
+     , (30524,   3, 0x20000014) /* SoundTable */
+     , (30524,   8, 0x06005C2A) /* Icon */
+     , (30524,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30524,  52, 0x06005B0C) /* IconUnderlay */
      , (30524, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (30524, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30524, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
      , (30524, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30524, 8000, 2804497108) /* PCAPRecordedObjectIID */;
+VALUES (30524, 8000, 0xA7293AD4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30524,  3965,      2)  /* CANTRIPSTRENGTH3 */
+VALUES (30524,  4692,      2)  /* CANTRIPFEALTY3 */
      , (30524,  4407,      2)  /* Impenetrability8 */
-     , (30524,  4692,      2)  /* CANTRIPFEALTY3 */;
+     , (30524,  3965,      2)  /* CANTRIPSTRENGTH3 */;

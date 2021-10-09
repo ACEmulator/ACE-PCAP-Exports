@@ -8,7 +8,6 @@ VALUES (56,   1,          2) /* ItemType - Armor */
      , (56,   4,      32768) /* ClothingPriority - Hands */
      , (56,   5,        270) /* EncumbranceVal */
      , (56,   9,         32) /* ValidLocations - HandWear */
-     , (56,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (56,  16,          1) /* ItemUseable - No */
      , (56,  19,       1100) /* Value */
      , (56,  28,        130) /* ArmorLevel */
@@ -33,17 +32,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (56,   1, 'Leather Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (56,   1,   33554648) /* Setup */
-     , (56,   3,  536870932) /* SoundTable */
-     , (56,   6,   67108990) /* PaletteBase */
-     , (56,   8,  100667319) /* Icon */
-     , (56,  22,  872415275) /* PhysicsEffectTable */
+VALUES (56,   1, 0x020000D8) /* Setup */
+     , (56,   3, 0x20000014) /* SoundTable */
+     , (56,   6, 0x0400007E) /* PaletteBase */
+     , (56,   8, 0x06000FB7) /* Icon */
+     , (56,  22, 0x3400002B) /* PhysicsEffectTable */
      , (56, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (56, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (56, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (56, 8000, 3656192171) /* PCAPRecordedObjectIID */;
+VALUES (56, 8000, 0xD9ED10AB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (56, 67110375, 168, 6);

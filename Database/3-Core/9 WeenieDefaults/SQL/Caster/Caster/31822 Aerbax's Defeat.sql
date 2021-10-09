@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31822,   1,      32768) /* ItemType - Caster */
      , (31822,   5,         50) /* EncumbranceVal */
      , (31822,   9,   16777216) /* ValidLocations - Held */
-     , (31822,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (31822,  16,    6291461) /* ItemUseable - No, SourceWieldedTargetRemoteNeverWalk */
      , (31822,  18,         65) /* UiEffects - Magical, Lightning */
      , (31822,  19,      13964) /* Value */
      , (31822,  45,         64) /* DamageType - Electric */
+     , (31822,  46,        512) /* DefaultCombatStyle - Magic */
      , (31822,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31822,  94,         16) /* TargetType - Creature */
      , (31822, 105,          6) /* ItemWorkmanship */
@@ -66,14 +66,14 @@ VALUES (31822,   1, 'Aerbax''s Defeat') /* Name */
      , (31822,  40, 'Wuzzle') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31822,   1,   33560440) /* Setup */
-     , (31822,   3,  536870932) /* SoundTable */
-     , (31822,   6,   67111919) /* PaletteBase */
-     , (31822,   8,  100689793) /* Icon */
-     , (31822,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31822,   1, 0x02001778) /* Setup */
+     , (31822,   3, 0x20000014) /* SoundTable */
+     , (31822,   6, 0x04000BEF) /* PaletteBase */
+     , (31822,   8, 0x06006781) /* Icon */
+     , (31822,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31822,  28,       4439) /* Spell - FlameBolt8 */
-     , (31822,  50,  100689030) /* IconOverlay */
-     , (31822,  52,  100676440) /* IconUnderlay */
+     , (31822,  50, 0x06006486) /* IconOverlay */
+     , (31822,  52, 0x06003358) /* IconUnderlay */
      , (31822, 8001, 3513483416) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, IconOverlay, MaterialType */
      , (31822, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31822, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
@@ -81,17 +81,17 @@ VALUES (31822,   1,   33560440) /* Setup */
      , (31822, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31822, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (31822, 8040, 0x016C01BC, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31822, 8000, 3563025416) /* PCAPRecordedObjectIID */
-     , (31822, 8008, 1343395204) /* PCAPRecordedParentIID */;
+VALUES (31822, 8000, 0xD45F7408) /* PCAPRecordedObjectIID */
+     , (31822, 8008, 0x50129584) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31822,  4418,      2)  /* HermeticLinkSelf8 */
-     , (31822,  4638,      2)  /* WarMagicMasterySelf8 */
-     , (31822,  6098,      2)  /* CantripSpiritThirst4 */;
+     , (31822,  6098,      2)  /* CantripSpiritThirst4 */
+     , (31822,  4638,      2)  /* WarMagicMasterySelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31822, 67111919, 0, 0);

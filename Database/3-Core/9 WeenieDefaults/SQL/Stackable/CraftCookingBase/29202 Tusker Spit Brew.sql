@@ -26,14 +26,14 @@ VALUES (29202,   1, 'Tusker Spit Brew') /* Name */
      , (29202,  20, 'Tusker Spit Brews') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29202,   1,   33559154) /* Setup */
-     , (29202,   3,  536870932) /* SoundTable */
-     , (29202,   8,  100686464) /* Icon */
-     , (29202,  22,  872415275) /* PhysicsEffectTable */
-     , (29202,  50,  100687554) /* IconOverlay */
+VALUES (29202,   1, 0x02001272) /* Setup */
+     , (29202,   3, 0x20000014) /* SoundTable */
+     , (29202,   8, 0x06005A80) /* Icon */
+     , (29202,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29202,  50, 0x06005EC2) /* IconOverlay */
      , (29202, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (29202, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29202, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29202, 8000, 3696480906) /* PCAPRecordedObjectIID */;
+VALUES (29202, 8000, 0xDC53D28A) /* PCAPRecordedObjectIID */;

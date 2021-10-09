@@ -41,23 +41,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45972,   1, 'Amateur Explorer Pauldrons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45972,   1,   33554641) /* Setup */
-     , (45972,   3,  536870932) /* SoundTable */
-     , (45972,   6,   67108990) /* PaletteBase */
-     , (45972,   8,  100691110) /* Icon */
-     , (45972,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45972,   1, 0x020000D1) /* Setup */
+     , (45972,   3, 0x20000014) /* SoundTable */
+     , (45972,   6, 0x0400007E) /* PaletteBase */
+     , (45972,   8, 0x06006CA6) /* Icon */
+     , (45972,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45972, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (45972, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45972, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45972, 8000, 2575968362) /* PCAPRecordedObjectIID */;
+VALUES (45972, 8000, 0x998A286A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45972,   639,      2)  /* WarMagicMasteryOther5 */
+VALUES (45972,  1485,      2)  /* Impenetrability5 */
      , (45972,  1040,      2)  /* ColdProtectionOther5 */
-     , (45972,  1485,      2)  /* Impenetrability5 */
-     , (45972,  5407,      2)  /* VoidMagicMasteryOther5 */;
+     , (45972,  5407,      2)  /* VoidMagicMasteryOther5 */
+     , (45972,   639,      2)  /* WarMagicMasteryOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45972, 67110531, 116, 12)

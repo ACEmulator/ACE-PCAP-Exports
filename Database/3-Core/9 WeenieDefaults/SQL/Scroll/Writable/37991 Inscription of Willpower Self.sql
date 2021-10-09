@@ -24,13 +24,13 @@ VALUES (37991,   1, 'Inscription of Willpower Self') /* Name */
 Increases the caster''s Self by 45 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37991,   1,   33554826) /* Setup */
-     , (37991,   8,  100676471) /* Icon */
-     , (37991,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37991,   1, 0x0200018A) /* Setup */
+     , (37991,   8, 0x06003377) /* Icon */
+     , (37991,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37991,  28,       4329) /* Spell - WillpowerSelf8 */
      , (37991, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37991, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37991, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37991, 8000, 2150584904) /* PCAPRecordedObjectIID */;
+VALUES (37991, 8000, 0x802F5248) /* PCAPRecordedObjectIID */;

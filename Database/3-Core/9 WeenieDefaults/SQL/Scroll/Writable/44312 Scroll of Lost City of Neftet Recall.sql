@@ -14,7 +14,8 @@ VALUES (44312,   1,       8192) /* ItemType - Writable */
      , (44312, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44312,  22, True ) /* Inscribable */;
+VALUES (44312,  22, True ) /* Inscribable */
+     , (44312,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44312,  39,     1.5) /* DefaultScale */;
@@ -26,13 +27,13 @@ VALUES (44312,   1, 'Scroll of Lost City of Neftet Recall') /* Name */
 Sends the caster to the Lost City of Neftet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44312,   1,   33554826) /* Setup */
-     , (44312,   8,  100676673) /* Icon */
-     , (44312,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44312,   1, 0x0200018A) /* Setup */
+     , (44312,   8, 0x06003441) /* Icon */
+     , (44312,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44312,  28,       5541) /* Spell - SandAreaRecall */
      , (44312, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (44312, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44312, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44312, 8000, 3695560202) /* PCAPRecordedObjectIID */;
+VALUES (44312, 8000, 0xDC45C60A) /* PCAPRecordedObjectIID */;

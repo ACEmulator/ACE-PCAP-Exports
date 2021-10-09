@@ -33,21 +33,21 @@ VALUES (9417,   1, 'Myrlat the Physician') /* Name */
      , (9417, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9417,   1,   33557003) /* Setup */
-     , (9417,   2,  150994950) /* MotionTable */
-     , (9417,   3,  536870922) /* SoundTable */
-     , (9417,   6,   67113158) /* PaletteBase */
-     , (9417,   8,  100667447) /* Icon */
+VALUES (9417,   1, 0x02000A0B) /* Setup */
+     , (9417,   2, 0x09000006) /* MotionTable */
+     , (9417,   3, 0x2000000A) /* SoundTable */
+     , (9417,   6, 0x040010C6) /* PaletteBase */
+     , (9417,   8, 0x06001037) /* Icon */
      , (9417, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (9417, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (9417, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9417, 8040, 2719875330, 146.6, 40.4578, 578.01, -0.28363, 0, 0, -0.9589338) /* PCAPRecordedLocation */
+VALUES (9417, 8040, 0xA21E0102, 146.6, 40.4578, 578.01, -0.28363, 0, 0, -0.958934) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E0102 [146.600000 40.457800 578.010000] -0.283630 0.000000 0.000000 -0.958934 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9417, 8000, 2049040393) /* PCAPRecordedObjectIID */;
+VALUES (9417, 8000, 0x7A21E009) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9417,   1, 310, 0, 0) /* Strength */

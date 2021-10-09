@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53336,   1, 'Scroll of Searing Disc II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53336,   1,   33554826) /* Setup */
-     , (53336,   8,  100677027) /* Icon */
-     , (53336,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53336,   1, 0x0200018A) /* Setup */
+     , (53336,   8, 0x060035A3) /* Icon */
+     , (53336,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53336,  28,       6189) /* Spell - SearingDiscII */
      , (53336, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (53336, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (53336, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53336, 8000, 3630241550) /* PCAPRecordedObjectIID */;
+VALUES (53336, 8000, 0xD861170E) /* PCAPRecordedObjectIID */;

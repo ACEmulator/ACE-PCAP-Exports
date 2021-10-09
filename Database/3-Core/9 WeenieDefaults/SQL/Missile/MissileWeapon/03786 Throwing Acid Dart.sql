@@ -14,7 +14,7 @@ VALUES (3786,   1,        256) /* ItemType - MissileWeapon */
      , (3786,  16,          1) /* ItemUseable - No */
      , (3786,  18,        256) /* UiEffects - Acid */
      , (3786,  19,          4) /* Value */
-     , (3786,  51,          2) /* CombatUse - Missle */
+     , (3786,  51,          2) /* CombatUse - Missile */
      , (3786,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (3786, 151,          2) /* HookType - Wall */
      , (3786, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -28,18 +28,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3786,   1, 'Throwing Acid Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3786,   1,   33556223) /* Setup */
-     , (3786,   3,  536870932) /* SoundTable */
-     , (3786,   6,   67111928) /* PaletteBase */
-     , (3786,   8,  100667591) /* Icon */
-     , (3786,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3786,   1, 0x020006FF) /* Setup */
+     , (3786,   3, 0x20000014) /* SoundTable */
+     , (3786,   6, 0x04000BF8) /* PaletteBase */
+     , (3786,   8, 0x060010C7) /* Icon */
+     , (3786,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3786, 8001,  270627480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (3786, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (3786, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */
      , (3786, 8044,       5762) /* PCAPPhysicsDIDDataTemplatedFrom - Snowball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3786, 8000,       3786) /* PCAPRecordedObjectIID */;
+VALUES (3786, 8000, 0x00000ECA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3786, 67112640, 0, 0);

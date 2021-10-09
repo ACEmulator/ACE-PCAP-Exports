@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6815,   1, 'Spire Key Chunk - Cragstone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6815,   1,   33554784) /* Setup */
-     , (6815,   3,  536870932) /* SoundTable */
-     , (6815,   8,  100670630) /* Icon */
-     , (6815,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6815,   1, 0x02000160) /* Setup */
+     , (6815,   3, 0x20000014) /* SoundTable */
+     , (6815,   8, 0x06001CA6) /* Icon */
+     , (6815,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6815, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (6815, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6815, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6815, 8000, 2980941629) /* PCAPRecordedObjectIID */;
+VALUES (6815, 8000, 0xB1AD8F3D) /* PCAPRecordedObjectIID */;

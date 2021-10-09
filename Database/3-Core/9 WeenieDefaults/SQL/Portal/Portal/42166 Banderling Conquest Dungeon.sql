@@ -25,16 +25,16 @@ VALUES (42166,   1, 'Banderling Conquest Dungeon') /* Name */
      , (42166, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42166,   1,   33554867) /* Setup */
-     , (42166,   2,  150994947) /* MotionTable */
-     , (42166,   8,  100667499) /* Icon */
+VALUES (42166,   1, 0x020001B3) /* Setup */
+     , (42166,   2, 0x09000003) /* MotionTable */
+     , (42166,   8, 0x0600106B) /* Icon */
      , (42166, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (42166, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (42166, 8005,      98435) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42166, 8040, 2315387380, 107.261, -39.8745, -0.05040002, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (42166, 8040, 0x8A0201F4, 107.261, -39.8745, -0.0504, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x8A0201F4 [107.261000 -39.874500 -0.050400] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42166, 8000, 2023760057) /* PCAPRecordedObjectIID */;
+VALUES (42166, 8000, 0x78A020B9) /* PCAPRecordedObjectIID */;

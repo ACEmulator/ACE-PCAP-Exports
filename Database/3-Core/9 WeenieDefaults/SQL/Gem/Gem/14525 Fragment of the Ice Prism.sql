@@ -20,16 +20,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14525,   1, 'Fragment of the Ice Prism') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14525,   1,   33557506) /* Setup */
-     , (14525,   3,  536870932) /* SoundTable */
-     , (14525,   8,  100672511) /* Icon */
-     , (14525,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14525,   1, 0x02000C02) /* Setup */
+     , (14525,   3, 0x20000014) /* SoundTable */
+     , (14525,   8, 0x060023FF) /* Icon */
+     , (14525,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14525, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (14525, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14525, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14525, 8000, 2874378629) /* PCAPRecordedObjectIID */;
+VALUES (14525, 8000, 0xAB538985) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (14525, 0, 83892433, 83892492)

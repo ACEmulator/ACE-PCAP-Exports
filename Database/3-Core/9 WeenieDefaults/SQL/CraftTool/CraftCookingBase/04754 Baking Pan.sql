@@ -25,13 +25,13 @@ VALUES (4754,   1, 'Baking Pan') /* Name */
      , (4754,  14, 'This item is used in cooking.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4754,   1,   33555969) /* Setup */
-     , (4754,   3,  536870932) /* SoundTable */
-     , (4754,   8,  100669993) /* Icon */
-     , (4754,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4754,   1, 0x02000601) /* Setup */
+     , (4754,   3, 0x20000014) /* SoundTable */
+     , (4754,   8, 0x06001A29) /* Icon */
+     , (4754,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4754, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (4754, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4754, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4754, 8000, 2981038608) /* PCAPRecordedObjectIID */;
+VALUES (4754, 8000, 0xB1AF0A10) /* PCAPRecordedObjectIID */;

@@ -19,16 +19,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1647,   1, 'Indigo Taper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1647,   1,   33555445) /* Setup */
-     , (1647,   3,  536870932) /* SoundTable */
-     , (1647,   8,  100668323) /* Icon */
-     , (1647,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1647,   1, 0x020003F5) /* Setup */
+     , (1647,   3, 0x20000014) /* SoundTable */
+     , (1647,   8, 0x060013A3) /* Icon */
+     , (1647,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1647, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (1647, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (1647, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1647, 8000, 2856726433) /* PCAPRecordedObjectIID */;
+VALUES (1647, 8000, 0xAA462FA1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (1647, 0, 83890928, 83890935);

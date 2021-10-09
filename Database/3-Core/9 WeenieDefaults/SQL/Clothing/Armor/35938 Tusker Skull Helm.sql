@@ -27,6 +27,7 @@ VALUES (35938,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35938,  22, True ) /* Inscribable */
+     , (35938,  23, True ) /* DestroyOnSell */
      , (35938,  69, False) /* IsSellable */
      , (35938,  99, True ) /* Ivoryable */;
 
@@ -46,28 +47,28 @@ VALUES (35938,   1, 'Tusker Skull Helm') /* Name */
      , (35938,  16, 'A large helm fashioned from the skull of a Tusker.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35938,   1,   33560346) /* Setup */
-     , (35938,   3,  536870932) /* SoundTable */
-     , (35938,   6,   67108990) /* PaletteBase */
-     , (35938,   8,  100689571) /* Icon */
-     , (35938,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35938,   1, 0x0200171A) /* Setup */
+     , (35938,   3, 0x20000014) /* SoundTable */
+     , (35938,   6, 0x0400007E) /* PaletteBase */
+     , (35938,   8, 0x060066A3) /* Icon */
+     , (35938,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35938,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (35938, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (35938, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35938, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35938, 8000, 2979050355) /* PCAPRecordedObjectIID */;
+VALUES (35938, 8000, 0xB190B373) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35938,  2102,      2)  /* FlameBane7 */
-     , (35938,  2104,      2)  /* FrostBane7 */
-     , (35938,  2108,      2)  /* Impenetrability7 */
+VALUES (35938,  2514,      2)  /* CANTRIPIMPREGNABILITY2 */
+     , (35938,  2515,      2)  /* CANTRIPINVULNERABILITY2 */
      , (35938,  2396,      2)  /* FlameShield */
      , (35938,  2397,      2)  /* IceShield */
-     , (35938,  2514,      2)  /* CANTRIPIMPREGNABILITY2 */
-     , (35938,  2515,      2)  /* CANTRIPINVULNERABILITY2 */
-     , (35938,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */;
+     , (35938,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
+     , (35938,  2102,      2)  /* FlameBane7 */
+     , (35938,  2104,      2)  /* FrostBane7 */
+     , (35938,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35938, 67114563, 240, 16);

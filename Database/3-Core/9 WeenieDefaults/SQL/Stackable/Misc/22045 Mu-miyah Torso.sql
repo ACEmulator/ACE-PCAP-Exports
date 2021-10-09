@@ -24,17 +24,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22045,   1, 'Mu-miyah Torso') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22045,   1,   33558014) /* Setup */
-     , (22045,   3,  536870932) /* SoundTable */
-     , (22045,   6,   67108990) /* PaletteBase */
-     , (22045,   8,  100673685) /* Icon */
-     , (22045,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22045,   1, 0x02000DFE) /* Setup */
+     , (22045,   3, 0x20000014) /* SoundTable */
+     , (22045,   6, 0x0400007E) /* PaletteBase */
+     , (22045,   8, 0x06002895) /* Icon */
+     , (22045,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22045, 8001,  270561296) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (22045, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22045, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22045, 8000, 2166169798) /* PCAPRecordedObjectIID */;
+VALUES (22045, 8000, 0x811D20C6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22045, 67111828, 40, 200);

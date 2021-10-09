@@ -24,13 +24,13 @@ VALUES (1896,   1, 'Aura of Hermetic Link Self') /* Name */
 Increases a magic casting implement''s mana conversion bonus by 10%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1896,   1,   33554826) /* Setup */
-     , (1896,   8,  100676672) /* Icon */
-     , (1896,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1896,   1, 0x0200018A) /* Setup */
+     , (1896,   8, 0x06003440) /* Icon */
+     , (1896,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1896,  28,       1475) /* Spell - HermeticLinkSelf1 */
      , (1896, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1896, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1896, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1896, 8000, 2924581996) /* PCAPRecordedObjectIID */;
+VALUES (1896, 8000, 0xAE51946C) /* PCAPRecordedObjectIID */;

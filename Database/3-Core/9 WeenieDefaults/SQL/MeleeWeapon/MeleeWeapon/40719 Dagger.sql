@@ -26,17 +26,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40719,   1, 'Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40719,   1,   33554735) /* Setup */
-     , (40719,   3,  536870932) /* SoundTable */
-     , (40719,   6,   67111919) /* PaletteBase */
-     , (40719,   8,  100668876) /* Icon */
-     , (40719,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40719,   1, 0x0200012F) /* Setup */
+     , (40719,   3, 0x20000014) /* SoundTable */
+     , (40719,   6, 0x04000BEF) /* PaletteBase */
+     , (40719,   8, 0x060015CC) /* Icon */
+     , (40719,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40719, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40719, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40719, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40719, 8000, 2624395195) /* PCAPRecordedObjectIID */;
+VALUES (40719, 8000, 0x9C6D17BB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40719, 67111920, 0, 0);

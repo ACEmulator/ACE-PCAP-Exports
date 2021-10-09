@@ -53,29 +53,29 @@ VALUES (37193,   1, 'Olthoi Girth') /* Name */
      , (37193,  39, 'Tiesto') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37193,   1,   33554647) /* Setup */
-     , (37193,   3,  536870932) /* SoundTable */
-     , (37193,   6,   67108990) /* PaletteBase */
-     , (37193,   8,  100674592) /* Icon */
-     , (37193,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37193,   1, 0x020000D7) /* Setup */
+     , (37193,   3, 0x20000014) /* SoundTable */
+     , (37193,   6, 0x0400007E) /* PaletteBase */
+     , (37193,   8, 0x06002C20) /* Icon */
+     , (37193,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37193,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (37193, 8001, 2166685720) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (37193, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37193, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37193, 8040, 23855631, 87.89492, -16.69748, 0, -0.8451899, 0, 0, 0.5344661) /* PCAPRecordedLocation */
+VALUES (37193, 8040, 0x016C020F, 87.89492, -16.69748, 0, -0.84519, 0, 0, 0.534466) /* PCAPRecordedLocation */
 /* @teleloc 0x016C020F [87.894920 -16.697480 0.000000] -0.845190 0.000000 0.000000 0.534466 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37193, 8000, 3473432961) /* PCAPRecordedObjectIID */;
+VALUES (37193, 8000, 0xCF086181) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37193,  1354,      2)  /* EnduranceSelf6 */
      , (37193,  1486,      2)  /* Impenetrability6 */
-     , (37193,  2609,      2)  /* CANTRIPACIDWARD2 */
+     , (37193,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */
      , (37193,  4397,      2)  /* BludgeonBane8 */
-     , (37193,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */;
+     , (37193,  2609,      2)  /* CANTRIPACIDWARD2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37193, 67116559, 84, 8)

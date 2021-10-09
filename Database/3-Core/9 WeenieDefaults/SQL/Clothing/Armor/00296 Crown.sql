@@ -47,21 +47,21 @@ VALUES (296,   1, 'Crown') /* Name */
      , (296,  16, 'Crown of Mana Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (296,   1,   33554685) /* Setup */
-     , (296,   3,  536870932) /* SoundTable */
-     , (296,   6,   67108990) /* PaletteBase */
-     , (296,   8,  100669181) /* Icon */
-     , (296,  22,  872415275) /* PhysicsEffectTable */
+VALUES (296,   1, 0x020000FD) /* Setup */
+     , (296,   3, 0x20000014) /* SoundTable */
+     , (296,   6, 0x0400007E) /* PaletteBase */
+     , (296,   8, 0x060016FD) /* Icon */
+     , (296,  22, 0x3400002B) /* PhysicsEffectTable */
      , (296, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (296, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (296, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (296, 8000, 3686123830) /* PCAPRecordedObjectIID */;
+VALUES (296, 8000, 0xDBB5C936) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (296,   658,      2)  /* ManaMasterySelf6 */
-     , (296,  1485,      2)  /* Impenetrability5 */
+VALUES (296,  1485,      2)  /* Impenetrability5 */
+     , (296,   658,      2)  /* ManaMasterySelf6 */
      , (296,  1561,      2)  /* BladeBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -19,11 +19,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15827,   1, 'Pedestal with a Floral Arrangement') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15827,   1,   33557644) /* Setup */
-     , (15827,   8,  100672830) /* Icon */
+VALUES (15827,   1, 0x02000C8C) /* Setup */
+     , (15827,   8, 0x0600253E) /* Icon */
      , (15827, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (15827, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15827, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15827, 8000, 2249707812) /* PCAPRecordedObjectIID */;
+VALUES (15827, 8000, 0x8617D124) /* PCAPRecordedObjectIID */;

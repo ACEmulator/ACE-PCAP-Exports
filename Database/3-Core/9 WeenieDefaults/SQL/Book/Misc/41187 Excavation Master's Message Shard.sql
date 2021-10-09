@@ -14,6 +14,9 @@ VALUES (41187,   1,        128) /* ItemType - Misc */
      , (41187, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (41187, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (41187,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41187,  39,     0.2) /* DefaultScale */
      , (41187,  54,       1) /* UseRadius */
@@ -25,13 +28,13 @@ VALUES (41187,   1, 'Excavation Master''s Message Shard') /* Name */
      , (41187,  15, 'A shard of black crystal, recovered from the Apostate Excavation Master.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41187,   1,   33555391) /* Setup */
-     , (41187,   3,  536870932) /* SoundTable */
-     , (41187,   8,  100671183) /* Icon */
-     , (41187,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41187,   1, 0x020003BF) /* Setup */
+     , (41187,   3, 0x20000014) /* SoundTable */
+     , (41187,   8, 0x06001ECF) /* Icon */
+     , (41187,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41187, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (41187, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (41187, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41187, 8000, 3703623648) /* PCAPRecordedObjectIID */;
+VALUES (41187, 8000, 0xDCC0CFE0) /* PCAPRecordedObjectIID */;

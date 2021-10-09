@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11237,   1,          1) /* ItemType - MeleeWeapon */
      , (11237,   5,        200) /* EncumbranceVal */
      , (11237,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (11237,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (11237,  16,          1) /* ItemUseable - No */
      , (11237,  19,         50) /* Value */
      , (11237,  33,          1) /* Bonded - Bonded */
@@ -24,7 +23,8 @@ VALUES (11237,   1,          1) /* ItemType - MeleeWeapon */
      , (11237, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11237,  22, True ) /* Inscribable */;
+VALUES (11237,  22, True ) /* Inscribable */
+     , (11237,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11237,  21,       0) /* WeaponLength */
@@ -41,19 +41,19 @@ VALUES (11237,   1, 'Pyreal Mace') /* Name */
      , (11237,  16, 'A mace with a small loop at the end, allowing it to be hung from something. There is a fine inscription along its length - "Marae Edare," in the script of Yalain.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11237,   1,   33557230) /* Setup */
-     , (11237,   3,  536870932) /* SoundTable */
-     , (11237,   8,  100672027) /* Icon */
-     , (11237,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11237,   1, 0x02000AEE) /* Setup */
+     , (11237,   3, 0x20000014) /* SoundTable */
+     , (11237,   8, 0x0600221B) /* Icon */
+     , (11237,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11237, 8001,    2327064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (11237, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11237, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (11237, 8009,          8) /* PCAPRecordedParentLocation - LeftWeapon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11237, 8040, 23855548, 53.67599, -32.81983, -0.071, 0.7046937, 0.7046937, -0.05836776, -0.05836776) /* PCAPRecordedLocation */
+VALUES (11237, 8040, 0x016C01BC, 53.67599, -32.81983, -0.071, 0.704694, 0.704694, -0.058368, -0.058368) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [53.675990 -32.819830 -0.071000] 0.704694 0.704694 -0.058368 -0.058368 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11237, 8000, 2183167586) /* PCAPRecordedObjectIID */
-     , (11237, 8008, 1342789086) /* PCAPRecordedParentIID */;
+VALUES (11237, 8000, 0x82207E62) /* PCAPRecordedObjectIID */
+     , (11237, 8008, 0x500955DE) /* PCAPRecordedParentIID */;

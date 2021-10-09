@@ -24,21 +24,21 @@ VALUES (14536,   1, 'Chest') /* Name */
      , (14536, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14536,   1,   33554556) /* Setup */
-     , (14536,   2,  150994948) /* MotionTable */
-     , (14536,   3,  536870945) /* SoundTable */
-     , (14536,   8,  100672484) /* Icon */
-     , (14536,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14536,   1, 0x0200007C) /* Setup */
+     , (14536,   2, 0x09000004) /* MotionTable */
+     , (14536,   3, 0x20000021) /* SoundTable */
+     , (14536,   8, 0x060023E4) /* Icon */
+     , (14536,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14536, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (14536, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (14536, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14536, 8040, 1383203101, 2.5, -60, -36, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (14536, 8040, 0x5272011D, 2.5, -60, -36, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x5272011D [2.500000 -60.000000 -36.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14536, 8000, 1965498406) /* PCAPRecordedObjectIID */;
+VALUES (14536, 8000, 0x75272026) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14536, -1, 14510, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Hammer of Ice (14510) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

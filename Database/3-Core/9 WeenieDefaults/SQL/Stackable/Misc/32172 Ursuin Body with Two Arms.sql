@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32172,   1, 'Ursuin Body with Two Arms') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32172,   1,   33559786) /* Setup */
-     , (32172,   3,  536870932) /* SoundTable */
-     , (32172,   8,  100688471) /* Icon */
-     , (32172,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32172,   1, 0x020014EA) /* Setup */
+     , (32172,   3, 0x20000014) /* SoundTable */
+     , (32172,   8, 0x06006257) /* Icon */
+     , (32172,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32172, 8001,  270561296) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (32172, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32172, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32172, 8000, 2981039345) /* PCAPRecordedObjectIID */;
+VALUES (32172, 8000, 0xB1AF0CF1) /* PCAPRecordedObjectIID */;

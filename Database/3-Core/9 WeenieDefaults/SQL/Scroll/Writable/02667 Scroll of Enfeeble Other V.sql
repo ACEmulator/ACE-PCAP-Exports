@@ -24,13 +24,13 @@ VALUES (2667,   1, 'Scroll of Enfeeble Other V') /* Name */
 Drains 32-63 points of the target''s Stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2667,   1,   33554826) /* Setup */
-     , (2667,   8,  100676933) /* Icon */
-     , (2667,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2667,   1, 0x0200018A) /* Setup */
+     , (2667,   8, 0x06003545) /* Icon */
+     , (2667,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2667,  28,       1199) /* Spell - EnfeebleOther5 */
      , (2667, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2667, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2667, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2667, 8000, 3706551333) /* PCAPRecordedObjectIID */;
+VALUES (2667, 8000, 0xDCED7C25) /* PCAPRecordedObjectIID */;

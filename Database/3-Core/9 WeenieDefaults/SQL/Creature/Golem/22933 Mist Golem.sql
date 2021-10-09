@@ -22,21 +22,21 @@ VALUES (22933,   1, 'Mist Golem') /* Name */
      , (22933, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22933,   1,   33556642) /* Setup */
-     , (22933,   2,  150995073) /* MotionTable */
-     , (22933,   3,  536871066) /* SoundTable */
-     , (22933,   8,  100667940) /* Icon */
-     , (22933,  22,  872415322) /* PhysicsEffectTable */
+VALUES (22933,   1, 0x020008A2) /* Setup */
+     , (22933,   2, 0x09000081) /* MotionTable */
+     , (22933,   3, 0x2000009A) /* SoundTable */
+     , (22933,   8, 0x06001224) /* Icon */
+     , (22933,  22, 0x3400005A) /* PhysicsEffectTable */
      , (22933, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (22933, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22933, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22933, 8040, 2279735309, 31.65214, 107.0674, 111.3723, 0.7301274, 0, 0, -0.683311) /* PCAPRecordedLocation */
+VALUES (22933, 8040, 0x87E2000D, 31.65214, 107.0674, 111.3723, 0.730127, 0, 0, -0.683311) /* PCAPRecordedLocation */
 /* @teleloc 0x87E2000D [31.652140 107.067400 111.372300] 0.730127 0.000000 0.000000 -0.683311 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22933, 8000, 3685887416) /* PCAPRecordedObjectIID */;
+VALUES (22933, 8000, 0xDBB22DB8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22933,   1, 160, 0, 0) /* Strength */
@@ -52,7 +52,8 @@ VALUES (22933,   1,   180, 0, 0, 275) /* MaxHealth */
      , (22933,   5,   200, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22933, 9, 41067,  0, 0, 0, False) /* Create Shashqa (41067) for ContainTreasure */
+VALUES (22933, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
+     , (22933, 9, 41067,  0, 0, 0, False) /* Create Shashqa (41067) for ContainTreasure */
      , (22933, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
      , (22933, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
      , (22933, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */

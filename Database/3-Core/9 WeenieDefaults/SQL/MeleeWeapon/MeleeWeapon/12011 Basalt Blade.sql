@@ -42,17 +42,17 @@ VALUES (12011,   1, 'Basalt Blade') /* Name */
      , (12011,  16, 'A large chunk of volcanic rock with a middle thin enough to grasp.  There is a slot in the rock that you think a haft may be able to fit into.  (Give it to a trophy collector to transform it into an axe)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12011,   1,   33557335) /* Setup */
-     , (12011,   3,  536870932) /* SoundTable */
-     , (12011,   8,  100672108) /* Icon */
-     , (12011,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12011,   1, 0x02000B57) /* Setup */
+     , (12011,   3, 0x20000014) /* SoundTable */
+     , (12011,   8, 0x0600226C) /* Icon */
+     , (12011,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12011, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (12011, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12011, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12011, 8000, 2541837546) /* PCAPRecordedObjectIID */;
+VALUES (12011, 8000, 0x97815CEA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12011,  1021,      2)  /* BludgeonProtectionSelf4 */
-     , (12011,  1625,      2)  /* SwiftKillerSelf4 */;
+VALUES (12011,  1625,      2)  /* SwiftKillerSelf4 */
+     , (12011,  1021,      2)  /* BludgeonProtectionSelf4 */;

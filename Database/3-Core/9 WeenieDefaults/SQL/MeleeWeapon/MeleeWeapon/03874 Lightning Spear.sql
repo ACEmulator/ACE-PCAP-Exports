@@ -47,17 +47,17 @@ VALUES (3874,   1, 'Lightning Spear') /* Name */
      , (3874,  16, 'Lightning Spear') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3874,   1,   33555789) /* Setup */
-     , (3874,   3,  536870932) /* SoundTable */
-     , (3874,   6,   67111919) /* PaletteBase */
-     , (3874,   8,  100669005) /* Icon */
-     , (3874,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3874,   1, 0x0200054D) /* Setup */
+     , (3874,   3, 0x20000014) /* SoundTable */
+     , (3874,   6, 0x04000BEF) /* PaletteBase */
+     , (3874,   8, 0x0600164D) /* Icon */
+     , (3874,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3874, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3874, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3874, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3874, 8000, 3681765732) /* PCAPRecordedObjectIID */;
+VALUES (3874, 8000, 0xDB734964) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3874, 67111919, 0, 0);

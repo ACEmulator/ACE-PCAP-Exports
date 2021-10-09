@@ -47,18 +47,18 @@ VALUES (8488,   1, 'Armet') /* Name */
      , (8488,  16, 'Armet of Rejuvenation') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8488,   1,   33556856) /* Setup */
-     , (8488,   3,  536870932) /* SoundTable */
-     , (8488,   6,   67108990) /* PaletteBase */
-     , (8488,   8,  100671192) /* Icon */
-     , (8488,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8488,   1, 0x02000978) /* Setup */
+     , (8488,   3, 0x20000014) /* SoundTable */
+     , (8488,   6, 0x0400007E) /* PaletteBase */
+     , (8488,   8, 0x06001ED8) /* Icon */
+     , (8488,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8488,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (8488, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (8488, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8488, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8488, 8000, 3690366967) /* PCAPRecordedObjectIID */;
+VALUES (8488, 8000, 0xDBF687F7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8488,   192,      2)  /* RejuvenationSelf5 */

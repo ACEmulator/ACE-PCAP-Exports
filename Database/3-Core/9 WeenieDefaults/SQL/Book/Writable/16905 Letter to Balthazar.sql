@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (16905,   1, 'Letter to Balthazar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16905,   1,   33554773) /* Setup */
-     , (16905,   3,  536870932) /* SoundTable */
-     , (16905,   8,  100668176) /* Icon */
-     , (16905,  22,  872415275) /* PhysicsEffectTable */
+VALUES (16905,   1, 0x02000155) /* Setup */
+     , (16905,   3, 0x20000014) /* SoundTable */
+     , (16905,   8, 0x06001310) /* Icon */
+     , (16905,  22, 0x3400002B) /* PhysicsEffectTable */
      , (16905, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (16905, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (16905, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (16905, 8000, 3351894908) /* PCAPRecordedObjectIID */;
+VALUES (16905, 8000, 0xC7C9DB7C) /* PCAPRecordedObjectIID */;

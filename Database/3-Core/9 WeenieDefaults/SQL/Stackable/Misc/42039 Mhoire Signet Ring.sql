@@ -18,20 +18,21 @@ VALUES (42039,   1,        128) /* ItemType - Misc */
      , (42039, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42039,  69, False) /* IsSellable */;
+VALUES (42039,  23, True ) /* DestroyOnSell */
+     , (42039,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42039,   1, 'Mhoire Signet Ring') /* Name */
      , (42039,  15, 'An insubstantial ring with the symbol of House Mhoire. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42039,   1,   33554817) /* Setup */
-     , (42039,   3,  536870932) /* SoundTable */
-     , (42039,   8,  100668671) /* Icon */
-     , (42039,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42039,   1, 0x02000181) /* Setup */
+     , (42039,   3, 0x20000014) /* SoundTable */
+     , (42039,   8, 0x060014FF) /* Icon */
+     , (42039,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42039, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (42039, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (42039, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42039, 8000, 2210356885) /* PCAPRecordedObjectIID */;
+VALUES (42039, 8000, 0x83BF5E95) /* PCAPRecordedObjectIID */;

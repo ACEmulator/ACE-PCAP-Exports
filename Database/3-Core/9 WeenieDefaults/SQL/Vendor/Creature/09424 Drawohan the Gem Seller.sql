@@ -34,21 +34,21 @@ VALUES (9424,   1, 'Drawohan the Gem Seller') /* Name */
      , (9424, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9424,   1,   33557003) /* Setup */
-     , (9424,   2,  150994950) /* MotionTable */
-     , (9424,   3,  536870922) /* SoundTable */
-     , (9424,   6,   67113158) /* PaletteBase */
-     , (9424,   8,  100667447) /* Icon */
+VALUES (9424,   1, 0x02000A0B) /* Setup */
+     , (9424,   2, 0x09000006) /* MotionTable */
+     , (9424,   3, 0x2000000A) /* SoundTable */
+     , (9424,   6, 0x040010C6) /* PaletteBase */
+     , (9424,   8, 0x06001037) /* Icon */
      , (9424, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (9424, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (9424, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9424, 8040, 2103705627, 78.3869, 51.5654, 12.01, -0.7344389, 0, 0, -0.6786748) /* PCAPRecordedLocation */
+VALUES (9424, 8040, 0x7D64001B, 78.3869, 51.5654, 12.01, -0.734439, 0, 0, -0.678675) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64001B [78.386900 51.565400 12.010000] -0.734439 0.000000 0.000000 -0.678675 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9424, 8000, 2010529822) /* PCAPRecordedObjectIID */;
+VALUES (9424, 8000, 0x77D6401E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9424,   1, 240, 0, 0) /* Strength */

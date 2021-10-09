@@ -15,7 +15,7 @@ VALUES (30746,   1,        256) /* ItemType - MissileWeapon */
      , (30746,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30746,  49,         21) /* WeaponTime */
      , (30746,  50,          4) /* AmmoType - Atlatl */
-     , (30746,  51,          2) /* CombatUse - Missle */
+     , (30746,  51,          2) /* CombatUse - Missile */
      , (30746,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30746, 105,          7) /* ItemWorkmanship */
      , (30746, 106,        262) /* ItemSpellcraft */
@@ -54,23 +54,23 @@ VALUES (30746,   1, 'Dart Flinger') /* Name */
      , (30746,  16, 'Dart Flinger of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30746,   1,   33559503) /* Setup */
-     , (30746,   3,  536870932) /* SoundTable */
-     , (30746,   6,   67115555) /* PaletteBase */
-     , (30746,   8,  100687089) /* Icon */
-     , (30746,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30746,   1, 0x020013CF) /* Setup */
+     , (30746,   3, 0x20000014) /* SoundTable */
+     , (30746,   6, 0x04001A23) /* PaletteBase */
+     , (30746,   8, 0x06005CF1) /* Icon */
+     , (30746,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30746,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (30746, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30746, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30746, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30746, 8000, 3687064748) /* PCAPRecordedObjectIID */;
+VALUES (30746, 8000, 0xDBC424AC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30746,  1332,      2)  /* StrengthSelf6 */
-     , (30746,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (30746,  2540,      2)  /* CANTRIPBOWAPTITUDE1 */;
+VALUES (30746,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (30746,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */
+     , (30746,  1332,      2)  /* StrengthSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30746, 67116458, 0, 0);

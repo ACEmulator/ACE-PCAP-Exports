@@ -14,7 +14,8 @@ VALUES (31413,   1,        128) /* ItemType - Misc */
      , (31413, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31413,  22, True ) /* Inscribable */;
+VALUES (31413,  22, True ) /* Inscribable */
+     , (31413,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31413,   1, 'Translated Dericost Tome') /* Name */
@@ -22,13 +23,13 @@ VALUES (31413,   1, 'Translated Dericost Tome') /* Name */
      , (31413,  16, 'A sealed translation of an Unreadable Dericost Tome written by Kuyiza bint Zayi of Zaikhal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31413,   1,   33559593) /* Setup */
-     , (31413,   3,  536870932) /* SoundTable */
-     , (31413,   8,  100688124) /* Icon */
-     , (31413,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31413,   1, 0x02001429) /* Setup */
+     , (31413,   3, 0x20000014) /* SoundTable */
+     , (31413,   8, 0x060060FC) /* Icon */
+     , (31413,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31413, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (31413, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31413, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31413, 8000, 2448686890) /* PCAPRecordedObjectIID */;
+VALUES (31413, 8000, 0x91F3FF2A) /* PCAPRecordedObjectIID */;

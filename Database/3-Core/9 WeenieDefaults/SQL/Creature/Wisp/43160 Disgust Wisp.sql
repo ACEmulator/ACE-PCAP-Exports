@@ -26,20 +26,20 @@ VALUES (43160,   1, 'Disgust Wisp') /* Name */
      , (43160, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43160,   1,   33557068) /* Setup */
-     , (43160,   2,  150995087) /* MotionTable */
-     , (43160,   3,  536870985) /* SoundTable */
-     , (43160,   8,  100671683) /* Icon */
+VALUES (43160,   1, 0x02000A4C) /* Setup */
+     , (43160,   2, 0x0900008F) /* MotionTable */
+     , (43160,   3, 0x20000049) /* SoundTable */
+     , (43160,   8, 0x060020C3) /* Icon */
      , (43160, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (43160, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (43160, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43160, 8040, 47251884, 9.84967, -48.8089, 0.006500006, -0.202787, 0, 0, 0.9792229) /* PCAPRecordedLocation */
+VALUES (43160, 8040, 0x02D101AC, 9.84967, -48.8089, 0.0065, -0.202787, 0, 0, 0.979223) /* PCAPRecordedLocation */
 /* @teleloc 0x02D101AC [9.849670 -48.808900 0.006500] -0.202787 0.000000 0.000000 0.979223 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43160, 8000, 3710431666) /* PCAPRecordedObjectIID */;
+VALUES (43160, 8000, 0xDD28B1B2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43160,   1, 220, 0, 0) /* Strength */

@@ -40,17 +40,17 @@ VALUES (552,   1, 'Scale Mail Basinet') /* Name */
      , (552,  16, 'Utterly flawless Gold Scale Mail Basinet ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (552,   1,   33555048) /* Setup */
-     , (552,   3,  536870932) /* SoundTable */
-     , (552,   6,   67108990) /* PaletteBase */
-     , (552,   8,  100669421) /* Icon */
-     , (552,  22,  872415275) /* PhysicsEffectTable */
+VALUES (552,   1, 0x02000268) /* Setup */
+     , (552,   3, 0x20000014) /* SoundTable */
+     , (552,   6, 0x0400007E) /* PaletteBase */
+     , (552,   8, 0x060017ED) /* Icon */
+     , (552,  22, 0x3400002B) /* PhysicsEffectTable */
      , (552, 8001, 2435137560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (552, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (552, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (552, 8000, 3658160636) /* PCAPRecordedObjectIID */;
+VALUES (552, 8000, 0xDA0B19FC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (552, 67110551, 240, 10);

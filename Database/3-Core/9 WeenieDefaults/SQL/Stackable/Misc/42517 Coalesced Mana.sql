@@ -17,7 +17,8 @@ VALUES (42517,   1,        128) /* ItemType - Misc */
      , (42517, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42517,  69, False) /* IsSellable */;
+VALUES (42517,  23, True ) /* DestroyOnSell */
+     , (42517,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42517,  39,     0.3) /* DefaultScale */;
@@ -28,17 +29,17 @@ VALUES (42517,   1, 'Coalesced Mana') /* Name */
      , (42517,  20, 'Coalesced Mana') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42517,   1,   33557506) /* Setup */
-     , (42517,   3,  536870932) /* SoundTable */
-     , (42517,   6,   67112808) /* PaletteBase */
-     , (42517,   8,  100690900) /* Icon */
-     , (42517,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42517,   1, 0x02000C02) /* Setup */
+     , (42517,   3, 0x20000014) /* SoundTable */
+     , (42517,   6, 0x04000F68) /* PaletteBase */
+     , (42517,   8, 0x06006BD4) /* Icon */
+     , (42517,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42517, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
      , (42517, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (42517, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42517, 8000, 3706735871) /* PCAPRecordedObjectIID */;
+VALUES (42517, 8000, 0xDCF04CFF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42517, 67112807, 0, 0);

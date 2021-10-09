@@ -17,7 +17,7 @@ VALUES (0x75B4302C,  5627, 0x5B4301C6, 40.2784, -214.75, -12, 0.999687, 0, 0, 0.
 /* @teleloc 0x5B4301C6 [40.278400 -214.750000 -12.000000] 0.999687 0.000000 0.000000 0.024997 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75B43032,  5627, 0x5B4301DD, 50.1752, -225.274, -12, 0.00375596, 0, 0, -0.999993, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x75B43032,  5627, 0x5B4301DD, 50.1752, -225.274, -12, 0.003756, 0, 0, -0.999993, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x5B4301DD [50.175200 -225.274000 -12.000000] 0.003756 0.000000 0.000000 -0.999993 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -49,9 +49,9 @@ VALUES (0x75B430A6,  4451, 0x5B4303B5, 165.338, -89.8696, -6, 0.705283, 0, 0, 0.
 /* @teleloc 0x5B4303B5 [165.338000 -89.869600 -6.000000] 0.705283 0.000000 0.000000 0.708926 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75B430A7, 22012, 0x5B430419, 80, -3.0237, -0.06299996, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Exit to the Surface */
+VALUES (0x75B430A7, 22012, 0x5B430419, 80, -3.0237, -0.063, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Exit to the Surface */
 /* @teleloc 0x5B430419 [80.000000 -3.023700 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75B430A8, 22189, 0x5B43013A, 60, -346.7264, -24.063, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Olthoi Arcade Central */
+VALUES (0x75B430A8, 22189, 0x5B43013A, 60, -346.7264, -24.063, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Olthoi Arcade Central */
 /* @teleloc 0x5B43013A [60.000000 -346.726400 -24.063000] 0.000000 0.000000 0.000000 -1.000000 */

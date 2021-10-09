@@ -30,21 +30,21 @@ VALUES (3964,   1, 'Chest') /* Name */
      , (3964, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3964,   1,   33554556) /* Setup */
-     , (3964,   2,  150994948) /* MotionTable */
-     , (3964,   3,  536870945) /* SoundTable */
-     , (3964,   8,  100667424) /* Icon */
-     , (3964,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3964,   1, 0x0200007C) /* Setup */
+     , (3964,   2, 0x09000004) /* MotionTable */
+     , (3964,   3, 0x20000021) /* SoundTable */
+     , (3964,   8, 0x06001020) /* Icon */
+     , (3964,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3964, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (3964, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (3964, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3964, 8040, 2137260065, 107.833, 20.7367, 22.27194, 0.8452147, 0, 0, -0.5344268) /* PCAPRecordedLocation */
+VALUES (3964, 8040, 0x7F640021, 107.833, 20.7367, 22.27194, 0.845215, 0, 0, -0.534427) /* PCAPRecordedLocation */
 /* @teleloc 0x7F640021 [107.833000 20.736700 22.271940] 0.845215 0.000000 0.000000 -0.534427 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3964, 8000, 2012626951) /* PCAPRecordedObjectIID */;
+VALUES (3964, 8000, 0x77F64007) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3964, -1, 243, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Dinner Plate (243) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -22,6 +22,7 @@ VALUES (40344,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40344,  22, True ) /* Inscribable */
+     , (40344,  23, True ) /* DestroyOnSell */
      , (40344,  63, True ) /* UnlimitedUse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -32,14 +33,14 @@ VALUES (40344,   1, 'Crystal of Spectral Blood') /* Name */
      , (40344,  16, 'This large clear crystal sometimes emits faint whispers. Use it to detect invisible ghosts under Mhoire Castle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40344,   1,   33554809) /* Setup */
-     , (40344,   3,  536870932) /* SoundTable */
-     , (40344,   8,  100690374) /* Icon */
-     , (40344,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40344,   1, 0x02000179) /* Setup */
+     , (40344,   3, 0x20000014) /* SoundTable */
+     , (40344,   8, 0x060069C6) /* Icon */
+     , (40344,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40344, 8001,     553104) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (40344, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (40344, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (40344, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40344, 8000, 2731653568) /* PCAPRecordedObjectIID */;
+VALUES (40344, 8000, 0xA2D1B9C0) /* PCAPRecordedObjectIID */;

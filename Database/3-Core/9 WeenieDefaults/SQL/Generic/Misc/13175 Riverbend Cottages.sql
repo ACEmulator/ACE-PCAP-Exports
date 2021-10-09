@@ -17,15 +17,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13175,   1, 'Riverbend Cottages') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13175,   1,   33557463) /* Setup */
-     , (13175,   8,  100668115) /* Icon */
+VALUES (13175,   1, 0x02000BD7) /* Setup */
+     , (13175,   8, 0x060012D3) /* Icon */
      , (13175, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (13175, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (13175, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13175, 8040, 3497721886, 73.7629, 121.59, 16, 0.949461, 0, 0, 0.313885) /* PCAPRecordedLocation */
+VALUES (13175, 8040, 0xD07B001E, 73.7629, 121.59, 16, 0.949461, 0, 0, 0.313885) /* PCAPRecordedLocation */
 /* @teleloc 0xD07B001E [73.762900 121.590000 16.000000] 0.949461 0.000000 0.000000 0.313885 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13175, 8000, 2097656241) /* PCAPRecordedObjectIID */;
+VALUES (13175, 8000, 0x7D07B1B1) /* PCAPRecordedObjectIID */;

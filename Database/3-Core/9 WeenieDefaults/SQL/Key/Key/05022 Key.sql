@@ -23,13 +23,13 @@ VALUES (5022,   1, 'Key') /* Name */
      , (5022,  16, 'A rusted key with strange scratch marks reminiscent of carved snakes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5022,   1,   33554784) /* Setup */
-     , (5022,   3,  536870932) /* SoundTable */
-     , (5022,   8,  100667485) /* Icon */
-     , (5022,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5022,   1, 0x02000160) /* Setup */
+     , (5022,   3, 0x20000014) /* SoundTable */
+     , (5022,   8, 0x0600105D) /* Icon */
+     , (5022,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5022, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (5022, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5022, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5022, 8000, 2992423697) /* PCAPRecordedObjectIID */;
+VALUES (5022, 8000, 0xB25CC311) /* PCAPRecordedObjectIID */;

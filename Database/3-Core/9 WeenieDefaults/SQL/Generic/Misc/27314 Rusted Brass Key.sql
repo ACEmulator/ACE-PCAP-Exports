@@ -15,6 +15,7 @@ VALUES (27314,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27314,  22, True ) /* Inscribable */
+     , (27314,  23, True ) /* DestroyOnSell */
      , (27314,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,13 +26,13 @@ VALUES (27314,   1, 'Rusted Brass Key') /* Name */
      , (27314,  15, 'A dull, rusty key.  It looks like the type used to unlock shackles or stocks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27314,   1,   33554784) /* Setup */
-     , (27314,   3,  536870932) /* SoundTable */
-     , (27314,   8,  100667486) /* Icon */
-     , (27314,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27314,   1, 0x02000160) /* Setup */
+     , (27314,   3, 0x20000014) /* SoundTable */
+     , (27314,   8, 0x0600105E) /* Icon */
+     , (27314,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27314, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (27314, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27314, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27314, 8000, 2274298700) /* PCAPRecordedObjectIID */;
+VALUES (27314, 8000, 0x878F0B4C) /* PCAPRecordedObjectIID */;

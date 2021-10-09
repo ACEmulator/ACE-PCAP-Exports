@@ -23,21 +23,21 @@ VALUES (28432,   1, 'Noble War Maul Chest') /* Name */
      , (28432, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28432,   1,   33558857) /* Setup */
-     , (28432,   2,  150994948) /* MotionTable */
-     , (28432,   3,  536870945) /* SoundTable */
-     , (28432,   8,  100676961) /* Icon */
-     , (28432,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28432,   1, 0x02001149) /* Setup */
+     , (28432,   2, 0x09000004) /* MotionTable */
+     , (28432,   3, 0x20000021) /* SoundTable */
+     , (28432,   8, 0x06003561) /* Icon */
+     , (28432,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28432, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (28432, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (28432, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28432, 8040, 42008838, -3.7, -30, 0, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (28432, 8040, 0x02810106, -3.7, -30, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x02810106 [-3.700000 -30.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28432, 8000, 1881673730) /* PCAPRecordedObjectIID */;
+VALUES (28432, 8000, 0x70281002) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28432, -1, 31798, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Slashing Compound Bow (31798) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

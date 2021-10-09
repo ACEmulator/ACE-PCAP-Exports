@@ -22,16 +22,16 @@ VALUES (1327,   1, 'Small Icecave') /* Name */
      , (1327, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1327,   1,   33555926) /* Setup */
-     , (1327,   2,  150994947) /* MotionTable */
-     , (1327,   8,  100667499) /* Icon */
+VALUES (1327,   1, 0x020005D6) /* Setup */
+     , (1327,   2, 0x09000003) /* MotionTable */
+     , (1327,   8, 0x0600106B) /* Icon */
      , (1327, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (1327, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1327, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1327, 8040, 3201499160, 67.17, 170.94, 145.7095, -0.00872653, 0, 0, -0.9999619) /* PCAPRecordedLocation */
+VALUES (1327, 8040, 0xBED30018, 67.17, 170.94, 145.7095, -0.008727, 0, 0, -0.999962) /* PCAPRecordedLocation */
 /* @teleloc 0xBED30018 [67.170000 170.940000 145.709500] -0.008727 0.000000 0.000000 -0.999962 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1327, 8000, 2079141888) /* PCAPRecordedObjectIID */;
+VALUES (1327, 8000, 0x7BED3000) /* PCAPRecordedObjectIID */;

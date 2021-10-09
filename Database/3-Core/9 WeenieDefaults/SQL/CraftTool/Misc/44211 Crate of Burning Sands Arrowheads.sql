@@ -24,18 +24,18 @@ VALUES (44211,   1, 'Crate of Burning Sands Arrowheads') /* Name */
      , (44211,  20, 'Crates of Burning Sands Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44211,   1,   33556223) /* Setup */
-     , (44211,   3,  536870932) /* SoundTable */
-     , (44211,   6,   67111928) /* PaletteBase */
-     , (44211,   8,  100691936) /* Icon */
-     , (44211,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44211,   1, 0x020006FF) /* Setup */
+     , (44211,   3, 0x20000014) /* SoundTable */
+     , (44211,   6, 0x04000BF8) /* PaletteBase */
+     , (44211,   8, 0x06006FE0) /* Icon */
+     , (44211,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44211, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (44211, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44211, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (44211, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44211, 8000,      44211) /* PCAPRecordedObjectIID */;
+VALUES (44211, 8000, 0x0000ACB3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44211, 67112642, 0, 0);

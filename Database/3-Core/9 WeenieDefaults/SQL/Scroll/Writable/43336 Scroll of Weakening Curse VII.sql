@@ -24,13 +24,13 @@ VALUES (43336,   1, 'Scroll of Weakening Curse VII') /* Name */
 Decreases the target''s damage rating by 12.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43336,   1,   33554826) /* Setup */
-     , (43336,   8,  100691574) /* Icon */
-     , (43336,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43336,   1, 0x0200018A) /* Setup */
+     , (43336,   8, 0x06006E76) /* Icon */
+     , (43336,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43336,  28,       5385) /* Spell - CurseWeakness7 */
      , (43336, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43336, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43336, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43336, 8000, 3470980387) /* PCAPRecordedObjectIID */;
+VALUES (43336, 8000, 0xCEE2F523) /* PCAPRecordedObjectIID */;

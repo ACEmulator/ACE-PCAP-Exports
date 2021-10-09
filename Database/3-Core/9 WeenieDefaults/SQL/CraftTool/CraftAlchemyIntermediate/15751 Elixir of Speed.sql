@@ -24,17 +24,17 @@ VALUES (15751,   1, 'Elixir of Speed') /* Name */
      , (15751,  20, 'Elixirs of Speed') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15751,   1,   33555965) /* Setup */
-     , (15751,   3,  536870932) /* SoundTable */
-     , (15751,   6,   67111919) /* PaletteBase */
-     , (15751,   8,  100672789) /* Icon */
-     , (15751,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15751,   1, 0x020005FD) /* Setup */
+     , (15751,   3, 0x20000014) /* SoundTable */
+     , (15751,   6, 0x04000BEF) /* PaletteBase */
+     , (15751,   8, 0x06002515) /* Icon */
+     , (15751,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15751, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (15751, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15751, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15751, 8000, 2779768967) /* PCAPRecordedObjectIID */;
+VALUES (15751, 8000, 0xA5AFE887) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15751, 67111925, 0, 0);

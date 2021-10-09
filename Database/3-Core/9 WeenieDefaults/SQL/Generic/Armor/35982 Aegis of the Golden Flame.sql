@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35982,   1,          2) /* ItemType - Armor */
      , (35982,   5,        300) /* EncumbranceVal */
      , (35982,   9,    2097152) /* ValidLocations - Shield */
-     , (35982,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (35982,  16,          1) /* ItemUseable - No */
      , (35982,  18,         32) /* UiEffects - Fire */
      , (35982,  19,      10000) /* Value */
@@ -27,6 +26,7 @@ VALUES (35982,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35982,  22, True ) /* Inscribable */
+     , (35982,  23, True ) /* DestroyOnSell */
      , (35982,  69, False) /* IsSellable */
      , (35982,  99, True ) /* Ivoryable */;
 
@@ -49,10 +49,10 @@ VALUES (35982,   1, 'Aegis of the Golden Flame') /* Name */
      , (35982,  16, 'A shield forged from Pure Mana and Flame.  This Aegis is the ultimate expression of the heraldry of the Knights of the Golden Flame upon Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35982,   1,   33560366) /* Setup */
-     , (35982,   3,  536870932) /* SoundTable */
-     , (35982,   8,  100689596) /* Icon */
-     , (35982,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35982,   1, 0x0200172E) /* Setup */
+     , (35982,   3, 0x20000014) /* SoundTable */
+     , (35982,   8, 0x060066BC) /* Icon */
+     , (35982,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35982,  37,         48) /* ItemSkillLimit - Shield */
      , (35982, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (35982, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -60,20 +60,20 @@ VALUES (35982,   1,   33560366) /* Setup */
      , (35982, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35982, 8040, 3465871413, 144.0343, 108.8844, 19.926, -0.04990443, -0.8409292, -0.05312179, -0.5362143) /* PCAPRecordedLocation */
+VALUES (35982, 8040, 0xCE950035, 144.0343, 108.8844, 19.926, -0.049904, -0.840929, -0.053122, -0.536214) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [144.034300 108.884400 19.926000] -0.049904 -0.840929 -0.053122 -0.536214 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35982, 8000, 3691438450) /* PCAPRecordedObjectIID */
-     , (35982, 8008, 1343492082) /* PCAPRecordedParentIID */;
+VALUES (35982, 8000, 0xDC06E172) /* PCAPRecordedObjectIID */
+     , (35982, 8008, 0x50140FF2) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35982,  2108,      2)  /* Impenetrability7 */
-     , (35982,  2157,      2)  /* FireProtectionSelf7 */
-     , (35982,  2281,      2)  /* MagicResistanceSelf7 */
-     , (35982,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
+VALUES (35982,  2281,      2)  /* MagicResistanceSelf7 */
      , (35982,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */
-     , (35982,  2611,      2)  /* CANTRIPFLAMEWARD2 */;
+     , (35982,  2157,      2)  /* FireProtectionSelf7 */
+     , (35982,  2611,      2)  /* CANTRIPFLAMEWARD2 */
+     , (35982,  2108,      2)  /* Impenetrability7 */
+     , (35982,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (35982, 0, 83897749, 83897749)

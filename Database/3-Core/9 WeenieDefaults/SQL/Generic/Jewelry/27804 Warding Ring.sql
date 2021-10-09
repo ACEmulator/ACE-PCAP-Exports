@@ -31,16 +31,16 @@ VALUES (27804,   1, 'Warding Ring') /* Name */
      , (27804,  16, 'A warding ring obtained from the Blood Fiends.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27804,   1,   33554690) /* Setup */
-     , (27804,   3,  536870932) /* SoundTable */
-     , (27804,   8,  100676567) /* Icon */
-     , (27804,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27804,   1, 0x02000102) /* Setup */
+     , (27804,   3, 0x20000014) /* SoundTable */
+     , (27804,   8, 0x060033D7) /* Icon */
+     , (27804,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27804, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (27804, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27804, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27804, 8000, 2622510733) /* PCAPRecordedObjectIID */;
+VALUES (27804, 8000, 0x9C50568D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27804,  2158,      2)  /* LightningProtectionOther7 */

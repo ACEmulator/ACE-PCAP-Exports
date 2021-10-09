@@ -14,24 +14,25 @@ VALUES (32730,   1,        128) /* ItemType - Misc */
      , (32730, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32730,  22, True ) /* Inscribable */;
+VALUES (32730,  22, True ) /* Inscribable */
+     , (32730,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32730,   1, 'Decanter of Essence of Artifice') /* Name */
      , (32730,  16, 'A mystically sealed decanter filled with the raw essence of Artifice.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32730,   1,   33555965) /* Setup */
-     , (32730,   3,  536870932) /* SoundTable */
-     , (32730,   6,   67111919) /* PaletteBase */
-     , (32730,   8,  100688605) /* Icon */
-     , (32730,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32730,   1, 0x020005FD) /* Setup */
+     , (32730,   3, 0x20000014) /* SoundTable */
+     , (32730,   6, 0x04000BEF) /* PaletteBase */
+     , (32730,   8, 0x060062DD) /* Icon */
+     , (32730,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32730, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (32730, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32730, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32730, 8000, 2210356862) /* PCAPRecordedObjectIID */;
+VALUES (32730, 8000, 0x83BF5E7E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32730, 67111925, 0, 0);

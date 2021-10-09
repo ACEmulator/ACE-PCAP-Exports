@@ -46,18 +46,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36391,   1, 'Olthoi Acid Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36391,   1,   33555696) /* Setup */
-     , (36391,   3,  536870932) /* SoundTable */
-     , (36391,   6,   67111919) /* PaletteBase */
-     , (36391,   8,  100672648) /* Icon */
-     , (36391,  22,  872415275) /* PhysicsEffectTable */
-     , (36391,  50,  100689619) /* IconOverlay */
+VALUES (36391,   1, 0x020004F0) /* Setup */
+     , (36391,   3, 0x20000014) /* SoundTable */
+     , (36391,   6, 0x04000BEF) /* PaletteBase */
+     , (36391,   8, 0x06002488) /* Icon */
+     , (36391,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36391,  50, 0x060066D3) /* IconOverlay */
      , (36391, 8001, 1344369560) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (36391, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36391, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36391, 8000, 2622707439) /* PCAPRecordedObjectIID */;
+VALUES (36391, 8000, 0x9C5356EF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36391, 67111922, 0, 0);

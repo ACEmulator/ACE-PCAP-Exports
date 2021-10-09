@@ -22,23 +22,23 @@ VALUES (48891,   1, 'Golem') /* Name */
      , (48891, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48891,   1,   33556426) /* Setup */
-     , (48891,   2,  150995073) /* MotionTable */
-     , (48891,   3,  536870933) /* SoundTable */
-     , (48891,   6,   67112775) /* PaletteBase */
-     , (48891,   8,  100667940) /* Icon */
-     , (48891,  22,  872415329) /* PhysicsEffectTable */
+VALUES (48891,   1, 0x020007CA) /* Setup */
+     , (48891,   2, 0x09000081) /* MotionTable */
+     , (48891,   3, 0x20000015) /* SoundTable */
+     , (48891,   6, 0x04000F47) /* PaletteBase */
+     , (48891,   8, 0x06001224) /* Icon */
+     , (48891,  22, 0x34000061) /* PhysicsEffectTable */
      , (48891, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (48891, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
      , (48891, 8003,   67108884) /* PCAPRecordedObjectDesc - Stuck, Attackable, IncludesSecondHeader */
      , (48891, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48891, 8040, 760283139, 11.27472, 65.37471, 0.9495605, 0.445825, 0, 0, -0.8951201) /* PCAPRecordedLocation */
+VALUES (48891, 8040, 0x2D510003, 11.27472, 65.37471, 0.949561, 0.445825, 0, 0, -0.89512) /* PCAPRecordedLocation */
 /* @teleloc 0x2D510003 [11.274720 65.374710 0.949561] 0.445825 0.000000 0.000000 -0.895120 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48891, 8000, 3695846566) /* PCAPRecordedObjectIID */;
+VALUES (48891, 8000, 0xDC4A24A6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48891,   1, 120, 0, 0) /* Strength */

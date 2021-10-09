@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29964,   1,        256) /* ItemType - MissileWeapon */
      , (29964,   5,         23) /* EncumbranceVal */
      , (29964,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (29964,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (29964,  11,         40) /* MaxStackSize */
      , (29964,  12,          1) /* StackSize */
      , (29964,  13,         23) /* StackUnitEncumbrance */
@@ -18,7 +17,7 @@ VALUES (29964,   1,        256) /* ItemType - MissileWeapon */
      , (29964,  45,          0) /* DamageType - Undef */
      , (29964,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29964,  49,         -1) /* WeaponTime */
-     , (29964,  51,          2) /* CombatUse - Missle */
+     , (29964,  51,          2) /* CombatUse - Missile */
      , (29964,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (29964, 307,          5) /* DamageRating */
      , (29964, 313,          0) /* CritRating */
@@ -43,30 +42,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29964,   1, 'Throwing Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29964,   1,   33559306) /* Setup */
-     , (29964,   3,  536870932) /* SoundTable */
-     , (29964,   8,  100686568) /* Icon */
-     , (29964,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29964,   1, 0x0200130A) /* Setup */
+     , (29964,   3, 0x20000014) /* SoundTable */
+     , (29964,   8, 0x06005AE8) /* Icon */
+     , (29964,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29964, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (29964, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29964, 8005,      39713) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position */
      , (29964, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29964, 8040, 1156775979, 130.8156, 50.47625, 83.93079, 0.08047369, 0.08047369, 0.7025126, 0.7025126) /* PCAPRecordedLocation */
+VALUES (29964, 8040, 0x44F3002B, 130.8156, 50.47625, 83.93079, 0.080474, 0.080474, 0.702513, 0.702513) /* PCAPRecordedLocation */
 /* @teleloc 0x44F3002B [130.815600 50.476250 83.930790] 0.080474 0.080474 0.702513 0.702513 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29964, 8000, 3690108556) /* PCAPRecordedObjectIID */
-     , (29964, 8008, 3690108514) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29964, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (29964, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (29964, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (29964, 2, 40614,  1, 0, 0, False) /* Create Acid Spadone (40614) for Wield */
-     , (29964, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
-     , (29964, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
-     , (29964, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */
-     , (29964, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */
-     , (29964, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
+VALUES (29964, 8000, 0xDBF2968C) /* PCAPRecordedObjectIID */
+     , (29964, 8008, 0xDBF29662) /* PCAPRecordedParentIID */;

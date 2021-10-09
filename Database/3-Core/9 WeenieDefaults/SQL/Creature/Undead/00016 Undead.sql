@@ -22,21 +22,21 @@ VALUES (16,   1, 'Undead') /* Name */
      , (16, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16,   1,   33554839) /* Setup */
-     , (16,   2,  150994967) /* MotionTable */
-     , (16,   3,  536870934) /* SoundTable */
-     , (16,   8,  100667942) /* Icon */
-     , (16,  22,  872415272) /* PhysicsEffectTable */
+VALUES (16,   1, 0x02000197) /* Setup */
+     , (16,   2, 0x09000017) /* MotionTable */
+     , (16,   3, 0x20000016) /* SoundTable */
+     , (16,   8, 0x06001226) /* Icon */
+     , (16,  22, 0x34000028) /* PhysicsEffectTable */
      , (16, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (16, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (16, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (16, 8040, 2473263105, 11.1121, 8.158973, 19.22948, 0.9998282, 0, 0, -0.01853772) /* PCAPRecordedLocation */
+VALUES (16, 8040, 0x936B0001, 11.1121, 8.158973, 19.22948, 0.999828, 0, 0, -0.018538) /* PCAPRecordedLocation */
 /* @teleloc 0x936B0001 [11.112100 8.158973 19.229480] 0.999828 0.000000 0.000000 -0.018538 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (16, 8000, 3685003243) /* PCAPRecordedObjectIID */;
+VALUES (16, 8000, 0xDBA4AFEB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (16,   1,  30, 0, 0) /* Strength */
@@ -372,4 +372,5 @@ VALUES (16, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
      , (16, 9,  3893,  0, 0, 0, False) /* Create Acid Takuba (3893) for ContainTreasure */
      , (16, 9, 40625,  0, 0, 0, False) /* Create Lightning Quadrelle (40625) for ContainTreasure */
      , (16, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
-     , (16, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */;
+     , (16, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (16, 9, 21325,  0, 0, 0, False) /* Create Scroll of Lightning Arc III (21325) for ContainTreasure */;

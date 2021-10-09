@@ -26,21 +26,21 @@ VALUES (43217,   1, 'Subverted Copper Cog Knight') /* Name */
      , (43217, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43217,   1,   33560842) /* Setup */
-     , (43217,   2,  150995459) /* MotionTable */
-     , (43217,   3,  536871123) /* SoundTable */
-     , (43217,   8,  100674350) /* Icon */
-     , (43217,  22,  872415269) /* PhysicsEffectTable */
+VALUES (43217,   1, 0x0200190A) /* Setup */
+     , (43217,   2, 0x09000203) /* MotionTable */
+     , (43217,   3, 0x200000D3) /* SoundTable */
+     , (43217,   8, 0x06002B2E) /* Icon */
+     , (43217,  22, 0x34000025) /* PhysicsEffectTable */
      , (43217, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (43217, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (43217, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43217, 8040, 2332229942, 49.74142, -79.73199, -83.992, 0.159582, 0, 0, -0.9871847) /* PCAPRecordedLocation */
+VALUES (43217, 8040, 0x8B030136, 49.74142, -79.73199, -83.992, 0.159582, 0, 0, -0.987185) /* PCAPRecordedLocation */
 /* @teleloc 0x8B030136 [49.741420 -79.731990 -83.992000] 0.159582 0.000000 0.000000 -0.987185 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43217, 8000, 3706360178) /* PCAPRecordedObjectIID */;
+VALUES (43217, 8000, 0xDCEA9172) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43217,   1, 465, 0, 0) /* Strength */
@@ -64,6 +64,7 @@ VALUES (43217, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for
      , (43217, 2, 43130,  1, 0, 0, False) /* Create Iron Blade Aegis (43130) for Wield */
      , (43217, 2, 41247,  1, 0, 0, False) /* Create Electric Gearknight Sword (41247) for Wield */
      , (43217, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
+     , (43217, 2, 41246,  1, 0, 0, False) /* Create Acid Gearknight Sword (41246) for Wield */
      , (43217, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */
      , (43217, 9, 29259,  0, 0, 0, False) /* Create Acid Sceptre (29259) for ContainTreasure */
      , (43217, 9, 20465,  0, 0, 0, False) /* Create Scroll of Caustic Boon (20465) for ContainTreasure */

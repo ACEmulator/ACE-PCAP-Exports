@@ -25,22 +25,22 @@ VALUES (28821,   1, 'Fiun Assistant') /* Name */
      , (28821, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28821,   1,   33559202) /* Setup */
-     , (28821,   2,  150995326) /* MotionTable */
-     , (28821,   3,  536871100) /* SoundTable */
-     , (28821,   6,   67115480) /* PaletteBase */
-     , (28821,   8,  100677372) /* Icon */
-     , (28821,  22,  872415412) /* PhysicsEffectTable */
+VALUES (28821,   1, 0x020012A2) /* Setup */
+     , (28821,   2, 0x0900017E) /* MotionTable */
+     , (28821,   3, 0x200000BC) /* SoundTable */
+     , (28821,   6, 0x040019D8) /* PaletteBase */
+     , (28821,   8, 0x060036FC) /* Icon */
+     , (28821,  22, 0x340000B4) /* PhysicsEffectTable */
      , (28821, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (28821, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (28821, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28821, 8040, 26804520, 37.0891, -113.038, -6.00541, -0.916936, 0, 0, -0.399034) /* PCAPRecordedLocation */
+VALUES (28821, 8040, 0x01990128, 37.0891, -113.038, -6.00541, -0.916936, 0, 0, -0.399034) /* PCAPRecordedLocation */
 /* @teleloc 0x01990128 [37.089100 -113.038000 -6.005410] -0.916936 0.000000 0.000000 -0.399034 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28821, 8000, 3706399810) /* PCAPRecordedObjectIID */;
+VALUES (28821, 8000, 0xDCEB2C42) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28821,   1, 170, 0, 0) /* Strength */
@@ -56,7 +56,8 @@ VALUES (28821,   1,   390, 0, 0, 460) /* MaxHealth */
      , (28821,   5,   300, 0, 0, 440) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28821, 9, 27233,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Other (27233) for ContainTreasure */
+VALUES (28821, 2,  9597,  1, 0, 0, False) /* Create Bow of the Quiddity (9597) for Wield */
+     , (28821, 9, 27233,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Other (27233) for ContainTreasure */
      , (28821, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
      , (28821, 9,   273, 2239, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (28821, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */

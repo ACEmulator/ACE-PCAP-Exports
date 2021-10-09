@@ -15,6 +15,7 @@ VALUES (53473,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53473,  22, True ) /* Inscribable */
+     , (53473,  23, True ) /* DestroyOnSell */
      , (53473,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,17 +26,17 @@ VALUES (53473,   1, 'Lady Tairla Mhoire''s Signet Ring') /* Name */
      , (53473,  16, 'A delicate, ancient ring, worn and battered.  The symbol of House Mhoire is still faintly visible in the carnelian stone setting.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53473,   1,   33554691) /* Setup */
-     , (53473,   3,  536870932) /* SoundTable */
-     , (53473,   6,   67111919) /* PaletteBase */
-     , (53473,   8,  100672474) /* Icon */
-     , (53473,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53473,   1, 0x02000103) /* Setup */
+     , (53473,   3, 0x20000014) /* SoundTable */
+     , (53473,   6, 0x04000BEF) /* PaletteBase */
+     , (53473,   8, 0x060023DA) /* Icon */
+     , (53473,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53473, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (53473, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (53473, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53473, 8000, 3269838824) /* PCAPRecordedObjectIID */;
+VALUES (53473, 8000, 0xC2E5C7E8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53473, 67111921, 0, 0);

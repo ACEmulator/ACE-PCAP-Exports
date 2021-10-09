@@ -20,13 +20,13 @@ VALUES (25764,   1, 'Gharu''ndim Lamp') /* Name */
      , (25764,  14, 'This item can be used on wall hooks.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25764,   1,   33555314) /* Setup */
-     , (25764,   3,  536870932) /* SoundTable */
-     , (25764,   8,  100675560) /* Icon */
-     , (25764,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25764,   1, 0x02000372) /* Setup */
+     , (25764,   3, 0x20000014) /* SoundTable */
+     , (25764,   8, 0x06002FE8) /* Icon */
+     , (25764,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25764, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (25764, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25764, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25764, 8000, 2148134980) /* PCAPRecordedObjectIID */;
+VALUES (25764, 8000, 0x8009F044) /* PCAPRecordedObjectIID */;

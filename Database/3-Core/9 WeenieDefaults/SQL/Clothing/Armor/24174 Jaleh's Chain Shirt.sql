@@ -40,17 +40,17 @@ VALUES (24174,   1, 'Jaleh''s Chain Shirt') /* Name */
      , (24174,  15, 'This chain mail shirt has been modified with a silken lining. It seems to breath better and offer better protection from heat and cold') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24174,   1,   33554883) /* Setup */
-     , (24174,   3,  536870932) /* SoundTable */
-     , (24174,   6,   67108990) /* PaletteBase */
-     , (24174,   8,  100674274) /* Icon */
-     , (24174,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24174,   1, 0x020001C3) /* Setup */
+     , (24174,   3, 0x20000014) /* SoundTable */
+     , (24174,   6, 0x0400007E) /* PaletteBase */
+     , (24174,   8, 0x06002AE2) /* Icon */
+     , (24174,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24174, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (24174, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24174, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24174, 8000, 2174542992) /* PCAPRecordedObjectIID */;
+VALUES (24174, 8000, 0x819CE490) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24174,  1485,      2)  /* Impenetrability5 */

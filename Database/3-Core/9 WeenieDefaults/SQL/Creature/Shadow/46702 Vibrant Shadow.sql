@@ -30,22 +30,22 @@ VALUES (46702,   1, 'Vibrant Shadow') /* Name */
      , (46702, 8006, 'CAA8AHFQDFDP3GJDD+5BAAAAgD8AAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46702,   1,   33556251) /* Setup */
-     , (46702,   2,  150995091) /* MotionTable */
-     , (46702,   3,  536870914) /* SoundTable */
-     , (46702,   6,   67108990) /* PaletteBase */
-     , (46702,   8,  100670398) /* Icon */
-     , (46702,  22,  872415331) /* PhysicsEffectTable */
+VALUES (46702,   1, 0x0200071B) /* Setup */
+     , (46702,   2, 0x09000093) /* MotionTable */
+     , (46702,   3, 0x20000002) /* SoundTable */
+     , (46702,   6, 0x0400007E) /* PaletteBase */
+     , (46702,   8, 0x06001BBE) /* Icon */
+     , (46702,  22, 0x34000063) /* PhysicsEffectTable */
      , (46702, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46702, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (46702, 8005,     366659) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46702, 8040, 1499529483, 21.06272, -98.55578, 0.004999995, 0.6409969, 0, 0, 0.7675435) /* PCAPRecordedLocation */
+VALUES (46702, 8040, 0x5961010B, 21.06272, -98.55578, 0.005, 0.640997, 0, 0, 0.767544) /* PCAPRecordedLocation */
 /* @teleloc 0x5961010B [21.062720 -98.555780 0.005000] 0.640997 0.000000 0.000000 0.767544 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46702, 8000, 3696485545) /* PCAPRecordedObjectIID */;
+VALUES (46702, 8000, 0xDC53E4A9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46702,   1, 350, 0, 0) /* Strength */

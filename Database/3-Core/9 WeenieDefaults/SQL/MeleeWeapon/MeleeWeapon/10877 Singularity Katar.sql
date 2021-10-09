@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10877,   1,          1) /* ItemType - MeleeWeapon */
      , (10877,   5,        135) /* EncumbranceVal */
      , (10877,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (10877,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (10877,  16,          1) /* ItemUseable - No */
      , (10877,  18,          1) /* UiEffects - Magical */
      , (10877,  19,          0) /* Value */
@@ -32,6 +31,7 @@ VALUES (10877,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10877,  22, True ) /* Inscribable */
+     , (10877,  23, True ) /* DestroyOnSell */
      , (10877,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,11 +50,11 @@ VALUES (10877,   1, 'Singularity Katar') /* Name */
      , (10877,  15, 'A katar imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10877,   1,   33557315) /* Setup */
-     , (10877,   3,  536870932) /* SoundTable */
-     , (10877,   6,   67111919) /* PaletteBase */
-     , (10877,   8,  100672044) /* Icon */
-     , (10877,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10877,   1, 0x02000B43) /* Setup */
+     , (10877,   3, 0x20000014) /* SoundTable */
+     , (10877,   6, 0x04000BEF) /* PaletteBase */
+     , (10877,   8, 0x0600222C) /* Icon */
+     , (10877,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10877,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (10877, 8001,  270762640) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (10877, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -62,12 +62,12 @@ VALUES (10877,   1,   33557315) /* Setup */
      , (10877, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10877, 8040, 2847146009, 87.88902, 16.67904, 93.92901, 0.2425417, 0.2425417, -0.6642089, -0.6642089) /* PCAPRecordedLocation */
+VALUES (10877, 8040, 0xA9B40019, 87.88902, 16.67904, 93.92901, 0.242542, 0.242542, -0.664209, -0.664209) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [87.889020 16.679040 93.929010] 0.242542 0.242542 -0.664209 -0.664209 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10877, 8000, 2156369747) /* PCAPRecordedObjectIID */
-     , (10877, 8008, 1342612287) /* PCAPRecordedParentIID */;
+VALUES (10877, 8000, 0x80879753) /* PCAPRecordedObjectIID */
+     , (10877, 8008, 0x5006A33F) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10877,  1408,      2)  /* QuicknessOther6 */

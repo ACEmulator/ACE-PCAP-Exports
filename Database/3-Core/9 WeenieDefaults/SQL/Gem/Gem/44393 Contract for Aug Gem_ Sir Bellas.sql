@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44393,   1, 'Contract for Aug Gem: Sir Bellas') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44393,   1,   33557625) /* Setup */
-     , (44393,   3,  536870932) /* SoundTable */
-     , (44393,   8,  100691932) /* Icon */
-     , (44393,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44393,   1, 0x02000C79) /* Setup */
+     , (44393,   3, 0x20000014) /* SoundTable */
+     , (44393,   8, 0x06006FDC) /* Icon */
+     , (44393,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44393, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44393, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44393, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (44393,   1,   33557625) /* Setup */
      , (44393, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44393, 8000,      44393) /* PCAPRecordedObjectIID */;
+VALUES (44393, 8000, 0x0000AD69) /* PCAPRecordedObjectIID */;

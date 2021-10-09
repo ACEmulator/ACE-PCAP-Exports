@@ -30,20 +30,20 @@ VALUES (38215,   1, 'Aerlinthe Node Golem') /* Name */
      , (38215, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38215,   1,   33558367) /* Setup */
-     , (38215,   2,  150994945) /* MotionTable */
-     , (38215,   3,  536870933) /* SoundTable */
-     , (38215,   8,  100674350) /* Icon */
+VALUES (38215,   1, 0x02000F5F) /* Setup */
+     , (38215,   2, 0x09000001) /* MotionTable */
+     , (38215,   3, 0x20000015) /* SoundTable */
+     , (38215,   8, 0x06002B2E) /* Icon */
      , (38215, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (38215, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (38215, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38215, 8040, 3068657701, 111, 97.372, 0.007499933, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (38215, 8040, 0xB6E80025, 111, 97.372, 0.0075, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xB6E80025 [111.000000 97.372000 0.007500] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38215, 8000, 3701186852) /* PCAPRecordedObjectIID */;
+VALUES (38215, 8000, 0xDC9BA124) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38215,   1, 980, 0, 0) /* Strength */

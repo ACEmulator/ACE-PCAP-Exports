@@ -20,7 +20,8 @@ VALUES (4891,   1,         32) /* ItemType - Food */
      , (4891, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4891,  22, True ) /* Inscribable */;
+VALUES (4891,  22, True ) /* Inscribable */
+     , (4891,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4891,   1, 'Distillery Nectar') /* Name */
@@ -29,13 +30,13 @@ VALUES (4891,   1, 'Distillery Nectar') /* Name */
      , (4891,  20, 'Bottles of Distillery Nectar') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4891,   1,   33554602) /* Setup */
-     , (4891,   3,  536870932) /* SoundTable */
-     , (4891,   8,  100667410) /* Icon */
-     , (4891,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4891,   1, 0x020000AA) /* Setup */
+     , (4891,   3, 0x20000014) /* SoundTable */
+     , (4891,   8, 0x06001012) /* Icon */
+     , (4891,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4891, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
      , (4891, 8003,      32786) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Food */
      , (4891, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4891, 8000, 2925113256) /* PCAPRecordedObjectIID */;
+VALUES (4891, 8000, 0xAE59AFA8) /* PCAPRecordedObjectIID */;

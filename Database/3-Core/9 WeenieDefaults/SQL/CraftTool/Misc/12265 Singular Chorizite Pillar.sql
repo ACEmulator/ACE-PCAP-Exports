@@ -23,20 +23,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12265,   1, 'Singular Chorizite Pillar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12265,   1,   33557379) /* Setup */
-     , (12265,   3,  536870932) /* SoundTable */
-     , (12265,   8,  100672195) /* Icon */
-     , (12265,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12265,   1, 0x02000B83) /* Setup */
+     , (12265,   3, 0x20000014) /* SoundTable */
+     , (12265,   8, 0x060022C3) /* Icon */
+     , (12265,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12265, 8001,    2621496) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, TargetType, Burden */
      , (12265, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12265, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12265, 8040, 60817711, 90, -50, -24, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (12265, 8040, 0x03A0012F, 90, -50, -24, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x03A0012F [90.000000 -50.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12265, 8000, 1882849341) /* PCAPRecordedObjectIID */;
+VALUES (12265, 8000, 0x703A003D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (12265, 0, 83893820, 83893819);

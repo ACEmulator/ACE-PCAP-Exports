@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40252,   1, 'Summoning Rituals') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40252,   1,   33556929) /* Setup */
-     , (40252,   3,  536870932) /* SoundTable */
-     , (40252,   8,  100690355) /* Icon */
-     , (40252,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40252,   1, 0x020009C1) /* Setup */
+     , (40252,   3, 0x20000014) /* SoundTable */
+     , (40252,   8, 0x060069B3) /* Icon */
+     , (40252,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40252, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (40252, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40252, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40252, 8000, 2148706206) /* PCAPRecordedObjectIID */;
+VALUES (40252, 8000, 0x8012A79E) /* PCAPRecordedObjectIID */;

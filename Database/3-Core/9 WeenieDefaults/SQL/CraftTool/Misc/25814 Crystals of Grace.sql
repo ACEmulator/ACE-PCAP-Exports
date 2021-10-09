@@ -19,6 +19,7 @@ VALUES (25814,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25814,  22, True ) /* Inscribable */
+     , (25814,  23, True ) /* DestroyOnSell */
      , (25814,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -27,13 +28,13 @@ VALUES (25814,   1, 'Crystals of Grace') /* Name */
      , (25814,  15, 'These crystals appeared to be fit together to form sollerets when you found them, but they come apart easily.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25814,   1,   33557971) /* Setup */
-     , (25814,   3,  536870932) /* SoundTable */
-     , (25814,   8,  100675649) /* Icon */
-     , (25814,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25814,   1, 0x02000DD3) /* Setup */
+     , (25814,   3, 0x20000014) /* SoundTable */
+     , (25814,   8, 0x06003041) /* Icon */
+     , (25814,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25814, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (25814, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25814, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25814, 8000, 3015898950) /* PCAPRecordedObjectIID */;
+VALUES (25814, 8000, 0xB3C2F746) /* PCAPRecordedObjectIID */;

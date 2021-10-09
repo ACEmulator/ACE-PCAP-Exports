@@ -21,11 +21,11 @@ VALUES (11933,   1, 'Garden Drudge') /* Name */
      , (11933,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11933,   1,   33557144) /* Setup */
-     , (11933,   8,  100671776) /* Icon */
+VALUES (11933,   1, 0x02000A98) /* Setup */
+     , (11933,   8, 0x06002120) /* Icon */
      , (11933, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (11933, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11933, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11933, 8000, 3658163594) /* PCAPRecordedObjectIID */;
+VALUES (11933, 8000, 0xDA0B258A) /* PCAPRecordedObjectIID */;

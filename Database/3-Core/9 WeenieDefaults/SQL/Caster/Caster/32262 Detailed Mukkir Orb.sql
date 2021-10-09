@@ -10,6 +10,7 @@ VALUES (32262,   1,      32768) /* ItemType - Caster */
      , (32262,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (32262,  18,          1) /* UiEffects - Magical */
      , (32262,  19,       2500) /* Value */
+     , (32262,  46,        512) /* DefaultCombatStyle - Magic */
      , (32262,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32262,  94,         16) /* TargetType - Creature */
      , (32262, 106,        250) /* ItemSpellcraft */
@@ -32,17 +33,17 @@ VALUES (32262,   1, 'Detailed Mukkir Orb') /* Name */
      , (32262,  16, 'A casting device fancifully crafted in the shape of a Mukkir''s head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32262,   1,   33559761) /* Setup */
-     , (32262,   3,  536870932) /* SoundTable */
-     , (32262,   8,  100688412) /* Icon */
-     , (32262,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32262,   1, 0x020014D1) /* Setup */
+     , (32262,   3, 0x20000014) /* SoundTable */
+     , (32262,   8, 0x0600621C) /* Icon */
+     , (32262,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32262,  28,       3861) /* Spell - CantripTasteForBlood */
      , (32262, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (32262, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32262, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32262, 8000, 2343280252) /* PCAPRecordedObjectIID */;
+VALUES (32262, 8000, 0x8BAB9E7C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32262,   683,      2)  /* ArcaneEnlightenmentSelf6 */;

@@ -26,22 +26,22 @@ VALUES (1610,   1, 'Drudge Ravener') /* Name */
      , (1610, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1610,   1,   33556445) /* Setup */
-     , (1610,   2,  150994952) /* MotionTable */
-     , (1610,   3,  536870919) /* SoundTable */
-     , (1610,   6,   67112812) /* PaletteBase */
-     , (1610,   8,  100667445) /* Icon */
-     , (1610,  22,  872415258) /* PhysicsEffectTable */
+VALUES (1610,   1, 0x020007DD) /* Setup */
+     , (1610,   2, 0x09000008) /* MotionTable */
+     , (1610,   3, 0x20000007) /* SoundTable */
+     , (1610,   6, 0x04000F6C) /* PaletteBase */
+     , (1610,   8, 0x06001035) /* Icon */
+     , (1610,  22, 0x3400001A) /* PhysicsEffectTable */
      , (1610, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1610, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1610, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1610, 8040, 2384134208, 187.5073, 191.4742, 285.3434, 0.603009, 0, 0, -0.7977344) /* PCAPRecordedLocation */
+VALUES (1610, 8040, 0x8E1B0040, 187.5073, 191.4742, 285.3434, 0.603009, 0, 0, -0.797734) /* PCAPRecordedLocation */
 /* @teleloc 0x8E1B0040 [187.507300 191.474200 285.343400] 0.603009 0.000000 0.000000 -0.797734 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1610, 8000, 3685028282) /* PCAPRecordedObjectIID */;
+VALUES (1610, 8000, 0xDBA511BA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1610,   1, 190, 0, 0) /* Strength */
@@ -69,6 +69,7 @@ VALUES (1610, 2, 47255,  1, 0, 0, False) /* Create Board with Nail (47255) for W
      , (1610, 2, 47407,  1, 0, 0, False) /* Create Frost Club (47407) for Wield */
      , (1610, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (1610, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (1610, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
      , (1610, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
      , (1610, 9, 31780,  0, 0, 0, False) /* Create Acid Spine Glaive (31780) for ContainTreasure */
      , (1610, 9,   273, 959, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
@@ -843,7 +844,8 @@ VALUES (1610, 2, 47255,  1, 0, 0, False) /* Create Board with Nail (47255) for W
      , (1610, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
      , (1610, 9, 31768,  0, 0, 0, False) /* Create Frost War Axe (31768) for ContainTreasure */
      , (1610, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */
-     , (1610, 9,  8925,  0, 0, 0, False) /* Create Scroll of Flame Streak VI (8925) for ContainTreasure */;
+     , (1610, 9,  8925,  0, 0, 0, False) /* Create Scroll of Flame Streak VI (8925) for ContainTreasure */
+     , (1610, 9, 41062,  0, 0, 0, False) /* Create Khanda-handled Mace (41062) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1610, 67112813, 0, 0);

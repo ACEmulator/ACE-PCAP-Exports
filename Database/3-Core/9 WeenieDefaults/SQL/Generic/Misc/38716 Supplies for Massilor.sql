@@ -14,20 +14,21 @@ VALUES (38716,   1,        128) /* ItemType - Misc */
      , (38716, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38716,  22, True ) /* Inscribable */;
+VALUES (38716,  22, True ) /* Inscribable */
+     , (38716,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38716,   1, 'Supplies for Massilor') /* Name */
      , (38716,  16, 'A foul-smelling bag filled with mysterious supplies, intended for Massilor the Withered.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38716,   1,   33554817) /* Setup */
-     , (38716,   3,  536870932) /* SoundTable */
-     , (38716,   8,  100690206) /* Icon */
-     , (38716,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38716,   1, 0x02000181) /* Setup */
+     , (38716,   3, 0x20000014) /* SoundTable */
+     , (38716,   8, 0x0600691E) /* Icon */
+     , (38716,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38716, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (38716, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38716, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38716, 8000, 2921672883) /* PCAPRecordedObjectIID */;
+VALUES (38716, 8000, 0xAE2530B3) /* PCAPRecordedObjectIID */;

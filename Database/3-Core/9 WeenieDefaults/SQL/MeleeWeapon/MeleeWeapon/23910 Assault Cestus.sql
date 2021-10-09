@@ -49,20 +49,20 @@ VALUES (23910,   1, 'Assault Cestus') /* Name */
      , (23910,  16, 'A reward for defeating the leaders of the Serpent Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23910,   1,   33558207) /* Setup */
-     , (23910,   3,  536870932) /* SoundTable */
-     , (23910,   8,  100671744) /* Icon */
-     , (23910,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23910,   1, 0x02000EBF) /* Setup */
+     , (23910,   3, 0x20000014) /* SoundTable */
+     , (23910,   8, 0x06002100) /* Icon */
+     , (23910,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23910,  30,         88) /* PhysicsScript - Create */
      , (23910, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23910, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23910, 8005,     161921) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23910, 8000, 2192305016) /* PCAPRecordedObjectIID */;
+VALUES (23910, 8000, 0x82ABEB78) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23910,  1331,      2)  /* StrengthSelf5 */
-     , (23910,  1590,      2)  /* HeartSeekerSelf4 */
-     , (23910,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (23910,  2004,      2)  /* WarriorsVitality */;
+VALUES (23910,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (23910,  2004,      2)  /* WarriorsVitality */
+     , (23910,  1331,      2)  /* StrengthSelf5 */
+     , (23910,  1590,      2)  /* HeartSeekerSelf4 */;

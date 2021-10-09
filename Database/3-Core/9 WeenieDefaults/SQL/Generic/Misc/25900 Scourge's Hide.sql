@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25900,   1, 'Scourge''s Hide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25900,   1,   33554817) /* Setup */
-     , (25900,   3,  536870932) /* SoundTable */
-     , (25900,   6,   67111919) /* PaletteBase */
-     , (25900,   8,  100675634) /* Icon */
-     , (25900,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25900,   1, 0x02000181) /* Setup */
+     , (25900,   3, 0x20000014) /* SoundTable */
+     , (25900,   6, 0x04000BEF) /* PaletteBase */
+     , (25900,   8, 0x06003032) /* Icon */
+     , (25900,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25900, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (25900, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25900, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25900, 8000, 3623282310) /* PCAPRecordedObjectIID */;
+VALUES (25900, 8000, 0xD7F6E686) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25900, 67111918, 0, 0);

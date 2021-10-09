@@ -24,13 +24,13 @@ VALUES (28013,   1, 'Scroll of Spirit Loather V') /* Name */
 Decreases the elemental damage bonus of an elemental magic caster by 5%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28013,   1,   33554826) /* Setup */
-     , (28013,   8,  100676675) /* Icon */
-     , (28013,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28013,   1, 0x0200018A) /* Setup */
+     , (28013,   8, 0x06003443) /* Icon */
+     , (28013,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28013,  28,       3264) /* Spell - SpiritLoather5 */
      , (28013, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (28013, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28013, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28013, 8000, 2618138715) /* PCAPRecordedObjectIID */;
+VALUES (28013, 8000, 0x9C0DA05B) /* PCAPRecordedObjectIID */;

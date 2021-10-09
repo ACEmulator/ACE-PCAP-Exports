@@ -8,7 +8,6 @@ VALUES (24903,   1,          2) /* ItemType - Armor */
      , (24903,   4,      65536) /* ClothingPriority - Feet */
      , (24903,   5,        700) /* EncumbranceVal */
      , (24903,   9,        256) /* ValidLocations - FootWear */
-     , (24903,  10,        256) /* CurrentWieldedLocation - FootWear */
      , (24903,  16,          1) /* ItemUseable - No */
      , (24903,  19,       2000) /* Value */
      , (24903,  28,        500) /* ArmorLevel */
@@ -38,17 +37,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24903,   1, 'Greater Olthoi Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24903,   1,   33554654) /* Setup */
-     , (24903,   3,  536870932) /* SoundTable */
-     , (24903,   6,   67108990) /* PaletteBase */
-     , (24903,   8,  100674544) /* Icon */
-     , (24903,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24903,   1, 0x020000DE) /* Setup */
+     , (24903,   3, 0x20000014) /* SoundTable */
+     , (24903,   6, 0x0400007E) /* PaletteBase */
+     , (24903,   8, 0x06002BF0) /* Icon */
+     , (24903,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24903, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (24903, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24903, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24903, 8000, 2978131488) /* PCAPRecordedObjectIID */;
+VALUES (24903, 8000, 0xB182AE20) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24903, 67114436, 160, 8);

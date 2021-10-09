@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34204,   1, 'Tremendous Monouga Skull') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34204,   1,   33560122) /* Setup */
-     , (34204,   3,  536870932) /* SoundTable */
-     , (34204,   8,  100689221) /* Icon */
-     , (34204,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34204,   1, 0x0200163A) /* Setup */
+     , (34204,   3, 0x20000014) /* SoundTable */
+     , (34204,   8, 0x06006545) /* Icon */
+     , (34204,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34204, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (34204, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34204, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34204, 8000, 2192126197) /* PCAPRecordedObjectIID */;
+VALUES (34204, 8000, 0x82A930F5) /* PCAPRecordedObjectIID */;

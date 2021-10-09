@@ -38,17 +38,17 @@ VALUES (22883,   1, 'Stocking Cap') /* Name */
      , (22883,  15, 'A warm stocking cap of cold protection.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22883,   1,   33558147) /* Setup */
-     , (22883,   3,  536870932) /* SoundTable */
-     , (22883,   6,   67108990) /* PaletteBase */
-     , (22883,   8,  100673910) /* Icon */
-     , (22883,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22883,   1, 0x02000E83) /* Setup */
+     , (22883,   3, 0x20000014) /* SoundTable */
+     , (22883,   6, 0x0400007E) /* PaletteBase */
+     , (22883,   8, 0x06002976) /* Icon */
+     , (22883,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22883, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (22883, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22883, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22883, 8000, 2929184068) /* PCAPRecordedObjectIID */;
+VALUES (22883, 8000, 0xAE97CD44) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22883,  1039,      2)  /* ColdProtectionOther4 */;

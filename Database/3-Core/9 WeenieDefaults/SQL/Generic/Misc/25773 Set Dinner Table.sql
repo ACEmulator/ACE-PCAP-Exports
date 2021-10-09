@@ -21,11 +21,11 @@ VALUES (25773,   1, 'Set Dinner Table') /* Name */
      , (25773,  16, 'A table set for dinner guests.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25773,   1,   33558526) /* Setup */
-     , (25773,   8,  100675556) /* Icon */
+VALUES (25773,   1, 0x02000FFE) /* Setup */
+     , (25773,   8, 0x06002FE4) /* Icon */
      , (25773, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (25773, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25773, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25773, 8000, 2147923146) /* PCAPRecordedObjectIID */;
+VALUES (25773, 8000, 0x8006B4CA) /* PCAPRecordedObjectIID */;

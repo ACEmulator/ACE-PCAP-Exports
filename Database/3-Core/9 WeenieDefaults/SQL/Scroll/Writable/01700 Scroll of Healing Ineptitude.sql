@@ -24,13 +24,13 @@ VALUES (1700,   1, 'Scroll of Healing Ineptitude') /* Name */
 Decreases the target''s Healing skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1700,   1,   33554826) /* Setup */
-     , (1700,   8,  100676459) /* Icon */
-     , (1700,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1700,   1, 0x0200018A) /* Setup */
+     , (1700,   8, 0x0600336B) /* Icon */
+     , (1700,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1700,  28,        892) /* Spell - HealingIneptitudeOther1 */
      , (1700, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1700, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1700, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1700, 8000, 3330618100) /* PCAPRecordedObjectIID */;
+VALUES (1700, 8000, 0xC68532F4) /* PCAPRecordedObjectIID */;

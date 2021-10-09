@@ -24,18 +24,18 @@ VALUES (36375,   1, 'Crate of Olthoi Acid Arrowheads') /* Name */
      , (36375,  20, 'Crates of Olthoi Acid Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36375,   1,   33556223) /* Setup */
-     , (36375,   3,  536870932) /* SoundTable */
-     , (36375,   6,   67111928) /* PaletteBase */
-     , (36375,   8,  100689620) /* Icon */
-     , (36375,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36375,   1, 0x020006FF) /* Setup */
+     , (36375,   3, 0x20000014) /* SoundTable */
+     , (36375,   6, 0x04000BF8) /* PaletteBase */
+     , (36375,   8, 0x060066D4) /* Icon */
+     , (36375,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36375, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (36375, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36375, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (36375, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36375, 8000,      36375) /* PCAPRecordedObjectIID */;
+VALUES (36375, 8000, 0x00008E17) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36375, 67112642, 0, 0);

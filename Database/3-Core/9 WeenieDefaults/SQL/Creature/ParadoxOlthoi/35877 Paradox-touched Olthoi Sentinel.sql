@@ -25,23 +25,23 @@ VALUES (35877,   1, 'Paradox-touched Olthoi Sentinel') /* Name */
      , (35877, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35877,   1,   33560330) /* Setup */
-     , (35877,   2,  150995253) /* MotionTable */
-     , (35877,   3,  536871073) /* SoundTable */
-     , (35877,   6,   67114502) /* PaletteBase */
-     , (35877,   8,  100674878) /* Icon */
-     , (35877,  22,  872415400) /* PhysicsEffectTable */
+VALUES (35877,   1, 0x0200170A) /* Setup */
+     , (35877,   2, 0x09000135) /* MotionTable */
+     , (35877,   3, 0x200000A1) /* SoundTable */
+     , (35877,   6, 0x04001606) /* PaletteBase */
+     , (35877,   8, 0x06002D3E) /* Icon */
+     , (35877,  22, 0x340000A8) /* PhysicsEffectTable */
      , (35877,  30,         86) /* PhysicsScript - BreatheAcid */
      , (35877, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35877, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35877, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35877, 8040, 3300196400, 121.733, 189.929, 243.6483, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35877, 8040, 0xC4B50030, 121.733, 189.929, 243.6483, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B50030 [121.733000 189.929000 243.648300] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35877, 8000, 3701545803) /* PCAPRecordedObjectIID */;
+VALUES (35877, 8000, 0xDCA11B4B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (35877,   1,     0, 0, 0, 20250) /* MaxHealth */;

@@ -40,20 +40,17 @@ VALUES (31868,   1, 'Signet Crown') /* Name */
      , (31868,  16, 'Signet Crown') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31868,   1,   33559738) /* Setup */
-     , (31868,   3,  536870932) /* SoundTable */
-     , (31868,   6,   67108990) /* PaletteBase */
-     , (31868,   8,  100688228) /* Icon */
-     , (31868,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31868,   1, 0x020014BA) /* Setup */
+     , (31868,   3, 0x20000014) /* SoundTable */
+     , (31868,   6, 0x0400007E) /* PaletteBase */
+     , (31868,   8, 0x06006164) /* Icon */
+     , (31868,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31868, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (31868, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31868, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31868, 8000, 2656413824) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31868, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
+VALUES (31868, 8000, 0x9E55A880) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31868, 67110321, 240, 10)

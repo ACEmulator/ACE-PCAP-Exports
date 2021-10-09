@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27474,   1, 'Lugian-Forged Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27474,   1,   33554784) /* Setup */
-     , (27474,   3,  536870932) /* SoundTable */
-     , (27474,   8,  100676423) /* Icon */
-     , (27474,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27474,   1, 0x02000160) /* Setup */
+     , (27474,   3, 0x20000014) /* SoundTable */
+     , (27474,   8, 0x06003347) /* Icon */
+     , (27474,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27474, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (27474, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27474, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27474, 8000, 2877979114) /* PCAPRecordedObjectIID */;
+VALUES (27474, 8000, 0xAB8A79EA) /* PCAPRecordedObjectIID */;

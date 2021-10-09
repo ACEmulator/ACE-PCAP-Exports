@@ -53,17 +53,17 @@ VALUES (32600,   1, 'Shadowfire Isparian Sword') /* Name */
      , (32600,  25, 'Azrakin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32600,   1,   33559825) /* Setup */
-     , (32600,   3,  536870932) /* SoundTable */
-     , (32600,   6,   67111919) /* PaletteBase */
-     , (32600,   8,  100688549) /* Icon */
-     , (32600,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32600,   1, 0x02001511) /* Setup */
+     , (32600,   3, 0x20000014) /* SoundTable */
+     , (32600,   6, 0x04000BEF) /* PaletteBase */
+     , (32600,   8, 0x060062A5) /* Icon */
+     , (32600,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32600, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (32600, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32600, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32600, 8000, 2150466689) /* PCAPRecordedObjectIID */;
+VALUES (32600, 8000, 0x802D8481) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32600, 67111927, 0, 0);

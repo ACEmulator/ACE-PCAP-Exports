@@ -15,7 +15,7 @@ VALUES (35766,   1,        256) /* ItemType - MissileWeapon */
      , (35766,  48,         47) /* WeaponSkill - MissileWeapons */
      , (35766,  49,         30) /* WeaponTime */
      , (35766,  50,          4) /* AmmoType - Atlatl */
-     , (35766,  51,          2) /* CombatUse - Missle */
+     , (35766,  51,          2) /* CombatUse - Missile */
      , (35766,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35766, 106,        400) /* ItemSpellcraft */
      , (35766, 107,        697) /* ItemCurMana */
@@ -50,19 +50,19 @@ VALUES (35766,   1, 'Eyeslayer (Giant)') /* Name */
      , (35766,  16, 'This atlatl was carved from the giant rib of a monouga, and this origin has given the atlatl an attunement against other monougas.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35766,   1,   33560325) /* Setup */
-     , (35766,   3,  536870932) /* SoundTable */
-     , (35766,   8,  100673256) /* Icon */
-     , (35766,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35766,   1, 0x02001705) /* Setup */
+     , (35766,   3, 0x20000014) /* SoundTable */
+     , (35766,   8, 0x060026E8) /* Icon */
+     , (35766,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35766, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (35766, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35766, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35766, 8000, 2150344288) /* PCAPRecordedObjectIID */;
+VALUES (35766, 8000, 0x802BA660) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35766,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (35766,  2101,      2)  /* DefenderSelf7 */
-     , (35766,  2116,      2)  /* SwiftKillerSelf7 */
-     , (35766,  2540,      2)  /* CANTRIPBOWAPTITUDE1 */;
+VALUES (35766,  2116,      2)  /* SwiftKillerSelf7 */
+     , (35766,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */
+     , (35766,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (35766,  2101,      2)  /* DefenderSelf7 */;

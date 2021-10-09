@@ -47,33 +47,33 @@ VALUES (36747,   1, 'Empowered Bracers of the Perfect Light') /* Name */
      , (36747,  25, 'Rainwolf') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36747,   1,   33554641) /* Setup */
-     , (36747,   3,  536870932) /* SoundTable */
-     , (36747,   8,  100689726) /* Icon */
-     , (36747,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36747,   1, 0x020000D1) /* Setup */
+     , (36747,   3, 0x20000014) /* SoundTable */
+     , (36747,   8, 0x0600673E) /* Icon */
+     , (36747,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36747, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
      , (36747, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36747, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36747, 8040, 23855555, 56.07238, -37.63288, -0.002499998, 0.9938313, 0, 0, -0.1109028) /* PCAPRecordedLocation */
+VALUES (36747, 8040, 0x016C01C3, 56.07238, -37.63288, -0.0025, 0.993831, 0, 0, -0.110903) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.072380 -37.632880 -0.002500] 0.993831 0.000000 0.000000 -0.110903 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36747, 8000, 3654773732) /* PCAPRecordedObjectIID */;
+VALUES (36747, 8000, 0xD9D76BE4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36747,  2350,      2)  /* DecayDurance */
-     , (36747,  2351,      2)  /* ConsumptionDurance */
-     , (36747,  2352,      2)  /* StasisDurance */
-     , (36747,  2353,      2)  /* StimulationDurance */
-     , (36747,  2579,      2)  /* CANTRIPCOORDINATION1 */
+VALUES (36747,  3977,      2)  /* CoordinationOtherIncantation */
+     , (36747,  3983,      2)  /* RejuvenationOtherIncantation */
      , (36747,  2960,      2)  /* BludgeoningDurance */
      , (36747,  2961,      2)  /* PiercingDurance */
      , (36747,  2962,      2)  /* SlashingDurance */
-     , (36747,  3977,      2)  /* CoordinationOtherIncantation */
-     , (36747,  3983,      2)  /* RejuvenationOtherIncantation */
-     , (36747,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */;
+     , (36747,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (36747,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */
+     , (36747,  2350,      2)  /* DecayDurance */
+     , (36747,  2351,      2)  /* ConsumptionDurance */
+     , (36747,  2352,      2)  /* StasisDurance */
+     , (36747,  2353,      2)  /* StimulationDurance */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (36747, 0, 83886788, 83897784);

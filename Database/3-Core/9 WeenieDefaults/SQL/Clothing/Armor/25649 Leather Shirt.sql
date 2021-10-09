@@ -46,27 +46,24 @@ VALUES (25649,   1, 'Leather Shirt') /* Name */
      , (25649,  16, 'Leather Shirt') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25649,   1,   33554883) /* Setup */
-     , (25649,   3,  536870932) /* SoundTable */
-     , (25649,   6,   67108990) /* PaletteBase */
-     , (25649,   8,  100675384) /* Icon */
-     , (25649,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25649,   1, 0x020001C3) /* Setup */
+     , (25649,   3, 0x20000014) /* SoundTable */
+     , (25649,   6, 0x0400007E) /* PaletteBase */
+     , (25649,   8, 0x06002F38) /* Icon */
+     , (25649,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25649,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (25649, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (25649, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25649, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25649, 8000, 2174245554) /* PCAPRecordedObjectIID */;
+VALUES (25649, 8000, 0x81985AB2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25649,  1486,      2)  /* Impenetrability6 */
+VALUES (25649,  1539,      2)  /* LightningBane5 */
+     , (25649,  1486,      2)  /* Impenetrability6 */
      , (25649,  1497,      2)  /* AcidBane5 */
-     , (25649,  1539,      2)  /* LightningBane5 */
      , (25649,  1573,      2)  /* PiercingBane5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25649, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25649, 67114609, 72, 24)

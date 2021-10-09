@@ -8,7 +8,6 @@ VALUES (8700,   1,          2) /* ItemType - Armor */
      , (8700,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (8700,   5,        600) /* EncumbranceVal */
      , (8700,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
-     , (8700,  10,      24576) /* CurrentWieldedLocation - UpperLegArmor, LowerLegArmor */
      , (8700,  16,          1) /* ItemUseable - No */
      , (8700,  18,          1) /* UiEffects - Magical */
      , (8700,  19,          1) /* Value */
@@ -38,21 +37,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8700,   1, 'A Pair Of Explorer Leather Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8700,   1,   33554856) /* Setup */
-     , (8700,   3,  536870932) /* SoundTable */
-     , (8700,   6,   67108990) /* PaletteBase */
-     , (8700,   8,  100667352) /* Icon */
-     , (8700,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8700,   1, 0x020001A8) /* Setup */
+     , (8700,   3, 0x20000014) /* SoundTable */
+     , (8700,   6, 0x0400007E) /* PaletteBase */
+     , (8700,   8, 0x06000FD8) /* Icon */
+     , (8700,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8700, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (8700, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8700, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8700, 8000, 2629411239) /* PCAPRecordedObjectIID */;
+VALUES (8700, 8000, 0x9CB9A1A7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8700,  1117,      2)  /* BladeProtectionOther3 */
-     , (8700,  1483,      2)  /* Impenetrability3 */;
+VALUES (8700,  1483,      2)  /* Impenetrability3 */
+     , (8700,  1117,      2)  /* BladeProtectionOther3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8700, 67110375, 152, 8);

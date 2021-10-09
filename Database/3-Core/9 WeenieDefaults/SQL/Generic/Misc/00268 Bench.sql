@@ -20,11 +20,11 @@ VALUES (268,   1, 'Bench') /* Name */
      , (268,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (268,   1,   33554720) /* Setup */
-     , (268,   8,  100668111) /* Icon */
+VALUES (268,   1, 0x02000120) /* Setup */
+     , (268,   8, 0x060012CF) /* Icon */
      , (268, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (268, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (268, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (268, 8000, 2148089381) /* PCAPRecordedObjectIID */;
+VALUES (268, 8000, 0x80093E25) /* PCAPRecordedObjectIID */;

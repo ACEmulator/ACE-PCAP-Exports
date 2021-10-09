@@ -21,13 +21,13 @@ VALUES (44997,   1, 'Book 4: Further Manipulations of Time') /* Name */
      , (44997,  20, 'Book 4s: Further Manipulations of Time') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44997,   1,   33554771) /* Setup */
-     , (44997,   3,  536870932) /* SoundTable */
-     , (44997,   8,  100668117) /* Icon */
-     , (44997,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44997,   1, 0x02000153) /* Setup */
+     , (44997,   3, 0x20000014) /* SoundTable */
+     , (44997,   8, 0x060012D5) /* Icon */
+     , (44997,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44997, 8001,    2113585) /* PCAPRecordedWeenieHeader - PluralName, Usable, UseRadius, Container, Burden */
      , (44997, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (44997, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44997, 8000, 2153074266) /* PCAPRecordedObjectIID */;
+VALUES (44997, 8000, 0x80554E5A) /* PCAPRecordedObjectIID */;

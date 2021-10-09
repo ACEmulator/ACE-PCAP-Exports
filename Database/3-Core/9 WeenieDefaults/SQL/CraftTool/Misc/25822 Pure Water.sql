@@ -19,6 +19,7 @@ VALUES (25822,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25822,  22, True ) /* Inscribable */
+     , (25822,  23, True ) /* DestroyOnSell */
      , (25822,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -27,13 +28,13 @@ VALUES (25822,   1, 'Pure Water') /* Name */
      , (25822,  15, 'This water appears to be perfect in every way. It appears clear, cool and refreshing.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25822,   1,   33557971) /* Setup */
-     , (25822,   3,  536870932) /* SoundTable */
-     , (25822,   8,  100675648) /* Icon */
-     , (25822,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25822,   1, 0x02000DD3) /* Setup */
+     , (25822,   3, 0x20000014) /* SoundTable */
+     , (25822,   8, 0x06003040) /* Icon */
+     , (25822,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25822, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (25822, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25822, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25822, 8000, 3334919685) /* PCAPRecordedObjectIID */;
+VALUES (25822, 8000, 0xC6C6D605) /* PCAPRecordedObjectIID */;

@@ -25,18 +25,18 @@ VALUES (51655,   1, 'Aetherium Ore') /* Name */
      , (51655, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51655,   1,   33560927) /* Setup */
-     , (51655,   2,  150995147) /* MotionTable */
-     , (51655,   3,  536871001) /* SoundTable */
-     , (51655,   8,  100690568) /* Icon */
-     , (51655,  22,  872415328) /* PhysicsEffectTable */
+VALUES (51655,   1, 0x0200195F) /* Setup */
+     , (51655,   2, 0x090000CB) /* MotionTable */
+     , (51655,   3, 0x20000059) /* SoundTable */
+     , (51655,   8, 0x06006A88) /* Icon */
+     , (51655,  22, 0x34000060) /* PhysicsEffectTable */
      , (51655, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (51655, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (51655, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51655, 8040, 1484128670, 263.665, -159.973, -18, 0.980379, 0, 0, -0.197122) /* PCAPRecordedLocation */
+VALUES (51655, 8040, 0x5876019E, 263.665, -159.973, -18, 0.980379, 0, 0, -0.197122) /* PCAPRecordedLocation */
 /* @teleloc 0x5876019E [263.665000 -159.973000 -18.000000] 0.980379 0.000000 0.000000 -0.197122 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51655, 8000, 3695147880) /* PCAPRecordedObjectIID */;
+VALUES (51655, 8000, 0xDC3F7B68) /* PCAPRecordedObjectIID */;

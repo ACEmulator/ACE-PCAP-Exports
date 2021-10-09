@@ -30,6 +30,7 @@ VALUES (21353,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21353,  22, True ) /* Inscribable */
+     , (21353,  23, True ) /* DestroyOnSell */
      , (21353,  69, False) /* IsSellable */
      , (21353,  99, True ) /* Ivoryable */;
 
@@ -48,14 +49,14 @@ VALUES (21353,   1, 'Phantom Axe') /* Name */
      , (21353,  16, 'An axe with a ghostly blade crafted from pure chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21353,   1,   33556657) /* Setup */
-     , (21353,   3,  536870932) /* SoundTable */
-     , (21353,   8,  100668985) /* Icon */
-     , (21353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21353,   1, 0x020008B1) /* Setup */
+     , (21353,   3, 0x20000014) /* SoundTable */
+     , (21353,   8, 0x06001639) /* Icon */
+     , (21353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21353,  30,         88) /* PhysicsScript - Create */
      , (21353, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (21353, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21353, 8005,     423937) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21353, 8000, 2273394178) /* PCAPRecordedObjectIID */;
+VALUES (21353, 8000, 0x87813E02) /* PCAPRecordedObjectIID */;

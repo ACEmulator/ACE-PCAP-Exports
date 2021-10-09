@@ -44,18 +44,18 @@ VALUES (82,   1, 'Platemail Leggings') /* Name */
      , (82,  16, 'Platemail Leggings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (82,   1,   33554856) /* Setup */
-     , (82,   3,  536870932) /* SoundTable */
-     , (82,   6,   67108990) /* PaletteBase */
-     , (82,   8,  100669589) /* Icon */
-     , (82,  22,  872415275) /* PhysicsEffectTable */
+VALUES (82,   1, 0x020001A8) /* Setup */
+     , (82,   3, 0x20000014) /* SoundTable */
+     , (82,   6, 0x0400007E) /* PaletteBase */
+     , (82,   8, 0x06001895) /* Icon */
+     , (82,  22, 0x3400002B) /* PhysicsEffectTable */
      , (82,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (82, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (82, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (82, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (82, 8000, 3688258289) /* PCAPRecordedObjectIID */;
+VALUES (82, 8000, 0xDBD65AF1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (82,  1485,      2)  /* Impenetrability5 */

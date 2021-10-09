@@ -40,20 +40,20 @@ VALUES (8205,   1, 'Shadow''s Garb') /* Name */
      , (8205,  16, 'A facial wrap that protects your face from sandstorms, and occludes your face from the eyes of others. It is rumored that these were the same masks worn by the Shagar Zharala during their assassination of King Laszko.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8205,   1,   33556861) /* Setup */
-     , (8205,   3,  536870932) /* SoundTable */
-     , (8205,   8,  100671133) /* Icon */
-     , (8205,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8205,   1, 0x0200097D) /* Setup */
+     , (8205,   3, 0x20000014) /* SoundTable */
+     , (8205,   8, 0x06001E9D) /* Icon */
+     , (8205,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8205, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (8205, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8205, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8205, 8000, 2401546779) /* PCAPRecordedObjectIID */;
+VALUES (8205, 8000, 0x8F24B21B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8205,   247,      2)  /* InvulnerabilitySelf4 */
-     , (8205,   301,      2)  /* AxeMasterySelf4 */;
+VALUES (8205,   301,      2)  /* LightWeaponsMasterySelf4 */
+     , (8205,   247,      2)  /* InvulnerabilitySelf4 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (8205, 0, 16785197);

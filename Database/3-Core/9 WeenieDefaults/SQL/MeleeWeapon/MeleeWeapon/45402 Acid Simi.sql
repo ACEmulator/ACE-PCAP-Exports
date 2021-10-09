@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45402,   1,          1) /* ItemType - MeleeWeapon */
      , (45402,   5,        238) /* EncumbranceVal */
      , (45402,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (45402,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (45402,  16,          1) /* ItemUseable - No */
      , (45402,  18,        257) /* UiEffects - Magical, Acid */
      , (45402,  19,       8902) /* Value */
@@ -55,13 +54,13 @@ VALUES (45402,   1, 'Acid Simi') /* Name */
      , (45402,  16, 'Acid Simi of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45402,   1,   33555775) /* Setup */
-     , (45402,   3,  536870932) /* SoundTable */
-     , (45402,   8,  100669004) /* Icon */
-     , (45402,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45402,   1, 0x0200053F) /* Setup */
+     , (45402,   3, 0x20000014) /* SoundTable */
+     , (45402,   8, 0x0600164C) /* Icon */
+     , (45402,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45402,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45402,  50,  100692070) /* IconOverlay */
-     , (45402,  52,  100676437) /* IconUnderlay */
+     , (45402,  50, 0x06007066) /* IconOverlay */
+     , (45402,  52, 0x06003355) /* IconUnderlay */
      , (45402, 8001, 3508765336) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (45402, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45402, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
@@ -69,12 +68,12 @@ VALUES (45402,   1,   33555775) /* Setup */
      , (45402, 8009,          8) /* PCAPRecordedParentLocation - LeftWeapon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45402, 8040, 3332964380, 75.64861, 81.85545, 41.929, 0.3659022, 0.3659022, -0.6050748, -0.6050748) /* PCAPRecordedLocation */
+VALUES (45402, 8040, 0xC6A9001C, 75.64861, 81.85545, 41.929, 0.365902, 0.365902, -0.605075, -0.605075) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [75.648610 81.855450 41.929000] 0.365902 0.365902 -0.605075 -0.605075 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45402, 8000, 2170441494) /* PCAPRecordedObjectIID */
-     , (45402, 8008, 1343184288) /* PCAPRecordedParentIID */;
+VALUES (45402, 8000, 0x815E4F16) /* PCAPRecordedObjectIID */
+     , (45402, 8008, 0x500F5DA0) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45402,  1615,      2)  /* BloodDrinkerSelf5 */;

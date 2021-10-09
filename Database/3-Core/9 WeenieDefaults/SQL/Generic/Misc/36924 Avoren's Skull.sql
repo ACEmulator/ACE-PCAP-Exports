@@ -14,20 +14,21 @@ VALUES (36924,   1,        128) /* ItemType - Misc */
      , (36924, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36924,  22, True ) /* Inscribable */;
+VALUES (36924,  22, True ) /* Inscribable */
+     , (36924,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36924,   1, 'Avoren''s Skull') /* Name */
      , (36924,  16, 'An ancient, but well-preserved skull that was once the skull of Avoren Palacost, son of the man who eventually became Bael''Zharon.  (Only one skull per fellowship is needed to continue to the Sepulcher of Dreams).') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36924,   1,   33556924) /* Setup */
-     , (36924,   3,  536870932) /* SoundTable */
-     , (36924,   8,  100671219) /* Icon */
-     , (36924,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36924,   1, 0x020009BC) /* Setup */
+     , (36924,   3, 0x20000014) /* SoundTable */
+     , (36924,   8, 0x06001EF3) /* Icon */
+     , (36924,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36924, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (36924, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36924, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36924, 8000, 3629666444) /* PCAPRecordedObjectIID */;
+VALUES (36924, 8000, 0xD858508C) /* PCAPRecordedObjectIID */;

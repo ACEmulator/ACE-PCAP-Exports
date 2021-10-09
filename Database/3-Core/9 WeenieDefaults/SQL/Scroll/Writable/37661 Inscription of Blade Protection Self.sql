@@ -24,13 +24,13 @@ VALUES (37661,   1, 'Inscription of Blade Protection Self') /* Name */
 Reduces damage the caster takes from Slashing by 68%') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37661,   1,   33554826) /* Setup */
-     , (37661,   8,  100676954) /* Icon */
-     , (37661,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37661,   1, 0x0200018A) /* Setup */
+     , (37661,   8, 0x0600355A) /* Icon */
+     , (37661,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37661,  28,       4462) /* Spell - BladeProtectionSelf8 */
      , (37661, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37661, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37661, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37661, 8000, 2150584893) /* PCAPRecordedObjectIID */;
+VALUES (37661, 8000, 0x802F523D) /* PCAPRecordedObjectIID */;

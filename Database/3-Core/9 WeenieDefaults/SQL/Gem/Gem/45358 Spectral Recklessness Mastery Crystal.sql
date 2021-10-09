@@ -23,13 +23,13 @@ VALUES (45358,   1, 'Spectral Recklessness Mastery Crystal') /* Name */
      , (45358,  20, 'Spectral Recklessness Mastery Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45358,   1,   33557625) /* Setup */
-     , (45358,   3,  536870932) /* SoundTable */
-     , (45358,   8,  100686697) /* Icon */
-     , (45358,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45358,   1, 0x02000C79) /* Setup */
+     , (45358,   3, 0x20000014) /* SoundTable */
+     , (45358,   8, 0x06005B69) /* Icon */
+     , (45358,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45358,  28,       5906) /* Spell - RecklessnessMasterySpectral */
-     , (45358,  50,  100686633) /* IconOverlay */
-     , (45358,  52,  100686604) /* IconUnderlay */
+     , (45358,  50, 0x06005B29) /* IconOverlay */
+     , (45358,  52, 0x06005B0C) /* IconUnderlay */
      , (45358, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (45358, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45358, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
@@ -37,4 +37,4 @@ VALUES (45358,   1,   33557625) /* Setup */
      , (45358, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45358, 8000,      45358) /* PCAPRecordedObjectIID */;
+VALUES (45358, 8000, 0x0000B12E) /* PCAPRecordedObjectIID */;

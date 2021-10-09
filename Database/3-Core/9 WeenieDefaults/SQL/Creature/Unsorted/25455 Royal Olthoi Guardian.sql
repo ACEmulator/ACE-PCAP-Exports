@@ -23,23 +23,23 @@ VALUES (25455,   1, 'Royal Olthoi Guardian') /* Name */
      , (25455, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25455,   1,   33557046) /* Setup */
-     , (25455,   2,  150995130) /* MotionTable */
-     , (25455,   3,  536871036) /* SoundTable */
-     , (25455,   6,   67113194) /* PaletteBase */
-     , (25455,   8,  100667623) /* Icon */
-     , (25455,  22,  872415378) /* PhysicsEffectTable */
+VALUES (25455,   1, 0x02000A36) /* Setup */
+     , (25455,   2, 0x090000BA) /* MotionTable */
+     , (25455,   3, 0x2000007C) /* SoundTable */
+     , (25455,   6, 0x040010EA) /* PaletteBase */
+     , (25455,   8, 0x060010E7) /* Icon */
+     , (25455,  22, 0x34000092) /* PhysicsEffectTable */
      , (25455,  30,         86) /* PhysicsScript - BreatheAcid */
      , (25455, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (25455, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (25455, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25455, 8040, 1615397368, 500, -200, -12.016, 0.714421, 0, 0, 0.699716) /* PCAPRecordedLocation */
+VALUES (25455, 8040, 0x604901F8, 500, -200, -12.016, 0.714421, 0, 0, 0.699716) /* PCAPRecordedLocation */
 /* @teleloc 0x604901F8 [500.000000 -200.000000 -12.016000] 0.714421 0.000000 0.000000 0.699716 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25455, 8000, 3708907720) /* PCAPRecordedObjectIID */;
+VALUES (25455, 8000, 0xDD1170C8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25455, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */

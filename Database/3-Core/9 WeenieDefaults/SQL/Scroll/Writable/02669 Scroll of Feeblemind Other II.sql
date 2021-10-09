@@ -24,13 +24,13 @@ VALUES (2669,   1, 'Scroll of Feeblemind Other II') /* Name */
 Decreases the target''s Self by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2669,   1,   33554826) /* Setup */
-     , (2669,   8,  100676471) /* Icon */
-     , (2669,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2669,   1, 0x0200018A) /* Setup */
+     , (2669,   8, 0x06003377) /* Icon */
+     , (2669,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2669,  28,       1464) /* Spell - FeeblemindOther2 */
      , (2669, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2669, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2669, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2669, 8000, 3708789257) /* PCAPRecordedObjectIID */;
+VALUES (2669, 8000, 0xDD0FA209) /* PCAPRecordedObjectIID */;

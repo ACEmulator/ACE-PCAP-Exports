@@ -8,7 +8,6 @@ VALUES (45967,   1,          2) /* ItemType - Armor */
      , (45967,   4,        512) /* ClothingPriority - OuterwearLowerLegs */
      , (45967,   5,        450) /* EncumbranceVal */
      , (45967,   9,      16384) /* ValidLocations - LowerLegArmor */
-     , (45967,  10,      16384) /* CurrentWieldedLocation - LowerLegArmor */
      , (45967,  16,          1) /* ItemUseable - No */
      , (45967,  19,        100) /* Value */
      , (45967,  28,        480) /* ArmorLevel */
@@ -26,6 +25,7 @@ VALUES (45967,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45967,  22, True ) /* Inscribable */
+     , (45967,  23, True ) /* DestroyOnSell */
      , (45967,  99, True ) /* Ivoryable */
      , (45967, 100, True ) /* Dyable */;
 
@@ -45,22 +45,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45967,   1, 'Studded Leather Greaves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45967,   1,   33554641) /* Setup */
-     , (45967,   3,  536870932) /* SoundTable */
-     , (45967,   6,   67108990) /* PaletteBase */
-     , (45967,   8,  100669632) /* Icon */
-     , (45967,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45967,   1, 0x020000D1) /* Setup */
+     , (45967,   3, 0x20000014) /* SoundTable */
+     , (45967,   6, 0x0400007E) /* PaletteBase */
+     , (45967,   8, 0x060018C0) /* Icon */
+     , (45967,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45967, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (45967, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45967, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45967, 8000, 3042068458) /* PCAPRecordedObjectIID */;
+VALUES (45967, 8000, 0xB55247EA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45967,   466,      2)  /* BowMasteryOther6 */
+VALUES (45967,  1486,      2)  /* Impenetrability6 */
+     , (45967,   466,      2)  /* MissileWeaponsMasteryOther6 */
      , (45967,  1120,      2)  /* BladeProtectionOther6 */
-     , (45967,  1486,      2)  /* Impenetrability6 */
      , (45967,  1762,      2)  /* AlchemyMasteryOther6 */
      , (45967,  2536,      2)  /* CANTRIPALCHEMICALPROWESS1 */
      , (45967,  2606,      2)  /* CANTRIPSLASHINGBANE1 */;

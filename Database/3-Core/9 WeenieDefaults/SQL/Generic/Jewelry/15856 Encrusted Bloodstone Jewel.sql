@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15856,   1,          8) /* ItemType - Jewelry */
      , (15856,   5,        100) /* EncumbranceVal */
      , (15856,   9,      32768) /* ValidLocations - NeckWear */
-     , (15856,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (15856,  16,          1) /* ItemUseable - No */
      , (15856,  18,          1) /* UiEffects - Magical */
      , (15856,  19,       2000) /* Value */
@@ -24,6 +23,7 @@ VALUES (15856,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15856,  22, True ) /* Inscribable */
+     , (15856,  23, True ) /* DestroyOnSell */
      , (15856,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -35,17 +35,17 @@ VALUES (15856,   1, 'Encrusted Bloodstone Jewel') /* Name */
      , (15856,  16, 'A jewel carved from Bloodstone that has a slick, sticky coating. A thin copper necklace can be seen beneath the sheen. Perhaps it is a necklace?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15856,   1,   33554809) /* Setup */
-     , (15856,   3,  536870932) /* SoundTable */
-     , (15856,   6,   67111919) /* PaletteBase */
-     , (15856,   8,  100672819) /* Icon */
-     , (15856,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15856,   1, 0x02000179) /* Setup */
+     , (15856,   3, 0x20000014) /* SoundTable */
+     , (15856,   6, 0x04000BEF) /* PaletteBase */
+     , (15856,   8, 0x06002533) /* Icon */
+     , (15856,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15856, 8001,  270762136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (15856, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15856, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15856, 8000, 2274298702) /* PCAPRecordedObjectIID */;
+VALUES (15856, 8000, 0x878F0B4E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (15856,  2666,      2)  /* EssenceGlutton */;

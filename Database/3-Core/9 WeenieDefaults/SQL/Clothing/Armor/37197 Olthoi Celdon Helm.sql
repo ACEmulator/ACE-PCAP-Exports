@@ -52,29 +52,26 @@ VALUES (37197,   1, 'Olthoi Celdon Helm') /* Name */
      , (37197,  16, 'Olthoi Celdon Helm of Magic Resistance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37197,   1,   33558424) /* Setup */
-     , (37197,   3,  536870932) /* SoundTable */
-     , (37197,   6,   67108990) /* PaletteBase */
-     , (37197,   8,  100674669) /* Icon */
-     , (37197,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37197,   1, 0x02000F98) /* Setup */
+     , (37197,   3, 0x20000014) /* SoundTable */
+     , (37197,   6, 0x0400007E) /* PaletteBase */
+     , (37197,   8, 0x06002C6D) /* Icon */
+     , (37197,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37197,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (37197, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (37197, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37197, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37197, 8000, 3420126114) /* PCAPRecordedObjectIID */;
+VALUES (37197, 8000, 0xCBDAFBA2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37197,  1486,      2)  /* Impenetrability6 */
      , (37197,  2092,      2)  /* AcidBane7 */
-     , (37197,  2110,      2)  /* LightningBane7 */
      , (37197,  4397,      2)  /* BludgeonBane8 */
      , (37197,  4596,      2)  /* MagicResistanceSelf8 */
-     , (37197,  4664,      2)  /* CANTRIPFLAMEBANE3 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37197, 2,   333,  1, 0, 0, False) /* Create Nabut (333) for Wield */;
+     , (37197,  4664,      2)  /* CANTRIPFLAMEBANE3 */
+     , (37197,  2110,      2)  /* LightningBane7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37197, 67114456, 250, 6)

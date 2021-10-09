@@ -24,13 +24,13 @@ VALUES (2694,   1, 'Scroll of Heal Other IV') /* Name */
 Restores 30-60 points of the target''s Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2694,   1,   33554826) /* Setup */
-     , (2694,   8,  100676931) /* Icon */
-     , (2694,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2694,   1, 0x0200018A) /* Setup */
+     , (2694,   8, 0x06003543) /* Icon */
+     , (2694,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2694,  28,       1164) /* Spell - HealOther4 */
      , (2694, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2694, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2694, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2694, 8000, 2884825838) /* PCAPRecordedObjectIID */;
+VALUES (2694, 8000, 0xABF2F2EE) /* PCAPRecordedObjectIID */;

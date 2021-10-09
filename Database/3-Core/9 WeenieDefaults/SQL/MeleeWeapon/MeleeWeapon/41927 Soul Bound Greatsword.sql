@@ -56,27 +56,27 @@ VALUES (41927,   1, 'Soul Bound Greatsword') /* Name */
      , (41927,  25, 'Nekromantix') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41927,   1,   33560577) /* Setup */
-     , (41927,   3,  536870932) /* SoundTable */
-     , (41927,   8,  100690858) /* Icon */
-     , (41927,  22,  872415275) /* PhysicsEffectTable */
-     , (41927,  52,  100689896) /* IconUnderlay */
+VALUES (41927,   1, 0x02001801) /* Setup */
+     , (41927,   3, 0x20000014) /* SoundTable */
+     , (41927,   8, 0x06006BAA) /* Icon */
+     , (41927,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41927,  52, 0x060067E8) /* IconUnderlay */
      , (41927, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (41927, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (41927, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (41927, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41927, 8000, 2151222078) /* PCAPRecordedObjectIID */;
+VALUES (41927, 8000, 0x80390B3E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41927,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (41927,  2101,      2)  /* DefenderSelf7 */
-     , (41927,  2106,      2)  /* HeartSeekerSelf7 */
-     , (41927,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (41927,  2116,      2)  /* SwiftKillerSelf7 */
+     , (41927,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */
      , (41927,  2579,      2)  /* CANTRIPCOORDINATION1 */
      , (41927,  2583,      2)  /* CANTRIPSTRENGTH1 */
-     , (41927,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */;
+     , (41927,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (41927,  2101,      2)  /* DefenderSelf7 */
+     , (41927,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (41927, 0, 83889235, 83892492)

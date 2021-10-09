@@ -27,17 +27,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31674,   1, 'Orange Monster Sprout') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31674,   1,   33559607) /* Setup */
-     , (31674,   3,  536870932) /* SoundTable */
-     , (31674,   6,   67116668) /* PaletteBase */
-     , (31674,   8,  100687924) /* Icon */
-     , (31674,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31674,   1, 0x02001437) /* Setup */
+     , (31674,   3, 0x20000014) /* SoundTable */
+     , (31674,   6, 0x04001E7C) /* PaletteBase */
+     , (31674,   8, 0x06006034) /* Icon */
+     , (31674,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31674, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (31674, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31674, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31674, 8000, 3420403710) /* PCAPRecordedObjectIID */;
+VALUES (31674, 8000, 0xCBDF37FE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31674, 67116675, 0, 192);

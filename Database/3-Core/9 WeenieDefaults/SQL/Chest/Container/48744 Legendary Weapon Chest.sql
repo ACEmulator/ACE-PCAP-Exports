@@ -32,21 +32,21 @@ VALUES (48744,   1, 'Legendary Weapon Chest') /* Name */
      , (48744, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48744,   1,   33558324) /* Setup */
-     , (48744,   2,  150995235) /* MotionTable */
-     , (48744,   3,  536870945) /* SoundTable */
-     , (48744,   8,  100674256) /* Icon */
-     , (48744,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48744,   1, 0x02000F34) /* Setup */
+     , (48744,   2, 0x09000123) /* MotionTable */
+     , (48744,   3, 0x20000021) /* SoundTable */
+     , (48744,   8, 0x06002AD0) /* Icon */
+     , (48744,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48744, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (48744, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (48744, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48744, 8040, 1994981794, 131.928, 333.827, 94.8, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (48744, 8040, 0x76E901A2, 131.928, 333.827, 94.8, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x76E901A2 [131.928000 333.827000 94.800000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48744, 8000, 2003734632) /* PCAPRecordedObjectIID */;
+VALUES (48744, 8000, 0x776E9068) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48744, -1, 7795, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Frost Naginata (7795) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

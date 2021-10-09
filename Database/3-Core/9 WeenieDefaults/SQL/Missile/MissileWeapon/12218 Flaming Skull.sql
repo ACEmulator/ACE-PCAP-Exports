@@ -17,7 +17,7 @@ VALUES (12218,   1,        256) /* ItemType - MissileWeapon */
      , (12218,  45,         16) /* DamageType - Fire */
      , (12218,  48,         47) /* WeaponSkill - MissileWeapons */
      , (12218,  49,         10) /* WeaponTime */
-     , (12218,  51,          2) /* CombatUse - Missle */
+     , (12218,  51,          2) /* CombatUse - Missile */
      , (12218,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (12218, 151,         11) /* HookType - Floor, Wall, Yard */
      , (12218, 353,         10) /* WeaponType - Thrown */
@@ -39,13 +39,13 @@ VALUES (12218,   1, 'Flaming Skull') /* Name */
      , (12218,  16, 'It''s a skull, that burns within with a strange supernatural flame.  You can sense a strange, latent magic within it.  When it is thrown in combat, it will mystically replenish itself, tapping into the magic until it is exhausted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12218,   1,   33557366) /* Setup */
-     , (12218,   3,  536870932) /* SoundTable */
-     , (12218,   8,  100672174) /* Icon */
-     , (12218,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12218,   1, 0x02000B76) /* Setup */
+     , (12218,   3, 0x20000014) /* SoundTable */
+     , (12218,   8, 0x060022AE) /* Icon */
+     , (12218,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12218, 8001,  270627352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (12218, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (12218, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12218, 8000, 2186220457) /* PCAPRecordedObjectIID */;
+VALUES (12218, 8000, 0x824F13A9) /* PCAPRecordedObjectIID */;

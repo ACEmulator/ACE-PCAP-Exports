@@ -22,17 +22,17 @@ VALUES (15740,   1, 'Elixir of Spring') /* Name */
      , (15740,  20, 'Elixirs of Spring') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15740,   1,   33555965) /* Setup */
-     , (15740,   3,  536870932) /* SoundTable */
-     , (15740,   6,   67111919) /* PaletteBase */
-     , (15740,   8,  100672779) /* Icon */
-     , (15740,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15740,   1, 0x020005FD) /* Setup */
+     , (15740,   3, 0x20000014) /* SoundTable */
+     , (15740,   6, 0x04000BEF) /* PaletteBase */
+     , (15740,   8, 0x0600250B) /* Icon */
+     , (15740,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15740, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (15740, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15740, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15740, 8000, 2153705582) /* PCAPRecordedObjectIID */;
+VALUES (15740, 8000, 0x805EF06E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15740, 67111925, 0, 0);

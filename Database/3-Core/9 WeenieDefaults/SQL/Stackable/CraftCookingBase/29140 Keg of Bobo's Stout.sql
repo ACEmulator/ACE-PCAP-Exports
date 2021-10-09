@@ -27,14 +27,14 @@ VALUES (29140,   1, 'Keg of Bobo''s Stout') /* Name */
      , (29140,  20, 'Kegs of Bobo''s Stout') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29140,   1,   33559152) /* Setup */
-     , (29140,   3,  536870932) /* SoundTable */
-     , (29140,   8,  100686451) /* Icon */
-     , (29140,  22,  872415275) /* PhysicsEffectTable */
-     , (29140,  50,  100687554) /* IconOverlay */
+VALUES (29140,   1, 0x02001270) /* Setup */
+     , (29140,   3, 0x20000014) /* SoundTable */
+     , (29140,   8, 0x06005A73) /* Icon */
+     , (29140,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29140,  50, 0x06005EC2) /* IconOverlay */
      , (29140, 8001, 1344303129) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType, IconOverlay */
      , (29140, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29140, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29140, 8000, 3696373839) /* PCAPRecordedObjectIID */;
+VALUES (29140, 8000, 0xDC52304F) /* PCAPRecordedObjectIID */;

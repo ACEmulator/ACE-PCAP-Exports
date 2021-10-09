@@ -49,22 +49,22 @@ VALUES (33050,   1, 'Red Rune Silveran Dagger') /* Name */
      , (33050,  15, 'A dagger crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33050,   1,   33559888) /* Setup */
-     , (33050,   3,  536870932) /* SoundTable */
-     , (33050,   8,  100688896) /* Icon */
-     , (33050,  22,  872415275) /* PhysicsEffectTable */
-     , (33050,  50,  100688915) /* IconOverlay */
+VALUES (33050,   1, 0x02001550) /* Setup */
+     , (33050,   3, 0x20000014) /* SoundTable */
+     , (33050,   8, 0x06006400) /* Icon */
+     , (33050,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33050,  50, 0x06006413) /* IconOverlay */
      , (33050, 8001, 1344356888) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (33050, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33050, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33050, 8000, 2965276647) /* PCAPRecordedObjectIID */;
+VALUES (33050, 8000, 0xB0BE87E7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33050,  2059,      2)  /* CoordinationSelf7 */
+VALUES (33050,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33050,  2694,      2)  /* ModerateSwordAptitude */
+     , (33050,  2059,      2)  /* CoordinationSelf7 */
      , (33050,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33050,  2101,      2)  /* DefenderSelf7 */
-     , (33050,  2106,      2)  /* HeartSeekerSelf7 */
-     , (33050,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33050,  2694,      2)  /* ModerateSwordAptitude */;
+     , (33050,  2106,      2)  /* HeartSeekerSelf7 */;

@@ -40,26 +40,26 @@ VALUES (5908,   1, 'Suikan Life Master Robe') /* Name */
      , (5908,  16, 'A finely tailored Sho robe for master mages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5908,   1,   33554854) /* Setup */
-     , (5908,   3,  536870932) /* SoundTable */
-     , (5908,   6,   67108990) /* PaletteBase */
-     , (5908,   8,  100670379) /* Icon */
-     , (5908,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5908,   1, 0x020001A6) /* Setup */
+     , (5908,   3, 0x20000014) /* SoundTable */
+     , (5908,   6, 0x0400007E) /* PaletteBase */
+     , (5908,   8, 0x06001BAB) /* Icon */
+     , (5908,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5908,  37,         33) /* ItemSkillLimit - LifeMagic */
      , (5908, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (5908, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5908, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5908, 8000, 3658160311) /* PCAPRecordedObjectIID */;
+VALUES (5908, 8000, 0xDA0B18B7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5908,   571,      2)  /* CreatureEnchantmentIneptitudeOther3 */
+VALUES (5908,   649,      2)  /* WarMagicIneptitudeOther3 */
+     , (5908,  1484,      2)  /* Impenetrability4 */
      , (5908,   595,      2)  /* ItemEnchantmentIneptitudeOther3 */
      , (5908,   614,      2)  /* LifeMagicMasteryOther4 */
-     , (5908,   649,      2)  /* WarMagicIneptitudeOther3 */
      , (5908,  1453,      2)  /* WillpowerOther3 */
-     , (5908,  1484,      2)  /* Impenetrability4 */;
+     , (5908,   571,      2)  /* CreatureEnchantmentIneptitudeOther3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5908, 67109945, 96, 12)

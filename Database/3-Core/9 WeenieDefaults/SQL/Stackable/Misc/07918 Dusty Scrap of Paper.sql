@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7918,   1, 'Dusty Scrap of Paper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7918,   1,   33554773) /* Setup */
-     , (7918,   3,  536870932) /* SoundTable */
-     , (7918,   8,  100667493) /* Icon */
-     , (7918,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7918,   1, 0x02000155) /* Setup */
+     , (7918,   3, 0x20000014) /* SoundTable */
+     , (7918,   8, 0x06001065) /* Icon */
+     , (7918,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7918, 8001,    2125832) /* PCAPRecordedWeenieHeader - Value, StackSize, MaxStackSize, Container, Burden */
      , (7918, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7918, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7918, 8000, 2925380338) /* PCAPRecordedObjectIID */;
+VALUES (7918, 8000, 0xAE5DC2F2) /* PCAPRecordedObjectIID */;

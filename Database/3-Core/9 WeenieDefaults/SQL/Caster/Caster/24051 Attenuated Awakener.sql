@@ -7,10 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24051,   1,      32768) /* ItemType - Caster */
      , (24051,   5,        120) /* EncumbranceVal */
      , (24051,   9,   16777216) /* ValidLocations - Held */
-     , (24051,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (24051,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (24051,  18,          1) /* UiEffects - Magical */
      , (24051,  19,       9050) /* Value */
+     , (24051,  46,        512) /* DefaultCombatStyle - Magic */
      , (24051,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24051,  94,         16) /* TargetType - Creature */
      , (24051, 106,        300) /* ItemSpellcraft */
@@ -36,11 +36,11 @@ VALUES (24051,   1, 'Attenuated Awakener') /* Name */
      , (24051,  16, 'A modified version of Hea Karenua''s casting buadren. This is a fine old drum from the Tumerok world, rich with fetishes and power. The bones of centuries-dead drudges, mosswarts, and banderlings, rattle against one another in the wind. The skin stretched across it, legend tells, is made from flesh of Zhuaruf, a Tumerok birthed from the union of the Hea shaman Niheaua and his own dream-spun daughter. There is an inscription around the rim which reads, "To release one''s brother from the clinging threads of a hateful dream."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24051,   1,   33557297) /* Setup */
-     , (24051,   3,  536870932) /* SoundTable */
-     , (24051,   6,   67113344) /* PaletteBase */
-     , (24051,   8,  100672059) /* Icon */
-     , (24051,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24051,   1, 0x02000B31) /* Setup */
+     , (24051,   3, 0x20000014) /* SoundTable */
+     , (24051,   6, 0x04001180) /* PaletteBase */
+     , (24051,   8, 0x0600223B) /* Icon */
+     , (24051,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24051,  28,       3203) /* Spell - DispelAllBadOther7NoManaCon */
      , (24051, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (24051, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -48,12 +48,12 @@ VALUES (24051,   1,   33557297) /* Setup */
      , (24051, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24051, 8040, 791674921, 154.465, 190.5575, 5.809751, -0.006701279, -0.006701279, -0.707075, -0.707075) /* PCAPRecordedLocation */
+VALUES (24051, 8040, 0x2F300029, 154.465, 190.5575, 5.809751, -0.006701, -0.006701, -0.707075, -0.707075) /* PCAPRecordedLocation */
 /* @teleloc 0x2F300029 [154.465000 190.557500 5.809751] -0.006701 -0.006701 -0.707075 -0.707075 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24051, 8000, 3658173669) /* PCAPRecordedObjectIID */
-     , (24051, 8008, 1343466091) /* PCAPRecordedParentIID */;
+VALUES (24051, 8000, 0xDA0B4CE5) /* PCAPRecordedObjectIID */
+     , (24051, 8008, 0x5013AA6B) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24051,  2542,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE1 */;

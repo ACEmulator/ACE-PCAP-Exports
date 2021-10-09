@@ -36,27 +36,27 @@ VALUES (2247,   1, 'Fadsahil al-Tashbi the Master Archmage') /* Name */
      , (2247, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2247,   1,   33554433) /* Setup */
-     , (2247,   2,  150994945) /* MotionTable */
-     , (2247,   3,  536870913) /* SoundTable */
-     , (2247,   6,   67108990) /* PaletteBase */
-     , (2247,   8,  100667446) /* Icon */
-     , (2247,   9,   83890476) /* EyesTexture */
-     , (2247,  10,   83890531) /* NoseTexture */
-     , (2247,  11,   83890575) /* MouthTexture */
-     , (2247,  15,   67117025) /* HairPalette */
-     , (2247,  16,   67110062) /* EyesPalette */
-     , (2247,  17,   67109557) /* SkinPalette */
+VALUES (2247,   1, 0x02000001) /* Setup */
+     , (2247,   2, 0x09000001) /* MotionTable */
+     , (2247,   3, 0x20000001) /* SoundTable */
+     , (2247,   6, 0x0400007E) /* PaletteBase */
+     , (2247,   8, 0x06001036) /* Icon */
+     , (2247,   9, 0x0500112C) /* EyesTexture */
+     , (2247,  10, 0x05001163) /* NoseTexture */
+     , (2247,  11, 0x0500118F) /* MouthTexture */
+     , (2247,  15, 0x04001FE1) /* HairPalette */
+     , (2247,  16, 0x040004AE) /* EyesPalette */
+     , (2247,  17, 0x040002B5) /* SkinPalette */
      , (2247, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2247, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2247, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2247, 8040, 2370633984, 86.4028, 14.6967, 9.705, -0.130526, 0, 0, -0.9914449) /* PCAPRecordedLocation */
+VALUES (2247, 8040, 0x8D4D0100, 86.4028, 14.6967, 9.705, -0.130526, 0, 0, -0.991445) /* PCAPRecordedLocation */
 /* @teleloc 0x8D4D0100 [86.402800 14.696700 9.705000] -0.130526 0.000000 0.000000 -0.991445 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2247, 8000, 2027212800) /* PCAPRecordedObjectIID */;
+VALUES (2247, 8000, 0x78D4D000) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2247,   1, 150, 0, 0) /* Strength */

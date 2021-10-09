@@ -21,17 +21,17 @@ VALUES (20628,   1, 'Trade Note (150,000)') /* Name */
      , (20628,  20, 'Trade Notes (150,000)') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20628,   1,   33554773) /* Setup */
-     , (20628,   3,  536870932) /* SoundTable */
-     , (20628,   8,  100673375) /* Icon */
-     , (20628,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20628,   1, 0x02000155) /* Setup */
+     , (20628,   3, 0x20000014) /* SoundTable */
+     , (20628,   8, 0x0600275F) /* Icon */
+     , (20628,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20628, 8001,    2109465) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden */
      , (20628, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (20628, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20628, 8040, 3583574079, 188.3871, 164.7933, 374.079, -0.1404442, 0, 0, -0.9900886) /* PCAPRecordedLocation */
+VALUES (20628, 8040, 0xD599003F, 188.3871, 164.7933, 374.079, -0.140444, 0, 0, -0.990089) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [188.387100 164.793300 374.079000] -0.140444 0.000000 0.000000 -0.990089 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20628, 8000, 2297064694) /* PCAPRecordedObjectIID */;
+VALUES (20628, 8000, 0x88EA6CF6) /* PCAPRecordedObjectIID */;

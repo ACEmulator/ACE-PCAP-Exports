@@ -23,24 +23,24 @@ VALUES (24135,   1, 'Virindi Obsidian Shard') /* Name */
      , (24135,  16, 'A piece of obsidian etched with arcane symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24135,   1,   33555391) /* Setup */
-     , (24135,   3,  536870932) /* SoundTable */
-     , (24135,   8,  100671183) /* Icon */
-     , (24135,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24135,   1, 0x020003BF) /* Setup */
+     , (24135,   3, 0x20000014) /* SoundTable */
+     , (24135,   8, 0x06001ECF) /* Icon */
+     , (24135,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24135, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (24135, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (24135, 8005,     301185) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24135, 8040, 1531248988, 40, -100, -83.981, -0.914473, 0, 0, 0.404647) /* PCAPRecordedLocation */
+VALUES (24135, 8040, 0x5B45015C, 40, -100, -83.981, -0.914473, 0, 0, 0.404647) /* PCAPRecordedLocation */
 /* @teleloc 0x5B45015C [40.000000 -100.000000 -83.981000] -0.914473 0.000000 0.000000 0.404647 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24135, 8000, 3697569807) /* PCAPRecordedObjectIID */;
+VALUES (24135, 8000, 0xDC64700F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (24135, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24135, 0, 4294967295, 'prewritten', 'Password is cheese', False, '[You cannot understand the writing on this.]
+VALUES (24135, 0, 4294967295, '', 'prewritten', False, '[You cannot understand the writing on this.]
 ');

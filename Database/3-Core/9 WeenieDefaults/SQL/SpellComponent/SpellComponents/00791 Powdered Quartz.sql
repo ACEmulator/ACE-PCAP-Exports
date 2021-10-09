@@ -23,21 +23,21 @@ VALUES (791,   1, 'Powdered Quartz') /* Name */
      , (791,  20, 'Powdered Quartz') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (791,   1,   33555208) /* Setup */
-     , (791,   3,  536870932) /* SoundTable */
-     , (791,   6,   67111919) /* PaletteBase */
-     , (791,   8,  100669705) /* Icon */
-     , (791,  22,  872415275) /* PhysicsEffectTable */
+VALUES (791,   1, 0x02000308) /* Setup */
+     , (791,   3, 0x20000014) /* SoundTable */
+     , (791,   6, 0x04000BEF) /* PaletteBase */
+     , (791,   8, 0x06001909) /* Icon */
+     , (791,  22, 0x3400002B) /* PhysicsEffectTable */
      , (791, 8001,    2109465) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden */
      , (791, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (791, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (791, 8040, 2094137608, 114.594, 22.5613, 164.8, -0.180744, 0, 0, 0.98353) /* PCAPRecordedLocation */
+VALUES (791, 8040, 0x7CD20108, 114.594, 22.5613, 164.8, -0.180744, 0, 0, 0.98353) /* PCAPRecordedLocation */
 /* @teleloc 0x7CD20108 [114.594000 22.561300 164.800000] -0.180744 0.000000 0.000000 0.983530 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (791, 8000, 2780854184) /* PCAPRecordedObjectIID */;
+VALUES (791, 8000, 0xA5C077A8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (791, 67111927, 0, 0);

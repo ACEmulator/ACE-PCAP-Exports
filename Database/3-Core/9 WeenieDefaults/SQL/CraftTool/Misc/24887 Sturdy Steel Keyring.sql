@@ -33,17 +33,17 @@ VALUES (24887,   1, 'Sturdy Steel Keyring') /* Name */
      , (24887,  16, 'A crude keyring roughly carved out of a coral golem heart. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24887,   1,   33554790) /* Setup */
-     , (24887,   3,  536870932) /* SoundTable */
-     , (24887,   8,  100674623) /* Icon */
-     , (24887,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24887,   1, 0x02000166) /* Setup */
+     , (24887,   3, 0x20000014) /* SoundTable */
+     , (24887,   8, 0x06002C3F) /* Icon */
+     , (24887,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24887, 8001,  271072280) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, TargetType, Burden, HookType */
      , (24887, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24887, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24887, 8040, 23855549, 48.85979, -39.24385, 0.03300015, 0.6653424, 0, 0, -0.7465383) /* PCAPRecordedLocation */
+VALUES (24887, 8040, 0x016C01BD, 48.85979, -39.24385, 0.033, 0.665342, 0, 0, -0.746538) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [48.859790 -39.243850 0.033000] 0.665342 0.000000 0.000000 -0.746538 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24887, 8000, 3202088960) /* PCAPRecordedObjectIID */;
+VALUES (24887, 8000, 0xBEDC0000) /* PCAPRecordedObjectIID */;

@@ -32,17 +32,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28614,   1, 'Vestiri Robe with Hood') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28614,   1,   33559315) /* Setup */
-     , (28614,   3,  536870932) /* SoundTable */
-     , (28614,   6,   67108990) /* PaletteBase */
-     , (28614,   8,  100687434) /* Icon */
-     , (28614,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28614,   1, 0x02001313) /* Setup */
+     , (28614,   3, 0x20000014) /* SoundTable */
+     , (28614,   6, 0x0400007E) /* PaletteBase */
+     , (28614,   8, 0x06005E4A) /* Icon */
+     , (28614,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28614, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (28614, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28614, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28614, 8000, 2909297953) /* PCAPRecordedObjectIID */;
+VALUES (28614, 8000, 0xAD685D21) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28614, 67116018, 207, 33)

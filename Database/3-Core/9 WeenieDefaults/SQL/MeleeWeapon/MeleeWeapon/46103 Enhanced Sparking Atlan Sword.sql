@@ -33,6 +33,7 @@ VALUES (46103,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46103,  22, True ) /* Inscribable */
+     , (46103,  23, True ) /* DestroyOnSell */
      , (46103,  69, False) /* IsSellable */
      , (46103,  99, True ) /* Ivoryable */;
 
@@ -51,27 +52,27 @@ VALUES (46103,   1, 'Enhanced Sparking Atlan Sword') /* Name */
      , (46103,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46103,   1,   33556376) /* Setup */
-     , (46103,   3,  536870932) /* SoundTable */
-     , (46103,   6,   67111919) /* PaletteBase */
-     , (46103,   8,  100670571) /* Icon */
-     , (46103,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46103,   1, 0x02000798) /* Setup */
+     , (46103,   3, 0x20000014) /* SoundTable */
+     , (46103,   6, 0x04000BEF) /* PaletteBase */
+     , (46103,   8, 0x06001C6B) /* Icon */
+     , (46103,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46103, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46103, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46103, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46103, 8000, 2168240578) /* PCAPRecordedObjectIID */;
+VALUES (46103, 8000, 0x813CB9C2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46103,  2061,      2)  /* EnduranceSelf7 */
+VALUES (46103,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46103,  2061,      2)  /* EnduranceSelf7 */
+     , (46103,  2586,      2)  /* CANTRIPBLOODTHIRST2 */
+     , (46103,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (46103,  2159,      2)  /* LightningProtectionSelf7 */
      , (46103,  2096,      2)  /* BloodDrinkerSelf7 */
      , (46103,  2101,      2)  /* DefenderSelf7 */
-     , (46103,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46103,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46103,  2159,      2)  /* LightningProtectionSelf7 */
-     , (46103,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */
-     , (46103,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;
+     , (46103,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46103, 67111922, 0, 0);

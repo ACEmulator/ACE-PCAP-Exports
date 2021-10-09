@@ -32,10 +32,10 @@ VALUES (30800,   1, 'Black Glass Array') /* Name */
      , (30800,  15, 'A collection of obsidian spheres magically suspended in the air by some unknown force.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30800,   1,   33559264) /* Setup */
-     , (30800,   3,  536870932) /* SoundTable */
-     , (30800,   8,  100677495) /* Icon */
-     , (30800,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30800,   1, 0x020012E0) /* Setup */
+     , (30800,   3, 0x20000014) /* SoundTable */
+     , (30800,   8, 0x06003777) /* Icon */
+     , (30800,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30800,  28,        157) /* Spell - SummonPortal1 */
      , (30800, 8001,    6844440) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (30800, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -43,4 +43,4 @@ VALUES (30800,   1,   33559264) /* Setup */
      , (30800, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30800, 8000, 2149088796) /* PCAPRecordedObjectIID */;
+VALUES (30800, 8000, 0x80187E1C) /* PCAPRecordedObjectIID */;

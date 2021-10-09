@@ -25,6 +25,9 @@ VALUES (32672,   1,       2048) /* ItemType - Gem */
      , (32672, 151,          2) /* HookType - Wall */
      , (32672, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (32672,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32672,   1, 'Black Page of Salt and Ash') /* Name */
      , (32672,  14, 'Use this page to infuse your wielded weapon with the Invocation of the Black Book, adding a 10% bonus to its Attack modifier.  This spell stacks with other spells and cantrips.') /* Use */
@@ -32,18 +35,18 @@ VALUES (32672,   1, 'Black Page of Salt and Ash') /* Name */
      , (32672,  20, 'Black Pages of Salt and Ash') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32672,   1,   33554809) /* Setup */
-     , (32672,   3,  536870932) /* SoundTable */
-     , (32672,   6,   67111919) /* PaletteBase */
-     , (32672,   8,  100688622) /* Icon */
-     , (32672,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32672,   1, 0x02000179) /* Setup */
+     , (32672,   3, 0x20000014) /* SoundTable */
+     , (32672,   6, 0x04000BEF) /* PaletteBase */
+     , (32672,   8, 0x060062EE) /* Icon */
+     , (32672,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32672,  28,       3869) /* Spell - CantripSaltAshAttackMod */
      , (32672, 8001,  275280017) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (32672, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (32672, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32672, 8000, 2210356965) /* PCAPRecordedObjectIID */;
+VALUES (32672, 8000, 0x83BF5EE5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32672, 67111924, 0, 0);

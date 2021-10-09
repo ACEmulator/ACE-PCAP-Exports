@@ -8,7 +8,6 @@ VALUES (33950,   1,          4) /* ItemType - Clothing */
      , (33950,   4,      98048) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */
      , (33950,   5,        500) /* EncumbranceVal */
      , (33950,   9,      32513) /* ValidLocations - HeadWear, Armor */
-     , (33950,  10,      32513) /* CurrentWieldedLocation - HeadWear, Armor */
      , (33950,  16,          1) /* ItemUseable - No */
      , (33950,  19,       6000) /* Value */
      , (33950,  28,        500) /* ArmorLevel */
@@ -42,22 +41,22 @@ VALUES (33950,   1, 'Enhanced Robe of the Tundra') /* Name */
      , (33950,  16, 'A robe crafted from a mattekar hide.  It has some natural padding in it that makes it stronger and more resistant to damage. This robe has been enhanced by Belinda du Loc.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33950,   1,   33554854) /* Setup */
-     , (33950,   3,  536870932) /* SoundTable */
-     , (33950,   6,   67108990) /* PaletteBase */
-     , (33950,   8,  100674100) /* Icon */
-     , (33950,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33950,   1, 0x020001A6) /* Setup */
+     , (33950,   3, 0x20000014) /* SoundTable */
+     , (33950,   6, 0x0400007E) /* PaletteBase */
+     , (33950,   8, 0x06002A34) /* Icon */
+     , (33950,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33950, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (33950, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33950, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33950, 8000, 2927401344) /* PCAPRecordedObjectIID */;
+VALUES (33950, 8000, 0xAE7C9980) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33950,  2155,      2)  /* ColdProtectionSelf7 */
-     , (33950,  2619,      2)  /* CANTRIPFROSTWARD1 */
-     , (33950,  4018,      2)  /* Permafrost */;
+     , (33950,  4018,      2)  /* Permafrost */
+     , (33950,  2619,      2)  /* CANTRIPFROSTWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33950, 67110019, 96, 12)

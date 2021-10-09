@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3698,   1, 'White Jewel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3698,   1,   33554809) /* Setup */
-     , (3698,   3,  536870932) /* SoundTable */
-     , (3698,   6,   67111919) /* PaletteBase */
-     , (3698,   8,  100670081) /* Icon */
-     , (3698,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3698,   1, 0x02000179) /* Setup */
+     , (3698,   3, 0x20000014) /* SoundTable */
+     , (3698,   6, 0x04000BEF) /* PaletteBase */
+     , (3698,   8, 0x06001A81) /* Icon */
+     , (3698,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3698, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (3698, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3698, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3698, 8000, 3697908295) /* PCAPRecordedObjectIID */;
+VALUES (3698, 8000, 0xDC699A47) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3698, 67111920, 0, 0);

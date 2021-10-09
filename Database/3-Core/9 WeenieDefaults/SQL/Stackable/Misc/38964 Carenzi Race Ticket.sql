@@ -27,13 +27,13 @@ VALUES (38964,   1, 'Carenzi Race Ticket') /* Name */
      , (38964,  16, 'A Casino Ticket used to bet on a single Carenzi Racer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38964,   1,   33554773) /* Setup */
-     , (38964,   3,  536870932) /* SoundTable */
-     , (38964,   8,  100690289) /* Icon */
-     , (38964,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38964,   1, 0x02000155) /* Setup */
+     , (38964,   3, 0x20000014) /* SoundTable */
+     , (38964,   8, 0x06006971) /* Icon */
+     , (38964,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38964, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (38964, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38964, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38964, 8000, 2249707957) /* PCAPRecordedObjectIID */;
+VALUES (38964, 8000, 0x8617D1B5) /* PCAPRecordedObjectIID */;

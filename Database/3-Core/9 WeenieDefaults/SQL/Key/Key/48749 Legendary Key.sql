@@ -17,7 +17,6 @@ VALUES (48749,   1,      16384) /* ItemType - Key */
      , (48749,  98, 1485737586) /* CreationTimestamp */
      , (48749, 114,          0) /* Attuned - Normal */
      , (48749, 267,      86400) /* Lifespan */
-     , (48749, 268,      86400) /* RemainingLifespan */
      , (48749, 369,        150) /* UseRequiresLevel */
      , (48749, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
@@ -32,13 +31,13 @@ VALUES (48749,   1, 'Legendary Key') /* Name */
      , (48749,  16, 'A key only heard about in whispers and myths.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48749,   1,   33554784) /* Setup */
-     , (48749,   3,  536870932) /* SoundTable */
-     , (48749,   8,  100693001) /* Icon */
-     , (48749,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48749,   1, 0x02000160) /* Setup */
+     , (48749,   3, 0x20000014) /* SoundTable */
+     , (48749,   8, 0x06007409) /* Icon */
+     , (48749,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48749, 8001,    2641048) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden */
      , (48749, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48749, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48749, 8000, 2883702982) /* PCAPRecordedObjectIID */;
+VALUES (48749, 8000, 0xABE1D0C6) /* PCAPRecordedObjectIID */;

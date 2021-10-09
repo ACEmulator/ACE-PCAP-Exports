@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44281,   1,          8) /* ItemType - Jewelry */
      , (44281,   5,         60) /* EncumbranceVal */
      , (44281,   9,     196608) /* ValidLocations - WristWear */
-     , (44281,  10,     131072) /* CurrentWieldedLocation - WristWearRight */
      , (44281,  16,          1) /* ItemUseable - No */
      , (44281,  19,         20) /* Value */
      , (44281,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -32,21 +31,21 @@ VALUES (44281,   1, 'Bracelet of Strength') /* Name */
      , (44281,  16, 'This bracelet increases strength.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44281,   1,   33554683) /* Setup */
-     , (44281,   3,  536870932) /* SoundTable */
-     , (44281,   6,   67111919) /* PaletteBase */
-     , (44281,   8,  100668625) /* Icon */
-     , (44281,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44281,   1, 0x020000FB) /* Setup */
+     , (44281,   3, 0x20000014) /* SoundTable */
+     , (44281,   6, 0x04000BEF) /* PaletteBase */
+     , (44281,   8, 0x060014D1) /* Icon */
+     , (44281,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44281, 8001,    2326552) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (44281, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44281, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44281, 8000, 2192210806) /* PCAPRecordedObjectIID */;
+VALUES (44281, 8000, 0x82AA7B76) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44281,  3965,      2)  /* CANTRIPSTRENGTH3 */
-     , (44281,  4324,      2)  /* StrengthOther8 */;
+VALUES (44281,  4324,      2)  /* StrengthOther8 */
+     , (44281,  3965,      2)  /* CANTRIPSTRENGTH3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44281, 67111922, 0, 0);

@@ -22,22 +22,22 @@ VALUES (16914,   1, 'Terebrous Hollow Minion') /* Name */
      , (16914, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16914,   1,   33556792) /* Setup */
-     , (16914,   2,  150995101) /* MotionTable */
-     , (16914,   3,  536871013) /* SoundTable */
-     , (16914,   6,   67112967) /* PaletteBase */
-     , (16914,   8,  100671140) /* Icon */
-     , (16914,  22,  872415367) /* PhysicsEffectTable */
+VALUES (16914,   1, 0x02000938) /* Setup */
+     , (16914,   2, 0x0900009D) /* MotionTable */
+     , (16914,   3, 0x20000065) /* SoundTable */
+     , (16914,   6, 0x04001007) /* PaletteBase */
+     , (16914,   8, 0x06001EA4) /* Icon */
+     , (16914,  22, 0x34000087) /* PhysicsEffectTable */
      , (16914, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (16914, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (16914, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (16914, 8040, 60686594, 18.7716, -19.1058, -77.99751, 0.315322, 0, 0, -0.9489847) /* PCAPRecordedLocation */
+VALUES (16914, 8040, 0x039E0102, 18.7716, -19.1058, -77.99751, 0.315322, 0, 0, -0.948985) /* PCAPRecordedLocation */
 /* @teleloc 0x039E0102 [18.771600 -19.105800 -77.997510] 0.315322 0.000000 0.000000 -0.948985 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (16914, 8000, 3357418678) /* PCAPRecordedObjectIID */;
+VALUES (16914, 8000, 0xC81E24B6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (16914,   1,     0, 0, 0, 300) /* MaxHealth */;

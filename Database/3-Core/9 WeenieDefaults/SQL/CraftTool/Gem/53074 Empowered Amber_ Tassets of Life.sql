@@ -28,17 +28,17 @@ VALUES (53074,   1, 'Empowered Amber: Tassets of Life') /* Name */
      , (53074,  20, 'Empowered Ambers: Tassets of Life') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53074,   1,   33554809) /* Setup */
-     , (53074,   3,  536870932) /* SoundTable */
-     , (53074,   6,   67111919) /* PaletteBase */
-     , (53074,   8,  100693327) /* Icon */
-     , (53074,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53074,   1, 0x02000179) /* Setup */
+     , (53074,   3, 0x20000014) /* SoundTable */
+     , (53074,   6, 0x04000BEF) /* PaletteBase */
+     , (53074,   8, 0x0600754F) /* Icon */
+     , (53074,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53074, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (53074, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (53074, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53074, 8000, 3036567980) /* PCAPRecordedObjectIID */;
+VALUES (53074, 8000, 0xB4FE59AC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53074, 67111921, 0, 0);

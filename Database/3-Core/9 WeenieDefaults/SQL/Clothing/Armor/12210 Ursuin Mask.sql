@@ -33,16 +33,16 @@ VALUES (12210,   1, 'Ursuin Mask') /* Name */
      , (12210,  16, 'A finely stitched and cured Ursuin head, complete with cushions around the neck for active use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12210,   1,   33557365) /* Setup */
-     , (12210,   3,  536870932) /* SoundTable */
-     , (12210,   8,  100672165) /* Icon */
-     , (12210,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12210,   1, 0x02000B75) /* Setup */
+     , (12210,   3, 0x20000014) /* SoundTable */
+     , (12210,   8, 0x060022A5) /* Icon */
+     , (12210,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12210, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (12210, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12210, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12210, 8000, 2982964693) /* PCAPRecordedObjectIID */;
+VALUES (12210, 8000, 0xB1CC6DD5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (12210, 0, 16787384);

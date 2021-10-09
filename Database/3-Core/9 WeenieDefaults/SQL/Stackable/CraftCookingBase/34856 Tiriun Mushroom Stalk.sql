@@ -25,13 +25,13 @@ VALUES (34856,   1, 'Tiriun Mushroom Stalk') /* Name */
      , (34856,  20, 'Tiriun Mushroom Stalks') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34856,   1,   33558400) /* Setup */
-     , (34856,   3,  536870932) /* SoundTable */
-     , (34856,   8,  100689327) /* Icon */
-     , (34856,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34856,   1, 0x02000F80) /* Setup */
+     , (34856,   3, 0x20000014) /* SoundTable */
+     , (34856,   8, 0x060065AF) /* Icon */
+     , (34856,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34856, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (34856, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34856, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34856, 8000, 2343279874) /* PCAPRecordedObjectIID */;
+VALUES (34856, 8000, 0x8BAB9D02) /* PCAPRecordedObjectIID */;

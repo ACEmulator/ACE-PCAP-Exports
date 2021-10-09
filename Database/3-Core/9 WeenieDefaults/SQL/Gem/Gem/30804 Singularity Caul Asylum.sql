@@ -31,20 +31,20 @@ VALUES (30804,   1, 'Singularity Caul Asylum') /* Name */
      , (30804,  14, 'Double click this gem to summon a portal to the Caul Asylum.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30804,   1,   33556769) /* Setup */
-     , (30804,   3,  536870932) /* SoundTable */
-     , (30804,   6,   67111919) /* PaletteBase */
-     , (30804,   8,  100668364) /* Icon */
-     , (30804,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30804,   1, 0x02000921) /* Setup */
+     , (30804,   3, 0x20000014) /* SoundTable */
+     , (30804,   6, 0x04000BEF) /* PaletteBase */
+     , (30804,   8, 0x060013CC) /* Icon */
+     , (30804,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30804,  28,        157) /* Spell - SummonPortal1 */
-     , (30804,  50,  100676404) /* IconOverlay */
+     , (30804,  50, 0x06003334) /* IconOverlay */
      , (30804, 8001, 1349021720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30804, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (30804, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (30804, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30804, 8000, 2153708978) /* PCAPRecordedObjectIID */;
+VALUES (30804, 8000, 0x805EFDB2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30804, 67111924, 0, 0);

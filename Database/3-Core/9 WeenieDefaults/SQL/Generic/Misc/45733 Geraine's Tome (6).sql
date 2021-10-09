@@ -14,20 +14,21 @@ VALUES (45733,   1,        128) /* ItemType - Misc */
      , (45733, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45733,  22, True ) /* Inscribable */;
+VALUES (45733,  22, True ) /* Inscribable */
+     , (45733,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45733,   1, 'Geraine''s Tome (6)') /* Name */
      , (45733,  16, 'A large book who''s contents seem unreadable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45733,   1,   33554769) /* Setup */
-     , (45733,   3,  536870932) /* SoundTable */
-     , (45733,   8,  100692616) /* Icon */
-     , (45733,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45733,   1, 0x02000151) /* Setup */
+     , (45733,   3, 0x20000014) /* SoundTable */
+     , (45733,   8, 0x06007288) /* Icon */
+     , (45733,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45733, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (45733, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45733, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45733, 8000, 2883358090) /* PCAPRecordedObjectIID */;
+VALUES (45733, 8000, 0xABDC8D8A) /* PCAPRecordedObjectIID */;

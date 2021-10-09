@@ -54,18 +54,18 @@ VALUES (3756,   1, 'Flaming Hand Axe') /* Name */
      , (3756,  16, 'Flaming Hand Axe of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3756,   1,   33555714) /* Setup */
-     , (3756,   3,  536870932) /* SoundTable */
-     , (3756,   8,  100670216) /* Icon */
-     , (3756,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3756,   1, 0x02000502) /* Setup */
+     , (3756,   3, 0x20000014) /* SoundTable */
+     , (3756,   8, 0x06001B08) /* Icon */
+     , (3756,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3756,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3756, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3756, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3756, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3756, 8000, 3706739099) /* PCAPRecordedObjectIID */;
+VALUES (3756, 8000, 0xDCF0599B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3756,  1402,      2)  /* QuicknessSelf6 */
-     , (3756,  1616,      2)  /* BloodDrinkerSelf6 */;
+VALUES (3756,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (3756,  1402,      2)  /* QuicknessSelf6 */;

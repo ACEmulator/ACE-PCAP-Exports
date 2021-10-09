@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51511,   1, 'Weeping Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51511,   1,   33558299) /* Setup */
-     , (51511,   3,  536870932) /* SoundTable */
-     , (51511,   8,  100674266) /* Icon */
-     , (51511,  22,  872415275) /* PhysicsEffectTable */
-     , (51511,  50,  100667895) /* IconOverlay */
+VALUES (51511,   1, 0x02000F1B) /* Setup */
+     , (51511,   3, 0x20000014) /* SoundTable */
+     , (51511,   8, 0x06002ADA) /* Icon */
+     , (51511,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51511,  50, 0x060011F7) /* IconOverlay */
      , (51511, 8001, 1344827416) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType, IconOverlay */
      , (51511, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51511, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51511, 8000, 2807507528) /* PCAPRecordedObjectIID */;
+VALUES (51511, 8000, 0xA7572A48) /* PCAPRecordedObjectIID */;

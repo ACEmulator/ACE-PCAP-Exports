@@ -26,22 +26,22 @@ VALUES (11522,   1, 'Hea Shaman') /* Name */
      , (11522, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11522,   1,   33559550) /* Setup */
-     , (11522,   2,  150994954) /* MotionTable */
-     , (11522,   3,  536870931) /* SoundTable */
-     , (11522,   6,   67116625) /* PaletteBase */
-     , (11522,   8,  100667452) /* Icon */
-     , (11522,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11522,   1, 0x020013FE) /* Setup */
+     , (11522,   2, 0x0900000A) /* MotionTable */
+     , (11522,   3, 0x20000013) /* SoundTable */
+     , (11522,   6, 0x04001E51) /* PaletteBase */
+     , (11522,   8, 0x0600103C) /* Icon */
+     , (11522,  22, 0x34000026) /* PhysicsEffectTable */
      , (11522, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (11522, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (11522, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11522, 8040, 398590005, 162.7896, 99.42617, 75.85732, -0.7177199, 0, 0, -0.696332) /* PCAPRecordedLocation */
+VALUES (11522, 8040, 0x17C20035, 162.7896, 99.42617, 75.85732, -0.71772, 0, 0, -0.696332) /* PCAPRecordedLocation */
 /* @teleloc 0x17C20035 [162.789600 99.426170 75.857320] -0.717720 0.000000 0.000000 -0.696332 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11522, 8000, 3706905534) /* PCAPRecordedObjectIID */;
+VALUES (11522, 8000, 0xDCF2E3BE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11522,   1, 240, 0, 0) /* Strength */
@@ -65,6 +65,7 @@ VALUES (11522, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for W
      , (11522, 2, 23696,  1, 0, 0, False) /* Create Spear (23696) for Wield */
      , (11522, 2, 23734,  1, 0, 0, False) /* Create Yumi (23734) for Wield */
      , (11522, 2, 23680,  1, 0, 0, False) /* Create Nekode (23680) for Wield */
+     , (11522, 2, 23718,  1, 0, 0, False) /* Create Fire Yaoji (23718) for Wield */
      , (11522, 9,  3096,  0, 0, 0, False) /* Create Scroll of Mana Depletion Other V (3096) for ContainTreasure */
      , (11522, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
      , (11522, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */

@@ -24,13 +24,13 @@ VALUES (2643,   1, 'Scroll of Clumsiness Other VI') /* Name */
 Decreases the target''s Coordination by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2643,   1,   33554826) /* Setup */
-     , (2643,   8,  100676452) /* Icon */
-     , (2643,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2643,   1, 0x0200018A) /* Setup */
+     , (2643,   8, 0x06003364) /* Icon */
+     , (2643,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2643,  28,       1396) /* Spell - ClumsinessOther6 */
      , (2643, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2643, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2643, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2643, 8000, 3681642585) /* PCAPRecordedObjectIID */;
+VALUES (2643, 8000, 0xDB716859) /* PCAPRecordedObjectIID */;

@@ -51,29 +51,29 @@ VALUES (38482,   1, 'Radiant Blood Gauntlets') /* Name */
      , (38482,  16, 'Radiant Blood Gauntlets of Missile Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38482,   1,   33554648) /* Setup */
-     , (38482,   3,  536870932) /* SoundTable */
-     , (38482,   8,  100688355) /* Icon */
-     , (38482,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38482,   1, 0x020000D8) /* Setup */
+     , (38482,   3, 0x20000014) /* SoundTable */
+     , (38482,   8, 0x060061E3) /* Icon */
+     , (38482,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38482,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (38482, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38482, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38482, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38482, 8040, 23855555, 60.1672, -37.83695, 0, 0.999688, 0, 0, -0.02497864) /* PCAPRecordedLocation */
+VALUES (38482, 8040, 0x016C01C3, 60.1672, -37.83695, 0, 0.999688, 0, 0, -0.024979) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [60.167200 -37.836950 0.000000] 0.999688 0.000000 0.000000 -0.024979 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38482, 8000, 2449261859) /* PCAPRecordedObjectIID */;
+VALUES (38482, 8000, 0x91FCC523) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38482,  2092,      2)  /* AcidBane7 */
+VALUES (38482,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */
+     , (38482,  2207,      2)  /* MissileWeaponsMasterySelf7 */
+     , (38482,  2092,      2)  /* AcidBane7 */
      , (38482,  2098,      2)  /* BludgeonBane7 */
-     , (38482,  2104,      2)  /* FrostBane7 */
-     , (38482,  2207,      2)  /* BowMasterySelf7 */
      , (38482,  4407,      2)  /* Impenetrability8 */
-     , (38482,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */;
+     , (38482,  2104,      2)  /* FrostBane7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38482, 0, 83894333, 83897934);

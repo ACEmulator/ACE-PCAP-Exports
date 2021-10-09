@@ -20,14 +20,14 @@ VALUES (32264,   1, 'Apothecary Zongo''s Stout Brew') /* Name */
      , (32264,  20, 'Apothecary Zongo''s Stout Brews') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32264,   1,   33559154) /* Setup */
-     , (32264,   3,  536870932) /* SoundTable */
-     , (32264,   8,  100686464) /* Icon */
-     , (32264,  22,  872415275) /* PhysicsEffectTable */
-     , (32264,  50,  100687554) /* IconOverlay */
+VALUES (32264,   1, 0x02001272) /* Setup */
+     , (32264,   3, 0x20000014) /* SoundTable */
+     , (32264,   8, 0x06005A80) /* Icon */
+     , (32264,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32264,  50, 0x06005EC2) /* IconOverlay */
      , (32264, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (32264, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (32264, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32264, 8000, 3695153612) /* PCAPRecordedObjectIID */;
+VALUES (32264, 8000, 0xDC3F91CC) /* PCAPRecordedObjectIID */;

@@ -14,7 +14,8 @@ VALUES (41254,   1,       2048) /* ItemType - Gem */
      , (41254, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41254,  22, True ) /* Inscribable */;
+VALUES (41254,  22, True ) /* Inscribable */
+     , (41254,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41254,  39,     0.4) /* DefaultScale */;
@@ -25,18 +26,18 @@ VALUES (41254,   1, 'Explorer''s Backpack Token') /* Name */
      , (41254,  16, 'Give this Token to Sean the Speedy, in Holtburg, in order to receive an Explorer''s Backpack.  The Explorer''s Backpack is an Attuned, unique 30-slot Backpack.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41254,   1,   33554769) /* Setup */
-     , (41254,   3,  536870932) /* SoundTable */
-     , (41254,   6,   67111919) /* PaletteBase */
-     , (41254,   8,  100670388) /* Icon */
-     , (41254,  22,  872415275) /* PhysicsEffectTable */
-     , (41254,  50,  100690552) /* IconOverlay */
+VALUES (41254,   1, 0x02000151) /* Setup */
+     , (41254,   3, 0x20000014) /* SoundTable */
+     , (41254,   6, 0x04000BEF) /* PaletteBase */
+     , (41254,   8, 0x06001BB4) /* Icon */
+     , (41254,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41254,  50, 0x06006A78) /* IconOverlay */
      , (41254, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (41254, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41254, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41254, 8000, 2448730968) /* PCAPRecordedObjectIID */;
+VALUES (41254, 8000, 0x91F4AB58) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41254, 67111927, 0, 0);

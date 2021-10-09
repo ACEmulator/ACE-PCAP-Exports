@@ -22,13 +22,13 @@ VALUES (38743,   1, 'Benevolent Quill of Nullification') /* Name */
      , (38743,  20, 'Benevolent Quills of Nullification') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38743,   1,   33559616) /* Setup */
-     , (38743,   8,  100690198) /* Icon */
-     , (38743,  52,  100689404) /* IconUnderlay */
+VALUES (38743,   1, 0x02001440) /* Setup */
+     , (38743,   8, 0x06006916) /* Icon */
+     , (38743,  52, 0x060065FC) /* IconUnderlay */
      , (38743, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (38743, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (38743, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (38743, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38743, 8000, 2163370498) /* PCAPRecordedObjectIID */;
+VALUES (38743, 8000, 0x80F26A02) /* PCAPRecordedObjectIID */;

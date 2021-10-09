@@ -24,13 +24,13 @@ VALUES (23108,   1, 'Twisted Dark Key') /* Name */
      , (23108,  15, 'This key appears to have been a light marble once, but the years have dulled the color to a deep grey. With some clever locksmithing, and perhaps an intricate carving tool, you may be able to clean it up.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23108,   1,   33554784) /* Setup */
-     , (23108,   3,  536870932) /* SoundTable */
-     , (23108,   8,  100673961) /* Icon */
-     , (23108,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23108,   1, 0x02000160) /* Setup */
+     , (23108,   3, 0x20000014) /* SoundTable */
+     , (23108,   8, 0x060029A9) /* Icon */
+     , (23108,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23108, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (23108, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23108, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23108, 8000, 3697916233) /* PCAPRecordedObjectIID */;
+VALUES (23108, 8000, 0xDC69B949) /* PCAPRecordedObjectIID */;

@@ -23,22 +23,22 @@ VALUES (44100,   1, 'Mu-miyah Soldier') /* Name */
      , (44100, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44100,   1,   33554433) /* Setup */
-     , (44100,   2,  150994981) /* MotionTable */
-     , (44100,   3,  536870942) /* SoundTable */
-     , (44100,   6,   67108990) /* PaletteBase */
-     , (44100,   8,  100669122) /* Icon */
-     , (44100,  22,  872415272) /* PhysicsEffectTable */
+VALUES (44100,   1, 0x02000001) /* Setup */
+     , (44100,   2, 0x09000025) /* MotionTable */
+     , (44100,   3, 0x2000001E) /* SoundTable */
+     , (44100,   6, 0x0400007E) /* PaletteBase */
+     , (44100,   8, 0x060016C2) /* Icon */
+     , (44100,  22, 0x34000028) /* PhysicsEffectTable */
      , (44100, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44100, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44100, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44100, 8040, 1465254418, 95.8636, -29.8233, 18.006, 0.09352906, 0, 0, 0.9956166) /* PCAPRecordedLocation */
+VALUES (44100, 8040, 0x57560212, 95.8636, -29.8233, 18.006, 0.093529, 0, 0, 0.995617) /* PCAPRecordedLocation */
 /* @teleloc 0x57560212 [95.863600 -29.823300 18.006000] 0.093529 0.000000 0.000000 0.995617 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44100, 8000, 3632512269) /* PCAPRecordedObjectIID */;
+VALUES (44100, 8000, 0xD883BD0D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44100, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */

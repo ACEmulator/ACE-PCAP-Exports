@@ -19,11 +19,11 @@ VALUES (44781,   1, 'Phyntos Wasp') /* Name */
      , (44781,  16, 'Phyntos Wasps may be brightly colored and beautiful to look at, but they are also a dire pestilence. These flying insects are huge, with wingspans of three to four feet, and are unafraid to attack vastly superior foes with their cruel stingers. They come in different colors, each of which can use a different magical attack and is found in a different environment, from deserts to forests to swamps. Their buzzing can be heard from a great distance. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44781,   1,   33561381) /* Setup */
-     , (44781,   8,  100668115) /* Icon */
+VALUES (44781,   1, 0x02001B25) /* Setup */
+     , (44781,   8, 0x060012D3) /* Icon */
      , (44781, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44781, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44781, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44781, 8000, 2461685436) /* PCAPRecordedObjectIID */;
+VALUES (44781, 8000, 0x92BA56BC) /* PCAPRecordedObjectIID */;

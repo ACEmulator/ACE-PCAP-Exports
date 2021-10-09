@@ -36,27 +36,27 @@ VALUES (22722,   1, 'Blacksmith') /* Name */
      , (22722, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22722,   1,   33554433) /* Setup */
-     , (22722,   2,  150994945) /* MotionTable */
-     , (22722,   3,  536870913) /* SoundTable */
-     , (22722,   6,   67108990) /* PaletteBase */
-     , (22722,   8,  100667446) /* Icon */
-     , (22722,   9,   83890446) /* EyesTexture */
-     , (22722,  10,   83890529) /* NoseTexture */
-     , (22722,  11,   83890665) /* MouthTexture */
-     , (22722,  15,   67117028) /* HairPalette */
-     , (22722,  16,   67110063) /* EyesPalette */
-     , (22722,  17,   67110047) /* SkinPalette */
+VALUES (22722,   1, 0x02000001) /* Setup */
+     , (22722,   2, 0x09000001) /* MotionTable */
+     , (22722,   3, 0x20000001) /* SoundTable */
+     , (22722,   6, 0x0400007E) /* PaletteBase */
+     , (22722,   8, 0x06001036) /* Icon */
+     , (22722,   9, 0x0500110E) /* EyesTexture */
+     , (22722,  10, 0x05001161) /* NoseTexture */
+     , (22722,  11, 0x050011E9) /* MouthTexture */
+     , (22722,  15, 0x04001FE4) /* HairPalette */
+     , (22722,  16, 0x040004AF) /* EyesPalette */
+     , (22722,  17, 0x0400049F) /* SkinPalette */
      , (22722, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (22722, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (22722, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22722, 8040, 4135715089, 139.946, 80.1047, 63.605, -0.9321772, 0, 0, -0.3620022) /* PCAPRecordedLocation */
+VALUES (22722, 8040, 0xF6820111, 139.946, 80.1047, 63.605, -0.932177, 0, 0, -0.362002) /* PCAPRecordedLocation */
 /* @teleloc 0xF6820111 [139.946000 80.104700 63.605000] -0.932177 0.000000 0.000000 -0.362002 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22722, 8000, 2137530374) /* PCAPRecordedObjectIID */;
+VALUES (22722, 8000, 0x7F682006) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22722,   1,  80, 0, 0) /* Strength */
@@ -107,16 +107,7 @@ VALUES (22722, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for S
      , (22722, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (22722, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (22722, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (22722, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (22722, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
-     , (22722, 4,  3645, -1, 0, 0, False) /* Create Tibri's Fire Spear (3645) for Shop */
-     , (22722, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (22722, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (22722, 4, 25646, -1, 0, 0, False) /* Create Long Leather Gauntlets (25646) for Shop */
-     , (22722, 4, 31868, -1, 0, 0, False) /* Create Signet Crown (31868) for Shop */
-     , (22722, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
-     , (22722, 4, 21152, -1, 0, 0, False) /* Create Covenant Breastplate (21152) for Shop */
-     , (22722, 4, 25648, -1, 0, 0, False) /* Create Leather Pauldrons (25648) for Shop */;
+     , (22722, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22722, 67110047, 0, 24)

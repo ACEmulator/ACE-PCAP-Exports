@@ -41,26 +41,26 @@ VALUES (9038,   1, 'Exarch Plate Leggings') /* Name */
      , (9038,  25, 'Faceman') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9038,   1,   33554856) /* Setup */
-     , (9038,   3,  536870932) /* SoundTable */
-     , (9038,   6,   67108990) /* PaletteBase */
-     , (9038,   8,  100671354) /* Icon */
-     , (9038,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9038,   1, 0x020001A8) /* Setup */
+     , (9038,   3, 0x20000014) /* SoundTable */
+     , (9038,   6, 0x0400007E) /* PaletteBase */
+     , (9038,   8, 0x06001F7A) /* Icon */
+     , (9038,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9038,  41,         34) /* ItemSpecializedOnly - WarMagic */
      , (9038, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
      , (9038, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9038, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9038, 8040, 3583574079, 180.1965, 147.7788, 373.9975, 0.9980109, 0, 0, -0.06304196) /* PCAPRecordedLocation */
+VALUES (9038, 8040, 0xD599003F, 180.1965, 147.7788, 373.9975, 0.998011, 0, 0, -0.063042) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [180.196500 147.778800 373.997500] 0.998011 0.000000 0.000000 -0.063042 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9038, 8000, 3605406606) /* PCAPRecordedObjectIID */;
+VALUES (9038, 8000, 0xD6E6238E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9038,   992,      2)  /* SprintOther5 */
-     , (9038,  1337,      2)  /* StrengthOther6 */
+VALUES (9038,  2378,      2)  /* BeastMurmur */
+     , (9038,   992,      2)  /* SprintOther5 */
      , (9038,  2349,      2)  /* HieroWard */
      , (9038,  2350,      2)  /* DecayDurance */
      , (9038,  2351,      2)  /* ConsumptionDurance */
@@ -69,7 +69,7 @@ VALUES (9038,   992,      2)  /* SprintOther5 */
      , (9038,  2354,      2)  /* PiercingDuranceLess */
      , (9038,  2355,      2)  /* SlashingDuranceLess */
      , (9038,  2356,      2)  /* BludgeoningDuranceLess */
-     , (9038,  2378,      2)  /* BeastMurmur */;
+     , (9038,  1337,      2)  /* StrengthOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9038, 67113132, 136, 16)

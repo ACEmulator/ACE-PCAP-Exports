@@ -28,21 +28,21 @@ VALUES (44805,   1, 'Void Lord') /* Name */
      , (44805, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44805,   1,   33559537) /* Setup */
-     , (44805,   2,  150994945) /* MotionTable */
-     , (44805,   3,  536870913) /* SoundTable */
-     , (44805,   8,  100670398) /* Icon */
-     , (44805,  22,  872415331) /* PhysicsEffectTable */
+VALUES (44805,   1, 0x020013F1) /* Setup */
+     , (44805,   2, 0x09000001) /* MotionTable */
+     , (44805,   3, 0x20000001) /* SoundTable */
+     , (44805,   8, 0x06001BBE) /* Icon */
+     , (44805,  22, 0x34000063) /* PhysicsEffectTable */
      , (44805, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44805, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44805, 8005,     366787) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44805, 8040, 4133158974, 186.3538, 129.2362, 32.44409, 0.9810681, 0, 0, -0.193663) /* PCAPRecordedLocation */
+VALUES (44805, 8040, 0xF65B003E, 186.3538, 129.2362, 32.44409, 0.981068, 0, 0, -0.193663) /* PCAPRecordedLocation */
 /* @teleloc 0xF65B003E [186.353800 129.236200 32.444090] 0.981068 0.000000 0.000000 -0.193663 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44805, 8000, 3685988788) /* PCAPRecordedObjectIID */;
+VALUES (44805, 8000, 0xDBB3B9B4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44805,   1, 240, 0, 0) /* Strength */
@@ -75,4 +75,5 @@ VALUES (44805, 2, 48501,  1, 0, 0, False) /* Create Flaming Katar (48501) for Wi
      , (44805, 2, 48266,  1, 0, 0, False) /* Create Arrow (48266) for Wield */
      , (44805, 2, 48285,  1, 0, 0, False) /* Create Arrow (48285) for Wield */
      , (44805, 2, 48304,  1, 0, 0, False) /* Create Arrow (48304) for Wield */
-     , (44805, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+     , (44805, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (44805, 2, 47312,  1, 0, 0, False) /* Create Frost Board with Nail (47312) for Wield */;

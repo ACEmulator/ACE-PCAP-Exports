@@ -24,15 +24,15 @@ VALUES (4113,   1, 'Warning Sign') /* Name */
      , (4113,  16, 'Adventurers take heed: Many rats infest this dungeon. Attacking low is the only way to defend against these vermin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4113,   1,   33555088) /* Setup */
-     , (4113,   8,  100668115) /* Icon */
+VALUES (4113,   1, 0x02000290) /* Setup */
+     , (4113,   8, 0x060012D3) /* Icon */
      , (4113, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (4113, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4113, 8005,     163845) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4113, 8040, 2830172166, 4.566, 137.361, 57.021, -0.402044, 0, 0, -0.91562) /* PCAPRecordedLocation */
+VALUES (4113, 8040, 0xA8B10006, 4.566, 137.361, 57.021, -0.402044, 0, 0, -0.91562) /* PCAPRecordedLocation */
 /* @teleloc 0xA8B10006 [4.566000 137.361000 57.021000] -0.402044 0.000000 0.000000 -0.915620 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4113, 8000, 2055933953) /* PCAPRecordedObjectIID */;
+VALUES (4113, 8000, 0x7A8B1001) /* PCAPRecordedObjectIID */;

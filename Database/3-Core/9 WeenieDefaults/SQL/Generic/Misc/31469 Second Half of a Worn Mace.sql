@@ -19,13 +19,13 @@ VALUES (31469,   1, 'Second Half of a Worn Mace') /* Name */
      , (31469,  16, 'Half of a worn old mace. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31469,   1,   33554817) /* Setup */
-     , (31469,   3,  536870932) /* SoundTable */
-     , (31469,   8,  100687866) /* Icon */
-     , (31469,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31469,   1, 0x02000181) /* Setup */
+     , (31469,   3, 0x20000014) /* SoundTable */
+     , (31469,   8, 0x06005FFA) /* Icon */
+     , (31469,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31469, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (31469, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31469, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31469, 8000, 3629194457) /* PCAPRecordedObjectIID */;
+VALUES (31469, 8000, 0xD8511CD9) /* PCAPRecordedObjectIID */;

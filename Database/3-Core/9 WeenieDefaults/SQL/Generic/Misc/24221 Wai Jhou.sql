@@ -19,15 +19,15 @@ VALUES (24221,   1, 'Wai Jhou') /* Name */
      , (24221,  16, 'Welcome to the swamp town of Wai Jhou. A restful place of enlightenment.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24221,   1,   33558340) /* Setup */
-     , (24221,   8,  100674307) /* Icon */
+VALUES (24221,   1, 0x02000F44) /* Setup */
+     , (24221,   8, 0x06002B03) /* Icon */
      , (24221, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (24221, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24221, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24221, 8040, 1060175896, 67.2259, 182.241, 1.18675, 0.178722, 0, 0, -0.9839) /* PCAPRecordedLocation */
+VALUES (24221, 8040, 0x3F310018, 67.2259, 182.241, 1.18675, 0.178722, 0, 0, -0.9839) /* PCAPRecordedLocation */
 /* @teleloc 0x3F310018 [67.225900 182.241000 1.186750] 0.178722 0.000000 0.000000 -0.983900 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24221, 8000, 1945309202) /* PCAPRecordedObjectIID */;
+VALUES (24221, 8000, 0x73F31012) /* PCAPRecordedObjectIID */;

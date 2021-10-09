@@ -23,17 +23,17 @@ VALUES (11626,   1, 'Quiddity Ingot') /* Name */
      , (11626,  16, 'An ingot of some strange metal.  It looks as if it would be used to forge a weapon of some kind.  As you gaze at it, you feel a compulsion to go to the Virindi Crafters in the north...(32.0N, 43.2W)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11626,   1,   33555677) /* Setup */
-     , (11626,   3,  536870932) /* SoundTable */
-     , (11626,   6,   67111919) /* PaletteBase */
-     , (11626,   8,  100671703) /* Icon */
-     , (11626,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11626,   1, 0x020004DD) /* Setup */
+     , (11626,   3, 0x20000014) /* SoundTable */
+     , (11626,   6, 0x04000BEF) /* PaletteBase */
+     , (11626,   8, 0x060020D7) /* Icon */
+     , (11626,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11626, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (11626, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11626, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11626, 8000, 2982968685) /* PCAPRecordedObjectIID */;
+VALUES (11626, 8000, 0xB1CC7D6D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11626, 67111919, 0, 0);

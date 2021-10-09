@@ -23,16 +23,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14527,   1, 'Jewel of Acid and Lightning') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14527,   1,   33556407) /* Setup */
-     , (14527,   3,  536870932) /* SoundTable */
-     , (14527,   8,  100672516) /* Icon */
-     , (14527,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14527,   1, 0x020007B7) /* Setup */
+     , (14527,   3, 0x20000014) /* SoundTable */
+     , (14527,   8, 0x06002404) /* Icon */
+     , (14527,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14527, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (14527, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14527, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14527, 8000, 3693859681) /* PCAPRecordedObjectIID */;
+VALUES (14527, 8000, 0xDC2BD361) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (14527, 0, 83889688, 83890391);

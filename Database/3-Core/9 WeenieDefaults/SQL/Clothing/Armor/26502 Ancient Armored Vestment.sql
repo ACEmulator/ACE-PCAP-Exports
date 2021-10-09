@@ -40,21 +40,21 @@ VALUES (26502,   1, 'Ancient Armored Vestment') /* Name */
      , (26502,  15, 'This armored vestment appears to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26502,   1,   33554642) /* Setup */
-     , (26502,   3,  536870932) /* SoundTable */
-     , (26502,   6,   67108990) /* PaletteBase */
-     , (26502,   8,  100675771) /* Icon */
-     , (26502,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26502,   1, 0x020000D2) /* Setup */
+     , (26502,   3, 0x20000014) /* SoundTable */
+     , (26502,   6, 0x0400007E) /* PaletteBase */
+     , (26502,   8, 0x060030BB) /* Icon */
+     , (26502,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26502, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (26502, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26502, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26502, 8000, 2157269218) /* PCAPRecordedObjectIID */;
+VALUES (26502, 8000, 0x809550E2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26502,  3050,      2)  /* MinorMistsBur */
-     , (26502,  3093,      2)  /* MinorSkinFiazhat */;
+VALUES (26502,  3093,      2)  /* MinorSkinFiazhat */
+     , (26502,  3050,      2)  /* MinorMistsBur */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26502, 67114949, 116, 20)

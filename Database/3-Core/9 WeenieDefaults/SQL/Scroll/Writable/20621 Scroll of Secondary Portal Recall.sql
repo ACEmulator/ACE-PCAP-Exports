@@ -24,13 +24,13 @@ VALUES (20621,   1, 'Scroll of Secondary Portal Recall') /* Name */
 Transports the caster to the destination of the portal last successfully linked to with Secondary Portal Tie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20621,   1,   33554826) /* Setup */
-     , (20621,   8,  100676673) /* Icon */
-     , (20621,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20621,   1, 0x0200018A) /* Setup */
+     , (20621,   8, 0x06003441) /* Icon */
+     , (20621,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20621,  28,       2647) /* Spell - PortalTieRecall2 */
      , (20621, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20621, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20621, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20621, 8000, 2615222606) /* PCAPRecordedObjectIID */;
+VALUES (20621, 8000, 0x9BE1214E) /* PCAPRecordedObjectIID */;

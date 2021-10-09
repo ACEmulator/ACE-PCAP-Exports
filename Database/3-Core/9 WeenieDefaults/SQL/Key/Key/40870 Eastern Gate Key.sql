@@ -24,17 +24,17 @@ VALUES (40870,   1, 'Eastern Gate Key') /* Name */
      , (40870,  16, 'A key marked for use with the eastern gate.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40870,   1,   33554784) /* Setup */
-     , (40870,   3,  536870932) /* SoundTable */
-     , (40870,   8,  100667485) /* Icon */
-     , (40870,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40870,   1, 0x02000160) /* Setup */
+     , (40870,   3, 0x20000014) /* SoundTable */
+     , (40870,   8, 0x0600105D) /* Icon */
+     , (40870,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40870, 8001,    2624528) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, TargetType, Burden */
      , (40870, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40870, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40870, 8040, 761987816, 164.312, 167.895, 38.424, -0.6293809, 0, 0, -0.7770969) /* PCAPRecordedLocation */
+VALUES (40870, 8040, 0x2D6B02E8, 164.312, 167.895, 38.424, -0.629381, 0, 0, -0.777097) /* PCAPRecordedLocation */
 /* @teleloc 0x2D6B02E8 [164.312000 167.895000 38.424000] -0.629381 0.000000 0.000000 -0.777097 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40870, 8000, 3711268032) /* PCAPRecordedObjectIID */;
+VALUES (40870, 8000, 0xDD3574C0) /* PCAPRecordedObjectIID */;

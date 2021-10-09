@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35377,   1,          1) /* ItemType - MeleeWeapon */
      , (35377,   5,        550) /* EncumbranceVal */
      , (35377,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (35377,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (35377,  16,          1) /* ItemUseable - No */
      , (35377,  18,         32) /* UiEffects - Fire */
      , (35377,  19,         25) /* Value */
@@ -34,6 +33,7 @@ VALUES (35377,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35377,  22, True ) /* Inscribable */
+     , (35377,  23, True ) /* DestroyOnSell */
      , (35377,  69, False) /* IsSellable */
      , (35377,  99, True ) /* Ivoryable */;
 
@@ -53,10 +53,10 @@ VALUES (35377,   1, 'Replica BloodScorch') /* Name */
      , (35377,  16, 'A replica of the sword, BloodScorch, carried by Lord Cynreft Mhoire, the Cursed Lord of House Mhoire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35377,   1,   33560294) /* Setup */
-     , (35377,   3,  536870932) /* SoundTable */
-     , (35377,   8,  100689476) /* Icon */
-     , (35377,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35377,   1, 0x020016E6) /* Setup */
+     , (35377,   3, 0x20000014) /* SoundTable */
+     , (35377,   8, 0x06006644) /* Icon */
+     , (35377,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35377,  55,       1785) /* ProcSpell - FlameRing */
      , (35377, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (35377, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -64,15 +64,15 @@ VALUES (35377,   1,   33560294) /* Setup */
      , (35377, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35377, 8040, 3010396203, 123.0093, 64.41331, 19.929, 0.627149, 0.627149, -0.3266253, -0.3266253) /* PCAPRecordedLocation */
+VALUES (35377, 8040, 0xB36F002B, 123.0093, 64.41331, 19.929, 0.627149, 0.627149, -0.326625, -0.326625) /* PCAPRecordedLocation */
 /* @teleloc 0xB36F002B [123.009300 64.413310 19.929000] 0.627149 0.627149 -0.326625 -0.326625 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35377, 8000, 3685097976) /* PCAPRecordedObjectIID */
-     , (35377, 8008, 3685096083) /* PCAPRecordedParentIID */;
+VALUES (35377, 8000, 0xDBA621F8) /* PCAPRecordedObjectIID */
+     , (35377, 8008, 0xDBA61A93) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35377,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (35377,  2116,      2)  /* SwiftKillerSelf7 */
+     , (35377,  2096,      2)  /* BloodDrinkerSelf7 */
      , (35377,  2101,      2)  /* DefenderSelf7 */
-     , (35377,  2106,      2)  /* HeartSeekerSelf7 */
-     , (35377,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (35377,  2106,      2)  /* HeartSeekerSelf7 */;

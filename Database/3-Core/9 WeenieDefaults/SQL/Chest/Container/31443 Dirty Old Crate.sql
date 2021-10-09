@@ -27,21 +27,21 @@ VALUES (31443,   1, 'Dirty Old Crate') /* Name */
      , (31443, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31443,   1,   33558433) /* Setup */
-     , (31443,   2,  150995247) /* MotionTable */
-     , (31443,   3,  536870945) /* SoundTable */
-     , (31443,   8,  100674799) /* Icon */
-     , (31443,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31443,   1, 0x02000FA1) /* Setup */
+     , (31443,   2, 0x0900012F) /* MotionTable */
+     , (31443,   3, 0x20000021) /* SoundTable */
+     , (31443,   8, 0x06002CEF) /* Icon */
+     , (31443,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31443, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (31443, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (31443, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31443, 8040, 2442133546, 130.8113, 35.8281, 42.35553, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (31443, 8040, 0x9190002A, 130.8113, 35.8281, 42.35553, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x9190002A [130.811300 35.828100 42.355530] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31443, 8000, 3685914917) /* PCAPRecordedObjectIID */;
+VALUES (31443, 8000, 0xDBB29925) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31443, -1, 31447, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Second Half of a Battered Sword (31447) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

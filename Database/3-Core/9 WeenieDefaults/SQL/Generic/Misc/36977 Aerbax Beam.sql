@@ -16,16 +16,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36977,   1, 'Aerbax Beam') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36977,   1,   33559314) /* Setup */
-     , (36977,   3,  536871020) /* SoundTable */
-     , (36977,   8,  100675872) /* Icon */
+VALUES (36977,   1, 0x02001312) /* Setup */
+     , (36977,   3, 0x2000006C) /* SoundTable */
+     , (36977,   8, 0x06003120) /* Icon */
      , (36977, 8001,         16) /* PCAPRecordedWeenieHeader - Usable */
      , (36977, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (36977, 8005,      34817) /* PCAPRecordedPhysicsDesc - CSetup, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36977, 8040, 791543850, 132, 36, 16.7, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (36977, 8040, 0x2F2E002A, 132, 36, 16.7, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2F2E002A [132.000000 36.000000 16.700000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36977, 8000, 3629168308) /* PCAPRecordedObjectIID */;
+VALUES (36977, 8000, 0xD850B6B4) /* PCAPRecordedObjectIID */;

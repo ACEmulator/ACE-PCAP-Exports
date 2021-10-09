@@ -22,22 +22,22 @@ VALUES (943,   1, 'Mite Scion') /* Name */
      , (943, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (943,   1,   33558656) /* Setup */
-     , (943,   2,  150994955) /* MotionTable */
-     , (943,   3,  536870923) /* SoundTable */
-     , (943,   6,   67115137) /* PaletteBase */
-     , (943,   8,  100667448) /* Icon */
-     , (943,  22,  872415263) /* PhysicsEffectTable */
+VALUES (943,   1, 0x02001080) /* Setup */
+     , (943,   2, 0x0900000B) /* MotionTable */
+     , (943,   3, 0x2000000B) /* SoundTable */
+     , (943,   6, 0x04001881) /* PaletteBase */
+     , (943,   8, 0x06001038) /* Icon */
+     , (943,  22, 0x3400001F) /* PhysicsEffectTable */
      , (943, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (943, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (943, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (943, 8040, 3333292288, 35.48897, 182.1503, 150.805, 0.972966, 0, 0, 0.230948) /* PCAPRecordedLocation */
+VALUES (943, 8040, 0xC6AE0100, 35.48897, 182.1503, 150.805, 0.972966, 0, 0, 0.230948) /* PCAPRecordedLocation */
 /* @teleloc 0xC6AE0100 [35.488970 182.150300 150.805000] 0.972966 0.000000 0.000000 0.230948 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (943, 8000, 3701527815) /* PCAPRecordedObjectIID */;
+VALUES (943, 8000, 0xDCA0D507) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (943,   1,  20, 0, 0) /* Strength */
@@ -51,6 +51,9 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (943,   1,     5, 0, 0, 25) /* MaxHealth */
      , (943,   3,   100, 0, 0, 140) /* MaxStamina */
      , (943,   5,     0, 0, 0, 20) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (943, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (943, 67115125, 0, 0);

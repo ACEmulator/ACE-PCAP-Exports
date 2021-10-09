@@ -7,10 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27316,   1,      32768) /* ItemType - Caster */
      , (27316,   5,         60) /* EncumbranceVal */
      , (27316,   9,   16777216) /* ValidLocations - Held */
-     , (27316,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (27316,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (27316,  18,          1) /* UiEffects - Magical */
      , (27316,  19,       5000) /* Value */
+     , (27316,  46,        512) /* DefaultCombatStyle - Magic */
      , (27316,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (27316,  94,         16) /* TargetType - Creature */
      , (27316, 106,        300) /* ItemSpellcraft */
@@ -40,23 +40,23 @@ VALUES (27316,   1, 'Staff of the Painbringer') /* Name */
      , (27316,  16, 'The head of the Painbringer is mounted atop this large, magical battle staff.  The craftsmanship is superb -- one would hardly guess that it was made by a tailor!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27316,   1,   33558674) /* Setup */
-     , (27316,   3,  536870932) /* SoundTable */
-     , (27316,   6,   67113007) /* PaletteBase */
-     , (27316,   8,  100676391) /* Icon */
-     , (27316,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27316,   1, 0x02001092) /* Setup */
+     , (27316,   3, 0x20000014) /* SoundTable */
+     , (27316,   6, 0x0400102F) /* PaletteBase */
+     , (27316,   8, 0x06003327) /* Icon */
+     , (27316,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27316, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (27316, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27316, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (27316, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27316, 8040, 3465871405, 141.6535, 106.9101, 19.929, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (27316, 8040, 0xCE95002D, 141.6535, 106.9101, 19.929, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [141.653500 106.910100 19.929000] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27316, 8000, 2149502200) /* PCAPRecordedObjectIID */
-     , (27316, 8008, 1343105422) /* PCAPRecordedParentIID */;
+VALUES (27316, 8000, 0x801ECCF8) /* PCAPRecordedObjectIID */
+     , (27316, 8008, 0x500E298E) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27316,  2052,      2)  /* ArmorOther7 */;

@@ -21,23 +21,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45442,   1, 'Moriharu''s Kitchen Knife') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45442,   1,   33559381) /* Setup */
-     , (45442,   3,  536870932) /* SoundTable */
-     , (45442,   6,   67111919) /* PaletteBase */
-     , (45442,   8,  100686745) /* Icon */
-     , (45442,  22,  872415275) /* PhysicsEffectTable */
-     , (45442,  52,  100686604) /* IconUnderlay */
+VALUES (45442,   1, 0x02001355) /* Setup */
+     , (45442,   3, 0x20000014) /* SoundTable */
+     , (45442,   6, 0x04000BEF) /* PaletteBase */
+     , (45442,   8, 0x06005B99) /* Icon */
+     , (45442,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45442,  52, 0x06005B0C) /* IconUnderlay */
      , (45442, 8001,  270598680) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, ValidLocations, Burden, HookType */
      , (45442, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45442, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45442, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45442, 8040, 23855555, 55.88632, -39.65112, 0.067, -0.9992594, 0, 0, 0.03848067) /* PCAPRecordedLocation */
+VALUES (45442, 8040, 0x016C01C3, 55.88632, -39.65112, 0.067, -0.999259, 0, 0, 0.038481) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [55.886320 -39.651120 0.067000] -0.999259 0.000000 0.000000 0.038481 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45442, 8000, 2804496576) /* PCAPRecordedObjectIID */;
+VALUES (45442, 8000, 0xA72938C0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45442, 67111920, 0, 0);

@@ -37,27 +37,27 @@ VALUES (2293,   1, 'Tong La-chin the Weaponsmith') /* Name */
      , (2293, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2293,   1,   33554510) /* Setup */
-     , (2293,   2,  150994945) /* MotionTable */
-     , (2293,   3,  536870914) /* SoundTable */
-     , (2293,   6,   67108990) /* PaletteBase */
-     , (2293,   8,  100667446) /* Icon */
-     , (2293,   9,   83890277) /* EyesTexture */
-     , (2293,  10,   83890300) /* NoseTexture */
-     , (2293,  11,   83890342) /* MouthTexture */
-     , (2293,  15,   67116992) /* HairPalette */
-     , (2293,  16,   67110063) /* EyesPalette */
-     , (2293,  17,   67110055) /* SkinPalette */
+VALUES (2293,   1, 0x0200004E) /* Setup */
+     , (2293,   2, 0x09000001) /* MotionTable */
+     , (2293,   3, 0x20000002) /* SoundTable */
+     , (2293,   6, 0x0400007E) /* PaletteBase */
+     , (2293,   8, 0x06001036) /* Icon */
+     , (2293,   9, 0x05001065) /* EyesTexture */
+     , (2293,  10, 0x0500107C) /* NoseTexture */
+     , (2293,  11, 0x050010A6) /* MouthTexture */
+     , (2293,  15, 0x04001FC0) /* HairPalette */
+     , (2293,  16, 0x040004AF) /* EyesPalette */
+     , (2293,  17, 0x040004A7) /* SkinPalette */
      , (2293, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2293, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2293, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2293, 8040, 3378184483, 104.968, 67.4172, 12.005, -0.9962036, 0, 0, -0.08705422) /* PCAPRecordedLocation */
+VALUES (2293, 8040, 0xC95B0123, 104.968, 67.4172, 12.005, -0.996204, 0, 0, -0.087054) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B0123 [104.968000 67.417200 12.005000] -0.996204 0.000000 0.000000 -0.087054 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2293, 8000, 2090184733) /* PCAPRecordedObjectIID */;
+VALUES (2293, 8000, 0x7C95B01D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2293,   1, 130, 0, 0) /* Strength */

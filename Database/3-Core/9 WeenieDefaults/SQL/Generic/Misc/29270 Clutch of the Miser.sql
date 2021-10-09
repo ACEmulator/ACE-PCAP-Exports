@@ -17,20 +17,21 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29270,   3, 2000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29270,  22, True ) /* Inscribable */;
+VALUES (29270,  22, True ) /* Inscribable */
+     , (29270,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29270,   1, 'Clutch of the Miser') /* Name */
      , (29270,  16, 'Using this gem will cause you to lose five fewer items at death.  You can augment yourself three times in this way, but you will need a new gem for each augmentation.  This augmentation does not apply to deaths suffered at the hands of other players.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29270,   1,   33554809) /* Setup */
-     , (29270,   3,  536870932) /* SoundTable */
-     , (29270,   8,  100686474) /* Icon */
-     , (29270,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29270,   1, 0x02000179) /* Setup */
+     , (29270,   3, 0x20000014) /* SoundTable */
+     , (29270,   8, 0x06005A8A) /* Icon */
+     , (29270,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29270, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (29270, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29270, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29270, 8000, 3702857932) /* PCAPRecordedObjectIID */;
+VALUES (29270, 8000, 0xDCB520CC) /* PCAPRecordedObjectIID */;

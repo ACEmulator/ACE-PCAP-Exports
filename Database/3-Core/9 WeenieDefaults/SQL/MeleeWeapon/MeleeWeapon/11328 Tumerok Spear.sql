@@ -23,7 +23,8 @@ VALUES (11328,   1,          1) /* ItemType - MeleeWeapon */
      , (11328, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11328,  22, True ) /* Inscribable */;
+VALUES (11328,  22, True ) /* Inscribable */
+     , (11328,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11328,  21,       0) /* WeaponLength */
@@ -38,17 +39,17 @@ VALUES (11328,   1, 'Tumerok Spear') /* Name */
      , (11328,  16, 'A lovingly carved Tumerok spear') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11328,   1,   33557309) /* Setup */
-     , (11328,   3,  536870932) /* SoundTable */
-     , (11328,   6,   67111919) /* PaletteBase */
-     , (11328,   8,  100672029) /* Icon */
-     , (11328,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11328,   1, 0x02000B3D) /* Setup */
+     , (11328,   3, 0x20000014) /* SoundTable */
+     , (11328,   6, 0x04000BEF) /* PaletteBase */
+     , (11328,   8, 0x0600221D) /* Icon */
+     , (11328,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11328, 8001,    2179608) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden */
      , (11328, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11328, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11328, 8000, 3646028881) /* PCAPRecordedObjectIID */;
+VALUES (11328, 8000, 0xD951FC51) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11328, 67111926, 0, 0);

@@ -22,21 +22,21 @@ VALUES (25534,   1, 'Tremendous Monouga Pack Doll') /* Name */
      , (25534, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25534,   1,   33558499) /* Setup */
-     , (25534,   2,  150995258) /* MotionTable */
-     , (25534,   6,   67111302) /* PaletteBase */
-     , (25534,   8,  100675019) /* Icon */
-     , (25534,  22,  872415257) /* PhysicsEffectTable */
+VALUES (25534,   1, 0x02000FE3) /* Setup */
+     , (25534,   2, 0x0900013A) /* MotionTable */
+     , (25534,   6, 0x04000986) /* PaletteBase */
+     , (25534,   8, 0x06002DCB) /* Icon */
+     , (25534,  22, 0x34000019) /* PhysicsEffectTable */
      , (25534, 8001,  271056920) /* PCAPRecordedWeenieHeader - Value, Usable, TargetType, Burden, HookType */
      , (25534, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25534, 8005,     102403) /* PCAPRecordedPhysicsDesc - CSetup, MTable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25534, 8040, 4095213575, 19.02184, 146.4552, 106.9664, -0.99572, 0, 0, -0.09242085) /* PCAPRecordedLocation */
+VALUES (25534, 8040, 0xF4180007, 19.02184, 146.4552, 106.9664, -0.99572, 0, 0, -0.092421) /* PCAPRecordedLocation */
 /* @teleloc 0xF4180007 [19.021840 146.455200 106.966400] -0.995720 0.000000 0.000000 -0.092421 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25534, 8000, 2235553854) /* PCAPRecordedObjectIID */;
+VALUES (25534, 8000, 0x853FD83E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25534, 67111953, 0, 0);

@@ -33,18 +33,18 @@ VALUES (10970,   1, 'Manuaka''s Collar') /* Name */
      , (10970,  16, 'A spiked collar, smelling faintly of Reedshark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10970,   1,   33554810) /* Setup */
-     , (10970,   3,  536870932) /* SoundTable */
-     , (10970,   8,  100671855) /* Icon */
-     , (10970,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10970,   1, 0x0200017A) /* Setup */
+     , (10970,   3, 0x20000014) /* SoundTable */
+     , (10970,   8, 0x0600216F) /* Icon */
+     , (10970,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10970,  37,         36) /* ItemSkillLimit - Loyalty */
      , (10970, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (10970, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10970, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10970, 8000, 2981037275) /* PCAPRecordedObjectIID */;
+VALUES (10970, 8000, 0xB1AF04DB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10970,   957,      2)  /* FealtyOther6 */
-     , (10970,  1408,      2)  /* QuicknessOther6 */;
+VALUES (10970,  1408,      2)  /* QuicknessOther6 */
+     , (10970,   957,      2)  /* FealtyOther6 */;

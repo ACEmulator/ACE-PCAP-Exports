@@ -37,17 +37,17 @@ VALUES (294,   1, 'Amulet') /* Name */
      , (294,  16, 'Finely crafted Gold Amulet of Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (294,   1,   33554680) /* Setup */
-     , (294,   3,  536870932) /* SoundTable */
-     , (294,   6,   67111919) /* PaletteBase */
-     , (294,   8,  100668611) /* Icon */
-     , (294,  22,  872415275) /* PhysicsEffectTable */
+VALUES (294,   1, 0x020000F8) /* Setup */
+     , (294,   3, 0x20000014) /* SoundTable */
+     , (294,   6, 0x04000BEF) /* PaletteBase */
+     , (294,   8, 0x060014C3) /* Icon */
+     , (294,  22, 0x3400002B) /* PhysicsEffectTable */
      , (294, 8001, 2166440088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, Workmanship, MaterialType */
      , (294, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (294, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (294, 8000, 2688648276) /* PCAPRecordedObjectIID */;
+VALUES (294, 8000, 0xA0418454) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (294,  1308,      2)  /* ArmorSelf2 */;

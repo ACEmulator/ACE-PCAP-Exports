@@ -17,7 +17,7 @@ VALUES (24201,   1,        256) /* ItemType - MissileWeapon */
      , (24201,  48,         47) /* WeaponSkill - MissileWeapons */
      , (24201,  49,         60) /* WeaponTime */
      , (24201,  50,          2) /* AmmoType - Bolt */
-     , (24201,  51,          2) /* CombatUse - Missle */
+     , (24201,  51,          2) /* CombatUse - Missile */
      , (24201,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24201, 106,        300) /* ItemSpellcraft */
      , (24201, 107,        667) /* ItemCurMana */
@@ -34,6 +34,7 @@ VALUES (24201,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24201,  22, True ) /* Inscribable */
+     , (24201,  23, True ) /* DestroyOnSell */
      , (24201,  69, False) /* IsSellable */
      , (24201,  99, True ) /* Ivoryable */;
 
@@ -53,16 +54,16 @@ VALUES (24201,   1, 'Weeping Crossbow') /* Name */
      , (24201,  15, 'A crossbow infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24201,   1,   33558299) /* Setup */
-     , (24201,   3,  536870932) /* SoundTable */
-     , (24201,   8,  100674266) /* Icon */
-     , (24201,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24201,   1, 0x02000F1B) /* Setup */
+     , (24201,   3, 0x20000014) /* SoundTable */
+     , (24201,   8, 0x06002ADA) /* Icon */
+     , (24201,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24201, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24201, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24201, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24201, 8000, 2148384203) /* PCAPRecordedObjectIID */;
+VALUES (24201, 8000, 0x800DBDCB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24201,  2687,      2)  /* ModerateBowAptitude */;

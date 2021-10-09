@@ -43,21 +43,21 @@ VALUES (27130,   1, 'Ancient Armored Bracers') /* Name */
      , (27130,  15, 'This armored bracer appears to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27130,   1,   33554641) /* Setup */
-     , (27130,   3,  536870932) /* SoundTable */
-     , (27130,   6,   67108990) /* PaletteBase */
-     , (27130,   8,  100675918) /* Icon */
-     , (27130,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27130,   1, 0x020000D1) /* Setup */
+     , (27130,   3, 0x20000014) /* SoundTable */
+     , (27130,   6, 0x0400007E) /* PaletteBase */
+     , (27130,   8, 0x0600314E) /* Icon */
+     , (27130,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27130, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (27130, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27130, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27130, 8000, 3333452565) /* PCAPRecordedObjectIID */;
+VALUES (27130, 8000, 0xC6B07315) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27130,  3094,      2)  /* SkinFiazhat */
-     , (27130,  3154,      2)  /* ScytheAegis */;
+VALUES (27130,  3154,      2)  /* ScytheAegis */
+     , (27130,  3094,      2)  /* SkinFiazhat */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27130, 67114981, 96, 20);

@@ -23,17 +23,17 @@ VALUES (30398,   1, 'Shadow Pass') /* Name */
      , (30398,  16, 'A sheaf of pages from the journal of Carlo di Cenza.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30398,   1,   33554771) /* Setup */
-     , (30398,   3,  536870932) /* SoundTable */
-     , (30398,   8,  100668117) /* Icon */
-     , (30398,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30398,   1, 0x02000153) /* Setup */
+     , (30398,   3, 0x20000014) /* SoundTable */
+     , (30398,   8, 0x060012D5) /* Icon */
+     , (30398,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30398, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (30398, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (30398, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30398, 8040, 1189281829, 96.7172, 106.057, 0.057, 0.22629, 0, 0, -0.97406) /* PCAPRecordedLocation */
+VALUES (30398, 8040, 0x46E30025, 96.7172, 106.057, 0.057, 0.22629, 0, 0, -0.97406) /* PCAPRecordedLocation */
 /* @teleloc 0x46E30025 [96.717200 106.057000 0.057000] 0.226290 0.000000 0.000000 -0.974060 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30398, 8000, 3361205727) /* PCAPRecordedObjectIID */;
+VALUES (30398, 8000, 0xC857EDDF) /* PCAPRecordedObjectIID */;

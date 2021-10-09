@@ -21,13 +21,13 @@ VALUES (32036,   1, 'Gold Niffis Tentacle') /* Name */
      , (32036,  16, 'A spectacular Gold Niffis Tentacle.  It is incredibly elastic.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32036,   1,   33554817) /* Setup */
-     , (32036,   3,  536870932) /* SoundTable */
-     , (32036,   8,  100688397) /* Icon */
-     , (32036,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32036,   1, 0x02000181) /* Setup */
+     , (32036,   3, 0x20000014) /* SoundTable */
+     , (32036,   8, 0x0600620D) /* Icon */
+     , (32036,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32036, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (32036, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32036, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32036, 8000, 2447936972) /* PCAPRecordedObjectIID */;
+VALUES (32036, 8000, 0x91E88DCC) /* PCAPRecordedObjectIID */;

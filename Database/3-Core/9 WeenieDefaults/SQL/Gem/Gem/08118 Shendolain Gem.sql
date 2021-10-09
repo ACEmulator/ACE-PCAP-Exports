@@ -18,24 +18,25 @@ VALUES (8118,   1,       2048) /* ItemType - Gem */
      , (8118, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8118,  22, True ) /* Inscribable */;
+VALUES (8118,  22, True ) /* Inscribable */
+     , (8118,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8118,   1, 'Shendolain Gem') /* Name */
      , (8118,  16, 'The heart of the Shendolain Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8118,   1,   33554809) /* Setup */
-     , (8118,   3,  536870932) /* SoundTable */
-     , (8118,   6,   67111919) /* PaletteBase */
-     , (8118,   8,  100670992) /* Icon */
-     , (8118,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8118,   1, 0x02000179) /* Setup */
+     , (8118,   3, 0x20000014) /* SoundTable */
+     , (8118,   6, 0x04000BEF) /* PaletteBase */
+     , (8118,   8, 0x06001E10) /* Icon */
+     , (8118,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8118, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (8118, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8118, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8118, 8000, 3030064277) /* PCAPRecordedObjectIID */;
+VALUES (8118, 8000, 0xB49B1C95) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8118, 67112926, 0, 0);

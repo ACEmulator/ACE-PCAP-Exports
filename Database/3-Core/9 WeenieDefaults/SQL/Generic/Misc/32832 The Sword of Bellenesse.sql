@@ -15,6 +15,7 @@ VALUES (32832,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32832,  22, True ) /* Inscribable */
+     , (32832,  23, True ) /* DestroyOnSell */
      , (32832,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,13 +26,13 @@ VALUES (32832,   1, 'The Sword of Bellenesse') /* Name */
      , (32832,  16, 'This is the sword of Duke Bellenesse, lost when his daughter Eleonora threw the sword at Varicci II in an attempt to kill him as they fled into the Portal to Dereth.  The sword was later used, at King Varicci''s orders, to remove Eleonora''s heart.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32832,   1,   33559842) /* Setup */
-     , (32832,   3,  536870932) /* SoundTable */
-     , (32832,   8,  100688637) /* Icon */
-     , (32832,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32832,   1, 0x02001522) /* Setup */
+     , (32832,   3, 0x20000014) /* SoundTable */
+     , (32832,   8, 0x060062FD) /* Icon */
+     , (32832,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32832, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (32832, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32832, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32832, 8000, 2147521643) /* PCAPRecordedObjectIID */;
+VALUES (32832, 8000, 0x8000946B) /* PCAPRecordedObjectIID */;

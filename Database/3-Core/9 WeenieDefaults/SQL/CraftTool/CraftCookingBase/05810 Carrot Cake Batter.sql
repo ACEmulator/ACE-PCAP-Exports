@@ -21,13 +21,13 @@ VALUES (5810,   1, 'Carrot Cake Batter') /* Name */
      , (5810,  20, 'Batches of Carrot Cake Batter') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5810,   1,   33555968) /* Setup */
-     , (5810,   3,  536870932) /* SoundTable */
-     , (5810,   8,  100670314) /* Icon */
-     , (5810,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5810,   1, 0x02000600) /* Setup */
+     , (5810,   3, 0x20000014) /* SoundTable */
+     , (5810,   8, 0x06001B6A) /* Icon */
+     , (5810,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5810, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (5810, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5810, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5810, 8000, 3709741726) /* PCAPRecordedObjectIID */;
+VALUES (5810, 8000, 0xDD1E2A9E) /* PCAPRecordedObjectIID */;

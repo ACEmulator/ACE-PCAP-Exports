@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x00E4;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700E4002, 35037, 0x00E4010A, 29.9783, -5.50422, -30.20983, 0.9998205, 0, 0, 0.01894499, False, '2019-02-10 00:00:00'); /* Temple of the Three */
+VALUES (0x700E4002, 35037, 0x00E4010A, 29.9783, -5.50422, -30.20983, 0.999821, 0, 0, 0.018945, False, '2019-02-10 00:00:00'); /* Temple of the Three */
 /* @teleloc 0x00E4010A [29.978300 -5.504220 -30.209830] 0.999821 0.000000 0.000000 0.018945 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -24,28 +24,28 @@ VALUES (33188,   1, 'Diviner Pheraion') /* Name */
      , (33188, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33188,   1,   33554433) /* Setup */
-     , (33188,   2,  150994945) /* MotionTable */
-     , (33188,   3,  536870913) /* SoundTable */
-     , (33188,   6,   67108990) /* PaletteBase */
-     , (33188,   8,  100667446) /* Icon */
-     , (33188,   9,   83890507) /* EyesTexture */
-     , (33188,  10,   83890561) /* NoseTexture */
-     , (33188,  11,   83890639) /* MouthTexture */
-     , (33188,  15,   67116988) /* HairPalette */
-     , (33188,  16,   67109565) /* EyesPalette */
-     , (33188,  17,   67109560) /* SkinPalette */
-     , (33188,  22,  872415236) /* PhysicsEffectTable */
+VALUES (33188,   1, 0x02000001) /* Setup */
+     , (33188,   2, 0x09000001) /* MotionTable */
+     , (33188,   3, 0x20000001) /* SoundTable */
+     , (33188,   6, 0x0400007E) /* PaletteBase */
+     , (33188,   8, 0x06001036) /* Icon */
+     , (33188,   9, 0x0500114B) /* EyesTexture */
+     , (33188,  10, 0x05001181) /* NoseTexture */
+     , (33188,  11, 0x050011CF) /* MouthTexture */
+     , (33188,  15, 0x04001FBC) /* HairPalette */
+     , (33188,  16, 0x040002BD) /* EyesPalette */
+     , (33188,  17, 0x040002B8) /* SkinPalette */
+     , (33188,  22, 0x34000004) /* PhysicsEffectTable */
      , (33188, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33188, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33188, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33188, 8040, 8585515, 142.285, -100.643, -35.995, -0.9972301, 0, 0, -0.07437801) /* PCAPRecordedLocation */
+VALUES (33188, 8040, 0x0083012B, 142.285, -100.643, -35.995, -0.99723, 0, 0, -0.074378) /* PCAPRecordedLocation */
 /* @teleloc 0x0083012B [142.285000 -100.643000 -35.995000] -0.997230 0.000000 0.000000 -0.074378 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33188, 8000, 2447684963) /* PCAPRecordedObjectIID */;
+VALUES (33188, 8000, 0x91E4B563) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (33188,   1,     0, 0, 0, 1000) /* MaxHealth */;

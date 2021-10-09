@@ -25,17 +25,17 @@ VALUES (34833,   1, 'Blue Glow Mushroom') /* Name */
      , (34833,  16, 'A rather small mushroom. It glows faintly blue.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34833,   1,   33560204) /* Setup */
-     , (34833,   3,  536870932) /* SoundTable */
-     , (34833,   8,  100689341) /* Icon */
-     , (34833,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34833,   1, 0x0200168C) /* Setup */
+     , (34833,   3, 0x20000014) /* SoundTable */
+     , (34833,   8, 0x060065BD) /* Icon */
+     , (34833,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34833, 8001,    2109592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Burden */
      , (34833, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34833, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34833, 8040, 13763864, 124.6795, -80.5985, -12.00175, -0.00420373, 0, 0, -0.9999912) /* PCAPRecordedLocation */
+VALUES (34833, 8040, 0x00D20518, 124.6795, -80.5985, -12.00175, -0.004204, 0, 0, -0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x00D20518 [124.679500 -80.598500 -12.001750] -0.004204 0.000000 0.000000 -0.999991 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34833, 8000, 3705806285) /* PCAPRecordedObjectIID */;
+VALUES (34833, 8000, 0xDCE21DCD) /* PCAPRecordedObjectIID */;

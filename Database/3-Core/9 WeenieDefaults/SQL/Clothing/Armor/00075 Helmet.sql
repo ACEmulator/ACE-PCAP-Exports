@@ -45,27 +45,24 @@ VALUES (75,   1, 'Helmet') /* Name */
      , (75,  16, 'Helmet') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (75,   1,   33554650) /* Setup */
-     , (75,   3,  536870932) /* SoundTable */
-     , (75,   6,   67108990) /* PaletteBase */
-     , (75,   8,  100669417) /* Icon */
-     , (75,  22,  872415275) /* PhysicsEffectTable */
+VALUES (75,   1, 0x020000DA) /* Setup */
+     , (75,   3, 0x20000014) /* SoundTable */
+     , (75,   6, 0x0400007E) /* PaletteBase */
+     , (75,   8, 0x060017E9) /* Icon */
+     , (75,  22, 0x3400002B) /* PhysicsEffectTable */
      , (75, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (75, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (75, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (75, 8000, 3688176286) /* PCAPRecordedObjectIID */;
+VALUES (75, 8000, 0xDBD51A9E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (75,  1485,      2)  /* Impenetrability5 */
-     , (75,  1515,      2)  /* BludgeonBane5 */
      , (75,  1561,      2)  /* BladeBane5 */
      , (75,  1573,      2)  /* PiercingBane5 */
+     , (75,  1515,      2)  /* BludgeonBane5 */
      , (75,  2550,      2)  /* CANTRIPINVULNERABILITY1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (75, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (75, 67110545, 240, 10);

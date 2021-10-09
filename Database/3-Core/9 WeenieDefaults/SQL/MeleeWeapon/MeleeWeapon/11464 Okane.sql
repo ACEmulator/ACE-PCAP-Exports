@@ -23,7 +23,8 @@ VALUES (11464,   1,          1) /* ItemType - MeleeWeapon */
      , (11464, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11464,  22, True ) /* Inscribable */;
+VALUES (11464,  22, True ) /* Inscribable */
+     , (11464,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11464,  21,       0) /* WeaponLength */
@@ -40,16 +41,16 @@ VALUES (11464,   1, 'Okane') /* Name */
      , (11464,  16, 'A beautifully carved dagger. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11464,   1,   33557234) /* Setup */
-     , (11464,   3,  536870932) /* SoundTable */
-     , (11464,   8,  100672077) /* Icon */
-     , (11464,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11464,   1, 0x02000AF2) /* Setup */
+     , (11464,   3, 0x20000014) /* SoundTable */
+     , (11464,   8, 0x0600224D) /* Icon */
+     , (11464,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11464, 8001,    2179608) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden */
      , (11464, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11464, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11464, 8000, 3690453353) /* PCAPRecordedObjectIID */;
+VALUES (11464, 8000, 0xDBF7D969) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11464, 0, 83893670, 83893699)

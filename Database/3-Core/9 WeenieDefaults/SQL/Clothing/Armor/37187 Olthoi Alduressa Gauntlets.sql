@@ -49,24 +49,24 @@ VALUES (37187,   1, 'Olthoi Alduressa Gauntlets') /* Name */
      , (37187,  16, 'Olthoi Alduressa Gauntlets of Curing') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37187,   1,   33559505) /* Setup */
-     , (37187,   3,  536870932) /* SoundTable */
-     , (37187,   6,   67108990) /* PaletteBase */
-     , (37187,   8,  100687134) /* Icon */
-     , (37187,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37187,   1, 0x020013D1) /* Setup */
+     , (37187,   3, 0x20000014) /* SoundTable */
+     , (37187,   6, 0x0400007E) /* PaletteBase */
+     , (37187,   8, 0x06005D1E) /* Icon */
+     , (37187,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37187,  37,          6) /* ItemSkillLimit - MeleeDefense */
-     , (37187,  50,  100690144) /* IconOverlay */
+     , (37187,  50, 0x060068E0) /* IconOverlay */
      , (37187, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
      , (37187, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37187, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37187, 8000, 2461841190) /* PCAPRecordedObjectIID */;
+VALUES (37187, 8000, 0x92BCB726) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37187,  2108,      2)  /* Impenetrability7 */
-     , (37187,  2241,      2)  /* HealingMasterySelf7 */
-     , (37187,  6072,      2)  /* CantripSwordAptitude4 */;
+VALUES (37187,  2241,      2)  /* HealingMasterySelf7 */
+     , (37187,  6072,      2)  /* CantripHeavyWeaponsAptitude4 */
+     , (37187,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37187, 67116604, 168, 3)

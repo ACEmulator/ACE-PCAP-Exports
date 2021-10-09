@@ -28,21 +28,21 @@ VALUES (26617,   1, 'Runed Chest') /* Name */
      , (26617, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26617,   1,   33558095) /* Setup */
-     , (26617,   2,  150994948) /* MotionTable */
-     , (26617,   3,  536870945) /* SoundTable */
-     , (26617,   8,  100667424) /* Icon */
-     , (26617,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26617,   1, 0x02000E4F) /* Setup */
+     , (26617,   2, 0x09000004) /* MotionTable */
+     , (26617,   3, 0x20000021) /* SoundTable */
+     , (26617,   8, 0x06001020) /* Icon */
+     , (26617,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26617, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (26617, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (26617, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (26617, 8040, 49153178, 149.201, -93.41, -12, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (26617, 8040, 0x02EE049A, 149.201, -93.41, -12, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x02EE049A [149.201000 -93.410000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26617, 8000, 1882120456) /* PCAPRecordedObjectIID */;
+VALUES (26617, 8000, 0x702EE108) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (26617, -1, 85, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Chainmail Coif (85) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

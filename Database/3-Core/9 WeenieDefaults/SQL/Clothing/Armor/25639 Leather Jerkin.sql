@@ -42,17 +42,17 @@ VALUES (25639,   1, 'Leather Jerkin') /* Name */
      , (25639,  16, 'Leather Jerkin') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25639,   1,   33554644) /* Setup */
-     , (25639,   3,  536870932) /* SoundTable */
-     , (25639,   6,   67108990) /* PaletteBase */
-     , (25639,   8,  100675133) /* Icon */
-     , (25639,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25639,   1, 0x020000D4) /* Setup */
+     , (25639,   3, 0x20000014) /* SoundTable */
+     , (25639,   6, 0x0400007E) /* PaletteBase */
+     , (25639,   8, 0x06002E3D) /* Icon */
+     , (25639,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25639, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (25639, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25639, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25639, 8000, 2174514671) /* PCAPRecordedObjectIID */;
+VALUES (25639, 8000, 0x819C75EF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25639, 67114618, 72, 64)

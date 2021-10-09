@@ -23,22 +23,22 @@ VALUES (44094,   1, 'Mu-miyah Champion') /* Name */
      , (44094, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44094,   1,   33554433) /* Setup */
-     , (44094,   2,  150994981) /* MotionTable */
-     , (44094,   3,  536870942) /* SoundTable */
-     , (44094,   6,   67108990) /* PaletteBase */
-     , (44094,   8,  100669122) /* Icon */
-     , (44094,  22,  872415272) /* PhysicsEffectTable */
+VALUES (44094,   1, 0x02000001) /* Setup */
+     , (44094,   2, 0x09000025) /* MotionTable */
+     , (44094,   3, 0x2000001E) /* SoundTable */
+     , (44094,   6, 0x0400007E) /* PaletteBase */
+     , (44094,   8, 0x060016C2) /* Icon */
+     , (44094,  22, 0x34000028) /* PhysicsEffectTable */
      , (44094, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44094, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44094, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44094, 8040, 1465254405, 88.9265, -20.2971, 18.006, -0.08027568, 0, 0, -0.9967727) /* PCAPRecordedLocation */
+VALUES (44094, 8040, 0x57560205, 88.9265, -20.2971, 18.006, -0.080276, 0, 0, -0.996773) /* PCAPRecordedLocation */
 /* @teleloc 0x57560205 [88.926500 -20.297100 18.006000] -0.080276 0.000000 0.000000 -0.996773 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44094, 8000, 3632799894) /* PCAPRecordedObjectIID */;
+VALUES (44094, 8000, 0xD8882096) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44094, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

@@ -23,23 +23,23 @@ VALUES (49041,   1, 'Elemental') /* Name */
      , (49041, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49041,   1,   33559884) /* Setup */
-     , (49041,   2,  150995087) /* MotionTable */
-     , (49041,   3,  536871002) /* SoundTable */
-     , (49041,   6,   67114014) /* PaletteBase */
-     , (49041,   8,  100670581) /* Icon */
-     , (49041,  22,  872415349) /* PhysicsEffectTable */
+VALUES (49041,   1, 0x0200154C) /* Setup */
+     , (49041,   2, 0x0900008F) /* MotionTable */
+     , (49041,   3, 0x2000005A) /* SoundTable */
+     , (49041,   6, 0x0400141E) /* PaletteBase */
+     , (49041,   8, 0x06001C75) /* Icon */
+     , (49041,  22, 0x34000075) /* PhysicsEffectTable */
      , (49041, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49041, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
      , (49041, 8003,   67108884) /* PCAPRecordedObjectDesc - Stuck, Attackable, IncludesSecondHeader */
      , (49041, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49041, 8040, 1482555783, 393.5493, -80.90462, 0.004499972, 0.2490255, 0, 0, -0.9684969) /* PCAPRecordedLocation */
+VALUES (49041, 8040, 0x585E0187, 393.5493, -80.90462, 0.0045, 0.249026, 0, 0, -0.968497) /* PCAPRecordedLocation */
 /* @teleloc 0x585E0187 [393.549300 -80.904620 0.004500] 0.249026 0.000000 0.000000 -0.968497 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49041, 8000, 2883101272) /* PCAPRecordedObjectIID */;
+VALUES (49041, 8000, 0xABD8A258) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49041, 67114015, 0, 0);

@@ -27,19 +27,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44593,   1, 'Radiant Blood Covenant Shield Cover') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44593,   1,   33556223) /* Setup */
-     , (44593,   3,  536870932) /* SoundTable */
-     , (44593,   6,   67111928) /* PaletteBase */
-     , (44593,   8,  100692028) /* Icon */
-     , (44593,  22,  872415275) /* PhysicsEffectTable */
-     , (44593,  50,  100667895) /* IconOverlay */
+VALUES (44593,   1, 0x020006FF) /* Setup */
+     , (44593,   3, 0x20000014) /* SoundTable */
+     , (44593,   6, 0x04000BF8) /* PaletteBase */
+     , (44593,   8, 0x0600703C) /* Icon */
+     , (44593,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44593,  50, 0x060011F7) /* IconOverlay */
      , (44593, 8001, 1076654104) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Priority, TargetType, Burden, IconOverlay */
      , (44593, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44593, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (44593, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44593, 8000,      44593) /* PCAPRecordedObjectIID */;
+VALUES (44593, 8000, 0x0000AE31) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44593, 67112642, 0, 0);

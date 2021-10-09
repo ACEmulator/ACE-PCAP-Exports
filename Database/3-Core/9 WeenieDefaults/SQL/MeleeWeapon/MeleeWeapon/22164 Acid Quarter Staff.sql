@@ -54,18 +54,18 @@ VALUES (22164,   1, 'Acid Quarter Staff') /* Name */
      , (22164,  16, 'Acid Quarter Staff of Swift Killer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22164,   1,   33558070) /* Setup */
-     , (22164,   3,  536870932) /* SoundTable */
-     , (22164,   6,   67111919) /* PaletteBase */
-     , (22164,   8,  100673602) /* Icon */
-     , (22164,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22164,   1, 0x02000E36) /* Setup */
+     , (22164,   3, 0x20000014) /* SoundTable */
+     , (22164,   6, 0x04000BEF) /* PaletteBase */
+     , (22164,   8, 0x06002842) /* Icon */
+     , (22164,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22164,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (22164, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (22164, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22164, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22164, 8000, 3688130183) /* PCAPRecordedObjectIID */;
+VALUES (22164, 8000, 0xDBD46687) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22164,  1627,      2)  /* SwiftKillerSelf6 */

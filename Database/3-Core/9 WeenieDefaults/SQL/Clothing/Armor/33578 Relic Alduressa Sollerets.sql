@@ -39,23 +39,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33578,   1, 'Relic Alduressa Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33578,   1,   33560019) /* Setup */
-     , (33578,   3,  536870932) /* SoundTable */
-     , (33578,   8,  100686336) /* Icon */
-     , (33578,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33578,   1, 0x020015D3) /* Setup */
+     , (33578,   3, 0x20000014) /* SoundTable */
+     , (33578,   8, 0x06005A00) /* Icon */
+     , (33578,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33578, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (33578, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33578, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33578, 8040, 3583574079, 180.9533, 144.1782, 374.007, -0.9998147, 0, 0, -0.01924602) /* PCAPRecordedLocation */
+VALUES (33578, 8040, 0xD599003F, 180.9533, 144.1782, 374.007, -0.999815, 0, 0, -0.019246) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [180.953300 144.178200 374.007000] -0.999815 0.000000 0.000000 -0.019246 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33578, 8000, 2716603666) /* PCAPRecordedObjectIID */;
+VALUES (33578, 8000, 0xA1EC1512) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33578,  2108,      2)  /* Impenetrability7 */
+VALUES (33578,  2624,      2)  /* CANTRIPMANAGAIN2 */
      , (33578,  2182,      2)  /* ManaRenewalOther7 */
-     , (33578,  2624,      2)  /* CANTRIPMANAGAIN2 */
-     , (33578,  2662,      2)  /* ModerateQuickness */;
+     , (33578,  2662,      2)  /* ModerateQuickness */
+     , (33578,  2108,      2)  /* Impenetrability7 */;

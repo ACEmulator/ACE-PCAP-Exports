@@ -54,23 +54,23 @@ VALUES (40682,   1, 'Olthoi Shield') /* Name */
      , (40682,  16, 'Olthoi Shield of Blocking') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40682,   1,   33561268) /* Setup */
-     , (40682,   3,  536870932) /* SoundTable */
-     , (40682,   6,   67111919) /* PaletteBase */
-     , (40682,   8,  100689992) /* Icon */
-     , (40682,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40682,   1, 0x02001AB4) /* Setup */
+     , (40682,   3, 0x20000014) /* SoundTable */
+     , (40682,   6, 0x04000BEF) /* PaletteBase */
+     , (40682,   8, 0x06006848) /* Icon */
+     , (40682,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40682, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40682, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40682, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40682, 8000, 3336771704) /* PCAPRecordedObjectIID */;
+VALUES (40682, 8000, 0xC6E31878) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40682,  1486,      2)  /* Impenetrability6 */
      , (40682,  2518,      2)  /* CANTRIPJUMPINGPROWESS2 */
-     , (40682,  4391,      2)  /* AcidBane8 */
-     , (40682,  5858,      2)  /* ShieldMasterySelf8 */;
+     , (40682,  5858,      2)  /* ShieldMasterySelf8 */
+     , (40682,  4391,      2)  /* AcidBane8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40682, 67111922, 0, 0);

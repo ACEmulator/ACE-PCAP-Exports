@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19701,   1, 'Nuhmudira''s Bestowment of Focus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19701,   1,   33554687) /* Setup */
-     , (19701,   3,  536870932) /* SoundTable */
-     , (19701,   6,   67111919) /* PaletteBase */
-     , (19701,   8,  100672963) /* Icon */
-     , (19701,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19701,   1, 0x020000FF) /* Setup */
+     , (19701,   3, 0x20000014) /* SoundTable */
+     , (19701,   6, 0x04000BEF) /* PaletteBase */
+     , (19701,   8, 0x060025C3) /* Icon */
+     , (19701,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19701, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (19701, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19701, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19701, 8000, 2156683540) /* PCAPRecordedObjectIID */;
+VALUES (19701, 8000, 0x808C6114) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19701, 67111918, 0, 0);

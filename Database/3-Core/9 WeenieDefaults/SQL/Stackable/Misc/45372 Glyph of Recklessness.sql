@@ -20,18 +20,18 @@ VALUES (45372,   1, 'Glyph of Recklessness') /* Name */
      , (45372,  20, 'Glyphs of Recklessness') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45372,   1,   33554809) /* Setup */
-     , (45372,   3,  536870932) /* SoundTable */
-     , (45372,   6,   67111919) /* PaletteBase */
-     , (45372,   8,  100690191) /* Icon */
-     , (45372,  22,  872415275) /* PhysicsEffectTable */
-     , (45372,  50,  100686633) /* IconOverlay */
+VALUES (45372,   1, 0x02000179) /* Setup */
+     , (45372,   3, 0x20000014) /* SoundTable */
+     , (45372,   6, 0x04000BEF) /* PaletteBase */
+     , (45372,   8, 0x0600690F) /* Icon */
+     , (45372,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45372,  50, 0x06005B29) /* IconOverlay */
      , (45372, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (45372, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (45372, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45372, 8000, 2461826811) /* PCAPRecordedObjectIID */;
+VALUES (45372, 8000, 0x92BC7EFB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45372, 67111924, 0, 0);

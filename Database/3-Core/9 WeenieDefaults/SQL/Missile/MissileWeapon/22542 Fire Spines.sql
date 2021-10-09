@@ -19,7 +19,7 @@ VALUES (22542,   1,        256) /* ItemType - MissileWeapon */
      , (22542,  45,         16) /* DamageType - Fire */
      , (22542,  48,         47) /* WeaponSkill - MissileWeapons */
      , (22542,  49,         10) /* WeaponTime */
-     , (22542,  51,          2) /* CombatUse - Missle */
+     , (22542,  51,          2) /* CombatUse - Missile */
      , (22542,  93,     132936) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, Gravity, Inelastic */
      , (22542, 307,          5) /* DamageRating */
      , (22542, 313,          0) /* CritRating */
@@ -51,17 +51,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22542,   1, 'Fire Spines') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22542,   1,   33558113) /* Setup */
-     , (22542,   3,  536870932) /* SoundTable */
-     , (22542,   8,  100671205) /* Icon */
-     , (22542,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22542,   1, 0x02000E61) /* Setup */
+     , (22542,   3, 0x20000014) /* SoundTable */
+     , (22542,   8, 0x06001EE5) /* Icon */
+     , (22542,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22542, 8001,    2175640) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, ValidLocations, Burden */
      , (22542, 8003,        144) /* PCAPRecordedObjectDesc - Attackable, UiHidden */
      , (22542, 8005,     170757) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22542, 8040, 4102094891, 130.515, 64.54817, 13.50262, 0.8888394, 0, 0, -0.4582189) /* PCAPRecordedLocation */
+VALUES (22542, 8040, 0xF481002B, 130.515, 64.54817, 13.50262, 0.888839, 0, 0, -0.458219) /* PCAPRecordedLocation */
 /* @teleloc 0xF481002B [130.515000 64.548170 13.502620] 0.888839 0.000000 0.000000 -0.458219 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22542, 8000, 3699732283) /* PCAPRecordedObjectIID */;
+VALUES (22542, 8000, 0xDC856F3B) /* PCAPRecordedObjectIID */;

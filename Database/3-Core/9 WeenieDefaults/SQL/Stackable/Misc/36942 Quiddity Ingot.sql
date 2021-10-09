@@ -23,17 +23,17 @@ VALUES (36942,   1, 'Quiddity Ingot') /* Name */
      , (36942,  16, 'An ingot of some strange metal. It glows with a soft white light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36942,   1,   33555677) /* Setup */
-     , (36942,   3,  536870932) /* SoundTable */
-     , (36942,   6,   67111919) /* PaletteBase */
-     , (36942,   8,  100671703) /* Icon */
-     , (36942,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36942,   1, 0x020004DD) /* Setup */
+     , (36942,   3, 0x20000014) /* SoundTable */
+     , (36942,   6, 0x04000BEF) /* PaletteBase */
+     , (36942,   8, 0x060020D7) /* Icon */
+     , (36942,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36942, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (36942, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36942, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36942, 8000, 2157269329) /* PCAPRecordedObjectIID */;
+VALUES (36942, 8000, 0x80955151) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36942, 67111919, 0, 0);

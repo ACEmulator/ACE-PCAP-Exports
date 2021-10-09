@@ -27,17 +27,17 @@ VALUES (8643,   1, 'Vial of Argenory Dye') /* Name */
      , (8643,  20, 'Vials of Argenory Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8643,   1,   33556751) /* Setup */
-     , (8643,   3,  536870932) /* SoundTable */
-     , (8643,   6,   67111919) /* PaletteBase */
-     , (8643,   8,  100670957) /* Icon */
-     , (8643,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8643,   1, 0x0200090F) /* Setup */
+     , (8643,   3, 0x20000014) /* SoundTable */
+     , (8643,   6, 0x04000BEF) /* PaletteBase */
+     , (8643,   8, 0x06001DED) /* Icon */
+     , (8643,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8643, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (8643, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8643, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8643, 8000, 3318688236) /* PCAPRecordedObjectIID */;
+VALUES (8643, 8000, 0xC5CF29EC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8643, 67111925, 0, 0);

@@ -25,15 +25,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (632,   1, 'Peerless Healing Kit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (632,   1,   33555194) /* Setup */
-     , (632,   8,  100676339) /* Icon */
+VALUES (632,   1, 0x020002FA) /* Setup */
+     , (632,   8, 0x060032F3) /* Icon */
      , (632, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (632, 8003,      65554) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer */
      , (632, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (632, 8000, 3691172955) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (632, 2,  3943,  1, 0, 0, False) /* Create Club (3943) for Wield */
-     , (632, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;
+VALUES (632, 8000, 0xDC02D45B) /* PCAPRecordedObjectIID */;

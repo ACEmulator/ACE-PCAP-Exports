@@ -12,6 +12,7 @@ VALUES (46215,   1,      32768) /* ItemType - Caster */
      , (46215,  19,       8000) /* Value */
      , (46215,  33,          1) /* Bonded - Bonded */
      , (46215,  45,          1) /* DamageType - Slash */
+     , (46215,  46,        512) /* DefaultCombatStyle - Magic */
      , (46215,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46215,  94,         16) /* TargetType - Creature */
      , (46215, 106,        350) /* ItemSpellcraft */
@@ -28,6 +29,7 @@ VALUES (46215,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46215,  22, True ) /* Inscribable */
+     , (46215,  23, True ) /* DestroyOnSell */
      , (46215,  69, False) /* IsSellable */
      , (46215,  99, True ) /* Ivoryable */;
 
@@ -43,23 +45,23 @@ VALUES (46215,   1, 'Enhanced Shimmering Isparian Wand') /* Name */
      , (46215,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46215,   1,   33557731) /* Setup */
-     , (46215,   3,  536870932) /* SoundTable */
-     , (46215,   6,   67111919) /* PaletteBase */
-     , (46215,   8,  100673203) /* Icon */
-     , (46215,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46215,   1, 0x02000CE3) /* Setup */
+     , (46215,   3, 0x20000014) /* SoundTable */
+     , (46215,   6, 0x04000BEF) /* PaletteBase */
+     , (46215,   8, 0x060026B3) /* Icon */
+     , (46215,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46215, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (46215, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46215, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46215, 8000, 2346361503) /* PCAPRecordedObjectIID */;
+VALUES (46215, 8000, 0x8BDAA29F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46215,  2101,      2)  /* DefenderSelf7 */
+VALUES (46215,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
      , (46215,  2287,      2)  /* ManaMasterySelf7 */
-     , (46215,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
      , (46215,  3250,      2)  /* CantripSpiritThirst2 */
+     , (46215,  2101,      2)  /* DefenderSelf7 */
      , (46215,  3259,      2)  /* SpiritDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

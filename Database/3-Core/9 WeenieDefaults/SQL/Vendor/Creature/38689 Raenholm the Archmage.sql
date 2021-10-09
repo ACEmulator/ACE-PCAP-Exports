@@ -18,7 +18,7 @@ VALUES (38689,   1,         16) /* ItemType - Creature */
      , (38689, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38689, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38689, 188,          1) /* HeritageGroup - Aluvian */
-     , (38689, 281,          2) /* Faction1Bits */
+     , (38689, 281,          2) /* Faction1Bits - EldrytchWeb */
      , (38689, 288,       1001) /* SocietyRankEldweb */
      , (38689, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -38,27 +38,27 @@ VALUES (38689,   1, 'Raenholm the Archmage') /* Name */
      , (38689, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38689,   1,   33554433) /* Setup */
-     , (38689,   2,  150994945) /* MotionTable */
-     , (38689,   3,  536870913) /* SoundTable */
-     , (38689,   6,   67108990) /* PaletteBase */
-     , (38689,   8,  100667446) /* Icon */
-     , (38689,   9,   83890516) /* EyesTexture */
-     , (38689,  10,   83890562) /* NoseTexture */
-     , (38689,  11,   83890659) /* MouthTexture */
-     , (38689,  15,   67117080) /* HairPalette */
-     , (38689,  16,   67110065) /* EyesPalette */
-     , (38689,  17,   67109562) /* SkinPalette */
+VALUES (38689,   1, 0x02000001) /* Setup */
+     , (38689,   2, 0x09000001) /* MotionTable */
+     , (38689,   3, 0x20000001) /* SoundTable */
+     , (38689,   6, 0x0400007E) /* PaletteBase */
+     , (38689,   8, 0x06001036) /* Icon */
+     , (38689,   9, 0x05001154) /* EyesTexture */
+     , (38689,  10, 0x05001182) /* NoseTexture */
+     , (38689,  11, 0x050011E3) /* MouthTexture */
+     , (38689,  15, 0x04002018) /* HairPalette */
+     , (38689,  16, 0x040004B1) /* EyesPalette */
+     , (38689,  17, 0x040002BA) /* SkinPalette */
      , (38689, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (38689, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (38689, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38689, 8040, 12059242, 136.725, -26.6064, -17.995, 0.4155786, 0, 0, -0.9095573) /* PCAPRecordedLocation */
+VALUES (38689, 8040, 0x00B8026A, 136.725, -26.6064, -17.995, 0.415579, 0, 0, -0.909557) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026A [136.725000 -26.606400 -17.995000] 0.415579 0.000000 0.000000 -0.909557 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38689, 8000, 1879801921) /* PCAPRecordedObjectIID */;
+VALUES (38689, 8000, 0x700B8041) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38689,   1, 190, 0, 0) /* Strength */
@@ -281,6 +281,10 @@ VALUES (38689, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) 
      , (38689, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (38689, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (38689, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
+     , (38689, 4,  5915, -1, 0, 0, False) /* Create Faran Creature Master Robe (5915) for Shop */
+     , (38689, 4,  5912, -1, 0, 0, False) /* Create Faran Item Master Robe (5912) for Shop */
+     , (38689, 4,  5906, -1, 0, 0, False) /* Create Faran Life Master Robe (5906) for Shop */
+     , (38689, 4,  5909, -1, 0, 0, False) /* Create Faran War Master Robe (5909) for Shop */
      , (38689, 4, 38724, -1, 0, 0, False) /* Create Eldrytch Web Stronghold Portal Gem (38724) for Shop */
      , (38689, 4,  8973, -1, 0, 0, False) /* Create Al-Arqas Portal Gem (8973) for Shop */
      , (38689, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */

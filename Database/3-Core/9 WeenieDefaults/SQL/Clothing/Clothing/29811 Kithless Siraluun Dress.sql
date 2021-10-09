@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29811,   1, 'Kithless Siraluun Dress') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29811,   1,   33554854) /* Setup */
-     , (29811,   3,  536870932) /* SoundTable */
-     , (29811,   6,   67108990) /* PaletteBase */
-     , (29811,   8,  100671998) /* Icon */
-     , (29811,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29811,   1, 0x020001A6) /* Setup */
+     , (29811,   3, 0x20000014) /* SoundTable */
+     , (29811,   6, 0x0400007E) /* PaletteBase */
+     , (29811,   8, 0x060021FE) /* Icon */
+     , (29811,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29811, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (29811, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29811, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29811, 8000, 2164419629) /* PCAPRecordedObjectIID */;
+VALUES (29811, 8000, 0x81026C2D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29811, 67113340, 40, 120)

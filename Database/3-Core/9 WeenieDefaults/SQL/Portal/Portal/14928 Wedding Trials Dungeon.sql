@@ -22,16 +22,16 @@ VALUES (14928,   1, 'Wedding Trials Dungeon') /* Name */
      , (14928, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14928,   1,   33554867) /* Setup */
-     , (14928,   2,  150994947) /* MotionTable */
-     , (14928,   8,  100667499) /* Icon */
+VALUES (14928,   1, 0x020001B3) /* Setup */
+     , (14928,   2, 0x09000003) /* MotionTable */
+     , (14928,   8, 0x0600106B) /* Icon */
      , (14928, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14928, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14928, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14928, 8040, 3299344412, 91.5091, 84.5421, 60.31124, 0.6251159, 0, 0, -0.7805319) /* PCAPRecordedLocation */
+VALUES (14928, 8040, 0xC4A8001C, 91.5091, 84.5421, 60.31124, 0.625116, 0, 0, -0.780532) /* PCAPRecordedLocation */
 /* @teleloc 0xC4A8001C [91.509100 84.542100 60.311240] 0.625116 0.000000 0.000000 -0.780532 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14928, 8000, 2085257221) /* PCAPRecordedObjectIID */;
+VALUES (14928, 8000, 0x7C4A8005) /* PCAPRecordedObjectIID */;

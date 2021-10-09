@@ -18,7 +18,8 @@ VALUES (46435,   1,        128) /* ItemType - Misc */
      , (46435, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46435,  69, False) /* IsSellable */;
+VALUES (46435,  23, True ) /* DestroyOnSell */
+     , (46435,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46435,  39,     0.5) /* DefaultScale */;
@@ -29,13 +30,13 @@ VALUES (46435,   1, 'Box Of Ten Promissory Notes') /* Name */
      , (46435,  16, 'A box containing 10 Promissory Notes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46435,   1,   33554718) /* Setup */
-     , (46435,   3,  536870932) /* SoundTable */
-     , (46435,   8,  100692715) /* Icon */
-     , (46435,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46435,   1, 0x0200011E) /* Setup */
+     , (46435,   3, 0x20000014) /* SoundTable */
+     , (46435,   8, 0x060072EB) /* Icon */
+     , (46435,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46435, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (46435, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (46435, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46435, 8000, 2411289773) /* PCAPRecordedObjectIID */;
+VALUES (46435, 8000, 0x8FB95CAD) /* PCAPRecordedObjectIID */;

@@ -35,17 +35,17 @@ VALUES (29571,   1, 'Salvage') /* Name */
      , (29571,  15, 'Chips of aquamarine material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29571,   1,   33554817) /* Setup */
-     , (29571,   3,  536870932) /* SoundTable */
-     , (29571,   6,   67111919) /* PaletteBase */
-     , (29571,   8,  100677142) /* Icon */
-     , (29571,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29571,   1, 0x02000181) /* Setup */
+     , (29571,   3, 0x20000014) /* SoundTable */
+     , (29571,   6, 0x04000BEF) /* PaletteBase */
+     , (29571,   8, 0x06003616) /* Icon */
+     , (29571,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29571, 8001, 2435349528) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, MaterialType */
      , (29571, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29571, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29571, 8000, 2982947103) /* PCAPRecordedObjectIID */;
+VALUES (29571, 8000, 0xB1CC291F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29571, 67111920, 0, 0);

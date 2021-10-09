@@ -16,6 +16,7 @@ VALUES (52876,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52876,  22, True ) /* Inscribable */
+     , (52876,  23, True ) /* DestroyOnSell */
      , (52876,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -26,17 +27,17 @@ VALUES (52876,   1, 'Gromnus Eye') /* Name */
      , (52876,  16, 'A Gromnus Eye plucked from the skull of the Gromnus Champion. Give this item to the Master of the Gauntlet for a reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52876,   1,   33554817) /* Setup */
-     , (52876,   3,  536870932) /* SoundTable */
-     , (52876,   6,   67111919) /* PaletteBase */
-     , (52876,   8,  100676743) /* Icon */
-     , (52876,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52876,   1, 0x02000181) /* Setup */
+     , (52876,   3, 0x20000014) /* SoundTable */
+     , (52876,   6, 0x04000BEF) /* PaletteBase */
+     , (52876,   8, 0x06003487) /* Icon */
+     , (52876,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52876, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (52876, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52876, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52876, 8000, 2439536825) /* PCAPRecordedObjectIID */;
+VALUES (52876, 8000, 0x916860B9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52876, 67111918, 0, 0);

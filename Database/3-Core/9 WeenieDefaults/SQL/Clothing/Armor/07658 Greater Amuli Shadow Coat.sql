@@ -8,7 +8,6 @@ VALUES (7658,   1,          2) /* ItemType - Armor */
      , (7658,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (7658,   5,       1500) /* EncumbranceVal */
      , (7658,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
-     , (7658,  10,       6656) /* CurrentWieldedLocation - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (7658,  16,          1) /* ItemUseable - No */
      , (7658,  19,       2610) /* Value */
      , (7658,  28,        150) /* ArmorLevel */
@@ -34,17 +33,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7658,   1, 'Greater Amuli Shadow Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7658,   1,   33554854) /* Setup */
-     , (7658,   3,  536870932) /* SoundTable */
-     , (7658,   6,   67108990) /* PaletteBase */
-     , (7658,   8,  100670438) /* Icon */
-     , (7658,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7658,   1, 0x020001A6) /* Setup */
+     , (7658,   3, 0x20000014) /* SoundTable */
+     , (7658,   6, 0x0400007E) /* PaletteBase */
+     , (7658,   8, 0x06001BE6) /* Icon */
+     , (7658,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7658, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (7658, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7658, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7658, 8000, 2258506314) /* PCAPRecordedObjectIID */;
+VALUES (7658, 8000, 0x869E124A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7658, 67110375, 128, 8)

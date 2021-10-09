@@ -23,6 +23,7 @@ VALUES (40801,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40801,  22, True ) /* Inscribable */
+     , (40801,  23, True ) /* DestroyOnSell */
      , (40801,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -41,23 +42,23 @@ VALUES (40801,   1, 'Nexus Crawler''s Mask') /* Name */
      , (40801,  15, 'A mask crafted from the mask of the Apostate Nexus Master.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40801,   1,   33556827) /* Setup */
-     , (40801,   3,  536870932) /* SoundTable */
-     , (40801,   6,   67108990) /* PaletteBase */
-     , (40801,   8,  100671028) /* Icon */
-     , (40801,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40801,   1, 0x0200095B) /* Setup */
+     , (40801,   3, 0x20000014) /* SoundTable */
+     , (40801,   6, 0x0400007E) /* PaletteBase */
+     , (40801,   8, 0x06001E34) /* Icon */
+     , (40801,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40801, 8001,  270876816) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (40801, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40801, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40801, 8000, 2979050511) /* PCAPRecordedObjectIID */;
+VALUES (40801, 8000, 0xB190B40F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40801,  2053,      2)  /* ArmorSelf7 */
-     , (40801,  2108,      2)  /* Impenetrability7 */
      , (40801,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */
-     , (40801,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */;
+     , (40801,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */
+     , (40801,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40801, 67113376, 240, 16);

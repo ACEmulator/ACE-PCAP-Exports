@@ -21,21 +21,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20996,   1, 'Tusker Husk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20996,   1,   33557475) /* Setup */
-     , (20996,   3,  536870932) /* SoundTable */
-     , (20996,   6,   67108990) /* PaletteBase */
-     , (20996,   8,  100673257) /* Icon */
-     , (20996,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20996,   1, 0x02000BE3) /* Setup */
+     , (20996,   3, 0x20000014) /* SoundTable */
+     , (20996,   6, 0x0400007E) /* PaletteBase */
+     , (20996,   8, 0x060026E9) /* Icon */
+     , (20996,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20996, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (20996, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20996, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20996, 8040, 1449132333, -1.73047, -40.1155, -0.007500023, 0.07517197, 0, 0, 0.9971706) /* PCAPRecordedLocation */
+VALUES (20996, 8040, 0x5660012D, -1.73047, -40.1155, -0.0075, 0.075172, 0, 0, 0.997171) /* PCAPRecordedLocation */
 /* @teleloc 0x5660012D [-1.730470 -40.115500 -0.007500] 0.075172 0.000000 0.000000 0.997171 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20996, 8000, 3703498778) /* PCAPRecordedObjectIID */;
+VALUES (20996, 8000, 0xDCBEE81A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20996, 67113012, 0, 0);

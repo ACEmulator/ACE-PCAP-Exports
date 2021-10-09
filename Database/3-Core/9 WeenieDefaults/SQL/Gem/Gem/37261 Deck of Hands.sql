@@ -23,6 +23,7 @@ VALUES (37261,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37261,  22, True ) /* Inscribable */
+     , (37261,  23, True ) /* DestroyOnSell */
      , (37261,  63, True ) /* UnlimitedUse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -33,10 +34,10 @@ VALUES (37261,   1, 'Deck of Hands') /* Name */
      , (37261,  16, 'A deck of cards, glowing with inner power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37261,   1,   33560546) /* Setup */
-     , (37261,   3,  536870932) /* SoundTable */
-     , (37261,   8,  100689861) /* Icon */
-     , (37261,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37261,   1, 0x020017E2) /* Setup */
+     , (37261,   3, 0x20000014) /* SoundTable */
+     , (37261,   8, 0x060067C5) /* Icon */
+     , (37261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37261,  28,       4280) /* Spell - CoordinationJesterDeck */
      , (37261, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (37261, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -44,4 +45,4 @@ VALUES (37261,   1,   33560546) /* Setup */
      , (37261, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37261, 8000, 2588663045) /* PCAPRecordedObjectIID */;
+VALUES (37261, 8000, 0x9A4BDD05) /* PCAPRecordedObjectIID */;

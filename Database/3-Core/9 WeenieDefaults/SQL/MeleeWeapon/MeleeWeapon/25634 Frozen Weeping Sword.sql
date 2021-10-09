@@ -53,17 +53,17 @@ VALUES (25634,   1, 'Frozen Weeping Sword') /* Name */
      , (25634,  25, 'Olthoi King') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25634,   1,   33558473) /* Setup */
-     , (25634,   3,  536870932) /* SoundTable */
-     , (25634,   6,   67114522) /* PaletteBase */
-     , (25634,   8,  100674909) /* Icon */
-     , (25634,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25634,   1, 0x02000FC9) /* Setup */
+     , (25634,   3, 0x20000014) /* SoundTable */
+     , (25634,   6, 0x0400161A) /* PaletteBase */
+     , (25634,   8, 0x06002D5D) /* Icon */
+     , (25634,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25634, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (25634, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25634, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25634, 8000, 2274286932) /* PCAPRecordedObjectIID */;
+VALUES (25634, 8000, 0x878EDD54) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25634,  2689,      2)  /* ModerateDaggerAptitude */;

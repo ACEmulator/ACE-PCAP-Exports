@@ -19,6 +19,7 @@ VALUES (14881,   1,      16384) /* ItemType - Key */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14881,  22, True ) /* Inscribable */
+     , (14881,  23, True ) /* DestroyOnSell */
      , (14881,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -27,17 +28,17 @@ VALUES (14881,   1, 'Martinate Trove Key') /* Name */
      , (14881,  16, 'A key that shines with virindi energy. The energy is slightly skewed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14881,   1,   33557000) /* Setup */
-     , (14881,   3,  536870932) /* SoundTable */
-     , (14881,   6,   67111346) /* PaletteBase */
-     , (14881,   8,  100672605) /* Icon */
-     , (14881,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14881,   1, 0x02000A08) /* Setup */
+     , (14881,   3, 0x20000014) /* SoundTable */
+     , (14881,   6, 0x040009B2) /* PaletteBase */
+     , (14881,   8, 0x0600245D) /* Icon */
+     , (14881,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14881, 8001,  271076368) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden, HookType */
      , (14881, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14881, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14881, 8000, 2872082503) /* PCAPRecordedObjectIID */;
+VALUES (14881, 8000, 0xAB308047) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14881, 67113796, 0, 0);

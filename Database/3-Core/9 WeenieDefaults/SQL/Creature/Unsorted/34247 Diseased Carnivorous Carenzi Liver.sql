@@ -12,36 +12,14 @@ VALUES (34247,   1,         16) /* ItemType - Creature */
      , (34247,  95,          3) /* RadarBlipColor - White */
      , (34247,  98, 1485595067) /* CreationTimestamp */
      , (34247, 267,        240) /* Lifespan */
-     , (34247, 268,        239) /* RemainingLifespan */
-     , (34247, 307,          0) /* DamageRating */
-     , (34247, 308,          0) /* DamageResistRating */
-     , (34247, 313,          0) /* CritRating */
-     , (34247, 314,          0) /* CritDamageRating */
-     , (34247, 315,          0) /* CritResistRating */
-     , (34247, 316,          0) /* CritDamageResistRating */
-     , (34247, 370,          0) /* GearDamage */
-     , (34247, 371,          0) /* GearDamageResist */
-     , (34247, 372,          0) /* GearCrit */
-     , (34247, 373,          0) /* GearCritResist */
-     , (34247, 374,          0) /* GearCritDamage */
-     , (34247, 375,          0) /* GearCritDamageResist */
-     , (34247, 376,          0) /* GearHealingBoost */
-     , (34247, 377,          0) /* GearNetherResist */
-     , (34247, 378,          0) /* GearLifeResist */
-     , (34247, 379,          0) /* GearMaxHealth */
-     , (34247, 381,          0) /* PKDamageRating */
-     , (34247, 382,          0) /* PKDamageResistRating */
-     , (34247, 383,          0) /* GearPKDamageRating */
-     , (34247, 384,          0) /* GearPKDamageResistRating */
-     , (34247, 386,          0) /* Overpower */
-     , (34247, 387,          0) /* OverpowerResist */
-     , (34247, 388,          0) /* GearOverpower */
-     , (34247, 389,          0) /* GearOverpowerResist */
      , (34247, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34247,   1, True ) /* Stuck */
-     , (34247,  19, False) /* Attackable */;
+     , (34247,  19, False) /* Attackable */
+     , (34247,  52, True ) /* AiImmobile */
+     , (34247,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (34247,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34247,  54,       5) /* UseRadius */;
@@ -52,18 +30,18 @@ VALUES (34247,   1, 'Diseased Carnivorous Carenzi Liver') /* Name */
      , (34247, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34247,   1,   33560137) /* Setup */
-     , (34247,   2,  150994980) /* MotionTable */
-     , (34247,   3,  536870932) /* SoundTable */
-     , (34247,   8,  100689684) /* Icon */
-     , (34247,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34247,   1, 0x02001649) /* Setup */
+     , (34247,   2, 0x09000024) /* MotionTable */
+     , (34247,   3, 0x20000014) /* SoundTable */
+     , (34247,   8, 0x06006714) /* Icon */
+     , (34247,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34247, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
      , (34247, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (34247, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34247, 8040, 533004324, 120.0371, 89.74165, 59.4993, -0.05295586, 0, 0, -0.9985968) /* PCAPRecordedLocation */
+VALUES (34247, 8040, 0x1FC50024, 120.0371, 89.74165, 59.4993, -0.052956, 0, 0, -0.998597) /* PCAPRecordedLocation */
 /* @teleloc 0x1FC50024 [120.037100 89.741650 59.499300] -0.052956 0.000000 0.000000 -0.998597 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34247, 8000, 2928706254) /* PCAPRecordedObjectIID */;
+VALUES (34247, 8000, 0xAE9082CE) /* PCAPRecordedObjectIID */;

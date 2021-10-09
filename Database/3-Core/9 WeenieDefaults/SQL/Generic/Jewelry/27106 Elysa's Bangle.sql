@@ -32,17 +32,17 @@ VALUES (27106,   1, 'Elysa''s Bangle') /* Name */
      , (27106,  16, 'This bracelet is gifted for your service to the Queen. The information you gathered to obtain this bracelet will prove invaluable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27106,   1,   33554683) /* Setup */
-     , (27106,   3,  536870932) /* SoundTable */
-     , (27106,   6,   67111919) /* PaletteBase */
-     , (27106,   8,  100675929) /* Icon */
-     , (27106,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27106,   1, 0x020000FB) /* Setup */
+     , (27106,   3, 0x20000014) /* SoundTable */
+     , (27106,   6, 0x04000BEF) /* PaletteBase */
+     , (27106,   8, 0x06003159) /* Icon */
+     , (27106,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27106, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (27106, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27106, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27106, 8000, 2618627058) /* PCAPRecordedObjectIID */;
+VALUES (27106, 8000, 0x9C1513F2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27106,   271,      2)  /* MagicResistanceOther4 */;

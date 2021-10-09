@@ -31,12 +31,12 @@ VALUES (49128,   1, 'Moar') /* Name */
      , (49128, 8006, 'BgA8AN271ttgA5ECu89RQ3E2PsNgke088O9BAOIOBEDNzMw9AADIQgAAgD8AAHBBAAAAAG96I0A=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49128,   1,   33561528) /* Setup */
-     , (49128,   2,  150995346) /* MotionTable */
-     , (49128,   3,  536871018) /* SoundTable */
-     , (49128,   6,   67116748) /* PaletteBase */
-     , (49128,   8,  100671185) /* Icon */
-     , (49128,  22,  872415415) /* PhysicsEffectTable */
+VALUES (49128,   1, 0x02001BB8) /* Setup */
+     , (49128,   2, 0x09000192) /* MotionTable */
+     , (49128,   3, 0x2000006A) /* SoundTable */
+     , (49128,   6, 0x04001ECC) /* PaletteBase */
+     , (49128,   8, 0x06001ED1) /* Icon */
+     , (49128,  22, 0x340000B7) /* PhysicsEffectTable */
      , (49128,  30,         84) /* PhysicsScript - BreatheFlame */
      , (49128, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49128, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
@@ -44,11 +44,11 @@ VALUES (49128,   1,   33561528) /* Setup */
      , (49128, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49128, 8040, 43057427, 218.3022, -209.0021, -23.964, -0.956201, 0, 0, -0.2927111) /* PCAPRecordedLocation */
+VALUES (49128, 8040, 0x02910113, 218.3022, -209.0021, -23.964, -0.956201, 0, 0, -0.292711) /* PCAPRecordedLocation */
 /* @teleloc 0x02910113 [218.302200 -209.002100 -23.964000] -0.956201 0.000000 0.000000 -0.292711 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49128, 8000, 3688182870) /* PCAPRecordedObjectIID */;
+VALUES (49128, 8000, 0xDBD53456) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49128,   1, 210, 0, 0) /* Strength */
@@ -62,9 +62,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49128,   1,  1250, 0, 0, 1370) /* MaxHealth */
      , (49128,   3,  1500, 0, 0, 1740) /* MaxStamina */
      , (49128,   5,   900, 0, 0, 1070) /* MaxMana */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49128, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49128, 67116757, 0, 0);

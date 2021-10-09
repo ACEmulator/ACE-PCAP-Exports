@@ -26,22 +26,22 @@ VALUES (35378,   1, 'Lord Cynreft Mhoire') /* Name */
      , (35378, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35378,   1,   33560298) /* Setup */
-     , (35378,   2,  150994981) /* MotionTable */
-     , (35378,   3,  536870942) /* SoundTable */
-     , (35378,   6,   67116522) /* PaletteBase */
-     , (35378,   8,  100669124) /* Icon */
-     , (35378,  22,  872415269) /* PhysicsEffectTable */
+VALUES (35378,   1, 0x020016EA) /* Setup */
+     , (35378,   2, 0x09000025) /* MotionTable */
+     , (35378,   3, 0x2000001E) /* SoundTable */
+     , (35378,   6, 0x04001DEA) /* PaletteBase */
+     , (35378,   8, 0x060016C4) /* Icon */
+     , (35378,  22, 0x34000025) /* PhysicsEffectTable */
      , (35378, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35378, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35378, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35378, 8040, 9765133, 20.5, -30, 0.003250003, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35378, 8040, 0x0095010D, 20.5, -30, 0.00325, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0095010D [20.500000 -30.000000 0.003250] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35378, 8000, 3682370371) /* PCAPRecordedObjectIID */;
+VALUES (35378, 8000, 0xDB7C8343) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (35378,   1,     0, 0, 0, 200250) /* MaxHealth */;
@@ -79,7 +79,17 @@ VALUES (35378, 2, 35394,  1, 0, 0, False) /* Create BloodScorch (35394) for Wiel
      , (35378, 9, 20417,  0, 0, 0, False) /* Create Scroll of Cabalastic Ostracism (20417) for ContainTreasure */
      , (35378, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (35378, 9, 20585,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other VII (20585) for ContainTreasure */
-     , (35378, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */;
+     , (35378, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
+     , (35378, 9, 49257,  0, 0, 0, False) /* Create Frost Zombie Essence (125) (49257) for ContainTreasure */
+     , (35378, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
+     , (35378, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (35378, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
+     , (35378, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */
+     , (35378, 9, 45432,  0, 0, 0, False) /* Create Acid Khanjar (45432) for ContainTreasure */
+     , (35378, 9, 20613,  0, 0, 0, False) /* Create Scroll of Energize Vigor (20613) for ContainTreasure */
+     , (35378, 9, 31807,  0, 0, 0, False) /* Create Blunt Compound Crossbow (31807) for ContainTreasure */
+     , (35378, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (35378, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35378, 67116525, 0, 0);

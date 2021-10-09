@@ -28,18 +28,18 @@ VALUES (45513,   1, 'Spectral Skull Gem') /* Name */
      , (45513,  16, 'A magical gem containing a Spectral Skull.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45513,   1,   33556769) /* Setup */
-     , (45513,   3,  536870932) /* SoundTable */
-     , (45513,   6,   67111919) /* PaletteBase */
-     , (45513,   8,  100673039) /* Icon */
-     , (45513,  22,  872415275) /* PhysicsEffectTable */
-     , (45513,  50,  100690863) /* IconOverlay */
+VALUES (45513,   1, 0x02000921) /* Setup */
+     , (45513,   3, 0x20000014) /* SoundTable */
+     , (45513,   6, 0x04000BEF) /* PaletteBase */
+     , (45513,   8, 0x0600260F) /* Icon */
+     , (45513,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45513,  50, 0x06006BAF) /* IconOverlay */
      , (45513, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (45513, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45513, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45513, 8000, 2639828575) /* PCAPRecordedObjectIID */;
+VALUES (45513, 8000, 0x9D58965F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45513, 67111927, 0, 0);

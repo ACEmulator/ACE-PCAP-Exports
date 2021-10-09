@@ -33,6 +33,7 @@ VALUES (35803,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35803,  22, True ) /* Inscribable */
+     , (35803,  23, True ) /* DestroyOnSell */
      , (35803,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -53,23 +54,23 @@ VALUES (35803,   1, 'Club of Killagurg') /* Name */
      , (35803,  16, 'A club that once belonged to the Colosseum champion, the Mosswart Killagurg.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35803,   1,   33556639) /* Setup */
-     , (35803,   3,  536870932) /* SoundTable */
-     , (35803,   6,   67111919) /* PaletteBase */
-     , (35803,   8,  100670759) /* Icon */
-     , (35803,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35803,   1, 0x0200089F) /* Setup */
+     , (35803,   3, 0x20000014) /* SoundTable */
+     , (35803,   6, 0x04000BEF) /* PaletteBase */
+     , (35803,   8, 0x06001D27) /* Icon */
+     , (35803,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35803, 8001,  270615056) /* PCAPRecordedWeenieHeader - Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (35803, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35803, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35803, 8000, 2186220486) /* PCAPRecordedObjectIID */;
+VALUES (35803, 8000, 0x824F13C6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35803,  1592,      2)  /* HeartSeekerSelf6 */
-     , (35803,  1627,      2)  /* SwiftKillerSelf6 */
+VALUES (35803,  1627,      2)  /* SwiftKillerSelf6 */
+     , (35803,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
      , (35803,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (35803,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */;
+     , (35803,  1592,      2)  /* HeartSeekerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35803, 67111919, 0, 0);

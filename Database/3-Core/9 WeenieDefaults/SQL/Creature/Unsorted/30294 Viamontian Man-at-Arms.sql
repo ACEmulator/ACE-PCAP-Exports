@@ -23,22 +23,22 @@ VALUES (30294,   1, 'Viamontian Man-at-Arms') /* Name */
      , (30294, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30294,   1,   33559125) /* Setup */
-     , (30294,   2,  150995334) /* MotionTable */
-     , (30294,   3,  536871102) /* SoundTable */
-     , (30294,   6,   67115468) /* PaletteBase */
-     , (30294,   8,  100677371) /* Icon */
-     , (30294,  22,  872415269) /* PhysicsEffectTable */
+VALUES (30294,   1, 0x02001255) /* Setup */
+     , (30294,   2, 0x09000186) /* MotionTable */
+     , (30294,   3, 0x200000BE) /* SoundTable */
+     , (30294,   6, 0x040019CC) /* PaletteBase */
+     , (30294,   8, 0x060036FB) /* Icon */
+     , (30294,  22, 0x34000025) /* PhysicsEffectTable */
      , (30294, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (30294, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (30294, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30294, 8040, 1573253, 68.8334, -180.75, 0.006267607, -0.8782967, 0, 0, 0.4781159) /* PCAPRecordedLocation */
+VALUES (30294, 8040, 0x00180185, 68.8334, -180.75, 0.006268, -0.878297, 0, 0, 0.478116) /* PCAPRecordedLocation */
 /* @teleloc 0x00180185 [68.833400 -180.750000 0.006268] -0.878297 0.000000 0.000000 0.478116 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30294, 8000, 3707925241) /* PCAPRecordedObjectIID */;
+VALUES (30294, 8000, 0xDD0272F9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30294, 2, 29981,  1, 0, 0, False) /* Create Throwing Axe (29981) for Wield */

@@ -53,27 +53,27 @@ VALUES (7795,   1, 'Frost Naginata') /* Name */
      , (7795,  16, 'Frost Naginata of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7795,   1,   33556663) /* Setup */
-     , (7795,   3,  536870932) /* SoundTable */
-     , (7795,   6,   67111919) /* PaletteBase */
-     , (7795,   8,  100670789) /* Icon */
-     , (7795,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7795,   1, 0x020008B7) /* Setup */
+     , (7795,   3, 0x20000014) /* SoundTable */
+     , (7795,   6, 0x04000BEF) /* PaletteBase */
+     , (7795,   8, 0x06001D45) /* Icon */
+     , (7795,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7795,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (7795,  52,  100676435) /* IconUnderlay */
+     , (7795,  52, 0x06003353) /* IconUnderlay */
      , (7795, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (7795, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (7795, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (7795, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7795, 8000, 2174234303) /* PCAPRecordedObjectIID */;
+VALUES (7795, 8000, 0x81982EBF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7795,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (7795,  4688,      2)  /* CANTRIPCOOKINGPROWESS3 */
+     , (7795,  4911,      2)  /* CANTRIPARMOR3 */
      , (7795,  4400,      2)  /* DefenderSelf8 */
-     , (7795,  4405,      2)  /* HeartSeekerSelf8 */
-     , (7795,  4688,      2)  /* CANTRIPCOOKINGPROWESS3 */
-     , (7795,  4911,      2)  /* CANTRIPARMOR3 */;
+     , (7795,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (7795,  4405,      2)  /* HeartSeekerSelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7795, 67111926, 0, 0);

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19584,   1,          8) /* ItemType - Jewelry */
      , (19584,   5,        150) /* EncumbranceVal */
      , (19584,   9,      32768) /* ValidLocations - NeckWear */
-     , (19584,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (19584,  16,          1) /* ItemUseable - No */
      , (19584,  18,         32) /* UiEffects - Fire */
      , (19584,  19,       5000) /* Value */
@@ -26,6 +25,7 @@ VALUES (19584,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19584,  22, True ) /* Inscribable */
+     , (19584,  23, True ) /* DestroyOnSell */
      , (19584,  69, False) /* IsSellable */
      , (19584,  94, True ) /* AppraisalHasAllowedActivator */
      , (19584,  99, True ) /* Ivoryable */;
@@ -40,17 +40,17 @@ VALUES (19584,   1, 'Nuhmudira''s Bestowment of Endurance and Fire Defense') /* 
      , (19584,  25, 'Sofia') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19584,   1,   33554687) /* Setup */
-     , (19584,   3,  536870932) /* SoundTable */
-     , (19584,   6,   67111919) /* PaletteBase */
-     , (19584,   8,  100672963) /* Icon */
-     , (19584,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19584,   1, 0x020000FF) /* Setup */
+     , (19584,   3, 0x20000014) /* SoundTable */
+     , (19584,   6, 0x04000BEF) /* PaletteBase */
+     , (19584,   8, 0x060025C3) /* Icon */
+     , (19584,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19584, 8001,  270762136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (19584, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19584, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19584, 8000, 2166067529) /* PCAPRecordedObjectIID */;
+VALUES (19584, 8000, 0x811B9149) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19584,  1095,      2)  /* FireProtectionOther5 */

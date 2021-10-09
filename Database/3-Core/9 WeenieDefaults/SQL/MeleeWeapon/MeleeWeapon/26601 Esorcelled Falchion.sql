@@ -47,25 +47,25 @@ VALUES (26601,   1, 'Esorcelled Falchion') /* Name */
      , (26601,  15, 'A strange blade once used by the Falatacot.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26601,   1,   33558592) /* Setup */
-     , (26601,   3,  536870932) /* SoundTable */
-     , (26601,   6,   67114956) /* PaletteBase */
-     , (26601,   8,  100675773) /* Icon */
-     , (26601,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26601,   1, 0x02001040) /* Setup */
+     , (26601,   3, 0x20000014) /* SoundTable */
+     , (26601,   6, 0x040017CC) /* PaletteBase */
+     , (26601,   8, 0x060030BD) /* Icon */
+     , (26601,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26601, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (26601, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26601, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26601, 8000, 3351895010) /* PCAPRecordedObjectIID */;
+VALUES (26601, 8000, 0xC7C9DBE2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26601,   164,      2)  /* RegenerationOther6 */
-     , (26601,  1360,      2)  /* EnduranceOther6 */
+VALUES (26601,  2689,      2)  /* ModerateDaggerAptitude */
      , (26601,  1605,      2)  /* DefenderSelf6 */
      , (26601,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (26601,  1360,      2)  /* EnduranceOther6 */
      , (26601,  1627,      2)  /* SwiftKillerSelf6 */
-     , (26601,  2689,      2)  /* ModerateDaggerAptitude */;
+     , (26601,   164,      2)  /* RegenerationOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26601, 67114955, 0, 0);

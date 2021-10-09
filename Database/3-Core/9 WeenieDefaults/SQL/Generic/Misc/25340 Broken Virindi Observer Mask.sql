@@ -14,24 +14,25 @@ VALUES (25340,   1,        128) /* ItemType - Misc */
      , (25340, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25340,  22, True ) /* Inscribable */;
+VALUES (25340,  22, True ) /* Inscribable */
+     , (25340,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25340,   1, 'Broken Virindi Observer Mask') /* Name */
      , (25340,  16, 'A black mask made out of some indeterminable metal that seems to reflect light in a strange manner. Occasionally the eyes glow with a violet radiance. Perhaps if you bring it a friendly Virindi, or a human who studies Virindi, they can repair it for you?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25340,   1,   33556827) /* Setup */
-     , (25340,   3,  536870932) /* SoundTable */
-     , (25340,   6,   67108990) /* PaletteBase */
-     , (25340,   8,  100674850) /* Icon */
-     , (25340,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25340,   1, 0x0200095B) /* Setup */
+     , (25340,   3, 0x20000014) /* SoundTable */
+     , (25340,   6, 0x0400007E) /* PaletteBase */
+     , (25340,   8, 0x06002D22) /* Icon */
+     , (25340,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25340, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (25340, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25340, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25340, 8000, 3695293059) /* PCAPRecordedObjectIID */;
+VALUES (25340, 8000, 0xDC41B283) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25340, 67116922, 240, 16);

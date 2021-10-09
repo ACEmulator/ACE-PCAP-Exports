@@ -20,17 +20,17 @@ VALUES (764,   1, 'Vitriol') /* Name */
      , (764,  20, 'Vitriol Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (764,   1,   33555209) /* Setup */
-     , (764,   3,  536870932) /* SoundTable */
-     , (764,   6,   67111919) /* PaletteBase */
-     , (764,   8,  100669714) /* Icon */
-     , (764,  22,  872415275) /* PhysicsEffectTable */
+VALUES (764,   1, 0x02000309) /* Setup */
+     , (764,   3, 0x20000014) /* SoundTable */
+     , (764,   6, 0x04000BEF) /* PaletteBase */
+     , (764,   8, 0x06001912) /* Icon */
+     , (764,  22, 0x3400002B) /* PhysicsEffectTable */
      , (764, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (764, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (764, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (764, 8000, 2856726419) /* PCAPRecordedObjectIID */;
+VALUES (764, 8000, 0xAA462F93) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (764, 67111924, 0, 0);

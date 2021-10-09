@@ -42,22 +42,22 @@ VALUES (28155,   1, 'Ashen Oculus') /* Name */
      , (28155,  16, 'A solidifed adolescent ash gromnie eye.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28155,   1,   33554809) /* Setup */
-     , (28155,   3,  536870932) /* SoundTable */
-     , (28155,   6,   67108990) /* PaletteBase */
-     , (28155,   8,  100676737) /* Icon */
-     , (28155,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28155,   1, 0x02000179) /* Setup */
+     , (28155,   3, 0x20000014) /* SoundTable */
+     , (28155,   6, 0x0400007E) /* PaletteBase */
+     , (28155,   8, 0x06003481) /* Icon */
+     , (28155,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28155, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (28155, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28155, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28155, 8000, 2274298741) /* PCAPRecordedObjectIID */;
+VALUES (28155, 8000, 0x878F0B75) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28155,  2158,      2)  /* LightningProtectionOther7 */
-     , (28155,  2622,      2)  /* CANTRIPSTORMWARD1 */
-     , (28155,  3371,      2)  /* lifegivergreater */;
+VALUES (28155,  3371,      2)  /* lifegivergreater */
+     , (28155,  2158,      2)  /* LightningProtectionOther7 */
+     , (28155,  2622,      2)  /* CANTRIPSTORMWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28155, 67115335, 240, 16);

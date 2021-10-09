@@ -27,13 +27,13 @@ VALUES (29130,   1, 'Ultra Green Hops') /* Name */
      , (29130,  20, 'Bags of Ultra Green Hops') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29130,   1,   33559182) /* Setup */
-     , (29130,   3,  536870932) /* SoundTable */
-     , (29130,   8,  100686449) /* Icon */
-     , (29130,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29130,   1, 0x0200128E) /* Setup */
+     , (29130,   3, 0x20000014) /* SoundTable */
+     , (29130,   8, 0x06005A71) /* Icon */
+     , (29130,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29130, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (29130, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29130, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29130, 8000, 3041246430) /* PCAPRecordedObjectIID */;
+VALUES (29130, 8000, 0xB545BCDE) /* PCAPRecordedObjectIID */;

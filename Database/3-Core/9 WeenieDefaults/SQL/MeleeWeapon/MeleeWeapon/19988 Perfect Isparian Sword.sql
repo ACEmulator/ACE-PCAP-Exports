@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19988,   1, 'Perfect Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19988,   1,   33556262) /* Setup */
-     , (19988,   3,  536870932) /* SoundTable */
-     , (19988,   6,   67111919) /* PaletteBase */
-     , (19988,   8,  100672945) /* Icon */
-     , (19988,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19988,   1, 0x02000726) /* Setup */
+     , (19988,   3, 0x20000014) /* SoundTable */
+     , (19988,   6, 0x04000BEF) /* PaletteBase */
+     , (19988,   8, 0x060025B1) /* Icon */
+     , (19988,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19988, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (19988, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19988, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19988, 8000, 2166200803) /* PCAPRecordedObjectIID */;
+VALUES (19988, 8000, 0x811D99E3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19988, 67111927, 0, 0);

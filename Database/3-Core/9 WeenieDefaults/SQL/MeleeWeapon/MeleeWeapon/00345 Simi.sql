@@ -49,22 +49,22 @@ VALUES (345,   1, 'Simi') /* Name */
      , (345,  16, 'Simi') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (345,   1,   33554751) /* Setup */
-     , (345,   3,  536870932) /* SoundTable */
-     , (345,   6,   67111919) /* PaletteBase */
-     , (345,   8,  100668996) /* Icon */
-     , (345,  22,  872415275) /* PhysicsEffectTable */
+VALUES (345,   1, 0x0200013F) /* Setup */
+     , (345,   3, 0x20000014) /* SoundTable */
+     , (345,   6, 0x04000BEF) /* PaletteBase */
+     , (345,   8, 0x06001644) /* Icon */
+     , (345,  22, 0x3400002B) /* PhysicsEffectTable */
      , (345,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (345, 8001,  270598680) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, ValidLocations, Burden, HookType */
      , (345, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (345, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (345, 8040, 3246326018, 32.68492, 105.4881, 29.45, 0.707721, 0, 0, 0.706492) /* PCAPRecordedLocation */
+VALUES (345, 8040, 0xC17F0102, 32.68492, 105.4881, 29.45, 0.707721, 0, 0, 0.706492) /* PCAPRecordedLocation */
 /* @teleloc 0xC17F0102 [32.684920 105.488100 29.450000] 0.707721 0.000000 0.000000 0.706492 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (345, 8000, 3694229010) /* PCAPRecordedObjectIID */;
+VALUES (345, 8000, 0xDC317612) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (345,  1615,      2)  /* BloodDrinkerSelf5 */;

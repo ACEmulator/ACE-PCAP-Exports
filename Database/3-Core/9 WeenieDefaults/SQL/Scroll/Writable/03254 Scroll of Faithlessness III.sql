@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3254,   1, 'Scroll of Faithlessness III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3254,   1,   33554826) /* Setup */
-     , (3254,   8,  100676446) /* Icon */
-     , (3254,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3254,   1, 0x0200018A) /* Setup */
+     , (3254,   8, 0x0600335E) /* Icon */
+     , (3254,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3254,  28,        966) /* Spell - FaithlessnessOther3 */
      , (3254, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3254, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3254, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3254, 8000, 2617760094) /* PCAPRecordedObjectIID */;
+VALUES (3254, 8000, 0x9C07D95E) /* PCAPRecordedObjectIID */;

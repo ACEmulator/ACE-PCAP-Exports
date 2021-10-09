@@ -15,7 +15,7 @@ VALUES (31807,   1,        256) /* ItemType - MissileWeapon */
      , (31807,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31807,  49,         93) /* WeaponTime */
      , (31807,  50,          2) /* AmmoType - Bolt */
-     , (31807,  51,          2) /* CombatUse - Missle */
+     , (31807,  51,          2) /* CombatUse - Missile */
      , (31807,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31807, 105,          8) /* ItemWorkmanship */
      , (31807, 106,        370) /* ItemSpellcraft */
@@ -55,23 +55,23 @@ VALUES (31807,   1, 'Blunt Compound Crossbow') /* Name */
      , (31807,  16, 'Blunt Compound Crossbow of Recklessness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31807,   1,   33559692) /* Setup */
-     , (31807,   3,  536870932) /* SoundTable */
-     , (31807,   6,   67116700) /* PaletteBase */
-     , (31807,   8,  100688056) /* Icon */
-     , (31807,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31807,   1, 0x0200148C) /* Setup */
+     , (31807,   3, 0x20000014) /* SoundTable */
+     , (31807,   6, 0x04001E9C) /* PaletteBase */
+     , (31807,   8, 0x060060B8) /* Icon */
+     , (31807,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31807,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (31807, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31807, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31807, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31807, 8000, 3690411582) /* PCAPRecordedObjectIID */;
+VALUES (31807, 8000, 0xDBF7363E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31807,  4395,      2)  /* BloodDrinkerSelf8 */
+VALUES (31807,  6089,      2)  /* CantripBloodThirst4 */
      , (31807,  5834,      2)  /* RecklessnessMasterySelf8 */
-     , (31807,  6089,      2)  /* CantripBloodThirst4 */;
+     , (31807,  4395,      2)  /* BloodDrinkerSelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31807, 67116700, 1, 100)

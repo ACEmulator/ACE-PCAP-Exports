@@ -33,17 +33,17 @@ VALUES (13218,   1, 'Academy Coat') /* Name */
      , (13218,  16, 'A fur coat awarded by the Academy to those who complete their training.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13218,   1,   33554644) /* Setup */
-     , (13218,   3,  536870932) /* SoundTable */
-     , (13218,   6,   67108990) /* PaletteBase */
-     , (13218,   8,  100671257) /* Icon */
-     , (13218,  22,  872415275) /* PhysicsEffectTable */
+VALUES (13218,   1, 0x020000D4) /* Setup */
+     , (13218,   3, 0x20000014) /* SoundTable */
+     , (13218,   6, 0x0400007E) /* PaletteBase */
+     , (13218,   8, 0x06001F19) /* Icon */
+     , (13218,  22, 0x3400002B) /* PhysicsEffectTable */
      , (13218, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (13218, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (13218, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13218, 8000, 2981046603) /* PCAPRecordedObjectIID */;
+VALUES (13218, 8000, 0xB1AF294B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (13218, 67113108, 72, 8)

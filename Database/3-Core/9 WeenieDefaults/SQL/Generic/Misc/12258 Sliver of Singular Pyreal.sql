@@ -21,16 +21,16 @@ VALUES (12258,   1, 'Sliver of Singular Pyreal') /* Name */
      , (12258,  16, 'A sliver of incredibly dense Singular Pyreal, imbued with Virindi magical energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12258,   1,   33557380) /* Setup */
-     , (12258,   3,  536870932) /* SoundTable */
-     , (12258,   8,  100672202) /* Icon */
-     , (12258,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12258,   1, 0x02000B84) /* Setup */
+     , (12258,   3, 0x20000014) /* SoundTable */
+     , (12258,   8, 0x060022CA) /* Icon */
+     , (12258,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12258, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (12258, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12258, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12258, 8000, 2596951322) /* PCAPRecordedObjectIID */;
+VALUES (12258, 8000, 0x9ACA551A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (12258, 0, 83893819, 83893820);

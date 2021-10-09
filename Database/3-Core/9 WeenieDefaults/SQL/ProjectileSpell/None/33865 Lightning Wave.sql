@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33865,   1, 'Lightning Wave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33865,   1,   33560059) /* Setup */
-     , (33865,   3,  536870968) /* SoundTable */
-     , (33865,   8,  100667494) /* Icon */
+VALUES (33865,   1, 0x020015FB) /* Setup */
+     , (33865,   3, 0x20000038) /* SoundTable */
+     , (33865,   8, 0x06001066) /* Icon */
      , (33865,  28,         75) /* Spell - LightningBolt1 */
      , (33865, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (33865, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (33865, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33865, 8040, 808386587, 92.50963, 62.06549, 125.9551, -0.9827896, 0, 0, -0.1847284) /* PCAPRecordedLocation */
+VALUES (33865, 8040, 0x302F001B, 92.50963, 62.06549, 125.9551, -0.98279, 0, 0, -0.184728) /* PCAPRecordedLocation */
 /* @teleloc 0x302F001B [92.509630 62.065490 125.955100] -0.982790 0.000000 0.000000 -0.184728 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33865, 8000, 2930966598) /* PCAPRecordedObjectIID */;
+VALUES (33865, 8000, 0xAEB30046) /* PCAPRecordedObjectIID */;

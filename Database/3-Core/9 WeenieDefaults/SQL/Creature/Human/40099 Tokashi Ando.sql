@@ -31,27 +31,27 @@ VALUES (40099,   1, 'Tokashi Ando') /* Name */
      , (40099, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40099,   1,   33554433) /* Setup */
-     , (40099,   2,  150994945) /* MotionTable */
-     , (40099,   3,  536870913) /* SoundTable */
-     , (40099,   6,   67108990) /* PaletteBase */
-     , (40099,   8,  100667446) /* Icon */
-     , (40099,   9,   83890447) /* EyesTexture */
-     , (40099,  10,   83890521) /* NoseTexture */
-     , (40099,  11,   83890641) /* MouthTexture */
-     , (40099,  15,   67117075) /* HairPalette */
-     , (40099,  16,   67110063) /* EyesPalette */
-     , (40099,  17,   67110054) /* SkinPalette */
+VALUES (40099,   1, 0x02000001) /* Setup */
+     , (40099,   2, 0x09000001) /* MotionTable */
+     , (40099,   3, 0x20000001) /* SoundTable */
+     , (40099,   6, 0x0400007E) /* PaletteBase */
+     , (40099,   8, 0x06001036) /* Icon */
+     , (40099,   9, 0x0500110F) /* EyesTexture */
+     , (40099,  10, 0x05001159) /* NoseTexture */
+     , (40099,  11, 0x050011D1) /* MouthTexture */
+     , (40099,  15, 0x04002013) /* HairPalette */
+     , (40099,  16, 0x040004AF) /* EyesPalette */
+     , (40099,  17, 0x040004A6) /* SkinPalette */
      , (40099, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (40099, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (40099, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40099, 8040, 829227066, 172.035, 41.7356, 290.005, 0.7485, 0, 0, -0.663135) /* PCAPRecordedLocation */
+VALUES (40099, 8040, 0x316D003A, 172.035, 41.7356, 290.005, 0.7485, 0, 0, -0.663135) /* PCAPRecordedLocation */
 /* @teleloc 0x316D003A [172.035000 41.735600 290.005000] 0.748500 0.000000 0.000000 -0.663135 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40099, 8000, 3360919287) /* PCAPRecordedObjectIID */;
+VALUES (40099, 8000, 0xC8538EF7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40099,   1, 290, 0, 0) /* Strength */

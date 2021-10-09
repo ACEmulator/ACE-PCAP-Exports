@@ -24,13 +24,13 @@ VALUES (1881,   1, 'Scroll of Flame Bane') /* Name */
 Increases a shield or piece of armor''s resistance to fire damage by 10%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1881,   1,   33554826) /* Setup */
-     , (1881,   8,  100676651) /* Icon */
-     , (1881,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1881,   1, 0x0200018A) /* Setup */
+     , (1881,   8, 0x0600342B) /* Icon */
+     , (1881,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1881,  28,       1547) /* Spell - FlameBane1 */
      , (1881, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1881, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1881, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1881, 8000, 3628899472) /* PCAPRecordedObjectIID */;
+VALUES (1881, 8000, 0xD84C9C90) /* PCAPRecordedObjectIID */;

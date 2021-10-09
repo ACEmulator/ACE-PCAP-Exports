@@ -19,7 +19,8 @@ VALUES (9098,   1,        128) /* ItemType - Misc */
      , (9098, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9098,  22, True ) /* Inscribable */;
+VALUES (9098,  22, True ) /* Inscribable */
+     , (9098,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9098,   1, 'Vial of Organic Acid') /* Name */
@@ -27,17 +28,17 @@ VALUES (9098,   1, 'Vial of Organic Acid') /* Name */
      , (9098,  16, 'A vial of deadly organic acid, taken from a Grievver.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9098,   1,   33556964) /* Setup */
-     , (9098,   3,  536870932) /* SoundTable */
-     , (9098,   6,   67111919) /* PaletteBase */
-     , (9098,   8,  100671366) /* Icon */
-     , (9098,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9098,   1, 0x020009E4) /* Setup */
+     , (9098,   3, 0x20000014) /* SoundTable */
+     , (9098,   6, 0x04000BEF) /* PaletteBase */
+     , (9098,   8, 0x06001F86) /* Icon */
+     , (9098,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9098, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (9098, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9098, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9098, 8000, 2274298680) /* PCAPRecordedObjectIID */;
+VALUES (9098, 8000, 0x878F0B38) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9098, 67111924, 0, 0);

@@ -27,17 +27,17 @@ VALUES (8651,   1, 'Minalim Dye Pot') /* Name */
      , (8651,  20, 'Minalim Dye Pots') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8651,   1,   33556753) /* Setup */
-     , (8651,   3,  536870932) /* SoundTable */
-     , (8651,   6,   67111919) /* PaletteBase */
-     , (8651,   8,  100670948) /* Icon */
-     , (8651,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8651,   1, 0x02000911) /* Setup */
+     , (8651,   3, 0x20000014) /* SoundTable */
+     , (8651,   6, 0x04000BEF) /* PaletteBase */
+     , (8651,   8, 0x06001DE4) /* Icon */
+     , (8651,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8651, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (8651, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8651, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8651, 8000, 2981037241) /* PCAPRecordedObjectIID */;
+VALUES (8651, 8000, 0xB1AF04B9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8651, 67111926, 0, 0);

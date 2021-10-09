@@ -20,22 +20,22 @@ VALUES (51399,   1, 'Simulacrum Doppelganger') /* Name */
      , (51399, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51399,   1,   33554433) /* Setup */
-     , (51399,   2,  150995141) /* MotionTable */
-     , (51399,   3,  536871043) /* SoundTable */
-     , (51399,   6,   67108990) /* PaletteBase */
-     , (51399,   8,  100667446) /* Icon */
-     , (51399,  22,  872415381) /* PhysicsEffectTable */
+VALUES (51399,   1, 0x02000001) /* Setup */
+     , (51399,   2, 0x090000C5) /* MotionTable */
+     , (51399,   3, 0x20000083) /* SoundTable */
+     , (51399,   6, 0x0400007E) /* PaletteBase */
+     , (51399,   8, 0x06001036) /* Icon */
+     , (51399,  22, 0x34000095) /* PhysicsEffectTable */
      , (51399, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51399, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (51399, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51399, 8040, 1483735772, 198.938, -120.99, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51399, 8040, 0x587002DC, 198.938, -120.99, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x587002DC [198.938000 -120.990000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51399, 8000, 3629701656) /* PCAPRecordedObjectIID */;
+VALUES (51399, 8000, 0xD858DA18) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (51399, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */;

@@ -19,17 +19,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26467,   1, 'Splinter of Wood') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26467,   1,   33554817) /* Setup */
-     , (26467,   3,  536870932) /* SoundTable */
-     , (26467,   6,   67111919) /* PaletteBase */
-     , (26467,   8,  100675812) /* Icon */
-     , (26467,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26467,   1, 0x02000181) /* Setup */
+     , (26467,   3, 0x20000014) /* SoundTable */
+     , (26467,   6, 0x04000BEF) /* PaletteBase */
+     , (26467,   8, 0x060030E4) /* Icon */
+     , (26467,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26467, 8001,    2113536) /* PCAPRecordedWeenieHeader - Container, Burden */
      , (26467, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26467, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26467, 8000, 2179219701) /* PCAPRecordedObjectIID */;
+VALUES (26467, 8000, 0x81E440F5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26467, 67111922, 0, 0);

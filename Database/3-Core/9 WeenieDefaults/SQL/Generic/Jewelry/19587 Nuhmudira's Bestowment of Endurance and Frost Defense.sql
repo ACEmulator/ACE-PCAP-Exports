@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19587,   1,          8) /* ItemType - Jewelry */
      , (19587,   5,        150) /* EncumbranceVal */
      , (19587,   9,      32768) /* ValidLocations - NeckWear */
-     , (19587,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (19587,  16,          1) /* ItemUseable - No */
      , (19587,  18,        128) /* UiEffects - Frost */
      , (19587,  19,       5000) /* Value */
@@ -26,6 +25,7 @@ VALUES (19587,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19587,  22, True ) /* Inscribable */
+     , (19587,  23, True ) /* DestroyOnSell */
      , (19587,  69, False) /* IsSellable */
      , (19587,  94, True ) /* AppraisalHasAllowedActivator */
      , (19587,  99, True ) /* Ivoryable */;
@@ -40,21 +40,21 @@ VALUES (19587,   1, 'Nuhmudira''s Bestowment of Endurance and Frost Defense') /*
      , (19587,  25, 'Eirene') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19587,   1,   33554687) /* Setup */
-     , (19587,   3,  536870932) /* SoundTable */
-     , (19587,   6,   67111919) /* PaletteBase */
-     , (19587,   8,  100672963) /* Icon */
-     , (19587,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19587,   1, 0x020000FF) /* Setup */
+     , (19587,   3, 0x20000014) /* SoundTable */
+     , (19587,   6, 0x04000BEF) /* PaletteBase */
+     , (19587,   8, 0x060025C3) /* Icon */
+     , (19587,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19587, 8001,  270762136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (19587, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19587, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19587, 8000, 2166186153) /* PCAPRecordedObjectIID */;
+VALUES (19587, 8000, 0x811D60A9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19587,  1040,      2)  /* ColdProtectionOther5 */
-     , (19587,  1359,      2)  /* EnduranceOther5 */
+VALUES (19587,  1359,      2)  /* EnduranceOther5 */
+     , (19587,  1040,      2)  /* ColdProtectionOther5 */
      , (19587,  2669,      2)  /* NuhmudirasBestowment */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

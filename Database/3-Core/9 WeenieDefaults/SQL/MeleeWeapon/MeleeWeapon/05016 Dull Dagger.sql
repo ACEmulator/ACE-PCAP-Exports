@@ -25,6 +25,7 @@ VALUES (5016,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5016,  22, True ) /* Inscribable */
+     , (5016,  23, True ) /* DestroyOnSell */
      , (5016,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -40,17 +41,17 @@ VALUES (5016,   1, 'Dull Dagger') /* Name */
      , (5016,  16, 'A dull dagger. The edge is horribly misshapen, this damaged edge could create vicious wounds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5016,   1,   33554735) /* Setup */
-     , (5016,   3,  536870932) /* SoundTable */
-     , (5016,   6,   67111919) /* PaletteBase */
-     , (5016,   8,  100668876) /* Icon */
-     , (5016,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5016,   1, 0x0200012F) /* Setup */
+     , (5016,   3, 0x20000014) /* SoundTable */
+     , (5016,   6, 0x04000BEF) /* PaletteBase */
+     , (5016,   8, 0x060015CC) /* Icon */
+     , (5016,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5016, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (5016, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5016, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5016, 8000, 2981039381) /* PCAPRecordedObjectIID */;
+VALUES (5016, 8000, 0xB1AF0D15) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5016, 67111920, 0, 0);

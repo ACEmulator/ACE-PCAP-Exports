@@ -25,17 +25,17 @@ VALUES (12157,   1, 'Asteliary Gem') /* Name */
      , (12157,  16, 'A magical gem pulsing with the power of the Asteliary Crafter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12157,   1,   33554809) /* Setup */
-     , (12157,   3,  536870932) /* SoundTable */
-     , (12157,   6,   67111919) /* PaletteBase */
-     , (12157,   8,  100670992) /* Icon */
-     , (12157,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12157,   1, 0x02000179) /* Setup */
+     , (12157,   3, 0x20000014) /* SoundTable */
+     , (12157,   6, 0x04000BEF) /* PaletteBase */
+     , (12157,   8, 0x06001E10) /* Icon */
+     , (12157,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12157, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (12157, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12157, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12157, 8000, 2874974193) /* PCAPRecordedObjectIID */;
+VALUES (12157, 8000, 0xAB5C9FF1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12157, 67112924, 0, 0);

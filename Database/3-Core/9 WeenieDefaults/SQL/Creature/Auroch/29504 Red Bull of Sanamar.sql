@@ -28,21 +28,21 @@ VALUES (29504,   1, 'Red Bull of Sanamar') /* Name */
      , (29504, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29504,   1,   33554478) /* Setup */
-     , (29504,   2,  150995337) /* MotionTable */
-     , (29504,   3,  536870916) /* SoundTable */
-     , (29504,   6,   67109302) /* PaletteBase */
-     , (29504,   8,  100667936) /* Icon */
+VALUES (29504,   1, 0x0200002E) /* Setup */
+     , (29504,   2, 0x09000189) /* MotionTable */
+     , (29504,   3, 0x20000004) /* SoundTable */
+     , (29504,   6, 0x040001B6) /* PaletteBase */
+     , (29504,   8, 0x06001220) /* Icon */
      , (29504, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (29504, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (29504, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29504, 8040, 869859355, 89.5717, 66.7747, 52.0085, 0.760468, 0, 0, 0.649376) /* PCAPRecordedLocation */
+VALUES (29504, 8040, 0x33D9001B, 89.5717, 66.7747, 52.0085, 0.760468, 0, 0, 0.649376) /* PCAPRecordedLocation */
 /* @teleloc 0x33D9001B [89.571700 66.774700 52.008500] 0.760468 0.000000 0.000000 0.649376 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29504, 8000, 3691225994) /* PCAPRecordedObjectIID */;
+VALUES (29504, 8000, 0xDC03A38A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29504,   1, 250, 0, 0) /* Strength */

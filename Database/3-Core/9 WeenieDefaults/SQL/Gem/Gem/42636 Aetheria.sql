@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42636,   1,       2048) /* ItemType - Gem */
      , (42636,   5,         50) /* EncumbranceVal */
      , (42636,   9, 1073741824) /* ValidLocations - SigilThree */
-     , (42636,  10, 1073741824) /* CurrentWieldedLocation - SigilThree */
      , (42636,  11,          1) /* MaxStackSize */
      , (42636,  12,          1) /* StackSize */
      , (42636,  13,         50) /* StackUnitEncumbrance */
@@ -36,19 +35,19 @@ VALUES (42636,   1, 'Aetheria') /* Name */
      , (42636,  16, 'This aetheria''s sigil now shows on the surface.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42636,   1,   33554809) /* Setup */
-     , (42636,   3,  536870932) /* SoundTable */
-     , (42636,   6,   67111919) /* PaletteBase */
-     , (42636,   8,  100690949) /* Icon */
-     , (42636,  22,  872415275) /* PhysicsEffectTable */
-     , (42636,  50,  100690999) /* IconOverlay */
+VALUES (42636,   1, 0x02000179) /* Setup */
+     , (42636,   3, 0x20000014) /* SoundTable */
+     , (42636,   6, 0x04000BEF) /* PaletteBase */
+     , (42636,   8, 0x06006C05) /* Icon */
+     , (42636,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42636,  50, 0x06006C37) /* IconOverlay */
      , (42636,  55,       5206) /* ProcSpell - AetheriaProcDamageReduction */
      , (42636, 8001, 1076080792) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, IconOverlay */
      , (42636, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42636, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42636, 8000, 3622674034) /* PCAPRecordedObjectIID */;
+VALUES (42636, 8000, 0xD7ED9E72) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42636, 67111924, 0, 0);

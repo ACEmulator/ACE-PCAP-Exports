@@ -22,6 +22,9 @@ VALUES (37516,   1,        128) /* ItemType - Misc */
      , (37516, 280,          5) /* SharedCooldown */
      , (37516, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (37516,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37516, 167,      30) /* CooldownDuration */;
 
@@ -31,18 +34,18 @@ VALUES (37516,   1, 'Enhanced Mana Elixir') /* Name */
      , (37516,  15, 'This elixir has been enhanced by the Arcanum to be extra potent.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37516,   1,   33554603) /* Setup */
-     , (37516,   3,  536870932) /* SoundTable */
-     , (37516,   6,   67111919) /* PaletteBase */
-     , (37516,   8,  100676324) /* Icon */
-     , (37516,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37516,   1, 0x020000AB) /* Setup */
+     , (37516,   3, 0x20000014) /* SoundTable */
+     , (37516,   6, 0x04000BEF) /* PaletteBase */
+     , (37516,   8, 0x060032E4) /* Icon */
+     , (37516,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37516, 8001,  270561432) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, HookType */
      , (37516, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (37516, 8003,   67141648) /* PCAPRecordedObjectDesc - Attackable, Food, IncludesSecondHeader */
      , (37516, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37516, 8000, 2400588300) /* PCAPRecordedObjectIID */;
+VALUES (37516, 8000, 0x8F16120C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37516, 67111919, 0, 0);

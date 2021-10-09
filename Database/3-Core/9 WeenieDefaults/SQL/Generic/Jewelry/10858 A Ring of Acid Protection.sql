@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10858,   1,          8) /* ItemType - Jewelry */
      , (10858,   5,         10) /* EncumbranceVal */
      , (10858,   9,     786432) /* ValidLocations - FingerWear */
-     , (10858,  10,     524288) /* CurrentWieldedLocation - FingerWearRight */
      , (10858,  16,          1) /* ItemUseable - No */
      , (10858,  18,          1) /* UiEffects - Magical */
      , (10858,  19,          0) /* Value */
@@ -23,6 +22,7 @@ VALUES (10858,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10858,  22, True ) /* Inscribable */
+     , (10858,  23, True ) /* DestroyOnSell */
      , (10858,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,17 +34,17 @@ VALUES (10858,   1, 'A Ring of Acid Protection') /* Name */
      , (10858,  15, 'A ring of acid protection, given by Behdo Yii for completing the Gardener quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10858,   1,   33554691) /* Setup */
-     , (10858,   3,  536870932) /* SoundTable */
-     , (10858,   6,   67111919) /* PaletteBase */
-     , (10858,   8,  100668662) /* Icon */
-     , (10858,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10858,   1, 0x02000103) /* Setup */
+     , (10858,   3, 0x20000014) /* SoundTable */
+     , (10858,   6, 0x04000BEF) /* PaletteBase */
+     , (10858,   8, 0x060014F6) /* Icon */
+     , (10858,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10858, 8001,  270762128) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (10858, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10858, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10858, 8000, 2981037244) /* PCAPRecordedObjectIID */;
+VALUES (10858, 8000, 0xB1AF04BC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10858,   240,      2)  /* InvulnerabilityOther2 */

@@ -23,16 +23,16 @@ VALUES (8190,   1, 'The Floating City') /* Name */
      , (8190, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8190,   1,   33554867) /* Setup */
-     , (8190,   2,  150994947) /* MotionTable */
-     , (8190,   8,  100667499) /* Icon */
+VALUES (8190,   1, 0x020001B3) /* Setup */
+     , (8190,   2, 0x09000003) /* MotionTable */
+     , (8190,   8, 0x0600106B) /* Icon */
      , (8190, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (8190, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (8190, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8190, 8040, 2249392139, 30.39695, 69.75774, 261.937, 0.8433914, 0, 0, -0.5372996) /* PCAPRecordedLocation */
+VALUES (8190, 8040, 0x8613000B, 30.39695, 69.75774, 261.937, 0.843391, 0, 0, -0.5373) /* PCAPRecordedLocation */
 /* @teleloc 0x8613000B [30.396950 69.757740 261.937000] 0.843391 0.000000 0.000000 -0.537300 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8190, 8000, 3708872223) /* PCAPRecordedObjectIID */;
+VALUES (8190, 8000, 0xDD10E61F) /* PCAPRecordedObjectIID */;

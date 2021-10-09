@@ -22,21 +22,21 @@ VALUES (37381,   1, 'Aerbax''s Shadow') /* Name */
      , (37381, 8006, 'AAA9AEAAAAAAAMA/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37381,   1,   33560393) /* Setup */
-     , (37381,   2,  150995409) /* MotionTable */
-     , (37381,   3,  536870930) /* SoundTable */
-     , (37381,   8,  100667943) /* Icon */
-     , (37381,  22,  872415273) /* PhysicsEffectTable */
+VALUES (37381,   1, 0x02001749) /* Setup */
+     , (37381,   2, 0x090001D1) /* MotionTable */
+     , (37381,   3, 0x20000012) /* SoundTable */
+     , (37381,   8, 0x06001227) /* Icon */
+     , (37381,  22, 0x34000029) /* PhysicsEffectTable */
      , (37381, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (37381, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (37381, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37381, 8040, 774832163, 106.9487, 60.90808, 125.5755, 0.8057799, 0, 0, -0.5922151) /* PCAPRecordedLocation */
+VALUES (37381, 8040, 0x2E2F0023, 106.9487, 60.90808, 125.5755, 0.80578, 0, 0, -0.592215) /* PCAPRecordedLocation */
 /* @teleloc 0x2E2F0023 [106.948700 60.908080 125.575500] 0.805780 0.000000 0.000000 -0.592215 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37381, 8000, 2931361481) /* PCAPRecordedObjectIID */;
+VALUES (37381, 8000, 0xAEB906C9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (37381,   1, 500, 0, 0) /* Strength */

@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26664,   1, 'Marked Fleshy Journal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26664,   1,   33558620) /* Setup */
-     , (26664,   3,  536870932) /* SoundTable */
-     , (26664,   8,  100675784) /* Icon */
-     , (26664,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26664,   1, 0x0200105C) /* Setup */
+     , (26664,   3, 0x20000014) /* SoundTable */
+     , (26664,   8, 0x060030C8) /* Icon */
+     , (26664,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26664, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (26664, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (26664, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26664, 8000, 2618442618) /* PCAPRecordedObjectIID */;
+VALUES (26664, 8000, 0x9C12437A) /* PCAPRecordedObjectIID */;

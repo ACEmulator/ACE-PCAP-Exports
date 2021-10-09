@@ -42,22 +42,22 @@ VALUES (32927,   1, 'White Rabbit Girth') /* Name */
      , (32927,  16, 'A rabbit hide girth with a fluffy bunny tail.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32927,   1,   33554647) /* Setup */
-     , (32927,   3,  536870932) /* SoundTable */
-     , (32927,   6,   67108990) /* PaletteBase */
-     , (32927,   8,  100688875) /* Icon */
-     , (32927,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32927,   1, 0x020000D7) /* Setup */
+     , (32927,   3, 0x20000014) /* SoundTable */
+     , (32927,   6, 0x0400007E) /* PaletteBase */
+     , (32927,   8, 0x060063EB) /* Icon */
+     , (32927,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32927, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (32927, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32927, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32927, 8000, 2982964700) /* PCAPRecordedObjectIID */;
+VALUES (32927, 8000, 0xB1CC6DDC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32927,  2108,      2)  /* Impenetrability7 */
-     , (32927,  2518,      2)  /* CANTRIPJUMPINGPROWESS2 */
-     , (32927,  2529,      2)  /* CANTRIPSPRINT2 */;
+VALUES (32927,  2518,      2)  /* CANTRIPJUMPINGPROWESS2 */
+     , (32927,  2529,      2)  /* CANTRIPSPRINT2 */
+     , (32927,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32927, 67116796, 80, 12)

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32637,   1,          2) /* ItemType - Armor */
      , (32637,   5,        600) /* EncumbranceVal */
      , (32637,   9,    2097152) /* ValidLocations - Shield */
-     , (32637,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (32637,  16,          1) /* ItemUseable - No */
      , (32637,  18,          1) /* UiEffects - Magical */
      , (32637,  19,       6000) /* Value */
@@ -21,22 +20,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32637,   1, 'Shield of Elysa''s Royal Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32637,   1,   33559815) /* Setup */
-     , (32637,   3,  536870932) /* SoundTable */
-     , (32637,   8,  100688556) /* Icon */
-     , (32637,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32637,   1, 0x02001507) /* Setup */
+     , (32637,   3, 0x20000014) /* SoundTable */
+     , (32637,   8, 0x060062AC) /* Icon */
+     , (32637,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32637, 8001,    2327192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (32637, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32637, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
      , (32637, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32637, 8040, 3130917120, 12.53137, 38.02179, 53.926, -0.1745667, 0.7450372, 0.3935777, 0.5094533) /* PCAPRecordedLocation */
+VALUES (32637, 8040, 0xBA9E0100, 12.53137, 38.02179, 53.926, -0.174567, 0.745037, 0.393578, 0.509453) /* PCAPRecordedLocation */
 /* @teleloc 0xBA9E0100 [12.531370 38.021790 53.926000] -0.174567 0.745037 0.393578 0.509453 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32637, 8000, 3691826061) /* PCAPRecordedObjectIID */
-     , (32637, 8008, 3691991138) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32637, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
+VALUES (32637, 8000, 0xDC0CCB8D) /* PCAPRecordedObjectIID */
+     , (32637, 8008, 0xDC0F5062) /* PCAPRecordedParentIID */;

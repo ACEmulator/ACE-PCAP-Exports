@@ -24,13 +24,13 @@ VALUES (20246,   1, 'Scroll of Gossamer Flesh') /* Name */
 Decreases the target''s natural armor by 225 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20246,   1,   33554826) /* Setup */
-     , (20246,   8,  100676928) /* Icon */
-     , (20246,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20246,   1, 0x0200018A) /* Setup */
+     , (20246,   8, 0x06003540) /* Icon */
+     , (20246,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20246,  28,       2074) /* Spell - ImperilOther7 */
      , (20246, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20246, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20246, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20246, 8000, 3681193858) /* PCAPRecordedObjectIID */;
+VALUES (20246, 8000, 0xDB6A8F82) /* PCAPRecordedObjectIID */;

@@ -34,21 +34,21 @@ VALUES (11400,   1, 'Aun Dreganaua the Elder Shaman') /* Name */
      , (11400, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11400,   1,   33557175) /* Setup */
-     , (11400,   2,  150995136) /* MotionTable */
-     , (11400,   3,  536871030) /* SoundTable */
-     , (11400,   6,   67113280) /* PaletteBase */
-     , (11400,   8,  100671756) /* Icon */
+VALUES (11400,   1, 0x02000AB7) /* Setup */
+     , (11400,   2, 0x090000C0) /* MotionTable */
+     , (11400,   3, 0x20000076) /* SoundTable */
+     , (11400,   6, 0x04001140) /* PaletteBase */
+     , (11400,   8, 0x0600210C) /* Icon */
      , (11400, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (11400, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (11400, 8005,     100547) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11400, 8040, 498466870, 150.216, 131.888, 120.007, -0.7173628, 0, 0, -0.6966998) /* PCAPRecordedLocation */
+VALUES (11400, 8040, 0x1DB60036, 150.216, 131.888, 120.007, -0.717363, 0, 0, -0.6967) /* PCAPRecordedLocation */
 /* @teleloc 0x1DB60036 [150.216000 131.888000 120.007000] -0.717363 0.000000 0.000000 -0.696700 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11400, 8000, 1910202394) /* PCAPRecordedObjectIID */;
+VALUES (11400, 8000, 0x71DB601A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11400,   1,  95, 0, 0) /* Strength */

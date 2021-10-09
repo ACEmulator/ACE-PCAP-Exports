@@ -26,17 +26,17 @@ VALUES (7075,   1, 'Twisted Drudge Ravener Guts') /* Name */
      , (7075,  16, 'A pair of Drudge Ravener guts twisted together.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7075,   1,   33554817) /* Setup */
-     , (7075,   3,  536870932) /* SoundTable */
-     , (7075,   6,   67111919) /* PaletteBase */
-     , (7075,   8,  100670678) /* Icon */
-     , (7075,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7075,   1, 0x02000181) /* Setup */
+     , (7075,   3, 0x20000014) /* SoundTable */
+     , (7075,   6, 0x04000BEF) /* PaletteBase */
+     , (7075,   8, 0x06001CD6) /* Icon */
+     , (7075,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7075, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7075, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7075, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7075, 8000, 2804100854) /* PCAPRecordedObjectIID */;
+VALUES (7075, 8000, 0xA7232EF6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7075, 67111918, 0, 0);

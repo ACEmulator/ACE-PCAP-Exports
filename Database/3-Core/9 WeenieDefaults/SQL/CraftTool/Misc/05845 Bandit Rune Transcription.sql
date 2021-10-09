@@ -19,7 +19,8 @@ VALUES (5845,   1,        128) /* ItemType - Misc */
      , (5845, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5845,  22, True ) /* Inscribable */;
+VALUES (5845,  22, True ) /* Inscribable */
+     , (5845,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5845,   1, 'Bandit Rune Transcription') /* Name */
@@ -27,13 +28,13 @@ VALUES (5845,   1, 'Bandit Rune Transcription') /* Name */
      , (5845,  16, 'Written transcription of Dericostian runes discovered on a Standing Stone near the Bandit Castle. The runes appear to be cut off, as if most of the message were missing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5845,   1,   33554773) /* Setup */
-     , (5845,   3,  536870932) /* SoundTable */
-     , (5845,   8,  100667493) /* Icon */
-     , (5845,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5845,   1, 0x02000155) /* Setup */
+     , (5845,   3, 0x20000014) /* SoundTable */
+     , (5845,   8, 0x06001065) /* Icon */
+     , (5845,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5845, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (5845, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5845, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5845, 8000, 3674976304) /* PCAPRecordedObjectIID */;
+VALUES (5845, 8000, 0xDB0BB030) /* PCAPRecordedObjectIID */;

@@ -22,11 +22,11 @@ VALUES (38770,   1, 'Infused Quill of Infliction') /* Name */
      , (38770,  20, 'Infused Quills of Infliction') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38770,   1,   33559616) /* Setup */
-     , (38770,   8,  100690196) /* Icon */
+VALUES (38770,   1, 0x02001440) /* Setup */
+     , (38770,   8, 0x06006914) /* Icon */
      , (38770, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (38770, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38770, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38770, 8000, 2158698208) /* PCAPRecordedObjectIID */;
+VALUES (38770, 8000, 0x80AB1EE0) /* PCAPRecordedObjectIID */;

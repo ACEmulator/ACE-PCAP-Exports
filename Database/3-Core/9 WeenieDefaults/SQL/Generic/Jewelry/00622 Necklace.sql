@@ -34,17 +34,17 @@ VALUES (622,   1, 'Necklace') /* Name */
      , (622,  16, 'Necklace of Item Tinkering') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (622,   1,   33554689) /* Setup */
-     , (622,   3,  536870932) /* SoundTable */
-     , (622,   6,   67111919) /* PaletteBase */
-     , (622,   8,  100668682) /* Icon */
-     , (622,  22,  872415275) /* PhysicsEffectTable */
+VALUES (622,   1, 0x02000101) /* Setup */
+     , (622,   3, 0x20000014) /* SoundTable */
+     , (622,   6, 0x04000BEF) /* PaletteBase */
+     , (622,   8, 0x0600150A) /* Icon */
+     , (622,  22, 0x3400002B) /* PhysicsEffectTable */
      , (622, 8001, 2166440088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, Workmanship, MaterialType */
      , (622, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (622, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (622, 8000, 3685584362) /* PCAPRecordedObjectIID */;
+VALUES (622, 8000, 0xDBAD8DEA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (622,   731,      2)  /* ItemExpertiseSelf6 */;

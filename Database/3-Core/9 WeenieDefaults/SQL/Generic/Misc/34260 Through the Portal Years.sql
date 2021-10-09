@@ -20,13 +20,13 @@ VALUES (34260,   1, 'Through the Portal Years') /* Name */
      , (34260,  16, 'A painting that has been enchanted to display scenes of humanity''s struggle on Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34260,   1,   33560129) /* Setup */
-     , (34260,   3,  536870932) /* SoundTable */
-     , (34260,   8,  100689251) /* Icon */
-     , (34260,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34260,   1, 0x02001641) /* Setup */
+     , (34260,   3, 0x20000014) /* SoundTable */
+     , (34260,   8, 0x06006563) /* Icon */
+     , (34260,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34260, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (34260, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34260, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34260, 8000, 2151959876) /* PCAPRecordedObjectIID */;
+VALUES (34260, 8000, 0x80444D44) /* PCAPRecordedObjectIID */;

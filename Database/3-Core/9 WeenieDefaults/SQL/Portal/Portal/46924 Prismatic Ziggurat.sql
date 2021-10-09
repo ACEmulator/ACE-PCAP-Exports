@@ -23,16 +23,16 @@ VALUES (46924,   1, 'Prismatic Ziggurat') /* Name */
      , (46924, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46924,   1,   33556212) /* Setup */
-     , (46924,   2,  150994947) /* MotionTable */
-     , (46924,   8,  100667499) /* Icon */
+VALUES (46924,   1, 0x020006F4) /* Setup */
+     , (46924,   2, 0x09000003) /* MotionTable */
+     , (46924,   8, 0x0600106B) /* Icon */
      , (46924, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (46924, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (46924, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46924, 8040, 3465806087, 34.941, 152.933, 13.592, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (46924, 8040, 0xCE940107, 34.941, 152.933, 13.592, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xCE940107 [34.941000 152.933000 13.592000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46924, 8000, 2095661077) /* PCAPRecordedObjectIID */;
+VALUES (46924, 8000, 0x7CE94015) /* PCAPRecordedObjectIID */;

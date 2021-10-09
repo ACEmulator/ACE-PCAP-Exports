@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15448,   1, 'Deadly Hollow Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15448,   1,   33556649) /* Setup */
-     , (15448,   3,  536870932) /* SoundTable */
-     , (15448,   8,  100668956) /* Icon */
-     , (15448,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15448,   1, 0x020008A9) /* Setup */
+     , (15448,   3, 0x20000014) /* SoundTable */
+     , (15448,   8, 0x0600161C) /* Icon */
+     , (15448,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15448, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (15448, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15448, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15448, 8000, 3688734927) /* PCAPRecordedObjectIID */;
+VALUES (15448, 8000, 0xDBDDA0CF) /* PCAPRecordedObjectIID */;

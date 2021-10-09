@@ -21,13 +21,13 @@ VALUES (28106,   1, 'A Missive') /* Name */
      , (28106,  16, 'A hand written note.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28106,   1,   33554773) /* Setup */
-     , (28106,   3,  536870932) /* SoundTable */
-     , (28106,   8,  100668176) /* Icon */
-     , (28106,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28106,   1, 0x02000155) /* Setup */
+     , (28106,   3, 0x20000014) /* SoundTable */
+     , (28106,   8, 0x06001310) /* Icon */
+     , (28106,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28106, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (28106, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (28106, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28106, 8000, 3176297184) /* PCAPRecordedObjectIID */;
+VALUES (28106, 8000, 0xBD5272E0) /* PCAPRecordedObjectIID */;

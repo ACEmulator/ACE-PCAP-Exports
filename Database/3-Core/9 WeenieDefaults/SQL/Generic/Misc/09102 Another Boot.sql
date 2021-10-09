@@ -14,24 +14,25 @@ VALUES (9102,   1,        128) /* ItemType - Misc */
      , (9102, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9102,  22, True ) /* Inscribable */;
+VALUES (9102,  22, True ) /* Inscribable */
+     , (9102,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9102,   1, 'Another Boot') /* Name */
      , (9102,  16, 'A boot for the right foot.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9102,   1,   33556978) /* Setup */
-     , (9102,   3,  536870932) /* SoundTable */
-     , (9102,   6,   67108990) /* PaletteBase */
-     , (9102,   8,  100671382) /* Icon */
-     , (9102,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9102,   1, 0x020009F2) /* Setup */
+     , (9102,   3, 0x20000014) /* SoundTable */
+     , (9102,   6, 0x0400007E) /* PaletteBase */
+     , (9102,   8, 0x06001F96) /* Icon */
+     , (9102,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9102, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (9102, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9102, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9102, 8000, 2150728037) /* PCAPRecordedObjectIID */;
+VALUES (9102, 8000, 0x80318165) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9102, 67110349, 160, 8);

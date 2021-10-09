@@ -33,16 +33,16 @@ VALUES (22023,   1, 'Mosswart Mask') /* Name */
      , (22023,  16, 'A finely sewed and cured Mosswart head, complete with cushions around the neck for active use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22023,   1,   33556824) /* Setup */
-     , (22023,   3,  536870932) /* SoundTable */
-     , (22023,   8,  100673679) /* Icon */
-     , (22023,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22023,   1, 0x02000958) /* Setup */
+     , (22023,   3, 0x20000014) /* SoundTable */
+     , (22023,   8, 0x0600288F) /* Icon */
+     , (22023,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22023, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (22023, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22023, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22023, 8000, 2982968615) /* PCAPRecordedObjectIID */;
+VALUES (22023, 8000, 0xB1CC7D27) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (22023, 0, 16788468);

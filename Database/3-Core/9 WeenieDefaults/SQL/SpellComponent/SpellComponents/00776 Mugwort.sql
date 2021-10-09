@@ -23,21 +23,21 @@ VALUES (776,   1, 'Mugwort') /* Name */
      , (776,  20, 'Sacks of Mugwort') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (776,   1,   33554817) /* Setup */
-     , (776,   3,  536870932) /* SoundTable */
-     , (776,   6,   67111919) /* PaletteBase */
-     , (776,   8,  100668428) /* Icon */
-     , (776,  22,  872415275) /* PhysicsEffectTable */
+VALUES (776,   1, 0x02000181) /* Setup */
+     , (776,   3, 0x20000014) /* SoundTable */
+     , (776,   6, 0x04000BEF) /* PaletteBase */
+     , (776,   8, 0x0600140C) /* Icon */
+     , (776,  22, 0x3400002B) /* PhysicsEffectTable */
      , (776, 8001,    2109465) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden */
      , (776, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (776, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (776, 8040, 2459238437, 111.5486, 100.1379, 83.71065, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (776, 8040, 0x92950025, 111.5486, 100.1379, 83.71065, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x92950025 [111.548600 100.137900 83.710650] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (776, 8000, 3685060324) /* PCAPRecordedObjectIID */;
+VALUES (776, 8000, 0xDBA58EE4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (776, 67111920, 0, 0);

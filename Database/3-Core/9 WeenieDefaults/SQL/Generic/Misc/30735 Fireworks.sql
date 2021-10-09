@@ -25,12 +25,12 @@ VALUES (30735,   1, 'Fireworks') /* Name */
      , (30735, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30735,   1,   33559221) /* Setup */
-     , (30735,   2,  150995328) /* MotionTable */
-     , (30735,   8,  100677402) /* Icon */
+VALUES (30735,   1, 0x020012B5) /* Setup */
+     , (30735,   2, 0x09000180) /* MotionTable */
+     , (30735,   8, 0x0600371A) /* Icon */
      , (30735, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
      , (30735, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30735, 8005,      65539) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30735, 8000, 3658160302) /* PCAPRecordedObjectIID */;
+VALUES (30735, 8000, 0xDA0B18AE) /* PCAPRecordedObjectIID */;

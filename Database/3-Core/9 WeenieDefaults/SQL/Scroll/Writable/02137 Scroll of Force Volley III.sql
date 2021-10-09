@@ -24,13 +24,13 @@ VALUES (2137,   1, 'Scroll of Force Volley III') /* Name */
 Shoots three bolts of force toward the target. Each bolt does 15-31 points of piercing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2137,   1,   33554826) /* Setup */
-     , (2137,   8,  100677019) /* Icon */
-     , (2137,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2137,   1, 0x0200018A) /* Setup */
+     , (2137,   8, 0x0600359B) /* Icon */
+     , (2137,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2137,  28,        147) /* Spell - ForceVolley3 */
      , (2137, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2137, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2137, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2137, 8000, 3631307393) /* PCAPRecordedObjectIID */;
+VALUES (2137, 8000, 0xD8715A81) /* PCAPRecordedObjectIID */;

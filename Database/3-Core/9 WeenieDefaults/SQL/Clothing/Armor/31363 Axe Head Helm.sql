@@ -39,23 +39,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31363,   1, 'Axe Head Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31363,   1,   33559541) /* Setup */
-     , (31363,   3,  536870932) /* SoundTable */
-     , (31363,   8,  100687735) /* Icon */
-     , (31363,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31363,   1, 0x020013F5) /* Setup */
+     , (31363,   3, 0x20000014) /* SoundTable */
+     , (31363,   8, 0x06005F77) /* Icon */
+     , (31363,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31363, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (31363, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31363, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31363, 8040, 3583574079, 179.7953, 161.3209, 374.06, 0.8217164, 0, 0, -0.5698966) /* PCAPRecordedLocation */
+VALUES (31363, 8040, 0xD599003F, 179.7953, 161.3209, 374.06, 0.821716, 0, 0, -0.569897) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [179.795300 161.320900 374.060000] 0.821716 0.000000 0.000000 -0.569897 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31363, 8000, 2926331773) /* PCAPRecordedObjectIID */;
+VALUES (31363, 8000, 0xAE6C477D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31363,   246,      2)  /* InvulnerabilitySelf3 */
+VALUES (31363,  1483,      2)  /* Impenetrability3 */
+     , (31363,  1561,      2)  /* BladeBane5 */
      , (31363,  1310,      2)  /* ArmorSelf4 */
-     , (31363,  1483,      2)  /* Impenetrability3 */
-     , (31363,  1561,      2)  /* BladeBane5 */;
+     , (31363,   246,      2)  /* InvulnerabilitySelf3 */;

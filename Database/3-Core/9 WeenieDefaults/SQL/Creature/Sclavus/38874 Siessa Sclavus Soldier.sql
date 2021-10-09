@@ -25,22 +25,22 @@ VALUES (38874,   1, 'Siessa Sclavus Soldier') /* Name */
      , (38874, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38874,   1,   33560595) /* Setup */
-     , (38874,   2,  150995048) /* MotionTable */
-     , (38874,   3,  536870977) /* SoundTable */
-     , (38874,   6,   67111936) /* PaletteBase */
-     , (38874,   8,  100669120) /* Icon */
-     , (38874,  22,  872415280) /* PhysicsEffectTable */
+VALUES (38874,   1, 0x02001813) /* Setup */
+     , (38874,   2, 0x09000068) /* MotionTable */
+     , (38874,   3, 0x20000041) /* SoundTable */
+     , (38874,   6, 0x04000C00) /* PaletteBase */
+     , (38874,   8, 0x060016C0) /* Icon */
+     , (38874,  22, 0x34000030) /* PhysicsEffectTable */
      , (38874, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (38874, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (38874, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38874, 8040, 2665807923, 151.4394, 63.24167, 83.2399, 0.002632309, 0, 0, 0.9999965) /* PCAPRecordedLocation */
+VALUES (38874, 8040, 0x9EE50033, 151.4394, 63.24167, 83.2399, 0.002632, 0, 0, 0.999997) /* PCAPRecordedLocation */
 /* @teleloc 0x9EE50033 [151.439400 63.241670 83.239900] 0.002632 0.000000 0.000000 0.999997 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38874, 8000, 3709135608) /* PCAPRecordedObjectIID */;
+VALUES (38874, 8000, 0xDD14EAF8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (38874,   1,     0, 0, 0, 1215) /* MaxHealth */;

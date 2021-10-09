@@ -20,17 +20,17 @@ VALUES (754,   1, 'Cadmia') /* Name */
      , (754,  20, 'Cadmia Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (754,   1,   33555209) /* Setup */
-     , (754,   3,  536870932) /* SoundTable */
-     , (754,   6,   67111919) /* PaletteBase */
-     , (754,   8,  100668374) /* Icon */
-     , (754,  22,  872415275) /* PhysicsEffectTable */
+VALUES (754,   1, 0x02000309) /* Setup */
+     , (754,   3, 0x20000014) /* SoundTable */
+     , (754,   6, 0x04000BEF) /* PaletteBase */
+     , (754,   8, 0x060013D6) /* Icon */
+     , (754,  22, 0x3400002B) /* PhysicsEffectTable */
      , (754, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (754, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (754, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (754, 8000, 2186220423) /* PCAPRecordedObjectIID */;
+VALUES (754, 8000, 0x824F1387) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (754, 67111927, 0, 0);

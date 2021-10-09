@@ -24,13 +24,13 @@ VALUES (5945,   1, 'Scroll of Cooking Ineptitude Other II') /* Name */
 Decreases the target''s Cooking skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5945,   1,   33554826) /* Setup */
-     , (5945,   8,  100676451) /* Icon */
-     , (5945,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5945,   1, 0x0200018A) /* Setup */
+     , (5945,   8, 0x06003363) /* Icon */
+     , (5945,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5945,  28,       1722) /* Spell - CookingIneptitudeOther2 */
      , (5945, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5945, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5945, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5945, 8000, 2264331450) /* PCAPRecordedObjectIID */;
+VALUES (5945, 8000, 0x86F6F4BA) /* PCAPRecordedObjectIID */;

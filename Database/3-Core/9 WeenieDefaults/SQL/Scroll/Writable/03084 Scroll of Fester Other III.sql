@@ -24,13 +24,13 @@ VALUES (3084,   1, 'Scroll of Fester Other III') /* Name */
 Decrease target''s natural healing rate by 29%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3084,   1,   33554826) /* Setup */
-     , (3084,   8,  100676941) /* Icon */
-     , (3084,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3084,   1, 0x0200018A) /* Setup */
+     , (3084,   8, 0x0600354D) /* Icon */
+     , (3084,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3084,  28,        173) /* Spell - FesterOther3 */
      , (3084, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3084, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3084, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3084, 8000, 2283170329) /* PCAPRecordedObjectIID */;
+VALUES (3084, 8000, 0x88166A19) /* PCAPRecordedObjectIID */;

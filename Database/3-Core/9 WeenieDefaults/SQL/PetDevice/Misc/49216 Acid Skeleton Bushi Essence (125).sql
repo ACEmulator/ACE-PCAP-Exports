@@ -17,7 +17,7 @@ VALUES (49216,   1,        128) /* ItemType - Misc */
      , (49216, 105,          7) /* ItemWorkmanship */
      , (49216, 114,          0) /* Attuned - Normal */
      , (49216, 280,        213) /* SharedCooldown */
-     , (49216, 366,         54) /* UseRequiresSkill */
+     , (49216, 366,         54) /* UseRequiresSkill - Summoning */
      , (49216, 367,        430) /* UseRequiresSkillLevel */
      , (49216, 369,        115) /* UseRequiresLevel */
      , (49216, 372,         12) /* GearCrit */
@@ -38,23 +38,20 @@ VALUES (49216,   1, 'Acid Skeleton Bushi Essence (125)') /* Name */
      , (49216,  14, 'Use this essence to summon or dismiss your Acid Skeleton Bushi.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49216,   1,   33554817) /* Setup */
-     , (49216,   3,  536870932) /* SoundTable */
-     , (49216,   6,   67111919) /* PaletteBase */
-     , (49216,   8,  100669124) /* Icon */
-     , (49216,  22,  872415275) /* PhysicsEffectTable */
-     , (49216,  50,  100693029) /* IconOverlay */
-     , (49216,  52,  100693024) /* IconUnderlay */
+VALUES (49216,   1, 0x02000181) /* Setup */
+     , (49216,   3, 0x20000014) /* SoundTable */
+     , (49216,   6, 0x04000BEF) /* PaletteBase */
+     , (49216,   8, 0x060016C4) /* Icon */
+     , (49216,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49216,  50, 0x06007425) /* IconOverlay */
+     , (49216,  52, 0x06007420) /* IconUnderlay */
      , (49216, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49216, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49216, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49216, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49216, 8000, 3682990904) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49216, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
+VALUES (49216, 8000, 0xDB85FB38) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49216, 67111920, 0, 0);

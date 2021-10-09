@@ -20,6 +20,7 @@ VALUES (30457,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30457,  22, True ) /* Inscribable */
+     , (30457,  23, True ) /* DestroyOnSell */
      , (30457,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -30,17 +31,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30457,   1, 'Circlet of Shielding') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30457,   1,   33554691) /* Setup */
-     , (30457,   3,  536870932) /* SoundTable */
-     , (30457,   6,   67111919) /* PaletteBase */
-     , (30457,   8,  100668662) /* Icon */
-     , (30457,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30457,   1, 0x02000103) /* Setup */
+     , (30457,   3, 0x20000014) /* SoundTable */
+     , (30457,   6, 0x04000BEF) /* PaletteBase */
+     , (30457,   8, 0x060014F6) /* Icon */
+     , (30457,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30457, 8001,    2179096) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden */
      , (30457, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30457, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30457, 8000, 2153621387) /* PCAPRecordedObjectIID */;
+VALUES (30457, 8000, 0x805DA78B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30457,   279,      2)  /* MagicResistanceSelf6 */

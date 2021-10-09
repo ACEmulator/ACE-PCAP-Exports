@@ -53,18 +53,18 @@ VALUES (45099,   1, 'Epee') /* Name */
      , (45099,  16, 'Epee of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45099,   1,   33561436) /* Setup */
-     , (45099,   3,  536870932) /* SoundTable */
-     , (45099,   6,   67111919) /* PaletteBase */
-     , (45099,   8,  100692288) /* Icon */
-     , (45099,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45099,   1, 0x02001B5C) /* Setup */
+     , (45099,   3, 0x20000014) /* SoundTable */
+     , (45099,   6, 0x04000BEF) /* PaletteBase */
+     , (45099,   8, 0x06007140) /* Icon */
+     , (45099,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45099,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (45099, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45099, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45099, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45099, 8000, 3690558471) /* PCAPRecordedObjectIID */;
+VALUES (45099, 8000, 0xDBF97407) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45099,  1615,      2)  /* BloodDrinkerSelf5 */;

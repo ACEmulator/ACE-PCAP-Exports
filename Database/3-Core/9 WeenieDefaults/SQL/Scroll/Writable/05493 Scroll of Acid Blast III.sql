@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5493,   1, 'Scroll of Acid Blast III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5493,   1,   33554826) /* Setup */
-     , (5493,   8,  100677026) /* Icon */
-     , (5493,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5493,   1, 0x0200018A) /* Setup */
+     , (5493,   8, 0x060035A2) /* Icon */
+     , (5493,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5493,  28,         99) /* Spell - AcidBlast3 */
      , (5493, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5493, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5493, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5493, 8000, 3627491266) /* PCAPRecordedObjectIID */;
+VALUES (5493, 8000, 0xD8371FC2) /* PCAPRecordedObjectIID */;

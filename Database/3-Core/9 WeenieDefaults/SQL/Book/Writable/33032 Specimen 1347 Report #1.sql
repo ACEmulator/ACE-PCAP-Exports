@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33032,   1, 'Specimen 1347 Report #1') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33032,   1,   33554773) /* Setup */
-     , (33032,   3,  536870932) /* SoundTable */
-     , (33032,   8,  100674008) /* Icon */
-     , (33032,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33032,   1, 0x02000155) /* Setup */
+     , (33032,   3, 0x20000014) /* SoundTable */
+     , (33032,   8, 0x060029D8) /* Icon */
+     , (33032,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33032, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (33032, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (33032, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33032, 8000, 2153709946) /* PCAPRecordedObjectIID */;
+VALUES (33032, 8000, 0x805F017A) /* PCAPRecordedObjectIID */;

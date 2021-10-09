@@ -14,6 +14,9 @@ VALUES (35480,   1,        128) /* ItemType - Misc */
      , (35480, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (35480, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (35480,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35480,  39,     0.2) /* DefaultScale */
      , (35480,  54,       1) /* UseRadius */
@@ -25,20 +28,20 @@ VALUES (35480,   1, 'Watcher''s Message Shard') /* Name */
      , (35480,  15, 'This shard of black obsidian throbs with the unwholesome magical emanations of the chaotic Virindi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35480,   1,   33555391) /* Setup */
-     , (35480,   3,  536870932) /* SoundTable */
-     , (35480,   8,  100671183) /* Icon */
-     , (35480,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35480,   1, 0x020003BF) /* Setup */
+     , (35480,   3, 0x20000014) /* SoundTable */
+     , (35480,   8, 0x06001ECF) /* Icon */
+     , (35480,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35480, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (35480, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (35480, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35480, 8000, 3709596139) /* PCAPRecordedObjectIID */;
+VALUES (35480, 8000, 0xDD1BF1EB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (35480, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (35480, 0, 4294967295, 'prewritten', 'Password is cheese', False, '[You cannot understand the writing on this.]
+VALUES (35480, 0, 4294967295, '', 'prewritten', False, '[You cannot understand the writing on this.]
 ');

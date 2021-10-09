@@ -24,15 +24,15 @@ VALUES (32802,   1, 'Black Ball') /* Name */
      , (32802,  16, 'A dangerously unstable substance dropped by a black breath.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32802,   1,   33559853) /* Setup */
-     , (32802,   6,   67111928) /* PaletteBase */
-     , (32802,   8,  100668730) /* Icon */
+VALUES (32802,   1, 0x0200152D) /* Setup */
+     , (32802,   6, 0x04000BF8) /* PaletteBase */
+     , (32802,   8, 0x0600153A) /* Icon */
      , (32802, 8001,  270549136) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden, HookType */
      , (32802, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32802, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32802, 8000, 2148384191) /* PCAPRecordedObjectIID */;
+VALUES (32802, 8000, 0x800DBDBF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32802, 67111925, 0, 0);

@@ -38,17 +38,17 @@ VALUES (12739,   1, 'Training Dirk') /* Name */
      , (12739,  15, 'A basic dirk forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12739,   1,   33558089) /* Setup */
-     , (12739,   3,  536870932) /* SoundTable */
-     , (12739,   6,   67111919) /* PaletteBase */
-     , (12739,   8,  100668884) /* Icon */
-     , (12739,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12739,   1, 0x02000E49) /* Setup */
+     , (12739,   3, 0x20000014) /* SoundTable */
+     , (12739,   6, 0x04000BEF) /* PaletteBase */
+     , (12739,   8, 0x060015D4) /* Icon */
+     , (12739,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12739, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (12739, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12739, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12739, 8000, 3658160283) /* PCAPRecordedObjectIID */;
+VALUES (12739, 8000, 0xDA0B189B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12739, 67111926, 0, 0);

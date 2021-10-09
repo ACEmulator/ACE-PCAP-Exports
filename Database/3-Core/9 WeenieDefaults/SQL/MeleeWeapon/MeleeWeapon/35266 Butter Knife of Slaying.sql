@@ -47,19 +47,19 @@ VALUES (35266,   1, 'Butter Knife of Slaying') /* Name */
      , (35266,  16, 'This butter knife has mystic runes carved upon it, which probably mean something like, "Get ye hence, foul minions of dough!" Or, maybe, "Eat at Chow''s." Anyways, it''s supposed to be very good at destroying creatures that are made primarily of food. It also works on sentient ovens, for some reason you don''t understand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35266,   1,   33554745) /* Setup */
-     , (35266,   3,  536870932) /* SoundTable */
-     , (35266,   8,  100667598) /* Icon */
-     , (35266,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35266,   1, 0x02000139) /* Setup */
+     , (35266,   3, 0x20000014) /* SoundTable */
+     , (35266,   8, 0x060010CE) /* Icon */
+     , (35266,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35266, 8001,    2179608) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden */
      , (35266, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35266, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35266, 8000, 2909234285) /* PCAPRecordedObjectIID */;
+VALUES (35266, 8000, 0xAD67646D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35266,   318,      2)  /* DaggerMasteryOther3 */
-     , (35266,  1613,      2)  /* BloodDrinkerSelf3 */
+VALUES (35266,  1613,      2)  /* BloodDrinkerSelf3 */
      , (35266,  1624,      2)  /* SwiftKillerSelf3 */
-     , (35266,  1711,      2)  /* CookingMasteryOther3 */;
+     , (35266,  1711,      2)  /* CookingMasteryOther3 */
+     , (35266,   318,      2)  /* FinesseWeaponsMasteryOther3 */;

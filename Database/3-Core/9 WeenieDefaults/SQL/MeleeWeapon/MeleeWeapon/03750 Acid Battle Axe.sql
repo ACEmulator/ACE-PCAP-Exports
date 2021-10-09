@@ -48,14 +48,14 @@ VALUES (3750,   1, 'Acid Battle Axe') /* Name */
      , (3750,  16, 'Acid Battle Axe') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3750,   1,   33555687) /* Setup */
-     , (3750,   3,  536870932) /* SoundTable */
-     , (3750,   8,  100668986) /* Icon */
-     , (3750,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3750,   1, 0x020004E7) /* Setup */
+     , (3750,   3, 0x20000014) /* SoundTable */
+     , (3750,   8, 0x0600163A) /* Icon */
+     , (3750,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3750,  30,         88) /* PhysicsScript - Create */
      , (3750, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3750, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3750, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3750, 8000, 3469525126) /* PCAPRecordedObjectIID */;
+VALUES (3750, 8000, 0xCECCC086) /* PCAPRecordedObjectIID */;

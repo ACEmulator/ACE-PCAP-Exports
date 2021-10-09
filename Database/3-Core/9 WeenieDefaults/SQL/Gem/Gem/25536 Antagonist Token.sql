@@ -21,16 +21,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25536,   1, 'Antagonist Token') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25536,   1,   33557280) /* Setup */
-     , (25536,   3,  536870932) /* SoundTable */
-     , (25536,   8,  100674958) /* Icon */
-     , (25536,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25536,   1, 0x02000B20) /* Setup */
+     , (25536,   3, 0x20000014) /* SoundTable */
+     , (25536,   8, 0x06002D8E) /* Icon */
+     , (25536,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25536, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (25536, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25536, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25536, 8000, 2294355816) /* PCAPRecordedObjectIID */;
+VALUES (25536, 8000, 0x88C11768) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (25536, 0, 83893723, 83893850)

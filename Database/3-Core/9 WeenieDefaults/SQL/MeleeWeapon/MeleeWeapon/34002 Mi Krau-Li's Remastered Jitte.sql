@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34002,   1,          1) /* ItemType - MeleeWeapon */
      , (34002,   5,        300) /* EncumbranceVal */
      , (34002,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (34002,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (34002,  16,          1) /* ItemUseable - No */
      , (34002,  18,          1) /* UiEffects - Magical */
      , (34002,  19,       5000) /* Value */
@@ -34,6 +33,7 @@ VALUES (34002,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34002,  22, True ) /* Inscribable */
+     , (34002,  23, True ) /* DestroyOnSell */
      , (34002,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -52,10 +52,10 @@ VALUES (34002,   1, 'Mi Krau-Li''s Remastered Jitte') /* Name */
      , (34002,  16, 'A powerful resistance cleaving jitte made by Mi Krau-Li.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34002,   1,   33560100) /* Setup */
-     , (34002,   3,  536870932) /* SoundTable */
-     , (34002,   8,  100689109) /* Icon */
-     , (34002,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34002,   1, 0x02001624) /* Setup */
+     , (34002,   3, 0x20000014) /* SoundTable */
+     , (34002,   8, 0x060064D5) /* Icon */
+     , (34002,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34002,  55,       1053) /* ProcSpell - BludgeonVulnerabilityOther6 */
      , (34002, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (34002, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -63,16 +63,16 @@ VALUES (34002,   1,   33560100) /* Setup */
      , (34002, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34002, 8040, 3332964361, 46.83, 4.219, 41.929, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (34002, 8040, 0xC6A90009, 46.83, 4.219, 41.929, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90009 [46.830000 4.219000 41.929000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34002, 8000, 3426184034) /* PCAPRecordedObjectIID */
-     , (34002, 8008, 1343484099) /* PCAPRecordedParentIID */;
+VALUES (34002, 8000, 0xCC376B62) /* PCAPRecordedObjectIID */
+     , (34002, 8008, 0x5013F0C3) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34002,   321,      2)  /* DaggerMasteryOther6 */
-     , (34002,  1592,      2)  /* HeartSeekerSelf6 */
+VALUES (34002,   321,      2)  /* FinesseWeaponsMasteryOther6 */
      , (34002,  1605,      2)  /* DefenderSelf6 */
      , (34002,  1627,      2)  /* SwiftKillerSelf6 */
-     , (34002,  2096,      2)  /* BloodDrinkerSelf7 */;
+     , (34002,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (34002,  1592,      2)  /* HeartSeekerSelf6 */;

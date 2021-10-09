@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44883,   1, 'Contract for Killtask: Gurog Minions') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44883,   1,   33557625) /* Setup */
-     , (44883,   3,  536870932) /* SoundTable */
-     , (44883,   8,  100691928) /* Icon */
-     , (44883,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44883,   1, 0x02000C79) /* Setup */
+     , (44883,   3, 0x20000014) /* SoundTable */
+     , (44883,   8, 0x06006FD8) /* Icon */
+     , (44883,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44883, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44883, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44883, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (44883,   1,   33557625) /* Setup */
      , (44883, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44883, 8000,      44883) /* PCAPRecordedObjectIID */;
+VALUES (44883, 8000, 0x0000AF53) /* PCAPRecordedObjectIID */;

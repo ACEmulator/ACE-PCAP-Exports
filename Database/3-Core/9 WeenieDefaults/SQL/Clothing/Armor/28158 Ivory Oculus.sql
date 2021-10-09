@@ -40,22 +40,22 @@ VALUES (28158,   1, 'Ivory Oculus') /* Name */
      , (28158,  16, 'A solidifed adolescent ivory gromnie eye.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28158,   1,   33554809) /* Setup */
-     , (28158,   3,  536870932) /* SoundTable */
-     , (28158,   6,   67108990) /* PaletteBase */
-     , (28158,   8,  100676740) /* Icon */
-     , (28158,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28158,   1, 0x02000179) /* Setup */
+     , (28158,   3, 0x20000014) /* SoundTable */
+     , (28158,   6, 0x0400007E) /* PaletteBase */
+     , (28158,   8, 0x06003484) /* Icon */
+     , (28158,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28158, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (28158, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28158, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28158, 8000, 2164416876) /* PCAPRecordedObjectIID */;
+VALUES (28158, 8000, 0x8102616C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28158,  2156,      2)  /* FireProtectionOther7 */
-     , (28158,  2618,      2)  /* CANTRIPFLAMEWARD1 */
-     , (28158,  3371,      2)  /* lifegivergreater */;
+VALUES (28158,  3371,      2)  /* lifegivergreater */
+     , (28158,  2156,      2)  /* FireProtectionOther7 */
+     , (28158,  2618,      2)  /* CANTRIPFLAMEWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28158, 67115338, 240, 16);

@@ -31,27 +31,27 @@ VALUES (32069,   1, 'Piero Cenizzi') /* Name */
      , (32069, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32069,   1,   33554433) /* Setup */
-     , (32069,   2,  150994945) /* MotionTable */
-     , (32069,   3,  536870913) /* SoundTable */
-     , (32069,   6,   67108990) /* PaletteBase */
-     , (32069,   8,  100667446) /* Icon */
-     , (32069,   9,   83890514) /* EyesTexture */
-     , (32069,  10,   83890554) /* NoseTexture */
-     , (32069,  11,   83890642) /* MouthTexture */
-     , (32069,  15,   67117024) /* HairPalette */
-     , (32069,  16,   67109564) /* EyesPalette */
-     , (32069,  17,   67115908) /* SkinPalette */
+VALUES (32069,   1, 0x02000001) /* Setup */
+     , (32069,   2, 0x09000001) /* MotionTable */
+     , (32069,   3, 0x20000001) /* SoundTable */
+     , (32069,   6, 0x0400007E) /* PaletteBase */
+     , (32069,   8, 0x06001036) /* Icon */
+     , (32069,   9, 0x05001152) /* EyesTexture */
+     , (32069,  10, 0x0500117A) /* NoseTexture */
+     , (32069,  11, 0x050011D2) /* MouthTexture */
+     , (32069,  15, 0x04001FE0) /* HairPalette */
+     , (32069,  16, 0x040002BC) /* EyesPalette */
+     , (32069,  17, 0x04001B84) /* SkinPalette */
      , (32069, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (32069, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (32069, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32069, 8040, 397541420, 130.065, 80.946, 59.205, 0.374662, 0, 0, 0.927161) /* PCAPRecordedLocation */
+VALUES (32069, 8040, 0x17B2002C, 130.065, 80.946, 59.205, 0.374662, 0, 0, 0.927161) /* PCAPRecordedLocation */
 /* @teleloc 0x17B2002C [130.065000 80.946000 59.205000] 0.374662 0.000000 0.000000 0.927161 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32069, 8000, 3691227374) /* PCAPRecordedObjectIID */;
+VALUES (32069, 8000, 0xDC03A8EE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32069,   1, 178, 0, 0) /* Strength */

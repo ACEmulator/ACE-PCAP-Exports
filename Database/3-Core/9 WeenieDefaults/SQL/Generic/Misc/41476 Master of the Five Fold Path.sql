@@ -17,20 +17,21 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (41476,   3, 2000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41476,  22, True ) /* Inscribable */;
+VALUES (41476,  22, True ) /* Inscribable */
+     , (41476,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41476,   1, 'Master of the Five Fold Path') /* Name */
      , (41476,  16, 'Your skill at casting all schools of magic is increased. Your effective magic skill when casting any spell is increased by 10. This augmentation cannot be repeated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41476,   1,   33554809) /* Setup */
-     , (41476,   3,  536870932) /* SoundTable */
-     , (41476,   8,  100686474) /* Icon */
-     , (41476,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41476,   1, 0x02000179) /* Setup */
+     , (41476,   3, 0x20000014) /* SoundTable */
+     , (41476,   8, 0x06005A8A) /* Icon */
+     , (41476,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41476, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (41476, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41476, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41476, 8000, 3679299555) /* PCAPRecordedObjectIID */;
+VALUES (41476, 8000, 0xDB4DA7E3) /* PCAPRecordedObjectIID */;

@@ -52,22 +52,22 @@ VALUES (3833,   1, 'Frost Knife') /* Name */
      , (3833,  16, 'Frost Knife of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3833,   1,   33555743) /* Setup */
-     , (3833,   3,  536870932) /* SoundTable */
-     , (3833,   8,  100667598) /* Icon */
-     , (3833,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3833,   1, 0x0200051F) /* Setup */
+     , (3833,   3, 0x20000014) /* SoundTable */
+     , (3833,   8, 0x060010CE) /* Icon */
+     , (3833,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3833,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3833, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3833, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3833, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3833, 8000, 2165980144) /* PCAPRecordedObjectIID */;
+VALUES (3833, 8000, 0x811A3BF0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3833,  1378,      2)  /* CoordinationSelf6 */
-     , (3833,  1592,      2)  /* HeartSeekerSelf6 */
-     , (3833,  1605,      2)  /* DefenderSelf6 */
+VALUES (3833,  1605,      2)  /* DefenderSelf6 */
      , (3833,  1616,      2)  /* BloodDrinkerSelf6 */
      , (3833,  2577,      2)  /* CANTRIPWILLPOWER2 */
-     , (3833,  2581,      2)  /* CANTRIPFOCUS1 */;
+     , (3833,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (3833,  1378,      2)  /* CoordinationSelf6 */
+     , (3833,  1592,      2)  /* HeartSeekerSelf6 */;

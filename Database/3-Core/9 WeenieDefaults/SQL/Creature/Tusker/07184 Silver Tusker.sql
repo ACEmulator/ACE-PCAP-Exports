@@ -25,22 +25,22 @@ VALUES (7184,   1, 'Silver Tusker') /* Name */
      , (7184, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7184,   1,   33556836) /* Setup */
-     , (7184,   2,  150994956) /* MotionTable */
-     , (7184,   3,  536870929) /* SoundTable */
-     , (7184,   6,   67113007) /* PaletteBase */
-     , (7184,   8,  100667443) /* Icon */
-     , (7184,  22,  872415271) /* PhysicsEffectTable */
+VALUES (7184,   1, 0x02000964) /* Setup */
+     , (7184,   2, 0x0900000C) /* MotionTable */
+     , (7184,   3, 0x20000011) /* SoundTable */
+     , (7184,   6, 0x0400102F) /* PaletteBase */
+     , (7184,   8, 0x06001033) /* Icon */
+     , (7184,  22, 0x34000027) /* PhysicsEffectTable */
      , (7184, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7184, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7184, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7184, 8040, 2295791619, 16.5479, 59.57095, 172.8405, -0.1736482, 0, 0, -0.9848077) /* PCAPRecordedLocation */
+VALUES (7184, 8040, 0x88D70003, 16.5479, 59.57095, 172.8405, -0.173648, 0, 0, -0.984808) /* PCAPRecordedLocation */
 /* @teleloc 0x88D70003 [16.547900 59.570950 172.840500] -0.173648 0.000000 0.000000 -0.984808 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7184, 8000, 3685480974) /* PCAPRecordedObjectIID */;
+VALUES (7184, 8000, 0xDBABFA0E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7184,   1, 210, 0, 0) /* Strength */
@@ -56,7 +56,9 @@ VALUES (7184,   1,   250, 0, 0, 400) /* MaxHealth */
      , (7184,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7184, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
+VALUES (7184, 2, 48026,  1, 0, 0, False) /* Create Nekode (48026) for Wield */
+     , (7184, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (7184, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
      , (7184, 9,  3587,  0, 0, 0, False) /* Create Scroll of Weapon Tinkering Expertise Self VI (3587) for ContainTreasure */
      , (7184, 9, 30591,  0, 0, 0, False) /* Create Partizan (30591) for ContainTreasure */
      , (7184, 9, 49220,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for ContainTreasure */
@@ -237,7 +239,101 @@ VALUES (7184, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasur
      , (7184, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
      , (7184, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
      , (7184, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
-     , (7184, 9, 49269,  0, 0, 0, False) /* Create Lightning Elemental Essence (80) (49269) for ContainTreasure */;
+     , (7184, 9, 49269,  0, 0, 0, False) /* Create Lightning Elemental Essence (80) (49269) for ContainTreasure */
+     , (7184, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
+     , (7184, 9,  3112,  0, 0, 0, False) /* Create Scroll of Regenerate Other VI (3112) for ContainTreasure */
+     , (7184, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (7184, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
+     , (7184, 9,  3057,  0, 0, 0, False) /* Create Scroll of Lightning Protection Self VI (3057) for ContainTreasure */
+     , (7184, 9, 30581,  0, 0, 0, False) /* Create Mazule (30581) for ContainTreasure */
+     , (7184, 9, 27324,  1, 0, 0, False) /* Create Stamina Brew (27324) for ContainTreasure */
+     , (7184, 9, 40695,  0, 0, 0, False) /* Create Covenant Sollerets (40695) for ContainTreasure */
+     , (7184, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */
+     , (7184, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (7184, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (7184, 9, 45273,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other VI (45273) for ContainTreasure */
+     , (7184, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */
+     , (7184, 9, 40618,  0, 0, 0, False) /* Create Spadone (40618) for ContainTreasure */
+     , (7184, 9, 28628,  0, 0, 0, False) /* Create Diforsa Breastplate (28628) for ContainTreasure */
+     , (7184, 9, 49387,  0, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for ContainTreasure */
+     , (7184, 9, 45258,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Self VII (45258) for ContainTreasure */
+     , (7184, 9,  2461,  1, 0, 0, False) /* Create Mana Elixir (2461) for ContainTreasure */
+     , (7184, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */
+     , (7184, 9,  3852,  0, 0, 0, False) /* Create Frost Scimitar (3852) for ContainTreasure */
+     , (7184, 9,  3122,  0, 0, 0, False) /* Create Scroll of Rejuvenate Other VI (3122) for ContainTreasure */
+     , (7184, 9, 40712,  0, 0, 0, False) /* Create Covenant Pauldrons (40712) for ContainTreasure */
+     , (7184, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (7184, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
+     , (7184, 9, 49346,  0, 0, 0, False) /* Create Lightning Moar Essence (80) (49346) for ContainTreasure */
+     , (7184, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (7184, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
+     , (7184, 9, 30567,  0, 0, 0, False) /* Create Lightning Sabra (30567) for ContainTreasure */
+     , (7184, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (7184, 9,   313,  0, 0, 0, False) /* Create Dabus (313) for ContainTreasure */
+     , (7184, 9, 42517,  1, 0, 0, False) /* Create Coalesced Mana (42517) for ContainTreasure */
+     , (7184, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (7184, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
+     , (7184, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
+     , (7184, 9, 29262,  0, 0, 0, False) /* Create Fire Sceptre (29262) for ContainTreasure */
+     , (7184, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (7184, 9,  2406,  1, 0, 0, False) /* Create Gem (2406) for ContainTreasure */
+     , (7184, 9, 20564,  0, 0, 0, False) /* Create Scroll of Futility (20564) for ContainTreasure */
+     , (7184, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */
+     , (7184, 9, 30576,  0, 0, 0, False) /* Create Flamberge (30576) for ContainTreasure */
+     , (7184, 9, 40711,  0, 0, 0, False) /* Create Covenant Helm (40711) for ContainTreasure */
+     , (7184, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */
+     , (7184, 9, 20450,  0, 0, 0, False) /* Create Scroll of Icy Torment (20450) for ContainTreasure */
+     , (7184, 9, 43365,  0, 0, 0, False) /* Create Scroll of Void Magic Mastery Other VI (43365) for ContainTreasure */
+     , (7184, 9,  9613,  0, 0, 0, False) /* Create Scroll of Mana Ineptitude Other VI (9613) for ContainTreasure */
+     , (7184, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (7184, 9,  3127,  0, 0, 0, False) /* Create Scroll of Rejuvenate Self VI (3127) for ContainTreasure */
+     , (7184, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
+     , (7184, 9, 20541,  0, 0, 0, False) /* Create Scroll of Celcynd's Blessing (20541) for ContainTreasure */
+     , (7184, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (7184, 9, 20586,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self VII (20586) for ContainTreasure */
+     , (7184, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
+     , (7184, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (7184, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */
+     , (7184, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
+     , (7184, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
+     , (7184, 9, 43381,  0, 0, 0, False) /* Create Nether Sceptre (43381) for ContainTreasure */
+     , (7184, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */
+     , (7184, 9, 20488,  0, 0, 0, False) /* Create Scroll of Energy Flux (20488) for ContainTreasure */
+     , (7184, 9, 49435,  0, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for ContainTreasure */
+     , (7184, 9,  2959,  0, 0, 0, False) /* Create Scroll of Lightning Bolt VI (2959) for ContainTreasure */
+     , (7184, 9,  9654,  0, 0, 0, False) /* Create Scroll of Stamina to Health Self VI (9654) for ContainTreasure */
+     , (7184, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for ContainTreasure */
+     , (7184, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
+     , (7184, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
+     , (7184, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+     , (7184, 9, 20584,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Ineptitude Other VII (20584) for ContainTreasure */
+     , (7184, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (7184, 9, 20520,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other VII (20520) for ContainTreasure */
+     , (7184, 9,  2761,  0, 0, 0, False) /* Create Scroll of Willpower Self VI (2761) for ContainTreasure */
+     , (7184, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (7184, 9, 22443,  0, 0, 0, False) /* Create Flaming Dirk (22443) for ContainTreasure */
+     , (7184, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (7184, 9, 20514,  0, 0, 0, False) /* Create Scroll of Adja's Boon (20514) for ContainTreasure */
+     , (7184, 9,  2663,  0, 0, 0, False) /* Create Scroll of Endurance Self VI (2663) for ContainTreasure */
+     , (7184, 9, 20484,  0, 0, 0, False) /* Create Scroll of Blessing of the Arrow Turner (20484) for ContainTreasure */
+     , (7184, 9, 20249,  0, 0, 0, False) /* Create Scroll of Hastening (20249) for ContainTreasure */
+     , (7184, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
+     , (7184, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
+     , (7184, 9,  3347,  0, 0, 0, False) /* Create Scroll of Leaden Feet VI (3347) for ContainTreasure */
+     , (7184, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
+     , (7184, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
+     , (7184, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */
+     , (7184, 9, 20428,  0, 0, 0, False) /* Create Scroll of Clouded Motives (20428) for ContainTreasure */
+     , (7184, 9, 46860,  0, 0, 0, False) /* Create Aura of Swift Killer Other VI (46860) for ContainTreasure */
+     , (7184, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (7184, 9, 20465,  0, 0, 0, False) /* Create Scroll of Caustic Boon (20465) for ContainTreasure */
+     , (7184, 9,  2643,  0, 0, 0, False) /* Create Scroll of Clumsiness Other VI (2643) for ContainTreasure */
+     , (7184, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (7184, 9, 45418,  0, 0, 0, False) /* Create Lightning Knife (45418) for ContainTreasure */
+     , (7184, 9, 41042,  0, 0, 0, False) /* Create Acid Magari Yari (41042) for ContainTreasure */
+     , (7184, 9,  7790,  0, 0, 0, False) /* Create Electric Spiked Club (7790) for ContainTreasure */
+     , (7184, 9,  4191,  0, 0, 0, False) /* Create Flaming Cestus (4191) for ContainTreasure */
+     , (7184, 9,  3522,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other VI (3522) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7184, 67113009, 0, 0);

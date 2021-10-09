@@ -26,6 +26,7 @@ VALUES (25705,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25705,  22, True ) /* Inscribable */
+     , (25705,  23, True ) /* DestroyOnSell */
      , (25705,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -34,18 +35,18 @@ VALUES (25705,   1, 'Portal Gem') /* Name */
      , (25705,  15, 'Gentleman Jake told me this gem would take me to a dark dungeon that hides the bandit''s lair. Part of me is terrified to use it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25705,   1,   33554809) /* Setup */
-     , (25705,   3,  536870932) /* SoundTable */
-     , (25705,   6,   67111919) /* PaletteBase */
-     , (25705,   8,  100668365) /* Icon */
-     , (25705,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25705,   1, 0x02000179) /* Setup */
+     , (25705,   3, 0x20000014) /* SoundTable */
+     , (25705,   6, 0x04000BEF) /* PaletteBase */
+     , (25705,   8, 0x060013CD) /* Icon */
+     , (25705,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25705,  28,       2989) /* Spell - PortalSendingDarkNoir1 */
      , (25705, 8001,    6844560) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (25705, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25705, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25705, 8000, 2923134877) /* PCAPRecordedObjectIID */;
+VALUES (25705, 8000, 0xAE3B7F9D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25705, 67111920, 0, 0);

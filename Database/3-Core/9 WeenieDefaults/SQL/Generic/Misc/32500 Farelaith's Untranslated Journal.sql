@@ -14,7 +14,8 @@ VALUES (32500,   1,        128) /* ItemType - Misc */
      , (32500, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32500,  22, True ) /* Inscribable */;
+VALUES (32500,  22, True ) /* Inscribable */
+     , (32500,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32500,  39,    0.67) /* DefaultScale */;
@@ -24,13 +25,13 @@ VALUES (32500,   1, 'Farelaith''s Untranslated Journal') /* Name */
      , (32500,  16, 'The untranslated journal of the ancient slave, Farelaith.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32500,   1,   33559593) /* Setup */
-     , (32500,   3,  536870932) /* SoundTable */
-     , (32500,   8,  100687890) /* Icon */
-     , (32500,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32500,   1, 0x02001429) /* Setup */
+     , (32500,   3, 0x20000014) /* SoundTable */
+     , (32500,   8, 0x06006012) /* Icon */
+     , (32500,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32500, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (32500, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32500, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32500, 8000, 3327046027) /* PCAPRecordedObjectIID */;
+VALUES (32500, 8000, 0xC64EB18B) /* PCAPRecordedObjectIID */;

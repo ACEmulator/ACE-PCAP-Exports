@@ -49,11 +49,11 @@ VALUES (0x7B5F000B, 30764, 0xB5F0010D, 106.652, -30.0546, -87.2, -0.466483, 0, 0
 /* @teleloc 0xB5F0010D [106.652000 -30.054600 -87.200000] -0.466483 0.000000 0.000000 -0.884530 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B5F000C, 28062, 0xB5F0010E, 129.682, -99.1169, -81.26299, -0.4664831, 0, 0, -0.8845301, False, '2019-02-10 00:00:00'); /* Eastern Aerlinthe Island */
+VALUES (0x7B5F000C, 28062, 0xB5F0010E, 129.682, -99.1169, -81.26299, -0.466483, 0, 0, -0.88453, False, '2019-02-10 00:00:00'); /* Eastern Aerlinthe Island */
 /* @teleloc 0xB5F0010E [129.682000 -99.116900 -81.262990] -0.466483 0.000000 0.000000 -0.884530 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B5F000F, 40930, 0xB5F00111, 140.129, -96.675, -81.2, -0.2956039, 0, 0, 0.9553106, False, '2019-02-10 00:00:00'); /* Lady of Aerlinthe's Embossed Chest */
+VALUES (0x7B5F000F, 40930, 0xB5F00111, 140.129, -96.675, -81.2, -0.295604, 0, 0, 0.955311, False, '2019-02-10 00:00:00'); /* Lady of Aerlinthe's Embossed Chest */
 /* @teleloc 0xB5F00111 [140.129000 -96.675000 -81.200000] -0.295604 0.000000 0.000000 0.955311 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -61,7 +61,7 @@ VALUES (0x7B5F0010,   568, 0xB5F00115, 135.252, -89.5491, -81.2, -0.955311, 0, 0
 /* @teleloc 0xB5F00115 [135.252000 -89.549100 -81.200000] -0.955311 0.000000 0.000000 -0.295604 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B5F0011, 28064, 0xB5F00116, 146.187, -87.8211, -81.26299, -0.8845301, 0, 0, 0.4664831, False, '2019-02-10 00:00:00'); /* Western Aerlinthe Island */
+VALUES (0x7B5F0011, 28064, 0xB5F00116, 146.187, -87.8211, -81.26299, -0.88453, 0, 0, 0.466483, False, '2019-02-10 00:00:00'); /* Western Aerlinthe Island */
 /* @teleloc 0xB5F00116 [146.187000 -87.821100 -81.262990] -0.884530 0.000000 0.000000 0.466483 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

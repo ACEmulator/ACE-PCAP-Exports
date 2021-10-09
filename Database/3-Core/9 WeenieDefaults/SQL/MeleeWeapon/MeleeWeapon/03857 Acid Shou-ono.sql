@@ -54,23 +54,23 @@ VALUES (3857,   1, 'Acid Shou-ono') /* Name */
      , (3857,  16, 'Acid Shou-ono of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3857,   1,   33555702) /* Setup */
-     , (3857,   3,  536870932) /* SoundTable */
-     , (3857,   8,  100670223) /* Icon */
-     , (3857,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3857,   1, 0x020004F6) /* Setup */
+     , (3857,   3, 0x20000014) /* SoundTable */
+     , (3857,   8, 0x06001B0F) /* Icon */
+     , (3857,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3857,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3857, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3857, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3857, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3857, 8000, 3698981356) /* PCAPRecordedObjectIID */;
+VALUES (3857, 8000, 0xDC79F9EC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3857,  1354,      2)  /* EnduranceSelf6 */
-     , (3857,  1592,      2)  /* HeartSeekerSelf6 */
-     , (3857,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (3857,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
      , (3857,  2576,      2)  /* CANTRIPSTRENGTH2 */
      , (3857,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (3857,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (3857,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
+     , (3857,  1592,      2)  /* HeartSeekerSelf6 */
      , (3857,  2620,      2)  /* CANTRIPPIERCINGWARD1 */;

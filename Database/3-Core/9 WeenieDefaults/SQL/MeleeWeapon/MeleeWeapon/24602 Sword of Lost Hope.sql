@@ -49,21 +49,21 @@ VALUES (24602,   1, 'Sword of Lost Hope') /* Name */
      , (24602,  25, 'Dota') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24602,   1,   33558420) /* Setup */
-     , (24602,   3,  536870932) /* SoundTable */
-     , (24602,   8,  100671325) /* Icon */
-     , (24602,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24602,   1, 0x02000F94) /* Setup */
+     , (24602,   3, 0x20000014) /* SoundTable */
+     , (24602,   8, 0x06001F5D) /* Icon */
+     , (24602,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24602,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (24602, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24602, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24602, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24602, 8000, 3689360768) /* PCAPRecordedObjectIID */;
+VALUES (24602, 8000, 0xDBE72D80) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24602,  1310,      2)  /* ArmorSelf4 */
-     , (24602,  1590,      2)  /* HeartSeekerSelf4 */
-     , (24602,  1603,      2)  /* DefenderSelf4 */
+VALUES (24602,  1603,      2)  /* DefenderSelf4 */
      , (24602,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (24602,  1624,      2)  /* SwiftKillerSelf3 */;
+     , (24602,  1624,      2)  /* SwiftKillerSelf3 */
+     , (24602,  1310,      2)  /* ArmorSelf4 */
+     , (24602,  1590,      2)  /* HeartSeekerSelf4 */;

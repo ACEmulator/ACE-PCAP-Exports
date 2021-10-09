@@ -36,11 +36,11 @@ VALUES (29447,   1, 'Corcima Castle Silver Ward Portal Gem') /* Name */
      , (29447,  16, 'A gem that opens a portal to the Silver Ward of Corcima Castle.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29447,   1,   33556769) /* Setup */
-     , (29447,   3,  536870932) /* SoundTable */
-     , (29447,   6,   67111919) /* PaletteBase */
-     , (29447,   8,  100672368) /* Icon */
-     , (29447,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29447,   1, 0x02000921) /* Setup */
+     , (29447,   3, 0x20000014) /* SoundTable */
+     , (29447,   6, 0x04000BEF) /* PaletteBase */
+     , (29447,   8, 0x06002370) /* Icon */
+     , (29447,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29447,  28,        157) /* Spell - SummonPortal1 */
      , (29447, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (29447, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -48,7 +48,7 @@ VALUES (29447,   1,   33556769) /* Setup */
      , (29447, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29447, 8000, 2975612864) /* PCAPRecordedObjectIID */;
+VALUES (29447, 8000, 0xB15C3FC0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29447, 67111924, 0, 0);

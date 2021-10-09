@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8812,   1, 'Esard''s Life Magic Scroll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8812,   1,   33555391) /* Setup */
-     , (8812,   3,  536870932) /* SoundTable */
-     , (8812,   8,  100671183) /* Icon */
-     , (8812,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8812,   1, 0x020003BF) /* Setup */
+     , (8812,   3, 0x20000014) /* SoundTable */
+     , (8812,   8, 0x06001ECF) /* Icon */
+     , (8812,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8812, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (8812, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (8812, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8812, 8000, 2780371778) /* PCAPRecordedObjectIID */;
+VALUES (8812, 8000, 0xA5B91B42) /* PCAPRecordedObjectIID */;

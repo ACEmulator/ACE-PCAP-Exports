@@ -18,16 +18,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24024,   1, 'Collegium Planar Abstraction Conveyance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24024,   1,   33558268) /* Setup */
-     , (24024,   3,  536871008) /* SoundTable */
-     , (24024,   8,  100674152) /* Icon */
+VALUES (24024,   1, 0x02000EFC) /* Setup */
+     , (24024,   3, 0x20000060) /* SoundTable */
+     , (24024,   8, 0x06002A68) /* Icon */
      , (24024, 8001,    8388624) /* PCAPRecordedWeenieHeader - Usable, RadarBehavior */
      , (24024, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (24024, 8005,      34817) /* PCAPRecordedPhysicsDesc - CSetup, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24024, 8040, 1682178361, 80, -330, -24, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (24024, 8040, 0x64440139, 80, -330, -24, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x64440139 [80.000000 -330.000000 -24.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24024, 8000, 1984184331) /* PCAPRecordedObjectIID */;
+VALUES (24024, 8000, 0x7644400B) /* PCAPRecordedObjectIID */;

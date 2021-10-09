@@ -34,6 +34,7 @@ VALUES (25617,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25617,  22, True ) /* Inscribable */
+     , (25617,  23, True ) /* DestroyOnSell */
      , (25617,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -51,17 +52,17 @@ VALUES (25617,   1, 'Flaming Weeping Dagger') /* Name */
      , (25617,  15, 'A dagger infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25617,   1,   33558462) /* Setup */
-     , (25617,   3,  536870932) /* SoundTable */
-     , (25617,   6,   67114522) /* PaletteBase */
-     , (25617,   8,  100674894) /* Icon */
-     , (25617,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25617,   1, 0x02000FBE) /* Setup */
+     , (25617,   3, 0x20000014) /* SoundTable */
+     , (25617,   6, 0x0400161A) /* PaletteBase */
+     , (25617,   8, 0x06002D4E) /* Icon */
+     , (25617,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25617, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (25617, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25617, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25617, 8000, 2148550654) /* PCAPRecordedObjectIID */;
+VALUES (25617, 8000, 0x801047FE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25617,  2686,      2)  /* ModerateAxeAptitude */;

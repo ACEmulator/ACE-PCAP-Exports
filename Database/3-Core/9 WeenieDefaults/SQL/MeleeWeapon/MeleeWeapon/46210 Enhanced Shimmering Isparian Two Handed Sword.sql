@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46210,   1,          1) /* ItemType - MeleeWeapon */
      , (46210,   5,        650) /* EncumbranceVal */
      , (46210,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (46210,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (46210,  16,          1) /* ItemUseable - No */
      , (46210,  18,          1) /* UiEffects - Magical */
      , (46210,  19,       8000) /* Value */
@@ -35,6 +34,7 @@ VALUES (46210,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46210,  22, True ) /* Inscribable */
+     , (46210,  23, True ) /* DestroyOnSell */
      , (46210,  69, False) /* IsSellable */
      , (46210,  99, True ) /* Ivoryable */;
 
@@ -54,30 +54,30 @@ VALUES (46210,   1, 'Enhanced Shimmering Isparian Two Handed Sword') /* Name */
      , (46210,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46210,   1,   33556262) /* Setup */
-     , (46210,   3,  536870932) /* SoundTable */
-     , (46210,   8,  100692947) /* Icon */
-     , (46210,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46210,   1, 0x02000726) /* Setup */
+     , (46210,   3, 0x20000014) /* SoundTable */
+     , (46210,   8, 0x060073D3) /* Icon */
+     , (46210,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46210, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (46210, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46210, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (46210, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46210, 8040, 3465805869, 151.0719, 112.6264, 17.34125, -0.6622602, -0.6622602, -0.2478133, -0.2478133) /* PCAPRecordedLocation */
+VALUES (46210, 8040, 0xCE94002D, 151.0719, 112.6264, 17.34125, -0.66226, -0.66226, -0.247813, -0.247813) /* PCAPRecordedLocation */
 /* @teleloc 0xCE94002D [151.071900 112.626400 17.341250] -0.662260 -0.662260 -0.247813 -0.247813 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46210, 8000, 3704214229) /* PCAPRecordedObjectIID */
-     , (46210, 8008, 1343301116) /* PCAPRecordedParentIID */;
+VALUES (46210, 8000, 0xDCC9D2D5) /* PCAPRecordedObjectIID */
+     , (46210, 8008, 0x501125FC) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46210,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (46210,  2101,      2)  /* DefenderSelf7 */
-     , (46210,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46210,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (46210,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46210,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */
      , (46210,  2586,      2)  /* CANTRIPBLOODTHIRST2 */
-     , (46210,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */;
+     , (46210,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46210,  2101,      2)  /* DefenderSelf7 */
+     , (46210,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46210, 0, 83889235, 83892492)

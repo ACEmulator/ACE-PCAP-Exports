@@ -24,13 +24,13 @@ VALUES (3348,   1, 'Scroll of Leadership Ineptitude II') /* Name */
 Decreases the target''s Leadership skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3348,   1,   33554826) /* Setup */
-     , (3348,   8,  100676446) /* Icon */
-     , (3348,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3348,   1, 0x0200018A) /* Setup */
+     , (3348,   8, 0x0600335E) /* Icon */
+     , (3348,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3348,  28,        917) /* Spell - LeadershipIneptitudeOther2 */
      , (3348, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3348, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3348, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3348, 8000, 2924690812) /* PCAPRecordedObjectIID */;
+VALUES (3348, 8000, 0xAE533D7C) /* PCAPRecordedObjectIID */;

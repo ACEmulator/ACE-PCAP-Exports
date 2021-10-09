@@ -24,11 +24,11 @@ VALUES (15831,   1, 'Pedestal with a Floral Arrangement') /* Name */
      , (15831,  15, 'An ornamental pedestal adorned with a crystal vase with a quintet of sunflowers. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15831,   1,   33557638) /* Setup */
-     , (15831,   8,  100672834) /* Icon */
+VALUES (15831,   1, 0x02000C86) /* Setup */
+     , (15831,   8, 0x06002542) /* Icon */
      , (15831, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (15831, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15831, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15831, 8000, 2981038691) /* PCAPRecordedObjectIID */;
+VALUES (15831, 8000, 0xB1AF0A63) /* PCAPRecordedObjectIID */;

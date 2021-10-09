@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12760,   1,        256) /* ItemType - MissileWeapon */
      , (12760,   5,        300) /* EncumbranceVal */
      , (12760,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (12760,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (12760,  16,          1) /* ItemUseable - No */
      , (12760,  19,        275) /* Value */
      , (12760,  33,          1) /* Bonded - Bonded */
@@ -16,7 +15,7 @@ VALUES (12760,   1,        256) /* ItemType - MissileWeapon */
      , (12760,  48,         47) /* WeaponSkill - MissileWeapons */
      , (12760,  49,         55) /* WeaponTime */
      , (12760,  50,          2) /* AmmoType - Bolt */
-     , (12760,  51,          2) /* CombatUse - Missle */
+     , (12760,  51,          2) /* CombatUse - Missile */
      , (12760,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12760, 151,          2) /* HookType - Wall */
      , (12760, 353,          9) /* WeaponType - Crossbow */
@@ -40,23 +39,23 @@ VALUES (12760,   1, 'Academy Light Crossbow') /* Name */
      , (12760,  15, 'An enhanced crossbow crafted in the Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12760,   1,   33554733) /* Setup */
-     , (12760,   3,  536870932) /* SoundTable */
-     , (12760,   6,   67111919) /* PaletteBase */
-     , (12760,   8,  100668847) /* Icon */
-     , (12760,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12760,   1, 0x0200012D) /* Setup */
+     , (12760,   3, 0x20000014) /* SoundTable */
+     , (12760,   6, 0x04000BEF) /* PaletteBase */
+     , (12760,   8, 0x060015AF) /* Icon */
+     , (12760,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12760, 8001,  270762776) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (12760, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12760, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (12760, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12760, 8040, 3332964380, 79.47006, 95.90398, 41.93, 0.0747199, 0, 0, -0.9972045) /* PCAPRecordedLocation */
+VALUES (12760, 8040, 0xC6A9001C, 79.47006, 95.90398, 41.93, 0.07472, 0, 0, -0.997205) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [79.470060 95.903980 41.930000] 0.074720 0.000000 0.000000 -0.997205 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12760, 8000, 3012911593) /* PCAPRecordedObjectIID */
-     , (12760, 8008, 1343472739) /* PCAPRecordedParentIID */;
+VALUES (12760, 8000, 0xB39561E9) /* PCAPRecordedObjectIID */
+     , (12760, 8008, 0x5013C463) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12760, 67111921, 0, 0);

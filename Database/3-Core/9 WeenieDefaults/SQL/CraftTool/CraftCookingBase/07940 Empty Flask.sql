@@ -31,17 +31,17 @@ VALUES (7940,   1, 'Empty Flask') /* Name */
      , (7940,  16, 'Empty Flask') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7940,   1,   33554603) /* Setup */
-     , (7940,   3,  536870932) /* SoundTable */
-     , (7940,   6,   67111919) /* PaletteBase */
-     , (7940,   8,  100668652) /* Icon */
-     , (7940,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7940,   1, 0x020000AB) /* Setup */
+     , (7940,   3, 0x20000014) /* SoundTable */
+     , (7940,   6, 0x04000BEF) /* PaletteBase */
+     , (7940,   8, 0x060014EC) /* Icon */
+     , (7940,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7940, 8001, 2435346456) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, MaterialType */
      , (7940, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7940, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7940, 8000, 3690336912) /* PCAPRecordedObjectIID */;
+VALUES (7940, 8000, 0xDBF61290) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7940, 67111919, 0, 0);

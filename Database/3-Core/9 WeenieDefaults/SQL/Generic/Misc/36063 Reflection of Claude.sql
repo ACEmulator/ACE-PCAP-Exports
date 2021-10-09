@@ -18,17 +18,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36063,   1, 'Reflection of Claude') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36063,   1,   33556769) /* Setup */
-     , (36063,   3,  536870932) /* SoundTable */
-     , (36063,   8,  100689641) /* Icon */
-     , (36063,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36063,   1, 0x02000921) /* Setup */
+     , (36063,   3, 0x20000014) /* SoundTable */
+     , (36063,   8, 0x060066E9) /* Icon */
+     , (36063,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36063, 8001,    2097296) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Burden */
      , (36063, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36063, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36063, 8040, 10682829, 226.7092, -141.3834, -12.001, 0.9357647, 0, 0, -0.352625) /* PCAPRecordedLocation */
+VALUES (36063, 8040, 0x00A301CD, 226.7092, -141.3834, -12.001, 0.935765, 0, 0, -0.352625) /* PCAPRecordedLocation */
 /* @teleloc 0x00A301CD [226.709200 -141.383400 -12.001000] 0.935765 0.000000 0.000000 -0.352625 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36063, 8000, 3705812974) /* PCAPRecordedObjectIID */;
+VALUES (36063, 8000, 0xDCE237EE) /* PCAPRecordedObjectIID */;

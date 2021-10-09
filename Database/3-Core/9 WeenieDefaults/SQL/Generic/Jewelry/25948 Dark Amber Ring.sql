@@ -32,22 +32,22 @@ VALUES (25948,   1, 'Dark Amber Ring') /* Name */
      , (25948,  16, 'A dark amber ring. At the edge of sight you see your shadow stretch and pull until it is spreads invisible over all you see.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25948,   1,   33554691) /* Setup */
-     , (25948,   3,  536870932) /* SoundTable */
-     , (25948,   6,   67111919) /* PaletteBase */
-     , (25948,   8,  100675659) /* Icon */
-     , (25948,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25948,   1, 0x02000103) /* Setup */
+     , (25948,   3, 0x20000014) /* SoundTable */
+     , (25948,   6, 0x04000BEF) /* PaletteBase */
+     , (25948,   8, 0x0600304B) /* Icon */
+     , (25948,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25948, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (25948, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25948, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25948, 8000, 2448494093) /* PCAPRecordedObjectIID */;
+VALUES (25948, 8000, 0x91F10E0D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25948,   273,      2)  /* MagicResistanceOther6 */
-     , (25948,  1384,      2)  /* CoordinationOther6 */
-     , (25948,  2080,      2)  /* QuicknessOther7 */;
+     , (25948,  2080,      2)  /* QuicknessOther7 */
+     , (25948,  1384,      2)  /* CoordinationOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25948, 67111919, 0, 0);

@@ -23,16 +23,16 @@ VALUES (31315,   1, 'Creepy Canyons') /* Name */
      , (31315, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31315,   1,   33555925) /* Setup */
-     , (31315,   2,  150994947) /* MotionTable */
-     , (31315,   8,  100667499) /* Icon */
+VALUES (31315,   1, 0x020005D5) /* Setup */
+     , (31315,   2, 0x09000003) /* MotionTable */
+     , (31315,   8, 0x0600106B) /* Icon */
      , (31315, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (31315, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (31315, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31315, 8040, 260374562, 116.271, 32.4497, 16.49893, 0.182132, 0, 0, -0.9832741) /* PCAPRecordedLocation */
+VALUES (31315, 8040, 0x0F850022, 116.271, 32.4497, 16.49893, 0.182132, 0, 0, -0.983274) /* PCAPRecordedLocation */
 /* @teleloc 0x0F850022 [116.271000 32.449700 16.498930] 0.182132 0.000000 0.000000 -0.983274 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31315, 8000, 1895321600) /* PCAPRecordedObjectIID */;
+VALUES (31315, 8000, 0x70F85000) /* PCAPRecordedObjectIID */;

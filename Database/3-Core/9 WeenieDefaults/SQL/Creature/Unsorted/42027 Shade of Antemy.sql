@@ -26,22 +26,22 @@ VALUES (42027,   1, 'Shade of Antemy') /* Name */
      , (42027, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42027,   1,   33554433) /* Setup */
-     , (42027,   2,  150994945) /* MotionTable */
-     , (42027,   3,  536871094) /* SoundTable */
-     , (42027,   6,   67115251) /* PaletteBase */
-     , (42027,   8,  100676679) /* Icon */
-     , (42027,  22,  872415403) /* PhysicsEffectTable */
+VALUES (42027,   1, 0x02000001) /* Setup */
+     , (42027,   2, 0x09000001) /* MotionTable */
+     , (42027,   3, 0x200000B6) /* SoundTable */
+     , (42027,   6, 0x040018F3) /* PaletteBase */
+     , (42027,   8, 0x06003447) /* Icon */
+     , (42027,  22, 0x340000AB) /* PhysicsEffectTable */
      , (42027, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (42027, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (42027, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42027, 8040, 2349008872, 220, -19, 24.006, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42027, 8040, 0x8C0307E8, 220, -19, 24.006, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8C0307E8 [220.000000 -19.000000 24.006000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42027, 8000, 3683495657) /* PCAPRecordedObjectIID */;
+VALUES (42027, 8000, 0xDB8DAEE9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42027, 67110320, 250, 6)

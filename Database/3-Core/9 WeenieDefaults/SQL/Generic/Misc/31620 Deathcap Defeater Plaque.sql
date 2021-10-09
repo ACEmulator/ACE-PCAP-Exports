@@ -18,19 +18,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31620,   1, 'Deathcap Defeater Plaque') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31620,   1,   33559570) /* Setup */
-     , (31620,   3,  536870932) /* SoundTable */
-     , (31620,   6,   67111919) /* PaletteBase */
-     , (31620,   8,  100677367) /* Icon */
-     , (31620,  22,  872415275) /* PhysicsEffectTable */
-     , (31620,  52,  100687684) /* IconUnderlay */
+VALUES (31620,   1, 0x02001412) /* Setup */
+     , (31620,   3, 0x20000014) /* SoundTable */
+     , (31620,   6, 0x04000BEF) /* PaletteBase */
+     , (31620,   8, 0x060036F7) /* Icon */
+     , (31620,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31620,  52, 0x06005F44) /* IconUnderlay */
      , (31620, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (31620, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31620, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (31620, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31620, 8000, 2981039357) /* PCAPRecordedObjectIID */;
+VALUES (31620, 8000, 0xB1AF0CFD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31620, 67111923, 0, 0);

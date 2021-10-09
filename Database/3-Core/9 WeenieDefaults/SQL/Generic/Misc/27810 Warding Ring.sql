@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27810,   1, 'Warding Ring') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27810,   1,   33554690) /* Setup */
-     , (27810,   3,  536870932) /* SoundTable */
-     , (27810,   8,  100676567) /* Icon */
-     , (27810,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27810,   1, 0x02000102) /* Setup */
+     , (27810,   3, 0x20000014) /* SoundTable */
+     , (27810,   8, 0x060033D7) /* Icon */
+     , (27810,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27810, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (27810, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27810, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27810, 8000, 3498675592) /* PCAPRecordedObjectIID */;
+VALUES (27810, 8000, 0xD0898D88) /* PCAPRecordedObjectIID */;

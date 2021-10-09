@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (94,   1,          2) /* ItemType - Armor */
      , (94,   5,        804) /* EncumbranceVal */
      , (94,   9,    2097152) /* ValidLocations - Shield */
-     , (94,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (94,  16,          1) /* ItemUseable - No */
      , (94,  18,          1) /* UiEffects - Magical */
      , (94,  19,      20066) /* Value */
@@ -45,10 +44,10 @@ VALUES (94,   1, 'Diamond Shield') /* Name */
      , (94,  16, 'Large Round Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (94,   1,   33557043) /* Setup */
-     , (94,   3,  536870932) /* SoundTable */
-     , (94,   8,  100674092) /* Icon */
-     , (94,  22,  872415275) /* PhysicsEffectTable */
+VALUES (94,   1, 0x02000A33) /* Setup */
+     , (94,   3, 0x20000014) /* SoundTable */
+     , (94,   8, 0x06002A2C) /* Icon */
+     , (94,  22, 0x3400002B) /* PhysicsEffectTable */
      , (94,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (94, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (94, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -56,22 +55,18 @@ VALUES (94,   1,   33557043) /* Setup */
      , (94, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (94, 8040, 2114192370, 191.9533, -405.5346, -0.07400001, 0.4121966, 0.6358098, -0.5529282, 0.3465692) /* PCAPRecordedLocation */
+VALUES (94, 8040, 0x7E0403F2, 191.9533, -405.5346, -0.074, 0.412197, 0.63581, -0.552928, 0.346569) /* PCAPRecordedLocation */
 /* @teleloc 0x7E0403F2 [191.953300 -405.534600 -0.074000] 0.412197 0.635810 -0.552928 0.346569 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (94, 8000, 2183167556) /* PCAPRecordedObjectIID */
-     , (94, 8008, 1342789086) /* PCAPRecordedParentIID */;
+VALUES (94, 8000, 0x82207E44) /* PCAPRecordedObjectIID */
+     , (94, 8008, 0x500955DE) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (94,  1483,      2)  /* Impenetrability3 */
-     , (94,  1538,      2)  /* LightningBane4 */
+VALUES (94,  1538,      2)  /* LightningBane4 */
+     , (94,  1483,      2)  /* Impenetrability3 */
      , (94,  1559,      2)  /* BladeBane3 */
      , (94,  1572,      2)  /* PiercingBane4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (94, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (94, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (94, 0, 83898704, 83898705);

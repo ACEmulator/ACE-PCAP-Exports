@@ -19,7 +19,8 @@ VALUES (19482,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (19482, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19482,  22, True ) /* Inscribable */;
+VALUES (19482,  22, True ) /* Inscribable */
+     , (19482,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19482,   1, 'Enchanted Decanter') /* Name */
@@ -27,17 +28,17 @@ VALUES (19482,   1, 'Enchanted Decanter') /* Name */
      , (19482,  16, 'An empty decanter, that shimmers in the light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19482,   1,   33555965) /* Setup */
-     , (19482,   3,  536870932) /* SoundTable */
-     , (19482,   6,   67111919) /* PaletteBase */
-     , (19482,   8,  100672969) /* Icon */
-     , (19482,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19482,   1, 0x020005FD) /* Setup */
+     , (19482,   3, 0x20000014) /* SoundTable */
+     , (19482,   6, 0x04000BEF) /* PaletteBase */
+     , (19482,   8, 0x060025C9) /* Icon */
+     , (19482,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19482, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (19482, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19482, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19482, 8000, 2210356860) /* PCAPRecordedObjectIID */;
+VALUES (19482, 8000, 0x83BF5E7C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19482, 67111925, 0, 0);

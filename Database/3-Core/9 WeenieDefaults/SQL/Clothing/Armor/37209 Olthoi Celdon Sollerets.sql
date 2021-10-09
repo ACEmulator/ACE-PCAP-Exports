@@ -48,23 +48,23 @@ VALUES (37209,   1, 'Olthoi Celdon Sollerets') /* Name */
      , (37209,  16, 'Olthoi Celdon Sollerets of Missile Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37209,   1,   33554654) /* Setup */
-     , (37209,   3,  536870932) /* SoundTable */
-     , (37209,   6,   67108990) /* PaletteBase */
-     , (37209,   8,  100674703) /* Icon */
-     , (37209,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37209,   1, 0x020000DE) /* Setup */
+     , (37209,   3, 0x20000014) /* SoundTable */
+     , (37209,   6, 0x0400007E) /* PaletteBase */
+     , (37209,   8, 0x06002C8F) /* Icon */
+     , (37209,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37209, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (37209, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37209, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37209, 8000, 3438807052) /* PCAPRecordedObjectIID */;
+VALUES (37209, 8000, 0xCCF8080C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37209,  1562,      2)  /* BladeBane6 */
-     , (37209,  4407,      2)  /* Impenetrability8 */
-     , (37209,  4522,      2)  /* BowMasterySelf8 */
-     , (37209,  4696,      2)  /* CANTRIPINVULNERABILITY3 */;
+VALUES (37209,  4696,      2)  /* CANTRIPINVULNERABILITY3 */
+     , (37209,  1562,      2)  /* BladeBane6 */
+     , (37209,  4522,      2)  /* MissileWeaponsMasterySelf8 */
+     , (37209,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37209, 67116593, 164, 4)

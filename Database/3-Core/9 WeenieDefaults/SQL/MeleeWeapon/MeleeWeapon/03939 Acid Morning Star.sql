@@ -53,23 +53,23 @@ VALUES (3939,   1, 'Acid Morning Star') /* Name */
      , (3939,  16, 'Acid Morning Star of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3939,   1,   33555757) /* Setup */
-     , (3939,   3,  536870932) /* SoundTable */
-     , (3939,   6,   67111919) /* PaletteBase */
-     , (3939,   8,  100668974) /* Icon */
-     , (3939,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3939,   1, 0x0200052D) /* Setup */
+     , (3939,   3, 0x20000014) /* SoundTable */
+     , (3939,   6, 0x04000BEF) /* PaletteBase */
+     , (3939,   8, 0x0600162E) /* Icon */
+     , (3939,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3939,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3939, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3939, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3939, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3939, 8000, 3710517588) /* PCAPRecordedObjectIID */;
+VALUES (3939, 8000, 0xDD2A0154) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3939,  1332,      2)  /* StrengthSelf6 */
+VALUES (3939,  2515,      2)  /* CANTRIPINVULNERABILITY2 */
      , (3939,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (3939,  2515,      2)  /* CANTRIPINVULNERABILITY2 */;
+     , (3939,  1332,      2)  /* StrengthSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3939, 67111926, 0, 0);

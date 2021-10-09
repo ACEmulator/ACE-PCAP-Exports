@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3894,   1,          1) /* ItemType - MeleeWeapon */
      , (3894,   5,        488) /* EncumbranceVal */
      , (3894,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (3894,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (3894,  16,          1) /* ItemUseable - No */
      , (3894,  18,         65) /* UiEffects - Magical, Lightning */
      , (3894,  19,       9483) /* Value */
@@ -57,12 +56,12 @@ VALUES (3894,   1, 'Lightning Takuba') /* Name */
      , (3894,  16, 'Lightning Takuba of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3894,   1,   33555808) /* Setup */
-     , (3894,   3,  536870932) /* SoundTable */
-     , (3894,   8,  100668165) /* Icon */
-     , (3894,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3894,   1, 0x02000560) /* Setup */
+     , (3894,   3, 0x20000014) /* SoundTable */
+     , (3894,   8, 0x06001305) /* Icon */
+     , (3894,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3894,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (3894,  52,  100676438) /* IconUnderlay */
+     , (3894,  52, 0x06003356) /* IconUnderlay */
      , (3894, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (3894, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (3894, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
@@ -70,14 +69,14 @@ VALUES (3894,   1,   33555808) /* Setup */
      , (3894, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3894, 8040, 3583574079, 189.1439, 159.5337, 373.929, -0.4906826, -0.4906826, -0.5091469, -0.5091469) /* PCAPRecordedLocation */
+VALUES (3894, 8040, 0xD599003F, 189.1439, 159.5337, 373.929, -0.490683, -0.490683, -0.509147, -0.509147) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [189.143900 159.533700 373.929000] -0.490683 -0.490683 -0.509147 -0.509147 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3894, 8000, 3661115234) /* PCAPRecordedObjectIID */
-     , (3894, 8008, 1342922043) /* PCAPRecordedParentIID */;
+VALUES (3894, 8000, 0xDA382F62) /* PCAPRecordedObjectIID */
+     , (3894, 8008, 0x500B5D3B) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3894,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (3894,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (3894,  2116,      2)  /* SwiftKillerSelf7 */
+     , (3894,  1616,      2)  /* BloodDrinkerSelf6 */
      , (3894,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */;

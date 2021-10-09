@@ -29,21 +29,21 @@ VALUES (52248,   1, 'Lingering Spirit of the Recluse') /* Name */
      , (52248, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52248,   1,   33554433) /* Setup */
-     , (52248,   2,  150994981) /* MotionTable */
-     , (52248,   3,  536870942) /* SoundTable */
-     , (52248,   6,   67108990) /* PaletteBase */
-     , (52248,   8,  100669122) /* Icon */
+VALUES (52248,   1, 0x02000001) /* Setup */
+     , (52248,   2, 0x09000025) /* MotionTable */
+     , (52248,   3, 0x2000001E) /* SoundTable */
+     , (52248,   6, 0x0400007E) /* PaletteBase */
+     , (52248,   8, 0x060016C2) /* Icon */
      , (52248, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (52248, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (52248, 8005,     362499) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52248, 8040, 1483079958, 25.017, -20, 0.004999995, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (52248, 8040, 0x58660116, 25.017, -20, 0.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x58660116 [25.017000 -20.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52248, 8000, 2883660300) /* PCAPRecordedObjectIID */;
+VALUES (52248, 8000, 0xABE12A0C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52248,   1, 400, 0, 0) /* Strength */

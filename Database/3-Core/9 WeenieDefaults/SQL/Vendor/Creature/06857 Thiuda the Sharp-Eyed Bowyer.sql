@@ -37,27 +37,27 @@ VALUES (6857,   1, 'Thiuda the Sharp-Eyed Bowyer') /* Name */
      , (6857, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6857,   1,   33554433) /* Setup */
-     , (6857,   2,  150994945) /* MotionTable */
-     , (6857,   3,  536870913) /* SoundTable */
-     , (6857,   6,   67108990) /* PaletteBase */
-     , (6857,   8,  100667375) /* Icon */
-     , (6857,   9,   83890497) /* EyesTexture */
-     , (6857,  10,   83890556) /* NoseTexture */
-     , (6857,  11,   83890667) /* MouthTexture */
-     , (6857,  15,   67116994) /* HairPalette */
-     , (6857,  16,   67110064) /* EyesPalette */
-     , (6857,  17,   67109560) /* SkinPalette */
+VALUES (6857,   1, 0x02000001) /* Setup */
+     , (6857,   2, 0x09000001) /* MotionTable */
+     , (6857,   3, 0x20000001) /* SoundTable */
+     , (6857,   6, 0x0400007E) /* PaletteBase */
+     , (6857,   8, 0x06000FEF) /* Icon */
+     , (6857,   9, 0x05001141) /* EyesTexture */
+     , (6857,  10, 0x0500117C) /* NoseTexture */
+     , (6857,  11, 0x050011EB) /* MouthTexture */
+     , (6857,  15, 0x04001FC2) /* HairPalette */
+     , (6857,  16, 0x040004B0) /* EyesPalette */
+     , (6857,  17, 0x040002B8) /* SkinPalette */
      , (6857, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (6857, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (6857, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6857, 8040, 288620579, 110.09, 65.3801, 42.005, -0.9988974, 0, 0, 0.04694692) /* PCAPRecordedLocation */
+VALUES (6857, 8040, 0x11340023, 110.09, 65.3801, 42.005, -0.998897, 0, 0, 0.046947) /* PCAPRecordedLocation */
 /* @teleloc 0x11340023 [110.090000 65.380100 42.005000] -0.998897 0.000000 0.000000 0.046947 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6857, 8000, 3691069426) /* PCAPRecordedObjectIID */;
+VALUES (6857, 8000, 0xDC013FF2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6857,   1, 120, 0, 0) /* Strength */

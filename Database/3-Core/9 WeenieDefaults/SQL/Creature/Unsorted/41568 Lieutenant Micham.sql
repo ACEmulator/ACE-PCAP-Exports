@@ -25,21 +25,21 @@ VALUES (41568,   1, 'Lieutenant Micham') /* Name */
      , (41568, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41568,   1,   33554433) /* Setup */
-     , (41568,   2,  150994945) /* MotionTable */
-     , (41568,   3,  536870913) /* SoundTable */
-     , (41568,   6,   67108990) /* PaletteBase */
-     , (41568,   8,  100667446) /* Icon */
+VALUES (41568,   1, 0x02000001) /* Setup */
+     , (41568,   2, 0x09000001) /* MotionTable */
+     , (41568,   3, 0x20000001) /* SoundTable */
+     , (41568,   6, 0x0400007E) /* PaletteBase */
+     , (41568,   8, 0x06001036) /* Icon */
      , (41568, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (41568, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (41568, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41568, 8040, 2270494742, 57.42, 125.936, 10.005, -0.283338, 0, 0, 0.9590201) /* PCAPRecordedLocation */
+VALUES (41568, 8040, 0x87550016, 57.42, 125.936, 10.005, -0.283338, 0, 0, 0.95902) /* PCAPRecordedLocation */
 /* @teleloc 0x87550016 [57.420000 125.936000 10.005000] -0.283338 0.000000 0.000000 0.959020 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41568, 8000, 2881090258) /* PCAPRecordedObjectIID */;
+VALUES (41568, 8000, 0xABB9F2D2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41568, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */

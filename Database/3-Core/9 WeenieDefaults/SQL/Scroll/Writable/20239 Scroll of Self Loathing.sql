@@ -24,13 +24,13 @@ VALUES (20239,   1, 'Scroll of Self Loathing') /* Name */
 Decreases the target''s Self by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20239,   1,   33554826) /* Setup */
-     , (20239,   8,  100676471) /* Icon */
-     , (20239,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20239,   1, 0x0200018A) /* Setup */
+     , (20239,   8, 0x06003377) /* Icon */
+     , (20239,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20239,  28,       2064) /* Spell - FeeblemindOther7 */
      , (20239, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20239, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20239, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20239, 8000, 3700393387) /* PCAPRecordedObjectIID */;
+VALUES (20239, 8000, 0xDC8F85AB) /* PCAPRecordedObjectIID */;

@@ -26,23 +26,23 @@ VALUES (1273,   1, 'Giant White Rat') /* Name */
      , (1273, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1273,   1,   33554493) /* Setup */
-     , (1273,   2,  150994958) /* MotionTable */
-     , (1273,   3,  536870927) /* SoundTable */
-     , (1273,   6,   67109300) /* PaletteBase */
-     , (1273,   8,  100667451) /* Icon */
-     , (1273,  22,  872415267) /* PhysicsEffectTable */
+VALUES (1273,   1, 0x0200003D) /* Setup */
+     , (1273,   2, 0x0900000E) /* MotionTable */
+     , (1273,   3, 0x2000000F) /* SoundTable */
+     , (1273,   6, 0x040001B4) /* PaletteBase */
+     , (1273,   8, 0x0600103B) /* Icon */
+     , (1273,  22, 0x34000023) /* PhysicsEffectTable */
      , (1273,  30,         86) /* PhysicsScript - BreatheAcid */
      , (1273, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1273, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1273, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1273, 8040, 31588655, 82.7161, -19.8179, -17.9896, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (1273, 8040, 0x01E2012F, 82.7161, -19.8179, -17.9896, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01E2012F [82.716100 -19.817900 -17.989600] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1273, 8000, 3700589313) /* PCAPRecordedObjectIID */;
+VALUES (1273, 8000, 0xDC928301) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (1273,   1,     0, 0, 0, 180) /* MaxHealth */;

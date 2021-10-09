@@ -22,13 +22,13 @@ VALUES (27669,   1, 'Tumerok Salted Meat') /* Name */
      , (27669,  16, 'These salted meats have been specially treated by Tumerok priests with herbs and spices that have many healing qualities. The result is a pungent and dry strip of meat with incredible healing properties.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27669,   1,   33554770) /* Setup */
-     , (27669,   3,  536870932) /* SoundTable */
-     , (27669,   8,  100676521) /* Icon */
-     , (27669,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27669,   1, 0x02000152) /* Setup */
+     , (27669,   3, 0x20000014) /* SoundTable */
+     , (27669,   8, 0x060033A9) /* Icon */
+     , (27669,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27669, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (27669, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (27669, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27669, 8000, 2410903935) /* PCAPRecordedObjectIID */;
+VALUES (27669, 8000, 0x8FB3797F) /* PCAPRecordedObjectIID */;

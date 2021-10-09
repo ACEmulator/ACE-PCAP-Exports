@@ -24,7 +24,8 @@ VALUES (27372,   1,          1) /* ItemType - MeleeWeapon */
      , (27372, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27372,  22, True ) /* Inscribable */;
+VALUES (27372,  22, True ) /* Inscribable */
+     , (27372,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27372,  21,       0) /* WeaponLength */
@@ -41,16 +42,16 @@ VALUES (27372,   1, 'Ukira') /* Name */
      , (27372,  16, 'A beautifully carved sword. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27372,   1,   33558666) /* Setup */
-     , (27372,   3,  536870932) /* SoundTable */
-     , (27372,   8,  100676349) /* Icon */
-     , (27372,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27372,   1, 0x0200108A) /* Setup */
+     , (27372,   3, 0x20000014) /* SoundTable */
+     , (27372,   8, 0x060032FD) /* Icon */
+     , (27372,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27372, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27372, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27372, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27372, 8000, 3704492725) /* PCAPRecordedObjectIID */;
+VALUES (27372, 8000, 0xDCCE12B5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (27372, 0, 83893670, 83893699)

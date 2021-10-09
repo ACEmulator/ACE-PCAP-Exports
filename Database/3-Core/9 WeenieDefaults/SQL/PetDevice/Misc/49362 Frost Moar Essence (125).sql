@@ -17,7 +17,7 @@ VALUES (49362,   1,        128) /* ItemType - Misc */
      , (49362, 105,          7) /* ItemWorkmanship */
      , (49362, 114,          0) /* Attuned - Normal */
      , (49362, 280,        213) /* SharedCooldown */
-     , (49362, 366,         54) /* UseRequiresSkill */
+     , (49362, 366,         54) /* UseRequiresSkill - Summoning */
      , (49362, 367,        430) /* UseRequiresSkillLevel */
      , (49362, 369,        115) /* UseRequiresLevel */
      , (49362, 370,         16) /* GearDamage */
@@ -38,23 +38,20 @@ VALUES (49362,   1, 'Frost Moar Essence (125)') /* Name */
      , (49362,  14, 'Use this essence to summon or dismiss your Frost Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49362,   1,   33554817) /* Setup */
-     , (49362,   3,  536870932) /* SoundTable */
-     , (49362,   6,   67111919) /* PaletteBase */
-     , (49362,   8,  100693034) /* Icon */
-     , (49362,  22,  872415275) /* PhysicsEffectTable */
-     , (49362,  50,  100693029) /* IconOverlay */
-     , (49362,  52,  100693024) /* IconUnderlay */
+VALUES (49362,   1, 0x02000181) /* Setup */
+     , (49362,   3, 0x20000014) /* SoundTable */
+     , (49362,   6, 0x04000BEF) /* PaletteBase */
+     , (49362,   8, 0x0600742A) /* Icon */
+     , (49362,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49362,  50, 0x06007425) /* IconOverlay */
+     , (49362,  52, 0x06007420) /* IconUnderlay */
      , (49362, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49362, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49362, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49362, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49362, 8000, 3683296245) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49362, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;
+VALUES (49362, 8000, 0xDB8AA3F5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49362, 67111919, 0, 0);

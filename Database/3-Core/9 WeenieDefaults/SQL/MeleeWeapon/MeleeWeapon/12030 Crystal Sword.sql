@@ -43,17 +43,17 @@ VALUES (12030,   1, 'Crystal Sword') /* Name */
      , (12030,  16, 'A crystalline sword, made out of a what appears to be a shard of the original soul crystal.  It is cold to the touch, and seems to glow with an inner radiance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12030,   1,   33557340) /* Setup */
-     , (12030,   3,  536870932) /* SoundTable */
-     , (12030,   6,   67111919) /* PaletteBase */
-     , (12030,   8,  100672122) /* Icon */
-     , (12030,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12030,   1, 0x02000B5C) /* Setup */
+     , (12030,   3, 0x20000014) /* SoundTable */
+     , (12030,   6, 0x04000BEF) /* PaletteBase */
+     , (12030,   8, 0x0600227A) /* Icon */
+     , (12030,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12030, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (12030, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12030, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12030, 8000, 3658160295) /* PCAPRecordedObjectIID */;
+VALUES (12030, 8000, 0xDA0B18A7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12030,  1094,      2)  /* FireProtectionSelf6 */

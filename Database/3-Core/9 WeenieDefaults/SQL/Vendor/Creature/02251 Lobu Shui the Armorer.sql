@@ -36,27 +36,27 @@ VALUES (2251,   1, 'Lobu Shui the Armorer') /* Name */
      , (2251, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2251,   1,   33554433) /* Setup */
-     , (2251,   2,  150994945) /* MotionTable */
-     , (2251,   3,  536870913) /* SoundTable */
-     , (2251,   6,   67108990) /* PaletteBase */
-     , (2251,   8,  100667446) /* Icon */
-     , (2251,   9,   83890450) /* EyesTexture */
-     , (2251,  10,   83890523) /* NoseTexture */
-     , (2251,  11,   83890658) /* MouthTexture */
-     , (2251,  15,   67117023) /* HairPalette */
-     , (2251,  16,   67110063) /* EyesPalette */
-     , (2251,  17,   67110047) /* SkinPalette */
+VALUES (2251,   1, 0x02000001) /* Setup */
+     , (2251,   2, 0x09000001) /* MotionTable */
+     , (2251,   3, 0x20000001) /* SoundTable */
+     , (2251,   6, 0x0400007E) /* PaletteBase */
+     , (2251,   8, 0x06001036) /* Icon */
+     , (2251,   9, 0x05001112) /* EyesTexture */
+     , (2251,  10, 0x0500115B) /* NoseTexture */
+     , (2251,  11, 0x050011E2) /* MouthTexture */
+     , (2251,  15, 0x04001FDF) /* HairPalette */
+     , (2251,  16, 0x040004AF) /* EyesPalette */
+     , (2251,  17, 0x0400049F) /* SkinPalette */
      , (2251, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2251, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2251, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2251, 8040, 3443589482, 67.7673, 152.535, 54.005, 0.7315662, 0, 0, -0.6817704) /* PCAPRecordedLocation */
+VALUES (2251, 8040, 0xCD41016A, 67.7673, 152.535, 54.005, 0.731566, 0, 0, -0.68177) /* PCAPRecordedLocation */
 /* @teleloc 0xCD41016A [67.767300 152.535000 54.005000] 0.731566 0.000000 0.000000 -0.681770 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2251, 8000, 2094272545) /* PCAPRecordedObjectIID */;
+VALUES (2251, 8000, 0x7CD41021) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2251,   1, 100, 0, 0) /* Strength */
@@ -102,19 +102,7 @@ VALUES (2251, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554)
      , (2251, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (2251, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2251, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (2251, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (2251, 4, 27215, -1, 0, 0, False) /* Create Chiran Coat (27215) for Shop */
-     , (2251, 4, 31866, -1, 0, 0, False) /* Create Coronet (31866) for Shop */
-     , (2251, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (2251, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
-     , (2251, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
-     , (2251, 4, 40704, -1, 0, 0, False) /* Create Covenant Tassets (40704) for Shop */
-     , (2251, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
-     , (2251, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
-     , (2251, 4, 49241, -1, 0, 0, False) /* Create Lightning Zombie Essence (80) (49241) for Shop */
-     , (2251, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
-     , (2251, 4, 49269, -1, 0, 0, False) /* Create Lightning Elemental Essence (80) (49269) for Shop */
-     , (2251, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */;
+     , (2251, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2251, 67110026, 72, 8)

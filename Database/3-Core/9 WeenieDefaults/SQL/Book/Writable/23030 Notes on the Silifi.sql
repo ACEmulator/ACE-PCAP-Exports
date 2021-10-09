@@ -15,13 +15,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23030,   1, 'Notes on the Silifi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23030,   1,   33554773) /* Setup */
-     , (23030,   3,  536870932) /* SoundTable */
-     , (23030,   8,  100668176) /* Icon */
-     , (23030,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23030,   1, 0x02000155) /* Setup */
+     , (23030,   3, 0x20000014) /* SoundTable */
+     , (23030,   8, 0x06001310) /* Icon */
+     , (23030,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23030, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (23030, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (23030, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23030, 8000, 2149496399) /* PCAPRecordedObjectIID */;
+VALUES (23030, 8000, 0x801EB64F) /* PCAPRecordedObjectIID */;

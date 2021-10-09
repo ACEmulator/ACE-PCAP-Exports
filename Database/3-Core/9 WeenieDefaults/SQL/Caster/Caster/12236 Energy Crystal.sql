@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12236,   1,      32768) /* ItemType - Caster */
      , (12236,   5,        300) /* EncumbranceVal */
      , (12236,   9,   16777216) /* ValidLocations - Held */
-     , (12236,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (12236,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (12236,  18,          1) /* UiEffects - Magical */
      , (12236,  19,          0) /* Value */
      , (12236,  33,          1) /* Bonded - Bonded */
+     , (12236,  46,        512) /* DefaultCombatStyle - Magic */
      , (12236,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (12236,  94,         16) /* TargetType - Creature */
      , (12236, 106,        170) /* ItemSpellcraft */
@@ -37,24 +37,24 @@ VALUES (12236,   1, 'Energy Crystal') /* Name */
      , (12236,  16, 'A strange, purple crystal.  It has an odd aura around it, and you can see strange flickering shapes within.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12236,   1,   33557374) /* Setup */
-     , (12236,   3,  536870932) /* SoundTable */
-     , (12236,   8,  100672184) /* Icon */
-     , (12236,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12236,   1, 0x02000B7E) /* Setup */
+     , (12236,   3, 0x20000014) /* SoundTable */
+     , (12236,   8, 0x060022B8) /* Icon */
+     , (12236,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12236, 8001,  271286416) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (12236, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12236, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */
      , (12236, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12236, 8040, 23855548, 54.62833, -25.53607, -0.071, 0.01567748, 0.01567748, -0.706933, -0.706933) /* PCAPRecordedLocation */
+VALUES (12236, 8040, 0x016C01BC, 54.62833, -25.53607, -0.071, 0.015677, 0.015677, -0.706933, -0.706933) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [54.628330 -25.536070 -0.071000] 0.015677 0.015677 -0.706933 -0.706933 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12236, 8000, 3010181316) /* PCAPRecordedObjectIID */
-     , (12236, 8008, 1343491011) /* PCAPRecordedParentIID */;
+VALUES (12236, 8000, 0xB36BB8C4) /* PCAPRecordedObjectIID */
+     , (12236, 8008, 0x50140BC3) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12236,   561,      2)  /* CreatureEnchantmentMasterySelf5 */
-     , (12236,   585,      2)  /* ItemEnchantmentMasterySelf5 */
-     , (12236,   656,      2)  /* ManaMasterySelf4 */;
+VALUES (12236,   585,      2)  /* ItemEnchantmentMasterySelf5 */
+     , (12236,   656,      2)  /* ManaMasterySelf4 */
+     , (12236,   561,      2)  /* CreatureEnchantmentMasterySelf5 */;

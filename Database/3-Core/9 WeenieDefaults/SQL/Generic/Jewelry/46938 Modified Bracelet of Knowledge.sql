@@ -21,6 +21,7 @@ VALUES (46938,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46938,  22, True ) /* Inscribable */
+     , (46938,  23, True ) /* DestroyOnSell */
      , (46938,  69, False) /* IsSellable */
      , (46938,  99, True ) /* Ivoryable */;
 
@@ -32,21 +33,21 @@ VALUES (46938,   1, 'Modified Bracelet of Knowledge') /* Name */
      , (46938,  15, 'An obsidian bracelet set with three sapphires.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46938,   1,   33554682) /* Setup */
-     , (46938,   3,  536870932) /* SoundTable */
-     , (46938,   6,   67111919) /* PaletteBase */
-     , (46938,   8,  100673497) /* Icon */
-     , (46938,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46938,   1, 0x020000FA) /* Setup */
+     , (46938,   3, 0x20000014) /* SoundTable */
+     , (46938,   6, 0x04000BEF) /* PaletteBase */
+     , (46938,   8, 0x060027D9) /* Icon */
+     , (46938,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46938, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (46938, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46938, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46938, 8000, 2147969563) /* PCAPRecordedObjectIID */;
+VALUES (46938, 8000, 0x80076A1B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46938,  4509,      2)  /* ArcaneEnlightenmentOther8 */
-     , (46938,  4684,      2)  /* CANTRIPARCANEPROWESS3 */;
+VALUES (46938,  4684,      2)  /* CANTRIPARCANEPROWESS3 */
+     , (46938,  4509,      2)  /* ArcaneEnlightenmentOther8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46938, 67111927, 0, 0);

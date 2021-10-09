@@ -29,17 +29,17 @@ VALUES (9539,   1, 'Green Marshmallow Eep') /* Name */
      , (9539,  14, 'Use this item to eat it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9539,   1,   33558128) /* Setup */
-     , (9539,   3,  536870932) /* SoundTable */
-     , (9539,   6,   67109300) /* PaletteBase */
-     , (9539,   8,  100671534) /* Icon */
-     , (9539,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9539,   1, 0x02000E70) /* Setup */
+     , (9539,   3, 0x20000014) /* SoundTable */
+     , (9539,   6, 0x040001B4) /* PaletteBase */
+     , (9539,   8, 0x0600202E) /* Icon */
+     , (9539,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9539, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (9539, 8003,      32786) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Food */
      , (9539, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9539, 8000, 2166190638) /* PCAPRecordedObjectIID */;
+VALUES (9539, 8000, 0x811D722E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9539, 67113184, 0, 0);

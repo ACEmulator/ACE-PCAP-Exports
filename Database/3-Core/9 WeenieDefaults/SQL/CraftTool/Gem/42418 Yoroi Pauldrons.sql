@@ -36,18 +36,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42418,   1, 'Yoroi Pauldrons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42418,   1,   33554641) /* Setup */
-     , (42418,   3,  536870932) /* SoundTable */
-     , (42418,   6,   67108990) /* PaletteBase */
-     , (42418,   8,  100668175) /* Icon */
-     , (42418,  22,  872415275) /* PhysicsEffectTable */
-     , (42418,  50,  100667895) /* IconOverlay */
+VALUES (42418,   1, 0x020000D1) /* Setup */
+     , (42418,   3, 0x20000014) /* SoundTable */
+     , (42418,   6, 0x0400007E) /* PaletteBase */
+     , (42418,   8, 0x0600130F) /* Icon */
+     , (42418,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42418,  50, 0x060011F7) /* IconOverlay */
      , (42418, 8001, 1076654104) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Priority, TargetType, Burden, IconOverlay */
      , (42418, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42418, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42418, 8000, 3355142411) /* PCAPRecordedObjectIID */;
+VALUES (42418, 8000, 0xC7FB690B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42418, 67110015, 116, 12);

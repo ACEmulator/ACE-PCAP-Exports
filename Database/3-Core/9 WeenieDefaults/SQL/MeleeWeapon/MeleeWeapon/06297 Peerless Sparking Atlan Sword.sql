@@ -46,24 +46,24 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6297,   1, 'Peerless Sparking Atlan Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6297,   1,   33556348) /* Setup */
-     , (6297,   3,  536870932) /* SoundTable */
-     , (6297,   8,  100670571) /* Icon */
-     , (6297,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6297,   1, 0x0200077C) /* Setup */
+     , (6297,   3, 0x20000014) /* SoundTable */
+     , (6297,   8, 0x06001C6B) /* Icon */
+     , (6297,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6297, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (6297, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6297, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6297, 8000, 2629411078) /* PCAPRecordedObjectIID */;
+VALUES (6297, 8000, 0x9CB9A106) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6297,  1068,      2)  /* LightningProtectionSelf3 */
+VALUES (6297,  1602,      2)  /* DefenderSelf3 */
      , (6297,  1351,      2)  /* EnduranceSelf3 */
-     , (6297,  1589,      2)  /* HeartSeekerSelf3 */
-     , (6297,  1602,      2)  /* DefenderSelf3 */
      , (6297,  1613,      2)  /* BloodDrinkerSelf3 */
-     , (6297,  1624,      2)  /* SwiftKillerSelf3 */;
+     , (6297,  1624,      2)  /* SwiftKillerSelf3 */
+     , (6297,  1068,      2)  /* LightningProtectionSelf3 */
+     , (6297,  1589,      2)  /* HeartSeekerSelf3 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (6297, 0, 16783995);

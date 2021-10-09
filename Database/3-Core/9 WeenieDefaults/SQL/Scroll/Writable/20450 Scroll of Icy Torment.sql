@@ -24,13 +24,13 @@ VALUES (20450,   1, 'Scroll of Icy Torment') /* Name */
 Shoots a bolt of cold at the target. The bolt does 115-189 points of cold damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20450,   1,   33554826) /* Setup */
-     , (20450,   8,  100677016) /* Icon */
-     , (20450,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20450,   1, 0x0200018A) /* Setup */
+     , (20450,   8, 0x06003598) /* Icon */
+     , (20450,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20450,  28,       2136) /* Spell - FrostBolt7 */
      , (20450, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20450, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20450, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20450, 8000, 3690557868) /* PCAPRecordedObjectIID */;
+VALUES (20450, 8000, 0xDBF971AC) /* PCAPRecordedObjectIID */;

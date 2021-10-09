@@ -15,6 +15,9 @@ VALUES (25691,   1,       8192) /* ItemType - Writable */
      , (25691, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (25691, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (25691,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25691,  54,       1) /* UseRadius */;
 
@@ -23,17 +26,17 @@ VALUES (25691,   1, 'Untranslated Note') /* Name */
      , (25691,  16, 'A note written in Empyrean script. It appears to be Dericost in nature.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25691,   1,   33554773) /* Setup */
-     , (25691,   3,  536870932) /* SoundTable */
-     , (25691,   8,  100668176) /* Icon */
-     , (25691,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25691,   1, 0x02000155) /* Setup */
+     , (25691,   3, 0x20000014) /* SoundTable */
+     , (25691,   8, 0x06001310) /* Icon */
+     , (25691,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25691, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (25691, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (25691, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25691, 8040, 1565131013, 59.6393, -20.6127, -65.92101, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (25691, 8040, 0x5D4A0105, 59.6393, -20.6127, -65.92101, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x5D4A0105 [59.639300 -20.612700 -65.921010] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25691, 8000, 2622428543) /* PCAPRecordedObjectIID */;
+VALUES (25691, 8000, 0x9C4F157F) /* PCAPRecordedObjectIID */;

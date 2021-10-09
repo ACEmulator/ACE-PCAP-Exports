@@ -19,7 +19,8 @@ VALUES (9476,   1,        128) /* ItemType - Misc */
      , (9476, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9476,  22, True ) /* Inscribable */;
+VALUES (9476,  22, True ) /* Inscribable */
+     , (9476,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9476,  39,       2) /* DefaultScale */;
@@ -30,17 +31,17 @@ VALUES (9476,   1, 'Strong Benevolence') /* Name */
      , (9476,  16, 'Knowing your enemy only goes so far: One must have the passion to strike. Be a shining spear in the night.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9476,   1,   33557007) /* Setup */
-     , (9476,   3,  536870932) /* SoundTable */
-     , (9476,   6,   67111919) /* PaletteBase */
-     , (9476,   8,  100671489) /* Icon */
-     , (9476,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9476,   1, 0x02000A0F) /* Setup */
+     , (9476,   3, 0x20000014) /* SoundTable */
+     , (9476,   6, 0x04000BEF) /* PaletteBase */
+     , (9476,   8, 0x06002001) /* Icon */
+     , (9476,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9476, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (9476, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9476, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9476, 8000, 2753092318) /* PCAPRecordedObjectIID */;
+VALUES (9476, 8000, 0xA418DADE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9476, 67111918, 0, 0);

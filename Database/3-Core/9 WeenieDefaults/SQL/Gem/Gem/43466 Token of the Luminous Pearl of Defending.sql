@@ -14,7 +14,8 @@ VALUES (43466,   1,       2048) /* ItemType - Gem */
      , (43466, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43466,  22, True ) /* Inscribable */;
+VALUES (43466,  22, True ) /* Inscribable */
+     , (43466,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43466,   1, 'Token of the Luminous Pearl of Defending') /* Name */
@@ -22,20 +23,20 @@ VALUES (43466,   1, 'Token of the Luminous Pearl of Defending') /* Name */
      , (43466,  15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43466,   1,   33557280) /* Setup */
-     , (43466,   3,  536870932) /* SoundTable */
-     , (43466,   8,  100691592) /* Icon */
-     , (43466,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43466,   1, 0x02000B20) /* Setup */
+     , (43466,   3, 0x20000014) /* SoundTable */
+     , (43466,   8, 0x06006E88) /* Icon */
+     , (43466,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43466, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (43466, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43466, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43466, 8040, 3600351238, 8.03006, 140.177, 375.653, -0.711158, 0, 0, 0.703032) /* PCAPRecordedLocation */
+VALUES (43466, 8040, 0xD6990006, 8.03006, 140.177, 375.653, -0.711158, 0, 0, 0.703032) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990006 [8.030060 140.177000 375.653000] -0.711158 0.000000 0.000000 0.703032 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43466, 8000, 3692312926) /* PCAPRecordedObjectIID */;
+VALUES (43466, 8000, 0xDC14395E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43466, 0, 83893723, 83898330)

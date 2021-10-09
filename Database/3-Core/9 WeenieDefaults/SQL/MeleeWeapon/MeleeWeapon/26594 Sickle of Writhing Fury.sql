@@ -48,26 +48,26 @@ VALUES (26594,   1, 'Sickle of Writhing Fury') /* Name */
      , (26594,  15, 'A sickle once used for bloodletting in Falatacot rites.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26594,   1,   33558593) /* Setup */
-     , (26594,   3,  536870932) /* SoundTable */
-     , (26594,   6,   67114956) /* PaletteBase */
-     , (26594,   8,  100675777) /* Icon */
-     , (26594,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26594,   1, 0x02001041) /* Setup */
+     , (26594,   3, 0x20000014) /* SoundTable */
+     , (26594,   6, 0x040017CC) /* PaletteBase */
+     , (26594,   8, 0x060030C1) /* Icon */
+     , (26594,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26594,  30,         88) /* PhysicsScript - Create */
      , (26594, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (26594, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26594, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26594, 8000, 2157272773) /* PCAPRecordedObjectIID */;
+VALUES (26594, 8000, 0x80955EC5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26594,   188,      2)  /* RejuvenationOther6 */
-     , (26594,  1337,      2)  /* StrengthOther6 */
-     , (26594,  1605,      2)  /* DefenderSelf6 */
+VALUES (26594,  1605,      2)  /* DefenderSelf6 */
+     , (26594,  2694,      2)  /* ModerateSwordAptitude */
      , (26594,  1616,      2)  /* BloodDrinkerSelf6 */
      , (26594,  1627,      2)  /* SwiftKillerSelf6 */
-     , (26594,  2694,      2)  /* ModerateSwordAptitude */;
+     , (26594,  1337,      2)  /* StrengthOther6 */
+     , (26594,   188,      2)  /* RejuvenationOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26594, 67114955, 0, 0);

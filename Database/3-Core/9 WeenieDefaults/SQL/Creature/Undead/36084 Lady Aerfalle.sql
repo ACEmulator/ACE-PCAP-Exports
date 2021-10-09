@@ -31,20 +31,20 @@ VALUES (36084,   1, 'Lady Aerfalle') /* Name */
      , (36084, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36084,   1,   33558819) /* Setup */
-     , (36084,   2,  150994945) /* MotionTable */
-     , (36084,   3,  536870914) /* SoundTable */
-     , (36084,   8,  100667446) /* Icon */
+VALUES (36084,   1, 0x02001123) /* Setup */
+     , (36084,   2, 0x09000001) /* MotionTable */
+     , (36084,   3, 0x20000002) /* SoundTable */
+     , (36084,   8, 0x06001036) /* Icon */
      , (36084, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (36084, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (36084, 8005,     362499) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36084, 8040, 10682636, 250, -187.432, -35.9925, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (36084, 8040, 0x00A3010C, 250, -187.432, -35.9925, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00A3010C [250.000000 -187.432000 -35.992500] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36084, 8000, 3705390780) /* PCAPRecordedObjectIID */;
+VALUES (36084, 8000, 0xDCDBC6BC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36084,   1,  90, 0, 0) /* Strength */

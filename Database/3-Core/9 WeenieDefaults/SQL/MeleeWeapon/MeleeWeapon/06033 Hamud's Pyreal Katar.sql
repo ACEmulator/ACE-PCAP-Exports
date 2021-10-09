@@ -30,6 +30,7 @@ VALUES (6033,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6033,  22, True ) /* Inscribable */
+     , (6033,  23, True ) /* DestroyOnSell */
      , (6033,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -47,23 +48,23 @@ VALUES (6033,   1, 'Hamud''s Pyreal Katar') /* Name */
      , (6033,  15, 'An exquisitely crafted katar with a damascened blade.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6033,   1,   33556277) /* Setup */
-     , (6033,   3,  536870932) /* SoundTable */
-     , (6033,   6,   67111919) /* PaletteBase */
-     , (6033,   8,  100668928) /* Icon */
-     , (6033,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6033,   1, 0x02000735) /* Setup */
+     , (6033,   3, 0x20000014) /* SoundTable */
+     , (6033,   6, 0x04000BEF) /* PaletteBase */
+     , (6033,   8, 0x06001600) /* Icon */
+     , (6033,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6033, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (6033, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6033, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6033, 8000, 2484463619) /* PCAPRecordedObjectIID */;
+VALUES (6033, 8000, 0x9415E803) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6033,  1405,      2)  /* QuicknessOther3 */
+VALUES (6033,  1613,      2)  /* BloodDrinkerSelf3 */
+     , (6033,  1623,      2)  /* SwiftKillerSelf2 */
      , (6033,  1588,      2)  /* HeartSeekerSelf2 */
-     , (6033,  1613,      2)  /* BloodDrinkerSelf3 */
-     , (6033,  1623,      2)  /* SwiftKillerSelf2 */;
+     , (6033,  1405,      2)  /* QuicknessOther3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6033, 67111922, 0, 0);

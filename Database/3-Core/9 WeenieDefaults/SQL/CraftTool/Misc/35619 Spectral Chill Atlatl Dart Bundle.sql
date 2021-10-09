@@ -23,18 +23,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35619,   1, 'Spectral Chill Atlatl Dart Bundle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35619,   1,   33556223) /* Setup */
-     , (35619,   3,  536870932) /* SoundTable */
-     , (35619,   6,   67111928) /* PaletteBase */
-     , (35619,   8,  100689517) /* Icon */
-     , (35619,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35619,   1, 0x020006FF) /* Setup */
+     , (35619,   3, 0x20000014) /* SoundTable */
+     , (35619,   6, 0x04000BF8) /* PaletteBase */
+     , (35619,   8, 0x0600666D) /* Icon */
+     , (35619,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35619, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (35619, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35619, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (35619, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35619, 8000,      35619) /* PCAPRecordedObjectIID */;
+VALUES (35619, 8000, 0x00008B23) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35619, 67112642, 0, 0);

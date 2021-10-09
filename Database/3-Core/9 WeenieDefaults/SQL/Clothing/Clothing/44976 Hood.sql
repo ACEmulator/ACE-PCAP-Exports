@@ -51,22 +51,22 @@ VALUES (44976,   1, 'Hood') /* Name */
      , (44976,  16, 'Hood of Alchemy Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44976,   1,   33556237) /* Setup */
-     , (44976,   3,  536870932) /* SoundTable */
-     , (44976,   6,   67108990) /* PaletteBase */
-     , (44976,   8,  100670339) /* Icon */
-     , (44976,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44976,   1, 0x0200070D) /* Setup */
+     , (44976,   3, 0x20000014) /* SoundTable */
+     , (44976,   6, 0x0400007E) /* PaletteBase */
+     , (44976,   8, 0x06001B83) /* Icon */
+     , (44976,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44976, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (44976, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44976, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44976, 8000, 2174518572) /* PCAPRecordedObjectIID */;
+VALUES (44976, 8000, 0x819C852C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44976,  2108,      2)  /* Impenetrability7 */
+VALUES (44976,  4674,      2)  /* CANTRIPBLUDGEONINGWARD3 */
      , (44976,  2191,      2)  /* AlchemyMasterySelf7 */
-     , (44976,  4674,      2)  /* CANTRIPBLUDGEONINGWARD3 */;
+     , (44976,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44976, 67110371, 250, 6)

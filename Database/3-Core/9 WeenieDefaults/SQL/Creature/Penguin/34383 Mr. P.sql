@@ -30,21 +30,21 @@ VALUES (34383,   1, 'Mr. P') /* Name */
      , (34383, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34383,   1,   33559122) /* Setup */
-     , (34383,   2,  150995323) /* MotionTable */
-     , (34383,   3,  536871098) /* SoundTable */
-     , (34383,   6,   67115388) /* PaletteBase */
-     , (34383,   8,  100677366) /* Icon */
+VALUES (34383,   1, 0x02001252) /* Setup */
+     , (34383,   2, 0x0900017B) /* MotionTable */
+     , (34383,   3, 0x200000BA) /* SoundTable */
+     , (34383,   6, 0x0400197C) /* PaletteBase */
+     , (34383,   8, 0x060036F6) /* Icon */
      , (34383, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (34383, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (34383, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34383, 8040, 4079222828, 140.972, 74.1266, 1.749173, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34383, 8040, 0xF324002C, 140.972, 74.1266, 1.749173, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF324002C [140.972000 74.126600 1.749173] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34383, 8000, 3691169066) /* PCAPRecordedObjectIID */;
+VALUES (34383, 8000, 0xDC02C52A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34383,   1,  20, 0, 0) /* Strength */

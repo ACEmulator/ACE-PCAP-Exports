@@ -23,13 +23,13 @@ VALUES (28758,   1, 'Brewmaster''s Bible') /* Name */
      , (28758,  16, 'Herein lie the arcane secrets of that most magical craft known to all Isparian-kind as Brewing!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28758,   1,   33554771) /* Setup */
-     , (28758,   3,  536870932) /* SoundTable */
-     , (28758,   8,  100668117) /* Icon */
-     , (28758,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28758,   1, 0x02000153) /* Setup */
+     , (28758,   3, 0x20000014) /* SoundTable */
+     , (28758,   8, 0x060012D5) /* Icon */
+     , (28758,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28758, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (28758, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (28758, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28758, 8000, 3039893448) /* PCAPRecordedObjectIID */;
+VALUES (28758, 8000, 0xB53117C8) /* PCAPRecordedObjectIID */;

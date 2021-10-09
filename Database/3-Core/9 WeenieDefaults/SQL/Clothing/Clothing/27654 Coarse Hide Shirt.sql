@@ -41,17 +41,17 @@ VALUES (27654,   1, 'Coarse Hide Shirt') /* Name */
      , (27654,  16, 'This shirt has been assembled from the hides of many reedsharks and then treated with magical oils to make the shirt more comfortable and enchanted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27654,   1,   33554883) /* Setup */
-     , (27654,   3,  536870932) /* SoundTable */
-     , (27654,   6,   67108990) /* PaletteBase */
-     , (27654,   8,  100676511) /* Icon */
-     , (27654,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27654,   1, 0x020001C3) /* Setup */
+     , (27654,   3, 0x20000014) /* SoundTable */
+     , (27654,   6, 0x0400007E) /* PaletteBase */
+     , (27654,   8, 0x0600339F) /* Icon */
+     , (27654,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27654, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (27654, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27654, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27654, 8000, 2192305235) /* PCAPRecordedObjectIID */;
+VALUES (27654, 8000, 0x82ABEC53) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27654,  1028,      2)  /* BludgeonProtectionOther5 */

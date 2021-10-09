@@ -26,23 +26,23 @@ VALUES (212,   1, 'Olthoi Noble') /* Name */
      , (212, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (212,   1,   33557161) /* Setup */
-     , (212,   2,  150994946) /* MotionTable */
-     , (212,   3,  536870925) /* SoundTable */
-     , (212,   6,   67113236) /* PaletteBase */
-     , (212,   8,  100667623) /* Icon */
-     , (212,  22,  872415265) /* PhysicsEffectTable */
+VALUES (212,   1, 0x02000AA9) /* Setup */
+     , (212,   2, 0x09000002) /* MotionTable */
+     , (212,   3, 0x2000000D) /* SoundTable */
+     , (212,   6, 0x04001114) /* PaletteBase */
+     , (212,   8, 0x060010E7) /* Icon */
+     , (212,  22, 0x34000021) /* PhysicsEffectTable */
      , (212,  30,         86) /* PhysicsScript - BreatheAcid */
      , (212, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (212, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (212, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (212, 8040, 2312110088, 14.05039, 189.1472, 178.9742, 0.3626441, 0, 0, -0.9319277) /* PCAPRecordedLocation */
+VALUES (212, 8040, 0x89D00008, 14.05039, 189.1472, 178.9742, 0.362644, 0, 0, -0.931928) /* PCAPRecordedLocation */
 /* @teleloc 0x89D00008 [14.050390 189.147200 178.974200] 0.362644 0.000000 0.000000 -0.931928 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (212, 8000, 3685886735) /* PCAPRecordedObjectIID */;
+VALUES (212, 8000, 0xDBB22B0F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (212,   1, 300, 0, 0) /* Strength */
@@ -58,7 +58,8 @@ VALUES (212,   1,   125, 0, 0, 275) /* MaxHealth */
      , (212,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (212, 9, 49227,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (50) (49227) for ContainTreasure */
+VALUES (212, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */
+     , (212, 9, 49227,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (50) (49227) for ContainTreasure */
      , (212, 9,    66,  0, 0, 0, False) /* Create Platemail Greaves (66) for ContainTreasure */
      , (212, 9,   342,  0, 0, 0, False) /* Create Shou-ono (342) for ContainTreasure */
      , (212, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
@@ -536,7 +537,14 @@ VALUES (212, 9, 49227,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence 
      , (212, 9,  3442,  0, 0, 0, False) /* Create Scroll of Monster Attunement Other VI (3442) for ContainTreasure */
      , (212, 9, 45282,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Self VII (45282) for ContainTreasure */
      , (212, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
-     , (212, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */;
+     , (212, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (212, 9,  3777,  0, 0, 0, False) /* Create Frost Dabus (3777) for ContainTreasure */
+     , (212, 9, 48972,  0, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for ContainTreasure */
+     , (212, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (212, 9, 45265,  0, 0, 0, False) /* Create Scroll of Dual Wield Ineptitude Other VI (45265) for ContainTreasure */
+     , (212, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (212, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
+     , (212, 9,  3915,  0, 0, 0, False) /* Create Flaming Yari (3915) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (212, 67113314, 0, 0);

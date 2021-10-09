@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8705,   1, 'A Society Necklace Of Focus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8705,   1,   33554689) /* Setup */
-     , (8705,   3,  536870932) /* SoundTable */
-     , (8705,   6,   67111919) /* PaletteBase */
-     , (8705,   8,  100668682) /* Icon */
-     , (8705,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8705,   1, 0x02000101) /* Setup */
+     , (8705,   3, 0x20000014) /* SoundTable */
+     , (8705,   6, 0x04000BEF) /* PaletteBase */
+     , (8705,   8, 0x0600150A) /* Icon */
+     , (8705,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8705, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (8705, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8705, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8705, 8000, 3629880143) /* PCAPRecordedObjectIID */;
+VALUES (8705, 8000, 0xD85B934F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8705, 67111919, 0, 0);

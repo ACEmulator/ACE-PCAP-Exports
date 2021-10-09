@@ -8,7 +8,6 @@ VALUES (8711,   1,          2) /* ItemType - Armor */
      , (8711,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (8711,   5,        400) /* EncumbranceVal */
      , (8711,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
-     , (8711,  10,       6144) /* CurrentWieldedLocation - UpperArmArmor, LowerArmArmor */
      , (8711,  16,          1) /* ItemUseable - No */
      , (8711,  18,          1) /* UiEffects - Magical */
      , (8711,  19,          1) /* Value */
@@ -38,21 +37,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8711,   1, 'A Pair Of Explorer Leather Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8711,   1,   33554655) /* Setup */
-     , (8711,   3,  536870932) /* SoundTable */
-     , (8711,   6,   67108990) /* PaletteBase */
-     , (8711,   8,  100668412) /* Icon */
-     , (8711,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8711,   1, 0x020000DF) /* Setup */
+     , (8711,   3, 0x20000014) /* SoundTable */
+     , (8711,   6, 0x0400007E) /* PaletteBase */
+     , (8711,   8, 0x060013FC) /* Icon */
+     , (8711,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8711, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (8711, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8711, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8711, 8000, 2629411242) /* PCAPRecordedObjectIID */;
+VALUES (8711, 8000, 0x9CB9A1AA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8711,   686,      2)  /* ArcaneEnlightenmentOther3 */
-     , (8711,  1483,      2)  /* Impenetrability3 */;
+VALUES (8711,  1483,      2)  /* Impenetrability3 */
+     , (8711,   686,      2)  /* ArcaneEnlightenmentOther3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8711, 67110375, 128, 8)

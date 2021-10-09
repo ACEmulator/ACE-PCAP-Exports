@@ -15,7 +15,7 @@ VALUES (12463,   1,        256) /* ItemType - MissileWeapon */
      , (12463,  48,         47) /* WeaponSkill - MissileWeapons */
      , (12463,  49,         15) /* WeaponTime */
      , (12463,  50,          4) /* AmmoType - Atlatl */
-     , (12463,  51,          2) /* CombatUse - Missle */
+     , (12463,  51,          2) /* CombatUse - Missile */
      , (12463,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12463, 105,          6) /* ItemWorkmanship */
      , (12463, 106,        270) /* ItemSpellcraft */
@@ -53,26 +53,23 @@ VALUES (12463,   1, 'Atlatl') /* Name */
      , (12463,  16, 'Atlatl of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12463,   1,   33557433) /* Setup */
-     , (12463,   3,  536870932) /* SoundTable */
-     , (12463,   6,   67111919) /* PaletteBase */
-     , (12463,   8,  100672414) /* Icon */
-     , (12463,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12463,   1, 0x02000BB9) /* Setup */
+     , (12463,   3, 0x20000014) /* SoundTable */
+     , (12463,   6, 0x04000BEF) /* PaletteBase */
+     , (12463,   8, 0x0600239E) /* Icon */
+     , (12463,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12463,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (12463, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (12463, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12463, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12463, 8000, 3685202442) /* PCAPRecordedObjectIID */;
+VALUES (12463, 8000, 0xDBA7BA0A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12463,  1604,      2)  /* DefenderSelf5 */
      , (12463,  1616,      2)  /* BloodDrinkerSelf6 */
      , (12463,  1626,      2)  /* SwiftKillerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12463, 2, 47407,  1, 0, 0, False) /* Create Frost Club (47407) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12463, 67111924, 0, 0);

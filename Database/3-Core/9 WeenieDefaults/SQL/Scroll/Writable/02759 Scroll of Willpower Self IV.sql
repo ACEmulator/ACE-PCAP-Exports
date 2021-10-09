@@ -24,13 +24,13 @@ VALUES (2759,   1, 'Scroll of Willpower Self IV') /* Name */
 Increases the caster''s Self by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2759,   1,   33554826) /* Setup */
-     , (2759,   8,  100676471) /* Icon */
-     , (2759,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2759,   1, 0x0200018A) /* Setup */
+     , (2759,   8, 0x06003377) /* Icon */
+     , (2759,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2759,  28,       1448) /* Spell - WillpowerSelf4 */
      , (2759, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2759, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2759, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2759, 8000, 2629745106) /* PCAPRecordedObjectIID */;
+VALUES (2759, 8000, 0x9CBEB9D2) /* PCAPRecordedObjectIID */;

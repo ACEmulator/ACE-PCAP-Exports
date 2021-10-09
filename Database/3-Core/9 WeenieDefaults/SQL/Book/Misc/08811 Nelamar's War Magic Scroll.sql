@@ -14,6 +14,9 @@ VALUES (8811,   1,        128) /* ItemType - Misc */
      , (8811, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (8811, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (8811,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8811,  39,     0.2) /* DefaultScale */
      , (8811,  54,       1) /* UseRadius */
@@ -25,13 +28,13 @@ VALUES (8811,   1, 'Nelamar''s War Magic Scroll') /* Name */
      , (8811,  16, 'A War Magic spell scroll taken from Nelamar the Legate, a Virindi Master.  It may be a fire-related projectile spell.  It needs to be translated before the spell can be learned.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8811,   1,   33555391) /* Setup */
-     , (8811,   3,  536870932) /* SoundTable */
-     , (8811,   8,  100671183) /* Icon */
-     , (8811,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8811,   1, 0x020003BF) /* Setup */
+     , (8811,   3, 0x20000014) /* SoundTable */
+     , (8811,   8, 0x06001ECF) /* Icon */
+     , (8811,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8811, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (8811, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (8811, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8811, 8000, 2780481376) /* PCAPRecordedObjectIID */;
+VALUES (8811, 8000, 0xA5BAC760) /* PCAPRecordedObjectIID */;

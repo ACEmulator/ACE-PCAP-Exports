@@ -45,19 +45,19 @@ VALUES (45120,   1, 'Lightning Hand Wraps') /* Name */
      , (45120,  16, 'Lightning Hand Wraps') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45120,   1,   33561412) /* Setup */
-     , (45120,   3,  536870932) /* SoundTable */
-     , (45120,   6,   67115556) /* PaletteBase */
-     , (45120,   8,  100692315) /* Icon */
-     , (45120,  22,  872415275) /* PhysicsEffectTable */
-     , (45120,  52,  100676438) /* IconUnderlay */
+VALUES (45120,   1, 0x02001B44) /* Setup */
+     , (45120,   3, 0x20000014) /* SoundTable */
+     , (45120,   6, 0x04001A24) /* PaletteBase */
+     , (45120,   8, 0x0600715B) /* Icon */
+     , (45120,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45120,  52, 0x06003356) /* IconUnderlay */
      , (45120, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45120, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45120, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45120, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45120, 8000, 2173710328) /* PCAPRecordedObjectIID */;
+VALUES (45120, 8000, 0x81902FF8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45120, 67116446, 0, 0);

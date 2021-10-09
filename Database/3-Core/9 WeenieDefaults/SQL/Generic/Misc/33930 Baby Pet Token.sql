@@ -15,6 +15,7 @@ VALUES (33930,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33930,  22, True ) /* Inscribable */
+     , (33930,  23, True ) /* DestroyOnSell */
      , (33930,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -23,13 +24,13 @@ VALUES (33930,   1, 'Baby Pet Token') /* Name */
      , (33930,  16, 'A token, given to you by Larinne Kerendova, that can be given to specific individuals, in order to receive a new pet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33930,   1,   33558119) /* Setup */
-     , (33930,   3,  536870932) /* SoundTable */
-     , (33930,   8,  100667518) /* Icon */
-     , (33930,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33930,   1, 0x02000E67) /* Setup */
+     , (33930,   3, 0x20000014) /* SoundTable */
+     , (33930,   8, 0x0600107E) /* Icon */
+     , (33930,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33930, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (33930, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33930, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33930, 8000, 2343279749) /* PCAPRecordedObjectIID */;
+VALUES (33930, 8000, 0x8BAB9C85) /* PCAPRecordedObjectIID */;

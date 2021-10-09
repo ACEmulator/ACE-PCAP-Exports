@@ -22,16 +22,16 @@ VALUES (14629,   1, 'Erevana Villas Portal') /* Name */
      , (14629, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14629,   1,   33554867) /* Setup */
-     , (14629,   2,  150994947) /* MotionTable */
-     , (14629,   8,  100667499) /* Icon */
+VALUES (14629,   1, 0x020001B3) /* Setup */
+     , (14629,   2, 0x09000003) /* MotionTable */
+     , (14629,   8, 0x0600106B) /* Icon */
      , (14629, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14629, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14629, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14629, 8040, 2671837247, 184.961, 155.8, 109.937, 0.6445202, 0, 0, 0.7645873) /* PCAPRecordedLocation */
+VALUES (14629, 8040, 0x9F41003F, 184.961, 155.8, 109.937, 0.64452, 0, 0, 0.764587) /* PCAPRecordedLocation */
 /* @teleloc 0x9F41003F [184.961000 155.800000 109.937000] 0.644520 0.000000 0.000000 0.764587 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14629, 8000, 2046038028) /* PCAPRecordedObjectIID */;
+VALUES (14629, 8000, 0x79F4100C) /* PCAPRecordedObjectIID */;

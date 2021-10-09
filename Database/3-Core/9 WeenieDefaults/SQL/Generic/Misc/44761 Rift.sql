@@ -19,11 +19,11 @@ VALUES (44761,   1, 'Rift') /* Name */
      , (44761,  16, 'Rifts are enigmas that only recently began to confound adventurers. Some people believe they are "intelligent portals" that have taken umbrage at the superabundance of portal magic use in Dereth. Others believe they are Virindi in their true form, a theory supported by the mask that floats in the light surrounding the Rift. Either thesis could be valid; certainly the Rifts are not answering any questions. They also have the ability to summon Virindi and Virindi-allied creatures to aid them in combat. This last ability is what makes them dangerous.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44761,   1,   33561361) /* Setup */
-     , (44761,   8,  100668115) /* Icon */
+VALUES (44761,   1, 0x02001B11) /* Setup */
+     , (44761,   8, 0x060012D3) /* Icon */
      , (44761, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44761, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44761, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44761, 8000, 2998180105) /* PCAPRecordedObjectIID */;
+VALUES (44761, 8000, 0xB2B49909) /* PCAPRecordedObjectIID */;

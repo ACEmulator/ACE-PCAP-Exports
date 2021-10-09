@@ -23,16 +23,16 @@ VALUES (31326,   1, 'Coral Caves') /* Name */
      , (31326, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31326,   1,   33555925) /* Setup */
-     , (31326,   2,  150994947) /* MotionTable */
-     , (31326,   8,  100667499) /* Icon */
+VALUES (31326,   1, 0x020005D5) /* Setup */
+     , (31326,   2, 0x09000003) /* MotionTable */
+     , (31326,   8, 0x0600106B) /* Icon */
      , (31326, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (31326, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (31326, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31326, 8040, 1257242645, 69.151, 104.98, -0.9629998, -0.9855204, 0, 0, -0.1695571) /* PCAPRecordedLocation */
+VALUES (31326, 8040, 0x4AF00015, 69.151, 104.98, -0.963, -0.98552, 0, 0, -0.169557) /* PCAPRecordedLocation */
 /* @teleloc 0x4AF00015 [69.151000 104.980000 -0.963000] -0.985520 0.000000 0.000000 -0.169557 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31326, 8000, 1957625856) /* PCAPRecordedObjectIID */;
+VALUES (31326, 8000, 0x74AF0000) /* PCAPRecordedObjectIID */;

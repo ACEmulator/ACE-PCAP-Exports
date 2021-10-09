@@ -41,23 +41,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29545,   1, 'Noble Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29545,   1,   33554654) /* Setup */
-     , (29545,   3,  536870932) /* SoundTable */
-     , (29545,   6,   67108990) /* PaletteBase */
-     , (29545,   8,  100677206) /* Icon */
-     , (29545,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29545,   1, 0x020000DE) /* Setup */
+     , (29545,   3, 0x20000014) /* SoundTable */
+     , (29545,   6, 0x0400007E) /* PaletteBase */
+     , (29545,   8, 0x06003656) /* Icon */
+     , (29545,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29545, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (29545, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29545, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29545, 8000, 2980863048) /* PCAPRecordedObjectIID */;
+VALUES (29545, 8000, 0xB1AC5C48) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29545,   244,      2)  /* InvulnerabilityOther6 */
-     , (29545,   255,      2)  /* ImpregnabilityOther6 */
-     , (29545,   273,      2)  /* MagicResistanceOther6 */
-     , (29545,  2108,      2)  /* Impenetrability7 */;
+VALUES (29545,   273,      2)  /* MagicResistanceOther6 */
+     , (29545,   244,      2)  /* InvulnerabilityOther6 */
+     , (29545,  2108,      2)  /* Impenetrability7 */
+     , (29545,   255,      2)  /* ImpregnabilityOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29545, 67115398, 160, 8);

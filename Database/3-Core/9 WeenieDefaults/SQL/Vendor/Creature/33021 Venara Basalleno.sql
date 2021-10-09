@@ -24,21 +24,21 @@ VALUES (33021,   1, 'Venara Basalleno') /* Name */
      , (33021, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33021,   1,   33554510) /* Setup */
-     , (33021,   2,  150994945) /* MotionTable */
-     , (33021,   3,  536870914) /* SoundTable */
-     , (33021,   6,   67108990) /* PaletteBase */
-     , (33021,   8,  100667446) /* Icon */
+VALUES (33021,   1, 0x0200004E) /* Setup */
+     , (33021,   2, 0x09000001) /* MotionTable */
+     , (33021,   3, 0x20000002) /* SoundTable */
+     , (33021,   6, 0x0400007E) /* PaletteBase */
+     , (33021,   8, 0x06001036) /* Icon */
      , (33021, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (33021, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (33021, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33021, 8040, 8388909, 80, -60, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33021, 8040, 0x0080012D, 80, -60, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0080012D [80.000000 -60.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33021, 8000, 1879572489) /* PCAPRecordedObjectIID */;
+VALUES (33021, 8000, 0x70080009) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33021, 67109969, 92, 4)

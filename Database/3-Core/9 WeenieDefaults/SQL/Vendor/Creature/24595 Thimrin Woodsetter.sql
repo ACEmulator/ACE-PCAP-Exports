@@ -37,27 +37,27 @@ VALUES (24595,   1, 'Thimrin Woodsetter') /* Name */
      , (24595, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24595,   1,   33554433) /* Setup */
-     , (24595,   2,  150994945) /* MotionTable */
-     , (24595,   3,  536870913) /* SoundTable */
-     , (24595,   6,   67108990) /* PaletteBase */
-     , (24595,   8,  100667446) /* Icon */
-     , (24595,   9,   83890482) /* EyesTexture */
-     , (24595,  10,   83890544) /* NoseTexture */
-     , (24595,  11,   83890618) /* MouthTexture */
-     , (24595,  15,   67116991) /* HairPalette */
-     , (24595,  16,   67110062) /* EyesPalette */
-     , (24595,  17,   67109557) /* SkinPalette */
+VALUES (24595,   1, 0x02000001) /* Setup */
+     , (24595,   2, 0x09000001) /* MotionTable */
+     , (24595,   3, 0x20000001) /* SoundTable */
+     , (24595,   6, 0x0400007E) /* PaletteBase */
+     , (24595,   8, 0x06001036) /* Icon */
+     , (24595,   9, 0x05001132) /* EyesTexture */
+     , (24595,  10, 0x05001170) /* NoseTexture */
+     , (24595,  11, 0x050011BA) /* MouthTexture */
+     , (24595,  15, 0x04001FBF) /* HairPalette */
+     , (24595,  16, 0x040004AE) /* EyesPalette */
+     , (24595,  17, 0x040002B5) /* SkinPalette */
      , (24595, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (24595, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (24595, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24595, 8040, 722599961, 76.7132, 19.2971, 72.9361, 0.1449077, 0, 0, -0.9894451) /* PCAPRecordedLocation */
+VALUES (24595, 8040, 0x2B120019, 76.7132, 19.2971, 72.9361, 0.144908, 0, 0, -0.989445) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120019 [76.713200 19.297100 72.936100] 0.144908 0.000000 0.000000 -0.989445 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24595, 8000, 1924210708) /* PCAPRecordedObjectIID */;
+VALUES (24595, 8000, 0x72B12014) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24595,   1, 120, 0, 0) /* Strength */
@@ -136,6 +136,11 @@ VALUES (24595, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (24595, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (24595, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (24595, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (24595, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (24595, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (24595, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (24595, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (24595, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (24595, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (24595, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (24595, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -145,18 +150,7 @@ VALUES (24595, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (24595, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (24595, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24595, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (24595, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (24595, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (24595, 4, 41485, -1, 0, 0, False) /* Create Pocket Watch (41485) for Shop */
-     , (24595, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (24595, 4, 49544, -1, 0, 0, False) /* Create Frost Phyntos Swarm Essence (49544) for Shop */
-     , (24595, 4, 37362, -1, 0, 0, False) /* Create Quill of Extraction (37362) for Shop */
-     , (24595, 4, 49299, -1, 0, 0, False) /* Create Fire K'nath Essence (125) (49299) for Shop */
-     , (24595, 4, 27320, -1, 0, 0, False) /* Create Health Tonic (27320) for Shop */
-     , (24595, 4, 27327, -1, 0, 0, False) /* Create Stamina Tonic (27327) for Shop */
-     , (24595, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (24595, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
-     , (24595, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */;
+     , (24595, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24595, 67109557, 0, 24)

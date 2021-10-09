@@ -57,16 +57,16 @@ VALUES (11439,   1, 'Palenqual''s Hoeroa of the Vortex') /* Name */
      , (11439,  25, 'Stargren Dragoon') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11439,   1,   33557237) /* Setup */
-     , (11439,   3,  536870932) /* SoundTable */
-     , (11439,   8,  100672099) /* Icon */
-     , (11439,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11439,   1, 0x02000AF5) /* Setup */
+     , (11439,   3, 0x20000014) /* SoundTable */
+     , (11439,   8, 0x06002263) /* Icon */
+     , (11439,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11439, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (11439, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11439, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11439, 8000, 2624327528) /* PCAPRecordedObjectIID */;
+VALUES (11439, 8000, 0x9C6C0F68) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11439,  2438,      2)  /* RockslideLesser */

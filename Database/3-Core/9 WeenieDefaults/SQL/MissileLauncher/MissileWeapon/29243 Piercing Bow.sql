@@ -15,7 +15,7 @@ VALUES (29243,   1,        256) /* ItemType - MissileWeapon */
      , (29243,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29243,  49,         36) /* WeaponTime */
      , (29243,  50,          1) /* AmmoType - Arrow */
-     , (29243,  51,          2) /* CombatUse - Missle */
+     , (29243,  51,          2) /* CombatUse - Missile */
      , (29243,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29243, 105,          8) /* ItemWorkmanship */
      , (29243, 106,        370) /* ItemSpellcraft */
@@ -54,18 +54,18 @@ VALUES (29243,   1, 'Piercing Bow') /* Name */
      , (29243,  16, 'Piercing Bow of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29243,   1,   33559027) /* Setup */
-     , (29243,   3,  536870932) /* SoundTable */
-     , (29243,   6,   67115373) /* PaletteBase */
-     , (29243,   8,  100677125) /* Icon */
-     , (29243,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29243,   1, 0x020011F3) /* Setup */
+     , (29243,   3, 0x20000014) /* SoundTable */
+     , (29243,   6, 0x0400196D) /* PaletteBase */
+     , (29243,   8, 0x06003605) /* Icon */
+     , (29243,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29243,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (29243, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (29243, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29243, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29243, 8000, 2159697002) /* PCAPRecordedObjectIID */;
+VALUES (29243, 8000, 0x80BA5C6A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29243,  2061,      2)  /* EnduranceSelf7 */

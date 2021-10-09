@@ -23,16 +23,16 @@ VALUES (5667,   1, 'Mage Academy Portal') /* Name */
      , (5667, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5667,   1,   33555925) /* Setup */
-     , (5667,   2,  150994947) /* MotionTable */
-     , (5667,   8,  100667499) /* Icon */
+VALUES (5667,   1, 0x020005D5) /* Setup */
+     , (5667,   2, 0x09000003) /* MotionTable */
+     , (5667,   8, 0x0600106B) /* Icon */
      , (5667, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (5667, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (5667, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5667, 8040, 2531000359, 106.294, 160.204, 301.4955, -0.5519369, 0, 0, -0.8338859) /* PCAPRecordedLocation */
+VALUES (5667, 8040, 0x96DC0027, 106.294, 160.204, 301.4955, -0.551937, 0, 0, -0.833886) /* PCAPRecordedLocation */
 /* @teleloc 0x96DC0027 [106.294000 160.204000 301.495500] -0.551937 0.000000 0.000000 -0.833886 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5667, 8000, 2037235712) /* PCAPRecordedObjectIID */;
+VALUES (5667, 8000, 0x796DC000) /* PCAPRecordedObjectIID */;

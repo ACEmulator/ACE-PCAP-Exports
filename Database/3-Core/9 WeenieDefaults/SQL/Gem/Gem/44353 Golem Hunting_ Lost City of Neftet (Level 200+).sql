@@ -23,6 +23,7 @@ VALUES (44353,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44353,  22, True ) /* Inscribable */
+     , (44353,  23, True ) /* DestroyOnSell */
      , (44353,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,14 +35,14 @@ VALUES (44353,   1, 'Golem Hunting: Lost City of Neftet (Level 200+)') /* Name *
      , (44353,  16, 'A contract for hunting golems within the Lost City of Neftet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44353,   1,   33554773) /* Setup */
-     , (44353,   3,  536870932) /* SoundTable */
-     , (44353,   8,  100691928) /* Icon */
-     , (44353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44353,   1, 0x02000155) /* Setup */
+     , (44353,   3, 0x20000014) /* SoundTable */
+     , (44353,   8, 0x06006FD8) /* Icon */
+     , (44353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44353, 8001,     553104) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44353, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44353, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44353, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44353, 8000, 3696623808) /* PCAPRecordedObjectIID */;
+VALUES (44353, 8000, 0xDC5600C0) /* PCAPRecordedObjectIID */;

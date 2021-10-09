@@ -12,6 +12,7 @@ VALUES (46942,   1,      32768) /* ItemType - Caster */
      , (46942,  19,       4000) /* Value */
      , (46942,  33,          1) /* Bonded - Bonded */
      , (46942,  45,         16) /* DamageType - Fire */
+     , (46942,  46,        512) /* DefaultCombatStyle - Magic */
      , (46942,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46942,  94,         16) /* TargetType - Creature */
      , (46942, 106,        400) /* ItemSpellcraft */
@@ -29,6 +30,7 @@ VALUES (46942,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46942,  22, True ) /* Inscribable */
+     , (46942,  23, True ) /* DestroyOnSell */
      , (46942,  69, False) /* IsSellable */
      , (46942,  99, True ) /* Ivoryable */;
 
@@ -45,18 +47,18 @@ VALUES (46942,   1, 'Modified Taulandoi') /* Name */
      , (46942,  15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46942,   1,   33557963) /* Setup */
-     , (46942,   3,  536870932) /* SoundTable */
-     , (46942,   6,   67111919) /* PaletteBase */
-     , (46942,   8,  100673490) /* Icon */
-     , (46942,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46942,   1, 0x02000DCB) /* Setup */
+     , (46942,   3, 0x20000014) /* SoundTable */
+     , (46942,   6, 0x04000BEF) /* PaletteBase */
+     , (46942,   8, 0x060027D2) /* Icon */
+     , (46942,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46942,  28,       2782) /* Spell - LesserElementalFuryFlame */
      , (46942, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (46942, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46942, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46942, 8000, 3704147160) /* PCAPRecordedObjectIID */;
+VALUES (46942, 8000, 0xDCC8CCD8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46942,  4637,      2)  /* WarMagicMasteryOther8 */

@@ -11,18 +11,6 @@ VALUES (35506,   1,         16) /* ItemType - Creature */
      , (35506,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (35506,  95,          8) /* RadarBlipColor - Yellow */
      , (35506, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (35506, 307,          0) /* DamageRating */
-     , (35506, 308,          0) /* DamageResistRating */
-     , (35506, 313,          0) /* CritRating */
-     , (35506, 314,          0) /* CritDamageRating */
-     , (35506, 315,          0) /* CritResistRating */
-     , (35506, 316,          0) /* CritDamageResistRating */
-     , (35506, 381,          0) /* PKDamageRating */
-     , (35506, 382,          0) /* PKDamageResistRating */
-     , (35506, 386,          0) /* Overpower */
-     , (35506, 387,          0) /* OverpowerResist */
-     , (35506, 388,          0) /* GearOverpower */
-     , (35506, 389,          0) /* GearOverpowerResist */
      , (35506, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -38,21 +26,21 @@ VALUES (35506,   1, 'Guardian Statue') /* Name */
      , (35506, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35506,   1,   33558554) /* Setup */
-     , (35506,   2,  150995404) /* MotionTable */
-     , (35506,   3,  536871080) /* SoundTable */
-     , (35506,   8,  100675661) /* Icon */
-     , (35506,  22,  872415401) /* PhysicsEffectTable */
+VALUES (35506,   1, 0x0200101A) /* Setup */
+     , (35506,   2, 0x090001CC) /* MotionTable */
+     , (35506,   3, 0x200000A8) /* SoundTable */
+     , (35506,   8, 0x0600304D) /* Icon */
+     , (35506,  22, 0x340000A9) /* PhysicsEffectTable */
      , (35506, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (35506, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (35506, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35506, 8040, 1210974495, 42.2293, 62.4978, -10.79751, 0.7003251, 0, 0, -0.713824) /* PCAPRecordedLocation */
+VALUES (35506, 8040, 0x482E011F, 42.2293, 62.4978, -10.79751, 0.700325, 0, 0, -0.713824) /* PCAPRecordedLocation */
 /* @teleloc 0x482E011F [42.229300 62.497800 -10.797510] 0.700325 0.000000 0.000000 -0.713824 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35506, 8000, 3695110391) /* PCAPRecordedObjectIID */;
+VALUES (35506, 8000, 0xDC3EE8F7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35506, 9, 20585,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other VII (20585) for ContainTreasure */

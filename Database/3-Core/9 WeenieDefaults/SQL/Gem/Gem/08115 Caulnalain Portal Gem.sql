@@ -26,6 +26,7 @@ VALUES (8115,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8115,  22, True ) /* Inscribable */
+     , (8115,  23, True ) /* DestroyOnSell */
      , (8115,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -33,18 +34,18 @@ VALUES (8115,   1, 'Caulnalain Portal Gem') /* Name */
      , (8115,  16, 'This is a portal gem attuned to the energies of the Caulnalain Chamber.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8115,   1,   33556769) /* Setup */
-     , (8115,   3,  536870932) /* SoundTable */
-     , (8115,   6,   67111919) /* PaletteBase */
-     , (8115,   8,  100670965) /* Icon */
-     , (8115,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8115,   1, 0x02000921) /* Setup */
+     , (8115,   3, 0x20000014) /* SoundTable */
+     , (8115,   6, 0x04000BEF) /* PaletteBase */
+     , (8115,   8, 0x06001DF5) /* Icon */
+     , (8115,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8115,  28,       2000) /* Spell - PortalSendingCaulnalain */
      , (8115, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (8115, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8115, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8115, 8000, 2484459724) /* PCAPRecordedObjectIID */;
+VALUES (8115, 8000, 0x9415D8CC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8115, 67111922, 0, 0);

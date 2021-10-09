@@ -41,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3598,   1, 'Armor Piercing Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3598,   1,   33554724) /* Setup */
-     , (3598,   3,  536870932) /* SoundTable */
-     , (3598,   6,   67111919) /* PaletteBase */
-     , (3598,   8,  100670194) /* Icon */
-     , (3598,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3598,   1, 0x02000124) /* Setup */
+     , (3598,   3, 0x20000014) /* SoundTable */
+     , (3598,   6, 0x04000BEF) /* PaletteBase */
+     , (3598,   8, 0x06001AF2) /* Icon */
+     , (3598,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3598, 8001,  270627608) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (3598, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (3598, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3598, 8000, 3702913268) /* PCAPRecordedObjectIID */;
+VALUES (3598, 8000, 0xDCB5F8F4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3598, 67111924, 0, 0);

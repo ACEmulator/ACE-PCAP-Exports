@@ -36,27 +36,27 @@ VALUES (1048,   1, 'Jumzik al-Budim the Archmage') /* Name */
      , (1048, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1048,   1,   33554433) /* Setup */
-     , (1048,   2,  150994945) /* MotionTable */
-     , (1048,   3,  536870913) /* SoundTable */
-     , (1048,   6,   67108990) /* PaletteBase */
-     , (1048,   8,  100667446) /* Icon */
-     , (1048,   9,   83890479) /* EyesTexture */
-     , (1048,  10,   83890537) /* NoseTexture */
-     , (1048,  11,   83890629) /* MouthTexture */
-     , (1048,  15,   67116994) /* HairPalette */
-     , (1048,  16,   67109567) /* EyesPalette */
-     , (1048,  17,   67109552) /* SkinPalette */
+VALUES (1048,   1, 0x02000001) /* Setup */
+     , (1048,   2, 0x09000001) /* MotionTable */
+     , (1048,   3, 0x20000001) /* SoundTable */
+     , (1048,   6, 0x0400007E) /* PaletteBase */
+     , (1048,   8, 0x06001036) /* Icon */
+     , (1048,   9, 0x0500112F) /* EyesTexture */
+     , (1048,  10, 0x05001169) /* NoseTexture */
+     , (1048,  11, 0x050011C5) /* MouthTexture */
+     , (1048,  15, 0x04001FC2) /* HairPalette */
+     , (1048,  16, 0x040002BF) /* EyesPalette */
+     , (1048,  17, 0x040002B0) /* SkinPalette */
      , (1048, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (1048, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (1048, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1048, 8040, 2535588155, 124.224, 89.1925, 102.005, -0.6809869, 0, 0, -0.7322956) /* PCAPRecordedLocation */
+VALUES (1048, 8040, 0x9722013B, 124.224, 89.1925, 102.005, -0.680987, 0, 0, -0.732296) /* PCAPRecordedLocation */
 /* @teleloc 0x9722013B [124.224000 89.192500 102.005000] -0.680987 0.000000 0.000000 -0.732296 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1048, 8000, 2037522455) /* PCAPRecordedObjectIID */;
+VALUES (1048, 8000, 0x79722017) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1048,   1,  70, 0, 0) /* Strength */

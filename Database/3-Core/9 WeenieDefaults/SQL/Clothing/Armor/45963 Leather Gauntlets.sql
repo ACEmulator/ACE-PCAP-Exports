@@ -8,7 +8,6 @@ VALUES (45963,   1,          2) /* ItemType - Armor */
      , (45963,   4,      32768) /* ClothingPriority - Hands */
      , (45963,   5,        450) /* EncumbranceVal */
      , (45963,   9,         32) /* ValidLocations - HandWear */
-     , (45963,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (45963,  16,          1) /* ItemUseable - No */
      , (45963,  19,        100) /* Value */
      , (45963,  28,        480) /* ArmorLevel */
@@ -26,6 +25,7 @@ VALUES (45963,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45963,  22, True ) /* Inscribable */
+     , (45963,  23, True ) /* DestroyOnSell */
      , (45963,  99, True ) /* Ivoryable */
      , (45963, 100, True ) /* Dyable */;
 
@@ -44,26 +44,26 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45963,   1, 'Leather Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45963,   1,   33554648) /* Setup */
-     , (45963,   3,  536870932) /* SoundTable */
-     , (45963,   6,   67108990) /* PaletteBase */
-     , (45963,   8,  100675217) /* Icon */
-     , (45963,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45963,   1, 0x020000D8) /* Setup */
+     , (45963,   3, 0x20000014) /* SoundTable */
+     , (45963,   6, 0x0400007E) /* PaletteBase */
+     , (45963,   8, 0x06002E91) /* Icon */
+     , (45963,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45963, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (45963, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45963, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45963, 8000, 3042064810) /* PCAPRecordedObjectIID */;
+VALUES (45963, 8000, 0xB55239AA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45963,   616,      2)  /* LifeMagicMasteryOther6 */
-     , (45963,   885,      2)  /* HealingMasteryOther6 */
-     , (45963,  1029,      2)  /* BludgeonProtectionOther6 */
+VALUES (45963,  1029,      2)  /* BludgeonProtectionOther6 */
      , (45963,  1486,      2)  /* Impenetrability6 */
+     , (45963,  2599,      2)  /* CANTRIPBLUDGEONINGBANE1 */
+     , (45963,   616,      2)  /* LifeMagicMasteryOther6 */
      , (45963,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */
-     , (45963,  2555,      2)  /* CANTRIPLIFEMAGICAPTITUDE1 */
-     , (45963,  2599,      2)  /* CANTRIPBLUDGEONINGBANE1 */;
+     , (45963,   885,      2)  /* HealingMasteryOther6 */
+     , (45963,  2555,      2)  /* CANTRIPLIFEMAGICAPTITUDE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45963, 67114609, 168, 6);

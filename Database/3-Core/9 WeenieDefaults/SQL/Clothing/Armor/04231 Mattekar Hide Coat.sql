@@ -8,7 +8,6 @@ VALUES (4231,   1,          2) /* ItemType - Armor */
      , (4231,   4,      15360) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (4231,   5,        810) /* EncumbranceVal */
      , (4231,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
-     , (4231,  10,       7680) /* CurrentWieldedLocation - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (4231,  16,          1) /* ItemUseable - No */
      , (4231,  19,        800) /* Value */
      , (4231,  28,        120) /* ArmorLevel */
@@ -38,17 +37,17 @@ A mage''s best line of defense!') /* Inscription */
      , (4231,  15, 'Coat crafted from the hide of a Mattekar. This item can be dyed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4231,   1,   33554644) /* Setup */
-     , (4231,   3,  536870932) /* SoundTable */
-     , (4231,   6,   67108990) /* PaletteBase */
-     , (4231,   8,  100667377) /* Icon */
-     , (4231,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4231,   1, 0x020000D4) /* Setup */
+     , (4231,   3, 0x20000014) /* SoundTable */
+     , (4231,   6, 0x0400007E) /* PaletteBase */
+     , (4231,   8, 0x06000FF1) /* Icon */
+     , (4231,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4231, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (4231, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4231, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4231, 8000, 3658160644) /* PCAPRecordedObjectIID */;
+VALUES (4231, 8000, 0xDA0B1A04) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4231, 67110350, 72, 8)

@@ -22,17 +22,17 @@ VALUES (36577,   1, 'Aura') /* Name */
      , (36577, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36577,   1,   33560401) /* Setup */
-     , (36577,   2,  150995261) /* MotionTable */
-     , (36577,   3,  536870933) /* SoundTable */
-     , (36577,   8,  100675788) /* Icon */
+VALUES (36577,   1, 0x02001751) /* Setup */
+     , (36577,   2, 0x0900013D) /* MotionTable */
+     , (36577,   3, 0x20000015) /* SoundTable */
+     , (36577,   8, 0x060030CC) /* Icon */
      , (36577, 8001,         38) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, UseRadius */
      , (36577, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (36577, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36577, 8040, 10682821, 216.9009, -133.0376, -11.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (36577, 8040, 0x00A301C5, 216.9009, -133.0376, -11.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00A301C5 [216.900900 -133.037600 -11.971000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36577, 8000, 3705388148) /* PCAPRecordedObjectIID */;
+VALUES (36577, 8000, 0xDCDBBC74) /* PCAPRecordedObjectIID */;

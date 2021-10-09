@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25904,   1, 'Atakir''s Blade') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25904,   1,   33558560) /* Setup */
-     , (25904,   3,  536870932) /* SoundTable */
-     , (25904,   8,  100675637) /* Icon */
-     , (25904,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25904,   1, 0x02001020) /* Setup */
+     , (25904,   3, 0x20000014) /* SoundTable */
+     , (25904,   8, 0x06003035) /* Icon */
+     , (25904,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25904, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (25904, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25904, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25904, 8000, 3697736503) /* PCAPRecordedObjectIID */;
+VALUES (25904, 8000, 0xDC66FB37) /* PCAPRecordedObjectIID */;

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25947,   1,          8) /* ItemType - Jewelry */
      , (25947,   5,         30) /* EncumbranceVal */
      , (25947,   9,     786432) /* ValidLocations - FingerWear */
-     , (25947,  10,     524288) /* CurrentWieldedLocation - FingerWearRight */
      , (25947,  16,          1) /* ItemUseable - No */
      , (25947,  18,          1) /* UiEffects - Magical */
      , (25947,  19,      10000) /* Value */
@@ -33,22 +32,22 @@ VALUES (25947,   1, 'Dark Ruby Ring') /* Name */
      , (25947,  16, 'A dark ruby ring. At the edge of sight you see your shadow writhe and sway to an imagined rhythm of metal on metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25947,   1,   33554691) /* Setup */
-     , (25947,   3,  536870932) /* SoundTable */
-     , (25947,   6,   67111919) /* PaletteBase */
-     , (25947,   8,  100675657) /* Icon */
-     , (25947,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25947,   1, 0x02000103) /* Setup */
+     , (25947,   3, 0x20000014) /* SoundTable */
+     , (25947,   6, 0x04000BEF) /* PaletteBase */
+     , (25947,   8, 0x06003049) /* Icon */
+     , (25947,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25947, 8001,  270762136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (25947, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25947, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25947, 8000, 3680889732) /* PCAPRecordedObjectIID */;
+VALUES (25947, 8000, 0xDB65EB84) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25947,   255,      2)  /* ImpregnabilityOther6 */
+VALUES (25947,  2060,      2)  /* EnduranceOther7 */
      , (25947,  1337,      2)  /* StrengthOther6 */
-     , (25947,  2060,      2)  /* EnduranceOther7 */;
+     , (25947,   255,      2)  /* ImpregnabilityOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25947, 67111919, 0, 0);

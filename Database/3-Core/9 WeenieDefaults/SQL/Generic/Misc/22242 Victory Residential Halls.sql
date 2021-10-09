@@ -18,15 +18,15 @@ VALUES (22242,   1, 'Victory Residential Halls') /* Name */
      , (22242,  16, 'Victory Residential Halls') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22242,   1,   33558056) /* Setup */
-     , (22242,   8,  100667499) /* Icon */
+VALUES (22242,   1, 0x02000E28) /* Setup */
+     , (22242,   8, 0x0600106B) /* Icon */
      , (22242, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (22242, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22242, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22242, 8040, 3661299773, 188.868, 97.006, 1.739, -0.82783, 0, 0, -0.560979) /* PCAPRecordedLocation */
+VALUES (22242, 8040, 0xDA3B003D, 188.868, 97.006, 1.739, -0.82783, 0, 0, -0.560979) /* PCAPRecordedLocation */
 /* @teleloc 0xDA3B003D [188.868000 97.006000 1.739000] -0.827830 0.000000 0.000000 -0.560979 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22242, 8000, 2107879467) /* PCAPRecordedObjectIID */;
+VALUES (22242, 8000, 0x7DA3B02B) /* PCAPRecordedObjectIID */;

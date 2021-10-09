@@ -37,27 +37,27 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1313,   1, 'Metal Round Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1313,   1,   33554786) /* Setup */
-     , (1313,   3,  536870932) /* SoundTable */
-     , (1313,   6,   67111919) /* PaletteBase */
-     , (1313,   8,  100668470) /* Icon */
-     , (1313,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1313,   1, 0x02000162) /* Setup */
+     , (1313,   3, 0x20000014) /* SoundTable */
+     , (1313,   6, 0x04000BEF) /* PaletteBase */
+     , (1313,   8, 0x06001436) /* Icon */
+     , (1313,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1313, 8001,  270598680) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, ValidLocations, Burden, HookType */
      , (1313, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1313, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1313, 8040, 18809101, 28.37951, -24.23678, 0.014, 0.0886373, 0, 0, -0.9960639) /* PCAPRecordedLocation */
+VALUES (1313, 8040, 0x011F010D, 28.37951, -24.23678, 0.014, 0.088637, 0, 0, -0.996064) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010D [28.379510 -24.236780 0.014000] 0.088637 0.000000 0.000000 -0.996064 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1313, 8000, 3687492970) /* PCAPRecordedObjectIID */;
+VALUES (1313, 8000, 0xDBCAAD6A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1313,   296,      2)  /* AxeMasteryOther5 */
-     , (1313,   320,      2)  /* DaggerMasteryOther5 */
-     , (1313,   416,      2)  /* SwordMasteryOther5 */
-     , (1313,  1484,      2)  /* Impenetrability4 */;
+VALUES (1313,   320,      2)  /* FinesseWeaponsMasteryOther5 */
+     , (1313,  1484,      2)  /* Impenetrability4 */
+     , (1313,   416,      2)  /* HeavyWeaponsMasteryOther5 */
+     , (1313,   296,      2)  /* LightWeaponsMasteryOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1313, 67111919, 0, 0);

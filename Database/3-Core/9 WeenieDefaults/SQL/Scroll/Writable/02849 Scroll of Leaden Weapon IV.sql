@@ -24,17 +24,17 @@ VALUES (2849,   1, 'Scroll of Leaden Weapon IV') /* Name */
 Worsens a weapon''s speed by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2849,   1,   33554826) /* Setup */
-     , (2849,   8,  100676662) /* Icon */
-     , (2849,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2849,   1, 0x0200018A) /* Setup */
+     , (2849,   8, 0x06003436) /* Icon */
+     , (2849,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2849,  28,       1631) /* Spell - LeadenWeapon4 */
      , (2849, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (2849, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2849, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2849, 8040, 1994981721, 116.5429, 221.0741, 88.88551, -0.5710939, 0, 0, -0.8208848) /* PCAPRecordedLocation */
+VALUES (2849, 8040, 0x76E90159, 116.5429, 221.0741, 88.88551, -0.571094, 0, 0, -0.820885) /* PCAPRecordedLocation */
 /* @teleloc 0x76E90159 [116.542900 221.074100 88.885510] -0.571094 0.000000 0.000000 -0.820885 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2849, 8000, 3706274356) /* PCAPRecordedObjectIID */;
+VALUES (2849, 8000, 0xDCE94234) /* PCAPRecordedObjectIID */;

@@ -18,15 +18,15 @@ VALUES (19166,   1, 'Amarand Villas') /* Name */
      , (19166,  16, 'Welcome to Amarand Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19166,   1,   33557463) /* Setup */
-     , (19166,   8,  100668115) /* Icon */
+VALUES (19166,   1, 0x02000BD7) /* Setup */
+     , (19166,   8, 0x060012D3) /* Icon */
      , (19166, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (19166, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19166, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19166, 8040, 1940848671, 88.135, 147.299, 110, 0.00887955, 0, 0, -0.999961) /* PCAPRecordedLocation */
+VALUES (19166, 8040, 0x73AF001F, 88.135, 147.299, 110, 0.00888, 0, 0, -0.999961) /* PCAPRecordedLocation */
 /* @teleloc 0x73AF001F [88.135000 147.299000 110.000000] 0.008880 0.000000 0.000000 -0.999961 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19166, 8000, 2000351707) /* PCAPRecordedObjectIID */;
+VALUES (19166, 8000, 0x773AF1DB) /* PCAPRecordedObjectIID */;

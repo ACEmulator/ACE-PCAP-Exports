@@ -30,17 +30,17 @@ VALUES (12261,   1, 'Ecorto''s Chisel') /* Name */
      , (12261,  16, 'A tool provided by Ecorto the Lost Director.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12261,   1,   33557382) /* Setup */
-     , (12261,   3,  536870932) /* SoundTable */
-     , (12261,   6,   67111919) /* PaletteBase */
-     , (12261,   8,  100672206) /* Icon */
-     , (12261,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12261,   1, 0x02000B86) /* Setup */
+     , (12261,   3, 0x20000014) /* SoundTable */
+     , (12261,   6, 0x04000BEF) /* PaletteBase */
+     , (12261,   8, 0x060022CE) /* Icon */
+     , (12261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12261, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (12261, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12261, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12261, 8000, 2157272682) /* PCAPRecordedObjectIID */;
+VALUES (12261, 8000, 0x80955E6A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12261, 67111923, 0, 0);

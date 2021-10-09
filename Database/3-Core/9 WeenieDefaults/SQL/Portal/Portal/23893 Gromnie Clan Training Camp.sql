@@ -22,16 +22,16 @@ VALUES (23893,   1, 'Gromnie Clan Training Camp') /* Name */
      , (23893, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23893,   1,   33554867) /* Setup */
-     , (23893,   2,  150994947) /* MotionTable */
-     , (23893,   8,  100667499) /* Icon */
+VALUES (23893,   1, 0x020001B3) /* Setup */
+     , (23893,   2, 0x09000003) /* MotionTable */
+     , (23893,   8, 0x0600106B) /* Icon */
      , (23893, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (23893, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (23893, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23893, 8040, 3597336636, 184.83, 82.0361, 34.77334, 0.7013031, 0, 0, -0.7128631) /* PCAPRecordedLocation */
+VALUES (23893, 8040, 0xD66B003C, 184.83, 82.0361, 34.77334, 0.701303, 0, 0, -0.712863) /* PCAPRecordedLocation */
 /* @teleloc 0xD66B003C [184.830000 82.036100 34.773340] 0.701303 0.000000 0.000000 -0.712863 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23893, 8000, 2103881728) /* PCAPRecordedObjectIID */;
+VALUES (23893, 8000, 0x7D66B000) /* PCAPRecordedObjectIID */;

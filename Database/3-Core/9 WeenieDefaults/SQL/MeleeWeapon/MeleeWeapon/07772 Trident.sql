@@ -54,22 +54,22 @@ VALUES (7772,   1, 'Trident') /* Name */
      , (7772,  16, 'Trident of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7772,   1,   33556641) /* Setup */
-     , (7772,   3,  536870932) /* SoundTable */
-     , (7772,   6,   67111919) /* PaletteBase */
-     , (7772,   8,  100670798) /* Icon */
-     , (7772,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7772,   1, 0x020008A1) /* Setup */
+     , (7772,   3, 0x20000014) /* SoundTable */
+     , (7772,   6, 0x04000BEF) /* PaletteBase */
+     , (7772,   8, 0x06001D4E) /* Icon */
+     , (7772,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7772,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (7772, 8001, 2434859544) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (7772, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7772, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7772, 8040, 3060727837, 93.66535, 102.7536, 42.93257, 0.3562889, 0, 0, -0.9343758) /* PCAPRecordedLocation */
+VALUES (7772, 8040, 0xB66F001D, 93.66535, 102.7536, 42.93257, 0.356289, 0, 0, -0.934376) /* PCAPRecordedLocation */
 /* @teleloc 0xB66F001D [93.665350 102.753600 42.932570] 0.356289 0.000000 0.000000 -0.934376 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7772, 8000, 3685508972) /* PCAPRecordedObjectIID */;
+VALUES (7772, 8000, 0xDBAC676C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7772,  1615,      2)  /* BloodDrinkerSelf5 */;

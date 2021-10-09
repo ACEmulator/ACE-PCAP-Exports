@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51462,   1, 'Club of Surprising Cunning') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51462,   1,   33560551) /* Setup */
-     , (51462,   3,  536870932) /* SoundTable */
-     , (51462,   8,  100689868) /* Icon */
-     , (51462,  22,  872415275) /* PhysicsEffectTable */
-     , (51462,  50,  100667895) /* IconOverlay */
+VALUES (51462,   1, 0x020017E7) /* Setup */
+     , (51462,   3, 0x20000014) /* SoundTable */
+     , (51462,   8, 0x060067CC) /* Icon */
+     , (51462,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51462,  50, 0x060011F7) /* IconOverlay */
      , (51462, 8001, 1344827416) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType, IconOverlay */
      , (51462, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51462, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51462, 8000, 2174235670) /* PCAPRecordedObjectIID */;
+VALUES (51462, 8000, 0x81983416) /* PCAPRecordedObjectIID */;

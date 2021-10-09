@@ -18,17 +18,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34031,   1, 'Minor Essence of the Hopeslayer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34031,   1,   33554809) /* Setup */
-     , (34031,   3,  536870932) /* SoundTable */
-     , (34031,   6,   67111919) /* PaletteBase */
-     , (34031,   8,  100671740) /* Icon */
-     , (34031,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34031,   1, 0x02000179) /* Setup */
+     , (34031,   3, 0x20000014) /* SoundTable */
+     , (34031,   6, 0x04000BEF) /* PaletteBase */
+     , (34031,   8, 0x060020FC) /* Icon */
+     , (34031,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34031, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (34031, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34031, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34031, 8000, 2160647326) /* PCAPRecordedObjectIID */;
+VALUES (34031, 8000, 0x80C8DC9E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34031, 67111927, 0, 0);

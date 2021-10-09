@@ -14,20 +14,21 @@ VALUES (34458,   1,        128) /* ItemType - Misc */
      , (34458, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34458,  22, True ) /* Inscribable */;
+VALUES (34458,  22, True ) /* Inscribable */
+     , (34458,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34458,   1, 'Very Mad Cow Token') /* Name */
      , (34458,  16, 'Give this to the Master Arbitor for a new Title.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34458,   1,   33554817) /* Setup */
-     , (34458,   3,  536870932) /* SoundTable */
-     , (34458,   8,  100689380) /* Icon */
-     , (34458,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34458,   1, 0x02000181) /* Setup */
+     , (34458,   3, 0x20000014) /* SoundTable */
+     , (34458,   8, 0x060065E4) /* Icon */
+     , (34458,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34458, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (34458, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34458, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34458, 8000, 3706685144) /* PCAPRecordedObjectIID */;
+VALUES (34458, 8000, 0xDCEF86D8) /* PCAPRecordedObjectIID */;

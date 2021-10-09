@@ -26,23 +26,23 @@ VALUES (33133,   1, 'Mukkir Draktehn') /* Name */
      , (33133, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33133,   1,   33559858) /* Setup */
-     , (33133,   2,  150995348) /* MotionTable */
-     , (33133,   3,  536871107) /* SoundTable */
-     , (33133,   6,   67116771) /* PaletteBase */
-     , (33133,   8,  100688542) /* Icon */
-     , (33133,  22,  872415417) /* PhysicsEffectTable */
+VALUES (33133,   1, 0x02001532) /* Setup */
+     , (33133,   2, 0x09000194) /* MotionTable */
+     , (33133,   3, 0x200000C3) /* SoundTable */
+     , (33133,   6, 0x04001EE3) /* PaletteBase */
+     , (33133,   8, 0x0600629E) /* Icon */
+     , (33133,  22, 0x340000B9) /* PhysicsEffectTable */
      , (33133,  30,         85) /* PhysicsScript - BreatheFrost */
      , (33133, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33133, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33133, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33133, 8040, 7734092, 132.749, -51.31551, -36, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33133, 8040, 0x0076034C, 132.749, -51.31551, -36, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0076034C [132.749000 -51.315510 -36.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33133, 8000, 3357510845) /* PCAPRecordedObjectIID */;
+VALUES (33133, 8000, 0xC81F8CBD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (33133,   1,     0, 0, 0, 3725) /* MaxHealth */;

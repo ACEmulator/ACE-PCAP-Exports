@@ -14,18 +14,19 @@ VALUES (22888,   1,       2048) /* ItemType - Gem */
      , (22888, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22888,  22, True ) /* Inscribable */;
+VALUES (22888,  22, True ) /* Inscribable */
+     , (22888,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22888,   1, 'Chrysoberyl compound') /* Name */
      , (22888,  16, 'A vial of Chrysoberyl compound') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22888,   1,   33554809) /* Setup */
-     , (22888,   8,  100673895) /* Icon */
+VALUES (22888,   1, 0x02000179) /* Setup */
+     , (22888,   8, 0x06002967) /* Icon */
      , (22888, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (22888, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22888, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22888, 8000, 2871725797) /* PCAPRecordedObjectIID */;
+VALUES (22888, 8000, 0xAB2B0EE5) /* PCAPRecordedObjectIID */;

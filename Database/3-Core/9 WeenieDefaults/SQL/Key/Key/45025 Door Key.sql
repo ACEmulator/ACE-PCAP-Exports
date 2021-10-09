@@ -22,13 +22,13 @@ VALUES (45025,   1, 'Door Key') /* Name */
      , (45025,  14, 'This key unlocks a door in the Frozen Wight Lair.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45025,   1,   33560581) /* Setup */
-     , (45025,   3,  536870932) /* SoundTable */
-     , (45025,   8,  100675676) /* Icon */
-     , (45025,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45025,   1, 0x02001805) /* Setup */
+     , (45025,   3, 0x20000014) /* SoundTable */
+     , (45025,   8, 0x0600305C) /* Icon */
+     , (45025,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45025, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (45025, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45025, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45025, 8000, 3701368288) /* PCAPRecordedObjectIID */;
+VALUES (45025, 8000, 0xDC9E65E0) /* PCAPRecordedObjectIID */;

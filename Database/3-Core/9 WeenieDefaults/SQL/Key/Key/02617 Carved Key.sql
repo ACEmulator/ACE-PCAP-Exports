@@ -23,12 +23,12 @@ VALUES (2617,   1, 'Carved Key') /* Name */
      , (2617,  16, 'This stout, carved key made of stone is used in the Carved Cave.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2617,   1,   33554784) /* Setup */
-     , (2617,   8,  100668441) /* Icon */
-     , (2617,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2617,   1, 0x02000160) /* Setup */
+     , (2617,   8, 0x06001419) /* Icon */
+     , (2617,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2617, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (2617, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2617, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2617, 8000, 3676917908) /* PCAPRecordedObjectIID */;
+VALUES (2617, 8000, 0xDB295094) /* PCAPRecordedObjectIID */;

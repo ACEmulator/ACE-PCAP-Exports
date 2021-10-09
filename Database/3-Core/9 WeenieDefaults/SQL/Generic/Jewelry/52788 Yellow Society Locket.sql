@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52788,   1,          8) /* ItemType - Jewelry */
      , (52788,   5,        100) /* EncumbranceVal */
      , (52788,   9,      32768) /* ValidLocations - NeckWear */
-     , (52788,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (52788,  16,          1) /* ItemUseable - No */
      , (52788,  19,      50000) /* Value */
      , (52788,  33,          1) /* Bonded - Bonded */
@@ -32,6 +31,7 @@ VALUES (52788,   4, 10540786660) /* ItemTotalXp */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52788,  22, True ) /* Inscribable */
+     , (52788,  23, True ) /* DestroyOnSell */
      , (52788,  69, False) /* IsSellable */
      , (52788,  99, True ) /* Ivoryable */;
 
@@ -44,19 +44,19 @@ VALUES (52788,   1, 'Yellow Society Locket') /* Name */
      , (52788,  16, 'A necklace set with vibrant gemstones of yellow and white.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52788,   1,   33554680) /* Setup */
-     , (52788,   3,  536870932) /* SoundTable */
-     , (52788,   6,   67111919) /* PaletteBase */
-     , (52788,   8,  100693315) /* Icon */
-     , (52788,  22,  872415275) /* PhysicsEffectTable */
-     , (52788,  52,  100686604) /* IconUnderlay */
+VALUES (52788,   1, 0x020000F8) /* Setup */
+     , (52788,   3, 0x20000014) /* SoundTable */
+     , (52788,   6, 0x04000BEF) /* PaletteBase */
+     , (52788,   8, 0x06007543) /* Icon */
+     , (52788,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (52788,  52, 0x06005B0C) /* IconUnderlay */
      , (52788, 8001,  270762008) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (52788, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (52788, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (52788, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52788, 8000, 3350105875) /* PCAPRecordedObjectIID */;
+VALUES (52788, 8000, 0xC7AE8F13) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52788,  6084,      2)  /* CantripPiercingWard4 */

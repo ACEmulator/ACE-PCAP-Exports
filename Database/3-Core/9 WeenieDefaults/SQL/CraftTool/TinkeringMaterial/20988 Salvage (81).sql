@@ -35,22 +35,22 @@ VALUES (20988,   1, 'Salvage (81)') /* Name */
      , (20988,  15, 'A bundle of mahogany material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20988,   1,   33554817) /* Setup */
-     , (20988,   3,  536870932) /* SoundTable */
-     , (20988,   6,   67111919) /* PaletteBase */
-     , (20988,   8,  100673220) /* Icon */
-     , (20988,  22,  872415275) /* PhysicsEffectTable */
-     , (20988,  50,  100673232) /* IconOverlay */
+VALUES (20988,   1, 0x02000181) /* Setup */
+     , (20988,   3, 0x20000014) /* SoundTable */
+     , (20988,   6, 0x04000BEF) /* PaletteBase */
+     , (20988,   8, 0x060026C4) /* Icon */
+     , (20988,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20988,  50, 0x060026D0) /* IconOverlay */
      , (20988, 8001, 3509074968) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (20988, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20988, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20988, 8040, 23855555, 56.16494, -35.75027, -0.002499998, -0.05077174, 0, 0, -0.9987103) /* PCAPRecordedLocation */
+VALUES (20988, 8040, 0x016C01C3, 56.16494, -35.75027, -0.0025, -0.050772, 0, 0, -0.99871) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.164940 -35.750270 -0.002500] -0.050772 0.000000 0.000000 -0.998710 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20988, 8000, 2148446966) /* PCAPRecordedObjectIID */;
+VALUES (20988, 8000, 0x800EB2F6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20988, 67111920, 0, 0);

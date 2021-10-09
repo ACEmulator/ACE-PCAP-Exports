@@ -26,22 +26,22 @@ VALUES (30683,   1, 'Withered Banderling Hierophant') /* Name */
      , (30683, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30683,   1,   33558024) /* Setup */
-     , (30683,   2,  150994951) /* MotionTable */
-     , (30683,   3,  536870917) /* SoundTable */
-     , (30683,   6,   67114021) /* PaletteBase */
-     , (30683,   8,  100667453) /* Icon */
-     , (30683,  22,  872415255) /* PhysicsEffectTable */
+VALUES (30683,   1, 0x02000E08) /* Setup */
+     , (30683,   2, 0x09000007) /* MotionTable */
+     , (30683,   3, 0x20000005) /* SoundTable */
+     , (30683,   6, 0x04001425) /* PaletteBase */
+     , (30683,   8, 0x0600103D) /* Icon */
+     , (30683,  22, 0x34000017) /* PhysicsEffectTable */
      , (30683, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (30683, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (30683, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30683, 8040, 538181646, 32.99668, 139.6652, 13.64592, -0.9981204, 0, 0, -0.06128394) /* PCAPRecordedLocation */
+VALUES (30683, 8040, 0x2014000E, 32.99668, 139.6652, 13.64592, -0.99812, 0, 0, -0.061284) /* PCAPRecordedLocation */
 /* @teleloc 0x2014000E [32.996680 139.665200 13.645920] -0.998120 0.000000 0.000000 -0.061284 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30683, 8000, 3698089658) /* PCAPRecordedObjectIID */;
+VALUES (30683, 8000, 0xDC6C5EBA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30683,   1, 350, 0, 0) /* Strength */
@@ -61,6 +61,7 @@ VALUES (30683, 2, 47392,  1, 0, 0, False) /* Create Flaming Club (47392) for Wie
      , (30683, 2, 47487,  1, 0, 0, False) /* Create Flaming Mace (47487) for Wield */
      , (30683, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */
      , (30683, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */
+     , (30683, 2, 23137,  1, 0, 0, False) /* Create Yumi (23137) for Wield */
      , (30683, 9, 20484,  0, 0, 0, False) /* Create Scroll of Blessing of the Arrow Turner (20484) for ContainTreasure */
      , (30683, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
      , (30683, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */

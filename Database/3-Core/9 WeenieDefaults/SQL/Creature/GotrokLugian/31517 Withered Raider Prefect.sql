@@ -25,22 +25,22 @@ VALUES (31517,   1, 'Withered Raider Prefect') /* Name */
      , (31517, 8006, 'AAA+AEEAAAA+AAAAwL8AAA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31517,   1,   33559219) /* Setup */
-     , (31517,   2,  150994950) /* MotionTable */
-     , (31517,   3,  536870922) /* SoundTable */
-     , (31517,   6,   67113158) /* PaletteBase */
-     , (31517,   8,  100667447) /* Icon */
-     , (31517,  22,  872415262) /* PhysicsEffectTable */
+VALUES (31517,   1, 0x020012B3) /* Setup */
+     , (31517,   2, 0x09000006) /* MotionTable */
+     , (31517,   3, 0x2000000A) /* SoundTable */
+     , (31517,   6, 0x040010C6) /* PaletteBase */
+     , (31517,   8, 0x06001037) /* Icon */
+     , (31517,  22, 0x3400001E) /* PhysicsEffectTable */
      , (31517, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (31517, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (31517, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31517, 8040, 454688831, 183.6835, 146.0031, 23.51329, -0.905222, 0, 0, -0.424939) /* PCAPRecordedLocation */
+VALUES (31517, 8040, 0x1B1A003F, 183.6835, 146.0031, 23.51329, -0.905222, 0, 0, -0.424939) /* PCAPRecordedLocation */
 /* @teleloc 0x1B1A003F [183.683500 146.003100 23.513290] -0.905222 0.000000 0.000000 -0.424939 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31517, 8000, 3684319230) /* PCAPRecordedObjectIID */;
+VALUES (31517, 8000, 0xDB9A3FFE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (31517,   1,     0, 0, 0, 10000) /* MaxHealth */;

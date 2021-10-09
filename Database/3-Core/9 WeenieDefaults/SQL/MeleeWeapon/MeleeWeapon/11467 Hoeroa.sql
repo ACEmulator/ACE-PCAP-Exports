@@ -23,7 +23,8 @@ VALUES (11467,   1,          1) /* ItemType - MeleeWeapon */
      , (11467, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11467,  22, True ) /* Inscribable */;
+VALUES (11467,  22, True ) /* Inscribable */
+     , (11467,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11467,  21,       0) /* WeaponLength */
@@ -40,16 +41,16 @@ VALUES (11467,   1, 'Hoeroa') /* Name */
      , (11467,  16, 'A beautifull carved staff. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11467,   1,   33557237) /* Setup */
-     , (11467,   3,  536870932) /* SoundTable */
-     , (11467,   8,  100672098) /* Icon */
-     , (11467,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11467,   1, 0x02000AF5) /* Setup */
+     , (11467,   3, 0x20000014) /* SoundTable */
+     , (11467,   8, 0x06002262) /* Icon */
+     , (11467,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11467, 8001,    2179608) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden */
      , (11467, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11467, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11467, 8000, 3704346087) /* PCAPRecordedObjectIID */;
+VALUES (11467, 8000, 0xDCCBD5E7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11467, 0, 83893670, 83893699)

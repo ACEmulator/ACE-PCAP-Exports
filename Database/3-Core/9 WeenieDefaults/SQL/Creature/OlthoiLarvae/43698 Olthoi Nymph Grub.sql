@@ -26,23 +26,23 @@ VALUES (43698,   1, 'Olthoi Nymph Grub') /* Name */
      , (43698, 8006, 'AAA9AEAAAAAAAADA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43698,   1,   33558333) /* Setup */
-     , (43698,   2,  150995238) /* MotionTable */
-     , (43698,   3,  536871068) /* SoundTable */
-     , (43698,   6,   67114236) /* PaletteBase */
-     , (43698,   8,  100674298) /* Icon */
-     , (43698,  22,  872415265) /* PhysicsEffectTable */
+VALUES (43698,   1, 0x02000F3D) /* Setup */
+     , (43698,   2, 0x09000126) /* MotionTable */
+     , (43698,   3, 0x2000009C) /* SoundTable */
+     , (43698,   6, 0x040014FC) /* PaletteBase */
+     , (43698,   8, 0x06002AFA) /* Icon */
+     , (43698,  22, 0x34000021) /* PhysicsEffectTable */
      , (43698,  30,         86) /* PhysicsScript - BreatheAcid */
      , (43698, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (43698, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (43698, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43698, 8040, 3855810621, 174.9326, 101.5155, 228.2702, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43698, 8040, 0xE5D3003D, 174.9326, 101.5155, 228.2702, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xE5D3003D [174.932600 101.515500 228.270200] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43698, 8000, 3622614063) /* PCAPRecordedObjectIID */;
+VALUES (43698, 8000, 0xD7ECB42F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43698,   1,  75, 0, 0) /* Strength */

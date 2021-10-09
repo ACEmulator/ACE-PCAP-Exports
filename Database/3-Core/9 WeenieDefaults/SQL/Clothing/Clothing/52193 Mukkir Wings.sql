@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52193,   1, 'Mukkir Wings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52193,   1,   33561386) /* Setup */
-     , (52193,   3,  536870932) /* SoundTable */
-     , (52193,   8,  100693238) /* Icon */
-     , (52193,  22,  872415275) /* PhysicsEffectTable */
-     , (52193,  50,  100690999) /* IconOverlay */
+VALUES (52193,   1, 0x02001B2A) /* Setup */
+     , (52193,   3, 0x20000014) /* SoundTable */
+     , (52193,   8, 0x060074F6) /* Icon */
+     , (52193,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (52193,  50, 0x06006C37) /* IconOverlay */
      , (52193, 8001, 1076183192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, IconOverlay */
      , (52193, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52193, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52193, 8000, 2153283019) /* PCAPRecordedObjectIID */;
+VALUES (52193, 8000, 0x80587DCB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (52193, 0, 16797055);

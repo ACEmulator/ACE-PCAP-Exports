@@ -17,18 +17,21 @@ VALUES (38222,   1,        128) /* ItemType - Misc */
      , (38222, 114,          1) /* Attuned - Attuned */
      , (38222, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38222,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38222,   1, 'Blighted Mana Crystal') /* Name */
      , (38222,  16, 'This small shard of crystallized mana is discolored by some strange corruption.  Perhaps Laedron the Royal Surveyor in Ayan Baqur would know more about it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38222,   1,   33556406) /* Setup */
-     , (38222,   3,  536870932) /* SoundTable */
-     , (38222,   8,  100689972) /* Icon */
-     , (38222,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38222,   1, 0x020007B6) /* Setup */
+     , (38222,   3, 0x20000014) /* SoundTable */
+     , (38222,   8, 0x06006834) /* Icon */
+     , (38222,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38222, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (38222, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38222, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38222, 8000, 2186220479) /* PCAPRecordedObjectIID */;
+VALUES (38222, 8000, 0x824F13BF) /* PCAPRecordedObjectIID */;

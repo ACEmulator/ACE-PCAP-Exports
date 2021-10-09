@@ -26,22 +26,22 @@ VALUES (21,   1, 'Corpse of Hoary Mattekar') /* Name */
      , (21, 8006, 'AAA9AAIAAAARAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21,   1,   33555590) /* Setup */
-     , (21,   2,  150995047) /* MotionTable */
-     , (21,   3,  536871106) /* SoundTable */
-     , (21,   6,   67111893) /* PaletteBase */
-     , (21,   8,  100667504) /* Icon */
-     , (21,  22,  872415342) /* PhysicsEffectTable */
+VALUES (21,   1, 0x02000486) /* Setup */
+     , (21,   2, 0x09000067) /* MotionTable */
+     , (21,   3, 0x200000C2) /* SoundTable */
+     , (21,   6, 0x04000BD5) /* PaletteBase */
+     , (21,   8, 0x06001070) /* Icon */
+     , (21,  22, 0x3400006E) /* PhysicsEffectTable */
      , (21, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (21, 8003,       8213) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable, Corpse */
      , (21, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21, 8040, 2401239075, 104.095, 64.99804, 189.167, -0.4253615, 0, 0, -0.9050235) /* PCAPRecordedLocation */
+VALUES (21, 8040, 0x8F200023, 104.095, 64.99804, 189.167, -0.425362, 0, 0, -0.905024) /* PCAPRecordedLocation */
 /* @teleloc 0x8F200023 [104.095000 64.998040 189.167000] -0.425362 0.000000 0.000000 -0.905024 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21, 8000, 3685775825) /* PCAPRecordedObjectIID */;
+VALUES (21, 8000, 0xDBB079D1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */
@@ -106,7 +106,33 @@ VALUES (21, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */
      , (21, 2, 22776,  1, 0, 0, False) /* Create Bandit Dagger (22776) for Wield */
      , (21, 2, 47523,  1, 0, 0, False) /* Create Acid Javelin (47523) for Wield */
      , (21, 2, 47253,  1, 0, 0, False) /* Create Board with Nail (47253) for Wield */
-     , (21, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */;
+     , (21, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
+     , (21, 2, 43134,  1, 0, 0, False) /* Create Raider Lightning Bolt (43134) for Wield */
+     , (21, 2, 47369,  1, 0, 0, False) /* Create Lightning Club (47369) for Wield */
+     , (21, 2, 23734,  1, 0, 0, False) /* Create Yumi (23734) for Wield */
+     , (21, 2, 48595,  1, 0, 0, False) /* Create Frozen Dagger (48595) for Wield */
+     , (21, 2,  9597,  1, 0, 0, False) /* Create Bow of the Quiddity (9597) for Wield */
+     , (21, 2, 46369,  1, 0, 0, False) /* Create Spectral Lightning Nekode (46369) for Wield */
+     , (21, 2, 46368,  1, 0, 0, False) /* Create Spectral Acid Nekode (46368) for Wield */
+     , (21, 2, 46367,  1, 0, 0, False) /* Create Spectral Frost Tachi (46367) for Wield */
+     , (21, 2,  7799,  1, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
+     , (21, 2, 47350,  1, 0, 0, False) /* Create Club (47350) for Wield */
+     , (21, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (21, 2, 23748,  1, 0, 0, False) /* Create Rock (23748) for Wield */
+     , (21, 2, 47407,  1, 0, 0, False) /* Create Frost Club (47407) for Wield */
+     , (21, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
+     , (21, 2, 46370,  1, 0, 0, False) /* Create Spectral Flaming Nekode (46370) for Wield */
+     , (21, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */
+     , (21, 2, 48024,  1, 0, 0, False) /* Create Katar (48024) for Wield */
+     , (21, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
+     , (21, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */
+     , (21, 2, 48615,  1, 0, 0, False) /* Create Frozen Dagger (48615) for Wield */
+     , (21, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */
+     , (21, 2, 12086,  1, 0, 0, False) /* Create Bandit Frost Yaoji (12086) for Wield */
+     , (21, 2, 47389,  1, 0, 0, False) /* Create Flaming Club (47389) for Wield */
+     , (21, 2, 22795,  1, 0, 0, False) /* Create Bandit Short Sword (22795) for Wield */
+     , (21, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (21, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21, 67111956, 0, 0);

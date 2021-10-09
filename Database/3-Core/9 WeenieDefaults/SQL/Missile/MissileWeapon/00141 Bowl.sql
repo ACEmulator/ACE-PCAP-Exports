@@ -17,7 +17,7 @@ VALUES (141,   1,        256) /* ItemType - MissileWeapon */
      , (141,  45,          4) /* DamageType - Bludgeon */
      , (141,  48,         47) /* WeaponSkill - MissileWeapons */
      , (141,  49,         10) /* WeaponTime */
-     , (141,  51,          2) /* CombatUse - Missle */
+     , (141,  51,          2) /* CombatUse - Missile */
      , (141,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (141, 105,          8) /* ItemWorkmanship */
      , (141, 131,         60) /* MaterialType - Gold */
@@ -47,17 +47,17 @@ VALUES (141,   1, 'Bowl') /* Name */
      , (141,  16, 'Bowl') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (141,   1,   33554929) /* Setup */
-     , (141,   3,  536871012) /* SoundTable */
-     , (141,   6,   67111092) /* PaletteBase */
-     , (141,   8,  100668612) /* Icon */
-     , (141,  22,  872415275) /* PhysicsEffectTable */
+VALUES (141,   1, 0x020001F1) /* Setup */
+     , (141,   3, 0x20000064) /* SoundTable */
+     , (141,   6, 0x040008B4) /* PaletteBase */
+     , (141,   8, 0x060014C4) /* Icon */
+     , (141,  22, 0x3400002B) /* PhysicsEffectTable */
      , (141, 8001, 2434888216) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (141, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (141, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (141, 8000, 3686232274) /* PCAPRecordedObjectIID */;
+VALUES (141, 8000, 0xDBB770D2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (141, 67111919, 0, 0);

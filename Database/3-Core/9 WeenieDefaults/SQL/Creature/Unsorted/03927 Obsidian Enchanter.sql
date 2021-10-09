@@ -25,21 +25,21 @@ VALUES (3927,   1, 'Obsidian Enchanter') /* Name */
      , (3927, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3927,   1,   33554433) /* Setup */
-     , (3927,   2,  150994945) /* MotionTable */
-     , (3927,   3,  536870913) /* SoundTable */
-     , (3927,   6,   67108990) /* PaletteBase */
-     , (3927,   8,  100667446) /* Icon */
+VALUES (3927,   1, 0x02000001) /* Setup */
+     , (3927,   2, 0x09000001) /* MotionTable */
+     , (3927,   3, 0x20000001) /* SoundTable */
+     , (3927,   6, 0x0400007E) /* PaletteBase */
+     , (3927,   8, 0x06001036) /* Icon */
      , (3927, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (3927, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (3927, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3927, 8040, 2574909697, 34.204, 133.26, 27.705, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (3927, 8040, 0x997A0101, 34.204, 133.26, 27.705, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x997A0101 [34.204000 133.260000 27.705000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3927, 8000, 3692429408) /* PCAPRecordedObjectIID */;
+VALUES (3927, 8000, 0xDC160060) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3927, 67109552, 0, 24)

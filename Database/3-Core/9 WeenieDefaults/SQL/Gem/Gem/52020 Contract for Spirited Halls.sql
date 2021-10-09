@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52020,   1, 'Contract for Spirited Halls') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52020,   1,   33557625) /* Setup */
-     , (52020,   3,  536870932) /* SoundTable */
-     , (52020,   8,  100691928) /* Icon */
-     , (52020,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52020,   1, 0x02000C79) /* Setup */
+     , (52020,   3, 0x20000014) /* SoundTable */
+     , (52020,   8, 0x06006FD8) /* Icon */
+     , (52020,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52020, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (52020, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (52020, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (52020,   1,   33557625) /* Setup */
      , (52020, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52020, 8000,      52020) /* PCAPRecordedObjectIID */;
+VALUES (52020, 8000, 0x0000CB34) /* PCAPRecordedObjectIID */;

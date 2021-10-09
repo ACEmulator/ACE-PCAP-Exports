@@ -25,22 +25,22 @@ VALUES (34044,   1, 'Illu Sclavus') /* Name */
      , (34044, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34044,   1,   33555608) /* Setup */
-     , (34044,   2,  150995048) /* MotionTable */
-     , (34044,   3,  536870977) /* SoundTable */
-     , (34044,   6,   67111936) /* PaletteBase */
-     , (34044,   8,  100669120) /* Icon */
-     , (34044,  22,  872415280) /* PhysicsEffectTable */
+VALUES (34044,   1, 0x02000498) /* Setup */
+     , (34044,   2, 0x09000068) /* MotionTable */
+     , (34044,   3, 0x20000041) /* SoundTable */
+     , (34044,   6, 0x04000C00) /* PaletteBase */
+     , (34044,   8, 0x060016C0) /* Icon */
+     , (34044,  22, 0x34000030) /* PhysicsEffectTable */
      , (34044, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (34044, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (34044, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34044, 8040, 974192939, 91.40575, 111.214, -40, 0.8779656, 0, 0, -0.4787238) /* PCAPRecordedLocation */
+VALUES (34044, 8040, 0x3A11012B, 91.40575, 111.214, -40, 0.877966, 0, 0, -0.478724) /* PCAPRecordedLocation */
 /* @teleloc 0x3A11012B [91.405750 111.214000 -40.000000] 0.877966 0.000000 0.000000 -0.478724 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34044, 8000, 3697188828) /* PCAPRecordedObjectIID */;
+VALUES (34044, 8000, 0xDC5E9FDC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (34044,   1,     0, 0, 0, 820) /* MaxHealth */;
@@ -102,7 +102,12 @@ VALUES (34044, 2, 47736,  1, 0, 0, False) /* Create Spear (47736) for Wield */
      , (34044, 9, 20542,  0, 0, 0, False) /* Create Scroll of Yoshi's Boon (20542) for ContainTreasure */
      , (34044, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
      , (34044, 9, 41049,  0, 0, 0, False) /* Create Flaming Pike (41049) for ContainTreasure */
-     , (34044, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */;
+     , (34044, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (34044, 9, 45410,  0, 0, 0, False) /* Create Frost Yaoji (45410) for ContainTreasure */
+     , (34044, 9, 27230,  0, 0, 0, False) /* Create Nariyid Helm (27230) for ContainTreasure */
+     , (34044, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (34044, 9, 48963,  0, 0, 0, False) /* Create Fire Elemental Essence (100) (48963) for ContainTreasure */
+     , (34044, 9, 41059,  0, 0, 0, False) /* Create Lightning Great Star Mace (41059) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34044, 67111941, 0, 0);

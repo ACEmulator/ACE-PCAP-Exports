@@ -11,7 +11,6 @@ VALUES (52795,   1,        128) /* ItemType - Misc */
      , (52795,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52795,  98, 1485828861) /* CreationTimestamp */
      , (52795, 267,       3600) /* Lifespan */
-     , (52795, 268,       3364) /* RemainingLifespan */
      , (52795, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -25,13 +24,13 @@ VALUES (52795,   1, 'Gauntlet Ticket Stub') /* Name */
      , (52795,  16, 'A ticket stub showing the time your fellowship have left in the Gauntlet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52795,   1,   33554773) /* Setup */
-     , (52795,   3,  536870932) /* SoundTable */
-     , (52795,   8,  100693321) /* Icon */
-     , (52795,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52795,   1, 0x02000155) /* Setup */
+     , (52795,   3, 0x20000014) /* SoundTable */
+     , (52795,   8, 0x06007549) /* Icon */
+     , (52795,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52795, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (52795, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52795, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52795, 8000, 2780797005) /* PCAPRecordedObjectIID */;
+VALUES (52795, 8000, 0xA5BF984D) /* PCAPRecordedObjectIID */;

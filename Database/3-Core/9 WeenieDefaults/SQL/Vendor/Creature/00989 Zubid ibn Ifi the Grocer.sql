@@ -36,27 +36,27 @@ VALUES (989,   1, 'Zubid ibn Ifi the Grocer') /* Name */
      , (989, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (989,   1,   33554433) /* Setup */
-     , (989,   2,  150994945) /* MotionTable */
-     , (989,   3,  536870913) /* SoundTable */
-     , (989,   6,   67108990) /* PaletteBase */
-     , (989,   8,  100667446) /* Icon */
-     , (989,   9,   83890511) /* EyesTexture */
-     , (989,  10,   83890541) /* NoseTexture */
-     , (989,  11,   83890617) /* MouthTexture */
-     , (989,  15,   67116998) /* HairPalette */
-     , (989,  16,   67110063) /* EyesPalette */
-     , (989,  17,   67109557) /* SkinPalette */
+VALUES (989,   1, 0x02000001) /* Setup */
+     , (989,   2, 0x09000001) /* MotionTable */
+     , (989,   3, 0x20000001) /* SoundTable */
+     , (989,   6, 0x0400007E) /* PaletteBase */
+     , (989,   8, 0x06001036) /* Icon */
+     , (989,   9, 0x0500114F) /* EyesTexture */
+     , (989,  10, 0x0500116D) /* NoseTexture */
+     , (989,  11, 0x050011B9) /* MouthTexture */
+     , (989,  15, 0x04001FC6) /* HairPalette */
+     , (989,  16, 0x040004AF) /* EyesPalette */
+     , (989,  17, 0x040002B5) /* SkinPalette */
      , (989, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (989, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (989, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (989, 8040, 2156921094, 41.16, 164.04, 124.005, -0.2806671, 0, 0, -0.9598052) /* PCAPRecordedLocation */
+VALUES (989, 8040, 0x80900106, 41.16, 164.04, 124.005, -0.280667, 0, 0, -0.959805) /* PCAPRecordedLocation */
 /* @teleloc 0x80900106 [41.160000 164.040000 124.005000] -0.280667 0.000000 0.000000 -0.959805 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (989, 8000, 2013855764) /* PCAPRecordedObjectIID */;
+VALUES (989, 8000, 0x78090014) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (989,   1, 120, 0, 0) /* Strength */
@@ -78,7 +78,8 @@ VALUES (989, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (989, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
      , (989, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (989, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (989, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */;
+     , (989, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (989, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (989, 67109557, 0, 24)

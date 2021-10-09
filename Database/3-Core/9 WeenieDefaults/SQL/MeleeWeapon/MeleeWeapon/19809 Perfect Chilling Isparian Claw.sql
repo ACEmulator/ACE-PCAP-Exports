@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19809,   1, 'Perfect Chilling Isparian Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19809,   1,   33556381) /* Setup */
-     , (19809,   3,  536870932) /* SoundTable */
-     , (19809,   6,   67111919) /* PaletteBase */
-     , (19809,   8,  100672904) /* Icon */
-     , (19809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19809,   1, 0x0200079D) /* Setup */
+     , (19809,   3, 0x20000014) /* SoundTable */
+     , (19809,   6, 0x04000BEF) /* PaletteBase */
+     , (19809,   8, 0x06002588) /* Icon */
+     , (19809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19809, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (19809, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19809, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19809, 8000, 3231348682) /* PCAPRecordedObjectIID */;
+VALUES (19809, 8000, 0xC09A77CA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19809, 67111919, 0, 0);

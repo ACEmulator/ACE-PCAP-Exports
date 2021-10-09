@@ -54,24 +54,24 @@ VALUES (3889,   1, 'Acid Tachi') /* Name */
      , (3889,  16, 'Acid Tachi of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3889,   1,   33555730) /* Setup */
-     , (3889,   3,  536870932) /* SoundTable */
-     , (3889,   6,   67111919) /* PaletteBase */
-     , (3889,   8,  100668918) /* Icon */
-     , (3889,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3889,   1, 0x02000512) /* Setup */
+     , (3889,   3, 0x20000014) /* SoundTable */
+     , (3889,   6, 0x04000BEF) /* PaletteBase */
+     , (3889,   8, 0x060015F6) /* Icon */
+     , (3889,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3889,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3889, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3889, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3889, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3889, 8000, 3354996285) /* PCAPRecordedObjectIID */;
+VALUES (3889, 8000, 0xC7F92E3D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3889,  1592,      2)  /* HeartSeekerSelf6 */
-     , (3889,  1605,      2)  /* DefenderSelf6 */
+VALUES (3889,  1605,      2)  /* DefenderSelf6 */
      , (3889,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (3889,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */;
+     , (3889,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */
+     , (3889,  1592,      2)  /* HeartSeekerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3889, 67111922, 0, 0);

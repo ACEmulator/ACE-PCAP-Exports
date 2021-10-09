@@ -8,7 +8,6 @@ VALUES (30368,   1,          2) /* ItemType - Armor */
      , (30368,   4,      65536) /* ClothingPriority - Feet */
      , (30368,   5,        900) /* EncumbranceVal */
      , (30368,   9,        256) /* ValidLocations - FootWear */
-     , (30368,  10,        256) /* CurrentWieldedLocation - FootWear */
      , (30368,  16,          1) /* ItemUseable - No */
      , (30368,  17,        269) /* RareId */
      , (30368,  19,      50000) /* Value */
@@ -53,24 +52,24 @@ VALUES (30368,   1, 'Sollerets') /* Name */
      , (30368,   8, 'Sneaky Peet') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30368,   1,   33554654) /* Setup */
-     , (30368,   3,  536870932) /* SoundTable */
-     , (30368,   6,   67108990) /* PaletteBase */
-     , (30368,   8,  100669243) /* Icon */
-     , (30368,  22,  872415275) /* PhysicsEffectTable */
-     , (30368,  52,  100686604) /* IconUnderlay */
+VALUES (30368,   1, 0x020000DE) /* Setup */
+     , (30368,   3, 0x20000014) /* SoundTable */
+     , (30368,   6, 0x0400007E) /* PaletteBase */
+     , (30368,   8, 0x0600173B) /* Icon */
+     , (30368,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30368,  52, 0x06005B0C) /* IconUnderlay */
      , (30368, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (30368, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30368, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30368, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30368, 8000, 2570509069) /* PCAPRecordedObjectIID */;
+VALUES (30368, 8000, 0x9936DB0D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30368,  4019,      2)  /* CANTRIPQUICKNESS3 */
-     , (30368,  4407,      2)  /* Impenetrability8 */
-     , (30368,  4710,      2)  /* CANTRIPSPRINT3 */;
+VALUES (30368,  4710,      2)  /* CANTRIPSPRINT3 */
+     , (30368,  4019,      2)  /* CANTRIPQUICKNESS3 */
+     , (30368,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30368, 67113248, 160, 8);

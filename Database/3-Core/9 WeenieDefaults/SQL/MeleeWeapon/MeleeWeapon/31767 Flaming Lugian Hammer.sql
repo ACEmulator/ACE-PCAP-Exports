@@ -54,18 +54,18 @@ VALUES (31767,   1, 'Flaming Lugian Hammer') /* Name */
      , (31767,  16, 'Flaming Lugian Hammer of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31767,   1,   33559671) /* Setup */
-     , (31767,   3,  536870932) /* SoundTable */
-     , (31767,   6,   67116700) /* PaletteBase */
-     , (31767,   8,  100688034) /* Icon */
-     , (31767,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31767,   1, 0x02001477) /* Setup */
+     , (31767,   3, 0x20000014) /* SoundTable */
+     , (31767,   6, 0x04001E9C) /* PaletteBase */
+     , (31767,   8, 0x060060A2) /* Icon */
+     , (31767,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31767,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (31767, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31767, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31767, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31767, 8000, 3324899857) /* PCAPRecordedObjectIID */;
+VALUES (31767, 8000, 0xC62DF211) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31767,  1604,      2)  /* DefenderSelf5 */

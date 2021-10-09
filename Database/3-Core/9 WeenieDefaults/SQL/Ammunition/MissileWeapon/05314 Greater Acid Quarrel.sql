@@ -54,17 +54,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5314,   1, 'Greater Acid Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5314,   1,   33555696) /* Setup */
-     , (5314,   3,  536870932) /* SoundTable */
-     , (5314,   6,   67111919) /* PaletteBase */
-     , (5314,   8,  100670240) /* Icon */
-     , (5314,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5314,   1, 0x020004F0) /* Setup */
+     , (5314,   3, 0x20000014) /* SoundTable */
+     , (5314,   6, 0x04000BEF) /* PaletteBase */
+     , (5314,   8, 0x06001B20) /* Icon */
+     , (5314,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5314, 8001,  270627736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (5314, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5314, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5314, 8000, 3261430911) /* PCAPRecordedObjectIID */;
+VALUES (5314, 8000, 0xC2657C7F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5314, 67111922, 0, 0);

@@ -40,26 +40,26 @@ VALUES (5911,   1, 'Suikan War Master Robe') /* Name */
      , (5911,  16, 'A finely tailored Sho robe for master mages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5911,   1,   33554854) /* Setup */
-     , (5911,   3,  536870932) /* SoundTable */
-     , (5911,   6,   67108990) /* PaletteBase */
-     , (5911,   8,  100670380) /* Icon */
-     , (5911,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5911,   1, 0x020001A6) /* Setup */
+     , (5911,   3, 0x20000014) /* SoundTable */
+     , (5911,   6, 0x0400007E) /* PaletteBase */
+     , (5911,   8, 0x06001BAC) /* Icon */
+     , (5911,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5911,  37,         34) /* ItemSkillLimit - WarMagic */
      , (5911, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (5911, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5911, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5911, 8000, 2186220508) /* PCAPRecordedObjectIID */;
+VALUES (5911, 8000, 0x824F13DC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5911,   571,      2)  /* CreatureEnchantmentIneptitudeOther3 */
+VALUES (5911,  1484,      2)  /* Impenetrability4 */
      , (5911,   595,      2)  /* ItemEnchantmentIneptitudeOther3 */
-     , (5911,   625,      2)  /* LifeMagicIneptitudeOther3 */
-     , (5911,   638,      2)  /* WarMagicMasteryOther4 */
      , (5911,  1453,      2)  /* WillpowerOther3 */
-     , (5911,  1484,      2)  /* Impenetrability4 */;
+     , (5911,   625,      2)  /* LifeMagicIneptitudeOther3 */
+     , (5911,   571,      2)  /* CreatureEnchantmentIneptitudeOther3 */
+     , (5911,   638,      2)  /* WarMagicMasteryOther4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5911, 67109945, 96, 12)

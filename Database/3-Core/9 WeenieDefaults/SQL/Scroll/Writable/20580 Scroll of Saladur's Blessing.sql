@@ -24,13 +24,13 @@ VALUES (20580,   1, 'Scroll of Saladur''s Blessing') /* Name */
 Increases the caster''s Run skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20580,   1,   33554826) /* Setup */
-     , (20580,   8,  100676470) /* Icon */
-     , (20580,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20580,   1, 0x0200018A) /* Setup */
+     , (20580,   8, 0x06003376) /* Icon */
+     , (20580,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20580,  28,       2301) /* Spell - SprintSelf7 */
      , (20580, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20580, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20580, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20580, 8000, 3697279790) /* PCAPRecordedObjectIID */;
+VALUES (20580, 8000, 0xDC60032E) /* PCAPRecordedObjectIID */;

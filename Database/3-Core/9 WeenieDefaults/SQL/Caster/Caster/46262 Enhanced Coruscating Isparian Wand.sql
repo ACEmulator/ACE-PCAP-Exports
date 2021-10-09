@@ -12,6 +12,7 @@ VALUES (46262,   1,      32768) /* ItemType - Caster */
      , (46262,  19,       8000) /* Value */
      , (46262,  33,          1) /* Bonded - Bonded */
      , (46262,  45,         64) /* DamageType - Electric */
+     , (46262,  46,        512) /* DefaultCombatStyle - Magic */
      , (46262,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46262,  94,         16) /* TargetType - Creature */
      , (46262, 106,        350) /* ItemSpellcraft */
@@ -45,25 +46,25 @@ VALUES (46262,   1, 'Enhanced Coruscating Isparian Wand') /* Name */
      , (46262,  25, 'Beale') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46262,   1,   33557786) /* Setup */
-     , (46262,   3,  536870932) /* SoundTable */
-     , (46262,   6,   67111919) /* PaletteBase */
-     , (46262,   8,  100672992) /* Icon */
-     , (46262,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46262,   1, 0x02000D1A) /* Setup */
+     , (46262,   3, 0x20000014) /* SoundTable */
+     , (46262,   6, 0x04000BEF) /* PaletteBase */
+     , (46262,   8, 0x060025E0) /* Icon */
+     , (46262,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46262, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (46262, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46262, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46262, 8000, 2150221819) /* PCAPRecordedObjectIID */;
+VALUES (46262, 8000, 0x8029C7FB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46262,  2061,      2)  /* EnduranceSelf7 */
-     , (46262,  2101,      2)  /* DefenderSelf7 */
-     , (46262,  2159,      2)  /* LightningProtectionSelf7 */
-     , (46262,  2287,      2)  /* ManaMasterySelf7 */
      , (46262,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (46262,  2287,      2)  /* ManaMasterySelf7 */
+     , (46262,  2159,      2)  /* LightningProtectionSelf7 */
      , (46262,  3250,      2)  /* CantripSpiritThirst2 */
+     , (46262,  2101,      2)  /* DefenderSelf7 */
      , (46262,  3259,      2)  /* SpiritDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

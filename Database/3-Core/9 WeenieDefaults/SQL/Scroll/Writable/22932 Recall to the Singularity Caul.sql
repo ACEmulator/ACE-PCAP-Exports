@@ -14,7 +14,8 @@ VALUES (22932,   1,       8192) /* ItemType - Writable */
      , (22932, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22932,  22, True ) /* Inscribable */;
+VALUES (22932,  22, True ) /* Inscribable */
+     , (22932,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22932,  39,     1.5) /* DefaultScale */;
@@ -26,13 +27,13 @@ VALUES (22932,   1, 'Recall to the Singularity Caul') /* Name */
 Teleports caster to the Singularity Caul.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22932,   1,   33554826) /* Setup */
-     , (22932,   8,  100669876) /* Icon */
-     , (22932,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22932,   1, 0x0200018A) /* Setup */
+     , (22932,   8, 0x060019B4) /* Icon */
+     , (22932,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22932,  28,       2943) /* Spell - SingularityIslandRecall */
      , (22932, 8001,    6307856) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, Spell */
      , (22932, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22932, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22932, 8000, 3684263308) /* PCAPRecordedObjectIID */;
+VALUES (22932, 8000, 0xDB99658C) /* PCAPRecordedObjectIID */;

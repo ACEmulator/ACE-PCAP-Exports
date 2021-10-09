@@ -24,13 +24,13 @@ VALUES (28944,   1, 'Scroll of Arcanum Enlightenment V') /* Name */
 Increases the target''s Salvaging skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28944,   1,   33554826) /* Setup */
-     , (28944,   8,  100676477) /* Icon */
-     , (28944,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28944,   1, 0x0200018A) /* Setup */
+     , (28944,   8, 0x0600337D) /* Icon */
+     , (28944,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28944,  28,       3510) /* Spell - ArcanumSalvagingOther5 */
      , (28944, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (28944, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28944, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28944, 8000, 3704781823) /* PCAPRecordedObjectIID */;
+VALUES (28944, 8000, 0xDCD27BFF) /* PCAPRecordedObjectIID */;

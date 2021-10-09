@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1577,   1, 'Scroll of Fire Protection Self') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1577,   1,   33554826) /* Setup */
-     , (1577,   8,  100676949) /* Icon */
-     , (1577,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1577,   1, 0x0200018A) /* Setup */
+     , (1577,   8, 0x06003555) /* Icon */
+     , (1577,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1577,  28,         20) /* Spell - FireProtectionSelf1 */
      , (1577, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1577, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1577, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1577, 8000, 2240725109) /* PCAPRecordedObjectIID */;
+VALUES (1577, 8000, 0x858EC075) /* PCAPRecordedObjectIID */;

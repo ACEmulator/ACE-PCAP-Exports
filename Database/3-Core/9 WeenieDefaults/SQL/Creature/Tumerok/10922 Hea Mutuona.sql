@@ -29,20 +29,20 @@ VALUES (10922,   1, 'Hea Mutuona') /* Name */
      , (10922, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10922,   1,   33559553) /* Setup */
-     , (10922,   2,  150994954) /* MotionTable */
-     , (10922,   3,  536870931) /* SoundTable */
-     , (10922,   8,  100667452) /* Icon */
+VALUES (10922,   1, 0x02001401) /* Setup */
+     , (10922,   2, 0x0900000A) /* MotionTable */
+     , (10922,   3, 0x20000013) /* SoundTable */
+     , (10922,   8, 0x0600103C) /* Icon */
      , (10922, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (10922, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (10922, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10922, 8040, 247070755, 113.029, 61.2068, 2.006, -0.469375, 0, 0, -0.8829989) /* PCAPRecordedLocation */
+VALUES (10922, 8040, 0x0EBA0023, 113.029, 61.2068, 2.006, -0.469375, 0, 0, -0.882999) /* PCAPRecordedLocation */
 /* @teleloc 0x0EBA0023 [113.029000 61.206800 2.006000] -0.469375 0.000000 0.000000 -0.882999 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10922, 8000, 3691258973) /* PCAPRecordedObjectIID */;
+VALUES (10922, 8000, 0xDC04245D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10922,   1,  80, 0, 0) /* Strength */

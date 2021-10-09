@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45465,   1,          1) /* ItemType - MeleeWeapon */
      , (45465,   5,        550) /* EncumbranceVal */
      , (45465,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (45465,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (45465,  16,          1) /* ItemUseable - No */
      , (45465,  17,        279) /* RareId */
      , (45465,  19,      50000) /* Value */
@@ -56,12 +55,12 @@ VALUES (45465,   1, 'Morrigan''s Vanity') /* Name */
      , (45465,  16, 'In the wild woods of Aluvia, there was a woman named Morrigan, the only female in a gang of highwaymen, bandits, and thieves.  After the group looted one particularly rich cache of jewels, Morrigan quickly fenced the jewels for gold coin.  One of her friends, a handsome young man who dressed well to seduce or take advantage of nobles, teased her about this.  "Not even keeping one jewel for yourself?" he asked.  "Where is your womanly vanity?"  Morrigan patted the great sword at her side, which she kept gleaming and well-polished, despite its frequent use.  "This is my only vanity," was her reply.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45465,   1,   33559397) /* Setup */
-     , (45465,   3,  536870932) /* SoundTable */
-     , (45465,   6,   67111919) /* PaletteBase */
-     , (45465,   8,  100686777) /* Icon */
-     , (45465,  22,  872415275) /* PhysicsEffectTable */
-     , (45465,  52,  100686604) /* IconUnderlay */
+VALUES (45465,   1, 0x02001365) /* Setup */
+     , (45465,   3, 0x20000014) /* SoundTable */
+     , (45465,   6, 0x04000BEF) /* PaletteBase */
+     , (45465,   8, 0x06005BB9) /* Icon */
+     , (45465,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45465,  52, 0x06005B0C) /* IconUnderlay */
      , (45465, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (45465, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45465, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
@@ -69,24 +68,24 @@ VALUES (45465,   1,   33559397) /* Setup */
      , (45465, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45465, 8040, 2399928332, 42.91154, 85.54558, 3.319689, 0.6569928, 0.6569928, -0.2614583, -0.2614583) /* PCAPRecordedLocation */
+VALUES (45465, 8040, 0x8F0C000C, 42.91154, 85.54558, 3.319689, 0.656993, 0.656993, -0.261458, -0.261458) /* PCAPRecordedLocation */
 /* @teleloc 0x8F0C000C [42.911540 85.545580 3.319689] 0.656993 0.656993 -0.261458 -0.261458 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45465, 8000, 2200073339) /* PCAPRecordedObjectIID */
-     , (45465, 8008, 1342413024) /* PCAPRecordedParentIID */;
+VALUES (45465, 8000, 0x8322747B) /* PCAPRecordedObjectIID */
+     , (45465, 8008, 0x500398E0) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45465,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (45465,  3965,      2)  /* CANTRIPSTRENGTH3 */
+VALUES (45465,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
+     , (45465,  4624,      2)  /* HeavyWeaponsMasterySelf8 */
      , (45465,  4325,      2)  /* StrengthSelf8 */
+     , (45465,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */
      , (45465,  4395,      2)  /* BloodDrinkerSelf8 */
      , (45465,  4400,      2)  /* DefenderSelf8 */
      , (45465,  4405,      2)  /* HeartSeekerSelf8 */
-     , (45465,  4624,      2)  /* SwordMasterySelf8 */
      , (45465,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45465,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
-     , (45465,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;
+     , (45465,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (45465,  3965,      2)  /* CANTRIPSTRENGTH3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45465, 67111920, 0, 0);

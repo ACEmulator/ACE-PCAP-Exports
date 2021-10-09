@@ -30,21 +30,21 @@ VALUES (38942,   1, 'Grand Casino Chest') /* Name */
      , (38942, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38942,   1,   33557027) /* Setup */
-     , (38942,   2,  150994948) /* MotionTable */
-     , (38942,   3,  536870945) /* SoundTable */
-     , (38942,   8,  100671480) /* Icon */
-     , (38942,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38942,   1, 0x02000A23) /* Setup */
+     , (38942,   2, 0x09000004) /* MotionTable */
+     , (38942,   3, 0x20000021) /* SoundTable */
+     , (38942,   8, 0x06001FF8) /* Icon */
+     , (38942,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38942, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (38942, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (38942, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38942, 8040, 3679715584, 105.007, 125.037, 20, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (38942, 8040, 0xDB540100, 105.007, 125.037, 20, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xDB540100 [105.007000 125.037000 20.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38942, 8000, 2109030417) /* PCAPRecordedObjectIID */;
+VALUES (38942, 8000, 0x7DB54011) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38942, -1, 20422, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Wi's Folly (20422) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
@@ -1255,7 +1255,11 @@ VALUES (38942, -1, 20422, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, 
      , (38942, -1, 45412, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Acid Spada (45412) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (38942, -1, 3902, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Lightning Tungi (3902) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (38942, -1, 30585, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Acid Mazule (30585) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
-     , (38942, -1, 49432, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Lightning Spectre Essence (150) (49432) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
+     , (38942, -1, 49432, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Lightning Spectre Essence (150) (49432) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (38942, -1, 49371, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Acid Grievver Essence (180) (49371) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (38942, -1, 49335, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Frost Wisp Essence (150) (49335) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (38942, -1, 36624, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Foolproof (36624) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
+     , (38942, -1, 30584, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Frost Mazule (30584) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38942, 0, 83888750, 83893246)

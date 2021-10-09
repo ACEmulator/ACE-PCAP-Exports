@@ -32,16 +32,16 @@ VALUES (25787,   1, 'Ice Badge') /* Name */
      , (25787,  16, 'A major award. A crystalline badge of honor intricately carved from ice. It shimmers in the light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25787,   1,   33558518) /* Setup */
-     , (25787,   3,  536870932) /* SoundTable */
-     , (25787,   8,  100675517) /* Icon */
-     , (25787,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25787,   1, 0x02000FF6) /* Setup */
+     , (25787,   3, 0x20000014) /* SoundTable */
+     , (25787,   8, 0x06002FBD) /* Icon */
+     , (25787,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25787, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (25787, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25787, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25787, 8000, 2147740305) /* PCAPRecordedObjectIID */;
+VALUES (25787, 8000, 0x8003EA91) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25787,   849,      2)  /* FireProtectionOther4 */

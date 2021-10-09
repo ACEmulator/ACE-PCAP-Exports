@@ -24,13 +24,13 @@ VALUES (37861,   1, 'Inscription of Lightning Protection Self') /* Name */
 Reduces damage the caster takes from Lightning by 68%') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37861,   1,   33554826) /* Setup */
-     , (37861,   8,  100676948) /* Icon */
-     , (37861,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37861,   1, 0x0200018A) /* Setup */
+     , (37861,   8, 0x06003554) /* Icon */
+     , (37861,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37861,  28,       4470) /* Spell - LightningProtectionSelf8 */
      , (37861, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37861, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37861, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37861, 8000, 2150584896) /* PCAPRecordedObjectIID */;
+VALUES (37861, 8000, 0x802F5240) /* PCAPRecordedObjectIID */;

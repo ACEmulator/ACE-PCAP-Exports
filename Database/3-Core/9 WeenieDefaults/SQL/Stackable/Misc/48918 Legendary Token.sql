@@ -17,19 +17,22 @@ VALUES (48918,   1,        128) /* ItemType - Misc */
      , (48918, 114,          1) /* Attuned - Attuned */
      , (48918, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (48918,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48918,   1, 'Legendary Token') /* Name */
      , (48918,  14, 'Collect 20 of this trophy and turn them in to any NPC you receive these trophies from in exchange for one Aged Legendary Key.') /* Use */
      , (48918,  16, 'A trophy granted for the completion of any number of legendary tasks.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48918,   1,   33554802) /* Setup */
-     , (48918,   3,  536870932) /* SoundTable */
-     , (48918,   8,  100693003) /* Icon */
-     , (48918,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48918,   1, 0x02000172) /* Setup */
+     , (48918,   3, 0x20000014) /* SoundTable */
+     , (48918,   8, 0x0600740B) /* Icon */
+     , (48918,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48918, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (48918, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (48918, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48918, 8000, 2210356866) /* PCAPRecordedObjectIID */;
+VALUES (48918, 8000, 0x83BF5E82) /* PCAPRecordedObjectIID */;

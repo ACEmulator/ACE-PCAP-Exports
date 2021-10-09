@@ -21,16 +21,16 @@ VALUES (15275,   1, 'Nuhmudira''s Dungeon') /* Name */
      , (15275, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15275,   1,   33554867) /* Setup */
-     , (15275,   2,  150994947) /* MotionTable */
-     , (15275,   8,  100667499) /* Icon */
+VALUES (15275,   1, 0x020001B3) /* Setup */
+     , (15275,   2, 0x09000003) /* MotionTable */
+     , (15275,   8, 0x0600106B) /* Icon */
      , (15275, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (15275, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (15275, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15275, 8040, 2893676882, 67.9402, 78.7834, -4.063001, 0.7119581, 0, 0, -0.702222) /* PCAPRecordedLocation */
+VALUES (15275, 8040, 0xAC7A0152, 67.9402, 78.7834, -4.063001, 0.711958, 0, 0, -0.702222) /* PCAPRecordedLocation */
 /* @teleloc 0xAC7A0152 [67.940200 78.783400 -4.063001] 0.711958 0.000000 0.000000 -0.702222 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15275, 8000, 2059902997) /* PCAPRecordedObjectIID */;
+VALUES (15275, 8000, 0x7AC7A015) /* PCAPRecordedObjectIID */;

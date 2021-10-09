@@ -31,16 +31,16 @@ VALUES (7063,   1, 'Fine Oiled String') /* Name */
      , (7063,  16, 'A piece of braided string coated well with blooddrinker oil.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7063,   1,   33554817) /* Setup */
-     , (7063,   3,  536870932) /* SoundTable */
-     , (7063,   8,  100670689) /* Icon */
-     , (7063,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7063,   1, 0x02000181) /* Setup */
+     , (7063,   3, 0x20000014) /* SoundTable */
+     , (7063,   8, 0x06001CE1) /* Icon */
+     , (7063,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7063, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7063, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7063, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7063, 8000, 2765661571) /* PCAPRecordedObjectIID */;
+VALUES (7063, 8000, 0xA4D8A583) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (7063, 0, 83890064, 83890069);

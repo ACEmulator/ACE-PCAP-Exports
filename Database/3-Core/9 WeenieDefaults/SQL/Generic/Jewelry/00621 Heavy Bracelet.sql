@@ -34,31 +34,24 @@ VALUES (621,   1, 'Heavy Bracelet') /* Name */
      , (621,  16, 'Heavy Bracelet of Bludgeon Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (621,   1,   33554682) /* Setup */
-     , (621,   3,  536870932) /* SoundTable */
-     , (621,   6,   67111919) /* PaletteBase */
-     , (621,   8,  100668623) /* Icon */
-     , (621,  22,  872415275) /* PhysicsEffectTable */
+VALUES (621,   1, 0x020000FA) /* Setup */
+     , (621,   3, 0x20000014) /* SoundTable */
+     , (621,   6, 0x04000BEF) /* PaletteBase */
+     , (621,   8, 0x060014CF) /* Icon */
+     , (621,  22, 0x3400002B) /* PhysicsEffectTable */
      , (621, 8001, 2166423704) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Burden, Workmanship, MaterialType */
      , (621, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (621, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (621, 8040, 23855554, 57.54981, -26.38452, 0.029325, -0.9999598, 0, 0, 0.00896092) /* PCAPRecordedLocation */
+VALUES (621, 8040, 0x016C01C2, 57.54981, -26.38452, 0.029325, -0.99996, 0, 0, 0.008961) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [57.549810 -26.384520 0.029325] -0.999960 0.000000 0.000000 0.008961 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (621, 8000, 3536874068) /* PCAPRecordedObjectIID */;
+VALUES (621, 8000, 0xD2D06A54) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (621,  1023,      2)  /* BludgeonProtectionSelf6 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (621, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
-     , (621, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
-     , (621, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (621, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (621, 2, 22782,  1, 0, 0, False) /* Create Khanjar (22782) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (621, 67111920, 0, 0);

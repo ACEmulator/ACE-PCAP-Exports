@@ -8,7 +8,6 @@ VALUES (23097,   1,          2) /* ItemType - Armor */
      , (23097,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (23097,   5,       1300) /* EncumbranceVal */
      , (23097,   9,      32512) /* ValidLocations - Armor */
-     , (23097,  10,      32512) /* CurrentWieldedLocation - Armor */
      , (23097,  16,          1) /* ItemUseable - No */
      , (23097,  19,       4000) /* Value */
      , (23097,  28,        200) /* ArmorLevel */
@@ -34,17 +33,17 @@ VALUES (23097,   1, 'Swarthy Mattekar Robe') /* Name */
      , (23097,  15, 'Rare, lightweight, extremely warm robe crafted from the hide of the vile Swarthy Mattekar, rumored only to appear under certain conditions.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23097,   1,   33554854) /* Setup */
-     , (23097,   3,  536870932) /* SoundTable */
-     , (23097,   6,   67108990) /* PaletteBase */
-     , (23097,   8,  100672452) /* Icon */
-     , (23097,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23097,   1, 0x020001A6) /* Setup */
+     , (23097,   3, 0x20000014) /* SoundTable */
+     , (23097,   6, 0x0400007E) /* PaletteBase */
+     , (23097,   8, 0x060023C4) /* Icon */
+     , (23097,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23097, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (23097, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23097, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23097, 8000, 2258805321) /* PCAPRecordedObjectIID */;
+VALUES (23097, 8000, 0x86A2A249) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23097, 67114145, 40, 40)

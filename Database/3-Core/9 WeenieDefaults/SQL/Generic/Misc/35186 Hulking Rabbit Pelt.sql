@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35186,   1, 'Hulking Rabbit Pelt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35186,   1,   33556210) /* Setup */
-     , (35186,   3,  536870932) /* SoundTable */
-     , (35186,   8,  100670267) /* Icon */
-     , (35186,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35186,   1, 0x020006F2) /* Setup */
+     , (35186,   3, 0x20000014) /* SoundTable */
+     , (35186,   8, 0x06001B3B) /* Icon */
+     , (35186,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35186, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (35186, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35186, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35186, 8000, 2153283062) /* PCAPRecordedObjectIID */;
+VALUES (35186, 8000, 0x80587DF6) /* PCAPRecordedObjectIID */;

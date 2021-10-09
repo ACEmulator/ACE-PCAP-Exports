@@ -21,11 +21,11 @@ VALUES (37362,   1, 'Quill of Extraction') /* Name */
      , (37362,  20, 'Quills of Extraction') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37362,   1,   33559616) /* Setup */
-     , (37362,   8,  100690199) /* Icon */
+VALUES (37362,   1, 0x02001440) /* Setup */
+     , (37362,   8, 0x06006917) /* Icon */
      , (37362, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (37362, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37362, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37362, 8000, 2461826768) /* PCAPRecordedObjectIID */;
+VALUES (37362, 8000, 0x92BC7ED0) /* PCAPRecordedObjectIID */;

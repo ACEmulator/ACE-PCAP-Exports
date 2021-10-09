@@ -25,15 +25,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8419,   1, 'Button') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8419,   1,   33554714) /* Setup */
-     , (8419,   8,  100667474) /* Icon */
+VALUES (8419,   1, 0x0200011A) /* Setup */
+     , (8419,   8, 0x06001052) /* Icon */
      , (8419, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (8419, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (8419, 8005,     163973) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8419, 8040, 1682572185, 133.919, -15.6052, 1.5, 0.999961, 0, 0, -0.00885725) /* PCAPRecordedLocation */
+VALUES (8419, 8040, 0x644A0399, 133.919, -15.6052, 1.5, 0.999961, 0, 0, -0.008857) /* PCAPRecordedLocation */
 /* @teleloc 0x644A0399 [133.919000 -15.605200 1.500000] 0.999961 0.000000 0.000000 -0.008857 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8419, 8000, 1984208991) /* PCAPRecordedObjectIID */;
+VALUES (8419, 8000, 0x7644A05F) /* PCAPRecordedObjectIID */;

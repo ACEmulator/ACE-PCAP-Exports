@@ -22,13 +22,13 @@ VALUES (38755,   1, 'Introspective Quill of Formation') /* Name */
      , (38755,  20, 'Introspective Quills of Formation') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38755,   1,   33559616) /* Setup */
-     , (38755,   8,  100690197) /* Icon */
-     , (38755,  52,  100676435) /* IconUnderlay */
+VALUES (38755,   1, 0x02001440) /* Setup */
+     , (38755,   8, 0x06006915) /* Icon */
+     , (38755,  52, 0x06003353) /* IconUnderlay */
      , (38755, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (38755, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (38755, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (38755, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38755, 8000, 2150585007) /* PCAPRecordedObjectIID */;
+VALUES (38755, 8000, 0x802F52AF) /* PCAPRecordedObjectIID */;

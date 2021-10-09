@@ -25,13 +25,13 @@ VALUES (8020,   1, 'Fenmalain Key') /* Name */
      , (8020,  14, 'Use this item on the Fenmalain Gate.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8020,   1,   33556743) /* Setup */
-     , (8020,   3,  536870932) /* SoundTable */
-     , (8020,   8,  100670980) /* Icon */
-     , (8020,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8020,   1, 0x02000907) /* Setup */
+     , (8020,   3, 0x20000014) /* SoundTable */
+     , (8020,   8, 0x06001E04) /* Icon */
+     , (8020,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8020, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (8020, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8020, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8020, 8000, 2982947203) /* PCAPRecordedObjectIID */;
+VALUES (8020, 8000, 0xB1CC2983) /* PCAPRecordedObjectIID */;

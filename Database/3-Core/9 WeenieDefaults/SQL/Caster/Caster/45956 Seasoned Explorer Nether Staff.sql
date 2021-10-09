@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45956,   1,      32768) /* ItemType - Caster */
      , (45956,   5,         50) /* EncumbranceVal */
      , (45956,   9,   16777216) /* ValidLocations - Held */
-     , (45956,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (45956,  16,          1) /* ItemUseable - No */
      , (45956,  19,        100) /* Value */
      , (45956,  33,          1) /* Bonded - Bonded */
      , (45956,  45,       1024) /* DamageType - Nether */
+     , (45956,  46,        512) /* DefaultCombatStyle - Magic */
      , (45956,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45956,  94,         16) /* TargetType - Creature */
      , (45956, 106,        250) /* ItemSpellcraft */
@@ -27,6 +27,7 @@ VALUES (45956,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45956,  22, True ) /* Inscribable */
+     , (45956,  23, True ) /* DestroyOnSell */
      , (45956,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -41,30 +42,30 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45956,   1, 'Seasoned Explorer Nether Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45956,   1,   33561137) /* Setup */
-     , (45956,   3,  536870932) /* SoundTable */
-     , (45956,   6,   67111919) /* PaletteBase */
-     , (45956,   8,  100690005) /* Icon */
-     , (45956,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45956,   1, 0x02001A31) /* Setup */
+     , (45956,   3, 0x20000014) /* SoundTable */
+     , (45956,   6, 0x04000BEF) /* PaletteBase */
+     , (45956,   8, 0x06006855) /* Icon */
+     , (45956,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45956, 8001,  271286296) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (45956, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45956, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (45956, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45956, 8040, 26084219, 11.736, -150.047, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (45956, 8040, 0x018E037B, 11.736, -150.047, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x018E037B [11.736000 -150.047000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45956, 8000, 3602144474) /* PCAPRecordedObjectIID */
-     , (45956, 8008, 1343489260) /* PCAPRecordedParentIID */;
+VALUES (45956, 8000, 0xD6B45CDA) /* PCAPRecordedObjectIID */
+     , (45956, 8008, 0x501404EC) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45956,   664,      2)  /* ManaMasteryOther6 */
+VALUES (45956,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */
      , (45956,  1605,      2)  /* DefenderSelf6 */
-     , (45956,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */
-     , (45956,  3258,      2)  /* SpiritDrinkerSelf6 */
-     , (45956,  5427,      2)  /* CantripVoidMagicAptitude1 */;
+     , (45956,   664,      2)  /* ManaMasteryOther6 */
+     , (45956,  5427,      2)  /* CantripVoidMagicAptitude1 */
+     , (45956,  3258,      2)  /* SpiritDrinkerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45956, 67111922, 0, 0);

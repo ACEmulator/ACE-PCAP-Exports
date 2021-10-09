@@ -43,18 +43,18 @@ VALUES (6005,   1, 'Koujia Sleeves') /* Name */
      , (6005,  16, 'Koujia Sleeves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6005,   1,   33554655) /* Setup */
-     , (6005,   3,  536870932) /* SoundTable */
-     , (6005,   6,   67108990) /* PaletteBase */
-     , (6005,   8,  100670468) /* Icon */
-     , (6005,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6005,   1, 0x020000DF) /* Setup */
+     , (6005,   3, 0x20000014) /* SoundTable */
+     , (6005,   6, 0x0400007E) /* PaletteBase */
+     , (6005,   8, 0x06001C04) /* Icon */
+     , (6005,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6005,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (6005, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (6005, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6005, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6005, 8000, 3687293377) /* PCAPRecordedObjectIID */;
+VALUES (6005, 8000, 0xDBC7A1C1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6005,  1485,      2)  /* Impenetrability5 */;

@@ -53,24 +53,24 @@ VALUES (30585,   1, 'Acid Mazule') /* Name */
      , (30585,  16, 'Acid Mazule of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30585,   1,   33559472) /* Setup */
-     , (30585,   3,  536870932) /* SoundTable */
-     , (30585,   6,   67115559) /* PaletteBase */
-     , (30585,   8,  100686973) /* Icon */
-     , (30585,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30585,   1, 0x020013B0) /* Setup */
+     , (30585,   3, 0x20000014) /* SoundTable */
+     , (30585,   6, 0x04001A27) /* PaletteBase */
+     , (30585,   8, 0x06005C7D) /* Icon */
+     , (30585,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30585,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30585, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30585, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30585, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30585, 8000, 3680954254) /* PCAPRecordedObjectIID */;
+VALUES (30585, 8000, 0xDB66E78E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30585,  1378,      2)  /* CoordinationSelf6 */
+VALUES (30585,  2562,      2)  /* CANTRIPPERSONATTUNEMENT1 */
      , (30585,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (30585,  1378,      2)  /* CoordinationSelf6 */
      , (30585,  2537,      2)  /* CANTRIPARCANEPROWESS1 */
-     , (30585,  2562,      2)  /* CANTRIPPERSONATTUNEMENT1 */
      , (30585,  6127,      2)  /* CantripSummoningProwess1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

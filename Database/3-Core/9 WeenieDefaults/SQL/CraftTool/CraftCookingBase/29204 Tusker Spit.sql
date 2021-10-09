@@ -24,16 +24,13 @@ VALUES (29204,   1, 'Tusker Spit') /* Name */
      , (29204,  20, 'Vials of Tusker Spit') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29204,   1,   33554603) /* Setup */
-     , (29204,   3,  536870932) /* SoundTable */
-     , (29204,   8,  100686465) /* Icon */
-     , (29204,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29204,   1, 0x020000AB) /* Setup */
+     , (29204,   3, 0x20000014) /* SoundTable */
+     , (29204,   8, 0x06005A81) /* Icon */
+     , (29204,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29204, 8001,  271085585) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (29204, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29204, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29204, 8000, 3691246379) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29204, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+VALUES (29204, 8000, 0xDC03F32B) /* PCAPRecordedObjectIID */;

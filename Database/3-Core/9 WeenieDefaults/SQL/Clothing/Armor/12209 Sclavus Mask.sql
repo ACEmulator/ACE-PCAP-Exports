@@ -33,16 +33,16 @@ VALUES (12209,   1, 'Sclavus Mask') /* Name */
      , (12209,  16, 'A finely sewed and oiled Sclavus head, patched with utmost precision, and conveniently fitted for use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12209,   1,   33557362) /* Setup */
-     , (12209,   3,  536870932) /* SoundTable */
-     , (12209,   8,  100672163) /* Icon */
-     , (12209,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12209,   1, 0x02000B72) /* Setup */
+     , (12209,   3, 0x20000014) /* SoundTable */
+     , (12209,   8, 0x060022A3) /* Icon */
+     , (12209,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12209, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (12209, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12209, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12209, 8000, 2461489067) /* PCAPRecordedObjectIID */;
+VALUES (12209, 8000, 0x92B757AB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (12209, 0, 16787383);

@@ -35,16 +35,16 @@ VALUES (12211,   1, 'Zombie Mask') /* Name */
      , (12211,  16, 'A mask made from the head of a zombie.  Its skin is dry, though the mask is very well put together.  The odor of undeath still clings to it, however...') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12211,   1,   33557363) /* Setup */
-     , (12211,   3,  536870932) /* SoundTable */
-     , (12211,   8,  100672164) /* Icon */
-     , (12211,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12211,   1, 0x02000B73) /* Setup */
+     , (12211,   3, 0x20000014) /* SoundTable */
+     , (12211,   8, 0x060022A4) /* Icon */
+     , (12211,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12211, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (12211, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12211, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12211, 8000, 2186220432) /* PCAPRecordedObjectIID */;
+VALUES (12211, 8000, 0x824F1390) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (12211, 0, 16787385);

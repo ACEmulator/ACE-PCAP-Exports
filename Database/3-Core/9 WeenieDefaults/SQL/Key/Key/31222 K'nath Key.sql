@@ -24,13 +24,13 @@ VALUES (31222,   1, 'K''nath Key') /* Name */
      , (31222,  16, 'This key reeks with the stench of the K''nath.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31222,   1,   33554784) /* Setup */
-     , (31222,   3,  536870932) /* SoundTable */
-     , (31222,   8,  100667485) /* Icon */
-     , (31222,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31222,   1, 0x02000160) /* Setup */
+     , (31222,   3, 0x20000014) /* SoundTable */
+     , (31222,   8, 0x0600105D) /* Icon */
+     , (31222,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31222, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (31222, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31222, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31222, 8000, 2166217016) /* PCAPRecordedObjectIID */;
+VALUES (31222, 8000, 0x811DD938) /* PCAPRecordedObjectIID */;

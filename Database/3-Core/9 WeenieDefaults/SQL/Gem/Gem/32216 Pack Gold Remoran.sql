@@ -24,17 +24,17 @@ VALUES (32216,   1, 'Pack Gold Remoran') /* Name */
      , (32216, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32216,   1,   33559700) /* Setup */
-     , (32216,   2,  150995351) /* MotionTable */
-     , (32216,   6,   67116726) /* PaletteBase */
-     , (32216,   8,  100688455) /* Icon */
-     , (32216,  22,  872415414) /* PhysicsEffectTable */
+VALUES (32216,   1, 0x02001494) /* Setup */
+     , (32216,   2, 0x09000197) /* MotionTable */
+     , (32216,   6, 0x04001EB6) /* PaletteBase */
+     , (32216,   8, 0x06006247) /* Icon */
+     , (32216,  22, 0x340000B6) /* PhysicsEffectTable */
      , (32216, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
      , (32216, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32216, 8005,      69763) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32216, 8000, 2364396773) /* PCAPRecordedObjectIID */;
+VALUES (32216, 8000, 0x8CEDD4E5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32216, 67116783, 0, 0);

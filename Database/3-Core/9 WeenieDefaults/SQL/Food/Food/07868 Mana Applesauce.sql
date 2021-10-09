@@ -28,13 +28,13 @@ VALUES (7868,   1, 'Mana Applesauce') /* Name */
      , (7868,  20, 'Mana Jars of Applesauce') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7868,   1,   33555977) /* Setup */
-     , (7868,   3,  536870932) /* SoundTable */
-     , (7868,   8,  100670845) /* Icon */
-     , (7868,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7868,   1, 0x02000609) /* Setup */
+     , (7868,   3, 0x20000014) /* SoundTable */
+     , (7868,   8, 0x06001D7D) /* Icon */
+     , (7868,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7868, 8001,    2125977) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (7868, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (7868, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7868, 8000, 2192139603) /* PCAPRecordedObjectIID */;
+VALUES (7868, 8000, 0x82A96553) /* PCAPRecordedObjectIID */;

@@ -53,18 +53,18 @@ VALUES (22442,   1, 'Lightning Dirk') /* Name */
      , (22442,  16, 'Lightning Dirk of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22442,   1,   33558090) /* Setup */
-     , (22442,   3,  536870932) /* SoundTable */
-     , (22442,   6,   67111919) /* PaletteBase */
-     , (22442,   8,  100673790) /* Icon */
-     , (22442,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22442,   1, 0x02000E4A) /* Setup */
+     , (22442,   3, 0x20000014) /* SoundTable */
+     , (22442,   6, 0x04000BEF) /* PaletteBase */
+     , (22442,   8, 0x060028FE) /* Icon */
+     , (22442,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22442,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (22442, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (22442, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22442, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22442, 8000, 3692261711) /* PCAPRecordedObjectIID */;
+VALUES (22442, 8000, 0xDC13714F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22442,  1615,      2)  /* BloodDrinkerSelf5 */;

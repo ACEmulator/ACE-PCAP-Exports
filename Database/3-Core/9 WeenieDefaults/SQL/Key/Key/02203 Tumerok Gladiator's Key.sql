@@ -23,13 +23,13 @@ VALUES (2203,   1, 'Tumerok Gladiator''s Key') /* Name */
      , (2203,  16, 'A plain key. There are coordinates scratched on the handle: 42S, 56W ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2203,   1,   33554784) /* Setup */
-     , (2203,   3,  536870932) /* SoundTable */
-     , (2203,   8,  100667486) /* Icon */
-     , (2203,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2203,   1, 0x02000160) /* Setup */
+     , (2203,   3, 0x20000014) /* SoundTable */
+     , (2203,   8, 0x0600105E) /* Icon */
+     , (2203,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2203, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (2203, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2203, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2203, 8000, 2884133837) /* PCAPRecordedObjectIID */;
+VALUES (2203, 8000, 0xABE863CD) /* PCAPRecordedObjectIID */;

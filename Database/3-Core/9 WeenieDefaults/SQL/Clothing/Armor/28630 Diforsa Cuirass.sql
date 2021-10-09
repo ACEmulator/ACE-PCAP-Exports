@@ -50,26 +50,26 @@ VALUES (28630,   1, 'Diforsa Cuirass') /* Name */
      , (28630,  16, 'Diforsa Cuirass of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28630,   1,   33559339) /* Setup */
-     , (28630,   3,  536870932) /* SoundTable */
-     , (28630,   6,   67108990) /* PaletteBase */
-     , (28630,   8,  100686229) /* Icon */
-     , (28630,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28630,   1, 0x0200132B) /* Setup */
+     , (28630,   3, 0x20000014) /* SoundTable */
+     , (28630,   6, 0x0400007E) /* PaletteBase */
+     , (28630,   8, 0x06005995) /* Icon */
+     , (28630,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28630,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (28630, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (28630, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28630, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28630, 8000, 3688303154) /* PCAPRecordedObjectIID */;
+VALUES (28630, 8000, 0xDBD70A32) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28630,  1516,      2)  /* BludgeonBane6 */
-     , (28630,  2087,      2)  /* StrengthSelf7 */
-     , (28630,  2108,      2)  /* Impenetrability7 */
+VALUES (28630,  2087,      2)  /* StrengthSelf7 */
+     , (28630,  1516,      2)  /* BludgeonBane6 */
+     , (28630,  6072,      2)  /* CantripHeavyWeaponsAptitude4 */
      , (28630,  4409,      2)  /* LightningBane8 */
      , (28630,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */
-     , (28630,  6072,      2)  /* CantripSwordAptitude4 */;
+     , (28630,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28630, 67116172, 174, 66)

@@ -26,7 +26,8 @@ VALUES (10975,   1,       2048) /* ItemType - Gem */
      , (10975, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10975,  22, True ) /* Inscribable */;
+VALUES (10975,  22, True ) /* Inscribable */
+     , (10975,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10975, 167,      15) /* CooldownDuration */;
@@ -37,11 +38,11 @@ VALUES (10975,   1, 'Habitat Portal Gem') /* Name */
      , (10975,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10975,   1,   33556769) /* Setup */
-     , (10975,   3,  536870932) /* SoundTable */
-     , (10975,   6,   67111919) /* PaletteBase */
-     , (10975,   8,  100670993) /* Icon */
-     , (10975,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10975,   1, 0x02000921) /* Setup */
+     , (10975,   3, 0x20000014) /* SoundTable */
+     , (10975,   6, 0x04000BEF) /* PaletteBase */
+     , (10975,   8, 0x06001E11) /* Icon */
+     , (10975,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10975,  28,        157) /* Spell - SummonPortal1 */
      , (10975, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (10975, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -49,7 +50,7 @@ VALUES (10975,   1,   33556769) /* Setup */
      , (10975, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10975, 8000, 2979050424) /* PCAPRecordedObjectIID */;
+VALUES (10975, 8000, 0xB190B3B8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10975, 67111922, 0, 0);

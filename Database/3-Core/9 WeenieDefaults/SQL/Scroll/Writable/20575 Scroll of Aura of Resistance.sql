@@ -24,13 +24,13 @@ VALUES (20575,   1, 'Scroll of Aura of Resistance') /* Name */
 Increases the caster''s Magic Defense skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20575,   1,   33554826) /* Setup */
-     , (20575,   8,  100676465) /* Icon */
-     , (20575,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20575,   1, 0x0200018A) /* Setup */
+     , (20575,   8, 0x06003371) /* Icon */
+     , (20575,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20575,  28,       2281) /* Spell - MagicResistanceSelf7 */
      , (20575, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20575, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20575, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20575, 8000, 3697679614) /* PCAPRecordedObjectIID */;
+VALUES (20575, 8000, 0xDC661CFE) /* PCAPRecordedObjectIID */;

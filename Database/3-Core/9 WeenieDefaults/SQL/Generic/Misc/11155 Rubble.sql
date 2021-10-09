@@ -22,11 +22,11 @@ VALUES (11155,   1, 'Rubble') /* Name */
      , (11155,  16, 'A large, heavy piece of rubble, broken off from the menhir in the north of Marae Lassel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11155,   1,   33556735) /* Setup */
-     , (11155,   8,  100670227) /* Icon */
+VALUES (11155,   1, 0x020008FF) /* Setup */
+     , (11155,   8, 0x06001B13) /* Icon */
      , (11155, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (11155, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11155, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11155, 8000, 2192134612) /* PCAPRecordedObjectIID */;
+VALUES (11155, 8000, 0x82A951D4) /* PCAPRecordedObjectIID */;

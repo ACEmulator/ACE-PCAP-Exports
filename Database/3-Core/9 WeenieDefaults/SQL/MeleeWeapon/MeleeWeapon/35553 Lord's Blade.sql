@@ -22,19 +22,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35553,   1, 'Lord''s Blade') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35553,   1,   33559317) /* Setup */
-     , (35553,   3,  536870932) /* SoundTable */
-     , (35553,   6,   67115557) /* PaletteBase */
-     , (35553,   8,  100686944) /* Icon */
-     , (35553,  22,  872415275) /* PhysicsEffectTable */
-     , (35553,  52,  100689403) /* IconUnderlay */
+VALUES (35553,   1, 0x02001315) /* Setup */
+     , (35553,   3, 0x20000014) /* SoundTable */
+     , (35553,   6, 0x04001A25) /* PaletteBase */
+     , (35553,   8, 0x06005C60) /* Icon */
+     , (35553,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35553,  52, 0x060065FB) /* IconUnderlay */
      , (35553, 8001,    2179600) /* PCAPRecordedWeenieHeader - Usable, CombatUse, Container, ValidLocations, Burden */
      , (35553, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (35553, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (35553, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35553, 8000, 3710426040) /* PCAPRecordedObjectIID */;
+VALUES (35553, 8000, 0xDD289BB8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35553, 67116387, 0, 0);

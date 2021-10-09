@@ -35,18 +35,18 @@ VALUES (36444,   1, 'Caramel Kukuur') /* Name */
      , (36444,  16, 'A festival treat. A caramel treat made with love and thaumaturgy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36444,   1,   33560400) /* Setup */
-     , (36444,   3,  536870932) /* SoundTable */
-     , (36444,   6,   67115354) /* PaletteBase */
-     , (36444,   8,  100689667) /* Icon */
-     , (36444,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36444,   1, 0x02001750) /* Setup */
+     , (36444,   3, 0x20000014) /* SoundTable */
+     , (36444,   6, 0x0400195A) /* PaletteBase */
+     , (36444,   8, 0x06006703) /* Icon */
+     , (36444,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36444,  28,       4212) /* Spell - StickyMelee */
      , (36444, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (36444, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36444, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36444, 8000, 2164140494) /* PCAPRecordedObjectIID */;
+VALUES (36444, 8000, 0x80FE29CE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36444, 67116829, 0, 0);

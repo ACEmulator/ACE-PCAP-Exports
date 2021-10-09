@@ -26,21 +26,21 @@ VALUES (31036,   1, 'Ruschk Challenger') /* Name */
      , (31036, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31036,   1,   33559104) /* Setup */
-     , (31036,   2,  150994951) /* MotionTable */
-     , (31036,   3,  536871101) /* SoundTable */
-     , (31036,   6,   67115447) /* PaletteBase */
-     , (31036,   8,  100677373) /* Icon */
+VALUES (31036,   1, 0x02001240) /* Setup */
+     , (31036,   2, 0x09000007) /* MotionTable */
+     , (31036,   3, 0x200000BD) /* SoundTable */
+     , (31036,   6, 0x040019B7) /* PaletteBase */
+     , (31036,   8, 0x060036FD) /* Icon */
      , (31036, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (31036, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (31036, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31036, 8040, 1156710408, 6.20114, 179.558, 275.5632, -0.417352, 0, 0, -0.908745) /* PCAPRecordedLocation */
+VALUES (31036, 8040, 0x44F20008, 6.20114, 179.558, 275.5632, -0.417352, 0, 0, -0.908745) /* PCAPRecordedLocation */
 /* @teleloc 0x44F20008 [6.201140 179.558000 275.563200] -0.417352 0.000000 0.000000 -0.908745 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31036, 8000, 3706640527) /* PCAPRecordedObjectIID */;
+VALUES (31036, 8000, 0xDCEED88F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31036, 67115447, 0, 0);

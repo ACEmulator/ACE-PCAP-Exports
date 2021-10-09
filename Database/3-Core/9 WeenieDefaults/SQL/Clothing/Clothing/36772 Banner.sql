@@ -33,17 +33,17 @@ VALUES (36772,   1, 'Banner') /* Name */
      , (36772,  16, 'A fine banner made from grievver silk.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36772,   1,   33560420) /* Setup */
-     , (36772,   3,  536870932) /* SoundTable */
-     , (36772,   6,   67113849) /* PaletteBase */
-     , (36772,   8,  100672985) /* Icon */
-     , (36772,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36772,   1, 0x02001764) /* Setup */
+     , (36772,   3, 0x20000014) /* SoundTable */
+     , (36772,   6, 0x04001379) /* PaletteBase */
+     , (36772,   8, 0x060025D9) /* Icon */
+     , (36772,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36772, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (36772, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36772, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36772, 8000, 2192312377) /* PCAPRecordedObjectIID */;
+VALUES (36772, 8000, 0x82AC0839) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36772, 67113869, 1, 127)

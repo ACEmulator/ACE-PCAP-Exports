@@ -24,13 +24,13 @@ VALUES (20466,   1, 'Scroll of Caustic Blessing') /* Name */
 Reduces damage the caster takes from acid by 65%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20466,   1,   33554826) /* Setup */
-     , (20466,   8,  100676951) /* Icon */
-     , (20466,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20466,   1, 0x0200018A) /* Setup */
+     , (20466,   8, 0x06003557) /* Icon */
+     , (20466,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20466,  28,       2149) /* Spell - AcidProtectionSelf7 */
      , (20466, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20466, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20466, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20466, 8000, 3691942062) /* PCAPRecordedObjectIID */;
+VALUES (20466, 8000, 0xDC0E90AE) /* PCAPRecordedObjectIID */;

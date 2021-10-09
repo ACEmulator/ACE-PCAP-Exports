@@ -31,22 +31,22 @@ VALUES (35573,   1, 'Sergeant Shanks') /* Name */
      , (35573, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35573,   1,   33556445) /* Setup */
-     , (35573,   2,  150995408) /* MotionTable */
-     , (35573,   3,  536870919) /* SoundTable */
-     , (35573,   6,   67112812) /* PaletteBase */
-     , (35573,   8,  100667445) /* Icon */
-     , (35573,  22,  872415258) /* PhysicsEffectTable */
+VALUES (35573,   1, 0x020007DD) /* Setup */
+     , (35573,   2, 0x090001D0) /* MotionTable */
+     , (35573,   3, 0x20000007) /* SoundTable */
+     , (35573,   6, 0x04000F6C) /* PaletteBase */
+     , (35573,   8, 0x06001035) /* Icon */
+     , (35573,  22, 0x3400001A) /* PhysicsEffectTable */
      , (35573, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (35573, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (35573, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35573, 8040, 3097428025, 183.6196, 14.07682, 84.0042, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (35573, 8040, 0xB89F0039, 183.6196, 14.07682, 84.0042, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xB89F0039 [183.619600 14.076820 84.004200] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35573, 8000, 3694317494) /* PCAPRecordedObjectIID */;
+VALUES (35573, 8000, 0xDC32CFB6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35573,   1, 350, 0, 0) /* Strength */

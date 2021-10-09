@@ -11,6 +11,7 @@ VALUES (28058,   1,      32768) /* ItemType - Caster */
      , (28058,  18,          1) /* UiEffects - Magical */
      , (28058,  19,      10150) /* Value */
      , (28058,  33,          1) /* Bonded - Bonded */
+     , (28058,  46,        512) /* DefaultCombatStyle - Magic */
      , (28058,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (28058,  94,         16) /* TargetType - Creature */
      , (28058, 106,        300) /* ItemSpellcraft */
@@ -24,6 +25,7 @@ VALUES (28058,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28058,  22, True ) /* Inscribable */
+     , (28058,  23, True ) /* DestroyOnSell */
      , (28058,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -38,11 +40,11 @@ VALUES (28058,   1, 'Staff of Aerfalle') /* Name */
      , (28058,  16, 'A staff made from the petrified wood of Aerlinthe, taken from the Dark Magus of that island. This artifact is several centuries old.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28058,   1,   33556630) /* Setup */
-     , (28058,   3,  536870932) /* SoundTable */
-     , (28058,   6,   67111919) /* PaletteBase */
-     , (28058,   8,  100670752) /* Icon */
-     , (28058,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28058,   1, 0x02000896) /* Setup */
+     , (28058,   3, 0x20000014) /* SoundTable */
+     , (28058,   6, 0x04000BEF) /* PaletteBase */
+     , (28058,   8, 0x06001D20) /* Icon */
+     , (28058,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28058,  28,        130) /* Spell - AcidVolley6 */
      , (28058,  37,         34) /* ItemSkillLimit - WarMagic */
      , (28058, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
@@ -50,12 +52,12 @@ VALUES (28058,   1,   33556630) /* Setup */
      , (28058, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28058, 8000, 3676802363) /* PCAPRecordedObjectIID */;
+VALUES (28058, 8000, 0xDB278D3B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28058,   616,      2)  /* LifeMagicMasteryOther6 */
-     , (28058,   640,      2)  /* WarMagicMasteryOther6 */
-     , (28058,   909,      2)  /* LeadershipMasteryOther6 */;
+VALUES (28058,   640,      2)  /* WarMagicMasteryOther6 */
+     , (28058,   909,      2)  /* LeadershipMasteryOther6 */
+     , (28058,   616,      2)  /* LifeMagicMasteryOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28058, 67111920, 0, 0);

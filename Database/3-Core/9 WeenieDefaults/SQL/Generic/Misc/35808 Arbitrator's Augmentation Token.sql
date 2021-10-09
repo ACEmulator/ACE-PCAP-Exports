@@ -14,20 +14,21 @@ VALUES (35808,   1,        128) /* ItemType - Misc */
      , (35808, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35808,  22, True ) /* Inscribable */;
+VALUES (35808,  22, True ) /* Inscribable */
+     , (35808,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35808,   1, 'Arbitrator''s Augmentation Token') /* Name */
      , (35808,  16, 'This Arbitrator''s Augmentation Token can be turned in to the Master Arbitrator for experience, or it can be turned in to Fiun Rehlyun at the Fiun settlement for a Blank Augmentation Gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35808,   1,   33554817) /* Setup */
-     , (35808,   3,  536870932) /* SoundTable */
-     , (35808,   8,  100689380) /* Icon */
-     , (35808,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35808,   1, 0x02000181) /* Setup */
+     , (35808,   3, 0x20000014) /* SoundTable */
+     , (35808,   8, 0x060065E4) /* Icon */
+     , (35808,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35808, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (35808, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35808, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35808, 8000, 2931226646) /* PCAPRecordedObjectIID */;
+VALUES (35808, 8000, 0xAEB6F816) /* PCAPRecordedObjectIID */;

@@ -31,27 +31,27 @@ VALUES (15811,   1, 'Lia Tze') /* Name */
      , (15811, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15811,   1,   33554510) /* Setup */
-     , (15811,   2,  150994945) /* MotionTable */
-     , (15811,   3,  536870914) /* SoundTable */
-     , (15811,   6,   67108990) /* PaletteBase */
-     , (15811,   8,  100667446) /* Icon */
-     , (15811,   9,   83890235) /* EyesTexture */
-     , (15811,  10,   83890295) /* NoseTexture */
-     , (15811,  11,   83890353) /* MouthTexture */
-     , (15811,  15,   67116998) /* HairPalette */
-     , (15811,  16,   67110062) /* EyesPalette */
-     , (15811,  17,   67110056) /* SkinPalette */
+VALUES (15811,   1, 0x0200004E) /* Setup */
+     , (15811,   2, 0x09000001) /* MotionTable */
+     , (15811,   3, 0x20000002) /* SoundTable */
+     , (15811,   6, 0x0400007E) /* PaletteBase */
+     , (15811,   8, 0x06001036) /* Icon */
+     , (15811,   9, 0x0500103B) /* EyesTexture */
+     , (15811,  10, 0x05001077) /* NoseTexture */
+     , (15811,  11, 0x050010B1) /* MouthTexture */
+     , (15811,  15, 0x04001FC6) /* HairPalette */
+     , (15811,  16, 0x040004AE) /* EyesPalette */
+     , (15811,  17, 0x040004A8) /* SkinPalette */
      , (15811, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (15811, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (15811, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15811, 8040, 3443589413, 89.7945, 134.528, 62.405, -0.272557, 0, 0, -0.96214) /* PCAPRecordedLocation */
+VALUES (15811, 8040, 0xCD410125, 89.7945, 134.528, 62.405, -0.272557, 0, 0, -0.96214) /* PCAPRecordedLocation */
 /* @teleloc 0xCD410125 [89.794500 134.528000 62.405000] -0.272557 0.000000 0.000000 -0.962140 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15811, 8000, 3685097584) /* PCAPRecordedObjectIID */;
+VALUES (15811, 8000, 0xDBA62070) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (15811,   1,  85, 0, 0) /* Strength */

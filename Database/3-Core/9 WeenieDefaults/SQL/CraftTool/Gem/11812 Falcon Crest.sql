@@ -29,13 +29,13 @@ VALUES (11812,   1, 'Falcon Crest') /* Name */
      , (11812,  16, 'A Falcon Crest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11812,   1,   33557280) /* Setup */
-     , (11812,   3,  536870932) /* SoundTable */
-     , (11812,   8,  100671942) /* Icon */
-     , (11812,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11812,   1, 0x02000B20) /* Setup */
+     , (11812,   3, 0x20000014) /* SoundTable */
+     , (11812,   8, 0x060021C6) /* Icon */
+     , (11812,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11812, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11812, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11812, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11812, 8000, 2165995110) /* PCAPRecordedObjectIID */;
+VALUES (11812, 8000, 0x811A7666) /* PCAPRecordedObjectIID */;

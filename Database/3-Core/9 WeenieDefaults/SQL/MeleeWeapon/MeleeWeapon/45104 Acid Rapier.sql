@@ -48,17 +48,17 @@ VALUES (45104,   1, 'Acid Rapier') /* Name */
      , (45104,  16, 'Acid Rapier') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45104,   1,   33561416) /* Setup */
-     , (45104,   3,  536870932) /* SoundTable */
-     , (45104,   6,   67111919) /* PaletteBase */
-     , (45104,   8,  100670656) /* Icon */
-     , (45104,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45104,   1, 0x02001B48) /* Setup */
+     , (45104,   3, 0x20000014) /* SoundTable */
+     , (45104,   6, 0x04000BEF) /* PaletteBase */
+     , (45104,   8, 0x06001CC0) /* Icon */
+     , (45104,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45104, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45104, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45104, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45104, 8000, 3355063929) /* PCAPRecordedObjectIID */;
+VALUES (45104, 8000, 0xC7FA3679) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45104, 67111919, 0, 0);

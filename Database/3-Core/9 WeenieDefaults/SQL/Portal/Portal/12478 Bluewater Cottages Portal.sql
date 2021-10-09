@@ -22,16 +22,16 @@ VALUES (12478,   1, 'Bluewater Cottages Portal') /* Name */
      , (12478, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12478,   1,   33554867) /* Setup */
-     , (12478,   2,  150994947) /* MotionTable */
-     , (12478,   8,  100667499) /* Icon */
+VALUES (12478,   1, 0x020001B3) /* Setup */
+     , (12478,   2, 0x09000003) /* MotionTable */
+     , (12478,   8, 0x0600106B) /* Icon */
      , (12478, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12478, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12478, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12478, 8040, 3863674893, 43.3591, 116.125, 31.937, -0.9291193, 0, 0, 0.3697801) /* PCAPRecordedLocation */
+VALUES (12478, 8040, 0xE64B000D, 43.3591, 116.125, 31.937, -0.929119, 0, 0, 0.36978) /* PCAPRecordedLocation */
 /* @teleloc 0xE64B000D [43.359100 116.125000 31.937000] -0.929119 0.000000 0.000000 0.369780 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12478, 8000, 2120527872) /* PCAPRecordedObjectIID */;
+VALUES (12478, 8000, 0x7E64B000) /* PCAPRecordedObjectIID */;

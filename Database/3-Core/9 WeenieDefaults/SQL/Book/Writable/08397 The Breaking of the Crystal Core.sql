@@ -18,18 +18,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8397,   1, 'The Breaking of the Crystal Core') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8397,   1,   33559084) /* Setup */
-     , (8397,   3,  536870932) /* SoundTable */
-     , (8397,   6,   67112626) /* PaletteBase */
-     , (8397,   8,  100668117) /* Icon */
-     , (8397,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8397,   1, 0x0200122C) /* Setup */
+     , (8397,   3, 0x20000014) /* SoundTable */
+     , (8397,   6, 0x04000EB2) /* PaletteBase */
+     , (8397,   8, 0x060012D5) /* Icon */
+     , (8397,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8397, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (8397, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (8397, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (8397, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8397, 8000,       8397) /* PCAPRecordedObjectIID */;
+VALUES (8397, 8000, 0x000020CD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8397, 67113862, 0, 0);

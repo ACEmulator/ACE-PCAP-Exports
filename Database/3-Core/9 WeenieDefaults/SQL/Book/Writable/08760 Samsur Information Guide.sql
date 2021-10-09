@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8760,   1, 'Samsur Information Guide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8760,   1,   33554771) /* Setup */
-     , (8760,   3,  536870932) /* SoundTable */
-     , (8760,   8,  100668117) /* Icon */
-     , (8760,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8760,   1, 0x02000153) /* Setup */
+     , (8760,   3, 0x20000014) /* SoundTable */
+     , (8760,   8, 0x060012D5) /* Icon */
+     , (8760,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8760, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (8760, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (8760, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8760, 8000, 3319016839) /* PCAPRecordedObjectIID */;
+VALUES (8760, 8000, 0xC5D42D87) /* PCAPRecordedObjectIID */;

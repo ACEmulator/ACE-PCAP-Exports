@@ -22,16 +22,16 @@ VALUES (15180,   1, 'Northfire Estates Portal') /* Name */
      , (15180, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15180,   1,   33554867) /* Setup */
-     , (15180,   2,  150994947) /* MotionTable */
-     , (15180,   8,  100667499) /* Icon */
+VALUES (15180,   1, 0x020001B3) /* Setup */
+     , (15180,   2, 0x09000003) /* MotionTable */
+     , (15180,   8, 0x0600106B) /* Icon */
      , (15180, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (15180, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (15180, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15180, 8040, 1725300749, 40.995, 116.383, 75.12359, 0.9907861, 0, 0, -0.135436) /* PCAPRecordedLocation */
+VALUES (15180, 8040, 0x66D6000D, 40.995, 116.383, 75.12359, 0.990786, 0, 0, -0.135436) /* PCAPRecordedLocation */
 /* @teleloc 0x66D6000D [40.995000 116.383000 75.123590] 0.990786 0.000000 0.000000 -0.135436 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15180, 8000, 1986879505) /* PCAPRecordedObjectIID */;
+VALUES (15180, 8000, 0x766D6011) /* PCAPRecordedObjectIID */;

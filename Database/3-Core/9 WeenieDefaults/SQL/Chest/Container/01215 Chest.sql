@@ -30,21 +30,21 @@ VALUES (1215,   1, 'Chest') /* Name */
      , (1215, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1215,   1,   33554556) /* Setup */
-     , (1215,   2,  150994948) /* MotionTable */
-     , (1215,   3,  536870945) /* SoundTable */
-     , (1215,   8,  100667424) /* Icon */
-     , (1215,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1215,   1, 0x0200007C) /* Setup */
+     , (1215,   2, 0x09000004) /* MotionTable */
+     , (1215,   3, 0x20000021) /* SoundTable */
+     , (1215,   8, 0x06001020) /* Icon */
+     , (1215,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1215, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (1215, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1215, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1215, 8040, 2796486912, 152.54, 57.756, 48, -0.02205719, 0, 0, -0.9997567) /* PCAPRecordedLocation */
+VALUES (1215, 8040, 0xA6AF0100, 152.54, 57.756, 48, -0.022057, 0, 0, -0.999757) /* PCAPRecordedLocation */
 /* @teleloc 0xA6AF0100 [152.540000 57.756000 48.000000] -0.022057 0.000000 0.000000 -0.999757 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1215, 8000, 2053828610) /* PCAPRecordedObjectIID */;
+VALUES (1215, 8000, 0x7A6AF002) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1215, -1, 45322, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Shield Mastery Other VII (45322) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

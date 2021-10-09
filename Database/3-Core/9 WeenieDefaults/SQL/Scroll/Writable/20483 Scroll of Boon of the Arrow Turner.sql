@@ -24,13 +24,13 @@ VALUES (20483,   1, 'Scroll of Boon of the Arrow Turner') /* Name */
 Reduces damage the target takes from Piercing by 65%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20483,   1,   33554826) /* Setup */
-     , (20483,   8,  100676953) /* Icon */
-     , (20483,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20483,   1, 0x0200018A) /* Setup */
+     , (20483,   8, 0x06003559) /* Icon */
+     , (20483,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20483,  28,       2160) /* Spell - PiercingProtectionOther7 */
      , (20483, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20483, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20483, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20483, 8000, 3699121775) /* PCAPRecordedObjectIID */;
+VALUES (20483, 8000, 0xDC7C1E6F) /* PCAPRecordedObjectIID */;

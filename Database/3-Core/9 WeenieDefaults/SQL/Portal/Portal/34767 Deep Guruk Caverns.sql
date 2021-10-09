@@ -21,16 +21,16 @@ VALUES (34767,   1, 'Deep Guruk Caverns') /* Name */
      , (34767, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34767,   1,   33560216) /* Setup */
-     , (34767,   2,  150995314) /* MotionTable */
-     , (34767,   8,  100667499) /* Icon */
+VALUES (34767,   1, 0x02001698) /* Setup */
+     , (34767,   2, 0x09000172) /* MotionTable */
+     , (34767,   8, 0x0600106B) /* Icon */
      , (34767, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (34767, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (34767, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34767, 8040, 13893979, 120, -124.732, -30.20983, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (34767, 8040, 0x00D4015B, 120, -124.732, -30.20983, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00D4015B [120.000000 -124.732000 -30.209830] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34767, 8000, 1879916547) /* PCAPRecordedObjectIID */;
+VALUES (34767, 8000, 0x700D4003) /* PCAPRecordedObjectIID */;

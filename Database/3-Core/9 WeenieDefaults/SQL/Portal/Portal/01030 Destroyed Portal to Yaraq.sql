@@ -22,16 +22,16 @@ VALUES (1030,   1, 'Destroyed Portal to Yaraq') /* Name */
      , (1030, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1030,   1,   33561060) /* Setup */
-     , (1030,   2,  150995314) /* MotionTable */
-     , (1030,   8,  100667499) /* Icon */
+VALUES (1030,   1, 0x020019E4) /* Setup */
+     , (1030,   2, 0x09000172) /* MotionTable */
+     , (1030,   8, 0x0600106B) /* Icon */
      , (1030, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (1030, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1030, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1030, 8040, 869859367, 116.924, 155.406, 51.79017, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (1030, 8040, 0x33D90027, 116.924, 155.406, 51.79017, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x33D90027 [116.924000 155.406000 51.790170] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1030, 8000, 1933414447) /* PCAPRecordedObjectIID */;
+VALUES (1030, 8000, 0x733D902F) /* PCAPRecordedObjectIID */;

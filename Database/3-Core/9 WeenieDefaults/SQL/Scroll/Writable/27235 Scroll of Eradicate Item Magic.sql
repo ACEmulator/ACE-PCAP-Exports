@@ -24,13 +24,13 @@ VALUES (27235,   1, 'Scroll of Eradicate Item Magic') /* Name */
 Dispels 3-6 negative Item Magic enchantments of level 7 or lower from the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27235,   1,   33554826) /* Setup */
-     , (27235,   8,  100676659) /* Icon */
-     , (27235,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27235,   1, 0x0200018A) /* Setup */
+     , (27235,   8, 0x06003433) /* Icon */
+     , (27235,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27235,  28,       3190) /* Spell - DispelItemBadOther7 */
      , (27235, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (27235, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27235, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27235, 8000, 3705344041) /* PCAPRecordedObjectIID */;
+VALUES (27235, 8000, 0xDCDB1029) /* PCAPRecordedObjectIID */;

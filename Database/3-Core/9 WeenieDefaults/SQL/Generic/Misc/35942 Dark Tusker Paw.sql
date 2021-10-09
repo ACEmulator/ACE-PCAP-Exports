@@ -14,6 +14,7 @@ VALUES (35942,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35942,  22, True ) /* Inscribable */
+     , (35942,  23, True ) /* DestroyOnSell */
      , (35942,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -21,13 +22,13 @@ VALUES (35942,   1, 'Dark Tusker Paw') /* Name */
      , (35942,  16, 'A dark parody of the fabled tusker paw, it is rumored that this tusker paw, like the fabled tusker paw it is made in mockery of, has the ability to grant wishes to the person who possesses the item. But the paw will be used up in the process.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35942,   1,   33560343) /* Setup */
-     , (35942,   3,  536870932) /* SoundTable */
-     , (35942,   8,  100689565) /* Icon */
-     , (35942,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35942,   1, 0x02001717) /* Setup */
+     , (35942,   3, 0x20000014) /* SoundTable */
+     , (35942,   8, 0x0600669D) /* Icon */
+     , (35942,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35942, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (35942, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35942, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35942, 8000, 3699787602) /* PCAPRecordedObjectIID */;
+VALUES (35942, 8000, 0xDC864752) /* PCAPRecordedObjectIID */;

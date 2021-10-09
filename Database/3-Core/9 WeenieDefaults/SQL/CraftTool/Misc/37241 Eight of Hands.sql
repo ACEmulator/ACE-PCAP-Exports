@@ -20,13 +20,13 @@ VALUES (37241,   1, 'Eight of Hands') /* Name */
      , (37241,  20, 'Eights of Hands') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37241,   1,   33560548) /* Setup */
-     , (37241,   3,  536870932) /* SoundTable */
-     , (37241,   8,  100689856) /* Icon */
-     , (37241,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37241,   1, 0x020017E4) /* Setup */
+     , (37241,   3, 0x20000014) /* SoundTable */
+     , (37241,   8, 0x060067C0) /* Icon */
+     , (37241,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37241, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (37241, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37241, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37241, 8000, 3144198304) /* PCAPRecordedObjectIID */;
+VALUES (37241, 8000, 0xBB68A8A0) /* PCAPRecordedObjectIID */;

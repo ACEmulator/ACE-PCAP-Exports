@@ -22,16 +22,16 @@ VALUES (13107,   1, 'Greenvale Settlement Portal') /* Name */
      , (13107, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13107,   1,   33554867) /* Setup */
-     , (13107,   2,  150994947) /* MotionTable */
-     , (13107,   8,  100667499) /* Icon */
+VALUES (13107,   1, 0x020001B3) /* Setup */
+     , (13107,   2, 0x09000003) /* MotionTable */
+     , (13107,   8, 0x0600106B) /* Icon */
      , (13107, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (13107, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (13107, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13107, 8040, 2446458893, 44.6649, 100.694, 335.2783, -0.9559146, 0, 0, 0.2936449) /* PCAPRecordedLocation */
+VALUES (13107, 8040, 0x91D2000D, 44.6649, 100.694, 335.2783, -0.955915, 0, 0, 0.293645) /* PCAPRecordedLocation */
 /* @teleloc 0x91D2000D [44.664900 100.694000 335.278300] -0.955915 0.000000 0.000000 0.293645 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13107, 8000, 2031951881) /* PCAPRecordedObjectIID */;
+VALUES (13107, 8000, 0x791D2009) /* PCAPRecordedObjectIID */;

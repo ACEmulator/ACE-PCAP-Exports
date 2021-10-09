@@ -22,17 +22,17 @@ VALUES (53453,   1, 'Corrupted Amber: Weapon of the Corrupted Soul.') /* Name */
      , (53453,  20, 'Corrupted Ambers: Weapon of the Corrupted Soul.') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53453,   1,   33554809) /* Setup */
-     , (53453,   3,  536870932) /* SoundTable */
-     , (53453,   6,   67111919) /* PaletteBase */
-     , (53453,   8,  100693326) /* Icon */
-     , (53453,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53453,   1, 0x02000179) /* Setup */
+     , (53453,   3, 0x20000014) /* SoundTable */
+     , (53453,   6, 0x04000BEF) /* PaletteBase */
+     , (53453,   8, 0x0600754E) /* Icon */
+     , (53453,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53453, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (53453, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (53453, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53453, 8000, 3036714388) /* PCAPRecordedObjectIID */;
+VALUES (53453, 8000, 0xB5009594) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53453, 67111921, 0, 0);

@@ -48,29 +48,25 @@ VALUES (40705,   1, 'Covenant Sollerets') /* Name */
      , (40705,  16, 'Covenant Sollerets of Curing') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40705,   1,   33554654) /* Setup */
-     , (40705,   3,  536870932) /* SoundTable */
-     , (40705,   6,   67108990) /* PaletteBase */
-     , (40705,   8,  100673457) /* Icon */
-     , (40705,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40705,   1, 0x020000DE) /* Setup */
+     , (40705,   3, 0x20000014) /* SoundTable */
+     , (40705,   6, 0x0400007E) /* PaletteBase */
+     , (40705,   8, 0x060027B1) /* Icon */
+     , (40705,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40705,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (40705, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40705, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40705, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40705, 8000, 3690421029) /* PCAPRecordedObjectIID */;
+VALUES (40705, 8000, 0xDBF75B25) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40705,   879,      2)  /* HealingMasterySelf6 */
-     , (40705,  1486,      2)  /* Impenetrability6 */
+VALUES (40705,  1486,      2)  /* Impenetrability6 */
      , (40705,  1574,      2)  /* PiercingBane6 */
+     , (40705,   879,      2)  /* HealingMasterySelf6 */
      , (40705,  2098,      2)  /* BludgeonBane7 */
      , (40705,  2102,      2)  /* FlameBane7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40705, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (40705, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40705, 67113967, 160, 8);

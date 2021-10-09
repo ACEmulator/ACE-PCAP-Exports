@@ -10,7 +10,7 @@ VALUES (36381,   1,        256) /* ItemType - MissileWeapon */
      , (36381,  16,          1) /* ItemUseable - No */
      , (36381,  18,          1) /* UiEffects - Magical */
      , (36381,  50,          1) /* AmmoType - Arrow */
-     , (36381,  51,          2) /* CombatUse - Missle */
+     , (36381,  51,          2) /* CombatUse - Missile */
      , (36381,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (36381, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
@@ -21,19 +21,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36381,   1, 'Chimeric Bow of the Quiddity') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36381,   1,   33558919) /* Setup */
-     , (36381,   3,  536870932) /* SoundTable */
-     , (36381,   6,   67111919) /* PaletteBase */
-     , (36381,   8,  100677060) /* Icon */
-     , (36381,  22,  872415275) /* PhysicsEffectTable */
-     , (36381,  52,  100689403) /* IconUnderlay */
+VALUES (36381,   1, 0x02001187) /* Setup */
+     , (36381,   3, 0x20000014) /* SoundTable */
+     , (36381,   6, 0x04000BEF) /* PaletteBase */
+     , (36381,   8, 0x060035C4) /* Icon */
+     , (36381,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36381,  52, 0x060065FB) /* IconUnderlay */
      , (36381, 8001,    2179984) /* PCAPRecordedWeenieHeader - Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden */
      , (36381, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (36381, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (36381, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36381, 8000, 2629236484) /* PCAPRecordedObjectIID */;
+VALUES (36381, 8000, 0x9CB6F704) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36381, 67111922, 0, 0);

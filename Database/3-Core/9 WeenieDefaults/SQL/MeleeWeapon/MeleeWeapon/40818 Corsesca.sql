@@ -43,17 +43,17 @@ VALUES (40818,   1, 'Corsesca') /* Name */
      , (40818,  16, 'Corsesca') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40818,   1,   33560788) /* Setup */
-     , (40818,   3,  536870932) /* SoundTable */
-     , (40818,   6,   67115560) /* PaletteBase */
-     , (40818,   8,  100690796) /* Icon */
-     , (40818,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40818,   1, 0x020018D4) /* Setup */
+     , (40818,   3, 0x20000014) /* SoundTable */
+     , (40818,   6, 0x04001A28) /* PaletteBase */
+     , (40818,   8, 0x06006B6C) /* Icon */
+     , (40818,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40818, 8001, 2434875928) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40818, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40818, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40818, 8000, 3696013398) /* PCAPRecordedObjectIID */;
+VALUES (40818, 8000, 0xDC4CB056) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40818, 67116416, 0, 0);

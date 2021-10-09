@@ -29,17 +29,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15443,   1, 'Deadly Lightning Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15443,   1,   33555695) /* Setup */
-     , (15443,   3,  536870932) /* SoundTable */
-     , (15443,   6,   67111919) /* PaletteBase */
-     , (15443,   8,  100672656) /* Icon */
-     , (15443,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15443,   1, 0x020004EF) /* Setup */
+     , (15443,   3, 0x20000014) /* SoundTable */
+     , (15443,   6, 0x04000BEF) /* PaletteBase */
+     , (15443,   8, 0x06002490) /* Icon */
+     , (15443,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15443, 8001,  270627736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (15443, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15443, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15443, 8000, 2622707438) /* PCAPRecordedObjectIID */;
+VALUES (15443, 8000, 0x9C5356EE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15443, 67111923, 0, 0);

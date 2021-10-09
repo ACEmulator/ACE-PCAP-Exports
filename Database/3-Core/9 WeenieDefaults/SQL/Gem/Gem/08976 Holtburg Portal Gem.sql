@@ -30,11 +30,11 @@ VALUES (8976,   1, 'Holtburg Portal Gem') /* Name */
      , (8976,  16, 'Use this gem to summon a short-lived portal to Holtburg. This gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8976,   1,   33556769) /* Setup */
-     , (8976,   3,  536870932) /* SoundTable */
-     , (8976,   6,   67111919) /* PaletteBase */
-     , (8976,   8,  100674857) /* Icon */
-     , (8976,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8976,   1, 0x02000921) /* Setup */
+     , (8976,   3, 0x20000014) /* SoundTable */
+     , (8976,   6, 0x04000BEF) /* PaletteBase */
+     , (8976,   8, 0x06002D29) /* Icon */
+     , (8976,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8976,  28,        157) /* Spell - SummonPortal1 */
      , (8976, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (8976, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -42,7 +42,7 @@ VALUES (8976,   1,   33556769) /* Setup */
      , (8976, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8976, 8000, 2291062025) /* PCAPRecordedObjectIID */;
+VALUES (8976, 8000, 0x888ED509) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8976, 67111922, 0, 0);

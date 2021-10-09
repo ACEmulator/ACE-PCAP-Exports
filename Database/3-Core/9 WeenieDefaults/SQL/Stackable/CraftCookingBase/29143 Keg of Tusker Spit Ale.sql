@@ -21,14 +21,14 @@ VALUES (29143,   1, 'Keg of Tusker Spit Ale') /* Name */
      , (29143,  20, 'Kegs of Tusker Spit Ale') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29143,   1,   33559152) /* Setup */
-     , (29143,   3,  536870932) /* SoundTable */
-     , (29143,   8,  100686451) /* Icon */
-     , (29143,  22,  872415275) /* PhysicsEffectTable */
-     , (29143,  50,  100687554) /* IconOverlay */
+VALUES (29143,   1, 0x02001270) /* Setup */
+     , (29143,   3, 0x20000014) /* SoundTable */
+     , (29143,   8, 0x06005A73) /* Icon */
+     , (29143,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29143,  50, 0x06005EC2) /* IconOverlay */
      , (29143, 8001, 1344303129) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType, IconOverlay */
      , (29143, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29143, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29143, 8000, 3696480694) /* PCAPRecordedObjectIID */;
+VALUES (29143, 8000, 0xDC53D1B6) /* PCAPRecordedObjectIID */;

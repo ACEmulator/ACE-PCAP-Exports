@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (240,   1, 'Candelabra') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (240,   1,   33557389) /* Setup */
-     , (240,   3,  536870932) /* SoundTable */
-     , (240,   8,  100668113) /* Icon */
-     , (240,  22,  872415275) /* PhysicsEffectTable */
+VALUES (240,   1, 0x02000B8D) /* Setup */
+     , (240,   3, 0x20000014) /* SoundTable */
+     , (240,   8, 0x060012D1) /* Icon */
+     , (240,  22, 0x3400002B) /* PhysicsEffectTable */
      , (240, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (240, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (240, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (240, 8000, 3658163590) /* PCAPRecordedObjectIID */;
+VALUES (240, 8000, 0xDA0B2586) /* PCAPRecordedObjectIID */;

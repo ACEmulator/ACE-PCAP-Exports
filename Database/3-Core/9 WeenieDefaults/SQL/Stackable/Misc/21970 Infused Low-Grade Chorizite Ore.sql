@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21970,   1, 'Infused Low-Grade Chorizite Ore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21970,   1,   33555677) /* Setup */
-     , (21970,   3,  536870932) /* SoundTable */
-     , (21970,   8,  100673575) /* Icon */
-     , (21970,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21970,   1, 0x020004DD) /* Setup */
+     , (21970,   3, 0x20000014) /* SoundTable */
+     , (21970,   8, 0x06002827) /* Icon */
+     , (21970,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21970, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (21970, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21970, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21970, 8000, 3629469826) /* PCAPRecordedObjectIID */;
+VALUES (21970, 8000, 0xD8555082) /* PCAPRecordedObjectIID */;

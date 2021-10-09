@@ -51,22 +51,22 @@ VALUES (29924,   1, 'Regal War Maul') /* Name */
      , (29924,  25, 'Jesse the Destroyer') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29924,   1,   33559057) /* Setup */
-     , (29924,   3,  536870932) /* SoundTable */
-     , (29924,   8,  100676975) /* Icon */
-     , (29924,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29924,   1, 0x02001211) /* Setup */
+     , (29924,   3, 0x20000014) /* SoundTable */
+     , (29924,   8, 0x0600356F) /* Icon */
+     , (29924,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29924,  30,         88) /* PhysicsScript - Create */
      , (29924, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (29924, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29924, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29924, 8000, 2147603587) /* PCAPRecordedObjectIID */;
+VALUES (29924, 8000, 0x8001D483) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29924,   243,      2)  /* InvulnerabilityOther5 */
+VALUES (29924,  1604,      2)  /* DefenderSelf5 */
      , (29924,  1359,      2)  /* EnduranceOther5 */
-     , (29924,  1591,      2)  /* HeartSeekerSelf5 */
-     , (29924,  1604,      2)  /* DefenderSelf5 */
      , (29924,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (29924,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (29924,  1625,      2)  /* SwiftKillerSelf4 */
+     , (29924,   243,      2)  /* InvulnerabilityOther5 */
+     , (29924,  1591,      2)  /* HeartSeekerSelf5 */;

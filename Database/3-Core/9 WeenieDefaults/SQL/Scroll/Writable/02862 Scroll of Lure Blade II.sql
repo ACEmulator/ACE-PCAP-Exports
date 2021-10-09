@@ -24,13 +24,13 @@ VALUES (2862,   1, 'Scroll of Lure Blade II') /* Name */
 Decreases the Melee Defense skill modifier of a weapon or magic caster by 5%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2862,   1,   33554826) /* Setup */
-     , (2862,   8,  100676670) /* Icon */
-     , (2862,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2862,   1, 0x0200018A) /* Setup */
+     , (2862,   8, 0x0600343E) /* Icon */
+     , (2862,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2862,  28,       1607) /* Spell - LureBlade2 */
      , (2862, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2862, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2862, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2862, 8000, 2868766494) /* PCAPRecordedObjectIID */;
+VALUES (2862, 8000, 0xAAFDE71E) /* PCAPRecordedObjectIID */;

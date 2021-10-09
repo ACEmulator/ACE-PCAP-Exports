@@ -27,21 +27,21 @@ VALUES (1920,   1, 'Chest') /* Name */
      , (1920, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1920,   1,   33554556) /* Setup */
-     , (1920,   2,  150994948) /* MotionTable */
-     , (1920,   3,  536870945) /* SoundTable */
-     , (1920,   8,  100667424) /* Icon */
-     , (1920,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1920,   1, 0x0200007C) /* Setup */
+     , (1920,   2, 0x09000004) /* MotionTable */
+     , (1920,   3, 0x20000021) /* SoundTable */
+     , (1920,   8, 0x06001020) /* Icon */
+     , (1920,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1920, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (1920, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (1920, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1920, 8040, 30277951, 70, -102, -18, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (1920, 8040, 0x01CE013F, 70, -102, -18, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01CE013F [70.000000 -102.000000 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1920, 8000, 1880940571) /* PCAPRecordedObjectIID */;
+VALUES (1920, 8000, 0x701CE01B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1920, -1, 3750, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Acid Battle Axe (3750) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

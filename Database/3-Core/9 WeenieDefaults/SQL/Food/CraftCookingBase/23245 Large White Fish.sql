@@ -27,17 +27,17 @@ VALUES (23245,   1, 'Large White Fish') /* Name */
      , (23245,  20, 'Large White Fish') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23245,   1,   33554674) /* Setup */
-     , (23245,   3,  536870932) /* SoundTable */
-     , (23245,   6,   67114188) /* PaletteBase */
-     , (23245,   8,  100674169) /* Icon */
-     , (23245,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23245,   1, 0x020000F2) /* Setup */
+     , (23245,   3, 0x20000014) /* SoundTable */
+     , (23245,   6, 0x040014CC) /* PaletteBase */
+     , (23245,   8, 0x06002A79) /* Icon */
+     , (23245,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23245, 8001,  270561297) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (23245, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (23245, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23245, 8000, 2248079871) /* PCAPRecordedObjectIID */;
+VALUES (23245, 8000, 0x85FEF9FF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23245, 67114199, 7, 125);

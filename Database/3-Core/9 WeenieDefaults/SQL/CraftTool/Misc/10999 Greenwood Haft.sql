@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10999,   1, 'Greenwood Haft') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10999,   1,   33557228) /* Setup */
-     , (10999,   3,  536870932) /* SoundTable */
-     , (10999,   8,  100671862) /* Icon */
-     , (10999,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10999,   1, 0x02000AEC) /* Setup */
+     , (10999,   3, 0x20000014) /* SoundTable */
+     , (10999,   8, 0x06002176) /* Icon */
+     , (10999,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10999, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (10999, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10999, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10999, 8000, 3029924851) /* PCAPRecordedObjectIID */;
+VALUES (10999, 8000, 0xB498FBF3) /* PCAPRecordedObjectIID */;

@@ -14,13 +14,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34464,   1, 'Imbued Pyreal Mote') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34464,   1,   33556406) /* Setup */
-     , (34464,   3,  536870932) /* SoundTable */
-     , (34464,   8,  100689304) /* Icon */
-     , (34464,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34464,   1, 0x020007B6) /* Setup */
+     , (34464,   3, 0x20000014) /* SoundTable */
+     , (34464,   8, 0x06006598) /* Icon */
+     , (34464,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34464, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (34464, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34464, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34464, 8000, 2153688187) /* PCAPRecordedObjectIID */;
+VALUES (34464, 8000, 0x805EAC7B) /* PCAPRecordedObjectIID */;

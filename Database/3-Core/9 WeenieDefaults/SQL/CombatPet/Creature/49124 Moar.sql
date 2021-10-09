@@ -26,12 +26,12 @@ VALUES (49124,   1, 'Moar') /* Name */
      , (49124, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49124,   1,   33561528) /* Setup */
-     , (49124,   2,  150995346) /* MotionTable */
-     , (49124,   3,  536871018) /* SoundTable */
-     , (49124,   6,   67116748) /* PaletteBase */
-     , (49124,   8,  100671185) /* Icon */
-     , (49124,  22,  872415415) /* PhysicsEffectTable */
+VALUES (49124,   1, 0x02001BB8) /* Setup */
+     , (49124,   2, 0x09000192) /* MotionTable */
+     , (49124,   3, 0x2000006A) /* SoundTable */
+     , (49124,   6, 0x04001ECC) /* PaletteBase */
+     , (49124,   8, 0x06001ED1) /* Icon */
+     , (49124,  22, 0x340000B7) /* PhysicsEffectTable */
      , (49124,  30,         84) /* PhysicsScript - BreatheFlame */
      , (49124, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49124, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
@@ -39,11 +39,11 @@ VALUES (49124,   1,   33561528) /* Setup */
      , (49124, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49124, 8040, 23855549, 52.7163, -39.13541, 0.02879995, -0.1839846, 0, 0, -0.9829291) /* PCAPRecordedLocation */
+VALUES (49124, 8040, 0x016C01BD, 52.7163, -39.13541, 0.0288, -0.183985, 0, 0, -0.982929) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [52.716300 -39.135410 0.028800] -0.183985 0.000000 0.000000 -0.982929 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49124, 8000, 3708729358) /* PCAPRecordedObjectIID */;
+VALUES (49124, 8000, 0xDD0EB80E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (49124,   1,     0, 0, 0, 770) /* MaxHealth */;

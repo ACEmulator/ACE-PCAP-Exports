@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42932,   1,          1) /* ItemType - MeleeWeapon */
      , (42932,   5,        220) /* EncumbranceVal */
      , (42932,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (42932,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (42932,  16,          1) /* ItemUseable - No */
      , (42932,  18,          1) /* UiEffects - Magical */
      , (42932,  19,      20000) /* Value */
@@ -33,7 +32,8 @@ VALUES (42932,   1,          1) /* ItemType - MeleeWeapon */
      , (42932, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42932,  22, True ) /* Inscribable */;
+VALUES (42932,  22, True ) /* Inscribable */
+     , (42932,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42932,   5,   -0.05) /* ManaRate */
@@ -52,27 +52,27 @@ VALUES (42932,   1, 'Well-Balanced Lugian Greataxe') /* Name */
      , (42932,  16, 'An ancient axe of lugian design. This axe is well balanced, extremely sharp and can easily be used to cut through hoards of monsters.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42932,   1,   33558379) /* Setup */
-     , (42932,   3,  536870932) /* SoundTable */
-     , (42932,   8,  100691239) /* Icon */
-     , (42932,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42932,   1, 0x02000F6B) /* Setup */
+     , (42932,   3, 0x20000014) /* SoundTable */
+     , (42932,   8, 0x06006D27) /* Icon */
+     , (42932,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42932, 8001,    2327192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (42932, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42932, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (42932, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42932, 8040, 2847146010, 70.90223, 2.431217, 93.46627, 0.6148536, 0.6148536, -0.3492206, -0.3492206) /* PCAPRecordedLocation */
+VALUES (42932, 8040, 0xA9B4001A, 70.90223, 2.431217, 93.46627, 0.614854, 0.614854, -0.349221, -0.349221) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4001A [70.902230 2.431217 93.466270] 0.614854 0.614854 -0.349221 -0.349221 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42932, 8000, 2184591782) /* PCAPRecordedObjectIID */
-     , (42932, 8008, 1342194742) /* PCAPRecordedParentIID */;
+VALUES (42932, 8000, 0x823639A6) /* PCAPRecordedObjectIID */
+     , (42932, 8008, 0x50004436) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42932,  2101,      2)  /* DefenderSelf7 */
-     , (42932,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (42932,  2116,      2)  /* SwiftKillerSelf7 */
+     , (42932,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */
      , (42932,  2576,      2)  /* CANTRIPSTRENGTH2 */
      , (42932,  4395,      2)  /* BloodDrinkerSelf8 */
      , (42932,  4405,      2)  /* HeartSeekerSelf8 */
-     , (42932,  5070,      2)  /* CANTRIPTWOHANDEDAPTITUDE2 */;
+     , (42932,  2101,      2)  /* DefenderSelf7 */;

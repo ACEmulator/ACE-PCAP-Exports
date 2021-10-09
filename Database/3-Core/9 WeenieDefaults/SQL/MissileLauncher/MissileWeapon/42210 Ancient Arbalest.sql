@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42210,   1,        256) /* ItemType - MissileWeapon */
      , (42210,   5,       1920) /* EncumbranceVal */
      , (42210,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (42210,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (42210,  16,          1) /* ItemUseable - No */
      , (42210,  19,        375) /* Value */
      , (42210,  44,          0) /* Damage */
@@ -15,7 +14,7 @@ VALUES (42210,   1,        256) /* ItemType - MissileWeapon */
      , (42210,  48,         47) /* WeaponSkill - MissileWeapons */
      , (42210,  49,        120) /* WeaponTime */
      , (42210,  50,          2) /* AmmoType - Bolt */
-     , (42210,  51,          2) /* CombatUse - Missle */
+     , (42210,  51,          2) /* CombatUse - Missile */
      , (42210,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42210, 106,        150) /* ItemSpellcraft */
      , (42210, 107,        399) /* ItemCurMana */
@@ -43,27 +42,27 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42210,   1, 'Ancient Arbalest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42210,   1,   33559303) /* Setup */
-     , (42210,   3,  536870932) /* SoundTable */
-     , (42210,   6,   67115556) /* PaletteBase */
-     , (42210,   8,  100687036) /* Icon */
-     , (42210,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42210,   1, 0x02001307) /* Setup */
+     , (42210,   3, 0x20000014) /* SoundTable */
+     , (42210,   6, 0x04001A24) /* PaletteBase */
+     , (42210,   8, 0x06005CBC) /* Icon */
+     , (42210,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42210, 8001,  270762776) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (42210, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42210, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
      , (42210, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42210, 8040, 3316121654, 158.5827, 136.1602, 41.93, -0.4319493, 0, 0, -0.9018978) /* PCAPRecordedLocation */
+VALUES (42210, 8040, 0xC5A80036, 158.5827, 136.1602, 41.93, -0.431949, 0, 0, -0.901898) /* PCAPRecordedLocation */
 /* @teleloc 0xC5A80036 [158.582700 136.160200 41.930000] -0.431949 0.000000 0.000000 -0.901898 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42210, 8000, 3227164003) /* PCAPRecordedObjectIID */
-     , (42210, 8008, 1343479150) /* PCAPRecordedParentIID */;
+VALUES (42210, 8000, 0xC05A9D63) /* PCAPRecordedObjectIID */
+     , (42210, 8008, 0x5013DD6E) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42210,   463,      2)  /* BowMasteryOther3 */
-     , (42210,  1613,      2)  /* BloodDrinkerSelf3 */;
+VALUES (42210,  1613,      2)  /* BloodDrinkerSelf3 */
+     , (42210,   463,      2)  /* MissileWeaponsMasteryOther3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42210, 67116439, 0, 0);

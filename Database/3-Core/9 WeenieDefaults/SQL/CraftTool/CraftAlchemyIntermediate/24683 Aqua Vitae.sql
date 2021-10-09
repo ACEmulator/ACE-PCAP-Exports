@@ -27,13 +27,13 @@ VALUES (24683,   1, 'Aqua Vitae') /* Name */
      , (24683,  20, 'Vials of Aqua Vitae') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24683,   1,   33555963) /* Setup */
-     , (24683,   3,  536870932) /* SoundTable */
-     , (24683,   8,  100674417) /* Icon */
-     , (24683,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24683,   1, 0x020005FB) /* Setup */
+     , (24683,   3, 0x20000014) /* SoundTable */
+     , (24683,   8, 0x06002B71) /* Icon */
+     , (24683,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24683, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (24683, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (24683, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24683, 8000, 2258805216) /* PCAPRecordedObjectIID */;
+VALUES (24683, 8000, 0x86A2A1E0) /* PCAPRecordedObjectIID */;

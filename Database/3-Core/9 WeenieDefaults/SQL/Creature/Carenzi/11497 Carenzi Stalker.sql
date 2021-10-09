@@ -25,21 +25,21 @@ VALUES (11497,   1, 'Carenzi Stalker') /* Name */
      , (11497, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11497,   1,   33557141) /* Setup */
-     , (11497,   2,  150995133) /* MotionTable */
-     , (11497,   3,  536871035) /* SoundTable */
-     , (11497,   8,  100671754) /* Icon */
-     , (11497,  22,  872415377) /* PhysicsEffectTable */
+VALUES (11497,   1, 0x02000A95) /* Setup */
+     , (11497,   2, 0x090000BD) /* MotionTable */
+     , (11497,   3, 0x2000007B) /* SoundTable */
+     , (11497,   8, 0x0600210A) /* Icon */
+     , (11497,  22, 0x34000091) /* PhysicsEffectTable */
      , (11497, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (11497, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (11497, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11497, 8040, 447873070, 140.6885, 140.0196, 22, -0.8293078, 0, 0, -0.5587921) /* PCAPRecordedLocation */
+VALUES (11497, 8040, 0x1AB2002E, 140.6885, 140.0196, 22, -0.829308, 0, 0, -0.558792) /* PCAPRecordedLocation */
 /* @teleloc 0x1AB2002E [140.688500 140.019600 22.000000] -0.829308 0.000000 0.000000 -0.558792 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11497, 8000, 3691227895) /* PCAPRecordedObjectIID */;
+VALUES (11497, 8000, 0xDC03AAF7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11497,   1, 140, 0, 0) /* Strength */

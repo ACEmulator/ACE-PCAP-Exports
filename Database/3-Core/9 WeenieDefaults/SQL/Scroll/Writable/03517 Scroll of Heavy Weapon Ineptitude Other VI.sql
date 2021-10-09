@@ -24,13 +24,13 @@ VALUES (3517,   1, 'Scroll of Heavy Weapon Ineptitude Other VI') /* Name */
 Decreases the target''s Heavy Weapons skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3517,   1,   33554826) /* Setup */
-     , (3517,   8,  100692254) /* Icon */
-     , (3517,  22,  872415275) /* PhysicsEffectTable */
-     , (3517,  28,        429) /* Spell - SwordIneptitudeOther6 */
+VALUES (3517,   1, 0x0200018A) /* Setup */
+     , (3517,   8, 0x0600711E) /* Icon */
+     , (3517,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3517,  28,        429) /* Spell - HeavyWeaponsIneptitudeOther6 */
      , (3517, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3517, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3517, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3517, 8000, 3692263539) /* PCAPRecordedObjectIID */;
+VALUES (3517, 8000, 0xDC137873) /* PCAPRecordedObjectIID */;

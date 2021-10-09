@@ -26,23 +26,23 @@ VALUES (25863,   1, 'Hellion') /* Name */
      , (25863, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25863,   1,   33558554) /* Setup */
-     , (25863,   2,  150995263) /* MotionTable */
-     , (25863,   3,  536871080) /* SoundTable */
-     , (25863,   6,   67114728) /* PaletteBase */
-     , (25863,   8,  100675661) /* Icon */
-     , (25863,  22,  872415401) /* PhysicsEffectTable */
+VALUES (25863,   1, 0x0200101A) /* Setup */
+     , (25863,   2, 0x0900013F) /* MotionTable */
+     , (25863,   3, 0x200000A8) /* SoundTable */
+     , (25863,   6, 0x040016E8) /* PaletteBase */
+     , (25863,   8, 0x0600304D) /* Icon */
+     , (25863,  22, 0x340000A9) /* PhysicsEffectTable */
      , (25863,  30,         87) /* PhysicsScript - BreatheLightning */
      , (25863, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (25863, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (25863, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25863, 8040, 118161452, 125.3028, 79.54694, 22.13745, -0.9288226, 0, 0, -0.3705248) /* PCAPRecordedLocation */
+VALUES (25863, 8040, 0x070B002C, 125.3028, 79.54694, 22.13745, -0.928823, 0, 0, -0.370525) /* PCAPRecordedLocation */
 /* @teleloc 0x070B002C [125.302800 79.546940 22.137450] -0.928823 0.000000 0.000000 -0.370525 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25863, 8000, 3689398281) /* PCAPRecordedObjectIID */;
+VALUES (25863, 8000, 0xDBE7C009) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25863,   1, 150, 0, 0) /* Strength */
@@ -58,7 +58,8 @@ VALUES (25863,   1,   650, 0, 0, 755) /* MaxHealth */
      , (25863,   5,   500, 0, 0, 710) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25863, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+VALUES (25863, 2, 46647,  1, 0, 0, False) /* Create Spectral Flaming Nodachi (46647) for Wield */
+     , (25863, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
      , (25863, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
      , (25863, 9, 20467,  0, 0, 0, False) /* Create Scroll of Olthoi's Gift (20467) for ContainTreasure */
      , (25863, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */

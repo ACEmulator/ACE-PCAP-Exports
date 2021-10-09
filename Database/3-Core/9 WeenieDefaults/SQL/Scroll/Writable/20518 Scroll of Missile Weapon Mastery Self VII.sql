@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20518,   1, 'Scroll of Missile Weapon Mastery Self VII') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20518,   1,   33554826) /* Setup */
-     , (20518,   8,  100676450) /* Icon */
-     , (20518,  22,  872415275) /* PhysicsEffectTable */
-     , (20518,  28,       2207) /* Spell - BowMasterySelf7 */
+VALUES (20518,   1, 0x0200018A) /* Setup */
+     , (20518,   8, 0x06003362) /* Icon */
+     , (20518,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20518,  28,       2207) /* Spell - MissileWeaponsMasterySelf7 */
      , (20518, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20518, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20518, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20518, 8000, 2943528093) /* PCAPRecordedObjectIID */;
+VALUES (20518, 8000, 0xAF72AC9D) /* PCAPRecordedObjectIID */;

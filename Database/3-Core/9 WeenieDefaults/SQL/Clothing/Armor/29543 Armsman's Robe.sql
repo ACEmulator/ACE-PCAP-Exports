@@ -40,22 +40,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29543,   1, 'Armsman''s Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29543,   1,   33554854) /* Setup */
-     , (29543,   3,  536870932) /* SoundTable */
-     , (29543,   6,   67108990) /* PaletteBase */
-     , (29543,   8,  100677248) /* Icon */
-     , (29543,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29543,   1, 0x020001A6) /* Setup */
+     , (29543,   3, 0x20000014) /* SoundTable */
+     , (29543,   6, 0x0400007E) /* PaletteBase */
+     , (29543,   8, 0x06003680) /* Icon */
+     , (29543,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29543, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (29543, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29543, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29543, 8000, 2982968672) /* PCAPRecordedObjectIID */;
+VALUES (29543, 8000, 0xB1CC7D60) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29543,  3636,      2)  /* AxemansBoon */
-     , (29543,  3642,      2)  /* KnifersBoon */
-     , (29543,  3648,      2)  /* SwordsmansBoon */;
+VALUES (29543,  3648,      2)  /* SwordsmansBoon */
+     , (29543,  3636,      2)  /* AxemansBoon */
+     , (29543,  3642,      2)  /* KnifersBoon */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29543, 67115414, 72, 96);

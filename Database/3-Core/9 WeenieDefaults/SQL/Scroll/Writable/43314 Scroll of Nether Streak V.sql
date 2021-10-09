@@ -24,13 +24,13 @@ VALUES (43314,   1, 'Scroll of Nether Streak V') /* Name */
 Sends a bolt of nether streaking towards the target. The bolt does 35-88 points of nether damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43314,   1,   33554826) /* Setup */
-     , (43314,   8,  100691569) /* Icon */
-     , (43314,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43314,   1, 0x0200018A) /* Setup */
+     , (43314,   8, 0x06006E71) /* Icon */
+     , (43314,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43314,  28,       5345) /* Spell - NetherStreak5 */
      , (43314, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43314, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43314, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43314, 8000, 3677795721) /* PCAPRecordedObjectIID */;
+VALUES (43314, 8000, 0xDB36B589) /* PCAPRecordedObjectIID */;

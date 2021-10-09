@@ -46,23 +46,23 @@ VALUES (42749,   1, 'Haebrean Breastplate') /* Name */
      , (42749,  16, 'Haebrean Breastplate of Magic Resistance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42749,   1,   33554642) /* Setup */
-     , (42749,   3,  536870932) /* SoundTable */
-     , (42749,   6,   67108990) /* PaletteBase */
-     , (42749,   8,  100691077) /* Icon */
-     , (42749,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42749,   1, 0x020000D2) /* Setup */
+     , (42749,   3, 0x20000014) /* SoundTable */
+     , (42749,   6, 0x0400007E) /* PaletteBase */
+     , (42749,   8, 0x06006C85) /* Icon */
+     , (42749,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42749, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (42749, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42749, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42749, 8000, 3705344407) /* PCAPRecordedObjectIID */;
+VALUES (42749, 8000, 0xDCDB1197) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42749,   279,      2)  /* MagicResistanceSelf6 */
-     , (42749,  1486,      2)  /* Impenetrability6 */
-     , (42749,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */
-     , (42749,  2601,      2)  /* CANTRIPFLAMEBANE1 */;
+VALUES (42749,  1486,      2)  /* Impenetrability6 */
+     , (42749,   279,      2)  /* MagicResistanceSelf6 */
+     , (42749,  2601,      2)  /* CANTRIPFLAMEBANE1 */
+     , (42749,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42749, 67110012, 186, 12)

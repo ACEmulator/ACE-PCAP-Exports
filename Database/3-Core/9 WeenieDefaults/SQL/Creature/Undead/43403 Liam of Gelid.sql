@@ -30,21 +30,21 @@ VALUES (43403,   1, 'Liam of Gelid') /* Name */
      , (43403, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43403,   1,   33561135) /* Setup */
-     , (43403,   2,  150994967) /* MotionTable */
-     , (43403,   3,  536870913) /* SoundTable */
-     , (43403,   6,   67108990) /* PaletteBase */
-     , (43403,   8,  100675691) /* Icon */
+VALUES (43403,   1, 0x02001A2F) /* Setup */
+     , (43403,   2, 0x09000017) /* MotionTable */
+     , (43403,   3, 0x20000001) /* SoundTable */
+     , (43403,   6, 0x0400007E) /* PaletteBase */
+     , (43403,   8, 0x0600306B) /* Icon */
      , (43403, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (43403, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (43403, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43403, 8040, 22872658, 28.8727, -43.1115, 36.0065, 0.368384, 0, 0, 0.929674) /* PCAPRecordedLocation */
+VALUES (43403, 8040, 0x015D0252, 28.8727, -43.1115, 36.0065, 0.368384, 0, 0, 0.929674) /* PCAPRecordedLocation */
 /* @teleloc 0x015D0252 [28.872700 -43.111500 36.006500] 0.368384 0.000000 0.000000 0.929674 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43403, 8000, 3681617500) /* PCAPRecordedObjectIID */;
+VALUES (43403, 8000, 0xDB71065C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43403,   1, 600, 0, 0) /* Strength */

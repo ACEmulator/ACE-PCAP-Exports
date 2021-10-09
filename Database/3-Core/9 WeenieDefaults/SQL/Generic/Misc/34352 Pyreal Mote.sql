@@ -14,7 +14,8 @@ VALUES (34352,   1,        128) /* ItemType - Misc */
      , (34352, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34352,  22, True ) /* Inscribable */;
+VALUES (34352,  22, True ) /* Inscribable */
+     , (34352,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34352,  39,     0.8) /* DefaultScale */;
@@ -24,21 +25,21 @@ VALUES (34352,   1, 'Pyreal Mote') /* Name */
      , (34352,  16, 'A pyreal mote found within the Halls of Metos that are nearest to Ayan Baqur. There are grooves along its side which make it unsuitable for typical applications.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34352,   1,   33556406) /* Setup */
-     , (34352,   3,  536870932) /* SoundTable */
-     , (34352,   6,   67111919) /* PaletteBase */
-     , (34352,   8,  100670504) /* Icon */
-     , (34352,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34352,   1, 0x020007B6) /* Setup */
+     , (34352,   3, 0x20000014) /* SoundTable */
+     , (34352,   6, 0x04000BEF) /* PaletteBase */
+     , (34352,   8, 0x06001C28) /* Icon */
+     , (34352,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34352, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (34352, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34352, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34352, 8040, 49545489, 60, -94.1, -52.9666, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (34352, 8040, 0x02F40111, 60, -94.1, -52.9666, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x02F40111 [60.000000 -94.100000 -52.966600] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34352, 8000, 3680660323) /* PCAPRecordedObjectIID */;
+VALUES (34352, 8000, 0xDB626B63) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34352, 67111919, 0, 0);

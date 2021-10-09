@@ -25,18 +25,18 @@ VALUES (38037,   1, 'Falatacot Warden Statue') /* Name */
      , (38037, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38037,   1,   33558613) /* Setup */
-     , (38037,   2,  150995147) /* MotionTable */
-     , (38037,   3,  536871052) /* SoundTable */
-     , (38037,   8,  100675780) /* Icon */
-     , (38037,  22,  872415274) /* PhysicsEffectTable */
+VALUES (38037,   1, 0x02001055) /* Setup */
+     , (38037,   2, 0x090000CB) /* MotionTable */
+     , (38037,   3, 0x2000008C) /* SoundTable */
+     , (38037,   8, 0x060030C4) /* Icon */
+     , (38037,  22, 0x3400002A) /* PhysicsEffectTable */
      , (38037, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
      , (38037, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (38037, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38037, 8040, 14287121, 55, -200, -24, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (38037, 8040, 0x00DA0111, 55, -200, -24, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00DA0111 [55.000000 -200.000000 -24.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38037, 8000, 3709188186) /* PCAPRecordedObjectIID */;
+VALUES (38037, 8000, 0xDD15B85A) /* PCAPRecordedObjectIID */;

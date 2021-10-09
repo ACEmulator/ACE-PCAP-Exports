@@ -30,18 +30,18 @@ VALUES (38516,   1, 'Radiant Blood Vambraces Chest') /* Name */
      , (38516, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38516,   1,   33554556) /* Setup */
-     , (38516,   2,  150994948) /* MotionTable */
-     , (38516,   3,  536870945) /* SoundTable */
-     , (38516,   8,  100667426) /* Icon */
-     , (38516,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38516,   1, 0x0200007C) /* Setup */
+     , (38516,   2, 0x09000004) /* MotionTable */
+     , (38516,   3, 0x20000021) /* SoundTable */
+     , (38516,   8, 0x06001022) /* Icon */
+     , (38516,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38516, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (38516, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (38516, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38516, 8040, 12124421, 56.0325, -43.7435, -24, -0.7116709, 0, 0, -0.7025129) /* PCAPRecordedLocation */
+VALUES (38516, 8040, 0x00B90105, 56.0325, -43.7435, -24, -0.711671, 0, 0, -0.702513) /* PCAPRecordedLocation */
 /* @teleloc 0x00B90105 [56.032500 -43.743500 -24.000000] -0.711671 0.000000 0.000000 -0.702513 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38516, 8000, 1879805983) /* PCAPRecordedObjectIID */;
+VALUES (38516, 8000, 0x700B901F) /* PCAPRecordedObjectIID */;

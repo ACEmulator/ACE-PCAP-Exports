@@ -20,14 +20,14 @@ VALUES (47157,   1, 'A''nekshay Gem of Lesser Knowledge') /* Name */
      , (47157,  20, 'A''nekshay Gems of Lesser Knowledge') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47157,   1,   33557625) /* Setup */
-     , (47157,   3,  536870932) /* SoundTable */
-     , (47157,   8,  100692974) /* Icon */
-     , (47157,  22,  872415275) /* PhysicsEffectTable */
+VALUES (47157,   1, 0x02000C79) /* Setup */
+     , (47157,   3, 0x20000014) /* SoundTable */
+     , (47157,   8, 0x060073EE) /* Icon */
+     , (47157,  22, 0x3400002B) /* PhysicsEffectTable */
      , (47157, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (47157, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (47157, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
      , (47157, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47157, 8000,      47157) /* PCAPRecordedObjectIID */;
+VALUES (47157, 8000, 0x0000B835) /* PCAPRecordedObjectIID */;

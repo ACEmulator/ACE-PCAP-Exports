@@ -14,23 +14,24 @@ VALUES (12710,   1,       1024) /* ItemType - Useless */
      , (12710, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12710,  22, True ) /* Inscribable */;
+VALUES (12710,  22, True ) /* Inscribable */
+     , (12710,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12710,   1, 'Bellows') /* Name */
      , (12710,  16, 'A pair of bellows.  If found, please return to the Academy Blacksmith.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12710,   1,   33554600) /* Setup */
-     , (12710,   3,  536870932) /* SoundTable */
-     , (12710,   8,  100672367) /* Icon */
-     , (12710,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12710,   1, 0x020000A8) /* Setup */
+     , (12710,   3, 0x20000014) /* SoundTable */
+     , (12710,   8, 0x0600236F) /* Icon */
+     , (12710,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12710, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (12710, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12710, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12710, 8000, 3692819895) /* PCAPRecordedObjectIID */;
+VALUES (12710, 8000, 0xDC1BF5B7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (12710, 0, 83888907, 83888872)

@@ -40,26 +40,26 @@ VALUES (24173,   1, 'Jaleh''s Leggings') /* Name */
      , (24173,  16, 'A pair of richly decorated and lightweight amullian pants. The main body of the pants seems to be silk and the trim made of a heavy leather.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24173,   1,   33554856) /* Setup */
-     , (24173,   3,  536870932) /* SoundTable */
-     , (24173,   6,   67108990) /* PaletteBase */
-     , (24173,   8,  100674273) /* Icon */
-     , (24173,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24173,   1, 0x020001A8) /* Setup */
+     , (24173,   3, 0x20000014) /* SoundTable */
+     , (24173,   6, 0x0400007E) /* PaletteBase */
+     , (24173,   8, 0x06002AE1) /* Icon */
+     , (24173,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24173, 8001, 2166685720) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (24173, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24173, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24173, 8040, 23855548, 52.37085, -29.82947, -0.002500013, -0.9519016, 0, 0, 0.3064038) /* PCAPRecordedLocation */
+VALUES (24173, 8040, 0x016C01BC, 52.37085, -29.82947, -0.0025, -0.951902, 0, 0, 0.306404) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [52.370850 -29.829470 -0.002500] -0.951902 0.000000 0.000000 0.306404 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24173, 8000, 3679562875) /* PCAPRecordedObjectIID */;
+VALUES (24173, 8000, 0xDB51AC7B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24173,   909,      2)  /* LeadershipMasteryOther6 */
-     , (24173,   993,      2)  /* SprintOther6 */
-     , (24173,  1485,      2)  /* Impenetrability5 */;
+VALUES (24173,  1485,      2)  /* Impenetrability5 */
+     , (24173,   909,      2)  /* LeadershipMasteryOther6 */
+     , (24173,   993,      2)  /* SprintOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24173, 67114228, 72, 20)

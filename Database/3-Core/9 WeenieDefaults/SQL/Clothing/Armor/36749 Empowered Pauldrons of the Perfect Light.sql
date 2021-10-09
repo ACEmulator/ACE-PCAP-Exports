@@ -26,6 +26,7 @@ VALUES (36749,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36749,  22, True ) /* Inscribable */
+     , (36749,  23, True ) /* DestroyOnSell */
      , (36749,  69, False) /* IsSellable */
      , (36749,  99, True ) /* Ivoryable */;
 
@@ -45,29 +46,29 @@ VALUES (36749,   1, 'Empowered Pauldrons of the Perfect Light') /* Name */
      , (36749,  16, 'A set of pauldrons forged from Thaumaturgic Plate Crystal, and then imbedded with spells by Asheron himself.  This piece of armor resonates with the two other pieces of its set, generating more powerful spells as the pieces are worn together.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36749,   1,   33554641) /* Setup */
-     , (36749,   3,  536870932) /* SoundTable */
-     , (36749,   8,  100689728) /* Icon */
-     , (36749,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36749,   1, 0x020000D1) /* Setup */
+     , (36749,   3, 0x20000014) /* SoundTable */
+     , (36749,   8, 0x06006740) /* Icon */
+     , (36749,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36749, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (36749, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36749, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36749, 8000, 3680923174) /* PCAPRecordedObjectIID */;
+VALUES (36749, 8000, 0xDB666E26) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36749,  2350,      2)  /* DecayDurance */
-     , (36749,  2351,      2)  /* ConsumptionDurance */
-     , (36749,  2352,      2)  /* StasisDurance */
-     , (36749,  2353,      2)  /* StimulationDurance */
-     , (36749,  2583,      2)  /* CANTRIPSTRENGTH1 */
+VALUES (36749,  3979,      2)  /* StrengthOtherIncantation */
+     , (36749,  3982,      2)  /* RegenerationOtherIncantation */
      , (36749,  2960,      2)  /* BludgeoningDurance */
      , (36749,  2961,      2)  /* PiercingDurance */
      , (36749,  2962,      2)  /* SlashingDurance */
-     , (36749,  3979,      2)  /* StrengthOtherIncantation */
-     , (36749,  3982,      2)  /* RegenerationOtherIncantation */
-     , (36749,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */;
+     , (36749,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (36749,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */
+     , (36749,  2350,      2)  /* DecayDurance */
+     , (36749,  2351,      2)  /* ConsumptionDurance */
+     , (36749,  2352,      2)  /* StasisDurance */
+     , (36749,  2353,      2)  /* StimulationDurance */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (36749, 0, 83886788, 83897788);

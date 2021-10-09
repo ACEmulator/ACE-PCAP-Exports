@@ -13,7 +13,7 @@ VALUES (149,   1,        256) /* ItemType - MissileWeapon */
      , (149,  45,          4) /* DamageType - Bludgeon */
      , (149,  48,         47) /* WeaponSkill - MissileWeapons */
      , (149,  49,         10) /* WeaponTime */
-     , (149,  51,          2) /* CombatUse - Missle */
+     , (149,  51,          2) /* CombatUse - Missile */
      , (149,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (149, 105,          5) /* ItemWorkmanship */
      , (149, 131,          1) /* MaterialType - Ceramic */
@@ -44,21 +44,17 @@ VALUES (149,   1, 'Ewer') /* Name */
      , (149,  16, 'Ewer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (149,   1,   33554803) /* Setup */
-     , (149,   3,  536871012) /* SoundTable */
-     , (149,   6,   67111919) /* PaletteBase */
-     , (149,   8,  100668732) /* Icon */
-     , (149,  22,  872415275) /* PhysicsEffectTable */
+VALUES (149,   1, 0x02000173) /* Setup */
+     , (149,   3, 0x20000064) /* SoundTable */
+     , (149,   6, 0x04000BEF) /* PaletteBase */
+     , (149,   8, 0x0600153C) /* Icon */
+     , (149,  22, 0x3400002B) /* PhysicsEffectTable */
      , (149, 8001, 2434875928) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (149, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (149, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (149, 8000, 3686006766) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (149, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
-     , (149, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;
+VALUES (149, 8000, 0xDBB3FFEE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (149, 67111919, 0, 0);

@@ -32,6 +32,7 @@ VALUES (51966,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51966,  22, True ) /* Inscribable */
+     , (51966,  23, True ) /* DestroyOnSell */
      , (51966,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -51,30 +52,30 @@ VALUES (51966,   1, 'Rynthid Tentacle Mace') /* Name */
      , (51966,  15, 'A mace crafted from enchanted obsidian and Rynthid tentacles.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51966,   1,   33561602) /* Setup */
-     , (51966,   3,  536870932) /* SoundTable */
-     , (51966,   6,   67111919) /* PaletteBase */
-     , (51966,   8,  100693231) /* Icon */
-     , (51966,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51966,   1, 0x02001C02) /* Setup */
+     , (51966,   3, 0x20000014) /* SoundTable */
+     , (51966,   6, 0x04000BEF) /* PaletteBase */
+     , (51966,   8, 0x060074EF) /* Icon */
+     , (51966,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51966, 8001,  270598800) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, ValidLocations, Burden, HookType */
      , (51966, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51966, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51966, 8040, 1498677543, 17.203, -20, -41.973, 0.7126802, 0, 0, -0.7014892) /* PCAPRecordedLocation */
+VALUES (51966, 8040, 0x59540127, 17.203, -20, -41.973, 0.71268, 0, 0, -0.701489) /* PCAPRecordedLocation */
 /* @teleloc 0x59540127 [17.203000 -20.000000 -41.973000] 0.712680 0.000000 0.000000 -0.701489 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51966, 8000, 3707588417) /* PCAPRecordedObjectIID */;
+VALUES (51966, 8000, 0xDCFD4F41) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51966,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (51966,  3965,      2)  /* CANTRIPSTRENGTH3 */
+VALUES (51966,  4417,      2)  /* SwiftKillerSelf8 */
+     , (51966,  6043,      2)  /* CantripLightWeaponsAptitude4 */
      , (51966,  4395,      2)  /* BloodDrinkerSelf8 */
      , (51966,  4400,      2)  /* DefenderSelf8 */
      , (51966,  4405,      2)  /* HeartSeekerSelf8 */
-     , (51966,  4417,      2)  /* SwiftKillerSelf8 */
-     , (51966,  6043,      2)  /* CantripAxeAptitude4 */;
+     , (51966,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (51966,  3965,      2)  /* CANTRIPSTRENGTH3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51966, 67111921, 0, 0);

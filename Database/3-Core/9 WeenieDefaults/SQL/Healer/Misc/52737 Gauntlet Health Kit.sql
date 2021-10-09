@@ -22,14 +22,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52737,   1, 'Gauntlet Health Kit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52737,   1,   33555194) /* Setup */
-     , (52737,   8,  100693307) /* Icon */
+VALUES (52737,   1, 0x020002FA) /* Setup */
+     , (52737,   8, 0x0600753B) /* Icon */
      , (52737, 8001,    2641048) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden */
      , (52737, 8003,      65554) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer */
      , (52737, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52737, 8000, 2860539036) /* PCAPRecordedObjectIID */;
+VALUES (52737, 8000, 0xAA805C9C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (52737, 0, 83889681, 83894377)

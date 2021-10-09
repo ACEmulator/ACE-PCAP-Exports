@@ -17,15 +17,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15690,   1, 'Arrowdale Cottages') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15690,   1,   33557463) /* Setup */
-     , (15690,   8,  100668115) /* Icon */
+VALUES (15690,   1, 0x02000BD7) /* Setup */
+     , (15690,   8, 0x060012D3) /* Icon */
      , (15690, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (15690, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (15690, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15690, 8040, 3654287397, 102.588, 99.6186, 32, 0.977235, 0, 0, -0.212158) /* PCAPRecordedLocation */
+VALUES (15690, 8040, 0xD9D00025, 102.588, 99.6186, 32, 0.977235, 0, 0, -0.212158) /* PCAPRecordedLocation */
 /* @teleloc 0xD9D00025 [102.588000 99.618600 32.000000] 0.977235 0.000000 0.000000 -0.212158 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15690, 8000, 2107441477) /* PCAPRecordedObjectIID */;
+VALUES (15690, 8000, 0x7D9D0145) /* PCAPRecordedObjectIID */;

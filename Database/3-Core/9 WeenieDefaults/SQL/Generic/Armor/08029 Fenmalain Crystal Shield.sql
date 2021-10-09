@@ -25,6 +25,7 @@ VALUES (8029,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8029,  22, True ) /* Inscribable */
+     , (8029,  23, True ) /* DestroyOnSell */
      , (8029,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -47,23 +48,23 @@ VALUES (8029,   1, 'Fenmalain Crystal Shield') /* Name */
      , (8029,  16, 'A shield imbued with the power of the Fenmalain Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8029,   1,   33554786) /* Setup */
-     , (8029,   3,  536870932) /* SoundTable */
-     , (8029,   6,   67111919) /* PaletteBase */
-     , (8029,   8,  100670976) /* Icon */
-     , (8029,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8029,   1, 0x02000162) /* Setup */
+     , (8029,   3, 0x20000014) /* SoundTable */
+     , (8029,   6, 0x04000BEF) /* PaletteBase */
+     , (8029,   8, 0x06001E00) /* Icon */
+     , (8029,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8029,  37,         48) /* ItemSkillLimit - Shield */
      , (8029, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (8029, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8029, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8029, 8000, 2484794355) /* PCAPRecordedObjectIID */;
+VALUES (8029, 8000, 0x941AF3F3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8029,   246,      2)  /* InvulnerabilitySelf3 */
-     , (8029,  2003,      2)  /* WarriorsLesserVitality */
-     , (8029,  2007,      2)  /* WarriorsLesserVigor */;
+VALUES (8029,  2003,      2)  /* WarriorsLesserVitality */
+     , (8029,  2007,      2)  /* WarriorsLesserVigor */
+     , (8029,   246,      2)  /* InvulnerabilitySelf3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8029, 67111923, 0, 0);

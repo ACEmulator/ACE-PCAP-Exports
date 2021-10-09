@@ -15,6 +15,7 @@ VALUES (38392,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38392,  22, True ) /* Inscribable */
+     , (38392,  23, True ) /* DestroyOnSell */
      , (38392,  69, False) /* IsSellable */
      , (38392,  99, False) /* Ivoryable */;
 
@@ -24,14 +25,14 @@ VALUES (38392,   1, 'Celestial Hand Initiate Armor Writ') /* Name */
      , (38392,  16, 'This is an Armor Writ, granted to you as an Initiate of the Celestial Hand.  These writs are normally purchased with Trade Tokens from the Armor Writ Quartermaster in your Stronghold for 25 Tokens, and can only be purchased once a day.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38392,   1,   33554776) /* Setup */
-     , (38392,   3,  536870932) /* SoundTable */
-     , (38392,   8,  100667503) /* Icon */
-     , (38392,  22,  872415275) /* PhysicsEffectTable */
-     , (38392,  50,  100690171) /* IconOverlay */
+VALUES (38392,   1, 0x02000158) /* Setup */
+     , (38392,   3, 0x20000014) /* SoundTable */
+     , (38392,   8, 0x0600106F) /* Icon */
+     , (38392,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (38392,  50, 0x060068FB) /* IconOverlay */
      , (38392, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (38392, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38392, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38392, 8000, 2625276272) /* PCAPRecordedObjectIID */;
+VALUES (38392, 8000, 0x9C7A8970) /* PCAPRecordedObjectIID */;

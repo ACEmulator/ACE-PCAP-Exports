@@ -30,18 +30,18 @@ VALUES (22878,   1, 'Bludgeon Protection Gem') /* Name */
      , (22878,  15, 'A gem of bludgeoning protection VI') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22878,   1,   33554809) /* Setup */
-     , (22878,   3,  536870932) /* SoundTable */
-     , (22878,   6,   67111919) /* PaletteBase */
-     , (22878,   8,  100673900) /* Icon */
-     , (22878,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22878,   1, 0x02000179) /* Setup */
+     , (22878,   3, 0x20000014) /* SoundTable */
+     , (22878,   6, 0x04000BEF) /* PaletteBase */
+     , (22878,   8, 0x0600296C) /* Icon */
+     , (22878,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22878,  28,       1029) /* Spell - BludgeonProtectionOther6 */
      , (22878, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (22878, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22878, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22878, 8000, 2164419482) /* PCAPRecordedObjectIID */;
+VALUES (22878, 8000, 0x81026B9A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22878, 67111924, 0, 0);

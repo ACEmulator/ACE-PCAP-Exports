@@ -57,24 +57,24 @@ VALUES (30613,   1, 'Flaming Knuckles') /* Name */
      , (30613,  40, 'Tint''s Tinkers') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30613,   1,   33559499) /* Setup */
-     , (30613,   3,  536870932) /* SoundTable */
-     , (30613,   6,   67115556) /* PaletteBase */
-     , (30613,   8,  100687026) /* Icon */
-     , (30613,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30613,   1, 0x020013CB) /* Setup */
+     , (30613,   3, 0x20000014) /* SoundTable */
+     , (30613,   6, 0x04001A24) /* PaletteBase */
+     , (30613,   8, 0x06005CB2) /* Icon */
+     , (30613,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30613,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (30613, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30613, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30613, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30613, 8000, 3679266150) /* PCAPRecordedObjectIID */;
+VALUES (30613, 8000, 0xDB4D2566) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30613,  1402,      2)  /* QuicknessSelf6 */
-     , (30613,  2502,      2)  /* CANTRIPARCANEPROWESS2 */
-     , (30613,  2504,      2)  /* CANTRIPAXEAPTITUDE2 */
-     , (30613,  4395,      2)  /* BloodDrinkerSelf8 */;
+VALUES (30613,  2502,      2)  /* CANTRIPARCANEPROWESS2 */
+     , (30613,  2504,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE2 */
+     , (30613,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (30613,  1402,      2)  /* QuicknessSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30613, 67116439, 0, 0);

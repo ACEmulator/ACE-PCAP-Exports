@@ -25,18 +25,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41403,   1, 'Jeweler''s Saw Frame') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41403,   1,   33556750) /* Setup */
-     , (41403,   3,  536870932) /* SoundTable */
-     , (41403,   6,   67111919) /* PaletteBase */
-     , (41403,   8,  100690590) /* Icon */
-     , (41403,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41403,   1, 0x0200090E) /* Setup */
+     , (41403,   3, 0x20000014) /* SoundTable */
+     , (41403,   6, 0x04000BEF) /* PaletteBase */
+     , (41403,   8, 0x06006A9E) /* Icon */
+     , (41403,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41403, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (41403, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41403, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (41403, 8044,       8644) /* PCAPPhysicsDIDDataTemplatedFrom - Lapyan Plant */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41403, 8000,      41403) /* PCAPRecordedObjectIID */;
+VALUES (41403, 8000, 0x0000A1BB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41403, 67111926, 0, 0);

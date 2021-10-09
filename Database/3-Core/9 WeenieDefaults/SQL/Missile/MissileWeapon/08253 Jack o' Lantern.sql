@@ -17,7 +17,7 @@ VALUES (8253,   1,        256) /* ItemType - MissileWeapon */
      , (8253,  45,          4) /* DamageType - Bludgeon */
      , (8253,  48,         47) /* WeaponSkill - MissileWeapons */
      , (8253,  49,         10) /* WeaponTime */
-     , (8253,  51,          2) /* CombatUse - Missle */
+     , (8253,  51,          2) /* CombatUse - Missile */
      , (8253,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (8253, 151,         11) /* HookType - Floor, Wall, Yard */
      , (8253, 353,         10) /* WeaponType - Thrown */
@@ -42,17 +42,17 @@ VALUES (8253,   1, 'Jack o'' Lantern') /* Name */
      , (8253,  15, 'A reasonably crafted jack o'' lantern, made with a carving knife.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8253,   1,   33556809) /* Setup */
-     , (8253,   3,  536870932) /* SoundTable */
-     , (8253,   6,   67112968) /* PaletteBase */
-     , (8253,   8,  100671017) /* Icon */
-     , (8253,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8253,   1, 0x02000949) /* Setup */
+     , (8253,   3, 0x20000014) /* SoundTable */
+     , (8253,   6, 0x04001008) /* PaletteBase */
+     , (8253,   8, 0x06001E29) /* Icon */
+     , (8253,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8253, 8001,  270627352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (8253, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8253, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8253, 8000, 2166234072) /* PCAPRecordedObjectIID */;
+VALUES (8253, 8000, 0x811E1BD8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8253, 67112976, 0, 0);

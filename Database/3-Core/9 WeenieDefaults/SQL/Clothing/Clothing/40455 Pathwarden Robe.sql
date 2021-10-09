@@ -22,6 +22,7 @@ VALUES (40455,   1,          4) /* ItemType - Clothing */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40455,  22, True ) /* Inscribable */
+     , (40455,  23, True ) /* DestroyOnSell */
      , (40455,  99, True ) /* Ivoryable */
      , (40455, 100, True ) /* Dyable */;
 
@@ -40,22 +41,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40455,   1, 'Pathwarden Robe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40455,   1,   33554854) /* Setup */
-     , (40455,   3,  536870932) /* SoundTable */
-     , (40455,   6,   67108990) /* PaletteBase */
-     , (40455,   8,  100670382) /* Icon */
-     , (40455,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40455,   1, 0x020001A6) /* Setup */
+     , (40455,   3, 0x20000014) /* SoundTable */
+     , (40455,   6, 0x0400007E) /* PaletteBase */
+     , (40455,   8, 0x06001BAE) /* Icon */
+     , (40455,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40455, 8001,    2441232) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Priority, Burden */
      , (40455, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40455, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40455, 8000, 3164390757) /* PCAPRecordedObjectIID */;
+VALUES (40455, 8000, 0xBC9CC565) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40455,  1328,      2)  /* StrengthSelf2 */
-     , (40455,  1350,      2)  /* EnduranceSelf2 */
-     , (40455,  1482,      2)  /* Impenetrability2 */;
+VALUES (40455,  1350,      2)  /* EnduranceSelf2 */
+     , (40455,  1482,      2)  /* Impenetrability2 */
+     , (40455,  1328,      2)  /* StrengthSelf2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40455, 67110003, 96, 12)

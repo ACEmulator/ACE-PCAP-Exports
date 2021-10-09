@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51849,   1,          8) /* ItemType - Jewelry */
      , (51849,   5,         60) /* EncumbranceVal */
      , (51849,   9,      32768) /* ValidLocations - NeckWear */
-     , (51849,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (51849,  16,          1) /* ItemUseable - No */
      , (51849,  19,          0) /* Value */
      , (51849,  33,          1) /* Bonded - Bonded */
@@ -25,6 +24,7 @@ VALUES (51849,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51849,  22, True ) /* Inscribable */
+     , (51849,  23, True ) /* DestroyOnSell */
      , (51849,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -35,17 +35,17 @@ VALUES (51849,   1, 'Spirited Envy Guard') /* Name */
      , (51849,  15, 'A necklace crafted by Rinne Gorber fused with a powerful crystal from deep within the Spirited Halls.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51849,   1,   33554689) /* Setup */
-     , (51849,   3,  536870932) /* SoundTable */
-     , (51849,   6,   67111919) /* PaletteBase */
-     , (51849,   8,  100693213) /* Icon */
-     , (51849,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51849,   1, 0x02000101) /* Setup */
+     , (51849,   3, 0x20000014) /* SoundTable */
+     , (51849,   6, 0x04000BEF) /* PaletteBase */
+     , (51849,   8, 0x060074DD) /* Icon */
+     , (51849,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51849, 8001,    2326544) /* PCAPRecordedWeenieHeader - Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (51849, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51849, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51849, 8000, 2158461173) /* PCAPRecordedObjectIID */;
+VALUES (51849, 8000, 0x80A780F5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51849,  2665,      2)  /* EssenceSluice */

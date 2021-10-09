@@ -55,22 +55,22 @@ VALUES (45398,   1, 'Lightning Short Sword') /* Name */
      , (45398,  16, 'Lightning Short Sword of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45398,   1,   33555806) /* Setup */
-     , (45398,   3,  536870932) /* SoundTable */
-     , (45398,   8,  100669036) /* Icon */
-     , (45398,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45398,   1, 0x0200055E) /* Setup */
+     , (45398,   3, 0x20000014) /* SoundTable */
+     , (45398,   8, 0x0600166C) /* Icon */
+     , (45398,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45398,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45398,  52,  100676436) /* IconUnderlay */
+     , (45398,  52, 0x06003354) /* IconUnderlay */
      , (45398, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45398, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45398, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
      , (45398, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45398, 8000, 2174244854) /* PCAPRecordedObjectIID */;
+VALUES (45398, 8000, 0x819857F6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45398,  1401,      2)  /* QuicknessSelf5 */
-     , (45398,  1604,      2)  /* DefenderSelf5 */
+VALUES (45398,  1604,      2)  /* DefenderSelf5 */
      , (45398,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (45398,  1401,      2)  /* QuicknessSelf5 */
      , (45398,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */;

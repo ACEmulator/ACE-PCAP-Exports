@@ -25,6 +25,7 @@ VALUES (34704,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34704,  22, True ) /* Inscribable */
+     , (34704,  23, True ) /* DestroyOnSell */
      , (34704,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -37,26 +38,23 @@ VALUES (34704,   1, 'Blue Empyrean Ring') /* Name */
      , (34704,  16, 'A ring of pyreal fitted with a band of glowing blue metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34704,   1,   33554691) /* Setup */
-     , (34704,   3,  536870932) /* SoundTable */
-     , (34704,   6,   67111919) /* PaletteBase */
-     , (34704,   8,  100689373) /* Icon */
-     , (34704,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34704,   1, 0x02000103) /* Setup */
+     , (34704,   3, 0x20000014) /* SoundTable */
+     , (34704,   6, 0x04000BEF) /* PaletteBase */
+     , (34704,   8, 0x060065DD) /* Icon */
+     , (34704,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34704, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (34704, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34704, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34704, 8000, 2316348054) /* PCAPRecordedObjectIID */;
+VALUES (34704, 8000, 0x8A10AA96) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34704,  2613,      2)  /* CANTRIPPIERCINGWARD2 */
-     , (34704,  3981,      2)  /* ManarenewalOtherIncantation */
+VALUES (34704,  3981,      2)  /* ManarenewalOtherIncantation */
      , (34704,  4070,      2)  /* EmpyreanManaAbsorbtion */
-     , (34704,  4077,      2)  /* ManaConvertMasteryIncantation */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34704, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
+     , (34704,  4077,      2)  /* ManaConvertMasteryIncantation */
+     , (34704,  2613,      2)  /* CANTRIPPIERCINGWARD2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34704, 67111919, 0, 0);

@@ -50,20 +50,20 @@ VALUES (20944,   1, 'Perfect Shimmering Isparian Spear') /* Name */
      , (20944,   8, 'Wahooka the Great') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20944,   1,   33556260) /* Setup */
-     , (20944,   3,  536870932) /* SoundTable */
-     , (20944,   8,  100673208) /* Icon */
-     , (20944,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20944,   1, 0x02000724) /* Setup */
+     , (20944,   3, 0x20000014) /* SoundTable */
+     , (20944,   8, 0x060026B8) /* Icon */
+     , (20944,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20944, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (20944, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20944, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20944, 8000, 2461542969) /* PCAPRecordedObjectIID */;
+VALUES (20944, 8000, 0x92B82A39) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20944,  1312,      2)  /* ArmorSelf6 */
-     , (20944,  2689,      2)  /* ModerateDaggerAptitude */;
+VALUES (20944,  2689,      2)  /* ModerateDaggerAptitude */
+     , (20944,  1312,      2)  /* ArmorSelf6 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20944, 0, 83889235, 83892492)

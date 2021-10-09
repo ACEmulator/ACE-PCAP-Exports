@@ -31,18 +31,18 @@ VALUES (5671,   1, 'Cold Milk') /* Name */
      , (5671,  16, 'A frosty cup of milk, sure to cool the drinker. It would probably spoil if used in baking.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5671,   1,   33554602) /* Setup */
-     , (5671,   3,  536870932) /* SoundTable */
-     , (5671,   6,   67111919) /* PaletteBase */
-     , (5671,   8,  100668493) /* Icon */
-     , (5671,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5671,   1, 0x020000AA) /* Setup */
+     , (5671,   3, 0x20000014) /* SoundTable */
+     , (5671,   6, 0x04000BEF) /* PaletteBase */
+     , (5671,   8, 0x0600144D) /* Icon */
+     , (5671,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5671,  28,         20) /* Spell - FireProtectionSelf1 */
      , (5671, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (5671, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5671, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5671, 8000, 2192312761) /* PCAPRecordedObjectIID */;
+VALUES (5671, 8000, 0x82AC09B9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5671, 67111927, 0, 0);

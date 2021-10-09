@@ -43,17 +43,17 @@ VALUES (23814,   1, 'Scored Celdon Leggings') /* Name */
      , (23814,   8, 'Azrakin') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23814,   1,   33554856) /* Setup */
-     , (23814,   3,  536870932) /* SoundTable */
-     , (23814,   6,   67108990) /* PaletteBase */
-     , (23814,   8,  100674071) /* Icon */
-     , (23814,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23814,   1, 0x020001A8) /* Setup */
+     , (23814,   3, 0x20000014) /* SoundTable */
+     , (23814,   6, 0x0400007E) /* PaletteBase */
+     , (23814,   8, 0x06002A17) /* Icon */
+     , (23814,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23814, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (23814, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23814, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23814, 8000, 2461312207) /* PCAPRecordedObjectIID */;
+VALUES (23814, 8000, 0x92B4A4CF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23814,  2609,      2)  /* CANTRIPACIDWARD2 */;

@@ -23,22 +23,22 @@ VALUES (37462,   1, 'Wight') /* Name */
      , (37462, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37462,   1,   33560225) /* Setup */
-     , (37462,   2,  150995358) /* MotionTable */
-     , (37462,   3,  536870934) /* SoundTable */
-     , (37462,   6,   67110722) /* PaletteBase */
-     , (37462,   8,  100667942) /* Icon */
-     , (37462,  22,  872415272) /* PhysicsEffectTable */
+VALUES (37462,   1, 0x020016A1) /* Setup */
+     , (37462,   2, 0x0900019E) /* MotionTable */
+     , (37462,   3, 0x20000016) /* SoundTable */
+     , (37462,   6, 0x04000742) /* PaletteBase */
+     , (37462,   8, 0x06001226) /* Icon */
+     , (37462,  22, 0x34000028) /* PhysicsEffectTable */
      , (37462, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (37462, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (37462, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37462, 8040, 1194131790, 158.685, 209.854, -13.59175, 0.7807071, 0, 0, 0.6248971) /* PCAPRecordedLocation */
+VALUES (37462, 8040, 0x472D014E, 158.685, 209.854, -13.59175, 0.780707, 0, 0, 0.624897) /* PCAPRecordedLocation */
 /* @teleloc 0x472D014E [158.685000 209.854000 -13.591750] 0.780707 0.000000 0.000000 0.624897 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37462, 8000, 2921378470) /* PCAPRecordedObjectIID */;
+VALUES (37462, 8000, 0xAE20B2A6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37462, 2, 48076,  1, 0, 0, False) /* Create Lightning Silifi (48076) for Wield */

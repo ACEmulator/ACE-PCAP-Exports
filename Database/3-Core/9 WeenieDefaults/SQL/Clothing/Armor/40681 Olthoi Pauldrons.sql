@@ -53,26 +53,26 @@ VALUES (40681,   1, 'Olthoi Pauldrons') /* Name */
      , (40681,  16, 'Olthoi Pauldrons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40681,   1,   33554641) /* Setup */
-     , (40681,   3,  536870932) /* SoundTable */
-     , (40681,   6,   67108990) /* PaletteBase */
-     , (40681,   8,  100674583) /* Icon */
-     , (40681,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40681,   1, 0x020000D1) /* Setup */
+     , (40681,   3, 0x20000014) /* SoundTable */
+     , (40681,   6, 0x0400007E) /* PaletteBase */
+     , (40681,   8, 0x06002C17) /* Icon */
+     , (40681,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40681, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40681, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40681, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40681, 8040, 3147759892, 135.342, 107.5091, 63.65225, -0.7226186, 0, 0, -0.691247) /* PCAPRecordedLocation */
+VALUES (40681, 8040, 0xBB9F0114, 135.342, 107.5091, 63.65225, -0.722619, 0, 0, -0.691247) /* PCAPRecordedLocation */
 /* @teleloc 0xBB9F0114 [135.342000 107.509100 63.652250] -0.722619 0.000000 0.000000 -0.691247 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40681, 8000, 3690264865) /* PCAPRecordedObjectIID */;
+VALUES (40681, 8000, 0xDBF4F921) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40681,  1528,      2)  /* FrostBane6 */
-     , (40681,  2108,      2)  /* Impenetrability7 */
-     , (40681,  6126,      2)  /* CantripSummoningProwess2 */;
+VALUES (40681,  6126,      2)  /* CantripSummoningProwess2 */
+     , (40681,  1528,      2)  /* FrostBane6 */
+     , (40681,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40681, 67114456, 128, 8)

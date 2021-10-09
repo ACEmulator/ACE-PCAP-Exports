@@ -22,6 +22,7 @@ VALUES (33601,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33601,  22, True ) /* Inscribable */
+     , (33601,  23, True ) /* DestroyOnSell */
      , (33601,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -40,17 +41,17 @@ VALUES (33601,   1, 'Pathwarden Plate Leggings') /* Name */
      , (33601,  16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33601,   1,   33554856) /* Setup */
-     , (33601,   3,  536870932) /* SoundTable */
-     , (33601,   6,   67108990) /* PaletteBase */
-     , (33601,   8,  100667356) /* Icon */
-     , (33601,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33601,   1, 0x020001A8) /* Setup */
+     , (33601,   3, 0x20000014) /* SoundTable */
+     , (33601,   6, 0x0400007E) /* PaletteBase */
+     , (33601,   8, 0x06000FDC) /* Icon */
+     , (33601,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33601, 8001,    2441232) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Priority, Burden */
      , (33601, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33601, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33601, 8000, 3693861784) /* PCAPRecordedObjectIID */;
+VALUES (33601, 8000, 0xDC2BDB98) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33601,  1350,      2)  /* EnduranceSelf2 */

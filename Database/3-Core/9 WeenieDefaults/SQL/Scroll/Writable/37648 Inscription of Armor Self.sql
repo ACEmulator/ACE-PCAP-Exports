@@ -24,13 +24,13 @@ VALUES (37648,   1, 'Inscription of Armor Self') /* Name */
 Increases the caster''s natural armor by 250 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37648,   1,   33554826) /* Setup */
-     , (37648,   8,  100676928) /* Icon */
-     , (37648,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37648,   1, 0x0200018A) /* Setup */
+     , (37648,   8, 0x06003540) /* Icon */
+     , (37648,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37648,  28,       4291) /* Spell - ArmorSelf8 */
      , (37648, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37648, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37648, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37648, 8000, 2150584901) /* PCAPRecordedObjectIID */;
+VALUES (37648, 8000, 0x802F5245) /* PCAPRecordedObjectIID */;

@@ -26,20 +26,20 @@ VALUES (14759,   1, 'Chocolate Cookie') /* Name */
      , (14759,  20, 'Chocolate Cookies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14759,   1,   33556032) /* Setup */
-     , (14759,   3,  536870932) /* SoundTable */
-     , (14759,   8,  100672571) /* Icon */
-     , (14759,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14759,   1, 0x02000640) /* Setup */
+     , (14759,   3, 0x20000014) /* SoundTable */
+     , (14759,   8, 0x0600243B) /* Icon */
+     , (14759,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14759, 8001,    2109465) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden */
      , (14759, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (14759, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14759, 8040, 23855548, 47.98503, -32.39995, 0, 0.1658671, 0, 0, -0.9861481) /* PCAPRecordedLocation */
+VALUES (14759, 8040, 0x016C01BC, 47.98503, -32.39995, 0, 0.165867, 0, 0, -0.986148) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [47.985030 -32.399950 0.000000] 0.165867 0.000000 0.000000 -0.986148 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14759, 8000, 2166341526) /* PCAPRecordedObjectIID */;
+VALUES (14759, 8000, 0x811FBF96) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (14759, 0, 83892239, 83888868);

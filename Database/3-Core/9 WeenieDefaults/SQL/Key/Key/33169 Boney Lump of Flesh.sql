@@ -17,7 +17,8 @@ VALUES (33169,   1,      16384) /* ItemType - Key */
      , (33169, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33169,  22, True ) /* Inscribable */;
+VALUES (33169,  22, True ) /* Inscribable */
+     , (33169,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33169,   1, 'Boney Lump of Flesh') /* Name */
@@ -25,16 +26,16 @@ VALUES (33169,   1, 'Boney Lump of Flesh') /* Name */
      , (33169,  16, 'A pulsing fleshy lump. It squirms in your hands disgustingly.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33169,   1,   33556232) /* Setup */
-     , (33169,   3,  536870932) /* SoundTable */
-     , (33169,   8,  100688938) /* Icon */
-     , (33169,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33169,   1, 0x02000708) /* Setup */
+     , (33169,   3, 0x20000014) /* SoundTable */
+     , (33169,   8, 0x0600642A) /* Icon */
+     , (33169,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33169, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (33169, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33169, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33169, 8000, 3331962333) /* PCAPRecordedObjectIID */;
+VALUES (33169, 8000, 0xC699B5DD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (33169, 0, 83888868, 83892604);

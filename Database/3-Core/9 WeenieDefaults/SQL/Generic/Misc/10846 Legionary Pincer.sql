@@ -14,7 +14,8 @@ VALUES (10846,   1,        128) /* ItemType - Misc */
      , (10846, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10846,  22, True ) /* Inscribable */;
+VALUES (10846,  22, True ) /* Inscribable */
+     , (10846,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10846,  39,     0.5) /* DefaultScale */;
@@ -24,13 +25,13 @@ VALUES (10846,   1, 'Legionary Pincer') /* Name */
      , (10846,  16, 'The pincer off of an Olthoi Legionary, desired by Behdo Yii at 40.8N, 83.3W in Redspire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10846,   1,   33554817) /* Setup */
-     , (10846,   3,  536870932) /* SoundTable */
-     , (10846,   8,  100672037) /* Icon */
-     , (10846,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10846,   1, 0x02000181) /* Setup */
+     , (10846,   3, 0x20000014) /* SoundTable */
+     , (10846,   8, 0x06002225) /* Icon */
+     , (10846,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10846, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (10846, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10846, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10846, 8000, 3320254702) /* PCAPRecordedObjectIID */;
+VALUES (10846, 8000, 0xC5E710EE) /* PCAPRecordedObjectIID */;

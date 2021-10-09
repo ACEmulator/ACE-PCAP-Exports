@@ -18,7 +18,8 @@ VALUES (43742,   1,        128) /* ItemType - Misc */
      , (43742, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43742,  69, False) /* IsSellable */;
+VALUES (43742,  23, True ) /* DestroyOnSell */
+     , (43742,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43742,  39,     0.5) /* DefaultScale */;
@@ -28,13 +29,13 @@ VALUES (43742,   1, 'Snow Tusker Blood Sample') /* Name */
      , (43742,  15, 'A vial of blood taken from a defeated Snow Tusker.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43742,   1,   33554817) /* Setup */
-     , (43742,   3,  536870932) /* SoundTable */
-     , (43742,   8,  100686488) /* Icon */
-     , (43742,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43742,   1, 0x02000181) /* Setup */
+     , (43742,   3, 0x20000014) /* SoundTable */
+     , (43742,   8, 0x06005A98) /* Icon */
+     , (43742,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43742, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (43742, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43742, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43742, 8000, 2549852184) /* PCAPRecordedObjectIID */;
+VALUES (43742, 8000, 0x97FBA818) /* PCAPRecordedObjectIID */;

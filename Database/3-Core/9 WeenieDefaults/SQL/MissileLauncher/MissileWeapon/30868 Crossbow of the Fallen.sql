@@ -14,7 +14,7 @@ VALUES (30868,   1,        256) /* ItemType - MissileWeapon */
      , (30868,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30868,  49,         60) /* WeaponTime */
      , (30868,  50,          2) /* AmmoType - Bolt */
-     , (30868,  51,          2) /* CombatUse - Missle */
+     , (30868,  51,          2) /* CombatUse - Missile */
      , (30868,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30868, 106,        250) /* ItemSpellcraft */
      , (30868, 107,       1000) /* ItemCurMana */
@@ -47,16 +47,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30868,   1, 'Crossbow of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30868,   1,   33559274) /* Setup */
-     , (30868,   3,  536870932) /* SoundTable */
-     , (30868,   8,  100677507) /* Icon */
-     , (30868,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30868,   1, 0x020012EA) /* Setup */
+     , (30868,   3, 0x20000014) /* SoundTable */
+     , (30868,   8, 0x06003783) /* Icon */
+     , (30868,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30868, 8001,  270615320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (30868, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30868, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30868, 8000, 2192305083) /* PCAPRecordedObjectIID */;
+VALUES (30868, 8000, 0x82ABEBBB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30868,  2096,      2)  /* BloodDrinkerSelf7 */

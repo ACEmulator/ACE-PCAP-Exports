@@ -24,13 +24,13 @@ VALUES (20525,   1, 'Scroll of Broadside of a Barn') /* Name */
 Decreases the target''s Missile Defense skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20525,   1,   33554826) /* Setup */
-     , (20525,   8,  100676468) /* Icon */
-     , (20525,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20525,   1, 0x0200018A) /* Setup */
+     , (20525,   8, 0x06003374) /* Icon */
+     , (20525,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20525,  28,       2228) /* Spell - DefenselessnessOther7 */
      , (20525, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20525, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20525, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20525, 8000, 3706739281) /* PCAPRecordedObjectIID */;
+VALUES (20525, 8000, 0xDCF05A51) /* PCAPRecordedObjectIID */;

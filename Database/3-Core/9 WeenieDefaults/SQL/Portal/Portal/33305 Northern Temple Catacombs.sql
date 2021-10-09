@@ -21,16 +21,16 @@ VALUES (33305,   1, 'Northern Temple Catacombs') /* Name */
      , (33305, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33305,   1,   33557581) /* Setup */
-     , (33305,   2,  150994947) /* MotionTable */
-     , (33305,   8,  100667499) /* Icon */
+VALUES (33305,   1, 0x02000C4D) /* Setup */
+     , (33305,   2, 0x09000003) /* MotionTable */
+     , (33305,   8, 0x0600106B) /* Icon */
      , (33305, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (33305, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (33305, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33305, 8040, 3286433822, 84.353, 123.832, 11.93695, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (33305, 8040, 0xC3E3001E, 84.353, 123.832, 11.93695, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xC3E3001E [84.353000 123.832000 11.936950] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33305, 8000, 2084450307) /* PCAPRecordedObjectIID */;
+VALUES (33305, 8000, 0x7C3E3003) /* PCAPRecordedObjectIID */;

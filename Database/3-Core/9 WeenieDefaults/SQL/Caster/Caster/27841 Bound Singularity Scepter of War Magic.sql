@@ -11,6 +11,7 @@ VALUES (27841,   1,      32768) /* ItemType - Caster */
      , (27841,  18,          1) /* UiEffects - Magical */
      , (27841,  19,          0) /* Value */
      , (27841,  33,          1) /* Bonded - Bonded */
+     , (27841,  46,        512) /* DefaultCombatStyle - Magic */
      , (27841,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27841,  94,         16) /* TargetType - Creature */
      , (27841, 106,        200) /* ItemSpellcraft */
@@ -26,7 +27,8 @@ VALUES (27841,   1,      32768) /* ItemType - Caster */
      , (27841, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27841,  22, True ) /* Inscribable */;
+VALUES (27841,  22, True ) /* Inscribable */
+     , (27841,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27841,   5,  -0.033) /* ManaRate */
@@ -39,21 +41,21 @@ VALUES (27841,   1, 'Bound Singularity Scepter of War Magic') /* Name */
      , (27841,  15, 'A scepter imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27841,   1,   33558795) /* Setup */
-     , (27841,   6,   67111919) /* PaletteBase */
-     , (27841,   8,  100676590) /* Icon */
-     , (27841,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27841,   1, 0x0200110B) /* Setup */
+     , (27841,   6, 0x04000BEF) /* PaletteBase */
+     , (27841,   8, 0x060033EE) /* Icon */
+     , (27841,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27841, 8001,  271138960) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (27841, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27841, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27841, 8000, 2567785986) /* PCAPRecordedObjectIID */;
+VALUES (27841, 8000, 0x990D4E02) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27841,   211,      2)  /* ManaRenewalOther6 */
-     , (27841,   664,      2)  /* ManaMasteryOther6 */
-     , (27841,  1432,      2)  /* FocusOther6 */;
+     , (27841,  1432,      2)  /* FocusOther6 */
+     , (27841,   664,      2)  /* ManaMasteryOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27841, 67111924, 0, 0);

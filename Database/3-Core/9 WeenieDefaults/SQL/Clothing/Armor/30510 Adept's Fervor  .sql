@@ -8,7 +8,6 @@ VALUES (30510,   1,          2) /* ItemType - Armor */
      , (30510,   4,      32768) /* ClothingPriority - Hands */
      , (30510,   5,        180) /* EncumbranceVal */
      , (30510,   9,         32) /* ValidLocations - HandWear */
-     , (30510,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (30510,  16,          1) /* ItemUseable - No */
      , (30510,  17,        263) /* RareId */
      , (30510,  19,      50000) /* Value */
@@ -50,20 +49,20 @@ VALUES (30510,   1, 'Adept''s Fervor  ') /* Name */
      , (30510,  16, 'These gauntlets are built for mages, finely crafted from lightweight metals and put together with jeweler''s precision.  A mage can easily manipulate objects and spell components as if wearing no gloves at all. Two large bloodstones help to serve as a magnifier for all life magic.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30510,   1,   33559427) /* Setup */
-     , (30510,   3,  536870932) /* SoundTable */
-     , (30510,   8,  100686861) /* Icon */
-     , (30510,  22,  872415275) /* PhysicsEffectTable */
-     , (30510,  52,  100686604) /* IconUnderlay */
+VALUES (30510,   1, 0x02001383) /* Setup */
+     , (30510,   3, 0x20000014) /* SoundTable */
+     , (30510,   8, 0x06005C0D) /* Icon */
+     , (30510,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30510,  52, 0x06005B0C) /* IconUnderlay */
      , (30510, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (30510, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30510, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30510, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30510, 8000, 2776296208) /* PCAPRecordedObjectIID */;
+VALUES (30510, 8000, 0xA57AEB10) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30510,  3963,      2)  /* CANTRIPCOORDINATION3 */
+VALUES (30510,  4694,      2)  /* CANTRIPHEALINGPROWESS3 */
      , (30510,  4407,      2)  /* Impenetrability8 */
-     , (30510,  4694,      2)  /* CANTRIPHEALINGPROWESS3 */;
+     , (30510,  3963,      2)  /* CANTRIPCOORDINATION3 */;

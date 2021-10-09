@@ -18,6 +18,7 @@ VALUES (35020,   1,      16384) /* ItemType - Key */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35020,  22, True ) /* Inscribable */
+     , (35020,  23, True ) /* DestroyOnSell */
      , (35020,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -25,13 +26,13 @@ VALUES (35020,   1, '4th Locked Gate Key') /* Name */
      , (35020,  16, 'A key to the 4th Locked Gate in the Falatacot Catacombs on Bur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35020,   1,   33554784) /* Setup */
-     , (35020,   3,  536870932) /* SoundTable */
-     , (35020,   8,  100670820) /* Icon */
-     , (35020,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35020,   1, 0x02000160) /* Setup */
+     , (35020,   3, 0x20000014) /* SoundTable */
+     , (35020,   8, 0x06001D64) /* Icon */
+     , (35020,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35020, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (35020, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35020, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35020, 8000, 3708728811) /* PCAPRecordedObjectIID */;
+VALUES (35020, 8000, 0xDD0EB5EB) /* PCAPRecordedObjectIID */;

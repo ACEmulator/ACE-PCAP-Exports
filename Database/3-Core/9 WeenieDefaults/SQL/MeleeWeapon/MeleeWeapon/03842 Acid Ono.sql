@@ -54,17 +54,17 @@ VALUES (3842,   1, 'Acid Ono') /* Name */
      , (3842,  16, 'Acid Ono of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3842,   1,   33555690) /* Setup */
-     , (3842,   3,  536870932) /* SoundTable */
-     , (3842,   8,  100668985) /* Icon */
-     , (3842,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3842,   1, 0x020004EA) /* Setup */
+     , (3842,   3, 0x20000014) /* SoundTable */
+     , (3842,   8, 0x06001639) /* Icon */
+     , (3842,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3842,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3842, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3842, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3842, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3842, 8000, 3691328648) /* PCAPRecordedObjectIID */;
+VALUES (3842, 8000, 0xDC053488) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3842,  2096,      2)  /* BloodDrinkerSelf7 */;

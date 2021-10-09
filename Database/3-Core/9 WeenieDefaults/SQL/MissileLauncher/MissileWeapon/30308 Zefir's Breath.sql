@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30308,   1,        256) /* ItemType - MissileWeapon */
      , (30308,   5,       1200) /* EncumbranceVal */
      , (30308,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (30308,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (30308,  16,          1) /* ItemUseable - No */
      , (30308,  17,        197) /* RareId */
      , (30308,  18,         64) /* UiEffects - Lightning */
@@ -17,7 +16,7 @@ VALUES (30308,   1,        256) /* ItemType - MissileWeapon */
      , (30308,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30308,  49,         20) /* WeaponTime */
      , (30308,  50,          2) /* AmmoType - Bolt */
-     , (30308,  51,          2) /* CombatUse - Missle */
+     , (30308,  51,          2) /* CombatUse - Missile */
      , (30308,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30308, 106,        350) /* ItemSpellcraft */
      , (30308, 107,        677) /* ItemCurMana */
@@ -60,12 +59,12 @@ VALUES (30308,   1, 'Zefir''s Breath') /* Name */
      , (30308,  16, 'This crossbow was commissioned by the great hunter Josya Sunin and made by Master Bowyer Scildith Dyrson. Originally this crossbow was to be used to hunt pesky Zefirs, but due to an oversight by Scildith, the spells to enchant the weapon against Zefirs was reversed. Subsequently any damage dealt to a Zefir was reduced instead of increased. Josya Sunin took the opportunity to complain to the Bowyers'' guild and reduce the price of the crossbow to a fraction of its original cost.  The word ''Master'' was stripped from Scildith''s title.  Josya did not bother to point out that the crossbow worked amazingly well against any other creature...') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30308,   1,   33559372) /* Setup */
-     , (30308,   3,  536870932) /* SoundTable */
-     , (30308,   6,   67111919) /* PaletteBase */
-     , (30308,   8,  100686727) /* Icon */
-     , (30308,  22,  872415275) /* PhysicsEffectTable */
-     , (30308,  52,  100686604) /* IconUnderlay */
+VALUES (30308,   1, 0x0200134C) /* Setup */
+     , (30308,   3, 0x20000014) /* SoundTable */
+     , (30308,   6, 0x04000BEF) /* PaletteBase */
+     , (30308,   8, 0x06005B87) /* Icon */
+     , (30308,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30308,  52, 0x06005B0C) /* IconUnderlay */
      , (30308, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (30308, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30308, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
@@ -73,20 +72,20 @@ VALUES (30308,   1,   33559372) /* Setup */
      , (30308, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30308, 8040, 23855548, 49.55912, -29.36897, -0.07000001, 0.4370166, 0, 0, -0.8994535) /* PCAPRecordedLocation */
+VALUES (30308, 8040, 0x016C01BC, 49.55912, -29.36897, -0.07, 0.437017, 0, 0, -0.899454) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.559120 -29.368970 -0.070000] 0.437017 0.000000 0.000000 -0.899454 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30308, 8000, 3171223079) /* PCAPRecordedObjectIID */
-     , (30308, 8008, 1343092371) /* PCAPRecordedParentIID */;
+VALUES (30308, 8000, 0xBD050627) /* PCAPRecordedObjectIID */
+     , (30308, 8008, 0x500DF693) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30308,  4297,      2)  /* CoordinationSelf8 */
+     , (30308,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */
+     , (30308,  4522,      2)  /* MissileWeaponsMasterySelf8 */
      , (30308,  4400,      2)  /* DefenderSelf8 */
-     , (30308,  4522,      2)  /* BowMasterySelf8 */
-     , (30308,  4604,      2)  /* MonsterAttunementSelf8 */
      , (30308,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (30308,  4687,      2)  /* CANTRIPBOWAPTITUDE3 */;
+     , (30308,  4604,      2)  /* MonsterAttunementSelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30308, 67111920, 0, 0);

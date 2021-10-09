@@ -31,11 +31,11 @@ VALUES (53356,   1, 'Farmer''s Basement Portal Gem') /* Name */
      , (53356,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53356,   1,   33556769) /* Setup */
-     , (53356,   3,  536870932) /* SoundTable */
-     , (53356,   6,   67111919) /* PaletteBase */
-     , (53356,   8,  100668365) /* Icon */
-     , (53356,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53356,   1, 0x02000921) /* Setup */
+     , (53356,   3, 0x20000014) /* SoundTable */
+     , (53356,   6, 0x04000BEF) /* PaletteBase */
+     , (53356,   8, 0x060013CD) /* Icon */
+     , (53356,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53356,  28,       1637) /* Spell - SummonPortal3 */
      , (53356, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (53356, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -43,7 +43,7 @@ VALUES (53356,   1,   33556769) /* Setup */
      , (53356, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53356, 8000, 2870432902) /* PCAPRecordedObjectIID */;
+VALUES (53356, 8000, 0xAB175486) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53356, 67111920, 0, 0);

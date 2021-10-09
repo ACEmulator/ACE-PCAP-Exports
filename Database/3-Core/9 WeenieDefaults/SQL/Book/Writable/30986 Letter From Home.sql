@@ -23,22 +23,22 @@ VALUES (30986,   1, 'Letter From Home') /* Name */
      , (30986,  16, 'Double-click this note to read it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30986,   1,   33554773) /* Setup */
-     , (30986,   3,  536870932) /* SoundTable */
-     , (30986,   8,  100667503) /* Icon */
-     , (30986,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30986,   1, 0x02000155) /* Setup */
+     , (30986,   3, 0x20000014) /* SoundTable */
+     , (30986,   8, 0x0600106F) /* Icon */
+     , (30986,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30986, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (30986, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (30986, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30986, 8000, 3618496356) /* PCAPRecordedObjectIID */;
+VALUES (30986, 8000, 0xD7ADDF64) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (30986, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30986, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'This war takes its toll. Roulea is no more. Aluvia''s fall is but a matter of time. Our own desert realm exists entirely at the whim of the Viamontian King. He knows full well that our defense is but a show. Should he choose to press his attack, I fear that the Malika''s glorious army will fall like wheat to the scythe.
+VALUES (30986, 0, 4294967295, '', 'prewritten', False, 'This war takes its toll. Roulea is no more. Aluvia''s fall is but a matter of time. Our own desert realm exists entirely at the whim of the Viamontian King. He knows full well that our defense is but a show. Should he choose to press his attack, I fear that the Malika''s glorious army will fall like wheat to the scythe.
 
 I know not what lies beyond the portal you have chosen to take. Perhaps a life of joy and peace; perhaps not. Whatever lies out there, I wish you luck. This old world is too full of death and pain. You deserve better than that.
 ');

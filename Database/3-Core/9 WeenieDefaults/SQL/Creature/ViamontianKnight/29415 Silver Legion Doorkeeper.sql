@@ -26,22 +26,22 @@ VALUES (29415,   1, 'Silver Legion Doorkeeper') /* Name */
      , (29415, 8006, 'AAA9AEAAAAAAAMC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29415,   1,   33559125) /* Setup */
-     , (29415,   2,  150995334) /* MotionTable */
-     , (29415,   3,  536871102) /* SoundTable */
-     , (29415,   6,   67115468) /* PaletteBase */
-     , (29415,   8,  100677371) /* Icon */
-     , (29415,  22,  872415269) /* PhysicsEffectTable */
+VALUES (29415,   1, 0x02001255) /* Setup */
+     , (29415,   2, 0x09000186) /* MotionTable */
+     , (29415,   3, 0x200000BE) /* SoundTable */
+     , (29415,   6, 0x040019CC) /* PaletteBase */
+     , (29415,   8, 0x060036FB) /* Icon */
+     , (29415,  22, 0x34000025) /* PhysicsEffectTable */
      , (29415, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (29415, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (29415, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29415, 8040, 1770070, 243.7643, -340.0911, 18.00679, 0.5483921, 0, 0, -0.8362213) /* PCAPRecordedLocation */
+VALUES (29415, 8040, 0x001B0256, 243.7643, -340.0911, 18.00679, 0.548392, 0, 0, -0.836221) /* PCAPRecordedLocation */
 /* @teleloc 0x001B0256 [243.764300 -340.091100 18.006790] 0.548392 0.000000 0.000000 -0.836221 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29415, 8000, 3695405278) /* PCAPRecordedObjectIID */;
+VALUES (29415, 8000, 0xDC4368DE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29415,   1, 355, 0, 0) /* Strength */

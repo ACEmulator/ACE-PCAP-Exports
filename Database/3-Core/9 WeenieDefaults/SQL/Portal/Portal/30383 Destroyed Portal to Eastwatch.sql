@@ -22,16 +22,16 @@ VALUES (30383,   1, 'Destroyed Portal to Eastwatch') /* Name */
      , (30383, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30383,   1,   33561060) /* Setup */
-     , (30383,   2,  150995314) /* MotionTable */
-     , (30383,   8,  100667499) /* Icon */
+VALUES (30383,   1, 0x020019E4) /* Setup */
+     , (30383,   2, 0x09000172) /* MotionTable */
+     , (30383,   8, 0x0600106B) /* Icon */
      , (30383, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (30383, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (30383, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30383, 8040, 853016628, 149.605, 94.1902, 55.79017, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (30383, 8040, 0x32D80034, 149.605, 94.1902, 55.79017, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x32D80034 [149.605000 94.190200 55.790170] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30383, 8000, 1932361728) /* PCAPRecordedObjectIID */;
+VALUES (30383, 8000, 0x732D8000) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (46863,   1, 'Aura of Heartseeker Other III') /* Name */
 Increases a weapon''s Attack Skill modifier by 7.5 percentage points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46863,   1,   33554826) /* Setup */
-     , (46863,   8,  100676660) /* Icon */
-     , (46863,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46863,   1, 0x0200018A) /* Setup */
+     , (46863,   8, 0x06003434) /* Icon */
+     , (46863,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46863,  28,       6009) /* Spell - HeartSeekerOther3 */
      , (46863, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (46863, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46863, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46863, 8000, 3710700351) /* PCAPRecordedObjectIID */;
+VALUES (46863, 8000, 0xDD2CCB3F) /* PCAPRecordedObjectIID */;

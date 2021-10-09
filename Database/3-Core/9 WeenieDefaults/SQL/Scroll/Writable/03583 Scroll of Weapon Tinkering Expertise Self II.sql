@@ -24,13 +24,13 @@ VALUES (3583,   1, 'Scroll of Weapon Tinkering Expertise Self II') /* Name */
 Increases the caster''s Weapon Tinkering skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3583,   1,   33554826) /* Setup */
-     , (3583,   8,  100676477) /* Icon */
-     , (3583,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3583,   1, 0x0200018A) /* Setup */
+     , (3583,   8, 0x0600337D) /* Icon */
+     , (3583,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3583,  28,        775) /* Spell - WeaponExpertiseSelf2 */
      , (3583, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3583, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3583, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3583, 8000, 3624586691) /* PCAPRecordedObjectIID */;
+VALUES (3583, 8000, 0xD80ACDC3) /* PCAPRecordedObjectIID */;

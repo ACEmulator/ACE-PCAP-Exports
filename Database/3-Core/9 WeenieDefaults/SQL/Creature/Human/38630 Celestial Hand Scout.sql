@@ -14,7 +14,7 @@ VALUES (38630,   1,         16) /* ItemType - Creature */
      , (38630, 113,          1) /* Gender - Male */
      , (38630, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38630, 188,          1) /* HeritageGroup - Aluvian */
-     , (38630, 281,          1) /* Faction1Bits */
+     , (38630, 281,          1) /* Faction1Bits - CelestialHand */
      , (38630, 287,        101) /* SocietyRankCelhan */
      , (38630, 307,          5) /* DamageRating */
      , (38630, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -27,28 +27,28 @@ VALUES (38630,   1, 'Celestial Hand Scout') /* Name */
      , (38630, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38630,   1,   33554433) /* Setup */
-     , (38630,   2,  150994945) /* MotionTable */
-     , (38630,   3,  536870913) /* SoundTable */
-     , (38630,   6,   67108990) /* PaletteBase */
-     , (38630,   8,  100667446) /* Icon */
-     , (38630,   9,   83890509) /* EyesTexture */
-     , (38630,  10,   83890550) /* NoseTexture */
-     , (38630,  11,   83890641) /* MouthTexture */
-     , (38630,  15,   67117026) /* HairPalette */
-     , (38630,  16,   67109567) /* EyesPalette */
-     , (38630,  17,   67109558) /* SkinPalette */
-     , (38630,  22,  872415236) /* PhysicsEffectTable */
+VALUES (38630,   1, 0x02000001) /* Setup */
+     , (38630,   2, 0x09000001) /* MotionTable */
+     , (38630,   3, 0x20000001) /* SoundTable */
+     , (38630,   6, 0x0400007E) /* PaletteBase */
+     , (38630,   8, 0x06001036) /* Icon */
+     , (38630,   9, 0x0500114D) /* EyesTexture */
+     , (38630,  10, 0x05001176) /* NoseTexture */
+     , (38630,  11, 0x050011D1) /* MouthTexture */
+     , (38630,  15, 0x04001FE2) /* HairPalette */
+     , (38630,  16, 0x040002BF) /* EyesPalette */
+     , (38630,  17, 0x040002B6) /* SkinPalette */
+     , (38630,  22, 0x34000004) /* PhysicsEffectTable */
      , (38630, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (38630, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (38630, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38630, 8040, 14680555, 29.5027, -122.073, 6.005, -0.006109052, 0, 0, -0.9999813) /* PCAPRecordedLocation */
+VALUES (38630, 8040, 0x00E001EB, 29.5027, -122.073, 6.005, -0.006109, 0, 0, -0.999981) /* PCAPRecordedLocation */
 /* @teleloc 0x00E001EB [29.502700 -122.073000 6.005000] -0.006109 0.000000 0.000000 -0.999981 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38630, 8000, 3704754951) /* PCAPRecordedObjectIID */;
+VALUES (38630, 8000, 0xDCD21307) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38630,   1, 320, 0, 0) /* Strength */

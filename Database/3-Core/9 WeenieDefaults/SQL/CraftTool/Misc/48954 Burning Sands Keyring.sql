@@ -36,17 +36,17 @@ VALUES (48954,   1, 'Burning Sands Keyring') /* Name */
      , (48954,  16, 'A crude keyring roughly carved out of a burning sands golem heart. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48954,   1,   33554790) /* Setup */
-     , (48954,   3,  536870932) /* SoundTable */
-     , (48954,   8,  100693006) /* Icon */
-     , (48954,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48954,   1, 0x02000166) /* Setup */
+     , (48954,   3, 0x20000014) /* SoundTable */
+     , (48954,   8, 0x0600740E) /* Icon */
+     , (48954,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48954, 8001,  271072280) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, TargetType, Burden, HookType */
      , (48954, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48954, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48954, 8040, 23855555, 56.16494, -35.75027, 0.03300015, -0.05077174, 0, 0, -0.9987103) /* PCAPRecordedLocation */
+VALUES (48954, 8040, 0x016C01C3, 56.16494, -35.75027, 0.033, -0.050772, 0, 0, -0.99871) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.164940 -35.750270 0.033000] -0.050772 0.000000 0.000000 -0.998710 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48954, 8000, 2161267443) /* PCAPRecordedObjectIID */;
+VALUES (48954, 8000, 0x80D252F3) /* PCAPRecordedObjectIID */;

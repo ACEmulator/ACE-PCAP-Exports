@@ -14,7 +14,8 @@ VALUES (34346,   1,        128) /* ItemType - Misc */
      , (34346, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34346,  22, True ) /* Inscribable */;
+VALUES (34346,  22, True ) /* Inscribable */
+     , (34346,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34346,  39,    0.37) /* DefaultScale */;
@@ -24,13 +25,13 @@ VALUES (34346,   1, 'Ancient Shard of Metal') /* Name */
      , (34346,  16, 'A piece of metal found in a chest in the Folthid Cellar. It has faint designs illegibly carved onto the face. There is a small amount of a purple corrosion on one side.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34346,   1,   33554683) /* Setup */
-     , (34346,   3,  536870932) /* SoundTable */
-     , (34346,   8,  100689307) /* Icon */
-     , (34346,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34346,   1, 0x020000FB) /* Setup */
+     , (34346,   3, 0x20000014) /* SoundTable */
+     , (34346,   8, 0x0600659B) /* Icon */
+     , (34346,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34346, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (34346, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34346, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34346, 8000, 2614854298) /* PCAPRecordedObjectIID */;
+VALUES (34346, 8000, 0x9BDB829A) /* PCAPRecordedObjectIID */;

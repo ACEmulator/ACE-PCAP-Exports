@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37795,   1, 'Inscription of Frost Arc') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37795,   1,   33554826) /* Setup */
-     , (37795,   8,  100677016) /* Icon */
-     , (37795,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37795,   1, 0x0200018A) /* Setup */
+     , (37795,   8, 0x06003598) /* Icon */
+     , (37795,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37795,  28,       4425) /* Spell - FrostArc8 */
      , (37795, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37795, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37795, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37795, 8000, 3663814261) /* PCAPRecordedObjectIID */;
+VALUES (37795, 8000, 0xDA615E75) /* PCAPRecordedObjectIID */;

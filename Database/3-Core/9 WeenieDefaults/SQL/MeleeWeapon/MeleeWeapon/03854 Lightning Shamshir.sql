@@ -54,20 +54,20 @@ VALUES (3854,   1, 'Lightning Shamshir') /* Name */
      , (3854,  16, 'Lightning Shamshir of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3854,   1,   33555782) /* Setup */
-     , (3854,   3,  536870932) /* SoundTable */
-     , (3854,   8,  100667604) /* Icon */
-     , (3854,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3854,   1, 0x02000546) /* Setup */
+     , (3854,   3, 0x20000014) /* SoundTable */
+     , (3854,   8, 0x060010D4) /* Icon */
+     , (3854,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3854,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3854, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3854, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3854, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3854, 8000, 2995798185) /* PCAPRecordedObjectIID */;
+VALUES (3854, 8000, 0xB29040A9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3854,  1402,      2)  /* QuicknessSelf6 */
-     , (3854,  1605,      2)  /* DefenderSelf6 */
+VALUES (3854,  1605,      2)  /* DefenderSelf6 */
      , (3854,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (3854,  2579,      2)  /* CANTRIPCOORDINATION1 */;
+     , (3854,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (3854,  1402,      2)  /* QuicknessSelf6 */;

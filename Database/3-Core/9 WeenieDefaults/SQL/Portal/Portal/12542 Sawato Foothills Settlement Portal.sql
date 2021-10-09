@@ -22,16 +22,16 @@ VALUES (12542,   1, 'Sawato Foothills Settlement Portal') /* Name */
      , (12542, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12542,   1,   33554867) /* Setup */
-     , (12542,   2,  150994947) /* MotionTable */
-     , (12542,   8,  100667499) /* Icon */
+VALUES (12542,   1, 0x020001B3) /* Setup */
+     , (12542,   2, 0x09000003) /* MotionTable */
+     , (12542,   8, 0x0600106B) /* Icon */
      , (12542, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12542, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12542, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12542, 8040, 3395092500, 57.696, 87.7449, 11.937, -0.7282411, 0, 0, -0.685321) /* PCAPRecordedLocation */
+VALUES (12542, 8040, 0xCA5D0014, 57.696, 87.7449, 11.937, -0.728241, 0, 0, -0.685321) /* PCAPRecordedLocation */
 /* @teleloc 0xCA5D0014 [57.696000 87.744900 11.937000] -0.728241 0.000000 0.000000 -0.685321 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12542, 8000, 2091241473) /* PCAPRecordedObjectIID */;
+VALUES (12542, 8000, 0x7CA5D001) /* PCAPRecordedObjectIID */;

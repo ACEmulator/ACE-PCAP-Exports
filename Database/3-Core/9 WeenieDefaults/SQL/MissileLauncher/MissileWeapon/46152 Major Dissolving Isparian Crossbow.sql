@@ -16,7 +16,7 @@ VALUES (46152,   1,        256) /* ItemType - MissileWeapon */
      , (46152,  48,         47) /* WeaponSkill - MissileWeapons */
      , (46152,  49,         45) /* WeaponTime */
      , (46152,  50,          2) /* AmmoType - Bolt */
-     , (46152,  51,          2) /* CombatUse - Missle */
+     , (46152,  51,          2) /* CombatUse - Missile */
      , (46152,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46152, 106,        300) /* ItemSpellcraft */
      , (46152, 107,        356) /* ItemCurMana */
@@ -34,6 +34,7 @@ VALUES (46152,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46152,  22, True ) /* Inscribable */
+     , (46152,  23, True ) /* DestroyOnSell */
      , (46152,  69, False) /* IsSellable */
      , (46152,  99, True ) /* Ivoryable */;
 
@@ -53,25 +54,25 @@ VALUES (46152,   1, 'Major Dissolving Isparian Crossbow') /* Name */
      , (46152,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46152,   1,   33557769) /* Setup */
-     , (46152,   3,  536870932) /* SoundTable */
-     , (46152,   6,   67111919) /* PaletteBase */
-     , (46152,   8,  100673025) /* Icon */
-     , (46152,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46152,   1, 0x02000D09) /* Setup */
+     , (46152,   3, 0x20000014) /* SoundTable */
+     , (46152,   6, 0x04000BEF) /* PaletteBase */
+     , (46152,   8, 0x06002601) /* Icon */
+     , (46152,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46152, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46152, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46152, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46152, 8000, 3678900315) /* PCAPRecordedObjectIID */;
+VALUES (46152, 8000, 0xDB47905B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46152,  2059,      2)  /* CoordinationSelf7 */
-     , (46152,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (46152,  2101,      2)  /* DefenderSelf7 */
-     , (46152,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (46152,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46152,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+     , (46152,  2059,      2)  /* CoordinationSelf7 */
      , (46152,  2149,      2)  /* AcidProtectionSelf7 */
-     , (46152,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */;
+     , (46152,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46152,  2101,      2)  /* DefenderSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46152, 67111923, 0, 0);

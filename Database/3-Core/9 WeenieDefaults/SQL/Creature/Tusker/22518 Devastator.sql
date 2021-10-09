@@ -25,22 +25,22 @@ VALUES (22518,   1, 'Devastator') /* Name */
      , (22518, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22518,   1,   33556836) /* Setup */
-     , (22518,   2,  150994956) /* MotionTable */
-     , (22518,   3,  536870929) /* SoundTable */
-     , (22518,   6,   67113007) /* PaletteBase */
-     , (22518,   8,  100667443) /* Icon */
-     , (22518,  22,  872415271) /* PhysicsEffectTable */
+VALUES (22518,   1, 0x02000964) /* Setup */
+     , (22518,   2, 0x0900000C) /* MotionTable */
+     , (22518,   3, 0x20000011) /* SoundTable */
+     , (22518,   6, 0x0400102F) /* PaletteBase */
+     , (22518,   8, 0x06001033) /* Icon */
+     , (22518,  22, 0x34000027) /* PhysicsEffectTable */
      , (22518, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (22518, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22518, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22518, 8040, 4084006941, 88.31769, 119.9609, 21.84789, 0.6552086, 0, 0, -0.755448) /* PCAPRecordedLocation */
+VALUES (22518, 8040, 0xF36D001D, 88.31769, 119.9609, 21.84789, 0.655209, 0, 0, -0.755448) /* PCAPRecordedLocation */
 /* @teleloc 0xF36D001D [88.317690 119.960900 21.847890] 0.655209 0.000000 0.000000 -0.755448 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22518, 8000, 3690479785) /* PCAPRecordedObjectIID */;
+VALUES (22518, 8000, 0xDBF840A9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22518,   1, 240, 0, 0) /* Strength */
@@ -278,7 +278,14 @@ VALUES (22518, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for C
      , (22518, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */
      , (22518, 9,  2401,  1, 0, 0, False) /* Create Gem (2401) for ContainTreasure */
      , (22518, 9, 29263,  0, 0, 0, False) /* Create Frost Sceptre (29263) for ContainTreasure */
-     , (22518, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */;
+     , (22518, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */
+     , (22518, 9, 20599,  0, 0, 0, False) /* Create Scroll of Eye of the Grunt (20599) for ContainTreasure */
+     , (22518, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (22518, 9, 43377,  0, 0, 0, False) /* Create Scroll of Void Mastery Self VII (43377) for ContainTreasure */
+     , (22518, 9,  2394,  1, 0, 0, False) /* Create Gem (2394) for ContainTreasure */
+     , (22518, 9, 20460,  0, 0, 0, False) /* Create Scroll of Crushing Shame (20460) for ContainTreasure */
+     , (22518, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
+     , (22518, 9, 29254,  0, 0, 0, False) /* Create Electric Atlatl (29254) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22518, 67113008, 0, 0);

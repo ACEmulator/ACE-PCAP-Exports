@@ -22,16 +22,16 @@ VALUES (1017,   1, 'Destroyed Glenden Wood Portal') /* Name */
      , (1017, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1017,   1,   33561060) /* Setup */
-     , (1017,   2,  150995314) /* MotionTable */
-     , (1017,   8,  100667499) /* Icon */
+VALUES (1017,   1, 0x020019E4) /* Setup */
+     , (1017,   2, 0x09000172) /* MotionTable */
+     , (1017,   8, 0x0600106B) /* Icon */
      , (1017, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (1017, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1017, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1017, 8040, 45809930, 40, -3.3, -18.20983, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (1017, 8040, 0x02BB010A, 40, -3.3, -18.20983, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x02BB010A [40.000000 -3.300000 -18.209830] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1017, 8000, 1881911303) /* PCAPRecordedObjectIID */;
+VALUES (1017, 8000, 0x702BB007) /* PCAPRecordedObjectIID */;

@@ -17,10 +17,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4587,   1, 'Heal Other II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4587,   1,   33554680) /* Setup */
-     , (4587,   3,  536870932) /* SoundTable */
-     , (4587,   8,  100668279) /* Icon */
-     , (4587,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4587,   1, 0x020000F8) /* Setup */
+     , (4587,   3, 0x20000014) /* SoundTable */
+     , (4587,   8, 0x06001377) /* Icon */
+     , (4587,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4587,  28,       1162) /* Spell - HealOther2 */
      , (4587, 8001,    4210712) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Spell */
      , (4587, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
@@ -28,4 +28,4 @@ VALUES (4587,   1,   33554680) /* Setup */
      , (4587, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4587, 8000,       4587) /* PCAPRecordedObjectIID */;
+VALUES (4587, 8000, 0x000011EB) /* PCAPRecordedObjectIID */;

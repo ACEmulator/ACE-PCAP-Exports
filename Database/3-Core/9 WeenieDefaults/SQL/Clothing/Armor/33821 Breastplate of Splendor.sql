@@ -43,24 +43,24 @@ VALUES (33821,   1, 'Breastplate of Splendor') /* Name */
      , (33821,  16, 'A Breastplate bearing the mark of the Firebird.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33821,   1,   33560094) /* Setup */
-     , (33821,   3,  536870932) /* SoundTable */
-     , (33821,   6,   67108990) /* PaletteBase */
-     , (33821,   8,  100668147) /* Icon */
-     , (33821,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33821,   1, 0x0200161E) /* Setup */
+     , (33821,   3, 0x20000014) /* SoundTable */
+     , (33821,   6, 0x0400007E) /* PaletteBase */
+     , (33821,   8, 0x060012F3) /* Icon */
+     , (33821,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33821,  37,         14) /* ItemSkillLimit - ArcaneLore */
      , (33821, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (33821, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33821, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33821, 8000, 2192305372) /* PCAPRecordedObjectIID */;
+VALUES (33821, 8000, 0x82ABECDC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33821,  2108,      2)  /* Impenetrability7 */
+VALUES (33821,  2661,      2)  /* ModerateFocus */
+     , (33821,  2664,      2)  /* ModerateWillpower */
      , (33821,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */
-     , (33821,  2661,      2)  /* ModerateFocus */
-     , (33821,  2664,      2)  /* ModerateWillpower */;
+     , (33821,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33821, 67116812, 174, 66);

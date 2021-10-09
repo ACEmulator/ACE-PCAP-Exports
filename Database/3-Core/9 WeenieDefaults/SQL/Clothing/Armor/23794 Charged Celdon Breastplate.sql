@@ -41,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23794,   1, 'Charged Celdon Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23794,   1,   33554642) /* Setup */
-     , (23794,   3,  536870932) /* SoundTable */
-     , (23794,   6,   67108990) /* PaletteBase */
-     , (23794,   8,  100674069) /* Icon */
-     , (23794,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23794,   1, 0x020000D2) /* Setup */
+     , (23794,   3, 0x20000014) /* SoundTable */
+     , (23794,   6, 0x0400007E) /* PaletteBase */
+     , (23794,   8, 0x06002A15) /* Icon */
+     , (23794,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23794, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (23794, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23794, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23794, 8000, 2461649832) /* PCAPRecordedObjectIID */;
+VALUES (23794, 8000, 0x92B9CBA8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23794,  2615,      2)  /* CANTRIPSTORMWARD2 */;

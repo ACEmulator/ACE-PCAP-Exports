@@ -54,24 +54,24 @@ VALUES (37216,   1, 'Olthoi Breastplate') /* Name */
      , (37216,  16, 'Olthoi Breastplate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37216,   1,   33554642) /* Setup */
-     , (37216,   3,  536870932) /* SoundTable */
-     , (37216,   6,   67108990) /* PaletteBase */
-     , (37216,   8,  100674609) /* Icon */
-     , (37216,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37216,   1, 0x020000D2) /* Setup */
+     , (37216,   3, 0x20000014) /* SoundTable */
+     , (37216,   6, 0x0400007E) /* PaletteBase */
+     , (37216,   8, 0x06002C31) /* Icon */
+     , (37216,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37216,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (37216, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (37216, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37216, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37216, 8000, 2174543147) /* PCAPRecordedObjectIID */;
+VALUES (37216, 8000, 0x819CE52B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37216,  2102,      2)  /* FlameBane7 */
-     , (37216,  2108,      2)  /* Impenetrability7 */
-     , (37216,  2113,      2)  /* PiercingBane7 */
-     , (37216,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */;
+VALUES (37216,  2113,      2)  /* PiercingBane7 */
+     , (37216,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */
+     , (37216,  2102,      2)  /* FlameBane7 */
+     , (37216,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37216, 67116573, 174, 33)

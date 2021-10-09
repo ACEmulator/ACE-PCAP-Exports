@@ -24,13 +24,13 @@ VALUES (25759,   1, 'Shrubbery') /* Name */
      , (25759,  16, 'A green bush used to decorate yards.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25759,   1,   33558531) /* Setup */
-     , (25759,   3,  536870932) /* SoundTable */
-     , (25759,   8,  100675563) /* Icon */
-     , (25759,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25759,   1, 0x02001003) /* Setup */
+     , (25759,   3, 0x20000014) /* SoundTable */
+     , (25759,   8, 0x06002FEB) /* Icon */
+     , (25759,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25759, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (25759, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25759, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25759, 8000, 2166169893) /* PCAPRecordedObjectIID */;
+VALUES (25759, 8000, 0x811D2125) /* PCAPRecordedObjectIID */;

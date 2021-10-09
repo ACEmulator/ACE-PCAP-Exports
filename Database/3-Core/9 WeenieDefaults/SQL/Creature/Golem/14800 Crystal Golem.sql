@@ -22,22 +22,22 @@ VALUES (14800,   1, 'Crystal Golem') /* Name */
      , (14800, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14800,   1,   33556439) /* Setup */
-     , (14800,   2,  150995073) /* MotionTable */
-     , (14800,   3,  536870933) /* SoundTable */
-     , (14800,   6,   67112808) /* PaletteBase */
-     , (14800,   8,  100667940) /* Icon */
-     , (14800,  22,  872415322) /* PhysicsEffectTable */
+VALUES (14800,   1, 0x020007D7) /* Setup */
+     , (14800,   2, 0x09000081) /* MotionTable */
+     , (14800,   3, 0x20000015) /* SoundTable */
+     , (14800,   6, 0x04000F68) /* PaletteBase */
+     , (14800,   8, 0x06001224) /* Icon */
+     , (14800,  22, 0x3400005A) /* PhysicsEffectTable */
      , (14800, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (14800, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14800, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14800, 8040, 2261450790, 112.9738, 132.4402, 79.38874, -0.4785324, 0, 0, -0.8780699) /* PCAPRecordedLocation */
+VALUES (14800, 8040, 0x86CB0026, 112.9738, 132.4402, 79.38874, -0.478532, 0, 0, -0.87807) /* PCAPRecordedLocation */
 /* @teleloc 0x86CB0026 [112.973800 132.440200 79.388740] -0.478532 0.000000 0.000000 -0.878070 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14800, 8000, 3685943783) /* PCAPRecordedObjectIID */;
+VALUES (14800, 8000, 0xDBB309E7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14800,   1, 300, 0, 0) /* Strength */
@@ -53,7 +53,8 @@ VALUES (14800,   1,   500, 0, 0, 1000) /* MaxHealth */
      , (14800,   5,   500, 0, 0, 800) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14800, 9, 49241,  0, 0, 0, False) /* Create Lightning Zombie Essence (80) (49241) for ContainTreasure */
+VALUES (14800, 2, 12064,  1, 0, 0, False) /* Create Bandit Flaming Khanjar (12064) for Wield */
+     , (14800, 9, 49241,  0, 0, 0, False) /* Create Lightning Zombie Essence (80) (49241) for ContainTreasure */
      , (14800, 9,  8489,  0, 0, 0, False) /* Create Heaume (8489) for ContainTreasure */
      , (14800, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
      , (14800, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */

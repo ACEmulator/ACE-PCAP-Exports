@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22543,   1,        256) /* ItemType - MissileWeapon */
      , (22543,   5,         15) /* EncumbranceVal */
      , (22543,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (22543,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (22543,  11,         30) /* MaxStackSize */
      , (22543,  12,          1) /* StackSize */
      , (22543,  13,         15) /* StackUnitEncumbrance */
@@ -20,7 +19,7 @@ VALUES (22543,   1,        256) /* ItemType - MissileWeapon */
      , (22543,  45,          8) /* DamageType - Cold */
      , (22543,  48,         47) /* WeaponSkill - MissileWeapons */
      , (22543,  49,         10) /* WeaponTime */
-     , (22543,  51,          2) /* CombatUse - Missle */
+     , (22543,  51,          2) /* CombatUse - Missile */
      , (22543,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (22543, 307,          5) /* DamageRating */
      , (22543, 313,          0) /* CritRating */
@@ -49,19 +48,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22543,   1, 'Frost Spines') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22543,   1,   33558112) /* Setup */
-     , (22543,   3,  536870932) /* SoundTable */
-     , (22543,   8,  100671205) /* Icon */
-     , (22543,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22543,   1, 0x02000E60) /* Setup */
+     , (22543,   3, 0x20000014) /* SoundTable */
+     , (22543,   8, 0x06001EE5) /* Icon */
+     , (22543,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22543, 8001,    2339480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (22543, 8003,        144) /* PCAPRecordedObjectDesc - Attackable, UiHidden */
      , (22543, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
      , (22543, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22543, 8040, 4017094707, 160.3582, 67.71717, 1.326683, -0.1956339, 0, 0, -0.980677) /* PCAPRecordedLocation */
+VALUES (22543, 8040, 0xEF700033, 160.3582, 67.71717, 1.326683, -0.195634, 0, 0, -0.980677) /* PCAPRecordedLocation */
 /* @teleloc 0xEF700033 [160.358200 67.717170 1.326683] -0.195634 0.000000 0.000000 -0.980677 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22543, 8000, 3690531190) /* PCAPRecordedObjectIID */
-     , (22543, 8008, 3690531189) /* PCAPRecordedParentIID */;
+VALUES (22543, 8000, 0xDBF90976) /* PCAPRecordedObjectIID */
+     , (22543, 8008, 0xDBF90975) /* PCAPRecordedParentIID */;

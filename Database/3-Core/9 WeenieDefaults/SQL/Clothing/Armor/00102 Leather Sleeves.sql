@@ -20,18 +20,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (102,   1, 'Leather Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (102,   1,   33554653) /* Setup */
-     , (102,   3,  536870932) /* SoundTable */
-     , (102,   6,   67108990) /* PaletteBase */
-     , (102,   8,  100668412) /* Icon */
-     , (102,  22,  872415275) /* PhysicsEffectTable */
+VALUES (102,   1, 0x020000DD) /* Setup */
+     , (102,   3, 0x20000014) /* SoundTable */
+     , (102,   6, 0x0400007E) /* PaletteBase */
+     , (102,   8, 0x060013FC) /* Icon */
+     , (102,  22, 0x3400002B) /* PhysicsEffectTable */
      , (102, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (102, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (102, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
      , (102, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (102, 8000,        102) /* PCAPRecordedObjectIID */;
+VALUES (102, 8000, 0x00000066) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (102, 67110337, 64, 8);

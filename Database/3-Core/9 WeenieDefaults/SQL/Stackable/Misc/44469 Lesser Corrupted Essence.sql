@@ -23,17 +23,17 @@ VALUES (44469,   1, 'Lesser Corrupted Essence') /* Name */
      , (44469,  16, 'A small corrupted essence from a Dark Isle creature.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44469,   1,   33554817) /* Setup */
-     , (44469,   3,  536870932) /* SoundTable */
-     , (44469,   8,  100692041) /* Icon */
-     , (44469,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44469,   1, 0x02000181) /* Setup */
+     , (44469,   3, 0x20000014) /* SoundTable */
+     , (44469,   8, 0x06007049) /* Icon */
+     , (44469,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44469, 8001,    2109584) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Burden */
      , (44469, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44469, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44469, 8040, 23855555, 56.77579, -35.84814, -0.002499998, 0.009753506, 0, 0, -0.9999524) /* PCAPRecordedLocation */
+VALUES (44469, 8040, 0x016C01C3, 56.77579, -35.84814, -0.0025, 0.009754, 0, 0, -0.999952) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.775790 -35.848140 -0.002500] 0.009754 0.000000 0.000000 -0.999952 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44469, 8000, 2147544724) /* PCAPRecordedObjectIID */;
+VALUES (44469, 8000, 0x8000EE94) /* PCAPRecordedObjectIID */;

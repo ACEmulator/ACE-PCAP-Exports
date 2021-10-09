@@ -17,15 +17,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23045,   1, 'Coordination To Endurance Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23045,   1,   33558087) /* Setup */
-     , (23045,   6,   67111919) /* PaletteBase */
-     , (23045,   8,  100673957) /* Icon */
+VALUES (23045,   1, 0x02000E47) /* Setup */
+     , (23045,   6, 0x04000BEF) /* PaletteBase */
+     , (23045,   8, 0x060029A5) /* Icon */
      , (23045, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (23045, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23045, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23045, 8000, 2382720304) /* PCAPRecordedObjectIID */;
+VALUES (23045, 8000, 0x8E056D30) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23045, 67111924, 0, 0);

@@ -16,7 +16,7 @@ VALUES (21964,   1,        256) /* ItemType - MissileWeapon */
      , (21964,  48,         47) /* WeaponSkill - MissileWeapons */
      , (21964,  49,         30) /* WeaponTime */
      , (21964,  50,         64) /* AmmoType - ArrowChorizite */
-     , (21964,  51,          2) /* CombatUse - Missle */
+     , (21964,  51,          2) /* CombatUse - Missile */
      , (21964,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21964, 114,          0) /* Attuned - Normal */
      , (21964, 151,          2) /* HookType - Wall */
@@ -49,18 +49,18 @@ VALUES (21964,   1, 'Phantom Bow') /* Name */
      , (21964,  25, 'Fenn') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21964,   1,   33554728) /* Setup */
-     , (21964,   3,  536870932) /* SoundTable */
-     , (21964,   6,   67111919) /* PaletteBase */
-     , (21964,   8,  100668821) /* Icon */
-     , (21964,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21964,   1, 0x02000128) /* Setup */
+     , (21964,   3, 0x20000014) /* SoundTable */
+     , (21964,   6, 0x04000BEF) /* PaletteBase */
+     , (21964,   8, 0x06001595) /* Icon */
+     , (21964,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21964,  30,         88) /* PhysicsScript - Create */
      , (21964, 8001,  270615320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (21964, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21964, 8005,     423937) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21964, 8000, 2209830289) /* PCAPRecordedObjectIID */;
+VALUES (21964, 8000, 0x83B75591) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21964, 67111923, 0, 0);

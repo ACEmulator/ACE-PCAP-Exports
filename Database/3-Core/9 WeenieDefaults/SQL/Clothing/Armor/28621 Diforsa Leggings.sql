@@ -43,24 +43,24 @@ VALUES (28621,   1, 'Diforsa Leggings') /* Name */
      , (28621,  16, 'Diforsa Leggings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28621,   1,   33559330) /* Setup */
-     , (28621,   3,  536870932) /* SoundTable */
-     , (28621,   6,   67108990) /* PaletteBase */
-     , (28621,   8,  100686058) /* Icon */
-     , (28621,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28621,   1, 0x02001322) /* Setup */
+     , (28621,   3, 0x20000014) /* SoundTable */
+     , (28621,   6, 0x0400007E) /* PaletteBase */
+     , (28621,   8, 0x060058EA) /* Icon */
+     , (28621,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28621,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (28621, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (28621, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28621, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28621, 8000, 3687734547) /* PCAPRecordedObjectIID */;
+VALUES (28621, 8000, 0xDBCE5D13) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28621,  1484,      2)  /* Impenetrability4 */
+VALUES (28621,  1539,      2)  /* LightningBane5 */
+     , (28621,  1484,      2)  /* Impenetrability4 */
      , (28621,  1496,      2)  /* AcidBane4 */
-     , (28621,  1528,      2)  /* FrostBane6 */
-     , (28621,  1539,      2)  /* LightningBane5 */;
+     , (28621,  1528,      2)  /* FrostBane6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28621, 67116181, 136, 24);

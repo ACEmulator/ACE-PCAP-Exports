@@ -26,22 +26,22 @@ VALUES (8,   1, 'Creeper Mosswart') /* Name */
      , (8, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8,   1,   33557327) /* Setup */
-     , (8,   2,  150994953) /* MotionTable */
-     , (8,   3,  536870959) /* SoundTable */
-     , (8,   6,   67113400) /* PaletteBase */
-     , (8,   8,  100667449) /* Icon */
-     , (8,  22,  872415264) /* PhysicsEffectTable */
+VALUES (8,   1, 0x02000B4F) /* Setup */
+     , (8,   2, 0x09000009) /* MotionTable */
+     , (8,   3, 0x2000002F) /* SoundTable */
+     , (8,   6, 0x040011B8) /* PaletteBase */
+     , (8,   8, 0x06001039) /* Icon */
+     , (8,  22, 0x34000020) /* PhysicsEffectTable */
      , (8, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (8, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (8, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8, 8040, 3127902248, 108.2983, 175.8069, 16.00495, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (8, 8040, 0xBA700028, 108.2983, 175.8069, 16.00495, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xBA700028 [108.298300 175.806900 16.004950] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8, 8000, 3685099315) /* PCAPRecordedObjectIID */;
+VALUES (8, 8000, 0xDBA62733) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8,   1, 100, 0, 0) /* Strength */

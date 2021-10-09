@@ -24,17 +24,17 @@ VALUES (1844,   1, 'Scroll of Bludgeon Protection Other') /* Name */
 Reduces damage the target takes from Bludgeoning by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1844,   1,   33554826) /* Setup */
-     , (1844,   8,  100676952) /* Icon */
-     , (1844,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1844,   1, 0x0200018A) /* Setup */
+     , (1844,   8, 0x06003558) /* Icon */
+     , (1844,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1844,  28,       1024) /* Spell - BludgeonProtectionOther1 */
      , (1844, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (1844, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1844, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1844, 8040, 3097428025, 184.7662, 4.771002, 84.0855, 0.334344, 0, 0, -0.9424511) /* PCAPRecordedLocation */
+VALUES (1844, 8040, 0xB89F0039, 184.7662, 4.771002, 84.0855, 0.334344, 0, 0, -0.942451) /* PCAPRecordedLocation */
 /* @teleloc 0xB89F0039 [184.766200 4.771002 84.085500] 0.334344 0.000000 0.000000 -0.942451 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1844, 8000, 2931760905) /* PCAPRecordedObjectIID */;
+VALUES (1844, 8000, 0xAEBF1F09) /* PCAPRecordedObjectIID */;

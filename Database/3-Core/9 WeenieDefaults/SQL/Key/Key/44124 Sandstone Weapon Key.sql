@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44124,   1, 'Sandstone Weapon Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44124,   1,   33554784) /* Setup */
-     , (44124,   3,  536870932) /* SoundTable */
-     , (44124,   8,  100691954) /* Icon */
-     , (44124,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44124,   1, 0x02000160) /* Setup */
+     , (44124,   3, 0x20000014) /* SoundTable */
+     , (44124,   8, 0x06006FF2) /* Icon */
+     , (44124,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44124, 8001,    2641048) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden */
      , (44124, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44124, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44124, 8000, 3630980395) /* PCAPRecordedObjectIID */;
+VALUES (44124, 8000, 0xD86C5D2B) /* PCAPRecordedObjectIID */;

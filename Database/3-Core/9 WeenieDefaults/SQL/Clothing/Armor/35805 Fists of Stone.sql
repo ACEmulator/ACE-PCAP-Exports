@@ -8,7 +8,6 @@ VALUES (35805,   1,          2) /* ItemType - Armor */
      , (35805,   4,      32768) /* ClothingPriority - Hands */
      , (35805,   5,        600) /* EncumbranceVal */
      , (35805,   9,         32) /* ValidLocations - HandWear */
-     , (35805,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (35805,  16,          1) /* ItemUseable - No */
      , (35805,  19,          0) /* Value */
      , (35805,  28,        440) /* ArmorLevel */
@@ -22,6 +21,7 @@ VALUES (35805,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35805,  22, True ) /* Inscribable */
+     , (35805,  23, True ) /* DestroyOnSell */
      , (35805,  99, True ) /* Ivoryable */
      , (35805, 100, True ) /* Dyable */;
 
@@ -41,26 +41,26 @@ VALUES (35805,   1, 'Fists of Stone') /* Name */
      , (35805,  16, 'A pair of enchanted gauntlets granted as a reward for defeating the Champion Stone Fists in the Colosseum.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35805,   1,   33560324) /* Setup */
-     , (35805,   3,  536870932) /* SoundTable */
-     , (35805,   8,  100686273) /* Icon */
-     , (35805,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35805,   1, 0x02001704) /* Setup */
+     , (35805,   3, 0x20000014) /* SoundTable */
+     , (35805,   8, 0x060059C1) /* Icon */
+     , (35805,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35805, 8001,    2588688) /* PCAPRecordedWeenieHeader - Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (35805, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35805, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35805, 8000, 2186220540) /* PCAPRecordedObjectIID */;
+VALUES (35805, 8000, 0x824F13FC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35805,   248,      2)  /* InvulnerabilitySelf5 */
-     , (35805,  1331,      2)  /* StrengthSelf5 */
+VALUES (35805,  2689,      2)  /* ModerateDaggerAptitude */
+     , (35805,  2694,      2)  /* ModerateSwordAptitude */
      , (35805,  1353,      2)  /* EnduranceSelf5 */
      , (35805,  1485,      2)  /* Impenetrability5 */
-     , (35805,  2686,      2)  /* ModerateAxeAptitude */
-     , (35805,  2687,      2)  /* ModerateBowAptitude */
-     , (35805,  2689,      2)  /* ModerateDaggerAptitude */
-     , (35805,  2694,      2)  /* ModerateSwordAptitude */
-     , (35805,  2812,      2)  /* ModerateWarMagicAptitude */
      , (35805,  5074,      2)  /* ModerateTwoHandedAptitude */
-     , (35805,  5430,      2)  /* ModerateVoidMagicAptitude */;
+     , (35805,  1331,      2)  /* StrengthSelf5 */
+     , (35805,  5430,      2)  /* ModerateVoidMagicAptitude */
+     , (35805,   248,      2)  /* InvulnerabilitySelf5 */
+     , (35805,  2812,      2)  /* ModerateWarMagicAptitude */
+     , (35805,  2686,      2)  /* ModerateAxeAptitude */
+     , (35805,  2687,      2)  /* ModerateBowAptitude */;

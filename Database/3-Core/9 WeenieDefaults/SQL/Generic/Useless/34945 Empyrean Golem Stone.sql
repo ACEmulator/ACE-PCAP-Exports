@@ -13,7 +13,8 @@ VALUES (34945,   1,       1024) /* ItemType - Useless */
      , (34945, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34945,  22, True ) /* Inscribable */;
+VALUES (34945,  22, True ) /* Inscribable */
+     , (34945,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34945,   1, 'Empyrean Golem Stone') /* Name */
@@ -21,13 +22,13 @@ VALUES (34945,   1, 'Empyrean Golem Stone') /* Name */
      , (34945,  16, 'An Empyrean stone with symbols of the Sun and the moons Alb''arel and Rez''arel on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34945,   1,   33560209) /* Setup */
-     , (34945,   3,  536870932) /* SoundTable */
-     , (34945,   8,  100689347) /* Icon */
-     , (34945,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34945,   1, 0x02001691) /* Setup */
+     , (34945,   3, 0x20000014) /* SoundTable */
+     , (34945,   8, 0x060065C3) /* Icon */
+     , (34945,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34945, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (34945, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34945, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34945, 8000, 2181543982) /* PCAPRecordedObjectIID */;
+VALUES (34945, 8000, 0x8207B82E) /* PCAPRecordedObjectIID */;

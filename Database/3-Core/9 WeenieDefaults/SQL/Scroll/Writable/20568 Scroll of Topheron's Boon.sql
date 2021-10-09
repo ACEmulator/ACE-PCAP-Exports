@@ -24,13 +24,13 @@ VALUES (20568,   1, 'Scroll of Topheron''s Boon') /* Name */
 Increases the target''s Assess Monster skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20568,   1,   33554826) /* Setup */
-     , (20568,   8,  100676448) /* Icon */
-     , (20568,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20568,   1, 0x0200018A) /* Setup */
+     , (20568,   8, 0x06003360) /* Icon */
+     , (20568,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20568,  28,       2288) /* Spell - MonsterAttunementOther7 */
      , (20568, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20568, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20568, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20568, 8000, 3707987549) /* PCAPRecordedObjectIID */;
+VALUES (20568, 8000, 0xDD03665D) /* PCAPRecordedObjectIID */;

@@ -18,18 +18,18 @@ VALUES (8257,   1, 'The Blue Grotto Pub') /* Name */
      , (8257,  16, 'The Blue Grotto Pub.  An Eating and Drinking Establishment. Est. Harvestgain, 11 P.Y. Anarn of Arwic, Proprietor. We reserve the right to refuse service to anyone, and to break legs if you make an issue of it. That means you, Jurraf.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8257,   1,   33555909) /* Setup */
-     , (8257,   8,  100668115) /* Icon */
+VALUES (8257,   1, 0x020005C5) /* Setup */
+     , (8257,   8, 0x060012D3) /* Icon */
      , (8257, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (8257, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (8257, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8257, 8040, 2471166451, 95.4984, 47.3102, -17.1, 0.9238797, 0, 0, -0.3826829) /* PCAPRecordedLocation */
+VALUES (8257, 8040, 0x934B01F3, 95.4984, 47.3102, -17.1, 0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
 /* @teleloc 0x934B01F3 [95.498400 47.310200 -17.100000] 0.923880 0.000000 0.000000 -0.382683 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8257, 8000, 2033496127) /* PCAPRecordedObjectIID */;
+VALUES (8257, 8000, 0x7934B03F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (8257, 0, 83892071, 83892183);

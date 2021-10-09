@@ -18,13 +18,13 @@ VALUES (23857,   1, 'Bundle of Spiketails') /* Name */
      , (23857,  20, 'Bundles of Spiketails') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23857,   1,   33558195) /* Setup */
-     , (23857,   3,  536870932) /* SoundTable */
-     , (23857,   8,  100674044) /* Icon */
-     , (23857,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23857,   1, 0x02000EB3) /* Setup */
+     , (23857,   3, 0x20000014) /* SoundTable */
+     , (23857,   8, 0x060029FC) /* Icon */
+     , (23857,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23857, 8001,      28681) /* PCAPRecordedWeenieHeader - PluralName, Value, StackSize, MaxStackSize, Container */
      , (23857, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (23857, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23857, 8000, 3692342569) /* PCAPRecordedObjectIID */;
+VALUES (23857, 8000, 0xDC14AD29) /* PCAPRecordedObjectIID */;

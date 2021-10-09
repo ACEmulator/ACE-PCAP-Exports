@@ -24,13 +24,13 @@ VALUES (3567,   1, 'Scroll of War Magic Ineptitude VI') /* Name */
 Decreases the target''s War Magic skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3567,   1,   33554826) /* Setup */
-     , (3567,   8,  100676479) /* Icon */
-     , (3567,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3567,   1, 0x0200018A) /* Setup */
+     , (3567,   8, 0x0600337F) /* Icon */
+     , (3567,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3567,  28,        652) /* Spell - WarMagicIneptitudeOther6 */
      , (3567, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3567, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3567, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3567, 8000, 3704011476) /* PCAPRecordedObjectIID */;
+VALUES (3567, 8000, 0xDCC6BAD4) /* PCAPRecordedObjectIID */;

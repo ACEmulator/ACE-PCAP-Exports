@@ -23,20 +23,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37464,   1, 'Atlatl Stamped Spectral Ingot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37464,   1,   33556769) /* Setup */
-     , (37464,   3,  536870932) /* SoundTable */
-     , (37464,   6,   67111919) /* PaletteBase */
-     , (37464,   8,  100689897) /* Icon */
-     , (37464,  22,  872415275) /* PhysicsEffectTable */
-     , (37464,  50,  100673784) /* IconOverlay */
-     , (37464,  52,  100689404) /* IconUnderlay */
+VALUES (37464,   1, 0x02000921) /* Setup */
+     , (37464,   3, 0x20000014) /* SoundTable */
+     , (37464,   6, 0x04000BEF) /* PaletteBase */
+     , (37464,   8, 0x060067E9) /* Icon */
+     , (37464,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37464,  50, 0x060028F8) /* IconOverlay */
+     , (37464,  52, 0x060065FC) /* IconUnderlay */
      , (37464, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (37464, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (37464, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (37464, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37464, 8000, 2547727660) /* PCAPRecordedObjectIID */;
+VALUES (37464, 8000, 0x97DB3D2C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37464, 67111927, 0, 0);

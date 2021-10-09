@@ -49,23 +49,23 @@ VALUES (40701,   1, 'Covenant Helm') /* Name */
      , (40701,  16, 'Covenant Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40701,   1,   33557884) /* Setup */
-     , (40701,   3,  536870932) /* SoundTable */
-     , (40701,   6,   67108990) /* PaletteBase */
-     , (40701,   8,  100673438) /* Icon */
-     , (40701,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40701,   1, 0x02000D7C) /* Setup */
+     , (40701,   3, 0x20000014) /* SoundTable */
+     , (40701,   6, 0x0400007E) /* PaletteBase */
+     , (40701,   8, 0x0600279E) /* Icon */
+     , (40701,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40701,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (40701, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (40701, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40701, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40701, 8000, 3694686353) /* PCAPRecordedObjectIID */;
+VALUES (40701, 8000, 0xDC387091) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40701,  1485,      2)  /* Impenetrability5 */
-     , (40701,  1527,      2)  /* FrostBane5 */
-     , (40701,  1552,      2)  /* FlameBane6 */;
+     , (40701,  1552,      2)  /* FlameBane6 */
+     , (40701,  1527,      2)  /* FrostBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40701, 67113923, 240, 10);

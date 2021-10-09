@@ -37,27 +37,27 @@ VALUES (30040,   1, 'Blacksmith Karlus Loc') /* Name */
      , (30040, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30040,   1,   33554433) /* Setup */
-     , (30040,   2,  150994945) /* MotionTable */
-     , (30040,   3,  536870913) /* SoundTable */
-     , (30040,   6,   67108990) /* PaletteBase */
-     , (30040,   8,  100667446) /* Icon */
-     , (30040,   9,   83890501) /* EyesTexture */
-     , (30040,  10,   83890549) /* NoseTexture */
-     , (30040,  11,   83890640) /* MouthTexture */
-     , (30040,  15,   67116986) /* HairPalette */
-     , (30040,  16,   67110063) /* EyesPalette */
-     , (30040,  17,   67115903) /* SkinPalette */
+VALUES (30040,   1, 0x02000001) /* Setup */
+     , (30040,   2, 0x09000001) /* MotionTable */
+     , (30040,   3, 0x20000001) /* SoundTable */
+     , (30040,   6, 0x0400007E) /* PaletteBase */
+     , (30040,   8, 0x06001036) /* Icon */
+     , (30040,   9, 0x05001145) /* EyesTexture */
+     , (30040,  10, 0x05001175) /* NoseTexture */
+     , (30040,  11, 0x050011D0) /* MouthTexture */
+     , (30040,  15, 0x04001FBA) /* HairPalette */
+     , (30040,  16, 0x040004AF) /* EyesPalette */
+     , (30040,  17, 0x04001B7F) /* SkinPalette */
      , (30040, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (30040, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (30040, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30040, 8040, 853082162, 157.084, 30.7475, 52.005, 0.9997516, 0, 0, -0.02228918) /* PCAPRecordedLocation */
+VALUES (30040, 8040, 0x32D90032, 157.084, 30.7475, 52.005, 0.999752, 0, 0, -0.022289) /* PCAPRecordedLocation */
 /* @teleloc 0x32D90032 [157.084000 30.747500 52.005000] 0.999752 0.000000 0.000000 -0.022289 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30040, 8000, 1932365884) /* PCAPRecordedObjectIID */;
+VALUES (30040, 8000, 0x732D903C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30040,   1,  45, 0, 0) /* Strength */
@@ -126,19 +126,7 @@ VALUES (30040, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (30040, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30040, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (30040, 4, 45683, -1, 0, 0, False) /* Create Left-hand Tether (45683) for Shop */
-     , (30040, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */
-     , (30040, 4, 49485, -1, 0, 0, False) /* Create Encapsulated Spirit (49485) for Shop */
-     , (30040, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
-     , (30040, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
-     , (30040, 4,   148, -1, 0, 0, False) /* Create Cup (148) for Shop */
-     , (30040, 4,   150, -1, 0, 0, False) /* Create Flagon (150) for Shop */
-     , (30040, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (30040, 4, 44975, -1, 0, 0, False) /* Create Hood (44975) for Shop */
-     , (30040, 4,   154, -1, 0, 0, False) /* Create Goblet (154) for Shop */
-     , (30040, 4, 25646, -1, 0, 0, False) /* Create Long Leather Gauntlets (25646) for Shop */
-     , (30040, 4, 25642, -1, 0, 0, False) /* Create Leather Gauntlets (25642) for Shop */
-     , (30040, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
-     , (30040, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */;
+     , (30040, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30040, 67110003, 72, 8)

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45950,   1,          1) /* ItemType - MeleeWeapon */
      , (45950,   5,        200) /* EncumbranceVal */
      , (45950,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (45950,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (45950,  16,          1) /* ItemUseable - No */
      , (45950,  19,        100) /* Value */
      , (45950,  33,          1) /* Bonded - Bonded */
@@ -34,6 +33,7 @@ VALUES (45950,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45950,  22, True ) /* Inscribable */
+     , (45950,  23, True ) /* DestroyOnSell */
      , (45950,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,30 +50,30 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45950,   1, 'Seasoned Explorer Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45950,   1,   33554743) /* Setup */
-     , (45950,   3,  536870932) /* SoundTable */
-     , (45950,   6,   67111919) /* PaletteBase */
-     , (45950,   8,  100668928) /* Icon */
-     , (45950,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45950,   1, 0x02000137) /* Setup */
+     , (45950,   3, 0x20000014) /* SoundTable */
+     , (45950,   6, 0x04000BEF) /* PaletteBase */
+     , (45950,   8, 0x06001600) /* Icon */
+     , (45950,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45950, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (45950, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45950, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (45950, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45950, 8040, 2847146026, 131.5765, 26.30793, 93.92901, 0.7062337, 0.7062337, -0.03512642, -0.03512642) /* PCAPRecordedLocation */
+VALUES (45950, 8040, 0xA9B4002A, 131.5765, 26.30793, 93.92901, 0.706234, 0.706234, -0.035126, -0.035126) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [131.576500 26.307930 93.929010] 0.706234 0.706234 -0.035126 -0.035126 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45950, 8000, 2884925609) /* PCAPRecordedObjectIID */
-     , (45950, 8008, 1343220239) /* PCAPRecordedParentIID */;
+VALUES (45950, 8000, 0xABF478A9) /* PCAPRecordedObjectIID */
+     , (45950, 8008, 0x500FEA0F) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45950,  1592,      2)  /* HeartSeekerSelf6 */
-     , (45950,  1605,      2)  /* DefenderSelf6 */
+VALUES (45950,  1605,      2)  /* DefenderSelf6 */
      , (45950,  1616,      2)  /* BloodDrinkerSelf6 */
      , (45950,  1627,      2)  /* SwiftKillerSelf6 */
-     , (45950,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */
+     , (45950,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */
+     , (45950,  1592,      2)  /* HeartSeekerSelf6 */
      , (45950,  5884,      2)  /* CantripDualWieldAptitude1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

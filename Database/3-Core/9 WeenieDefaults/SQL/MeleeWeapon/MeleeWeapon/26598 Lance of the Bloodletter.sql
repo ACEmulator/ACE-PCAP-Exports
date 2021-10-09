@@ -46,25 +46,25 @@ VALUES (26598,   1, 'Lance of the Bloodletter') /* Name */
      , (26598,  15, 'A lance used to end the life of sacrifices during potent Falatacot blood rites.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26598,   1,   33558594) /* Setup */
-     , (26598,   3,  536870932) /* SoundTable */
-     , (26598,   6,   67114956) /* PaletteBase */
-     , (26598,   8,  100675774) /* Icon */
-     , (26598,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26598,   1, 0x02001042) /* Setup */
+     , (26598,   3, 0x20000014) /* SoundTable */
+     , (26598,   6, 0x040017CC) /* PaletteBase */
+     , (26598,   8, 0x060030BE) /* Icon */
+     , (26598,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26598, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (26598, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26598, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26598, 8000, 2995806358) /* PCAPRecordedObjectIID */;
+VALUES (26598, 8000, 0xB2906096) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26598,  1317,      2)  /* ArmorOther6 */
-     , (26598,  1384,      2)  /* CoordinationOther6 */
-     , (26598,  1605,      2)  /* DefenderSelf6 */
+VALUES (26598,  1605,      2)  /* DefenderSelf6 */
+     , (26598,  2694,      2)  /* ModerateSwordAptitude */
      , (26598,  1616,      2)  /* BloodDrinkerSelf6 */
      , (26598,  1627,      2)  /* SwiftKillerSelf6 */
-     , (26598,  2694,      2)  /* ModerateSwordAptitude */;
+     , (26598,  1317,      2)  /* ArmorOther6 */
+     , (26598,  1384,      2)  /* CoordinationOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26598, 67114955, 0, 0);

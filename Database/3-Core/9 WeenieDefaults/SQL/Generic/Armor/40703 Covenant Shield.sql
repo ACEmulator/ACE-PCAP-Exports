@@ -50,25 +50,25 @@ VALUES (40703,   1, 'Covenant Shield') /* Name */
      , (40703,  16, 'Covenant Shield of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40703,   1,   33557878) /* Setup */
-     , (40703,   3,  536870932) /* SoundTable */
-     , (40703,   8,  100673427) /* Icon */
-     , (40703,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40703,   1, 0x02000D76) /* Setup */
+     , (40703,   3, 0x20000014) /* SoundTable */
+     , (40703,   8, 0x06002793) /* Icon */
+     , (40703,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40703, 8001, 2434875928) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40703, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40703, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40703, 8000, 3687395164) /* PCAPRecordedObjectIID */;
+VALUES (40703, 8000, 0xDBC92F5C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40703,  1354,      2)  /* EnduranceSelf6 */
-     , (40703,  2098,      2)  /* BludgeonBane7 */
-     , (40703,  2108,      2)  /* Impenetrability7 */
-     , (40703,  2113,      2)  /* PiercingBane7 */
-     , (40703,  2527,      2)  /* CANTRIPPERSONATTUNEMENT2 */
+VALUES (40703,  2113,      2)  /* PiercingBane7 */
+     , (40703,  1354,      2)  /* EnduranceSelf6 */
      , (40703,  2580,      2)  /* CANTRIPENDURANCE1 */
-     , (40703,  2601,      2)  /* CANTRIPFLAMEBANE1 */;
+     , (40703,  2527,      2)  /* CANTRIPPERSONATTUNEMENT2 */
+     , (40703,  2601,      2)  /* CANTRIPFLAMEBANE1 */
+     , (40703,  2098,      2)  /* BludgeonBane7 */
+     , (40703,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (40703, 0, 83894160, 83894160);

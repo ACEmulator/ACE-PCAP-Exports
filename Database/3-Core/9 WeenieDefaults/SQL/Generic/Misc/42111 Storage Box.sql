@@ -14,6 +14,7 @@ VALUES (42111,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42111,  22, True ) /* Inscribable */
+     , (42111,  23, True ) /* DestroyOnSell */
      , (42111,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,17 +23,17 @@ VALUES (42111,   1, 'Storage Box') /* Name */
      , (42111,  16, 'A large storage box, filled with a random assortment of gears, wires and tubes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42111,   1,   33554718) /* Setup */
-     , (42111,   3,  536870932) /* SoundTable */
-     , (42111,   8,  100668152) /* Icon */
-     , (42111,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42111,   1, 0x0200011E) /* Setup */
+     , (42111,   3, 0x20000014) /* SoundTable */
+     , (42111,   8, 0x060012F8) /* Icon */
+     , (42111,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42111, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (42111, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42111, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42111, 8040, 561119517, 101.951, 77.3317, 114.4, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42111, 8040, 0x2172011D, 101.951, 77.3317, 114.4, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2172011D [101.951000 77.331700 114.400000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42111, 8000, 3707067696) /* PCAPRecordedObjectIID */;
+VALUES (42111, 8000, 0xDCF55D30) /* PCAPRecordedObjectIID */;

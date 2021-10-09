@@ -25,12 +25,12 @@ VALUES (6036,   1, 'Foundry Key') /* Name */
      , (6036,  16, 'A key given by Hamud ibn Rafik for entry to the abandoned Empyrean forge in the Black Mire Swamp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6036,   1,   33554784) /* Setup */
-     , (6036,   8,  100668441) /* Icon */
-     , (6036,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6036,   1, 0x02000160) /* Setup */
+     , (6036,   8, 0x06001419) /* Icon */
+     , (6036,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6036, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (6036, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6036, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6036, 8000, 2925380377) /* PCAPRecordedObjectIID */;
+VALUES (6036, 8000, 0xAE5DC319) /* PCAPRecordedObjectIID */;

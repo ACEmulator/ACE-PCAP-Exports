@@ -36,27 +36,27 @@ VALUES (11386,   1, 'Nathious Agoren the Jeweler') /* Name */
      , (11386, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11386,   1,   33554433) /* Setup */
-     , (11386,   2,  150994945) /* MotionTable */
-     , (11386,   3,  536870913) /* SoundTable */
-     , (11386,   6,   67108990) /* PaletteBase */
-     , (11386,   8,  100667446) /* Icon */
-     , (11386,   9,   83890481) /* EyesTexture */
-     , (11386,  10,   83890555) /* NoseTexture */
-     , (11386,  11,   83890659) /* MouthTexture */
-     , (11386,  15,   67117075) /* HairPalette */
-     , (11386,  16,   67110064) /* EyesPalette */
-     , (11386,  17,   67109559) /* SkinPalette */
+VALUES (11386,   1, 0x02000001) /* Setup */
+     , (11386,   2, 0x09000001) /* MotionTable */
+     , (11386,   3, 0x20000001) /* SoundTable */
+     , (11386,   6, 0x0400007E) /* PaletteBase */
+     , (11386,   8, 0x06001036) /* Icon */
+     , (11386,   9, 0x05001131) /* EyesTexture */
+     , (11386,  10, 0x0500117B) /* NoseTexture */
+     , (11386,  11, 0x050011E3) /* MouthTexture */
+     , (11386,  15, 0x04002013) /* HairPalette */
+     , (11386,  16, 0x040004B0) /* EyesPalette */
+     , (11386,  17, 0x040002B7) /* SkinPalette */
      , (11386, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (11386, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (11386, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11386, 8040, 565182771, 67.1378, 42.0972, 1.605, -0.01133684, 0, 0, -0.9999357) /* PCAPRecordedLocation */
+VALUES (11386, 8040, 0x21B00133, 67.1378, 42.0972, 1.605, -0.011337, 0, 0, -0.999936) /* PCAPRecordedLocation */
 /* @teleloc 0x21B00133 [67.137800 42.097200 1.605000] -0.011337 0.000000 0.000000 -0.999936 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11386, 8000, 1914372108) /* PCAPRecordedObjectIID */;
+VALUES (11386, 8000, 0x721B000C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11386,   1,  40, 0, 0) /* Strength */

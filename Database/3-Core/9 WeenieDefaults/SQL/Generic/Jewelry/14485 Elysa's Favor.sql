@@ -34,17 +34,17 @@ VALUES (14485,   1, 'Elysa''s Favor') /* Name */
      , (14485,  15, 'Elysa''s gift to you, in recognition for your brave service for the kingdom.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14485,   1,   33554691) /* Setup */
-     , (14485,   3,  536870932) /* SoundTable */
-     , (14485,   6,   67111919) /* PaletteBase */
-     , (14485,   8,  100672474) /* Icon */
-     , (14485,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14485,   1, 0x02000103) /* Setup */
+     , (14485,   3, 0x20000014) /* SoundTable */
+     , (14485,   6, 0x04000BEF) /* PaletteBase */
+     , (14485,   8, 0x060023DA) /* Icon */
+     , (14485,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14485, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (14485, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14485, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14485, 8000, 2186220542) /* PCAPRecordedObjectIID */;
+VALUES (14485, 8000, 0x824F13FE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14485,  1997,      2)  /* LifeGiver */

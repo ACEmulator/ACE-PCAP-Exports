@@ -33,20 +33,20 @@ VALUES (41256,   1, 'Tinker''s Crystal') /* Name */
      , (41256,  20, 'Tinker''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41256,   1,   33554809) /* Setup */
-     , (41256,   3,  536870932) /* SoundTable */
-     , (41256,   8,  100686697) /* Icon */
-     , (41256,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41256,   1, 0x02000179) /* Setup */
+     , (41256,   3, 0x20000014) /* SoundTable */
+     , (41256,   8, 0x06005B69) /* Icon */
+     , (41256,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41256,  28,       3714) /* Spell - ItemExpertiseRare */
-     , (41256,  50,  100686661) /* IconOverlay */
-     , (41256,  52,  100686604) /* IconUnderlay */
+     , (41256,  50, 0x06005B45) /* IconOverlay */
+     , (41256,  52, 0x06005B0C) /* IconUnderlay */
      , (41256, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (41256, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (41256, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (41256, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41256, 8000, 2541837692) /* PCAPRecordedObjectIID */;
+VALUES (41256, 8000, 0x97815D7C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (41256, 0, 83890391, 83890391);

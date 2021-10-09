@@ -19,7 +19,8 @@ VALUES (25421,   1,        128) /* ItemType - Misc */
      , (25421, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25421,  69, False) /* IsSellable */;
+VALUES (25421,  23, True ) /* DestroyOnSell */
+     , (25421,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25421,   1, 'Blue Vellum Binder') /* Name */
@@ -27,13 +28,13 @@ VALUES (25421,   1, 'Blue Vellum Binder') /* Name */
      , (25421,  16, 'A blue vellum binder containing 14 thin sheets of parchment. The parchment is inscribed in an unknown alphabet.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25421,   1,   33554771) /* Setup */
-     , (25421,   3,  536870932) /* SoundTable */
-     , (25421,   8,  100674843) /* Icon */
-     , (25421,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25421,   1, 0x02000153) /* Setup */
+     , (25421,   3, 0x20000014) /* SoundTable */
+     , (25421,   8, 0x06002D1B) /* Icon */
+     , (25421,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25421, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (25421, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (25421, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25421, 8000, 2158580447) /* PCAPRecordedObjectIID */;
+VALUES (25421, 8000, 0x80A952DF) /* PCAPRecordedObjectIID */;

@@ -25,18 +25,18 @@ VALUES (36695,   1, 'Pillar of the Heart') /* Name */
      , (36695, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36695,   1,   33560411) /* Setup */
-     , (36695,   2,  150995147) /* MotionTable */
-     , (36695,   3,  536871052) /* SoundTable */
-     , (36695,   8,  100689716) /* Icon */
-     , (36695,  22,  872415274) /* PhysicsEffectTable */
+VALUES (36695,   1, 0x0200175B) /* Setup */
+     , (36695,   2, 0x090000CB) /* MotionTable */
+     , (36695,   3, 0x2000008C) /* SoundTable */
+     , (36695,   8, 0x06006734) /* Icon */
+     , (36695,  22, 0x3400002A) /* PhysicsEffectTable */
      , (36695, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (36695, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (36695, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36695, 8040, 10420568, 90, -120, -42, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (36695, 8040, 0x009F0158, 90, -120, -42, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0158 [90.000000 -120.000000 -42.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36695, 8000, 3709400072) /* PCAPRecordedObjectIID */;
+VALUES (36695, 8000, 0xDD18F408) /* PCAPRecordedObjectIID */;

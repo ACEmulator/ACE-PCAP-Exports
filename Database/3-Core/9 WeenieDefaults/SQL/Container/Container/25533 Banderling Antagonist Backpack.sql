@@ -25,17 +25,17 @@ VALUES (25533,   1, 'Banderling Antagonist Backpack') /* Name */
      , (25533,  16, 'This backpack, sewn from the scalp of a Banderling Antagonist, provides comfort as well as carrying space.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25533,   1,   33558496) /* Setup */
-     , (25533,   3,  536870932) /* SoundTable */
-     , (25533,   6,   67114021) /* PaletteBase */
-     , (25533,   8,  100674954) /* Icon */
-     , (25533,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25533,   1, 0x02000FE0) /* Setup */
+     , (25533,   3, 0x20000014) /* SoundTable */
+     , (25533,   6, 0x04001425) /* PaletteBase */
+     , (25533,   8, 0x06002D8A) /* Icon */
+     , (25533,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25533, 8001,    2113562) /* PCAPRecordedWeenieHeader - ItemsCapacity, Value, Usable, Container, Burden */
      , (25533, 8003,         19) /* PCAPRecordedObjectDesc - Openable, Inscribable, Attackable */
      , (25533, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25533, 8000, 2192144675) /* PCAPRecordedObjectIID */;
+VALUES (25533, 8000, 0x82A97923) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25533, 67114268, 0, 0);

@@ -54,19 +54,19 @@ VALUES (3881,   1, 'Acid Long Sword') /* Name */
      , (3881,  16, 'Acid Long Sword of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3881,   1,   33555791) /* Setup */
-     , (3881,   3,  536870932) /* SoundTable */
-     , (3881,   8,  100669028) /* Icon */
-     , (3881,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3881,   1, 0x0200054F) /* Setup */
+     , (3881,   3, 0x20000014) /* SoundTable */
+     , (3881,   8, 0x06001664) /* Icon */
+     , (3881,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3881,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3881, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3881, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3881, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3881, 8000, 3692401943) /* PCAPRecordedObjectIID */;
+VALUES (3881, 8000, 0xDC159517) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3881,  1378,      2)  /* CoordinationSelf6 */
-     , (3881,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (3881,  2566,      2)  /* CANTRIPSWORDAPTITUDE1 */;
+VALUES (3881,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */
+     , (3881,  1378,      2)  /* CoordinationSelf6 */
+     , (3881,  2096,      2)  /* BloodDrinkerSelf7 */;

@@ -17,17 +17,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7528,   1, 'Chunk of Low-Grade Chorizite') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7528,   1,   33554817) /* Setup */
-     , (7528,   3,  536870932) /* SoundTable */
-     , (7528,   6,   67111919) /* PaletteBase */
-     , (7528,   8,  100670767) /* Icon */
-     , (7528,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7528,   1, 0x02000181) /* Setup */
+     , (7528,   3, 0x20000014) /* SoundTable */
+     , (7528,   6, 0x04000BEF) /* PaletteBase */
+     , (7528,   8, 0x06001D2F) /* Icon */
+     , (7528,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7528, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (7528, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7528, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7528, 8000, 2155902994) /* PCAPRecordedObjectIID */;
+VALUES (7528, 8000, 0x80807812) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7528, 67111924, 0, 0);

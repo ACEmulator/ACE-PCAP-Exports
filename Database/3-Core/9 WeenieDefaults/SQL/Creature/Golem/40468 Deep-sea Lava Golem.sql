@@ -25,21 +25,21 @@ VALUES (40468,   1, 'Deep-sea Lava Golem') /* Name */
      , (40468, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40468,   1,   33556427) /* Setup */
-     , (40468,   2,  150995073) /* MotionTable */
-     , (40468,   3,  536870933) /* SoundTable */
-     , (40468,   8,  100667940) /* Icon */
-     , (40468,  22,  872415323) /* PhysicsEffectTable */
+VALUES (40468,   1, 0x020007CB) /* Setup */
+     , (40468,   2, 0x09000081) /* MotionTable */
+     , (40468,   3, 0x20000015) /* SoundTable */
+     , (40468,   8, 0x06001224) /* Icon */
+     , (40468,  22, 0x3400005B) /* PhysicsEffectTable */
      , (40468, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40468, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40468, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40468, 8040, 1057619977, 40.67049, 16.10624, -0.8890001, -0.5039935, 0, 0, -0.8637074) /* PCAPRecordedLocation */
+VALUES (40468, 8040, 0x3F0A0009, 40.67049, 16.10624, -0.889, -0.503994, 0, 0, -0.863707) /* PCAPRecordedLocation */
 /* @teleloc 0x3F0A0009 [40.670490 16.106240 -0.889000] -0.503994 0.000000 0.000000 -0.863707 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40468, 8000, 2447927332) /* PCAPRecordedObjectIID */;
+VALUES (40468, 8000, 0x91E86824) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40468,   1, 310, 0, 0) /* Strength */

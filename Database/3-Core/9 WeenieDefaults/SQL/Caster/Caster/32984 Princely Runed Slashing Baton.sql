@@ -11,6 +11,7 @@ VALUES (32984,   1,      32768) /* ItemType - Caster */
      , (32984,  18,       1024) /* UiEffects - Slashing */
      , (32984,  19,      10000) /* Value */
      , (32984,  45,          1) /* DamageType - Slash */
+     , (32984,  46,        512) /* DefaultCombatStyle - Magic */
      , (32984,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32984,  94,         16) /* TargetType - Creature */
      , (32984, 106,        400) /* ItemSpellcraft */
@@ -41,23 +42,23 @@ VALUES (32984,   1, 'Princely Runed Slashing Baton') /* Name */
      , (32984,  16, 'A spellcasting baton crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32984,   1,   33559863) /* Setup */
-     , (32984,   3,  536870932) /* SoundTable */
-     , (32984,   6,   67116700) /* PaletteBase */
-     , (32984,   8,  100688016) /* Icon */
-     , (32984,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32984,   1, 0x02001537) /* Setup */
+     , (32984,   3, 0x20000014) /* SoundTable */
+     , (32984,   6, 0x04001E9C) /* PaletteBase */
+     , (32984,   8, 0x06006090) /* Icon */
+     , (32984,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32984,  28,       2282) /* Spell - MagicYieldOther7 */
-     , (32984,  50,  100688913) /* IconOverlay */
+     , (32984,  50, 0x06006411) /* IconOverlay */
      , (32984, 8001, 1349075096) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType, IconOverlay */
      , (32984, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32984, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32984, 8000, 2922016798) /* PCAPRecordedObjectIID */;
+VALUES (32984, 8000, 0xAE2A701E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32984,  2101,      2)  /* DefenderSelf7 */
-     , (32984,  2117,      2)  /* HermeticLinkSelf7 */
+VALUES (32984,  2117,      2)  /* HermeticLinkSelf7 */
+     , (32984,  2101,      2)  /* DefenderSelf7 */
      , (32984,  3259,      2)  /* SpiritDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

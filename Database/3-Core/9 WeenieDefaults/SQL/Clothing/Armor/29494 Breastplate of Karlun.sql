@@ -22,6 +22,7 @@ VALUES (29494,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29494,  22, True ) /* Inscribable */
+     , (29494,  23, True ) /* DestroyOnSell */
      , (29494,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -40,17 +41,17 @@ VALUES (29494,   1, 'Breastplate of Karlun') /* Name */
      , (29494,  15, 'A breastplate commonly worn by the Knights of Karlun.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29494,   1,   33559358) /* Setup */
-     , (29494,   3,  536870932) /* SoundTable */
-     , (29494,   8,  100686511) /* Icon */
-     , (29494,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29494,   1, 0x0200133E) /* Setup */
+     , (29494,   3, 0x20000014) /* SoundTable */
+     , (29494,   8, 0x06005AAF) /* Icon */
+     , (29494,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29494,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (29494, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (29494, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29494, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29494, 8000, 2181543963) /* PCAPRecordedObjectIID */;
+VALUES (29494, 8000, 0x8207B81B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29494,  1484,      2)  /* Impenetrability4 */

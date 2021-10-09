@@ -11,18 +11,6 @@ VALUES (41959,   1,         16) /* ItemType - Creature */
      , (41959,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (41959,  95,          8) /* RadarBlipColor - Yellow */
      , (41959, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (41959, 307,          0) /* DamageRating */
-     , (41959, 308,          0) /* DamageResistRating */
-     , (41959, 313,          0) /* CritRating */
-     , (41959, 314,          0) /* CritDamageRating */
-     , (41959, 315,          0) /* CritResistRating */
-     , (41959, 316,          0) /* CritDamageResistRating */
-     , (41959, 381,          0) /* PKDamageRating */
-     , (41959, 382,          0) /* PKDamageResistRating */
-     , (41959, 386,          0) /* Overpower */
-     , (41959, 387,          0) /* OverpowerResist */
-     , (41959, 388,          0) /* GearOverpower */
-     , (41959, 389,          0) /* GearOverpowerResist */
      , (41959, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -37,20 +25,20 @@ VALUES (41959,   1, 'Guardian Statue') /* Name */
      , (41959, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41959,   1,   33558554) /* Setup */
-     , (41959,   2,  150995432) /* MotionTable */
-     , (41959,   3,  536870933) /* SoundTable */
-     , (41959,   8,  100675661) /* Icon */
+VALUES (41959,   1, 0x0200101A) /* Setup */
+     , (41959,   2, 0x090001E8) /* MotionTable */
+     , (41959,   3, 0x20000015) /* SoundTable */
+     , (41959,   8, 0x0600304D) /* Icon */
      , (41959, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (41959, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (41959, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41959, 8040, 2349008655, 190, -190, 12.00249, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (41959, 8040, 0x8C03070F, 190, -190, 12.00249, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8C03070F [190.000000 -190.000000 12.002490] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41959, 8000, 2629421777) /* PCAPRecordedObjectIID */;
+VALUES (41959, 8000, 0x9CB9CAD1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (41959, 0, 83894922, 83897668)

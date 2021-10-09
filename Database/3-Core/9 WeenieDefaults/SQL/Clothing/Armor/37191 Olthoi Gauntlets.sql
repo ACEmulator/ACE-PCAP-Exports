@@ -8,7 +8,6 @@ VALUES (37191,   1,          2) /* ItemType - Armor */
      , (37191,   4,      32768) /* ClothingPriority - Hands */
      , (37191,   5,        590) /* EncumbranceVal */
      , (37191,   9,         32) /* ValidLocations - HandWear */
-     , (37191,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (37191,  16,          1) /* ItemUseable - No */
      , (37191,  18,          1) /* UiEffects - Magical */
      , (37191,  19,      25252) /* Value */
@@ -56,23 +55,23 @@ VALUES (37191,   1, 'Olthoi Gauntlets') /* Name */
      , (37191,  39, 'Tiesto') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37191,   1,   33554648) /* Setup */
-     , (37191,   3,  536870932) /* SoundTable */
-     , (37191,   6,   67108990) /* PaletteBase */
-     , (37191,   8,  100674661) /* Icon */
-     , (37191,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37191,   1, 0x020000D8) /* Setup */
+     , (37191,   3, 0x20000014) /* SoundTable */
+     , (37191,   6, 0x0400007E) /* PaletteBase */
+     , (37191,   8, 0x06002C65) /* Icon */
+     , (37191,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37191,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (37191, 8001, 2166849688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, Workmanship, MaterialType */
      , (37191, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37191, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37191, 8000, 2151384694) /* PCAPRecordedObjectIID */;
+VALUES (37191, 8000, 0x803B8676) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37191,  2092,      2)  /* AcidBane7 */
+     , (37191,  2223,      2)  /* FinesseWeaponsMasterySelf7 */
      , (37191,  2102,      2)  /* FlameBane7 */
-     , (37191,  2223,      2)  /* DaggerMasterySelf7 */
      , (37191,  4407,      2)  /* Impenetrability8 */
      , (37191,  6079,      2)  /* CantripStormWard4 */;
 

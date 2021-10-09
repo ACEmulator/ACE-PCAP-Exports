@@ -19,11 +19,11 @@ VALUES (44742,   1, 'Isparian') /* Name */
      , (44742,  16, 'It could be argued that Isparians of Dereth will be both your greatest allies as well as your greatest enemies. Not all Isparians joined the new kingdom as it was formed on Dereth. Some became plain thieves and bandits, others decided to follow and worship other creatures of these lands. When you see a fellow Isparian off in the distance, do not be so sure that he is your ally.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44742,   1,   33561342) /* Setup */
-     , (44742,   8,  100668115) /* Icon */
+VALUES (44742,   1, 0x02001AFE) /* Setup */
+     , (44742,   8, 0x060012D3) /* Icon */
      , (44742, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44742, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44742, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44742, 8000, 2461713290) /* PCAPRecordedObjectIID */;
+VALUES (44742, 8000, 0x92BAC38A) /* PCAPRecordedObjectIID */;

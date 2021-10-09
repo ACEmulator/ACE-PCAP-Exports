@@ -23,22 +23,22 @@ VALUES (39157,   1, 'Sclavus Raider') /* Name */
      , (39157, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39157,   1,   33560596) /* Setup */
-     , (39157,   2,  150995048) /* MotionTable */
-     , (39157,   3,  536870977) /* SoundTable */
-     , (39157,   6,   67111936) /* PaletteBase */
-     , (39157,   8,  100669120) /* Icon */
-     , (39157,  22,  872415280) /* PhysicsEffectTable */
+VALUES (39157,   1, 0x02001814) /* Setup */
+     , (39157,   2, 0x09000068) /* MotionTable */
+     , (39157,   3, 0x20000041) /* SoundTable */
+     , (39157,   6, 0x04000C00) /* PaletteBase */
+     , (39157,   8, 0x060016C0) /* Icon */
+     , (39157,  22, 0x34000030) /* PhysicsEffectTable */
      , (39157, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (39157, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (39157, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39157, 8040, 13304105, 39.9943, -63.17473, -30, 0.03973381, 0, 0, -0.9992103) /* PCAPRecordedLocation */
+VALUES (39157, 8040, 0x00CB0129, 39.9943, -63.17473, -30, 0.039734, 0, 0, -0.99921) /* PCAPRecordedLocation */
 /* @teleloc 0x00CB0129 [39.994300 -63.174730 -30.000000] 0.039734 0.000000 0.000000 -0.999210 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39157, 8000, 3332247532) /* PCAPRecordedObjectIID */;
+VALUES (39157, 8000, 0xC69E0FEC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (39157, 2, 48041,  1, 0, 0, False) /* Create Nekode (48041) for Wield */

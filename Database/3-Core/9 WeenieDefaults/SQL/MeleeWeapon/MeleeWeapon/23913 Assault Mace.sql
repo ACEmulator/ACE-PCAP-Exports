@@ -48,23 +48,23 @@ VALUES (23913,   1, 'Assault Mace') /* Name */
      , (23913,  16, 'A reward for defeating the leaders of the Shreth Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23913,   1,   33557204) /* Setup */
-     , (23913,   3,  536870932) /* SoundTable */
-     , (23913,   6,   67111919) /* PaletteBase */
-     , (23913,   8,  100671746) /* Icon */
-     , (23913,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23913,   1, 0x02000AD4) /* Setup */
+     , (23913,   3, 0x20000014) /* SoundTable */
+     , (23913,   6, 0x04000BEF) /* PaletteBase */
+     , (23913,   8, 0x06002102) /* Icon */
+     , (23913,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23913, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23913, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23913, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23913, 8000, 2192305088) /* PCAPRecordedObjectIID */;
+VALUES (23913, 8000, 0x82ABEBC0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23913,  1331,      2)  /* StrengthSelf5 */
-     , (23913,  1590,      2)  /* HeartSeekerSelf4 */
-     , (23913,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (23913,  2004,      2)  /* WarriorsVitality */;
+VALUES (23913,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (23913,  2004,      2)  /* WarriorsVitality */
+     , (23913,  1331,      2)  /* StrengthSelf5 */
+     , (23913,  1590,      2)  /* HeartSeekerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23913, 67111924, 0, 0);

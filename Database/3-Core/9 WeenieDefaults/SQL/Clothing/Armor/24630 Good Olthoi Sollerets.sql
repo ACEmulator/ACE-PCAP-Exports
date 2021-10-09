@@ -37,17 +37,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24630,   1, 'Good Olthoi Sollerets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24630,   1,   33554654) /* Setup */
-     , (24630,   3,  536870932) /* SoundTable */
-     , (24630,   6,   67108990) /* PaletteBase */
-     , (24630,   8,  100674544) /* Icon */
-     , (24630,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24630,   1, 0x020000DE) /* Setup */
+     , (24630,   3, 0x20000014) /* SoundTable */
+     , (24630,   6, 0x0400007E) /* PaletteBase */
+     , (24630,   8, 0x06002BF0) /* Icon */
+     , (24630,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24630, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (24630, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24630, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24630, 8000, 2657345278) /* PCAPRecordedObjectIID */;
+VALUES (24630, 8000, 0x9E63DEFE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24630, 67114436, 160, 8)

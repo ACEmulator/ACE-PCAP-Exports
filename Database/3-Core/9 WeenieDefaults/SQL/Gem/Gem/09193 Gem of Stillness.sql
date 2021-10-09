@@ -31,18 +31,18 @@ VALUES (9193,   1, 'Gem of Stillness') /* Name */
      , (9193,  20, 'Gems of Stillness') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9193,   1,   33554809) /* Setup */
-     , (9193,   3,  536870932) /* SoundTable */
-     , (9193,   6,   67111919) /* PaletteBase */
-     , (9193,   8,  100671405) /* Icon */
-     , (9193,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9193,   1, 0x02000179) /* Setup */
+     , (9193,   3, 0x20000014) /* SoundTable */
+     , (9193,   6, 0x04000BEF) /* PaletteBase */
+     , (9193,   8, 0x06001FAD) /* Icon */
+     , (9193,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9193,  28,       3180) /* Spell - DispelAllBadSelf7 */
      , (9193, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (9193, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9193, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9193, 8000, 2173388241) /* PCAPRecordedObjectIID */;
+VALUES (9193, 8000, 0x818B45D1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9193, 67111919, 0, 0);

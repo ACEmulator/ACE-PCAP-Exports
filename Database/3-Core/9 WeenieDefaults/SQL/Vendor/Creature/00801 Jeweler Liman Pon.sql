@@ -36,27 +36,27 @@ VALUES (801,   1, 'Jeweler Liman Pon') /* Name */
      , (801, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (801,   1,   33554433) /* Setup */
-     , (801,   2,  150994945) /* MotionTable */
-     , (801,   3,  536870913) /* SoundTable */
-     , (801,   6,   67108990) /* PaletteBase */
-     , (801,   8,  100667446) /* Icon */
-     , (801,   9,   83890473) /* EyesTexture */
-     , (801,  10,   83890562) /* NoseTexture */
-     , (801,  11,   83890585) /* MouthTexture */
-     , (801,  15,   67117074) /* HairPalette */
-     , (801,  16,   67110063) /* EyesPalette */
-     , (801,  17,   67110055) /* SkinPalette */
+VALUES (801,   1, 0x02000001) /* Setup */
+     , (801,   2, 0x09000001) /* MotionTable */
+     , (801,   3, 0x20000001) /* SoundTable */
+     , (801,   6, 0x0400007E) /* PaletteBase */
+     , (801,   8, 0x06001036) /* Icon */
+     , (801,   9, 0x05001129) /* EyesTexture */
+     , (801,  10, 0x05001182) /* NoseTexture */
+     , (801,  11, 0x05001199) /* MouthTexture */
+     , (801,  15, 0x04002012) /* HairPalette */
+     , (801,  16, 0x040004AF) /* EyesPalette */
+     , (801,  17, 0x040004A7) /* SkinPalette */
      , (801, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (801, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (801, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (801, 8040, 3862036757, 11.88, 163.8, 28.005, 0.3436601, 0, 0, -0.9390941) /* PCAPRecordedLocation */
+VALUES (801, 8040, 0xE6320115, 11.88, 163.8, 28.005, 0.34366, 0, 0, -0.939094) /* PCAPRecordedLocation */
 /* @teleloc 0xE6320115 [11.880000 163.800000 28.005000] 0.343660 0.000000 0.000000 -0.939094 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (801, 8000, 2120425486) /* PCAPRecordedObjectIID */;
+VALUES (801, 8000, 0x7E63200E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (801,   1,  50, 0, 0) /* Strength */
@@ -94,15 +94,7 @@ VALUES (801, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) fo
      , (801, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (801, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (801, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (801, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (801, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
-     , (801, 4,  2433, -1, 0, 0, False) /* Create Gem (2433) for Shop */
-     , (801, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (801, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (801, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (801, 4, 41483, -1, 0, 0, False) /* Create Compass (41483) for Shop */
-     , (801, 4,  2425, -1, 0, 0, False) /* Create Gem (2425) for Shop */
-     , (801, 4,  2402, -1, 0, 0, False) /* Create Gem (2402) for Shop */;
+     , (801, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (801, 67109969, 92, 4)

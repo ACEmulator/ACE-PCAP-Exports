@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8730,   1, 'Old Stamped Shoushi Scarlet Red Letter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8730,   1,   33556921) /* Setup */
-     , (8730,   3,  536870932) /* SoundTable */
-     , (8730,   8,  100671216) /* Icon */
-     , (8730,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8730,   1, 0x020009B9) /* Setup */
+     , (8730,   3, 0x20000014) /* SoundTable */
+     , (8730,   8, 0x06001EF0) /* Icon */
+     , (8730,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8730, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (8730, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (8730, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8730, 8000, 2153406245) /* PCAPRecordedObjectIID */;
+VALUES (8730, 8000, 0x805A5F25) /* PCAPRecordedObjectIID */;

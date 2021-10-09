@@ -21,15 +21,15 @@ VALUES (27433,   1, 'Map of Auberean') /* Name */
      , (27433,  16, 'An ancient map of Auberean. It is quite well preserved and looks like it could still be hung on a wall.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27433,   1,   33558686) /* Setup */
-     , (27433,   8,  100676418) /* Icon */
+VALUES (27433,   1, 0x0200109E) /* Setup */
+     , (27433,   8, 0x06003342) /* Icon */
      , (27433, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
      , (27433, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27433, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27433, 8040, 1632371085, 76.1225, -130, -24, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (27433, 8040, 0x614C018D, 76.1225, -130, -24, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x614C018D [76.122500 -130.000000 -24.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27433, 8000, 2629105507) /* PCAPRecordedObjectIID */;
+VALUES (27433, 8000, 0x9CB4F763) /* PCAPRecordedObjectIID */;

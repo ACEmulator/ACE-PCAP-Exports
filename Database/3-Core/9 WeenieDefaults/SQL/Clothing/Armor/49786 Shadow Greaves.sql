@@ -39,17 +39,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49786,   1, 'Shadow Greaves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49786,   1,   33554641) /* Setup */
-     , (49786,   3,  536870932) /* SoundTable */
-     , (49786,   6,   67108990) /* PaletteBase */
-     , (49786,   8,  100693087) /* Icon */
-     , (49786,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49786,   1, 0x020000D1) /* Setup */
+     , (49786,   3, 0x20000014) /* SoundTable */
+     , (49786,   6, 0x0400007E) /* PaletteBase */
+     , (49786,   8, 0x0600745F) /* Icon */
+     , (49786,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49786, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (49786, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (49786, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49786, 8000, 3422573894) /* PCAPRecordedObjectIID */;
+VALUES (49786, 8000, 0xCC005546) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49786, 67113253, 136, 16)

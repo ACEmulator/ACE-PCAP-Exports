@@ -29,17 +29,17 @@ VALUES (8283,   1, 'Splitting Tool') /* Name */
      , (8283,  14, 'Use this tool to split a pea.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8283,   1,   33554734) /* Setup */
-     , (8283,   3,  536870932) /* SoundTable */
-     , (8283,   6,   67111919) /* PaletteBase */
-     , (8283,   8,  100671135) /* Icon */
-     , (8283,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8283,   1, 0x0200012E) /* Setup */
+     , (8283,   3, 0x20000014) /* SoundTable */
+     , (8283,   6, 0x04000BEF) /* PaletteBase */
+     , (8283,   8, 0x06001E9F) /* Icon */
+     , (8283,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8283, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (8283, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8283, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8283, 8000, 2186220501) /* PCAPRecordedObjectIID */;
+VALUES (8283, 8000, 0x824F13D5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8283, 67111922, 0, 0);

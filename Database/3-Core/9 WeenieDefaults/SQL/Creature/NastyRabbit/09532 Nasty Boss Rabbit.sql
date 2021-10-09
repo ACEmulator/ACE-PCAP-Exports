@@ -25,22 +25,22 @@ VALUES (9532,   1, 'Nasty Boss Rabbit') /* Name */
      , (9532, 8006, 'AAA9AEAAAAAAAMA/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9532,   1,   33555579) /* Setup */
-     , (9532,   2,  150995042) /* MotionTable */
-     , (9532,   3,  536870973) /* SoundTable */
-     , (9532,   6,   67109300) /* PaletteBase */
-     , (9532,   8,  100669116) /* Icon */
-     , (9532,  22,  872415277) /* PhysicsEffectTable */
+VALUES (9532,   1, 0x0200047B) /* Setup */
+     , (9532,   2, 0x09000062) /* MotionTable */
+     , (9532,   3, 0x2000003D) /* SoundTable */
+     , (9532,   6, 0x040001B4) /* PaletteBase */
+     , (9532,   8, 0x060016BC) /* Icon */
+     , (9532,  22, 0x3400002D) /* PhysicsEffectTable */
      , (9532, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (9532, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (9532, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9532, 8040, 43581759, 26.61867, -128.7418, 6, 0.1039617, 0, 0, -0.9945813) /* PCAPRecordedLocation */
+VALUES (9532, 8040, 0x0299013F, 26.61867, -128.7418, 6, 0.103962, 0, 0, -0.994581) /* PCAPRecordedLocation */
 /* @teleloc 0x0299013F [26.618670 -128.741800 6.000000] 0.103962 0.000000 0.000000 -0.994581 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9532, 8000, 2882656201) /* PCAPRecordedObjectIID */;
+VALUES (9532, 8000, 0xABD1D7C9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (9532,   1,     0, 0, 0, 300) /* MaxHealth */;

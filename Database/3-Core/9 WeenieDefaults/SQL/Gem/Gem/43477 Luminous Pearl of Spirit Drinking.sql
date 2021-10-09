@@ -22,21 +22,21 @@ VALUES (43477,   1, 'Luminous Pearl of Spirit Drinking') /* Name */
      , (43477,  20, 'Luminous Pearls of Spirit Drinking') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43477,   1,   33554809) /* Setup */
-     , (43477,   3,  536870932) /* SoundTable */
-     , (43477,   6,   67111919) /* PaletteBase */
-     , (43477,   8,  100686695) /* Icon */
-     , (43477,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43477,   1, 0x02000179) /* Setup */
+     , (43477,   3, 0x20000014) /* SoundTable */
+     , (43477,   6, 0x04000BEF) /* PaletteBase */
+     , (43477,   8, 0x06005B67) /* Icon */
+     , (43477,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43477,  28,       4414) /* Spell - SpiritDrinkerSelf8 */
-     , (43477,  50,  100686685) /* IconOverlay */
-     , (43477,  52,  100691593) /* IconUnderlay */
+     , (43477,  50, 0x06005B5D) /* IconOverlay */
+     , (43477,  52, 0x06006E89) /* IconUnderlay */
      , (43477, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (43477, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (43477, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (43477, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43477, 8000, 2147514476) /* PCAPRecordedObjectIID */;
+VALUES (43477, 8000, 0x8000786C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43477, 67111924, 0, 0);

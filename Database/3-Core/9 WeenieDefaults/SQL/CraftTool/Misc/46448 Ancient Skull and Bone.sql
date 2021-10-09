@@ -18,11 +18,11 @@ VALUES (46448,   1,        128) /* ItemType - Misc */
      , (46448,  98, 1485732629) /* CreationTimestamp */
      , (46448, 114,          1) /* Attuned - Attuned */
      , (46448, 267,       7200) /* Lifespan */
-     , (46448, 268,       7200) /* RemainingLifespan */
      , (46448, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46448,  22, True ) /* Inscribable */;
+VALUES (46448,  22, True ) /* Inscribable */
+     , (46448,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46448,   1, 'Ancient Skull and Bone') /* Name */
@@ -30,13 +30,13 @@ VALUES (46448,   1, 'Ancient Skull and Bone') /* Name */
      , (46448,  16, 'An ancient skull and arm bone taken from the Venerable Mausoleum. You notice a large groove chiseled inside of the skull. The bones are extremely old and brittle. They clearly will not last for long inside of your packs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46448,   1,   33556825) /* Setup */
-     , (46448,   3,  536870932) /* SoundTable */
-     , (46448,   8,  100692867) /* Icon */
-     , (46448,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46448,   1, 0x02000959) /* Setup */
+     , (46448,   3, 0x20000014) /* SoundTable */
+     , (46448,   8, 0x06007383) /* Icon */
+     , (46448,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46448, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (46448, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46448, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46448, 8000, 3708149344) /* PCAPRecordedObjectIID */;
+VALUES (46448, 8000, 0xDD05DE60) /* PCAPRecordedObjectIID */;

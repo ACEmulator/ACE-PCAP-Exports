@@ -38,18 +38,18 @@ VALUES (9031,   1, 'Sasalia''s Dress') /* Name */
      , (9031,  16, 'A long blue dress.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9031,   1,   33554854) /* Setup */
-     , (9031,   3,  536870932) /* SoundTable */
-     , (9031,   6,   67108990) /* PaletteBase */
-     , (9031,   8,  100671174) /* Icon */
-     , (9031,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9031,   1, 0x020001A6) /* Setup */
+     , (9031,   3, 0x20000014) /* SoundTable */
+     , (9031,   6, 0x0400007E) /* PaletteBase */
+     , (9031,   8, 0x06001EC6) /* Icon */
+     , (9031,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9031,  37,         39) /* ItemSkillLimit - Cooking */
      , (9031, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (9031, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9031, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9031, 8000, 2258805252) /* PCAPRecordedObjectIID */;
+VALUES (9031, 8000, 0x86A2A204) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9031,  1713,      2)  /* CookingMasteryOther5 */;

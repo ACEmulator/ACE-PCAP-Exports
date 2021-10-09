@@ -23,11 +23,11 @@ VALUES (22837,   1, 'Snowflower') /* Name */
      , (22837,  15, 'A delicate snowflower. The blossom radiates cold, reminding you of a crisp winter day. DO NOT LICK!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22837,   1,   33558159) /* Setup */
-     , (22837,   8,  100673926) /* Icon */
+VALUES (22837,   1, 0x02000E8F) /* Setup */
+     , (22837,   8, 0x06002986) /* Icon */
      , (22837, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (22837, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22837, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22837, 8000, 3658160306) /* PCAPRecordedObjectIID */;
+VALUES (22837, 8000, 0xDA0B18B2) /* PCAPRecordedObjectIID */;

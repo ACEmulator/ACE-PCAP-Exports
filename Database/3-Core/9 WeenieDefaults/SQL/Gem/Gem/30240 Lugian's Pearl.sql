@@ -34,21 +34,21 @@ VALUES (30240,   1, 'Lugian''s Pearl') /* Name */
      , (30240,  20, 'Lugian''s Pearls') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30240,   1,   33554809) /* Setup */
-     , (30240,   3,  536870932) /* SoundTable */
-     , (30240,   6,   67111919) /* PaletteBase */
-     , (30240,   8,  100686698) /* Icon */
-     , (30240,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30240,   1, 0x02000179) /* Setup */
+     , (30240,   3, 0x20000014) /* SoundTable */
+     , (30240,   6, 0x04000BEF) /* PaletteBase */
+     , (30240,   8, 0x06005B6A) /* Icon */
+     , (30240,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30240,  28,       3738) /* Spell - StrengthRare */
-     , (30240,  50,  100686688) /* IconOverlay */
-     , (30240,  52,  100686604) /* IconUnderlay */
+     , (30240,  50, 0x06005B60) /* IconOverlay */
+     , (30240,  52, 0x06005B0C) /* IconUnderlay */
      , (30240, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30240, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30240, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30240, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30240, 8000, 3677439960) /* PCAPRecordedObjectIID */;
+VALUES (30240, 8000, 0xDB3147D8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30240, 67111924, 0, 0);

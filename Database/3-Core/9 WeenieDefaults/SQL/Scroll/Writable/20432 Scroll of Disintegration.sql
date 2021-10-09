@@ -24,13 +24,13 @@ VALUES (20432,   1, 'Scroll of Disintegration') /* Name */
 Shoots a stream of acid at the target. The stream does 115-189 points of acid damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20432,   1,   33554826) /* Setup */
-     , (20432,   8,  100677026) /* Icon */
-     , (20432,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20432,   1, 0x0200018A) /* Setup */
+     , (20432,   8, 0x060035A2) /* Icon */
+     , (20432,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20432,  28,       2122) /* Spell - AcidStream7 */
      , (20432, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20432, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20432, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20432, 8000, 3700590322) /* PCAPRecordedObjectIID */;
+VALUES (20432, 8000, 0xDC9286F2) /* PCAPRecordedObjectIID */;

@@ -53,19 +53,19 @@ VALUES (3818,   1, 'Acid Katar') /* Name */
      , (3818,  16, 'Acid Katar of Swift Killer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3818,   1,   33555739) /* Setup */
-     , (3818,   3,  536870932) /* SoundTable */
-     , (3818,   8,  100668925) /* Icon */
-     , (3818,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3818,   1, 0x0200051B) /* Setup */
+     , (3818,   3, 0x20000014) /* SoundTable */
+     , (3818,   8, 0x060015FD) /* Icon */
+     , (3818,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3818,  37,         45) /* ItemSkillLimit - LightWeapons */
-     , (3818,  52,  100676437) /* IconUnderlay */
+     , (3818,  52, 0x06003355) /* IconUnderlay */
      , (3818, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3818, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (3818, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (3818, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3818, 8000, 2174497490) /* PCAPRecordedObjectIID */;
+VALUES (3818, 8000, 0x819C32D2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3818,  1626,      2)  /* SwiftKillerSelf5 */

@@ -46,17 +46,17 @@ VALUES (3940,   1, 'Lightning Morning Star') /* Name */
      , (3940,  16, 'Lightning Morning Star') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3940,   1,   33555747) /* Setup */
-     , (3940,   3,  536870932) /* SoundTable */
-     , (3940,   6,   67111919) /* PaletteBase */
-     , (3940,   8,  100668974) /* Icon */
-     , (3940,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3940,   1, 0x02000523) /* Setup */
+     , (3940,   3, 0x20000014) /* SoundTable */
+     , (3940,   6, 0x04000BEF) /* PaletteBase */
+     , (3940,   8, 0x0600162E) /* Icon */
+     , (3940,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3940, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3940, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3940, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3940, 8000, 3695829122) /* PCAPRecordedObjectIID */;
+VALUES (3940, 8000, 0xDC49E082) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3940, 67111926, 0, 0);

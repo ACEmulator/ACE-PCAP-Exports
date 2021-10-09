@@ -24,16 +24,13 @@ VALUES (27233,   1, 'Scroll of Eradicate Creature Magic Other') /* Name */
 Dispels 3-6 negative Creature Magic enchantments of level 7 or lower from the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27233,   1,   33554826) /* Setup */
-     , (27233,   8,  100676647) /* Icon */
-     , (27233,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27233,   1, 0x0200018A) /* Setup */
+     , (27233,   8, 0x06003427) /* Icon */
+     , (27233,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27233,  28,       3184) /* Spell - DispelCreatureBadOther7 */
      , (27233, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (27233, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27233, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27233, 8000, 3694326536) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27233, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */;
+VALUES (27233, 8000, 0xDC32F308) /* PCAPRecordedObjectIID */;

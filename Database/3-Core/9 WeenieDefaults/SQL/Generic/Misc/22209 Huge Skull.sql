@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22209,   1, 'Huge Skull') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22209,   1,   33556825) /* Setup */
-     , (22209,   8,  100671032) /* Icon */
+VALUES (22209,   1, 0x02000959) /* Setup */
+     , (22209,   8, 0x06001E38) /* Icon */
      , (22209, 8001,    8388624) /* PCAPRecordedWeenieHeader - Usable, RadarBehavior */
      , (22209, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22209, 8005,     426113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Position, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22209, 8040, 3062300971, 87.1191, 106.866, 83.4013, 0.08946163, 0, 0, -0.9959903) /* PCAPRecordedLocation */
+VALUES (22209, 8040, 0xB687012B, 87.1191, 106.866, 83.4013, 0.089462, 0, 0, -0.99599) /* PCAPRecordedLocation */
 /* @teleloc 0xB687012B [87.119100 106.866000 83.401300] 0.089462 0.000000 0.000000 -0.995990 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22209, 8000, 2070442041) /* PCAPRecordedObjectIID */;
+VALUES (22209, 8000, 0x7B687039) /* PCAPRecordedObjectIID */;

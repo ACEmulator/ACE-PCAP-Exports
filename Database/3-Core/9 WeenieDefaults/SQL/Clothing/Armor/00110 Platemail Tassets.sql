@@ -37,20 +37,17 @@ VALUES (110,   1, 'Platemail Tassets') /* Name */
      , (110,  16, 'Platemail Tassets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (110,   1,   33554656) /* Setup */
-     , (110,   3,  536870932) /* SoundTable */
-     , (110,   6,   67108990) /* PaletteBase */
-     , (110,   8,  100673341) /* Icon */
-     , (110,  22,  872415275) /* PhysicsEffectTable */
+VALUES (110,   1, 0x020000E0) /* Setup */
+     , (110,   3, 0x20000014) /* SoundTable */
+     , (110,   6, 0x0400007E) /* PaletteBase */
+     , (110,   8, 0x0600273D) /* Icon */
+     , (110,  22, 0x3400002B) /* PhysicsEffectTable */
      , (110, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (110, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (110, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (110, 8000, 3692279086) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (110, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+VALUES (110, 8000, 0xDC13B52E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (110, 67110007, 136, 16);

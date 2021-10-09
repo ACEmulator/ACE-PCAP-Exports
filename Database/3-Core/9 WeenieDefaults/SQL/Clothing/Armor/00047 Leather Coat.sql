@@ -44,17 +44,17 @@ VALUES (47,   1, 'Leather Coat') /* Name */
      , (47,  16, 'Finely crafted Armoredillo Hide Leather Coat , set with 3 Moonstones') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47,   1,   33554644) /* Setup */
-     , (47,   3,  536870932) /* SoundTable */
-     , (47,   6,   67108990) /* PaletteBase */
-     , (47,   8,  100667375) /* Icon */
-     , (47,  22,  872415275) /* PhysicsEffectTable */
+VALUES (47,   1, 0x020000D4) /* Setup */
+     , (47,   3, 0x20000014) /* SoundTable */
+     , (47,   6, 0x0400007E) /* PaletteBase */
+     , (47,   8, 0x06000FEF) /* Icon */
+     , (47,  22, 0x3400002B) /* PhysicsEffectTable */
      , (47, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (47, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (47, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47, 8000, 2917029927) /* PCAPRecordedObjectIID */;
+VALUES (47, 8000, 0xADDE5827) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (47,    51,      2)  /* Impenetrability1 */;

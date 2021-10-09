@@ -25,22 +25,22 @@ VALUES (35166,   1, 'Infernal Zefir') /* Name */
      , (35166, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35166,   1,   33555610) /* Setup */
-     , (35166,   2,  150995049) /* MotionTable */
-     , (35166,   3,  536870975) /* SoundTable */
-     , (35166,   6,   67109305) /* PaletteBase */
-     , (35166,   8,  100669123) /* Icon */
-     , (35166,  22,  872415279) /* PhysicsEffectTable */
+VALUES (35166,   1, 0x0200049A) /* Setup */
+     , (35166,   2, 0x09000069) /* MotionTable */
+     , (35166,   3, 0x2000003F) /* SoundTable */
+     , (35166,   6, 0x040001B9) /* PaletteBase */
+     , (35166,   8, 0x060016C3) /* Icon */
+     , (35166,  22, 0x3400002F) /* PhysicsEffectTable */
      , (35166, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35166, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35166, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35166, 8040, 11600267, 41.40443, -931.7582, 0.114, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35166, 8040, 0x00B1018B, 41.40443, -931.7582, 0.114, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B1018B [41.404430 -931.758200 0.114000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35166, 8000, 2931224245) /* PCAPRecordedObjectIID */;
+VALUES (35166, 8000, 0xAEB6EEB5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35166,   1, 400, 0, 0) /* Strength */

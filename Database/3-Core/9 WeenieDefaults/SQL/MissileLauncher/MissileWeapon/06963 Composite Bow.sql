@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6963,   1,        256) /* ItemType - MissileWeapon */
      , (6963,   5,        980) /* EncumbranceVal */
      , (6963,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (6963,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (6963,  16,          1) /* ItemUseable - No */
      , (6963,  19,        400) /* Value */
      , (6963,  33,          1) /* Bonded - Bonded */
@@ -16,7 +15,7 @@ VALUES (6963,   1,        256) /* ItemType - MissileWeapon */
      , (6963,  48,         47) /* WeaponSkill - MissileWeapons */
      , (6963,  49,         35) /* WeaponTime */
      , (6963,  50,          1) /* AmmoType - Arrow */
-     , (6963,  51,          2) /* CombatUse - Missle */
+     , (6963,  51,          2) /* CombatUse - Missile */
      , (6963,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6963, 114,          1) /* Attuned - Attuned */
      , (6963, 353,          8) /* WeaponType - Bow */
@@ -25,6 +24,7 @@ VALUES (6963,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6963,  22, True ) /* Inscribable */
+     , (6963,  23, True ) /* DestroyOnSell */
      , (6963,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -42,23 +42,23 @@ VALUES (6963,   1, 'Composite Bow') /* Name */
      , (6963,   8, 'Synder') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6963,   1,   33556601) /* Setup */
-     , (6963,   3,  536870932) /* SoundTable */
-     , (6963,   6,   67112869) /* PaletteBase */
-     , (6963,   8,  100670672) /* Icon */
-     , (6963,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6963,   1, 0x02000879) /* Setup */
+     , (6963,   3, 0x20000014) /* SoundTable */
+     , (6963,   6, 0x04000FA5) /* PaletteBase */
+     , (6963,   8, 0x06001CD0) /* Icon */
+     , (6963,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6963, 8001,    2327320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (6963, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6963, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (6963, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6963, 8040, 2422014004, 157.586, 83.48739, 27.93, -0.03225391, 0, 0, -0.9994797) /* PCAPRecordedLocation */
+VALUES (6963, 8040, 0x905D0034, 157.586, 83.48739, 27.93, -0.032254, 0, 0, -0.99948) /* PCAPRecordedLocation */
 /* @teleloc 0x905D0034 [157.586000 83.487390 27.930000] -0.032254 0.000000 0.000000 -0.999480 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6963, 8000, 3623568009) /* PCAPRecordedObjectIID */
-     , (6963, 8008, 1342694204) /* PCAPRecordedParentIID */;
+VALUES (6963, 8000, 0xD7FB4289) /* PCAPRecordedObjectIID */
+     , (6963, 8008, 0x5007E33C) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6963, 67112871, 0, 0);

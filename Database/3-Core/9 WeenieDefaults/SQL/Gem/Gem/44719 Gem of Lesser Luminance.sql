@@ -21,13 +21,13 @@ VALUES (44719,   1, 'Gem of Lesser Luminance') /* Name */
      , (44719,  20, 'Gems of Lesser Luminance') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44719,   1,   33554809) /* Setup */
-     , (44719,   3,  536870932) /* SoundTable */
-     , (44719,   8,  100692118) /* Icon */
-     , (44719,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44719,   1, 0x02000179) /* Setup */
+     , (44719,   3, 0x20000014) /* SoundTable */
+     , (44719,   8, 0x06007096) /* Icon */
+     , (44719,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44719, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (44719, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44719, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44719, 8000, 2345789227) /* PCAPRecordedObjectIID */;
+VALUES (44719, 8000, 0x8BD1E72B) /* PCAPRecordedObjectIID */;

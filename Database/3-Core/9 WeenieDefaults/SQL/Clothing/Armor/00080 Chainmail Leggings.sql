@@ -43,18 +43,18 @@ VALUES (80,   1, 'Chainmail Leggings') /* Name */
      , (80,  16, 'Chainmail Leggings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (80,   1,   33554856) /* Setup */
-     , (80,   3,  536870932) /* SoundTable */
-     , (80,   6,   67108990) /* PaletteBase */
-     , (80,   8,  100669309) /* Icon */
-     , (80,  22,  872415275) /* PhysicsEffectTable */
+VALUES (80,   1, 0x020001A8) /* Setup */
+     , (80,   3, 0x20000014) /* SoundTable */
+     , (80,   6, 0x0400007E) /* PaletteBase */
+     , (80,   8, 0x0600177D) /* Icon */
+     , (80,  22, 0x3400002B) /* PhysicsEffectTable */
      , (80,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (80, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (80, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (80, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (80, 8000, 3690366979) /* PCAPRecordedObjectIID */;
+VALUES (80, 8000, 0xDBF68803) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (80,  1486,      2)  /* Impenetrability6 */;

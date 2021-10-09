@@ -24,13 +24,13 @@ VALUES (2809,   1, 'Aura of Defender Self IV') /* Name */
 Increases the Melee Defense skill modifier of a weapon or magic caster by 10%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2809,   1,   33554826) /* Setup */
-     , (2809,   8,  100676658) /* Icon */
-     , (2809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2809,   1, 0x0200018A) /* Setup */
+     , (2809,   8, 0x06003432) /* Icon */
+     , (2809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2809,  28,       1603) /* Spell - DefenderSelf4 */
      , (2809, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2809, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2809, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2809, 8000, 2618417507) /* PCAPRecordedObjectIID */;
+VALUES (2809, 8000, 0x9C11E163) /* PCAPRecordedObjectIID */;

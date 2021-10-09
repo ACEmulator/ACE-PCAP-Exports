@@ -39,20 +39,20 @@ VALUES (35857,   1, 'Mask of the Depths') /* Name */
      , (35857,  16, 'This mask was fashioned for its wielder from the broken mask of the Watcher of Black Water.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35857,   1,   33559790) /* Setup */
-     , (35857,   3,  536870932) /* SoundTable */
-     , (35857,   8,  100688474) /* Icon */
-     , (35857,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35857,   1, 0x020014EE) /* Setup */
+     , (35857,   3, 0x20000014) /* SoundTable */
+     , (35857,   8, 0x0600625A) /* Icon */
+     , (35857,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35857, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (35857, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35857, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35857, 8000, 2911677087) /* PCAPRecordedObjectIID */;
+VALUES (35857, 8000, 0xAD8CAA9F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35857,  2059,      2)  /* CoordinationSelf7 */
      , (35857,  2067,      2)  /* FocusSelf7 */
-     , (35857,  2108,      2)  /* Impenetrability7 */
+     , (35857,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */
      , (35857,  2287,      2)  /* ManaMasterySelf7 */
-     , (35857,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */;
+     , (35857,  2108,      2)  /* Impenetrability7 */;

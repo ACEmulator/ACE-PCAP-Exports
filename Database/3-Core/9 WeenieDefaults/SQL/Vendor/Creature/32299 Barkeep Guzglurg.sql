@@ -34,21 +34,21 @@ VALUES (32299,   1, 'Barkeep Guzglurg') /* Name */
      , (32299, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32299,   1,   33554490) /* Setup */
-     , (32299,   2,  150994953) /* MotionTable */
-     , (32299,   3,  536870959) /* SoundTable */
-     , (32299,   6,   67109310) /* PaletteBase */
-     , (32299,   8,  100667449) /* Icon */
+VALUES (32299,   1, 0x0200003A) /* Setup */
+     , (32299,   2, 0x09000009) /* MotionTable */
+     , (32299,   3, 0x2000002F) /* SoundTable */
+     , (32299,   6, 0x040001BE) /* PaletteBase */
+     , (32299,   8, 0x06001039) /* Icon */
      , (32299, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (32299, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (32299, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32299, 8040, 3387097099, 28.8817, 53.9639, 14.0055, 0.704002, 0, 0, -0.710198) /* PCAPRecordedLocation */
+VALUES (32299, 8040, 0xC9E3000B, 28.8817, 53.9639, 14.0055, 0.704002, 0, 0, -0.710198) /* PCAPRecordedLocation */
 /* @teleloc 0xC9E3000B [28.881700 53.963900 14.005500] 0.704002 0.000000 0.000000 -0.710198 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32299, 8000, 2090741770) /* PCAPRecordedObjectIID */;
+VALUES (32299, 8000, 0x7C9E300A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32299,   1,  40, 0, 0) /* Strength */
@@ -84,8 +84,7 @@ VALUES (32299, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (32299, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (32299, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (32299, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (32299, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (32299, 4, 27669, -1, 0, 0, False) /* Create Tumerok Salted Meat (27669) for Shop */;
+     , (32299, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32299, 67113355, 0, 0);

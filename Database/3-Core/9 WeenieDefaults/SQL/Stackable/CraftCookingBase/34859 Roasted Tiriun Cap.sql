@@ -25,13 +25,13 @@ VALUES (34859,   1, 'Roasted Tiriun Cap') /* Name */
      , (34859,  20, 'Roasted Tiriun Caps') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34859,   1,   33558400) /* Setup */
-     , (34859,   3,  536870932) /* SoundTable */
-     , (34859,   8,  100689323) /* Icon */
-     , (34859,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34859,   1, 0x02000F80) /* Setup */
+     , (34859,   3, 0x20000014) /* SoundTable */
+     , (34859,   8, 0x060065AB) /* Icon */
+     , (34859,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34859, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (34859, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34859, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34859, 8000, 2210356942) /* PCAPRecordedObjectIID */;
+VALUES (34859, 8000, 0x83BF5ECE) /* PCAPRecordedObjectIID */;

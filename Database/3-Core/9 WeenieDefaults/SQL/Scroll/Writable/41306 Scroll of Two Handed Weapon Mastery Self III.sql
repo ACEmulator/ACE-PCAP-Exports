@@ -24,13 +24,13 @@ VALUES (41306,   1, 'Scroll of Two Handed Weapon Mastery Self III') /* Name */
 Increases the caster''s Two Handed Combat skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41306,   1,   33554826) /* Setup */
-     , (41306,   8,  100690644) /* Icon */
-     , (41306,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41306,   1, 0x0200018A) /* Setup */
+     , (41306,   8, 0x06006AD4) /* Icon */
+     , (41306,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41306,  28,       5101) /* Spell - TwoHandedMasterySelf3 */
      , (41306, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (41306, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41306, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41306, 8000, 2618125573) /* PCAPRecordedObjectIID */;
+VALUES (41306, 8000, 0x9C0D6D05) /* PCAPRecordedObjectIID */;

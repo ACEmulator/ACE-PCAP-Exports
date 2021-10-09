@@ -24,13 +24,13 @@ VALUES (27236,   1, 'Scroll of Eradicate Life Magic Other') /* Name */
 Dispels 3-6 negative Life Magic enchantments of level 7 or lower from the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27236,   1,   33554826) /* Setup */
-     , (27236,   8,  100676935) /* Icon */
-     , (27236,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27236,   1, 0x0200018A) /* Setup */
+     , (27236,   8, 0x06003547) /* Icon */
+     , (27236,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27236,  28,       3193) /* Spell - DispelLifeBadOther7 */
      , (27236, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (27236, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27236, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27236, 8000, 3706741640) /* PCAPRecordedObjectIID */;
+VALUES (27236, 8000, 0xDCF06388) /* PCAPRecordedObjectIID */;

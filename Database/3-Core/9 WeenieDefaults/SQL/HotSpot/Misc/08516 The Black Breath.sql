@@ -21,16 +21,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8516,   1, 'The Black Breath') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8516,   1,   33556889) /* Setup */
-     , (8516,   3,  536871007) /* SoundTable */
-     , (8516,   8,  100667465) /* Icon */
+VALUES (8516,   1, 0x02000999) /* Setup */
+     , (8516,   3, 0x2000005F) /* SoundTable */
+     , (8516,   8, 0x06001049) /* Icon */
      , (8516, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (8516, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (8516, 8005,      34945) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8516, 8040, 45089056, 130, -60, 6, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (8516, 8040, 0x02B00120, 130, -60, 6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x02B00120 [130.000000 -60.000000 6.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8516, 8000, 1881866249) /* PCAPRecordedObjectIID */;
+VALUES (8516, 8000, 0x702B0009) /* PCAPRecordedObjectIID */;

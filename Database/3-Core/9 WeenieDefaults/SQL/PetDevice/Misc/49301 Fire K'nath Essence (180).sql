@@ -17,7 +17,7 @@ VALUES (49301,   1,        128) /* ItemType - Misc */
      , (49301, 105,          7) /* ItemWorkmanship */
      , (49301, 114,          0) /* Attuned - Normal */
      , (49301, 280,        213) /* SharedCooldown */
-     , (49301, 366,         54) /* UseRequiresSkill */
+     , (49301, 366,         54) /* UseRequiresSkill - Summoning */
      , (49301, 367,        530) /* UseRequiresSkillLevel */
      , (49301, 369,        170) /* UseRequiresLevel */
      , (49301, 370,         15) /* GearDamage */
@@ -39,20 +39,20 @@ VALUES (49301,   1, 'Fire K''nath Essence (180)') /* Name */
      , (49301,  14, 'Use this essence to summon or dismiss your Fire K''nath.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49301,   1,   33554817) /* Setup */
-     , (49301,   3,  536870932) /* SoundTable */
-     , (49301,   6,   67111919) /* PaletteBase */
-     , (49301,   8,  100693041) /* Icon */
-     , (49301,  22,  872415275) /* PhysicsEffectTable */
-     , (49301,  50,  100693031) /* IconOverlay */
-     , (49301,  52,  100693024) /* IconUnderlay */
+VALUES (49301,   1, 0x02000181) /* Setup */
+     , (49301,   3, 0x20000014) /* SoundTable */
+     , (49301,   6, 0x04000BEF) /* PaletteBase */
+     , (49301,   8, 0x06007431) /* Icon */
+     , (49301,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49301,  50, 0x06007427) /* IconOverlay */
+     , (49301,  52, 0x06007420) /* IconUnderlay */
      , (49301, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49301, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49301, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49301, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49301, 8000, 2434612130) /* PCAPRecordedObjectIID */;
+VALUES (49301, 8000, 0x911D3BA2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49301, 67111923, 0, 0);

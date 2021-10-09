@@ -23,16 +23,16 @@ VALUES (2344,   1, 'Swamp Ruin') /* Name */
      , (2344, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2344,   1,   33555922) /* Setup */
-     , (2344,   2,  150994947) /* MotionTable */
-     , (2344,   8,  100667499) /* Icon */
+VALUES (2344,   1, 0x020005D2) /* Setup */
+     , (2344,   2, 0x09000003) /* MotionTable */
+     , (2344,   8, 0x0600106B) /* Icon */
      , (2344, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (2344, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (2344, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2344, 8040, 3227517185, 108.004, 22.4159, 1.136999, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (2344, 8040, 0xC0600101, 108.004, 22.4159, 1.136999, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC0600101 [108.004000 22.415900 1.136999] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2344, 8000, 2080768000) /* PCAPRecordedObjectIID */;
+VALUES (2344, 8000, 0x7C060000) /* PCAPRecordedObjectIID */;

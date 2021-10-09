@@ -20,6 +20,7 @@ VALUES (49582,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49582,  22, True ) /* Inscribable */
+     , (49582,  23, True ) /* DestroyOnSell */
      , (49582,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -28,13 +29,13 @@ VALUES (49582,   1, 'Combined Signet Fragment') /* Name */
      , (49582,  15, 'A combined signet fragment that stings as you hold it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49582,   1,   33557976) /* Setup */
-     , (49582,   3,  536870932) /* SoundTable */
-     , (49582,   8,  100693246) /* Icon */
-     , (49582,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49582,   1, 0x02000DD8) /* Setup */
+     , (49582,   3, 0x20000014) /* SoundTable */
+     , (49582,   8, 0x060074FE) /* Icon */
+     , (49582,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49582, 8001,    2650256) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (49582, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (49582, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49582, 8000, 2883702024) /* PCAPRecordedObjectIID */;
+VALUES (49582, 8000, 0xABE1CD08) /* PCAPRecordedObjectIID */;

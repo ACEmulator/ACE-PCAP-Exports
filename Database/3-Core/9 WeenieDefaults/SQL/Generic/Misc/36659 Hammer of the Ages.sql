@@ -15,6 +15,7 @@ VALUES (36659,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36659,  22, True ) /* Inscribable */
+     , (36659,  23, True ) /* DestroyOnSell */
      , (36659,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,21 +26,21 @@ VALUES (36659,   1, 'Hammer of the Ages') /* Name */
      , (36659,  15, 'A beautifully crafted hammer of metal and stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36659,   1,   33559631) /* Setup */
-     , (36659,   3,  536870932) /* SoundTable */
-     , (36659,   6,   67116700) /* PaletteBase */
-     , (36659,   8,  100688031) /* Icon */
-     , (36659,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36659,   1, 0x0200144F) /* Setup */
+     , (36659,   3, 0x20000014) /* SoundTable */
+     , (36659,   6, 0x04001E9C) /* PaletteBase */
+     , (36659,   8, 0x0600609F) /* Icon */
+     , (36659,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36659, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (36659, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36659, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36659, 8040, 10420547, 89.1894, -71.7281, -41.9265, -0.9341013, 0, 0, -0.3570081) /* PCAPRecordedLocation */
+VALUES (36659, 8040, 0x009F0143, 89.1894, -71.7281, -41.9265, -0.934101, 0, 0, -0.357008) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0143 [89.189400 -71.728100 -41.926500] -0.934101 0.000000 0.000000 -0.357008 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36659, 8000, 3709598376) /* PCAPRecordedObjectIID */;
+VALUES (36659, 8000, 0xDD1BFAA8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36659, 67116700, 1, 100)

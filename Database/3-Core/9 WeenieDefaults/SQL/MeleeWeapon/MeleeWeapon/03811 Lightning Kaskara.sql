@@ -53,17 +53,17 @@ VALUES (3811,   1, 'Lightning Kaskara') /* Name */
      , (3811,  16, 'Lightning Kaskara of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3811,   1,   33555795) /* Setup */
-     , (3811,   3,  536870932) /* SoundTable */
-     , (3811,   8,  100669032) /* Icon */
-     , (3811,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3811,   1, 0x02000553) /* Setup */
+     , (3811,   3, 0x20000014) /* SoundTable */
+     , (3811,   8, 0x06001668) /* Icon */
+     , (3811,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3811,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3811, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3811, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3811, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3811, 8000, 3336804322) /* PCAPRecordedObjectIID */;
+VALUES (3811, 8000, 0xC6E397E2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3811,  1615,      2)  /* BloodDrinkerSelf5 */

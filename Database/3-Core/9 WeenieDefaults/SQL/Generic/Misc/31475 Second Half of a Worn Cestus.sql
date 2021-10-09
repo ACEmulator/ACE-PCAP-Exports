@@ -19,13 +19,13 @@ VALUES (31475,   1, 'Second Half of a Worn Cestus') /* Name */
      , (31475,  16, 'Half of a worn old cestus. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31475,   1,   33554817) /* Setup */
-     , (31475,   3,  536870932) /* SoundTable */
-     , (31475,   8,  100687874) /* Icon */
-     , (31475,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31475,   1, 0x02000181) /* Setup */
+     , (31475,   3, 0x20000014) /* SoundTable */
+     , (31475,   8, 0x06006002) /* Icon */
+     , (31475,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31475, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (31475, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31475, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31475, 8000, 3351524166) /* PCAPRecordedObjectIID */;
+VALUES (31475, 8000, 0xC7C43346) /* PCAPRecordedObjectIID */;

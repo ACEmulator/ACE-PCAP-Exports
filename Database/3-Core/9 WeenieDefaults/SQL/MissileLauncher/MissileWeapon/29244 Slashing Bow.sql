@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29244,   1,        256) /* ItemType - MissileWeapon */
      , (29244,   5,        549) /* EncumbranceVal */
      , (29244,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (29244,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (29244,  16,          1) /* ItemUseable - No */
      , (29244,  18,       1025) /* UiEffects - Magical, Slashing */
      , (29244,  19,      10171) /* Value */
@@ -16,7 +15,7 @@ VALUES (29244,   1,        256) /* ItemType - MissileWeapon */
      , (29244,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29244,  49,         38) /* WeaponTime */
      , (29244,  50,          1) /* AmmoType - Arrow */
-     , (29244,  51,          2) /* CombatUse - Missle */
+     , (29244,  51,          2) /* CombatUse - Missile */
      , (29244,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29244, 105,          9) /* ItemWorkmanship */
      , (29244, 106,        370) /* ItemSpellcraft */
@@ -54,13 +53,13 @@ VALUES (29244,   1, 'Slashing Bow') /* Name */
      , (29244,  16, 'Slashing Bow of Dirty Fighting') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29244,   1,   33559028) /* Setup */
-     , (29244,   3,  536870932) /* SoundTable */
-     , (29244,   6,   67115373) /* PaletteBase */
-     , (29244,   8,  100677123) /* Icon */
-     , (29244,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29244,   1, 0x020011F4) /* Setup */
+     , (29244,   3, 0x20000014) /* SoundTable */
+     , (29244,   6, 0x0400196D) /* PaletteBase */
+     , (29244,   8, 0x06003603) /* Icon */
+     , (29244,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29244,  37,         47) /* ItemSkillLimit - MissileWeapons */
-     , (29244,  52,  100676444) /* IconUnderlay */
+     , (29244,  52, 0x0600335C) /* IconUnderlay */
      , (29244, 8001, 2435023768) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (29244, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (29244, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -68,18 +67,18 @@ VALUES (29244,   1,   33559028) /* Setup */
      , (29244, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29244, 8040, 459077, 70.026, -60.004, -0.07000001, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (29244, 8040, 0x00070145, 70.026, -60.004, -0.07, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.026000 -60.004000 -0.070000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29244, 8000, 2163449256) /* PCAPRecordedObjectIID */
-     , (29244, 8008, 1343407076) /* PCAPRecordedParentIID */;
+VALUES (29244, 8000, 0x80F39DA8) /* PCAPRecordedObjectIID */
+     , (29244, 8008, 0x5012C3E4) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29244,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (29244,  2101,      2)  /* DefenderSelf7 */
+VALUES (29244,  5786,      2)  /* DirtyFightingMasterySelf8 */
      , (29244,  2596,      2)  /* CANTRIPSWIFTHUNTER2 */
-     , (29244,  5786,      2)  /* DirtyFightingMasterySelf8 */;
+     , (29244,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (29244,  2101,      2)  /* DefenderSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29244, 67115371, 0, 0);

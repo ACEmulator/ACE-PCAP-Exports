@@ -22,13 +22,13 @@ VALUES (38745,   1, 'Benevolent Quill of Conveyance') /* Name */
      , (38745,  20, 'Benevolent Quills of Conveyance') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38745,   1,   33559616) /* Setup */
-     , (38745,   8,  100690198) /* Icon */
-     , (38745,  52,  100676437) /* IconUnderlay */
+VALUES (38745,   1, 0x02001440) /* Setup */
+     , (38745,   8, 0x06006916) /* Icon */
+     , (38745,  52, 0x06003355) /* IconUnderlay */
      , (38745, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (38745, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (38745, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (38745, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38745, 8000, 2158698211) /* PCAPRecordedObjectIID */;
+VALUES (38745, 8000, 0x80AB1EE3) /* PCAPRecordedObjectIID */;

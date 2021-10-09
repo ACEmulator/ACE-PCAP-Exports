@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11016,   1, 'Sheet of Curved Metal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11016,   1,   33555677) /* Setup */
-     , (11016,   3,  536870932) /* SoundTable */
-     , (11016,   6,   67111919) /* PaletteBase */
-     , (11016,   8,  100671822) /* Icon */
-     , (11016,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11016,   1, 0x020004DD) /* Setup */
+     , (11016,   3, 0x20000014) /* SoundTable */
+     , (11016,   6, 0x04000BEF) /* PaletteBase */
+     , (11016,   8, 0x0600214E) /* Icon */
+     , (11016,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11016, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (11016, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11016, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11016, 8000, 2485956222) /* PCAPRecordedObjectIID */;
+VALUES (11016, 8000, 0x942CAE7E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11016, 67111919, 0, 0);

@@ -26,13 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11816,   1, 'Serpent Crest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11816,   1,   33557280) /* Setup */
-     , (11816,   3,  536870932) /* SoundTable */
-     , (11816,   8,  100671946) /* Icon */
-     , (11816,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11816,   1, 0x02000B20) /* Setup */
+     , (11816,   3, 0x20000014) /* SoundTable */
+     , (11816,   8, 0x060021CA) /* Icon */
+     , (11816,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11816, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11816, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11816, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11816, 8000, 2166053068) /* PCAPRecordedObjectIID */;
+VALUES (11816, 8000, 0x811B58CC) /* PCAPRecordedObjectIID */;

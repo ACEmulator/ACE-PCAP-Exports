@@ -24,17 +24,17 @@ VALUES (20515,   1, 'Scroll of Adja''s Blessing') /* Name */
 Increases the caster''s Creature Enchantment skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20515,   1,   33554826) /* Setup */
-     , (20515,   8,  100676453) /* Icon */
-     , (20515,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20515,   1, 0x0200018A) /* Setup */
+     , (20515,   8, 0x06003365) /* Icon */
+     , (20515,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20515,  28,       2215) /* Spell - CreatureEnchantmentMasterySelf7 */
      , (20515, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (20515, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20515, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20515, 8040, 722599940, 21.72458, 75.99595, 65.9535, -0.9964268, 0, 0, -0.08446076) /* PCAPRecordedLocation */
+VALUES (20515, 8040, 0x2B120004, 21.72458, 75.99595, 65.9535, -0.996427, 0, 0, -0.084461) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120004 [21.724580 75.995950 65.953500] -0.996427 0.000000 0.000000 -0.084461 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20515, 8000, 3692444659) /* PCAPRecordedObjectIID */;
+VALUES (20515, 8000, 0xDC163BF3) /* PCAPRecordedObjectIID */;

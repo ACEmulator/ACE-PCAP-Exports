@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33529,   1, 'Makkar''s Eye') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33529,   1,   33558802) /* Setup */
-     , (33529,   3,  536870932) /* SoundTable */
-     , (33529,   8,  100689049) /* Icon */
-     , (33529,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33529,   1, 0x02001112) /* Setup */
+     , (33529,   3, 0x20000014) /* SoundTable */
+     , (33529,   8, 0x06006499) /* Icon */
+     , (33529,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33529, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (33529, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33529, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33529, 8000, 2178469536) /* PCAPRecordedObjectIID */;
+VALUES (33529, 8000, 0x81D8CEA0) /* PCAPRecordedObjectIID */;

@@ -53,21 +53,21 @@ VALUES (45425,   1, 'Frost Dagger') /* Name */
      , (45425,  16, 'Frost Dagger of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45425,   1,   33555721) /* Setup */
-     , (45425,   3,  536870932) /* SoundTable */
-     , (45425,   8,  100668876) /* Icon */
-     , (45425,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45425,   1, 0x02000509) /* Setup */
+     , (45425,   3, 0x20000014) /* SoundTable */
+     , (45425,   8, 0x060015CC) /* Icon */
+     , (45425,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45425,  37,         45) /* ItemSkillLimit - LightWeapons */
-     , (45425,  52,  100676435) /* IconUnderlay */
+     , (45425,  52, 0x06003353) /* IconUnderlay */
      , (45425, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45425, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45425, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45425, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45425, 8000, 2174536853) /* PCAPRecordedObjectIID */;
+VALUES (45425, 8000, 0x819CCC95) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45425,  1377,      2)  /* CoordinationSelf5 */
-     , (45425,  1616,      2)  /* BloodDrinkerSelf6 */
+VALUES (45425,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (45425,  1377,      2)  /* CoordinationSelf5 */
      , (45425,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;

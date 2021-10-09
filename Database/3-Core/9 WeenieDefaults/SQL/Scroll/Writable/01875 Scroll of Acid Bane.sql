@@ -24,13 +24,13 @@ VALUES (1875,   1, 'Scroll of Acid Bane') /* Name */
 Increases a shield or piece of armor''s resistance to acid damage by 10%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1875,   1,   33554826) /* Setup */
-     , (1875,   8,  100676648) /* Icon */
-     , (1875,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1875,   1, 0x0200018A) /* Setup */
+     , (1875,   8, 0x06003428) /* Icon */
+     , (1875,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1875,  28,       1493) /* Spell - AcidBane1 */
      , (1875, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1875, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1875, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1875, 8000, 3357934477) /* PCAPRecordedObjectIID */;
+VALUES (1875, 8000, 0xC826038D) /* PCAPRecordedObjectIID */;

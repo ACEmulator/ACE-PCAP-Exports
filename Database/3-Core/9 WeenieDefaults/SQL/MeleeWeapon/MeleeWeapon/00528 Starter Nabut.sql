@@ -37,13 +37,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (528,   1, 'Starter Nabut') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (528,   1,   33554749) /* Setup */
-     , (528,   3,  536870932) /* SoundTable */
-     , (528,   8,  100667602) /* Icon */
-     , (528,  22,  872415275) /* PhysicsEffectTable */
+VALUES (528,   1, 0x0200013D) /* Setup */
+     , (528,   3, 0x20000014) /* SoundTable */
+     , (528,   8, 0x060010D2) /* Icon */
+     , (528,  22, 0x3400002B) /* PhysicsEffectTable */
      , (528, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (528, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (528, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (528, 8000, 2928705557) /* PCAPRecordedObjectIID */;
+VALUES (528, 8000, 0xAE908015) /* PCAPRecordedObjectIID */;

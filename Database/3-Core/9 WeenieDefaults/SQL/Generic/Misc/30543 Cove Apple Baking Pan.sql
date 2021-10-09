@@ -14,7 +14,8 @@ VALUES (30543,   1,        128) /* ItemType - Misc */
      , (30543, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30543,  22, True ) /* Inscribable */;
+VALUES (30543,  22, True ) /* Inscribable */
+     , (30543,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30543,  39,       2) /* DefaultScale */;
@@ -24,17 +25,17 @@ VALUES (30543,   1, 'Cove Apple Baking Pan') /* Name */
      , (30543,  16, 'This baking pan was made by Lubziklan al-Luq specifically for his delicious cove apple pies. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30543,   1,   33555969) /* Setup */
-     , (30543,   3,  536870932) /* SoundTable */
-     , (30543,   8,  100669993) /* Icon */
-     , (30543,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30543,   1, 0x02000601) /* Setup */
+     , (30543,   3, 0x20000014) /* SoundTable */
+     , (30543,   8, 0x06001A29) /* Icon */
+     , (30543,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30543, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (30543, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30543, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30543, 8040, 22413684, 73.967, -39.0331, -6, 0.7648419, 0, 0, -0.644218) /* PCAPRecordedLocation */
+VALUES (30543, 8040, 0x01560174, 73.967, -39.0331, -6, 0.764842, 0, 0, -0.644218) /* PCAPRecordedLocation */
 /* @teleloc 0x01560174 [73.967000 -39.033100 -6.000000] 0.764842 0.000000 0.000000 -0.644218 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30543, 8000, 2776641918) /* PCAPRecordedObjectIID */;
+VALUES (30543, 8000, 0xA580317E) /* PCAPRecordedObjectIID */;

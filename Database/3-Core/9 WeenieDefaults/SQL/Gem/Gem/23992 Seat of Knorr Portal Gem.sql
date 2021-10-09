@@ -25,7 +25,8 @@ VALUES (23992,   1,       2048) /* ItemType - Gem */
      , (23992, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23992,  22, True ) /* Inscribable */;
+VALUES (23992,  22, True ) /* Inscribable */
+     , (23992,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23992,  76,     0.5) /* Translucency */;
@@ -36,18 +37,18 @@ VALUES (23992,   1, 'Seat of Knorr Portal Gem') /* Name */
      , (23992,  15, 'A gem pulsating with the power of portal space. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23992,   1,   33556769) /* Setup */
-     , (23992,   3,  536870932) /* SoundTable */
-     , (23992,   6,   67111919) /* PaletteBase */
-     , (23992,   8,  100668365) /* Icon */
-     , (23992,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23992,   1, 0x02000921) /* Setup */
+     , (23992,   3, 0x20000014) /* SoundTable */
+     , (23992,   6, 0x04000BEF) /* PaletteBase */
+     , (23992,   8, 0x060013CD) /* Icon */
+     , (23992,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23992,  28,       2957) /* Spell - PortalSendingKnorrSeat */
      , (23992, 8001,    6844560) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (23992, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23992, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23992, 8000, 2153711878) /* PCAPRecordedObjectIID */;
+VALUES (23992, 8000, 0x805F0906) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23992, 67111926, 0, 0);

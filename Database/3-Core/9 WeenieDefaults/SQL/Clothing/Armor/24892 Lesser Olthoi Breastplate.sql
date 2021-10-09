@@ -36,17 +36,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24892,   1, 'Lesser Olthoi Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24892,   1,   33554642) /* Setup */
-     , (24892,   3,  536870932) /* SoundTable */
-     , (24892,   6,   67108990) /* PaletteBase */
-     , (24892,   8,  100674611) /* Icon */
-     , (24892,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24892,   1, 0x020000D2) /* Setup */
+     , (24892,   3, 0x20000014) /* SoundTable */
+     , (24892,   6, 0x0400007E) /* PaletteBase */
+     , (24892,   8, 0x06002C33) /* Icon */
+     , (24892,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24892, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (24892, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24892, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24892, 8000, 2248309407) /* PCAPRecordedObjectIID */;
+VALUES (24892, 8000, 0x86027A9F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24892, 67114436, 174, 12)

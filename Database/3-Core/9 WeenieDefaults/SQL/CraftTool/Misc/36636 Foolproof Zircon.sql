@@ -36,22 +36,22 @@ VALUES (36636,   1, 'Foolproof Zircon') /* Name */
      , (36636,  15, 'Chips of zircon. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36636,   1,   33554817) /* Setup */
-     , (36636,   3,  536870932) /* SoundTable */
-     , (36636,   6,   67111919) /* PaletteBase */
-     , (36636,   8,  100686618) /* Icon */
-     , (36636,  22,  872415275) /* PhysicsEffectTable */
-     , (36636,  50,  100673313) /* IconOverlay */
+VALUES (36636,   1, 0x02000181) /* Setup */
+     , (36636,   3, 0x20000014) /* SoundTable */
+     , (36636,   6, 0x04000BEF) /* PaletteBase */
+     , (36636,   8, 0x06005B1A) /* Icon */
+     , (36636,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36636,  50, 0x06002721) /* IconOverlay */
      , (36636, 8001, 3509074968) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (36636, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36636, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36636, 8040, 23855549, 49.56964, -39.39404, -0.002499998, -0.9965932, 0, 0, -0.08247382) /* PCAPRecordedLocation */
+VALUES (36636, 8040, 0x016C01BD, 49.56964, -39.39404, -0.0025, -0.996593, 0, 0, -0.082474) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [49.569640 -39.394040 -0.002500] -0.996593 0.000000 0.000000 -0.082474 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36636, 8000, 2237242415) /* PCAPRecordedObjectIID */;
+VALUES (36636, 8000, 0x85599C2F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36636, 67111923, 0, 0);

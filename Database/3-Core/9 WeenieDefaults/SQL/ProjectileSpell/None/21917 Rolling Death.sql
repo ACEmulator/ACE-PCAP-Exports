@@ -24,11 +24,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21917,   1, 'Rolling Death') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21917,   1,   33557981) /* Setup */
-     , (21917,   3,  536870967) /* SoundTable */
-     , (21917,   6,   67114014) /* PaletteBase */
-     , (21917,   8,  100667494) /* Icon */
-     , (21917,  22,  872415392) /* PhysicsEffectTable */
+VALUES (21917,   1, 0x02000DDD) /* Setup */
+     , (21917,   3, 0x20000037) /* SoundTable */
+     , (21917,   6, 0x0400141E) /* PaletteBase */
+     , (21917,   8, 0x06001066) /* Icon */
+     , (21917,  22, 0x340000A0) /* PhysicsEffectTable */
      , (21917,  28,       2792) /* Spell - RollingDeathFlame */
      , (21917,  30,         90) /* PhysicsScript - ProjectileCollision */
      , (21917, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
@@ -36,11 +36,11 @@ VALUES (21917,   1,   33557981) /* Setup */
      , (21917, 8005,      64389) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21917, 8040, 1481769410, 80, -184.5619, 1.828333, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (21917, 8040, 0x585201C2, 80, -184.5619, 1.828333, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x585201C2 [80.000000 -184.561900 1.828333] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21917, 8000, 3702581527) /* PCAPRecordedObjectIID */;
+VALUES (21917, 8000, 0xDCB0E917) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21917, 67114014, 0, 0);

@@ -20,21 +20,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6597,   1, 'Greater Koujia Shadow Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6597,   1,   33554642) /* Setup */
-     , (6597,   3,  536870932) /* SoundTable */
-     , (6597,   6,   67108990) /* PaletteBase */
-     , (6597,   8,  100670454) /* Icon */
-     , (6597,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6597,   1, 0x020000D2) /* Setup */
+     , (6597,   3, 0x20000014) /* SoundTable */
+     , (6597,   6, 0x0400007E) /* PaletteBase */
+     , (6597,   8, 0x06001BF6) /* Icon */
+     , (6597,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6597, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (6597, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6597, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6597, 8040, 23855554, 61.98917, -34.82554, -0.004999995, -0.03090136, 0, 0, -0.9995224) /* PCAPRecordedLocation */
+VALUES (6597, 8040, 0x016C01C2, 61.98917, -34.82554, -0.005, -0.030901, 0, 0, -0.999522) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [61.989170 -34.825540 -0.005000] -0.030901 0.000000 0.000000 -0.999522 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6597, 8000, 3198019285) /* PCAPRecordedObjectIID */;
+VALUES (6597, 8000, 0xBE9DE6D5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6597, 67109969, 216, 24)

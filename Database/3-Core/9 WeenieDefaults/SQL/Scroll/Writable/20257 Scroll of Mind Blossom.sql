@@ -24,13 +24,13 @@ VALUES (20257,   1, 'Scroll of Mind Blossom') /* Name */
 Increases the caster''s Self by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20257,   1,   33554826) /* Setup */
-     , (20257,   8,  100676471) /* Icon */
-     , (20257,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20257,   1, 0x0200018A) /* Setup */
+     , (20257,   8, 0x06003377) /* Icon */
+     , (20257,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20257,  28,       2091) /* Spell - WillpowerSelf7 */
      , (20257, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20257, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20257, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20257, 8000, 3354744511) /* PCAPRecordedObjectIID */;
+VALUES (20257, 8000, 0xC7F556BF) /* PCAPRecordedObjectIID */;

@@ -34,18 +34,18 @@ VALUES (27512,   1, 'Nanner Island Portal Gem') /* Name */
      , (27512,  15, 'A nanner-colored portal gem, teeming with energy. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27512,   1,   33556769) /* Setup */
-     , (27512,   3,  536870932) /* SoundTable */
-     , (27512,   6,   67111919) /* PaletteBase */
-     , (27512,   8,  100676422) /* Icon */
-     , (27512,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27512,   1, 0x02000921) /* Setup */
+     , (27512,   3, 0x20000014) /* SoundTable */
+     , (27512,   6, 0x04000BEF) /* PaletteBase */
+     , (27512,   8, 0x06003346) /* Icon */
+     , (27512,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27512,  28,       3238) /* Spell - PortalSendingNannerIsland */
      , (27512, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (27512, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (27512, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27512, 8000, 2157272798) /* PCAPRecordedObjectIID */;
+VALUES (27512, 8000, 0x80955EDE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27512, 67111921, 0, 0);

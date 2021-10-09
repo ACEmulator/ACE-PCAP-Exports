@@ -22,16 +22,16 @@ VALUES (15181,   1, 'Osric Cottages Portal') /* Name */
      , (15181, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15181,   1,   33554867) /* Setup */
-     , (15181,   2,  150994947) /* MotionTable */
-     , (15181,   8,  100667499) /* Icon */
+VALUES (15181,   1, 0x020001B3) /* Setup */
+     , (15181,   2, 0x09000003) /* MotionTable */
+     , (15181,   8, 0x0600106B) /* Icon */
      , (15181, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (15181, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (15181, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15181, 8040, 3196190754, 111.175, 31.3039, 36.54566, -0.3387671, 0, 0, -0.9408703) /* PCAPRecordedLocation */
+VALUES (15181, 8040, 0xBE820022, 111.175, 31.3039, 36.54566, -0.338767, 0, 0, -0.94087) /* PCAPRecordedLocation */
 /* @teleloc 0xBE820022 [111.175000 31.303900 36.545660] -0.338767 0.000000 0.000000 -0.940870 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15181, 8000, 2078810123) /* PCAPRecordedObjectIID */;
+VALUES (15181, 8000, 0x7BE8200B) /* PCAPRecordedObjectIID */;

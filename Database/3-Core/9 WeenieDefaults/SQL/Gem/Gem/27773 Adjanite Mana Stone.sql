@@ -26,14 +26,14 @@ VALUES (27773,   1, 'Adjanite Mana Stone') /* Name */
      , (27773,  16, 'A large blue Mana Stone. While it looks similar to every day mana stones, you can tell it is different just by looking at it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27773,   1,   33555639) /* Setup */
-     , (27773,   3,  536870932) /* SoundTable */
-     , (27773,   8,  100676624) /* Icon */
-     , (27773,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27773,   1, 0x020004B7) /* Setup */
+     , (27773,   3, 0x20000014) /* SoundTable */
+     , (27773,   8, 0x06003410) /* Icon */
+     , (27773,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27773,  28,       3249) /* Spell - ManaRenewalAdja */
      , (27773, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (27773, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (27773, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27773, 8000, 2174519153) /* PCAPRecordedObjectIID */;
+VALUES (27773, 8000, 0x819C8771) /* PCAPRecordedObjectIID */;

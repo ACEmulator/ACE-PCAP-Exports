@@ -27,17 +27,17 @@ VALUES (11469,   1, 'Vial of Thananim Dye') /* Name */
      , (11469,  20, 'Vials of Thananim Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11469,   1,   33556751) /* Setup */
-     , (11469,   3,  536870932) /* SoundTable */
-     , (11469,   6,   67111919) /* PaletteBase */
-     , (11469,   8,  100670954) /* Icon */
-     , (11469,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11469,   1, 0x0200090F) /* Setup */
+     , (11469,   3, 0x20000014) /* SoundTable */
+     , (11469,   6, 0x04000BEF) /* PaletteBase */
+     , (11469,   8, 0x06001DEA) /* Icon */
+     , (11469,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11469, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11469, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (11469, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11469, 8000, 2461826729) /* PCAPRecordedObjectIID */;
+VALUES (11469, 8000, 0x92BC7EA9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11469, 67111927, 0, 0);

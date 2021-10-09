@@ -25,17 +25,17 @@ VALUES (44823,   1, 'Derethian Combat Arena') /* Name */
      , (44823, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44823,   1,   33560768) /* Setup */
-     , (44823,   2,  150995314) /* MotionTable */
-     , (44823,   3,  536870932) /* SoundTable */
-     , (44823,   8,  100667499) /* Icon */
+VALUES (44823,   1, 0x020018C0) /* Setup */
+     , (44823,   2, 0x09000172) /* MotionTable */
+     , (44823,   3, 0x20000014) /* SoundTable */
+     , (44823,   8, 0x0600106B) /* Icon */
      , (44823, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (44823, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (44823, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44823, 8040, 3443589165, 126.4693, 103.3928, 54.13117, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (44823, 8040, 0xCD41002D, 126.4693, 103.3928, 54.13117, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xCD41002D [126.469300 103.392800 54.131170] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44823, 8000, 3631364555) /* PCAPRecordedObjectIID */;
+VALUES (44823, 8000, 0xD87239CB) /* PCAPRecordedObjectIID */;

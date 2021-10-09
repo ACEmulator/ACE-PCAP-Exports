@@ -52,18 +52,18 @@ VALUES (7794,   1, 'Electric Trident') /* Name */
      , (7794,  16, 'Electric Trident of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7794,   1,   33556668) /* Setup */
-     , (7794,   3,  536870932) /* SoundTable */
-     , (7794,   6,   67111919) /* PaletteBase */
-     , (7794,   8,  100670762) /* Icon */
-     , (7794,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7794,   1, 0x020008BC) /* Setup */
+     , (7794,   3, 0x20000014) /* SoundTable */
+     , (7794,   6, 0x04000BEF) /* PaletteBase */
+     , (7794,   8, 0x06001D2A) /* Icon */
+     , (7794,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7794,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (7794, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (7794, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7794, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7794, 8000, 3188811292) /* PCAPRecordedObjectIID */;
+VALUES (7794, 8000, 0xBE11661C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7794,  1603,      2)  /* DefenderSelf4 */

@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48726,   1, 'Contract for Lunnum''s Disappearance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48726,   1,   33557625) /* Setup */
-     , (48726,   3,  536870932) /* SoundTable */
-     , (48726,   8,  100691932) /* Icon */
-     , (48726,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48726,   1, 0x02000C79) /* Setup */
+     , (48726,   3, 0x20000014) /* SoundTable */
+     , (48726,   8, 0x06006FDC) /* Icon */
+     , (48726,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48726, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (48726, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (48726, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (48726,   1,   33557625) /* Setup */
      , (48726, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48726, 8000,      48726) /* PCAPRecordedObjectIID */;
+VALUES (48726, 8000, 0x0000BE56) /* PCAPRecordedObjectIID */;

@@ -46,13 +46,13 @@ VALUES (3828,   1, 'Flaming Bandit Khanjar') /* Name */
      , (3828,  25, 'Triumph') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3828,   1,   33555769) /* Setup */
-     , (3828,   3,  536870932) /* SoundTable */
-     , (3828,   8,  100667597) /* Icon */
-     , (3828,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3828,   1, 0x02000539) /* Setup */
+     , (3828,   3, 0x20000014) /* SoundTable */
+     , (3828,   8, 0x060010CD) /* Icon */
+     , (3828,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3828, 8001, 2434876048) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3828, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3828, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3828, 8000, 2541837503) /* PCAPRecordedObjectIID */;
+VALUES (3828, 8000, 0x97815CBF) /* PCAPRecordedObjectIID */;

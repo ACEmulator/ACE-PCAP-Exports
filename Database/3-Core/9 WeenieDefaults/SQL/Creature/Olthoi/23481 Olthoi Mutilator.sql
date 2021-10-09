@@ -26,23 +26,23 @@ VALUES (23481,   1, 'Olthoi Mutilator') /* Name */
      , (23481, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23481,   1,   33557161) /* Setup */
-     , (23481,   2,  150994946) /* MotionTable */
-     , (23481,   3,  536870925) /* SoundTable */
-     , (23481,   6,   67113236) /* PaletteBase */
-     , (23481,   8,  100667623) /* Icon */
-     , (23481,  22,  872415265) /* PhysicsEffectTable */
+VALUES (23481,   1, 0x02000AA9) /* Setup */
+     , (23481,   2, 0x09000002) /* MotionTable */
+     , (23481,   3, 0x2000000D) /* SoundTable */
+     , (23481,   6, 0x04001114) /* PaletteBase */
+     , (23481,   8, 0x060010E7) /* Icon */
+     , (23481,  22, 0x34000021) /* PhysicsEffectTable */
      , (23481,  30,         86) /* PhysicsScript - BreatheAcid */
      , (23481, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (23481, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (23481, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23481, 8040, 340983862, 159.9285, 133.0023, -0.1, 0.9932531, 0, 0, -0.1159667) /* PCAPRecordedLocation */
+VALUES (23481, 8040, 0x14530036, 159.9285, 133.0023, -0.1, 0.993253, 0, 0, -0.115967) /* PCAPRecordedLocation */
 /* @teleloc 0x14530036 [159.928500 133.002300 -0.100000] 0.993253 0.000000 0.000000 -0.115967 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23481, 8000, 3700484899) /* PCAPRecordedObjectIID */;
+VALUES (23481, 8000, 0xDC90EB23) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23481,   1, 330, 0, 0) /* Strength */
@@ -294,7 +294,32 @@ VALUES (23481, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for 
      , (23481, 9, 20526,  0, 0, 0, False) /* Create Scroll of Sashi Mu's Kiss (20526) for ContainTreasure */
      , (23481, 9, 20230,  0, 0, 0, False) /* Create Scroll of Executor's Boon (20230) for ContainTreasure */
      , (23481, 9, 49354,  0, 0, 0, False) /* Create Fire Moar Essence (100) (49354) for ContainTreasure */
-     , (23481, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */;
+     , (23481, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (23481, 9, 21308,  0, 0, 0, False) /* Create Scroll of Flame Arc VII (21308) for ContainTreasure */
+     , (23481, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (23481, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (23481, 9,    62,  0, 0, 0, False) /* Create Scalemail Girth (62) for ContainTreasure */
+     , (23481, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) for ContainTreasure */
+     , (23481, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
+     , (23481, 9, 20408,  0, 0, 0, False) /* Create Scroll of Tusker's Bane (20408) for ContainTreasure */
+     , (23481, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
+     , (23481, 9, 22167,  0, 0, 0, False) /* Create Frost Quarter Staff (22167) for ContainTreasure */
+     , (23481, 9,  4194,  0, 0, 0, False) /* Create Lightning Cestus (4194) for ContainTreasure */
+     , (23481, 9,  8489,  0, 0, 0, False) /* Create Heaume (8489) for ContainTreasure */
+     , (23481, 9, 40627,  0, 0, 0, False) /* Create Frost Quadrelle (40627) for ContainTreasure */
+     , (23481, 9, 20236,  0, 0, 0, False) /* Create Scroll of Temeritous Touch (20236) for ContainTreasure */
+     , (23481, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (23481, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
+     , (23481, 9, 49346,  0, 0, 0, False) /* Create Lightning Moar Essence (80) (49346) for ContainTreasure */
+     , (23481, 9, 41055,  0, 0, 0, False) /* Create Flaming Greataxe (41055) for ContainTreasure */
+     , (23481, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (23481, 9, 49228,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (80) (49228) for ContainTreasure */
+     , (23481, 9, 20594,  0, 0, 0, False) /* Create Scroll of Wrath of the Hieromancer (20594) for ContainTreasure */
+     , (23481, 9, 27217,  0, 0, 0, False) /* Create Chiran Helm (27217) for ContainTreasure */
+     , (23481, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
+     , (23481, 9, 49547,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (100) (49547) for ContainTreasure */
+     , (23481, 9, 49290,  0, 0, 0, False) /* Create Lightning K'nath Essence (80) (49290) for ContainTreasure */
+     , (23481, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23481, 67113314, 0, 0);

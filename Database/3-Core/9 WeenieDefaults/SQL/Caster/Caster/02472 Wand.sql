@@ -10,6 +10,7 @@ VALUES (2472,   1,      32768) /* ItemType - Caster */
      , (2472,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (2472,  18,          1) /* UiEffects - Magical */
      , (2472,  19,       7597) /* Value */
+     , (2472,  46,        512) /* DefaultCombatStyle - Magic */
      , (2472,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2472,  94,         16) /* TargetType - Creature */
      , (2472, 105,          5) /* ItemWorkmanship */
@@ -40,18 +41,18 @@ VALUES (2472,   1, 'Wand') /* Name */
      , (2472,  16, 'Wand of Force') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2472,   1,   33554812) /* Setup */
-     , (2472,   3,  536870932) /* SoundTable */
-     , (2472,   6,   67111919) /* PaletteBase */
-     , (2472,   8,  100668794) /* Icon */
-     , (2472,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2472,   1, 0x0200017C) /* Setup */
+     , (2472,   3, 0x20000014) /* SoundTable */
+     , (2472,   6, 0x04000BEF) /* PaletteBase */
+     , (2472,   8, 0x0600157A) /* Icon */
+     , (2472,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2472,  28,         90) /* Spell - ForceBolt5 */
      , (2472, 8001, 2439594136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
      , (2472, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2472, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2472, 8000, 2186220616) /* PCAPRecordedObjectIID */;
+VALUES (2472, 8000, 0x824F1448) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2472,   657,      2)  /* ManaMasterySelf5 */;

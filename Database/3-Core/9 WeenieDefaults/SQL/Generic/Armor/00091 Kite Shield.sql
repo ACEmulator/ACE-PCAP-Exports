@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (91,   1,          2) /* ItemType - Armor */
      , (91,   5,        690) /* EncumbranceVal */
      , (91,   9,    2097152) /* ValidLocations - Shield */
-     , (91,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (91,  16,          1) /* ItemUseable - No */
      , (91,  19,       1270) /* Value */
      , (91,  28,        112) /* ArmorLevel */
@@ -43,11 +42,11 @@ VALUES (91,   1, 'Kite Shield') /* Name */
      , (91,  16, 'Kite Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (91,   1,   33554788) /* Setup */
-     , (91,   3,  536870932) /* SoundTable */
-     , (91,   6,   67111919) /* PaletteBase */
-     , (91,   8,  100668582) /* Icon */
-     , (91,  22,  872415275) /* PhysicsEffectTable */
+VALUES (91,   1, 0x02000164) /* Setup */
+     , (91,   3, 0x20000014) /* SoundTable */
+     , (91,   6, 0x04000BEF) /* PaletteBase */
+     , (91,   8, 0x060014A6) /* Icon */
+     , (91,  22, 0x3400002B) /* PhysicsEffectTable */
      , (91,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (91, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (91, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -55,18 +54,15 @@ VALUES (91,   1,   33554788) /* Setup */
      , (91, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (91, 8040, 3677946112, 54.97376, 85.56487, 22.7285, 0.4646914, 0.5335704, -0.6521398, 0.272173) /* PCAPRecordedLocation */
+VALUES (91, 8040, 0xDB390100, 54.97376, 85.56487, 22.7285, 0.464691, 0.53357, -0.65214, 0.272173) /* PCAPRecordedLocation */
 /* @teleloc 0xDB390100 [54.973760 85.564870 22.728500] 0.464691 0.533570 -0.652140 0.272173 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (91, 8000, 3685619156) /* PCAPRecordedObjectIID */
-     , (91, 8008, 3685774806) /* PCAPRecordedParentIID */;
+VALUES (91, 8000, 0xDBAE15D4) /* PCAPRecordedObjectIID */
+     , (91, 8008, 0xDBB075D6) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (91,  1482,      2)  /* Impenetrability2 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (91, 2, 47408,  1, 0, 0, False) /* Create Frost Club (47408) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (91, 67111919, 0, 0);

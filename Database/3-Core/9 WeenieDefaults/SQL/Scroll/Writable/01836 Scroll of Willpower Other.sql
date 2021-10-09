@@ -24,13 +24,13 @@ VALUES (1836,   1, 'Scroll of Willpower Other') /* Name */
 Increases the target''s Self by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1836,   1,   33554826) /* Setup */
-     , (1836,   8,  100676471) /* Icon */
-     , (1836,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1836,   1, 0x0200018A) /* Setup */
+     , (1836,   8, 0x06003377) /* Icon */
+     , (1836,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1836,  28,       1451) /* Spell - WillpowerOther1 */
      , (1836, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1836, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1836, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1836, 8000, 2615121345) /* PCAPRecordedObjectIID */;
+VALUES (1836, 8000, 0x9BDF95C1) /* PCAPRecordedObjectIID */;

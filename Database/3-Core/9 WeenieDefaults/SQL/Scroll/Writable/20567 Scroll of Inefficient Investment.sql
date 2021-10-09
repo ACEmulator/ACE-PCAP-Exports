@@ -24,13 +24,13 @@ VALUES (20567,   1, 'Scroll of Inefficient Investment') /* Name */
 Decreases the target''s Mana Conversion skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20567,   1,   33554826) /* Setup */
-     , (20567,   8,  100676466) /* Icon */
-     , (20567,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20567,   1, 0x0200018A) /* Setup */
+     , (20567,   8, 0x06003372) /* Icon */
+     , (20567,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20567,  28,       2284) /* Spell - ManaIneptitudeOther7 */
      , (20567, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20567, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20567, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20567, 8000, 3707748923) /* PCAPRecordedObjectIID */;
+VALUES (20567, 8000, 0xDCFFC23B) /* PCAPRecordedObjectIID */;

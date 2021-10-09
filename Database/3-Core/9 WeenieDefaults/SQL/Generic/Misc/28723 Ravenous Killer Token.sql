@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28723,   1, 'Ravenous Killer Token') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28723,   1,   33554817) /* Setup */
-     , (28723,   3,  536870932) /* SoundTable */
-     , (28723,   8,  100686352) /* Icon */
-     , (28723,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28723,   1, 0x02000181) /* Setup */
+     , (28723,   3, 0x20000014) /* SoundTable */
+     , (28723,   8, 0x06005A10) /* Icon */
+     , (28723,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28723, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (28723, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28723, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28723, 8000, 3669096082) /* PCAPRecordedObjectIID */;
+VALUES (28723, 8000, 0xDAB1F692) /* PCAPRecordedObjectIID */;

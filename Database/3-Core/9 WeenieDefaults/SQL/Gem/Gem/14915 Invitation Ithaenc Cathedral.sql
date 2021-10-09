@@ -37,10 +37,10 @@ VALUES (14915,   1, 'Invitation Ithaenc Cathedral') /* Name */
      , (14915,  16, 'A wedding invitation.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14915,   1,   33557625) /* Setup */
-     , (14915,   3,  536870932) /* SoundTable */
-     , (14915,   8,  100674867) /* Icon */
-     , (14915,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14915,   1, 0x02000C79) /* Setup */
+     , (14915,   3, 0x20000014) /* SoundTable */
+     , (14915,   8, 0x06002D33) /* Icon */
+     , (14915,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14915,  28,        157) /* Spell - SummonPortal1 */
      , (14915, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (14915, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -48,4 +48,4 @@ VALUES (14915,   1,   33557625) /* Setup */
      , (14915, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14915, 8000, 3702810435) /* PCAPRecordedObjectIID */;
+VALUES (14915, 8000, 0xDCB46743) /* PCAPRecordedObjectIID */;

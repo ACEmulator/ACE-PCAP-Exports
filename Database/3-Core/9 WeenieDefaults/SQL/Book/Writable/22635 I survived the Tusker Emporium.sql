@@ -24,11 +24,11 @@ VALUES (22635,   1, 'I survived the Tusker Emporium') /* Name */
      , (22635,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22635,   1,   33558121) /* Setup */
-     , (22635,   8,  100673829) /* Icon */
+VALUES (22635,   1, 0x02000E69) /* Setup */
+     , (22635,   8, 0x06002925) /* Icon */
      , (22635, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
      , (22635, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (22635, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22635, 8000, 2622578475) /* PCAPRecordedObjectIID */;
+VALUES (22635, 8000, 0x9C515F2B) /* PCAPRecordedObjectIID */;

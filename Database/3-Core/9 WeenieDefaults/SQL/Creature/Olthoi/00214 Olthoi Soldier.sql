@@ -25,22 +25,22 @@ VALUES (214,   1, 'Olthoi Soldier') /* Name */
      , (214, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (214,   1,   33557162) /* Setup */
-     , (214,   2,  150994946) /* MotionTable */
-     , (214,   3,  536870925) /* SoundTable */
-     , (214,   8,  100667623) /* Icon */
-     , (214,  22,  872415265) /* PhysicsEffectTable */
+VALUES (214,   1, 0x02000AAA) /* Setup */
+     , (214,   2, 0x09000002) /* MotionTable */
+     , (214,   3, 0x2000000D) /* SoundTable */
+     , (214,   8, 0x060010E7) /* Icon */
+     , (214,  22, 0x34000021) /* PhysicsEffectTable */
      , (214,  30,         86) /* PhysicsScript - BreatheAcid */
      , (214, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (214, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (214, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (214, 8040, 2279211016, 14.75044, 188.5974, 116.3497, -0.639178, 0, 0, -0.7690588) /* PCAPRecordedLocation */
+VALUES (214, 8040, 0x87DA0008, 14.75044, 188.5974, 116.3497, -0.639178, 0, 0, -0.769059) /* PCAPRecordedLocation */
 /* @teleloc 0x87DA0008 [14.750440 188.597400 116.349700] -0.639178 0.000000 0.000000 -0.769059 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (214, 8000, 3685886741) /* PCAPRecordedObjectIID */;
+VALUES (214, 8000, 0xDBB22B15) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (214,   1, 280, 0, 0) /* Strength */
@@ -703,4 +703,9 @@ VALUES (214, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasu
      , (214, 9, 41048,  0, 0, 0, False) /* Create Lightning Pike (41048) for ContainTreasure */
      , (214, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
      , (214, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
-     , (214, 9,  3873,  0, 0, 0, False) /* Create Acid Spear (3873) for ContainTreasure */;
+     , (214, 9,  3873,  0, 0, 0, False) /* Create Acid Spear (3873) for ContainTreasure */
+     , (214, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
+     , (214, 9,  8925,  0, 0, 0, False) /* Create Scroll of Flame Streak VI (8925) for ContainTreasure */
+     , (214, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (214, 9, 20512,  0, 0, 0, False) /* Create Scroll of Morimoto's Blessing (20512) for ContainTreasure */
+     , (214, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */;

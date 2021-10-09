@@ -17,20 +17,21 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29269,   3, 1000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29269,  22, True ) /* Inscribable */;
+VALUES (29269,  22, True ) /* Inscribable */
+     , (29269,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29269,   1, 'Critical Protection') /* Name */
      , (29269,  16, 'Using this gem will grant you limited protection from critical hits.  With this augmentation, 25% of critical hits from creatures and 5% of critical hits from players will strike you for normal damage.  This augmentation cannot be repeated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29269,   1,   33554809) /* Setup */
-     , (29269,   3,  536870932) /* SoundTable */
-     , (29269,   8,  100686474) /* Icon */
-     , (29269,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29269,   1, 0x02000179) /* Setup */
+     , (29269,   3, 0x20000014) /* SoundTable */
+     , (29269,   8, 0x06005A8A) /* Icon */
+     , (29269,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29269, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (29269, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29269, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29269, 8000, 3678848502) /* PCAPRecordedObjectIID */;
+VALUES (29269, 8000, 0xDB46C5F6) /* PCAPRecordedObjectIID */;

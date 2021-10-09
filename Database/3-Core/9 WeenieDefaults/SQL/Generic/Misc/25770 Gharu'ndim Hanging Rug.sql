@@ -21,11 +21,11 @@ VALUES (25770,   1, 'Gharu''ndim Hanging Rug') /* Name */
      , (25770,  16, 'A Gharu''ndim rug set with rungs so that it can be hung on a wall hook.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25770,   1,   33558248) /* Setup */
-     , (25770,   8,  100675559) /* Icon */
+VALUES (25770,   1, 0x02000EE8) /* Setup */
+     , (25770,   8, 0x06002FE7) /* Icon */
      , (25770, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (25770, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25770, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25770, 8000, 2166004570) /* PCAPRecordedObjectIID */;
+VALUES (25770, 8000, 0x811A9B5A) /* PCAPRecordedObjectIID */;

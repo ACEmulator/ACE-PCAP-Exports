@@ -24,13 +24,13 @@ VALUES (20596,   1, 'Scroll of Hieromancer''s Blessing') /* Name */
 Increases the caster''s War Magic skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20596,   1,   33554826) /* Setup */
-     , (20596,   8,  100676479) /* Icon */
-     , (20596,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20596,   1, 0x0200018A) /* Setup */
+     , (20596,   8, 0x0600337F) /* Icon */
+     , (20596,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20596,  28,       2323) /* Spell - WarMagicMasterySelf7 */
      , (20596, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20596, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20596, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20596, 8000, 3698130777) /* PCAPRecordedObjectIID */;
+VALUES (20596, 8000, 0xDC6CFF59) /* PCAPRecordedObjectIID */;

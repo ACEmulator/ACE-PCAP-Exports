@@ -38,16 +38,16 @@ VALUES (3708,   1, 'Ash Tooth Dagger') /* Name */
      , (3708,  16, 'A dagger made from the tooth of an Ash Gromnie. Lightning flickers from the blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3708,   1,   33555707) /* Setup */
-     , (3708,   3,  536870932) /* SoundTable */
-     , (3708,   8,  100667589) /* Icon */
-     , (3708,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3708,   1, 0x020004FB) /* Setup */
+     , (3708,   3, 0x20000014) /* SoundTable */
+     , (3708,   8, 0x060010C5) /* Icon */
+     , (3708,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3708, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (3708, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3708, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3708, 8000, 2982968633) /* PCAPRecordedObjectIID */;
+VALUES (3708, 8000, 0xB1CC7D39) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (3708, 0, 83889237, 83889237)

@@ -22,16 +22,16 @@ VALUES (1032,   1, 'Destroyed Portal to Zaikhal') /* Name */
      , (1032, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1032,   1,   33561060) /* Setup */
-     , (1032,   2,  150995314) /* MotionTable */
-     , (1032,   8,  100667499) /* Icon */
+VALUES (1032,   1, 0x020019E4) /* Setup */
+     , (1032,   2, 0x09000172) /* MotionTable */
+     , (1032,   8, 0x0600106B) /* Icon */
      , (1032, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (1032, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1032, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1032, 8040, 18153815, 50, -60, 5.79017, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (1032, 8040, 0x01150157, 50, -60, 5.79017, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01150157 [50.000000 -60.000000 5.790170] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1032, 8000, 1880182818) /* PCAPRecordedObjectIID */;
+VALUES (1032, 8000, 0x70115022) /* PCAPRecordedObjectIID */;

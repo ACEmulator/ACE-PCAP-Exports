@@ -23,21 +23,21 @@ VALUES (19206,   1, 'Nullified Statue of a Tumerok') /* Name */
      , (19206, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19206,   1,   33559553) /* Setup */
-     , (19206,   2,  150995171) /* MotionTable */
-     , (19206,   3,  536871052) /* SoundTable */
-     , (19206,   6,   67116625) /* PaletteBase */
-     , (19206,   8,  100667452) /* Icon */
+VALUES (19206,   1, 0x02001401) /* Setup */
+     , (19206,   2, 0x090000E3) /* MotionTable */
+     , (19206,   3, 0x2000008C) /* SoundTable */
+     , (19206,   6, 0x04001E51) /* PaletteBase */
+     , (19206,   8, 0x0600103C) /* Icon */
      , (19206, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (19206, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19206, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19206, 8040, 1691680796, 83.8452, 83.3074, 84.82, 0.7408864, 0, 0, 0.6716304) /* PCAPRecordedLocation */
+VALUES (19206, 8040, 0x64D5001C, 83.8452, 83.3074, 84.82, 0.740886, 0, 0, 0.67163) /* PCAPRecordedLocation */
 /* @teleloc 0x64D5001C [83.845200 83.307400 84.820000] 0.740886 0.000000 0.000000 0.671630 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19206, 8000, 1984778287) /* PCAPRecordedObjectIID */;
+VALUES (19206, 8000, 0x764D502F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19206, 67116656, 0, 0);

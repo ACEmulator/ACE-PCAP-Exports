@@ -29,21 +29,21 @@ VALUES (28696,   1, 'Fiun Vasherr') /* Name */
      , (28696, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28696,   1,   33559124) /* Setup */
-     , (28696,   2,  150994945) /* MotionTable */
-     , (28696,   3,  536870913) /* SoundTable */
-     , (28696,   6,   67115466) /* PaletteBase */
-     , (28696,   8,  100677369) /* Icon */
+VALUES (28696,   1, 0x02001254) /* Setup */
+     , (28696,   2, 0x09000001) /* MotionTable */
+     , (28696,   3, 0x20000001) /* SoundTable */
+     , (28696,   6, 0x040019CA) /* PaletteBase */
+     , (28696,   8, 0x060036F9) /* Icon */
      , (28696, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (28696, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (28696, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28696, 8040, 955711489, 10.081, 18.1207, 2.01048, -0.450375, 0, 0, 0.892839) /* PCAPRecordedLocation */
+VALUES (28696, 8040, 0x38F70001, 10.081, 18.1207, 2.01048, -0.450375, 0, 0, 0.892839) /* PCAPRecordedLocation */
 /* @teleloc 0x38F70001 [10.081000 18.120700 2.010480] -0.450375 0.000000 0.000000 0.892839 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28696, 8000, 3685549691) /* PCAPRecordedObjectIID */;
+VALUES (28696, 8000, 0xDBAD067B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28696,   1,  60, 0, 0) /* Strength */

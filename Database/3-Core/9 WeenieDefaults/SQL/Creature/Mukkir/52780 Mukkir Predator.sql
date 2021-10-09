@@ -30,23 +30,23 @@ VALUES (52780,   1, 'Mukkir Predator') /* Name */
      , (52780, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52780,   1,   33559858) /* Setup */
-     , (52780,   2,  150995348) /* MotionTable */
-     , (52780,   3,  536871107) /* SoundTable */
-     , (52780,   6,   67116771) /* PaletteBase */
-     , (52780,   8,  100688542) /* Icon */
-     , (52780,  22,  872415417) /* PhysicsEffectTable */
+VALUES (52780,   1, 0x02001532) /* Setup */
+     , (52780,   2, 0x09000194) /* MotionTable */
+     , (52780,   3, 0x200000C3) /* SoundTable */
+     , (52780,   6, 0x04001EE3) /* PaletteBase */
+     , (52780,   8, 0x0600629E) /* Icon */
+     , (52780,  22, 0x340000B9) /* PhysicsEffectTable */
      , (52780,  30,         87) /* PhysicsScript - BreatheLightning */
      , (52780, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (52780, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (52780, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52780, 8040, 1499529480, 19.69291, -27.92827, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52780, 8040, 0x59610108, 19.69291, -27.92827, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59610108 [19.692910 -27.928270 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52780, 8000, 3696514241) /* PCAPRecordedObjectIID */;
+VALUES (52780, 8000, 0xDC5454C1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52780,   1, 500, 0, 0) /* Strength */

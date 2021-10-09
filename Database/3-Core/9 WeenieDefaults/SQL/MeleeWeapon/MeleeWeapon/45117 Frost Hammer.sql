@@ -44,15 +44,15 @@ VALUES (45117,   1, 'Frost Hammer') /* Name */
      , (45117,  16, 'Frost Hammer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45117,   1,   33555826) /* Setup */
-     , (45117,   3,  536870932) /* SoundTable */
-     , (45117,   8,  100669074) /* Icon */
-     , (45117,  22,  872415275) /* PhysicsEffectTable */
-     , (45117,  52,  100676435) /* IconUnderlay */
+VALUES (45117,   1, 0x02000572) /* Setup */
+     , (45117,   3, 0x20000014) /* SoundTable */
+     , (45117,   8, 0x06001692) /* Icon */
+     , (45117,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45117,  52, 0x06003353) /* IconUnderlay */
      , (45117, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45117, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45117, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45117, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45117, 8000, 2174243373) /* PCAPRecordedObjectIID */;
+VALUES (45117, 8000, 0x8198522D) /* PCAPRecordedObjectIID */;

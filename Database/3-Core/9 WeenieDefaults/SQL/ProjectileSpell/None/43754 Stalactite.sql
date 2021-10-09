@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43754,   1, 'Stalactite') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43754,   1,   33561158) /* Setup */
-     , (43754,   3,  536870971) /* SoundTable */
-     , (43754,   8,  100667494) /* Icon */
-     , (43754,  22,  872415438) /* PhysicsEffectTable */
+VALUES (43754,   1, 0x02001A46) /* Setup */
+     , (43754,   3, 0x2000003B) /* SoundTable */
+     , (43754,   8, 0x06001066) /* Icon */
+     , (43754,  22, 0x340000CE) /* PhysicsEffectTable */
      , (43754,  28,       5524) /* Spell - FallingStoneSpikes */
      , (43754,  30,         90) /* PhysicsScript - ProjectileCollision */
      , (43754, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
@@ -35,24 +35,8 @@ VALUES (43754,   1,   33561158) /* Setup */
      , (43754, 8005,      64389) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43754, 8040, 2114128145, 270, -180.3669, 17.22333, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43754, 8040, 0x7E030911, 270, -180.3669, 17.22333, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x7E030911 [270.000000 -180.366900 17.223330] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43754, 8000, 3360798435) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43754, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
-     , (43754, 2, 47727,  1, 0, 0, False) /* Create Spear (47727) for Wield */
-     , (43754, 2, 47706,  1, 0, 0, False) /* Create Acid Spear (47706) for Wield */
-     , (43754, 2, 23690,  1, 0, 0, False) /* Create Acid Spear (23690) for Wield */
-     , (43754, 2, 23702,  1, 0, 0, False) /* Create Tachi (23702) for Wield */
-     , (43754, 2, 23708,  1, 0, 0, False) /* Create Fire Tachi (23708) for Wield */
-     , (43754, 2, 23694,  1, 0, 0, False) /* Create Frost Spear (23694) for Wield */
-     , (43754, 2, 23676,  1, 0, 0, False) /* Create Katar (23676) for Wield */
-     , (43754, 2, 47708,  1, 0, 0, False) /* Create Acid Spear (47708) for Wield */
-     , (43754, 2, 47525,  1, 0, 0, False) /* Create Acid Javelin (47525) for Wield */
-     , (43754, 2, 33064,  1, 0, 0, False) /* Create Red Rune Silveran Spear (33064) for Wield */
-     , (43754, 2, 47389,  1, 0, 0, False) /* Create Flaming Club (47389) for Wield */
-     , (43754, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
-     , (43754, 2, 48975,  1, 0, 0, False) /* Create Acid Hatchet (48975) for Wield */;
+VALUES (43754, 8000, 0xC851B6E3) /* PCAPRecordedObjectIID */;

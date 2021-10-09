@@ -19,6 +19,7 @@ VALUES (40788,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40788,  22, True ) /* Inscribable */
+     , (40788,  23, True ) /* DestroyOnSell */
      , (40788,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -30,13 +31,13 @@ VALUES (40788,   1, 'Progenitor Crystal') /* Name */
      , (40788,  15, 'An acidic Progenitor crystal.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40788,   1,   33559840) /* Setup */
-     , (40788,   3,  536870932) /* SoundTable */
-     , (40788,   8,  100690427) /* Icon */
-     , (40788,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40788,   1, 0x02001520) /* Setup */
+     , (40788,   3, 0x20000014) /* SoundTable */
+     , (40788,   8, 0x060069FB) /* Icon */
+     , (40788,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40788, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (40788, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40788, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40788, 8000, 3711274886) /* PCAPRecordedObjectIID */;
+VALUES (40788, 8000, 0xDD358F86) /* PCAPRecordedObjectIID */;

@@ -44,17 +44,17 @@ VALUES (41043,   1, 'Lightning Magari Yari') /* Name */
      , (41043,  16, 'Lightning Magari Yari') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41043,   1,   33560800) /* Setup */
-     , (41043,   3,  536870932) /* SoundTable */
-     , (41043,   6,   67115558) /* PaletteBase */
-     , (41043,   8,  100690513) /* Icon */
-     , (41043,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41043,   1, 0x020018E0) /* Setup */
+     , (41043,   3, 0x20000014) /* SoundTable */
+     , (41043,   6, 0x04001A26) /* PaletteBase */
+     , (41043,   8, 0x06006A51) /* Icon */
+     , (41043,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41043, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41043, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41043, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41043, 8000, 3679331147) /* PCAPRecordedObjectIID */;
+VALUES (41043, 8000, 0xDB4E234B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41043, 67116386, 0, 0);

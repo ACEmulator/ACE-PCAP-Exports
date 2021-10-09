@@ -26,17 +26,17 @@ VALUES (31996,   1, 'Verdigris Pigmentation Apparatus') /* Name */
      , (31996,  20, 'Verdigris Pigmentation Apparatus') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31996,   1,   33556753) /* Setup */
-     , (31996,   3,  536870932) /* SoundTable */
-     , (31996,   6,   67111919) /* PaletteBase */
-     , (31996,   8,  100688313) /* Icon */
-     , (31996,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31996,   1, 0x02000911) /* Setup */
+     , (31996,   3, 0x20000014) /* SoundTable */
+     , (31996,   6, 0x04000BEF) /* PaletteBase */
+     , (31996,   8, 0x060061B9) /* Icon */
+     , (31996,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31996, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (31996, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31996, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31996, 8000, 2165524232) /* PCAPRecordedObjectIID */;
+VALUES (31996, 8000, 0x81134708) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31996, 67111922, 0, 0);

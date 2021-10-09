@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21428,   1,          1) /* ItemType - MeleeWeapon */
      , (21428,   5,        120) /* EncumbranceVal */
      , (21428,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (21428,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (21428,  16,          1) /* ItemUseable - No */
      , (21428,  18,          1) /* UiEffects - Magical */
      , (21428,  19,       4000) /* Value */
@@ -36,6 +35,7 @@ VALUES (21428,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21428,  22, True ) /* Inscribable */
+     , (21428,  23, True ) /* DestroyOnSell */
      , (21428,  69, False) /* IsSellable */
      , (21428,  99, True ) /* Ivoryable */;
 
@@ -55,22 +55,22 @@ VALUES (21428,   1, 'Gauraloi') /* Name */
      , (21428,  15, 'A cestus constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21428,   1,   33557960) /* Setup */
-     , (21428,   3,  536870932) /* SoundTable */
-     , (21428,   8,  100673487) /* Icon */
-     , (21428,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21428,   1, 0x02000DC8) /* Setup */
+     , (21428,   3, 0x20000014) /* SoundTable */
+     , (21428,   8, 0x060027CF) /* Icon */
+     , (21428,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21428, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (21428, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21428, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (21428, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21428, 8040, 3332964380, 77.5555, 92.98441, 41.929, 0.6488351, 0.6488351, -0.2810924, -0.2810924) /* PCAPRecordedLocation */
+VALUES (21428, 8040, 0xC6A9001C, 77.5555, 92.98441, 41.929, 0.648835, 0.648835, -0.281092, -0.281092) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [77.555500 92.984410 41.929000] 0.648835 0.648835 -0.281092 -0.281092 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21428, 8000, 2184511040) /* PCAPRecordedObjectIID */
-     , (21428, 8008, 1343106549) /* PCAPRecordedParentIID */;
+VALUES (21428, 8000, 0x8234FE40) /* PCAPRecordedObjectIID */
+     , (21428, 8008, 0x500E2DF5) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21428,   416,      2)  /* SwordMasteryOther5 */;
+VALUES (21428,   416,      2)  /* HeavyWeaponsMasteryOther5 */;

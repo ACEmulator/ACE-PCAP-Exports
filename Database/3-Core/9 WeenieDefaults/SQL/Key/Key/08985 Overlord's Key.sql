@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8985,   1, 'Overlord''s Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8985,   1,   33554784) /* Setup */
-     , (8985,   3,  536870932) /* SoundTable */
-     , (8985,   8,  100668441) /* Icon */
-     , (8985,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8985,   1, 0x02000160) /* Setup */
+     , (8985,   3, 0x20000014) /* SoundTable */
+     , (8985,   8, 0x06001419) /* Icon */
+     , (8985,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8985, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (8985, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8985, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8985, 8000, 3352977014) /* PCAPRecordedObjectIID */;
+VALUES (8985, 8000, 0xC7DA5E76) /* PCAPRecordedObjectIID */;

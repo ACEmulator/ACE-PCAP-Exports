@@ -27,18 +27,18 @@ VALUES (29152,   1, 'Keg of Aromatic Stout') /* Name */
      , (29152,  20, 'Kegs of Aromatic Stout') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29152,   1,   33559153) /* Setup */
-     , (29152,   3,  536870932) /* SoundTable */
-     , (29152,   8,  100686452) /* Icon */
-     , (29152,  22,  872415275) /* PhysicsEffectTable */
-     , (29152,  50,  100687552) /* IconOverlay */
+VALUES (29152,   1, 0x02001271) /* Setup */
+     , (29152,   3, 0x20000014) /* SoundTable */
+     , (29152,   8, 0x06005A74) /* Icon */
+     , (29152,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29152,  50, 0x06005EC0) /* IconOverlay */
      , (29152, 8001, 1344286745) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden, HookType, IconOverlay */
      , (29152, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29152, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29152, 8040, 23855554, 60.43107, -29.20603, -1.862645E-09, 0.9737388, 0, 0, -0.2276681) /* PCAPRecordedLocation */
+VALUES (29152, 8040, 0x016C01C2, 60.43107, -29.20603, 0, 0.973739, 0, 0, -0.227668) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [60.431070 -29.206030 0.000000] 0.973739 0.000000 0.000000 -0.227668 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29152, 8000, 2299182858) /* PCAPRecordedObjectIID */;
+VALUES (29152, 8000, 0x890ABF0A) /* PCAPRecordedObjectIID */;

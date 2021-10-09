@@ -36,27 +36,27 @@ VALUES (1392,   1, 'Peddler') /* Name */
      , (1392, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1392,   1,   33554510) /* Setup */
-     , (1392,   2,  150994945) /* MotionTable */
-     , (1392,   3,  536870914) /* SoundTable */
-     , (1392,   6,   67108990) /* PaletteBase */
-     , (1392,   8,  100667446) /* Icon */
-     , (1392,   9,   83890264) /* EyesTexture */
-     , (1392,  10,   83890297) /* NoseTexture */
-     , (1392,  11,   83890344) /* MouthTexture */
-     , (1392,  15,   67117022) /* HairPalette */
-     , (1392,  16,   67110062) /* EyesPalette */
-     , (1392,  17,   67110048) /* SkinPalette */
+VALUES (1392,   1, 0x0200004E) /* Setup */
+     , (1392,   2, 0x09000001) /* MotionTable */
+     , (1392,   3, 0x20000002) /* SoundTable */
+     , (1392,   6, 0x0400007E) /* PaletteBase */
+     , (1392,   8, 0x06001036) /* Icon */
+     , (1392,   9, 0x05001058) /* EyesTexture */
+     , (1392,  10, 0x05001079) /* NoseTexture */
+     , (1392,  11, 0x050010A8) /* MouthTexture */
+     , (1392,  15, 0x04001FDE) /* HairPalette */
+     , (1392,  16, 0x040004AE) /* EyesPalette */
+     , (1392,  17, 0x040004A0) /* SkinPalette */
      , (1392, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (1392, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (1392, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1392, 8040, 2813591808, 131.554, 86.0508, 28.01, 0.7195283, 0, 0, -0.6944632) /* PCAPRecordedLocation */
+VALUES (1392, 8040, 0xA7B40100, 131.554, 86.0508, 28.01, 0.719528, 0, 0, -0.694463) /* PCAPRecordedLocation */
 /* @teleloc 0xA7B40100 [131.554000 86.050800 28.010000] 0.719528 0.000000 0.000000 -0.694463 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1392, 8000, 2054897667) /* PCAPRecordedObjectIID */;
+VALUES (1392, 8000, 0x7A7B4003) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1392,   1,  75, 0, 0) /* Strength */
@@ -99,16 +99,7 @@ VALUES (1392, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
      , (1392, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (1392, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (1392, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (1392, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (1392, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
-     , (1392, 4,  2588, -1, 0, 0, False) /* Create Flared Shirt (2588) for Shop */
-     , (1392, 4,  2416, -1, 0, 0, False) /* Create Gem (2416) for Shop */
-     , (1392, 4, 28608, -1, 0, 0, False) /* Create Poet's Shirt (28608) for Shop */
-     , (1392, 4, 40818, -1, 0, 0, False) /* Create Corsesca (40818) for Shop */
-     , (1392, 4, 45113, -1, 0, 0, False) /* Create Hammer (45113) for Shop */
-     , (1392, 4,  2413, -1, 0, 0, False) /* Create Gem (2413) for Shop */
-     , (1392, 4,  2417, -1, 0, 0, False) /* Create Gem (2417) for Shop */
-     , (1392, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */;
+     , (1392, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1392, 67110003, 72, 8)

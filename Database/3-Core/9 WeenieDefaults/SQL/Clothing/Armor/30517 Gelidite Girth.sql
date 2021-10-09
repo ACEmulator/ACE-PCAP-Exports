@@ -54,20 +54,20 @@ VALUES (30517,   1, 'Gelidite Girth') /* Name */
      , (30517,   8, 'The Phish') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30517,   1,   33559433) /* Setup */
-     , (30517,   3,  536870932) /* SoundTable */
-     , (30517,   8,  100686876) /* Icon */
-     , (30517,  22,  872415275) /* PhysicsEffectTable */
-     , (30517,  52,  100686604) /* IconUnderlay */
+VALUES (30517,   1, 0x02001389) /* Setup */
+     , (30517,   3, 0x20000014) /* SoundTable */
+     , (30517,   8, 0x06005C1C) /* Icon */
+     , (30517,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30517,  52, 0x06005B0C) /* IconUnderlay */
      , (30517, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (30517, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30517, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
      , (30517, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30517, 8000, 3010181298) /* PCAPRecordedObjectIID */;
+VALUES (30517, 8000, 0xB36BB8B2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30517,  4407,      2)  /* Impenetrability8 */
-     , (30517,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */
-     , (30517,  4911,      2)  /* CANTRIPARMOR3 */;
+VALUES (30517,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */
+     , (30517,  4911,      2)  /* CANTRIPARMOR3 */
+     , (30517,  4407,      2)  /* Impenetrability8 */;

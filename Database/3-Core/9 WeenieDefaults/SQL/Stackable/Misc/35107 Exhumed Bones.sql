@@ -18,7 +18,8 @@ VALUES (35107,   1,        128) /* ItemType - Misc */
      , (35107, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35107,  69, False) /* IsSellable */;
+VALUES (35107,  23, True ) /* DestroyOnSell */
+     , (35107,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35107,   1, 'Exhumed Bones') /* Name */
@@ -26,13 +27,13 @@ VALUES (35107,   1, 'Exhumed Bones') /* Name */
      , (35107,  20, 'Exhumed Bones') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35107,   1,   33555205) /* Setup */
-     , (35107,   3,  536870932) /* SoundTable */
-     , (35107,   8,  100667504) /* Icon */
-     , (35107,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35107,   1, 0x02000305) /* Setup */
+     , (35107,   3, 0x20000014) /* SoundTable */
+     , (35107,   8, 0x06001070) /* Icon */
+     , (35107,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35107, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
      , (35107, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35107, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35107, 8000, 3669853700) /* PCAPRecordedObjectIID */;
+VALUES (35107, 8000, 0xDABD8604) /* PCAPRecordedObjectIID */;

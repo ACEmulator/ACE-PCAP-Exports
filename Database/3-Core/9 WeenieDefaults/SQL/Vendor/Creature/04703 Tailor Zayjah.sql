@@ -36,27 +36,27 @@ VALUES (4703,   1, 'Tailor Zayjah') /* Name */
      , (4703, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4703,   1,   33554433) /* Setup */
-     , (4703,   2,  150994945) /* MotionTable */
-     , (4703,   3,  536870913) /* SoundTable */
-     , (4703,   6,   67108990) /* PaletteBase */
-     , (4703,   8,  100667446) /* Icon */
-     , (4703,   9,   83890480) /* EyesTexture */
-     , (4703,  10,   83890543) /* NoseTexture */
-     , (4703,  11,   83890620) /* MouthTexture */
-     , (4703,  15,   67117019) /* HairPalette */
-     , (4703,  16,   67110063) /* EyesPalette */
-     , (4703,  17,   67109550) /* SkinPalette */
+VALUES (4703,   1, 0x02000001) /* Setup */
+     , (4703,   2, 0x09000001) /* MotionTable */
+     , (4703,   3, 0x20000001) /* SoundTable */
+     , (4703,   6, 0x0400007E) /* PaletteBase */
+     , (4703,   8, 0x06001036) /* Icon */
+     , (4703,   9, 0x05001130) /* EyesTexture */
+     , (4703,  10, 0x0500116F) /* NoseTexture */
+     , (4703,  11, 0x050011BC) /* MouthTexture */
+     , (4703,  15, 0x04001FDB) /* HairPalette */
+     , (4703,  16, 0x040004AF) /* EyesPalette */
+     , (4703,  17, 0x040002AE) /* SkinPalette */
      , (4703, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (4703, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (4703, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4703, 8040, 2655191322, 36.0366, 84.7569, 49.705, -0.8055617, 0, 0, -0.592512) /* PCAPRecordedLocation */
+VALUES (4703, 8040, 0x9E43011A, 36.0366, 84.7569, 49.705, -0.805562, 0, 0, -0.592512) /* PCAPRecordedLocation */
 /* @teleloc 0x9E43011A [36.036600 84.756900 49.705000] -0.805562 0.000000 0.000000 -0.592512 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4703, 8000, 2044997638) /* PCAPRecordedObjectIID */;
+VALUES (4703, 8000, 0x79E43006) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4703,   1,  90, 0, 0) /* Strength */
@@ -73,8 +73,16 @@ VALUES (4703,   1,    11, 0, 0, 58) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4703, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
+     , (4703, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
+     , (4703, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
+     , (4703, 4,  2587, -1, 0, 0, False) /* Create Shirt (2587) for Shop */
+     , (4703, 4,  2587, -1, 0, 0, False) /* Create Shirt (2587) for Shop */
      , (4703, 4,  2587, -1, 0, 0, False) /* Create Shirt (2587) for Shop */
      , (4703, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
+     , (4703, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
+     , (4703, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
+     , (4703, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
+     , (4703, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
      , (4703, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
      , (4703, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (4703, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */

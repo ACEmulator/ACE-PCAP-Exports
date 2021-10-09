@@ -20,16 +20,16 @@ VALUES (7837,   1, 'Ice Cream') /* Name */
      , (7837,  20, 'Bowls of Ice Cream') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7837,   1,   33554668) /* Setup */
-     , (7837,   3,  536870932) /* SoundTable */
-     , (7837,   8,  100670863) /* Icon */
-     , (7837,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7837,   1, 0x020000EC) /* Setup */
+     , (7837,   3, 0x20000014) /* SoundTable */
+     , (7837,   8, 0x06001D8F) /* Icon */
+     , (7837,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7837, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (7837, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (7837, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7837, 8000, 3709801613) /* PCAPRecordedObjectIID */;
+VALUES (7837, 8000, 0xDD1F148D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (7837, 0, 83888884, 83888864);

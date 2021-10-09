@@ -52,22 +52,22 @@ VALUES (45396,   1, 'Short Sword') /* Name */
      , (45396,  16, 'Short Sword of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45396,   1,   33554760) /* Setup */
-     , (45396,   3,  536870932) /* SoundTable */
-     , (45396,   6,   67111919) /* PaletteBase */
-     , (45396,   8,  100669044) /* Icon */
-     , (45396,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45396,   1, 0x02000148) /* Setup */
+     , (45396,   3, 0x20000014) /* SoundTable */
+     , (45396,   6, 0x04000BEF) /* PaletteBase */
+     , (45396,   8, 0x06001674) /* Icon */
+     , (45396,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45396,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45396, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45396, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45396, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45396, 8000, 3700468830) /* PCAPRecordedObjectIID */;
+VALUES (45396, 8000, 0xDC90AC5E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45396,  1375,      2)  /* CoordinationSelf3 */
-     , (45396,  1614,      2)  /* BloodDrinkerSelf4 */
+VALUES (45396,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (45396,  1375,      2)  /* CoordinationSelf3 */
      , (45396,  2556,      2)  /* CANTRIPLOCKPICKPROWESS1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

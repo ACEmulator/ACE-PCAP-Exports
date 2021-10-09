@@ -18,19 +18,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31615,   1, 'Polardillo Pummeler Plaque') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31615,   1,   33559570) /* Setup */
-     , (31615,   3,  536870932) /* SoundTable */
-     , (31615,   6,   67111919) /* PaletteBase */
-     , (31615,   8,  100667935) /* Icon */
-     , (31615,  22,  872415275) /* PhysicsEffectTable */
-     , (31615,  52,  100687686) /* IconUnderlay */
+VALUES (31615,   1, 0x02001412) /* Setup */
+     , (31615,   3, 0x20000014) /* SoundTable */
+     , (31615,   6, 0x04000BEF) /* PaletteBase */
+     , (31615,   8, 0x0600121F) /* Icon */
+     , (31615,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31615,  52, 0x06005F46) /* IconUnderlay */
      , (31615, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (31615, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31615, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (31615, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31615, 8000, 2981039351) /* PCAPRecordedObjectIID */;
+VALUES (31615, 8000, 0xB1AF0CF7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31615, 67111919, 0, 0);

@@ -14,22 +14,23 @@ VALUES (14425,   1,        128) /* ItemType - Misc */
      , (14425, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14425,  22, True ) /* Inscribable */;
+VALUES (14425,  22, True ) /* Inscribable */
+     , (14425,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14425,   1, 'Folded Guard''s Uniform') /* Name */
      , (14425,  16, 'A folded Guard''s Uniform.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14425,   1,   33557480) /* Setup */
-     , (14425,   6,   67108990) /* PaletteBase */
-     , (14425,   8,  100672470) /* Icon */
+VALUES (14425,   1, 0x02000BE8) /* Setup */
+     , (14425,   6, 0x0400007E) /* PaletteBase */
+     , (14425,   8, 0x060023D6) /* Icon */
      , (14425, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (14425, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14425, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14425, 8000, 2186220393) /* PCAPRecordedObjectIID */;
+VALUES (14425, 8000, 0x824F1369) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14425, 67110546, 96, 12)

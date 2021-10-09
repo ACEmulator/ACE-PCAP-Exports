@@ -29,17 +29,17 @@ VALUES (51954,   1, 'Durable Legendary Key') /* Name */
      , (51954,  16, 'This key has seen better days.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51954,   1,   33554784) /* Setup */
-     , (51954,   3,  536870932) /* SoundTable */
-     , (51954,   8,  100693001) /* Icon */
-     , (51954,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51954,   1, 0x02000160) /* Setup */
+     , (51954,   3, 0x20000014) /* SoundTable */
+     , (51954,   8, 0x06007409) /* Icon */
+     , (51954,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51954, 8001,    2624664) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, TargetType, Burden */
      , (51954, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51954, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51954, 8040, 8913769, 49.893, -44.58605, -5.976, 0.2402567, 0, 0, -0.9707094) /* PCAPRecordedLocation */
+VALUES (51954, 8040, 0x00880369, 49.893, -44.58605, -5.976, 0.240257, 0, 0, -0.970709) /* PCAPRecordedLocation */
 /* @teleloc 0x00880369 [49.893000 -44.586050 -5.976000] 0.240257 0.000000 0.000000 -0.970709 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51954, 8000, 3678149416) /* PCAPRecordedObjectIID */;
+VALUES (51954, 8000, 0xDB3C1B28) /* PCAPRecordedObjectIID */;

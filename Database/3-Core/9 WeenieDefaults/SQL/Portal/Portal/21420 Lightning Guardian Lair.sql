@@ -24,16 +24,16 @@ VALUES (21420,   1, 'Lightning Guardian Lair') /* Name */
      , (21420, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21420,   1,   33555925) /* Setup */
-     , (21420,   2,  150994947) /* MotionTable */
-     , (21420,   8,  100667499) /* Icon */
+VALUES (21420,   1, 0x020005D5) /* Setup */
+     , (21420,   2, 0x09000003) /* MotionTable */
+     , (21420,   8, 0x0600106B) /* Icon */
      , (21420, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (21420, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (21420, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21420, 8040, 2350055449, 89.1797, 17.5921, 455.937, -0.4217452, 0, 0, -0.9067144) /* PCAPRecordedLocation */
+VALUES (21420, 8040, 0x8C130019, 89.1797, 17.5921, 455.937, -0.421745, 0, 0, -0.906714) /* PCAPRecordedLocation */
 /* @teleloc 0x8C130019 [89.179700 17.592100 455.937000] -0.421745 0.000000 0.000000 -0.906714 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21420, 8000, 2025926696) /* PCAPRecordedObjectIID */;
+VALUES (21420, 8000, 0x78C13028) /* PCAPRecordedObjectIID */;

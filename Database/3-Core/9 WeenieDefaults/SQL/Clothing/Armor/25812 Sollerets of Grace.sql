@@ -41,22 +41,22 @@ VALUES (25812,   1, 'Sollerets of Grace') /* Name */
      , (25812,  16, 'The sollerets represent the teachings of the adherents to the path of the Unicorn. They are lightweight and grant the gift of grace to the wearer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25812,   1,   33554654) /* Setup */
-     , (25812,   3,  536870932) /* SoundTable */
-     , (25812,   6,   67108990) /* PaletteBase */
-     , (25812,   8,  100675590) /* Icon */
-     , (25812,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25812,   1, 0x020000DE) /* Setup */
+     , (25812,   3, 0x20000014) /* SoundTable */
+     , (25812,   6, 0x0400007E) /* PaletteBase */
+     , (25812,   8, 0x06003006) /* Icon */
+     , (25812,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25812, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (25812, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25812, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25812, 8000, 2980642413) /* PCAPRecordedObjectIID */;
+VALUES (25812, 8000, 0xB1A8FE6D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25812,  1384,      2)  /* CoordinationOther6 */
-     , (25812,  1485,      2)  /* Impenetrability5 */
-     , (25812,  2579,      2)  /* CANTRIPCOORDINATION1 */;
+VALUES (25812,  1485,      2)  /* Impenetrability5 */
+     , (25812,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (25812,  1384,      2)  /* CoordinationOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25812, 67114747, 160, 8);

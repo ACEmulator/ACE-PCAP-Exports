@@ -20,13 +20,13 @@ VALUES (4718,   1, 'Chicken Rice') /* Name */
      , (4718,  20, 'Bowls of Chicken Rice') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4718,   1,   33554668) /* Setup */
-     , (4718,   3,  536870932) /* SoundTable */
-     , (4718,   8,  100669968) /* Icon */
-     , (4718,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4718,   1, 0x020000EC) /* Setup */
+     , (4718,   3, 0x20000014) /* SoundTable */
+     , (4718,   8, 0x06001A10) /* Icon */
+     , (4718,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4718, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (4718, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (4718, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4718, 8000, 2932492677) /* PCAPRecordedObjectIID */;
+VALUES (4718, 8000, 0xAECA4985) /* PCAPRecordedObjectIID */;

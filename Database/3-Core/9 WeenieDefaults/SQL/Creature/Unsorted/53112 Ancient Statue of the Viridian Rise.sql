@@ -11,35 +11,14 @@ VALUES (53112,   1,         16) /* ItemType - Creature */
      , (53112,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53112,  95,          8) /* RadarBlipColor - Yellow */
      , (53112, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (53112, 307,          0) /* DamageRating */
-     , (53112, 308,          0) /* DamageResistRating */
-     , (53112, 313,          0) /* CritRating */
-     , (53112, 314,          0) /* CritDamageRating */
-     , (53112, 315,          0) /* CritResistRating */
-     , (53112, 316,          0) /* CritDamageResistRating */
-     , (53112, 370,          0) /* GearDamage */
-     , (53112, 371,          0) /* GearDamageResist */
-     , (53112, 372,          0) /* GearCrit */
-     , (53112, 373,          0) /* GearCritResist */
-     , (53112, 374,          0) /* GearCritDamage */
-     , (53112, 375,          0) /* GearCritDamageResist */
-     , (53112, 376,          0) /* GearHealingBoost */
-     , (53112, 377,          0) /* GearNetherResist */
-     , (53112, 378,          0) /* GearLifeResist */
-     , (53112, 379,          0) /* GearMaxHealth */
-     , (53112, 381,          0) /* PKDamageRating */
-     , (53112, 382,          0) /* PKDamageResistRating */
-     , (53112, 383,          0) /* GearPKDamageRating */
-     , (53112, 384,          0) /* GearPKDamageResistRating */
-     , (53112, 386,          0) /* Overpower */
-     , (53112, 387,          0) /* OverpowerResist */
-     , (53112, 388,          0) /* GearOverpower */
-     , (53112, 389,          0) /* GearOverpowerResist */
      , (53112, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53112,   1, True ) /* Stuck */
-     , (53112,  19, False) /* Attackable */;
+     , (53112,  19, False) /* Attackable */
+     , (53112,  52, True ) /* AiImmobile */
+     , (53112,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (53112,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53112,  54,       3) /* UseRadius */
@@ -53,18 +32,18 @@ VALUES (53112,   1, 'Ancient Statue of the Viridian Rise') /* Name */
      , (53112, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53112,   1,   33558954) /* Setup */
-     , (53112,   2,  150995147) /* MotionTable */
-     , (53112,   3,  536871052) /* SoundTable */
-     , (53112,   8,  100688311) /* Icon */
-     , (53112,  22,  872415274) /* PhysicsEffectTable */
+VALUES (53112,   1, 0x020011AA) /* Setup */
+     , (53112,   2, 0x090000CB) /* MotionTable */
+     , (53112,   3, 0x2000008C) /* SoundTable */
+     , (53112,   8, 0x060061B7) /* Icon */
+     , (53112,  22, 0x3400002A) /* PhysicsEffectTable */
      , (53112, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (53112, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (53112, 8005,     104455) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53112, 8040, 3058368560, 126.047, 172.471, 116.1, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (53112, 8040, 0xB64B0030, 126.047, 172.471, 116.1, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB64B0030 [126.047000 172.471000 116.100000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53112, 8000, 3708808432) /* PCAPRecordedObjectIID */;
+VALUES (53112, 8000, 0xDD0FECF0) /* PCAPRecordedObjectIID */;

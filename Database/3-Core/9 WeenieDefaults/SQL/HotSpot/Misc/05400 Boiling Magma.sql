@@ -21,16 +21,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5400,   1, 'Boiling Magma') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5400,   1,   33555589) /* Setup */
-     , (5400,   3,  536870994) /* SoundTable */
-     , (5400,   8,  100667465) /* Icon */
+VALUES (5400,   1, 0x02000485) /* Setup */
+     , (5400,   3, 0x20000052) /* SoundTable */
+     , (5400,   8, 0x06001049) /* Icon */
      , (5400, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (5400, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (5400, 8005,      34945) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5400, 8040, 26804553, 61.8426, -121.871, -4.52376, 0.947651, 0, 0, -0.319309) /* PCAPRecordedLocation */
+VALUES (5400, 8040, 0x01990149, 61.8426, -121.871, -4.52376, 0.947651, 0, 0, -0.319309) /* PCAPRecordedLocation */
 /* @teleloc 0x01990149 [61.842600 -121.871000 -4.523760] 0.947651 0.000000 0.000000 -0.319309 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5400, 8000, 1880723500) /* PCAPRecordedObjectIID */;
+VALUES (5400, 8000, 0x7019902C) /* PCAPRecordedObjectIID */;

@@ -31,18 +31,18 @@ VALUES (22822,   1, 'Gem of Dispersal') /* Name */
      , (22822,  20, 'Gems of Dispersal') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22822,   1,   33554809) /* Setup */
-     , (22822,   3,  536870932) /* SoundTable */
-     , (22822,   6,   67111919) /* PaletteBase */
-     , (22822,   8,  100673903) /* Icon */
-     , (22822,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22822,   1, 0x02000179) /* Setup */
+     , (22822,   3, 0x20000014) /* SoundTable */
+     , (22822,   6, 0x04000BEF) /* PaletteBase */
+     , (22822,   8, 0x0600296F) /* Icon */
+     , (22822,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22822,  28,       3180) /* Spell - DispelAllBadSelf7 */
      , (22822, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (22822, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (22822, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22822, 8000, 2164447168) /* PCAPRecordedObjectIID */;
+VALUES (22822, 8000, 0x8102D7C0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22822, 67111919, 0, 0);

@@ -21,6 +21,7 @@ VALUES (29565,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29565,  22, True ) /* Inscribable */
+     , (29565,  23, True ) /* DestroyOnSell */
      , (29565,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -29,17 +30,17 @@ VALUES (29565,   1, 'Combined Kukuur Hides') /* Name */
      , (29565,  16, 'Two Kukuur hides have been placed together Reeshan''s and Kiree''s.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29565,   1,   33554817) /* Setup */
-     , (29565,   3,  536870932) /* SoundTable */
-     , (29565,   6,   67111919) /* PaletteBase */
-     , (29565,   8,  100677170) /* Icon */
-     , (29565,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29565,   1, 0x02000181) /* Setup */
+     , (29565,   3, 0x20000014) /* SoundTable */
+     , (29565,   6, 0x04000BEF) /* PaletteBase */
+     , (29565,   8, 0x06003632) /* Icon */
+     , (29565,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29565, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (29565, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29565, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29565, 8000, 2262052406) /* PCAPRecordedObjectIID */;
+VALUES (29565, 8000, 0x86D42E36) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29565, 67111918, 0, 0);

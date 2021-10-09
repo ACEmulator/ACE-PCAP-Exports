@@ -17,6 +17,9 @@ VALUES (33613,   1,        128) /* ItemType - Misc */
      , (33613, 114,          1) /* Attuned - Attuned */
      , (33613, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (33613,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33613,  39,    0.67) /* DefaultScale */;
 
@@ -25,16 +28,16 @@ VALUES (33613,   1, 'Pathwarden Token') /* Name */
      , (33613,  16, 'Turn this token into one of the Pathwarden Greeters at Holtburg, Yaraq, Shoushi, or Sanamar to receive a key to the Pathwarden Supply Chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33613,   1,   33557006) /* Setup */
-     , (33613,   3,  536870932) /* SoundTable */
-     , (33613,   8,  100689045) /* Icon */
-     , (33613,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33613,   1, 0x02000A0E) /* Setup */
+     , (33613,   3, 0x20000014) /* SoundTable */
+     , (33613,   8, 0x06006495) /* Icon */
+     , (33613,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33613, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (33613, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (33613, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33613, 8000, 3658160282) /* PCAPRecordedObjectIID */;
+VALUES (33613, 8000, 0xDA0B189A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (33613, 0, 83893248, 83893252)

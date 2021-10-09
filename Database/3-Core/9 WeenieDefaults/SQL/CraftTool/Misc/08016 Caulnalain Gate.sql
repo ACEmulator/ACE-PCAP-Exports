@@ -22,17 +22,17 @@ VALUES (8016,   1, 'Caulnalain Gate') /* Name */
      , (8016,  14, 'Use the Caulnalain Key on this gate.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8016,   1,   33556740) /* Setup */
-     , (8016,   3,  536870932) /* SoundTable */
-     , (8016,   8,  100670964) /* Icon */
-     , (8016,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8016,   1, 0x02000904) /* Setup */
+     , (8016,   3, 0x20000014) /* SoundTable */
+     , (8016,   8, 0x06001DF4) /* Icon */
+     , (8016,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8016, 8001,    2621496) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, TargetType, Burden */
      , (8016, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (8016, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8016, 8040, 47973204, 280.15, -99.8663, 0, -0.004204, 0, 0, 0.999991) /* PCAPRecordedLocation */
+VALUES (8016, 8040, 0x02DC0354, 280.15, -99.8663, 0, -0.004204, 0, 0, 0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x02DC0354 [280.150000 -99.866300 0.000000] -0.004204 0.000000 0.000000 0.999991 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8016, 8000, 1882046560) /* PCAPRecordedObjectIID */;
+VALUES (8016, 8000, 0x702DC060) /* PCAPRecordedObjectIID */;

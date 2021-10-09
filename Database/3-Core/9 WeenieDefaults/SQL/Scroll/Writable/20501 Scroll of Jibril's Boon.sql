@@ -24,13 +24,13 @@ VALUES (20501,   1, 'Scroll of Jibril''s Boon') /* Name */
 Increases the target''s Armor Tinkering skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20501,   1,   33554826) /* Setup */
-     , (20501,   8,  100676477) /* Icon */
-     , (20501,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20501,   1, 0x0200018A) /* Setup */
+     , (20501,   8, 0x0600337D) /* Icon */
+     , (20501,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20501,  28,       2196) /* Spell - ArmorExpertiseOther7 */
      , (20501, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20501, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20501, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20501, 8000, 3680600144) /* PCAPRecordedObjectIID */;
+VALUES (20501, 8000, 0xDB618050) /* PCAPRecordedObjectIID */;

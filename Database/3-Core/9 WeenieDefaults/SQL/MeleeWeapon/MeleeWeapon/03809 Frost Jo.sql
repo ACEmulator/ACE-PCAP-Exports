@@ -27,13 +27,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3809,   1, 'Frost Jo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3809,   1,   33555763) /* Setup */
-     , (3809,   3,  536870932) /* SoundTable */
-     , (3809,   8,  100667602) /* Icon */
-     , (3809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3809,   1, 0x02000533) /* Setup */
+     , (3809,   3, 0x20000014) /* SoundTable */
+     , (3809,   8, 0x060010D2) /* Icon */
+     , (3809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3809, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3809, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3809, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3809, 8000, 3623567850) /* PCAPRecordedObjectIID */;
+VALUES (3809, 8000, 0xD7FB41EA) /* PCAPRecordedObjectIID */;

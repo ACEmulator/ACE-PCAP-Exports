@@ -24,13 +24,13 @@ VALUES (2782,   1, 'Aura of Blood Drinker Self II') /* Name */
 Increases a weapon''s damage value by 4 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2782,   1,   33554826) /* Setup */
-     , (2782,   8,  100676655) /* Icon */
-     , (2782,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2782,   1, 0x0200018A) /* Setup */
+     , (2782,   8, 0x0600342F) /* Icon */
+     , (2782,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2782,  28,       1612) /* Spell - BloodDrinkerSelf2 */
      , (2782, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2782, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2782, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2782, 8000, 3623997711) /* PCAPRecordedObjectIID */;
+VALUES (2782, 8000, 0xD801D10F) /* PCAPRecordedObjectIID */;

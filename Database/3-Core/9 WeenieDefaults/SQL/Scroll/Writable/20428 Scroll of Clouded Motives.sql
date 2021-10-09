@@ -24,13 +24,13 @@ VALUES (20428,   1, 'Scroll of Clouded Motives') /* Name */
 Decreases a weapon''s Attack Skill modifier by 17.0 percentage points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20428,   1,   33554826) /* Setup */
-     , (20428,   8,  100676677) /* Icon */
-     , (20428,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20428,   1, 0x0200018A) /* Setup */
+     , (20428,   8, 0x06003445) /* Icon */
+     , (20428,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20428,  28,       2118) /* Spell - TurnBlade7 */
      , (20428, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20428, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20428, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20428, 8000, 3681328097) /* PCAPRecordedObjectIID */;
+VALUES (20428, 8000, 0xDB6C9BE1) /* PCAPRecordedObjectIID */;

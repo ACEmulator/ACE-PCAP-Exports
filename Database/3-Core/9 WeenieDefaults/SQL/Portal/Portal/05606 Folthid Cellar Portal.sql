@@ -23,16 +23,16 @@ VALUES (5606,   1, 'Folthid Cellar Portal') /* Name */
      , (5606, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5606,   1,   33555923) /* Setup */
-     , (5606,   2,  150994947) /* MotionTable */
-     , (5606,   8,  100667499) /* Icon */
+VALUES (5606,   1, 0x020005D3) /* Setup */
+     , (5606,   2, 0x09000003) /* MotionTable */
+     , (5606,   8, 0x0600106B) /* Icon */
      , (5606, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (5606, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (5606, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5606, 8040, 3245605125, 90.703, 129, 13.592, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (5606, 8040, 0xC1740105, 90.703, 129, 13.592, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xC1740105 [90.703000 129.000000 13.592000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5606, 8000, 2081898499) /* PCAPRecordedObjectIID */;
+VALUES (5606, 8000, 0x7C174003) /* PCAPRecordedObjectIID */;

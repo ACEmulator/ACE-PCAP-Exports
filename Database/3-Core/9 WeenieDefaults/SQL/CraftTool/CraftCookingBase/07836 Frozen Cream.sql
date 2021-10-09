@@ -21,17 +21,17 @@ VALUES (7836,   1, 'Frozen Cream') /* Name */
      , (7836,  20, 'Pitchers of Frozen Cream') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7836,   1,   33554602) /* Setup */
-     , (7836,   3,  536870932) /* SoundTable */
-     , (7836,   6,   67111919) /* PaletteBase */
-     , (7836,   8,  100670856) /* Icon */
-     , (7836,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7836,   1, 0x020000AA) /* Setup */
+     , (7836,   3, 0x20000014) /* SoundTable */
+     , (7836,   6, 0x04000BEF) /* PaletteBase */
+     , (7836,   8, 0x06001D88) /* Icon */
+     , (7836,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7836, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7836, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7836, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7836, 8000, 3709794463) /* PCAPRecordedObjectIID */;
+VALUES (7836, 8000, 0xDD1EF89F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7836, 67111927, 0, 0);

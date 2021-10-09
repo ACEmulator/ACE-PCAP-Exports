@@ -39,17 +39,17 @@ VALUES (45549,   1, 'Training Bastone') /* Name */
      , (45549,  15, 'A basic bastone forged in the Strathelar Training Academy. This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45549,   1,   33559493) /* Setup */
-     , (45549,   3,  536870932) /* SoundTable */
-     , (45549,   6,   67116428) /* PaletteBase */
-     , (45549,   8,  100687016) /* Icon */
-     , (45549,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45549,   1, 0x020013C5) /* Setup */
+     , (45549,   3, 0x20000014) /* SoundTable */
+     , (45549,   6, 0x04001D8C) /* PaletteBase */
+     , (45549,   8, 0x06005CA8) /* Icon */
+     , (45549,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45549, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (45549, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45549, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45549, 8000, 3011394769) /* PCAPRecordedObjectIID */;
+VALUES (45549, 8000, 0xB37E3CD1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45549, 67116429, 0, 0);

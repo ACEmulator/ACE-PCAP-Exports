@@ -22,22 +22,22 @@ VALUES (46514,   1, 'Spectral Bushi') /* Name */
      , (46514, 8006, 'BwA9AA0A40w/0gVC77fqQklaY0JP7kEAAAAAQAAAAAD//39/zczMPgAAcEEAAAAAAAAwQA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46514,   1,   33561494) /* Setup */
-     , (46514,   2,  150994945) /* MotionTable */
-     , (46514,   3,  536870942) /* SoundTable */
-     , (46514,   6,   67108990) /* PaletteBase */
-     , (46514,   8,  100671323) /* Icon */
-     , (46514,  22,  872415269) /* PhysicsEffectTable */
+VALUES (46514,   1, 0x02001B96) /* Setup */
+     , (46514,   2, 0x09000001) /* MotionTable */
+     , (46514,   3, 0x2000001E) /* SoundTable */
+     , (46514,   6, 0x0400007E) /* PaletteBase */
+     , (46514,   8, 0x06001F5B) /* Icon */
+     , (46514,  22, 0x34000025) /* PhysicsEffectTable */
      , (46514, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46514, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (46514, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46514, 8040, 1289945101, 26.73351, 117.1804, 56.47493, 0.7648422, 0, 0, -0.6442177) /* PCAPRecordedLocation */
+VALUES (46514, 8040, 0x4CE3000D, 26.73351, 117.1804, 56.47493, 0.764842, 0, 0, -0.644218) /* PCAPRecordedLocation */
 /* @teleloc 0x4CE3000D [26.733510 117.180400 56.474930] 0.764842 0.000000 0.000000 -0.644218 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46514, 8000, 3707809448) /* PCAPRecordedObjectIID */;
+VALUES (46514, 8000, 0xDD00AEA8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (46514,   1,     0, 0, 0, 2850) /* MaxHealth */;

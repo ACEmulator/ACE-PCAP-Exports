@@ -24,18 +24,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42421,   1, 'Celdon Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42421,   1,   33554655) /* Setup */
-     , (42421,   3,  536870932) /* SoundTable */
-     , (42421,   6,   67108990) /* PaletteBase */
-     , (42421,   8,  100670424) /* Icon */
-     , (42421,  22,  872415275) /* PhysicsEffectTable */
-     , (42421,  50,  100667895) /* IconOverlay */
+VALUES (42421,   1, 0x020000DF) /* Setup */
+     , (42421,   3, 0x20000014) /* SoundTable */
+     , (42421,   6, 0x0400007E) /* PaletteBase */
+     , (42421,   8, 0x06001BD8) /* Icon */
+     , (42421,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42421,  50, 0x060011F7) /* IconOverlay */
      , (42421, 8001, 1076654104) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Priority, TargetType, Burden, IconOverlay */
      , (42421, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42421, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42421, 8000, 3544383278) /* PCAPRecordedObjectIID */;
+VALUES (42421, 8000, 0xD342FF2E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42421, 67109969, 108, 8)

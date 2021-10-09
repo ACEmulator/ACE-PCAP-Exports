@@ -22,6 +22,7 @@ VALUES (41945,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41945,  22, True ) /* Inscribable */
+     , (41945,  23, True ) /* DestroyOnSell */
      , (41945,  63, True ) /* UnlimitedUse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -32,14 +33,14 @@ VALUES (41945,   1, 'Strange Jewel') /* Name */
      , (41945,  16, 'This crystal sometimes shows an anguished face within its facets.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41945,   1,   33554809) /* Setup */
-     , (41945,   3,  536870932) /* SoundTable */
-     , (41945,   8,  100674286) /* Icon */
-     , (41945,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41945,   1, 0x02000179) /* Setup */
+     , (41945,   3, 0x20000014) /* SoundTable */
+     , (41945,   8, 0x06002AEE) /* Icon */
+     , (41945,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41945, 8001,     553104) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (41945, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (41945, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (41945, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41945, 8000, 3321453285) /* PCAPRecordedObjectIID */;
+VALUES (41945, 8000, 0xC5F95AE5) /* PCAPRecordedObjectIID */;

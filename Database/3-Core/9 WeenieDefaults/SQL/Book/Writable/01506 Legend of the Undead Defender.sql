@@ -18,22 +18,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1506,   1, 'Legend of the Undead Defender') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1506,   1,   33554773) /* Setup */
-     , (1506,   3,  536870932) /* SoundTable */
-     , (1506,   8,  100668176) /* Icon */
-     , (1506,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1506,   1, 0x02000155) /* Setup */
+     , (1506,   3, 0x20000014) /* SoundTable */
+     , (1506,   8, 0x06001310) /* Icon */
+     , (1506,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1506, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (1506, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (1506, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1506, 8000, 2776792928) /* PCAPRecordedObjectIID */;
+VALUES (1506, 8000, 0xA5827F60) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (1506, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1506, 0, 4294967295, 'Legend of the Undead Defender', 'Password is cheese', False, '
+VALUES (1506, 0, 4294967295, 'Legend of the Undead Defender', 'prewritten', False, '
 Some people say that undead monsters are the result of resurrection magic gone horribly wrong.  In any case, there''s a legend of an unknown, unnamed person who died protecting his friends during a trip into what was once called the Syliph Dungeon.  Now, they say, only that person''s corpse defends the bodies of his friends, mindlessly fighting all those who come!  The dungeon must surely be very unpleasant.  Legend has it the name was changed to "Sylsfear" or something like that. Supposedly it''s somewhere near Mount Alphus.
 
 ');

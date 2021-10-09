@@ -51,25 +51,22 @@ VALUES (7768,   1, 'Spiked Club') /* Name */
      , (7768,  16, 'Spiked Club of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7768,   1,   33556627) /* Setup */
-     , (7768,   3,  536870932) /* SoundTable */
-     , (7768,   6,   67111919) /* PaletteBase */
-     , (7768,   8,  100670780) /* Icon */
-     , (7768,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7768,   1, 0x02000893) /* Setup */
+     , (7768,   3, 0x20000014) /* SoundTable */
+     , (7768,   6, 0x04000BEF) /* PaletteBase */
+     , (7768,   8, 0x06001D3C) /* Icon */
+     , (7768,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7768,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (7768, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (7768, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7768, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7768, 8000, 3688896872) /* PCAPRecordedObjectIID */;
+VALUES (7768, 8000, 0xDBE01968) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7768,  1616,      2)  /* BloodDrinkerSelf6 */
      , (7768,  1625,      2)  /* SwiftKillerSelf4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7768, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7768, 67111926, 0, 0);

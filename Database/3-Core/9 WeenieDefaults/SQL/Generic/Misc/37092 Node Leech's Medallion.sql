@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37092,   1, 'Node Leech''s Medallion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37092,   1,   33554689) /* Setup */
-     , (37092,   3,  536870932) /* SoundTable */
-     , (37092,   8,  100689807) /* Icon */
-     , (37092,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37092,   1, 0x02000101) /* Setup */
+     , (37092,   3, 0x20000014) /* SoundTable */
+     , (37092,   8, 0x0600678F) /* Icon */
+     , (37092,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37092, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (37092, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37092, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37092, 8000, 3692811633) /* PCAPRecordedObjectIID */;
+VALUES (37092, 8000, 0xDC1BD571) /* PCAPRecordedObjectIID */;

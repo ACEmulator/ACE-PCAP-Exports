@@ -23,17 +23,17 @@ VALUES (788,   1, 'Powdered Malachite') /* Name */
      , (788,  20, 'Powdered Malachites') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (788,   1,   33555208) /* Setup */
-     , (788,   3,  536870932) /* SoundTable */
-     , (788,   6,   67111919) /* PaletteBase */
-     , (788,   8,  100669704) /* Icon */
-     , (788,  22,  872415275) /* PhysicsEffectTable */
+VALUES (788,   1, 0x02000308) /* Setup */
+     , (788,   3, 0x20000014) /* SoundTable */
+     , (788,   6, 0x04000BEF) /* PaletteBase */
+     , (788,   8, 0x06001908) /* Icon */
+     , (788,  22, 0x3400002B) /* PhysicsEffectTable */
      , (788, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (788, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (788, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (788, 8000, 2856726431) /* PCAPRecordedObjectIID */;
+VALUES (788, 8000, 0xAA462F9F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (788, 67111924, 0, 0);

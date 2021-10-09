@@ -47,25 +47,25 @@ VALUES (32979,   1, 'Princely Runed Mazule') /* Name */
      , (32979,  15, 'A mazule crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32979,   1,   33559866) /* Setup */
-     , (32979,   3,  536870932) /* SoundTable */
-     , (32979,   6,   67115559) /* PaletteBase */
-     , (32979,   8,  100686965) /* Icon */
-     , (32979,  22,  872415275) /* PhysicsEffectTable */
-     , (32979,  50,  100688913) /* IconOverlay */
+VALUES (32979,   1, 0x0200153A) /* Setup */
+     , (32979,   3, 0x20000014) /* SoundTable */
+     , (32979,   6, 0x04001A27) /* PaletteBase */
+     , (32979,   8, 0x06005C75) /* Icon */
+     , (32979,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32979,  50, 0x06006411) /* IconOverlay */
      , (32979,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (32979, 8001, 1344356888) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (32979, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32979, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32979, 8000, 2461813540) /* PCAPRecordedObjectIID */;
+VALUES (32979, 8000, 0x92BC4B24) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32979,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (32979,  2116,      2)  /* SwiftKillerSelf7 */
+     , (32979,  2096,      2)  /* BloodDrinkerSelf7 */
      , (32979,  2101,      2)  /* DefenderSelf7 */
-     , (32979,  2106,      2)  /* HeartSeekerSelf7 */
-     , (32979,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (32979,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32979, 67116398, 0, 0);

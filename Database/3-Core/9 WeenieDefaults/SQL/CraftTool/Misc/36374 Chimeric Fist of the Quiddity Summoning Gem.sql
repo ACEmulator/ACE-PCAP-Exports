@@ -26,13 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36374,   1, 'Chimeric Fist of the Quiddity Summoning Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36374,   1,   33556223) /* Setup */
-     , (36374,   3,  536870932) /* SoundTable */
-     , (36374,   6,   67111928) /* PaletteBase */
-     , (36374,   8,  100670993) /* Icon */
-     , (36374,  22,  872415275) /* PhysicsEffectTable */
-     , (36374,  50,  100673785) /* IconOverlay */
-     , (36374,  52,  100689403) /* IconUnderlay */
+VALUES (36374,   1, 0x020006FF) /* Setup */
+     , (36374,   3, 0x20000014) /* SoundTable */
+     , (36374,   6, 0x04000BF8) /* PaletteBase */
+     , (36374,   8, 0x06001E11) /* Icon */
+     , (36374,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36374,  50, 0x060028F9) /* IconOverlay */
+     , (36374,  52, 0x060065FB) /* IconUnderlay */
      , (36374, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (36374, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (36374, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -40,7 +40,7 @@ VALUES (36374,   1,   33556223) /* Setup */
      , (36374, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36374, 8000,      36374) /* PCAPRecordedObjectIID */;
+VALUES (36374, 8000, 0x00008E16) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36374, 67112642, 0, 0);

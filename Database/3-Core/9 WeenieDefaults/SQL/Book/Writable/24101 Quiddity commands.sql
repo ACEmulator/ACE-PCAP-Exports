@@ -23,21 +23,21 @@ VALUES (24101,   1, 'Quiddity commands') /* Name */
      , (24101,  16, 'Commands from the Quiddity') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24101,   1,   33554773) /* Setup */
-     , (24101,   3,  536870932) /* SoundTable */
-     , (24101,   8,  100674008) /* Icon */
-     , (24101,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24101,   1, 0x02000155) /* Setup */
+     , (24101,   3, 0x20000014) /* SoundTable */
+     , (24101,   8, 0x060029D8) /* Icon */
+     , (24101,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24101, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (24101, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (24101, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24101, 8000, 3697616583) /* PCAPRecordedObjectIID */;
+VALUES (24101, 8000, 0xDC6526C7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (24101, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24101, 0, 4294967295, 'Unknown', 'Password is cheese', False, '
+VALUES (24101, 0, 4294967295, 'Unknown', 'prewritten', False, '
 Deliver the antigen to relieve the dissenters of their impurity. Once complete return their essence to the Quiddity so that it may be harvested and collected. In the event of misfortune or a privation of troops return to the Singularity at once, do not allow any of your comrades to be contaminated. Failure to achieve desired effect without evidence of assiduity will be cause for reclamation by the collective.
 ');

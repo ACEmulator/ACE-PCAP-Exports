@@ -30,21 +30,21 @@ VALUES (52794,   1, 'Gauntlet Vault') /* Name */
      , (52794, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52794,   1,   33560226) /* Setup */
-     , (52794,   2,  150995333) /* MotionTable */
-     , (52794,   3,  536870950) /* SoundTable */
-     , (52794,   8,  100677492) /* Icon */
-     , (52794,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52794,   1, 0x020016A2) /* Setup */
+     , (52794,   2, 0x09000185) /* MotionTable */
+     , (52794,   3, 0x20000026) /* SoundTable */
+     , (52794,   8, 0x06003774) /* Icon */
+     , (52794,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52794, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (52794, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (52794, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52794, 8040, 1500184840, 110, -20, 0.017856, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
+VALUES (52794, 8040, 0x596B0108, 110, -20, 0.017856, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0108 [110.000000 -20.000000 0.017856] 0.714421 0.000000 0.000000 -0.699716 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52794, 8000, 1972809822) /* PCAPRecordedObjectIID */;
+VALUES (52794, 8000, 0x7596B05E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52794, -1, 43831, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Sedgemail Leather Pants (43831) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

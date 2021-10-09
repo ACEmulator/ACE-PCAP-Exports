@@ -35,23 +35,23 @@ VALUES (10934,   1, 'Hea Raiders'' Cache') /* Name */
      , (10934, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10934,   1,   33557001) /* Setup */
-     , (10934,   2,  150995121) /* MotionTable */
-     , (10934,   3,  536871023) /* SoundTable */
-     , (10934,   6,   67111346) /* PaletteBase */
-     , (10934,   8,  100671464) /* Icon */
-     , (10934,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10934,   1, 0x02000A09) /* Setup */
+     , (10934,   2, 0x090000B1) /* MotionTable */
+     , (10934,   3, 0x2000006F) /* SoundTable */
+     , (10934,   6, 0x040009B2) /* PaletteBase */
+     , (10934,   8, 0x06001FE8) /* Icon */
+     , (10934,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10934,  28,       2636) /* Spell - KarenuasCurse */
      , (10934, 8001,    6291518) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden, Spell */
      , (10934, 8003,         23) /* PCAPRecordedObjectDesc - Openable, Inscribable, Stuck, Attackable */
      , (10934, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10934, 8040, 414515456, 49.697, 108.5, 62.79, -0.1049691, 0, 0, -0.9944755) /* PCAPRecordedLocation */
+VALUES (10934, 8040, 0x18B50100, 49.697, 108.5, 62.79, -0.104969, 0, 0, -0.994476) /* PCAPRecordedLocation */
 /* @teleloc 0x18B50100 [49.697000 108.500000 62.790000] -0.104969 0.000000 0.000000 -0.994476 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10934, 8000, 1904955395) /* PCAPRecordedObjectIID */;
+VALUES (10934, 8000, 0x718B5003) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10934, 67113157, 0, 0);

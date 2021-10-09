@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48940,   1,      32768) /* ItemType - Caster */
      , (48940,   5,         50) /* EncumbranceVal */
      , (48940,   9,   16777216) /* ValidLocations - Held */
-     , (48940,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (48940,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (48940,  18,          1) /* UiEffects - Magical */
      , (48940,  19,      20000) /* Value */
      , (48940,  33,          1) /* Bonded - Bonded */
+     , (48940,  46,        512) /* DefaultCombatStyle - Magic */
      , (48940,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (48940,  94,         16) /* TargetType - Creature */
      , (48940, 106,        450) /* ItemSpellcraft */
@@ -42,11 +42,11 @@ VALUES (48940,   1, 'Impious Staff') /* Name */
      , (48940,  25, 'Peace Mezzir-Garrett') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48940,   1,   33557877) /* Setup */
-     , (48940,   3,  536870932) /* SoundTable */
-     , (48940,   6,   67111919) /* PaletteBase */
-     , (48940,   8,  100690010) /* Icon */
-     , (48940,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48940,   1, 0x02000D75) /* Setup */
+     , (48940,   3, 0x20000014) /* SoundTable */
+     , (48940,   6, 0x04000BEF) /* PaletteBase */
+     , (48940,   8, 0x0600685A) /* Icon */
+     , (48940,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48940,  28,       2282) /* Spell - MagicYieldOther7 */
      , (48940, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (48940, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -54,20 +54,20 @@ VALUES (48940,   1,   33557877) /* Setup */
      , (48940, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48940, 8040, 23855555, 58.97395, -37.19802, -0.071, 0.6670495, 0.6670495, -0.2346167, -0.2346167) /* PCAPRecordedLocation */
+VALUES (48940, 8040, 0x016C01C3, 58.97395, -37.19802, -0.071, 0.66705, 0.66705, -0.234617, -0.234617) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [58.973950 -37.198020 -0.071000] 0.667050 0.667050 -0.234617 -0.234617 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48940, 8000, 2153545438) /* PCAPRecordedObjectIID */
-     , (48940, 8008, 1342976639) /* PCAPRecordedParentIID */;
+VALUES (48940, 8000, 0x805C7EDE) /* PCAPRecordedObjectIID */
+     , (48940, 8008, 0x500C327F) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48940,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
-     , (48940,  4530,      2)  /* CreatureEnchantmentMasterySelf8 */
-     , (48940,  4602,      2)  /* ManaMasterySelf8 */
+VALUES (48940,  6086,      2)  /* CantripHermeticLink3 */
+     , (48940,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
      , (48940,  4697,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE3 */
      , (48940,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */
-     , (48940,  6086,      2)  /* CantripHermeticLink3 */;
+     , (48940,  4530,      2)  /* CreatureEnchantmentMasterySelf8 */
+     , (48940,  4602,      2)  /* ManaMasterySelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48940, 67111925, 0, 0);

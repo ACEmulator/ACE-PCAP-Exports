@@ -14,6 +14,9 @@ VALUES (51301,   1,       8192) /* ItemType - Writable */
      , (51301, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (51301, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (51301,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51301,  54,       1) /* UseRadius */;
 
@@ -22,22 +25,22 @@ VALUES (51301,   1, 'Translated Message Shard') /* Name */
      , (51301,  16, 'A letter containing the translated text from the Virindi Sentinel''s message shard.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51301,   1,   33554773) /* Setup */
-     , (51301,   3,  536870932) /* SoundTable */
-     , (51301,   8,  100668176) /* Icon */
-     , (51301,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51301,   1, 0x02000155) /* Setup */
+     , (51301,   3, 0x20000014) /* SoundTable */
+     , (51301,   8, 0x06001310) /* Icon */
+     , (51301,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51301, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (51301, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (51301, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51301, 8000, 3223968384) /* PCAPRecordedObjectIID */;
+VALUES (51301, 8000, 0xC029DA80) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (51301, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (51301, 0, 4294967295, 'Virindi Delegate', 'Password is cheese', False, '
+VALUES (51301, 0, 4294967295, 'Virindi Delegate', 'prewritten', False, '
 To my loyal Sentinel,
 
 My plan nears completion. The studies of the desert meatbags, the newly enlightened, and the insect mother have gone as expected. The Council will soon remove the Reaver of Dreams and I will ascend closer to the power and control I so rightfully deserve. 

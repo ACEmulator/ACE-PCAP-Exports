@@ -25,17 +25,17 @@ VALUES (9173,   1, 'Pack Ursuin') /* Name */
      , (9173, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9173,   1,   33556773) /* Setup */
-     , (9173,   2,  150995114) /* MotionTable */
-     , (9173,   6,   67113135) /* PaletteBase */
-     , (9173,   8,  100670959) /* Icon */
-     , (9173,  22,  872415366) /* PhysicsEffectTable */
+VALUES (9173,   1, 0x02000925) /* Setup */
+     , (9173,   2, 0x090000AA) /* MotionTable */
+     , (9173,   6, 0x040010AF) /* PaletteBase */
+     , (9173,   8, 0x06001DEF) /* Icon */
+     , (9173,  22, 0x34000086) /* PhysicsEffectTable */
      , (9173, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
      , (9173, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9173, 8005,      69763) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9173, 8000, 2186220428) /* PCAPRecordedObjectIID */;
+VALUES (9173, 8000, 0x824F138C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9173, 67112945, 0, 0);

@@ -47,32 +47,32 @@ VALUES (44006,   1, 'Empowered Robe of the Perfect Light') /* Name */
      , (44006,  16, 'A loose-fitting, armored Empyrean robe, designed to be worn over other armor pieces.  The armor plates are forged from Thaumaturgic Plate Crystal, and embedded within the fabric are small threads of Thaumaturgic Crystal.  The entire robe hums with power.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44006,   1,   33554854) /* Setup */
-     , (44006,   3,  536870932) /* SoundTable */
-     , (44006,   8,  100689727) /* Icon */
-     , (44006,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44006,   1, 0x020001A6) /* Setup */
+     , (44006,   3, 0x20000014) /* SoundTable */
+     , (44006,   8, 0x0600673F) /* Icon */
+     , (44006,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44006, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (44006, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44006, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44006, 8000, 2548880183) /* PCAPRecordedObjectIID */;
+VALUES (44006, 8000, 0x97ECD337) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44006,  2350,      2)  /* DecayDurance */
-     , (44006,  2351,      2)  /* ConsumptionDurance */
-     , (44006,  2352,      2)  /* StasisDurance */
-     , (44006,  2353,      2)  /* StimulationDurance */
-     , (44006,  2623,      2)  /* CANTRIPHEALTHGAIN2 */
-     , (44006,  2624,      2)  /* CANTRIPMANAGAIN2 */
+VALUES (44006,  2624,      2)  /* CANTRIPMANAGAIN2 */
      , (44006,  2625,      2)  /* CANTRIPSTAMINAGAIN2 */
+     , (44006,  4304,      2)  /* FocusOther8 */
      , (44006,  2960,      2)  /* BludgeoningDurance */
      , (44006,  2961,      2)  /* PiercingDurance */
      , (44006,  2962,      2)  /* SlashingDurance */
-     , (44006,  3964,      2)  /* CANTRIPFOCUS3 */
      , (44006,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */
-     , (44006,  4304,      2)  /* FocusOther8 */
-     , (44006,  4581,      2)  /* LifeMagicMasteryOther8 */;
+     , (44006,  4581,      2)  /* LifeMagicMasteryOther8 */
+     , (44006,  2350,      2)  /* DecayDurance */
+     , (44006,  2351,      2)  /* ConsumptionDurance */
+     , (44006,  2352,      2)  /* StasisDurance */
+     , (44006,  2353,      2)  /* StimulationDurance */
+     , (44006,  3964,      2)  /* CANTRIPFOCUS3 */
+     , (44006,  2623,      2)  /* CANTRIPHEALTHGAIN2 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (44006, 0, 16795381);

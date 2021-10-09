@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45787,   1, 'Geraine''s Halved Heart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45787,   1,   33554817) /* Setup */
-     , (45787,   3,  536870932) /* SoundTable */
-     , (45787,   8,  100692628) /* Icon */
-     , (45787,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45787,   1, 0x02000181) /* Setup */
+     , (45787,   3, 0x20000014) /* SoundTable */
+     , (45787,   8, 0x06007294) /* Icon */
+     , (45787,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45787, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (45787, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45787, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45787, 8000, 2883319719) /* PCAPRecordedObjectIID */;
+VALUES (45787, 8000, 0xABDBF7A7) /* PCAPRecordedObjectIID */;

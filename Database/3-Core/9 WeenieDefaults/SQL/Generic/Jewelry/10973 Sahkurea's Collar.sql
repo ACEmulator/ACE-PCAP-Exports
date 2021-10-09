@@ -30,17 +30,17 @@ VALUES (10973,   1, 'Sahkurea''s Collar') /* Name */
      , (10973,  16, 'A spiked collar, smelling faintly of Reedshark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10973,   1,   33554810) /* Setup */
-     , (10973,   3,  536870932) /* SoundTable */
-     , (10973,   8,  100671855) /* Icon */
-     , (10973,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10973,   1, 0x0200017A) /* Setup */
+     , (10973,   3, 0x20000014) /* SoundTable */
+     , (10973,   8, 0x0600216F) /* Icon */
+     , (10973,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10973, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (10973, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10973, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10973, 8000, 2981037238) /* PCAPRecordedObjectIID */;
+VALUES (10973, 8000, 0xB1AF04B6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10973,   957,      2)  /* FealtyOther6 */
-     , (10973,  1360,      2)  /* EnduranceOther6 */;
+VALUES (10973,  1360,      2)  /* EnduranceOther6 */
+     , (10973,   957,      2)  /* FealtyOther6 */;

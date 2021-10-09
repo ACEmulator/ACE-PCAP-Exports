@@ -22,13 +22,13 @@ VALUES (42312,   1, 'Main Key') /* Name */
      , (42312,  14, 'Use this key to open the weapons cache and main hallway doors.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42312,   1,   33554784) /* Setup */
-     , (42312,   3,  536870932) /* SoundTable */
-     , (42312,   8,  100667485) /* Icon */
-     , (42312,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42312,   1, 0x02000160) /* Setup */
+     , (42312,   3, 0x20000014) /* SoundTable */
+     , (42312,   8, 0x0600105D) /* Icon */
+     , (42312,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42312, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (42312, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42312, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42312, 8000, 3694258016) /* PCAPRecordedObjectIID */;
+VALUES (42312, 8000, 0xDC31E760) /* PCAPRecordedObjectIID */;

@@ -34,21 +34,21 @@ VALUES (30241,   1, 'Pearl of Swift Killing') /* Name */
      , (30241,  20, 'Pearls of Swift Killing') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30241,   1,   33554809) /* Setup */
-     , (30241,   3,  536870932) /* SoundTable */
-     , (30241,   6,   67111919) /* PaletteBase */
-     , (30241,   8,  100686695) /* Icon */
-     , (30241,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30241,   1, 0x02000179) /* Setup */
+     , (30241,   3, 0x20000014) /* SoundTable */
+     , (30241,   6, 0x04000BEF) /* PaletteBase */
+     , (30241,   8, 0x06005B67) /* Icon */
+     , (30241,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30241,  28,       3739) /* Spell - SwiftKillerRare */
-     , (30241,  50,  100686689) /* IconOverlay */
-     , (30241,  52,  100686604) /* IconUnderlay */
+     , (30241,  50, 0x06005B61) /* IconOverlay */
+     , (30241,  52, 0x06005B0C) /* IconUnderlay */
      , (30241, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30241, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30241, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30241, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30241, 8000, 3347411596) /* PCAPRecordedObjectIID */;
+VALUES (30241, 8000, 0xC785728C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30241, 67111919, 0, 0);

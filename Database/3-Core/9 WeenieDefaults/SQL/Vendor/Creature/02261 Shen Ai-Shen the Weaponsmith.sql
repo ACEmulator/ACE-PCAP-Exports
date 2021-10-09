@@ -37,27 +37,27 @@ VALUES (2261,   1, 'Shen Ai-Shen the Weaponsmith') /* Name */
      , (2261, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2261,   1,   33554433) /* Setup */
-     , (2261,   2,  150994945) /* MotionTable */
-     , (2261,   3,  536870913) /* SoundTable */
-     , (2261,   6,   67108990) /* PaletteBase */
-     , (2261,   8,  100667446) /* Icon */
-     , (2261,   9,   83890478) /* EyesTexture */
-     , (2261,  10,   83890523) /* NoseTexture */
-     , (2261,  11,   83890565) /* MouthTexture */
-     , (2261,  15,   67116994) /* HairPalette */
-     , (2261,  16,   67110063) /* EyesPalette */
-     , (2261,  17,   67110049) /* SkinPalette */
+VALUES (2261,   1, 0x02000001) /* Setup */
+     , (2261,   2, 0x09000001) /* MotionTable */
+     , (2261,   3, 0x20000001) /* SoundTable */
+     , (2261,   6, 0x0400007E) /* PaletteBase */
+     , (2261,   8, 0x06001036) /* Icon */
+     , (2261,   9, 0x0500112E) /* EyesTexture */
+     , (2261,  10, 0x0500115B) /* NoseTexture */
+     , (2261,  11, 0x05001185) /* MouthTexture */
+     , (2261,  15, 0x04001FC2) /* HairPalette */
+     , (2261,  16, 0x040004AF) /* EyesPalette */
+     , (2261,  17, 0x040004A1) /* SkinPalette */
      , (2261, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2261, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2261, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2261, 8040, 3443589482, 67.7695, 159.129, 54.005, 0.7315662, 0, 0, -0.6817704) /* PCAPRecordedLocation */
+VALUES (2261, 8040, 0xCD41016A, 67.7695, 159.129, 54.005, 0.731566, 0, 0, -0.68177) /* PCAPRecordedLocation */
 /* @teleloc 0xCD41016A [67.769500 159.129000 54.005000] 0.731566 0.000000 0.000000 -0.681770 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2261, 8000, 2094272544) /* PCAPRecordedObjectIID */;
+VALUES (2261, 8000, 0x7CD41020) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2261,   1, 120, 0, 0) /* Strength */

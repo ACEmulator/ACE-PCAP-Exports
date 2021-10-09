@@ -8,7 +8,6 @@ VALUES (8688,   1,          2) /* ItemType - Armor */
      , (8688,   4,       1024) /* ClothingPriority - OuterwearChest */
      , (8688,   5,        300) /* EncumbranceVal */
      , (8688,   9,        512) /* ValidLocations - ChestArmor */
-     , (8688,  10,        512) /* CurrentWieldedLocation - ChestArmor */
      , (8688,  16,          1) /* ItemUseable - No */
      , (8688,  18,          1) /* UiEffects - Magical */
      , (8688,  19,          1) /* Value */
@@ -38,17 +37,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8688,   1, 'An Explorer Leather Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8688,   1,   33554642) /* Setup */
-     , (8688,   3,  536870932) /* SoundTable */
-     , (8688,   6,   67108990) /* PaletteBase */
-     , (8688,   8,  100667350) /* Icon */
-     , (8688,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8688,   1, 0x020000D2) /* Setup */
+     , (8688,   3, 0x20000014) /* SoundTable */
+     , (8688,   6, 0x0400007E) /* PaletteBase */
+     , (8688,   8, 0x06000FD6) /* Icon */
+     , (8688,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8688, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (8688, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8688, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8688, 8000, 2629411240) /* PCAPRecordedObjectIID */;
+VALUES (8688, 8000, 0x9CB9A1A8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8688,  1026,      2)  /* BludgeonProtectionOther3 */

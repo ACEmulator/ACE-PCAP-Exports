@@ -17,9 +17,9 @@ VALUES (49551,   1,        128) /* ItemType - Misc */
      , (49551, 105,          4) /* ItemWorkmanship */
      , (49551, 114,          0) /* Attuned - Normal */
      , (49551, 280,        213) /* SharedCooldown */
-     , (49551, 366,         54) /* UseRequiresSkill */
+     , (49551, 366,         54) /* UseRequiresSkill - Summoning */
      , (49551, 367,        570) /* UseRequiresSkillLevel */
-     , (49551, 368,         54) /* UseRequiresSkillSpec */
+     , (49551, 368,         54) /* UseRequiresSkillSpec - Summoning */
      , (49551, 369,        185) /* UseRequiresLevel */
      , (49551, 370,         16) /* GearDamage */
      , (49551, 371,         14) /* GearDamageResist */
@@ -38,20 +38,20 @@ VALUES (49551,   1, 'Lightning Phyntos Swarm Essence') /* Name */
      , (49551,  14, 'Use this essence to summon or dismiss your Lightning Phyntos Swarm.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49551,   1,   33554817) /* Setup */
-     , (49551,   3,  536870932) /* SoundTable */
-     , (49551,   6,   67111919) /* PaletteBase */
-     , (49551,   8,  100667450) /* Icon */
-     , (49551,  22,  872415275) /* PhysicsEffectTable */
-     , (49551,  50,  100693032) /* IconOverlay */
-     , (49551,  52,  100693024) /* IconUnderlay */
+VALUES (49551,   1, 0x02000181) /* Setup */
+     , (49551,   3, 0x20000014) /* SoundTable */
+     , (49551,   6, 0x04000BEF) /* PaletteBase */
+     , (49551,   8, 0x0600103A) /* Icon */
+     , (49551,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49551,  50, 0x06007428) /* IconOverlay */
+     , (49551,  52, 0x06007420) /* IconUnderlay */
      , (49551, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49551, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49551, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49551, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49551, 8000, 2150561858) /* PCAPRecordedObjectIID */;
+VALUES (49551, 8000, 0x802EF842) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49551, 67111921, 0, 0);

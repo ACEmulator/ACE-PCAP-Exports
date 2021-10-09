@@ -22,16 +22,16 @@ VALUES (36698,   1, 'Trials of the Arm, Mind and Heart') /* Name */
      , (36698, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36698,   1,   33554867) /* Setup */
-     , (36698,   2,  150994947) /* MotionTable */
-     , (36698,   8,  100667499) /* Icon */
+VALUES (36698,   1, 0x020001B3) /* Setup */
+     , (36698,   2, 0x09000003) /* MotionTable */
+     , (36698,   8, 0x0600106B) /* Icon */
      , (36698, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (36698, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (36698, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36698, 8040, 10420759, 70, -261.717, -6.063, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (36698, 8040, 0x009F0217, 70, -261.717, -6.063, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0217 [70.000000 -261.717000 -6.063000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36698, 8000, 1879699517) /* PCAPRecordedObjectIID */;
+VALUES (36698, 8000, 0x7009F03D) /* PCAPRecordedObjectIID */;

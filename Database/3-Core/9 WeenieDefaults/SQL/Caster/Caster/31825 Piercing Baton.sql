@@ -11,6 +11,7 @@ VALUES (31825,   1,      32768) /* ItemType - Caster */
      , (31825,  18,       2049) /* UiEffects - Magical, Piercing */
      , (31825,  19,      25361) /* Value */
      , (31825,  45,          2) /* DamageType - Pierce */
+     , (31825,  46,        512) /* DefaultCombatStyle - Magic */
      , (31825,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31825,  94,         16) /* TargetType - Creature */
      , (31825, 105,          6) /* ItemWorkmanship */
@@ -45,26 +46,23 @@ VALUES (31825,   1, 'Piercing Baton') /* Name */
      , (31825,  16, 'Piercing Baton of Force Bolt') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31825,   1,   33559698) /* Setup */
-     , (31825,   3,  536870932) /* SoundTable */
-     , (31825,   6,   67116700) /* PaletteBase */
-     , (31825,   8,  100688017) /* Icon */
-     , (31825,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31825,   1, 0x02001492) /* Setup */
+     , (31825,   3, 0x20000014) /* SoundTable */
+     , (31825,   6, 0x04001E9C) /* PaletteBase */
+     , (31825,   8, 0x06006091) /* Icon */
+     , (31825,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31825,  28,         69) /* Spell - ShockWave6 */
      , (31825, 8001, 2439594136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
      , (31825, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31825, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31825, 8000, 2159970490) /* PCAPRecordedObjectIID */;
+VALUES (31825, 8000, 0x80BE88BA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31825,  2091,      2)  /* WillpowerSelf7 */
+VALUES (31825,  2132,      2)  /* ForceBolt7 */
      , (31825,  2117,      2)  /* HermeticLinkSelf7 */
-     , (31825,  2132,      2)  /* ForceBolt7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31825, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;
+     , (31825,  2091,      2)  /* WillpowerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31825, 67116700, 1, 100)

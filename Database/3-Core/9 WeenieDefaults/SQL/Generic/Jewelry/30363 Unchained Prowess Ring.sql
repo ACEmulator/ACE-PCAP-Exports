@@ -23,19 +23,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30363,   1, 'Unchained Prowess Ring') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30363,   1,   33554691) /* Setup */
-     , (30363,   3,  536870932) /* SoundTable */
-     , (30363,   6,   67111919) /* PaletteBase */
-     , (30363,   8,  100686825) /* Icon */
-     , (30363,  22,  872415275) /* PhysicsEffectTable */
-     , (30363,  52,  100686604) /* IconUnderlay */
+VALUES (30363,   1, 0x02000103) /* Setup */
+     , (30363,   3, 0x20000014) /* SoundTable */
+     , (30363,   6, 0x04000BEF) /* PaletteBase */
+     , (30363,   8, 0x06005BE9) /* Icon */
+     , (30363,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30363,  52, 0x06005B0C) /* IconUnderlay */
      , (30363, 8001,  270614552) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden, HookType */
      , (30363, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30363, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30363, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30363, 8000, 3601138155) /* PCAPRecordedObjectIID */;
+VALUES (30363, 8000, 0xD6A501EB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30363, 67111919, 0, 0);

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45466,   1,          1) /* ItemType - MeleeWeapon */
      , (45466,   5,        150) /* EncumbranceVal */
      , (45466,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (45466,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (45466,  16,          1) /* ItemUseable - No */
      , (45466,  17,        204) /* RareId */
      , (45466,  19,      50000) /* Value */
@@ -52,12 +51,12 @@ VALUES (45466,   1, 'Fist of Three Principles') /* Name */
      , (45466,  16, 'The First Principle: Defense implies weakness while attacking implies strength.   The Second Principle: Ask not the enemy''s weakness, the enemy will often show it to you freely.    The Third Principle: Strike or be struck.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45466,   1,   33559398) /* Setup */
-     , (45466,   3,  536870932) /* SoundTable */
-     , (45466,   6,   67111919) /* PaletteBase */
-     , (45466,   8,  100686779) /* Icon */
-     , (45466,  22,  872415275) /* PhysicsEffectTable */
-     , (45466,  52,  100686604) /* IconUnderlay */
+VALUES (45466,   1, 0x02001366) /* Setup */
+     , (45466,   3, 0x20000014) /* SoundTable */
+     , (45466,   6, 0x04000BEF) /* PaletteBase */
+     , (45466,   8, 0x06005BBB) /* Icon */
+     , (45466,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45466,  52, 0x06005B0C) /* IconUnderlay */
      , (45466, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (45466, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45466, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -65,21 +64,21 @@ VALUES (45466,   1,   33559398) /* Setup */
      , (45466, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45466, 8040, 3332964372, 59.81201, 94.89259, 41.929, -0.4974864, -0.4974864, -0.502501, -0.502501) /* PCAPRecordedLocation */
+VALUES (45466, 8040, 0xC6A90014, 59.81201, 94.89259, 41.929, -0.497486, -0.497486, -0.502501, -0.502501) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90014 [59.812010 94.892590 41.929000] -0.497486 -0.497486 -0.502501 -0.502501 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45466, 8000, 3676745094) /* PCAPRecordedObjectIID */
-     , (45466, 8008, 1343430166) /* PCAPRecordedParentIID */;
+VALUES (45466, 8000, 0xDB26AD86) /* PCAPRecordedObjectIID */
+     , (45466, 8008, 0x50131E16) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45466,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (45466,  4405,      2)  /* HeartSeekerSelf8 */
-     , (45466,  4417,      2)  /* SwiftKillerSelf8 */
+VALUES (45466,  4417,      2)  /* SwiftKillerSelf8 */
+     , (45466,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */
      , (45466,  4496,      2)  /* RegenerationSelf8 */
+     , (45466,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (45466,  4405,      2)  /* HeartSeekerSelf8 */
      , (45466,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45466,  4666,      2)  /* CANTRIPHEARTTHIRST3 */
-     , (45466,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;
+     , (45466,  4666,      2)  /* CANTRIPHEARTTHIRST3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45466, 67111920, 0, 0);

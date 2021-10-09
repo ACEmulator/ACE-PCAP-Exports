@@ -36,35 +36,43 @@ VALUES (2502,   1, 'Ka Ku-To the Tailor') /* Name */
      , (2502, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2502,   1,   33554433) /* Setup */
-     , (2502,   2,  150994945) /* MotionTable */
-     , (2502,   3,  536870913) /* SoundTable */
-     , (2502,   6,   67108990) /* PaletteBase */
-     , (2502,   8,  100667446) /* Icon */
-     , (2502,   9,   83890437) /* EyesTexture */
-     , (2502,  10,   83890519) /* NoseTexture */
-     , (2502,  11,   83890659) /* MouthTexture */
-     , (2502,  15,   67117024) /* HairPalette */
-     , (2502,  16,   67109565) /* EyesPalette */
-     , (2502,  17,   67110045) /* SkinPalette */
+VALUES (2502,   1, 0x02000001) /* Setup */
+     , (2502,   2, 0x09000001) /* MotionTable */
+     , (2502,   3, 0x20000001) /* SoundTable */
+     , (2502,   6, 0x0400007E) /* PaletteBase */
+     , (2502,   8, 0x06001036) /* Icon */
+     , (2502,   9, 0x05001105) /* EyesTexture */
+     , (2502,  10, 0x05001157) /* NoseTexture */
+     , (2502,  11, 0x050011E3) /* MouthTexture */
+     , (2502,  15, 0x04001FE0) /* HairPalette */
+     , (2502,  16, 0x040002BD) /* EyesPalette */
+     , (2502,  17, 0x0400049D) /* SkinPalette */
      , (2502, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2502, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2502, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2502, 8040, 1269956874, 59.6743, 34.2049, 240.005, 0.9220201, 0, 0, -0.387142) /* PCAPRecordedLocation */
+VALUES (2502, 8040, 0x4BB2010A, 59.6743, 34.2049, 240.005, 0.92202, 0, 0, -0.387142) /* PCAPRecordedLocation */
 /* @teleloc 0x4BB2010A [59.674300 34.204900 240.005000] 0.922020 0.000000 0.000000 -0.387142 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2502, 8000, 1958420480) /* PCAPRecordedObjectIID */;
+VALUES (2502, 8000, 0x74BB2000) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (2502,   1,     0, 0, 0, 150) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2502, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (2502, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (2502, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (2502, 4,  2589, -1, 0, 0, False) /* Create Smock (2589) for Shop */
+     , (2502, 4,  2589, -1, 0, 0, False) /* Create Smock (2589) for Shop */
      , (2502, 4,  2589, -1, 0, 0, False) /* Create Smock (2589) for Shop */
      , (2502, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (2502, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (2502, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (2502, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
+     , (2502, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
      , (2502, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
      , (2502, 4,  5854, -1, 0, 0, False) /* Create Suikan Robe (5854) for Shop */
      , (2502, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */

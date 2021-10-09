@@ -24,17 +24,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15895,   1, 'Bronze Short Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15895,   1,   33554760) /* Setup */
-     , (15895,   3,  536870932) /* SoundTable */
-     , (15895,   6,   67111919) /* PaletteBase */
-     , (15895,   8,  100672761) /* Icon */
-     , (15895,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15895,   1, 0x02000148) /* Setup */
+     , (15895,   3, 0x20000014) /* SoundTable */
+     , (15895,   6, 0x04000BEF) /* PaletteBase */
+     , (15895,   8, 0x060024F9) /* Icon */
+     , (15895,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15895, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (15895, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15895, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15895, 8000, 2569166587) /* PCAPRecordedObjectIID */;
+VALUES (15895, 8000, 0x99225EFB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15895, 67113835, 0, 0);

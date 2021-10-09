@@ -46,29 +46,29 @@ VALUES (27228,   1, 'Nariyid Gauntlets') /* Name */
      , (27228,  16, 'Nariyid Gauntlets of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27228,   1,   33554648) /* Setup */
-     , (27228,   3,  536870932) /* SoundTable */
-     , (27228,   6,   67108990) /* PaletteBase */
-     , (27228,   8,  100676247) /* Icon */
-     , (27228,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27228,   1, 0x020000D8) /* Setup */
+     , (27228,   3, 0x20000014) /* SoundTable */
+     , (27228,   6, 0x0400007E) /* PaletteBase */
+     , (27228,   8, 0x06003297) /* Icon */
+     , (27228,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27228,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (27228, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (27228, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27228, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27228, 8040, 3600351239, 1.379159, 154.0296, 374, -0.9930379, 0, 0, -0.1177951) /* PCAPRecordedLocation */
+VALUES (27228, 8040, 0xD6990007, 1.379159, 154.0296, 374, -0.993038, 0, 0, -0.117795) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990007 [1.379159 154.029600 374.000000] -0.993038 0.000000 0.000000 -0.117795 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27228, 8000, 3579390141) /* PCAPRecordedObjectIID */;
+VALUES (27228, 8000, 0xD55928BD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27228,  1486,      2)  /* Impenetrability6 */
-     , (27228,  1516,      2)  /* BludgeonBane6 */
-     , (27228,  1540,      2)  /* LightningBane6 */
+VALUES (27228,  1540,      2)  /* LightningBane6 */
+     , (27228,  2059,      2)  /* CoordinationSelf7 */
+     , (27228,  1486,      2)  /* Impenetrability6 */
      , (27228,  1562,      2)  /* BladeBane6 */
-     , (27228,  2059,      2)  /* CoordinationSelf7 */;
+     , (27228,  1516,      2)  /* BludgeonBane6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27228, 67115067, 168, 6);

@@ -46,25 +46,25 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6181,   1, 'Superior Shivering Atlan Claw') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6181,   1,   33556381) /* Setup */
-     , (6181,   3,  536870932) /* SoundTable */
-     , (6181,   6,   67111919) /* PaletteBase */
-     , (6181,   8,  100670528) /* Icon */
-     , (6181,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6181,   1, 0x0200079D) /* Setup */
+     , (6181,   3, 0x20000014) /* SoundTable */
+     , (6181,   6, 0x04000BEF) /* PaletteBase */
+     , (6181,   8, 0x06001C40) /* Icon */
+     , (6181,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6181, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (6181, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6181, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6181, 8000, 3620538511) /* PCAPRecordedObjectIID */;
+VALUES (6181, 8000, 0xD7CD088F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6181,  1033,      2)  /* ColdProtectionSelf4 */
-     , (6181,  1400,      2)  /* QuicknessSelf4 */
-     , (6181,  1590,      2)  /* HeartSeekerSelf4 */
-     , (6181,  1603,      2)  /* DefenderSelf4 */
+VALUES (6181,  1603,      2)  /* DefenderSelf4 */
+     , (6181,  1033,      2)  /* ColdProtectionSelf4 */
      , (6181,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (6181,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (6181,  1625,      2)  /* SwiftKillerSelf4 */
+     , (6181,  1590,      2)  /* HeartSeekerSelf4 */
+     , (6181,  1400,      2)  /* QuicknessSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6181, 67111919, 0, 0);

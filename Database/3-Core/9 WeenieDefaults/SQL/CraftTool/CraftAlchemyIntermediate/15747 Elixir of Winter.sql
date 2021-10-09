@@ -22,17 +22,17 @@ VALUES (15747,   1, 'Elixir of Winter') /* Name */
      , (15747,  20, 'Elixirs of Winter') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15747,   1,   33555965) /* Setup */
-     , (15747,   3,  536870932) /* SoundTable */
-     , (15747,   6,   67111919) /* PaletteBase */
-     , (15747,   8,  100672786) /* Icon */
-     , (15747,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15747,   1, 0x020005FD) /* Setup */
+     , (15747,   3, 0x20000014) /* SoundTable */
+     , (15747,   6, 0x04000BEF) /* PaletteBase */
+     , (15747,   8, 0x06002512) /* Icon */
+     , (15747,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15747, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (15747, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15747, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15747, 8000, 2153705575) /* PCAPRecordedObjectIID */;
+VALUES (15747, 8000, 0x805EF067) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15747, 67111925, 0, 0);

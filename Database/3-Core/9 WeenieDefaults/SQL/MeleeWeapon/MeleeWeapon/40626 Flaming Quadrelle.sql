@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40626,   1,          1) /* ItemType - MeleeWeapon */
      , (40626,   5,        489) /* EncumbranceVal */
      , (40626,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (40626,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (40626,  16,          1) /* ItemUseable - No */
      , (40626,  18,         32) /* UiEffects - Fire */
      , (40626,  19,      21965) /* Value */
@@ -51,14 +50,14 @@ VALUES (40626,   1, 'Flaming Quadrelle') /* Name */
      , (40626,  16, 'Flaming Quadrelle of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40626,   1,   33560723) /* Setup */
-     , (40626,   3,  536870932) /* SoundTable */
-     , (40626,   6,   67116833) /* PaletteBase */
-     , (40626,   8,  100690784) /* Icon */
-     , (40626,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40626,   1, 0x02001893) /* Setup */
+     , (40626,   3, 0x20000014) /* SoundTable */
+     , (40626,   6, 0x04001F21) /* PaletteBase */
+     , (40626,   8, 0x06006B60) /* Icon */
+     , (40626,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40626,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
-     , (40626,  50,  100688854) /* IconOverlay */
-     , (40626,  52,  100676441) /* IconUnderlay */
+     , (40626,  50, 0x060063D6) /* IconOverlay */
+     , (40626,  52, 0x06003359) /* IconUnderlay */
      , (40626, 8001, 3508765336) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (40626, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (40626, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
@@ -66,12 +65,12 @@ VALUES (40626,   1,   33560723) /* Setup */
      , (40626, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40626, 8040, 43058059, 210.7921, -151.615, 2.036783, -0.07131644, -0.07131644, -0.7035012, -0.7035012) /* PCAPRecordedLocation */
+VALUES (40626, 8040, 0x0291038B, 210.7921, -151.615, 2.036783, -0.071316, -0.071316, -0.703501, -0.703501) /* PCAPRecordedLocation */
 /* @teleloc 0x0291038B [210.792100 -151.615000 2.036783] -0.071316 -0.071316 -0.703501 -0.703501 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40626, 8000, 2147672670) /* PCAPRecordedObjectIID */
-     , (40626, 8008, 1343489356) /* PCAPRecordedParentIID */;
+VALUES (40626, 8000, 0x8002E25E) /* PCAPRecordedObjectIID */
+     , (40626, 8008, 0x5014054C) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40626,  1613,      2)  /* BloodDrinkerSelf3 */;

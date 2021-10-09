@@ -21,13 +21,13 @@ VALUES (36912,   1, 'Wood Stove') /* Name */
      , (36912,  16, 'A warm wood stove guaranteed to ward off cold winter nights. A slight hint of chestnut seems to linger around the stove.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36912,   1,   33560422) /* Setup */
-     , (36912,   3,  536870932) /* SoundTable */
-     , (36912,   8,  100689742) /* Icon */
-     , (36912,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36912,   1, 0x02001766) /* Setup */
+     , (36912,   3, 0x20000014) /* SoundTable */
+     , (36912,   8, 0x0600674E) /* Icon */
+     , (36912,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36912, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (36912, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36912, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36912, 8000, 2192709741) /* PCAPRecordedObjectIID */;
+VALUES (36912, 8000, 0x82B2186D) /* PCAPRecordedObjectIID */;

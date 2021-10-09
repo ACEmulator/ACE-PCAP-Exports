@@ -27,16 +27,16 @@ VALUES (14528,   1, 'Jewel of Fire and Ice') /* Name */
      , (14528,  16, 'A jewel containing the energies of fire and ice.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14528,   1,   33556407) /* Setup */
-     , (14528,   3,  536870932) /* SoundTable */
-     , (14528,   8,  100672517) /* Icon */
-     , (14528,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14528,   1, 0x020007B7) /* Setup */
+     , (14528,   3, 0x20000014) /* SoundTable */
+     , (14528,   8, 0x06002405) /* Icon */
+     , (14528,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14528, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (14528, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14528, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14528, 8000, 2779733212) /* PCAPRecordedObjectIID */;
+VALUES (14528, 8000, 0xA5AF5CDC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (14528, 0, 83889688, 83890391);

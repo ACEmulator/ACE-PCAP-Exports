@@ -24,16 +24,16 @@ VALUES (29512,   1, 'Cannibal Caverns') /* Name */
      , (29512, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29512,   1,   33555925) /* Setup */
-     , (29512,   2,  150994947) /* MotionTable */
-     , (29512,   8,  100667499) /* Icon */
+VALUES (29512,   1, 0x020005D5) /* Setup */
+     , (29512,   2, 0x09000003) /* MotionTable */
+     , (29512,   8, 0x0600106B) /* Icon */
      , (29512, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (29512, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (29512, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29512, 8040, 921501953, 51, 84, 81.137, -0.711094, 0, 0, -0.703097) /* PCAPRecordedLocation */
+VALUES (29512, 8040, 0x36ED0101, 51, 84, 81.137, -0.711094, 0, 0, -0.703097) /* PCAPRecordedLocation */
 /* @teleloc 0x36ED0101 [51.000000 84.000000 81.137000] -0.711094 0.000000 0.000000 -0.703097 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29512, 8000, 1936642048) /* PCAPRecordedObjectIID */;
+VALUES (29512, 8000, 0x736ED000) /* PCAPRecordedObjectIID */;

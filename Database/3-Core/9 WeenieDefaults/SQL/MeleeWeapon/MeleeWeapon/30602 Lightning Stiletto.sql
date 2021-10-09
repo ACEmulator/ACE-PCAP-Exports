@@ -48,22 +48,22 @@ VALUES (30602,   1, 'Lightning Stiletto') /* Name */
      , (30602,  16, 'Lightning Stiletto of Swift Killer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30602,   1,   33559492) /* Setup */
-     , (30602,   3,  536870932) /* SoundTable */
-     , (30602,   6,   67116417) /* PaletteBase */
-     , (30602,   8,  100687008) /* Icon */
-     , (30602,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30602,   1, 0x020013C4) /* Setup */
+     , (30602,   3, 0x20000014) /* SoundTable */
+     , (30602,   6, 0x04001D81) /* PaletteBase */
+     , (30602,   8, 0x06005CA0) /* Icon */
+     , (30602,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30602,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30602, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30602, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30602, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30602, 8000, 3680725243) /* PCAPRecordedObjectIID */;
+VALUES (30602, 8000, 0xDB6368FB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30602,    35,      2)  /* BloodDrinkerSelf1 */
-     , (30602,  1624,      2)  /* SwiftKillerSelf3 */;
+VALUES (30602,  1624,      2)  /* SwiftKillerSelf3 */
+     , (30602,    35,      2)  /* BloodDrinkerSelf1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30602, 67116418, 0, 0);

@@ -17,17 +17,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22061,   1, 'Broken Virindi Profatrix Mask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22061,   1,   33558415) /* Setup */
-     , (22061,   3,  536870932) /* SoundTable */
-     , (22061,   6,   67108990) /* PaletteBase */
-     , (22061,   8,  100674852) /* Icon */
-     , (22061,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22061,   1, 0x02000F8F) /* Setup */
+     , (22061,   3, 0x20000014) /* SoundTable */
+     , (22061,   6, 0x0400007E) /* PaletteBase */
+     , (22061,   8, 0x06002D24) /* Icon */
+     , (22061,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22061, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (22061, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22061, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22061, 8000, 3319855392) /* PCAPRecordedObjectIID */;
+VALUES (22061, 8000, 0xC5E0F920) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22061, 67114020, 240, 16);

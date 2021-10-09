@@ -22,21 +22,21 @@ VALUES (48804,   1, 'Whirlwind Golem') /* Name */
      , (48804, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48804,   1,   33561253) /* Setup */
-     , (48804,   2,  150995073) /* MotionTable */
-     , (48804,   3,  536871066) /* SoundTable */
-     , (48804,   8,  100667940) /* Icon */
-     , (48804,  22,  872415322) /* PhysicsEffectTable */
+VALUES (48804,   1, 0x02001AA5) /* Setup */
+     , (48804,   2, 0x09000081) /* MotionTable */
+     , (48804,   3, 0x2000009A) /* SoundTable */
+     , (48804,   8, 0x06001224) /* Icon */
+     , (48804,  22, 0x3400005A) /* PhysicsEffectTable */
      , (48804, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (48804, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (48804, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48804, 8040, 1482883338, 120, -120, -137.99, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
+VALUES (48804, 8040, 0x5863010A, 120, -120, -137.99, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
 /* @teleloc 0x5863010A [120.000000 -120.000000 -137.990000] 0.714421 0.000000 0.000000 -0.699716 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48804, 8000, 2885707418) /* PCAPRecordedObjectIID */;
+VALUES (48804, 8000, 0xAC00669A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (48804,   1,     0, 0, 0, 7900) /* MaxHealth */;

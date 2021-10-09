@@ -44,13 +44,13 @@ VALUES (3826,   1, 'Acid Khanjar') /* Name */
      , (3826,  16, 'Finely crafted Black Opal Acid Khanjar , set with 2 Rubies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3826,   1,   33555746) /* Setup */
-     , (3826,   3,  536870932) /* SoundTable */
-     , (3826,   8,  100667597) /* Icon */
-     , (3826,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3826,   1, 0x02000522) /* Setup */
+     , (3826,   3, 0x20000014) /* SoundTable */
+     , (3826,   8, 0x060010CD) /* Icon */
+     , (3826,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3826, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3826, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3826, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3826, 8000, 2153709053) /* PCAPRecordedObjectIID */;
+VALUES (3826, 8000, 0x805EFDFD) /* PCAPRecordedObjectIID */;

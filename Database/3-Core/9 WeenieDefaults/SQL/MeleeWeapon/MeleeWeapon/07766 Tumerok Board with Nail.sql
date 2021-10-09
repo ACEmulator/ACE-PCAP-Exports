@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7766,   1, 'Tumerok Board with Nail') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7766,   1,   33556638) /* Setup */
-     , (7766,   3,  536870932) /* SoundTable */
-     , (7766,   8,  100670757) /* Icon */
-     , (7766,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7766,   1, 0x0200089E) /* Setup */
+     , (7766,   3, 0x20000014) /* SoundTable */
+     , (7766,   8, 0x06001D25) /* Icon */
+     , (7766,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7766, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (7766, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7766, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7766, 8000, 2222738363) /* PCAPRecordedObjectIID */;
+VALUES (7766, 8000, 0x847C4BBB) /* PCAPRecordedObjectIID */;

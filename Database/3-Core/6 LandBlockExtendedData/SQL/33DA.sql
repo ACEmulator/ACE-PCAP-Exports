@@ -1,15 +1,15 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x33DA;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA00F, 39000, 0x33DA002E, 131.5, 131, 62.687, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Yaraq Casino VIP Portal */
+VALUES (0x733DA00F, 39000, 0x33DA002E, 131.5, 131, 62.687, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Yaraq Casino VIP Portal */
 /* @teleloc 0x33DA002E [131.500000 131.000000 62.687000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA010, 39002, 0x33DA002E, 124.5, 131, 62.687, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Shoushi Casino VIP Portal */
+VALUES (0x733DA010, 39002, 0x33DA002E, 124.5, 131, 62.687, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Shoushi Casino VIP Portal */
 /* @teleloc 0x33DA002E [124.500000 131.000000 62.687000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA011, 38998, 0x33DA002E, 138.5, 131, 62.687, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Holtburg Casino VIP Portal */
+VALUES (0x733DA011, 38998, 0x33DA002E, 138.5, 131, 62.687, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Holtburg Casino VIP Portal */
 /* @teleloc 0x33DA002E [138.500000 131.000000 62.687000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

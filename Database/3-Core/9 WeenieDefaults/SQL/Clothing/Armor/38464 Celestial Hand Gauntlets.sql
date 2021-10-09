@@ -51,21 +51,21 @@ VALUES (38464,   1, 'Celestial Hand Gauntlets') /* Name */
      , (38464,  16, 'Celestial Hand Gauntlets of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38464,   1,   33554648) /* Setup */
-     , (38464,   3,  536870932) /* SoundTable */
-     , (38464,   8,  100688352) /* Icon */
-     , (38464,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38464,   1, 0x020000D8) /* Setup */
+     , (38464,   3, 0x20000014) /* SoundTable */
+     , (38464,   8, 0x060061E0) /* Icon */
+     , (38464,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38464, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38464, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38464, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38464, 8000, 2174514660) /* PCAPRecordedObjectIID */;
+VALUES (38464, 8000, 0x819C75E4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38464,  2059,      2)  /* CoordinationSelf7 */
-     , (38464,  2108,      2)  /* Impenetrability7 */
-     , (38464,  4912,      2)  /* CANTRIPWEAPONEXPERTISE3 */;
+     , (38464,  4912,      2)  /* CANTRIPWEAPONEXPERTISE3 */
+     , (38464,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38464, 0, 83894333, 83897927);

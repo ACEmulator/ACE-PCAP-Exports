@@ -23,13 +23,13 @@ VALUES (2546,   1, 'Silvery Key') /* Name */
      , (2546,  16, 'This small, silvery key is used somewhere in the Disaster Maze dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2546,   1,   33554784) /* Setup */
-     , (2546,   3,  536870932) /* SoundTable */
-     , (2546,   8,  100667485) /* Icon */
-     , (2546,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2546,   1, 0x02000160) /* Setup */
+     , (2546,   3, 0x20000014) /* SoundTable */
+     , (2546,   8, 0x0600105D) /* Icon */
+     , (2546,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2546, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (2546, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2546, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2546, 8000, 2925462471) /* PCAPRecordedObjectIID */;
+VALUES (2546, 8000, 0xAE5F03C7) /* PCAPRecordedObjectIID */;

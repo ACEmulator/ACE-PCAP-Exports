@@ -19,11 +19,11 @@ VALUES (44782,   1, 'Wisp') /* Name */
      , (44782,  16, 'Wisps are strange, magical creatures that resemble dancing balls of light. Their origins are unknown: some scholars speculate that they are tied to the vanished Empyrean, or to the forces of magic. They are unpredictable in battle, often relying on magic to harm or hinder opponents, but sometimes darting at a target to inflict electrical damage. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44782,   1,   33561382) /* Setup */
-     , (44782,   8,  100668115) /* Icon */
+VALUES (44782,   1, 0x02001B26) /* Setup */
+     , (44782,   8, 0x060012D3) /* Icon */
      , (44782, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44782, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44782, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44782, 8000, 2461689444) /* PCAPRecordedObjectIID */;
+VALUES (44782, 8000, 0x92BA6664) /* PCAPRecordedObjectIID */;

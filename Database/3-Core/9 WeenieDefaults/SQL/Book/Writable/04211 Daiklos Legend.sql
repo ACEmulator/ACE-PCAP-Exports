@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4211,   1, 'Daiklos Legend') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4211,   1,   33554773) /* Setup */
-     , (4211,   3,  536870932) /* SoundTable */
-     , (4211,   8,  100675748) /* Icon */
-     , (4211,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4211,   1, 0x02000155) /* Setup */
+     , (4211,   3, 0x20000014) /* SoundTable */
+     , (4211,   8, 0x060030A4) /* Icon */
+     , (4211,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4211, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (4211, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (4211, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4211, 8000, 2925462460) /* PCAPRecordedObjectIID */;
+VALUES (4211, 8000, 0xAE5F03BC) /* PCAPRecordedObjectIID */;

@@ -36,27 +36,27 @@ VALUES (12718,   1, 'Academy Shopkeep') /* Name */
      , (12718, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12718,   1,   33554510) /* Setup */
-     , (12718,   2,  150994945) /* MotionTable */
-     , (12718,   3,  536870914) /* SoundTable */
-     , (12718,   6,   67108990) /* PaletteBase */
-     , (12718,   8,  100667446) /* Icon */
-     , (12718,   9,   83890277) /* EyesTexture */
-     , (12718,  10,   83890298) /* NoseTexture */
-     , (12718,  11,   83890337) /* MouthTexture */
-     , (12718,  15,   67117068) /* HairPalette */
-     , (12718,  16,   67110063) /* EyesPalette */
-     , (12718,  17,   67109551) /* SkinPalette */
+VALUES (12718,   1, 0x0200004E) /* Setup */
+     , (12718,   2, 0x09000001) /* MotionTable */
+     , (12718,   3, 0x20000002) /* SoundTable */
+     , (12718,   6, 0x0400007E) /* PaletteBase */
+     , (12718,   8, 0x06001036) /* Icon */
+     , (12718,   9, 0x05001065) /* EyesTexture */
+     , (12718,  10, 0x0500107A) /* NoseTexture */
+     , (12718,  11, 0x050010A1) /* MouthTexture */
+     , (12718,  15, 0x0400200C) /* HairPalette */
+     , (12718,  16, 0x040004AF) /* EyesPalette */
+     , (12718,  17, 0x040002AF) /* SkinPalette */
      , (12718, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (12718, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (12718, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12718, 8040, 2248344362, 70.6598, -59.1267, 12.005, 0.4840702, 0, 0, -0.8750292) /* PCAPRecordedLocation */
+VALUES (12718, 8040, 0x8603032A, 70.6598, -59.1267, 12.005, 0.48407, 0, 0, -0.875029) /* PCAPRecordedLocation */
 /* @teleloc 0x8603032A [70.659800 -59.126700 12.005000] 0.484070 0.000000 0.000000 -0.875029 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12718, 8000, 2019569759) /* PCAPRecordedObjectIID */;
+VALUES (12718, 8000, 0x7860305F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12718,   1,  90, 0, 0) /* Strength */
@@ -79,12 +79,7 @@ VALUES (12718, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for 
      , (12718, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
      , (12718, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (12718, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
-     , (12718, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (12718, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
-     , (12718, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (12718, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (12718, 4, 30986, -1, 0, 0, False) /* Create Letter From Home (30986) for Shop */
-     , (12718, 4, 30987, -1, 0, 0, False) /* Create Letter From Home (30987) for Shop */;
+     , (12718, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12718, 67109551, 0, 24)

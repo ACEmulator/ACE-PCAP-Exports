@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24852,   1, 'Skull of a Skeletal Hero') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24852,   1,   33555205) /* Setup */
-     , (24852,   3,  536870932) /* SoundTable */
-     , (24852,   8,  100674500) /* Icon */
-     , (24852,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24852,   1, 0x02000305) /* Setup */
+     , (24852,   3, 0x20000014) /* SoundTable */
+     , (24852,   8, 0x06002BC4) /* Icon */
+     , (24852,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24852, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (24852, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24852, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24852, 8000, 3700497424) /* PCAPRecordedObjectIID */;
+VALUES (24852, 8000, 0xDC911C10) /* PCAPRecordedObjectIID */;

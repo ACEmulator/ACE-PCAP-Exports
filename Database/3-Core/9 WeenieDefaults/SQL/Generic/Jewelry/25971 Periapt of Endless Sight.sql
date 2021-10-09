@@ -32,17 +32,17 @@ VALUES (25971,   1, 'Periapt of Endless Sight') /* Name */
      , (25971,  16, 'Crafted from fine glass and gems, this periapt refocuses light superbly, allowing the wearer to see farther and aim truer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25971,   1,   33554680) /* Setup */
-     , (25971,   3,  536870932) /* SoundTable */
-     , (25971,   6,   67111919) /* PaletteBase */
-     , (25971,   8,  100675677) /* Icon */
-     , (25971,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25971,   1, 0x020000F8) /* Setup */
+     , (25971,   3, 0x20000014) /* SoundTable */
+     , (25971,   6, 0x04000BEF) /* PaletteBase */
+     , (25971,   8, 0x0600305D) /* Icon */
+     , (25971,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25971, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (25971, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25971, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25971, 8000, 2174536926) /* PCAPRecordedObjectIID */;
+VALUES (25971, 8000, 0x819CCCDE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25971,  3008,      2)  /* Finesse */

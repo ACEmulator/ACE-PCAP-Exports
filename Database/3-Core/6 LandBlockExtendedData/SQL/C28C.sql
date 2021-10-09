@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xC28C;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C28C005,  1381, 0xC28C0106, 57.6351, 107.976, 23.705, 0.8233217, 0, 0, -0.567575, False, '2019-02-10 00:00:00'); /* Farmer */
+VALUES (0x7C28C005,  1381, 0xC28C0106, 57.6351, 107.976, 23.705, 0.823322, 0, 0, -0.567575, False, '2019-02-10 00:00:00'); /* Farmer */
 /* @teleloc 0xC28C0106 [57.635100 107.976000 23.705000] 0.823322 0.000000 0.000000 -0.567575 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

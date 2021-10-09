@@ -14,20 +14,21 @@ VALUES (24929,   1,        128) /* ItemType - Misc */
      , (24929, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24929,  22, True ) /* Inscribable */;
+VALUES (24929,  22, True ) /* Inscribable */
+     , (24929,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24929,   1, 'Brood Queen Elder Crest') /* Name */
      , (24929,  15, 'The crest of a departed Olthoi Brood Queen Elder.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24929,   1,   33556593) /* Setup */
-     , (24929,   3,  536870932) /* SoundTable */
-     , (24929,   8,  100674516) /* Icon */
-     , (24929,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24929,   1, 0x02000871) /* Setup */
+     , (24929,   3, 0x20000014) /* SoundTable */
+     , (24929,   8, 0x06002BD4) /* Icon */
+     , (24929,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24929, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (24929, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24929, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24929, 8000, 3707746777) /* PCAPRecordedObjectIID */;
+VALUES (24929, 8000, 0xDCFFB9D9) /* PCAPRecordedObjectIID */;

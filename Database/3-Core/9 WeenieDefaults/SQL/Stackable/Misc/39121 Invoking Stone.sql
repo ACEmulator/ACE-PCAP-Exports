@@ -17,25 +17,28 @@ VALUES (39121,   1,        128) /* ItemType - Misc */
      , (39121, 114,          1) /* Attuned - Attuned */
      , (39121, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (39121,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39121,   1, 'Invoking Stone') /* Name */
      , (39121,  14, 'Turn this into the Royal Scout when you have 30.') /* Use */
      , (39121,  16, 'A faintly glowing stone. Its smooth surface is covered in crudely scratched ancient symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39121,   1,   33554669) /* Setup */
-     , (39121,   3,  536870932) /* SoundTable */
-     , (39121,   6,   67111928) /* PaletteBase */
-     , (39121,   8,  100690311) /* Icon */
-     , (39121,  22,  872415275) /* PhysicsEffectTable */
-     , (39121,  52,  100689932) /* IconUnderlay */
+VALUES (39121,   1, 0x020000ED) /* Setup */
+     , (39121,   3, 0x20000014) /* SoundTable */
+     , (39121,   6, 0x04000BF8) /* PaletteBase */
+     , (39121,   8, 0x06006987) /* Icon */
+     , (39121,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (39121,  52, 0x0600680C) /* IconUnderlay */
      , (39121, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (39121, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (39121, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (39121, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39121, 8000, 2210356872) /* PCAPRecordedObjectIID */;
+VALUES (39121, 8000, 0x83BF5E88) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39121, 67111920, 0, 0);

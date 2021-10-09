@@ -37,27 +37,27 @@ VALUES (9679,   1, 'Weaponsmith Hideo Sasaki') /* Name */
      , (9679, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9679,   1,   33554433) /* Setup */
-     , (9679,   2,  150994945) /* MotionTable */
-     , (9679,   3,  536870913) /* SoundTable */
-     , (9679,   6,   67108990) /* PaletteBase */
-     , (9679,   8,  100667446) /* Icon */
-     , (9679,   9,   83890446) /* EyesTexture */
-     , (9679,  10,   83890519) /* NoseTexture */
-     , (9679,  11,   83890589) /* MouthTexture */
-     , (9679,  15,   67117021) /* HairPalette */
-     , (9679,  16,   67110062) /* EyesPalette */
-     , (9679,  17,   67110055) /* SkinPalette */
+VALUES (9679,   1, 0x02000001) /* Setup */
+     , (9679,   2, 0x09000001) /* MotionTable */
+     , (9679,   3, 0x20000001) /* SoundTable */
+     , (9679,   6, 0x0400007E) /* PaletteBase */
+     , (9679,   8, 0x06001036) /* Icon */
+     , (9679,   9, 0x0500110E) /* EyesTexture */
+     , (9679,  10, 0x05001157) /* NoseTexture */
+     , (9679,  11, 0x0500119D) /* MouthTexture */
+     , (9679,  15, 0x04001FDD) /* HairPalette */
+     , (9679,  16, 0x040004AE) /* EyesPalette */
+     , (9679,  17, 0x040004A7) /* SkinPalette */
      , (9679, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (9679, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (9679, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9679, 8040, 1536950303, 84.0402, 159.153, 29.205, 0.2511571, 0, 0, -0.9679464) /* PCAPRecordedLocation */
+VALUES (9679, 8040, 0x5B9C001F, 84.0402, 159.153, 29.205, 0.251157, 0, 0, -0.967946) /* PCAPRecordedLocation */
 /* @teleloc 0x5B9C001F [84.040200 159.153000 29.205000] 0.251157 0.000000 0.000000 -0.967946 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9679, 8000, 1975107586) /* PCAPRecordedObjectIID */;
+VALUES (9679, 8000, 0x75B9C002) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9679,   1, 250, 0, 0) /* Strength */
@@ -112,20 +112,7 @@ VALUES (9679, 2,   356,  1, 0, 0, False) /* Create Tofun (356) for Wield */
      , (9679, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (9679, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (9679, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (9679, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (9679, 4,  1439, -1, 0, 0, False) /* Create Acid Axe (1439) for Shop */
-     , (9679, 4, 22442, -1, 0, 0, False) /* Create Lightning Dirk (22442) for Shop */
-     , (9679, 4, 27230, -1, 0, 0, False) /* Create Nariyid Helm (27230) for Shop */
-     , (9679, 4, 49366, -1, 0, 0, False) /* Create Acid Grievver Essence (50) (49366) for Shop */
-     , (9679, 4, 49331, -1, 0, 0, False) /* Create Frost Wisp Essence (50) (49331) for Shop */
-     , (9679, 4, 49435, -1, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for Shop */
-     , (9679, 4, 49539, -1, 0, 0, False) /* Create Frost Phyntos Wasp Essence (80) (49539) for Shop */
-     , (9679, 4, 49269, -1, 0, 0, False) /* Create Lightning Elemental Essence (80) (49269) for Shop */
-     , (9679, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
-     , (9679, 4, 28627, -1, 0, 0, False) /* Create Diforsa Bracers (28627) for Shop */
-     , (9679, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (9679, 4, 41036, -1, 0, 0, False) /* Create Assagai (41036) for Shop */
-     , (9679, 4,  2589, -1, 0, 0, False) /* Create Smock (2589) for Shop */;
+     , (9679, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9679, 67109967, 92, 4)

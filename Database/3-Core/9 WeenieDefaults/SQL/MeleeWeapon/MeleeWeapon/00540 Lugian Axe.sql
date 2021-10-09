@@ -40,21 +40,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (540,   1, 'Lugian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (540,   1,   33554726) /* Setup */
-     , (540,   3,  536870932) /* SoundTable */
-     , (540,   6,   67111919) /* PaletteBase */
-     , (540,   8,  100672854) /* Icon */
-     , (540,  22,  872415275) /* PhysicsEffectTable */
+VALUES (540,   1, 0x02000126) /* Setup */
+     , (540,   3, 0x20000014) /* SoundTable */
+     , (540,   6, 0x04000BEF) /* PaletteBase */
+     , (540,   8, 0x06002556) /* Icon */
+     , (540,  22, 0x3400002B) /* PhysicsEffectTable */
      , (540, 8001,  270598680) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, ValidLocations, Burden, HookType */
      , (540, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (540, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (540, 8040, 302186508, 37.7807, 80.6077, 1.1, 0.8979586, 0, 0, -0.4400798) /* PCAPRecordedLocation */
+VALUES (540, 8040, 0x1203000C, 37.7807, 80.6077, 1.1, 0.897959, 0, 0, -0.44008) /* PCAPRecordedLocation */
 /* @teleloc 0x1203000C [37.780700 80.607700 1.100000] 0.897959 0.000000 0.000000 -0.440080 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (540, 8000, 3361940225) /* PCAPRecordedObjectIID */;
+VALUES (540, 8000, 0xC8632301) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (540, 67111920, 0, 0);

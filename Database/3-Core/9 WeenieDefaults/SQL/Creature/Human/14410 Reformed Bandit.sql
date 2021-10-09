@@ -30,27 +30,27 @@ VALUES (14410,   1, 'Reformed Bandit') /* Name */
      , (14410, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14410,   1,   33554433) /* Setup */
-     , (14410,   2,  150994945) /* MotionTable */
-     , (14410,   3,  536870913) /* SoundTable */
-     , (14410,   6,   67108990) /* PaletteBase */
-     , (14410,   8,  100667446) /* Icon */
-     , (14410,   9,   83890506) /* EyesTexture */
-     , (14410,  10,   83890549) /* NoseTexture */
-     , (14410,  11,   83890639) /* MouthTexture */
-     , (14410,  15,   67117080) /* HairPalette */
-     , (14410,  16,   67110062) /* EyesPalette */
-     , (14410,  17,   67109558) /* SkinPalette */
+VALUES (14410,   1, 0x02000001) /* Setup */
+     , (14410,   2, 0x09000001) /* MotionTable */
+     , (14410,   3, 0x20000001) /* SoundTable */
+     , (14410,   6, 0x0400007E) /* PaletteBase */
+     , (14410,   8, 0x06001036) /* Icon */
+     , (14410,   9, 0x0500114A) /* EyesTexture */
+     , (14410,  10, 0x05001175) /* NoseTexture */
+     , (14410,  11, 0x050011CF) /* MouthTexture */
+     , (14410,  15, 0x04002018) /* HairPalette */
+     , (14410,  16, 0x040004AE) /* EyesPalette */
+     , (14410,  17, 0x040002B6) /* SkinPalette */
      , (14410, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
      , (14410, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (14410, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14410, 8040, 2763259928, 70.7892, 188.356, 96.005, 0.9896815, 0, 0, 0.1432851) /* PCAPRecordedLocation */
+VALUES (14410, 8040, 0xA4B40018, 70.7892, 188.356, 96.005, 0.989682, 0, 0, 0.143285) /* PCAPRecordedLocation */
 /* @teleloc 0xA4B40018 [70.789200 188.356000 96.005000] 0.989682 0.000000 0.000000 0.143285 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14410, 8000, 2780559707) /* PCAPRecordedObjectIID */;
+VALUES (14410, 8000, 0xA5BBF95B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14410,   1, 200, 0, 0) /* Strength */

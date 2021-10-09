@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27849,   1,          1) /* ItemType - MeleeWeapon */
      , (27849,   5,        450) /* EncumbranceVal */
      , (27849,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (27849,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (27849,  16,          1) /* ItemUseable - No */
      , (27849,  18,          1) /* UiEffects - Magical */
      , (27849,  19,          0) /* Value */
@@ -33,7 +32,8 @@ VALUES (27849,   1,          1) /* ItemType - MeleeWeapon */
      , (27849, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27849,  22, True ) /* Inscribable */;
+VALUES (27849,  22, True ) /* Inscribable */
+     , (27849,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27849,   5,  -0.033) /* ManaRate */
@@ -52,28 +52,28 @@ VALUES (27849,   1, 'Singularity Sword') /* Name */
      , (27849,  15, 'A sword imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27849,   1,   33556969) /* Setup */
-     , (27849,   3,  536870932) /* SoundTable */
-     , (27849,   6,   67111919) /* PaletteBase */
-     , (27849,   8,  100671372) /* Icon */
-     , (27849,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27849,   1, 0x020009E9) /* Setup */
+     , (27849,   3, 0x20000014) /* SoundTable */
+     , (27849,   6, 0x04000BEF) /* PaletteBase */
+     , (27849,   8, 0x06001F8C) /* Icon */
+     , (27849,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27849, 8001,    2327184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (27849, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27849, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (27849, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27849, 8040, 2248344364, 82.36014, -57.60925, 11.929, -0.2416319, -0.2416319, -0.6645405, -0.6645405) /* PCAPRecordedLocation */
+VALUES (27849, 8040, 0x8603032C, 82.36014, -57.60925, 11.929, -0.241632, -0.241632, -0.664541, -0.664541) /* PCAPRecordedLocation */
 /* @teleloc 0x8603032C [82.360140 -57.609250 11.929000] -0.241632 -0.241632 -0.664541 -0.664541 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27849, 8000, 3692183223) /* PCAPRecordedObjectIID */
-     , (27849, 8008, 3692820158) /* PCAPRecordedParentIID */;
+VALUES (27849, 8000, 0xDC123EB7) /* PCAPRecordedObjectIID */
+     , (27849, 8008, 0xDC1BF6BE) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27849,  1337,      2)  /* StrengthOther6 */
+VALUES (27849,  1616,      2)  /* BloodDrinkerSelf6 */
      , (27849,  1592,      2)  /* HeartSeekerSelf6 */
-     , (27849,  1616,      2)  /* BloodDrinkerSelf6 */;
+     , (27849,  1337,      2)  /* StrengthOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27849, 67111927, 0, 0);

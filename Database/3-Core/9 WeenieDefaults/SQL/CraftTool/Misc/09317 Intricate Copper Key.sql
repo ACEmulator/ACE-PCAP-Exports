@@ -28,13 +28,13 @@ VALUES (9317,   1, 'Intricate Copper Key') /* Name */
      , (9317,  16, 'A key that can be used to unlock Small Mnemosynes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9317,   1,   33554784) /* Setup */
-     , (9317,   3,  536870932) /* SoundTable */
-     , (9317,   8,  100671431) /* Icon */
-     , (9317,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9317,   1, 0x02000160) /* Setup */
+     , (9317,   3, 0x20000014) /* SoundTable */
+     , (9317,   8, 0x06001FC7) /* Icon */
+     , (9317,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9317, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (9317, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9317, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9317, 8000, 2157267477) /* PCAPRecordedObjectIID */;
+VALUES (9317, 8000, 0x80954A15) /* PCAPRecordedObjectIID */;

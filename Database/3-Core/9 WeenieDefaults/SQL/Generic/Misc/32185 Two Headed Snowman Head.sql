@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32185,   1, 'Two Headed Snowman Head') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32185,   1,   33559771) /* Setup */
-     , (32185,   3,  536870932) /* SoundTable */
-     , (32185,   8,  100688430) /* Icon */
-     , (32185,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32185,   1, 0x020014DB) /* Setup */
+     , (32185,   3, 0x20000014) /* SoundTable */
+     , (32185,   8, 0x0600622E) /* Icon */
+     , (32185,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32185, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (32185, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32185, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32185, 8000, 2249707894) /* PCAPRecordedObjectIID */;
+VALUES (32185, 8000, 0x8617D176) /* PCAPRecordedObjectIID */;

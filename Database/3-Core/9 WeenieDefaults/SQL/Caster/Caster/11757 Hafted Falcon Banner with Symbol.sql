@@ -11,6 +11,7 @@ VALUES (11757,   1,      32768) /* ItemType - Caster */
      , (11757,  18,          1) /* UiEffects - Magical */
      , (11757,  19,          0) /* Value */
      , (11757,  33,          1) /* Bonded - Bonded */
+     , (11757,  46,        512) /* DefaultCombatStyle - Magic */
      , (11757,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11757,  94,         16) /* TargetType - Creature */
      , (11757, 106,        200) /* ItemSpellcraft */
@@ -22,6 +23,7 @@ VALUES (11757,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11757,  22, True ) /* Inscribable */
+     , (11757,  23, True ) /* DestroyOnSell */
      , (11757,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,15 +36,15 @@ VALUES (11757,   1, 'Hafted Falcon Banner with Symbol') /* Name */
      , (11757,  16, 'A hafted, symbol tipped banner with a Falcon on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11757,   1,   33557258) /* Setup */
-     , (11757,   8,  100671912) /* Icon */
-     , (11757,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11757,   1, 0x02000B0A) /* Setup */
+     , (11757,   8, 0x060021A8) /* Icon */
+     , (11757,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11757, 8001,    2703504) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, TargetType, Burden */
      , (11757, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11757, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11757, 8000, 2629545800) /* PCAPRecordedObjectIID */;
+VALUES (11757, 8000, 0x9CBBAF48) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11757,   656,      2)  /* ManaMasterySelf4 */

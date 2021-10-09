@@ -24,16 +24,16 @@ VALUES (34319,   1, 'Soul Hunter''s Chambers') /* Name */
      , (34319, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34319,   1,   33555924) /* Setup */
-     , (34319,   2,  150994947) /* MotionTable */
-     , (34319,   8,  100667499) /* Icon */
+VALUES (34319,   1, 0x020005D4) /* Setup */
+     , (34319,   2, 0x09000003) /* MotionTable */
+     , (34319,   8, 0x0600106B) /* Icon */
      , (34319, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (34319, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (34319, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34319, 8040, 8126788, 92, -30, -18.063, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (34319, 8040, 0x007C0144, 92, -30, -18.063, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x007C0144 [92.000000 -30.000000 -18.063000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34319, 8000, 1879556113) /* PCAPRecordedObjectIID */;
+VALUES (34319, 8000, 0x7007C011) /* PCAPRecordedObjectIID */;

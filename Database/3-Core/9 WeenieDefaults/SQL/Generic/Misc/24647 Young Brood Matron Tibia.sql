@@ -14,20 +14,21 @@ VALUES (24647,   1,        128) /* ItemType - Misc */
      , (24647, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24647,  22, True ) /* Inscribable */;
+VALUES (24647,  22, True ) /* Inscribable */
+     , (24647,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24647,   1, 'Young Brood Matron Tibia') /* Name */
      , (24647,  15, 'The tibia of a departed Young Olthoi Brood Matron.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24647,   1,   33556593) /* Setup */
-     , (24647,   3,  536870932) /* SoundTable */
-     , (24647,   8,  100674519) /* Icon */
-     , (24647,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24647,   1, 0x02000871) /* Setup */
+     , (24647,   3, 0x20000014) /* SoundTable */
+     , (24647,   8, 0x06002BD7) /* Icon */
+     , (24647,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24647, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (24647, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24647, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24647, 8000, 3707625012) /* PCAPRecordedObjectIID */;
+VALUES (24647, 8000, 0xDCFDDE34) /* PCAPRecordedObjectIID */;

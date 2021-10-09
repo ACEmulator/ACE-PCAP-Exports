@@ -41,22 +41,22 @@ VALUES (24457,   1, 'Enchanter''s Gauntlets') /* Name */
      , (24457,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the enchanter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24457,   1,   33554648) /* Setup */
-     , (24457,   3,  536870932) /* SoundTable */
-     , (24457,   6,   67108990) /* PaletteBase */
-     , (24457,   8,  100674347) /* Icon */
-     , (24457,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24457,   1, 0x020000D8) /* Setup */
+     , (24457,   3, 0x20000014) /* SoundTable */
+     , (24457,   6, 0x0400007E) /* PaletteBase */
+     , (24457,   8, 0x06002B2B) /* Icon */
+     , (24457,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24457, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (24457, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24457, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24457, 8000, 2153711855) /* PCAPRecordedObjectIID */;
+VALUES (24457, 8000, 0x805F08EF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24457,  1456,      2)  /* WillpowerOther6 */
+VALUES (24457,  2946,      2)  /* ModerateCreatureMagicAptitude */
      , (24457,  1485,      2)  /* Impenetrability5 */
-     , (24457,  2946,      2)  /* ModerateCreatureMagicAptitude */;
+     , (24457,  1456,      2)  /* WillpowerOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24457, 67114526, 168, 6);

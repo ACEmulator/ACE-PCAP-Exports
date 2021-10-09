@@ -17,7 +17,7 @@ VALUES (22249,   1,        256) /* ItemType - MissileWeapon */
      , (22249,  45,          4) /* DamageType - Bludgeon */
      , (22249,  48,         47) /* WeaponSkill - MissileWeapons */
      , (22249,  49,         10) /* WeaponTime */
-     , (22249,  51,          2) /* CombatUse - Missle */
+     , (22249,  51,          2) /* CombatUse - Missile */
      , (22249,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (22249, 151,         11) /* HookType - Floor, Wall, Yard */
      , (22249, 353,         10) /* WeaponType - Thrown */
@@ -43,17 +43,17 @@ VALUES (22249,   1, 'Great Jack o'' Lantern') /* Name */
      , (22249,  15, 'A reasonably crafted great jack o'' lantern, made with a whittling knife.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22249,   1,   33556809) /* Setup */
-     , (22249,   3,  536870932) /* SoundTable */
-     , (22249,   6,   67112968) /* PaletteBase */
-     , (22249,   8,  100671018) /* Icon */
-     , (22249,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22249,   1, 0x02000949) /* Setup */
+     , (22249,   3, 0x20000014) /* SoundTable */
+     , (22249,   6, 0x04001008) /* PaletteBase */
+     , (22249,   8, 0x06001E2A) /* Icon */
+     , (22249,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22249, 8001,  270627352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (22249, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (22249, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22249, 8000, 2981037258) /* PCAPRecordedObjectIID */;
+VALUES (22249, 8000, 0xB1AF04CA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22249, 67112968, 0, 0);

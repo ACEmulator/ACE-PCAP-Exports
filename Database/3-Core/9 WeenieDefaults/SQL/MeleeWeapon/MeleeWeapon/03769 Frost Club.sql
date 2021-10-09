@@ -47,13 +47,13 @@ VALUES (3769,   1, 'Frost Club') /* Name */
      , (3769,  16, 'Frost Club') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3769,   1,   33555722) /* Setup */
-     , (3769,   3,  536870932) /* SoundTable */
-     , (3769,   8,  100668855) /* Icon */
-     , (3769,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3769,   1, 0x0200050A) /* Setup */
+     , (3769,   3, 0x20000014) /* SoundTable */
+     , (3769,   8, 0x060015B7) /* Icon */
+     , (3769,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3769, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3769, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3769, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3769, 8000, 3698130154) /* PCAPRecordedObjectIID */;
+VALUES (3769, 8000, 0xDC6CFCEA) /* PCAPRecordedObjectIID */;

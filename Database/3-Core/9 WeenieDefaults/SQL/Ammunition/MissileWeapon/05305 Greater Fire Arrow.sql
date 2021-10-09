@@ -44,13 +44,13 @@ VALUES (5305,   1, 'Greater Fire Arrow') /* Name */
      , (5305,  16, 'A flaming arrow that appears to do fire damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5305,   1,   33555406) /* Setup */
-     , (5305,   3,  536870932) /* SoundTable */
-     , (5305,   8,  100670166) /* Icon */
-     , (5305,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5305,   1, 0x020003CE) /* Setup */
+     , (5305,   3, 0x20000014) /* SoundTable */
+     , (5305,   8, 0x06001AD6) /* Icon */
+     , (5305,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5305, 8001,  270627736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (5305, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5305, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5305, 8000, 3656585396) /* PCAPRecordedObjectIID */;
+VALUES (5305, 8000, 0xD9F310B4) /* PCAPRecordedObjectIID */;

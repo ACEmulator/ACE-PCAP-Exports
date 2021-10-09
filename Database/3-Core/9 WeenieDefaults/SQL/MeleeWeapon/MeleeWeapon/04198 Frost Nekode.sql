@@ -41,13 +41,13 @@ VALUES (4198,   1, 'Frost Nekode') /* Name */
      , (4198,  16, 'Frost Nekode') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4198,   1,   33555990) /* Setup */
-     , (4198,   3,  536870932) /* SoundTable */
-     , (4198,   8,  100670027) /* Icon */
-     , (4198,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4198,   1, 0x02000616) /* Setup */
+     , (4198,   3, 0x20000014) /* SoundTable */
+     , (4198,   8, 0x06001A4B) /* Icon */
+     , (4198,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4198, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (4198, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4198, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4198, 8000, 3692118046) /* PCAPRecordedObjectIID */;
+VALUES (4198, 8000, 0xDC11401E) /* PCAPRecordedObjectIID */;

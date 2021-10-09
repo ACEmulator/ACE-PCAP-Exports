@@ -36,18 +36,18 @@ VALUES (2395,   1, 'Gem') /* Name */
      , (2395,  16, 'Gem of Mana Renewal') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2395,   1,   33554809) /* Setup */
-     , (2395,   3,  536870932) /* SoundTable */
-     , (2395,   6,   67111919) /* PaletteBase */
-     , (2395,   8,  100674741) /* Icon */
-     , (2395,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2395,   1, 0x02000179) /* Setup */
+     , (2395,   3, 0x20000014) /* SoundTable */
+     , (2395,   6, 0x04000BEF) /* PaletteBase */
+     , (2395,   8, 0x06002CB5) /* Icon */
+     , (2395,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2395,  28,        217) /* Spell - ManaRenewalSelf6 */
      , (2395, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
      , (2395, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2395, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2395, 8000, 3688159276) /* PCAPRecordedObjectIID */;
+VALUES (2395, 8000, 0xDBD4D82C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2395,   216,      2)  /* ManaRenewalSelf5 */;

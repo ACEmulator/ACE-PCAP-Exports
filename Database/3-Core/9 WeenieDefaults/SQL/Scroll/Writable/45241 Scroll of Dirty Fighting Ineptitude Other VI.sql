@@ -24,13 +24,13 @@ VALUES (45241,   1, 'Scroll of Dirty Fighting Ineptitude Other VI') /* Name */
 Decreases the target''s Dirty Fighting skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45241,   1,   33554826) /* Setup */
-     , (45241,   8,  100692255) /* Icon */
-     , (45241,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45241,   1, 0x0200018A) /* Setup */
+     , (45241,   8, 0x0600711F) /* Icon */
+     , (45241,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45241,  28,       5768) /* Spell - DirtyFightingIneptitudeOther6 */
      , (45241, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45241, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45241, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45241, 8000, 3469452338) /* PCAPRecordedObjectIID */;
+VALUES (45241, 8000, 0xCECBA432) /* PCAPRecordedObjectIID */;

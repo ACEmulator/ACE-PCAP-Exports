@@ -53,21 +53,21 @@ VALUES (45405,   1, 'Frost Simi') /* Name */
      , (45405,  16, 'Frost Simi of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45405,   1,   33555768) /* Setup */
-     , (45405,   3,  536870932) /* SoundTable */
-     , (45405,   8,  100668995) /* Icon */
-     , (45405,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45405,   1, 0x02000538) /* Setup */
+     , (45405,   3, 0x20000014) /* SoundTable */
+     , (45405,   8, 0x06001643) /* Icon */
+     , (45405,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45405,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45405,  52,  100676435) /* IconUnderlay */
+     , (45405,  52, 0x06003353) /* IconUnderlay */
      , (45405, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45405, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45405, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45405, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45405, 8000, 2174248341) /* PCAPRecordedObjectIID */;
+VALUES (45405, 8000, 0x81986595) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45405,  1592,      2)  /* HeartSeekerSelf6 */
+VALUES (45405,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */
      , (45405,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (45405,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */;
+     , (45405,  1592,      2)  /* HeartSeekerSelf6 */;

@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46362,   1, 'The Story of the Lost Sisters') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46362,   1,   33554773) /* Setup */
-     , (46362,   3,  536870932) /* SoundTable */
-     , (46362,   8,  100692694) /* Icon */
-     , (46362,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46362,   1, 0x02000155) /* Setup */
+     , (46362,   3, 0x20000014) /* SoundTable */
+     , (46362,   8, 0x060072D6) /* Icon */
+     , (46362,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46362, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (46362, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (46362, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46362, 8000, 3360721909) /* PCAPRecordedObjectIID */;
+VALUES (46362, 8000, 0xC8508BF5) /* PCAPRecordedObjectIID */;

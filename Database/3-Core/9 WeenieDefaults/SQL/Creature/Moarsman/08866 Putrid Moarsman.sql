@@ -26,23 +26,23 @@ VALUES (8866,   1, 'Putrid Moarsman') /* Name */
      , (8866, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8866,   1,   33556882) /* Setup */
-     , (8866,   2,  150995104) /* MotionTable */
-     , (8866,   3,  536871018) /* SoundTable */
-     , (8866,   6,   67112872) /* PaletteBase */
-     , (8866,   8,  100671185) /* Icon */
-     , (8866,  22,  872415337) /* PhysicsEffectTable */
+VALUES (8866,   1, 0x02000992) /* Setup */
+     , (8866,   2, 0x090000A0) /* MotionTable */
+     , (8866,   3, 0x2000006A) /* SoundTable */
+     , (8866,   6, 0x04000FA8) /* PaletteBase */
+     , (8866,   8, 0x06001ED1) /* Icon */
+     , (8866,  22, 0x34000069) /* PhysicsEffectTable */
      , (8866,  30,         84) /* PhysicsScript - BreatheFlame */
      , (8866, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (8866, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (8866, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8866, 8040, 45547779, 62.021, -75.922, -53.9934, 0.06326269, 0, 0, -0.9979969) /* PCAPRecordedLocation */
+VALUES (8866, 8040, 0x02B70103, 62.021, -75.922, -53.9934, 0.063263, 0, 0, -0.997997) /* PCAPRecordedLocation */
 /* @teleloc 0x02B70103 [62.021000 -75.922000 -53.993400] 0.063263 0.000000 0.000000 -0.997997 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8866, 8000, 2932248889) /* PCAPRecordedObjectIID */;
+VALUES (8866, 8000, 0xAEC69139) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8866,   1, 170, 0, 0) /* Strength */

@@ -16,7 +16,6 @@ VALUES (46599,   1,        128) /* ItemType - Misc */
      , (46599,  94,        128) /* TargetType - Misc */
      , (46599,  98, 1485730301) /* CreationTimestamp */
      , (46599, 267,       3600) /* Lifespan */
-     , (46599, 268,       3596) /* RemainingLifespan */
      , (46599, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -29,13 +28,13 @@ VALUES (46599,   1, 'Broken Key') /* Name */
      , (46599,  15, 'The middle portion of a broken key.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46599,   1,   33554784) /* Setup */
-     , (46599,   3,  536870932) /* SoundTable */
-     , (46599,   8,  100670625) /* Icon */
-     , (46599,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46599,   1, 0x02000160) /* Setup */
+     , (46599,   3, 0x20000014) /* SoundTable */
+     , (46599,   8, 0x06001CA1) /* Icon */
+     , (46599,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46599, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (46599, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46599, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46599, 8000, 3708044719) /* PCAPRecordedObjectIID */;
+VALUES (46599, 8000, 0xDD0445AF) /* PCAPRecordedObjectIID */;

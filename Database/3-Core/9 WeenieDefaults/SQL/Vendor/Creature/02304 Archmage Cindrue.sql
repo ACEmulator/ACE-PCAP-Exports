@@ -36,27 +36,27 @@ VALUES (2304,   1, 'Archmage Cindrue') /* Name */
      , (2304, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2304,   1,   33554510) /* Setup */
-     , (2304,   2,  150994945) /* MotionTable */
-     , (2304,   3,  536870914) /* SoundTable */
-     , (2304,   6,   67108990) /* PaletteBase */
-     , (2304,   8,  100667446) /* Icon */
-     , (2304,   9,   83890263) /* EyesTexture */
-     , (2304,  10,   83890304) /* NoseTexture */
-     , (2304,  11,   83890345) /* MouthTexture */
-     , (2304,  15,   67117023) /* HairPalette */
-     , (2304,  16,   67110062) /* EyesPalette */
-     , (2304,  17,   67109560) /* SkinPalette */
+VALUES (2304,   1, 0x0200004E) /* Setup */
+     , (2304,   2, 0x09000001) /* MotionTable */
+     , (2304,   3, 0x20000002) /* SoundTable */
+     , (2304,   6, 0x0400007E) /* PaletteBase */
+     , (2304,   8, 0x06001036) /* Icon */
+     , (2304,   9, 0x05001057) /* EyesTexture */
+     , (2304,  10, 0x05001080) /* NoseTexture */
+     , (2304,  11, 0x050010A9) /* MouthTexture */
+     , (2304,  15, 0x04001FDF) /* HairPalette */
+     , (2304,  16, 0x040004AE) /* EyesPalette */
+     , (2304,  17, 0x040002B8) /* SkinPalette */
      , (2304, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2304, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2304, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2304, 8040, 2847146267, 152.347, 132.546, 69.005, 0.740142, 0, 0, -0.6724505) /* PCAPRecordedLocation */
+VALUES (2304, 8040, 0xA9B4011B, 152.347, 132.546, 69.005, 0.740142, 0, 0, -0.672451) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4011B [152.347000 132.546000 69.005000] 0.740142 0.000000 0.000000 -0.672451 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2304, 8000, 2056994867) /* PCAPRecordedObjectIID */;
+VALUES (2304, 8000, 0x7A9B4033) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2304,   1,  20, 0, 0) /* Strength */
@@ -180,14 +180,7 @@ VALUES (2304, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (2304, 4,  8978, -1, 0, 0, False) /* Create Nanto Portal Gem (8978) for Shop */
      , (2304, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (2304, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */
-     , (2304, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */
-     , (2304, 4, 29260, -1, 0, 0, False) /* Create Blunt Sceptre (29260) for Shop */
-     , (2304, 4, 29261, -1, 0, 0, False) /* Create Electric Sceptre (29261) for Shop */
-     , (2304, 4, 29264, -1, 0, 0, False) /* Create Piercing Sceptre (29264) for Shop */
-     , (2304, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
-     , (2304, 4, 31820, -1, 0, 0, False) /* Create Acid Baton (31820) for Shop */
-     , (2304, 4, 31824, -1, 0, 0, False) /* Create Ice Wand (31824) for Shop */
-     , (2304, 4, 29263, -1, 0, 0, False) /* Create Frost Sceptre (29263) for Shop */;
+     , (2304, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2304, 67109560, 0, 24)

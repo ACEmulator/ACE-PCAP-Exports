@@ -24,19 +24,19 @@ VALUES (14450,   1, 'Captured Adventurer ') /* Name */
      , (14450,  15, 'Bound and tortured in the Hollow Minions'' device, this poor, emaciated captive is paralyzed with agony.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14450,   1,   33557476) /* Setup */
-     , (14450,   6,   67108990) /* PaletteBase */
-     , (14450,   8,  100667446) /* Icon */
+VALUES (14450,   1, 0x02000BE4) /* Setup */
+     , (14450,   6, 0x0400007E) /* PaletteBase */
+     , (14450,   8, 0x06001036) /* Icon */
      , (14450, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (14450, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14450, 8005,      32773) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14450, 8040, 21233952, 62.899, -6.714, 1.5, -0.383731, 0, 0, -0.923445) /* PCAPRecordedLocation */
+VALUES (14450, 8040, 0x01440120, 62.899, -6.714, 1.5, -0.383731, 0, 0, -0.923445) /* PCAPRecordedLocation */
 /* @teleloc 0x01440120 [62.899000 -6.714000 1.500000] -0.383731 0.000000 0.000000 -0.923445 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14450, 8000, 1880375336) /* PCAPRecordedObjectIID */;
+VALUES (14450, 8000, 0x70144028) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14450, 67113779, 0, 0);

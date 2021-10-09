@@ -22,17 +22,17 @@ VALUES (25995,   1, 'Lucky Rabbit''s Foot') /* Name */
      , (25995,  16, 'A pastel and rather disgusting rabbit''s foot - apparently from a truly enormous rabbit. Give this foot to Larry the Rabbit Master at his farm northeast of Lytelthorpe and he will give you the title of "Bunny Master". ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25995,   1,   33554817) /* Setup */
-     , (25995,   3,  536870932) /* SoundTable */
-     , (25995,   6,   67111919) /* PaletteBase */
-     , (25995,   8,  100675689) /* Icon */
-     , (25995,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25995,   1, 0x02000181) /* Setup */
+     , (25995,   3, 0x20000014) /* SoundTable */
+     , (25995,   6, 0x04000BEF) /* PaletteBase */
+     , (25995,   8, 0x06003069) /* Icon */
+     , (25995,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25995, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (25995, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25995, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25995, 8000, 2166170659) /* PCAPRecordedObjectIID */;
+VALUES (25995, 8000, 0x811D2423) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25995, 67111923, 0, 0);

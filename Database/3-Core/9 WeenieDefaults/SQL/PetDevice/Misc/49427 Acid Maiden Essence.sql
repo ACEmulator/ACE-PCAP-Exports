@@ -17,9 +17,9 @@ VALUES (49427,   1,        128) /* ItemType - Misc */
      , (49427, 105,          9) /* ItemWorkmanship */
      , (49427, 114,          0) /* Attuned - Normal */
      , (49427, 280,        213) /* SharedCooldown */
-     , (49427, 366,         54) /* UseRequiresSkill */
+     , (49427, 366,         54) /* UseRequiresSkill - Summoning */
      , (49427, 367,        570) /* UseRequiresSkillLevel */
-     , (49427, 368,         54) /* UseRequiresSkillSpec */
+     , (49427, 368,         54) /* UseRequiresSkillSpec - Summoning */
      , (49427, 369,        185) /* UseRequiresLevel */
      , (49427, 370,         11) /* GearDamage */
      , (49427, 373,         15) /* GearCritResist */
@@ -40,20 +40,20 @@ VALUES (49427,   1, 'Acid Maiden Essence') /* Name */
      , (49427,  14, 'Use this essence to summon or dismiss your Acid Maiden.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49427,   1,   33554817) /* Setup */
-     , (49427,   3,  536870932) /* SoundTable */
-     , (49427,   6,   67111919) /* PaletteBase */
-     , (49427,   8,  100676679) /* Icon */
-     , (49427,  22,  872415275) /* PhysicsEffectTable */
-     , (49427,  50,  100693032) /* IconOverlay */
-     , (49427,  52,  100693024) /* IconUnderlay */
+VALUES (49427,   1, 0x02000181) /* Setup */
+     , (49427,   3, 0x20000014) /* SoundTable */
+     , (49427,   6, 0x04000BEF) /* PaletteBase */
+     , (49427,   8, 0x06003447) /* Icon */
+     , (49427,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49427,  50, 0x06007428) /* IconOverlay */
+     , (49427,  52, 0x06007420) /* IconUnderlay */
      , (49427, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49427, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49427, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49427, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49427, 8000, 3162605807) /* PCAPRecordedObjectIID */;
+VALUES (49427, 8000, 0xBC8188EF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49427, 67111920, 0, 0);

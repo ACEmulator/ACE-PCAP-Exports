@@ -50,21 +50,21 @@ VALUES (53314,   1, 'Stormwood Staff') /* Name */
      , (53314,  16, 'A staff imbued with the energies of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53314,   1,   33561669) /* Setup */
-     , (53314,   3,  536870932) /* SoundTable */
-     , (53314,   8,  100693340) /* Icon */
-     , (53314,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53314,   1, 0x02001C45) /* Setup */
+     , (53314,   3, 0x20000014) /* SoundTable */
+     , (53314,   8, 0x0600755C) /* Icon */
+     , (53314,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53314, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (53314, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (53314, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53314, 8000, 3630241512) /* PCAPRecordedObjectIID */;
+VALUES (53314, 8000, 0xD86116E8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53314,  4395,      2)  /* BloodDrinkerSelf8 */
+VALUES (53314,  4417,      2)  /* SwiftKillerSelf8 */
+     , (53314,  6043,      2)  /* CantripLightWeaponsAptitude4 */
+     , (53314,  4518,      2)  /* LightWeaponsMasterySelf8 */
+     , (53314,  4395,      2)  /* BloodDrinkerSelf8 */
      , (53314,  4400,      2)  /* DefenderSelf8 */
-     , (53314,  4405,      2)  /* HeartSeekerSelf8 */
-     , (53314,  4417,      2)  /* SwiftKillerSelf8 */
-     , (53314,  4518,      2)  /* AxeMasterySelf8 */
-     , (53314,  6043,      2)  /* CantripAxeAptitude4 */;
+     , (53314,  4405,      2)  /* HeartSeekerSelf8 */;

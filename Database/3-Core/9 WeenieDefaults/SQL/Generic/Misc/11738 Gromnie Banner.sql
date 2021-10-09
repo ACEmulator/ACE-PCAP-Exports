@@ -14,23 +14,24 @@ VALUES (11738,   1,        128) /* ItemType - Misc */
      , (11738, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11738,  22, True ) /* Inscribable */;
+VALUES (11738,  22, True ) /* Inscribable */
+     , (11738,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11738,   1, 'Gromnie Banner') /* Name */
      , (11738,  16, 'A banner with a gromnie on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the gromnie, it almost seems to be gazing back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11738,   1,   33557239) /* Setup */
-     , (11738,   3,  536870932) /* SoundTable */
-     , (11738,   8,  100671889) /* Icon */
-     , (11738,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11738,   1, 0x02000AF7) /* Setup */
+     , (11738,   3, 0x20000014) /* SoundTable */
+     , (11738,   8, 0x06002191) /* Icon */
+     , (11738,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11738, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (11738, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11738, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11738, 8000, 2209830274) /* PCAPRecordedObjectIID */;
+VALUES (11738, 8000, 0x83B75582) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11738, 0, 83893717, 83893718);

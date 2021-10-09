@@ -37,17 +37,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46010,   1, 'Amateur Explorer Shirt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46010,   1,   33554644) /* Setup */
-     , (46010,   3,  536870932) /* SoundTable */
-     , (46010,   6,   67108990) /* PaletteBase */
-     , (46010,   8,  100667373) /* Icon */
-     , (46010,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46010,   1, 0x020000D4) /* Setup */
+     , (46010,   3, 0x20000014) /* SoundTable */
+     , (46010,   6, 0x0400007E) /* PaletteBase */
+     , (46010,   8, 0x06000FED) /* Icon */
+     , (46010,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46010, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (46010, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46010, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46010, 8000, 2555214024) /* PCAPRecordedObjectIID */;
+VALUES (46010, 8000, 0x984D78C8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46010,  1455,      2)  /* WillpowerOther5 */;

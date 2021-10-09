@@ -15,7 +15,7 @@ VALUES (24556,   1,        256) /* ItemType - MissileWeapon */
      , (24556,  48,         47) /* WeaponSkill - MissileWeapons */
      , (24556,  49,         15) /* WeaponTime */
      , (24556,  50,          4) /* AmmoType - Atlatl */
-     , (24556,  51,          2) /* CombatUse - Missle */
+     , (24556,  51,          2) /* CombatUse - Missile */
      , (24556,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24556, 106,        400) /* ItemSpellcraft */
      , (24556, 107,       1000) /* ItemCurMana */
@@ -46,19 +46,19 @@ VALUES (24556,   1, 'Tumerok Hunting Brace') /* Name */
      , (24556,  16, 'An ornately decorated piece of wood, adorned with ivory and bone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24556,   1,   33558380) /* Setup */
-     , (24556,   3,  536870932) /* SoundTable */
-     , (24556,   8,  100674409) /* Icon */
-     , (24556,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24556,   1, 0x02000F6C) /* Setup */
+     , (24556,   3, 0x20000014) /* SoundTable */
+     , (24556,   8, 0x06002B69) /* Icon */
+     , (24556,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24556, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24556, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24556, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24556, 8000, 2192080034) /* PCAPRecordedObjectIID */;
+VALUES (24556, 8000, 0x82A87CA2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24556,  1604,      2)  /* DefenderSelf5 */
      , (24556,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (24556,  2540,      2)  /* CANTRIPBOWAPTITUDE1 */
-     , (24556,  2579,      2)  /* CANTRIPCOORDINATION1 */;
+     , (24556,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (24556,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */;

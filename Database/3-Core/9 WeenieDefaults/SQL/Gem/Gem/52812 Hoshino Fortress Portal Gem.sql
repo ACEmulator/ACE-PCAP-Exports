@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52812,   1, 'Hoshino Fortress Portal Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52812,   1,   33557625) /* Setup */
-     , (52812,   3,  536870932) /* SoundTable */
-     , (52812,   8,  100693311) /* Icon */
-     , (52812,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52812,   1, 0x02000C79) /* Setup */
+     , (52812,   3, 0x20000014) /* SoundTable */
+     , (52812,   8, 0x0600753F) /* Icon */
+     , (52812,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52812,  28,        157) /* Spell - SummonPortal1 */
      , (52812, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (52812, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -37,4 +37,4 @@ VALUES (52812,   1,   33557625) /* Setup */
      , (52812, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52812, 8000,      52812) /* PCAPRecordedObjectIID */;
+VALUES (52812, 8000, 0x0000CE4C) /* PCAPRecordedObjectIID */;

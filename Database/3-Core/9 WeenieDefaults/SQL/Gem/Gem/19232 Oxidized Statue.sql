@@ -27,17 +27,17 @@ VALUES (19232,   1, 'Oxidized Statue') /* Name */
      , (19232, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19232,   1,   33557327) /* Setup */
-     , (19232,   2,  150995207) /* MotionTable */
-     , (19232,   6,   67113400) /* PaletteBase */
-     , (19232,   8,  100667449) /* Icon */
-     , (19232,  22,  872415383) /* PhysicsEffectTable */
+VALUES (19232,   1, 0x02000B4F) /* Setup */
+     , (19232,   2, 0x09000107) /* MotionTable */
+     , (19232,   6, 0x040011B8) /* PaletteBase */
+     , (19232,   8, 0x06001039) /* Icon */
+     , (19232,  22, 0x34000097) /* PhysicsEffectTable */
      , (19232, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
      , (19232, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19232, 8005,      69763) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19232, 8000, 2166170606) /* PCAPRecordedObjectIID */;
+VALUES (19232, 8000, 0x811D23EE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19232, 67113844, 0, 0);

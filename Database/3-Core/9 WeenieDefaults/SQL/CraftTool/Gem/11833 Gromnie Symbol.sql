@@ -26,13 +26,13 @@ VALUES (11833,   1, 'Gromnie Symbol') /* Name */
      , (11833,  16, 'A Gromnie Symbol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11833,   1,   33557248) /* Setup */
-     , (11833,   3,  536870932) /* SoundTable */
-     , (11833,   8,  100671965) /* Icon */
-     , (11833,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11833,   1, 0x02000B00) /* Setup */
+     , (11833,   3, 0x20000014) /* SoundTable */
+     , (11833,   8, 0x060021DD) /* Icon */
+     , (11833,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11833, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11833, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11833, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11833, 8000, 2181139338) /* PCAPRecordedObjectIID */;
+VALUES (11833, 8000, 0x82018B8A) /* PCAPRecordedObjectIID */;

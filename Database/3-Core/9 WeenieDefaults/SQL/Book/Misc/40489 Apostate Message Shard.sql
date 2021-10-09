@@ -15,6 +15,9 @@ VALUES (40489,   1,        128) /* ItemType - Misc */
      , (40489, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (40489, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (40489,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40489,  39,     0.2) /* DefaultScale */
      , (40489,  54,       1) /* UseRadius */
@@ -26,13 +29,13 @@ VALUES (40489,   1, 'Apostate Message Shard') /* Name */
      , (40489,  15, 'A shard of black crystal, recovered from the Apostate Virindi Master.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40489,   1,   33555391) /* Setup */
-     , (40489,   3,  536870932) /* SoundTable */
-     , (40489,   8,  100671183) /* Icon */
-     , (40489,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40489,   1, 0x020003BF) /* Setup */
+     , (40489,   3, 0x20000014) /* SoundTable */
+     , (40489,   8, 0x06001ECF) /* Icon */
+     , (40489,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40489, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (40489, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (40489, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40489, 8000, 3703969543) /* PCAPRecordedObjectIID */;
+VALUES (40489, 8000, 0xDCC61707) /* PCAPRecordedObjectIID */;

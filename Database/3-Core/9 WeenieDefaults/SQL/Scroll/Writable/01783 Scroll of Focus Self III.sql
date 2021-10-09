@@ -24,13 +24,13 @@ VALUES (1783,   1, 'Scroll of Focus Self III') /* Name */
 Increases the caster''s Focus by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1783,   1,   33554826) /* Setup */
-     , (1783,   8,  100676458) /* Icon */
-     , (1783,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1783,   1, 0x0200018A) /* Setup */
+     , (1783,   8, 0x0600336A) /* Icon */
+     , (1783,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1783,  28,       1423) /* Spell - FocusSelf3 */
      , (1783, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1783, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1783, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1783, 8000, 2918574761) /* PCAPRecordedObjectIID */;
+VALUES (1783, 8000, 0xADF5EAA9) /* PCAPRecordedObjectIID */;

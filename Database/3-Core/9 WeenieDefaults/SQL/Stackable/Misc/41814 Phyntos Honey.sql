@@ -20,17 +20,17 @@ VALUES (41814,   1, 'Phyntos Honey') /* Name */
      , (41814,  20, 'Phyntos Honey') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41814,   1,   33555209) /* Setup */
-     , (41814,   3,  536870932) /* SoundTable */
-     , (41814,   6,   67111919) /* PaletteBase */
-     , (41814,   8,  100690853) /* Icon */
-     , (41814,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41814,   1, 0x02000309) /* Setup */
+     , (41814,   3, 0x20000014) /* SoundTable */
+     , (41814,   6, 0x04000BEF) /* PaletteBase */
+     , (41814,   8, 0x06006BA5) /* Icon */
+     , (41814,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41814, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (41814, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41814, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41814, 8000, 3080758731) /* PCAPRecordedObjectIID */;
+VALUES (41814, 8000, 0xB7A0A5CB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41814, 67111920, 0, 0);

@@ -42,22 +42,22 @@ VALUES (12214,   1, 'Koji''s Beast') /* Name */
      , (12214,  16, 'A mask made with masterful craftsmanship. It has been sculpted into the face of a deadly Ogre Magi that Koji once encountered on her travels.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12214,   1,   33557386) /* Setup */
-     , (12214,   3,  536870932) /* SoundTable */
-     , (12214,   8,  100672218) /* Icon */
-     , (12214,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12214,   1, 0x02000B8A) /* Setup */
+     , (12214,   3, 0x20000014) /* SoundTable */
+     , (12214,   8, 0x060022DA) /* Icon */
+     , (12214,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12214, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (12214, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12214, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12214, 8000, 3710969395) /* PCAPRecordedObjectIID */;
+VALUES (12214, 8000, 0xDD30E633) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12214,   248,      2)  /* InvulnerabilitySelf5 */
-     , (12214,   276,      2)  /* MagicResistanceSelf3 */
-     , (12214,   447,      2)  /* UnarmedCombatMasterySelf5 */
-     , (12214,  1311,      2)  /* ArmorSelf5 */;
+VALUES (12214,   276,      2)  /* MagicResistanceSelf3 */
+     , (12214,  1311,      2)  /* ArmorSelf5 */
+     , (12214,   248,      2)  /* InvulnerabilitySelf5 */
+     , (12214,   447,      2)  /* UnarmedCombatMasterySelf5 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (12214, 0, 16787411);

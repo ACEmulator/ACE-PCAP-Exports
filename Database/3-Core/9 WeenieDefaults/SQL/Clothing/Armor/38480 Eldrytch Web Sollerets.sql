@@ -48,26 +48,26 @@ VALUES (38480,   1, 'Eldrytch Web Sollerets') /* Name */
      , (38480,  16, 'Eldrytch Web Sollerets of Jumping') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38480,   1,   33554654) /* Setup */
-     , (38480,   3,  536870932) /* SoundTable */
-     , (38480,   8,  100690250) /* Icon */
-     , (38480,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38480,   1, 0x020000DE) /* Setup */
+     , (38480,   3, 0x20000014) /* SoundTable */
+     , (38480,   8, 0x0600694A) /* Icon */
+     , (38480,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38480,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (38480, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38480, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38480, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38480, 8040, 2847146009, 89.09074, 15.52275, 93.99935, 0.5930352, 0, 0, -0.8051766) /* PCAPRecordedLocation */
+VALUES (38480, 8040, 0xA9B40019, 89.09074, 15.52275, 93.99935, 0.593035, 0, 0, -0.805177) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [89.090740 15.522750 93.999350] 0.593035 0.000000 0.000000 -0.805177 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38480, 8000, 2167400523) /* PCAPRecordedObjectIID */;
+VALUES (38480, 8000, 0x812FE84B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38480,  2108,      2)  /* Impenetrability7 */
-     , (38480,  4572,      2)  /* JumpingMasterySelf8 */
-     , (38480,  6045,      2)  /* CantripCookingProwess4 */;
+VALUES (38480,  4572,      2)  /* JumpingMasterySelf8 */
+     , (38480,  6045,      2)  /* CantripCookingProwess4 */
+     , (38480,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38480, 0, 83889344, 83897948)

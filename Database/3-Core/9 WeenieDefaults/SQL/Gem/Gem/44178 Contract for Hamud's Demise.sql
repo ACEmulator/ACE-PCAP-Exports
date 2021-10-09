@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44178,   1, 'Contract for Hamud''s Demise') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44178,   1,   33554773) /* Setup */
-     , (44178,   3,  536870932) /* SoundTable */
-     , (44178,   8,  100691932) /* Icon */
-     , (44178,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44178,   1, 0x02000155) /* Setup */
+     , (44178,   3, 0x20000014) /* SoundTable */
+     , (44178,   8, 0x06006FDC) /* Icon */
+     , (44178,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44178, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44178, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44178, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44178, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44178, 8000, 3693914201) /* PCAPRecordedObjectIID */;
+VALUES (44178, 8000, 0xDC2CA859) /* PCAPRecordedObjectIID */;

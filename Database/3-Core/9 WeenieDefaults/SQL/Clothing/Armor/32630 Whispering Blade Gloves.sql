@@ -8,7 +8,6 @@ VALUES (32630,   1,          2) /* ItemType - Armor */
      , (32630,   4,      32768) /* ClothingPriority - Hands */
      , (32630,   5,        200) /* EncumbranceVal */
      , (32630,   9,         32) /* ValidLocations - HandWear */
-     , (32630,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (32630,  16,          1) /* ItemUseable - No */
      , (32630,  19,       5000) /* Value */
      , (32630,  28,        520) /* ArmorLevel */
@@ -40,18 +39,18 @@ VALUES (32630,   1, 'Whispering Blade Gloves') /* Name */
      , (32630,  16, 'These enchanted gloves bear the blade sigil of the enigmatic Whispering Blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32630,   1,   33559828) /* Setup */
-     , (32630,   3,  536870932) /* SoundTable */
-     , (32630,   8,  100688570) /* Icon */
-     , (32630,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32630,   1, 0x02001514) /* Setup */
+     , (32630,   3, 0x20000014) /* SoundTable */
+     , (32630,   8, 0x060062BA) /* Icon */
+     , (32630,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32630, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (32630, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32630, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32630, 8000, 3455188062) /* PCAPRecordedObjectIID */;
+VALUES (32630, 8000, 0xCDF1FC5E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32630,  1378,      2)  /* CoordinationSelf6 */
-     , (32630,  2108,      2)  /* Impenetrability7 */
-     , (32630,  2659,      2)  /* ModerateCoordination */;
+     , (32630,  2659,      2)  /* ModerateCoordination */
+     , (32630,  2108,      2)  /* Impenetrability7 */;

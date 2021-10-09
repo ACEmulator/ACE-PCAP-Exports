@@ -20,11 +20,11 @@ VALUES (272,   1, 'Chair') /* Name */
      , (272,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (272,   1,   33554721) /* Setup */
-     , (272,   8,  100671770) /* Icon */
+VALUES (272,   1, 0x02000121) /* Setup */
+     , (272,   8, 0x0600211A) /* Icon */
      , (272, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (272, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (272, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (272, 8000, 3658163593) /* PCAPRecordedObjectIID */;
+VALUES (272, 8000, 0xDA0B2589) /* PCAPRecordedObjectIID */;

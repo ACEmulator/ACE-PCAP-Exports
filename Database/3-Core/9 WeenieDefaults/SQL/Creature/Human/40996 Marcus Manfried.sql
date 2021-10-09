@@ -31,27 +31,27 @@ VALUES (40996,   1, 'Marcus Manfried') /* Name */
      , (40996, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40996,   1,   33554433) /* Setup */
-     , (40996,   2,  150994945) /* MotionTable */
-     , (40996,   3,  536870913) /* SoundTable */
-     , (40996,   6,   67108990) /* PaletteBase */
-     , (40996,   8,  100667446) /* Icon */
-     , (40996,   9,   83890448) /* EyesTexture */
-     , (40996,  10,   83890554) /* NoseTexture */
-     , (40996,  11,   83890613) /* MouthTexture */
-     , (40996,  15,   67117017) /* HairPalette */
-     , (40996,  16,   67109564) /* EyesPalette */
-     , (40996,  17,   67109560) /* SkinPalette */
+VALUES (40996,   1, 0x02000001) /* Setup */
+     , (40996,   2, 0x09000001) /* MotionTable */
+     , (40996,   3, 0x20000001) /* SoundTable */
+     , (40996,   6, 0x0400007E) /* PaletteBase */
+     , (40996,   8, 0x06001036) /* Icon */
+     , (40996,   9, 0x05001110) /* EyesTexture */
+     , (40996,  10, 0x0500117A) /* NoseTexture */
+     , (40996,  11, 0x050011B5) /* MouthTexture */
+     , (40996,  15, 0x04001FD9) /* HairPalette */
+     , (40996,  16, 0x040002BC) /* EyesPalette */
+     , (40996,  17, 0x040002B8) /* SkinPalette */
      , (40996, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (40996, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (40996, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40996, 8040, 2281963943, 28.833, -24.516, -239.995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (40996, 8040, 0x880401A7, 28.833, -24.516, -239.995, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x880401A7 [28.833000 -24.516000 -239.995000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40996, 8000, 2884040244) /* PCAPRecordedObjectIID */;
+VALUES (40996, 8000, 0xABE6F634) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (40996,   1,     0, 0, 0, 85) /* MaxHealth */;

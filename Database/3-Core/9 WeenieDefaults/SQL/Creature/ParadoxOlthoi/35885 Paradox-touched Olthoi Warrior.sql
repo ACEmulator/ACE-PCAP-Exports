@@ -29,23 +29,23 @@ VALUES (35885,   1, 'Paradox-touched Olthoi Warrior') /* Name */
      , (35885, 8006, 'BgA8AEO1nNwxALbEOmYVQ5lRvEAF4GtD8O9BAOb92z/NzMw9AADIQgAAgD8AAHBBAAAAABzHIUA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35885,   1,   33560317) /* Setup */
-     , (35885,   2,  150994946) /* MotionTable */
-     , (35885,   3,  536870925) /* SoundTable */
-     , (35885,   6,   67113236) /* PaletteBase */
-     , (35885,   8,  100667623) /* Icon */
-     , (35885,  22,  872415265) /* PhysicsEffectTable */
+VALUES (35885,   1, 0x020016FD) /* Setup */
+     , (35885,   2, 0x09000002) /* MotionTable */
+     , (35885,   3, 0x2000000D) /* SoundTable */
+     , (35885,   6, 0x04001114) /* PaletteBase */
+     , (35885,   8, 0x060010E7) /* Icon */
+     , (35885,  22, 0x34000021) /* PhysicsEffectTable */
      , (35885,  30,         86) /* PhysicsScript - BreatheAcid */
      , (35885, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35885, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35885, 8005,     129159) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35885, 8040, 3300261929, 141.4579, 3.970356, 241.4654, 0.7844548, 0, 0, -0.620186) /* PCAPRecordedLocation */
+VALUES (35885, 8040, 0xC4B60029, 141.4579, 3.970356, 241.4654, 0.784455, 0, 0, -0.620186) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B60029 [141.457900 3.970356 241.465400] 0.784455 0.000000 0.000000 -0.620186 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35885, 8000, 3701495775) /* PCAPRecordedObjectIID */;
+VALUES (35885, 8000, 0xDCA057DF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35885,   1, 360, 0, 0) /* Strength */

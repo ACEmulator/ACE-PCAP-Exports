@@ -21,16 +21,16 @@ VALUES (29099,   1, 'Steaming Hovel') /* Name */
      , (29099, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29099,   1,   33555922) /* Setup */
-     , (29099,   2,  150994947) /* MotionTable */
-     , (29099,   8,  100667499) /* Icon */
+VALUES (29099,   1, 0x020005D2) /* Setup */
+     , (29099,   2, 0x09000003) /* MotionTable */
+     , (29099,   8, 0x0600106B) /* Icon */
      , (29099, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (29099, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (29099, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29099, 8040, 769261824, 83.6723, 165.994, 34.737, -0.992499, 0, 0, -0.122253) /* PCAPRecordedLocation */
+VALUES (29099, 8040, 0x2DDA0100, 83.6723, 165.994, 34.737, -0.992499, 0, 0, -0.122253) /* PCAPRecordedLocation */
 /* @teleloc 0x2DDA0100 [83.672300 165.994000 34.737000] -0.992499 0.000000 0.000000 -0.122253 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29099, 8000, 1927127040) /* PCAPRecordedObjectIID */;
+VALUES (29099, 8000, 0x72DDA000) /* PCAPRecordedObjectIID */;

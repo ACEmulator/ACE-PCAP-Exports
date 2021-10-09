@@ -26,22 +26,22 @@ VALUES (46933,   1, 'Ancient Tenebrous Knight') /* Name */
      , (46933, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46933,   1,   33559684) /* Setup */
-     , (46933,   2,  150994945) /* MotionTable */
-     , (46933,   3,  536871066) /* SoundTable */
-     , (46933,   6,   67116522) /* PaletteBase */
-     , (46933,   8,  100670397) /* Icon */
-     , (46933,  22,  872415331) /* PhysicsEffectTable */
+VALUES (46933,   1, 0x02001484) /* Setup */
+     , (46933,   2, 0x09000001) /* MotionTable */
+     , (46933,   3, 0x2000009A) /* SoundTable */
+     , (46933,   6, 0x04001DEA) /* PaletteBase */
+     , (46933,   8, 0x06001BBD) /* Icon */
+     , (46933,  22, 0x34000063) /* PhysicsEffectTable */
      , (46933, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46933, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (46933, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46933, 8040, 1481703903, 48.315, -49.4403, 48.00325, -0.3986739, 0, 0, -0.9170927) /* PCAPRecordedLocation */
+VALUES (46933, 8040, 0x585101DF, 48.315, -49.4403, 48.00325, -0.398674, 0, 0, -0.917093) /* PCAPRecordedLocation */
 /* @teleloc 0x585101DF [48.315000 -49.440300 48.003250] -0.398674 0.000000 0.000000 -0.917093 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46933, 8000, 3701628613) /* PCAPRecordedObjectIID */;
+VALUES (46933, 8000, 0xDCA25EC5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (46933,   1,     0, 0, 0, 3500) /* MaxHealth */;

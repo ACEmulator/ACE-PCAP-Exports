@@ -24,18 +24,18 @@ VALUES (36733,   1, 'Empowered Platinum Phial Pea') /* Name */
      , (36733,  20, 'Empowered Platinum Phial Peas') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36733,   1,   33556223) /* Setup */
-     , (36733,   3,  536870932) /* SoundTable */
-     , (36733,   6,   67111928) /* PaletteBase */
-     , (36733,   8,  100689708) /* Icon */
-     , (36733,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36733,   1, 0x020006FF) /* Setup */
+     , (36733,   3, 0x20000014) /* SoundTable */
+     , (36733,   6, 0x04000BF8) /* PaletteBase */
+     , (36733,   8, 0x0600672C) /* Icon */
+     , (36733,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36733, 8001,     553113) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (36733, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36733, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (36733, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36733, 8000,      36733) /* PCAPRecordedObjectIID */;
+VALUES (36733, 8000, 0x00008F7D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36733, 67112642, 0, 0);

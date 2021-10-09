@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40576,   1, 'Door Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40576,   1,   33554784) /* Setup */
-     , (40576,   3,  536870932) /* SoundTable */
-     , (40576,   8,  100667486) /* Icon */
-     , (40576,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40576,   1, 0x02000160) /* Setup */
+     , (40576,   3, 0x20000014) /* SoundTable */
+     , (40576,   8, 0x0600105E) /* Icon */
+     , (40576,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40576, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (40576, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40576, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40576, 8000, 2158887222) /* PCAPRecordedObjectIID */;
+VALUES (40576, 8000, 0x80AE0136) /* PCAPRecordedObjectIID */;

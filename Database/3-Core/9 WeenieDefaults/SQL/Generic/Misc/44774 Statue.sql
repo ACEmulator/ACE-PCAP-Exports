@@ -18,11 +18,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44774,   1, 'Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44774,   1,   33561374) /* Setup */
-     , (44774,   8,  100668115) /* Icon */
+VALUES (44774,   1, 0x02001B1E) /* Setup */
+     , (44774,   8, 0x060012D3) /* Icon */
      , (44774, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44774, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44774, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44774, 8000, 2187838678) /* PCAPRecordedObjectIID */;
+VALUES (44774, 8000, 0x8267C4D6) /* PCAPRecordedObjectIID */;

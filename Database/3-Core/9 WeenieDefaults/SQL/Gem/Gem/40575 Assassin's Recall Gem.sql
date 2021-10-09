@@ -26,6 +26,7 @@ VALUES (40575,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40575,  22, True ) /* Inscribable */
+     , (40575,  23, True ) /* DestroyOnSell */
      , (40575,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -33,18 +34,18 @@ VALUES (40575,   1, 'Assassin''s Recall Gem') /* Name */
      , (40575,  16, 'A gem that will return you directly to the Assassin''s Roost for your next meeting.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40575,   1,   33554809) /* Setup */
-     , (40575,   3,  536870932) /* SoundTable */
-     , (40575,   6,   67111919) /* PaletteBase */
-     , (40575,   8,  100668365) /* Icon */
-     , (40575,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40575,   1, 0x02000179) /* Setup */
+     , (40575,   3, 0x20000014) /* SoundTable */
+     , (40575,   6, 0x04000BEF) /* PaletteBase */
+     , (40575,   8, 0x060013CD) /* Icon */
+     , (40575,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40575,  28,       4992) /* Spell - PortalSendingAssassinsRoost4 */
      , (40575, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (40575, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40575, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40575, 8000, 2336224934) /* PCAPRecordedObjectIID */;
+VALUES (40575, 8000, 0x8B3FF6A6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40575, 67111920, 0, 0);

@@ -28,28 +28,28 @@ VALUES (4253,   1, 'Panumbris Shadow') /* Name */
      , (4253, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4253,   1,   33556251) /* Setup */
-     , (4253,   2,  150995091) /* MotionTable */
-     , (4253,   3,  536870914) /* SoundTable */
-     , (4253,   6,   67108990) /* PaletteBase */
-     , (4253,   8,  100670398) /* Icon */
-     , (4253,   9,   83890258) /* EyesTexture */
-     , (4253,  10,   83890309) /* NoseTexture */
-     , (4253,  11,   83890326) /* MouthTexture */
-     , (4253,  15,   67117016) /* HairPalette */
-     , (4253,  16,   67109564) /* EyesPalette */
-     , (4253,  17,   67109560) /* SkinPalette */
-     , (4253,  22,  872415331) /* PhysicsEffectTable */
+VALUES (4253,   1, 0x0200071B) /* Setup */
+     , (4253,   2, 0x09000093) /* MotionTable */
+     , (4253,   3, 0x20000002) /* SoundTable */
+     , (4253,   6, 0x0400007E) /* PaletteBase */
+     , (4253,   8, 0x06001BBE) /* Icon */
+     , (4253,   9, 0x05001052) /* EyesTexture */
+     , (4253,  10, 0x05001085) /* NoseTexture */
+     , (4253,  11, 0x05001096) /* MouthTexture */
+     , (4253,  15, 0x04001FD8) /* HairPalette */
+     , (4253,  16, 0x040002BC) /* EyesPalette */
+     , (4253,  17, 0x040002B8) /* SkinPalette */
+     , (4253,  22, 0x34000063) /* PhysicsEffectTable */
      , (4253, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (4253, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4253, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4253, 8040, 2400845877, 150.931, 116.3685, 340.005, -0.5554596, 0, 0, -0.8315436) /* PCAPRecordedLocation */
+VALUES (4253, 8040, 0x8F1A0035, 150.931, 116.3685, 340.005, -0.55546, 0, 0, -0.831544) /* PCAPRecordedLocation */
 /* @teleloc 0x8F1A0035 [150.931000 116.368500 340.005000] -0.555460 0.000000 0.000000 -0.831544 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4253, 8000, 3685536864) /* PCAPRecordedObjectIID */;
+VALUES (4253, 8000, 0xDBACD460) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4253,   1, 100, 0, 0) /* Strength */
@@ -876,7 +876,16 @@ VALUES (4253, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
      , (4253, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
      , (4253, 9, 20551,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Blessing (20551) for ContainTreasure */
      , (4253, 9, 41039,  0, 0, 0, False) /* Create Flaming Assagai (41039) for ContainTreasure */
-     , (4253, 9,  3834,  0, 0, 0, False) /* Create Acid Mace (3834) for ContainTreasure */;
+     , (4253, 9,  3834,  0, 0, 0, False) /* Create Acid Mace (3834) for ContainTreasure */
+     , (4253, 9, 31804,  0, 0, 0, False) /* Create Piercing Compound Bow (31804) for ContainTreasure */
+     , (4253, 9, 40677,  0, 0, 0, False) /* Create Olthoi Gauntlets (40677) for ContainTreasure */
+     , (4253, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
+     , (4253, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (4253, 9, 40764,  0, 0, 0, False) /* Create Frost Nodachi (40764) for ContainTreasure */
+     , (4253, 9, 40683,  0, 0, 0, False) /* Create Olthoi Sollerets (40683) for ContainTreasure */
+     , (4253, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
+     , (4253, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
+     , (4253, 9, 43380,  1, 0, 0, False) /* Create Glyph of Void Magic (43380) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4253, 67112860, 0, 0);

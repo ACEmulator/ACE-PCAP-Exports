@@ -35,22 +35,22 @@ VALUES (21065,   1, 'Salvaged  (100)') /* Name */
      , (21065,  15, 'Chips of opal material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21065,   1,   33554817) /* Setup */
-     , (21065,   3,  536870932) /* SoundTable */
-     , (21065,   6,   67111919) /* PaletteBase */
-     , (21065,   8,  100673214) /* Icon */
-     , (21065,  22,  872415275) /* PhysicsEffectTable */
-     , (21065,  50,  100673288) /* IconOverlay */
+VALUES (21065,   1, 0x02000181) /* Setup */
+     , (21065,   3, 0x20000014) /* SoundTable */
+     , (21065,   6, 0x04000BEF) /* PaletteBase */
+     , (21065,   8, 0x060026BE) /* Icon */
+     , (21065,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21065,  50, 0x06002708) /* IconOverlay */
      , (21065, 8001, 3509074968) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (21065, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21065, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21065, 8040, 3332964380, 80.9235, 93.06987, 41.9975, 0.6204675, 0, 0, -0.7842321) /* PCAPRecordedLocation */
+VALUES (21065, 8040, 0xC6A9001C, 80.9235, 93.06987, 41.9975, 0.620468, 0, 0, -0.784232) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [80.923500 93.069870 41.997500] 0.620468 0.000000 0.000000 -0.784232 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21065, 8000, 2786962370) /* PCAPRecordedObjectIID */;
+VALUES (21065, 8000, 0xA61DABC2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21065, 67111918, 0, 0);

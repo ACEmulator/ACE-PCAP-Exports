@@ -33,21 +33,21 @@ VALUES (45360,   1, 'Rogue''s Crystal') /* Name */
      , (45360,  20, 'Rogue''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45360,   1,   33554809) /* Setup */
-     , (45360,   3,  536870932) /* SoundTable */
-     , (45360,   6,   67111919) /* PaletteBase */
-     , (45360,   8,  100686697) /* Icon */
-     , (45360,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45360,   1, 0x02000179) /* Setup */
+     , (45360,   3, 0x20000014) /* SoundTable */
+     , (45360,   6, 0x04000BEF) /* PaletteBase */
+     , (45360,   8, 0x06005B69) /* Icon */
+     , (45360,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45360,  28,       5909) /* Spell - SneakAttackMasteryRare */
-     , (45360,  50,  100692247) /* IconOverlay */
-     , (45360,  52,  100686604) /* IconUnderlay */
+     , (45360,  50, 0x06007117) /* IconOverlay */
+     , (45360,  52, 0x06005B0C) /* IconUnderlay */
      , (45360, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (45360, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45360, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (45360, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45360, 8000, 2618466337) /* PCAPRecordedObjectIID */;
+VALUES (45360, 8000, 0x9C12A021) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45360, 67111919, 0, 0);

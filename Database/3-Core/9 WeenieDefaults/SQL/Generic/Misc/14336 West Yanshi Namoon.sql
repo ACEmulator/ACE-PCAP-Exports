@@ -18,15 +18,15 @@ VALUES (14336,   1, 'West Yanshi Namoon') /* Name */
      , (14336,  16, 'Welcome to West Yanshi Namoon') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14336,   1,   33557463) /* Setup */
-     , (14336,   8,  100668115) /* Icon */
+VALUES (14336,   1, 0x02000BD7) /* Setup */
+     , (14336,   8, 0x060012D3) /* Icon */
      , (14336, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (14336, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14336, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14336, 8040, 2992898076, 92.375, 91.7788, 22, 0.93796, 0, 0, 0.346743) /* PCAPRecordedLocation */
+VALUES (14336, 8040, 0xB264001C, 92.375, 91.7788, 22, 0.93796, 0, 0, 0.346743) /* PCAPRecordedLocation */
 /* @teleloc 0xB264001C [92.375000 91.778800 22.000000] 0.937960 0.000000 0.000000 0.346743 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14336, 8000, 2066104753) /* PCAPRecordedObjectIID */;
+VALUES (14336, 8000, 0x7B2641B1) /* PCAPRecordedObjectIID */;

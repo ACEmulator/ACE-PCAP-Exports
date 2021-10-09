@@ -36,27 +36,27 @@ VALUES (1045,   1, 'Rahira bint Hisan the Shopkeeper') /* Name */
      , (1045, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1045,   1,   33554510) /* Setup */
-     , (1045,   2,  150994945) /* MotionTable */
-     , (1045,   3,  536870914) /* SoundTable */
-     , (1045,   6,   67108990) /* PaletteBase */
-     , (1045,   8,  100667446) /* Icon */
-     , (1045,   9,   83890257) /* EyesTexture */
-     , (1045,  10,   83890293) /* NoseTexture */
-     , (1045,  11,   83890337) /* MouthTexture */
-     , (1045,  15,   67117075) /* HairPalette */
-     , (1045,  16,   67110063) /* EyesPalette */
-     , (1045,  17,   67109553) /* SkinPalette */
+VALUES (1045,   1, 0x0200004E) /* Setup */
+     , (1045,   2, 0x09000001) /* MotionTable */
+     , (1045,   3, 0x20000002) /* SoundTable */
+     , (1045,   6, 0x0400007E) /* PaletteBase */
+     , (1045,   8, 0x06001036) /* Icon */
+     , (1045,   9, 0x05001051) /* EyesTexture */
+     , (1045,  10, 0x05001075) /* NoseTexture */
+     , (1045,  11, 0x050010A1) /* MouthTexture */
+     , (1045,  15, 0x04002013) /* HairPalette */
+     , (1045,  16, 0x040004AF) /* EyesPalette */
+     , (1045,  17, 0x040002B1) /* SkinPalette */
      , (1045, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (1045, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (1045, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1045, 8040, 2103705901, 86.1599, 89.98, 12.005, -0.4478191, 0, 0, -0.8941242) /* PCAPRecordedLocation */
+VALUES (1045, 8040, 0x7D64012D, 86.1599, 89.98, 12.005, -0.447819, 0, 0, -0.894124) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64012D [86.159900 89.980000 12.005000] -0.447819 0.000000 0.000000 -0.894124 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1045, 8000, 2010529808) /* PCAPRecordedObjectIID */;
+VALUES (1045, 8000, 0x77D64010) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1045,   1,  90, 0, 0) /* Strength */
@@ -114,106 +114,7 @@ VALUES (1045, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (1045, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (1045, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (1045, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (1045, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (1045, 4, 49275, -1, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for Shop */
-     , (1045, 4, 49303, -1, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for Shop */
-     , (1045, 4, 49254, -1, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for Shop */
-     , (1045, 4, 48942, -1, 0, 0, False) /* Create Fire Skeleton Minion Essence (50) (48942) for Shop */
-     , (1045, 4, 49338, -1, 0, 0, False) /* Create Acid Moar Essence (50) (49338) for Shop */
-     , (1045, 4, 49531, -1, 0, 0, False) /* Create Fire Phyntos Wasp Essence (50) (49531) for Shop */
-     , (1045, 4, 49366, -1, 0, 0, False) /* Create Acid Grievver Essence (50) (49366) for Shop */
-     , (1045, 4,    78, -1, 0, 0, False) /* Create Kote (78) for Shop */
-     , (1045, 4,   105, -1, 0, 0, False) /* Create Studded Leather Sleeves (105) for Shop */
-     , (1045, 4, 48972, -1, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for Shop */
-     , (1045, 4, 49428, -1, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for Shop */
-     , (1045, 4, 49359, -1, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for Shop */
-     , (1045, 4, 49289, -1, 0, 0, False) /* Create Lightning K'nath Essence (50) (49289) for Shop */
-     , (1045, 4, 49261, -1, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for Shop */
-     , (1045, 4, 49373, -1, 0, 0, False) /* Create Lightning Grievver Essence (50) (49373) for Shop */
-     , (1045, 4,  2590, -1, 0, 0, False) /* Create Baggy Shirt (2590) for Shop */
-     , (1045, 4, 44976, -1, 0, 0, False) /* Create Hood (44976) for Shop */
-     , (1045, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */
-     , (1045, 4, 25638, -1, 0, 0, False) /* Create Leather Vest (25638) for Shop */
-     , (1045, 4, 30586, -1, 0, 0, False) /* Create Flanged Mace (30586) for Shop */
-     , (1045, 4, 25651, -1, 0, 0, False) /* Create Leather Sleeves (25651) for Shop */
-     , (1045, 4,   124, -1, 0, 0, False) /* Create Jerkin (124) for Shop */
-     , (1045, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
-     , (1045, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
-     , (1045, 4, 28633, -1, 0, 0, False) /* Create Diforsa Girth (28633) for Shop */
-     , (1045, 4, 40698, -1, 0, 0, False) /* Create Covenant Gauntlets (40698) for Shop */
-     , (1045, 4,   141, -1, 0, 0, False) /* Create Bowl (141) for Shop */
-     , (1045, 4, 31866, -1, 0, 0, False) /* Create Coronet (31866) for Shop */
-     , (1045, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (1045, 4,   154, -1, 0, 0, False) /* Create Goblet (154) for Shop */
-     , (1045, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
-     , (1045, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (1045, 4, 23126, -1, 0, 0, False) /* Create Wah Chon's Winter Lager (23126) for Shop */
-     , (1045, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
-     , (1045, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
-     , (1045, 4,  2601, -1, 0, 0, False) /* Create Loose Pants (2601) for Shop */
-     , (1045, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
-     , (1045, 4,   142, -1, 0, 0, False) /* Create Chalice (142) for Shop */
-     , (1045, 4,  2596, -1, 0, 0, False) /* Create Doublet (2596) for Shop */
-     , (1045, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
-     , (1045, 4,  2600, -1, 0, 0, False) /* Create Pantaloons (2600) for Shop */
-     , (1045, 4,  2587, -1, 0, 0, False) /* Create Shirt (2587) for Shop */
-     , (1045, 4, 49421, -1, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for Shop */
-     , (1045, 4,   150, -1, 0, 0, False) /* Create Flagon (150) for Shop */
-     , (1045, 4, 49317, -1, 0, 0, False) /* Create Lightning Wisp Essence (50) (49317) for Shop */
-     , (1045, 4, 49282, -1, 0, 0, False) /* Create Acid K'nath Essence (50) (49282) for Shop */
-     , (1045, 4,   148, -1, 0, 0, False) /* Create Cup (148) for Shop */
-     , (1045, 4, 49296, -1, 0, 0, False) /* Create Fire K'nath Essence (50) (49296) for Shop */
-     , (1045, 4, 49345, -1, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for Shop */
-     , (1045, 4, 49240, -1, 0, 0, False) /* Create Lightning Zombie Essence (50) (49240) for Shop */
-     , (1045, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (1045, 4, 49524, -1, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for Shop */
-     , (1045, 4, 25637, -1, 0, 0, False) /* Create Leather Bracers (25637) for Shop */
-     , (1045, 4, 49352, -1, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for Shop */
-     , (1045, 4, 49268, -1, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for Shop */
-     , (1045, 4, 49247, -1, 0, 0, False) /* Create Fire Zombie Essence (50) (49247) for Shop */
-     , (1045, 4, 48959, -1, 0, 0, False) /* Create Fire Elemental Essence (50) (48959) for Shop */
-     , (1045, 4, 49380, -1, 0, 0, False) /* Create Fire Grievver Essence (50) (49380) for Shop */
-     , (1045, 4, 45420, -1, 0, 0, False) /* Create Frost Knife (45420) for Shop */
-     , (1045, 4,    75, -1, 0, 0, False) /* Create Helmet (75) for Shop */
-     , (1045, 4, 21159, -1, 0, 0, False) /* Create Covenant Tassets (21159) for Shop */
-     , (1045, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
-     , (1045, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
-     , (1045, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (1045, 4, 42207, -1, 0, 0, False) /* Create Ornate Nekode (42207) for Shop */
-     , (1045, 4, 42208, -1, 0, 0, False) /* Create Silver Atlatl (42208) for Shop */
-     , (1045, 4, 22091, -1, 0, 0, False) /* Create Journal of Frest Greelving (22091) for Shop */
-     , (1045, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (1045, 4, 42210, -1, 0, 0, False) /* Create Ancient Arbalest (42210) for Shop */
-     , (1045, 4, 49435, -1, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for Shop */
-     , (1045, 4, 49538, -1, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for Shop */
-     , (1045, 4, 49310, -1, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for Shop */
-     , (1045, 4, 49331, -1, 0, 0, False) /* Create Frost Wisp Essence (50) (49331) for Shop */
-     , (1045, 4, 49227, -1, 0, 0, False) /* Create Frost Skeleton Minion Essence (50) (49227) for Shop */
-     , (1045, 4, 34349, -1, 0, 0, False) /* Create Letter to Bretself the Translator (34349) for Shop */
-     , (1045, 4, 22092, -1, 0, 0, False) /* Create Chronicle of Archeological Site Celadon (22092) for Shop */
-     , (1045, 4, 49220, -1, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for Shop */
-     , (1045, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
-     , (1045, 4,  1481, -1, 0, 0, False) /* Create Quarter Staff of Fire (1481) for Shop */
-     , (1045, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */
-     , (1045, 4,  1439, -1, 0, 0, False) /* Create Acid Axe (1439) for Shop */
-     , (1045, 4,  1514, -1, 0, 0, False) /* Create Rumor (1514) for Shop */
-     , (1045, 4, 49213, -1, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for Shop */
-     , (1045, 4, 49387, -1, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for Shop */
-     , (1045, 4, 27320, -1, 0, 0, False) /* Create Health Tonic (27320) for Shop */
-     , (1045, 4, 46283, -1, 0, 0, False) /* Create Pragmatic Guide to Atlan Weapons (46283) for Shop */
-     , (1045, 4, 20014, -1, 0, 0, False) /* Create Isparian Arms (20014) for Shop */
-     , (1045, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
-     , (1045, 4,  2588, -1, 0, 0, False) /* Create Flared Shirt (2588) for Shop */
-     , (1045, 4,   332, -1, 0, 0, False) /* Create Morning Star (332) for Shop */
-     , (1045, 4, 30592, -1, 0, 0, False) /* Create Flaming Partizan (30592) for Shop */
-     , (1045, 4,   351, -1, 0, 0, False) /* Create Long Sword (351) for Shop */
-     , (1045, 4, 31769, -1, 0, 0, False) /* Create Lugian Axe (31769) for Shop */
-     , (1045, 4, 31767, -1, 0, 0, False) /* Create Flaming Lugian Hammer (31767) for Shop */
-     , (1045, 4, 25661, -1, 0, 0, False) /* Create Leather Boots (25661) for Shop */
-     , (1045, 4, 49243, -1, 0, 0, False) /* Create Lightning Zombie Essence (125) (49243) for Shop */
-     , (1045, 4, 37216, -1, 0, 0, False) /* Create Olthoi Breastplate (37216) for Shop */
-     , (1045, 4,   350, -1, 0, 0, False) /* Create Broad Sword (350) for Shop */
-     , (1045, 4, 29244, -1, 0, 0, False) /* Create Slashing Bow (29244) for Shop */;
+     , (1045, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1045, 67109553, 0, 24)

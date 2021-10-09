@@ -53,19 +53,19 @@ VALUES (3817,   1, 'Frost Kasrullah') /* Name */
      , (3817,  16, 'Frost Kasrullah of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3817,   1,   33555758) /* Setup */
-     , (3817,   3,  536870932) /* SoundTable */
-     , (3817,   8,  100668914) /* Icon */
-     , (3817,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3817,   1, 0x0200052E) /* Setup */
+     , (3817,   3, 0x20000014) /* SoundTable */
+     , (3817,   8, 0x060015F2) /* Icon */
+     , (3817,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3817,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3817, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3817, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3817, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3817, 8000, 3355064017) /* PCAPRecordedObjectIID */;
+VALUES (3817, 8000, 0xC7FA36D1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3817,  1353,      2)  /* EnduranceSelf5 */
-     , (3817,  1604,      2)  /* DefenderSelf5 */
+VALUES (3817,  1604,      2)  /* DefenderSelf5 */
+     , (3817,  1353,      2)  /* EnduranceSelf5 */
      , (3817,  1615,      2)  /* BloodDrinkerSelf5 */;

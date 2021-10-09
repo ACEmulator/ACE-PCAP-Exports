@@ -22,16 +22,16 @@ VALUES (6103,   1, 'Rithwic Meeting Hall Portal') /* Name */
      , (6103, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6103,   1,   33554867) /* Setup */
-     , (6103,   2,  150994947) /* MotionTable */
-     , (6103,   8,  100667499) /* Icon */
+VALUES (6103,   1, 0x020001B3) /* Setup */
+     , (6103,   2, 0x09000003) /* MotionTable */
+     , (6103,   8, 0x0600106B) /* Icon */
      , (6103, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (6103, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (6103, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6103, 8040, 3364684033, 35.0909, 14.0979, 23.937, 0.9992164, 0, 0, -0.03958112) /* PCAPRecordedLocation */
+VALUES (6103, 8040, 0xC88D0101, 35.0909, 14.0979, 23.937, 0.999216, 0, 0, -0.039581) /* PCAPRecordedLocation */
 /* @teleloc 0xC88D0101 [35.090900 14.097900 23.937000] 0.999216 0.000000 0.000000 -0.039581 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6103, 8000, 2089340928) /* PCAPRecordedObjectIID */;
+VALUES (6103, 8000, 0x7C88D000) /* PCAPRecordedObjectIID */;

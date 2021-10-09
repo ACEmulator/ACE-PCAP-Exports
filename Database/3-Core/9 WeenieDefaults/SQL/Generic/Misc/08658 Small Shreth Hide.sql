@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8658,   1, 'Small Shreth Hide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8658,   1,   33554817) /* Setup */
-     , (8658,   3,  536870932) /* SoundTable */
-     , (8658,   6,   67111919) /* PaletteBase */
-     , (8658,   8,  100671284) /* Icon */
-     , (8658,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8658,   1, 0x02000181) /* Setup */
+     , (8658,   3, 0x20000014) /* SoundTable */
+     , (8658,   6, 0x04000BEF) /* PaletteBase */
+     , (8658,   8, 0x06001F34) /* Icon */
+     , (8658,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8658, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (8658, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8658, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8658, 8000, 2768972600) /* PCAPRecordedObjectIID */;
+VALUES (8658, 8000, 0xA50B2B38) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8658, 67111918, 0, 0);

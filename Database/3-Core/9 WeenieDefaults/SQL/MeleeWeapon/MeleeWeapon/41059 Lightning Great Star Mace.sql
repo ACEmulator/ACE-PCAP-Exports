@@ -48,17 +48,17 @@ VALUES (41059,   1, 'Lightning Great Star Mace') /* Name */
      , (41059,  16, 'Lightning Great Star Mace') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41059,   1,   33560833) /* Setup */
-     , (41059,   3,  536870932) /* SoundTable */
-     , (41059,   6,   67115558) /* PaletteBase */
-     , (41059,   8,  100690536) /* Icon */
-     , (41059,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41059,   1, 0x02001901) /* Setup */
+     , (41059,   3, 0x20000014) /* SoundTable */
+     , (41059,   6, 0x04001A26) /* PaletteBase */
+     , (41059,   8, 0x06006A68) /* Icon */
+     , (41059,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41059, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41059, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41059, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41059, 8000, 3691215205) /* PCAPRecordedObjectIID */;
+VALUES (41059, 8000, 0xDC037965) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41059, 67116386, 0, 0);

@@ -17,20 +17,21 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29283,   3, 1000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29283,  22, True ) /* Inscribable */;
+VALUES (29283,  22, True ) /* Inscribable */
+     , (29283,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29283,   1, 'Archmage''s Endurance') /* Name */
      , (29283,  16, 'Using this gem will grant you 20% extra duration on the spells you cast.  You can augment yourself five times in this way, for a total effect of doubled spell duration, but you will need a new gem for each augmentation.  This does not affect spells cast on you using gems.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29283,   1,   33554809) /* Setup */
-     , (29283,   3,  536870932) /* SoundTable */
-     , (29283,   8,  100686474) /* Icon */
-     , (29283,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29283,   1, 0x02000179) /* Setup */
+     , (29283,   3, 0x20000014) /* SoundTable */
+     , (29283,   8, 0x06005A8A) /* Icon */
+     , (29283,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29283, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (29283, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29283, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29283, 8000, 2908213895) /* PCAPRecordedObjectIID */;
+VALUES (29283, 8000, 0xAD57D287) /* PCAPRecordedObjectIID */;

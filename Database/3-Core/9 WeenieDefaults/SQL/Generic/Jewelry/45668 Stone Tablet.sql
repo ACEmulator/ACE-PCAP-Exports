@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45668,   1, 'Stone Tablet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45668,   1,   33555677) /* Setup */
-     , (45668,   3,  536870932) /* SoundTable */
-     , (45668,   8,  100692353) /* Icon */
-     , (45668,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45668,   1, 0x020004DD) /* Setup */
+     , (45668,   3, 0x20000014) /* SoundTable */
+     , (45668,   8, 0x06007181) /* Icon */
+     , (45668,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45668, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (45668, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45668, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45668, 8000, 3650643508) /* PCAPRecordedObjectIID */;
+VALUES (45668, 8000, 0xD9986634) /* PCAPRecordedObjectIID */;

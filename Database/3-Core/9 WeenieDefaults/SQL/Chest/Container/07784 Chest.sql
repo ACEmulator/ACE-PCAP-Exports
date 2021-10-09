@@ -27,22 +27,22 @@ VALUES (7784,   1, 'Chest') /* Name */
      , (7784, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7784,   1,   33554556) /* Setup */
-     , (7784,   2,  150994948) /* MotionTable */
-     , (7784,   3,  536870945) /* SoundTable */
-     , (7784,   8,  100667424) /* Icon */
-     , (7784,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7784,   1, 0x0200007C) /* Setup */
+     , (7784,   2, 0x09000004) /* MotionTable */
+     , (7784,   3, 0x20000021) /* SoundTable */
+     , (7784,   8, 0x06001020) /* Icon */
+     , (7784,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7784,  28,       1992) /* Spell - CampingMastery */
      , (7784, 8001,    6291518) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden, Spell */
      , (7784, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (7784, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7784, 8040, 2094137608, 110.124, 24.858, 164.8, -0.4681231, 0, 0, -0.8836632) /* PCAPRecordedLocation */
+VALUES (7784, 8040, 0x7CD20108, 110.124, 24.858, 164.8, -0.468123, 0, 0, -0.883663) /* PCAPRecordedLocation */
 /* @teleloc 0x7CD20108 [110.124000 24.858000 164.800000] -0.468123 0.000000 0.000000 -0.883663 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7784, 8000, 2009931835) /* PCAPRecordedObjectIID */;
+VALUES (7784, 8000, 0x77CD203B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7784, -1, 297, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ring (297) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

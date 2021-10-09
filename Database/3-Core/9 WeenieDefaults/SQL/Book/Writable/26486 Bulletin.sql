@@ -18,18 +18,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26486,   1, 'Bulletin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26486,   1,   33559084) /* Setup */
-     , (26486,   3,  536870932) /* SoundTable */
-     , (26486,   6,   67112626) /* PaletteBase */
-     , (26486,   8,  100675748) /* Icon */
-     , (26486,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26486,   1, 0x0200122C) /* Setup */
+     , (26486,   3, 0x20000014) /* SoundTable */
+     , (26486,   6, 0x04000EB2) /* PaletteBase */
+     , (26486,   8, 0x060030A4) /* Icon */
+     , (26486,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26486, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (26486, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (26486, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (26486, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26486, 8000,      26486) /* PCAPRecordedObjectIID */;
+VALUES (26486, 8000, 0x00006776) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26486, 67113862, 0, 0);

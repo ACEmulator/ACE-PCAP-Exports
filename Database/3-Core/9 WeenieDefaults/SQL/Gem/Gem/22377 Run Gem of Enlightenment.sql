@@ -17,16 +17,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22377,   1, 'Run Gem of Enlightenment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22377,   1,   33558088) /* Setup */
-     , (22377,   6,   67111919) /* PaletteBase */
-     , (22377,   8,  100673788) /* Icon */
-     , (22377,  50,  100673780) /* IconOverlay */
+VALUES (22377,   1, 0x02000E48) /* Setup */
+     , (22377,   6, 0x04000BEF) /* PaletteBase */
+     , (22377,   8, 0x060028FC) /* Icon */
+     , (22377,  50, 0x060028F4) /* IconOverlay */
      , (22377, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (22377, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22377, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22377, 8000, 3630628096) /* PCAPRecordedObjectIID */;
+VALUES (22377, 8000, 0xD866FD00) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22377, 67111923, 0, 0);

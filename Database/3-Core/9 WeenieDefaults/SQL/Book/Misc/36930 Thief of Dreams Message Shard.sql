@@ -23,13 +23,13 @@ VALUES (36930,   1, 'Thief of Dreams Message Shard') /* Name */
      , (36930,  15, 'A message shard taken from the Virindi Dream Thief in the dream realm of the Ithaenc Quiddity Seed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36930,   1,   33555391) /* Setup */
-     , (36930,   3,  536870932) /* SoundTable */
-     , (36930,   8,  100671183) /* Icon */
-     , (36930,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36930,   1, 0x020003BF) /* Setup */
+     , (36930,   3, 0x20000014) /* SoundTable */
+     , (36930,   8, 0x06001ECF) /* Icon */
+     , (36930,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36930, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (36930, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (36930, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36930, 8000, 3629666072) /* PCAPRecordedObjectIID */;
+VALUES (36930, 8000, 0xD8584F18) /* PCAPRecordedObjectIID */;

@@ -36,17 +36,17 @@ in so many ways.                       Love, ') /* Inscription */
      , (8373,   8, 'Chia') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8373,   1,   33554854) /* Setup */
-     , (8373,   3,  536870932) /* SoundTable */
-     , (8373,   6,   67108990) /* PaletteBase */
-     , (8373,   8,  100671160) /* Icon */
-     , (8373,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8373,   1, 0x020001A6) /* Setup */
+     , (8373,   3, 0x20000014) /* SoundTable */
+     , (8373,   6, 0x0400007E) /* PaletteBase */
+     , (8373,   8, 0x06001EB8) /* Icon */
+     , (8373,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8373, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (8373, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8373, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8373, 8000, 2461500110) /* PCAPRecordedObjectIID */;
+VALUES (8373, 8000, 0x92B782CE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8373, 67112987, 116, 20)

@@ -24,13 +24,13 @@ VALUES (20531,   1, 'Scroll of Lilitha''s Blessing') /* Name */
 Increases the caster''s Fletching skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20531,   1,   33554826) /* Setup */
-     , (20531,   8,  100676457) /* Icon */
-     , (20531,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20531,   1, 0x0200018A) /* Setup */
+     , (20531,   8, 0x06003369) /* Icon */
+     , (20531,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20531,  28,       2237) /* Spell - FletchingMasterySelf7 */
      , (20531, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20531, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20531, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20531, 8000, 3694256851) /* PCAPRecordedObjectIID */;
+VALUES (20531, 8000, 0xDC31E2D3) /* PCAPRecordedObjectIID */;

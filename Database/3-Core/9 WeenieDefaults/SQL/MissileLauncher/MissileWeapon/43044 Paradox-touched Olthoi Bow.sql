@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43044,   1,        256) /* ItemType - MissileWeapon */
      , (43044,   5,        370) /* EncumbranceVal */
      , (43044,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (43044,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (43044,  16,          1) /* ItemUseable - No */
      , (43044,  18,          1) /* UiEffects - Magical */
      , (43044,  19,      10000) /* Value */
@@ -17,7 +16,7 @@ VALUES (43044,   1,        256) /* ItemType - MissileWeapon */
      , (43044,  48,         47) /* WeaponSkill - MissileWeapons */
      , (43044,  49,         45) /* WeaponTime */
      , (43044,  50,          1) /* AmmoType - Arrow */
-     , (43044,  51,          2) /* CombatUse - Missle */
+     , (43044,  51,          2) /* CombatUse - Missile */
      , (43044,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43044, 106,        450) /* ItemSpellcraft */
      , (43044, 107,       9203) /* ItemCurMana */
@@ -59,10 +58,10 @@ VALUES (43044,   1, 'Paradox-touched Olthoi Bow') /* Name */
      , (43044,  25, 'Peace Mezzir-Garrett') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43044,   1,   33561078) /* Setup */
-     , (43044,   3,  536870932) /* SoundTable */
-     , (43044,   8,  100691348) /* Icon */
-     , (43044,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43044,   1, 0x020019F6) /* Setup */
+     , (43044,   3, 0x20000014) /* SoundTable */
+     , (43044,   8, 0x06006D94) /* Icon */
+     , (43044,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43044,  55,       1789) /* ProcSpell - ShockwaveRing */
      , (43044, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (43044, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -70,14 +69,14 @@ VALUES (43044,   1,   33561078) /* Setup */
      , (43044, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43044, 8040, 3583574079, 172.8036, 156.5304, 373.9305, 0.7217928, 0, 0, -0.6921092) /* PCAPRecordedLocation */
+VALUES (43044, 8040, 0xD599003F, 172.8036, 156.5304, 373.9305, 0.721793, 0, 0, -0.692109) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [172.803600 156.530400 373.930500] 0.721793 0.000000 0.000000 -0.692109 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43044, 8000, 3642631185) /* PCAPRecordedObjectIID */
-     , (43044, 8008, 1343488604) /* PCAPRecordedParentIID */;
+VALUES (43044, 8000, 0xD91E2411) /* PCAPRecordedObjectIID */
+     , (43044, 8008, 0x5014025C) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43044,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (43044,  2101,      2)  /* DefenderSelf7 */
-     , (43044,  2116,      2)  /* SwiftKillerSelf7 */;
+VALUES (43044,  2116,      2)  /* SwiftKillerSelf7 */
+     , (43044,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (43044,  2101,      2)  /* DefenderSelf7 */;

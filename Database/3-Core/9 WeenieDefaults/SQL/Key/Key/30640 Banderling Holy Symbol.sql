@@ -17,20 +17,21 @@ VALUES (30640,   1,      16384) /* ItemType - Key */
      , (30640, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30640,  22, True ) /* Inscribable */;
+VALUES (30640,  22, True ) /* Inscribable */
+     , (30640,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30640,   1, 'Banderling Holy Symbol') /* Name */
      , (30640,  16, 'A crude holy symbol fashioned from a Ring of Vines, Murky Gem and Stone Emblem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30640,   1,   33554784) /* Setup */
-     , (30640,   3,  536870932) /* SoundTable */
-     , (30640,   8,  100677386) /* Icon */
-     , (30640,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30640,   1, 0x02000160) /* Setup */
+     , (30640,   3, 0x20000014) /* SoundTable */
+     , (30640,   8, 0x0600370A) /* Icon */
+     , (30640,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30640, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (30640, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30640, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30640, 8000, 2570518817) /* PCAPRecordedObjectIID */;
+VALUES (30640, 8000, 0x99370121) /* PCAPRecordedObjectIID */;

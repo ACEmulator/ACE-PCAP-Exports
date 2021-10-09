@@ -51,18 +51,18 @@ VALUES (3835,   1, 'Lightning Mace') /* Name */
      , (3835,  16, 'Lightning Mace of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3835,   1,   33555744) /* Setup */
-     , (3835,   3,  536870932) /* SoundTable */
-     , (3835,   6,   67111919) /* PaletteBase */
-     , (3835,   8,  100668956) /* Icon */
-     , (3835,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3835,   1, 0x02000520) /* Setup */
+     , (3835,   3, 0x20000014) /* SoundTable */
+     , (3835,   6, 0x04000BEF) /* PaletteBase */
+     , (3835,   8, 0x0600161C) /* Icon */
+     , (3835,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3835,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3835, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3835, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3835, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3835, 8000, 3691966356) /* PCAPRecordedObjectIID */;
+VALUES (3835, 8000, 0xDC0EEF94) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3835,  1615,      2)  /* BloodDrinkerSelf5 */

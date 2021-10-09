@@ -29,20 +29,20 @@ VALUES (25788,   1, 'Chef Pleist') /* Name */
      , (25788, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25788,   1,   33558521) /* Setup */
-     , (25788,   2,  150995088) /* MotionTable */
-     , (25788,   3,  536871000) /* SoundTable */
-     , (25788,   8,  100669125) /* Icon */
+VALUES (25788,   1, 0x02000FF9) /* Setup */
+     , (25788,   2, 0x09000090) /* MotionTable */
+     , (25788,   3, 0x20000058) /* SoundTable */
+     , (25788,   8, 0x060016C5) /* Icon */
      , (25788, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (25788, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (25788, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25788, 8040, 2670264582, 14.0807, 153.865, 290, -0.3793439, 0, 0, 0.9252558) /* PCAPRecordedLocation */
+VALUES (25788, 8040, 0x9F290106, 14.0807, 153.865, 290, -0.379344, 0, 0, 0.925256) /* PCAPRecordedLocation */
 /* @teleloc 0x9F290106 [14.080700 153.865000 290.000000] -0.379344 0.000000 0.000000 0.925256 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25788, 8000, 3689806438) /* PCAPRecordedObjectIID */;
+VALUES (25788, 8000, 0xDBEDFA66) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (25788,   1,     0, 0, 0, 10) /* MaxHealth */;

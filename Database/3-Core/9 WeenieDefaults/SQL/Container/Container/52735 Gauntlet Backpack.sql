@@ -28,19 +28,19 @@ VALUES (52735,   1, 'Gauntlet Backpack') /* Name */
      , (52735,  16, 'A backpack with several side pouches.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52735,   1,   33554769) /* Setup */
-     , (52735,   3,  536870932) /* SoundTable */
-     , (52735,   6,   67111919) /* PaletteBase */
-     , (52735,   8,  100670389) /* Icon */
-     , (52735,  22,  872415275) /* PhysicsEffectTable */
-     , (52735,  52,  100690178) /* IconUnderlay */
+VALUES (52735,   1, 0x02000151) /* Setup */
+     , (52735,   3, 0x20000014) /* SoundTable */
+     , (52735,   6, 0x04000BEF) /* PaletteBase */
+     , (52735,   8, 0x06001BB5) /* Icon */
+     , (52735,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (52735,  52, 0x06006902) /* IconUnderlay */
      , (52735, 8001,    2113722) /* PCAPRecordedWeenieHeader - ItemsCapacity, Value, Usable, UseRadius, UiEffects, Container, Burden */
      , (52735, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (52735, 8003,   67108883) /* PCAPRecordedObjectDesc - Openable, Inscribable, Attackable, IncludesSecondHeader */
      , (52735, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52735, 8000, 3112858353) /* PCAPRecordedObjectIID */;
+VALUES (52735, 8000, 0xB98A72F1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52735, 67111923, 0, 0);

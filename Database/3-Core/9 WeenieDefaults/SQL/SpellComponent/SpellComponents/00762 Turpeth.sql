@@ -20,17 +20,17 @@ VALUES (762,   1, 'Turpeth') /* Name */
      , (762,  20, 'Turpeth Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (762,   1,   33555209) /* Setup */
-     , (762,   3,  536870932) /* SoundTable */
-     , (762,   6,   67111919) /* PaletteBase */
-     , (762,   8,  100669699) /* Icon */
-     , (762,  22,  872415275) /* PhysicsEffectTable */
+VALUES (762,   1, 0x02000309) /* Setup */
+     , (762,   3, 0x20000014) /* SoundTable */
+     , (762,   6, 0x04000BEF) /* PaletteBase */
+     , (762,   8, 0x06001903) /* Icon */
+     , (762,  22, 0x3400002B) /* PhysicsEffectTable */
      , (762, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (762, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (762, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (762, 8000, 2856726421) /* PCAPRecordedObjectIID */;
+VALUES (762, 8000, 0xAA462F95) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (762, 67111920, 0, 0);

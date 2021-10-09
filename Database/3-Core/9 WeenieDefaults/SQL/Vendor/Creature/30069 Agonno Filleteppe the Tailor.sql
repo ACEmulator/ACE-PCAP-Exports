@@ -36,39 +36,62 @@ VALUES (30069,   1, 'Agonno Filleteppe the Tailor') /* Name */
      , (30069, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30069,   1,   33554433) /* Setup */
-     , (30069,   2,  150994945) /* MotionTable */
-     , (30069,   3,  536870913) /* SoundTable */
-     , (30069,   6,   67108990) /* PaletteBase */
-     , (30069,   8,  100667446) /* Icon */
-     , (30069,   9,   83890507) /* EyesTexture */
-     , (30069,  10,   83890518) /* NoseTexture */
-     , (30069,  11,   83890662) /* MouthTexture */
-     , (30069,  15,   67117099) /* HairPalette */
-     , (30069,  16,   67110064) /* EyesPalette */
-     , (30069,  17,   67115908) /* SkinPalette */
+VALUES (30069,   1, 0x02000001) /* Setup */
+     , (30069,   2, 0x09000001) /* MotionTable */
+     , (30069,   3, 0x20000001) /* SoundTable */
+     , (30069,   6, 0x0400007E) /* PaletteBase */
+     , (30069,   8, 0x06001036) /* Icon */
+     , (30069,   9, 0x0500114B) /* EyesTexture */
+     , (30069,  10, 0x05001156) /* NoseTexture */
+     , (30069,  11, 0x050011E6) /* MouthTexture */
+     , (30069,  15, 0x0400202B) /* HairPalette */
+     , (30069,  16, 0x040004B0) /* EyesPalette */
+     , (30069,  17, 0x04001B84) /* SkinPalette */
      , (30069, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (30069, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (30069, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30069, 8040, 669778209, 102.872, 60.674, 80.005, 0.9624676, 0, 0, -0.2713967) /* PCAPRecordedLocation */
+VALUES (30069, 8040, 0x27EC0121, 102.872, 60.674, 80.005, 0.962468, 0, 0, -0.271397) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC0121 [102.872000 60.674000 80.005000] 0.962468 0.000000 0.000000 -0.271397 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30069, 8000, 1920909322) /* PCAPRecordedObjectIID */;
+VALUES (30069, 8000, 0x727EC00A) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (30069,   1, 110, 0, 0) /* Strength */
+     , (30069,   2,  90, 0, 0) /* Endurance */
+     , (30069,   3,  90, 0, 0) /* Quickness */
+     , (30069,   4, 100, 0, 0) /* Coordination */
+     , (30069,   5,  40, 0, 0) /* Focus */
+     , (30069,   6,  40, 0, 0) /* Self */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30069,   1,     0, 0, 0, 145) /* MaxHealth */;
+VALUES (30069,   1,   100, 0, 0, 145) /* MaxHealth */
+     , (30069,   3,   100, 0, 0, 190) /* MaxStamina */
+     , (30069,   5,   100, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30069, 4, 28606, -1, 0, 0, False) /* Create Viamontian Pants (28606) for Shop */
+     , (30069, 4, 28606, -1, 0, 0, False) /* Create Viamontian Pants (28606) for Shop */
+     , (30069, 4, 28606, -1, 0, 0, False) /* Create Viamontian Pants (28606) for Shop */
+     , (30069, 4, 28607, -1, 0, 0, False) /* Create Lace Shirt (28607) for Shop */
+     , (30069, 4, 28607, -1, 0, 0, False) /* Create Lace Shirt (28607) for Shop */
      , (30069, 4, 28607, -1, 0, 0, False) /* Create Lace Shirt (28607) for Shop */
      , (30069, 4, 28608, -1, 0, 0, False) /* Create Poet's Shirt (28608) for Shop */
+     , (30069, 4, 28608, -1, 0, 0, False) /* Create Poet's Shirt (28608) for Shop */
+     , (30069, 4, 28608, -1, 0, 0, False) /* Create Poet's Shirt (28608) for Shop */
+     , (30069, 4, 28609, -1, 0, 0, False) /* Create Vest (28609) for Shop */
+     , (30069, 4, 28609, -1, 0, 0, False) /* Create Vest (28609) for Shop */
      , (30069, 4, 28609, -1, 0, 0, False) /* Create Vest (28609) for Shop */
      , (30069, 4, 28611, -1, 0, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */
+     , (30069, 4, 28611, -1, 0, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */
+     , (30069, 4, 28611, -1, 0, 0, False) /* Create Viamontian Laced Boots (28611) for Shop */
+     , (30069, 4, 28610, -1, 0, 0, False) /* Create Loafers (28610) for Shop */
+     , (30069, 4, 28610, -1, 0, 0, False) /* Create Loafers (28610) for Shop */
      , (30069, 4, 28610, -1, 0, 0, False) /* Create Loafers (28610) for Shop */
      , (30069, 4, 28613, -1, 0, 0, False) /* Create Tessera Gown (28613) for Shop */
+     , (30069, 4, 28614, -1, 0, 0, False) /* Create Vestiri Robe with Hood (28614) for Shop */
      , (30069, 4, 28614, -1, 0, 0, False) /* Create Vestiri Robe with Hood (28614) for Shop */
      , (30069, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30069, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */

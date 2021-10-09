@@ -24,16 +24,16 @@ VALUES (1445,   1, 'Fresh Fish') /* Name */
      , (1445,  20, 'Fresh Fish') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1445,   1,   33554674) /* Setup */
-     , (1445,   8,  100667461) /* Icon */
-     , (1445,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1445,   1, 0x020000F2) /* Setup */
+     , (1445,   8, 0x06001045) /* Icon */
+     , (1445,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1445, 8001,    2109593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Burden */
      , (1445, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (1445, 8005,     167937) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1445, 8040, 33358385, 131.4927, -7.516248, 0, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (1445, 8040, 0x01FD0231, 131.4927, -7.516248, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01FD0231 [131.492700 -7.516248 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1445, 8000, 3683766887) /* PCAPRecordedObjectIID */;
+VALUES (1445, 8000, 0xDB91D267) /* PCAPRecordedObjectIID */;

@@ -25,22 +25,22 @@ VALUES (28641,   1, 'Abhorrent Eater') /* Name */
      , (28641, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28641,   1,   33559121) /* Setup */
-     , (28641,   2,  150995322) /* MotionTable */
-     , (28641,   3,  536871097) /* SoundTable */
-     , (28641,   6,   67115387) /* PaletteBase */
-     , (28641,   8,  100677365) /* Icon */
-     , (28641,  22,  872415409) /* PhysicsEffectTable */
+VALUES (28641,   1, 0x02001251) /* Setup */
+     , (28641,   2, 0x0900017A) /* MotionTable */
+     , (28641,   3, 0x200000B9) /* SoundTable */
+     , (28641,   6, 0x0400197B) /* PaletteBase */
+     , (28641,   8, 0x060036F5) /* Icon */
+     , (28641,  22, 0x340000B1) /* PhysicsEffectTable */
      , (28641, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (28641, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (28641, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28641, 8040, 1190264847, 38.98233, 147.439, 52, 0.9998111, 0, 0, -0.01943968) /* PCAPRecordedLocation */
+VALUES (28641, 8040, 0x46F2000F, 38.98233, 147.439, 52, 0.999811, 0, 0, -0.01944) /* PCAPRecordedLocation */
 /* @teleloc 0x46F2000F [38.982330 147.439000 52.000000] 0.999811 0.000000 0.000000 -0.019440 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28641, 8000, 3690116873) /* PCAPRecordedObjectIID */;
+VALUES (28641, 8000, 0xDBF2B709) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28641,   1, 400, 0, 0) /* Strength */
@@ -594,7 +594,75 @@ VALUES (28641, 9, 49262,  0, 0, 0, False) /* Create Acid Elemental Essence (80) 
      , (28641, 9, 40700,  0, 0, 0, False) /* Create Covenant Greaves (40700) for ContainTreasure */
      , (28641, 9, 49353,  0, 0, 0, False) /* Create Fire Moar Essence (80) (49353) for ContainTreasure */
      , (28641, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
-     , (28641, 9, 31801,  0, 0, 0, False) /* Create Electric Compound Bow (31801) for ContainTreasure */;
+     , (28641, 9, 31801,  0, 0, 0, False) /* Create Electric Compound Bow (31801) for ContainTreasure */
+     , (28641, 9, 20615,  0, 0, 0, False) /* Create Scroll of Rushed Recovery (20615) for ContainTreasure */
+     , (28641, 9, 49338,  0, 0, 0, False) /* Create Acid Moar Essence (50) (49338) for ContainTreasure */
+     , (28641, 9, 49305,  0, 0, 0, False) /* Create Frost K'nath Essence (100) (49305) for ContainTreasure */
+     , (28641, 9,  3803,  0, 0, 0, False) /* Create Lightning Jitte (3803) for ContainTreasure */
+     , (28641, 9,  7794,  0, 0, 0, False) /* Create Electric Trident (7794) for ContainTreasure */
+     , (28641, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
+     , (28641, 9, 28628,  0, 0, 0, False) /* Create Diforsa Breastplate (28628) for ContainTreasure */
+     , (28641, 9, 20404,  0, 0, 0, False) /* Create Scroll of Swordsman's Bane (20404) for ContainTreasure */
+     , (28641, 9,   331,  0, 0, 0, False) /* Create Mace (331) for ContainTreasure */
+     , (28641, 9, 49430,  0, 0, 0, False) /* Create Lightning Spectre Essence (100) (49430) for ContainTreasure */
+     , (28641, 9, 49318,  0, 0, 0, False) /* Create Lightning Wisp Essence (80) (49318) for ContainTreasure */
+     , (28641, 9, 20556,  0, 0, 0, False) /* Create Scroll of Oswald's Boon (20556) for ContainTreasure */
+     , (28641, 9, 21159,  0, 0, 0, False) /* Create Covenant Tassets (21159) for ContainTreasure */
+     , (28641, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */
+     , (28641, 9, 20515,  0, 0, 0, False) /* Create Scroll of Adja's Blessing (20515) for ContainTreasure */
+     , (28641, 9, 20469,  0, 0, 0, False) /* Create Scroll of Blessing of the Blade Turner (20469) for ContainTreasure */
+     , (28641, 9,   356,  0, 0, 0, False) /* Create Tofun (356) for ContainTreasure */
+     , (28641, 9,  4197,  0, 0, 0, False) /* Create Acid Nekode (4197) for ContainTreasure */
+     , (28641, 9, 45425,  0, 0, 0, False) /* Create Frost Dagger (45425) for ContainTreasure */
+     , (28641, 9, 20520,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other VII (20520) for ContainTreasure */
+     , (28641, 9, 20502,  0, 0, 0, False) /* Create Scroll of Jibril's Blessing (20502) for ContainTreasure */
+     , (28641, 9, 31761,  0, 0, 0, False) /* Create Lightning Dericost Blade (31761) for ContainTreasure */
+     , (28641, 9, 30187,  1, 0, 0, False) /* Create Hunter's Crystal (30187) for ContainTreasure */
+     , (28641, 9, 41056,  0, 0, 0, False) /* Create Frost Greataxe (41056) for ContainTreasure */
+     , (28641, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
+     , (28641, 9, 29254,  0, 0, 0, False) /* Create Electric Atlatl (29254) for ContainTreasure */
+     , (28641, 9, 21294,  0, 0, 0, False) /* Create Scroll of Acid Arc VII (21294) for ContainTreasure */
+     , (28641, 9, 20572,  0, 0, 0, False) /* Create Scroll of Kaluhc's Blessing (20572) for ContainTreasure */
+     , (28641, 9, 20423,  0, 0, 0, False) /* Create Scroll of Archer's Bane (20423) for ContainTreasure */
+     , (28641, 9, 48945,  0, 0, 0, False) /* Create Fire Skeleton Minion Essence (100) (48945) for ContainTreasure */
+     , (28641, 9, 20403,  0, 0, 0, False) /* Create Scroll of Olthoi Bait (20403) for ContainTreasure */
+     , (28641, 9, 30605,  0, 0, 0, False) /* Create Acid Stiletto (30605) for ContainTreasure */
+     , (28641, 9, 30587,  0, 0, 0, False) /* Create Acid Flanged Mace (30587) for ContainTreasure */
+     , (28641, 9, 49235,  0, 0, 0, False) /* Create Acid Zombie Essence (100) (49235) for ContainTreasure */
+     , (28641, 9, 31807,  0, 0, 0, False) /* Create Blunt Compound Crossbow (31807) for ContainTreasure */
+     , (28641, 9, 20413,  0, 0, 0, False) /* Create Scroll of Inferno Bait (20413) for ContainTreasure */
+     , (28641, 9,  3774,  0, 0, 0, False) /* Create Acid Dabus (3774) for ContainTreasure */
+     , (28641, 9, 44802,  0, 0, 0, False) /* Create Vestiri Over-robe (44802) for ContainTreasure */
+     , (28641, 9, 27219,  0, 0, 0, False) /* Create Chiran Sandals (27219) for ContainTreasure */
+     , (28641, 9, 29262,  0, 0, 0, False) /* Create Fire Sceptre (29262) for ContainTreasure */
+     , (28641, 9, 30570,  0, 0, 0, False) /* Create Acid Sabra (30570) for ContainTreasure */
+     , (28641, 9,  3859,  0, 0, 0, False) /* Create Flaming Shou-ono (3859) for ContainTreasure */
+     , (28641, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
+     , (28641, 9, 49248,  0, 0, 0, False) /* Create Fire Zombie Essence (80) (49248) for ContainTreasure */
+     , (28641, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
+     , (28641, 9, 45122,  0, 0, 0, False) /* Create Frost Hand Wraps (45122) for ContainTreasure */
+     , (28641, 9, 20409,  0, 0, 0, False) /* Create Scroll of Tusker Bait (20409) for ContainTreasure */
+     , (28641, 9, 20595,  0, 0, 0, False) /* Create Scroll of Hieromancer's Boon (20595) for ContainTreasure */
+     , (28641, 9, 49229,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (100) (49229) for ContainTreasure */
+     , (28641, 9, 30611,  0, 0, 0, False) /* Create Knuckles (30611) for ContainTreasure */
+     , (28641, 9, 44850,  0, 0, 0, False) /* Create Chevron Cloak (44850) for ContainTreasure */
+     , (28641, 9, 20440,  0, 0, 0, False) /* Create Scroll of Ilservian's Flame (20440) for ContainTreasure */
+     , (28641, 9, 30592,  0, 0, 0, False) /* Create Flaming Partizan (30592) for ContainTreasure */
+     , (28641, 9, 21153,  0, 0, 0, False) /* Create Covenant Gauntlets (21153) for ContainTreasure */
+     , (28641, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
+     , (28641, 9, 22156,  0, 0, 0, False) /* Create Flaming Jo (22156) for ContainTreasure */
+     , (28641, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */
+     , (28641, 9, 20550,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Boon (20550) for ContainTreasure */
+     , (28641, 9, 28618,  0, 0, 0, False) /* Create Diforsa Helm (28618) for ContainTreasure */
+     , (28641, 9, 20238,  0, 0, 0, False) /* Create Scroll of Anemia (20238) for ContainTreasure */
+     , (28641, 9, 43284,  0, 0, 0, False) /* Create Scroll of Corrosion VII (43284) for ContainTreasure */
+     , (28641, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
+     , (28641, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */
+     , (28641, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */
+     , (28641, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */
+     , (28641, 9, 45428,  0, 0, 0, False) /* Create Lightning Jambiya (45428) for ContainTreasure */
+     , (28641, 9, 28946,  0, 0, 0, False) /* Create Scroll of Arcanum Enlightenment VII (28946) for ContainTreasure */
+     , (28641, 9, 20505,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Other VII (20505) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28641, 67115510, 0, 0);

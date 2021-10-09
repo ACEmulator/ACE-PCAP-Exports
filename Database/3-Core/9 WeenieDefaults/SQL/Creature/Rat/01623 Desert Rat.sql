@@ -26,23 +26,23 @@ VALUES (1623,   1, 'Desert Rat') /* Name */
      , (1623, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1623,   1,   33554493) /* Setup */
-     , (1623,   2,  150994958) /* MotionTable */
-     , (1623,   3,  536870927) /* SoundTable */
-     , (1623,   6,   67109300) /* PaletteBase */
-     , (1623,   8,  100667451) /* Icon */
-     , (1623,  22,  872415267) /* PhysicsEffectTable */
+VALUES (1623,   1, 0x0200003D) /* Setup */
+     , (1623,   2, 0x0900000E) /* MotionTable */
+     , (1623,   3, 0x2000000F) /* SoundTable */
+     , (1623,   6, 0x040001B4) /* PaletteBase */
+     , (1623,   8, 0x0600103B) /* Icon */
+     , (1623,  22, 0x34000023) /* PhysicsEffectTable */
      , (1623,  30,         85) /* PhysicsScript - BreatheFrost */
      , (1623, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1623, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1623, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1623, 8040, 2471755814, 102.0677, 139.0687, 16.58978, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (1623, 8040, 0x93540026, 102.0677, 139.0687, 16.58978, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x93540026 [102.067700 139.068700 16.589780] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1623, 8000, 3685761718) /* PCAPRecordedObjectIID */;
+VALUES (1623, 8000, 0xDBB042B6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1623,   1,  50, 0, 0) /* Strength */

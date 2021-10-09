@@ -11,7 +11,7 @@ VALUES (21019,   1,        256) /* ItemType - MissileWeapon */
      , (21019,  18,          1) /* UiEffects - Magical */
      , (21019,  19,       8000) /* Value */
      , (21019,  50,          4) /* AmmoType - Atlatl */
-     , (21019,  51,          2) /* CombatUse - Missle */
+     , (21019,  51,          2) /* CombatUse - Missile */
      , (21019,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21019, 151,          2) /* HookType - Wall */
      , (21019, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -23,16 +23,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21019,   1, 'Perfect Shimmering Isparian Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21019,   1,   33557745) /* Setup */
-     , (21019,   3,  536870932) /* SoundTable */
-     , (21019,   8,  100673201) /* Icon */
-     , (21019,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21019,   1, 0x02000CF1) /* Setup */
+     , (21019,   3, 0x20000014) /* SoundTable */
+     , (21019,   8, 0x060026B1) /* Icon */
+     , (21019,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21019, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (21019, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21019, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21019, 8000, 3697836599) /* PCAPRecordedObjectIID */;
+VALUES (21019, 8000, 0xDC688237) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (21019, 0, 83889688, 83892492)

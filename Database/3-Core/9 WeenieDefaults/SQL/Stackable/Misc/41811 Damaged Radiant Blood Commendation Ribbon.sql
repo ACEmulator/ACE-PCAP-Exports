@@ -18,7 +18,8 @@ VALUES (41811,   1,        128) /* ItemType - Misc */
      , (41811, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41811,  69, False) /* IsSellable */;
+VALUES (41811,  23, True ) /* DestroyOnSell */
+     , (41811,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41811,  39,     0.4) /* DefaultScale */;
@@ -29,17 +30,17 @@ VALUES (41811,   1, 'Damaged Radiant Blood Commendation Ribbon') /* Name */
      , (41811,  16, 'A damaged commendation ribbon lost by a Radiant Blood agent.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41811,   1,   33554817) /* Setup */
-     , (41811,   3,  536870932) /* SoundTable */
-     , (41811,   6,   67111919) /* PaletteBase */
-     , (41811,   8,  100690847) /* Icon */
-     , (41811,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41811,   1, 0x02000181) /* Setup */
+     , (41811,   3, 0x20000014) /* SoundTable */
+     , (41811,   6, 0x04000BEF) /* PaletteBase */
+     , (41811,   8, 0x06006B9F) /* Icon */
+     , (41811,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41811, 8001,      28688) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container */
      , (41811, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41811, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41811, 8000, 2627883960) /* PCAPRecordedObjectIID */;
+VALUES (41811, 8000, 0x9CA253B8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41811, 67111923, 0, 0);

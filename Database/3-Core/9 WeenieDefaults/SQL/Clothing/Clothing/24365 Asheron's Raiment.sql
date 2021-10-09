@@ -41,22 +41,22 @@ VALUES (24365,   1, 'Asheron''s Raiment') /* Name */
      , (24365,  16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24365,   1,   33554854) /* Setup */
-     , (24365,   3,  536870932) /* SoundTable */
-     , (24365,   6,   67108990) /* PaletteBase */
-     , (24365,   8,  100674396) /* Icon */
-     , (24365,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24365,   1, 0x020001A6) /* Setup */
+     , (24365,   3, 0x20000014) /* SoundTable */
+     , (24365,   6, 0x0400007E) /* PaletteBase */
+     , (24365,   8, 0x06002B5C) /* Icon */
+     , (24365,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24365, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (24365, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24365, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24365, 8000, 2164419653) /* PCAPRecordedObjectIID */;
+VALUES (24365, 8000, 0x81026C45) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24365,  1120,      2)  /* BladeProtectionOther6 */
+VALUES (24365,  2581,      2)  /* CANTRIPFOCUS1 */
      , (24365,  1432,      2)  /* FocusOther6 */
-     , (24365,  2581,      2)  /* CANTRIPFOCUS1 */;
+     , (24365,  1120,      2)  /* BladeProtectionOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24365, 67114389, 40, 24)

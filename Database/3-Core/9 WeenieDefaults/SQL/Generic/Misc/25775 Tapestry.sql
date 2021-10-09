@@ -21,11 +21,11 @@ VALUES (25775,   1, 'Tapestry') /* Name */
      , (25775,  16, 'A beautifully woven tapestry.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25775,   1,   33558535) /* Setup */
-     , (25775,   8,  100675567) /* Icon */
+VALUES (25775,   1, 0x02001007) /* Setup */
+     , (25775,   8, 0x06002FEF) /* Icon */
      , (25775, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (25775, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25775, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25775, 8000, 2166203165) /* PCAPRecordedObjectIID */;
+VALUES (25775, 8000, 0x811DA31D) /* PCAPRecordedObjectIID */;

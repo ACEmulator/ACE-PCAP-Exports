@@ -8,7 +8,6 @@ VALUES (49913,   1,          2) /* ItemType - Armor */
      , (49913,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (49913,   5,       1099) /* EncumbranceVal */
      , (49913,   9,       1024) /* ValidLocations - AbdomenArmor */
-     , (49913,  10,       1024) /* CurrentWieldedLocation - AbdomenArmor */
      , (49913,  16,          1) /* ItemUseable - No */
      , (49913,  19,       1900) /* Value */
      , (49913,  28,        600) /* ArmorLevel */
@@ -38,16 +37,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49913,   1, 'Prismatic Shadow Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49913,   1,   33554647) /* Setup */
-     , (49913,   3,  536870932) /* SoundTable */
-     , (49913,   8,  100693097) /* Icon */
-     , (49913,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49913,   1, 0x020000D7) /* Setup */
+     , (49913,   3, 0x20000014) /* SoundTable */
+     , (49913,   8, 0x06007469) /* Icon */
+     , (49913,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49913, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (49913, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (49913, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49913, 8000, 3629312450) /* PCAPRecordedObjectIID */;
+VALUES (49913, 8000, 0xD852E9C2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (49913, 0, 83889072, 83899135)

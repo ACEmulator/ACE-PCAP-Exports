@@ -32,21 +32,21 @@ VALUES (2402,   1, 'Gem') /* Name */
      , (2402,  16, 'Gem of Bludgeon Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2402,   1,   33554809) /* Setup */
-     , (2402,   3,  536870932) /* SoundTable */
-     , (2402,   6,   67111919) /* PaletteBase */
-     , (2402,   8,  100674739) /* Icon */
-     , (2402,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2402,   1, 0x02000179) /* Setup */
+     , (2402,   3, 0x20000014) /* SoundTable */
+     , (2402,   6, 0x04000BEF) /* PaletteBase */
+     , (2402,   8, 0x06002CB3) /* Icon */
+     , (2402,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2402, 8001, 2149593112) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Burden, MaterialType */
      , (2402, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2402, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2402, 8040, 26870335, -3.13156, -110.139, -24.001, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (2402, 8040, 0x019A023F, -3.13156, -110.139, -24.001, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x019A023F [-3.131560 -110.139000 -24.001000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2402, 8000, 3690369435) /* PCAPRecordedObjectIID */;
+VALUES (2402, 8000, 0xDBF6919B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2402,  1023,      2)  /* BludgeonProtectionSelf6 */;

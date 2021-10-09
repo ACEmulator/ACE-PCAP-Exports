@@ -40,21 +40,21 @@ VALUES (28069,   1, 'Aphus Sun Guard') /* Name */
      , (28069,  16, 'A wonderfully crafted hat that affords a great deal of protection from the bright sun. Thin veins of pyreal have been worked into the weave.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28069,   1,   33558881) /* Setup */
-     , (28069,   3,  536870932) /* SoundTable */
-     , (28069,   6,   67108990) /* PaletteBase */
-     , (28069,   8,  100676725) /* Icon */
-     , (28069,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28069,   1, 0x02001161) /* Setup */
+     , (28069,   3, 0x20000014) /* SoundTable */
+     , (28069,   6, 0x0400007E) /* PaletteBase */
+     , (28069,   8, 0x06003475) /* Icon */
+     , (28069,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28069, 8001,  270860312) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, HookType */
      , (28069, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28069, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28069, 8040, 2224423221, 80.63207, 154.4071, 120.0313, 0.9448352, 0, 0, -0.3275461) /* PCAPRecordedLocation */
+VALUES (28069, 8040, 0x84960135, 80.63207, 154.4071, 120.0313, 0.944835, 0, 0, -0.327546) /* PCAPRecordedLocation */
 /* @teleloc 0x84960135 [80.632070 154.407100 120.031300] 0.944835 0.000000 0.000000 -0.327546 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28069, 8000, 2174536892) /* PCAPRecordedObjectIID */;
+VALUES (28069, 8000, 0x819CCCBC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28069,  1317,      2)  /* ArmorOther6 */;

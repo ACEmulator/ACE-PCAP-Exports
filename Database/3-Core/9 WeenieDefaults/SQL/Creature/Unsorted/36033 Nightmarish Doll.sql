@@ -24,19 +24,19 @@ VALUES (36033,   1, 'Nightmarish Doll') /* Name */
      , (36033, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36033,   1,   33558546) /* Setup */
-     , (36033,   2,  150994984) /* MotionTable */
-     , (36033,   3,  536871022) /* SoundTable */
-     , (36033,   8,  100671421) /* Icon */
-     , (36033,  22,  872415373) /* PhysicsEffectTable */
+VALUES (36033,   1, 0x02001012) /* Setup */
+     , (36033,   2, 0x09000028) /* MotionTable */
+     , (36033,   3, 0x2000006E) /* SoundTable */
+     , (36033,   8, 0x06001FBD) /* Icon */
+     , (36033,  22, 0x3400008D) /* PhysicsEffectTable */
      , (36033,  30,         87) /* PhysicsScript - BreatheLightning */
      , (36033, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (36033, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (36033, 8005,     391171) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36033, 8040, 10683140, 129.538, -59.99854, 0.02899998, 0.6157867, 0, 0, -0.7879128) /* PCAPRecordedLocation */
+VALUES (36033, 8040, 0x00A30304, 129.538, -59.99854, 0.029, 0.615787, 0, 0, -0.787913) /* PCAPRecordedLocation */
 /* @teleloc 0x00A30304 [129.538000 -59.998540 0.029000] 0.615787 0.000000 0.000000 -0.787913 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36033, 8000, 3703115338) /* PCAPRecordedObjectIID */;
+VALUES (36033, 8000, 0xDCB90E4A) /* PCAPRecordedObjectIID */;

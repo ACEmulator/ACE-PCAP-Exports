@@ -25,6 +25,7 @@ VALUES (25671,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25671,  22, True ) /* Inscribable */
+     , (25671,  23, True ) /* DestroyOnSell */
      , (25671,  69, False) /* IsSellable */
      , (25671,  99, True ) /* Ivoryable */;
 
@@ -36,17 +37,17 @@ VALUES (25671,   1, 'Refulgent Bracelet') /* Name */
      , (25671,  16, 'A sparkling bangle cleansed in the waters of Ithaenc. Clasping it around your wrist seems to drive affliction from you and boost your resilience.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25671,   1,   33554683) /* Setup */
-     , (25671,   3,  536870932) /* SoundTable */
-     , (25671,   6,   67111919) /* PaletteBase */
-     , (25671,   8,  100675477) /* Icon */
-     , (25671,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25671,   1, 0x020000FB) /* Setup */
+     , (25671,   3, 0x20000014) /* SoundTable */
+     , (25671,   6, 0x04000BEF) /* PaletteBase */
+     , (25671,   8, 0x06002F95) /* Icon */
+     , (25671,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25671, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (25671, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25671, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25671, 8000, 2979050411) /* PCAPRecordedObjectIID */;
+VALUES (25671, 8000, 0xB190B3AB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25671,  2985,      2)  /* Ardence */

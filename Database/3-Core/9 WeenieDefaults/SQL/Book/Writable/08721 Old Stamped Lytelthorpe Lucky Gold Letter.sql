@@ -16,7 +16,8 @@ VALUES (8721,   1,       8192) /* ItemType - Writable */
      , (8721, 8043,          2) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8721,  69, False) /* IsSellable */;
+VALUES (8721,  23, True ) /* DestroyOnSell */
+     , (8721,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8721,  39,    1.22) /* DefaultScale */;
@@ -26,13 +27,13 @@ VALUES (8721,   1, 'Old Stamped Lytelthorpe Lucky Gold Letter') /* Name */
      , (8721,  15, 'A bright gold piece of paper with some writing and a big stamp on it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8721,   1,   33556919) /* Setup */
-     , (8721,   3,  536870932) /* SoundTable */
-     , (8721,   8,  100671214) /* Icon */
-     , (8721,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8721,   1, 0x020009B7) /* Setup */
+     , (8721,   3, 0x20000014) /* SoundTable */
+     , (8721,   8, 0x06001EEE) /* Icon */
+     , (8721,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8721, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (8721, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (8721, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8721, 8000, 2221272694) /* PCAPRecordedObjectIID */;
+VALUES (8721, 8000, 0x8465EE76) /* PCAPRecordedObjectIID */;

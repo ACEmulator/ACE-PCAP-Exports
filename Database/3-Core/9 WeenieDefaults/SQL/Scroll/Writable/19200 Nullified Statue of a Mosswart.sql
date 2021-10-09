@@ -23,21 +23,21 @@ VALUES (19200,   1, 'Nullified Statue of a Mosswart') /* Name */
      , (19200, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19200,   1,   33557327) /* Setup */
-     , (19200,   2,  150995166) /* MotionTable */
-     , (19200,   3,  536871052) /* SoundTable */
-     , (19200,   6,   67113400) /* PaletteBase */
-     , (19200,   8,  100667449) /* Icon */
+VALUES (19200,   1, 0x02000B4F) /* Setup */
+     , (19200,   2, 0x090000DE) /* MotionTable */
+     , (19200,   3, 0x2000008C) /* SoundTable */
+     , (19200,   6, 0x040011B8) /* PaletteBase */
+     , (19200,   8, 0x06001039) /* Icon */
      , (19200, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (19200, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19200, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19200, 8040, 3212836906, 124.959, 42.673, 40.81925, 0.3704181, 0, 0, -0.9288651) /* PCAPRecordedLocation */
+VALUES (19200, 8040, 0xBF80002A, 124.959, 42.673, 40.81925, 0.370418, 0, 0, -0.928865) /* PCAPRecordedLocation */
 /* @teleloc 0xBF80002A [124.959000 42.673000 40.819250] 0.370418 0.000000 0.000000 -0.928865 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19200, 8000, 2079850568) /* PCAPRecordedObjectIID */;
+VALUES (19200, 8000, 0x7BF80048) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19200, 67113805, 0, 0);

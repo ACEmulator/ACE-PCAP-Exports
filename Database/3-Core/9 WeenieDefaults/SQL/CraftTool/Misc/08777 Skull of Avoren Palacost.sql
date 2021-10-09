@@ -26,17 +26,17 @@ VALUES (8777,   1, 'Skull of Avoren Palacost') /* Name */
      , (8777,  16, 'The skull of Avoren Palacost, preserved with powerful magic.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8777,   1,   33556924) /* Setup */
-     , (8777,   3,  536870932) /* SoundTable */
-     , (8777,   8,  100671219) /* Icon */
-     , (8777,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8777,   1, 0x020009BC) /* Setup */
+     , (8777,   3, 0x20000014) /* SoundTable */
+     , (8777,   8, 0x06001EF3) /* Icon */
+     , (8777,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8777, 8001,  271069200) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, TargetType, Burden, HookType */
      , (8777, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8777, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8777, 8040, 44826920, 46.2115, -289.494, -18.0025, 0.7113231, 0, 0, 0.7028651) /* PCAPRecordedLocation */
+VALUES (8777, 8040, 0x02AC0128, 46.2115, -289.494, -18.0025, 0.711323, 0, 0, 0.702865) /* PCAPRecordedLocation */
 /* @teleloc 0x02AC0128 [46.211500 -289.494000 -18.002500] 0.711323 0.000000 0.000000 0.702865 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8777, 8000, 3694813192) /* PCAPRecordedObjectIID */;
+VALUES (8777, 8000, 0xDC3A6008) /* PCAPRecordedObjectIID */;

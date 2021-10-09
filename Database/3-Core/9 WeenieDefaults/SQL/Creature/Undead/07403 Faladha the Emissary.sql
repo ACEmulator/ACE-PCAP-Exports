@@ -28,22 +28,22 @@ VALUES (7403,   1, 'Faladha the Emissary') /* Name */
      , (7403, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7403,   1,   33554839) /* Setup */
-     , (7403,   2,  150994945) /* MotionTable */
-     , (7403,   3,  536870934) /* SoundTable */
-     , (7403,   6,   67110722) /* PaletteBase */
-     , (7403,   8,  100667942) /* Icon */
-     , (7403,  22,  872415272) /* PhysicsEffectTable */
+VALUES (7403,   1, 0x02000197) /* Setup */
+     , (7403,   2, 0x09000001) /* MotionTable */
+     , (7403,   3, 0x20000016) /* SoundTable */
+     , (7403,   6, 0x04000742) /* PaletteBase */
+     , (7403,   8, 0x06001226) /* Icon */
+     , (7403,  22, 0x34000028) /* PhysicsEffectTable */
      , (7403, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (7403, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (7403, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7403, 8040, 929693746, 145.792, 45.493, 34.00825, 0.706446, 0, 0, 0.707767) /* PCAPRecordedLocation */
+VALUES (7403, 8040, 0x376A0032, 145.792, 45.493, 34.00825, 0.706446, 0, 0, 0.707767) /* PCAPRecordedLocation */
 /* @teleloc 0x376A0032 [145.792000 45.493000 34.008250] 0.706446 0.000000 0.000000 0.707767 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7403, 8000, 3360288352) /* PCAPRecordedObjectIID */;
+VALUES (7403, 8000, 0xC849EE60) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (7403,   1,     0, 0, 0, 200) /* MaxHealth */;

@@ -33,16 +33,16 @@ VALUES (32148,   1, 'Shadow Wings Breastplate') /* Name */
      , (32148,  16, 'A modified Shadow Breastplate. Shadowy wings protrude from the shoulders.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32148,   1,   33559762) /* Setup */
-     , (32148,   3,  536870932) /* SoundTable */
-     , (32148,   8,  100688450) /* Icon */
-     , (32148,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32148,   1, 0x020014D2) /* Setup */
+     , (32148,   3, 0x20000014) /* SoundTable */
+     , (32148,   8, 0x06006242) /* Icon */
+     , (32148,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32148, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (32148, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32148, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32148, 8000, 2461713054) /* PCAPRecordedObjectIID */;
+VALUES (32148, 8000, 0x92BAC29E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (32148, 0, 16792870);

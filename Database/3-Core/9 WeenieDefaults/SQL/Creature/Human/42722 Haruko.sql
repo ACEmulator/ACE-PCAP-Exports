@@ -31,27 +31,27 @@ VALUES (42722,   1, 'Haruko') /* Name */
      , (42722, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42722,   1,   33554510) /* Setup */
-     , (42722,   2,  150994945) /* MotionTable */
-     , (42722,   3,  536870914) /* SoundTable */
-     , (42722,   6,   67108990) /* PaletteBase */
-     , (42722,   8,  100667446) /* Icon */
-     , (42722,   9,   83890260) /* EyesTexture */
-     , (42722,  10,   83890291) /* NoseTexture */
-     , (42722,  11,   83890319) /* MouthTexture */
-     , (42722,  15,   67117024) /* HairPalette */
-     , (42722,  16,   67109565) /* EyesPalette */
-     , (42722,  17,   67110045) /* SkinPalette */
+VALUES (42722,   1, 0x0200004E) /* Setup */
+     , (42722,   2, 0x09000001) /* MotionTable */
+     , (42722,   3, 0x20000002) /* SoundTable */
+     , (42722,   6, 0x0400007E) /* PaletteBase */
+     , (42722,   8, 0x06001036) /* Icon */
+     , (42722,   9, 0x05001054) /* EyesTexture */
+     , (42722,  10, 0x05001073) /* NoseTexture */
+     , (42722,  11, 0x0500108F) /* MouthTexture */
+     , (42722,  15, 0x04001FE0) /* HairPalette */
+     , (42722,  16, 0x040002BD) /* EyesPalette */
+     , (42722,  17, 0x0400049D) /* SkinPalette */
      , (42722, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (42722, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (42722, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42722, 8040, 3663004050, 83.5494, 61.5904, 20.045, 0.647785, 0, 0, -0.761823) /* PCAPRecordedLocation */
+VALUES (42722, 8040, 0xDA550192, 83.5494, 61.5904, 20.045, 0.647785, 0, 0, -0.761823) /* PCAPRecordedLocation */
 /* @teleloc 0xDA550192 [83.549400 61.590400 20.045000] 0.647785 0.000000 0.000000 -0.761823 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42722, 8000, 3685109165) /* PCAPRecordedObjectIID */;
+VALUES (42722, 8000, 0xDBA64DAD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42722,   1,  70, 0, 0) /* Strength */

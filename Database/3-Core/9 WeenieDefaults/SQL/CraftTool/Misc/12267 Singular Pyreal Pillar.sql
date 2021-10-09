@@ -25,20 +25,20 @@ VALUES (12267,   1, 'Singular Pyreal Pillar') /* Name */
      , (12267,  16, 'A pillar of Singular Pyreal stockpiled by the Virindi and their allies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12267,   1,   33557378) /* Setup */
-     , (12267,   3,  536870932) /* SoundTable */
-     , (12267,   8,  100672197) /* Icon */
-     , (12267,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12267,   1, 0x02000B82) /* Setup */
+     , (12267,   3, 0x20000014) /* SoundTable */
+     , (12267,   8, 0x060022C5) /* Icon */
+     , (12267,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12267, 8001,    2621496) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, TargetType, Burden */
      , (12267, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12267, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12267, 8040, 60883217, 161.412, -79.0702, -36, 0.994044, 0, 0, -0.108976) /* PCAPRecordedLocation */
+VALUES (12267, 8040, 0x03A10111, 161.412, -79.0702, -36, 0.994044, 0, 0, -0.108976) /* PCAPRecordedLocation */
 /* @teleloc 0x03A10111 [161.412000 -79.070200 -36.000000] 0.994044 0.000000 0.000000 -0.108976 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12267, 8000, 1882853383) /* PCAPRecordedObjectIID */;
+VALUES (12267, 8000, 0x703A1007) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (12267, 0, 83893820, 83893820);

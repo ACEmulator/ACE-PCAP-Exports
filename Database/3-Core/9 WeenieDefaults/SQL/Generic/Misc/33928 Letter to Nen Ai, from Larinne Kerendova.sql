@@ -15,6 +15,7 @@ VALUES (33928,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33928,  22, True ) /* Inscribable */
+     , (33928,  23, True ) /* DestroyOnSell */
      , (33928,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,13 +26,13 @@ VALUES (33928,   1, 'Letter to Nen Ai, from Larinne Kerendova') /* Name */
      , (33928,  16, 'A closed scroll, addressed to Nen Ai, located at 34.8S 71.2E, southwest of the town of Shoushi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33928,   1,   33554776) /* Setup */
-     , (33928,   3,  536870932) /* SoundTable */
-     , (33928,   8,  100667503) /* Icon */
-     , (33928,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33928,   1, 0x02000158) /* Setup */
+     , (33928,   3, 0x20000014) /* SoundTable */
+     , (33928,   8, 0x0600106F) /* Icon */
+     , (33928,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33928, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (33928, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33928, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33928, 8000, 2186220421) /* PCAPRecordedObjectIID */;
+VALUES (33928, 8000, 0x824F1385) /* PCAPRecordedObjectIID */;

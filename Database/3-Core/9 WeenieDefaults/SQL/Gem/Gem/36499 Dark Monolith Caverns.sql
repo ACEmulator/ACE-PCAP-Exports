@@ -35,20 +35,20 @@ VALUES (36499,   1, 'Dark Monolith Caverns') /* Name */
      , (36499,  16, 'There is a source of great power beneath the Obsidian Plains. Those brave enough to seek it out usually find death. Beware the Guardian.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36499,   1,   33556769) /* Setup */
-     , (36499,   3,  536870932) /* SoundTable */
-     , (36499,   6,   67111919) /* PaletteBase */
-     , (36499,   8,  100668364) /* Icon */
-     , (36499,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36499,   1, 0x02000921) /* Setup */
+     , (36499,   3, 0x20000014) /* SoundTable */
+     , (36499,   6, 0x04000BEF) /* PaletteBase */
+     , (36499,   8, 0x060013CC) /* Icon */
+     , (36499,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36499,  28,        157) /* Spell - SummonPortal1 */
-     , (36499,  50,  100676404) /* IconOverlay */
+     , (36499,  50, 0x06003334) /* IconOverlay */
      , (36499, 8001, 1349021720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (36499, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (36499, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (36499, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36499, 8000, 2221421503) /* PCAPRecordedObjectIID */;
+VALUES (36499, 8000, 0x846833BF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36499, 67111924, 0, 0);

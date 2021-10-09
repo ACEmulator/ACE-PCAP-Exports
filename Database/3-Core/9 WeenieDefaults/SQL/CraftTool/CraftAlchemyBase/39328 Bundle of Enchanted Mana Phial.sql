@@ -23,17 +23,17 @@ VALUES (39328,   1, 'Bundle of Enchanted Mana Phial') /* Name */
      , (39328,  20, 'Bundles of Enchanted Mana Phials') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39328,   1,   33560312) /* Setup */
-     , (39328,   3,  536870932) /* SoundTable */
-     , (39328,   6,   67111919) /* PaletteBase */
-     , (39328,   8,  100690318) /* Icon */
-     , (39328,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39328,   1, 0x020016F8) /* Setup */
+     , (39328,   3, 0x20000014) /* SoundTable */
+     , (39328,   6, 0x04000BEF) /* PaletteBase */
+     , (39328,   8, 0x0600698E) /* Icon */
+     , (39328,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39328, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (39328, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (39328, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39328, 8000, 2183443830) /* PCAPRecordedObjectIID */;
+VALUES (39328, 8000, 0x8224B576) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39328, 67111926, 0, 0);

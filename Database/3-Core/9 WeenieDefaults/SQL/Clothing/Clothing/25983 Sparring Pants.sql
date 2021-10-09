@@ -8,7 +8,6 @@ VALUES (25983,   1,          4) /* ItemType - Clothing */
      , (25983,   4,         22) /* ClothingPriority - UnderwearUpperLegs, UnderwearLowerLegs, UnderwearAbdomen */
      , (25983,   5,        135) /* EncumbranceVal */
      , (25983,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
-     , (25983,  10,        196) /* CurrentWieldedLocation - AbdomenWear, UpperLegWear, LowerLegWear */
      , (25983,  16,          1) /* ItemUseable - No */
      , (25983,  19,        100) /* Value */
      , (25983,  28,        150) /* ArmorLevel */
@@ -34,17 +33,17 @@ VALUES (25983,   1, 'Sparring Pants') /* Name */
      , (25983,  16, 'Loose pants typically worn while sparring.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25983,   1,   33554653) /* Setup */
-     , (25983,   3,  536870932) /* SoundTable */
-     , (25983,   6,   67108990) /* PaletteBase */
-     , (25983,   8,  100675731) /* Icon */
-     , (25983,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25983,   1, 0x020000DD) /* Setup */
+     , (25983,   3, 0x20000014) /* SoundTable */
+     , (25983,   6, 0x0400007E) /* PaletteBase */
+     , (25983,   8, 0x06003093) /* Icon */
+     , (25983,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25983, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (25983, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25983, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25983, 8000, 3261434779) /* PCAPRecordedObjectIID */;
+VALUES (25983, 8000, 0xC2658B9B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25983, 67114882, 64, 8);

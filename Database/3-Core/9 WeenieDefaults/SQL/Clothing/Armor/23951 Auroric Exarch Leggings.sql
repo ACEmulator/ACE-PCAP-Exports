@@ -45,30 +45,30 @@ VALUES (23951,   1, 'Auroric Exarch Leggings') /* Name */
      , (23951,  25, 'Dark''Magic') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23951,   1,   33554856) /* Setup */
-     , (23951,   3,  536870932) /* SoundTable */
-     , (23951,   6,   67108990) /* PaletteBase */
-     , (23951,   8,  100674120) /* Icon */
-     , (23951,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23951,   1, 0x020001A8) /* Setup */
+     , (23951,   3, 0x20000014) /* SoundTable */
+     , (23951,   6, 0x0400007E) /* PaletteBase */
+     , (23951,   8, 0x06002A48) /* Icon */
+     , (23951,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23951, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (23951, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23951, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23951, 8000, 2166167753) /* PCAPRecordedObjectIID */;
+VALUES (23951, 8000, 0x811D18C9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23951,   992,      2)  /* SprintOther5 */
-     , (23951,  1337,      2)  /* StrengthOther6 */
+VALUES (23951,  2948,      2)  /* HieroWardGreat */
+     , (23951,  2378,      2)  /* BeastMurmur */
+     , (23951,  2960,      2)  /* BludgeoningDurance */
+     , (23951,  2961,      2)  /* PiercingDurance */
+     , (23951,  2962,      2)  /* SlashingDurance */
+     , (23951,   992,      2)  /* SprintOther5 */
      , (23951,  2350,      2)  /* DecayDurance */
      , (23951,  2351,      2)  /* ConsumptionDurance */
      , (23951,  2352,      2)  /* StasisDurance */
      , (23951,  2353,      2)  /* StimulationDurance */
-     , (23951,  2378,      2)  /* BeastMurmur */
-     , (23951,  2948,      2)  /* HieroWardGreat */
-     , (23951,  2960,      2)  /* BludgeoningDurance */
-     , (23951,  2961,      2)  /* PiercingDurance */
-     , (23951,  2962,      2)  /* SlashingDurance */;
+     , (23951,  1337,      2)  /* StrengthOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23951, 67114178, 136, 16)

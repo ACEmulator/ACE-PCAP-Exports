@@ -28,19 +28,19 @@ VALUES (53293,   1, 'Luminous Amber: Bracers of Thunderous Blows') /* Name */
      , (53293,  20, 'Luminous Ambers: Bracers of Thunderous Blows') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53293,   1,   33554809) /* Setup */
-     , (53293,   3,  536870932) /* SoundTable */
-     , (53293,   6,   67111919) /* PaletteBase */
-     , (53293,   8,  100693328) /* Icon */
-     , (53293,  22,  872415275) /* PhysicsEffectTable */
-     , (53293,  52,  100691593) /* IconUnderlay */
+VALUES (53293,   1, 0x02000179) /* Setup */
+     , (53293,   3, 0x20000014) /* SoundTable */
+     , (53293,   6, 0x04000BEF) /* PaletteBase */
+     , (53293,   8, 0x06007550) /* Icon */
+     , (53293,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53293,  52, 0x06006E89) /* IconUnderlay */
      , (53293, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (53293, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (53293, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (53293, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53293, 8000, 3036120831) /* PCAPRecordedObjectIID */;
+VALUES (53293, 8000, 0xB4F786FF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53293, 67111921, 0, 0);

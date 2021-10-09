@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44285,   1,          8) /* ItemType - Jewelry */
      , (44285,   5,         60) /* EncumbranceVal */
      , (44285,   9,     196608) /* ValidLocations - WristWear */
-     , (44285,  10,     131072) /* CurrentWieldedLocation - WristWearRight */
      , (44285,  16,          1) /* ItemUseable - No */
      , (44285,  19,         20) /* Value */
      , (44285,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -32,21 +31,21 @@ VALUES (44285,   1, 'Bracelet of Quickness') /* Name */
      , (44285,  16, 'This bracelet increase quickness.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44285,   1,   33554683) /* Setup */
-     , (44285,   3,  536870932) /* SoundTable */
-     , (44285,   6,   67111919) /* PaletteBase */
-     , (44285,   8,  100668625) /* Icon */
-     , (44285,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44285,   1, 0x020000FB) /* Setup */
+     , (44285,   3, 0x20000014) /* SoundTable */
+     , (44285,   6, 0x04000BEF) /* PaletteBase */
+     , (44285,   8, 0x060014D1) /* Icon */
+     , (44285,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44285, 8001,    2326552) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (44285, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44285, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44285, 8000, 2161047772) /* PCAPRecordedObjectIID */;
+VALUES (44285, 8000, 0x80CEF8DC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44285,  4019,      2)  /* CANTRIPQUICKNESS3 */
-     , (44285,  4318,      2)  /* QuicknessOther8 */;
+VALUES (44285,  4318,      2)  /* QuicknessOther8 */
+     , (44285,  4019,      2)  /* CANTRIPQUICKNESS3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44285, 67111922, 0, 0);

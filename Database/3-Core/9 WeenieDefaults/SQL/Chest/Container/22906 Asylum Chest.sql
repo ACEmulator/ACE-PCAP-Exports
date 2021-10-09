@@ -30,22 +30,22 @@ VALUES (22906,   1, 'Asylum Chest') /* Name */
      , (22906, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22906,   1,   33557001) /* Setup */
-     , (22906,   2,  150995121) /* MotionTable */
-     , (22906,   3,  536871023) /* SoundTable */
-     , (22906,   6,   67111346) /* PaletteBase */
-     , (22906,   8,  100672609) /* Icon */
-     , (22906,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22906,   1, 0x02000A09) /* Setup */
+     , (22906,   2, 0x090000B1) /* MotionTable */
+     , (22906,   3, 0x2000006F) /* SoundTable */
+     , (22906,   6, 0x040009B2) /* PaletteBase */
+     , (22906,   8, 0x06002461) /* Icon */
+     , (22906,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22906, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (22906, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22906, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22906, 8040, 1615135044, -2.45982, -49.9962, -24.01, 0.6952576, 0, 0, 0.7187606) /* PCAPRecordedLocation */
+VALUES (22906, 8040, 0x60450144, -2.45982, -49.9962, -24.01, 0.695258, 0, 0, 0.718761) /* PCAPRecordedLocation */
 /* @teleloc 0x60450144 [-2.459820 -49.996200 -24.010000] 0.695258 0.000000 0.000000 0.718761 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22906, 8000, 1979994221) /* PCAPRecordedObjectIID */;
+VALUES (22906, 8000, 0x7604506D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22906, -1, 23111, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Aerbax's Message Shard (23111) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -54,27 +54,27 @@ VALUES (45436,   1, 'Bearded Axe of Souia-Vey') /* Name */
      , (45436,  16, 'At the edge of the known world live the Souia-Vey, fierce warriors from the high steppes. Little is known of these people except that they were fierce and lethal warriors who sold their services as mercenaries and quick-striking raiders to the other nations of the Ironsea. Until recently it was widely believed that the Souia-Vey bartered or stole their weapons as they were thought to only possess rudimentary blacksmithing skills.  The Bearded Axes of Souia-Vey, however, have been verified to have been smithed by the warriors of Souia-Vey themselves.   Although the axes may appear primitive, they are of surprisingly sturdy construction and can easily penetrate the thickest of armors.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45436,   1,   33559404) /* Setup */
-     , (45436,   3,  536870932) /* SoundTable */
-     , (45436,   6,   67111919) /* PaletteBase */
-     , (45436,   8,  100686791) /* Icon */
-     , (45436,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45436,   1, 0x0200136C) /* Setup */
+     , (45436,   3, 0x20000014) /* SoundTable */
+     , (45436,   6, 0x04000BEF) /* PaletteBase */
+     , (45436,   8, 0x06005BC7) /* Icon */
+     , (45436,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45436,  30,         88) /* PhysicsScript - Create */
-     , (45436,  52,  100686604) /* IconUnderlay */
+     , (45436,  52, 0x06005B0C) /* IconUnderlay */
      , (45436, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (45436, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45436, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45436, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45436, 8000, 2300440111) /* PCAPRecordedObjectIID */;
+VALUES (45436, 8000, 0x891DEE2F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45436,  3965,      2)  /* CANTRIPSTRENGTH3 */
+VALUES (45436,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */
      , (45436,  4325,      2)  /* StrengthSelf8 */
      , (45436,  4395,      2)  /* BloodDrinkerSelf8 */
      , (45436,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45436,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;
+     , (45436,  3965,      2)  /* CANTRIPSTRENGTH3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45436, 67111920, 0, 0);

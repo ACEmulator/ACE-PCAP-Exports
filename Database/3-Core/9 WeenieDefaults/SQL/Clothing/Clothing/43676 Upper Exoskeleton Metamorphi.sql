@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43676,   1, 'Upper Exoskeleton Metamorphi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43676,   1,   33554653) /* Setup */
-     , (43676,   3,  536870932) /* SoundTable */
-     , (43676,   6,   67108990) /* PaletteBase */
-     , (43676,   8,  100691623) /* Icon */
-     , (43676,  22,  872415275) /* PhysicsEffectTable */
-     , (43676,  52,  100691611) /* IconUnderlay */
+VALUES (43676,   1, 0x020000DD) /* Setup */
+     , (43676,   3, 0x20000014) /* SoundTable */
+     , (43676,   6, 0x0400007E) /* PaletteBase */
+     , (43676,   8, 0x06006EA7) /* Icon */
+     , (43676,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43676,  52, 0x06006E9B) /* IconUnderlay */
      , (43676, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (43676, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (43676, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -33,7 +33,7 @@ VALUES (43676,   1,   33554653) /* Setup */
      , (43676, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43676, 8000,      43676) /* PCAPRecordedObjectIID */;
+VALUES (43676, 8000, 0x0000AA9C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43676, 67110337, 64, 8);

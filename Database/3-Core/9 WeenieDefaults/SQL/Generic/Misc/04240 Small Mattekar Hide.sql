@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4240,   1, 'Small Mattekar Hide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4240,   1,   33554817) /* Setup */
-     , (4240,   3,  536870932) /* SoundTable */
-     , (4240,   6,   67111919) /* PaletteBase */
-     , (4240,   8,  100670052) /* Icon */
-     , (4240,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4240,   1, 0x02000181) /* Setup */
+     , (4240,   3, 0x20000014) /* SoundTable */
+     , (4240,   6, 0x04000BEF) /* PaletteBase */
+     , (4240,   8, 0x06001A64) /* Icon */
+     , (4240,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4240, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (4240, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4240, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4240, 8000, 3677405277) /* PCAPRecordedObjectIID */;
+VALUES (4240, 8000, 0xDB30C05D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4240, 67111927, 0, 0);

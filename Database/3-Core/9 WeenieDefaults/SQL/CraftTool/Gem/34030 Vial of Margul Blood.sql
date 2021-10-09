@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34030,   1, 'Vial of Margul Blood') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34030,   1,   33554603) /* Setup */
-     , (34030,   3,  536870932) /* SoundTable */
-     , (34030,   6,   67111919) /* PaletteBase */
-     , (34030,   8,  100671326) /* Icon */
-     , (34030,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34030,   1, 0x020000AB) /* Setup */
+     , (34030,   3, 0x20000014) /* SoundTable */
+     , (34030,   6, 0x04000BEF) /* PaletteBase */
+     , (34030,   8, 0x06001F5E) /* Icon */
+     , (34030,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34030, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (34030, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34030, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34030, 8000, 2164229188) /* PCAPRecordedObjectIID */;
+VALUES (34030, 8000, 0x80FF8444) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34030, 67111922, 0, 0);

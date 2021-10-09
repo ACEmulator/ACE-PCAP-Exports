@@ -24,13 +24,13 @@ VALUES (38337,   1, 'Brood Mother''s Reckoning') /* Name */
      , (38337,  16, 'A puzzle given to you by a statue outside of the Moarsmen Gateway Temple.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38337,   1,   33554773) /* Setup */
-     , (38337,   3,  536870932) /* SoundTable */
-     , (38337,   8,  100668176) /* Icon */
-     , (38337,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38337,   1, 0x02000155) /* Setup */
+     , (38337,   3, 0x20000014) /* SoundTable */
+     , (38337,   8, 0x06001310) /* Icon */
+     , (38337,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38337, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (38337, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (38337, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38337, 8000, 2608010855) /* PCAPRecordedObjectIID */;
+VALUES (38337, 8000, 0x9B731667) /* PCAPRecordedObjectIID */;

@@ -20,17 +20,17 @@ VALUES (786,   1, 'Powdered Carnelian') /* Name */
      , (786,  20, 'Powdered Carnelians') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (786,   1,   33555208) /* Setup */
-     , (786,   3,  536870932) /* SoundTable */
-     , (786,   6,   67111919) /* PaletteBase */
-     , (786,   8,  100668385) /* Icon */
-     , (786,  22,  872415275) /* PhysicsEffectTable */
+VALUES (786,   1, 0x02000308) /* Setup */
+     , (786,   3, 0x20000014) /* SoundTable */
+     , (786,   6, 0x04000BEF) /* PaletteBase */
+     , (786,   8, 0x060013E1) /* Icon */
+     , (786,  22, 0x3400002B) /* PhysicsEffectTable */
      , (786, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (786, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (786, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (786, 8000, 3710973267) /* PCAPRecordedObjectIID */;
+VALUES (786, 8000, 0xDD30F553) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (786, 67111922, 0, 0);

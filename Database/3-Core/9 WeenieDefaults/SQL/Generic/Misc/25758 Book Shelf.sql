@@ -21,11 +21,11 @@ VALUES (25758,   1, 'Book Shelf') /* Name */
      , (25758,  16, 'A nice bookshelf full of books.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25758,   1,   33554819) /* Setup */
-     , (25758,   8,  100668246) /* Icon */
+VALUES (25758,   1, 0x02000183) /* Setup */
+     , (25758,   8, 0x06001356) /* Icon */
      , (25758, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (25758, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25758, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25758, 8000, 2148135153) /* PCAPRecordedObjectIID */;
+VALUES (25758, 8000, 0x8009F0F1) /* PCAPRecordedObjectIID */;

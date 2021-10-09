@@ -19,15 +19,15 @@ VALUES (4892,   1, 'Note from Aleval') /* Name */
      , (4892,  16, 'This door locked by order of Lord Aleval of Lytelthorpe.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4892,   1,   33555088) /* Setup */
-     , (4892,   8,  100668115) /* Icon */
+VALUES (4892,   1, 0x02000290) /* Setup */
+     , (4892,   8, 0x060012D3) /* Icon */
      , (4892, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (4892, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4892, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4892, 8040, 23331139, 77.8899, -74.4283, -30, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (4892, 8040, 0x01640143, 77.8899, -74.4283, -30, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01640143 [77.889900 -74.428300 -30.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4892, 8000, 1880506389) /* PCAPRecordedObjectIID */;
+VALUES (4892, 8000, 0x70164015) /* PCAPRecordedObjectIID */;

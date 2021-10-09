@@ -23,16 +23,16 @@ VALUES (25686,   1, 'Deep Olthoi Chasm') /* Name */
      , (25686, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25686,   1,   33555924) /* Setup */
-     , (25686,   2,  150994947) /* MotionTable */
-     , (25686,   8,  100667499) /* Icon */
+VALUES (25686,   1, 0x020005D4) /* Setup */
+     , (25686,   2, 0x09000003) /* MotionTable */
+     , (25686,   8, 0x0600106B) /* Icon */
      , (25686, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (25686, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (25686, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25686, 8040, 1565197103, 259.993, -656.347, 47.937, 0.006034948, 0, 0, -0.9999818) /* PCAPRecordedLocation */
+VALUES (25686, 8040, 0x5D4B032F, 259.993, -656.347, 47.937, 0.006035, 0, 0, -0.999982) /* PCAPRecordedLocation */
 /* @teleloc 0x5D4B032F [259.993000 -656.347000 47.937000] 0.006035 0.000000 0.000000 -0.999982 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25686, 8000, 1976873100) /* PCAPRecordedObjectIID */;
+VALUES (25686, 8000, 0x75D4B08C) /* PCAPRecordedObjectIID */;

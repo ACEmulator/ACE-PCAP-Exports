@@ -23,13 +23,13 @@ VALUES (25567,   1, 'Glittering Key') /* Name */
      , (25567,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25567,   1,   33554784) /* Setup */
-     , (25567,   3,  536870932) /* SoundTable */
-     , (25567,   8,  100674911) /* Icon */
-     , (25567,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25567,   1, 0x02000160) /* Setup */
+     , (25567,   3, 0x20000014) /* SoundTable */
+     , (25567,   8, 0x06002D5F) /* Icon */
+     , (25567,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25567, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (25567, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25567, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25567, 8000, 2164416865) /* PCAPRecordedObjectIID */;
+VALUES (25567, 8000, 0x81026161) /* PCAPRecordedObjectIID */;

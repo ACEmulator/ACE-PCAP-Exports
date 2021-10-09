@@ -55,27 +55,27 @@ VALUES (37581,   1, 'Soul Bound Mace') /* Name */
      , (37581,  25, 'Olthoi King') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37581,   1,   33560573) /* Setup */
-     , (37581,   3,  536870932) /* SoundTable */
-     , (37581,   8,  100673207) /* Icon */
-     , (37581,  22,  872415275) /* PhysicsEffectTable */
-     , (37581,  52,  100689896) /* IconUnderlay */
+VALUES (37581,   1, 0x020017FD) /* Setup */
+     , (37581,   3, 0x20000014) /* SoundTable */
+     , (37581,   8, 0x060026B7) /* Icon */
+     , (37581,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37581,  52, 0x060067E8) /* IconUnderlay */
      , (37581, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (37581, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (37581, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (37581, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37581, 8000, 2770358136) /* PCAPRecordedObjectIID */;
+VALUES (37581, 8000, 0xA5204F78) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37581,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (37581,  2101,      2)  /* DefenderSelf7 */
-     , (37581,  2106,      2)  /* HeartSeekerSelf7 */
-     , (37581,  2116,      2)  /* SwiftKillerSelf7 */
-     , (37581,  2509,      2)  /* CANTRIPDAGGERAPTITUDE2 */
+VALUES (37581,  2116,      2)  /* SwiftKillerSelf7 */
+     , (37581,  2509,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE2 */
      , (37581,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (37581,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+     , (37581,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (37581,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (37581,  2101,      2)  /* DefenderSelf7 */
+     , (37581,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (37581, 0, 83889237, 83892492)

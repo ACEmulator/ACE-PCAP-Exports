@@ -30,17 +30,17 @@ VALUES (6057,   1, 'Tiny Shard') /* Name */
      , (6057,  16, 'A tiny piece of crystalline shard, with a strange faint glow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6057,   1,   33556406) /* Setup */
-     , (6057,   3,  536870932) /* SoundTable */
-     , (6057,   6,   67111919) /* PaletteBase */
-     , (6057,   8,  100670635) /* Icon */
-     , (6057,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6057,   1, 0x020007B6) /* Setup */
+     , (6057,   3, 0x20000014) /* SoundTable */
+     , (6057,   6, 0x04000BEF) /* PaletteBase */
+     , (6057,   8, 0x06001CAB) /* Icon */
+     , (6057,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6057, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (6057, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6057, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6057, 8000, 2982947209) /* PCAPRecordedObjectIID */;
+VALUES (6057, 8000, 0xB1CC2989) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6057, 67111921, 0, 0);

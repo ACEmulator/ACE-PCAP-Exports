@@ -8,7 +8,6 @@ VALUES (3706,   1,          2) /* ItemType - Armor */
      , (3706,   4,       3072) /* ClothingPriority - OuterwearChest, OuterwearAbdomen */
      , (3706,   5,       2400) /* EncumbranceVal */
      , (3706,   9,       1536) /* ValidLocations - ChestArmor, AbdomenArmor */
-     , (3706,  10,       1536) /* CurrentWieldedLocation - ChestArmor, AbdomenArmor */
      , (3706,  16,          1) /* ItemUseable - No */
      , (3706,  19,       6000) /* Value */
      , (3706,  28,        280) /* ArmorLevel */
@@ -33,17 +32,17 @@ VALUES (3706,   1, 'Olthoi Cuirass') /* Name */
      , (3706,  15, 'Breastplate crafted from the carapace of an Olthoi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3706,   1,   33554854) /* Setup */
-     , (3706,   3,  536870932) /* SoundTable */
-     , (3706,   6,   67108990) /* PaletteBase */
-     , (3706,   8,  100669584) /* Icon */
-     , (3706,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3706,   1, 0x020001A6) /* Setup */
+     , (3706,   3, 0x20000014) /* SoundTable */
+     , (3706,   6, 0x0400007E) /* PaletteBase */
+     , (3706,   8, 0x06001890) /* Icon */
+     , (3706,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3706, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (3706, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3706, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3706, 8000, 2779769066) /* PCAPRecordedObjectIID */;
+VALUES (3706, 8000, 0xA5AFE8EA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3706, 67110348, 92, 4)

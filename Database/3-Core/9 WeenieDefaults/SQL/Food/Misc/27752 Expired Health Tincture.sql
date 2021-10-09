@@ -27,21 +27,21 @@ VALUES (27752,   1, 'Expired Health Tincture') /* Name */
      , (27752,  16, 'An odorous bottle of brackish red liquid.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27752,   1,   33554603) /* Setup */
-     , (27752,   3,  536870932) /* SoundTable */
-     , (27752,   6,   67111919) /* PaletteBase */
-     , (27752,   8,  100676539) /* Icon */
-     , (27752,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27752,   1, 0x020000AB) /* Setup */
+     , (27752,   3, 0x20000014) /* SoundTable */
+     , (27752,   6, 0x04000BEF) /* PaletteBase */
+     , (27752,   8, 0x060033BB) /* Icon */
+     , (27752,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27752, 8001,  270544912) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Burden, HookType */
      , (27752, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (27752, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27752, 8040, 23855549, 51.54767, -36.04752, 0.004000001, -0.0603819, 0, 0, -0.9981753) /* PCAPRecordedLocation */
+VALUES (27752, 8040, 0x016C01BD, 51.54767, -36.04752, 0.004, -0.060382, 0, 0, -0.998175) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [51.547670 -36.047520 0.004000] -0.060382 0.000000 0.000000 -0.998175 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27752, 8000, 3361059684) /* PCAPRecordedObjectIID */;
+VALUES (27752, 8000, 0xC855B364) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27752, 67111922, 0, 0);

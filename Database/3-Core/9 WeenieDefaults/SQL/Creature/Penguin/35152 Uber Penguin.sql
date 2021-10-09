@@ -25,22 +25,22 @@ VALUES (35152,   1, 'Uber Penguin') /* Name */
      , (35152, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35152,   1,   33559122) /* Setup */
-     , (35152,   2,  150995323) /* MotionTable */
-     , (35152,   3,  536871098) /* SoundTable */
-     , (35152,   6,   67116355) /* PaletteBase */
-     , (35152,   8,  100677366) /* Icon */
-     , (35152,  22,  872415258) /* PhysicsEffectTable */
+VALUES (35152,   1, 0x02001252) /* Setup */
+     , (35152,   2, 0x0900017B) /* MotionTable */
+     , (35152,   3, 0x200000BA) /* SoundTable */
+     , (35152,   6, 0x04001D43) /* PaletteBase */
+     , (35152,   8, 0x060036F6) /* Icon */
+     , (35152,  22, 0x3400001A) /* PhysicsEffectTable */
      , (35152, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35152, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35152, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35152, 8040, 11534650, 33.19993, -124.6205, 0.1098217, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35152, 8040, 0x00B0013A, 33.19993, -124.6205, 0.109822, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B0013A [33.199930 -124.620500 0.109822] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35152, 8000, 2447688502) /* PCAPRecordedObjectIID */;
+VALUES (35152, 8000, 0x91E4C336) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35152,   1, 800, 0, 0) /* Strength */

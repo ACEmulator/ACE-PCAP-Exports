@@ -23,16 +23,16 @@ VALUES (9508,   1, 'Gredaline Consulate') /* Name */
      , (9508, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9508,   1,   33555923) /* Setup */
-     , (9508,   2,  150994947) /* MotionTable */
-     , (9508,   8,  100667499) /* Icon */
+VALUES (9508,   1, 0x020005D3) /* Setup */
+     , (9508,   2, 0x09000003) /* MotionTable */
+     , (9508,   8, 0x0600106B) /* Icon */
      , (9508, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (9508, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (9508, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9508, 8040, 2754740228, 10.281, 84.7743, 154.0661, -0.3302821, 0, 0, 0.9438823) /* PCAPRecordedLocation */
+VALUES (9508, 8040, 0xA4320004, 10.281, 84.7743, 154.0661, -0.330282, 0, 0, 0.943882) /* PCAPRecordedLocation */
 /* @teleloc 0xA4320004 [10.281000 84.774300 154.066100] -0.330282 0.000000 0.000000 0.943882 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9508, 8000, 2051219456) /* PCAPRecordedObjectIID */;
+VALUES (9508, 8000, 0x7A432000) /* PCAPRecordedObjectIID */;

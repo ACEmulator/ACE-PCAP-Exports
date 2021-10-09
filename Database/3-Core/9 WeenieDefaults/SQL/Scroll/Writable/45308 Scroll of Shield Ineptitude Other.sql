@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45308,   1, 'Scroll of Shield Ineptitude Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45308,   1,   33554826) /* Setup */
-     , (45308,   8,  100692252) /* Icon */
-     , (45308,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45308,   1, 0x0200018A) /* Setup */
+     , (45308,   8, 0x0600711C) /* Icon */
+     , (45308,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45308,  28,       5835) /* Spell - ShieldIneptitudeOther1 */
      , (45308, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45308, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -31,4 +31,4 @@ VALUES (45308,   1,   33554826) /* Setup */
      , (45308, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45308, 8000,      45308) /* PCAPRecordedObjectIID */;
+VALUES (45308, 8000, 0x0000B0FC) /* PCAPRecordedObjectIID */;

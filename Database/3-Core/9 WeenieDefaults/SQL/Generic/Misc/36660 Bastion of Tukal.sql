@@ -15,6 +15,7 @@ VALUES (36660,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36660,  22, True ) /* Inscribable */
+     , (36660,  23, True ) /* DestroyOnSell */
      , (36660,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,21 +23,21 @@ VALUES (36660,   1, 'Bastion of Tukal') /* Name */
      , (36660,  16, 'A chestplate with the seal of Linvak Tukal on the chest.  The armor is elegant yet simple, and sturdily crafted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36660,   1,   33554644) /* Setup */
-     , (36660,   3,  536870932) /* SoundTable */
-     , (36660,   6,   67108990) /* PaletteBase */
-     , (36660,   8,  100671501) /* Icon */
-     , (36660,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36660,   1, 0x020000D4) /* Setup */
+     , (36660,   3, 0x20000014) /* SoundTable */
+     , (36660,   6, 0x0400007E) /* PaletteBase */
+     , (36660,   8, 0x0600200D) /* Icon */
+     , (36660,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36660, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (36660, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36660, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36660, 8040, 10420582, 99.2228, -91.4576, -41, -0.2995339, 0, 0, 0.9540856) /* PCAPRecordedLocation */
+VALUES (36660, 8040, 0x009F0166, 99.2228, -91.4576, -41, -0.299534, 0, 0, 0.954086) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0166 [99.222800 -91.457600 -41.000000] -0.299534 0.000000 0.000000 0.954086 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36660, 8000, 3709598404) /* PCAPRecordedObjectIID */;
+VALUES (36660, 8000, 0xDD1BFAC4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36660, 67113177, 72, 8)

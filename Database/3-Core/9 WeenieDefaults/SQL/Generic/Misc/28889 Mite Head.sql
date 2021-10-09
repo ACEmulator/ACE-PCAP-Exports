@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28889,   1, 'Mite Head') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28889,   1,   33558993) /* Setup */
-     , (28889,   3,  536870932) /* SoundTable */
-     , (28889,   8,  100677083) /* Icon */
-     , (28889,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28889,   1, 0x020011D1) /* Setup */
+     , (28889,   3, 0x20000014) /* SoundTable */
+     , (28889,   8, 0x060035DB) /* Icon */
+     , (28889,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28889, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (28889, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28889, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28889, 8000, 2981037226) /* PCAPRecordedObjectIID */;
+VALUES (28889, 8000, 0xB1AF04AA) /* PCAPRecordedObjectIID */;

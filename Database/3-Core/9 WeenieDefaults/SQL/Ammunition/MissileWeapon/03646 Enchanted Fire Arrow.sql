@@ -40,13 +40,13 @@ VALUES (3646,   1, 'Enchanted Fire Arrow') /* Name */
      , (3646,  16, 'Enchanted fire arrow that does fire damage, of course.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3646,   1,   33555406) /* Setup */
-     , (3646,   3,  536870932) /* SoundTable */
-     , (3646,   8,  100667622) /* Icon */
-     , (3646,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3646,   1, 0x020003CE) /* Setup */
+     , (3646,   3, 0x20000014) /* SoundTable */
+     , (3646,   8, 0x060010E6) /* Icon */
+     , (3646,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3646, 8001,  270627736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (3646, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (3646, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3646, 8000, 3649993938) /* PCAPRecordedObjectIID */;
+VALUES (3646, 8000, 0xD98E7CD2) /* PCAPRecordedObjectIID */;

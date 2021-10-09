@@ -53,22 +53,22 @@ VALUES (7771,   1, 'Naginata') /* Name */
      , (7771,  16, 'Naginata of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7771,   1,   33556640) /* Setup */
-     , (7771,   3,  536870932) /* SoundTable */
-     , (7771,   6,   67111919) /* PaletteBase */
-     , (7771,   8,  100670789) /* Icon */
-     , (7771,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7771,   1, 0x020008A0) /* Setup */
+     , (7771,   3, 0x20000014) /* SoundTable */
+     , (7771,   6, 0x04000BEF) /* PaletteBase */
+     , (7771,   8, 0x06001D45) /* Icon */
+     , (7771,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7771,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (7771, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (7771, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7771, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7771, 8000, 3690019376) /* PCAPRecordedObjectIID */;
+VALUES (7771, 8000, 0xDBF13A30) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7771,  1591,      2)  /* HeartSeekerSelf5 */
-     , (7771,  1614,      2)  /* BloodDrinkerSelf4 */;
+VALUES (7771,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (7771,  1591,      2)  /* HeartSeekerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7771, 67111926, 0, 0);

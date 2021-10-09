@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21297,   1, 'Scroll of Blade Arc III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21297,   1,   33554826) /* Setup */
-     , (21297,   8,  100677028) /* Icon */
-     , (21297,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21297,   1, 0x0200018A) /* Setup */
+     , (21297,   8, 0x060035A4) /* Icon */
+     , (21297,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21297,  28,       2755) /* Spell - BladeArc3 */
      , (21297, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (21297, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21297, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21297, 8000, 3709186108) /* PCAPRecordedObjectIID */;
+VALUES (21297, 8000, 0xDD15B03C) /* PCAPRecordedObjectIID */;

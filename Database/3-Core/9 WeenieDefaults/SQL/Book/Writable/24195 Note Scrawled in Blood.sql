@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24195,   1, 'Note Scrawled in Blood') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24195,   1,   33554773) /* Setup */
-     , (24195,   3,  536870932) /* SoundTable */
-     , (24195,   8,  100674280) /* Icon */
-     , (24195,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24195,   1, 0x02000155) /* Setup */
+     , (24195,   3, 0x20000014) /* SoundTable */
+     , (24195,   8, 0x06002AE8) /* Icon */
+     , (24195,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24195, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (24195, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (24195, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24195, 8000, 2541837628) /* PCAPRecordedObjectIID */;
+VALUES (24195, 8000, 0x97815D3C) /* PCAPRecordedObjectIID */;

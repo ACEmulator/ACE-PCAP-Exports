@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41048,   1,          1) /* ItemType - MeleeWeapon */
      , (41048,   5,        539) /* EncumbranceVal */
      , (41048,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (41048,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (41048,  16,          1) /* ItemUseable - No */
      , (41048,  18,         65) /* UiEffects - Magical, Lightning */
      , (41048,  19,      11391) /* Value */
@@ -52,14 +51,14 @@ VALUES (41048,   1, 'Lightning Pike') /* Name */
      , (41048,  16, 'Lightning Pike of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41048,   1,   33560880) /* Setup */
-     , (41048,   3,  536870932) /* SoundTable */
-     , (41048,   6,   67115558) /* PaletteBase */
-     , (41048,   8,  100690639) /* Icon */
-     , (41048,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41048,   1, 0x02001930) /* Setup */
+     , (41048,   3, 0x20000014) /* SoundTable */
+     , (41048,   6, 0x04001A26) /* PaletteBase */
+     , (41048,   8, 0x06006ACF) /* Icon */
+     , (41048,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41048,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
-     , (41048,  50,  100689501) /* IconOverlay */
-     , (41048,  52,  100676436) /* IconUnderlay */
+     , (41048,  50, 0x0600665D) /* IconOverlay */
+     , (41048,  52, 0x06003354) /* IconUnderlay */
      , (41048, 8001, 3508765336) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (41048, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (41048, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -67,18 +66,18 @@ VALUES (41048,   1,   33560880) /* Setup */
      , (41048, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41048, 8040, 2863923209, 191.6691, 34.20319, 27.029, -0.497179, -0.497179, -0.5028051, -0.5028051) /* PCAPRecordedLocation */
+VALUES (41048, 8040, 0xAAB40009, 191.6691, 34.20319, 27.029, -0.497179, -0.497179, -0.502805, -0.502805) /* PCAPRecordedLocation */
 /* @teleloc 0xAAB40009 [191.669100 34.203190 27.029000] -0.497179 -0.497179 -0.502805 -0.502805 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41048, 8000, 2204798573) /* PCAPRecordedObjectIID */
-     , (41048, 8008, 1344166419) /* PCAPRecordedParentIID */;
+VALUES (41048, 8000, 0x836A8E6D) /* PCAPRecordedObjectIID */
+     , (41048, 8008, 0x501E5A13) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41048,  1591,      2)  /* HeartSeekerSelf5 */
-     , (41048,  1615,      2)  /* BloodDrinkerSelf5 */
+VALUES (41048,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (41048,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */
      , (41048,  1627,      2)  /* SwiftKillerSelf6 */
-     , (41048,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */;
+     , (41048,  1591,      2)  /* HeartSeekerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41048, 67116385, 0, 0);

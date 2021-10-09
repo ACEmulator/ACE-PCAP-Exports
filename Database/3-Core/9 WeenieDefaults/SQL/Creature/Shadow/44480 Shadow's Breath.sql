@@ -25,21 +25,21 @@ VALUES (44480,   1, 'Shadow''s Breath') /* Name */
      , (44480, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44480,   1,   33556913) /* Setup */
-     , (44480,   2,  150994968) /* MotionTable */
-     , (44480,   3,  536870985) /* SoundTable */
-     , (44480,   8,  100670397) /* Icon */
-     , (44480,  22,  872415331) /* PhysicsEffectTable */
+VALUES (44480,   1, 0x020009B1) /* Setup */
+     , (44480,   2, 0x09000018) /* MotionTable */
+     , (44480,   3, 0x20000049) /* SoundTable */
+     , (44480,   8, 0x06001BBD) /* Icon */
+     , (44480,  22, 0x34000063) /* PhysicsEffectTable */
      , (44480, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44480, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44480, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44480, 8040, 4133224490, 128.5211, 36.02461, 20.01, -0.9199035, 0, 0, 0.3921448) /* PCAPRecordedLocation */
+VALUES (44480, 8040, 0xF65C002A, 128.5211, 36.02461, 20.01, -0.919904, 0, 0, 0.392145) /* PCAPRecordedLocation */
 /* @teleloc 0xF65C002A [128.521100 36.024610 20.010000] -0.919904 0.000000 0.000000 0.392145 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44480, 8000, 3710680098) /* PCAPRecordedObjectIID */;
+VALUES (44480, 8000, 0xDD2C7C22) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44480,   1, 289, 0, 0) /* Strength */

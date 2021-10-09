@@ -26,23 +26,23 @@ VALUES (23554,   1, 'Adolescent Rust Gromnie') /* Name */
      , (23554, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23554,   1,   33554487) /* Setup */
-     , (23554,   2,  150994971) /* MotionTable */
-     , (23554,   3,  536870921) /* SoundTable */
-     , (23554,   6,   67109307) /* PaletteBase */
-     , (23554,   8,  100667938) /* Icon */
-     , (23554,  22,  872415260) /* PhysicsEffectTable */
+VALUES (23554,   1, 0x02000037) /* Setup */
+     , (23554,   2, 0x0900001B) /* MotionTable */
+     , (23554,   3, 0x20000009) /* SoundTable */
+     , (23554,   6, 0x040001BB) /* PaletteBase */
+     , (23554,   8, 0x06001222) /* Icon */
+     , (23554,  22, 0x3400001C) /* PhysicsEffectTable */
      , (23554,  30,         85) /* PhysicsScript - BreatheFrost */
      , (23554, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (23554, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (23554, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23554, 8040, 675872793, 84.5576, 18.92287, 0.007999897, 0.2057558, 0, 0, -0.9786034) /* PCAPRecordedLocation */
+VALUES (23554, 8040, 0x28490019, 84.5576, 18.92287, 0.008, 0.205756, 0, 0, -0.978603) /* PCAPRecordedLocation */
 /* @teleloc 0x28490019 [84.557600 18.922870 0.008000] 0.205756 0.000000 0.000000 -0.978603 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23554, 8000, 3690487105) /* PCAPRecordedObjectIID */;
+VALUES (23554, 8000, 0xDBF85D41) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23554,   1, 310, 0, 0) /* Strength */

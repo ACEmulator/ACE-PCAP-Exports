@@ -33,21 +33,21 @@ VALUES (9414,   1, 'Kifandal the Imbuer') /* Name */
      , (9414, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9414,   1,   33557003) /* Setup */
-     , (9414,   2,  150994950) /* MotionTable */
-     , (9414,   3,  536870922) /* SoundTable */
-     , (9414,   6,   67113158) /* PaletteBase */
-     , (9414,   8,  100667447) /* Icon */
+VALUES (9414,   1, 0x02000A0B) /* Setup */
+     , (9414,   2, 0x09000006) /* MotionTable */
+     , (9414,   3, 0x2000000A) /* SoundTable */
+     , (9414,   6, 0x040010C6) /* PaletteBase */
+     , (9414,   8, 0x06001037) /* Icon */
      , (9414, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (9414, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (9414, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9414, 8040, 2719875423, 56.0835, 104.781, 639.51, 0.8145673, 0, 0, -0.5800691) /* PCAPRecordedLocation */
+VALUES (9414, 8040, 0xA21E015F, 56.0835, 104.781, 639.51, 0.814567, 0, 0, -0.580069) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E015F [56.083500 104.781000 639.510000] 0.814567 0.000000 0.000000 -0.580069 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9414, 8000, 2049040389) /* PCAPRecordedObjectIID */;
+VALUES (9414, 8000, 0x7A21E005) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (9414,   1,     0, 0, 0, 235) /* MaxHealth */;

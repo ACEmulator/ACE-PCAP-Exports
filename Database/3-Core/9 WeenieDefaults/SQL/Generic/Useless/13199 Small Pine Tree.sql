@@ -20,13 +20,13 @@ VALUES (13199,   1, 'Small Pine Tree') /* Name */
      , (13199,  15, 'You can use this item on floor and yard hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13199,   1,   33557449) /* Setup */
-     , (13199,   3,  536870932) /* SoundTable */
-     , (13199,   8,  100672463) /* Icon */
-     , (13199,  22,  872415275) /* PhysicsEffectTable */
+VALUES (13199,   1, 0x02000BC9) /* Setup */
+     , (13199,   3, 0x20000014) /* SoundTable */
+     , (13199,   8, 0x060023CF) /* Icon */
+     , (13199,  22, 0x3400002B) /* PhysicsEffectTable */
      , (13199, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (13199, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (13199, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13199, 8000, 3658163578) /* PCAPRecordedObjectIID */;
+VALUES (13199, 8000, 0xDA0B257A) /* PCAPRecordedObjectIID */;

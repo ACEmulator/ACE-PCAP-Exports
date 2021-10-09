@@ -25,14 +25,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25781,   1, 'Snow Pie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25781,   1,   33558523) /* Setup */
-     , (25781,   3,  536870932) /* SoundTable */
-     , (25781,   8,  100675514) /* Icon */
-     , (25781,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25781,   1, 0x02000FFB) /* Setup */
+     , (25781,   3, 0x20000014) /* SoundTable */
+     , (25781,   8, 0x06002FBA) /* Icon */
+     , (25781,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25781,  28,       2991) /* Spell - WintersKiss */
      , (25781, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (25781, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25781, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25781, 8000, 3611344050) /* PCAPRecordedObjectIID */;
+VALUES (25781, 8000, 0xD740BCB2) /* PCAPRecordedObjectIID */;

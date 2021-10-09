@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30634,   1, 'Cyphis Suldow''s Half Moon Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30634,   1,   33559207) /* Setup */
-     , (30634,   3,  536870932) /* SoundTable */
-     , (30634,   8,  100677384) /* Icon */
-     , (30634,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30634,   1, 0x020012A7) /* Setup */
+     , (30634,   3, 0x20000014) /* SoundTable */
+     , (30634,   8, 0x06003708) /* Icon */
+     , (30634,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30634, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (30634, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30634, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30634, 8000, 2967711598) /* PCAPRecordedObjectIID */;
+VALUES (30634, 8000, 0xB0E3AF6E) /* PCAPRecordedObjectIID */;

@@ -20,22 +20,22 @@ VALUES (29491,   1, 'Guard') /* Name */
      , (29491, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29491,   1,   33554433) /* Setup */
-     , (29491,   2,  150994945) /* MotionTable */
-     , (29491,   3,  536870913) /* SoundTable */
-     , (29491,   6,   67108990) /* PaletteBase */
-     , (29491,   8,  100667446) /* Icon */
-     , (29491,  22,  872415236) /* PhysicsEffectTable */
+VALUES (29491,   1, 0x02000001) /* Setup */
+     , (29491,   2, 0x09000001) /* MotionTable */
+     , (29491,   3, 0x20000001) /* SoundTable */
+     , (29491,   6, 0x0400007E) /* PaletteBase */
+     , (29491,   8, 0x06001036) /* Icon */
+     , (29491,  22, 0x34000004) /* PhysicsEffectTable */
      , (29491, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (29491, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (29491, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29491, 8040, 2162963, 17, -84, 0.004999995, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (29491, 8040, 0x00210113, 17, -84, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00210113 [17.000000 -84.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29491, 8000, 3704372022) /* PCAPRecordedObjectIID */;
+VALUES (29491, 8000, 0xDCCC3B36) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29491, 2, 12073,  1, 0, 0, False) /* Create Bandit Lightning Simi (12073) for Wield */

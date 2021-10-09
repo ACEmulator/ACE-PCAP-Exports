@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45238,   1, 'Scroll of Dirty Fighting Ineptitude Other III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45238,   1,   33554826) /* Setup */
-     , (45238,   8,  100692255) /* Icon */
-     , (45238,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45238,   1, 0x0200018A) /* Setup */
+     , (45238,   8, 0x0600711F) /* Icon */
+     , (45238,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45238,  28,       5765) /* Spell - DirtyFightingIneptitudeOther3 */
      , (45238, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45238, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -31,4 +31,4 @@ VALUES (45238,   1,   33554826) /* Setup */
      , (45238, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45238, 8000,      45238) /* PCAPRecordedObjectIID */;
+VALUES (45238, 8000, 0x0000B0B6) /* PCAPRecordedObjectIID */;

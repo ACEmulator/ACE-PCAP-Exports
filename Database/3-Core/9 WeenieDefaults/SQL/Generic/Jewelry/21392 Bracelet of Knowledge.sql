@@ -29,21 +29,21 @@ VALUES (21392,   1, 'Bracelet of Knowledge') /* Name */
      , (21392,  15, 'An obsidian bracelet set with three sapphires.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21392,   1,   33554682) /* Setup */
-     , (21392,   3,  536870932) /* SoundTable */
-     , (21392,   6,   67111919) /* PaletteBase */
-     , (21392,   8,  100673497) /* Icon */
-     , (21392,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21392,   1, 0x020000FA) /* Setup */
+     , (21392,   3, 0x20000014) /* SoundTable */
+     , (21392,   6, 0x04000BEF) /* PaletteBase */
+     , (21392,   8, 0x060027D9) /* Icon */
+     , (21392,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21392, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (21392, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21392, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21392, 8000, 2461761130) /* PCAPRecordedObjectIID */;
+VALUES (21392, 8000, 0x92BB7E6A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21392,   688,      2)  /* ArcaneEnlightenmentOther5 */
-     , (21392,  1431,      2)  /* FocusOther5 */
+VALUES (21392,  1431,      2)  /* FocusOther5 */
+     , (21392,   688,      2)  /* ArcaneEnlightenmentOther5 */
      , (21392,  2809,      2)  /* ModerateArcaneProwess */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

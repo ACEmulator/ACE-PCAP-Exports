@@ -28,22 +28,17 @@ VALUES (2411,   1, 'Gem') /* Name */
      , (2411,  16, 'Gem') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2411,   1,   33554809) /* Setup */
-     , (2411,   3,  536870932) /* SoundTable */
-     , (2411,   6,   67111919) /* PaletteBase */
-     , (2411,   8,  100674714) /* Icon */
-     , (2411,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2411,   1, 0x02000179) /* Setup */
+     , (2411,   3, 0x20000014) /* SoundTable */
+     , (2411,   6, 0x04000BEF) /* PaletteBase */
+     , (2411,   8, 0x06002C9A) /* Icon */
+     , (2411,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2411, 8001, 2166386712) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, Workmanship, MaterialType */
      , (2411, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2411, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2411, 8000, 3690558700) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2411, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (2411, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
-     , (2411, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;
+VALUES (2411, 8000, 0xDBF974EC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2411, 67111924, 0, 0);

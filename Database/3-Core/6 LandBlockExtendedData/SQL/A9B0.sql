@@ -5,23 +5,23 @@ VALUES (0x7A9B0000,   412, 0xA9B0000F, 36.34, 150.33, 58.082, 1, 0, 0, 0, False,
 /* @teleloc 0xA9B0000F [36.340000 150.330000 58.082000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B0001,   412, 0xA9B0000F, 29.78, 158.07, 58.082, 0.7033951, 0, 0, -0.7107991, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x7A9B0001,   412, 0xA9B0000F, 29.78, 158.07, 58.082, 0.703395, 0, 0, -0.710799, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0xA9B0000F [29.780000 158.070000 58.082000] 0.703395 0.000000 0.000000 -0.710799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B0002,   412, 0xA9B0010D, 37.76, 107.05, 64.082, -0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x7A9B0002,   412, 0xA9B0010D, 37.76, 107.05, 64.082, -0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0xA9B0010D [37.760000 107.050000 64.082000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B0003,   412, 0xA9B00007, 12.7549, 150.343, 58.082, -0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x7A9B0003,   412, 0xA9B00007, 12.7549, 150.343, 58.082, -0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0xA9B00007 [12.754900 150.343000 58.082000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B0004,  4433, 0xA9B00102, 37.5406, 152.008, 58.005, -0.309567, 0, 0, -0.9508777, False, '2019-02-10 00:00:00'); /* Hudriffa the Shopkeeper */
+VALUES (0x7A9B0004,  4433, 0xA9B00102, 37.5406, 152.008, 58.005, -0.309567, 0, 0, -0.950878, False, '2019-02-10 00:00:00'); /* Hudriffa the Shopkeeper */
 /* @teleloc 0xA9B00102 [37.540600 152.008000 58.005000] -0.309567 0.000000 0.000000 -0.950878 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B0005,   509, 0xA9B00007, 21.5862, 146.569, 58, -0.8248909, 0, 0, -0.5652919, False, '2019-02-10 00:00:00'); /* Life Stone */
+VALUES (0x7A9B0005,   509, 0xA9B00007, 21.5862, 146.569, 58, -0.824891, 0, 0, -0.565292, False, '2019-02-10 00:00:00'); /* Life Stone */
 /* @teleloc 0xA9B00007 [21.586200 146.569000 58.000000] -0.824891 0.000000 0.000000 -0.565292 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -29,7 +29,7 @@ VALUES (0x7A9B0008,  4409, 0xA9B00010, 26.4622, 169.284, 58, 0.701977, 0, 0, -0.
 /* @teleloc 0xA9B00010 [26.462200 169.284000 58.000000] 0.701977 0.000000 0.000000 -0.712200 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B0009,  4409, 0xA9B00008, 8.37009, 185.769, 58, -0.99847, 0, 0, 0.0553011, False, '2019-02-10 00:00:00'); /* Holtburg Outpost */
+VALUES (0x7A9B0009,  4409, 0xA9B00008, 8.37009, 185.769, 58, -0.99847, 0, 0, 0.055301, False, '2019-02-10 00:00:00'); /* Holtburg Outpost */
 /* @teleloc 0xA9B00008 [8.370090 185.769000 58.000000] -0.998470 0.000000 0.000000 0.055301 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

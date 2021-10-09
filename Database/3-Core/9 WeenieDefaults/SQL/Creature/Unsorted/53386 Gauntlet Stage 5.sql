@@ -25,17 +25,17 @@ VALUES (53386,   1, 'Gauntlet Stage 5') /* Name */
      , (53386, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53386,   1,   33555953) /* Setup */
-     , (53386,   2,  150995078) /* MotionTable */
-     , (53386,   3,  536870932) /* SoundTable */
-     , (53386,   8,  100677070) /* Icon */
+VALUES (53386,   1, 0x020005F1) /* Setup */
+     , (53386,   2, 0x09000086) /* MotionTable */
+     , (53386,   3, 0x20000014) /* SoundTable */
+     , (53386,   8, 0x060035CE) /* Icon */
      , (53386, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (53386, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (53386, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53386, 8040, 1499529478, 20.44444, -5.5198, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (53386, 8040, 0x59610106, 20.44444, -5.5198, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59610106 [20.444440 -5.519800 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53386, 8000, 3696382926) /* PCAPRecordedObjectIID */;
+VALUES (53386, 8000, 0xDC5253CE) /* PCAPRecordedObjectIID */;

@@ -53,23 +53,23 @@ VALUES (41050,   1, 'Frost Pike') /* Name */
      , (41050,  16, 'Frost Pike of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41050,   1,   33560879) /* Setup */
-     , (41050,   3,  536870932) /* SoundTable */
-     , (41050,   6,   67115558) /* PaletteBase */
-     , (41050,   8,  100690640) /* Icon */
-     , (41050,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41050,   1, 0x0200192F) /* Setup */
+     , (41050,   3, 0x20000014) /* SoundTable */
+     , (41050,   6, 0x04001A26) /* PaletteBase */
+     , (41050,   8, 0x06006AD0) /* Icon */
+     , (41050,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41050,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41050, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41050, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41050, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41050, 8000, 3692189011) /* PCAPRecordedObjectIID */;
+VALUES (41050, 8000, 0xDC125553) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41050,  1591,      2)  /* HeartSeekerSelf5 */
-     , (41050,  1604,      2)  /* DefenderSelf5 */
-     , (41050,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (41050,  1604,      2)  /* DefenderSelf5 */
+     , (41050,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (41050,  1591,      2)  /* HeartSeekerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41050, 67116386, 0, 0);

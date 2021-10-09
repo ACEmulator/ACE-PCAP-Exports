@@ -21,13 +21,13 @@ VALUES (28735,   1, 'Viamontian Torso') /* Name */
      , (28735,  16, 'A human torso. All appendages have been savagely removed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28735,   1,   33554817) /* Setup */
-     , (28735,   3,  536870932) /* SoundTable */
-     , (28735,   8,  100686362) /* Icon */
-     , (28735,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28735,   1, 0x02000181) /* Setup */
+     , (28735,   3, 0x20000014) /* SoundTable */
+     , (28735,   8, 0x06005A1A) /* Icon */
+     , (28735,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28735, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (28735, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28735, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28735, 8000, 2157269326) /* PCAPRecordedObjectIID */;
+VALUES (28735, 8000, 0x8095514E) /* PCAPRecordedObjectIID */;

@@ -52,28 +52,28 @@ VALUES (21152,   1, 'Covenant Breastplate') /* Name */
      , (21152,  16, 'Covenant Breastplate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21152,   1,   33554642) /* Setup */
-     , (21152,   3,  536870932) /* SoundTable */
-     , (21152,   6,   67108990) /* PaletteBase */
-     , (21152,   8,  100673389) /* Icon */
-     , (21152,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21152,   1, 0x020000D2) /* Setup */
+     , (21152,   3, 0x20000014) /* SoundTable */
+     , (21152,   6, 0x0400007E) /* PaletteBase */
+     , (21152,   8, 0x0600276D) /* Icon */
+     , (21152,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21152, 8001, 2166685720) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (21152, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21152, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21152, 8040, 4152623126, 69.19128, 137.1837, 52.04757, -0.5857317, 0, 0, -0.810505) /* PCAPRecordedLocation */
+VALUES (21152, 8040, 0xF7840016, 69.19128, 137.1837, 52.04757, -0.585732, 0, 0, -0.810505) /* PCAPRecordedLocation */
 /* @teleloc 0xF7840016 [69.191280 137.183700 52.047570] -0.585732 0.000000 0.000000 -0.810505 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21152, 8000, 3407134947) /* PCAPRecordedObjectIID */;
+VALUES (21152, 8000, 0xCB14C0E3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21152,  2094,      2)  /* BladeBane7 */
+VALUES (21152,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */
+     , (21152,  2094,      2)  /* BladeBane7 */
      , (21152,  2102,      2)  /* FlameBane7 */
      , (21152,  4407,      2)  /* Impenetrability8 */
-     , (21152,  4409,      2)  /* LightningBane8 */
-     , (21152,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;
+     , (21152,  4409,      2)  /* LightningBane8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21152, 67113895, 174, 66);

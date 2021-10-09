@@ -15,7 +15,7 @@ VALUES (27373,   1,        256) /* ItemType - MissileWeapon */
      , (27373,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27373,  49,         60) /* WeaponTime */
      , (27373,  50,          2) /* AmmoType - Bolt */
-     , (27373,  51,          2) /* CombatUse - Missle */
+     , (27373,  51,          2) /* CombatUse - Missile */
      , (27373,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27373, 114,          1) /* Attuned - Attuned */
      , (27373, 151,          2) /* HookType - Wall */
@@ -24,7 +24,8 @@ VALUES (27373,   1,        256) /* ItemType - MissileWeapon */
      , (27373, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27373,  22, True ) /* Inscribable */;
+VALUES (27373,  22, True ) /* Inscribable */
+     , (27373,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27373,  21,       0) /* WeaponLength */
@@ -40,16 +41,16 @@ VALUES (27373,   1, 'Kalindan') /* Name */
      , (27373,  16, 'A beautifully carved crossbow. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27373,   1,   33558668) /* Setup */
-     , (27373,   3,  536870932) /* SoundTable */
-     , (27373,   8,  100676340) /* Icon */
-     , (27373,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27373,   1, 0x0200108C) /* Setup */
+     , (27373,   3, 0x20000014) /* SoundTable */
+     , (27373,   8, 0x060032F4) /* Icon */
+     , (27373,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27373, 8001,  270615320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27373, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27373, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27373, 8000, 3356648954) /* PCAPRecordedObjectIID */;
+VALUES (27373, 8000, 0xC81265FA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (27373, 0, 83893670, 83893699)

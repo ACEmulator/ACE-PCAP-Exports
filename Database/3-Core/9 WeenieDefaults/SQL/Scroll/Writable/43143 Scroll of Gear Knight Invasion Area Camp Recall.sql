@@ -14,7 +14,8 @@ VALUES (43143,   1,       8192) /* ItemType - Writable */
      , (43143, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43143,  22, True ) /* Inscribable */;
+VALUES (43143,  22, True ) /* Inscribable */
+     , (43143,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43143,  39,     1.5) /* DefaultScale */;
@@ -26,13 +27,13 @@ VALUES (43143,   1, 'Scroll of Gear Knight Invasion Area Camp Recall') /* Name *
 Sends the caster to the Gear Knight Invasion Area Camp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43143,   1,   33554826) /* Setup */
-     , (43143,   8,  100676673) /* Icon */
-     , (43143,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43143,   1, 0x0200018A) /* Setup */
+     , (43143,   8, 0x06003441) /* Icon */
+     , (43143,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43143,  28,       5330) /* Spell - RecallGearKnightInvasionHigh */
      , (43143, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43143, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43143, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43143, 8000, 3706618556) /* PCAPRecordedObjectIID */;
+VALUES (43143, 8000, 0xDCEE82BC) /* PCAPRecordedObjectIID */;

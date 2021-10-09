@@ -18,18 +18,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42530,   1, 'Tulip') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42530,   1,   33560933) /* Setup */
-     , (42530,   8,  100690918) /* Icon */
+VALUES (42530,   1, 0x02001965) /* Setup */
+     , (42530,   8, 0x06006BE6) /* Icon */
      , (42530, 8001,    3145744) /* PCAPRecordedWeenieHeader - Usable, RadarBlipColor, Burden */
      , (42530, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42530, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42530, 8040, 3010396196, 110.818, 75.21826, 20.33784, 0.9396926, 0, 0, -0.3420201) /* PCAPRecordedLocation */
+VALUES (42530, 8040, 0xB36F0024, 110.818, 75.21826, 20.33784, 0.939693, 0, 0, -0.34202) /* PCAPRecordedLocation */
 /* @teleloc 0xB36F0024 [110.818000 75.218260 20.337840] 0.939693 0.000000 0.000000 -0.342020 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42530, 8000, 3685014934) /* PCAPRecordedObjectIID */;
+VALUES (42530, 8000, 0xDBA4DD96) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (42530, 1, 83898085, 83898091)

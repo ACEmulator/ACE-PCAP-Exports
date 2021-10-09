@@ -25,22 +25,22 @@ VALUES (7105,   1, 'White Phyntos Wasp') /* Name */
      , (7105, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7105,   1,   33558817) /* Setup */
-     , (7105,   2,  150995303) /* MotionTable */
-     , (7105,   3,  536870926) /* SoundTable */
-     , (7105,   6,   67115262) /* PaletteBase */
-     , (7105,   8,  100667450) /* Icon */
-     , (7105,  22,  872415266) /* PhysicsEffectTable */
+VALUES (7105,   1, 0x02001121) /* Setup */
+     , (7105,   2, 0x09000167) /* MotionTable */
+     , (7105,   3, 0x2000000E) /* SoundTable */
+     , (7105,   6, 0x040018FE) /* PaletteBase */
+     , (7105,   8, 0x0600103A) /* Icon */
+     , (7105,  22, 0x34000022) /* PhysicsEffectTable */
      , (7105, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7105, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7105, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7105, 8040, 2376990734, 46.12056, 140.2858, 48.012, -0.884901, 0, 0, -0.4657791) /* PCAPRecordedLocation */
+VALUES (7105, 8040, 0x8DAE000E, 46.12056, 140.2858, 48.012, -0.884901, 0, 0, -0.465779) /* PCAPRecordedLocation */
 /* @teleloc 0x8DAE000E [46.120560 140.285800 48.012000] -0.884901 0.000000 0.000000 -0.465779 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7105, 8000, 3685934669) /* PCAPRecordedObjectIID */;
+VALUES (7105, 8000, 0xDBB2E64D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7105,   1, 120, 0, 0) /* Strength */

@@ -26,18 +26,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51474,   1, 'Orb of the Bunny Booty') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51474,   1,   33556870) /* Setup */
-     , (51474,   3,  536870932) /* SoundTable */
-     , (51474,   6,   67109300) /* PaletteBase */
-     , (51474,   8,  100669116) /* Icon */
-     , (51474,  22,  872415275) /* PhysicsEffectTable */
-     , (51474,  50,  100667895) /* IconOverlay */
+VALUES (51474,   1, 0x02000986) /* Setup */
+     , (51474,   3, 0x20000014) /* SoundTable */
+     , (51474,   6, 0x040001B4) /* PaletteBase */
+     , (51474,   8, 0x060016BC) /* Icon */
+     , (51474,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51474,  50, 0x060011F7) /* IconOverlay */
      , (51474, 8001, 1344827416) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType, IconOverlay */
      , (51474, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51474, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51474, 8000, 2205009108) /* PCAPRecordedObjectIID */;
+VALUES (51474, 8000, 0x836DC4D4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51474, 67111338, 0, 0);

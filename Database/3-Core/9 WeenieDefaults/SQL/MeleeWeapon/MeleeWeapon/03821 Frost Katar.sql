@@ -48,18 +48,18 @@ VALUES (3821,   1, 'Frost Katar') /* Name */
      , (3821,  16, 'Frost Katar of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3821,   1,   33555760) /* Setup */
-     , (3821,   3,  536870932) /* SoundTable */
-     , (3821,   8,  100668934) /* Icon */
-     , (3821,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3821,   1, 0x02000530) /* Setup */
+     , (3821,   3, 0x20000014) /* SoundTable */
+     , (3821,   8, 0x06001606) /* Icon */
+     , (3821,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3821,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3821, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3821, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3821, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3821, 8000, 3693827412) /* PCAPRecordedObjectIID */;
+VALUES (3821, 8000, 0xDC2B5554) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3821,    49,      2)  /* SwiftKillerSelf1 */
-     , (3821,  1612,      2)  /* BloodDrinkerSelf2 */;
+VALUES (3821,  1612,      2)  /* BloodDrinkerSelf2 */
+     , (3821,    49,      2)  /* SwiftKillerSelf1 */;

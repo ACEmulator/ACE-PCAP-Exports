@@ -45,18 +45,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44379,   1, 'Deadly Broadhead Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44379,   1,   33554724) /* Setup */
-     , (44379,   3,  536870932) /* SoundTable */
-     , (44379,   6,   67111919) /* PaletteBase */
-     , (44379,   8,  100672662) /* Icon */
-     , (44379,  22,  872415275) /* PhysicsEffectTable */
-     , (44379,  50,  100689661) /* IconOverlay */
+VALUES (44379,   1, 0x02000124) /* Setup */
+     , (44379,   3, 0x20000014) /* SoundTable */
+     , (44379,   6, 0x04000BEF) /* PaletteBase */
+     , (44379,   8, 0x06002496) /* Icon */
+     , (44379,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44379,  50, 0x060066FD) /* IconOverlay */
      , (44379, 8001, 1344369432) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (44379, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44379, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44379, 8000, 3333032476) /* PCAPRecordedObjectIID */;
+VALUES (44379, 8000, 0xC6AA0A1C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44379, 67111925, 0, 0);

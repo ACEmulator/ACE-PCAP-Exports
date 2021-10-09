@@ -20,6 +20,7 @@ VALUES (52782,   1,      16384) /* ItemType - Key */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52782,  22, True ) /* Inscribable */
+     , (52782,  23, True ) /* DestroyOnSell */
      , (52782,  69, False) /* IsSellable */
      , (52782,  99, False) /* Ivoryable */;
 
@@ -29,13 +30,13 @@ VALUES (52782,   1, 'Gauntlet Treasure Key') /* Name */
      , (52782,  16, 'A dark silver key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52782,   1,   33554784) /* Setup */
-     , (52782,   3,  536870932) /* SoundTable */
-     , (52782,   8,  100693319) /* Icon */
-     , (52782,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52782,   1, 0x02000160) /* Setup */
+     , (52782,   3, 0x20000014) /* SoundTable */
+     , (52782,   8, 0x06007547) /* Icon */
+     , (52782,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52782, 8001,    2641040) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden */
      , (52782, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52782, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52782, 8000, 2906187710) /* PCAPRecordedObjectIID */;
+VALUES (52782, 8000, 0xAD38E7BE) /* PCAPRecordedObjectIID */;

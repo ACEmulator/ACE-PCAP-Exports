@@ -17,17 +17,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24849,   1, 'Gauloth Shreth Hide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24849,   1,   33554817) /* Setup */
-     , (24849,   3,  536870932) /* SoundTable */
-     , (24849,   6,   67111919) /* PaletteBase */
-     , (24849,   8,  100674493) /* Icon */
-     , (24849,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24849,   1, 0x02000181) /* Setup */
+     , (24849,   3, 0x20000014) /* SoundTable */
+     , (24849,   6, 0x04000BEF) /* PaletteBase */
+     , (24849,   8, 0x06002BBD) /* Icon */
+     , (24849,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24849, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (24849, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24849, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24849, 8000, 2928051640) /* PCAPRecordedObjectIID */;
+VALUES (24849, 8000, 0xAE8685B8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24849, 67111918, 0, 0);

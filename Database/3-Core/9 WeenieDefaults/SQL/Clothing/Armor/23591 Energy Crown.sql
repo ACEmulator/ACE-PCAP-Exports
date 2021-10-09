@@ -39,23 +39,23 @@ VALUES (23591,   1, 'Energy Crown') /* Name */
      , (23591,  16, 'A crown made of some sort of solidified energy.  When you wear it, you feel revitalized and protected.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23591,   1,   33557336) /* Setup */
-     , (23591,   3,  536870932) /* SoundTable */
-     , (23591,   6,   67108990) /* PaletteBase */
-     , (23591,   8,  100672117) /* Icon */
-     , (23591,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23591,   1, 0x02000B58) /* Setup */
+     , (23591,   3, 0x20000014) /* SoundTable */
+     , (23591,   6, 0x0400007E) /* PaletteBase */
+     , (23591,   8, 0x06002275) /* Icon */
+     , (23591,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23591, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (23591, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23591, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23591, 8000, 2159693849) /* PCAPRecordedObjectIID */;
+VALUES (23591, 8000, 0x80BA5019) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23591,   191,      2)  /* RejuvenationSelf4 */
+VALUES (23591,  1484,      2)  /* Impenetrability4 */
      , (23591,   277,      2)  /* MagicResistanceSelf4 */
      , (23591,  1069,      2)  /* LightningProtectionSelf4 */
-     , (23591,  1484,      2)  /* Impenetrability4 */;
+     , (23591,   191,      2)  /* RejuvenationSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23591, 67113383, 240, 16);

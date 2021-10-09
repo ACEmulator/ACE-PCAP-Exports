@@ -20,12 +20,12 @@ VALUES (13209,   1, 'Wreath') /* Name */
      , (13209,  15, 'A Holiday decoration you can hang on your wall.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13209,   1,   33557450) /* Setup */
-     , (13209,   8,  100672434) /* Icon */
-     , (13209,  22,  872415275) /* PhysicsEffectTable */
+VALUES (13209,   1, 0x02000BCA) /* Setup */
+     , (13209,   8, 0x060023B2) /* Icon */
+     , (13209,  22, 0x3400002B) /* PhysicsEffectTable */
      , (13209, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (13209, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (13209, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13209, 8000, 3658163574) /* PCAPRecordedObjectIID */;
+VALUES (13209, 8000, 0xDA0B2576) /* PCAPRecordedObjectIID */;

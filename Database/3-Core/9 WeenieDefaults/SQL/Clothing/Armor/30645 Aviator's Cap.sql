@@ -46,24 +46,24 @@ VALUES (30645,   1, 'Aviator''s Cap') /* Name */
      , (30645,  25, 'Luge') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30645,   1,   33559211) /* Setup */
-     , (30645,   3,  536870932) /* SoundTable */
-     , (30645,   6,   67108990) /* PaletteBase */
-     , (30645,   8,  100677392) /* Icon */
-     , (30645,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30645,   1, 0x020012AB) /* Setup */
+     , (30645,   3, 0x20000014) /* SoundTable */
+     , (30645,   6, 0x0400007E) /* PaletteBase */
+     , (30645,   8, 0x06003710) /* Icon */
+     , (30645,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30645, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (30645, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30645, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30645, 8000, 2153709856) /* PCAPRecordedObjectIID */;
+VALUES (30645, 8000, 0x805F0120) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30645,   217,      2)  /* ManaRenewalSelf6 */
-     , (30645,  1023,      2)  /* BludgeonProtectionSelf6 */
-     , (30645,  1035,      2)  /* ColdProtectionSelf6 */
+VALUES (30645,  1035,      2)  /* ColdProtectionSelf6 */
+     , (30645,  2067,      2)  /* FocusSelf7 */
+     , (30645,   217,      2)  /* ManaRenewalSelf6 */
      , (30645,  1069,      2)  /* LightningProtectionSelf4 */
-     , (30645,  2067,      2)  /* FocusSelf7 */;
+     , (30645,  1023,      2)  /* BludgeonProtectionSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30645, 67115487, 240, 16);

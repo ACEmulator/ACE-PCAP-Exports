@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22839,   1, 'Crystal Vase with a Snowflower') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22839,   1,   33558165) /* Setup */
-     , (22839,   3,  536870932) /* SoundTable */
-     , (22839,   8,  100673927) /* Icon */
-     , (22839,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22839,   1, 0x02000E95) /* Setup */
+     , (22839,   3, 0x20000014) /* SoundTable */
+     , (22839,   8, 0x06002987) /* Icon */
+     , (22839,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22839, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (22839, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22839, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22839, 8000, 3695389259) /* PCAPRecordedObjectIID */;
+VALUES (22839, 8000, 0xDC432A4B) /* PCAPRecordedObjectIID */;

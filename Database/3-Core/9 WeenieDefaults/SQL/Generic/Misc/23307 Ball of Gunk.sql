@@ -21,13 +21,13 @@ VALUES (23307,   1, 'Ball of Gunk') /* Name */
      , (23307,  16, 'A squishy ball of green gunk.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23307,   1,   33558277) /* Setup */
-     , (23307,   3,  536870932) /* SoundTable */
-     , (23307,   8,  100674231) /* Icon */
-     , (23307,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23307,   1, 0x02000F05) /* Setup */
+     , (23307,   3, 0x20000014) /* SoundTable */
+     , (23307,   8, 0x06002AB7) /* Icon */
+     , (23307,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23307, 8001,  270614552) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden, HookType */
      , (23307, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23307, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23307, 8000, 3658160308) /* PCAPRecordedObjectIID */;
+VALUES (23307, 8000, 0xDA0B18B4) /* PCAPRecordedObjectIID */;

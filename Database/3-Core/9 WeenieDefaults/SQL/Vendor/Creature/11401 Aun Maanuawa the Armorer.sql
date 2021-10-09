@@ -34,21 +34,21 @@ VALUES (11401,   1, 'Aun Maanuawa the Armorer') /* Name */
      , (11401, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11401,   1,   33557117) /* Setup */
-     , (11401,   2,  150994954) /* MotionTable */
-     , (11401,   3,  536870931) /* SoundTable */
-     , (11401,   6,   67113280) /* PaletteBase */
-     , (11401,   8,  100671756) /* Icon */
+VALUES (11401,   1, 0x02000A7D) /* Setup */
+     , (11401,   2, 0x0900000A) /* MotionTable */
+     , (11401,   3, 0x20000013) /* SoundTable */
+     , (11401,   6, 0x04001140) /* PaletteBase */
+     , (11401,   8, 0x0600210C) /* Icon */
      , (11401, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (11401, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (11401, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11401, 8040, 515244038, 18.8473, 140.352, 120.006, -0.204776, 0, 0, -0.9788089) /* PCAPRecordedLocation */
+VALUES (11401, 8040, 0x1EB60006, 18.8473, 140.352, 120.006, -0.204776, 0, 0, -0.978809) /* PCAPRecordedLocation */
 /* @teleloc 0x1EB60006 [18.847300 140.352000 120.006000] -0.204776 0.000000 0.000000 -0.978809 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11401, 8000, 1911250963) /* PCAPRecordedObjectIID */;
+VALUES (11401, 8000, 0x71EB6013) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11401,   1, 120, 0, 0) /* Strength */
@@ -108,6 +108,7 @@ VALUES (11401, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554
      , (11401, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
      , (11401, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
      , (11401, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
+     , (11401, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (11401, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
      , (11401, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
      , (11401, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

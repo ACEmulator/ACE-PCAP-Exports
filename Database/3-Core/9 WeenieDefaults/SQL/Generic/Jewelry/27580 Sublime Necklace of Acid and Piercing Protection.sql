@@ -25,6 +25,7 @@ VALUES (27580,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27580,  22, True ) /* Inscribable */
+     , (27580,  23, True ) /* DestroyOnSell */
      , (27580,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -36,21 +37,21 @@ VALUES (27580,   1, 'Sublime Necklace of Acid and Piercing Protection') /* Name 
      , (27580,  15, 'A necklace of acid and piercing protection, given by Behdo Yii for completing the Eviscerator quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27580,   1,   33554689) /* Setup */
-     , (27580,   3,  536870932) /* SoundTable */
-     , (27580,   6,   67111919) /* PaletteBase */
-     , (27580,   8,  100668682) /* Icon */
-     , (27580,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27580,   1, 0x02000101) /* Setup */
+     , (27580,   3, 0x20000014) /* SoundTable */
+     , (27580,   6, 0x04000BEF) /* PaletteBase */
+     , (27580,   8, 0x0600150A) /* Icon */
+     , (27580,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27580, 8001,  270614672) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (27580, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27580, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27580, 8000, 2980941640) /* PCAPRecordedObjectIID */;
+VALUES (27580, 8000, 0xB1AD8F48) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27580,   243,      2)  /* InvulnerabilityOther5 */
-     , (27580,   514,      2)  /* AcidProtectionOther6 */
+VALUES (27580,   514,      2)  /* AcidProtectionOther6 */
+     , (27580,   243,      2)  /* InvulnerabilityOther5 */
      , (27580,  1144,      2)  /* PiercingProtectionOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

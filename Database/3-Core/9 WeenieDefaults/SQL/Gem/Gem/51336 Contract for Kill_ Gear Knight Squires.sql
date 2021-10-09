@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51336,   1, 'Contract for Kill: Gear Knight Squires') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51336,   1,   33557625) /* Setup */
-     , (51336,   3,  536870932) /* SoundTable */
-     , (51336,   8,  100691930) /* Icon */
-     , (51336,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51336,   1, 0x02000C79) /* Setup */
+     , (51336,   3, 0x20000014) /* SoundTable */
+     , (51336,   8, 0x06006FDA) /* Icon */
+     , (51336,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51336, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (51336, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (51336, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (51336,   1,   33557625) /* Setup */
      , (51336, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51336, 8000,      51336) /* PCAPRecordedObjectIID */;
+VALUES (51336, 8000, 0x0000C888) /* PCAPRecordedObjectIID */;

@@ -8,7 +8,6 @@ VALUES (23784,   1,          2) /* ItemType - Armor */
      , (23784,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (23784,   5,       1600) /* EncumbranceVal */
      , (23784,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
-     , (23784,  10,       6656) /* CurrentWieldedLocation - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (23784,  16,          1) /* ItemUseable - No */
      , (23784,  18,          1) /* UiEffects - Magical */
      , (23784,  19,       2610) /* Value */
@@ -46,17 +45,17 @@ VALUES (23784,   1, 'Solid Amuli Coat') /* Name */
      , (23784,   8, 'Zaphyr') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23784,   1,   33554854) /* Setup */
-     , (23784,   3,  536870932) /* SoundTable */
-     , (23784,   6,   67108990) /* PaletteBase */
-     , (23784,   8,  100674067) /* Icon */
-     , (23784,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23784,   1, 0x020001A6) /* Setup */
+     , (23784,   3, 0x20000014) /* SoundTable */
+     , (23784,   6, 0x0400007E) /* PaletteBase */
+     , (23784,   8, 0x06002A13) /* Icon */
+     , (23784,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23784, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (23784, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23784, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23784, 8000, 3331550848) /* PCAPRecordedObjectIID */;
+VALUES (23784, 8000, 0xC6936E80) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23784,  2614,      2)  /* CANTRIPSLASHINGWARD2 */;

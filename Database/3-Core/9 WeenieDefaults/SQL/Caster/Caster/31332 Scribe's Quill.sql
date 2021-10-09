@@ -10,6 +10,7 @@ VALUES (31332,   1,      32768) /* ItemType - Caster */
      , (31332,  16,          1) /* ItemUseable - No */
      , (31332,  19,      12357) /* Value */
      , (31332,  33,          0) /* Bonded - Normal */
+     , (31332,  46,        512) /* DefaultCombatStyle - Magic */
      , (31332,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31332,  94,         16) /* TargetType - Creature */
      , (31332, 106,        350) /* ItemSpellcraft */
@@ -35,17 +36,17 @@ VALUES (31332,   1, 'Scribe''s Quill') /* Name */
      , (31332,   8, 'The Green Machine') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31332,   1,   33559614) /* Setup */
-     , (31332,   3,  536870932) /* SoundTable */
-     , (31332,   8,  100687943) /* Icon */
-     , (31332,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31332,   1, 0x0200143E) /* Setup */
+     , (31332,   3, 0x20000014) /* SoundTable */
+     , (31332,   8, 0x06006047) /* Icon */
+     , (31332,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31332,  37,         18) /* ItemSkillLimit - ItemTinkering */
      , (31332, 8001,  271138840) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, TargetType, Burden, HookType */
      , (31332, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31332, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31332, 8000, 2978131527) /* PCAPRecordedObjectIID */;
+VALUES (31332, 8000, 0xB182AE47) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31332,  2251,      2)  /* ItemExpertiseSelf7 */

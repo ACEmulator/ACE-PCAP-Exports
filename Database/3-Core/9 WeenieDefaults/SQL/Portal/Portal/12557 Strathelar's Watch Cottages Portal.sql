@@ -22,16 +22,16 @@ VALUES (12557,   1, 'Strathelar''s Watch Cottages Portal') /* Name */
      , (12557, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12557,   1,   33554867) /* Setup */
-     , (12557,   2,  150994947) /* MotionTable */
-     , (12557,   8,  100667499) /* Icon */
+VALUES (12557,   1, 0x020001B3) /* Setup */
+     , (12557,   2, 0x09000003) /* MotionTable */
+     , (12557,   8, 0x0600106B) /* Icon */
      , (12557, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12557, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12557, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12557, 8040, 3432316947, 51.9455, 51.3708, 21.60821, 0.4040201, 0, 0, 0.9147501) /* PCAPRecordedLocation */
+VALUES (12557, 8040, 0xCC950013, 51.9455, 51.3708, 21.60821, 0.40402, 0, 0, 0.91475) /* PCAPRecordedLocation */
 /* @teleloc 0xCC950013 [51.945500 51.370800 21.608210] 0.404020 0.000000 0.000000 0.914750 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12557, 8000, 2093568001) /* PCAPRecordedObjectIID */;
+VALUES (12557, 8000, 0x7CC95001) /* PCAPRecordedObjectIID */;

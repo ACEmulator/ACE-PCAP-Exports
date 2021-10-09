@@ -23,17 +23,17 @@ VALUES (35807,   1, 'Gladiator Diemos Statue') /* Name */
      , (35807, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35807,   1,   33560265) /* Setup */
-     , (35807,   2,  150995206) /* MotionTable */
-     , (35807,   3,  536871052) /* SoundTable */
-     , (35807,   8,  100674350) /* Icon */
-     , (35807,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35807,   1, 0x020016C9) /* Setup */
+     , (35807,   2, 0x09000106) /* MotionTable */
+     , (35807,   3, 0x2000008C) /* SoundTable */
+     , (35807,   8, 0x06002B2E) /* Icon */
+     , (35807,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35807, 8001,  270549136) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden, HookType */
      , (35807, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35807, 8005,      71683) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35807, 8000, 2151959408) /* PCAPRecordedObjectIID */;
+VALUES (35807, 8000, 0x80444B70) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (35807, 0, 83894477, 83897668)

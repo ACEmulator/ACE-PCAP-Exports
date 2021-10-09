@@ -15,7 +15,7 @@ VALUES (29250,   1,        256) /* ItemType - MissileWeapon */
      , (29250,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29250,  49,         99) /* WeaponTime */
      , (29250,  50,          2) /* AmmoType - Bolt */
-     , (29250,  51,          2) /* CombatUse - Missle */
+     , (29250,  51,          2) /* CombatUse - Missile */
      , (29250,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29250, 105,          7) /* ItemWorkmanship */
      , (29250, 106,        197) /* ItemSpellcraft */
@@ -55,22 +55,22 @@ VALUES (29250,   1, 'Piercing Crossbow') /* Name */
      , (29250,  16, 'Piercing Crossbow of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29250,   1,   33559235) /* Setup */
-     , (29250,   3,  536870932) /* SoundTable */
-     , (29250,   6,   67115373) /* PaletteBase */
-     , (29250,   8,  100677446) /* Icon */
-     , (29250,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29250,   1, 0x020012C3) /* Setup */
+     , (29250,   3, 0x20000014) /* SoundTable */
+     , (29250,   6, 0x0400196D) /* PaletteBase */
+     , (29250,   8, 0x06003746) /* Icon */
+     , (29250,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29250,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (29250, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (29250, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29250, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29250, 8000, 2948073672) /* PCAPRecordedObjectIID */;
+VALUES (29250, 8000, 0xAFB808C8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29250,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (29250,  2540,      2)  /* CANTRIPBOWAPTITUDE1 */
+     , (29250,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */
      , (29250,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

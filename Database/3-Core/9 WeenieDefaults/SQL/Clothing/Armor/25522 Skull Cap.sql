@@ -40,21 +40,21 @@ VALUES (25522,   1, 'Skull Cap') /* Name */
      , (25522,  16, 'Once the head of a powerful undead, this skull cap has retained some magical qualities. It can be worn on the head for protection, and the benefit of its enchantments.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25522,   1,   33558495) /* Setup */
-     , (25522,   3,  536870932) /* SoundTable */
-     , (25522,   6,   67108990) /* PaletteBase */
-     , (25522,   8,  100674953) /* Icon */
-     , (25522,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25522,   1, 0x02000FDF) /* Setup */
+     , (25522,   3, 0x20000014) /* SoundTable */
+     , (25522,   6, 0x0400007E) /* PaletteBase */
+     , (25522,   8, 0x06002D89) /* Icon */
+     , (25522,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25522, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (25522, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25522, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25522, 8000, 2156005105) /* PCAPRecordedObjectIID */;
+VALUES (25522, 8000, 0x808206F1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25522,   211,      2)  /* ManaRenewalOther6 */
-     , (25522,  1486,      2)  /* Impenetrability6 */
+VALUES (25522,  1486,      2)  /* Impenetrability6 */
+     , (25522,   211,      2)  /* ManaRenewalOther6 */
      , (25522,  2012,      2)  /* WizardsIntellect */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

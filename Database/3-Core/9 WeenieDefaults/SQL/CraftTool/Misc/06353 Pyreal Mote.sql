@@ -29,17 +29,17 @@ VALUES (6353,   1, 'Pyreal Mote') /* Name */
      , (6353,  16, 'A mote of pyreal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6353,   1,   33556406) /* Setup */
-     , (6353,   3,  536870932) /* SoundTable */
-     , (6353,   6,   67111919) /* PaletteBase */
-     , (6353,   8,  100670504) /* Icon */
-     , (6353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6353,   1, 0x020007B6) /* Setup */
+     , (6353,   3, 0x20000014) /* SoundTable */
+     , (6353,   6, 0x04000BEF) /* PaletteBase */
+     , (6353,   8, 0x06001C28) /* Icon */
+     , (6353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6353, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (6353, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6353, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6353, 8000, 3690100089) /* PCAPRecordedObjectIID */;
+VALUES (6353, 8000, 0xDBF27579) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6353, 67111919, 0, 0);

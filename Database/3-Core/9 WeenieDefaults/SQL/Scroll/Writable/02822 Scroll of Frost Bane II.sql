@@ -24,13 +24,13 @@ VALUES (2822,   1, 'Scroll of Frost Bane II') /* Name */
 Increases a shield or piece of armor''s resistance to cold damage by 25%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2822,   1,   33554826) /* Setup */
-     , (2822,   8,  100676652) /* Icon */
-     , (2822,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2822,   1, 0x0200018A) /* Setup */
+     , (2822,   8, 0x0600342C) /* Icon */
+     , (2822,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2822,  28,       1524) /* Spell - FrostBane2 */
      , (2822, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2822, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2822, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2822, 8000, 3330278441) /* PCAPRecordedObjectIID */;
+VALUES (2822, 8000, 0xC6800429) /* PCAPRecordedObjectIID */;

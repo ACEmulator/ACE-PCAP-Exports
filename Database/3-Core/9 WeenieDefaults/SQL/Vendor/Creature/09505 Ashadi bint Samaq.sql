@@ -36,27 +36,27 @@ VALUES (9505,   1, 'Ashadi bint Samaq') /* Name */
      , (9505, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9505,   1,   33554510) /* Setup */
-     , (9505,   2,  150994945) /* MotionTable */
-     , (9505,   3,  536870914) /* SoundTable */
-     , (9505,   6,   67108990) /* PaletteBase */
-     , (9505,   8,  100667446) /* Icon */
-     , (9505,   9,   83890262) /* EyesTexture */
-     , (9505,  10,   83890290) /* NoseTexture */
-     , (9505,  11,   83890356) /* MouthTexture */
-     , (9505,  15,   67116995) /* HairPalette */
-     , (9505,  16,   67110063) /* EyesPalette */
-     , (9505,  17,   67109555) /* SkinPalette */
+VALUES (9505,   1, 0x0200004E) /* Setup */
+     , (9505,   2, 0x09000001) /* MotionTable */
+     , (9505,   3, 0x20000002) /* SoundTable */
+     , (9505,   6, 0x0400007E) /* PaletteBase */
+     , (9505,   8, 0x06001036) /* Icon */
+     , (9505,   9, 0x05001056) /* EyesTexture */
+     , (9505,  10, 0x05001072) /* NoseTexture */
+     , (9505,  11, 0x050010B4) /* MouthTexture */
+     , (9505,  15, 0x04001FC3) /* HairPalette */
+     , (9505,  16, 0x040004AF) /* EyesPalette */
+     , (9505,  17, 0x040002B3) /* SkinPalette */
      , (9505, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (9505, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (9505, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9505, 8040, 2120483097, 111.432, 110.962, 12.005, -0.6702675, 0, 0, -0.7421196) /* PCAPRecordedLocation */
+VALUES (9505, 8040, 0x7E640119, 111.432, 110.962, 12.005, -0.670268, 0, 0, -0.74212) /* PCAPRecordedLocation */
 /* @teleloc 0x7E640119 [111.432000 110.962000 12.005000] -0.670268 0.000000 0.000000 -0.742120 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9505, 8000, 2011578382) /* PCAPRecordedObjectIID */;
+VALUES (9505, 8000, 0x77E6400E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9505,   1,  60, 0, 0) /* Strength */
@@ -81,11 +81,7 @@ VALUES (9505, 4,  9517, -1, 0, 0, False) /* Create A Guide to Gan-Zo's Den of In
      , (9505, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (9505, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
      , (9505, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
-     , (9505, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */
-     , (9505, 4, 44724, -1, 0, 0, False) /* Create Banderling (44724) for Shop */
-     , (9505, 4, 44748, -1, 0, 0, False) /* Create Mattekar (44748) for Shop */
-     , (9505, 4, 44767, -1, 0, 0, False) /* Create Shreth (44767) for Shop */
-     , (9505, 4, 44743, -1, 0, 0, False) /* Create Idol (44743) for Shop */;
+     , (9505, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9505, 67109555, 0, 24)

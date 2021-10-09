@@ -25,22 +25,22 @@ VALUES (1764,   1, 'Greater Mu-miyah') /* Name */
      , (1764, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1764,   1,   33554433) /* Setup */
-     , (1764,   2,  150994981) /* MotionTable */
-     , (1764,   3,  536870942) /* SoundTable */
-     , (1764,   6,   67108990) /* PaletteBase */
-     , (1764,   8,  100669122) /* Icon */
-     , (1764,  22,  872415272) /* PhysicsEffectTable */
+VALUES (1764,   1, 0x02000001) /* Setup */
+     , (1764,   2, 0x09000025) /* MotionTable */
+     , (1764,   3, 0x2000001E) /* SoundTable */
+     , (1764,   6, 0x0400007E) /* PaletteBase */
+     , (1764,   8, 0x060016C2) /* Icon */
+     , (1764,  22, 0x34000028) /* PhysicsEffectTable */
      , (1764, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1764, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1764, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1764, 8040, 2488664067, 1.139374, 50.27451, 12.006, 0.9991655, 0, 0, -0.04084387) /* PCAPRecordedLocation */
+VALUES (1764, 8040, 0x94560003, 1.139374, 50.27451, 12.006, 0.999166, 0, 0, -0.040844) /* PCAPRecordedLocation */
 /* @teleloc 0x94560003 [1.139374 50.274510 12.006000] 0.999166 0.000000 0.000000 -0.040844 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1764, 8000, 3685887378) /* PCAPRecordedObjectIID */;
+VALUES (1764, 8000, 0xDBB22D92) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1764,   1,  40, 0, 0) /* Strength */
@@ -99,7 +99,8 @@ VALUES (1764, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasur
      , (1764, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
      , (1764, 9, 40626,  0, 0, 0, False) /* Create Flaming Quadrelle (40626) for ContainTreasure */
      , (1764, 9, 31758,  0, 0, 0, False) /* Create Frost Dericost Blade (31758) for ContainTreasure */
-     , (1764, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */;
+     , (1764, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
+     , (1764, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1764, 67111814, 0, 0);

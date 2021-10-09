@@ -37,27 +37,27 @@ VALUES (650,   1, 'Rundiscar the Weaponsmith') /* Name */
      , (650, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (650,   1,   33554433) /* Setup */
-     , (650,   2,  150994945) /* MotionTable */
-     , (650,   3,  536870913) /* SoundTable */
-     , (650,   6,   67108990) /* PaletteBase */
-     , (650,   8,  100667446) /* Icon */
-     , (650,   9,   83890508) /* EyesTexture */
-     , (650,  10,   83890520) /* NoseTexture */
-     , (650,  11,   83890667) /* MouthTexture */
-     , (650,  15,   67117074) /* HairPalette */
-     , (650,  16,   67109567) /* EyesPalette */
-     , (650,  17,   67109558) /* SkinPalette */
+VALUES (650,   1, 0x02000001) /* Setup */
+     , (650,   2, 0x09000001) /* MotionTable */
+     , (650,   3, 0x20000001) /* SoundTable */
+     , (650,   6, 0x0400007E) /* PaletteBase */
+     , (650,   8, 0x06001036) /* Icon */
+     , (650,   9, 0x0500114C) /* EyesTexture */
+     , (650,  10, 0x05001158) /* NoseTexture */
+     , (650,  11, 0x050011EB) /* MouthTexture */
+     , (650,  15, 0x04002012) /* HairPalette */
+     , (650,  16, 0x040002BF) /* EyesPalette */
+     , (650,  17, 0x040002B6) /* SkinPalette */
      , (650, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (650, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (650, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (650, 8040, 3465871682, 155.28, 30.84, 20.005, -0.0932395, 0, 0, -0.9956437) /* PCAPRecordedLocation */
+VALUES (650, 8040, 0xCE950142, 155.28, 30.84, 20.005, -0.09324, 0, 0, -0.995644) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950142 [155.280000 30.840000 20.005000] -0.093240 0.000000 0.000000 -0.995644 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (650, 8000, 2095665183) /* PCAPRecordedObjectIID */;
+VALUES (650, 8000, 0x7CE9501F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (650,   1, 100, 0, 0) /* Strength */
@@ -87,6 +87,7 @@ VALUES (650, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
      , (650, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (650, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (650, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (650, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
      , (650, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
      , (650, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
      , (650, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */

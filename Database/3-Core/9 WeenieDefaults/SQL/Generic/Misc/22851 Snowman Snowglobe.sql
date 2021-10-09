@@ -20,11 +20,11 @@ VALUES (22851,   1, 'Snowman Snowglobe') /* Name */
      , (22851,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22851,   1,   33558133) /* Setup */
-     , (22851,   8,  100673882) /* Icon */
+VALUES (22851,   1, 0x02000E75) /* Setup */
+     , (22851,   8, 0x0600295A) /* Icon */
      , (22851, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (22851, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22851, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22851, 8000, 2151960035) /* PCAPRecordedObjectIID */;
+VALUES (22851, 8000, 0x80444DE3) /* PCAPRecordedObjectIID */;

@@ -18,7 +18,7 @@ VALUES (52733,   1,        256) /* ItemType - MissileWeapon */
      , (52733,  45,          2) /* DamageType - Pierce */
      , (52733,  48,         47) /* WeaponSkill - MissileWeapons */
      , (52733,  49,         10) /* WeaponTime */
-     , (52733,  51,          2) /* CombatUse - Missle */
+     , (52733,  51,          2) /* CombatUse - Missile */
      , (52733,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (52733, 106,        475) /* ItemSpellcraft */
      , (52733, 107,       2700) /* ItemCurMana */
@@ -53,20 +53,20 @@ VALUES (52733,   1, 'Vortex Thorn') /* Name */
      , (52733,  16, 'A magical throwing thorn that returns to your hand when thrown.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52733,   1,   33561677) /* Setup */
-     , (52733,   3,  536870932) /* SoundTable */
-     , (52733,   8,  100693346) /* Icon */
-     , (52733,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52733,   1, 0x02001C4D) /* Setup */
+     , (52733,   3, 0x20000014) /* SoundTable */
+     , (52733,   8, 0x06007562) /* Icon */
+     , (52733,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52733, 8001,  270627480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (52733, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52733, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52733, 8000, 3630241583) /* PCAPRecordedObjectIID */;
+VALUES (52733, 8000, 0xD861172F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52733,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (52733,  4400,      2)  /* DefenderSelf8 */
-     , (52733,  4417,      2)  /* SwiftKillerSelf8 */
-     , (52733,  6044,      2)  /* CantripBowAptitude4 */
-     , (52733,  6089,      2)  /* CantripBloodThirst4 */;
+VALUES (52733,  4417,      2)  /* SwiftKillerSelf8 */
+     , (52733,  6089,      2)  /* CantripBloodThirst4 */
+     , (52733,  6044,      2)  /* CantripMissileWeaponsAptitude4 */
+     , (52733,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (52733,  4400,      2)  /* DefenderSelf8 */;

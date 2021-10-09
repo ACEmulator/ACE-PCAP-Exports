@@ -25,6 +25,9 @@ VALUES (28455,   1,       2048) /* ItemType - Gem */
      , (28455, 151,          2) /* HookType - Wall */
      , (28455, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (28455,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28455,  76,     0.5) /* Translucency */;
 
@@ -34,18 +37,18 @@ VALUES (28455,   1, 'Portal Gem') /* Name */
      , (28455,  15, 'A portal gem that will whisk the user into a treasure hold within High Queen Elysa''s castle.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28455,   1,   33556769) /* Setup */
-     , (28455,   3,  536870932) /* SoundTable */
-     , (28455,   6,   67111919) /* PaletteBase */
-     , (28455,   8,  100672368) /* Icon */
-     , (28455,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28455,   1, 0x02000921) /* Setup */
+     , (28455,   3, 0x20000014) /* SoundTable */
+     , (28455,   6, 0x04000BEF) /* PaletteBase */
+     , (28455,   8, 0x06002370) /* Icon */
+     , (28455,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28455,  28,       3411) /* Spell - PortalSendingMorgluukReward */
      , (28455, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (28455, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (28455, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28455, 8000, 2841566972) /* PCAPRecordedObjectIID */;
+VALUES (28455, 8000, 0xA95EDEFC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28455, 67111924, 0, 0);

@@ -24,13 +24,13 @@ VALUES (20455,   1, 'Scroll of Alset''s Coil') /* Name */
 Shoots a bolt of lighting at the target. The bolt does 115-189 points of electrical damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20455,   1,   33554826) /* Setup */
-     , (20455,   8,  100677013) /* Icon */
-     , (20455,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20455,   1, 0x0200018A) /* Setup */
+     , (20455,   8, 0x06003595) /* Icon */
+     , (20455,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20455,  28,       2140) /* Spell - LightningBolt7 */
      , (20455, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20455, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20455, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20455, 8000, 3686007458) /* PCAPRecordedObjectIID */;
+VALUES (20455, 8000, 0xDBB402A2) /* PCAPRecordedObjectIID */;

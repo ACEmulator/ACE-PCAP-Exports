@@ -52,22 +52,22 @@ VALUES (31773,   1, 'Frost Board with Nail') /* Name */
      , (31773,  16, 'Frost Board with Nail of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31773,   1,   33559655) /* Setup */
-     , (31773,   3,  536870932) /* SoundTable */
-     , (31773,   6,   67116700) /* PaletteBase */
-     , (31773,   8,  100688085) /* Icon */
-     , (31773,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31773,   1, 0x02001467) /* Setup */
+     , (31773,   3, 0x20000014) /* SoundTable */
+     , (31773,   6, 0x04001E9C) /* PaletteBase */
+     , (31773,   8, 0x060060D5) /* Icon */
+     , (31773,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31773,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (31773, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31773, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31773, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31773, 8000, 3698570098) /* PCAPRecordedObjectIID */;
+VALUES (31773, 8000, 0xDC73B372) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31773,  1331,      2)  /* StrengthSelf5 */
-     , (31773,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (31773,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (31773,  1331,      2)  /* StrengthSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31773, 67116700, 0, 101)

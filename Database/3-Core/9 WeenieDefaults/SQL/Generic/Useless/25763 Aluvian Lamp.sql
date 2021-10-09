@@ -20,13 +20,13 @@ VALUES (25763,   1, 'Aluvian Lamp') /* Name */
      , (25763,  14, 'This item can be used on wall hooks.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25763,   1,   33558533) /* Setup */
-     , (25763,   3,  536870932) /* SoundTable */
-     , (25763,   8,  100675565) /* Icon */
-     , (25763,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25763,   1, 0x02001005) /* Setup */
+     , (25763,   3, 0x20000014) /* SoundTable */
+     , (25763,   8, 0x06002FED) /* Icon */
+     , (25763,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25763, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (25763, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25763, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25763, 8000, 2148264618) /* PCAPRecordedObjectIID */;
+VALUES (25763, 8000, 0x800BEAAA) /* PCAPRecordedObjectIID */;

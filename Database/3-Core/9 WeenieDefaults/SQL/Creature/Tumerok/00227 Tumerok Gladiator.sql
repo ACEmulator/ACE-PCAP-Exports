@@ -25,22 +25,22 @@ VALUES (227,   1, 'Tumerok Gladiator') /* Name */
      , (227, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (227,   1,   33559568) /* Setup */
-     , (227,   2,  150994954) /* MotionTable */
-     , (227,   3,  536870931) /* SoundTable */
-     , (227,   6,   67116625) /* PaletteBase */
-     , (227,   8,  100667452) /* Icon */
-     , (227,  22,  872415270) /* PhysicsEffectTable */
+VALUES (227,   1, 0x02001410) /* Setup */
+     , (227,   2, 0x0900000A) /* MotionTable */
+     , (227,   3, 0x20000013) /* SoundTable */
+     , (227,   6, 0x04001E51) /* PaletteBase */
+     , (227,   8, 0x0600103C) /* Icon */
+     , (227,  22, 0x34000026) /* PhysicsEffectTable */
      , (227, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (227, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (227, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (227, 8040, 1486749733, 98.89165, 108.9488, 24.32227, 0.9659258, 0, 0, -0.258819) /* PCAPRecordedLocation */
+VALUES (227, 8040, 0x589E0025, 98.89165, 108.9488, 24.32227, 0.965926, 0, 0, -0.258819) /* PCAPRecordedLocation */
 /* @teleloc 0x589E0025 [98.891650 108.948800 24.322270] 0.965926 0.000000 0.000000 -0.258819 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (227, 8000, 3686799755) /* PCAPRecordedObjectIID */;
+VALUES (227, 8000, 0xDBC0198B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (227,   1, 150, 0, 0) /* Strength */
@@ -575,7 +575,19 @@ VALUES (227, 2, 23686,  1, 0, 0, False) /* Create Kite Shield (23686) for Wield 
      , (227, 9,  3272,  0, 0, 0, False) /* Create Scroll of Healing Ineptitude VI (3272) for ContainTreasure */
      , (227, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
      , (227, 9, 20545,  0, 0, 0, False) /* Create Scroll of Feat of Radaz (20545) for ContainTreasure */
-     , (227, 9, 20542,  0, 0, 0, False) /* Create Scroll of Yoshi's Boon (20542) for ContainTreasure */;
+     , (227, 9, 20542,  0, 0, 0, False) /* Create Scroll of Yoshi's Boon (20542) for ContainTreasure */
+     , (227, 9,  3873,  0, 0, 0, False) /* Create Acid Spear (3873) for ContainTreasure */
+     , (227, 9,  3867,  0, 0, 0, False) /* Create Flaming Silifi (3867) for ContainTreasure */
+     , (227, 9,  7787,  0, 0, 0, False) /* Create Frost Spiked Club (7787) for ContainTreasure */
+     , (227, 9, 21099,  0, 0, 0, False) /* Create Scroll of Martyr's Hecatomb V (21099) for ContainTreasure */
+     , (227, 9,  2647,  0, 0, 0, False) /* Create Scroll of Coordination Other V (2647) for ContainTreasure */
+     , (227, 9,  3437,  0, 0, 0, False) /* Create Scroll of Mana Mastery Self VI (3437) for ContainTreasure */
+     , (227, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
+     , (227, 9, 30610,  0, 0, 0, False) /* Create Acid Bastone (30610) for ContainTreasure */
+     , (227, 9, 41068,  0, 0, 0, False) /* Create Acid Shashqa (41068) for ContainTreasure */
+     , (227, 9,  2721,  0, 0, 0, False) /* Create Scroll of Quickness Self VI (2721) for ContainTreasure */
+     , (227, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
+     , (227, 9,  2203,  0, 0, 0, False) /* Create Tumerok Gladiator's Key (2203) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (227, 67116625, 153, 47)

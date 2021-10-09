@@ -15,6 +15,7 @@ VALUES (33929,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33929,  22, True ) /* Inscribable */
+     , (33929,  23, True ) /* DestroyOnSell */
      , (33929,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,13 +26,13 @@ VALUES (33929,   1, 'Letter to May''ad ibn Ibsar, from Larinne Kerendova') /* Na
      , (33929,  16, 'A closed scroll, addressed to May''ad ibn Ibsar, located at 21.7S 1.6W, in Yaraq.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33929,   1,   33554776) /* Setup */
-     , (33929,   3,  536870932) /* SoundTable */
-     , (33929,   8,  100667503) /* Icon */
-     , (33929,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33929,   1, 0x02000158) /* Setup */
+     , (33929,   3, 0x20000014) /* SoundTable */
+     , (33929,   8, 0x0600106F) /* Icon */
+     , (33929,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33929, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (33929, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33929, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33929, 8000, 2186220438) /* PCAPRecordedObjectIID */;
+VALUES (33929, 8000, 0x824F1396) /* PCAPRecordedObjectIID */;

@@ -25,22 +25,22 @@ VALUES (226,   1, 'High Tumerok') /* Name */
      , (226, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (226,   1,   33559560) /* Setup */
-     , (226,   2,  150994954) /* MotionTable */
-     , (226,   3,  536870931) /* SoundTable */
-     , (226,   6,   67116625) /* PaletteBase */
-     , (226,   8,  100667452) /* Icon */
-     , (226,  22,  872415270) /* PhysicsEffectTable */
+VALUES (226,   1, 0x02001408) /* Setup */
+     , (226,   2, 0x0900000A) /* MotionTable */
+     , (226,   3, 0x20000013) /* SoundTable */
+     , (226,   6, 0x04001E51) /* PaletteBase */
+     , (226,   8, 0x0600103C) /* Icon */
+     , (226,  22, 0x34000026) /* PhysicsEffectTable */
      , (226, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (226, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (226, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (226, 8040, 2536767533, 127.3006, 112.818, 40.006, 0.4570223, 0, 0, -0.8894553) /* PCAPRecordedLocation */
+VALUES (226, 8040, 0x9734002D, 127.3006, 112.818, 40.006, 0.457022, 0, 0, -0.889455) /* PCAPRecordedLocation */
 /* @teleloc 0x9734002D [127.300600 112.818000 40.006000] 0.457022 0.000000 0.000000 -0.889455 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (226, 8000, 3685863253) /* PCAPRecordedObjectIID */;
+VALUES (226, 8000, 0xDBB1CF55) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (226,   1, 170, 0, 0) /* Strength */
@@ -66,6 +66,7 @@ VALUES (226, 2, 23681,  1, 0, 0, False) /* Create Nekode (23681) for Wield */
      , (226, 2, 23675,  1, 0, 0, False) /* Create Katar (23675) for Wield */
      , (226, 2, 23701,  1, 0, 0, False) /* Create Tachi (23701) for Wield */
      , (226, 2, 23697,  1, 0, 0, False) /* Create Spear (23697) for Wield */
+     , (226, 2, 47712,  1, 0, 0, False) /* Create Acid Spear (47712) for Wield */
      , (226, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
      , (226, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
      , (226, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */

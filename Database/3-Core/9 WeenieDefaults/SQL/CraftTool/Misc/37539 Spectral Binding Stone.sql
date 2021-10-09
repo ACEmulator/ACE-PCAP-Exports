@@ -20,7 +20,8 @@ VALUES (37539,   1,        128) /* ItemType - Misc */
      , (37539, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37539,  22, True ) /* Inscribable */;
+VALUES (37539,  22, True ) /* Inscribable */
+     , (37539,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37539,   1, 'Spectral Binding Stone') /* Name */
@@ -28,15 +29,15 @@ VALUES (37539,   1, 'Spectral Binding Stone') /* Name */
      , (37539,  16, 'A stone to bind a spectral weapon to your soul.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37539,   1,   33554769) /* Setup */
-     , (37539,   3,  536870932) /* SoundTable */
-     , (37539,   8,  100673285) /* Icon */
-     , (37539,  22,  872415275) /* PhysicsEffectTable */
-     , (37539,  52,  100689823) /* IconUnderlay */
+VALUES (37539,   1, 0x02000151) /* Setup */
+     , (37539,   3, 0x20000014) /* SoundTable */
+     , (37539,   8, 0x06002705) /* Icon */
+     , (37539,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37539,  52, 0x0600679F) /* IconUnderlay */
      , (37539, 8001,    2650264) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (37539, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (37539, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (37539, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37539, 8000, 2191784320) /* PCAPRecordedObjectIID */;
+VALUES (37539, 8000, 0x82A3F980) /* PCAPRecordedObjectIID */;

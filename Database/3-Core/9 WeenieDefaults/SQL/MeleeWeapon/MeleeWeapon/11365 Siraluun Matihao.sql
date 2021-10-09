@@ -45,18 +45,18 @@ VALUES (11365,   1, 'Siraluun Matihao') /* Name */
      , (11365,  16, 'A matihao crafted with the guidance of Siraluun') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11365,   1,   33557229) /* Setup */
-     , (11365,   3,  536870932) /* SoundTable */
-     , (11365,   8,  100671864) /* Icon */
-     , (11365,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11365,   1, 0x02000AED) /* Setup */
+     , (11365,   3, 0x20000014) /* SoundTable */
+     , (11365,   8, 0x06002178) /* Icon */
+     , (11365,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11365, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (11365, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11365, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11365, 8000, 3655171806) /* PCAPRecordedObjectIID */;
+VALUES (11365, 8000, 0xD9DD7EDE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11365,   319,      2)  /* DaggerMasteryOther4 */
+VALUES (11365,  1614,      2)  /* BloodDrinkerSelf4 */
      , (11365,  1405,      2)  /* QuicknessOther3 */
-     , (11365,  1614,      2)  /* BloodDrinkerSelf4 */;
+     , (11365,   319,      2)  /* FinesseWeaponsMasteryOther4 */;

@@ -8,7 +8,6 @@ VALUES (23777,   1,          2) /* ItemType - Armor */
      , (23777,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (23777,   5,       1600) /* EncumbranceVal */
      , (23777,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
-     , (23777,  10,       6656) /* CurrentWieldedLocation - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (23777,  16,          1) /* ItemUseable - No */
      , (23777,  18,          1) /* UiEffects - Magical */
      , (23777,  19,       2610) /* Value */
@@ -42,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23777,   1, 'Brilliant Amuli Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23777,   1,   33554854) /* Setup */
-     , (23777,   3,  536870932) /* SoundTable */
-     , (23777,   6,   67108990) /* PaletteBase */
-     , (23777,   8,  100674067) /* Icon */
-     , (23777,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23777,   1, 0x020001A6) /* Setup */
+     , (23777,   3, 0x20000014) /* SoundTable */
+     , (23777,   6, 0x0400007E) /* PaletteBase */
+     , (23777,   8, 0x06002A13) /* Icon */
+     , (23777,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23777, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (23777, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23777, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23777, 8000, 2164301449) /* PCAPRecordedObjectIID */;
+VALUES (23777, 8000, 0x81009E89) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23777,  2571,      2)  /* CANTRIPARMOR2 */;

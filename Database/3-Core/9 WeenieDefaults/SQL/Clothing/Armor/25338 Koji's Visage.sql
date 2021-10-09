@@ -8,7 +8,6 @@ VALUES (25338,   1,          2) /* ItemType - Armor */
      , (25338,   4,      16384) /* ClothingPriority - Head */
      , (25338,   5,        700) /* EncumbranceVal */
      , (25338,   9,          1) /* ValidLocations - HeadWear */
-     , (25338,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (25338,  16,          1) /* ItemUseable - No */
      , (25338,  18,          1) /* UiEffects - Magical */
      , (25338,  19,       8000) /* Value */
@@ -41,22 +40,22 @@ VALUES (25338,   1, 'Koji''s Visage') /* Name */
      , (25338,  16, 'A lovely and delicately detailed mask representing Koji herself. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25338,   1,   33558446) /* Setup */
-     , (25338,   3,  536870932) /* SoundTable */
-     , (25338,   8,  100674855) /* Icon */
-     , (25338,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25338,   1, 0x02000FAE) /* Setup */
+     , (25338,   3, 0x20000014) /* SoundTable */
+     , (25338,   8, 0x06002D27) /* Icon */
+     , (25338,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25338, 8001,  271024280) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (25338, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25338, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25338, 8000, 2165458625) /* PCAPRecordedObjectIID */;
+VALUES (25338, 8000, 0x811246C1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25338,   249,      2)  /* InvulnerabilitySelf6 */
-     , (25338,   278,      2)  /* MagicResistanceSelf5 */
-     , (25338,   423,      2)  /* SwordMasterySelf6 */
-     , (25338,  1312,      2)  /* ArmorSelf6 */
+VALUES (25338,  2694,      2)  /* ModerateSwordAptitude */
      , (25338,  1485,      2)  /* Impenetrability5 */
+     , (25338,   278,      2)  /* MagicResistanceSelf5 */
+     , (25338,  1312,      2)  /* ArmorSelf6 */
+     , (25338,   423,      2)  /* HeavyWeaponsMasterySelf6 */
      , (25338,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
-     , (25338,  2694,      2)  /* ModerateSwordAptitude */;
+     , (25338,   249,      2)  /* InvulnerabilitySelf6 */;

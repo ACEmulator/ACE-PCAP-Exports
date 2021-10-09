@@ -14,7 +14,8 @@ VALUES (12022,   1,        128) /* ItemType - Misc */
      , (12022, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12022,  22, True ) /* Inscribable */;
+VALUES (12022,  22, True ) /* Inscribable */
+     , (12022,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12022,  39,     1.5) /* DefaultScale */;
@@ -24,12 +25,12 @@ VALUES (12022,   1, 'Scroll of Dark Rain') /* Name */
      , (12022,  16, 'This scroll seems to be written in a very strange language.  It looks as if it is in Falatacot.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12022,   1,   33557333) /* Setup */
-     , (12022,   8,  100672101) /* Icon */
-     , (12022,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12022,   1, 0x02000B55) /* Setup */
+     , (12022,   8, 0x06002265) /* Icon */
+     , (12022,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12022, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (12022, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12022, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12022, 8000, 2153219958) /* PCAPRecordedObjectIID */;
+VALUES (12022, 8000, 0x80578776) /* PCAPRecordedObjectIID */;

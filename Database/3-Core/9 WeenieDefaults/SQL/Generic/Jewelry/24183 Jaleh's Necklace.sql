@@ -25,6 +25,7 @@ VALUES (24183,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24183,  22, True ) /* Inscribable */
+     , (24183,  23, True ) /* DestroyOnSell */
      , (24183,  69, False) /* IsSellable */
      , (24183,  99, True ) /* Ivoryable */;
 
@@ -39,17 +40,17 @@ VALUES (24183,   1, 'Jaleh''s Necklace') /* Name */
      , (24183,  15, 'An ornate necklace once worn by Jaleh al-Thani. There is an inscription on the necklace.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24183,   1,   33554687) /* Setup */
-     , (24183,   3,  536870932) /* SoundTable */
-     , (24183,   6,   67111919) /* PaletteBase */
-     , (24183,   8,  100674281) /* Icon */
-     , (24183,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24183,   1, 0x020000FF) /* Setup */
+     , (24183,   3, 0x20000014) /* SoundTable */
+     , (24183,   6, 0x04000BEF) /* PaletteBase */
+     , (24183,   8, 0x06002AE9) /* Icon */
+     , (24183,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24183, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (24183, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24183, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24183, 8000, 2274298701) /* PCAPRecordedObjectIID */;
+VALUES (24183, 8000, 0x878F0B4D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24183,  2969,      2)  /* MothersBlessing */;

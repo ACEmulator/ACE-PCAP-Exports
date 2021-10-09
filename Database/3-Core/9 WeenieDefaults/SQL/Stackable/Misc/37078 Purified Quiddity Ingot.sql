@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37078,   1, 'Purified Quiddity Ingot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37078,   1,   33555677) /* Setup */
-     , (37078,   3,  536870932) /* SoundTable */
-     , (37078,   6,   67111919) /* PaletteBase */
-     , (37078,   8,  100671703) /* Icon */
-     , (37078,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37078,   1, 0x020004DD) /* Setup */
+     , (37078,   3, 0x20000014) /* SoundTable */
+     , (37078,   6, 0x04000BEF) /* PaletteBase */
+     , (37078,   8, 0x060020D7) /* Icon */
+     , (37078,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37078, 8001,    2125976) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (37078, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37078, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37078, 8000, 3710966704) /* PCAPRecordedObjectIID */;
+VALUES (37078, 8000, 0xDD30DBB0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37078, 67111919, 0, 0);

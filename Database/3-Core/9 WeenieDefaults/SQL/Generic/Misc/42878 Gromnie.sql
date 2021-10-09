@@ -18,15 +18,15 @@ VALUES (42878,   1, 'Gromnie') /* Name */
      , (42878,  16, 'The Gromnie is a ferocious, draconian predator. Breeds of different colors dwell in deserts, mountains, forests, glaciers and swamps, and some have also found their way underground. They stand from three to five feet tall at the shoulder. They are extremely aggressive and vicious, ravaging their victims with tooth and claw. In addition, they are known to spit various breath weapons -- fire, ice, lightning or acid, depending on their breed. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42878,   1,   33561018) /* Setup */
-     , (42878,   8,  100668115) /* Icon */
+VALUES (42878,   1, 0x020019BA) /* Setup */
+     , (42878,   8, 0x060012D3) /* Icon */
      , (42878, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42878, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42878, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42878, 8040, 459139, 144.866, -75.0505, 1.436, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42878, 8040, 0x00070183, 144.866, -75.0505, 1.436, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070183 [144.866000 -75.050500 1.436000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42878, 8000, 1879077035) /* PCAPRecordedObjectIID */;
+VALUES (42878, 8000, 0x700070AB) /* PCAPRecordedObjectIID */;

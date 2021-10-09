@@ -21,16 +21,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6425,   1, '"Mini Mag-Ma!"') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6425,   1,   33556111) /* Setup */
-     , (6425,   3,  536870994) /* SoundTable */
-     , (6425,   8,  100667465) /* Icon */
+VALUES (6425,   1, 0x0200068F) /* Setup */
+     , (6425,   3, 0x20000052) /* SoundTable */
+     , (6425,   8, 0x06001049) /* Icon */
      , (6425, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (6425, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (6425, 8005,      34945) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6425, 8040, 18219962, 39.9908, -157.24, -18, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (6425, 8040, 0x011603BA, 39.9908, -157.24, -18, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x011603BA [39.990800 -157.240000 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6425, 8000, 1880187359) /* PCAPRecordedObjectIID */;
+VALUES (6425, 8000, 0x701161DF) /* PCAPRecordedObjectIID */;

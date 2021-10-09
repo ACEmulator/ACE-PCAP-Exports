@@ -48,19 +48,19 @@ VALUES (28216,   1, 'Copper Cutlass') /* Name */
      , (28216,  16, 'A sword crafted from the tooth of a copper gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28216,   1,   33558828) /* Setup */
-     , (28216,   3,  536870932) /* SoundTable */
-     , (28216,   8,  100676799) /* Icon */
-     , (28216,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28216,   1, 0x0200112C) /* Setup */
+     , (28216,   3, 0x20000014) /* SoundTable */
+     , (28216,   8, 0x060034BF) /* Icon */
+     , (28216,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28216, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (28216, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28216, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28216, 8000, 2192066700) /* PCAPRecordedObjectIID */;
+VALUES (28216, 8000, 0x82A8488C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28216,  1592,      2)  /* HeartSeekerSelf6 */
-     , (28216,  1605,      2)  /* DefenderSelf6 */
+VALUES (28216,  1605,      2)  /* DefenderSelf6 */
      , (28216,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (28216,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (28216,  1625,      2)  /* SwiftKillerSelf4 */
+     , (28216,  1592,      2)  /* HeartSeekerSelf6 */;

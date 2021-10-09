@@ -17,20 +17,21 @@ VALUES (44303,   1,        128) /* ItemType - Misc */
      , (44303, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44303,  69, False) /* IsSellable */;
+VALUES (44303,  23, True ) /* DestroyOnSell */
+     , (44303,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44303,   1, 'Sacred A''nekshay Crystal') /* Name */
      , (44303,  15, 'A sacred crystal stolen from an ancient altar of the A''nekshay.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44303,   1,   33559839) /* Setup */
-     , (44303,   3,  536870932) /* SoundTable */
-     , (44303,   8,  100691962) /* Icon */
-     , (44303,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44303,   1, 0x0200151F) /* Setup */
+     , (44303,   3, 0x20000014) /* SoundTable */
+     , (44303,   8, 0x06006FFA) /* Icon */
+     , (44303,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44303, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (44303, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44303, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44303, 8000, 2148384074) /* PCAPRecordedObjectIID */;
+VALUES (44303, 8000, 0x800DBD4A) /* PCAPRecordedObjectIID */;

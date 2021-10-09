@@ -14,18 +14,19 @@ VALUES (24128,   1,       2048) /* ItemType - Gem */
      , (24128, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24128,  22, True ) /* Inscribable */;
+VALUES (24128,  22, True ) /* Inscribable */
+     , (24128,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24128,   1, 'A Virindi Signet') /* Name */
      , (24128,  16, 'A black and purple Virindi Signet carved with sigils.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24128,   1,   33554809) /* Setup */
-     , (24128,   8,  100674253) /* Icon */
+VALUES (24128,   1, 0x02000179) /* Setup */
+     , (24128,   8, 0x06002ACD) /* Icon */
      , (24128, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (24128, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24128, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24128, 8000, 3698459638) /* PCAPRecordedObjectIID */;
+VALUES (24128, 8000, 0xDC7203F6) /* PCAPRecordedObjectIID */;

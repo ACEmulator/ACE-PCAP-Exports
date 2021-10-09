@@ -23,18 +23,18 @@ VALUES (35712,   1, 'Bundle of Enchanted Iron Phial') /* Name */
      , (35712,  20, 'Bundles of Enchanted Iron Phials') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35712,   1,   33556223) /* Setup */
-     , (35712,   3,  536870932) /* SoundTable */
-     , (35712,   6,   67111928) /* PaletteBase */
-     , (35712,   8,  100689522) /* Icon */
-     , (35712,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35712,   1, 0x020006FF) /* Setup */
+     , (35712,   3, 0x20000014) /* SoundTable */
+     , (35712,   6, 0x04000BF8) /* PaletteBase */
+     , (35712,   8, 0x06006672) /* Icon */
+     , (35712,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35712, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (35712, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35712, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (35712, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35712, 8000,      35712) /* PCAPRecordedObjectIID */;
+VALUES (35712, 8000, 0x00008B80) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35712, 67112642, 0, 0);

@@ -29,22 +29,22 @@ VALUES (8789,   1, 'Virindi Servant''s Amulet') /* Name */
      , (8789,  16, 'A magical amulet taken from a Virindi Servant in the Chakron Flux dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8789,   1,   33554680) /* Setup */
-     , (8789,   3,  536870932) /* SoundTable */
-     , (8789,   6,   67111919) /* PaletteBase */
-     , (8789,   8,  100671247) /* Icon */
-     , (8789,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8789,   1, 0x020000F8) /* Setup */
+     , (8789,   3, 0x20000014) /* SoundTable */
+     , (8789,   6, 0x04000BEF) /* PaletteBase */
+     , (8789,   8, 0x06001F0F) /* Icon */
+     , (8789,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8789, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (8789, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8789, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8789, 8000, 3701872464) /* PCAPRecordedObjectIID */;
+VALUES (8789, 8000, 0xDCA61750) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8789,   592,      2)  /* ItemEnchantmentMasteryOther6 */
+VALUES (8789,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */
+     , (8789,   592,      2)  /* ItemEnchantmentMasteryOther6 */
      , (8789,   664,      2)  /* ManaMasteryOther6 */
-     , (8789,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */
      , (8789,  2975,      2)  /* ModerateItemEnchantmentAptitude */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

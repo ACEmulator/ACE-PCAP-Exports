@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27612,   1, 'Tumeroks on the Island') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27612,   1,   33554773) /* Setup */
-     , (27612,   3,  536870932) /* SoundTable */
-     , (27612,   8,  100675747) /* Icon */
-     , (27612,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27612,   1, 0x02000155) /* Setup */
+     , (27612,   3, 0x20000014) /* SoundTable */
+     , (27612,   8, 0x060030A3) /* Icon */
+     , (27612,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27612, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (27612, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (27612, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27612, 8000, 2240733901) /* PCAPRecordedObjectIID */;
+VALUES (27612, 8000, 0x858EE2CD) /* PCAPRecordedObjectIID */;

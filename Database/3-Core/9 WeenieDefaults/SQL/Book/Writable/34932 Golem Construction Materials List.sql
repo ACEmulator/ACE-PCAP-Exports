@@ -18,18 +18,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34932,   1, 'Golem Construction Materials List') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34932,   1,   33559084) /* Setup */
-     , (34932,   3,  536870932) /* SoundTable */
-     , (34932,   6,   67112626) /* PaletteBase */
-     , (34932,   8,  100668176) /* Icon */
-     , (34932,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34932,   1, 0x0200122C) /* Setup */
+     , (34932,   3, 0x20000014) /* SoundTable */
+     , (34932,   6, 0x04000EB2) /* PaletteBase */
+     , (34932,   8, 0x06001310) /* Icon */
+     , (34932,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34932, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (34932, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (34932, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (34932, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34932, 8000,      34932) /* PCAPRecordedObjectIID */;
+VALUES (34932, 8000, 0x00008874) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34932, 67113862, 0, 0);

@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34919,   1, 'Inactive Fletcher''s Golem.') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34919,   1,   33554718) /* Setup */
-     , (34919,   3,  536870932) /* SoundTable */
-     , (34919,   8,  100689354) /* Icon */
-     , (34919,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34919,   1, 0x0200011E) /* Setup */
+     , (34919,   3, 0x20000014) /* SoundTable */
+     , (34919,   8, 0x060065CA) /* Icon */
+     , (34919,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34919, 8001,    2637840) /* PCAPRecordedWeenieHeader - Usable, Container, TargetType, Burden */
      , (34919, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34919, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34919, 8000, 3420101638) /* PCAPRecordedObjectIID */;
+VALUES (34919, 8000, 0xCBDA9C06) /* PCAPRecordedObjectIID */;

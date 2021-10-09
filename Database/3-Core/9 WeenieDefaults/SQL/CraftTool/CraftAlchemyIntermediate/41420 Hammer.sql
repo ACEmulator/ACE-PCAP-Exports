@@ -26,13 +26,13 @@ VALUES (41420,   1, 'Hammer') /* Name */
      , (41420,  16, 'A hammer used in the forming of metals.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41420,   1,   33554817) /* Setup */
-     , (41420,   3,  536870932) /* SoundTable */
-     , (41420,   8,  100690576) /* Icon */
-     , (41420,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41420,   1, 0x02000181) /* Setup */
+     , (41420,   3, 0x20000014) /* SoundTable */
+     , (41420,   8, 0x06006A90) /* Icon */
+     , (41420,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41420, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (41420, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41420, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41420, 8000, 2157927913) /* PCAPRecordedObjectIID */;
+VALUES (41420, 8000, 0x809F5DE9) /* PCAPRecordedObjectIID */;

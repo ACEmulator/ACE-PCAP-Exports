@@ -24,13 +24,13 @@ VALUES (43364,   1, 'Scroll of Void Magic Ineptitude VI') /* Name */
 Decreases the target''s Void Magic skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43364,   1,   33554826) /* Setup */
-     , (43364,   8,  100691548) /* Icon */
-     , (43364,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43364,   1, 0x0200018A) /* Setup */
+     , (43364,   8, 0x06006E5C) /* Icon */
+     , (43364,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43364,  28,       5424) /* Spell - VoidMagicIneptitudeOther6 */
      , (43364, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43364, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43364, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43364, 8000, 3676334701) /* PCAPRecordedObjectIID */;
+VALUES (43364, 8000, 0xDB206A6D) /* PCAPRecordedObjectIID */;

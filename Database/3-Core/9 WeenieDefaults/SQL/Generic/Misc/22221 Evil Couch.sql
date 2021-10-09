@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22221,   1, 'Evil Couch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22221,   1,   33558039) /* Setup */
-     , (22221,   8,  100673560) /* Icon */
+VALUES (22221,   1, 0x02000E17) /* Setup */
+     , (22221,   8, 0x06002818) /* Icon */
      , (22221, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (22221, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22221, 8005,     163969) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22221, 8040, 3062300969, 76.5339, 118.908, 80, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (22221, 8040, 0xB6870129, 76.5339, 118.908, 80, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB6870129 [76.533900 118.908000 80.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22221, 8000, 2070442063) /* PCAPRecordedObjectIID */;
+VALUES (22221, 8000, 0x7B68704F) /* PCAPRecordedObjectIID */;

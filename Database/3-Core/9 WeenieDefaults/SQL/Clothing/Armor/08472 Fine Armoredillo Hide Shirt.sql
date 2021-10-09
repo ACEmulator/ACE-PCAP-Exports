@@ -8,7 +8,6 @@ VALUES (8472,   1,          2) /* ItemType - Armor */
      , (8472,   4,       7168) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms */
      , (8472,   5,        900) /* EncumbranceVal */
      , (8472,   9,       3584) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor */
-     , (8472,  10,       3584) /* CurrentWieldedLocation - ChestArmor, AbdomenArmor, UpperArmArmor */
      , (8472,  16,          1) /* ItemUseable - No */
      , (8472,  19,       1000) /* Value */
      , (8472,  28,        130) /* ArmorLevel */
@@ -34,17 +33,17 @@ VALUES (8472,   1, 'Fine Armoredillo Hide Shirt') /* Name */
      , (8472,  15, 'Coat crafted from the hide of an Armoredillo. This item can be dyed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8472,   1,   33554883) /* Setup */
-     , (8472,   3,  536870932) /* SoundTable */
-     , (8472,   6,   67108990) /* PaletteBase */
-     , (8472,   8,  100674997) /* Icon */
-     , (8472,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8472,   1, 0x020001C3) /* Setup */
+     , (8472,   3, 0x20000014) /* SoundTable */
+     , (8472,   6, 0x0400007E) /* PaletteBase */
+     , (8472,   8, 0x06002DB5) /* Icon */
+     , (8472,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8472, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (8472, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8472, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8472, 8000, 2493163658) /* PCAPRecordedObjectIID */;
+VALUES (8472, 8000, 0x949AA88A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8472, 67114566, 72, 20)

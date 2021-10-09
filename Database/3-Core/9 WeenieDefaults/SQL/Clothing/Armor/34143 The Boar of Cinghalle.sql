@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34143,   1, 'The Boar of Cinghalle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34143,   1,   33560108) /* Setup */
-     , (34143,   3,  536870932) /* SoundTable */
-     , (34143,   8,  100689160) /* Icon */
-     , (34143,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34143,   1, 0x0200162C) /* Setup */
+     , (34143,   3, 0x20000014) /* SoundTable */
+     , (34143,   8, 0x06006508) /* Icon */
+     , (34143,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34143, 8001,  270860440) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, HookType */
      , (34143, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34143, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34143, 8040, 23855554, 58.31533, -27.7513, 0.03029341, 0.8798093, 0, 0, -0.4753269) /* PCAPRecordedLocation */
+VALUES (34143, 8040, 0x016C01C2, 58.31533, -27.7513, 0.030293, 0.879809, 0, 0, -0.475327) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [58.315330 -27.751300 0.030293] 0.879809 0.000000 0.000000 -0.475327 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34143, 8000, 2207400116) /* PCAPRecordedObjectIID */;
+VALUES (34143, 8000, 0x839240B4) /* PCAPRecordedObjectIID */;

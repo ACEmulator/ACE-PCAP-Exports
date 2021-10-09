@@ -34,21 +34,21 @@ VALUES (30225,   1, 'Imbuer''s Crystal') /* Name */
      , (30225,  20, 'Imbuer''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30225,   1,   33554809) /* Setup */
-     , (30225,   3,  536870932) /* SoundTable */
-     , (30225,   6,   67111919) /* PaletteBase */
-     , (30225,   8,  100686697) /* Icon */
-     , (30225,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30225,   1, 0x02000179) /* Setup */
+     , (30225,   3, 0x20000014) /* SoundTable */
+     , (30225,   6, 0x04000BEF) /* PaletteBase */
+     , (30225,   8, 0x06005B69) /* Icon */
+     , (30225,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30225,  28,       3722) /* Spell - MagicItemExpertiseRare */
-     , (30225,  50,  100686672) /* IconOverlay */
-     , (30225,  52,  100686604) /* IconUnderlay */
+     , (30225,  50, 0x06005B50) /* IconOverlay */
+     , (30225,  52, 0x06005B0C) /* IconUnderlay */
      , (30225, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30225, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30225, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30225, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30225, 8000, 2186220617) /* PCAPRecordedObjectIID */;
+VALUES (30225, 8000, 0x824F1449) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30225, 67111919, 0, 0);

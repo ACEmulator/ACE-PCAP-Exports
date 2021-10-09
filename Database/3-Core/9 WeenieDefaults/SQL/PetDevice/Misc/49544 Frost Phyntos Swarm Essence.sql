@@ -17,9 +17,9 @@ VALUES (49544,   1,        128) /* ItemType - Misc */
      , (49544, 105,          7) /* ItemWorkmanship */
      , (49544, 114,          0) /* Attuned - Normal */
      , (49544, 280,        213) /* SharedCooldown */
-     , (49544, 366,         54) /* UseRequiresSkill */
+     , (49544, 366,         54) /* UseRequiresSkill - Summoning */
      , (49544, 367,        570) /* UseRequiresSkillLevel */
-     , (49544, 368,         54) /* UseRequiresSkillSpec */
+     , (49544, 368,         54) /* UseRequiresSkillSpec - Summoning */
      , (49544, 369,        185) /* UseRequiresLevel */
      , (49544, 370,         17) /* GearDamage */
      , (49544, 372,         12) /* GearCrit */
@@ -40,24 +40,24 @@ VALUES (49544,   1, 'Frost Phyntos Swarm Essence') /* Name */
      , (49544,  14, 'Use this essence to summon or dismiss your Frost Phyntos Swarm.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49544,   1,   33554817) /* Setup */
-     , (49544,   3,  536870932) /* SoundTable */
-     , (49544,   6,   67111919) /* PaletteBase */
-     , (49544,   8,  100667450) /* Icon */
-     , (49544,  22,  872415275) /* PhysicsEffectTable */
-     , (49544,  50,  100693032) /* IconOverlay */
-     , (49544,  52,  100693024) /* IconUnderlay */
+VALUES (49544,   1, 0x02000181) /* Setup */
+     , (49544,   3, 0x20000014) /* SoundTable */
+     , (49544,   6, 0x04000BEF) /* PaletteBase */
+     , (49544,   8, 0x0600103A) /* Icon */
+     , (49544,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49544,  50, 0x06007428) /* IconOverlay */
+     , (49544,  52, 0x06007420) /* IconUnderlay */
      , (49544, 8001, 1076366488) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, TargetType, Burden, IconOverlay */
      , (49544, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49544, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49544, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49544, 8040, 3332964388, 105.2477, 90.92429, 41.999, -0.04459956, 0, 0, -0.999005) /* PCAPRecordedLocation */
+VALUES (49544, 8040, 0xC6A90024, 105.2477, 90.92429, 41.999, -0.0446, 0, 0, -0.999005) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90024 [105.247700 90.924290 41.999000] -0.044600 0.000000 0.000000 -0.999005 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49544, 8000, 3701527524) /* PCAPRecordedObjectIID */;
+VALUES (49544, 8000, 0xDCA0D3E4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49544, 67111919, 0, 0);

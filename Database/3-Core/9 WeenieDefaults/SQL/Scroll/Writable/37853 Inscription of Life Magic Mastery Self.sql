@@ -24,13 +24,13 @@ VALUES (37853,   1, 'Inscription of Life Magic Mastery Self') /* Name */
 Increases the caster''s Life Magic skill by 45 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37853,   1,   33554826) /* Setup */
-     , (37853,   8,  100676462) /* Icon */
-     , (37853,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37853,   1, 0x0200018A) /* Setup */
+     , (37853,   8, 0x0600336E) /* Icon */
+     , (37853,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37853,  28,       4582) /* Spell - LifeMagicMasterySelf8 */
      , (37853, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37853, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37853, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37853, 8000, 2150584898) /* PCAPRecordedObjectIID */;
+VALUES (37853, 8000, 0x802F5242) /* PCAPRecordedObjectIID */;

@@ -25,17 +25,17 @@ VALUES (52445,   1, 'Pack Pilferer') /* Name */
      , (52445, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52445,   1,   33556445) /* Setup */
-     , (52445,   2,  150995113) /* MotionTable */
-     , (52445,   6,   67112812) /* PaletteBase */
-     , (52445,   8,  100693280) /* Icon */
-     , (52445,  22,  872415258) /* PhysicsEffectTable */
+VALUES (52445,   1, 0x020007DD) /* Setup */
+     , (52445,   2, 0x090000A9) /* MotionTable */
+     , (52445,   6, 0x04000F6C) /* PaletteBase */
+     , (52445,   8, 0x06007520) /* Icon */
+     , (52445,  22, 0x3400001A) /* PhysicsEffectTable */
      , (52445, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (52445, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52445, 8005,      69763) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52445, 8000, 2192709735) /* PCAPRecordedObjectIID */;
+VALUES (52445, 8000, 0x82B21867) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52445, 67114276, 0, 0);

@@ -25,22 +25,22 @@ VALUES (22747,   1, 'Reaper') /* Name */
      , (22747, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22747,   1,   33554489) /* Setup */
-     , (22747,   2,  150994970) /* MotionTable */
-     , (22747,   3,  536870928) /* SoundTable */
-     , (22747,   6,   67109313) /* PaletteBase */
-     , (22747,   8,  100667939) /* Icon */
-     , (22747,  22,  872415268) /* PhysicsEffectTable */
+VALUES (22747,   1, 0x02000039) /* Setup */
+     , (22747,   2, 0x0900001A) /* MotionTable */
+     , (22747,   3, 0x20000010) /* SoundTable */
+     , (22747,   6, 0x040001C1) /* PaletteBase */
+     , (22747,   8, 0x06001223) /* Icon */
+     , (22747,  22, 0x34000024) /* PhysicsEffectTable */
      , (22747, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (22747, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22747, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22747, 8040, 4084072499, 148.2193, 64.68532, 12.0023, 0.8029574, 0, 0, -0.5960364) /* PCAPRecordedLocation */
+VALUES (22747, 8040, 0xF36E0033, 148.2193, 64.68532, 12.0023, 0.802957, 0, 0, -0.596036) /* PCAPRecordedLocation */
 /* @teleloc 0xF36E0033 [148.219300 64.685320 12.002300] 0.802957 0.000000 0.000000 -0.596036 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22747, 8000, 3690480138) /* PCAPRecordedObjectIID */;
+VALUES (22747, 8000, 0xDBF8420A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22747,   1, 170, 0, 0) /* Strength */
@@ -56,7 +56,8 @@ VALUES (22747,   1,   412, 0, 0, 517) /* MaxHealth */
      , (22747,   5,    80, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22747, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+VALUES (22747, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (22747, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
      , (22747, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */
      , (22747, 9, 43284,  0, 0, 0, False) /* Create Scroll of Corrosion VII (43284) for ContainTreasure */
      , (22747, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */

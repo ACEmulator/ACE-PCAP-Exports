@@ -27,6 +27,7 @@ VALUES (40907,   1,          4) /* ItemType - Clothing */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40907,  22, True ) /* Inscribable */
+     , (40907,  23, True ) /* DestroyOnSell */
      , (40907,  69, False) /* IsSellable */
      , (40907,  99, True ) /* Ivoryable */;
 
@@ -46,26 +47,26 @@ VALUES (40907,   1, 'Aerfalle''s Mana-infused Pallium') /* Name */
      , (40907,  16, 'A heavily enchanted black robe obtained from the Lady of Aerlinthe''s personal treasure chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40907,   1,   33554854) /* Setup */
-     , (40907,   3,  536870932) /* SoundTable */
-     , (40907,   6,   67108990) /* PaletteBase */
-     , (40907,   8,  100672444) /* Icon */
-     , (40907,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40907,   1, 0x020001A6) /* Setup */
+     , (40907,   3, 0x20000014) /* SoundTable */
+     , (40907,   6, 0x0400007E) /* PaletteBase */
+     , (40907,   8, 0x060023BC) /* Icon */
+     , (40907,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40907, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (40907, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40907, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40907, 8000, 2919834037) /* PCAPRecordedObjectIID */;
+VALUES (40907, 8000, 0xAE0921B5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40907,  3964,      2)  /* CANTRIPFOCUS3 */
-     , (40907,  4227,      2)  /* CANTRIPWILLPOWER3 */
+VALUES (40907,  4227,      2)  /* CANTRIPWILLPOWER3 */
      , (40907,  4304,      2)  /* FocusOther8 */
+     , (40907,  5009,      2)  /* AerfallesWardGreater */
+     , (40907,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
      , (40907,  4328,      2)  /* WillpowerOther8 */
      , (40907,  4601,      2)  /* ManaMasteryOther8 */
-     , (40907,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
-     , (40907,  5009,      2)  /* AerfallesWardGreater */;
+     , (40907,  3964,      2)  /* CANTRIPFOCUS3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40907, 67109945, 96, 12)

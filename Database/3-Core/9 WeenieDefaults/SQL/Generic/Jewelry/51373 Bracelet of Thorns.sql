@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51373,   1,          8) /* ItemType - Jewelry */
      , (51373,   5,         60) /* EncumbranceVal */
      , (51373,   9,     196608) /* ValidLocations - WristWear */
-     , (51373,  10,      65536) /* CurrentWieldedLocation - WristWearLeft */
      , (51373,  16,          1) /* ItemUseable - No */
      , (51373,  18,       2048) /* UiEffects - Piercing */
      , (51373,  19,      20000) /* Value */
@@ -33,21 +32,21 @@ VALUES (51373,   1, 'Bracelet of Thorns') /* Name */
      , (51373,  15, 'A bracelet of piercing protection, given by Behdo Yii for completing the Hive Eviscerator quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51373,   1,   33554683) /* Setup */
-     , (51373,   3,  536870932) /* SoundTable */
-     , (51373,   6,   67111919) /* PaletteBase */
-     , (51373,   8,  100668631) /* Icon */
-     , (51373,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51373,   1, 0x020000FB) /* Setup */
+     , (51373,   3, 0x20000014) /* SoundTable */
+     , (51373,   6, 0x04000BEF) /* PaletteBase */
+     , (51373,   8, 0x060014D7) /* Icon */
+     , (51373,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51373, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (51373, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51373, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51373, 8000, 2148598073) /* PCAPRecordedObjectIID */;
+VALUES (51373, 8000, 0x80110139) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51373,  4471,      2)  /* PiercingProtectionOther8 */
-     , (51373,  6084,      2)  /* CantripPiercingWard4 */;
+VALUES (51373,  6084,      2)  /* CantripPiercingWard4 */
+     , (51373,  4471,      2)  /* PiercingProtectionOther8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51373, 67111926, 0, 0);

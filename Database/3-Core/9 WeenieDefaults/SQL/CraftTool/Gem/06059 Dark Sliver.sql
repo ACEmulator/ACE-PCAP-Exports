@@ -30,17 +30,17 @@ VALUES (6059,   1, 'Dark Sliver') /* Name */
      , (6059,  16, 'A jet-black bit of something hard and crystalline.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6059,   1,   33556406) /* Setup */
-     , (6059,   3,  536870932) /* SoundTable */
-     , (6059,   6,   67111919) /* PaletteBase */
-     , (6059,   8,  100670637) /* Icon */
-     , (6059,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6059,   1, 0x020007B6) /* Setup */
+     , (6059,   3, 0x20000014) /* SoundTable */
+     , (6059,   6, 0x04000BEF) /* PaletteBase */
+     , (6059,   8, 0x06001CAD) /* Icon */
+     , (6059,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6059, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (6059, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6059, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6059, 8000, 3319211784) /* PCAPRecordedObjectIID */;
+VALUES (6059, 8000, 0xC5D72708) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6059, 67111925, 0, 0);

@@ -28,21 +28,21 @@ VALUES (22244,   1, 'Storage') /* Name */
      , (22244, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22244,   1,   33557143) /* Setup */
-     , (22244,   2,  150994948) /* MotionTable */
-     , (22244,   3,  536870945) /* SoundTable */
-     , (22244,   8,  100671885) /* Icon */
-     , (22244,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22244,   1, 0x02000A97) /* Setup */
+     , (22244,   2, 0x09000004) /* MotionTable */
+     , (22244,   3, 0x20000021) /* SoundTable */
+     , (22244,   8, 0x0600218D) /* Icon */
+     , (22244,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22244, 8001,    2097210) /* PCAPRecordedWeenieHeader - ItemsCapacity, Value, Usable, UseRadius, Burden */
      , (22244, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22244, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22244, 8040, 1448149894, 83.5906, -123.566, -6, 0.422618, 0, 0, -0.9063079) /* PCAPRecordedLocation */
+VALUES (22244, 8040, 0x56510386, 83.5906, -123.566, -6, 0.422618, 0, 0, -0.906308) /* PCAPRecordedLocation */
 /* @teleloc 0x56510386 [83.590600 -123.566000 -6.000000] 0.422618 0.000000 0.000000 -0.906308 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22244, 8000, 1969557656) /* PCAPRecordedObjectIID */;
+VALUES (22244, 8000, 0x75651098) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22244, -1, 4379, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Bones (4379) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

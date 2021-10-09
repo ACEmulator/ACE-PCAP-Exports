@@ -33,6 +33,7 @@ VALUES (32121,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32121,  22, True ) /* Inscribable */
+     , (32121,  23, True ) /* DestroyOnSell */
      , (32121,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -51,22 +52,22 @@ VALUES (32121,   1, 'Remoran Fist') /* Name */
      , (32121,  15, 'A hand weapon crafted from the maw of a Bloodmouth Remoran.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32121,   1,   33559743) /* Setup */
-     , (32121,   3,  536870932) /* SoundTable */
-     , (32121,   6,   67116726) /* PaletteBase */
-     , (32121,   8,  100688309) /* Icon */
-     , (32121,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32121,   1, 0x020014BF) /* Setup */
+     , (32121,   3, 0x20000014) /* SoundTable */
+     , (32121,   6, 0x04001EB6) /* PaletteBase */
+     , (32121,   8, 0x060061B5) /* Icon */
+     , (32121,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32121, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (32121, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32121, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32121, 8000, 2988657747) /* PCAPRecordedObjectIID */;
+VALUES (32121, 8000, 0xB2234C53) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32121,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (32121,  2106,      2)  /* HeartSeekerSelf7 */
-     , (32121,  2509,      2)  /* CANTRIPDAGGERAPTITUDE2 */;
+VALUES (32121,  2509,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE2 */
+     , (32121,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (32121,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32121, 67116737, 0, 0);

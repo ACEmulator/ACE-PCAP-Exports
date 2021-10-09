@@ -34,6 +34,7 @@ VALUES (35630,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35630,  22, True ) /* Inscribable */
+     , (35630,  23, True ) /* DestroyOnSell */
      , (35630,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -54,24 +55,24 @@ VALUES (35630,   1, 'Sickle of Azaxis') /* Name */
      , (35630,  16, 'A sickle that once belonged to the Colosseum champion, the Virindi Azaxis.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35630,   1,   33557067) /* Setup */
-     , (35630,   3,  536870932) /* SoundTable */
-     , (35630,   6,   67111919) /* PaletteBase */
-     , (35630,   8,  100671670) /* Icon */
-     , (35630,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35630,   1, 0x02000A4B) /* Setup */
+     , (35630,   3, 0x20000014) /* SoundTable */
+     , (35630,   6, 0x04000BEF) /* PaletteBase */
+     , (35630,   8, 0x060020B6) /* Icon */
+     , (35630,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35630,  30,         88) /* PhysicsScript - Create */
      , (35630, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (35630, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35630, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35630, 8000, 2186220485) /* PCAPRecordedObjectIID */;
+VALUES (35630, 8000, 0x824F13C5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35630,  1592,      2)  /* HeartSeekerSelf6 */
+VALUES (35630,  2689,      2)  /* ModerateDaggerAptitude */
      , (35630,  1616,      2)  /* BloodDrinkerSelf6 */
      , (35630,  1627,      2)  /* SwiftKillerSelf6 */
-     , (35630,  2689,      2)  /* ModerateDaggerAptitude */;
+     , (35630,  1592,      2)  /* HeartSeekerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35630, 67111920, 0, 0);

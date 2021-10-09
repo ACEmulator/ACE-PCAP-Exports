@@ -35,16 +35,16 @@ VALUES (34268,   1, 'Messenger''s Collar') /* Name */
      , (34268,  16, 'A thick leather collar studded with black metal rings. It bears a strange falatacot symbol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34268,   1,   33560550) /* Setup */
-     , (34268,   3,  536870932) /* SoundTable */
-     , (34268,   8,  100689278) /* Icon */
-     , (34268,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34268,   1, 0x020017E6) /* Setup */
+     , (34268,   3, 0x20000014) /* SoundTable */
+     , (34268,   8, 0x0600657E) /* Icon */
+     , (34268,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34268, 8001,  270614552) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden, HookType */
      , (34268, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34268, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34268, 8000, 2192311927) /* PCAPRecordedObjectIID */;
+VALUES (34268, 8000, 0x82AC0677) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34268,  3312,      2)  /* LesserFlangeAegis */

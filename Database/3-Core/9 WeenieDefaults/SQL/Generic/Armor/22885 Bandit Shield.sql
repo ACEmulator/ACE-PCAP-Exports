@@ -41,23 +41,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22885,   1, 'Bandit Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22885,   1,   33554786) /* Setup */
-     , (22885,   3,  536870932) /* SoundTable */
-     , (22885,   6,   67111919) /* PaletteBase */
-     , (22885,   8,  100673878) /* Icon */
-     , (22885,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22885,   1, 0x02000162) /* Setup */
+     , (22885,   3, 0x20000014) /* SoundTable */
+     , (22885,   6, 0x04000BEF) /* PaletteBase */
+     , (22885,   8, 0x06002956) /* Icon */
+     , (22885,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22885, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (22885, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22885, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22885, 8000, 3674678306) /* PCAPRecordedObjectIID */;
+VALUES (22885, 8000, 0xDB072422) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22885,   854,      2)  /* DeceptionMasterySelf5 */
-     , (22885,   926,      2)  /* LockpickMasterySelf5 */
-     , (22885,  1093,      2)  /* FireProtectionSelf5 */
-     , (22885,  1485,      2)  /* Impenetrability5 */;
+VALUES (22885,  1093,      2)  /* FireProtectionSelf5 */
+     , (22885,  1485,      2)  /* Impenetrability5 */
+     , (22885,   854,      2)  /* DeceptionMasterySelf5 */
+     , (22885,   926,      2)  /* LockpickMasterySelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22885, 67111927, 0, 0);

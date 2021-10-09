@@ -26,16 +26,16 @@ VALUES (22616,   1, 'Nanner Split') /* Name */
      , (22616,  15, 'A frozen ice cream treat.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22616,   1,   33554668) /* Setup */
-     , (22616,   3,  536870932) /* SoundTable */
-     , (22616,   8,  100673808) /* Icon */
-     , (22616,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22616,   1, 0x020000EC) /* Setup */
+     , (22616,   3, 0x20000014) /* SoundTable */
+     , (22616,   8, 0x06002910) /* Icon */
+     , (22616,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22616, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (22616, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (22616, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22616, 8000, 2210356877) /* PCAPRecordedObjectIID */;
+VALUES (22616, 8000, 0x83BF5E8D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (22616, 0, 83888884, 83894376);

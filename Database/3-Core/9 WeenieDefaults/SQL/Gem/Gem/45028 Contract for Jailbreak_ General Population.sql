@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45028,   1, 'Contract for Jailbreak: General Population') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45028,   1,   33557625) /* Setup */
-     , (45028,   3,  536870932) /* SoundTable */
-     , (45028,   8,  100691930) /* Icon */
-     , (45028,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45028,   1, 0x02000C79) /* Setup */
+     , (45028,   3, 0x20000014) /* SoundTable */
+     , (45028,   8, 0x06006FDA) /* Icon */
+     , (45028,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45028, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (45028, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (45028, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (45028,   1,   33557625) /* Setup */
      , (45028, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45028, 8000,      45028) /* PCAPRecordedObjectIID */;
+VALUES (45028, 8000, 0x0000AFE4) /* PCAPRecordedObjectIID */;

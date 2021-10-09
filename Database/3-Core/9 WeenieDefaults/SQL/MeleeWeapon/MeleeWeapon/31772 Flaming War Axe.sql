@@ -54,11 +54,11 @@ VALUES (31772,   1, 'Flaming War Axe') /* Name */
      , (31772,  16, 'Flaming War Axe of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31772,   1,   33555691) /* Setup */
-     , (31772,   3,  536870932) /* SoundTable */
-     , (31772,   6,   67111919) /* PaletteBase */
-     , (31772,   8,  100672850) /* Icon */
-     , (31772,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31772,   1, 0x020004EB) /* Setup */
+     , (31772,   3, 0x20000014) /* SoundTable */
+     , (31772,   6, 0x04000BEF) /* PaletteBase */
+     , (31772,   8, 0x06002552) /* Icon */
+     , (31772,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31772,  30,         88) /* PhysicsScript - Create */
      , (31772,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (31772, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
@@ -66,13 +66,13 @@ VALUES (31772,   1,   33555691) /* Setup */
      , (31772, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31772, 8000, 3188059747) /* PCAPRecordedObjectIID */;
+VALUES (31772, 8000, 0xBE05EE63) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31772,  1402,      2)  /* QuicknessSelf6 */
+VALUES (31772,  2116,      2)  /* SwiftKillerSelf7 */
      , (31772,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31772,  2116,      2)  /* SwiftKillerSelf7 */
-     , (31772,  2579,      2)  /* CANTRIPCOORDINATION1 */;
+     , (31772,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (31772,  1402,      2)  /* QuicknessSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31772, 67111927, 0, 0);

@@ -14,20 +14,21 @@ VALUES (29335,   1,        128) /* ItemType - Misc */
      , (29335, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29335,  22, True ) /* Inscribable */;
+VALUES (29335,  22, True ) /* Inscribable */
+     , (29335,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29335,   1, 'Academy Exit Token') /* Name */
      , (29335,  16, 'Give this token to Jonathan if you wish to leave the Training Academy early. You will receive all items and experience points that you would otherwise have earned through completing your training. However, be warned that once you leave the Academy, you can never return!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29335,   1,   33554809) /* Setup */
-     , (29335,   3,  536870932) /* SoundTable */
-     , (29335,   8,  100671333) /* Icon */
-     , (29335,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29335,   1, 0x02000179) /* Setup */
+     , (29335,   3, 0x20000014) /* SoundTable */
+     , (29335,   8, 0x06001F65) /* Icon */
+     , (29335,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29335, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (29335, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29335, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29335, 8000, 3693030350) /* PCAPRecordedObjectIID */;
+VALUES (29335, 8000, 0xDC1F2BCE) /* PCAPRecordedObjectIID */;

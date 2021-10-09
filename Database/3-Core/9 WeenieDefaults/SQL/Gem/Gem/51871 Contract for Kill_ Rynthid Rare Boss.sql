@@ -32,14 +32,14 @@ VALUES (51871,   1, 'Contract for Kill: Rynthid Rare Boss') /* Name */
      , (51871,  16, 'Kill 1 Rynthid Rare Boss.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51871,   1,   33554773) /* Setup */
-     , (51871,   3,  536870932) /* SoundTable */
-     , (51871,   8,  100691928) /* Icon */
-     , (51871,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51871,   1, 0x02000155) /* Setup */
+     , (51871,   3, 0x20000014) /* SoundTable */
+     , (51871,   8, 0x06006FD8) /* Icon */
+     , (51871,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51871, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (51871, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (51871, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (51871, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51871, 8000, 3703961454) /* PCAPRecordedObjectIID */;
+VALUES (51871, 8000, 0xDCC5F76E) /* PCAPRecordedObjectIID */;

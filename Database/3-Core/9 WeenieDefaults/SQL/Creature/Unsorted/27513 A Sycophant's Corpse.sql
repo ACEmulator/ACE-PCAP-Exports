@@ -24,21 +24,21 @@ VALUES (27513,   1, 'A Sycophant''s Corpse') /* Name */
      , (27513, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27513,   1,   33554433) /* Setup */
-     , (27513,   2,  150995287) /* MotionTable */
-     , (27513,   3,  536870913) /* SoundTable */
-     , (27513,   6,   67108990) /* PaletteBase */
-     , (27513,   8,  100667504) /* Icon */
+VALUES (27513,   1, 0x02000001) /* Setup */
+     , (27513,   2, 0x09000157) /* MotionTable */
+     , (27513,   3, 0x20000001) /* SoundTable */
+     , (27513,   6, 0x0400007E) /* PaletteBase */
+     , (27513,   8, 0x06001070) /* Icon */
      , (27513, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
      , (27513, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (27513, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27513, 8040, 3984654363, 80.4026, 60.1336, 1.982734, 0.931476, 0, 0, -0.363803) /* PCAPRecordedLocation */
+VALUES (27513, 8040, 0xED81001B, 80.4026, 60.1336, 1.982734, 0.931476, 0, 0, -0.363803) /* PCAPRecordedLocation */
 /* @teleloc 0xED81001B [80.402600 60.133600 1.982734] 0.931476 0.000000 0.000000 -0.363803 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27513, 8000, 2882961184) /* PCAPRecordedObjectIID */;
+VALUES (27513, 8000, 0xABD67F20) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27513, 67109559, 0, 24)

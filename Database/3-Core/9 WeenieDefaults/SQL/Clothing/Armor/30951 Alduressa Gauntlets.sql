@@ -8,7 +8,6 @@ VALUES (30951,   1,          2) /* ItemType - Armor */
      , (30951,   4,      32768) /* ClothingPriority - Hands */
      , (30951,   5,        722) /* EncumbranceVal */
      , (30951,   9,         32) /* ValidLocations - HandWear */
-     , (30951,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (30951,  16,          1) /* ItemUseable - No */
      , (30951,  18,          1) /* UiEffects - Magical */
      , (30951,  19,      23362) /* Value */
@@ -53,26 +52,26 @@ VALUES (30951,   1, 'Alduressa Gauntlets') /* Name */
      , (30951,  39, 'Tint''s Tinkers') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30951,   1,   33559505) /* Setup */
-     , (30951,   3,  536870932) /* SoundTable */
-     , (30951,   6,   67108990) /* PaletteBase */
-     , (30951,   8,  100687145) /* Icon */
-     , (30951,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30951,   1, 0x020013D1) /* Setup */
+     , (30951,   3, 0x20000014) /* SoundTable */
+     , (30951,   6, 0x0400007E) /* PaletteBase */
+     , (30951,   8, 0x06005D29) /* Icon */
+     , (30951,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30951,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (30951, 8001, 2166849688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, Workmanship, MaterialType */
      , (30951, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30951, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30951, 8000, 2881577216) /* PCAPRecordedObjectIID */;
+VALUES (30951, 8000, 0xABC16100) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30951,  1516,      2)  /* BludgeonBane6 */
-     , (30951,  1528,      2)  /* FrostBane6 */
+VALUES (30951,  2309,      2)  /* HeavyWeaponsMasterySelf7 */
+     , (30951,  6105,      2)  /* CantripFocus4 */
+     , (30951,  1516,      2)  /* BludgeonBane6 */
      , (30951,  2102,      2)  /* FlameBane7 */
-     , (30951,  2108,      2)  /* Impenetrability7 */
-     , (30951,  2309,      2)  /* SwordMasterySelf7 */
-     , (30951,  6105,      2)  /* CantripFocus4 */;
+     , (30951,  1528,      2)  /* FrostBane6 */
+     , (30951,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30951, 67116101, 168, 6);

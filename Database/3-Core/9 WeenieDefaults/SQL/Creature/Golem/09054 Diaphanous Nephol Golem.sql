@@ -23,21 +23,21 @@ VALUES (9054,   1, 'Diaphanous Nephol Golem') /* Name */
      , (9054, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9054,   1,   33556642) /* Setup */
-     , (9054,   2,  150995073) /* MotionTable */
-     , (9054,   3,  536871066) /* SoundTable */
-     , (9054,   8,  100667940) /* Icon */
-     , (9054,  22,  872415322) /* PhysicsEffectTable */
+VALUES (9054,   1, 0x020008A2) /* Setup */
+     , (9054,   2, 0x09000081) /* MotionTable */
+     , (9054,   3, 0x2000009A) /* SoundTable */
+     , (9054,   8, 0x06001224) /* Icon */
+     , (9054,  22, 0x3400005A) /* PhysicsEffectTable */
      , (9054, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (9054, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (9054, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9054, 8040, 44564802, 179.961, -3.44475, -17.99, -0.00420373, 0, 0, -0.999991) /* PCAPRecordedLocation */
+VALUES (9054, 8040, 0x02A80142, 179.961, -3.44475, -17.99, -0.004204, 0, 0, -0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x02A80142 [179.961000 -3.444750 -17.990000] -0.004204 0.000000 0.000000 -0.999991 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9054, 8000, 2879950348) /* PCAPRecordedObjectIID */;
+VALUES (9054, 8000, 0xABA88E0C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9054,   1, 150, 0, 0) /* Strength */

@@ -17,20 +17,21 @@ VALUES (24182,   1,      16384) /* ItemType - Key */
      , (24182, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24182,  22, True ) /* Inscribable */;
+VALUES (24182,  22, True ) /* Inscribable */
+     , (24182,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24182,   1, 'Key to Jaleh''s Chest') /* Name */
      , (24182,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24182,   1,   33554784) /* Setup */
-     , (24182,   3,  536870932) /* SoundTable */
-     , (24182,   8,  100674275) /* Icon */
-     , (24182,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24182,   1, 0x02000160) /* Setup */
+     , (24182,   3, 0x20000014) /* SoundTable */
+     , (24182,   8, 0x06002AE3) /* Icon */
+     , (24182,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24182, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (24182, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24182, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24182, 8000, 3690179803) /* PCAPRecordedObjectIID */;
+VALUES (24182, 8000, 0xDBF3ACDB) /* PCAPRecordedObjectIID */;

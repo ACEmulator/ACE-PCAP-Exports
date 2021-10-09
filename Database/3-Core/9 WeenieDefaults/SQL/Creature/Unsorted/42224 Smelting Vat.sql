@@ -24,18 +24,18 @@ VALUES (42224,   1, 'Smelting Vat') /* Name */
      , (42224, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42224,   1,   33559114) /* Setup */
-     , (42224,   2,  150995147) /* MotionTable */
-     , (42224,   3,  536870932) /* SoundTable */
-     , (42224,   8,  100677344) /* Icon */
-     , (42224,  22,  872415274) /* PhysicsEffectTable */
+VALUES (42224,   1, 0x0200124A) /* Setup */
+     , (42224,   2, 0x090000CB) /* MotionTable */
+     , (42224,   3, 0x20000014) /* SoundTable */
+     , (42224,   8, 0x060036E0) /* Icon */
+     , (42224,  22, 0x3400002A) /* PhysicsEffectTable */
      , (42224, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
      , (42224, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (42224, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42224, 8040, 2315452682, 168.676, -269.962, -12, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42224, 8040, 0x8A03010A, 168.676, -269.962, -12, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x8A03010A [168.676000 -269.962000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42224, 8000, 3692695757) /* PCAPRecordedObjectIID */;
+VALUES (42224, 8000, 0xDC1A10CD) /* PCAPRecordedObjectIID */;

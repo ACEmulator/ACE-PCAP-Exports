@@ -19,15 +19,15 @@ VALUES (42885,   1, 'Ursuin') /* Name */
      , (42885,  16, 'The Ursuin are stocky, four-legged creatures that travel together in small packs. They stand anywhere from three to seven feet tall at the shoulder, though there are rumored to be even larger species. It is thought that these carnivores pursued some other form of fauna through a portal and ended up in Dereth. The Ursuin are natives of Ispar; however, this does not curb their aggressive tendencies towards other Isparians... or anything else for that matter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42885,   1,   33561025) /* Setup */
-     , (42885,   8,  100668115) /* Icon */
+VALUES (42885,   1, 0x020019C1) /* Setup */
+     , (42885,   8, 0x060012D3) /* Icon */
      , (42885, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42885, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42885, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42885, 8040, 459129, 124.912, -84.8886, 0.66, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42885, 8040, 0x00070179, 124.912, -84.8886, 0.66, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070179 [124.912000 -84.888600 0.660000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42885, 8000, 1879077021) /* PCAPRecordedObjectIID */;
+VALUES (42885, 8000, 0x7000709D) /* PCAPRecordedObjectIID */;

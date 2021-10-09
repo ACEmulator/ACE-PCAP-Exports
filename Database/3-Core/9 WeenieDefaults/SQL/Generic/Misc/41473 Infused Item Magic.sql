@@ -17,20 +17,21 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (41473,   3, 2000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41473,  22, True ) /* Inscribable */;
+VALUES (41473,  22, True ) /* Inscribable */
+     , (41473,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41473,   1, 'Infused Item Magic') /* Name */
      , (41473,  16, 'Using this gem will remove your need to use a focus for Item Enchantment. This augmentation cannot be repeated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41473,   1,   33554809) /* Setup */
-     , (41473,   3,  536870932) /* SoundTable */
-     , (41473,   8,  100686474) /* Icon */
-     , (41473,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41473,   1, 0x02000179) /* Setup */
+     , (41473,   3, 0x20000014) /* SoundTable */
+     , (41473,   8, 0x06005A8A) /* Icon */
+     , (41473,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41473, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (41473, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41473, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41473, 8000, 3679318290) /* PCAPRecordedObjectIID */;
+VALUES (41473, 8000, 0xDB4DF112) /* PCAPRecordedObjectIID */;

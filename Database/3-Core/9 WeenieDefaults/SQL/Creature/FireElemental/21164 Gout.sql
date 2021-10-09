@@ -26,21 +26,21 @@ VALUES (21164,   1, 'Gout') /* Name */
      , (21164, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21164,   1,   33556131) /* Setup */
-     , (21164,   2,  150995087) /* MotionTable */
-     , (21164,   3,  536870998) /* SoundTable */
-     , (21164,   8,  100670274) /* Icon */
-     , (21164,  22,  872415349) /* PhysicsEffectTable */
+VALUES (21164,   1, 0x020006A3) /* Setup */
+     , (21164,   2, 0x0900008F) /* MotionTable */
+     , (21164,   3, 0x20000056) /* SoundTable */
+     , (21164,   8, 0x06001B42) /* Icon */
+     , (21164,  22, 0x34000075) /* PhysicsEffectTable */
      , (21164, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (21164, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (21164, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21164, 8040, 2536833057, 98.8412, 7.884561, 40.003, 0.3138068, 0, 0, -0.9494869) /* PCAPRecordedLocation */
+VALUES (21164, 8040, 0x97350021, 98.8412, 7.884561, 40.003, 0.313807, 0, 0, -0.949487) /* PCAPRecordedLocation */
 /* @teleloc 0x97350021 [98.841200 7.884561 40.003000] 0.313807 0.000000 0.000000 -0.949487 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21164, 8000, 3685863124) /* PCAPRecordedObjectIID */;
+VALUES (21164, 8000, 0xDBB1CED4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21164,   1, 100, 0, 0) /* Strength */
@@ -170,4 +170,5 @@ VALUES (21164, 9, 22442,  0, 0, 0, False) /* Create Lightning Dirk (22442) for C
      , (21164, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
      , (21164, 9, 43299,  0, 0, 0, False) /* Create Scroll of Nether Arc VI (43299) for ContainTreasure */
      , (21164, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (21164, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */;
+     , (21164, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
+     , (21164, 9,  3387,  0, 0, 0, False) /* Create Scroll of Lockpick Mastery Other VI (3387) for ContainTreasure */;

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41901,   1,          1) /* ItemType - MeleeWeapon */
      , (41901,   5,        600) /* EncumbranceVal */
      , (41901,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (41901,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (41901,  16,          1) /* ItemUseable - No */
      , (41901,  18,          1) /* UiEffects - Magical */
      , (41901,  19,      25000) /* Value */
@@ -54,10 +53,10 @@ VALUES (41901,   1, 'Enhanced Assault Greatsword') /* Name */
      , (41901,  16, 'A reward for defeating the leaders of the Falcon Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41901,   1,   33558209) /* Setup */
-     , (41901,   3,  536870932) /* SoundTable */
-     , (41901,   8,  100690841) /* Icon */
-     , (41901,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41901,   1, 0x02000EC1) /* Setup */
+     , (41901,   3, 0x20000014) /* SoundTable */
+     , (41901,   8, 0x06006B99) /* Icon */
+     , (41901,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41901,  30,         88) /* PhysicsScript - Create */
      , (41901, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (41901, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -65,12 +64,12 @@ VALUES (41901,   1,   33558209) /* Setup */
      , (41901, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41901, 8040, 3583574079, 178.882, 161.9281, 373.929, 0.5268642, 0.5268642, -0.471608, -0.471608) /* PCAPRecordedLocation */
+VALUES (41901, 8040, 0xD599003F, 178.882, 161.9281, 373.929, 0.526864, 0.526864, -0.471608, -0.471608) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [178.882000 161.928100 373.929000] 0.526864 0.526864 -0.471608 -0.471608 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41901, 8000, 2273811200) /* PCAPRecordedObjectIID */
-     , (41901, 8008, 1343318476) /* PCAPRecordedParentIID */;
+VALUES (41901, 8000, 0x87879B00) /* PCAPRecordedObjectIID */
+     , (41901, 8008, 0x501169CC) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41901,  2004,      2)  /* WarriorsVitality */

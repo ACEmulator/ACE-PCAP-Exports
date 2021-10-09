@@ -17,7 +17,8 @@ VALUES (44192,   1,        128) /* ItemType - Misc */
      , (44192, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44192,  69, False) /* IsSellable */;
+VALUES (44192,  23, True ) /* DestroyOnSell */
+     , (44192,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44192,  39,     0.5) /* DefaultScale */;
@@ -28,13 +29,13 @@ VALUES (44192,   1, 'Prickly Pear') /* Name */
      , (44192,  15, 'A small, delicate cactus found only in the Lost City of Neftet.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44192,   1,   33561228) /* Setup */
-     , (44192,   3,  536870932) /* SoundTable */
-     , (44192,   8,  100691974) /* Icon */
-     , (44192,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44192,   1, 0x02001A8C) /* Setup */
+     , (44192,   3, 0x20000014) /* SoundTable */
+     , (44192,   8, 0x06007006) /* Icon */
+     , (44192,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44192, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (44192, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44192, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44192, 8000, 3691311139) /* PCAPRecordedObjectIID */;
+VALUES (44192, 8000, 0xDC04F023) /* PCAPRecordedObjectIID */;

@@ -37,16 +37,16 @@ VALUES (36228,   1, 'Coral Shield') /* Name */
      , (36228,  16, 'A shield made of the remnants of many Coral Golems. It appears to be held together by some sort of viscous water that offers protection against most types of damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36228,   1,   33560374) /* Setup */
-     , (36228,   3,  536870932) /* SoundTable */
-     , (36228,   8,  100689609) /* Icon */
-     , (36228,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36228,   1, 0x02001736) /* Setup */
+     , (36228,   3, 0x20000014) /* SoundTable */
+     , (36228,   8, 0x060066C9) /* Icon */
+     , (36228,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36228, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (36228, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36228, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36228, 8000, 2480847482) /* PCAPRecordedObjectIID */;
+VALUES (36228, 8000, 0x93DEBA7A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (36228, 0, 83897761, 83897761);

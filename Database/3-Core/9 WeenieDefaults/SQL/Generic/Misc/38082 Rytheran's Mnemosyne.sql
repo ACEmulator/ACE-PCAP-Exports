@@ -14,20 +14,21 @@ VALUES (38082,   1,        128) /* ItemType - Misc */
      , (38082, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38082,  22, True ) /* Inscribable */;
+VALUES (38082,  22, True ) /* Inscribable */
+     , (38082,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38082,   1, 'Rytheran''s Mnemosyne') /* Name */
      , (38082,  16, 'This mnemosyne came from Lord Rytheran of Menilesh.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38082,   1,   33556999) /* Setup */
-     , (38082,   3,  536870932) /* SoundTable */
-     , (38082,   8,  100689945) /* Icon */
-     , (38082,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38082,   1, 0x02000A07) /* Setup */
+     , (38082,   3, 0x20000014) /* SoundTable */
+     , (38082,   8, 0x06006819) /* Icon */
+     , (38082,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38082, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (38082, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38082, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38082, 8000, 2921571411) /* PCAPRecordedObjectIID */;
+VALUES (38082, 8000, 0xAE23A453) /* PCAPRecordedObjectIID */;

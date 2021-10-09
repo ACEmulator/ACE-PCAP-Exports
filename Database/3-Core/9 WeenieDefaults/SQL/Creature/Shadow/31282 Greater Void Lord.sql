@@ -27,27 +27,27 @@ VALUES (31282,   1, 'Greater Void Lord') /* Name */
      , (31282, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31282,   1,   33559537) /* Setup */
-     , (31282,   2,  150994945) /* MotionTable */
-     , (31282,   3,  536870913) /* SoundTable */
-     , (31282,   8,  100670398) /* Icon */
-     , (31282,   9,   83890255) /* EyesTexture */
-     , (31282,  10,   83890302) /* NoseTexture */
-     , (31282,  11,   83890353) /* MouthTexture */
-     , (31282,  15,   67117075) /* HairPalette */
-     , (31282,  16,   67109566) /* EyesPalette */
-     , (31282,  17,   67109558) /* SkinPalette */
-     , (31282,  22,  872415331) /* PhysicsEffectTable */
+VALUES (31282,   1, 0x020013F1) /* Setup */
+     , (31282,   2, 0x09000001) /* MotionTable */
+     , (31282,   3, 0x20000001) /* SoundTable */
+     , (31282,   8, 0x06001BBE) /* Icon */
+     , (31282,   9, 0x0500104F) /* EyesTexture */
+     , (31282,  10, 0x0500107E) /* NoseTexture */
+     , (31282,  11, 0x050010B1) /* MouthTexture */
+     , (31282,  15, 0x04002013) /* HairPalette */
+     , (31282,  16, 0x040002BE) /* EyesPalette */
+     , (31282,  17, 0x040002B6) /* SkinPalette */
+     , (31282,  22, 0x34000063) /* PhysicsEffectTable */
      , (31282, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (31282, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (31282, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31282, 8040, 168362242, 179.978, 110.824, 60.00275, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (31282, 8040, 0x0A090102, 179.978, 110.824, 60.00275, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0A090102 [179.978000 110.824000 60.002750] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31282, 8000, 3696821085) /* PCAPRecordedObjectIID */;
+VALUES (31282, 8000, 0xDC59035D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (31282,   1,     0, 0, 0, 2500) /* MaxHealth */;
@@ -64,4 +64,6 @@ VALUES (31282, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wiel
      , (31282, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
      , (31282, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (31282, 9, 20248,  0, 0, 0, False) /* Create Scroll of Ogfoot (20248) for ContainTreasure */
-     , (31282, 9, 31825,  0, 0, 0, False) /* Create Piercing Baton (31825) for ContainTreasure */;
+     , (31282, 9, 31825,  0, 0, 0, False) /* Create Piercing Baton (31825) for ContainTreasure */
+     , (31282, 9, 20245,  0, 0, 0, False) /* Create Scroll of Adja's Intervention (20245) for ContainTreasure */
+     , (31282, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */;

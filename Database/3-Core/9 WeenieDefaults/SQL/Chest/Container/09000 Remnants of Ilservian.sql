@@ -25,21 +25,21 @@ VALUES (9000,   1, 'Remnants of Ilservian') /* Name */
      , (9000,  15, 'The remnants of the man that was once Ilservian Palacost.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9000,   1,   33556950) /* Setup */
-     , (9000,   3,  536870932) /* SoundTable */
-     , (9000,   6,   67110722) /* PaletteBase */
-     , (9000,   8,  100667504) /* Icon */
-     , (9000,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9000,   1, 0x020009D6) /* Setup */
+     , (9000,   3, 0x20000014) /* SoundTable */
+     , (9000,   6, 0x04000742) /* PaletteBase */
+     , (9000,   8, 0x06001070) /* Icon */
+     , (9000,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9000, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (9000, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (9000, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9000, 8040, 45089032, 129.709, -80.2786, -6, -0.00321396, 0, 0, 0.999995) /* PCAPRecordedLocation */
+VALUES (9000, 8040, 0x02B00108, 129.709, -80.2786, -6, -0.003214, 0, 0, 0.999995) /* PCAPRecordedLocation */
 /* @teleloc 0x02B00108 [129.709000 -80.278600 -6.000000] -0.003214 0.000000 0.000000 0.999995 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9000, 8000, 1881866246) /* PCAPRecordedObjectIID */;
+VALUES (9000, 8000, 0x702B0006) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9000, -1, 8909, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Blood of the Hopeslayer (8909) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

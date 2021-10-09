@@ -16,7 +16,7 @@ VALUES (38240,   1,         16) /* ItemType - Creature */
      , (38240, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38240, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38240, 188,          4) /* HeritageGroup - Viamontian */
-     , (38240, 281,          1) /* Faction1Bits */
+     , (38240, 281,          1) /* Faction1Bits - CelestialHand */
      , (38240, 287,       1001) /* SocietyRankCelhan */
      , (38240, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -33,27 +33,27 @@ VALUES (38240,   1, 'Marconi di Bellenesse') /* Name */
      , (38240, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38240,   1,   33554433) /* Setup */
-     , (38240,   2,  150994945) /* MotionTable */
-     , (38240,   3,  536870913) /* SoundTable */
-     , (38240,   6,   67108990) /* PaletteBase */
-     , (38240,   8,  100667446) /* Icon */
-     , (38240,   9,   83890480) /* EyesTexture */
-     , (38240,  10,   83890522) /* NoseTexture */
-     , (38240,  11,   83890589) /* MouthTexture */
-     , (38240,  15,   67117078) /* HairPalette */
-     , (38240,  16,   67110063) /* EyesPalette */
-     , (38240,  17,   67115908) /* SkinPalette */
+VALUES (38240,   1, 0x02000001) /* Setup */
+     , (38240,   2, 0x09000001) /* MotionTable */
+     , (38240,   3, 0x20000001) /* SoundTable */
+     , (38240,   6, 0x0400007E) /* PaletteBase */
+     , (38240,   8, 0x06001036) /* Icon */
+     , (38240,   9, 0x05001130) /* EyesTexture */
+     , (38240,  10, 0x0500115A) /* NoseTexture */
+     , (38240,  11, 0x0500119D) /* MouthTexture */
+     , (38240,  15, 0x04002016) /* HairPalette */
+     , (38240,  16, 0x040004AF) /* EyesPalette */
+     , (38240,  17, 0x04001B84) /* SkinPalette */
      , (38240, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (38240, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (38240, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38240, 8040, 11993711, 160.359, -39.8409, -17.995, -0.780306, 0, 0, -0.625397) /* PCAPRecordedLocation */
+VALUES (38240, 8040, 0x00B7026F, 160.359, -39.8409, -17.995, -0.780306, 0, 0, -0.625397) /* PCAPRecordedLocation */
 /* @teleloc 0x00B7026F [160.359000 -39.840900 -17.995000] -0.780306 0.000000 0.000000 -0.625397 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38240, 8000, 3359480010) /* PCAPRecordedObjectIID */;
+VALUES (38240, 8000, 0xC83D98CA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38240,   1, 255, 0, 0) /* Strength */

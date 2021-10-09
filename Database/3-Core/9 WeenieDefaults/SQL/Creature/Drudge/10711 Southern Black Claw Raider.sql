@@ -25,22 +25,22 @@ VALUES (10711,   1, 'Southern Black Claw Raider') /* Name */
      , (10711, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10711,   1,   33556445) /* Setup */
-     , (10711,   2,  150994952) /* MotionTable */
-     , (10711,   3,  536870919) /* SoundTable */
-     , (10711,   6,   67112812) /* PaletteBase */
-     , (10711,   8,  100667445) /* Icon */
-     , (10711,  22,  872415258) /* PhysicsEffectTable */
+VALUES (10711,   1, 0x020007DD) /* Setup */
+     , (10711,   2, 0x09000008) /* MotionTable */
+     , (10711,   3, 0x20000007) /* SoundTable */
+     , (10711,   6, 0x04000F6C) /* PaletteBase */
+     , (10711,   8, 0x06001035) /* Icon */
+     , (10711,  22, 0x3400001A) /* PhysicsEffectTable */
      , (10711, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (10711, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (10711, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10711, 8040, 3411083305, 137.9755, 20.09435, 36.33002, 0.8870109, 0, 0, -0.4617486) /* PCAPRecordedLocation */
+VALUES (10711, 8040, 0xCB510029, 137.9755, 20.09435, 36.33002, 0.887011, 0, 0, -0.461749) /* PCAPRecordedLocation */
 /* @teleloc 0xCB510029 [137.975500 20.094350 36.330020] 0.887011 0.000000 0.000000 -0.461749 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10711, 8000, 2930080975) /* PCAPRecordedObjectIID */;
+VALUES (10711, 8000, 0xAEA57CCF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (10711,   1,     0, 0, 0, 167) /* MaxHealth */;
@@ -53,6 +53,7 @@ VALUES (10711, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wie
      , (10711, 2, 47234,  1, 0, 0, False) /* Create Acid Board with Nail (47234) for Wield */
      , (10711, 2, 47367,  1, 0, 0, False) /* Create Lightning Club (47367) for Wield */
      , (10711, 2, 47253,  1, 0, 0, False) /* Create Board with Nail (47253) for Wield */
+     , (10711, 2, 47291,  1, 0, 0, False) /* Create Fire Board with Nail (47291) for Wield */
      , (10711, 9, 40711,  0, 0, 0, False) /* Create Covenant Helm (40711) for ContainTreasure */
      , (10711, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */;
 

@@ -49,17 +49,17 @@ VALUES (21158,   1, 'Covenant Shield') /* Name */
      , (21158,  16, 'Covenant Shield') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21158,   1,   33557878) /* Setup */
-     , (21158,   3,  536870932) /* SoundTable */
-     , (21158,   8,  100673427) /* Icon */
-     , (21158,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21158,   1, 0x02000D76) /* Setup */
+     , (21158,   3, 0x20000014) /* SoundTable */
+     , (21158,   8, 0x06002793) /* Icon */
+     , (21158,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21158,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (21158, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (21158, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21158, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21158, 8000, 3701821890) /* PCAPRecordedObjectIID */;
+VALUES (21158, 8000, 0xDCA551C2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21158,  1484,      2)  /* Impenetrability4 */;

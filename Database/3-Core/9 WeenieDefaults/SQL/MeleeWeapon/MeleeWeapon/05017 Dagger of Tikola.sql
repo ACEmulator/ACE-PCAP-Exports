@@ -30,6 +30,7 @@ VALUES (5017,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5017,  22, True ) /* Inscribable */
+     , (5017,  23, True ) /* DestroyOnSell */
      , (5017,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -48,24 +49,24 @@ VALUES (5017,   1, 'Dagger of Tikola') /* Name */
      , (5017,  16, 'A terribly sharp, dangerous dagger that seems to be of unusual Empyrean make.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5017,   1,   33556572) /* Setup */
-     , (5017,   3,  536870932) /* SoundTable */
-     , (5017,   6,   67111919) /* PaletteBase */
-     , (5017,   8,  100668936) /* Icon */
-     , (5017,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5017,   1, 0x0200085C) /* Setup */
+     , (5017,   3, 0x20000014) /* SoundTable */
+     , (5017,   6, 0x04000BEF) /* PaletteBase */
+     , (5017,   8, 0x06001608) /* Icon */
+     , (5017,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5017,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (5017, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (5017, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5017, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5017, 8000, 2174553776) /* PCAPRecordedObjectIID */;
+VALUES (5017, 8000, 0x819D0EB0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5017,  1589,      2)  /* HeartSeekerSelf3 */
-     , (5017,  1602,      2)  /* DefenderSelf3 */
+VALUES (5017,  1602,      2)  /* DefenderSelf3 */
      , (5017,  1613,      2)  /* BloodDrinkerSelf3 */
-     , (5017,  1623,      2)  /* SwiftKillerSelf2 */;
+     , (5017,  1623,      2)  /* SwiftKillerSelf2 */
+     , (5017,  1589,      2)  /* HeartSeekerSelf3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5017, 67111920, 0, 0);

@@ -11,7 +11,7 @@ VALUES (20106,   1,        256) /* ItemType - MissileWeapon */
      , (20106,  18,          1) /* UiEffects - Magical */
      , (20106,  19,       4000) /* Value */
      , (20106,  50,          2) /* AmmoType - Bolt */
-     , (20106,  51,          2) /* CombatUse - Missle */
+     , (20106,  51,          2) /* CombatUse - Missile */
      , (20106,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20106, 151,          2) /* HookType - Wall */
      , (20106, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -26,13 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20106,   1, 'Good Isparian Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20106,   1,   33557730) /* Setup */
-     , (20106,   3,  536870932) /* SoundTable */
-     , (20106,   8,  100673020) /* Icon */
-     , (20106,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20106,   1, 0x02000CE2) /* Setup */
+     , (20106,   3, 0x20000014) /* SoundTable */
+     , (20106,   8, 0x060025FC) /* Icon */
+     , (20106,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20106, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (20106, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20106, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20106, 8000, 2261330344) /* PCAPRecordedObjectIID */;
+VALUES (20106, 8000, 0x86C929A8) /* PCAPRecordedObjectIID */;

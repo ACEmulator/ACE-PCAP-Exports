@@ -24,17 +24,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15858,   1, 'Encrusted Bloodstone Jewel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15858,   1,   33554809) /* Setup */
-     , (15858,   3,  536870932) /* SoundTable */
-     , (15858,   6,   67111919) /* PaletteBase */
-     , (15858,   8,  100672821) /* Icon */
-     , (15858,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15858,   1, 0x02000179) /* Setup */
+     , (15858,   3, 0x20000014) /* SoundTable */
+     , (15858,   6, 0x04000BEF) /* PaletteBase */
+     , (15858,   8, 0x06002535) /* Icon */
+     , (15858,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15858, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (15858, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15858, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15858, 8000, 2182531453) /* PCAPRecordedObjectIID */;
+VALUES (15858, 8000, 0x8216C97D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15858, 67111924, 0, 0);

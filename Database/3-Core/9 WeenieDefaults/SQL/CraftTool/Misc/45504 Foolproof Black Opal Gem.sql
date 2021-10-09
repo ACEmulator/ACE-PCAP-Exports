@@ -28,18 +28,18 @@ VALUES (45504,   1, 'Foolproof Black Opal Gem') /* Name */
      , (45504,  16, 'A magical gem containing a bag of Foolproof Black Opal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45504,   1,   33556769) /* Setup */
-     , (45504,   3,  536870932) /* SoundTable */
-     , (45504,   6,   67111919) /* PaletteBase */
-     , (45504,   8,  100673039) /* Icon */
-     , (45504,  22,  872415275) /* PhysicsEffectTable */
-     , (45504,  50,  100674739) /* IconOverlay */
+VALUES (45504,   1, 0x02000921) /* Setup */
+     , (45504,   3, 0x20000014) /* SoundTable */
+     , (45504,   6, 0x04000BEF) /* PaletteBase */
+     , (45504,   8, 0x0600260F) /* Icon */
+     , (45504,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45504,  50, 0x06002CB3) /* IconOverlay */
      , (45504, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (45504, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45504, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45504, 8000, 3685848522) /* PCAPRecordedObjectIID */;
+VALUES (45504, 8000, 0xDBB195CA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45504, 67111927, 0, 0);

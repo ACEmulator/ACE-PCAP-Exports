@@ -10,6 +10,7 @@ VALUES (31331,   1,      32768) /* ItemType - Caster */
      , (31331,  16,          1) /* ItemUseable - No */
      , (31331,  19,      12357) /* Value */
      , (31331,  33,          0) /* Bonded - Normal */
+     , (31331,  46,        512) /* DefaultCombatStyle - Magic */
      , (31331,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31331,  94,         16) /* TargetType - Creature */
      , (31331, 106,        350) /* ItemSpellcraft */
@@ -33,17 +34,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31331,   1, 'Scribe''s Quill') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31331,   1,   33559612) /* Setup */
-     , (31331,   3,  536870932) /* SoundTable */
-     , (31331,   8,  100687946) /* Icon */
-     , (31331,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31331,   1, 0x0200143C) /* Setup */
+     , (31331,   3, 0x20000014) /* SoundTable */
+     , (31331,   8, 0x0600604A) /* Icon */
+     , (31331,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31331,  37,         28) /* ItemSkillLimit - WeaponTinkering */
      , (31331, 8001,  271138840) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, TargetType, Burden, HookType */
      , (31331, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31331, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31331, 8000, 2982964699) /* PCAPRecordedObjectIID */;
+VALUES (31331, 8000, 0xB1CC6DDB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31331,  2325,      2)  /* WeaponExpertiseSelf7 */

@@ -24,13 +24,13 @@ VALUES (1719,   1, 'Scroll of Lockpick Ineptitude') /* Name */
 Decreases the target''s Lockpick skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1719,   1,   33554826) /* Setup */
-     , (1719,   8,  100676463) /* Icon */
-     , (1719,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1719,   1, 0x0200018A) /* Setup */
+     , (1719,   8, 0x0600336F) /* Icon */
+     , (1719,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1719,  28,        940) /* Spell - LockpickIneptitudeOther1 */
      , (1719, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1719, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1719, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1719, 8000, 2924436596) /* PCAPRecordedObjectIID */;
+VALUES (1719, 8000, 0xAE4F5C74) /* PCAPRecordedObjectIID */;

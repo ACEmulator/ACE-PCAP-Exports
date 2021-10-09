@@ -16,14 +16,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37533,   1, 'Aluvian Casino Key Orders') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37533,   1,   33554680) /* Setup */
-     , (37533,   3,  536870932) /* SoundTable */
-     , (37533,   8,  100689882) /* Icon */
-     , (37533,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37533,   1, 0x020000F8) /* Setup */
+     , (37533,   3, 0x20000014) /* SoundTable */
+     , (37533,   8, 0x060067DA) /* Icon */
+     , (37533,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37533, 8001,      16400) /* PCAPRecordedWeenieHeader - Usable, Container */
      , (37533, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37533, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (37533, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37533, 8000,      37533) /* PCAPRecordedObjectIID */;
+VALUES (37533, 8000, 0x0000929D) /* PCAPRecordedObjectIID */;

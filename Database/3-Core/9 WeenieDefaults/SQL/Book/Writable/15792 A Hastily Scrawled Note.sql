@@ -14,6 +14,9 @@ VALUES (15792,   1,       8192) /* ItemType - Writable */
      , (15792, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (15792, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (15792,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15792,  54,       1) /* UseRadius */;
 
@@ -22,17 +25,17 @@ VALUES (15792,   1, 'A Hastily Scrawled Note') /* Name */
      , (15792,  16, 'A note hastily written by Nuhmudira. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15792,   1,   33554773) /* Setup */
-     , (15792,   3,  536870932) /* SoundTable */
-     , (15792,   8,  100672795) /* Icon */
-     , (15792,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15792,   1, 0x02000155) /* Setup */
+     , (15792,   3, 0x20000014) /* SoundTable */
+     , (15792,   8, 0x0600251B) /* Icon */
+     , (15792,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15792, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (15792, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (15792, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15792, 8040, 1415708932, 11.8914, 2.27639, 0.079, -0.897979, 0, 0, -0.440039) /* PCAPRecordedLocation */
+VALUES (15792, 8040, 0x54620104, 11.8914, 2.27639, 0.079, -0.897979, 0, 0, -0.440039) /* PCAPRecordedLocation */
 /* @teleloc 0x54620104 [11.891400 2.276390 0.079000] -0.897979 0.000000 0.000000 -0.440039 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15792, 8000, 3709100841) /* PCAPRecordedObjectIID */;
+VALUES (15792, 8000, 0xDD146329) /* PCAPRecordedObjectIID */;

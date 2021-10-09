@@ -25,21 +25,21 @@ VALUES (25974,   1, 'Yalik Ibn Ujsef') /* Name */
      , (25974, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25974,   1,   33554433) /* Setup */
-     , (25974,   2,  150994945) /* MotionTable */
-     , (25974,   3,  536870913) /* SoundTable */
-     , (25974,   6,   67108990) /* PaletteBase */
-     , (25974,   8,  100667446) /* Icon */
+VALUES (25974,   1, 0x02000001) /* Setup */
+     , (25974,   2, 0x09000001) /* MotionTable */
+     , (25974,   3, 0x20000001) /* SoundTable */
+     , (25974,   6, 0x0400007E) /* PaletteBase */
+     , (25974,   8, 0x06001036) /* Icon */
      , (25974, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (25974, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (25974, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25974, 8040, 1682572176, 117.039, -52.0268, 0.004999995, 0.9623619, 0, 0, -0.271771) /* PCAPRecordedLocation */
+VALUES (25974, 8040, 0x644A0390, 117.039, -52.0268, 0.005, 0.962362, 0, 0, -0.271771) /* PCAPRecordedLocation */
 /* @teleloc 0x644A0390 [117.039000 -52.026800 0.005000] 0.962362 0.000000 0.000000 -0.271771 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25974, 8000, 2881361610) /* PCAPRecordedObjectIID */;
+VALUES (25974, 8000, 0xABBE16CA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25974, 67109551, 0, 24)

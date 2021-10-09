@@ -39,20 +39,20 @@ VALUES (32151,   1, 'Virindi Desecrator Mask') /* Name */
      , (32151,  16, 'A green Virindi mask reconstructed from the remains of a defeated Virindi Desecrator.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32151,   1,   33559790) /* Setup */
-     , (32151,   3,  536870932) /* SoundTable */
-     , (32151,   8,  100688474) /* Icon */
-     , (32151,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32151,   1, 0x020014EE) /* Setup */
+     , (32151,   3, 0x20000014) /* SoundTable */
+     , (32151,   8, 0x0600625A) /* Icon */
+     , (32151,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32151, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (32151, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32151, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32151, 8000, 2158691106) /* PCAPRecordedObjectIID */;
+VALUES (32151, 8000, 0x80AB0322) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32151,   244,      2)  /* InvulnerabilityOther6 */
-     , (32151,   417,      2)  /* SwordMasteryOther6 */
+VALUES (32151,  2053,      2)  /* ArmorSelf7 */
      , (32151,  1486,      2)  /* Impenetrability6 */
-     , (32151,  2053,      2)  /* ArmorSelf7 */
+     , (32151,   417,      2)  /* HeavyWeaponsMasteryOther6 */
+     , (32151,   244,      2)  /* InvulnerabilityOther6 */
      , (32151,  2550,      2)  /* CANTRIPINVULNERABILITY1 */;

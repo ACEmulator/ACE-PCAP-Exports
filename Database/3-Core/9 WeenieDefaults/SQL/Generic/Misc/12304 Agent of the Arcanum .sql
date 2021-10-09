@@ -18,15 +18,15 @@ VALUES (12304,   1, 'Agent of the Arcanum ') /* Name */
      , (12304,  16, 'Agent of the Arcanum') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12304,   1,   33557390) /* Setup */
-     , (12304,   8,  100672342) /* Icon */
+VALUES (12304,   1, 0x02000B8E) /* Setup */
+     , (12304,   8, 0x06002356) /* Icon */
      , (12304, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (12304, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12304, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12304, 8040, 3862757411, 102.536, 54.7218, 86, 0.999884, 0, 0, 0.0152548) /* PCAPRecordedLocation */
+VALUES (12304, 8040, 0xE63D0023, 102.536, 54.7218, 86, 0.999884, 0, 0, 0.015255) /* PCAPRecordedLocation */
 /* @teleloc 0xE63D0023 [102.536000 54.721800 86.000000] 0.999884 0.000000 0.000000 0.015255 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12304, 8000, 2120470562) /* PCAPRecordedObjectIID */;
+VALUES (12304, 8000, 0x7E63D022) /* PCAPRecordedObjectIID */;

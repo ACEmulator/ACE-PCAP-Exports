@@ -14,11 +14,11 @@ VALUES (48908,   1,        128) /* ItemType - Misc */
      , (48908,  98, 1485748853) /* CreationTimestamp */
      , (48908, 114,          1) /* Attuned - Attuned */
      , (48908, 267,      86400) /* Lifespan */
-     , (48908, 268,      85664) /* RemainingLifespan */
      , (48908, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48908,  22, True ) /* Inscribable */
+     , (48908,  23, True ) /* DestroyOnSell */
      , (48908,  69, False) /* IsSellable */
      , (48908,  99, False) /* Ivoryable */;
 
@@ -28,13 +28,13 @@ VALUES (48908,   1, 'Shattered Legendary Key') /* Name */
      , (48908,  16, 'A severely damaged and cracked Legendary Key') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48908,   1,   33554784) /* Setup */
-     , (48908,   3,  536870932) /* SoundTable */
-     , (48908,   8,  100693002) /* Icon */
-     , (48908,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48908,   1, 0x02000160) /* Setup */
+     , (48908,   3, 0x20000014) /* SoundTable */
+     , (48908,   8, 0x0600740A) /* Icon */
+     , (48908,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48908, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (48908, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48908, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48908, 8000, 3360221701) /* PCAPRecordedObjectIID */;
+VALUES (48908, 8000, 0xC848EA05) /* PCAPRecordedObjectIID */;

@@ -38,13 +38,13 @@ VALUES (3746,   1, 'Auroch Horn Spear') /* Name */
      , (3746,  16, 'A spear made from the horn of an auroch. Mysterious electrical impulses flare along the shaft of the weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3746,   1,   33555789) /* Setup */
-     , (3746,   3,  536870932) /* SoundTable */
-     , (3746,   8,  100667609) /* Icon */
-     , (3746,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3746,   1, 0x0200054D) /* Setup */
+     , (3746,   3, 0x20000014) /* SoundTable */
+     , (3746,   8, 0x060010D9) /* Icon */
+     , (3746,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3746, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (3746, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3746, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3746, 8000, 2629411208) /* PCAPRecordedObjectIID */;
+VALUES (3746, 8000, 0x9CB9A188) /* PCAPRecordedObjectIID */;

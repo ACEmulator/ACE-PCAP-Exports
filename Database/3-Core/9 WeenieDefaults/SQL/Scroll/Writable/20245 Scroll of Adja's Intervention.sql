@@ -24,13 +24,13 @@ VALUES (20245,   1, 'Scroll of Adja''s Intervention') /* Name */
 Restores 80-150 points of the caster''s Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20245,   1,   33554826) /* Setup */
-     , (20245,   8,  100676931) /* Icon */
-     , (20245,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20245,   1, 0x0200018A) /* Setup */
+     , (20245,   8, 0x06003543) /* Icon */
+     , (20245,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20245,  28,       2073) /* Spell - HealSelf7 */
      , (20245, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20245, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20245, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20245, 8000, 2629333420) /* PCAPRecordedObjectIID */;
+VALUES (20245, 8000, 0x9CB871AC) /* PCAPRecordedObjectIID */;

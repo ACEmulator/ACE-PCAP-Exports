@@ -14,7 +14,8 @@ VALUES (24143,   1,        128) /* ItemType - Misc */
      , (24143, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24143,  22, True ) /* Inscribable */;
+VALUES (24143,  22, True ) /* Inscribable */
+     , (24143,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24143,  39,     0.5) /* DefaultScale */;
@@ -24,17 +25,17 @@ VALUES (24143,   1, 'Empty Mug') /* Name */
      , (24143,  15, 'An empty mug with the words, "Property of Celcynd" etched into the bottom.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24143,   1,   33554665) /* Setup */
-     , (24143,   3,  536870932) /* SoundTable */
-     , (24143,   8,  100667432) /* Icon */
-     , (24143,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24143,   1, 0x020000E9) /* Setup */
+     , (24143,   3, 0x20000014) /* SoundTable */
+     , (24143,   8, 0x06001028) /* Icon */
+     , (24143,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24143, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (24143, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24143, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24143, 8040, 288620588, 135.17, 80.2072, 51.737, -0.7601282, 0, 0, -0.6497731) /* PCAPRecordedLocation */
+VALUES (24143, 8040, 0x1134002C, 135.17, 80.2072, 51.737, -0.760128, 0, 0, -0.649773) /* PCAPRecordedLocation */
 /* @teleloc 0x1134002C [135.170000 80.207200 51.737000] -0.760128 0.000000 0.000000 -0.649773 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24143, 8000, 3692726577) /* PCAPRecordedObjectIID */;
+VALUES (24143, 8000, 0xDC1A8931) /* PCAPRecordedObjectIID */;

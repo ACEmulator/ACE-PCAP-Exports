@@ -23,16 +23,16 @@ VALUES (7256,   1, 'Olthoi Horde Nest') /* Name */
      , (7256, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7256,   1,   33555923) /* Setup */
-     , (7256,   2,  150994947) /* MotionTable */
-     , (7256,   8,  100667499) /* Icon */
+VALUES (7256,   1, 0x020005D3) /* Setup */
+     , (7256,   2, 0x09000003) /* MotionTable */
+     , (7256,   8, 0x0600106B) /* Icon */
      , (7256, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (7256, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (7256, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7256, 8040, 1874591765, 49.5967, 108.514, 98.89417, 0.3531129, 0, 0, 0.9355807) /* PCAPRecordedLocation */
+VALUES (7256, 8040, 0x6FBC0015, 49.5967, 108.514, 98.89417, 0.353113, 0, 0, 0.935581) /* PCAPRecordedLocation */
 /* @teleloc 0x6FBC0015 [49.596700 108.514000 98.894170] 0.353113 0.000000 0.000000 0.935581 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7256, 8000, 1996210176) /* PCAPRecordedObjectIID */;
+VALUES (7256, 8000, 0x76FBC000) /* PCAPRecordedObjectIID */;

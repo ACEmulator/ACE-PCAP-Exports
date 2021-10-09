@@ -30,14 +30,14 @@ VALUES (5672,   1, 'Herbal Tea') /* Name */
      , (5672,  16, 'A strong tea made from mugwort and willow leaves, popular in the Aluvian highlands.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5672,   1,   33554663) /* Setup */
-     , (5672,   3,  536870932) /* SoundTable */
-     , (5672,   8,  100667430) /* Icon */
-     , (5672,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5672,   1, 0x020000E7) /* Setup */
+     , (5672,   3, 0x20000014) /* SoundTable */
+     , (5672,   8, 0x06001026) /* Icon */
+     , (5672,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5672,  28,         54) /* Spell - RejuvenationSelf1 */
      , (5672, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (5672, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5672, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5672, 8000, 2192312170) /* PCAPRecordedObjectIID */;
+VALUES (5672, 8000, 0x82AC076A) /* PCAPRecordedObjectIID */;

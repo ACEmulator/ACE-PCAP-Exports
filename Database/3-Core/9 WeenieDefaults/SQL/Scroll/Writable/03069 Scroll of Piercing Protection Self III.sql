@@ -24,13 +24,13 @@ VALUES (3069,   1, 'Scroll of Piercing Protection Self III') /* Name */
 Reduces damage the caster takes from Piercing by 33%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3069,   1,   33554826) /* Setup */
-     , (3069,   8,  100676953) /* Icon */
-     , (3069,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3069,   1, 0x0200018A) /* Setup */
+     , (3069,   8, 0x06003559) /* Icon */
+     , (3069,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3069,  28,       1135) /* Spell - PiercingProtectionSelf3 */
      , (3069, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3069, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3069, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3069, 8000, 2629085444) /* PCAPRecordedObjectIID */;
+VALUES (3069, 8000, 0x9CB4A904) /* PCAPRecordedObjectIID */;

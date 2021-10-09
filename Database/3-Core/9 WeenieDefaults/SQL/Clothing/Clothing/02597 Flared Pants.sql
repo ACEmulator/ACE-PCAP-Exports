@@ -42,17 +42,17 @@ VALUES (2597,   1, 'Flared Pants') /* Name */
      , (2597,  16, 'Flared Pants of Cold Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2597,   1,   33554653) /* Setup */
-     , (2597,   3,  536870932) /* SoundTable */
-     , (2597,   6,   67108990) /* PaletteBase */
-     , (2597,   8,  100667370) /* Icon */
-     , (2597,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2597,   1, 0x020000DD) /* Setup */
+     , (2597,   3, 0x20000014) /* SoundTable */
+     , (2597,   6, 0x0400007E) /* PaletteBase */
+     , (2597,   8, 0x06000FEA) /* Icon */
+     , (2597,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2597, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (2597, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2597, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2597, 8000, 2186220385) /* PCAPRecordedObjectIID */;
+VALUES (2597, 8000, 0x824F1361) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2597,  1034,      2)  /* ColdProtectionSelf5 */;

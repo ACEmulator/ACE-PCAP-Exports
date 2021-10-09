@@ -27,21 +27,21 @@ VALUES (36107,   1, 'Claude the Archmage') /* Name */
      , (36107, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36107,   1,   33554497) /* Setup */
-     , (36107,   2,  150994984) /* MotionTable */
-     , (36107,   3,  536870930) /* SoundTable */
-     , (36107,   6,   67111346) /* PaletteBase */
-     , (36107,   8,  100667943) /* Icon */
+VALUES (36107,   1, 0x02000041) /* Setup */
+     , (36107,   2, 0x09000028) /* MotionTable */
+     , (36107,   3, 0x20000012) /* SoundTable */
+     , (36107,   6, 0x040009B2) /* PaletteBase */
+     , (36107,   8, 0x06001227) /* Icon */
      , (36107, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (36107, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (36107, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36107, 8040, 10682669, 420, -180, -35.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (36107, 8040, 0x00A3012D, 420, -180, -35.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00A3012D [420.000000 -180.000000 -35.971000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36107, 8000, 3705804596) /* PCAPRecordedObjectIID */;
+VALUES (36107, 8000, 0xDCE21734) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36107,   1, 140, 0, 0) /* Strength */

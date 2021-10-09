@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32747,   1, 'Crystallized Essence of Artifice') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32747,   1,   33559839) /* Setup */
-     , (32747,   3,  536870932) /* SoundTable */
-     , (32747,   8,  100688601) /* Icon */
-     , (32747,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32747,   1, 0x0200151F) /* Setup */
+     , (32747,   3, 0x20000014) /* SoundTable */
+     , (32747,   8, 0x060062D9) /* Icon */
+     , (32747,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32747, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (32747, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32747, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32747, 8000, 2158463168) /* PCAPRecordedObjectIID */;
+VALUES (32747, 8000, 0x80A788C0) /* PCAPRecordedObjectIID */;

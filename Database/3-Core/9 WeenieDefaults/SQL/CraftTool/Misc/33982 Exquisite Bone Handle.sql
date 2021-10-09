@@ -18,19 +18,22 @@ VALUES (33982,   1,        128) /* ItemType - Misc */
      , (33982, 114,          1) /* Attuned - Attuned */
      , (33982, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (33982,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33982,   1, 'Exquisite Bone Handle') /* Name */
      , (33982,  14, 'Use this handle on a perfectly crafted Composite Bow or Composite Crossbow to upgrade it.') /* Use */
      , (33982,  16, 'A beautifully crafted bone handle. It glows with an inner radiance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33982,   1,   33556603) /* Setup */
-     , (33982,   3,  536870932) /* SoundTable */
-     , (33982,   8,  100689102) /* Icon */
-     , (33982,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33982,   1, 0x0200087B) /* Setup */
+     , (33982,   3, 0x20000014) /* SoundTable */
+     , (33982,   8, 0x060064CE) /* Icon */
+     , (33982,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33982, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (33982, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (33982, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33982, 8000, 2979050419) /* PCAPRecordedObjectIID */;
+VALUES (33982, 8000, 0xB190B3B3) /* PCAPRecordedObjectIID */;

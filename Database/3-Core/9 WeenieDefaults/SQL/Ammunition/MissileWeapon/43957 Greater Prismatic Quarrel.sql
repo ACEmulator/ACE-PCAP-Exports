@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43957,   1,        256) /* ItemType - MissileWeapon */
      , (43957,   5,          1) /* EncumbranceVal */
      , (43957,   9,    8388608) /* ValidLocations - MissileAmmo */
-     , (43957,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
      , (43957,  11,       3000) /* MaxStackSize */
      , (43957,  12,          1) /* StackSize */
      , (43957,  13,          1) /* StackUnitEncumbrance */
@@ -51,27 +50,23 @@ VALUES (43957,   1, 'Greater Prismatic Quarrel') /* Name */
      , (43957,  16, 'Magically enhanced crystaline quarrels that draw the elemental energies from elementally attuned crossbows to damage their target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43957,   1,   33561225) /* Setup */
-     , (43957,   3,  536870932) /* SoundTable */
-     , (43957,   6,   67111919) /* PaletteBase */
-     , (43957,   8,  100691918) /* Icon */
-     , (43957,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43957,   1, 0x02001A89) /* Setup */
+     , (43957,   3, 0x20000014) /* SoundTable */
+     , (43957,   6, 0x04000BEF) /* PaletteBase */
+     , (43957,   8, 0x06006FCE) /* Icon */
+     , (43957,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43957, 8001,  270775192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (43957, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43957, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
      , (43957, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43957, 8040, 4061528110, 127.0224, 126.9225, -0.071, -0.6512884, -0.6512884, -0.2753604, -0.2753604) /* PCAPRecordedLocation */
+VALUES (43957, 8040, 0xF216002E, 127.0224, 126.9225, -0.071, -0.651288, -0.651288, -0.27536, -0.27536) /* PCAPRecordedLocation */
 /* @teleloc 0xF216002E [127.022400 126.922500 -0.071000] -0.651288 -0.651288 -0.275360 -0.275360 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43957, 8000, 2855969857) /* PCAPRecordedObjectIID */
-     , (43957, 8008, 1342465040) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43957, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */
-     , (43957, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
+VALUES (43957, 8000, 0xAA3AA441) /* PCAPRecordedObjectIID */
+     , (43957, 8008, 0x50046410) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43957, 67111920, 0, 0);

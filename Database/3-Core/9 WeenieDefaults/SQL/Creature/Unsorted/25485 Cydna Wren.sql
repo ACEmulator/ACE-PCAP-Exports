@@ -25,21 +25,21 @@ VALUES (25485,   1, 'Cydna Wren') /* Name */
      , (25485, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25485,   1,   33554510) /* Setup */
-     , (25485,   2,  150994945) /* MotionTable */
-     , (25485,   3,  536870914) /* SoundTable */
-     , (25485,   6,   67108990) /* PaletteBase */
-     , (25485,   8,  100667446) /* Icon */
+VALUES (25485,   1, 0x0200004E) /* Setup */
+     , (25485,   2, 0x09000001) /* MotionTable */
+     , (25485,   3, 0x20000002) /* SoundTable */
+     , (25485,   6, 0x0400007E) /* PaletteBase */
+     , (25485,   8, 0x06001036) /* Icon */
      , (25485, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (25485, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (25485, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25485, 8040, 2642739456, 33.4445, 108.384, 47.705, 0.245566, 0, 0, -0.96938) /* PCAPRecordedLocation */
+VALUES (25485, 8040, 0x9D850100, 33.4445, 108.384, 47.705, 0.245566, 0, 0, -0.96938) /* PCAPRecordedLocation */
 /* @teleloc 0x9D850100 [33.444500 108.384000 47.705000] 0.245566 0.000000 0.000000 -0.969380 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25485, 8000, 2875876906) /* PCAPRecordedObjectIID */;
+VALUES (25485, 8000, 0xAB6A662A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25485, 67109552, 0, 24)

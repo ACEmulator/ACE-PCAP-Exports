@@ -54,24 +54,24 @@ VALUES (30615,   1, 'Acid Knuckles') /* Name */
      , (30615,  16, 'Acid Knuckles of Swift Killer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30615,   1,   33559501) /* Setup */
-     , (30615,   3,  536870932) /* SoundTable */
-     , (30615,   6,   67115556) /* PaletteBase */
-     , (30615,   8,  100687026) /* Icon */
-     , (30615,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30615,   1, 0x020013CD) /* Setup */
+     , (30615,   3, 0x20000014) /* SoundTable */
+     , (30615,   6, 0x04001A24) /* PaletteBase */
+     , (30615,   8, 0x06005CB2) /* Icon */
+     , (30615,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30615,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (30615, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30615, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30615, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30615, 8000, 3688385001) /* PCAPRecordedObjectIID */;
+VALUES (30615, 8000, 0xDBD849E9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30615,  1626,      2)  /* SwiftKillerSelf5 */
+     , (30615,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
      , (30615,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (30615,  2101,      2)  /* DefenderSelf7 */
-     , (30615,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;
+     , (30615,  2101,      2)  /* DefenderSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30615, 67116439, 0, 0);

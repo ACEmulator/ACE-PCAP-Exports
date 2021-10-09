@@ -24,13 +24,13 @@ VALUES (20233,   1, 'Scroll of Ataxia') /* Name */
 Decreases the target''s Coordination by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20233,   1,   33554826) /* Setup */
-     , (20233,   8,  100676452) /* Icon */
-     , (20233,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20233,   1, 0x0200018A) /* Setup */
+     , (20233,   8, 0x06003364) /* Icon */
+     , (20233,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20233,  28,       2056) /* Spell - ClumsinessOther7 */
      , (20233, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20233, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20233, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20233, 8000, 2186220550) /* PCAPRecordedObjectIID */;
+VALUES (20233, 8000, 0x824F1406) /* PCAPRecordedObjectIID */;

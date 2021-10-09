@@ -24,13 +24,13 @@ VALUES (1781,   1, 'Scroll of Quickness Self') /* Name */
 Increases the caster''s Quickness by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1781,   1,   33554826) /* Setup */
-     , (1781,   8,  100676469) /* Icon */
-     , (1781,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1781,   1, 0x0200018A) /* Setup */
+     , (1781,   8, 0x06003375) /* Icon */
+     , (1781,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1781,  28,       1397) /* Spell - QuicknessSelf1 */
      , (1781, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1781, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1781, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1781, 8000, 2872272319) /* PCAPRecordedObjectIID */;
+VALUES (1781, 8000, 0xAB3365BF) /* PCAPRecordedObjectIID */;

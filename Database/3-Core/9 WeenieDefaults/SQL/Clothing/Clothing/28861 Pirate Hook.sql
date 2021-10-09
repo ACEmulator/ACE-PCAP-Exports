@@ -31,13 +31,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28861,   1, 'Pirate Hook') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28861,   1,   33559017) /* Setup */
-     , (28861,   3,  536870932) /* SoundTable */
-     , (28861,   8,  100677106) /* Icon */
-     , (28861,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28861,   1, 0x020011E9) /* Setup */
+     , (28861,   3, 0x20000014) /* SoundTable */
+     , (28861,   8, 0x060035F2) /* Icon */
+     , (28861,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28861, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (28861, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28861, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28861, 8000, 2982968621) /* PCAPRecordedObjectIID */;
+VALUES (28861, 8000, 0xB1CC7D2D) /* PCAPRecordedObjectIID */;

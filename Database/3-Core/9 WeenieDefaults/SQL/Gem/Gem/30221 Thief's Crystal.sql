@@ -34,24 +34,24 @@ VALUES (30221,   1, 'Thief''s Crystal') /* Name */
      , (30221,  20, 'Thief''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30221,   1,   33554809) /* Setup */
-     , (30221,   3,  536870932) /* SoundTable */
-     , (30221,   8,  100686697) /* Icon */
-     , (30221,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30221,   1, 0x02000179) /* Setup */
+     , (30221,   3, 0x20000014) /* SoundTable */
+     , (30221,   8, 0x06005B69) /* Icon */
+     , (30221,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30221,  28,       3720) /* Spell - LockpickMasteryRare */
-     , (30221,  50,  100686668) /* IconOverlay */
-     , (30221,  52,  100686604) /* IconUnderlay */
+     , (30221,  50, 0x06005B4C) /* IconOverlay */
+     , (30221,  52, 0x06005B0C) /* IconUnderlay */
      , (30221, 8001, 1349005457) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30221, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30221, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30221, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30221, 8040, 3583574079, 175.4472, 157.6636, 373.999, -0.04191343, 0, 0, -0.9991212) /* PCAPRecordedLocation */
+VALUES (30221, 8040, 0xD599003F, 175.4472, 157.6636, 373.999, -0.041913, 0, 0, -0.999121) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [175.447200 157.663600 373.999000] -0.041913 0.000000 0.000000 -0.999121 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30221, 8000, 2183790828) /* PCAPRecordedObjectIID */;
+VALUES (30221, 8000, 0x822A00EC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (30221, 0, 83890391, 83890391);

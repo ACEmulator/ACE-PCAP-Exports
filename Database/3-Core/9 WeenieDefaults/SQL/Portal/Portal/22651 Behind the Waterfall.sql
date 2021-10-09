@@ -23,16 +23,16 @@ VALUES (22651,   1, 'Behind the Waterfall') /* Name */
      , (22651, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22651,   1,   33555922) /* Setup */
-     , (22651,   2,  150994947) /* MotionTable */
-     , (22651,   8,  100667499) /* Icon */
+VALUES (22651,   1, 0x020005D2) /* Setup */
+     , (22651,   2, 0x09000003) /* MotionTable */
+     , (22651,   8, 0x0600106B) /* Icon */
      , (22651, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (22651, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (22651, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22651, 8040, 3933470757, 111.171, 118.111, 79.487, -0.9997495, 0, 0, -0.02238151) /* PCAPRecordedLocation */
+VALUES (22651, 8040, 0xEA740025, 111.171, 118.111, 79.487, -0.99975, 0, 0, -0.022382) /* PCAPRecordedLocation */
 /* @teleloc 0xEA740025 [111.171000 118.111000 79.487000] -0.999750 0.000000 0.000000 -0.022382 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22651, 8000, 2124890112) /* PCAPRecordedObjectIID */;
+VALUES (22651, 8000, 0x7EA74000) /* PCAPRecordedObjectIID */;

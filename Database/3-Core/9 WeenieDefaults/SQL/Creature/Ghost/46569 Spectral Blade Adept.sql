@@ -25,22 +25,22 @@ VALUES (46569,   1, 'Spectral Blade Adept') /* Name */
      , (46569, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46569,   1,   33561479) /* Setup */
-     , (46569,   2,  150994945) /* MotionTable */
-     , (46569,   3,  536870942) /* SoundTable */
-     , (46569,   6,   67108990) /* PaletteBase */
-     , (46569,   8,  100669124) /* Icon */
-     , (46569,  22,  872415269) /* PhysicsEffectTable */
+VALUES (46569,   1, 0x02001B87) /* Setup */
+     , (46569,   2, 0x09000001) /* MotionTable */
+     , (46569,   3, 0x2000001E) /* SoundTable */
+     , (46569,   6, 0x0400007E) /* PaletteBase */
+     , (46569,   8, 0x060016C4) /* Icon */
+     , (46569,  22, 0x34000025) /* PhysicsEffectTable */
      , (46569, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46569, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (46569, 8005,     366659) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46569, 8040, 1717436794, 21.018, -108.537, -5.930811, 0.628289, 0, 0, -0.77798) /* PCAPRecordedLocation */
+VALUES (46569, 8040, 0x665E017A, 21.018, -108.537, -5.930811, 0.628289, 0, 0, -0.77798) /* PCAPRecordedLocation */
 /* @teleloc 0x665E017A [21.018000 -108.537000 -5.930811] 0.628289 0.000000 0.000000 -0.777980 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46569, 8000, 3707469617) /* PCAPRecordedObjectIID */;
+VALUES (46569, 8000, 0xDCFB7F31) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (46569,   1,     0, 0, 0, 6175) /* MaxHealth */;

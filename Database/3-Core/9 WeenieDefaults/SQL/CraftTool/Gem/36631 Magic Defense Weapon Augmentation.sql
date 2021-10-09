@@ -24,18 +24,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36631,   1, 'Magic Defense Weapon Augmentation') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36631,   1,   33554809) /* Setup */
-     , (36631,   3,  536870932) /* SoundTable */
-     , (36631,   6,   67111919) /* PaletteBase */
-     , (36631,   8,  100686475) /* Icon */
-     , (36631,  22,  872415275) /* PhysicsEffectTable */
-     , (36631,  50,  100686671) /* IconOverlay */
+VALUES (36631,   1, 0x02000179) /* Setup */
+     , (36631,   3, 0x20000014) /* SoundTable */
+     , (36631,   6, 0x04000BEF) /* PaletteBase */
+     , (36631,   8, 0x06005A8B) /* Icon */
+     , (36631,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36631,  50, 0x06005B4F) /* IconOverlay */
      , (36631, 8001, 1076392088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (36631, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36631, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36631, 8000, 2402964032) /* PCAPRecordedObjectIID */;
+VALUES (36631, 8000, 0x8F3A5240) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36631, 67111920, 0, 0);

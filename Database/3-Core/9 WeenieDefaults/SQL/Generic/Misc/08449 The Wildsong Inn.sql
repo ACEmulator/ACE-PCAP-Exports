@@ -18,18 +18,18 @@ VALUES (8449,   1, 'The Wildsong Inn') /* Name */
      , (8449,  16, 'The WildSong Inn') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8449,   1,   33555594) /* Setup */
-     , (8449,   8,  100668115) /* Icon */
+VALUES (8449,   1, 0x0200048A) /* Setup */
+     , (8449,   8, 0x060012D3) /* Icon */
      , (8449, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (8449, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (8449, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8449, 8040, 3894542389, 157, 96.5, 2.9, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (8449, 8040, 0xE8220035, 157, 96.5, 2.9, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xE8220035 [157.000000 96.500000 2.900000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8449, 8000, 2122457098) /* PCAPRecordedObjectIID */;
+VALUES (8449, 8000, 0x7E82200A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (8449, 0, 83891180, 83891182);

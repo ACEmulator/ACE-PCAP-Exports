@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22817,   1, 'The Rat Nest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22817,   1,   33554773) /* Setup */
-     , (22817,   3,  536870932) /* SoundTable */
-     , (22817,   8,  100675748) /* Icon */
-     , (22817,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22817,   1, 0x02000155) /* Setup */
+     , (22817,   3, 0x20000014) /* SoundTable */
+     , (22817,   8, 0x060030A4) /* Icon */
+     , (22817,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22817, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (22817, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (22817, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22817, 8000, 2240725060) /* PCAPRecordedObjectIID */;
+VALUES (22817, 8000, 0x858EC044) /* PCAPRecordedObjectIID */;

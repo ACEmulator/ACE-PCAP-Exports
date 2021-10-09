@@ -14,7 +14,8 @@ VALUES (5175,   1,        128) /* ItemType - Misc */
      , (5175, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5175,  22, True ) /* Inscribable */;
+VALUES (5175,  22, True ) /* Inscribable */
+     , (5175,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5175,  39,       2) /* DefaultScale */;
@@ -24,17 +25,17 @@ VALUES (5175,   1, 'Perfectly Aged Cider') /* Name */
      , (5175,  16, 'A perfectly aged bottle of Cove Apple Cider, made in Yaraq by the Al-Luq family.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5175,   1,   33554602) /* Setup */
-     , (5175,   3,  536870932) /* SoundTable */
-     , (5175,   6,   67111919) /* PaletteBase */
-     , (5175,   8,  100667410) /* Icon */
-     , (5175,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5175,   1, 0x020000AA) /* Setup */
+     , (5175,   3, 0x20000014) /* SoundTable */
+     , (5175,   6, 0x04000BEF) /* PaletteBase */
+     , (5175,   8, 0x06001012) /* Icon */
+     , (5175,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5175, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (5175, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5175, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5175, 8000, 2766584740) /* PCAPRecordedObjectIID */;
+VALUES (5175, 8000, 0xA4E6BBA4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5175, 67111920, 0, 0);

@@ -20,13 +20,13 @@ VALUES (34096,   1, 'Fresh Zombie Arm') /* Name */
      , (34096,  14, 'Turn this item into Ungrim in Glendenwood.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34096,   1,   33558031) /* Setup */
-     , (34096,   3,  536870932) /* SoundTable */
-     , (34096,   8,  100673709) /* Icon */
-     , (34096,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34096,   1, 0x02000E0F) /* Setup */
+     , (34096,   3, 0x20000014) /* SoundTable */
+     , (34096,   8, 0x060028AD) /* Icon */
+     , (34096,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34096, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (34096, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34096, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34096, 8000, 2157927997) /* PCAPRecordedObjectIID */;
+VALUES (34096, 8000, 0x809F5E3D) /* PCAPRecordedObjectIID */;

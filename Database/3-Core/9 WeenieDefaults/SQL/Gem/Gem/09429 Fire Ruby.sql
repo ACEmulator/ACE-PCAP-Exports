@@ -24,18 +24,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9429,   1, 'Fire Ruby') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9429,   1,   33554809) /* Setup */
-     , (9429,   3,  536870932) /* SoundTable */
-     , (9429,   6,   67111919) /* PaletteBase */
-     , (9429,   8,  100668364) /* Icon */
-     , (9429,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9429,   1, 0x02000179) /* Setup */
+     , (9429,   3, 0x20000014) /* SoundTable */
+     , (9429,   6, 0x04000BEF) /* PaletteBase */
+     , (9429,   8, 0x060013CC) /* Icon */
+     , (9429,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9429,  28,       2396) /* Spell - FlameShield */
      , (9429, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (9429, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9429, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9429, 8000, 3358030303) /* PCAPRecordedObjectIID */;
+VALUES (9429, 8000, 0xC82779DF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9429, 67111924, 0, 0);

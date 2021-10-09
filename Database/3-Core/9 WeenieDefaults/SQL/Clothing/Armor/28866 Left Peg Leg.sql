@@ -33,13 +33,13 @@ VALUES (28866,   1, 'Left Peg Leg') /* Name */
      , (28866,  16, 'Onda Nakoza in MacNiall''s Freehold will modify this left peg leg so it can be coupled with the right peg leg for a double peg leg set!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28866,   1,   33559015) /* Setup */
-     , (28866,   3,  536870932) /* SoundTable */
-     , (28866,   8,  100677105) /* Icon */
-     , (28866,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28866,   1, 0x020011E7) /* Setup */
+     , (28866,   3, 0x20000014) /* SoundTable */
+     , (28866,   8, 0x060035F1) /* Icon */
+     , (28866,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28866, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (28866, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28866, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28866, 8000, 2249707925) /* PCAPRecordedObjectIID */;
+VALUES (28866, 8000, 0x8617D195) /* PCAPRecordedObjectIID */;

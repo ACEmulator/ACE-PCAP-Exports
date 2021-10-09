@@ -22,21 +22,21 @@ VALUES (40130,   1, 'Crystalline Wisp') /* Name */
      , (40130, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40130,   1,   33555867) /* Setup */
-     , (40130,   2,  150994993) /* MotionTable */
-     , (40130,   3,  536870985) /* SoundTable */
-     , (40130,   8,  100668442) /* Icon */
-     , (40130,  22,  872415274) /* PhysicsEffectTable */
+VALUES (40130,   1, 0x0200059B) /* Setup */
+     , (40130,   2, 0x09000031) /* MotionTable */
+     , (40130,   3, 0x20000049) /* SoundTable */
+     , (40130,   8, 0x0600141A) /* Icon */
+     , (40130,  22, 0x3400002A) /* PhysicsEffectTable */
      , (40130, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40130, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40130, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40130, 8040, 845938704, 46.97088, 173.9682, 304, 0.7660445, 0, 0, -0.6427876) /* PCAPRecordedLocation */
+VALUES (40130, 8040, 0x326C0010, 46.97088, 173.9682, 304, 0.766045, 0, 0, -0.642788) /* PCAPRecordedLocation */
 /* @teleloc 0x326C0010 [46.970880 173.968200 304.000000] 0.766045 0.000000 0.000000 -0.642788 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40130, 8000, 3360746867) /* PCAPRecordedObjectIID */;
+VALUES (40130, 8000, 0xC850ED73) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40130,   1, 150, 0, 0) /* Strength */
@@ -91,4 +91,27 @@ VALUES (40130, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for Conta
      , (40130, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
      , (40130, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
      , (40130, 9, 40100,  1, 0, 0, False) /* Create Crystalline Shard (40100) for ContainTreasure */
-     , (40130, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */;
+     , (40130, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (40130, 9, 31816,  0, 0, 0, False) /* Create Fire Slingshot (31816) for ContainTreasure */
+     , (40130, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (40130, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (40130, 9,  3817,  0, 0, 0, False) /* Create Frost Kasrullah (3817) for ContainTreasure */
+     , (40130, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (40130, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
+     , (40130, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (40130, 9, 31805,  0, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for ContainTreasure */
+     , (40130, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
+     , (40130, 9,   308,  0, 0, 0, False) /* Create Budiaq (308) for ContainTreasure */
+     , (40130, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */
+     , (40130, 9, 20507,  0, 0, 0, False) /* Create Scroll of Missile Weapon Ineptitude Other VII (20507) for ContainTreasure */
+     , (40130, 9, 45120,  0, 0, 0, False) /* Create Lightning Hand Wraps (45120) for ContainTreasure */
+     , (40130, 9, 40102,  1, 0, 0, False) /* Create Rare Crystalline Shard (40102) for ContainTreasure */
+     , (40130, 9, 45422,  0, 0, 0, False) /* Create Acid Dagger (45422) for ContainTreasure */
+     , (40130, 9, 42755,  0, 0, 0, False) /* Create Haebrean Boots (42755) for ContainTreasure */
+     , (40130, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
+     , (40130, 9, 30596,  0, 0, 0, False) /* Create Poniard (30596) for ContainTreasure */
+     , (40130, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (40130, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
+     , (40130, 9, 20477,  0, 0, 0, False) /* Create Scroll of Fiery Boon (20477) for ContainTreasure */
+     , (40130, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
+     , (40130, 9, 41039,  0, 0, 0, False) /* Create Flaming Assagai (41039) for ContainTreasure */;

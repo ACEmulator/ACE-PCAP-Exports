@@ -31,27 +31,27 @@ VALUES (34037,   1, 'Commander Rylane di Cinghalle') /* Name */
      , (34037, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34037,   1,   33554433) /* Setup */
-     , (34037,   2,  150994945) /* MotionTable */
-     , (34037,   3,  536870913) /* SoundTable */
-     , (34037,   6,   67108990) /* PaletteBase */
-     , (34037,   8,  100667377) /* Icon */
-     , (34037,   9,   83890508) /* EyesTexture */
-     , (34037,  10,   83890558) /* NoseTexture */
-     , (34037,  11,   83890665) /* MouthTexture */
-     , (34037,  15,   67117072) /* HairPalette */
-     , (34037,  16,   67110065) /* EyesPalette */
-     , (34037,  17,   67115902) /* SkinPalette */
+VALUES (34037,   1, 0x02000001) /* Setup */
+     , (34037,   2, 0x09000001) /* MotionTable */
+     , (34037,   3, 0x20000001) /* SoundTable */
+     , (34037,   6, 0x0400007E) /* PaletteBase */
+     , (34037,   8, 0x06000FF1) /* Icon */
+     , (34037,   9, 0x0500114C) /* EyesTexture */
+     , (34037,  10, 0x0500117E) /* NoseTexture */
+     , (34037,  11, 0x050011E9) /* MouthTexture */
+     , (34037,  15, 0x04002010) /* HairPalette */
+     , (34037,  16, 0x040004B1) /* EyesPalette */
+     , (34037,  17, 0x04001B7E) /* SkinPalette */
      , (34037, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (34037, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (34037, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34037, 8040, 1139998736, 37.7462, 185.035, 158.2944, -0.9771295, 0, 0, -0.2126449) /* PCAPRecordedLocation */
+VALUES (34037, 8040, 0x43F30010, 37.7462, 185.035, 158.2944, -0.97713, 0, 0, -0.212645) /* PCAPRecordedLocation */
 /* @teleloc 0x43F30010 [37.746200 185.035000 158.294400] -0.977130 0.000000 0.000000 -0.212645 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34037, 8000, 2880332502) /* PCAPRecordedObjectIID */;
+VALUES (34037, 8000, 0xABAE62D6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (34037,   1,     0, 0, 0, 255) /* MaxHealth */;

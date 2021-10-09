@@ -26,21 +26,21 @@ VALUES (8778,   1, 'Heart of Shadow') /* Name */
      , (8778,  16, 'A shard of immensely powerful Shadow essence, contained by dark magics.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8778,   1,   33556927) /* Setup */
-     , (8778,   3,  536870932) /* SoundTable */
-     , (8778,   6,   67111919) /* PaletteBase */
-     , (8778,   8,  100671223) /* Icon */
-     , (8778,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8778,   1, 0x020009BF) /* Setup */
+     , (8778,   3, 0x20000014) /* SoundTable */
+     , (8778,   6, 0x04000BEF) /* PaletteBase */
+     , (8778,   8, 0x06001EF7) /* Icon */
+     , (8778,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8778, 8001,  271069200) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, TargetType, Burden, HookType */
      , (8778, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8778, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8778, 8040, 45220100, 8.29088, -60, -30.001, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (8778, 8040, 0x02B20104, 8.29088, -60, -30.001, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x02B20104 [8.290880 -60.000000 -30.001000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8778, 8000, 3701804817) /* PCAPRecordedObjectIID */;
+VALUES (8778, 8000, 0xDCA50F11) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8778, 67111927, 0, 0);

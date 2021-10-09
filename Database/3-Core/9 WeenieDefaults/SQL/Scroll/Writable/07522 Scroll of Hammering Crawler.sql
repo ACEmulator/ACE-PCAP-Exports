@@ -24,13 +24,13 @@ VALUES (7522,   1, 'Scroll of Hammering Crawler') /* Name */
 Sends a wall of five shockwaves, two high, slowly towards the target. Each wave does 35-70 points of bludgeoning damage to the first thing it hits. The wall is created 2 meters in front of the caster. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7522,   1,   33554826) /* Setup */
-     , (7522,   8,  100677009) /* Icon */
-     , (7522,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7522,   1, 0x0200018A) /* Setup */
+     , (7522,   8, 0x06003591) /* Icon */
+     , (7522,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7522,  28,       1845) /* Spell - ShockwaveWall */
      , (7522, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (7522, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7522, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7522, 8000, 2226966538) /* PCAPRecordedObjectIID */;
+VALUES (7522, 8000, 0x84BCD00A) /* PCAPRecordedObjectIID */;

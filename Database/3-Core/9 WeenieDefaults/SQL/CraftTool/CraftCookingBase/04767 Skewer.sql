@@ -23,13 +23,13 @@ VALUES (4767,   1, 'Skewer') /* Name */
      , (4767,  20, 'Skewers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4767,   1,   33555980) /* Setup */
-     , (4767,   3,  536870932) /* SoundTable */
-     , (4767,   8,  100670013) /* Icon */
-     , (4767,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4767,   1, 0x0200060C) /* Setup */
+     , (4767,   3, 0x20000014) /* SoundTable */
+     , (4767,   8, 0x06001A3D) /* Icon */
+     , (4767,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4767, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (4767, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (4767, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4767, 8000, 2210356945) /* PCAPRecordedObjectIID */;
+VALUES (4767, 8000, 0x83BF5ED1) /* PCAPRecordedObjectIID */;

@@ -11,6 +11,7 @@ VALUES (31820,   1,      32768) /* ItemType - Caster */
      , (31820,  18,        257) /* UiEffects - Magical, Acid */
      , (31820,  19,      28947) /* Value */
      , (31820,  45,         32) /* DamageType - Acid */
+     , (31820,  46,        512) /* DefaultCombatStyle - Magic */
      , (31820,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31820,  94,         16) /* TargetType - Creature */
      , (31820, 105,          6) /* ItemWorkmanship */
@@ -38,18 +39,18 @@ VALUES (31820,   1, 'Acid Baton') /* Name */
      , (31820,  16, 'Acid Baton') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31820,   1,   33559641) /* Setup */
-     , (31820,   3,  536870932) /* SoundTable */
-     , (31820,   6,   67116700) /* PaletteBase */
-     , (31820,   8,  100688009) /* Icon */
-     , (31820,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31820,   1, 0x02001459) /* Setup */
+     , (31820,   3, 0x20000014) /* SoundTable */
+     , (31820,   6, 0x04001E9C) /* PaletteBase */
+     , (31820,   8, 0x06006089) /* Icon */
+     , (31820,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31820,  28,       4433) /* Spell - AcidStream8 */
      , (31820, 8001, 2439594136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
      , (31820, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31820, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31820, 8000, 2159969727) /* PCAPRecordedObjectIID */;
+VALUES (31820, 8000, 0x80BE85BF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31820, 67116700, 1, 100)

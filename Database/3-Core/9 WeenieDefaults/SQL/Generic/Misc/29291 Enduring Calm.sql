@@ -17,20 +17,21 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29291,   3,  500000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29291,  22, True ) /* Inscribable */;
+VALUES (29291,  22, True ) /* Inscribable */
+     , (29291,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29291,   1, 'Enduring Calm') /* Name */
      , (29291,  16, 'Using this gem will grant you 5 extra points to your innate Focus attribute.  This augmentation will not increase your innate Focus (your Focus at character creation) beyond 100.  You can augment each of your attributes in this way, but only ten times in combination.  A new gem is required for each augmentation.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29291,   1,   33554809) /* Setup */
-     , (29291,   3,  536870932) /* SoundTable */
-     , (29291,   8,  100686474) /* Icon */
-     , (29291,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29291,   1, 0x02000179) /* Setup */
+     , (29291,   3, 0x20000014) /* SoundTable */
+     , (29291,   8, 0x06005A8A) /* Icon */
+     , (29291,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29291, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (29291, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29291, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29291, 8000, 3345296250) /* PCAPRecordedObjectIID */;
+VALUES (29291, 8000, 0xC7652B7A) /* PCAPRecordedObjectIID */;

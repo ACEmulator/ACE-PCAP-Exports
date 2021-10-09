@@ -18,7 +18,8 @@ VALUES (35383,   1,        128) /* ItemType - Misc */
      , (35383, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35383,  69, False) /* IsSellable */;
+VALUES (35383,  23, True ) /* DestroyOnSell */
+     , (35383,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35383,   1, 'Ancient Mhoire Coin') /* Name */
@@ -26,13 +27,13 @@ VALUES (35383,   1, 'Ancient Mhoire Coin') /* Name */
      , (35383,  20, 'Ancient Mhoire Coins') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35383,   1,   33554659) /* Setup */
-     , (35383,   3,  536870932) /* SoundTable */
-     , (35383,   8,  100689852) /* Icon */
-     , (35383,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35383,   1, 0x020000E3) /* Setup */
+     , (35383,   3, 0x20000014) /* SoundTable */
+     , (35383,   8, 0x060067BC) /* Icon */
+     , (35383,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35383, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (35383, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35383, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35383, 8000, 2285011344) /* PCAPRecordedObjectIID */;
+VALUES (35383, 8000, 0x88328190) /* PCAPRecordedObjectIID */;

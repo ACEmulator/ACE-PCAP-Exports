@@ -22,16 +22,16 @@ VALUES (14667,   1, 'Southern Park Portal') /* Name */
      , (14667, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14667,   1,   33554867) /* Setup */
-     , (14667,   2,  150994947) /* MotionTable */
-     , (14667,   8,  100667499) /* Icon */
+VALUES (14667,   1, 0x020001B3) /* Setup */
+     , (14667,   2, 0x09000003) /* MotionTable */
+     , (14667,   8, 0x0600106B) /* Icon */
      , (14667, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14667, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14667, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14667, 8040, 2501967919, 140.447, 156.377, 124.8428, 0.007503349, 0, 0, -0.9999719) /* PCAPRecordedLocation */
+VALUES (14667, 8040, 0x9521002F, 140.447, 156.377, 124.8428, 0.007503, 0, 0, -0.999972) /* PCAPRecordedLocation */
 /* @teleloc 0x9521002F [140.447000 156.377000 124.842800] 0.007503 0.000000 0.000000 -0.999972 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14667, 8000, 2035421194) /* PCAPRecordedObjectIID */;
+VALUES (14667, 8000, 0x7952100A) /* PCAPRecordedObjectIID */;

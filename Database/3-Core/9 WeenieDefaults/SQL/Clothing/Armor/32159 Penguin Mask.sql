@@ -33,13 +33,13 @@ VALUES (32159,   1, 'Penguin Mask') /* Name */
      , (32159,  16, 'A mask crafted to resemble the head of the noble Penguin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32159,   1,   33559767) /* Setup */
-     , (32159,   3,  536870932) /* SoundTable */
-     , (32159,   8,  100688479) /* Icon */
-     , (32159,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32159,   1, 0x020014D7) /* Setup */
+     , (32159,   3, 0x20000014) /* SoundTable */
+     , (32159,   8, 0x0600625F) /* Icon */
+     , (32159,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32159, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (32159, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32159, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32159, 8000, 2982964704) /* PCAPRecordedObjectIID */;
+VALUES (32159, 8000, 0xB1CC6DE0) /* PCAPRecordedObjectIID */;

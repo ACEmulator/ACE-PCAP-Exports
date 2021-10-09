@@ -32,13 +32,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28868,   1, 'Right Peg Leg') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28868,   1,   33559015) /* Setup */
-     , (28868,   3,  536870932) /* SoundTable */
-     , (28868,   8,  100677105) /* Icon */
-     , (28868,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28868,   1, 0x020011E7) /* Setup */
+     , (28868,   3, 0x20000014) /* SoundTable */
+     , (28868,   8, 0x060035F1) /* Icon */
+     , (28868,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28868, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (28868, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28868, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28868, 8000, 2151960057) /* PCAPRecordedObjectIID */;
+VALUES (28868, 8000, 0x80444DF9) /* PCAPRecordedObjectIID */;

@@ -23,21 +23,21 @@ VALUES (19195,   1, 'Nullified Statue of Ben Ten') /* Name */
      , (19195, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19195,   1,   33554510) /* Setup */
-     , (19195,   2,  150995175) /* MotionTable */
-     , (19195,   3,  536871052) /* SoundTable */
-     , (19195,   6,   67108990) /* PaletteBase */
-     , (19195,   8,  100667446) /* Icon */
+VALUES (19195,   1, 0x0200004E) /* Setup */
+     , (19195,   2, 0x090000E7) /* MotionTable */
+     , (19195,   3, 0x2000008C) /* SoundTable */
+     , (19195,   6, 0x0400007E) /* PaletteBase */
+     , (19195,   8, 0x06001036) /* Icon */
      , (19195, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (19195, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19195, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19195, 8040, 3880648722, 56.0342, 39.7943, 38.82, -0.9909364, 0, 0, 0.1343321) /* PCAPRecordedLocation */
+VALUES (19195, 8040, 0xE74E0012, 56.0342, 39.7943, 38.82, -0.990936, 0, 0, 0.134332) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E0012 [56.034200 39.794300 38.820000] -0.990936 0.000000 0.000000 0.134332 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19195, 8000, 2121588835) /* PCAPRecordedObjectIID */;
+VALUES (19195, 8000, 0x7E74E063) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19195, 67113833, 0, 0);

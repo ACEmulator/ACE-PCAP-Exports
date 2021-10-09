@@ -25,17 +25,17 @@ VALUES (9293,   1, 'Master Key') /* Name */
      , (9293,  16, 'A key that shines with Virindi energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9293,   1,   33557000) /* Setup */
-     , (9293,   3,  536870932) /* SoundTable */
-     , (9293,   6,   67111346) /* PaletteBase */
-     , (9293,   8,  100671461) /* Icon */
-     , (9293,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9293,   1, 0x02000A08) /* Setup */
+     , (9293,   3, 0x20000014) /* SoundTable */
+     , (9293,   6, 0x040009B2) /* PaletteBase */
+     , (9293,   8, 0x06001FE5) /* Icon */
+     , (9293,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9293, 8001,  271076368) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden, HookType */
      , (9293, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9293, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9293, 8000, 2460889439) /* PCAPRecordedObjectIID */;
+VALUES (9293, 8000, 0x92AE315F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9293, 67113157, 0, 0);

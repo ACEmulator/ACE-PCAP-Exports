@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32280,   1, 'Malsivir''s Journal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32280,   1,   33554771) /* Setup */
-     , (32280,   3,  536870932) /* SoundTable */
-     , (32280,   8,  100668117) /* Icon */
-     , (32280,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32280,   1, 0x02000153) /* Setup */
+     , (32280,   3, 0x20000014) /* SoundTable */
+     , (32280,   8, 0x060012D5) /* Icon */
+     , (32280,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32280, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (32280, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (32280, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32280, 8000, 2248052946) /* PCAPRecordedObjectIID */;
+VALUES (32280, 8000, 0x85FE90D2) /* PCAPRecordedObjectIID */;

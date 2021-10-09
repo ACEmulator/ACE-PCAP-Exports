@@ -47,25 +47,22 @@ VALUES (8489,   1, 'Heaume') /* Name */
      , (8489,  16, 'Heaume') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8489,   1,   33556883) /* Setup */
-     , (8489,   3,  536870932) /* SoundTable */
-     , (8489,   6,   67108990) /* PaletteBase */
-     , (8489,   8,  100671198) /* Icon */
-     , (8489,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8489,   1, 0x02000993) /* Setup */
+     , (8489,   3, 0x20000014) /* SoundTable */
+     , (8489,   6, 0x0400007E) /* PaletteBase */
+     , (8489,   8, 0x06001EDE) /* Icon */
+     , (8489,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8489,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (8489, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (8489, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8489, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8489, 8000, 3698130136) /* PCAPRecordedObjectIID */;
+VALUES (8489, 8000, 0xDC6CFCD8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8489,  1485,      2)  /* Impenetrability5 */
      , (8489,  1561,      2)  /* BladeBane5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8489, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8489, 67110545, 240, 10);

@@ -33,16 +33,16 @@ VALUES (25556,   1, 'Scary Minion Mask') /* Name */
      , (25556,  16, 'A cross between a Scarecrow Mask and a Hollow Minion''s visage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25556,   1,   33556823) /* Setup */
-     , (25556,   3,  536870932) /* SoundTable */
-     , (25556,   8,  100674948) /* Icon */
-     , (25556,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25556,   1, 0x02000957) /* Setup */
+     , (25556,   3, 0x20000014) /* SoundTable */
+     , (25556,   8, 0x06002D84) /* Icon */
+     , (25556,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25556, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (25556, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25556, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25556, 8000, 2982968719) /* PCAPRecordedObjectIID */;
+VALUES (25556, 8000, 0xB1CC7D8F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (25556, 0, 16789610);

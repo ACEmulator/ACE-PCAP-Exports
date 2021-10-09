@@ -22,16 +22,16 @@ VALUES (12498,   1, 'Forgotten Hills Portal') /* Name */
      , (12498, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12498,   1,   33554867) /* Setup */
-     , (12498,   2,  150994947) /* MotionTable */
-     , (12498,   8,  100667499) /* Icon */
+VALUES (12498,   1, 0x020001B3) /* Setup */
+     , (12498,   2, 0x09000003) /* MotionTable */
+     , (12498,   8, 0x0600106B) /* Icon */
      , (12498, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12498, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12498, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12498, 8040, 3114270738, 50.2756, 36.6571, 53.937, -0.6484572, 0, 0, -0.7612512) /* PCAPRecordedLocation */
+VALUES (12498, 8040, 0xB9A00012, 50.2756, 36.6571, 53.937, -0.648457, 0, 0, -0.761251) /* PCAPRecordedLocation */
 /* @teleloc 0xB9A00012 [50.275600 36.657100 53.937000] -0.648457 0.000000 0.000000 -0.761251 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12498, 8000, 2073690114) /* PCAPRecordedObjectIID */;
+VALUES (12498, 8000, 0x7B9A0002) /* PCAPRecordedObjectIID */;

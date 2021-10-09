@@ -14,6 +14,9 @@ VALUES (12141,   1,        128) /* ItemType - Misc */
      , (12141, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (12141, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (12141,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12141,  39,     0.2) /* DefaultScale */
      , (12141,  54,       1) /* UseRadius */
@@ -25,13 +28,13 @@ VALUES (12141,   1, 'Asteliary Crafter''s Message Shard') /* Name */
      , (12141,  16, 'A piece of obsidian etched with arcane symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12141,   1,   33555391) /* Setup */
-     , (12141,   3,  536870932) /* SoundTable */
-     , (12141,   8,  100671183) /* Icon */
-     , (12141,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12141,   1, 0x020003BF) /* Setup */
+     , (12141,   3, 0x20000014) /* SoundTable */
+     , (12141,   8, 0x06001ECF) /* Icon */
+     , (12141,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12141, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (12141, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (12141, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12141, 8000, 2779768880) /* PCAPRecordedObjectIID */;
+VALUES (12141, 8000, 0xA5AFE830) /* PCAPRecordedObjectIID */;

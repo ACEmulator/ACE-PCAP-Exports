@@ -26,17 +26,17 @@ VALUES (8649,   1, 'Crushed Argenory Plant') /* Name */
      , (8649,  20, 'Crushed Argenory Plants') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8649,   1,   33556752) /* Setup */
-     , (8649,   3,  536870932) /* SoundTable */
-     , (8649,   6,   67111919) /* PaletteBase */
-     , (8649,   8,  100670927) /* Icon */
-     , (8649,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8649,   1, 0x02000910) /* Setup */
+     , (8649,   3, 0x20000014) /* SoundTable */
+     , (8649,   6, 0x04000BEF) /* PaletteBase */
+     , (8649,   8, 0x06001DCF) /* Icon */
+     , (8649,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8649, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8649, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8649, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8649, 8000, 3633384728) /* PCAPRecordedObjectIID */;
+VALUES (8649, 8000, 0xD8910D18) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8649, 67111925, 0, 0);

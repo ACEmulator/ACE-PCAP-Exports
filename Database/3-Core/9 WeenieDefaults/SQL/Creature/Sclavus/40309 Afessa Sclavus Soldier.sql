@@ -25,22 +25,22 @@ VALUES (40309,   1, 'Afessa Sclavus Soldier') /* Name */
      , (40309, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40309,   1,   33560596) /* Setup */
-     , (40309,   2,  150995048) /* MotionTable */
-     , (40309,   3,  536870977) /* SoundTable */
-     , (40309,   6,   67111936) /* PaletteBase */
-     , (40309,   8,  100669120) /* Icon */
-     , (40309,  22,  872415280) /* PhysicsEffectTable */
+VALUES (40309,   1, 0x02001814) /* Setup */
+     , (40309,   2, 0x09000068) /* MotionTable */
+     , (40309,   3, 0x20000041) /* SoundTable */
+     , (40309,   6, 0x04000C00) /* PaletteBase */
+     , (40309,   8, 0x060016C0) /* Icon */
+     , (40309,  22, 0x34000030) /* PhysicsEffectTable */
      , (40309, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40309, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40309, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40309, 8040, 4163960833, 6.025108, 16.77123, 55.29729, 0.7378213, 0, 0, -0.6749961) /* PCAPRecordedLocation */
+VALUES (40309, 8040, 0xF8310001, 6.025108, 16.77123, 55.29729, 0.737821, 0, 0, -0.674996) /* PCAPRecordedLocation */
 /* @teleloc 0xF8310001 [6.025108 16.771230 55.297290] 0.737821 0.000000 0.000000 -0.674996 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40309, 8000, 3360275638) /* PCAPRecordedObjectIID */;
+VALUES (40309, 8000, 0xC849BCB6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (40309,   1,     0, 0, 0, 1215) /* MaxHealth */;
@@ -75,7 +75,9 @@ VALUES (40309, 2, 46400,  1, 0, 0, False) /* Create T'thuun Bow (46400) for Wiel
      , (40309, 9, 22161,  0, 0, 0, False) /* Create Flaming Nabut (22161) for ContainTreasure */
      , (40309, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
      , (40309, 9, 49369,  0, 0, 0, False) /* Create Acid Grievver Essence (125) (49369) for ContainTreasure */
-     , (40309, 9, 37210,  0, 0, 0, False) /* Create White Bunny Slippers (37210) for ContainTreasure */;
+     , (40309, 9, 37210,  0, 0, 0, False) /* Create White Bunny Slippers (37210) for ContainTreasure */
+     , (40309, 9, 49549,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (150) (49549) for ContainTreasure */
+     , (40309, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40309, 67111938, 0, 0);

@@ -14,20 +14,21 @@ VALUES (28727,   1,        128) /* ItemType - Misc */
      , (28727, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28727,  22, True ) /* Inscribable */;
+VALUES (28727,  22, True ) /* Inscribable */
+     , (28727,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28727,   1, 'Abhorrent Eater Jaw') /* Name */
      , (28727,  16, 'This eater jaw is malformed. Apparently it has been broken so many times that it no longer resembles a jaw.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28727,   1,   33554817) /* Setup */
-     , (28727,   3,  536870932) /* SoundTable */
-     , (28727,   8,  100686355) /* Icon */
-     , (28727,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28727,   1, 0x02000181) /* Setup */
+     , (28727,   3, 0x20000014) /* SoundTable */
+     , (28727,   8, 0x06005A13) /* Icon */
+     , (28727,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28727, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (28727, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28727, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28727, 8000, 3692599341) /* PCAPRecordedObjectIID */;
+VALUES (28727, 8000, 0xDC18982D) /* PCAPRecordedObjectIID */;

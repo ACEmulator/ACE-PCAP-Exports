@@ -14,7 +14,7 @@ VALUES (168,   1,        256) /* ItemType - MissileWeapon */
      , (168,  45,          4) /* DamageType - Bludgeon */
      , (168,  48,         47) /* WeaponSkill - MissileWeapons */
      , (168,  49,         10) /* WeaponTime */
-     , (168,  51,          2) /* CombatUse - Missle */
+     , (168,  51,          2) /* CombatUse - Missile */
      , (168,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (168, 105,          5) /* ItemWorkmanship */
      , (168, 106,        245) /* ItemSpellcraft */
@@ -50,17 +50,17 @@ VALUES (168,   1, 'Tankard') /* Name */
      , (168,  16, 'Tankard of Item Tinkering') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (168,   1,   33554664) /* Setup */
-     , (168,   3,  536871012) /* SoundTable */
-     , (168,   6,   67111919) /* PaletteBase */
-     , (168,   8,  100668765) /* Icon */
-     , (168,  22,  872415275) /* PhysicsEffectTable */
+VALUES (168,   1, 0x020000E8) /* Setup */
+     , (168,   3, 0x20000064) /* SoundTable */
+     , (168,   6, 0x04000BEF) /* PaletteBase */
+     , (168,   8, 0x0600155D) /* Icon */
+     , (168,  22, 0x3400002B) /* PhysicsEffectTable */
      , (168, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (168, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (168, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (168, 8000, 3685690261) /* PCAPRecordedObjectIID */;
+VALUES (168, 8000, 0xDBAF2B95) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (168,   731,      2)  /* ItemExpertiseSelf6 */;

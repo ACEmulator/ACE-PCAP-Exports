@@ -25,21 +25,21 @@ VALUES (2580,   1, 'White Mattekar') /* Name */
      , (2580, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2580,   1,   33555590) /* Setup */
-     , (2580,   2,  150995047) /* MotionTable */
-     , (2580,   3,  536870974) /* SoundTable */
-     , (2580,   8,  100669121) /* Icon */
-     , (2580,  22,  872415278) /* PhysicsEffectTable */
+VALUES (2580,   1, 0x02000486) /* Setup */
+     , (2580,   2, 0x09000067) /* MotionTable */
+     , (2580,   3, 0x2000003E) /* SoundTable */
+     , (2580,   8, 0x060016C1) /* Icon */
+     , (2580,  22, 0x3400002E) /* PhysicsEffectTable */
      , (2580, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (2580, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (2580, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2580, 8040, 3847094290, 62.91062, 28.74959, 22.84675, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (2580, 8040, 0xE54E0012, 62.91062, 28.74959, 22.84675, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xE54E0012 [62.910620 28.749590 22.846750] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2580, 8000, 3685656339) /* PCAPRecordedObjectIID */;
+VALUES (2580, 8000, 0xDBAEA713) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2580,   1, 100, 0, 0) /* Strength */
@@ -55,7 +55,8 @@ VALUES (2580,   1,    10, 0, 0, 65) /* MaxHealth */
      , (2580,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2580, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
+VALUES (2580, 2, 47539,  1, 0, 0, False) /* Create Javelin (47539) for Wield */
+     , (2580, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
      , (2580, 9,  1719,  0, 0, 0, False) /* Create Scroll of Lockpick Ineptitude (1719) for ContainTreasure */
      , (2580, 9,  3568,  0, 0, 0, False) /* Create Scroll of War Magic Mastery Other II (3568) for ContainTreasure */
      , (2580, 9, 49373,  0, 0, 0, False) /* Create Lightning Grievver Essence (50) (49373) for ContainTreasure */

@@ -19,7 +19,8 @@ VALUES (27767,   1,        128) /* ItemType - Misc */
      , (27767, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27767,  22, True ) /* Inscribable */;
+VALUES (27767,  22, True ) /* Inscribable */
+     , (27767,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27767,   1, 'Aquamarine Prisms') /* Name */
@@ -27,17 +28,17 @@ VALUES (27767,   1, 'Aquamarine Prisms') /* Name */
      , (27767,  15, 'A cluster of aquamarine gems. The gems shimmer, reflect, and refract light, which is an odd quality for aquamarine to possess.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27767,   1,   33558812) /* Setup */
-     , (27767,   3,  536870932) /* SoundTable */
-     , (27767,   8,  100676638) /* Icon */
-     , (27767,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27767,   1, 0x0200111C) /* Setup */
+     , (27767,   3, 0x20000014) /* SoundTable */
+     , (27767,   8, 0x0600341E) /* Icon */
+     , (27767,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27767, 8001,    2633752) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, TargetType, Burden */
      , (27767, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27767, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27767, 8040, 45285689, 69.6693, -56.4273, -12, -0.9908901, 0, 0, -0.134673) /* PCAPRecordedLocation */
+VALUES (27767, 8040, 0x02B30139, 69.6693, -56.4273, -12, -0.99089, 0, 0, -0.134673) /* PCAPRecordedLocation */
 /* @teleloc 0x02B30139 [69.669300 -56.427300 -12.000000] -0.990890 0.000000 0.000000 -0.134673 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27767, 8000, 2629158029) /* PCAPRecordedObjectIID */;
+VALUES (27767, 8000, 0x9CB5C48D) /* PCAPRecordedObjectIID */;

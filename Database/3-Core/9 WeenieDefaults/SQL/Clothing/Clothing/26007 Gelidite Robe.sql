@@ -43,21 +43,21 @@ VALUES (26007,   1, 'Gelidite Robe') /* Name */
      , (26007,  16, 'An icy blue robe, worn by the Gelidites of Frore when they walked the living world. This artifact is several millennia old.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26007,   1,   33554854) /* Setup */
-     , (26007,   3,  536870932) /* SoundTable */
-     , (26007,   6,   67108990) /* PaletteBase */
-     , (26007,   8,  100675701) /* Icon */
-     , (26007,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26007,   1, 0x020001A6) /* Setup */
+     , (26007,   3, 0x20000014) /* SoundTable */
+     , (26007,   6, 0x0400007E) /* PaletteBase */
+     , (26007,   8, 0x06003075) /* Icon */
+     , (26007,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26007, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (26007, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26007, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26007, 8000, 3663417683) /* PCAPRecordedObjectIID */;
+VALUES (26007, 8000, 0xDA5B5153) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26007,  1527,      2)  /* FrostBane5 */
-     , (26007,  1551,      2)  /* FlameBane5 */;
+VALUES (26007,  1551,      2)  /* FlameBane5 */
+     , (26007,  1527,      2)  /* FrostBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26007, 67114837, 136, 24)

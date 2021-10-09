@@ -54,25 +54,25 @@ VALUES (41058,   1, 'Acid Great Star Mace') /* Name */
      , (41058,  16, 'Acid Great Star Mace of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41058,   1,   33560832) /* Setup */
-     , (41058,   3,  536870932) /* SoundTable */
-     , (41058,   6,   67115558) /* PaletteBase */
-     , (41058,   8,  100690534) /* Icon */
-     , (41058,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41058,   1, 0x02001900) /* Setup */
+     , (41058,   3, 0x20000014) /* SoundTable */
+     , (41058,   6, 0x04001A26) /* PaletteBase */
+     , (41058,   8, 0x06006A66) /* Icon */
+     , (41058,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41058,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41058, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41058, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41058, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41058, 8000, 3691208520) /* PCAPRecordedObjectIID */;
+VALUES (41058, 8000, 0xDC035F48) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41058,  1591,      2)  /* HeartSeekerSelf5 */
-     , (41058,  1604,      2)  /* DefenderSelf5 */
+VALUES (41058,  1604,      2)  /* DefenderSelf5 */
+     , (41058,  5831,      2)  /* RecklessnessMasterySelf5 */
      , (41058,  1615,      2)  /* BloodDrinkerSelf5 */
      , (41058,  1626,      2)  /* SwiftKillerSelf5 */
-     , (41058,  5831,      2)  /* RecklessnessMasterySelf5 */;
+     , (41058,  1591,      2)  /* HeartSeekerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41058, 67116384, 0, 0);

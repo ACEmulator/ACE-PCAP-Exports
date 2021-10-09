@@ -49,24 +49,24 @@ VALUES (42750,   1, 'Haebrean Gauntlets') /* Name */
      , (42750,  16, 'Haebrean Gauntlets of Two Handed Combat Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42750,   1,   33554648) /* Setup */
-     , (42750,   3,  536870932) /* SoundTable */
-     , (42750,   6,   67108990) /* PaletteBase */
-     , (42750,   8,  100687130) /* Icon */
-     , (42750,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42750,   1, 0x020000D8) /* Setup */
+     , (42750,   3, 0x20000014) /* SoundTable */
+     , (42750,   6, 0x0400007E) /* PaletteBase */
+     , (42750,   8, 0x06005D1A) /* Icon */
+     , (42750,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42750, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (42750, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42750, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42750, 8000, 3698624645) /* PCAPRecordedObjectIID */;
+VALUES (42750, 8000, 0xDC748885) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42750,  2504,      2)  /* CANTRIPAXEAPTITUDE2 */
-     , (42750,  2622,      2)  /* CANTRIPSTORMWARD1 */
+VALUES (42750,  2504,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE2 */
      , (42750,  4391,      2)  /* AcidBane8 */
+     , (42750,  5096,      2)  /* TwoHandedMasteryOther6 */
      , (42750,  4407,      2)  /* Impenetrability8 */
-     , (42750,  5096,      2)  /* TwoHandedMasteryOther6 */;
+     , (42750,  2622,      2)  /* CANTRIPSTORMWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42750, 67109946, 168, 6);

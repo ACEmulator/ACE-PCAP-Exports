@@ -24,13 +24,13 @@ VALUES (20243,   1, 'Scroll of Heart Rend') /* Name */
 Drains 42-79 points of the target''s Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20243,   1,   33554826) /* Setup */
-     , (20243,   8,  100676934) /* Icon */
-     , (20243,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20243,   1, 0x0200018A) /* Setup */
+     , (20243,   8, 0x06003546) /* Icon */
+     , (20243,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20243,  28,       2070) /* Spell - HarmOther7 */
      , (20243, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20243, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20243, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20243, 8000, 3694228979) /* PCAPRecordedObjectIID */;
+VALUES (20243, 8000, 0xDC3175F3) /* PCAPRecordedObjectIID */;

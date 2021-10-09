@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51510,   1, 'Reinforced Falcon Banner with Symbol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51510,   1,   33557258) /* Setup */
-     , (51510,   3,  536870932) /* SoundTable */
-     , (51510,   8,  100671936) /* Icon */
-     , (51510,  22,  872415275) /* PhysicsEffectTable */
-     , (51510,  50,  100667895) /* IconOverlay */
+VALUES (51510,   1, 0x02000B0A) /* Setup */
+     , (51510,   3, 0x20000014) /* SoundTable */
+     , (51510,   8, 0x060021C0) /* Icon */
+     , (51510,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51510,  50, 0x060011F7) /* IconOverlay */
      , (51510, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (51510, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51510, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51510, 8000, 2174542667) /* PCAPRecordedObjectIID */;
+VALUES (51510, 8000, 0x819CE34B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (51510, 0, 83893725, 83893724)

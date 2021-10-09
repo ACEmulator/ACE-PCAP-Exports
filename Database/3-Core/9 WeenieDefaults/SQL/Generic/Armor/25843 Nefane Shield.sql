@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25843,   1,          2) /* ItemType - Armor */
      , (25843,   5,       1125) /* EncumbranceVal */
      , (25843,   9,    2097152) /* ValidLocations - Shield */
-     , (25843,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (25843,  16,          1) /* ItemUseable - No */
      , (25843,  19,      10275) /* Value */
      , (25843,  28,        500) /* ArmorLevel */
@@ -47,25 +46,25 @@ VALUES (25843,   1, 'Nefane Shield') /* Name */
      , (25843,  15, 'This shield was carved from the shell of a corrupted Nefane. Some elements of the natural magic of the creature remains within the shield.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25843,   1,   33558556) /* Setup */
-     , (25843,   3,  536870932) /* SoundTable */
-     , (25843,   6,   67114787) /* PaletteBase */
-     , (25843,   8,  100675625) /* Icon */
-     , (25843,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25843,   1, 0x0200101C) /* Setup */
+     , (25843,   3, 0x20000014) /* SoundTable */
+     , (25843,   6, 0x04001723) /* PaletteBase */
+     , (25843,   8, 0x06003029) /* Icon */
+     , (25843,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25843,  37,         48) /* ItemSkillLimit - Shield */
-     , (25843,  50,  100673110) /* IconOverlay */
+     , (25843,  50, 0x06002656) /* IconOverlay */
      , (25843, 8001, 1344504344) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType, IconOverlay */
      , (25843, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25843, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
      , (25843, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25843, 8040, 23855554, 55.23085, -32.43132, -0.07400001, -0.1272795, -0.8397245, 0.06961726, -0.5232744) /* PCAPRecordedLocation */
+VALUES (25843, 8040, 0x016C01C2, 55.23085, -32.43132, -0.074, -0.12728, -0.839725, 0.069617, -0.523274) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.230850 -32.431320 -0.074000] -0.127280 -0.839725 0.069617 -0.523274 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25843, 8000, 3686547983) /* PCAPRecordedObjectIID */
-     , (25843, 8008, 1342401529) /* PCAPRecordedParentIID */;
+VALUES (25843, 8000, 0xDBBC420F) /* PCAPRecordedObjectIID */
+     , (25843, 8008, 0x50036BF9) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25843,  2937,      2)  /* ModerateImpregnability */

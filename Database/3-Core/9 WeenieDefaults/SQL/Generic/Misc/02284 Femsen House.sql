@@ -18,18 +18,18 @@ VALUES (2284,   1, 'Femsen House') /* Name */
      , (2284,  16, 'Fensen House') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2284,   1,   33555594) /* Setup */
-     , (2284,   8,  100668115) /* Icon */
+VALUES (2284,   1, 0x0200048A) /* Setup */
+     , (2284,   8, 0x060012D3) /* Icon */
      , (2284, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (2284, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (2284, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2284, 8040, 3378184245, 149.271, 110.315, 15.2551, -0.71595, 0, 0, 0.698151) /* PCAPRecordedLocation */
+VALUES (2284, 8040, 0xC95B0035, 149.271, 110.315, 15.2551, -0.71595, 0, 0, 0.698151) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B0035 [149.271000 110.315000 15.255100] -0.715950 0.000000 0.000000 0.698151 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2284, 8000, 2090184737) /* PCAPRecordedObjectIID */;
+VALUES (2284, 8000, 0x7C95B021) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (2284, 0, 83891180, 83891179);

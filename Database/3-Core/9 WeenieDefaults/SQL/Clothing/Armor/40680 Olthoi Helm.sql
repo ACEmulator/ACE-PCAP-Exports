@@ -54,23 +54,23 @@ VALUES (40680,   1, 'Olthoi Helm') /* Name */
      , (40680,  16, 'Olthoi Helm of Item Tinkering') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40680,   1,   33558419) /* Setup */
-     , (40680,   3,  536870932) /* SoundTable */
-     , (40680,   6,   67108990) /* PaletteBase */
-     , (40680,   8,  100674618) /* Icon */
-     , (40680,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40680,   1, 0x02000F93) /* Setup */
+     , (40680,   3, 0x20000014) /* SoundTable */
+     , (40680,   6, 0x0400007E) /* PaletteBase */
+     , (40680,   8, 0x06002C3A) /* Icon */
+     , (40680,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40680, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (40680, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40680, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40680, 8000, 2515565224) /* PCAPRecordedObjectIID */;
+VALUES (40680, 8000, 0x95F07AA8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40680,  2108,      2)  /* Impenetrability7 */
-     , (40680,  2251,      2)  /* ItemExpertiseSelf7 */
+VALUES (40680,  2251,      2)  /* ItemExpertiseSelf7 */
      , (40680,  4708,      2)  /* CANTRIPSALVAGING3 */
-     , (40680,  5427,      2)  /* CantripVoidMagicAptitude1 */;
+     , (40680,  5427,      2)  /* CantripVoidMagicAptitude1 */
+     , (40680,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40680, 67116571, 250, 6)

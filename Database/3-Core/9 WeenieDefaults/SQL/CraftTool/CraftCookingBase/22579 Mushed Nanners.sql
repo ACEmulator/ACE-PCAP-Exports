@@ -21,16 +21,16 @@ VALUES (22579,   1, 'Mushed Nanners') /* Name */
      , (22579,  20, 'Piles of Mushed Nanners') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22579,   1,   33554668) /* Setup */
-     , (22579,   3,  536870932) /* SoundTable */
-     , (22579,   8,  100673807) /* Icon */
-     , (22579,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22579,   1, 0x020000EC) /* Setup */
+     , (22579,   3, 0x20000014) /* SoundTable */
+     , (22579,   8, 0x0600290F) /* Icon */
+     , (22579,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22579, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (22579, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (22579, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22579, 8000, 3709794771) /* PCAPRecordedObjectIID */;
+VALUES (22579, 8000, 0xDD1EF9D3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (22579, 0, 83888884, 83894376);

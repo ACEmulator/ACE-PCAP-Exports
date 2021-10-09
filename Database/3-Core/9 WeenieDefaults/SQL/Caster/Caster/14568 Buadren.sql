@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14568,   1,      32768) /* ItemType - Caster */
      , (14568,   5,         20) /* EncumbranceVal */
      , (14568,   9,   16777216) /* ValidLocations - Held */
-     , (14568,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (14568,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (14568,  18,          1) /* UiEffects - Magical */
      , (14568,  19,          0) /* Value */
      , (14568,  33,          1) /* Bonded - Bonded */
+     , (14568,  46,        512) /* DefaultCombatStyle - Magic */
      , (14568,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14568,  94,         16) /* TargetType - Creature */
      , (14568, 106,        320) /* ItemSpellcraft */
@@ -40,23 +40,23 @@ VALUES (14568,   1, 'Buadren') /* Name */
      , (14568,  15, 'A Tumerok drum enhanced with the Heart of Oak spell by Aun Tikakhe.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14568,   1,   33557297) /* Setup */
-     , (14568,   3,  536870932) /* SoundTable */
-     , (14568,   6,   67113783) /* PaletteBase */
-     , (14568,   8,  100672519) /* Icon */
-     , (14568,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14568,   1, 0x02000B31) /* Setup */
+     , (14568,   3, 0x20000014) /* SoundTable */
+     , (14568,   6, 0x04001337) /* PaletteBase */
+     , (14568,   8, 0x06002407) /* Icon */
+     , (14568,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14568, 8001,  271286416) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (14568, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14568, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (14568, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14568, 8040, 23855554, 57.09399, -31.21228, -0.071, 0.5998343, 0.5998343, 0.3744313, 0.3744313) /* PCAPRecordedLocation */
+VALUES (14568, 8040, 0x016C01C2, 57.09399, -31.21228, -0.071, 0.599834, 0.599834, 0.374431, 0.374431) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [57.093990 -31.212280 -0.071000] 0.599834 0.599834 0.374431 0.374431 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14568, 8000, 3686671144) /* PCAPRecordedObjectIID */
-     , (14568, 8008, 1342401529) /* PCAPRecordedParentIID */;
+VALUES (14568, 8000, 0xDBBE2328) /* PCAPRecordedObjectIID */
+     , (14568, 8008, 0x50036BF9) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14568,  2638,      2)  /* HeartofOak */;

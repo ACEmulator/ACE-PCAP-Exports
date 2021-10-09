@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45444,   1, 'Ridgeback Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45444,   1,   33557067) /* Setup */
-     , (45444,   3,  536870932) /* SoundTable */
-     , (45444,   6,   67111919) /* PaletteBase */
-     , (45444,   8,  100686731) /* Icon */
-     , (45444,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45444,   1, 0x02000A4B) /* Setup */
+     , (45444,   3, 0x20000014) /* SoundTable */
+     , (45444,   6, 0x04000BEF) /* PaletteBase */
+     , (45444,   8, 0x06005B8B) /* Icon */
+     , (45444,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45444,  30,         88) /* PhysicsScript - Create */
-     , (45444,  52,  100686604) /* IconUnderlay */
+     , (45444,  52, 0x06005B0C) /* IconUnderlay */
      , (45444, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (45444, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45444, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,7 +38,7 @@ VALUES (45444,   1,   33557067) /* Setup */
      , (45444, 8044,      35630) /* PCAPPhysicsDIDDataTemplatedFrom - Sickle of Azaxis */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45444, 8000,      45444) /* PCAPRecordedObjectIID */;
+VALUES (45444, 8000, 0x0000B184) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45444, 67111920, 0, 0);

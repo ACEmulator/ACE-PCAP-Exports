@@ -36,18 +36,18 @@ VALUES (2393,   1, 'Gem') /* Name */
      , (2393,  16, 'Gem of Lightning Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2393,   1,   33554809) /* Setup */
-     , (2393,   3,  536870932) /* SoundTable */
-     , (2393,   6,   67111919) /* PaletteBase */
-     , (2393,   8,  100674735) /* Icon */
-     , (2393,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2393,   1, 0x02000179) /* Setup */
+     , (2393,   3, 0x20000014) /* SoundTable */
+     , (2393,   6, 0x04000BEF) /* PaletteBase */
+     , (2393,   8, 0x06002CAF) /* Icon */
+     , (2393,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2393,  28,       1070) /* Spell - LightningProtectionSelf5 */
      , (2393, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
      , (2393, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2393, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2393, 8000, 3691248081) /* PCAPRecordedObjectIID */;
+VALUES (2393, 8000, 0xDC03F9D1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2393, 67111922, 0, 0);

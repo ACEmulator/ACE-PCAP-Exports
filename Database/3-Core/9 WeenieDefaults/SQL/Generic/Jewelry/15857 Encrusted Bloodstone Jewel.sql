@@ -23,6 +23,7 @@ VALUES (15857,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15857,  22, True ) /* Inscribable */
+     , (15857,  23, True ) /* DestroyOnSell */
      , (15857,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,17 +35,17 @@ VALUES (15857,   1, 'Encrusted Bloodstone Jewel') /* Name */
      , (15857,  16, 'A jewel carved from Bloodstone that has a slick, sticky coating. A thin copper necklace can be seen beneath the sheen. Perhaps it is a necklace?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15857,   1,   33554809) /* Setup */
-     , (15857,   3,  536870932) /* SoundTable */
-     , (15857,   6,   67111919) /* PaletteBase */
-     , (15857,   8,  100672820) /* Icon */
-     , (15857,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15857,   1, 0x02000179) /* Setup */
+     , (15857,   3, 0x20000014) /* SoundTable */
+     , (15857,   6, 0x04000BEF) /* PaletteBase */
+     , (15857,   8, 0x06002534) /* Icon */
+     , (15857,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15857, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (15857, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15857, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15857, 8000, 2165076933) /* PCAPRecordedObjectIID */;
+VALUES (15857, 8000, 0x810C73C5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (15857,  2667,      2)  /* EssenceSpike */;

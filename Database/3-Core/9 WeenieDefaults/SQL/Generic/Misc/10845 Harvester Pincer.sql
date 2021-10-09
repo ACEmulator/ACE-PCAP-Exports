@@ -14,7 +14,8 @@ VALUES (10845,   1,        128) /* ItemType - Misc */
      , (10845, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10845,  22, True ) /* Inscribable */;
+VALUES (10845,  22, True ) /* Inscribable */
+     , (10845,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10845,  39,     0.5) /* DefaultScale */;
@@ -24,13 +25,13 @@ VALUES (10845,   1, 'Harvester Pincer') /* Name */
      , (10845,  16, 'The pincer off of an Olthoi Harvester, desired by Behdo Yii at 40.8N, 83.3W in Redspire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10845,   1,   33554817) /* Setup */
-     , (10845,   3,  536870932) /* SoundTable */
-     , (10845,   8,  100672037) /* Icon */
-     , (10845,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10845,   1, 0x02000181) /* Setup */
+     , (10845,   3, 0x20000014) /* SoundTable */
+     , (10845,   8, 0x06002225) /* Icon */
+     , (10845,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10845, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (10845, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10845, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10845, 8000, 2924756698) /* PCAPRecordedObjectIID */;
+VALUES (10845, 8000, 0xAE543EDA) /* PCAPRecordedObjectIID */;

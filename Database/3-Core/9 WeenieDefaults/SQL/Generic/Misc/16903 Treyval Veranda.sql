@@ -18,15 +18,15 @@ VALUES (16903,   1, 'Treyval Veranda') /* Name */
      , (16903,  16, 'Treyval Veranda') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (16903,   1,   33557658) /* Setup */
-     , (16903,   8,  100672342) /* Icon */
+VALUES (16903,   1, 0x02000C9A) /* Setup */
+     , (16903,   8, 0x06002356) /* Icon */
      , (16903, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (16903, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (16903, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (16903, 8040, 1415905659, 70.002, -56.672, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (16903, 8040, 0x5465017B, 70.002, -56.672, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x5465017B [70.002000 -56.672000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (16903, 8000, 1967542285) /* PCAPRecordedObjectIID */;
+VALUES (16903, 8000, 0x7546500D) /* PCAPRecordedObjectIID */;

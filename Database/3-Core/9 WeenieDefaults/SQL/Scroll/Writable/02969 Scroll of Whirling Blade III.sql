@@ -24,13 +24,13 @@ VALUES (2969,   1, 'Scroll of Whirling Blade III') /* Name */
 Shoots a magical blade at the target. The bolt does 42-84 points of slashing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2969,   1,   33554826) /* Setup */
-     , (2969,   8,  100677028) /* Icon */
-     , (2969,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2969,   1, 0x0200018A) /* Setup */
+     , (2969,   8, 0x060035A4) /* Icon */
+     , (2969,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2969,  28,         94) /* Spell - WhirlingBlade3 */
      , (2969, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2969, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2969, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2969, 8000, 2618390173) /* PCAPRecordedObjectIID */;
+VALUES (2969, 8000, 0x9C11769D) /* PCAPRecordedObjectIID */;

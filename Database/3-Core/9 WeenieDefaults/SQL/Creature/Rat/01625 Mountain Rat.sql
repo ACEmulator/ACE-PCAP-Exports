@@ -26,23 +26,23 @@ VALUES (1625,   1, 'Mountain Rat') /* Name */
      , (1625, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1625,   1,   33554493) /* Setup */
-     , (1625,   2,  150994958) /* MotionTable */
-     , (1625,   3,  536870927) /* SoundTable */
-     , (1625,   6,   67109300) /* PaletteBase */
-     , (1625,   8,  100667451) /* Icon */
-     , (1625,  22,  872415267) /* PhysicsEffectTable */
+VALUES (1625,   1, 0x0200003D) /* Setup */
+     , (1625,   2, 0x0900000E) /* MotionTable */
+     , (1625,   3, 0x2000000F) /* SoundTable */
+     , (1625,   6, 0x040001B4) /* PaletteBase */
+     , (1625,   8, 0x0600103B) /* Icon */
+     , (1625,  22, 0x34000023) /* PhysicsEffectTable */
      , (1625,  30,         84) /* PhysicsScript - BreatheFlame */
      , (1625, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1625, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1625, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1625, 8040, 2519073055, 44.2998, 33.6822, 123.212, 0.566672, 0, 0, 0.823943) /* PCAPRecordedLocation */
+VALUES (1625, 8040, 0x9626011F, 44.2998, 33.6822, 123.212, 0.566672, 0, 0, 0.823943) /* PCAPRecordedLocation */
 /* @teleloc 0x9626011F [44.299800 33.682200 123.212000] 0.566672 0.000000 0.000000 0.823943 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1625, 8000, 3692422906) /* PCAPRecordedObjectIID */;
+VALUES (1625, 8000, 0xDC15E6FA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1625,   1,  70, 0, 0) /* Strength */

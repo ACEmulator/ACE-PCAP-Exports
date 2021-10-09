@@ -23,17 +23,17 @@ VALUES (9412,   1, 'Dire Mattekar Paw') /* Name */
      , (9412,  16, 'A Large Dire Mattekar paw.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9412,   1,   33557018) /* Setup */
-     , (9412,   3,  536870932) /* SoundTable */
-     , (9412,   6,   67111893) /* PaletteBase */
-     , (9412,   8,  100671517) /* Icon */
-     , (9412,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9412,   1, 0x02000A1A) /* Setup */
+     , (9412,   3, 0x20000014) /* SoundTable */
+     , (9412,   6, 0x04000BD5) /* PaletteBase */
+     , (9412,   8, 0x0600201D) /* Icon */
+     , (9412,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9412, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (9412, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9412, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9412, 8000, 2912291560) /* PCAPRecordedObjectIID */;
+VALUES (9412, 8000, 0xAD960AE8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9412, 67111954, 0, 0);

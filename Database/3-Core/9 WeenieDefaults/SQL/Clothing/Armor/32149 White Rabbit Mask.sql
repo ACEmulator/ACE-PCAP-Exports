@@ -27,6 +27,7 @@ VALUES (32149,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32149,  22, True ) /* Inscribable */
+     , (32149,  23, True ) /* DestroyOnSell */
      , (32149,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -45,21 +46,21 @@ VALUES (32149,   1, 'White Rabbit Mask') /* Name */
      , (32149,  15, 'A large mask depicting the head of the White Rabbit. It''s very odd.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32149,   1,   33559763) /* Setup */
-     , (32149,   3,  536870932) /* SoundTable */
-     , (32149,   8,  100688458) /* Icon */
-     , (32149,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32149,   1, 0x020014D3) /* Setup */
+     , (32149,   3, 0x20000014) /* SoundTable */
+     , (32149,   8, 0x0600624A) /* Icon */
+     , (32149,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32149, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (32149, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32149, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32149, 8000, 3694362420) /* PCAPRecordedObjectIID */;
+VALUES (32149, 8000, 0xDC337F34) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32149,  2183,      2)  /* ManaRenewalSelf7 */
-     , (32149,  2185,      2)  /* RegenerationSelf7 */
-     , (32149,  2187,      2)  /* RejuvenationSelf7 */
-     , (32149,  2626,      2)  /* CANTRIPHEALTHGAIN1 */
+VALUES (32149,  2626,      2)  /* CANTRIPHEALTHGAIN1 */
      , (32149,  2627,      2)  /* CANTRIPMANAGAIN1 */
-     , (32149,  2628,      2)  /* CANTRIPSTAMINAGAIN1 */;
+     , (32149,  2628,      2)  /* CANTRIPSTAMINAGAIN1 */
+     , (32149,  2183,      2)  /* ManaRenewalSelf7 */
+     , (32149,  2185,      2)  /* RegenerationSelf7 */
+     , (32149,  2187,      2)  /* RejuvenationSelf7 */;

@@ -33,13 +33,13 @@ VALUES (32163,   1, 'Two Headed Snowman Mask') /* Name */
      , (32163,  16, 'A mask crafted from the hollowed-out heads of a Two Headed Snowman.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32163,   1,   33559771) /* Setup */
-     , (32163,   3,  536870932) /* SoundTable */
-     , (32163,   8,  100688431) /* Icon */
-     , (32163,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32163,   1, 0x020014DB) /* Setup */
+     , (32163,   3, 0x20000014) /* SoundTable */
+     , (32163,   8, 0x0600622F) /* Icon */
+     , (32163,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32163, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (32163, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32163, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32163, 8000, 2978131481) /* PCAPRecordedObjectIID */;
+VALUES (32163, 8000, 0xB182AE19) /* PCAPRecordedObjectIID */;

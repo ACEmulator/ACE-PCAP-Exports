@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (363,   1,        256) /* ItemType - MissileWeapon */
      , (363,   5,        980) /* EncumbranceVal */
      , (363,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (363,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (363,  16,          1) /* ItemUseable - No */
      , (363,  19,        400) /* Value */
      , (363,  44,          0) /* Damage */
@@ -15,7 +14,7 @@ VALUES (363,   1,        256) /* ItemType - MissileWeapon */
      , (363,  48,         47) /* WeaponSkill - MissileWeapons */
      , (363,  49,         45) /* WeaponTime */
      , (363,  50,          1) /* AmmoType - Arrow */
-     , (363,  51,          2) /* CombatUse - Missle */
+     , (363,  51,          2) /* CombatUse - Missile */
      , (363,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (363, 105,          6) /* ItemWorkmanship */
      , (363, 106,        255) /* ItemSpellcraft */
@@ -51,11 +50,11 @@ VALUES (363,   1, 'Yumi') /* Name */
      , (363,  16, 'Yumi of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (363,   1,   33554728) /* Setup */
-     , (363,   3,  536870932) /* SoundTable */
-     , (363,   6,   67111919) /* PaletteBase */
-     , (363,   8,  100668816) /* Icon */
-     , (363,  22,  872415275) /* PhysicsEffectTable */
+VALUES (363,   1, 0x02000128) /* Setup */
+     , (363,   3, 0x20000014) /* SoundTable */
+     , (363,   6, 0x04000BEF) /* PaletteBase */
+     , (363,   8, 0x06001590) /* Icon */
+     , (363,  22, 0x3400002B) /* PhysicsEffectTable */
      , (363,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (363, 8001,  270762776) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (363, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -63,12 +62,12 @@ VALUES (363,   1,   33554728) /* Setup */
      , (363, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (363, 8040, 2471821330, 66.08822, 25.58093, 16.94818, -0.8828405, 0, 0, -0.469673) /* PCAPRecordedLocation */
+VALUES (363, 8040, 0x93550012, 66.08822, 25.58093, 16.94818, -0.882841, 0, 0, -0.469673) /* PCAPRecordedLocation */
 /* @teleloc 0x93550012 [66.088220 25.580930 16.948180] -0.882841 0.000000 0.000000 -0.469673 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (363, 8000, 3685887113) /* PCAPRecordedObjectIID */
-     , (363, 8008, 3685761664) /* PCAPRecordedParentIID */;
+VALUES (363, 8000, 0xDBB22C89) /* PCAPRecordedObjectIID */
+     , (363, 8008, 0xDBB04280) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (363,  1605,      2)  /* DefenderSelf6 */

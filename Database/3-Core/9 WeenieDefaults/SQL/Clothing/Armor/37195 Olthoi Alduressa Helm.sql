@@ -50,23 +50,23 @@ VALUES (37195,   1, 'Olthoi Alduressa Helm') /* Name */
      , (37195,  16, 'Olthoi Alduressa Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37195,   1,   33559327) /* Setup */
-     , (37195,   3,  536870932) /* SoundTable */
-     , (37195,   6,   67108990) /* PaletteBase */
-     , (37195,   8,  100690122) /* Icon */
-     , (37195,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37195,   1, 0x0200131F) /* Setup */
+     , (37195,   3, 0x20000014) /* SoundTable */
+     , (37195,   6, 0x0400007E) /* PaletteBase */
+     , (37195,   8, 0x060068CA) /* Icon */
+     , (37195,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37195,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (37195, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (37195, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37195, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37195, 8000, 2174252092) /* PCAPRecordedObjectIID */;
+VALUES (37195, 8000, 0x8198743C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37195,  2108,      2)  /* Impenetrability7 */
-     , (37195,  4226,      2)  /* CANTRIPENDURANCE3 */
-     , (37195,  4912,      2)  /* CANTRIPWEAPONEXPERTISE3 */;
+VALUES (37195,  4226,      2)  /* CANTRIPENDURANCE3 */
+     , (37195,  4912,      2)  /* CANTRIPWEAPONEXPERTISE3 */
+     , (37195,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37195, 67116568, 250, 6)

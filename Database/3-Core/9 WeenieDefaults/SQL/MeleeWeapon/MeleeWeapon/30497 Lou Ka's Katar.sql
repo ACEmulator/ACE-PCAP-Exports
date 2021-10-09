@@ -23,7 +23,8 @@ VALUES (30497,   1,          1) /* ItemType - MeleeWeapon */
      , (30497, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30497,  22, True ) /* Inscribable */;
+VALUES (30497,  22, True ) /* Inscribable */
+     , (30497,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30497,  21,       0) /* WeaponLength */
@@ -37,17 +38,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30497,   1, 'Lou Ka''s Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30497,   1,   33554743) /* Setup */
-     , (30497,   3,  536870932) /* SoundTable */
-     , (30497,   6,   67111919) /* PaletteBase */
-     , (30497,   8,  100668926) /* Icon */
-     , (30497,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30497,   1, 0x02000137) /* Setup */
+     , (30497,   3, 0x20000014) /* SoundTable */
+     , (30497,   6, 0x04000BEF) /* PaletteBase */
+     , (30497,   8, 0x060015FE) /* Icon */
+     , (30497,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30497, 8001,    2179608) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden */
      , (30497, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30497, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30497, 8000, 2157273442) /* PCAPRecordedObjectIID */;
+VALUES (30497, 8000, 0x80956162) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30497, 67111920, 0, 0);

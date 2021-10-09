@@ -23,16 +23,16 @@ VALUES (1597,   1, 'Thief Trail') /* Name */
      , (1597, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1597,   1,   33555922) /* Setup */
-     , (1597,   2,  150994947) /* MotionTable */
-     , (1597,   8,  100667499) /* Icon */
+VALUES (1597,   1, 0x020005D2) /* Setup */
+     , (1597,   2, 0x09000003) /* MotionTable */
+     , (1597,   8, 0x0600106B) /* Icon */
      , (1597, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (1597, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1597, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1597, 8040, 3847028774, 106.649, 142.181, 25.78542, -0.132225, 0, 0, -0.9912198) /* PCAPRecordedLocation */
+VALUES (1597, 8040, 0xE54D0026, 106.649, 142.181, 25.78542, -0.132225, 0, 0, -0.99122) /* PCAPRecordedLocation */
 /* @teleloc 0xE54D0026 [106.649000 142.181000 25.785420] -0.132225 0.000000 0.000000 -0.991220 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1597, 8000, 2119487488) /* PCAPRecordedObjectIID */;
+VALUES (1597, 8000, 0x7E54D000) /* PCAPRecordedObjectIID */;

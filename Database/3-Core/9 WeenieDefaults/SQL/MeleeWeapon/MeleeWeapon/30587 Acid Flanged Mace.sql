@@ -46,19 +46,19 @@ VALUES (30587,   1, 'Acid Flanged Mace') /* Name */
      , (30587,  16, 'Acid Flanged Mace') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30587,   1,   33559477) /* Setup */
-     , (30587,   3,  536870932) /* SoundTable */
-     , (30587,   6,   67115559) /* PaletteBase */
-     , (30587,   8,  100686975) /* Icon */
-     , (30587,  22,  872415275) /* PhysicsEffectTable */
-     , (30587,  52,  100676437) /* IconUnderlay */
+VALUES (30587,   1, 0x020013B5) /* Setup */
+     , (30587,   3, 0x20000014) /* SoundTable */
+     , (30587,   6, 0x04001A27) /* PaletteBase */
+     , (30587,   8, 0x06005C7F) /* Icon */
+     , (30587,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30587,  52, 0x06003355) /* IconUnderlay */
      , (30587, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30587, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30587, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30587, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30587, 8000, 2174252089) /* PCAPRecordedObjectIID */;
+VALUES (30587, 8000, 0x81987439) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30587, 67116398, 0, 0);

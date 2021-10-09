@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10805,   1, 'Obsidian Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10805,   1,   33555391) /* Setup */
-     , (10805,   3,  536870932) /* SoundTable */
-     , (10805,   8,  100671395) /* Icon */
-     , (10805,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10805,   1, 0x020003BF) /* Setup */
+     , (10805,   3, 0x20000014) /* SoundTable */
+     , (10805,   8, 0x06001FA3) /* Icon */
+     , (10805,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10805, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (10805, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10805, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10805, 8000, 3629880827) /* PCAPRecordedObjectIID */;
+VALUES (10805, 8000, 0xD85B95FB) /* PCAPRecordedObjectIID */;

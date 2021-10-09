@@ -36,17 +36,17 @@ VALUES (38,   1, 'Studded Leather Bracers') /* Name */
      , (38,  16, 'Studded Leather Bracers') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38,   1,   33554641) /* Setup */
-     , (38,   3,  536870932) /* SoundTable */
-     , (38,   6,   67108990) /* PaletteBase */
-     , (38,   8,  100669281) /* Icon */
-     , (38,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38,   1, 0x020000D1) /* Setup */
+     , (38,   3, 0x20000014) /* SoundTable */
+     , (38,   6, 0x0400007E) /* PaletteBase */
+     , (38,   8, 0x06001761) /* Icon */
+     , (38,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38, 8000, 3690196509) /* PCAPRecordedObjectIID */;
+VALUES (38, 8000, 0xDBF3EE1D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38, 67110016, 96, 12)

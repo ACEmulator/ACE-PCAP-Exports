@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38880,   1, 'Lord Grymar''s Ancient Emblem of Mhoire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38880,   1,   33554669) /* Setup */
-     , (38880,   3,  536870932) /* SoundTable */
-     , (38880,   6,   67111928) /* PaletteBase */
-     , (38880,   8,  100668730) /* Icon */
-     , (38880,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38880,   1, 0x020000ED) /* Setup */
+     , (38880,   3, 0x20000014) /* SoundTable */
+     , (38880,   6, 0x04000BF8) /* PaletteBase */
+     , (38880,   8, 0x0600153A) /* Icon */
+     , (38880,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38880, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (38880, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38880, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38880, 8000, 3711056829) /* PCAPRecordedObjectIID */;
+VALUES (38880, 8000, 0xDD323BBD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38880, 67111925, 0, 0);

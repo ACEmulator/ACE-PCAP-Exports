@@ -26,17 +26,17 @@ VALUES (4746,   1, 'Water') /* Name */
      , (4746,  20, 'Flasks of Water') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4746,   1,   33554603) /* Setup */
-     , (4746,   3,  536870932) /* SoundTable */
-     , (4746,   6,   67111919) /* PaletteBase */
-     , (4746,   8,  100670632) /* Icon */
-     , (4746,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4746,   1, 0x020000AB) /* Setup */
+     , (4746,   3, 0x20000014) /* SoundTable */
+     , (4746,   6, 0x04000BEF) /* PaletteBase */
+     , (4746,   8, 0x06001CA8) /* Icon */
+     , (4746,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4746, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (4746, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (4746, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4746, 8000, 3658163643) /* PCAPRecordedObjectIID */;
+VALUES (4746, 8000, 0xDA0B25BB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4746, 67111919, 0, 0);

@@ -23,13 +23,13 @@ VALUES (48897,   1, 'Chipped Key') /* Name */
      , (48897,  16, 'A key dropped by Janthef''s Weapon Guardian.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48897,   1,   33554784) /* Setup */
-     , (48897,   3,  536870932) /* SoundTable */
-     , (48897,   8,  100668441) /* Icon */
-     , (48897,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48897,   1, 0x02000160) /* Setup */
+     , (48897,   3, 0x20000014) /* SoundTable */
+     , (48897,   8, 0x06001419) /* Icon */
+     , (48897,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48897, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (48897, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48897, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48897, 8000, 3710239275) /* PCAPRecordedObjectIID */;
+VALUES (48897, 8000, 0xDD25C22B) /* PCAPRecordedObjectIID */;

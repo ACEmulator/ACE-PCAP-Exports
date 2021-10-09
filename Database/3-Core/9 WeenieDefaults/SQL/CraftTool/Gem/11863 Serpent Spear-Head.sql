@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11863,   1, 'Serpent Spear-Head') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11863,   1,   33557247) /* Setup */
-     , (11863,   3,  536870932) /* SoundTable */
-     , (11863,   8,  100671962) /* Icon */
-     , (11863,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11863,   1, 0x02000AFF) /* Setup */
+     , (11863,   3, 0x20000014) /* SoundTable */
+     , (11863,   8, 0x060021DA) /* Icon */
+     , (11863,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11863, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11863, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11863, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11863, 8000, 2165450163) /* PCAPRecordedObjectIID */;
+VALUES (11863, 8000, 0x811225B3) /* PCAPRecordedObjectIID */;

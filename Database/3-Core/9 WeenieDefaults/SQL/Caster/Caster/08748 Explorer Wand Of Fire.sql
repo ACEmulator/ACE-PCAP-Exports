@@ -10,6 +10,7 @@ VALUES (8748,   1,      32768) /* ItemType - Caster */
      , (8748,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (8748,  18,          1) /* UiEffects - Magical */
      , (8748,  19,          1) /* Value */
+     , (8748,  46,        512) /* DefaultCombatStyle - Magic */
      , (8748,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8748,  94,         16) /* TargetType - Creature */
      , (8748, 106,        150) /* ItemSpellcraft */
@@ -30,18 +31,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8748,   1, 'Explorer Wand Of Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8748,   1,   33558231) /* Setup */
-     , (8748,   3,  536870932) /* SoundTable */
-     , (8748,   6,   67111919) /* PaletteBase */
-     , (8748,   8,  100668799) /* Icon */
-     , (8748,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8748,   1, 0x02000ED7) /* Setup */
+     , (8748,   3, 0x20000014) /* SoundTable */
+     , (8748,   6, 0x04000BEF) /* PaletteBase */
+     , (8748,   8, 0x0600157F) /* Icon */
+     , (8748,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8748,  28,         82) /* Spell - FlameBolt3 */
      , (8748, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (8748, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8748, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8748, 8000, 2779730401) /* PCAPRecordedObjectIID */;
+VALUES (8748, 8000, 0xA5AF51E1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8748,   583,      2)  /* ItemEnchantmentMasterySelf3 */

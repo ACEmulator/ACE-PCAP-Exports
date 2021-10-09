@@ -10,6 +10,7 @@ VALUES (23774,   1,      32768) /* ItemType - Caster */
      , (23774,  16,     655364) /* ItemUseable - 655364 */
      , (23774,  18,          1) /* UiEffects - Magical */
      , (23774,  19,       2000) /* Value */
+     , (23774,  46,        512) /* DefaultCombatStyle - Magic */
      , (23774,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (23774,  94,         16) /* TargetType - Creature */
      , (23774, 106,        200) /* ItemSpellcraft */
@@ -33,14 +34,14 @@ VALUES (23774,   1, 'Casting Stein') /* Name */
      , (23774,  16, 'A magical beer stein that can be used to focus magic.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23774,   1,   33558217) /* Setup */
-     , (23774,   3,  536870932) /* SoundTable */
-     , (23774,   8,  100671129) /* Icon */
-     , (23774,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23774,   1, 0x02000EC9) /* Setup */
+     , (23774,   3, 0x20000014) /* SoundTable */
+     , (23774,   8, 0x06001E99) /* Icon */
+     , (23774,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23774,  28,       1679) /* Spell - StaminaToManaSelf4 */
      , (23774, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (23774, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23774, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23774, 8000, 2186220443) /* PCAPRecordedObjectIID */;
+VALUES (23774, 8000, 0x824F139B) /* PCAPRecordedObjectIID */;

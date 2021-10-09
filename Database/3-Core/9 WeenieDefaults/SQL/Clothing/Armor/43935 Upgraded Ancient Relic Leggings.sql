@@ -42,28 +42,28 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43935,   1, 'Upgraded Ancient Relic Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43935,   1,   33554856) /* Setup */
-     , (43935,   3,  536870932) /* SoundTable */
-     , (43935,   8,  100688333) /* Icon */
-     , (43935,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43935,   1, 0x020001A8) /* Setup */
+     , (43935,   3, 0x20000014) /* SoundTable */
+     , (43935,   8, 0x060061CD) /* Icon */
+     , (43935,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43935, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
      , (43935, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43935, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43935, 8040, 3583574079, 172.9306, 153.5114, 373.9975, 0.8905933, 0, 0, -0.4548005) /* PCAPRecordedLocation */
+VALUES (43935, 8040, 0xD599003F, 172.9306, 153.5114, 373.9975, 0.890593, 0, 0, -0.454801) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [172.930600 153.511400 373.997500] 0.890593 0.000000 0.000000 -0.454801 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43935, 8000, 2498708959) /* PCAPRecordedObjectIID */;
+VALUES (43935, 8000, 0x94EF45DF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43935,  2572,      2)  /* CANTRIPCOORDINATION2 */
-     , (43935,  2609,      2)  /* CANTRIPACIDWARD2 */
-     , (43935,  2611,      2)  /* CANTRIPFLAMEWARD2 */
      , (43935,  3094,      2)  /* SkinFiazhat */
+     , (43935,  3746,      2)  /* InfernoAegis */
      , (43935,  3432,      2)  /* ScourgeAegis */
-     , (43935,  3746,      2)  /* InfernoAegis */;
+     , (43935,  2609,      2)  /* CANTRIPACIDWARD2 */
+     , (43935,  2611,      2)  /* CANTRIPFLAMEWARD2 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43935, 0, 83887064, 83897518)

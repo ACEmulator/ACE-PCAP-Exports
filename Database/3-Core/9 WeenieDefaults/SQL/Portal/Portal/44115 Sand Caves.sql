@@ -22,16 +22,16 @@ VALUES (44115,   1, 'Sand Caves') /* Name */
      , (44115, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44115,   1,   33554867) /* Setup */
-     , (44115,   2,  150994947) /* MotionTable */
-     , (44115,   8,  100667499) /* Icon */
+VALUES (44115,   1, 0x020001B3) /* Setup */
+     , (44115,   2, 0x09000003) /* MotionTable */
+     , (44115,   8, 0x0600106B) /* Icon */
      , (44115, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (44115, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (44115, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44115, 8040, 2271543347, 145.2, 69.566, 66.1761, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (44115, 8040, 0x87650033, 145.2, 69.566, 66.1761, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x87650033 [145.200000 69.566000 66.176100] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44115, 8000, 2447295373) /* PCAPRecordedObjectIID */;
+VALUES (44115, 8000, 0x91DEC38D) /* PCAPRecordedObjectIID */;

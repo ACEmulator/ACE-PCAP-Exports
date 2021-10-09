@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44906,   1, 'Contract for The Missing Necklace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44906,   1,   33554773) /* Setup */
-     , (44906,   3,  536870932) /* SoundTable */
-     , (44906,   8,  100691929) /* Icon */
-     , (44906,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44906,   1, 0x02000155) /* Setup */
+     , (44906,   3, 0x20000014) /* SoundTable */
+     , (44906,   8, 0x06006FD9) /* Icon */
+     , (44906,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44906, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44906, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44906, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44906, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44906, 8000, 3622606185) /* PCAPRecordedObjectIID */;
+VALUES (44906, 8000, 0xD7EC9569) /* PCAPRecordedObjectIID */;

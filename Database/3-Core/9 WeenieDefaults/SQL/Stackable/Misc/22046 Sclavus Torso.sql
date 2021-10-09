@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22046,   1, 'Sclavus Torso') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22046,   1,   33557999) /* Setup */
-     , (22046,   3,  536870932) /* SoundTable */
-     , (22046,   8,  100673697) /* Icon */
-     , (22046,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22046,   1, 0x02000DEF) /* Setup */
+     , (22046,   3, 0x20000014) /* SoundTable */
+     , (22046,   8, 0x060028A1) /* Icon */
+     , (22046,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22046, 8001,  270561296) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (22046, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22046, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22046, 8000, 2807507431) /* PCAPRecordedObjectIID */;
+VALUES (22046, 8000, 0xA75729E7) /* PCAPRecordedObjectIID */;

@@ -20,11 +20,11 @@ VALUES (47807,   1, 'Drugged Meat') /* Name */
      , (47807,  20, 'Drugged Meats') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47807,   1,   33554678) /* Setup */
-     , (47807,   8,  100667464) /* Icon */
+VALUES (47807,   1, 0x020000F6) /* Setup */
+     , (47807,   8, 0x06001048) /* Icon */
      , (47807, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (47807, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (47807, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47807, 8000, 2876986222) /* PCAPRecordedObjectIID */;
+VALUES (47807, 8000, 0xAB7B536E) /* PCAPRecordedObjectIID */;

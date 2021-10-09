@@ -32,17 +32,17 @@ VALUES (9240,   1, 'Snake Skin Boots') /* Name */
      , (9240,  16, 'Boots made out of the hide of a Sclavus.  They are faintly iridescent, and shimmer when you walk.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9240,   1,   33556683) /* Setup */
-     , (9240,   3,  536870932) /* SoundTable */
-     , (9240,   6,   67108990) /* PaletteBase */
-     , (9240,   8,  100671408) /* Icon */
-     , (9240,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9240,   1, 0x020008CB) /* Setup */
+     , (9240,   3, 0x20000014) /* SoundTable */
+     , (9240,   6, 0x0400007E) /* PaletteBase */
+     , (9240,   8, 0x06001FB0) /* Icon */
+     , (9240,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9240, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (9240, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9240, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9240, 8000, 2925380423) /* PCAPRecordedObjectIID */;
+VALUES (9240, 8000, 0xAE5DC347) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9240, 67113148, 160, 8);

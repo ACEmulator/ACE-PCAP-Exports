@@ -31,18 +31,18 @@ VALUES (36186,   1, 'Gem of Harbinger''s Frost Barrier') /* Name */
      , (36186,  20, 'Gems of Harbinger''s Frost Barrier') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36186,   1,   33554809) /* Setup */
-     , (36186,   3,  536870932) /* SoundTable */
-     , (36186,   6,   67111919) /* PaletteBase */
-     , (36186,   8,  100673901) /* Icon */
-     , (36186,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36186,   1, 0x02000179) /* Setup */
+     , (36186,   3, 0x20000014) /* SoundTable */
+     , (36186,   6, 0x04000BEF) /* PaletteBase */
+     , (36186,   8, 0x0600296D) /* Icon */
+     , (36186,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36186,  28,       4190) /* Spell - HarbingerProtectionCold */
      , (36186, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (36186, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36186, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36186, 8000, 2461713206) /* PCAPRecordedObjectIID */;
+VALUES (36186, 8000, 0x92BAC336) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36186, 67111919, 0, 0);

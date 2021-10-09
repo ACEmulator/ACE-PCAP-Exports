@@ -56,23 +56,23 @@ VALUES (41889,   1, 'Ultimate Singularity Sword') /* Name */
      , (41889,  25, 'Azrakin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41889,   1,   33557319) /* Setup */
-     , (41889,   3,  536870932) /* SoundTable */
-     , (41889,   6,   67111919) /* PaletteBase */
-     , (41889,   8,  100672048) /* Icon */
-     , (41889,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41889,   1, 0x02000B47) /* Setup */
+     , (41889,   3, 0x20000014) /* SoundTable */
+     , (41889,   6, 0x04000BEF) /* PaletteBase */
+     , (41889,   8, 0x06002230) /* Icon */
+     , (41889,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41889, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (41889, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41889, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41889, 8000, 2461223381) /* PCAPRecordedObjectIID */;
+VALUES (41889, 8000, 0x92B349D5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41889,  2086,      2)  /* StrengthOther7 */
+VALUES (41889,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (41889,  2086,      2)  /* StrengthOther7 */
      , (41889,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (41889,  2106,      2)  /* HeartSeekerSelf7 */
-     , (41889,  2576,      2)  /* CANTRIPSTRENGTH2 */;
+     , (41889,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41889, 67111922, 0, 0);

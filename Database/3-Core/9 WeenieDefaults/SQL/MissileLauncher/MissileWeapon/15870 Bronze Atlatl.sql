@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15870,   1,        256) /* ItemType - MissileWeapon */
      , (15870,   5,        500) /* EncumbranceVal */
      , (15870,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (15870,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (15870,  16,          1) /* ItemUseable - No */
      , (15870,  19,        200) /* Value */
      , (15870,  33,         -2) /* Bonded - Destroy */
@@ -16,7 +15,7 @@ VALUES (15870,   1,        256) /* ItemType - MissileWeapon */
      , (15870,  48,         47) /* WeaponSkill - MissileWeapons */
      , (15870,  49,         -1) /* WeaponTime */
      , (15870,  50,          4) /* AmmoType - Atlatl */
-     , (15870,  51,          2) /* CombatUse - Missle */
+     , (15870,  51,          2) /* CombatUse - Missile */
      , (15870,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15870, 114,          1) /* Attuned - Attuned */
      , (15870, 353,         10) /* WeaponType - Thrown */
@@ -24,7 +23,8 @@ VALUES (15870,   1,        256) /* ItemType - MissileWeapon */
      , (15870, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15870,  22, True ) /* Inscribable */;
+VALUES (15870,  22, True ) /* Inscribable */
+     , (15870,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15870,  21,       0) /* WeaponLength */
@@ -39,23 +39,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15870,   1, 'Bronze Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15870,   1,   33557433) /* Setup */
-     , (15870,   3,  536870932) /* SoundTable */
-     , (15870,   6,   67111919) /* PaletteBase */
-     , (15870,   8,  100672766) /* Icon */
-     , (15870,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15870,   1, 0x02000BB9) /* Setup */
+     , (15870,   3, 0x20000014) /* SoundTable */
+     , (15870,   6, 0x04000BEF) /* PaletteBase */
+     , (15870,   8, 0x060024FE) /* Icon */
+     , (15870,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15870, 8001,    2327320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (15870, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15870, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (15870, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15870, 8040, 1415119184, 104.8819, -80.01852, -0.0645, 0.5091672, 0.5091672, 0.4906615, 0.4906615) /* PCAPRecordedLocation */
+VALUES (15870, 8040, 0x54590150, 104.8819, -80.01852, -0.0645, 0.509167, 0.509167, 0.490662, 0.490662) /* PCAPRecordedLocation */
 /* @teleloc 0x54590150 [104.881900 -80.018520 -0.064500] 0.509167 0.509167 0.490662 0.490662 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15870, 8000, 3360318657) /* PCAPRecordedObjectIID */
-     , (15870, 8008, 3360318645) /* PCAPRecordedParentIID */;
+VALUES (15870, 8000, 0xC84A64C1) /* PCAPRecordedObjectIID */
+     , (15870, 8008, 0xC84A64B5) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15870, 67113836, 0, 0);

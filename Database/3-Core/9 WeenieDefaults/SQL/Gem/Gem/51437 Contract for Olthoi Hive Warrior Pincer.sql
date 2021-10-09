@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51437,   1, 'Contract for Olthoi Hive Warrior Pincer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51437,   1,   33557625) /* Setup */
-     , (51437,   3,  536870932) /* SoundTable */
-     , (51437,   8,  100691928) /* Icon */
-     , (51437,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51437,   1, 0x02000C79) /* Setup */
+     , (51437,   3, 0x20000014) /* SoundTable */
+     , (51437,   8, 0x06006FD8) /* Icon */
+     , (51437,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51437, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (51437, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (51437, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (51437,   1,   33557625) /* Setup */
      , (51437, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51437, 8000,      51437) /* PCAPRecordedObjectIID */;
+VALUES (51437, 8000, 0x0000C8ED) /* PCAPRecordedObjectIID */;

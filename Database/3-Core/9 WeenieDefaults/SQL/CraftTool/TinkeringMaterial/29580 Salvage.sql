@@ -35,17 +35,17 @@ VALUES (29580,   1, 'Salvage') /* Name */
      , (29580,  15, 'Chips of red garnet material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29580,   1,   33554817) /* Setup */
-     , (29580,   3,  536870932) /* SoundTable */
-     , (29580,   6,   67111919) /* PaletteBase */
-     , (29580,   8,  100677146) /* Icon */
-     , (29580,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29580,   1, 0x02000181) /* Setup */
+     , (29580,   3, 0x20000014) /* SoundTable */
+     , (29580,   6, 0x04000BEF) /* PaletteBase */
+     , (29580,   8, 0x0600361A) /* Icon */
+     , (29580,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29580, 8001, 2435349528) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, MaterialType */
      , (29580, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29580, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29580, 8000, 2461815145) /* PCAPRecordedObjectIID */;
+VALUES (29580, 8000, 0x92BC5169) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29580, 67111920, 0, 0);

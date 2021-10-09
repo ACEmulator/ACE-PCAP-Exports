@@ -17,7 +17,8 @@ VALUES (52241,   1,      16384) /* ItemType - Key */
      , (52241, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52241,  22, True ) /* Inscribable */;
+VALUES (52241,  22, True ) /* Inscribable */
+     , (52241,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52241,   1, 'Chilled Key') /* Name */
@@ -25,13 +26,13 @@ VALUES (52241,   1, 'Chilled Key') /* Name */
      , (52241,  16, 'A light blue key that feels icy cold.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52241,   1,   33554784) /* Setup */
-     , (52241,   3,  536870932) /* SoundTable */
-     , (52241,   8,  100693240) /* Icon */
-     , (52241,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52241,   1, 0x02000160) /* Setup */
+     , (52241,   3, 0x20000014) /* SoundTable */
+     , (52241,   8, 0x060074F8) /* Icon */
+     , (52241,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52241, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (52241, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52241, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52241, 8000, 2883714786) /* PCAPRecordedObjectIID */;
+VALUES (52241, 8000, 0xABE1FEE2) /* PCAPRecordedObjectIID */;

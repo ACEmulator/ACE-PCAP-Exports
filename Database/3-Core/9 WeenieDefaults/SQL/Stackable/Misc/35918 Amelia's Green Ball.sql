@@ -17,28 +17,28 @@ VALUES (35918,   1,        128) /* ItemType - Misc */
      , (35918,  98, 1483945826) /* CreationTimestamp */
      , (35918, 114,          1) /* Attuned - Attuned */
      , (35918, 267,       3600) /* Lifespan */
-     , (35918, 268,       3600) /* RemainingLifespan */
      , (35918, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35918,  69, False) /* IsSellable */;
+VALUES (35918,  23, True ) /* DestroyOnSell */
+     , (35918,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35918,   1, 'Amelia''s Green Ball') /* Name */
      , (35918,  15, 'A green ball. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35918,   1,   33554669) /* Setup */
-     , (35918,   3,  536870932) /* SoundTable */
-     , (35918,   6,   67111928) /* PaletteBase */
-     , (35918,   8,  100668725) /* Icon */
-     , (35918,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35918,   1, 0x020000ED) /* Setup */
+     , (35918,   3, 0x20000014) /* SoundTable */
+     , (35918,   6, 0x04000BF8) /* PaletteBase */
+     , (35918,   8, 0x06001535) /* Icon */
+     , (35918,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35918, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (35918, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35918, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35918, 8000, 3682735705) /* PCAPRecordedObjectIID */;
+VALUES (35918, 8000, 0xDB821659) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35918, 67111922, 0, 0);

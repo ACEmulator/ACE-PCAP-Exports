@@ -26,13 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25958,   1, 'Woven Tassel of Sound Mind') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25958,   1,   33554784) /* Setup */
-     , (25958,   3,  536870932) /* SoundTable */
-     , (25958,   8,  100675675) /* Icon */
-     , (25958,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25958,   1, 0x02000160) /* Setup */
+     , (25958,   3, 0x20000014) /* SoundTable */
+     , (25958,   8, 0x0600305B) /* Icon */
+     , (25958,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25958, 8001,    2650256) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (25958, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25958, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25958, 8000, 2881261403) /* PCAPRecordedObjectIID */;
+VALUES (25958, 8000, 0xABBC8F5B) /* PCAPRecordedObjectIID */;

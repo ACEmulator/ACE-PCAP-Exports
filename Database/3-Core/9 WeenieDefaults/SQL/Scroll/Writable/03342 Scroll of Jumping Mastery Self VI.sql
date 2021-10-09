@@ -24,13 +24,13 @@ VALUES (3342,   1, 'Scroll of Jumping Mastery Self VI') /* Name */
 Increases the caster''s Jump skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3342,   1,   33554826) /* Setup */
-     , (3342,   8,  100676461) /* Icon */
-     , (3342,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3342,   1, 0x0200018A) /* Setup */
+     , (3342,   8, 0x0600336D) /* Icon */
+     , (3342,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3342,  28,        975) /* Spell - JumpingMasterySelf6 */
      , (3342, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3342, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3342, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3342, 8000, 3355184013) /* PCAPRecordedObjectIID */;
+VALUES (3342, 8000, 0xC7FC0B8D) /* PCAPRecordedObjectIID */;

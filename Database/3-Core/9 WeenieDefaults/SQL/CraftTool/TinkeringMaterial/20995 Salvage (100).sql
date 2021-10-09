@@ -35,18 +35,18 @@ VALUES (20995,   1, 'Salvage (100)') /* Name */
      , (20995,  15, 'A bolt of wool material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20995,   1,   33554817) /* Setup */
-     , (20995,   3,  536870932) /* SoundTable */
-     , (20995,   6,   67111919) /* PaletteBase */
-     , (20995,   8,  100673219) /* Icon */
-     , (20995,  22,  872415275) /* PhysicsEffectTable */
-     , (20995,  50,  100673239) /* IconOverlay */
+VALUES (20995,   1, 0x02000181) /* Setup */
+     , (20995,   3, 0x20000014) /* SoundTable */
+     , (20995,   6, 0x04000BEF) /* PaletteBase */
+     , (20995,   8, 0x060026C3) /* Icon */
+     , (20995,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20995,  50, 0x060026D7) /* IconOverlay */
      , (20995, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (20995, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20995, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20995, 8000, 2461815097) /* PCAPRecordedObjectIID */;
+VALUES (20995, 8000, 0x92BC5139) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20995, 67111923, 0, 0);

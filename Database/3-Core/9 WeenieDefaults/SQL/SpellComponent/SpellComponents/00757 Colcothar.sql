@@ -20,17 +20,17 @@ VALUES (757,   1, 'Colcothar') /* Name */
      , (757,  20, 'Colcothar Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (757,   1,   33555209) /* Setup */
-     , (757,   3,  536870932) /* SoundTable */
-     , (757,   6,   67111919) /* PaletteBase */
-     , (757,   8,  100669701) /* Icon */
-     , (757,  22,  872415275) /* PhysicsEffectTable */
+VALUES (757,   1, 0x02000309) /* Setup */
+     , (757,   3, 0x20000014) /* SoundTable */
+     , (757,   6, 0x04000BEF) /* PaletteBase */
+     , (757,   8, 0x06001905) /* Icon */
+     , (757,  22, 0x3400002B) /* PhysicsEffectTable */
      , (757, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (757, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (757, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (757, 8000, 2856726424) /* PCAPRecordedObjectIID */;
+VALUES (757, 8000, 0xAA462F98) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (757, 67111922, 0, 0);

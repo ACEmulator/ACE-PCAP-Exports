@@ -33,17 +33,17 @@ VALUES (8661,   1, 'Ursuin Hide Coat') /* Name */
      , (8661,  16, 'A coat made out of the hide of an ursuin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8661,   1,   33554644) /* Setup */
-     , (8661,   3,  536870932) /* SoundTable */
-     , (8661,   6,   67108990) /* PaletteBase */
-     , (8661,   8,  100671253) /* Icon */
-     , (8661,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8661,   1, 0x020000D4) /* Setup */
+     , (8661,   3, 0x20000014) /* SoundTable */
+     , (8661,   6, 0x0400007E) /* PaletteBase */
+     , (8661,   8, 0x06001F15) /* Icon */
+     , (8661,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8661, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (8661, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8661, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8661, 8000, 2779730262) /* PCAPRecordedObjectIID */;
+VALUES (8661, 8000, 0xA5AF5156) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8661, 67113106, 72, 8)

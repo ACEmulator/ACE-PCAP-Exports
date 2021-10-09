@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32850,   1, 'Water of Stasis') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32850,   1,   33556951) /* Setup */
-     , (32850,   3,  536870932) /* SoundTable */
-     , (32850,   8,  100688824) /* Icon */
-     , (32850,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32850,   1, 0x020009D7) /* Setup */
+     , (32850,   3, 0x20000014) /* SoundTable */
+     , (32850,   8, 0x060063B8) /* Icon */
+     , (32850,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32850, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (32850, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (32850, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32850, 8000, 2148065044) /* PCAPRecordedObjectIID */;
+VALUES (32850, 8000, 0x8008DF14) /* PCAPRecordedObjectIID */;

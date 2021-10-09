@@ -49,20 +49,20 @@ VALUES (24028,   1, 'Crescent Moons') /* Name */
      , (24028,  15, 'This weapon was wielded by the Sentinels of Perfect Light in their stance against the darkness after the return of Asheron to the Knorr Lyceum. The blades have been crafted to represent the crescent shape of Alb''arel and Rez''arel.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24028,   1,   33558267) /* Setup */
-     , (24028,   3,  536870932) /* SoundTable */
-     , (24028,   8,  100674150) /* Icon */
-     , (24028,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24028,   1, 0x02000EFB) /* Setup */
+     , (24028,   3, 0x20000014) /* SoundTable */
+     , (24028,   8, 0x06002A66) /* Icon */
+     , (24028,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24028, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24028, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24028, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24028, 8000, 2192305197) /* PCAPRecordedObjectIID */;
+VALUES (24028, 8000, 0x82ABEC2D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24028,  1337,      2)  /* StrengthOther6 */
-     , (24028,  1591,      2)  /* HeartSeekerSelf5 */
+VALUES (24028,  2949,      2)  /* LightbringersWay */
      , (24028,  1605,      2)  /* DefenderSelf6 */
      , (24028,  1624,      2)  /* SwiftKillerSelf3 */
-     , (24028,  2949,      2)  /* LightbringersWay */;
+     , (24028,  1591,      2)  /* HeartSeekerSelf5 */
+     , (24028,  1337,      2)  /* StrengthOther6 */;

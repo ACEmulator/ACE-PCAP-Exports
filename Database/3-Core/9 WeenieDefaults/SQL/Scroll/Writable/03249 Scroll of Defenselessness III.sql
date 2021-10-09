@@ -24,16 +24,13 @@ VALUES (3249,   1, 'Scroll of Defenselessness III') /* Name */
 Decreases the target''s Missile Defense skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3249,   1,   33554826) /* Setup */
-     , (3249,   8,  100676468) /* Icon */
-     , (3249,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3249,   1, 0x0200018A) /* Setup */
+     , (3249,   8, 0x06003374) /* Icon */
+     , (3249,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3249,  28,        264) /* Spell - DefenselessnessOther3 */
      , (3249, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3249, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3249, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3249, 8000, 3709458703) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3249, 2, 47408,  1, 0, 0, False) /* Create Frost Club (47408) for Wield */;
+VALUES (3249, 8000, 0xDD19D90F) /* PCAPRecordedObjectIID */;

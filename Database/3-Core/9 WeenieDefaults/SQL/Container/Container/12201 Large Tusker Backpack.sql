@@ -26,17 +26,17 @@ VALUES (12201,   1, 'Large Tusker Backpack') /* Name */
      , (12201,  16, 'This tusker was a veritable genius, judging by the size of it''s cranium.  It''s a good thing you stopped it from breeding, or their might have been a whole new breed of Tusker...') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12201,   1,   33556826) /* Setup */
-     , (12201,   3,  536870932) /* SoundTable */
-     , (12201,   6,   67113007) /* PaletteBase */
-     , (12201,   8,  100672175) /* Icon */
-     , (12201,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12201,   1, 0x0200095A) /* Setup */
+     , (12201,   3, 0x20000014) /* SoundTable */
+     , (12201,   6, 0x0400102F) /* PaletteBase */
+     , (12201,   8, 0x060022AF) /* Icon */
+     , (12201,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12201, 8001,    2113562) /* PCAPRecordedWeenieHeader - ItemsCapacity, Value, Usable, Container, Burden */
      , (12201, 8003,         19) /* PCAPRecordedObjectDesc - Openable, Inscribable, Attackable */
      , (12201, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12201, 8000, 2172598609) /* PCAPRecordedObjectIID */;
+VALUES (12201, 8000, 0x817F3951) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12201, 67113007, 0, 0);

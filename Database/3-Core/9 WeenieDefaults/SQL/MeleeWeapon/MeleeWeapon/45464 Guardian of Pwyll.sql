@@ -24,15 +24,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45464,   1, 'Guardian of Pwyll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45464,   1,   33559396) /* Setup */
-     , (45464,   3,  536870932) /* SoundTable */
-     , (45464,   8,  100686775) /* Icon */
-     , (45464,  22,  872415275) /* PhysicsEffectTable */
-     , (45464,  52,  100686604) /* IconUnderlay */
+VALUES (45464,   1, 0x02001364) /* Setup */
+     , (45464,   3, 0x20000014) /* SoundTable */
+     , (45464,   8, 0x06005BB7) /* Icon */
+     , (45464,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45464,  52, 0x06005B0C) /* IconUnderlay */
      , (45464, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (45464, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45464, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45464, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45464, 8000, 2804495217) /* PCAPRecordedObjectIID */;
+VALUES (45464, 8000, 0xA7293371) /* PCAPRecordedObjectIID */;

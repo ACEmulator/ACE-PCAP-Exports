@@ -8,7 +8,6 @@ VALUES (14826,   1,          2) /* ItemType - Armor */
      , (14826,   4,       1024) /* ClothingPriority - OuterwearChest */
      , (14826,   5,       3100) /* EncumbranceVal */
      , (14826,   9,        512) /* ValidLocations - ChestArmor */
-     , (14826,  10,        512) /* CurrentWieldedLocation - ChestArmor */
      , (14826,  16,          1) /* ItemUseable - No */
      , (14826,  19,       2680) /* Value */
      , (14826,  28,        210) /* ArmorLevel */
@@ -37,17 +36,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14826,   1, 'Greater Celdon Shadow Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14826,   1,   33554642) /* Setup */
-     , (14826,   3,  536870932) /* SoundTable */
-     , (14826,   6,   67108990) /* PaletteBase */
-     , (14826,   8,  100672612) /* Icon */
-     , (14826,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14826,   1, 0x020000D2) /* Setup */
+     , (14826,   3, 0x20000014) /* SoundTable */
+     , (14826,   6, 0x0400007E) /* PaletteBase */
+     , (14826,   8, 0x06002464) /* Icon */
+     , (14826,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14826, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (14826, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14826, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14826, 8000, 2164419675) /* PCAPRecordedObjectIID */;
+VALUES (14826, 8000, 0x81026C5B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14826, 67113799, 216, 24)

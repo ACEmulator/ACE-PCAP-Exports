@@ -32,6 +32,7 @@ VALUES (51965,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51965,  22, True ) /* Inscribable */
+     , (51965,  23, True ) /* DestroyOnSell */
      , (51965,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -52,30 +53,30 @@ VALUES (51965,   1, 'Rynthid Tentacle Dagger') /* Name */
      , (51965,  15, 'A dagger crafted from enchanted obsidian and Rynthid tentacles.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51965,   1,   33561599) /* Setup */
-     , (51965,   3,  536870932) /* SoundTable */
-     , (51965,   6,   67111919) /* PaletteBase */
-     , (51965,   8,  100693230) /* Icon */
-     , (51965,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51965,   1, 0x02001BFF) /* Setup */
+     , (51965,   3, 0x20000014) /* SoundTable */
+     , (51965,   6, 0x04000BEF) /* PaletteBase */
+     , (51965,   8, 0x060074EE) /* Icon */
+     , (51965,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51965, 8001,  270598800) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, ValidLocations, Burden, HookType */
      , (51965, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51965, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51965, 8040, 1498677543, 20, -17.7309, -41.9901, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51965, 8040, 0x59540127, 20, -17.7309, -41.9901, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59540127 [20.000000 -17.730900 -41.990100] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51965, 8000, 3707588400) /* PCAPRecordedObjectIID */;
+VALUES (51965, 8000, 0xDCFD4F30) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51965,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (51965,  4019,      2)  /* CANTRIPQUICKNESS3 */
+VALUES (51965,  4417,      2)  /* SwiftKillerSelf8 */
+     , (51965,  6047,      2)  /* CantripFinesseWeaponsAptitude4 */
      , (51965,  4395,      2)  /* BloodDrinkerSelf8 */
      , (51965,  4400,      2)  /* DefenderSelf8 */
+     , (51965,  4019,      2)  /* CANTRIPQUICKNESS3 */
      , (51965,  4405,      2)  /* HeartSeekerSelf8 */
-     , (51965,  4417,      2)  /* SwiftKillerSelf8 */
-     , (51965,  6047,      2)  /* CantripDaggerAptitude4 */;
+     , (51965,  3963,      2)  /* CANTRIPCOORDINATION3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51965, 67111921, 0, 0);

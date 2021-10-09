@@ -37,17 +37,17 @@ VALUES (27453,   1, 'Renegade Hauberk') /* Name */
      , (27453,  16, 'A chestplate worn by Lugian Renegades.  The armor is brutally simplistic, and sturdily crafted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27453,   1,   33554644) /* Setup */
-     , (27453,   3,  536870932) /* SoundTable */
-     , (27453,   6,   67108990) /* PaletteBase */
-     , (27453,   8,  100676433) /* Icon */
-     , (27453,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27453,   1, 0x020000D4) /* Setup */
+     , (27453,   3, 0x20000014) /* SoundTable */
+     , (27453,   6, 0x0400007E) /* PaletteBase */
+     , (27453,   8, 0x06003351) /* Icon */
+     , (27453,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27453, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (27453, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27453, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27453, 8000, 2988579959) /* PCAPRecordedObjectIID */;
+VALUES (27453, 8000, 0xB2221C77) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27453, 67115145, 72, 8)

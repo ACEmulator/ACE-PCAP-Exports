@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (329,   1,          1) /* ItemType - MeleeWeapon */
      , (329,   5,         38) /* EncumbranceVal */
      , (329,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (329,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (329,  16,          1) /* ItemUseable - No */
      , (329,  19,         30) /* Value */
      , (329,  44,          4) /* Damage */
@@ -48,11 +47,11 @@ VALUES (329,   1, 'Knife') /* Name */
      , (329,  16, 'Ivory Knife of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (329,   1,   33554745) /* Setup */
-     , (329,   3,  536870932) /* SoundTable */
-     , (329,   6,   67111919) /* PaletteBase */
-     , (329,   8,  100668946) /* Icon */
-     , (329,  22,  872415275) /* PhysicsEffectTable */
+VALUES (329,   1, 0x02000139) /* Setup */
+     , (329,   3, 0x20000014) /* SoundTable */
+     , (329,   6, 0x04000BEF) /* PaletteBase */
+     , (329,   8, 0x06001612) /* Icon */
+     , (329,  22, 0x3400002B) /* PhysicsEffectTable */
      , (329,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (329, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (329, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -60,12 +59,12 @@ VALUES (329,   1,   33554745) /* Setup */
      , (329, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (329, 8040, 3332964380, 76.81257, 90.87394, 41.929, -0.3225116, -0.3225116, -0.6292744, -0.6292744) /* PCAPRecordedLocation */
+VALUES (329, 8040, 0xC6A9001C, 76.81257, 90.87394, 41.929, -0.322512, -0.322512, -0.629274, -0.629274) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [76.812570 90.873940 41.929000] -0.322512 -0.322512 -0.629274 -0.629274 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (329, 8000, 3597216281) /* PCAPRecordedObjectIID */
-     , (329, 8008, 1344172104) /* PCAPRecordedParentIID */;
+VALUES (329, 8000, 0xD6692A19) /* PCAPRecordedObjectIID */
+     , (329, 8008, 0x501E7048) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (329,  1351,      2)  /* EnduranceSelf3 */

@@ -17,7 +17,8 @@ VALUES (49644,   1,      16384) /* ItemType - Key */
      , (49644, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49644,  22, True ) /* Inscribable */;
+VALUES (49644,  22, True ) /* Inscribable */
+     , (49644,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49644,   1, 'Door Key') /* Name */
@@ -25,13 +26,13 @@ VALUES (49644,   1, 'Door Key') /* Name */
      , (49644,  16, 'A key to the door the Simulacrum Shifter was guarding.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49644,   1,   33554784) /* Setup */
-     , (49644,   3,  536870932) /* SoundTable */
-     , (49644,   8,  100671245) /* Icon */
-     , (49644,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49644,   1, 0x02000160) /* Setup */
+     , (49644,   3, 0x20000014) /* SoundTable */
+     , (49644,   8, 0x06001F0D) /* Icon */
+     , (49644,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49644, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (49644, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (49644, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49644, 8000, 2880028302) /* PCAPRecordedObjectIID */;
+VALUES (49644, 8000, 0xABA9BE8E) /* PCAPRecordedObjectIID */;

@@ -14,20 +14,21 @@ VALUES (46414,   1,        128) /* ItemType - Misc */
      , (46414, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46414,  69, False) /* IsSellable */;
+VALUES (46414,  23, True ) /* DestroyOnSell */
+     , (46414,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46414,   1, 'Luminance Certificate') /* Name */
      , (46414,  15, 'A certificate that grants the bearer a 20,000 luminance. Bring this certificate to an Agent of the Arcanum. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46414,   1,   33554659) /* Setup */
-     , (46414,   3,  536870932) /* SoundTable */
-     , (46414,   8,  100692711) /* Icon */
-     , (46414,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46414,   1, 0x020000E3) /* Setup */
+     , (46414,   3, 0x20000014) /* SoundTable */
+     , (46414,   8, 0x060072E7) /* Icon */
+     , (46414,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46414, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (46414, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (46414, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46414, 8000, 2166235065) /* PCAPRecordedObjectIID */;
+VALUES (46414, 8000, 0x811E1FB9) /* PCAPRecordedObjectIID */;

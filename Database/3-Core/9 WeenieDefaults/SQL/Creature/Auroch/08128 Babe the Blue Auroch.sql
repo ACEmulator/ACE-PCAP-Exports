@@ -28,22 +28,22 @@ VALUES (8128,   1, 'Babe the Blue Auroch') /* Name */
      , (8128, 8006, 'AAA9AIAAAABSABcAAACAPw==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8128,   1,   33554478) /* Setup */
-     , (8128,   2,  150994969) /* MotionTable */
-     , (8128,   3,  536870916) /* SoundTable */
-     , (8128,   6,   67109302) /* PaletteBase */
-     , (8128,   8,  100667936) /* Icon */
-     , (8128,  22,  872415254) /* PhysicsEffectTable */
+VALUES (8128,   1, 0x0200002E) /* Setup */
+     , (8128,   2, 0x09000019) /* MotionTable */
+     , (8128,   3, 0x20000004) /* SoundTable */
+     , (8128,   6, 0x040001B6) /* PaletteBase */
+     , (8128,   8, 0x06001220) /* Icon */
+     , (8128,  22, 0x34000016) /* PhysicsEffectTable */
      , (8128, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (8128, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (8128, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8128, 8040, 1676148780, 125.249, 85.9626, 132.0425, -0.9952207, 0, 0, 0.09765107) /* PCAPRecordedLocation */
+VALUES (8128, 8040, 0x63E8002C, 125.249, 85.9626, 132.0425, -0.995221, 0, 0, 0.097651) /* PCAPRecordedLocation */
 /* @teleloc 0x63E8002C [125.249000 85.962600 132.042500] -0.995221 0.000000 0.000000 0.097651 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8128, 8000, 3688325439) /* PCAPRecordedObjectIID */;
+VALUES (8128, 8000, 0xDBD7613F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8128,   1, 1055, 0, 0) /* Strength */

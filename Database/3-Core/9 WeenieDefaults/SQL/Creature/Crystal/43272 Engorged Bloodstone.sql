@@ -25,21 +25,21 @@ VALUES (43272,   1, 'Engorged Bloodstone') /* Name */
      , (43272, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43272,   1,   33561125) /* Setup */
-     , (43272,   2,  150995096) /* MotionTable */
-     , (43272,   3,  536871001) /* SoundTable */
-     , (43272,   8,  100691499) /* Icon */
-     , (43272,  22,  872415347) /* PhysicsEffectTable */
+VALUES (43272,   1, 0x02001A25) /* Setup */
+     , (43272,   2, 0x09000098) /* MotionTable */
+     , (43272,   3, 0x20000059) /* SoundTable */
+     , (43272,   8, 0x06006E2B) /* Icon */
+     , (43272,  22, 0x34000073) /* PhysicsEffectTable */
      , (43272, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (43272, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (43272, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43272, 8040, 4181393701, 179.049, 147.77, -118, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43272, 8040, 0xF93B0125, 179.049, 147.77, -118, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF93B0125 [179.049000 147.770000 -118.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43272, 8000, 2629764027) /* PCAPRecordedObjectIID */;
+VALUES (43272, 8000, 0x9CBF03BB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (43272,   1,     0, 0, 0, 200000) /* MaxHealth */;

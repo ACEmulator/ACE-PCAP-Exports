@@ -27,21 +27,21 @@ VALUES (1949,   1, 'Chest') /* Name */
      , (1949, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1949,   1,   33554556) /* Setup */
-     , (1949,   2,  150994948) /* MotionTable */
-     , (1949,   3,  536870945) /* SoundTable */
-     , (1949,   8,  100667424) /* Icon */
-     , (1949,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1949,   1, 0x0200007C) /* Setup */
+     , (1949,   2, 0x09000004) /* MotionTable */
+     , (1949,   3, 0x20000021) /* SoundTable */
+     , (1949,   8, 0x06001020) /* Icon */
+     , (1949,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1949, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (1949, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (1949, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1949, 8040, 3043688712, 100.16, 79.1351, 20.5, 0.6954889, 0, 0, 0.7185369) /* PCAPRecordedLocation */
+VALUES (1949, 8040, 0xB56B0108, 100.16, 79.1351, 20.5, 0.695489, 0, 0, 0.718537) /* PCAPRecordedLocation */
 /* @teleloc 0xB56B0108 [100.160000 79.135100 20.500000] 0.695489 0.000000 0.000000 0.718537 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1949, 8000, 2069278730) /* PCAPRecordedObjectIID */;
+VALUES (1949, 8000, 0x7B56B00A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1949, -1, 312, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Light Crossbow (312) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

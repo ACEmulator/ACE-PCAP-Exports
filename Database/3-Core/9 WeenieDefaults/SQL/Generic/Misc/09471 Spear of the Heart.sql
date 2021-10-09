@@ -14,7 +14,8 @@ VALUES (9471,   1,        128) /* ItemType - Misc */
      , (9471, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9471,  22, True ) /* Inscribable */;
+VALUES (9471,  22, True ) /* Inscribable */
+     , (9471,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9471,  39,     1.5) /* DefaultScale */;
@@ -24,13 +25,13 @@ VALUES (9471,   1, 'Spear of the Heart') /* Name */
      , (9471,  15, 'A Lugian gift, traded in return for the Blade of the Heart') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9471,   1,   33557008) /* Setup */
-     , (9471,   3,  536870932) /* SoundTable */
-     , (9471,   8,  100671493) /* Icon */
-     , (9471,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9471,   1, 0x02000A10) /* Setup */
+     , (9471,   3, 0x20000014) /* SoundTable */
+     , (9471,   8, 0x06002005) /* Icon */
+     , (9471,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9471, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (9471, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9471, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9471, 8000, 2149416387) /* PCAPRecordedObjectIID */;
+VALUES (9471, 8000, 0x801D7DC3) /* PCAPRecordedObjectIID */;

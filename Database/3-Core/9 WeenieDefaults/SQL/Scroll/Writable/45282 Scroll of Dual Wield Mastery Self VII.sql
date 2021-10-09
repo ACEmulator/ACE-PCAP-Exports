@@ -24,17 +24,17 @@ VALUES (45282,   1, 'Scroll of Dual Wield Mastery Self VII') /* Name */
 Increases the caster''s Dual Wield skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45282,   1,   33554826) /* Setup */
-     , (45282,   8,  100692251) /* Icon */
-     , (45282,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45282,   1, 0x0200018A) /* Setup */
+     , (45282,   8, 0x0600711B) /* Icon */
+     , (45282,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45282,  28,       5809) /* Spell - DualWieldMasterySelf7 */
      , (45282, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (45282, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45282, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45282, 8040, 15532655, 356.9333, -199.5847, -11.9145, -0.5344993, 0, 0, -0.8451689) /* PCAPRecordedLocation */
+VALUES (45282, 8040, 0x00ED026F, 356.9333, -199.5847, -11.9145, -0.534499, 0, 0, -0.845169) /* PCAPRecordedLocation */
 /* @teleloc 0x00ED026F [356.933300 -199.584700 -11.914500] -0.534499 0.000000 0.000000 -0.845169 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45282, 8000, 3701567145) /* PCAPRecordedObjectIID */;
+VALUES (45282, 8000, 0xDCA16EA9) /* PCAPRecordedObjectIID */;

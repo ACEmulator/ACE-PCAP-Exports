@@ -24,22 +24,22 @@ VALUES (33474,   1, 'Tainted Knight') /* Name */
      , (33474, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33474,   1,   33559125) /* Setup */
-     , (33474,   2,  150995334) /* MotionTable */
-     , (33474,   3,  536871102) /* SoundTable */
-     , (33474,   6,   67115468) /* PaletteBase */
-     , (33474,   8,  100677371) /* Icon */
-     , (33474,  22,  872415269) /* PhysicsEffectTable */
+VALUES (33474,   1, 0x02001255) /* Setup */
+     , (33474,   2, 0x09000186) /* MotionTable */
+     , (33474,   3, 0x200000BE) /* SoundTable */
+     , (33474,   6, 0x040019CC) /* PaletteBase */
+     , (33474,   8, 0x060036FB) /* Icon */
+     , (33474,  22, 0x34000025) /* PhysicsEffectTable */
      , (33474, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33474, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33474, 8005,     366787) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33474, 8040, 8651074, 191.219, -230.679, -11.99321, -0.9983311, 0, 0, 0.05774941) /* PCAPRecordedLocation */
+VALUES (33474, 8040, 0x00840142, 191.219, -230.679, -11.99321, -0.998331, 0, 0, 0.057749) /* PCAPRecordedLocation */
 /* @teleloc 0x00840142 [191.219000 -230.679000 -11.993210] -0.998331 0.000000 0.000000 0.057749 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33474, 8000, 3359107299) /* PCAPRecordedObjectIID */;
+VALUES (33474, 8000, 0xC837E8E3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33474, 67115545, 0, 0);

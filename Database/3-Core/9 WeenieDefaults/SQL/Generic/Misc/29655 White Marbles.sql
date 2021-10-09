@@ -19,17 +19,17 @@ VALUES (29655,   1, 'White Marbles') /* Name */
      , (29655,  16, 'A handful of white marbles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29655,   1,   33554809) /* Setup */
-     , (29655,   3,  536870932) /* SoundTable */
-     , (29655,   6,   67111919) /* PaletteBase */
-     , (29655,   8,  100677180) /* Icon */
-     , (29655,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29655,   1, 0x02000179) /* Setup */
+     , (29655,   3, 0x20000014) /* SoundTable */
+     , (29655,   6, 0x04000BEF) /* PaletteBase */
+     , (29655,   8, 0x0600363C) /* Icon */
+     , (29655,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29655, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (29655, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29655, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29655, 8000, 3350596638) /* PCAPRecordedObjectIID */;
+VALUES (29655, 8000, 0xC7B60C1E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29655, 67111924, 0, 0);

@@ -27,21 +27,21 @@ VALUES (4886,   1, 'Chest') /* Name */
      , (4886, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4886,   1,   33554556) /* Setup */
-     , (4886,   2,  150994948) /* MotionTable */
-     , (4886,   3,  536870945) /* SoundTable */
-     , (4886,   8,  100667424) /* Icon */
-     , (4886,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4886,   1, 0x0200007C) /* Setup */
+     , (4886,   2, 0x09000004) /* MotionTable */
+     , (4886,   3, 0x20000021) /* SoundTable */
+     , (4886,   8, 0x06001020) /* Icon */
+     , (4886,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4886, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (4886, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (4886, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4886, 8040, 22610243, 96.156, -59.511, -6, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (4886, 8040, 0x01590143, 96.156, -59.511, -6, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01590143 [96.156000 -59.511000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4886, 8000, 1880461341) /* PCAPRecordedObjectIID */;
+VALUES (4886, 8000, 0x7015901D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4886, -1, 8716, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Al Arqas Town Stamp (8716) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

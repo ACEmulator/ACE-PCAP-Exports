@@ -28,17 +28,17 @@ VALUES (41917,   1, 'Weapon Upgrade Kit Containment Gem') /* Name */
      , (41917,  16, 'A magical gem containing a weapon upgrade kit.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41917,   1,   33556769) /* Setup */
-     , (41917,   3,  536870932) /* SoundTable */
-     , (41917,   6,   67111919) /* PaletteBase */
-     , (41917,   8,  100673039) /* Icon */
-     , (41917,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41917,   1, 0x02000921) /* Setup */
+     , (41917,   3, 0x20000014) /* SoundTable */
+     , (41917,   6, 0x04000BEF) /* PaletteBase */
+     , (41917,   8, 0x0600260F) /* Icon */
+     , (41917,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41917, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (41917, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41917, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41917, 8000, 2221100428) /* PCAPRecordedObjectIID */;
+VALUES (41917, 8000, 0x84634D8C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41917, 67111927, 0, 0);

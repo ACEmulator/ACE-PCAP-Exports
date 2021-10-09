@@ -49,22 +49,22 @@ VALUES (43051,   1, 'Knorr Academy Greaves') /* Name */
      , (43051,  16, 'Knorr Academy Greaves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43051,   1,   33554641) /* Setup */
-     , (43051,   3,  536870932) /* SoundTable */
-     , (43051,   6,   67108990) /* PaletteBase */
-     , (43051,   8,  100691418) /* Icon */
-     , (43051,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43051,   1, 0x020000D1) /* Setup */
+     , (43051,   3, 0x20000014) /* SoundTable */
+     , (43051,   6, 0x0400007E) /* PaletteBase */
+     , (43051,   8, 0x06006DDA) /* Icon */
+     , (43051,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43051,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (43051, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (43051, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43051, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43051, 8000, 2462559095) /* PCAPRecordedObjectIID */;
+VALUES (43051, 8000, 0x92C7AB77) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43051,  2108,      2)  /* Impenetrability7 */
-     , (43051,  6101,      2)  /* CantripWillpower4 */;
+VALUES (43051,  6101,      2)  /* CantripWillpower4 */
+     , (43051,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43051, 67109945, 152, 8)

@@ -27,21 +27,21 @@ VALUES (12027,   1, 'Lord of Decay') /* Name */
      , (12027, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12027,   1,   33555465) /* Setup */
-     , (12027,   2,  150994981) /* MotionTable */
-     , (12027,   3,  536870942) /* SoundTable */
-     , (12027,   8,  100669124) /* Icon */
-     , (12027,  22,  872415269) /* PhysicsEffectTable */
+VALUES (12027,   1, 0x02000409) /* Setup */
+     , (12027,   2, 0x09000025) /* MotionTable */
+     , (12027,   3, 0x2000001E) /* SoundTable */
+     , (12027,   8, 0x060016C4) /* Icon */
+     , (12027,  22, 0x34000025) /* PhysicsEffectTable */
      , (12027, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (12027, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12027, 8005,     104519) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12027, 8040, 2728656938, 136.2233, 42.82306, 79.45379, 0.998876, 0, 0, -0.04739942) /* PCAPRecordedLocation */
+VALUES (12027, 8040, 0xA2A4002A, 136.2233, 42.82306, 79.45379, 0.998876, 0, 0, -0.047399) /* PCAPRecordedLocation */
 /* @teleloc 0xA2A4002A [136.223300 42.823060 79.453790] 0.998876 0.000000 0.000000 -0.047399 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12027, 8000, 3711021820) /* PCAPRecordedObjectIID */;
+VALUES (12027, 8000, 0xDD31B2FC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (12027,   1,     0, 0, 0, 125) /* MaxHealth */;

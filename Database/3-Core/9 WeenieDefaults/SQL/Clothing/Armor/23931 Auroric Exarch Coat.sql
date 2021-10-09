@@ -47,30 +47,30 @@ VALUES (23931,   1, 'Auroric Exarch Coat') /* Name */
      , (23931,  25, 'Wahooka the Great') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23931,   1,   33554644) /* Setup */
-     , (23931,   3,  536870932) /* SoundTable */
-     , (23931,   6,   67108990) /* PaletteBase */
-     , (23931,   8,  100674121) /* Icon */
-     , (23931,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23931,   1, 0x020000D4) /* Setup */
+     , (23931,   3, 0x20000014) /* SoundTable */
+     , (23931,   6, 0x0400007E) /* PaletteBase */
+     , (23931,   8, 0x06002A49) /* Icon */
+     , (23931,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23931, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (23931, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23931, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23931, 8000, 2461740360) /* PCAPRecordedObjectIID */;
+VALUES (23931, 8000, 0x92BB2D48) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23931,   664,      2)  /* ManaMasteryOther6 */
+VALUES (23931,  2948,      2)  /* HieroWardGreat */
+     , (23931,  2377,      2)  /* AnnihilationVision */
      , (23931,   908,      2)  /* LeadershipMasteryOther5 */
+     , (23931,  2960,      2)  /* BludgeoningDurance */
+     , (23931,  2961,      2)  /* PiercingDurance */
+     , (23931,  2962,      2)  /* SlashingDurance */
+     , (23931,   664,      2)  /* ManaMasteryOther6 */
      , (23931,  2350,      2)  /* DecayDurance */
      , (23931,  2351,      2)  /* ConsumptionDurance */
      , (23931,  2352,      2)  /* StasisDurance */
-     , (23931,  2353,      2)  /* StimulationDurance */
-     , (23931,  2377,      2)  /* AnnihilationVision */
-     , (23931,  2948,      2)  /* HieroWardGreat */
-     , (23931,  2960,      2)  /* BludgeoningDurance */
-     , (23931,  2961,      2)  /* PiercingDurance */
-     , (23931,  2962,      2)  /* SlashingDurance */;
+     , (23931,  2353,      2)  /* StimulationDurance */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23931, 67114176, 96, 12)

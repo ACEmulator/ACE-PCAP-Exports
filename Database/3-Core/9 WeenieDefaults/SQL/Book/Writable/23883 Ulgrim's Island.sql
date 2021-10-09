@@ -24,24 +24,24 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23883,   1, 'Ulgrim''s Island') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23883,   1,   33556189) /* Setup */
-     , (23883,   8,  100668115) /* Icon */
+VALUES (23883,   1, 0x020006DD) /* Setup */
+     , (23883,   8, 0x060012D3) /* Icon */
      , (23883, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (23883, 8003,        276) /* PCAPRecordedObjectDesc - Stuck, Attackable, Book */
      , (23883, 8005,     163969) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23883, 8040, 1929904151, 70.8269, 164.452, 12, 0.0461788, 0, 0, -0.998933) /* PCAPRecordedLocation */
+VALUES (23883, 8040, 0x73080017, 70.8269, 164.452, 12, 0.046179, 0, 0, -0.998933) /* PCAPRecordedLocation */
 /* @teleloc 0x73080017 [70.826900 164.452000 12.000000] 0.046179 0.000000 0.000000 -0.998933 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23883, 8000, 1999667210) /* PCAPRecordedObjectIID */;
+VALUES (23883, 8000, 0x7730800A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23883, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (23883, 0, 4294967295, 'Ulgrim', 'Password is cheese', False, '
+VALUES (23883, 0, 4294967295, 'Ulgrim', 'prewritten', False, '
 You''re on Ulgrim''s Island.
 No Virindi Allowed!
 No Soliciting!

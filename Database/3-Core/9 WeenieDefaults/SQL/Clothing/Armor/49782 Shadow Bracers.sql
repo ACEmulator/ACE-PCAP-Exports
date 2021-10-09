@@ -20,18 +20,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49782,   1, 'Shadow Bracers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49782,   1,   33554653) /* Setup */
-     , (49782,   3,  536870932) /* SoundTable */
-     , (49782,   6,   67108990) /* PaletteBase */
-     , (49782,   8,  100693055) /* Icon */
-     , (49782,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49782,   1, 0x020000DD) /* Setup */
+     , (49782,   3, 0x20000014) /* SoundTable */
+     , (49782,   6, 0x0400007E) /* PaletteBase */
+     , (49782,   8, 0x0600743F) /* Icon */
+     , (49782,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49782, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (49782, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (49782, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
      , (49782, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49782, 8000,      49782) /* PCAPRecordedObjectIID */;
+VALUES (49782, 8000, 0x0000C276) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49782, 67110337, 64, 8);

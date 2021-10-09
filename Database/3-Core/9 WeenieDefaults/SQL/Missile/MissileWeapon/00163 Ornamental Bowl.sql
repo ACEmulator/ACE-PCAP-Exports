@@ -14,7 +14,7 @@ VALUES (163,   1,        256) /* ItemType - MissileWeapon */
      , (163,  45,          4) /* DamageType - Bludgeon */
      , (163,  48,         47) /* WeaponSkill - MissileWeapons */
      , (163,  49,         10) /* WeaponTime */
-     , (163,  51,          2) /* CombatUse - Missle */
+     , (163,  51,          2) /* CombatUse - Missile */
      , (163,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (163, 105,          5) /* ItemWorkmanship */
      , (163, 106,        147) /* ItemSpellcraft */
@@ -52,26 +52,20 @@ VALUES (163,   1, 'Ornamental Bowl') /* Name */
      , (163,  16, 'Ornamental Bowl of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (163,   1,   33554929) /* Setup */
-     , (163,   3,  536871012) /* SoundTable */
-     , (163,   6,   67111092) /* PaletteBase */
-     , (163,   8,  100668613) /* Icon */
-     , (163,  22,  872415275) /* PhysicsEffectTable */
+VALUES (163,   1, 0x020001F1) /* Setup */
+     , (163,   3, 0x20000064) /* SoundTable */
+     , (163,   6, 0x040008B4) /* PaletteBase */
+     , (163,   8, 0x060014C5) /* Icon */
+     , (163,  22, 0x3400002B) /* PhysicsEffectTable */
      , (163, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (163, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (163, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (163, 8000, 3685782345) /* PCAPRecordedObjectIID */;
+VALUES (163, 8000, 0xDBB09349) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (163,  1376,      2)  /* CoordinationSelf4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (163, 2, 23748,  1, 0, 0, False) /* Create Rock (23748) for Wield */
-     , (163, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
-     , (163, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (163, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (163, 67111920, 0, 0);

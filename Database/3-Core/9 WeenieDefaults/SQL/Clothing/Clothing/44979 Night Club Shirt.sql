@@ -8,7 +8,6 @@ VALUES (44979,   1,          4) /* ItemType - Clothing */
      , (44979,   4,         40) /* ClothingPriority - UnderwearChest, UnderwearUpperArms */
      , (44979,   5,         60) /* EncumbranceVal */
      , (44979,   9,         14) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear */
-     , (44979,  10,         14) /* CurrentWieldedLocation - ChestWear, AbdomenWear, UpperArmWear */
      , (44979,  16,          1) /* ItemUseable - No */
      , (44979,  19,       2449) /* Value */
      , (44979,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -21,16 +20,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44979,   1, 'Night Club Shirt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44979,   1,   33554883) /* Setup */
-     , (44979,   3,  536870932) /* SoundTable */
-     , (44979,   8,  100689182) /* Icon */
-     , (44979,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44979,   1, 0x020001C3) /* Setup */
+     , (44979,   3, 0x20000014) /* SoundTable */
+     , (44979,   8, 0x0600651E) /* Icon */
+     , (44979,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44979, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (44979, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44979, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44979, 8000, 2172882620) /* PCAPRecordedObjectIID */;
+VALUES (44979, 8000, 0x81838EBC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (44979, 0, 83887061, 83897597)

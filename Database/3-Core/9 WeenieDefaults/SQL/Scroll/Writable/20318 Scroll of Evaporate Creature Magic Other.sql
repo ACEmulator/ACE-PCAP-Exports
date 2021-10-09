@@ -24,13 +24,13 @@ VALUES (20318,   1, 'Scroll of Evaporate Creature Magic Other') /* Name */
 Dispels 3-6 negative Creature Magic enchantments of level 1 from the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20318,   1,   33554826) /* Setup */
-     , (20318,   8,  100676647) /* Icon */
-     , (20318,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20318,   1, 0x0200018A) /* Setup */
+     , (20318,   8, 0x06003427) /* Icon */
+     , (20318,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20318,  28,       1885) /* Spell - DispelCreatureBadOther1 */
      , (20318, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20318, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20318, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20318, 8000, 3679266402) /* PCAPRecordedObjectIID */;
+VALUES (20318, 8000, 0xDB4D2662) /* PCAPRecordedObjectIID */;

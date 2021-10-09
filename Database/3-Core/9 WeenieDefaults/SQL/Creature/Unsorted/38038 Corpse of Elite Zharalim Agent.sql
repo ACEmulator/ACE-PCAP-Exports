@@ -25,22 +25,22 @@ VALUES (38038,   1, 'Corpse of Elite Zharalim Agent') /* Name */
      , (38038, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38038,   1,   33554433) /* Setup */
-     , (38038,   2,  150995360) /* MotionTable */
-     , (38038,   3,  536870913) /* SoundTable */
-     , (38038,   6,   67108990) /* PaletteBase */
-     , (38038,   8,  100667504) /* Icon */
-     , (38038,  22,  872415269) /* PhysicsEffectTable */
+VALUES (38038,   1, 0x02000001) /* Setup */
+     , (38038,   2, 0x090001A0) /* MotionTable */
+     , (38038,   3, 0x20000001) /* SoundTable */
+     , (38038,   6, 0x0400007E) /* PaletteBase */
+     , (38038,   8, 0x06001070) /* Icon */
+     , (38038,  22, 0x34000025) /* PhysicsEffectTable */
      , (38038, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (38038, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (38038, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38038, 8040, 14287124, 2.85448, -200.1589, -17.995, -0.5720666, 0, 0, -0.8202072) /* PCAPRecordedLocation */
+VALUES (38038, 8040, 0x00DA0114, 2.85448, -200.1589, -17.995, -0.572067, 0, 0, -0.820207) /* PCAPRecordedLocation */
 /* @teleloc 0x00DA0114 [2.854480 -200.158900 -17.995000] -0.572067 0.000000 0.000000 -0.820207 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38038, 8000, 3709188334) /* PCAPRecordedObjectIID */;
+VALUES (38038, 8000, 0xDD15B8EE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38038, 67109552, 0, 24)

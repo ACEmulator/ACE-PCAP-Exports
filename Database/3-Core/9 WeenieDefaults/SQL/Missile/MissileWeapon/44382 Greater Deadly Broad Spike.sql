@@ -13,7 +13,7 @@ VALUES (44382,   1,        256) /* ItemType - MissileWeapon */
      , (44382,  15,          1) /* StackUnitValue */
      , (44382,  16,          1) /* ItemUseable - No */
      , (44382,  19,          1) /* Value */
-     , (44382,  51,          2) /* CombatUse - Missle */
+     , (44382,  51,          2) /* CombatUse - Missile */
      , (44382,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (44382, 151,          2) /* HookType - Wall */
      , (44382, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44382,   1, 'Greater Deadly Broad Spike') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44382,   1,   33558197) /* Setup */
-     , (44382,   3,  536870932) /* SoundTable */
-     , (44382,   8,  100674062) /* Icon */
-     , (44382,  22,  872415275) /* PhysicsEffectTable */
-     , (44382,  50,  100689661) /* IconOverlay */
+VALUES (44382,   1, 0x02000EB5) /* Setup */
+     , (44382,   3, 0x20000014) /* SoundTable */
+     , (44382,   8, 0x06002A0E) /* Icon */
+     , (44382,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44382,  50, 0x060066FD) /* IconOverlay */
      , (44382, 8001, 1344369176) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (44382, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44382, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44382, 8000, 3708505867) /* PCAPRecordedObjectIID */;
+VALUES (44382, 8000, 0xDD0B4F0B) /* PCAPRecordedObjectIID */;

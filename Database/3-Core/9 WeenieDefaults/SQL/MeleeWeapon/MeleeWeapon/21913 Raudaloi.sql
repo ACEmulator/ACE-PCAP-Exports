@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21913,   1,          1) /* ItemType - MeleeWeapon */
      , (21913,   5,        450) /* EncumbranceVal */
      , (21913,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (21913,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (21913,  16,          1) /* ItemUseable - No */
      , (21913,  18,          1) /* UiEffects - Magical */
      , (21913,  19,       4000) /* Value */
@@ -36,6 +35,7 @@ VALUES (21913,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21913,  22, True ) /* Inscribable */
+     , (21913,  23, True ) /* DestroyOnSell */
      , (21913,  69, False) /* IsSellable */
      , (21913,  99, True ) /* Ivoryable */;
 
@@ -53,22 +53,22 @@ VALUES (21913,   1, 'Raudaloi') /* Name */
      , (21913,  15, 'A sword constructed of obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21913,   1,   33557967) /* Setup */
-     , (21913,   3,  536870932) /* SoundTable */
-     , (21913,   8,  100673494) /* Icon */
-     , (21913,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21913,   1, 0x02000DCF) /* Setup */
+     , (21913,   3, 0x20000014) /* SoundTable */
+     , (21913,   8, 0x060027D6) /* Icon */
+     , (21913,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21913, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (21913, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21913, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (21913, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21913, 8040, 3300262145, 12.55406, 32.42756, 317.629, -0.4822856, -0.4822856, 0.5171078, 0.5171078) /* PCAPRecordedLocation */
+VALUES (21913, 8040, 0xC4B60101, 12.55406, 32.42756, 317.629, -0.482286, -0.482286, 0.517108, 0.517108) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B60101 [12.554060 32.427560 317.629000] -0.482286 -0.482286 0.517108 0.517108 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21913, 8000, 3701495650) /* PCAPRecordedObjectIID */
-     , (21913, 8008, 3701495639) /* PCAPRecordedParentIID */;
+VALUES (21913, 8000, 0xDCA05762) /* PCAPRecordedObjectIID */
+     , (21913, 8008, 0xDCA05757) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21913,   416,      2)  /* SwordMasteryOther5 */;
+VALUES (21913,   416,      2)  /* HeavyWeaponsMasteryOther5 */;

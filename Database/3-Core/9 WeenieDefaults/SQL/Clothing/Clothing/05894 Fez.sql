@@ -45,21 +45,21 @@ VALUES (5894,   1, 'Fez') /* Name */
      , (5894,  16, 'Fez of Curing') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5894,   1,   33556235) /* Setup */
-     , (5894,   3,  536870932) /* SoundTable */
-     , (5894,   6,   67108990) /* PaletteBase */
-     , (5894,   8,  100670324) /* Icon */
-     , (5894,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5894,   1, 0x0200070B) /* Setup */
+     , (5894,   3, 0x20000014) /* SoundTable */
+     , (5894,   6, 0x0400007E) /* PaletteBase */
+     , (5894,   8, 0x06001B74) /* Icon */
+     , (5894,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5894, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (5894, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5894, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5894, 8000, 3694252768) /* PCAPRecordedObjectIID */;
+VALUES (5894, 8000, 0xDC31D2E0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5894,   877,      2)  /* HealingMasterySelf4 */
-     , (5894,  1485,      2)  /* Impenetrability5 */;
+VALUES (5894,  1485,      2)  /* Impenetrability5 */
+     , (5894,   877,      2)  /* HealingMasterySelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5894, 67110360, 240, 10)

@@ -25,17 +25,17 @@ VALUES (33913,   1, 'White Totem Gateway') /* Name */
      , (33913, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33913,   1,   33556008) /* Setup */
-     , (33913,   2,  150995261) /* MotionTable */
-     , (33913,   3,  536870933) /* SoundTable */
-     , (33913,   8,  100689073) /* Icon */
+VALUES (33913,   1, 0x02000628) /* Setup */
+     , (33913,   2, 0x0900013D) /* MotionTable */
+     , (33913,   3, 0x20000015) /* SoundTable */
+     , (33913,   8, 0x060064B1) /* Icon */
      , (33913, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (33913, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (33913, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33913, 8040, 1122762783, 84, 156, 4, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (33913, 8040, 0x42EC001F, 84, 156, 4, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x42EC001F [84.000000 156.000000 4.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33913, 8000, 3362193903) /* PCAPRecordedObjectIID */;
+VALUES (33913, 8000, 0xC86701EF) /* PCAPRecordedObjectIID */;

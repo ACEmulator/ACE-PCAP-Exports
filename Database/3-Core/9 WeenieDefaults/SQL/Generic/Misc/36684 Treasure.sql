@@ -15,6 +15,7 @@ VALUES (36684,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36684,  22, True ) /* Inscribable */
+     , (36684,  23, True ) /* DestroyOnSell */
      , (36684,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,17 +26,17 @@ VALUES (36684,   1, 'Treasure') /* Name */
      , (36684,  16, 'A pile of gems, coins and other valuables.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36684,   1,   33558393) /* Setup */
-     , (36684,   3,  536870932) /* SoundTable */
-     , (36684,   8,  100674084) /* Icon */
-     , (36684,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36684,   1, 0x02000F79) /* Setup */
+     , (36684,   3, 0x20000014) /* SoundTable */
+     , (36684,   8, 0x06002A24) /* Icon */
+     , (36684,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36684, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (36684, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36684, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36684, 8040, 10420547, 90, -70, -42, 0.988771, 0, 0, -0.149438) /* PCAPRecordedLocation */
+VALUES (36684, 8040, 0x009F0143, 90, -70, -42, 0.988771, 0, 0, -0.149438) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0143 [90.000000 -70.000000 -42.000000] 0.988771 0.000000 0.000000 -0.149438 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36684, 8000, 3709598377) /* PCAPRecordedObjectIID */;
+VALUES (36684, 8000, 0xDD1BFAA9) /* PCAPRecordedObjectIID */;

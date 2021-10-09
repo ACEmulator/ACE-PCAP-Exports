@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11240,   1, 'Kalindan of Palenqual') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11240,   1,   33557238) /* Setup */
-     , (11240,   3,  536870932) /* SoundTable */
-     , (11240,   8,  100671872) /* Icon */
-     , (11240,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11240,   1, 0x02000AF6) /* Setup */
+     , (11240,   3, 0x20000014) /* SoundTable */
+     , (11240,   8, 0x06002180) /* Icon */
+     , (11240,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11240, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (11240, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11240, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11240, 8000, 2153219984) /* PCAPRecordedObjectIID */;
+VALUES (11240, 8000, 0x80578790) /* PCAPRecordedObjectIID */;

@@ -23,22 +23,22 @@ VALUES (37457,   1, 'Pyre Champion') /* Name */
      , (37457, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37457,   1,   33560229) /* Setup */
-     , (37457,   2,  150994981) /* MotionTable */
-     , (37457,   3,  536870942) /* SoundTable */
-     , (37457,   6,   67116522) /* PaletteBase */
-     , (37457,   8,  100669124) /* Icon */
-     , (37457,  22,  872415269) /* PhysicsEffectTable */
+VALUES (37457,   1, 0x020016A5) /* Setup */
+     , (37457,   2, 0x09000025) /* MotionTable */
+     , (37457,   3, 0x2000001E) /* SoundTable */
+     , (37457,   6, 0x04001DEA) /* PaletteBase */
+     , (37457,   8, 0x060016C4) /* Icon */
+     , (37457,  22, 0x34000025) /* PhysicsEffectTable */
      , (37457, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (37457, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (37457, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37457, 8040, 1177485574, 110.816, 15.4879, 223.2038, 0.718127, 0, 0, 0.695913) /* PCAPRecordedLocation */
+VALUES (37457, 8040, 0x462F0106, 110.816, 15.4879, 223.2038, 0.718127, 0, 0, 0.695913) /* PCAPRecordedLocation */
 /* @teleloc 0x462F0106 [110.816000 15.487900 223.203800] 0.718127 0.000000 0.000000 0.695913 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37457, 8000, 3701275149) /* PCAPRecordedObjectIID */;
+VALUES (37457, 8000, 0xDC9CFA0D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37457, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */

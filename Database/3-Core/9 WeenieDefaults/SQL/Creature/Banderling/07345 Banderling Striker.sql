@@ -25,22 +25,22 @@ VALUES (7345,   1, 'Banderling Striker') /* Name */
      , (7345, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7345,   1,   33558024) /* Setup */
-     , (7345,   2,  150994951) /* MotionTable */
-     , (7345,   3,  536870917) /* SoundTable */
-     , (7345,   6,   67114021) /* PaletteBase */
-     , (7345,   8,  100667453) /* Icon */
-     , (7345,  22,  872415255) /* PhysicsEffectTable */
+VALUES (7345,   1, 0x02000E08) /* Setup */
+     , (7345,   2, 0x09000007) /* MotionTable */
+     , (7345,   3, 0x20000005) /* SoundTable */
+     , (7345,   6, 0x04001425) /* PaletteBase */
+     , (7345,   8, 0x0600103D) /* Icon */
+     , (7345,  22, 0x34000017) /* PhysicsEffectTable */
      , (7345, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7345, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7345, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7345, 8040, 2457927698, 69.84741, 33.10067, 40.00687, 0.6261344, 0, 0, -0.7797152) /* PCAPRecordedLocation */
+VALUES (7345, 8040, 0x92810012, 69.84741, 33.10067, 40.00687, 0.626134, 0, 0, -0.779715) /* PCAPRecordedLocation */
 /* @teleloc 0x92810012 [69.847410 33.100670 40.006870] 0.626134 0.000000 0.000000 -0.779715 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7345, 8000, 3685897287) /* PCAPRecordedObjectIID */;
+VALUES (7345, 8000, 0xDBB25447) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7345,   1, 170, 0, 0) /* Strength */
@@ -509,7 +509,16 @@ VALUES (7345, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for Contain
      , (7345, 9, 20484,  0, 0, 0, False) /* Create Scroll of Blessing of the Arrow Turner (20484) for ContainTreasure */
      , (7345, 9, 20412,  0, 0, 0, False) /* Create Scroll of Inferno's Bane (20412) for ContainTreasure */
      , (7345, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
-     , (7345, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */;
+     , (7345, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (7345, 9, 49214,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (80) (49214) for ContainTreasure */
+     , (7345, 9, 41067,  0, 0, 0, False) /* Create Shashqa (41067) for ContainTreasure */
+     , (7345, 9, 20451,  0, 0, 0, False) /* Create Scroll of Sudden Frost (20451) for ContainTreasure */
+     , (7345, 9, 49531,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (50) (49531) for ContainTreasure */
+     , (7345, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (7345, 9, 20491,  0, 0, 0, False) /* Create Scroll of Hydra's Head (20491) for ContainTreasure */
+     , (7345, 9,   377,  1, 0, 0, False) /* Create Potion of Healing (377) for ContainTreasure */
+     , (7345, 9, 31797,  0, 0, 0, False) /* Create Flaming Lancet (31797) for ContainTreasure */
+     , (7345, 9, 43283,  0, 0, 0, False) /* Create Scroll of Corrosion VI (43283) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7345, 67114038, 0, 0);

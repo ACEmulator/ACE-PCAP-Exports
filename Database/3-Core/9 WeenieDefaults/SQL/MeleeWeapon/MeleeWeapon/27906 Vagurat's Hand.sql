@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27906,   1,          1) /* ItemType - MeleeWeapon */
      , (27906,   5,        350) /* EncumbranceVal */
      , (27906,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (27906,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (27906,  16,          1) /* ItemUseable - No */
      , (27906,  18,          1) /* UiEffects - Magical */
      , (27906,  19,        750) /* Value */
@@ -46,24 +45,24 @@ VALUES (27906,   1, 'Vagurat''s Hand') /* Name */
      , (27906,  16, 'A mace crafted to look like the Mosswart relic, The Hand of Vagurat. A small stamp on the hilt reads: A Ketnan Product.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27906,   1,   33558801) /* Setup */
-     , (27906,   3,  536870932) /* SoundTable */
-     , (27906,   8,  100676621) /* Icon */
-     , (27906,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27906,   1, 0x02001111) /* Setup */
+     , (27906,   3, 0x20000014) /* SoundTable */
+     , (27906,   8, 0x0600340D) /* Icon */
+     , (27906,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27906, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (27906, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27906, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (27906, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27906, 8040, 2847146009, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */
+VALUES (27906, 8040, 0xA9B40019, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.055479, -0.055479) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [84.024690 7.096089 93.929010] 0.704927 0.704927 -0.055479 -0.055479 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27906, 8000, 2152608927) /* PCAPRecordedObjectIID */
-     , (27906, 8008, 1344159461) /* PCAPRecordedParentIID */;
+VALUES (27906, 8000, 0x804E349F) /* PCAPRecordedObjectIID */
+     , (27906, 8008, 0x501E3EE5) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27906,   293,      2)  /* AxeMasteryOther2 */
-     , (27906,  1588,      2)  /* HeartSeekerSelf2 */
-     , (27906,  1612,      2)  /* BloodDrinkerSelf2 */;
+VALUES (27906,  1612,      2)  /* BloodDrinkerSelf2 */
+     , (27906,   293,      2)  /* LightWeaponsMasteryOther2 */
+     , (27906,  1588,      2)  /* HeartSeekerSelf2 */;

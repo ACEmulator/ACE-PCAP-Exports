@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31505,   1, 'Battered Old Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31505,   1,   33559585) /* Setup */
-     , (31505,   3,  536870932) /* SoundTable */
-     , (31505,   8,  100687887) /* Icon */
-     , (31505,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31505,   1, 0x02001421) /* Setup */
+     , (31505,   3, 0x20000014) /* SoundTable */
+     , (31505,   8, 0x0600600F) /* Icon */
+     , (31505,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31505, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (31505, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31505, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31505, 8000, 2185053833) /* PCAPRecordedObjectIID */;
+VALUES (31505, 8000, 0x823D4689) /* PCAPRecordedObjectIID */;

@@ -18,18 +18,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5885,   1, 'The Tremblant Party') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5885,   1,   33559084) /* Setup */
-     , (5885,   3,  536870932) /* SoundTable */
-     , (5885,   6,   67112626) /* PaletteBase */
-     , (5885,   8,  100668176) /* Icon */
-     , (5885,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5885,   1, 0x0200122C) /* Setup */
+     , (5885,   3, 0x20000014) /* SoundTable */
+     , (5885,   6, 0x04000EB2) /* PaletteBase */
+     , (5885,   8, 0x06001310) /* Icon */
+     , (5885,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5885, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (5885, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (5885, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (5885, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5885, 8000,       5885) /* PCAPRecordedObjectIID */;
+VALUES (5885, 8000, 0x000016FD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5885, 67113862, 0, 0);

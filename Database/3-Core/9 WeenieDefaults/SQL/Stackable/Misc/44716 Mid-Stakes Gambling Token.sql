@@ -27,13 +27,13 @@ VALUES (44716,   1, 'Mid-Stakes Gambling Token') /* Name */
      , (44716,  16, 'A gambling token accepted by all Mid-Stakes Gamemasters.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44716,   1,   33557006) /* Setup */
-     , (44716,   3,  536870932) /* SoundTable */
-     , (44716,   8,  100671477) /* Icon */
-     , (44716,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44716,   1, 0x02000A0E) /* Setup */
+     , (44716,   3, 0x20000014) /* SoundTable */
+     , (44716,   8, 0x06001FF5) /* Icon */
+     , (44716,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44716, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (44716, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44716, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44716, 8000, 2186220465) /* PCAPRecordedObjectIID */;
+VALUES (44716, 8000, 0x824F13B1) /* PCAPRecordedObjectIID */;

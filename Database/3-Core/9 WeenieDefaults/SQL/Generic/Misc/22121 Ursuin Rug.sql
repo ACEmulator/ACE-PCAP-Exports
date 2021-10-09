@@ -19,15 +19,15 @@ VALUES (22121,   1, 'Ursuin Rug') /* Name */
      , (22121,  15, 'An Ursuin hide Rug') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22121,   1,   33557140) /* Setup */
-     , (22121,   8,  100671820) /* Icon */
+VALUES (22121,   1, 0x02000A94) /* Setup */
+     , (22121,   8, 0x0600214C) /* Icon */
      , (22121, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (22121, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22121, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22121, 8040, 3062300988, 58.9737, 130.492, 90, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (22121, 8040, 0xB687013C, 58.9737, 130.492, 90, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB687013C [58.973700 130.492000 90.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22121, 8000, 2618314602) /* PCAPRecordedObjectIID */;
+VALUES (22121, 8000, 0x9C104F6A) /* PCAPRecordedObjectIID */;

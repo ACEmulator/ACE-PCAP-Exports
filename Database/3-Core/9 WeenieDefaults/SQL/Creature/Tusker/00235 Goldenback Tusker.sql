@@ -25,22 +25,22 @@ VALUES (235,   1, 'Goldenback Tusker') /* Name */
      , (235, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (235,   1,   33556836) /* Setup */
-     , (235,   2,  150994956) /* MotionTable */
-     , (235,   3,  536870929) /* SoundTable */
-     , (235,   6,   67109315) /* PaletteBase */
-     , (235,   8,  100667443) /* Icon */
-     , (235,  22,  872415271) /* PhysicsEffectTable */
+VALUES (235,   1, 0x02000964) /* Setup */
+     , (235,   2, 0x0900000C) /* MotionTable */
+     , (235,   3, 0x20000011) /* SoundTable */
+     , (235,   6, 0x040001C3) /* PaletteBase */
+     , (235,   8, 0x06001033) /* Icon */
+     , (235,  22, 0x34000027) /* PhysicsEffectTable */
      , (235, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (235, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (235, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (235, 8040, 3443458078, 82.00822, 123.9223, 73.87064, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (235, 8040, 0xCD3F001E, 82.00822, 123.9223, 73.87064, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xCD3F001E [82.008220 123.922300 73.870640] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (235, 8000, 3685963747) /* PCAPRecordedObjectIID */;
+VALUES (235, 8000, 0xDBB357E3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (235,   1, 220, 0, 0) /* Strength */
@@ -648,7 +648,18 @@ VALUES (235, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasur
      , (235, 9,  2730,  0, 0, 0, False) /* Create Scroll of Revitalize Self V (2730) for ContainTreasure */
      , (235, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
      , (235, 9,  3341,  0, 0, 0, False) /* Create Scroll of Jumping Mastery Self V (3341) for ContainTreasure */
-     , (235, 9,  8957,  0, 0, 0, False) /* Create Scroll of Whirling Blade Streak V (8957) for ContainTreasure */;
+     , (235, 9,  8957,  0, 0, 0, False) /* Create Scroll of Whirling Blade Streak V (8957) for ContainTreasure */
+     , (235, 9, 21325,  0, 0, 0, False) /* Create Scroll of Lightning Arc III (21325) for ContainTreasure */
+     , (235, 9,  7790,  0, 0, 0, False) /* Create Electric Spiked Club (7790) for ContainTreasure */
+     , (235, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */
+     , (235, 9,  3561,  0, 0, 0, False) /* Create Scroll of Vulnerability V (3561) for ContainTreasure */
+     , (235, 9,  4220,  0, 0, 0, False) /* Create Scroll of Drain Health Other IV (4220) for ContainTreasure */
+     , (235, 9, 49538,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for ContainTreasure */
+     , (235, 9, 45295,  0, 0, 0, False) /* Create Scroll of Recklessness Mastery Other IV (45295) for ContainTreasure */
+     , (235, 9,  2804,  0, 0, 0, False) /* Create Scroll of Brittlemail IV (2804) for ContainTreasure */
+     , (235, 9,  3416,  0, 0, 0, False) /* Create Scroll of Magic Item Tinkering Expertise Self V (3416) for ContainTreasure */
+     , (235, 9,  2942,  0, 0, 0, False) /* Create Scroll of Frost Bolt III (2942) for ContainTreasure */
+     , (235, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (235, 67113007, 0, 0);

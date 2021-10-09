@@ -14,7 +14,8 @@ VALUES (30502,   1,        128) /* ItemType - Misc */
      , (30502, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30502,  22, True ) /* Inscribable */;
+VALUES (30502,  22, True ) /* Inscribable */
+     , (30502,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30502,  39,       2) /* DefaultScale */;
@@ -24,21 +25,21 @@ VALUES (30502,   1, 'Aged Cove Apple Cider') /* Name */
      , (30502,  16, 'A nicely aged bottle of Cove Apple Cider, made in Yaraq by the al-Luq family.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30502,   1,   33554602) /* Setup */
-     , (30502,   3,  536871012) /* SoundTable */
-     , (30502,   6,   67111919) /* PaletteBase */
-     , (30502,   8,  100667410) /* Icon */
-     , (30502,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30502,   1, 0x020000AA) /* Setup */
+     , (30502,   3, 0x20000064) /* SoundTable */
+     , (30502,   6, 0x04000BEF) /* PaletteBase */
+     , (30502,   8, 0x06001012) /* Icon */
+     , (30502,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30502, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (30502, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30502, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30502, 8040, 22413664, 49.4367, -16.6859, -5.94, -0.9998358, 0, 0, -0.018122) /* PCAPRecordedLocation */
+VALUES (30502, 8040, 0x01560160, 49.4367, -16.6859, -5.94, -0.999836, 0, 0, -0.018122) /* PCAPRecordedLocation */
 /* @teleloc 0x01560160 [49.436700 -16.685900 -5.940000] -0.999836 0.000000 0.000000 -0.018122 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30502, 8000, 2776641919) /* PCAPRecordedObjectIID */;
+VALUES (30502, 8000, 0xA580317F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30502, 67111920, 0, 0);

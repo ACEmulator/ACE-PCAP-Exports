@@ -54,27 +54,24 @@ VALUES (45107,   1, 'Frost Rapier') /* Name */
      , (45107,  16, 'Frost Rapier of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45107,   1,   33561419) /* Setup */
-     , (45107,   3,  536870932) /* SoundTable */
-     , (45107,   6,   67111919) /* PaletteBase */
-     , (45107,   8,  100670661) /* Icon */
-     , (45107,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45107,   1, 0x02001B4B) /* Setup */
+     , (45107,   3, 0x20000014) /* SoundTable */
+     , (45107,   6, 0x04000BEF) /* PaletteBase */
+     , (45107,   8, 0x06001CC5) /* Icon */
+     , (45107,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45107,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45107, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45107, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45107, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45107, 8000, 3446861388) /* PCAPRecordedObjectIID */;
+VALUES (45107, 8000, 0xCD72EE4C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45107,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (45107,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (45107,  2116,      2)  /* SwiftKillerSelf7 */
      , (45107,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */
-     , (45107,  2600,      2)  /* CANTRIPDEFENDER1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45107, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+     , (45107,  2600,      2)  /* CANTRIPDEFENDER1 */
+     , (45107,  2096,      2)  /* BloodDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45107, 67111927, 0, 0);

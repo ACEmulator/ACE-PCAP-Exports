@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37568,   1, 'West Armory Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37568,   1,   33560581) /* Setup */
-     , (37568,   3,  536870932) /* SoundTable */
-     , (37568,   8,  100675676) /* Icon */
-     , (37568,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37568,   1, 0x02001805) /* Setup */
+     , (37568,   3, 0x20000014) /* SoundTable */
+     , (37568,   8, 0x0600305C) /* Icon */
+     , (37568,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37568, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (37568, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37568, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37568, 8000, 3682592848) /* PCAPRecordedObjectIID */;
+VALUES (37568, 8000, 0xDB7FE850) /* PCAPRecordedObjectIID */;

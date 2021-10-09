@@ -23,17 +23,17 @@ VALUES (28890,   1, 'Armored Skeletal Body with two arms') /* Name */
      , (28890,  15, 'An armored skeleton''s torso and head, with two arms attached.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28890,   1,   33559009) /* Setup */
-     , (28890,   3,  536870932) /* SoundTable */
-     , (28890,   8,  100677097) /* Icon */
-     , (28890,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28890,   1, 0x020011E1) /* Setup */
+     , (28890,   3, 0x20000014) /* SoundTable */
+     , (28890,   8, 0x060035E9) /* Icon */
+     , (28890,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28890, 8001,  270532624) /* PCAPRecordedWeenieHeader - Usable, Burden, HookType */
      , (28890, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28890, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28890, 8040, 18809102, 32.6039, -29.02394, 0.002499998, 0.8578573, 0, 0, -0.5138879) /* PCAPRecordedLocation */
+VALUES (28890, 8040, 0x011F010E, 32.6039, -29.02394, 0.0025, 0.857857, 0, 0, -0.513888) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010E [32.603900 -29.023940 0.002500] 0.857857 0.000000 0.000000 -0.513888 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28890, 8000, 3686914015) /* PCAPRecordedObjectIID */;
+VALUES (28890, 8000, 0xDBC1D7DF) /* PCAPRecordedObjectIID */;

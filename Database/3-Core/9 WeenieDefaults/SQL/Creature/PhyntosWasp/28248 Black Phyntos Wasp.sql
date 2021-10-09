@@ -25,22 +25,22 @@ VALUES (28248,   1, 'Black Phyntos Wasp') /* Name */
      , (28248, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28248,   1,   33558817) /* Setup */
-     , (28248,   2,  150995303) /* MotionTable */
-     , (28248,   3,  536870926) /* SoundTable */
-     , (28248,   6,   67115262) /* PaletteBase */
-     , (28248,   8,  100667450) /* Icon */
-     , (28248,  22,  872415266) /* PhysicsEffectTable */
+VALUES (28248,   1, 0x02001121) /* Setup */
+     , (28248,   2, 0x09000167) /* MotionTable */
+     , (28248,   3, 0x2000000E) /* SoundTable */
+     , (28248,   6, 0x040018FE) /* PaletteBase */
+     , (28248,   8, 0x0600103A) /* Icon */
+     , (28248,  22, 0x34000022) /* PhysicsEffectTable */
      , (28248, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (28248, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (28248, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28248, 8040, 703397935, 142.8412, 148.7925, 22.012, 0.9641346, 0, 0, -0.2654138) /* PCAPRecordedLocation */
+VALUES (28248, 8040, 0x29ED002F, 142.8412, 148.7925, 22.012, 0.964135, 0, 0, -0.265414) /* PCAPRecordedLocation */
 /* @teleloc 0x29ED002F [142.841200 148.792500 22.012000] 0.964135 0.000000 0.000000 -0.265414 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28248, 8000, 3688297503) /* PCAPRecordedObjectIID */;
+VALUES (28248, 8000, 0xDBD6F41F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28248,   1, 120, 0, 0) /* Strength */
@@ -291,7 +291,8 @@ VALUES (28248, 2, 12197,  1, 0, 0, False) /* Create Assassin's Flaming Simi (121
      , (28248, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (28248, 9, 20537,  0, 0, 0, False) /* Create Scroll of Web of Defense (20537) for ContainTreasure */
      , (28248, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
-     , (28248, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */;
+     , (28248, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (28248, 9,  3112,  0, 0, 0, False) /* Create Scroll of Regenerate Other VI (3112) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28248, 67115276, 0, 0);

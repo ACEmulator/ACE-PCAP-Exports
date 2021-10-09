@@ -26,21 +26,21 @@ VALUES (24869,   1, 'Sishalti Tentacle') /* Name */
      , (24869, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24869,   1,   33555670) /* Setup */
-     , (24869,   2,  150995067) /* MotionTable */
-     , (24869,   3,  536871015) /* SoundTable */
-     , (24869,   8,  100671186) /* Icon */
-     , (24869,  22,  872415332) /* PhysicsEffectTable */
+VALUES (24869,   1, 0x020004D6) /* Setup */
+     , (24869,   2, 0x0900007B) /* MotionTable */
+     , (24869,   3, 0x20000067) /* SoundTable */
+     , (24869,   8, 0x06001ED2) /* Icon */
+     , (24869,  22, 0x34000064) /* PhysicsEffectTable */
      , (24869, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24869, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24869, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24869, 8040, 6161133, 9.834695, -36.70552, -6.011, -0.7335209, 0, 0, -0.6796669) /* PCAPRecordedLocation */
+VALUES (24869, 8040, 0x005E02ED, 9.834695, -36.70552, -6.011, -0.733521, 0, 0, -0.679667) /* PCAPRecordedLocation */
 /* @teleloc 0x005E02ED [9.834695 -36.705520 -6.011000] -0.733521 0.000000 0.000000 -0.679667 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24869, 8000, 3711230411) /* PCAPRecordedObjectIID */;
+VALUES (24869, 8000, 0xDD34E1CB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24869,   1, 230, 0, 0) /* Strength */

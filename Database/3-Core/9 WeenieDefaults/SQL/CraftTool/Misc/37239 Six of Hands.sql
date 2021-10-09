@@ -22,17 +22,17 @@ VALUES (37239,   1, 'Six of Hands') /* Name */
      , (37239,  20, 'Sixes of Hands') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37239,   1,   33560548) /* Setup */
-     , (37239,   3,  536870932) /* SoundTable */
-     , (37239,   8,  100689856) /* Icon */
-     , (37239,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37239,   1, 0x020017E4) /* Setup */
+     , (37239,   3, 0x20000014) /* SoundTable */
+     , (37239,   8, 0x060067C0) /* Icon */
+     , (37239,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37239, 8001,    2633745) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, TargetType, Burden */
      , (37239, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37239, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37239, 8040, 23855554, 55.38111, -34.34736, -9.313226E-10, -0.3129411, 0, 0, -0.9497725) /* PCAPRecordedLocation */
+VALUES (37239, 8040, 0x016C01C2, 55.38111, -34.34736, 0, -0.312941, 0, 0, -0.949773) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.381110 -34.347360 0.000000] -0.312941 0.000000 0.000000 -0.949773 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37239, 8000, 3704139449) /* PCAPRecordedObjectIID */;
+VALUES (37239, 8000, 0xDCC8AEB9) /* PCAPRecordedObjectIID */;

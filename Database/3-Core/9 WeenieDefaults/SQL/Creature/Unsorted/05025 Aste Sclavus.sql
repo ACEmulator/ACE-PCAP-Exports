@@ -23,21 +23,21 @@ VALUES (5025,   1, 'Aste Sclavus') /* Name */
      , (5025, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5025,   1,   33555608) /* Setup */
-     , (5025,   2,  150995048) /* MotionTable */
-     , (5025,   3,  536870977) /* SoundTable */
-     , (5025,   8,  100669120) /* Icon */
-     , (5025,  22,  872415280) /* PhysicsEffectTable */
+VALUES (5025,   1, 0x02000498) /* Setup */
+     , (5025,   2, 0x09000068) /* MotionTable */
+     , (5025,   3, 0x20000041) /* SoundTable */
+     , (5025,   8, 0x060016C0) /* Icon */
+     , (5025,  22, 0x34000030) /* PhysicsEffectTable */
      , (5025, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (5025, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (5025, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5025, 8040, 20644110, 126.701, -19.553, -78, 0.8418632, 0, 0, -0.5396911) /* PCAPRecordedLocation */
+VALUES (5025, 8040, 0x013B010E, 126.701, -19.553, -78, 0.841863, 0, 0, -0.539691) /* PCAPRecordedLocation */
 /* @teleloc 0x013B010E [126.701000 -19.553000 -78.000000] 0.841863 0.000000 0.000000 -0.539691 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5025, 8000, 3629903055) /* PCAPRecordedObjectIID */;
+VALUES (5025, 8000, 0xD85BECCF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5025, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */

@@ -33,21 +33,21 @@ VALUES (30048,   1, 'Fiun Blacksmith') /* Name */
      , (30048, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30048,   1,   33559124) /* Setup */
-     , (30048,   2,  150994945) /* MotionTable */
-     , (30048,   3,  536870913) /* SoundTable */
-     , (30048,   6,   67115466) /* PaletteBase */
-     , (30048,   8,  100677369) /* Icon */
+VALUES (30048,   1, 0x02001254) /* Setup */
+     , (30048,   2, 0x09000001) /* MotionTable */
+     , (30048,   3, 0x20000001) /* SoundTable */
+     , (30048,   6, 0x040019CA) /* PaletteBase */
+     , (30048,   8, 0x060036F9) /* Icon */
      , (30048, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (30048, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (30048, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30048, 8040, 955711747, 62.2553, 9.66051, 2.21048, -0.906216, 0, 0, -0.4228149) /* PCAPRecordedLocation */
+VALUES (30048, 8040, 0x38F70103, 62.2553, 9.66051, 2.21048, -0.906216, 0, 0, -0.422815) /* PCAPRecordedLocation */
 /* @teleloc 0x38F70103 [62.255300 9.660510 2.210480] -0.906216 0.000000 0.000000 -0.422815 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30048, 8000, 1938780163) /* PCAPRecordedObjectIID */;
+VALUES (30048, 8000, 0x738F7003) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30048,   1, 150, 0, 0) /* Strength */

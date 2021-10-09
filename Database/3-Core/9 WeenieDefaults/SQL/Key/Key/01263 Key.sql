@@ -23,13 +23,13 @@ VALUES (1263,   1, 'Key') /* Name */
      , (1263,  16, 'This key unlocks a chest in the Green Mire Grave.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1263,   1,   33554784) /* Setup */
-     , (1263,   3,  536870932) /* SoundTable */
-     , (1263,   8,  100668437) /* Icon */
-     , (1263,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1263,   1, 0x02000160) /* Setup */
+     , (1263,   3, 0x20000014) /* SoundTable */
+     , (1263,   8, 0x06001415) /* Icon */
+     , (1263,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1263, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (1263, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1263, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1263, 8000, 3009334346) /* PCAPRecordedObjectIID */;
+VALUES (1263, 8000, 0xB35ECC4A) /* PCAPRecordedObjectIID */;

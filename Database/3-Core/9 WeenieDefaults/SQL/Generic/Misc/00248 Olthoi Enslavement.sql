@@ -20,13 +20,13 @@ VALUES (248,   1, 'Olthoi Enslavement') /* Name */
      , (248,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (248,   1,   33557342) /* Setup */
-     , (248,   3,  536870932) /* SoundTable */
-     , (248,   8,  100672344) /* Icon */
-     , (248,  22,  872415275) /* PhysicsEffectTable */
+VALUES (248,   1, 0x02000B5E) /* Setup */
+     , (248,   3, 0x20000014) /* SoundTable */
+     , (248,   8, 0x06002358) /* Icon */
+     , (248,  22, 0x3400002B) /* PhysicsEffectTable */
      , (248, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (248, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (248, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (248, 8000, 3658159456) /* PCAPRecordedObjectIID */;
+VALUES (248, 8000, 0xDA0B1560) /* PCAPRecordedObjectIID */;

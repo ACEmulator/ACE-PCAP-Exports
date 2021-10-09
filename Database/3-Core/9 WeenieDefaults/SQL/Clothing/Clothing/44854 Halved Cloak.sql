@@ -50,17 +50,17 @@ VALUES (44854,   1, 'Halved Cloak') /* Name */
      , (44854,  16, 'Halved Cloak') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44854,   1,   33561386) /* Setup */
-     , (44854,   3,  536870932) /* SoundTable */
-     , (44854,   8,  100692129) /* Icon */
-     , (44854,  22,  872415275) /* PhysicsEffectTable */
-     , (44854,  50,  100690997) /* IconOverlay */
+VALUES (44854,   1, 0x02001B2A) /* Setup */
+     , (44854,   3, 0x20000014) /* SoundTable */
+     , (44854,   8, 0x060070A1) /* Icon */
+     , (44854,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44854,  50, 0x06006C35) /* IconOverlay */
      , (44854, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
      , (44854, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44854, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44854, 8000, 2174519208) /* PCAPRecordedObjectIID */;
+VALUES (44854, 8000, 0x819C87A8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (44854, 0, 83898657, 83898663);

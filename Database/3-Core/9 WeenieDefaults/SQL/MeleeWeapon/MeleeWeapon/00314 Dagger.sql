@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (314,   1,          1) /* ItemType - MeleeWeapon */
      , (314,   5,        135) /* EncumbranceVal */
      , (314,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (314,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (314,  16,          1) /* ItemUseable - No */
      , (314,  19,         40) /* Value */
      , (314,  44,          7) /* Damage */
@@ -49,11 +48,11 @@ VALUES (314,   1, 'Dagger') /* Name */
      , (314,  16, 'Finely crafted Gold Dagger of Coordination, set with 2 Black Opals') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (314,   1,   33554735) /* Setup */
-     , (314,   3,  536870932) /* SoundTable */
-     , (314,   6,   67111919) /* PaletteBase */
-     , (314,   8,  100668876) /* Icon */
-     , (314,  22,  872415275) /* PhysicsEffectTable */
+VALUES (314,   1, 0x0200012F) /* Setup */
+     , (314,   3, 0x20000014) /* SoundTable */
+     , (314,   6, 0x04000BEF) /* PaletteBase */
+     , (314,   8, 0x060015CC) /* Icon */
+     , (314,  22, 0x3400002B) /* PhysicsEffectTable */
      , (314,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (314, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (314, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -61,16 +60,16 @@ VALUES (314,   1,   33554735) /* Setup */
      , (314, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (314, 8040, 3443589482, 67.77126, 159.1041, 53.929, 0.5172954, 0.5172954, -0.4820845, -0.4820845) /* PCAPRecordedLocation */
+VALUES (314, 8040, 0xCD41016A, 67.77126, 159.1041, 53.929, 0.517295, 0.517295, -0.482085, -0.482085) /* PCAPRecordedLocation */
 /* @teleloc 0xCD41016A [67.771260 159.104100 53.929000] 0.517295 0.517295 -0.482085 -0.482085 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (314, 8000, 2155151124) /* PCAPRecordedObjectIID */
-     , (314, 8008, 2094272544) /* PCAPRecordedParentIID */;
+VALUES (314, 8000, 0x8074FF14) /* PCAPRecordedObjectIID */
+     , (314, 8008, 0x7CD41020) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (314,  1375,      2)  /* CoordinationSelf3 */
-     , (314,  1613,      2)  /* BloodDrinkerSelf3 */;
+VALUES (314,  1613,      2)  /* BloodDrinkerSelf3 */
+     , (314,  1375,      2)  /* CoordinationSelf3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (314, 67111920, 0, 0);

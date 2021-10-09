@@ -22,13 +22,13 @@ VALUES (262,   1, 'Chicken') /* Name */
      , (262,  14, 'Use this item to eat it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (262,   1,   33554807) /* Setup */
-     , (262,   3,  536870932) /* SoundTable */
-     , (262,   8,  100667459) /* Icon */
-     , (262,  22,  872415275) /* PhysicsEffectTable */
+VALUES (262,   1, 0x02000177) /* Setup */
+     , (262,   3, 0x20000014) /* SoundTable */
+     , (262,   8, 0x06001043) /* Icon */
+     , (262,  22, 0x3400002B) /* PhysicsEffectTable */
      , (262, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (262, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (262, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (262, 8000, 3658163567) /* PCAPRecordedObjectIID */;
+VALUES (262, 8000, 0xDA0B256F) /* PCAPRecordedObjectIID */;

@@ -17,22 +17,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8854,   1, 'General History of Dereth Vol. II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8854,   1,   33554771) /* Setup */
-     , (8854,   3,  536870932) /* SoundTable */
-     , (8854,   8,  100668117) /* Icon */
-     , (8854,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8854,   1, 0x02000153) /* Setup */
+     , (8854,   3, 0x20000014) /* SoundTable */
+     , (8854,   8, 0x060012D5) /* Icon */
+     , (8854,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8854, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (8854, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (8854, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8854, 8000, 2616485854) /* PCAPRecordedObjectIID */;
+VALUES (8854, 8000, 0x9BF467DE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8854, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8854, 0, 4294967295, 'Jaiph Rainshadow', 'Password is cheese', False, '
+VALUES (8854, 0, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, '
 
 
           General History of Dereth Vol. II
@@ -48,11 +48,11 @@ VALUES (8854, 0, 4294967295, 'Jaiph Rainshadow', 'Password is cheese', False, '
 
        Jaiph Rainshadow of Cragstone, ed.
 ')
-     , (8854, 1, 4294967295, 'Jaiph Rainshadow', 'Password is cheese', False, 'As the heat seeped back into the earth, snowlines receded. Patches of slush still dotted the landscape, but hints of green returned to most of the land. All was not well, however.
+     , (8854, 1, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, 'As the heat seeped back into the earth, snowlines receded. Patches of slush still dotted the landscape, but hints of green returned to most of the land. All was not well, however.
 
 The enigmatic Shadow creatures began to walk the landscape openly, harassing adventurers and making travel through remote areas a dangerous proposition. In addition, floating Crystal Fragments appeared. While originally thought to be pieces of the Gelidites'' Great Work, the vast numbers of Fragments that soon swarmed across Dereth seemed to imply another origin.
 ')
-     , (8854, 2, 4294967295, 'Jaiph Rainshadow', 'Password is cheese', False, 'Fortunately, the most learned mages of the land had taken to heart the dire prognostications of the recovered Gelidite scriptures. The Archmages Celdiseth, Fadsahil al-Tashbi, Nuhmudira, and Shoyanen Kenchu offered for sale Master Mage Robes of fine quality, while they allowed their Apprentice Mage Robes to be sold by the local mages of various towns.
+     , (8854, 2, 4294967295, 'Jaiph Rainshadow', 'prewritten', False, 'Fortunately, the most learned mages of the land had taken to heart the dire prognostications of the recovered Gelidite scriptures. The Archmages Celdiseth, Fadsahil al-Tashbi, Nuhmudira, and Shoyanen Kenchu offered for sale Master Mage Robes of fine quality, while they allowed their Apprentice Mage Robes to be sold by the local mages of various towns.
 
 Non-mages were not left without fashionable attire, however, as the traditional warrior garb of Ispar began to appear in Dereth. Celdon, Amullian, and Koujia Armor became visible signs of a warrior''s prowess.
 ');

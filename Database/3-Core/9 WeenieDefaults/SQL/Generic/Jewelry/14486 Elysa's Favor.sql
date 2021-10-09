@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (14486,   1,          8) /* ItemType - Jewelry */
      , (14486,   5,         15) /* EncumbranceVal */
      , (14486,   9,     786432) /* ValidLocations - FingerWear */
-     , (14486,  10,     262144) /* CurrentWieldedLocation - FingerWearLeft */
      , (14486,  16,          1) /* ItemUseable - No */
      , (14486,  18,          1) /* UiEffects - Magical */
      , (14486,  19,       3500) /* Value */
@@ -37,17 +36,17 @@ VALUES (14486,   1, 'Elysa''s Favor') /* Name */
      , (14486,  15, 'Elysa''s gift to you, in recognition for your brave service for the kingdom.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14486,   1,   33554691) /* Setup */
-     , (14486,   3,  536870932) /* SoundTable */
-     , (14486,   6,   67111919) /* PaletteBase */
-     , (14486,   8,  100672473) /* Icon */
-     , (14486,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14486,   1, 0x02000103) /* Setup */
+     , (14486,   3, 0x20000014) /* SoundTable */
+     , (14486,   6, 0x04000BEF) /* PaletteBase */
+     , (14486,   8, 0x060023D9) /* Icon */
+     , (14486,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14486, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (14486, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14486, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14486, 8000, 3621813004) /* PCAPRecordedObjectIID */;
+VALUES (14486, 8000, 0xD7E07B0C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14486,  1997,      2)  /* LifeGiver */

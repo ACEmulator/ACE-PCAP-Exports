@@ -30,22 +30,22 @@ VALUES (38986,   1, 'Darcusch the Barbarian') /* Name */
      , (38986, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38986,   1,   33559104) /* Setup */
-     , (38986,   2,  150994951) /* MotionTable */
-     , (38986,   3,  536871101) /* SoundTable */
-     , (38986,   6,   67115447) /* PaletteBase */
-     , (38986,   8,  100677373) /* Icon */
-     , (38986,  22,  872415364) /* PhysicsEffectTable */
+VALUES (38986,   1, 0x02001240) /* Setup */
+     , (38986,   2, 0x09000007) /* MotionTable */
+     , (38986,   3, 0x200000BD) /* SoundTable */
+     , (38986,   6, 0x040019B7) /* PaletteBase */
+     , (38986,   8, 0x060036FD) /* Icon */
+     , (38986,  22, 0x34000084) /* PhysicsEffectTable */
      , (38986, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (38986, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (38986, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38986, 8040, 869924892, 85, 93, 60.0066, 0.3826834, 0, 0, -0.9238795) /* PCAPRecordedLocation */
+VALUES (38986, 8040, 0x33DA001C, 85, 93, 60.0066, 0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0x33DA001C [85.000000 93.000000 60.006600] 0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38986, 8000, 3706619616) /* PCAPRecordedObjectIID */;
+VALUES (38986, 8000, 0xDCEE86E0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38986,   1, 500, 0, 0) /* Strength */

@@ -27,13 +27,13 @@ VALUES (5278,   1, 'Hearty Healing Fish Stew') /* Name */
      , (5278,  20, 'Bowls of Hearty Healing Fish Stew ') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5278,   1,   33555968) /* Setup */
-     , (5278,   3,  536870932) /* SoundTable */
-     , (5278,   8,  100669958) /* Icon */
-     , (5278,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5278,   1, 0x02000600) /* Setup */
+     , (5278,   3, 0x20000014) /* SoundTable */
+     , (5278,   8, 0x06001A06) /* Icon */
+     , (5278,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5278, 8001,    2125977) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (5278, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (5278, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5278, 8000, 3711592516) /* PCAPRecordedObjectIID */;
+VALUES (5278, 8000, 0xDD3A6844) /* PCAPRecordedObjectIID */;

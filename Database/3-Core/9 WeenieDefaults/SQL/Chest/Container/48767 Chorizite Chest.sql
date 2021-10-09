@@ -24,21 +24,21 @@ VALUES (48767,   1, 'Chorizite Chest') /* Name */
      , (48767, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48767,   1,   33554556) /* Setup */
-     , (48767,   2,  150994948) /* MotionTable */
-     , (48767,   3,  536870945) /* SoundTable */
-     , (48767,   8,  100672485) /* Icon */
-     , (48767,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48767,   1, 0x0200007C) /* Setup */
+     , (48767,   2, 0x09000004) /* MotionTable */
+     , (48767,   3, 0x20000021) /* SoundTable */
+     , (48767,   8, 0x060023E5) /* Icon */
+     , (48767,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48767, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (48767, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (48767, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48767, 8040, 1466171758, 3.35026, -16.6407, -18, -0.9524199, 0, 0, 0.304789) /* PCAPRecordedLocation */
+VALUES (48767, 8040, 0x5764016E, 3.35026, -16.6407, -18, -0.95242, 0, 0, 0.304789) /* PCAPRecordedLocation */
 /* @teleloc 0x5764016E [3.350260 -16.640700 -18.000000] -0.952420 0.000000 0.000000 0.304789 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48767, 8000, 1970684183) /* PCAPRecordedObjectIID */;
+VALUES (48767, 8000, 0x75764117) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (48767, 0, 83888750, 83893889)

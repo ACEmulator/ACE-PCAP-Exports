@@ -41,11 +41,11 @@ VALUES (0x75856081, 48741, 0x58560130, 210, -20, -30, 1, 0, 0, 0, False, '2019-0
 /* @teleloc 0x58560130 [210.000000 -20.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75856082, 48744, 0x58560131, 210, -30, -30, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Legendary Weapon Chest */
+VALUES (0x75856082, 48744, 0x58560131, 210, -30, -30, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Legendary Weapon Chest */
 /* @teleloc 0x58560131 [210.000000 -30.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75856083, 48742, 0x58560132, 210, -40, -30, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Legendary Magic Chest */
+VALUES (0x75856083, 48742, 0x58560132, 210, -40, -30, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Legendary Magic Chest */
 /* @teleloc 0x58560132 [210.000000 -40.000000 -30.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

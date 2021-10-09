@@ -10,6 +10,7 @@ VALUES (25894,   1,      32768) /* ItemType - Caster */
      , (25894,  16,          1) /* ItemUseable - No */
      , (25894,  18,          1) /* UiEffects - Magical */
      , (25894,  19,       7500) /* Value */
+     , (25894,  46,        512) /* DefaultCombatStyle - Magic */
      , (25894,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (25894,  94,         16) /* TargetType - Creature */
      , (25894, 106,        400) /* ItemSpellcraft */
@@ -37,21 +38,21 @@ VALUES (25894,   1, 'Nefane Pearl') /* Name */
      , (25894,  16, 'A pearl carefully removed from the corpse of a nefane.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25894,   1,   33558259) /* Setup */
-     , (25894,   3,  536870932) /* SoundTable */
-     , (25894,   6,   67111919) /* PaletteBase */
-     , (25894,   8,  100675628) /* Icon */
-     , (25894,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25894,   1, 0x02000EF3) /* Setup */
+     , (25894,   3, 0x20000014) /* SoundTable */
+     , (25894,   6, 0x04000BEF) /* PaletteBase */
+     , (25894,   8, 0x0600302C) /* Icon */
+     , (25894,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25894, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (25894, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25894, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25894, 8000, 3679800301) /* PCAPRecordedObjectIID */;
+VALUES (25894, 8000, 0xDB554BED) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25894,  1478,      2)  /* HermeticLinkSelf4 */
-     , (25894,  2624,      2)  /* CANTRIPMANAGAIN2 */;
+VALUES (25894,  2624,      2)  /* CANTRIPMANAGAIN2 */
+     , (25894,  1478,      2)  /* HermeticLinkSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25894, 67111925, 0, 0);

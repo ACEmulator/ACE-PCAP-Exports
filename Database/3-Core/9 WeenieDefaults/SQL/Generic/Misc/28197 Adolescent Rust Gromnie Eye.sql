@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28197,   1, 'Adolescent Rust Gromnie Eye') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28197,   1,   33554817) /* Setup */
-     , (28197,   3,  536870932) /* SoundTable */
-     , (28197,   6,   67111919) /* PaletteBase */
-     , (28197,   8,  100676742) /* Icon */
-     , (28197,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28197,   1, 0x02000181) /* Setup */
+     , (28197,   3, 0x20000014) /* SoundTable */
+     , (28197,   6, 0x04000BEF) /* PaletteBase */
+     , (28197,   8, 0x06003486) /* Icon */
+     , (28197,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28197, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (28197, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28197, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28197, 8000, 2153705428) /* PCAPRecordedObjectIID */;
+VALUES (28197, 8000, 0x805EEFD4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28197, 67111921, 0, 0);

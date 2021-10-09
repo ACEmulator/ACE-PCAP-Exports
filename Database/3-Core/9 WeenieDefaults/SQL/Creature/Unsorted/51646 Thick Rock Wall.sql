@@ -10,34 +10,13 @@ VALUES (51646,   1,         16) /* ItemType - Creature */
      , (51646,  16,          1) /* ItemUseable - No */
      , (51646,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (51646, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (51646, 307,          0) /* DamageRating */
-     , (51646, 308,          0) /* DamageResistRating */
-     , (51646, 313,          0) /* CritRating */
-     , (51646, 314,          0) /* CritDamageRating */
-     , (51646, 315,          0) /* CritResistRating */
-     , (51646, 316,          0) /* CritDamageResistRating */
-     , (51646, 370,          0) /* GearDamage */
-     , (51646, 371,          0) /* GearDamageResist */
-     , (51646, 372,          0) /* GearCrit */
-     , (51646, 373,          0) /* GearCritResist */
-     , (51646, 374,          0) /* GearCritDamage */
-     , (51646, 375,          0) /* GearCritDamageResist */
-     , (51646, 376,          0) /* GearHealingBoost */
-     , (51646, 377,          0) /* GearNetherResist */
-     , (51646, 378,          0) /* GearLifeResist */
-     , (51646, 379,          0) /* GearMaxHealth */
-     , (51646, 381,          0) /* PKDamageRating */
-     , (51646, 382,          0) /* PKDamageResistRating */
-     , (51646, 383,          0) /* GearPKDamageRating */
-     , (51646, 384,          0) /* GearPKDamageResistRating */
-     , (51646, 386,          0) /* Overpower */
-     , (51646, 387,          0) /* OverpowerResist */
-     , (51646, 388,          0) /* GearOverpower */
-     , (51646, 389,          0) /* GearOverpowerResist */
      , (51646, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51646,   1, True ) /* Stuck */;
+VALUES (51646,   1, True ) /* Stuck */
+     , (51646,  52, True ) /* AiImmobile */
+     , (51646,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (51646,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51646,   1, 'Thick Rock Wall') /* Name */
@@ -45,18 +24,18 @@ VALUES (51646,   1, 'Thick Rock Wall') /* Name */
      , (51646, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51646,   1,   33560558) /* Setup */
-     , (51646,   2,  150995418) /* MotionTable */
-     , (51646,   3,  536871119) /* SoundTable */
-     , (51646,   8,  100689885) /* Icon */
-     , (51646,  22,  872415325) /* PhysicsEffectTable */
+VALUES (51646,   1, 0x020017EE) /* Setup */
+     , (51646,   2, 0x090001DA) /* MotionTable */
+     , (51646,   3, 0x200000CF) /* SoundTable */
+     , (51646,   8, 0x060067DD) /* Icon */
+     , (51646,  22, 0x3400005D) /* PhysicsEffectTable */
      , (51646, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51646, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (51646, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51646, 8040, 4181393703, 196.537, 165.258, -118, -0.3826829, 0, 0, -0.9238797) /* PCAPRecordedLocation */
+VALUES (51646, 8040, 0xF93B0127, 196.537, 165.258, -118, -0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0xF93B0127 [196.537000 165.258000 -118.000000] -0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51646, 8000, 2629739901) /* PCAPRecordedObjectIID */;
+VALUES (51646, 8000, 0x9CBEA57D) /* PCAPRecordedObjectIID */;

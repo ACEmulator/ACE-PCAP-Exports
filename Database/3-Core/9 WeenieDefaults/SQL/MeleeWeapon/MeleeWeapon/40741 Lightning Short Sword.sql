@@ -27,13 +27,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40741,   1, 'Lightning Short Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40741,   1,   33555806) /* Setup */
-     , (40741,   3,  536870932) /* SoundTable */
-     , (40741,   8,  100667614) /* Icon */
-     , (40741,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40741,   1, 0x0200055E) /* Setup */
+     , (40741,   3, 0x20000014) /* SoundTable */
+     , (40741,   8, 0x060010DE) /* Icon */
+     , (40741,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40741, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40741, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40741, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40741, 8000, 2624403852) /* PCAPRecordedObjectIID */;
+VALUES (40741, 8000, 0x9C6D398C) /* PCAPRecordedObjectIID */;

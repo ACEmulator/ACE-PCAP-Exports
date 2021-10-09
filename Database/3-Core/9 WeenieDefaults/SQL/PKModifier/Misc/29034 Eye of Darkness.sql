@@ -23,17 +23,17 @@ VALUES (29034,   1, 'Eye of Darkness') /* Name */
      , (29034, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29034,   1,   33558604) /* Setup */
-     , (29034,   2,  150995275) /* MotionTable */
-     , (29034,   3,  536870964) /* SoundTable */
-     , (29034,   8,  100675798) /* Icon */
+VALUES (29034,   1, 0x0200104C) /* Setup */
+     , (29034,   2, 0x0900014B) /* MotionTable */
+     , (29034,   3, 0x20000034) /* SoundTable */
+     , (29034,   8, 0x060030D6) /* Icon */
      , (29034, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (29034, 8003,       1044) /* PCAPRecordedObjectDesc - Stuck, Attackable, PkSwitch */
      , (29034, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29034, 8040, 8454429, 44.9, -60, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (29034, 8040, 0x0081011D, 44.9, -60, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0081011D [44.900000 -60.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29034, 8000, 1879576595) /* PCAPRecordedObjectIID */;
+VALUES (29034, 8000, 0x70081013) /* PCAPRecordedObjectIID */;

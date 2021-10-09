@@ -21,16 +21,16 @@ VALUES (7922,   1, 'Ground Rabbit') /* Name */
      , (7922,  20, 'Lumps of Ground Rabbit Meat') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7922,   1,   33556232) /* Setup */
-     , (7922,   3,  536870932) /* SoundTable */
-     , (7922,   8,  100670893) /* Icon */
-     , (7922,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7922,   1, 0x02000708) /* Setup */
+     , (7922,   3, 0x20000014) /* SoundTable */
+     , (7922,   8, 0x06001DAD) /* Icon */
+     , (7922,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7922, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7922, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7922, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7922, 8000, 2209440389) /* PCAPRecordedObjectIID */;
+VALUES (7922, 8000, 0x83B16285) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (7922, 0, 83888868, 83892155);

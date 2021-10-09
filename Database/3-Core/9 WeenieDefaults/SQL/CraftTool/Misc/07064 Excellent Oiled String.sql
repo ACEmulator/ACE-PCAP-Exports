@@ -25,16 +25,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7064,   1, 'Excellent Oiled String') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7064,   1,   33554817) /* Setup */
-     , (7064,   3,  536870932) /* SoundTable */
-     , (7064,   8,  100670730) /* Icon */
-     , (7064,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7064,   1, 0x02000181) /* Setup */
+     , (7064,   3, 0x20000014) /* SoundTable */
+     , (7064,   8, 0x06001D0A) /* Icon */
+     , (7064,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7064, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7064, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7064, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7064, 8000, 3629880662) /* PCAPRecordedObjectIID */;
+VALUES (7064, 8000, 0xD85B9556) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (7064, 0, 83890064, 83890069);

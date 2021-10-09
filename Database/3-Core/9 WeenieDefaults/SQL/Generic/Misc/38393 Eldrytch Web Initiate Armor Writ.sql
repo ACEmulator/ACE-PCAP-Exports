@@ -17,14 +17,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38393,   1, 'Eldrytch Web Initiate Armor Writ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38393,   1,   33554776) /* Setup */
-     , (38393,   3,  536870932) /* SoundTable */
-     , (38393,   8,  100667503) /* Icon */
-     , (38393,  22,  872415275) /* PhysicsEffectTable */
-     , (38393,  50,  100690172) /* IconOverlay */
+VALUES (38393,   1, 0x02000158) /* Setup */
+     , (38393,   3, 0x20000014) /* SoundTable */
+     , (38393,   8, 0x0600106F) /* Icon */
+     , (38393,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (38393,  50, 0x060068FC) /* IconOverlay */
      , (38393, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (38393, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38393, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38393, 8000, 3542424670) /* PCAPRecordedObjectIID */;
+VALUES (38393, 8000, 0xD3251C5E) /* PCAPRecordedObjectIID */;

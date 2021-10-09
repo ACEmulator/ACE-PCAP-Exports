@@ -23,17 +23,17 @@ VALUES (33352,   1, 'Amulet of Dark Rage') /* Name */
      , (33352,  16, 'A dark gem that pulses with an ancient rage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33352,   1,   33554680) /* Setup */
-     , (33352,   3,  536870932) /* SoundTable */
-     , (33352,   6,   67111919) /* PaletteBase */
-     , (33352,   8,  100668602) /* Icon */
-     , (33352,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33352,   1, 0x020000F8) /* Setup */
+     , (33352,   3, 0x20000014) /* SoundTable */
+     , (33352,   6, 0x04000BEF) /* PaletteBase */
+     , (33352,   8, 0x060014BA) /* Icon */
+     , (33352,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33352, 8001,    2179096) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden */
      , (33352, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33352, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33352, 8000, 2166189985) /* PCAPRecordedObjectIID */;
+VALUES (33352, 8000, 0x811D6FA1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33352, 67111919, 0, 0);

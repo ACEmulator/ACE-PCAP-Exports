@@ -24,16 +24,13 @@ VALUES (20562,   1, 'Scroll of Celdiseth''s Blessing') /* Name */
 Increases the caster''s Magic Item Tinkering skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20562,   1,   33554826) /* Setup */
-     , (20562,   8,  100676477) /* Icon */
-     , (20562,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20562,   1, 0x0200018A) /* Setup */
+     , (20562,   8, 0x0600337D) /* Icon */
+     , (20562,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20562,  28,       2277) /* Spell - MagicItemExpertiseSelf7 */
      , (20562, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20562, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20562, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20562, 8000, 3705353375) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20562, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */;
+VALUES (20562, 8000, 0xDCDB349F) /* PCAPRecordedObjectIID */;

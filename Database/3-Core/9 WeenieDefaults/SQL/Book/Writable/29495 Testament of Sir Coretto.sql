@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29495,   1, 'Testament of Sir Coretto') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29495,   1,   33554771) /* Setup */
-     , (29495,   3,  536870932) /* SoundTable */
-     , (29495,   8,  100668117) /* Icon */
-     , (29495,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29495,   1, 0x02000153) /* Setup */
+     , (29495,   3, 0x20000014) /* SoundTable */
+     , (29495,   8, 0x060012D5) /* Icon */
+     , (29495,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29495, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (29495, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (29495, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29495, 8000, 3705066374) /* PCAPRecordedObjectIID */;
+VALUES (29495, 8000, 0xDCD6D386) /* PCAPRecordedObjectIID */;

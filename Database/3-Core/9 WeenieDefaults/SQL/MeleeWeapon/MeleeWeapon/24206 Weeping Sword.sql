@@ -34,6 +34,7 @@ VALUES (24206,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24206,  22, True ) /* Inscribable */
+     , (24206,  23, True ) /* DestroyOnSell */
      , (24206,  69, False) /* IsSellable */
      , (24206,  99, True ) /* Ivoryable */;
 
@@ -52,16 +53,16 @@ VALUES (24206,   1, 'Weeping Sword') /* Name */
      , (24206,  15, 'A sword infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24206,   1,   33558298) /* Setup */
-     , (24206,   3,  536870932) /* SoundTable */
-     , (24206,   8,  100674264) /* Icon */
-     , (24206,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24206,   1, 0x02000F1A) /* Setup */
+     , (24206,   3, 0x20000014) /* SoundTable */
+     , (24206,   8, 0x06002AD8) /* Icon */
+     , (24206,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24206, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24206, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24206, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24206, 8000, 2906382247) /* PCAPRecordedObjectIID */;
+VALUES (24206, 8000, 0xAD3BDFA7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24206,  2689,      2)  /* ModerateDaggerAptitude */;

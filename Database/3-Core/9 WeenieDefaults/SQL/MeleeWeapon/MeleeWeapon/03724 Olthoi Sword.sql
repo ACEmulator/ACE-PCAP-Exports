@@ -38,13 +38,13 @@ VALUES (3724,   1, 'Olthoi Sword') /* Name */
      , (3724,  16, 'A sword crafted from the claw of an Olthoi. Ichor drips from the blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3724,   1,   33556589) /* Setup */
-     , (3724,   3,  536870932) /* SoundTable */
-     , (3724,   8,  100670666) /* Icon */
-     , (3724,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3724,   1, 0x0200086D) /* Setup */
+     , (3724,   3, 0x20000014) /* SoundTable */
+     , (3724,   8, 0x06001CCA) /* Icon */
+     , (3724,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3724, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (3724, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3724, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3724, 8000, 3658159462) /* PCAPRecordedObjectIID */;
+VALUES (3724, 8000, 0xDA0B1566) /* PCAPRecordedObjectIID */;

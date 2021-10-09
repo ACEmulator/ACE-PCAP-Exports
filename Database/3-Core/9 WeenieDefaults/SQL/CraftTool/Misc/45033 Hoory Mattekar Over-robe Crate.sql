@@ -23,13 +23,13 @@ VALUES (45033,   1, 'Hoory Mattekar Over-robe Crate') /* Name */
      , (45033,  20, 'Hoory Mattekar Over-robe Crates') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45033,   1,   33554718) /* Setup */
-     , (45033,   3,  536870932) /* SoundTable */
-     , (45033,   8,  100668152) /* Icon */
-     , (45033,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45033,   1, 0x0200011E) /* Setup */
+     , (45033,   3, 0x20000014) /* SoundTable */
+     , (45033,   8, 0x060012F8) /* Icon */
+     , (45033,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45033, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (45033, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (45033, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45033, 8000, 3333866630) /* PCAPRecordedObjectIID */;
+VALUES (45033, 8000, 0xC6B6C486) /* PCAPRecordedObjectIID */;

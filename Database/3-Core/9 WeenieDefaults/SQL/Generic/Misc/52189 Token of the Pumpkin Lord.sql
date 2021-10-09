@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52189,   1, 'Token of the Pumpkin Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52189,   1,   33557280) /* Setup */
-     , (52189,   3,  536870932) /* SoundTable */
-     , (52189,   8,  100675759) /* Icon */
-     , (52189,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52189,   1, 0x02000B20) /* Setup */
+     , (52189,   3, 0x20000014) /* SoundTable */
+     , (52189,   8, 0x060030AF) /* Icon */
+     , (52189,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52189, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (52189, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (52189, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52189, 8000, 2966355193) /* PCAPRecordedObjectIID */;
+VALUES (52189, 8000, 0xB0CEFCF9) /* PCAPRecordedObjectIID */;

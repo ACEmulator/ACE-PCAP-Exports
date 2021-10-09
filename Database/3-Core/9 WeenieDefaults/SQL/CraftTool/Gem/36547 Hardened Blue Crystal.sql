@@ -26,19 +26,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36547,   1, 'Hardened Blue Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36547,   1,   33554817) /* Setup */
-     , (36547,   3,  536870932) /* SoundTable */
-     , (36547,   6,   67111919) /* PaletteBase */
-     , (36547,   8,  100689657) /* Icon */
-     , (36547,  22,  872415275) /* PhysicsEffectTable */
-     , (36547,  52,  100667860) /* IconUnderlay */
+VALUES (36547,   1, 0x02000181) /* Setup */
+     , (36547,   3, 0x20000014) /* SoundTable */
+     , (36547,   6, 0x04000BEF) /* PaletteBase */
+     , (36547,   8, 0x060066F9) /* Icon */
+     , (36547,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36547,  52, 0x060011D4) /* IconUnderlay */
      , (36547, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (36547, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (36547, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (36547, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36547, 8000, 3101492654) /* PCAPRecordedObjectIID */;
+VALUES (36547, 8000, 0xB8DD05AE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36547, 67111924, 0, 0);

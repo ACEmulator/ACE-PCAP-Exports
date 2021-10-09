@@ -27,17 +27,17 @@ VALUES (6620,   1, 'Glimmering Gem') /* Name */
      , (6620,  16, 'A small, glimmering gem with swirls of orange and black.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6620,   1,   33554809) /* Setup */
-     , (6620,   3,  536870932) /* SoundTable */
-     , (6620,   6,   67111919) /* PaletteBase */
-     , (6620,   8,  100671528) /* Icon */
-     , (6620,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6620,   1, 0x02000179) /* Setup */
+     , (6620,   3, 0x20000014) /* SoundTable */
+     , (6620,   6, 0x04000BEF) /* PaletteBase */
+     , (6620,   8, 0x06002028) /* Icon */
+     , (6620,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6620, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (6620, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6620, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6620, 8000, 2149209892) /* PCAPRecordedObjectIID */;
+VALUES (6620, 8000, 0x801A5724) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6620, 67111921, 0, 0);

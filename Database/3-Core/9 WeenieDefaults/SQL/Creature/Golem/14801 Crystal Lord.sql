@@ -26,22 +26,22 @@ VALUES (14801,   1, 'Crystal Lord') /* Name */
      , (14801, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14801,   1,   33556439) /* Setup */
-     , (14801,   2,  150995073) /* MotionTable */
-     , (14801,   3,  536870933) /* SoundTable */
-     , (14801,   6,   67112808) /* PaletteBase */
-     , (14801,   8,  100667940) /* Icon */
-     , (14801,  22,  872415322) /* PhysicsEffectTable */
+VALUES (14801,   1, 0x020007D7) /* Setup */
+     , (14801,   2, 0x09000081) /* MotionTable */
+     , (14801,   3, 0x20000015) /* SoundTable */
+     , (14801,   6, 0x04000F68) /* PaletteBase */
+     , (14801,   8, 0x06001224) /* Icon */
+     , (14801,  22, 0x3400005A) /* PhysicsEffectTable */
      , (14801, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (14801, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14801, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14801, 8040, 662306877, 180.1113, 99.71657, 346.6109, 0.9804457, 0, 0, -0.1967895) /* PCAPRecordedLocation */
+VALUES (14801, 8040, 0x277A003D, 180.1113, 99.71657, 346.6109, 0.980446, 0, 0, -0.19679) /* PCAPRecordedLocation */
 /* @teleloc 0x277A003D [180.111300 99.716570 346.610900] 0.980446 0.000000 0.000000 -0.196790 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14801, 8000, 3710235607) /* PCAPRecordedObjectIID */;
+VALUES (14801, 8000, 0xDD25B3D7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (14801,   1,     0, 0, 0, 15000) /* MaxHealth */;

@@ -19,6 +19,7 @@ VALUES (46461,   1,      16384) /* ItemType - Key */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46461,  22, True ) /* Inscribable */
+     , (46461,  23, True ) /* DestroyOnSell */
      , (46461,  69, False) /* IsSellable */
      , (46461,  99, False) /* Ivoryable */;
 
@@ -28,13 +29,13 @@ VALUES (46461,   1, 'Middle Gate Key') /* Name */
      , (46461,  16, 'A key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46461,   1,   33554784) /* Setup */
-     , (46461,   3,  536870932) /* SoundTable */
-     , (46461,   8,  100691954) /* Icon */
-     , (46461,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46461,   1, 0x02000160) /* Setup */
+     , (46461,   3, 0x20000014) /* SoundTable */
+     , (46461,   8, 0x06006FF2) /* Icon */
+     , (46461,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46461, 8001,    2641048) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden */
      , (46461, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46461, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46461, 8000, 2153283025) /* PCAPRecordedObjectIID */;
+VALUES (46461, 8000, 0x80587DD1) /* PCAPRecordedObjectIID */;

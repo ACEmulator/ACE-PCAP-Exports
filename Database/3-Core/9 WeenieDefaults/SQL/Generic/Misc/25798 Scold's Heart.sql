@@ -14,20 +14,21 @@ VALUES (25798,   1,        128) /* ItemType - Misc */
      , (25798, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25798,  22, True ) /* Inscribable */;
+VALUES (25798,  22, True ) /* Inscribable */
+     , (25798,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25798,   1, 'Scold''s Heart') /* Name */
      , (25798,  16, 'A very, very small Magma Golem''s Heart.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25798,   1,   33558517) /* Setup */
-     , (25798,   3,  536870932) /* SoundTable */
-     , (25798,   8,  100675515) /* Icon */
-     , (25798,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25798,   1, 0x02000FF5) /* Setup */
+     , (25798,   3, 0x20000014) /* SoundTable */
+     , (25798,   8, 0x06002FBB) /* Icon */
+     , (25798,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25798, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (25798, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25798, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25798, 8000, 2780062225) /* PCAPRecordedObjectIID */;
+VALUES (25798, 8000, 0xA5B46211) /* PCAPRecordedObjectIID */;

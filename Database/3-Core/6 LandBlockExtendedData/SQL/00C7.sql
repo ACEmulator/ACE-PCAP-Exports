@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x00C7;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C7167, 40440, 0x00C70100, 98.7715, -80.8738, -42.063, -0.4089348, 0, 0, -0.9125636, False, '2019-02-10 00:00:00'); /* Crystalline Portal */
+VALUES (0x700C7167, 40440, 0x00C70100, 98.7715, -80.8738, -42.063, -0.408935, 0, 0, -0.912564, False, '2019-02-10 00:00:00'); /* Crystalline Portal */
 /* @teleloc 0x00C70100 [98.771500 -80.873800 -42.063000] -0.408935 0.000000 0.000000 -0.912564 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C7168, 40157, 0x00C70385, 99.863, -0.00453999, -0.06299996, 0.9999394, 0, 0, -0.011003, False, '2019-02-10 00:00:00'); /* Crystalline Portal */
+VALUES (0x700C7168, 40157, 0x00C70385, 99.863, -0.00454, -0.063, 0.999939, 0, 0, -0.011003, False, '2019-02-10 00:00:00'); /* Crystalline Portal */
 /* @teleloc 0x00C70385 [99.863000 -0.004540 -0.063000] 0.999939 0.000000 0.000000 -0.011003 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -25,7 +25,7 @@ VALUES (0x700C716C, 40158, 0x00C7039A, 100.012, -96.3953, 0, -0.016578, 0, 0, -0
 /* @teleloc 0x00C7039A [100.012000 -96.395300 0.000000] -0.016578 0.000000 0.000000 -0.999863 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700C716D, 40158, 0x00C7039F, 100.01, -130.2, 0, -0.00676904, 0, 0, -0.999977, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x700C716D, 40158, 0x00C7039F, 100.01, -130.2, 0, -0.006769, 0, 0, -0.999977, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x00C7039F [100.010000 -130.200000 0.000000] -0.006769 0.000000 0.000000 -0.999977 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

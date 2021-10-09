@@ -23,22 +23,22 @@ VALUES (39152,   1, 'Sclavus Marauder') /* Name */
      , (39152, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39152,   1,   33560595) /* Setup */
-     , (39152,   2,  150995048) /* MotionTable */
-     , (39152,   3,  536870977) /* SoundTable */
-     , (39152,   6,   67111936) /* PaletteBase */
-     , (39152,   8,  100669120) /* Icon */
-     , (39152,  22,  872415280) /* PhysicsEffectTable */
+VALUES (39152,   1, 0x02001813) /* Setup */
+     , (39152,   2, 0x09000068) /* MotionTable */
+     , (39152,   3, 0x20000041) /* SoundTable */
+     , (39152,   6, 0x04000C00) /* PaletteBase */
+     , (39152,   8, 0x060016C0) /* Icon */
+     , (39152,  22, 0x34000030) /* PhysicsEffectTable */
      , (39152, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (39152, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (39152, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39152, 8040, 13304107, 39.6861, -78.0708, -30, -0.04432501, 0, 0, 0.9990172) /* PCAPRecordedLocation */
+VALUES (39152, 8040, 0x00CB012B, 39.6861, -78.0708, -30, -0.044325, 0, 0, 0.999017) /* PCAPRecordedLocation */
 /* @teleloc 0x00CB012B [39.686100 -78.070800 -30.000000] -0.044325 0.000000 0.000000 0.999017 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39152, 8000, 3332247447) /* PCAPRecordedObjectIID */;
+VALUES (39152, 8000, 0xC69E0F97) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (39152, 2, 38927,  1, 0, 0, False) /* Create T'thuun Spear (38927) for Wield */

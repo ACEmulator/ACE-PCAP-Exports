@@ -37,17 +37,17 @@ VALUES (25528,   1, 'Hearty Reedshark Robe') /* Name */
      , (25528,  15, 'A robe crafted from the leathery hide of a Reedshark Reaper. The hide has been treated and crafted into a fairly useful robe.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25528,   1,   33554854) /* Setup */
-     , (25528,   3,  536870932) /* SoundTable */
-     , (25528,   6,   67108990) /* PaletteBase */
-     , (25528,   8,  100675029) /* Icon */
-     , (25528,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25528,   1, 0x020001A6) /* Setup */
+     , (25528,   3, 0x20000014) /* SoundTable */
+     , (25528,   6, 0x0400007E) /* PaletteBase */
+     , (25528,   8, 0x06002DD5) /* Icon */
+     , (25528,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25528, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (25528, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25528, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25528, 8000, 2274290664) /* PCAPRecordedObjectIID */;
+VALUES (25528, 8000, 0x878EEBE8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25528, 67114582, 72, 88)

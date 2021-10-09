@@ -24,13 +24,13 @@ VALUES (2135,   1, 'Scroll of Flame Volley III') /* Name */
 Shoots three bolts of flame toward the target. Each bolt does 15-31 points of fire damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2135,   1,   33554826) /* Setup */
-     , (2135,   8,  100677022) /* Icon */
-     , (2135,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2135,   1, 0x0200018A) /* Setup */
+     , (2135,   8, 0x0600359E) /* Icon */
+     , (2135,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2135,  28,        143) /* Spell - FlameVolley3 */
      , (2135, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2135, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2135, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2135, 8000, 3631307394) /* PCAPRecordedObjectIID */;
+VALUES (2135, 8000, 0xD8715A82) /* PCAPRecordedObjectIID */;

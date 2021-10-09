@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (348,   1,          1) /* ItemType - MeleeWeapon */
      , (348,   5,        700) /* EncumbranceVal */
      , (348,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (348,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (348,  16,          1) /* ItemUseable - No */
      , (348,  19,        170) /* Value */
      , (348,  44,         31) /* Damage */
@@ -52,11 +51,11 @@ VALUES (348,   1, 'Spear') /* Name */
      , (348,  16, 'Spear of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (348,   1,   33554756) /* Setup */
-     , (348,   3,  536870932) /* SoundTable */
-     , (348,   6,   67111919) /* PaletteBase */
-     , (348,   8,  100669006) /* Icon */
-     , (348,  22,  872415275) /* PhysicsEffectTable */
+VALUES (348,   1, 0x02000144) /* Setup */
+     , (348,   3, 0x20000014) /* SoundTable */
+     , (348,   6, 0x04000BEF) /* PaletteBase */
+     , (348,   8, 0x0600164E) /* Icon */
+     , (348,  22, 0x3400002B) /* PhysicsEffectTable */
      , (348,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (348, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (348, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -64,12 +63,12 @@ VALUES (348,   1,   33554756) /* Setup */
      , (348, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (348, 8040, 3147759675, 184.7068, 55.14833, 56.929, 0.6621652, 0.6621652, 0.2480672, 0.2480672) /* PCAPRecordedLocation */
+VALUES (348, 8040, 0xBB9F003B, 184.7068, 55.14833, 56.929, 0.662165, 0.662165, 0.248067, 0.248067) /* PCAPRecordedLocation */
 /* @teleloc 0xBB9F003B [184.706800 55.148330 56.929000] 0.662165 0.662165 0.248067 0.248067 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (348, 8000, 3691825683) /* PCAPRecordedObjectIID */
-     , (348, 8008, 3691401094) /* PCAPRecordedParentIID */;
+VALUES (348, 8000, 0xDC0CCA13) /* PCAPRecordedObjectIID */
+     , (348, 8008, 0xDC064F86) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (348,  1605,      2)  /* DefenderSelf6 */

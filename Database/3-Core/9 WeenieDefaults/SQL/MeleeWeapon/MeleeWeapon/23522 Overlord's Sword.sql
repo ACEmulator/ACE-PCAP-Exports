@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23522,   1,          1) /* ItemType - MeleeWeapon */
      , (23522,   5,        650) /* EncumbranceVal */
      , (23522,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (23522,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (23522,  16,          1) /* ItemUseable - No */
      , (23522,  19,       1550) /* Value */
      , (23522,  33,          1) /* Bonded - Bonded */
@@ -52,25 +51,25 @@ VALUES (23522,   1, 'Overlord''s Sword') /* Name */
      , (23522,  25, 'Azrakin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23522,   1,   33558185) /* Setup */
-     , (23522,   3,  536870932) /* SoundTable */
-     , (23522,   8,  100674032) /* Icon */
-     , (23522,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23522,   1, 0x02000EA9) /* Setup */
+     , (23522,   3, 0x20000014) /* SoundTable */
+     , (23522,   8, 0x060029F0) /* Icon */
+     , (23522,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23522, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (23522, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23522, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (23522, 8009,          8) /* PCAPRecordedParentLocation - LeftWeapon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23522, 8040, 4095213581, 33.31163, 105.7664, 159.929, 0.1398278, 0.1398278, -0.6931437, -0.6931437) /* PCAPRecordedLocation */
+VALUES (23522, 8040, 0xF418000D, 33.31163, 105.7664, 159.929, 0.139828, 0.139828, -0.693144, -0.693144) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [33.311630 105.766400 159.929000] 0.139828 0.139828 -0.693144 -0.693144 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23522, 8000, 2148355611) /* PCAPRecordedObjectIID */
-     , (23522, 8008, 1343175769) /* PCAPRecordedParentIID */;
+VALUES (23522, 8000, 0x800D4E1B) /* PCAPRecordedObjectIID */
+     , (23522, 8008, 0x500F3C59) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23522,   417,      2)  /* SwordMasteryOther6 */
-     , (23522,  1592,      2)  /* HeartSeekerSelf6 */
-     , (23522,  1605,      2)  /* DefenderSelf6 */
-     , (23522,  1616,      2)  /* BloodDrinkerSelf6 */;
+VALUES (23522,  1605,      2)  /* DefenderSelf6 */
+     , (23522,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (23522,   417,      2)  /* HeavyWeaponsMasteryOther6 */
+     , (23522,  1592,      2)  /* HeartSeekerSelf6 */;

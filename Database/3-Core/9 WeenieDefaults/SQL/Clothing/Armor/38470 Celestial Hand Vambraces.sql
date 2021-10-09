@@ -52,23 +52,23 @@ VALUES (38470,   1, 'Celestial Hand Vambraces') /* Name */
      , (38470,  39, 'Tiesto') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38470,   1,   33554641) /* Setup */
-     , (38470,   3,  536870932) /* SoundTable */
-     , (38470,   8,  100690163) /* Icon */
-     , (38470,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38470,   1, 0x020000D1) /* Setup */
+     , (38470,   3, 0x20000014) /* SoundTable */
+     , (38470,   8, 0x060068F3) /* Icon */
+     , (38470,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38470,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (38470, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38470, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38470, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38470, 8000, 3289324304) /* PCAPRecordedObjectIID */;
+VALUES (38470, 8000, 0xC40F1B10) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38470,  1486,      2)  /* Impenetrability6 */
-     , (38470,  2102,      2)  /* FlameBane7 */
      , (38470,  2530,      2)  /* CANTRIPSTAFFAPTITUDE2 */
-     , (38470,  4325,      2)  /* StrengthSelf8 */;
+     , (38470,  4325,      2)  /* StrengthSelf8 */
+     , (38470,  2102,      2)  /* FlameBane7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38470, 0, 83886788, 83897917);

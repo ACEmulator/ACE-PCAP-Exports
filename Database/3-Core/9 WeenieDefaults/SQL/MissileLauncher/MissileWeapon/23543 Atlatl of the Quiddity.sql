@@ -15,7 +15,7 @@ VALUES (23543,   1,        256) /* ItemType - MissileWeapon */
      , (23543,  48,         47) /* WeaponSkill - MissileWeapons */
      , (23543,  49,         25) /* WeaponTime */
      , (23543,  50,          4) /* AmmoType - Atlatl */
-     , (23543,  51,          2) /* CombatUse - Missle */
+     , (23543,  51,          2) /* CombatUse - Missile */
      , (23543,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (23543, 106,        400) /* ItemSpellcraft */
      , (23543, 107,       1000) /* ItemCurMana */
@@ -43,16 +43,16 @@ VALUES (23543,   1, 'Atlatl of the Quiddity') /* Name */
      , (23543,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23543,   1,   33558192) /* Setup */
-     , (23543,   3,  536870932) /* SoundTable */
-     , (23543,   8,  100674027) /* Icon */
-     , (23543,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23543,   1, 0x02000EB0) /* Setup */
+     , (23543,   3, 0x20000014) /* SoundTable */
+     , (23543,   8, 0x060029EB) /* Icon */
+     , (23543,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23543, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23543, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23543, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23543, 8000, 2209440376) /* PCAPRecordedObjectIID */;
+VALUES (23543, 8000, 0x83B16278) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23543,  1603,      2)  /* DefenderSelf4 */

@@ -29,23 +29,23 @@ VALUES (49408,   1, 'Spectre') /* Name */
      , (49408, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49408,   1,   33558816) /* Setup */
-     , (49408,   2,  150995302) /* MotionTable */
-     , (49408,   3,  536871094) /* SoundTable */
-     , (49408,   6,   67115251) /* PaletteBase */
-     , (49408,   8,  100676679) /* Icon */
-     , (49408,  22,  872415403) /* PhysicsEffectTable */
+VALUES (49408,   1, 0x02001120) /* Setup */
+     , (49408,   2, 0x09000166) /* MotionTable */
+     , (49408,   3, 0x200000B6) /* SoundTable */
+     , (49408,   6, 0x040018F3) /* PaletteBase */
+     , (49408,   8, 0x06003447) /* Icon */
+     , (49408,  22, 0x340000AB) /* PhysicsEffectTable */
      , (49408, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49408, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
      , (49408, 8003,   67108884) /* PCAPRecordedObjectDesc - Stuck, Attackable, IncludesSecondHeader */
      , (49408, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49408, 8040, 3332964378, 82.16583, 39.32766, 42.0145, -0.981057, 0, 0, -0.1937194) /* PCAPRecordedLocation */
+VALUES (49408, 8040, 0xC6A9001A, 82.16583, 39.32766, 42.0145, -0.981057, 0, 0, -0.193719) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001A [82.165830 39.327660 42.014500] -0.981057 0.000000 0.000000 -0.193719 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49408, 8000, 2929911794) /* PCAPRecordedObjectIID */;
+VALUES (49408, 8000, 0xAEA2E7F2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49408,   1, 130, 0, 0) /* Strength */

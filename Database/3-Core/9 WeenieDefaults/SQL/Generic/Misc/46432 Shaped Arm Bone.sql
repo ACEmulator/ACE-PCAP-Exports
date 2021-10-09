@@ -12,11 +12,11 @@ VALUES (46432,   1,        128) /* ItemType - Misc */
      , (46432,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46432,  98, 1485732091) /* CreationTimestamp */
      , (46432, 114,          1) /* Attuned - Attuned */
-     , (46432, 267,       7200) /* Lifespan */
-     , (46432, 268,       7180) /* RemainingLifespan */;
+     , (46432, 267,       7200) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46432,  22, True ) /* Inscribable */;
+VALUES (46432,  22, True ) /* Inscribable */
+     , (46432,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46432,   1, 'Shaped Arm Bone') /* Name */
@@ -24,13 +24,13 @@ VALUES (46432,   1, 'Shaped Arm Bone') /* Name */
      , (46432,  16, 'This ancient bone appears to be an arm bone. One end of the bone has been shaped into a notch.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46432,   1,   33560099) /* Setup */
-     , (46432,   3,  536870932) /* SoundTable */
-     , (46432,   8,  100689107) /* Icon */
-     , (46432,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46432,   1, 0x02001623) /* Setup */
+     , (46432,   3, 0x20000014) /* SoundTable */
+     , (46432,   8, 0x060064D3) /* Icon */
+     , (46432,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46432, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (46432, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46432, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46432, 8000, 3708122958) /* PCAPRecordedObjectIID */;
+VALUES (46432, 8000, 0xDD05774E) /* PCAPRecordedObjectIID */;

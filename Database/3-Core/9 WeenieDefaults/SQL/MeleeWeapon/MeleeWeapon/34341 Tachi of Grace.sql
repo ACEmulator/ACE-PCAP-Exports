@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34341,   1,          1) /* ItemType - MeleeWeapon */
      , (34341,   5,        375) /* EncumbranceVal */
      , (34341,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (34341,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (34341,  16,          1) /* ItemUseable - No */
      , (34341,  18,          1) /* UiEffects - Magical */
      , (34341,  19,       6000) /* Value */
@@ -34,6 +33,7 @@ VALUES (34341,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34341,  22, True ) /* Inscribable */
+     , (34341,  23, True ) /* DestroyOnSell */
      , (34341,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -53,10 +53,10 @@ VALUES (34341,   1, 'Tachi of Grace') /* Name */
      , (34341,  16, 'A light, beautifully crafted Tachi, engraved and enameled in imagery dedicating the weapon to the Grace of Unicorn.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34341,   1,   33560150) /* Setup */
-     , (34341,   3,  536870932) /* SoundTable */
-     , (34341,   8,  100689290) /* Icon */
-     , (34341,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34341,   1, 0x02001656) /* Setup */
+     , (34341,   3, 0x20000014) /* SoundTable */
+     , (34341,   8, 0x0600658A) /* Icon */
+     , (34341,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34341,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (34341, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (34341, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -64,17 +64,17 @@ VALUES (34341,   1,   33560150) /* Setup */
      , (34341, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34341, 8040, 722534422, 57.65981, 131.1834, 47.929, -0.6731077, -0.6731077, 0.2166243, 0.2166243) /* PCAPRecordedLocation */
+VALUES (34341, 8040, 0x2B110016, 57.65981, 131.1834, 47.929, -0.673108, -0.673108, 0.216624, 0.216624) /* PCAPRecordedLocation */
 /* @teleloc 0x2B110016 [57.659810 131.183400 47.929000] -0.673108 -0.673108 0.216624 0.216624 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34341, 8000, 3688717706) /* PCAPRecordedObjectIID */
-     , (34341, 8008, 3687902677) /* PCAPRecordedParentIID */;
+VALUES (34341, 8000, 0xDBDD5D8A) /* PCAPRecordedObjectIID */
+     , (34341, 8008, 0xDBD0EDD5) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34341,  2058,      2)  /* CoordinationOther7 */
-     , (34341,  2080,      2)  /* QuicknessOther7 */
-     , (34341,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (34341,  2242,      2)  /* ImpregnabilityOther7 */
+VALUES (34341,  2242,      2)  /* ImpregnabilityOther7 */
      , (34341,  2244,      2)  /* InvulnerabilityOther7 */
-     , (34341,  2280,      2)  /* MagicResistanceOther7 */;
+     , (34341,  2058,      2)  /* CoordinationOther7 */
+     , (34341,  2080,      2)  /* QuicknessOther7 */
+     , (34341,  2280,      2)  /* MagicResistanceOther7 */
+     , (34341,  2096,      2)  /* BloodDrinkerSelf7 */;

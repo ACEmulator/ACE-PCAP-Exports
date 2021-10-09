@@ -17,20 +17,21 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (41481,   3, 4000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41481,  22, True ) /* Inscribable */;
+VALUES (41481,  22, True ) /* Inscribable */
+     , (41481,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41481,   1, 'Hand of the Remorseless') /* Name */
      , (41481,  16, 'Using this gem increases critical damage by 3%. This augmentation cannot be repeated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41481,   1,   33554809) /* Setup */
-     , (41481,   3,  536870932) /* SoundTable */
-     , (41481,   8,  100686474) /* Icon */
-     , (41481,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41481,   1, 0x02000179) /* Setup */
+     , (41481,   3, 0x20000014) /* SoundTable */
+     , (41481,   8, 0x06005A8A) /* Icon */
+     , (41481,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41481, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (41481, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41481, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41481, 8000, 3707099934) /* PCAPRecordedObjectIID */;
+VALUES (41481, 8000, 0xDCF5DB1E) /* PCAPRecordedObjectIID */;

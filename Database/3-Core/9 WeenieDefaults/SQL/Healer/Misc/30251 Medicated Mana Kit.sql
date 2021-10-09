@@ -28,19 +28,16 @@ VALUES (30251,   1, 'Medicated Mana Kit') /* Name */
      , (30251,  16, 'This Medicated Mana Kit does not last long, but it is very powerful!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30251,   1,   33555194) /* Setup */
-     , (30251,   8,  100686703) /* Icon */
-     , (30251,  52,  100686604) /* IconUnderlay */
+VALUES (30251,   1, 0x020002FA) /* Setup */
+     , (30251,   8, 0x06005B6F) /* Icon */
+     , (30251,  52, 0x06005B0C) /* IconUnderlay */
      , (30251, 8001,  271076368) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden, HookType */
      , (30251, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30251, 8003,   67174418) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer, IncludesSecondHeader */
      , (30251, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30251, 8000, 3208592361) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30251, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;
+VALUES (30251, 8000, 0xBF3F3BE9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (30251, 0, 83889681, 83894377)

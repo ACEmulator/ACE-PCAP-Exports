@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22080,   1,      32768) /* ItemType - Caster */
      , (22080,   5,         50) /* EncumbranceVal */
      , (22080,   9,   16777216) /* ValidLocations - Held */
-     , (22080,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (22080,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (22080,  18,          1) /* UiEffects - Magical */
      , (22080,  19,      12000) /* Value */
      , (22080,  33,          1) /* Bonded - Bonded */
+     , (22080,  46,        512) /* DefaultCombatStyle - Magic */
      , (22080,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22080,  94,         16) /* TargetType - Creature */
      , (22080, 106,        325) /* ItemSpellcraft */
@@ -27,6 +27,7 @@ VALUES (22080,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22080,  22, True ) /* Inscribable */
+     , (22080,  23, True ) /* DestroyOnSell */
      , (22080,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -39,11 +40,11 @@ VALUES (22080,   1, 'Impious Staff') /* Name */
      , (22080,  16, 'Made from a metal alloy and carbonized iron. This staff once belonged to an ancient group of acolytes who possessed magical powers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22080,   1,   33557877) /* Setup */
-     , (22080,   3,  536870932) /* SoundTable */
-     , (22080,   6,   67111919) /* PaletteBase */
-     , (22080,   8,  100673510) /* Icon */
-     , (22080,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22080,   1, 0x02000D75) /* Setup */
+     , (22080,   3, 0x20000014) /* SoundTable */
+     , (22080,   6, 0x04000BEF) /* PaletteBase */
+     , (22080,   8, 0x060027E6) /* Icon */
+     , (22080,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22080,  28,       2814) /* Spell - ImpiousCurse */
      , (22080,  37,         34) /* ItemSkillLimit - WarMagic */
      , (22080, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
@@ -52,12 +53,12 @@ VALUES (22080,   1,   33557877) /* Setup */
      , (22080, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22080, 8040, 3332964775, 72.47017, 23.78971, 41.929, 0.6793634, 0.6793634, -0.1961258, -0.1961258) /* PCAPRecordedLocation */
+VALUES (22080, 8040, 0xC6A901A7, 72.47017, 23.78971, 41.929, 0.679363, 0.679363, -0.196126, -0.196126) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A901A7 [72.470170 23.789710 41.929000] 0.679363 0.679363 -0.196126 -0.196126 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22080, 8000, 2207593556) /* PCAPRecordedObjectIID */
-     , (22080, 8008, 1343042936) /* PCAPRecordedParentIID */;
+VALUES (22080, 8000, 0x83953454) /* PCAPRecordedObjectIID */
+     , (22080, 8008, 0x500D3578) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22080, 67111925, 0, 0);

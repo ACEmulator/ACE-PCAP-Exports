@@ -48,22 +48,22 @@ VALUES (12250,   1, 'Lugian Warlord''s Scepter') /* Name */
      , (12250,  16, 'The ceremonial scepter of a Lugian warlord in league with the Virindi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12250,   1,   33557377) /* Setup */
-     , (12250,   3,  536870932) /* SoundTable */
-     , (12250,   6,   67111919) /* PaletteBase */
-     , (12250,   8,  100672191) /* Icon */
-     , (12250,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12250,   1, 0x02000B81) /* Setup */
+     , (12250,   3, 0x20000014) /* SoundTable */
+     , (12250,   6, 0x04000BEF) /* PaletteBase */
+     , (12250,   8, 0x060022BF) /* Icon */
+     , (12250,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12250, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (12250, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12250, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12250, 8000, 2166144608) /* PCAPRecordedObjectIID */;
+VALUES (12250, 8000, 0x811CBE60) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12250,   902,      2)  /* LeadershipMasterySelf5 */
-     , (12250,  1330,      2)  /* StrengthSelf4 */
-     , (12250,  1614,      2)  /* BloodDrinkerSelf4 */;
+     , (12250,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (12250,  1330,      2)  /* StrengthSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12250, 67111920, 0, 0);

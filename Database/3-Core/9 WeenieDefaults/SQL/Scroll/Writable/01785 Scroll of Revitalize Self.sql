@@ -24,13 +24,13 @@ VALUES (1785,   1, 'Scroll of Revitalize Self') /* Name */
 Restores 15-35 points of the caster''s Stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1785,   1,   33554826) /* Setup */
-     , (1785,   8,  100676930) /* Icon */
-     , (1785,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1785,   1, 0x0200018A) /* Setup */
+     , (1785,   8, 0x06003542) /* Icon */
+     , (1785,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1785,  28,       1177) /* Spell - RevitalizeSelf1 */
      , (1785, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1785, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1785, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1785, 8000, 2616451175) /* PCAPRecordedObjectIID */;
+VALUES (1785, 8000, 0x9BF3E067) /* PCAPRecordedObjectIID */;

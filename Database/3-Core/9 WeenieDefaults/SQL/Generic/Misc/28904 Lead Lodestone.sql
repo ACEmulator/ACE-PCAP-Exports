@@ -14,6 +14,7 @@ VALUES (28904,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28904,  22, True ) /* Inscribable */
+     , (28904,  23, True ) /* DestroyOnSell */
      , (28904,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -21,11 +22,11 @@ VALUES (28904,   1, 'Lead Lodestone') /* Name */
      , (28904,  16, 'A small lead lodestone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28904,   1,   33557505) /* Setup */
-     , (28904,   8,  100677041) /* Icon */
+VALUES (28904,   1, 0x02000C01) /* Setup */
+     , (28904,   8, 0x060035B1) /* Icon */
      , (28904, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (28904, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28904, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28904, 8000, 2629411049) /* PCAPRecordedObjectIID */;
+VALUES (28904, 8000, 0x9CB9A0E9) /* PCAPRecordedObjectIID */;

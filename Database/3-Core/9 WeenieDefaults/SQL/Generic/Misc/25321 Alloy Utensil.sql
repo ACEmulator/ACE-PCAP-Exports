@@ -16,13 +16,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25321,   1, 'Alloy Utensil') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25321,   1,   33558439) /* Setup */
-     , (25321,   3,  536870932) /* SoundTable */
-     , (25321,   8,  100674837) /* Icon */
-     , (25321,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25321,   1, 0x02000FA7) /* Setup */
+     , (25321,   3, 0x20000014) /* SoundTable */
+     , (25321,   8, 0x06002D15) /* Icon */
+     , (25321,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25321, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (25321, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25321, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25321, 8000, 2871389102) /* PCAPRecordedObjectIID */;
+VALUES (25321, 8000, 0xAB25EBAE) /* PCAPRecordedObjectIID */;

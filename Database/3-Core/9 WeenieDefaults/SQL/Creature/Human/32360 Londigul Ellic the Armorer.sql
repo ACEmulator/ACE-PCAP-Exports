@@ -32,27 +32,27 @@ VALUES (32360,   1, 'Londigul Ellic the Armorer') /* Name */
      , (32360, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32360,   1,   33554433) /* Setup */
-     , (32360,   2,  150994945) /* MotionTable */
-     , (32360,   3,  536870913) /* SoundTable */
-     , (32360,   6,   67108990) /* PaletteBase */
-     , (32360,   8,  100667446) /* Icon */
-     , (32360,   9,   83890494) /* EyesTexture */
-     , (32360,  10,   83890520) /* NoseTexture */
-     , (32360,  11,   83890566) /* MouthTexture */
-     , (32360,  15,   67116984) /* HairPalette */
-     , (32360,  16,   67109565) /* EyesPalette */
-     , (32360,  17,   67109558) /* SkinPalette */
+VALUES (32360,   1, 0x02000001) /* Setup */
+     , (32360,   2, 0x09000001) /* MotionTable */
+     , (32360,   3, 0x20000001) /* SoundTable */
+     , (32360,   6, 0x0400007E) /* PaletteBase */
+     , (32360,   8, 0x06001036) /* Icon */
+     , (32360,   9, 0x0500113E) /* EyesTexture */
+     , (32360,  10, 0x05001158) /* NoseTexture */
+     , (32360,  11, 0x05001186) /* MouthTexture */
+     , (32360,  15, 0x04001FB8) /* HairPalette */
+     , (32360,  16, 0x040002BD) /* EyesPalette */
+     , (32360,  17, 0x040002B6) /* SkinPalette */
      , (32360, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (32360, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (32360, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32360, 8040, 2711879940, 66, 151.08, 49.925, 0.9205049, 0, 0, -0.390731) /* PCAPRecordedLocation */
+VALUES (32360, 8040, 0xA1A40104, 66, 151.08, 49.925, 0.920505, 0, 0, -0.390731) /* PCAPRecordedLocation */
 /* @teleloc 0xA1A40104 [66.000000 151.080000 49.925000] 0.920505 0.000000 0.000000 -0.390731 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32360, 8000, 3692262740) /* PCAPRecordedObjectIID */;
+VALUES (32360, 8000, 0xDC137554) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32360,   1, 255, 0, 0) /* Strength */

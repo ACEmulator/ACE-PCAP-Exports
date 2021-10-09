@@ -25,22 +25,22 @@ VALUES (35092,   1, 'Wight Captain') /* Name */
      , (35092, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35092,   1,   33560225) /* Setup */
-     , (35092,   2,  150994967) /* MotionTable */
-     , (35092,   3,  536870934) /* SoundTable */
-     , (35092,   6,   67110722) /* PaletteBase */
-     , (35092,   8,  100667942) /* Icon */
-     , (35092,  22,  872415272) /* PhysicsEffectTable */
+VALUES (35092,   1, 0x020016A1) /* Setup */
+     , (35092,   2, 0x09000017) /* MotionTable */
+     , (35092,   3, 0x20000016) /* SoundTable */
+     , (35092,   6, 0x04000742) /* PaletteBase */
+     , (35092,   8, 0x06001226) /* Icon */
+     , (35092,  22, 0x34000028) /* PhysicsEffectTable */
      , (35092, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35092, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35092, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35092, 8040, 1210908704, 93.76175, 178.1806, 6.194771, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35092, 8040, 0x482D0020, 93.76175, 178.1806, 6.194771, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x482D0020 [93.761750 178.180600 6.194771] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35092, 8000, 2921576858) /* PCAPRecordedObjectIID */;
+VALUES (35092, 8000, 0xAE23B99A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (35092,   1,     0, 0, 0, 4120) /* MaxHealth */;
@@ -68,6 +68,7 @@ VALUES (35092, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
      , (35092, 2, 48082,  1, 0, 0, False) /* Create Lightning Quarrel (48082) for Wield */
      , (35092, 2, 48093,  1, 0, 0, False) /* Create Acid Ono (48093) for Wield */
      , (35092, 2, 48081,  1, 0, 0, False) /* Create Acid Quarrel (48081) for Wield */
+     , (35092, 2, 46648,  1, 0, 0, False) /* Create Spectral Lightning Nodachi (46648) for Wield */
      , (35092, 9, 37215,  0, 0, 0, False) /* Create Olthoi Koujia Breastplate (37215) for ContainTreasure */
      , (35092, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
      , (35092, 9, 31777,  0, 0, 0, False) /* Create Fire Board with Nail (31777) for ContainTreasure */

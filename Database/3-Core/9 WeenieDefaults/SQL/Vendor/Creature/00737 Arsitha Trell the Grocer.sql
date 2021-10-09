@@ -36,27 +36,27 @@ VALUES (737,   1, 'Arsitha Trell the Grocer') /* Name */
      , (737, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (737,   1,   33554510) /* Setup */
-     , (737,   2,  150994945) /* MotionTable */
-     , (737,   3,  536870914) /* SoundTable */
-     , (737,   6,   67108990) /* PaletteBase */
-     , (737,   8,  100667446) /* Icon */
-     , (737,   9,   83890255) /* EyesTexture */
-     , (737,  10,   83890300) /* NoseTexture */
-     , (737,  11,   83890349) /* MouthTexture */
-     , (737,  15,   67117019) /* HairPalette */
-     , (737,  16,   67110063) /* EyesPalette */
-     , (737,  17,   67109562) /* SkinPalette */
+VALUES (737,   1, 0x0200004E) /* Setup */
+     , (737,   2, 0x09000001) /* MotionTable */
+     , (737,   3, 0x20000002) /* SoundTable */
+     , (737,   6, 0x0400007E) /* PaletteBase */
+     , (737,   8, 0x06001036) /* Icon */
+     , (737,   9, 0x0500104F) /* EyesTexture */
+     , (737,  10, 0x0500107C) /* NoseTexture */
+     , (737,  11, 0x050010AD) /* MouthTexture */
+     , (737,  15, 0x04001FDB) /* HairPalette */
+     , (737,  16, 0x040004AF) /* EyesPalette */
+     , (737,  17, 0x040002BA) /* SkinPalette */
      , (737, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (737, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (737, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (737, 8040, 2711879960, 141.12, 133.56, 50.045, 0.957067, 0, 0, -0.289867) /* PCAPRecordedLocation */
+VALUES (737, 8040, 0xA1A40118, 141.12, 133.56, 50.045, 0.957067, 0, 0, -0.289867) /* PCAPRecordedLocation */
 /* @teleloc 0xA1A40118 [141.120000 133.560000 50.045000] 0.957067 0.000000 0.000000 -0.289867 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (737, 8000, 2048540701) /* PCAPRecordedObjectIID */;
+VALUES (737, 8000, 0x7A1A401D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (737,   1,  20, 0, 0) /* Strength */
@@ -118,34 +118,7 @@ VALUES (737, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (737, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (737, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (737, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (737, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
-     , (737, 4,  2588, -1, 0, 0, False) /* Create Flared Shirt (2588) for Shop */
-     , (737, 4,  7798, -1, 0, 0, False) /* Create Electric Naginata (7798) for Shop */
-     , (737, 4, 45114, -1, 0, 0, False) /* Create Acid Hammer (45114) for Shop */
-     , (737, 4, 49345, -1, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for Shop */
-     , (737, 4, 49428, -1, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for Shop */
-     , (737, 4, 49247, -1, 0, 0, False) /* Create Fire Zombie Essence (50) (49247) for Shop */
-     , (737, 4, 49421, -1, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for Shop */
-     , (737, 4, 49275, -1, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for Shop */
-     , (737, 4, 49538, -1, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for Shop */
-     , (737, 4, 49268, -1, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for Shop */
-     , (737, 4, 49282, -1, 0, 0, False) /* Create Acid K'nath Essence (50) (49282) for Shop */
-     , (737, 4, 49435, -1, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for Shop */
-     , (737, 4, 49296, -1, 0, 0, False) /* Create Fire K'nath Essence (50) (49296) for Shop */
-     , (737, 4, 48942, -1, 0, 0, False) /* Create Fire Skeleton Minion Essence (50) (48942) for Shop */
-     , (737, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */
-     , (737, 4, 49338, -1, 0, 0, False) /* Create Acid Moar Essence (50) (49338) for Shop */
-     , (737, 4, 49387, -1, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for Shop */
-     , (737, 4, 49352, -1, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for Shop */
-     , (737, 4, 49213, -1, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for Shop */
-     , (737, 4, 49324, -1, 0, 0, False) /* Create Fire Wisp Essence (50) (49324) for Shop */
-     , (737, 4, 48972, -1, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for Shop */
-     , (737, 4, 49524, -1, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for Shop */
-     , (737, 4, 49261, -1, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for Shop */
-     , (737, 4, 49310, -1, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for Shop */
-     , (737, 4, 49289, -1, 0, 0, False) /* Create Lightning K'nath Essence (50) (49289) for Shop */
-     , (737, 4, 49373, -1, 0, 0, False) /* Create Lightning Grievver Essence (50) (49373) for Shop */
-     , (737, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */;
+     , (737, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (737, 67109562, 0, 24)

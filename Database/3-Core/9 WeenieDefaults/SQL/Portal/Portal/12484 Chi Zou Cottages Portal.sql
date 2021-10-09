@@ -22,16 +22,16 @@ VALUES (12484,   1, 'Chi Zou Cottages Portal') /* Name */
      , (12484, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12484,   1,   33554867) /* Setup */
-     , (12484,   2,  150994947) /* MotionTable */
-     , (12484,   8,  100667499) /* Icon */
+VALUES (12484,   1, 0x020001B3) /* Setup */
+     , (12484,   2, 0x09000003) /* MotionTable */
+     , (12484,   8, 0x0600106B) /* Icon */
      , (12484, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12484, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12484, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12484, 8040, 3663200267, 28.3662, 67.8821, 13.57315, 0.9171453, 0, 0, 0.3985531) /* PCAPRecordedLocation */
+VALUES (12484, 8040, 0xDA58000B, 28.3662, 67.8821, 13.57315, 0.917145, 0, 0, 0.398553) /* PCAPRecordedLocation */
 /* @teleloc 0xDA58000B [28.366200 67.882100 13.573150] 0.917145 0.000000 0.000000 0.398553 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12484, 8000, 2107998210) /* PCAPRecordedObjectIID */;
+VALUES (12484, 8000, 0x7DA58002) /* PCAPRecordedObjectIID */;

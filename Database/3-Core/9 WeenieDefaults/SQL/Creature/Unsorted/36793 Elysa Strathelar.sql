@@ -25,22 +25,22 @@ VALUES (36793,   1, 'Elysa Strathelar') /* Name */
      , (36793, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36793,   1,   33554510) /* Setup */
-     , (36793,   2,  150994945) /* MotionTable */
-     , (36793,   3,  536870914) /* SoundTable */
-     , (36793,   6,   67108990) /* PaletteBase */
-     , (36793,   8,  100667446) /* Icon */
-     , (36793,  22,  872415236) /* PhysicsEffectTable */
+VALUES (36793,   1, 0x0200004E) /* Setup */
+     , (36793,   2, 0x09000001) /* MotionTable */
+     , (36793,   3, 0x20000002) /* SoundTable */
+     , (36793,   6, 0x0400007E) /* PaletteBase */
+     , (36793,   8, 0x06001036) /* Icon */
+     , (36793,  22, 0x34000004) /* PhysicsEffectTable */
      , (36793, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (36793, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (36793, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36793, 8040, 32048304, 138.8868, -68.57991, 6.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (36793, 8040, 0x01E904B0, 138.8868, -68.57991, 6.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x01E904B0 [138.886800 -68.579910 6.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36793, 8000, 3696946045) /* PCAPRecordedObjectIID */;
+VALUES (36793, 8000, 0xDC5AEB7D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36793, 67110317, 64, 8)

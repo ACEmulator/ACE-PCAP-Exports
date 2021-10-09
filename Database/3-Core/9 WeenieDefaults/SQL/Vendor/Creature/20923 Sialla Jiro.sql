@@ -36,27 +36,27 @@ VALUES (20923,   1, 'Sialla Jiro') /* Name */
      , (20923, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20923,   1,   33554510) /* Setup */
-     , (20923,   2,  150994945) /* MotionTable */
-     , (20923,   3,  536870914) /* SoundTable */
-     , (20923,   6,   67108990) /* PaletteBase */
-     , (20923,   8,  100667446) /* Icon */
-     , (20923,   9,   83890243) /* EyesTexture */
-     , (20923,  10,   83890286) /* NoseTexture */
-     , (20923,  11,   83890352) /* MouthTexture */
-     , (20923,  15,   67116993) /* HairPalette */
-     , (20923,  16,   67110063) /* EyesPalette */
-     , (20923,  17,   67110048) /* SkinPalette */
+VALUES (20923,   1, 0x0200004E) /* Setup */
+     , (20923,   2, 0x09000001) /* MotionTable */
+     , (20923,   3, 0x20000002) /* SoundTable */
+     , (20923,   6, 0x0400007E) /* PaletteBase */
+     , (20923,   8, 0x06001036) /* Icon */
+     , (20923,   9, 0x05001043) /* EyesTexture */
+     , (20923,  10, 0x0500106E) /* NoseTexture */
+     , (20923,  11, 0x050010B0) /* MouthTexture */
+     , (20923,  15, 0x04001FC1) /* HairPalette */
+     , (20923,  16, 0x040004AF) /* EyesPalette */
+     , (20923,  17, 0x040004A0) /* SkinPalette */
      , (20923, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (20923, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (20923, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20923, 8040, 1449132374, 87.219, -32.699, 0.004999995, 0.8196419, 0, 0, -0.5728762) /* PCAPRecordedLocation */
+VALUES (20923, 8040, 0x56600156, 87.219, -32.699, 0.005, 0.819642, 0, 0, -0.572876) /* PCAPRecordedLocation */
 /* @teleloc 0x56600156 [87.219000 -32.699000 0.005000] 0.819642 0.000000 0.000000 -0.572876 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20923, 8000, 1969618958) /* PCAPRecordedObjectIID */;
+VALUES (20923, 8000, 0x7566000E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20923,   1,  95, 0, 0) /* Strength */
@@ -259,6 +259,10 @@ VALUES (20923, 4,  5908, -1, 0, 0, False) /* Create Suikan Life Master Robe (590
      , (20923, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (20923, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
      , (20923, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
+     , (20923, 4,  5917, -1, 0, 0, False) /* Create Suikan Creature Master Robe (5917) for Shop */
+     , (20923, 4,  5914, -1, 0, 0, False) /* Create Suikan Item Master Robe (5914) for Shop */
+     , (20923, 4,  5908, -1, 0, 0, False) /* Create Suikan Life Master Robe (5908) for Shop */
+     , (20923, 4,  5911, -1, 0, 0, False) /* Create Suikan War Master Robe (5911) for Shop */
      , (20923, 4,  8973, -1, 0, 0, False) /* Create Al-Arqas Portal Gem (8973) for Shop */
      , (20923, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (20923, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */

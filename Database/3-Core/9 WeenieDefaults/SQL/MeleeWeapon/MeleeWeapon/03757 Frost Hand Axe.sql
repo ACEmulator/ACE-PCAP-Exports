@@ -47,13 +47,13 @@ VALUES (3757,   1, 'Frost Hand Axe') /* Name */
      , (3757,  16, 'Frost Hand Axe') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3757,   1,   33555705) /* Setup */
-     , (3757,   3,  536870932) /* SoundTable */
-     , (3757,   8,  100670216) /* Icon */
-     , (3757,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3757,   1, 0x020004F9) /* Setup */
+     , (3757,   3, 0x20000014) /* SoundTable */
+     , (3757,   8, 0x06001B08) /* Icon */
+     , (3757,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3757, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3757, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3757, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3757, 8000, 3684607070) /* PCAPRecordedObjectIID */;
+VALUES (3757, 8000, 0xDB9EA45E) /* PCAPRecordedObjectIID */;

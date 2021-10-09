@@ -47,18 +47,18 @@ VALUES (30563,   1, 'Lightning Dolabra') /* Name */
      , (30563,  16, 'Lightning Dolabra') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30563,   1,   33559456) /* Setup */
-     , (30563,   3,  536870932) /* SoundTable */
-     , (30563,   6,   67115558) /* PaletteBase */
-     , (30563,   8,  100686933) /* Icon */
-     , (30563,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30563,   1, 0x020013A0) /* Setup */
+     , (30563,   3, 0x20000014) /* SoundTable */
+     , (30563,   6, 0x04001A26) /* PaletteBase */
+     , (30563,   8, 0x06005C55) /* Icon */
+     , (30563,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30563,  30,         88) /* PhysicsScript - Create */
      , (30563, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30563, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30563, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30563, 8000, 3682992207) /* PCAPRecordedObjectIID */;
+VALUES (30563, 8000, 0xDB86004F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30563, 67116386, 0, 0);

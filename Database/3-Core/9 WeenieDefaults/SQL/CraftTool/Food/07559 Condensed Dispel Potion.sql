@@ -30,18 +30,18 @@ VALUES (7559,   1, 'Condensed Dispel Potion') /* Name */
      , (7559,  16, 'A potion capable of dispelling negative enchantments of level 7 or lower.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7559,   1,   33554603) /* Setup */
-     , (7559,   3,  536870932) /* SoundTable */
-     , (7559,   6,   67111919) /* PaletteBase */
-     , (7559,   8,  100670744) /* Icon */
-     , (7559,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7559,   1, 0x020000AB) /* Setup */
+     , (7559,   3, 0x20000014) /* SoundTable */
+     , (7559,   6, 0x04000BEF) /* PaletteBase */
+     , (7559,   8, 0x06001D18) /* Icon */
+     , (7559,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7559,  28,       3179) /* Spell - DispelAllBadOther7 */
      , (7559, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (7559, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7559, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7559, 8000, 2210356959) /* PCAPRecordedObjectIID */;
+VALUES (7559, 8000, 0x83BF5EDF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7559, 67111919, 0, 0);

@@ -30,21 +30,21 @@ VALUES (23599,   1, 'Runed Chest') /* Name */
      , (23599, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23599,   1,   33558095) /* Setup */
-     , (23599,   2,  150994948) /* MotionTable */
-     , (23599,   3,  536870945) /* SoundTable */
-     , (23599,   8,  100667424) /* Icon */
-     , (23599,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23599,   1, 0x02000E4F) /* Setup */
+     , (23599,   2, 0x09000004) /* MotionTable */
+     , (23599,   3, 0x20000021) /* SoundTable */
+     , (23599,   8, 0x06001020) /* Icon */
+     , (23599,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23599, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (23599, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (23599, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23599, 8040, 622461185, 156.115, 150.195, 12, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (23599, 8040, 0x251A0101, 156.115, 150.195, 12, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x251A0101 [156.115000 150.195000 12.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23599, 8000, 1917952020) /* PCAPRecordedObjectIID */;
+VALUES (23599, 8000, 0x7251A014) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23599, -1, 6045, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Celdon Leggings (6045) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

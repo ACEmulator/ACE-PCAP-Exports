@@ -23,16 +23,16 @@ VALUES (2072,   1, 'Dungeon Muddy') /* Name */
      , (2072, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2072,   1,   33555922) /* Setup */
-     , (2072,   2,  150994947) /* MotionTable */
-     , (2072,   8,  100667499) /* Icon */
+VALUES (2072,   1, 0x020005D2) /* Setup */
+     , (2072,   2, 0x09000003) /* MotionTable */
+     , (2072,   8, 0x0600106B) /* Icon */
      , (2072, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (2072, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (2072, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2072, 8040, 3629973518, 32.049, 125.312, 11.937, -0.8913667, 0, 0, -0.4532829) /* PCAPRecordedLocation */
+VALUES (2072, 8040, 0xD85D000E, 32.049, 125.312, 11.937, -0.891367, 0, 0, -0.453283) /* PCAPRecordedLocation */
 /* @teleloc 0xD85D000E [32.049000 125.312000 11.937000] -0.891367 0.000000 0.000000 -0.453283 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2072, 8000, 2105921546) /* PCAPRecordedObjectIID */;
+VALUES (2072, 8000, 0x7D85D00A) /* PCAPRecordedObjectIID */;

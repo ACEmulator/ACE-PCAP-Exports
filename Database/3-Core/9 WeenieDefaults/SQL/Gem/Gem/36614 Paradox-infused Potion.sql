@@ -20,6 +20,7 @@ VALUES (36614,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36614,  22, True ) /* Inscribable */
+     , (36614,  23, True ) /* DestroyOnSell */
      , (36614,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -27,17 +28,17 @@ VALUES (36614,   1, 'Paradox-infused Potion') /* Name */
      , (36614,  16, 'A large vial of swirling purple fluid.  Even stoppered, a vile smell issues from the vial, and touching it makes your hand spasm in pain.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36614,   1,   33555209) /* Setup */
-     , (36614,   3,  536870932) /* SoundTable */
-     , (36614,   6,   67111919) /* PaletteBase */
-     , (36614,   8,  100670735) /* Icon */
-     , (36614,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36614,   1, 0x02000309) /* Setup */
+     , (36614,   3, 0x20000014) /* SoundTable */
+     , (36614,   6, 0x04000BEF) /* PaletteBase */
+     , (36614,   8, 0x06001D0F) /* Icon */
+     , (36614,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36614, 8001,    2125968) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (36614, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36614, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36614, 8000, 3684473688) /* PCAPRecordedObjectIID */;
+VALUES (36614, 8000, 0xDB9C9B58) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36614, 67111925, 0, 0);

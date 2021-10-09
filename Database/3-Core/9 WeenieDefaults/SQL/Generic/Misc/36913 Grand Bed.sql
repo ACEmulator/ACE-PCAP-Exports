@@ -24,11 +24,11 @@ VALUES (36913,   1, 'Grand Bed') /* Name */
      , (36913,  16, 'A large luxurious bed with a canopy. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36913,   1,   33560423) /* Setup */
-     , (36913,   8,  100689743) /* Icon */
+VALUES (36913,   1, 0x02001767) /* Setup */
+     , (36913,   8, 0x0600674F) /* Icon */
      , (36913, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (36913, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36913, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36913, 8000, 2192145778) /* PCAPRecordedObjectIID */;
+VALUES (36913, 8000, 0x82A97D72) /* PCAPRecordedObjectIID */;

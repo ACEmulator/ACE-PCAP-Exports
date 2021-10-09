@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52810,   1, 'Gear Knight Invasion Area Portal Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52810,   1,   33557625) /* Setup */
-     , (52810,   3,  536870932) /* SoundTable */
-     , (52810,   8,  100693311) /* Icon */
-     , (52810,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52810,   1, 0x02000C79) /* Setup */
+     , (52810,   3, 0x20000014) /* SoundTable */
+     , (52810,   8, 0x0600753F) /* Icon */
+     , (52810,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52810,  28,        157) /* Spell - SummonPortal1 */
      , (52810, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (52810, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -37,4 +37,4 @@ VALUES (52810,   1,   33557625) /* Setup */
      , (52810, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52810, 8000,      52810) /* PCAPRecordedObjectIID */;
+VALUES (52810, 8000, 0x0000CE4A) /* PCAPRecordedObjectIID */;

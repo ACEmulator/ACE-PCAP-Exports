@@ -25,22 +25,22 @@ VALUES (30937,   1, 'Sword Swallower') /* Name */
      , (30937, 8006, 'BgA8AOkGBlA7AR8A+MMUQ3SaiMLh+j/C8O9BALZtC0DNzMw9AADIQgAAgD8AAHBBAAAAAAAAGEA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30937,   1,   33559121) /* Setup */
-     , (30937,   2,  150995322) /* MotionTable */
-     , (30937,   3,  536871097) /* SoundTable */
-     , (30937,   6,   67115387) /* PaletteBase */
-     , (30937,   8,  100677365) /* Icon */
-     , (30937,  22,  872415409) /* PhysicsEffectTable */
+VALUES (30937,   1, 0x02001251) /* Setup */
+     , (30937,   2, 0x0900017A) /* MotionTable */
+     , (30937,   3, 0x200000B9) /* SoundTable */
+     , (30937,   6, 0x0400197B) /* PaletteBase */
+     , (30937,   8, 0x060036F5) /* Icon */
+     , (30937,  22, 0x340000B1) /* PhysicsEffectTable */
      , (30937, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (30937, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (30937, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30937, 8040, 2031891, 138.6641, -5.343601, -48, 0.07946148, 0, 0, -0.9968379) /* PCAPRecordedLocation */
+VALUES (30937, 8040, 0x001F0113, 138.6641, -5.343601, -48, 0.079461, 0, 0, -0.996838) /* PCAPRecordedLocation */
 /* @teleloc 0x001F0113 [138.664100 -5.343601 -48.000000] 0.079461 0.000000 0.000000 -0.996838 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30937, 8000, 3705297418) /* PCAPRecordedObjectIID */;
+VALUES (30937, 8000, 0xDCDA5A0A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30937,   1, 350, 0, 0) /* Strength */

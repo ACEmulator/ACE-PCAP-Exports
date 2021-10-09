@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35557,   1,        256) /* ItemType - MissileWeapon */
      , (35557,   5,          6) /* EncumbranceVal */
      , (35557,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (35557,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (35557,  11,        250) /* MaxStackSize */
      , (35557,  12,          1) /* StackSize */
      , (35557,  13,          6) /* StackUnitEncumbrance */
@@ -20,7 +19,7 @@ VALUES (35557,   1,        256) /* ItemType - MissileWeapon */
      , (35557,  45,          8) /* DamageType - Cold */
      , (35557,  48,         47) /* WeaponSkill - MissileWeapons */
      , (35557,  49,          1) /* WeaponTime */
-     , (35557,  51,          2) /* CombatUse - Missle */
+     , (35557,  51,          2) /* CombatUse - Missile */
      , (35557,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (35557, 106,        500) /* ItemSpellcraft */
      , (35557, 107,      10000) /* ItemCurMana */
@@ -59,11 +58,11 @@ VALUES (35557,   1, 'Throwing Dagger of Ice') /* Name */
      , (35557,  20, 'Throwing Daggers of Ice') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35557,   1,   33559364) /* Setup */
-     , (35557,   3,  536870932) /* SoundTable */
-     , (35557,   8,  100686579) /* Icon */
-     , (35557,  22,  872415275) /* PhysicsEffectTable */
-     , (35557,  52,  100689403) /* IconUnderlay */
+VALUES (35557,   1, 0x02001344) /* Setup */
+     , (35557,   3, 0x20000014) /* SoundTable */
+     , (35557,   8, 0x06005AF3) /* Icon */
+     , (35557,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35557,  52, 0x060065FB) /* IconUnderlay */
      , (35557, 8001,    2339345) /* PCAPRecordedWeenieHeader - PluralName, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (35557, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (35557, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
@@ -71,13 +70,13 @@ VALUES (35557,   1,   33559364) /* Setup */
      , (35557, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35557, 8040, 2847080494, 135.2953, 139.2291, 108.0008, -0.6320162, -0.6320162, -0.317105, -0.317105) /* PCAPRecordedLocation */
+VALUES (35557, 8040, 0xA9B3002E, 135.2953, 139.2291, 108.0008, -0.632016, -0.632016, -0.317105, -0.317105) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B3002E [135.295300 139.229100 108.000800] -0.632016 -0.632016 -0.317105 -0.317105 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35557, 8000, 3622459297) /* PCAPRecordedObjectIID */
-     , (35557, 8008, 1344174979) /* PCAPRecordedParentIID */;
+VALUES (35557, 8000, 0xD7EA57A1) /* PCAPRecordedObjectIID */
+     , (35557, 8008, 0x501E7B83) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35557,  2206,      2)  /* BowMasteryOther7 */
-     , (35557,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */;
+VALUES (35557,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+     , (35557,  2206,      2)  /* MissileWeaponsMasteryOther7 */;

@@ -42,21 +42,21 @@ VALUES (6061,   1, 'Gelidite Robe') /* Name */
      , (6061,  25, 'Jungle Souljah') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6061,   1,   33554854) /* Setup */
-     , (6061,   3,  536870932) /* SoundTable */
-     , (6061,   6,   67108990) /* PaletteBase */
-     , (6061,   8,  100670352) /* Icon */
-     , (6061,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6061,   1, 0x020001A6) /* Setup */
+     , (6061,   3, 0x20000014) /* SoundTable */
+     , (6061,   6, 0x0400007E) /* PaletteBase */
+     , (6061,   8, 0x06001B90) /* Icon */
+     , (6061,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6061, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (6061, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6061, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6061, 8000, 2401430619) /* PCAPRecordedObjectIID */;
+VALUES (6061, 8000, 0x8F22EC5B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6061,  1518,      2)  /* FrostLure2 */
-     , (6061,  1549,      2)  /* FlameBane3 */;
+VALUES (6061,  1549,      2)  /* FlameBane3 */
+     , (6061,  1518,      2)  /* FrostLure2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6061, 67109945, 96, 12)

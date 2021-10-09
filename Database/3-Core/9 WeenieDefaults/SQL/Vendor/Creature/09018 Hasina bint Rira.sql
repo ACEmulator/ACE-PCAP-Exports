@@ -36,27 +36,27 @@ VALUES (9018,   1, 'Hasina bint Rira') /* Name */
      , (9018, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9018,   1,   33554510) /* Setup */
-     , (9018,   2,  150994945) /* MotionTable */
-     , (9018,   3,  536870914) /* SoundTable */
-     , (9018,   6,   67108990) /* PaletteBase */
-     , (9018,   8,  100667446) /* Icon */
-     , (9018,   9,   83890276) /* EyesTexture */
-     , (9018,  10,   83890316) /* NoseTexture */
-     , (9018,  11,   83890334) /* MouthTexture */
-     , (9018,  15,   67117000) /* HairPalette */
-     , (9018,  16,   67110062) /* EyesPalette */
-     , (9018,  17,   67109554) /* SkinPalette */
+VALUES (9018,   1, 0x0200004E) /* Setup */
+     , (9018,   2, 0x09000001) /* MotionTable */
+     , (9018,   3, 0x20000002) /* SoundTable */
+     , (9018,   6, 0x0400007E) /* PaletteBase */
+     , (9018,   8, 0x06001036) /* Icon */
+     , (9018,   9, 0x05001064) /* EyesTexture */
+     , (9018,  10, 0x0500108C) /* NoseTexture */
+     , (9018,  11, 0x0500109E) /* MouthTexture */
+     , (9018,  15, 0x04001FC8) /* HairPalette */
+     , (9018,  16, 0x040004AE) /* EyesPalette */
+     , (9018,  17, 0x040002B2) /* SkinPalette */
      , (9018, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (9018, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (9018, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9018, 8040, 2519334975, 173.9942, 157.101, 98.62389, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (9018, 8040, 0x962A003F, 173.9942, 157.101, 98.62389, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x962A003F [173.994200 157.101000 98.623890] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9018, 8000, 3361160795) /* PCAPRecordedObjectIID */;
+VALUES (9018, 8000, 0xC8573E5B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9018,   1,  95, 0, 0) /* Strength */
@@ -256,10 +256,7 @@ VALUES (9018, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (9018, 4,  5541, -1, 0, 0, False) /* Create Wand (5541) for Shop */
      , (9018, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (9018, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
-     , (9018, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
-     , (9018, 4,   687, -1, 0, 0, False) /* Create Gold Scarab (687) for Shop */
-     , (9018, 4, 45117, -1, 0, 0, False) /* Create Frost Hammer (45117) for Shop */
-     , (9018, 4,   105, -1, 0, 0, False) /* Create Studded Leather Sleeves (105) for Shop */;
+     , (9018, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9018, 67109551, 0, 24)

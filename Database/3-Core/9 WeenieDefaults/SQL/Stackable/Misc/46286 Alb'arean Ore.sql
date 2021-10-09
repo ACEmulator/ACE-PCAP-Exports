@@ -17,7 +17,8 @@ VALUES (46286,   1,        128) /* ItemType - Misc */
      , (46286, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46286,  69, False) /* IsSellable */;
+VALUES (46286,  23, True ) /* DestroyOnSell */
+     , (46286,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46286,  39,    0.25) /* DefaultScale */;
@@ -28,13 +29,13 @@ VALUES (46286,   1, 'Alb''arean Ore') /* Name */
      , (46286,  15, 'A small stone found in the Gearknight Invasion Area on the Inner Sea.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46286,   1,   33561459) /* Setup */
-     , (46286,   3,  536870932) /* SoundTable */
-     , (46286,   8,  100692660) /* Icon */
-     , (46286,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46286,   1, 0x02001B73) /* Setup */
+     , (46286,   3, 0x20000014) /* SoundTable */
+     , (46286,   8, 0x060072B4) /* Icon */
+     , (46286,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46286, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (46286, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (46286, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46286, 8000, 2224240285) /* PCAPRecordedObjectIID */;
+VALUES (46286, 8000, 0x8493369D) /* PCAPRecordedObjectIID */;

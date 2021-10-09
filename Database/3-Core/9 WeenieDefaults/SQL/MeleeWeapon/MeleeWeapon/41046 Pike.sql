@@ -53,25 +53,22 @@ VALUES (41046,   1, 'Pike') /* Name */
      , (41046,  16, 'Pike of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41046,   1,   33560875) /* Setup */
-     , (41046,   3,  536870932) /* SoundTable */
-     , (41046,   6,   67115558) /* PaletteBase */
-     , (41046,   8,  100690640) /* Icon */
-     , (41046,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41046,   1, 0x0200192B) /* Setup */
+     , (41046,   3, 0x20000014) /* SoundTable */
+     , (41046,   6, 0x04001A26) /* PaletteBase */
+     , (41046,   8, 0x06006AD0) /* Icon */
+     , (41046,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41046,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41046, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41046, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41046, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41046, 8000, 3214068924) /* PCAPRecordedObjectIID */;
+VALUES (41046, 8000, 0xBF92CCBC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41046,  1615,      2)  /* BloodDrinkerSelf5 */
      , (41046,  1626,      2)  /* SwiftKillerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41046, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41046, 67116386, 0, 0);

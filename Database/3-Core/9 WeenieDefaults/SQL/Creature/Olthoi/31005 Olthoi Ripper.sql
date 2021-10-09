@@ -26,22 +26,22 @@ VALUES (31005,   1, 'Olthoi Ripper') /* Name */
      , (31005, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31005,   1,   33557046) /* Setup */
-     , (31005,   2,  150995130) /* MotionTable */
-     , (31005,   3,  536871036) /* SoundTable */
-     , (31005,   8,  100667623) /* Icon */
-     , (31005,  22,  872415378) /* PhysicsEffectTable */
+VALUES (31005,   1, 0x02000A36) /* Setup */
+     , (31005,   2, 0x090000BA) /* MotionTable */
+     , (31005,   3, 0x2000007C) /* SoundTable */
+     , (31005,   8, 0x060010E7) /* Icon */
+     , (31005,  22, 0x34000092) /* PhysicsEffectTable */
      , (31005,  30,         86) /* PhysicsScript - BreatheAcid */
      , (31005, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (31005, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (31005, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31005, 8040, 6554221, 219.104, -131.889, -18.0128, 0.9978057, 0, 0, 0.06621088) /* PCAPRecordedLocation */
+VALUES (31005, 8040, 0x0064026D, 219.104, -131.889, -18.0128, 0.997806, 0, 0, 0.066211) /* PCAPRecordedLocation */
 /* @teleloc 0x0064026D [219.104000 -131.889000 -18.012800] 0.997806 0.000000 0.000000 0.066211 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31005, 8000, 3354646624) /* PCAPRecordedObjectIID */;
+VALUES (31005, 8000, 0xC7F3D860) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31005,   1, 390, 0, 0) /* Strength */
@@ -60,6 +60,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (31005, 2, 47238,  1, 0, 0, False) /* Create Acid Board with Nail (47238) for Wield */
      , (31005, 2, 47257,  1, 0, 0, False) /* Create Board with Nail (47257) for Wield */
      , (31005, 2, 30625,  1, 0, 0, False) /* Create War Bow (30625) for Wield */
+     , (31005, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
      , (31005, 9, 43491,  2, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
      , (31005, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
      , (31005, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */

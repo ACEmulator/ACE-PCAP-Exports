@@ -18,18 +18,18 @@ VALUES (4662,   1, 'Desert Magic Supplies') /* Name */
      , (4662,  16, 'Desert Magic Supplies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4662,   1,   33555909) /* Setup */
-     , (4662,   8,  100668115) /* Icon */
+VALUES (4662,   1, 0x020005C5) /* Setup */
+     , (4662,   8, 0x060012D3) /* Icon */
      , (4662, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (4662, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4662, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4662, 8040, 2655256612, 105.28, 91.3889, 81.7, -0.002575319, 0, 0, -0.9999967) /* PCAPRecordedLocation */
+VALUES (4662, 8040, 0x9E440024, 105.28, 91.3889, 81.7, -0.002575, 0, 0, -0.999997) /* PCAPRecordedLocation */
 /* @teleloc 0x9E440024 [105.280000 91.388900 81.700000] -0.002575 0.000000 0.000000 -0.999997 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4662, 8000, 2045001743) /* PCAPRecordedObjectIID */;
+VALUES (4662, 8000, 0x79E4400F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (4662, 0, 83892071, 83892184);

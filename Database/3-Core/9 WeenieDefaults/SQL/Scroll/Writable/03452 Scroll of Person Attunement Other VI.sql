@@ -24,13 +24,13 @@ VALUES (3452,   1, 'Scroll of Person Attunement Other VI') /* Name */
 Increases the target''s Assess Person skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3452,   1,   33554826) /* Setup */
-     , (3452,   8,  100676448) /* Icon */
-     , (3452,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3452,   1, 0x0200018A) /* Setup */
+     , (3452,   8, 0x06003360) /* Icon */
+     , (3452,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3452,  28,        835) /* Spell - PersonAttunementOther6 */
      , (3452, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3452, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3452, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3452, 8000, 3682718917) /* PCAPRecordedObjectIID */;
+VALUES (3452, 8000, 0xDB81D4C5) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (20551,   1, 'Scroll of Ar-Pei''s Blessing') /* Name */
 Increases the caster''s Leadership skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20551,   1,   33554826) /* Setup */
-     , (20551,   8,  100676446) /* Icon */
-     , (20551,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20551,   1, 0x0200018A) /* Setup */
+     , (20551,   8, 0x0600335E) /* Icon */
+     , (20551,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20551,  28,       2263) /* Spell - LeadershipMasterySelf7 */
      , (20551, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20551, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20551, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20551, 8000, 3691899368) /* PCAPRecordedObjectIID */;
+VALUES (20551, 8000, 0xDC0DE9E8) /* PCAPRecordedObjectIID */;

@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43356,   1, 'Scroll of Void Magic Mastery Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43356,   1,   33554826) /* Setup */
-     , (43356,   8,  100691548) /* Icon */
-     , (43356,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43356,   1, 0x0200018A) /* Setup */
+     , (43356,   8, 0x06006E5C) /* Icon */
+     , (43356,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43356,  28,       5403) /* Spell - VoidMagicMasteryOther1 */
      , (43356, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43356, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -31,4 +31,4 @@ VALUES (43356,   1,   33554826) /* Setup */
      , (43356, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43356, 8000,      43356) /* PCAPRecordedObjectIID */;
+VALUES (43356, 8000, 0x0000A95C) /* PCAPRecordedObjectIID */;

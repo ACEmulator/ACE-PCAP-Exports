@@ -36,27 +36,27 @@ VALUES (8440,   1, 'Weaponsmith Illic Ibn''Abulfiq') /* Name */
      , (8440, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8440,   1,   33554433) /* Setup */
-     , (8440,   2,  150994945) /* MotionTable */
-     , (8440,   3,  536870913) /* SoundTable */
-     , (8440,   6,   67108990) /* PaletteBase */
-     , (8440,   8,  100667446) /* Icon */
-     , (8440,   9,   83890470) /* EyesTexture */
-     , (8440,  10,   83890541) /* NoseTexture */
-     , (8440,  11,   83890666) /* MouthTexture */
-     , (8440,  15,   67116994) /* HairPalette */
-     , (8440,  16,   67109567) /* EyesPalette */
-     , (8440,  17,   67109553) /* SkinPalette */
+VALUES (8440,   1, 0x02000001) /* Setup */
+     , (8440,   2, 0x09000001) /* MotionTable */
+     , (8440,   3, 0x20000001) /* SoundTable */
+     , (8440,   6, 0x0400007E) /* PaletteBase */
+     , (8440,   8, 0x06001036) /* Icon */
+     , (8440,   9, 0x05001126) /* EyesTexture */
+     , (8440,  10, 0x0500116D) /* NoseTexture */
+     , (8440,  11, 0x050011EA) /* MouthTexture */
+     , (8440,  15, 0x04001FC2) /* HairPalette */
+     , (8440,  16, 0x040002BF) /* EyesPalette */
+     , (8440,  17, 0x040002B1) /* SkinPalette */
      , (8440, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (8440, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (8440, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8440, 8040, 3911319814, 64.9374, 30.5391, 16.805, -0.9464321, 0, 0, -0.3229029) /* PCAPRecordedLocation */
+VALUES (8440, 8040, 0xE9220106, 64.9374, 30.5391, 16.805, -0.946432, 0, 0, -0.322903) /* PCAPRecordedLocation */
 /* @teleloc 0xE9220106 [64.937400 30.539100 16.805000] -0.946432 0.000000 0.000000 -0.322903 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8440, 8000, 2123505681) /* PCAPRecordedObjectIID */;
+VALUES (8440, 8000, 0x7E922011) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (8440,   1,     0, 0, 0, 185) /* MaxHealth */;

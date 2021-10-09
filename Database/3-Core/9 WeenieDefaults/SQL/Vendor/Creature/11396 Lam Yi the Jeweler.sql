@@ -36,27 +36,27 @@ VALUES (11396,   1, 'Lam Yi the Jeweler') /* Name */
      , (11396, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11396,   1,   33554510) /* Setup */
-     , (11396,   2,  150994945) /* MotionTable */
-     , (11396,   3,  536870914) /* SoundTable */
-     , (11396,   6,   67108990) /* PaletteBase */
-     , (11396,   8,  100667446) /* Icon */
-     , (11396,   9,   83890275) /* EyesTexture */
-     , (11396,  10,   83890302) /* NoseTexture */
-     , (11396,  11,   83890355) /* MouthTexture */
-     , (11396,  15,   67116991) /* HairPalette */
-     , (11396,  16,   67110062) /* EyesPalette */
-     , (11396,  17,   67110059) /* SkinPalette */
+VALUES (11396,   1, 0x0200004E) /* Setup */
+     , (11396,   2, 0x09000001) /* MotionTable */
+     , (11396,   3, 0x20000002) /* SoundTable */
+     , (11396,   6, 0x0400007E) /* PaletteBase */
+     , (11396,   8, 0x06001036) /* Icon */
+     , (11396,   9, 0x05001063) /* EyesTexture */
+     , (11396,  10, 0x0500107E) /* NoseTexture */
+     , (11396,  11, 0x050010B3) /* MouthTexture */
+     , (11396,  15, 0x04001FBF) /* HairPalette */
+     , (11396,  16, 0x040004AE) /* EyesPalette */
+     , (11396,  17, 0x040004AB) /* SkinPalette */
      , (11396, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (11396, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (11396, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11396, 8040, 397541659, 108.972, 37.0342, 43.705, 0.8546992, 0, 0, -0.5191236) /* PCAPRecordedLocation */
+VALUES (11396, 8040, 0x17B2011B, 108.972, 37.0342, 43.705, 0.854699, 0, 0, -0.519124) /* PCAPRecordedLocation */
 /* @teleloc 0x17B2011B [108.972000 37.034200 43.705000] 0.854699 0.000000 0.000000 -0.519124 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11396, 8000, 1903894534) /* PCAPRecordedObjectIID */;
+VALUES (11396, 8000, 0x717B2006) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11396,   1,  40, 0, 0) /* Strength */
@@ -98,16 +98,7 @@ VALUES (11396, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) 
      , (11396, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
      , (11396, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (11396, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
-     , (11396, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings (23204) for Shop */
-     , (11396, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
-     , (11396, 4, 41488, -1, 0, 0, False) /* Create Top (41488) for Shop */
-     , (11396, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (11396, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
-     , (11396, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (11396, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (11396, 4,  7886, -1, 0, 0, False) /* Create Baron's Amulet of Life Giving (7886) for Shop */
-     , (11396, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
-     , (11396, 4,  2422, -1, 0, 0, False) /* Create Gem (2422) for Shop */;
+     , (11396, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings (23204) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11396, 67109969, 92, 4)

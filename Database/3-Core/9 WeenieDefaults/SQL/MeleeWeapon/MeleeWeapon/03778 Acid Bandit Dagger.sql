@@ -50,18 +50,18 @@ VALUES (3778,   1, 'Acid Bandit Dagger') /* Name */
      , (3778,  16, 'Acid Dagger of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3778,   1,   33555706) /* Setup */
-     , (3778,   3,  536870932) /* SoundTable */
-     , (3778,   8,  100667589) /* Icon */
-     , (3778,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3778,   1, 0x020004FA) /* Setup */
+     , (3778,   3, 0x20000014) /* SoundTable */
+     , (3778,   8, 0x060010C5) /* Icon */
+     , (3778,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3778,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3778, 8001, 2434876048) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3778, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3778, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3778, 8000, 2541837504) /* PCAPRecordedObjectIID */;
+VALUES (3778, 8000, 0x97815CC0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3778,  1378,      2)  /* CoordinationSelf6 */
-     , (3778,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (3778,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (3778,  1378,      2)  /* CoordinationSelf6 */;

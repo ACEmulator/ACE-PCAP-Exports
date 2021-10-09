@@ -27,22 +27,22 @@ VALUES (46931,   1, 'Ancient Aqueous Knight') /* Name */
      , (46931, 8006, 'AAA9AEYAAADTAAAAAEAAAIC/AAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46931,   1,   33559686) /* Setup */
-     , (46931,   2,  150994945) /* MotionTable */
-     , (46931,   3,  536871066) /* SoundTable */
-     , (46931,   6,   67116522) /* PaletteBase */
-     , (46931,   8,  100672514) /* Icon */
-     , (46931,  22,  872415322) /* PhysicsEffectTable */
+VALUES (46931,   1, 0x02001486) /* Setup */
+     , (46931,   2, 0x09000001) /* MotionTable */
+     , (46931,   3, 0x2000009A) /* SoundTable */
+     , (46931,   6, 0x04001DEA) /* PaletteBase */
+     , (46931,   8, 0x06002402) /* Icon */
+     , (46931,  22, 0x3400005A) /* PhysicsEffectTable */
      , (46931, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46931, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (46931, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46931, 8040, 1481638205, 50.0948, -18.1353, 0.003250003, -0.7416742, 0, 0, -0.6707603) /* PCAPRecordedLocation */
+VALUES (46931, 8040, 0x5850013D, 50.0948, -18.1353, 0.00325, -0.741674, 0, 0, -0.67076) /* PCAPRecordedLocation */
 /* @teleloc 0x5850013D [50.094800 -18.135300 0.003250] -0.741674 0.000000 0.000000 -0.670760 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46931, 8000, 3699554881) /* PCAPRecordedObjectIID */;
+VALUES (46931, 8000, 0xDC82BA41) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46931,   1, 210, 0, 0) /* Strength */

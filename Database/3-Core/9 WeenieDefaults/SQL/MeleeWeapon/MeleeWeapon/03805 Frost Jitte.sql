@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3805,   1,          1) /* ItemType - MeleeWeapon */
      , (3805,   5,        259) /* EncumbranceVal */
      , (3805,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (3805,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (3805,  16,          1) /* ItemUseable - No */
      , (3805,  18,        129) /* UiEffects - Magical, Frost */
      , (3805,  19,       5844) /* Value */
@@ -54,10 +53,10 @@ VALUES (3805,   1, 'Frost Jitte') /* Name */
      , (3805,  16, 'Frost Jitte of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3805,   1,   33555762) /* Setup */
-     , (3805,   3,  536870932) /* SoundTable */
-     , (3805,   8,  100668902) /* Icon */
-     , (3805,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3805,   1, 0x02000532) /* Setup */
+     , (3805,   3, 0x20000014) /* SoundTable */
+     , (3805,   8, 0x060015E6) /* Icon */
+     , (3805,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3805,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3805, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (3805, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -65,12 +64,12 @@ VALUES (3805,   1,   33555762) /* Setup */
      , (3805, 8009,          8) /* PCAPRecordedParentLocation - LeftWeapon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3805, 8040, 3465871413, 162.24, 100.031, 19.929, 0.5872574, 0.5872574, -0.3938638, -0.3938638) /* PCAPRecordedLocation */
+VALUES (3805, 8040, 0xCE950035, 162.24, 100.031, 19.929, 0.587257, 0.587257, -0.393864, -0.393864) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [162.240000 100.031000 19.929000] 0.587257 0.587257 -0.393864 -0.393864 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3805, 8000, 3707902311) /* PCAPRecordedObjectIID */
-     , (3805, 8008, 1343493492) /* PCAPRecordedParentIID */;
+VALUES (3805, 8000, 0xDD021967) /* PCAPRecordedObjectIID */
+     , (3805, 8008, 0x50141574) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3805,  1604,      2)  /* DefenderSelf5 */

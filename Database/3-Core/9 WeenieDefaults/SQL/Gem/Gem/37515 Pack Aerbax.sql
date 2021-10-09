@@ -26,13 +26,13 @@ VALUES (37515,   1, 'Pack Aerbax') /* Name */
      , (37515, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37515,   1,   33560565) /* Setup */
-     , (37515,   2,  150995435) /* MotionTable */
-     , (37515,   8,  100689881) /* Icon */
-     , (37515,  22,  872415273) /* PhysicsEffectTable */
+VALUES (37515,   1, 0x020017F5) /* Setup */
+     , (37515,   2, 0x090001EB) /* MotionTable */
+     , (37515,   8, 0x060067D9) /* Icon */
+     , (37515,  22, 0x34000029) /* PhysicsEffectTable */
      , (37515, 8001,  271073296) /* PCAPRecordedWeenieHeader - Usable, Container, TargetType, Burden, HookType */
      , (37515, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37515, 8005,      69763) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37515, 8000, 2151959816) /* PCAPRecordedObjectIID */;
+VALUES (37515, 8000, 0x80444D08) /* PCAPRecordedObjectIID */;

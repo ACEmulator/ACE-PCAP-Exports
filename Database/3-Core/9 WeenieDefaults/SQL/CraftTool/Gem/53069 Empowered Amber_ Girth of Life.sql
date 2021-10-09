@@ -22,17 +22,17 @@ VALUES (53069,   1, 'Empowered Amber: Girth of Life') /* Name */
      , (53069,  20, 'Empowered Ambers: Girth of Life') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53069,   1,   33554809) /* Setup */
-     , (53069,   3,  536870932) /* SoundTable */
-     , (53069,   6,   67111919) /* PaletteBase */
-     , (53069,   8,  100693327) /* Icon */
-     , (53069,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53069,   1, 0x02000179) /* Setup */
+     , (53069,   3, 0x20000014) /* SoundTable */
+     , (53069,   6, 0x04000BEF) /* PaletteBase */
+     , (53069,   8, 0x0600754F) /* Icon */
+     , (53069,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53069, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (53069, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (53069, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53069, 8000, 2955208686) /* PCAPRecordedObjectIID */;
+VALUES (53069, 8000, 0xB024E7EE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53069, 67111921, 0, 0);

@@ -24,13 +24,13 @@ VALUES (20561,   1, 'Scroll of Celdiseth''s Boon') /* Name */
 Increases the target''s Magic Item Tinkering skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20561,   1,   33554826) /* Setup */
-     , (20561,   8,  100676477) /* Icon */
-     , (20561,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20561,   1, 0x0200018A) /* Setup */
+     , (20561,   8, 0x0600337D) /* Icon */
+     , (20561,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20561,  28,       2276) /* Spell - MagicItemExpertiseOther7 */
      , (20561, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20561, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20561, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20561, 8000, 3699122570) /* PCAPRecordedObjectIID */;
+VALUES (20561, 8000, 0xDC7C218A) /* PCAPRecordedObjectIID */;

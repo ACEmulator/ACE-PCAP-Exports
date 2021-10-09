@@ -23,13 +23,13 @@ VALUES (5789,   1, 'Brown Lump') /* Name */
      , (5789,  20, 'Brown Lumps') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5789,   1,   33556232) /* Setup */
-     , (5789,   3,  536870932) /* SoundTable */
-     , (5789,   8,  100670291) /* Icon */
-     , (5789,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5789,   1, 0x02000708) /* Setup */
+     , (5789,   3, 0x20000014) /* SoundTable */
+     , (5789,   8, 0x06001B53) /* Icon */
+     , (5789,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5789, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (5789, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5789, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5789, 8000, 2461619416) /* PCAPRecordedObjectIID */;
+VALUES (5789, 8000, 0x92B954D8) /* PCAPRecordedObjectIID */;

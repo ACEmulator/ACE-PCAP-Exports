@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53369,   1, 'Scroll of Radiant Blood Recall') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53369,   1,   33554826) /* Setup */
-     , (53369,   8,  100693332) /* Icon */
-     , (53369,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53369,   1, 0x0200018A) /* Setup */
+     , (53369,   8, 0x06007554) /* Icon */
+     , (53369,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53369,  28,       6327) /* Spell - RadiantBloodStrongholdRecall */
      , (53369, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (53369, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (53369, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53369, 8000, 3094667379) /* PCAPRecordedObjectIID */;
+VALUES (53369, 8000, 0xB874E073) /* PCAPRecordedObjectIID */;

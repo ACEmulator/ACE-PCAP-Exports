@@ -24,17 +24,17 @@ VALUES (23924,   1, 'Hangover Cure') /* Name */
      , (23924,  16, 'Ulgrim''s guaranteed Hangover Cure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23924,   1,   33554603) /* Setup */
-     , (23924,   3,  536870932) /* SoundTable */
-     , (23924,   6,   67111919) /* PaletteBase */
-     , (23924,   8,  100674085) /* Icon */
-     , (23924,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23924,   1, 0x020000AB) /* Setup */
+     , (23924,   3, 0x20000014) /* SoundTable */
+     , (23924,   6, 0x04000BEF) /* PaletteBase */
+     , (23924,   8, 0x06002A25) /* Icon */
+     , (23924,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23924, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (23924, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (23924, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23924, 8000, 3665304254) /* PCAPRecordedObjectIID */;
+VALUES (23924, 8000, 0xDA781ABE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23924, 67111922, 0, 0);

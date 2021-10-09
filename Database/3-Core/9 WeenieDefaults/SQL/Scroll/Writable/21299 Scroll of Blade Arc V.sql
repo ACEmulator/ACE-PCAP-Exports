@@ -24,13 +24,13 @@ VALUES (21299,   1, 'Scroll of Blade Arc V') /* Name */
 Shoots a magical blade at the target. The bolt does 68-136 points of slashing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21299,   1,   33554826) /* Setup */
-     , (21299,   8,  100677028) /* Icon */
-     , (21299,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21299,   1, 0x0200018A) /* Setup */
+     , (21299,   8, 0x060035A4) /* Icon */
+     , (21299,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21299,  28,       2757) /* Spell - BladeArc5 */
      , (21299, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (21299, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21299, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21299, 8000, 3703654961) /* PCAPRecordedObjectIID */;
+VALUES (21299, 8000, 0xDCC14A31) /* PCAPRecordedObjectIID */;

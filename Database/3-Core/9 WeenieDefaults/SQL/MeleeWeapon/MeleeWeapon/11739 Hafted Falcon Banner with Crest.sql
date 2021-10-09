@@ -29,6 +29,7 @@ VALUES (11739,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11739,  22, True ) /* Inscribable */
+     , (11739,  23, True ) /* DestroyOnSell */
      , (11739,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -45,16 +46,16 @@ VALUES (11739,   1, 'Hafted Falcon Banner with Crest') /* Name */
      , (11739,  16, 'A hafted, crest tipped banner with a Falcon on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11739,   1,   33557256) /* Setup */
-     , (11739,   3,  536870932) /* SoundTable */
-     , (11739,   8,  100671894) /* Icon */
-     , (11739,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11739,   1, 0x02000B08) /* Setup */
+     , (11739,   3, 0x20000014) /* SoundTable */
+     , (11739,   8, 0x06002196) /* Icon */
+     , (11739,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11739, 8001,    2179728) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
      , (11739, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11739, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11739, 8000, 2629567479) /* PCAPRecordedObjectIID */;
+VALUES (11739, 8000, 0x9CBC03F7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11739,   984,      2)  /* SprintSelf3 */;

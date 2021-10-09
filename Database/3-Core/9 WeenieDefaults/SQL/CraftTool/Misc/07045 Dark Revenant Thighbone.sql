@@ -26,13 +26,13 @@ VALUES (7045,   1, 'Dark Revenant Thighbone') /* Name */
      , (7045,  16, 'The thighbone of a departed Dark Revenant.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7045,   1,   33558170) /* Setup */
-     , (7045,   3,  536870932) /* SoundTable */
-     , (7045,   8,  100673953) /* Icon */
-     , (7045,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7045,   1, 0x02000E9A) /* Setup */
+     , (7045,   3, 0x20000014) /* SoundTable */
+     , (7045,   8, 0x060029A1) /* Icon */
+     , (7045,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7045, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (7045, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7045, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7045, 8000, 3703115081) /* PCAPRecordedObjectIID */;
+VALUES (7045, 8000, 0xDCB90D49) /* PCAPRecordedObjectIID */;

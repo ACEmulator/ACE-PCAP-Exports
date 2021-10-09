@@ -25,23 +25,23 @@ VALUES (34869,   1, 'Pallid Moar') /* Name */
      , (34869, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34869,   1,   33559711) /* Setup */
-     , (34869,   2,  150995346) /* MotionTable */
-     , (34869,   3,  536871018) /* SoundTable */
-     , (34869,   6,   67116748) /* PaletteBase */
-     , (34869,   8,  100671185) /* Icon */
-     , (34869,  22,  872415415) /* PhysicsEffectTable */
+VALUES (34869,   1, 0x0200149F) /* Setup */
+     , (34869,   2, 0x09000192) /* MotionTable */
+     , (34869,   3, 0x2000006A) /* SoundTable */
+     , (34869,   6, 0x04001ECC) /* PaletteBase */
+     , (34869,   8, 0x06001ED1) /* Icon */
+     , (34869,  22, 0x340000B7) /* PhysicsEffectTable */
      , (34869,  30,         84) /* PhysicsScript - BreatheFlame */
      , (34869, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (34869, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (34869, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34869, 8040, 10224366, 81.8799, -177.513, -5.982, 0.3240662, 0, 0, 0.9460344) /* PCAPRecordedLocation */
+VALUES (34869, 8040, 0x009C02EE, 81.8799, -177.513, -5.982, 0.324066, 0, 0, 0.946034) /* PCAPRecordedLocation */
 /* @teleloc 0x009C02EE [81.879900 -177.513000 -5.982000] 0.324066 0.000000 0.000000 0.946034 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34869, 8000, 3708766514) /* PCAPRecordedObjectIID */;
+VALUES (34869, 8000, 0xDD0F4932) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34869,   1,  80, 0, 0) /* Strength */

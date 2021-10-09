@@ -20,11 +20,11 @@ VALUES (44778,   1, 'Undead') /* Name */
      , (44778,  16, 'Undead are the result of Blood Magic, where one person is sacrificed in order to grant another eternal life. The undead we encounter are, for the most part, the remnants of the Empyrean kingdom of Dericost. Long ago, the noble families of the Dericost Kingdom learned necromancy from the Falatacot people. For thousands of years, undead nobles of Dericost ruled the kingdom in secret, through living intermediaries. Eventually the Dericostian nobles, collectively called the Old Lords, were divided into two warring factions: the Latzimestal ("Lords of the World" in the language of the Falatacot) and the Filinuvekta ("Winds From Darkness"). The Latzimestal declared that ruling in secret was cowardly and hypocritical. The undead had power; let them rule openly. So saying, they seized the realm from the Filinuvekta, and launched an aggressive campaign of military expansion. They were ultimately defeated by a coalition lead by the Kingdom of Haebrous, under King Jailne, and the Empire of Yalain, under Empress Alaidain.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44778,   1,   33561378) /* Setup */
-     , (44778,   8,  100668115) /* Icon */
+VALUES (44778,   1, 0x02001B22) /* Setup */
+     , (44778,   8, 0x060012D3) /* Icon */
      , (44778, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44778, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44778, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44778, 8000, 2461616753) /* PCAPRecordedObjectIID */;
+VALUES (44778, 8000, 0x92B94A71) /* PCAPRecordedObjectIID */;

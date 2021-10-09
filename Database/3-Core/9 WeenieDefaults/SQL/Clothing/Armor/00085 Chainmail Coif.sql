@@ -45,24 +45,24 @@ VALUES (85,   1, 'Chainmail Coif') /* Name */
      , (85,  16, 'Chainmail Coif') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (85,   1,   33555048) /* Setup */
-     , (85,   3,  536870932) /* SoundTable */
-     , (85,   6,   67108990) /* PaletteBase */
-     , (85,   8,  100669313) /* Icon */
-     , (85,  22,  872415275) /* PhysicsEffectTable */
+VALUES (85,   1, 0x02000268) /* Setup */
+     , (85,   3, 0x20000014) /* SoundTable */
+     , (85,   6, 0x0400007E) /* PaletteBase */
+     , (85,   8, 0x06001781) /* Icon */
+     , (85,  22, 0x3400002B) /* PhysicsEffectTable */
      , (85,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (85, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (85, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (85, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (85, 8000, 3698570810) /* PCAPRecordedObjectIID */;
+VALUES (85, 8000, 0xDC73B63A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (85,  1485,      2)  /* Impenetrability5 */
-     , (85,  1527,      2)  /* FrostBane5 */
      , (85,  1562,      2)  /* BladeBane6 */
-     , (85,  2605,      2)  /* CANTRIPPIERCINGBANE1 */;
+     , (85,  2605,      2)  /* CANTRIPPIERCINGBANE1 */
+     , (85,  1527,      2)  /* FrostBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (85, 67109978, 240, 10);

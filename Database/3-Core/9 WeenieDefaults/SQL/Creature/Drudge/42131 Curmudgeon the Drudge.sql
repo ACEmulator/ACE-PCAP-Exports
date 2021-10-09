@@ -30,22 +30,22 @@ VALUES (42131,   1, 'Curmudgeon the Drudge') /* Name */
      , (42131, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42131,   1,   33556445) /* Setup */
-     , (42131,   2,  150995408) /* MotionTable */
-     , (42131,   3,  536870919) /* SoundTable */
-     , (42131,   6,   67112812) /* PaletteBase */
-     , (42131,   8,  100667445) /* Icon */
-     , (42131,  22,  872415258) /* PhysicsEffectTable */
+VALUES (42131,   1, 0x020007DD) /* Setup */
+     , (42131,   2, 0x090001D0) /* MotionTable */
+     , (42131,   3, 0x20000007) /* SoundTable */
+     , (42131,   6, 0x04000F6C) /* PaletteBase */
+     , (42131,   8, 0x06001035) /* Icon */
+     , (42131,  22, 0x3400001A) /* PhysicsEffectTable */
      , (42131, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (42131, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (42131, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42131, 8040, 2315387230, 58.74174, -37.34304, -5.9965, 0.2396011, 0, 0, -0.9708714) /* PCAPRecordedLocation */
+VALUES (42131, 8040, 0x8A02015E, 58.74174, -37.34304, -5.9965, 0.239601, 0, 0, -0.970871) /* PCAPRecordedLocation */
 /* @teleloc 0x8A02015E [58.741740 -37.343040 -5.996500] 0.239601 0.000000 0.000000 -0.970871 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42131, 8000, 3689941918) /* PCAPRecordedObjectIID */;
+VALUES (42131, 8000, 0xDBF00B9E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42131,   1, 150, 0, 0) /* Strength */

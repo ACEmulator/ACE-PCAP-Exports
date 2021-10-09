@@ -44,13 +44,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9232,   1, 'Soulrender Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9232,   1,   33556987) /* Setup */
-     , (9232,   3,  536870932) /* SoundTable */
-     , (9232,   8,  100671398) /* Icon */
-     , (9232,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9232,   1, 0x020009FB) /* Setup */
+     , (9232,   3, 0x20000014) /* SoundTable */
+     , (9232,   8, 0x06001FA6) /* Icon */
+     , (9232,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9232, 8001,  270627608) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (9232, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9232, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9232, 8000, 3629915362) /* PCAPRecordedObjectIID */;
+VALUES (9232, 8000, 0xD85C1CE2) /* PCAPRecordedObjectIID */;

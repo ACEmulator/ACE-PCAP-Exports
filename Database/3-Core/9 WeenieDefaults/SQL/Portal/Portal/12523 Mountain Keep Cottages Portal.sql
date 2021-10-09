@@ -22,16 +22,16 @@ VALUES (12523,   1, 'Mountain Keep Cottages Portal') /* Name */
      , (12523, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12523,   1,   33554867) /* Setup */
-     , (12523,   2,  150994947) /* MotionTable */
-     , (12523,   8,  100667499) /* Icon */
+VALUES (12523,   1, 0x020001B3) /* Setup */
+     , (12523,   2, 0x09000003) /* MotionTable */
+     , (12523,   8, 0x0600106B) /* Icon */
      , (12523, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12523, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12523, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12523, 8040, 2880503830, 52.6125, 139.54, 98.41221, 0.4062688, 0, 0, -0.9137536) /* PCAPRecordedLocation */
+VALUES (12523, 8040, 0xABB10016, 52.6125, 139.54, 98.41221, 0.406269, 0, 0, -0.913754) /* PCAPRecordedLocation */
 /* @teleloc 0xABB10016 [52.612500 139.540000 98.412210] 0.406269 0.000000 0.000000 -0.913754 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12523, 8000, 2059079683) /* PCAPRecordedObjectIID */;
+VALUES (12523, 8000, 0x7ABB1003) /* PCAPRecordedObjectIID */;

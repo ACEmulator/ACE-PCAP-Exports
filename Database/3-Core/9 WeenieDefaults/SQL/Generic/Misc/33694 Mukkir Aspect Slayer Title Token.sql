@@ -15,6 +15,7 @@ VALUES (33694,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33694,  22, True ) /* Inscribable */
+     , (33694,  23, True ) /* DestroyOnSell */
      , (33694,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -26,16 +27,16 @@ VALUES (33694,   1, 'Mukkir Aspect Slayer Title Token') /* Name */
      , (33694,  16, 'A token given to you by Varetha, the Emissary of Isin Dule, so that you can prove your assistance in defeating the Mukkir Aspect of Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33694,   1,   33556232) /* Setup */
-     , (33694,   3,  536870932) /* SoundTable */
-     , (33694,   8,  100670890) /* Icon */
-     , (33694,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33694,   1, 0x02000708) /* Setup */
+     , (33694,   3, 0x20000014) /* SoundTable */
+     , (33694,   8, 0x06001DAA) /* Icon */
+     , (33694,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33694, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (33694, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33694, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33694, 8000, 3358994116) /* PCAPRecordedObjectIID */;
+VALUES (33694, 8000, 0xC8362EC4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (33694, 0, 83888868, 83892604);

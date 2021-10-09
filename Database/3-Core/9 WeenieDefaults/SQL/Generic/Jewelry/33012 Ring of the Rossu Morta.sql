@@ -25,6 +25,7 @@ VALUES (33012,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33012,  22, True ) /* Inscribable */
+     , (33012,  23, True ) /* DestroyOnSell */
      , (33012,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -36,23 +37,23 @@ VALUES (33012,   1, 'Ring of the Rossu Morta') /* Name */
      , (33012,  16, 'This ring signifies the bearer as a member of the secretive Ordina Rossu Morta.  It admits the bearer to the chapterhouse at 69.7 N, 62.3 W.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33012,   1,   33554690) /* Setup */
-     , (33012,   3,  536870932) /* SoundTable */
-     , (33012,   8,  100688858) /* Icon */
-     , (33012,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33012,   1, 0x02000102) /* Setup */
+     , (33012,   3, 0x20000014) /* SoundTable */
+     , (33012,   8, 0x060063DA) /* Icon */
+     , (33012,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33012, 8001,  270614672) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (33012, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33012, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33012, 8000, 3455188038) /* PCAPRecordedObjectIID */;
+VALUES (33012, 8000, 0xCDF1FC46) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33012,  2245,      2)  /* InvulnerabilitySelf7 */
-     , (33012,  2686,      2)  /* ModerateAxeAptitude */
-     , (33012,  2687,      2)  /* ModerateBowAptitude */
-     , (33012,  2689,      2)  /* ModerateDaggerAptitude */
+VALUES (33012,  2689,      2)  /* ModerateDaggerAptitude */
+     , (33012,  2245,      2)  /* InvulnerabilitySelf7 */
      , (33012,  2694,      2)  /* ModerateSwordAptitude */
-     , (33012,  2812,      2)  /* ModerateWarMagicAptitude */
      , (33012,  5074,      2)  /* ModerateTwoHandedAptitude */
-     , (33012,  5430,      2)  /* ModerateVoidMagicAptitude */;
+     , (33012,  5430,      2)  /* ModerateVoidMagicAptitude */
+     , (33012,  2812,      2)  /* ModerateWarMagicAptitude */
+     , (33012,  2686,      2)  /* ModerateAxeAptitude */
+     , (33012,  2687,      2)  /* ModerateBowAptitude */;

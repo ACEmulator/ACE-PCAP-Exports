@@ -36,27 +36,27 @@ VALUES (34839,   1, 'Dobblar') /* Name */
      , (34839, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34839,   1,   33554433) /* Setup */
-     , (34839,   2,  150994945) /* MotionTable */
-     , (34839,   3,  536870913) /* SoundTable */
-     , (34839,   6,   67108990) /* PaletteBase */
-     , (34839,   8,  100667446) /* Icon */
-     , (34839,   9,   83890479) /* EyesTexture */
-     , (34839,  10,   83890559) /* NoseTexture */
-     , (34839,  11,   83890658) /* MouthTexture */
-     , (34839,  15,   67116984) /* HairPalette */
-     , (34839,  16,   67110063) /* EyesPalette */
-     , (34839,  17,   67109558) /* SkinPalette */
+VALUES (34839,   1, 0x02000001) /* Setup */
+     , (34839,   2, 0x09000001) /* MotionTable */
+     , (34839,   3, 0x20000001) /* SoundTable */
+     , (34839,   6, 0x0400007E) /* PaletteBase */
+     , (34839,   8, 0x06001036) /* Icon */
+     , (34839,   9, 0x0500112F) /* EyesTexture */
+     , (34839,  10, 0x0500117F) /* NoseTexture */
+     , (34839,  11, 0x050011E2) /* MouthTexture */
+     , (34839,  15, 0x04001FB8) /* HairPalette */
+     , (34839,  16, 0x040004AF) /* EyesPalette */
+     , (34839,  17, 0x040002B6) /* SkinPalette */
      , (34839, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (34839, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (34839, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34839, 8040, 10223917, 239.049, -103.052, -29.995, 0.7377104, 0, 0, -0.6751174) /* PCAPRecordedLocation */
+VALUES (34839, 8040, 0x009C012D, 239.049, -103.052, -29.995, 0.73771, 0, 0, -0.675117) /* PCAPRecordedLocation */
 /* @teleloc 0x009C012D [239.049000 -103.052000 -29.995000] 0.737710 0.000000 0.000000 -0.675117 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34839, 8000, 1879687168) /* PCAPRecordedObjectIID */;
+VALUES (34839, 8000, 0x7009C000) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34839,   1,  40, 0, 0) /* Strength */
@@ -144,6 +144,8 @@ VALUES (34839, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (34839, 4, 29158, -1, 0, 0, False) /* Create Dried Yeast (29158) for Shop */
      , (34839, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (34839, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
+     , (34839, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (34839, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (34839, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (34839, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (34839, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */

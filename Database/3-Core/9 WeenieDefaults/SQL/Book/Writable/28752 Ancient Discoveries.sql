@@ -23,13 +23,13 @@ VALUES (28752,   1, 'Ancient Discoveries') /* Name */
      , (28752,  16, 'A page from the journal of Sir Binwas Loc.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28752,   1,   33554771) /* Setup */
-     , (28752,   3,  536870932) /* SoundTable */
-     , (28752,   8,  100668117) /* Icon */
-     , (28752,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28752,   1, 0x02000153) /* Setup */
+     , (28752,   3, 0x20000014) /* SoundTable */
+     , (28752,   8, 0x060012D5) /* Icon */
+     , (28752,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28752, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (28752, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (28752, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28752, 8000, 2627271620) /* PCAPRecordedObjectIID */;
+VALUES (28752, 8000, 0x9C98FBC4) /* PCAPRecordedObjectIID */;

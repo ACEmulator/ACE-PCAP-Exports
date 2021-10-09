@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43368,   1, 'Scroll of Void Magic Mastery Other III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43368,   1,   33554826) /* Setup */
-     , (43368,   8,  100691548) /* Icon */
-     , (43368,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43368,   1, 0x0200018A) /* Setup */
+     , (43368,   8, 0x06006E5C) /* Icon */
+     , (43368,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43368,  28,       5405) /* Spell - VoidMagicMasteryOther3 */
      , (43368, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43368, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43368, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43368, 8000, 2617796136) /* PCAPRecordedObjectIID */;
+VALUES (43368, 8000, 0x9C086628) /* PCAPRecordedObjectIID */;

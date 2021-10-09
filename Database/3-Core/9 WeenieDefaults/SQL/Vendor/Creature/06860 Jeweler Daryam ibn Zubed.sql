@@ -36,27 +36,27 @@ VALUES (6860,   1, 'Jeweler Daryam ibn Zubed') /* Name */
      , (6860, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6860,   1,   33554433) /* Setup */
-     , (6860,   2,  150994945) /* MotionTable */
-     , (6860,   3,  536870913) /* SoundTable */
-     , (6860,   6,   67108990) /* PaletteBase */
-     , (6860,   8,  100667377) /* Icon */
-     , (6860,   9,   83890454) /* EyesTexture */
-     , (6860,  10,   83890544) /* NoseTexture */
-     , (6860,  11,   83890613) /* MouthTexture */
-     , (6860,  15,   67117071) /* HairPalette */
-     , (6860,  16,   67110062) /* EyesPalette */
-     , (6860,  17,   67109555) /* SkinPalette */
+VALUES (6860,   1, 0x02000001) /* Setup */
+     , (6860,   2, 0x09000001) /* MotionTable */
+     , (6860,   3, 0x20000001) /* SoundTable */
+     , (6860,   6, 0x0400007E) /* PaletteBase */
+     , (6860,   8, 0x06000FF1) /* Icon */
+     , (6860,   9, 0x05001116) /* EyesTexture */
+     , (6860,  10, 0x05001170) /* NoseTexture */
+     , (6860,  11, 0x050011B5) /* MouthTexture */
+     , (6860,  15, 0x0400200F) /* HairPalette */
+     , (6860,  16, 0x040004AE) /* EyesPalette */
+     , (6860,  17, 0x040002B3) /* SkinPalette */
      , (6860, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (6860, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (6860, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6860, 8040, 288620566, 66.773, 129.873, 42.005, 0.6809552, 0, 0, -0.7323251) /* PCAPRecordedLocation */
+VALUES (6860, 8040, 0x11340016, 66.773, 129.873, 42.005, 0.680955, 0, 0, -0.732325) /* PCAPRecordedLocation */
 /* @teleloc 0x11340016 [66.773000 129.873000 42.005000] 0.680955 0.000000 0.000000 -0.732325 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6860, 8000, 3691069476) /* PCAPRecordedObjectIID */;
+VALUES (6860, 8000, 0xDC014024) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6860,   1, 100, 0, 0) /* Strength */
@@ -97,17 +97,7 @@ VALUES (6860, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) f
      , (6860, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (6860, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (6860, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (6860, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (6860, 4,  2408, -1, 0, 0, False) /* Create Gem (2408) for Shop */
-     , (6860, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (6860, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (6860, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
-     , (6860, 4, 49431, -1, 0, 0, False) /* Create Lightning Spectre Essence (125) (49431) for Shop */
-     , (6860, 4, 49341, -1, 0, 0, False) /* Create Acid Moar Essence (125) (49341) for Shop */
-     , (6860, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
-     , (6860, 4, 49437, -1, 0, 0, False) /* Create Fire Spectre Essence (100) (49437) for Shop */
-     , (6860, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
-     , (6860, 4, 41484, -1, 0, 0, False) /* Create Goggles (41484) for Shop */;
+     , (6860, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6860, 67109555, 0, 24)

@@ -45,23 +45,20 @@ VALUES (67,   1, 'Scalemail Greaves') /* Name */
      , (67,  16, 'Scalemail Greaves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (67,   1,   33554641) /* Setup */
-     , (67,   3,  536870932) /* SoundTable */
-     , (67,   6,   67108990) /* PaletteBase */
-     , (67,   8,  100669387) /* Icon */
-     , (67,  22,  872415275) /* PhysicsEffectTable */
+VALUES (67,   1, 0x020000D1) /* Setup */
+     , (67,   3, 0x20000014) /* SoundTable */
+     , (67,   6, 0x0400007E) /* PaletteBase */
+     , (67,   8, 0x060017CB) /* Icon */
+     , (67,  22, 0x3400002B) /* PhysicsEffectTable */
      , (67, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (67, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (67, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (67, 8000, 3698460571) /* PCAPRecordedObjectIID */;
+VALUES (67, 8000, 0xDC72079B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (67,  1485,      2)  /* Impenetrability5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (67, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (67, 67110534, 136, 16);

@@ -18,15 +18,15 @@ VALUES (12602,   1, 'Faranar Foothills') /* Name */
      , (12602,  16, 'Welcome to Faranar Foothills') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12602,   1,   33557463) /* Setup */
-     , (12602,   8,  100668115) /* Icon */
+VALUES (12602,   1, 0x02000BD7) /* Setup */
+     , (12602,   8, 0x060012D3) /* Icon */
      , (12602, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (12602, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12602, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12602, 8040, 2993422381, 136.684, 99.5109, 24.60966, 0.876705, 0, 0, 0.481029) /* PCAPRecordedLocation */
+VALUES (12602, 8040, 0xB26C002D, 136.684, 99.5109, 24.60966, 0.876705, 0, 0, 0.481029) /* PCAPRecordedLocation */
 /* @teleloc 0xB26C002D [136.684000 99.510900 24.609660] 0.876705 0.000000 0.000000 0.481029 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12602, 8000, 2066137467) /* PCAPRecordedObjectIID */;
+VALUES (12602, 8000, 0x7B26C17B) /* PCAPRecordedObjectIID */;

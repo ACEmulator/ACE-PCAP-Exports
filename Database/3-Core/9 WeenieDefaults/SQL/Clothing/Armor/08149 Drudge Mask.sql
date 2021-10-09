@@ -33,16 +33,16 @@ VALUES (8149,   1, 'Drudge Mask') /* Name */
      , (8149,  16, 'A mask made from the head of a Drudge Prowler.  Its skin is very well cured, and the mask is very well put together.  A faint odor still clings to it however...') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8149,   1,   33556823) /* Setup */
-     , (8149,   3,  536870932) /* SoundTable */
-     , (8149,   8,  100671023) /* Icon */
-     , (8149,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8149,   1, 0x02000957) /* Setup */
+     , (8149,   3, 0x20000014) /* SoundTable */
+     , (8149,   8, 0x06001E2F) /* Icon */
+     , (8149,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8149, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (8149, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8149, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8149, 8000, 2981039374) /* PCAPRecordedObjectIID */;
+VALUES (8149, 8000, 0xB1AF0D0E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (8149, 0, 16784983);

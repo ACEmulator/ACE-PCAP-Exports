@@ -21,17 +21,17 @@ VALUES (36738,   1, 'Concentrated Slashing Infusion') /* Name */
      , (36738,  20, 'Concentrated Slashing Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36738,   1,   33555965) /* Setup */
-     , (36738,   3,  536870932) /* SoundTable */
-     , (36738,   6,   67111919) /* PaletteBase */
-     , (36738,   8,  100689711) /* Icon */
-     , (36738,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36738,   1, 0x020005FD) /* Setup */
+     , (36738,   3, 0x20000014) /* SoundTable */
+     , (36738,   6, 0x04000BEF) /* PaletteBase */
+     , (36738,   8, 0x0600672F) /* Icon */
+     , (36738,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36738, 8001,  268988441) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, HookType */
      , (36738, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36738, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36738, 8000, 2148706210) /* PCAPRecordedObjectIID */;
+VALUES (36738, 8000, 0x8012A7A2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36738, 67111920, 0, 0);

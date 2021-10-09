@@ -17,10 +17,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4599,   1, 'Mana Renewal Other I') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4599,   1,   33554680) /* Setup */
-     , (4599,   3,  536870932) /* SoundTable */
-     , (4599,   8,  100668288) /* Icon */
-     , (4599,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4599,   1, 0x020000F8) /* Setup */
+     , (4599,   3, 0x20000014) /* SoundTable */
+     , (4599,   8, 0x06001380) /* Icon */
+     , (4599,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4599,  28,        206) /* Spell - ManaRenewalOther1 */
      , (4599, 8001,    4210712) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Spell */
      , (4599, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
@@ -28,4 +28,4 @@ VALUES (4599,   1,   33554680) /* Setup */
      , (4599, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4599, 8000,       4599) /* PCAPRecordedObjectIID */;
+VALUES (4599, 8000, 0x000011F7) /* PCAPRecordedObjectIID */;

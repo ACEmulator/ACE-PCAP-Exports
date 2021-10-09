@@ -24,13 +24,13 @@ VALUES (40871,   1, 'Northern Gate Key') /* Name */
      , (40871,  16, 'A key marked for use with the northern gate.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40871,   1,   33554784) /* Setup */
-     , (40871,   3,  536870932) /* SoundTable */
-     , (40871,   8,  100667485) /* Icon */
-     , (40871,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40871,   1, 0x02000160) /* Setup */
+     , (40871,   3, 0x20000014) /* SoundTable */
+     , (40871,   8, 0x0600105D) /* Icon */
+     , (40871,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40871, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (40871, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40871, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40871, 8000, 3711259219) /* PCAPRecordedObjectIID */;
+VALUES (40871, 8000, 0xDD355253) /* PCAPRecordedObjectIID */;

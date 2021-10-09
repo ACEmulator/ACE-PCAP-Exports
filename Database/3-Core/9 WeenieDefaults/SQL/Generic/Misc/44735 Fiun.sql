@@ -15,14 +15,15 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44735,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44735,   1, 'Fiun') /* Name */;
+VALUES (44735,   1, 'Fiun') /* Name */
+     , (44735,  16, 'The Fiun Rehgus was considered by many to be the greatest mage in the Fiun world. He was the one who crafted magical cures for the plagues that ravaged their lands. He was the one who taught others the means by which they extended their lives for centuries. And he was the one that stopped the "fire that fell from the sky." But Rehgus'' failing was his obsession with the creation of life. His failed experiment resulted in the creation of the Eaters. Beasts that find most delectable a special gland unique to the Fiun race. Removal of the gland causes madness and led to the wholesale enslavement of the Fiun by King Varrici in order to slake the appetites of his ravenous pets. This explains the hoards of maddened and crazed Fiun that wander the Isle of Ruin. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44735,   1,   33561335) /* Setup */
-     , (44735,   8,  100668115) /* Icon */
+VALUES (44735,   1, 0x02001AF7) /* Setup */
+     , (44735,   8, 0x060012D3) /* Icon */
      , (44735, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44735, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44735, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44735, 8000, 2153689477) /* PCAPRecordedObjectIID */;
+VALUES (44735, 8000, 0x805EB185) /* PCAPRecordedObjectIID */;

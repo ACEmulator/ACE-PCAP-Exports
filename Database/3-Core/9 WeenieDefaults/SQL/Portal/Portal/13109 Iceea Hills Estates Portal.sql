@@ -22,16 +22,16 @@ VALUES (13109,   1, 'Iceea Hills Estates Portal') /* Name */
      , (13109, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13109,   1,   33554867) /* Setup */
-     , (13109,   2,  150994947) /* MotionTable */
-     , (13109,   8,  100667499) /* Icon */
+VALUES (13109,   1, 0x020001B3) /* Setup */
+     , (13109,   2, 0x09000003) /* MotionTable */
+     , (13109,   8, 0x0600106B) /* Icon */
      , (13109, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (13109, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (13109, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13109, 8040, 2762080267, 43.7164, 68.5537, 137.8672, 0.8934991, 0, 0, 0.449065) /* PCAPRecordedLocation */
+VALUES (13109, 8040, 0xA4A2000B, 43.7164, 68.5537, 137.8672, 0.893499, 0, 0, 0.449065) /* PCAPRecordedLocation */
 /* @teleloc 0xA4A2000B [43.716400 68.553700 137.867200] 0.893499 0.000000 0.000000 0.449065 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13109, 8000, 2051678217) /* PCAPRecordedObjectIID */;
+VALUES (13109, 8000, 0x7A4A2009) /* PCAPRecordedObjectIID */;

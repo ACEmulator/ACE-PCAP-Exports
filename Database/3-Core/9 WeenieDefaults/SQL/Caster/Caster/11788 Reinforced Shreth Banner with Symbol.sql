@@ -11,6 +11,7 @@ VALUES (11788,   1,      32768) /* ItemType - Caster */
      , (11788,  18,          1) /* UiEffects - Magical */
      , (11788,  19,          0) /* Value */
      , (11788,  33,          1) /* Bonded - Bonded */
+     , (11788,  46,        512) /* DefaultCombatStyle - Magic */
      , (11788,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11788,  94,         16) /* TargetType - Creature */
      , (11788, 106,        200) /* ItemSpellcraft */
@@ -22,6 +23,7 @@ VALUES (11788,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11788,  22, True ) /* Inscribable */
+     , (11788,  23, True ) /* DestroyOnSell */
      , (11788,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -37,15 +39,15 @@ VALUES (11788,   1, 'Reinforced Shreth Banner with Symbol') /* Name */
      , (11788,  16, 'A reinforced, symbol tipped banner with a shreth on it.  It is relatively well kept, and the colors seem even and pure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11788,   1,   33557261) /* Setup */
-     , (11788,   8,  100671941) /* Icon */
-     , (11788,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11788,   1, 0x02000B0D) /* Setup */
+     , (11788,   8, 0x060021C5) /* Icon */
+     , (11788,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11788, 8001,    2703504) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, TargetType, Burden */
      , (11788, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11788, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11788, 8000, 2917028180) /* PCAPRecordedObjectIID */;
+VALUES (11788, 8000, 0xADDE5154) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11788,   657,      2)  /* ManaMasterySelf5 */

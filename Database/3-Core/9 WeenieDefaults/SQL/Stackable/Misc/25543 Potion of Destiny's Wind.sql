@@ -27,18 +27,18 @@ VALUES (25543,   1, 'Potion of Destiny''s Wind') /* Name */
      , (25543,  20, 'Potions of Destiny''s Wind') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25543,   1,   33554603) /* Setup */
-     , (25543,   3,  536870932) /* SoundTable */
-     , (25543,   6,   67111919) /* PaletteBase */
-     , (25543,   8,  100675052) /* Icon */
-     , (25543,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25543,   1, 0x020000AB) /* Setup */
+     , (25543,   3, 0x20000014) /* SoundTable */
+     , (25543,   6, 0x04000BEF) /* PaletteBase */
+     , (25543,   8, 0x06002DEC) /* Icon */
+     , (25543,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25543,  28,       2979) /* Spell - DestinyWind */
      , (25543, 8001,  274755609) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, Spell, HookType */
      , (25543, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (25543, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25543, 8000, 2157272703) /* PCAPRecordedObjectIID */;
+VALUES (25543, 8000, 0x80955E7F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25543, 67111919, 0, 0);

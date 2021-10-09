@@ -21,13 +21,13 @@ VALUES (14794,   1, 'Cheese Filled Mushroom') /* Name */
      , (14794,  20, 'Cheese Filled Mushrooms') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14794,   1,   33557501) /* Setup */
-     , (14794,   3,  536870932) /* SoundTable */
-     , (14794,   8,  100672564) /* Icon */
-     , (14794,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14794,   1, 0x02000BFD) /* Setup */
+     , (14794,   3, 0x20000014) /* SoundTable */
+     , (14794,   8, 0x06002434) /* Icon */
+     , (14794,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14794, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (14794, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (14794, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14794, 8000, 3709704097) /* PCAPRecordedObjectIID */;
+VALUES (14794, 8000, 0xDD1D97A1) /* PCAPRecordedObjectIID */;

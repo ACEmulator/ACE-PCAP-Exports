@@ -7,12 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40394,   1,      32768) /* ItemType - Caster */
      , (40394,   5,         50) /* EncumbranceVal */
      , (40394,   9,   16777216) /* ValidLocations - Held */
-     , (40394,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (40394,  16,          1) /* ItemUseable - No */
      , (40394,  18,          1) /* UiEffects - Magical */
      , (40394,  19,      20000) /* Value */
      , (40394,  33,          1) /* Bonded - Bonded */
      , (40394,  45,          2) /* DamageType - Pierce */
+     , (40394,  46,        512) /* DefaultCombatStyle - Magic */
      , (40394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40394,  94,         16) /* TargetType - Creature */
      , (40394, 106,        250) /* ItemSpellcraft */
@@ -48,22 +48,22 @@ VALUES (40394,   1, 'Hafted Falcon Banner with Symbol') /* Name */
      , (40394,  25, 'Nihoawa') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40394,   1,   33557258) /* Setup */
-     , (40394,   3,  536870932) /* SoundTable */
-     , (40394,   8,  100671912) /* Icon */
-     , (40394,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40394,   1, 0x02000B0A) /* Setup */
+     , (40394,   3, 0x20000014) /* SoundTable */
+     , (40394,   8, 0x060021A8) /* Icon */
+     , (40394,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40394, 8001,    2850968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden */
      , (40394, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40394, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (40394, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40394, 8040, 4135714867, 145.6859, 49.87566, 57.9295, -0.3306036, -0.3306036, -0.625061, -0.625061) /* PCAPRecordedLocation */
+VALUES (40394, 8040, 0xF6820033, 145.6859, 49.87566, 57.9295, -0.330604, -0.330604, -0.625061, -0.625061) /* PCAPRecordedLocation */
 /* @teleloc 0xF6820033 [145.685900 49.875660 57.929500] -0.330604 -0.330604 -0.625061 -0.625061 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40394, 8000, 3658802716) /* PCAPRecordedObjectIID */
-     , (40394, 8008, 1343488604) /* PCAPRecordedParentIID */;
+VALUES (40394, 8000, 0xDA14E61C) /* PCAPRecordedObjectIID */
+     , (40394, 8008, 0x5014025C) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40394,  2440,      2)  /* StoneCliffsGreater */

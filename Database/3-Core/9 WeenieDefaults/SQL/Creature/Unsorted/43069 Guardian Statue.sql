@@ -11,18 +11,6 @@ VALUES (43069,   1,         16) /* ItemType - Creature */
      , (43069,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (43069,  95,          8) /* RadarBlipColor - Yellow */
      , (43069, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (43069, 307,          0) /* DamageRating */
-     , (43069, 308,          0) /* DamageResistRating */
-     , (43069, 313,          0) /* CritRating */
-     , (43069, 314,          0) /* CritDamageRating */
-     , (43069, 315,          0) /* CritResistRating */
-     , (43069, 316,          0) /* CritDamageResistRating */
-     , (43069, 381,          0) /* PKDamageRating */
-     , (43069, 382,          0) /* PKDamageResistRating */
-     , (43069, 386,          0) /* Overpower */
-     , (43069, 387,          0) /* OverpowerResist */
-     , (43069, 388,          0) /* GearOverpower */
-     , (43069, 389,          0) /* GearOverpowerResist */
      , (43069, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -38,21 +26,21 @@ VALUES (43069,   1, 'Guardian Statue') /* Name */
      , (43069, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43069,   1,   33558554) /* Setup */
-     , (43069,   2,  150995404) /* MotionTable */
-     , (43069,   3,  536871080) /* SoundTable */
-     , (43069,   8,  100675661) /* Icon */
-     , (43069,  22,  872415401) /* PhysicsEffectTable */
+VALUES (43069,   1, 0x0200101A) /* Setup */
+     , (43069,   2, 0x090001CC) /* MotionTable */
+     , (43069,   3, 0x200000A8) /* SoundTable */
+     , (43069,   8, 0x0600304D) /* Icon */
+     , (43069,  22, 0x340000A9) /* PhysicsEffectTable */
      , (43069, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (43069, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (43069, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43069, 8040, 1210974230, 54, 126, 16.00249, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (43069, 8040, 0x482E0016, 54, 126, 16.00249, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x482E0016 [54.000000 126.000000 16.002490] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43069, 8000, 3698451189) /* PCAPRecordedObjectIID */;
+VALUES (43069, 8000, 0xDC71E2F5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43069, 0, 83894922, 83897668)

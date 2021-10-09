@@ -17,7 +17,8 @@ VALUES (46285,   1,        128) /* ItemType - Misc */
      , (46285, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46285,  69, False) /* IsSellable */;
+VALUES (46285,  23, True ) /* DestroyOnSell */
+     , (46285,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46285,  39,     0.5) /* DefaultScale */;
@@ -28,13 +29,13 @@ VALUES (46285,   1, 'Desert Flower') /* Name */
      , (46285,  15, 'A small, delicate cactus flower found only in the Lost City of Neftet.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46285,   1,   33561458) /* Setup */
-     , (46285,   3,  536870932) /* SoundTable */
-     , (46285,   8,  100692657) /* Icon */
-     , (46285,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46285,   1, 0x02001B72) /* Setup */
+     , (46285,   3, 0x20000014) /* SoundTable */
+     , (46285,   8, 0x060072B1) /* Icon */
+     , (46285,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46285, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (46285, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (46285, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46285, 8000, 2210356879) /* PCAPRecordedObjectIID */;
+VALUES (46285, 8000, 0x83BF5E8F) /* PCAPRecordedObjectIID */;

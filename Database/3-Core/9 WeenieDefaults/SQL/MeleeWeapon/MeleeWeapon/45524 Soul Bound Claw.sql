@@ -33,6 +33,7 @@ VALUES (45524,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45524,  22, True ) /* Inscribable */
+     , (45524,  23, True ) /* DestroyOnSell */
      , (45524,  69, False) /* IsSellable */
      , (45524,  99, True ) /* Ivoryable */;
 
@@ -55,27 +56,27 @@ VALUES (45524,   1, 'Soul Bound Claw') /* Name */
      , (45524,  16, 'A ghostly blue claw, bound to your soul.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45524,   1,   33560571) /* Setup */
-     , (45524,   3,  536870932) /* SoundTable */
-     , (45524,   8,  100673200) /* Icon */
-     , (45524,  22,  872415275) /* PhysicsEffectTable */
-     , (45524,  52,  100689896) /* IconUnderlay */
+VALUES (45524,   1, 0x020017FB) /* Setup */
+     , (45524,   3, 0x20000014) /* SoundTable */
+     , (45524,   8, 0x060026B0) /* Icon */
+     , (45524,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45524,  52, 0x060067E8) /* IconUnderlay */
      , (45524, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (45524, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45524, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45524, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45524, 8000, 2164136758) /* PCAPRecordedObjectIID */;
+VALUES (45524, 8000, 0x80FE1B36) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45524,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (45524,  2101,      2)  /* DefenderSelf7 */
-     , (45524,  2106,      2)  /* HeartSeekerSelf7 */
-     , (45524,  2116,      2)  /* SwiftKillerSelf7 */
-     , (45524,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */
+VALUES (45524,  2116,      2)  /* SwiftKillerSelf7 */
      , (45524,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (45524,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+     , (45524,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (45524,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (45524,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (45524,  2101,      2)  /* DefenderSelf7 */
+     , (45524,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (45524, 0, 83889238, 83892492)

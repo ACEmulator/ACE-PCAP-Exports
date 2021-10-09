@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31693,   1,          2) /* ItemType - Armor */
      , (31693,   5,        800) /* EncumbranceVal */
      , (31693,   9,    2097152) /* ValidLocations - Shield */
-     , (31693,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (31693,  16,          1) /* ItemUseable - No */
      , (31693,  19,       8500) /* Value */
      , (31693,  28,        230) /* ArmorLevel */
@@ -43,27 +42,27 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31693,   1, 'Squalid Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31693,   1,   33559542) /* Setup */
-     , (31693,   3,  536870932) /* SoundTable */
-     , (31693,   8,  100687771) /* Icon */
-     , (31693,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31693,   1, 0x020013F6) /* Setup */
+     , (31693,   3, 0x20000014) /* SoundTable */
+     , (31693,   8, 0x06005F9B) /* Icon */
+     , (31693,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31693, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (31693, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31693, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
      , (31693, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31693, 8040, 3465805872, 151.12, 112.6252, 17.33825, -0.2531441, -0.7961866, 0.2758093, -0.4753255) /* PCAPRecordedLocation */
+VALUES (31693, 8040, 0xCE940030, 151.12, 112.6252, 17.33825, -0.253144, -0.796187, 0.275809, -0.475326) /* PCAPRecordedLocation */
 /* @teleloc 0xCE940030 [151.120000 112.625200 17.338250] -0.253144 -0.796187 0.275809 -0.475326 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31693, 8000, 3108765614) /* PCAPRecordedObjectIID */
-     , (31693, 8008, 1343461961) /* PCAPRecordedParentIID */;
+VALUES (31693, 8000, 0xB94BFFAE) /* PCAPRecordedObjectIID */
+     , (31693, 8008, 0x50139A49) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31693,   249,      2)  /* InvulnerabilitySelf6 */
-     , (31693,  1138,      2)  /* PiercingProtectionSelf6 */
+VALUES (31693,  1138,      2)  /* PiercingProtectionSelf6 */
      , (31693,  1528,      2)  /* FrostBane6 */
+     , (31693,   249,      2)  /* InvulnerabilitySelf6 */
      , (31693,  2620,      2)  /* CANTRIPPIERCINGWARD1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)

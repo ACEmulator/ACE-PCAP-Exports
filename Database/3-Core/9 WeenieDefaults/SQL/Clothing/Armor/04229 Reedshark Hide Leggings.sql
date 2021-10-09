@@ -32,17 +32,17 @@ VALUES (4229,   1, 'Reedshark Hide Leggings') /* Name */
      , (4229,  15, 'Leggings crafted from the hide of a Reed Shark.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4229,   1,   33554856) /* Setup */
-     , (4229,   3,  536870932) /* SoundTable */
-     , (4229,   6,   67108990) /* PaletteBase */
-     , (4229,   8,  100667352) /* Icon */
-     , (4229,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4229,   1, 0x020001A8) /* Setup */
+     , (4229,   3, 0x20000014) /* SoundTable */
+     , (4229,   6, 0x0400007E) /* PaletteBase */
+     , (4229,   8, 0x06000FD8) /* Icon */
+     , (4229,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4229, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (4229, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4229, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4229, 8000, 2191998556) /* PCAPRecordedObjectIID */;
+VALUES (4229, 8000, 0x82A73E5C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4229, 67110375, 152, 8);

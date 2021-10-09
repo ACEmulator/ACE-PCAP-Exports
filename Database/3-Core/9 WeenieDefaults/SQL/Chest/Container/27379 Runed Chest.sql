@@ -28,21 +28,21 @@ VALUES (27379,   1, 'Runed Chest') /* Name */
      , (27379, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27379,   1,   33558095) /* Setup */
-     , (27379,   2,  150994948) /* MotionTable */
-     , (27379,   3,  536870945) /* SoundTable */
-     , (27379,   8,  100667424) /* Icon */
-     , (27379,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27379,   1, 0x02000E4F) /* Setup */
+     , (27379,   2, 0x09000004) /* MotionTable */
+     , (27379,   3, 0x20000021) /* SoundTable */
+     , (27379,   8, 0x06001020) /* Icon */
+     , (27379,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27379, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (27379, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (27379, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27379, 8040, 1632305414, 8.35835, -52.2291, 0, -0.323997, 0, 0, -0.9460581) /* PCAPRecordedLocation */
+VALUES (27379, 8040, 0x614B0106, 8.35835, -52.2291, 0, -0.323997, 0, 0, -0.946058) /* PCAPRecordedLocation */
 /* @teleloc 0x614B0106 [8.358350 -52.229100 0.000000] -0.323997 0.000000 0.000000 -0.946058 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27379, 8000, 1981067269) /* PCAPRecordedObjectIID */;
+VALUES (27379, 8000, 0x7614B005) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27379, -1, 3084, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Fester Other III (3084) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

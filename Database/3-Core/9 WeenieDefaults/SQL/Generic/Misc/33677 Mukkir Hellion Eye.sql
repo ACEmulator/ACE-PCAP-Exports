@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33677,   1, 'Mukkir Hellion Eye') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33677,   1,   33554817) /* Setup */
-     , (33677,   3,  536870932) /* SoundTable */
-     , (33677,   8,  100689036) /* Icon */
-     , (33677,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33677,   1, 0x02000181) /* Setup */
+     , (33677,   3, 0x20000014) /* SoundTable */
+     , (33677,   8, 0x0600648C) /* Icon */
+     , (33677,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33677, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (33677, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33677, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33677, 8000, 2147680074) /* PCAPRecordedObjectIID */;
+VALUES (33677, 8000, 0x8002FF4A) /* PCAPRecordedObjectIID */;

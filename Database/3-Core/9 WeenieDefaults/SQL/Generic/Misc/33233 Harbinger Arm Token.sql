@@ -14,7 +14,8 @@ VALUES (33233,   1,        128) /* ItemType - Misc */
      , (33233, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33233,  22, True ) /* Inscribable */;
+VALUES (33233,  22, True ) /* Inscribable */
+     , (33233,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33233,  39,    1.75) /* DefaultScale */;
@@ -24,13 +25,13 @@ VALUES (33233,   1, 'Harbinger Arm Token') /* Name */
      , (33233,  16, 'A token in the shape of the Harbinger''s Arm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33233,   1,   33558027) /* Setup */
-     , (33233,   3,  536870932) /* SoundTable */
-     , (33233,   8,  100673483) /* Icon */
-     , (33233,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33233,   1, 0x02000E0B) /* Setup */
+     , (33233,   3, 0x20000014) /* SoundTable */
+     , (33233,   8, 0x060027CB) /* Icon */
+     , (33233,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33233, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (33233, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33233, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33233, 8000, 2153220030) /* PCAPRecordedObjectIID */;
+VALUES (33233, 8000, 0x805787BE) /* PCAPRecordedObjectIID */;

@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29260,   1,      32768) /* ItemType - Caster */
      , (29260,   5,         50) /* EncumbranceVal */
      , (29260,   9,   16777216) /* ValidLocations - Held */
-     , (29260,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (29260,  16,    6291461) /* ItemUseable - No, SourceWieldedTargetRemoteNeverWalk */
      , (29260,  18,        513) /* UiEffects - Magical, Bludgeoning */
      , (29260,  19,      14900) /* Value */
      , (29260,  45,          4) /* DamageType - Bludgeon */
+     , (29260,  46,        512) /* DefaultCombatStyle - Magic */
      , (29260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29260,  94,         16) /* TargetType - Creature */
      , (29260, 105,          8) /* ItemWorkmanship */
@@ -69,14 +69,14 @@ VALUES (29260,   1, 'Blunt Sceptre') /* Name */
      , (29260,  40, 'Crafty Flocka') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29260,   1,   33559231) /* Setup */
-     , (29260,   3,  536870932) /* SoundTable */
-     , (29260,   6,   67115357) /* PaletteBase */
-     , (29260,   8,  100677432) /* Icon */
-     , (29260,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29260,   1, 0x020012BF) /* Setup */
+     , (29260,   3, 0x20000014) /* SoundTable */
+     , (29260,   6, 0x0400195D) /* PaletteBase */
+     , (29260,   8, 0x06003738) /* Icon */
+     , (29260,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29260,  28,       2144) /* Spell - ShockWave7 */
-     , (29260,  50,  100689030) /* IconOverlay */
-     , (29260,  52,  100676442) /* IconUnderlay */
+     , (29260,  50, 0x06006486) /* IconOverlay */
+     , (29260,  52, 0x0600335A) /* IconUnderlay */
      , (29260, 8001, 3513483416) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, IconOverlay, MaterialType */
      , (29260, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (29260, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -84,19 +84,19 @@ VALUES (29260,   1,   33559231) /* Setup */
      , (29260, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29260, 8040, 23855555, 57.33757, -36.50736, -0.071, 0.6505802, 0.6505802, -0.2770295, -0.2770295) /* PCAPRecordedLocation */
+VALUES (29260, 8040, 0x016C01C3, 57.33757, -36.50736, -0.071, 0.65058, 0.65058, -0.27703, -0.27703) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [57.337570 -36.507360 -0.071000] 0.650580 0.650580 -0.277030 -0.277030 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29260, 8000, 3686986858) /* PCAPRecordedObjectIID */
-     , (29260, 8008, 1343130362) /* PCAPRecordedParentIID */;
+VALUES (29260, 8000, 0xDBC2F46A) /* PCAPRecordedObjectIID */
+     , (29260, 8008, 0x500E8AFA) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29260,  2140,      2)  /* LightningBolt7 */
-     , (29260,  2614,      2)  /* CANTRIPSLASHINGWARD2 */
      , (29260,  4418,      2)  /* HermeticLinkSelf8 */
-     , (29260,  5881,      2)  /* SneakAttackMasterySelf7 */
-     , (29260,  6098,      2)  /* CantripSpiritThirst4 */;
+     , (29260,  6098,      2)  /* CantripSpiritThirst4 */
+     , (29260,  2614,      2)  /* CANTRIPSLASHINGWARD2 */
+     , (29260,  5881,      2)  /* SneakAttackMasterySelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29260, 67115359, 56, 200)

@@ -25,21 +25,21 @@ VALUES (9134,   1, 'Leashed Virindi') /* Name */
      , (9134, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9134,   1,   33554497) /* Setup */
-     , (9134,   2,  150994984) /* MotionTable */
-     , (9134,   3,  536870930) /* SoundTable */
-     , (9134,   6,   67111346) /* PaletteBase */
-     , (9134,   8,  100667943) /* Icon */
+VALUES (9134,   1, 0x02000041) /* Setup */
+     , (9134,   2, 0x09000028) /* MotionTable */
+     , (9134,   3, 0x20000012) /* SoundTable */
+     , (9134,   6, 0x040009B2) /* PaletteBase */
+     , (9134,   8, 0x06001227) /* Icon */
      , (9134, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (9134, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (9134, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9134, 8040, 44237065, 23.4952, -14.2743, 0.02899998, -0.71854, 0, 0, -0.695485) /* PCAPRecordedLocation */
+VALUES (9134, 8040, 0x02A30109, 23.4952, -14.2743, 0.029, -0.71854, 0, 0, -0.695485) /* PCAPRecordedLocation */
 /* @teleloc 0x02A30109 [23.495200 -14.274300 0.029000] -0.718540 0.000000 0.000000 -0.695485 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9134, 8000, 3699152077) /* PCAPRecordedObjectIID */;
+VALUES (9134, 8000, 0xDC7C94CD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9134, 67113136, 0, 0);

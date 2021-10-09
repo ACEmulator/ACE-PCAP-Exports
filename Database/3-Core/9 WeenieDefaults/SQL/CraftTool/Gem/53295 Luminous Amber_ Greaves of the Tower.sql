@@ -22,19 +22,19 @@ VALUES (53295,   1, 'Luminous Amber: Greaves of the Tower') /* Name */
      , (53295,  20, 'Luminous Ambers: Greaves of the Tower') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53295,   1,   33554809) /* Setup */
-     , (53295,   3,  536870932) /* SoundTable */
-     , (53295,   6,   67111919) /* PaletteBase */
-     , (53295,   8,  100693328) /* Icon */
-     , (53295,  22,  872415275) /* PhysicsEffectTable */
-     , (53295,  52,  100691593) /* IconUnderlay */
+VALUES (53295,   1, 0x02000179) /* Setup */
+     , (53295,   3, 0x20000014) /* SoundTable */
+     , (53295,   6, 0x04000BEF) /* PaletteBase */
+     , (53295,   8, 0x06007550) /* Icon */
+     , (53295,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53295,  52, 0x06006E89) /* IconUnderlay */
      , (53295, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (53295, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (53295, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (53295, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53295, 8000, 3036458849) /* PCAPRecordedObjectIID */;
+VALUES (53295, 8000, 0xB4FCAF61) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53295, 67111921, 0, 0);

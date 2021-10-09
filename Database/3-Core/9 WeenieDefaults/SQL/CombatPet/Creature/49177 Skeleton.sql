@@ -26,23 +26,23 @@ VALUES (49177,   1, 'Skeleton') /* Name */
      , (49177, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49177,   1,   33561495) /* Setup */
-     , (49177,   2,  150994945) /* MotionTable */
-     , (49177,   3,  536870942) /* SoundTable */
-     , (49177,   6,   67108990) /* PaletteBase */
-     , (49177,   8,  100671323) /* Icon */
-     , (49177,  22,  872415269) /* PhysicsEffectTable */
+VALUES (49177,   1, 0x02001B97) /* Setup */
+     , (49177,   2, 0x09000001) /* MotionTable */
+     , (49177,   3, 0x2000001E) /* SoundTable */
+     , (49177,   6, 0x0400007E) /* PaletteBase */
+     , (49177,   8, 0x06001F5B) /* Icon */
+     , (49177,  22, 0x34000025) /* PhysicsEffectTable */
      , (49177, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49177, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
      , (49177, 8003,   67108884) /* PCAPRecordedObjectDesc - Stuck, Attackable, IncludesSecondHeader */
      , (49177, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49177, 8040, 561381777, 91.82669, 159.9389, 102.405, 0.9919865, 0, 0, -0.1263443) /* PCAPRecordedLocation */
+VALUES (49177, 8040, 0x21760191, 91.82669, 159.9389, 102.405, 0.991987, 0, 0, -0.126344) /* PCAPRecordedLocation */
 /* @teleloc 0x21760191 [91.826690 159.938900 102.405000] 0.991987 0.000000 0.000000 -0.126344 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49177, 8000, 3706670462) /* PCAPRecordedObjectIID */;
+VALUES (49177, 8000, 0xDCEF4D7E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49177,   1, 210, 0, 0) /* Strength */

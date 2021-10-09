@@ -20,15 +20,15 @@ VALUES (5384,   1, 'Festival Stone') /* Name */
      , (5384,  16, 'Rejoice! The Hopeslayer has been defeated, thanks to the efforts of the brave people of Dereth!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5384,   1,   33556034) /* Setup */
-     , (5384,   8,  100670208) /* Icon */
+VALUES (5384,   1, 0x02000642) /* Setup */
+     , (5384,   8, 0x06001B00) /* Icon */
      , (5384, 8001,   11534352) /* PCAPRecordedWeenieHeader - Usable, RadarBlipColor, Burden, RadarBehavior */
      , (5384, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (5384, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5384, 8040, 3265855548, 175.95, 89.5618, 108, 0.821465, 0, 0, -0.570259) /* PCAPRecordedLocation */
+VALUES (5384, 8040, 0xC2A9003C, 175.95, 89.5618, 108, 0.821465, 0, 0, -0.570259) /* PCAPRecordedLocation */
 /* @teleloc 0xC2A9003C [175.950000 89.561800 108.000000] 0.821465 0.000000 0.000000 -0.570259 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5384, 8000, 2083164160) /* PCAPRecordedObjectIID */;
+VALUES (5384, 8000, 0x7C2A9000) /* PCAPRecordedObjectIID */;

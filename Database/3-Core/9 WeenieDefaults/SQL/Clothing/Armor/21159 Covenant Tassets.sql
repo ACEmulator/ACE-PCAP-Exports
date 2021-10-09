@@ -49,18 +49,18 @@ VALUES (21159,   1, 'Covenant Tassets') /* Name */
      , (21159,  16, 'Covenant Tassets of Quickness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21159,   1,   33554656) /* Setup */
-     , (21159,   3,  536870932) /* SoundTable */
-     , (21159,   6,   67108990) /* PaletteBase */
-     , (21159,   8,  100673465) /* Icon */
-     , (21159,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21159,   1, 0x020000E0) /* Setup */
+     , (21159,   3, 0x20000014) /* SoundTable */
+     , (21159,   6, 0x0400007E) /* PaletteBase */
+     , (21159,   8, 0x060027B9) /* Icon */
+     , (21159,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21159,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (21159, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (21159, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21159, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21159, 8000, 3701526975) /* PCAPRecordedObjectIID */;
+VALUES (21159, 8000, 0xDCA0D1BF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21159,  2081,      2)  /* QuicknessSelf7 */

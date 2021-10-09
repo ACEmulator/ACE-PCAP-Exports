@@ -26,21 +26,21 @@ VALUES (8583,   1, 'The Black Breath') /* Name */
      , (8583, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8583,   1,   33556913) /* Setup */
-     , (8583,   2,  150994968) /* MotionTable */
-     , (8583,   3,  536870985) /* SoundTable */
-     , (8583,   8,  100670397) /* Icon */
-     , (8583,  22,  872415331) /* PhysicsEffectTable */
+VALUES (8583,   1, 0x020009B1) /* Setup */
+     , (8583,   2, 0x09000018) /* MotionTable */
+     , (8583,   3, 0x20000049) /* SoundTable */
+     , (8583,   8, 0x06001BBD) /* Icon */
+     , (8583,  22, 0x34000063) /* PhysicsEffectTable */
      , (8583, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (8583, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (8583, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8583, 8040, 168755456, 155.621, 61.7466, 276.01, 0.7448684, 0, 0, -0.6672114) /* PCAPRecordedLocation */
+VALUES (8583, 8040, 0x0A0F0100, 155.621, 61.7466, 276.01, 0.744868, 0, 0, -0.667211) /* PCAPRecordedLocation */
 /* @teleloc 0x0A0F0100 [155.621000 61.746600 276.010000] 0.744868 0.000000 0.000000 -0.667211 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8583, 8000, 3689417941) /* PCAPRecordedObjectIID */;
+VALUES (8583, 8000, 0xDBE80CD5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8583,   1, 289, 0, 0) /* Strength */

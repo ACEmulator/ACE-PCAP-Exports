@@ -22,16 +22,16 @@ VALUES (1903,   1, 'Desert Ridge Border') /* Name */
      , (1903, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1903,   1,   33554867) /* Setup */
-     , (1903,   2,  150994947) /* MotionTable */
-     , (1903,   8,  100667499) /* Icon */
+VALUES (1903,   1, 0x020001B3) /* Setup */
+     , (1903,   2, 0x09000003) /* MotionTable */
+     , (1903,   8, 0x0600106B) /* Icon */
      , (1903, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (1903, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1903, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1903, 8040, 3391947009, 180, 185, 169.937, 0.9976509, 0, 0, -0.0685027) /* PCAPRecordedLocation */
+VALUES (1903, 8040, 0xCA2D0101, 180, 185, 169.937, 0.997651, 0, 0, -0.068503) /* PCAPRecordedLocation */
 /* @teleloc 0xCA2D0101 [180.000000 185.000000 169.937000] 0.997651 0.000000 0.000000 -0.068503 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1903, 8000, 2091044864) /* PCAPRecordedObjectIID */;
+VALUES (1903, 8000, 0x7CA2D000) /* PCAPRecordedObjectIID */;

@@ -24,17 +24,17 @@ VALUES (8308,   1, 'Quicksilver Pea') /* Name */
      , (8308,  16, 'A concentrated quicksilver pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8308,   1,   33555209) /* Setup */
-     , (8308,   3,  536870932) /* SoundTable */
-     , (8308,   6,   67111919) /* PaletteBase */
-     , (8308,   8,  100671060) /* Icon */
-     , (8308,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8308,   1, 0x02000309) /* Setup */
+     , (8308,   3, 0x20000014) /* SoundTable */
+     , (8308,   6, 0x04000BEF) /* PaletteBase */
+     , (8308,   8, 0x06001E54) /* Icon */
+     , (8308,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8308, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8308, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8308, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8308, 8000, 2258805207) /* PCAPRecordedObjectIID */;
+VALUES (8308, 8000, 0x86A2A1D7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8308, 67111921, 0, 0);

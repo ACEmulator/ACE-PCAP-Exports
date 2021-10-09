@@ -30,21 +30,21 @@ VALUES (14435,   1, 'Storage Chest') /* Name */
      , (14435, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14435,   1,   33554556) /* Setup */
-     , (14435,   2,  150994948) /* MotionTable */
-     , (14435,   3,  536870945) /* SoundTable */
-     , (14435,   8,  100667424) /* Icon */
-     , (14435,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14435,   1, 0x0200007C) /* Setup */
+     , (14435,   2, 0x09000004) /* MotionTable */
+     , (14435,   3, 0x20000021) /* SoundTable */
+     , (14435,   8, 0x06001020) /* Icon */
+     , (14435,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14435, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (14435, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (14435, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14435, 8040, 1383399680, 39.2519, -6.40616, -6, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (14435, 8040, 0x52750100, 39.2519, -6.40616, -6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x52750100 [39.251900 -6.406160 -6.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14435, 8000, 1965510667) /* PCAPRecordedObjectIID */;
+VALUES (14435, 8000, 0x7527500B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14435, -1, 14425, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Folded Guard's Uniform (14425) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -30,22 +30,22 @@ VALUES (22882,   1, 'Piercing Protection Gem') /* Name */
      , (22882,  15, 'A gem of piercing protection VI') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22882,   1,   33554809) /* Setup */
-     , (22882,   3,  536870932) /* SoundTable */
-     , (22882,   6,   67111919) /* PaletteBase */
-     , (22882,   8,  100673906) /* Icon */
-     , (22882,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22882,   1, 0x02000179) /* Setup */
+     , (22882,   3, 0x20000014) /* SoundTable */
+     , (22882,   6, 0x04000BEF) /* PaletteBase */
+     , (22882,   8, 0x06002972) /* Icon */
+     , (22882,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22882,  28,       1144) /* Spell - PiercingProtectionOther6 */
      , (22882, 8001,    6828184) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell */
      , (22882, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22882, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22882, 8040, 2103705620, 63.33736, 73.95951, 11.999, -0.1343638, 0, 0, -0.990932) /* PCAPRecordedLocation */
+VALUES (22882, 8040, 0x7D640014, 63.33736, 73.95951, 11.999, -0.134364, 0, 0, -0.990932) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640014 [63.337360 73.959510 11.999000] -0.134364 0.000000 0.000000 -0.990932 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22882, 8000, 2610579684) /* PCAPRecordedObjectIID */;
+VALUES (22882, 8000, 0x9B9A48E4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22882, 67111924, 0, 0);

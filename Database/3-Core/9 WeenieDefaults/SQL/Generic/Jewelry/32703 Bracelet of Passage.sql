@@ -21,17 +21,17 @@ VALUES (32703,   1, 'Bracelet of Passage') /* Name */
      , (32703,  15, 'A bracelet looted from the corpse of a Viamontian Mage.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32703,   1,   33554683) /* Setup */
-     , (32703,   3,  536870932) /* SoundTable */
-     , (32703,   6,   67111919) /* PaletteBase */
-     , (32703,   8,  100668622) /* Icon */
-     , (32703,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32703,   1, 0x020000FB) /* Setup */
+     , (32703,   3, 0x20000014) /* SoundTable */
+     , (32703,   6, 0x04000BEF) /* PaletteBase */
+     , (32703,   8, 0x060014CE) /* Icon */
+     , (32703,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32703, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (32703, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32703, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32703, 8000, 2149249061) /* PCAPRecordedObjectIID */;
+VALUES (32703, 8000, 0x801AF025) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32703, 67111919, 0, 0);

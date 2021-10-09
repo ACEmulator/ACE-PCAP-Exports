@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52809,   1, 'Mhoire Forge Portal Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52809,   1,   33557625) /* Setup */
-     , (52809,   3,  536870932) /* SoundTable */
-     , (52809,   8,  100693311) /* Icon */
-     , (52809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52809,   1, 0x02000C79) /* Setup */
+     , (52809,   3, 0x20000014) /* SoundTable */
+     , (52809,   8, 0x0600753F) /* Icon */
+     , (52809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52809,  28,        157) /* Spell - SummonPortal1 */
      , (52809, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (52809, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -37,4 +37,4 @@ VALUES (52809,   1,   33557625) /* Setup */
      , (52809, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52809, 8000,      52809) /* PCAPRecordedObjectIID */;
+VALUES (52809, 8000, 0x0000CE49) /* PCAPRecordedObjectIID */;

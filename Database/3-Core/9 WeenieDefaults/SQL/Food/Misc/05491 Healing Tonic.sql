@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5491,   1, 'Healing Tonic') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5491,   1,   33554603) /* Setup */
-     , (5491,   3,  536870932) /* SoundTable */
-     , (5491,   6,   67111919) /* PaletteBase */
-     , (5491,   8,  100670833) /* Icon */
-     , (5491,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5491,   1, 0x020000AB) /* Setup */
+     , (5491,   3, 0x20000014) /* SoundTable */
+     , (5491,   6, 0x04000BEF) /* PaletteBase */
+     , (5491,   8, 0x06001D71) /* Icon */
+     , (5491,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5491, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (5491, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (5491, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5491, 8000, 2856726461) /* PCAPRecordedObjectIID */;
+VALUES (5491, 8000, 0xAA462FBD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5491, 67111922, 0, 0);

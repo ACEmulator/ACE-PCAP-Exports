@@ -24,16 +24,16 @@ VALUES (36922,   1, 'Big Wreath') /* Name */
      , (36922,  16, 'A Holiday decoration you can hang on your wall.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36922,   1,   33557450) /* Setup */
-     , (36922,   8,  100689759) /* Icon */
-     , (36922,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36922,   1, 0x02000BCA) /* Setup */
+     , (36922,   8, 0x0600675F) /* Icon */
+     , (36922,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36922, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
      , (36922, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36922, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36922, 8040, 23855554, 55.35807, -27.7419, 0.2, 0.06442952, 0, 0, -0.9979222) /* PCAPRecordedLocation */
+VALUES (36922, 8040, 0x016C01C2, 55.35807, -27.7419, 0.2, 0.06443, 0, 0, -0.997922) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.358070 -27.741900 0.200000] 0.064430 0.000000 0.000000 -0.997922 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36922, 8000, 3357934938) /* PCAPRecordedObjectIID */;
+VALUES (36922, 8000, 0xC826055A) /* PCAPRecordedObjectIID */;

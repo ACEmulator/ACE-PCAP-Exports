@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44885,   1, 'Contract for Yanshi Tunnels') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44885,   1,   33557625) /* Setup */
-     , (44885,   3,  536870932) /* SoundTable */
-     , (44885,   8,  100691932) /* Icon */
-     , (44885,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44885,   1, 0x02000C79) /* Setup */
+     , (44885,   3, 0x20000014) /* SoundTable */
+     , (44885,   8, 0x06006FDC) /* Icon */
+     , (44885,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44885, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44885, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44885, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (44885,   1,   33557625) /* Setup */
      , (44885, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44885, 8000,      44885) /* PCAPRecordedObjectIID */;
+VALUES (44885, 8000, 0x0000AF55) /* PCAPRecordedObjectIID */;

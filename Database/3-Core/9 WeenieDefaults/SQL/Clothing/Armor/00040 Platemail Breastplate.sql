@@ -44,21 +44,21 @@ VALUES (40,   1, 'Platemail Breastplate') /* Name */
      , (40,  16, 'Platemail Breastplate') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40,   1,   33554642) /* Setup */
-     , (40,   3,  536870932) /* SoundTable */
-     , (40,   6,   67108990) /* PaletteBase */
-     , (40,   8,  100669568) /* Icon */
-     , (40,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40,   1, 0x020000D2) /* Setup */
+     , (40,   3, 0x20000014) /* SoundTable */
+     , (40,   6, 0x0400007E) /* PaletteBase */
+     , (40,   8, 0x06001880) /* Icon */
+     , (40,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40, 8000, 3700902598) /* PCAPRecordedObjectIID */;
+VALUES (40, 8000, 0xDC974AC6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40,  1485,      2)  /* Impenetrability5 */
-     , (40,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */;
+VALUES (40,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */
+     , (40,  1485,      2)  /* Impenetrability5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40, 67110541, 174, 66);

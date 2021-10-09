@@ -22,16 +22,16 @@ VALUES (370,   1, 'Top of Zabool Tower') /* Name */
      , (370, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (370,   1,   33554867) /* Setup */
-     , (370,   2,  150994947) /* MotionTable */
-     , (370,   8,  100667499) /* Icon */
+VALUES (370,   1, 0x020001B3) /* Setup */
+     , (370,   2, 0x09000003) /* MotionTable */
+     , (370,   8, 0x0600106B) /* Icon */
      , (370, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (370, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (370, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (370, 8040, 2526609447, 101.9, 166.1, 223.937, -0.8191522, 0, 0, -0.5735762) /* PCAPRecordedLocation */
+VALUES (370, 8040, 0x96990027, 101.9, 166.1, 223.937, -0.819152, 0, 0, -0.573576) /* PCAPRecordedLocation */
 /* @teleloc 0x96990027 [101.900000 166.100000 223.937000] -0.819152 0.000000 0.000000 -0.573576 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (370, 8000, 2036961282) /* PCAPRecordedObjectIID */;
+VALUES (370, 8000, 0x79699002) /* PCAPRecordedObjectIID */;

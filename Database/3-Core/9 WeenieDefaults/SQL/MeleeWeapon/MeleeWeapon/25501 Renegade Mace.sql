@@ -48,18 +48,18 @@ VALUES (25501,   1, 'Renegade Mace') /* Name */
      , (25501,  16, 'An acid mace crafted by the Renegades. The head appears to have been skillfully carved out and the cavity contains elemental acid. Despite it''s delicate look the mace is unusually strong and resilient.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25501,   1,   33558438) /* Setup */
-     , (25501,   3,  536870932) /* SoundTable */
-     , (25501,   8,  100674810) /* Icon */
-     , (25501,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25501,   1, 0x02000FA6) /* Setup */
+     , (25501,   3, 0x20000014) /* SoundTable */
+     , (25501,   8, 0x06002CFA) /* Icon */
+     , (25501,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25501, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (25501, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25501, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25501, 8000, 2174241269) /* PCAPRecordedObjectIID */;
+VALUES (25501, 8000, 0x819849F5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25501,  1332,      2)  /* StrengthSelf6 */
-     , (25501,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (25501,  1627,      2)  /* SwiftKillerSelf6 */;
+VALUES (25501,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (25501,  1627,      2)  /* SwiftKillerSelf6 */
+     , (25501,  1332,      2)  /* StrengthSelf6 */;

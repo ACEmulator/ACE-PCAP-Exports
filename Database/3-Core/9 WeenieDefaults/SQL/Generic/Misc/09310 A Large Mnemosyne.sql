@@ -14,7 +14,8 @@ VALUES (9310,   1,        128) /* ItemType - Misc */
      , (9310, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9310,  22, True ) /* Inscribable */;
+VALUES (9310,  22, True ) /* Inscribable */
+     , (9310,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9310,  39,     1.3) /* DefaultScale */;
@@ -24,13 +25,13 @@ VALUES (9310,   1, 'A Large Mnemosyne') /* Name */
      , (9310,  16, 'A Mnemosyne, invented by Tennar Portheran, used by the Dericost to preserve their heritage after the chaos wrought by the Fourth Sending.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9310,   1,   33556998) /* Setup */
-     , (9310,   3,  536870932) /* SoundTable */
-     , (9310,   8,  100671422) /* Icon */
-     , (9310,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9310,   1, 0x02000A06) /* Setup */
+     , (9310,   3, 0x20000014) /* SoundTable */
+     , (9310,   8, 0x06001FBE) /* Icon */
+     , (9310,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9310, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (9310, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9310, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9310, 8000, 3692158986) /* PCAPRecordedObjectIID */;
+VALUES (9310, 8000, 0xDC11E00A) /* PCAPRecordedObjectIID */;

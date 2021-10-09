@@ -23,16 +23,16 @@ VALUES (32039,   1, 'Sanctum of Xik Minru') /* Name */
      , (32039, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32039,   1,   33555925) /* Setup */
-     , (32039,   2,  150994947) /* MotionTable */
-     , (32039,   8,  100667499) /* Icon */
+VALUES (32039,   1, 0x020005D5) /* Setup */
+     , (32039,   2, 0x09000003) /* MotionTable */
+     , (32039,   8, 0x0600106B) /* Icon */
      , (32039, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (32039, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (32039, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32039, 8040, 15728944, 20, -7.10661, -0.06299996, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (32039, 8040, 0x00F00130, 20, -7.10661, -0.063, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00F00130 [20.000000 -7.106610 -0.063000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32039, 8000, 1880031252) /* PCAPRecordedObjectIID */;
+VALUES (32039, 8000, 0x700F0014) /* PCAPRecordedObjectIID */;

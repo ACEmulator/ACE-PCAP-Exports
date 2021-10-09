@@ -30,21 +30,21 @@ VALUES (1539,   1, 'Chest') /* Name */
      , (1539, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1539,   1,   33558095) /* Setup */
-     , (1539,   2,  150994948) /* MotionTable */
-     , (1539,   3,  536870945) /* SoundTable */
-     , (1539,   8,  100667424) /* Icon */
-     , (1539,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1539,   1, 0x02000E4F) /* Setup */
+     , (1539,   2, 0x09000004) /* MotionTable */
+     , (1539,   3, 0x20000021) /* SoundTable */
+     , (1539,   8, 0x06001020) /* Icon */
+     , (1539,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1539, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (1539, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1539, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1539, 8040, 28181107, 183.879, -30.1163, -12, 0.6952861, 0, 0, -0.7187331) /* PCAPRecordedLocation */
+VALUES (1539, 8040, 0x01AE0273, 183.879, -30.1163, -12, 0.695286, 0, 0, -0.718733) /* PCAPRecordedLocation */
 /* @teleloc 0x01AE0273 [183.879000 -30.116300 -12.000000] 0.695286 0.000000 0.000000 -0.718733 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1539, 8000, 1880809534) /* PCAPRecordedObjectIID */;
+VALUES (1539, 8000, 0x701AE03E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1539, -1, 1532, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate The Baron's Key (1532) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

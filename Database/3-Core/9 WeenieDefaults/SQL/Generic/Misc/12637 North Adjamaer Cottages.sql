@@ -18,15 +18,15 @@ VALUES (12637,   1, 'North Adjamaer Cottages') /* Name */
      , (12637,  16, 'Welcome to North Adjamaer Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12637,   1,   33557463) /* Setup */
-     , (12637,   8,  100668115) /* Icon */
+VALUES (12637,   1, 0x02000BD7) /* Setup */
+     , (12637,   8, 0x060012D3) /* Icon */
      , (12637, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (12637, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12637, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12637, 8040, 3256877083, 85.9474, 70.6934, 42.83772, -0.265222, 0, 0, 0.964187) /* PCAPRecordedLocation */
+VALUES (12637, 8040, 0xC220001B, 85.9474, 70.6934, 42.83772, -0.265222, 0, 0, 0.964187) /* PCAPRecordedLocation */
 /* @teleloc 0xC220001B [85.947400 70.693400 42.837720] -0.265222 0.000000 0.000000 0.964187 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12637, 8000, 2082603441) /* PCAPRecordedObjectIID */;
+VALUES (12637, 8000, 0x7C2201B1) /* PCAPRecordedObjectIID */;

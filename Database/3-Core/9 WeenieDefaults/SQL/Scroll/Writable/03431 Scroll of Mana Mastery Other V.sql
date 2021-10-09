@@ -24,13 +24,13 @@ VALUES (3431,   1, 'Scroll of Mana Mastery Other V') /* Name */
 Increases the target''s Mana Conversion skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3431,   1,   33554826) /* Setup */
-     , (3431,   8,  100676466) /* Icon */
-     , (3431,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3431,   1, 0x0200018A) /* Setup */
+     , (3431,   8, 0x06003372) /* Icon */
+     , (3431,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3431,  28,        663) /* Spell - ManaMasteryOther5 */
      , (3431, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3431, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3431, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3431, 8000, 3678978624) /* PCAPRecordedObjectIID */;
+VALUES (3431, 8000, 0xDB48C240) /* PCAPRecordedObjectIID */;

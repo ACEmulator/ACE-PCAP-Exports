@@ -29,22 +29,22 @@ VALUES (21489,   1, 'Asheron''s Platinum Golem') /* Name */
      , (21489, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21489,   1,   33556426) /* Setup */
-     , (21489,   2,  150995073) /* MotionTable */
-     , (21489,   3,  536870933) /* SoundTable */
-     , (21489,   6,   67112775) /* PaletteBase */
-     , (21489,   8,  100667940) /* Icon */
-     , (21489,  22,  872415325) /* PhysicsEffectTable */
+VALUES (21489,   1, 0x020007CA) /* Setup */
+     , (21489,   2, 0x09000081) /* MotionTable */
+     , (21489,   3, 0x20000015) /* SoundTable */
+     , (21489,   6, 0x04000F47) /* PaletteBase */
+     , (21489,   8, 0x06001224) /* Icon */
+     , (21489,  22, 0x3400005D) /* PhysicsEffectTable */
      , (21489, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (21489, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (21489, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21489, 8040, 3150381118, 180.234, 120.857, 60.012, 0.7536221, 0, 0, 0.657308) /* PCAPRecordedLocation */
+VALUES (21489, 8040, 0xBBC7003E, 180.234, 120.857, 60.012, 0.753622, 0, 0, 0.657308) /* PCAPRecordedLocation */
 /* @teleloc 0xBBC7003E [180.234000 120.857000 60.012000] 0.753622 0.000000 0.000000 0.657308 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21489, 8000, 3702884018) /* PCAPRecordedObjectIID */;
+VALUES (21489, 8000, 0xDCB586B2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21489,   1, 380, 0, 0) /* Strength */

@@ -43,16 +43,16 @@ VALUES (11997,   1, 'Osseous Mace') /* Name */
      , (11997,  16, 'The leg of a Relic Bones.  It is inscribed with runes, and the entire bone seems to have a ruddy hue.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11997,   1,   33557329) /* Setup */
-     , (11997,   3,  536870932) /* SoundTable */
-     , (11997,   8,  100672065) /* Icon */
-     , (11997,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11997,   1, 0x02000B51) /* Setup */
+     , (11997,   3, 0x20000014) /* SoundTable */
+     , (11997,   8, 0x06002241) /* Icon */
+     , (11997,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11997, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (11997, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11997, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11997, 8000, 2157269309) /* PCAPRecordedObjectIID */;
+VALUES (11997, 8000, 0x8095513D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11997,  1035,      2)  /* ColdProtectionSelf6 */

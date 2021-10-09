@@ -22,16 +22,16 @@ VALUES (1601,   1, 'Lost Garden Ruins') /* Name */
      , (1601, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1601,   1,   33555926) /* Setup */
-     , (1601,   2,  150994947) /* MotionTable */
-     , (1601,   8,  100667499) /* Icon */
+VALUES (1601,   1, 0x020005D6) /* Setup */
+     , (1601,   2, 0x09000003) /* MotionTable */
+     , (1601,   8, 0x0600106B) /* Icon */
      , (1601, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (1601, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1601, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1601, 8040, 3375169792, 107.812, 33.022, 151.592, -0.9999008, 0, 0, 0.0140889) /* PCAPRecordedLocation */
+VALUES (1601, 8040, 0xC92D0100, 107.812, 33.022, 151.592, -0.999901, 0, 0, 0.014089) /* PCAPRecordedLocation */
 /* @teleloc 0xC92D0100 [107.812000 33.022000 151.592000] -0.999901 0.000000 0.000000 0.014089 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1601, 8000, 2089996288) /* PCAPRecordedObjectIID */;
+VALUES (1601, 8000, 0x7C92D000) /* PCAPRecordedObjectIID */;

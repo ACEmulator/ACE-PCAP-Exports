@@ -18,15 +18,15 @@ VALUES (12634,   1, 'New Suntik') /* Name */
      , (12634,  16, 'Welcome to New Suntik') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12634,   1,   33557463) /* Setup */
-     , (12634,   8,  100668115) /* Icon */
+VALUES (12634,   1, 0x02000BD7) /* Setup */
+     , (12634,   8, 0x060012D3) /* Icon */
      , (12634, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (12634, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12634, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12634, 8040, 2224422960, 136.937, 181.146, 124, 0.223856, 0, 0, 0.974622) /* PCAPRecordedLocation */
+VALUES (12634, 8040, 0x84960030, 136.937, 181.146, 124, 0.223856, 0, 0, 0.974622) /* PCAPRecordedLocation */
 /* @teleloc 0x84960030 [136.937000 181.146000 124.000000] 0.223856 0.000000 0.000000 0.974622 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12634, 8000, 2018074794) /* PCAPRecordedObjectIID */;
+VALUES (12634, 8000, 0x784960AA) /* PCAPRecordedObjectIID */;

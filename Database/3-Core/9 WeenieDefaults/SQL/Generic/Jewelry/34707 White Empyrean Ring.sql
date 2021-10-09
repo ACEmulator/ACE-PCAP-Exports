@@ -25,6 +25,7 @@ VALUES (34707,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34707,  22, True ) /* Inscribable */
+     , (34707,  23, True ) /* DestroyOnSell */
      , (34707,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -37,25 +38,22 @@ VALUES (34707,   1, 'White Empyrean Ring') /* Name */
      , (34707,  16, 'A ring of pyreal fitted with a band of glowing white metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34707,   1,   33554691) /* Setup */
-     , (34707,   3,  536870932) /* SoundTable */
-     , (34707,   6,   67111919) /* PaletteBase */
-     , (34707,   8,  100689376) /* Icon */
-     , (34707,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34707,   1, 0x02000103) /* Setup */
+     , (34707,   3, 0x20000014) /* SoundTable */
+     , (34707,   6, 0x04000BEF) /* PaletteBase */
+     , (34707,   8, 0x060065E0) /* Icon */
+     , (34707,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34707, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (34707, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34707, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34707, 8000, 2316216069) /* PCAPRecordedObjectIID */;
+VALUES (34707, 8000, 0x8A0EA705) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34707,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */
      , (34707,  2613,      2)  /* CANTRIPPIERCINGWARD2 */
      , (34707,  2614,      2)  /* CANTRIPSLASHINGWARD2 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34707, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34707, 67111919, 0, 0);

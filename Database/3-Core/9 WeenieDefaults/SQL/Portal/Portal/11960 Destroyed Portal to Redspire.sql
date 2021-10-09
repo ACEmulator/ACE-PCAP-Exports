@@ -22,16 +22,16 @@ VALUES (11960,   1, 'Destroyed Portal to Redspire') /* Name */
      , (11960, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11960,   1,   33561060) /* Setup */
-     , (11960,   2,  150995314) /* MotionTable */
-     , (11960,   8,  100667499) /* Icon */
+VALUES (11960,   1, 0x020019E4) /* Setup */
+     , (11960,   2, 0x09000172) /* MotionTable */
+     , (11960,   8, 0x0600106B) /* Icon */
      , (11960, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (11960, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (11960, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11960, 8040, 852951041, 17.5596, 6.5876, 80.30317, 0.9793009, 0, 0, -0.20241) /* PCAPRecordedLocation */
+VALUES (11960, 8040, 0x32D70001, 17.5596, 6.5876, 80.30317, 0.979301, 0, 0, -0.20241) /* PCAPRecordedLocation */
 /* @teleloc 0x32D70001 [17.559600 6.587600 80.303170] 0.979301 0.000000 0.000000 -0.202410 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11960, 8000, 1932357632) /* PCAPRecordedObjectIID */;
+VALUES (11960, 8000, 0x732D7000) /* PCAPRecordedObjectIID */;

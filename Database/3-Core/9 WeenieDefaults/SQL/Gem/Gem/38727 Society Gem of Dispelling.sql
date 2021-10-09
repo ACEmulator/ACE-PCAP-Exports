@@ -24,6 +24,9 @@ VALUES (38727,   1,       2048) /* ItemType - Gem */
      , (38727, 114,          1) /* Attuned - Attuned */
      , (38727, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38727,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38727,  39,     1.2) /* DefaultScale */;
 
@@ -33,18 +36,18 @@ VALUES (38727,   1, 'Society Gem of Dispelling') /* Name */
      , (38727,  20, 'Society Gems of Dispelling') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38727,   1,   33554809) /* Setup */
-     , (38727,   3,  536870932) /* SoundTable */
-     , (38727,   6,   67111919) /* PaletteBase */
-     , (38727,   8,  100671405) /* Icon */
-     , (38727,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38727,   1, 0x02000179) /* Setup */
+     , (38727,   3, 0x20000014) /* SoundTable */
+     , (38727,   6, 0x04000BEF) /* PaletteBase */
+     , (38727,   8, 0x06001FAD) /* Icon */
+     , (38727,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38727,  28,       4331) /* Spell - DispelAllBadSelf8 */
      , (38727, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (38727, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38727, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38727, 8000, 2645218080) /* PCAPRecordedObjectIID */;
+VALUES (38727, 8000, 0x9DAAD320) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38727, 67111919, 0, 0);

@@ -25,22 +25,22 @@ VALUES (27863,   1, 'Mosswart Cringer') /* Name */
      , (27863, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27863,   1,   33557327) /* Setup */
-     , (27863,   2,  150994953) /* MotionTable */
-     , (27863,   3,  536870959) /* SoundTable */
-     , (27863,   6,   67113400) /* PaletteBase */
-     , (27863,   8,  100667449) /* Icon */
-     , (27863,  22,  872415264) /* PhysicsEffectTable */
+VALUES (27863,   1, 0x02000B4F) /* Setup */
+     , (27863,   2, 0x09000009) /* MotionTable */
+     , (27863,   3, 0x2000002F) /* SoundTable */
+     , (27863,   6, 0x040011B8) /* PaletteBase */
+     , (27863,   8, 0x06001039) /* Icon */
+     , (27863,  22, 0x34000020) /* PhysicsEffectTable */
      , (27863, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (27863, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (27863, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27863, 8040, 31130043, 100.492, -39.0546, -5.9934, 0.374065, 0, 0, -0.927402) /* PCAPRecordedLocation */
+VALUES (27863, 8040, 0x01DB01BB, 100.492, -39.0546, -5.9934, 0.374065, 0, 0, -0.927402) /* PCAPRecordedLocation */
 /* @teleloc 0x01DB01BB [100.492000 -39.054600 -5.993400] 0.374065 0.000000 0.000000 -0.927402 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27863, 8000, 3699152780) /* PCAPRecordedObjectIID */;
+VALUES (27863, 8000, 0xDC7C978C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (27863,   1,     0, 0, 0, 275) /* MaxHealth */;
@@ -50,6 +50,7 @@ VALUES (27863, 2, 47546,  1, 0, 0, False) /* Create Javelin (47546) for Wield */
      , (27863, 2, 47731,  1, 0, 0, False) /* Create Spear (47731) for Wield */
      , (27863, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */
      , (27863, 2, 47712,  1, 0, 0, False) /* Create Acid Spear (47712) for Wield */
+     , (27863, 2, 47527,  1, 0, 0, False) /* Create Acid Javelin (47527) for Wield */
      , (27863, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
      , (27863, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
      , (27863, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */

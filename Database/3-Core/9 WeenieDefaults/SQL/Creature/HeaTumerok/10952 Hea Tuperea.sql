@@ -25,22 +25,22 @@ VALUES (10952,   1, 'Hea Tuperea') /* Name */
      , (10952, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10952,   1,   33559568) /* Setup */
-     , (10952,   2,  150994954) /* MotionTable */
-     , (10952,   3,  536870931) /* SoundTable */
-     , (10952,   6,   67116625) /* PaletteBase */
-     , (10952,   8,  100667452) /* Icon */
-     , (10952,  22,  872415270) /* PhysicsEffectTable */
+VALUES (10952,   1, 0x02001410) /* Setup */
+     , (10952,   2, 0x0900000A) /* MotionTable */
+     , (10952,   3, 0x20000013) /* SoundTable */
+     , (10952,   6, 0x04001E51) /* PaletteBase */
+     , (10952,   8, 0x0600103C) /* Icon */
+     , (10952,  22, 0x34000026) /* PhysicsEffectTable */
      , (10952, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (10952, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (10952, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10952, 8040, 381681723, 179.9566, 56.94482, 31.01011, 0.9950909, 0, 0, -0.09896517) /* PCAPRecordedLocation */
+VALUES (10952, 8040, 0x16C0003B, 179.9566, 56.94482, 31.01011, 0.995091, 0, 0, -0.098965) /* PCAPRecordedLocation */
 /* @teleloc 0x16C0003B [179.956600 56.944820 31.010110] 0.995091 0.000000 0.000000 -0.098965 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10952, 8000, 3706904833) /* PCAPRecordedObjectIID */;
+VALUES (10952, 8000, 0xDCF2E101) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (10952,   1,     0, 0, 0, 330) /* MaxHealth */;

@@ -27,11 +27,11 @@ VALUES (44711,   1, 'Lesser Stamina Kit') /* Name */
      , (44711,  15, 'A stamina kit which provides resonable restoration.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44711,   1,   33555194) /* Setup */
-     , (44711,   8,  100692116) /* Icon */
+VALUES (44711,   1, 0x020002FA) /* Setup */
+     , (44711,   8, 0x06007094) /* Icon */
      , (44711, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (44711, 8003,      65554) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer */
      , (44711, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44711, 8000, 2461823049) /* PCAPRecordedObjectIID */;
+VALUES (44711, 8000, 0x92BC7049) /* PCAPRecordedObjectIID */;

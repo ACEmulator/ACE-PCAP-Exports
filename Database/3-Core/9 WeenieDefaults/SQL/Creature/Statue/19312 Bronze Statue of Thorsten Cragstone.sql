@@ -26,22 +26,22 @@ VALUES (19312,   1, 'Bronze Statue of Thorsten Cragstone') /* Name */
      , (19312, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19312,   1,   33554433) /* Setup */
-     , (19312,   2,  150995187) /* MotionTable */
-     , (19312,   3,  536871052) /* SoundTable */
-     , (19312,   6,   67108990) /* PaletteBase */
-     , (19312,   8,  100667446) /* Icon */
-     , (19312,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19312,   1, 0x02000001) /* Setup */
+     , (19312,   2, 0x090000F3) /* MotionTable */
+     , (19312,   3, 0x2000008C) /* SoundTable */
+     , (19312,   6, 0x0400007E) /* PaletteBase */
+     , (19312,   8, 0x06001036) /* Icon */
+     , (19312,  22, 0x34000075) /* PhysicsEffectTable */
      , (19312, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (19312, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19312, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19312, 8040, 1415119188, 107.526, -60.0245, 0.0115, 0.720434, 0, 0, 0.693523) /* PCAPRecordedLocation */
+VALUES (19312, 8040, 0x54590154, 107.526, -60.0245, 0.0115, 0.720434, 0, 0, 0.693523) /* PCAPRecordedLocation */
 /* @teleloc 0x54590154 [107.526000 -60.024500 0.011500] 0.720434 0.000000 0.000000 0.693523 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19312, 8000, 3360318674) /* PCAPRecordedObjectIID */;
+VALUES (19312, 8000, 0xC84A64D2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19312,   1, 230, 0, 0) /* Strength */

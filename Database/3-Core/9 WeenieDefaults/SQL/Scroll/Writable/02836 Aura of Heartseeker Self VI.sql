@@ -24,13 +24,13 @@ VALUES (2836,   1, 'Aura of Heartseeker Self VI') /* Name */
 Increases a weapon''s Attack Skill modifier by 15.0 percentage points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2836,   1,   33554826) /* Setup */
-     , (2836,   8,  100676660) /* Icon */
-     , (2836,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2836,   1, 0x0200018A) /* Setup */
+     , (2836,   8, 0x06003434) /* Icon */
+     , (2836,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2836,  28,       1592) /* Spell - HeartSeekerSelf6 */
      , (2836, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2836, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2836, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2836, 8000, 3689538362) /* PCAPRecordedObjectIID */;
+VALUES (2836, 8000, 0xDBE9E33A) /* PCAPRecordedObjectIID */;

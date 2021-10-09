@@ -8,7 +8,6 @@ VALUES (23808,   1,          2) /* ItemType - Armor */
      , (23808,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (23808,   5,       1375) /* EncumbranceVal */
      , (23808,   9,       1024) /* ValidLocations - AbdomenArmor */
-     , (23808,  10,       1024) /* CurrentWieldedLocation - AbdomenArmor */
      , (23808,  16,          1) /* ItemUseable - No */
      , (23808,  18,          1) /* UiEffects - Magical */
      , (23808,  19,       1610) /* Value */
@@ -45,17 +44,17 @@ VALUES (23808,   1, 'Solid Celdon Girth') /* Name */
      , (23808,   8, 'Funny Soup') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23808,   1,   33554647) /* Setup */
-     , (23808,   3,  536870932) /* SoundTable */
-     , (23808,   6,   67108990) /* PaletteBase */
-     , (23808,   8,  100674070) /* Icon */
-     , (23808,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23808,   1, 0x020000D7) /* Setup */
+     , (23808,   3, 0x20000014) /* SoundTable */
+     , (23808,   6, 0x0400007E) /* PaletteBase */
+     , (23808,   8, 0x06002A16) /* Icon */
+     , (23808,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23808, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (23808, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23808, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23808, 8000, 3621243703) /* PCAPRecordedObjectIID */;
+VALUES (23808, 8000, 0xD7D7CB37) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23808,  2614,      2)  /* CANTRIPSLASHINGWARD2 */;

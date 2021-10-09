@@ -28,7 +28,8 @@ VALUES (7568,   1,          1) /* ItemType - MeleeWeapon */
      , (7568, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7568,  22, True ) /* Inscribable */;
+VALUES (7568,  22, True ) /* Inscribable */
+     , (7568,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7568,  21,       0) /* WeaponLength */
@@ -46,13 +47,13 @@ VALUES (7568,   1, 'Ravenous Katar') /* Name */
      , (7568,  16, 'A katar crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7568,   1,   33556655) /* Setup */
-     , (7568,   3,  536870932) /* SoundTable */
-     , (7568,   8,  100668925) /* Icon */
-     , (7568,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7568,   1, 0x020008AF) /* Setup */
+     , (7568,   3, 0x20000014) /* SoundTable */
+     , (7568,   8, 0x060015FD) /* Icon */
+     , (7568,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7568, 8001,    2179736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
      , (7568, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7568, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7568, 8000, 3708942933) /* PCAPRecordedObjectIID */;
+VALUES (7568, 8000, 0xDD11FA55) /* PCAPRecordedObjectIID */;

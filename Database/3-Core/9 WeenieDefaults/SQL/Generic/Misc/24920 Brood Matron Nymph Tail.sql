@@ -14,20 +14,21 @@ VALUES (24920,   1,        128) /* ItemType - Misc */
      , (24920, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24920,  22, True ) /* Inscribable */;
+VALUES (24920,  22, True ) /* Inscribable */
+     , (24920,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24920,   1, 'Brood Matron Nymph Tail') /* Name */
      , (24920,  15, 'The tail of a departed Olthoi Brood Matron Nymph.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24920,   1,   33556593) /* Setup */
-     , (24920,   3,  536870932) /* SoundTable */
-     , (24920,   8,  100674521) /* Icon */
-     , (24920,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24920,   1, 0x02000871) /* Setup */
+     , (24920,   3, 0x20000014) /* SoundTable */
+     , (24920,   8, 0x06002BD9) /* Icon */
+     , (24920,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24920, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (24920, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24920, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24920, 8000, 3708072854) /* PCAPRecordedObjectIID */;
+VALUES (24920, 8000, 0xDD04B396) /* PCAPRecordedObjectIID */;

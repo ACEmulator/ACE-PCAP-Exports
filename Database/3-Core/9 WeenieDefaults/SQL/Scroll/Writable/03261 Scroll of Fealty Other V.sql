@@ -24,13 +24,13 @@ VALUES (3261,   1, 'Scroll of Fealty Other V') /* Name */
 Increases the target''s Loyalty skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3261,   1,   33554826) /* Setup */
-     , (3261,   8,  100676446) /* Icon */
-     , (3261,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3261,   1, 0x0200018A) /* Setup */
+     , (3261,   8, 0x0600335E) /* Icon */
+     , (3261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3261,  28,        956) /* Spell - FealtyOther5 */
      , (3261, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3261, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3261, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3261, 8000, 2618438305) /* PCAPRecordedObjectIID */;
+VALUES (3261, 8000, 0x9C1232A1) /* PCAPRecordedObjectIID */;

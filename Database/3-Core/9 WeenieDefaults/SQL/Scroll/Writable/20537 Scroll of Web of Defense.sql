@@ -24,13 +24,13 @@ VALUES (20537,   1, 'Scroll of Web of Defense') /* Name */
 Increases the target''s Melee Defense skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20537,   1,   33554826) /* Setup */
-     , (20537,   8,  100676467) /* Icon */
-     , (20537,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20537,   1, 0x0200018A) /* Setup */
+     , (20537,   8, 0x06003373) /* Icon */
+     , (20537,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20537,  28,       2244) /* Spell - InvulnerabilityOther7 */
      , (20537, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20537, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20537, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20537, 8000, 3681877803) /* PCAPRecordedObjectIID */;
+VALUES (20537, 8000, 0xDB74FF2B) /* PCAPRecordedObjectIID */;

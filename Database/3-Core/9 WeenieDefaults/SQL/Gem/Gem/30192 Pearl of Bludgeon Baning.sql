@@ -34,21 +34,21 @@ VALUES (30192,   1, 'Pearl of Bludgeon Baning') /* Name */
      , (30192,  20, 'Pearls of Bludgeon Baning') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30192,   1,   33554809) /* Setup */
-     , (30192,   3,  536870932) /* SoundTable */
-     , (30192,   6,   67111919) /* PaletteBase */
-     , (30192,   8,  100686695) /* Icon */
-     , (30192,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30192,   1, 0x02000179) /* Setup */
+     , (30192,   3, 0x20000014) /* SoundTable */
+     , (30192,   6, 0x04000BEF) /* PaletteBase */
+     , (30192,   8, 0x06005B67) /* Icon */
+     , (30192,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30192,  28,       3689) /* Spell - BludgeonBaneRare */
-     , (30192,  50,  100686636) /* IconOverlay */
-     , (30192,  52,  100686604) /* IconUnderlay */
+     , (30192,  50, 0x06005B2C) /* IconOverlay */
+     , (30192,  52, 0x06005B0C) /* IconUnderlay */
      , (30192, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30192, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30192, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30192, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30192, 8000, 2165663721) /* PCAPRecordedObjectIID */;
+VALUES (30192, 8000, 0x811567E9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30192, 67111927, 0, 0);

@@ -17,7 +17,7 @@ VALUES (49256,   1,        128) /* ItemType - Misc */
      , (49256, 105,          7) /* ItemWorkmanship */
      , (49256, 114,          0) /* Attuned - Normal */
      , (49256, 280,        213) /* SharedCooldown */
-     , (49256, 366,         54) /* UseRequiresSkill */
+     , (49256, 366,         54) /* UseRequiresSkill - Summoning */
      , (49256, 367,        400) /* UseRequiresSkillLevel */
      , (49256, 369,         90) /* UseRequiresLevel */
      , (49256, 373,         12) /* GearCritResist */
@@ -36,23 +36,20 @@ VALUES (49256,   1, 'Frost Zombie Essence (100)') /* Name */
      , (49256,  14, 'Use this essence to summon or dismiss your Frost Zombie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49256,   1,   33554817) /* Setup */
-     , (49256,   3,  536870932) /* SoundTable */
-     , (49256,   6,   67111919) /* PaletteBase */
-     , (49256,   8,  100667942) /* Icon */
-     , (49256,  22,  872415275) /* PhysicsEffectTable */
-     , (49256,  50,  100693028) /* IconOverlay */
-     , (49256,  52,  100693024) /* IconUnderlay */
+VALUES (49256,   1, 0x02000181) /* Setup */
+     , (49256,   3, 0x20000014) /* SoundTable */
+     , (49256,   6, 0x04000BEF) /* PaletteBase */
+     , (49256,   8, 0x06001226) /* Icon */
+     , (49256,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49256,  50, 0x06007424) /* IconOverlay */
+     , (49256,  52, 0x06007420) /* IconUnderlay */
      , (49256, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49256, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49256, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49256, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49256, 8000, 3694257574) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49256, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
+VALUES (49256, 8000, 0xDC31E5A6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49256, 67111919, 0, 0);

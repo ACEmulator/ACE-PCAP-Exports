@@ -30,22 +30,22 @@ VALUES (9136,   1, 'Vanguard Leader''s Amulet') /* Name */
      , (9136,  16, 'A ceremonial amulet, glowing with strange magical energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9136,   1,   33554680) /* Setup */
-     , (9136,   3,  536870932) /* SoundTable */
-     , (9136,   6,   67111919) /* PaletteBase */
-     , (9136,   8,  100671247) /* Icon */
-     , (9136,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9136,   1, 0x020000F8) /* Setup */
+     , (9136,   3, 0x20000014) /* SoundTable */
+     , (9136,   6, 0x04000BEF) /* PaletteBase */
+     , (9136,   8, 0x06001F0F) /* Icon */
+     , (9136,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9136, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (9136, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9136, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9136, 8000, 2923567956) /* PCAPRecordedObjectIID */;
+VALUES (9136, 8000, 0xAE421B54) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9136,   909,      2)  /* LeadershipMasteryOther6 */
-     , (9136,   957,      2)  /* FealtyOther6 */
-     , (9136,  1432,      2)  /* FocusOther6 */;
+     , (9136,  1432,      2)  /* FocusOther6 */
+     , (9136,   957,      2)  /* FealtyOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9136, 67111923, 0, 0);

@@ -28,13 +28,13 @@ VALUES (14910,   1, 'Wedding Cake') /* Name */
      , (14910,  20, 'Wedding Cake') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14910,   1,   33557617) /* Setup */
-     , (14910,   3,  536870932) /* SoundTable */
-     , (14910,   8,  100672711) /* Icon */
-     , (14910,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14910,   1, 0x02000C71) /* Setup */
+     , (14910,   3, 0x20000014) /* SoundTable */
+     , (14910,   8, 0x060024C7) /* Icon */
+     , (14910,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14910, 8001,  270561305) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (14910, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (14910, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14910, 8000, 3658159473) /* PCAPRecordedObjectIID */;
+VALUES (14910, 8000, 0xDA0B1571) /* PCAPRecordedObjectIID */;

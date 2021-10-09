@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20627,   1, 'Parts List for Arcane Pedestal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20627,   1,   33554773) /* Setup */
-     , (20627,   3,  536870932) /* SoundTable */
-     , (20627,   8,  100668176) /* Icon */
-     , (20627,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20627,   1, 0x02000155) /* Setup */
+     , (20627,   3, 0x20000014) /* SoundTable */
+     , (20627,   8, 0x06001310) /* Icon */
+     , (20627,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20627, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (20627, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (20627, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20627, 8000, 2779765625) /* PCAPRecordedObjectIID */;
+VALUES (20627, 8000, 0xA5AFDB79) /* PCAPRecordedObjectIID */;

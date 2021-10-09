@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11452,   1, 'Double Totem of Volkama and Audetaunga') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11452,   1,   33557268) /* Setup */
-     , (11452,   3,  536870932) /* SoundTable */
-     , (11452,   8,  100671993) /* Icon */
-     , (11452,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11452,   1, 0x02000B14) /* Setup */
+     , (11452,   3, 0x20000014) /* SoundTable */
+     , (11452,   8, 0x060021F9) /* Icon */
+     , (11452,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11452, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11452, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11452, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11452, 8000, 2804100946) /* PCAPRecordedObjectIID */;
+VALUES (11452, 8000, 0xA7232F52) /* PCAPRecordedObjectIID */;

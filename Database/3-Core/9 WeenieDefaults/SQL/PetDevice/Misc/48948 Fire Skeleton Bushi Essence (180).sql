@@ -17,7 +17,7 @@ VALUES (48948,   1,        128) /* ItemType - Misc */
      , (48948, 105,          8) /* ItemWorkmanship */
      , (48948, 114,          0) /* Attuned - Normal */
      , (48948, 280,        213) /* SharedCooldown */
-     , (48948, 366,         54) /* UseRequiresSkill */
+     , (48948, 366,         54) /* UseRequiresSkill - Summoning */
      , (48948, 367,        530) /* UseRequiresSkillLevel */
      , (48948, 369,        170) /* UseRequiresLevel */
      , (48948, 372,         16) /* GearCrit */
@@ -39,24 +39,24 @@ VALUES (48948,   1, 'Fire Skeleton Bushi Essence (180)') /* Name */
      , (48948,  14, 'Use this essence to summon or dismiss your Fire Skeleton Bushi.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48948,   1,   33554817) /* Setup */
-     , (48948,   3,  536870932) /* SoundTable */
-     , (48948,   6,   67111919) /* PaletteBase */
-     , (48948,   8,  100669124) /* Icon */
-     , (48948,  22,  872415275) /* PhysicsEffectTable */
-     , (48948,  50,  100693031) /* IconOverlay */
-     , (48948,  52,  100693024) /* IconUnderlay */
+VALUES (48948,   1, 0x02000181) /* Setup */
+     , (48948,   3, 0x20000014) /* SoundTable */
+     , (48948,   6, 0x04000BEF) /* PaletteBase */
+     , (48948,   8, 0x060016C4) /* Icon */
+     , (48948,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (48948,  50, 0x06007427) /* IconOverlay */
+     , (48948,  52, 0x06007420) /* IconUnderlay */
      , (48948, 8001, 1076366488) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, TargetType, Burden, IconOverlay */
      , (48948, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (48948, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (48948, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48948, 8040, 23855548, 49.58128, -33.58124, -0.0009999946, -0.8511181, 0, 0, -0.5249743) /* PCAPRecordedLocation */
+VALUES (48948, 8040, 0x016C01BC, 49.58128, -33.58124, -0.001, -0.851118, 0, 0, -0.524974) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.581280 -33.581240 -0.001000] -0.851118 0.000000 0.000000 -0.524974 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48948, 8000, 2684901484) /* PCAPRecordedObjectIID */;
+VALUES (48948, 8000, 0xA008586C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48948, 67111923, 0, 0);

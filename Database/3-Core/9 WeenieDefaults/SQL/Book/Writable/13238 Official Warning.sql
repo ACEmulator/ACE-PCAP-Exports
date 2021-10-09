@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (13238,   1, 'Official Warning') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13238,   1,   33554773) /* Setup */
-     , (13238,   3,  536870932) /* SoundTable */
-     , (13238,   8,  100672451) /* Icon */
-     , (13238,  22,  872415275) /* PhysicsEffectTable */
+VALUES (13238,   1, 0x02000155) /* Setup */
+     , (13238,   3, 0x20000014) /* SoundTable */
+     , (13238,   8, 0x060023C3) /* Icon */
+     , (13238,  22, 0x3400002B) /* PhysicsEffectTable */
      , (13238, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (13238, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (13238, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13238, 8000, 3658163570) /* PCAPRecordedObjectIID */;
+VALUES (13238, 8000, 0xDA0B2572) /* PCAPRecordedObjectIID */;

@@ -25,23 +25,23 @@ VALUES (31901,   1, 'Fanatical Mukkir') /* Name */
      , (31901, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31901,   1,   33559741) /* Setup */
-     , (31901,   2,  150995348) /* MotionTable */
-     , (31901,   3,  536871107) /* SoundTable */
-     , (31901,   6,   67116771) /* PaletteBase */
-     , (31901,   8,  100688542) /* Icon */
-     , (31901,  22,  872415417) /* PhysicsEffectTable */
+VALUES (31901,   1, 0x020014BD) /* Setup */
+     , (31901,   2, 0x09000194) /* MotionTable */
+     , (31901,   3, 0x200000C3) /* SoundTable */
+     , (31901,   6, 0x04001EE3) /* PaletteBase */
+     , (31901,   8, 0x0600629E) /* Icon */
+     , (31901,  22, 0x340000B9) /* PhysicsEffectTable */
      , (31901,  30,         84) /* PhysicsScript - BreatheFlame */
      , (31901, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (31901, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (31901, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31901, 8040, 7537512, 50.119, -77.213, -36, 0.999998, 0, 0, 0.00198) /* PCAPRecordedLocation */
+VALUES (31901, 8040, 0x00730368, 50.119, -77.213, -36, 0.999998, 0, 0, 0.00198) /* PCAPRecordedLocation */
 /* @teleloc 0x00730368 [50.119000 -77.213000 -36.000000] 0.999998 0.000000 0.000000 0.001980 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31901, 8000, 3358577102) /* PCAPRecordedObjectIID */;
+VALUES (31901, 8000, 0xC82FD1CE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31901,   1, 455, 0, 0) /* Strength */

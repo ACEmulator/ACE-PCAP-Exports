@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41637,   1,          1) /* ItemType - MeleeWeapon */
      , (41637,   5,        700) /* EncumbranceVal */
      , (41637,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (41637,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (41637,  16,          1) /* ItemUseable - No */
      , (41637,  19,       4000) /* Value */
      , (41637,  33,          1) /* Bonded - Bonded */
@@ -25,7 +24,8 @@ VALUES (41637,   1,          1) /* ItemType - MeleeWeapon */
      , (41637, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41637,  22, True ) /* Inscribable */;
+VALUES (41637,  22, True ) /* Inscribable */
+     , (41637,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41637,  21,       0) /* WeaponLength */
@@ -41,19 +41,19 @@ VALUES (41637,   1, 'Hollow Two Handed Spear') /* Name */
      , (41637,  16, 'A spear crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41637,   1,   33556646) /* Setup */
-     , (41637,   3,  536870932) /* SoundTable */
-     , (41637,   8,  100690819) /* Icon */
-     , (41637,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41637,   1, 0x020008A6) /* Setup */
+     , (41637,   3, 0x20000014) /* SoundTable */
+     , (41637,   8, 0x06006B83) /* Icon */
+     , (41637,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41637, 8001,    2327064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (41637, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41637, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */
      , (41637, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41637, 8040, 23855548, 51.71798, -35.54335, -0.071, 0.4859907, 0.4859907, -0.5136273, -0.5136273) /* PCAPRecordedLocation */
+VALUES (41637, 8040, 0x016C01BC, 51.71798, -35.54335, -0.071, 0.485991, 0.485991, -0.513627, -0.513627) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [51.717980 -35.543350 -0.071000] 0.485991 0.485991 -0.513627 -0.513627 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41637, 8000, 3665878049) /* PCAPRecordedObjectIID */
-     , (41637, 8008, 1343298052) /* PCAPRecordedParentIID */;
+VALUES (41637, 8000, 0xDA80DC21) /* PCAPRecordedObjectIID */
+     , (41637, 8008, 0x50111A04) /* PCAPRecordedParentIID */;

@@ -14,7 +14,8 @@ VALUES (36604,   1,        128) /* ItemType - Misc */
      , (36604, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36604,  22, True ) /* Inscribable */;
+VALUES (36604,  22, True ) /* Inscribable */
+     , (36604,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36604,   1, 'Dojiro Sangi''s Ring') /* Name */
@@ -22,17 +23,17 @@ VALUES (36604,   1, 'Dojiro Sangi''s Ring') /* Name */
      , (36604,  15, 'A simple ring, given to you by Dojiro Sangi, when you gave him the Paradox-infused Potion, in order to save him from becoming the "Prodigal Isparian".') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36604,   1,   33554690) /* Setup */
-     , (36604,   3,  536870932) /* SoundTable */
-     , (36604,   6,   67111919) /* PaletteBase */
-     , (36604,   8,  100668562) /* Icon */
-     , (36604,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36604,   1, 0x02000102) /* Setup */
+     , (36604,   3, 0x20000014) /* SoundTable */
+     , (36604,   6, 0x04000BEF) /* PaletteBase */
+     , (36604,   8, 0x06001492) /* Icon */
+     , (36604,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36604, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (36604, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36604, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36604, 8000, 3681527443) /* PCAPRecordedObjectIID */;
+VALUES (36604, 8000, 0xDB6FA693) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36604, 67111919, 0, 0);

@@ -8,7 +8,6 @@ VALUES (9392,   1,          2) /* ItemType - Armor */
      , (9392,   4,      16384) /* ClothingPriority - Head */
      , (9392,   5,        900) /* EncumbranceVal */
      , (9392,   9,          1) /* ValidLocations - HeadWear */
-     , (9392,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (9392,  16,          1) /* ItemUseable - No */
      , (9392,  19,       2000) /* Value */
      , (9392,  28,        240) /* ArmorLevel */
@@ -37,17 +36,17 @@ VALUES (9392,   1, 'Helm of the Crag') /* Name */
      , (9392,  16, 'A large horned helm with the horns of a large mattekar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9392,   1,   33557002) /* Setup */
-     , (9392,   3,  536870932) /* SoundTable */
-     , (9392,   6,   67108990) /* PaletteBase */
-     , (9392,   8,  100671467) /* Icon */
-     , (9392,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9392,   1, 0x02000A0A) /* Setup */
+     , (9392,   3, 0x20000014) /* SoundTable */
+     , (9392,   6, 0x0400007E) /* PaletteBase */
+     , (9392,   8, 0x06001FEB) /* Icon */
+     , (9392,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9392, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (9392, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9392, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9392, 8000, 2150584967) /* PCAPRecordedObjectIID */;
+VALUES (9392, 8000, 0x802F5287) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9392, 67109944, 240, 10)

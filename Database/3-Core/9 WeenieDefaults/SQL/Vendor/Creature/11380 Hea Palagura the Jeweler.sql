@@ -33,21 +33,21 @@ VALUES (11380,   1, 'Hea Palagura the Jeweler') /* Name */
      , (11380, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11380,   1,   33559553) /* Setup */
-     , (11380,   2,  150994954) /* MotionTable */
-     , (11380,   3,  536870931) /* SoundTable */
-     , (11380,   6,   67116625) /* PaletteBase */
-     , (11380,   8,  100667452) /* Icon */
+VALUES (11380,   1, 0x02001401) /* Setup */
+     , (11380,   2, 0x0900000A) /* MotionTable */
+     , (11380,   3, 0x20000013) /* SoundTable */
+     , (11380,   6, 0x04001E51) /* PaletteBase */
+     , (11380,   8, 0x0600103C) /* Icon */
      , (11380, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (11380, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (11380, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11380, 8040, 247070769, 149.821, 15.3112, 0.004999995, -0.9628276, 0, 0, -0.2701169) /* PCAPRecordedLocation */
+VALUES (11380, 8040, 0x0EBA0031, 149.821, 15.3112, 0.005, -0.962828, 0, 0, -0.270117) /* PCAPRecordedLocation */
 /* @teleloc 0x0EBA0031 [149.821000 15.311200 0.005000] -0.962828 0.000000 0.000000 -0.270117 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11380, 8000, 1894490121) /* PCAPRecordedObjectIID */;
+VALUES (11380, 8000, 0x70EBA009) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11380,   1,  95, 0, 0) /* Strength */

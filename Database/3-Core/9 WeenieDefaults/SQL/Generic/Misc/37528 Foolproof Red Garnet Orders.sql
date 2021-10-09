@@ -16,14 +16,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37528,   1, 'Foolproof Red Garnet Orders') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37528,   1,   33554680) /* Setup */
-     , (37528,   3,  536870932) /* SoundTable */
-     , (37528,   8,  100689882) /* Icon */
-     , (37528,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37528,   1, 0x020000F8) /* Setup */
+     , (37528,   3, 0x20000014) /* SoundTable */
+     , (37528,   8, 0x060067DA) /* Icon */
+     , (37528,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37528, 8001,      16400) /* PCAPRecordedWeenieHeader - Usable, Container */
      , (37528, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37528, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (37528, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37528, 8000,      37528) /* PCAPRecordedObjectIID */;
+VALUES (37528, 8000, 0x00009298) /* PCAPRecordedObjectIID */;

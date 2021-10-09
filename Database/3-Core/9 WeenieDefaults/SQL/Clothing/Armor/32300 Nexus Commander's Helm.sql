@@ -45,22 +45,22 @@ VALUES (32300,   1, 'Nexus Commander''s Helm') /* Name */
      , (32300,  16, 'A helm taken from the Commander of the Viamontian Knights in the Nexus.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32300,   1,   33556856) /* Setup */
-     , (32300,   3,  536870932) /* SoundTable */
-     , (32300,   6,   67108990) /* PaletteBase */
-     , (32300,   8,  100688283) /* Icon */
-     , (32300,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32300,   1, 0x02000978) /* Setup */
+     , (32300,   3, 0x20000014) /* SoundTable */
+     , (32300,   6, 0x0400007E) /* PaletteBase */
+     , (32300,   8, 0x0600619B) /* Icon */
+     , (32300,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32300, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (32300, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32300, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32300, 8000, 2807507558) /* PCAPRecordedObjectIID */;
+VALUES (32300, 8000, 0xA7572A66) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32300,   249,      2)  /* InvulnerabilitySelf6 */
-     , (32300,  2108,      2)  /* Impenetrability7 */
-     , (32300,  2612,      2)  /* CANTRIPFROSTWARD2 */;
+VALUES (32300,  2612,      2)  /* CANTRIPFROSTWARD2 */
+     , (32300,   249,      2)  /* InvulnerabilitySelf6 */
+     , (32300,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32300, 67109941, 240, 10)

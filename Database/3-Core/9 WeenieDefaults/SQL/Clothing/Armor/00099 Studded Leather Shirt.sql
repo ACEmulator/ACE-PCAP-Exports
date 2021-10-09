@@ -8,7 +8,6 @@ VALUES (99,   1,          2) /* ItemType - Armor */
      , (99,   4,       7168) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms */
      , (99,   5,        621) /* EncumbranceVal */
      , (99,   9,       3584) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor */
-     , (99,  10,       3584) /* CurrentWieldedLocation - ChestArmor, AbdomenArmor, UpperArmArmor */
      , (99,  16,          1) /* ItemUseable - No */
      , (99,  19,       6643) /* Value */
      , (99,  28,         80) /* ArmorLevel */
@@ -37,20 +36,17 @@ VALUES (99,   1, 'Studded Leather Shirt') /* Name */
      , (99,  16, 'Magnificently crafted Gromnie Hide Studded Leather Shirt , set with 2 Fire Opals') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (99,   1,   33554883) /* Setup */
-     , (99,   3,  536870932) /* SoundTable */
-     , (99,   6,   67108990) /* PaletteBase */
-     , (99,   8,  100669640) /* Icon */
-     , (99,  22,  872415275) /* PhysicsEffectTable */
+VALUES (99,   1, 0x020001C3) /* Setup */
+     , (99,   3, 0x20000014) /* SoundTable */
+     , (99,   6, 0x0400007E) /* PaletteBase */
+     , (99,   8, 0x060018C8) /* Icon */
+     , (99,  22, 0x3400002B) /* PhysicsEffectTable */
      , (99, 8001, 2166849560) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, Workmanship, MaterialType */
      , (99, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (99, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (99, 8000, 2856726486) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (99, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+VALUES (99, 8000, 0xAA462FD6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (99, 67110005, 80, 12)

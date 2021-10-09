@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24551,   1,        256) /* ItemType - MissileWeapon */
      , (24551,   5,          5) /* EncumbranceVal */
      , (24551,   9,    8388608) /* ValidLocations - MissileAmmo */
-     , (24551,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
      , (24551,  11,       1000) /* MaxStackSize */
      , (24551,  12,          1) /* StackSize */
      , (24551,  13,          5) /* StackUnitEncumbrance */
@@ -46,17 +45,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24551,   1, 'Deadly Barbed Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24551,   1,   33554730) /* Setup */
-     , (24551,   3,  536870932) /* SoundTable */
-     , (24551,   6,   67111919) /* PaletteBase */
-     , (24551,   8,  100674390) /* Icon */
-     , (24551,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24551,   1, 0x0200012A) /* Setup */
+     , (24551,   3, 0x20000014) /* SoundTable */
+     , (24551,   6, 0x04000BEF) /* PaletteBase */
+     , (24551,   8, 0x06002B56) /* Icon */
+     , (24551,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24551, 8001,  270775064) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (24551, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (24551, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24551, 8000, 3684848319) /* PCAPRecordedObjectIID */;
+VALUES (24551, 8000, 0xDBA252BF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24551, 67111924, 0, 0);

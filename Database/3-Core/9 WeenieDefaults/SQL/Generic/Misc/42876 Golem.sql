@@ -18,15 +18,15 @@ VALUES (42876,   1, 'Golem') /* Name */
      , (42876,  16, 'Golems are said to be remnants of Empyrean magic, left behind as guardians for their strongholds, both above and below ground. Once the Empyrean vanished, however, they became mindless automatons, attacking anything that comes near. They stand seven to eight feet tall, and are made of many materials, including earth, wood, water, ice, stone and metal. They bash with their club-like limbs, and also attack with magic.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42876,   1,   33561017) /* Setup */
-     , (42876,   8,  100668115) /* Icon */
+VALUES (42876,   1, 0x020019B9) /* Setup */
+     , (42876,   8, 0x060012D3) /* Icon */
      , (42876, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42876, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42876, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42876, 8040, 459065, 55.1556, -145.024, 0.66, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42876, 8040, 0x00070139, 55.1556, -145.024, 0.66, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070139 [55.155600 -145.024000 0.660000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42876, 8000, 1879076934) /* PCAPRecordedObjectIID */;
+VALUES (42876, 8000, 0x70007046) /* PCAPRecordedObjectIID */;

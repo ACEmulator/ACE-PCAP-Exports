@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31396,   1,          2) /* ItemType - Armor */
      , (31396,   5,       1000) /* EncumbranceVal */
      , (31396,   9,    2097152) /* ValidLocations - Shield */
-     , (31396,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (31396,  16,          1) /* ItemUseable - No */
      , (31396,  19,       3000) /* Value */
      , (31396,  28,        440) /* ArmorLevel */
@@ -42,10 +41,10 @@ VALUES (31396,   1, 'Caliginous Aegis') /* Name */
      , (31396,  16, 'A now powerless Aegis taken from the body of Archon Traesis. The Archon''s death has drained the magic absorbing abilities of the Aegis and returned it to what it once was. Perhaps with the right solution, you could restore its original abilities.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31396,   1,   33559618) /* Setup */
-     , (31396,   3,  536870932) /* SoundTable */
-     , (31396,   8,  100687958) /* Icon */
-     , (31396,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31396,   1, 0x02001442) /* Setup */
+     , (31396,   3, 0x20000014) /* SoundTable */
+     , (31396,   8, 0x06006056) /* Icon */
+     , (31396,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31396,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (31396, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (31396, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -53,18 +52,18 @@ VALUES (31396,   1,   33559618) /* Setup */
      , (31396, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31396, 8040, 23855548, 49.1735, -31.9955, -0.07400001, 0.5374959, 0.07897042, -0.8388966, -0.03338251) /* PCAPRecordedLocation */
+VALUES (31396, 8040, 0x016C01BC, 49.1735, -31.9955, -0.074, 0.537496, 0.07897, -0.838897, -0.033383) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.173500 -31.995500 -0.074000] 0.537496 0.078970 -0.838897 -0.033383 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31396, 8000, 3672667664) /* PCAPRecordedObjectIID */
-     , (31396, 8008, 1342183469) /* PCAPRecordedParentIID */;
+VALUES (31396, 8000, 0xDAE87610) /* PCAPRecordedObjectIID */
+     , (31396, 8008, 0x5000182D) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31396,   249,      2)  /* InvulnerabilitySelf6 */
+VALUES (31396,  3819,      2)  /* ConscriptsMight */
+     , (31396,  3820,      2)  /* ConscriptsWard */
      , (31396,  1332,      2)  /* StrengthSelf6 */
-     , (31396,  3819,      2)  /* ConscriptsMight */
-     , (31396,  3820,      2)  /* ConscriptsWard */;
+     , (31396,   249,      2)  /* InvulnerabilitySelf6 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (31396, 0, 83897328, 83897328);

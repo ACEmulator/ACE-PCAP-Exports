@@ -26,16 +26,16 @@ VALUES (22619,   1, 'Chocolate Covered Nanners') /* Name */
      , (22619,  15, 'A chocolate covered fruity treat on a stick!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22619,   1,   33555968) /* Setup */
-     , (22619,   3,  536870932) /* SoundTable */
-     , (22619,   8,  100673810) /* Icon */
-     , (22619,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22619,   1, 0x02000600) /* Setup */
+     , (22619,   3, 0x20000014) /* SoundTable */
+     , (22619,   8, 0x06002912) /* Icon */
+     , (22619,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22619, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (22619, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (22619, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22619, 8000, 2192312324) /* PCAPRecordedObjectIID */;
+VALUES (22619, 8000, 0x82AC0804) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (22619, 0, 83892151, 83888868);

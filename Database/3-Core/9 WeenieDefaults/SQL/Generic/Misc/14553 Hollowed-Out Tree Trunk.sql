@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14553,   1, 'Hollowed-Out Tree Trunk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14553,   1,   33557553) /* Setup */
-     , (14553,   3,  536870932) /* SoundTable */
-     , (14553,   6,   67112776) /* PaletteBase */
-     , (14553,   8,  100672529) /* Icon */
-     , (14553,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14553,   1, 0x02000C31) /* Setup */
+     , (14553,   3, 0x20000014) /* SoundTable */
+     , (14553,   6, 0x04000F48) /* PaletteBase */
+     , (14553,   8, 0x06002411) /* Icon */
+     , (14553,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14553, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (14553, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14553, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14553, 8000, 3261434711) /* PCAPRecordedObjectIID */;
+VALUES (14553, 8000, 0xC2658B57) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14553, 67113788, 0, 0);

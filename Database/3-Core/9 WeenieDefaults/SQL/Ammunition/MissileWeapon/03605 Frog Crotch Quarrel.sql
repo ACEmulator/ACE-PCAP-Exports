@@ -41,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3605,   1, 'Frog Crotch Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3605,   1,   33554730) /* Setup */
-     , (3605,   3,  536870932) /* SoundTable */
-     , (3605,   6,   67111919) /* PaletteBase */
-     , (3605,   8,  100670238) /* Icon */
-     , (3605,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3605,   1, 0x0200012A) /* Setup */
+     , (3605,   3, 0x20000014) /* SoundTable */
+     , (3605,   6, 0x04000BEF) /* PaletteBase */
+     , (3605,   8, 0x06001B1E) /* Icon */
+     , (3605,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3605, 8001,  270627608) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (3605, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (3605, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3605, 8000, 2924685196) /* PCAPRecordedObjectIID */;
+VALUES (3605, 8000, 0xAE53278C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3605, 67111918, 0, 0);

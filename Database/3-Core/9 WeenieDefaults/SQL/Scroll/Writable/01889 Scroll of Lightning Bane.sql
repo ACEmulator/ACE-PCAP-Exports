@@ -24,13 +24,13 @@ VALUES (1889,   1, 'Scroll of Lightning Bane') /* Name */
 Increases a shield or piece of armor''s resistance to electric damage by 10%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1889,   1,   33554826) /* Setup */
-     , (1889,   8,  100676653) /* Icon */
-     , (1889,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1889,   1, 0x0200018A) /* Setup */
+     , (1889,   8, 0x0600342D) /* Icon */
+     , (1889,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1889,  28,       1535) /* Spell - LightningBane1 */
      , (1889, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1889, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1889, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1889, 8000, 2148544913) /* PCAPRecordedObjectIID */;
+VALUES (1889, 8000, 0x80103191) /* PCAPRecordedObjectIID */;

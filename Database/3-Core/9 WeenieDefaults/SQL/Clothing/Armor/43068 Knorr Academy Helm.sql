@@ -50,25 +50,25 @@ VALUES (43068,   1, 'Knorr Academy Helm') /* Name */
      , (43068,  16, 'Knorr Academy Helm of Regeneration') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43068,   1,   33559082) /* Setup */
-     , (43068,   3,  536870932) /* SoundTable */
-     , (43068,   6,   67108990) /* PaletteBase */
-     , (43068,   8,  100691377) /* Icon */
-     , (43068,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43068,   1, 0x0200122A) /* Setup */
+     , (43068,   3, 0x20000014) /* SoundTable */
+     , (43068,   6, 0x0400007E) /* PaletteBase */
+     , (43068,   8, 0x06006DB1) /* Icon */
+     , (43068,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43068,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (43068, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (43068, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43068, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43068, 8000, 3707106955) /* PCAPRecordedObjectIID */;
+VALUES (43068, 8000, 0xDCF5F68B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43068,  1498,      2)  /* AcidBane6 */
+VALUES (43068,  2185,      2)  /* RegenerationSelf7 */
+     , (43068,  1498,      2)  /* AcidBane6 */
+     , (43068,  5034,      2)  /* CANTRIPTWOHANDEDAPTITUDE3 */
      , (43068,  2094,      2)  /* BladeBane7 */
-     , (43068,  2185,      2)  /* RegenerationSelf7 */
-     , (43068,  4407,      2)  /* Impenetrability8 */
-     , (43068,  5034,      2)  /* CANTRIPTWOHANDEDAPTITUDE3 */;
+     , (43068,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43068, 67110011, 240, 10)

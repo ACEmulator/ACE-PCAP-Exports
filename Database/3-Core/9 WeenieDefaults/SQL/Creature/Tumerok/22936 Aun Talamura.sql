@@ -29,21 +29,21 @@ VALUES (22936,   1, 'Aun Talamura') /* Name */
      , (22936, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22936,   1,   33557175) /* Setup */
-     , (22936,   2,  150995136) /* MotionTable */
-     , (22936,   3,  536871030) /* SoundTable */
-     , (22936,   6,   67113280) /* PaletteBase */
-     , (22936,   8,  100671756) /* Icon */
+VALUES (22936,   1, 0x02000AB7) /* Setup */
+     , (22936,   2, 0x090000C0) /* MotionTable */
+     , (22936,   3, 0x20000076) /* SoundTable */
+     , (22936,   6, 0x04001140) /* PaletteBase */
+     , (22936,   8, 0x0600210C) /* Icon */
      , (22936, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (22936, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (22936, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22936, 8040, 1464467750, 91.6284, -21.3121, 0.006000042, 0.785533, 0, 0, 0.61882) /* PCAPRecordedLocation */
+VALUES (22936, 8040, 0x574A0126, 91.6284, -21.3121, 0.006, 0.785533, 0, 0, 0.61882) /* PCAPRecordedLocation */
 /* @teleloc 0x574A0126 [91.628400 -21.312100 0.006000] 0.785533 0.000000 0.000000 0.618820 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22936, 8000, 2622384954) /* PCAPRecordedObjectIID */;
+VALUES (22936, 8000, 0x9C4E6B3A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22936,   1, 100, 0, 0) /* Strength */

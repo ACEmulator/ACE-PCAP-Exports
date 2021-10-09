@@ -36,27 +36,27 @@ VALUES (30037,   1, 'Shopkeeper Tod Burgni') /* Name */
      , (30037, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30037,   1,   33554433) /* Setup */
-     , (30037,   2,  150994945) /* MotionTable */
-     , (30037,   3,  536870913) /* SoundTable */
-     , (30037,   6,   67108990) /* PaletteBase */
-     , (30037,   8,  100667446) /* Icon */
-     , (30037,   9,   83890493) /* EyesTexture */
-     , (30037,  10,   83890555) /* NoseTexture */
-     , (30037,  11,   83890630) /* MouthTexture */
-     , (30037,  15,   67117105) /* HairPalette */
-     , (30037,  16,   67109564) /* EyesPalette */
-     , (30037,  17,   67115907) /* SkinPalette */
+VALUES (30037,   1, 0x02000001) /* Setup */
+     , (30037,   2, 0x09000001) /* MotionTable */
+     , (30037,   3, 0x20000001) /* SoundTable */
+     , (30037,   6, 0x0400007E) /* PaletteBase */
+     , (30037,   8, 0x06001036) /* Icon */
+     , (30037,   9, 0x0500113D) /* EyesTexture */
+     , (30037,  10, 0x0500117B) /* NoseTexture */
+     , (30037,  11, 0x050011C6) /* MouthTexture */
+     , (30037,  15, 0x04002031) /* HairPalette */
+     , (30037,  16, 0x040002BC) /* EyesPalette */
+     , (30037,  17, 0x04001B83) /* SkinPalette */
      , (30037, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (30037, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (30037, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30037, 8040, 869859585, 28.2668, 38.5777, 52.085, 0.9988711, 0, 0, -0.04750373) /* PCAPRecordedLocation */
+VALUES (30037, 8040, 0x33D90101, 28.2668, 38.5777, 52.085, 0.998871, 0, 0, -0.047504) /* PCAPRecordedLocation */
 /* @teleloc 0x33D90101 [28.266800 38.577700 52.085000] 0.998871 0.000000 0.000000 -0.047504 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30037, 8000, 1933414413) /* PCAPRecordedObjectIID */;
+VALUES (30037, 8000, 0x733D900D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30037,   1,  45, 0, 0) /* Strength */
@@ -122,14 +122,7 @@ VALUES (30037, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (30037, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30037, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30037, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30037, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (30037, 4, 28853, -1, 0, 0, False) /* Create Kam'shir (28853) for Shop */
-     , (30037, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
-     , (30037, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (30037, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
-     , (30037, 4, 31780, -1, 0, 0, False) /* Create Acid Spine Glaive (31780) for Shop */
-     , (30037, 4, 28843, -1, 0, 0, False) /* Create Cave Penguin Cake (28843) for Shop */
-     , (30037, 4, 44801, -1, 0, 0, False) /* Create Suikan Over-robe (44801) for Shop */;
+     , (30037, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30037, 67109564, 32, 8)

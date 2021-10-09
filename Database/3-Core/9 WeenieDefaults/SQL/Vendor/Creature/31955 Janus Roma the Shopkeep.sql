@@ -36,27 +36,27 @@ VALUES (31955,   1, 'Janus Roma the Shopkeep') /* Name */
      , (31955, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31955,   1,   33554433) /* Setup */
-     , (31955,   2,  150994945) /* MotionTable */
-     , (31955,   3,  536870914) /* SoundTable */
-     , (31955,   6,   67108990) /* PaletteBase */
-     , (31955,   8,  100667446) /* Icon */
-     , (31955,   9,   83890481) /* EyesTexture */
-     , (31955,  10,   83890551) /* NoseTexture */
-     , (31955,  11,   83890614) /* MouthTexture */
-     , (31955,  15,   67116989) /* HairPalette */
-     , (31955,  16,   67110064) /* EyesPalette */
-     , (31955,  17,   67115907) /* SkinPalette */
+VALUES (31955,   1, 0x02000001) /* Setup */
+     , (31955,   2, 0x09000001) /* MotionTable */
+     , (31955,   3, 0x20000002) /* SoundTable */
+     , (31955,   6, 0x0400007E) /* PaletteBase */
+     , (31955,   8, 0x06001036) /* Icon */
+     , (31955,   9, 0x05001131) /* EyesTexture */
+     , (31955,  10, 0x05001177) /* NoseTexture */
+     , (31955,  11, 0x050011B6) /* MouthTexture */
+     , (31955,  15, 0x04001FBD) /* HairPalette */
+     , (31955,  16, 0x040004B0) /* EyesPalette */
+     , (31955,  17, 0x04001B83) /* SkinPalette */
      , (31955, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (31955, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (31955, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31955, 8040, 397541674, 100.911, 79.975, 43.705, 0.3136283, 0, 0, -0.9495458) /* PCAPRecordedLocation */
+VALUES (31955, 8040, 0x17B2012A, 100.911, 79.975, 43.705, 0.313628, 0, 0, -0.949546) /* PCAPRecordedLocation */
 /* @teleloc 0x17B2012A [100.911000 79.975000 43.705000] 0.313628 0.000000 0.000000 -0.949546 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31955, 8000, 1903894546) /* PCAPRecordedObjectIID */;
+VALUES (31955, 8000, 0x717B2012) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31955,   1,  50, 0, 0) /* Strength */
@@ -108,8 +108,7 @@ VALUES (31955, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (31955, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (31955, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
      , (31955, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (31955, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (31955, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */;
+     , (31955, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31955, 67109964, 92, 4)

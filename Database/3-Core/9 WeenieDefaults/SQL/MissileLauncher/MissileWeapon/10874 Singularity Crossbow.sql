@@ -16,7 +16,7 @@ VALUES (10874,   1,        256) /* ItemType - MissileWeapon */
      , (10874,  48,         47) /* WeaponSkill - MissileWeapons */
      , (10874,  49,        100) /* WeaponTime */
      , (10874,  50,          2) /* AmmoType - Bolt */
-     , (10874,  51,          2) /* CombatUse - Missle */
+     , (10874,  51,          2) /* CombatUse - Missile */
      , (10874,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10874, 106,        200) /* ItemSpellcraft */
      , (10874, 107,        688) /* ItemCurMana */
@@ -50,18 +50,18 @@ VALUES (10874,   1, 'Singularity Crossbow') /* Name */
      , (10874,  25, 'Arthurr') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10874,   1,   33557313) /* Setup */
-     , (10874,   3,  536870932) /* SoundTable */
-     , (10874,   6,   67111919) /* PaletteBase */
-     , (10874,   8,  100672049) /* Icon */
-     , (10874,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10874,   1, 0x02000B41) /* Setup */
+     , (10874,   3, 0x20000014) /* SoundTable */
+     , (10874,   6, 0x04000BEF) /* PaletteBase */
+     , (10874,   8, 0x06002231) /* Icon */
+     , (10874,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10874,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (10874, 8001,  270615440) /* PCAPRecordedWeenieHeader - Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (10874, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10874, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10874, 8000, 2166110529) /* PCAPRecordedObjectIID */;
+VALUES (10874, 8000, 0x811C3941) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10874,  1616,      2)  /* BloodDrinkerSelf6 */;

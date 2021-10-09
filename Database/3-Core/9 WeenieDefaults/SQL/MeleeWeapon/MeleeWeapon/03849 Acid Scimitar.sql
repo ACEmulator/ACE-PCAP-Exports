@@ -44,13 +44,13 @@ VALUES (3849,   1, 'Acid Scimitar') /* Name */
      , (3849,  16, 'Acid Scimitar') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3849,   1,   33555767) /* Setup */
-     , (3849,   3,  536870932) /* SoundTable */
-     , (3849,   8,  100668982) /* Icon */
-     , (3849,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3849,   1, 0x02000537) /* Setup */
+     , (3849,   3, 0x20000014) /* SoundTable */
+     , (3849,   8, 0x06001636) /* Icon */
+     , (3849,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3849, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3849, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3849, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3849, 8000, 3700589696) /* PCAPRecordedObjectIID */;
+VALUES (3849, 8000, 0xDC928480) /* PCAPRecordedObjectIID */;

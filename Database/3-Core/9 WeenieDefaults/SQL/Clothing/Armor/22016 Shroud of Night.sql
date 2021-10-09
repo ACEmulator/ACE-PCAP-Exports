@@ -8,7 +8,6 @@ VALUES (22016,   1,          2) /* ItemType - Armor */
      , (22016,   4,      16384) /* ClothingPriority - Head */
      , (22016,   5,        600) /* EncumbranceVal */
      , (22016,   9,          1) /* ValidLocations - HeadWear */
-     , (22016,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (22016,  16,          1) /* ItemUseable - No */
      , (22016,  18,          1) /* UiEffects - Magical */
      , (22016,  19,       6000) /* Value */
@@ -23,16 +22,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22016,   1, 'Shroud of Night') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22016,   1,   33558082) /* Setup */
-     , (22016,   3,  536870932) /* SoundTable */
-     , (22016,   8,  100673596) /* Icon */
-     , (22016,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22016,   1, 0x02000E42) /* Setup */
+     , (22016,   3, 0x20000014) /* SoundTable */
+     , (22016,   8, 0x0600283C) /* Icon */
+     , (22016,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22016, 8001,  271024280) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (22016, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22016, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22016, 8000, 3331387511) /* PCAPRecordedObjectIID */;
+VALUES (22016, 8000, 0xC690F077) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (22016, 0, 16788527);

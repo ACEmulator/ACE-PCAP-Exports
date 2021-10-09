@@ -17,7 +17,7 @@ VALUES (48942,   1,        128) /* ItemType - Misc */
      , (48942, 105,          8) /* ItemWorkmanship */
      , (48942, 114,          0) /* Attuned - Normal */
      , (48942, 280,        213) /* SharedCooldown */
-     , (48942, 366,         54) /* UseRequiresSkill */
+     , (48942, 366,         54) /* UseRequiresSkill - Summoning */
      , (48942, 367,        310) /* UseRequiresSkillLevel */
      , (48942, 369,         40) /* UseRequiresLevel */
      , (48942, 372,          4) /* GearCrit */
@@ -37,20 +37,20 @@ VALUES (48942,   1, 'Fire Skeleton Minion Essence (50)') /* Name */
      , (48942,  14, 'Use this essence to summon or dismiss your Fire Skeleton Minion.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48942,   1,   33554817) /* Setup */
-     , (48942,   3,  536870932) /* SoundTable */
-     , (48942,   6,   67111919) /* PaletteBase */
-     , (48942,   8,  100669124) /* Icon */
-     , (48942,  22,  872415275) /* PhysicsEffectTable */
-     , (48942,  50,  100693026) /* IconOverlay */
-     , (48942,  52,  100693024) /* IconUnderlay */
+VALUES (48942,   1, 0x02000181) /* Setup */
+     , (48942,   3, 0x20000014) /* SoundTable */
+     , (48942,   6, 0x04000BEF) /* PaletteBase */
+     , (48942,   8, 0x060016C4) /* Icon */
+     , (48942,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (48942,  50, 0x06007422) /* IconOverlay */
+     , (48942,  52, 0x06007420) /* IconUnderlay */
      , (48942, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (48942, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (48942, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (48942, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48942, 8000, 3687965399) /* PCAPRecordedObjectIID */;
+VALUES (48942, 8000, 0xDBD1E2D7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48942, 67111923, 0, 0);

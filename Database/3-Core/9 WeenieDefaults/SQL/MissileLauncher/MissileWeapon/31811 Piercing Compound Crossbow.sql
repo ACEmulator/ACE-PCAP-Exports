@@ -15,7 +15,7 @@ VALUES (31811,   1,        256) /* ItemType - MissileWeapon */
      , (31811,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31811,  49,        101) /* WeaponTime */
      , (31811,  50,          2) /* AmmoType - Bolt */
-     , (31811,  51,          2) /* CombatUse - Missle */
+     , (31811,  51,          2) /* CombatUse - Missile */
      , (31811,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31811, 105,          6) /* ItemWorkmanship */
      , (31811, 106,        287) /* ItemSpellcraft */
@@ -56,25 +56,25 @@ VALUES (31811,   1, 'Piercing Compound Crossbow') /* Name */
      , (31811,  16, 'Piercing Compound Crossbow of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31811,   1,   33559693) /* Setup */
-     , (31811,   3,  536870932) /* SoundTable */
-     , (31811,   6,   67116700) /* PaletteBase */
-     , (31811,   8,  100688061) /* Icon */
-     , (31811,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31811,   1, 0x0200148D) /* Setup */
+     , (31811,   3, 0x20000014) /* SoundTable */
+     , (31811,   6, 0x04001E9C) /* PaletteBase */
+     , (31811,   8, 0x060060BD) /* Icon */
+     , (31811,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31811,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (31811, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31811, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31811, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31811, 8000, 3324895840) /* PCAPRecordedObjectIID */;
+VALUES (31811, 8000, 0xC62DE260) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31811,  1616,      2)  /* BloodDrinkerSelf6 */
+VALUES (31811,  2061,      2)  /* EnduranceSelf7 */
+     , (31811,  1616,      2)  /* BloodDrinkerSelf6 */
      , (31811,  1627,      2)  /* SwiftKillerSelf6 */
-     , (31811,  2061,      2)  /* EnduranceSelf7 */
-     , (31811,  2101,      2)  /* DefenderSelf7 */
-     , (31811,  2588,      2)  /* CANTRIPDEFENDER2 */;
+     , (31811,  2588,      2)  /* CANTRIPDEFENDER2 */
+     , (31811,  2101,      2)  /* DefenderSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31811, 67116700, 1, 100)

@@ -37,27 +37,27 @@ VALUES (30052,   1, 'Blacksmith') /* Name */
      , (30052, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30052,   1,   33554433) /* Setup */
-     , (30052,   2,  150994945) /* MotionTable */
-     , (30052,   3,  536870913) /* SoundTable */
-     , (30052,   6,   67108990) /* PaletteBase */
-     , (30052,   8,  100667446) /* Icon */
-     , (30052,   9,   83890445) /* EyesTexture */
-     , (30052,  10,   83890518) /* NoseTexture */
-     , (30052,  11,   83890575) /* MouthTexture */
-     , (30052,  15,   67117106) /* HairPalette */
-     , (30052,  16,   67110065) /* EyesPalette */
-     , (30052,  17,   67115901) /* SkinPalette */
+VALUES (30052,   1, 0x02000001) /* Setup */
+     , (30052,   2, 0x09000001) /* MotionTable */
+     , (30052,   3, 0x20000001) /* SoundTable */
+     , (30052,   6, 0x0400007E) /* PaletteBase */
+     , (30052,   8, 0x06001036) /* Icon */
+     , (30052,   9, 0x0500110D) /* EyesTexture */
+     , (30052,  10, 0x05001156) /* NoseTexture */
+     , (30052,  11, 0x0500118F) /* MouthTexture */
+     , (30052,  15, 0x04002032) /* HairPalette */
+     , (30052,  16, 0x040004B1) /* EyesPalette */
+     , (30052,  17, 0x04001B7D) /* SkinPalette */
      , (30052, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (30052, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (30052, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30052, 8040, 601489444, 97.8579, 74.2193, 2.005, 0.9313171, 0, 0, -0.3642093) /* PCAPRecordedLocation */
+VALUES (30052, 8040, 0x23DA0024, 97.8579, 74.2193, 2.005, 0.931317, 0, 0, -0.364209) /* PCAPRecordedLocation */
 /* @teleloc 0x23DA0024 [97.857900 74.219300 2.005000] 0.931317 0.000000 0.000000 -0.364209 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30052, 8000, 1916641284) /* PCAPRecordedObjectIID */;
+VALUES (30052, 8000, 0x723DA004) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30052,   1, 130, 0, 0) /* Strength */
@@ -107,17 +107,7 @@ VALUES (30052, 2, 30571,  1, 0, 0, False) /* Create Spada (30571) for Wield */
      , (30052, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (30052, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30052, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30052, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30052, 4, 31867, -1, 0, 0, False) /* Create Diadem (31867) for Shop */
-     , (30052, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */
-     , (30052, 4, 49359, -1, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for Shop */
-     , (30052, 4, 49240, -1, 0, 0, False) /* Create Lightning Zombie Essence (50) (49240) for Shop */
-     , (30052, 4, 49220, -1, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for Shop */
-     , (30052, 4, 24361, -1, 0, 0, False) /* Create Asheron's Supreme Raiment (24361) for Shop */
-     , (30052, 4, 24364, -1, 0, 0, False) /* Create Asheron's Supreme Raiment (24364) for Shop */
-     , (30052, 4, 24363, -1, 0, 0, False) /* Create Asheron's Supreme Raiment (24363) for Shop */
-     , (30052, 4, 24362, -1, 0, 0, False) /* Create Asheron's Supreme Raiment (24362) for Shop */
-     , (30052, 4, 24367, -1, 0, 0, False) /* Create Asheron's Greater Raiment (24367) for Shop */;
+     , (30052, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30052, 67110003, 72, 8)

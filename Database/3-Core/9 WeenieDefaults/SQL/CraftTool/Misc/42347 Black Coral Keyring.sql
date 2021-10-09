@@ -36,13 +36,13 @@ VALUES (42347,   1, 'Black Coral Keyring') /* Name */
      , (42347,  16, 'A crude keyring roughly carved out of a black coral golem heart. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42347,   1,   33554790) /* Setup */
-     , (42347,   3,  536870932) /* SoundTable */
-     , (42347,   8,  100690880) /* Icon */
-     , (42347,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42347,   1, 0x02000166) /* Setup */
+     , (42347,   3, 0x20000014) /* SoundTable */
+     , (42347,   8, 0x06006BC0) /* Icon */
+     , (42347,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42347, 8001,  271088664) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (42347, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42347, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42347, 8000, 2183443808) /* PCAPRecordedObjectIID */;
+VALUES (42347, 8000, 0x8224B560) /* PCAPRecordedObjectIID */;

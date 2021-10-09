@@ -46,17 +46,17 @@ VALUES (31776,   1, 'Electric Board with Nail') /* Name */
      , (31776,  16, 'Electric Board with Nail') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31776,   1,   33559654) /* Setup */
-     , (31776,   3,  536870932) /* SoundTable */
-     , (31776,   6,   67116700) /* PaletteBase */
-     , (31776,   8,  100688088) /* Icon */
-     , (31776,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31776,   1, 0x02001466) /* Setup */
+     , (31776,   3, 0x20000014) /* SoundTable */
+     , (31776,   6, 0x04001E9C) /* PaletteBase */
+     , (31776,   8, 0x060060D8) /* Icon */
+     , (31776,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31776, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31776, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31776, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31776, 8000, 3683296244) /* PCAPRecordedObjectIID */;
+VALUES (31776, 8000, 0xDB8AA3F4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31776, 67116700, 0, 101)

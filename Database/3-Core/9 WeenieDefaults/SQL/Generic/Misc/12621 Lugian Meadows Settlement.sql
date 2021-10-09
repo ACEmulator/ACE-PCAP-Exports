@@ -18,15 +18,15 @@ VALUES (12621,   1, 'Lugian Meadows Settlement') /* Name */
      , (12621,  16, 'Welcome to Lugian Meadows Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12621,   1,   33557463) /* Setup */
-     , (12621,   8,  100668115) /* Icon */
+VALUES (12621,   1, 0x02000BD7) /* Setup */
+     , (12621,   8, 0x060012D3) /* Icon */
      , (12621, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (12621, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12621, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12621, 8040, 3508666405, 100.917, 106.922, 66.91017, -0.771403, 0, 0, -0.636347) /* PCAPRecordedLocation */
+VALUES (12621, 8040, 0xD1220025, 100.917, 106.922, 66.91017, -0.771403, 0, 0, -0.636347) /* PCAPRecordedLocation */
 /* @teleloc 0xD1220025 [100.917000 106.922000 66.910170] -0.771403 0.000000 0.000000 -0.636347 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12621, 8000, 2098340273) /* PCAPRecordedObjectIID */;
+VALUES (12621, 8000, 0x7D1221B1) /* PCAPRecordedObjectIID */;

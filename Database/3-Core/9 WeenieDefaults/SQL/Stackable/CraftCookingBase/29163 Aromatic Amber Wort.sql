@@ -26,14 +26,14 @@ VALUES (29163,   1, 'Aromatic Amber Wort') /* Name */
      , (29163,  20, 'Aromatic Amber Worts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29163,   1,   33559154) /* Setup */
-     , (29163,   3,  536870932) /* SoundTable */
-     , (29163,   8,  100686462) /* Icon */
-     , (29163,  22,  872415275) /* PhysicsEffectTable */
-     , (29163,  50,  100687552) /* IconOverlay */
+VALUES (29163,   1, 0x02001272) /* Setup */
+     , (29163,   3, 0x20000014) /* SoundTable */
+     , (29163,   8, 0x06005A7E) /* Icon */
+     , (29163,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29163,  50, 0x06005EC0) /* IconOverlay */
      , (29163, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (29163, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29163, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29163, 8000, 3696515521) /* PCAPRecordedObjectIID */;
+VALUES (29163, 8000, 0xDC5459C1) /* PCAPRecordedObjectIID */;

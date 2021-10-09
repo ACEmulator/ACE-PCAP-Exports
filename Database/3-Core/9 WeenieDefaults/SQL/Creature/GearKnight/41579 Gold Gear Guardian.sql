@@ -25,21 +25,21 @@ VALUES (41579,   1, 'Gold Gear Guardian') /* Name */
      , (41579, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41579,   1,   33560843) /* Setup */
-     , (41579,   2,  150995368) /* MotionTable */
-     , (41579,   3,  536871123) /* SoundTable */
-     , (41579,   8,  100674350) /* Icon */
-     , (41579,  22,  872415269) /* PhysicsEffectTable */
+VALUES (41579,   1, 0x0200190B) /* Setup */
+     , (41579,   2, 0x090001A8) /* MotionTable */
+     , (41579,   3, 0x200000D3) /* SoundTable */
+     , (41579,   8, 0x06002B2E) /* Icon */
+     , (41579,  22, 0x34000025) /* PhysicsEffectTable */
      , (41579, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (41579, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (41579, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41579, 8040, 2287010094, 36.0112, 110.3915, 0.406, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (41579, 8040, 0x8851012E, 36.0112, 110.3915, 0.406, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x8851012E [36.011200 110.391500 0.406000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41579, 8000, 3708433244) /* PCAPRecordedObjectIID */;
+VALUES (41579, 8000, 0xDD0A335C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (41579,   1,     0, 0, 0, 365) /* MaxHealth */;

@@ -53,22 +53,22 @@ VALUES (3844,   1, 'Flaming Ono') /* Name */
      , (3844,  16, 'Flaming Ono of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3844,   1,   33555688) /* Setup */
-     , (3844,   3,  536870932) /* SoundTable */
-     , (3844,   8,  100668985) /* Icon */
-     , (3844,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3844,   1, 0x020004E8) /* Setup */
+     , (3844,   3, 0x20000014) /* SoundTable */
+     , (3844,   8, 0x06001639) /* Icon */
+     , (3844,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3844,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3844, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3844, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3844, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3844, 8000, 3688474771) /* PCAPRecordedObjectIID */;
+VALUES (3844, 8000, 0xDBD9A893) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3844,  1402,      2)  /* QuicknessSelf6 */
-     , (3844,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (3844,  2561,      2)  /* CANTRIPMONSTERATTUNEMENT1 */
      , (3844,  2116,      2)  /* SwiftKillerSelf7 */
+     , (3844,  2096,      2)  /* BloodDrinkerSelf7 */
      , (3844,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
-     , (3844,  2558,      2)  /* CANTRIPMAGICITEMEXPERTISE1 */
-     , (3844,  2561,      2)  /* CANTRIPMONSTERATTUNEMENT1 */;
+     , (3844,  1402,      2)  /* QuicknessSelf6 */
+     , (3844,  2558,      2)  /* CANTRIPMAGICITEMEXPERTISE1 */;

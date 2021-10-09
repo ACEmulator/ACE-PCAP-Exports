@@ -21,16 +21,16 @@ VALUES (14493,   1, 'Lower Empyrean Fire Cistern') /* Name */
      , (14493, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14493,   1,   33555926) /* Setup */
-     , (14493,   2,  150994947) /* MotionTable */
-     , (14493,   8,  100667499) /* Icon */
+VALUES (14493,   1, 0x020005D6) /* Setup */
+     , (14493,   2, 0x09000003) /* MotionTable */
+     , (14493,   8, 0x0600106B) /* Icon */
      , (14493, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14493, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14493, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14493, 8040, 1383072001, -2.95033, -90.0595, -48.063, 0.7234597, 0, 0, 0.6903666) /* PCAPRecordedLocation */
+VALUES (14493, 8040, 0x52700101, -2.95033, -90.0595, -48.063, 0.72346, 0, 0, 0.690367) /* PCAPRecordedLocation */
 /* @teleloc 0x52700101 [-2.950330 -90.059500 -48.063000] 0.723460 0.000000 0.000000 0.690367 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14493, 8000, 1965490176) /* PCAPRecordedObjectIID */;
+VALUES (14493, 8000, 0x75270000) /* PCAPRecordedObjectIID */;

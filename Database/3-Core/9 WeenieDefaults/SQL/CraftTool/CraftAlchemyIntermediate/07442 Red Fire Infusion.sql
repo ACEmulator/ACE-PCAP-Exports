@@ -19,7 +19,8 @@ VALUES (7442,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (7442, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7442,  22, True ) /* Inscribable */;
+VALUES (7442,  22, True ) /* Inscribable */
+     , (7442,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7442,   1, 'Red Fire Infusion') /* Name */
@@ -28,17 +29,17 @@ VALUES (7442,   1, 'Red Fire Infusion') /* Name */
      , (7442,  20, 'Red Fire Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7442,   1,   33555965) /* Setup */
-     , (7442,   3,  536870932) /* SoundTable */
-     , (7442,   6,   67111919) /* PaletteBase */
-     , (7442,   8,  100670746) /* Icon */
-     , (7442,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7442,   1, 0x020005FD) /* Setup */
+     , (7442,   3, 0x20000014) /* SoundTable */
+     , (7442,   6, 0x04000BEF) /* PaletteBase */
+     , (7442,   8, 0x06001D1A) /* Icon */
+     , (7442,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7442, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7442, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7442, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7442, 8000, 3682769029) /* PCAPRecordedObjectIID */;
+VALUES (7442, 8000, 0xDB829885) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7442, 67111922, 0, 0);

@@ -36,28 +36,21 @@ VALUES (295,   1, 'Bracelet') /* Name */
      , (295,  16, 'Bracelet of Magic Resistance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (295,   1,   33554683) /* Setup */
-     , (295,   3,  536870932) /* SoundTable */
-     , (295,   6,   67111919) /* PaletteBase */
-     , (295,   8,  100668623) /* Icon */
-     , (295,  22,  872415275) /* PhysicsEffectTable */
+VALUES (295,   1, 0x020000FB) /* Setup */
+     , (295,   3, 0x20000014) /* SoundTable */
+     , (295,   6, 0x04000BEF) /* PaletteBase */
+     , (295,   8, 0x060014CF) /* Icon */
+     , (295,  22, 0x3400002B) /* PhysicsEffectTable */
      , (295, 8001, 2166440088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, Workmanship, MaterialType */
      , (295, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (295, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (295, 8000, 3684971266) /* PCAPRecordedObjectIID */;
+VALUES (295, 8000, 0xDBA43302) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (295,   277,      2)  /* MagicResistanceSelf4 */
      , (295,  2555,      2)  /* CANTRIPLIFEMAGICAPTITUDE1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (295, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (295, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
-     , (295, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (295, 2, 23683,  1, 0, 0, False) /* Create Kite Shield (23683) for Wield */
-     , (295, 2, 23706,  1, 0, 0, False) /* Create Fire Tachi (23706) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (295, 67111920, 0, 0);

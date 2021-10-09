@@ -23,21 +23,21 @@ VALUES (39534,   1, 'Tactical Defense Score Keeper') /* Name */
      , (39534, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39534,   1,   33554433) /* Setup */
-     , (39534,   2,  150994945) /* MotionTable */
-     , (39534,   3,  536870913) /* SoundTable */
-     , (39534,   6,   67108990) /* PaletteBase */
-     , (39534,   8,  100667446) /* Icon */
+VALUES (39534,   1, 0x02000001) /* Setup */
+     , (39534,   2, 0x09000001) /* MotionTable */
+     , (39534,   3, 0x20000001) /* SoundTable */
+     , (39534,   6, 0x0400007E) /* PaletteBase */
+     , (39534,   8, 0x06001036) /* Icon */
      , (39534, 8001,         54) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius */
      , (39534, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (39534, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39534, 8040, 15204617, 43.01912, -6.105327, 0.004999995, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (39534, 8040, 0x00E80109, 43.01912, -6.105327, 0.005, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00E80109 [43.019120 -6.105327 0.005000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39534, 8000, 3359782026) /* PCAPRecordedObjectIID */;
+VALUES (39534, 8000, 0xC842348A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39534, 67109559, 0, 24)

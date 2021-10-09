@@ -21,6 +21,7 @@ VALUES (36633,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36633,  22, True ) /* Inscribable */
+     , (36633,  23, True ) /* DestroyOnSell */
      , (36633,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -28,18 +29,18 @@ VALUES (36633,   1, 'Missile Defense Weapon Augmentation') /* Name */
      , (36633,  14, 'Use this gem to add 0.5% more Missile Defense to a Loot Weapon. This will not stack with any other Weapon Augmentations.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36633,   1,   33554809) /* Setup */
-     , (36633,   3,  536870932) /* SoundTable */
-     , (36633,   6,   67111919) /* PaletteBase */
-     , (36633,   8,  100686475) /* Icon */
-     , (36633,  22,  872415275) /* PhysicsEffectTable */
-     , (36633,  50,  100686676) /* IconOverlay */
+VALUES (36633,   1, 0x02000179) /* Setup */
+     , (36633,   3, 0x20000014) /* SoundTable */
+     , (36633,   6, 0x04000BEF) /* PaletteBase */
+     , (36633,   8, 0x06005A8B) /* Icon */
+     , (36633,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36633,  50, 0x06005B54) /* IconOverlay */
      , (36633, 8001, 1076392088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (36633, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36633, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36633, 8000, 2943452790) /* PCAPRecordedObjectIID */;
+VALUES (36633, 8000, 0xAF718676) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36633, 67111920, 0, 0);

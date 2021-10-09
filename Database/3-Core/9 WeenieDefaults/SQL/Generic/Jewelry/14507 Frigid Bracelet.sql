@@ -38,17 +38,17 @@ VALUES (14507,   1, 'Frigid Bracelet') /* Name */
      , (14507,  25, 'Chatlin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14507,   1,   33554683) /* Setup */
-     , (14507,   3,  536870932) /* SoundTable */
-     , (14507,   6,   67111919) /* PaletteBase */
-     , (14507,   8,  100672505) /* Icon */
-     , (14507,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14507,   1, 0x020000FB) /* Setup */
+     , (14507,   3, 0x20000014) /* SoundTable */
+     , (14507,   6, 0x04000BEF) /* PaletteBase */
+     , (14507,   8, 0x060023F9) /* Icon */
+     , (14507,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14507, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (14507, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14507, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14507, 8000, 2657343782) /* PCAPRecordedObjectIID */;
+VALUES (14507, 8000, 0x9E63D926) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14507,   271,      2)  /* MagicResistanceOther4 */

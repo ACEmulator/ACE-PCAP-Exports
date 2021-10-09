@@ -46,27 +46,23 @@ VALUES (78,   1, 'Kote') /* Name */
      , (78,  16, 'Kote of Regeneration') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (78,   1,   33554641) /* Setup */
-     , (78,   3,  536870932) /* SoundTable */
-     , (78,   6,   67108990) /* PaletteBase */
-     , (78,   8,  100667331) /* Icon */
-     , (78,  22,  872415275) /* PhysicsEffectTable */
+VALUES (78,   1, 0x020000D1) /* Setup */
+     , (78,   3, 0x20000014) /* SoundTable */
+     , (78,   6, 0x0400007E) /* PaletteBase */
+     , (78,   8, 0x06000FC3) /* Icon */
+     , (78,  22, 0x3400002B) /* PhysicsEffectTable */
      , (78, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (78, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (78, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (78, 8000, 3691612084) /* PCAPRecordedObjectIID */;
+VALUES (78, 8000, 0xDC0987B4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (78,  1486,      2)  /* Impenetrability6 */
-     , (78,  2104,      2)  /* FrostBane7 */
-     , (78,  2185,      2)  /* RegenerationSelf7 */
-     , (78,  2546,      2)  /* CANTRIPFEALTY1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (78, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
-     , (78, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+VALUES (78,  2185,      2)  /* RegenerationSelf7 */
+     , (78,  1486,      2)  /* Impenetrability6 */
+     , (78,  2546,      2)  /* CANTRIPFEALTY1 */
+     , (78,  2104,      2)  /* FrostBane7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (78, 67110016, 96, 12);

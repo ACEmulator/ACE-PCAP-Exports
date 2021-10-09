@@ -20,13 +20,13 @@ VALUES (37253,   1, 'Seven of Eyes') /* Name */
      , (37253,  20, 'Sevens of Eyes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37253,   1,   33560547) /* Setup */
-     , (37253,   3,  536870932) /* SoundTable */
-     , (37253,   8,  100689855) /* Icon */
-     , (37253,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37253,   1, 0x020017E3) /* Setup */
+     , (37253,   3, 0x20000014) /* SoundTable */
+     , (37253,   8, 0x060067BF) /* Icon */
+     , (37253,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37253, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (37253, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37253, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37253, 8000, 3360972585) /* PCAPRecordedObjectIID */;
+VALUES (37253, 8000, 0xC8545F29) /* PCAPRecordedObjectIID */;

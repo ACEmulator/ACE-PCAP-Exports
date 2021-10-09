@@ -33,17 +33,17 @@ VALUES (8636,   1, 'Hoory Mattekar Robe') /* Name */
      , (8636,  15, 'A genuine artificial quality knockoff of the rare Hoary Mattekar Robe.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8636,   1,   33554854) /* Setup */
-     , (8636,   3,  536870932) /* SoundTable */
-     , (8636,   6,   67108990) /* PaletteBase */
-     , (8636,   8,  100670350) /* Icon */
-     , (8636,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8636,   1, 0x020001A6) /* Setup */
+     , (8636,   3, 0x20000014) /* SoundTable */
+     , (8636,   6, 0x0400007E) /* PaletteBase */
+     , (8636,   8, 0x06001B8E) /* Icon */
+     , (8636,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8636, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (8636, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8636, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8636, 8000, 2401135897) /* PCAPRecordedObjectIID */;
+VALUES (8636, 8000, 0x8F1E6D19) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8636, 67113035, 40, 40)

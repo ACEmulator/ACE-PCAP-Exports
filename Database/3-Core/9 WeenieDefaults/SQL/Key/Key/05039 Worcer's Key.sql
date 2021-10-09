@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5039,   1, 'Worcer''s Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5039,   1,   33554784) /* Setup */
-     , (5039,   3,  536870932) /* SoundTable */
-     , (5039,   8,  100667485) /* Icon */
-     , (5039,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5039,   1, 0x02000160) /* Setup */
+     , (5039,   3, 0x20000014) /* SoundTable */
+     , (5039,   8, 0x0600105D) /* Icon */
+     , (5039,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5039, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (5039, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5039, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5039, 8000, 2856726460) /* PCAPRecordedObjectIID */;
+VALUES (5039, 8000, 0xAA462FBC) /* PCAPRecordedObjectIID */;

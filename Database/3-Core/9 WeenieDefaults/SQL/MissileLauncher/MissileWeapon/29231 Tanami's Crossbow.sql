@@ -15,7 +15,7 @@ VALUES (29231,   1,        256) /* ItemType - MissileWeapon */
      , (29231,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29231,  49,         60) /* WeaponTime */
      , (29231,  50,          2) /* AmmoType - Bolt */
-     , (29231,  51,          2) /* CombatUse - Missle */
+     , (29231,  51,          2) /* CombatUse - Missile */
      , (29231,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29231, 106,        300) /* ItemSpellcraft */
      , (29231, 107,       2000) /* ItemCurMana */
@@ -46,19 +46,19 @@ VALUES (29231,   1, 'Tanami''s Crossbow') /* Name */
      , (29231,  16, 'This crossbow was a gift from Tanami Kei of Ayan Baqur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29231,   1,   33559119) /* Setup */
-     , (29231,   3,  536870932) /* SoundTable */
-     , (29231,   8,  100677364) /* Icon */
-     , (29231,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29231,   1, 0x0200124F) /* Setup */
+     , (29231,   3, 0x20000014) /* SoundTable */
+     , (29231,   8, 0x060036F4) /* Icon */
+     , (29231,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29231, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (29231, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29231, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29231, 8000, 2166200769) /* PCAPRecordedObjectIID */;
+VALUES (29231, 8000, 0x811D99C1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29231,  1605,      2)  /* DefenderSelf6 */
-     , (29231,  2096,      2)  /* BloodDrinkerSelf7 */
      , (29231,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
-     , (29231,  2600,      2)  /* CANTRIPDEFENDER1 */;
+     , (29231,  2600,      2)  /* CANTRIPDEFENDER1 */
+     , (29231,  2096,      2)  /* BloodDrinkerSelf7 */;

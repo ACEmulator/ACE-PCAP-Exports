@@ -9,7 +9,7 @@ VALUES (0x7C3E3002, 33303, 0xC3E3002C, 123.617, 83.9052, 11.93695, 1, 0, 0, 0, F
 /* @teleloc 0xC3E3002C [123.617000 83.905200 11.936950] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C3E3003, 33305, 0xC3E3001E, 84.353, 123.832, 11.93695, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Northern Temple Catacombs */
+VALUES (0x7C3E3003, 33305, 0xC3E3001E, 84.353, 123.832, 11.93695, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Northern Temple Catacombs */
 /* @teleloc 0xC3E3001E [84.353000 123.832000 11.936950] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

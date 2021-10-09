@@ -19,6 +19,7 @@ VALUES (25813,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25813,  22, True ) /* Inscribable */
+     , (25813,  23, True ) /* DestroyOnSell */
      , (25813,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -27,13 +28,13 @@ VALUES (25813,   1, 'Brazier of Power') /* Name */
      , (25813,  15, 'The heat of the fire bent this brazier into the perfect shape for a shield.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25813,   1,   33557971) /* Setup */
-     , (25813,   3,  536870932) /* SoundTable */
-     , (25813,   8,  100675647) /* Icon */
-     , (25813,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25813,   1, 0x02000DD3) /* Setup */
+     , (25813,   3, 0x20000014) /* SoundTable */
+     , (25813,   8, 0x0600303F) /* Icon */
+     , (25813,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25813, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (25813, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25813, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25813, 8000, 3334130366) /* PCAPRecordedObjectIID */;
+VALUES (25813, 8000, 0xC6BACABE) /* PCAPRecordedObjectIID */;

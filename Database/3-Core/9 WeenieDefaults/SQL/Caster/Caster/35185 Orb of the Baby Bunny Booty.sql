@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35185,   1,      32768) /* ItemType - Caster */
      , (35185,   5,         14) /* EncumbranceVal */
      , (35185,   9,   16777216) /* ValidLocations - Held */
-     , (35185,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (35185,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (35185,  18,          1) /* UiEffects - Magical */
      , (35185,  19,      22114) /* Value */
      , (35185,  33,          1) /* Bonded - Bonded */
+     , (35185,  46,        512) /* DefaultCombatStyle - Magic */
      , (35185,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35185,  94,         16) /* TargetType - Creature */
      , (35185, 106,        320) /* ItemSpellcraft */
@@ -38,11 +38,11 @@ VALUES (35185,   1, 'Orb of the Baby Bunny Booty') /* Name */
      , (35185,  25, 'Shadow Tamer') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35185,   1,   33556870) /* Setup */
-     , (35185,   3,  536870932) /* SoundTable */
-     , (35185,   6,   67109300) /* PaletteBase */
-     , (35185,   8,  100669116) /* Icon */
-     , (35185,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35185,   1, 0x02000986) /* Setup */
+     , (35185,   3, 0x20000014) /* SoundTable */
+     , (35185,   6, 0x040001B4) /* PaletteBase */
+     , (35185,   8, 0x060016BC) /* Icon */
+     , (35185,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35185,  28,       2348) /* Spell - BrillianceOther */
      , (35185,  37,         31) /* ItemSkillLimit - CreatureEnchantment */
      , (35185, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
@@ -51,12 +51,12 @@ VALUES (35185,   1,   33556870) /* Setup */
      , (35185, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35185, 8040, 3465871413, 155.0885, 94.30751, 19.929, 0.6314903, 0.6314903, -0.3181509, -0.3181509) /* PCAPRecordedLocation */
+VALUES (35185, 8040, 0xCE950035, 155.0885, 94.30751, 19.929, 0.63149, 0.63149, -0.318151, -0.318151) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [155.088500 94.307510 19.929000] 0.631490 0.631490 -0.318151 -0.318151 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35185, 8000, 2148447098) /* PCAPRecordedObjectIID */
-     , (35185, 8008, 1343094873) /* PCAPRecordedParentIID */;
+VALUES (35185, 8000, 0x800EB37A) /* PCAPRecordedObjectIID */
+     , (35185, 8008, 0x500E0059) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35185,  2574,      2)  /* CANTRIPFOCUS2 */;

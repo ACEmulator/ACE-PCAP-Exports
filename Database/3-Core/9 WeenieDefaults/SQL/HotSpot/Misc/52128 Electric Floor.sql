@@ -18,16 +18,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52128,   1, 'Electric Floor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52128,   1,   33557493) /* Setup */
-     , (52128,   3,  536870994) /* SoundTable */
-     , (52128,   8,  100667465) /* Icon */
+VALUES (52128,   1, 0x02000BF5) /* Setup */
+     , (52128,   3, 0x20000052) /* SoundTable */
+     , (52128,   8, 0x06001049) /* Icon */
      , (52128, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (52128, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (52128, 8005,      34817) /* PCAPRecordedPhysicsDesc - CSetup, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52128, 8040, 1498612089, 290, -40, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52128, 8040, 0x59530179, 290, -40, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59530179 [290.000000 -40.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52128, 8000, 1972711463) /* PCAPRecordedObjectIID */;
+VALUES (52128, 8000, 0x75953027) /* PCAPRecordedObjectIID */;

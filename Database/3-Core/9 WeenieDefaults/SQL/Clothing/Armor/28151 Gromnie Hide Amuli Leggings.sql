@@ -41,22 +41,22 @@ VALUES (28151,   1, 'Gromnie Hide Amuli Leggings') /* Name */
      , (28151,  16, 'A pair of amullian leggings crafted from the hide of an ebon gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28151,   1,   33554856) /* Setup */
-     , (28151,   3,  536870932) /* SoundTable */
-     , (28151,   6,   67108990) /* PaletteBase */
-     , (28151,   8,  100676912) /* Icon */
-     , (28151,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28151,   1, 0x020001A8) /* Setup */
+     , (28151,   3, 0x20000014) /* SoundTable */
+     , (28151,   6, 0x0400007E) /* PaletteBase */
+     , (28151,   8, 0x06003530) /* Icon */
+     , (28151,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28151, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (28151, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28151, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28151, 8000, 2982947186) /* PCAPRecordedObjectIID */;
+VALUES (28151, 8000, 0xB1CC2972) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28151,  1315,      2)  /* ArmorOther4 */
+VALUES (28151,  1538,      2)  /* LightningBane4 */
      , (28151,  1484,      2)  /* Impenetrability4 */
-     , (28151,  1538,      2)  /* LightningBane4 */;
+     , (28151,  1315,      2)  /* ArmorOther4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28151, 67115326, 72, 24)

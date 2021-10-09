@@ -26,23 +26,23 @@ VALUES (46433,   1, 'Large Carrion Rat') /* Name */
      , (46433, 8006, 'BgA8AGyrE1AZAXFXwE8hQp3pU8Ph+ifC8O9BACdNrUDNzMw9AADIQgAAgD8AAHBBAAAAANu2PUA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46433,   1,   33554493) /* Setup */
-     , (46433,   2,  150994958) /* MotionTable */
-     , (46433,   3,  536870927) /* SoundTable */
-     , (46433,   6,   67109300) /* PaletteBase */
-     , (46433,   8,  100667451) /* Icon */
-     , (46433,  22,  872415267) /* PhysicsEffectTable */
+VALUES (46433,   1, 0x0200003D) /* Setup */
+     , (46433,   2, 0x0900000E) /* MotionTable */
+     , (46433,   3, 0x2000000F) /* SoundTable */
+     , (46433,   6, 0x040001B4) /* PaletteBase */
+     , (46433,   8, 0x0600103B) /* Icon */
+     , (46433,  22, 0x34000023) /* PhysicsEffectTable */
      , (46433,  30,         86) /* PhysicsScript - BreatheAcid */
      , (46433, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46433, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (46433, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46433, 8040, 1467023634, 26.50564, -218.8738, -41.986, 0.8320315, 0, 0, -0.5547284) /* PCAPRecordedLocation */
+VALUES (46433, 8040, 0x57710112, 26.50564, -218.8738, -41.986, 0.832032, 0, 0, -0.554728) /* PCAPRecordedLocation */
 /* @teleloc 0x57710112 [26.505640 -218.873800 -41.986000] 0.832032 0.000000 0.000000 -0.554728 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46433, 8000, 3707082121) /* PCAPRecordedObjectIID */;
+VALUES (46433, 8000, 0xDCF59589) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (46433,   1,     0, 0, 0, 2938) /* MaxHealth */;

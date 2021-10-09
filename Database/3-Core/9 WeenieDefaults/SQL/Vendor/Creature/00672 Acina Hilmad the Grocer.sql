@@ -36,27 +36,27 @@ VALUES (672,   1, 'Acina Hilmad the Grocer') /* Name */
      , (672, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (672,   1,   33554510) /* Setup */
-     , (672,   2,  150994945) /* MotionTable */
-     , (672,   3,  536870914) /* SoundTable */
-     , (672,   6,   67108990) /* PaletteBase */
-     , (672,   8,  100667446) /* Icon */
-     , (672,   9,   83890255) /* EyesTexture */
-     , (672,  10,   83890315) /* NoseTexture */
-     , (672,  11,   83890352) /* MouthTexture */
-     , (672,  15,   67116995) /* HairPalette */
-     , (672,  16,   67110064) /* EyesPalette */
-     , (672,  17,   67109560) /* SkinPalette */
+VALUES (672,   1, 0x0200004E) /* Setup */
+     , (672,   2, 0x09000001) /* MotionTable */
+     , (672,   3, 0x20000002) /* SoundTable */
+     , (672,   6, 0x0400007E) /* PaletteBase */
+     , (672,   8, 0x06001036) /* Icon */
+     , (672,   9, 0x0500104F) /* EyesTexture */
+     , (672,  10, 0x0500108B) /* NoseTexture */
+     , (672,  11, 0x050010B0) /* MouthTexture */
+     , (672,  15, 0x04001FC3) /* HairPalette */
+     , (672,  16, 0x040004B0) /* EyesPalette */
+     , (672,  17, 0x040002B8) /* SkinPalette */
      , (672, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (672, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (672, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (672, 8040, 3164537091, 13.1693, 108.458, 70.005, 0.69036, 0, 0, -0.723466) /* PCAPRecordedLocation */
+VALUES (672, 8040, 0xBC9F0103, 13.1693, 108.458, 70.005, 0.69036, 0, 0, -0.723466) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F0103 [13.169300 108.458000 70.005000] 0.690360 0.000000 0.000000 -0.723466 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (672, 8000, 2076831774) /* PCAPRecordedObjectIID */;
+VALUES (672, 8000, 0x7BC9F01E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (672,   1,  30, 0, 0) /* Strength */
@@ -73,6 +73,7 @@ VALUES (672,   1,    25, 0, 0, 45) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (672, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (672, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (672, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
      , (672, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
      , (672, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */

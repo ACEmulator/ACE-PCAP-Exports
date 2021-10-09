@@ -32,21 +32,21 @@ VALUES (48743,   1, 'Legendary Chest') /* Name */
      , (48743, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48743,   1,   33558324) /* Setup */
-     , (48743,   2,  150995235) /* MotionTable */
-     , (48743,   3,  536870945) /* SoundTable */
-     , (48743,   8,  100674256) /* Icon */
-     , (48743,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48743,   1, 0x02000F34) /* Setup */
+     , (48743,   2, 0x09000123) /* MotionTable */
+     , (48743,   3, 0x20000021) /* SoundTable */
+     , (48743,   8, 0x06002AD0) /* Icon */
+     , (48743,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48743, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (48743, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (48743, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48743, 8040, 3332964388, 107.553, 92.8885, 42, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (48743, 8040, 0xC6A90024, 107.553, 92.8885, 42, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90024 [107.553000 92.888500 42.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48743, 8000, 2087358615) /* PCAPRecordedObjectIID */;
+VALUES (48743, 8000, 0x7C6A9097) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48743, -1, 44857, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Quartered Cloak (44857) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

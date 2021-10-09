@@ -36,27 +36,27 @@ VALUES (2257,   1, 'Nuru Misho the Jeweler') /* Name */
      , (2257, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2257,   1,   33554433) /* Setup */
-     , (2257,   2,  150994945) /* MotionTable */
-     , (2257,   3,  536870913) /* SoundTable */
-     , (2257,   6,   67108990) /* PaletteBase */
-     , (2257,   8,  100667446) /* Icon */
-     , (2257,   9,   83890496) /* EyesTexture */
-     , (2257,  10,   83890530) /* NoseTexture */
-     , (2257,  11,   83890642) /* MouthTexture */
-     , (2257,  15,   67117026) /* HairPalette */
-     , (2257,  16,   67110062) /* EyesPalette */
-     , (2257,  17,   67110061) /* SkinPalette */
+VALUES (2257,   1, 0x02000001) /* Setup */
+     , (2257,   2, 0x09000001) /* MotionTable */
+     , (2257,   3, 0x20000001) /* SoundTable */
+     , (2257,   6, 0x0400007E) /* PaletteBase */
+     , (2257,   8, 0x06001036) /* Icon */
+     , (2257,   9, 0x05001140) /* EyesTexture */
+     , (2257,  10, 0x05001162) /* NoseTexture */
+     , (2257,  11, 0x050011D2) /* MouthTexture */
+     , (2257,  15, 0x04001FE2) /* HairPalette */
+     , (2257,  16, 0x040004AE) /* EyesPalette */
+     , (2257,  17, 0x040004AD) /* SkinPalette */
      , (2257, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2257, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2257, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2257, 8040, 3443589440, 56.2398, 91.6337, 54.005, 0.03774136, 0, 0, -0.9992875) /* PCAPRecordedLocation */
+VALUES (2257, 8040, 0xCD410140, 56.2398, 91.6337, 54.005, 0.037741, 0, 0, -0.999288) /* PCAPRecordedLocation */
 /* @teleloc 0xCD410140 [56.239800 91.633700 54.005000] 0.037741 0.000000 0.000000 -0.999288 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2257, 8000, 2094272541) /* PCAPRecordedObjectIID */;
+VALUES (2257, 8000, 0x7CD4101D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2257,   1,  65, 0, 0) /* Strength */
@@ -91,9 +91,7 @@ VALUES (2257, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) f
      , (2257, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (2257, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2257, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (2257, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (2257, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
-     , (2257, 4, 41484, -1, 0, 0, False) /* Create Goggles (41484) for Shop */;
+     , (2257, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2257, 67109969, 92, 4)

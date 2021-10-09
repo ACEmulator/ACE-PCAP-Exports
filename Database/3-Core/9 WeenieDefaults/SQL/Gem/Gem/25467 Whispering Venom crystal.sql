@@ -18,11 +18,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25467,   1, 'Whispering Venom crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25467,   1,   33554809) /* Setup */
-     , (25467,   8,  100674804) /* Icon */
+VALUES (25467,   1, 0x02000179) /* Setup */
+     , (25467,   8, 0x06002CF4) /* Icon */
      , (25467, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (25467, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25467, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25467, 8000, 2148065077) /* PCAPRecordedObjectIID */;
+VALUES (25467, 8000, 0x8008DF35) /* PCAPRecordedObjectIID */;

@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28202,   1, 'Durable Gromnie Hide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28202,   1,   33554817) /* Setup */
-     , (28202,   3,  536870932) /* SoundTable */
-     , (28202,   6,   67111919) /* PaletteBase */
-     , (28202,   8,  100676750) /* Icon */
-     , (28202,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28202,   1, 0x02000181) /* Setup */
+     , (28202,   3, 0x20000014) /* SoundTable */
+     , (28202,   6, 0x04000BEF) /* PaletteBase */
+     , (28202,   8, 0x0600348E) /* Icon */
+     , (28202,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28202, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (28202, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28202, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28202, 8000, 3702426548) /* PCAPRecordedObjectIID */;
+VALUES (28202, 8000, 0xDCAE8BB4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28202, 67111920, 0, 0);

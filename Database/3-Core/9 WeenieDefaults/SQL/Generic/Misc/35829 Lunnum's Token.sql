@@ -14,7 +14,8 @@ VALUES (35829,   1,        128) /* ItemType - Misc */
      , (35829, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35829,  22, True ) /* Inscribable */;
+VALUES (35829,  22, True ) /* Inscribable */
+     , (35829,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35829,   1, 'Lunnum''s Token') /* Name */
@@ -24,13 +25,13 @@ VALUES (35829,   1, 'Lunnum''s Token') /* Name */
      , (35829,  16, 'An odd token found in Lunnum''s chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35829,   1,   33554769) /* Setup */
-     , (35829,   3,  536870932) /* SoundTable */
-     , (35829,   8,  100689556) /* Icon */
-     , (35829,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35829,   1, 0x02000151) /* Setup */
+     , (35829,   3, 0x20000014) /* SoundTable */
+     , (35829,   8, 0x06006694) /* Icon */
+     , (35829,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35829, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (35829, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35829, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35829, 8000, 2491541315) /* PCAPRecordedObjectIID */;
+VALUES (35829, 8000, 0x9481E743) /* PCAPRecordedObjectIID */;

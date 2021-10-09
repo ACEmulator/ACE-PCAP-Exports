@@ -30,18 +30,14 @@ VALUES (44294,   1, 'Ancient Tablet of the Crystal Sword (Level 180+)') /* Name 
      , (44294,  16, 'An ancient contract with instructions to enter a Catacomb containing a crystal sword. (Recommended Levels 180+)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44294,   1,   33554773) /* Setup */
-     , (44294,   3,  536870932) /* SoundTable */
-     , (44294,   8,  100691958) /* Icon */
-     , (44294,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44294,   1, 0x02000155) /* Setup */
+     , (44294,   3, 0x20000014) /* SoundTable */
+     , (44294,   8, 0x06006FF6) /* Icon */
+     , (44294,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44294, 8001,     553104) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44294, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44294, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44294, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44294, 8000, 3696626833) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44294, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (44294, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (44294, 8000, 0xDC560C91) /* PCAPRecordedObjectIID */;

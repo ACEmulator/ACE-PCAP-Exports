@@ -14,20 +14,21 @@ VALUES (24654,   1,        128) /* ItemType - Misc */
      , (24654, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24654,  22, True ) /* Inscribable */;
+VALUES (24654,  22, True ) /* Inscribable */
+     , (24654,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24654,   1, 'Adolescent Brood Queen Femur') /* Name */
      , (24654,  15, 'The femur of a departed adolescent Olthoi Brood Queen.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24654,   1,   33556593) /* Setup */
-     , (24654,   3,  536870932) /* SoundTable */
-     , (24654,   8,  100674514) /* Icon */
-     , (24654,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24654,   1, 0x02000871) /* Setup */
+     , (24654,   3, 0x20000014) /* SoundTable */
+     , (24654,   8, 0x06002BD2) /* Icon */
+     , (24654,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24654, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (24654, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24654, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24654, 8000, 3707386780) /* PCAPRecordedObjectIID */;
+VALUES (24654, 8000, 0xDCFA3B9C) /* PCAPRecordedObjectIID */;
