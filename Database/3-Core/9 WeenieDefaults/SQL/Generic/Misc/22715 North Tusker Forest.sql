@@ -18,18 +18,18 @@ VALUES (22715,   1, 'North Tusker Forest') /* Name */
      , (22715,  16, 'North Tusker Forest, the really tough types live there. -Brighteyes, the Tailor. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22715,   1,   33558115) /* Setup */
-     , (22715,   8,  100668115) /* Icon */
+VALUES (22715,   1, 0x02000E63) /* Setup */
+     , (22715,   8, 0x060012D3) /* Icon */
      , (22715, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (22715, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22715, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22715, 8040, 4135649295, 25.7886, 163.59, 35.7874, -0.623433, 0, 0, -0.781877) /* PCAPRecordedLocation */
+VALUES (22715, 8040, 0xF681000F, 25.7886, 163.59, 35.7874, -0.623433, 0, 0, -0.781877) /* PCAPRecordedLocation */
 /* @teleloc 0xF681000F [25.788600 163.590000 35.787400] -0.623433 0.000000 0.000000 -0.781877 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22715, 8000, 2137526275) /* PCAPRecordedObjectIID */;
+VALUES (22715, 8000, 0x7F681003) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (22715, 0, 83894383, 83894381);

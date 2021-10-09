@@ -25,21 +25,21 @@ VALUES (43391,   1, 'Gurog Minion') /* Name */
      , (43391, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43391,   1,   33561131) /* Setup */
-     , (43391,   2,  150995368) /* MotionTable */
-     , (43391,   3,  536871125) /* SoundTable */
-     , (43391,   8,  100674350) /* Icon */
-     , (43391,  22,  872415437) /* PhysicsEffectTable */
+VALUES (43391,   1, 0x02001A2B) /* Setup */
+     , (43391,   2, 0x090001A8) /* MotionTable */
+     , (43391,   3, 0x200000D5) /* SoundTable */
+     , (43391,   8, 0x06002B2E) /* Icon */
+     , (43391,  22, 0x340000CD) /* PhysicsEffectTable */
      , (43391, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (43391, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (43391, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43391, 8040, 2028470286, 43.335, 127.4952, 106.0065, 0.9863101, 0, 0, -0.164901) /* PCAPRecordedLocation */
+VALUES (43391, 8040, 0x78E8000E, 43.335, 127.4952, 106.0065, 0.98631, 0, 0, -0.164901) /* PCAPRecordedLocation */
 /* @teleloc 0x78E8000E [43.335000 127.495200 106.006500] 0.986310 0.000000 0.000000 -0.164901 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43391, 8000, 3694997834) /* PCAPRecordedObjectIID */;
+VALUES (43391, 8000, 0xDC3D314A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43391,   1, 530, 0, 0) /* Strength */

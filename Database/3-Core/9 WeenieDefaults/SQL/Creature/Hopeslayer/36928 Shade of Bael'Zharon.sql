@@ -26,22 +26,22 @@ VALUES (36928,   1, 'Shade of Bael''Zharon') /* Name */
      , (36928, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36928,   1,   33556894) /* Setup */
-     , (36928,   2,  150995187) /* MotionTable */
-     , (36928,   3,  536870942) /* SoundTable */
-     , (36928,   6,   67113073) /* PaletteBase */
-     , (36928,   8,  100669122) /* Icon */
-     , (36928,  22,  872415272) /* PhysicsEffectTable */
+VALUES (36928,   1, 0x0200099E) /* Setup */
+     , (36928,   2, 0x090000F3) /* MotionTable */
+     , (36928,   3, 0x2000001E) /* SoundTable */
+     , (36928,   6, 0x04001071) /* PaletteBase */
+     , (36928,   8, 0x060016C2) /* Icon */
+     , (36928,  22, 0x34000028) /* PhysicsEffectTable */
      , (36928, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (36928, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (36928, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36928, 8040, 10944776, 140, -80, -5.9775, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (36928, 8040, 0x00A70108, 140, -80, -5.9775, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00A70108 [140.000000 -80.000000 -5.977500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36928, 8000, 3679283132) /* PCAPRecordedObjectIID */;
+VALUES (36928, 8000, 0xDB4D67BC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36928,   1, 1300, 0, 0) /* Strength */

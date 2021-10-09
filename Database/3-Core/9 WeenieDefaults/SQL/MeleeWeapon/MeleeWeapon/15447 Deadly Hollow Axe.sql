@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15447,   1,          1) /* ItemType - MeleeWeapon */
      , (15447,   5,        800) /* EncumbranceVal */
      , (15447,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (15447,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (15447,  16,          1) /* ItemUseable - No */
      , (15447,  19,       4000) /* Value */
      , (15447,  33,          1) /* Bonded - Bonded */
@@ -30,6 +29,7 @@ VALUES (15447,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15447,  22, True ) /* Inscribable */
+     , (15447,  23, True ) /* DestroyOnSell */
      , (15447,  69, False) /* IsSellable */
      , (15447,  99, True ) /* Ivoryable */;
 
@@ -48,10 +48,10 @@ VALUES (15447,   1, 'Deadly Hollow Axe') /* Name */
      , (15447,  16, 'An axe crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15447,   1,   33556651) /* Setup */
-     , (15447,   3,  536870932) /* SoundTable */
-     , (15447,   8,  100668985) /* Icon */
-     , (15447,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15447,   1, 0x020008AB) /* Setup */
+     , (15447,   3, 0x20000014) /* SoundTable */
+     , (15447,   8, 0x06001639) /* Icon */
+     , (15447,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15447,  30,         88) /* PhysicsScript - Create */
      , (15447, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (15447, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -59,9 +59,9 @@ VALUES (15447,   1,   33556651) /* Setup */
      , (15447, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15447, 8040, 3332964361, 46.83, 4.219, 41.929, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (15447, 8040, 0xC6A90009, 46.83, 4.219, 41.929, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90009 [46.830000 4.219000 41.929000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15447, 8000, 2746689596) /* PCAPRecordedObjectIID */
-     , (15447, 8008, 1342663900) /* PCAPRecordedParentIID */;
+VALUES (15447, 8000, 0xA3B7283C) /* PCAPRecordedObjectIID */
+     , (15447, 8008, 0x50076CDC) /* PCAPRecordedParentIID */;

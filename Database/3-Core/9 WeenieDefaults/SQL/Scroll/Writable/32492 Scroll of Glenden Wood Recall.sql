@@ -14,7 +14,8 @@ VALUES (32492,   1,       8192) /* ItemType - Writable */
      , (32492, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32492,  22, True ) /* Inscribable */;
+VALUES (32492,  22, True ) /* Inscribable */
+     , (32492,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32492,  39,     1.5) /* DefaultScale */;
@@ -26,13 +27,13 @@ VALUES (32492,   1, 'Scroll of Glenden Wood Recall') /* Name */
 Sends the caster to Glenden Wood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32492,   1,   33554826) /* Setup */
-     , (32492,   8,  100676673) /* Icon */
-     , (32492,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32492,   1, 0x0200018A) /* Setup */
+     , (32492,   8, 0x06003441) /* Icon */
+     , (32492,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32492,  28,       3865) /* Spell - GlendenWoodRecall */
      , (32492, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (32492, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32492, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32492, 8000, 3681397847) /* PCAPRecordedObjectIID */;
+VALUES (32492, 8000, 0xDB6DAC57) /* PCAPRecordedObjectIID */;

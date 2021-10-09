@@ -18,15 +18,15 @@ VALUES (42787,   1, 'Linvak Tukal') /* Name */
      , (42787,  16, 'Linvak Tukal is the capital city of the Lugians who have made peace with the Isparians and their allies. Linvak Tukal translates as "Great Tukal" - Tukal being a city on their homeworld equal in size and importance to Ispar''s Tirethas or Celdon. While the Lugians inside may be friendly, the fortress is under constant siege by another group of Lugians - the Gotrok - who want nothing to do with the peaceful alliance of Lugian, Human, and the other races.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42787,   1,   33560983) /* Setup */
-     , (42787,   8,  100668115) /* Icon */
+VALUES (42787,   1, 0x02001997) /* Setup */
+     , (42787,   8, 0x060012D3) /* Icon */
      , (42787, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42787, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42787, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42787, 8040, 459100, 84.8984, -150.055, 3.014, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42787, 8040, 0x0007015C, 84.8984, -150.055, 3.014, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0007015C [84.898400 -150.055000 3.014000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42787, 8000, 1879076977) /* PCAPRecordedObjectIID */;
+VALUES (42787, 8000, 0x70007071) /* PCAPRecordedObjectIID */;

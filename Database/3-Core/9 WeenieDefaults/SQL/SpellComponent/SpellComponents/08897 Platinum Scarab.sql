@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8897,   1, 'Platinum Scarab') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8897,   1,   33555211) /* Setup */
-     , (8897,   3,  536870932) /* SoundTable */
-     , (8897,   6,   67111919) /* PaletteBase */
-     , (8897,   8,  100671329) /* Icon */
-     , (8897,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8897,   1, 0x0200030B) /* Setup */
+     , (8897,   3, 0x20000014) /* SoundTable */
+     , (8897,   6, 0x04000BEF) /* PaletteBase */
+     , (8897,   8, 0x06001F61) /* Icon */
+     , (8897,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8897, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (8897, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8897, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8897, 8000, 2186220548) /* PCAPRecordedObjectIID */;
+VALUES (8897, 8000, 0x824F1404) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8897, 67111925, 0, 0);

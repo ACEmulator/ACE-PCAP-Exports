@@ -23,21 +23,17 @@ VALUES (27318,   1, 'Health Philtre') /* Name */
      , (27318,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27318,   1,   33554603) /* Setup */
-     , (27318,   3,  536870932) /* SoundTable */
-     , (27318,   6,   67111919) /* PaletteBase */
-     , (27318,   8,  100676314) /* Icon */
-     , (27318,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27318,   1, 0x020000AB) /* Setup */
+     , (27318,   3, 0x20000014) /* SoundTable */
+     , (27318,   6, 0x04000BEF) /* PaletteBase */
+     , (27318,   8, 0x060032DA) /* Icon */
+     , (27318,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27318, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (27318, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (27318, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27318, 8000, 3448799657) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27318, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (27318, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (27318, 8000, 0xCD9081A9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27318, 67111922, 0, 0);

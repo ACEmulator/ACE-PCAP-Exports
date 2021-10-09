@@ -24,13 +24,13 @@ VALUES (25784,   1, 'Honorary Snowman Token') /* Name */
      , (25784,  16, 'Turn this token into the Mayor of Frost Haven for the Title "Honorary Snowman".') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25784,   1,   33558516) /* Setup */
-     , (25784,   3,  536870932) /* SoundTable */
-     , (25784,   8,  100675516) /* Icon */
-     , (25784,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25784,   1, 0x02000FF4) /* Setup */
+     , (25784,   3, 0x20000014) /* SoundTable */
+     , (25784,   8, 0x06002FBC) /* Icon */
+     , (25784,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25784, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (25784, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25784, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25784, 8000, 2780141965) /* PCAPRecordedObjectIID */;
+VALUES (25784, 8000, 0xA5B5998D) /* PCAPRecordedObjectIID */;

@@ -31,27 +31,27 @@ VALUES (24068,   1, 'Mage Syltyn Rillon') /* Name */
      , (24068, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24068,   1,   33554510) /* Setup */
-     , (24068,   2,  150994945) /* MotionTable */
-     , (24068,   3,  536870914) /* SoundTable */
-     , (24068,   6,   67108990) /* PaletteBase */
-     , (24068,   8,  100667446) /* Icon */
-     , (24068,   9,   83890262) /* EyesTexture */
-     , (24068,  10,   83890295) /* NoseTexture */
-     , (24068,  11,   83890331) /* MouthTexture */
-     , (24068,  15,   67116978) /* HairPalette */
-     , (24068,  16,   67109564) /* EyesPalette */
-     , (24068,  17,   67109558) /* SkinPalette */
+VALUES (24068,   1, 0x0200004E) /* Setup */
+     , (24068,   2, 0x09000001) /* MotionTable */
+     , (24068,   3, 0x20000002) /* SoundTable */
+     , (24068,   6, 0x0400007E) /* PaletteBase */
+     , (24068,   8, 0x06001036) /* Icon */
+     , (24068,   9, 0x05001056) /* EyesTexture */
+     , (24068,  10, 0x05001077) /* NoseTexture */
+     , (24068,  11, 0x0500109B) /* MouthTexture */
+     , (24068,  15, 0x04001FB2) /* HairPalette */
+     , (24068,  16, 0x040002BC) /* EyesPalette */
+     , (24068,  17, 0x040002B6) /* SkinPalette */
      , (24068, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (24068, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (24068, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24068, 8040, 2661417216, 61.5054, 31.1707, 136.005, -0.9981, 0, 0, -0.0616149) /* PCAPRecordedLocation */
+VALUES (24068, 8040, 0x9EA20100, 61.5054, 31.1707, 136.005, -0.9981, 0, 0, -0.061615) /* PCAPRecordedLocation */
 /* @teleloc 0x9EA20100 [61.505400 31.170700 136.005000] -0.998100 0.000000 0.000000 -0.061615 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24068, 8000, 3699088025) /* PCAPRecordedObjectIID */;
+VALUES (24068, 8000, 0xDC7B9A99) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (24068,   1,     0, 0, 0, 38) /* MaxHealth */;

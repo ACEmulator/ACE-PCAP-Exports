@@ -18,24 +18,25 @@ VALUES (22922,   1,      16384) /* ItemType - Key */
      , (22922, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22922,  22, True ) /* Inscribable */;
+VALUES (22922,  22, True ) /* Inscribable */
+     , (22922,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22922,   1, 'Asylum Chest Key') /* Name */
      , (22922,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22922,   1,   33557000) /* Setup */
-     , (22922,   3,  536870932) /* SoundTable */
-     , (22922,   6,   67111346) /* PaletteBase */
-     , (22922,   8,  100671457) /* Icon */
-     , (22922,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22922,   1, 0x02000A08) /* Setup */
+     , (22922,   3, 0x20000014) /* SoundTable */
+     , (22922,   6, 0x040009B2) /* PaletteBase */
+     , (22922,   8, 0x06001FE1) /* Icon */
+     , (22922,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22922, 8001,  271076368) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden, HookType */
      , (22922, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22922, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22922, 8000, 3680814713) /* PCAPRecordedObjectIID */;
+VALUES (22922, 8000, 0xDB64C679) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22922, 67113157, 0, 0);

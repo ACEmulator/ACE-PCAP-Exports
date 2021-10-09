@@ -35,17 +35,17 @@ VALUES (36574,   1, 'Salvage') /* Name */
      , (36574,  15, 'Chips of opal material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36574,   1,   33554817) /* Setup */
-     , (36574,   3,  536870932) /* SoundTable */
-     , (36574,   6,   67111919) /* PaletteBase */
-     , (36574,   8,  100689666) /* Icon */
-     , (36574,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36574,   1, 0x02000181) /* Setup */
+     , (36574,   3, 0x20000014) /* SoundTable */
+     , (36574,   6, 0x04000BEF) /* PaletteBase */
+     , (36574,   8, 0x06006702) /* Icon */
+     , (36574,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36574, 8001, 2435349528) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, MaterialType */
      , (36574, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36574, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36574, 8000, 2571589921) /* PCAPRecordedObjectIID */;
+VALUES (36574, 8000, 0x99475921) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36574, 67111918, 0, 0);

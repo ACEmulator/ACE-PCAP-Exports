@@ -28,22 +28,22 @@ VALUES (20633,   1, 'Warlock of the Blood') /* Name */
      , (20633, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20633,   1,   33554839) /* Setup */
-     , (20633,   2,  150994967) /* MotionTable */
-     , (20633,   3,  536870934) /* SoundTable */
-     , (20633,   6,   67110722) /* PaletteBase */
-     , (20633,   8,  100667942) /* Icon */
-     , (20633,  22,  872415272) /* PhysicsEffectTable */
+VALUES (20633,   1, 0x02000197) /* Setup */
+     , (20633,   2, 0x09000017) /* MotionTable */
+     , (20633,   3, 0x20000016) /* SoundTable */
+     , (20633,   6, 0x04000742) /* PaletteBase */
+     , (20633,   8, 0x06001226) /* Icon */
+     , (20633,  22, 0x34000028) /* PhysicsEffectTable */
      , (20633, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (20633, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (20633, 8005,     104647) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20633, 8040, 2765094952, 101.5568, 188.6263, 174.5198, 0.009252015, 0, 0, -0.9999572) /* PCAPRecordedLocation */
+VALUES (20633, 8040, 0xA4D00028, 101.5568, 188.6263, 174.5198, 0.009252, 0, 0, -0.999957) /* PCAPRecordedLocation */
 /* @teleloc 0xA4D00028 [101.556800 188.626300 174.519800] 0.009252 0.000000 0.000000 -0.999957 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20633, 8000, 3709297753) /* PCAPRecordedObjectIID */;
+VALUES (20633, 8000, 0xDD176459) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (20633,   1,     0, 0, 0, 990) /* MaxHealth */;

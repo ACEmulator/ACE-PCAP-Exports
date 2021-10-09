@@ -31,14 +31,14 @@ VALUES (28454,   1, 'Thick Lugian Stew') /* Name */
      , (28454,  16, 'A thick and rich stew consumed by Lugian sages to increase their connection with the magic of the world. Most Lugians don''t have the stomach for the viscous soup and revile it, perhaps it will serve you well.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28454,   1,   33554668) /* Setup */
-     , (28454,   3,  536870932) /* SoundTable */
-     , (28454,   8,  100676964) /* Icon */
-     , (28454,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28454,   1, 0x020000EC) /* Setup */
+     , (28454,   3, 0x20000014) /* SoundTable */
+     , (28454,   8, 0x06003564) /* Icon */
+     , (28454,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28454,  28,       3441) /* Spell - LugianInsight */
      , (28454, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (28454, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (28454, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28454, 8000, 3059158005) /* PCAPRecordedObjectIID */;
+VALUES (28454, 8000, 0xB6570BF5) /* PCAPRecordedObjectIID */;

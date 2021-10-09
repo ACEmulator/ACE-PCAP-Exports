@@ -11,6 +11,7 @@ VALUES (27353,   1,      32768) /* ItemType - Caster */
      , (27353,  18,          1) /* UiEffects - Magical */
      , (27353,  19,      20000) /* Value */
      , (27353,  33,          1) /* Bonded - Bonded */
+     , (27353,  46,        512) /* DefaultCombatStyle - Magic */
      , (27353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27353,  94,         16) /* TargetType - Creature */
      , (27353, 106,        250) /* ItemSpellcraft */
@@ -26,6 +27,7 @@ VALUES (27353,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27353,  22, True ) /* Inscribable */
+     , (27353,  23, True ) /* DestroyOnSell */
      , (27353,  69, False) /* IsSellable */
      , (27353,  99, True ) /* Ivoryable */;
 
@@ -40,16 +42,16 @@ VALUES (27353,   1, 'Audetaunga''s Buadren of the Mountains') /* Name */
      , (27353,  16, 'A buadren fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27353,   1,   33558670) /* Setup */
-     , (27353,   3,  536870932) /* SoundTable */
-     , (27353,   8,  100676359) /* Icon */
-     , (27353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27353,   1, 0x0200108E) /* Setup */
+     , (27353,   3, 0x20000014) /* SoundTable */
+     , (27353,   8, 0x06003307) /* Icon */
+     , (27353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27353, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (27353, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27353, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27353, 8000, 2150893944) /* PCAPRecordedObjectIID */;
+VALUES (27353, 8000, 0x80340978) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27353,  2440,      2)  /* StoneCliffsGreater */

@@ -22,22 +22,22 @@ VALUES (38226,   1, 'A Field Guide to Tainted Nodes') /* Name */
      , (38226,  16, 'A book about the nature of the threat faced by the T''thuun-tainted nodes of Dereth. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38226,   1,   33554771) /* Setup */
-     , (38226,   3,  536870932) /* SoundTable */
-     , (38226,   8,  100668117) /* Icon */
-     , (38226,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38226,   1, 0x02000153) /* Setup */
+     , (38226,   3, 0x20000014) /* SoundTable */
+     , (38226,   8, 0x060012D5) /* Icon */
+     , (38226,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38226, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (38226, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (38226, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38226, 8000, 2153220894) /* PCAPRecordedObjectIID */;
+VALUES (38226, 8000, 0x80578B1E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (38226, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (38226, 0, 4294967295, 'Laedron the Geomancer', 'Password is cheese', False, 'We see now the extent of the Blight''s ambitions.  Minions of T''thuun have infested six of the most powerful nodes of Dereth, tainting the energy that flows through them and increasing the Old One''s hold on the surface.  Each node was held in thrall by a powerful Moarsman carrying the Blight.  Luckily, the Queen''s scouts were able to trace the corruption across the ley lines quickly enough to intervene.  Here is a list of nodes and their locations:
+VALUES (38226, 0, 4294967295, 'Laedron the Geomancer', 'prewritten', False, 'We see now the extent of the Blight''s ambitions.  Minions of T''thuun have infested six of the most powerful nodes of Dereth, tainting the energy that flows through them and increasing the Old One''s hold on the surface.  Each node was held in thrall by a powerful Moarsman carrying the Blight.  Luckily, the Queen''s scouts were able to trace the corruption across the ley lines quickly enough to intervene.  Here is a list of nodes and their locations:
 
 Aerlinthe Island node: 84.1N, 44.1E
 A''mun Desert node: 38.2S, 12.0E

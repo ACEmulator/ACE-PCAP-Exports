@@ -43,17 +43,17 @@ VALUES (23837,   1, 'Plated Koujia Leggings') /* Name */
      , (23837,   8, 'Wahooka the Great') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23837,   1,   33554856) /* Setup */
-     , (23837,   3,  536870932) /* SoundTable */
-     , (23837,   6,   67108990) /* PaletteBase */
-     , (23837,   8,  100674074) /* Icon */
-     , (23837,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23837,   1, 0x020001A8) /* Setup */
+     , (23837,   3, 0x20000014) /* SoundTable */
+     , (23837,   6, 0x0400007E) /* PaletteBase */
+     , (23837,   8, 0x06002A1A) /* Icon */
+     , (23837,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23837, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (23837, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23837, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23837, 8000, 2461342935) /* PCAPRecordedObjectIID */;
+VALUES (23837, 8000, 0x92B51CD7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23837,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */;

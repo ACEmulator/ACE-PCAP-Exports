@@ -44,19 +44,19 @@ VALUES (7797,   1, 'Acid Naginata') /* Name */
      , (7797,  16, 'Acid Naginata') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7797,   1,   33556670) /* Setup */
-     , (7797,   3,  536870932) /* SoundTable */
-     , (7797,   6,   67111919) /* PaletteBase */
-     , (7797,   8,  100670783) /* Icon */
-     , (7797,  22,  872415275) /* PhysicsEffectTable */
-     , (7797,  52,  100676437) /* IconUnderlay */
+VALUES (7797,   1, 0x020008BE) /* Setup */
+     , (7797,   3, 0x20000014) /* SoundTable */
+     , (7797,   6, 0x04000BEF) /* PaletteBase */
+     , (7797,   8, 0x06001D3F) /* Icon */
+     , (7797,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (7797,  52, 0x06003355) /* IconUnderlay */
      , (7797, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (7797, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (7797, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (7797, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7797, 8000, 2174543074) /* PCAPRecordedObjectIID */;
+VALUES (7797, 8000, 0x819CE4E2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7797, 67111922, 0, 0);

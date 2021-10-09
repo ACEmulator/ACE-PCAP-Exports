@@ -46,22 +46,22 @@ VALUES (2437,   1, 'Yoroi Leggings') /* Name */
      , (2437,  16, 'Yoroi Leggings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2437,   1,   33554856) /* Setup */
-     , (2437,   3,  536870932) /* SoundTable */
-     , (2437,   6,   67108990) /* PaletteBase */
-     , (2437,   8,  100669590) /* Icon */
-     , (2437,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2437,   1, 0x020001A8) /* Setup */
+     , (2437,   3, 0x20000014) /* SoundTable */
+     , (2437,   6, 0x0400007E) /* PaletteBase */
+     , (2437,   8, 0x06001896) /* Icon */
+     , (2437,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2437,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (2437, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (2437, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2437, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2437, 8000, 3690338301) /* PCAPRecordedObjectIID */;
+VALUES (2437, 8000, 0xDBF617FD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2437,  1486,      2)  /* Impenetrability6 */
-     , (2437,  1540,      2)  /* LightningBane6 */
+VALUES (2437,  1540,      2)  /* LightningBane6 */
+     , (2437,  1486,      2)  /* Impenetrability6 */
      , (2437,  1552,      2)  /* FlameBane6 */
      , (2437,  1562,      2)  /* BladeBane6 */
      , (2437,  3834,      2)  /* CantripSalvaging2 */

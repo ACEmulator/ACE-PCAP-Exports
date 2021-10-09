@@ -17,6 +17,7 @@ VALUES (43807,   1,       8192) /* ItemType - Writable */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43807,  22, True ) /* Inscribable */
+     , (43807,  23, True ) /* DestroyOnSell */
      , (43807,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -27,22 +28,22 @@ VALUES (43807,   1, 'Bloodstone Report') /* Name */
      , (43807,  16, 'A translation of the report written by Lord Kastellar to Battle Lord Gregor, detailing his progress on the creation of the Bloodstones.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43807,   1,   33554776) /* Setup */
-     , (43807,   3,  536870932) /* SoundTable */
-     , (43807,   8,  100668176) /* Icon */
-     , (43807,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43807,   1, 0x02000158) /* Setup */
+     , (43807,   3, 0x20000014) /* SoundTable */
+     , (43807,   8, 0x06001310) /* Icon */
+     , (43807,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43807, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (43807, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (43807, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43807, 8000, 3345863417) /* PCAPRecordedObjectIID */;
+VALUES (43807, 8000, 0xC76DD2F9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (43807, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (43807, 0, 4294967295, 'Lord Kastellar', 'Password is cheese', False, 'My dear Lord Gregor,
+VALUES (43807, 0, 4294967295, 'Lord Kastellar', 'prewritten', False, 'My dear Lord Gregor,
 
 As you have requested, here is an update on my progress with the creation of the Bloodstones.  As you have seen with the Bloodstones already released in the area held by the Gurog above, the Bloodstones themselves are a success.  At the behest of the Archons, I have also experimented in the creation of smaller varieties, with a focus on speeding the process.  Progress on these goes well, and already a number of smaller Bloodstone Shards and Fragments have been completed.
 

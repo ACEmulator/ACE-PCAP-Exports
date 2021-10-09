@@ -23,13 +23,13 @@ VALUES (2200,   1, 'Copy of Witshire''s Key') /* Name */
      , (2200,  16, 'A plain, simple key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2200,   1,   33554784) /* Setup */
-     , (2200,   3,  536870932) /* SoundTable */
-     , (2200,   8,  100667486) /* Icon */
-     , (2200,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2200,   1, 0x02000160) /* Setup */
+     , (2200,   3, 0x20000014) /* SoundTable */
+     , (2200,   8, 0x0600105E) /* Icon */
+     , (2200,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2200, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (2200, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2200, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2200, 8000, 2186220398) /* PCAPRecordedObjectIID */;
+VALUES (2200, 8000, 0x824F136E) /* PCAPRecordedObjectIID */;

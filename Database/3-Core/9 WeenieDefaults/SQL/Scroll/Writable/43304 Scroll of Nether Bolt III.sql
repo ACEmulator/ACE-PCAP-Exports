@@ -24,13 +24,13 @@ VALUES (43304,   1, 'Scroll of Nether Bolt III') /* Name */
 Shoots a bolt of nether at the target. The bolt does 63-115 points of nether damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43304,   1,   33554826) /* Setup */
-     , (43304,   8,  100691569) /* Icon */
-     , (43304,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43304,   1, 0x0200018A) /* Setup */
+     , (43304,   8, 0x06006E71) /* Icon */
+     , (43304,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43304,  28,       5351) /* Spell - NetherBolt3 */
      , (43304, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43304, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43304, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43304, 8000, 3357953021) /* PCAPRecordedObjectIID */;
+VALUES (43304, 8000, 0xC8264BFD) /* PCAPRecordedObjectIID */;

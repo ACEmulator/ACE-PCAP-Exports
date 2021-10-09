@@ -22,20 +22,20 @@ VALUES (30190,   1, 'Pearl of Blade Baning') /* Name */
      , (30190,  20, 'Pearls of Blade Baning') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30190,   1,   33554809) /* Setup */
-     , (30190,   3,  536870932) /* SoundTable */
-     , (30190,   8,  100686695) /* Icon */
-     , (30190,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30190,   1, 0x02000179) /* Setup */
+     , (30190,   3, 0x20000014) /* SoundTable */
+     , (30190,   8, 0x06005B67) /* Icon */
+     , (30190,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30190,  28,       3686) /* Spell - BladeBaneRare */
-     , (30190,  50,  100686634) /* IconOverlay */
-     , (30190,  52,  100686604) /* IconUnderlay */
+     , (30190,  50, 0x06005B2A) /* IconOverlay */
+     , (30190,  52, 0x06005B0C) /* IconUnderlay */
      , (30190, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30190, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30190, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30190, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30190, 8000, 2153709888) /* PCAPRecordedObjectIID */;
+VALUES (30190, 8000, 0x805F0140) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (30190, 0, 83890391, 83890391);

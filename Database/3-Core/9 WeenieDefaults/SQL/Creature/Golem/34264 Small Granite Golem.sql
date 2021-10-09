@@ -25,21 +25,21 @@ VALUES (34264,   1, 'Small Granite Golem') /* Name */
      , (34264, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34264,   1,   33556426) /* Setup */
-     , (34264,   2,  150995073) /* MotionTable */
-     , (34264,   3,  536870933) /* SoundTable */
-     , (34264,   8,  100667940) /* Icon */
-     , (34264,  22,  872415328) /* PhysicsEffectTable */
+VALUES (34264,   1, 0x020007CA) /* Setup */
+     , (34264,   2, 0x09000081) /* MotionTable */
+     , (34264,   3, 0x20000015) /* SoundTable */
+     , (34264,   8, 0x06001224) /* Icon */
+     , (34264,  22, 0x34000060) /* PhysicsEffectTable */
      , (34264, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (34264, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (34264, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34264, 8040, 1896415240, 4.342724, 173.3609, 25.21621, -0.3927361, 0, 0, -0.9196512) /* PCAPRecordedLocation */
+VALUES (34264, 8040, 0x71090008, 4.342724, 173.3609, 25.21621, -0.392736, 0, 0, -0.919651) /* PCAPRecordedLocation */
 /* @teleloc 0x71090008 [4.342724 173.360900 25.216210] -0.392736 0.000000 0.000000 -0.919651 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34264, 8000, 2448604432) /* PCAPRecordedObjectIID */;
+VALUES (34264, 8000, 0x91F2BD10) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (34264,   1,     0, 0, 0, 555) /* MaxHealth */;

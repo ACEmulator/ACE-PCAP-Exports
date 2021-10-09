@@ -22,6 +22,7 @@ VALUES (23945,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23945,  22, True ) /* Inscribable */
+     , (23945,  23, True ) /* DestroyOnSell */
      , (23945,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -40,22 +41,22 @@ VALUES (23945,   1, 'Runic Helm of Knorr') /* Name */
      , (23945,  15, 'This helm was worn by Initiates of Perfect Light. They are modeled after the helms worn by the armies of Lord Atlan against the swelling darkness. The helm has a single setting for an orb.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23945,   1,   33558266) /* Setup */
-     , (23945,   3,  536870932) /* SoundTable */
-     , (23945,   6,   67108990) /* PaletteBase */
-     , (23945,   8,  100674136) /* Icon */
-     , (23945,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23945,   1, 0x02000EFA) /* Setup */
+     , (23945,   3, 0x20000014) /* SoundTable */
+     , (23945,   6, 0x0400007E) /* PaletteBase */
+     , (23945,   8, 0x06002A58) /* Icon */
+     , (23945,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23945, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (23945, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23945, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23945, 8000, 2274298735) /* PCAPRecordedObjectIID */;
+VALUES (23945, 8000, 0x878F0B6F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23945,   244,      2)  /* InvulnerabilityOther6 */
+VALUES (23945,  2950,      2)  /* MaidensKiss */
      , (23945,  1485,      2)  /* Impenetrability5 */
-     , (23945,  2950,      2)  /* MaidensKiss */;
+     , (23945,   244,      2)  /* InvulnerabilityOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23945, 67114179, 240, 10)

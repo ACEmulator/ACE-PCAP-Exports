@@ -24,13 +24,13 @@ VALUES (20429,   1, 'Scroll of Vagabond''s Gift') /* Name */
 Decreases a lock''s resistance to picking by 200 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20429,   1,   33554826) /* Setup */
-     , (20429,   8,  100676678) /* Icon */
-     , (20429,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20429,   1, 0x0200018A) /* Setup */
+     , (20429,   8, 0x06003446) /* Icon */
+     , (20429,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20429,  28,       2119) /* Spell - WeakenLock7 */
      , (20429, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20429, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20429, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20429, 8000, 3681194560) /* PCAPRecordedObjectIID */;
+VALUES (20429, 8000, 0xDB6A9240) /* PCAPRecordedObjectIID */;

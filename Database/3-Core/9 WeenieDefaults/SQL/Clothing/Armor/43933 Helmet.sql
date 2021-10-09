@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43933,   1, 'Helmet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43933,   1,   33554650) /* Setup */
-     , (43933,   3,  536870932) /* SoundTable */
-     , (43933,   6,   67108990) /* PaletteBase */
-     , (43933,   8,  100669417) /* Icon */
-     , (43933,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43933,   1, 0x020000DA) /* Setup */
+     , (43933,   3, 0x20000014) /* SoundTable */
+     , (43933,   6, 0x0400007E) /* PaletteBase */
+     , (43933,   8, 0x060017E9) /* Icon */
+     , (43933,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43933, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (43933, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43933, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43933, 8000, 2925459494) /* PCAPRecordedObjectIID */;
+VALUES (43933, 8000, 0xAE5EF826) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43933, 67110540, 240, 10);

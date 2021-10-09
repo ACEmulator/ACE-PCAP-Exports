@@ -18,18 +18,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27619,   1, 'Menhir Rings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27619,   1,   33559084) /* Setup */
-     , (27619,   3,  536870932) /* SoundTable */
-     , (27619,   6,   67112626) /* PaletteBase */
-     , (27619,   8,  100675749) /* Icon */
-     , (27619,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27619,   1, 0x0200122C) /* Setup */
+     , (27619,   3, 0x20000014) /* SoundTable */
+     , (27619,   6, 0x04000EB2) /* PaletteBase */
+     , (27619,   8, 0x060030A5) /* Icon */
+     , (27619,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27619, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (27619, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (27619, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (27619, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27619, 8000,      27619) /* PCAPRecordedObjectIID */;
+VALUES (27619, 8000, 0x00006BE3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27619, 67113862, 0, 0);

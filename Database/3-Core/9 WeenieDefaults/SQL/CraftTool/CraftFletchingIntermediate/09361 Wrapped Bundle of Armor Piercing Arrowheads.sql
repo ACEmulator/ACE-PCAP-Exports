@@ -26,13 +26,13 @@ VALUES (9361,   1, 'Wrapped Bundle of Armor Piercing Arrowheads') /* Name */
      , (9361,  20, 'Wrapped Bundles of Armor Piercing Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9361,   1,   33557030) /* Setup */
-     , (9361,   3,  536870932) /* SoundTable */
-     , (9361,   8,  100671593) /* Icon */
-     , (9361,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9361,   1, 0x02000A26) /* Setup */
+     , (9361,   3, 0x20000014) /* SoundTable */
+     , (9361,   8, 0x06002069) /* Icon */
+     , (9361,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9361, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (9361, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9361, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9361, 8000, 2258805170) /* PCAPRecordedObjectIID */;
+VALUES (9361, 8000, 0x86A2A1B2) /* PCAPRecordedObjectIID */;

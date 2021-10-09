@@ -22,19 +22,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45447,   1, 'Dripping Death') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45447,   1,   33559377) /* Setup */
-     , (45447,   3,  536870932) /* SoundTable */
-     , (45447,   6,   67111919) /* PaletteBase */
-     , (45447,   8,  100686737) /* Icon */
-     , (45447,  22,  872415275) /* PhysicsEffectTable */
-     , (45447,  52,  100686604) /* IconUnderlay */
+VALUES (45447,   1, 0x02001351) /* Setup */
+     , (45447,   3, 0x20000014) /* SoundTable */
+     , (45447,   6, 0x04000BEF) /* PaletteBase */
+     , (45447,   8, 0x06005B91) /* Icon */
+     , (45447,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45447,  52, 0x06005B0C) /* IconUnderlay */
      , (45447, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (45447, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45447, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45447, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45447, 8000, 2204145865) /* PCAPRecordedObjectIID */;
+VALUES (45447, 8000, 0x836098C9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45447, 67111920, 0, 0);

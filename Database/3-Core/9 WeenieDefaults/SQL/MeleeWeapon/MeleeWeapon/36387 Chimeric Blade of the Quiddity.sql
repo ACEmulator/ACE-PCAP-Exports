@@ -28,7 +28,6 @@ VALUES (36387,   1,          1) /* ItemType - MeleeWeapon */
      , (36387, 160,        120) /* WieldDifficulty */
      , (36387, 263,          1) /* ResistanceModifierType */
      , (36387, 267,      10800) /* Lifespan */
-     , (36387, 268,      10557) /* RemainingLifespan */
      , (36387, 353,          2) /* WeaponType - Sword */
      , (36387, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (36387, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -55,32 +54,32 @@ VALUES (36387,   1, 'Chimeric Blade of the Quiddity') /* Name */
      , (36387,  16, 'A powerful but unstable weapon made from congealed Portal Energy, pulled from a rift into Portalspace itself.  The origin of these weapons is unknown, and they do not survive exposure to Dereth for more than a few hours.  (This weapon has a 3 hour duration from the time of its creation.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36387,   1,   33558914) /* Setup */
-     , (36387,   3,  536870932) /* SoundTable */
-     , (36387,   6,   67111919) /* PaletteBase */
-     , (36387,   8,  100677056) /* Icon */
-     , (36387,  22,  872415275) /* PhysicsEffectTable */
-     , (36387,  52,  100689403) /* IconUnderlay */
+VALUES (36387,   1, 0x02001182) /* Setup */
+     , (36387,   3, 0x20000014) /* SoundTable */
+     , (36387,   6, 0x04000BEF) /* PaletteBase */
+     , (36387,   8, 0x060035C0) /* Icon */
+     , (36387,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36387,  52, 0x060065FB) /* IconUnderlay */
      , (36387, 8001,    2163344) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, ValidLocations, Burden */
      , (36387, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (36387, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (36387, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36387, 8040, 2847146034, 149.9443, 25.76784, 93.99725, 0.4076633, 0, 0, -0.9131323) /* PCAPRecordedLocation */
+VALUES (36387, 8040, 0xA9B40032, 149.9443, 25.76784, 93.99725, 0.407663, 0, 0, -0.913132) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40032 [149.944300 25.767840 93.997250] 0.407663 0.000000 0.000000 -0.913132 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36387, 8000, 3334618955) /* PCAPRecordedObjectIID */;
+VALUES (36387, 8000, 0xC6C23F4B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36387,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (36387,  2101,      2)  /* DefenderSelf7 */
-     , (36387,  2106,      2)  /* HeartSeekerSelf7 */
-     , (36387,  2116,      2)  /* SwiftKillerSelf7 */
-     , (36387,  2509,      2)  /* CANTRIPDAGGERAPTITUDE2 */
+VALUES (36387,  2116,      2)  /* SwiftKillerSelf7 */
+     , (36387,  2509,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE2 */
      , (36387,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (36387,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+     , (36387,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (36387,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (36387,  2101,      2)  /* DefenderSelf7 */
+     , (36387,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36387, 67111922, 0, 0);

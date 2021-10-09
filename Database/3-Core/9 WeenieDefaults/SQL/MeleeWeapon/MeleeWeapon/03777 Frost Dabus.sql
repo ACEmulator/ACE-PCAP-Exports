@@ -48,17 +48,17 @@ VALUES (3777,   1, 'Frost Dabus') /* Name */
      , (3777,  16, 'Frost Dabus of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3777,   1,   33555750) /* Setup */
-     , (3777,   3,  536870932) /* SoundTable */
-     , (3777,   8,  100668874) /* Icon */
-     , (3777,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3777,   1, 0x02000526) /* Setup */
+     , (3777,   3, 0x20000014) /* SoundTable */
+     , (3777,   8, 0x060015CA) /* Icon */
+     , (3777,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3777,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3777, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3777, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3777, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3777, 8000, 2617849943) /* PCAPRecordedObjectIID */;
+VALUES (3777, 8000, 0x9C093857) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3777,  1602,      2)  /* DefenderSelf3 */

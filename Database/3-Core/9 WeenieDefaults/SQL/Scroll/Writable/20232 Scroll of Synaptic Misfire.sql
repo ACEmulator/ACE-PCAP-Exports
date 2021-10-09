@@ -24,13 +24,13 @@ VALUES (20232,   1, 'Scroll of Synaptic Misfire') /* Name */
 Decreases the target''s Focus by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20232,   1,   33554826) /* Setup */
-     , (20232,   8,  100676458) /* Icon */
-     , (20232,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20232,   1, 0x0200018A) /* Setup */
+     , (20232,   8, 0x0600336A) /* Icon */
+     , (20232,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20232,  28,       2054) /* Spell - BafflementOther7 */
      , (20232, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20232, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20232, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20232, 8000, 3354947131) /* PCAPRecordedObjectIID */;
+VALUES (20232, 8000, 0xC7F86E3B) /* PCAPRecordedObjectIID */;

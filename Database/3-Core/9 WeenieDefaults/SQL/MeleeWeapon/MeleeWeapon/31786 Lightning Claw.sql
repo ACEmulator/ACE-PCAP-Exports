@@ -49,24 +49,21 @@ VALUES (31786,   1, 'Lightning Claw') /* Name */
      , (31786,  16, 'Lightning Claw of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31786,   1,   33559642) /* Setup */
-     , (31786,   3,  536870932) /* SoundTable */
-     , (31786,   6,   67116700) /* PaletteBase */
-     , (31786,   8,  100688077) /* Icon */
-     , (31786,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31786,   1, 0x0200145A) /* Setup */
+     , (31786,   3, 0x20000014) /* SoundTable */
+     , (31786,   6, 0x04001E9C) /* PaletteBase */
+     , (31786,   8, 0x060060CD) /* Icon */
+     , (31786,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31786,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (31786, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31786, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31786, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31786, 8000, 3694168565) /* PCAPRecordedObjectIID */;
+VALUES (31786, 8000, 0xDC3089F5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31786,    35,      2)  /* BloodDrinkerSelf1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31786, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31786, 67116700, 1, 100)

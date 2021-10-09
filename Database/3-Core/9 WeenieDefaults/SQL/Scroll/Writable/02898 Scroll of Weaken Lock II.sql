@@ -24,13 +24,13 @@ VALUES (2898,   1, 'Scroll of Weaken Lock II') /* Name */
 Decreases a lock''s resistance to picking by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2898,   1,   33554826) /* Setup */
-     , (2898,   8,  100676678) /* Icon */
-     , (2898,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2898,   1, 0x0200018A) /* Setup */
+     , (2898,   8, 0x06003446) /* Icon */
+     , (2898,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2898,  28,       1582) /* Spell - WeakenLock2 */
      , (2898, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2898, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2898, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2898, 8000, 2259309548) /* PCAPRecordedObjectIID */;
+VALUES (2898, 8000, 0x86AA53EC) /* PCAPRecordedObjectIID */;

@@ -23,12 +23,12 @@ VALUES (1319,   1, 'Key') /* Name */
      , (1319,  16, 'This key opens a chest in the Eastham Sewer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1319,   1,   33554784) /* Setup */
-     , (1319,   8,  100667485) /* Icon */
-     , (1319,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1319,   1, 0x02000160) /* Setup */
+     , (1319,   8, 0x0600105D) /* Icon */
+     , (1319,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1319, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (1319, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1319, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1319, 8000, 3355819187) /* PCAPRecordedObjectIID */;
+VALUES (1319, 8000, 0xC805BCB3) /* PCAPRecordedObjectIID */;

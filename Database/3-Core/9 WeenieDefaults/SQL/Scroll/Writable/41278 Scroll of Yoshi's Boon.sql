@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41278,   1, 'Scroll of Yoshi''s Boon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41278,   1,   33554826) /* Setup */
-     , (41278,   8,  100676477) /* Icon */
-     , (41278,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41278,   1, 0x0200018A) /* Setup */
+     , (41278,   8, 0x0600337D) /* Icon */
+     , (41278,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41278,  28,       2250) /* Spell - ItemExpertiseOther7 */
      , (41278, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (41278, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41278, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41278, 8000, 2978131569) /* PCAPRecordedObjectIID */;
+VALUES (41278, 8000, 0xB182AE71) /* PCAPRecordedObjectIID */;

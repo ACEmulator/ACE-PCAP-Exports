@@ -23,16 +23,16 @@ VALUES (43001,   1, 'Fort Tethana Portal') /* Name */
      , (43001, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43001,   1,   33554867) /* Setup */
-     , (43001,   2,  150994947) /* MotionTable */
-     , (43001,   8,  100667499) /* Icon */
+VALUES (43001,   1, 0x020001B3) /* Setup */
+     , (43001,   2, 0x09000003) /* MotionTable */
+     , (43001,   8, 0x0600106B) /* Icon */
      , (43001, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (43001, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (43001, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43001, 8040, 459069, 69.989, -3.562, -0.06299996, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (43001, 8040, 0x0007013D, 69.989, -3.562, -0.063, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0007013D [69.989000 -3.562000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43001, 8000, 1879076942) /* PCAPRecordedObjectIID */;
+VALUES (43001, 8000, 0x7000704E) /* PCAPRecordedObjectIID */;

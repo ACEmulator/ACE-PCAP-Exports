@@ -22,20 +22,20 @@ VALUES (40786,   1, 'Progenitor of Lightning') /* Name */
      , (40786, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40786,   1,   33556979) /* Setup */
-     , (40786,   2,  150995087) /* MotionTable */
-     , (40786,   3,  536870985) /* SoundTable */
-     , (40786,   8,  100671612) /* Icon */
+VALUES (40786,   1, 0x020009F3) /* Setup */
+     , (40786,   2, 0x0900008F) /* MotionTable */
+     , (40786,   3, 0x20000049) /* SoundTable */
+     , (40786,   8, 0x0600207C) /* Icon */
      , (40786, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40786, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40786, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40786, 8040, 778830613, -188.128, 106.723, -17.595, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (40786, 8040, 0x2E6C0315, -188.128, 106.723, -17.595, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2E6C0315 [-188.128000 106.723000 -17.595000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40786, 8000, 3711129186) /* PCAPRecordedObjectIID */;
+VALUES (40786, 8000, 0xDD335662) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40786,   1, 200, 0, 0) /* Strength */

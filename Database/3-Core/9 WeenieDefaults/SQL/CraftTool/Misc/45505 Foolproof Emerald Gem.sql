@@ -28,22 +28,22 @@ VALUES (45505,   1, 'Foolproof Emerald Gem') /* Name */
      , (45505,  16, 'A magical gem containing a bag of Foolproof Emerald.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45505,   1,   33556769) /* Setup */
-     , (45505,   3,  536870932) /* SoundTable */
-     , (45505,   6,   67111919) /* PaletteBase */
-     , (45505,   8,  100673039) /* Icon */
-     , (45505,  22,  872415275) /* PhysicsEffectTable */
-     , (45505,  50,  100674731) /* IconOverlay */
+VALUES (45505,   1, 0x02000921) /* Setup */
+     , (45505,   3, 0x20000014) /* SoundTable */
+     , (45505,   6, 0x04000BEF) /* PaletteBase */
+     , (45505,   8, 0x0600260F) /* Icon */
+     , (45505,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45505,  50, 0x06002CAB) /* IconOverlay */
      , (45505, 8001, 1076375576) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, TargetType, Burden, IconOverlay */
      , (45505, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45505, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45505, 8040, 23855555, 55.59712, -43.60067, -0.001000002, 0.07712715, 0, 0, -0.9970213) /* PCAPRecordedLocation */
+VALUES (45505, 8040, 0x016C01C3, 55.59712, -43.60067, -0.001, 0.077127, 0, 0, -0.997021) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [55.597120 -43.600670 -0.001000] 0.077127 0.000000 0.000000 -0.997021 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45505, 8000, 3319470101) /* PCAPRecordedObjectIID */;
+VALUES (45505, 8000, 0xC5DB1815) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45505, 67111927, 0, 0);

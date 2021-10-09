@@ -20,13 +20,13 @@ VALUES (22849,   1, 'Falling Leaves') /* Name */
      , (22849,  15, 'This item can be used on wall hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22849,   1,   33558151) /* Setup */
-     , (22849,   3,  536870932) /* SoundTable */
-     , (22849,   8,  100673916) /* Icon */
-     , (22849,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22849,   1, 0x02000E87) /* Setup */
+     , (22849,   3, 0x20000014) /* SoundTable */
+     , (22849,   8, 0x0600297C) /* Icon */
+     , (22849,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22849, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (22849, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22849, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22849, 8000, 2148135144) /* PCAPRecordedObjectIID */;
+VALUES (22849, 8000, 0x8009F0E8) /* PCAPRecordedObjectIID */;

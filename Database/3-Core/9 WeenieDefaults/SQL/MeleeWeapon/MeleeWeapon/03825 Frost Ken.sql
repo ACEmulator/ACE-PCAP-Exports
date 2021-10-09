@@ -53,23 +53,23 @@ VALUES (3825,   1, 'Frost Ken') /* Name */
      , (3825,  16, 'Frost Ken of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3825,   1,   33555794) /* Setup */
-     , (3825,   3,  536870932) /* SoundTable */
-     , (3825,   8,  100669015) /* Icon */
-     , (3825,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3825,   1, 0x02000552) /* Setup */
+     , (3825,   3, 0x20000014) /* SoundTable */
+     , (3825,   8, 0x06001657) /* Icon */
+     , (3825,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3825,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3825, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3825, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3825, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3825, 8040, 3332964380, 76.80225, 94.91811, 42, 0.7082336, 0, 0, -0.7059782) /* PCAPRecordedLocation */
+VALUES (3825, 8040, 0xC6A9001C, 76.80225, 94.91811, 42, 0.708234, 0, 0, -0.705978) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [76.802250 94.918110 42.000000] 0.708234 0.000000 0.000000 -0.705978 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3825, 8000, 2156287789) /* PCAPRecordedObjectIID */;
+VALUES (3825, 8000, 0x8086572D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3825,  2059,      2)  /* CoordinationSelf7 */
-     , (3825,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (3825,  2571,      2)  /* CANTRIPARMOR2 */;
+     , (3825,  2571,      2)  /* CANTRIPARMOR2 */
+     , (3825,  2096,      2)  /* BloodDrinkerSelf7 */;

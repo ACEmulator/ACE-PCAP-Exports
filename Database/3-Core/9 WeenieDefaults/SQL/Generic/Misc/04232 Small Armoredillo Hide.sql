@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4232,   1, 'Small Armoredillo Hide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4232,   1,   33554817) /* Setup */
-     , (4232,   3,  536870932) /* SoundTable */
-     , (4232,   6,   67111919) /* PaletteBase */
-     , (4232,   8,  100670047) /* Icon */
-     , (4232,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4232,   1, 0x02000181) /* Setup */
+     , (4232,   3, 0x20000014) /* SoundTable */
+     , (4232,   6, 0x04000BEF) /* PaletteBase */
+     , (4232,   8, 0x06001A5F) /* Icon */
+     , (4232,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4232, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (4232, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4232, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4232, 8000, 2249707437) /* PCAPRecordedObjectIID */;
+VALUES (4232, 8000, 0x8617CFAD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4232, 67111918, 0, 0);

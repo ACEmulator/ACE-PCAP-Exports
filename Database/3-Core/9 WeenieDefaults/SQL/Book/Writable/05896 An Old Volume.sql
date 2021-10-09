@@ -21,17 +21,17 @@ VALUES (5896,   1, 'An Old Volume') /* Name */
      , (5896,  16, 'An incredibly old book, partially preserved by frigid temperatures, written in Empyrean characters and organized in the format of a journal.  Handle with care!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5896,   1,   33554771) /* Setup */
-     , (5896,   3,  536870932) /* SoundTable */
-     , (5896,   8,  100668117) /* Icon */
-     , (5896,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5896,   1, 0x02000153) /* Setup */
+     , (5896,   3, 0x20000014) /* SoundTable */
+     , (5896,   8, 0x060012D5) /* Icon */
+     , (5896,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5896, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (5896, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (5896, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5896, 8040, 31850809, 51.7425, -123.881, -11.943, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (5896, 8040, 0x01E60139, 51.7425, -123.881, -11.943, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x01E60139 [51.742500 -123.881000 -11.943000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5896, 8000, 3711674524) /* PCAPRecordedObjectIID */;
+VALUES (5896, 8000, 0xDD3BA89C) /* PCAPRecordedObjectIID */;

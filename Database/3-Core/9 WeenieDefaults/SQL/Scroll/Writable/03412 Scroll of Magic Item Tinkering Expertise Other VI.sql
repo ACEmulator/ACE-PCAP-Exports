@@ -24,13 +24,13 @@ VALUES (3412,   1, 'Scroll of Magic Item Tinkering Expertise Other VI') /* Name 
 Increases the target''s Magic Item Tinkering skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3412,   1,   33554826) /* Setup */
-     , (3412,   8,  100676477) /* Icon */
-     , (3412,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3412,   1, 0x0200018A) /* Setup */
+     , (3412,   8, 0x0600337D) /* Icon */
+     , (3412,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3412,  28,        761) /* Spell - MagicItemExpertiseOther6 */
      , (3412, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3412, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3412, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3412, 8000, 3354825186) /* PCAPRecordedObjectIID */;
+VALUES (3412, 8000, 0xC7F691E2) /* PCAPRecordedObjectIID */;

@@ -25,22 +25,22 @@ VALUES (40469,   1, 'Corrupted Coral Golem') /* Name */
      , (40469, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40469,   1,   33556426) /* Setup */
-     , (40469,   2,  150995073) /* MotionTable */
-     , (40469,   3,  536870933) /* SoundTable */
-     , (40469,   6,   67112775) /* PaletteBase */
-     , (40469,   8,  100667940) /* Icon */
-     , (40469,  22,  872415323) /* PhysicsEffectTable */
+VALUES (40469,   1, 0x020007CA) /* Setup */
+     , (40469,   2, 0x09000081) /* MotionTable */
+     , (40469,   3, 0x20000015) /* SoundTable */
+     , (40469,   6, 0x04000F47) /* PaletteBase */
+     , (40469,   8, 0x06001224) /* Icon */
+     , (40469,  22, 0x3400005B) /* PhysicsEffectTable */
      , (40469, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40469, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40469, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40469, 8040, 990642216, 110.3619, 173.7674, -0.08899999, -0.2200254, 0, 0, -0.9754941) /* PCAPRecordedLocation */
+VALUES (40469, 8040, 0x3B0C0028, 110.3619, 173.7674, -0.089, -0.220025, 0, 0, -0.975494) /* PCAPRecordedLocation */
 /* @teleloc 0x3B0C0028 [110.361900 173.767400 -0.089000] -0.220025 0.000000 0.000000 -0.975494 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40469, 8000, 2447950278) /* PCAPRecordedObjectIID */;
+VALUES (40469, 8000, 0x91E8C1C6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (40469,   1,     0, 0, 0, 1810) /* MaxHealth */;

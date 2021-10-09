@@ -24,13 +24,13 @@ VALUES (20570,   1, 'Scroll of Ignorance''s Bliss') /* Name */
 Decreases the target''s Assess Monster skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20570,   1,   33554826) /* Setup */
-     , (20570,   8,  100676448) /* Icon */
-     , (20570,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20570,   1, 0x0200018A) /* Setup */
+     , (20570,   8, 0x06003360) /* Icon */
+     , (20570,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20570,  28,       2290) /* Spell - MonsterUnfamiliarityOther7 */
      , (20570, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20570, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20570, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20570, 8000, 3681702384) /* PCAPRecordedObjectIID */;
+VALUES (20570, 8000, 0xDB7251F0) /* PCAPRecordedObjectIID */;

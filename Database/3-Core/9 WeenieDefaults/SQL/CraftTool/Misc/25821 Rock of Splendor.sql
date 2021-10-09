@@ -20,6 +20,7 @@ VALUES (25821,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25821,  22, True ) /* Inscribable */
+     , (25821,  23, True ) /* DestroyOnSell */
      , (25821,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -28,13 +29,13 @@ VALUES (25821,   1, 'Rock of Splendor') /* Name */
      , (25821,  15, 'This rock is a perfect sphere, rubbed smooth in hot magma currents.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25821,   1,   33554669) /* Setup */
-     , (25821,   3,  536870932) /* SoundTable */
-     , (25821,   8,  100670073) /* Icon */
-     , (25821,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25821,   1, 0x020000ED) /* Setup */
+     , (25821,   3, 0x20000014) /* SoundTable */
+     , (25821,   8, 0x06001A79) /* Icon */
+     , (25821,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25821, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (25821, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25821, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25821, 8000, 3015916677) /* PCAPRecordedObjectIID */;
+VALUES (25821, 8000, 0xB3C33C85) /* PCAPRecordedObjectIID */;

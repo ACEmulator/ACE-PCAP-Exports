@@ -24,22 +24,17 @@ VALUES (8326,   1, 'Copper Pea') /* Name */
      , (8326,  16, 'A concentrated copper pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8326,   1,   33555211) /* Setup */
-     , (8326,   3,  536870932) /* SoundTable */
-     , (8326,   6,   67111919) /* PaletteBase */
-     , (8326,   8,  100671079) /* Icon */
-     , (8326,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8326,   1, 0x0200030B) /* Setup */
+     , (8326,   3, 0x20000014) /* SoundTable */
+     , (8326,   6, 0x04000BEF) /* PaletteBase */
+     , (8326,   8, 0x06001E67) /* Icon */
+     , (8326,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8326, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8326, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8326, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8326, 8000, 2186220507) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8326, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (8326, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (8326, 2, 12197,  1, 0, 0, False) /* Create Assassin's Flaming Simi (12197) for Wield */;
+VALUES (8326, 8000, 0x824F13DB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8326, 67111918, 0, 0);

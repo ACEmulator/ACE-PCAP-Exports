@@ -24,17 +24,17 @@ VALUES (43133,   1, 'Aetheria Powder') /* Name */
      , (43133,  20, 'Aetheria Powder') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43133,   1,   33555208) /* Setup */
-     , (43133,   3,  536870932) /* SoundTable */
-     , (43133,   6,   67111919) /* PaletteBase */
-     , (43133,   8,  100668383) /* Icon */
-     , (43133,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43133,   1, 0x02000308) /* Setup */
+     , (43133,   3, 0x20000014) /* SoundTable */
+     , (43133,   6, 0x04000BEF) /* PaletteBase */
+     , (43133,   8, 0x060013DF) /* Icon */
+     , (43133,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43133, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (43133, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43133, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43133, 8000, 2993789981) /* PCAPRecordedObjectIID */;
+VALUES (43133, 8000, 0xB2719C1D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43133, 67111920, 0, 0);

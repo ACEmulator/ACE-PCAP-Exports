@@ -23,16 +23,16 @@ VALUES (32685,   1, 'Shade Iron Mine') /* Name */
      , (32685, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32685,   1,   33555925) /* Setup */
-     , (32685,   2,  150994947) /* MotionTable */
-     , (32685,   8,  100667499) /* Icon */
+VALUES (32685,   1, 0x020005D5) /* Setup */
+     , (32685,   2, 0x09000003) /* MotionTable */
+     , (32685,   8, 0x0600106B) /* Icon */
      , (32685, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (32685, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (32685, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32685, 8040, 288227585, 180, 21, 20.737, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (32685, 8040, 0x112E0101, 180, 21, 20.737, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x112E0101 [180.000000 21.000000 20.737000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32685, 8000, 1897062400) /* PCAPRecordedObjectIID */;
+VALUES (32685, 8000, 0x7112E000) /* PCAPRecordedObjectIID */;

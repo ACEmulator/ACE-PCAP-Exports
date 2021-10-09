@@ -23,13 +23,13 @@ VALUES (29074,   1, 'The Thrungus - Part III') /* Name */
      , (29074,  16, 'From the journal of Sir Binwas Loc - the third of four passages concerning the mysterious creature known as ''The Thrungus.'' This portion was found in the Sultry Hovel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29074,   1,   33554771) /* Setup */
-     , (29074,   3,  536870932) /* SoundTable */
-     , (29074,   8,  100668117) /* Icon */
-     , (29074,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29074,   1, 0x02000153) /* Setup */
+     , (29074,   3, 0x20000014) /* SoundTable */
+     , (29074,   8, 0x060012D5) /* Icon */
+     , (29074,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29074, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (29074, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (29074, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29074, 8000, 2629459065) /* PCAPRecordedObjectIID */;
+VALUES (29074, 8000, 0x9CBA5C79) /* PCAPRecordedObjectIID */;

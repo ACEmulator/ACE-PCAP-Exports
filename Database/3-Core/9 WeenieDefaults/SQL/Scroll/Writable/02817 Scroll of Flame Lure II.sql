@@ -24,13 +24,13 @@ VALUES (2817,   1, 'Scroll of Flame Lure II') /* Name */
 Decreases a shield or piece of armor''s resistance to fire damage by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2817,   1,   33554826) /* Setup */
-     , (2817,   8,  100676666) /* Icon */
-     , (2817,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2817,   1, 0x0200018A) /* Setup */
+     , (2817,   8, 0x0600343A) /* Icon */
+     , (2817,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2817,  28,       1542) /* Spell - FlameLure2 */
      , (2817, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2817, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2817, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2817, 8000, 2779033163) /* PCAPRecordedObjectIID */;
+VALUES (2817, 8000, 0xA5A4AE4B) /* PCAPRecordedObjectIID */;

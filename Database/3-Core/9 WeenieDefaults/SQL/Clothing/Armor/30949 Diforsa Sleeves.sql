@@ -44,22 +44,22 @@ VALUES (30949,   1, 'Diforsa Sleeves') /* Name */
      , (30949,  16, 'Diforsa Sleeves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30949,   1,   33559365) /* Setup */
-     , (30949,   3,  536870932) /* SoundTable */
-     , (30949,   6,   67108990) /* PaletteBase */
-     , (30949,   8,  100686585) /* Icon */
-     , (30949,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30949,   1, 0x02001345) /* Setup */
+     , (30949,   3, 0x20000014) /* SoundTable */
+     , (30949,   6, 0x0400007E) /* PaletteBase */
+     , (30949,   8, 0x06005AF9) /* Icon */
+     , (30949,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30949, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (30949, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30949, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30949, 8000, 3697322730) /* PCAPRecordedObjectIID */;
+VALUES (30949, 8000, 0xDC60AAEA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30949,  1486,      2)  /* Impenetrability6 */
-     , (30949,  1515,      2)  /* BludgeonBane5 */
      , (30949,  1573,      2)  /* PiercingBane5 */
+     , (30949,  1515,      2)  /* BludgeonBane5 */
      , (30949,  2616,      2)  /* CANTRIPACIDWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

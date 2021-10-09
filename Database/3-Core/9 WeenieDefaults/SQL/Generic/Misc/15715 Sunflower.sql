@@ -23,15 +23,15 @@ VALUES (15715,   1, 'Sunflower') /* Name */
      , (15715,  15, 'A bright yellow sunflower. Breathing the ethereal fragrance from this blossom, you are suddenly nostalgic for the grassy meadows of Ispar.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15715,   1,   33557637) /* Setup */
-     , (15715,   8,  100672837) /* Icon */
+VALUES (15715,   1, 0x02000C85) /* Setup */
+     , (15715,   8, 0x06002545) /* Icon */
      , (15715, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
      , (15715, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15715, 8005,      32897) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15715, 8040, 2223439899, 72.34193, 62.12228, 138.6419, 0.3865494, 0, 0, -0.9222687) /* PCAPRecordedLocation */
+VALUES (15715, 8040, 0x8487001B, 72.34193, 62.12228, 138.6419, 0.386549, 0, 0, -0.922269) /* PCAPRecordedLocation */
 /* @teleloc 0x8487001B [72.341930 62.122280 138.641900] 0.386549 0.000000 0.000000 -0.922269 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15715, 8000, 3692404009) /* PCAPRecordedObjectIID */;
+VALUES (15715, 8000, 0xDC159D29) /* PCAPRecordedObjectIID */;

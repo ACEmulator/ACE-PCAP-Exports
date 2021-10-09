@@ -15,7 +15,7 @@ VALUES (27369,   1,        256) /* ItemType - MissileWeapon */
      , (27369,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27369,  49,         45) /* WeaponTime */
      , (27369,  50,          1) /* AmmoType - Arrow */
-     , (27369,  51,          2) /* CombatUse - Missle */
+     , (27369,  51,          2) /* CombatUse - Missile */
      , (27369,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27369, 114,          1) /* Attuned - Attuned */
      , (27369, 151,          2) /* HookType - Wall */
@@ -24,7 +24,8 @@ VALUES (27369,   1,        256) /* ItemType - MissileWeapon */
      , (27369, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27369,  22, True ) /* Inscribable */;
+VALUES (27369,  22, True ) /* Inscribable */
+     , (27369,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27369,  21,       0) /* WeaponLength */
@@ -40,16 +41,16 @@ VALUES (27369,   1, 'Panaq') /* Name */
      , (27369,  16, 'A beautifully carved bow. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27369,   1,   33558662) /* Setup */
-     , (27369,   3,  536870932) /* SoundTable */
-     , (27369,   8,  100676374) /* Icon */
-     , (27369,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27369,   1, 0x02001086) /* Setup */
+     , (27369,   3, 0x20000014) /* SoundTable */
+     , (27369,   8, 0x06003316) /* Icon */
+     , (27369,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27369, 8001,  270615320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27369, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27369, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27369, 8000, 3704488902) /* PCAPRecordedObjectIID */;
+VALUES (27369, 8000, 0xDCCE03C6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (27369, 0, 83893670, 83893699)

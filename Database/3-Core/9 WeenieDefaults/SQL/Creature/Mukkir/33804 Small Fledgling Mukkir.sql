@@ -26,23 +26,23 @@ VALUES (33804,   1, 'Small Fledgling Mukkir') /* Name */
      , (33804, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33804,   1,   33559741) /* Setup */
-     , (33804,   2,  150995348) /* MotionTable */
-     , (33804,   3,  536871107) /* SoundTable */
-     , (33804,   6,   67116771) /* PaletteBase */
-     , (33804,   8,  100688542) /* Icon */
-     , (33804,  22,  872415417) /* PhysicsEffectTable */
+VALUES (33804,   1, 0x020014BD) /* Setup */
+     , (33804,   2, 0x09000194) /* MotionTable */
+     , (33804,   3, 0x200000C3) /* SoundTable */
+     , (33804,   6, 0x04001EE3) /* PaletteBase */
+     , (33804,   8, 0x0600629E) /* Icon */
+     , (33804,  22, 0x340000B9) /* PhysicsEffectTable */
      , (33804,  30,         85) /* PhysicsScript - BreatheFrost */
      , (33804, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33804, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33804, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33804, 8040, 2897543650, 125.53, 134.149, 40.4, -0.6819851, 0, 0, -0.731366) /* PCAPRecordedLocation */
+VALUES (33804, 8040, 0xACB501E2, 125.53, 134.149, 40.4, -0.681985, 0, 0, -0.731366) /* PCAPRecordedLocation */
 /* @teleloc 0xACB501E2 [125.530000 134.149000 40.400000] -0.681985 0.000000 0.000000 -0.731366 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33804, 8000, 3626044770) /* PCAPRecordedObjectIID */;
+VALUES (33804, 8000, 0xD8210D62) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33804,   1, 145, 0, 0) /* Strength */

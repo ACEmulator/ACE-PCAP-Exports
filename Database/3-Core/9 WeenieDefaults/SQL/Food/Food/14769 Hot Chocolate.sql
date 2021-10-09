@@ -27,13 +27,13 @@ VALUES (14769,   1, 'Hot Chocolate') /* Name */
      , (14769,  20, 'Cups of Hot Chocolate') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14769,   1,   33554662) /* Setup */
-     , (14769,   3,  536870932) /* SoundTable */
-     , (14769,   8,  100672557) /* Icon */
-     , (14769,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14769,   1, 0x020000E6) /* Setup */
+     , (14769,   3, 0x20000014) /* SoundTable */
+     , (14769,   8, 0x0600242D) /* Icon */
+     , (14769,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14769, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (14769, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (14769, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14769, 8000, 2628150171) /* PCAPRecordedObjectIID */;
+VALUES (14769, 8000, 0x9CA6639B) /* PCAPRecordedObjectIID */;

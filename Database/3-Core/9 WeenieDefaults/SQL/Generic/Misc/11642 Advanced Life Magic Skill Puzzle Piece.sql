@@ -21,16 +21,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11642,   1, 'Advanced Life Magic Skill Puzzle Piece') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11642,   1,   33554669) /* Setup */
-     , (11642,   3,  536870932) /* SoundTable */
-     , (11642,   8,  100671714) /* Icon */
-     , (11642,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11642,   1, 0x020000ED) /* Setup */
+     , (11642,   3, 0x20000014) /* SoundTable */
+     , (11642,   8, 0x060020E2) /* Icon */
+     , (11642,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11642, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (11642, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11642, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11642, 8000, 3706812375) /* PCAPRecordedObjectIID */;
+VALUES (11642, 8000, 0xDCF177D7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11642, 0, 83888861, 83890936);

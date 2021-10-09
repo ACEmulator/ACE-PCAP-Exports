@@ -36,18 +36,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42411,   1, 'Yoroi Greaves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42411,   1,   33554641) /* Setup */
-     , (42411,   3,  536870932) /* SoundTable */
-     , (42411,   6,   67108990) /* PaletteBase */
-     , (42411,   8,  100668168) /* Icon */
-     , (42411,  22,  872415275) /* PhysicsEffectTable */
-     , (42411,  50,  100667895) /* IconOverlay */
+VALUES (42411,   1, 0x020000D1) /* Setup */
+     , (42411,   3, 0x20000014) /* SoundTable */
+     , (42411,   6, 0x0400007E) /* PaletteBase */
+     , (42411,   8, 0x06001308) /* Icon */
+     , (42411,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42411,  50, 0x060011F7) /* IconOverlay */
      , (42411, 8001, 1076654104) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Priority, TargetType, Burden, IconOverlay */
      , (42411, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42411, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42411, 8000, 3357365953) /* PCAPRecordedObjectIID */;
+VALUES (42411, 8000, 0xC81D56C1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42411, 67110015, 136, 16);

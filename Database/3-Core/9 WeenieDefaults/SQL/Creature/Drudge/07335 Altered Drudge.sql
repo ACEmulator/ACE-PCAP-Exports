@@ -26,22 +26,22 @@ VALUES (7335,   1, 'Altered Drudge') /* Name */
      , (7335, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7335,   1,   33556445) /* Setup */
-     , (7335,   2,  150994952) /* MotionTable */
-     , (7335,   3,  536870919) /* SoundTable */
-     , (7335,   6,   67112812) /* PaletteBase */
-     , (7335,   8,  100667445) /* Icon */
-     , (7335,  22,  872415258) /* PhysicsEffectTable */
+VALUES (7335,   1, 0x020007DD) /* Setup */
+     , (7335,   2, 0x09000008) /* MotionTable */
+     , (7335,   3, 0x20000007) /* SoundTable */
+     , (7335,   6, 0x04000F6C) /* PaletteBase */
+     , (7335,   8, 0x06001035) /* Icon */
+     , (7335,  22, 0x3400001A) /* PhysicsEffectTable */
      , (7335, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7335, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7335, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7335, 8040, 2400976923, 93.35075, 61.45675, 327.1215, 0.7372774, 0, 0, -0.6755902) /* PCAPRecordedLocation */
+VALUES (7335, 8040, 0x8F1C001B, 93.35075, 61.45675, 327.1215, 0.737277, 0, 0, -0.67559) /* PCAPRecordedLocation */
 /* @teleloc 0x8F1C001B [93.350750 61.456750 327.121500] 0.737277 0.000000 0.000000 -0.675590 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7335, 8000, 3685718377) /* PCAPRecordedObjectIID */;
+VALUES (7335, 8000, 0xDBAF9969) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7335,   1, 190, 0, 0) /* Strength */
@@ -503,7 +503,13 @@ VALUES (7335, 2, 47514,  1, 0, 0, False) /* Create Lightning Tachi (47514) for W
      , (7335, 9,  3427,  0, 0, 0, False) /* Create Scroll of Magic Yield Other VI (3427) for ContainTreasure */
      , (7335, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
      , (7335, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */
-     , (7335, 9, 20538,  0, 0, 0, False) /* Create Scroll of Aura of Defense (20538) for ContainTreasure */;
+     , (7335, 9, 20538,  0, 0, 0, False) /* Create Scroll of Aura of Defense (20538) for ContainTreasure */
+     , (7335, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
+     , (7335, 9,  2982,  0, 0, 0, False) /* Create Scroll of Acid Protection Self VI (2982) for ContainTreasure */
+     , (7335, 9, 44856,  0, 0, 0, False) /* Create Trimmed Cloak (44856) for ContainTreasure */
+     , (7335, 9, 35105,  1, 0, 0, False) /* Create Pyre Shroud (35105) for ContainTreasure */
+     , (7335, 9, 27218,  0, 0, 0, False) /* Create Chiran Leggings (27218) for ContainTreasure */
+     , (7335, 9, 27235,  0, 0, 0, False) /* Create Scroll of Eradicate Item Magic (27235) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7335, 67112899, 0, 0);

@@ -21,18 +21,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4129,   1, 'Fountain') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4129,   1,   33555071) /* Setup */
-     , (4129,   3,  536870932) /* SoundTable */
-     , (4129,   8,  100668104) /* Icon */
-     , (4129,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4129,   1, 0x0200027F) /* Setup */
+     , (4129,   3, 0x20000014) /* SoundTable */
+     , (4129,   8, 0x060012C8) /* Icon */
+     , (4129,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4129,  28,          1) /* Spell - StrengthOther1 */
      , (4129, 8001,    6291512) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden, Spell */
      , (4129, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4129, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4129, 8040, 33095994, 30, -120, -12.0075, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (4129, 8040, 0x01F9013A, 30, -120, -12.0075, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x01F9013A [30.000000 -120.000000 -12.007500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4129, 8000, 1881116680) /* PCAPRecordedObjectIID */;
+VALUES (4129, 8000, 0x701F9008) /* PCAPRecordedObjectIID */;

@@ -23,7 +23,8 @@ VALUES (11465,   1,          1) /* ItemType - MeleeWeapon */
      , (11465, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11465,  22, True ) /* Inscribable */;
+VALUES (11465,  22, True ) /* Inscribable */
+     , (11465,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11465,  21,       0) /* WeaponLength */
@@ -40,16 +41,16 @@ VALUES (11465,   1, 'Waaika') /* Name */
      , (11465,  16, 'A beautifully carved mace. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11465,   1,   33557235) /* Setup */
-     , (11465,   3,  536870932) /* SoundTable */
-     , (11465,   8,  100672084) /* Icon */
-     , (11465,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11465,   1, 0x02000AF3) /* Setup */
+     , (11465,   3, 0x20000014) /* SoundTable */
+     , (11465,   8, 0x06002254) /* Icon */
+     , (11465,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11465, 8001,    2179608) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden */
      , (11465, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11465, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11465, 8000, 3704550323) /* PCAPRecordedObjectIID */;
+VALUES (11465, 8000, 0xDCCEF3B3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11465, 0, 83893670, 83893699)

@@ -15,6 +15,9 @@ VALUES (24255,   1,       8192) /* ItemType - Writable */
      , (24255, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (24255, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (24255,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24255,  54,       1) /* UseRadius */;
 
@@ -23,13 +26,13 @@ VALUES (24255,   1, 'Note from a Scout') /* Name */
      , (24255,  16, 'A note left by one of the High Queen''s Scouts') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24255,   1,   33554773) /* Setup */
-     , (24255,   3,  536870932) /* SoundTable */
-     , (24255,   8,  100674328) /* Icon */
-     , (24255,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24255,   1, 0x02000155) /* Setup */
+     , (24255,   3, 0x20000014) /* SoundTable */
+     , (24255,   8, 0x06002B18) /* Icon */
+     , (24255,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24255, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (24255, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (24255, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24255, 8000, 2867497189) /* PCAPRecordedObjectIID */;
+VALUES (24255, 8000, 0xAAEA88E5) /* PCAPRecordedObjectIID */;

@@ -19,18 +19,18 @@ VALUES (24585,   1, 'The Healer''s Home') /* Name */
      , (24585,  16, 'We care to your needs. Bandages, Potions, and Healing Services.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24585,   1,   33555088) /* Setup */
-     , (24585,   8,  100668115) /* Icon */
+VALUES (24585,   1, 0x02000290) /* Setup */
+     , (24585,   8, 0x060012D3) /* Icon */
      , (24585, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (24585, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24585, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24585, 8040, 722599985, 145.477, 16.043, 48, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (24585, 8040, 0x2B120031, 145.477, 16.043, 48, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120031 [145.477000 16.043000 48.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24585, 8000, 1924210725) /* PCAPRecordedObjectIID */;
+VALUES (24585, 8000, 0x72B12025) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (24585, 0, 83891055, 83889901);

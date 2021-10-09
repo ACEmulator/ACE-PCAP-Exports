@@ -18,7 +18,7 @@ VALUES (38687,   1,         16) /* ItemType - Creature */
      , (38687, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38687, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38687, 188,          2) /* HeritageGroup - Gharundim */
-     , (38687, 281,          1) /* Faction1Bits */
+     , (38687, 281,          1) /* Faction1Bits - CelestialHand */
      , (38687, 287,       1001) /* SocietyRankCelhan */
      , (38687, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -38,27 +38,27 @@ VALUES (38687,   1, 'Farnor the Archmage') /* Name */
      , (38687, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38687,   1,   33554433) /* Setup */
-     , (38687,   2,  150994945) /* MotionTable */
-     , (38687,   3,  536870913) /* SoundTable */
-     , (38687,   6,   67108990) /* PaletteBase */
-     , (38687,   8,  100667446) /* Icon */
-     , (38687,   9,   83890485) /* EyesTexture */
-     , (38687,  10,   83890544) /* NoseTexture */
-     , (38687,  11,   83890608) /* MouthTexture */
-     , (38687,  15,   67117077) /* HairPalette */
-     , (38687,  16,   67110063) /* EyesPalette */
-     , (38687,  17,   67109555) /* SkinPalette */
+VALUES (38687,   1, 0x02000001) /* Setup */
+     , (38687,   2, 0x09000001) /* MotionTable */
+     , (38687,   3, 0x20000001) /* SoundTable */
+     , (38687,   6, 0x0400007E) /* PaletteBase */
+     , (38687,   8, 0x06001036) /* Icon */
+     , (38687,   9, 0x05001135) /* EyesTexture */
+     , (38687,  10, 0x05001170) /* NoseTexture */
+     , (38687,  11, 0x050011B0) /* MouthTexture */
+     , (38687,  15, 0x04002015) /* HairPalette */
+     , (38687,  16, 0x040004AF) /* EyesPalette */
+     , (38687,  17, 0x040002B3) /* SkinPalette */
      , (38687, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (38687, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (38687, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38687, 8040, 11993706, 136.725, -26.6064, -17.995, 0.9449509, 0, 0, -0.3272121) /* PCAPRecordedLocation */
+VALUES (38687, 8040, 0x00B7026A, 136.725, -26.6064, -17.995, 0.944951, 0, 0, -0.327212) /* PCAPRecordedLocation */
 /* @teleloc 0x00B7026A [136.725000 -26.606400 -17.995000] 0.944951 0.000000 0.000000 -0.327212 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38687, 8000, 1879797826) /* PCAPRecordedObjectIID */;
+VALUES (38687, 8000, 0x700B7042) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38687,   1, 150, 0, 0) /* Strength */
@@ -281,6 +281,10 @@ VALUES (38687, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) 
      , (38687, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (38687, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (38687, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
+     , (38687, 4,  5915, -1, 0, 0, False) /* Create Faran Creature Master Robe (5915) for Shop */
+     , (38687, 4,  5912, -1, 0, 0, False) /* Create Faran Item Master Robe (5912) for Shop */
+     , (38687, 4,  5906, -1, 0, 0, False) /* Create Faran Life Master Robe (5906) for Shop */
+     , (38687, 4,  5909, -1, 0, 0, False) /* Create Faran War Master Robe (5909) for Shop */
      , (38687, 4, 38723, -1, 0, 0, False) /* Create Celestial Hand Stronghold Portal Gem (38723) for Shop */
      , (38687, 4,  8973, -1, 0, 0, False) /* Create Al-Arqas Portal Gem (8973) for Shop */
      , (38687, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */

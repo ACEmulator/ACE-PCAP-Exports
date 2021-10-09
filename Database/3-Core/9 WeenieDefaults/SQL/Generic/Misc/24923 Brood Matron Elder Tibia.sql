@@ -14,20 +14,21 @@ VALUES (24923,   1,        128) /* ItemType - Misc */
      , (24923, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24923,  22, True ) /* Inscribable */;
+VALUES (24923,  22, True ) /* Inscribable */
+     , (24923,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24923,   1, 'Brood Matron Elder Tibia') /* Name */
      , (24923,  15, 'The tibia of a departed Olthoi Brood Matron Elder.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24923,   1,   33556593) /* Setup */
-     , (24923,   3,  536870932) /* SoundTable */
-     , (24923,   8,  100674519) /* Icon */
-     , (24923,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24923,   1, 0x02000871) /* Setup */
+     , (24923,   3, 0x20000014) /* SoundTable */
+     , (24923,   8, 0x06002BD7) /* Icon */
+     , (24923,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24923, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (24923, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24923, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24923, 8000, 3707793907) /* PCAPRecordedObjectIID */;
+VALUES (24923, 8000, 0xDD0071F3) /* PCAPRecordedObjectIID */;

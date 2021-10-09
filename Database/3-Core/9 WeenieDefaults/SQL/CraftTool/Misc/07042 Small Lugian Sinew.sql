@@ -25,21 +25,21 @@ VALUES (7042,   1, 'Small Lugian Sinew') /* Name */
      , (7042,  16, 'The sinew of a departed small Lugian.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7042,   1,   33554817) /* Setup */
-     , (7042,   3,  536870932) /* SoundTable */
-     , (7042,   6,   67111919) /* PaletteBase */
-     , (7042,   8,  100670683) /* Icon */
-     , (7042,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7042,   1, 0x02000181) /* Setup */
+     , (7042,   3, 0x20000014) /* SoundTable */
+     , (7042,   6, 0x04000BEF) /* PaletteBase */
+     , (7042,   8, 0x06001CDB) /* Icon */
+     , (7042,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7042, 8001,    2633744) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, TargetType, Burden */
      , (7042, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7042, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7042, 8040, 18809101, 30.24526, -23.95193, -0.002499998, -0.2719007, 0, 0, -0.9623253) /* PCAPRecordedLocation */
+VALUES (7042, 8040, 0x011F010D, 30.24526, -23.95193, -0.0025, -0.271901, 0, 0, -0.962325) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010D [30.245260 -23.951930 -0.002500] -0.271901 0.000000 0.000000 -0.962325 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7042, 8000, 3660311227) /* PCAPRecordedObjectIID */;
+VALUES (7042, 8000, 0xDA2BEABB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7042, 67111927, 0, 0);

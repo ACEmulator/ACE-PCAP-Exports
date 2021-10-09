@@ -36,18 +36,18 @@ VALUES (2424,   1, 'Gem') /* Name */
      , (2424,  16, 'Gem of Focus') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2424,   1,   33554809) /* Setup */
-     , (2424,   3,  536870932) /* SoundTable */
-     , (2424,   6,   67111919) /* PaletteBase */
-     , (2424,   8,  100674751) /* Icon */
-     , (2424,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2424,   1, 0x02000179) /* Setup */
+     , (2424,   3, 0x20000014) /* SoundTable */
+     , (2424,   6, 0x04000BEF) /* PaletteBase */
+     , (2424,   8, 0x06002CBF) /* Icon */
+     , (2424,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2424,  28,       1425) /* Spell - FocusSelf5 */
      , (2424, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
      , (2424, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2424, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2424, 8000, 3691146262) /* PCAPRecordedObjectIID */;
+VALUES (2424, 8000, 0xDC026C16) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2424, 67111923, 0, 0);

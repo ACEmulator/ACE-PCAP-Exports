@@ -34,21 +34,21 @@ VALUES (32055,   1, 'Blacksmith Bulidurg') /* Name */
      , (32055, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32055,   1,   33554490) /* Setup */
-     , (32055,   2,  150994953) /* MotionTable */
-     , (32055,   3,  536870959) /* SoundTable */
-     , (32055,   6,   67109310) /* PaletteBase */
-     , (32055,   8,  100667449) /* Icon */
+VALUES (32055,   1, 0x0200003A) /* Setup */
+     , (32055,   2, 0x09000009) /* MotionTable */
+     , (32055,   3, 0x2000002F) /* SoundTable */
+     , (32055,   6, 0x040001BE) /* PaletteBase */
+     , (32055,   8, 0x06001039) /* Icon */
      , (32055, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (32055, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (32055, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32055, 8040, 3387097107, 57.4449, 56.065, 14.0055, 0.7187523, 0, 0, -0.6952662) /* PCAPRecordedLocation */
+VALUES (32055, 8040, 0xC9E30013, 57.4449, 56.065, 14.0055, 0.718752, 0, 0, -0.695266) /* PCAPRecordedLocation */
 /* @teleloc 0xC9E30013 [57.444900 56.065000 14.005500] 0.718752 0.000000 0.000000 -0.695266 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32055, 8000, 2090741766) /* PCAPRecordedObjectIID */;
+VALUES (32055, 8000, 0x7C9E3006) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32055,   1,  80, 0, 0) /* Strength */

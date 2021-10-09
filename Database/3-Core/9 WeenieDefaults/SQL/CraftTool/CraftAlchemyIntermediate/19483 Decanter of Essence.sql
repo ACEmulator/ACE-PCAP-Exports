@@ -29,17 +29,17 @@ VALUES (19483,   1, 'Decanter of Essence') /* Name */
      , (19483,  20, 'Decanters of Essence') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19483,   1,   33555965) /* Setup */
-     , (19483,   3,  536870932) /* SoundTable */
-     , (19483,   6,   67111919) /* PaletteBase */
-     , (19483,   8,  100672970) /* Icon */
-     , (19483,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19483,   1, 0x020005FD) /* Setup */
+     , (19483,   3, 0x20000014) /* SoundTable */
+     , (19483,   6, 0x04000BEF) /* PaletteBase */
+     , (19483,   8, 0x060025CA) /* Icon */
+     , (19483,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19483, 8001,  271085585) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (19483, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (19483, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19483, 8000, 2982968651) /* PCAPRecordedObjectIID */;
+VALUES (19483, 8000, 0xB1CC7D4B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19483, 67111925, 0, 0);

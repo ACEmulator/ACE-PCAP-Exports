@@ -20,14 +20,14 @@ VALUES (2459,   1, 'Kumiss') /* Name */
      , (2459,  20, 'Cups of Kumiss') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2459,   1,   33556220) /* Setup */
-     , (2459,   3,  536870932) /* SoundTable */
-     , (2459,   8,  100667428) /* Icon */
-     , (2459,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2459,   1, 0x020006FC) /* Setup */
+     , (2459,   3, 0x20000014) /* SoundTable */
+     , (2459,   8, 0x06001024) /* Icon */
+     , (2459,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2459, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (2459, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (2459, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
      , (2459, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2459, 8000,       2459) /* PCAPRecordedObjectIID */;
+VALUES (2459, 8000, 0x0000099B) /* PCAPRecordedObjectIID */;

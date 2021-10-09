@@ -23,16 +23,16 @@ VALUES (1311,   1, 'North Glenden Prison') /* Name */
      , (1311, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1311,   1,   33555925) /* Setup */
-     , (1311,   2,  150994947) /* MotionTable */
-     , (1311,   8,  100667499) /* Icon */
+VALUES (1311,   1, 0x020005D5) /* Setup */
+     , (1311,   2, 0x09000003) /* MotionTable */
+     , (1311,   8, 0x0600106B) /* Icon */
      , (1311, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (1311, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1311, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1311, 8040, 31654149, 82.411, -36.9036, -30.063, 0.8550249, 0, 0, -0.5185869) /* PCAPRecordedLocation */
+VALUES (1311, 8040, 0x01E30105, 82.411, -36.9036, -30.063, 0.855025, 0, 0, -0.518587) /* PCAPRecordedLocation */
 /* @teleloc 0x01E30105 [82.411000 -36.903600 -30.063000] 0.855025 0.000000 0.000000 -0.518587 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1311, 8000, 1881026566) /* PCAPRecordedObjectIID */;
+VALUES (1311, 8000, 0x701E3006) /* PCAPRecordedObjectIID */;

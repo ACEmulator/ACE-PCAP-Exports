@@ -1,5 +1,5 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xEC7D;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EC7D000, 22682, 0xEC7D0008, 13.1925, 169.797, 11.937, 0.4593859, 0, 0, -0.8882368, False, '2019-02-10 00:00:00'); /* Tusker Honeycombs */
+VALUES (0x7EC7D000, 22682, 0xEC7D0008, 13.1925, 169.797, 11.937, 0.459386, 0, 0, -0.888237, False, '2019-02-10 00:00:00'); /* Tusker Honeycombs */
 /* @teleloc 0xEC7D0008 [13.192500 169.797000 11.937000] 0.459386 0.000000 0.000000 -0.888237 */

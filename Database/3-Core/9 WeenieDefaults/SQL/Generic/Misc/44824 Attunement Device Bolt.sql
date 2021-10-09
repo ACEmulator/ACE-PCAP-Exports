@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44824,   1, 'Attunement Device Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44824,   1,   33557679) /* Setup */
-     , (44824,   3,  536870932) /* SoundTable */
-     , (44824,   8,  100672954) /* Icon */
-     , (44824,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44824,   1, 0x02000CAF) /* Setup */
+     , (44824,   3, 0x20000014) /* SoundTable */
+     , (44824,   8, 0x060025BA) /* Icon */
+     , (44824,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44824, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (44824, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44824, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44824, 8040, 4133290484, 104.2788, 16.71919, 14.833, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (44824, 8040, 0xF65D01F4, 104.2788, 16.71919, 14.833, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xF65D01F4 [104.278800 16.719190 14.833000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44824, 8000, 2447345499) /* PCAPRecordedObjectIID */;
+VALUES (44824, 8000, 0x91DF875B) /* PCAPRecordedObjectIID */;

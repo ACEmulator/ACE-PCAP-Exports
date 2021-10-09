@@ -14,23 +14,24 @@ VALUES (45380,   1,       2048) /* ItemType - Gem */
      , (45380, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45380,  22, True ) /* Inscribable */;
+VALUES (45380,  22, True ) /* Inscribable */
+     , (45380,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45380,   1, 'Dirty Fighting Gem of Enlightenment') /* Name */
      , (45380,  14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to specialize the Dirty Fighting skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45380,   1,   33558088) /* Setup */
-     , (45380,   6,   67111919) /* PaletteBase */
-     , (45380,   8,  100673788) /* Icon */
-     , (45380,  50,  100692235) /* IconOverlay */
+VALUES (45380,   1, 0x02000E48) /* Setup */
+     , (45380,   6, 0x04000BEF) /* PaletteBase */
+     , (45380,   8, 0x060028FC) /* Icon */
+     , (45380,  50, 0x0600710B) /* IconOverlay */
      , (45380, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (45380, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45380, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45380, 8000, 3334902143) /* PCAPRecordedObjectIID */;
+VALUES (45380, 8000, 0xC6C6917F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45380, 67111923, 0, 0);

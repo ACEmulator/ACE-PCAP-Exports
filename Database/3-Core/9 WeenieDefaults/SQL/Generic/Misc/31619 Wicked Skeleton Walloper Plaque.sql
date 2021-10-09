@@ -16,6 +16,7 @@ VALUES (31619,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31619,  22, True ) /* Inscribable */
+     , (31619,  23, True ) /* DestroyOnSell */
      , (31619,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -23,19 +24,19 @@ VALUES (31619,   1, 'Wicked Skeleton Walloper Plaque') /* Name */
      , (31619,  15, 'The owner of this plaque is a verified "Wicked Skeleton Walloper"!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31619,   1,   33559570) /* Setup */
-     , (31619,   3,  536870932) /* SoundTable */
-     , (31619,   6,   67111919) /* PaletteBase */
-     , (31619,   8,  100669124) /* Icon */
-     , (31619,  22,  872415275) /* PhysicsEffectTable */
-     , (31619,  52,  100687683) /* IconUnderlay */
+VALUES (31619,   1, 0x02001412) /* Setup */
+     , (31619,   3, 0x20000014) /* SoundTable */
+     , (31619,   6, 0x04000BEF) /* PaletteBase */
+     , (31619,   8, 0x060016C4) /* Icon */
+     , (31619,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (31619,  52, 0x06005F43) /* IconUnderlay */
      , (31619, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (31619, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31619, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (31619, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31619, 8000, 3328739875) /* PCAPRecordedObjectIID */;
+VALUES (31619, 8000, 0xC6688A23) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31619, 67112924, 0, 0);

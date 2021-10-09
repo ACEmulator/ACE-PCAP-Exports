@@ -15,6 +15,9 @@ VALUES (25695,   1,       8192) /* ItemType - Writable */
      , (25695, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (25695, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (25695,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25695,  54,       1) /* UseRadius */;
 
@@ -23,17 +26,17 @@ VALUES (25695,   1, 'Untranslated Note') /* Name */
      , (25695,  16, 'A note written in Empyrean script. It appears to be Dericost in nature.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25695,   1,   33554773) /* Setup */
-     , (25695,   3,  536870932) /* SoundTable */
-     , (25695,   8,  100668176) /* Icon */
-     , (25695,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25695,   1, 0x02000155) /* Setup */
+     , (25695,   3, 0x20000014) /* SoundTable */
+     , (25695,   8, 0x06001310) /* Icon */
+     , (25695,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25695, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (25695, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (25695, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25695, 8040, 1565262089, 210.81, -9.26116, -29.921, 0.03894801, 0, 0, 0.9992412) /* PCAPRecordedLocation */
+VALUES (25695, 8040, 0x5D4C0109, 210.81, -9.26116, -29.921, 0.038948, 0, 0, 0.999241) /* PCAPRecordedLocation */
 /* @teleloc 0x5D4C0109 [210.810000 -9.261160 -29.921000] 0.038948 0.000000 0.000000 0.999241 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25695, 8000, 2622123469) /* PCAPRecordedObjectIID */;
+VALUES (25695, 8000, 0x9C4A6DCD) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (20473,   1, 'Scroll of Tusker''s Gift') /* Name */
 Increases damage the target takes from Bludgeoning by 185%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20473,   1,   33554826) /* Setup */
-     , (20473,   8,  100676952) /* Icon */
-     , (20473,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20473,   1, 0x0200018A) /* Setup */
+     , (20473,   8, 0x06003558) /* Icon */
+     , (20473,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20473,  28,       2166) /* Spell - BludgeonVulnerabilityOther7 */
      , (20473, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20473, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20473, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20473, 8000, 3698328485) /* PCAPRecordedObjectIID */;
+VALUES (20473, 8000, 0xDC7003A5) /* PCAPRecordedObjectIID */;

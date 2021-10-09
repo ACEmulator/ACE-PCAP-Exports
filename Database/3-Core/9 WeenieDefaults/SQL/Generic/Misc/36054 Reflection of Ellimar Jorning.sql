@@ -14,11 +14,11 @@ VALUES (36054,   1,        128) /* ItemType - Misc */
      , (36054,  98, 1485661245) /* CreationTimestamp */
      , (36054, 114,          1) /* Attuned - Attuned */
      , (36054, 267,        600) /* Lifespan */
-     , (36054, 268,        269) /* RemainingLifespan */
      , (36054, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36054,  22, True ) /* Inscribable */
+     , (36054,  23, True ) /* DestroyOnSell */
      , (36054,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -26,17 +26,17 @@ VALUES (36054,   1, 'Reflection of Ellimar Jorning') /* Name */
      , (36054,  16, 'In the heart of this gem, you perceive the image of Ellimar Jorning of Ayan Baqur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36054,   1,   33556769) /* Setup */
-     , (36054,   3,  536870932) /* SoundTable */
-     , (36054,   8,  100689641) /* Icon */
-     , (36054,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36054,   1, 0x02000921) /* Setup */
+     , (36054,   3, 0x20000014) /* SoundTable */
+     , (36054,   8, 0x060066E9) /* Icon */
+     , (36054,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36054, 8001,    2097296) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Burden */
      , (36054, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36054, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36054, 8040, 10682829, 226.7399, -139.2876, -12.001, -0.1348651, 0, 0, 0.990864) /* PCAPRecordedLocation */
+VALUES (36054, 8040, 0x00A301CD, 226.7399, -139.2876, -12.001, -0.134865, 0, 0, 0.990864) /* PCAPRecordedLocation */
 /* @teleloc 0x00A301CD [226.739900 -139.287600 -12.001000] -0.134865 0.000000 0.000000 0.990864 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36054, 8000, 3704779742) /* PCAPRecordedObjectIID */;
+VALUES (36054, 8000, 0xDCD273DE) /* PCAPRecordedObjectIID */;

@@ -26,23 +26,23 @@ VALUES (7980,   1, 'Venomous Grievver') /* Name */
      , (7980, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7980,   1,   33556698) /* Setup */
-     , (7980,   2,  150995098) /* MotionTable */
-     , (7980,   3,  536871009) /* SoundTable */
-     , (7980,   6,   67112927) /* PaletteBase */
-     , (7980,   8,  100670960) /* Icon */
-     , (7980,  22,  872415364) /* PhysicsEffectTable */
+VALUES (7980,   1, 0x020008DA) /* Setup */
+     , (7980,   2, 0x0900009A) /* MotionTable */
+     , (7980,   3, 0x20000061) /* SoundTable */
+     , (7980,   6, 0x04000FDF) /* PaletteBase */
+     , (7980,   8, 0x06001DF0) /* Icon */
+     , (7980,  22, 0x34000084) /* PhysicsEffectTable */
      , (7980,  30,         87) /* PhysicsScript - BreatheLightning */
      , (7980, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7980, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7980, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7980, 8040, 669909020, 87.32291, 76.33416, 7.9982, 0.9512344, 0, 0, -0.308469) /* PCAPRecordedLocation */
+VALUES (7980, 8040, 0x27EE001C, 87.32291, 76.33416, 7.9982, 0.951234, 0, 0, -0.308469) /* PCAPRecordedLocation */
 /* @teleloc 0x27EE001C [87.322910 76.334160 7.998200] 0.951234 0.000000 0.000000 -0.308469 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7980, 8000, 3688294905) /* PCAPRecordedObjectIID */;
+VALUES (7980, 8000, 0xDBD6E9F9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7980,   1, 190, 0, 0) /* Strength */

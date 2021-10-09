@@ -28,18 +28,18 @@ VALUES (53109,   1, 'Ancient Statue of the Viridian Rise') /* Name */
      , (53109, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53109,   1,   33558954) /* Setup */
-     , (53109,   2,  150995147) /* MotionTable */
-     , (53109,   3,  536871052) /* SoundTable */
-     , (53109,   8,  100688311) /* Icon */
-     , (53109,  22,  872415274) /* PhysicsEffectTable */
+VALUES (53109,   1, 0x020011AA) /* Setup */
+     , (53109,   2, 0x090000CB) /* MotionTable */
+     , (53109,   3, 0x2000008C) /* SoundTable */
+     , (53109,   8, 0x060061B7) /* Icon */
+     , (53109,  22, 0x3400002A) /* PhysicsEffectTable */
      , (53109, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (53109, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (53109, 8005,     104455) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53109, 8040, 3058237465, 91.8, 5.8, 116.1, -0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
+VALUES (53109, 8040, 0xB6490019, 91.8, 5.8, 116.1, -0.92388, 0, 0, -0.382684) /* PCAPRecordedLocation */
 /* @teleloc 0xB6490019 [91.800000 5.800000 116.100000] -0.923880 0.000000 0.000000 -0.382684 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53109, 8000, 3684773329) /* PCAPRecordedObjectIID */;
+VALUES (53109, 8000, 0xDBA12DD1) /* PCAPRecordedObjectIID */;

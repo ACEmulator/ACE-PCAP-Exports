@@ -23,13 +23,13 @@ VALUES (5038,   1, 'Hardunna''s Key') /* Name */
      , (5038,  16, 'Hardunna''s key to her family''s chest in the Holtburg Redoubt.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5038,   1,   33554784) /* Setup */
-     , (5038,   3,  536870932) /* SoundTable */
-     , (5038,   8,  100667485) /* Icon */
-     , (5038,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5038,   1, 0x02000160) /* Setup */
+     , (5038,   3, 0x20000014) /* SoundTable */
+     , (5038,   8, 0x0600105D) /* Icon */
+     , (5038,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5038, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (5038, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5038, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5038, 8000, 2149248877) /* PCAPRecordedObjectIID */;
+VALUES (5038, 8000, 0x801AEF6D) /* PCAPRecordedObjectIID */;

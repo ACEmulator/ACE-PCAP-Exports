@@ -10,6 +10,7 @@ VALUES (3749,   1,      32768) /* ItemType - Caster */
      , (3749,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (3749,  18,          1) /* UiEffects - Magical */
      , (3749,  19,       5700) /* Value */
+     , (3749,  46,        512) /* DefaultCombatStyle - Magic */
      , (3749,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3749,  94,         16) /* TargetType - Creature */
      , (3749, 106,        250) /* ItemSpellcraft */
@@ -34,11 +35,11 @@ VALUES (3749,   1, 'Wand of Black Fire') /* Name */
      , (3749,   8, 'Ripley') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3749,   1,   33558258) /* Setup */
-     , (3749,   3,  536870932) /* SoundTable */
-     , (3749,   6,   67111919) /* PaletteBase */
-     , (3749,   8,  100668800) /* Icon */
-     , (3749,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3749,   1, 0x02000EF2) /* Setup */
+     , (3749,   3, 0x20000014) /* SoundTable */
+     , (3749,   6, 0x04000BEF) /* PaletteBase */
+     , (3749,   8, 0x06001580) /* Icon */
+     , (3749,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3749,  28,        145) /* Spell - FlameVolley5 */
      , (3749,  37,         34) /* ItemSkillLimit - WarMagic */
      , (3749, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
@@ -46,7 +47,7 @@ VALUES (3749,   1,   33558258) /* Setup */
      , (3749, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3749, 8000, 3656750331) /* PCAPRecordedObjectIID */;
+VALUES (3749, 8000, 0xD9F594FB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3749,  1033,      2)  /* ColdProtectionSelf4 */

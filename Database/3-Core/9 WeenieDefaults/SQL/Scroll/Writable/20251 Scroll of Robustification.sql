@@ -24,13 +24,13 @@ VALUES (20251,   1, 'Scroll of Robustification') /* Name */
 Restores 100-200 points of the caster''s Stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20251,   1,   33554826) /* Setup */
-     , (20251,   8,  100676930) /* Icon */
-     , (20251,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20251,   1, 0x0200018A) /* Setup */
+     , (20251,   8, 0x06003542) /* Icon */
+     , (20251,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20251,  28,       2083) /* Spell - RevitalizeSelf7 */
      , (20251, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20251, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20251, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20251, 8000, 3677850925) /* PCAPRecordedObjectIID */;
+VALUES (20251, 8000, 0xDB378D2D) /* PCAPRecordedObjectIID */;

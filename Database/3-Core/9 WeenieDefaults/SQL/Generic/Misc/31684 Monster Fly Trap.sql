@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31684,   1, 'Monster Fly Trap') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31684,   1,   33559603) /* Setup */
-     , (31684,   3,  536870932) /* SoundTable */
-     , (31684,   8,  100687930) /* Icon */
-     , (31684,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31684,   1, 0x02001433) /* Setup */
+     , (31684,   3, 0x20000014) /* SoundTable */
+     , (31684,   8, 0x0600603A) /* Icon */
+     , (31684,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31684, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (31684, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31684, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31684, 8000, 2949230668) /* PCAPRecordedObjectIID */;
+VALUES (31684, 8000, 0xAFC9B04C) /* PCAPRecordedObjectIID */;

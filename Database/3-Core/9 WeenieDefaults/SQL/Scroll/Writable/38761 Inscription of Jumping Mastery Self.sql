@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38761,   1, 'Inscription of Jumping Mastery Self') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38761,   1,   33554826) /* Setup */
-     , (38761,   8,  100676461) /* Icon */
-     , (38761,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38761,   1, 0x0200018A) /* Setup */
+     , (38761,   8, 0x0600336D) /* Icon */
+     , (38761,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38761,  28,       4572) /* Spell - JumpingMasterySelf8 */
      , (38761, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (38761, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38761, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38761, 8000, 3663814214) /* PCAPRecordedObjectIID */;
+VALUES (38761, 8000, 0xDA615E46) /* PCAPRecordedObjectIID */;

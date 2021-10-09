@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5037,   1, 'Tumerok Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5037,   1,   33554784) /* Setup */
-     , (5037,   3,  536870932) /* SoundTable */
-     , (5037,   8,  100667485) /* Icon */
-     , (5037,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5037,   1, 0x02000160) /* Setup */
+     , (5037,   3, 0x20000014) /* SoundTable */
+     , (5037,   8, 0x0600105D) /* Icon */
+     , (5037,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5037, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (5037, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5037, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5037, 8000, 3334905311) /* PCAPRecordedObjectIID */;
+VALUES (5037, 8000, 0xC6C69DDF) /* PCAPRecordedObjectIID */;

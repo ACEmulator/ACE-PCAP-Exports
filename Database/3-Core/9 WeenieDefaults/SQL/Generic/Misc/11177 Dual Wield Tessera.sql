@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11177,   1, 'Dual Wield Tessera') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11177,   1,   33557218) /* Setup */
-     , (11177,   3,  536870932) /* SoundTable */
-     , (11177,   8,  100692275) /* Icon */
-     , (11177,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11177,   1, 0x02000AE2) /* Setup */
+     , (11177,   3, 0x20000014) /* SoundTable */
+     , (11177,   8, 0x06007133) /* Icon */
+     , (11177,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11177, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (11177, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11177, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11177, 8000, 2943497939) /* PCAPRecordedObjectIID */;
+VALUES (11177, 8000, 0xAF7236D3) /* PCAPRecordedObjectIID */;

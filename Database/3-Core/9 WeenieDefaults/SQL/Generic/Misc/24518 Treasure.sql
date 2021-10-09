@@ -27,17 +27,17 @@ VALUES (24518,   1, 'Treasure') /* Name */
      , (24518,  15, 'A pile of gleaming treasure. You''re rich! You''re wealthy! You''re independent! You''re comfortably well off!') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24518,   1,   33558393) /* Setup */
-     , (24518,   3,  536870932) /* SoundTable */
-     , (24518,   8,  100674084) /* Icon */
-     , (24518,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24518,   1, 0x02000F79) /* Setup */
+     , (24518,   3, 0x20000014) /* SoundTable */
+     , (24518,   8, 0x06002A24) /* Icon */
+     , (24518,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24518, 8001, 2434794520) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, Burden, Workmanship, HookType, MaterialType */
      , (24518, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24518, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24518, 8040, 1631781120, 8.98536, -3.25759, -6, 0.995899, 0, 0, -0.090475) /* PCAPRecordedLocation */
+VALUES (24518, 8040, 0x61430100, 8.98536, -3.25759, -6, 0.995899, 0, 0, -0.090475) /* PCAPRecordedLocation */
 /* @teleloc 0x61430100 [8.985360 -3.257590 -6.000000] 0.995899 0.000000 0.000000 -0.090475 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24518, 8000, 3682469891) /* PCAPRecordedObjectIID */;
+VALUES (24518, 8000, 0xDB7E0803) /* PCAPRecordedObjectIID */;

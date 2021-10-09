@@ -29,17 +29,17 @@ VALUES (29106,   1, 'Bobo''s Stout') /* Name */
      , (29106,  20, 'Bottles of Bobo''s Stout') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29106,   1,   33559128) /* Setup */
-     , (29106,   3,  536870932) /* SoundTable */
-     , (29106,   8,  100686437) /* Icon */
-     , (29106,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29106,   1, 0x02001258) /* Setup */
+     , (29106,   3, 0x20000014) /* SoundTable */
+     , (29106,   8, 0x06005A65) /* Icon */
+     , (29106,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29106,  28,       3531) /* Spell - BobosBlessingCoord */
-     , (29106,  50,  100687554) /* IconOverlay */
-     , (29106,  52,  100687547) /* IconUnderlay */
+     , (29106,  50, 0x06005EC2) /* IconOverlay */
+     , (29106,  52, 0x06005EBB) /* IconUnderlay */
      , (29106, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */
      , (29106, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (29106, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (29106, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29106, 8000, 3041952331) /* PCAPRecordedObjectIID */;
+VALUES (29106, 8000, 0xB550824B) /* PCAPRecordedObjectIID */;

@@ -9,35 +9,14 @@ VALUES (39778,   1,         16) /* ItemType - Creature */
      , (39778,   7,         -1) /* ContainersCapacity */
      , (39778,  16,         32) /* ItemUseable - Remote */
      , (39778,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
-     , (39778, 307,          0) /* DamageRating */
-     , (39778, 308,          0) /* DamageResistRating */
-     , (39778, 313,          0) /* CritRating */
-     , (39778, 314,          0) /* CritDamageRating */
-     , (39778, 315,          0) /* CritResistRating */
-     , (39778, 316,          0) /* CritDamageResistRating */
-     , (39778, 370,          0) /* GearDamage */
-     , (39778, 371,          0) /* GearDamageResist */
-     , (39778, 372,          0) /* GearCrit */
-     , (39778, 373,          0) /* GearCritResist */
-     , (39778, 374,          0) /* GearCritDamage */
-     , (39778, 375,          0) /* GearCritDamageResist */
-     , (39778, 376,          0) /* GearHealingBoost */
-     , (39778, 377,          0) /* GearNetherResist */
-     , (39778, 378,          0) /* GearLifeResist */
-     , (39778, 379,          0) /* GearMaxHealth */
-     , (39778, 381,          0) /* PKDamageRating */
-     , (39778, 382,          0) /* PKDamageResistRating */
-     , (39778, 383,          0) /* GearPKDamageRating */
-     , (39778, 384,          0) /* GearPKDamageResistRating */
-     , (39778, 386,          0) /* Overpower */
-     , (39778, 387,          0) /* OverpowerResist */
-     , (39778, 388,          0) /* GearOverpower */
-     , (39778, 389,          0) /* GearOverpowerResist */
      , (39778, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39778,   1, True ) /* Stuck */
-     , (39778,  19, False) /* Attackable */;
+     , (39778,  19, False) /* Attackable */
+     , (39778,  52, True ) /* AiImmobile */
+     , (39778,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (39778,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (39778,  54,       3) /* UseRadius */;
@@ -49,22 +28,22 @@ VALUES (39778,   1, 'Exploration Marker') /* Name */
      , (39778, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39778,   1,   33560703) /* Setup */
-     , (39778,   2,  150995429) /* MotionTable */
-     , (39778,   3,  536870932) /* SoundTable */
-     , (39778,   6,   67113133) /* PaletteBase */
-     , (39778,   8,  100671368) /* Icon */
-     , (39778,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39778,   1, 0x0200187F) /* Setup */
+     , (39778,   2, 0x090001E5) /* MotionTable */
+     , (39778,   3, 0x20000014) /* SoundTable */
+     , (39778,   6, 0x040010AD) /* PaletteBase */
+     , (39778,   8, 0x06001F88) /* Icon */
+     , (39778,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39778, 8001,         54) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius */
      , (39778, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (39778, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39778, 8040, 3846307883, 120.844, 59.8352, 62, -0.68984, 0, 0, 0.723962) /* PCAPRecordedLocation */
+VALUES (39778, 8040, 0xE542002B, 120.844, 59.8352, 62, -0.68984, 0, 0, 0.723962) /* PCAPRecordedLocation */
 /* @teleloc 0xE542002B [120.844000 59.835200 62.000000] -0.689840 0.000000 0.000000 0.723962 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39778, 8000, 3710776540) /* PCAPRecordedObjectIID */;
+VALUES (39778, 8000, 0xDD2DF4DC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39778, 67111092, 0, 0);

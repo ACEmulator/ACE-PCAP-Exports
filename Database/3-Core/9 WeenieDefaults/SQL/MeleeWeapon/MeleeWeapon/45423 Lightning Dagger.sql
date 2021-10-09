@@ -53,20 +53,20 @@ VALUES (45423,   1, 'Lightning Dagger') /* Name */
      , (45423,  16, 'Lightning Dagger of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45423,   1,   33555707) /* Setup */
-     , (45423,   3,  536870932) /* SoundTable */
-     , (45423,   8,  100668875) /* Icon */
-     , (45423,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45423,   1, 0x020004FB) /* Setup */
+     , (45423,   3, 0x20000014) /* SoundTable */
+     , (45423,   8, 0x060015CB) /* Icon */
+     , (45423,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45423,  37,         45) /* ItemSkillLimit - LightWeapons */
-     , (45423,  52,  100676439) /* IconUnderlay */
+     , (45423,  52, 0x06003357) /* IconUnderlay */
      , (45423, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45423, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45423, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45423, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45423, 8000, 2174502196) /* PCAPRecordedObjectIID */;
+VALUES (45423, 8000, 0x819C4534) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45423,  1591,      2)  /* HeartSeekerSelf5 */
-     , (45423,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (45423,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (45423,  1591,      2)  /* HeartSeekerSelf5 */;

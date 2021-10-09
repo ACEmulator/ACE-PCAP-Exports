@@ -40,17 +40,17 @@ VALUES (40709,   1, 'Covenant Girth') /* Name */
      , (40709,  16, 'Covenant Girth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40709,   1,   33554647) /* Setup */
-     , (40709,   3,  536870932) /* SoundTable */
-     , (40709,   6,   67108990) /* PaletteBase */
-     , (40709,   8,  100673400) /* Icon */
-     , (40709,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40709,   1, 0x020000D7) /* Setup */
+     , (40709,   3, 0x20000014) /* SoundTable */
+     , (40709,   6, 0x0400007E) /* PaletteBase */
+     , (40709,   8, 0x06002778) /* Icon */
+     , (40709,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40709, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40709, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40709, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40709, 8000, 3690726104) /* PCAPRecordedObjectIID */;
+VALUES (40709, 8000, 0xDBFC02D8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40709, 67113975, 80, 12);

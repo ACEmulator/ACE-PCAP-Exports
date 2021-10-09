@@ -46,25 +46,25 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6298,   1, 'Peerless Stinging Atlan Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6298,   1,   33556375) /* Setup */
-     , (6298,   3,  536870932) /* SoundTable */
-     , (6298,   6,   67111919) /* PaletteBase */
-     , (6298,   8,  100670574) /* Icon */
-     , (6298,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6298,   1, 0x02000797) /* Setup */
+     , (6298,   3, 0x20000014) /* SoundTable */
+     , (6298,   6, 0x04000BEF) /* PaletteBase */
+     , (6298,   8, 0x06001C6E) /* Icon */
+     , (6298,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6298, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (6298, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6298, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6298, 8000, 2490913630) /* PCAPRecordedObjectIID */;
+VALUES (6298, 8000, 0x9478535E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6298,   518,      2)  /* AcidProtectionSelf4 */
-     , (6298,  1376,      2)  /* CoordinationSelf4 */
-     , (6298,  1590,      2)  /* HeartSeekerSelf4 */
-     , (6298,  1603,      2)  /* DefenderSelf4 */
+VALUES (6298,  1603,      2)  /* DefenderSelf4 */
+     , (6298,   518,      2)  /* AcidProtectionSelf4 */
      , (6298,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (6298,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (6298,  1625,      2)  /* SwiftKillerSelf4 */
+     , (6298,  1376,      2)  /* CoordinationSelf4 */
+     , (6298,  1590,      2)  /* HeartSeekerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6298, 67111923, 0, 0);

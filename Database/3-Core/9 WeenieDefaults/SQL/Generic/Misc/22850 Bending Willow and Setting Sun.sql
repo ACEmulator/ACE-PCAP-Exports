@@ -20,13 +20,13 @@ VALUES (22850,   1, 'Bending Willow and Setting Sun') /* Name */
      , (22850,  15, 'This item can be used on wall hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22850,   1,   33558152) /* Setup */
-     , (22850,   3,  536870932) /* SoundTable */
-     , (22850,   8,  100673917) /* Icon */
-     , (22850,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22850,   1, 0x02000E88) /* Setup */
+     , (22850,   3, 0x20000014) /* SoundTable */
+     , (22850,   8, 0x0600297D) /* Icon */
+     , (22850,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22850, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (22850, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22850, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22850, 8000, 2148135148) /* PCAPRecordedObjectIID */;
+VALUES (22850, 8000, 0x8009F0EC) /* PCAPRecordedObjectIID */;

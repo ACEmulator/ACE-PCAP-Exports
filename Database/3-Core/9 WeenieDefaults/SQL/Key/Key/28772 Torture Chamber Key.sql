@@ -23,13 +23,13 @@ VALUES (28772,   1, 'Torture Chamber Key') /* Name */
      , (28772,  16, 'Use this key to open Torture Chamber Door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28772,   1,   33559158) /* Setup */
-     , (28772,   3,  536870932) /* SoundTable */
-     , (28772,   8,  100686382) /* Icon */
-     , (28772,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28772,   1, 0x02001276) /* Setup */
+     , (28772,   3, 0x20000014) /* SoundTable */
+     , (28772,   8, 0x06005A2E) /* Icon */
+     , (28772,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28772, 8001,  271076368) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden, HookType */
      , (28772, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28772, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28772, 8000, 2981045153) /* PCAPRecordedObjectIID */;
+VALUES (28772, 8000, 0xB1AF23A1) /* PCAPRecordedObjectIID */;

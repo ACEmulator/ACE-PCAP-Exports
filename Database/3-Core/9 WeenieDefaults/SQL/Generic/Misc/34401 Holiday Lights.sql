@@ -24,13 +24,13 @@ VALUES (34401,   1, 'Holiday Lights') /* Name */
      , (34401,  15, 'A string of small reflective baubles shining with colored light.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34401,   1,   33560159) /* Setup */
-     , (34401,   3,  536870932) /* SoundTable */
-     , (34401,   8,  100673908) /* Icon */
-     , (34401,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34401,   1, 0x0200165F) /* Setup */
+     , (34401,   3, 0x20000014) /* SoundTable */
+     , (34401,   8, 0x06002974) /* Icon */
+     , (34401,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34401, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (34401, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34401, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34401, 8000, 2192312345) /* PCAPRecordedObjectIID */;
+VALUES (34401, 8000, 0x82AC0819) /* PCAPRecordedObjectIID */;

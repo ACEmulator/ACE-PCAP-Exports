@@ -28,13 +28,13 @@ VALUES (38920,   1, 'Reinforced Mana Forge Key') /* Name */
      , (38920,  16, 'A crystalline key that coruscates with purple energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38920,   1,   33554784) /* Setup */
-     , (38920,   3,  536870932) /* SoundTable */
-     , (38920,   8,  100686710) /* Icon */
-     , (38920,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38920,   1, 0x02000160) /* Setup */
+     , (38920,   3, 0x20000014) /* SoundTable */
+     , (38920,   8, 0x06005B76) /* Icon */
+     , (38920,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38920, 8001,    2641048) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden */
      , (38920, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38920, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38920, 8000, 3711354861) /* PCAPRecordedObjectIID */;
+VALUES (38920, 8000, 0xDD36C7ED) /* PCAPRecordedObjectIID */;

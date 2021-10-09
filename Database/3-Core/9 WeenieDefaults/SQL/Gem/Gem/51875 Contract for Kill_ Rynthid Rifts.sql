@@ -32,14 +32,14 @@ VALUES (51875,   1, 'Contract for Kill: Rynthid Rifts') /* Name */
      , (51875,  16, 'Kill 10 Rynthid Rifts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51875,   1,   33554773) /* Setup */
-     , (51875,   3,  536870932) /* SoundTable */
-     , (51875,   8,  100691928) /* Icon */
-     , (51875,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51875,   1, 0x02000155) /* Setup */
+     , (51875,   3, 0x20000014) /* SoundTable */
+     , (51875,   8, 0x06006FD8) /* Icon */
+     , (51875,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51875, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (51875, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (51875, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (51875, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51875, 8000, 3695289433) /* PCAPRecordedObjectIID */;
+VALUES (51875, 8000, 0xDC41A459) /* PCAPRecordedObjectIID */;

@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33727,   1, 'Whirling Blade') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33727,   1,   33560046) /* Setup */
-     , (33727,   3,  536870972) /* SoundTable */
-     , (33727,   8,  100667494) /* Icon */
+VALUES (33727,   1, 0x020015EE) /* Setup */
+     , (33727,   3, 0x2000003C) /* SoundTable */
+     , (33727,   8, 0x06001066) /* Icon */
      , (33727,  28,         92) /* Spell - WhirlingBlade1 */
      , (33727, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (33727, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (33727, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33727, 8040, 15074337, 192.9111, -36.94831, 1.216295, 0.9852821, 0, 0, -0.1709365) /* PCAPRecordedLocation */
+VALUES (33727, 8040, 0x00E60421, 192.9111, -36.94831, 1.216295, 0.985282, 0, 0, -0.170937) /* PCAPRecordedLocation */
 /* @teleloc 0x00E60421 [192.911100 -36.948310 1.216295] 0.985282 0.000000 0.000000 -0.170937 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33727, 8000, 3332585233) /* PCAPRecordedObjectIID */;
+VALUES (33727, 8000, 0xC6A33711) /* PCAPRecordedObjectIID */;

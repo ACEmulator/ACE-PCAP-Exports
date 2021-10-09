@@ -20,7 +20,8 @@ VALUES (32651,   1,       2048) /* ItemType - Gem */
      , (32651, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32651,  22, True ) /* Inscribable */;
+VALUES (32651,  22, True ) /* Inscribable */
+     , (32651,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32651,   1, 'Shadowfire Stone') /* Name */
@@ -28,13 +29,13 @@ VALUES (32651,   1, 'Shadowfire Stone') /* Name */
      , (32651,  16, 'A fragile black crystal enshrouded in blue flame. It looks like it can be fitted into any Perfect Isparian Weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32651,   1,   33559809) /* Setup */
-     , (32651,   3,  536870932) /* SoundTable */
-     , (32651,   8,  100688585) /* Icon */
-     , (32651,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32651,   1, 0x02001501) /* Setup */
+     , (32651,   3, 0x20000014) /* SoundTable */
+     , (32651,   8, 0x060062C9) /* Icon */
+     , (32651,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32651, 8001,    2650264) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (32651, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32651, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32651, 8000, 2533997337) /* PCAPRecordedObjectIID */;
+VALUES (32651, 8000, 0x9709BB19) /* PCAPRecordedObjectIID */;

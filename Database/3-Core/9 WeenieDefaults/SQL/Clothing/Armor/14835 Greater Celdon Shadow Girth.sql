@@ -35,21 +35,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14835,   1, 'Greater Celdon Shadow Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14835,   1,   33554647) /* Setup */
-     , (14835,   3,  536870932) /* SoundTable */
-     , (14835,   6,   67108990) /* PaletteBase */
-     , (14835,   8,  100670411) /* Icon */
-     , (14835,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14835,   1, 0x020000D7) /* Setup */
+     , (14835,   3, 0x20000014) /* SoundTable */
+     , (14835,   6, 0x0400007E) /* PaletteBase */
+     , (14835,   8, 0x06001BCB) /* Icon */
+     , (14835,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14835, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (14835, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14835, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14835, 8040, 23855548, 53.80782, -34.5222, 0, 0.613602, 0, 0, -0.7896155) /* PCAPRecordedLocation */
+VALUES (14835, 8040, 0x016C01BC, 53.80782, -34.5222, 0, 0.613602, 0, 0, -0.789616) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [53.807820 -34.522200 0.000000] 0.613602 0.000000 0.000000 -0.789616 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14835, 8000, 2816471036) /* PCAPRecordedObjectIID */;
+VALUES (14835, 8000, 0xA7DFEFFC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14835, 67110025, 72, 8)

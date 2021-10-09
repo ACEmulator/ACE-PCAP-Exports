@@ -29,18 +29,18 @@ VALUES (3933,   1, 'Dull Gem') /* Name */
      , (3933,  16, 'Dull Gem of Endurance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3933,   1,   33554809) /* Setup */
-     , (3933,   3,  536870932) /* SoundTable */
-     , (3933,   6,   67111919) /* PaletteBase */
-     , (3933,   8,  100668359) /* Icon */
-     , (3933,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3933,   1, 0x02000179) /* Setup */
+     , (3933,   3, 0x20000014) /* SoundTable */
+     , (3933,   6, 0x04000BEF) /* PaletteBase */
+     , (3933,   8, 0x060013C7) /* Icon */
+     , (3933,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3933,  28,       1357) /* Spell - EnduranceOther3 */
      , (3933, 8001,    6320280) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell */
      , (3933, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3933, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3933, 8000, 2164337481) /* PCAPRecordedObjectIID */;
+VALUES (3933, 8000, 0x81012B49) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3933, 67111927, 0, 0);

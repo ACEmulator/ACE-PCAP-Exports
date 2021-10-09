@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33827,   1, 'Old Footlocker Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33827,   1,   33554784) /* Setup */
-     , (33827,   8,  100668441) /* Icon */
-     , (33827,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33827,   1, 0x02000160) /* Setup */
+     , (33827,   8, 0x06001419) /* Icon */
+     , (33827,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33827, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (33827, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33827, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33827, 8000, 2147601357) /* PCAPRecordedObjectIID */;
+VALUES (33827, 8000, 0x8001CBCD) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (5547,   1, 'Scroll of Monster Attunement Self VI') /* Name */
 Increases the caster''s Assess Monster skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5547,   1,   33554826) /* Setup */
-     , (5547,   8,  100676448) /* Icon */
-     , (5547,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5547,   1, 0x0200018A) /* Setup */
+     , (5547,   8, 0x06003360) /* Icon */
+     , (5547,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5547,  28,        803) /* Spell - MonsterAttunementSelf6 */
      , (5547, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5547, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5547, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5547, 8000, 3698461812) /* PCAPRecordedObjectIID */;
+VALUES (5547, 8000, 0xDC720C74) /* PCAPRecordedObjectIID */;

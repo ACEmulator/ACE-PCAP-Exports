@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41388,   1, 'Pyreal Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41388,   1,   33560887) /* Setup */
-     , (41388,   3,  536870932) /* SoundTable */
-     , (41388,   6,   67116700) /* PaletteBase */
-     , (41388,   8,  100690716) /* Icon */
-     , (41388,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41388,   1, 0x02001937) /* Setup */
+     , (41388,   3, 0x20000014) /* SoundTable */
+     , (41388,   6, 0x04001E9C) /* PaletteBase */
+     , (41388,   8, 0x06006B1C) /* Icon */
+     , (41388,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41388, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (41388, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41388, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41388, 8000, 2885112750) /* PCAPRecordedObjectIID */;
+VALUES (41388, 8000, 0xABF753AE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41388, 67116700, 1, 100)

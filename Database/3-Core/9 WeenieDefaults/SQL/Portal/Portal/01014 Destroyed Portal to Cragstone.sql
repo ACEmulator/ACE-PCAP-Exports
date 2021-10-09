@@ -22,16 +22,16 @@ VALUES (1014,   1, 'Destroyed Portal to Cragstone') /* Name */
      , (1014, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1014,   1,   33561060) /* Setup */
-     , (1014,   2,  150995314) /* MotionTable */
-     , (1014,   8,  100667499) /* Icon */
+VALUES (1014,   1, 0x020019E4) /* Setup */
+     , (1014,   2, 0x09000172) /* MotionTable */
+     , (1014,   8, 0x0600106B) /* Icon */
      , (1014, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (1014, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1014, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1014, 8040, 29950240, 110, -174.75, -72.20983, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (1014, 8040, 0x01C90120, 110, -174.75, -72.20983, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01C90120 [110.000000 -174.750000 -72.209830] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1014, 8000, 1880920074) /* PCAPRecordedObjectIID */;
+VALUES (1014, 8000, 0x701C900A) /* PCAPRecordedObjectIID */;

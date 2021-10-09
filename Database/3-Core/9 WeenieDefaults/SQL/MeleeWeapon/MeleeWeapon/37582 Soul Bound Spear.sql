@@ -24,18 +24,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37582,   1, 'Soul Bound Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37582,   1,   33560574) /* Setup */
-     , (37582,   3,  536870932) /* SoundTable */
-     , (37582,   8,  100673208) /* Icon */
-     , (37582,  22,  872415275) /* PhysicsEffectTable */
-     , (37582,  52,  100689896) /* IconUnderlay */
+VALUES (37582,   1, 0x020017FE) /* Setup */
+     , (37582,   3, 0x20000014) /* SoundTable */
+     , (37582,   8, 0x060026B8) /* Icon */
+     , (37582,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37582,  52, 0x060067E8) /* IconUnderlay */
      , (37582, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (37582, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (37582, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (37582, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37582, 8000, 2915625730) /* PCAPRecordedObjectIID */;
+VALUES (37582, 8000, 0xADC8EB02) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (37582, 0, 83889235, 83892492)

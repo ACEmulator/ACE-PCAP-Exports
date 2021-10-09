@@ -25,23 +25,23 @@ VALUES (51724,   1, 'Discorporate Rynthid of Blind Rage') /* Name */
      , (51724, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51724,   1,   33561550) /* Setup */
-     , (51724,   2,  150995487) /* MotionTable */
-     , (51724,   3,  536870930) /* SoundTable */
-     , (51724,   6,   67111346) /* PaletteBase */
-     , (51724,   8,  100667943) /* Icon */
-     , (51724,  22,  872415443) /* PhysicsEffectTable */
+VALUES (51724,   1, 0x02001BCE) /* Setup */
+     , (51724,   2, 0x0900021F) /* MotionTable */
+     , (51724,   3, 0x20000012) /* SoundTable */
+     , (51724,   6, 0x040009B2) /* PaletteBase */
+     , (51724,   8, 0x06001227) /* Icon */
+     , (51724,  22, 0x340000D3) /* PhysicsEffectTable */
      , (51724,  30,         84) /* PhysicsScript - BreatheFlame */
      , (51724, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51724, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (51724, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51724, 8040, 758186021, 111.819, 110.2934, 132.029, -0.6344998, 0, 0, -0.772923) /* PCAPRecordedLocation */
+VALUES (51724, 8040, 0x2D310025, 111.819, 110.2934, 132.029, -0.6345, 0, 0, -0.772923) /* PCAPRecordedLocation */
 /* @teleloc 0x2D310025 [111.819000 110.293400 132.029000] -0.634500 0.000000 0.000000 -0.772923 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51724, 8000, 3707494715) /* PCAPRecordedObjectIID */;
+VALUES (51724, 8000, 0xDCFBE13B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (51724,   1,     0, 0, 0, 100) /* MaxHealth */;

@@ -21,22 +21,22 @@ VALUES (8814,   1, 'Asheron''s Second Missive') /* Name */
      , (8814,  16, 'A book made of fine vellum and bound in leather, written by the hand of Asheron.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8814,   1,   33556929) /* Setup */
-     , (8814,   3,  536870932) /* SoundTable */
-     , (8814,   8,  100671238) /* Icon */
-     , (8814,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8814,   1, 0x020009C1) /* Setup */
+     , (8814,   3, 0x20000014) /* SoundTable */
+     , (8814,   8, 0x06001F06) /* Icon */
+     , (8814,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8814, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (8814, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (8814, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8814, 8000, 2917776962) /* PCAPRecordedObjectIID */;
+VALUES (8814, 8000, 0xADE9BE42) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8814, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (8814, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'I am pleased to say that the defeat of Bael''Zharon has been accomplished.
+VALUES (8814, 0, 4294967295, '', 'prewritten', False, 'I am pleased to say that the defeat of Bael''Zharon has been accomplished.
 
 He has been driven off, though not destroyed. It would require powers far beyond ours to do such a thing. Such powers have not walked the world since the age of my people''s legends.
 

@@ -19,18 +19,18 @@ VALUES (639,   1, 'Chirurgeon') /* Name */
      , (639,  16, 'Chirurgeon') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (639,   1,   33555088) /* Setup */
-     , (639,   8,  100668115) /* Icon */
+VALUES (639,   1, 0x02000290) /* Setup */
+     , (639,   8, 0x060012D3) /* Icon */
      , (639, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (639, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (639, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (639, 8040, 3465871401, 133.173, 11.5176, 20, -0.385101, 0, 0, 0.922875) /* PCAPRecordedLocation */
+VALUES (639, 8040, 0xCE950029, 133.173, 11.5176, 20, -0.385101, 0, 0, 0.922875) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950029 [133.173000 11.517600 20.000000] -0.385101 0.000000 0.000000 0.922875 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (639, 8000, 2095665192) /* PCAPRecordedObjectIID */;
+VALUES (639, 8000, 0x7CE95028) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (639, 0, 83891055, 83889901);

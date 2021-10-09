@@ -15,13 +15,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31368,   1, 'Farmer Kao''s Shovel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31368,   1,   33559599) /* Setup */
-     , (31368,   3,  536870932) /* SoundTable */
-     , (31368,   8,  100687907) /* Icon */
-     , (31368,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31368,   1, 0x0200142F) /* Setup */
+     , (31368,   3, 0x20000014) /* SoundTable */
+     , (31368,   8, 0x06006023) /* Icon */
+     , (31368,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31368, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (31368, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31368, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31368, 8000, 2148384069) /* PCAPRecordedObjectIID */;
+VALUES (31368, 8000, 0x800DBD45) /* PCAPRecordedObjectIID */;

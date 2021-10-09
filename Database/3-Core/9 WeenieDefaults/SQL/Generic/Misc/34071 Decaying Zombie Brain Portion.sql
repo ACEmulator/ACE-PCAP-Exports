@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34071,   1, 'Decaying Zombie Brain Portion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34071,   1,   33554817) /* Setup */
-     , (34071,   3,  536870932) /* SoundTable */
-     , (34071,   8,  100686361) /* Icon */
-     , (34071,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34071,   1, 0x02000181) /* Setup */
+     , (34071,   3, 0x20000014) /* SoundTable */
+     , (34071,   8, 0x06005A19) /* Icon */
+     , (34071,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34071, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (34071, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34071, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34071, 8000, 2153283002) /* PCAPRecordedObjectIID */;
+VALUES (34071, 8000, 0x80587DBA) /* PCAPRecordedObjectIID */;

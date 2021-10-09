@@ -20,14 +20,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43633,   1, 'Acidic Rejuvenation') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43633,   1,   33556220) /* Setup */
-     , (43633,   3,  536870932) /* SoundTable */
-     , (43633,   8,  100691624) /* Icon */
-     , (43633,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43633,   1, 0x020006FC) /* Setup */
+     , (43633,   3, 0x20000014) /* SoundTable */
+     , (43633,   8, 0x06006EA8) /* Icon */
+     , (43633,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43633, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (43633, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (43633, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
      , (43633, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43633, 8000,      43633) /* PCAPRecordedObjectIID */;
+VALUES (43633, 8000, 0x0000AA71) /* PCAPRecordedObjectIID */;

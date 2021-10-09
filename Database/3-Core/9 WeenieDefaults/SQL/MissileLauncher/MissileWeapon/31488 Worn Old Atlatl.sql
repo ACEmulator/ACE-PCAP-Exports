@@ -11,7 +11,7 @@ VALUES (31488,   1,        256) /* ItemType - MissileWeapon */
      , (31488,  18,          1) /* UiEffects - Magical */
      , (31488,  19,       1500) /* Value */
      , (31488,  50,          4) /* AmmoType - Atlatl */
-     , (31488,  51,          2) /* CombatUse - Missle */
+     , (31488,  51,          2) /* CombatUse - Missile */
      , (31488,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31488, 151,          2) /* HookType - Wall */
      , (31488, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31488,   1, 'Worn Old Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31488,   1,   33559584) /* Setup */
-     , (31488,   3,  536870932) /* SoundTable */
-     , (31488,   8,  100687884) /* Icon */
-     , (31488,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31488,   1, 0x02001420) /* Setup */
+     , (31488,   3, 0x20000014) /* SoundTable */
+     , (31488,   8, 0x0600600C) /* Icon */
+     , (31488,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31488, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (31488, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31488, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31488, 8000, 2174514732) /* PCAPRecordedObjectIID */;
+VALUES (31488, 8000, 0x819C762C) /* PCAPRecordedObjectIID */;

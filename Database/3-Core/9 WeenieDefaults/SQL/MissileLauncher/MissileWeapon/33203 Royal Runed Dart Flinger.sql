@@ -14,7 +14,7 @@ VALUES (33203,   1,        256) /* ItemType - MissileWeapon */
      , (33203,  48,         47) /* WeaponSkill - MissileWeapons */
      , (33203,  49,         50) /* WeaponTime */
      , (33203,  50,          4) /* AmmoType - Atlatl */
-     , (33203,  51,          2) /* CombatUse - Missle */
+     , (33203,  51,          2) /* CombatUse - Missile */
      , (33203,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33203, 106,        450) /* ItemSpellcraft */
      , (33203, 107,       5783) /* ItemCurMana */
@@ -48,24 +48,24 @@ VALUES (33203,   1, 'Royal Runed Dart Flinger') /* Name */
      , (33203,  15, 'A dart flinger crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33203,   1,   33559927) /* Setup */
-     , (33203,   3,  536870932) /* SoundTable */
-     , (33203,   6,   67115555) /* PaletteBase */
-     , (33203,   8,  100687081) /* Icon */
-     , (33203,  22,  872415275) /* PhysicsEffectTable */
-     , (33203,  50,  100688914) /* IconOverlay */
+VALUES (33203,   1, 0x02001577) /* Setup */
+     , (33203,   3, 0x20000014) /* SoundTable */
+     , (33203,   6, 0x04001A23) /* PaletteBase */
+     , (33203,   8, 0x06005CE9) /* Icon */
+     , (33203,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33203,  50, 0x06006412) /* IconOverlay */
      , (33203,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (33203, 8001, 1344357144) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (33203, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33203, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33203, 8000, 2461813539) /* PCAPRecordedObjectIID */;
+VALUES (33203, 8000, 0x92BC4B23) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33203,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (33203,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33203,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33203,  2101,      2)  /* DefenderSelf7 */
-     , (33203,  2116,      2)  /* SwiftKillerSelf7 */
      , (33203,  2687,      2)  /* ModerateBowAptitude */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -28,17 +28,17 @@ VALUES (14760,   1, 'Ginger Bread Drudge') /* Name */
      , (14760,  20, 'Ginger Bread Drudges') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14760,   1,   33557500) /* Setup */
-     , (14760,   3,  536870932) /* SoundTable */
-     , (14760,   8,  100672536) /* Icon */
-     , (14760,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14760,   1, 0x02000BFC) /* Setup */
+     , (14760,   3, 0x20000014) /* SoundTable */
+     , (14760,   8, 0x06002418) /* Icon */
+     , (14760,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14760, 8001,  270544921) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden, HookType */
      , (14760, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (14760, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14760, 8040, 23855549, 52.85178, -42.71663, 0, 0.642212, 0, 0, -0.7665271) /* PCAPRecordedLocation */
+VALUES (14760, 8040, 0x016C01BD, 52.85178, -42.71663, 0, 0.642212, 0, 0, -0.766527) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [52.851780 -42.716630 0.000000] 0.642212 0.000000 0.000000 -0.766527 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14760, 8000, 2166341523) /* PCAPRecordedObjectIID */;
+VALUES (14760, 8000, 0x811FBF93) /* PCAPRecordedObjectIID */;

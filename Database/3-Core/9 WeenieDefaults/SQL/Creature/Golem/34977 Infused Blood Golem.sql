@@ -25,22 +25,22 @@ VALUES (34977,   1, 'Infused Blood Golem') /* Name */
      , (34977, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34977,   1,   33559543) /* Setup */
-     , (34977,   2,  150995073) /* MotionTable */
-     , (34977,   3,  536870933) /* SoundTable */
-     , (34977,   6,   67114905) /* PaletteBase */
-     , (34977,   8,  100667940) /* Icon */
-     , (34977,  22,  872415322) /* PhysicsEffectTable */
+VALUES (34977,   1, 0x020013F7) /* Setup */
+     , (34977,   2, 0x09000081) /* MotionTable */
+     , (34977,   3, 0x20000015) /* SoundTable */
+     , (34977,   6, 0x04001799) /* PaletteBase */
+     , (34977,   8, 0x06001224) /* Icon */
+     , (34977,  22, 0x3400005A) /* PhysicsEffectTable */
      , (34977, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (34977, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (34977, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34977, 8040, 13501411, 70, -60, 12.01, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34977, 8040, 0x00CE03E3, 70, -60, 12.01, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00CE03E3 [70.000000 -60.000000 12.010000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34977, 8000, 3708724348) /* PCAPRecordedObjectIID */;
+VALUES (34977, 8000, 0xDD0EA47C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34977,   1, 570, 0, 0) /* Strength */

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (356,   1,          1) /* ItemType - MeleeWeapon */
      , (356,   5,        600) /* EncumbranceVal */
      , (356,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (356,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (356,  16,          1) /* ItemUseable - No */
      , (356,  19,        130) /* Value */
      , (356,  44,         29) /* Damage */
@@ -54,11 +53,11 @@ VALUES (356,   1, 'Tofun') /* Name */
      , (356,  16, 'Tofun of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (356,   1,   33554746) /* Setup */
-     , (356,   3,  536870932) /* SoundTable */
-     , (356,   6,   67111919) /* PaletteBase */
-     , (356,   8,  100668956) /* Icon */
-     , (356,  22,  872415275) /* PhysicsEffectTable */
+VALUES (356,   1, 0x0200013A) /* Setup */
+     , (356,   3, 0x20000014) /* SoundTable */
+     , (356,   6, 0x04000BEF) /* PaletteBase */
+     , (356,   8, 0x0600161C) /* Icon */
+     , (356,  22, 0x3400002B) /* PhysicsEffectTable */
      , (356,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (356, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (356, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -66,12 +65,12 @@ VALUES (356,   1,   33554746) /* Setup */
      , (356, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (356, 8040, 3378184483, 104.9926, 67.42153, 11.929, -0.7044223, -0.7044223, -0.06155663, -0.06155663) /* PCAPRecordedLocation */
+VALUES (356, 8040, 0xC95B0123, 104.9926, 67.42153, 11.929, -0.704422, -0.704422, -0.061557, -0.061557) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B0123 [104.992600 67.421530 11.929000] -0.704422 -0.704422 -0.061557 -0.061557 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (356, 8000, 2155138120) /* PCAPRecordedObjectIID */
-     , (356, 8008, 2090184733) /* PCAPRecordedParentIID */;
+VALUES (356, 8000, 0x8074CC48) /* PCAPRecordedObjectIID */
+     , (356, 8008, 0x7C95B01D) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (356,  1603,      2)  /* DefenderSelf4 */

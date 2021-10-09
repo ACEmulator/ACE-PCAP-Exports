@@ -35,23 +35,20 @@ VALUES (2421,   1, 'Gem') /* Name */
      , (2421,  16, 'Gem of Cold Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2421,   1,   33554809) /* Setup */
-     , (2421,   3,  536870932) /* SoundTable */
-     , (2421,   6,   67111919) /* PaletteBase */
-     , (2421,   8,  100674736) /* Icon */
-     , (2421,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2421,   1, 0x02000179) /* Setup */
+     , (2421,   3, 0x20000014) /* SoundTable */
+     , (2421,   6, 0x04000BEF) /* PaletteBase */
+     , (2421,   8, 0x06002CB0) /* Icon */
+     , (2421,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2421, 8001, 2166386712) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, Workmanship, MaterialType */
      , (2421, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2421, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2421, 8000, 3688217350) /* PCAPRecordedObjectIID */;
+VALUES (2421, 8000, 0xDBD5BB06) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2421,  1034,      2)  /* ColdProtectionSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2421, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2421, 67111918, 0, 0);

@@ -26,23 +26,23 @@ VALUES (24453,   1, 'Olthoi Swarm Mutilator') /* Name */
      , (24453, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24453,   1,   33557161) /* Setup */
-     , (24453,   2,  150994946) /* MotionTable */
-     , (24453,   3,  536870925) /* SoundTable */
-     , (24453,   6,   67113236) /* PaletteBase */
-     , (24453,   8,  100667623) /* Icon */
-     , (24453,  22,  872415265) /* PhysicsEffectTable */
+VALUES (24453,   1, 0x02000AA9) /* Setup */
+     , (24453,   2, 0x09000002) /* MotionTable */
+     , (24453,   3, 0x2000000D) /* SoundTable */
+     , (24453,   6, 0x04001114) /* PaletteBase */
+     , (24453,   8, 0x060010E7) /* Icon */
+     , (24453,  22, 0x34000021) /* PhysicsEffectTable */
      , (24453,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24453, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24453, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24453, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24453, 8040, 758382646, 159.7145, 132.8653, 68.92789, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (24453, 8040, 0x2D340036, 159.7145, 132.8653, 68.92789, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2D340036 [159.714500 132.865300 68.927890] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24453, 8000, 3707815616) /* PCAPRecordedObjectIID */;
+VALUES (24453, 8000, 0xDD00C6C0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24453,   1, 340, 0, 0) /* Strength */
@@ -58,7 +58,8 @@ VALUES (24453,   1,   740, 0, 0, 910) /* MaxHealth */
      , (24453,   5,     0, 0, 0, 80) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24453, 9, 49248,  0, 0, 0, False) /* Create Fire Zombie Essence (80) (49248) for ContainTreasure */
+VALUES (24453, 2, 46715,  1, 0, 0, False) /* Create Rock (46715) for Wield */
+     , (24453, 9, 49248,  0, 0, 0, False) /* Create Fire Zombie Essence (80) (49248) for ContainTreasure */
      , (24453, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
      , (24453, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */
      , (24453, 9, 42754,  0, 0, 0, False) /* Create Haebrean Pauldrons (42754) for ContainTreasure */
@@ -195,7 +196,31 @@ VALUES (24453, 9, 49248,  0, 0, 0, False) /* Create Fire Zombie Essence (80) (49
      , (24453, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
      , (24453, 9, 49369,  0, 0, 0, False) /* Create Acid Grievver Essence (125) (49369) for ContainTreasure */
      , (24453, 9, 49299,  0, 0, 0, False) /* Create Fire K'nath Essence (125) (49299) for ContainTreasure */
-     , (24453, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */;
+     , (24453, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
+     , (24453, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
+     , (24453, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (24453, 9, 49476,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Self VII (49476) for ContainTreasure */
+     , (24453, 9, 42751,  0, 0, 0, False) /* Create Haebrean Girth (42751) for ContainTreasure */
+     , (24453, 9, 45119,  0, 0, 0, False) /* Create Acid Hand Wraps (45119) for ContainTreasure */
+     , (24453, 9, 20500,  0, 0, 0, False) /* Create Scroll of Aliester's Blessing (20500) for ContainTreasure */
+     , (24453, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
+     , (24453, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
+     , (24453, 9,   362,  0, 0, 0, False) /* Create Yari (362) for ContainTreasure */
+     , (24453, 9, 41059,  0, 0, 0, False) /* Create Lightning Great Star Mace (41059) for ContainTreasure */
+     , (24453, 9, 20461,  0, 0, 0, False) /* Create Scroll of Cameron's Curse (20461) for ContainTreasure */
+     , (24453, 9, 20506,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self VII (20506) for ContainTreasure */
+     , (24453, 9, 49354,  0, 0, 0, False) /* Create Fire Moar Essence (100) (49354) for ContainTreasure */
+     , (24453, 9, 43050,  0, 0, 0, False) /* Create Covenant Girth (43050) for ContainTreasure */
+     , (24453, 9, 20548,  0, 0, 0, False) /* Create Scroll of Gears Unwound (20548) for ContainTreasure */
+     , (24453, 9, 43336,  0, 0, 0, False) /* Create Scroll of Weakening Curse VII (43336) for ContainTreasure */
+     , (24453, 9, 45338,  0, 0, 0, False) /* Create Scroll of Sneak Attack Ineptitude Other VII (45338) for ContainTreasure */
+     , (24453, 9, 27231,  0, 0, 0, False) /* Create Nariyid Leggings (27231) for ContainTreasure */
+     , (24453, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
+     , (24453, 9, 43300,  0, 0, 0, False) /* Create Scroll of Nether Arc VII (43300) for ContainTreasure */
+     , (24453, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (24453, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */
+     , (24453, 9, 45115,  0, 0, 0, False) /* Create Lightning Hammer (45115) for ContainTreasure */
+     , (24453, 9, 28620,  0, 0, 0, False) /* Create Alduressa Leggings (28620) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24453, 67113314, 0, 0);

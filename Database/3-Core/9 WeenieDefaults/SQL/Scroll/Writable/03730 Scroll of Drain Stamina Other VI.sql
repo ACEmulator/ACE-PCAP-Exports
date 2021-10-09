@@ -24,13 +24,13 @@ VALUES (3730,   1, 'Scroll of Drain Stamina Other VI') /* Name */
 Drains 40% of the target''s Stamina and gives it to the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3730,   1,   33554826) /* Setup */
-     , (3730,   8,  100676933) /* Icon */
-     , (3730,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3730,   1, 0x0200018A) /* Setup */
+     , (3730,   8, 0x06003545) /* Icon */
+     , (3730,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3730,  28,       1254) /* Spell - DrainStamina6 */
      , (3730, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3730, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3730, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3730, 8000, 2980956977) /* PCAPRecordedObjectIID */;
+VALUES (3730, 8000, 0xB1ADCB31) /* PCAPRecordedObjectIID */;

@@ -33,17 +33,17 @@ VALUES (27112,   1, 'Elysa''s Band') /* Name */
      , (27112,  16, 'A vibrant ring given as a reward for finding out information of the new creatures that have come to Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27112,   1,   33554691) /* Setup */
-     , (27112,   3,  536870932) /* SoundTable */
-     , (27112,   6,   67111919) /* PaletteBase */
-     , (27112,   8,  100675931) /* Icon */
-     , (27112,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27112,   1, 0x02000103) /* Setup */
+     , (27112,   3, 0x20000014) /* SoundTable */
+     , (27112,   6, 0x04000BEF) /* PaletteBase */
+     , (27112,   8, 0x0600315B) /* Icon */
+     , (27112,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27112, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (27112, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27112, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27112, 8000, 2157927994) /* PCAPRecordedObjectIID */;
+VALUES (27112, 8000, 0x809F5E3A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27112,   242,      2)  /* InvulnerabilityOther4 */;

@@ -23,13 +23,13 @@ VALUES (1250,   1, 'Key') /* Name */
      , (1250,  16, 'This antique key unlocks a door in the Glenden Wood dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1250,   1,   33554784) /* Setup */
-     , (1250,   3,  536870932) /* SoundTable */
-     , (1250,   8,  100668440) /* Icon */
-     , (1250,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1250,   1, 0x02000160) /* Setup */
+     , (1250,   3, 0x20000014) /* SoundTable */
+     , (1250,   8, 0x06001418) /* Icon */
+     , (1250,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1250, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (1250, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1250, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1250, 8000, 3694813432) /* PCAPRecordedObjectIID */;
+VALUES (1250, 8000, 0xDC3A60F8) /* PCAPRecordedObjectIID */;

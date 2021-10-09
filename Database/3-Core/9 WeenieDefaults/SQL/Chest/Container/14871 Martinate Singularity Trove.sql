@@ -32,22 +32,22 @@ VALUES (14871,   1, 'Martinate Singularity Trove') /* Name */
      , (14871, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14871,   1,   33557001) /* Setup */
-     , (14871,   2,  150995121) /* MotionTable */
-     , (14871,   3,  536871023) /* SoundTable */
-     , (14871,   6,   67111346) /* PaletteBase */
-     , (14871,   8,  100672609) /* Icon */
-     , (14871,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14871,   1, 0x02000A09) /* Setup */
+     , (14871,   2, 0x090000B1) /* MotionTable */
+     , (14871,   3, 0x2000006F) /* SoundTable */
+     , (14871,   6, 0x040009B2) /* PaletteBase */
+     , (14871,   8, 0x06002461) /* Icon */
+     , (14871,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14871, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (14871, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14871, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14871, 8040, 1399521616, 117.398, -32.2486, -24.01, 0.714421, 0, 0, 0.699716) /* PCAPRecordedLocation */
+VALUES (14871, 8040, 0x536B0150, 117.398, -32.2486, -24.01, 0.714421, 0, 0, 0.699716) /* PCAPRecordedLocation */
 /* @teleloc 0x536B0150 [117.398000 -32.248600 -24.010000] 0.714421 0.000000 0.000000 0.699716 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14871, 8000, 1966518295) /* PCAPRecordedObjectIID */;
+VALUES (14871, 8000, 0x7536B017) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14871, -1, 31787, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Flaming Claw (31787) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

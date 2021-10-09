@@ -32,6 +32,7 @@ VALUES (40326,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40326,  22, True ) /* Inscribable */
+     , (40326,  23, True ) /* DestroyOnSell */
      , (40326,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,18 +51,18 @@ VALUES (40326,   1, 'Fist of Enlightenment') /* Name */
      , (40326,  16, 'An enchanted and highly elegant hand-to-hand weapon, blessed by the Master of the Tanada House of Fire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40326,   1,   33559499) /* Setup */
-     , (40326,   3,  536870932) /* SoundTable */
-     , (40326,   6,   67115556) /* PaletteBase */
-     , (40326,   8,  100687027) /* Icon */
-     , (40326,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40326,   1, 0x020013CB) /* Setup */
+     , (40326,   3, 0x20000014) /* SoundTable */
+     , (40326,   6, 0x04001A24) /* PaletteBase */
+     , (40326,   8, 0x06005CB3) /* Icon */
+     , (40326,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40326,  55,       4967) /* ProcSpell - cleansingring */
      , (40326, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (40326, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40326, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40326, 8000, 2967711581) /* PCAPRecordedObjectIID */;
+VALUES (40326, 8000, 0xB0E3AF5D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40326, 67116440, 0, 0);

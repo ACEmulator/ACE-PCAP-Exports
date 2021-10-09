@@ -51,23 +51,23 @@ VALUES (38488,   1, 'Radiant Blood Vambraces') /* Name */
      , (38488,  16, 'Radiant Blood Vambraces') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38488,   1,   33554641) /* Setup */
-     , (38488,   3,  536870932) /* SoundTable */
-     , (38488,   8,  100690222) /* Icon */
-     , (38488,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38488,   1, 0x020000D1) /* Setup */
+     , (38488,   3, 0x20000014) /* SoundTable */
+     , (38488,   8, 0x0600692E) /* Icon */
+     , (38488,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38488, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38488, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38488, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38488, 8000, 3667398058) /* PCAPRecordedObjectIID */;
+VALUES (38488, 8000, 0xDA980DAA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38488,  2098,      2)  /* BludgeonBane7 */
-     , (38488,  2108,      2)  /* Impenetrability7 */
-     , (38488,  4409,      2)  /* LightningBane8 */
+VALUES (38488,  6082,      2)  /* CantripFlameWard4 */
      , (38488,  6041,      2)  /* CantripArcaneProwess4 */
-     , (38488,  6082,      2)  /* CantripFlameWard4 */;
+     , (38488,  2098,      2)  /* BludgeonBane7 */
+     , (38488,  4409,      2)  /* LightningBane8 */
+     , (38488,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38488, 0, 83886788, 83897933);

@@ -26,21 +26,21 @@ VALUES (39862,   1, 'Trap Tower Creator') /* Name */
      , (39862, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39862,   1,   33560702) /* Setup */
-     , (39862,   2,  150995429) /* MotionTable */
-     , (39862,   3,  536870932) /* SoundTable */
-     , (39862,   8,  100689892) /* Icon */
-     , (39862,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39862,   1, 0x0200187E) /* Setup */
+     , (39862,   2, 0x090001E5) /* MotionTable */
+     , (39862,   3, 0x20000014) /* SoundTable */
+     , (39862,   8, 0x060067E4) /* Icon */
+     , (39862,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39862, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
      , (39862, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (39862, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39862, 8040, 15204657, 18.5, -27.2, 5.9874, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (39862, 8040, 0x00E80131, 18.5, -27.2, 5.9874, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00E80131 [18.500000 -27.200000 5.987400] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39862, 8000, 3359481114) /* PCAPRecordedObjectIID */;
+VALUES (39862, 8000, 0xC83D9D1A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (39862, 0, 83897985, 83897987)

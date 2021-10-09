@@ -45,13 +45,13 @@ VALUES (3755,   1, 'Lightning Hand Axe') /* Name */
      , (3755,  16, 'Lightning Hand Axe') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3755,   1,   33555703) /* Setup */
-     , (3755,   3,  536870932) /* SoundTable */
-     , (3755,   8,  100670216) /* Icon */
-     , (3755,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3755,   1, 0x020004F7) /* Setup */
+     , (3755,   3, 0x20000014) /* SoundTable */
+     , (3755,   8, 0x06001B08) /* Icon */
+     , (3755,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3755, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3755, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3755, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3755, 8000, 2995465547) /* PCAPRecordedObjectIID */;
+VALUES (3755, 8000, 0xB28B2D4B) /* PCAPRecordedObjectIID */;

@@ -18,15 +18,15 @@ VALUES (12600,   1, 'Eaves of Tiofor Settlement') /* Name */
      , (12600,  16, 'Welcome to Eaves of Tiofor Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12600,   1,   33557463) /* Setup */
-     , (12600,   8,  100668115) /* Icon */
+VALUES (12600,   1, 0x02000BD7) /* Setup */
+     , (12600,   8, 0x060012D3) /* Icon */
      , (12600, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (12600, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12600, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12600, 8040, 2527592481, 116.425, 17.9683, 32.59584, -0.991914, 0, 0, -0.126913) /* PCAPRecordedLocation */
+VALUES (12600, 8040, 0x96A80021, 116.425, 17.9683, 32.59584, -0.991914, 0, 0, -0.126913) /* PCAPRecordedLocation */
 /* @teleloc 0x96A80021 [116.425000 17.968300 32.595840] -0.991914 0.000000 0.000000 -0.126913 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12600, 8000, 2037022890) /* PCAPRecordedObjectIID */;
+VALUES (12600, 8000, 0x796A80AA) /* PCAPRecordedObjectIID */;

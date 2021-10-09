@@ -26,22 +26,22 @@ VALUES (7085,   1, 'Banderling Berserker') /* Name */
      , (7085, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7085,   1,   33558024) /* Setup */
-     , (7085,   2,  150994951) /* MotionTable */
-     , (7085,   3,  536870917) /* SoundTable */
-     , (7085,   6,   67114021) /* PaletteBase */
-     , (7085,   8,  100667453) /* Icon */
-     , (7085,  22,  872415255) /* PhysicsEffectTable */
+VALUES (7085,   1, 0x02000E08) /* Setup */
+     , (7085,   2, 0x09000007) /* MotionTable */
+     , (7085,   3, 0x20000005) /* SoundTable */
+     , (7085,   6, 0x04001425) /* PaletteBase */
+     , (7085,   8, 0x0600103D) /* Icon */
+     , (7085,  22, 0x34000017) /* PhysicsEffectTable */
      , (7085, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7085, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7085, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7085, 8040, 2360868875, 45.28922, 51.15432, 84.45895, 0.3987491, 0, 0, -0.9170601) /* PCAPRecordedLocation */
+VALUES (7085, 8040, 0x8CB8000B, 45.28922, 51.15432, 84.45895, 0.398749, 0, 0, -0.91706) /* PCAPRecordedLocation */
 /* @teleloc 0x8CB8000B [45.289220 51.154320 84.458950] 0.398749 0.000000 0.000000 -0.917060 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7085, 8000, 3685939077) /* PCAPRecordedObjectIID */;
+VALUES (7085, 8000, 0xDBB2F785) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7085,   1, 250, 0, 0) /* Strength */
@@ -302,7 +302,8 @@ VALUES (7085, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
      , (7085, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
      , (7085, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */
      , (7085, 9, 27236,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Other (27236) for ContainTreasure */
-     , (7085, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */;
+     , (7085, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
+     , (7085, 9, 30607,  0, 0, 0, False) /* Create Lightning Bastone (30607) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7085, 67114038, 0, 0);

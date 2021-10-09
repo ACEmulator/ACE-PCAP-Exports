@@ -24,13 +24,13 @@ VALUES (2749,   1, 'Scroll of Weakness Other IV') /* Name */
 Decreases the target''s Strength by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2749,   1,   33554826) /* Setup */
-     , (2749,   8,  100676474) /* Icon */
-     , (2749,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2749,   1, 0x0200018A) /* Setup */
+     , (2749,   8, 0x0600337A) /* Icon */
+     , (2749,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2749,  28,       1341) /* Spell - WeaknessOther4 */
      , (2749, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2749, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2749, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2749, 8000, 3697427633) /* PCAPRecordedObjectIID */;
+VALUES (2749, 8000, 0xDC6244B1) /* PCAPRecordedObjectIID */;

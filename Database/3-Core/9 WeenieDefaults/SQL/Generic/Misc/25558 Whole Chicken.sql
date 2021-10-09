@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25558,   1, 'Whole Chicken') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25558,   1,   33554643) /* Setup */
-     , (25558,   3,  536870932) /* SoundTable */
-     , (25558,   6,   67108990) /* PaletteBase */
-     , (25558,   8,  100674944) /* Icon */
-     , (25558,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25558,   1, 0x020000D3) /* Setup */
+     , (25558,   3, 0x20000014) /* SoundTable */
+     , (25558,   6, 0x0400007E) /* PaletteBase */
+     , (25558,   8, 0x06002D80) /* Icon */
+     , (25558,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25558, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (25558, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25558, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25558, 8000, 2166037764) /* PCAPRecordedObjectIID */;
+VALUES (25558, 8000, 0x811B1D04) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25558, 67114549, 240, 16);

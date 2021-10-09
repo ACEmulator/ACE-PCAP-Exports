@@ -23,16 +23,16 @@ VALUES (24226,   1, 'Deeper Catacombs') /* Name */
      , (24226, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24226,   1,   33554867) /* Setup */
-     , (24226,   2,  150994947) /* MotionTable */
-     , (24226,   8,  100667499) /* Icon */
+VALUES (24226,   1, 0x020001B3) /* Setup */
+     , (24226,   2, 0x09000003) /* MotionTable */
+     , (24226,   8, 0x0600106B) /* Icon */
      , (24226, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (24226, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (24226, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24226, 8040, 1631846657, 89.346, -80, -132.063, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (24226, 8040, 0x61440101, 89.346, -80, -132.063, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x61440101 [89.346000 -80.000000 -132.063000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24226, 8000, 1981038736) /* PCAPRecordedObjectIID */;
+VALUES (24226, 8000, 0x76144090) /* PCAPRecordedObjectIID */;

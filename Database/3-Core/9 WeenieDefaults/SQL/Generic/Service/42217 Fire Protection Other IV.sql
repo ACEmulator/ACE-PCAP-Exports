@@ -17,10 +17,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42217,   1, 'Fire Protection Other IV') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42217,   1,   33554680) /* Setup */
-     , (42217,   3,  536870932) /* SoundTable */
-     , (42217,   8,  100668291) /* Icon */
-     , (42217,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42217,   1, 0x020000F8) /* Setup */
+     , (42217,   3, 0x20000014) /* SoundTable */
+     , (42217,   8, 0x06001383) /* Icon */
+     , (42217,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42217,  28,        849) /* Spell - FireProtectionOther4 */
      , (42217, 8001,    4210712) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Spell */
      , (42217, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
@@ -28,4 +28,4 @@ VALUES (42217,   1,   33554680) /* Setup */
      , (42217, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42217, 8000,      42217) /* PCAPRecordedObjectIID */;
+VALUES (42217, 8000, 0x0000A4E9) /* PCAPRecordedObjectIID */;

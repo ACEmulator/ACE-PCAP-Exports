@@ -15,6 +15,7 @@ VALUES (38047,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38047,  22, True ) /* Inscribable */
+     , (38047,  23, True ) /* DestroyOnSell */
      , (38047,  69, False) /* IsSellable */
      , (38047,  99, False) /* Ivoryable */;
 
@@ -24,17 +25,17 @@ VALUES (38047,   1, 'Green Mire Yari') /* Name */
      , (38047,  16, 'An old and timeworn Yari, that once belonged to the famous Green Mire Warrior.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38047,   1,   33554824) /* Setup */
-     , (38047,   3,  536870932) /* SoundTable */
-     , (38047,   6,   67111919) /* PaletteBase */
-     , (38047,   8,  100669088) /* Icon */
-     , (38047,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38047,   1, 0x02000188) /* Setup */
+     , (38047,   3, 0x20000014) /* SoundTable */
+     , (38047,   6, 0x04000BEF) /* PaletteBase */
+     , (38047,   8, 0x060016A0) /* Icon */
+     , (38047,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38047, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (38047, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38047, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38047, 8000, 3355460590) /* PCAPRecordedObjectIID */;
+VALUES (38047, 8000, 0xC80043EE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38047, 67111922, 0, 0);

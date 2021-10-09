@@ -54,17 +54,17 @@ VALUES (3853,   1, 'Acid Shamshir') /* Name */
      , (3853,  16, 'Acid Shamshir of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3853,   1,   33555767) /* Setup */
-     , (3853,   3,  536870932) /* SoundTable */
-     , (3853,   8,  100668982) /* Icon */
-     , (3853,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3853,   1, 0x02000537) /* Setup */
+     , (3853,   3, 0x20000014) /* SoundTable */
+     , (3853,   8, 0x06001636) /* Icon */
+     , (3853,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3853,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3853, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3853, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3853, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3853, 8000, 3354339115) /* PCAPRecordedObjectIID */;
+VALUES (3853, 8000, 0xC7EF272B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3853,  1604,      2)  /* DefenderSelf5 */

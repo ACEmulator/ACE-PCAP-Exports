@@ -14,24 +14,25 @@ VALUES (11017,   1,        128) /* ItemType - Misc */
      , (11017, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11017,  22, True ) /* Inscribable */;
+VALUES (11017,  22, True ) /* Inscribable */
+     , (11017,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11017,   1, 'Piece of Curved Metal') /* Name */
      , (11017,  16, 'A piece of curved, green-gold metal. The edges of it are jagged and sharp, indicating it has been broken.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11017,   1,   33555677) /* Setup */
-     , (11017,   3,  536870932) /* SoundTable */
-     , (11017,   6,   67111919) /* PaletteBase */
-     , (11017,   8,  100671823) /* Icon */
-     , (11017,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11017,   1, 0x020004DD) /* Setup */
+     , (11017,   3, 0x20000014) /* SoundTable */
+     , (11017,   6, 0x04000BEF) /* PaletteBase */
+     , (11017,   8, 0x0600214F) /* Icon */
+     , (11017,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11017, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (11017, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11017, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11017, 8000, 3707605066) /* PCAPRecordedObjectIID */;
+VALUES (11017, 8000, 0xDCFD904A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11017, 67111919, 0, 0);

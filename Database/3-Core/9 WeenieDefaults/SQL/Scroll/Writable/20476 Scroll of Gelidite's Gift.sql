@@ -24,13 +24,13 @@ VALUES (20476,   1, 'Scroll of Gelidite''s Gift') /* Name */
 Increases damage the target takes from Cold by 185%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20476,   1,   33554826) /* Setup */
-     , (20476,   8,  100676950) /* Icon */
-     , (20476,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20476,   1, 0x0200018A) /* Setup */
+     , (20476,   8, 0x06003556) /* Icon */
+     , (20476,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20476,  28,       2168) /* Spell - ColdVulnerabilityOther7 */
      , (20476, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20476, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20476, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20476, 8000, 3691209972) /* PCAPRecordedObjectIID */;
+VALUES (20476, 8000, 0xDC0364F4) /* PCAPRecordedObjectIID */;

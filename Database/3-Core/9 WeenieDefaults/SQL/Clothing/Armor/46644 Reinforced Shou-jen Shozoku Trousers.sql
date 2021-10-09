@@ -45,20 +45,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46644,   1, 'Reinforced Shou-jen Shozoku Trousers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46644,   1,   33554653) /* Setup */
-     , (46644,   3,  536870932) /* SoundTable */
-     , (46644,   6,   67108990) /* PaletteBase */
-     , (46644,   8,  100675723) /* Icon */
-     , (46644,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46644,   1, 0x020000DD) /* Setup */
+     , (46644,   3, 0x20000014) /* SoundTable */
+     , (46644,   6, 0x0400007E) /* PaletteBase */
+     , (46644,   8, 0x0600308B) /* Icon */
+     , (46644,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46644, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (46644, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46644, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46644, 8000, 2175071809) /* PCAPRecordedObjectIID */;
+VALUES (46644, 8000, 0x81A4F641) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46644,  4299,      2)  /* EnduranceSelf8 */
+     , (46644,  4699,      2)  /* CANTRIPJUMPINGPROWESS3 */
+     , (46644,  4572,      2)  /* JumpingMasterySelf8 */
      , (46644,  4391,      2)  /* AcidBane8 */
      , (46644,  4393,      2)  /* BladeBane8 */
      , (46644,  4397,      2)  /* BludgeonBane8 */
@@ -66,9 +68,7 @@ VALUES (46644,  4299,      2)  /* EnduranceSelf8 */
      , (46644,  4403,      2)  /* FrostBane8 */
      , (46644,  4407,      2)  /* Impenetrability8 */
      , (46644,  4409,      2)  /* LightningBane8 */
-     , (46644,  4412,      2)  /* PiercingBane8 */
-     , (46644,  4572,      2)  /* JumpingMasterySelf8 */
-     , (46644,  4699,      2)  /* CANTRIPJUMPINGPROWESS3 */;
+     , (46644,  4412,      2)  /* PiercingBane8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46644, 67110349, 72, 8)

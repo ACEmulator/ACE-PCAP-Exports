@@ -27,18 +27,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51497,   1, 'Composite Bow with Exquisite Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51497,   1,   33556600) /* Setup */
-     , (51497,   3,  536870932) /* SoundTable */
-     , (51497,   6,   67112869) /* PaletteBase */
-     , (51497,   8,  100670670) /* Icon */
-     , (51497,  22,  872415275) /* PhysicsEffectTable */
-     , (51497,  50,  100667895) /* IconOverlay */
+VALUES (51497,   1, 0x02000878) /* Setup */
+     , (51497,   3, 0x20000014) /* SoundTable */
+     , (51497,   6, 0x04000FA5) /* PaletteBase */
+     , (51497,   8, 0x06001CCE) /* Icon */
+     , (51497,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51497,  50, 0x060011F7) /* IconOverlay */
      , (51497, 8001, 1344827416) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType, IconOverlay */
      , (51497, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51497, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51497, 8000, 3350950308) /* PCAPRecordedObjectIID */;
+VALUES (51497, 8000, 0xC7BB71A4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51497, 67112871, 0, 0);

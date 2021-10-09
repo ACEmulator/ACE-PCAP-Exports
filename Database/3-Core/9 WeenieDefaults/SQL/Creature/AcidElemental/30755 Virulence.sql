@@ -27,21 +27,21 @@ VALUES (30755,   1, 'Virulence') /* Name */
      , (30755, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30755,   1,   33557486) /* Setup */
-     , (30755,   2,  150995087) /* MotionTable */
-     , (30755,   3,  536871002) /* SoundTable */
-     , (30755,   8,  100672513) /* Icon */
-     , (30755,  22,  872415349) /* PhysicsEffectTable */
+VALUES (30755,   1, 0x02000BEE) /* Setup */
+     , (30755,   2, 0x0900008F) /* MotionTable */
+     , (30755,   3, 0x2000005A) /* SoundTable */
+     , (30755,   8, 0x06002401) /* Icon */
+     , (30755,  22, 0x34000075) /* PhysicsEffectTable */
      , (30755, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (30755, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (30755, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30755, 8040, 6160826, 228.433, -71.3898, -77.9915, 0.5403028, 0, 0, 0.8414707) /* PCAPRecordedLocation */
+VALUES (30755, 8040, 0x005E01BA, 228.433, -71.3898, -77.9915, 0.540303, 0, 0, 0.841471) /* PCAPRecordedLocation */
 /* @teleloc 0x005E01BA [228.433000 -71.389800 -77.991500] 0.540303 0.000000 0.000000 0.841471 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30755, 8000, 3697758655) /* PCAPRecordedObjectIID */;
+VALUES (30755, 8000, 0xDC6751BF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30755,   1, 160, 0, 0) /* Strength */

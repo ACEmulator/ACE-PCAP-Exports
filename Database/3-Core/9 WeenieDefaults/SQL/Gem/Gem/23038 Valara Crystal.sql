@@ -14,18 +14,19 @@ VALUES (23038,   1,       2048) /* ItemType - Gem */
      , (23038, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23038,  22, True ) /* Inscribable */;
+VALUES (23038,  22, True ) /* Inscribable */
+     , (23038,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23038,   1, 'Valara Crystal') /* Name */
      , (23038,  15, 'Valara  Crystal') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23038,   1,   33554809) /* Setup */
-     , (23038,   8,  100673956) /* Icon */
+VALUES (23038,   1, 0x02000179) /* Setup */
+     , (23038,   8, 0x060029A4) /* Icon */
      , (23038, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (23038, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23038, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23038, 8000, 2622385827) /* PCAPRecordedObjectIID */;
+VALUES (23038, 8000, 0x9C4E6EA3) /* PCAPRecordedObjectIID */;

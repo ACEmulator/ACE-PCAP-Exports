@@ -23,22 +23,22 @@ VALUES (7124,   1, 'Dark Magus') /* Name */
      , (7124, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7124,   1,   33554839) /* Setup */
-     , (7124,   2,  150994967) /* MotionTable */
-     , (7124,   3,  536870934) /* SoundTable */
-     , (7124,   6,   67110722) /* PaletteBase */
-     , (7124,   8,  100667942) /* Icon */
-     , (7124,  22,  872415272) /* PhysicsEffectTable */
+VALUES (7124,   1, 0x02000197) /* Setup */
+     , (7124,   2, 0x09000017) /* MotionTable */
+     , (7124,   3, 0x20000016) /* SoundTable */
+     , (7124,   6, 0x04000742) /* PaletteBase */
+     , (7124,   8, 0x06001226) /* Icon */
+     , (7124,  22, 0x34000028) /* PhysicsEffectTable */
      , (7124, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7124, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7124, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7124, 8040, 2451701776, 45.33732, 177.4008, 105.4354, 0.02889203, 0, 0, -0.9995825) /* PCAPRecordedLocation */
+VALUES (7124, 8040, 0x92220010, 45.33732, 177.4008, 105.4354, 0.028892, 0, 0, -0.999583) /* PCAPRecordedLocation */
 /* @teleloc 0x92220010 [45.337320 177.400800 105.435400] 0.028892 0.000000 0.000000 -0.999583 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7124, 8000, 3685721521) /* PCAPRecordedObjectIID */;
+VALUES (7124, 8000, 0xDBAFA5B1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7124,   1, 110, 0, 0) /* Strength */
@@ -157,7 +157,9 @@ VALUES (7124, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
      , (7124, 9, 20409,  0, 0, 0, False) /* Create Scroll of Tusker Bait (20409) for ContainTreasure */
      , (7124, 9, 27323,  1, 0, 0, False) /* Create Mana Tonic (27323) for ContainTreasure */
      , (7124, 9, 20428,  0, 0, 0, False) /* Create Scroll of Clouded Motives (20428) for ContainTreasure */
-     , (7124, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */;
+     , (7124, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */
+     , (7124, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (7124, 9, 30611,  0, 0, 0, False) /* Create Knuckles (30611) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7124, 67113037, 0, 0);

@@ -25,22 +25,22 @@ VALUES (34265,   1, 'Small Iron Golem') /* Name */
      , (34265, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34265,   1,   33556426) /* Setup */
-     , (34265,   2,  150995073) /* MotionTable */
-     , (34265,   3,  536870933) /* SoundTable */
-     , (34265,   6,   67112809) /* PaletteBase */
-     , (34265,   8,  100667940) /* Icon */
-     , (34265,  22,  872415323) /* PhysicsEffectTable */
+VALUES (34265,   1, 0x020007CA) /* Setup */
+     , (34265,   2, 0x09000081) /* MotionTable */
+     , (34265,   3, 0x20000015) /* SoundTable */
+     , (34265,   6, 0x04000F69) /* PaletteBase */
+     , (34265,   8, 0x06001224) /* Icon */
+     , (34265,  22, 0x3400005B) /* PhysicsEffectTable */
      , (34265, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (34265, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (34265, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34265, 8040, 1879638070, 166.0965, 133.8067, 4.145002, 0.9806938, 0, 0, -0.19555) /* PCAPRecordedLocation */
+VALUES (34265, 8040, 0x70090036, 166.0965, 133.8067, 4.145002, 0.980694, 0, 0, -0.19555) /* PCAPRecordedLocation */
 /* @teleloc 0x70090036 [166.096500 133.806700 4.145002] 0.980694 0.000000 0.000000 -0.195550 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34265, 8000, 3684469499) /* PCAPRecordedObjectIID */;
+VALUES (34265, 8000, 0xDB9C8AFB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (34265,   1,     0, 0, 0, 555) /* MaxHealth */;

@@ -23,21 +23,21 @@ VALUES (771,   1, 'Frankincense') /* Name */
      , (771,  20, 'Sacks of Frankincense') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (771,   1,   33554817) /* Setup */
-     , (771,   3,  536870932) /* SoundTable */
-     , (771,   6,   67111919) /* PaletteBase */
-     , (771,   8,  100668422) /* Icon */
-     , (771,  22,  872415275) /* PhysicsEffectTable */
+VALUES (771,   1, 0x02000181) /* Setup */
+     , (771,   3, 0x20000014) /* SoundTable */
+     , (771,   6, 0x04000BEF) /* PaletteBase */
+     , (771,   8, 0x06001406) /* Icon */
+     , (771,  22, 0x3400002B) /* PhysicsEffectTable */
      , (771, 8001,    2109465) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden */
      , (771, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (771, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (771, 8040, 3426680893, 175.0394, 107.5476, 58.63871, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (771, 8040, 0xCC3F003D, 175.0394, 107.5476, 58.63871, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xCC3F003D [175.039400 107.547600 58.638710] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (771, 8000, 2628896466) /* PCAPRecordedObjectIID */;
+VALUES (771, 8000, 0x9CB1C6D2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (771, 67111922, 0, 0);

@@ -21,16 +21,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34026,   1, 'Mask of the Hopeslayer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34026,   1,   33560103) /* Setup */
-     , (34026,   3,  536870932) /* SoundTable */
-     , (34026,   8,  100689128) /* Icon */
-     , (34026,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34026,   1, 0x02001627) /* Setup */
+     , (34026,   3, 0x20000014) /* SoundTable */
+     , (34026,   8, 0x060064E8) /* Icon */
+     , (34026,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34026, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (34026, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34026, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34026, 8000, 2166217666) /* PCAPRecordedObjectIID */;
+VALUES (34026, 8000, 0x811DDBC2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (34026, 0, 16793334);

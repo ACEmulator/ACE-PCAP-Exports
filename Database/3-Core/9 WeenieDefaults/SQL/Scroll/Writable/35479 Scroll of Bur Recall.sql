@@ -14,7 +14,8 @@ VALUES (35479,   1,       8192) /* ItemType - Writable */
      , (35479, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35479,  22, True ) /* Inscribable */;
+VALUES (35479,  22, True ) /* Inscribable */
+     , (35479,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35479,  39,     1.5) /* DefaultScale */;
@@ -26,13 +27,13 @@ VALUES (35479,   1, 'Scroll of Bur Recall') /* Name */
 Sends the caster to Bur.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35479,   1,   33554826) /* Setup */
-     , (35479,   8,  100676673) /* Icon */
-     , (35479,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35479,   1, 0x0200018A) /* Setup */
+     , (35479,   8, 0x06003441) /* Icon */
+     , (35479,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35479,  28,       4084) /* Spell - RecallBur */
      , (35479, 8001,    6307856) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, Spell */
      , (35479, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35479, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35479, 8000, 3709815597) /* PCAPRecordedObjectIID */;
+VALUES (35479, 8000, 0xDD1F4B2D) /* PCAPRecordedObjectIID */;

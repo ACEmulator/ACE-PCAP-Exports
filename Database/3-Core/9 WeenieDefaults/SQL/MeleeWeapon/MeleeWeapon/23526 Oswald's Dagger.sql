@@ -49,20 +49,20 @@ VALUES (23526,   1, 'Oswald''s Dagger') /* Name */
      , (23526,  15, 'A well-worn dagger, its blade stained with Banderling blood.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23526,   1,   33555707) /* Setup */
-     , (23526,   3,  536870932) /* SoundTable */
-     , (23526,   8,  100668878) /* Icon */
-     , (23526,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23526,   1, 0x020004FB) /* Setup */
+     , (23526,   3, 0x20000014) /* SoundTable */
+     , (23526,   8, 0x060015CE) /* Icon */
+     , (23526,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23526, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23526, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23526, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23526, 8000, 2174497433) /* PCAPRecordedObjectIID */;
+VALUES (23526, 8000, 0x819C3299) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23526,  1782,      2)  /* GertarhsCurse */
+VALUES (23526,  2575,      2)  /* CANTRIPQUICKNESS2 */
      , (23526,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (23526,  2106,      2)  /* HeartSeekerSelf7 */
      , (23526,  2227,      2)  /* DeceptionMasterySelf7 */
-     , (23526,  2575,      2)  /* CANTRIPQUICKNESS2 */;
+     , (23526,  1782,      2)  /* GertarhsCurse */
+     , (23526,  2106,      2)  /* HeartSeekerSelf7 */;

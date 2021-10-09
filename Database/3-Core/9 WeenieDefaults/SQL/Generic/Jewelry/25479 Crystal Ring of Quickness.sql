@@ -34,17 +34,17 @@ VALUES (25479,   1, 'Crystal Ring of Quickness') /* Name */
      , (25479,  25, 'Azrakin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25479,   1,   33554690) /* Setup */
-     , (25479,   3,  536870932) /* SoundTable */
-     , (25479,   8,  100674803) /* Icon */
-     , (25479,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25479,   1, 0x02000102) /* Setup */
+     , (25479,   3, 0x20000014) /* SoundTable */
+     , (25479,   8, 0x06002CF3) /* Icon */
+     , (25479,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25479, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (25479, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25479, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25479, 8000, 2210356802) /* PCAPRecordedObjectIID */;
+VALUES (25479, 8000, 0x83BF5E42) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25479,  1405,      2)  /* QuicknessOther3 */
-     , (25479,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+VALUES (25479,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (25479,  1405,      2)  /* QuicknessOther3 */;

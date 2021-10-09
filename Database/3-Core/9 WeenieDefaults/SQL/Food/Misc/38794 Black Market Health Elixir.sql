@@ -22,6 +22,9 @@ VALUES (38794,   1,        128) /* ItemType - Misc */
      , (38794, 280,          4) /* SharedCooldown */
      , (38794, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38794,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38794, 167,     300) /* CooldownDuration */;
 
@@ -31,18 +34,18 @@ VALUES (38794,   1, 'Black Market Health Elixir') /* Name */
      , (38794,  15, 'A vial of very powerful Health potion.  Hazardous to use too often.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38794,   1,   33554603) /* Setup */
-     , (38794,   3,  536870932) /* SoundTable */
-     , (38794,   6,   67111919) /* PaletteBase */
-     , (38794,   8,  100676312) /* Icon */
-     , (38794,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38794,   1, 0x020000AB) /* Setup */
+     , (38794,   3, 0x20000014) /* SoundTable */
+     , (38794,   6, 0x04000BEF) /* PaletteBase */
+     , (38794,   8, 0x060032D8) /* Icon */
+     , (38794,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38794, 8001,  270561432) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, HookType */
      , (38794, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (38794, 8003,   67141648) /* PCAPRecordedObjectDesc - Attackable, Food, IncludesSecondHeader */
      , (38794, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38794, 8000, 2169471184) /* PCAPRecordedObjectIID */;
+VALUES (38794, 8000, 0x814F80D0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38794, 67111922, 0, 0);

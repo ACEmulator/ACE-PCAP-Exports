@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45561,   1, 'Contract for Aetherium Raid (High)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45561,   1,   33557625) /* Setup */
-     , (45561,   3,  536870932) /* SoundTable */
-     , (45561,   8,  100691930) /* Icon */
-     , (45561,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45561,   1, 0x02000C79) /* Setup */
+     , (45561,   3, 0x20000014) /* SoundTable */
+     , (45561,   8, 0x06006FDA) /* Icon */
+     , (45561,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45561, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (45561, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (45561, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (45561,   1,   33557625) /* Setup */
      , (45561, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45561, 8000,      45561) /* PCAPRecordedObjectIID */;
+VALUES (45561, 8000, 0x0000B1F9) /* PCAPRecordedObjectIID */;

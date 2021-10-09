@@ -18,15 +18,15 @@ VALUES (42773,   1, 'Tou-Tou') /* Name */
      , (42773,  16, 'Tou-Tou is a coastal Sho village located at the end of a peninsula which shares its name with the town. The people of Tou-Tou simply refer to it as the town of the eastern tower, for northeast of town at the tip of the peninsula a massive Empyrean lighthouse extends into the sky, spewing a magical white light that pierces the thickest fogs. Southwest of town along the road leading to Hebian-To, one can find the Tou-Tou Onsen, a traditional Sho bath house built around a natural hot spring.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42773,   1,   33560969) /* Setup */
-     , (42773,   8,  100668115) /* Icon */
+VALUES (42773,   1, 0x02001989) /* Setup */
+     , (42773,   8, 0x060012D3) /* Icon */
      , (42773, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42773, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42773, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42773, 8040, 459119, 99.9449, -84.8918, 3.014, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42773, 8040, 0x0007016F, 99.9449, -84.8918, 3.014, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0007016F [99.944900 -84.891800 3.014000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42773, 8000, 1879077002) /* PCAPRecordedObjectIID */;
+VALUES (42773, 8000, 0x7000708A) /* PCAPRecordedObjectIID */;

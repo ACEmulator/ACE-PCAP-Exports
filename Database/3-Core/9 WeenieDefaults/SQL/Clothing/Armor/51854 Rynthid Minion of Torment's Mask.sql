@@ -48,22 +48,22 @@ VALUES (51854,   1, 'Rynthid Minion of Torment''s Mask') /* Name */
      , (51854,  25, 'Lunser Zanof') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51854,   1,   33561594) /* Setup */
-     , (51854,   3,  536870932) /* SoundTable */
-     , (51854,   8,  100693219) /* Icon */
-     , (51854,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51854,   1, 0x02001BFA) /* Setup */
+     , (51854,   3, 0x20000014) /* SoundTable */
+     , (51854,   8, 0x060074E3) /* Icon */
+     , (51854,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51854, 8001,  270876816) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (51854, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51854, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51854, 8000, 2755336357) /* PCAPRecordedObjectIID */;
+VALUES (51854, 8000, 0xA43B18A5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51854,  4291,      2)  /* ArmorSelf8 */
-     , (51854,  4407,      2)  /* Impenetrability8 */
      , (51854,  6051,      2)  /* CantripFealty4 */
-     , (51854,  6054,      2)  /* CantripImpregnability4 */;
+     , (51854,  6054,      2)  /* CantripImpregnability4 */
+     , (51854,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (51854, 0, 16796998);

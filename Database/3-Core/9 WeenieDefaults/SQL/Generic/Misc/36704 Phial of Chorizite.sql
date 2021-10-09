@@ -15,24 +15,25 @@ VALUES (36704,   1,        128) /* ItemType - Misc */
      , (36704, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36704,  22, True ) /* Inscribable */;
+VALUES (36704,  22, True ) /* Inscribable */
+     , (36704,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36704,   1, 'Phial of Chorizite') /* Name */
      , (36704,  16, 'A Phial filled with an experimental alchemical mixture of Chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36704,   1,   33555965) /* Setup */
-     , (36704,   3,  536870932) /* SoundTable */
-     , (36704,   6,   67111919) /* PaletteBase */
-     , (36704,   8,  100688870) /* Icon */
-     , (36704,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36704,   1, 0x020005FD) /* Setup */
+     , (36704,   3, 0x20000014) /* SoundTable */
+     , (36704,   6, 0x04000BEF) /* PaletteBase */
+     , (36704,   8, 0x060063E6) /* Icon */
+     , (36704,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36704, 8001,    2113688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, Burden */
      , (36704, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36704, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36704, 8000, 3357065105) /* PCAPRecordedObjectIID */;
+VALUES (36704, 8000, 0xC818BF91) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36704, 67111925, 0, 0);

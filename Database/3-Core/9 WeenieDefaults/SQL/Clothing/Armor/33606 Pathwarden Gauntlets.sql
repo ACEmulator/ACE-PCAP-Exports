@@ -22,6 +22,7 @@ VALUES (33606,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33606,  22, True ) /* Inscribable */
+     , (33606,  23, True ) /* DestroyOnSell */
      , (33606,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -40,21 +41,21 @@ VALUES (33606,   1, 'Pathwarden Gauntlets') /* Name */
      , (33606,  16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33606,   1,   33554648) /* Setup */
-     , (33606,   3,  536870932) /* SoundTable */
-     , (33606,   6,   67108990) /* PaletteBase */
-     , (33606,   8,  100667341) /* Icon */
-     , (33606,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33606,   1, 0x020000D8) /* Setup */
+     , (33606,   3, 0x20000014) /* SoundTable */
+     , (33606,   6, 0x0400007E) /* PaletteBase */
+     , (33606,   8, 0x06000FCD) /* Icon */
+     , (33606,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33606, 8001,    2441232) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Priority, Burden */
      , (33606, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33606, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33606, 8000, 3693861790) /* PCAPRecordedObjectIID */;
+VALUES (33606, 8000, 0xDC2BDB9E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33606,  1374,      2)  /* CoordinationSelf2 */
-     , (33606,  1482,      2)  /* Impenetrability2 */;
+VALUES (33606,  1482,      2)  /* Impenetrability2 */
+     , (33606,  1374,      2)  /* CoordinationSelf2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33606, 67110015, 168, 6);

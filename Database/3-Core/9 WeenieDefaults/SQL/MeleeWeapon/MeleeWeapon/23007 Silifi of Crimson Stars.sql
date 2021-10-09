@@ -32,6 +32,7 @@ VALUES (23007,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23007,  22, True ) /* Inscribable */
+     , (23007,  23, True ) /* DestroyOnSell */
      , (23007,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -51,17 +52,17 @@ VALUES (23007,   1, 'Silifi of Crimson Stars') /* Name */
      , (23007,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Plate Armoredillo. It is fitted with the ruby Yujazik. There are notches for two more.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23007,   1,   33556553) /* Setup */
-     , (23007,   3,  536870932) /* SoundTable */
-     , (23007,   6,   67111919) /* PaletteBase */
-     , (23007,   8,  100670613) /* Icon */
-     , (23007,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23007,   1, 0x02000849) /* Setup */
+     , (23007,   3, 0x20000014) /* SoundTable */
+     , (23007,   6, 0x04000BEF) /* PaletteBase */
+     , (23007,   8, 0x06001C95) /* Icon */
+     , (23007,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23007, 8001,    2179736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
      , (23007, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23007, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23007, 8000, 3627997654) /* PCAPRecordedObjectIID */;
+VALUES (23007, 8000, 0xD83ED9D6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23007,  1096,      2)  /* FireProtectionOther6 */;

@@ -24,13 +24,13 @@ VALUES (1671,   1, 'Scroll of Light Weapon Mastery Self') /* Name */
 Increases the caster''s Light Weapons skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1671,   1,   33554826) /* Setup */
-     , (1671,   8,  100692249) /* Icon */
-     , (1671,  22,  872415275) /* PhysicsEffectTable */
-     , (1671,  28,        298) /* Spell - AxeMasterySelf1 */
+VALUES (1671,   1, 0x0200018A) /* Setup */
+     , (1671,   8, 0x06007119) /* Icon */
+     , (1671,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (1671,  28,        298) /* Spell - LightWeaponsMasterySelf1 */
      , (1671, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1671, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1671, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1671, 8000, 2448101500) /* PCAPRecordedObjectIID */;
+VALUES (1671, 8000, 0x91EB107C) /* PCAPRecordedObjectIID */;

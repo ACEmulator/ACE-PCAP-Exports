@@ -17,25 +17,25 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28753,   1, 'A Message from Scorus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28753,   1,   33554771) /* Setup */
-     , (28753,   3,  536870932) /* SoundTable */
-     , (28753,   8,  100668117) /* Icon */
-     , (28753,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28753,   1, 0x02000153) /* Setup */
+     , (28753,   3, 0x20000014) /* SoundTable */
+     , (28753,   8, 0x060012D5) /* Icon */
+     , (28753,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28753, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (28753, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (28753, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28753, 8000, 2164091116) /* PCAPRecordedObjectIID */;
+VALUES (28753, 8000, 0x80FD68EC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (28753, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28753, 0, 4294967295, 'Fiun Scorus', 'Password is cheese', False, 'Beings who graced this land prior created a machine which may make our maddened kin maddened no more. Return this machine to me and you shall have Fiun gratitude never-ending. 
+VALUES (28753, 0, 4294967295, 'Fiun Scorus', 'prewritten', False, 'Beings who graced this land prior created a machine which may make our maddened kin maddened no more. Return this machine to me and you shall have Fiun gratitude never-ending. 
 
 ')
-     , (28753, 1, 4294967295, 'Fiun Scorus', 'Password is cheese', False, 'Pieces of the machine may be found at these locations. 
+     , (28753, 1, 4294967295, 'Fiun Scorus', 'prewritten', False, 'Pieces of the machine may be found at these locations. 
 
 Small Empyrean Vault is located at 80.4N, 74.0W.
 Remote Empyrean Vault is located at 81.7N, 71.2W.

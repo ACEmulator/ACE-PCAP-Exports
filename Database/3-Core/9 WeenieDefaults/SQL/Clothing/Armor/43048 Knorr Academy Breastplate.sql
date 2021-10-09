@@ -46,26 +46,26 @@ VALUES (43048,   1, 'Knorr Academy Breastplate') /* Name */
      , (43048,  16, 'Knorr Academy Breastplate of Fealty') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43048,   1,   33554642) /* Setup */
-     , (43048,   3,  536870932) /* SoundTable */
-     , (43048,   6,   67108990) /* PaletteBase */
-     , (43048,   8,  100691382) /* Icon */
-     , (43048,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43048,   1, 0x020000D2) /* Setup */
+     , (43048,   3, 0x20000014) /* SoundTable */
+     , (43048,   6, 0x0400007E) /* PaletteBase */
+     , (43048,   8, 0x06006DB6) /* Icon */
+     , (43048,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43048,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (43048, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (43048, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43048, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43048, 8040, 23855555, 56.08102, -35.19884, -0.004999995, 1, 0, 0, 0.0001543763) /* PCAPRecordedLocation */
+VALUES (43048, 8040, 0x016C01C3, 56.08102, -35.19884, -0.005, 1, 0, 0, 0.000154) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.081020 -35.198840 -0.005000] 1.000000 0.000000 0.000000 0.000154 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43048, 8000, 3692957643) /* PCAPRecordedObjectIID */;
+VALUES (43048, 8000, 0xDC1E0FCB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43048,   951,      2)  /* FealtySelf6 */
-     , (43048,  1486,      2)  /* Impenetrability6 */
+VALUES (43048,  1486,      2)  /* Impenetrability6 */
+     , (43048,   951,      2)  /* FealtySelf6 */
      , (43048,  1528,      2)  /* FrostBane6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

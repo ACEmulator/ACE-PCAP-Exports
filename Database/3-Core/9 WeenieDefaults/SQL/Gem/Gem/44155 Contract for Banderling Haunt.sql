@@ -32,14 +32,14 @@ VALUES (44155,   1, 'Contract for Banderling Haunt') /* Name */
      , (44155,  16, 'Cyphis Suldow wants to build a resort near Stonehold but some Banderlings are in his way. Help Cyphis relocate the banderlings.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44155,   1,   33554773) /* Setup */
-     , (44155,   3,  536870932) /* SoundTable */
-     , (44155,   8,  100691926) /* Icon */
-     , (44155,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44155,   1, 0x02000155) /* Setup */
+     , (44155,   3, 0x20000014) /* SoundTable */
+     , (44155,   8, 0x06006FD6) /* Icon */
+     , (44155,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44155, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44155, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44155, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44155, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44155, 8000, 3346187642) /* PCAPRecordedObjectIID */;
+VALUES (44155, 8000, 0xC772C57A) /* PCAPRecordedObjectIID */;

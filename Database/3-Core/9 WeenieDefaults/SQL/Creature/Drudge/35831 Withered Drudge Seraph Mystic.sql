@@ -26,22 +26,22 @@ VALUES (35831,   1, 'Withered Drudge Seraph Mystic') /* Name */
      , (35831, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35831,   1,   33556445) /* Setup */
-     , (35831,   2,  150994952) /* MotionTable */
-     , (35831,   3,  536870919) /* SoundTable */
-     , (35831,   6,   67112812) /* PaletteBase */
-     , (35831,   8,  100667445) /* Icon */
-     , (35831,  22,  872415258) /* PhysicsEffectTable */
+VALUES (35831,   1, 0x020007DD) /* Setup */
+     , (35831,   2, 0x09000008) /* MotionTable */
+     , (35831,   3, 0x20000007) /* SoundTable */
+     , (35831,   6, 0x04000F6C) /* PaletteBase */
+     , (35831,   8, 0x06001035) /* Icon */
+     , (35831,  22, 0x3400001A) /* PhysicsEffectTable */
      , (35831, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35831, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35831, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35831, 8040, 538050602, 140.7814, 34.44013, 3.736337, 0.842063, 0, 0, -0.5393792) /* PCAPRecordedLocation */
+VALUES (35831, 8040, 0x2012002A, 140.7814, 34.44013, 3.736337, 0.842063, 0, 0, -0.539379) /* PCAPRecordedLocation */
 /* @teleloc 0x2012002A [140.781400 34.440130 3.736337] 0.842063 0.000000 0.000000 -0.539379 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35831, 8000, 3698103690) /* PCAPRecordedObjectIID */;
+VALUES (35831, 8000, 0xDC6C958A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35831,   1, 330, 0, 0) /* Strength */
@@ -57,7 +57,8 @@ VALUES (35831,   1,  2337, 0, 0, 2500) /* MaxHealth */
      , (35831,   5,  2000, 0, 0, 2255) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35831, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+VALUES (35831, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
+     , (35831, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (35831, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
      , (35831, 9, 49277,  0, 0, 0, False) /* Create Frost Elemental Essence (100) (49277) for ContainTreasure */
      , (35831, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */

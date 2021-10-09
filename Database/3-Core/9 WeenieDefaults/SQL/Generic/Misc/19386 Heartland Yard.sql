@@ -17,15 +17,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19386,   1, 'Heartland Yard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19386,   1,   33557696) /* Setup */
-     , (19386,   8,  100667499) /* Icon */
+VALUES (19386,   1, 0x02000CC0) /* Setup */
+     , (19386,   8, 0x0600106B) /* Icon */
      , (19386, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (19386, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19386, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19386, 8040, 1449197824, 2.975, -29.975, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (19386, 8040, 0x56610100, 2.975, -29.975, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x56610100 [2.975000 -29.975000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19386, 8000, 1969623041) /* PCAPRecordedObjectIID */;
+VALUES (19386, 8000, 0x75661001) /* PCAPRecordedObjectIID */;

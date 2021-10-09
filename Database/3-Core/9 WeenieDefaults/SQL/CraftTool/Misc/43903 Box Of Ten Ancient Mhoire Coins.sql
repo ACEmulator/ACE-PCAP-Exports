@@ -18,7 +18,8 @@ VALUES (43903,   1,        128) /* ItemType - Misc */
      , (43903, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43903,  69, False) /* IsSellable */;
+VALUES (43903,  23, True ) /* DestroyOnSell */
+     , (43903,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43903,  39,     0.5) /* DefaultScale */;
@@ -30,13 +31,13 @@ VALUES (43903,   1, 'Box Of Ten Ancient Mhoire Coins') /* Name */
      , (43903,  20, 'Boxes Of Ten Ancient Mhoire Coins') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43903,   1,   33554718) /* Setup */
-     , (43903,   3,  536870932) /* SoundTable */
-     , (43903,   8,  100691791) /* Icon */
-     , (43903,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43903,   1, 0x0200011E) /* Setup */
+     , (43903,   3, 0x20000014) /* SoundTable */
+     , (43903,   8, 0x06006F4F) /* Icon */
+     , (43903,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43903, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (43903, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43903, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43903, 8000, 3595237262) /* PCAPRecordedObjectIID */;
+VALUES (43903, 8000, 0xD64AF78E) /* PCAPRecordedObjectIID */;

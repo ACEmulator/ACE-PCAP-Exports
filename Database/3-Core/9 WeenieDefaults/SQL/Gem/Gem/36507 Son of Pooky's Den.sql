@@ -35,20 +35,20 @@ VALUES (36507,   1, 'Son of Pooky''s Den') /* Name */
      , (36507,  16, 'A gem teeming with portal energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36507,   1,   33556769) /* Setup */
-     , (36507,   3,  536870932) /* SoundTable */
-     , (36507,   6,   67111919) /* PaletteBase */
-     , (36507,   8,  100668364) /* Icon */
-     , (36507,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36507,   1, 0x02000921) /* Setup */
+     , (36507,   3, 0x20000014) /* SoundTable */
+     , (36507,   6, 0x04000BEF) /* PaletteBase */
+     , (36507,   8, 0x060013CC) /* Icon */
+     , (36507,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36507,  28,        157) /* Spell - SummonPortal1 */
-     , (36507,  50,  100676404) /* IconOverlay */
+     , (36507,  50, 0x06003334) /* IconOverlay */
      , (36507, 8001, 1349021720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (36507, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (36507, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (36507, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36507, 8000, 2222232871) /* PCAPRecordedObjectIID */;
+VALUES (36507, 8000, 0x84749527) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36507, 67111924, 0, 0);

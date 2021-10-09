@@ -26,13 +26,13 @@ VALUES (44072,   1, 'Wrapped Bundle of Deadly Prismatic Arrowheads') /* Name */
      , (44072,  20, 'Wrapped Bundles of Deadly Prismatic Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44072,   1,   33557030) /* Setup */
-     , (44072,   3,  536870932) /* SoundTable */
-     , (44072,   8,  100691909) /* Icon */
-     , (44072,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44072,   1, 0x02000A26) /* Setup */
+     , (44072,   3, 0x20000014) /* SoundTable */
+     , (44072,   8, 0x06006FC5) /* Icon */
+     , (44072,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44072, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (44072, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44072, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44072, 8000, 2828904453) /* PCAPRecordedObjectIID */;
+VALUES (44072, 8000, 0xA89DA805) /* PCAPRecordedObjectIID */;

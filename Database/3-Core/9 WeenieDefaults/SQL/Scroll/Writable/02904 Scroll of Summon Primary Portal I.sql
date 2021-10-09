@@ -24,13 +24,13 @@ VALUES (2904,   1, 'Scroll of Summon Primary Portal I') /* Name */
 Summons a portal that goes to the destination of the caster''s linked portal, set with Primary Portal Tie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2904,   1,   33554826) /* Setup */
-     , (2904,   8,  100676673) /* Icon */
-     , (2904,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2904,   1, 0x0200018A) /* Setup */
+     , (2904,   8, 0x06003441) /* Icon */
+     , (2904,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2904,  28,        157) /* Spell - SummonPortal1 */
      , (2904, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2904, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2904, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2904, 8000, 2401546793) /* PCAPRecordedObjectIID */;
+VALUES (2904, 8000, 0x8F24B229) /* PCAPRecordedObjectIID */;

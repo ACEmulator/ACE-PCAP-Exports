@@ -14,20 +14,21 @@ VALUES (24234,   1,        128) /* ItemType - Misc */
      , (24234, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24234,  22, True ) /* Inscribable */;
+VALUES (24234,  22, True ) /* Inscribable */
+     , (24234,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24234,   1, 'Olthoi Crest') /* Name */
      , (24234,  15, 'A crest from a deceased Olthoi') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24234,   1,   33556593) /* Setup */
-     , (24234,   3,  536870932) /* SoundTable */
-     , (24234,   8,  100674293) /* Icon */
-     , (24234,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24234,   1, 0x02000871) /* Setup */
+     , (24234,   3, 0x20000014) /* SoundTable */
+     , (24234,   8, 0x06002AF5) /* Icon */
+     , (24234,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24234, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (24234, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24234, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24234, 8000, 2443407669) /* PCAPRecordedObjectIID */;
+VALUES (24234, 8000, 0x91A37135) /* PCAPRecordedObjectIID */;

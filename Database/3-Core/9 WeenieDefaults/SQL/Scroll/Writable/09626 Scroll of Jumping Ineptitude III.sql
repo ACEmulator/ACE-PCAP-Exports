@@ -24,13 +24,13 @@ VALUES (9626,   1, 'Scroll of Jumping Ineptitude III') /* Name */
 Decreases the target''s Jump skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9626,   1,   33554826) /* Setup */
-     , (9626,   8,  100676461) /* Icon */
-     , (9626,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9626,   1, 0x0200018A) /* Setup */
+     , (9626,   8, 0x0600336D) /* Icon */
+     , (9626,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9626,  28,       1014) /* Spell - JumpingIneptitudeOther3 */
      , (9626, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (9626, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9626, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9626, 8000, 2344126690) /* PCAPRecordedObjectIID */;
+VALUES (9626, 8000, 0x8BB888E2) /* PCAPRecordedObjectIID */;

@@ -28,7 +28,8 @@ VALUES (7572,   1,          1) /* ItemType - MeleeWeapon */
      , (7572, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7572,  22, True ) /* Inscribable */;
+VALUES (7572,  22, True ) /* Inscribable */
+     , (7572,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7572,  21,       0) /* WeaponLength */
@@ -47,13 +48,13 @@ VALUES (7572,   1, 'Ravenous Staff') /* Name */
      , (7572,  16, 'A staff crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7572,   1,   33556652) /* Setup */
-     , (7572,   3,  536870932) /* SoundTable */
-     , (7572,   8,  100669105) /* Icon */
-     , (7572,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7572,   1, 0x020008AC) /* Setup */
+     , (7572,   3, 0x20000014) /* SoundTable */
+     , (7572,   8, 0x060016B1) /* Icon */
+     , (7572,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7572, 8001,    2179736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
      , (7572, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7572, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7572, 8000, 3710973165) /* PCAPRecordedObjectIID */;
+VALUES (7572, 8000, 0xDD30F4ED) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (3392,   1, 'Scroll of Lockpick Mastery Self VI') /* Name */
 Increases the caster''s Lockpick skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3392,   1,   33554826) /* Setup */
-     , (3392,   8,  100676463) /* Icon */
-     , (3392,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3392,   1, 0x0200018A) /* Setup */
+     , (3392,   8, 0x0600336F) /* Icon */
+     , (3392,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3392,  28,        927) /* Spell - LockpickMasterySelf6 */
      , (3392, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3392, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3392, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3392, 8000, 2980954912) /* PCAPRecordedObjectIID */;
+VALUES (3392, 8000, 0xB1ADC320) /* PCAPRecordedObjectIID */;

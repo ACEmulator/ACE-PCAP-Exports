@@ -26,16 +26,16 @@ VALUES (23928,   1, 'Golden Gromnie') /* Name */
      , (23928, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23928,   1,   33554487) /* Setup */
-     , (23928,   2,  150995122) /* MotionTable */
-     , (23928,   8,  100671514) /* Icon */
-     , (23928,  22,  872415260) /* PhysicsEffectTable */
+VALUES (23928,   1, 0x02000037) /* Setup */
+     , (23928,   2, 0x090000B2) /* MotionTable */
+     , (23928,   8, 0x0600201A) /* Icon */
+     , (23928,  22, 0x3400001C) /* PhysicsEffectTable */
      , (23928, 8001,    2637848) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden */
      , (23928, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23928, 8005,      69763) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23928, 8000, 2978131429) /* PCAPRecordedObjectIID */;
+VALUES (23928, 8000, 0xB182ADE5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (23928, 0, 83886148, 83893269)

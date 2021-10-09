@@ -23,16 +23,16 @@ VALUES (28798,   1, 'Lola''s Den') /* Name */
      , (28798, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28798,   1,   33555926) /* Setup */
-     , (28798,   2,  150994947) /* MotionTable */
-     , (28798,   8,  100667499) /* Icon */
+VALUES (28798,   1, 0x020005D6) /* Setup */
+     , (28798,   2, 0x09000003) /* MotionTable */
+     , (28798,   8, 0x0600106B) /* Icon */
      , (28798, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (28798, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (28798, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28798, 8040, 686948379, 75.624, 66.3426, 52.0881, -0.993037, 0, 0, -0.117803) /* PCAPRecordedLocation */
+VALUES (28798, 8040, 0x28F2001B, 75.624, 66.3426, 52.0881, -0.993037, 0, 0, -0.117803) /* PCAPRecordedLocation */
 /* @teleloc 0x28F2001B [75.624000 66.342600 52.088100] -0.993037 0.000000 0.000000 -0.117803 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28798, 8000, 1921982464) /* PCAPRecordedObjectIID */;
+VALUES (28798, 8000, 0x728F2000) /* PCAPRecordedObjectIID */;

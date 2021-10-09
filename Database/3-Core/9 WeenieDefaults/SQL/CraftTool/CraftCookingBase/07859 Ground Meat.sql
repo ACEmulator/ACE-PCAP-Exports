@@ -21,16 +21,16 @@ VALUES (7859,   1, 'Ground Meat') /* Name */
      , (7859,  20, 'Lumps of Ground Meat') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7859,   1,   33556232) /* Setup */
-     , (7859,   3,  536870932) /* SoundTable */
-     , (7859,   8,  100670857) /* Icon */
-     , (7859,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7859,   1, 0x02000708) /* Setup */
+     , (7859,   3, 0x20000014) /* SoundTable */
+     , (7859,   8, 0x06001D89) /* Icon */
+     , (7859,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7859, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7859, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7859, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7859, 8000, 3257540948) /* PCAPRecordedObjectIID */;
+VALUES (7859, 8000, 0xC22A2154) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (7859, 0, 83888868, 83892155);

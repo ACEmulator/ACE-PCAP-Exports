@@ -41,23 +41,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29516,   1, 'Noble Coat of Health') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29516,   1,   33554642) /* Setup */
-     , (29516,   3,  536870932) /* SoundTable */
-     , (29516,   6,   67108990) /* PaletteBase */
-     , (29516,   8,  100677195) /* Icon */
-     , (29516,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29516,   1, 0x020000D2) /* Setup */
+     , (29516,   3, 0x20000014) /* SoundTable */
+     , (29516,   6, 0x0400007E) /* PaletteBase */
+     , (29516,   8, 0x0600364B) /* Icon */
+     , (29516,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29516, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (29516, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29516, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29516, 8000, 2980955912) /* PCAPRecordedObjectIID */;
+VALUES (29516, 8000, 0xB1ADC708) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29516,   297,      2)  /* AxeMasteryOther6 */
-     , (29516,   417,      2)  /* SwordMasteryOther6 */
-     , (29516,  2108,      2)  /* Impenetrability7 */
-     , (29516,  3576,      2)  /* PerfectHealth */;
+VALUES (29516,   417,      2)  /* HeavyWeaponsMasteryOther6 */
+     , (29516,   297,      2)  /* LightWeaponsMasteryOther6 */
+     , (29516,  3576,      2)  /* PerfectHealth */
+     , (29516,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29516, 67115398, 186, 66);

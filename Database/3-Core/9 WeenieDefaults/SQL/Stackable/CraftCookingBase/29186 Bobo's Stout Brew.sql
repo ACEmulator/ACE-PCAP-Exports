@@ -26,14 +26,14 @@ VALUES (29186,   1, 'Bobo''s Stout Brew') /* Name */
      , (29186,  20, 'Bobo''s Stout Brews') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29186,   1,   33559154) /* Setup */
-     , (29186,   3,  536870932) /* SoundTable */
-     , (29186,   8,  100686464) /* Icon */
-     , (29186,  22,  872415275) /* PhysicsEffectTable */
-     , (29186,  50,  100687554) /* IconOverlay */
+VALUES (29186,   1, 0x02001272) /* Setup */
+     , (29186,   3, 0x20000014) /* SoundTable */
+     , (29186,   8, 0x06005A80) /* Icon */
+     , (29186,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29186,  50, 0x06005EC2) /* IconOverlay */
      , (29186, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (29186, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29186, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29186, 8000, 3695132533) /* PCAPRecordedObjectIID */;
+VALUES (29186, 8000, 0xDC3F3F75) /* PCAPRecordedObjectIID */;

@@ -22,16 +22,16 @@ VALUES (6091,   1, 'Baishi Meeting Hall Portal') /* Name */
      , (6091, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6091,   1,   33554867) /* Setup */
-     , (6091,   2,  150994947) /* MotionTable */
-     , (6091,   8,  100667499) /* Icon */
+VALUES (6091,   1, 0x020001B3) /* Setup */
+     , (6091,   2, 0x09000003) /* MotionTable */
+     , (6091,   8, 0x0600106B) /* Icon */
      , (6091, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (6091, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (6091, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6091, 8040, 3443589518, 56.0944, 126.787, 55.937, -0.7208809, 0, 0, -0.693059) /* PCAPRecordedLocation */
+VALUES (6091, 8040, 0xCD41018E, 56.0944, 126.787, 55.937, -0.720881, 0, 0, -0.693059) /* PCAPRecordedLocation */
 /* @teleloc 0xCD41018E [56.094400 126.787000 55.937000] -0.720881 0.000000 0.000000 -0.693059 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6091, 8000, 2094272605) /* PCAPRecordedObjectIID */;
+VALUES (6091, 8000, 0x7CD4105D) /* PCAPRecordedObjectIID */;

@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34056,   1, 'Ritual Chest Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34056,   1,   33554784) /* Setup */
-     , (34056,   3,  536870932) /* SoundTable */
-     , (34056,   8,  100676957) /* Icon */
-     , (34056,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34056,   1, 0x02000160) /* Setup */
+     , (34056,   3, 0x20000014) /* SoundTable */
+     , (34056,   8, 0x0600355D) /* Icon */
+     , (34056,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34056, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (34056, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34056, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34056, 8000, 2179380386) /* PCAPRecordedObjectIID */;
+VALUES (34056, 8000, 0x81E6B4A2) /* PCAPRecordedObjectIID */;

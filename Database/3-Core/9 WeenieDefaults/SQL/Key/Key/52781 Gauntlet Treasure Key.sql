@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52781,   1, 'Gauntlet Treasure Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52781,   1,   33554784) /* Setup */
-     , (52781,   3,  536870932) /* SoundTable */
-     , (52781,   8,  100693319) /* Icon */
-     , (52781,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52781,   1, 0x02000160) /* Setup */
+     , (52781,   3, 0x20000014) /* SoundTable */
+     , (52781,   8, 0x06007547) /* Icon */
+     , (52781,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52781, 8001,    2641040) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden */
      , (52781, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52781, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52781, 8000, 3105016729) /* PCAPRecordedObjectIID */;
+VALUES (52781, 8000, 0xB912CB99) /* PCAPRecordedObjectIID */;

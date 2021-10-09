@@ -24,15 +24,15 @@ VALUES (22864,   1, 'Marshmallows') /* Name */
      , (22864,  20, 'Marshmallows') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22864,   1,   33554817) /* Setup */
-     , (22864,   6,   67111919) /* PaletteBase */
-     , (22864,   8,  100673876) /* Icon */
+VALUES (22864,   1, 0x02000181) /* Setup */
+     , (22864,   6, 0x04000BEF) /* PaletteBase */
+     , (22864,   8, 0x06002954) /* Icon */
      , (22864, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (22864, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (22864, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22864, 8000, 3709823000) /* PCAPRecordedObjectIID */;
+VALUES (22864, 8000, 0xDD1F6818) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22864, 67111926, 0, 0);

@@ -42,17 +42,17 @@ VALUES (31761,   1, 'Lightning Dericost Blade') /* Name */
      , (31761,  16, 'Lightning Dericost Blade') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31761,   1,   33559633) /* Setup */
-     , (31761,   3,  536870932) /* SoundTable */
-     , (31761,   6,   67116700) /* PaletteBase */
-     , (31761,   8,  100688000) /* Icon */
-     , (31761,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31761,   1, 0x02001451) /* Setup */
+     , (31761,   3, 0x20000014) /* SoundTable */
+     , (31761,   6, 0x04001E9C) /* PaletteBase */
+     , (31761,   8, 0x06006080) /* Icon */
+     , (31761,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31761, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31761, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31761, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31761, 8000, 3694063886) /* PCAPRecordedObjectIID */;
+VALUES (31761, 8000, 0xDC2EF10E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31761, 67116700, 1, 100)

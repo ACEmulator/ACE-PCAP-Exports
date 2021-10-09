@@ -15,6 +15,7 @@ VALUES (31335,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31335,  22, True ) /* Inscribable */
+     , (31335,  23, True ) /* DestroyOnSell */
      , (31335,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,13 +23,13 @@ VALUES (31335,   1, 'Blue Coral') /* Name */
      , (31335,  16, 'A chunk of Blue Coral.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31335,   1,   33554817) /* Setup */
-     , (31335,   3,  536870932) /* SoundTable */
-     , (31335,   8,  100687947) /* Icon */
-     , (31335,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31335,   1, 0x02000181) /* Setup */
+     , (31335,   3, 0x20000014) /* SoundTable */
+     , (31335,   8, 0x0600604B) /* Icon */
+     , (31335,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31335, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (31335, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31335, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31335, 8000, 3709139034) /* PCAPRecordedObjectIID */;
+VALUES (31335, 8000, 0xDD14F85A) /* PCAPRecordedObjectIID */;

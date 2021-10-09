@@ -24,7 +24,8 @@ VALUES (27370,   1,          1) /* ItemType - MeleeWeapon */
      , (27370, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27370,  22, True ) /* Inscribable */;
+VALUES (27370,  22, True ) /* Inscribable */
+     , (27370,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27370,  21,       0) /* WeaponLength */
@@ -40,16 +41,16 @@ VALUES (27370,   1, 'Korua') /* Name */
      , (27370,  16, 'A beautifully carved cestus. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27370,   1,   33558664) /* Setup */
-     , (27370,   3,  536870932) /* SoundTable */
-     , (27370,   8,  100676366) /* Icon */
-     , (27370,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27370,   1, 0x02001088) /* Setup */
+     , (27370,   3, 0x20000014) /* SoundTable */
+     , (27370,   8, 0x0600330E) /* Icon */
+     , (27370,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27370, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27370, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27370, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27370, 8000, 2284531652) /* PCAPRecordedObjectIID */;
+VALUES (27370, 8000, 0x882B2FC4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (27370, 0, 83893670, 83893699)

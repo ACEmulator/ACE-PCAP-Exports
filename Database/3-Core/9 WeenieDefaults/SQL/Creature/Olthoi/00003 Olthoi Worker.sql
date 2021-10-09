@@ -22,22 +22,22 @@ VALUES (3,   1, 'Olthoi Worker') /* Name */
      , (3, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3,   1,   33557164) /* Setup */
-     , (3,   2,  150994946) /* MotionTable */
-     , (3,   3,  536870925) /* SoundTable */
-     , (3,   6,   67113236) /* PaletteBase */
-     , (3,   8,  100667623) /* Icon */
-     , (3,  22,  872415265) /* PhysicsEffectTable */
+VALUES (3,   1, 0x02000AAC) /* Setup */
+     , (3,   2, 0x09000002) /* MotionTable */
+     , (3,   3, 0x2000000D) /* SoundTable */
+     , (3,   6, 0x04001114) /* PaletteBase */
+     , (3,   8, 0x060010E7) /* Icon */
+     , (3,  22, 0x34000021) /* PhysicsEffectTable */
      , (3, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (3, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (3, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3, 8040, 2519597119, 190.0758, 163.6351, 53.43286, -0.9041371, 0, 0, -0.4272425) /* PCAPRecordedLocation */
+VALUES (3, 8040, 0x962E003F, 190.0758, 163.6351, 53.43286, -0.904137, 0, 0, -0.427243) /* PCAPRecordedLocation */
 /* @teleloc 0x962E003F [190.075800 163.635100 53.432860] -0.904137 0.000000 0.000000 -0.427243 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3, 8000, 3685536278) /* PCAPRecordedObjectIID */;
+VALUES (3, 8000, 0xDBACD216) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (3,   1, 265, 0, 0) /* Strength */
@@ -427,7 +427,9 @@ VALUES (3, 9, 20482,  0, 0, 0, False) /* Create Scroll of Astyrrian's Gift (2048
      , (3, 9,  5960,  0, 0, 0, False) /* Create Scroll of Cooking Mastery Self V (5960) for ContainTreasure */
      , (3, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
      , (3, 9, 45101,  0, 0, 0, False) /* Create Lightning Epee (45101) for ContainTreasure */
-     , (3, 9, 40822,  0, 0, 0, False) /* Create Frost Corsesca (40822) for ContainTreasure */;
+     , (3, 9, 40822,  0, 0, 0, False) /* Create Frost Corsesca (40822) for ContainTreasure */
+     , (3, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */
+     , (3, 9, 20552,  0, 0, 0, False) /* Create Scroll of Wrath of Harlune (20552) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3, 67113315, 0, 0);

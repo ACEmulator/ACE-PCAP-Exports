@@ -33,17 +33,17 @@ VALUES (12019,   1, 'Robe of the Tundra') /* Name */
      , (12019,  16, 'A robe crafted from a mattekar hide.  It has some natural padding in it that makes it more resistant to damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12019,   1,   33554854) /* Setup */
-     , (12019,   3,  536870932) /* SoundTable */
-     , (12019,   6,   67108990) /* PaletteBase */
-     , (12019,   8,  100672230) /* Icon */
-     , (12019,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12019,   1, 0x020001A6) /* Setup */
+     , (12019,   3, 0x20000014) /* SoundTable */
+     , (12019,   6, 0x0400007E) /* PaletteBase */
+     , (12019,   8, 0x060022E6) /* Icon */
+     , (12019,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12019, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (12019, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12019, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12019, 8000, 2186220389) /* PCAPRecordedObjectIID */;
+VALUES (12019, 8000, 0x824F1365) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12019, 67113393, 40, 40)

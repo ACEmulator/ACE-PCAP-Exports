@@ -24,13 +24,13 @@ VALUES (3192,   1, 'Scroll of Creature Enchantment Ineptitude VI') /* Name */
 Decreases the target''s Creature Enchantment skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3192,   1,   33554826) /* Setup */
-     , (3192,   8,  100676453) /* Icon */
-     , (3192,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3192,   1, 0x0200018A) /* Setup */
+     , (3192,   8, 0x06003365) /* Icon */
+     , (3192,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3192,  28,        574) /* Spell - CreatureEnchantmentIneptitudeOther6 */
      , (3192, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3192, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3192, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3192, 8000, 3699069321) /* PCAPRecordedObjectIID */;
+VALUES (3192, 8000, 0xDC7B5189) /* PCAPRecordedObjectIID */;

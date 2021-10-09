@@ -35,20 +35,20 @@ VALUES (27388,   1, 'Dark Towers') /* Name */
      , (27388,  16, 'Take heed! With the loss of our Lord, many shadows seek leadership other than the old generals. A new dark power is rising near the crater where our Lord was first imprisoned. Come and bask in the dark glory! We shall rise anew and consume this land with darkness!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27388,   1,   33556769) /* Setup */
-     , (27388,   3,  536870932) /* SoundTable */
-     , (27388,   6,   67111919) /* PaletteBase */
-     , (27388,   8,  100668364) /* Icon */
-     , (27388,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27388,   1, 0x02000921) /* Setup */
+     , (27388,   3, 0x20000014) /* SoundTable */
+     , (27388,   6, 0x04000BEF) /* PaletteBase */
+     , (27388,   8, 0x060013CC) /* Icon */
+     , (27388,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27388,  28,        157) /* Spell - SummonPortal1 */
-     , (27388,  50,  100676404) /* IconOverlay */
+     , (27388,  50, 0x06003334) /* IconOverlay */
      , (27388, 8001, 1349021720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (27388, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (27388, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (27388, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27388, 8000, 2148339199) /* PCAPRecordedObjectIID */;
+VALUES (27388, 8000, 0x800D0DFF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27388, 67111924, 0, 0);

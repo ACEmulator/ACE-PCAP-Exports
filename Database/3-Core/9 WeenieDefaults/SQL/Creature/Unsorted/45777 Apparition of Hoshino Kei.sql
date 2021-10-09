@@ -25,20 +25,20 @@ VALUES (45777,   1, 'Apparition of Hoshino Kei') /* Name */
      , (45777, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45777,   1,   33554510) /* Setup */
-     , (45777,   2,  150994945) /* MotionTable */
-     , (45777,   3,  536870914) /* SoundTable */
-     , (45777,   8,  100667446) /* Icon */
+VALUES (45777,   1, 0x0200004E) /* Setup */
+     , (45777,   2, 0x09000001) /* MotionTable */
+     , (45777,   3, 0x20000002) /* SoundTable */
+     , (45777,   8, 0x06001036) /* Icon */
      , (45777, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (45777, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (45777, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45777, 8040, 1498284594, 191.1419, -16.7028, -77.995, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (45777, 8040, 0x594E0232, 191.1419, -16.7028, -77.995, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x594E0232 [191.141900 -16.702800 -77.995000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45777, 8000, 3695151798) /* PCAPRecordedObjectIID */;
+VALUES (45777, 8000, 0xDC3F8AB6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (45777, 0, 16796578)

@@ -35,22 +35,22 @@ VALUES (49517,   1, 'Iaret') /* Name */
      , (49517, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49517,   1,   33561104) /* Setup */
-     , (49517,   2,  150995463) /* MotionTable */
-     , (49517,   3,  536870914) /* SoundTable */
-     , (49517,   6,   67108990) /* PaletteBase */
-     , (49517,   8,  100691501) /* Icon */
-     , (49517,  22,  872415236) /* PhysicsEffectTable */
+VALUES (49517,   1, 0x02001A10) /* Setup */
+     , (49517,   2, 0x09000207) /* MotionTable */
+     , (49517,   3, 0x20000002) /* SoundTable */
+     , (49517,   6, 0x0400007E) /* PaletteBase */
+     , (49517,   8, 0x06006E2D) /* Icon */
+     , (49517,  22, 0x34000004) /* PhysicsEffectTable */
      , (49517, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (49517, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (49517, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49517, 8040, 2103705902, 85.3193, 89.8775, 15.20575, 0.999736, 0, 0, -0.0229798) /* PCAPRecordedLocation */
+VALUES (49517, 8040, 0x7D64012E, 85.3193, 89.8775, 15.20575, 0.999736, 0, 0, -0.02298) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64012E [85.319300 89.877500 15.205750] 0.999736 0.000000 0.000000 -0.022980 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49517, 8000, 2010529913) /* PCAPRecordedObjectIID */;
+VALUES (49517, 8000, 0x77D64079) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49517,   1,  20, 0, 0) /* Strength */
@@ -72,13 +72,7 @@ VALUES (49517, 4, 48886, -1, 0, 0, False) /* Create Mud Golem Essence (48886) fo
      , (49517, 4, 48888, -1, 0, 0, False) /* Create Oak Golem Essence (48888) for Shop */
      , (49517, 4, 48882, -1, 0, 0, False) /* Create Gold Golem Essence (48882) for Shop */
      , (49517, 4, 48880, -1, 0, 0, False) /* Create Coral Golem Essence (48880) for Shop */
-     , (49517, 4, 48884, -1, 0, 0, False) /* Create Iron Golem Essence (48884) for Shop */
-     , (49517, 4, 49421, -1, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for Shop */
-     , (49517, 4, 49345, -1, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for Shop */
-     , (49517, 4, 49538, -1, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for Shop */
-     , (49517, 4, 49442, -1, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for Shop */
-     , (49517, 4, 49296, -1, 0, 0, False) /* Create Fire K'nath Essence (50) (49296) for Shop */
-     , (49517, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */;
+     , (49517, 4, 48884, -1, 0, 0, False) /* Create Iron Golem Essence (48884) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49517, 67116955, 0, 24)

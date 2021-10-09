@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7053,   1, 'Bone Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7053,   1,   33556603) /* Setup */
-     , (7053,   3,  536870932) /* SoundTable */
-     , (7053,   8,  100670727) /* Icon */
-     , (7053,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7053,   1, 0x0200087B) /* Setup */
+     , (7053,   3, 0x20000014) /* SoundTable */
+     , (7053,   8, 0x06001D07) /* Icon */
+     , (7053,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7053, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7053, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7053, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7053, 8000, 3710972939) /* PCAPRecordedObjectIID */;
+VALUES (7053, 8000, 0xDD30F40B) /* PCAPRecordedObjectIID */;

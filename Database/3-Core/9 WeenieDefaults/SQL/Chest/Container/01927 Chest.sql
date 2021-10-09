@@ -27,21 +27,21 @@ VALUES (1927,   1, 'Chest') /* Name */
      , (1927, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1927,   1,   33554556) /* Setup */
-     , (1927,   2,  150994948) /* MotionTable */
-     , (1927,   3,  536870945) /* SoundTable */
-     , (1927,   8,  100667424) /* Icon */
-     , (1927,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1927,   1, 0x0200007C) /* Setup */
+     , (1927,   2, 0x09000004) /* MotionTable */
+     , (1927,   3, 0x20000021) /* SoundTable */
+     , (1927,   8, 0x06001020) /* Icon */
+     , (1927,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1927, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (1927, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (1927, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1927, 8040, 3311010050, 132, 67.637, 0.7999999, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (1927, 8040, 0xC55A0102, 132, 67.637, 0.8, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xC55A0102 [132.000000 67.637000 0.800000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1927, 8000, 2085986308) /* PCAPRecordedObjectIID */;
+VALUES (1927, 8000, 0x7C55A004) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1927, -1, 296, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Crown (296) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -24,13 +24,13 @@ VALUES (7511,   1, 'Scroll of Cassius'' Ring of Fire') /* Name */
 Shoots eight waves of flame outward from the caster. Each wave does 42-84 points of fire damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7511,   1,   33554826) /* Setup */
-     , (7511,   8,  100677021) /* Icon */
-     , (7511,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7511,   1, 0x0200018A) /* Setup */
+     , (7511,   8, 0x0600359D) /* Icon */
+     , (7511,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7511,  28,       1785) /* Spell - FlameRing */
      , (7511, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (7511, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7511, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7511, 8000, 2226898125) /* PCAPRecordedObjectIID */;
+VALUES (7511, 8000, 0x84BBC4CD) /* PCAPRecordedObjectIID */;

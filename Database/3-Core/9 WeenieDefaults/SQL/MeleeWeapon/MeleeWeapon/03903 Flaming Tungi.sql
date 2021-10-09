@@ -61,23 +61,23 @@ VALUES (3903,   1, 'Flaming Tungi') /* Name */
      , (3903,  40, 'Olthoi king''s mage') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3903,   1,   33555811) /* Setup */
-     , (3903,   3,  536870932) /* SoundTable */
-     , (3903,   8,  100669062) /* Icon */
-     , (3903,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3903,   1, 0x02000563) /* Setup */
+     , (3903,   3, 0x20000014) /* SoundTable */
+     , (3903,   8, 0x06001686) /* Icon */
+     , (3903,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3903,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (3903,  50,  100689143) /* IconOverlay */
-     , (3903,  52,  100676441) /* IconUnderlay */
+     , (3903,  50, 0x060064F7) /* IconOverlay */
+     , (3903,  52, 0x06003359) /* IconUnderlay */
      , (3903, 8001, 3508617880) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (3903, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (3903, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (3903, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3903, 8000, 2651194298) /* PCAPRecordedObjectIID */;
+VALUES (3903, 8000, 0x9E0603BA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3903,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (3903,  4405,      2)  /* HeartSeekerSelf8 */
+VALUES (3903,  6089,      2)  /* CantripBloodThirst4 */
+     , (3903,  4395,      2)  /* BloodDrinkerSelf8 */
      , (3903,  4911,      2)  /* CANTRIPARMOR3 */
-     , (3903,  6089,      2)  /* CantripBloodThirst4 */;
+     , (3903,  4405,      2)  /* HeartSeekerSelf8 */;

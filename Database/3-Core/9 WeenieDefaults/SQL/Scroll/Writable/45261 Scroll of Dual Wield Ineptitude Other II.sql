@@ -24,13 +24,13 @@ VALUES (45261,   1, 'Scroll of Dual Wield Ineptitude Other II') /* Name */
 Decreases the target''s Dual Wield skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45261,   1,   33554826) /* Setup */
-     , (45261,   8,  100692251) /* Icon */
-     , (45261,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45261,   1, 0x0200018A) /* Setup */
+     , (45261,   8, 0x0600711B) /* Icon */
+     , (45261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45261,  28,       5788) /* Spell - DualWieldIneptitudeOther2 */
      , (45261, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45261, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45261, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45261, 8000, 2617658887) /* PCAPRecordedObjectIID */;
+VALUES (45261, 8000, 0x9C064E07) /* PCAPRecordedObjectIID */;

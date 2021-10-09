@@ -20,7 +20,8 @@ VALUES (29511,   1,          8) /* ItemType - Jewelry */
      , (29511, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29511,  22, True ) /* Inscribable */;
+VALUES (29511,  22, True ) /* Inscribable */
+     , (29511,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29511,   5,  -0.033) /* ManaRate */
@@ -31,16 +32,16 @@ VALUES (29511,   1, 'Medallion of the Red Bull') /* Name */
      , (29511,  16, 'A medallion embossed with the design of the Red Bull of Sanamar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29511,   1,   33554680) /* Setup */
-     , (29511,   3,  536870932) /* SoundTable */
-     , (29511,   8,  100686514) /* Icon */
-     , (29511,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29511,   1, 0x020000F8) /* Setup */
+     , (29511,   3, 0x20000014) /* SoundTable */
+     , (29511,   8, 0x06005AB2) /* Icon */
+     , (29511,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29511, 8001,    2179088) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden */
      , (29511, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29511, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29511, 8000, 3455188025) /* PCAPRecordedObjectIID */;
+VALUES (29511, 8000, 0xCDF1FC39) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29511,  1311,      2)  /* ArmorSelf5 */

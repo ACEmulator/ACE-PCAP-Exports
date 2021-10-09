@@ -24,13 +24,13 @@ VALUES (7521,   1, 'Scroll of Os'' Wall') /* Name */
 Sends a wall of five bolts of lightning, two high, slowly towards the target. Each ball does 35-70 points of electric damage to the first thing it hits. The wall is created 2 meters in front of the caster. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7521,   1,   33554826) /* Setup */
-     , (7521,   8,  100677011) /* Icon */
-     , (7521,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7521,   1, 0x0200018A) /* Setup */
+     , (7521,   8, 0x06003593) /* Icon */
+     , (7521,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7521,  28,       1844) /* Spell - LightningWall */
      , (7521, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (7521, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7521, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7521, 8000, 2192288890) /* PCAPRecordedObjectIID */;
+VALUES (7521, 8000, 0x82ABAC7A) /* PCAPRecordedObjectIID */;

@@ -21,17 +21,17 @@ VALUES (9353,   1, 'Concentrated Mana Infusion') /* Name */
      , (9353,  20, 'Concentrated Mana Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9353,   1,   33555965) /* Setup */
-     , (9353,   3,  536870932) /* SoundTable */
-     , (9353,   6,   67111919) /* PaletteBase */
-     , (9353,   8,  100671579) /* Icon */
-     , (9353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9353,   1, 0x020005FD) /* Setup */
+     , (9353,   3, 0x20000014) /* SoundTable */
+     , (9353,   6, 0x04000BEF) /* PaletteBase */
+     , (9353,   8, 0x0600205B) /* Icon */
+     , (9353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9353, 8001,  268988441) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, HookType */
      , (9353, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9353, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9353, 8000, 2166170217) /* PCAPRecordedObjectIID */;
+VALUES (9353, 8000, 0x811D2269) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9353, 67111919, 0, 0);

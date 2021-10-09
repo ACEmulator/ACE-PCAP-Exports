@@ -31,11 +31,11 @@ VALUES (32081,   1, 'Redspire Portal Gem') /* Name */
      , (32081,  16, 'Use this gem to summon a short-lived portal to Redspire.  This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32081,   1,   33556769) /* Setup */
-     , (32081,   3,  536870932) /* SoundTable */
-     , (32081,   6,   67111919) /* PaletteBase */
-     , (32081,   8,  100674856) /* Icon */
-     , (32081,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32081,   1, 0x02000921) /* Setup */
+     , (32081,   3, 0x20000014) /* SoundTable */
+     , (32081,   6, 0x04000BEF) /* PaletteBase */
+     , (32081,   8, 0x06002D28) /* Icon */
+     , (32081,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32081,  28,        157) /* Spell - SummonPortal1 */
      , (32081, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (32081, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -43,7 +43,7 @@ VALUES (32081,   1,   33556769) /* Setup */
      , (32081, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32081, 8000, 2158698254) /* PCAPRecordedObjectIID */;
+VALUES (32081, 8000, 0x80AB1F0E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32081, 67111922, 0, 0);

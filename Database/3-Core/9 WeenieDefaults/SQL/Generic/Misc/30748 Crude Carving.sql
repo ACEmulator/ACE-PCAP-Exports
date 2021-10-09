@@ -21,13 +21,13 @@ VALUES (30748,   1, 'Crude Carving') /* Name */
      , (30748,  16, 'A small, square piece of wood. A face is carved on the top of it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30748,   1,   33559208) /* Setup */
-     , (30748,   3,  536870932) /* SoundTable */
-     , (30748,   8,  100677391) /* Icon */
-     , (30748,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30748,   1, 0x020012A8) /* Setup */
+     , (30748,   3, 0x20000014) /* SoundTable */
+     , (30748,   8, 0x0600370F) /* Icon */
+     , (30748,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30748, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (30748, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30748, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30748, 8000, 2570838710) /* PCAPRecordedObjectIID */;
+VALUES (30748, 8000, 0x993BE2B6) /* PCAPRecordedObjectIID */;

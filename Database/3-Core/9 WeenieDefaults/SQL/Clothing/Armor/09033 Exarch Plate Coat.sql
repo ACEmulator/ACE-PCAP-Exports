@@ -41,26 +41,27 @@ VALUES (9033,   1, 'Exarch Plate Coat') /* Name */
      , (9033,  25, 'Alto Voltaje') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9033,   1,   33554644) /* Setup */
-     , (9033,   3,  536870932) /* SoundTable */
-     , (9033,   6,   67108990) /* PaletteBase */
-     , (9033,   8,  100671343) /* Icon */
-     , (9033,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9033,   1, 0x020000D4) /* Setup */
+     , (9033,   3, 0x20000014) /* SoundTable */
+     , (9033,   6, 0x0400007E) /* PaletteBase */
+     , (9033,   8, 0x06001F6F) /* Icon */
+     , (9033,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9033,  41,         34) /* ItemSpecializedOnly - WarMagic */
      , (9033, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
      , (9033, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9033, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9033, 8040, 23855549, 51.54626, -38.16533, -0.004999995, 0.08194411, 0, 0, -0.9966369) /* PCAPRecordedLocation */
+VALUES (9033, 8040, 0x016C01BD, 51.54626, -38.16533, -0.005, 0.081944, 0, 0, -0.996637) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [51.546260 -38.165330 -0.005000] 0.081944 0.000000 0.000000 -0.996637 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9033, 8000, 3605812585) /* PCAPRecordedObjectIID */;
+VALUES (9033, 8000, 0xD6EC5569) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9033,   664,      2)  /* ManaMasteryOther6 */
+VALUES (9033,  2377,      2)  /* AnnihilationVision */
      , (9033,   908,      2)  /* LeadershipMasteryOther5 */
+     , (9033,   664,      2)  /* ManaMasteryOther6 */
      , (9033,  2349,      2)  /* HieroWard */
      , (9033,  2350,      2)  /* DecayDurance */
      , (9033,  2351,      2)  /* ConsumptionDurance */
@@ -68,8 +69,7 @@ VALUES (9033,   664,      2)  /* ManaMasteryOther6 */
      , (9033,  2353,      2)  /* StimulationDurance */
      , (9033,  2354,      2)  /* PiercingDuranceLess */
      , (9033,  2355,      2)  /* SlashingDuranceLess */
-     , (9033,  2356,      2)  /* BludgeoningDuranceLess */
-     , (9033,  2377,      2)  /* AnnihilationVision */;
+     , (9033,  2356,      2)  /* BludgeoningDuranceLess */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9033, 67113131, 96, 12)

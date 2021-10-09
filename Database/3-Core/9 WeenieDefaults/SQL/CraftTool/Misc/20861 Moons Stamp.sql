@@ -27,17 +27,17 @@ VALUES (20861,   1, 'Moons Stamp') /* Name */
      , (20861,  15, 'A stamp with the Symbol of the moons Aub''arel and Rez''arel.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20861,   1,   33556922) /* Setup */
-     , (20861,   3,  536870932) /* SoundTable */
-     , (20861,   8,  100673243) /* Icon */
-     , (20861,  22,  872415275) /* PhysicsEffectTable */
-     , (20861,  50,  100673170) /* IconOverlay */
+VALUES (20861,   1, 0x020009BA) /* Setup */
+     , (20861,   3, 0x20000014) /* SoundTable */
+     , (20861,   8, 0x060026DB) /* Icon */
+     , (20861,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20861,  50, 0x06002692) /* IconOverlay */
      , (20861, 8001, 1344827416) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType, IconOverlay */
      , (20861, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20861, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20861, 8000, 2174245771) /* PCAPRecordedObjectIID */;
+VALUES (20861, 8000, 0x81985B8B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20861, 0, 83892954, 83893871)

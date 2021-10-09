@@ -26,23 +26,23 @@ VALUES (44804,   1, 'Devourer Margul') /* Name */
      , (44804, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44804,   1,   33558554) /* Setup */
-     , (44804,   2,  150995263) /* MotionTable */
-     , (44804,   3,  536871080) /* SoundTable */
-     , (44804,   6,   67114728) /* PaletteBase */
-     , (44804,   8,  100675661) /* Icon */
-     , (44804,  22,  872415401) /* PhysicsEffectTable */
+VALUES (44804,   1, 0x0200101A) /* Setup */
+     , (44804,   2, 0x0900013F) /* MotionTable */
+     , (44804,   3, 0x200000A8) /* SoundTable */
+     , (44804,   6, 0x040016E8) /* PaletteBase */
+     , (44804,   8, 0x0600304D) /* Icon */
+     , (44804,  22, 0x340000A9) /* PhysicsEffectTable */
      , (44804,  30,         87) /* PhysicsScript - BreatheLightning */
      , (44804, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44804, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44804, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44804, 8040, 4133224506, 180.826, 33.04121, 20.00124, -0.6602979, 0, 0, -0.7510038) /* PCAPRecordedLocation */
+VALUES (44804, 8040, 0xF65C003A, 180.826, 33.04121, 20.00124, -0.660298, 0, 0, -0.751004) /* PCAPRecordedLocation */
 /* @teleloc 0xF65C003A [180.826000 33.041210 20.001240] -0.660298 0.000000 0.000000 -0.751004 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44804, 8000, 3710680197) /* PCAPRecordedObjectIID */;
+VALUES (44804, 8000, 0xDD2C7C85) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44804,   1, 200, 0, 0) /* Strength */
@@ -383,7 +383,25 @@ VALUES (44804, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield *
      , (44804, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
      , (44804, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
      , (44804, 9,  4194,  0, 0, 0, False) /* Create Lightning Cestus (4194) for ContainTreasure */
-     , (44804, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */;
+     , (44804, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
+     , (44804, 9, 21336,  0, 0, 0, False) /* Create Scroll of Shock Arc VII (21336) for ContainTreasure */
+     , (44804, 9, 20440,  0, 0, 0, False) /* Create Scroll of Ilservian's Flame (20440) for ContainTreasure */
+     , (44804, 9, 37209,  0, 0, 0, False) /* Create Olthoi Celdon Sollerets (37209) for ContainTreasure */
+     , (44804, 9, 20476,  0, 0, 0, False) /* Create Scroll of Gelidite's Gift (20476) for ContainTreasure */
+     , (44804, 9, 45266,  0, 0, 0, False) /* Create Scroll of Dual Wield Ineptitude Other VII (45266) for ContainTreasure */
+     , (44804, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (44804, 9,    98,  0, 0, 0, False) /* Create Scalemail Shirt (98) for ContainTreasure */
+     , (44804, 9, 21329,  0, 0, 0, False) /* Create Scroll of Lightning Arc VII (21329) for ContainTreasure */
+     , (44804, 9, 30583,  0, 0, 0, False) /* Create Flaming Mazule (30583) for ContainTreasure */
+     , (44804, 9, 31818,  0, 0, 0, False) /* Create Piercing Slingshot (31818) for ContainTreasure */
+     , (44804, 9, 31780,  0, 0, 0, False) /* Create Acid Spine Glaive (31780) for ContainTreasure */
+     , (44804, 9, 45101,  0, 0, 0, False) /* Create Lightning Epee (45101) for ContainTreasure */
+     , (44804, 9, 37355,  1, 0, 0, False) /* Create Ink of Objectification (37355) for ContainTreasure */
+     , (44804, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (44804, 9, 37353,  1, 0, 0, False) /* Create Ink of Formation (37353) for ContainTreasure */
+     , (44804, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */
+     , (44804, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (44804, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44804, 67114729, 0, 0);

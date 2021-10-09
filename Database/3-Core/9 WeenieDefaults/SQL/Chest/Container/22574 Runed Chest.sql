@@ -28,21 +28,21 @@ VALUES (22574,   1, 'Runed Chest') /* Name */
      , (22574, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22574,   1,   33558095) /* Setup */
-     , (22574,   2,  150994948) /* MotionTable */
-     , (22574,   3,  536870945) /* SoundTable */
-     , (22574,   8,  100667424) /* Icon */
-     , (22574,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22574,   1, 0x02000E4F) /* Setup */
+     , (22574,   2, 0x09000004) /* MotionTable */
+     , (22574,   3, 0x20000021) /* SoundTable */
+     , (22574,   8, 0x06001020) /* Icon */
+     , (22574,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22574, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (22574, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (22574, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22574, 8040, 28508476, 19.1614, -30.5387, 6, -0.3725821, 0, 0, -0.9279993) /* PCAPRecordedLocation */
+VALUES (22574, 8040, 0x01B3013C, 19.1614, -30.5387, 6, -0.372582, 0, 0, -0.927999) /* PCAPRecordedLocation */
 /* @teleloc 0x01B3013C [19.161400 -30.538700 6.000000] -0.372582 0.000000 0.000000 -0.927999 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22574, 8000, 1880830002) /* PCAPRecordedObjectIID */;
+VALUES (22574, 8000, 0x701B3032) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22574, -1, 25647, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Leather Pants (25647) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

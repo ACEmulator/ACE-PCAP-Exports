@@ -40,26 +40,26 @@ VALUES (30546,   1, 'Coat of the Zaikhal Defender') /* Name */
      , (30546,  16, 'A coat of Alduressa plate, forged with the strength of General Corcima''s own armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30546,   1,   33559338) /* Setup */
-     , (30546,   3,  536870932) /* SoundTable */
-     , (30546,   6,   67108990) /* PaletteBase */
-     , (30546,   8,  100686226) /* Icon */
-     , (30546,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30546,   1, 0x0200132A) /* Setup */
+     , (30546,   3, 0x20000014) /* SoundTable */
+     , (30546,   6, 0x0400007E) /* PaletteBase */
+     , (30546,   8, 0x06005992) /* Icon */
+     , (30546,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30546, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (30546, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30546, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30546, 8000, 2982964687) /* PCAPRecordedObjectIID */;
+VALUES (30546, 8000, 0xB1CC6DCF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30546,  2108,      2)  /* Impenetrability7 */
-     , (30546,  2243,      2)  /* ImpregnabilitySelf7 */
+VALUES (30546,  2243,      2)  /* ImpregnabilitySelf7 */
      , (30546,  2245,      2)  /* InvulnerabilitySelf7 */
-     , (30546,  2281,      2)  /* MagicResistanceSelf7 */
      , (30546,  2575,      2)  /* CANTRIPQUICKNESS2 */
      , (30546,  2583,      2)  /* CANTRIPSTRENGTH1 */
-     , (30546,  2659,      2)  /* ModerateCoordination */;
+     , (30546,  2659,      2)  /* ModerateCoordination */
+     , (30546,  2281,      2)  /* MagicResistanceSelf7 */
+     , (30546,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30546, 67116325, 108, 8)

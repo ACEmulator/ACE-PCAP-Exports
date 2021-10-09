@@ -8,7 +8,6 @@ VALUES (45977,   1,          2) /* ItemType - Armor */
      , (45977,   4,        256) /* ClothingPriority - OuterwearUpperLegs */
      , (45977,   5,        450) /* EncumbranceVal */
      , (45977,   9,       8192) /* ValidLocations - UpperLegArmor */
-     , (45977,  10,       8192) /* CurrentWieldedLocation - UpperLegArmor */
      , (45977,  16,          1) /* ItemUseable - No */
      , (45977,  19,        100) /* Value */
      , (45977,  28,        480) /* ArmorLevel */
@@ -26,6 +25,7 @@ VALUES (45977,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45977,  22, True ) /* Inscribable */
+     , (45977,  23, True ) /* DestroyOnSell */
      , (45977,  99, True ) /* Ivoryable */
      , (45977, 100, True ) /* Dyable */;
 
@@ -45,23 +45,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45977,   1, 'Leather Tassets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45977,   1,   33554656) /* Setup */
-     , (45977,   3,  536870932) /* SoundTable */
-     , (45977,   6,   67108990) /* PaletteBase */
-     , (45977,   8,  100675454) /* Icon */
-     , (45977,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45977,   1, 0x020000E0) /* Setup */
+     , (45977,   3, 0x20000014) /* SoundTable */
+     , (45977,   6, 0x0400007E) /* PaletteBase */
+     , (45977,   8, 0x06002F7E) /* Icon */
+     , (45977,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45977, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (45977, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45977, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45977, 8000, 3057183309) /* PCAPRecordedObjectIID */;
+VALUES (45977, 8000, 0xB638EA4D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45977,  1096,      2)  /* FireProtectionOther6 */
      , (45977,  1486,      2)  /* Impenetrability6 */
-     , (45977,  2601,      2)  /* CANTRIPFLAMEBANE1 */
      , (45977,  5776,      2)  /* DirtyFightingMasteryOther6 */
+     , (45977,  2601,      2)  /* CANTRIPFLAMEBANE1 */
      , (45977,  5872,      2)  /* SneakAttackMasteryOther6 */
      , (45977,  5887,      2)  /* CantripSneakAttackProwess1 */;
 

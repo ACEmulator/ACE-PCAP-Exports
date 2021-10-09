@@ -19,7 +19,8 @@ VALUES (43701,   1,        128) /* ItemType - Misc */
      , (43701, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43701,  22, True ) /* Inscribable */;
+VALUES (43701,  22, True ) /* Inscribable */
+     , (43701,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43701, 100,     2.5) /* HealkitMod */;
@@ -29,16 +30,16 @@ VALUES (43701,   1, 'Olthoi Fibrous Healing Tissue') /* Name */
      , (43701,  16, 'Use this item to recover your Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43701,   1,   33555194) /* Setup */
-     , (43701,   8,  100691638) /* Icon */
-     , (43701,  52,  100686604) /* IconUnderlay */
+VALUES (43701,   1, 0x020002FA) /* Setup */
+     , (43701,   8, 0x06006EB6) /* Icon */
+     , (43701,  52, 0x06005B0C) /* IconUnderlay */
      , (43701, 8001,  271076368) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden, HookType */
      , (43701, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (43701, 8003,   67174418) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer, IncludesSecondHeader */
      , (43701, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43701, 8000, 3622211808) /* PCAPRecordedObjectIID */;
+VALUES (43701, 8000, 0xD7E690E0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43701, 0, 83889681, 83894377)

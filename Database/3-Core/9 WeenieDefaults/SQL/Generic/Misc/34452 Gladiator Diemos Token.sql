@@ -14,20 +14,21 @@ VALUES (34452,   1,        128) /* ItemType - Misc */
      , (34452, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34452,  22, True ) /* Inscribable */;
+VALUES (34452,  22, True ) /* Inscribable */
+     , (34452,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34452,   1, 'Gladiator Diemos Token') /* Name */
      , (34452,  16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34452,   1,   33554817) /* Setup */
-     , (34452,   3,  536870932) /* SoundTable */
-     , (34452,   8,  100689380) /* Icon */
-     , (34452,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34452,   1, 0x02000181) /* Setup */
+     , (34452,   3, 0x20000014) /* SoundTable */
+     , (34452,   8, 0x060065E4) /* Icon */
+     , (34452,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34452, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (34452, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34452, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34452, 8000, 2931226141) /* PCAPRecordedObjectIID */;
+VALUES (34452, 8000, 0xAEB6F61D) /* PCAPRecordedObjectIID */;

@@ -14,7 +14,7 @@ VALUES (30877,   1,        256) /* ItemType - MissileWeapon */
      , (30877,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30877,  49,         20) /* WeaponTime */
      , (30877,  50,          4) /* AmmoType - Atlatl */
-     , (30877,  51,          2) /* CombatUse - Missle */
+     , (30877,  51,          2) /* CombatUse - Missile */
      , (30877,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30877, 106,        250) /* ItemSpellcraft */
      , (30877, 107,        800) /* ItemCurMana */
@@ -44,17 +44,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30877,   1, 'Banished Atlatl') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30877,   1,   33559261) /* Setup */
-     , (30877,   3,  536870932) /* SoundTable */
-     , (30877,   8,  100677478) /* Icon */
-     , (30877,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30877,   1, 0x020012DD) /* Setup */
+     , (30877,   3, 0x20000014) /* SoundTable */
+     , (30877,   8, 0x06003766) /* Icon */
+     , (30877,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30877, 8001,  270615320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (30877, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30877, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30877, 8000, 2174497430) /* PCAPRecordedObjectIID */;
+VALUES (30877, 8000, 0x819C3296) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30877,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (30877,  2540,      2)  /* CANTRIPBOWAPTITUDE1 */;
+     , (30877,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */;

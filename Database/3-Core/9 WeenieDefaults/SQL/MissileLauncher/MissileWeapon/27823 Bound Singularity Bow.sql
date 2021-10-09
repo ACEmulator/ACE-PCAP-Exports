@@ -16,7 +16,7 @@ VALUES (27823,   1,        256) /* ItemType - MissileWeapon */
      , (27823,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27823,  49,         50) /* WeaponTime */
      , (27823,  50,          1) /* AmmoType - Arrow */
-     , (27823,  51,          2) /* CombatUse - Missle */
+     , (27823,  51,          2) /* CombatUse - Missile */
      , (27823,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27823, 106,        200) /* ItemSpellcraft */
      , (27823, 107,        698) /* ItemCurMana */
@@ -32,7 +32,8 @@ VALUES (27823,   1,        256) /* ItemType - MissileWeapon */
      , (27823, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27823,  22, True ) /* Inscribable */;
+VALUES (27823,  22, True ) /* Inscribable */
+     , (27823,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27823,   5,  -0.033) /* ManaRate */
@@ -51,22 +52,22 @@ VALUES (27823,   1, 'Bound Singularity Bow') /* Name */
      , (27823,  15, 'A bow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27823,   1,   33558789) /* Setup */
-     , (27823,   3,  536870932) /* SoundTable */
-     , (27823,   6,   67111919) /* PaletteBase */
-     , (27823,   8,  100676581) /* Icon */
-     , (27823,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27823,   1, 0x02001105) /* Setup */
+     , (27823,   3, 0x20000014) /* SoundTable */
+     , (27823,   6, 0x04000BEF) /* PaletteBase */
+     , (27823,   8, 0x060033E5) /* Icon */
+     , (27823,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27823, 8001,    2179984) /* PCAPRecordedWeenieHeader - Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden */
      , (27823, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27823, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27823, 8000, 2693049749) /* PCAPRecordedObjectIID */;
+VALUES (27823, 8000, 0xA084AD95) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27823,  1384,      2)  /* CoordinationOther6 */
-     , (27823,  1605,      2)  /* DefenderSelf6 */
-     , (27823,  1616,      2)  /* BloodDrinkerSelf6 */;
+VALUES (27823,  1605,      2)  /* DefenderSelf6 */
+     , (27823,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (27823,  1384,      2)  /* CoordinationOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27823, 67111923, 0, 0);

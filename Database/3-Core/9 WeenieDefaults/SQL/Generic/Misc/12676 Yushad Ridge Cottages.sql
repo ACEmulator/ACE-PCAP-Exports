@@ -18,15 +18,15 @@ VALUES (12676,   1, 'Yushad Ridge Cottages') /* Name */
      , (12676,  16, 'Welcome to Yushad Ridge Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12676,   1,   33557463) /* Setup */
-     , (12676,   8,  100668115) /* Icon */
+VALUES (12676,   1, 0x02000BD7) /* Setup */
+     , (12676,   8, 0x060012D3) /* Icon */
      , (12676, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (12676, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12676, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12676, 8040, 2624585780, 162.502, 75.6202, 24.75985, 0.699593, 0, 0, 0.714541) /* PCAPRecordedLocation */
+VALUES (12676, 8040, 0x9C700034, 162.502, 75.6202, 24.75985, 0.699593, 0, 0, 0.714541) /* PCAPRecordedLocation */
 /* @teleloc 0x9C700034 [162.502000 75.620200 24.759850] 0.699593 0.000000 0.000000 0.714541 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12676, 8000, 2043084971) /* PCAPRecordedObjectIID */;
+VALUES (12676, 8000, 0x79C700AB) /* PCAPRecordedObjectIID */;

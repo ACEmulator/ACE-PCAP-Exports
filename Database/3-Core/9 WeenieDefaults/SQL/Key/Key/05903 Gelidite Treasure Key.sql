@@ -25,12 +25,12 @@ VALUES (5903,   1, 'Gelidite Treasure Key') /* Name */
      , (5903,  16, 'A magical key of crystal and iron, which unlocks the coffers of the Lost City of Frore.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5903,   1,   33554784) /* Setup */
-     , (5903,   8,  100668441) /* Icon */
-     , (5903,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5903,   1, 0x02000160) /* Setup */
+     , (5903,   8, 0x06001419) /* Icon */
+     , (5903,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5903, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (5903, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5903, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5903, 8000, 3678126697) /* PCAPRecordedObjectIID */;
+VALUES (5903, 8000, 0xDB3BC269) /* PCAPRecordedObjectIID */;

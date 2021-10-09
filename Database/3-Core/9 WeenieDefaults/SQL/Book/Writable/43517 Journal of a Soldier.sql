@@ -17,6 +17,9 @@ VALUES (43517,   1,       8192) /* ItemType - Writable */
      , (43517, 8042,          4) /* PCAPRecordedAppraisalPages */
      , (43517, 8043,          4) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (43517,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43517,  54,     0.3) /* UseRadius */;
 
@@ -24,17 +27,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43517,   1, 'Journal of a Soldier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43517,   1,   33554771) /* Setup */
-     , (43517,   3,  536870932) /* SoundTable */
-     , (43517,   8,  100668117) /* Icon */
-     , (43517,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43517,   1, 0x02000153) /* Setup */
+     , (43517,   3, 0x20000014) /* SoundTable */
+     , (43517,   8, 0x060012D5) /* Icon */
+     , (43517,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43517, 8001,  270532656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden, HookType */
      , (43517, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (43517, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43517, 8040, 1994981775, 102.253, 276.305, 95.782, 0.132282, 0, 0, -0.9912121) /* PCAPRecordedLocation */
+VALUES (43517, 8040, 0x76E9018F, 102.253, 276.305, 95.782, 0.132282, 0, 0, -0.991212) /* PCAPRecordedLocation */
 /* @teleloc 0x76E9018F [102.253000 276.305000 95.782000] 0.132282 0.000000 0.000000 -0.991212 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43517, 8000, 3706274388) /* PCAPRecordedObjectIID */;
+VALUES (43517, 8000, 0xDCE94254) /* PCAPRecordedObjectIID */;

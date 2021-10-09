@@ -50,27 +50,24 @@ VALUES (22159,   1, 'Acid Nabut') /* Name */
      , (22159,  16, 'Acid Nabut of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22159,   1,   33558072) /* Setup */
-     , (22159,   3,  536870932) /* SoundTable */
-     , (22159,   6,   67111919) /* PaletteBase */
-     , (22159,   8,  100673626) /* Icon */
-     , (22159,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22159,   1, 0x02000E38) /* Setup */
+     , (22159,   3, 0x20000014) /* SoundTable */
+     , (22159,   6, 0x04000BEF) /* PaletteBase */
+     , (22159,   8, 0x0600285A) /* Icon */
+     , (22159,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22159,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (22159,  52,  100676437) /* IconUnderlay */
+     , (22159,  52, 0x06003355) /* IconUnderlay */
      , (22159, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (22159, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (22159, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (22159, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22159, 8000, 2174542776) /* PCAPRecordedObjectIID */;
+VALUES (22159, 8000, 0x819CE3B8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22159,  1614,      2)  /* BloodDrinkerSelf4 */
      , (22159,  1626,      2)  /* SwiftKillerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22159, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22159, 67111919, 0, 0);

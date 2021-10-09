@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1860,   1, 'Scroll of Drain Stamina') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1860,   1,   33554826) /* Setup */
-     , (1860,   8,  100676933) /* Icon */
-     , (1860,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1860,   1, 0x0200018A) /* Setup */
+     , (1860,   8, 0x06003545) /* Icon */
+     , (1860,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1860,  28,       1249) /* Spell - DrainStamina1 */
      , (1860, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1860, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1860, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1860, 8000, 2617692241) /* PCAPRecordedObjectIID */;
+VALUES (1860, 8000, 0x9C06D051) /* PCAPRecordedObjectIID */;

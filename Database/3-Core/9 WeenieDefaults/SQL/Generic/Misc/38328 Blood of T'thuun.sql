@@ -15,6 +15,7 @@ VALUES (38328,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38328,  22, True ) /* Inscribable */
+     , (38328,  23, True ) /* DestroyOnSell */
      , (38328,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -26,21 +27,21 @@ VALUES (38328,   1, 'Blood of T''thuun') /* Name */
      , (38328,  16, 'Holding this bottle is a bad idea. It burns or freezes your skin and a whispers wash over you in volume, urging you to pop the stopper and drink the disgusting ichor. Best if you keep it in your backpack and handle it with thick gloves.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38328,   1,   33554603) /* Setup */
-     , (38328,   3,  536870932) /* SoundTable */
-     , (38328,   6,   67111919) /* PaletteBase */
-     , (38328,   8,  100689075) /* Icon */
-     , (38328,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38328,   1, 0x020000AB) /* Setup */
+     , (38328,   3, 0x20000014) /* SoundTable */
+     , (38328,   6, 0x04000BEF) /* PaletteBase */
+     , (38328,   8, 0x060064B3) /* Icon */
+     , (38328,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38328, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (38328, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38328, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38328, 8040, 14549269, 129.741, -99.8594, -34.9718, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (38328, 8040, 0x00DE0115, 129.741, -99.8594, -34.9718, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00DE0115 [129.741000 -99.859400 -34.971800] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38328, 8000, 2629629738) /* PCAPRecordedObjectIID */;
+VALUES (38328, 8000, 0x9CBCF72A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38328, 67111922, 0, 0);

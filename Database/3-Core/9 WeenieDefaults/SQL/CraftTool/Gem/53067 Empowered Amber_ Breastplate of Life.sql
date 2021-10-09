@@ -22,17 +22,17 @@ VALUES (53067,   1, 'Empowered Amber: Breastplate of Life') /* Name */
      , (53067,  20, 'Empowered Ambers: Breastplate of Life') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53067,   1,   33554809) /* Setup */
-     , (53067,   3,  536870932) /* SoundTable */
-     , (53067,   6,   67111919) /* PaletteBase */
-     , (53067,   8,  100693327) /* Icon */
-     , (53067,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53067,   1, 0x02000179) /* Setup */
+     , (53067,   3, 0x20000014) /* SoundTable */
+     , (53067,   6, 0x04000BEF) /* PaletteBase */
+     , (53067,   8, 0x0600754F) /* Icon */
+     , (53067,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53067, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (53067, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (53067, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53067, 8000, 3036510629) /* PCAPRecordedObjectIID */;
+VALUES (53067, 8000, 0xB4FD79A5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53067, 67111921, 0, 0);

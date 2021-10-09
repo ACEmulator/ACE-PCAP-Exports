@@ -18,15 +18,15 @@ VALUES (42859,   1, 'Zefir') /* Name */
      , (42859,  16, 'Zefir are small, winged humanoids that dwell within ruins and subterranean caverns. Unlike the benevolent faerie folk of legend, the Zefir are mean-spirited and destructive, and have no love for humans. They attack in swarms to defend their lairs, scratching with their sharp claws, and can also draw upon a large arsenal of harmful spells. They are particularly fond of fire and lightning, and are resistant to damage from those sources. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42859,   1,   33561001) /* Setup */
-     , (42859,   8,  100668115) /* Icon */
+VALUES (42859,   1, 0x020019A9) /* Setup */
+     , (42859,   8, 0x060012D3) /* Icon */
      , (42859, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42859, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42859, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42859, 8040, 459090, 84.891, -24.965, 0.66, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42859, 8040, 0x00070152, 84.891, -24.965, 0.66, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070152 [84.891000 -24.965000 0.660000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42859, 8000, 1879076959) /* PCAPRecordedObjectIID */;
+VALUES (42859, 8000, 0x7000705F) /* PCAPRecordedObjectIID */;

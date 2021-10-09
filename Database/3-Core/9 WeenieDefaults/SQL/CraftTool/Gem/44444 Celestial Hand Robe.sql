@@ -36,17 +36,17 @@ VALUES (44444,   1, 'Celestial Hand Robe') /* Name */
      , (44444,  14, 'Use this applier to tailor an armored robe onto a Celestial Hand Breastplate.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44444,   1,   33554854) /* Setup */
-     , (44444,   3,  536870932) /* SoundTable */
-     , (44444,   8,  100692003) /* Icon */
-     , (44444,  22,  872415275) /* PhysicsEffectTable */
-     , (44444,  50,  100667895) /* IconOverlay */
+VALUES (44444,   1, 0x020001A6) /* Setup */
+     , (44444,   3, 0x20000014) /* SoundTable */
+     , (44444,   8, 0x06007023) /* Icon */
+     , (44444,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44444,  50, 0x060011F7) /* IconOverlay */
      , (44444, 8001, 1076654104) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Priority, TargetType, Burden, IconOverlay */
      , (44444, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44444, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44444, 8000, 2181543899) /* PCAPRecordedObjectIID */;
+VALUES (44444, 8000, 0x8207B7DB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (44444, 0, 16795582);

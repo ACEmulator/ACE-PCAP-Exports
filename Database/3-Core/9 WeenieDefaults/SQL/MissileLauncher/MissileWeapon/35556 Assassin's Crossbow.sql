@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35556,   1,        256) /* ItemType - MissileWeapon */
      , (35556,   5,        380) /* EncumbranceVal */
      , (35556,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (35556,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (35556,  16,          1) /* ItemUseable - No */
      , (35556,  19,          0) /* Value */
      , (35556,  33,         -1) /* Bonded - Slippery */
@@ -17,7 +16,7 @@ VALUES (35556,   1,        256) /* ItemType - MissileWeapon */
      , (35556,  48,         47) /* WeaponSkill - MissileWeapons */
      , (35556,  49,        200) /* WeaponTime */
      , (35556,  50,          2) /* AmmoType - Bolt */
-     , (35556,  51,          2) /* CombatUse - Missle */
+     , (35556,  51,          2) /* CombatUse - Missile */
      , (35556,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35556,  98, 1485827789) /* CreationTimestamp */
      , (35556, 106,        500) /* ItemSpellcraft */
@@ -27,7 +26,6 @@ VALUES (35556,   1,        256) /* ItemType - MissileWeapon */
      , (35556, 204,         16) /* ElementalDamageBonus */
      , (35556, 263,          2) /* ResistanceModifierType */
      , (35556, 267,      10800) /* Lifespan */
-     , (35556, 268,      10798) /* RemainingLifespan */
      , (35556, 353,          9) /* WeaponType - Crossbow */
      , (35556, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
@@ -54,12 +52,12 @@ VALUES (35556,   1, 'Assassin''s Crossbow') /* Name */
      , (35556,  16, 'This green, intricately carved crossbow bears a striking resemblance to crossbows that were widely used as a devastating first-strike weapon by Rossu Morta assassins in Ispar, but it is filled with an unstable energy that suggests it is not long for this world.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35556,   1,   33559303) /* Setup */
-     , (35556,   3,  536870932) /* SoundTable */
-     , (35556,   6,   67115556) /* PaletteBase */
-     , (35556,   8,  100687039) /* Icon */
-     , (35556,  22,  872415275) /* PhysicsEffectTable */
-     , (35556,  52,  100689403) /* IconUnderlay */
+VALUES (35556,   1, 0x02001307) /* Setup */
+     , (35556,   3, 0x20000014) /* SoundTable */
+     , (35556,   6, 0x04001A24) /* PaletteBase */
+     , (35556,   8, 0x06005CBF) /* Icon */
+     , (35556,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35556,  52, 0x060065FB) /* IconUnderlay */
      , (35556, 8001,    2327312) /* PCAPRecordedWeenieHeader - Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (35556, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (35556, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -67,16 +65,16 @@ VALUES (35556,   1,   33559303) /* Setup */
      , (35556, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35556, 8040, 23855548, 49.21, -31.909, -0.07000001, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (35556, 8040, 0x016C01BC, 49.21, -31.909, -0.07, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.210000 -31.909000 -0.070000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35556, 8000, 2931458094) /* PCAPRecordedObjectIID */
-     , (35556, 8008, 1343102817) /* PCAPRecordedParentIID */;
+VALUES (35556, 8000, 0xAEBA802E) /* PCAPRecordedObjectIID */
+     , (35556, 8008, 0x500E1F61) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35556,  2206,      2)  /* BowMasteryOther7 */
-     , (35556,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */
+VALUES (35556,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+     , (35556,  2206,      2)  /* MissileWeaponsMasteryOther7 */
      , (35556,  4089,      2)  /* DeceptionAssassinsGift */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

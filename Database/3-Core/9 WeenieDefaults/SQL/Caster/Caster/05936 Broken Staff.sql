@@ -9,6 +9,7 @@ VALUES (5936,   1,      32768) /* ItemType - Caster */
      , (5936,  16,          1) /* ItemUseable - No */
      , (5936,  19,          1) /* Value */
      , (5936,  33,          1) /* Bonded - Bonded */
+     , (5936,  46,        512) /* DefaultCombatStyle - Magic */
      , (5936,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5936, 151,          2) /* HookType - Wall */
      , (5936, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -21,17 +22,17 @@ VALUES (5936,   1, 'Broken Staff') /* Name */
      , (5936,  16, 'This staff is crafted from a strange alloy. The staff is clearly broken. There are several areas where the alloy has been exposed to corrosives.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5936,   1,   33555022) /* Setup */
-     , (5936,   3,  536870932) /* SoundTable */
-     , (5936,   6,   67111919) /* PaletteBase */
-     , (5936,   8,  100669095) /* Icon */
-     , (5936,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5936,   1, 0x0200024E) /* Setup */
+     , (5936,   3, 0x20000014) /* SoundTable */
+     , (5936,   6, 0x04000BEF) /* PaletteBase */
+     , (5936,   8, 0x060016A7) /* Icon */
+     , (5936,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5936, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (5936, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5936, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5936, 8000, 2156532491) /* PCAPRecordedObjectIID */;
+VALUES (5936, 8000, 0x808A130B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5936, 67111919, 0, 0);

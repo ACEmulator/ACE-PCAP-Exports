@@ -24,16 +24,13 @@ VALUES (20520,   1, 'Scroll of Finesse Weapon Mastery Other VII') /* Name */
 Increases the target''s Finesse Weapons skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20520,   1,   33554826) /* Setup */
-     , (20520,   8,  100692250) /* Icon */
-     , (20520,  22,  872415275) /* PhysicsEffectTable */
-     , (20520,  28,       2222) /* Spell - DaggerMasteryOther7 */
+VALUES (20520,   1, 0x0200018A) /* Setup */
+     , (20520,   8, 0x0600711A) /* Icon */
+     , (20520,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20520,  28,       2222) /* Spell - FinesseWeaponsMasteryOther7 */
      , (20520, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20520, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20520, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20520, 8000, 3680944205) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20520, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;
+VALUES (20520, 8000, 0xDB66C04D) /* PCAPRecordedObjectIID */;

@@ -17,16 +17,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22316,   1, 'Arcane Lore Gem of Forgetfulness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22316,   1,   33558087) /* Setup */
-     , (22316,   6,   67111919) /* PaletteBase */
-     , (22316,   8,  100673789) /* Icon */
-     , (22316,  50,  100673754) /* IconOverlay */
+VALUES (22316,   1, 0x02000E47) /* Setup */
+     , (22316,   6, 0x04000BEF) /* PaletteBase */
+     , (22316,   8, 0x060028FD) /* Icon */
+     , (22316,  50, 0x060028DA) /* IconOverlay */
      , (22316, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (22316, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22316, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22316, 8000, 2586991498) /* PCAPRecordedObjectIID */;
+VALUES (22316, 8000, 0x9A325B8A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22316, 67111924, 0, 0);

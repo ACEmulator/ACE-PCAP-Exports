@@ -22,20 +22,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51434,   1, 'Chorizite Pillar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51434,   1,   33557379) /* Setup */
-     , (51434,   3,  536870932) /* SoundTable */
-     , (51434,   8,  100672195) /* Icon */
-     , (51434,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51434,   1, 0x02000B83) /* Setup */
+     , (51434,   3, 0x20000014) /* SoundTable */
+     , (51434,   8, 0x060022C3) /* Icon */
+     , (51434,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51434, 8001,    2621464) /* PCAPRecordedWeenieHeader - Value, Usable, TargetType, Burden */
      , (51434, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (51434, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51434, 8040, 1483866400, 23.9, -150, 0, 0.978329, 0, 0, -0.207058) /* PCAPRecordedLocation */
+VALUES (51434, 8040, 0x58720120, 23.9, -150, 0, 0.978329, 0, 0, -0.207058) /* PCAPRecordedLocation */
 /* @teleloc 0x58720120 [23.900000 -150.000000 0.000000] 0.978329 0.000000 0.000000 -0.207058 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51434, 8000, 1971789876) /* PCAPRecordedObjectIID */;
+VALUES (51434, 8000, 0x75872034) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (51434, 0, 83893820, 83893819);

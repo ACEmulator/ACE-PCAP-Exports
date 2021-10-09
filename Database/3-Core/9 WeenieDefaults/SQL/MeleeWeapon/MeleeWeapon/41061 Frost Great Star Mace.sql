@@ -52,23 +52,23 @@ VALUES (41061,   1, 'Frost Great Star Mace') /* Name */
      , (41061,  16, 'Frost Great Star Mace of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41061,   1,   33560831) /* Setup */
-     , (41061,   3,  536870932) /* SoundTable */
-     , (41061,   6,   67115558) /* PaletteBase */
-     , (41061,   8,  100690536) /* Icon */
-     , (41061,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41061,   1, 0x020018FF) /* Setup */
+     , (41061,   3, 0x20000014) /* SoundTable */
+     , (41061,   6, 0x04001A26) /* PaletteBase */
+     , (41061,   8, 0x06006A68) /* Icon */
+     , (41061,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41061,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41061, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41061, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41061, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41061, 8000, 3360094368) /* PCAPRecordedObjectIID */;
+VALUES (41061, 8000, 0xC846F8A0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41061,  1591,      2)  /* HeartSeekerSelf5 */
-     , (41061,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (41061,  1627,      2)  /* SwiftKillerSelf6 */;
+VALUES (41061,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (41061,  1627,      2)  /* SwiftKillerSelf6 */
+     , (41061,  1591,      2)  /* HeartSeekerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41061, 67116386, 0, 0);

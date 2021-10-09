@@ -19,11 +19,11 @@ VALUES (44753,   1, 'Mosswart') /* Name */
      , (44753,  16, 'Mosswarts are humanoids from the same world as Drudges, Tumeroks and Banderlings. In Dereth, they live in various swamps and marshes, particularly in the Blackmire Swamp between the Sho and Aluvian lands. They have also infested many ruins and damp catacombs. They are small, fight with claws, spears, swords and javelins, and are fearless when cornered. While the weaker mosswarts have no ability to manipulate mana, some colonies have magic-using shamans, and all of the fanatical, idol-worshiping Mosswarts of the Vesayens and Direlands swamps are potent magic users.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44753,   1,   33561353) /* Setup */
-     , (44753,   8,  100668115) /* Icon */
+VALUES (44753,   1, 0x02001B09) /* Setup */
+     , (44753,   8, 0x060012D3) /* Icon */
      , (44753, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44753, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44753, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44753, 8000, 3329996492) /* PCAPRecordedObjectIID */;
+VALUES (44753, 8000, 0xC67BB6CC) /* PCAPRecordedObjectIID */;

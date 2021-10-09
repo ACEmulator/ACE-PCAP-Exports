@@ -22,16 +22,16 @@ VALUES (14640,   1, 'Laiti''s Villa Portal') /* Name */
      , (14640, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14640,   1,   33554867) /* Setup */
-     , (14640,   2,  150994947) /* MotionTable */
-     , (14640,   8,  100667499) /* Icon */
+VALUES (14640,   1, 0x020001B3) /* Setup */
+     , (14640,   2, 0x09000003) /* MotionTable */
+     , (14640,   8, 0x0600106B) /* Icon */
      , (14640, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14640, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14640, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14640, 8040, 1725300741, 20.7944, 105.052, 72.9114, 0.9784329, 0, 0, 0.206565) /* PCAPRecordedLocation */
+VALUES (14640, 8040, 0x66D60005, 20.7944, 105.052, 72.9114, 0.978433, 0, 0, 0.206565) /* PCAPRecordedLocation */
 /* @teleloc 0x66D60005 [20.794400 105.052000 72.911400] 0.978433 0.000000 0.000000 0.206565 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14640, 8000, 1986879497) /* PCAPRecordedObjectIID */;
+VALUES (14640, 8000, 0x766D6009) /* PCAPRecordedObjectIID */;

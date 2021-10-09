@@ -24,13 +24,13 @@ VALUES (3118,   1, 'Scroll of Rejuvenate Other II') /* Name */
 Increases the rate at which the target regains Stamina by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3118,   1,   33554826) /* Setup */
-     , (3118,   8,  100676940) /* Icon */
-     , (3118,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3118,   1, 0x0200018A) /* Setup */
+     , (3118,   8, 0x0600354C) /* Icon */
+     , (3118,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3118,  28,        184) /* Spell - RejuvenationOther2 */
      , (3118, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3118, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3118, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3118, 8000, 2924151883) /* PCAPRecordedObjectIID */;
+VALUES (3118, 8000, 0xAE4B044B) /* PCAPRecordedObjectIID */;

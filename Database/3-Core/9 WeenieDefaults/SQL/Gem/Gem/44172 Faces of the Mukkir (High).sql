@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44172,   1, 'Faces of the Mukkir (High)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44172,   1,   33554773) /* Setup */
-     , (44172,   3,  536870932) /* SoundTable */
-     , (44172,   8,  100691926) /* Icon */
-     , (44172,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44172,   1, 0x02000155) /* Setup */
+     , (44172,   3, 0x20000014) /* SoundTable */
+     , (44172,   8, 0x06006FD6) /* Icon */
+     , (44172,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44172, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44172, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44172, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44172, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44172, 8000, 2776665694) /* PCAPRecordedObjectIID */;
+VALUES (44172, 8000, 0xA5808E5E) /* PCAPRecordedObjectIID */;

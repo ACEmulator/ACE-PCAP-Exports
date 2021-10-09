@@ -25,6 +25,7 @@ VALUES (45965,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45965,  22, True ) /* Inscribable */
+     , (45965,  23, True ) /* DestroyOnSell */
      , (45965,  99, True ) /* Ivoryable */
      , (45965, 100, True ) /* Dyable */;
 
@@ -43,24 +44,24 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45965,   1, 'Ursuin Hide Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45965,   1,   33554647) /* Setup */
-     , (45965,   3,  536870932) /* SoundTable */
-     , (45965,   6,   67108990) /* PaletteBase */
-     , (45965,   8,  100671266) /* Icon */
-     , (45965,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45965,   1, 0x020000D7) /* Setup */
+     , (45965,   3, 0x20000014) /* SoundTable */
+     , (45965,   6, 0x0400007E) /* PaletteBase */
+     , (45965,   8, 0x06001F22) /* Icon */
+     , (45965,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45965, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (45965, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45965, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45965, 8000, 3042071987) /* PCAPRecordedObjectIID */;
+VALUES (45965, 8000, 0xB55255B3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45965,   297,      2)  /* AxeMasteryOther6 */
-     , (45965,  1144,      2)  /* PiercingProtectionOther6 */
-     , (45965,  1486,      2)  /* Impenetrability6 */
-     , (45965,  2605,      2)  /* CANTRIPPIERCINGBANE1 */
+VALUES (45965,  1486,      2)  /* Impenetrability6 */
      , (45965,  5096,      2)  /* TwoHandedMasteryOther6 */
+     , (45965,   297,      2)  /* LightWeaponsMasteryOther6 */
+     , (45965,  2605,      2)  /* CANTRIPPIERCINGBANE1 */
+     , (45965,  1144,      2)  /* PiercingProtectionOther6 */
      , (45965,  5883,      2)  /* CantripDirtyFightingProwess1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -24,18 +24,18 @@ VALUES (52525,   1, 'Alembic Incanta') /* Name */
      , (52525,  20, 'Vials of Alembic Incanta') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52525,   1,   33556223) /* Setup */
-     , (52525,   3,  536870932) /* SoundTable */
-     , (52525,   6,   67111928) /* PaletteBase */
-     , (52525,   8,  100693288) /* Icon */
-     , (52525,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52525,   1, 0x020006FF) /* Setup */
+     , (52525,   3, 0x20000014) /* SoundTable */
+     , (52525,   6, 0x04000BF8) /* PaletteBase */
+     , (52525,   8, 0x06007528) /* Icon */
+     , (52525,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52525, 8001,  268988441) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, HookType */
      , (52525, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (52525, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (52525, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52525, 8000,      52525) /* PCAPRecordedObjectIID */;
+VALUES (52525, 8000, 0x0000CD2D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52525, 67112642, 0, 0);

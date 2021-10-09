@@ -24,13 +24,13 @@ VALUES (37693,   1, 'Inscription of Coordination Self') /* Name */
 Increases the caster''s Coordination by 45 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37693,   1,   33554826) /* Setup */
-     , (37693,   8,  100676452) /* Icon */
-     , (37693,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37693,   1, 0x0200018A) /* Setup */
+     , (37693,   8, 0x06003364) /* Icon */
+     , (37693,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37693,  28,       4297) /* Spell - CoordinationSelf8 */
      , (37693, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37693, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37693, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37693, 8000, 2150584903) /* PCAPRecordedObjectIID */;
+VALUES (37693, 8000, 0x802F5247) /* PCAPRecordedObjectIID */;

@@ -23,13 +23,13 @@ VALUES (13222,   1, 'Peppermint Stick') /* Name */
      , (13222,  20, 'Peppermint Sticks') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13222,   1,   33557442) /* Setup */
-     , (13222,   3,  536870932) /* SoundTable */
-     , (13222,   8,  100672415) /* Icon */
-     , (13222,  22,  872415275) /* PhysicsEffectTable */
+VALUES (13222,   1, 0x02000BC2) /* Setup */
+     , (13222,   3, 0x20000014) /* SoundTable */
+     , (13222,   8, 0x0600239F) /* Icon */
+     , (13222,  22, 0x3400002B) /* PhysicsEffectTable */
      , (13222, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (13222, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (13222, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13222, 8000, 3669033594) /* PCAPRecordedObjectIID */;
+VALUES (13222, 8000, 0xDAB1027A) /* PCAPRecordedObjectIID */;

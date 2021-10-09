@@ -44,21 +44,21 @@ VALUES (59,   1, 'Studded Leather Gauntlets') /* Name */
      , (59,  16, 'Studded Leather Gauntlets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (59,   1,   33554648) /* Setup */
-     , (59,   3,  536870932) /* SoundTable */
-     , (59,   6,   67108990) /* PaletteBase */
-     , (59,   8,  100669238) /* Icon */
-     , (59,  22,  872415275) /* PhysicsEffectTable */
+VALUES (59,   1, 0x020000D8) /* Setup */
+     , (59,   3, 0x20000014) /* SoundTable */
+     , (59,   6, 0x0400007E) /* PaletteBase */
+     , (59,   8, 0x06001736) /* Icon */
+     , (59,  22, 0x3400002B) /* PhysicsEffectTable */
      , (59, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (59, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (59, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (59, 8000, 2186220552) /* PCAPRecordedObjectIID */;
+VALUES (59, 8000, 0x824F1408) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (59,  1485,      2)  /* Impenetrability5 */
-     , (59,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */;
+     , (59,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (59, 67110340, 168, 6);

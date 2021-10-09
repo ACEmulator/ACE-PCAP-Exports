@@ -39,22 +39,22 @@ VALUES (41483,   1, 'Compass') /* Name */
      , (41483,  16, 'Compass of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41483,   1,   33554680) /* Setup */
-     , (41483,   3,  536870932) /* SoundTable */
-     , (41483,   6,   67111919) /* PaletteBase */
-     , (41483,   8,  100690599) /* Icon */
-     , (41483,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41483,   1, 0x020000F8) /* Setup */
+     , (41483,   3, 0x20000014) /* SoundTable */
+     , (41483,   6, 0x04000BEF) /* PaletteBase */
+     , (41483,   8, 0x06006AA7) /* Icon */
+     , (41483,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41483, 8001, 2166440088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, Workmanship, MaterialType */
      , (41483, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41483, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41483, 8000, 3489637766) /* PCAPRecordedObjectIID */;
+VALUES (41483, 8000, 0xCFFFA586) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41483,  4299,      2)  /* EnduranceSelf8 */
+VALUES (41483,  5895,      2)  /* CantripRecklessnessProwess3 */
+     , (41483,  4299,      2)  /* EnduranceSelf8 */
      , (41483,  4697,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE3 */
-     , (41483,  5895,      2)  /* CantripRecklessnessProwess3 */
      , (41483,  6051,      2)  /* CantripFealty4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

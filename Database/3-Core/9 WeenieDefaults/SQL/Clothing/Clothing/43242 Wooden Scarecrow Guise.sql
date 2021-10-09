@@ -32,13 +32,13 @@ VALUES (43242,   1, 'Wooden Scarecrow Guise') /* Name */
      , (43242,  16, 'A finely-built scarecrow costume, using the latest in wood golem enchantments. The pumpkin head feels a bit restrictive, and you have to look out of two very tiny eye holes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43242,   1,   33561124) /* Setup */
-     , (43242,   3,  536870932) /* SoundTable */
-     , (43242,   8,  100677084) /* Icon */
-     , (43242,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43242,   1, 0x02001A24) /* Setup */
+     , (43242,   3, 0x20000014) /* SoundTable */
+     , (43242,   8, 0x060035DC) /* Icon */
+     , (43242,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43242, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (43242, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43242, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43242, 8000, 2461826831) /* PCAPRecordedObjectIID */;
+VALUES (43242, 8000, 0x92BC7F0F) /* PCAPRecordedObjectIID */;

@@ -23,16 +23,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20197,   1, 'Unframed map of Dereth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20197,   1,   33554776) /* Setup */
-     , (20197,   3,  536870932) /* SoundTable */
-     , (20197,   8,  100673068) /* Icon */
-     , (20197,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20197,   1, 0x02000158) /* Setup */
+     , (20197,   3, 0x20000014) /* SoundTable */
+     , (20197,   8, 0x0600262C) /* Icon */
+     , (20197,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20197, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
      , (20197, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20197, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20197, 8000, 2249688441) /* PCAPRecordedObjectIID */;
+VALUES (20197, 8000, 0x86178579) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20197, 0, 83888849, 83893547);

@@ -24,13 +24,13 @@ VALUES (8946,   1, 'Scroll of Lightning Streak VI') /* Name */
 Sends a bolt of lighting streaking towards the target. The bolt does 36-71 points of electrical damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8946,   1,   33554826) /* Setup */
-     , (8946,   8,  100677013) /* Icon */
-     , (8946,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8946,   1, 0x0200018A) /* Setup */
+     , (8946,   8, 0x06003595) /* Icon */
+     , (8946,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8946,  28,       1819) /* Spell - LightningStreak6 */
      , (8946, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (8946, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8946, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8946, 8000, 3681256670) /* PCAPRecordedObjectIID */;
+VALUES (8946, 8000, 0xDB6B84DE) /* PCAPRecordedObjectIID */;

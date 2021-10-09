@@ -48,21 +48,21 @@ VALUES (40625,   1, 'Lightning Quadrelle') /* Name */
      , (40625,  16, 'Lightning Quadrelle') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40625,   1,   33560726) /* Setup */
-     , (40625,   3,  536870932) /* SoundTable */
-     , (40625,   6,   67116833) /* PaletteBase */
-     , (40625,   8,  100690786) /* Icon */
-     , (40625,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40625,   1, 0x02001896) /* Setup */
+     , (40625,   3, 0x20000014) /* SoundTable */
+     , (40625,   6, 0x04001F21) /* PaletteBase */
+     , (40625,   8, 0x06006B62) /* Icon */
+     , (40625,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40625, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40625, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40625, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40625, 8040, 23855549, 52.06144, -37.12774, 0, 0.9189001, 0, 0, -0.3944904) /* PCAPRecordedLocation */
+VALUES (40625, 8040, 0x016C01BD, 52.06144, -37.12774, 0, 0.9189, 0, 0, -0.39449) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [52.061440 -37.127740 0.000000] 0.918900 0.000000 0.000000 -0.394490 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40625, 8000, 2238249565) /* PCAPRecordedObjectIID */;
+VALUES (40625, 8000, 0x8568FA5D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40625, 67116842, 0, 0);

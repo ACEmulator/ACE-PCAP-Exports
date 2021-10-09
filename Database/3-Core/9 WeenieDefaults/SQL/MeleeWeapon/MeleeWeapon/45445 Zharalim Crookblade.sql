@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45445,   1,          1) /* ItemType - MeleeWeapon */
      , (45445,   5,        200) /* EncumbranceVal */
      , (45445,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (45445,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (45445,  16,          1) /* ItemUseable - No */
      , (45445,  17,        260) /* RareId */
      , (45445,  19,      50000) /* Value */
@@ -52,12 +51,12 @@ VALUES (45445,   1, 'Zharalim Crookblade') /* Name */
      , (45445,  16, 'This is a sacred blade of the Zharalim, carried only by Masters of the order. Its razor sharp blade is designed to create a wider, more deadly wound than an ordinary straight blade.  It is said that Rafik ibn Jaraz, a legendary Master of the Zharalim, slew six Viamontian royal guards in six steps, wielding this blade and using his "Wind and Smoke" technique. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45445,   1,   33559375) /* Setup */
-     , (45445,   3,  536870932) /* SoundTable */
-     , (45445,   6,   67111919) /* PaletteBase */
-     , (45445,   8,  100686733) /* Icon */
-     , (45445,  22,  872415275) /* PhysicsEffectTable */
-     , (45445,  52,  100686604) /* IconUnderlay */
+VALUES (45445,   1, 0x0200134F) /* Setup */
+     , (45445,   3, 0x20000014) /* SoundTable */
+     , (45445,   6, 0x04000BEF) /* PaletteBase */
+     , (45445,   8, 0x06005B8D) /* Icon */
+     , (45445,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45445,  52, 0x06005B0C) /* IconUnderlay */
      , (45445, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (45445, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45445, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -65,20 +64,20 @@ VALUES (45445,   1,   33559375) /* Setup */
      , (45445, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45445, 8040, 19202318, 28.91178, -34.30801, 2.596363, 0.7070606, 0.7070606, -0.00808453, -0.00808453) /* PCAPRecordedLocation */
+VALUES (45445, 8040, 0x0125010E, 28.91178, -34.30801, 2.596363, 0.707061, 0.707061, -0.008085, -0.008085) /* PCAPRecordedLocation */
 /* @teleloc 0x0125010E [28.911780 -34.308010 2.596363] 0.707061 0.707061 -0.008085 -0.008085 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45445, 8000, 3174455313) /* PCAPRecordedObjectIID */
-     , (45445, 8008, 1342678391) /* PCAPRecordedParentIID */;
+VALUES (45445, 8000, 0xBD365811) /* PCAPRecordedObjectIID */
+     , (45445, 8008, 0x5007A577) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45445,  4395,      2)  /* BloodDrinkerSelf8 */
+VALUES (45445,  4417,      2)  /* SwiftKillerSelf8 */
+     , (45445,  4691,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE3 */
+     , (45445,  4395,      2)  /* BloodDrinkerSelf8 */
      , (45445,  4405,      2)  /* HeartSeekerSelf8 */
-     , (45445,  4417,      2)  /* SwiftKillerSelf8 */
-     , (45445,  4538,      2)  /* DaggerMasterySelf8 */
      , (45445,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45445,  4691,      2)  /* CANTRIPDAGGERAPTITUDE3 */;
+     , (45445,  4538,      2)  /* FinesseWeaponsMasterySelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45445, 67111920, 0, 0);

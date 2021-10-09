@@ -25,28 +25,28 @@ VALUES (29301,   1, 'Viamontian War Wizard') /* Name */
      , (29301, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29301,   1,   33554433) /* Setup */
-     , (29301,   2,  150994945) /* MotionTable */
-     , (29301,   3,  536870913) /* SoundTable */
-     , (29301,   6,   67108990) /* PaletteBase */
-     , (29301,   8,  100667446) /* Icon */
-     , (29301,   9,   83890510) /* EyesTexture */
-     , (29301,  10,   83890550) /* NoseTexture */
-     , (29301,  11,   83890613) /* MouthTexture */
-     , (29301,  15,   67116983) /* HairPalette */
-     , (29301,  16,   67110065) /* EyesPalette */
-     , (29301,  17,   67115907) /* SkinPalette */
-     , (29301,  22,  872415236) /* PhysicsEffectTable */
+VALUES (29301,   1, 0x02000001) /* Setup */
+     , (29301,   2, 0x09000001) /* MotionTable */
+     , (29301,   3, 0x20000001) /* SoundTable */
+     , (29301,   6, 0x0400007E) /* PaletteBase */
+     , (29301,   8, 0x06001036) /* Icon */
+     , (29301,   9, 0x0500114E) /* EyesTexture */
+     , (29301,  10, 0x05001176) /* NoseTexture */
+     , (29301,  11, 0x050011B5) /* MouthTexture */
+     , (29301,  15, 0x04001FB7) /* HairPalette */
+     , (29301,  16, 0x040004B1) /* EyesPalette */
+     , (29301,  17, 0x04001B83) /* SkinPalette */
+     , (29301,  22, 0x34000004) /* PhysicsEffectTable */
      , (29301, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (29301, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (29301, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29301, 8040, 1173487673, 176.3013, 13.0654, 52.005, 0.1541586, 0, 0, -0.9880461) /* PCAPRecordedLocation */
+VALUES (29301, 8040, 0x45F20039, 176.3013, 13.0654, 52.005, 0.154159, 0, 0, -0.988046) /* PCAPRecordedLocation */
 /* @teleloc 0x45F20039 [176.301300 13.065400 52.005000] 0.154159 0.000000 0.000000 -0.988046 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29301, 8000, 3690116741) /* PCAPRecordedObjectIID */;
+VALUES (29301, 8000, 0xDBF2B685) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29301,   1, 230, 0, 0) /* Strength */
@@ -276,7 +276,8 @@ VALUES (29301, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
      , (29301, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
      , (29301, 9, 22425,  0, 0, 0, False) /* Create Tusker Guard Tusk (22425) for ContainTreasure */
      , (29301, 9, 31763,  0, 0, 0, False) /* Create Frost Lugian Hammer (31763) for ContainTreasure */
-     , (29301, 9,    37,  0, 0, 0, False) /* Create Scalemail Bracers (37) for ContainTreasure */;
+     , (29301, 9,    37,  0, 0, 0, False) /* Create Scalemail Bracers (37) for ContainTreasure */
+     , (29301, 9,  3764,  0, 0, 0, False) /* Create Flaming Budiaq (3764) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29301, 67110065, 32, 8)

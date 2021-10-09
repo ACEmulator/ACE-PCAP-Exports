@@ -29,22 +29,22 @@ VALUES (35109,   1, 'Apep-tek the Tolerant') /* Name */
      , (35109, 8006, 'BwA9AB8ALUgaJ6FCtUsjQ0A1wEBP7kEAAAAAQAAAAAD//39/zczMPgAAcEEAAAAAVVX1Pw==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35109,   1,   33554433) /* Setup */
-     , (35109,   2,  150994945) /* MotionTable */
-     , (35109,   3,  536870942) /* SoundTable */
-     , (35109,   6,   67108990) /* PaletteBase */
-     , (35109,   8,  100669122) /* Icon */
-     , (35109,  22,  872415272) /* PhysicsEffectTable */
+VALUES (35109,   1, 0x02000001) /* Setup */
+     , (35109,   2, 0x09000001) /* MotionTable */
+     , (35109,   3, 0x2000001E) /* SoundTable */
+     , (35109,   6, 0x0400007E) /* PaletteBase */
+     , (35109,   8, 0x060016C2) /* Icon */
+     , (35109,  22, 0x34000028) /* PhysicsEffectTable */
      , (35109, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (35109, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (35109, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35109, 8040, 1210908703, 79.03993, 158.9618, 6.0065, 0.9855261, 0, 0, -0.1695235) /* PCAPRecordedLocation */
+VALUES (35109, 8040, 0x482D001F, 79.03993, 158.9618, 6.0065, 0.985526, 0, 0, -0.169524) /* PCAPRecordedLocation */
 /* @teleloc 0x482D001F [79.039930 158.961800 6.006500] 0.985526 0.000000 0.000000 -0.169524 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35109, 8000, 3695093678) /* PCAPRecordedObjectIID */;
+VALUES (35109, 8000, 0xDC3EA7AE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (35109,   1,     0, 0, 0, 30250) /* MaxHealth */;

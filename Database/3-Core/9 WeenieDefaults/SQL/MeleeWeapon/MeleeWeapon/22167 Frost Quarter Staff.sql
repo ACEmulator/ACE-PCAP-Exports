@@ -48,17 +48,17 @@ VALUES (22167,   1, 'Frost Quarter Staff') /* Name */
      , (22167,  16, 'Frost Quarter Staff') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22167,   1,   33558069) /* Setup */
-     , (22167,   3,  536870932) /* SoundTable */
-     , (22167,   6,   67111919) /* PaletteBase */
-     , (22167,   8,  100673605) /* Icon */
-     , (22167,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22167,   1, 0x02000E35) /* Setup */
+     , (22167,   3, 0x20000014) /* SoundTable */
+     , (22167,   6, 0x04000BEF) /* PaletteBase */
+     , (22167,   8, 0x06002845) /* Icon */
+     , (22167,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22167, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (22167, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22167, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22167, 8000, 3699121125) /* PCAPRecordedObjectIID */;
+VALUES (22167, 8000, 0xDC7C1BE5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22167, 67111926, 0, 0);

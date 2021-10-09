@@ -47,17 +47,17 @@ VALUES (41064,   1, 'Lightning Khanda-handled Mace') /* Name */
      , (41064,  16, 'Lightning Khanda-handled Mace') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41064,   1,   33560886) /* Setup */
-     , (41064,   3,  536870932) /* SoundTable */
-     , (41064,   6,   67115558) /* PaletteBase */
-     , (41064,   8,  100690648) /* Icon */
-     , (41064,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41064,   1, 0x02001936) /* Setup */
+     , (41064,   3, 0x20000014) /* SoundTable */
+     , (41064,   6, 0x04001A26) /* PaletteBase */
+     , (41064,   8, 0x06006AD8) /* Icon */
+     , (41064,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41064, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41064, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41064, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41064, 8000, 3698459926) /* PCAPRecordedObjectIID */;
+VALUES (41064, 8000, 0xDC720516) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41064, 67116377, 0, 0);

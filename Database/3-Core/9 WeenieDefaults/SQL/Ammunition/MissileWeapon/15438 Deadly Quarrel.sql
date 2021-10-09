@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (15438,   1,        256) /* ItemType - MissileWeapon */
      , (15438,   5,          5) /* EncumbranceVal */
      , (15438,   9,    8388608) /* ValidLocations - MissileAmmo */
-     , (15438,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
      , (15438,  11,       1000) /* MaxStackSize */
      , (15438,  12,          1) /* StackSize */
      , (15438,  13,          5) /* StackUnitEncumbrance */
@@ -57,27 +56,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15438,   1, 'Deadly Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15438,   1,   33554730) /* Setup */
-     , (15438,   3,  536870932) /* SoundTable */
-     , (15438,   6,   67111919) /* PaletteBase */
-     , (15438,   8,  100672657) /* Icon */
-     , (15438,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15438,   1, 0x0200012A) /* Setup */
+     , (15438,   3, 0x20000014) /* SoundTable */
+     , (15438,   6, 0x04000BEF) /* PaletteBase */
+     , (15438,   8, 0x06002491) /* Icon */
+     , (15438,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15438, 8001,  270775064) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (15438, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15438, 8005,     170913) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
      , (15438, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15438, 8040, 1503920149, 55.75782, 114.7108, 59.02898, 0.4017532, 0.4017532, -0.5818886, -0.5818886) /* PCAPRecordedLocation */
+VALUES (15438, 8040, 0x59A40015, 55.75782, 114.7108, 59.02898, 0.401753, 0.401753, -0.581889, -0.581889) /* PCAPRecordedLocation */
 /* @teleloc 0x59A40015 [55.757820 114.710800 59.028980] 0.401753 0.401753 -0.581889 -0.581889 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15438, 8000, 3685803813) /* PCAPRecordedObjectIID */
-     , (15438, 8008, 3685807340) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (15438, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (15438, 2, 47392,  1, 0, 0, False) /* Create Flaming Club (47392) for Wield */;
+VALUES (15438, 8000, 0xDBB0E725) /* PCAPRecordedObjectIID */
+     , (15438, 8008, 0xDBB0F4EC) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15438, 67111919, 0, 0);

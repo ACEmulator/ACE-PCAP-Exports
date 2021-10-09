@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37854,   1, 'Inscription of Lightning Arc') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37854,   1,   33554826) /* Setup */
-     , (37854,   8,  100677013) /* Icon */
-     , (37854,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37854,   1, 0x0200018A) /* Setup */
+     , (37854,   8, 0x06003595) /* Icon */
+     , (37854,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37854,  28,       4426) /* Spell - LightningArc8 */
      , (37854, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37854, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37854, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37854, 8000, 2158698330) /* PCAPRecordedObjectIID */;
+VALUES (37854, 8000, 0x80AB1F5A) /* PCAPRecordedObjectIID */;

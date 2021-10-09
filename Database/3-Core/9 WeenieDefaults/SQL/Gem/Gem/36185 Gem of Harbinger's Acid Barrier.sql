@@ -31,18 +31,18 @@ VALUES (36185,   1, 'Gem of Harbinger''s Acid Barrier') /* Name */
      , (36185,  20, 'Gems of Harbinger''s Acid Barrier') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36185,   1,   33554809) /* Setup */
-     , (36185,   3,  536870932) /* SoundTable */
-     , (36185,   6,   67111919) /* PaletteBase */
-     , (36185,   8,  100673897) /* Icon */
-     , (36185,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36185,   1, 0x02000179) /* Setup */
+     , (36185,   3, 0x20000014) /* SoundTable */
+     , (36185,   6, 0x04000BEF) /* PaletteBase */
+     , (36185,   8, 0x06002969) /* Icon */
+     , (36185,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36185,  28,       4189) /* Spell - HarbingerProtectionAcid */
      , (36185, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (36185, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36185, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36185, 8000, 3701940318) /* PCAPRecordedObjectIID */;
+VALUES (36185, 8000, 0xDCA7205E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36185, 67111923, 0, 0);

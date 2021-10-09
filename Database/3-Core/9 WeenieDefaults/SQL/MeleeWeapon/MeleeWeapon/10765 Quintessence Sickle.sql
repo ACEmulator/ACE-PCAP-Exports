@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10765,   1,          1) /* ItemType - MeleeWeapon */
      , (10765,   5,        500) /* EncumbranceVal */
      , (10765,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (10765,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (10765,  16,          1) /* ItemUseable - No */
      , (10765,  18,          1) /* UiEffects - Magical */
      , (10765,  19,       3500) /* Value */
@@ -47,11 +46,11 @@ VALUES (10765,   1, 'Quintessence Sickle') /* Name */
      , (10765,  16, 'A strange glowing sickle that crackles with energy.  Its unusually sharp edge seems as if it could inflict devastating wounds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10765,   1,   33557067) /* Setup */
-     , (10765,   3,  536870932) /* SoundTable */
-     , (10765,   6,   67111919) /* PaletteBase */
-     , (10765,   8,  100671670) /* Icon */
-     , (10765,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10765,   1, 0x02000A4B) /* Setup */
+     , (10765,   3, 0x20000014) /* SoundTable */
+     , (10765,   6, 0x04000BEF) /* PaletteBase */
+     , (10765,   8, 0x060020B6) /* Icon */
+     , (10765,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10765,  30,         88) /* PhysicsScript - Create */
      , (10765,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (10765, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
@@ -60,18 +59,18 @@ VALUES (10765,   1,   33557067) /* Setup */
      , (10765, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10765, 8040, 653000750, 137.1523, 126.5125, 79.92901, -0.4042287, -0.4042287, -0.5801716, -0.5801716) /* PCAPRecordedLocation */
+VALUES (10765, 8040, 0x26EC002E, 137.1523, 126.5125, 79.92901, -0.404229, -0.404229, -0.580172, -0.580172) /* PCAPRecordedLocation */
 /* @teleloc 0x26EC002E [137.152300 126.512500 79.929010] -0.404229 -0.404229 -0.580172 -0.580172 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10765, 8000, 3688294788) /* PCAPRecordedObjectIID */
-     , (10765, 8008, 3688294783) /* PCAPRecordedParentIID */;
+VALUES (10765, 8000, 0xDBD6E984) /* PCAPRecordedObjectIID */
+     , (10765, 8008, 0xDBD6E97F) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10765,   247,      2)  /* InvulnerabilitySelf4 */
+VALUES (10765,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (10765,  1625,      2)  /* SwiftKillerSelf4 */
      , (10765,  1590,      2)  /* HeartSeekerSelf4 */
-     , (10765,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (10765,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (10765,   247,      2)  /* InvulnerabilitySelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10765, 67111920, 0, 0);

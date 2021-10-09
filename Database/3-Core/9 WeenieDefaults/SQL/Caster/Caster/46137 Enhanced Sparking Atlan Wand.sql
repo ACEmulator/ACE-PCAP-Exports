@@ -12,6 +12,7 @@ VALUES (46137,   1,      32768) /* ItemType - Caster */
      , (46137,  19,       4000) /* Value */
      , (46137,  33,          1) /* Bonded - Bonded */
      , (46137,  45,         64) /* DamageType - Electric */
+     , (46137,  46,        512) /* DefaultCombatStyle - Magic */
      , (46137,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46137,  94,         16) /* TargetType - Creature */
      , (46137, 106,        350) /* ItemSpellcraft */
@@ -28,6 +29,7 @@ VALUES (46137,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46137,  22, True ) /* Inscribable */
+     , (46137,  23, True ) /* DestroyOnSell */
      , (46137,  69, False) /* IsSellable */
      , (46137,  99, True ) /* Ivoryable */;
 
@@ -43,25 +45,25 @@ VALUES (46137,   1, 'Enhanced Sparking Atlan Wand') /* Name */
      , (46137,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46137,   1,   33557786) /* Setup */
-     , (46137,   3,  536870932) /* SoundTable */
-     , (46137,   6,   67111919) /* PaletteBase */
-     , (46137,   8,  100672992) /* Icon */
-     , (46137,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46137,   1, 0x02000D1A) /* Setup */
+     , (46137,   3, 0x20000014) /* SoundTable */
+     , (46137,   6, 0x04000BEF) /* PaletteBase */
+     , (46137,   8, 0x060025E0) /* Icon */
+     , (46137,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46137, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (46137, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46137, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46137, 8000, 2924667208) /* PCAPRecordedObjectIID */;
+VALUES (46137, 8000, 0xAE52E148) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46137,  2061,      2)  /* EnduranceSelf7 */
-     , (46137,  2101,      2)  /* DefenderSelf7 */
-     , (46137,  2159,      2)  /* LightningProtectionSelf7 */
-     , (46137,  2287,      2)  /* ManaMasterySelf7 */
      , (46137,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (46137,  2287,      2)  /* ManaMasterySelf7 */
+     , (46137,  2159,      2)  /* LightningProtectionSelf7 */
      , (46137,  3250,      2)  /* CantripSpiritThirst2 */
+     , (46137,  2101,      2)  /* DefenderSelf7 */
      , (46137,  3259,      2)  /* SpiritDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

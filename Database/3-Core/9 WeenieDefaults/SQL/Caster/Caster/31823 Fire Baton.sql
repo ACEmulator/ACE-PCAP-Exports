@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31823,   1,      32768) /* ItemType - Caster */
      , (31823,   5,         50) /* EncumbranceVal */
      , (31823,   9,   16777216) /* ValidLocations - Held */
-     , (31823,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (31823,  16,    6291461) /* ItemUseable - No, SourceWieldedTargetRemoteNeverWalk */
      , (31823,  18,         33) /* UiEffects - Magical, Fire */
      , (31823,  19,      36324) /* Value */
      , (31823,  45,         16) /* DamageType - Fire */
+     , (31823,  46,        512) /* DefaultCombatStyle - Magic */
      , (31823,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31823,  94,         16) /* TargetType - Creature */
      , (31823, 105,          4) /* ItemWorkmanship */
@@ -46,13 +46,13 @@ VALUES (31823,   1, 'Fire Baton') /* Name */
      , (31823,  40, 'Kloud Virus') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31823,   1,   33559640) /* Setup */
-     , (31823,   3,  536870932) /* SoundTable */
-     , (31823,   6,   67116700) /* PaletteBase */
-     , (31823,   8,  100688015) /* Icon */
-     , (31823,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31823,   1, 0x02001458) /* Setup */
+     , (31823,   3, 0x20000014) /* SoundTable */
+     , (31823,   6, 0x04001E9C) /* PaletteBase */
+     , (31823,   8, 0x0600608F) /* Icon */
+     , (31823,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31823,  28,       4433) /* Spell - AcidStream8 */
-     , (31823,  52,  100676441) /* IconUnderlay */
+     , (31823,  52, 0x06003359) /* IconUnderlay */
      , (31823, 8001, 2439741592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
      , (31823, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31823, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -60,12 +60,12 @@ VALUES (31823,   1,   33559640) /* Setup */
      , (31823, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31823, 8040, 459083, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (31823, 8040, 0x0007014B, 70.025, -80, -0.071, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0007014B [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31823, 8000, 3671377019) /* PCAPRecordedObjectIID */
-     , (31823, 8008, 1343492612) /* PCAPRecordedParentIID */;
+VALUES (31823, 8000, 0xDAD4C47B) /* PCAPRecordedObjectIID */
+     , (31823, 8008, 0x50141204) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31823, 67116700, 1, 100)

@@ -8,7 +8,6 @@ VALUES (46615,   1,          2) /* ItemType - Armor */
      , (46615,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (46615,   5,       1665) /* EncumbranceVal */
      , (46615,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
-     , (46615,  10,       6656) /* CurrentWieldedLocation - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (46615,  16,          1) /* ItemUseable - No */
      , (46615,  19,       1738) /* Value */
      , (46615,  28,        660) /* ArmorLevel */
@@ -43,28 +42,28 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46615,   1, 'O-Yoroi Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46615,   1,   33554642) /* Setup */
-     , (46615,   3,  536870932) /* SoundTable */
-     , (46615,   6,   67108990) /* PaletteBase */
-     , (46615,   8,  100692794) /* Icon */
-     , (46615,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46615,   1, 0x020000D2) /* Setup */
+     , (46615,   3, 0x20000014) /* SoundTable */
+     , (46615,   6, 0x0400007E) /* PaletteBase */
+     , (46615,   8, 0x0600733A) /* Icon */
+     , (46615,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46615, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (46615, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46615, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46615, 8000, 2345789233) /* PCAPRecordedObjectIID */;
+VALUES (46615, 8000, 0x8BD1E731) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46615,  4391,      2)  /* AcidBane8 */
+VALUES (46615,  4696,      2)  /* CANTRIPINVULNERABILITY3 */
+     , (46615,  4391,      2)  /* AcidBane8 */
      , (46615,  4393,      2)  /* BladeBane8 */
      , (46615,  4397,      2)  /* BludgeonBane8 */
      , (46615,  4401,      2)  /* FlameBane8 */
      , (46615,  4403,      2)  /* FrostBane8 */
      , (46615,  4407,      2)  /* Impenetrability8 */
      , (46615,  4409,      2)  /* LightningBane8 */
-     , (46615,  4412,      2)  /* PiercingBane8 */
-     , (46615,  4696,      2)  /* CANTRIPINVULNERABILITY3 */;
+     , (46615,  4412,      2)  /* PiercingBane8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46615, 67109965, 92, 4)

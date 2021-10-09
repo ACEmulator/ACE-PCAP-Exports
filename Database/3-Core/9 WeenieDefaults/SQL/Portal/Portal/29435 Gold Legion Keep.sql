@@ -24,16 +24,16 @@ VALUES (29435,   1, 'Gold Legion Keep') /* Name */
      , (29435, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29435,   1,   33555925) /* Setup */
-     , (29435,   2,  150994947) /* MotionTable */
-     , (29435,   8,  100667499) /* Icon */
+VALUES (29435,   1, 0x020005D5) /* Setup */
+     , (29435,   2, 0x09000003) /* MotionTable */
+     , (29435,   8, 0x0600106B) /* Icon */
      , (29435, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (29435, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (29435, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29435, 8040, 2173698110, 174, 140, 123.937, 0.8870109, 0, 0, -0.4617486) /* PCAPRecordedLocation */
+VALUES (29435, 8040, 0x8190003E, 174, 140, 123.937, 0.887011, 0, 0, -0.461749) /* PCAPRecordedLocation */
 /* @teleloc 0x8190003E [174.000000 140.000000 123.937000] 0.887011 0.000000 0.000000 -0.461749 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29435, 8000, 3692406765) /* PCAPRecordedObjectIID */;
+VALUES (29435, 8000, 0xDC15A7ED) /* PCAPRecordedObjectIID */;

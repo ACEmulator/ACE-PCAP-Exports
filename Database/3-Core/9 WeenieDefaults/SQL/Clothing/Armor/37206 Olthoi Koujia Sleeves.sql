@@ -49,23 +49,23 @@ VALUES (37206,   1, 'Olthoi Koujia Sleeves') /* Name */
      , (37206,  16, 'Olthoi Koujia Sleeves of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37206,   1,   33554655) /* Setup */
-     , (37206,   3,  536870932) /* SoundTable */
-     , (37206,   6,   67108990) /* PaletteBase */
-     , (37206,   8,  100690048) /* Icon */
-     , (37206,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37206,   1, 0x020000DF) /* Setup */
+     , (37206,   3, 0x20000014) /* SoundTable */
+     , (37206,   6, 0x0400007E) /* PaletteBase */
+     , (37206,   8, 0x06006880) /* Icon */
+     , (37206,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37206, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (37206, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37206, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37206, 8000, 2720601784) /* PCAPRecordedObjectIID */;
+VALUES (37206, 8000, 0xA22916B8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37206,  2087,      2)  /* StrengthSelf7 */
-     , (37206,  2108,      2)  /* Impenetrability7 */
+VALUES (37206,  2575,      2)  /* CANTRIPQUICKNESS2 */
      , (37206,  2529,      2)  /* CANTRIPSPRINT2 */
-     , (37206,  2575,      2)  /* CANTRIPQUICKNESS2 */;
+     , (37206,  2087,      2)  /* StrengthSelf7 */
+     , (37206,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37206, 67116548, 116, 12)

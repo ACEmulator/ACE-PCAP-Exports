@@ -19,11 +19,11 @@ VALUES (44731,   1, 'Doll') /* Name */
      , (44731,  16, 'Dolls are believed to be an aborted Virindi attempt to emulate life. They are relatively small creatures, with masks more rounded than that of the typical Virindi. There does not seem to be any set variance for Dolls; people have reported seeing weak ones that were either broken or damaged, as well as extremely potent ones that can fell an adventurer with only a few blows. Their formidability can only be judged by how "pure" they are (purer ones being, quite honestly, purer killing machines). ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44731,   1,   33561331) /* Setup */
-     , (44731,   8,  100668115) /* Icon */
+VALUES (44731,   1, 0x02001AF3) /* Setup */
+     , (44731,   8, 0x060012D3) /* Icon */
      , (44731, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44731, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44731, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44731, 8000, 2192196378) /* PCAPRecordedObjectIID */;
+VALUES (44731, 8000, 0x82AA431A) /* PCAPRecordedObjectIID */;

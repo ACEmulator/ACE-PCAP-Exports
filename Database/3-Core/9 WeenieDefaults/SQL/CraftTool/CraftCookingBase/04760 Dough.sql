@@ -25,13 +25,13 @@ VALUES (4760,   1, 'Dough') /* Name */
      , (4760,  20, 'Batches of Dough') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4760,   1,   33555968) /* Setup */
-     , (4760,   3,  536870932) /* SoundTable */
-     , (4760,   8,  100669954) /* Icon */
-     , (4760,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4760,   1, 0x02000600) /* Setup */
+     , (4760,   3, 0x20000014) /* SoundTable */
+     , (4760,   8, 0x06001A02) /* Icon */
+     , (4760,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4760, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (4760, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (4760, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4760, 8000, 3710938029) /* PCAPRecordedObjectIID */;
+VALUES (4760, 8000, 0xDD306BAD) /* PCAPRecordedObjectIID */;

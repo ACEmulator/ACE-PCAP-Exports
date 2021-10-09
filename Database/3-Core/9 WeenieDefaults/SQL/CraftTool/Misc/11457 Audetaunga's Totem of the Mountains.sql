@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11457,   1, 'Audetaunga''s Totem of the Mountains') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11457,   1,   33557271) /* Setup */
-     , (11457,   3,  536870932) /* SoundTable */
-     , (11457,   8,  100672022) /* Icon */
-     , (11457,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11457,   1, 0x02000B17) /* Setup */
+     , (11457,   3, 0x20000014) /* SoundTable */
+     , (11457,   8, 0x06002216) /* Icon */
+     , (11457,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11457, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11457, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11457, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11457, 8000, 2240733903) /* PCAPRecordedObjectIID */;
+VALUES (11457, 8000, 0x858EE2CF) /* PCAPRecordedObjectIID */;

@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2201,   1, 'Tumerok Priest''s Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2201,   1,   33554784) /* Setup */
-     , (2201,   3,  536870932) /* SoundTable */
-     , (2201,   8,  100667486) /* Icon */
-     , (2201,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2201,   1, 0x02000160) /* Setup */
+     , (2201,   3, 0x20000014) /* SoundTable */
+     , (2201,   8, 0x0600105E) /* Icon */
+     , (2201,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2201, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (2201, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2201, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2201, 8000, 3693415174) /* PCAPRecordedObjectIID */;
+VALUES (2201, 8000, 0xDC250B06) /* PCAPRecordedObjectIID */;

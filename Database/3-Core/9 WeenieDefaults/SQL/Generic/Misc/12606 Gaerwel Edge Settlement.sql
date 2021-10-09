@@ -17,15 +17,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12606,   1, 'Gaerwel Edge Settlement') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12606,   1,   33557463) /* Setup */
-     , (12606,   8,  100668115) /* Icon */
+VALUES (12606,   1, 0x02000BD7) /* Setup */
+     , (12606,   8, 0x060012D3) /* Icon */
      , (12606, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (12606, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12606, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12606, 8040, 3464953859, 11.8344, 52.7449, 22.9862, -0.921855, 0, 0, 0.387534) /* PCAPRecordedLocation */
+VALUES (12606, 8040, 0xCE870003, 11.8344, 52.7449, 22.9862, -0.921855, 0, 0, 0.387534) /* PCAPRecordedLocation */
 /* @teleloc 0xCE870003 [11.834400 52.744900 22.986200] -0.921855 0.000000 0.000000 0.387534 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12606, 8000, 2095608241) /* PCAPRecordedObjectIID */;
+VALUES (12606, 8000, 0x7CE871B1) /* PCAPRecordedObjectIID */;

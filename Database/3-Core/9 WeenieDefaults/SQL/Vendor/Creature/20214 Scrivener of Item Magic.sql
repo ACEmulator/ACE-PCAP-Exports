@@ -36,27 +36,27 @@ VALUES (20214,   1, 'Scrivener of Item Magic') /* Name */
      , (20214, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20214,   1,   33554433) /* Setup */
-     , (20214,   2,  150994945) /* MotionTable */
-     , (20214,   3,  536870913) /* SoundTable */
-     , (20214,   6,   67108990) /* PaletteBase */
-     , (20214,   8,  100667446) /* Icon */
-     , (20214,   9,   83890451) /* EyesTexture */
-     , (20214,  10,   83890561) /* NoseTexture */
-     , (20214,  11,   83890568) /* MouthTexture */
-     , (20214,  15,   67117026) /* HairPalette */
-     , (20214,  16,   67109565) /* EyesPalette */
-     , (20214,  17,   67110052) /* SkinPalette */
+VALUES (20214,   1, 0x02000001) /* Setup */
+     , (20214,   2, 0x09000001) /* MotionTable */
+     , (20214,   3, 0x20000001) /* SoundTable */
+     , (20214,   6, 0x0400007E) /* PaletteBase */
+     , (20214,   8, 0x06001036) /* Icon */
+     , (20214,   9, 0x05001113) /* EyesTexture */
+     , (20214,  10, 0x05001181) /* NoseTexture */
+     , (20214,  11, 0x05001188) /* MouthTexture */
+     , (20214,  15, 0x04001FE2) /* HairPalette */
+     , (20214,  16, 0x040002BD) /* EyesPalette */
+     , (20214,  17, 0x040004A4) /* SkinPalette */
      , (20214, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (20214, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (20214, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20214, 8040, 3465871724, 57.7728, 81.2142, 20.005, 0.3351127, 0, 0, -0.9421781) /* PCAPRecordedLocation */
+VALUES (20214, 8040, 0xCE95016C, 57.7728, 81.2142, 20.005, 0.335113, 0, 0, -0.942178) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95016C [57.772800 81.214200 20.005000] 0.335113 0.000000 0.000000 -0.942178 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20214, 8000, 2095665233) /* PCAPRecordedObjectIID */;
+VALUES (20214, 8000, 0x7CE95051) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20214,   1,  90, 0, 0) /* Strength */
@@ -110,9 +110,7 @@ VALUES (20214, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for
      , (20214, 4,  2895, -1, 0, 0, False) /* Create Scroll of Turn Blade IV (2895) for Shop */
      , (20214, 4,  2900, -1, 0, 0, False) /* Create Scroll of Weaken Lock IV (2900) for Shop */
      , (20214, 4,  2904, -1, 0, 0, False) /* Create Scroll of Summon Primary Portal I (2904) for Shop */
-     , (20214, 4, 20622, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal I (20622) for Shop */
-     , (20214, 4, 49428, -1, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for Shop */
-     , (20214, 4, 49268, -1, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for Shop */;
+     , (20214, 4, 20622, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal I (20622) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20214, 67109964, 92, 4)

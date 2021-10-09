@@ -23,17 +23,17 @@ VALUES (23266,   1, 'Pink Guppy') /* Name */
      , (23266,  20, 'Pink Guppies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23266,   1,   33558282) /* Setup */
-     , (23266,   3,  536870932) /* SoundTable */
-     , (23266,   6,   67114203) /* PaletteBase */
-     , (23266,   8,  100674192) /* Icon */
-     , (23266,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23266,   1, 0x02000F0A) /* Setup */
+     , (23266,   3, 0x20000014) /* SoundTable */
+     , (23266,   6, 0x040014DB) /* PaletteBase */
+     , (23266,   8, 0x06002A90) /* Icon */
+     , (23266,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23266, 8001,  270561297) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (23266, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (23266, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23266, 8000, 3708839456) /* PCAPRecordedObjectIID */;
+VALUES (23266, 8000, 0xDD106620) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23266, 67114211, 0, 0);

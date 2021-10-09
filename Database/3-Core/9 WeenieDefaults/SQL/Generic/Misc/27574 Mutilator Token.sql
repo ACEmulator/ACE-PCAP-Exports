@@ -14,7 +14,8 @@ VALUES (27574,   1,        128) /* ItemType - Misc */
      , (27574, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27574,  22, True ) /* Inscribable */;
+VALUES (27574,  22, True ) /* Inscribable */
+     , (27574,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27574,  39,     0.5) /* DefaultScale */;
@@ -24,17 +25,17 @@ VALUES (27574,   1, 'Mutilator Token') /* Name */
      , (27574,  15, 'A token of your completion of the Mutilator Quest.  Please give this back to Behdo in order for him to change your title to Mutilator Annihilator.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27574,   1,   33554817) /* Setup */
-     , (27574,   3,  536870932) /* SoundTable */
-     , (27574,   6,   67111919) /* PaletteBase */
-     , (27574,   8,  100672061) /* Icon */
-     , (27574,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27574,   1, 0x02000181) /* Setup */
+     , (27574,   3, 0x20000014) /* SoundTable */
+     , (27574,   6, 0x04000BEF) /* PaletteBase */
+     , (27574,   8, 0x0600223D) /* Icon */
+     , (27574,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27574, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (27574, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27574, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27574, 8000, 2149416223) /* PCAPRecordedObjectIID */;
+VALUES (27574, 8000, 0x801D7D1F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27574, 67111927, 0, 0);

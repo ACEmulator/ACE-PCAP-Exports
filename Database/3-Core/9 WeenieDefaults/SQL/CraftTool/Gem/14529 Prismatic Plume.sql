@@ -27,17 +27,17 @@ VALUES (14529,   1, 'Prismatic Plume') /* Name */
      , (14529,  16, 'A rainbow plume meant to be placed on a helm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14529,   1,   33557508) /* Setup */
-     , (14529,   3,  536870932) /* SoundTable */
-     , (14529,   6,   67108990) /* PaletteBase */
-     , (14529,   8,  100672518) /* Icon */
-     , (14529,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14529,   1, 0x02000C04) /* Setup */
+     , (14529,   3, 0x20000014) /* SoundTable */
+     , (14529,   6, 0x0400007E) /* PaletteBase */
+     , (14529,   8, 0x06002406) /* Icon */
+     , (14529,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14529, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (14529, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14529, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14529, 8000, 2164419586) /* PCAPRecordedObjectIID */;
+VALUES (14529, 8000, 0x81026C02) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14529, 67113786, 0, 0);

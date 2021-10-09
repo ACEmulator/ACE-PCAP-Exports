@@ -20,6 +20,7 @@ VALUES (9059,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9059,  22, True ) /* Inscribable */
+     , (9059,  23, True ) /* DestroyOnSell */
      , (9059,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -28,17 +29,17 @@ VALUES (9059,   1, 'Glittering Crystalline Key') /* Name */
      , (9059,  16, 'A clear crystal key. There is a symbol inscribed on its surface; an eight-pointed starburst shape overlaid on a swirling portal. In the heart of the starburst is a crashing wave. Within the folds of the portal swirl are four glass beads, red, blue, violet, and green.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9059,   1,   33556963) /* Setup */
-     , (9059,   3,  536870932) /* SoundTable */
-     , (9059,   6,   67111919) /* PaletteBase */
-     , (9059,   8,  100671360) /* Icon */
-     , (9059,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9059,   1, 0x020009E3) /* Setup */
+     , (9059,   3, 0x20000014) /* SoundTable */
+     , (9059,   6, 0x04000BEF) /* PaletteBase */
+     , (9059,   8, 0x06001F80) /* Icon */
+     , (9059,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9059, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (9059, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9059, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9059, 8000, 2657343785) /* PCAPRecordedObjectIID */;
+VALUES (9059, 8000, 0x9E63D929) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9059, 67111920, 0, 0);

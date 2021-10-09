@@ -21,16 +21,16 @@ VALUES (30752,   1, 'Defiled Temple Asylum') /* Name */
      , (30752, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30752,   1,   33555925) /* Setup */
-     , (30752,   2,  150994947) /* MotionTable */
-     , (30752,   8,  100667499) /* Icon */
+VALUES (30752,   1, 0x020005D5) /* Setup */
+     , (30752,   2, 0x09000003) /* MotionTable */
+     , (30752,   8, 0x0600106B) /* Icon */
      , (30752, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (30752, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (30752, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30752, 8040, 2833252626, 83.878, 129.746, 23.137, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (30752, 8040, 0xA8E00112, 83.878, 129.746, 23.137, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xA8E00112 [83.878000 129.746000 23.137000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30752, 8000, 2056126504) /* PCAPRecordedObjectIID */;
+VALUES (30752, 8000, 0x7A8E0028) /* PCAPRecordedObjectIID */;

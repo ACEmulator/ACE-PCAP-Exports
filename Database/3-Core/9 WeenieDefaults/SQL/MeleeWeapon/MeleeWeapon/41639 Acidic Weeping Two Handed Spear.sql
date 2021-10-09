@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41639,   1,          1) /* ItemType - MeleeWeapon */
      , (41639,   5,        650) /* EncumbranceVal */
      , (41639,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (41639,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (41639,  16,          1) /* ItemUseable - No */
      , (41639,  18,          1) /* UiEffects - Magical */
      , (41639,  19,       8000) /* Value */
@@ -35,6 +34,7 @@ VALUES (41639,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41639,  22, True ) /* Inscribable */
+     , (41639,  23, True ) /* DestroyOnSell */
      , (41639,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -52,23 +52,23 @@ VALUES (41639,   1, 'Acidic Weeping Two Handed Spear') /* Name */
      , (41639,  15, 'A spear infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41639,   1,   33558480) /* Setup */
-     , (41639,   3,  536870932) /* SoundTable */
-     , (41639,   6,   67114522) /* PaletteBase */
-     , (41639,   8,  100690831) /* Icon */
-     , (41639,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41639,   1, 0x02000FD0) /* Setup */
+     , (41639,   3, 0x20000014) /* SoundTable */
+     , (41639,   6, 0x0400161A) /* PaletteBase */
+     , (41639,   8, 0x06006B8F) /* Icon */
+     , (41639,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41639, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (41639, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41639, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (41639, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41639, 8040, 23855548, 49.206, -31.96, -0.07000002, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (41639, 8040, 0x016C01BC, 49.206, -31.96, -0.07, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.070000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41639, 8000, 2184846700) /* PCAPRecordedObjectIID */
-     , (41639, 8008, 1343182729) /* PCAPRecordedParentIID */;
+VALUES (41639, 8000, 0x823A1D6C) /* PCAPRecordedObjectIID */
+     , (41639, 8008, 0x500F5789) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41639,  5074,      2)  /* ModerateTwoHandedAptitude */;

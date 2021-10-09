@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45529,   1,          1) /* ItemType - MeleeWeapon */
      , (45529,   5,        220) /* EncumbranceVal */
      , (45529,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (45529,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (45529,  16,          1) /* ItemUseable - No */
      , (45529,  18,          1) /* UiEffects - Magical */
      , (45529,  19,          0) /* Value */
@@ -34,6 +33,7 @@ VALUES (45529,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45529,  22, True ) /* Inscribable */
+     , (45529,  23, True ) /* DestroyOnSell */
      , (45529,  69, False) /* IsSellable */
      , (45529,  99, True ) /* Ivoryable */;
 
@@ -54,11 +54,11 @@ VALUES (45529,   1, 'Soul Bound Sword') /* Name */
      , (45529,  16, 'A ghostly blue sword, bound to your soul.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45529,   1,   33560577) /* Setup */
-     , (45529,   3,  536870932) /* SoundTable */
-     , (45529,   8,  100673209) /* Icon */
-     , (45529,  22,  872415275) /* PhysicsEffectTable */
-     , (45529,  52,  100689896) /* IconUnderlay */
+VALUES (45529,   1, 0x02001801) /* Setup */
+     , (45529,   3, 0x20000014) /* SoundTable */
+     , (45529,   8, 0x060026B9) /* Icon */
+     , (45529,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45529,  52, 0x060067E8) /* IconUnderlay */
      , (45529, 8001,  270762640) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (45529, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45529, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -66,21 +66,21 @@ VALUES (45529,   1,   33560577) /* Setup */
      , (45529, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45529, 8040, 3135766790, 84.11499, 105.14, 25.929, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (45529, 8040, 0xBAE80106, 84.11499, 105.14, 25.929, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xBAE80106 [84.114990 105.140000 25.929000] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45529, 8000, 3661185723) /* PCAPRecordedObjectIID */
-     , (45529, 8008, 1342631147) /* PCAPRecordedParentIID */;
+VALUES (45529, 8000, 0xDA3942BB) /* PCAPRecordedObjectIID */
+     , (45529, 8008, 0x5006ECEB) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45529,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (45529,  2101,      2)  /* DefenderSelf7 */
-     , (45529,  2106,      2)  /* HeartSeekerSelf7 */
-     , (45529,  2116,      2)  /* SwiftKillerSelf7 */
-     , (45529,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */
+VALUES (45529,  2116,      2)  /* SwiftKillerSelf7 */
      , (45529,  2579,      2)  /* CANTRIPCOORDINATION1 */
-     , (45529,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+     , (45529,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (45529,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (45529,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (45529,  2101,      2)  /* DefenderSelf7 */
+     , (45529,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (45529, 0, 83889235, 83892492)

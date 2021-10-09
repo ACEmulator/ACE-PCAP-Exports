@@ -22,16 +22,16 @@ VALUES (13139,   1, 'West Mayoi Mountain Villas Portal') /* Name */
      , (13139, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13139,   1,   33554867) /* Setup */
-     , (13139,   2,  150994947) /* MotionTable */
-     , (13139,   8,  100667499) /* Icon */
+VALUES (13139,   1, 0x020001B3) /* Setup */
+     , (13139,   2, 0x09000003) /* MotionTable */
+     , (13139,   8, 0x0600106B) /* Icon */
      , (13139, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (13139, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (13139, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13139, 8040, 3811770428, 171.32, 85.7033, 118.767, -0.8918212, 0, 0, 0.4523881) /* PCAPRecordedLocation */
+VALUES (13139, 8040, 0xE333003C, 171.32, 85.7033, 118.767, -0.891821, 0, 0, 0.452388) /* PCAPRecordedLocation */
 /* @teleloc 0xE333003C [171.320000 85.703300 118.767000] -0.891821 0.000000 0.000000 0.452388 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13139, 8000, 2117283844) /* PCAPRecordedObjectIID */;
+VALUES (13139, 8000, 0x7E333004) /* PCAPRecordedObjectIID */;

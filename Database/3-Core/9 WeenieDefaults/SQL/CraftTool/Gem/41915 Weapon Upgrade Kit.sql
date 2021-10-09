@@ -26,13 +26,13 @@ VALUES (41915,   1, 'Weapon Upgrade Kit') /* Name */
      , (41915,  16, 'A weapon upgrade kit.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41915,   1,   33555677) /* Setup */
-     , (41915,   3,  536870932) /* SoundTable */
-     , (41915,   8,  100688857) /* Icon */
-     , (41915,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41915,   1, 0x020004DD) /* Setup */
+     , (41915,   3, 0x20000014) /* SoundTable */
+     , (41915,   8, 0x060063D9) /* Icon */
+     , (41915,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41915, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (41915, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41915, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41915, 8000, 3356367922) /* PCAPRecordedObjectIID */;
+VALUES (41915, 8000, 0xC80E1C32) /* PCAPRecordedObjectIID */;

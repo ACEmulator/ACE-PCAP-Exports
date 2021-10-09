@@ -37,27 +37,27 @@ VALUES (671,   1, 'Scildith Dyrson the Bowyer') /* Name */
      , (671, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (671,   1,   33554433) /* Setup */
-     , (671,   2,  150994945) /* MotionTable */
-     , (671,   3,  536870913) /* SoundTable */
-     , (671,   6,   67108990) /* PaletteBase */
-     , (671,   8,  100667375) /* Icon */
-     , (671,   9,   83890485) /* EyesTexture */
-     , (671,  10,   83890556) /* NoseTexture */
-     , (671,  11,   83890656) /* MouthTexture */
-     , (671,  15,   67117021) /* HairPalette */
-     , (671,  16,   67110065) /* EyesPalette */
-     , (671,  17,   67109558) /* SkinPalette */
+VALUES (671,   1, 0x02000001) /* Setup */
+     , (671,   2, 0x09000001) /* MotionTable */
+     , (671,   3, 0x20000001) /* SoundTable */
+     , (671,   6, 0x0400007E) /* PaletteBase */
+     , (671,   8, 0x06000FEF) /* Icon */
+     , (671,   9, 0x05001135) /* EyesTexture */
+     , (671,  10, 0x0500117C) /* NoseTexture */
+     , (671,  11, 0x050011E0) /* MouthTexture */
+     , (671,  15, 0x04001FDD) /* HairPalette */
+     , (671,  16, 0x040004B1) /* EyesPalette */
+     , (671,  17, 0x040002B6) /* SkinPalette */
      , (671, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (671, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (671, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (671, 8040, 3164537114, 148.745, 14.7991, 32.005, -0.9248783, 0, 0, -0.3802632) /* PCAPRecordedLocation */
+VALUES (671, 8040, 0xBC9F011A, 148.745, 14.7991, 32.005, -0.924878, 0, 0, -0.380263) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F011A [148.745000 14.799100 32.005000] -0.924878 0.000000 0.000000 -0.380263 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (671, 8000, 2076831777) /* PCAPRecordedObjectIID */;
+VALUES (671, 8000, 0x7BC9F021) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (671,   1,  60, 0, 0) /* Strength */

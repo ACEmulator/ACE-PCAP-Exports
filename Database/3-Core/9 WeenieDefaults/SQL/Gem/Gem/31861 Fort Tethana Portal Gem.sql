@@ -32,11 +32,11 @@ VALUES (31861,   1, 'Fort Tethana Portal Gem') /* Name */
      , (31861,  16, 'Use this gem to summon a short-lived portal to Fort Tethana.  This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31861,   1,   33556769) /* Setup */
-     , (31861,   3,  536870932) /* SoundTable */
-     , (31861,   6,   67111919) /* PaletteBase */
-     , (31861,   8,  100674858) /* Icon */
-     , (31861,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31861,   1, 0x02000921) /* Setup */
+     , (31861,   3, 0x20000014) /* SoundTable */
+     , (31861,   6, 0x04000BEF) /* PaletteBase */
+     , (31861,   8, 0x06002D2A) /* Icon */
+     , (31861,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31861,  28,        157) /* Spell - SummonPortal1 */
      , (31861, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (31861, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -44,7 +44,7 @@ VALUES (31861,   1,   33556769) /* Setup */
      , (31861, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31861, 8000, 2149233618) /* PCAPRecordedObjectIID */;
+VALUES (31861, 8000, 0x801AB3D2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31861, 67111922, 0, 0);

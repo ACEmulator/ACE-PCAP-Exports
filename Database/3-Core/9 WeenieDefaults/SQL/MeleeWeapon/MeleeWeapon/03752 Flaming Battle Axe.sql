@@ -55,10 +55,10 @@ VALUES (3752,   1, 'Flaming Battle Axe') /* Name */
      , (3752,  16, 'Flaming Battle Axe of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3752,   1,   33555688) /* Setup */
-     , (3752,   3,  536870932) /* SoundTable */
-     , (3752,   8,  100668990) /* Icon */
-     , (3752,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3752,   1, 0x020004E8) /* Setup */
+     , (3752,   3, 0x20000014) /* SoundTable */
+     , (3752,   8, 0x0600163E) /* Icon */
+     , (3752,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3752,  30,         88) /* PhysicsScript - Create */
      , (3752,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3752, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
@@ -66,12 +66,12 @@ VALUES (3752,   1,   33555688) /* Setup */
      , (3752, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3752, 8000, 3354384877) /* PCAPRecordedObjectIID */;
+VALUES (3752, 8000, 0xC7EFD9ED) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3752,  1402,      2)  /* QuicknessSelf6 */
-     , (3752,  1592,      2)  /* HeartSeekerSelf6 */
-     , (3752,  1616,      2)  /* BloodDrinkerSelf6 */
+VALUES (3752,  1616,      2)  /* BloodDrinkerSelf6 */
      , (3752,  1626,      2)  /* SwiftKillerSelf5 */
      , (3752,  2537,      2)  /* CANTRIPARCANEPROWESS1 */
-     , (3752,  2617,      2)  /* CANTRIPBLUDGEONINGWARD1 */;
+     , (3752,  1592,      2)  /* HeartSeekerSelf6 */
+     , (3752,  2617,      2)  /* CANTRIPBLUDGEONINGWARD1 */
+     , (3752,  1402,      2)  /* QuicknessSelf6 */;

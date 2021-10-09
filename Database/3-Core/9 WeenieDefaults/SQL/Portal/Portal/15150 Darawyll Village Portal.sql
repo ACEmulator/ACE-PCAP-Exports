@@ -22,16 +22,16 @@ VALUES (15150,   1, 'Darawyll Village Portal') /* Name */
      , (15150, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15150,   1,   33554867) /* Setup */
-     , (15150,   2,  150994947) /* MotionTable */
-     , (15150,   8,  100667499) /* Icon */
+VALUES (15150,   1, 0x020001B3) /* Setup */
+     , (15150,   2, 0x09000003) /* MotionTable */
+     , (15150,   8, 0x0600106B) /* Icon */
      , (15150, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (15150, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (15150, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15150, 8040, 3196190754, 116.743, 26.697, 36.16175, -0.3387671, 0, 0, -0.9408703) /* PCAPRecordedLocation */
+VALUES (15150, 8040, 0xBE820022, 116.743, 26.697, 36.16175, -0.338767, 0, 0, -0.94087) /* PCAPRecordedLocation */
 /* @teleloc 0xBE820022 [116.743000 26.697000 36.161750] -0.338767 0.000000 0.000000 -0.940870 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15150, 8000, 2078810124) /* PCAPRecordedObjectIID */;
+VALUES (15150, 8000, 0x7BE8200C) /* PCAPRecordedObjectIID */;

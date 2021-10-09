@@ -26,16 +26,16 @@ VALUES (11835,   1, 'Durable Banner Haft') /* Name */
      , (11835,  16, 'A durable banner haft with a worn handle.  If joined with either a Gromnie or Mask banner, it will raise its value.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11835,   1,   33557242) /* Setup */
-     , (11835,   3,  536870932) /* SoundTable */
-     , (11835,   8,  100671949) /* Icon */
-     , (11835,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11835,   1, 0x02000AFA) /* Setup */
+     , (11835,   3, 0x20000014) /* SoundTable */
+     , (11835,   8, 0x060021CD) /* Icon */
+     , (11835,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11835, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11835, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11835, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11835, 8000, 2181139336) /* PCAPRecordedObjectIID */;
+VALUES (11835, 8000, 0x82018B88) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11835, 0, 83893727, 83893727);

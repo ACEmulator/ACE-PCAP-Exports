@@ -44,25 +44,25 @@ VALUES (43833,   1, 'Sedgemail Leather Sleeves') /* Name */
      , (43833,  16, 'Sedgemail Leather Sleeves of Magic Resistance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43833,   1,   33554655) /* Setup */
-     , (43833,   3,  536870932) /* SoundTable */
-     , (43833,   6,   67108990) /* PaletteBase */
-     , (43833,   8,  100691752) /* Icon */
-     , (43833,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43833,   1, 0x020000DF) /* Setup */
+     , (43833,   3, 0x20000014) /* SoundTable */
+     , (43833,   6, 0x0400007E) /* PaletteBase */
+     , (43833,   8, 0x06006F28) /* Icon */
+     , (43833,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43833, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (43833, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43833, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43833, 8040, 3600351239, 1.190629, 153.7323, 374, -0.07764865, 0, 0, -0.9969808) /* PCAPRecordedLocation */
+VALUES (43833, 8040, 0xD6990007, 1.190629, 153.7323, 374, -0.077649, 0, 0, -0.996981) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990007 [1.190629 153.732300 374.000000] -0.077649 0.000000 0.000000 -0.996981 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43833, 8000, 3709100985) /* PCAPRecordedObjectIID */;
+VALUES (43833, 8000, 0xDD1463B9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43833,   279,      2)  /* MagicResistanceSelf6 */
-     , (43833,  1486,      2)  /* Impenetrability6 */
+VALUES (43833,  1486,      2)  /* Impenetrability6 */
+     , (43833,   279,      2)  /* MagicResistanceSelf6 */
      , (43833,  2620,      2)  /* CANTRIPPIERCINGWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

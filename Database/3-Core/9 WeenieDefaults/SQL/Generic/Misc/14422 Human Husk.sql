@@ -14,7 +14,8 @@ VALUES (14422,   1,        128) /* ItemType - Misc */
      , (14422, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14422,  22, True ) /* Inscribable */;
+VALUES (14422,  22, True ) /* Inscribable */
+     , (14422,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14422,  39,     1.3) /* DefaultScale */;
@@ -24,15 +25,15 @@ VALUES (14422,   1, 'Human Husk') /* Name */
      , (14422,  16, 'A perfect human epidermis.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14422,   1,   33557475) /* Setup */
-     , (14422,   6,   67108990) /* PaletteBase */
-     , (14422,   8,  100672465) /* Icon */
+VALUES (14422,   1, 0x02000BE3) /* Setup */
+     , (14422,   6, 0x0400007E) /* PaletteBase */
+     , (14422,   8, 0x060023D1) /* Icon */
      , (14422, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (14422, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14422, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14422, 8000, 2779970863) /* PCAPRecordedObjectIID */;
+VALUES (14422, 8000, 0xA5B2FD2F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14422, 67113777, 0, 0);

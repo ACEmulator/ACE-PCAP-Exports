@@ -20,15 +20,15 @@ VALUES (276,   1, 'Desk') /* Name */
      , (276,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (276,   1,   33555058) /* Setup */
-     , (276,   8,  100671773) /* Icon */
+VALUES (276,   1, 0x02000272) /* Setup */
+     , (276,   8, 0x0600211D) /* Icon */
      , (276, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
      , (276, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (276, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (276, 8040, 2103705619, 56.67964, 56.63373, 12, 0.05642368, 0, 0, -0.9984069) /* PCAPRecordedLocation */
+VALUES (276, 8040, 0x7D640013, 56.67964, 56.63373, 12, 0.056424, 0, 0, -0.998407) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640013 [56.679640 56.633730 12.000000] 0.056424 0.000000 0.000000 -0.998407 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (276, 8000, 2629303375) /* PCAPRecordedObjectIID */;
+VALUES (276, 8000, 0x9CB7FC4F) /* PCAPRecordedObjectIID */;

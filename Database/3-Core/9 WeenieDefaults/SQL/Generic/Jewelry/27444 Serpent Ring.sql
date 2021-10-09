@@ -33,17 +33,17 @@ VALUES (27444,   1, 'Serpent Ring') /* Name */
      , (27444,  15, 'A small green snake biting its tail making a ring.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27444,   1,   33554691) /* Setup */
-     , (27444,   3,  536870932) /* SoundTable */
-     , (27444,   6,   67111919) /* PaletteBase */
-     , (27444,   8,  100676407) /* Icon */
-     , (27444,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27444,   1, 0x02000103) /* Setup */
+     , (27444,   3, 0x20000014) /* SoundTable */
+     , (27444,   6, 0x04000BEF) /* PaletteBase */
+     , (27444,   8, 0x06003337) /* Icon */
+     , (27444,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27444, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (27444, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27444, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27444, 8000, 2629315367) /* PCAPRecordedObjectIID */;
+VALUES (27444, 8000, 0x9CB82B27) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27444,   512,      2)  /* AcidProtectionOther4 */

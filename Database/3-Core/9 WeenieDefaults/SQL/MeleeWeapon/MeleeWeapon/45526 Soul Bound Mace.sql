@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45526,   1, 'Soul Bound Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45526,   1,   33557067) /* Setup */
-     , (45526,   3,  536870932) /* SoundTable */
-     , (45526,   6,   67111919) /* PaletteBase */
-     , (45526,   8,  100673207) /* Icon */
-     , (45526,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45526,   1, 0x02000A4B) /* Setup */
+     , (45526,   3, 0x20000014) /* SoundTable */
+     , (45526,   6, 0x04000BEF) /* PaletteBase */
+     , (45526,   8, 0x060026B7) /* Icon */
+     , (45526,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45526,  30,         88) /* PhysicsScript - Create */
-     , (45526,  52,  100689896) /* IconUnderlay */
+     , (45526,  52, 0x060067E8) /* IconUnderlay */
      , (45526, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (45526, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45526, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,7 +38,7 @@ VALUES (45526,   1,   33557067) /* Setup */
      , (45526, 8044,      35630) /* PCAPPhysicsDIDDataTemplatedFrom - Sickle of Azaxis */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45526, 8000,      45526) /* PCAPRecordedObjectIID */;
+VALUES (45526, 8000, 0x0000B1D6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45526, 67111920, 0, 0);

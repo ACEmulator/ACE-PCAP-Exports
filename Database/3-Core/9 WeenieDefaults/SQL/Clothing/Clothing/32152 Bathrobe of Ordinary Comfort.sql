@@ -39,17 +39,17 @@ Rj C tells you, "your a fuckin little o.0 nigger"') /* Inscription */
      , (32152,  16, 'A plush and comfy bathrobe. A small label on the inside of the robe appears to have been removed.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32152,   1,   33554854) /* Setup */
-     , (32152,   3,  536870932) /* SoundTable */
-     , (32152,   6,   67108990) /* PaletteBase */
-     , (32152,   8,  100688497) /* Icon */
-     , (32152,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32152,   1, 0x020001A6) /* Setup */
+     , (32152,   3, 0x20000014) /* SoundTable */
+     , (32152,   6, 0x0400007E) /* PaletteBase */
+     , (32152,   8, 0x06006271) /* Icon */
+     , (32152,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32152, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (32152, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32152, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32152, 8000, 2152773878) /* PCAPRecordedObjectIID */;
+VALUES (32152, 8000, 0x8050B8F6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32152, 67116792, 174, 66);

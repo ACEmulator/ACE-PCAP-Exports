@@ -33,14 +33,14 @@ VALUES (34968,   1, 'Enhanced Mucor') /* Name */
      , (34968,  20, 'Enhanced Mucor') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34968,   1,   33558849) /* Setup */
-     , (34968,   3,  536870932) /* SoundTable */
-     , (34968,   8,  100689391) /* Icon */
-     , (34968,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34968,   1, 0x02001141) /* Setup */
+     , (34968,   3, 0x20000014) /* SoundTable */
+     , (34968,   8, 0x060065EF) /* Icon */
+     , (34968,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34968,  28,       4068) /* Spell - MucorManaWell */
      , (34968, 8001,    6320281) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell */
      , (34968, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34968, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34968, 8000, 3708773292) /* PCAPRecordedObjectIID */;
+VALUES (34968, 8000, 0xDD0F63AC) /* PCAPRecordedObjectIID */;

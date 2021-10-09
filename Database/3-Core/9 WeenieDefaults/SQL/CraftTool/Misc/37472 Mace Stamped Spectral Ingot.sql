@@ -26,13 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37472,   1, 'Mace Stamped Spectral Ingot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37472,   1,   33556223) /* Setup */
-     , (37472,   3,  536870932) /* SoundTable */
-     , (37472,   6,   67111928) /* PaletteBase */
-     , (37472,   8,  100689897) /* Icon */
-     , (37472,  22,  872415275) /* PhysicsEffectTable */
-     , (37472,  50,  100673774) /* IconOverlay */
-     , (37472,  52,  100689404) /* IconUnderlay */
+VALUES (37472,   1, 0x020006FF) /* Setup */
+     , (37472,   3, 0x20000014) /* SoundTable */
+     , (37472,   6, 0x04000BF8) /* PaletteBase */
+     , (37472,   8, 0x060067E9) /* Icon */
+     , (37472,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37472,  50, 0x060028EE) /* IconOverlay */
+     , (37472,  52, 0x060065FC) /* IconUnderlay */
      , (37472, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (37472, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (37472, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -40,7 +40,7 @@ VALUES (37472,   1,   33556223) /* Setup */
      , (37472, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37472, 8000,      37472) /* PCAPRecordedObjectIID */;
+VALUES (37472, 8000, 0x00009260) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37472, 67112642, 0, 0);

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47630,   1,          1) /* ItemType - MeleeWeapon */
      , (47630,   5,        450) /* EncumbranceVal */
      , (47630,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (47630,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47630,  16,          1) /* ItemUseable - No */
      , (47630,  18,        256) /* UiEffects - Acid */
      , (47630,  19,        460) /* Value */
@@ -23,26 +22,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47630,   1, 'Acid Tachi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47630,   1,   33555730) /* Setup */
-     , (47630,   3,  536870932) /* SoundTable */
-     , (47630,   6,   67111919) /* PaletteBase */
-     , (47630,   8,  100668916) /* Icon */
-     , (47630,  22,  872415275) /* PhysicsEffectTable */
+VALUES (47630,   1, 0x02000512) /* Setup */
+     , (47630,   3, 0x20000014) /* SoundTable */
+     , (47630,   6, 0x04000BEF) /* PaletteBase */
+     , (47630,   8, 0x060015F4) /* Icon */
+     , (47630,  22, 0x3400002B) /* PhysicsEffectTable */
      , (47630, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (47630, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (47630, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (47630, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47630, 8040, 4133224490, 126.2732, 41.13934, 19.92725, -0.65047, -0.65047, 0.2772883, 0.2772883) /* PCAPRecordedLocation */
+VALUES (47630, 8040, 0xF65C002A, 126.2732, 41.13934, 19.92725, -0.65047, -0.65047, 0.277288, 0.277288) /* PCAPRecordedLocation */
 /* @teleloc 0xF65C002A [126.273200 41.139340 19.927250] -0.650470 -0.650470 0.277288 0.277288 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47630, 8000, 3685989469) /* PCAPRecordedObjectIID */
-     , (47630, 8008, 3685989430) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47630, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (47630, 8000, 0xDBB3BC5D) /* PCAPRecordedObjectIID */
+     , (47630, 8008, 0xDBB3BC36) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47630, 67111920, 0, 0);

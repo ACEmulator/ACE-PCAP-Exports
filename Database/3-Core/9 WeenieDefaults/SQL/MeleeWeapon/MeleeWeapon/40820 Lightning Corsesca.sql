@@ -51,18 +51,18 @@ VALUES (40820,   1, 'Lightning Corsesca') /* Name */
      , (40820,  16, 'Lightning Corsesca of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40820,   1,   33560792) /* Setup */
-     , (40820,   3,  536870932) /* SoundTable */
-     , (40820,   6,   67115560) /* PaletteBase */
-     , (40820,   8,  100690794) /* Icon */
-     , (40820,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40820,   1, 0x020018D8) /* Setup */
+     , (40820,   3, 0x20000014) /* SoundTable */
+     , (40820,   6, 0x04001A28) /* PaletteBase */
+     , (40820,   8, 0x06006B6A) /* Icon */
+     , (40820,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40820,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (40820, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40820, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40820, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40820, 8000, 3688303310) /* PCAPRecordedObjectIID */;
+VALUES (40820, 8000, 0xDBD70ACE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40820,  1603,      2)  /* DefenderSelf4 */

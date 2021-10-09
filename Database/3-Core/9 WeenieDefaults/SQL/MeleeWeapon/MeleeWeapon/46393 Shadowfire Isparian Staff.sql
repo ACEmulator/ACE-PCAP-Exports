@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46393,   1,          1) /* ItemType - MeleeWeapon */
      , (46393,   5,        450) /* EncumbranceVal */
      , (46393,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (46393,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (46393,  16,          1) /* ItemUseable - No */
      , (46393,  18,          1) /* UiEffects - Magical */
      , (46393,  19,      10000) /* Value */
@@ -31,6 +30,7 @@ VALUES (46393,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46393,  22, True ) /* Inscribable */
+     , (46393,  23, True ) /* DestroyOnSell */
      , (46393,  69, False) /* IsSellable */
      , (46393,  99, True ) /* Ivoryable */;
 
@@ -49,23 +49,23 @@ VALUES (46393,   1, 'Shadowfire Isparian Staff') /* Name */
      , (46393,  16, 'A Perfect Isparian Staff, infused with the power of the Shadowfire Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46393,   1,   33559824) /* Setup */
-     , (46393,   3,  536870932) /* SoundTable */
-     , (46393,   6,   67111919) /* PaletteBase */
-     , (46393,   8,  100688567) /* Icon */
-     , (46393,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46393,   1, 0x02001510) /* Setup */
+     , (46393,   3, 0x20000014) /* SoundTable */
+     , (46393,   6, 0x04000BEF) /* PaletteBase */
+     , (46393,   8, 0x060062B7) /* Icon */
+     , (46393,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46393, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (46393, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46393, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (46393, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46393, 8040, 3316121654, 152.0614, 130.1837, 41.929, 0.6811035, 0.6811035, -0.1899947, -0.1899947) /* PCAPRecordedLocation */
+VALUES (46393, 8040, 0xC5A80036, 152.0614, 130.1837, 41.929, 0.681104, 0.681104, -0.189995, -0.189995) /* PCAPRecordedLocation */
 /* @teleloc 0xC5A80036 [152.061400 130.183700 41.929000] 0.681104 0.681104 -0.189995 -0.189995 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46393, 8000, 3510700755) /* PCAPRecordedObjectIID */
-     , (46393, 8008, 1343477254) /* PCAPRecordedParentIID */;
+VALUES (46393, 8000, 0xD1410AD3) /* PCAPRecordedObjectIID */
+     , (46393, 8008, 0x5013D606) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46393, 67111927, 0, 0);

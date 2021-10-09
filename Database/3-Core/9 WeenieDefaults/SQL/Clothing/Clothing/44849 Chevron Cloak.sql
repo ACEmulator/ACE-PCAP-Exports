@@ -50,17 +50,17 @@ VALUES (44849,   1, 'Chevron Cloak') /* Name */
      , (44849,  16, 'Chevron Cloak') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44849,   1,   33561386) /* Setup */
-     , (44849,   3,  536870932) /* SoundTable */
-     , (44849,   8,  100692124) /* Icon */
-     , (44849,  22,  872415275) /* PhysicsEffectTable */
-     , (44849,  50,  100690998) /* IconOverlay */
+VALUES (44849,   1, 0x02001B2A) /* Setup */
+     , (44849,   3, 0x20000014) /* SoundTable */
+     , (44849,   8, 0x0600709C) /* Icon */
+     , (44849,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44849,  50, 0x06006C36) /* IconOverlay */
      , (44849, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
      , (44849, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44849, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44849, 8000, 2174243436) /* PCAPRecordedObjectIID */;
+VALUES (44849, 8000, 0x8198526C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (44849, 0, 83898657, 83898658);

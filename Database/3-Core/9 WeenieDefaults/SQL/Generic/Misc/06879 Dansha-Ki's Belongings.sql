@@ -21,21 +21,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6879,   1, 'Dansha-Ki''s Belongings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6879,   1,   33554769) /* Setup */
-     , (6879,   3,  536870932) /* SoundTable */
-     , (6879,   6,   67111919) /* PaletteBase */
-     , (6879,   8,  100670384) /* Icon */
-     , (6879,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6879,   1, 0x02000151) /* Setup */
+     , (6879,   3, 0x20000014) /* SoundTable */
+     , (6879,   6, 0x04000BEF) /* PaletteBase */
+     , (6879,   8, 0x06001BB0) /* Icon */
+     , (6879,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6879, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (6879, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6879, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6879, 8040, 3682009117, 81.1429, 105.185, 47.06263, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (6879, 8040, 0xDB77001D, 81.1429, 105.185, 47.06263, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xDB77001D [81.142900 105.185000 47.062630] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6879, 8000, 3692282218) /* PCAPRecordedObjectIID */;
+VALUES (6879, 8000, 0xDC13C16A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6879, 67111920, 0, 0);

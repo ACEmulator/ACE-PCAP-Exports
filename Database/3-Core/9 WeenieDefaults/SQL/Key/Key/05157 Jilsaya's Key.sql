@@ -23,13 +23,13 @@ VALUES (5157,   1, 'Jilsaya''s Key') /* Name */
      , (5157,  16, 'A plain, uninteresting key used in the dungeon of Abandoned Shops') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5157,   1,   33554784) /* Setup */
-     , (5157,   3,  536870932) /* SoundTable */
-     , (5157,   8,  100668439) /* Icon */
-     , (5157,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5157,   1, 0x02000160) /* Setup */
+     , (5157,   3, 0x20000014) /* SoundTable */
+     , (5157,   8, 0x06001417) /* Icon */
+     , (5157,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5157, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (5157, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5157, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5157, 8000, 2224240327) /* PCAPRecordedObjectIID */;
+VALUES (5157, 8000, 0x849336C7) /* PCAPRecordedObjectIID */;

@@ -15,6 +15,7 @@ VALUES (35910,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35910,  22, True ) /* Inscribable */
+     , (35910,  23, True ) /* DestroyOnSell */
      , (35910,  69, False) /* IsSellable */
      , (35910,  99, False) /* Ivoryable */;
 
@@ -27,17 +28,17 @@ VALUES (35910,   1, 'Carapace Shard') /* Name */
      , (35910,  16, 'A shard of the Paradox-touched Olthoi Queen''s Carapace.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35910,   1,   33554817) /* Setup */
-     , (35910,   3,  536870932) /* SoundTable */
-     , (35910,   6,   67111919) /* PaletteBase */
-     , (35910,   8,  100674809) /* Icon */
-     , (35910,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35910,   1, 0x02000181) /* Setup */
+     , (35910,   3, 0x20000014) /* SoundTable */
+     , (35910,   6, 0x04000BEF) /* PaletteBase */
+     , (35910,   8, 0x06002CF9) /* Icon */
+     , (35910,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35910, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (35910, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35910, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35910, 8000, 3701500097) /* PCAPRecordedObjectIID */;
+VALUES (35910, 8000, 0xDCA068C1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35910, 67111921, 0, 0);

@@ -24,16 +24,16 @@ VALUES (32058,   1, 'Vissidal Island') /* Name */
      , (32058, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32058,   1,   33555925) /* Setup */
-     , (32058,   2,  150994947) /* MotionTable */
-     , (32058,   8,  100667499) /* Icon */
+VALUES (32058,   1, 0x020005D5) /* Setup */
+     , (32058,   2, 0x09000003) /* MotionTable */
+     , (32058,   8, 0x0600106B) /* Icon */
      , (32058, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (32058, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (32058, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32058, 8040, 3520528410, 91.9545, 25.4256, -0.163, 0.878965, 0, 0, 0.476887) /* PCAPRecordedLocation */
+VALUES (32058, 8040, 0xD1D7001A, 91.9545, 25.4256, -0.163, 0.878965, 0, 0, 0.476887) /* PCAPRecordedLocation */
 /* @teleloc 0xD1D7001A [91.954500 25.425600 -0.163000] 0.878965 0.000000 0.000000 0.476887 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32058, 8000, 3361460523) /* PCAPRecordedObjectIID */;
+VALUES (32058, 8000, 0xC85BD12B) /* PCAPRecordedObjectIID */;

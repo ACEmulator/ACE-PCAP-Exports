@@ -24,17 +24,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19560,   1, 'Nuhmudira''s Bestowment of Coordination and Fire Defense') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19560,   1,   33554687) /* Setup */
-     , (19560,   3,  536870932) /* SoundTable */
-     , (19560,   6,   67111919) /* PaletteBase */
-     , (19560,   8,  100672963) /* Icon */
-     , (19560,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19560,   1, 0x020000FF) /* Setup */
+     , (19560,   3, 0x20000014) /* SoundTable */
+     , (19560,   6, 0x04000BEF) /* PaletteBase */
+     , (19560,   8, 0x060025C3) /* Icon */
+     , (19560,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19560, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (19560, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19560, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19560, 8000, 2624311991) /* PCAPRecordedObjectIID */;
+VALUES (19560, 8000, 0x9C6BD2B7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19560, 67111918, 0, 0);

@@ -18,18 +18,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33181,   1, 'A Shadow Spire on the Caul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33181,   1,   33559084) /* Setup */
-     , (33181,   3,  536870932) /* SoundTable */
-     , (33181,   6,   67112626) /* PaletteBase */
-     , (33181,   8,  100675746) /* Icon */
-     , (33181,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33181,   1, 0x0200122C) /* Setup */
+     , (33181,   3, 0x20000014) /* SoundTable */
+     , (33181,   6, 0x04000EB2) /* PaletteBase */
+     , (33181,   8, 0x060030A2) /* Icon */
+     , (33181,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33181, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (33181, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (33181, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (33181, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33181, 8000,      33181) /* PCAPRecordedObjectIID */;
+VALUES (33181, 8000, 0x0000819D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33181, 67113862, 0, 0);

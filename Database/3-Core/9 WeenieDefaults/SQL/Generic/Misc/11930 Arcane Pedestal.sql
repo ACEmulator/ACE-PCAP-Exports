@@ -20,11 +20,11 @@ VALUES (11930,   1, 'Arcane Pedestal') /* Name */
      , (11930,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11930,   1,   33557166) /* Setup */
-     , (11930,   8,  100671779) /* Icon */
+VALUES (11930,   1, 0x02000AAE) /* Setup */
+     , (11930,   8, 0x06002123) /* Icon */
      , (11930, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (11930, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11930, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11930, 8000, 2982968646) /* PCAPRecordedObjectIID */;
+VALUES (11930, 8000, 0xB1CC7D46) /* PCAPRecordedObjectIID */;

@@ -8,7 +8,6 @@ VALUES (28143,   1,          2) /* ItemType - Armor */
      , (28143,   4,      65536) /* ClothingPriority - Feet */
      , (28143,   5,        375) /* EncumbranceVal */
      , (28143,   9,        256) /* ValidLocations - FootWear */
-     , (28143,  10,        256) /* CurrentWieldedLocation - FootWear */
      , (28143,  16,          1) /* ItemUseable - No */
      , (28143,  19,       5000) /* Value */
      , (28143,  28,        490) /* ArmorLevel */
@@ -42,21 +41,21 @@ VALUES (28143,   1, 'Ruddy Winged Boots') /* Name */
      , (28143,  16, 'A pair of winged boots crafted from the hide of an adolescent rust gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28143,   1,   33554654) /* Setup */
-     , (28143,   3,  536870932) /* SoundTable */
-     , (28143,   6,   67108990) /* PaletteBase */
-     , (28143,   8,  100676811) /* Icon */
-     , (28143,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28143,   1, 0x020000DE) /* Setup */
+     , (28143,   3, 0x20000014) /* SoundTable */
+     , (28143,   6, 0x0400007E) /* PaletteBase */
+     , (28143,   8, 0x060034CB) /* Icon */
+     , (28143,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28143, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (28143, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28143, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28143, 8000, 2248025478) /* PCAPRecordedObjectIID */;
+VALUES (28143, 8000, 0x85FE2586) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28143,  1486,      2)  /* Impenetrability6 */
-     , (28143,  2564,      2)  /* CANTRIPSPRINT1 */
+VALUES (28143,  2564,      2)  /* CANTRIPSPRINT1 */
+     , (28143,  1486,      2)  /* Impenetrability6 */
      , (28143,  2582,      2)  /* CANTRIPQUICKNESS1 */
      , (28143,  2619,      2)  /* CANTRIPFROSTWARD1 */;
 

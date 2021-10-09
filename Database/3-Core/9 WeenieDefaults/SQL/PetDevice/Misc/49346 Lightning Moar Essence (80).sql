@@ -17,7 +17,7 @@ VALUES (49346,   1,        128) /* ItemType - Misc */
      , (49346, 105,          6) /* ItemWorkmanship */
      , (49346, 114,          0) /* Attuned - Normal */
      , (49346, 280,        213) /* SharedCooldown */
-     , (49346, 366,         54) /* UseRequiresSkill */
+     , (49346, 366,         54) /* UseRequiresSkill - Summoning */
      , (49346, 367,        370) /* UseRequiresSkillLevel */
      , (49346, 369,         70) /* UseRequiresLevel */
      , (49346, 370,          9) /* GearDamage */
@@ -39,24 +39,24 @@ VALUES (49346,   1, 'Lightning Moar Essence (80)') /* Name */
      , (49346,  14, 'Use this essence to summon or dismiss your Lightning Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49346,   1,   33554817) /* Setup */
-     , (49346,   3,  536870932) /* SoundTable */
-     , (49346,   6,   67111919) /* PaletteBase */
-     , (49346,   8,  100693034) /* Icon */
-     , (49346,  22,  872415275) /* PhysicsEffectTable */
-     , (49346,  50,  100693027) /* IconOverlay */
-     , (49346,  52,  100693024) /* IconUnderlay */
+VALUES (49346,   1, 0x02000181) /* Setup */
+     , (49346,   3, 0x20000014) /* SoundTable */
+     , (49346,   6, 0x04000BEF) /* PaletteBase */
+     , (49346,   8, 0x0600742A) /* Icon */
+     , (49346,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49346,  50, 0x06007423) /* IconOverlay */
+     , (49346,  52, 0x06007420) /* IconUnderlay */
      , (49346, 8001, 1076366488) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, TargetType, Burden, IconOverlay */
      , (49346, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49346, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49346, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49346, 8040, 459094, 77.34485, -71.8287, -0.0009999946, 0.9229027, 0, 0, -0.3850332) /* PCAPRecordedLocation */
+VALUES (49346, 8040, 0x00070156, 77.34485, -71.8287, -0.001, 0.922903, 0, 0, -0.385033) /* PCAPRecordedLocation */
 /* @teleloc 0x00070156 [77.344850 -71.828700 -0.001000] 0.922903 0.000000 0.000000 -0.385033 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49346, 8000, 3696569324) /* PCAPRecordedObjectIID */;
+VALUES (49346, 8000, 0xDC552BEC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49346, 67111921, 0, 0);

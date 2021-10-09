@@ -19,15 +19,15 @@ VALUES (1110,   1, 'Yaraq') /* Name */
      , (1110,  16, 'Welcome to the town of Yaraq.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1110,   1,   33556200) /* Setup */
-     , (1110,   8,  100668115) /* Icon */
+VALUES (1110,   1, 0x020006E8) /* Setup */
+     , (1110,   8, 0x060012D3) /* Icon */
      , (1110, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (1110, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1110, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1110, 8040, 2120482837, 50.5739, 98.7056, 13.78551, 0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
+VALUES (1110, 8040, 0x7E640015, 50.5739, 98.7056, 13.78551, 0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
 /* @teleloc 0x7E640015 [50.573900 98.705600 13.785510] 0.923880 0.000000 0.000000 -0.382683 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1110, 8000, 2011578369) /* PCAPRecordedObjectIID */;
+VALUES (1110, 8000, 0x77E64001) /* PCAPRecordedObjectIID */;

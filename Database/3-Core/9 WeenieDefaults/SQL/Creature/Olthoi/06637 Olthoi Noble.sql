@@ -26,23 +26,23 @@ VALUES (6637,   1, 'Olthoi Noble') /* Name */
      , (6637, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6637,   1,   33557161) /* Setup */
-     , (6637,   2,  150994946) /* MotionTable */
-     , (6637,   3,  536870925) /* SoundTable */
-     , (6637,   6,   67113236) /* PaletteBase */
-     , (6637,   8,  100667623) /* Icon */
-     , (6637,  22,  872415265) /* PhysicsEffectTable */
+VALUES (6637,   1, 0x02000AA9) /* Setup */
+     , (6637,   2, 0x09000002) /* MotionTable */
+     , (6637,   3, 0x2000000D) /* SoundTable */
+     , (6637,   6, 0x04001114) /* PaletteBase */
+     , (6637,   8, 0x060010E7) /* Icon */
+     , (6637,  22, 0x34000021) /* PhysicsEffectTable */
      , (6637,  30,         86) /* PhysicsScript - BreatheAcid */
      , (6637, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (6637, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (6637, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6637, 8040, 49152283, 178.222, -158.889, -66, -0.9441842, 0, 0, -0.3294181) /* PCAPRecordedLocation */
+VALUES (6637, 8040, 0x02EE011B, 178.222, -158.889, -66, -0.944184, 0, 0, -0.329418) /* PCAPRecordedLocation */
 /* @teleloc 0x02EE011B [178.222000 -158.889000 -66.000000] -0.944184 0.000000 0.000000 -0.329418 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6637, 8000, 3690365283) /* PCAPRecordedObjectIID */;
+VALUES (6637, 8000, 0xDBF68163) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6637,   1, 300, 0, 0) /* Strength */

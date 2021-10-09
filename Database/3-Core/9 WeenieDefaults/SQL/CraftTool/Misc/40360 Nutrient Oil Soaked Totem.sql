@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40360,   1, 'Nutrient Oil Soaked Totem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40360,   1,   33557308) /* Setup */
-     , (40360,   3,  536870932) /* SoundTable */
-     , (40360,   8,  100672028) /* Icon */
-     , (40360,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40360,   1, 0x02000B3C) /* Setup */
+     , (40360,   3, 0x20000014) /* SoundTable */
+     , (40360,   8, 0x0600221C) /* Icon */
+     , (40360,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40360, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (40360, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40360, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40360, 8000, 2178470814) /* PCAPRecordedObjectIID */;
+VALUES (40360, 8000, 0x81D8D39E) /* PCAPRecordedObjectIID */;

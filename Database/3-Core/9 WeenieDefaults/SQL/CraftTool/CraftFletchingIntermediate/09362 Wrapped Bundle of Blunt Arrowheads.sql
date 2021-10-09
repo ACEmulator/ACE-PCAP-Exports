@@ -26,17 +26,17 @@ VALUES (9362,   1, 'Wrapped Bundle of Blunt Arrowheads') /* Name */
      , (9362,  20, 'Wrapped Bundles of Blunt Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9362,   1,   33557030) /* Setup */
-     , (9362,   3,  536870932) /* SoundTable */
-     , (9362,   8,  100671594) /* Icon */
-     , (9362,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9362,   1, 0x02000A26) /* Setup */
+     , (9362,   3, 0x20000014) /* SoundTable */
+     , (9362,   8, 0x0600206A) /* Icon */
+     , (9362,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9362, 8001,     536601) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, TargetType */
      , (9362, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9362, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9362, 8040, 2847146034, 145.3682, 44.57982, 94, 0.9211, 0, 0, -0.3893262) /* PCAPRecordedLocation */
+VALUES (9362, 8040, 0xA9B40032, 145.3682, 44.57982, 94, 0.9211, 0, 0, -0.389326) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40032 [145.368200 44.579820 94.000000] 0.921100 0.000000 0.000000 -0.389326 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9362, 8000, 2381298210) /* PCAPRecordedObjectIID */;
+VALUES (9362, 8000, 0x8DEFBA22) /* PCAPRecordedObjectIID */;

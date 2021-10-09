@@ -21,14 +21,14 @@ VALUES (25449,   1, 'Alloy Machine') /* Name */
      , (25449, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25449,   1,   33558435) /* Setup */
-     , (25449,   2,  150995250) /* MotionTable */
-     , (25449,   3,  536870932) /* SoundTable */
-     , (25449,   8,  100674822) /* Icon */
-     , (25449,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25449,   1, 0x02000FA3) /* Setup */
+     , (25449,   2, 0x09000132) /* MotionTable */
+     , (25449,   3, 0x20000014) /* SoundTable */
+     , (25449,   8, 0x06002D06) /* Icon */
+     , (25449,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25449, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (25449, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25449, 8005,      71683) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25449, 8000, 2192134636) /* PCAPRecordedObjectIID */;
+VALUES (25449, 8000, 0x82A951EC) /* PCAPRecordedObjectIID */;

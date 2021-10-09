@@ -48,27 +48,27 @@ VALUES (33204,   1, 'Royal Runed Dolabra') /* Name */
      , (33204,  15, 'A dolabra crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33204,   1,   33559931) /* Setup */
-     , (33204,   3,  536870932) /* SoundTable */
-     , (33204,   6,   67115558) /* PaletteBase */
-     , (33204,   8,  100686925) /* Icon */
-     , (33204,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33204,   1, 0x0200157B) /* Setup */
+     , (33204,   3, 0x20000014) /* SoundTable */
+     , (33204,   6, 0x04001A26) /* PaletteBase */
+     , (33204,   8, 0x06005C4D) /* Icon */
+     , (33204,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33204,  30,         88) /* PhysicsScript - Create */
-     , (33204,  50,  100688914) /* IconOverlay */
+     , (33204,  50, 0x06006412) /* IconOverlay */
      , (33204,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (33204, 8001, 1344356888) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (33204, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33204, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33204, 8000, 2807507509) /* PCAPRecordedObjectIID */;
+VALUES (33204, 8000, 0xA7572A35) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33204,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (33204,  2101,      2)  /* DefenderSelf7 */
-     , (33204,  2106,      2)  /* HeartSeekerSelf7 */
+VALUES (33204,  2689,      2)  /* ModerateDaggerAptitude */
      , (33204,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33204,  2689,      2)  /* ModerateDaggerAptitude */;
+     , (33204,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (33204,  2101,      2)  /* DefenderSelf7 */
+     , (33204,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33204, 67116378, 0, 0);

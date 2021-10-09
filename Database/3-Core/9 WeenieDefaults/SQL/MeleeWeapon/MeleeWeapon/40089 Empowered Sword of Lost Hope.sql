@@ -57,24 +57,24 @@ VALUES (40089,   1, 'Empowered Sword of Lost Hope') /* Name */
      , (40089,  25, 'Azrakin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40089,   1,   33558420) /* Setup */
-     , (40089,   3,  536870932) /* SoundTable */
-     , (40089,   8,  100671325) /* Icon */
-     , (40089,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40089,   1, 0x02000F94) /* Setup */
+     , (40089,   3, 0x20000014) /* SoundTable */
+     , (40089,   8, 0x06001F5D) /* Icon */
+     , (40089,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40089, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (40089, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
      , (40089, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40089, 8000, 2210356798) /* PCAPRecordedObjectIID */;
+VALUES (40089, 8000, 0x83BF5E3E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40089,  2053,      2)  /* ArmorSelf7 */
+VALUES (40089,  2116,      2)  /* SwiftKillerSelf7 */
+     , (40089,  2053,      2)  /* ArmorSelf7 */
      , (40089,  2059,      2)  /* CoordinationSelf7 */
+     , (40089,  4624,      2)  /* HeavyWeaponsMasterySelf8 */
      , (40089,  2087,      2)  /* StrengthSelf7 */
+     , (40089,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */
      , (40089,  2096,      2)  /* BloodDrinkerSelf7 */
      , (40089,  2101,      2)  /* DefenderSelf7 */
-     , (40089,  2106,      2)  /* HeartSeekerSelf7 */
-     , (40089,  2116,      2)  /* SwiftKillerSelf7 */
-     , (40089,  4624,      2)  /* SwordMasterySelf8 */
-     , (40089,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;
+     , (40089,  2106,      2)  /* HeartSeekerSelf7 */;

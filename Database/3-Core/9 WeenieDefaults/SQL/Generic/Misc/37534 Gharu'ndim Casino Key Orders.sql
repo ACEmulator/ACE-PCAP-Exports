@@ -16,14 +16,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37534,   1, 'Gharu''ndim Casino Key Orders') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37534,   1,   33554680) /* Setup */
-     , (37534,   3,  536870932) /* SoundTable */
-     , (37534,   8,  100689882) /* Icon */
-     , (37534,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37534,   1, 0x020000F8) /* Setup */
+     , (37534,   3, 0x20000014) /* SoundTable */
+     , (37534,   8, 0x060067DA) /* Icon */
+     , (37534,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37534, 8001,      16400) /* PCAPRecordedWeenieHeader - Usable, Container */
      , (37534, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37534, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (37534, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37534, 8000,      37534) /* PCAPRecordedObjectIID */;
+VALUES (37534, 8000, 0x0000929E) /* PCAPRecordedObjectIID */;

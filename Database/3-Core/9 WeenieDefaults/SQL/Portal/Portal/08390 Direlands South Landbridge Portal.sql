@@ -23,16 +23,16 @@ VALUES (8390,   1, 'Direlands South Landbridge Portal') /* Name */
      , (8390, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8390,   1,   33555926) /* Setup */
-     , (8390,   2,  150994947) /* MotionTable */
-     , (8390,   8,  100667499) /* Icon */
+VALUES (8390,   1, 0x020005D6) /* Setup */
+     , (8390,   2, 0x09000003) /* MotionTable */
+     , (8390,   8, 0x0600106B) /* Icon */
      , (8390, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (8390, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (8390, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8390, 8040, 1460666406, 108.6072, 140.0535, 4.557528, 0.9537169, 0, 0, -0.3007058) /* PCAPRecordedLocation */
+VALUES (8390, 8040, 0x57100026, 108.6072, 140.0535, 4.557528, 0.953717, 0, 0, -0.300706) /* PCAPRecordedLocation */
 /* @teleloc 0x57100026 [108.607200 140.053500 4.557528] 0.953717 0.000000 0.000000 -0.300706 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8390, 8000, 3361985225) /* PCAPRecordedObjectIID */;
+VALUES (8390, 8000, 0xC863D2C9) /* PCAPRecordedObjectIID */;

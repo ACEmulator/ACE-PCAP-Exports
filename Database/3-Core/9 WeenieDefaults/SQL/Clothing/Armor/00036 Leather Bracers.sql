@@ -34,21 +34,21 @@ VALUES (36,   1, 'Leather Bracers') /* Name */
      , (36,   8, 'Spqr') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36,   1,   33554641) /* Setup */
-     , (36,   3,  536870932) /* SoundTable */
-     , (36,   6,   67108990) /* PaletteBase */
-     , (36,   8,  100669270) /* Icon */
-     , (36,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36,   1, 0x020000D1) /* Setup */
+     , (36,   3, 0x20000014) /* SoundTable */
+     , (36,   6, 0x0400007E) /* PaletteBase */
+     , (36,   8, 0x06001756) /* Icon */
+     , (36,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (36, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36, 8040, 2847146241, 79.26196, 132.5645, 69.4975, 0.2568298, 0, 0, -0.9664567) /* PCAPRecordedLocation */
+VALUES (36, 8040, 0xA9B40101, 79.26196, 132.5645, 69.4975, 0.25683, 0, 0, -0.966457) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40101 [79.261960 132.564500 69.497500] 0.256830 0.000000 0.000000 -0.966457 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36, 8000, 2195257278) /* PCAPRecordedObjectIID */;
+VALUES (36, 8000, 0x82D8F7BE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36, 67113077, 96, 12)

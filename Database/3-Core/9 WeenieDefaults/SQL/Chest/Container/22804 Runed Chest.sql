@@ -31,18 +31,18 @@ VALUES (22804,   1, 'Runed Chest') /* Name */
      , (22804, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22804,   1,   33558095) /* Setup */
-     , (22804,   2,  150994948) /* MotionTable */
-     , (22804,   3,  536870945) /* SoundTable */
-     , (22804,   8,  100667424) /* Icon */
-     , (22804,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22804,   1, 0x02000E4F) /* Setup */
+     , (22804,   2, 0x09000004) /* MotionTable */
+     , (22804,   3, 0x20000021) /* SoundTable */
+     , (22804,   8, 0x06001020) /* Icon */
+     , (22804,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22804, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (22804, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22804, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22804, 8040, 31457573, 29.7792, -5.5717, 6, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (22804, 8040, 0x01E00125, 29.7792, -5.5717, 6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x01E00125 [29.779200 -5.571700 6.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22804, 8000, 1881014307) /* PCAPRecordedObjectIID */;
+VALUES (22804, 8000, 0x701E0023) /* PCAPRecordedObjectIID */;

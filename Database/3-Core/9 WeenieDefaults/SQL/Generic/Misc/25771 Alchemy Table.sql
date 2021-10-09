@@ -21,11 +21,11 @@ VALUES (25771,   1, 'Alchemy Table') /* Name */
      , (25771,  16, 'A table with various alchemy supplies and tools on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25771,   1,   33558527) /* Setup */
-     , (25771,   8,  100675554) /* Icon */
+VALUES (25771,   1, 0x02000FFF) /* Setup */
+     , (25771,   8, 0x06002FE2) /* Icon */
      , (25771, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (25771, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25771, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25771, 8000, 2949259036) /* PCAPRecordedObjectIID */;
+VALUES (25771, 8000, 0xAFCA1F1C) /* PCAPRecordedObjectIID */;

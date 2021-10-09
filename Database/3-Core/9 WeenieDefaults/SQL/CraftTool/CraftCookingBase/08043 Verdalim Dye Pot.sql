@@ -22,17 +22,17 @@ VALUES (8043,   1, 'Verdalim Dye Pot') /* Name */
      , (8043,  20, 'Verdalim Dye Pots') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8043,   1,   33556753) /* Setup */
-     , (8043,   3,  536870932) /* SoundTable */
-     , (8043,   6,   67111919) /* PaletteBase */
-     , (8043,   8,  100672336) /* Icon */
-     , (8043,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8043,   1, 0x02000911) /* Setup */
+     , (8043,   3, 0x20000014) /* SoundTable */
+     , (8043,   6, 0x04000BEF) /* PaletteBase */
+     , (8043,   8, 0x06002350) /* Icon */
+     , (8043,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8043, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (8043, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8043, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8043, 8000, 2209832519) /* PCAPRecordedObjectIID */;
+VALUES (8043, 8000, 0x83B75E47) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8043, 67111922, 0, 0);

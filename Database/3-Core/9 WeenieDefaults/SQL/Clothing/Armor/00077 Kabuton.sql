@@ -8,7 +8,6 @@ VALUES (77,   1,          2) /* ItemType - Armor */
      , (77,   4,      16384) /* ClothingPriority - Head */
      , (77,   5,        591) /* EncumbranceVal */
      , (77,   9,          1) /* ValidLocations - HeadWear */
-     , (77,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (77,  16,          1) /* ItemUseable - No */
      , (77,  18,          1) /* UiEffects - Magical */
      , (77,  19,       5575) /* Value */
@@ -48,18 +47,18 @@ VALUES (77,   1, 'Kabuton') /* Name */
      , (77,  16, 'Magnificently crafted Copper Kabuton , set with 3 Red Garnets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (77,   1,   33554652) /* Setup */
-     , (77,   3,  536870932) /* SoundTable */
-     , (77,   6,   67108990) /* PaletteBase */
-     , (77,   8,  100669445) /* Icon */
-     , (77,  22,  872415275) /* PhysicsEffectTable */
+VALUES (77,   1, 0x020000DC) /* Setup */
+     , (77,   3, 0x20000014) /* SoundTable */
+     , (77,   6, 0x0400007E) /* PaletteBase */
+     , (77,   8, 0x06001805) /* Icon */
+     , (77,  22, 0x3400002B) /* PhysicsEffectTable */
      , (77,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (77, 8001, 2435285144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, Workmanship, HookType, MaterialType */
      , (77, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (77, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (77, 8000, 2856726482) /* PCAPRecordedObjectIID */;
+VALUES (77, 8000, 0xAA462FD2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (77,  1484,      2)  /* Impenetrability4 */

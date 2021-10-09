@@ -26,13 +26,13 @@ VALUES (41419,   1, 'Sheet Metal Form') /* Name */
      , (41419,  16, 'A form used to create sheets of metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41419,   1,   33555972) /* Setup */
-     , (41419,   3,  536870932) /* SoundTable */
-     , (41419,   8,  100690563) /* Icon */
-     , (41419,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41419,   1, 0x02000604) /* Setup */
+     , (41419,   3, 0x20000014) /* SoundTable */
+     , (41419,   8, 0x06006A83) /* Icon */
+     , (41419,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41419, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (41419, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41419, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41419, 8000, 2157927924) /* PCAPRecordedObjectIID */;
+VALUES (41419, 8000, 0x809F5DF4) /* PCAPRecordedObjectIID */;

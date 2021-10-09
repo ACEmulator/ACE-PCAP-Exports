@@ -39,16 +39,16 @@ VALUES (31394,   1, 'Circle of Raven Might') /* Name */
      , (31394,  15, 'A sinister looking crown previously held by Archon Greis of the Order of the Raven Hand.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31394,   1,   33559620) /* Setup */
-     , (31394,   3,  536870932) /* SoundTable */
-     , (31394,   8,  100687968) /* Icon */
-     , (31394,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31394,   1, 0x02001444) /* Setup */
+     , (31394,   3, 0x20000014) /* SoundTable */
+     , (31394,   8, 0x06006060) /* Icon */
+     , (31394,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31394, 8001,    2441224) /* PCAPRecordedWeenieHeader - Value, Container, ValidLocations, Priority, Burden */
      , (31394, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31394, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31394, 8000, 3329907395) /* PCAPRecordedObjectIID */;
+VALUES (31394, 8000, 0xC67A5AC3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31394,   279,      2)  /* MagicResistanceSelf6 */

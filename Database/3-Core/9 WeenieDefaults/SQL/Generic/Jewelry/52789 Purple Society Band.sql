@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (52789,   1,          8) /* ItemType - Jewelry */
      , (52789,   5,         50) /* EncumbranceVal */
      , (52789,   9,     786432) /* ValidLocations - FingerWear */
-     , (52789,  10,     262144) /* CurrentWieldedLocation - FingerWearLeft */
      , (52789,  16,          1) /* ItemUseable - No */
      , (52789,  18,          1) /* UiEffects - Magical */
      , (52789,  19,       5000) /* Value */
@@ -32,6 +31,7 @@ VALUES (52789,   4, 40000000000) /* ItemTotalXp */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52789,  22, True ) /* Inscribable */
+     , (52789,  23, True ) /* DestroyOnSell */
      , (52789,  69, False) /* IsSellable */
      , (52789,  99, True ) /* Ivoryable */;
 
@@ -44,17 +44,17 @@ VALUES (52789,   1, 'Purple Society Band') /* Name */
      , (52789,  16, 'A dark black ring set with five amethysts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52789,   1,   33554691) /* Setup */
-     , (52789,   3,  536870932) /* SoundTable */
-     , (52789,   6,   67111919) /* PaletteBase */
-     , (52789,   8,  100693316) /* Icon */
-     , (52789,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52789,   1, 0x02000103) /* Setup */
+     , (52789,   3, 0x20000014) /* SoundTable */
+     , (52789,   6, 0x04000BEF) /* PaletteBase */
+     , (52789,   8, 0x06007544) /* Icon */
+     , (52789,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52789, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (52789, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52789, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52789, 8000, 2764373362) /* PCAPRecordedObjectIID */;
+VALUES (52789, 8000, 0xA4C4FD72) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52789,  6055,      2)  /* CantripInvulnerability4 */;

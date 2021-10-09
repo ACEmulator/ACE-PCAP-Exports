@@ -21,22 +21,22 @@ VALUES (35568,   1, 'Cull the Drudges') /* Name */
      , (35568,  16, 'A list of Drudge kill tasks from Jarvis Hammerstone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35568,   1,   33554773) /* Setup */
-     , (35568,   3,  536870932) /* SoundTable */
-     , (35568,   8,  100667503) /* Icon */
-     , (35568,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35568,   1, 0x02000155) /* Setup */
+     , (35568,   3, 0x20000014) /* SoundTable */
+     , (35568,   8, 0x0600106F) /* Icon */
+     , (35568,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35568, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (35568, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (35568, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35568, 8000, 2531361006) /* PCAPRecordedObjectIID */;
+VALUES (35568, 8000, 0x96E180EE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (35568, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (35568, 0, 4294967295, 'Jarvis Hammerstone', 'Password is cheese', False, '
+VALUES (35568, 0, 4294967295, 'Jarvis Hammerstone', 'prewritten', False, '
 The Town Council has put together this list of drudges who have caused us losses again and again. You must reduce their numberes. Return to me when you finish any of these tasks.
 
 100 Drudge Lurkers

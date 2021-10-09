@@ -24,13 +24,13 @@ VALUES (3081,   1, 'Scroll of Exhaustion Other V') /* Name */
 Decreases the rate at which the target regains Stamina by 41%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3081,   1,   33554826) /* Setup */
-     , (3081,   8,  100676940) /* Icon */
-     , (3081,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3081,   1, 0x0200018A) /* Setup */
+     , (3081,   8, 0x0600354C) /* Icon */
+     , (3081,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3081,  28,        198) /* Spell - ExhaustionOther5 */
      , (3081, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3081, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3081, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3081, 8000, 3705068834) /* PCAPRecordedObjectIID */;
+VALUES (3081, 8000, 0xDCD6DD22) /* PCAPRecordedObjectIID */;

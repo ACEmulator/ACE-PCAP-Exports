@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25799,   1,          1) /* ItemType - MeleeWeapon */
      , (25799,   5,        135) /* EncumbranceVal */
      , (25799,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (25799,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (25799,  16,          1) /* ItemUseable - No */
      , (25799,  18,        128) /* UiEffects - Frost */
      , (25799,  19,        300) /* Value */
@@ -45,22 +44,22 @@ VALUES (25799,   1, 'Carrot Dagger') /* Name */
      , (25799,  16, 'A frozen Carrot, weighted perfectly for wielding like a dagger.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25799,   1,   33558522) /* Setup */
-     , (25799,   3,  536870932) /* SoundTable */
-     , (25799,   8,  100675520) /* Icon */
-     , (25799,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25799,   1, 0x02000FFA) /* Setup */
+     , (25799,   3, 0x20000014) /* SoundTable */
+     , (25799,   8, 0x06002FC0) /* Icon */
+     , (25799,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25799, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (25799, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25799, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (25799, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25799, 8040, 23855554, 58.35178, -31.83736, -0.071, -0.2178785, -0.2178785, -0.6727027, -0.6727027) /* PCAPRecordedLocation */
+VALUES (25799, 8040, 0x016C01C2, 58.35178, -31.83736, -0.071, -0.217879, -0.217879, -0.672703, -0.672703) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [58.351780 -31.837360 -0.071000] -0.217879 -0.217879 -0.672703 -0.672703 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25799, 8000, 3343511949) /* PCAPRecordedObjectIID */
-     , (25799, 8008, 1343192134) /* PCAPRecordedParentIID */;
+VALUES (25799, 8000, 0xC749F18D) /* PCAPRecordedObjectIID */
+     , (25799, 8008, 0x500F7C46) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25799,  1614,      2)  /* BloodDrinkerSelf4 */

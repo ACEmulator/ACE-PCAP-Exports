@@ -20,13 +20,13 @@ VALUES (34862,   1, 'Tiriun Spore Powder') /* Name */
      , (34862,  20, 'Packets of Tiriun Spore Powder') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34862,   1,   33558400) /* Setup */
-     , (34862,   3,  536870932) /* SoundTable */
-     , (34862,   8,  100689330) /* Icon */
-     , (34862,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34862,   1, 0x02000F80) /* Setup */
+     , (34862,   3, 0x20000014) /* SoundTable */
+     , (34862,   8, 0x060065B2) /* Icon */
+     , (34862,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34862, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (34862, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (34862, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34862, 8000, 2147969569) /* PCAPRecordedObjectIID */;
+VALUES (34862, 8000, 0x80076A21) /* PCAPRecordedObjectIID */;

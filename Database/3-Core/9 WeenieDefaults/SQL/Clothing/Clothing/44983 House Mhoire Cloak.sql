@@ -20,16 +20,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44983,   1, 'House Mhoire Cloak') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44983,   1,   33561386) /* Setup */
-     , (44983,   3,  536870932) /* SoundTable */
-     , (44983,   8,  100692121) /* Icon */
-     , (44983,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44983,   1, 0x02001B2A) /* Setup */
+     , (44983,   3, 0x20000014) /* SoundTable */
+     , (44983,   8, 0x06007099) /* Icon */
+     , (44983,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44983, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (44983, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44983, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44983, 8000, 2837738145) /* PCAPRecordedObjectIID */;
+VALUES (44983, 8000, 0xA92472A1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (44983, 0, 16795850);

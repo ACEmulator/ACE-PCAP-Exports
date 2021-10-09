@@ -20,22 +20,22 @@ VALUES (33139,   1, 'Archon Merille') /* Name */
      , (33139, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33139,   1,   33554510) /* Setup */
-     , (33139,   2,  150994945) /* MotionTable */
-     , (33139,   3,  536870914) /* SoundTable */
-     , (33139,   6,   67108990) /* PaletteBase */
-     , (33139,   8,  100667446) /* Icon */
-     , (33139,  22,  872415236) /* PhysicsEffectTable */
+VALUES (33139,   1, 0x0200004E) /* Setup */
+     , (33139,   2, 0x09000001) /* MotionTable */
+     , (33139,   3, 0x20000002) /* SoundTable */
+     , (33139,   6, 0x0400007E) /* PaletteBase */
+     , (33139,   8, 0x06001036) /* Icon */
+     , (33139,  22, 0x34000004) /* PhysicsEffectTable */
      , (33139, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33139, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33139, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33139, 8040, 3537109616, 62, 175.546, -41.595, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (33139, 8040, 0xD2D40270, 62, 175.546, -41.595, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD2D40270 [62.000000 175.546000 -41.595000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33139, 8000, 2877473612) /* PCAPRecordedObjectIID */;
+VALUES (33139, 8000, 0xAB82C34C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33139, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */

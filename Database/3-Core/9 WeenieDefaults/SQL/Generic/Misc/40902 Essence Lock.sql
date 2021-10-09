@@ -46,17 +46,17 @@ VALUES (40902,   1, 'Essence Lock') /* Name */
      , (40902,  16, 'An ancient Empyrean machine. It appears to be locking something.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40902,   1,   33560774) /* Setup */
-     , (40902,   3,  536870932) /* SoundTable */
-     , (40902,   8,  100686422) /* Icon */
-     , (40902,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40902,   1, 0x020018C6) /* Setup */
+     , (40902,   3, 0x20000014) /* SoundTable */
+     , (40902,   8, 0x06005A56) /* Icon */
+     , (40902,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40902, 8001,    1048598) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor */
      , (40902, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (40902, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40902, 8040, 778829825, 18.7521, 21.9558, 56.17035, 0.997334, 0, 0, -0.0729731) /* PCAPRecordedLocation */
+VALUES (40902, 8040, 0x2E6C0001, 18.7521, 21.9558, 56.17035, 0.997334, 0, 0, -0.072973) /* PCAPRecordedLocation */
 /* @teleloc 0x2E6C0001 [18.752100 21.955800 56.170350] 0.997334 0.000000 0.000000 -0.072973 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40902, 8000, 3711274887) /* PCAPRecordedObjectIID */;
+VALUES (40902, 8000, 0xDD358F87) /* PCAPRecordedObjectIID */;

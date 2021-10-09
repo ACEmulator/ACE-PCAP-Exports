@@ -26,15 +26,15 @@ VALUES (29213,   1, 'Glorious Amber Ale') /* Name */
      , (29213,  20, 'Bottles of Glorious Amber Ale') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29213,   1,   33559127) /* Setup */
-     , (29213,   3,  536870932) /* SoundTable */
-     , (29213,   8,  100687555) /* Icon */
-     , (29213,  22,  872415275) /* PhysicsEffectTable */
-     , (29213,  52,  100687547) /* IconUnderlay */
+VALUES (29213,   1, 0x02001257) /* Setup */
+     , (29213,   3, 0x20000014) /* SoundTable */
+     , (29213,   8, 0x06005EC3) /* Icon */
+     , (29213,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29213,  52, 0x06005EBB) /* IconUnderlay */
      , (29213, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (29213, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (29213, 8003,   67141648) /* PCAPRecordedObjectDesc - Attackable, Food, IncludesSecondHeader */
      , (29213, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29213, 8000, 2166236942) /* PCAPRecordedObjectIID */;
+VALUES (29213, 8000, 0x811E270E) /* PCAPRecordedObjectIID */;

@@ -49,18 +49,18 @@ VALUES (41063,   1, 'Acid Khanda-handled Mace') /* Name */
      , (41063,  16, 'Acid Khanda-handled Mace of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41063,   1,   33560885) /* Setup */
-     , (41063,   3,  536870932) /* SoundTable */
-     , (41063,   6,   67115558) /* PaletteBase */
-     , (41063,   8,  100690649) /* Icon */
-     , (41063,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41063,   1, 0x02001935) /* Setup */
+     , (41063,   3, 0x20000014) /* SoundTable */
+     , (41063,   6, 0x04001A26) /* PaletteBase */
+     , (41063,   8, 0x06006AD9) /* Icon */
+     , (41063,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41063,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41063, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41063, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41063, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41063, 8000, 3700429322) /* PCAPRecordedObjectIID */;
+VALUES (41063, 8000, 0xDC90120A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41063,  1612,      2)  /* BloodDrinkerSelf2 */

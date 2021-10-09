@@ -15,7 +15,7 @@ VALUES (9599,   1,        256) /* ItemType - MissileWeapon */
      , (9599,  48,         47) /* WeaponSkill - MissileWeapons */
      , (9599,  49,        120) /* WeaponTime */
      , (9599,  50,          2) /* AmmoType - Bolt */
-     , (9599,  51,          2) /* CombatUse - Missle */
+     , (9599,  51,          2) /* CombatUse - Missile */
      , (9599,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (9599, 106,        400) /* ItemSpellcraft */
      , (9599, 107,          0) /* ItemCurMana */
@@ -46,19 +46,19 @@ VALUES (9599,   1, 'Balister of the Quiddity') /* Name */
      , (9599,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9599,   1,   33557112) /* Setup */
-     , (9599,   3,  536870932) /* SoundTable */
-     , (9599,   8,  100671701) /* Icon */
-     , (9599,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9599,   1, 0x02000A78) /* Setup */
+     , (9599,   3, 0x20000014) /* SoundTable */
+     , (9599,   8, 0x060020D5) /* Icon */
+     , (9599,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9599, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (9599, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9599, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9599, 8000, 2166005902) /* PCAPRecordedObjectIID */;
+VALUES (9599, 8000, 0x811AA08E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9599,  1590,      2)  /* HeartSeekerSelf4 */
-     , (9599,  1603,      2)  /* DefenderSelf4 */
+VALUES (9599,  1603,      2)  /* DefenderSelf4 */
      , (9599,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (9599,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (9599,  1625,      2)  /* SwiftKillerSelf4 */
+     , (9599,  1590,      2)  /* HeartSeekerSelf4 */;

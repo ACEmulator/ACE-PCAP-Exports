@@ -20,21 +20,21 @@ VALUES (42274,   1, 'Master Soldier') /* Name */
      , (42274, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42274,   1,   33554433) /* Setup */
-     , (42274,   2,  150994945) /* MotionTable */
-     , (42274,   3,  536870913) /* SoundTable */
-     , (42274,   8,  100667446) /* Icon */
-     , (42274,  22,  872415236) /* PhysicsEffectTable */
+VALUES (42274,   1, 0x02000001) /* Setup */
+     , (42274,   2, 0x09000001) /* MotionTable */
+     , (42274,   3, 0x20000001) /* SoundTable */
+     , (42274,   8, 0x06001036) /* Icon */
+     , (42274,  22, 0x34000004) /* PhysicsEffectTable */
      , (42274, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (42274, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42274, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42274, 8040, 2315453076, 349, -102, 0.004999995, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42274, 8040, 0x8A030294, 349, -102, 0.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x8A030294 [349.000000 -102.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42274, 8000, 3621406017) /* PCAPRecordedObjectIID */;
+VALUES (42274, 8000, 0xD7DA4541) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42274, 2, 38856,  1, 0, 0, False) /* Create Radiant Blood Blade (38856) for Wield */

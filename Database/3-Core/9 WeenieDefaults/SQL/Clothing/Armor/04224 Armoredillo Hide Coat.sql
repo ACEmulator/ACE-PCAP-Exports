@@ -33,17 +33,17 @@ VALUES (4224,   1, 'Armoredillo Hide Coat') /* Name */
      , (4224,  15, 'Coat crafted from the hide of an Armoredillo.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4224,   1,   33554644) /* Setup */
-     , (4224,   3,  536870932) /* SoundTable */
-     , (4224,   6,   67108990) /* PaletteBase */
-     , (4224,   8,  100675008) /* Icon */
-     , (4224,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4224,   1, 0x020000D4) /* Setup */
+     , (4224,   3, 0x20000014) /* SoundTable */
+     , (4224,   6, 0x0400007E) /* PaletteBase */
+     , (4224,   8, 0x06002DC0) /* Icon */
+     , (4224,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4224, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (4224, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4224, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4224, 8000, 2192288803) /* PCAPRecordedObjectIID */;
+VALUES (4224, 8000, 0x82ABAC23) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4224, 67114568, 72, 20)

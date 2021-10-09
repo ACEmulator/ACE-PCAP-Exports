@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20434,   1, 'Scroll of Celdiseth''s Searing') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20434,   1,   33554826) /* Setup */
-     , (20434,   8,  100677026) /* Icon */
-     , (20434,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20434,   1, 0x0200018A) /* Setup */
+     , (20434,   8, 0x060035A2) /* Icon */
+     , (20434,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20434,  28,       2123) /* Spell - AcidVolley7 */
      , (20434, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20434, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20434, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20434, 8000, 2562419261) /* PCAPRecordedObjectIID */;
+VALUES (20434, 8000, 0x98BB6A3D) /* PCAPRecordedObjectIID */;

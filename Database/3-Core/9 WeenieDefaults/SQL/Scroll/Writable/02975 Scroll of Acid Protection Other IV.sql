@@ -24,13 +24,13 @@ VALUES (2975,   1, 'Scroll of Acid Protection Other IV') /* Name */
 Reduces damage the target takes from acid by 43%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2975,   1,   33554826) /* Setup */
-     , (2975,   8,  100676951) /* Icon */
-     , (2975,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2975,   1, 0x0200018A) /* Setup */
+     , (2975,   8, 0x06003557) /* Icon */
+     , (2975,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2975,  28,        512) /* Spell - AcidProtectionOther4 */
      , (2975, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2975, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2975, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2975, 8000, 2164134769) /* PCAPRecordedObjectIID */;
+VALUES (2975, 8000, 0x80FE1371) /* PCAPRecordedObjectIID */;

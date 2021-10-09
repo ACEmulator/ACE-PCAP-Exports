@@ -39,13 +39,13 @@ VALUES (3718,   1, 'Golem Jo') /* Name */
      , (3718,  16, 'A jo hewn from the heart of a Wood Golem. Some of the animating principle of the golem remains - electricity coruscates along the jo.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3718,   1,   33555764) /* Setup */
-     , (3718,   3,  536870932) /* SoundTable */
-     , (3718,   8,  100667602) /* Icon */
-     , (3718,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3718,   1, 0x02000534) /* Setup */
+     , (3718,   3, 0x20000014) /* SoundTable */
+     , (3718,   8, 0x060010D2) /* Icon */
+     , (3718,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3718, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (3718, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3718, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3718, 8000, 2151960075) /* PCAPRecordedObjectIID */;
+VALUES (3718, 8000, 0x80444E0B) /* PCAPRecordedObjectIID */;

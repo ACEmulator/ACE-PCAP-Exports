@@ -22,17 +22,17 @@ VALUES (8377,   1, 'Beer Keg') /* Name */
      , (8377,  14, 'Use the beer stein on the keg to fill it with beer. Visit the barkeep for a beer stein.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8377,   1,   33556853) /* Setup */
-     , (8377,   3,  536870932) /* SoundTable */
-     , (8377,   8,  100667431) /* Icon */
-     , (8377,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8377,   1, 0x02000975) /* Setup */
+     , (8377,   3, 0x20000014) /* SoundTable */
+     , (8377,   8, 0x06001027) /* Icon */
+     , (8377,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8377, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (8377, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (8377, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8377, 8040, 2438463747, 12.591, 114.298, 0.7929999, -0.9024498, 0, 0, -0.4307949) /* PCAPRecordedLocation */
+VALUES (8377, 8040, 0x91580103, 12.591, 114.298, 0.793, -0.90245, 0, 0, -0.430795) /* PCAPRecordedLocation */
 /* @teleloc 0x91580103 [12.591000 114.298000 0.793000] -0.902450 0.000000 0.000000 -0.430795 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8377, 8000, 2031452168) /* PCAPRecordedObjectIID */;
+VALUES (8377, 8000, 0x79158008) /* PCAPRecordedObjectIID */;

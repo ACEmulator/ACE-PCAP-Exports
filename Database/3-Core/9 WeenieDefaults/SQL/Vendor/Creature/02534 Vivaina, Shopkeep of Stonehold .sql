@@ -36,27 +36,27 @@ VALUES (2534,   1, 'Vivaina, Shopkeep of Stonehold ') /* Name */
      , (2534, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2534,   1,   33554510) /* Setup */
-     , (2534,   2,  150994945) /* MotionTable */
-     , (2534,   3,  536870914) /* SoundTable */
-     , (2534,   6,   67108990) /* PaletteBase */
-     , (2534,   8,  100667446) /* Icon */
-     , (2534,   9,   83890283) /* EyesTexture */
-     , (2534,  10,   83890309) /* NoseTexture */
-     , (2534,  11,   83890340) /* MouthTexture */
-     , (2534,  15,   67117027) /* HairPalette */
-     , (2534,  16,   67109566) /* EyesPalette */
-     , (2534,  17,   67109558) /* SkinPalette */
+VALUES (2534,   1, 0x0200004E) /* Setup */
+     , (2534,   2, 0x09000001) /* MotionTable */
+     , (2534,   3, 0x20000002) /* SoundTable */
+     , (2534,   6, 0x0400007E) /* PaletteBase */
+     , (2534,   8, 0x06001036) /* Icon */
+     , (2534,   9, 0x0500106B) /* EyesTexture */
+     , (2534,  10, 0x05001085) /* NoseTexture */
+     , (2534,  11, 0x050010A4) /* MouthTexture */
+     , (2534,  15, 0x04001FE3) /* HairPalette */
+     , (2534,  16, 0x040002BE) /* EyesPalette */
+     , (2534,  17, 0x040002B6) /* SkinPalette */
      , (2534, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2534, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2534, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2534, 8040, 1691681057, 55.7029, 81.1751, 78.005, -0.7626206, 0, 0, -0.6468461) /* PCAPRecordedLocation */
+VALUES (2534, 8040, 0x64D50121, 55.7029, 81.1751, 78.005, -0.762621, 0, 0, -0.646846) /* PCAPRecordedLocation */
 /* @teleloc 0x64D50121 [55.702900 81.175100 78.005000] -0.762621 0.000000 0.000000 -0.646846 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2534, 8000, 1984778265) /* PCAPRecordedObjectIID */;
+VALUES (2534, 8000, 0x764D5019) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2534,   1,  60, 0, 0) /* Strength */
@@ -122,6 +122,11 @@ VALUES (2534, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (2534, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (2534, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (2534, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (2534, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2534, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (2534, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (2534, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (2534, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (2534, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (2534, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (2534, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */

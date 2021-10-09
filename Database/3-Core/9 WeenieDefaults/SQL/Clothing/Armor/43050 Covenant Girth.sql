@@ -50,24 +50,21 @@ VALUES (43050,   1, 'Covenant Girth') /* Name */
      , (43050,  39, 'Tinkerbotz') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43050,   1,   33554647) /* Setup */
-     , (43050,   3,  536870932) /* SoundTable */
-     , (43050,   6,   67108990) /* PaletteBase */
-     , (43050,   8,  100673398) /* Icon */
-     , (43050,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43050,   1, 0x020000D7) /* Setup */
+     , (43050,   3, 0x20000014) /* SoundTable */
+     , (43050,   6, 0x0400007E) /* PaletteBase */
+     , (43050,   8, 0x06002776) /* Icon */
+     , (43050,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43050, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (43050, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43050, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43050, 8000, 3580267361) /* PCAPRecordedObjectIID */;
+VALUES (43050, 8000, 0xD5668B61) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43050,  4407,      2)  /* Impenetrability8 */
-     , (43050,  6082,      2)  /* CantripFlameWard4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43050, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (43050,  6082,      2)  /* CantripFlameWard4 */
+     , (43050,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43050, 67113916, 80, 12);

@@ -34,21 +34,21 @@ VALUES (11407,   1, 'Aun Mireona the Shopkeep') /* Name */
      , (11407, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11407,   1,   33557117) /* Setup */
-     , (11407,   2,  150994954) /* MotionTable */
-     , (11407,   3,  536870931) /* SoundTable */
-     , (11407,   6,   67113280) /* PaletteBase */
-     , (11407,   8,  100671756) /* Icon */
+VALUES (11407,   1, 0x02000A7D) /* Setup */
+     , (11407,   2, 0x0900000A) /* MotionTable */
+     , (11407,   3, 0x20000013) /* SoundTable */
+     , (11407,   6, 0x04001140) /* PaletteBase */
+     , (11407,   8, 0x0600210C) /* Icon */
      , (11407, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (11407, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (11407, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11407, 8040, 498466867, 164.243, 67.4173, 120.0055, -0.585567, 0, 0, -0.810624) /* PCAPRecordedLocation */
+VALUES (11407, 8040, 0x1DB60033, 164.243, 67.4173, 120.0055, -0.585567, 0, 0, -0.810624) /* PCAPRecordedLocation */
 /* @teleloc 0x1DB60033 [164.243000 67.417300 120.005500] -0.585567 0.000000 0.000000 -0.810624 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11407, 8000, 3691191610) /* PCAPRecordedObjectIID */;
+VALUES (11407, 8000, 0xDC031D3A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11407,   1,  80, 0, 0) /* Strength */

@@ -45,21 +45,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31322,   1, 'Squalid Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31322,   1,   33554856) /* Setup */
-     , (31322,   3,  536870932) /* SoundTable */
-     , (31322,   6,   67108990) /* PaletteBase */
-     , (31322,   8,  100687759) /* Icon */
-     , (31322,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31322,   1, 0x020001A8) /* Setup */
+     , (31322,   3, 0x20000014) /* SoundTable */
+     , (31322,   6, 0x0400007E) /* PaletteBase */
+     , (31322,   8, 0x06005F8F) /* Icon */
+     , (31322,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31322, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (31322, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31322, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31322, 8000, 2622938452) /* PCAPRecordedObjectIID */;
+VALUES (31322, 8000, 0x9C56DD54) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31322,  1312,      2)  /* ArmorSelf6 */
-     , (31322,  2257,      2)  /* JumpingMasterySelf7 */
+VALUES (31322,  2257,      2)  /* JumpingMasterySelf7 */
+     , (31322,  1312,      2)  /* ArmorSelf6 */
      , (31322,  2301,      2)  /* SprintSelf7 */
      , (31322,  2621,      2)  /* CANTRIPSLASHINGWARD1 */;
 

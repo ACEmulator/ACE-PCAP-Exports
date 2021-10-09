@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32190,   1, 'Festival Shirt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32190,   1,   33554883) /* Setup */
-     , (32190,   3,  536870932) /* SoundTable */
-     , (32190,   6,   67108990) /* PaletteBase */
-     , (32190,   8,  100667377) /* Icon */
-     , (32190,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32190,   1, 0x020001C3) /* Setup */
+     , (32190,   3, 0x20000014) /* SoundTable */
+     , (32190,   6, 0x0400007E) /* PaletteBase */
+     , (32190,   8, 0x06000FF1) /* Icon */
+     , (32190,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32190, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (32190, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32190, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32190, 8000, 2166032131) /* PCAPRecordedObjectIID */;
+VALUES (32190, 8000, 0x811B0703) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32190, 67112915, 92, 4)

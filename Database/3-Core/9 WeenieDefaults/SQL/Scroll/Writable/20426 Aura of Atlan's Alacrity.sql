@@ -24,13 +24,13 @@ VALUES (20426,   1, 'Aura of Atlan''s Alacrity') /* Name */
 Improves a weapon''s speed by 70 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20426,   1,   33554826) /* Setup */
-     , (20426,   8,  100676676) /* Icon */
-     , (20426,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20426,   1, 0x0200018A) /* Setup */
+     , (20426,   8, 0x06003444) /* Icon */
+     , (20426,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20426,  28,       2116) /* Spell - SwiftKillerSelf7 */
      , (20426, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20426, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20426, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20426, 8000, 3682539891) /* PCAPRecordedObjectIID */;
+VALUES (20426, 8000, 0xDB7F1973) /* PCAPRecordedObjectIID */;

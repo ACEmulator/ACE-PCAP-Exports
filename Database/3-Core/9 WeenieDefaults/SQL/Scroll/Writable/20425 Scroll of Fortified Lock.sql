@@ -24,13 +24,13 @@ VALUES (20425,   1, 'Scroll of Fortified Lock') /* Name */
 Increases a lock''s resistance to picking by 200 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20425,   1,   33554826) /* Setup */
-     , (20425,   8,  100676678) /* Icon */
-     , (20425,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20425,   1, 0x0200018A) /* Setup */
+     , (20425,   8, 0x06003446) /* Icon */
+     , (20425,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20425,  28,       2115) /* Spell - StrengthenLock7 */
      , (20425, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20425, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20425, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20425, 8000, 3707607832) /* PCAPRecordedObjectIID */;
+VALUES (20425, 8000, 0xDCFD9B18) /* PCAPRecordedObjectIID */;

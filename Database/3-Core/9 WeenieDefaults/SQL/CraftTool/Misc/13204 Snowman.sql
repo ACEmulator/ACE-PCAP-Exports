@@ -31,11 +31,11 @@ VALUES (13204,   1, 'Snowman') /* Name */
      , (13204,  16, 'A perfect snowman. Head, Arms, Nose, legs... wait, no legs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13204,   1,   33557444) /* Setup */
-     , (13204,   8,  100672418) /* Icon */
+VALUES (13204,   1, 0x02000BC4) /* Setup */
+     , (13204,   8, 0x060023A2) /* Icon */
      , (13204, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (13204, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (13204, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13204, 8000, 3658163605) /* PCAPRecordedObjectIID */;
+VALUES (13204, 8000, 0xDA0B2595) /* PCAPRecordedObjectIID */;

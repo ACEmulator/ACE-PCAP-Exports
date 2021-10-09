@@ -38,13 +38,13 @@ VALUES (293,   1, 'Torch') /* Name */
      , (293,   8, 'Havokk') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (293,   1,   33555887) /* Setup */
-     , (293,   3,  536870932) /* SoundTable */
-     , (293,   8,  100667506) /* Icon */
-     , (293,  22,  872415275) /* PhysicsEffectTable */
+VALUES (293,   1, 0x020005AF) /* Setup */
+     , (293,   3, 0x20000014) /* SoundTable */
+     , (293,   8, 0x06001072) /* Icon */
+     , (293,  22, 0x3400002B) /* PhysicsEffectTable */
      , (293, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (293, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (293, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (293, 8000, 2186220442) /* PCAPRecordedObjectIID */;
+VALUES (293, 8000, 0x824F139A) /* PCAPRecordedObjectIID */;

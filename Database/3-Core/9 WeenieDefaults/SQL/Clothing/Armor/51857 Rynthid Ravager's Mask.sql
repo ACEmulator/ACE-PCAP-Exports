@@ -21,16 +21,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51857,   1, 'Rynthid Ravager''s Mask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51857,   1,   33561593) /* Setup */
-     , (51857,   3,  536870932) /* SoundTable */
-     , (51857,   8,  100693221) /* Icon */
-     , (51857,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51857,   1, 0x02001BF9) /* Setup */
+     , (51857,   3, 0x20000014) /* SoundTable */
+     , (51857,   8, 0x060074E5) /* Icon */
+     , (51857,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51857, 8001,  270876816) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (51857, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51857, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51857, 8000, 2606567861) /* PCAPRecordedObjectIID */;
+VALUES (51857, 8000, 0x9B5D11B5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (51857, 0, 16797003);

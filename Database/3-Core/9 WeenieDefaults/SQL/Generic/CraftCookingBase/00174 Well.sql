@@ -22,18 +22,18 @@ VALUES (174,   1, 'Well') /* Name */
      , (174,  14, 'Use an empty flask on the well to fill it with water.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (174,   1,   33554816) /* Setup */
-     , (174,   3,  536870932) /* SoundTable */
-     , (174,   8,  100667466) /* Icon */
-     , (174,  22,  872415275) /* PhysicsEffectTable */
+VALUES (174,   1, 0x02000180) /* Setup */
+     , (174,   3, 0x20000014) /* SoundTable */
+     , (174,   8, 0x0600104A) /* Icon */
+     , (174,  22, 0x3400002B) /* PhysicsEffectTable */
      , (174,  28,       1183) /* Spell - RevitalizeOther1 */
      , (174, 8001,    6291512) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden, Spell */
      , (174, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (174, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (174, 8040, 3465871403, 128.16, 66.12, 20, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (174, 8040, 0xCE95002B, 128.16, 66.12, 20, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002B [128.160000 66.120000 20.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (174, 8000, 2095665206) /* PCAPRecordedObjectIID */;
+VALUES (174, 8000, 0x7CE95036) /* PCAPRecordedObjectIID */;

@@ -8,7 +8,6 @@ VALUES (45979,   1,          2) /* ItemType - Armor */
      , (45979,   4,       8192) /* ClothingPriority - OuterwearLowerArms */
      , (45979,   5,        300) /* EncumbranceVal */
      , (45979,   9,       4096) /* ValidLocations - LowerArmArmor */
-     , (45979,  10,       4096) /* CurrentWieldedLocation - LowerArmArmor */
      , (45979,  16,          1) /* ItemUseable - No */
      , (45979,  19,        100) /* Value */
      , (45979,  28,        480) /* ArmorLevel */
@@ -26,6 +25,7 @@ VALUES (45979,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45979,  22, True ) /* Inscribable */
+     , (45979,  23, True ) /* DestroyOnSell */
      , (45979,  99, True ) /* Ivoryable */
      , (45979, 100, True ) /* Dyable */;
 
@@ -44,24 +44,24 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45979,   1, 'Armoredillo Hide Bracers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45979,   1,   33554641) /* Setup */
-     , (45979,   3,  536870932) /* SoundTable */
-     , (45979,   6,   67108990) /* PaletteBase */
-     , (45979,   8,  100674975) /* Icon */
-     , (45979,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45979,   1, 0x020000D1) /* Setup */
+     , (45979,   3, 0x20000014) /* SoundTable */
+     , (45979,   6, 0x0400007E) /* PaletteBase */
+     , (45979,   8, 0x06002D9F) /* Icon */
+     , (45979,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45979, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (45979, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45979, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45979, 8000, 3042053188) /* PCAPRecordedObjectIID */;
+VALUES (45979, 8000, 0xB5520C44) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45979,  1077,      2)  /* LightningProtectionOther6 */
+VALUES (45979,  5824,      2)  /* RecklessnessMasteryOther6 */
      , (45979,  1486,      2)  /* Impenetrability6 */
-     , (45979,  2607,      2)  /* CANTRIPSTORMBANE1 */
      , (45979,  5800,      2)  /* DualWieldMasteryOther6 */
-     , (45979,  5824,      2)  /* RecklessnessMasteryOther6 */
+     , (45979,  2607,      2)  /* CANTRIPSTORMBANE1 */
+     , (45979,  1077,      2)  /* LightningProtectionOther6 */
      , (45979,  5885,      2)  /* CantripRecklessnessProwess1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

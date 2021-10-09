@@ -18,15 +18,15 @@ VALUES (42782,   1, 'Bluespire') /* Name */
      , (42782,  16, 'In 12 PY, the Virindi-altered human Candeth Martine opened the way to Marae Lassel. Soon humans from the mainland came to the island and began to settle. One of these settlements is Blue, a town in the marshlands of the Karab Delta. In Thistledown of 16 PY, as part of Varrici II''s war against the "Bloodless," the three human settlements on Marae were captured under cover of night. Though a fragile truce now exists between Strathelar and Varrici, the three spire towns remain under New Viamont''s control.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42782,   1,   33560978) /* Setup */
-     , (42782,   8,  100668115) /* Icon */
+VALUES (42782,   1, 0x02001992) /* Setup */
+     , (42782,   8, 0x060012D3) /* Icon */
      , (42782, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42782, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42782, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42782, 8040, 459062, 55.1102, -120.033, 3.014, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42782, 8040, 0x00070136, 55.1102, -120.033, 3.014, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070136 [55.110200 -120.033000 3.014000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42782, 8000, 1879076926) /* PCAPRecordedObjectIID */;
+VALUES (42782, 8000, 0x7000703E) /* PCAPRecordedObjectIID */;

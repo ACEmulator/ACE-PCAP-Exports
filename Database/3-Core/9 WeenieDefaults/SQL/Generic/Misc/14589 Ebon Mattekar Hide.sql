@@ -20,17 +20,17 @@ VALUES (14589,   1, 'Ebon Mattekar Hide') /* Name */
      , (14589,  15, 'If treated with the proper oils, this mattekar hide would make the perfect skin for a drum.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14589,   1,   33554817) /* Setup */
-     , (14589,   3,  536870932) /* SoundTable */
-     , (14589,   6,   67111919) /* PaletteBase */
-     , (14589,   8,  100672527) /* Icon */
-     , (14589,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14589,   1, 0x02000181) /* Setup */
+     , (14589,   3, 0x20000014) /* SoundTable */
+     , (14589,   6, 0x04000BEF) /* PaletteBase */
+     , (14589,   8, 0x0600240F) /* Icon */
+     , (14589,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14589, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (14589, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14589, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14589, 8000, 2401430635) /* PCAPRecordedObjectIID */;
+VALUES (14589, 8000, 0x8F22EC6B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14589, 67111924, 0, 0);

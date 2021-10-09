@@ -24,13 +24,13 @@ VALUES (20238,   1, 'Scroll of Anemia') /* Name */
 Drains 52-105 points of the target''s Stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20238,   1,   33554826) /* Setup */
-     , (20238,   8,  100676933) /* Icon */
-     , (20238,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20238,   1, 0x0200018A) /* Setup */
+     , (20238,   8, 0x06003545) /* Icon */
+     , (20238,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20238,  28,       2062) /* Spell - EnfeebleOther7 */
      , (20238, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20238, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20238, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20238, 8000, 3689363503) /* PCAPRecordedObjectIID */;
+VALUES (20238, 8000, 0xDBE7382F) /* PCAPRecordedObjectIID */;

@@ -22,16 +22,16 @@ VALUES (6111,   1, 'Yaraq Meeting Hall Portal') /* Name */
      , (6111, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6111,   1,   33554867) /* Setup */
-     , (6111,   2,  150994947) /* MotionTable */
-     , (6111,   8,  100667499) /* Icon */
+VALUES (6111,   1, 0x020001B3) /* Setup */
+     , (6111,   2, 0x09000003) /* MotionTable */
+     , (6111,   8, 0x0600106B) /* Icon */
      , (6111, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (6111, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (6111, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6111, 8040, 2103705971, 35.3787, 35.4762, 13.937, 0.6986063, 0, 0, 0.7155063) /* PCAPRecordedLocation */
+VALUES (6111, 8040, 0x7D640173, 35.3787, 35.4762, 13.937, 0.698606, 0, 0, 0.715506) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640173 [35.378700 35.476200 13.937000] 0.698606 0.000000 0.000000 0.715506 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6111, 8000, 2010529857) /* PCAPRecordedObjectIID */;
+VALUES (6111, 8000, 0x77D64041) /* PCAPRecordedObjectIID */;

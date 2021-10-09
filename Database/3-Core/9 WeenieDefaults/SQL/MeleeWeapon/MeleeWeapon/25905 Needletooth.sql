@@ -49,25 +49,25 @@ VALUES (25905,   1, 'Needletooth') /* Name */
      , (25905,  15, 'A katar crafted from the incisors of corrupted carenzi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25905,   1,   33558561) /* Setup */
-     , (25905,   3,  536870932) /* SoundTable */
-     , (25905,   8,  100675638) /* Icon */
-     , (25905,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25905,   1, 0x02001021) /* Setup */
+     , (25905,   3, 0x20000014) /* SoundTable */
+     , (25905,   8, 0x06003036) /* Icon */
+     , (25905,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25905, 8001,  270598808) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, HookType */
      , (25905, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25905, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25905, 8040, 2847146026, 132.6244, 35.99461, 94.125, 0.4213837, 0, 0, -0.9068825) /* PCAPRecordedLocation */
+VALUES (25905, 8040, 0xA9B4002A, 132.6244, 35.99461, 94.125, 0.421384, 0, 0, -0.906883) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [132.624400 35.994610 94.125000] 0.421384 0.000000 0.000000 -0.906883 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25905, 8000, 2448325349) /* PCAPRecordedObjectIID */;
+VALUES (25905, 8000, 0x91EE7AE5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25905,  1592,      2)  /* HeartSeekerSelf6 */
-     , (25905,  1605,      2)  /* DefenderSelf6 */
+VALUES (25905,  1605,      2)  /* DefenderSelf6 */
      , (25905,  1616,      2)  /* BloodDrinkerSelf6 */
      , (25905,  1625,      2)  /* SwiftKillerSelf4 */
      , (25905,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
-     , (25905,  2603,      2)  /* CANTRIPHEARTTHIRST1 */;
+     , (25905,  2603,      2)  /* CANTRIPHEARTTHIRST1 */
+     , (25905,  1592,      2)  /* HeartSeekerSelf6 */;

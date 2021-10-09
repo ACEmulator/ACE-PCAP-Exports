@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46831,   1,          1) /* ItemType - MeleeWeapon */
      , (46831,   5,        220) /* EncumbranceVal */
      , (46831,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (46831,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (46831,  16,          1) /* ItemUseable - No */
      , (46831,  18,          1) /* UiEffects - Magical */
      , (46831,  51,          1) /* CombatUse - Melee */
@@ -22,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46831,   1, 'Purified Mouryou Wakizashi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46831,   1,   33561505) /* Setup */
-     , (46831,   3,  536870932) /* SoundTable */
-     , (46831,   8,  100692959) /* Icon */
-     , (46831,  22,  872415275) /* PhysicsEffectTable */
-     , (46831,  52,  100689896) /* IconUnderlay */
+VALUES (46831,   1, 0x02001BA1) /* Setup */
+     , (46831,   3, 0x20000014) /* SoundTable */
+     , (46831,   8, 0x060073DF) /* Icon */
+     , (46831,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (46831,  52, 0x060067E8) /* IconUnderlay */
      , (46831, 8001,  270762640) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (46831, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (46831, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -34,9 +33,9 @@ VALUES (46831,   1,   33561505) /* Setup */
      , (46831, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46831, 8040, 1415184700, 7.943641, -49.58646, 5.929, 0.4532532, 0.4532532, -0.5427352, -0.5427352) /* PCAPRecordedLocation */
+VALUES (46831, 8040, 0x545A013C, 7.943641, -49.58646, 5.929, 0.453253, 0.453253, -0.542735, -0.542735) /* PCAPRecordedLocation */
 /* @teleloc 0x545A013C [7.943641 -49.586460 5.929000] 0.453253 0.453253 -0.542735 -0.542735 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46831, 8000, 2391795017) /* PCAPRecordedObjectIID */
-     , (46831, 8008, 1343133471) /* PCAPRecordedParentIID */;
+VALUES (46831, 8000, 0x8E8FE549) /* PCAPRecordedObjectIID */
+     , (46831, 8008, 0x500E971F) /* PCAPRecordedParentIID */;

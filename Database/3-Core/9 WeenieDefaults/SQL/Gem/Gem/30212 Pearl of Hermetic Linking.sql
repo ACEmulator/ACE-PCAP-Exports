@@ -34,21 +34,21 @@ VALUES (30212,   1, 'Pearl of Hermetic Linking') /* Name */
      , (30212,  20, 'Pearls of Hermetic Linking') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30212,   1,   33554809) /* Setup */
-     , (30212,   3,  536870932) /* SoundTable */
-     , (30212,   6,   67111919) /* PaletteBase */
-     , (30212,   8,  100686695) /* Icon */
-     , (30212,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30212,   1, 0x02000179) /* Setup */
+     , (30212,   3, 0x20000014) /* SoundTable */
+     , (30212,   6, 0x04000BEF) /* PaletteBase */
+     , (30212,   8, 0x06005B67) /* Icon */
+     , (30212,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30212,  28,       3709) /* Spell - HermeticLinkRare */
-     , (30212,  50,  100686658) /* IconOverlay */
-     , (30212,  52,  100686604) /* IconUnderlay */
+     , (30212,  50, 0x06005B42) /* IconOverlay */
+     , (30212,  52, 0x06005B0C) /* IconUnderlay */
      , (30212, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30212, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30212, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30212, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30212, 8000, 2158698223) /* PCAPRecordedObjectIID */;
+VALUES (30212, 8000, 0x80AB1EEF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30212, 67111919, 0, 0);

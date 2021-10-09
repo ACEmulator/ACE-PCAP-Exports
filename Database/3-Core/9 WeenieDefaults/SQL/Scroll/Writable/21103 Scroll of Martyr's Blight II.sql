@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21103,   1, 'Scroll of Martyr''s Blight II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21103,   1,   33554826) /* Setup */
-     , (21103,   8,  100676937) /* Icon */
-     , (21103,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21103,   1, 0x0200018A) /* Setup */
+     , (21103,   8, 0x06003549) /* Icon */
+     , (21103,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21103,  28,       2775) /* Spell - ManaBolt2 */
      , (21103, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (21103, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21103, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21103, 8000, 2779932798) /* PCAPRecordedObjectIID */;
+VALUES (21103, 8000, 0xA5B2687E) /* PCAPRecordedObjectIID */;

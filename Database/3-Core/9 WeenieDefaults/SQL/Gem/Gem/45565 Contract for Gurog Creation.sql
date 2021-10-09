@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45565,   1, 'Contract for Gurog Creation') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45565,   1,   33557625) /* Setup */
-     , (45565,   3,  536870932) /* SoundTable */
-     , (45565,   8,  100691928) /* Icon */
-     , (45565,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45565,   1, 0x02000C79) /* Setup */
+     , (45565,   3, 0x20000014) /* SoundTable */
+     , (45565,   8, 0x06006FD8) /* Icon */
+     , (45565,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45565, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (45565, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (45565, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (45565,   1,   33557625) /* Setup */
      , (45565, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45565, 8000,      45565) /* PCAPRecordedObjectIID */;
+VALUES (45565, 8000, 0x0000B1FD) /* PCAPRecordedObjectIID */;

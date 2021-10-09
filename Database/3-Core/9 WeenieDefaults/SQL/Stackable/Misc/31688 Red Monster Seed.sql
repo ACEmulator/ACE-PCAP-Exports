@@ -21,17 +21,17 @@ VALUES (31688,   1, 'Red Monster Seed') /* Name */
      , (31688,  15, 'This is a large, ugly, hairy seed. What could possibly grow from this monster? Perhaps that kooky old plant lover in Ayan Baqur will know what to do with this thing.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31688,   1,   33559608) /* Setup */
-     , (31688,   3,  536870932) /* SoundTable */
-     , (31688,   6,   67116668) /* PaletteBase */
-     , (31688,   8,  100687927) /* Icon */
-     , (31688,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31688,   1, 0x02001438) /* Setup */
+     , (31688,   3, 0x20000014) /* SoundTable */
+     , (31688,   6, 0x04001E7C) /* PaletteBase */
+     , (31688,   8, 0x06006037) /* Icon */
+     , (31688,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31688, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (31688, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31688, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31688, 8000, 3681707857) /* PCAPRecordedObjectIID */;
+VALUES (31688, 8000, 0xDB726751) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31688, 67116676, 0, 0);

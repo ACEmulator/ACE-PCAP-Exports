@@ -54,22 +54,22 @@ VALUES (32769,   1, 'Replica Sword of Bellenesse') /* Name */
      , (32769,  16, 'A replica of the Sword of Bellenesse, forged by Bhravarn ibn Salizim.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32769,   1,   33559842) /* Setup */
-     , (32769,   3,  536870932) /* SoundTable */
-     , (32769,   8,  100688637) /* Icon */
-     , (32769,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32769,   1, 0x02001522) /* Setup */
+     , (32769,   3, 0x20000014) /* SoundTable */
+     , (32769,   8, 0x060062FD) /* Icon */
+     , (32769,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32769,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (32769, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (32769, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32769, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32769, 8000, 2807507467) /* PCAPRecordedObjectIID */;
+VALUES (32769, 8000, 0xA7572A0B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32769,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (32769,  2116,      2)  /* SwiftKillerSelf7 */
+     , (32769,  2263,      2)  /* LeadershipMasterySelf7 */
+     , (32769,  2203,      2)  /* LightWeaponsMasterySelf7 */
+     , (32769,  2096,      2)  /* BloodDrinkerSelf7 */
      , (32769,  2101,      2)  /* DefenderSelf7 */
-     , (32769,  2106,      2)  /* HeartSeekerSelf7 */
-     , (32769,  2116,      2)  /* SwiftKillerSelf7 */
-     , (32769,  2203,      2)  /* AxeMasterySelf7 */
-     , (32769,  2263,      2)  /* LeadershipMasterySelf7 */;
+     , (32769,  2106,      2)  /* HeartSeekerSelf7 */;

@@ -54,24 +54,21 @@ VALUES (31764,   1, 'Lugian Hammer') /* Name */
      , (31764,  16, 'Lugian Hammer of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31764,   1,   33559631) /* Setup */
-     , (31764,   3,  536870932) /* SoundTable */
-     , (31764,   6,   67116700) /* PaletteBase */
-     , (31764,   8,  100688033) /* Icon */
-     , (31764,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31764,   1, 0x0200144F) /* Setup */
+     , (31764,   3, 0x20000014) /* SoundTable */
+     , (31764,   6, 0x04001E9C) /* PaletteBase */
+     , (31764,   8, 0x060060A1) /* Icon */
+     , (31764,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31764,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (31764, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31764, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31764, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31764, 8000, 3690338195) /* PCAPRecordedObjectIID */;
+VALUES (31764, 8000, 0xDBF61793) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31764,  1615,      2)  /* BloodDrinkerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31764, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31764, 67116700, 1, 100)

@@ -23,21 +23,21 @@ VALUES (21282,   1, 'Destroyed Statue of a Reedshark') /* Name */
      , (21282, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21282,   1,   33554489) /* Setup */
-     , (21282,   2,  150995216) /* MotionTable */
-     , (21282,   3,  536871052) /* SoundTable */
-     , (21282,   6,   67109313) /* PaletteBase */
-     , (21282,   8,  100667939) /* Icon */
+VALUES (21282,   1, 0x02000039) /* Setup */
+     , (21282,   2, 0x09000110) /* MotionTable */
+     , (21282,   3, 0x2000008C) /* SoundTable */
+     , (21282,   6, 0x040001C1) /* PaletteBase */
+     , (21282,   8, 0x06001223) /* Icon */
      , (21282, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (21282, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (21282, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21282, 8040, 3111059476, 62.8831, 91.666, 10.004, -0.5585989, 0, 0, 0.8294379) /* PCAPRecordedLocation */
+VALUES (21282, 8040, 0xB96F0014, 62.8831, 91.666, 10.004, -0.558599, 0, 0, 0.829438) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F0014 [62.883100 91.666000 10.004000] -0.558599 0.000000 0.000000 0.829438 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21282, 8000, 2073489498) /* PCAPRecordedObjectIID */;
+VALUES (21282, 8000, 0x7B96F05A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21282, 67113802, 0, 0);

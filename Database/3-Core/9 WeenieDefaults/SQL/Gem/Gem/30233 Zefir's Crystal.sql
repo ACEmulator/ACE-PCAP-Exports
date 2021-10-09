@@ -34,20 +34,20 @@ VALUES (30233,   1, 'Zefir''s Crystal') /* Name */
      , (30233,  20, 'Zefir''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30233,   1,   33554809) /* Setup */
-     , (30233,   3,  536870932) /* SoundTable */
-     , (30233,   8,  100686697) /* Icon */
-     , (30233,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30233,   1, 0x02000179) /* Setup */
+     , (30233,   3, 0x20000014) /* SoundTable */
+     , (30233,   8, 0x06005B69) /* Icon */
+     , (30233,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30233,  28,       3736) /* Spell - SprintRare */
-     , (30233,  50,  100686681) /* IconOverlay */
-     , (30233,  52,  100686604) /* IconUnderlay */
+     , (30233,  50, 0x06005B59) /* IconOverlay */
+     , (30233,  52, 0x06005B0C) /* IconUnderlay */
      , (30233, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30233, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30233, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30233, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30233, 8000, 2631404620) /* PCAPRecordedObjectIID */;
+VALUES (30233, 8000, 0x9CD80C4C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (30233, 0, 83890391, 83890391);

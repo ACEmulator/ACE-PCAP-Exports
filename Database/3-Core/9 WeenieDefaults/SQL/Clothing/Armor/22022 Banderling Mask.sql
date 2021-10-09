@@ -33,16 +33,16 @@ VALUES (22022,   1, 'Banderling Mask') /* Name */
      , (22022,  16, 'A finely sewed and maintained Banderling head, patched with utmost precision, and conveniently fitted for use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22022,   1,   33558026) /* Setup */
-     , (22022,   3,  536870932) /* SoundTable */
-     , (22022,   8,  100673678) /* Icon */
-     , (22022,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22022,   1, 0x02000E0A) /* Setup */
+     , (22022,   3, 0x20000014) /* SoundTable */
+     , (22022,   8, 0x0600288E) /* Icon */
+     , (22022,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22022, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (22022, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22022, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22022, 8000, 2157272690) /* PCAPRecordedObjectIID */;
+VALUES (22022, 8000, 0x80955E72) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (22022, 0, 16788488);

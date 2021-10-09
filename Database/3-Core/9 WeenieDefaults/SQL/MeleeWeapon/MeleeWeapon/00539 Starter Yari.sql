@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (539,   1, 'Starter Yari') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (539,   1,   33554824) /* Setup */
-     , (539,   3,  536870932) /* SoundTable */
-     , (539,   8,  100667579) /* Icon */
-     , (539,  22,  872415275) /* PhysicsEffectTable */
+VALUES (539,   1, 0x02000188) /* Setup */
+     , (539,   3, 0x20000014) /* SoundTable */
+     , (539,   8, 0x060010BB) /* Icon */
+     , (539,  22, 0x3400002B) /* PhysicsEffectTable */
      , (539, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (539, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (539, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (539, 8000, 2861253741) /* PCAPRecordedObjectIID */;
+VALUES (539, 8000, 0xAA8B446D) /* PCAPRecordedObjectIID */;

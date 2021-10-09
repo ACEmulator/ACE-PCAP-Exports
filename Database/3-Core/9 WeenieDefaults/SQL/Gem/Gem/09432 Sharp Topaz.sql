@@ -30,18 +30,18 @@ VALUES (9432,   1, 'Sharp Topaz') /* Name */
      , (9432,  15, 'A gem of slashing protection.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9432,   1,   33554809) /* Setup */
-     , (9432,   3,  536870932) /* SoundTable */
-     , (9432,   6,   67111919) /* PaletteBase */
-     , (9432,   8,  100668366) /* Icon */
-     , (9432,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9432,   1, 0x02000179) /* Setup */
+     , (9432,   3, 0x20000014) /* SoundTable */
+     , (9432,   6, 0x04000BEF) /* PaletteBase */
+     , (9432,   8, 0x060013CE) /* Icon */
+     , (9432,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9432,  28,       2400) /* Spell - SlashingShield */
      , (9432, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (9432, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9432, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9432, 8000, 3358156083) /* PCAPRecordedObjectIID */;
+VALUES (9432, 8000, 0xC8296533) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9432, 67111921, 0, 0);

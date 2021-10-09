@@ -8,7 +8,6 @@ VALUES (8659,   1,          2) /* ItemType - Armor */
      , (8659,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (8659,   5,        900) /* EncumbranceVal */
      , (8659,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
-     , (8659,  10,      25600) /* CurrentWieldedLocation - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (8659,  16,          1) /* ItemUseable - No */
      , (8659,  19,       3300) /* Value */
      , (8659,  28,        110) /* ArmorLevel */
@@ -33,17 +32,17 @@ VALUES (8659,   1, 'Shreth Hide Pants') /* Name */
      , (8659,  16, 'Pants made from the hide of a shreth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8659,   1,   33554856) /* Setup */
-     , (8659,   3,  536870932) /* SoundTable */
-     , (8659,   6,   67108990) /* PaletteBase */
-     , (8659,   8,  100671274) /* Icon */
-     , (8659,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8659,   1, 0x020001A8) /* Setup */
+     , (8659,   3, 0x20000014) /* SoundTable */
+     , (8659,   6, 0x0400007E) /* PaletteBase */
+     , (8659,   8, 0x06001F2A) /* Icon */
+     , (8659,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8659, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (8659, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8659, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8659, 8000, 2925480618) /* PCAPRecordedObjectIID */;
+VALUES (8659, 8000, 0xAE5F4AAA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8659, 67113094, 72, 8)

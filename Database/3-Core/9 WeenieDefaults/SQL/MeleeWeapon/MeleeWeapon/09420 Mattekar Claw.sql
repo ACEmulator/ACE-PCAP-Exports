@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9420,   1,          1) /* ItemType - MeleeWeapon */
      , (9420,   5,        250) /* EncumbranceVal */
      , (9420,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (9420,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (9420,  16,          1) /* ItemUseable - No */
      , (9420,  19,       1100) /* Value */
      , (9420,  44,         18) /* Damage */
@@ -38,19 +37,19 @@ VALUES (9420,   1, 'Mattekar Claw') /* Name */
      , (9420,  16, 'A Large Dread Mattekar Claw, fitted for human use, its claws are a deep red.  When you clench your hand, the claws light with a crimson flame.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9420,   1,   33557016) /* Setup */
-     , (9420,   3,  536870932) /* SoundTable */
-     , (9420,   8,  100671515) /* Icon */
-     , (9420,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9420,   1, 0x02000A18) /* Setup */
+     , (9420,   3, 0x20000014) /* SoundTable */
+     , (9420,   8, 0x0600201B) /* Icon */
+     , (9420,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9420, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (9420, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9420, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (9420, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9420, 8040, 23855555, 57.68698, -36.59323, -0.06949999, -0.6461365, -0.6461365, -0.2872414, -0.2872414) /* PCAPRecordedLocation */
+VALUES (9420, 8040, 0x016C01C3, 57.68698, -36.59323, -0.0695, -0.646137, -0.646137, -0.287241, -0.287241) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [57.686980 -36.593230 -0.069500] -0.646137 -0.646137 -0.287241 -0.287241 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9420, 8000, 2581470067) /* PCAPRecordedObjectIID */
-     , (9420, 8008, 1343383386) /* PCAPRecordedParentIID */;
+VALUES (9420, 8000, 0x99DE1B73) /* PCAPRecordedObjectIID */
+     , (9420, 8008, 0x5012675A) /* PCAPRecordedParentIID */;

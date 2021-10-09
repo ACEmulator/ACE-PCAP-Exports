@@ -29,20 +29,20 @@ VALUES (43213,   1, 'Emissary of Asheron') /* Name */
      , (43213, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43213,   1,   33556923) /* Setup */
-     , (43213,   2,  150995087) /* MotionTable */
-     , (43213,   3,  536870998) /* SoundTable */
-     , (43213,   8,  100670274) /* Icon */
+VALUES (43213,   1, 0x020009BB) /* Setup */
+     , (43213,   2, 0x0900008F) /* MotionTable */
+     , (43213,   3, 0x20000056) /* SoundTable */
+     , (43213,   8, 0x06001B42) /* Icon */
      , (43213, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (43213, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (43213, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43213, 8040, 560988201, 135.028, 5.36284, 178.005, 0.4243726, 0, 0, -0.9054877) /* PCAPRecordedLocation */
+VALUES (43213, 8040, 0x21700029, 135.028, 5.36284, 178.005, 0.424373, 0, 0, -0.905488) /* PCAPRecordedLocation */
 /* @teleloc 0x21700029 [135.028000 5.362840 178.005000] 0.424373 0.000000 0.000000 -0.905488 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43213, 8000, 3706483155) /* PCAPRecordedObjectIID */;
+VALUES (43213, 8000, 0xDCEC71D3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43213,   1, 245, 0, 0) /* Strength */

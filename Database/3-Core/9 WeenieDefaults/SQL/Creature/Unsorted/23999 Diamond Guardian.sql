@@ -26,20 +26,20 @@ VALUES (23999,   1, 'Diamond Guardian') /* Name */
      , (23999, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23999,   1,   33558367) /* Setup */
-     , (23999,   2,  150994945) /* MotionTable */
-     , (23999,   3,  536870933) /* SoundTable */
-     , (23999,   8,  100674350) /* Icon */
+VALUES (23999,   1, 0x02000F5F) /* Setup */
+     , (23999,   2, 0x09000001) /* MotionTable */
+     , (23999,   3, 0x20000015) /* SoundTable */
+     , (23999,   8, 0x06002B2E) /* Icon */
      , (23999, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (23999, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (23999, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23999, 8040, 1665401102, 10, -47.5, 0.00999999, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (23999, 8040, 0x6344010E, 10, -47.5, 0.01, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x6344010E [10.000000 -47.500000 0.010000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23999, 8000, 2870460426) /* PCAPRecordedObjectIID */;
+VALUES (23999, 8000, 0xAB17C00A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (23999, 0, 83894477, 83892492)

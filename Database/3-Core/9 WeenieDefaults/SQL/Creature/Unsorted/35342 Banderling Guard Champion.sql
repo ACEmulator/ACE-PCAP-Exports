@@ -26,22 +26,22 @@ VALUES (35342,   1, 'Banderling Guard Champion') /* Name */
      , (35342, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35342,   1,   33558024) /* Setup */
-     , (35342,   2,  150994951) /* MotionTable */
-     , (35342,   3,  536870917) /* SoundTable */
-     , (35342,   6,   67114021) /* PaletteBase */
-     , (35342,   8,  100667453) /* Icon */
-     , (35342,  22,  872415255) /* PhysicsEffectTable */
+VALUES (35342,   1, 0x02000E08) /* Setup */
+     , (35342,   2, 0x09000007) /* MotionTable */
+     , (35342,   3, 0x20000005) /* SoundTable */
+     , (35342,   6, 0x04001425) /* PaletteBase */
+     , (35342,   8, 0x0600103D) /* Icon */
+     , (35342,  22, 0x34000017) /* PhysicsEffectTable */
      , (35342, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (35342, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (35342, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35342, 8040, 456392960, 41.6797, 28.5019, 64.80825, 0.6066279, 0, 0, -0.7949859) /* PCAPRecordedLocation */
+VALUES (35342, 8040, 0x1B340100, 41.6797, 28.5019, 64.80825, 0.606628, 0, 0, -0.794986) /* PCAPRecordedLocation */
 /* @teleloc 0x1B340100 [41.679700 28.501900 64.808250] 0.606628 0.000000 0.000000 -0.794986 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35342, 8000, 2447927448) /* PCAPRecordedObjectIID */;
+VALUES (35342, 8000, 0x91E86898) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35342, 2, 23127,  1, 0, 0, False) /* Create Flaming Club (23127) for Wield */;

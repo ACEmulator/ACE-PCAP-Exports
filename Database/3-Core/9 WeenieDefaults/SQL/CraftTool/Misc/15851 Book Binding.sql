@@ -20,6 +20,7 @@ VALUES (15851,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15851,  22, True ) /* Inscribable */
+     , (15851,  23, True ) /* DestroyOnSell */
      , (15851,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -28,17 +29,17 @@ VALUES (15851,   1, 'Book Binding') /* Name */
      , (15851,  15, 'A binding that once contained several pages of text, the pages seem to have been removed, or dropped. Two pages have yet to be found.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15851,   1,   33556929) /* Setup */
-     , (15851,   3,  536870932) /* SoundTable */
-     , (15851,   6,   67113005) /* PaletteBase */
-     , (15851,   8,  100672804) /* Icon */
-     , (15851,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15851,   1, 0x020009C1) /* Setup */
+     , (15851,   3, 0x20000014) /* SoundTable */
+     , (15851,   6, 0x0400102D) /* PaletteBase */
+     , (15851,   8, 0x06002524) /* Icon */
+     , (15851,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15851, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (15851, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15851, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15851, 8000, 3709085936) /* PCAPRecordedObjectIID */;
+VALUES (15851, 8000, 0xDD1428F0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15851, 67111923, 0, 0);

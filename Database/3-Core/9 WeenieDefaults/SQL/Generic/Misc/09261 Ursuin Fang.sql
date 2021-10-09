@@ -23,17 +23,17 @@ VALUES (9261,   1, 'Ursuin Fang') /* Name */
      , (9261,  16, 'The fang of an Ursuin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9261,   1,   33554817) /* Setup */
-     , (9261,   3,  536870932) /* SoundTable */
-     , (9261,   6,   67111919) /* PaletteBase */
-     , (9261,   8,  100671416) /* Icon */
-     , (9261,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9261,   1, 0x02000181) /* Setup */
+     , (9261,   3, 0x20000014) /* SoundTable */
+     , (9261,   6, 0x04000BEF) /* PaletteBase */
+     , (9261,   8, 0x06001FB8) /* Icon */
+     , (9261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9261, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (9261, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9261, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9261, 8000, 3621497286) /* PCAPRecordedObjectIID */;
+VALUES (9261, 8000, 0xD7DBA9C6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9261, 67111925, 0, 0);

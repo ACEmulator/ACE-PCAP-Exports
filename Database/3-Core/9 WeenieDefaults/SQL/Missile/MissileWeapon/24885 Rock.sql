@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24885,   1,        256) /* ItemType - MissileWeapon */
      , (24885,   5,        500) /* EncumbranceVal */
      , (24885,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (24885,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (24885,  11,         30) /* MaxStackSize */
      , (24885,  12,          1) /* StackSize */
      , (24885,  13,        500) /* StackUnitEncumbrance */
@@ -19,7 +18,7 @@ VALUES (24885,   1,        256) /* ItemType - MissileWeapon */
      , (24885,  45,          0) /* DamageType - Undef */
      , (24885,  48,         47) /* WeaponSkill - MissileWeapons */
      , (24885,  49,         -1) /* WeaponTime */
-     , (24885,  51,          2) /* CombatUse - Missle */
+     , (24885,  51,          2) /* CombatUse - Missile */
      , (24885,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (24885, 307,          5) /* DamageRating */
      , (24885, 313,          0) /* CritRating */
@@ -48,24 +47,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24885,   1, 'Rock') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24885,   1,   33555863) /* Setup */
-     , (24885,   3,  536871003) /* SoundTable */
-     , (24885,   8,  100667500) /* Icon */
-     , (24885,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24885,   1, 0x02000597) /* Setup */
+     , (24885,   3, 0x2000005B) /* SoundTable */
+     , (24885,   8, 0x0600106C) /* Icon */
+     , (24885,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24885, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (24885, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24885, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
      , (24885, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24885, 8040, 3665100861, 172.979, 100.2765, 17.83, -0.3723455, -0.3723455, -0.6011313, -0.6011313) /* PCAPRecordedLocation */
+VALUES (24885, 8040, 0xDA75003D, 172.979, 100.2765, 17.83, -0.372346, -0.372346, -0.601131, -0.601131) /* PCAPRecordedLocation */
 /* @teleloc 0xDA75003D [172.979000 100.276500 17.830000] -0.372346 -0.372346 -0.601131 -0.601131 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24885, 8000, 3692283283) /* PCAPRecordedObjectIID */
-     , (24885, 8008, 3692283306) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24885, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */
-     , (24885, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
-     , (24885, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;
+VALUES (24885, 8000, 0xDC13C593) /* PCAPRecordedObjectIID */
+     , (24885, 8008, 0xDC13C5AA) /* PCAPRecordedParentIID */;

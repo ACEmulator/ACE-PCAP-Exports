@@ -23,7 +23,8 @@ VALUES (5190,   1,          1) /* ItemType - MeleeWeapon */
      , (5190, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5190,  22, True ) /* Inscribable */;
+VALUES (5190,  22, True ) /* Inscribable */
+     , (5190,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5190,  21,       0) /* WeaponLength */
@@ -37,17 +38,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5190,   1, 'Lou Ka''s Yaoji') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5190,   1,   33554765) /* Setup */
-     , (5190,   3,  536870932) /* SoundTable */
-     , (5190,   6,   67111919) /* PaletteBase */
-     , (5190,   8,  100669076) /* Icon */
-     , (5190,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5190,   1, 0x0200014D) /* Setup */
+     , (5190,   3, 0x20000014) /* SoundTable */
+     , (5190,   6, 0x04000BEF) /* PaletteBase */
+     , (5190,   8, 0x06001694) /* Icon */
+     , (5190,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5190, 8001,    2179600) /* PCAPRecordedWeenieHeader - Usable, CombatUse, Container, ValidLocations, Burden */
      , (5190, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5190, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5190, 8000, 2157273444) /* PCAPRecordedObjectIID */;
+VALUES (5190, 8000, 0x80956164) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5190, 67111920, 0, 0);

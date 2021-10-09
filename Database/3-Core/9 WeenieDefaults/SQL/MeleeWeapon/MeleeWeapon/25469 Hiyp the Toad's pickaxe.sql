@@ -24,7 +24,8 @@ VALUES (25469,   1,          1) /* ItemType - MeleeWeapon */
      , (25469, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25469,  22, True ) /* Inscribable */;
+VALUES (25469,  22, True ) /* Inscribable */
+     , (25469,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25469,  21,       0) /* WeaponLength */
@@ -40,18 +41,18 @@ VALUES (25469,   1, 'Hiyp the Toad''s pickaxe') /* Name */
      , (25469,  16, 'A pickaxe belonging to Hiyp the Toad') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25469,   1,   33554813) /* Setup */
-     , (25469,   3,  536870932) /* SoundTable */
-     , (25469,   8,  100670275) /* Icon */
-     , (25469,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25469,   1, 0x0200017D) /* Setup */
+     , (25469,   3, 0x20000014) /* SoundTable */
+     , (25469,   8, 0x06001B43) /* Icon */
+     , (25469,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25469,  30,         88) /* PhysicsScript - Create */
      , (25469, 8001,  270598680) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, ValidLocations, Burden, HookType */
      , (25469, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25469, 8005,     194561) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25469, 8040, 1632174337, 97.6584, -148.907, -53.985, 0.9300437, 0, 0, 0.3674489) /* PCAPRecordedLocation */
+VALUES (25469, 8040, 0x61490101, 97.6584, -148.907, -53.985, 0.930044, 0, 0, 0.367449) /* PCAPRecordedLocation */
 /* @teleloc 0x61490101 [97.658400 -148.907000 -53.985000] 0.930044 0.000000 0.000000 0.367449 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25469, 8000, 3709489927) /* PCAPRecordedObjectIID */;
+VALUES (25469, 8000, 0xDD1A5307) /* PCAPRecordedObjectIID */;

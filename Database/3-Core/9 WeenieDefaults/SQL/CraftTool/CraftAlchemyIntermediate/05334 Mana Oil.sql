@@ -25,17 +25,17 @@ VALUES (5334,   1, 'Mana Oil') /* Name */
      , (5334,  20, 'Vials of Mana Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5334,   1,   33555967) /* Setup */
-     , (5334,   3,  536870932) /* SoundTable */
-     , (5334,   6,   67111919) /* PaletteBase */
-     , (5334,   8,  100670265) /* Icon */
-     , (5334,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5334,   1, 0x020005FF) /* Setup */
+     , (5334,   3, 0x20000014) /* SoundTable */
+     , (5334,   6, 0x04000BEF) /* PaletteBase */
+     , (5334,   8, 0x06001B39) /* Icon */
+     , (5334,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5334, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (5334, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5334, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5334, 8000, 2166234062) /* PCAPRecordedObjectIID */;
+VALUES (5334, 8000, 0x811E1BCE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5334, 67111919, 0, 0);

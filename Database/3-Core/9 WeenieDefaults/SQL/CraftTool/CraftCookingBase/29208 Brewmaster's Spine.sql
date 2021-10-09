@@ -25,13 +25,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29208,   1, 'Brewmaster''s Spine') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29208,   1,   33559183) /* Setup */
-     , (29208,   3,  536870932) /* SoundTable */
-     , (29208,   8,  100686469) /* Icon */
-     , (29208,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29208,   1, 0x0200128F) /* Setup */
+     , (29208,   3, 0x20000014) /* SoundTable */
+     , (29208,   8, 0x06005A85) /* Icon */
+     , (29208,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29208, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (29208, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29208, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29208, 8000, 2153692035) /* PCAPRecordedObjectIID */;
+VALUES (29208, 8000, 0x805EBB83) /* PCAPRecordedObjectIID */;

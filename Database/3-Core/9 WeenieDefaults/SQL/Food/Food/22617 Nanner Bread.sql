@@ -27,16 +27,16 @@ VALUES (22617,   1, 'Nanner Bread') /* Name */
      , (22617,  20, 'Loaves of Nanner Bread') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22617,   1,   33554806) /* Setup */
-     , (22617,   3,  536870932) /* SoundTable */
-     , (22617,   8,  100673805) /* Icon */
-     , (22617,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22617,   1, 0x02000176) /* Setup */
+     , (22617,   3, 0x20000014) /* SoundTable */
+     , (22617,   8, 0x0600290D) /* Icon */
+     , (22617,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22617, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (22617, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (22617, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22617, 8000, 2192290119) /* PCAPRecordedObjectIID */;
+VALUES (22617, 8000, 0x82ABB147) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (22617, 0, 83888864, 83894376);

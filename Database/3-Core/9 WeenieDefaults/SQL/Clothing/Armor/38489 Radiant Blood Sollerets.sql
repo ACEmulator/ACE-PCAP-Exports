@@ -48,22 +48,22 @@ VALUES (38489,   1, 'Radiant Blood Sollerets') /* Name */
      , (38489,  16, 'Radiant Blood Sollerets of Heavy Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38489,   1,   33554654) /* Setup */
-     , (38489,   3,  536870932) /* SoundTable */
-     , (38489,   8,  100690228) /* Icon */
-     , (38489,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38489,   1, 0x020000DE) /* Setup */
+     , (38489,   3, 0x20000014) /* SoundTable */
+     , (38489,   8, 0x06006934) /* Icon */
+     , (38489,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38489,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (38489, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38489, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38489, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38489, 8000, 2860240256) /* PCAPRecordedObjectIID */;
+VALUES (38489, 8000, 0xAA7BCD80) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38489,  2108,      2)  /* Impenetrability7 */
-     , (38489,  2309,      2)  /* SwordMasterySelf7 */
-     , (38489,  4694,      2)  /* CANTRIPHEALINGPROWESS3 */;
+VALUES (38489,  2309,      2)  /* HeavyWeaponsMasterySelf7 */
+     , (38489,  4694,      2)  /* CANTRIPHEALINGPROWESS3 */
+     , (38489,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38489, 0, 83889344, 83897937)

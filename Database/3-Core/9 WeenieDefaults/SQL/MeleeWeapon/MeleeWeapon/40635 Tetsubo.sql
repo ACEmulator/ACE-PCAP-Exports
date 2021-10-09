@@ -47,17 +47,17 @@ VALUES (40635,   1, 'Tetsubo') /* Name */
      , (40635,  16, 'Tetsubo') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40635,   1,   33560728) /* Setup */
-     , (40635,   3,  536870932) /* SoundTable */
-     , (40635,   6,   67116700) /* PaletteBase */
-     , (40635,   8,  100690500) /* Icon */
-     , (40635,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40635,   1, 0x02001898) /* Setup */
+     , (40635,   3, 0x20000014) /* SoundTable */
+     , (40635,   6, 0x04001E9C) /* PaletteBase */
+     , (40635,   8, 0x06006A44) /* Icon */
+     , (40635,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40635, 8001, 2434875928) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40635, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40635, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40635, 8000, 3694320672) /* PCAPRecordedObjectIID */;
+VALUES (40635, 8000, 0xDC32DC20) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40635, 67116700, 1, 100)

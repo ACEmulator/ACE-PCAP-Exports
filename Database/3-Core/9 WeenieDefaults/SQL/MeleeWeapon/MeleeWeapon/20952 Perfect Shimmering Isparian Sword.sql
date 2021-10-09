@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (20952,   1,          1) /* ItemType - MeleeWeapon */
      , (20952,   5,        550) /* EncumbranceVal */
      , (20952,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (20952,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (20952,  16,          1) /* ItemUseable - No */
      , (20952,  18,          1) /* UiEffects - Magical */
      , (20952,  19,       8000) /* Value */
@@ -24,22 +23,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20952,   1, 'Perfect Shimmering Isparian Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20952,   1,   33556262) /* Setup */
-     , (20952,   3,  536870932) /* SoundTable */
-     , (20952,   8,  100673209) /* Icon */
-     , (20952,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20952,   1, 0x02000726) /* Setup */
+     , (20952,   3, 0x20000014) /* SoundTable */
+     , (20952,   8, 0x060026B9) /* Icon */
+     , (20952,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20952, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (20952, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
      , (20952, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (20952, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20952, 8040, 3465805862, 112.0721, 133.1482, 22.42652, 0.5301422, 0.5301422, -0.4679201, -0.4679201) /* PCAPRecordedLocation */
+VALUES (20952, 8040, 0xCE940026, 112.0721, 133.1482, 22.42652, 0.530142, 0.530142, -0.46792, -0.46792) /* PCAPRecordedLocation */
 /* @teleloc 0xCE940026 [112.072100 133.148200 22.426520] 0.530142 0.530142 -0.467920 -0.467920 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20952, 8000, 2151394852) /* PCAPRecordedObjectIID */
-     , (20952, 8008, 1342386124) /* PCAPRecordedParentIID */;
+VALUES (20952, 8000, 0x803BAE24) /* PCAPRecordedObjectIID */
+     , (20952, 8008, 0x50032FCC) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20952, 0, 83889235, 83892492)

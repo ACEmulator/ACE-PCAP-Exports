@@ -54,26 +54,26 @@ VALUES (45119,   1, 'Acid Hand Wraps') /* Name */
      , (45119,  16, 'Acid Hand Wraps of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45119,   1,   33561415) /* Setup */
-     , (45119,   3,  536870932) /* SoundTable */
-     , (45119,   6,   67115556) /* PaletteBase */
-     , (45119,   8,  100692308) /* Icon */
-     , (45119,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45119,   1, 0x02001B47) /* Setup */
+     , (45119,   3, 0x20000014) /* SoundTable */
+     , (45119,   6, 0x04001A24) /* PaletteBase */
+     , (45119,   8, 0x06007154) /* Icon */
+     , (45119,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45119,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45119, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45119, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45119, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45119, 8000, 3690298020) /* PCAPRecordedObjectIID */;
+VALUES (45119, 8000, 0xDBF57AA4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45119,  2081,      2)  /* QuicknessSelf7 */
-     , (45119,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (45119,  2101,      2)  /* DefenderSelf7 */
+VALUES (45119,  4672,      2)  /* CANTRIPSWIFTHUNTER3 */
      , (45119,  2116,      2)  /* SwiftKillerSelf7 */
+     , (45119,  2081,      2)  /* QuicknessSelf7 */
+     , (45119,  2096,      2)  /* BloodDrinkerSelf7 */
      , (45119,  4019,      2)  /* CANTRIPQUICKNESS3 */
-     , (45119,  4672,      2)  /* CANTRIPSWIFTHUNTER3 */;
+     , (45119,  2101,      2)  /* DefenderSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45119, 67116439, 0, 0);

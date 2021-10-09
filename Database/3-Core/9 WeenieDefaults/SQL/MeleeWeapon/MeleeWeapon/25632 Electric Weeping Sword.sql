@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25632,   1,          1) /* ItemType - MeleeWeapon */
      , (25632,   5,        550) /* EncumbranceVal */
      , (25632,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (25632,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (25632,  16,          1) /* ItemUseable - No */
      , (25632,  18,          1) /* UiEffects - Magical */
      , (25632,  19,       8000) /* Value */
@@ -35,6 +34,7 @@ VALUES (25632,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25632,  22, True ) /* Inscribable */
+     , (25632,  23, True ) /* DestroyOnSell */
      , (25632,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -52,23 +52,23 @@ VALUES (25632,   1, 'Electric Weeping Sword') /* Name */
      , (25632,  15, 'A sword infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25632,   1,   33558472) /* Setup */
-     , (25632,   3,  536870932) /* SoundTable */
-     , (25632,   6,   67114522) /* PaletteBase */
-     , (25632,   8,  100674910) /* Icon */
-     , (25632,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25632,   1, 0x02000FC8) /* Setup */
+     , (25632,   3, 0x20000014) /* SoundTable */
+     , (25632,   6, 0x0400161A) /* PaletteBase */
+     , (25632,   8, 0x06002D5E) /* Icon */
+     , (25632,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25632, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (25632, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25632, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (25632, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25632, 8040, 3465871405, 136.6848, 96.69483, 19.929, -0.576483, -0.576483, -0.4094721, -0.4094721) /* PCAPRecordedLocation */
+VALUES (25632, 8040, 0xCE95002D, 136.6848, 96.69483, 19.929, -0.576483, -0.576483, -0.409472, -0.409472) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [136.684800 96.694830 19.929000] -0.576483 -0.576483 -0.409472 -0.409472 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25632, 8000, 3686913975) /* PCAPRecordedObjectIID */
-     , (25632, 8008, 1342401529) /* PCAPRecordedParentIID */;
+VALUES (25632, 8000, 0xDBC1D7B7) /* PCAPRecordedObjectIID */
+     , (25632, 8008, 0x50036BF9) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25632,  2689,      2)  /* ModerateDaggerAptitude */;

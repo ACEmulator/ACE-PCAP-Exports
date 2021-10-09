@@ -41,21 +41,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29058,   1, 'Helm of Gratitude') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29058,   1,   33559351) /* Setup */
-     , (29058,   3,  536870932) /* SoundTable */
-     , (29058,   8,  100686420) /* Icon */
-     , (29058,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29058,   1, 0x02001337) /* Setup */
+     , (29058,   3, 0x20000014) /* SoundTable */
+     , (29058,   8, 0x06005A54) /* Icon */
+     , (29058,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29058, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (29058, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29058, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29058, 8000, 2153695129) /* PCAPRecordedObjectIID */;
+VALUES (29058, 8000, 0x805EC799) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29058,   249,      2)  /* InvulnerabilitySelf6 */
-     , (29058,   903,      2)  /* LeadershipMasterySelf6 */
-     , (29058,  1312,      2)  /* ArmorSelf6 */
+VALUES (29058,   903,      2)  /* LeadershipMasterySelf6 */
      , (29058,  1486,      2)  /* Impenetrability6 */
+     , (29058,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (29058,  1312,      2)  /* ArmorSelf6 */
      , (29058,  2211,      2)  /* CookingMasterySelf7 */
-     , (29058,  2580,      2)  /* CANTRIPENDURANCE1 */;
+     , (29058,   249,      2)  /* InvulnerabilitySelf6 */;

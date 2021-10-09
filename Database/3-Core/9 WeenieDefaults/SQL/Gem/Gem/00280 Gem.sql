@@ -18,11 +18,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (280,   1, 'Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (280,   1,   33554809) /* Setup */
-     , (280,   8,  100667482) /* Icon */
+VALUES (280,   1, 0x02000179) /* Setup */
+     , (280,   8, 0x0600105A) /* Icon */
      , (280, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (280, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (280, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (280, 8000, 2917028175) /* PCAPRecordedObjectIID */;
+VALUES (280, 8000, 0xADDE514F) /* PCAPRecordedObjectIID */;

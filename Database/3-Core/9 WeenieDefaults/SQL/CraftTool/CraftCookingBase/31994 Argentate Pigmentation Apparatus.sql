@@ -21,17 +21,17 @@ VALUES (31994,   1, 'Argentate Pigmentation Apparatus') /* Name */
      , (31994,  20, 'Argentate Pigmentation Apparatus') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31994,   1,   33556753) /* Setup */
-     , (31994,   3,  536870932) /* SoundTable */
-     , (31994,   6,   67111919) /* PaletteBase */
-     , (31994,   8,  100688318) /* Icon */
-     , (31994,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31994,   1, 0x02000911) /* Setup */
+     , (31994,   3, 0x20000014) /* SoundTable */
+     , (31994,   6, 0x04000BEF) /* PaletteBase */
+     , (31994,   8, 0x060061BE) /* Icon */
+     , (31994,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31994, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (31994, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31994, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31994, 8000, 2982964701) /* PCAPRecordedObjectIID */;
+VALUES (31994, 8000, 0xB1CC6DDD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31994, 67111925, 0, 0);

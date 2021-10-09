@@ -24,13 +24,13 @@ VALUES (37672,   1, 'Inscription of Bludgeoning Protection Self') /* Name */
 Reduces damage the caster takes from Bludgeoning by 68%') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37672,   1,   33554826) /* Setup */
-     , (37672,   8,  100676952) /* Icon */
-     , (37672,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37672,   1, 0x0200018A) /* Setup */
+     , (37672,   8, 0x06003558) /* Icon */
+     , (37672,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37672,  28,       4464) /* Spell - BludgeonProtectionSelf8 */
      , (37672, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37672, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37672, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37672, 8000, 2150584897) /* PCAPRecordedObjectIID */;
+VALUES (37672, 8000, 0x802F5241) /* PCAPRecordedObjectIID */;

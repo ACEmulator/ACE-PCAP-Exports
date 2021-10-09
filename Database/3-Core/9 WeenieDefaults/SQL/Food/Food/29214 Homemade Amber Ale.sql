@@ -19,20 +19,20 @@ VALUES (29214,   1, 'Homemade Amber Ale') /* Name */
      , (29214,  20, 'Bottles of Homemade Amber Ale') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29214,   1,   33559127) /* Setup */
-     , (29214,   3,  536870932) /* SoundTable */
-     , (29214,   8,  100687555) /* Icon */
-     , (29214,  22,  872415275) /* PhysicsEffectTable */
-     , (29214,  50,  100687549) /* IconOverlay */
-     , (29214,  52,  100687547) /* IconUnderlay */
+VALUES (29214,   1, 0x02001257) /* Setup */
+     , (29214,   3, 0x20000014) /* SoundTable */
+     , (29214,   8, 0x06005EC3) /* Icon */
+     , (29214,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29214,  50, 0x06005EBD) /* IconOverlay */
+     , (29214,  52, 0x06005EBB) /* IconUnderlay */
      , (29214, 8001, 1075851289) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden, IconOverlay */
      , (29214, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (29214, 8003,   67141648) /* PCAPRecordedObjectDesc - Attackable, Food, IncludesSecondHeader */
      , (29214, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29214, 8040, 23855554, 58.32581, -34.73314, -1.862645E-09, -0.8416016, 0, 0, -0.5400989) /* PCAPRecordedLocation */
+VALUES (29214, 8040, 0x016C01C2, 58.32581, -34.73314, 0, -0.841602, 0, 0, -0.540099) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [58.325810 -34.733140 0.000000] -0.841602 0.000000 0.000000 -0.540099 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29214, 8000, 2152507091) /* PCAPRecordedObjectIID */;
+VALUES (29214, 8000, 0x804CA6D3) /* PCAPRecordedObjectIID */;

@@ -30,21 +30,21 @@ VALUES (24665,   1, 'Runed Chest') /* Name */
      , (24665, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24665,   1,   33558095) /* Setup */
-     , (24665,   2,  150994948) /* MotionTable */
-     , (24665,   3,  536870945) /* SoundTable */
-     , (24665,   8,  100667424) /* Icon */
-     , (24665,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24665,   1, 0x02000E4F) /* Setup */
+     , (24665,   2, 0x09000004) /* MotionTable */
+     , (24665,   3, 0x20000021) /* SoundTable */
+     , (24665,   8, 0x06001020) /* Icon */
+     , (24665,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24665, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (24665, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (24665, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24665, 8040, 18219837, 143.885, -228.562, -24, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (24665, 8040, 0x0116033D, 143.885, -228.562, -24, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0116033D [143.885000 -228.562000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24665, 8000, 1880187439) /* PCAPRecordedObjectIID */;
+VALUES (24665, 8000, 0x7011622F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24665, -1, 49442, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Frost Spectre Essence (50) (49442) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

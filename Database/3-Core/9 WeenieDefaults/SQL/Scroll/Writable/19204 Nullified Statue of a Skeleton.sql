@@ -23,21 +23,21 @@ VALUES (19204,   1, 'Nullified Statue of a Skeleton') /* Name */
      , (19204, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19204,   1,   33554521) /* Setup */
-     , (19204,   2,  150995170) /* MotionTable */
-     , (19204,   3,  536871052) /* SoundTable */
-     , (19204,   6,   67116522) /* PaletteBase */
-     , (19204,   8,  100669124) /* Icon */
+VALUES (19204,   1, 0x02000059) /* Setup */
+     , (19204,   2, 0x090000E2) /* MotionTable */
+     , (19204,   3, 0x2000008C) /* SoundTable */
+     , (19204,   6, 0x04001DEA) /* PaletteBase */
+     , (19204,   8, 0x060016C4) /* Icon */
      , (19204, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (19204, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19204, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19204, 8040, 3661299771, 179.279, 65.947, 6.81, 0.7041355, 0, 0, 0.7100655) /* PCAPRecordedLocation */
+VALUES (19204, 8040, 0xDA3B003B, 179.279, 65.947, 6.81, 0.704136, 0, 0, 0.710066) /* PCAPRecordedLocation */
 /* @teleloc 0xDA3B003B [179.279000 65.947000 6.810000] 0.704136 0.000000 0.000000 0.710066 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19204, 8000, 2107879465) /* PCAPRecordedObjectIID */;
+VALUES (19204, 8000, 0x7DA3B029) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19204, 67116534, 0, 0);

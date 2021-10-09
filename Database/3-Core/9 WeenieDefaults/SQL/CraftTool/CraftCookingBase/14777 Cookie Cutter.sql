@@ -26,13 +26,13 @@ VALUES (14777,   1, 'Cookie Cutter') /* Name */
      , (14777,  15, 'A Drudge shaped cookie cutter.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14777,   1,   33557497) /* Setup */
-     , (14777,   3,  536870932) /* SoundTable */
-     , (14777,   8,  100672490) /* Icon */
-     , (14777,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14777,   1, 0x02000BF9) /* Setup */
+     , (14777,   3, 0x20000014) /* SoundTable */
+     , (14777,   8, 0x060023EA) /* Icon */
+     , (14777,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14777, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (14777, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14777, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14777, 8000, 2981038606) /* PCAPRecordedObjectIID */;
+VALUES (14777, 8000, 0xB1AF0A0E) /* PCAPRecordedObjectIID */;

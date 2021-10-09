@@ -46,19 +46,19 @@ VALUES (23538,   1, 'Basalt Blade') /* Name */
      , (23538,  16, 'A large chunk of volcanic rock with a middle thin enough to grasp. The fiery interior can be seen through cracks in the stone. There is a slot in the rock that you think a haft may be able to fit into.  (Give it to a trophy collector to transform it into an axe)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23538,   1,   33557335) /* Setup */
-     , (23538,   3,  536870932) /* SoundTable */
-     , (23538,   8,  100674097) /* Icon */
-     , (23538,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23538,   1, 0x02000B57) /* Setup */
+     , (23538,   3, 0x20000014) /* SoundTable */
+     , (23538,   8, 0x06002A31) /* Icon */
+     , (23538,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23538, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23538, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23538, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23538, 8000, 2157272653) /* PCAPRecordedObjectIID */;
+VALUES (23538, 8000, 0x80955E4D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23538,  1022,      2)  /* BludgeonProtectionSelf5 */
+VALUES (23538,  1604,      2)  /* DefenderSelf5 */
+     , (23538,  1615,      2)  /* BloodDrinkerSelf5 */
      , (23538,  1590,      2)  /* HeartSeekerSelf4 */
-     , (23538,  1604,      2)  /* DefenderSelf5 */
-     , (23538,  1615,      2)  /* BloodDrinkerSelf5 */;
+     , (23538,  1022,      2)  /* BludgeonProtectionSelf5 */;

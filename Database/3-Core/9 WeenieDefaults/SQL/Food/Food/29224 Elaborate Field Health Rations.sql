@@ -28,13 +28,13 @@ VALUES (29224,   1, 'Elaborate Field Health Rations') /* Name */
      , (29224,  20, 'Elaborate Field Health Rations') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29224,   1,   33554817) /* Setup */
-     , (29224,   3,  536870932) /* SoundTable */
-     , (29224,   8,  100674004) /* Icon */
-     , (29224,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29224,   1, 0x02000181) /* Setup */
+     , (29224,   3, 0x20000014) /* SoundTable */
+     , (29224,   8, 0x060029D4) /* Icon */
+     , (29224,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29224, 8001,    2125969) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (29224, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (29224, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29224, 8000, 2769398318) /* PCAPRecordedObjectIID */;
+VALUES (29224, 8000, 0xA511AA2E) /* PCAPRecordedObjectIID */;

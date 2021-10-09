@@ -35,20 +35,20 @@ VALUES (27391,   1, 'Lair of The Homunculus') /* Name */
      , (27391,  16, 'Join us in worship, mosswart brethren. Our God walks amongst, blessing us. The Homunculus will lead us to our rightful place as the rulers of this world. The Homunculus will bring low all who oppose us. Praise be The Homunculus!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27391,   1,   33556769) /* Setup */
-     , (27391,   3,  536870932) /* SoundTable */
-     , (27391,   6,   67111919) /* PaletteBase */
-     , (27391,   8,  100676445) /* Icon */
-     , (27391,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27391,   1, 0x02000921) /* Setup */
+     , (27391,   3, 0x20000014) /* SoundTable */
+     , (27391,   6, 0x04000BEF) /* PaletteBase */
+     , (27391,   8, 0x0600335D) /* Icon */
+     , (27391,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27391,  28,        157) /* Spell - SummonPortal1 */
-     , (27391,  50,  100676404) /* IconOverlay */
+     , (27391,  50, 0x06003334) /* IconOverlay */
      , (27391, 8001, 1349021720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (27391, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (27391, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (27391, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27391, 8000, 3710967759) /* PCAPRecordedObjectIID */;
+VALUES (27391, 8000, 0xDD30DFCF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27391, 67111921, 0, 0);

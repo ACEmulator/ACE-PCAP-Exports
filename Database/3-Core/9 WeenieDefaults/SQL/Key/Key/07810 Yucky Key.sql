@@ -17,7 +17,8 @@ VALUES (7810,   1,      16384) /* ItemType - Key */
      , (7810, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7810,  22, True ) /* Inscribable */;
+VALUES (7810,  22, True ) /* Inscribable */
+     , (7810,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7810,   1, 'Yucky Key') /* Name */
@@ -25,13 +26,13 @@ VALUES (7810,   1, 'Yucky Key') /* Name */
      , (7810,  16, 'A very yucky key covered in a mixture of green slime and moss.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7810,   1,   33554784) /* Setup */
-     , (7810,   3,  536870932) /* SoundTable */
-     , (7810,   8,  100670820) /* Icon */
-     , (7810,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7810,   1, 0x02000160) /* Setup */
+     , (7810,   3, 0x20000014) /* SoundTable */
+     , (7810,   8, 0x06001D64) /* Icon */
+     , (7810,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7810, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (7810, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7810, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7810, 8000, 2153703704) /* PCAPRecordedObjectIID */;
+VALUES (7810, 8000, 0x805EE918) /* PCAPRecordedObjectIID */;

@@ -23,6 +23,7 @@ VALUES (45682,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45682,  22, True ) /* Inscribable */
+     , (45682,  23, True ) /* DestroyOnSell */
      , (45682,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,14 +35,14 @@ VALUES (45682,   1, 'Nalicana''s Test (Level 200+)') /* Name */
      , (45682,  16, 'A contract for collecting the Mnemosyne of Battle Lord Gregor, to prove to Nalicana your worth to earn Luminance.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45682,   1,   33554773) /* Setup */
-     , (45682,   3,  536870932) /* SoundTable */
-     , (45682,   8,  100691928) /* Icon */
-     , (45682,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45682,   1, 0x02000155) /* Setup */
+     , (45682,   3, 0x20000014) /* SoundTable */
+     , (45682,   8, 0x06006FD8) /* Icon */
+     , (45682,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45682, 8001,     553104) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (45682, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (45682, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45682, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45682, 8000, 3681267829) /* PCAPRecordedObjectIID */;
+VALUES (45682, 8000, 0xDB6BB075) /* PCAPRecordedObjectIID */;

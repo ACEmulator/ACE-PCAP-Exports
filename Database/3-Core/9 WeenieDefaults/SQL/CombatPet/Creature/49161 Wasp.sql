@@ -23,23 +23,23 @@ VALUES (49161,   1, 'Wasp') /* Name */
      , (49161, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49161,   1,   33558817) /* Setup */
-     , (49161,   2,  150995303) /* MotionTable */
-     , (49161,   3,  536870926) /* SoundTable */
-     , (49161,   6,   67115262) /* PaletteBase */
-     , (49161,   8,  100667450) /* Icon */
-     , (49161,  22,  872415266) /* PhysicsEffectTable */
+VALUES (49161,   1, 0x02001121) /* Setup */
+     , (49161,   2, 0x09000167) /* MotionTable */
+     , (49161,   3, 0x2000000E) /* SoundTable */
+     , (49161,   6, 0x040018FE) /* PaletteBase */
+     , (49161,   8, 0x0600103A) /* Icon */
+     , (49161,  22, 0x34000022) /* PhysicsEffectTable */
      , (49161, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49161, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
      , (49161, 8003,   67108884) /* PCAPRecordedObjectDesc - Stuck, Attackable, IncludesSecondHeader */
      , (49161, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49161, 8040, 9110041, 191.6275, -226.9232, 0.01199996, 0.9519324, 0, 0, -0.3063082) /* PCAPRecordedLocation */
+VALUES (49161, 8040, 0x008B0219, 191.6275, -226.9232, 0.012, 0.951932, 0, 0, -0.306308) /* PCAPRecordedLocation */
 /* @teleloc 0x008B0219 [191.627500 -226.923200 0.012000] 0.951932 0.000000 0.000000 -0.306308 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49161, 8000, 3357864171) /* PCAPRecordedObjectIID */;
+VALUES (49161, 8000, 0xC824F0EB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49161, 67115263, 0, 0);

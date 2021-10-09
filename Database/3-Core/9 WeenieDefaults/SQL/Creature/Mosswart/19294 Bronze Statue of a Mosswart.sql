@@ -25,22 +25,22 @@ VALUES (19294,   1, 'Bronze Statue of a Mosswart') /* Name */
      , (19294, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19294,   1,   33557327) /* Setup */
-     , (19294,   2,  150995185) /* MotionTable */
-     , (19294,   3,  536871052) /* SoundTable */
-     , (19294,   6,   67113400) /* PaletteBase */
-     , (19294,   8,  100667449) /* Icon */
-     , (19294,  22,  872415264) /* PhysicsEffectTable */
+VALUES (19294,   1, 0x02000B4F) /* Setup */
+     , (19294,   2, 0x090000F1) /* MotionTable */
+     , (19294,   3, 0x2000008C) /* SoundTable */
+     , (19294,   6, 0x040011B8) /* PaletteBase */
+     , (19294,   8, 0x06001039) /* Icon */
+     , (19294,  22, 0x34000020) /* PhysicsEffectTable */
      , (19294, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (19294, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19294, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19294, 8040, 1415184721, 39.9871, -22.2083, 6.01375, 0.03010199, 0, 0, -0.9995468) /* PCAPRecordedLocation */
+VALUES (19294, 8040, 0x545A0151, 39.9871, -22.2083, 6.01375, 0.030102, 0, 0, -0.999547) /* PCAPRecordedLocation */
 /* @teleloc 0x545A0151 [39.987100 -22.208300 6.013750] 0.030102 0.000000 0.000000 -0.999547 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19294, 8000, 2877022787) /* PCAPRecordedObjectIID */;
+VALUES (19294, 8000, 0xAB7BE243) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19294,   1, 125, 0, 0) /* Strength */

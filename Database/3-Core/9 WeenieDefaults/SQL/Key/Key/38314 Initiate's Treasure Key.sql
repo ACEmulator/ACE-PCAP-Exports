@@ -18,6 +18,7 @@ VALUES (38314,   1,      16384) /* ItemType - Key */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38314,  22, True ) /* Inscribable */
+     , (38314,  23, True ) /* DestroyOnSell */
      , (38314,  69, False) /* IsSellable */
      , (38314,  99, False) /* Ivoryable */;
 
@@ -27,12 +28,12 @@ VALUES (38314,   1, 'Initiate''s Treasure Key') /* Name */
      , (38314,  16, 'A key, rewarded to you for achieving the Rank of Initiate within your Society.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38314,   1,   33554784) /* Setup */
-     , (38314,   8,  100668441) /* Icon */
-     , (38314,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38314,   1, 0x02000160) /* Setup */
+     , (38314,   8, 0x06001419) /* Icon */
+     , (38314,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38314, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (38314, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38314, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38314, 8000, 2619238146) /* PCAPRecordedObjectIID */;
+VALUES (38314, 8000, 0x9C1E6702) /* PCAPRecordedObjectIID */;

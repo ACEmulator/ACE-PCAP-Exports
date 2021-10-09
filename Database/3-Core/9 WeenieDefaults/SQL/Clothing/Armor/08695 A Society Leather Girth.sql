@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8695,   1, 'A Society Leather Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8695,   1,   33554647) /* Setup */
-     , (8695,   3,  536870932) /* SoundTable */
-     , (8695,   6,   67108990) /* PaletteBase */
-     , (8695,   8,  100668143) /* Icon */
-     , (8695,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8695,   1, 0x020000D7) /* Setup */
+     , (8695,   3, 0x20000014) /* SoundTable */
+     , (8695,   6, 0x0400007E) /* PaletteBase */
+     , (8695,   8, 0x060012EF) /* Icon */
+     , (8695,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8695, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (8695, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8695, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8695, 8000, 3629880279) /* PCAPRecordedObjectIID */;
+VALUES (8695, 8000, 0xD85B93D7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8695, 67110375, 72, 8)

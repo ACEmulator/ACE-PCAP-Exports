@@ -39,14 +39,14 @@ VALUES (43022,   1, 'Core Plating Deintegrator') /* Name */
      , (43022,  16, 'This Aetherium core deintegrator reverses the Gear Plating process, magically restoring armor and clothing that has been forged into Gear Plating.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43022,   1,   33555677) /* Setup */
-     , (43022,   3,  536870932) /* SoundTable */
-     , (43022,   8,  100690665) /* Icon */
-     , (43022,  22,  872415275) /* PhysicsEffectTable */
-     , (43022,  50,  100691318) /* IconOverlay */
+VALUES (43022,   1, 0x020004DD) /* Setup */
+     , (43022,   3, 0x20000014) /* SoundTable */
+     , (43022,   8, 0x06006AE9) /* Icon */
+     , (43022,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43022,  50, 0x06006D76) /* IconOverlay */
      , (43022, 8001, 1076654104) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Priority, TargetType, Burden, IconOverlay */
      , (43022, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43022, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43022, 8000, 3618495994) /* PCAPRecordedObjectIID */;
+VALUES (43022, 8000, 0xD7ADDDFA) /* PCAPRecordedObjectIID */;

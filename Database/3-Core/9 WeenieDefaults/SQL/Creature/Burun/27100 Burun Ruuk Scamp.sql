@@ -23,22 +23,22 @@ VALUES (27100,   1, 'Burun Ruuk Scamp') /* Name */
      , (27100, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27100,   1,   33558582) /* Setup */
-     , (27100,   2,  150995272) /* MotionTable */
-     , (27100,   3,  536871083) /* SoundTable */
-     , (27100,   6,   67114919) /* PaletteBase */
-     , (27100,   8,  100675761) /* Icon */
-     , (27100,  22,  872415402) /* PhysicsEffectTable */
+VALUES (27100,   1, 0x02001036) /* Setup */
+     , (27100,   2, 0x09000148) /* MotionTable */
+     , (27100,   3, 0x200000AB) /* SoundTable */
+     , (27100,   6, 0x040017A7) /* PaletteBase */
+     , (27100,   8, 0x060030B1) /* Icon */
+     , (27100,  22, 0x340000AA) /* PhysicsEffectTable */
      , (27100, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (27100, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (27100, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27100, 8040, 3143827479, 50.63546, 145.6156, 20.905, -0.0795923, 0, 0, -0.996827) /* PCAPRecordedLocation */
+VALUES (27100, 8040, 0xBB630017, 50.63546, 145.6156, 20.905, -0.079592, 0, 0, -0.996827) /* PCAPRecordedLocation */
 /* @teleloc 0xBB630017 [50.635460 145.615600 20.905000] -0.079592 0.000000 0.000000 -0.996827 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27100, 8000, 2618391626) /* PCAPRecordedObjectIID */;
+VALUES (27100, 8000, 0x9C117C4A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27100,   1, 180, 0, 0) /* Strength */

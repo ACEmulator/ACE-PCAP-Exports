@@ -17,7 +17,8 @@ VALUES (7409,   1,      16384) /* ItemType - Key */
      , (7409, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7409,  22, True ) /* Inscribable */;
+VALUES (7409,  22, True ) /* Inscribable */
+     , (7409,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7409,   1, 'Ashen Key') /* Name */
@@ -25,13 +26,13 @@ VALUES (7409,   1, 'Ashen Key') /* Name */
      , (7409,  16, 'A key found in Aerfalle''s Keep, smudged with ash.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7409,   1,   33554784) /* Setup */
-     , (7409,   3,  536870932) /* SoundTable */
-     , (7409,   8,  100668441) /* Icon */
-     , (7409,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7409,   1, 0x02000160) /* Setup */
+     , (7409,   3, 0x20000014) /* SoundTable */
+     , (7409,   8, 0x06001419) /* Icon */
+     , (7409,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7409, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (7409, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7409, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7409, 8000, 3682607254) /* PCAPRecordedObjectIID */;
+VALUES (7409, 8000, 0xDB802096) /* PCAPRecordedObjectIID */;

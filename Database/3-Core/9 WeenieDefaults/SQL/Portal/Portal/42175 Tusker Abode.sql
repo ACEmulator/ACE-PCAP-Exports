@@ -25,16 +25,16 @@ VALUES (42175,   1, 'Tusker Abode') /* Name */
      , (42175, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42175,   1,   33554867) /* Setup */
-     , (42175,   2,  150994947) /* MotionTable */
-     , (42175,   8,  100667499) /* Icon */
+VALUES (42175,   1, 0x020001B3) /* Setup */
+     , (42175,   2, 0x09000003) /* MotionTable */
+     , (42175,   8, 0x0600106B) /* Icon */
      , (42175, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (42175, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (42175, 8005,      98435) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42175, 8040, 2315387171, 88.309, -48.327, -12.0504, -0.9238793, 0, 0, -0.3826841) /* PCAPRecordedLocation */
+VALUES (42175, 8040, 0x8A020123, 88.309, -48.327, -12.0504, -0.923879, 0, 0, -0.382684) /* PCAPRecordedLocation */
 /* @teleloc 0x8A020123 [88.309000 -48.327000 -12.050400] -0.923879 0.000000 0.000000 -0.382684 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42175, 8000, 2023759994) /* PCAPRecordedObjectIID */;
+VALUES (42175, 8000, 0x78A0207A) /* PCAPRecordedObjectIID */;

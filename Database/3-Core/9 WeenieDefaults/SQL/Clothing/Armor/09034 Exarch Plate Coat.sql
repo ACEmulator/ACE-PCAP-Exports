@@ -21,21 +21,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9034,   1, 'Exarch Plate Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9034,   1,   33554644) /* Setup */
-     , (9034,   3,  536870932) /* SoundTable */
-     , (9034,   6,   67108990) /* PaletteBase */
-     , (9034,   8,  100671344) /* Icon */
-     , (9034,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9034,   1, 0x020000D4) /* Setup */
+     , (9034,   3, 0x20000014) /* SoundTable */
+     , (9034,   6, 0x0400007E) /* PaletteBase */
+     , (9034,   8, 0x06001F70) /* Icon */
+     , (9034,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9034, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
      , (9034, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9034, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9034, 8040, 23855548, 53.50408, -32.65485, -0.004999995, -0.9933507, 0, 0, -0.1151274) /* PCAPRecordedLocation */
+VALUES (9034, 8040, 0x016C01BC, 53.50408, -32.65485, -0.005, -0.993351, 0, 0, -0.115127) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [53.504080 -32.654850 -0.005000] -0.993351 0.000000 0.000000 -0.115127 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9034, 8000, 2183190361) /* PCAPRecordedObjectIID */;
+VALUES (9034, 8000, 0x8220D759) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9034, 67113130, 96, 12)

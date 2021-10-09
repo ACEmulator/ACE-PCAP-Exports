@@ -24,13 +24,13 @@ VALUES (3572,   1, 'Scroll of War Magic Mastery Other VI') /* Name */
 Increases the target''s War Magic skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3572,   1,   33554826) /* Setup */
-     , (3572,   8,  100676479) /* Icon */
-     , (3572,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3572,   1, 0x0200018A) /* Setup */
+     , (3572,   8, 0x0600337F) /* Icon */
+     , (3572,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3572,  28,        640) /* Spell - WarMagicMasteryOther6 */
      , (3572, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3572, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3572, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3572, 8000, 3700272266) /* PCAPRecordedObjectIID */;
+VALUES (3572, 8000, 0xDC8DAC8A) /* PCAPRecordedObjectIID */;

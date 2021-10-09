@@ -35,21 +35,21 @@ VALUES (24594,   1, 'Aun Amanaualuan the Elder Shaman') /* Name */
      , (24594, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24594,   1,   33557175) /* Setup */
-     , (24594,   2,  150995136) /* MotionTable */
-     , (24594,   3,  536871030) /* SoundTable */
-     , (24594,   6,   67113280) /* PaletteBase */
-     , (24594,   8,  100671756) /* Icon */
+VALUES (24594,   1, 0x02000AB7) /* Setup */
+     , (24594,   2, 0x090000C0) /* MotionTable */
+     , (24594,   3, 0x20000076) /* SoundTable */
+     , (24594,   6, 0x04001140) /* PaletteBase */
+     , (24594,   8, 0x0600210C) /* Icon */
      , (24594, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (24594, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (24594, 8005,     100547) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24594, 8040, 722599961, 76.6057, 4.69455, 72.9381, 0.8648956, 0, 0, -0.5019518) /* PCAPRecordedLocation */
+VALUES (24594, 8040, 0x2B120019, 76.6057, 4.69455, 72.9381, 0.864896, 0, 0, -0.501952) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120019 [76.605700 4.694550 72.938100] 0.864896 0.000000 0.000000 -0.501952 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24594, 8000, 1924210707) /* PCAPRecordedObjectIID */;
+VALUES (24594, 8000, 0x72B12013) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24594,   1, 130, 0, 0) /* Strength */

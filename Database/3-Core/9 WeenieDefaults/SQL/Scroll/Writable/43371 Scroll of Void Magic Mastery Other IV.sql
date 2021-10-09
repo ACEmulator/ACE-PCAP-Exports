@@ -24,13 +24,13 @@ VALUES (43371,   1, 'Scroll of Void Magic Mastery Other IV') /* Name */
 Increases the target''s Void Magic skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43371,   1,   33554826) /* Setup */
-     , (43371,   8,  100691548) /* Icon */
-     , (43371,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43371,   1, 0x0200018A) /* Setup */
+     , (43371,   8, 0x06006E5C) /* Icon */
+     , (43371,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43371,  28,       5406) /* Spell - VoidMagicMasteryOther4 */
      , (43371, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43371, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43371, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43371, 8000, 2617882076) /* PCAPRecordedObjectIID */;
+VALUES (43371, 8000, 0x9C09B5DC) /* PCAPRecordedObjectIID */;

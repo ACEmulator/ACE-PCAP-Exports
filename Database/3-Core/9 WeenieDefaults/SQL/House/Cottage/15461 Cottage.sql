@@ -22,16 +22,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15461,   1, 'Cottage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15461,   1,   33557058) /* Setup */
-     , (15461,   8,  100671873) /* Icon */
+VALUES (15461,   1, 0x02000A42) /* Setup */
+     , (15461,   8, 0x06002181) /* Icon */
      , (15461,  30,        152) /* PhysicsScript - RestrictionEffectBlue */
      , (15461, 8001,  203423760) /* PCAPRecordedWeenieHeader - Usable, Burden, HouseRestrictions, PScript */
      , (15461, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (15461, 8005,     163969) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15461, 8040, 2158625049, 86.5592, 156.553, 93.9995, -0.9932693, 0, 0, -0.115828) /* PCAPRecordedLocation */
+VALUES (15461, 8040, 0x80AA0119, 86.5592, 156.553, 93.9995, -0.993269, 0, 0, -0.115828) /* PCAPRecordedLocation */
 /* @teleloc 0x80AA0119 [86.559200 156.553000 93.999500] -0.993269 0.000000 0.000000 -0.115828 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15461, 8000, 2013962660) /* PCAPRecordedObjectIID */;
+VALUES (15461, 8000, 0x780AA1A4) /* PCAPRecordedObjectIID */;

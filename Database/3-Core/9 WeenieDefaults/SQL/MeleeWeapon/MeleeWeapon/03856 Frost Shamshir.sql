@@ -50,18 +50,18 @@ VALUES (3856,   1, 'Frost Shamshir') /* Name */
      , (3856,  16, 'Frost Shamshir of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3856,   1,   33555774) /* Setup */
-     , (3856,   3,  536870932) /* SoundTable */
-     , (3856,   8,  100668984) /* Icon */
-     , (3856,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3856,   1, 0x0200053E) /* Setup */
+     , (3856,   3, 0x20000014) /* SoundTable */
+     , (3856,   8, 0x06001638) /* Icon */
+     , (3856,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3856,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3856, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3856, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3856, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3856, 8000, 3701004887) /* PCAPRecordedObjectIID */;
+VALUES (3856, 8000, 0xDC98DA57) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3856,  1599,      2)  /* DefenderSelf1 */
-     , (3856,  1612,      2)  /* BloodDrinkerSelf2 */;
+VALUES (3856,  1612,      2)  /* BloodDrinkerSelf2 */
+     , (3856,  1599,      2)  /* DefenderSelf1 */;

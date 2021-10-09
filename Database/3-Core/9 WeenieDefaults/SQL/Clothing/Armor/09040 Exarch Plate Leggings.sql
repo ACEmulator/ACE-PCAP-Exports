@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9040,   1, 'Exarch Plate Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9040,   1,   33554856) /* Setup */
-     , (9040,   3,  536870932) /* SoundTable */
-     , (9040,   6,   67108990) /* PaletteBase */
-     , (9040,   8,  100671356) /* Icon */
-     , (9040,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9040,   1, 0x020001A8) /* Setup */
+     , (9040,   3, 0x20000014) /* SoundTable */
+     , (9040,   6, 0x0400007E) /* PaletteBase */
+     , (9040,   8, 0x06001F7C) /* Icon */
+     , (9040,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9040, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (9040, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9040, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9040, 8000, 3689760672) /* PCAPRecordedObjectIID */;
+VALUES (9040, 8000, 0xDBED47A0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9040, 67113130, 136, 16)

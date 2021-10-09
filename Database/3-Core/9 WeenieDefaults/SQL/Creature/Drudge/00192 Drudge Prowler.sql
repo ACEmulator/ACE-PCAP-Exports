@@ -23,22 +23,22 @@ VALUES (192,   1, 'Drudge Prowler') /* Name */
      , (192, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (192,   1,   33556445) /* Setup */
-     , (192,   2,  150994952) /* MotionTable */
-     , (192,   3,  536870919) /* SoundTable */
-     , (192,   6,   67112812) /* PaletteBase */
-     , (192,   8,  100667445) /* Icon */
-     , (192,  22,  872415258) /* PhysicsEffectTable */
+VALUES (192,   1, 0x020007DD) /* Setup */
+     , (192,   2, 0x09000008) /* MotionTable */
+     , (192,   3, 0x20000007) /* SoundTable */
+     , (192,   6, 0x04000F6C) /* PaletteBase */
+     , (192,   8, 0x06001035) /* Icon */
+     , (192,  22, 0x3400001A) /* PhysicsEffectTable */
      , (192, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (192, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (192, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (192, 8040, 23527729, 27.8686, -70.558, 0.003499985, -0.7998153, 0, 0, -0.6002462) /* PCAPRecordedLocation */
+VALUES (192, 8040, 0x01670131, 27.8686, -70.558, 0.0035, -0.799815, 0, 0, -0.600246) /* PCAPRecordedLocation */
 /* @teleloc 0x01670131 [27.868600 -70.558000 0.003500] -0.799815 0.000000 0.000000 -0.600246 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (192, 8000, 3685473087) /* PCAPRecordedObjectIID */;
+VALUES (192, 8000, 0xDBABDB3F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (192,   1,  60, 0, 0) /* Strength */

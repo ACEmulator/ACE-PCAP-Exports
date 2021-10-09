@@ -41,23 +41,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30393,   1, 'Suzuhara''s Girth of Flame Protection') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30393,   1,   33554960) /* Setup */
-     , (30393,   3,  536870932) /* SoundTable */
-     , (30393,   6,   67108990) /* PaletteBase */
-     , (30393,   8,  100677357) /* Icon */
-     , (30393,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30393,   1, 0x02000210) /* Setup */
+     , (30393,   3, 0x20000014) /* SoundTable */
+     , (30393,   6, 0x0400007E) /* PaletteBase */
+     , (30393,   8, 0x060036ED) /* Icon */
+     , (30393,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30393, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (30393, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30393, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30393, 8000, 3318678528) /* PCAPRecordedObjectIID */;
+VALUES (30393, 8000, 0xC5CF0400) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30393,   248,      2)  /* InvulnerabilitySelf5 */
-     , (30393,   260,      2)  /* ImpregnabilitySelf5 */
-     , (30393,   278,      2)  /* MagicResistanceSelf5 */
+VALUES (30393,   260,      2)  /* ImpregnabilitySelf5 */
      , (30393,  1093,      2)  /* FireProtectionSelf5 */
+     , (30393,   278,      2)  /* MagicResistanceSelf5 */
+     , (30393,   248,      2)  /* InvulnerabilitySelf5 */
      , (30393,  2618,      2)  /* CANTRIPFLAMEWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

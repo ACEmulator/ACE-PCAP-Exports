@@ -25,13 +25,13 @@ VALUES (32206,   1, 'Pack Pumpkin Lord') /* Name */
      , (32206, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32206,   1,   33559753) /* Setup */
-     , (32206,   2,  150995144) /* MotionTable */
-     , (32206,   8,  100688456) /* Icon */
-     , (32206,  22,  872415326) /* PhysicsEffectTable */
+VALUES (32206,   1, 0x020014C9) /* Setup */
+     , (32206,   2, 0x090000C8) /* MotionTable */
+     , (32206,   8, 0x06006248) /* Icon */
+     , (32206,  22, 0x3400005E) /* PhysicsEffectTable */
      , (32206, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
      , (32206, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32206, 8005,      69763) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32206, 8000, 2554673546) /* PCAPRecordedObjectIID */;
+VALUES (32206, 8000, 0x9845398A) /* PCAPRecordedObjectIID */;

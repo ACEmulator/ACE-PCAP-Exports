@@ -17,7 +17,8 @@ VALUES (38992,   1,      16384) /* ItemType - Key */
      , (38992, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38992,  22, True ) /* Inscribable */;
+VALUES (38992,  22, True ) /* Inscribable */
+     , (38992,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38992,  39,       3) /* DefaultScale */;
@@ -27,13 +28,13 @@ VALUES (38992,   1, 'Grand Casino Key') /* Name */
      , (38992,  16, 'A large golden key that opens the Grand Casino Chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38992,   1,   33557005) /* Setup */
-     , (38992,   3,  536870932) /* SoundTable */
-     , (38992,   8,  100671519) /* Icon */
-     , (38992,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38992,   1, 0x02000A0D) /* Setup */
+     , (38992,   3, 0x20000014) /* SoundTable */
+     , (38992,   8, 0x0600201F) /* Icon */
+     , (38992,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38992, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (38992, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38992, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38992, 8000, 2781500820) /* PCAPRecordedObjectIID */;
+VALUES (38992, 8000, 0xA5CA5594) /* PCAPRecordedObjectIID */;

@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7301,   1, 'Acid Stream') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7301,   1,   33555469) /* Setup */
-     , (7301,   3,  536870969) /* SoundTable */
-     , (7301,   8,  100667494) /* Icon */
-     , (7301,  22,  872415354) /* PhysicsEffectTable */
+VALUES (7301,   1, 0x0200040D) /* Setup */
+     , (7301,   3, 0x20000039) /* SoundTable */
+     , (7301,   8, 0x06001066) /* Icon */
+     , (7301,  22, 0x3400007A) /* PhysicsEffectTable */
      , (7301,  28,         58) /* Spell - AcidStream1 */
      , (7301,  30,         90) /* PhysicsScript - ProjectileCollision */
      , (7301, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
@@ -35,14 +35,8 @@ VALUES (7301,   1,   33555469) /* Setup */
      , (7301, 8005,      64389) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7301, 8040, 10944770, 126.4199, -60.35337, -0.4839559, 0.7471739, 0, 0, -0.6646286) /* PCAPRecordedLocation */
+VALUES (7301, 8040, 0x00A70102, 126.4199, -60.35337, -0.483956, 0.747174, 0, 0, -0.664629) /* PCAPRecordedLocation */
 /* @teleloc 0x00A70102 [126.419900 -60.353370 -0.483956] 0.747174 0.000000 0.000000 -0.664629 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7301, 8000, 3680637963) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7301, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (7301, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (7301, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (7301, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;
+VALUES (7301, 8000, 0xDB62140B) /* PCAPRecordedObjectIID */;

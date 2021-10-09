@@ -24,16 +24,16 @@ VALUES (29485,   1, 'Viamontian Royal Prison') /* Name */
      , (29485, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29485,   1,   33555925) /* Setup */
-     , (29485,   2,  150994947) /* MotionTable */
-     , (29485,   8,  100667499) /* Icon */
+VALUES (29485,   1, 0x020005D5) /* Setup */
+     , (29485,   2, 0x09000003) /* MotionTable */
+     , (29485,   8, 0x0600106B) /* Icon */
      , (29485, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (29485, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (29485, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29485, 8040, 1274150940, 85, 85, 7.937, -0.7056242, 0, 0, -0.7085862) /* PCAPRecordedLocation */
+VALUES (29485, 8040, 0x4BF2001C, 85, 85, 7.937, -0.705624, 0, 0, -0.708586) /* PCAPRecordedLocation */
 /* @teleloc 0x4BF2001C [85.000000 85.000000 7.937000] -0.705624 0.000000 0.000000 -0.708586 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29485, 8000, 1958682624) /* PCAPRecordedObjectIID */;
+VALUES (29485, 8000, 0x74BF2000) /* PCAPRecordedObjectIID */;

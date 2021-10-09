@@ -22,17 +22,17 @@ VALUES (29898,   1, 'Small Bundle of Badlands Siraluun Feathers') /* Name */
      , (29898,  15, 'A small bundle of Badlands Siraluun Feathers.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29898,   1,   33554817) /* Setup */
-     , (29898,   3,  536870932) /* SoundTable */
-     , (29898,   6,   67111919) /* PaletteBase */
-     , (29898,   8,  100677292) /* Icon */
-     , (29898,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29898,   1, 0x02000181) /* Setup */
+     , (29898,   3, 0x20000014) /* SoundTable */
+     , (29898,   6, 0x04000BEF) /* PaletteBase */
+     , (29898,   8, 0x060036AC) /* Icon */
+     , (29898,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29898, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (29898, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29898, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29898, 8000, 2438496014) /* PCAPRecordedObjectIID */;
+VALUES (29898, 8000, 0x91587F0E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29898, 67111919, 0, 0);

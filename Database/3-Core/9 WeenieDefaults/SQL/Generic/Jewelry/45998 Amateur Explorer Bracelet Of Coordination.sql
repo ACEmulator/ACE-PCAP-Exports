@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45998,   1, 'Amateur Explorer Bracelet Of Coordination') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45998,   1,   33554683) /* Setup */
-     , (45998,   3,  536870932) /* SoundTable */
-     , (45998,   6,   67111919) /* PaletteBase */
-     , (45998,   8,  100675471) /* Icon */
-     , (45998,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45998,   1, 0x020000FB) /* Setup */
+     , (45998,   3, 0x20000014) /* SoundTable */
+     , (45998,   6, 0x04000BEF) /* PaletteBase */
+     , (45998,   8, 0x06002F8F) /* Icon */
+     , (45998,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45998, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (45998, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45998, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45998, 8000, 2575959061) /* PCAPRecordedObjectIID */;
+VALUES (45998, 8000, 0x998A0415) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45998, 67111919, 0, 0);

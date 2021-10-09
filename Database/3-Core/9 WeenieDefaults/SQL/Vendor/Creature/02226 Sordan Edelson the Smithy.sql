@@ -37,27 +37,27 @@ VALUES (2226,   1, 'Sordan Edelson the Smithy') /* Name */
      , (2226, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2226,   1,   33554433) /* Setup */
-     , (2226,   2,  150994945) /* MotionTable */
-     , (2226,   3,  536870913) /* SoundTable */
-     , (2226,   6,   67108990) /* PaletteBase */
-     , (2226,   8,  100667446) /* Icon */
-     , (2226,   9,   83890480) /* EyesTexture */
-     , (2226,  10,   83890518) /* NoseTexture */
-     , (2226,  11,   83890636) /* MouthTexture */
-     , (2226,  15,   67117070) /* HairPalette */
-     , (2226,  16,   67110062) /* EyesPalette */
-     , (2226,  17,   67109560) /* SkinPalette */
+VALUES (2226,   1, 0x02000001) /* Setup */
+     , (2226,   2, 0x09000001) /* MotionTable */
+     , (2226,   3, 0x20000001) /* SoundTable */
+     , (2226,   6, 0x0400007E) /* PaletteBase */
+     , (2226,   8, 0x06001036) /* Icon */
+     , (2226,   9, 0x05001130) /* EyesTexture */
+     , (2226,  10, 0x05001156) /* NoseTexture */
+     , (2226,  11, 0x050011CC) /* MouthTexture */
+     , (2226,  15, 0x0400200E) /* HairPalette */
+     , (2226,  16, 0x040004AE) /* EyesPalette */
+     , (2226,  17, 0x040002B8) /* SkinPalette */
      , (2226, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2226, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2226, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2226, 8040, 3665101105, 130.489, 88.0789, 18.005, -0.6887985, 0, 0, -0.7249528) /* PCAPRecordedLocation */
+VALUES (2226, 8040, 0xDA750131, 130.489, 88.0789, 18.005, -0.688799, 0, 0, -0.724953) /* PCAPRecordedLocation */
 /* @teleloc 0xDA750131 [130.489000 88.078900 18.005000] -0.688799 0.000000 0.000000 -0.724953 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2226, 8000, 2108117018) /* PCAPRecordedObjectIID */;
+VALUES (2226, 8000, 0x7DA7501A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2226,   1, 100, 0, 0) /* Strength */

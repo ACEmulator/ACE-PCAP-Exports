@@ -40,17 +40,17 @@ VALUES (28159,   1, 'Ruby Oculus') /* Name */
      , (28159,  16, 'A solidifed ruby gromnie eye.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28159,   1,   33554809) /* Setup */
-     , (28159,   3,  536870932) /* SoundTable */
-     , (28159,   6,   67108990) /* PaletteBase */
-     , (28159,   8,  100676741) /* Icon */
-     , (28159,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28159,   1, 0x02000179) /* Setup */
+     , (28159,   3, 0x20000014) /* SoundTable */
+     , (28159,   6, 0x0400007E) /* PaletteBase */
+     , (28159,   8, 0x06003485) /* Icon */
+     , (28159,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28159, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (28159, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28159, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28159, 8000, 2629459054) /* PCAPRecordedObjectIID */;
+VALUES (28159, 8000, 0x9CBA5C6E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28159,  1096,      2)  /* FireProtectionOther6 */

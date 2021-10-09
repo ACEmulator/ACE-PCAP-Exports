@@ -19,18 +19,18 @@ VALUES (806,   1, 'Food and Clothing') /* Name */
      , (806,  16, 'Food and Clothing') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (806,   1,   33555088) /* Setup */
-     , (806,   8,  100668115) /* Icon */
+VALUES (806,   1, 0x02000290) /* Setup */
+     , (806,   8, 0x060012D3) /* Icon */
      , (806, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (806, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (806, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (806, 8040, 3845259306, 135.72, 29.28, 28.08, -0.996709, 0, 0, 0.0810688) /* PCAPRecordedLocation */
+VALUES (806, 8040, 0xE532002A, 135.72, 29.28, 28.08, -0.996709, 0, 0, 0.081069) /* PCAPRecordedLocation */
 /* @teleloc 0xE532002A [135.720000 29.280000 28.080000] -0.996709 0.000000 0.000000 0.081069 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (806, 8000, 2119376910) /* PCAPRecordedObjectIID */;
+VALUES (806, 8000, 0x7E53200E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (806, 0, 83891055, 83889906);

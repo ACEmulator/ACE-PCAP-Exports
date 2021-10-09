@@ -17,7 +17,7 @@ VALUES (20097,   1,        256) /* ItemType - MissileWeapon */
      , (20097,  48,         47) /* WeaponSkill - MissileWeapons */
      , (20097,  49,         40) /* WeaponTime */
      , (20097,  50,          1) /* AmmoType - Arrow */
-     , (20097,  51,          2) /* CombatUse - Missle */
+     , (20097,  51,          2) /* CombatUse - Missile */
      , (20097,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20097, 106,        100) /* ItemSpellcraft */
      , (20097, 107,        598) /* ItemCurMana */
@@ -47,16 +47,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20097,   1, 'Superb Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20097,   1,   33557729) /* Setup */
-     , (20097,   3,  536870932) /* SoundTable */
-     , (20097,   8,  100673010) /* Icon */
-     , (20097,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20097,   1, 0x02000CE1) /* Setup */
+     , (20097,   3, 0x20000014) /* SoundTable */
+     , (20097,   8, 0x060025F2) /* Icon */
+     , (20097,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20097, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (20097, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20097, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20097, 8000, 2153229031) /* PCAPRecordedObjectIID */;
+VALUES (20097, 8000, 0x8057AAE7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20097,  2540,      2)  /* CANTRIPBOWAPTITUDE1 */;
+VALUES (20097,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */;

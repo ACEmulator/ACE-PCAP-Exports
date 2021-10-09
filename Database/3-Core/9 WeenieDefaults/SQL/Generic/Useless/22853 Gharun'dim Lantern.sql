@@ -19,13 +19,13 @@ VALUES (22853,   1, 'Gharun''dim Lantern') /* Name */
      , (22853,  14, 'This item can be used on floor and yard hooks.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22853,   1,   33556249) /* Setup */
-     , (22853,   3,  536870932) /* SoundTable */
-     , (22853,   8,  100673891) /* Icon */
-     , (22853,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22853,   1, 0x02000719) /* Setup */
+     , (22853,   3, 0x20000014) /* SoundTable */
+     , (22853,   8, 0x06002963) /* Icon */
+     , (22853,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22853, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (22853, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22853, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22853, 8000, 3658160304) /* PCAPRecordedObjectIID */;
+VALUES (22853, 8000, 0xDA0B18B0) /* PCAPRecordedObjectIID */;

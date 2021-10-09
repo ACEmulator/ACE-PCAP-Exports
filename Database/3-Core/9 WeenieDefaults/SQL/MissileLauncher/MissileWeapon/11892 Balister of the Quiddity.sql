@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11892,   1,        256) /* ItemType - MissileWeapon */
      , (11892,   5,        650) /* EncumbranceVal */
      , (11892,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (11892,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (11892,  16,          1) /* ItemUseable - No */
      , (11892,  19,       2000) /* Value */
      , (11892,  33,         -2) /* Bonded - Destroy */
@@ -16,7 +15,7 @@ VALUES (11892,   1,        256) /* ItemType - MissileWeapon */
      , (11892,  48,         47) /* WeaponSkill - MissileWeapons */
      , (11892,  49,        120) /* WeaponTime */
      , (11892,  50,          2) /* AmmoType - Bolt */
-     , (11892,  51,          2) /* CombatUse - Missle */
+     , (11892,  51,          2) /* CombatUse - Missile */
      , (11892,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (11892, 106,        400) /* ItemSpellcraft */
      , (11892, 107,       1000) /* ItemCurMana */
@@ -45,10 +44,10 @@ VALUES (11892,   1, 'Balister of the Quiddity') /* Name */
      , (11892,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11892,   1,   33557112) /* Setup */
-     , (11892,   3,  536870932) /* SoundTable */
-     , (11892,   8,  100671701) /* Icon */
-     , (11892,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11892,   1, 0x02000A78) /* Setup */
+     , (11892,   3, 0x20000014) /* SoundTable */
+     , (11892,   8, 0x060020D5) /* Icon */
+     , (11892,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11892,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (11892, 8001,    2327320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (11892, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -56,15 +55,15 @@ VALUES (11892,   1,   33557112) /* Setup */
      , (11892, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11892, 8040, 447873068, 133.7667, 84.07578, 21.931, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (11892, 8040, 0x1AB2002C, 133.7667, 84.07578, 21.931, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x1AB2002C [133.766700 84.075780 21.931000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11892, 8000, 3691227946) /* PCAPRecordedObjectIID */
-     , (11892, 8008, 3691227919) /* PCAPRecordedParentIID */;
+VALUES (11892, 8000, 0xDC03AB2A) /* PCAPRecordedObjectIID */
+     , (11892, 8008, 0xDC03AB0F) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11892,  1590,      2)  /* HeartSeekerSelf4 */
-     , (11892,  1603,      2)  /* DefenderSelf4 */
+VALUES (11892,  1603,      2)  /* DefenderSelf4 */
      , (11892,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (11892,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (11892,  1625,      2)  /* SwiftKillerSelf4 */
+     , (11892,  1590,      2)  /* HeartSeekerSelf4 */;

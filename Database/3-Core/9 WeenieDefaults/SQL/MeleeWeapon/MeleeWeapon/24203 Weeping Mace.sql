@@ -54,16 +54,16 @@ VALUES (24203,   1, 'Weeping Mace') /* Name */
      , (24203,  25, 'Callaway') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24203,   1,   33558295) /* Setup */
-     , (24203,   3,  536870932) /* SoundTable */
-     , (24203,   8,  100674269) /* Icon */
-     , (24203,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24203,   1, 0x02000F17) /* Setup */
+     , (24203,   3, 0x20000014) /* SoundTable */
+     , (24203,   8, 0x06002ADD) /* Icon */
+     , (24203,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24203, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24203, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24203, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24203, 8000, 3680676082) /* PCAPRecordedObjectIID */;
+VALUES (24203, 8000, 0xDB62A8F2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24203,  2694,      2)  /* ModerateSwordAptitude */;

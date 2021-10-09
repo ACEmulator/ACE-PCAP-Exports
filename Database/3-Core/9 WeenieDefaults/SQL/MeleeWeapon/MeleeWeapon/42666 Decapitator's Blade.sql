@@ -56,28 +56,28 @@ VALUES (42666,   1, 'Decapitator''s Blade') /* Name */
      , (42666,  16, 'A blade once wielded by the royal decapitator. It is said that this blade has seen the blood of more royals than any other sword in history, recorded or otherwise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42666,   1,   33561148) /* Setup */
-     , (42666,   3,  536870932) /* SoundTable */
-     , (42666,   6,   67111919) /* PaletteBase */
-     , (42666,   8,  100691765) /* Icon */
-     , (42666,  22,  872415275) /* PhysicsEffectTable */
-     , (42666,  52,  100686604) /* IconUnderlay */
+VALUES (42666,   1, 0x02001A3C) /* Setup */
+     , (42666,   3, 0x20000014) /* SoundTable */
+     , (42666,   6, 0x04000BEF) /* PaletteBase */
+     , (42666,   8, 0x06006F35) /* Icon */
+     , (42666,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42666,  52, 0x06005B0C) /* IconUnderlay */
      , (42666, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (42666, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (42666, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (42666, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42666, 8000, 3174455289) /* PCAPRecordedObjectIID */;
+VALUES (42666, 8000, 0xBD3657F9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42666,  4395,      2)  /* BloodDrinkerSelf8 */
+VALUES (42666,  4417,      2)  /* SwiftKillerSelf8 */
+     , (42666,  4675,      2)  /* CANTRIPFLAMEWARD3 */
+     , (42666,  5034,      2)  /* CANTRIPTWOHANDEDAPTITUDE3 */
+     , (42666,  4395,      2)  /* BloodDrinkerSelf8 */
      , (42666,  4400,      2)  /* DefenderSelf8 */
      , (42666,  4405,      2)  /* HeartSeekerSelf8 */
-     , (42666,  4417,      2)  /* SwiftKillerSelf8 */
-     , (42666,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (42666,  4675,      2)  /* CANTRIPFLAMEWARD3 */
-     , (42666,  5034,      2)  /* CANTRIPTWOHANDEDAPTITUDE3 */;
+     , (42666,  4661,      2)  /* CANTRIPBLOODTHIRST3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42666, 67111920, 0, 0);

@@ -25,13 +25,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9603,   1, 'Stave of the Quiddity') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9603,   1,   33557107) /* Setup */
-     , (9603,   3,  536870932) /* SoundTable */
-     , (9603,   8,  100671699) /* Icon */
-     , (9603,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9603,   1, 0x02000A73) /* Setup */
+     , (9603,   3, 0x20000014) /* SoundTable */
+     , (9603,   8, 0x060020D3) /* Icon */
+     , (9603,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9603, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (9603, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9603, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9603, 8000, 2996060918) /* PCAPRecordedObjectIID */;
+VALUES (9603, 8000, 0xB29442F6) /* PCAPRecordedObjectIID */;

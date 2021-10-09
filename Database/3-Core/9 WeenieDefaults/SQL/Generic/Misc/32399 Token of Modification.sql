@@ -14,20 +14,21 @@ VALUES (32399,   1,        128) /* ItemType - Misc */
      , (32399, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32399,  22, True ) /* Inscribable */;
+VALUES (32399,  22, True ) /* Inscribable */
+     , (32399,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32399,   1, 'Token of Modification') /* Name */
      , (32399,  16, 'This token has three words etched onto it - "Enlightenment", "Forgetfulness", and "Alteration". It was obtained from a statue called a Servant, who instructed you to give it to the Warden you felt best in order to obtain one of the Gems of Enlightenment, Forgetfulness, or Alteration.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32399,   1,   33558119) /* Setup */
-     , (32399,   3,  536870932) /* SoundTable */
-     , (32399,   8,  100688519) /* Icon */
-     , (32399,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32399,   1, 0x02000E67) /* Setup */
+     , (32399,   3, 0x20000014) /* SoundTable */
+     , (32399,   8, 0x06006287) /* Icon */
+     , (32399,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32399, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (32399, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32399, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32399, 8000, 2930064029) /* PCAPRecordedObjectIID */;
+VALUES (32399, 8000, 0xAEA53A9D) /* PCAPRecordedObjectIID */;

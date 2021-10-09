@@ -29,21 +29,21 @@ VALUES (11406,   1, 'Aun Firanauri the Gate Keeper') /* Name */
      , (11406, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11406,   1,   33557175) /* Setup */
-     , (11406,   2,  150995136) /* MotionTable */
-     , (11406,   3,  536871030) /* SoundTable */
-     , (11406,   6,   67113280) /* PaletteBase */
-     , (11406,   8,  100671756) /* Icon */
+VALUES (11406,   1, 0x02000AB7) /* Setup */
+     , (11406,   2, 0x090000C0) /* MotionTable */
+     , (11406,   3, 0x20000076) /* SoundTable */
+     , (11406,   6, 0x04001140) /* PaletteBase */
+     , (11406,   8, 0x0600210C) /* Icon */
      , (11406, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (11406, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (11406, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11406, 8040, 498466846, 76.6208, 134.649, 90.006, -0.659517, 0, 0, -0.75169) /* PCAPRecordedLocation */
+VALUES (11406, 8040, 0x1DB6001E, 76.6208, 134.649, 90.006, -0.659517, 0, 0, -0.75169) /* PCAPRecordedLocation */
 /* @teleloc 0x1DB6001E [76.620800 134.649000 90.006000] -0.659517 0.000000 0.000000 -0.751690 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11406, 8000, 3691191611) /* PCAPRecordedObjectIID */;
+VALUES (11406, 8000, 0xDC031D3B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11406,   1, 100, 0, 0) /* Strength */

@@ -26,15 +26,11 @@ VALUES (2434,   1, 'Lesser Mana Stone') /* Name */
      , (2434,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2434,   1,   33555639) /* Setup */
-     , (2434,   8,  100676303) /* Icon */
+VALUES (2434,   1, 0x020004B7) /* Setup */
+     , (2434,   8, 0x060032CF) /* Icon */
      , (2434, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
      , (2434, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2434, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2434, 8000, 3687018274) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2434, 2, 47996,  1, 0, 0, False) /* Create Lightning Katar (47996) for Wield */
-     , (2434, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */;
+VALUES (2434, 8000, 0xDBC36F22) /* PCAPRecordedObjectIID */;

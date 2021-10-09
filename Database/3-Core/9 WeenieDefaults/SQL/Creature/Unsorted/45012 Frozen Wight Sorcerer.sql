@@ -23,22 +23,22 @@ VALUES (45012,   1, 'Frozen Wight Sorcerer') /* Name */
      , (45012, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45012,   1,   33561142) /* Setup */
-     , (45012,   2,  150994967) /* MotionTable */
-     , (45012,   3,  536870934) /* SoundTable */
-     , (45012,   6,   67110722) /* PaletteBase */
-     , (45012,   8,  100667942) /* Icon */
-     , (45012,  22,  872415272) /* PhysicsEffectTable */
+VALUES (45012,   1, 0x02001A36) /* Setup */
+     , (45012,   2, 0x09000017) /* MotionTable */
+     , (45012,   3, 0x20000016) /* SoundTable */
+     , (45012,   6, 0x04000742) /* PaletteBase */
+     , (45012,   8, 0x06001226) /* Icon */
+     , (45012,  22, 0x34000028) /* PhysicsEffectTable */
      , (45012, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (45012, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (45012, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45012, 8040, 2332295720, 124.681, -57.6429, -35.99175, -0.6763679, 0, 0, 0.7365639) /* PCAPRecordedLocation */
+VALUES (45012, 8040, 0x8B040228, 124.681, -57.6429, -35.99175, -0.676368, 0, 0, 0.736564) /* PCAPRecordedLocation */
 /* @teleloc 0x8B040228 [124.681000 -57.642900 -35.991750] -0.676368 0.000000 0.000000 0.736564 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45012, 8000, 3701370742) /* PCAPRecordedObjectIID */;
+VALUES (45012, 8000, 0xDC9E6F76) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45012, 67113362, 0, 0);

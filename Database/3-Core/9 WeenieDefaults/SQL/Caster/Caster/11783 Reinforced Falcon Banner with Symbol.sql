@@ -9,6 +9,7 @@ VALUES (11783,   1,      32768) /* ItemType - Caster */
      , (11783,   9,   16777216) /* ValidLocations - Held */
      , (11783,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (11783,  18,          1) /* UiEffects - Magical */
+     , (11783,  46,        512) /* DefaultCombatStyle - Magic */
      , (11783,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11783,  94,         16) /* TargetType - Creature */
      , (11783, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -20,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11783,   1, 'Reinforced Falcon Banner with Symbol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11783,   1,   33557258) /* Setup */
-     , (11783,   8,  100671936) /* Icon */
-     , (11783,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11783,   1, 0x02000B0A) /* Setup */
+     , (11783,   8, 0x060021C0) /* Icon */
+     , (11783,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11783, 8001,    2703504) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, TargetType, Burden */
      , (11783, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11783, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11783, 8000, 3671768757) /* PCAPRecordedObjectIID */;
+VALUES (11783, 8000, 0xDADABEB5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11783, 0, 83893725, 83893724)

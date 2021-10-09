@@ -23,6 +23,7 @@ VALUES (38044,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38044,  22, True ) /* Inscribable */
+     , (38044,  23, True ) /* DestroyOnSell */
      , (38044,  69, False) /* IsSellable */
      , (38044,  99, True ) /* Ivoryable */;
 
@@ -42,22 +43,22 @@ VALUES (38044,   1, 'Green Mire Yoroi Cuirass') /* Name */
      , (38044,  16, 'An ancient Yoroi Cuirass retrieved from the Green Mire Grave, recently repaired and upgraded by Hiro Ishigame.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38044,   1,   33554854) /* Setup */
-     , (38044,   3,  536870932) /* SoundTable */
-     , (38044,   6,   67108990) /* PaletteBase */
-     , (38044,   8,  100671319) /* Icon */
-     , (38044,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38044,   1, 0x020001A6) /* Setup */
+     , (38044,   3, 0x20000014) /* SoundTable */
+     , (38044,   6, 0x0400007E) /* PaletteBase */
+     , (38044,   8, 0x06001F57) /* Icon */
+     , (38044,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38044, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (38044, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38044, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38044, 8000, 3009732605) /* PCAPRecordedObjectIID */;
+VALUES (38044, 8000, 0xB364DFFD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38044,   511,      2)  /* AcidProtectionOther3 */
+VALUES (38044,  1483,      2)  /* Impenetrability3 */
      , (38044,  1357,      2)  /* EnduranceOther3 */
-     , (38044,  1483,      2)  /* Impenetrability3 */;
+     , (38044,   511,      2)  /* AcidProtectionOther3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38044, 67109975, 80, 12)

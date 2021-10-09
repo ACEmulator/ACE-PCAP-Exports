@@ -45,17 +45,17 @@ VALUES (22165,   1, 'Lightning Quarter Staff') /* Name */
      , (22165,  16, 'Lightning Quarter Staff') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22165,   1,   33558068) /* Setup */
-     , (22165,   3,  536870932) /* SoundTable */
-     , (22165,   6,   67111919) /* PaletteBase */
-     , (22165,   8,  100673599) /* Icon */
-     , (22165,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22165,   1, 0x02000E34) /* Setup */
+     , (22165,   3, 0x20000014) /* SoundTable */
+     , (22165,   6, 0x04000BEF) /* PaletteBase */
+     , (22165,   8, 0x0600283F) /* Icon */
+     , (22165,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22165, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (22165, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22165, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22165, 8000, 3690983181) /* PCAPRecordedObjectIID */;
+VALUES (22165, 8000, 0xDBFFEF0D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22165, 67111925, 0, 0);

@@ -36,27 +36,27 @@ VALUES (11391,   1, 'Misha the Jeweler') /* Name */
      , (11391, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11391,   1,   33554510) /* Setup */
-     , (11391,   2,  150994945) /* MotionTable */
-     , (11391,   3,  536870914) /* SoundTable */
-     , (11391,   6,   67108990) /* PaletteBase */
-     , (11391,   8,  100667446) /* Icon */
-     , (11391,   9,   83890263) /* EyesTexture */
-     , (11391,  10,   83890311) /* NoseTexture */
-     , (11391,  11,   83890358) /* MouthTexture */
-     , (11391,  15,   67117075) /* HairPalette */
-     , (11391,  16,   67110064) /* EyesPalette */
-     , (11391,  17,   67109559) /* SkinPalette */
+VALUES (11391,   1, 0x0200004E) /* Setup */
+     , (11391,   2, 0x09000001) /* MotionTable */
+     , (11391,   3, 0x20000002) /* SoundTable */
+     , (11391,   6, 0x0400007E) /* PaletteBase */
+     , (11391,   8, 0x06001036) /* Icon */
+     , (11391,   9, 0x05001057) /* EyesTexture */
+     , (11391,  10, 0x05001087) /* NoseTexture */
+     , (11391,  11, 0x050010B6) /* MouthTexture */
+     , (11391,  15, 0x04002013) /* HairPalette */
+     , (11391,  16, 0x040004B0) /* EyesPalette */
+     , (11391,  17, 0x040002B7) /* SkinPalette */
      , (11391, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (11391, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (11391, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11391, 8040, 733282577, 180.097, 12.1678, 89.1619, -0.9990543, 0, 0, -0.04347947) /* PCAPRecordedLocation */
+VALUES (11391, 8040, 0x2BB50111, 180.097, 12.1678, 89.1619, -0.999054, 0, 0, -0.043479) /* PCAPRecordedLocation */
 /* @teleloc 0x2BB50111 [180.097000 12.167800 89.161900] -0.999054 0.000000 0.000000 -0.043479 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11391, 8000, 1924878342) /* PCAPRecordedObjectIID */;
+VALUES (11391, 8000, 0x72BB5006) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (11391,   1,     0, 0, 0, 105) /* MaxHealth */;

@@ -27,17 +27,17 @@ VALUES (7977,   1, 'Vial of Hennacin Dye') /* Name */
      , (7977,  20, 'Vials of Hennacin Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7977,   1,   33556751) /* Setup */
-     , (7977,   3,  536870932) /* SoundTable */
-     , (7977,   6,   67111919) /* PaletteBase */
-     , (7977,   8,  100672340) /* Icon */
-     , (7977,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7977,   1, 0x0200090F) /* Setup */
+     , (7977,   3, 0x20000014) /* SoundTable */
+     , (7977,   6, 0x04000BEF) /* PaletteBase */
+     , (7977,   8, 0x06002354) /* Icon */
+     , (7977,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7977, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (7977, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7977, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7977, 8000, 3318692599) /* PCAPRecordedObjectIID */;
+VALUES (7977, 8000, 0xC5CF3AF7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7977, 67111920, 0, 0);

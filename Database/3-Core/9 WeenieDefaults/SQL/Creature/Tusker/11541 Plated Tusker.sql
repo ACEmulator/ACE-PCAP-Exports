@@ -25,22 +25,22 @@ VALUES (11541,   1, 'Plated Tusker') /* Name */
      , (11541, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11541,   1,   33556836) /* Setup */
-     , (11541,   2,  150994956) /* MotionTable */
-     , (11541,   3,  536870929) /* SoundTable */
-     , (11541,   6,   67113007) /* PaletteBase */
-     , (11541,   8,  100667443) /* Icon */
-     , (11541,  22,  872415271) /* PhysicsEffectTable */
+VALUES (11541,   1, 0x02000964) /* Setup */
+     , (11541,   2, 0x0900000C) /* MotionTable */
+     , (11541,   3, 0x20000011) /* SoundTable */
+     , (11541,   6, 0x0400102F) /* PaletteBase */
+     , (11541,   8, 0x06001033) /* Icon */
+     , (11541,  22, 0x34000027) /* PhysicsEffectTable */
      , (11541, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (11541, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (11541, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11541, 8040, 2279145510, 115.9002, 126.3285, 115.5621, -0.8561304, 0, 0, -0.5167598) /* PCAPRecordedLocation */
+VALUES (11541, 8040, 0x87D90026, 115.9002, 126.3285, 115.5621, -0.85613, 0, 0, -0.51676) /* PCAPRecordedLocation */
 /* @teleloc 0x87D90026 [115.900200 126.328500 115.562100] -0.856130 0.000000 0.000000 -0.516760 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11541, 8000, 3685945884) /* PCAPRecordedObjectIID */;
+VALUES (11541, 8000, 0xDBB3121C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11541,   1, 230, 0, 0) /* Strength */
@@ -367,7 +367,19 @@ VALUES (11541, 9, 45404,  0, 0, 0, False) /* Create Shadow Blade of Flame (45404
      , (11541, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
      , (11541, 9,  3012,  0, 0, 0, False) /* Create Scroll of Bludgeon Protection Self VI (3012) for ContainTreasure */
      , (11541, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (11541, 9, 20579,  0, 0, 0, False) /* Create Scroll of Saladur's Boon (20579) for ContainTreasure */;
+     , (11541, 9, 20579,  0, 0, 0, False) /* Create Scroll of Saladur's Boon (20579) for ContainTreasure */
+     , (11541, 9, 49381,  0, 0, 0, False) /* Create Fire Grievver Essence (80) (49381) for ContainTreasure */
+     , (11541, 9,  2841,  0, 0, 0, False) /* Create Scroll of Hermetic Void VI (2841) for ContainTreasure */
+     , (11541, 9,    82,  0, 0, 0, False) /* Create Platemail Leggings (82) for ContainTreasure */
+     , (11541, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */
+     , (11541, 9, 20573,  0, 0, 0, False) /* Create Scroll of Introversion (20573) for ContainTreasure */
+     , (11541, 9,   342,  0, 0, 0, False) /* Create Shou-ono (342) for ContainTreasure */
+     , (11541, 9, 20613,  0, 0, 0, False) /* Create Scroll of Energize Vigor (20613) for ContainTreasure */
+     , (11541, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (11541, 9, 45417,  0, 0, 0, False) /* Create Acid Knife (45417) for ContainTreasure */
+     , (11541, 9,  2406,  1, 0, 0, False) /* Create Gem (2406) for ContainTreasure */
+     , (11541, 9, 43375,  0, 0, 0, False) /* Create Scroll of Void Magic Mastery Other VII (43375) for ContainTreasure */
+     , (11541, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11541, 67113009, 0, 0);

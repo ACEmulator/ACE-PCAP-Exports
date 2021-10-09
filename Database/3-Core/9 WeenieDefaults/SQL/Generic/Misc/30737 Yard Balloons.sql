@@ -21,11 +21,11 @@ VALUES (30737,   1, 'Yard Balloons') /* Name */
      , (30737,  16, 'Colorful balloons, perfect for celebrating a new year or any festive occasion.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30737,   1,   33559223) /* Setup */
-     , (30737,   8,  100677404) /* Icon */
+VALUES (30737,   1, 0x020012B7) /* Setup */
+     , (30737,   8, 0x0600371C) /* Icon */
      , (30737, 8001,  270549000) /* PCAPRecordedWeenieHeader - Value, Container, Burden, HookType */
      , (30737, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30737, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30737, 8000, 2981037249) /* PCAPRecordedObjectIID */;
+VALUES (30737, 8000, 0xB1AF04C1) /* PCAPRecordedObjectIID */;

@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14443,   1, 'Dame Tsaya''s Letter to Sir Rylanan') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14443,   1,   33554773) /* Setup */
-     , (14443,   3,  536870932) /* SoundTable */
-     , (14443,   8,  100672451) /* Icon */
-     , (14443,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14443,   1, 0x02000155) /* Setup */
+     , (14443,   3, 0x20000014) /* SoundTable */
+     , (14443,   8, 0x060023C3) /* Icon */
+     , (14443,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14443, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (14443, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (14443, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14443, 8000, 3706321310) /* PCAPRecordedObjectIID */;
+VALUES (14443, 8000, 0xDCE9F99E) /* PCAPRecordedObjectIID */;

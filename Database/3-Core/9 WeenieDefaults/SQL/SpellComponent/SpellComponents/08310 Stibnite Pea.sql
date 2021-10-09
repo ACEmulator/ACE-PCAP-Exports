@@ -24,17 +24,17 @@ VALUES (8310,   1, 'Stibnite Pea') /* Name */
      , (8310,  16, 'A concentrated stibnite pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8310,   1,   33555209) /* Setup */
-     , (8310,   3,  536870932) /* SoundTable */
-     , (8310,   6,   67111919) /* PaletteBase */
-     , (8310,   8,  100671038) /* Icon */
-     , (8310,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8310,   1, 0x02000309) /* Setup */
+     , (8310,   3, 0x20000014) /* SoundTable */
+     , (8310,   6, 0x04000BEF) /* PaletteBase */
+     , (8310,   8, 0x06001E3E) /* Icon */
+     , (8310,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8310, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8310, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8310, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8310, 8000, 2258805353) /* PCAPRecordedObjectIID */;
+VALUES (8310, 8000, 0x86A2A269) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8310, 67111921, 0, 0);

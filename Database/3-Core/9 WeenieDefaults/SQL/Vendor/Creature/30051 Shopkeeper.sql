@@ -36,27 +36,27 @@ VALUES (30051,   1, 'Shopkeeper') /* Name */
      , (30051, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30051,   1,   33554510) /* Setup */
-     , (30051,   2,  150994945) /* MotionTable */
-     , (30051,   3,  536870914) /* SoundTable */
-     , (30051,   6,   67108990) /* PaletteBase */
-     , (30051,   8,  100667446) /* Icon */
-     , (30051,   9,   83890276) /* EyesTexture */
-     , (30051,  10,   83890302) /* NoseTexture */
-     , (30051,  11,   83890336) /* MouthTexture */
-     , (30051,  15,   67117095) /* HairPalette */
-     , (30051,  16,   67110065) /* EyesPalette */
-     , (30051,  17,   67115902) /* SkinPalette */
+VALUES (30051,   1, 0x0200004E) /* Setup */
+     , (30051,   2, 0x09000001) /* MotionTable */
+     , (30051,   3, 0x20000002) /* SoundTable */
+     , (30051,   6, 0x0400007E) /* PaletteBase */
+     , (30051,   8, 0x06001036) /* Icon */
+     , (30051,   9, 0x05001064) /* EyesTexture */
+     , (30051,  10, 0x0500107E) /* NoseTexture */
+     , (30051,  11, 0x050010A0) /* MouthTexture */
+     , (30051,  15, 0x04002027) /* HairPalette */
+     , (30051,  16, 0x040004B1) /* EyesPalette */
+     , (30051,  17, 0x04001B7E) /* SkinPalette */
      , (30051, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (30051, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (30051, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30051, 8040, 601489673, 102.511, 91.1132, 2.005, 0.1751212, 0, 0, -0.9845469) /* PCAPRecordedLocation */
+VALUES (30051, 8040, 0x23DA0109, 102.511, 91.1132, 2.005, 0.175121, 0, 0, -0.984547) /* PCAPRecordedLocation */
 /* @teleloc 0x23DA0109 [102.511000 91.113200 2.005000] 0.175121 0.000000 0.000000 -0.984547 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30051, 8000, 1916641282) /* PCAPRecordedObjectIID */;
+VALUES (30051, 8000, 0x723DA002) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30051,   1,  40, 0, 0) /* Strength */
@@ -121,6 +121,8 @@ VALUES (30051, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30051, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (30051, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (30051, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (30051, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (30051, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (30051, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (30051, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (30051, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

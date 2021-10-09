@@ -26,26 +26,26 @@ VALUES (46283,   1, 'Pragmatic Guide to Atlan Weapons') /* Name */
      , (46283,  15, 'A book written by the Explorer Society.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46283,   1,   33554771) /* Setup */
-     , (46283,   3,  536870932) /* SoundTable */
-     , (46283,   8,  100668117) /* Icon */
-     , (46283,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46283,   1, 0x02000153) /* Setup */
+     , (46283,   3, 0x20000014) /* SoundTable */
+     , (46283,   8, 0x060012D5) /* Icon */
+     , (46283,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46283, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (46283, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (46283, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46283, 8000, 2147656133) /* PCAPRecordedObjectIID */;
+VALUES (46283, 8000, 0x8002A1C5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (46283, 4, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (46283, 0, 4294967295, 'Explorer Scribe', 'Password is cheese', False, 'Atlan Weapons
+VALUES (46283, 0, 4294967295, 'Explorer Scribe', 'prewritten', False, 'Atlan Weapons
 
 Atlan weapons have become sought after once again. These ancient weapons grant great power to those who wield them, but in order to wield them, one must first construct them.
 ')
-     , (46283, 1, 4294967295, 'Explorer Scribe', 'Password is cheese', False, 'Step One:
+     , (46283, 1, 4294967295, 'Explorer Scribe', 'prewritten', False, 'Step One:
 
 Many pyreal motes, found on the golems of Dereth, will be required to continue on the journey towards and Atlan weapon.
 
@@ -54,7 +54,7 @@ Two Pyreal Slivers creates a Pyreal Nugget.
 Two Pyreal Nuggets create a Pyreal Bar.
 And two Pyreal Bars are needed to create a Quality Pyreal Ingot. Make sure to seek out an alchemist before attempting this final step for proper results.
 ')
-     , (46283, 2, 4294967295, 'Explorer Scribe', 'Password is cheese', False, 'Step Two:
+     , (46283, 2, 4294967295, 'Explorer Scribe', 'prewritten', False, 'Step Two:
 
 Venture to Crater Lake Village and seek out Silencia the Archmage. She has glyphs for sale that will be needed in this next step.
 
@@ -64,7 +64,7 @@ Those who possess enough knowledge in their preferred form of combat will be abl
 
 Give the Infused Ingot to the Magma Golem (fear not, he is a controlled beast) and you shall be rewarded with an Atlan Weapon
 ')
-     , (46283, 3, 4294967295, 'Explorer Scribe', 'Password is cheese', False, 'Improving Your Weapon:
+     , (46283, 3, 4294967295, 'Explorer Scribe', 'prewritten', False, 'Improving Your Weapon:
 
 Now that you have obtained an Atlan Weapon you will likely wish to improve its power.
 

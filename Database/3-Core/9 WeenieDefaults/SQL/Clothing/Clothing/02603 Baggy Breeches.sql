@@ -44,17 +44,17 @@ VALUES (2603,   1, 'Baggy Breeches') /* Name */
      , (2603,  16, 'Baggy Breeches of Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2603,   1,   33554960) /* Setup */
-     , (2603,   3,  536870932) /* SoundTable */
-     , (2603,   6,   67108990) /* PaletteBase */
-     , (2603,   8,  100667370) /* Icon */
-     , (2603,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2603,   1, 0x02000210) /* Setup */
+     , (2603,   3, 0x20000014) /* SoundTable */
+     , (2603,   6, 0x0400007E) /* PaletteBase */
+     , (2603,   8, 0x06000FEA) /* Icon */
+     , (2603,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2603, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (2603, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2603, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2603, 8000, 3690337032) /* PCAPRecordedObjectIID */;
+VALUES (2603, 8000, 0xDBF61308) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2603,  1311,      2)  /* ArmorSelf5 */;

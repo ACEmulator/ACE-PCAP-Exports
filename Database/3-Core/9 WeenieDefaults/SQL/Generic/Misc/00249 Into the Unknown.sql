@@ -20,13 +20,13 @@ VALUES (249,   1, 'Into the Unknown') /* Name */
      , (249,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (249,   1,   33557343) /* Setup */
-     , (249,   3,  536870932) /* SoundTable */
-     , (249,   8,  100672345) /* Icon */
-     , (249,  22,  872415275) /* PhysicsEffectTable */
+VALUES (249,   1, 0x02000B5F) /* Setup */
+     , (249,   3, 0x20000014) /* SoundTable */
+     , (249,   8, 0x06002359) /* Icon */
+     , (249,  22, 0x3400002B) /* PhysicsEffectTable */
      , (249, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (249, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (249, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (249, 8000, 3658160298) /* PCAPRecordedObjectIID */;
+VALUES (249, 8000, 0xDA0B18AA) /* PCAPRecordedObjectIID */;

@@ -51,27 +51,27 @@ VALUES (38472,   1, 'Eldrytch Web Breastplate') /* Name */
      , (38472,  16, 'Eldrytch Web Breastplate of Regeneration') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38472,   1,   33554642) /* Setup */
-     , (38472,   3,  536870932) /* SoundTable */
-     , (38472,   8,  100690245) /* Icon */
-     , (38472,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38472,   1, 0x020000D2) /* Setup */
+     , (38472,   3, 0x20000014) /* SoundTable */
+     , (38472,   8, 0x06006945) /* Icon */
+     , (38472,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38472,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (38472, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38472, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38472, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38472, 8040, 2847146009, 92.15648, 14.13029, 93.995, 0.550114, 0, 0, -0.8350896) /* PCAPRecordedLocation */
+VALUES (38472, 8040, 0xA9B40019, 92.15648, 14.13029, 93.995, 0.550114, 0, 0, -0.83509) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [92.156480 14.130290 93.995000] 0.550114 0.000000 0.000000 -0.835090 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38472, 8000, 2167108010) /* PCAPRecordedObjectIID */;
+VALUES (38472, 8000, 0x812B71AA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38472,  2108,      2)  /* Impenetrability7 */
-     , (38472,  4409,      2)  /* LightningBane8 */
+VALUES (38472,  6081,      2)  /* CantripBludgeoningWard4 */
      , (38472,  4496,      2)  /* RegenerationSelf8 */
-     , (38472,  6081,      2)  /* CantripBludgeoningWard4 */;
+     , (38472,  4409,      2)  /* LightningBane8 */
+     , (38472,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (38472, 0, 16794160);

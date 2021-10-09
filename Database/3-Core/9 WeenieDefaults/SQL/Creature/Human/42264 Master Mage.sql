@@ -14,7 +14,7 @@ VALUES (42264,   1,         16) /* ItemType - Creature */
      , (42264, 113,          2) /* Gender - Female */
      , (42264, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (42264, 188,          4) /* HeritageGroup - Viamontian */
-     , (42264, 281,          2) /* Faction1Bits */
+     , (42264, 281,          2) /* Faction1Bits - EldrytchWeb */
      , (42264, 288,       1001) /* SocietyRankEldweb */
      , (42264, 307,          5) /* DamageRating */
      , (42264, 8007,          0) /* PCAPRecordedAutonomousMovement */;
@@ -27,27 +27,27 @@ VALUES (42264,   1, 'Master Mage') /* Name */
      , (42264, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42264,   1,   33554510) /* Setup */
-     , (42264,   2,  150994945) /* MotionTable */
-     , (42264,   3,  536870914) /* SoundTable */
-     , (42264,   8,  100667446) /* Icon */
-     , (42264,   9,   83890284) /* EyesTexture */
-     , (42264,  10,   83890304) /* NoseTexture */
-     , (42264,  11,   83890357) /* MouthTexture */
-     , (42264,  15,   67117027) /* HairPalette */
-     , (42264,  16,   67110065) /* EyesPalette */
-     , (42264,  17,   67115904) /* SkinPalette */
-     , (42264,  22,  872415236) /* PhysicsEffectTable */
+VALUES (42264,   1, 0x0200004E) /* Setup */
+     , (42264,   2, 0x09000001) /* MotionTable */
+     , (42264,   3, 0x20000002) /* SoundTable */
+     , (42264,   8, 0x06001036) /* Icon */
+     , (42264,   9, 0x0500106C) /* EyesTexture */
+     , (42264,  10, 0x05001080) /* NoseTexture */
+     , (42264,  11, 0x050010B5) /* MouthTexture */
+     , (42264,  15, 0x04001FE3) /* HairPalette */
+     , (42264,  16, 0x040004B1) /* EyesPalette */
+     , (42264,  17, 0x04001B80) /* SkinPalette */
+     , (42264,  22, 0x34000004) /* PhysicsEffectTable */
      , (42264, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (42264, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42264, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42264, 8040, 2315452941, 223.0268, -349.9904, 0.004999995, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42264, 8040, 0x8A03020D, 223.0268, -349.9904, 0.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x8A03020D [223.026800 -349.990400 0.005000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42264, 8000, 3690222988) /* PCAPRecordedObjectIID */;
+VALUES (42264, 8000, 0xDBF4558C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42264,   1, 270, 0, 0) /* Strength */

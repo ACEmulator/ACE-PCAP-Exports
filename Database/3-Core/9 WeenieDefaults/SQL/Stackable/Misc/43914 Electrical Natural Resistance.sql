@@ -21,18 +21,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43914,   1, 'Electrical Natural Resistance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43914,   1,   33556750) /* Setup */
-     , (43914,   3,  536870932) /* SoundTable */
-     , (43914,   6,   67111919) /* PaletteBase */
-     , (43914,   8,  100691807) /* Icon */
-     , (43914,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43914,   1, 0x0200090E) /* Setup */
+     , (43914,   3, 0x20000014) /* SoundTable */
+     , (43914,   6, 0x04000BEF) /* PaletteBase */
+     , (43914,   8, 0x06006F5F) /* Icon */
+     , (43914,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43914, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (43914, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43914, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (43914, 8044,       8644) /* PCAPPhysicsDIDDataTemplatedFrom - Lapyan Plant */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43914, 8000,      43914) /* PCAPRecordedObjectIID */;
+VALUES (43914, 8000, 0x0000AB8A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43914, 67111926, 0, 0);

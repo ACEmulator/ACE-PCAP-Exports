@@ -21,16 +21,16 @@ VALUES (12128,   1, 'White Rabbit Carcass') /* Name */
      , (12128,  16, 'A dead white rabbit.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12128,   1,   33556210) /* Setup */
-     , (12128,   3,  536870932) /* SoundTable */
-     , (12128,   8,  100672405) /* Icon */
-     , (12128,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12128,   1, 0x020006F2) /* Setup */
+     , (12128,   3, 0x20000014) /* SoundTable */
+     , (12128,   8, 0x06002395) /* Icon */
+     , (12128,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12128, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (12128, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12128, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12128, 8000, 3124976595) /* PCAPRecordedObjectIID */;
+VALUES (12128, 8000, 0xBA435BD3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (12128, 0, 83888867, 83890932);

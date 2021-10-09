@@ -26,22 +26,22 @@ VALUES (25563,   1, 'Drudge Seraph Mystic') /* Name */
      , (25563, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25563,   1,   33556445) /* Setup */
-     , (25563,   2,  150994952) /* MotionTable */
-     , (25563,   3,  536870919) /* SoundTable */
-     , (25563,   6,   67112812) /* PaletteBase */
-     , (25563,   8,  100667445) /* Icon */
-     , (25563,  22,  872415258) /* PhysicsEffectTable */
+VALUES (25563,   1, 0x020007DD) /* Setup */
+     , (25563,   2, 0x09000008) /* MotionTable */
+     , (25563,   3, 0x20000007) /* SoundTable */
+     , (25563,   6, 0x04000F6C) /* PaletteBase */
+     , (25563,   8, 0x06001035) /* Icon */
+     , (25563,  22, 0x3400001A) /* PhysicsEffectTable */
      , (25563, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (25563, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (25563, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25563, 8040, 760217621, 51.68334, 116.7168, 1.697605, 0.9978842, 0, 0, -0.06501587) /* PCAPRecordedLocation */
+VALUES (25563, 8040, 0x2D500015, 51.68334, 116.7168, 1.697605, 0.997884, 0, 0, -0.065016) /* PCAPRecordedLocation */
 /* @teleloc 0x2D500015 [51.683340 116.716800 1.697605] 0.997884 0.000000 0.000000 -0.065016 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25563, 8000, 3680504323) /* PCAPRecordedObjectIID */;
+VALUES (25563, 8000, 0xDB600A03) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25563,   1, 330, 0, 0) /* Strength */

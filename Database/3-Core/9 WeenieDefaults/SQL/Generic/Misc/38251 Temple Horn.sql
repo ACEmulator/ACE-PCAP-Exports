@@ -15,6 +15,7 @@ VALUES (38251,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38251,  22, True ) /* Inscribable */
+     , (38251,  23, True ) /* DestroyOnSell */
      , (38251,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -23,13 +24,13 @@ VALUES (38251,   1, 'Temple Horn') /* Name */
      , (38251,  16, 'The Temple Horn calls the faithful to His temple during the time of blood in the Dark Season.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38251,   1,   33554817) /* Setup */
-     , (38251,   3,  536870932) /* SoundTable */
-     , (38251,   8,  100675633) /* Icon */
-     , (38251,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38251,   1, 0x02000181) /* Setup */
+     , (38251,   3, 0x20000014) /* SoundTable */
+     , (38251,   8, 0x06003031) /* Icon */
+     , (38251,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38251, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (38251, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38251, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38251, 8000, 3241485414) /* PCAPRecordedObjectIID */;
+VALUES (38251, 8000, 0xC1352466) /* PCAPRecordedObjectIID */;

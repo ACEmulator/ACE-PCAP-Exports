@@ -18,20 +18,21 @@ VALUES (41933,   1,        128) /* ItemType - Misc */
      , (41933, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41933,  69, False) /* IsSellable */;
+VALUES (41933,  23, True ) /* DestroyOnSell */
+     , (41933,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41933,   1, 'Lady Saliane''s Brand') /* Name */
      , (41933,  15, 'A burning brand with the champion mark of Lady Saliane.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41933,   1,   33554695) /* Setup */
-     , (41933,   3,  536870932) /* SoundTable */
-     , (41933,   8,  100667478) /* Icon */
-     , (41933,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41933,   1, 0x02000107) /* Setup */
+     , (41933,   3, 0x20000014) /* SoundTable */
+     , (41933,   8, 0x06001056) /* Icon */
+     , (41933,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41933, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (41933, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41933, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41933, 8000, 3683355727) /* PCAPRecordedObjectIID */;
+VALUES (41933, 8000, 0xDB8B8C4F) /* PCAPRecordedObjectIID */;

@@ -22,21 +22,21 @@ VALUES (42671,   1, 'Intense Incalescent Crystalline Wisp') /* Name */
      , (42671, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42671,   1,   33556955) /* Setup */
-     , (42671,   2,  150995087) /* MotionTable */
-     , (42671,   3,  536870985) /* SoundTable */
-     , (42671,   8,  100671332) /* Icon */
-     , (42671,  22,  872415274) /* PhysicsEffectTable */
+VALUES (42671,   1, 0x020009DB) /* Setup */
+     , (42671,   2, 0x0900008F) /* MotionTable */
+     , (42671,   3, 0x20000049) /* SoundTable */
+     , (42671,   8, 0x06001F64) /* Icon */
+     , (42671,  22, 0x3400002A) /* PhysicsEffectTable */
      , (42671, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (42671, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42671, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42671, 8040, 2298741149, 80, -38, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42671, 8040, 0x8904019D, 80, -38, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8904019D [80.000000 -38.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42671, 8000, 3679462660) /* PCAPRecordedObjectIID */;
+VALUES (42671, 8000, 0xDB502504) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (42671,   1,     0, 0, 0, 1120) /* MaxHealth */;
@@ -180,4 +180,7 @@ VALUES (42671, 9,  4194,  0, 0, 0, False) /* Create Lightning Cestus (4194) for 
      , (42671, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
      , (42671, 9, 45397,  0, 0, 0, False) /* Create Acid Short Sword (45397) for ContainTreasure */
      , (42671, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
-     , (42671, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */;
+     , (42671, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (42671, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (42671, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (42671, 9, 45118,  0, 0, 0, False) /* Create Hand Wraps (45118) for ContainTreasure */;

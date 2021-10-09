@@ -30,21 +30,21 @@ VALUES (3990,   1, 'Chest') /* Name */
      , (3990, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3990,   1,   33554556) /* Setup */
-     , (3990,   2,  150994948) /* MotionTable */
-     , (3990,   3,  536870945) /* SoundTable */
-     , (3990,   8,  100667424) /* Icon */
-     , (3990,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3990,   1, 0x0200007C) /* Setup */
+     , (3990,   2, 0x09000004) /* MotionTable */
+     , (3990,   3, 0x20000021) /* SoundTable */
+     , (3990,   8, 0x06001020) /* Icon */
+     , (3990,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3990, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (3990, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (3990, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3990, 8040, 2519073052, 44.1174, 22.7105, 128.4, 0.700267, 0, 0, -0.713881) /* PCAPRecordedLocation */
+VALUES (3990, 8040, 0x9626011C, 44.1174, 22.7105, 128.4, 0.700267, 0, 0, -0.713881) /* PCAPRecordedLocation */
 /* @teleloc 0x9626011C [44.117400 22.710500 128.400000] 0.700267 0.000000 0.000000 -0.713881 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3990, 8000, 2036490247) /* PCAPRecordedObjectIID */;
+VALUES (3990, 8000, 0x79626007) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3990, -1, 21150, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Covenant Sollerets (21150) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

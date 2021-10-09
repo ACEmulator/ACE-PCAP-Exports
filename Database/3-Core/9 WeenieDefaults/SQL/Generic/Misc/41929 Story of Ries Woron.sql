@@ -11,7 +11,6 @@ VALUES (41929,   1,        128) /* ItemType - Misc */
      , (41929,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41929,  98, 1484537344) /* CreationTimestamp */
      , (41929, 267,       5420) /* Lifespan */
-     , (41929, 268,       5420) /* RemainingLifespan */
      , (41929, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -25,13 +24,13 @@ VALUES (41929,   1, 'Story of Ries Woron') /* Name */
      , (41929,  16, 'A story book showing the length of time Ries will share his story.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41929,   1,   33554771) /* Setup */
-     , (41929,   3,  536870932) /* SoundTable */
-     , (41929,   8,  100668117) /* Icon */
-     , (41929,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41929,   1, 0x02000153) /* Setup */
+     , (41929,   3, 0x20000014) /* SoundTable */
+     , (41929,   8, 0x060012D5) /* Icon */
+     , (41929,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41929, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (41929, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41929, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41929, 8000, 3691930315) /* PCAPRecordedObjectIID */;
+VALUES (41929, 8000, 0xDC0E62CB) /* PCAPRecordedObjectIID */;

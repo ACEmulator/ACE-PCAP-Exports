@@ -37,27 +37,27 @@ VALUES (24597,   1, 'Ry''zir al-Nabit') /* Name */
      , (24597, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24597,   1,   33554433) /* Setup */
-     , (24597,   2,  150994945) /* MotionTable */
-     , (24597,   3,  536870913) /* SoundTable */
-     , (24597,   6,   67108990) /* PaletteBase */
-     , (24597,   8,  100667446) /* Icon */
-     , (24597,   9,   83890479) /* EyesTexture */
-     , (24597,  10,   83890534) /* NoseTexture */
-     , (24597,  11,   83890611) /* MouthTexture */
-     , (24597,  15,   67117068) /* HairPalette */
-     , (24597,  16,   67110063) /* EyesPalette */
-     , (24597,  17,   67109550) /* SkinPalette */
+VALUES (24597,   1, 0x02000001) /* Setup */
+     , (24597,   2, 0x09000001) /* MotionTable */
+     , (24597,   3, 0x20000001) /* SoundTable */
+     , (24597,   6, 0x0400007E) /* PaletteBase */
+     , (24597,   8, 0x06001036) /* Icon */
+     , (24597,   9, 0x0500112F) /* EyesTexture */
+     , (24597,  10, 0x05001166) /* NoseTexture */
+     , (24597,  11, 0x050011B3) /* MouthTexture */
+     , (24597,  15, 0x0400200C) /* HairPalette */
+     , (24597,  16, 0x040004AF) /* EyesPalette */
+     , (24597,  17, 0x040002AE) /* SkinPalette */
      , (24597, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (24597, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (24597, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24597, 8040, 722600194, 63.1492, 51.5558, 48.205, 0.008605211, 0, 0, -0.999963) /* PCAPRecordedLocation */
+VALUES (24597, 8040, 0x2B120102, 63.1492, 51.5558, 48.205, 0.008605, 0, 0, -0.999963) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120102 [63.149200 51.555800 48.205000] 0.008605 0.000000 0.000000 -0.999963 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24597, 8000, 1924210730) /* PCAPRecordedObjectIID */;
+VALUES (24597, 8000, 0x72B1202A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24597,   1, 215, 0, 0) /* Strength */
@@ -117,13 +117,7 @@ VALUES (24597, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (24597, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (24597, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24597, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (24597, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (24597, 4, 31801, -1, 0, 0, False) /* Create Electric Compound Bow (31801) for Shop */
-     , (24597, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
-     , (24597, 4,  3766, -1, 0, 0, False) /* Create Acid Club (3766) for Shop */
-     , (24597, 4,   334, -1, 0, 0, False) /* Create Nayin (334) for Shop */
-     , (24597, 4,   360, -1, 0, 0, False) /* Create Yag (360) for Shop */
-     , (24597, 4, 20640, -1, 0, 0, False) /* Create Royal Atlatl (20640) for Shop */;
+     , (24597, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24597, 67109550, 0, 24)

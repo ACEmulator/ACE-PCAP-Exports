@@ -44,17 +44,17 @@ VALUES (23846,   1, 'Scored Koujia Sleeves') /* Name */
      , (23846,   8, 'Wahooka the Great') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23846,   1,   33554655) /* Setup */
-     , (23846,   3,  536870932) /* SoundTable */
-     , (23846,   6,   67108990) /* PaletteBase */
-     , (23846,   8,  100674075) /* Icon */
-     , (23846,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23846,   1, 0x020000DF) /* Setup */
+     , (23846,   3, 0x20000014) /* SoundTable */
+     , (23846,   6, 0x0400007E) /* PaletteBase */
+     , (23846,   8, 0x06002A1B) /* Icon */
+     , (23846,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23846, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (23846, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23846, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23846, 8000, 2461841162) /* PCAPRecordedObjectIID */;
+VALUES (23846, 8000, 0x92BCB70A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23846,  2609,      2)  /* CANTRIPACIDWARD2 */;

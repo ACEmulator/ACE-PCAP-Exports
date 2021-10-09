@@ -43,23 +43,23 @@ VALUES (28620,   1, 'Alduressa Leggings') /* Name */
      , (28620,  16, 'Alduressa Leggings of Quickness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28620,   1,   33559329) /* Setup */
-     , (28620,   3,  536870932) /* SoundTable */
-     , (28620,   6,   67108990) /* PaletteBase */
-     , (28620,   8,  100686040) /* Icon */
-     , (28620,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28620,   1, 0x02001321) /* Setup */
+     , (28620,   3, 0x20000014) /* SoundTable */
+     , (28620,   6, 0x0400007E) /* PaletteBase */
+     , (28620,   8, 0x060058D8) /* Icon */
+     , (28620,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28620,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (28620, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (28620, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28620, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28620, 8000, 3452688255) /* PCAPRecordedObjectIID */;
+VALUES (28620, 8000, 0xCDCBD77F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28620,  1486,      2)  /* Impenetrability6 */
-     , (28620,  2081,      2)  /* QuicknessSelf7 */
-     , (28620,  2569,      2)  /* CANTRIPWARMAGICAPTITUDE1 */;
+VALUES (28620,  2569,      2)  /* CANTRIPWARMAGICAPTITUDE1 */
+     , (28620,  1486,      2)  /* Impenetrability6 */
+     , (28620,  2081,      2)  /* QuicknessSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28620, 67116096, 84, 12)

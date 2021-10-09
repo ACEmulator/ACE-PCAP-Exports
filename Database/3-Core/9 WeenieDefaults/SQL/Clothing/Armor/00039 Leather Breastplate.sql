@@ -35,21 +35,21 @@ VALUES (39,   1, 'Leather Breastplate') /* Name */
      , (39,   8, 'Dez''mron Loremaster') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39,   1,   33554642) /* Setup */
-     , (39,   3,  536870932) /* SoundTable */
-     , (39,   6,   67108990) /* PaletteBase */
-     , (39,   8,  100669483) /* Icon */
-     , (39,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39,   1, 0x020000D2) /* Setup */
+     , (39,   3, 0x20000014) /* SoundTable */
+     , (39,   6, 0x0400007E) /* PaletteBase */
+     , (39,   8, 0x0600182B) /* Icon */
+     , (39,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (39, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39, 8040, 2847146241, 79.26196, 132.5645, 69.495, 0.2568298, 0, 0, -0.9664567) /* PCAPRecordedLocation */
+VALUES (39, 8040, 0xA9B40101, 79.26196, 132.5645, 69.495, 0.25683, 0, 0, -0.966457) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40101 [79.261960 132.564500 69.495000] 0.256830 0.000000 0.000000 -0.966457 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39, 8000, 3700506052) /* PCAPRecordedObjectIID */;
+VALUES (39, 8000, 0xDC913DC4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39, 67113077, 174, 66);

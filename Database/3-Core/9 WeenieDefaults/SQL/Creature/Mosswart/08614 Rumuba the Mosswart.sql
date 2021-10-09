@@ -28,21 +28,21 @@ VALUES (8614,   1, 'Rumuba the Mosswart') /* Name */
      , (8614, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8614,   1,   33557327) /* Setup */
-     , (8614,   2,  150994953) /* MotionTable */
-     , (8614,   3,  536870959) /* SoundTable */
-     , (8614,   6,   67113400) /* PaletteBase */
-     , (8614,   8,  100667449) /* Icon */
+VALUES (8614,   1, 0x02000B4F) /* Setup */
+     , (8614,   2, 0x09000009) /* MotionTable */
+     , (8614,   3, 0x2000002F) /* SoundTable */
+     , (8614,   6, 0x040011B8) /* PaletteBase */
+     , (8614,   8, 0x06001039) /* Icon */
      , (8614, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (8614, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (8614, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8614, 8040, 45613313, 3.85726, -87.3459, -35.9945, 0.7719921, 0, 0, -0.6356321) /* PCAPRecordedLocation */
+VALUES (8614, 8040, 0x02B80101, 3.85726, -87.3459, -35.9945, 0.771992, 0, 0, -0.635632) /* PCAPRecordedLocation */
 /* @teleloc 0x02B80101 [3.857260 -87.345900 -35.994500] 0.771992 0.000000 0.000000 -0.635632 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8614, 8000, 3710054005) /* PCAPRecordedObjectIID */;
+VALUES (8614, 8000, 0xDD22EE75) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8614,   1, 120, 0, 0) /* Strength */

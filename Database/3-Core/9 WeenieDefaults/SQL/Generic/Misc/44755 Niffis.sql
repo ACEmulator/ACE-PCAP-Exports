@@ -19,11 +19,11 @@ VALUES (44755,   1, 'Niffis') /* Name */
      , (44755,  16, 'The eerily floating Niffis cast bizarre shadows across the sands. Strangely beautiful, these creatures are, unfortunately, also aggressive. Their form suggests an affinity for water, yet many of them congregate in deserts, basking in the harsh sun and balancing themselves with their lateral "wings." It is thought the fine-grained Derethian sand may fulfill a function similar to water for the Niffis, a creature obviously saturated with alien and incomprehensible magic. Still, some rare Niffis do appear to seek out water, suggesting these creatures may once have had more humble and ordinary origins. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44755,   1,   33561355) /* Setup */
-     , (44755,   8,  100668115) /* Icon */
+VALUES (44755,   1, 0x02001B0B) /* Setup */
+     , (44755,   8, 0x060012D3) /* Icon */
      , (44755, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44755, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44755, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44755, 8000, 2461482728) /* PCAPRecordedObjectIID */;
+VALUES (44755, 8000, 0x92B73EE8) /* PCAPRecordedObjectIID */;

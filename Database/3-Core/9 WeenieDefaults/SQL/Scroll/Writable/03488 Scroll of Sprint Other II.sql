@@ -24,13 +24,13 @@ VALUES (3488,   1, 'Scroll of Sprint Other II') /* Name */
 Increases the target''s Run skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3488,   1,   33554826) /* Setup */
-     , (3488,   8,  100676470) /* Icon */
-     , (3488,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3488,   1, 0x0200018A) /* Setup */
+     , (3488,   8, 0x06003376) /* Icon */
+     , (3488,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3488,  28,        989) /* Spell - SprintOther2 */
      , (3488, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3488, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3488, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3488, 8000, 2618313428) /* PCAPRecordedObjectIID */;
+VALUES (3488, 8000, 0x9C104AD4) /* PCAPRecordedObjectIID */;

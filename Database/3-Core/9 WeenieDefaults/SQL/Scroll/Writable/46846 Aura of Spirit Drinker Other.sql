@@ -24,13 +24,13 @@ VALUES (46846,   1, 'Aura of Spirit Drinker Other') /* Name */
 Increases the elemental damage bonus of an elemental magic caster by 1%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46846,   1,   33554826) /* Setup */
-     , (46846,   8,  100676674) /* Icon */
-     , (46846,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46846,   1, 0x0200018A) /* Setup */
+     , (46846,   8, 0x06003442) /* Icon */
+     , (46846,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46846,  28,       6015) /* Spell - SpiritDrinkerOther1 */
      , (46846, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (46846, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46846, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46846, 8000, 2447570709) /* PCAPRecordedObjectIID */;
+VALUES (46846, 8000, 0x91E2F715) /* PCAPRecordedObjectIID */;

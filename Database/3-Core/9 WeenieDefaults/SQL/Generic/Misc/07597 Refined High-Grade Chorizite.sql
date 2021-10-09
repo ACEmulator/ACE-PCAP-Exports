@@ -14,24 +14,25 @@ VALUES (7597,   1,        128) /* ItemType - Misc */
      , (7597, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7597,  22, True ) /* Inscribable */;
+VALUES (7597,  22, True ) /* Inscribable */
+     , (7597,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7597,   1, 'Refined High-Grade Chorizite') /* Name */
      , (7597,  16, 'A refined chunk of high-grade chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7597,   1,   33554817) /* Setup */
-     , (7597,   3,  536870932) /* SoundTable */
-     , (7597,   6,   67111919) /* PaletteBase */
-     , (7597,   8,  100670769) /* Icon */
-     , (7597,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7597,   1, 0x02000181) /* Setup */
+     , (7597,   3, 0x20000014) /* SoundTable */
+     , (7597,   6, 0x04000BEF) /* PaletteBase */
+     , (7597,   8, 0x06001D31) /* Icon */
+     , (7597,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7597, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (7597, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7597, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7597, 8000, 2875450605) /* PCAPRecordedObjectIID */;
+VALUES (7597, 8000, 0xAB63E4ED) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7597, 67111924, 0, 0);

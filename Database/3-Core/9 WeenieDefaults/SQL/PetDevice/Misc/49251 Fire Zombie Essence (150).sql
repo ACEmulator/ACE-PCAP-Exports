@@ -17,7 +17,7 @@ VALUES (49251,   1,        128) /* ItemType - Misc */
      , (49251, 105,          7) /* ItemWorkmanship */
      , (49251, 114,          0) /* Attuned - Normal */
      , (49251, 280,        213) /* SharedCooldown */
-     , (49251, 366,         54) /* UseRequiresSkill */
+     , (49251, 366,         54) /* UseRequiresSkill - Summoning */
      , (49251, 367,        475) /* UseRequiresSkillLevel */
      , (49251, 369,        140) /* UseRequiresLevel */
      , (49251, 370,         12) /* GearDamage */
@@ -39,24 +39,24 @@ VALUES (49251,   1, 'Fire Zombie Essence (150)') /* Name */
      , (49251,  14, 'Use this essence to summon or dismiss your Fire Zombie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49251,   1,   33554817) /* Setup */
-     , (49251,   3,  536870932) /* SoundTable */
-     , (49251,   6,   67111919) /* PaletteBase */
-     , (49251,   8,  100667942) /* Icon */
-     , (49251,  22,  872415275) /* PhysicsEffectTable */
-     , (49251,  50,  100693030) /* IconOverlay */
-     , (49251,  52,  100693024) /* IconUnderlay */
+VALUES (49251,   1, 0x02000181) /* Setup */
+     , (49251,   3, 0x20000014) /* SoundTable */
+     , (49251,   6, 0x04000BEF) /* PaletteBase */
+     , (49251,   8, 0x06001226) /* Icon */
+     , (49251,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49251,  50, 0x06007426) /* IconOverlay */
+     , (49251,  52, 0x06007420) /* IconUnderlay */
      , (49251, 8001, 1076366488) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, TargetType, Burden, IconOverlay */
      , (49251, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49251, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49251, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49251, 8040, 722534674, 39.99276, 162.0639, 47.999, -0.9787485, 0, 0, -0.2050642) /* PCAPRecordedLocation */
+VALUES (49251, 8040, 0x2B110112, 39.99276, 162.0639, 47.999, -0.978749, 0, 0, -0.205064) /* PCAPRecordedLocation */
 /* @teleloc 0x2B110112 [39.992760 162.063900 47.999000] -0.978749 0.000000 0.000000 -0.205064 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49251, 8000, 3681264552) /* PCAPRecordedObjectIID */;
+VALUES (49251, 8000, 0xDB6BA3A8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49251, 67111923, 0, 0);

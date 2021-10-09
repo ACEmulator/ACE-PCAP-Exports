@@ -17,11 +17,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34308,   1, 'Sacrificial Goblet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34308,   1,   33554663) /* Setup */
-     , (34308,   8,  100667430) /* Icon */
+VALUES (34308,   1, 0x020000E7) /* Setup */
+     , (34308,   8, 0x06001026) /* Icon */
      , (34308, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (34308, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34308, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34308, 8000, 3171227877) /* PCAPRecordedObjectIID */;
+VALUES (34308, 8000, 0xBD0518E5) /* PCAPRecordedObjectIID */;

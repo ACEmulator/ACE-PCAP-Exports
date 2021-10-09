@@ -8,7 +8,6 @@ VALUES (23845,   1,          2) /* ItemType - Armor */
      , (23845,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (23845,   5,        925) /* EncumbranceVal */
      , (23845,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
-     , (23845,  10,       6144) /* CurrentWieldedLocation - UpperArmArmor, LowerArmArmor */
      , (23845,  16,          1) /* ItemUseable - No */
      , (23845,  18,          1) /* UiEffects - Magical */
      , (23845,  19,       1620) /* Value */
@@ -42,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23845,   1, 'Plated Koujia Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23845,   1,   33554655) /* Setup */
-     , (23845,   3,  536870932) /* SoundTable */
-     , (23845,   6,   67108990) /* PaletteBase */
-     , (23845,   8,  100674075) /* Icon */
-     , (23845,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23845,   1, 0x020000DF) /* Setup */
+     , (23845,   3, 0x20000014) /* SoundTable */
+     , (23845,   6, 0x0400007E) /* PaletteBase */
+     , (23845,   8, 0x06002A1B) /* Icon */
+     , (23845,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23845, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (23845, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23845, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23845, 8000, 3611373123) /* PCAPRecordedObjectIID */;
+VALUES (23845, 8000, 0xD7412E43) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23845,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */;

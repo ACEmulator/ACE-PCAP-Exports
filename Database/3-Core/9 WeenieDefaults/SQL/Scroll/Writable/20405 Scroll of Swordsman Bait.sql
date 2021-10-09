@@ -24,13 +24,13 @@ VALUES (20405,   1, 'Scroll of Swordsman Bait') /* Name */
 Decreases a shield or piece of armor''s resistance to slashing damage by 170%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20405,   1,   33554826) /* Setup */
-     , (20405,   8,  100676664) /* Icon */
-     , (20405,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20405,   1, 0x0200018A) /* Setup */
+     , (20405,   8, 0x06003438) /* Icon */
+     , (20405,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20405,  28,       2095) /* Spell - BladeLure7 */
      , (20405, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20405, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20405, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20405, 8000, 3690726105) /* PCAPRecordedObjectIID */;
+VALUES (20405, 8000, 0xDBFC02D9) /* PCAPRecordedObjectIID */;

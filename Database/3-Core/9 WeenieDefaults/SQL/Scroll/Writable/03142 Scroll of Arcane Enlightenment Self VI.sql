@@ -24,13 +24,13 @@ VALUES (3142,   1, 'Scroll of Arcane Enlightenment Self VI') /* Name */
 Increases the caster''s Arcane Lore skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3142,   1,   33554826) /* Setup */
-     , (3142,   8,  100676447) /* Icon */
-     , (3142,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3142,   1, 0x0200018A) /* Setup */
+     , (3142,   8, 0x0600335F) /* Icon */
+     , (3142,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3142,  28,        683) /* Spell - ArcaneEnlightenmentSelf6 */
      , (3142, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3142, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3142, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3142, 8000, 3355082805) /* PCAPRecordedObjectIID */;
+VALUES (3142, 8000, 0xC7FA8035) /* PCAPRecordedObjectIID */;

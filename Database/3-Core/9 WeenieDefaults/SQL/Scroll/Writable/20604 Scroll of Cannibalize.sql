@@ -24,13 +24,13 @@ VALUES (20604,   1, 'Scroll of Cannibalize') /* Name */
 Drains one-half of the caster''s Health and gives 175% of that to his/her Mana.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20604,   1,   33554826) /* Setup */
-     , (20604,   8,  100676943) /* Icon */
-     , (20604,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20604,   1, 0x0200018A) /* Setup */
+     , (20604,   8, 0x0600354F) /* Icon */
+     , (20604,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20604,  28,       2332) /* Spell - HealthToManaSelf7 */
      , (20604, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20604, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20604, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20604, 8000, 3698132306) /* PCAPRecordedObjectIID */;
+VALUES (20604, 8000, 0xDC6D0552) /* PCAPRecordedObjectIID */;

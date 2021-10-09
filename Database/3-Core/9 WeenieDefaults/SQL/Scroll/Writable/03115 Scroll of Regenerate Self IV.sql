@@ -24,13 +24,13 @@ VALUES (3115,   1, 'Scroll of Regenerate Self IV') /* Name */
 Increase caster''s natural healing rate by 55%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3115,   1,   33554826) /* Setup */
-     , (3115,   8,  100676941) /* Icon */
-     , (3115,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3115,   1, 0x0200018A) /* Setup */
+     , (3115,   8, 0x0600354D) /* Icon */
+     , (3115,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3115,  28,        168) /* Spell - RegenerationSelf4 */
      , (3115, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3115, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3115, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3115, 8000, 2924370624) /* PCAPRecordedObjectIID */;
+VALUES (3115, 8000, 0xAE4E5AC0) /* PCAPRecordedObjectIID */;

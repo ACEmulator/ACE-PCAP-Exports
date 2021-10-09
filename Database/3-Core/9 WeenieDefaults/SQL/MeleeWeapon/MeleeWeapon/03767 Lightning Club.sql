@@ -54,19 +54,19 @@ VALUES (3767,   1, 'Lightning Club') /* Name */
      , (3767,  16, 'Lightning Club of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3767,   1,   33555715) /* Setup */
-     , (3767,   3,  536870932) /* SoundTable */
-     , (3767,   8,  100668855) /* Icon */
-     , (3767,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3767,   1, 0x02000503) /* Setup */
+     , (3767,   3, 0x20000014) /* SoundTable */
+     , (3767,   8, 0x060015B7) /* Icon */
+     , (3767,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3767,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3767, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3767, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3767, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3767, 8000, 3360095376) /* PCAPRecordedObjectIID */;
+VALUES (3767, 8000, 0xC846FC90) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3767,  1604,      2)  /* DefenderSelf5 */
      , (3767,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (3767,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */;
+     , (3767,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */;

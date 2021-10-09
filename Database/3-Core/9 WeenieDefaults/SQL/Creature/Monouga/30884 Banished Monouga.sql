@@ -25,22 +25,22 @@ VALUES (30884,   1, 'Banished Monouga') /* Name */
      , (30884, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30884,   1,   33555199) /* Setup */
-     , (30884,   2,  150994983) /* MotionTable */
-     , (30884,   3,  536870962) /* SoundTable */
-     , (30884,   6,   67111302) /* PaletteBase */
-     , (30884,   8,  100669117) /* Icon */
-     , (30884,  22,  872415257) /* PhysicsEffectTable */
+VALUES (30884,   1, 0x020002FF) /* Setup */
+     , (30884,   2, 0x09000027) /* MotionTable */
+     , (30884,   3, 0x20000032) /* SoundTable */
+     , (30884,   6, 0x04000986) /* PaletteBase */
+     , (30884,   8, 0x060016BD) /* Icon */
+     , (30884,  22, 0x34000019) /* PhysicsEffectTable */
      , (30884, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (30884, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (30884, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30884, 8040, 3324968970, 28.04834, 27.45005, 195.4175, 0.412485, 0, 0, -0.9109644) /* PCAPRecordedLocation */
+VALUES (30884, 8040, 0xC62F000A, 28.04834, 27.45005, 195.4175, 0.412485, 0, 0, -0.910964) /* PCAPRecordedLocation */
 /* @teleloc 0xC62F000A [28.048340 27.450050 195.417500] 0.412485 0.000000 0.000000 -0.910964 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30884, 8000, 3696865690) /* PCAPRecordedObjectIID */;
+VALUES (30884, 8000, 0xDC59B19A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (30884,   1,     0, 0, 0, 555) /* MaxHealth */;

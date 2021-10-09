@@ -44,24 +44,24 @@ VALUES (414,   1, 'Chainmail Breastplate') /* Name */
      , (414,  16, 'Chainmail Breastplate of Magic Resistance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (414,   1,   33554642) /* Setup */
-     , (414,   3,  536870932) /* SoundTable */
-     , (414,   6,   67108990) /* PaletteBase */
-     , (414,   8,  100670263) /* Icon */
-     , (414,  22,  872415275) /* PhysicsEffectTable */
+VALUES (414,   1, 0x020000D2) /* Setup */
+     , (414,   3, 0x20000014) /* SoundTable */
+     , (414,   6, 0x0400007E) /* PaletteBase */
+     , (414,   8, 0x06001B37) /* Icon */
+     , (414,  22, 0x3400002B) /* PhysicsEffectTable */
      , (414,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (414, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (414, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (414, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (414, 8000, 3688216894) /* PCAPRecordedObjectIID */;
+VALUES (414, 8000, 0xDBD5B93E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (414,   278,      2)  /* MagicResistanceSelf5 */
-     , (414,  1485,      2)  /* Impenetrability5 */
-     , (414,  1497,      2)  /* AcidBane5 */
-     , (414,  1560,      2)  /* BladeBane4 */;
+VALUES (414,  1485,      2)  /* Impenetrability5 */
+     , (414,   278,      2)  /* MagicResistanceSelf5 */
+     , (414,  1560,      2)  /* BladeBane4 */
+     , (414,  1497,      2)  /* AcidBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (414, 67110021, 174, 66);

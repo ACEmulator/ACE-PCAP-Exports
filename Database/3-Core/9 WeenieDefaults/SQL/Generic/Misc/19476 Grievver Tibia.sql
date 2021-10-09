@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19476,   1, 'Grievver Tibia') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19476,   1,   33557837) /* Setup */
-     , (19476,   3,  536870932) /* SoundTable */
-     , (19476,   8,  100673054) /* Icon */
-     , (19476,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19476,   1, 0x02000D4D) /* Setup */
+     , (19476,   3, 0x20000014) /* SoundTable */
+     , (19476,   8, 0x0600261E) /* Icon */
+     , (19476,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19476, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (19476, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19476, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19476, 8000, 2982968658) /* PCAPRecordedObjectIID */;
+VALUES (19476, 8000, 0xB1CC7D52) /* PCAPRecordedObjectIID */;

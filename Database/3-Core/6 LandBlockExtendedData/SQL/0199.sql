@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x0199;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70199020, 28824, 0x01990175, 50.0249, -163.641, -0.06299996, 0.0107084, 0, 0, -0.9999427, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x70199020, 28824, 0x01990175, 50.0249, -163.641, -0.063, 0.010708, 0, 0, -0.999943, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x01990175 [50.024900 -163.641000 -0.063000] 0.010708 0.000000 0.000000 -0.999943 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -21,7 +21,7 @@ VALUES (0x70199026,  5400, 0x01990114, 28.2385, -88.1682, -4.44351, 0.703617, 0,
 /* @teleloc 0x01990114 [28.238500 -88.168200 -4.443510] 0.703617 0.000000 0.000000 0.710579 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70199027,  5400, 0x0199011B, 28.032, -111.957, -4.56388, 0.0575365, 0, 0, 0.998343, False, '2019-02-10 00:00:00'); /* Boiling Magma */
+VALUES (0x70199027,  5400, 0x0199011B, 28.032, -111.957, -4.56388, 0.057537, 0, 0, 0.998343, False, '2019-02-10 00:00:00'); /* Boiling Magma */
 /* @teleloc 0x0199011B [28.032000 -111.957000 -4.563880] 0.057537 0.000000 0.000000 0.998343 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -45,7 +45,7 @@ VALUES (0x7019902C,  5400, 0x01990149, 61.8426, -121.871, -4.52376, 0.947651, 0,
 /* @teleloc 0x01990149 [61.842600 -121.871000 -4.523760] 0.947651 0.000000 0.000000 -0.319309 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7019902D,  5400, 0x0199014C, 71.748, -88.3841, -4.44351, 0.997899, 0, 0, 0.0647894, False, '2019-02-10 00:00:00'); /* Boiling Magma */
+VALUES (0x7019902D,  5400, 0x0199014C, 71.748, -88.3841, -4.44351, 0.997899, 0, 0, 0.064789, False, '2019-02-10 00:00:00'); /* Boiling Magma */
 /* @teleloc 0x0199014C [71.748000 -88.384100 -4.443510] 0.997899 0.000000 0.000000 0.064789 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

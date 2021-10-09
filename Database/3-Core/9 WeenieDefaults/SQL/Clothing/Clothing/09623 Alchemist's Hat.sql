@@ -34,17 +34,17 @@ VALUES (9623,   1, 'Alchemist''s Hat') /* Name */
      , (9623,   8, 'Midnight Ghost II') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9623,   1,   33557036) /* Setup */
-     , (9623,   3,  536870932) /* SoundTable */
-     , (9623,   6,   67108990) /* PaletteBase */
-     , (9623,   8,  100671634) /* Icon */
-     , (9623,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9623,   1, 0x02000A2C) /* Setup */
+     , (9623,   3, 0x20000014) /* SoundTable */
+     , (9623,   6, 0x0400007E) /* PaletteBase */
+     , (9623,   8, 0x06002092) /* Icon */
+     , (9623,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9623, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (9623, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9623, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9623, 8000, 2982968618) /* PCAPRecordedObjectIID */;
+VALUES (9623, 8000, 0xB1CC7D2A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9623, 67110382, 250, 6);

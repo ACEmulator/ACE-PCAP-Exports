@@ -34,21 +34,21 @@ VALUES (30181,   1, 'Pearl of Acid Baning') /* Name */
      , (30181,  20, 'Pearls of Acid Baning') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30181,   1,   33554809) /* Setup */
-     , (30181,   3,  536870932) /* SoundTable */
-     , (30181,   6,   67111919) /* PaletteBase */
-     , (30181,   8,  100686695) /* Icon */
-     , (30181,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30181,   1, 0x02000179) /* Setup */
+     , (30181,   3, 0x20000014) /* SoundTable */
+     , (30181,   6, 0x04000BEF) /* PaletteBase */
+     , (30181,   8, 0x06005B67) /* Icon */
+     , (30181,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30181,  28,       3679) /* Spell - AcidBaneRare */
-     , (30181,  50,  100686623) /* IconOverlay */
-     , (30181,  52,  100686604) /* IconUnderlay */
+     , (30181,  50, 0x06005B1F) /* IconOverlay */
+     , (30181,  52, 0x06005B0C) /* IconUnderlay */
      , (30181, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30181, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30181, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30181, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30181, 8000, 2983368309) /* PCAPRecordedObjectIID */;
+VALUES (30181, 8000, 0xB1D29675) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30181, 67111923, 0, 0);

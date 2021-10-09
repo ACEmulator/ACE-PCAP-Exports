@@ -24,13 +24,13 @@ VALUES (20329,   1, 'Scroll of Nullify Creature Magic Self') /* Name */
 Dispels 3-6 negative Creature Magic enchantments of level 6 or lower from the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20329,   1,   33554826) /* Setup */
-     , (20329,   8,  100676647) /* Icon */
-     , (20329,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20329,   1, 0x0200018A) /* Setup */
+     , (20329,   8, 0x06003427) /* Icon */
+     , (20329,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20329,  28,       1918) /* Spell - DispelCreatureBadSelf6 */
      , (20329, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20329, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20329, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20329, 8000, 2618176666) /* PCAPRecordedObjectIID */;
+VALUES (20329, 8000, 0x9C0E349A) /* PCAPRecordedObjectIID */;

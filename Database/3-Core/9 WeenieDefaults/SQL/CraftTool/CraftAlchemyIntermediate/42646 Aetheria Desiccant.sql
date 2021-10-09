@@ -26,20 +26,20 @@ VALUES (42646,   1, 'Aetheria Desiccant') /* Name */
      , (42646,  16, 'A desiccant used to remove all moisture from aetheria destroying it. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42646,   1,   33556407) /* Setup */
-     , (42646,   3,  536870932) /* SoundTable */
-     , (42646,   8,  100690957) /* Icon */
-     , (42646,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42646,   1, 0x020007B7) /* Setup */
+     , (42646,   3, 0x20000014) /* SoundTable */
+     , (42646,   8, 0x06006C0D) /* Icon */
+     , (42646,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42646, 8001,     536728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType */
      , (42646, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (42646, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42646, 8040, 3465871405, 141.6785, 106.2476, 20.0165, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42646, 8040, 0xCE95002D, 141.6785, 106.2476, 20.0165, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [141.678500 106.247600 20.016500] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42646, 8000, 3420755162) /* PCAPRecordedObjectIID */;
+VALUES (42646, 8000, 0xCBE494DA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (42646, 0, 83889688, 83890391);

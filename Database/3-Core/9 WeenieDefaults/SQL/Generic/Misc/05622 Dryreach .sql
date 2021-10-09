@@ -19,15 +19,15 @@ VALUES (5622,   1, 'Dryreach ') /* Name */
      , (5622,  16, 'Welcome to Dryreach') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5622,   1,   33556204) /* Setup */
-     , (5622,   8,  100668115) /* Icon */
+VALUES (5622,   1, 0x020006EC) /* Setup */
+     , (5622,   8, 0x060012D3) /* Icon */
      , (5622, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (5622, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (5622, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5622, 8040, 3665100843, 134.686, 58.747, 18, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (5622, 8040, 0xDA75002B, 134.686, 58.747, 18, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xDA75002B [134.686000 58.747000 18.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5622, 8000, 2108117034) /* PCAPRecordedObjectIID */;
+VALUES (5622, 8000, 0x7DA7502A) /* PCAPRecordedObjectIID */;

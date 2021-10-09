@@ -33,21 +33,21 @@ VALUES (15714,   1, 'Wedding Raiment') /* Name */
      , (15714,  16, 'The perfect outfit for wedding members. This rainment is dyeable.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15714,   1,   33554854) /* Setup */
-     , (15714,   3,  536870932) /* SoundTable */
-     , (15714,   6,   67108990) /* PaletteBase */
-     , (15714,   8,  100672318) /* Icon */
-     , (15714,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15714,   1, 0x020001A6) /* Setup */
+     , (15714,   3, 0x20000014) /* SoundTable */
+     , (15714,   6, 0x0400007E) /* PaletteBase */
+     , (15714,   8, 0x0600233E) /* Icon */
+     , (15714,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15714, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (15714, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15714, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15714, 8040, 2224423221, 80.63207, 154.4071, 119.9985, 0.9448352, 0, 0, -0.3275461) /* PCAPRecordedLocation */
+VALUES (15714, 8040, 0x84960135, 80.63207, 154.4071, 119.9985, 0.944835, 0, 0, -0.327546) /* PCAPRecordedLocation */
 /* @teleloc 0x84960135 [80.632070 154.407100 119.998500] 0.944835 0.000000 0.000000 -0.327546 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15714, 8000, 3677761829) /* PCAPRecordedObjectIID */;
+VALUES (15714, 8000, 0xDB363125) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15714, 67113258, 40, 76)

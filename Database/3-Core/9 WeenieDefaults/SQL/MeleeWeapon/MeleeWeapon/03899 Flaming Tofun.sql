@@ -50,17 +50,17 @@ VALUES (3899,   1, 'Flaming Tofun') /* Name */
      , (3899,  16, 'Flaming Tofun') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3899,   1,   33555756) /* Setup */
-     , (3899,   3,  536870932) /* SoundTable */
-     , (3899,   8,  100667599) /* Icon */
-     , (3899,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3899,   1, 0x0200052C) /* Setup */
+     , (3899,   3, 0x20000014) /* SoundTable */
+     , (3899,   8, 0x060010CF) /* Icon */
+     , (3899,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3899,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3899, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3899, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3899, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3899, 8000, 2981045130) /* PCAPRecordedObjectIID */;
+VALUES (3899, 8000, 0xB1AF238A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3899,    35,      2)  /* BloodDrinkerSelf1 */

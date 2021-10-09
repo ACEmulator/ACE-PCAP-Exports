@@ -22,16 +22,16 @@ VALUES (14655,   1, 'Ong-Hau Village Portal') /* Name */
      , (14655, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14655,   1,   33554867) /* Setup */
-     , (14655,   2,  150994947) /* MotionTable */
-     , (14655,   8,  100667499) /* Icon */
+VALUES (14655,   1, 0x020001B3) /* Setup */
+     , (14655,   2, 0x09000003) /* MotionTable */
+     , (14655,   8, 0x0600106B) /* Icon */
      , (14655, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14655, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14655, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14655, 8040, 4116250668, 121.832, 72.6583, 19.937, 0.9062888, 0, 0, -0.4226589) /* PCAPRecordedLocation */
+VALUES (14655, 8040, 0xF559002C, 121.832, 72.6583, 19.937, 0.906289, 0, 0, -0.422659) /* PCAPRecordedLocation */
 /* @teleloc 0xF559002C [121.832000 72.658300 19.937000] 0.906289 0.000000 0.000000 -0.422659 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14655, 8000, 2136313875) /* PCAPRecordedObjectIID */;
+VALUES (14655, 8000, 0x7F559013) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (5974,   1, 'Scroll of Fletching Mastery Self') /* Name */
 Increases the caster''s Fletching skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5974,   1,   33554826) /* Setup */
-     , (5974,   8,  100676457) /* Icon */
-     , (5974,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5974,   1, 0x0200018A) /* Setup */
+     , (5974,   8, 0x06003369) /* Icon */
+     , (5974,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5974,  28,       1739) /* Spell - FletchingMasterySelf1 */
      , (5974, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5974, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5974, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5974, 8000, 2875815953) /* PCAPRecordedObjectIID */;
+VALUES (5974, 8000, 0xAB697811) /* PCAPRecordedObjectIID */;

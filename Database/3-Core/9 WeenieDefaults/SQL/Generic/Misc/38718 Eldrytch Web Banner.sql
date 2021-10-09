@@ -21,16 +21,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38718,   1, 'Eldrytch Web Banner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38718,   1,   33560563) /* Setup */
-     , (38718,   3,  536870932) /* SoundTable */
-     , (38718,   8,  100689889) /* Icon */
+VALUES (38718,   1, 0x020017F3) /* Setup */
+     , (38718,   3, 0x20000014) /* SoundTable */
+     , (38718,   8, 0x060067E1) /* Icon */
      , (38718, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
      , (38718, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38718, 8005,      34945) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38718, 8040, 23855808, 110.6191, -40.77446, 6, 0.7004415, 0, 0, -0.7137098) /* PCAPRecordedLocation */
+VALUES (38718, 8040, 0x016C02C0, 110.6191, -40.77446, 6, 0.700442, 0, 0, -0.71371) /* PCAPRecordedLocation */
 /* @teleloc 0x016C02C0 [110.619100 -40.774460 6.000000] 0.700442 0.000000 0.000000 -0.713710 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38718, 8000, 2147903901) /* PCAPRecordedObjectIID */;
+VALUES (38718, 8000, 0x8006699D) /* PCAPRecordedObjectIID */;

@@ -37,20 +37,20 @@ VALUES (29050,   1, 'Ruschk Hunter Leggings') /* Name */
      , (29050,  16, 'A fine pair of chain leggings. A reward for service rendered in the Ruschk incursions upon Viamontian lands.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29050,   1,   33559350) /* Setup */
-     , (29050,   3,  536870932) /* SoundTable */
-     , (29050,   8,  100686416) /* Icon */
-     , (29050,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29050,   1, 0x02001336) /* Setup */
+     , (29050,   3, 0x20000014) /* SoundTable */
+     , (29050,   8, 0x06005A50) /* Icon */
+     , (29050,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29050, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (29050, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29050, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29050, 8040, 2315387390, 108.1926, -60.25579, 0, -0.6893999, 0, 0, -0.7243809) /* PCAPRecordedLocation */
+VALUES (29050, 8040, 0x8A0201FE, 108.1926, -60.25579, 0, -0.6894, 0, 0, -0.724381) /* PCAPRecordedLocation */
 /* @teleloc 0x8A0201FE [108.192600 -60.255790 0.000000] -0.689400 0.000000 0.000000 -0.724381 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29050, 8000, 2925066378) /* PCAPRecordedObjectIID */;
+VALUES (29050, 8000, 0xAE58F88A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29050,  1483,      2)  /* Impenetrability3 */

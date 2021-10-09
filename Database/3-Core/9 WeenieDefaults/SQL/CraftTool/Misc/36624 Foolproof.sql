@@ -36,18 +36,18 @@ VALUES (36624,   1, 'Foolproof') /* Name */
      , (36624,  15, 'Chips of imperial topaz. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36624,   1,   33554817) /* Setup */
-     , (36624,   3,  536870932) /* SoundTable */
-     , (36624,   6,   67111919) /* PaletteBase */
-     , (36624,   8,  100686616) /* Icon */
-     , (36624,  22,  872415275) /* PhysicsEffectTable */
-     , (36624,  50,  100673278) /* IconOverlay */
+VALUES (36624,   1, 0x02000181) /* Setup */
+     , (36624,   3, 0x20000014) /* SoundTable */
+     , (36624,   6, 0x04000BEF) /* PaletteBase */
+     , (36624,   8, 0x06005B18) /* Icon */
+     , (36624,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36624,  50, 0x060026FE) /* IconOverlay */
      , (36624, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (36624, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36624, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36624, 8000, 2982947058) /* PCAPRecordedObjectIID */;
+VALUES (36624, 8000, 0xB1CC28F2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36624, 67111920, 0, 0);

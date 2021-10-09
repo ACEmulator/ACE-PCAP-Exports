@@ -24,13 +24,13 @@ VALUES (45346,   1, 'Scroll of Sneak Attack Mastery Other VII') /* Name */
 Increases the target''s Sneak Attack skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45346,   1,   33554826) /* Setup */
-     , (45346,   8,  100692253) /* Icon */
-     , (45346,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45346,   1, 0x0200018A) /* Setup */
+     , (45346,   8, 0x0600711D) /* Icon */
+     , (45346,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45346,  28,       5873) /* Spell - SneakAttackMasteryOther7 */
      , (45346, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45346, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45346, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45346, 8000, 3691612086) /* PCAPRecordedObjectIID */;
+VALUES (45346, 8000, 0xDC0987B6) /* PCAPRecordedObjectIID */;

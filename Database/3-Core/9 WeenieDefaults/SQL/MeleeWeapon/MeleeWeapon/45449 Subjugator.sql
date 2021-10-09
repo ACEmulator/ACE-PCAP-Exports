@@ -52,32 +52,32 @@ VALUES (45449,   1, 'Subjugator') /* Name */
      , (45449,  16, 'The Subjugator is a weapon that has made its mark upon history.  The founder of the Roulean Empire, a warlord named Maleksoros, wielded this mace as his personal battle-weapon.  With the Subjugator, he personally defeated the leaders of every neighboring tribe, forming the seed of the Empire that would spread out to conquer almost all the known world.  Since then, the mace came to represent royal authority in all of the lands conquered by Maleksoros and his successors.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45449,   1,   33559379) /* Setup */
-     , (45449,   3,  536870932) /* SoundTable */
-     , (45449,   6,   67111919) /* PaletteBase */
-     , (45449,   8,  100686741) /* Icon */
-     , (45449,  22,  872415275) /* PhysicsEffectTable */
-     , (45449,  52,  100686604) /* IconUnderlay */
+VALUES (45449,   1, 0x02001353) /* Setup */
+     , (45449,   3, 0x20000014) /* SoundTable */
+     , (45449,   6, 0x04000BEF) /* PaletteBase */
+     , (45449,   8, 0x06005B95) /* Icon */
+     , (45449,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45449,  52, 0x06005B0C) /* IconUnderlay */
      , (45449, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (45449, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45449, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45449, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45449, 8000, 2803231182) /* PCAPRecordedObjectIID */;
+VALUES (45449, 8000, 0xA715E9CE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45449,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (45449,  3965,      2)  /* CANTRIPSTRENGTH3 */
-     , (45449,  4226,      2)  /* CANTRIPENDURANCE3 */
+VALUES (45449,  4226,      2)  /* CANTRIPENDURANCE3 */
+     , (45449,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
+     , (45449,  4624,      2)  /* HeavyWeaponsMasterySelf8 */
+     , (45449,  4578,      2)  /* LeadershipMasterySelf8 */
+     , (45449,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */
      , (45449,  4395,      2)  /* BloodDrinkerSelf8 */
      , (45449,  4400,      2)  /* DefenderSelf8 */
      , (45449,  4405,      2)  /* HeartSeekerSelf8 */
-     , (45449,  4578,      2)  /* LeadershipMasterySelf8 */
-     , (45449,  4624,      2)  /* SwordMasterySelf8 */
      , (45449,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45449,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
-     , (45449,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;
+     , (45449,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (45449,  3965,      2)  /* CANTRIPSTRENGTH3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45449, 67111920, 0, 0);

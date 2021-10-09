@@ -32,6 +32,7 @@ VALUES (7451,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7451,  22, True ) /* Inscribable */
+     , (7451,  23, True ) /* DestroyOnSell */
      , (7451,  69, False) /* IsSellable */
      , (7451,  99, True ) /* Ivoryable */;
 
@@ -48,25 +49,25 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7451,   1, 'Peerless Atlan Claw of Black Fire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7451,   1,   33557401) /* Setup */
-     , (7451,   3,  536870932) /* SoundTable */
-     , (7451,   6,   67111919) /* PaletteBase */
-     , (7451,   8,  100670533) /* Icon */
-     , (7451,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7451,   1, 0x02000B99) /* Setup */
+     , (7451,   3, 0x20000014) /* SoundTable */
+     , (7451,   6, 0x04000BEF) /* PaletteBase */
+     , (7451,   8, 0x06001C45) /* Icon */
+     , (7451,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7451, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (7451, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7451, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7451, 8000, 2154324815) /* PCAPRecordedObjectIID */;
+VALUES (7451, 8000, 0x8068634F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7451,   423,      2)  /* SwordMasterySelf6 */
-     , (7451,  1592,      2)  /* HeartSeekerSelf6 */
-     , (7451,  1605,      2)  /* DefenderSelf6 */
+VALUES (7451,  1605,      2)  /* DefenderSelf6 */
      , (7451,  1616,      2)  /* BloodDrinkerSelf6 */
      , (7451,  1627,      2)  /* SwiftKillerSelf6 */
-     , (7451,  1846,      2)  /* MagicYieldBlackFire */;
+     , (7451,   423,      2)  /* HeavyWeaponsMasterySelf6 */
+     , (7451,  1846,      2)  /* MagicYieldBlackFire */
+     , (7451,  1592,      2)  /* HeartSeekerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7451, 67111927, 0, 0);

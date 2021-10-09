@@ -48,19 +48,19 @@ VALUES (28215,   1, 'Brass Knuckles') /* Name */
      , (28215,  15, 'A cestus crafted from the tooth of a brass gromnie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28215,   1,   33558830) /* Setup */
-     , (28215,   3,  536870932) /* SoundTable */
-     , (28215,   8,  100676801) /* Icon */
-     , (28215,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28215,   1, 0x0200112E) /* Setup */
+     , (28215,   3, 0x20000014) /* SoundTable */
+     , (28215,   8, 0x060034C1) /* Icon */
+     , (28215,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28215, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (28215, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28215, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28215, 8000, 2192305233) /* PCAPRecordedObjectIID */;
+VALUES (28215, 8000, 0x82ABEC51) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28215,  1592,      2)  /* HeartSeekerSelf6 */
-     , (28215,  1604,      2)  /* DefenderSelf5 */
+VALUES (28215,  1604,      2)  /* DefenderSelf5 */
      , (28215,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (28215,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (28215,  1625,      2)  /* SwiftKillerSelf4 */
+     , (28215,  1592,      2)  /* HeartSeekerSelf6 */;

@@ -33,6 +33,7 @@ VALUES (11421,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11421,  22, True ) /* Inscribable */
+     , (11421,  23, True ) /* DestroyOnSell */
      , (11421,  69, False) /* IsSellable */
      , (11421,  99, True ) /* Ivoryable */;
 
@@ -53,16 +54,16 @@ VALUES (11421,   1, 'Palenqual''s Okane of the Vortex') /* Name */
      , (11421,  16, 'An okane fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11421,   1,   33557234) /* Setup */
-     , (11421,   3,  536870932) /* SoundTable */
-     , (11421,   8,  100672078) /* Icon */
-     , (11421,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11421,   1, 0x02000AF2) /* Setup */
+     , (11421,   3, 0x20000014) /* SoundTable */
+     , (11421,   8, 0x0600224E) /* Icon */
+     , (11421,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11421, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (11421, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11421, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11421, 8000, 3231495971) /* PCAPRecordedObjectIID */;
+VALUES (11421, 8000, 0xC09CB723) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11421,  2438,      2)  /* RockslideLesser */

@@ -22,16 +22,16 @@ VALUES (12483,   1, 'Celdiseth''s Beach Settlement Portal') /* Name */
      , (12483, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12483,   1,   33554867) /* Setup */
-     , (12483,   2,  150994947) /* MotionTable */
-     , (12483,   8,  100667499) /* Icon */
+VALUES (12483,   1, 0x020001B3) /* Setup */
+     , (12483,   2, 0x09000003) /* MotionTable */
+     , (12483,   8, 0x0600106B) /* Icon */
      , (12483, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12483, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12483, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12483, 8040, 2446458900, 67.8717, 76.9769, 344.4997, 0.863158, 0, 0, -0.504934) /* PCAPRecordedLocation */
+VALUES (12483, 8040, 0x91D20014, 67.8717, 76.9769, 344.4997, 0.863158, 0, 0, -0.504934) /* PCAPRecordedLocation */
 /* @teleloc 0x91D20014 [67.871700 76.976900 344.499700] 0.863158 0.000000 0.000000 -0.504934 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12483, 8000, 2031951873) /* PCAPRecordedObjectIID */;
+VALUES (12483, 8000, 0x791D2001) /* PCAPRecordedObjectIID */;

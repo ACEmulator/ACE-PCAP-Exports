@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (12154,   1,          2) /* ItemType - Armor */
      , (12154,   5,       1000) /* EncumbranceVal */
      , (12154,   9,    2097152) /* ValidLocations - Shield */
-     , (12154,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (12154,  16,          1) /* ItemUseable - No */
      , (12154,  18,          1) /* UiEffects - Magical */
      , (12154,  19,       5000) /* Value */
@@ -25,6 +24,7 @@ VALUES (12154,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12154,  22, True ) /* Inscribable */
+     , (12154,  23, True ) /* DestroyOnSell */
      , (12154,  69, False) /* IsSellable */
      , (12154,  94, True ) /* AppraisalHasAllowedActivator */
      , (12154,  99, True ) /* Ivoryable */;
@@ -47,11 +47,11 @@ VALUES (12154,   1, 'Imbued Shield of the Simulacra') /* Name */
      , (12154,  25, 'Pugilatrix') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12154,   1,   33557348) /* Setup */
-     , (12154,   3,  536870932) /* SoundTable */
-     , (12154,   6,   67111919) /* PaletteBase */
-     , (12154,   8,  100672135) /* Icon */
-     , (12154,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12154,   1, 0x02000B64) /* Setup */
+     , (12154,   3, 0x20000014) /* SoundTable */
+     , (12154,   6, 0x04000BEF) /* PaletteBase */
+     , (12154,   8, 0x06002287) /* Icon */
+     , (12154,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12154,  37,         48) /* ItemSkillLimit - Shield */
      , (12154, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (12154, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -59,22 +59,22 @@ VALUES (12154,   1,   33557348) /* Setup */
      , (12154, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12154, 8040, 459077, 70.0605, -80.0325, -0.07400001, 0.403672, 0.64903, -0.5373489, 0.356462) /* PCAPRecordedLocation */
+VALUES (12154, 8040, 0x00070145, 70.0605, -80.0325, -0.074, 0.403672, 0.64903, -0.537349, 0.356462) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.060500 -80.032500 -0.074000] 0.403672 0.649030 -0.537349 0.356462 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12154, 8000, 3560576355) /* PCAPRecordedObjectIID */
-     , (12154, 8008, 1343489058) /* PCAPRecordedParentIID */;
+VALUES (12154, 8000, 0xD43A1563) /* PCAPRecordedObjectIID */
+     , (12154, 8008, 0x50140422) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12154,  2053,      2)  /* ArmorSelf7 */
+VALUES (12154,  5892,      2)  /* CantripSneakAttackProwess2 */
+     , (12154,  2053,      2)  /* ArmorSelf7 */
      , (12154,  2059,      2)  /* CoordinationSelf7 */
-     , (12154,  2087,      2)  /* StrengthSelf7 */
-     , (12154,  2108,      2)  /* Impenetrability7 */
-     , (12154,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
      , (12154,  5849,      2)  /* ShieldMasteryOther7 */
+     , (12154,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
+     , (12154,  2087,      2)  /* StrengthSelf7 */
      , (12154,  5873,      2)  /* SneakAttackMasteryOther7 */
-     , (12154,  5892,      2)  /* CantripSneakAttackProwess2 */;
+     , (12154,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12154, 67112572, 0, 0);

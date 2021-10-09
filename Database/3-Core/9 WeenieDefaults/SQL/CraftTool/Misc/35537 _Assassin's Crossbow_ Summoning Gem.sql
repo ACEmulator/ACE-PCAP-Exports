@@ -23,20 +23,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35537,   1, '"Assassin''s Crossbow" Summoning Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35537,   1,   33556769) /* Setup */
-     , (35537,   3,  536870932) /* SoundTable */
-     , (35537,   6,   67111919) /* PaletteBase */
-     , (35537,   8,  100673039) /* Icon */
-     , (35537,  22,  872415275) /* PhysicsEffectTable */
-     , (35537,  50,  100673762) /* IconOverlay */
-     , (35537,  52,  100689403) /* IconUnderlay */
+VALUES (35537,   1, 0x02000921) /* Setup */
+     , (35537,   3, 0x20000014) /* SoundTable */
+     , (35537,   6, 0x04000BEF) /* PaletteBase */
+     , (35537,   8, 0x0600260F) /* Icon */
+     , (35537,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35537,  50, 0x060028E2) /* IconOverlay */
+     , (35537,  52, 0x060065FB) /* IconUnderlay */
      , (35537, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (35537, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (35537, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (35537, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35537, 8000, 2931348603) /* PCAPRecordedObjectIID */;
+VALUES (35537, 8000, 0xAEB8D47B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35537, 67111927, 0, 0);

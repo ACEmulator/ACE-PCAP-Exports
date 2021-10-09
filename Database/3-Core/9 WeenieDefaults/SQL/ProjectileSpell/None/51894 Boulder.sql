@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51894,   1, 'Boulder') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51894,   1,   33555863) /* Setup */
-     , (51894,   3,  536870971) /* SoundTable */
-     , (51894,   8,  100667500) /* Icon */
+VALUES (51894,   1, 0x02000597) /* Setup */
+     , (51894,   3, 0x2000003B) /* SoundTable */
+     , (51894,   8, 0x0600106C) /* Icon */
      , (51894,  28,         64) /* Spell - ShockWave1 */
      , (51894, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (51894, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (51894, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51894, 8040, 1498480973, 228.7935, -172.7025, 0.95, 0.1423034, 0, 0, -0.9898231) /* PCAPRecordedLocation */
+VALUES (51894, 8040, 0x5951014D, 228.7935, -172.7025, 0.95, 0.142303, 0, 0, -0.989823) /* PCAPRecordedLocation */
 /* @teleloc 0x5951014D [228.793500 -172.702500 0.950000] 0.142303 0.000000 0.000000 -0.989823 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51894, 8000, 3695760481) /* PCAPRecordedObjectIID */;
+VALUES (51894, 8000, 0xDC48D461) /* PCAPRecordedObjectIID */;

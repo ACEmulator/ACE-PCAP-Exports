@@ -43,23 +43,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33585,   1, 'Noble Relic Gauntlets of Strength') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33585,   1,   33554648) /* Setup */
-     , (33585,   3,  536870932) /* SoundTable */
-     , (33585,   8,  100677239) /* Icon */
-     , (33585,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33585,   1, 0x020000D8) /* Setup */
+     , (33585,   3, 0x20000014) /* SoundTable */
+     , (33585,   8, 0x06003677) /* Icon */
+     , (33585,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33585, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (33585, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33585, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33585, 8000, 2174543002) /* PCAPRecordedObjectIID */;
+VALUES (33585, 8000, 0x819CE49A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33585,  2108,      2)  /* Impenetrability7 */
-     , (33585,  2202,      2)  /* AxeMasteryOther7 */
-     , (33585,  2222,      2)  /* DaggerMasteryOther7 */
+VALUES (33585,  2202,      2)  /* LightWeaponsMasteryOther7 */
+     , (33585,  5097,      2)  /* TwoHandedMasteryOther7 */
+     , (33585,  2222,      2)  /* FinesseWeaponsMasteryOther7 */
      , (33585,  3573,      2)  /* InnerMight */
-     , (33585,  5097,      2)  /* TwoHandedMasteryOther7 */;
+     , (33585,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (33585, 0, 83894333, 83897524);

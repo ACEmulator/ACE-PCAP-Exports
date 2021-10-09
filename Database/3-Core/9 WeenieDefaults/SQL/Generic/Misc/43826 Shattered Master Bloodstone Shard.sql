@@ -16,13 +16,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43826,   1, 'Shattered Master Bloodstone Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43826,   1,   33561167) /* Setup */
-     , (43826,   3,  536870932) /* SoundTable */
-     , (43826,   8,  100691499) /* Icon */
-     , (43826,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43826,   1, 0x02001A4F) /* Setup */
+     , (43826,   3, 0x20000014) /* SoundTable */
+     , (43826,   8, 0x06006E2B) /* Icon */
+     , (43826,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43826, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (43826, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43826, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43826, 8000, 2153074290) /* PCAPRecordedObjectIID */;
+VALUES (43826, 8000, 0x80554E72) /* PCAPRecordedObjectIID */;

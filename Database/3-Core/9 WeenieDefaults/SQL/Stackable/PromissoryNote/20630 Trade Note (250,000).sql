@@ -21,16 +21,13 @@ VALUES (20630,   1, 'Trade Note (250,000)') /* Name */
      , (20630,  20, 'Trade Notes (250,000)') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20630,   1,   33554773) /* Setup */
-     , (20630,   3,  536870932) /* SoundTable */
-     , (20630,   8,  100673377) /* Icon */
-     , (20630,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20630,   1, 0x02000155) /* Setup */
+     , (20630,   3, 0x20000014) /* SoundTable */
+     , (20630,   8, 0x06002761) /* Icon */
+     , (20630,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20630, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (20630, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (20630, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20630, 8000, 2186220613) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20630, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
+VALUES (20630, 8000, 0x824F1445) /* PCAPRecordedObjectIID */;

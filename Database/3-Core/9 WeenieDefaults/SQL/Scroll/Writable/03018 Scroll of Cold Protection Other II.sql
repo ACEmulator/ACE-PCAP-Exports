@@ -24,13 +24,13 @@ VALUES (3018,   1, 'Scroll of Cold Protection Other II') /* Name */
 Reduces damage the target takes from Cold by 20%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3018,   1,   33554826) /* Setup */
-     , (3018,   8,  100676950) /* Icon */
-     , (3018,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3018,   1, 0x0200018A) /* Setup */
+     , (3018,   8, 0x06003556) /* Icon */
+     , (3018,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3018,  28,       1037) /* Spell - ColdProtectionOther2 */
      , (3018, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3018, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3018, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3018, 8000, 3622385916) /* PCAPRecordedObjectIID */;
+VALUES (3018, 8000, 0xD7E938FC) /* PCAPRecordedObjectIID */;

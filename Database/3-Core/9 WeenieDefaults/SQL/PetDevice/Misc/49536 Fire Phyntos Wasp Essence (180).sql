@@ -17,7 +17,7 @@ VALUES (49536,   1,        128) /* ItemType - Misc */
      , (49536, 105,          6) /* ItemWorkmanship */
      , (49536, 114,          0) /* Attuned - Normal */
      , (49536, 280,        213) /* SharedCooldown */
-     , (49536, 366,         54) /* UseRequiresSkill */
+     , (49536, 366,         54) /* UseRequiresSkill - Summoning */
      , (49536, 367,        530) /* UseRequiresSkillLevel */
      , (49536, 369,        170) /* UseRequiresLevel */
      , (49536, 370,         12) /* GearDamage */
@@ -39,20 +39,20 @@ VALUES (49536,   1, 'Fire Phyntos Wasp Essence (180)') /* Name */
      , (49536,  14, 'Use this essence to summon or dismiss your Fire Phyntos Wasp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49536,   1,   33554817) /* Setup */
-     , (49536,   3,  536870932) /* SoundTable */
-     , (49536,   6,   67111919) /* PaletteBase */
-     , (49536,   8,  100667450) /* Icon */
-     , (49536,  22,  872415275) /* PhysicsEffectTable */
-     , (49536,  50,  100693031) /* IconOverlay */
-     , (49536,  52,  100693024) /* IconUnderlay */
+VALUES (49536,   1, 0x02000181) /* Setup */
+     , (49536,   3, 0x20000014) /* SoundTable */
+     , (49536,   6, 0x04000BEF) /* PaletteBase */
+     , (49536,   8, 0x0600103A) /* Icon */
+     , (49536,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49536,  50, 0x06007427) /* IconOverlay */
+     , (49536,  52, 0x06007420) /* IconUnderlay */
      , (49536, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49536, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49536, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49536, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49536, 8000, 2150561821) /* PCAPRecordedObjectIID */;
+VALUES (49536, 8000, 0x802EF81D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49536, 67111923, 0, 0);

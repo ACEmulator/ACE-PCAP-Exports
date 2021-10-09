@@ -25,23 +25,23 @@ VALUES (9242,   1, 'Innocent Doll') /* Name */
      , (9242, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9242,   1,   33556996) /* Setup */
-     , (9242,   2,  150994984) /* MotionTable */
-     , (9242,   3,  536871022) /* SoundTable */
-     , (9242,   6,   67113150) /* PaletteBase */
-     , (9242,   8,  100671421) /* Icon */
-     , (9242,  22,  872415373) /* PhysicsEffectTable */
+VALUES (9242,   1, 0x02000A04) /* Setup */
+     , (9242,   2, 0x09000028) /* MotionTable */
+     , (9242,   3, 0x2000006E) /* SoundTable */
+     , (9242,   6, 0x040010BE) /* PaletteBase */
+     , (9242,   8, 0x06001FBD) /* Icon */
+     , (9242,  22, 0x3400008D) /* PhysicsEffectTable */
      , (9242,  30,         87) /* PhysicsScript - BreatheLightning */
      , (9242, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (9242, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (9242, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9242, 8040, 2537226266, 73.97066, 46.66272, 53.69468, 0.6261589, 0, 0, -0.7796955) /* PCAPRecordedLocation */
+VALUES (9242, 8040, 0x973B001A, 73.97066, 46.66272, 53.69468, 0.626159, 0, 0, -0.779696) /* PCAPRecordedLocation */
 /* @teleloc 0x973B001A [73.970660 46.662720 53.694680] 0.626159 0.000000 0.000000 -0.779696 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9242, 8000, 3685862421) /* PCAPRecordedObjectIID */;
+VALUES (9242, 8000, 0xDBB1CC15) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9242,   1, 150, 0, 0) /* Strength */
@@ -201,7 +201,9 @@ VALUES (9242, 9, 31763,  0, 0, 0, False) /* Create Frost Lugian Hammer (31763) f
      , (9242, 9, 21305,  0, 0, 0, False) /* Create Scroll of Flame Arc IV (21305) for ContainTreasure */
      , (9242, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
      , (9242, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
-     , (9242, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */;
+     , (9242, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (9242, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (9242, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9242, 67113154, 0, 0);

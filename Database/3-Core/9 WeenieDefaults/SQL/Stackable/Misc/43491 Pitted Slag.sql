@@ -17,19 +17,22 @@ VALUES (43491,   1,        128) /* ItemType - Misc */
      , (43491, 114,          1) /* Attuned - Attuned */
      , (43491, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (43491,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43491,   1, 'Pitted Slag') /* Name */
      , (43491,  14, 'Use this slag to show your triumph over your enemies in exchange for goods.') /* Use */
      , (43491,  16, 'The slag that is left from the acid bath.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43491,   1,   33554802) /* Setup */
-     , (43491,   3,  536870932) /* SoundTable */
-     , (43491,   8,  100691627) /* Icon */
-     , (43491,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43491,   1, 0x02000172) /* Setup */
+     , (43491,   3, 0x20000014) /* SoundTable */
+     , (43491,   8, 0x06006EAB) /* Icon */
+     , (43491,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43491, 8001,      28688) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container */
      , (43491, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43491, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43491, 8000, 3622211825) /* PCAPRecordedObjectIID */;
+VALUES (43491, 8000, 0xD7E690F1) /* PCAPRecordedObjectIID */;

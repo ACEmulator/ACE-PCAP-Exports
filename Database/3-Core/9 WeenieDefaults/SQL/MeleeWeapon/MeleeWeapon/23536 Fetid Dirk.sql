@@ -42,20 +42,20 @@ VALUES (23536,   1, 'Fetid Dirk') /* Name */
      , (23536,  16, 'A dirk fashioned from the fetid tooth of a reedshark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23536,   1,   33558184) /* Setup */
-     , (23536,   3,  536870932) /* SoundTable */
-     , (23536,   8,  100674031) /* Icon */
-     , (23536,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23536,   1, 0x02000EA8) /* Setup */
+     , (23536,   3, 0x20000014) /* SoundTable */
+     , (23536,   8, 0x060029EF) /* Icon */
+     , (23536,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23536, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23536, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23536, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23536, 8000, 3682000202) /* PCAPRecordedObjectIID */;
+VALUES (23536, 8000, 0xDB76DD4A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23536,  1135,      2)  /* PiercingProtectionSelf3 */
-     , (23536,  1589,      2)  /* HeartSeekerSelf3 */
-     , (23536,  1602,      2)  /* DefenderSelf3 */
+VALUES (23536,  1602,      2)  /* DefenderSelf3 */
      , (23536,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (23536,  1624,      2)  /* SwiftKillerSelf3 */;
+     , (23536,  1624,      2)  /* SwiftKillerSelf3 */
+     , (23536,  1135,      2)  /* PiercingProtectionSelf3 */
+     , (23536,  1589,      2)  /* HeartSeekerSelf3 */;

@@ -30,18 +30,18 @@ VALUES (38515,   1, 'Eldrytch Web Vambraces Chest') /* Name */
      , (38515, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38515,   1,   33554556) /* Setup */
-     , (38515,   2,  150994948) /* MotionTable */
-     , (38515,   3,  536870945) /* SoundTable */
-     , (38515,   8,  100667426) /* Icon */
-     , (38515,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38515,   1, 0x0200007C) /* Setup */
+     , (38515,   2, 0x09000004) /* MotionTable */
+     , (38515,   3, 0x20000021) /* SoundTable */
+     , (38515,   8, 0x06001022) /* Icon */
+     , (38515,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38515, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (38515, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (38515, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38515, 8040, 12058885, 55.8833, -42.5492, -24, -0.7158841, 0, 0, -0.6982191) /* PCAPRecordedLocation */
+VALUES (38515, 8040, 0x00B80105, 55.8833, -42.5492, -24, -0.715884, 0, 0, -0.698219) /* PCAPRecordedLocation */
 /* @teleloc 0x00B80105 [55.883300 -42.549200 -24.000000] -0.715884 0.000000 0.000000 -0.698219 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38515, 8000, 1879801898) /* PCAPRecordedObjectIID */;
+VALUES (38515, 8000, 0x700B802A) /* PCAPRecordedObjectIID */;

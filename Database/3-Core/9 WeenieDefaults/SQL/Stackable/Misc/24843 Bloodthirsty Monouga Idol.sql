@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24843,   1, 'Bloodthirsty Monouga Idol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24843,   1,   33556903) /* Setup */
-     , (24843,   3,  536870932) /* SoundTable */
-     , (24843,   6,   67111919) /* PaletteBase */
-     , (24843,   8,  100674495) /* Icon */
-     , (24843,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24843,   1, 0x020009A7) /* Setup */
+     , (24843,   3, 0x20000014) /* SoundTable */
+     , (24843,   6, 0x04000BEF) /* PaletteBase */
+     , (24843,   8, 0x06002BBF) /* Icon */
+     , (24843,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24843, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (24843, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24843, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24843, 8000, 2192194805) /* PCAPRecordedObjectIID */;
+VALUES (24843, 8000, 0x82AA3CF5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24843, 67111921, 0, 0);

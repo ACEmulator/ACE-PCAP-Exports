@@ -24,13 +24,13 @@ VALUES (2909,   1, 'Scroll of Acid Stream IV') /* Name */
 Shoots a stream of acid at the target. The stream does 52-105 points of acid damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2909,   1,   33554826) /* Setup */
-     , (2909,   8,  100677026) /* Icon */
-     , (2909,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2909,   1, 0x0200018A) /* Setup */
+     , (2909,   8, 0x060035A2) /* Icon */
+     , (2909,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2909,  28,         61) /* Spell - AcidStream4 */
      , (2909, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2909, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2909, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2909, 8000, 2884281115) /* PCAPRecordedObjectIID */;
+VALUES (2909, 8000, 0xABEAA31B) /* PCAPRecordedObjectIID */;

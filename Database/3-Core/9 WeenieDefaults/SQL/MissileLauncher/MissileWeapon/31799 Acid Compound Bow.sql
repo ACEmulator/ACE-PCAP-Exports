@@ -15,7 +15,7 @@ VALUES (31799,   1,        256) /* ItemType - MissileWeapon */
      , (31799,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31799,  49,         39) /* WeaponTime */
      , (31799,  50,          1) /* AmmoType - Arrow */
-     , (31799,  51,          2) /* CombatUse - Missle */
+     , (31799,  51,          2) /* CombatUse - Missile */
      , (31799,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31799, 105,          7) /* ItemWorkmanship */
      , (31799, 106,        370) /* ItemSpellcraft */
@@ -53,27 +53,24 @@ VALUES (31799,   1, 'Acid Compound Bow') /* Name */
      , (31799,  16, 'Acid Compound Bow of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31799,   1,   33559669) /* Setup */
-     , (31799,   3,  536870932) /* SoundTable */
-     , (31799,   6,   67116700) /* PaletteBase */
-     , (31799,   8,  100688049) /* Icon */
-     , (31799,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31799,   1, 0x02001475) /* Setup */
+     , (31799,   3, 0x20000014) /* SoundTable */
+     , (31799,   6, 0x04001E9C) /* PaletteBase */
+     , (31799,   8, 0x060060B1) /* Icon */
+     , (31799,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31799,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (31799, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31799, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31799, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31799, 8000, 3485232469) /* PCAPRecordedObjectIID */;
+VALUES (31799, 8000, 0xCFBC6D55) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31799,  4299,      2)  /* EnduranceSelf8 */
-     , (31799,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (31799,  4417,      2)  /* SwiftKillerSelf8 */
-     , (31799,  6107,      2)  /* CantripStrength4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31799, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
+VALUES (31799,  4417,      2)  /* SwiftKillerSelf8 */
+     , (31799,  4299,      2)  /* EnduranceSelf8 */
+     , (31799,  6107,      2)  /* CantripStrength4 */
+     , (31799,  4395,      2)  /* BloodDrinkerSelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31799, 67116700, 1, 100)

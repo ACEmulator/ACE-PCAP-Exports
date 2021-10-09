@@ -24,17 +24,17 @@ VALUES (8919,   1, 'Scroll of Acid Streak VI') /* Name */
 Sends a stream of acid streaking towards the target. The stream does 36-71 points of acid damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8919,   1,   33554826) /* Setup */
-     , (8919,   8,  100677026) /* Icon */
-     , (8919,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8919,   1, 0x0200018A) /* Setup */
+     , (8919,   8, 0x060035A2) /* Icon */
+     , (8919,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8919,  28,       1795) /* Spell - AcidStreak6 */
      , (8919, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (8919, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8919, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8919, 8040, 18809103, 31.60972, -36.4938, 4.012663, 0.9998947, 0, 0, -0.01451401) /* PCAPRecordedLocation */
+VALUES (8919, 8040, 0x011F010F, 31.60972, -36.4938, 4.012663, 0.999895, 0, 0, -0.014514) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010F [31.609720 -36.493800 4.012663] 0.999895 0.000000 0.000000 -0.014514 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8919, 8000, 3706554453) /* PCAPRecordedObjectIID */;
+VALUES (8919, 8000, 0xDCED8855) /* PCAPRecordedObjectIID */;

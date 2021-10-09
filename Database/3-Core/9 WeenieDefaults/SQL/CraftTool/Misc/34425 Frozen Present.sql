@@ -26,13 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34425,   1, 'Frozen Present') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34425,   1,   33560152) /* Setup */
-     , (34425,   3,  536870932) /* SoundTable */
-     , (34425,   8,  100689288) /* Icon */
-     , (34425,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34425,   1, 0x02001658) /* Setup */
+     , (34425,   3, 0x20000014) /* SoundTable */
+     , (34425,   8, 0x06006588) /* Icon */
+     , (34425,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34425, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (34425, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34425, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34425, 8000, 3637155334) /* PCAPRecordedObjectIID */;
+VALUES (34425, 8000, 0xD8CA9606) /* PCAPRecordedObjectIID */;

@@ -27,18 +27,18 @@ VALUES (23887,   1, 'Treasure Room Door') /* Name */
      , (23887, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23887,   1,   33555023) /* Setup */
-     , (23887,   2,  150994966) /* MotionTable */
-     , (23887,   3,  536870946) /* SoundTable */
-     , (23887,   8,  100668183) /* Icon */
-     , (23887,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23887,   1, 0x0200024F) /* Setup */
+     , (23887,   2, 0x09000016) /* MotionTable */
+     , (23887,   3, 0x20000022) /* SoundTable */
+     , (23887,   8, 0x06001317) /* Icon */
+     , (23887,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23887, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (23887, 8003,       4116) /* PCAPRecordedObjectDesc - Stuck, Attackable, Door */
      , (23887, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23887, 8040, 1631781142, 10, -16.7749, -3.72529E-09, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (23887, 8040, 0x61430116, 10, -16.7749, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x61430116 [10.000000 -16.774900 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23887, 8000, 1981034522) /* PCAPRecordedObjectIID */;
+VALUES (23887, 8000, 0x7614301A) /* PCAPRecordedObjectIID */;

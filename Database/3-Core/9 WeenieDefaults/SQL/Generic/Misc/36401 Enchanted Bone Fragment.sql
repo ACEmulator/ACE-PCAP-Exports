@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36401,   1, 'Enchanted Bone Fragment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36401,   1,   33556593) /* Setup */
-     , (36401,   3,  536870932) /* SoundTable */
-     , (36401,   8,  100670681) /* Icon */
-     , (36401,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36401,   1, 0x02000871) /* Setup */
+     , (36401,   3, 0x20000014) /* SoundTable */
+     , (36401,   8, 0x06001CD9) /* Icon */
+     , (36401,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36401, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (36401, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36401, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36401, 8000, 3298857385) /* PCAPRecordedObjectIID */;
+VALUES (36401, 8000, 0xC4A091A9) /* PCAPRecordedObjectIID */;

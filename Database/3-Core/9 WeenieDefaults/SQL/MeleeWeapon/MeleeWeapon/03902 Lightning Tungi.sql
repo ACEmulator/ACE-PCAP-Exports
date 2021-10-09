@@ -47,13 +47,13 @@ VALUES (3902,   1, 'Lightning Tungi') /* Name */
      , (3902,  16, 'Lightning Tungi') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3902,   1,   33555805) /* Setup */
-     , (3902,   3,  536870932) /* SoundTable */
-     , (3902,   8,  100669055) /* Icon */
-     , (3902,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3902,   1, 0x0200055D) /* Setup */
+     , (3902,   3, 0x20000014) /* SoundTable */
+     , (3902,   8, 0x0600167F) /* Icon */
+     , (3902,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3902, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3902, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3902, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3902, 8000, 3355027013) /* PCAPRecordedObjectIID */;
+VALUES (3902, 8000, 0xC7F9A645) /* PCAPRecordedObjectIID */;

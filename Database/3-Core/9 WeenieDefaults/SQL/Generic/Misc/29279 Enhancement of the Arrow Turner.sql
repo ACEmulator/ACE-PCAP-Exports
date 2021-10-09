@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29279,   1, 'Enhancement of the Arrow Turner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29279,   1,   33554809) /* Setup */
-     , (29279,   3,  536870932) /* SoundTable */
-     , (29279,   8,  100686474) /* Icon */
-     , (29279,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29279,   1, 0x02000179) /* Setup */
+     , (29279,   3, 0x20000014) /* SoundTable */
+     , (29279,   8, 0x06005A8A) /* Icon */
+     , (29279,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29279, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (29279, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29279, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29279, 8000, 2369868757) /* PCAPRecordedObjectIID */;
+VALUES (29279, 8000, 0x8D4153D5) /* PCAPRecordedObjectIID */;

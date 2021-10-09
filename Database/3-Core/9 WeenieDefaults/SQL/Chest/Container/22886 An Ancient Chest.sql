@@ -28,21 +28,21 @@ VALUES (22886,   1, 'An Ancient Chest') /* Name */
      , (22886, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22886,   1,   33554556) /* Setup */
-     , (22886,   2,  150994948) /* MotionTable */
-     , (22886,   3,  536870945) /* SoundTable */
-     , (22886,   8,  100667424) /* Icon */
-     , (22886,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22886,   1, 0x0200007C) /* Setup */
+     , (22886,   2, 0x09000004) /* MotionTable */
+     , (22886,   3, 0x20000021) /* SoundTable */
+     , (22886,   8, 0x06001020) /* Icon */
+     , (22886,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22886, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (22886, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (22886, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22886, 8040, 1447690604, 93.7005, -19.2838, 0, 1, 0, 0, -0.000188) /* PCAPRecordedLocation */
+VALUES (22886, 8040, 0x564A016C, 93.7005, -19.2838, 0, 1, 0, 0, -0.000188) /* PCAPRecordedLocation */
 /* @teleloc 0x564A016C [93.700500 -19.283800 0.000000] 1.000000 0.000000 0.000000 -0.000188 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22886, 8000, 1969528835) /* PCAPRecordedObjectIID */;
+VALUES (22886, 8000, 0x7564A003) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22886, -1, 22888, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Chrysoberyl compound (22888) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

@@ -26,17 +26,17 @@ VALUES (34094,   1, 'T-mon Backpack Straps') /* Name */
      , (34094,  16, 'A set of straps used to make a Tremendous Monouga skull into a useful backpack.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34094,   1,   33554817) /* Setup */
-     , (34094,   3,  536870932) /* SoundTable */
-     , (34094,   6,   67111919) /* PaletteBase */
-     , (34094,   8,  100689220) /* Icon */
-     , (34094,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34094,   1, 0x02000181) /* Setup */
+     , (34094,   3, 0x20000014) /* SoundTable */
+     , (34094,   6, 0x04000BEF) /* PaletteBase */
+     , (34094,   8, 0x06006544) /* Icon */
+     , (34094,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34094, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (34094, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34094, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34094, 8000, 2909001278) /* PCAPRecordedObjectIID */;
+VALUES (34094, 8000, 0xAD63D63E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34094, 67111918, 0, 0);

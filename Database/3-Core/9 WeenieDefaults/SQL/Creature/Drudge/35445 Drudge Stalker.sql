@@ -26,22 +26,22 @@ VALUES (35445,   1, 'Drudge Stalker') /* Name */
      , (35445, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35445,   1,   33556445) /* Setup */
-     , (35445,   2,  150994952) /* MotionTable */
-     , (35445,   3,  536870919) /* SoundTable */
-     , (35445,   6,   67112812) /* PaletteBase */
-     , (35445,   8,  100667445) /* Icon */
-     , (35445,  22,  872415258) /* PhysicsEffectTable */
+VALUES (35445,   1, 0x020007DD) /* Setup */
+     , (35445,   2, 0x09000008) /* MotionTable */
+     , (35445,   3, 0x20000007) /* SoundTable */
+     , (35445,   6, 0x04000F6C) /* PaletteBase */
+     , (35445,   8, 0x06001035) /* Icon */
+     , (35445,  22, 0x3400001A) /* PhysicsEffectTable */
      , (35445, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35445, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35445, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35445, 8040, 3164405813, 161.6301, 98.05019, 1.10455, -0.8058286, 0, 0, -0.5921488) /* PCAPRecordedLocation */
+VALUES (35445, 8040, 0xBC9D0035, 161.6301, 98.05019, 1.10455, -0.805829, 0, 0, -0.592149) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9D0035 [161.630100 98.050190 1.104550] -0.805829 0.000000 0.000000 -0.592149 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35445, 8000, 3701931223) /* PCAPRecordedObjectIID */;
+VALUES (35445, 8000, 0xDCA6FCD7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35445,   1, 160, 0, 0) /* Strength */
@@ -64,7 +64,8 @@ VALUES (35445, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wie
      , (35445, 2, 47291,  1, 0, 0, False) /* Create Fire Board with Nail (47291) for Wield */
      , (35445, 2, 47310,  1, 0, 0, False) /* Create Frost Board with Nail (47310) for Wield */
      , (35445, 2, 47348,  1, 0, 0, False) /* Create Club (47348) for Wield */
-     , (35445, 2, 47405,  1, 0, 0, False) /* Create Frost Club (47405) for Wield */;
+     , (35445, 2, 47405,  1, 0, 0, False) /* Create Frost Club (47405) for Wield */
+     , (35445, 2, 47234,  1, 0, 0, False) /* Create Acid Board with Nail (47234) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35445, 67112819, 0, 0);

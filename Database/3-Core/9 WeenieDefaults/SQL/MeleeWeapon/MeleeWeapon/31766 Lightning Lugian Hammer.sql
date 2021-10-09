@@ -54,23 +54,23 @@ VALUES (31766,   1, 'Lightning Lugian Hammer') /* Name */
      , (31766,  16, 'Lightning Lugian Hammer of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31766,   1,   33559670) /* Setup */
-     , (31766,   3,  536870932) /* SoundTable */
-     , (31766,   6,   67116700) /* PaletteBase */
-     , (31766,   8,  100688039) /* Icon */
-     , (31766,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31766,   1, 0x02001476) /* Setup */
+     , (31766,   3, 0x20000014) /* SoundTable */
+     , (31766,   6, 0x04001E9C) /* PaletteBase */
+     , (31766,   8, 0x060060A7) /* Icon */
+     , (31766,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31766,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (31766, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31766, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31766, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31766, 8000, 3682457029) /* PCAPRecordedObjectIID */;
+VALUES (31766, 8000, 0xDB7DD5C5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31766,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (31766,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */
+     , (31766,  2096,      2)  /* BloodDrinkerSelf7 */
      , (31766,  2101,      2)  /* DefenderSelf7 */
-     , (31766,  2566,      2)  /* CANTRIPSWORDAPTITUDE1 */
      , (31766,  5881,      2)  /* SneakAttackMasterySelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

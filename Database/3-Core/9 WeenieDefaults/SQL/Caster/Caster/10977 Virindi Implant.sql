@@ -10,6 +10,7 @@ VALUES (10977,   1,      32768) /* ItemType - Caster */
      , (10977,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (10977,  18,          1) /* UiEffects - Magical */
      , (10977,  19,      11450) /* Value */
+     , (10977,  46,        512) /* DefaultCombatStyle - Magic */
      , (10977,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10977,  94,         16) /* TargetType - Creature */
      , (10977, 106,        270) /* ItemSpellcraft */
@@ -32,10 +33,10 @@ VALUES (10977,   1, 'Virindi Implant') /* Name */
      , (10977,  16, 'A reddish, veined lump, pulled from the chest cavity of a Hea Tumerok hunting reedshark named Sahkurea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10977,   1,   33557289) /* Setup */
-     , (10977,   3,  536870932) /* SoundTable */
-     , (10977,   8,  100671871) /* Icon */
-     , (10977,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10977,   1, 0x02000B29) /* Setup */
+     , (10977,   3, 0x20000014) /* SoundTable */
+     , (10977,   8, 0x0600217F) /* Icon */
+     , (10977,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10977,  28,       2419) /* Spell - PanicAttack */
      , (10977,  37,         31) /* ItemSkillLimit - CreatureEnchantment */
      , (10977, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
@@ -43,7 +44,7 @@ VALUES (10977,   1,   33557289) /* Setup */
      , (10977, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10977, 8000, 2981038652) /* PCAPRecordedObjectIID */;
+VALUES (10977, 8000, 0xB1AF0A3C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10977,  2451,      2)  /* HuntersAcumen */;

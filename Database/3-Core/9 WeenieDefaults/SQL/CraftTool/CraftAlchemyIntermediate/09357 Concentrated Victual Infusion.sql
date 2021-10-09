@@ -21,17 +21,17 @@ VALUES (9357,   1, 'Concentrated Victual Infusion') /* Name */
      , (9357,  20, 'Concentrated Victual Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9357,   1,   33555965) /* Setup */
-     , (9357,   3,  536870932) /* SoundTable */
-     , (9357,   6,   67111919) /* PaletteBase */
-     , (9357,   8,  100671581) /* Icon */
-     , (9357,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9357,   1, 0x020005FD) /* Setup */
+     , (9357,   3, 0x20000014) /* SoundTable */
+     , (9357,   6, 0x04000BEF) /* PaletteBase */
+     , (9357,   8, 0x0600205D) /* Icon */
+     , (9357,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9357, 8001,  268988441) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, HookType */
      , (9357, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9357, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9357, 8000, 2885468819) /* PCAPRecordedObjectIID */;
+VALUES (9357, 8000, 0xABFCC293) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9357, 67112572, 0, 0);

@@ -37,13 +37,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34589,   1, 'Repugnant Melee Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34589,   1,   33560197) /* Setup */
-     , (34589,   3,  536870932) /* SoundTable */
-     , (34589,   8,  100677030) /* Icon */
-     , (34589,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34589,   1, 0x02001685) /* Setup */
+     , (34589,   3, 0x20000014) /* SoundTable */
+     , (34589,   8, 0x060035A6) /* Icon */
+     , (34589,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34589, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (34589, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34589, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34589, 8000, 3708768715) /* PCAPRecordedObjectIID */;
+VALUES (34589, 8000, 0xDD0F51CB) /* PCAPRecordedObjectIID */;

@@ -43,17 +43,17 @@ VALUES (1437,   1, 'Fire Arrow') /* Name */
      , (1437,  16, 'A flaming arrow that appears to do fire damage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1437,   1,   33555406) /* Setup */
-     , (1437,   3,  536870932) /* SoundTable */
-     , (1437,   6,   67111919) /* PaletteBase */
-     , (1437,   8,  100670195) /* Icon */
-     , (1437,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1437,   1, 0x020003CE) /* Setup */
+     , (1437,   3, 0x20000014) /* SoundTable */
+     , (1437,   6, 0x04000BEF) /* PaletteBase */
+     , (1437,   8, 0x06001AF3) /* Icon */
+     , (1437,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1437, 8001,  270627736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (1437, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (1437, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1437, 8000, 2151960080) /* PCAPRecordedObjectIID */;
+VALUES (1437, 8000, 0x80444E10) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1437, 67111921, 0, 0);

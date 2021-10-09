@@ -48,26 +48,26 @@ VALUES (32975,   1, 'Princely Runed Dolabra') /* Name */
      , (32975,  15, 'A dolabra crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32975,   1,   33559871) /* Setup */
-     , (32975,   3,  536870932) /* SoundTable */
-     , (32975,   6,   67115558) /* PaletteBase */
-     , (32975,   8,  100686925) /* Icon */
-     , (32975,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32975,   1, 0x0200153F) /* Setup */
+     , (32975,   3, 0x20000014) /* SoundTable */
+     , (32975,   6, 0x04001A26) /* PaletteBase */
+     , (32975,   8, 0x06005C4D) /* Icon */
+     , (32975,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32975,  30,         88) /* PhysicsScript - Create */
-     , (32975,  50,  100688913) /* IconOverlay */
+     , (32975,  50, 0x06006411) /* IconOverlay */
      , (32975,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (32975, 8001, 1344356888) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (32975, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32975, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32975, 8000, 2174252762) /* PCAPRecordedObjectIID */;
+VALUES (32975, 8000, 0x819876DA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32975,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (32975,  2116,      2)  /* SwiftKillerSelf7 */
+     , (32975,  2096,      2)  /* BloodDrinkerSelf7 */
      , (32975,  2101,      2)  /* DefenderSelf7 */
-     , (32975,  2106,      2)  /* HeartSeekerSelf7 */
-     , (32975,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (32975,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32975, 67116378, 0, 0);

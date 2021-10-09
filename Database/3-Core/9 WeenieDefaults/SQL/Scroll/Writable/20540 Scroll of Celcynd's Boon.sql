@@ -24,13 +24,13 @@ VALUES (20540,   1, 'Scroll of Celcynd''s Boon') /* Name */
 Increases the target''s Item Enchantment skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20540,   1,   33554826) /* Setup */
-     , (20540,   8,  100676460) /* Icon */
-     , (20540,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20540,   1, 0x0200018A) /* Setup */
+     , (20540,   8, 0x0600336C) /* Icon */
+     , (20540,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20540,  28,       2248) /* Spell - ItemEnchantmentMasteryOther7 */
      , (20540, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20540, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20540, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20540, 8000, 3681315385) /* PCAPRecordedObjectIID */;
+VALUES (20540, 8000, 0xDB6C6A39) /* PCAPRecordedObjectIID */;

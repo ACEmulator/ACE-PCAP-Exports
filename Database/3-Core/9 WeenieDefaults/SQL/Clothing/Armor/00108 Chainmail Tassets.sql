@@ -45,24 +45,21 @@ VALUES (108,   1, 'Chainmail Tassets') /* Name */
      , (108,  16, 'Chainmail Tassets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (108,   1,   33554656) /* Setup */
-     , (108,   3,  536870932) /* SoundTable */
-     , (108,   6,   67108990) /* PaletteBase */
-     , (108,   8,  100673325) /* Icon */
-     , (108,  22,  872415275) /* PhysicsEffectTable */
+VALUES (108,   1, 0x020000E0) /* Setup */
+     , (108,   3, 0x20000014) /* SoundTable */
+     , (108,   6, 0x0400007E) /* PaletteBase */
+     , (108,   8, 0x0600272D) /* Icon */
+     , (108,  22, 0x3400002B) /* PhysicsEffectTable */
      , (108,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (108, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (108, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (108, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (108, 8000, 3701158950) /* PCAPRecordedObjectIID */;
+VALUES (108, 8000, 0xDC9B3426) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (108,  1486,      2)  /* Impenetrability6 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (108, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (108, 67112528, 136, 16);

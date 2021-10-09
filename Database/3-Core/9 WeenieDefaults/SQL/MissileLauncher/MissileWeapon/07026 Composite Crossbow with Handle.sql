@@ -16,7 +16,7 @@ VALUES (7026,   1,        256) /* ItemType - MissileWeapon */
      , (7026,  48,         47) /* WeaponSkill - MissileWeapons */
      , (7026,  49,         90) /* WeaponTime */
      , (7026,  50,          2) /* AmmoType - Bolt */
-     , (7026,  51,          2) /* CombatUse - Missle */
+     , (7026,  51,          2) /* CombatUse - Missile */
      , (7026,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7026, 106,        200) /* ItemSpellcraft */
      , (7026, 107,          0) /* ItemCurMana */
@@ -51,21 +51,21 @@ VALUES (7026,   1, 'Composite Crossbow with Handle') /* Name */
      , (7026,  25, 'Eridyn of the Dark') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7026,   1,   33556596) /* Setup */
-     , (7026,   3,  536870932) /* SoundTable */
-     , (7026,   6,   67112869) /* PaletteBase */
-     , (7026,   8,  100670691) /* Icon */
-     , (7026,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7026,   1, 0x02000874) /* Setup */
+     , (7026,   3, 0x20000014) /* SoundTable */
+     , (7026,   6, 0x04000FA5) /* PaletteBase */
+     , (7026,   8, 0x06001CE3) /* Icon */
+     , (7026,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7026, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (7026, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7026, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7026, 8000, 3261430908) /* PCAPRecordedObjectIID */;
+VALUES (7026, 8000, 0xC2657C7C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7026,   465,      2)  /* BowMasteryOther5 */
-     , (7026,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (7026,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (7026,   465,      2)  /* MissileWeaponsMasteryOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7026, 67112870, 0, 0);

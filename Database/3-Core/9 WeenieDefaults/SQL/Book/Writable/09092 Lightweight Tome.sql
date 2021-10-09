@@ -16,7 +16,8 @@ VALUES (9092,   1,       8192) /* ItemType - Writable */
      , (9092, 8043,         70) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9092,  22, True ) /* Inscribable */;
+VALUES (9092,  22, True ) /* Inscribable */
+     , (9092,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9092,  39,    1.33) /* DefaultScale */
@@ -29,23 +30,23 @@ VALUES (9092,   1, 'Lightweight Tome') /* Name */
      , (9092,  16, 'A large, empty tome, bound in what appears to be finely cut amethyst. It is very lightweight. There are fragrant late summer blossoms impressed in its pages. The name Rurinah is written in iridescent ink on the first page.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9092,   1,   33556929) /* Setup */
-     , (9092,   3,  536870932) /* SoundTable */
-     , (9092,   8,  100671237) /* Icon */
-     , (9092,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9092,   1, 0x020009C1) /* Setup */
+     , (9092,   3, 0x20000014) /* SoundTable */
+     , (9092,   8, 0x06001F05) /* Icon */
+     , (9092,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9092, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (9092, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (9092, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9092,   7, 1342528504) /* Scribe */
-     , (9092, 8000, 2988580061) /* PCAPRecordedObjectIID */;
+VALUES (9092,   7, 0x50055BF8) /* Scribe */
+     , (9092, 8000, 0xB2221CDD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9092, 70, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (9092, 0, 1342295192, 'Nozo Kai', 'Password is cheese', False, 'N. Dires Portal 21n, 25.9e (GW)
+VALUES (9092, 0, 1342295192, 'Nozo Kai', 'prewritten', False, 'N. Dires Portal 21n, 25.9e (GW)
 Tool Vault 26.5n, 45.8w (N dires)
 Refinery 76n, 49.1w (n dires)
 Idol Spawning Grounds 72.3s, 87.5e (V.I)
@@ -61,7 +62,7 @@ Tusker camps 70.8s 65.7w (OP) 70.8s 64.7
 M rings yanshi to 11.2S 43.6E, Holtburg 41.9N 33.3E, Aljalima 8.2N 5.4E, Zekihail, 16.0N 1.8E, Tufa 14.0S 5.3E
 
 small static tummie spawn its 88.4s 75.4w"')
-     , (9092, 1, 1342295192, 'Nozo Kai', 'Password is cheese', False, 'S. Dires portal 62.2s, 77.1e (mayoi)
+     , (9092, 1, 1342295192, 'Nozo Kai', 'prewritten', False, 'S. Dires portal 62.2s, 77.1e (mayoi)
 Slaughterhouse 80.6s, 37.4w (S. dires)
 Hieromancer''s halls 4.4s, 82.8w(Slaughter)
 Massacre II''s house 30.4n, 69.9e (arwic)
@@ -74,7 +75,7 @@ Empy Ghrotto 52.7n, 73.1w (plateau) 40+ Legionare pincer quest
 Shendolain Ves 53.8s, 59.6w (OP)
 Swamp Gardens 22.5s, 45.8e 
 Life Essence 30.5s 74.3w (AB)')
-     , (9092, 2, 1342295192, 'Nozo Kai', 'Password is cheese', False, 'Swamp Gardens 22.5s, 45.8e
+     , (9092, 2, 1342295192, 'Nozo Kai', 'prewritten', False, 'Swamp Gardens 22.5s, 45.8e
 Halls of helm 18.7n 1.6e (zaikail)
 Tufa 14.2 s, 5.4e (yaraq) 13.3s, 5.1e Mn
 Hamaud''s Chamber 82.4s, 19.9e (zaikail)
@@ -88,7 +89,7 @@ your portal is at 66.2n 14.3e (crater)
 Mansion 41.5s 65.5e
 White Rabbit 45.6S, 87.0W."
 onlinegamegimp.com')
-     , (9092, 3, 1342295192, 'Nozo Kai', 'Password is cheese', False, 'Your lightning coruscates over Og Angel''s mortal remains!
+     , (9092, 3, 1342295192, 'Nozo Kai', 'prewritten', False, 'Your lightning coruscates over Og Angel''s mortal remains!
 You killed Squralsun the Squrall!
 Messer died!
 You killed Ring Wraith!
@@ -98,10 +99,10 @@ Levithone is utterly destroyed by your attack!
 Xirxes is utterly destroyed by your attack!
 Fatrix II''s perforated corpse falls before you!
 Blistered by lightning, Alastor II''s Og falls!')
-     , (9092, 4, 1342295192, 'Nozo Kai', 'Password is cheese', False, 'The Black Breath is reduced to cinders!
+     , (9092, 4, 1342295192, 'Nozo Kai', 'prewritten', False, 'The Black Breath is reduced to cinders!
 You killed Aged Stranger!
 ')
-     , (9092, 5, 1342295192, 'Nozo Kai', 'Password is cheese', False, 'Gerent''s Compind 87.2s 17.5w go to qual then land bridge settlement and run there level 40+
+     , (9092, 5, 1342295192, 'Nozo Kai', 'prewritten', False, 'Gerent''s Compind 87.2s 17.5w go to qual then land bridge settlement and run there level 40+
 
 
 Temple of forgetfullness  88.8N, 0.0. From cragstone
@@ -111,10 +112,10 @@ Temple of enlightenment 84.5S, 0.0 from Qualabar
 17.8n 48.6e cragstone harbor
 
 aaa')
-     , (9092, 6, 1342295192, 'Nozo Kai', 'Password is cheese', False, 'booter statue 82.6s 88.8e
+     , (9092, 6, 1342295192, 'Nozo Kai', 'prewritten', False, 'booter statue 82.6s 88.8e
 
 ')
-     , (9092, 7, 1342528504, 'Zoishe', 'Password is cheese', False, 'Arwic
+     , (9092, 7, 1342528504, 'Zoishe', 'prewritten', False, 'Arwic
 
 23.) 81.4N 24.5E - by Northwatch Castle
 
@@ -122,7 +123,7 @@ Dagger Vale at 32.9N 59.6E in Arwic, drops at 83.3N 28.8E
 24.) 51.8N 59.8E - Next to an Olthoi Brood Hive
 
 Route: From Arwic to the Far Claw Villas Settlement Portal at 32.9N, 59.4E then run south to to marker at 51.8N 59.8E. If you don''t have Olthoi Recall,')
-     , (9092, 8, 1342612287, 'Ragarnok', 'Password is cheese', False, 'Jonny'' Sayings:
+     , (9092, 8, 1342612287, 'Ragarnok', 'prewritten', False, 'Jonny'' Sayings:
 
 
 Jonny'' says, "i was afk"
@@ -130,7 +131,7 @@ Jonny'' says, "lol wow, jonny say something stupid?"
 Jonny'' says, "what am i, a monkey?"
 Jonny'' says, "that can talk"
 Jonny'' says, "and is more clever then his close relative the fox"')
-     , (9092, 9, 1342612287, 'Ragarnok', 'Password is cheese', False, 'Jonny the Mage says, "i dont believe in comedy"
+     , (9092, 9, 1342612287, 'Ragarnok', 'prewritten', False, 'Jonny the Mage says, "i dont believe in comedy"
 
 Jonny'' tells you, "im not a nerd, im a loser"
 Jonny'' says, "if you go to qal and type ;wishes he has friends. alot of people will feel bad for you"
@@ -138,7 +139,7 @@ Jonny'' says, "im not a machine"
 Jonny'' says, "i feel violated with all this documentation of my letters cluttered together which form words and sentences"
 Jonny'' says, "i remember when it was not broken"
 ')
-     , (9092, 10, 1342612287, 'Ragarnok', 'Password is cheese', False, 'Jonny'' says, "whoa, you have a lot of crap i said"
+     , (9092, 10, 1342612287, 'Ragarnok', 'prewritten', False, 'Jonny'' says, "whoa, you have a lot of crap i said"
 
 Mylor mumbles..... oohhhh, kelly, yah.  mmmmm..... you''re a bad girl arent'' you... ohhh. yyah..... mmmmmmmmm....   oh..!
 (was good enough to put here :))
@@ -148,4 +149,4 @@ Mylor says, "i''m just burning mana like a fool here"
 Jonny'' says, "oooo, consider it swiped"
 Rabid Raptor IV says to your fellowship, "lol i was hitting on these three fat girls"
 ')
-     , (9092, 11, 1342612287, 'Ragarnok', 'Password is cheese', False, 'Rabid Raptor IV says to your fellowship, "i started saying they got the urge and running my hnad through there heads"');
+     , (9092, 11, 1342612287, 'Ragarnok', 'prewritten', False, 'Rabid Raptor IV says to your fellowship, "i started saying they got the urge and running my hnad through there heads"');

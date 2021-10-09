@@ -21,15 +21,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34535,   1, 'Locked Door') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34535,   1,   33560143) /* Setup */
-     , (34535,   8,  100677070) /* Icon */
+VALUES (34535,   1, 0x0200164F) /* Setup */
+     , (34535,   8, 0x060035CE) /* Icon */
      , (34535, 8001,    9437232) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (34535, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (34535, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34535, 8040, 11469130, 72.1801, -40, 0, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (34535, 8040, 0x00AF014A, 72.1801, -40, 0, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF014A [72.180100 -40.000000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34535, 8000, 1879765079) /* PCAPRecordedObjectIID */;
+VALUES (34535, 8000, 0x700AF057) /* PCAPRecordedObjectIID */;

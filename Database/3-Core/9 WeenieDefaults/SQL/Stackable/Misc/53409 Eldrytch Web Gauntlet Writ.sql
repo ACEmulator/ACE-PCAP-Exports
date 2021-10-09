@@ -21,19 +21,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53409,   1, 'Eldrytch Web Gauntlet Writ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53409,   1,   33556750) /* Setup */
-     , (53409,   3,  536870932) /* SoundTable */
-     , (53409,   6,   67111919) /* PaletteBase */
-     , (53409,   8,  100667503) /* Icon */
-     , (53409,  22,  872415275) /* PhysicsEffectTable */
-     , (53409,  50,  100690172) /* IconOverlay */
+VALUES (53409,   1, 0x0200090E) /* Setup */
+     , (53409,   3, 0x20000014) /* SoundTable */
+     , (53409,   6, 0x04000BEF) /* PaletteBase */
+     , (53409,   8, 0x0600106F) /* Icon */
+     , (53409,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53409,  50, 0x060068FC) /* IconOverlay */
      , (53409, 8001, 1075867672) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (53409, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (53409, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (53409, 8044,       8644) /* PCAPPhysicsDIDDataTemplatedFrom - Lapyan Plant */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53409, 8000,      53409) /* PCAPRecordedObjectIID */;
+VALUES (53409, 8000, 0x0000D0A1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53409, 67111926, 0, 0);

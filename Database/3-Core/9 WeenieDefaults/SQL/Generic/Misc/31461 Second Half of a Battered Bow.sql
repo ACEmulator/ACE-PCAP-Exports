@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31461,   1, 'Second Half of a Battered Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31461,   1,   33554817) /* Setup */
-     , (31461,   3,  536870932) /* SoundTable */
-     , (31461,   8,  100687877) /* Icon */
-     , (31461,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31461,   1, 0x02000181) /* Setup */
+     , (31461,   3, 0x20000014) /* SoundTable */
+     , (31461,   8, 0x06006005) /* Icon */
+     , (31461,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31461, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (31461, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31461, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31461, 8000, 3142785335) /* PCAPRecordedObjectIID */;
+VALUES (31461, 8000, 0xBB531937) /* PCAPRecordedObjectIID */;

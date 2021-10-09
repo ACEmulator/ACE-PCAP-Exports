@@ -32,11 +32,11 @@ VALUES (41455,   1, 'Virindi Councillor Essence') /* Name */
      , (41455,  16, 'This essence is eternal. Use this essence to increase your Arcane Lore by 24.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41455,   1,   33554809) /* Setup */
-     , (41455,   3,  536870932) /* SoundTable */
-     , (41455,   6,   67111919) /* PaletteBase */
-     , (41455,   8,  100690744) /* Icon */
-     , (41455,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41455,   1, 0x02000179) /* Setup */
+     , (41455,   3, 0x20000014) /* SoundTable */
+     , (41455,   6, 0x04000BEF) /* PaletteBase */
+     , (41455,   8, 0x06006B38) /* Icon */
+     , (41455,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41455,  28,       5159) /* Spell - DeceptionArcane3 */
      , (41455,  37,         20) /* ItemSkillLimit - Deception */
      , (41455, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
@@ -45,7 +45,7 @@ VALUES (41455,   1,   33554809) /* Setup */
      , (41455, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41455, 8000, 2226816859) /* PCAPRecordedObjectIID */;
+VALUES (41455, 8000, 0x84BA875B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41455, 67111926, 0, 0);

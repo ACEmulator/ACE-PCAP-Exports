@@ -36,27 +36,27 @@ VALUES (4447,   1, 'Tromylda the Shopkeeper') /* Name */
      , (4447, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4447,   1,   33554510) /* Setup */
-     , (4447,   2,  150994945) /* MotionTable */
-     , (4447,   3,  536870914) /* SoundTable */
-     , (4447,   6,   67108990) /* PaletteBase */
-     , (4447,   8,  100667446) /* Icon */
-     , (4447,   9,   83890276) /* EyesTexture */
-     , (4447,  10,   83890317) /* NoseTexture */
-     , (4447,  11,   83890342) /* MouthTexture */
-     , (4447,  15,   67117019) /* HairPalette */
-     , (4447,  16,   67110064) /* EyesPalette */
-     , (4447,  17,   67109562) /* SkinPalette */
+VALUES (4447,   1, 0x0200004E) /* Setup */
+     , (4447,   2, 0x09000001) /* MotionTable */
+     , (4447,   3, 0x20000002) /* SoundTable */
+     , (4447,   6, 0x0400007E) /* PaletteBase */
+     , (4447,   8, 0x06001036) /* Icon */
+     , (4447,   9, 0x05001064) /* EyesTexture */
+     , (4447,  10, 0x0500108D) /* NoseTexture */
+     , (4447,  11, 0x050010A6) /* MouthTexture */
+     , (4447,  15, 0x04001FDB) /* HairPalette */
+     , (4447,  16, 0x040004B0) /* EyesPalette */
+     , (4447,  17, 0x040002BA) /* SkinPalette */
      , (4447, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (4447, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (4447, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4447, 8040, 3145728265, 175.598, 128.992, 44.005, -0.5429179, 0, 0, -0.8397858) /* PCAPRecordedLocation */
+VALUES (4447, 8040, 0xBB800109, 175.598, 128.992, 44.005, -0.542918, 0, 0, -0.839786) /* PCAPRecordedLocation */
 /* @teleloc 0xBB800109 [175.598000 128.992000 44.005000] -0.542918 0.000000 0.000000 -0.839786 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4447, 8000, 2075656196) /* PCAPRecordedObjectIID */;
+VALUES (4447, 8000, 0x7BB80004) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4447,   1,  80, 0, 0) /* Strength */
@@ -105,6 +105,7 @@ VALUES (4447, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (4447, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (4447, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
      , (4447, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (4447, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
      , (4447, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (4447, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (4447, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */

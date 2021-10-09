@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11354,   1, 'Water Golem Heart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11354,   1,   33554817) /* Setup */
-     , (11354,   3,  536870932) /* SoundTable */
-     , (11354,   6,   67111919) /* PaletteBase */
-     , (11354,   8,  100671843) /* Icon */
-     , (11354,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11354,   1, 0x02000181) /* Setup */
+     , (11354,   3, 0x20000014) /* SoundTable */
+     , (11354,   6, 0x04000BEF) /* PaletteBase */
+     , (11354,   8, 0x06002163) /* Icon */
+     , (11354,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11354, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (11354, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11354, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11354, 8000, 3691034369) /* PCAPRecordedObjectIID */;
+VALUES (11354, 8000, 0xDC00B701) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11354, 67111924, 0, 0);

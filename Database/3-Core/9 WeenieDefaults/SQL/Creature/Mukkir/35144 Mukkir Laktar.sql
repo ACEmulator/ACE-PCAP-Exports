@@ -26,23 +26,23 @@ VALUES (35144,   1, 'Mukkir Laktar') /* Name */
      , (35144, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35144,   1,   33559741) /* Setup */
-     , (35144,   2,  150995348) /* MotionTable */
-     , (35144,   3,  536871107) /* SoundTable */
-     , (35144,   6,   67116771) /* PaletteBase */
-     , (35144,   8,  100688542) /* Icon */
-     , (35144,  22,  872415417) /* PhysicsEffectTable */
+VALUES (35144,   1, 0x020014BD) /* Setup */
+     , (35144,   2, 0x09000194) /* MotionTable */
+     , (35144,   3, 0x200000C3) /* SoundTable */
+     , (35144,   6, 0x04001EE3) /* PaletteBase */
+     , (35144,   8, 0x0600629E) /* Icon */
+     , (35144,  22, 0x340000B9) /* PhysicsEffectTable */
      , (35144,  30,         87) /* PhysicsScript - BreatheLightning */
      , (35144, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35144, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35144, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35144, 8040, 11534610, 24.35203, -562.178, 0.105, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35144, 8040, 0x00B00112, 24.35203, -562.178, 0.105, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B00112 [24.352030 -562.178000 0.105000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35144, 8000, 2447293444) /* PCAPRecordedObjectIID */;
+VALUES (35144, 8000, 0x91DEBC04) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35144,   1, 500, 0, 0) /* Strength */

@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19530,   1, 'Perfect Isparian Magic Ingot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19530,   1,   33555677) /* Setup */
-     , (19530,   3,  536870932) /* SoundTable */
-     , (19530,   8,  100672972) /* Icon */
-     , (19530,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19530,   1, 0x020004DD) /* Setup */
+     , (19530,   3, 0x20000014) /* SoundTable */
+     , (19530,   8, 0x060025CC) /* Icon */
+     , (19530,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19530, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (19530, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19530, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19530, 8000, 2630890224) /* PCAPRecordedObjectIID */;
+VALUES (19530, 8000, 0x9CD032F0) /* PCAPRecordedObjectIID */;

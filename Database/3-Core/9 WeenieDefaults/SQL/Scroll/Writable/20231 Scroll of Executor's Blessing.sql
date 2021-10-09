@@ -24,13 +24,13 @@ VALUES (20231,   1, 'Scroll of Executor''s Blessing') /* Name */
 Increases the caster''s natural armor by 225 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20231,   1,   33554826) /* Setup */
-     , (20231,   8,  100676928) /* Icon */
-     , (20231,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20231,   1, 0x0200018A) /* Setup */
+     , (20231,   8, 0x06003540) /* Icon */
+     , (20231,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20231,  28,       2053) /* Spell - ArmorSelf7 */
      , (20231, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20231, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20231, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20231, 8000, 3706739426) /* PCAPRecordedObjectIID */;
+VALUES (20231, 8000, 0xDCF05AE2) /* PCAPRecordedObjectIID */;

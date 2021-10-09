@@ -20,17 +20,17 @@ VALUES (787,   1, 'Powdered Lapis Lazuli') /* Name */
      , (787,  20, 'Powdered Lapis Lazulis') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (787,   1,   33555208) /* Setup */
-     , (787,   3,  536870932) /* SoundTable */
-     , (787,   6,   67111919) /* PaletteBase */
-     , (787,   8,  100669702) /* Icon */
-     , (787,  22,  872415275) /* PhysicsEffectTable */
+VALUES (787,   1, 0x02000308) /* Setup */
+     , (787,   3, 0x20000014) /* SoundTable */
+     , (787,   6, 0x04000BEF) /* PaletteBase */
+     , (787,   8, 0x06001906) /* Icon */
+     , (787,  22, 0x3400002B) /* PhysicsEffectTable */
      , (787, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (787, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (787, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (787, 8000, 2290959914) /* PCAPRecordedObjectIID */;
+VALUES (787, 8000, 0x888D462A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (787, 67111919, 0, 0);

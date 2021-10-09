@@ -53,23 +53,23 @@ VALUES (30593,   1, 'Lightning Partizan') /* Name */
      , (30593,  16, 'Lightning Partizan of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30593,   1,   33559482) /* Setup */
-     , (30593,   3,  536870932) /* SoundTable */
-     , (30593,   6,   67115560) /* PaletteBase */
-     , (30593,   8,  100686993) /* Icon */
-     , (30593,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30593,   1, 0x020013BA) /* Setup */
+     , (30593,   3, 0x20000014) /* SoundTable */
+     , (30593,   6, 0x04001A28) /* PaletteBase */
+     , (30593,   8, 0x06005C91) /* Icon */
+     , (30593,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30593,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30593, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30593, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30593, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30593, 8000, 3701242423) /* PCAPRecordedObjectIID */;
+VALUES (30593, 8000, 0xDC9C7A37) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30593,  1591,      2)  /* HeartSeekerSelf5 */
-     , (30593,  1605,      2)  /* DefenderSelf6 */
+VALUES (30593,  1605,      2)  /* DefenderSelf6 */
      , (30593,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (30593,  1591,      2)  /* HeartSeekerSelf5 */
      , (30593,  2556,      2)  /* CANTRIPLOCKPICKPROWESS1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

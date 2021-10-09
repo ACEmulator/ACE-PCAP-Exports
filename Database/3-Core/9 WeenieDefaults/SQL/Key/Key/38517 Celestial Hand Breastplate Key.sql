@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38517,   1, 'Celestial Hand Breastplate Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38517,   1,   33554784) /* Setup */
-     , (38517,   8,  100668441) /* Icon */
-     , (38517,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38517,   1, 0x02000160) /* Setup */
+     , (38517,   8, 0x06001419) /* Icon */
+     , (38517,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38517, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (38517, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38517, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38517, 8000, 3710585550) /* PCAPRecordedObjectIID */;
+VALUES (38517, 8000, 0xDD2B0ACE) /* PCAPRecordedObjectIID */;

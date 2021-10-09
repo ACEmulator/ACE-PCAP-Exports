@@ -33,21 +33,21 @@ VALUES (9418,   1, 'Lubrik the Resupplier') /* Name */
      , (9418, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9418,   1,   33557003) /* Setup */
-     , (9418,   2,  150994950) /* MotionTable */
-     , (9418,   3,  536870922) /* SoundTable */
-     , (9418,   6,   67113158) /* PaletteBase */
-     , (9418,   8,  100667447) /* Icon */
+VALUES (9418,   1, 0x02000A0B) /* Setup */
+     , (9418,   2, 0x09000006) /* MotionTable */
+     , (9418,   3, 0x2000000A) /* SoundTable */
+     , (9418,   6, 0x040010C6) /* PaletteBase */
+     , (9418,   8, 0x06001037) /* Icon */
      , (9418, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (9418, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (9418, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9418, 8040, 2719875478, 125.53, 125.248, 564.01, -0.4201861, 0, 0, -0.9074379) /* PCAPRecordedLocation */
+VALUES (9418, 8040, 0xA21E0196, 125.53, 125.248, 564.01, -0.420186, 0, 0, -0.907438) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E0196 [125.530000 125.248000 564.010000] -0.420186 0.000000 0.000000 -0.907438 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9418, 8000, 2049040387) /* PCAPRecordedObjectIID */;
+VALUES (9418, 8000, 0x7A21E003) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9418,   1, 280, 0, 0) /* Strength */

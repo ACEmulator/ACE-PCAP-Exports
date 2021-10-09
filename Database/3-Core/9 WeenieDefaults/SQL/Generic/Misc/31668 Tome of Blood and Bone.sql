@@ -25,13 +25,13 @@ VALUES (31668,   1, 'Tome of Blood and Bone') /* Name */
      , (31668, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31668,   1,   33559572) /* Setup */
-     , (31668,   2,  150995339) /* MotionTable */
-     , (31668,   3,  536870932) /* SoundTable */
-     , (31668,   8,  100687849) /* Icon */
+VALUES (31668,   1, 0x02001414) /* Setup */
+     , (31668,   2, 0x0900018B) /* MotionTable */
+     , (31668,   3, 0x20000014) /* SoundTable */
+     , (31668,   8, 0x06005FE9) /* Icon */
      , (31668, 8001,  270549040) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden, HookType */
      , (31668, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31668, 8005,      67587) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31668, 8000, 2554984523) /* PCAPRecordedObjectIID */;
+VALUES (31668, 8000, 0x9849F84B) /* PCAPRecordedObjectIID */;

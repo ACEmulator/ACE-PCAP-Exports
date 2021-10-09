@@ -13,11 +13,11 @@ VALUES (0x70155009,  1290, 0x01550149, 9.99, -95.15, 0, 1, 0, 0, 0, False, '2019
 /* @teleloc 0x01550149 [9.990000 -95.150000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7015500A,  1918, 0x01550149, 9.28861, -97.7897, 0, -0.2988319, 0, 0, -0.9543058, False, '2019-02-10 00:00:00'); /* Chest */
+VALUES (0x7015500A,  1918, 0x01550149, 9.28861, -97.7897, 0, -0.298832, 0, 0, -0.954306, False, '2019-02-10 00:00:00'); /* Chest */
 /* @teleloc 0x01550149 [9.288610 -97.789700 0.000000] -0.298832 0.000000 0.000000 -0.954306 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7015500B,   143, 0x01550149, 10.7206, -97.8036, 0, 0.028249, 0, 0, -0.9996009, False, '2019-02-10 00:00:00'); /* Chest */
+VALUES (0x7015500B,   143, 0x01550149, 10.7206, -97.8036, 0, 0.028249, 0, 0, -0.999601, False, '2019-02-10 00:00:00'); /* Chest */
 /* @teleloc 0x01550149 [10.720600 -97.803600 0.000000] 0.028249 0.000000 0.000000 -0.999601 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -41,5 +41,5 @@ VALUES (0x70155016,   278, 0x01550177, 55.25, -70, 0, -0.707107, 0, 0, -0.707107
 /* @teleloc 0x01550177 [55.250000 -70.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70155019,  5203, 0x01550195, 20, 0, 11.937, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Surface Portal */
+VALUES (0x70155019,  5203, 0x01550195, 20, 0, 11.937, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Surface Portal */
 /* @teleloc 0x01550195 [20.000000 0.000000 11.937000] 0.000000 0.000000 0.000000 -1.000000 */

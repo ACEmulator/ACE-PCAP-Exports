@@ -14,7 +14,7 @@ VALUES (33121,   1,        256) /* ItemType - MissileWeapon */
      , (33121,  48,         47) /* WeaponSkill - MissileWeapons */
      , (33121,  49,         60) /* WeaponTime */
      , (33121,  50,          2) /* AmmoType - Bolt */
-     , (33121,  51,          2) /* CombatUse - Missle */
+     , (33121,  51,          2) /* CombatUse - Missile */
      , (33121,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33121, 106,        500) /* ItemSpellcraft */
      , (33121, 107,       6412) /* ItemCurMana */
@@ -55,21 +55,21 @@ Sneux says, "my mother is quite shallow and pedantic"') /* Inscription */
      , (33121,  15, 'A crossbow crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33121,   1,   33559958) /* Setup */
-     , (33121,   3,  536870932) /* SoundTable */
-     , (33121,   8,  100688933) /* Icon */
-     , (33121,  22,  872415275) /* PhysicsEffectTable */
-     , (33121,  50,  100688915) /* IconOverlay */
+VALUES (33121,   1, 0x02001596) /* Setup */
+     , (33121,   3, 0x20000014) /* SoundTable */
+     , (33121,   8, 0x06006425) /* Icon */
+     , (33121,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33121,  50, 0x06006413) /* IconOverlay */
      , (33121, 8001, 1344357144) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (33121, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33121, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33121, 8000, 2979050553) /* PCAPRecordedObjectIID */;
+VALUES (33121, 8000, 0xB190B439) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33121,  2059,      2)  /* CoordinationSelf7 */
-     , (33121,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (33121,  2101,      2)  /* DefenderSelf7 */
+VALUES (33121,  2688,      2)  /* ModerateCrossbowAptitude */
      , (33121,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33121,  2688,      2)  /* ModerateCrossbowAptitude */;
+     , (33121,  2059,      2)  /* CoordinationSelf7 */
+     , (33121,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (33121,  2101,      2)  /* DefenderSelf7 */;

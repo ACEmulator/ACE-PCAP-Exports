@@ -27,18 +27,18 @@ VALUES (7809,   1, 'Sarcophagus') /* Name */
      , (7809, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7809,   1,   33554638) /* Setup */
-     , (7809,   2,  150994980) /* MotionTable */
-     , (7809,   3,  536870949) /* SoundTable */
-     , (7809,   8,  100668103) /* Icon */
-     , (7809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7809,   1, 0x020000CE) /* Setup */
+     , (7809,   2, 0x09000024) /* MotionTable */
+     , (7809,   3, 0x20000025) /* SoundTable */
+     , (7809,   8, 0x060012C7) /* Icon */
+     , (7809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7809, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (7809, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (7809, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7809, 8040, 49217822, 104.447, -59.9839, -18, -0.679024, 0, 0, -0.7341161) /* PCAPRecordedLocation */
+VALUES (7809, 8040, 0x02EF011E, 104.447, -59.9839, -18, -0.679024, 0, 0, -0.734116) /* PCAPRecordedLocation */
 /* @teleloc 0x02EF011E [104.447000 -59.983900 -18.000000] -0.679024 0.000000 0.000000 -0.734116 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7809, 8000, 1882124297) /* PCAPRecordedObjectIID */;
+VALUES (7809, 8000, 0x702EF009) /* PCAPRecordedObjectIID */;

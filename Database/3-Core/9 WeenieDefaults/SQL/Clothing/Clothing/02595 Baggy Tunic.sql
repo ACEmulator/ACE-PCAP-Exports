@@ -46,27 +46,23 @@ VALUES (2595,   1, 'Baggy Tunic') /* Name */
      , (2595,  16, 'Baggy Tunic of Piercing Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2595,   1,   33554883) /* Setup */
-     , (2595,   3,  536870932) /* SoundTable */
-     , (2595,   6,   67108990) /* PaletteBase */
-     , (2595,   8,  100667375) /* Icon */
-     , (2595,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2595,   1, 0x020001C3) /* Setup */
+     , (2595,   3, 0x20000014) /* SoundTable */
+     , (2595,   6, 0x0400007E) /* PaletteBase */
+     , (2595,   8, 0x06000FEF) /* Icon */
+     , (2595,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2595, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (2595, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2595, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2595, 8000, 3469316235) /* PCAPRecordedObjectIID */;
+VALUES (2595, 8000, 0xCEC9908B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2595,  1138,      2)  /* PiercingProtectionSelf6 */
+VALUES (2595,  2602,      2)  /* CANTRIPFROSTBANE1 */
+     , (2595,  1138,      2)  /* PiercingProtectionSelf6 */
      , (2595,  2556,      2)  /* CANTRIPLOCKPICKPROWESS1 */
-     , (2595,  2602,      2)  /* CANTRIPFROSTBANE1 */
      , (2595,  5887,      2)  /* CantripSneakAttackProwess1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2595, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (2595, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2595, 67110343, 40, 24)

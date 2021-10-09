@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (160,   1, 'Mead Cask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (160,   1,   33554597) /* Setup */
-     , (160,   3,  536870932) /* SoundTable */
-     , (160,   8,  100667442) /* Icon */
-     , (160,  22,  872415275) /* PhysicsEffectTable */
+VALUES (160,   1, 0x020000A5) /* Setup */
+     , (160,   3, 0x20000014) /* SoundTable */
+     , (160,   8, 0x06001032) /* Icon */
+     , (160,  22, 0x3400002B) /* PhysicsEffectTable */
      , (160, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (160, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (160, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (160, 8040, 3330801920, 154.194, 84.1749, 32.005, -0.00847191, 0, 0, -0.999964) /* PCAPRecordedLocation */
+VALUES (160, 8040, 0xC6880100, 154.194, 84.1749, 32.005, -0.008472, 0, 0, -0.999964) /* PCAPRecordedLocation */
 /* @teleloc 0xC6880100 [154.194000 84.174900 32.005000] -0.008472 0.000000 0.000000 -0.999964 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (160, 8000, 2087223298) /* PCAPRecordedObjectIID */;
+VALUES (160, 8000, 0x7C688002) /* PCAPRecordedObjectIID */;

@@ -23,16 +23,16 @@ VALUES (38154,   1, 'Blighted Rank Moarsman Tunnels') /* Name */
      , (38154, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38154,   1,   33555923) /* Setup */
-     , (38154,   2,  150994947) /* MotionTable */
-     , (38154,   8,  100667499) /* Icon */
+VALUES (38154,   1, 0x020005D3) /* Setup */
+     , (38154,   2, 0x09000003) /* MotionTable */
+     , (38154,   8, 0x0600106B) /* Icon */
      , (38154, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (38154, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (38154, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38154, 8040, 330432531, 70, 60, -0.163, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (38154, 8040, 0x13B20013, 70, 60, -0.163, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x13B20013 [70.000000 60.000000 -0.163000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38154, 8000, 1899700226) /* PCAPRecordedObjectIID */;
+VALUES (38154, 8000, 0x713B2002) /* PCAPRecordedObjectIID */;

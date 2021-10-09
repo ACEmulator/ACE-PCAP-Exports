@@ -57,25 +57,25 @@ VALUES (45118,   1, 'Hand Wraps') /* Name */
      , (45118,  40, 'S P Q R''s Dream') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45118,   1,   33561411) /* Setup */
-     , (45118,   3,  536870932) /* SoundTable */
-     , (45118,   6,   67115556) /* PaletteBase */
-     , (45118,   8,  100692317) /* Icon */
-     , (45118,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45118,   1, 0x02001B43) /* Setup */
+     , (45118,   3, 0x20000014) /* SoundTable */
+     , (45118,   6, 0x04001A24) /* PaletteBase */
+     , (45118,   8, 0x0600715D) /* Icon */
+     , (45118,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45118,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45118,  52,  100676442) /* IconUnderlay */
+     , (45118,  52, 0x0600335A) /* IconUnderlay */
      , (45118, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45118, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45118, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45118, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45118, 8000, 2174255173) /* PCAPRecordedObjectIID */;
+VALUES (45118, 8000, 0x81988045) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45118,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (45118,  2101,      2)  /* DefenderSelf7 */
-     , (45118,  4691,      2)  /* CANTRIPDAGGERAPTITUDE3 */;
+VALUES (45118,  4691,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE3 */
+     , (45118,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (45118,  2101,      2)  /* DefenderSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45118, 67116448, 0, 0);

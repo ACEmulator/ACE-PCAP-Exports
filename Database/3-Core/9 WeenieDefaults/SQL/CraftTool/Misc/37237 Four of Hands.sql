@@ -20,13 +20,13 @@ VALUES (37237,   1, 'Four of Hands') /* Name */
      , (37237,  20, 'Fours of Hands') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37237,   1,   33560548) /* Setup */
-     , (37237,   3,  536870932) /* SoundTable */
-     , (37237,   8,  100689856) /* Icon */
-     , (37237,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37237,   1, 0x020017E4) /* Setup */
+     , (37237,   3, 0x20000014) /* SoundTable */
+     , (37237,   8, 0x060067C0) /* Icon */
+     , (37237,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37237, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (37237, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37237, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37237, 8000, 2174553781) /* PCAPRecordedObjectIID */;
+VALUES (37237, 8000, 0x819D0EB5) /* PCAPRecordedObjectIID */;

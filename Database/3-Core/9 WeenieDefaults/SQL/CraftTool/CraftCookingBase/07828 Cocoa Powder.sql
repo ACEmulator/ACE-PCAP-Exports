@@ -26,16 +26,16 @@ VALUES (7828,   1, 'Cocoa Powder') /* Name */
      , (7828,  20, 'Jars of Cocoa Powder') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7828,   1,   33555208) /* Setup */
-     , (7828,   3,  536870932) /* SoundTable */
-     , (7828,   8,  100670855) /* Icon */
-     , (7828,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7828,   1, 0x02000308) /* Setup */
+     , (7828,   3, 0x20000014) /* SoundTable */
+     , (7828,   8, 0x06001D87) /* Icon */
+     , (7828,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7828, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7828, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7828, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7828, 8000, 2258805199) /* PCAPRecordedObjectIID */;
+VALUES (7828, 8000, 0x86A2A1CF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (7828, 0, 83890080, 83888794);

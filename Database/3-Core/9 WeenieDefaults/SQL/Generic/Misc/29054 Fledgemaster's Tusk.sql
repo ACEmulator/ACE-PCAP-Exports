@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29054,   1, 'Fledgemaster''s Tusk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29054,   1,   33554817) /* Setup */
-     , (29054,   3,  536870932) /* SoundTable */
-     , (29054,   8,  100686419) /* Icon */
-     , (29054,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29054,   1, 0x02000181) /* Setup */
+     , (29054,   3, 0x20000014) /* SoundTable */
+     , (29054,   8, 0x06005A53) /* Icon */
+     , (29054,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29054, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (29054, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29054, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29054, 8000, 2617462969) /* PCAPRecordedObjectIID */;
+VALUES (29054, 8000, 0x9C0350B9) /* PCAPRecordedObjectIID */;

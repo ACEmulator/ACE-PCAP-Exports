@@ -8,7 +8,6 @@ VALUES (23820,   1,          2) /* ItemType - Armor */
      , (23820,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (23820,   5,       1600) /* EncumbranceVal */
      , (23820,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
-     , (23820,  10,       6144) /* CurrentWieldedLocation - UpperArmArmor, LowerArmArmor */
      , (23820,  16,          1) /* ItemUseable - No */
      , (23820,  18,          1) /* UiEffects - Magical */
      , (23820,  19,       1870) /* Value */
@@ -42,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23820,   1, 'Hardened Celdon Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23820,   1,   33554655) /* Setup */
-     , (23820,   3,  536870932) /* SoundTable */
-     , (23820,   6,   67108990) /* PaletteBase */
-     , (23820,   8,  100674072) /* Icon */
-     , (23820,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23820,   1, 0x020000DF) /* Setup */
+     , (23820,   3, 0x20000014) /* SoundTable */
+     , (23820,   6, 0x0400007E) /* PaletteBase */
+     , (23820,   8, 0x06002A18) /* Icon */
+     , (23820,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23820, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (23820, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23820, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23820, 8000, 2368838142) /* PCAPRecordedObjectIID */;
+VALUES (23820, 8000, 0x8D3199FE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23820,  2613,      2)  /* CANTRIPPIERCINGWARD2 */;

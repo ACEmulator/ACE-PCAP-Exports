@@ -23,17 +23,17 @@ VALUES (34889,   1, 'Quality Imprinting Mote') /* Name */
      , (34889,  16, 'You will need a skill of 300 or higher to have a good chance of using a Skill Sigil to imprint your knowledge on this mote succesfully.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34889,   1,   33556406) /* Setup */
-     , (34889,   3,  536870932) /* SoundTable */
-     , (34889,   6,   67111919) /* PaletteBase */
-     , (34889,   8,  100689351) /* Icon */
-     , (34889,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34889,   1, 0x020007B6) /* Setup */
+     , (34889,   3, 0x20000014) /* SoundTable */
+     , (34889,   6, 0x04000BEF) /* PaletteBase */
+     , (34889,   8, 0x060065C7) /* Icon */
+     , (34889,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34889, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (34889, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34889, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34889, 8000, 3678139488) /* PCAPRecordedObjectIID */;
+VALUES (34889, 8000, 0xDB3BF460) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34889, 67111919, 0, 0);

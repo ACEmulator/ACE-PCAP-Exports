@@ -26,17 +26,17 @@ VALUES (7073,   1, 'Cured Large Lugian Sinew') /* Name */
      , (7073,  16, 'The cured sinew of a departed Lugian.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7073,   1,   33554817) /* Setup */
-     , (7073,   3,  536870932) /* SoundTable */
-     , (7073,   6,   67111919) /* PaletteBase */
-     , (7073,   8,  100670684) /* Icon */
-     , (7073,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7073,   1, 0x02000181) /* Setup */
+     , (7073,   3, 0x20000014) /* SoundTable */
+     , (7073,   6, 0x04000BEF) /* PaletteBase */
+     , (7073,   8, 0x06001CDC) /* Icon */
+     , (7073,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7073, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7073, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7073, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7073, 8000, 2918813049) /* PCAPRecordedObjectIID */;
+VALUES (7073, 8000, 0xADF98D79) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7073, 67111927, 0, 0);

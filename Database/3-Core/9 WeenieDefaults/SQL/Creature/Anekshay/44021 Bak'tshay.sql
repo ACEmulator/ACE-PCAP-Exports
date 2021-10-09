@@ -23,22 +23,22 @@ VALUES (44021,   1, 'Bak''tshay') /* Name */
      , (44021, 8006, 'BwA9AAMAZYm2xglB/kNFQgB9Ez5P7kEAAAAAQAAAAAD//39/zczMPgAAcEEAAAAAxU4sQA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44021,   1,   33561251) /* Setup */
-     , (44021,   2,  150994945) /* MotionTable */
-     , (44021,   3,  536870933) /* SoundTable */
-     , (44021,   6,   67108990) /* PaletteBase */
-     , (44021,   8,  100670274) /* Icon */
-     , (44021,  22,  872415269) /* PhysicsEffectTable */
+VALUES (44021,   1, 0x02001AA3) /* Setup */
+     , (44021,   2, 0x09000001) /* MotionTable */
+     , (44021,   3, 0x20000015) /* SoundTable */
+     , (44021,   6, 0x0400007E) /* PaletteBase */
+     , (44021,   8, 0x06001B42) /* Icon */
+     , (44021,  22, 0x34000025) /* PhysicsEffectTable */
      , (44021, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44021, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44021, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44021, 8040, 2305097731, 6.091583, 53.46865, 0.1088229, 0.2691528, 0, 0, -0.9630975) /* PCAPRecordedLocation */
+VALUES (44021, 8040, 0x89650003, 6.091583, 53.46865, 0.108823, 0.269153, 0, 0, -0.963098) /* PCAPRecordedLocation */
 /* @teleloc 0x89650003 [6.091583 53.468650 0.108823] 0.269153 0.000000 0.000000 -0.963098 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44021, 8000, 3360215876) /* PCAPRecordedObjectIID */;
+VALUES (44021, 8000, 0xC848D344) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44021,   1, 200, 0, 0) /* Strength */

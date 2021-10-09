@@ -37,17 +37,17 @@ VALUES (45032,   1, 'Hoory Mattekar Over-robe') /* Name */
      , (45032,  16, 'An over-robe purchased on Tusker Island.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45032,   1,   33554854) /* Setup */
-     , (45032,   3,  536870932) /* SoundTable */
-     , (45032,   6,   67108990) /* PaletteBase */
-     , (45032,   8,  100672053) /* Icon */
-     , (45032,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45032,   1, 0x020001A6) /* Setup */
+     , (45032,   3, 0x20000014) /* SoundTable */
+     , (45032,   6, 0x0400007E) /* PaletteBase */
+     , (45032,   8, 0x06002235) /* Icon */
+     , (45032,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45032, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (45032, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45032, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45032, 8000, 2960540985) /* PCAPRecordedObjectIID */;
+VALUES (45032, 8000, 0xB0764539) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45032, 67110546, 174, 12)

@@ -25,6 +25,7 @@ VALUES (34708,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34708,  22, True ) /* Inscribable */
+     , (34708,  23, True ) /* DestroyOnSell */
      , (34708,  91, True ) /* Retained */
      , (34708,  99, True ) /* Ivoryable */;
 
@@ -38,24 +39,24 @@ VALUES (34708,   1, 'Yellow Empyrean Ring') /* Name */
      , (34708,  16, 'A ring of pyreal fitted with a band of glowing gold.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34708,   1,   33554691) /* Setup */
-     , (34708,   3,  536870932) /* SoundTable */
-     , (34708,   6,   67111919) /* PaletteBase */
-     , (34708,   8,  100689389) /* Icon */
-     , (34708,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34708,   1, 0x02000103) /* Setup */
+     , (34708,   3, 0x20000014) /* SoundTable */
+     , (34708,   6, 0x04000BEF) /* PaletteBase */
+     , (34708,   8, 0x060065ED) /* Icon */
+     , (34708,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34708, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (34708, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
      , (34708, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34708, 8000, 2210356821) /* PCAPRecordedObjectIID */;
+VALUES (34708, 8000, 0x83BF5E55) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34708,  2614,      2)  /* CANTRIPSLASHINGWARD2 */
-     , (34708,  3983,      2)  /* RejuvenationOtherIncantation */
+VALUES (34708,  3983,      2)  /* RejuvenationOtherIncantation */
      , (34708,  4071,      2)  /* EmpyreanStaminaAbsorbtion */
      , (34708,  4072,      2)  /* AurlanaasResolve */
-     , (34708,  4076,      2)  /* EmpyreanEnlightenment */;
+     , (34708,  4076,      2)  /* EmpyreanEnlightenment */
+     , (34708,  2614,      2)  /* CANTRIPSLASHINGWARD2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34708, 67111919, 0, 0);

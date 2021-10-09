@@ -15,6 +15,7 @@ VALUES (40913,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40913,  22, True ) /* Inscribable */
+     , (40913,  23, True ) /* DestroyOnSell */
      , (40913,  69, False) /* IsSellable */
      , (40913,  99, False) /* Ivoryable */;
 
@@ -24,17 +25,17 @@ VALUES (40913,   1, 'Aerfalle''s Token') /* Name */
      , (40913,  16, 'An ancient token, carved in the artistic fashion of the Dericost Nobility.  The edge of the token is inscribed with tiny Dericost runes.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40913,   1,   33554689) /* Setup */
-     , (40913,   3,  536870932) /* SoundTable */
-     , (40913,   6,   67111919) /* PaletteBase */
-     , (40913,   8,  100670319) /* Icon */
-     , (40913,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40913,   1, 0x02000101) /* Setup */
+     , (40913,   3, 0x20000014) /* SoundTable */
+     , (40913,   6, 0x04000BEF) /* PaletteBase */
+     , (40913,   8, 0x06001B6F) /* Icon */
+     , (40913,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40913, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (40913, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40913, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40913, 8000, 3677421954) /* PCAPRecordedObjectIID */;
+VALUES (40913, 8000, 0xDB310182) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40913, 67111925, 0, 0);

@@ -24,13 +24,13 @@ VALUES (8701,   1, 'Old Lucky Gold Letter') /* Name */
      , (8701,  15, 'A bright gold piece of paper with some writing on it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8701,   1,   33556918) /* Setup */
-     , (8701,   3,  536870932) /* SoundTable */
-     , (8701,   8,  100671215) /* Icon */
-     , (8701,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8701,   1, 0x020009B6) /* Setup */
+     , (8701,   3, 0x20000014) /* SoundTable */
+     , (8701,   8, 0x06001EEF) /* Icon */
+     , (8701,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8701, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (8701, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (8701, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8701, 8000, 2980863432) /* PCAPRecordedObjectIID */;
+VALUES (8701, 8000, 0xB1AC5DC8) /* PCAPRecordedObjectIID */;

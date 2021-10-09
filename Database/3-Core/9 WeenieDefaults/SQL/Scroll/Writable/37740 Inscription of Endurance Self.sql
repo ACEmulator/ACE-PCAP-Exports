@@ -24,13 +24,13 @@ VALUES (37740,   1, 'Inscription of Endurance Self') /* Name */
 Increases the caster''s Endurance by 45 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37740,   1,   33554826) /* Setup */
-     , (37740,   8,  100676456) /* Icon */
-     , (37740,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37740,   1, 0x0200018A) /* Setup */
+     , (37740,   8, 0x06003368) /* Icon */
+     , (37740,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37740,  28,       4299) /* Spell - EnduranceSelf8 */
      , (37740, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37740, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37740, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37740, 8000, 2150584899) /* PCAPRecordedObjectIID */;
+VALUES (37740, 8000, 0x802F5243) /* PCAPRecordedObjectIID */;

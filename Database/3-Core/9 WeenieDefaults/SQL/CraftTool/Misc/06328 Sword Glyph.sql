@@ -28,13 +28,13 @@ VALUES (6328,   1, 'Sword Glyph') /* Name */
      , (6328,  16, 'A glyph with the image of a sword emblazoned upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6328,   1,   33556438) /* Setup */
-     , (6328,   3,  536870932) /* SoundTable */
-     , (6328,   8,  100670482) /* Icon */
-     , (6328,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6328,   1, 0x020007D6) /* Setup */
+     , (6328,   3, 0x20000014) /* SoundTable */
+     , (6328,   8, 0x06001C12) /* Icon */
+     , (6328,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6328, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (6328, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6328, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6328, 8000, 3357750071) /* PCAPRecordedObjectIID */;
+VALUES (6328, 8000, 0xC8233337) /* PCAPRecordedObjectIID */;

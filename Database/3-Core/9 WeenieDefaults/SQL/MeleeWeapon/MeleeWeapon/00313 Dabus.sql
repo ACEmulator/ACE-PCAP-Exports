@@ -53,25 +53,25 @@ VALUES (313,   1, 'Dabus') /* Name */
      , (313,  16, 'Dabus of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (313,   1,   33554747) /* Setup */
-     , (313,   3,  536870932) /* SoundTable */
-     , (313,   6,   67111919) /* PaletteBase */
-     , (313,   8,  100668868) /* Icon */
-     , (313,  22,  872415275) /* PhysicsEffectTable */
+VALUES (313,   1, 0x0200013B) /* Setup */
+     , (313,   3, 0x20000014) /* SoundTable */
+     , (313,   6, 0x04000BEF) /* PaletteBase */
+     , (313,   8, 0x060015C4) /* Icon */
+     , (313,  22, 0x3400002B) /* PhysicsEffectTable */
      , (313,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (313, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (313, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (313, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (313, 8000, 3688129983) /* PCAPRecordedObjectIID */;
+VALUES (313, 8000, 0xDBD465BF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (313,  1401,      2)  /* QuicknessSelf5 */
-     , (313,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (313,  2106,      2)  /* HeartSeekerSelf7 */
+VALUES (313,  1616,      2)  /* BloodDrinkerSelf6 */
      , (313,  2582,      2)  /* CANTRIPQUICKNESS1 */
-     , (313,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;
+     , (313,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (313,  1401,      2)  /* QuicknessSelf5 */
+     , (313,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (313, 67111922, 0, 0);

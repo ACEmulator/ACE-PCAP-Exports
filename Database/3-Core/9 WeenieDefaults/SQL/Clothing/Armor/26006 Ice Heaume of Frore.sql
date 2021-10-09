@@ -42,17 +42,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26006,   1, 'Ice Heaume of Frore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26006,   1,   33558573) /* Setup */
-     , (26006,   3,  536870932) /* SoundTable */
-     , (26006,   6,   67108990) /* PaletteBase */
-     , (26006,   8,  100675712) /* Icon */
-     , (26006,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26006,   1, 0x0200102D) /* Setup */
+     , (26006,   3, 0x20000014) /* SoundTable */
+     , (26006,   6, 0x0400007E) /* PaletteBase */
+     , (26006,   8, 0x06003080) /* Icon */
+     , (26006,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26006, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (26006, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26006, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26006, 8000, 3671606285) /* PCAPRecordedObjectIID */;
+VALUES (26006, 8000, 0xDAD8440D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26006,  1485,      2)  /* Impenetrability5 */

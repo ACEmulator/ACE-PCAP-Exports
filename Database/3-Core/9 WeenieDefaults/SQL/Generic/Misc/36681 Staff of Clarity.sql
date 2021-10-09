@@ -15,6 +15,7 @@ VALUES (36681,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36681,  22, True ) /* Inscribable */
+     , (36681,  23, True ) /* DestroyOnSell */
      , (36681,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,12 +23,12 @@ VALUES (36681,   1, 'Staff of Clarity') /* Name */
      , (36681,  16, 'When you must strike, do not leave room for a return blow.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36681,   1,   33557010) /* Setup */
-     , (36681,   8,  100671492) /* Icon */
-     , (36681,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36681,   1, 0x02000A12) /* Setup */
+     , (36681,   8, 0x06002004) /* Icon */
+     , (36681,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36681, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (36681, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36681, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36681, 8000, 2924233339) /* PCAPRecordedObjectIID */;
+VALUES (36681, 8000, 0xAE4C427B) /* PCAPRecordedObjectIID */;

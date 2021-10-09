@@ -8,7 +8,6 @@ VALUES (49909,   1,          2) /* ItemType - Armor */
      , (49909,   4,      32768) /* ClothingPriority - Hands */
      , (49909,   5,        919) /* EncumbranceVal */
      , (49909,   9,         32) /* ValidLocations - HandWear */
-     , (49909,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (49909,  16,          1) /* ItemUseable - No */
      , (49909,  19,       1600) /* Value */
      , (49909,  28,        600) /* ArmorLevel */
@@ -38,16 +37,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49909,   1, 'Prismatic Shadow Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49909,   1,   33554648) /* Setup */
-     , (49909,   3,  536870932) /* SoundTable */
-     , (49909,   8,  100693096) /* Icon */
-     , (49909,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49909,   1, 0x020000D8) /* Setup */
+     , (49909,   3, 0x20000014) /* SoundTable */
+     , (49909,   8, 0x06007468) /* Icon */
+     , (49909,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49909, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (49909, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (49909, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49909, 8000, 3629622396) /* PCAPRecordedObjectIID */;
+VALUES (49909, 8000, 0xD857A47C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (49909, 0, 83894333, 83899134);

@@ -36,27 +36,27 @@ VALUES (35488,   1, 'Skettek the Wanderer') /* Name */
      , (35488, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35488,   1,   33554433) /* Setup */
-     , (35488,   2,  150994945) /* MotionTable */
-     , (35488,   3,  536870913) /* SoundTable */
-     , (35488,   6,   67108990) /* PaletteBase */
-     , (35488,   8,  100667446) /* Icon */
-     , (35488,   9,   83890516) /* EyesTexture */
-     , (35488,  10,   83890520) /* NoseTexture */
-     , (35488,  11,   83890635) /* MouthTexture */
-     , (35488,  15,   67116995) /* HairPalette */
-     , (35488,  16,   67109565) /* EyesPalette */
-     , (35488,  17,   67109559) /* SkinPalette */
+VALUES (35488,   1, 0x02000001) /* Setup */
+     , (35488,   2, 0x09000001) /* MotionTable */
+     , (35488,   3, 0x20000001) /* SoundTable */
+     , (35488,   6, 0x0400007E) /* PaletteBase */
+     , (35488,   8, 0x06001036) /* Icon */
+     , (35488,   9, 0x05001154) /* EyesTexture */
+     , (35488,  10, 0x05001158) /* NoseTexture */
+     , (35488,  11, 0x050011CB) /* MouthTexture */
+     , (35488,  15, 0x04001FC3) /* HairPalette */
+     , (35488,  16, 0x040002BD) /* EyesPalette */
+     , (35488,  17, 0x040002B7) /* SkinPalette */
      , (35488, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (35488, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (35488, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35488, 8040, 1227685911, 53.7138, 152.896, 29.58046, -0.5098987, 0, 0, -0.8602344) /* PCAPRecordedLocation */
+VALUES (35488, 8040, 0x492D0017, 53.7138, 152.896, 29.58046, -0.509899, 0, 0, -0.860234) /* PCAPRecordedLocation */
 /* @teleloc 0x492D0017 [53.713800 152.896000 29.580460] -0.509899 0.000000 0.000000 -0.860234 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35488, 8000, 1955778560) /* PCAPRecordedObjectIID */;
+VALUES (35488, 8000, 0x7492D000) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35488,   1,  87, 0, 0) /* Strength */
@@ -105,6 +105,24 @@ VALUES (35488, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (35488, 4,   690, -1, 0, 0, False) /* Create Pyreal Scarab (690) for Shop */
      , (35488, 4,  8897, -1, 0, 0, False) /* Create Platinum Scarab (8897) for Shop */
      , (35488, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
+     , (35488, 4,   765, -1, 0, 0, False) /* Create Amaranth (765) for Shop */
+     , (35488, 4,   766, -1, 0, 0, False) /* Create Bistort (766) for Shop */
+     , (35488, 4,   767, -1, 0, 0, False) /* Create Comfrey (767) for Shop */
+     , (35488, 4,   768, -1, 0, 0, False) /* Create Damiana (768) for Shop */
+     , (35488, 4,   769, -1, 0, 0, False) /* Create Dragonsblood (769) for Shop */
+     , (35488, 4,   770, -1, 0, 0, False) /* Create Eyebright (770) for Shop */
+     , (35488, 4,   771, -1, 0, 0, False) /* Create Frankincense (771) for Shop */
+     , (35488, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
+     , (35488, 4,   772, -1, 0, 0, False) /* Create Hawthorn (772) for Shop */
+     , (35488, 4,   773, -1, 0, 0, False) /* Create Henbane (773) for Shop */
+     , (35488, 4,   774, -1, 0, 0, False) /* Create Hyssop (774) for Shop */
+     , (35488, 4,   775, -1, 0, 0, False) /* Create Mandrake (775) for Shop */
+     , (35488, 4,   776, -1, 0, 0, False) /* Create Mugwort (776) for Shop */
+     , (35488, 4,   777, -1, 0, 0, False) /* Create Myrrh (777) for Shop */
+     , (35488, 4,   778, -1, 0, 0, False) /* Create Saffron (778) for Shop */
+     , (35488, 4,   779, -1, 0, 0, False) /* Create Vervain (779) for Shop */
+     , (35488, 4,   780, -1, 0, 0, False) /* Create Wormwood (780) for Shop */
+     , (35488, 4,   781, -1, 0, 0, False) /* Create Yarrow (781) for Shop */
      , (35488, 4,   765, -1, 0, 0, False) /* Create Amaranth (765) for Shop */
      , (35488, 4,   766, -1, 0, 0, False) /* Create Bistort (766) for Shop */
      , (35488, 4,   767, -1, 0, 0, False) /* Create Comfrey (767) for Shop */

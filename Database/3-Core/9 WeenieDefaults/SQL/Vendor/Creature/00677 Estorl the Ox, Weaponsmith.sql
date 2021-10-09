@@ -37,27 +37,27 @@ VALUES (677,   1, 'Estorl the Ox, Weaponsmith') /* Name */
      , (677, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (677,   1,   33554433) /* Setup */
-     , (677,   2,  150994945) /* MotionTable */
-     , (677,   3,  536870913) /* SoundTable */
-     , (677,   6,   67108990) /* PaletteBase */
-     , (677,   8,  100667446) /* Icon */
-     , (677,   9,   83890509) /* EyesTexture */
-     , (677,  10,   83890518) /* NoseTexture */
-     , (677,  11,   83890657) /* MouthTexture */
-     , (677,  15,   67116991) /* HairPalette */
-     , (677,  16,   67110063) /* EyesPalette */
-     , (677,  17,   67109561) /* SkinPalette */
+VALUES (677,   1, 0x02000001) /* Setup */
+     , (677,   2, 0x09000001) /* MotionTable */
+     , (677,   3, 0x20000001) /* SoundTable */
+     , (677,   6, 0x0400007E) /* PaletteBase */
+     , (677,   8, 0x06001036) /* Icon */
+     , (677,   9, 0x0500114D) /* EyesTexture */
+     , (677,  10, 0x05001156) /* NoseTexture */
+     , (677,  11, 0x050011E1) /* MouthTexture */
+     , (677,  15, 0x04001FBF) /* HairPalette */
+     , (677,  16, 0x040004AF) /* EyesPalette */
+     , (677,  17, 0x040002B9) /* SkinPalette */
      , (677, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (677, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (677, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (677, 8040, 3164537167, 180.948, 124.808, 32.005, 0.03053853, 0, 0, -0.9995336) /* PCAPRecordedLocation */
+VALUES (677, 8040, 0xBC9F014F, 180.948, 124.808, 32.005, 0.030539, 0, 0, -0.999534) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F014F [180.948000 124.808000 32.005000] 0.030539 0.000000 0.000000 -0.999534 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (677, 8000, 2076831775) /* PCAPRecordedObjectIID */;
+VALUES (677, 8000, 0x7BC9F01F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (677,   1, 130, 0, 0) /* Strength */
@@ -87,6 +87,7 @@ VALUES (677, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (677, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (677, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (677, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (677, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
      , (677, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
      , (677, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
      , (677, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
@@ -101,10 +102,7 @@ VALUES (677, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (677, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (677, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (677, 4, 45683, -1, 0, 0, False) /* Create Left-hand Tether (45683) for Shop */
-     , (677, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */
-     , (677, 4,  3756, -1, 0, 0, False) /* Create Flaming Hand Axe (3756) for Shop */
-     , (677, 4, 40623, -1, 0, 0, False) /* Create Quadrelle (40623) for Shop */
-     , (677, 4, 22444, -1, 0, 0, False) /* Create Frost Dirk (22444) for Shop */;
+     , (677, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (677, 67109561, 0, 24)

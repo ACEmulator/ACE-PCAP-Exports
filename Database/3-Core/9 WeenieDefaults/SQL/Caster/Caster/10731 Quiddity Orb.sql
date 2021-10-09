@@ -7,10 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (10731,   1,      32768) /* ItemType - Caster */
      , (10731,   5,         50) /* EncumbranceVal */
      , (10731,   9,   16777216) /* ValidLocations - Held */
-     , (10731,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (10731,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (10731,  18,          1) /* UiEffects - Magical */
      , (10731,  19,       2000) /* Value */
+     , (10731,  46,        512) /* DefaultCombatStyle - Magic */
      , (10731,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (10731,  94,         16) /* TargetType - Creature */
      , (10731, 106,        250) /* ItemSpellcraft */
@@ -24,6 +24,7 @@ VALUES (10731,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10731,  22, True ) /* Inscribable */
+     , (10731,  23, True ) /* DestroyOnSell */
      , (10731,  69, False) /* IsSellable */
      , (10731,  99, True ) /* Ivoryable */;
 
@@ -40,11 +41,11 @@ VALUES (10731,   1, 'Quiddity Orb') /* Name */
      , (10731,  16, 'A spellcasting orb pulsing with the mickle energies of the Virindi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10731,   1,   33557050) /* Setup */
-     , (10731,   3,  536870932) /* SoundTable */
-     , (10731,   6,   67111928) /* PaletteBase */
-     , (10731,   8,  100671667) /* Icon */
-     , (10731,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10731,   1, 0x02000A3A) /* Setup */
+     , (10731,   3, 0x20000014) /* SoundTable */
+     , (10731,   6, 0x04000BF8) /* PaletteBase */
+     , (10731,   8, 0x060020B3) /* Icon */
+     , (10731,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10731,  37,         16) /* ItemSkillLimit - ManaConversion */
      , (10731, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (10731, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -52,17 +53,17 @@ VALUES (10731,   1,   33557050) /* Setup */
      , (10731, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10731, 8040, 2847146034, 146.7066, 44.32531, 93.92901, -0.1959189, -0.1959189, -0.6794231, -0.6794231) /* PCAPRecordedLocation */
+VALUES (10731, 8040, 0xA9B40032, 146.7066, 44.32531, 93.92901, -0.195919, -0.195919, -0.679423, -0.679423) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40032 [146.706600 44.325310 93.929010] -0.195919 -0.195919 -0.679423 -0.679423 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10731, 8000, 2686828551) /* PCAPRecordedObjectIID */
-     , (10731, 8008, 1342796906) /* PCAPRecordedParentIID */;
+VALUES (10731, 8000, 0xA025C007) /* PCAPRecordedObjectIID */
+     , (10731, 8008, 0x5009746A) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10731,   585,      2)  /* ItemEnchantmentMasterySelf5 */
-     , (10731,   610,      2)  /* LifeMagicMasterySelf6 */
-     , (10731,   658,      2)  /* ManaMasterySelf6 */;
+     , (10731,   658,      2)  /* ManaMasterySelf6 */
+     , (10731,   610,      2)  /* LifeMagicMasterySelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10731, 67112925, 0, 0);

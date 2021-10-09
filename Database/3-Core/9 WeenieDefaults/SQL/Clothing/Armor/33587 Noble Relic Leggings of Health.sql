@@ -42,29 +42,29 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33587,   1, 'Noble Relic Leggings of Health') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33587,   1,   33554856) /* Setup */
-     , (33587,   3,  536870932) /* SoundTable */
-     , (33587,   8,  100677217) /* Icon */
-     , (33587,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33587,   1, 0x020001A8) /* Setup */
+     , (33587,   3, 0x20000014) /* SoundTable */
+     , (33587,   8, 0x06003661) /* Icon */
+     , (33587,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33587, 8001,  270860440) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, HookType */
      , (33587, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33587, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33587, 8040, 722599961, 82.85147, 4.986631, 72.9286, 0.7422577, 0, 0, -0.6701146) /* PCAPRecordedLocation */
+VALUES (33587, 8040, 0x2B120019, 82.85147, 4.986631, 72.9286, 0.742258, 0, 0, -0.670115) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120019 [82.851470 4.986631 72.928600] 0.742258 0.000000 0.000000 -0.670115 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33587, 8000, 3706221456) /* PCAPRecordedObjectIID */;
+VALUES (33587, 8000, 0xDCE87390) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33587,  2108,      2)  /* Impenetrability7 */
-     , (33587,  2214,      2)  /* CreatureEnchantmentMasteryOther7 */
-     , (33587,  2248,      2)  /* ItemEnchantmentMasteryOther7 */
-     , (33587,  2266,      2)  /* LifeMagicMasteryOther7 */
+VALUES (33587,  2248,      2)  /* ItemEnchantmentMasteryOther7 */
      , (33587,  2322,      2)  /* WarMagicMasteryOther7 */
+     , (33587,  2266,      2)  /* LifeMagicMasteryOther7 */
+     , (33587,  5409,      2)  /* VoidMagicMasteryOther7 */
+     , (33587,  2214,      2)  /* CreatureEnchantmentMasteryOther7 */
      , (33587,  3576,      2)  /* PerfectHealth */
-     , (33587,  5409,      2)  /* VoidMagicMasteryOther7 */;
+     , (33587,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (33587, 0, 83887064, 83897530)

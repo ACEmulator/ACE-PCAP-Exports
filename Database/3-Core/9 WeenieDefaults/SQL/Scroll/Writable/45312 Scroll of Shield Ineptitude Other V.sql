@@ -24,13 +24,13 @@ VALUES (45312,   1, 'Scroll of Shield Ineptitude Other V') /* Name */
 Decreases the target''s Shield skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45312,   1,   33554826) /* Setup */
-     , (45312,   8,  100692252) /* Icon */
-     , (45312,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45312,   1, 0x0200018A) /* Setup */
+     , (45312,   8, 0x0600711C) /* Icon */
+     , (45312,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45312,  28,       5839) /* Spell - ShieldIneptitudeOther5 */
      , (45312, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45312, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45312, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45312, 8000, 2779825733) /* PCAPRecordedObjectIID */;
+VALUES (45312, 8000, 0xA5B0C645) /* PCAPRecordedObjectIID */;

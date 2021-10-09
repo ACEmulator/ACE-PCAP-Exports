@@ -8,7 +8,6 @@ VALUES (23791,   1,          2) /* ItemType - Armor */
      , (23791,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (23791,   5,       2288) /* EncumbranceVal */
      , (23791,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
-     , (23791,  10,      25600) /* CurrentWieldedLocation - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (23791,  16,          1) /* ItemUseable - No */
      , (23791,  18,         32) /* UiEffects - Fire */
      , (23791,  19,       3040) /* Value */
@@ -42,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23791,   1, 'Searing Amuli Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23791,   1,   33554856) /* Setup */
-     , (23791,   3,  536870932) /* SoundTable */
-     , (23791,   6,   67108990) /* PaletteBase */
-     , (23791,   8,  100674068) /* Icon */
-     , (23791,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23791,   1, 0x020001A8) /* Setup */
+     , (23791,   3, 0x20000014) /* SoundTable */
+     , (23791,   6, 0x0400007E) /* PaletteBase */
+     , (23791,   8, 0x06002A14) /* Icon */
+     , (23791,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23791, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (23791, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23791, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23791, 8000, 2183443882) /* PCAPRecordedObjectIID */;
+VALUES (23791, 8000, 0x8224B5AA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23791,  2611,      2)  /* CANTRIPFLAMEWARD2 */;

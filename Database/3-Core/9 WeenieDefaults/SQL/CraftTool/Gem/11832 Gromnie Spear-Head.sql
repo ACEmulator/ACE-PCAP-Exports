@@ -26,13 +26,13 @@ VALUES (11832,   1, 'Gromnie Spear-Head') /* Name */
      , (11832,  16, 'A Gromnie Spear-Head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11832,   1,   33557247) /* Setup */
-     , (11832,   3,  536870932) /* SoundTable */
-     , (11832,   8,  100671959) /* Icon */
-     , (11832,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11832,   1, 0x02000AFF) /* Setup */
+     , (11832,   3, 0x20000014) /* SoundTable */
+     , (11832,   8, 0x060021D7) /* Icon */
+     , (11832,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11832, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11832, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11832, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11832, 8000, 2181139337) /* PCAPRecordedObjectIID */;
+VALUES (11832, 8000, 0x82018B89) /* PCAPRecordedObjectIID */;

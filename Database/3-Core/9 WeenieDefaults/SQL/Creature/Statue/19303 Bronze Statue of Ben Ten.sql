@@ -26,22 +26,22 @@ VALUES (19303,   1, 'Bronze Statue of Ben Ten') /* Name */
      , (19303, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19303,   1,   33554510) /* Setup */
-     , (19303,   2,  150995187) /* MotionTable */
-     , (19303,   3,  536871052) /* SoundTable */
-     , (19303,   6,   67108990) /* PaletteBase */
-     , (19303,   8,  100667446) /* Icon */
-     , (19303,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19303,   1, 0x0200004E) /* Setup */
+     , (19303,   2, 0x090000F3) /* MotionTable */
+     , (19303,   3, 0x2000008C) /* SoundTable */
+     , (19303,   6, 0x0400007E) /* PaletteBase */
+     , (19303,   8, 0x06001036) /* Icon */
+     , (19303,  22, 0x34000075) /* PhysicsEffectTable */
      , (19303, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (19303, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19303, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19303, 8040, 1415119180, 92.6299, -95.072, 0.0115, -0.948099, 0, 0, -0.317975) /* PCAPRecordedLocation */
+VALUES (19303, 8040, 0x5459014C, 92.6299, -95.072, 0.0115, -0.948099, 0, 0, -0.317975) /* PCAPRecordedLocation */
 /* @teleloc 0x5459014C [92.629900 -95.072000 0.011500] -0.948099 0.000000 0.000000 -0.317975 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19303, 8000, 3360318673) /* PCAPRecordedObjectIID */;
+VALUES (19303, 8000, 0xC84A64D1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19303,   1, 210, 0, 0) /* Strength */

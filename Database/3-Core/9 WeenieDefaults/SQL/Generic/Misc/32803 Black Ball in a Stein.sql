@@ -22,12 +22,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32803,   1, 'Black Ball in a Stein') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32803,   1,   33559852) /* Setup */
-     , (32803,   8,  100688826) /* Icon */
-     , (32803,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32803,   1, 0x0200152C) /* Setup */
+     , (32803,   8, 0x060063BA) /* Icon */
+     , (32803,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32803, 8001,  270614544) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden, HookType */
      , (32803, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32803, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32803, 8000, 2438654345) /* PCAPRecordedObjectIID */;
+VALUES (32803, 8000, 0x915AE989) /* PCAPRecordedObjectIID */;

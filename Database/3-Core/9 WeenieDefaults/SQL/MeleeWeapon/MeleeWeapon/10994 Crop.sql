@@ -50,16 +50,16 @@ Mistress Kricket ') /* Inscription */
      , (10994,  16, 'A vicious-looking riding crop, made from the skin of an ebon gromnie. This was wielded by the Hea huntmaster Tuperea when disciplining his pack of hunting reedsharks, although it doesn''t look to have been used much. There is stitching on the handle which reads, "Crafted from the hide of my first gromnie prey, snared in my first hunt upon the plateau. With this, I am accepted into Aranpuh''s new order. Soon we shall return to the Hea xuta in glory." - Tupepuh') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10994,   1,   33557226) /* Setup */
-     , (10994,   3,  536870932) /* SoundTable */
-     , (10994,   8,  100671856) /* Icon */
-     , (10994,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10994,   1, 0x02000AEA) /* Setup */
+     , (10994,   3, 0x20000014) /* SoundTable */
+     , (10994,   8, 0x06002170) /* Icon */
+     , (10994,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10994, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (10994, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10994, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10994, 8000, 2779768912) /* PCAPRecordedObjectIID */;
+VALUES (10994, 8000, 0xA5AFE850) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10994,  2411,      2)  /* Discipline */

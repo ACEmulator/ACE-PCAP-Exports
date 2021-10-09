@@ -23,18 +23,18 @@ VALUES (23886,   1, 'Keg') /* Name */
      , (23886,  16, 'A keg of delicious stout.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23886,   1,   33556853) /* Setup */
-     , (23886,   3,  536870932) /* SoundTable */
-     , (23886,   8,  100667431) /* Icon */
-     , (23886,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23886,   1, 0x02000975) /* Setup */
+     , (23886,   3, 0x20000014) /* SoundTable */
+     , (23886,   8, 0x06001027) /* Icon */
+     , (23886,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23886,  28,       1184) /* Spell - RevitalizeOther2 */
      , (23886, 8001,    6291512) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden, Spell */
      , (23886, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (23886, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23886, 8040, 1896480781, 31.4258, 98.6808, 6, -0.998609, 0, 0, -0.0527258) /* PCAPRecordedLocation */
+VALUES (23886, 8040, 0x710A000D, 31.4258, 98.6808, 6, -0.998609, 0, 0, -0.052726) /* PCAPRecordedLocation */
 /* @teleloc 0x710A000D [31.425800 98.680800 6.000000] -0.998609 0.000000 0.000000 -0.052726 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23886, 8000, 1997578268) /* PCAPRecordedObjectIID */;
+VALUES (23886, 8000, 0x7710A01C) /* PCAPRecordedObjectIID */;

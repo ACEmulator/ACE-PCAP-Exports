@@ -14,7 +14,7 @@ VALUES (23534,   1,        256) /* ItemType - MissileWeapon */
      , (23534,  48,         47) /* WeaponSkill - MissileWeapons */
      , (23534,  49,         20) /* WeaponTime */
      , (23534,  50,          4) /* AmmoType - Atlatl */
-     , (23534,  51,          2) /* CombatUse - Missle */
+     , (23534,  51,          2) /* CombatUse - Missile */
      , (23534,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23534, 106,        200) /* ItemSpellcraft */
      , (23534, 107,       1000) /* ItemCurMana */
@@ -40,19 +40,19 @@ VALUES (23534,   1, 'Skeletal Atlatl') /* Name */
      , (23534,  16, 'The radius and ulna of a Lord of Decay, twisted together into an atlatl.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23534,   1,   33558186) /* Setup */
-     , (23534,   3,  536870932) /* SoundTable */
-     , (23534,   8,  100674030) /* Icon */
-     , (23534,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23534,   1, 0x02000EAA) /* Setup */
+     , (23534,   3, 0x20000014) /* SoundTable */
+     , (23534,   8, 0x060029EE) /* Icon */
+     , (23534,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23534, 8001,  270615320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23534, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23534, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23534, 8000, 2967711558) /* PCAPRecordedObjectIID */;
+VALUES (23534, 8000, 0xB0E3AF46) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23534,   469,      2)  /* BowMasterySelf3 */
-     , (23534,  1375,      2)  /* CoordinationSelf3 */
-     , (23534,  1602,      2)  /* DefenderSelf3 */
-     , (23534,  1614,      2)  /* BloodDrinkerSelf4 */;
+VALUES (23534,  1602,      2)  /* DefenderSelf3 */
+     , (23534,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (23534,   469,      2)  /* MissileWeaponsMasterySelf3 */
+     , (23534,  1375,      2)  /* CoordinationSelf3 */;

@@ -24,13 +24,13 @@ VALUES (30814,   1, 'Black Marrow Key') /* Name */
      , (30814,  15, 'A plain looking black key, with signs of professional repair marking the handle and teeth.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30814,   1,   33554784) /* Setup */
-     , (30814,   3,  536870932) /* SoundTable */
-     , (30814,   8,  100677499) /* Icon */
-     , (30814,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30814,   1, 0x02000160) /* Setup */
+     , (30814,   3, 0x20000014) /* SoundTable */
+     , (30814,   8, 0x0600377B) /* Icon */
+     , (30814,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30814, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (30814, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30814, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30814, 8000, 3707479584) /* PCAPRecordedObjectIID */;
+VALUES (30814, 8000, 0xDCFBA620) /* PCAPRecordedObjectIID */;

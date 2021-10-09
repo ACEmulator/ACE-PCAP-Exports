@@ -53,17 +53,17 @@ VALUES (3775,   1, 'Lightning Dabus') /* Name */
      , (3775,  16, 'Lightning Dabus of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3775,   1,   33555752) /* Setup */
-     , (3775,   3,  536870932) /* SoundTable */
-     , (3775,   8,  100668865) /* Icon */
-     , (3775,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3775,   1, 0x02000528) /* Setup */
+     , (3775,   3, 0x20000014) /* SoundTable */
+     , (3775,   8, 0x060015C1) /* Icon */
+     , (3775,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3775,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3775, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3775, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3775, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3775, 8000, 2174519472) /* PCAPRecordedObjectIID */;
+VALUES (3775, 8000, 0x819C88B0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3775,  1378,      2)  /* CoordinationSelf6 */

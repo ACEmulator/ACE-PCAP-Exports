@@ -24,17 +24,17 @@ VALUES (3374,   1, 'Scroll of Life Magic Mastery Self III') /* Name */
 Increases the caster''s Life Magic skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3374,   1,   33554826) /* Setup */
-     , (3374,   8,  100676462) /* Icon */
-     , (3374,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3374,   1, 0x0200018A) /* Setup */
+     , (3374,   8, 0x0600336E) /* Icon */
+     , (3374,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3374,  28,        607) /* Spell - LifeMagicMasterySelf3 */
      , (3374, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (3374, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3374, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3374, 8040, 23200030, 0.76652, -90.96767, 6.0855, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (3374, 8040, 0x0162011E, 0.76652, -90.96767, 6.0855, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0162011E [0.766520 -90.967670 6.085500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3374, 8000, 2875446182) /* PCAPRecordedObjectIID */;
+VALUES (3374, 8000, 0xAB63D3A6) /* PCAPRecordedObjectIID */;

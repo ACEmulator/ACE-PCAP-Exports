@@ -36,21 +36,21 @@ VALUES (41484,   1, 'Goggles') /* Name */
      , (41484,  16, 'Goggles of Lightning Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41484,   1,   33554680) /* Setup */
-     , (41484,   3,  536870932) /* SoundTable */
-     , (41484,   6,   67111919) /* PaletteBase */
-     , (41484,   8,  100690604) /* Icon */
-     , (41484,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41484,   1, 0x020000F8) /* Setup */
+     , (41484,   3, 0x20000014) /* SoundTable */
+     , (41484,   6, 0x04000BEF) /* PaletteBase */
+     , (41484,   8, 0x06006AAC) /* Icon */
+     , (41484,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41484, 8001, 2166440088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, Workmanship, MaterialType */
      , (41484, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41484, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41484, 8000, 3688262579) /* PCAPRecordedObjectIID */;
+VALUES (41484, 8000, 0xDBD66BB3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41484,  1070,      2)  /* LightningProtectionSelf5 */
-     , (41484,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */;
+VALUES (41484,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */
+     , (41484,  1070,      2)  /* LightningProtectionSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41484, 67111920, 0, 0);

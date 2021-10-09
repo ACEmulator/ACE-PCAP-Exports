@@ -14,20 +14,21 @@ VALUES (46420,   1,        128) /* ItemType - Misc */
      , (46420, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46420,  69, False) /* IsSellable */;
+VALUES (46420,  23, True ) /* DestroyOnSell */
+     , (46420,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46420,   1, 'Skill Reset Certificate') /* Name */
      , (46420,  15, 'A certificate accepted by Fianhe for a free skill reset. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46420,   1,   33554659) /* Setup */
-     , (46420,   3,  536870932) /* SoundTable */
-     , (46420,   8,  100692711) /* Icon */
-     , (46420,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46420,   1, 0x020000E3) /* Setup */
+     , (46420,   3, 0x20000014) /* SoundTable */
+     , (46420,   8, 0x060072E7) /* Icon */
+     , (46420,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46420, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (46420, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (46420, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46420, 8000, 2776352122) /* PCAPRecordedObjectIID */;
+VALUES (46420, 8000, 0xA57BC57A) /* PCAPRecordedObjectIID */;

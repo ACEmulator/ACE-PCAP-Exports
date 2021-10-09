@@ -55,16 +55,16 @@ VALUES (11422,   1, 'Palenqual''s Okane of the Chase') /* Name */
      , (11422,  25, 'Ki''tiara') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11422,   1,   33557234) /* Setup */
-     , (11422,   3,  536870932) /* SoundTable */
-     , (11422,   8,  100672075) /* Icon */
-     , (11422,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11422,   1, 0x02000AF2) /* Setup */
+     , (11422,   3, 0x20000014) /* SoundTable */
+     , (11422,   8, 0x0600224B) /* Icon */
+     , (11422,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11422, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (11422, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11422, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11422, 8000, 2156007359) /* PCAPRecordedObjectIID */;
+VALUES (11422, 8000, 0x80820FBF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11422,  2438,      2)  /* RockslideLesser */

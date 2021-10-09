@@ -27,14 +27,14 @@ VALUES (32269,   1, 'Keg of Hunter''s Stock Amber') /* Name */
      , (32269,  20, 'Kegs of Hunter''s Stock Amber') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32269,   1,   33559798) /* Setup */
-     , (32269,   3,  536870932) /* SoundTable */
-     , (32269,   8,  100688500) /* Icon */
-     , (32269,  22,  872415275) /* PhysicsEffectTable */
-     , (32269,  50,  100687554) /* IconOverlay */
+VALUES (32269,   1, 0x020014F6) /* Setup */
+     , (32269,   3, 0x20000014) /* SoundTable */
+     , (32269,   8, 0x06006274) /* Icon */
+     , (32269,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32269,  50, 0x06005EC2) /* IconOverlay */
      , (32269, 8001, 1344303129) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType, IconOverlay */
      , (32269, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (32269, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32269, 8000, 3696693451) /* PCAPRecordedObjectIID */;
+VALUES (32269, 8000, 0xDC5710CB) /* PCAPRecordedObjectIID */;

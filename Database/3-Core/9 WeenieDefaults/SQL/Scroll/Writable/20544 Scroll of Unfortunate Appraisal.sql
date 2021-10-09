@@ -24,13 +24,13 @@ VALUES (20544,   1, 'Scroll of Unfortunate Appraisal') /* Name */
 Decreases the target''s Item Tinkering skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20544,   1,   33554826) /* Setup */
-     , (20544,   8,  100676477) /* Icon */
-     , (20544,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20544,   1, 0x0200018A) /* Setup */
+     , (20544,   8, 0x0600337D) /* Icon */
+     , (20544,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20544,  28,       2252) /* Spell - ItemIgnoranceOther7 */
      , (20544, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20544, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20544, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20544, 8000, 3690121187) /* PCAPRecordedObjectIID */;
+VALUES (20544, 8000, 0xDBF2C7E3) /* PCAPRecordedObjectIID */;

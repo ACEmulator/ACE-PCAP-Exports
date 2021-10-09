@@ -26,23 +26,23 @@ VALUES (40305,   1, 'Blighted Verdant Moarsman') /* Name */
      , (40305, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40305,   1,   33556882) /* Setup */
-     , (40305,   2,  150995104) /* MotionTable */
-     , (40305,   3,  536871018) /* SoundTable */
-     , (40305,   6,   67112872) /* PaletteBase */
-     , (40305,   8,  100671185) /* Icon */
-     , (40305,  22,  872415337) /* PhysicsEffectTable */
+VALUES (40305,   1, 0x02000992) /* Setup */
+     , (40305,   2, 0x090000A0) /* MotionTable */
+     , (40305,   3, 0x2000006A) /* SoundTable */
+     , (40305,   6, 0x04000FA8) /* PaletteBase */
+     , (40305,   8, 0x06001ED1) /* Icon */
+     , (40305,  22, 0x34000069) /* PhysicsEffectTable */
      , (40305,  30,         84) /* PhysicsScript - BreatheFlame */
      , (40305, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40305, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40305, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40305, 8040, 4163895350, 166.2085, 128.2759, 81.40945, 0.7684024, 0, 0, -0.639967) /* PCAPRecordedLocation */
+VALUES (40305, 8040, 0xF8300036, 166.2085, 128.2759, 81.40945, 0.768402, 0, 0, -0.639967) /* PCAPRecordedLocation */
 /* @teleloc 0xF8300036 [166.208500 128.275900 81.409450] 0.768402 0.000000 0.000000 -0.639967 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40305, 8000, 3360275790) /* PCAPRecordedObjectIID */;
+VALUES (40305, 8000, 0xC849BD4E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (40305,   1,     0, 0, 0, 1115) /* MaxHealth */;
@@ -90,7 +90,11 @@ VALUES (40305, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreas
      , (40305, 9, 27225,  0, 0, 0, False) /* Create Lorica Sleeves (27225) for ContainTreasure */
      , (40305, 9, 20487,  0, 0, 0, False) /* Create Scroll of Decrepitude's Grasp (20487) for ContainTreasure */
      , (40305, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (40305, 9, 27228,  0, 0, 0, False) /* Create Nariyid Gauntlets (27228) for ContainTreasure */;
+     , (40305, 9, 27228,  0, 0, 0, False) /* Create Nariyid Gauntlets (27228) for ContainTreasure */
+     , (40305, 9, 31807,  0, 0, 0, False) /* Create Blunt Compound Crossbow (31807) for ContainTreasure */
+     , (40305, 9, 28620,  0, 0, 0, False) /* Create Alduressa Leggings (28620) for ContainTreasure */
+     , (40305, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (40305, 9, 27236,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Other (27236) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40305, 67113029, 0, 0);

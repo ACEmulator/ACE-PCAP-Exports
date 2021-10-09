@@ -23,16 +23,16 @@ VALUES (40331,   1, 'Chamber of Scrolls') /* Name */
      , (40331, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40331,   1,   33555925) /* Setup */
-     , (40331,   2,  150994947) /* MotionTable */
-     , (40331,   8,  100667499) /* Icon */
+VALUES (40331,   1, 0x020005D5) /* Setup */
+     , (40331,   2, 0x09000003) /* MotionTable */
+     , (40331,   8, 0x0600106B) /* Icon */
      , (40331, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (40331, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (40331, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40331, 8040, 3460169754, 90, 28, 67.77034, 0.3826829, 0, 0, -0.9238797) /* PCAPRecordedLocation */
+VALUES (40331, 8040, 0xCE3E001A, 90, 28, 67.77034, 0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0xCE3E001A [90.000000 28.000000 67.770340] 0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40331, 8000, 2095308800) /* PCAPRecordedObjectIID */;
+VALUES (40331, 8000, 0x7CE3E000) /* PCAPRecordedObjectIID */;

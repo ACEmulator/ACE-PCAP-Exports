@@ -31,6 +31,7 @@ VALUES (52790,   4, 40000000000) /* ItemTotalXp */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52790,  22, True ) /* Inscribable */
+     , (52790,  23, True ) /* DestroyOnSell */
      , (52790,  69, False) /* IsSellable */
      , (52790,  99, True ) /* Ivoryable */;
 
@@ -45,17 +46,17 @@ VALUES (52790,   1, 'Blue Society Band') /* Name */
      , (52790,  16, 'A dark black ring set with five aquamarines.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52790,   1,   33554691) /* Setup */
-     , (52790,   3,  536870932) /* SoundTable */
-     , (52790,   6,   67111919) /* PaletteBase */
-     , (52790,   8,  100693317) /* Icon */
-     , (52790,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52790,   1, 0x02000103) /* Setup */
+     , (52790,   3, 0x20000014) /* SoundTable */
+     , (52790,   6, 0x04000BEF) /* PaletteBase */
+     , (52790,   8, 0x06007545) /* Icon */
+     , (52790,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52790, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (52790, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52790, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52790, 8000, 2644519468) /* PCAPRecordedObjectIID */;
+VALUES (52790, 8000, 0x9DA02A2C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52790,  4070,      2)  /* EmpyreanManaAbsorbtion */;

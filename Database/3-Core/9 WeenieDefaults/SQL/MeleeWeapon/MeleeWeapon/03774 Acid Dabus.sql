@@ -47,15 +47,15 @@ VALUES (3774,   1, 'Acid Dabus') /* Name */
      , (3774,  16, 'Acid Dabus') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3774,   1,   33555742) /* Setup */
-     , (3774,   3,  536870932) /* SoundTable */
-     , (3774,   8,  100668873) /* Icon */
-     , (3774,  22,  872415275) /* PhysicsEffectTable */
-     , (3774,  52,  100676437) /* IconUnderlay */
+VALUES (3774,   1, 0x0200051E) /* Setup */
+     , (3774,   3, 0x20000014) /* SoundTable */
+     , (3774,   8, 0x060015C9) /* Icon */
+     , (3774,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3774,  52, 0x06003355) /* IconUnderlay */
      , (3774, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3774, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (3774, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
      , (3774, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3774, 8000, 2174255046) /* PCAPRecordedObjectIID */;
+VALUES (3774, 8000, 0x81987FC6) /* PCAPRecordedObjectIID */;

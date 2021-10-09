@@ -24,16 +24,13 @@ VALUES (20492,   1, 'Scroll of Robustify') /* Name */
 Increase caster''s natural healing rate by 115%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20492,   1,   33554826) /* Setup */
-     , (20492,   8,  100676941) /* Icon */
-     , (20492,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20492,   1, 0x0200018A) /* Setup */
+     , (20492,   8, 0x0600354D) /* Icon */
+     , (20492,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20492,  28,       2185) /* Spell - RegenerationSelf7 */
      , (20492, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20492, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20492, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20492, 8000, 3700590423) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20492, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+VALUES (20492, 8000, 0xDC928757) /* PCAPRecordedObjectIID */;

@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3466,   1, 'Scroll of Resist Magic Other V') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3466,   1,   33554826) /* Setup */
-     , (3466,   8,  100676465) /* Icon */
-     , (3466,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3466,   1, 0x0200018A) /* Setup */
+     , (3466,   8, 0x06003371) /* Icon */
+     , (3466,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3466,  28,        272) /* Spell - MagicResistanceOther5 */
      , (3466, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3466, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3466, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3466, 8000, 2924546882) /* PCAPRecordedObjectIID */;
+VALUES (3466, 8000, 0xAE510B42) /* PCAPRecordedObjectIID */;

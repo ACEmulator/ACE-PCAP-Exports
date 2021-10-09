@@ -18,7 +18,8 @@ VALUES (38890,   1,        128) /* ItemType - Misc */
      , (38890, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38890,  69, False) /* IsSellable */;
+VALUES (38890,  23, True ) /* DestroyOnSell */
+     , (38890,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38890,   1, 'Blighted Bow Coin') /* Name */
@@ -27,14 +28,14 @@ VALUES (38890,   1, 'Blighted Bow Coin') /* Name */
      , (38890,  20, 'Blighted Bow Coins') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38890,   1,   33554659) /* Setup */
-     , (38890,   3,  536870932) /* SoundTable */
-     , (38890,   8,  100689461) /* Icon */
-     , (38890,  22,  872415275) /* PhysicsEffectTable */
-     , (38890,  50,  100686638) /* IconOverlay */
+VALUES (38890,   1, 0x020000E3) /* Setup */
+     , (38890,   3, 0x20000014) /* SoundTable */
+     , (38890,   8, 0x06006635) /* Icon */
+     , (38890,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (38890,  50, 0x06005B2E) /* IconOverlay */
      , (38890, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (38890, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38890, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38890, 8000, 2149416379) /* PCAPRecordedObjectIID */;
+VALUES (38890, 8000, 0x801D7DBB) /* PCAPRecordedObjectIID */;

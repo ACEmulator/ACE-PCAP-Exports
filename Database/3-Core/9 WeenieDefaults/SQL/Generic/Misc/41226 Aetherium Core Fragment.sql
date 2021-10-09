@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41226,   1, 'Aetherium Core Fragment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41226,   1,   33556769) /* Setup */
-     , (41226,   3,  536870932) /* SoundTable */
-     , (41226,   8,  100690548) /* Icon */
-     , (41226,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41226,   1, 0x02000921) /* Setup */
+     , (41226,   3, 0x20000014) /* SoundTable */
+     , (41226,   8, 0x06006A74) /* Icon */
+     , (41226,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41226, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (41226, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41226, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41226, 8000, 3706413333) /* PCAPRecordedObjectIID */;
+VALUES (41226, 8000, 0xDCEB6115) /* PCAPRecordedObjectIID */;

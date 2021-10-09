@@ -50,20 +50,17 @@ VALUES (43952,   1, 'Prismatic Arrow') /* Name */
      , (43952,  16, 'Crystaline arrows that draw the elemental energies from elementally attuned bows to damage their target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43952,   1,   33561223) /* Setup */
-     , (43952,   3,  536870932) /* SoundTable */
-     , (43952,   6,   67111919) /* PaletteBase */
-     , (43952,   8,  100691913) /* Icon */
-     , (43952,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43952,   1, 0x02001A87) /* Setup */
+     , (43952,   3, 0x20000014) /* SoundTable */
+     , (43952,   6, 0x04000BEF) /* PaletteBase */
+     , (43952,   8, 0x06006FC9) /* Icon */
+     , (43952,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43952, 8001,  270627736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (43952, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43952, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43952, 8000, 3711619251) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43952, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */;
+VALUES (43952, 8000, 0xDD3AD0B3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43952, 67111920, 0, 0);

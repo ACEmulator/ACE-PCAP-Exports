@@ -15,6 +15,7 @@ VALUES (15268,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15268,  22, True ) /* Inscribable */
+     , (15268,  23, True ) /* DestroyOnSell */
      , (15268,  69, False) /* IsSellable */
      , (15268,  81, True ) /* RequiresBackpackSlot */;
 
@@ -26,18 +27,18 @@ VALUES (15268,   1, 'Foci of Enchantment') /* Name */
      , (15268,  15, 'A foci used to cast spells from the School of the Left Hand.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15268,   1,   33554769) /* Setup */
-     , (15268,   3,  536870932) /* SoundTable */
-     , (15268,   6,   67111919) /* PaletteBase */
-     , (15268,   8,  100671612) /* Icon */
-     , (15268,  22,  872415275) /* PhysicsEffectTable */
-     , (15268,  50,  100671612) /* IconOverlay */
+VALUES (15268,   1, 0x02000151) /* Setup */
+     , (15268,   3, 0x20000014) /* SoundTable */
+     , (15268,   6, 0x04000BEF) /* PaletteBase */
+     , (15268,   8, 0x0600207C) /* Icon */
+     , (15268,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15268,  50, 0x0600207C) /* IconOverlay */
      , (15268, 8001, 1075855384) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, IconOverlay */
      , (15268, 8003,    8388626) /* PCAPRecordedObjectDesc - Inscribable, Attackable, RequiresPackSlot */
      , (15268, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15268, 8000, 3618495292) /* PCAPRecordedObjectIID */;
+VALUES (15268, 8000, 0xD7ADDB3C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15268, 67111918, 0, 0);

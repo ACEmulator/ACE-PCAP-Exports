@@ -23,17 +23,17 @@ VALUES (15742,   1, 'Elixir of Misty Form') /* Name */
      , (15742,  16, 'A phial filled with a thick, oily clear substance. The smell is too awful to possibly think of imbibing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15742,   1,   33555965) /* Setup */
-     , (15742,   3,  536870932) /* SoundTable */
-     , (15742,   6,   67111919) /* PaletteBase */
-     , (15742,   8,  100672781) /* Icon */
-     , (15742,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15742,   1, 0x020005FD) /* Setup */
+     , (15742,   3, 0x20000014) /* SoundTable */
+     , (15742,   6, 0x04000BEF) /* PaletteBase */
+     , (15742,   8, 0x0600250D) /* Icon */
+     , (15742,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15742, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (15742, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15742, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15742, 8000, 2174540697) /* PCAPRecordedObjectIID */;
+VALUES (15742, 8000, 0x819CDB99) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15742, 67111925, 0, 0);

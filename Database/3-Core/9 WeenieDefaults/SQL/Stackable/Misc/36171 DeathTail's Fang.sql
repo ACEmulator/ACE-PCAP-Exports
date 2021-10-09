@@ -18,20 +18,21 @@ VALUES (36171,   1,        128) /* ItemType - Misc */
      , (36171, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36171,  69, False) /* IsSellable */;
+VALUES (36171,  23, True ) /* DestroyOnSell */
+     , (36171,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36171,   1, 'DeathTail''s Fang') /* Name */
      , (36171,  15, 'This translucent fang from the spectral rat Death Tail feels cold to the touch.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36171,   1,   33554817) /* Setup */
-     , (36171,   3,  536870932) /* SoundTable */
-     , (36171,   8,  100671416) /* Icon */
-     , (36171,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36171,   1, 0x02000181) /* Setup */
+     , (36171,   3, 0x20000014) /* SoundTable */
+     , (36171,   8, 0x06001FB8) /* Icon */
+     , (36171,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36171, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (36171, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36171, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36171, 8000, 3682710703) /* PCAPRecordedObjectIID */;
+VALUES (36171, 8000, 0xDB81B4AF) /* PCAPRecordedObjectIID */;

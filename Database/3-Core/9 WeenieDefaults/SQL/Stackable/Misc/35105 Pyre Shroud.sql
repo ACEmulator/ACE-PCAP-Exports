@@ -18,20 +18,21 @@ VALUES (35105,   1,        128) /* ItemType - Misc */
      , (35105, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35105,  69, False) /* IsSellable */;
+VALUES (35105,  23, True ) /* DestroyOnSell */
+     , (35105,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35105,   1, 'Pyre Shroud') /* Name */
      , (35105,  15, 'An insubstantial ashen shroud. Though warm to the touch, you can barely tell you are holding anything. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35105,   1,   33554817) /* Setup */
-     , (35105,   3,  536870932) /* SoundTable */
-     , (35105,   8,  100688460) /* Icon */
-     , (35105,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35105,   1, 0x02000181) /* Setup */
+     , (35105,   3, 0x20000014) /* SoundTable */
+     , (35105,   8, 0x0600624C) /* Icon */
+     , (35105,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35105, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (35105, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35105, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35105, 8000, 3321411474) /* PCAPRecordedObjectIID */;
+VALUES (35105, 8000, 0xC5F8B792) /* PCAPRecordedObjectIID */;

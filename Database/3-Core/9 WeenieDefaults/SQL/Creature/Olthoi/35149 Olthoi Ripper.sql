@@ -25,22 +25,22 @@ VALUES (35149,   1, 'Olthoi Ripper') /* Name */
      , (35149, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35149,   1,   33557046) /* Setup */
-     , (35149,   2,  150995130) /* MotionTable */
-     , (35149,   3,  536871036) /* SoundTable */
-     , (35149,   8,  100667623) /* Icon */
-     , (35149,  22,  872415378) /* PhysicsEffectTable */
+VALUES (35149,   1, 0x02000A36) /* Setup */
+     , (35149,   2, 0x090000BA) /* MotionTable */
+     , (35149,   3, 0x2000007C) /* SoundTable */
+     , (35149,   8, 0x060010E7) /* Icon */
+     , (35149,  22, 0x34000092) /* PhysicsEffectTable */
      , (35149,  30,         86) /* PhysicsScript - BreatheAcid */
      , (35149, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35149, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35149, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35149, 8040, 11534674, 34.74975, -842.1934, 0.08900005, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35149, 8040, 0x00B00152, 34.74975, -842.1934, 0.089, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B00152 [34.749750 -842.193400 0.089000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35149, 8000, 2447684079) /* PCAPRecordedObjectIID */;
+VALUES (35149, 8000, 0x91E4B1EF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35149,   1, 380, 0, 0) /* Strength */
@@ -58,4 +58,5 @@ VALUES (35149,   1,  3650, 0, 0, 3840) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35149, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
      , (35149, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
-     , (35149, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
+     , (35149, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+     , (35149, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */;

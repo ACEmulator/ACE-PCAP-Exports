@@ -22,21 +22,21 @@ VALUES (8820,   1, 'Chakron Flux Virindi Servant') /* Name */
      , (8820, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8820,   1,   33556982) /* Setup */
-     , (8820,   2,  150994984) /* MotionTable */
-     , (8820,   3,  536870930) /* SoundTable */
-     , (8820,   8,  100667943) /* Icon */
-     , (8820,  22,  872415273) /* PhysicsEffectTable */
+VALUES (8820,   1, 0x020009F6) /* Setup */
+     , (8820,   2, 0x09000028) /* MotionTable */
+     , (8820,   3, 0x20000012) /* SoundTable */
+     , (8820,   8, 0x06001227) /* Icon */
+     , (8820,  22, 0x34000029) /* PhysicsEffectTable */
      , (8820, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (8820, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (8820, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8820, 8040, 45023493, 57.2855, -201.806, -71.971, -0.9587852, 0, 0, 0.2841321) /* PCAPRecordedLocation */
+VALUES (8820, 8040, 0x02AF0105, 57.2855, -201.806, -71.971, -0.958785, 0, 0, 0.284132) /* PCAPRecordedLocation */
 /* @teleloc 0x02AF0105 [57.285500 -201.806000 -71.971000] -0.958785 0.000000 0.000000 0.284132 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8820, 8000, 3701872466) /* PCAPRecordedObjectIID */;
+VALUES (8820, 8000, 0xDCA61752) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (8820,   1,     0, 0, 0, 350) /* MaxHealth */;

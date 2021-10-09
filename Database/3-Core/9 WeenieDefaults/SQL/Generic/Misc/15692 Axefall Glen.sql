@@ -18,15 +18,15 @@ VALUES (15692,   1, 'Axefall Glen') /* Name */
      , (15692,  16, 'Welcome to Axefall Glen') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15692,   1,   33557463) /* Setup */
-     , (15692,   8,  100668115) /* Icon */
+VALUES (15692,   1, 0x02000BD7) /* Setup */
+     , (15692,   8, 0x060012D3) /* Icon */
      , (15692, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (15692, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (15692, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15692, 8040, 1285881900, 122.89, 94.3955, 45.62546, 0.559169, 0, 0, 0.829054) /* PCAPRecordedLocation */
+VALUES (15692, 8040, 0x4CA5002C, 122.89, 94.3955, 45.62546, 0.559169, 0, 0, 0.829054) /* PCAPRecordedLocation */
 /* @teleloc 0x4CA5002C [122.890000 94.395500 45.625460] 0.559169 0.000000 0.000000 0.829054 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15692, 8000, 1959416133) /* PCAPRecordedObjectIID */;
+VALUES (15692, 8000, 0x74CA5145) /* PCAPRecordedObjectIID */;

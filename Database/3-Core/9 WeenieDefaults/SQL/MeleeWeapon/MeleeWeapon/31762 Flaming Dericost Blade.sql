@@ -47,17 +47,17 @@ VALUES (31762,   1, 'Flaming Dericost Blade') /* Name */
      , (31762,  16, 'Flaming Dericost Blade') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31762,   1,   33559635) /* Setup */
-     , (31762,   3,  536870932) /* SoundTable */
-     , (31762,   6,   67116700) /* PaletteBase */
-     , (31762,   8,  100687997) /* Icon */
-     , (31762,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31762,   1, 0x02001453) /* Setup */
+     , (31762,   3, 0x20000014) /* SoundTable */
+     , (31762,   6, 0x04001E9C) /* PaletteBase */
+     , (31762,   8, 0x0600607D) /* Icon */
+     , (31762,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31762, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31762, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31762, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31762, 8000, 3692876658) /* PCAPRecordedObjectIID */;
+VALUES (31762, 8000, 0xDC1CD372) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31762, 67116700, 1, 100)

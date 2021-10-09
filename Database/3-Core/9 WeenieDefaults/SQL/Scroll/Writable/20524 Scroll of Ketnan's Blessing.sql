@@ -24,13 +24,13 @@ VALUES (20524,   1, 'Scroll of Ketnan''s Blessing') /* Name */
 Increases the caster''s Deception skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20524,   1,   33554826) /* Setup */
-     , (20524,   8,  100676448) /* Icon */
-     , (20524,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20524,   1, 0x0200018A) /* Setup */
+     , (20524,   8, 0x06003360) /* Icon */
+     , (20524,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20524,  28,       2227) /* Spell - DeceptionMasterySelf7 */
      , (20524, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20524, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20524, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20524, 8000, 3695930413) /* PCAPRecordedObjectIID */;
+VALUES (20524, 8000, 0xDC4B6C2D) /* PCAPRecordedObjectIID */;

@@ -50,18 +50,18 @@ VALUES (7791,   1, 'Frost Trident') /* Name */
      , (7791,  16, 'Frost Trident of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7791,   1,   33556667) /* Setup */
-     , (7791,   3,  536870932) /* SoundTable */
-     , (7791,   6,   67111919) /* PaletteBase */
-     , (7791,   8,  100670762) /* Icon */
-     , (7791,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7791,   1, 0x020008BB) /* Setup */
+     , (7791,   3, 0x20000014) /* SoundTable */
+     , (7791,   6, 0x04000BEF) /* PaletteBase */
+     , (7791,   8, 0x06001D2A) /* Icon */
+     , (7791,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7791,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (7791, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (7791, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7791, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7791, 8000, 3705367712) /* PCAPRecordedObjectIID */;
+VALUES (7791, 8000, 0xDCDB6CA0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7791,  1615,      2)  /* BloodDrinkerSelf5 */;

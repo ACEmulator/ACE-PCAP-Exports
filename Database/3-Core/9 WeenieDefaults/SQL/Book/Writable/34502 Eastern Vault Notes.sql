@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34502,   1, 'Eastern Vault Notes') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34502,   1,   33554773) /* Setup */
-     , (34502,   3,  536870932) /* SoundTable */
-     , (34502,   8,  100668176) /* Icon */
-     , (34502,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34502,   1, 0x02000155) /* Setup */
+     , (34502,   3, 0x20000014) /* SoundTable */
+     , (34502,   8, 0x06001310) /* Icon */
+     , (34502,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34502, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (34502, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (34502, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34502, 8000, 2153791014) /* PCAPRecordedObjectIID */;
+VALUES (34502, 8000, 0x80603E26) /* PCAPRecordedObjectIID */;

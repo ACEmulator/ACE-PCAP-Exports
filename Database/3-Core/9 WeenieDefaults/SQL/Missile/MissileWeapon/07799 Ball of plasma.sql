@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (7799,   1,        256) /* ItemType - MissileWeapon */
      , (7799,   5,         12) /* EncumbranceVal */
      , (7799,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (7799,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (7799,  11,        100) /* MaxStackSize */
      , (7799,  12,          1) /* StackSize */
      , (7799,  13,         12) /* StackUnitEncumbrance */
@@ -20,7 +19,7 @@ VALUES (7799,   1,        256) /* ItemType - MissileWeapon */
      , (7799,  45,         16) /* DamageType - Fire */
      , (7799,  48,         47) /* WeaponSkill - MissileWeapons */
      , (7799,  49,         12) /* WeaponTime */
-     , (7799,  51,          2) /* CombatUse - Missle */
+     , (7799,  51,          2) /* CombatUse - Missile */
      , (7799,  93,     164884) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ScriptedCollision, Inelastic */
      , (7799, 307,          7) /* DamageRating */
      , (7799, 313,          0) /* CritRating */
@@ -46,10 +45,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7799,   1, 'Ball of plasma') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7799,   1,   33555469) /* Setup */
-     , (7799,   3,  536870967) /* SoundTable */
-     , (7799,   8,  100667590) /* Icon */
-     , (7799,  22,  872415237) /* PhysicsEffectTable */
+VALUES (7799,   1, 0x0200040D) /* Setup */
+     , (7799,   3, 0x20000037) /* SoundTable */
+     , (7799,   8, 0x060010C6) /* Icon */
+     , (7799,  22, 0x34000005) /* PhysicsEffectTable */
      , (7799,  30,         90) /* PhysicsScript - ProjectileCollision */
      , (7799, 8001,    2339480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (7799, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
@@ -57,13 +56,9 @@ VALUES (7799,   1,   33555469) /* Setup */
      , (7799, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7799, 8040, 2279145535, 183.4055, 159.8539, 117.8242, -0.5634105, -0.5634105, -0.4272805, -0.4272805) /* PCAPRecordedLocation */
+VALUES (7799, 8040, 0x87D9003F, 183.4055, 159.8539, 117.8242, -0.563411, -0.563411, -0.427281, -0.427281) /* PCAPRecordedLocation */
 /* @teleloc 0x87D9003F [183.405500 159.853900 117.824200] -0.563411 -0.563411 -0.427281 -0.427281 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7799, 8000, 3685945876) /* PCAPRecordedObjectIID */
-     , (7799, 8008, 3685945875) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7799, 2, 47464,  1, 0, 0, False) /* Create Lightning Mace (47464) for Wield */
-     , (7799, 2, 23133,  1, 0, 0, False) /* Create Rock (23133) for Wield */;
+VALUES (7799, 8000, 0xDBB31214) /* PCAPRecordedObjectIID */
+     , (7799, 8008, 0xDBB31213) /* PCAPRecordedParentIID */;

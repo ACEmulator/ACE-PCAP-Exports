@@ -12,6 +12,7 @@ VALUES (43489,   1,      32768) /* ItemType - Caster */
      , (43489,  19,          0) /* Value */
      , (43489,  33,          1) /* Bonded - Bonded */
      , (43489,  36,       9999) /* ResistMagic */
+     , (43489,  46,        512) /* DefaultCombatStyle - Magic */
      , (43489,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43489,  94,         16) /* TargetType - Creature */
      , (43489, 114,          1) /* Attuned - Attuned */
@@ -19,7 +20,8 @@ VALUES (43489,   1,      32768) /* ItemType - Caster */
      , (43489, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43489,  22, True ) /* Inscribable */;
+VALUES (43489,  22, True ) /* Inscribable */
+     , (43489,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43489,  29,       1) /* WeaponDefense */
@@ -31,13 +33,13 @@ VALUES (43489,   1, 'Salivatory Goo') /* Name */
      , (43489,  16, 'This goo increases the salvatory production of an olthoi allowing them to create enough acid saliva to spit at their opponents.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43489,   1,   33556945) /* Setup */
-     , (43489,   3,  536870932) /* SoundTable */
-     , (43489,   8,  100691628) /* Icon */
-     , (43489,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43489,   1, 0x020009D1) /* Setup */
+     , (43489,   3, 0x20000014) /* SoundTable */
+     , (43489,   8, 0x06006EAC) /* Icon */
+     , (43489,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43489, 8001,    2703504) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, TargetType, Burden */
      , (43489, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43489, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43489, 8000, 3618495053) /* PCAPRecordedObjectIID */;
+VALUES (43489, 8000, 0xD7ADDA4D) /* PCAPRecordedObjectIID */;

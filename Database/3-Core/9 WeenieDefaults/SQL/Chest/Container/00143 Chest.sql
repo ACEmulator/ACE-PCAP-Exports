@@ -27,21 +27,21 @@ VALUES (143,   1, 'Chest') /* Name */
      , (143, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (143,   1,   33554556) /* Setup */
-     , (143,   2,  150994948) /* MotionTable */
-     , (143,   3,  536870945) /* SoundTable */
-     , (143,   8,  100667426) /* Icon */
-     , (143,  22,  872415275) /* PhysicsEffectTable */
+VALUES (143,   1, 0x0200007C) /* Setup */
+     , (143,   2, 0x09000004) /* MotionTable */
+     , (143,   3, 0x20000021) /* SoundTable */
+     , (143,   8, 0x06001022) /* Icon */
+     , (143,  22, 0x3400002B) /* PhysicsEffectTable */
      , (143, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (143, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (143, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (143, 8040, 3465871620, 87.9318, 16.1648, 23, -0.9595603, 0, 0, 0.2815031) /* PCAPRecordedLocation */
+VALUES (143, 8040, 0xCE950104, 87.9318, 16.1648, 23, -0.95956, 0, 0, 0.281503) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950104 [87.931800 16.164800 23.000000] -0.959560 0.000000 0.000000 0.281503 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (143, 8000, 2095665152) /* PCAPRecordedObjectIID */;
+VALUES (143, 8000, 0x7CE95000) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (143, -1, 27328, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Major Mana Stone (27328) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

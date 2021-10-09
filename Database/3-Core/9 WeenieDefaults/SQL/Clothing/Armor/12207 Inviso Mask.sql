@@ -33,17 +33,17 @@ VALUES (12207,   1, 'Inviso Mask') /* Name */
      , (12207,  16, 'It seems to be an inside out Doll mask!  It''s amazing what information you can glean if you are observant enough.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12207,   1,   33557364) /* Setup */
-     , (12207,   3,  536870932) /* SoundTable */
-     , (12207,   6,   67108990) /* PaletteBase */
-     , (12207,   8,  100672219) /* Icon */
-     , (12207,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12207,   1, 0x02000B74) /* Setup */
+     , (12207,   3, 0x20000014) /* SoundTable */
+     , (12207,   6, 0x0400007E) /* PaletteBase */
+     , (12207,   8, 0x060022DB) /* Icon */
+     , (12207,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12207, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (12207, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12207, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12207, 8000, 2186220431) /* PCAPRecordedObjectIID */;
+VALUES (12207, 8000, 0x824F138F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12207, 67113394, 240, 16);

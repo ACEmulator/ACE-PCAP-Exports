@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44158,   1, 'Contract for Assault (Mid)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44158,   1,   33557625) /* Setup */
-     , (44158,   3,  536870932) /* SoundTable */
-     , (44158,   8,  100691926) /* Icon */
-     , (44158,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44158,   1, 0x02000C79) /* Setup */
+     , (44158,   3, 0x20000014) /* SoundTable */
+     , (44158,   8, 0x06006FD6) /* Icon */
+     , (44158,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44158, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44158, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44158, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (44158,   1,   33557625) /* Setup */
      , (44158, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44158, 8000,      44158) /* PCAPRecordedObjectIID */;
+VALUES (44158, 8000, 0x0000AC7E) /* PCAPRecordedObjectIID */;

@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11929,   1, 'A Call To Arms') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11929,   1,   33554773) /* Setup */
-     , (11929,   3,  536870932) /* SoundTable */
-     , (11929,   8,  100675747) /* Icon */
-     , (11929,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11929,   1, 0x02000155) /* Setup */
+     , (11929,   3, 0x20000014) /* SoundTable */
+     , (11929,   8, 0x060030A3) /* Icon */
+     , (11929,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11929, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (11929, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (11929, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11929, 8000, 3705108236) /* PCAPRecordedObjectIID */;
+VALUES (11929, 8000, 0xDCD7770C) /* PCAPRecordedObjectIID */;

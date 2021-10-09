@@ -25,28 +25,28 @@ VALUES (25965,   1, 'Maddened Zharalim') /* Name */
      , (25965, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25965,   1,   33554433) /* Setup */
-     , (25965,   2,  150994945) /* MotionTable */
-     , (25965,   3,  536870913) /* SoundTable */
-     , (25965,   6,   67108990) /* PaletteBase */
-     , (25965,   8,  100667446) /* Icon */
-     , (25965,   9,   83890480) /* EyesTexture */
-     , (25965,  10,   83890543) /* NoseTexture */
-     , (25965,  11,   83890618) /* MouthTexture */
-     , (25965,  15,   67117019) /* HairPalette */
-     , (25965,  16,   67110063) /* EyesPalette */
-     , (25965,  17,   67109550) /* SkinPalette */
-     , (25965,  22,  872415236) /* PhysicsEffectTable */
+VALUES (25965,   1, 0x02000001) /* Setup */
+     , (25965,   2, 0x09000001) /* MotionTable */
+     , (25965,   3, 0x20000001) /* SoundTable */
+     , (25965,   6, 0x0400007E) /* PaletteBase */
+     , (25965,   8, 0x06001036) /* Icon */
+     , (25965,   9, 0x05001130) /* EyesTexture */
+     , (25965,  10, 0x0500116F) /* NoseTexture */
+     , (25965,  11, 0x050011BA) /* MouthTexture */
+     , (25965,  15, 0x04001FDB) /* HairPalette */
+     , (25965,  16, 0x040004AF) /* EyesPalette */
+     , (25965,  17, 0x040002AE) /* SkinPalette */
+     , (25965,  22, 0x34000004) /* PhysicsEffectTable */
      , (25965, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (25965, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (25965, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25965, 8040, 1682572100, 120, -60, -5.995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (25965, 8040, 0x644A0344, 120, -60, -5.995, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x644A0344 [120.000000 -60.000000 -5.995000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25965, 8000, 2881363212) /* PCAPRecordedObjectIID */;
+VALUES (25965, 8000, 0xABBE1D0C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25965,   1, 210, 0, 0) /* Strength */
@@ -332,7 +332,11 @@ VALUES (25965, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (1
      , (25965, 9, 20554,  0, 0, 0, False) /* Create Scroll of Harlune's Blessing (20554) for ContainTreasure */
      , (25965, 9, 45109,  0, 0, 0, False) /* Create Acid Schlager (45109) for ContainTreasure */
      , (25965, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
-     , (25965, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */;
+     , (25965, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
+     , (25965, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */
+     , (25965, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
+     , (25965, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (25965, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25965, 67109550, 0, 24)

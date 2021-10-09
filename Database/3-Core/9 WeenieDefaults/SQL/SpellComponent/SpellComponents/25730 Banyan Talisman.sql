@@ -22,18 +22,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25730,   1, 'Banyan Talisman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25730,   1,   33555211) /* Setup */
-     , (25730,   3,  536870932) /* SoundTable */
-     , (25730,   6,   67111919) /* PaletteBase */
-     , (25730,   8,  100675937) /* Icon */
-     , (25730,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25730,   1, 0x0200030B) /* Setup */
+     , (25730,   3, 0x20000014) /* SoundTable */
+     , (25730,   6, 0x04000BEF) /* PaletteBase */
+     , (25730,   8, 0x06003161) /* Icon */
+     , (25730,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25730, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (25730, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (25730, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (25730, 8044,       8328) /* PCAPPhysicsDIDDataTemplatedFrom - Iron Pea */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25730, 8000,      25730) /* PCAPRecordedObjectIID */;
+VALUES (25730, 8000, 0x00006482) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25730, 67111927, 0, 0);

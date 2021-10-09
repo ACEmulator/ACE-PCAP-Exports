@@ -17,23 +17,24 @@ VALUES (14526,   1,       2048) /* ItemType - Gem */
      , (14526, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14526,  22, True ) /* Inscribable */;
+VALUES (14526,  22, True ) /* Inscribable */
+     , (14526,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14526,   1, 'Fragment of the Lightning Prism') /* Name */
      , (14526,  16, 'A cracked piece of crystalline shard, full of tiny flaws.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14526,   1,   33557506) /* Setup */
-     , (14526,   3,  536870932) /* SoundTable */
-     , (14526,   8,  100672512) /* Icon */
-     , (14526,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14526,   1, 0x02000C02) /* Setup */
+     , (14526,   3, 0x20000014) /* SoundTable */
+     , (14526,   8, 0x06002400) /* Icon */
+     , (14526,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14526, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (14526, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14526, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14526, 8000, 2186506178) /* PCAPRecordedObjectIID */;
+VALUES (14526, 8000, 0x82536FC2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (14526, 0, 83892433, 83892492)

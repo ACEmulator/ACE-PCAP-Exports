@@ -35,21 +35,18 @@ VALUES (20993,   1, 'Salvage (39)') /* Name */
      , (20993,  15, 'A bar of steel material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20993,   1,   33554817) /* Setup */
-     , (20993,   3,  536870932) /* SoundTable */
-     , (20993,   6,   67111919) /* PaletteBase */
-     , (20993,   8,  100673219) /* Icon */
-     , (20993,  22,  872415275) /* PhysicsEffectTable */
-     , (20993,  50,  100673237) /* IconOverlay */
+VALUES (20993,   1, 0x02000181) /* Setup */
+     , (20993,   3, 0x20000014) /* SoundTable */
+     , (20993,   6, 0x04000BEF) /* PaletteBase */
+     , (20993,   8, 0x060026C3) /* Icon */
+     , (20993,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20993,  50, 0x060026D5) /* IconOverlay */
      , (20993, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (20993, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20993, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20993, 8000, 2186220484) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20993, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (20993, 8000, 0x824F13C4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20993, 67111923, 0, 0);

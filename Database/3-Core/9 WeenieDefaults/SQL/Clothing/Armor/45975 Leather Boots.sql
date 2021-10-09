@@ -8,7 +8,6 @@ VALUES (45975,   1,          2) /* ItemType - Armor */
      , (45975,   4,      65536) /* ClothingPriority - Feet */
      , (45975,   5,        300) /* EncumbranceVal */
      , (45975,   9,        256) /* ValidLocations - FootWear */
-     , (45975,  10,        256) /* CurrentWieldedLocation - FootWear */
      , (45975,  16,          1) /* ItemUseable - No */
      , (45975,  19,        100) /* Value */
      , (45975,  28,        480) /* ArmorLevel */
@@ -26,6 +25,7 @@ VALUES (45975,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45975,  22, True ) /* Inscribable */
+     , (45975,  23, True ) /* DestroyOnSell */
      , (45975,  99, True ) /* Ivoryable */
      , (45975, 100, True ) /* Dyable */;
 
@@ -44,26 +44,26 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45975,   1, 'Leather Boots') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45975,   1,   33556683) /* Setup */
-     , (45975,   3,  536870932) /* SoundTable */
-     , (45975,   6,   67108990) /* PaletteBase */
-     , (45975,   8,  100675071) /* Icon */
-     , (45975,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45975,   1, 0x020008CB) /* Setup */
+     , (45975,   3, 0x20000014) /* SoundTable */
+     , (45975,   6, 0x0400007E) /* PaletteBase */
+     , (45975,   8, 0x06002DFF) /* Icon */
+     , (45975,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45975, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (45975, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45975, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45975, 8000, 3041988371) /* PCAPRecordedObjectIID */;
+VALUES (45975, 8000, 0xB5510F13) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45975,   514,      2)  /* AcidProtectionOther6 */
-     , (45975,   689,      2)  /* ArcaneEnlightenmentOther6 */
      , (45975,  1486,      2)  /* Impenetrability6 */
-     , (45975,  2537,      2)  /* CANTRIPARCANEPROWESS1 */
-     , (45975,  2597,      2)  /* CANTRIPACIDBANE1 */
      , (45975,  6113,      2)  /* SummoningMasteryOther6 */
-     , (45975,  6127,      2)  /* CantripSummoningProwess1 */;
+     , (45975,  2597,      2)  /* CANTRIPACIDBANE1 */
+     , (45975,  2537,      2)  /* CANTRIPARCANEPROWESS1 */
+     , (45975,  6127,      2)  /* CantripSummoningProwess1 */
+     , (45975,   689,      2)  /* ArcaneEnlightenmentOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45975, 67114645, 160, 8);

@@ -16,7 +16,7 @@ VALUES (27339,   1,        256) /* ItemType - MissileWeapon */
      , (27339,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27339,  49,         45) /* WeaponTime */
      , (27339,  50,          1) /* AmmoType - Arrow */
-     , (27339,  51,          2) /* CombatUse - Missle */
+     , (27339,  51,          2) /* CombatUse - Missile */
      , (27339,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27339, 106,        250) /* ItemSpellcraft */
      , (27339, 107,        746) /* ItemCurMana */
@@ -54,16 +54,16 @@ VALUES (27339,   1, 'Tanae''s Panaq of the Forests') /* Name */
      , (27339,  25, 'Mahharu') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27339,   1,   33558662) /* Setup */
-     , (27339,   3,  536870932) /* SoundTable */
-     , (27339,   8,  100676377) /* Icon */
-     , (27339,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27339,   1, 0x02001086) /* Setup */
+     , (27339,   3, 0x20000014) /* SoundTable */
+     , (27339,   8, 0x06003319) /* Icon */
+     , (27339,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27339, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27339, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27339, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27339, 8000, 2868907843) /* PCAPRecordedObjectIID */;
+VALUES (27339, 8000, 0xAB000F43) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27339,  2446,      2)  /* GrowthGreater */

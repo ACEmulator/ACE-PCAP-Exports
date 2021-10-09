@@ -53,22 +53,22 @@ VALUES (45409,   1, 'Flaming Yaoji') /* Name */
      , (45409,  16, 'Flaming Yaoji of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45409,   1,   33555818) /* Setup */
-     , (45409,   3,  536870932) /* SoundTable */
-     , (45409,   8,  100669082) /* Icon */
-     , (45409,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45409,   1, 0x0200056A) /* Setup */
+     , (45409,   3, 0x20000014) /* SoundTable */
+     , (45409,   8, 0x0600169A) /* Icon */
+     , (45409,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45409,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45409,  52,  100676439) /* IconUnderlay */
+     , (45409,  52, 0x06003357) /* IconUnderlay */
      , (45409, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45409, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45409, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45409, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45409, 8000, 2174247617) /* PCAPRecordedObjectIID */;
+VALUES (45409, 8000, 0x819862C1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45409,  1377,      2)  /* CoordinationSelf5 */
-     , (45409,  1591,      2)  /* HeartSeekerSelf5 */
-     , (45409,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (45409,  1626,      2)  /* SwiftKillerSelf5 */;
+VALUES (45409,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (45409,  1626,      2)  /* SwiftKillerSelf5 */
+     , (45409,  1377,      2)  /* CoordinationSelf5 */
+     , (45409,  1591,      2)  /* HeartSeekerSelf5 */;

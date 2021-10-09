@@ -49,17 +49,17 @@ VALUES (32495,   1, 'Mace of Winter Flame') /* Name */
      , (32495,  16, 'A mace once wielded by the ancient slave Hiranaith, and touched by the seething energies of his brother Farelaith.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32495,   1,   33559806) /* Setup */
-     , (32495,   3,  536870932) /* SoundTable */
-     , (32495,   6,   67111919) /* PaletteBase */
-     , (32495,   8,  100688526) /* Icon */
-     , (32495,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32495,   1, 0x020014FE) /* Setup */
+     , (32495,   3, 0x20000014) /* SoundTable */
+     , (32495,   6, 0x04000BEF) /* PaletteBase */
+     , (32495,   8, 0x0600628E) /* Icon */
+     , (32495,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32495, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (32495, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32495, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32495, 8000, 2192304777) /* PCAPRecordedObjectIID */;
+VALUES (32495, 8000, 0x82ABEA89) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32495,  1616,      2)  /* BloodDrinkerSelf6 */

@@ -25,23 +25,23 @@ VALUES (33625,   1, 'Depraved Mukkir') /* Name */
      , (33625, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33625,   1,   33559741) /* Setup */
-     , (33625,   2,  150995348) /* MotionTable */
-     , (33625,   3,  536871107) /* SoundTable */
-     , (33625,   6,   67116771) /* PaletteBase */
-     , (33625,   8,  100688542) /* Icon */
-     , (33625,  22,  872415417) /* PhysicsEffectTable */
+VALUES (33625,   1, 0x020014BD) /* Setup */
+     , (33625,   2, 0x09000194) /* MotionTable */
+     , (33625,   3, 0x200000C3) /* SoundTable */
+     , (33625,   6, 0x04001EE3) /* PaletteBase */
+     , (33625,   8, 0x0600629E) /* Icon */
+     , (33625,  22, 0x340000B9) /* PhysicsEffectTable */
      , (33625,  30,         86) /* PhysicsScript - BreatheAcid */
      , (33625, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33625, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33625, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33625, 8040, 7537713, 30.0599, -60.0366, -18, -0.7072808, 0, 0, 0.7069328) /* PCAPRecordedLocation */
+VALUES (33625, 8040, 0x00730431, 30.0599, -60.0366, -18, -0.707281, 0, 0, 0.706933) /* PCAPRecordedLocation */
 /* @teleloc 0x00730431 [30.059900 -60.036600 -18.000000] -0.707281 0.000000 0.000000 0.706933 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33625, 8000, 3358423678) /* PCAPRecordedObjectIID */;
+VALUES (33625, 8000, 0xC82D7A7E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33625,   1, 460, 0, 0) /* Strength */
@@ -70,7 +70,9 @@ VALUES (33625, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasu
      , (33625, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (33625, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
      , (33625, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
-     , (33625, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */;
+     , (33625, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
+     , (33625, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (33625, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33625, 67116773, 0, 0);

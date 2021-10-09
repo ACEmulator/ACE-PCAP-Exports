@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6133,   1, 'Superior Shivering Atlan Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6133,   1,   33556384) /* Setup */
-     , (6133,   3,  536870932) /* SoundTable */
-     , (6133,   6,   67111919) /* PaletteBase */
-     , (6133,   8,  100670558) /* Icon */
-     , (6133,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6133,   1, 0x020007A0) /* Setup */
+     , (6133,   3, 0x20000014) /* SoundTable */
+     , (6133,   6, 0x04000BEF) /* PaletteBase */
+     , (6133,   8, 0x06001C5E) /* Icon */
+     , (6133,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6133, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (6133, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6133, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6133, 8000, 2765062888) /* PCAPRecordedObjectIID */;
+VALUES (6133, 8000, 0xA4CF82E8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6133, 67111919, 0, 0);

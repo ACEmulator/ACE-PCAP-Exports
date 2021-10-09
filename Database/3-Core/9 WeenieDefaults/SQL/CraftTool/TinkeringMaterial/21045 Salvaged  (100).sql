@@ -35,22 +35,22 @@ VALUES (21045,   1, 'Salvaged  (100)') /* Name */
      , (21045,  15, 'A bar of copper material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21045,   1,   33554817) /* Setup */
-     , (21045,   3,  536870932) /* SoundTable */
-     , (21045,   6,   67111919) /* PaletteBase */
-     , (21045,   8,  100673217) /* Icon */
-     , (21045,  22,  872415275) /* PhysicsEffectTable */
-     , (21045,  50,  100673269) /* IconOverlay */
+VALUES (21045,   1, 0x02000181) /* Setup */
+     , (21045,   3, 0x20000014) /* SoundTable */
+     , (21045,   6, 0x04000BEF) /* PaletteBase */
+     , (21045,   8, 0x060026C1) /* Icon */
+     , (21045,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21045,  50, 0x060026F5) /* IconOverlay */
      , (21045, 8001, 3509074968) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (21045, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21045, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21045, 8040, 3332964379, 83.45251, 66.46255, 41.9975, 0.6269416, 0, 0, -0.7790663) /* PCAPRecordedLocation */
+VALUES (21045, 8040, 0xC6A9001B, 83.45251, 66.46255, 41.9975, 0.626942, 0, 0, -0.779066) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [83.452510 66.462550 41.997500] 0.626942 0.000000 0.000000 -0.779066 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21045, 8000, 2243216312) /* PCAPRecordedObjectIID */;
+VALUES (21045, 8000, 0x85B4C3B8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21045, 67111922, 0, 0);

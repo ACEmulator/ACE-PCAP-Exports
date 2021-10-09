@@ -25,22 +25,22 @@ VALUES (28637,   1, 'Ravenous Eater') /* Name */
      , (28637, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28637,   1,   33559121) /* Setup */
-     , (28637,   2,  150995322) /* MotionTable */
-     , (28637,   3,  536871097) /* SoundTable */
-     , (28637,   6,   67115387) /* PaletteBase */
-     , (28637,   8,  100677365) /* Icon */
-     , (28637,  22,  872415409) /* PhysicsEffectTable */
+VALUES (28637,   1, 0x02001251) /* Setup */
+     , (28637,   2, 0x0900017A) /* MotionTable */
+     , (28637,   3, 0x200000B9) /* SoundTable */
+     , (28637,   6, 0x0400197B) /* PaletteBase */
+     , (28637,   8, 0x060036F5) /* Icon */
+     , (28637,  22, 0x340000B1) /* PhysicsEffectTable */
      , (28637, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (28637, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (28637, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28637, 8040, 1072758802, 69.71261, 26.64445, 14, -0.8901914, 0, 0, -0.4555867) /* PCAPRecordedLocation */
+VALUES (28637, 8040, 0x3FF10012, 69.71261, 26.64445, 14, -0.890191, 0, 0, -0.455587) /* PCAPRecordedLocation */
 /* @teleloc 0x3FF10012 [69.712610 26.644450 14.000000] -0.890191 0.000000 0.000000 -0.455587 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28637, 8000, 3692667634) /* PCAPRecordedObjectIID */;
+VALUES (28637, 8000, 0xDC19A2F2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28637,   1, 430, 0, 0) /* Strength */
@@ -56,7 +56,8 @@ VALUES (28637,   1,   500, 0, 0, 720) /* MaxHealth */
      , (28637,   5,     0, 0, 0, 230) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28637, 9, 49422,  0, 0, 0, False) /* Create Acid Spectre Essence (80) (49422) for ContainTreasure */
+VALUES (28637, 2, 47642,  1, 0, 0, False) /* Create Tachi (47642) for Wield */
+     , (28637, 9, 49422,  0, 0, 0, False) /* Create Acid Spectre Essence (80) (49422) for ContainTreasure */
      , (28637, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
      , (28637, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
      , (28637, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
@@ -641,7 +642,57 @@ VALUES (28637, 9, 49422,  0, 0, 0, False) /* Create Acid Spectre Essence (80) (4
      , (28637, 9, 30586,  0, 0, 0, False) /* Create Flanged Mace (30586) for ContainTreasure */
      , (28637, 9, 20487,  0, 0, 0, False) /* Create Scroll of Decrepitude's Grasp (20487) for ContainTreasure */
      , (28637, 9, 27218,  0, 0, 0, False) /* Create Chiran Leggings (27218) for ContainTreasure */
-     , (28637, 9, 49443,  0, 0, 0, False) /* Create Frost Spectre Essence (80) (49443) for ContainTreasure */;
+     , (28637, 9, 49443,  0, 0, 0, False) /* Create Frost Spectre Essence (80) (49443) for ContainTreasure */
+     , (28637, 9, 49257,  0, 0, 0, False) /* Create Frost Zombie Essence (125) (49257) for ContainTreasure */
+     , (28637, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
+     , (28637, 9, 49346,  0, 0, 0, False) /* Create Lightning Moar Essence (80) (49346) for ContainTreasure */
+     , (28637, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
+     , (28637, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */
+     , (28637, 9, 20514,  0, 0, 0, False) /* Create Scroll of Adja's Boon (20514) for ContainTreasure */
+     , (28637, 9, 45426,  0, 0, 0, False) /* Create Jambiya (45426) for ContainTreasure */
+     , (28637, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (28637, 9, 29238,  0, 0, 0, False) /* Create Acid Bow (29238) for ContainTreasure */
+     , (28637, 9, 45430,  0, 0, 0, False) /* Create Carrot Dagger (45430) for ContainTreasure */
+     , (28637, 9,  3907,  0, 0, 0, False) /* Create Flaming War Hammer (3907) for ContainTreasure */
+     , (28637, 9, 49293,  0, 0, 0, False) /* Create Lightning K'nath Essence (150) (49293) for ContainTreasure */
+     , (28637, 9, 20507,  0, 0, 0, False) /* Create Scroll of Missile Weapon Ineptitude Other VII (20507) for ContainTreasure */
+     , (28637, 9, 20569,  0, 0, 0, False) /* Create Scroll of Topheron's Blessing (20569) for ContainTreasure */
+     , (28637, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (28637, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (28637, 9,  3819,  0, 0, 0, False) /* Create Lightning Katar (3819) for ContainTreasure */
+     , (28637, 9,  3834,  0, 0, 0, False) /* Create Acid Mace (3834) for ContainTreasure */
+     , (28637, 9, 41050,  0, 0, 0, False) /* Create Frost Pike (41050) for ContainTreasure */
+     , (28637, 9, 30568,  0, 0, 0, False) /* Create Flaming Sabra (30568) for ContainTreasure */
+     , (28637, 9, 45114,  0, 0, 0, False) /* Create Acid Hammer (45114) for ContainTreasure */
+     , (28637, 9, 42750,  0, 0, 0, False) /* Create Haebrean Gauntlets (42750) for ContainTreasure */
+     , (28637, 9, 30563,  0, 0, 0, False) /* Create Lightning Dolabra (30563) for ContainTreasure */
+     , (28637, 9, 49229,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (100) (49229) for ContainTreasure */
+     , (28637, 9, 20477,  0, 0, 0, False) /* Create Scroll of Fiery Boon (20477) for ContainTreasure */
+     , (28637, 9, 49327,  0, 0, 0, False) /* Create Fire Wisp Essence (125) (49327) for ContainTreasure */
+     , (28637, 9, 49221,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (80) (49221) for ContainTreasure */
+     , (28637, 9, 41064,  0, 0, 0, False) /* Create Lightning Khanda-handled Mace (41064) for ContainTreasure */
+     , (28637, 9, 22159,  0, 0, 0, False) /* Create Acid Nabut (22159) for ContainTreasure */
+     , (28637, 9,   116,  0, 0, 0, False) /* Create Studded Leather Boots (116) for ContainTreasure */
+     , (28637, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
+     , (28637, 9,  3854,  0, 0, 0, False) /* Create Lightning Shamshir (3854) for ContainTreasure */
+     , (28637, 9, 31776,  0, 0, 0, False) /* Create Electric Board with Nail (31776) for ContainTreasure */
+     , (28637, 9, 20472,  0, 0, 0, False) /* Create Scroll of Blessing of the Mace Turner (20472) for ContainTreasure */
+     , (28637, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (28637, 9, 49269,  0, 0, 0, False) /* Create Lightning Elemental Essence (80) (49269) for ContainTreasure */
+     , (28637, 9, 28008,  0, 0, 0, False) /* Create Aura of Infected Spirit Caress Scroll (28008) for ContainTreasure */
+     , (28637, 9, 27232,  0, 0, 0, False) /* Create Nariyid Sleeves (27232) for ContainTreasure */
+     , (28637, 9, 45330,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self VII (45330) for ContainTreasure */
+     , (28637, 9, 49349,  0, 0, 0, False) /* Create Lightning Moar Essence (150) (49349) for ContainTreasure */
+     , (28637, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
+     , (28637, 9, 45395,  0, 0, 0, False) /* Create Rapier (45395) for ContainTreasure */
+     , (28637, 9, 31814,  0, 0, 0, False) /* Create Dark Blunt Slingshot (31814) for ContainTreasure */
+     , (28637, 9, 49292,  0, 0, 0, False) /* Create Lightning K'nath Essence (125) (49292) for ContainTreasure */
+     , (28637, 9, 20503,  0, 0, 0, False) /* Create Scroll of Jibril's Vitae (20503) for ContainTreasure */
+     , (28637, 9,  3851,  0, 0, 0, False) /* Create Flaming Scimitar (3851) for ContainTreasure */
+     , (28637, 9,    35,  0, 0, 0, False) /* Create Chainmail Basinet (35) for ContainTreasure */
+     , (28637, 9, 31793,  0, 0, 0, False) /* Create Frost Lancet (31793) for ContainTreasure */
+     , (28637, 9, 20408,  0, 0, 0, False) /* Create Scroll of Tusker's Bane (20408) for ContainTreasure */
+     , (28637, 9, 45418,  0, 0, 0, False) /* Create Lightning Knife (45418) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28637, 67115515, 0, 0);

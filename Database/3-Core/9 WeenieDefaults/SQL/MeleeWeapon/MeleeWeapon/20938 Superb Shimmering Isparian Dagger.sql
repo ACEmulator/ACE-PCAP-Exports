@@ -48,20 +48,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20938,   1, 'Superb Shimmering Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20938,   1,   33557746) /* Setup */
-     , (20938,   3,  536870932) /* SoundTable */
-     , (20938,   8,  100673206) /* Icon */
-     , (20938,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20938,   1, 0x02000CF2) /* Setup */
+     , (20938,   3, 0x20000014) /* SoundTable */
+     , (20938,   8, 0x060026B6) /* Icon */
+     , (20938,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20938, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (20938, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20938, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20938, 8000, 2981037280) /* PCAPRecordedObjectIID */;
+VALUES (20938, 8000, 0xB1AF04E0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20938,  1312,      2)  /* ArmorSelf6 */
-     , (20938,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */;
+     , (20938,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20938, 0, 83893927, 83892492)

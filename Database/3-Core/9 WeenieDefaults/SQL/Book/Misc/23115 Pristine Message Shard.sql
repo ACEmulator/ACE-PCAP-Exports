@@ -23,13 +23,13 @@ VALUES (23115,   1, 'Pristine Message Shard') /* Name */
      , (23115,  16, 'A piece of obsidian etched with arcane symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23115,   1,   33555391) /* Setup */
-     , (23115,   3,  536870932) /* SoundTable */
-     , (23115,   8,  100671183) /* Icon */
-     , (23115,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23115,   1, 0x020003BF) /* Setup */
+     , (23115,   3, 0x20000014) /* SoundTable */
+     , (23115,   8, 0x06001ECF) /* Icon */
+     , (23115,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23115, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (23115, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (23115, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23115, 8000, 2880774000) /* PCAPRecordedObjectIID */;
+VALUES (23115, 8000, 0xABB51F70) /* PCAPRecordedObjectIID */;

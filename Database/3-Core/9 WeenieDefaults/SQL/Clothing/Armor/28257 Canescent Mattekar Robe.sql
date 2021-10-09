@@ -34,17 +34,17 @@ VALUES (28257,   1, 'Canescent Mattekar Robe') /* Name */
      , (28257,  15, 'The Canescent Mattekar Robe, brought to you with the finest care by Britana.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28257,   1,   33554854) /* Setup */
-     , (28257,   3,  536870932) /* SoundTable */
-     , (28257,   6,   67108990) /* PaletteBase */
-     , (28257,   8,  100672056) /* Icon */
-     , (28257,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28257,   1, 0x020001A6) /* Setup */
+     , (28257,   3, 0x20000014) /* SoundTable */
+     , (28257,   6, 0x0400007E) /* PaletteBase */
+     , (28257,   8, 0x06002238) /* Icon */
+     , (28257,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28257, 8001,  270876688) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (28257, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28257, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28257, 8000, 2274286879) /* PCAPRecordedObjectIID */;
+VALUES (28257, 8000, 0x878EDD1F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28257, 67110026, 96, 12)

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32783,   1,          2) /* ItemType - Armor */
      , (32783,   5,        600) /* EncumbranceVal */
      , (32783,   9,    2097152) /* ValidLocations - Shield */
-     , (32783,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (32783,  16,          1) /* ItemUseable - No */
      , (32783,  18,          1) /* UiEffects - Magical */
      , (32783,  19,       6000) /* Value */
@@ -43,27 +42,27 @@ VALUES (32783,   1, 'Shield of Silyun') /* Name */
      , (32783,  16, 'A shield given by Lucari di Bellenesse, for valor in the retrieval of the lost Sword of Bellenesse.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32783,   1,   33559843) /* Setup */
-     , (32783,   3,  536870932) /* SoundTable */
-     , (32783,   8,  100688641) /* Icon */
-     , (32783,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32783,   1, 0x02001523) /* Setup */
+     , (32783,   3, 0x20000014) /* SoundTable */
+     , (32783,   8, 0x06006301) /* Icon */
+     , (32783,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32783, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (32783, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32783, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
      , (32783, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32783, 8040, 669777942, 63.66345, 121.0697, 79.926, 0.1619309, -0.7545306, -0.3750565, -0.5136094) /* PCAPRecordedLocation */
+VALUES (32783, 8040, 0x27EC0016, 63.66345, 121.0697, 79.926, 0.161931, -0.754531, -0.375057, -0.513609) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC0016 [63.663450 121.069700 79.926000] 0.161931 -0.754531 -0.375057 -0.513609 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32783, 8000, 3688217484) /* PCAPRecordedObjectIID */
-     , (32783, 8008, 3687964568) /* PCAPRecordedParentIID */;
+VALUES (32783, 8000, 0xDBD5BB8C) /* PCAPRecordedObjectIID */
+     , (32783, 8008, 0xDBD1DF98) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32783,   249,      2)  /* InvulnerabilitySelf6 */
-     , (32783,  2108,      2)  /* Impenetrability7 */
-     , (32783,  2660,      2)  /* ModerateEndurance */;
+VALUES (32783,  2660,      2)  /* ModerateEndurance */
+     , (32783,   249,      2)  /* InvulnerabilitySelf6 */
+     , (32783,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (32783, 0, 83897427, 83897427);

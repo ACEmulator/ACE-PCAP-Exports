@@ -26,13 +26,13 @@ VALUES (33186,   1, 'Pack Harbinger') /* Name */
      , (33186, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33186,   1,   33559924) /* Setup */
-     , (33186,   2,  150995359) /* MotionTable */
-     , (33186,   8,  100688939) /* Icon */
-     , (33186,  22,  872415331) /* PhysicsEffectTable */
+VALUES (33186,   1, 0x02001574) /* Setup */
+     , (33186,   2, 0x0900019F) /* MotionTable */
+     , (33186,   8, 0x0600642B) /* Icon */
+     , (33186,  22, 0x34000063) /* PhysicsEffectTable */
      , (33186, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
      , (33186, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33186, 8005,      69763) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33186, 8000, 2906539959) /* PCAPRecordedObjectIID */;
+VALUES (33186, 8000, 0xAD3E47B7) /* PCAPRecordedObjectIID */;

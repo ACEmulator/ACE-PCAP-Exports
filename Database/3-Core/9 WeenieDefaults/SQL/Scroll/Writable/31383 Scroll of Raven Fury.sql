@@ -24,17 +24,17 @@ VALUES (31383,   1, 'Scroll of Raven Fury') /* Name */
 Drains half of the caster�s health and projects a ring of vicious energy outwards. When struck, the target�s health is reduced by 200% of the amount drained from the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31383,   1,   33554826) /* Setup */
-     , (31383,   8,  100676718) /* Icon */
-     , (31383,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31383,   1, 0x0200018A) /* Setup */
+     , (31383,   8, 0x0600346E) /* Icon */
+     , (31383,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31383,  28,       3818) /* Spell - CurseRavenFury */
      , (31383, 8001,    6291472) /* PCAPRecordedWeenieHeader - Usable, Burden, Spell */
      , (31383, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31383, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31383, 8040, 23855548, 54.02314, -27.82755, 0.0855, -0.06455702, 0, 0, -0.997914) /* PCAPRecordedLocation */
+VALUES (31383, 8040, 0x016C01BC, 54.02314, -27.82755, 0.0855, -0.064557, 0, 0, -0.997914) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [54.023140 -27.827550 0.085500] -0.064557 0.000000 0.000000 -0.997914 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31383, 8000, 3251212661) /* PCAPRecordedObjectIID */;
+VALUES (31383, 8000, 0xC1C99175) /* PCAPRecordedObjectIID */;

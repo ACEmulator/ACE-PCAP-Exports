@@ -11,6 +11,7 @@ VALUES (11786,   1,      32768) /* ItemType - Caster */
      , (11786,  18,          1) /* UiEffects - Magical */
      , (11786,  19,          0) /* Value */
      , (11786,  33,          1) /* Bonded - Bonded */
+     , (11786,  46,        512) /* DefaultCombatStyle - Magic */
      , (11786,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11786,  94,         16) /* TargetType - Creature */
      , (11786, 106,        200) /* ItemSpellcraft */
@@ -22,6 +23,7 @@ VALUES (11786,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11786,  22, True ) /* Inscribable */
+     , (11786,  23, True ) /* DestroyOnSell */
      , (11786,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -36,15 +38,15 @@ VALUES (11786,   1, 'Reinforced Reedshark Banner with Symbol') /* Name */
      , (11786,  16, 'A reinforced, symbol tipped banner with a reedshark on it.  It is relatively well kept, and the colors seem even and pure.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11786,   1,   33557261) /* Setup */
-     , (11786,   8,  100671939) /* Icon */
-     , (11786,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11786,   1, 0x02000B0D) /* Setup */
+     , (11786,   8, 0x060021C3) /* Icon */
+     , (11786,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11786, 8001,    2703504) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, TargetType, Burden */
      , (11786, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11786, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11786, 8000, 3261426510) /* PCAPRecordedObjectIID */;
+VALUES (11786, 8000, 0xC2656B4E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11786,   657,      2)  /* ManaMasterySelf5 */

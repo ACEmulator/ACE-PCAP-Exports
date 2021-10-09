@@ -24,16 +24,16 @@ VALUES (9481,   1, 'Arshid''s High-Stakes Gambling Token') /* Name */
      , (9481,  16, 'A red gambling token from Arshid''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9481,   1,   33557006) /* Setup */
-     , (9481,   3,  536870932) /* SoundTable */
-     , (9481,   8,  100671526) /* Icon */
-     , (9481,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9481,   1, 0x02000A0E) /* Setup */
+     , (9481,   3, 0x20000014) /* SoundTable */
+     , (9481,   8, 0x06002026) /* Icon */
+     , (9481,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9481, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (9481, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9481, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9481, 8000, 2980861984) /* PCAPRecordedObjectIID */;
+VALUES (9481, 8000, 0xB1AC5820) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (9481, 0, 83893248, 83893252)

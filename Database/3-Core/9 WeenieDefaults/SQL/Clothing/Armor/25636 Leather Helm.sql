@@ -39,21 +39,17 @@ VALUES (25636,   1, 'Leather Helm') /* Name */
      , (25636,  16, 'Leather Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25636,   1,   33555048) /* Setup */
-     , (25636,   3,  536870932) /* SoundTable */
-     , (25636,   6,   67108990) /* PaletteBase */
-     , (25636,   8,  100675286) /* Icon */
-     , (25636,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25636,   1, 0x02000268) /* Setup */
+     , (25636,   3, 0x20000014) /* SoundTable */
+     , (25636,   6, 0x0400007E) /* PaletteBase */
+     , (25636,   8, 0x06002ED6) /* Icon */
+     , (25636,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25636, 8001, 2435137560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (25636, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25636, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25636, 8000, 3700028178) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25636, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
-     , (25636, 2, 33105,  1, 0, 0, False) /* Create Shield of Isin Dule (33105) for Wield */;
+VALUES (25636, 8000, 0xDC89F312) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25636, 67114645, 240, 16);

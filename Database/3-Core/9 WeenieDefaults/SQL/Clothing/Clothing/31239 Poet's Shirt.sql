@@ -8,7 +8,6 @@ VALUES (31239,   1,          4) /* ItemType - Clothing */
      , (31239,   4,        104) /* ClothingPriority - UnderwearChest, UnderwearUpperArms, UnderwearLowerArms */
      , (31239,   5,         75) /* EncumbranceVal */
      , (31239,   9,         30) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
-     , (31239,  10,         30) /* CurrentWieldedLocation - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
      , (31239,  16,          1) /* ItemUseable - No */
      , (31239,  19,         30) /* Value */
      , (31239,  28,          0) /* ArmorLevel */
@@ -33,17 +32,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31239,   1, 'Poet''s Shirt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31239,   1,   33554854) /* Setup */
-     , (31239,   3,  536870932) /* SoundTable */
-     , (31239,   6,   67108990) /* PaletteBase */
-     , (31239,   8,  100682379) /* Icon */
-     , (31239,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31239,   1, 0x020001A6) /* Setup */
+     , (31239,   3, 0x20000014) /* SoundTable */
+     , (31239,   6, 0x0400007E) /* PaletteBase */
+     , (31239,   8, 0x06004A8B) /* Icon */
+     , (31239,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31239, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (31239, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31239, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31239, 8000, 2981544790) /* PCAPRecordedObjectIID */;
+VALUES (31239, 8000, 0xB1B6C356) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31239, 67110355, 40, 24);

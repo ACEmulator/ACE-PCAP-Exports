@@ -21,17 +21,17 @@ VALUES (29221,   1, 'Simple Dried Health Rations') /* Name */
      , (29221,  20, 'Simple Dried Health Rations') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29221,   1,   33554817) /* Setup */
-     , (29221,   3,  536870932) /* SoundTable */
-     , (29221,   8,  100674003) /* Icon */
-     , (29221,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29221,   1, 0x02000181) /* Setup */
+     , (29221,   3, 0x20000014) /* SoundTable */
+     , (29221,   8, 0x060029D3) /* Icon */
+     , (29221,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29221, 8001,    2109593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Burden */
      , (29221, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29221, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29221, 8040, 2847080487, 98.06141, 157.2444, 101.9657, -0.9508016, 0, 0, -0.3098004) /* PCAPRecordedLocation */
+VALUES (29221, 8040, 0xA9B30027, 98.06141, 157.2444, 101.9657, -0.950802, 0, 0, -0.3098) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B30027 [98.061410 157.244400 101.965700] -0.950802 0.000000 0.000000 -0.309800 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29221, 8000, 3621962390) /* PCAPRecordedObjectIID */;
+VALUES (29221, 8000, 0xD7E2C296) /* PCAPRecordedObjectIID */;

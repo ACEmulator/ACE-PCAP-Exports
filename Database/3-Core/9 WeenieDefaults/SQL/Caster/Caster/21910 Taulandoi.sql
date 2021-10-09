@@ -10,6 +10,7 @@ VALUES (21910,   1,      32768) /* ItemType - Caster */
      , (21910,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (21910,  18,        256) /* UiEffects - Acid */
      , (21910,  19,       4000) /* Value */
+     , (21910,  46,        512) /* DefaultCombatStyle - Magic */
      , (21910,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21910,  94,         16) /* TargetType - Creature */
      , (21910, 106,        325) /* ItemSpellcraft */
@@ -38,21 +39,21 @@ VALUES (21910,   1, 'Taulandoi') /* Name */
      , (21910,  15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21910,   1,   33557963) /* Setup */
-     , (21910,   3,  536870932) /* SoundTable */
-     , (21910,   8,  100673490) /* Icon */
-     , (21910,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21910,   1, 0x02000DCB) /* Setup */
+     , (21910,   3, 0x20000014) /* SoundTable */
+     , (21910,   8, 0x060027D2) /* Icon */
+     , (21910,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21910,  28,       2781) /* Spell - LesserElementalFuryAcid */
      , (21910, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (21910, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21910, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21910, 8000, 2166189961) /* PCAPRecordedObjectIID */;
+VALUES (21910, 8000, 0x811D6F89) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21910,   640,      2)  /* WarMagicMasteryOther6 */
-     , (21910,   664,      2)  /* ManaMasteryOther6 */
      , (21910,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (21910,   664,      2)  /* ManaMasteryOther6 */
      , (21910,  2584,      2)  /* CANTRIPWILLPOWER1 */
      , (21910,  2812,      2)  /* ModerateWarMagicAptitude */;

@@ -8,7 +8,6 @@ VALUES (38466,   1,          2) /* ItemType - Armor */
      , (38466,   4,        512) /* ClothingPriority - OuterwearLowerLegs */
      , (38466,   5,        747) /* EncumbranceVal */
      , (38466,   9,      16384) /* ValidLocations - LowerLegArmor */
-     , (38466,  10,      16384) /* CurrentWieldedLocation - LowerLegArmor */
      , (38466,  16,          1) /* ItemUseable - No */
      , (38466,  18,          1) /* UiEffects - Magical */
      , (38466,  19,       6233) /* Value */
@@ -55,22 +54,22 @@ VALUES (38466,   1, 'Celestial Hand Greaves') /* Name */
      , (38466,  39, 'Straharik') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38466,   1,   33554641) /* Setup */
-     , (38466,   3,  536870932) /* SoundTable */
-     , (38466,   8,  100690166) /* Icon */
-     , (38466,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38466,   1, 0x020000D1) /* Setup */
+     , (38466,   3, 0x20000014) /* SoundTable */
+     , (38466,   8, 0x060068F6) /* Icon */
+     , (38466,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38466,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (38466, 8001, 2166849688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, Workmanship, MaterialType */
      , (38466, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
      , (38466, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38466, 8000, 3231352861) /* PCAPRecordedObjectIID */;
+VALUES (38466, 8000, 0xC09A881D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38466,  2092,      2)  /* AcidBane7 */
-     , (38466,  2108,      2)  /* Impenetrability7 */
-     , (38466,  2574,      2)  /* CANTRIPFOCUS2 */;
+VALUES (38466,  2574,      2)  /* CANTRIPFOCUS2 */
+     , (38466,  2092,      2)  /* AcidBane7 */
+     , (38466,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38466, 0, 83886788, 83897929);

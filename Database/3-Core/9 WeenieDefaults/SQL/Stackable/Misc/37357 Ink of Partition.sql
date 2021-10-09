@@ -20,13 +20,13 @@ VALUES (37357,   1, 'Ink of Partition') /* Name */
      , (37357,  20, 'Inks of Partition') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37357,   1,   33554602) /* Setup */
-     , (37357,   3,  536870932) /* SoundTable */
-     , (37357,   8,  100690189) /* Icon */
-     , (37357,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37357,   1, 0x020000AA) /* Setup */
+     , (37357,   3, 0x20000014) /* SoundTable */
+     , (37357,   8, 0x0600690D) /* Icon */
+     , (37357,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37357, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (37357, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37357, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37357, 8000, 2461826776) /* PCAPRecordedObjectIID */;
+VALUES (37357, 8000, 0x92BC7ED8) /* PCAPRecordedObjectIID */;

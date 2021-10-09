@@ -22,20 +22,20 @@ VALUES (40128,   1, 'Corroding Crystalline Wisp') /* Name */
      , (40128, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40128,   1,   33557068) /* Setup */
-     , (40128,   2,  150995087) /* MotionTable */
-     , (40128,   3,  536870985) /* SoundTable */
-     , (40128,   8,  100671683) /* Icon */
+VALUES (40128,   1, 0x02000A4C) /* Setup */
+     , (40128,   2, 0x0900008F) /* MotionTable */
+     , (40128,   3, 0x20000049) /* SoundTable */
+     , (40128,   8, 0x060020C3) /* Icon */
      , (40128, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40128, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40128, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40128, 8040, 845938704, 43.98943, 175.6507, 304.005, 0.9396926, 0, 0, -0.3420201) /* PCAPRecordedLocation */
+VALUES (40128, 8040, 0x326C0010, 43.98943, 175.6507, 304.005, 0.939693, 0, 0, -0.34202) /* PCAPRecordedLocation */
 /* @teleloc 0x326C0010 [43.989430 175.650700 304.005000] 0.939693 0.000000 0.000000 -0.342020 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40128, 8000, 3360629054) /* PCAPRecordedObjectIID */;
+VALUES (40128, 8000, 0xC84F213E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40128,   1, 150, 0, 0) /* Strength */
@@ -125,4 +125,8 @@ VALUES (40128, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for Conta
      , (40128, 9, 45420,  0, 0, 0, False) /* Create Frost Knife (45420) for ContainTreasure */
      , (40128, 9, 20503,  0, 0, 0, False) /* Create Scroll of Jibril's Vitae (20503) for ContainTreasure */
      , (40128, 9, 31817,  0, 0, 0, False) /* Create Frost Slingshot (31817) for ContainTreasure */
-     , (40128, 9, 30592,  0, 0, 0, False) /* Create Flaming Partizan (30592) for ContainTreasure */;
+     , (40128, 9, 30592,  0, 0, 0, False) /* Create Flaming Partizan (30592) for ContainTreasure */
+     , (40128, 9, 48965,  0, 0, 0, False) /* Create Fire Child Essence (125) (48965) for ContainTreasure */
+     , (40128, 9, 31767,  0, 0, 0, False) /* Create Flaming Lugian Hammer (31767) for ContainTreasure */
+     , (40128, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */
+     , (40128, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */;

@@ -23,19 +23,19 @@ VALUES (24303,   1, 'Olthoi Swarm Matron') /* Name */
      , (24303, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24303,   1,   33557165) /* Setup */
-     , (24303,   2,  150995135) /* MotionTable */
-     , (24303,   3,  536871037) /* SoundTable */
-     , (24303,   8,  100667623) /* Icon */
-     , (24303,  22,  872415379) /* PhysicsEffectTable */
+VALUES (24303,   1, 0x02000AAD) /* Setup */
+     , (24303,   2, 0x090000BF) /* MotionTable */
+     , (24303,   3, 0x2000007D) /* SoundTable */
+     , (24303,   8, 0x060010E7) /* Icon */
+     , (24303,  22, 0x34000093) /* PhysicsEffectTable */
      , (24303,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24303, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24303, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24303, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24303, 8040, 1114496, 33.1074, -227.843, -24, -0.277252, 0, 0, 0.9607973) /* PCAPRecordedLocation */
+VALUES (24303, 8040, 0x00110180, 33.1074, -227.843, -24, -0.277252, 0, 0, 0.960797) /* PCAPRecordedLocation */
 /* @teleloc 0x00110180 [33.107400 -227.843000 -24.000000] -0.277252 0.000000 0.000000 0.960797 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24303, 8000, 3345742997) /* PCAPRecordedObjectIID */;
+VALUES (24303, 8000, 0xC76BFC95) /* PCAPRecordedObjectIID */;

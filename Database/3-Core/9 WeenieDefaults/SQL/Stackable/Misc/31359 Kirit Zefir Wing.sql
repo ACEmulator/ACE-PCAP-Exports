@@ -17,18 +17,21 @@ VALUES (31359,   1,        128) /* ItemType - Misc */
      , (31359, 114,          1) /* Attuned - Attuned */
      , (31359, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31359,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31359,   1, 'Kirit Zefir Wing') /* Name */
      , (31359,  16, 'A delicate wing from a Kirit Zefir.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31359,   1,   33554817) /* Setup */
-     , (31359,   3,  536870932) /* SoundTable */
-     , (31359,   8,  100687709) /* Icon */
-     , (31359,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31359,   1, 0x02000181) /* Setup */
+     , (31359,   3, 0x20000014) /* SoundTable */
+     , (31359,   8, 0x06005F5D) /* Icon */
+     , (31359,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31359, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (31359, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31359, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31359, 8000, 2447289187) /* PCAPRecordedObjectIID */;
+VALUES (31359, 8000, 0x91DEAB63) /* PCAPRecordedObjectIID */;

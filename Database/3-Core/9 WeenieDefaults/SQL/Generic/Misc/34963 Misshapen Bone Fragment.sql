@@ -22,13 +22,13 @@ VALUES (34963,   1, 'Misshapen Bone Fragment') /* Name */
      , (34963,  16, 'A strange piece of bone and dirt with strange dark red stains.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34963,   1,   33560099) /* Setup */
-     , (34963,   3,  536870932) /* SoundTable */
-     , (34963,   8,  100689365) /* Icon */
-     , (34963,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34963,   1, 0x02001623) /* Setup */
+     , (34963,   3, 0x20000014) /* SoundTable */
+     , (34963,   8, 0x060065D5) /* Icon */
+     , (34963,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34963, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (34963, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34963, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34963, 8000, 3122357067) /* PCAPRecordedObjectIID */;
+VALUES (34963, 8000, 0xBA1B634B) /* PCAPRecordedObjectIID */;

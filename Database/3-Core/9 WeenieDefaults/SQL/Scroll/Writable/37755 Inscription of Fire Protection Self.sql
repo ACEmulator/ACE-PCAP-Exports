@@ -24,13 +24,13 @@ VALUES (37755,   1, 'Inscription of Fire Protection Self') /* Name */
 Reduces damage the caster takes from Fire by 68%') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37755,   1,   33554826) /* Setup */
-     , (37755,   8,  100676949) /* Icon */
-     , (37755,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37755,   1, 0x0200018A) /* Setup */
+     , (37755,   8, 0x06003555) /* Icon */
+     , (37755,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37755,  28,       4468) /* Spell - FireProtectionSelf8 */
      , (37755, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37755, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37755, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37755, 8000, 2150584891) /* PCAPRecordedObjectIID */;
+VALUES (37755, 8000, 0x802F523B) /* PCAPRecordedObjectIID */;

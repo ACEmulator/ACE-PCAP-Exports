@@ -23,21 +23,21 @@ VALUES (14466,   1, 'Two Headed Snowman') /* Name */
      , (14466, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14466,   1,   33557482) /* Setup */
-     , (14466,   2,  150995088) /* MotionTable */
-     , (14466,   3,  536871000) /* SoundTable */
-     , (14466,   8,  100669125) /* Icon */
-     , (14466,  22,  872415346) /* PhysicsEffectTable */
+VALUES (14466,   1, 0x02000BEA) /* Setup */
+     , (14466,   2, 0x09000090) /* MotionTable */
+     , (14466,   3, 0x20000058) /* SoundTable */
+     , (14466,   8, 0x060016C5) /* Icon */
+     , (14466,  22, 0x34000072) /* PhysicsEffectTable */
      , (14466, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (14466, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14466, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14466, 8040, 2474377268, 147.7121, 74.51563, 36, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (14466, 8040, 0x937C0034, 147.7121, 74.51563, 36, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x937C0034 [147.712100 74.515630 36.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14466, 8000, 3685895865) /* PCAPRecordedObjectIID */;
+VALUES (14466, 8000, 0xDBB24EB9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (14466,   1,  70, 0, 0) /* Strength */

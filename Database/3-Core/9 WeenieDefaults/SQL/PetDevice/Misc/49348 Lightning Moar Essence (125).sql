@@ -17,7 +17,7 @@ VALUES (49348,   1,        128) /* ItemType - Misc */
      , (49348, 105,          6) /* ItemWorkmanship */
      , (49348, 114,          0) /* Attuned - Normal */
      , (49348, 280,        213) /* SharedCooldown */
-     , (49348, 366,         54) /* UseRequiresSkill */
+     , (49348, 366,         54) /* UseRequiresSkill - Summoning */
      , (49348, 367,        430) /* UseRequiresSkillLevel */
      , (49348, 369,        115) /* UseRequiresLevel */
      , (49348, 370,          9) /* GearDamage */
@@ -36,23 +36,20 @@ VALUES (49348,   1, 'Lightning Moar Essence (125)') /* Name */
      , (49348,  14, 'Use this essence to summon or dismiss your Lightning Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49348,   1,   33554817) /* Setup */
-     , (49348,   3,  536870932) /* SoundTable */
-     , (49348,   6,   67111919) /* PaletteBase */
-     , (49348,   8,  100693034) /* Icon */
-     , (49348,  22,  872415275) /* PhysicsEffectTable */
-     , (49348,  50,  100693029) /* IconOverlay */
-     , (49348,  52,  100693024) /* IconUnderlay */
+VALUES (49348,   1, 0x02000181) /* Setup */
+     , (49348,   3, 0x20000014) /* SoundTable */
+     , (49348,   6, 0x04000BEF) /* PaletteBase */
+     , (49348,   8, 0x0600742A) /* Icon */
+     , (49348,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49348,  50, 0x06007425) /* IconOverlay */
+     , (49348,  52, 0x06007420) /* IconUnderlay */
      , (49348, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49348, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49348, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49348, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49348, 8000, 3697972681) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49348, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
+VALUES (49348, 8000, 0xDC6A95C9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49348, 67111921, 0, 0);

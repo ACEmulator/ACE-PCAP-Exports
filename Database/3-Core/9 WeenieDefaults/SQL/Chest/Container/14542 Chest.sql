@@ -24,21 +24,21 @@ VALUES (14542,   1, 'Chest') /* Name */
      , (14542, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14542,   1,   33554556) /* Setup */
-     , (14542,   2,  150994948) /* MotionTable */
-     , (14542,   3,  536870945) /* SoundTable */
-     , (14542,   8,  100672483) /* Icon */
-     , (14542,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14542,   1, 0x0200007C) /* Setup */
+     , (14542,   2, 0x09000004) /* MotionTable */
+     , (14542,   3, 0x20000021) /* SoundTable */
+     , (14542,   8, 0x060023E3) /* Icon */
+     , (14542,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14542, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (14542, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (14542, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14542, 8040, 1382875973, 109, -104, 42, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (14542, 8040, 0x526D0345, 109, -104, 42, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x526D0345 [109.000000 -104.000000 42.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14542, 8000, 1965478071) /* PCAPRecordedObjectIID */;
+VALUES (14542, 8000, 0x7526D0B7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14542, -1, 14504, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ebuillant Bracelet (14504) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

@@ -33,6 +33,7 @@ VALUES (41879,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41879,  22, True ) /* Inscribable */
+     , (41879,  23, True ) /* DestroyOnSell */
      , (41879,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -53,24 +54,24 @@ VALUES (41879,   1, 'Singularity Axe') /* Name */
      , (41879,  15, 'An axe imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41879,   1,   33556970) /* Setup */
-     , (41879,   3,  536870932) /* SoundTable */
-     , (41879,   6,   67111919) /* PaletteBase */
-     , (41879,   8,  100671369) /* Icon */
-     , (41879,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41879,   1, 0x020009EA) /* Setup */
+     , (41879,   3, 0x20000014) /* SoundTable */
+     , (41879,   6, 0x04000BEF) /* PaletteBase */
+     , (41879,   8, 0x06001F89) /* Icon */
+     , (41879,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41879,  30,         88) /* PhysicsScript - Create */
      , (41879, 8001,    2179728) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
      , (41879, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41879, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41879, 8000, 2153621493) /* PCAPRecordedObjectIID */;
+VALUES (41879, 8000, 0x805DA7F5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41879,  2086,      2)  /* StrengthOther7 */
+VALUES (41879,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (41879,  2086,      2)  /* StrengthOther7 */
      , (41879,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (41879,  2106,      2)  /* HeartSeekerSelf7 */
-     , (41879,  2576,      2)  /* CANTRIPSTRENGTH2 */;
+     , (41879,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41879, 67111927, 0, 0);

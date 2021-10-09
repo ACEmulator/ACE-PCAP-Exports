@@ -24,13 +24,13 @@ VALUES (31446,   1, 'First Half of a Battered Sword') /* Name */
      , (31446,  16, 'Half of a battered old sword. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31446,   1,   33554817) /* Setup */
-     , (31446,   3,  536870932) /* SoundTable */
-     , (31446,   8,  100687886) /* Icon */
-     , (31446,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31446,   1, 0x02000181) /* Setup */
+     , (31446,   3, 0x20000014) /* SoundTable */
+     , (31446,   8, 0x0600600E) /* Icon */
+     , (31446,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31446, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (31446, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31446, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31446, 8000, 2448122506) /* PCAPRecordedObjectIID */;
+VALUES (31446, 8000, 0x91EB628A) /* PCAPRecordedObjectIID */;

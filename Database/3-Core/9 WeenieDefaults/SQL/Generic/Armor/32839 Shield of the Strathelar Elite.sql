@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32839,   1,          2) /* ItemType - Armor */
      , (32839,   5,       1400) /* EncumbranceVal */
      , (32839,   9,    2097152) /* ValidLocations - Shield */
-     , (32839,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (32839,  16,          1) /* ItemUseable - No */
      , (32839,  18,          1) /* UiEffects - Magical */
      , (32839,  19,       7500) /* Value */
@@ -42,26 +41,26 @@ VALUES (32839,   1, 'Shield of the Strathelar Elite') /* Name */
      , (32839,  16, 'A shield bearing the Strathelar coat of arms and enchanted with magic. This is issued to elite soldiers in Queen Elysa''s army, as well as those who have distinguished themselves in service to the crown.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32839,   1,   33559815) /* Setup */
-     , (32839,   3,  536870932) /* SoundTable */
-     , (32839,   8,  100688556) /* Icon */
-     , (32839,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32839,   1, 0x02001507) /* Setup */
+     , (32839,   3, 0x20000014) /* SoundTable */
+     , (32839,   8, 0x060062AC) /* Icon */
+     , (32839,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32839, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (32839, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32839, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
      , (32839, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32839, 8040, 2103705613, 34.40216, 102.7422, 11.926, -0.1770117, -0.8291376, 0.150049, -0.5086089) /* PCAPRecordedLocation */
+VALUES (32839, 8040, 0x7D64000D, 34.40216, 102.7422, 11.926, -0.177012, -0.829138, 0.150049, -0.508609) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64000D [34.402160 102.742200 11.926000] -0.177012 -0.829138 0.150049 -0.508609 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32839, 8000, 2183188025) /* PCAPRecordedObjectIID */
-     , (32839, 8008, 1343154319) /* PCAPRecordedParentIID */;
+VALUES (32839, 8000, 0x8220CE39) /* PCAPRecordedObjectIID */
+     , (32839, 8008, 0x500EE88F) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32839,  2108,      2)  /* Impenetrability7 */
-     , (32839,  2937,      2)  /* ModerateImpregnability */;
+VALUES (32839,  2937,      2)  /* ModerateImpregnability */
+     , (32839,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (32839, 0, 83897393, 83897393)

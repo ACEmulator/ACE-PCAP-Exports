@@ -14,20 +14,21 @@ VALUES (32941,   1,        128) /* ItemType - Misc */
      , (32941, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32941,  22, True ) /* Inscribable */;
+VALUES (32941,  22, True ) /* Inscribable */
+     , (32941,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32941,   1, 'Title Token: Guardian of the Dark') /* Name */
      , (32941,  16, 'Give this title token to Ulgrim the Unpleasant to recieve the title Guardian of the Dark.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32941,   1,   33558119) /* Setup */
-     , (32941,   3,  536870932) /* SoundTable */
-     , (32941,   8,  100667518) /* Icon */
-     , (32941,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32941,   1, 0x02000E67) /* Setup */
+     , (32941,   3, 0x20000014) /* SoundTable */
+     , (32941,   8, 0x0600107E) /* Icon */
+     , (32941,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32941, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (32941, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32941, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32941, 8000, 2448427162) /* PCAPRecordedObjectIID */;
+VALUES (32941, 8000, 0x91F0089A) /* PCAPRecordedObjectIID */;

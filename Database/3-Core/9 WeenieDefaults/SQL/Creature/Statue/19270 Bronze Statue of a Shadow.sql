@@ -25,22 +25,22 @@ VALUES (19270,   1, 'Bronze Statue of a Shadow') /* Name */
      , (19270, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19270,   1,   33554433) /* Setup */
-     , (19270,   2,  150995187) /* MotionTable */
-     , (19270,   3,  536871052) /* SoundTable */
-     , (19270,   6,   67108990) /* PaletteBase */
-     , (19270,   8,  100670397) /* Icon */
-     , (19270,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19270,   1, 0x02000001) /* Setup */
+     , (19270,   2, 0x090000F3) /* MotionTable */
+     , (19270,   3, 0x2000008C) /* SoundTable */
+     , (19270,   6, 0x0400007E) /* PaletteBase */
+     , (19270,   8, 0x06001BBD) /* Icon */
+     , (19270,  22, 0x34000075) /* PhysicsEffectTable */
      , (19270, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (19270, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19270, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19270, 8040, 1414988168, 102.165, -119.424, 0.009500027, -0.699863, 0, 0, 0.714277) /* PCAPRecordedLocation */
+VALUES (19270, 8040, 0x54570188, 102.165, -119.424, 0.0095, -0.699863, 0, 0, 0.714277) /* PCAPRecordedLocation */
 /* @teleloc 0x54570188 [102.165000 -119.424000 0.009500] -0.699863 0.000000 0.000000 0.714277 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19270, 8000, 3703649212) /* PCAPRecordedObjectIID */;
+VALUES (19270, 8000, 0xDCC133BC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (19270,   1,     0, 0, 0, 620) /* MaxHealth */;

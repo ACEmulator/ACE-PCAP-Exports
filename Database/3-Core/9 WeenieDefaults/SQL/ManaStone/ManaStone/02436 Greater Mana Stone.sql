@@ -27,16 +27,11 @@ VALUES (2436,   1, 'Greater Mana Stone') /* Name */
      , (2436,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2436,   1,   33555640) /* Setup */
-     , (2436,   8,  100676307) /* Icon */
+VALUES (2436,   1, 0x020004B8) /* Setup */
+     , (2436,   8, 0x060032D3) /* Icon */
      , (2436, 8001,  271073432) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, TargetType, Burden, HookType */
      , (2436, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2436, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2436, 8000, 3680457945) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2436, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (2436, 2, 47682,  1, 0, 0, False) /* Create Flaming Tachi (47682) for Wield */
-     , (2436, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;
+VALUES (2436, 8000, 0xDB5F54D9) /* PCAPRecordedObjectIID */;

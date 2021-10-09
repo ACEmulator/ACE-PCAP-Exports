@@ -46,24 +46,21 @@ VALUES (2590,   1, 'Baggy Shirt') /* Name */
      , (2590,  16, 'Baggy Shirt of Cold Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2590,   1,   33554644) /* Setup */
-     , (2590,   3,  536870932) /* SoundTable */
-     , (2590,   6,   67108990) /* PaletteBase */
-     , (2590,   8,  100667365) /* Icon */
-     , (2590,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2590,   1, 0x020000D4) /* Setup */
+     , (2590,   3, 0x20000014) /* SoundTable */
+     , (2590,   6, 0x0400007E) /* PaletteBase */
+     , (2590,   8, 0x06000FE5) /* Icon */
+     , (2590,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2590, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (2590, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2590, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2590, 8000, 3699152241) /* PCAPRecordedObjectIID */;
+VALUES (2590, 8000, 0xDC7C9571) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2590,  1035,      2)  /* ColdProtectionSelf6 */
      , (2590,  2621,      2)  /* CANTRIPSLASHINGWARD1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2590, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2590, 67109968, 92, 4)

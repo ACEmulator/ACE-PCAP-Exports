@@ -53,17 +53,17 @@ VALUES (3851,   1, 'Flaming Scimitar') /* Name */
      , (3851,  16, 'Flaming Scimitar of Blooddrinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3851,   1,   33555771) /* Setup */
-     , (3851,   3,  536870932) /* SoundTable */
-     , (3851,   8,  100668975) /* Icon */
-     , (3851,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3851,   1, 0x0200053B) /* Setup */
+     , (3851,   3, 0x20000014) /* SoundTable */
+     , (3851,   8, 0x0600162F) /* Icon */
+     , (3851,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3851,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3851, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3851, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3851, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3851, 8000, 2174519223) /* PCAPRecordedObjectIID */;
+VALUES (3851, 8000, 0x819C87B7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3851,  2591,      2)  /* CANTRIPHEARTTHIRST2 */

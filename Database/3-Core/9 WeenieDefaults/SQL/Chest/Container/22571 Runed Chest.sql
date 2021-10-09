@@ -28,21 +28,21 @@ VALUES (22571,   1, 'Runed Chest') /* Name */
      , (22571, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22571,   1,   33558095) /* Setup */
-     , (22571,   2,  150994948) /* MotionTable */
-     , (22571,   3,  536870945) /* SoundTable */
-     , (22571,   8,  100667424) /* Icon */
-     , (22571,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22571,   1, 0x02000E4F) /* Setup */
+     , (22571,   2, 0x09000004) /* MotionTable */
+     , (22571,   3, 0x20000021) /* SoundTable */
+     , (22571,   8, 0x06001020) /* Icon */
+     , (22571,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22571, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (22571, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (22571, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22571, 8040, 2519334933, 58.6212, 106.973, 92.62602, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (22571, 8040, 0x962A0015, 58.6212, 106.973, 92.62602, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x962A0015 [58.621200 106.973000 92.626020] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22571, 8000, 3685859766) /* PCAPRecordedObjectIID */;
+VALUES (22571, 8000, 0xDBB1C1B6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22571, -1, 49311, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Acid Wisp Essence (80) (49311) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

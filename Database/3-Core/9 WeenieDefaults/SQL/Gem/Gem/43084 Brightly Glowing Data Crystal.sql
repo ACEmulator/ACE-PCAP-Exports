@@ -18,17 +18,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43084,   1, 'Brightly Glowing Data Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43084,   1,   33554809) /* Setup */
-     , (43084,   3,  536871017) /* SoundTable */
-     , (43084,   6,   67111919) /* PaletteBase */
-     , (43084,   8,  100674736) /* Icon */
-     , (43084,  22,  872415369) /* PhysicsEffectTable */
+VALUES (43084,   1, 0x02000179) /* Setup */
+     , (43084,   3, 0x20000069) /* SoundTable */
+     , (43084,   6, 0x04000BEF) /* PaletteBase */
+     , (43084,   8, 0x06002CB0) /* Icon */
+     , (43084,  22, 0x34000089) /* PhysicsEffectTable */
      , (43084, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (43084, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43084, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43084, 8000, 2148384076) /* PCAPRecordedObjectIID */;
+VALUES (43084, 8000, 0x800DBD4C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43084, 67111919, 0, 0);

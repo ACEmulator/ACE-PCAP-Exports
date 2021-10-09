@@ -8,7 +8,6 @@ VALUES (30527,   1,          2) /* ItemType - Armor */
      , (30527,   4,      16384) /* ClothingPriority - Head */
      , (30527,   5,        100) /* EncumbranceVal */
      , (30527,   9,          1) /* ValidLocations - HeadWear */
-     , (30527,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (30527,  16,          1) /* ItemUseable - No */
      , (30527,  17,        210) /* RareId */
      , (30527,  19,      50000) /* Value */
@@ -51,24 +50,24 @@ VALUES (30527,   1, 'Valkeer''s Helm') /* Name */
      , (30527,  52, 'Core Helm Plating') /* GearPlatingName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30527,   1,   33559428) /* Setup */
-     , (30527,   3,  536870932) /* SoundTable */
-     , (30527,   8,  100686897) /* Icon */
-     , (30527,  22,  872415275) /* PhysicsEffectTable */
-     , (30527,  50,  100691312) /* IconOverlay */
-     , (30527,  52,  100686604) /* IconUnderlay */
+VALUES (30527,   1, 0x02001384) /* Setup */
+     , (30527,   3, 0x20000014) /* SoundTable */
+     , (30527,   8, 0x06005C31) /* Icon */
+     , (30527,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30527,  50, 0x06006D70) /* IconOverlay */
+     , (30527,  52, 0x06005B0C) /* IconUnderlay */
      , (30527, 8001, 1344765976) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType, IconOverlay */
      , (30527, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30527, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30527, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30527, 8000, 2776296199) /* PCAPRecordedObjectIID */;
+VALUES (30527, 8000, 0xA57AEB07) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30527,  3964,      2)  /* CANTRIPFOCUS3 */
+VALUES (30527,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
      , (30527,  4407,      2)  /* Impenetrability8 */
-     , (30527,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
+     , (30527,  3964,      2)  /* CANTRIPFOCUS3 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (30527, 0, 16792103);

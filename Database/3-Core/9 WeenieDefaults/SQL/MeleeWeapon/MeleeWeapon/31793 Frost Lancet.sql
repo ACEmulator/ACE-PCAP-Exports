@@ -52,18 +52,18 @@ VALUES (31793,   1, 'Frost Lancet') /* Name */
      , (31793,  16, 'Frost Lancet of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31793,   1,   33559659) /* Setup */
-     , (31793,   3,  536870932) /* SoundTable */
-     , (31793,   6,   67116700) /* PaletteBase */
-     , (31793,   8,  100688071) /* Icon */
-     , (31793,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31793,   1, 0x0200146B) /* Setup */
+     , (31793,   3, 0x20000014) /* SoundTable */
+     , (31793,   6, 0x04001E9C) /* PaletteBase */
+     , (31793,   8, 0x060060C7) /* Icon */
+     , (31793,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31793,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (31793, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31793, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31793, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31793, 8000, 3698082976) /* PCAPRecordedObjectIID */;
+VALUES (31793, 8000, 0xDC6C44A0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31793,  1604,      2)  /* DefenderSelf5 */

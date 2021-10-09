@@ -26,13 +26,13 @@ VALUES (21920,   1, 'Ornate Seal') /* Name */
      , (21920,  16, 'An ornate seal with odd glyphs and sigils.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21920,   1,   33557973) /* Setup */
-     , (21920,   3,  536870932) /* SoundTable */
-     , (21920,   8,  100673500) /* Icon */
-     , (21920,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21920,   1, 0x02000DD5) /* Setup */
+     , (21920,   3, 0x20000014) /* SoundTable */
+     , (21920,   8, 0x060027DC) /* Icon */
+     , (21920,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21920, 8001,  270561296) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (21920, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21920, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21920, 8000, 3702949454) /* PCAPRecordedObjectIID */;
+VALUES (21920, 8000, 0xDCB6864E) /* PCAPRecordedObjectIID */;

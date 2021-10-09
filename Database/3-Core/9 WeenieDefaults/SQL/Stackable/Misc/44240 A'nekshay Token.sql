@@ -18,7 +18,8 @@ VALUES (44240,   1,        128) /* ItemType - Misc */
      , (44240, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44240,  69, False) /* IsSellable */;
+VALUES (44240,  23, True ) /* DestroyOnSell */
+     , (44240,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44240,  39,     0.4) /* DefaultScale */;
@@ -28,20 +29,17 @@ VALUES (44240,   1, 'A''nekshay Token') /* Name */
      , (44240,  15, 'A small, delicately engraved token, created by an exceptionally skilled A''nekshay artisan.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44240,   1,   33554817) /* Setup */
-     , (44240,   3,  536870932) /* SoundTable */
-     , (44240,   6,   67111919) /* PaletteBase */
-     , (44240,   8,  100691952) /* Icon */
-     , (44240,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44240,   1, 0x02000181) /* Setup */
+     , (44240,   3, 0x20000014) /* SoundTable */
+     , (44240,   6, 0x04000BEF) /* PaletteBase */
+     , (44240,   8, 0x06006FF0) /* Icon */
+     , (44240,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44240, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (44240, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44240, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44240, 8000, 2372545365) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44240, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (44240, 8000, 0x8D6A2B55) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44240, 67111923, 0, 0);

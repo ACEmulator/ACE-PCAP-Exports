@@ -19,15 +19,15 @@ VALUES (30042,   1, 'To Sanamar') /* Name */
      , (30042,  16, 'Follow the road this way to Sanamar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30042,   1,   33555984) /* Setup */
-     , (30042,   8,  100668115) /* Icon */
+VALUES (30042,   1, 0x02000610) /* Setup */
+     , (30042,   8, 0x060012D3) /* Icon */
      , (30042, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (30042, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (30042, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30042, 8040, 853213227, 142, 67, 43.25, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (30042, 8040, 0x32DB002B, 142, 67, 43.25, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x32DB002B [142.000000 67.000000 43.250000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30042, 8000, 1932374017) /* PCAPRecordedObjectIID */;
+VALUES (30042, 8000, 0x732DB001) /* PCAPRecordedObjectIID */;

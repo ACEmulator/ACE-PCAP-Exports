@@ -25,22 +25,22 @@ VALUES (25854,   1, 'Befouled Doll') /* Name */
      , (25854, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25854,   1,   33558545) /* Setup */
-     , (25854,   2,  150994984) /* MotionTable */
-     , (25854,   3,  536871022) /* SoundTable */
-     , (25854,   8,  100671421) /* Icon */
-     , (25854,  22,  872415373) /* PhysicsEffectTable */
+VALUES (25854,   1, 0x02001011) /* Setup */
+     , (25854,   2, 0x09000028) /* MotionTable */
+     , (25854,   3, 0x2000006E) /* SoundTable */
+     , (25854,   8, 0x06001FBD) /* Icon */
+     , (25854,  22, 0x3400008D) /* PhysicsEffectTable */
      , (25854,  30,         87) /* PhysicsScript - BreatheLightning */
      , (25854, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (25854, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (25854, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25854, 8040, 101122093, 140.6706, 117.8691, 82.96124, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (25854, 8040, 0x0607002D, 140.6706, 117.8691, 82.96124, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0607002D [140.670600 117.869100 82.961240] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25854, 8000, 3687451803) /* PCAPRecordedObjectIID */;
+VALUES (25854, 8000, 0xDBCA0C9B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25854,   1, 190, 0, 0) /* Strength */
@@ -92,4 +92,8 @@ VALUES (25854, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for Conta
      , (25854, 9, 43830,  0, 0, 0, False) /* Create Sedgemail Leather Gauntlets (43830) for ContainTreasure */
      , (25854, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (25854, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
-     , (25854, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */;
+     , (25854, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
+     , (25854, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (25854, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (25854, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (25854, 9, 30823,  0, 0, 0, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

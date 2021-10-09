@@ -24,13 +24,13 @@ VALUES (21309,   1, 'Scroll of Force Arc I') /* Name */
 Shoots a bolt of force at the target. The bolt does 16-30 points of piercing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21309,   1,   33554826) /* Setup */
-     , (21309,   8,  100677019) /* Icon */
-     , (21309,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21309,   1, 0x0200018A) /* Setup */
+     , (21309,   8, 0x0600359B) /* Icon */
+     , (21309,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21309,  28,       2718) /* Spell - ForceArc1 */
      , (21309, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (21309, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21309, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21309, 8000, 2863952227) /* PCAPRecordedObjectIID */;
+VALUES (21309, 8000, 0xAAB47163) /* PCAPRecordedObjectIID */;

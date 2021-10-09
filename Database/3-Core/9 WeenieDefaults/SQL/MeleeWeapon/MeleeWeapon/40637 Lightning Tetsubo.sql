@@ -55,22 +55,22 @@ VALUES (40637,   1, 'Lightning Tetsubo') /* Name */
      , (40637,  16, 'Lightning Tetsubo of Recklessness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40637,   1,   33560730) /* Setup */
-     , (40637,   3,  536870932) /* SoundTable */
-     , (40637,   6,   67116700) /* PaletteBase */
-     , (40637,   8,  100690500) /* Icon */
-     , (40637,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40637,   1, 0x0200189A) /* Setup */
+     , (40637,   3, 0x20000014) /* SoundTable */
+     , (40637,   6, 0x04001E9C) /* PaletteBase */
+     , (40637,   8, 0x06006A44) /* Icon */
+     , (40637,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40637,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (40637, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40637, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40637, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40637, 8000, 3705345731) /* PCAPRecordedObjectIID */;
+VALUES (40637, 8000, 0xDCDB16C3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40637,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (40637,  5833,      2)  /* RecklessnessMasterySelf7 */;
+VALUES (40637,  5833,      2)  /* RecklessnessMasterySelf7 */
+     , (40637,  1616,      2)  /* BloodDrinkerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40637, 67116700, 1, 100)

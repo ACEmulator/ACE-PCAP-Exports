@@ -22,20 +22,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46192,   1, 'Shimmering Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46192,   1,   33556260) /* Setup */
-     , (46192,   3,  536870932) /* SoundTable */
-     , (46192,   8,  100673208) /* Icon */
-     , (46192,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46192,   1, 0x02000724) /* Setup */
+     , (46192,   3, 0x20000014) /* SoundTable */
+     , (46192,   8, 0x060026B8) /* Icon */
+     , (46192,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46192, 8001,  270598808) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, HookType */
      , (46192, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46192, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46192, 8040, 23855548, 54.94785, -27.78149, 0.05, 0.9828629, 0, 0, -0.184338) /* PCAPRecordedLocation */
+VALUES (46192, 8040, 0x016C01BC, 54.94785, -27.78149, 0.05, 0.982863, 0, 0, -0.184338) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [54.947850 -27.781490 0.050000] 0.982863 0.000000 0.000000 -0.184338 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46192, 8000, 3710097429) /* PCAPRecordedObjectIID */;
+VALUES (46192, 8000, 0xDD239815) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46192, 0, 83889235, 83892492)

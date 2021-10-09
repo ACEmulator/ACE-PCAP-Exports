@@ -25,21 +25,21 @@ VALUES (15860,   1, 'Kai Mallan, Sho Enchanter') /* Name */
      , (15860, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15860,   1,   33554433) /* Setup */
-     , (15860,   2,  150994945) /* MotionTable */
-     , (15860,   3,  536870913) /* SoundTable */
-     , (15860,   6,   67108990) /* PaletteBase */
-     , (15860,   8,  100667446) /* Icon */
+VALUES (15860,   1, 0x02000001) /* Setup */
+     , (15860,   2, 0x09000001) /* MotionTable */
+     , (15860,   3, 0x20000001) /* SoundTable */
+     , (15860,   6, 0x0400007E) /* PaletteBase */
+     , (15860,   8, 0x06001036) /* Icon */
      , (15860, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (15860, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (15860, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15860, 8040, 1775567104, 176.154, 179.325, 197.205, 0.999543, 0, 0, -0.030226) /* PCAPRecordedLocation */
+VALUES (15860, 8040, 0x69D50100, 176.154, 179.325, 197.205, 0.999543, 0, 0, -0.030226) /* PCAPRecordedLocation */
 /* @teleloc 0x69D50100 [176.154000 179.325000 197.205000] 0.999543 0.000000 0.000000 -0.030226 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15860, 8000, 3346078546) /* PCAPRecordedObjectIID */;
+VALUES (15860, 8000, 0xC7711B52) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15860, 67109969, 92, 4)

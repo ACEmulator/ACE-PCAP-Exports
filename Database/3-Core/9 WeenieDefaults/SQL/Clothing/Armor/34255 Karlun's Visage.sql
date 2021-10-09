@@ -40,23 +40,23 @@ VALUES (34255,   1, 'Karlun''s Visage') /* Name */
      , (34255,  16, 'An impressively detailed depiction of the mighty Karlun, known as the Great Bull, and the Blood-Father of Viamont.  "From him all Greatness comes."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34255,   1,   33560128) /* Setup */
-     , (34255,   3,  536870932) /* SoundTable */
-     , (34255,   8,  100689241) /* Icon */
-     , (34255,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34255,   1, 0x02001640) /* Setup */
+     , (34255,   3, 0x20000014) /* SoundTable */
+     , (34255,   8, 0x06006559) /* Icon */
+     , (34255,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34255, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (34255, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34255, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34255, 8000, 2158691091) /* PCAPRecordedObjectIID */;
+VALUES (34255, 8000, 0x80AB0313) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34255,  2053,      2)  /* ArmorSelf7 */
-     , (34255,  2108,      2)  /* Impenetrability7 */
-     , (34255,  2197,      2)  /* ArmorExpertiseSelf7 */
-     , (34255,  2233,      2)  /* FealtySelf7 */
      , (34255,  2245,      2)  /* InvulnerabilitySelf7 */
      , (34255,  2511,      2)  /* CANTRIPFEALTY2 */
+     , (34255,  2197,      2)  /* ArmorExpertiseSelf7 */
      , (34255,  2538,      2)  /* CANTRIPARMOREXPERTISE1 */
-     , (34255,  2938,      2)  /* ModerateInvulnerability */;
+     , (34255,  2233,      2)  /* FealtySelf7 */
+     , (34255,  2938,      2)  /* ModerateInvulnerability */
+     , (34255,  2108,      2)  /* Impenetrability7 */;

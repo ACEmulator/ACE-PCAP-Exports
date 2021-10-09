@@ -14,7 +14,7 @@ VALUES (254,   1,        256) /* ItemType - MissileWeapon */
      , (254,  45,          4) /* DamageType - Bludgeon */
      , (254,  48,         47) /* WeaponSkill - MissileWeapons */
      , (254,  49,         10) /* WeaponTime */
-     , (254,  51,          2) /* CombatUse - Missle */
+     , (254,  51,          2) /* CombatUse - Missile */
      , (254,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (254, 105,          5) /* ItemWorkmanship */
      , (254, 106,        251) /* ItemSpellcraft */
@@ -49,17 +49,17 @@ VALUES (254,   1, 'Stoup') /* Name */
      , (254,  16, 'Stoup of Lockpicking') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (254,   1,   33555093) /* Setup */
-     , (254,   3,  536871012) /* SoundTable */
-     , (254,   6,   67111092) /* PaletteBase */
-     , (254,   8,  100668781) /* Icon */
-     , (254,  22,  872415275) /* PhysicsEffectTable */
+VALUES (254,   1, 0x02000295) /* Setup */
+     , (254,   3, 0x20000064) /* SoundTable */
+     , (254,   6, 0x040008B4) /* PaletteBase */
+     , (254,   8, 0x0600156D) /* Icon */
+     , (254,  22, 0x3400002B) /* PhysicsEffectTable */
      , (254, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (254, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (254, 8005,       7041) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (254, 8000, 3685985713) /* PCAPRecordedObjectIID */;
+VALUES (254, 8000, 0xDBB3ADB1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (254,   927,      2)  /* LockpickMasterySelf6 */;

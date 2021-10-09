@@ -20,17 +20,17 @@ VALUES (758,   1, 'Gypsum') /* Name */
      , (758,  20, 'Gypsum Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (758,   1,   33555209) /* Setup */
-     , (758,   3,  536870932) /* SoundTable */
-     , (758,   6,   67111919) /* PaletteBase */
-     , (758,   8,  100669698) /* Icon */
-     , (758,  22,  872415275) /* PhysicsEffectTable */
+VALUES (758,   1, 0x02000309) /* Setup */
+     , (758,   3, 0x20000014) /* SoundTable */
+     , (758,   6, 0x04000BEF) /* PaletteBase */
+     , (758,   8, 0x06001902) /* Icon */
+     , (758,  22, 0x3400002B) /* PhysicsEffectTable */
      , (758, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (758, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (758, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (758, 8000, 2856726427) /* PCAPRecordedObjectIID */;
+VALUES (758, 8000, 0xAA462F9B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (758, 67111927, 0, 0);

@@ -26,23 +26,23 @@ VALUES (31007,   1, 'Olthoi Slasher') /* Name */
      , (31007, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31007,   1,   33557164) /* Setup */
-     , (31007,   2,  150994946) /* MotionTable */
-     , (31007,   3,  536870925) /* SoundTable */
-     , (31007,   6,   67113236) /* PaletteBase */
-     , (31007,   8,  100667623) /* Icon */
-     , (31007,  22,  872415265) /* PhysicsEffectTable */
+VALUES (31007,   1, 0x02000AAC) /* Setup */
+     , (31007,   2, 0x09000002) /* MotionTable */
+     , (31007,   3, 0x2000000D) /* SoundTable */
+     , (31007,   6, 0x04001114) /* PaletteBase */
+     , (31007,   8, 0x060010E7) /* Icon */
+     , (31007,  22, 0x34000021) /* PhysicsEffectTable */
      , (31007,  30,         86) /* PhysicsScript - BreatheAcid */
      , (31007, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (31007, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (31007, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31007, 8040, 1631978273, 171.6741, -178.9268, -6, 0.6820412, 0, 0, -0.7313138) /* PCAPRecordedLocation */
+VALUES (31007, 8040, 0x61460321, 171.6741, -178.9268, -6, 0.682041, 0, 0, -0.731314) /* PCAPRecordedLocation */
 /* @teleloc 0x61460321 [171.674100 -178.926800 -6.000000] 0.682041 0.000000 0.000000 -0.731314 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31007, 8000, 3360284935) /* PCAPRecordedObjectIID */;
+VALUES (31007, 8000, 0xC849E107) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31007,   1, 370, 0, 0) /* Strength */
@@ -59,6 +59,7 @@ VALUES (31007,   1,  2115, 0, 0, 2300) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31007, 2, 47257,  1, 0, 0, False) /* Create Board with Nail (47257) for Wield */
+     , (31007, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
      , (31007, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
      , (31007, 9, 37191,  0, 0, 0, False) /* Create Olthoi Gauntlets (37191) for ContainTreasure */
      , (31007, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */

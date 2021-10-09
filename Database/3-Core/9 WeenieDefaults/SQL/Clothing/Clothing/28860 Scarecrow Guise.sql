@@ -10,26 +10,38 @@ VALUES (28860,   1,          4) /* ItemType - Clothing */
      , (28860,   9,      32545) /* ValidLocations - HeadWear, HandWear, Armor */
      , (28860,  16,          1) /* ItemUseable - No */
      , (28860,  19,       1000) /* Value */
+     , (28860,  28,         10) /* ArmorLevel */
      , (28860,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28860, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28860,  22, True ) /* Inscribable */;
 
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28860,  13,    0.75) /* ArmorModVsSlash */
+     , (28860,  14,    0.75) /* ArmorModVsPierce */
+     , (28860,  15,     0.5) /* ArmorModVsBludgeon */
+     , (28860,  16,     0.5) /* ArmorModVsCold */
+     , (28860,  17,     0.3) /* ArmorModVsFire */
+     , (28860,  18,     0.3) /* ArmorModVsAcid */
+     , (28860,  19,     0.5) /* ArmorModVsElectric */
+     , (28860, 165,       1) /* ArmorModVsNether */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28860,   1, 'Scarecrow Guise') /* Name */;
+VALUES (28860,   1, 'Scarecrow Guise') /* Name */
+     , (28860,  16, 'A finely-built scarecrow costume. The pumpkin head feels a bit breezy, as though it might not offer any real protection.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28860,   1,   33559001) /* Setup */
-     , (28860,   3,  536870932) /* SoundTable */
-     , (28860,   8,  100677084) /* Icon */
-     , (28860,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28860,   1, 0x020011D9) /* Setup */
+     , (28860,   3, 0x20000014) /* SoundTable */
+     , (28860,   8, 0x060035DC) /* Icon */
+     , (28860,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28860, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (28860, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28860, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28860, 8000, 2153689469) /* PCAPRecordedObjectIID */;
+VALUES (28860, 8000, 0x805EB17D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (28860, 0, 83892706, 83892847)

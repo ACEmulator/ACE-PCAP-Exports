@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3878,   1,          1) /* ItemType - MeleeWeapon */
      , (3878,   5,        369) /* EncumbranceVal */
      , (3878,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (3878,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (3878,  16,          1) /* ItemUseable - No */
      , (3878,  18,         65) /* UiEffects - Magical, Lightning */
      , (3878,  19,       3917) /* Value */
@@ -60,12 +59,12 @@ VALUES (3878,   1, 'Lightning Broad Sword') /* Name */
      , (3878,  40, 'Tiesto') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3878,   1,   33555807) /* Setup */
-     , (3878,   3,  536870932) /* SoundTable */
-     , (3878,   8,  100667610) /* Icon */
-     , (3878,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3878,   1, 0x0200055F) /* Setup */
+     , (3878,   3, 0x20000014) /* SoundTable */
+     , (3878,   8, 0x060010DA) /* Icon */
+     , (3878,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3878,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (3878,  52,  100676436) /* IconUnderlay */
+     , (3878,  52, 0x06003354) /* IconUnderlay */
      , (3878, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (3878, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (3878, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -73,13 +72,13 @@ VALUES (3878,   1,   33555807) /* Setup */
      , (3878, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3878, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (3878, 8040, 0x016C01BC, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3878, 8000, 3425235977) /* PCAPRecordedObjectIID */
-     , (3878, 8008, 1343485268) /* PCAPRecordedParentIID */;
+VALUES (3878, 8000, 0xCC28F409) /* PCAPRecordedObjectIID */
+     , (3878, 8008, 0x5013F554) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3878,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (3878,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */;
+VALUES (3878,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
+     , (3878,  2096,      2)  /* BloodDrinkerSelf7 */;

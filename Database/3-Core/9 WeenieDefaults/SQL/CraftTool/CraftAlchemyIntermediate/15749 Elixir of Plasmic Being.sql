@@ -24,17 +24,17 @@ VALUES (15749,   1, 'Elixir of Plasmic Being') /* Name */
      , (15749,  20, 'Elixirs of Plasmic Being') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15749,   1,   33555965) /* Setup */
-     , (15749,   3,  536870932) /* SoundTable */
-     , (15749,   6,   67111919) /* PaletteBase */
-     , (15749,   8,  100672788) /* Icon */
-     , (15749,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15749,   1, 0x020005FD) /* Setup */
+     , (15749,   3, 0x20000014) /* SoundTable */
+     , (15749,   6, 0x04000BEF) /* PaletteBase */
+     , (15749,   8, 0x06002514) /* Icon */
+     , (15749,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15749, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (15749, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15749, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15749, 8000, 2779768969) /* PCAPRecordedObjectIID */;
+VALUES (15749, 8000, 0xA5AFE889) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15749, 67111925, 0, 0);

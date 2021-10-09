@@ -20,13 +20,13 @@ VALUES (13203,   1, 'Screen') /* Name */
      , (13203,  15, 'You can use this item on floor hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13203,   1,   33557440) /* Setup */
-     , (13203,   3,  536870932) /* SoundTable */
-     , (13203,   8,  100672430) /* Icon */
-     , (13203,  22,  872415275) /* PhysicsEffectTable */
+VALUES (13203,   1, 0x02000BC0) /* Setup */
+     , (13203,   3, 0x20000014) /* SoundTable */
+     , (13203,   8, 0x060023AE) /* Icon */
+     , (13203,  22, 0x3400002B) /* PhysicsEffectTable */
      , (13203, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (13203, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (13203, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13203, 8000, 2151960037) /* PCAPRecordedObjectIID */;
+VALUES (13203, 8000, 0x80444DE5) /* PCAPRecordedObjectIID */;

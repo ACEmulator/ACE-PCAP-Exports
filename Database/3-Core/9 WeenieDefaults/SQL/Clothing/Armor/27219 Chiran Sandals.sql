@@ -44,27 +44,24 @@ VALUES (27219,   1, 'Chiran Sandals') /* Name */
      , (27219,  16, 'Chiran Sandals of Curing') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27219,   1,   33554654) /* Setup */
-     , (27219,   3,  536870932) /* SoundTable */
-     , (27219,   6,   67108990) /* PaletteBase */
-     , (27219,   8,  100676019) /* Icon */
-     , (27219,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27219,   1, 0x020000DE) /* Setup */
+     , (27219,   3, 0x20000014) /* SoundTable */
+     , (27219,   6, 0x0400007E) /* PaletteBase */
+     , (27219,   8, 0x060031B3) /* Icon */
+     , (27219,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27219, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (27219, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27219, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27219, 8000, 3694326496) /* PCAPRecordedObjectIID */;
+VALUES (27219, 8000, 0xDC32F2E0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27219,   879,      2)  /* HealingMasterySelf6 */
-     , (27219,  1486,      2)  /* Impenetrability6 */
-     , (27219,  2098,      2)  /* BludgeonBane7 */
+VALUES (27219,  1486,      2)  /* Impenetrability6 */
+     , (27219,  2582,      2)  /* CANTRIPQUICKNESS1 */
      , (27219,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
-     , (27219,  2582,      2)  /* CANTRIPQUICKNESS1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27219, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
+     , (27219,   879,      2)  /* HealingMasterySelf6 */
+     , (27219,  2098,      2)  /* BludgeonBane7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27219, 67114988, 160, 8);

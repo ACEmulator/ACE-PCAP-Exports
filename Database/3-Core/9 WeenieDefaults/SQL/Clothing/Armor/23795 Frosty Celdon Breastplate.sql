@@ -8,7 +8,6 @@ VALUES (23795,   1,          2) /* ItemType - Armor */
      , (23795,   4,       1024) /* ClothingPriority - OuterwearChest */
      , (23795,   5,       3180) /* EncumbranceVal */
      , (23795,   9,        512) /* ValidLocations - ChestArmor */
-     , (23795,  10,        512) /* CurrentWieldedLocation - ChestArmor */
      , (23795,  16,          1) /* ItemUseable - No */
      , (23795,  18,        128) /* UiEffects - Frost */
      , (23795,  19,       2680) /* Value */
@@ -42,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23795,   1, 'Frosty Celdon Breastplate') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23795,   1,   33554642) /* Setup */
-     , (23795,   3,  536870932) /* SoundTable */
-     , (23795,   6,   67108990) /* PaletteBase */
-     , (23795,   8,  100674069) /* Icon */
-     , (23795,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23795,   1, 0x020000D2) /* Setup */
+     , (23795,   3, 0x20000014) /* SoundTable */
+     , (23795,   6, 0x0400007E) /* PaletteBase */
+     , (23795,   8, 0x06002A15) /* Icon */
+     , (23795,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23795, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (23795, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23795, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23795, 8000, 2980938895) /* PCAPRecordedObjectIID */;
+VALUES (23795, 8000, 0xB1AD848F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23795,  2612,      2)  /* CANTRIPFROSTWARD2 */;

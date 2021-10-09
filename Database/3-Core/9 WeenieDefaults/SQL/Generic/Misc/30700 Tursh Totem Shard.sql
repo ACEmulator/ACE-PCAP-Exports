@@ -15,6 +15,7 @@ VALUES (30700,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30700,  22, True ) /* Inscribable */
+     , (30700,  23, True ) /* DestroyOnSell */
      , (30700,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -23,13 +24,13 @@ VALUES (30700,   1, 'Tursh Totem Shard') /* Name */
      , (30700,  16, 'The Tursh Totem was discovered by Queen Elysa''s Royal Guards when exploring the icy regions of Northern Osteth. For many years, the Queen and her allies had no insight into the totem''s function or significance. However, after searching through a series of ancient Empyrean texts, Alatar Locke discovered that Tursh was some sort of being worshipped as a god by a group of cannibalistic savages that once lived in the snow-covered peaks of Dereth. Tursh was purported to be the god of Hunger, though no other reference to Tursh''s specific powers or exploits were uncovered in Alatar''s research. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30700,   1,   33554769) /* Setup */
-     , (30700,   3,  536870932) /* SoundTable */
-     , (30700,   8,  100677383) /* Icon */
-     , (30700,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30700,   1, 0x02000151) /* Setup */
+     , (30700,   3, 0x20000014) /* SoundTable */
+     , (30700,   8, 0x06003707) /* Icon */
+     , (30700,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30700, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (30700, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30700, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30700, 8000, 3345743057) /* PCAPRecordedObjectIID */;
+VALUES (30700, 8000, 0xC76BFCD1) /* PCAPRecordedObjectIID */;

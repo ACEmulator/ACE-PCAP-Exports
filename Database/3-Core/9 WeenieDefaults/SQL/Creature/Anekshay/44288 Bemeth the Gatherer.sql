@@ -30,22 +30,22 @@ VALUES (44288,   1, 'Bemeth the Gatherer') /* Name */
      , (44288, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44288,   1,   33561251) /* Setup */
-     , (44288,   2,  150994945) /* MotionTable */
-     , (44288,   3,  536871094) /* SoundTable */
-     , (44288,   6,   67108990) /* PaletteBase */
-     , (44288,   8,  100670274) /* Icon */
-     , (44288,  22,  872415269) /* PhysicsEffectTable */
+VALUES (44288,   1, 0x02001AA3) /* Setup */
+     , (44288,   2, 0x09000001) /* MotionTable */
+     , (44288,   3, 0x200000B6) /* SoundTable */
+     , (44288,   6, 0x0400007E) /* PaletteBase */
+     , (44288,   8, 0x06001B42) /* Icon */
+     , (44288,  22, 0x34000025) /* PhysicsEffectTable */
      , (44288, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (44288, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (44288, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44288, 8040, 2271412230, 22.4487, 134.056, 8.134775, -0.96152, 0, 0, 0.274735) /* PCAPRecordedLocation */
+VALUES (44288, 8040, 0x87630006, 22.4487, 134.056, 8.134775, -0.96152, 0, 0, 0.274735) /* PCAPRecordedLocation */
 /* @teleloc 0x87630006 [22.448700 134.056000 8.134775] -0.961520 0.000000 0.000000 0.274735 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44288, 8000, 3360207746) /* PCAPRecordedObjectIID */;
+VALUES (44288, 8000, 0xC848B382) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44288,   1, 140, 0, 0) /* Strength */

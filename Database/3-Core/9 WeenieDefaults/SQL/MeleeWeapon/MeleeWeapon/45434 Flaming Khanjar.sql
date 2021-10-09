@@ -52,17 +52,17 @@ VALUES (45434,   1, 'Flaming Khanjar') /* Name */
      , (45434,  16, 'Flaming Khanjar of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45434,   1,   33555769) /* Setup */
-     , (45434,   3,  536870932) /* SoundTable */
-     , (45434,   8,  100668944) /* Icon */
-     , (45434,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45434,   1, 0x02000539) /* Setup */
+     , (45434,   3, 0x20000014) /* SoundTable */
+     , (45434,   8, 0x06001610) /* Icon */
+     , (45434,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45434,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (45434, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45434, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45434, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45434, 8000, 3691213592) /* PCAPRecordedObjectIID */;
+VALUES (45434, 8000, 0xDC037318) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45434,  1614,      2)  /* BloodDrinkerSelf4 */;

@@ -16,7 +16,8 @@ VALUES (35842,   1,       8192) /* ItemType - Writable */
      , (35842, 8043,          2) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35842,  69, False) /* IsSellable */;
+VALUES (35842,  23, True ) /* DestroyOnSell */
+     , (35842,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35842,  54,       1) /* UseRadius */;
@@ -27,13 +28,13 @@ VALUES (35842,   1, 'Monouga Experiment Log') /* Name */
      , (35842,  15, 'A soft light that seems to emit a silent message in the back of your mind.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35842,   1,   33556994) /* Setup */
-     , (35842,   3,  536870932) /* SoundTable */
-     , (35842,   8,  100671418) /* Icon */
-     , (35842,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35842,   1, 0x02000A02) /* Setup */
+     , (35842,   3, 0x20000014) /* SoundTable */
+     , (35842,   8, 0x06001FBA) /* Icon */
+     , (35842,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35842, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (35842, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (35842, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35842, 8000, 2181543913) /* PCAPRecordedObjectIID */;
+VALUES (35842, 8000, 0x8207B7E9) /* PCAPRecordedObjectIID */;

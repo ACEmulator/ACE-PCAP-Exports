@@ -28,17 +28,17 @@ VALUES (22446,   1, 'Combined Hyssop and Mandrake') /* Name */
      , (22446,  20, 'Piles of Hyssop and Mandrake') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22446,   1,   33554817) /* Setup */
-     , (22446,   3,  536870932) /* SoundTable */
-     , (22446,   6,   67111919) /* PaletteBase */
-     , (22446,   8,  100673801) /* Icon */
-     , (22446,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22446,   1, 0x02000181) /* Setup */
+     , (22446,   3, 0x20000014) /* SoundTable */
+     , (22446,   6, 0x04000BEF) /* PaletteBase */
+     , (22446,   8, 0x06002909) /* Icon */
+     , (22446,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22446, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (22446, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (22446, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22446, 8000, 2149532896) /* PCAPRecordedObjectIID */;
+VALUES (22446, 8000, 0x801F44E0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22446, 67111918, 0, 0);

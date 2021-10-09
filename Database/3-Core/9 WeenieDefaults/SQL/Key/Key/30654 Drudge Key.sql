@@ -22,13 +22,13 @@ VALUES (30654,   1, 'Drudge Key') /* Name */
      , (30654,  16, 'A key. Most likely used to open a door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30654,   1,   33554784) /* Setup */
-     , (30654,   3,  536870932) /* SoundTable */
-     , (30654,   8,  100677396) /* Icon */
-     , (30654,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30654,   1, 0x02000160) /* Setup */
+     , (30654,   3, 0x20000014) /* SoundTable */
+     , (30654,   8, 0x06003714) /* Icon */
+     , (30654,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30654, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (30654, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30654, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30654, 8000, 3695962659) /* PCAPRecordedObjectIID */;
+VALUES (30654, 8000, 0xDC4BEA23) /* PCAPRecordedObjectIID */;

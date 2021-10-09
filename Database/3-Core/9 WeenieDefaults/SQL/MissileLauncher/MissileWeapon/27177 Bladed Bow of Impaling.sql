@@ -15,7 +15,7 @@ VALUES (27177,   1,        256) /* ItemType - MissileWeapon */
      , (27177,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27177,  49,         40) /* WeaponTime */
      , (27177,  50,          1) /* AmmoType - Arrow */
-     , (27177,  51,          2) /* CombatUse - Missle */
+     , (27177,  51,          2) /* CombatUse - Missile */
      , (27177,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (27177, 106,        325) /* ItemSpellcraft */
      , (27177, 107,        359) /* ItemCurMana */
@@ -52,26 +52,26 @@ Critical hit! You mangle Titanium Armoredillo for 4,797 points of Slashing damag
      , (27177,  16, 'This Falatacot bow was likely used in hunting or combat, bladed edges appear to have allowed the bow to be used in close-combat as well.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27177,   1,   33558633) /* Setup */
-     , (27177,   3,  536870932) /* SoundTable */
-     , (27177,   6,   67114956) /* PaletteBase */
-     , (27177,   8,  100675922) /* Icon */
-     , (27177,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27177,   1, 0x02001069) /* Setup */
+     , (27177,   3, 0x20000014) /* SoundTable */
+     , (27177,   6, 0x040017CC) /* PaletteBase */
+     , (27177,   8, 0x06003152) /* Icon */
+     , (27177,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27177,  30,         88) /* PhysicsScript - Create */
      , (27177, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27177, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27177, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27177, 8000, 2157269295) /* PCAPRecordedObjectIID */;
+VALUES (27177, 8000, 0x8095512F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27177,   243,      2)  /* InvulnerabilityOther5 */
-     , (27177,  1383,      2)  /* CoordinationOther5 */
-     , (27177,  1604,      2)  /* DefenderSelf5 */
+VALUES (27177,  1604,      2)  /* DefenderSelf5 */
      , (27177,  1616,      2)  /* BloodDrinkerSelf6 */
      , (27177,  1627,      2)  /* SwiftKillerSelf6 */
-     , (27177,  2540,      2)  /* CANTRIPBOWAPTITUDE1 */;
+     , (27177,  1383,      2)  /* CoordinationOther5 */
+     , (27177,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */
+     , (27177,   243,      2)  /* InvulnerabilityOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27177, 67114954, 0, 0);

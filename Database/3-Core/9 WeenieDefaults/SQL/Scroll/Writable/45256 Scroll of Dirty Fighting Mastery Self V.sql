@@ -24,13 +24,13 @@ VALUES (45256,   1, 'Scroll of Dirty Fighting Mastery Self V') /* Name */
 Increases the caster''s Dirty Fighting skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45256,   1,   33554826) /* Setup */
-     , (45256,   8,  100692255) /* Icon */
-     , (45256,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45256,   1, 0x0200018A) /* Setup */
+     , (45256,   8, 0x0600711F) /* Icon */
+     , (45256,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45256,  28,       5783) /* Spell - DirtyFightingMasterySelf5 */
      , (45256, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45256, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45256, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45256, 8000, 2617950930) /* PCAPRecordedObjectIID */;
+VALUES (45256, 8000, 0x9C0AC2D2) /* PCAPRecordedObjectIID */;

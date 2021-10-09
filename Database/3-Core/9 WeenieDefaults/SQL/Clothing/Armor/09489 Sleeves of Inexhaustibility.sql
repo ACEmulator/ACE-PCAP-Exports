@@ -40,10 +40,10 @@ VALUES (9489,   1, 'Sleeves of Inexhaustibility') /* Name */
      , (9489,  15, 'Never tire and never surrender. [Note: You must have Axe specialized to use the magic on this item, in addition to the other requirements]') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9489,   1,   33554655) /* Setup */
-     , (9489,   6,   67108990) /* PaletteBase */
-     , (9489,   8,  100671481) /* Icon */
-     , (9489,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9489,   1, 0x020000DF) /* Setup */
+     , (9489,   6, 0x0400007E) /* PaletteBase */
+     , (9489,   8, 0x06001FF9) /* Icon */
+     , (9489,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9489,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (9489,  41,         45) /* ItemSpecializedOnly - LightWeapons */
      , (9489, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
@@ -51,13 +51,13 @@ VALUES (9489,   1,   33554655) /* Setup */
      , (9489, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9489, 8000, 3327046192) /* PCAPRecordedObjectIID */;
+VALUES (9489, 8000, 0xC64EB230) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9489,   295,      2)  /* AxeMasteryOther4 */
-     , (9489,  1360,      2)  /* EnduranceOther6 */
+VALUES (9489,  1360,      2)  /* EnduranceOther6 */
      , (9489,  2385,      2)  /* Vigilance */
-     , (9489,  2386,      2)  /* Indomitability */;
+     , (9489,  2386,      2)  /* Indomitability */
+     , (9489,   295,      2)  /* LightWeaponsMasteryOther4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9489, 67110386, 40, 24);

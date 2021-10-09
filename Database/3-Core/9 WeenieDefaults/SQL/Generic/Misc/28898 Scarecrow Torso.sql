@@ -18,16 +18,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28898,   1, 'Scarecrow Torso') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28898,   1,   33558997) /* Setup */
-     , (28898,   3,  536870932) /* SoundTable */
-     , (28898,   8,  100677088) /* Icon */
-     , (28898,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28898,   1, 0x020011D5) /* Setup */
+     , (28898,   3, 0x20000014) /* SoundTable */
+     , (28898,   8, 0x060035E0) /* Icon */
+     , (28898,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28898, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (28898, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28898, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28898, 8000, 2461641517) /* PCAPRecordedObjectIID */;
+VALUES (28898, 8000, 0x92B9AB2D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (28898, 0, 83892706, 83892847)

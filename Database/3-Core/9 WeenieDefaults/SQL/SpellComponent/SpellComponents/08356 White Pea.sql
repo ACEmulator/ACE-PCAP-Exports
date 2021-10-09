@@ -22,16 +22,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8356,   1, 'White Pea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8356,   1,   33555445) /* Setup */
-     , (8356,   3,  536870932) /* SoundTable */
-     , (8356,   8,  100671111) /* Icon */
-     , (8356,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8356,   1, 0x020003F5) /* Setup */
+     , (8356,   3, 0x20000014) /* SoundTable */
+     , (8356,   8, 0x06001E87) /* Icon */
+     , (8356,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8356, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8356, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8356, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8356, 8000, 3419468706) /* PCAPRecordedObjectIID */;
+VALUES (8356, 8000, 0xCBD0F3A2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (8356, 0, 83890928, 83890932);

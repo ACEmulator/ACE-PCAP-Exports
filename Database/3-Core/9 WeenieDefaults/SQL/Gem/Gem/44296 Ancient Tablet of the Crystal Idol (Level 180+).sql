@@ -30,14 +30,14 @@ VALUES (44296,   1, 'Ancient Tablet of the Crystal Idol (Level 180+)') /* Name *
      , (44296,  16, 'An ancient contract with instructions to enter a Catacomb containing a crystal idol. (Recommended Levels 180+)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44296,   1,   33554773) /* Setup */
-     , (44296,   3,  536870932) /* SoundTable */
-     , (44296,   8,  100691960) /* Icon */
-     , (44296,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44296,   1, 0x02000155) /* Setup */
+     , (44296,   3, 0x20000014) /* SoundTable */
+     , (44296,   8, 0x06006FF8) /* Icon */
+     , (44296,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44296, 8001,     553104) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44296, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44296, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44296, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44296, 8000, 3692407144) /* PCAPRecordedObjectIID */;
+VALUES (44296, 8000, 0xDC15A968) /* PCAPRecordedObjectIID */;

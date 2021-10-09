@@ -24,13 +24,13 @@ VALUES (2138,   1, 'Scroll of Frost Volley III') /* Name */
 Shoots three bolts of frost toward the target. Each bolt does 15-31 points of cold damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2138,   1,   33554826) /* Setup */
-     , (2138,   8,  100677016) /* Icon */
-     , (2138,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2138,   1, 0x0200018A) /* Setup */
+     , (2138,   8, 0x06003598) /* Icon */
+     , (2138,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2138,  28,        135) /* Spell - FrostVolley3 */
      , (2138, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2138, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2138, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2138, 8000, 3631307392) /* PCAPRecordedObjectIID */;
+VALUES (2138, 8000, 0xD8715A80) /* PCAPRecordedObjectIID */;

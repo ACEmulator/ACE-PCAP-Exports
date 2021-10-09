@@ -22,16 +22,16 @@ VALUES (23897,   1, 'Reedshark Clan Training Camp') /* Name */
      , (23897, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23897,   1,   33554867) /* Setup */
-     , (23897,   2,  150994947) /* MotionTable */
-     , (23897,   8,  100667499) /* Icon */
+VALUES (23897,   1, 0x020001B3) /* Setup */
+     , (23897,   2, 0x09000003) /* MotionTable */
+     , (23897,   8, 0x0600106B) /* Icon */
      , (23897, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (23897, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (23897, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23897, 8040, 3564044314, 77.4747, 29.0322, 39.937, 0.01705809, 0, 0, 0.9998545) /* PCAPRecordedLocation */
+VALUES (23897, 8040, 0xD46F001A, 77.4747, 29.0322, 39.937, 0.017058, 0, 0, 0.999855) /* PCAPRecordedLocation */
 /* @teleloc 0xD46F001A [77.474700 29.032200 39.937000] 0.017058 0.000000 0.000000 0.999855 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23897, 8000, 2101800960) /* PCAPRecordedObjectIID */;
+VALUES (23897, 8000, 0x7D46F000) /* PCAPRecordedObjectIID */;

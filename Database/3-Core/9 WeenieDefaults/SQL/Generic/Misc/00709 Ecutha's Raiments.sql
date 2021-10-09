@@ -24,18 +24,18 @@ VALUES (709,   1, 'Ecutha''s Raiments') /* Name */
      , (709,  16, 'Ecutha''s Raiments') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (709,   1,   33555088) /* Setup */
-     , (709,   8,  100668115) /* Icon */
+VALUES (709,   1, 0x02000290) /* Setup */
+     , (709,   8, 0x060012D3) /* Icon */
      , (709, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (709, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (709, 8005,     163845) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (709, 8040, 2847146006, 55.7352, 140.704, 66.12, 0.000872687, -4.06377E-13, -4.65661E-10, 1) /* PCAPRecordedLocation */
+VALUES (709, 8040, 0xA9B40016, 55.7352, 140.704, 66.12, 0.000873, 0, 0, 1) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40016 [55.735200 140.704000 66.120000] 0.000873 0.000000 0.000000 1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (709, 8000, 2056994858) /* PCAPRecordedObjectIID */;
+VALUES (709, 8000, 0x7A9B402A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (709, 0, 83891055, 83889899);

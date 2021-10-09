@@ -18,7 +18,8 @@ VALUES (34912,   1,       1024) /* ItemType - Useless */
      , (34912, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34912,  22, True ) /* Inscribable */;
+VALUES (34912,  22, True ) /* Inscribable */
+     , (34912,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34912,   1, 'Stone of Rez''arel') /* Name */
@@ -26,13 +27,13 @@ VALUES (34912,   1, 'Stone of Rez''arel') /* Name */
      , (34912,  16, 'One of three mysterious empyrean stones required to create an Empyrean Golem Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34912,   1,   33560210) /* Setup */
-     , (34912,   3,  536870932) /* SoundTable */
-     , (34912,   8,  100689344) /* Icon */
-     , (34912,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34912,   1, 0x02001692) /* Setup */
+     , (34912,   3, 0x20000014) /* SoundTable */
+     , (34912,   8, 0x060065C0) /* Icon */
+     , (34912,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34912, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (34912, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34912, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34912, 8000, 3046646486) /* PCAPRecordedObjectIID */;
+VALUES (34912, 8000, 0xB59822D6) /* PCAPRecordedObjectIID */;

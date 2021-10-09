@@ -17,16 +17,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45375,   1, 'Dirty Fighting Gem of Forgetfulness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45375,   1,   33558087) /* Setup */
-     , (45375,   6,   67111919) /* PaletteBase */
-     , (45375,   8,  100673789) /* Icon */
-     , (45375,  50,  100692235) /* IconOverlay */
+VALUES (45375,   1, 0x02000E47) /* Setup */
+     , (45375,   6, 0x04000BEF) /* PaletteBase */
+     , (45375,   8, 0x060028FD) /* Icon */
+     , (45375,  50, 0x0600710B) /* IconOverlay */
      , (45375, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (45375, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45375, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45375, 8000, 3331572914) /* PCAPRecordedObjectIID */;
+VALUES (45375, 8000, 0xC693C4B2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45375, 67111924, 0, 0);

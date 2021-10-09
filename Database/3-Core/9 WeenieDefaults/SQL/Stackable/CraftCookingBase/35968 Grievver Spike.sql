@@ -28,13 +28,13 @@ VALUES (35968,   1, 'Grievver Spike') /* Name */
      , (35968,  16, 'A small Grievver spine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35968,   1,   33557721) /* Setup */
-     , (35968,   3,  536870932) /* SoundTable */
-     , (35968,   8,  100689580) /* Icon */
-     , (35968,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35968,   1, 0x02000CD9) /* Setup */
+     , (35968,   3, 0x20000014) /* SoundTable */
+     , (35968,   8, 0x060066AC) /* Icon */
+     , (35968,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35968, 8001,  270561296) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (35968, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35968, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35968, 8000, 2975610670) /* PCAPRecordedObjectIID */;
+VALUES (35968, 8000, 0xB15C372E) /* PCAPRecordedObjectIID */;

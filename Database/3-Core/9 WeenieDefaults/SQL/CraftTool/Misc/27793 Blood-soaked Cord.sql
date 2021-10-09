@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27793,   1, 'Blood-soaked Cord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27793,   1,   33554817) /* Setup */
-     , (27793,   3,  536870932) /* SoundTable */
-     , (27793,   6,   67111919) /* PaletteBase */
-     , (27793,   8,  100676573) /* Icon */
-     , (27793,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27793,   1, 0x02000181) /* Setup */
+     , (27793,   3, 0x20000014) /* SoundTable */
+     , (27793,   6, 0x04000BEF) /* PaletteBase */
+     , (27793,   8, 0x060033DD) /* Icon */
+     , (27793,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27793, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (27793, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27793, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27793, 8000, 2166169891) /* PCAPRecordedObjectIID */;
+VALUES (27793, 8000, 0x811D2123) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27793, 67111918, 0, 0);

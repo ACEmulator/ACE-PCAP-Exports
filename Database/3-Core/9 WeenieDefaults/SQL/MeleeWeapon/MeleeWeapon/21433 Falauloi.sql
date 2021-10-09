@@ -35,6 +35,7 @@ VALUES (21433,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21433,  22, True ) /* Inscribable */
+     , (21433,  23, True ) /* DestroyOnSell */
      , (21433,  69, False) /* IsSellable */
      , (21433,  99, True ) /* Ivoryable */;
 
@@ -52,16 +53,16 @@ VALUES (21433,   1, 'Falauloi') /* Name */
      , (21433,  15, 'A staff constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21433,   1,   33557966) /* Setup */
-     , (21433,   3,  536870932) /* SoundTable */
-     , (21433,   8,  100673493) /* Icon */
-     , (21433,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21433,   1, 0x02000DCE) /* Setup */
+     , (21433,   3, 0x20000014) /* SoundTable */
+     , (21433,   8, 0x060027D5) /* Icon */
+     , (21433,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21433, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (21433, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21433, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21433, 8000, 3327046183) /* PCAPRecordedObjectIID */;
+VALUES (21433, 8000, 0xC64EB227) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21433,   320,      2)  /* DaggerMasteryOther5 */;
+VALUES (21433,   320,      2)  /* FinesseWeaponsMasteryOther5 */;

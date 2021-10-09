@@ -22,16 +22,16 @@ VALUES (23032,   1, 'The Marketplace of Dereth') /* Name */
      , (23032, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23032,   1,   33554867) /* Setup */
-     , (23032,   2,  150994947) /* MotionTable */
-     , (23032,   8,  100667499) /* Icon */
+VALUES (23032,   1, 0x020001B3) /* Setup */
+     , (23032,   2, 0x09000003) /* MotionTable */
+     , (23032,   8, 0x0600106B) /* Icon */
      , (23032, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (23032, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (23032, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23032, 8040, 459109, 86.1293, -99.9817, -0.06299996, 0.7118334, 0, 0, -0.7023484) /* PCAPRecordedLocation */
+VALUES (23032, 8040, 0x00070165, 86.1293, -99.9817, -0.063, 0.711833, 0, 0, -0.702348) /* PCAPRecordedLocation */
 /* @teleloc 0x00070165 [86.129300 -99.981700 -0.063000] 0.711833 0.000000 0.000000 -0.702348 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23032, 8000, 1879076990) /* PCAPRecordedObjectIID */;
+VALUES (23032, 8000, 0x7000707E) /* PCAPRecordedObjectIID */;

@@ -26,21 +26,21 @@ VALUES (51701,   1, 'Apparition of Bloodlust') /* Name */
      , (51701, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51701,   1,   33561539) /* Setup */
-     , (51701,   2,  150995403) /* MotionTable */
-     , (51701,   3,  536871094) /* SoundTable */
-     , (51701,   8,  100676679) /* Icon */
-     , (51701,  22,  872415403) /* PhysicsEffectTable */
+VALUES (51701,   1, 0x02001BC3) /* Setup */
+     , (51701,   2, 0x090001CB) /* MotionTable */
+     , (51701,   3, 0x200000B6) /* SoundTable */
+     , (51701,   8, 0x06003447) /* Icon */
+     , (51701,  22, 0x340000AB) /* PhysicsEffectTable */
      , (51701, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51701, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (51701, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51701, 8040, 1484260077, 130, -450, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51701, 8040, 0x587802ED, 130, -450, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x587802ED [130.000000 -450.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51701, 8000, 3632946233) /* PCAPRecordedObjectIID */;
+VALUES (51701, 8000, 0xD88A5C39) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (51701,   1,     0, 0, 0, 17675) /* MaxHealth */;

@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53353,   1, 'Wishbone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53353,   1,   33554643) /* Setup */
-     , (53353,   3,  536870932) /* SoundTable */
-     , (53353,   8,  100674946) /* Icon */
-     , (53353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53353,   1, 0x020000D3) /* Setup */
+     , (53353,   3, 0x20000014) /* SoundTable */
+     , (53353,   8, 0x06002D82) /* Icon */
+     , (53353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53353, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (53353, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (53353, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53353, 8000, 2870315585) /* PCAPRecordedObjectIID */;
+VALUES (53353, 8000, 0xAB158A41) /* PCAPRecordedObjectIID */;

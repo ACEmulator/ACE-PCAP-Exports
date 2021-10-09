@@ -24,17 +24,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33686,   1, 'Lesser Mukkir Slayer Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33686,   1,   33556926) /* Setup */
-     , (33686,   3,  536870932) /* SoundTable */
-     , (33686,   6,   67111919) /* PaletteBase */
-     , (33686,   8,  100688992) /* Icon */
-     , (33686,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33686,   1, 0x020009BE) /* Setup */
+     , (33686,   3, 0x20000014) /* SoundTable */
+     , (33686,   6, 0x04000BEF) /* PaletteBase */
+     , (33686,   8, 0x06006460) /* Icon */
+     , (33686,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33686, 8001,    2650264) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (33686, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33686, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33686, 8000, 2273394267) /* PCAPRecordedObjectIID */;
+VALUES (33686, 8000, 0x87813E5B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33686, 67111924, 0, 0);

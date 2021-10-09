@@ -36,25 +36,21 @@ VALUES (41485,   1, 'Pocket Watch') /* Name */
      , (41485,  16, 'Pocket Watch of Blade Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41485,   1,   33554680) /* Setup */
-     , (41485,   3,  536870932) /* SoundTable */
-     , (41485,   6,   67111919) /* PaletteBase */
-     , (41485,   8,  100690592) /* Icon */
-     , (41485,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41485,   1, 0x020000F8) /* Setup */
+     , (41485,   3, 0x20000014) /* SoundTable */
+     , (41485,   6, 0x04000BEF) /* PaletteBase */
+     , (41485,   8, 0x06006AA0) /* Icon */
+     , (41485,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41485, 8001, 2166440088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, Workmanship, MaterialType */
      , (41485, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41485, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41485, 8000, 3701259151) /* PCAPRecordedObjectIID */;
+VALUES (41485, 8000, 0xDC9CBB8F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41485,  1114,      2)  /* BladeProtectionSelf6 */
-     , (41485,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41485, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (41485, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (41485,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */
+     , (41485,  1114,      2)  /* BladeProtectionSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41485, 67111927, 0, 0);

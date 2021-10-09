@@ -27,18 +27,18 @@ VALUES (35001,   1, 'Lower Catacomb Prison Door') /* Name */
      , (35001, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35001,   1,   33555073) /* Setup */
-     , (35001,   2,  150994966) /* MotionTable */
-     , (35001,   3,  536870946) /* SoundTable */
-     , (35001,   8,  100668434) /* Icon */
-     , (35001,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35001,   1, 0x02000281) /* Setup */
+     , (35001,   2, 0x09000016) /* MotionTable */
+     , (35001,   3, 0x20000022) /* SoundTable */
+     , (35001,   8, 0x06001412) /* Icon */
+     , (35001,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35001, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (35001, 8003,       4116) /* PCAPRecordedObjectDesc - Stuck, Attackable, Door */
      , (35001, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35001, 8040, 7078363, 210, -4.75, -18, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35001, 8040, 0x006C01DB, 210, -4.75, -18, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x006C01DB [210.000000 -4.750000 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35001, 8000, 1879490740) /* PCAPRecordedObjectIID */;
+VALUES (35001, 8000, 0x7006C0B4) /* PCAPRecordedObjectIID */;

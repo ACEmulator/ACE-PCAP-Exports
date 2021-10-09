@@ -46,25 +46,25 @@ VALUES (25646,   1, 'Long Leather Gauntlets') /* Name */
      , (25646,  16, 'Long Leather Gauntlets of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25646,   1,   33554648) /* Setup */
-     , (25646,   3,  536870932) /* SoundTable */
-     , (25646,   6,   67108990) /* PaletteBase */
-     , (25646,   8,  100675329) /* Icon */
-     , (25646,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25646,   1, 0x020000D8) /* Setup */
+     , (25646,   3, 0x20000014) /* SoundTable */
+     , (25646,   6, 0x0400007E) /* PaletteBase */
+     , (25646,   8, 0x06002F01) /* Icon */
+     , (25646,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25646,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (25646, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (25646, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25646, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25646, 8000, 3698092051) /* PCAPRecordedObjectIID */;
+VALUES (25646, 8000, 0xDC6C6813) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25646,  2059,      2)  /* CoordinationSelf7 */
      , (25646,  2092,      2)  /* AcidBane7 */
      , (25646,  2094,      2)  /* BladeBane7 */
-     , (25646,  2108,      2)  /* Impenetrability7 */
-     , (25646,  2544,      2)  /* CANTRIPDAGGERAPTITUDE1 */;
+     , (25646,  2544,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE1 */
+     , (25646,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25646, 67114615, 168, 6)

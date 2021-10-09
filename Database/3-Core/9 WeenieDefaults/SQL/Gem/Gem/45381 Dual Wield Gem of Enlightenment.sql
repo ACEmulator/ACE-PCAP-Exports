@@ -14,23 +14,24 @@ VALUES (45381,   1,       2048) /* ItemType - Gem */
      , (45381, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45381,  22, True ) /* Inscribable */;
+VALUES (45381,  22, True ) /* Inscribable */
+     , (45381,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45381,   1, 'Dual Wield Gem of Enlightenment') /* Name */
      , (45381,  14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to specialize the Dual Wield skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45381,   1,   33558088) /* Setup */
-     , (45381,   6,   67111919) /* PaletteBase */
-     , (45381,   8,  100673788) /* Icon */
-     , (45381,  50,  100692236) /* IconOverlay */
+VALUES (45381,   1, 0x02000E48) /* Setup */
+     , (45381,   6, 0x04000BEF) /* PaletteBase */
+     , (45381,   8, 0x060028FC) /* Icon */
+     , (45381,  50, 0x0600710C) /* IconOverlay */
      , (45381, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (45381, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45381, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45381, 8000, 2929884702) /* PCAPRecordedObjectIID */;
+VALUES (45381, 8000, 0xAEA27E1E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45381, 67111923, 0, 0);

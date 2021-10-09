@@ -22,13 +22,13 @@ VALUES (37260,   1, 'The Jester') /* Name */
      , (37260,  20, 'Jesters') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37260,   1,   33560549) /* Setup */
-     , (37260,   3,  536870932) /* SoundTable */
-     , (37260,   8,  100689857) /* Icon */
-     , (37260,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37260,   1, 0x020017E5) /* Setup */
+     , (37260,   3, 0x20000014) /* SoundTable */
+     , (37260,   8, 0x060067C1) /* Icon */
+     , (37260,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37260, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (37260, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37260, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37260, 8000, 3222584140) /* PCAPRecordedObjectIID */;
+VALUES (37260, 8000, 0xC014BB4C) /* PCAPRecordedObjectIID */;

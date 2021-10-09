@@ -12,6 +12,7 @@ VALUES (40396,   1,      32768) /* ItemType - Caster */
      , (40396,  19,      20000) /* Value */
      , (40396,  33,          1) /* Bonded - Bonded */
      , (40396,  45,          2) /* DamageType - Pierce */
+     , (40396,  46,        512) /* DefaultCombatStyle - Magic */
      , (40396,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40396,  94,         16) /* TargetType - Creature */
      , (40396, 106,        250) /* ItemSpellcraft */
@@ -48,25 +49,25 @@ VALUES (40396,   1, 'Renegade Buadren of the Vortex') /* Name */
      , (40396,  25, 'Jakka') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40396,   1,   33558670) /* Setup */
-     , (40396,   3,  536870932) /* SoundTable */
-     , (40396,   8,  100676364) /* Icon */
-     , (40396,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40396,   1, 0x0200108E) /* Setup */
+     , (40396,   3, 0x20000014) /* SoundTable */
+     , (40396,   8, 0x0600330C) /* Icon */
+     , (40396,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40396, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (40396, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40396, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40396, 8000, 2382720294) /* PCAPRecordedObjectIID */;
+VALUES (40396, 8000, 0x8E056D26) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40396,  2441,      2)  /* StoneCliffsLesser */
      , (40396,  2444,      2)  /* StrengthofEarthLesser */
      , (40396,  2447,      2)  /* GrowthLesser */
      , (40396,  2450,      2)  /* HuntersAcumenLesser */
+     , (40396,  3223,      2)  /* CascadeManaC */
      , (40396,  2472,      2)  /* StillWater */
-     , (40396,  2475,      2)  /* Torrent */
-     , (40396,  3223,      2)  /* CascadeManaC */;
+     , (40396,  2475,      2)  /* Torrent */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (40396, 0, 83893670, 83893670)

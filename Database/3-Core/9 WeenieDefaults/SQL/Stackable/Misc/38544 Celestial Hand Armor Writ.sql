@@ -18,7 +18,8 @@ VALUES (38544,   1,        128) /* ItemType - Misc */
      , (38544, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38544,  69, False) /* IsSellable */
+VALUES (38544,  23, True ) /* DestroyOnSell */
+     , (38544,  69, False) /* IsSellable */
      , (38544,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -27,14 +28,14 @@ VALUES (38544,   1, 'Celestial Hand Armor Writ') /* Name */
      , (38544,  16, 'An armor writ, which can be given to one of the Society Armorsmiths for access to the Society Armor Chests.  One of these writs may be exchanged for access once per day.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38544,   1,   33554776) /* Setup */
-     , (38544,   3,  536870932) /* SoundTable */
-     , (38544,   8,  100667503) /* Icon */
-     , (38544,  22,  872415275) /* PhysicsEffectTable */
-     , (38544,  50,  100690171) /* IconOverlay */
+VALUES (38544,   1, 0x02000158) /* Setup */
+     , (38544,   3, 0x20000014) /* SoundTable */
+     , (38544,   8, 0x0600106F) /* Icon */
+     , (38544,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (38544,  50, 0x060068FB) /* IconOverlay */
      , (38544, 8001, 1075867672) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (38544, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38544, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38544, 8000, 3135613878) /* PCAPRecordedObjectIID */;
+VALUES (38544, 8000, 0xBAE5ABB6) /* PCAPRecordedObjectIID */;

@@ -47,27 +47,24 @@ VALUES (135,   1, 'Turban') /* Name */
      , (135,  16, 'Turban of Recklessness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (135,   1,   33554855) /* Setup */
-     , (135,   3,  536870932) /* SoundTable */
-     , (135,   6,   67108990) /* PaletteBase */
-     , (135,   8,  100669205) /* Icon */
-     , (135,  22,  872415275) /* PhysicsEffectTable */
+VALUES (135,   1, 0x020001A7) /* Setup */
+     , (135,   3, 0x20000014) /* SoundTable */
+     , (135,   6, 0x0400007E) /* PaletteBase */
+     , (135,   8, 0x06001715) /* Icon */
+     , (135,  22, 0x3400002B) /* PhysicsEffectTable */
      , (135, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (135, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (135, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (135, 8000, 3688474488) /* PCAPRecordedObjectIID */;
+VALUES (135, 8000, 0xDBD9A778) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (135,  1485,      2)  /* Impenetrability5 */
-     , (135,  1497,      2)  /* AcidBane5 */
+VALUES (135,  5832,      2)  /* RecklessnessMasterySelf6 */
+     , (135,  1485,      2)  /* Impenetrability5 */
      , (135,  1552,      2)  /* FlameBane6 */
-     , (135,  1562,      2)  /* BladeBane6 */
-     , (135,  5832,      2)  /* RecklessnessMasterySelf6 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (135, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
+     , (135,  1497,      2)  /* AcidBane5 */
+     , (135,  1562,      2)  /* BladeBane6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (135, 67110337, 250, 6);

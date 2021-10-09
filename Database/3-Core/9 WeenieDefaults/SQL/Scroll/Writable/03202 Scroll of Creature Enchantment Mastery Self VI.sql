@@ -24,13 +24,13 @@ VALUES (3202,   1, 'Scroll of Creature Enchantment Mastery Self VI') /* Name */
 Increases the caster''s Creature Enchantment skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3202,   1,   33554826) /* Setup */
-     , (3202,   8,  100676453) /* Icon */
-     , (3202,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3202,   1, 0x0200018A) /* Setup */
+     , (3202,   8, 0x06003365) /* Icon */
+     , (3202,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3202,  28,        562) /* Spell - CreatureEnchantmentMasterySelf6 */
      , (3202, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3202, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3202, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3202, 8000, 3688255131) /* PCAPRecordedObjectIID */;
+VALUES (3202, 8000, 0xDBD64E9B) /* PCAPRecordedObjectIID */;

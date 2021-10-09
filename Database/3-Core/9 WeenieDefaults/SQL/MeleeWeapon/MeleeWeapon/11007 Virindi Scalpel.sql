@@ -46,17 +46,17 @@ VALUES (11007,   1, 'Virindi Scalpel') /* Name */
      , (11007,  16, 'A small, flimsy looking blade for precision slicing. It appears to be made of pure diamond. As you peer at it, a swathe of tiny, three-dimensional geometric shapes briefly flash violet within the hilt, and a hollow voice in your mind intones, "Puppet, this reconfiguration has been specially prepared and left for your use. Use on captured meat beings. It will ignore the flesh-enhancing energy patterns they utilize. You will still have to peel their artificial exoskeletons away."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11007,   1,   33557231) /* Setup */
-     , (11007,   3,  536870932) /* SoundTable */
-     , (11007,   8,  100671865) /* Icon */
-     , (11007,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11007,   1, 0x02000AEF) /* Setup */
+     , (11007,   3, 0x20000014) /* SoundTable */
+     , (11007,   8, 0x06002179) /* Icon */
+     , (11007,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11007, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (11007, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11007, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11007, 8000, 2779768817) /* PCAPRecordedObjectIID */;
+VALUES (11007, 8000, 0xA5AFE7F1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11007,   297,      2)  /* AxeMasteryOther6 */
-     , (11007,  1384,      2)  /* CoordinationOther6 */;
+VALUES (11007,  1384,      2)  /* CoordinationOther6 */
+     , (11007,   297,      2)  /* LightWeaponsMasteryOther6 */;

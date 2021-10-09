@@ -26,17 +26,17 @@ VALUES (23926,   1, 'Ring') /* Name */
      , (23926,  16, 'A simple gold ring.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23926,   1,   33554691) /* Setup */
-     , (23926,   3,  536870932) /* SoundTable */
-     , (23926,   6,   67111919) /* PaletteBase */
-     , (23926,   8,  100668662) /* Icon */
-     , (23926,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23926,   1, 0x02000103) /* Setup */
+     , (23926,   3, 0x20000014) /* SoundTable */
+     , (23926,   6, 0x04000BEF) /* PaletteBase */
+     , (23926,   8, 0x060014F6) /* Icon */
+     , (23926,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23926, 8001,  270614552) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden, HookType */
      , (23926, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23926, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23926, 8000, 3665696243) /* PCAPRecordedObjectIID */;
+VALUES (23926, 8000, 0xDA7E15F3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23926, 67111919, 0, 0);

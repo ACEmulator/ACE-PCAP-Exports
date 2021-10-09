@@ -20,18 +20,18 @@ VALUES (37301,   1, 'Glyph of Flame') /* Name */
      , (37301,  20, 'Glyphs of Flame') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37301,   1,   33554809) /* Setup */
-     , (37301,   3,  536870932) /* SoundTable */
-     , (37301,   6,   67111919) /* PaletteBase */
-     , (37301,   8,  100690191) /* Icon */
-     , (37301,  22,  872415275) /* PhysicsEffectTable */
-     , (37301,  50,  100686650) /* IconOverlay */
+VALUES (37301,   1, 0x02000179) /* Setup */
+     , (37301,   3, 0x20000014) /* SoundTable */
+     , (37301,   6, 0x04000BEF) /* PaletteBase */
+     , (37301,   8, 0x0600690F) /* Icon */
+     , (37301,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37301,  50, 0x06005B3A) /* IconOverlay */
      , (37301, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (37301, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37301, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37301, 8000, 3179535662) /* PCAPRecordedObjectIID */;
+VALUES (37301, 8000, 0xBD83DD2E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37301, 67111924, 0, 0);

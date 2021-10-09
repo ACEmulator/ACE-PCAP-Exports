@@ -24,13 +24,13 @@ VALUES (3472,   1, 'Scroll of Resist Magic Self VI') /* Name */
 Increases the caster''s Magic Defense skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3472,   1,   33554826) /* Setup */
-     , (3472,   8,  100676465) /* Icon */
-     , (3472,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3472,   1, 0x0200018A) /* Setup */
+     , (3472,   8, 0x06003371) /* Icon */
+     , (3472,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3472,  28,        279) /* Spell - MagicResistanceSelf6 */
      , (3472, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3472, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3472, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3472, 8000, 2380894333) /* PCAPRecordedObjectIID */;
+VALUES (3472, 8000, 0x8DE9907D) /* PCAPRecordedObjectIID */;

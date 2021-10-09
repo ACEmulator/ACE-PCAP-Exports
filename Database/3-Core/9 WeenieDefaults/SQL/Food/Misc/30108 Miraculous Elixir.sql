@@ -28,19 +28,19 @@ VALUES (30108,   1, 'Miraculous Elixir') /* Name */
      , (30108,  16, 'This elixir was brewed by Ulgrim the Unpleasant, who had no idea what he was doing at the time.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30108,   1,   33554603) /* Setup */
-     , (30108,   3,  536870932) /* SoundTable */
-     , (30108,   6,   67111919) /* PaletteBase */
-     , (30108,   8,  100686620) /* Icon */
-     , (30108,  22,  872415275) /* PhysicsEffectTable */
-     , (30108,  52,  100686604) /* IconUnderlay */
+VALUES (30108,   1, 0x020000AB) /* Setup */
+     , (30108,   3, 0x20000014) /* SoundTable */
+     , (30108,   6, 0x04000BEF) /* PaletteBase */
+     , (30108,   8, 0x06005B1C) /* Icon */
+     , (30108,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30108,  52, 0x06005B0C) /* IconUnderlay */
      , (30108, 8001,  270561296) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (30108, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30108, 8003,   67141650) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Food, IncludesSecondHeader */
      , (30108, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30108, 8000, 2164105621) /* PCAPRecordedObjectIID */;
+VALUES (30108, 8000, 0x80FDA195) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30108, 67111919, 0, 0);

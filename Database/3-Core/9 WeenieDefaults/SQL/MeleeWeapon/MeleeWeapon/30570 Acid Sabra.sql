@@ -54,20 +54,20 @@ VALUES (30570,   1, 'Acid Sabra') /* Name */
      , (30570,  16, 'Acid Sabra of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30570,   1,   33559459) /* Setup */
-     , (30570,   3,  536870932) /* SoundTable */
-     , (30570,   6,   67115557) /* PaletteBase */
-     , (30570,   8,  100686941) /* Icon */
-     , (30570,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30570,   1, 0x020013A3) /* Setup */
+     , (30570,   3, 0x20000014) /* SoundTable */
+     , (30570,   6, 0x04001A25) /* PaletteBase */
+     , (30570,   8, 0x06005C5D) /* Icon */
+     , (30570,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30570,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (30570,  52,  100676437) /* IconUnderlay */
+     , (30570,  52, 0x06003355) /* IconUnderlay */
      , (30570, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30570, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30570, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30570, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30570, 8000, 2172472520) /* PCAPRecordedObjectIID */;
+VALUES (30570, 8000, 0x817D4CC8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30570,  1605,      2)  /* DefenderSelf6 */

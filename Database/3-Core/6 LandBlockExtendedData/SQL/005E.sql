@@ -21,7 +21,7 @@ VALUES (0x7005E004, 14805, 0x005E0104, 160, -10, -156, 1, 0, 0, 0, False, '2019-
 /* @teleloc 0x005E0104 [160.000000 -10.000000 -156.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005E005, 33247, 0x005E0106, 160.969, -29.05, -156.063, -0.3826829, 0, 0, -0.9238797, False, '2019-02-10 00:00:00'); /* Essence Chambers */
+VALUES (0x7005E005, 33247, 0x005E0106, 160.969, -29.05, -156.063, -0.382683, 0, 0, -0.92388, False, '2019-02-10 00:00:00'); /* Essence Chambers */
 /* @teleloc 0x005E0106 [160.969000 -29.050000 -156.063000] -0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -37,11 +37,11 @@ VALUES (0x7005E009, 14804, 0x005E010B, 175.25, -4.75, -156, 0.707107, 0, 0, -0.7
 /* @teleloc 0x005E010B [175.250000 -4.750000 -156.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005E00A,  6122, 0x005E010C, 180, -10, -156, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
+VALUES (0x7005E00A,  6122, 0x005E010C, 180, -10, -156, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
 /* @teleloc 0x005E010C [180.000000 -10.000000 -156.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7005E00B, 14804, 0x005E010D, 175.179, -24.6793, -156, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
+VALUES (0x7005E00B, 14804, 0x005E010D, 175.179, -24.6793, -156, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acid */
 /* @teleloc 0x005E010D [175.179000 -24.679300 -156.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -24,17 +24,17 @@ VALUES (21105,   1, 'Scroll of Martyr''s Blight IV') /* Name */
 Drains one-quarter of the caster''s mana into a bolt of energy.  When struck by the bolt, the target''s mana is reduced by 125% of the amount drained.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21105,   1,   33554826) /* Setup */
-     , (21105,   8,  100676937) /* Icon */
-     , (21105,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21105,   1, 0x0200018A) /* Setup */
+     , (21105,   8, 0x06003549) /* Icon */
+     , (21105,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21105,  28,       2777) /* Spell - ManaBolt4 */
      , (21105, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (21105, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21105, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21105, 8040, 30343621, 88.17955, -49.71852, -11.9145, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (21105, 8040, 0x01CF01C5, 88.17955, -49.71852, -11.9145, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01CF01C5 [88.179550 -49.718520 -11.914500] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21105, 8000, 3355801528) /* PCAPRecordedObjectIID */;
+VALUES (21105, 8000, 0xC80577B8) /* PCAPRecordedObjectIID */;

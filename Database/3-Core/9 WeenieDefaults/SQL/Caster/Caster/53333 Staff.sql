@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (53333,   1,      32768) /* ItemType - Caster */
      , (53333,   5,         50) /* EncumbranceVal */
      , (53333,   9,   16777216) /* ValidLocations - Held */
-     , (53333,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (53333,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (53333,  18,          1) /* UiEffects - Magical */
      , (53333,  19,        200) /* Value */
      , (53333,  45,         64) /* DamageType - Electric */
+     , (53333,  46,        512) /* DefaultCombatStyle - Magic */
      , (53333,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53333,  94,         16) /* TargetType - Creature */
      , (53333, 105,          8) /* ItemWorkmanship */
@@ -48,11 +48,11 @@ VALUES (53333,   1, 'Staff') /* Name */
      , (53333,  39, 'Declaregato') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53333,   1,   33555022) /* Setup */
-     , (53333,   3,  536870932) /* SoundTable */
-     , (53333,   6,   67111919) /* PaletteBase */
-     , (53333,   8,  100669097) /* Icon */
-     , (53333,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53333,   1, 0x0200024E) /* Setup */
+     , (53333,   3, 0x20000014) /* SoundTable */
+     , (53333,   6, 0x04000BEF) /* PaletteBase */
+     , (53333,   8, 0x060016A9) /* Icon */
+     , (53333,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53333,  28,       4310) /* Spell - HealOther8 */
      , (53333, 8001, 2439741592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
      , (53333, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
@@ -60,19 +60,19 @@ VALUES (53333,   1,   33555022) /* Setup */
      , (53333, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (53333, 8040, 4095213581, 36.9231, 48.70957, 169.729, -0.6935199, -0.6935199, -0.1379497, -0.1379497) /* PCAPRecordedLocation */
+VALUES (53333, 8040, 0xF418000D, 36.9231, 48.70957, 169.729, -0.69352, -0.69352, -0.13795, -0.13795) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [36.923100 48.709570 169.729000] -0.693520 -0.693520 -0.137950 -0.137950 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53333, 8000, 2148442939) /* PCAPRecordedObjectIID */
-     , (53333, 8008, 1343185633) /* PCAPRecordedParentIID */;
+VALUES (53333, 8000, 0x800EA33B) /* PCAPRecordedObjectIID */
+     , (53333, 8008, 0x500F62E1) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53333,  4582,      2)  /* LifeMagicMasterySelf8 */
-     , (53333,  4602,      2)  /* ManaMasterySelf8 */
+VALUES (53333,  6087,      2)  /* CantripHermeticLink4 */
+     , (53333,  6091,      2)  /* CantripDefender4 */
+     , (53333,  4582,      2)  /* LifeMagicMasterySelf8 */
      , (53333,  6060,      2)  /* CantripLifeMagicAptitude4 */
-     , (53333,  6087,      2)  /* CantripHermeticLink4 */
-     , (53333,  6091,      2)  /* CantripDefender4 */;
+     , (53333,  4602,      2)  /* ManaMasterySelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53333, 67111921, 0, 0);

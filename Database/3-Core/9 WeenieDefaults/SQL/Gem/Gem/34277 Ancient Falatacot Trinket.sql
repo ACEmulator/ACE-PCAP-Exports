@@ -24,17 +24,17 @@ VALUES (34277,   1, 'Ancient Falatacot Trinket') /* Name */
      , (34277,  16, 'A heliotropic ball. Thin etchings on its surface glow intensely when light strikes them') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34277,   1,   33554669) /* Setup */
-     , (34277,   3,  536870932) /* SoundTable */
-     , (34277,   6,   67111928) /* PaletteBase */
-     , (34277,   8,  100689282) /* Icon */
-     , (34277,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34277,   1, 0x020000ED) /* Setup */
+     , (34277,   3, 0x20000014) /* SoundTable */
+     , (34277,   6, 0x04000BF8) /* PaletteBase */
+     , (34277,   8, 0x06006582) /* Icon */
+     , (34277,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34277, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (34277, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34277, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34277, 8000, 3698089661) /* PCAPRecordedObjectIID */;
+VALUES (34277, 8000, 0xDC6C5EBD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34277, 67111923, 0, 0);

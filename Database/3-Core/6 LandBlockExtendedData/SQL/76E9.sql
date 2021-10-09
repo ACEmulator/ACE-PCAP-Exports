@@ -5,15 +5,15 @@ VALUES (0x776E9043, 43515, 0x76E9017D, 128, 175.045, 88.8, 0, 0, 0, -1, False, '
 /* @teleloc 0x76E9017D [128.000000 175.045000 88.800000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x776E9048,  5624, 0x76E90184, 128, 154.523, 88.8, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x776E9048,  5624, 0x76E90184, 128, 154.523, 88.8, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x76E90184 [128.000000 154.523000 88.800000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x776E9058, 43518, 0x76E901C2, 156.18, 280.264, 94.8, -0.8264363, 0, 0, -0.5630302, False, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x776E9058, 43518, 0x76E901C2, 156.18, 280.264, 94.8, -0.826436, 0, 0, -0.56303, False, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0x76E901C2 [156.180000 280.264000 94.800000] -0.826436 0.000000 0.000000 -0.563030 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x776E905A, 43524, 0x76E901B1, 139.36, 331.079, 94.73701, 0.9765739, 0, 0, -0.215182, False, '2019-02-10 00:00:00'); /* Frozen Tomb */
+VALUES (0x776E905A, 43524, 0x76E901B1, 139.36, 331.079, 94.73701, 0.976574, 0, 0, -0.215182, False, '2019-02-10 00:00:00'); /* Frozen Tomb */
 /* @teleloc 0x76E901B1 [139.360000 331.079000 94.737010] 0.976574 0.000000 0.000000 -0.215182 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

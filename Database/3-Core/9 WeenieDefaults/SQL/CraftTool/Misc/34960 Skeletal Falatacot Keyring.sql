@@ -29,13 +29,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34960,   1, 'Skeletal Falatacot Keyring') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34960,   1,   33554790) /* Setup */
-     , (34960,   3,  536870932) /* SoundTable */
-     , (34960,   8,  100689366) /* Icon */
-     , (34960,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34960,   1, 0x02000166) /* Setup */
+     , (34960,   3, 0x20000014) /* SoundTable */
+     , (34960,   8, 0x060065D6) /* Icon */
+     , (34960,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34960, 8001,  271088664) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (34960, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34960, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34960, 8000, 2163683398) /* PCAPRecordedObjectIID */;
+VALUES (34960, 8000, 0x80F73046) /* PCAPRecordedObjectIID */;

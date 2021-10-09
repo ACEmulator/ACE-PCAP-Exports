@@ -32,21 +32,21 @@ VALUES (48741,   1, 'Legendary Armor Chest') /* Name */
      , (48741, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48741,   1,   33558324) /* Setup */
-     , (48741,   2,  150995235) /* MotionTable */
-     , (48741,   3,  536870945) /* SoundTable */
-     , (48741,   8,  100674256) /* Icon */
-     , (48741,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48741,   1, 0x02000F34) /* Setup */
+     , (48741,   2, 0x09000123) /* MotionTable */
+     , (48741,   3, 0x20000021) /* SoundTable */
+     , (48741,   8, 0x06002AD0) /* Icon */
+     , (48741,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48741, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (48741, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (48741, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48741, 8040, 1994981794, 125.961, 333.88, 94.8, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (48741, 8040, 0x76E901A2, 125.961, 333.88, 94.8, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x76E901A2 [125.961000 333.880000 94.800000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48741, 8000, 2003734630) /* PCAPRecordedObjectIID */;
+VALUES (48741, 8000, 0x776E9066) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48741, -1, 6044, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Celdon Breastplate (6044) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

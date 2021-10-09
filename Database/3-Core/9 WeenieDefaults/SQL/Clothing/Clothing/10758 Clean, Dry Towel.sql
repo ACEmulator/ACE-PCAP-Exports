@@ -8,7 +8,6 @@ VALUES (10758,   1,          4) /* ItemType - Clothing */
      , (10758,   4,         19) /* ClothingPriority - Unknown, UnderwearUpperLegs, UnderwearAbdomen */
      , (10758,   5,         50) /* EncumbranceVal */
      , (10758,   9,         68) /* ValidLocations - AbdomenWear, UpperLegWear */
-     , (10758,  10,         68) /* CurrentWieldedLocation - AbdomenWear, UpperLegWear */
      , (10758,  16,          1) /* ItemUseable - No */
      , (10758,  19,         10) /* Value */
      , (10758,  28,          0) /* ArmorLevel */
@@ -35,17 +34,17 @@ VALUES (10758,   1, 'Clean, Dry Towel') /* Name */
      , (10758,  16, 'A thick and luxuriantly plush towel made of the finest, most absorbent cloth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10758,   1,   33554647) /* Setup */
-     , (10758,   3,  536870932) /* SoundTable */
-     , (10758,   6,   67108990) /* PaletteBase */
-     , (10758,   8,  100671661) /* Icon */
-     , (10758,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10758,   1, 0x020000D7) /* Setup */
+     , (10758,   3, 0x20000014) /* SoundTable */
+     , (10758,   6, 0x0400007E) /* PaletteBase */
+     , (10758,   8, 0x060020AD) /* Icon */
+     , (10758,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10758, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (10758, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10758, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10758, 8000, 2981038622) /* PCAPRecordedObjectIID */;
+VALUES (10758, 8000, 0xB1AF0A1E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10758, 67113214, 80, 12)

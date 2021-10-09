@@ -8,7 +8,6 @@ VALUES (49933,   1,          2) /* ItemType - Armor */
      , (49933,   4,        256) /* ClothingPriority - OuterwearUpperLegs */
      , (49933,   5,        919) /* EncumbranceVal */
      , (49933,   9,       8192) /* ValidLocations - UpperLegArmor */
-     , (49933,  10,       8192) /* CurrentWieldedLocation - UpperLegArmor */
      , (49933,  16,          1) /* ItemUseable - No */
      , (49933,  19,       1700) /* Value */
      , (49933,  28,        600) /* ArmorLevel */
@@ -39,16 +38,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49933,   1, 'Prismatic Shadow Tassets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49933,   1,   33554656) /* Setup */
-     , (49933,   3,  536870932) /* SoundTable */
-     , (49933,   8,  100693093) /* Icon */
-     , (49933,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49933,   1, 0x020000E0) /* Setup */
+     , (49933,   3, 0x20000014) /* SoundTable */
+     , (49933,   8, 0x06007465) /* Icon */
+     , (49933,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49933, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (49933, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (49933, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49933, 8000, 3629312317) /* PCAPRecordedObjectIID */;
+VALUES (49933, 8000, 0xD852E93D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (49933, 0, 83887064, 83899132);

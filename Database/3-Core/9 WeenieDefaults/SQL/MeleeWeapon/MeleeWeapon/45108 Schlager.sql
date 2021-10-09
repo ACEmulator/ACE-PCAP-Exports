@@ -51,18 +51,18 @@ VALUES (45108,   1, 'Schlager') /* Name */
      , (45108,  16, 'Schlager of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45108,   1,   33561441) /* Setup */
-     , (45108,   3,  536870932) /* SoundTable */
-     , (45108,   6,   67111919) /* PaletteBase */
-     , (45108,   8,  100692307) /* Icon */
-     , (45108,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45108,   1, 0x02001B61) /* Setup */
+     , (45108,   3, 0x20000014) /* SoundTable */
+     , (45108,   6, 0x04000BEF) /* PaletteBase */
+     , (45108,   8, 0x06007153) /* Icon */
+     , (45108,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45108,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (45108, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45108, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45108, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45108, 8000, 3696554879) /* PCAPRecordedObjectIID */;
+VALUES (45108, 8000, 0xDC54F37F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45108,  1615,      2)  /* BloodDrinkerSelf5 */;

@@ -10,6 +10,7 @@ VALUES (8746,   1,      32768) /* ItemType - Caster */
      , (8746,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (8746,  18,          1) /* UiEffects - Magical */
      , (8746,  19,          1) /* Value */
+     , (8746,  46,        512) /* DefaultCombatStyle - Magic */
      , (8746,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8746,  94,         16) /* TargetType - Creature */
      , (8746, 106,        150) /* ItemSpellcraft */
@@ -30,22 +31,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8746,   1, 'Explorer Wand Of Acid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8746,   1,   33558231) /* Setup */
-     , (8746,   3,  536870932) /* SoundTable */
-     , (8746,   6,   67111919) /* PaletteBase */
-     , (8746,   8,  100668799) /* Icon */
-     , (8746,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8746,   1, 0x02000ED7) /* Setup */
+     , (8746,   3, 0x20000014) /* SoundTable */
+     , (8746,   6, 0x04000BEF) /* PaletteBase */
+     , (8746,   8, 0x0600157F) /* Icon */
+     , (8746,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8746,  28,         60) /* Spell - AcidStream3 */
      , (8746, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (8746, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8746, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8746, 8000, 2917029734) /* PCAPRecordedObjectIID */;
+VALUES (8746, 8000, 0xADDE5766) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8746,   607,      2)  /* LifeMagicMasterySelf3 */
-     , (8746,   655,      2)  /* ManaMasterySelf3 */;
+VALUES (8746,   655,      2)  /* ManaMasterySelf3 */
+     , (8746,   607,      2)  /* LifeMagicMasterySelf3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8746, 67111924, 0, 0);

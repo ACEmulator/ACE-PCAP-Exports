@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1887,   1, 'Scroll of Impenetrability') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1887,   1,   33554826) /* Setup */
-     , (1887,   8,  100676661) /* Icon */
-     , (1887,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1887,   1, 0x0200018A) /* Setup */
+     , (1887,   8, 0x06003435) /* Icon */
+     , (1887,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1887,  28,         51) /* Spell - Impenetrability1 */
      , (1887, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1887, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1887, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1887, 8000, 3709458665) /* PCAPRecordedObjectIID */;
+VALUES (1887, 8000, 0xDD19D8E9) /* PCAPRecordedObjectIID */;

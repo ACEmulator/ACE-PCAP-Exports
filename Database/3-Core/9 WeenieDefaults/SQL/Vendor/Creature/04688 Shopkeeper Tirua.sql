@@ -36,27 +36,27 @@ VALUES (4688,   1, 'Shopkeeper Tirua') /* Name */
      , (4688, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4688,   1,   33554510) /* Setup */
-     , (4688,   2,  150994945) /* MotionTable */
-     , (4688,   3,  536870914) /* SoundTable */
-     , (4688,   6,   67108990) /* PaletteBase */
-     , (4688,   8,  100667446) /* Icon */
-     , (4688,   9,   83890275) /* EyesTexture */
-     , (4688,  10,   83890292) /* NoseTexture */
-     , (4688,  11,   83890352) /* MouthTexture */
-     , (4688,  15,   67117069) /* HairPalette */
-     , (4688,  16,   67110062) /* EyesPalette */
-     , (4688,  17,   67109553) /* SkinPalette */
+VALUES (4688,   1, 0x0200004E) /* Setup */
+     , (4688,   2, 0x09000001) /* MotionTable */
+     , (4688,   3, 0x20000002) /* SoundTable */
+     , (4688,   6, 0x0400007E) /* PaletteBase */
+     , (4688,   8, 0x06001036) /* Icon */
+     , (4688,   9, 0x05001063) /* EyesTexture */
+     , (4688,  10, 0x05001074) /* NoseTexture */
+     , (4688,  11, 0x050010B0) /* MouthTexture */
+     , (4688,  15, 0x0400200D) /* HairPalette */
+     , (4688,  16, 0x040004AE) /* EyesPalette */
+     , (4688,  17, 0x040002B1) /* SkinPalette */
      , (4688, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (4688, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (4688, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4688, 8040, 2354577680, 172.408, 61.2951, 30.005, -0.5309501, 0, 0, -0.847403) /* PCAPRecordedLocation */
+VALUES (4688, 8040, 0x8C580110, 172.408, 61.2951, 30.005, -0.53095, 0, 0, -0.847403) /* PCAPRecordedLocation */
 /* @teleloc 0x8C580110 [172.408000 61.295100 30.005000] -0.530950 0.000000 0.000000 -0.847403 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4688, 8000, 2026209285) /* PCAPRecordedObjectIID */;
+VALUES (4688, 8000, 0x78C58005) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4688,   1,  80, 0, 0) /* Strength */
@@ -108,26 +108,9 @@ VALUES (4688, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (4688, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (4688, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (4688, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (4688, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
      , (4688, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (4688, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (4688, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
-     , (4688, 4, 28605, -1, 0, 0, False) /* Create Beret (28605) for Shop */
-     , (4688, 4, 28612, -1, 0, 0, False) /* Create Bandana (28612) for Shop */
-     , (4688, 4,   150, -1, 0, 0, False) /* Create Flagon (150) for Shop */
-     , (4688, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
-     , (4688, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
-     , (4688, 4, 29076, -1, 0, 0, False) /* Create The Thrungus - Part I (29076) for Shop */
-     , (4688, 4,  2596, -1, 0, 0, False) /* Create Doublet (2596) for Shop */
-     , (4688, 4,  7897, -1, 0, 0, False) /* Create Steel Toed Boots (7897) for Shop */
-     , (4688, 4,    71, -1, 0, 0, False) /* Create Chainmail Hauberk (71) for Shop */
-     , (4688, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
-     , (4688, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (4688, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass (53) for Shop */
-     , (4688, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
-     , (4688, 4, 25641, -1, 0, 0, False) /* Create Leather Cuirass (25641) for Shop */
-     , (4688, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings (83) for Shop */
-     , (4688, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
-     , (4688, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */;
+     , (4688, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4688, 67109553, 0, 24)

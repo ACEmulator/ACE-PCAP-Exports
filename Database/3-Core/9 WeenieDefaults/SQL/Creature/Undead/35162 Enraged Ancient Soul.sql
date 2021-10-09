@@ -27,22 +27,22 @@ VALUES (35162,   1, 'Enraged Ancient Soul') /* Name */
      , (35162, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35162,   1,   33558436) /* Setup */
-     , (35162,   2,  150994967) /* MotionTable */
-     , (35162,   3,  536870934) /* SoundTable */
-     , (35162,   6,   67114480) /* PaletteBase */
-     , (35162,   8,  100674805) /* Icon */
-     , (35162,  22,  872415272) /* PhysicsEffectTable */
+VALUES (35162,   1, 0x02000FA4) /* Setup */
+     , (35162,   2, 0x09000017) /* MotionTable */
+     , (35162,   3, 0x20000016) /* SoundTable */
+     , (35162,   6, 0x040015F0) /* PaletteBase */
+     , (35162,   8, 0x06002CF5) /* Icon */
+     , (35162,  22, 0x34000028) /* PhysicsEffectTable */
      , (35162, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35162, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35162, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35162, 8040, 11534656, 28.38657, -300.0937, 0.11475, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35162, 8040, 0x00B00140, 28.38657, -300.0937, 0.11475, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B00140 [28.386570 -300.093700 0.114750] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35162, 8000, 2447686669) /* PCAPRecordedObjectIID */;
+VALUES (35162, 8000, 0x91E4BC0D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35162,   1, 350, 0, 0) /* Strength */

@@ -23,16 +23,16 @@ VALUES (28825,   1, 'Abayar''s Laboratory') /* Name */
      , (28825, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28825,   1,   33555925) /* Setup */
-     , (28825,   2,  150994947) /* MotionTable */
-     , (28825,   8,  100667499) /* Icon */
+VALUES (28825,   1, 0x020005D5) /* Setup */
+     , (28825,   2, 0x09000003) /* MotionTable */
+     , (28825,   8, 0x0600106B) /* Icon */
      , (28825, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (28825, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (28825, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28825, 8040, 1173487654, 108.176, 122.42, 65.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (28825, 8040, 0x45F20026, 108.176, 122.42, 65.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x45F20026 [108.176000 122.420000 65.937000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28825, 8000, 1952391168) /* PCAPRecordedObjectIID */;
+VALUES (28825, 8000, 0x745F2000) /* PCAPRecordedObjectIID */;

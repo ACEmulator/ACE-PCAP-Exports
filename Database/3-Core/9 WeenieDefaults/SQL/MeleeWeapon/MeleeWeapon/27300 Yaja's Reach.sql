@@ -47,20 +47,20 @@ VALUES (27300,   1, 'Yaja''s Reach') /* Name */
      , (27300,  16, 'A spear crafted from a fragment of the arm of the Marionette, Yaja. A bony talon extends from the point.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27300,   1,   33558676) /* Setup */
-     , (27300,   3,  536870932) /* SoundTable */
-     , (27300,   8,  100676400) /* Icon */
-     , (27300,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27300,   1, 0x02001094) /* Setup */
+     , (27300,   3, 0x20000014) /* SoundTable */
+     , (27300,   8, 0x06003330) /* Icon */
+     , (27300,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27300, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27300, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27300, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27300, 8000, 2994489531) /* PCAPRecordedObjectIID */;
+VALUES (27300, 8000, 0xB27C48BB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27300,  1592,      2)  /* HeartSeekerSelf6 */
-     , (27300,  1605,      2)  /* DefenderSelf6 */
+VALUES (27300,  1605,      2)  /* DefenderSelf6 */
      , (27300,  1616,      2)  /* BloodDrinkerSelf6 */
      , (27300,  1626,      2)  /* SwiftKillerSelf5 */
-     , (27300,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;
+     , (27300,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (27300,  1592,      2)  /* HeartSeekerSelf6 */;

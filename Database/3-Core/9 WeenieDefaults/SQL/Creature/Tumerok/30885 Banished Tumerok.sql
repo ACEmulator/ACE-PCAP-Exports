@@ -25,22 +25,22 @@ VALUES (30885,   1, 'Banished Tumerok') /* Name */
      , (30885, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30885,   1,   33559568) /* Setup */
-     , (30885,   2,  150994954) /* MotionTable */
-     , (30885,   3,  536870931) /* SoundTable */
-     , (30885,   6,   67116625) /* PaletteBase */
-     , (30885,   8,  100667452) /* Icon */
-     , (30885,  22,  872415270) /* PhysicsEffectTable */
+VALUES (30885,   1, 0x02001410) /* Setup */
+     , (30885,   2, 0x0900000A) /* MotionTable */
+     , (30885,   3, 0x20000013) /* SoundTable */
+     , (30885,   6, 0x04001E51) /* PaletteBase */
+     , (30885,   8, 0x0600103C) /* Icon */
+     , (30885,  22, 0x34000026) /* PhysicsEffectTable */
      , (30885, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (30885, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (30885, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30885, 8040, 1520173085, 87.5979, 109.7103, 5.149029, 0.6234487, 0, 0, -0.7818642) /* PCAPRecordedLocation */
+VALUES (30885, 8040, 0x5A9C001D, 87.5979, 109.7103, 5.149029, 0.623449, 0, 0, -0.781864) /* PCAPRecordedLocation */
 /* @teleloc 0x5A9C001D [87.597900 109.710300 5.149029] 0.623449 0.000000 0.000000 -0.781864 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30885, 8000, 2931120548) /* PCAPRecordedObjectIID */;
+VALUES (30885, 8000, 0xAEB559A4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (30885,   1,     0, 0, 0, 530) /* MaxHealth */;

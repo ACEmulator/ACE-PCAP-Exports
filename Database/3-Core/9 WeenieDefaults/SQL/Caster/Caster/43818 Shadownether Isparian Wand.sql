@@ -13,6 +13,7 @@ VALUES (43818,   1,      32768) /* ItemType - Caster */
      , (43818,  33,          1) /* Bonded - Bonded */
      , (43818,  36,       9999) /* ResistMagic */
      , (43818,  45,       1024) /* DamageType - Nether */
+     , (43818,  46,        512) /* DefaultCombatStyle - Magic */
      , (43818,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43818,  94,         16) /* TargetType - Creature */
      , (43818, 114,          0) /* Attuned - Normal */
@@ -41,13 +42,13 @@ VALUES (43818,   1, 'Shadownether Isparian Wand') /* Name */
      , (43818,  25, 'Immortalbob') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43818,   1,   33561165) /* Setup */
-     , (43818,   3,  536870932) /* SoundTable */
-     , (43818,   8,  100691697) /* Icon */
-     , (43818,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43818,   1, 0x02001A4D) /* Setup */
+     , (43818,   3, 0x20000014) /* SoundTable */
+     , (43818,   8, 0x06006EF1) /* Icon */
+     , (43818,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43818, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (43818, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
      , (43818, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43818, 8000, 2147529146) /* PCAPRecordedObjectIID */;
+VALUES (43818, 8000, 0x8000B1BA) /* PCAPRecordedObjectIID */;

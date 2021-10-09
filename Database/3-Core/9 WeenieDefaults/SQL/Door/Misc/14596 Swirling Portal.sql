@@ -24,18 +24,18 @@ VALUES (14596,   1, 'Swirling Portal') /* Name */
      , (14596, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14596,   1,   33557517) /* Setup */
-     , (14596,   2,  150995155) /* MotionTable */
-     , (14596,   3,  536871050) /* SoundTable */
-     , (14596,   8,  100667499) /* Icon */
-     , (14596,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14596,   1, 0x02000C0D) /* Setup */
+     , (14596,   2, 0x090000D3) /* MotionTable */
+     , (14596,   3, 0x2000008A) /* SoundTable */
+     , (14596,   8, 0x0600106B) /* Icon */
+     , (14596,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14596, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (14596, 8003,       4116) /* PCAPRecordedObjectDesc - Stuck, Attackable, Door */
      , (14596, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14596, 8040, 778830271, -138, 72.25, -35.6, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (14596, 8040, 0x2E6C01BF, -138, 72.25, -35.6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2E6C01BF [-138.000000 72.250000 -35.600000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14596, 8000, 1927725134) /* PCAPRecordedObjectIID */;
+VALUES (14596, 8000, 0x72E6C04E) /* PCAPRecordedObjectIID */;

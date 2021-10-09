@@ -39,25 +39,25 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30702,   1, 'Royal Color') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30702,   1,   33554641) /* Setup */
-     , (30702,   3,  536870932) /* SoundTable */
-     , (30702,   6,   67108990) /* PaletteBase */
-     , (30702,   8,  100677375) /* Icon */
-     , (30702,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30702,   1, 0x020000D1) /* Setup */
+     , (30702,   3, 0x20000014) /* SoundTable */
+     , (30702,   6, 0x0400007E) /* PaletteBase */
+     , (30702,   8, 0x060036FF) /* Icon */
+     , (30702,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30702, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (30702, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30702, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30702, 8000, 2166189963) /* PCAPRecordedObjectIID */;
+VALUES (30702, 8000, 0x811D6F8B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30702,   210,      2)  /* ManaRenewalOther5 */
-     , (30702,  1137,      2)  /* PiercingProtectionSelf5 */
-     , (30702,  1425,      2)  /* FocusSelf5 */
-     , (30702,  1449,      2)  /* WillpowerSelf5 */
+VALUES (30702,  1425,      2)  /* FocusSelf5 */
+     , (30702,   210,      2)  /* ManaRenewalOther5 */
      , (30702,  2584,      2)  /* CANTRIPWILLPOWER1 */
-     , (30702,  2661,      2)  /* ModerateFocus */;
+     , (30702,  2661,      2)  /* ModerateFocus */
+     , (30702,  1449,      2)  /* WillpowerSelf5 */
+     , (30702,  1137,      2)  /* PiercingProtectionSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30702, 67115484, 96, 40);

@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42113,   1, 'Scratched Gear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42113,   1,   33557681) /* Setup */
-     , (42113,   3,  536870932) /* SoundTable */
-     , (42113,   8,  100672956) /* Icon */
-     , (42113,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42113,   1, 0x02000CB1) /* Setup */
+     , (42113,   3, 0x20000014) /* SoundTable */
+     , (42113,   8, 0x060025BC) /* Icon */
+     , (42113,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42113, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (42113, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (42113, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42113, 8000, 2224240336) /* PCAPRecordedObjectIID */;
+VALUES (42113, 8000, 0x849336D0) /* PCAPRecordedObjectIID */;

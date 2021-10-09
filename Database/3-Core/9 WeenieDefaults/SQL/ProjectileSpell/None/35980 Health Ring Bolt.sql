@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35980,   1, 'Health Ring Bolt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35980,   1,   33560350) /* Setup */
-     , (35980,   3,  536870971) /* SoundTable */
-     , (35980,   8,  100667494) /* Icon */
+VALUES (35980,   1, 0x0200171E) /* Setup */
+     , (35980,   3, 0x2000003B) /* SoundTable */
+     , (35980,   8, 0x06001066) /* Icon */
      , (35980,  28,         86) /* Spell - ForceBolt1 */
      , (35980, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (35980, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (35980, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35980, 8040, 3932946695, 201.5586, 242.8778, -45.95483, 0.1031266, 0, 0, -0.9946682) /* PCAPRecordedLocation */
+VALUES (35980, 8040, 0xEA6C0107, 201.5586, 242.8778, -45.95483, 0.103127, 0, 0, -0.994668) /* PCAPRecordedLocation */
 /* @teleloc 0xEA6C0107 [201.558600 242.877800 -45.954830] 0.103127 0.000000 0.000000 -0.994668 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35980, 8000, 3699866960) /* PCAPRecordedObjectIID */;
+VALUES (35980, 8000, 0xDC877D50) /* PCAPRecordedObjectIID */;

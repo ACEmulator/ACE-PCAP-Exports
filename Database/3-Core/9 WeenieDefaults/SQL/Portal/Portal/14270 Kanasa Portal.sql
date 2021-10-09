@@ -22,16 +22,16 @@ VALUES (14270,   1, 'Kanasa Portal') /* Name */
      , (14270, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14270,   1,   33554867) /* Setup */
-     , (14270,   2,  150994947) /* MotionTable */
-     , (14270,   8,  100667499) /* Icon */
+VALUES (14270,   1, 0x020001B3) /* Setup */
+     , (14270,   2, 0x09000003) /* MotionTable */
+     , (14270,   8, 0x0600106B) /* Icon */
      , (14270, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14270, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14270, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14270, 8040, 2671837246, 188.94, 140.719, 109.937, 0.8733909, 0, 0, -0.4870199) /* PCAPRecordedLocation */
+VALUES (14270, 8040, 0x9F41003E, 188.94, 140.719, 109.937, 0.873391, 0, 0, -0.48702) /* PCAPRecordedLocation */
 /* @teleloc 0x9F41003E [188.940000 140.719000 109.937000] 0.873391 0.000000 0.000000 -0.487020 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14270, 8000, 2046038023) /* PCAPRecordedObjectIID */;
+VALUES (14270, 8000, 0x79F41007) /* PCAPRecordedObjectIID */;

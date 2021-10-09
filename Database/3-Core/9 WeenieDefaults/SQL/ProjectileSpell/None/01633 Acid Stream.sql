@@ -24,10 +24,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1633,   1, 'Acid Stream') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1633,   1,   33555446) /* Setup */
-     , (1633,   3,  536870969) /* SoundTable */
-     , (1633,   8,  100667494) /* Icon */
-     , (1633,  22,  872415243) /* PhysicsEffectTable */
+VALUES (1633,   1, 0x020003F6) /* Setup */
+     , (1633,   3, 0x20000039) /* SoundTable */
+     , (1633,   8, 0x06001066) /* Icon */
+     , (1633,  22, 0x3400000B) /* PhysicsEffectTable */
      , (1633,  28,         58) /* Spell - AcidStream1 */
      , (1633,  30,         90) /* PhysicsScript - ProjectileCollision */
      , (1633, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
@@ -35,29 +35,8 @@ VALUES (1633,   1,   33555446) /* Setup */
      , (1633, 8005,      64389) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1633, 8040, 2459303952, 26.74912, 191.9512, 33.00731, -0.8580175, 0, 0, -0.5136205) /* PCAPRecordedLocation */
+VALUES (1633, 8040, 0x92960010, 26.74912, 191.9512, 33.00731, -0.858018, 0, 0, -0.513621) /* PCAPRecordedLocation */
 /* @teleloc 0x92960010 [26.749120 191.951200 33.007310] -0.858018 0.000000 0.000000 -0.513621 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1633, 8000, 3685777546) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1633, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */
-     , (1633, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
-     , (1633, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (1633, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
-     , (1633, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (1633, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
-     , (1633, 2,  3794,  1, 0, 0, False) /* Create Acid Jambiya (3794) for Wield */
-     , (1633, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
-     , (1633, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (1633, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (1633, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
-     , (1633, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */
-     , (1633, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */
-     , (1633, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (1633, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
-     , (1633, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
-     , (1633, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
-     , (1633, 2, 47408,  1, 0, 0, False) /* Create Frost Club (47408) for Wield */
-     , (1633, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */;
+VALUES (1633, 8000, 0xDBB0808A) /* PCAPRecordedObjectIID */;

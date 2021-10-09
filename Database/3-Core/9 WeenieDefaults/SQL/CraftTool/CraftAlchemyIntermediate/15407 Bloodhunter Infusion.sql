@@ -21,17 +21,17 @@ VALUES (15407,   1, 'Bloodhunter Infusion') /* Name */
      , (15407,  20, 'Bloodhunter Infusions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15407,   1,   33555965) /* Setup */
-     , (15407,   3,  536870932) /* SoundTable */
-     , (15407,   6,   67111919) /* PaletteBase */
-     , (15407,   8,  100672646) /* Icon */
-     , (15407,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15407,   1, 0x020005FD) /* Setup */
+     , (15407,   3, 0x20000014) /* SoundTable */
+     , (15407,   6, 0x04000BEF) /* PaletteBase */
+     , (15407,   8, 0x06002486) /* Icon */
+     , (15407,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15407, 8001,  268988441) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, HookType */
      , (15407, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15407, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15407, 8000, 3621497338) /* PCAPRecordedObjectIID */;
+VALUES (15407, 8000, 0xD7DBA9FA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15407, 67112572, 0, 0);

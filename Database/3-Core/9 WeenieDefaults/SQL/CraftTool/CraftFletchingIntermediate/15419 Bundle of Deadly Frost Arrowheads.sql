@@ -20,17 +20,17 @@ VALUES (15419,   1, 'Bundle of Deadly Frost Arrowheads') /* Name */
      , (15419,  20, 'Bundles of Deadly Frost Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15419,   1,   33555958) /* Setup */
-     , (15419,   3,  536870932) /* SoundTable */
-     , (15419,   8,  100672674) /* Icon */
-     , (15419,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15419,   1, 0x020005F6) /* Setup */
+     , (15419,   3, 0x20000014) /* SoundTable */
+     , (15419,   8, 0x060024A2) /* Icon */
+     , (15419,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15419, 8001,     536601) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, TargetType */
      , (15419, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15419, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15419, 8040, 2847080511, 187.7464, 154.463, 105.3835, 0.04580409, 0, 0, 0.9989504) /* PCAPRecordedLocation */
+VALUES (15419, 8040, 0xA9B3003F, 187.7464, 154.463, 105.3835, 0.045804, 0, 0, 0.99895) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B3003F [187.746400 154.463000 105.383500] 0.045804 0.000000 0.000000 0.998950 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15419, 8000, 2149090799) /* PCAPRecordedObjectIID */;
+VALUES (15419, 8000, 0x801885EF) /* PCAPRecordedObjectIID */;

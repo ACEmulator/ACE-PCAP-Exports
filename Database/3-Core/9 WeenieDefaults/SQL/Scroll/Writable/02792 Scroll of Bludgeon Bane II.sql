@@ -24,13 +24,13 @@ VALUES (2792,   1, 'Scroll of Bludgeon Bane II') /* Name */
 Increases a shield or piece of armor''s resistance to bludgeoning damage by 25%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2792,   1,   33554826) /* Setup */
-     , (2792,   8,  100676650) /* Icon */
-     , (2792,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2792,   1, 0x0200018A) /* Setup */
+     , (2792,   8, 0x0600342A) /* Icon */
+     , (2792,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2792,  28,       1512) /* Spell - BludgeonBane2 */
      , (2792, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2792, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2792, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2792, 8000, 2874775677) /* PCAPRecordedObjectIID */;
+VALUES (2792, 8000, 0xAB59987D) /* PCAPRecordedObjectIID */;

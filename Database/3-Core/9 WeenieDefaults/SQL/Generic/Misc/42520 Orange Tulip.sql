@@ -17,11 +17,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42520,   1, 'Orange Tulip') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42520,   1,   33560933) /* Setup */
-     , (42520,   8,  100690918) /* Icon */
+VALUES (42520,   1, 0x02001965) /* Setup */
+     , (42520,   8, 0x06006BE6) /* Icon */
      , (42520, 8001,    3162128) /* PCAPRecordedWeenieHeader - Usable, Container, RadarBlipColor, Burden */
      , (42520, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42520, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42520, 8000, 2975610788) /* PCAPRecordedObjectIID */;
+VALUES (42520, 8000, 0xB15C37A4) /* PCAPRecordedObjectIID */;

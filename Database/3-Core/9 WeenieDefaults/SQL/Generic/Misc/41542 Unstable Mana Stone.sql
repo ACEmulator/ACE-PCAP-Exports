@@ -16,6 +16,7 @@ VALUES (41542,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41542,  22, True ) /* Inscribable */
+     , (41542,  23, True ) /* DestroyOnSell */
      , (41542,  69, False) /* IsSellable */
      , (41542,  99, False) /* Ivoryable */;
 
@@ -25,11 +26,11 @@ VALUES (41542,   1, 'Unstable Mana Stone') /* Name */
      , (41542,  16, 'A dangerously unstable Mana Stone, created by the Arcanum Tinkerer, Al-Shashqa.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41542,   1,   33555641) /* Setup */
-     , (41542,   8,  100676402) /* Icon */
+VALUES (41542,   1, 0x020004B9) /* Setup */
+     , (41542,   8, 0x06003332) /* Icon */
      , (41542, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (41542, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41542, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41542, 8000, 2323350442) /* PCAPRecordedObjectIID */;
+VALUES (41542, 8000, 0x8A7B83AA) /* PCAPRecordedObjectIID */;

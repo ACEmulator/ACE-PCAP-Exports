@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3478,   1, 'Scroll of Light Weapon Mastery Other II') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3478,   1,   33554826) /* Setup */
-     , (3478,   8,  100692249) /* Icon */
-     , (3478,  22,  872415275) /* PhysicsEffectTable */
-     , (3478,  28,        293) /* Spell - AxeMasteryOther2 */
+VALUES (3478,   1, 0x0200018A) /* Setup */
+     , (3478,   8, 0x06007119) /* Icon */
+     , (3478,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3478,  28,        293) /* Spell - LightWeaponsMasteryOther2 */
      , (3478, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3478, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3478, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3478, 8000, 2868766481) /* PCAPRecordedObjectIID */;
+VALUES (3478, 8000, 0xAAFDE711) /* PCAPRecordedObjectIID */;

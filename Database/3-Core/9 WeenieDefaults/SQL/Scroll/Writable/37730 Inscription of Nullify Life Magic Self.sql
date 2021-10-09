@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37730,   1, 'Inscription of Nullify Life Magic Self') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37730,   1,   33554826) /* Setup */
-     , (37730,   8,  100676935) /* Icon */
-     , (37730,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37730,   1, 0x0200018A) /* Setup */
+     , (37730,   8, 0x06003547) /* Icon */
+     , (37730,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37730,  28,       4346) /* Spell - DispelLifeBadSelf8 */
      , (37730, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (37730, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37730, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37730, 8040, 23855644, 88.7299, -50.9789, 0.0855, 0.4178464, 0, 0, -0.9085177) /* PCAPRecordedLocation */
+VALUES (37730, 8040, 0x016C021C, 88.7299, -50.9789, 0.0855, 0.417846, 0, 0, -0.908518) /* PCAPRecordedLocation */
 /* @teleloc 0x016C021C [88.729900 -50.978900 0.085500] 0.417846 0.000000 0.000000 -0.908518 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37730, 8000, 2337783262) /* PCAPRecordedObjectIID */;
+VALUES (37730, 8000, 0x8B57BDDE) /* PCAPRecordedObjectIID */;

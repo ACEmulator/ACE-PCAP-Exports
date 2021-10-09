@@ -25,28 +25,28 @@ VALUES (31402,   1, 'Raven Augur') /* Name */
      , (31402, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31402,   1,   33554433) /* Setup */
-     , (31402,   2,  150994945) /* MotionTable */
-     , (31402,   3,  536870913) /* SoundTable */
-     , (31402,   6,   67108990) /* PaletteBase */
-     , (31402,   8,  100667446) /* Icon */
-     , (31402,   9,   83890451) /* EyesTexture */
-     , (31402,  10,   83890548) /* NoseTexture */
-     , (31402,  11,   83890663) /* MouthTexture */
-     , (31402,  15,   67117078) /* HairPalette */
-     , (31402,  16,   67110064) /* EyesPalette */
-     , (31402,  17,   67109561) /* SkinPalette */
-     , (31402,  22,  872415236) /* PhysicsEffectTable */
+VALUES (31402,   1, 0x02000001) /* Setup */
+     , (31402,   2, 0x09000001) /* MotionTable */
+     , (31402,   3, 0x20000001) /* SoundTable */
+     , (31402,   6, 0x0400007E) /* PaletteBase */
+     , (31402,   8, 0x06001036) /* Icon */
+     , (31402,   9, 0x05001113) /* EyesTexture */
+     , (31402,  10, 0x05001174) /* NoseTexture */
+     , (31402,  11, 0x050011E7) /* MouthTexture */
+     , (31402,  15, 0x04002016) /* HairPalette */
+     , (31402,  16, 0x040004B0) /* EyesPalette */
+     , (31402,  17, 0x040002B9) /* SkinPalette */
+     , (31402,  22, 0x34000004) /* PhysicsEffectTable */
      , (31402, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (31402, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (31402, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31402, 8040, 134610975, 92.416, 153.86, 62.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (31402, 8040, 0x0806001F, 92.416, 153.86, 62.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0806001F [92.416000 153.860000 62.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31402, 8000, 3689348169) /* PCAPRecordedObjectIID */;
+VALUES (31402, 8000, 0xDBE6FC49) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31402,   1, 360, 0, 0) /* Strength */
@@ -130,7 +130,8 @@ VALUES (31402, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wiel
      , (31402, 9, 22442,  0, 0, 0, False) /* Create Lightning Dirk (22442) for ContainTreasure */
      , (31402, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
      , (31402, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (31402, 9, 20515,  0, 0, 0, False) /* Create Scroll of Adja's Blessing (20515) for ContainTreasure */;
+     , (31402, 9, 20515,  0, 0, 0, False) /* Create Scroll of Adja's Blessing (20515) for ContainTreasure */
+     , (31402, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31402, 67109558, 0, 24)

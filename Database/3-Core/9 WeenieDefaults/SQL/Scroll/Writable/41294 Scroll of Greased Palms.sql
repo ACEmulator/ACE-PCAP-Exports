@@ -24,13 +24,13 @@ VALUES (41294,   1, 'Scroll of Greased Palms') /* Name */
 Decreases the target''s Two Handed Combat skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41294,   1,   33554826) /* Setup */
-     , (41294,   8,  100690644) /* Icon */
-     , (41294,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41294,   1, 0x0200018A) /* Setup */
+     , (41294,   8, 0x06006AD4) /* Icon */
+     , (41294,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41294,  28,       5081) /* Spell - TwoHandedIneptitude7 */
      , (41294, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (41294, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41294, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41294, 8000, 2931260606) /* PCAPRecordedObjectIID */;
+VALUES (41294, 8000, 0xAEB77CBE) /* PCAPRecordedObjectIID */;

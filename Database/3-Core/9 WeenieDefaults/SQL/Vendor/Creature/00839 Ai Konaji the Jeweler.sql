@@ -36,27 +36,27 @@ VALUES (839,   1, 'Ai Konaji the Jeweler') /* Name */
      , (839, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (839,   1,   33554433) /* Setup */
-     , (839,   2,  150994945) /* MotionTable */
-     , (839,   3,  536870913) /* SoundTable */
-     , (839,   6,   67108990) /* PaletteBase */
-     , (839,   8,  100667446) /* Icon */
-     , (839,   9,   83890457) /* EyesTexture */
-     , (839,  10,   83890547) /* NoseTexture */
-     , (839,  11,   83890624) /* MouthTexture */
-     , (839,  15,   67116990) /* HairPalette */
-     , (839,  16,   67109565) /* EyesPalette */
-     , (839,  17,   67110057) /* SkinPalette */
+VALUES (839,   1, 0x02000001) /* Setup */
+     , (839,   2, 0x09000001) /* MotionTable */
+     , (839,   3, 0x20000001) /* SoundTable */
+     , (839,   6, 0x0400007E) /* PaletteBase */
+     , (839,   8, 0x06001036) /* Icon */
+     , (839,   9, 0x05001119) /* EyesTexture */
+     , (839,  10, 0x05001173) /* NoseTexture */
+     , (839,  11, 0x050011C0) /* MouthTexture */
+     , (839,  15, 0x04001FBE) /* HairPalette */
+     , (839,  16, 0x040002BD) /* EyesPalette */
+     , (839,  17, 0x040004A9) /* SkinPalette */
      , (839, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (839, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (839, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (839, 8040, 3663003945, 54, 186.84, 20.005, 0.661966, 0, 0, -0.7495339) /* PCAPRecordedLocation */
+VALUES (839, 8040, 0xDA550129, 54, 186.84, 20.005, 0.661966, 0, 0, -0.749534) /* PCAPRecordedLocation */
 /* @teleloc 0xDA550129 [54.000000 186.840000 20.005000] 0.661966 0.000000 0.000000 -0.749534 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (839, 8000, 2107985963) /* PCAPRecordedObjectIID */;
+VALUES (839, 8000, 0x7DA5502B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (839,   1,  45, 0, 0) /* Strength */
@@ -84,18 +84,7 @@ VALUES (839, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) fo
      , (839, 4,  2419, -1, 0, 0, False) /* Create Gem (2419) for Shop */
      , (839, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (839, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (839, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (839, 4,  2412, -1, 0, 0, False) /* Create Gem (2412) for Shop */
-     , (839, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
-     , (839, 4,  2404, -1, 0, 0, False) /* Create Gem (2404) for Shop */
-     , (839, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (839, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (839, 4,  2424, -1, 0, 0, False) /* Create Gem (2424) for Shop */
-     , (839, 4,  2402, -1, 0, 0, False) /* Create Gem (2402) for Shop */
-     , (839, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (839, 4,  2416, -1, 0, 0, False) /* Create Gem (2416) for Shop */
-     , (839, 4, 41488, -1, 0, 0, False) /* Create Top (41488) for Shop */
-     , (839, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */;
+     , (839, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (839, 67109565, 32, 8)

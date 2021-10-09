@@ -20,22 +20,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27703,   1, 'Chorizite Ore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27703,   1,   33554826) /* Setup */
-     , (27703,   3,  536870932) /* SoundTable */
-     , (27703,   8,  100672101) /* Icon */
-     , (27703,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27703,   1, 0x0200018A) /* Setup */
+     , (27703,   3, 0x20000014) /* SoundTable */
+     , (27703,   8, 0x06002265) /* Icon */
+     , (27703,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27703, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (27703, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (27703, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27703, 8000, 3709709811) /* PCAPRecordedObjectIID */;
+VALUES (27703, 8000, 0xDD1DADF3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (27703, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (27703, 0, 4294967295, 'Fulkra', 'Password is cheese', False, 'Before my people took back their independence we worked in mines collecting ore for our masters. Since that time we have taken the mines for ourselves and now are the masters of this magical stone. Odder still is that the magic in this rock is to ward off all other magic. We use it in various strains in our armor and shields. We gift this to you and yours, as well as a shield pounded flat with chorizite. May it shield you from our enemies.
+VALUES (27703, 0, 4294967295, 'Fulkra', 'prewritten', False, 'Before my people took back their independence we worked in mines collecting ore for our masters. Since that time we have taken the mines for ourselves and now are the masters of this magical stone. Odder still is that the magic in this rock is to ward off all other magic. We use it in various strains in our armor and shields. We gift this to you and yours, as well as a shield pounded flat with chorizite. May it shield you from our enemies.
 
 Fulkra, Head Armorer
 ');

@@ -36,27 +36,27 @@ VALUES (676,   1, 'Merchant Ledine') /* Name */
      , (676, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (676,   1,   33554510) /* Setup */
-     , (676,   2,  150994945) /* MotionTable */
-     , (676,   3,  536870914) /* SoundTable */
-     , (676,   6,   67108990) /* PaletteBase */
-     , (676,   8,  100667446) /* Icon */
-     , (676,   9,   83890277) /* EyesTexture */
-     , (676,  10,   83890307) /* NoseTexture */
-     , (676,  11,   83890345) /* MouthTexture */
-     , (676,  15,   67116995) /* HairPalette */
-     , (676,  16,   67109567) /* EyesPalette */
-     , (676,  17,   67109560) /* SkinPalette */
+VALUES (676,   1, 0x0200004E) /* Setup */
+     , (676,   2, 0x09000001) /* MotionTable */
+     , (676,   3, 0x20000002) /* SoundTable */
+     , (676,   6, 0x0400007E) /* PaletteBase */
+     , (676,   8, 0x06001036) /* Icon */
+     , (676,   9, 0x05001065) /* EyesTexture */
+     , (676,  10, 0x05001083) /* NoseTexture */
+     , (676,  11, 0x050010A9) /* MouthTexture */
+     , (676,  15, 0x04001FC3) /* HairPalette */
+     , (676,  16, 0x040002BF) /* EyesPalette */
+     , (676,  17, 0x040002B8) /* SkinPalette */
      , (676, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (676, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (676, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (676, 8040, 3164537122, 174.206, 66.1816, 32.005, -0.3669878, 0, 0, -0.9302257) /* PCAPRecordedLocation */
+VALUES (676, 8040, 0xBC9F0122, 174.206, 66.1816, 32.005, -0.366988, 0, 0, -0.930226) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F0122 [174.206000 66.181600 32.005000] -0.366988 0.000000 0.000000 -0.930226 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (676, 8000, 2076831791) /* PCAPRecordedObjectIID */;
+VALUES (676, 8000, 0x7BC9F02F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (676,   1,  40, 0, 0) /* Strength */
@@ -115,23 +115,11 @@ VALUES (676, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (676, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (676, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (676, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (676, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (676, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (676, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (676, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (676, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (676, 4,  3645, -1, 0, 0, False) /* Create Tibri's Fire Spear (3645) for Shop */
-     , (676, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
-     , (676, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass (53) for Shop */
-     , (676, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
-     , (676, 4, 25650, -1, 0, 0, False) /* Create Leather Shorts (25650) for Shop */
-     , (676, 4, 25637, -1, 0, 0, False) /* Create Leather Bracers (25637) for Shop */
-     , (676, 4, 31779, -1, 0, 0, False) /* Create Spine Glaive (31779) for Shop */
-     , (676, 4,  2590, -1, 0, 0, False) /* Create Baggy Shirt (2590) for Shop */
-     , (676, 4, 25649, -1, 0, 0, False) /* Create Leather Shirt (25649) for Shop */
-     , (676, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings (83) for Shop */
-     , (676, 4, 25642, -1, 0, 0, False) /* Create Leather Gauntlets (25642) for Shop */
-     , (676, 4, 38050, -1, 0, 0, False) /* Create Lilitha's Bow (38050) for Shop */
-     , (676, 4, 41046, -1, 0, 0, False) /* Create Pike (41046) for Shop */;
+     , (676, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (676, 67109560, 0, 24)

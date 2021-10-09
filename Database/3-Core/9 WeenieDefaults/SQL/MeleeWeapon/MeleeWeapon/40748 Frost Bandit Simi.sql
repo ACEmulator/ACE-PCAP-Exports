@@ -58,26 +58,26 @@ VALUES (40748,   1, 'Frost Bandit Simi') /* Name */
      , (40748,  40, 'Stargren Dragoon') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40748,   1,   33559462) /* Setup */
-     , (40748,   3,  536870932) /* SoundTable */
-     , (40748,   6,   67115557) /* PaletteBase */
-     , (40748,   8,  100686947) /* Icon */
-     , (40748,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40748,   1, 0x020013A6) /* Setup */
+     , (40748,   3, 0x20000014) /* SoundTable */
+     , (40748,   6, 0x04001A25) /* PaletteBase */
+     , (40748,   8, 0x06005C63) /* Icon */
+     , (40748,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40748,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (40748,  52,  100676435) /* IconUnderlay */
+     , (40748,  52, 0x06003353) /* IconUnderlay */
      , (40748, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40748, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (40748, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (40748, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40748, 8000, 2619991152) /* PCAPRecordedObjectIID */;
+VALUES (40748, 8000, 0x9C29E470) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40748,  2106,      2)  /* HeartSeekerSelf7 */
+VALUES (40748,  4297,      2)  /* CoordinationSelf8 */
      , (40748,  2575,      2)  /* CANTRIPQUICKNESS2 */
-     , (40748,  4297,      2)  /* CoordinationSelf8 */
-     , (40748,  4395,      2)  /* BloodDrinkerSelf8 */;
+     , (40748,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (40748,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40748, 67116390, 0, 0);

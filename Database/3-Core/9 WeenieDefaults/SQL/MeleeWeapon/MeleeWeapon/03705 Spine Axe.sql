@@ -39,14 +39,14 @@ VALUES (3705,   1, 'Spine Axe') /* Name */
      , (3705,  16, 'A battle axe shaped out of an armoredillo spine. Mysterious electrical impulses flare along the blade of the weapon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3705,   1,   33558226) /* Setup */
-     , (3705,   3,  536870932) /* SoundTable */
-     , (3705,   8,  100674102) /* Icon */
-     , (3705,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3705,   1, 0x02000ED2) /* Setup */
+     , (3705,   3, 0x20000014) /* SoundTable */
+     , (3705,   8, 0x06002A36) /* Icon */
+     , (3705,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3705,  30,         88) /* PhysicsScript - Create */
      , (3705, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (3705, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3705, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3705, 8000, 2931887746) /* PCAPRecordedObjectIID */;
+VALUES (3705, 8000, 0xAEC10E82) /* PCAPRecordedObjectIID */;

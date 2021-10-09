@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46204,   1,        256) /* ItemType - MissileWeapon */
      , (46204,   5,       1400) /* EncumbranceVal */
      , (46204,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (46204,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (46204,  16,          1) /* ItemUseable - No */
      , (46204,  18,          1) /* UiEffects - Magical */
      , (46204,  19,       8000) /* Value */
@@ -17,7 +16,7 @@ VALUES (46204,   1,        256) /* ItemType - MissileWeapon */
      , (46204,  48,         47) /* WeaponSkill - MissileWeapons */
      , (46204,  49,         45) /* WeaponTime */
      , (46204,  50,          2) /* AmmoType - Bolt */
-     , (46204,  51,          2) /* CombatUse - Missle */
+     , (46204,  51,          2) /* CombatUse - Missile */
      , (46204,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46204, 106,        350) /* ItemSpellcraft */
      , (46204, 107,        275) /* ItemCurMana */
@@ -35,6 +34,7 @@ VALUES (46204,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46204,  22, True ) /* Inscribable */
+     , (46204,  23, True ) /* DestroyOnSell */
      , (46204,  69, False) /* IsSellable */
      , (46204,  99, True ) /* Ivoryable */;
 
@@ -54,29 +54,29 @@ VALUES (46204,   1, 'Enhanced Shimmering Isparian Crossbow') /* Name */
      , (46204,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46204,   1,   33557730) /* Setup */
-     , (46204,   3,  536870932) /* SoundTable */
-     , (46204,   8,  100673202) /* Icon */
-     , (46204,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46204,   1, 0x02000CE2) /* Setup */
+     , (46204,   3, 0x20000014) /* SoundTable */
+     , (46204,   8, 0x060026B2) /* Icon */
+     , (46204,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46204, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (46204, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46204, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (46204, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46204, 8040, 23855548, 49.21, -31.909, -0.07000001, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (46204, 8040, 0x016C01BC, 49.21, -31.909, -0.07, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.210000 -31.909000 -0.070000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46204, 8000, 2194991778) /* PCAPRecordedObjectIID */
-     , (46204, 8008, 1342678391) /* PCAPRecordedParentIID */;
+VALUES (46204, 8000, 0x82D4EAA2) /* PCAPRecordedObjectIID */
+     , (46204, 8008, 0x5007A577) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46204,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (46204,  2101,      2)  /* DefenderSelf7 */
-     , (46204,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46204,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */
-     , (46204,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;
+VALUES (46204,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46204,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
+     , (46204,  2586,      2)  /* CANTRIPBLOODTHIRST2 */
+     , (46204,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46204,  2101,      2)  /* DefenderSelf7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46204, 0, 83889688, 83892492)

@@ -23,13 +23,13 @@ VALUES (3610,   1, 'A silvery, mysterious key') /* Name */
      , (3610,  16, 'A silvery, mysterious key blackened by tarnish.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3610,   1,   33554784) /* Setup */
-     , (3610,   3,  536870932) /* SoundTable */
-     , (3610,   8,  100667485) /* Icon */
-     , (3610,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3610,   1, 0x02000160) /* Setup */
+     , (3610,   3, 0x20000014) /* SoundTable */
+     , (3610,   8, 0x0600105D) /* Icon */
+     , (3610,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3610, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (3610, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3610, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3610, 8000, 3676914116) /* PCAPRecordedObjectIID */;
+VALUES (3610, 8000, 0xDB2941C4) /* PCAPRecordedObjectIID */;

@@ -22,22 +22,22 @@ VALUES (28676,   1, 'Shiitake Thrungus') /* Name */
      , (28676, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28676,   1,   33559123) /* Setup */
-     , (28676,   2,  150995324) /* MotionTable */
-     , (28676,   3,  536871099) /* SoundTable */
-     , (28676,   6,   67116365) /* PaletteBase */
-     , (28676,   8,  100677367) /* Icon */
-     , (28676,  22,  872415411) /* PhysicsEffectTable */
+VALUES (28676,   1, 0x02001253) /* Setup */
+     , (28676,   2, 0x0900017C) /* MotionTable */
+     , (28676,   3, 0x200000BB) /* SoundTable */
+     , (28676,   6, 0x04001D4D) /* PaletteBase */
+     , (28676,   8, 0x060036F7) /* Icon */
+     , (28676,  22, 0x340000B3) /* PhysicsEffectTable */
      , (28676, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (28676, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (28676, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28676, 8040, 585498667, 123.5508, 57.91946, 110.4904, -0.04897415, 0, 0, -0.9988) /* PCAPRecordedLocation */
+VALUES (28676, 8040, 0x22E6002B, 123.5508, 57.91946, 110.4904, -0.048974, 0, 0, -0.9988) /* PCAPRecordedLocation */
 /* @teleloc 0x22E6002B [123.550800 57.919460 110.490400] -0.048974 0.000000 0.000000 -0.998800 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28676, 8000, 2448484204) /* PCAPRecordedObjectIID */;
+VALUES (28676, 8000, 0x91F0E76C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (28676,   1,     0, 0, 0, 90) /* MaxHealth */;

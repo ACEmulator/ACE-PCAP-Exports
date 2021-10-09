@@ -23,17 +23,17 @@ VALUES (15797,   1, 'Miadun hu Okardunai') /* Name */
      , (15797,  16, 'A tome torn and charred. Several pages are still salvageable. The text appears to be written in the Gelidite tongue.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15797,   1,   33556929) /* Setup */
-     , (15797,   3,  536870932) /* SoundTable */
-     , (15797,   6,   67113005) /* PaletteBase */
-     , (15797,   8,  100672793) /* Icon */
-     , (15797,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15797,   1, 0x020009C1) /* Setup */
+     , (15797,   3, 0x20000014) /* SoundTable */
+     , (15797,   6, 0x0400102D) /* PaletteBase */
+     , (15797,   8, 0x06002519) /* Icon */
+     , (15797,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15797, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (15797, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (15797, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15797, 8000, 2151421551) /* PCAPRecordedObjectIID */;
+VALUES (15797, 8000, 0x803C166F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15797, 67111922, 0, 0);

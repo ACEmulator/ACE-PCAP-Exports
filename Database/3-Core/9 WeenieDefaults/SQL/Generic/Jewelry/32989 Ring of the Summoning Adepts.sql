@@ -15,7 +15,8 @@ VALUES (32989,   1,          8) /* ItemType - Jewelry */
      , (32989, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32989,  22, True ) /* Inscribable */;
+VALUES (32989,  22, True ) /* Inscribable */
+     , (32989,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32989,  39,     0.5) /* DefaultScale */;
@@ -25,13 +26,13 @@ VALUES (32989,   1, 'Ring of the Summoning Adepts') /* Name */
      , (32989,  16, 'This ring belonged to a Summoning Adept in the service of Count Dardante.  It served to grant them access to Dardante''s Summoning Chamber.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32989,   1,   33554690) /* Setup */
-     , (32989,   3,  536870932) /* SoundTable */
-     , (32989,   8,  100688859) /* Icon */
-     , (32989,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32989,   1, 0x02000102) /* Setup */
+     , (32989,   3, 0x20000014) /* SoundTable */
+     , (32989,   8, 0x060063DB) /* Icon */
+     , (32989,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32989, 8001,    2179088) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden */
      , (32989, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32989, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32989, 8000, 2979050451) /* PCAPRecordedObjectIID */;
+VALUES (32989, 8000, 0xB190B3D3) /* PCAPRecordedObjectIID */;

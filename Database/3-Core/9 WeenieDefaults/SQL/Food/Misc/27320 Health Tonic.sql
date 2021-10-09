@@ -23,21 +23,17 @@ VALUES (27320,   1, 'Health Tonic') /* Name */
      , (27320,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27320,   1,   33554603) /* Setup */
-     , (27320,   3,  536870932) /* SoundTable */
-     , (27320,   6,   67111919) /* PaletteBase */
-     , (27320,   8,  100676313) /* Icon */
-     , (27320,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27320,   1, 0x020000AB) /* Setup */
+     , (27320,   3, 0x20000014) /* SoundTable */
+     , (27320,   6, 0x04000BEF) /* PaletteBase */
+     , (27320,   8, 0x060032D9) /* Icon */
+     , (27320,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27320, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (27320, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (27320, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27320, 8000, 3686693179) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27320, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (27320, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */;
+VALUES (27320, 8000, 0xDBBE793B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27320, 67111922, 0, 0);

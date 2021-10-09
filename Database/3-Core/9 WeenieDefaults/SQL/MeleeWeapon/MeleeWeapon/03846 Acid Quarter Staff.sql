@@ -52,17 +52,17 @@ VALUES (3846,   1, 'Acid Quarter Staff') /* Name */
      , (3846,  16, 'Finely crafted Teak Acid Quarter Staff , set with 3 Amethysts') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3846,   1,   33555770) /* Setup */
-     , (3846,   3,  536870932) /* SoundTable */
-     , (3846,   8,  100667602) /* Icon */
-     , (3846,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3846,   1, 0x0200053A) /* Setup */
+     , (3846,   3, 0x20000014) /* SoundTable */
+     , (3846,   8, 0x060010D2) /* Icon */
+     , (3846,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3846,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3846, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3846, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3846, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3846, 8000, 2917029006) /* PCAPRecordedObjectIID */;
+VALUES (3846, 8000, 0xADDE548E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3846,  1614,      2)  /* BloodDrinkerSelf4 */

@@ -14,7 +14,8 @@ VALUES (53476,   1,        128) /* ItemType - Misc */
      , (53476, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53476,  69, False) /* IsSellable */;
+VALUES (53476,  23, True ) /* DestroyOnSell */
+     , (53476,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53476,  39,     1.3) /* DefaultScale */;
@@ -24,16 +25,16 @@ VALUES (53476,   1, 'Daimyo Idah''s Tattered Mask') /* Name */
      , (53476,  15, 'A tattered nanjou mask that once belonged to the spectral Daimyo, Idah.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53476,   1,   33560096) /* Setup */
-     , (53476,   3,  536870932) /* SoundTable */
-     , (53476,   8,  100689101) /* Icon */
-     , (53476,  22,  872415275) /* PhysicsEffectTable */
+VALUES (53476,   1, 0x02001620) /* Setup */
+     , (53476,   3, 0x20000014) /* SoundTable */
+     , (53476,   8, 0x060064CD) /* Icon */
+     , (53476,  22, 0x3400002B) /* PhysicsEffectTable */
      , (53476, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (53476, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (53476, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53476, 8000, 2781834562) /* PCAPRecordedObjectIID */;
+VALUES (53476, 8000, 0xA5CF6D42) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (53476, 0, 16796807);

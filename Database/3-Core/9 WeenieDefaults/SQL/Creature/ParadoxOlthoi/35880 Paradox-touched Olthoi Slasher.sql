@@ -26,23 +26,23 @@ VALUES (35880,   1, 'Paradox-touched Olthoi Slasher') /* Name */
      , (35880, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35880,   1,   33560331) /* Setup */
-     , (35880,   2,  150994946) /* MotionTable */
-     , (35880,   3,  536870925) /* SoundTable */
-     , (35880,   6,   67113236) /* PaletteBase */
-     , (35880,   8,  100667623) /* Icon */
-     , (35880,  22,  872415265) /* PhysicsEffectTable */
+VALUES (35880,   1, 0x0200170B) /* Setup */
+     , (35880,   2, 0x09000002) /* MotionTable */
+     , (35880,   3, 0x2000000D) /* SoundTable */
+     , (35880,   6, 0x04001114) /* PaletteBase */
+     , (35880,   8, 0x060010E7) /* Icon */
+     , (35880,  22, 0x34000021) /* PhysicsEffectTable */
      , (35880,  30,         86) /* PhysicsScript - BreatheAcid */
      , (35880, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35880, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35880, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35880, 8040, 3300196375, 69.75813, 144.4765, 240, 0.9802936, 0, 0, 0.1975459) /* PCAPRecordedLocation */
+VALUES (35880, 8040, 0xC4B50017, 69.75813, 144.4765, 240, 0.980294, 0, 0, 0.197546) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B50017 [69.758130 144.476500 240.000000] 0.980294 0.000000 0.000000 0.197546 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35880, 8000, 3701495764) /* PCAPRecordedObjectIID */;
+VALUES (35880, 8000, 0xDCA057D4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35880,   1, 370, 0, 0) /* Strength */

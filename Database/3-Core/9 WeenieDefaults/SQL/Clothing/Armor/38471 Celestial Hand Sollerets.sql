@@ -50,24 +50,24 @@ VALUES (38471,   1, 'Celestial Hand Sollerets') /* Name */
      , (38471,  39, 'Mana Man II') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38471,   1,   33554654) /* Setup */
-     , (38471,   3,  536870932) /* SoundTable */
-     , (38471,   8,  100690169) /* Icon */
-     , (38471,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38471,   1, 0x020000DE) /* Setup */
+     , (38471,   3, 0x20000014) /* SoundTable */
+     , (38471,   8, 0x060068F9) /* Icon */
+     , (38471,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38471,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (38471, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38471, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38471, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38471, 8000, 2159969590) /* PCAPRecordedObjectIID */;
+VALUES (38471, 8000, 0x80BE8536) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38471,  1574,      2)  /* PiercingBane6 */
-     , (38471,  2108,      2)  /* Impenetrability7 */
-     , (38471,  2241,      2)  /* HealingMasterySelf7 */
+VALUES (38471,  2241,      2)  /* HealingMasterySelf7 */
+     , (38471,  1574,      2)  /* PiercingBane6 */
+     , (38471,  4401,      2)  /* FlameBane8 */
      , (38471,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (38471,  4401,      2)  /* FlameBane8 */;
+     , (38471,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38471, 0, 83889344, 83897917)

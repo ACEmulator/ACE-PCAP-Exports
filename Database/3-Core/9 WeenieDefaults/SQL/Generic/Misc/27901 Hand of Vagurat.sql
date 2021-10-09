@@ -14,20 +14,21 @@ VALUES (27901,   1,        128) /* ItemType - Misc */
      , (27901, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27901,  22, True ) /* Inscribable */;
+VALUES (27901,  22, True ) /* Inscribable */
+     , (27901,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27901,   1, 'Hand of Vagurat') /* Name */
      , (27901,  16, 'This is a relic of the Mosswarts. The hand of a cruel Banderling warrior named, Vagurat. The hand has been well preserved by some strange magics.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27901,   1,   33558801) /* Setup */
-     , (27901,   3,  536870932) /* SoundTable */
-     , (27901,   8,  100676622) /* Icon */
-     , (27901,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27901,   1, 0x02001111) /* Setup */
+     , (27901,   3, 0x20000014) /* SoundTable */
+     , (27901,   8, 0x0600340E) /* Icon */
+     , (27901,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27901, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (27901, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27901, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27901, 8000, 2328557011) /* PCAPRecordedObjectIID */;
+VALUES (27901, 8000, 0x8ACAF5D3) /* PCAPRecordedObjectIID */;

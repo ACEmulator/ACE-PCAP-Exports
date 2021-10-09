@@ -17,7 +17,8 @@ VALUES (10968,   1,      16384) /* ItemType - Key */
      , (10968, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (10968,  22, True ) /* Inscribable */;
+VALUES (10968,  22, True ) /* Inscribable */
+     , (10968,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10968,   1, 'Karenua''s Key') /* Name */
@@ -25,17 +26,17 @@ VALUES (10968,   1, 'Karenua''s Key') /* Name */
      , (10968,  16, 'A key of Virindi origin, taken from the Tumerok raider Hea Karenua.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10968,   1,   33557000) /* Setup */
-     , (10968,   3,  536870932) /* SoundTable */
-     , (10968,   6,   67111346) /* PaletteBase */
-     , (10968,   8,  100671461) /* Icon */
-     , (10968,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10968,   1, 0x02000A08) /* Setup */
+     , (10968,   3, 0x20000014) /* SoundTable */
+     , (10968,   6, 0x040009B2) /* PaletteBase */
+     , (10968,   8, 0x06001FE5) /* Icon */
+     , (10968,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10968, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (10968, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10968, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10968, 8000, 2166199541) /* PCAPRecordedObjectIID */;
+VALUES (10968, 8000, 0x811D94F5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10968, 67113157, 0, 0);

@@ -18,20 +18,21 @@ VALUES (36234,   1,         32) /* ItemType - Food */
      , (36234, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36234,  69, False) /* IsSellable */;
+VALUES (36234,  23, True ) /* DestroyOnSell */
+     , (36234,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36234,   1, 'Lo Shoen''s Rat Bait') /* Name */
      , (36234,  15, 'A strangely smelling yellow wedge.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36234,   1,   33554672) /* Setup */
-     , (36234,   3,  536870932) /* SoundTable */
-     , (36234,   8,  100667458) /* Icon */
-     , (36234,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36234,   1, 0x020000F0) /* Setup */
+     , (36234,   3, 0x20000014) /* SoundTable */
+     , (36234,   8, 0x06001042) /* Icon */
+     , (36234,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36234, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (36234, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36234, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36234, 8000, 3062510995) /* PCAPRecordedObjectIID */;
+VALUES (36234, 8000, 0xB68A3593) /* PCAPRecordedObjectIID */;

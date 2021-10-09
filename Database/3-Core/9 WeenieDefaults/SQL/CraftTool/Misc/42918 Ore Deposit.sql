@@ -22,17 +22,17 @@ VALUES (42918,   1, 'Ore Deposit') /* Name */
      , (42918,  14, 'Use a lugian pick axe to break up this deposite of ore.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42918,   1,   33556172) /* Setup */
-     , (42918,   3,  536870932) /* SoundTable */
-     , (42918,   8,  100670767) /* Icon */
-     , (42918,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42918,   1, 0x020006CC) /* Setup */
+     , (42918,   3, 0x20000014) /* SoundTable */
+     , (42918,   8, 0x06001D2F) /* Icon */
+     , (42918,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42918, 8001,    2621496) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, TargetType, Burden */
      , (42918, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42918, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42918, 8040, 537855280, 119.969, -197.066, -59.6, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42918, 8040, 0x200F0530, 119.969, -197.066, -59.6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x200F0530 [119.969000 -197.066000 -59.600000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42918, 8000, 3706735140) /* PCAPRecordedObjectIID */;
+VALUES (42918, 8000, 0xDCF04A24) /* PCAPRecordedObjectIID */;

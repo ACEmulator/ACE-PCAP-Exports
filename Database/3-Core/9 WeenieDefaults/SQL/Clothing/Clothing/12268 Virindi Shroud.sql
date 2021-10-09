@@ -8,7 +8,6 @@ VALUES (12268,   1,          4) /* ItemType - Clothing */
      , (12268,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (12268,   5,        250) /* EncumbranceVal */
      , (12268,   9,      32512) /* ValidLocations - Armor */
-     , (12268,  10,      32512) /* CurrentWieldedLocation - Armor */
      , (12268,  16,          1) /* ItemUseable - No */
      , (12268,  19,       6000) /* Value */
      , (12268,  28,          0) /* ArmorLevel */
@@ -38,23 +37,23 @@ VALUES (12268,   1, 'Virindi Shroud') /* Name */
      , (12268,  16, 'The wrappings of a powerful Virindi Director') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12268,   1,   33554854) /* Setup */
-     , (12268,   3,  536870932) /* SoundTable */
-     , (12268,   6,   67108990) /* PaletteBase */
-     , (12268,   8,  100672194) /* Icon */
-     , (12268,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12268,   1, 0x020001A6) /* Setup */
+     , (12268,   3, 0x20000014) /* SoundTable */
+     , (12268,   6, 0x0400007E) /* PaletteBase */
+     , (12268,   8, 0x060022C2) /* Icon */
+     , (12268,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12268, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (12268, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12268, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12268, 8000, 2157269310) /* PCAPRecordedObjectIID */;
+VALUES (12268, 8000, 0x8095513E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12268,   248,      2)  /* InvulnerabilitySelf5 */
+VALUES (12268,  1485,      2)  /* Impenetrability5 */
      , (12268,   278,      2)  /* MagicResistanceSelf5 */
      , (12268,  1449,      2)  /* WillpowerSelf5 */
-     , (12268,  1485,      2)  /* Impenetrability5 */;
+     , (12268,   248,      2)  /* InvulnerabilitySelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12268, 67110014, 92, 4)

@@ -20,14 +20,14 @@ VALUES (29167,   1, 'Dark Wort') /* Name */
      , (29167,  20, 'Dark Worts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29167,   1,   33559154) /* Setup */
-     , (29167,   3,  536870932) /* SoundTable */
-     , (29167,   8,  100686462) /* Icon */
-     , (29167,  22,  872415275) /* PhysicsEffectTable */
-     , (29167,  50,  100687549) /* IconOverlay */
+VALUES (29167,   1, 0x02001272) /* Setup */
+     , (29167,   3, 0x20000014) /* SoundTable */
+     , (29167,   8, 0x06005A7E) /* Icon */
+     , (29167,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29167,  50, 0x06005EBD) /* IconOverlay */
      , (29167, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (29167, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29167, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29167, 8000, 3696343518) /* PCAPRecordedObjectIID */;
+VALUES (29167, 8000, 0xDC51B9DE) /* PCAPRecordedObjectIID */;

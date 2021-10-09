@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31492,   1,        256) /* ItemType - MissileWeapon */
      , (31492,   5,        750) /* EncumbranceVal */
      , (31492,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (31492,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (31492,  16,          1) /* ItemUseable - No */
      , (31492,  18,          1) /* UiEffects - Magical */
      , (31492,  19,       1500) /* Value */
@@ -16,7 +15,7 @@ VALUES (31492,   1,        256) /* ItemType - MissileWeapon */
      , (31492,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31492,  49,         40) /* WeaponTime */
      , (31492,  50,          1) /* AmmoType - Arrow */
-     , (31492,  51,          2) /* CombatUse - Missle */
+     , (31492,  51,          2) /* CombatUse - Missile */
      , (31492,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31492, 106,        300) /* ItemSpellcraft */
      , (31492, 107,       1200) /* ItemCurMana */
@@ -45,22 +44,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31492,   1, 'Worn Old Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31492,   1,   33559582) /* Setup */
-     , (31492,   3,  536870932) /* SoundTable */
-     , (31492,   8,  100687879) /* Icon */
-     , (31492,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31492,   1, 0x0200141E) /* Setup */
+     , (31492,   3, 0x20000014) /* SoundTable */
+     , (31492,   8, 0x06006007) /* Icon */
+     , (31492,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31492, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (31492, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31492, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
      , (31492, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31492, 8040, 3332964380, 82.62305, 77.36809, 41.93, 0.0167929, 0, 0, -0.999859) /* PCAPRecordedLocation */
+VALUES (31492, 8040, 0xC6A9001C, 82.62305, 77.36809, 41.93, 0.016793, 0, 0, -0.999859) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [82.623050 77.368090 41.930000] 0.016793 0.000000 0.000000 -0.999859 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31492, 8000, 2906212832) /* PCAPRecordedObjectIID */
-     , (31492, 8008, 1342830292) /* PCAPRecordedParentIID */;
+VALUES (31492, 8000, 0xAD3949E0) /* PCAPRecordedObjectIID */
+     , (31492, 8008, 0x5009F6D4) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31492,  2096,      2)  /* BloodDrinkerSelf7 */

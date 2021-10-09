@@ -24,13 +24,13 @@ VALUES (1589,   1, 'Scroll of Blood Loather') /* Name */
 Decreases a weapon''s damage value by 2 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1589,   1,   33554826) /* Setup */
-     , (1589,   8,  100676656) /* Icon */
-     , (1589,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1589,   1, 0x0200018A) /* Setup */
+     , (1589,   8, 0x06003430) /* Icon */
+     , (1589,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1589,  28,         36) /* Spell - BloodLoather */
      , (1589, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1589, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1589, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1589, 8000, 2617855983) /* PCAPRecordedObjectIID */;
+VALUES (1589, 8000, 0x9C094FEF) /* PCAPRecordedObjectIID */;

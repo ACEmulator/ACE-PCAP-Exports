@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11302,   1,      32768) /* ItemType - Caster */
      , (11302,   5,        200) /* EncumbranceVal */
      , (11302,   9,   16777216) /* ValidLocations - Held */
-     , (11302,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (11302,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (11302,  18,          1) /* UiEffects - Magical */
      , (11302,  19,          0) /* Value */
      , (11302,  33,          1) /* Bonded - Bonded */
+     , (11302,  46,        512) /* DefaultCombatStyle - Magic */
      , (11302,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11302,  94,         16) /* TargetType - Creature */
      , (11302, 106,        250) /* ItemSpellcraft */
@@ -23,6 +23,7 @@ VALUES (11302,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11302,  22, True ) /* Inscribable */
+     , (11302,  23, True ) /* DestroyOnSell */
      , (11302,  69, False) /* IsSellable */
      , (11302,  94, True ) /* AppraisalHasAllowedActivator */
      , (11302,  99, True ) /* Ivoryable */;
@@ -40,10 +41,10 @@ VALUES (11302,   1, 'Stave of Palenqual') /* Name */
      , (11302,  25, 'Carbuncle') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11302,   1,   33557232) /* Setup */
-     , (11302,   3,  536870932) /* SoundTable */
-     , (11302,   8,  100671868) /* Icon */
-     , (11302,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11302,   1, 0x02000AF0) /* Setup */
+     , (11302,   3, 0x20000014) /* SoundTable */
+     , (11302,   8, 0x0600217C) /* Icon */
+     , (11302,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11302,  28,       1836) /* Spell - FrostStrike */
      , (11302, 8001,  275480720) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (11302, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -51,16 +52,16 @@ VALUES (11302,   1,   33557232) /* Setup */
      , (11302, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11302, 8040, 4095213828, 36.9231, 48.70957, 169.729, -0.6935199, -0.6935199, -0.1379497, -0.1379497) /* PCAPRecordedLocation */
+VALUES (11302, 8040, 0xF4180104, 36.9231, 48.70957, 169.729, -0.69352, -0.69352, -0.13795, -0.13795) /* PCAPRecordedLocation */
 /* @teleloc 0xF4180104 [36.923100 48.709570 169.729000] -0.693520 -0.693520 -0.137950 -0.137950 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11302, 8000, 2217627058) /* PCAPRecordedObjectIID */
-     , (11302, 8008, 1342610830) /* PCAPRecordedParentIID */;
+VALUES (11302, 8000, 0x842E4DB2) /* PCAPRecordedObjectIID */
+     , (11302, 8008, 0x50069D8E) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11302,   217,      2)  /* ManaRenewalSelf6 */
+VALUES (11302,  1480,      2)  /* HermeticLinkSelf6 */
      , (11302,   658,      2)  /* ManaMasterySelf6 */
      , (11302,  1426,      2)  /* FocusSelf6 */
-     , (11302,  1480,      2)  /* HermeticLinkSelf6 */
-     , (11302,  2581,      2)  /* CANTRIPFOCUS1 */;
+     , (11302,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (11302,   217,      2)  /* ManaRenewalSelf6 */;

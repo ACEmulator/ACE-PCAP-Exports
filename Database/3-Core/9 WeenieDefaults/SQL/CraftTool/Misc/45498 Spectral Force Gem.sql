@@ -28,18 +28,18 @@ VALUES (45498,   1, 'Spectral Force Gem') /* Name */
      , (45498,  16, 'A magical gem containing a Spectral Force Gem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45498,   1,   33556769) /* Setup */
-     , (45498,   3,  536870932) /* SoundTable */
-     , (45498,   6,   67111919) /* PaletteBase */
-     , (45498,   8,  100673039) /* Icon */
-     , (45498,  22,  872415275) /* PhysicsEffectTable */
-     , (45498,  50,  100689501) /* IconOverlay */
+VALUES (45498,   1, 0x02000921) /* Setup */
+     , (45498,   3, 0x20000014) /* SoundTable */
+     , (45498,   6, 0x04000BEF) /* PaletteBase */
+     , (45498,   8, 0x0600260F) /* Icon */
+     , (45498,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45498,  50, 0x0600665D) /* IconOverlay */
      , (45498, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (45498, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45498, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45498, 8000, 2639828572) /* PCAPRecordedObjectIID */;
+VALUES (45498, 8000, 0x9D58965C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45498, 67111927, 0, 0);

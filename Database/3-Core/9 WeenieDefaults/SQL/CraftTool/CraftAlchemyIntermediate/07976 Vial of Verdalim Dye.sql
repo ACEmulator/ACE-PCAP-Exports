@@ -27,17 +27,17 @@ VALUES (7976,   1, 'Vial of Verdalim Dye') /* Name */
      , (7976,  20, 'Vials of Verdalim Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7976,   1,   33556751) /* Setup */
-     , (7976,   3,  536870932) /* SoundTable */
-     , (7976,   6,   67111919) /* PaletteBase */
-     , (7976,   8,  100672339) /* Icon */
-     , (7976,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7976,   1, 0x0200090F) /* Setup */
+     , (7976,   3, 0x20000014) /* SoundTable */
+     , (7976,   6, 0x04000BEF) /* PaletteBase */
+     , (7976,   8, 0x06002353) /* Icon */
+     , (7976,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7976, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (7976, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7976, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7976, 8000, 3318691474) /* PCAPRecordedObjectIID */;
+VALUES (7976, 8000, 0xC5CF3692) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7976, 67111922, 0, 0);

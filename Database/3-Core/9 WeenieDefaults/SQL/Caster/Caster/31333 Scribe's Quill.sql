@@ -10,6 +10,7 @@ VALUES (31333,   1,      32768) /* ItemType - Caster */
      , (31333,  16,          1) /* ItemUseable - No */
      , (31333,  19,      12357) /* Value */
      , (31333,  33,          0) /* Bonded - Normal */
+     , (31333,  46,        512) /* DefaultCombatStyle - Magic */
      , (31333,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31333,  94,         16) /* TargetType - Creature */
      , (31333, 106,        350) /* ItemSpellcraft */
@@ -33,18 +34,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31333,   1, 'Scribe''s Quill') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31333,   1,   33559616) /* Setup */
-     , (31333,   3,  536870932) /* SoundTable */
-     , (31333,   8,  100687945) /* Icon */
-     , (31333,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31333,   1, 0x02001440) /* Setup */
+     , (31333,   3, 0x20000014) /* SoundTable */
+     , (31333,   8, 0x06006049) /* Icon */
+     , (31333,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31333,  37,         29) /* ItemSkillLimit - ArmorTinkering */
      , (31333, 8001,  271138840) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, TargetType, Burden, HookType */
      , (31333, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31333, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31333, 8000, 2153522000) /* PCAPRecordedObjectIID */;
+VALUES (31333, 8000, 0x805C2350) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31333,  2197,      2)  /* ArmorExpertiseSelf7 */
-     , (31333,  2503,      2)  /* CANTRIPARMOREXPERTISE2 */;
+VALUES (31333,  2503,      2)  /* CANTRIPARMOREXPERTISE2 */
+     , (31333,  2197,      2)  /* ArmorExpertiseSelf7 */;

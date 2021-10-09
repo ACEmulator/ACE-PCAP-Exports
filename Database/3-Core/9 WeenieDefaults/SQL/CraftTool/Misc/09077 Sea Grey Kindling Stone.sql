@@ -19,7 +19,8 @@ VALUES (9077,   1,        128) /* ItemType - Misc */
      , (9077, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9077,  22, True ) /* Inscribable */;
+VALUES (9077,  22, True ) /* Inscribable */
+     , (9077,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9077,   1, 'Sea Grey Kindling Stone') /* Name */
@@ -27,21 +28,21 @@ VALUES (9077,   1, 'Sea Grey Kindling Stone') /* Name */
      , (9077,  16, 'A smooth sea grey stone, warm to the touch. There is a symbol inscribed on one side; an eight-pointed starburst shape overlaid on a swirling portal. In the heart of the starburst is a crashing wave. Within the folds of the portal swirl are four glass beads, red, blue, violet, and green.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9077,   1,   33555677) /* Setup */
-     , (9077,   3,  536870932) /* SoundTable */
-     , (9077,   6,   67111919) /* PaletteBase */
-     , (9077,   8,  100671339) /* Icon */
-     , (9077,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9077,   1, 0x020004DD) /* Setup */
+     , (9077,   3, 0x20000014) /* SoundTable */
+     , (9077,   6, 0x04000BEF) /* PaletteBase */
+     , (9077,   8, 0x06001F6B) /* Icon */
+     , (9077,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9077, 8001,    2633752) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, TargetType, Burden */
      , (9077, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9077, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9077, 8040, 44630705, 81.666, -130.503, 1.041501, 0.3826841, 0, 0, -0.9238793) /* PCAPRecordedLocation */
+VALUES (9077, 8040, 0x02A902B1, 81.666, -130.503, 1.041501, 0.382684, 0, 0, -0.923879) /* PCAPRecordedLocation */
 /* @teleloc 0x02A902B1 [81.666000 -130.503000 1.041501] 0.382684 0.000000 0.000000 -0.923879 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9077, 8000, 3681639985) /* PCAPRecordedObjectIID */;
+VALUES (9077, 8000, 0xDB715E31) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9077, 67111927, 0, 0);

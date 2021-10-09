@@ -33,6 +33,7 @@ VALUES (46208,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46208,  22, True ) /* Inscribable */
+     , (46208,  23, True ) /* DestroyOnSell */
      , (46208,  69, False) /* IsSellable */
      , (46208,  99, True ) /* Ivoryable */;
 
@@ -50,24 +51,24 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46208,   1, 'Enhanced Shimmering Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46208,   1,   33556260) /* Setup */
-     , (46208,   3,  536870932) /* SoundTable */
-     , (46208,   8,  100673208) /* Icon */
-     , (46208,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46208,   1, 0x02000724) /* Setup */
+     , (46208,   3, 0x20000014) /* SoundTable */
+     , (46208,   8, 0x060026B8) /* Icon */
+     , (46208,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46208, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46208, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46208, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46208, 8000, 2148597951) /* PCAPRecordedObjectIID */;
+VALUES (46208, 8000, 0x801100BF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46208,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (46208,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46208,  2504,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE2 */
+     , (46208,  2586,      2)  /* CANTRIPBLOODTHIRST2 */
+     , (46208,  2096,      2)  /* BloodDrinkerSelf7 */
      , (46208,  2101,      2)  /* DefenderSelf7 */
-     , (46208,  2106,      2)  /* HeartSeekerSelf7 */
-     , (46208,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46208,  2504,      2)  /* CANTRIPAXEAPTITUDE2 */
-     , (46208,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;
+     , (46208,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46208, 0, 83889235, 83892492)

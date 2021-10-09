@@ -26,14 +26,14 @@ VALUES (44210,   1, 'Wrapped Bundle of Burning Sands Arrowheads') /* Name */
      , (44210,  20, 'Wrapped Bundles of Burning Sands Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44210,   1,   33557030) /* Setup */
-     , (44210,   3,  536870932) /* SoundTable */
-     , (44210,   8,  100672691) /* Icon */
-     , (44210,  22,  872415275) /* PhysicsEffectTable */
-     , (44210,  50,  100691935) /* IconOverlay */
+VALUES (44210,   1, 0x02000A26) /* Setup */
+     , (44210,   3, 0x20000014) /* SoundTable */
+     , (44210,   8, 0x060024B3) /* Icon */
+     , (44210,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44210,  50, 0x06006FDF) /* IconOverlay */
      , (44210, 8001, 1074294809) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, IconOverlay */
      , (44210, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44210, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44210, 8000, 2210356925) /* PCAPRecordedObjectIID */;
+VALUES (44210, 8000, 0x83BF5EBD) /* PCAPRecordedObjectIID */;

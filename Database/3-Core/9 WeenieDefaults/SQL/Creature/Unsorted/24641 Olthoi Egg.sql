@@ -10,30 +10,6 @@ VALUES (24641,   1,         16) /* ItemType - Creature */
      , (24641,   7,         -1) /* ContainersCapacity */
      , (24641,  16,         32) /* ItemUseable - Remote */
      , (24641,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24641, 307,          0) /* DamageRating */
-     , (24641, 308,          0) /* DamageResistRating */
-     , (24641, 313,          0) /* CritRating */
-     , (24641, 314,          0) /* CritDamageRating */
-     , (24641, 315,          0) /* CritResistRating */
-     , (24641, 316,          0) /* CritDamageResistRating */
-     , (24641, 370,          0) /* GearDamage */
-     , (24641, 371,          0) /* GearDamageResist */
-     , (24641, 372,          0) /* GearCrit */
-     , (24641, 373,          0) /* GearCritResist */
-     , (24641, 374,          0) /* GearCritDamage */
-     , (24641, 375,          0) /* GearCritDamageResist */
-     , (24641, 376,          0) /* GearHealingBoost */
-     , (24641, 377,          0) /* GearNetherResist */
-     , (24641, 378,          0) /* GearLifeResist */
-     , (24641, 379,          0) /* GearMaxHealth */
-     , (24641, 381,          0) /* PKDamageRating */
-     , (24641, 382,          0) /* PKDamageResistRating */
-     , (24641, 383,          0) /* GearPKDamageRating */
-     , (24641, 384,          0) /* GearPKDamageResistRating */
-     , (24641, 386,          0) /* Overpower */
-     , (24641, 387,          0) /* OverpowerResist */
-     , (24641, 388,          0) /* GearOverpower */
-     , (24641, 389,          0) /* GearOverpowerResist */
      , (24641, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -49,19 +25,19 @@ VALUES (24641,   1, 'Olthoi Egg') /* Name */
      , (24641, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24641,   1,   33557217) /* Setup */
-     , (24641,   2,  150995239) /* MotionTable */
-     , (24641,   3,  536871069) /* SoundTable */
-     , (24641,   8,  100671764) /* Icon */
-     , (24641,  22,  872415265) /* PhysicsEffectTable */
+VALUES (24641,   1, 0x02000AE1) /* Setup */
+     , (24641,   2, 0x09000127) /* MotionTable */
+     , (24641,   3, 0x2000009D) /* SoundTable */
+     , (24641,   8, 0x06002114) /* Icon */
+     , (24641,  22, 0x34000021) /* PhysicsEffectTable */
      , (24641,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24641, 8001,         54) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius */
      , (24641, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24641, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24641, 8040, 1467155194, 170, -170, -24, 0.955337, 0, 0, -0.29552) /* PCAPRecordedLocation */
+VALUES (24641, 8040, 0x577302FA, 170, -170, -24, 0.955337, 0, 0, -0.29552) /* PCAPRecordedLocation */
 /* @teleloc 0x577302FA [170.000000 -170.000000 -24.000000] 0.955337 0.000000 0.000000 -0.295520 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24641, 8000, 3708072607) /* PCAPRecordedObjectIID */;
+VALUES (24641, 8000, 0xDD04B29F) /* PCAPRecordedObjectIID */;

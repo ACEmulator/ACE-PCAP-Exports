@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26659,   1, 'Ibrexi Jikti''s Journal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26659,   1,   33558620) /* Setup */
-     , (26659,   3,  536870932) /* SoundTable */
-     , (26659,   8,  100675784) /* Icon */
-     , (26659,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26659,   1, 0x0200105C) /* Setup */
+     , (26659,   3, 0x20000014) /* SoundTable */
+     , (26659,   8, 0x060030C8) /* Icon */
+     , (26659,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26659, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (26659, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (26659, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26659, 8000, 2618626479) /* PCAPRecordedObjectIID */;
+VALUES (26659, 8000, 0x9C1511AF) /* PCAPRecordedObjectIID */;

@@ -22,16 +22,16 @@ VALUES (15162,   1, 'Inquisitor''s Dale Cottages Portal') /* Name */
      , (15162, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15162,   1,   33554867) /* Setup */
-     , (15162,   2,  150994947) /* MotionTable */
-     , (15162,   8,  100667499) /* Icon */
+VALUES (15162,   1, 0x020001B3) /* Setup */
+     , (15162,   2, 0x09000003) /* MotionTable */
+     , (15162,   8, 0x0600106B) /* Icon */
      , (15162, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (15162, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (15162, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15162, 8040, 3811770419, 158.23, 54.4771, 108.3614, -0.3817391, 0, 0, 0.9242702) /* PCAPRecordedLocation */
+VALUES (15162, 8040, 0xE3330033, 158.23, 54.4771, 108.3614, -0.381739, 0, 0, 0.92427) /* PCAPRecordedLocation */
 /* @teleloc 0xE3330033 [158.230000 54.477100 108.361400] -0.381739 0.000000 0.000000 0.924270 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15162, 8000, 2117283849) /* PCAPRecordedObjectIID */;
+VALUES (15162, 8000, 0x7E333009) /* PCAPRecordedObjectIID */;

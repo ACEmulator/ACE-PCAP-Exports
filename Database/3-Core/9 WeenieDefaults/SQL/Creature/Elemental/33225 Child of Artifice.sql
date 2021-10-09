@@ -25,22 +25,22 @@ VALUES (33225,   1, 'Child of Artifice') /* Name */
      , (33225, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33225,   1,   33559884) /* Setup */
-     , (33225,   2,  150995087) /* MotionTable */
-     , (33225,   3,  536871002) /* SoundTable */
-     , (33225,   6,   67114014) /* PaletteBase */
-     , (33225,   8,  100670581) /* Icon */
-     , (33225,  22,  872415349) /* PhysicsEffectTable */
+VALUES (33225,   1, 0x0200154C) /* Setup */
+     , (33225,   2, 0x0900008F) /* MotionTable */
+     , (33225,   3, 0x2000005A) /* SoundTable */
+     , (33225,   6, 0x0400141E) /* PaletteBase */
+     , (33225,   8, 0x06001C75) /* Icon */
+     , (33225,  22, 0x34000075) /* PhysicsEffectTable */
      , (33225, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33225, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33225, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33225, 8040, 12321028, 23.15432, -21.56397, -35.9955, -0.1988402, 0, 0, -0.9800319) /* PCAPRecordedLocation */
+VALUES (33225, 8040, 0x00BC0104, 23.15432, -21.56397, -35.9955, -0.19884, 0, 0, -0.980032) /* PCAPRecordedLocation */
 /* @teleloc 0x00BC0104 [23.154320 -21.563970 -35.995500] -0.198840 0.000000 0.000000 -0.980032 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33225, 8000, 3700293524) /* PCAPRecordedObjectIID */;
+VALUES (33225, 8000, 0xDC8DFF94) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (33225,   1,     0, 0, 0, 10000) /* MaxHealth */;

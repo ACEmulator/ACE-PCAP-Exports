@@ -12,6 +12,7 @@ VALUES (48939,   1,      32768) /* ItemType - Caster */
      , (48939,  19,      20000) /* Value */
      , (48939,  33,          1) /* Bonded - Bonded */
      , (48939,  45,         16) /* DamageType - Fire */
+     , (48939,  46,        512) /* DefaultCombatStyle - Magic */
      , (48939,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (48939,  94,         16) /* TargetType - Creature */
      , (48939, 106,        450) /* ItemSpellcraft */
@@ -28,6 +29,7 @@ VALUES (48939,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48939,  22, True ) /* Inscribable */
+     , (48939,  23, True ) /* DestroyOnSell */
      , (48939,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -43,23 +45,23 @@ VALUES (48939,   1, 'Legendary Seed of Harvests') /* Name */
      , (48939,  16, 'A large, glowing seed, empowered by the magics of the Light Falatacot.  This seed was retrieved from the Temple of Harvests, underneath the Valley of Death.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48939,   1,   33561509) /* Setup */
-     , (48939,   3,  536870932) /* SoundTable */
-     , (48939,   8,  100692975) /* Icon */
-     , (48939,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48939,   1, 0x02001BA5) /* Setup */
+     , (48939,   3, 0x20000014) /* SoundTable */
+     , (48939,   8, 0x060073EF) /* Icon */
+     , (48939,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48939,  28,       2128) /* Spell - FlameBolt7 */
      , (48939, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (48939, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48939, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48939, 8000, 2153283027) /* PCAPRecordedObjectIID */;
+VALUES (48939, 8000, 0x80587DD3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48939,  4414,      2)  /* SpiritDrinkerSelf8 */
-     , (48939,  4638,      2)  /* WarMagicMasterySelf8 */
+VALUES (48939,  4638,      2)  /* WarMagicMasterySelf8 */
+     , (48939,  6075,      2)  /* CantripWarMagicAptitude4 */
      , (48939,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */
-     , (48939,  6075,      2)  /* CantripWarMagicAptitude4 */;
+     , (48939,  4414,      2)  /* SpiritDrinkerSelf8 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (48939, 0, 83899123, 83899125)

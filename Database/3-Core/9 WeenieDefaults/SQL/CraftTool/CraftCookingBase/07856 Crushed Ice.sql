@@ -24,15 +24,15 @@ VALUES (7856,   1, 'Crushed Ice') /* Name */
      , (7856,  20, 'Sacks of Crushed Ice') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7856,   1,   33554817) /* Setup */
-     , (7856,   6,   67111919) /* PaletteBase */
-     , (7856,   8,  100670864) /* Icon */
+VALUES (7856,   1, 0x02000181) /* Setup */
+     , (7856,   6, 0x04000BEF) /* PaletteBase */
+     , (7856,   8, 0x06001D90) /* Icon */
      , (7856, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7856, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7856, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7856, 8000, 2166233962) /* PCAPRecordedObjectIID */;
+VALUES (7856, 8000, 0x811E1B6A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7856, 67111926, 0, 0);

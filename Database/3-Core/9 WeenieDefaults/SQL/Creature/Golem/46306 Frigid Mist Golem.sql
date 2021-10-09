@@ -22,21 +22,21 @@ VALUES (46306,   1, 'Frigid Mist Golem') /* Name */
      , (46306, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46306,   1,   33556642) /* Setup */
-     , (46306,   2,  150995073) /* MotionTable */
-     , (46306,   3,  536871066) /* SoundTable */
-     , (46306,   8,  100667940) /* Icon */
-     , (46306,  22,  872415322) /* PhysicsEffectTable */
+VALUES (46306,   1, 0x020008A2) /* Setup */
+     , (46306,   2, 0x09000081) /* MotionTable */
+     , (46306,   3, 0x2000009A) /* SoundTable */
+     , (46306,   8, 0x06001224) /* Icon */
+     , (46306,  22, 0x3400005A) /* PhysicsEffectTable */
      , (46306, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46306, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (46306, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46306, 8040, 1481442094, 105.031, -79.9341, 6.01, -0.7056187, 0, 0, -0.7085917) /* PCAPRecordedLocation */
+VALUES (46306, 8040, 0x584D032E, 105.031, -79.9341, 6.01, -0.705619, 0, 0, -0.708592) /* PCAPRecordedLocation */
 /* @teleloc 0x584D032E [105.031000 -79.934100 6.010000] -0.705619 0.000000 0.000000 -0.708592 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46306, 8000, 3708401793) /* PCAPRecordedObjectIID */;
+VALUES (46306, 8000, 0xDD09B881) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (46306,   1,     0, 0, 0, 2160) /* MaxHealth */;

@@ -16,7 +16,8 @@ VALUES (31382,   1,       2048) /* ItemType - Gem */
      , (31382, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31382,  22, True ) /* Inscribable */;
+VALUES (31382,  22, True ) /* Inscribable */
+     , (31382,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31382,   1, 'Vestibule Lock') /* Name */
@@ -24,11 +25,11 @@ VALUES (31382,   1, 'Vestibule Lock') /* Name */
      , (31382,  16, 'An ancient shadow artifact which appears to be the lock to a gateway of some kind. Shadow Hunter Killcrane''s knowledge of Shadow-lore has restored this lock to full capacity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31382,   1,   33556743) /* Setup */
-     , (31382,   8,  100687954) /* Icon */
+VALUES (31382,   1, 0x02000907) /* Setup */
+     , (31382,   8, 0x06006052) /* Icon */
      , (31382, 8001,    2179216) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, Burden */
      , (31382, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31382, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31382, 8000, 2906522071) /* PCAPRecordedObjectIID */;
+VALUES (31382, 8000, 0xAD3E01D7) /* PCAPRecordedObjectIID */;

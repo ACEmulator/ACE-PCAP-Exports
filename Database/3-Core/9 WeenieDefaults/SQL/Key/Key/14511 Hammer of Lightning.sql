@@ -17,24 +17,25 @@ VALUES (14511,   1,      16384) /* ItemType - Key */
      , (14511, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14511,  22, True ) /* Inscribable */;
+VALUES (14511,  22, True ) /* Inscribable */
+     , (14511,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14511,   1, 'Hammer of Lightning') /* Name */
      , (14511,  16, 'A small hammer. The head looks brittle and small as though it could be used in the crafting or collecting of gems.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14511,   1,   33557488) /* Setup */
-     , (14511,   3,  536870932) /* SoundTable */
-     , (14511,   6,   67111919) /* PaletteBase */
-     , (14511,   8,  100672499) /* Icon */
-     , (14511,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14511,   1, 0x02000BF0) /* Setup */
+     , (14511,   3, 0x20000014) /* SoundTable */
+     , (14511,   6, 0x04000BEF) /* PaletteBase */
+     , (14511,   8, 0x060023F3) /* Icon */
+     , (14511,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14511, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (14511, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14511, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14511, 8000, 3627391055) /* PCAPRecordedObjectIID */;
+VALUES (14511, 8000, 0xD835984F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14511, 67111923, 0, 0);

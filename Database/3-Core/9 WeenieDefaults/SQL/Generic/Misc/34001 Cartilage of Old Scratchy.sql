@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34001,   1, 'Cartilage of Old Scratchy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34001,   1,   33554817) /* Setup */
-     , (34001,   3,  536870932) /* SoundTable */
-     , (34001,   6,   67111919) /* PaletteBase */
-     , (34001,   8,  100689117) /* Icon */
-     , (34001,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34001,   1, 0x02000181) /* Setup */
+     , (34001,   3, 0x20000014) /* SoundTable */
+     , (34001,   6, 0x04000BEF) /* PaletteBase */
+     , (34001,   8, 0x060064DD) /* Icon */
+     , (34001,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34001, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (34001, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34001, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34001, 8000, 3353885830) /* PCAPRecordedObjectIID */;
+VALUES (34001, 8000, 0xC7E83C86) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34001, 67111920, 0, 0);

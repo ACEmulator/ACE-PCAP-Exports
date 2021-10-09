@@ -27,27 +27,27 @@ VALUES (45792,   1, 'Mhoire Lieutenant') /* Name */
      , (45792, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45792,   1,   33561238) /* Setup */
-     , (45792,   2,  150994945) /* MotionTable */
-     , (45792,   3,  536870913) /* SoundTable */
-     , (45792,   6,   67108990) /* PaletteBase */
-     , (45792,   8,  100667446) /* Icon */
-     , (45792,   9,   83898364) /* EyesTexture */
-     , (45792,  10,   83898378) /* NoseTexture */
-     , (45792,  11,   83898356) /* MouthTexture */
-     , (45792,  15,   67116982) /* HairPalette */
-     , (45792,  16,   67116954) /* EyesPalette */
-     , (45792,  17,   67116943) /* SkinPalette */
+VALUES (45792,   1, 0x02001A96) /* Setup */
+     , (45792,   2, 0x09000001) /* MotionTable */
+     , (45792,   3, 0x20000001) /* SoundTable */
+     , (45792,   6, 0x0400007E) /* PaletteBase */
+     , (45792,   8, 0x06001036) /* Icon */
+     , (45792,   9, 0x05002FFC) /* EyesTexture */
+     , (45792,  10, 0x0500300A) /* NoseTexture */
+     , (45792,  11, 0x05002FF4) /* MouthTexture */
+     , (45792,  15, 0x04001FB6) /* HairPalette */
+     , (45792,  16, 0x04001F9A) /* EyesPalette */
+     , (45792,  17, 0x04001F8F) /* SkinPalette */
      , (45792, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (45792, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (45792, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45792, 8040, 1060241715, 14.3484, 13.5913, -2.995, -0.3826834, 0, 0, -0.9238796) /* PCAPRecordedLocation */
+VALUES (45792, 8040, 0x3F320133, 14.3484, 13.5913, -2.995, -0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0x3F320133 [14.348400 13.591300 -2.995000] -0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45792, 8000, 3707766114) /* PCAPRecordedObjectIID */;
+VALUES (45792, 8000, 0xDD000562) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (45792,   1,  51, 0, 0) /* Strength */

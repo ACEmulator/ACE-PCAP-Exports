@@ -25,7 +25,8 @@ VALUES (43478,   1,       2048) /* ItemType - Gem */
      , (43478, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43478,  69, False) /* IsSellable */;
+VALUES (43478,  23, True ) /* DestroyOnSell */
+     , (43478,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43478,   1, 'Luminous Crystal of Vitality') /* Name */
@@ -33,21 +34,21 @@ VALUES (43478,   1, 'Luminous Crystal of Vitality') /* Name */
      , (43478,  20, 'Luminous Crystals of Vitality') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43478,   1,   33554809) /* Setup */
-     , (43478,   3,  536870932) /* SoundTable */
-     , (43478,   6,   67111919) /* PaletteBase */
-     , (43478,   8,  100690568) /* Icon */
-     , (43478,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43478,   1, 0x02000179) /* Setup */
+     , (43478,   3, 0x20000014) /* SoundTable */
+     , (43478,   6, 0x04000BEF) /* PaletteBase */
+     , (43478,   8, 0x06006A88) /* Icon */
+     , (43478,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43478,  28,       5451) /* Spell - LuminanceRewardHealthRaising */
-     , (43478,  50,  100686655) /* IconOverlay */
-     , (43478,  52,  100691593) /* IconUnderlay */
+     , (43478,  50, 0x06005B3F) /* IconOverlay */
+     , (43478,  52, 0x06006E89) /* IconUnderlay */
      , (43478, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (43478, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (43478, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (43478, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43478, 8000, 3325871520) /* PCAPRecordedObjectIID */;
+VALUES (43478, 8000, 0xC63CC5A0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43478, 67111924, 0, 0);

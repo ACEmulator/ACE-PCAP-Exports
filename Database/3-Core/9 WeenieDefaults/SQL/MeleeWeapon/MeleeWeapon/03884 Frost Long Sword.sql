@@ -54,21 +54,21 @@ VALUES (3884,   1, 'Frost Long Sword') /* Name */
      , (3884,  16, 'Frost Long Sword of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3884,   1,   33555796) /* Setup */
-     , (3884,   3,  536870932) /* SoundTable */
-     , (3884,   8,  100669025) /* Icon */
-     , (3884,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3884,   1, 0x02000554) /* Setup */
+     , (3884,   3, 0x20000014) /* SoundTable */
+     , (3884,   8, 0x06001661) /* Icon */
+     , (3884,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3884,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3884, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3884, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3884, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3884, 8040, 3332964380, 76.80225, 94.91811, 42, 0.7082336, 0, 0, -0.7059782) /* PCAPRecordedLocation */
+VALUES (3884, 8040, 0xC6A9001C, 76.80225, 94.91811, 42, 0.708234, 0, 0, -0.705978) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [76.802250 94.918110 42.000000] 0.708234 0.000000 0.000000 -0.705978 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3884, 8000, 2156287759) /* PCAPRecordedObjectIID */;
+VALUES (3884, 8000, 0x8086570F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3884,  1616,      2)  /* BloodDrinkerSelf6 */

@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6604,   1, 'Lesser Celdon Shadow Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6604,   1,   33554647) /* Setup */
-     , (6604,   3,  536870932) /* SoundTable */
-     , (6604,   6,   67108990) /* PaletteBase */
-     , (6604,   8,  100670413) /* Icon */
-     , (6604,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6604,   1, 0x020000D7) /* Setup */
+     , (6604,   3, 0x20000014) /* SoundTable */
+     , (6604,   6, 0x0400007E) /* PaletteBase */
+     , (6604,   8, 0x06001BCD) /* Icon */
+     , (6604,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6604, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (6604, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6604, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6604, 8000, 3331388237) /* PCAPRecordedObjectIID */;
+VALUES (6604, 8000, 0xC690F34D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6604, 67110011, 80, 12)

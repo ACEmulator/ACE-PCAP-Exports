@@ -24,13 +24,13 @@ VALUES (2943,   1, 'Scroll of Frost Bolt IV') /* Name */
 Shoots a bolt of cold at the target. The bolt does 52-105 points of cold damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2943,   1,   33554826) /* Setup */
-     , (2943,   8,  100677016) /* Icon */
-     , (2943,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2943,   1, 0x0200018A) /* Setup */
+     , (2943,   8, 0x06003598) /* Icon */
+     , (2943,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2943,  28,         72) /* Spell - FrostBolt4 */
      , (2943, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2943, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2943, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2943, 8000, 3684534846) /* PCAPRecordedObjectIID */;
+VALUES (2943, 8000, 0xDB9D8A3E) /* PCAPRecordedObjectIID */;

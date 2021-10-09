@@ -34,6 +34,7 @@ VALUES (45954,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45954,  22, True ) /* Inscribable */
+     , (45954,  23, True ) /* DestroyOnSell */
      , (45954,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,24 +51,24 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45954,   1, 'Seasoned Explorer Greataxe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45954,   1,   33560802) /* Setup */
-     , (45954,   3,  536870932) /* SoundTable */
-     , (45954,   6,   67115558) /* PaletteBase */
-     , (45954,   8,  100690770) /* Icon */
-     , (45954,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45954,   1, 0x020018E2) /* Setup */
+     , (45954,   3, 0x20000014) /* SoundTable */
+     , (45954,   6, 0x04001A26) /* PaletteBase */
+     , (45954,   8, 0x06006B52) /* Icon */
+     , (45954,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45954, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (45954, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45954, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45954, 8000, 2461823115) /* PCAPRecordedObjectIID */;
+VALUES (45954, 8000, 0x92BC708B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45954,  1592,      2)  /* HeartSeekerSelf6 */
-     , (45954,  1605,      2)  /* DefenderSelf6 */
+VALUES (45954,  1605,      2)  /* DefenderSelf6 */
+     , (45954,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */
      , (45954,  1616,      2)  /* BloodDrinkerSelf6 */
      , (45954,  1627,      2)  /* SwiftKillerSelf6 */
-     , (45954,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */;
+     , (45954,  1592,      2)  /* HeartSeekerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45954, 67116380, 0, 0);

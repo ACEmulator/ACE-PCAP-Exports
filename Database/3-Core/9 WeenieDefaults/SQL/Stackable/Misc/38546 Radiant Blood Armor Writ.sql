@@ -18,7 +18,8 @@ VALUES (38546,   1,        128) /* ItemType - Misc */
      , (38546, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38546,  69, False) /* IsSellable */
+VALUES (38546,  23, True ) /* DestroyOnSell */
+     , (38546,  69, False) /* IsSellable */
      , (38546,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -27,14 +28,14 @@ VALUES (38546,   1, 'Radiant Blood Armor Writ') /* Name */
      , (38546,  16, 'An armor writ, which can be given to one of the Society Armorsmiths for access to the Society Armor Chests.  One of these writs may be exchanged for access once per day.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38546,   1,   33554776) /* Setup */
-     , (38546,   3,  536870932) /* SoundTable */
-     , (38546,   8,  100667503) /* Icon */
-     , (38546,  22,  872415275) /* PhysicsEffectTable */
-     , (38546,  50,  100690173) /* IconOverlay */
+VALUES (38546,   1, 0x02000158) /* Setup */
+     , (38546,   3, 0x20000014) /* SoundTable */
+     , (38546,   8, 0x0600106F) /* Icon */
+     , (38546,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (38546,  50, 0x060068FD) /* IconOverlay */
      , (38546, 8001, 1075867672) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (38546, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38546, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38546, 8000, 3688636722) /* PCAPRecordedObjectIID */;
+VALUES (38546, 8000, 0xDBDC2132) /* PCAPRecordedObjectIID */;

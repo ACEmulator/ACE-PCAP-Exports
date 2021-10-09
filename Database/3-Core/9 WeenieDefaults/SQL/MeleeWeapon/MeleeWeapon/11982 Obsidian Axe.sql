@@ -43,17 +43,17 @@ VALUES (11982,   1, 'Obsidian Axe') /* Name */
      , (11982,  16, 'An Axe made with a sharpened piece of volcanic rock.  The blade seems to be unevenly cut, however it is still quite sharp.  The handle seems to a be a worn, old Golem Jo.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11982,   1,   33557334) /* Setup */
-     , (11982,   3,  536870932) /* SoundTable */
-     , (11982,   8,  100672107) /* Icon */
-     , (11982,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11982,   1, 0x02000B56) /* Setup */
+     , (11982,   3, 0x20000014) /* SoundTable */
+     , (11982,   8, 0x0600226B) /* Icon */
+     , (11982,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11982, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (11982, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11982, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11982, 8000, 2192304907) /* PCAPRecordedObjectIID */;
+VALUES (11982, 8000, 0x82ABEB0B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11982,  1021,      2)  /* BludgeonProtectionSelf4 */
-     , (11982,  1614,      2)  /* BloodDrinkerSelf4 */;
+VALUES (11982,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (11982,  1021,      2)  /* BludgeonProtectionSelf4 */;

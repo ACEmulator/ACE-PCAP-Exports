@@ -22,16 +22,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22938,   1, 'Gem of Lowering Endurance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22938,   1,   33558087) /* Setup */
-     , (22938,   6,   67111919) /* PaletteBase */
-     , (22938,   8,  100673789) /* Icon */
-     , (22938,  50,  100673963) /* IconOverlay */
+VALUES (22938,   1, 0x02000E47) /* Setup */
+     , (22938,   6, 0x04000BEF) /* PaletteBase */
+     , (22938,   8, 0x060028FD) /* Icon */
+     , (22938,  50, 0x060029AB) /* IconOverlay */
      , (22938, 8001, 1076391952) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (22938, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22938, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22938, 8000, 2281488198) /* PCAPRecordedObjectIID */;
+VALUES (22938, 8000, 0x87FCBF46) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22938, 67111924, 0, 0);

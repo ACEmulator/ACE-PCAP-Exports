@@ -50,20 +50,20 @@ VALUES (24027,   1, 'Scepter of Thunderous Might') /* Name */
      , (24027,  15, 'This scepter was wielded by the Elders of the Sentinels of Perfect Light. Ornate and ostentatious it appears to have been more a badge of office than a martial weapon.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24027,   1,   33558265) /* Setup */
-     , (24027,   3,  536870932) /* SoundTable */
-     , (24027,   8,  100674149) /* Icon */
-     , (24027,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24027,   1, 0x02000EF9) /* Setup */
+     , (24027,   3, 0x20000014) /* SoundTable */
+     , (24027,   8, 0x06002A65) /* Icon */
+     , (24027,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24027, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24027, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24027, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24027, 8000, 2192079959) /* PCAPRecordedObjectIID */;
+VALUES (24027, 8000, 0x82A87C57) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24027,  1337,      2)  /* StrengthOther6 */
-     , (24027,  1592,      2)  /* HeartSeekerSelf6 */
+VALUES (24027,  2949,      2)  /* LightbringersWay */
      , (24027,  1605,      2)  /* DefenderSelf6 */
      , (24027,  1626,      2)  /* SwiftKillerSelf5 */
-     , (24027,  2949,      2)  /* LightbringersWay */;
+     , (24027,  1592,      2)  /* HeartSeekerSelf6 */
+     , (24027,  1337,      2)  /* StrengthOther6 */;

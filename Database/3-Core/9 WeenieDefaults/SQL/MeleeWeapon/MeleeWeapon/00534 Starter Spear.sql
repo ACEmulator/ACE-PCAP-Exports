@@ -37,13 +37,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (534,   1, 'Starter Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (534,   1,   33554756) /* Setup */
-     , (534,   3,  536870932) /* SoundTable */
-     , (534,   8,  100667609) /* Icon */
-     , (534,  22,  872415275) /* PhysicsEffectTable */
+VALUES (534,   1, 0x02000144) /* Setup */
+     , (534,   3, 0x20000014) /* SoundTable */
+     , (534,   8, 0x060010D9) /* Icon */
+     , (534,  22, 0x3400002B) /* PhysicsEffectTable */
      , (534, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (534, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (534, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (534, 8000, 2881475029) /* PCAPRecordedObjectIID */;
+VALUES (534, 8000, 0xABBFD1D5) /* PCAPRecordedObjectIID */;

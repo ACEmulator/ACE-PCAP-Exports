@@ -19,18 +19,18 @@ VALUES (24586,   1, 'The Ravenous Mattekar Tavern') /* Name */
      , (24586,  16, 'Food and Lodging. No actual mattekars on premises, ravenous or otherwise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24586,   1,   33555088) /* Setup */
-     , (24586,   8,  100668115) /* Icon */
+VALUES (24586,   1, 0x02000290) /* Setup */
+     , (24586,   8, 0x060012D3) /* Icon */
      , (24586, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (24586, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24586, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24586, 8040, 722534415, 47.322, 159.913, 48, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (24586, 8040, 0x2B11000F, 47.322, 159.913, 48, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x2B11000F [47.322000 159.913000 48.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24586, 8000, 1924206625) /* PCAPRecordedObjectIID */;
+VALUES (24586, 8000, 0x72B11021) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (24586, 0, 83891055, 83891060);

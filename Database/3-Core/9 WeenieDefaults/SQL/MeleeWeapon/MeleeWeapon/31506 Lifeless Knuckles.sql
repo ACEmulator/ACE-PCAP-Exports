@@ -50,16 +50,16 @@ VALUES (31506,   1, 'Lifeless Knuckles') /* Name */
      , (31506,  25, 'Callaway') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31506,   1,   33559546) /* Setup */
-     , (31506,   3,  536870932) /* SoundTable */
-     , (31506,   8,  100687783) /* Icon */
-     , (31506,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31506,   1, 0x020013FA) /* Setup */
+     , (31506,   3, 0x20000014) /* SoundTable */
+     , (31506,   8, 0x06005FA7) /* Icon */
+     , (31506,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31506, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (31506, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31506, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31506, 8000, 3682695789) /* PCAPRecordedObjectIID */;
+VALUES (31506, 8000, 0xDB817A6D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31506,  1616,      2)  /* BloodDrinkerSelf6 */;

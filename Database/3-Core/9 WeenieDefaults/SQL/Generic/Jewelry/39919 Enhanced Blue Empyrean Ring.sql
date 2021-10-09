@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39919,   1,          8) /* ItemType - Jewelry */
      , (39919,   5,         50) /* EncumbranceVal */
      , (39919,   9,     786432) /* ValidLocations - FingerWear */
-     , (39919,  10,     524288) /* CurrentWieldedLocation - FingerWearRight */
      , (39919,  16,          1) /* ItemUseable - No */
      , (39919,  18,          1) /* UiEffects - Magical */
      , (39919,  19,       5000) /* Value */
@@ -26,6 +25,7 @@ VALUES (39919,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39919,  22, True ) /* Inscribable */
+     , (39919,  23, True ) /* DestroyOnSell */
      , (39919,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -38,24 +38,24 @@ VALUES (39919,   1, 'Enhanced Blue Empyrean Ring') /* Name */
      , (39919,  16, 'A ring of pyreal fitted with a band of glowing blue metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39919,   1,   33554691) /* Setup */
-     , (39919,   3,  536870932) /* SoundTable */
-     , (39919,   6,   67111919) /* PaletteBase */
-     , (39919,   8,  100689373) /* Icon */
-     , (39919,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39919,   1, 0x02000103) /* Setup */
+     , (39919,   3, 0x20000014) /* SoundTable */
+     , (39919,   6, 0x04000BEF) /* PaletteBase */
+     , (39919,   8, 0x060065DD) /* Icon */
+     , (39919,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39919, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (39919, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39919, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39919, 8000, 2153220102) /* PCAPRecordedObjectIID */;
+VALUES (39919, 8000, 0x80578806) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39919,  2613,      2)  /* CANTRIPPIERCINGWARD2 */
+VALUES (39919,  4227,      2)  /* CANTRIPWILLPOWER3 */
      , (39919,  3981,      2)  /* ManarenewalOtherIncantation */
      , (39919,  4070,      2)  /* EmpyreanManaAbsorbtion */
      , (39919,  4077,      2)  /* ManaConvertMasteryIncantation */
-     , (39919,  4227,      2)  /* CANTRIPWILLPOWER3 */;
+     , (39919,  2613,      2)  /* CANTRIPPIERCINGWARD2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39919, 67111919, 0, 0);

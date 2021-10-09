@@ -42,17 +42,17 @@ VALUES (27651,   1, 'Ornate Tumerok Breastplate') /* Name */
      , (27651,  15, 'This breastplate was taken from the Renegade Tumerok, General Amanua.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27651,   1,   33554642) /* Setup */
-     , (27651,   3,  536870932) /* SoundTable */
-     , (27651,   6,   67108990) /* PaletteBase */
-     , (27651,   8,  100676500) /* Icon */
-     , (27651,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27651,   1, 0x020000D2) /* Setup */
+     , (27651,   3, 0x20000014) /* SoundTable */
+     , (27651,   6, 0x0400007E) /* PaletteBase */
+     , (27651,   8, 0x06003394) /* Icon */
+     , (27651,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27651, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (27651, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27651, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27651, 8000, 2192305077) /* PCAPRecordedObjectIID */;
+VALUES (27651, 8000, 0x82ABEBB5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27651,  2242,      2)  /* ImpregnabilityOther7 */

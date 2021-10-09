@@ -36,22 +36,18 @@ VALUES (2422,   1, 'Gem') /* Name */
      , (2422,  16, 'Gem of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2422,   1,   33554809) /* Setup */
-     , (2422,   3,  536870932) /* SoundTable */
-     , (2422,   6,   67111919) /* PaletteBase */
-     , (2422,   8,  100674740) /* Icon */
-     , (2422,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2422,   1, 0x02000179) /* Setup */
+     , (2422,   3, 0x20000014) /* SoundTable */
+     , (2422,   6, 0x04000BEF) /* PaletteBase */
+     , (2422,   8, 0x06002CB4) /* Icon */
+     , (2422,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2422,  28,       1332) /* Spell - StrengthSelf6 */
      , (2422, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
      , (2422, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2422, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2422, 8000, 3692258436) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2422, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (2422, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
+VALUES (2422, 8000, 0xDC136484) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2422, 67111923, 0, 0);

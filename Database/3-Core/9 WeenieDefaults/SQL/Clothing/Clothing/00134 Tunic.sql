@@ -37,24 +37,21 @@ VALUES (134,   1, 'Tunic') /* Name */
      , (134,  16, 'Tunic') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (134,   1,   33554883) /* Setup */
-     , (134,   3,  536870932) /* SoundTable */
-     , (134,   6,   67108990) /* PaletteBase */
-     , (134,   8,  100667376) /* Icon */
-     , (134,  22,  872415275) /* PhysicsEffectTable */
+VALUES (134,   1, 0x020001C3) /* Setup */
+     , (134,   3, 0x20000014) /* SoundTable */
+     , (134,   6, 0x0400007E) /* PaletteBase */
+     , (134,   8, 0x06000FF0) /* Icon */
+     , (134,  22, 0x3400002B) /* PhysicsEffectTable */
      , (134, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (134, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (134, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (134, 8040, 23527780, 59.66936, -12.73648, 6, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (134, 8040, 0x01670164, 59.66936, -12.73648, 6, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01670164 [59.669360 -12.736480 6.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (134, 8000, 3685458473) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (134, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+VALUES (134, 8000, 0xDBABA229) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (134, 67109967, 92, 4)

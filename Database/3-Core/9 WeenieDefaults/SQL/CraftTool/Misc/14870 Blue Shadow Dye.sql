@@ -24,17 +24,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14870,   1, 'Blue Shadow Dye') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14870,   1,   33556753) /* Setup */
-     , (14870,   3,  536870932) /* SoundTable */
-     , (14870,   6,   67111919) /* PaletteBase */
-     , (14870,   8,  100672639) /* Icon */
-     , (14870,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14870,   1, 0x02000911) /* Setup */
+     , (14870,   3, 0x20000014) /* SoundTable */
+     , (14870,   6, 0x04000BEF) /* PaletteBase */
+     , (14870,   8, 0x0600247F) /* Icon */
+     , (14870,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14870, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (14870, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14870, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14870, 8000, 2368871213) /* PCAPRecordedObjectIID */;
+VALUES (14870, 8000, 0x8D321B2D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14870, 67111918, 0, 0);

@@ -48,25 +48,25 @@ VALUES (6129,   1, 'Peerless Smoldering Atlan Staff') /* Name */
      , (6129,   8, 'Makosa''') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6129,   1,   33556373) /* Setup */
-     , (6129,   3,  536870932) /* SoundTable */
-     , (6129,   6,   67111919) /* PaletteBase */
-     , (6129,   8,  100670565) /* Icon */
-     , (6129,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6129,   1, 0x02000795) /* Setup */
+     , (6129,   3, 0x20000014) /* SoundTable */
+     , (6129,   6, 0x04000BEF) /* PaletteBase */
+     , (6129,   8, 0x06001C65) /* Icon */
+     , (6129,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6129, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (6129, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6129, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6129, 8000, 3351267049) /* PCAPRecordedObjectIID */;
+VALUES (6129, 8000, 0xC7C046E9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6129,  1092,      2)  /* FireProtectionSelf4 */
-     , (6129,  1330,      2)  /* StrengthSelf4 */
-     , (6129,  1590,      2)  /* HeartSeekerSelf4 */
-     , (6129,  1603,      2)  /* DefenderSelf4 */
+VALUES (6129,  1603,      2)  /* DefenderSelf4 */
+     , (6129,  1092,      2)  /* FireProtectionSelf4 */
      , (6129,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (6129,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (6129,  1625,      2)  /* SwiftKillerSelf4 */
+     , (6129,  1330,      2)  /* StrengthSelf4 */
+     , (6129,  1590,      2)  /* HeartSeekerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6129, 67111924, 0, 0);

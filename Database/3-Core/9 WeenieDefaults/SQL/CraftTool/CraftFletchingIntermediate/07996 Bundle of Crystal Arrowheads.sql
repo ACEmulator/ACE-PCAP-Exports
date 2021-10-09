@@ -20,13 +20,13 @@ VALUES (7996,   1, 'Bundle of Crystal Arrowheads') /* Name */
      , (7996,  20, 'Bundles of Crystal Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7996,   1,   33556749) /* Setup */
-     , (7996,   3,  536870932) /* SoundTable */
-     , (7996,   8,  100670969) /* Icon */
-     , (7996,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7996,   1, 0x0200090D) /* Setup */
+     , (7996,   3, 0x20000014) /* SoundTable */
+     , (7996,   8, 0x06001DF9) /* Icon */
+     , (7996,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7996, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (7996, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7996, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7996, 8000, 2288432307) /* PCAPRecordedObjectIID */;
+VALUES (7996, 8000, 0x8866B4B3) /* PCAPRecordedObjectIID */;

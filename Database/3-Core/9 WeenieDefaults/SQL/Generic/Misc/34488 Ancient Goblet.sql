@@ -13,26 +13,29 @@ VALUES (34488,   1,        128) /* ItemType - Misc */
      , (34488, 114,          1) /* Attuned - Attuned */
      , (34488, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (34488,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34488,   1, 'Ancient Goblet') /* Name */
      , (34488,  16, 'The brim of this ornate golden cup is decorated with an alternating pattern of sapphires and engraved leaves.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34488,   1,   33554663) /* Setup */
-     , (34488,   3,  536870932) /* SoundTable */
-     , (34488,   6,   67111919) /* PaletteBase */
-     , (34488,   8,  100668673) /* Icon */
-     , (34488,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34488,   1, 0x020000E7) /* Setup */
+     , (34488,   3, 0x20000014) /* SoundTable */
+     , (34488,   6, 0x04000BEF) /* PaletteBase */
+     , (34488,   8, 0x06001501) /* Icon */
+     , (34488,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34488, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (34488, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34488, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34488, 8040, 5243276, 92, -688, 1.55, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34488, 8040, 0x0050018C, 92, -688, 1.55, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0050018C [92.000000 -688.000000 1.550000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34488, 8000, 3708765381) /* PCAPRecordedObjectIID */;
+VALUES (34488, 8000, 0xDD0F44C5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34488, 67111920, 0, 0);

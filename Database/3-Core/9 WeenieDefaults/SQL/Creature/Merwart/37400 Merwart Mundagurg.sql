@@ -30,21 +30,21 @@ VALUES (37400,   1, 'Merwart Mundagurg') /* Name */
      , (37400, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37400,   1,   33554490) /* Setup */
-     , (37400,   2,  150994953) /* MotionTable */
-     , (37400,   3,  536870959) /* SoundTable */
-     , (37400,   6,   67109310) /* PaletteBase */
-     , (37400,   8,  100667449) /* Icon */
+VALUES (37400,   1, 0x0200003A) /* Setup */
+     , (37400,   2, 0x09000009) /* MotionTable */
+     , (37400,   3, 0x2000002F) /* SoundTable */
+     , (37400,   6, 0x040001BE) /* PaletteBase */
+     , (37400,   8, 0x06001039) /* Icon */
      , (37400, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (37400, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (37400, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37400, 8040, 288620559, 31.3122, 163.329, 42.0055, 0.8799509, 0, 0, -0.4750645) /* PCAPRecordedLocation */
+VALUES (37400, 8040, 0x1134000F, 31.3122, 163.329, 42.0055, 0.879951, 0, 0, -0.475065) /* PCAPRecordedLocation */
 /* @teleloc 0x1134000F [31.312200 163.329000 42.005500] 0.879951 0.000000 0.000000 -0.475065 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37400, 8000, 3691069351) /* PCAPRecordedObjectIID */;
+VALUES (37400, 8000, 0xDC013FA7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (37400,   1, 180, 0, 0) /* Strength */

@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23780,   1, 'Hardened Amuli Coat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23780,   1,   33554854) /* Setup */
-     , (23780,   3,  536870932) /* SoundTable */
-     , (23780,   6,   67108990) /* PaletteBase */
-     , (23780,   8,  100674067) /* Icon */
-     , (23780,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23780,   1, 0x020001A6) /* Setup */
+     , (23780,   3, 0x20000014) /* SoundTable */
+     , (23780,   6, 0x0400007E) /* PaletteBase */
+     , (23780,   8, 0x06002A13) /* Icon */
+     , (23780,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23780, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (23780, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23780, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23780, 8000, 3231346703) /* PCAPRecordedObjectIID */;
+VALUES (23780, 8000, 0xC09A700F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23780, 67109965, 96, 12)

@@ -21,26 +21,26 @@ VALUES (9614,   1, 'Purchasing Order') /* Name */
      , (9614,  16, 'A requisition form addressed to Larry.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9614,   1,   33554773) /* Setup */
-     , (9614,   3,  536870932) /* SoundTable */
-     , (9614,   8,  100668176) /* Icon */
-     , (9614,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9614,   1, 0x02000155) /* Setup */
+     , (9614,   3, 0x20000014) /* SoundTable */
+     , (9614,   8, 0x06001310) /* Icon */
+     , (9614,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9614, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (9614, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (9614, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9614, 8040, 3011576075, 85.1392, 158.282, 23.279, -0.9580449, 0, 0, 0.286618) /* PCAPRecordedLocation */
+VALUES (9614, 8040, 0xB381010B, 85.1392, 158.282, 23.279, -0.958045, 0, 0, 0.286618) /* PCAPRecordedLocation */
 /* @teleloc 0xB381010B [85.139200 158.282000 23.279000] -0.958045 0.000000 0.000000 0.286618 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9614, 8000, 3361370936) /* PCAPRecordedObjectIID */;
+VALUES (9614, 8000, 0xC85A7338) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9614, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (9614, 0, 4294967295, 'Cragstone Farms', 'Password is cheese', False, '     Cragstone Farms Purchasing Form
+VALUES (9614, 0, 4294967295, 'Cragstone Farms', 'prewritten', False, '     Cragstone Farms Purchasing Form
 -----------------------------------------------------------
 Item                                            Amount   Cost
 -----------------------------------------------------------

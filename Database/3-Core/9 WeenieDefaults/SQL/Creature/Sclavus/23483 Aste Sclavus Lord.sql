@@ -26,21 +26,21 @@ VALUES (23483,   1, 'Aste Sclavus Lord') /* Name */
      , (23483, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23483,   1,   33555608) /* Setup */
-     , (23483,   2,  150995048) /* MotionTable */
-     , (23483,   3,  536870977) /* SoundTable */
-     , (23483,   8,  100669120) /* Icon */
-     , (23483,  22,  872415280) /* PhysicsEffectTable */
+VALUES (23483,   1, 0x02000498) /* Setup */
+     , (23483,   2, 0x09000068) /* MotionTable */
+     , (23483,   3, 0x20000041) /* SoundTable */
+     , (23483,   8, 0x060016C0) /* Icon */
+     , (23483,  22, 0x34000030) /* PhysicsEffectTable */
      , (23483, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (23483, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (23483, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23483, 8040, 860422166, 66.11784, 124.7634, 5.906772, 0.3910566, 0, 0, -0.9203666) /* PCAPRecordedLocation */
+VALUES (23483, 8040, 0x33490016, 66.11784, 124.7634, 5.906772, 0.391057, 0, 0, -0.920367) /* PCAPRecordedLocation */
 /* @teleloc 0x33490016 [66.117840 124.763400 5.906772] 0.391057 0.000000 0.000000 -0.920367 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23483, 8000, 3701512259) /* PCAPRecordedObjectIID */;
+VALUES (23483, 8000, 0xDCA09843) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23483,   1, 180, 0, 0) /* Strength */

@@ -21,22 +21,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28855,   1, 'Lubziklan al-Luq Trade Proposal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28855,   1,   33554776) /* Setup */
-     , (28855,   3,  536870932) /* SoundTable */
-     , (28855,   8,  100668176) /* Icon */
-     , (28855,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28855,   1, 0x02000158) /* Setup */
+     , (28855,   3, 0x20000014) /* SoundTable */
+     , (28855,   8, 0x06001310) /* Icon */
+     , (28855,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28855, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (28855, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (28855, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28855, 8000, 3331070687) /* PCAPRecordedObjectIID */;
+VALUES (28855, 8000, 0xC68C1ADF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (28855, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28855, 0, 4294967295, 'Anton Silezzi', 'Password is cheese', False, 'Greetings Lubziklan al-Luq
+VALUES (28855, 0, 4294967295, 'Anton Silezzi', 'prewritten', False, 'Greetings Lubziklan al-Luq
 
 My name is Anton Silezzi and I represent a consortium of merchants in Sanamar. It is with great pride that I invite you to join with us to establish trade between our two great cities. 
 

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (39922,   1,          8) /* ItemType - Jewelry */
      , (39922,   5,         50) /* EncumbranceVal */
      , (39922,   9,     786432) /* ValidLocations - FingerWear */
-     , (39922,  10,     262144) /* CurrentWieldedLocation - FingerWearLeft */
      , (39922,  16,          1) /* ItemUseable - No */
      , (39922,  18,          1) /* UiEffects - Magical */
      , (39922,  19,       5000) /* Value */
@@ -26,6 +25,7 @@ VALUES (39922,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39922,  22, True ) /* Inscribable */
+     , (39922,  23, True ) /* DestroyOnSell */
      , (39922,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -38,22 +38,22 @@ VALUES (39922,   1, 'Enhanced White Empyrean Ring') /* Name */
      , (39922,  16, 'A ring of pyreal fitted with a band of glowing white metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39922,   1,   33554691) /* Setup */
-     , (39922,   3,  536870932) /* SoundTable */
-     , (39922,   6,   67111919) /* PaletteBase */
-     , (39922,   8,  100689376) /* Icon */
-     , (39922,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39922,   1, 0x02000103) /* Setup */
+     , (39922,   3, 0x20000014) /* SoundTable */
+     , (39922,   6, 0x04000BEF) /* PaletteBase */
+     , (39922,   8, 0x060065E0) /* Icon */
+     , (39922,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39922, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (39922, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39922, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39922, 8000, 2153280971) /* PCAPRecordedObjectIID */;
+VALUES (39922, 8000, 0x805875CB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39922,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */
-     , (39922,  2614,      2)  /* CANTRIPSLASHINGWARD2 */
-     , (39922,  4677,      2)  /* CANTRIPPIERCINGWARD3 */;
+VALUES (39922,  4677,      2)  /* CANTRIPPIERCINGWARD3 */
+     , (39922,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */
+     , (39922,  2614,      2)  /* CANTRIPSLASHINGWARD2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39922, 67111919, 0, 0);

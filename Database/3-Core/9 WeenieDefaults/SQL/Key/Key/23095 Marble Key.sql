@@ -23,17 +23,17 @@ VALUES (23095,   1, 'Marble Key') /* Name */
      , (23095,  14, 'Use this item on a locked chest to unlock it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23095,   1,   33554784) /* Setup */
-     , (23095,   3,  536870932) /* SoundTable */
-     , (23095,   8,  100673960) /* Icon */
-     , (23095,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23095,   1, 0x02000160) /* Setup */
+     , (23095,   3, 0x20000014) /* SoundTable */
+     , (23095,   8, 0x060029A8) /* Icon */
+     , (23095,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23095, 8001,    2624528) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, TargetType, Burden */
      , (23095, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23095, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23095, 8040, 23855555, 56.57001, -40.72089, 0.024, -0.3153024, 0, 0, -0.9489912) /* PCAPRecordedLocation */
+VALUES (23095, 8040, 0x016C01C3, 56.57001, -40.72089, 0.024, -0.315302, 0, 0, -0.948991) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.570010 -40.720890 0.024000] -0.315302 0.000000 0.000000 -0.948991 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23095, 8000, 3632786988) /* PCAPRecordedObjectIID */;
+VALUES (23095, 8000, 0xD887EE2C) /* PCAPRecordedObjectIID */;

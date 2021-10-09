@@ -23,19 +23,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30364,   1, 'Weeping Ring') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30364,   1,   33554691) /* Setup */
-     , (30364,   3,  536870932) /* SoundTable */
-     , (30364,   6,   67111919) /* PaletteBase */
-     , (30364,   8,  100686826) /* Icon */
-     , (30364,  22,  872415275) /* PhysicsEffectTable */
-     , (30364,  52,  100686604) /* IconUnderlay */
+VALUES (30364,   1, 0x02000103) /* Setup */
+     , (30364,   3, 0x20000014) /* SoundTable */
+     , (30364,   6, 0x04000BEF) /* PaletteBase */
+     , (30364,   8, 0x06005BEA) /* Icon */
+     , (30364,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30364,  52, 0x06005B0C) /* IconUnderlay */
      , (30364, 8001,  270614552) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden, HookType */
      , (30364, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30364, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30364, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30364, 8000, 2219640633) /* PCAPRecordedObjectIID */;
+VALUES (30364, 8000, 0x844D0739) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30364, 67111919, 0, 0);

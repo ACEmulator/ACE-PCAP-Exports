@@ -22,16 +22,16 @@ VALUES (4572,   1, 'Destroyed Portal to Khayyaban') /* Name */
      , (4572, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4572,   1,   33561060) /* Setup */
-     , (4572,   2,  150995314) /* MotionTable */
-     , (4572,   8,  100667499) /* Icon */
+VALUES (4572,   1, 0x020019E4) /* Setup */
+     , (4572,   2, 0x09000172) /* MotionTable */
+     , (4572,   8, 0x0600106B) /* Icon */
      , (4572, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (4572, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (4572, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4572, 8040, 3661234231, 156.446, 157.145, 0.6947529, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (4572, 8040, 0xDA3A0037, 156.446, 157.145, 0.694753, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xDA3A0037 [156.446000 157.145000 0.694753] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4572, 8000, 2107875331) /* PCAPRecordedObjectIID */;
+VALUES (4572, 8000, 0x7DA3A003) /* PCAPRecordedObjectIID */;

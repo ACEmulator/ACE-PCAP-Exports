@@ -54,27 +54,24 @@ VALUES (31760,   1, 'Acid Dericost Blade') /* Name */
      , (31760,  16, 'Acid Dericost Blade of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31760,   1,   33559636) /* Setup */
-     , (31760,   3,  536870932) /* SoundTable */
-     , (31760,   6,   67116700) /* PaletteBase */
-     , (31760,   8,  100688005) /* Icon */
-     , (31760,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31760,   1, 0x02001454) /* Setup */
+     , (31760,   3, 0x20000014) /* SoundTable */
+     , (31760,   6, 0x04001E9C) /* PaletteBase */
+     , (31760,   8, 0x06006085) /* Icon */
+     , (31760,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31760,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (31760, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31760, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31760, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31760, 8000, 3695623666) /* PCAPRecordedObjectIID */;
+VALUES (31760, 8000, 0xDC46BDF2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31760,  1604,      2)  /* DefenderSelf5 */
      , (31760,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31760,  1626,      2)  /* SwiftKillerSelf5 */
-     , (31760,  2582,      2)  /* CANTRIPQUICKNESS1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31760, 2, 12189,  1, 0, 0, False) /* Create Assassin's Lightning Jambiya (12189) for Wield */;
+     , (31760,  2582,      2)  /* CANTRIPQUICKNESS1 */
+     , (31760,  1626,      2)  /* SwiftKillerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31760, 67116700, 1, 100)

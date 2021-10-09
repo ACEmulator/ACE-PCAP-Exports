@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45468,   1, 'Malachite Slasher') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45468,   1,   33557067) /* Setup */
-     , (45468,   3,  536870932) /* SoundTable */
-     , (45468,   6,   67111919) /* PaletteBase */
-     , (45468,   8,  100686783) /* Icon */
-     , (45468,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45468,   1, 0x02000A4B) /* Setup */
+     , (45468,   3, 0x20000014) /* SoundTable */
+     , (45468,   6, 0x04000BEF) /* PaletteBase */
+     , (45468,   8, 0x06005BBF) /* Icon */
+     , (45468,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45468,  30,         88) /* PhysicsScript - Create */
-     , (45468,  52,  100686604) /* IconUnderlay */
+     , (45468,  52, 0x06005B0C) /* IconUnderlay */
      , (45468, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (45468, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45468, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,7 +38,7 @@ VALUES (45468,   1,   33557067) /* Setup */
      , (45468, 8044,      35630) /* PCAPPhysicsDIDDataTemplatedFrom - Sickle of Azaxis */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45468, 8000,      45468) /* PCAPRecordedObjectIID */;
+VALUES (45468, 8000, 0x0000B19C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45468, 67111920, 0, 0);

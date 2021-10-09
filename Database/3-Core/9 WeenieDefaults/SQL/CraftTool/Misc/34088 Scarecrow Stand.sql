@@ -24,16 +24,16 @@ VALUES (34088,   1, 'Scarecrow Stand') /* Name */
      , (34088,  16, 'An almost complete Scarecrow used to scare monsters away from your house.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34088,   1,   33559001) /* Setup */
-     , (34088,   3,  536870932) /* SoundTable */
-     , (34088,   8,  100689202) /* Icon */
-     , (34088,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34088,   1, 0x020011D9) /* Setup */
+     , (34088,   3, 0x20000014) /* SoundTable */
+     , (34088,   8, 0x06006532) /* Icon */
+     , (34088,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34088, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (34088, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34088, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34088, 8000, 2622805830) /* PCAPRecordedObjectIID */;
+VALUES (34088, 8000, 0x9C54D746) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (34088, 0, 83892706, 83892847)

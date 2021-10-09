@@ -33,24 +33,24 @@ VALUES (30189,   1, 'Thorsten''s Crystal') /* Name */
      , (30189,  20, 'Thorsten''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30189,   1,   33554809) /* Setup */
-     , (30189,   3,  536870932) /* SoundTable */
-     , (30189,   8,  100686697) /* Icon */
-     , (30189,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30189,   1, 0x02000179) /* Setup */
+     , (30189,   3, 0x20000014) /* SoundTable */
+     , (30189,   8, 0x06005B69) /* Icon */
+     , (30189,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30189,  28,       3685) /* Spell - AxeMasteryRare */
-     , (30189,  50,  100692242) /* IconOverlay */
-     , (30189,  52,  100686604) /* IconUnderlay */
+     , (30189,  50, 0x06007112) /* IconOverlay */
+     , (30189,  52, 0x06005B0C) /* IconUnderlay */
      , (30189, 8001, 1349005457) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30189, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30189, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30189, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30189, 8040, 3583574079, 175.9876, 157.875, 373.999, 0.3968425, 0, 0, -0.9178867) /* PCAPRecordedLocation */
+VALUES (30189, 8040, 0xD599003F, 175.9876, 157.875, 373.999, 0.396843, 0, 0, -0.917887) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [175.987600 157.875000 373.999000] 0.396843 0.000000 0.000000 -0.917887 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30189, 8000, 2184779109) /* PCAPRecordedObjectIID */;
+VALUES (30189, 8000, 0x82391565) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (30189, 0, 83890391, 83890391);

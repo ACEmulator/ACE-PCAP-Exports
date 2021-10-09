@@ -44,19 +44,19 @@ VALUES (9604,   1, 'Blade of the Quiddity') /* Name */
      , (9604,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9604,   1,   33557106) /* Setup */
-     , (9604,   3,  536870932) /* SoundTable */
-     , (9604,   8,  100671700) /* Icon */
-     , (9604,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9604,   1, 0x02000A72) /* Setup */
+     , (9604,   3, 0x20000014) /* SoundTable */
+     , (9604,   8, 0x060020D4) /* Icon */
+     , (9604,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9604, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (9604, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9604, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9604, 8000, 2629411110) /* PCAPRecordedObjectIID */;
+VALUES (9604, 8000, 0x9CB9A126) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9604,  1590,      2)  /* HeartSeekerSelf4 */
-     , (9604,  1603,      2)  /* DefenderSelf4 */
+VALUES (9604,  1603,      2)  /* DefenderSelf4 */
      , (9604,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (9604,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (9604,  1625,      2)  /* SwiftKillerSelf4 */
+     , (9604,  1590,      2)  /* HeartSeekerSelf4 */;

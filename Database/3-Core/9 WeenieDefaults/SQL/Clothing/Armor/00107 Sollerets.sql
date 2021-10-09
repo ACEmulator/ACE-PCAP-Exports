@@ -44,21 +44,21 @@ VALUES (107,   1, 'Sollerets') /* Name */
      , (107,  16, 'Sollerets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (107,   1,   33554654) /* Setup */
-     , (107,   3,  536870932) /* SoundTable */
-     , (107,   6,   67108990) /* PaletteBase */
-     , (107,   8,  100669244) /* Icon */
-     , (107,  22,  872415275) /* PhysicsEffectTable */
+VALUES (107,   1, 0x020000DE) /* Setup */
+     , (107,   3, 0x20000014) /* SoundTable */
+     , (107,   6, 0x0400007E) /* PaletteBase */
+     , (107,   8, 0x0600173C) /* Icon */
+     , (107,  22, 0x3400002B) /* PhysicsEffectTable */
      , (107, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (107, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (107, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (107, 8000, 2186220436) /* PCAPRecordedObjectIID */;
+VALUES (107, 8000, 0x824F1394) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (107,  1486,      2)  /* Impenetrability6 */
-     , (107,  2562,      2)  /* CANTRIPPERSONATTUNEMENT1 */;
+VALUES (107,  2562,      2)  /* CANTRIPPERSONATTUNEMENT1 */
+     , (107,  1486,      2)  /* Impenetrability6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (107, 67110545, 160, 8);

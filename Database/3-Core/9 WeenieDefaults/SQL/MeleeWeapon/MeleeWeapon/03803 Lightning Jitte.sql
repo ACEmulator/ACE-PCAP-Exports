@@ -54,17 +54,17 @@ VALUES (3803,   1, 'Lightning Jitte') /* Name */
      , (3803,  16, 'Lightning Jitte of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3803,   1,   33555753) /* Setup */
-     , (3803,   3,  536870932) /* SoundTable */
-     , (3803,   8,  100668896) /* Icon */
-     , (3803,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3803,   1, 0x02000529) /* Setup */
+     , (3803,   3, 0x20000014) /* SoundTable */
+     , (3803,   8, 0x060015E0) /* Icon */
+     , (3803,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3803,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3803, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3803, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3803, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3803, 8000, 3343085601) /* PCAPRecordedObjectIID */;
+VALUES (3803, 8000, 0xC7437021) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3803,  1378,      2)  /* CoordinationSelf6 */

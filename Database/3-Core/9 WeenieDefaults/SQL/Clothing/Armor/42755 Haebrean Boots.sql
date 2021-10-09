@@ -44,25 +44,25 @@ VALUES (42755,   1, 'Haebrean Boots') /* Name */
      , (42755,  16, 'Haebrean Boots') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42755,   1,   33556683) /* Setup */
-     , (42755,   3,  536870932) /* SoundTable */
-     , (42755,   6,   67108990) /* PaletteBase */
-     , (42755,   8,  100691120) /* Icon */
-     , (42755,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42755,   1, 0x020008CB) /* Setup */
+     , (42755,   3, 0x20000014) /* SoundTable */
+     , (42755,   6, 0x0400007E) /* PaletteBase */
+     , (42755,   8, 0x06006CB0) /* Icon */
+     , (42755,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42755,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (42755, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (42755, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42755, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42755, 8000, 3699174376) /* PCAPRecordedObjectIID */;
+VALUES (42755, 8000, 0xDC7CEBE8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42755,  1486,      2)  /* Impenetrability6 */
-     , (42755,  1528,      2)  /* FrostBane6 */
+VALUES (42755,  2573,      2)  /* CANTRIPENDURANCE2 */
+     , (42755,  1486,      2)  /* Impenetrability6 */
+     , (42755,  2590,      2)  /* CANTRIPFROSTBANE2 */
      , (42755,  2092,      2)  /* AcidBane7 */
-     , (42755,  2573,      2)  /* CANTRIPENDURANCE2 */
-     , (42755,  2590,      2)  /* CANTRIPFROSTBANE2 */;
+     , (42755,  1528,      2)  /* FrostBane6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42755, 67109942, 160, 8);

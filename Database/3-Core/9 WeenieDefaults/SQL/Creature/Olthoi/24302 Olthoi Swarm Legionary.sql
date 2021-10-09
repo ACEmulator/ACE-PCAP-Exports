@@ -25,23 +25,23 @@ VALUES (24302,   1, 'Olthoi Swarm Legionary') /* Name */
      , (24302, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24302,   1,   33557162) /* Setup */
-     , (24302,   2,  150994946) /* MotionTable */
-     , (24302,   3,  536870925) /* SoundTable */
-     , (24302,   6,   67113236) /* PaletteBase */
-     , (24302,   8,  100667623) /* Icon */
-     , (24302,  22,  872415265) /* PhysicsEffectTable */
+VALUES (24302,   1, 0x02000AAA) /* Setup */
+     , (24302,   2, 0x09000002) /* MotionTable */
+     , (24302,   3, 0x2000000D) /* SoundTable */
+     , (24302,   6, 0x04001114) /* PaletteBase */
+     , (24302,   8, 0x060010E7) /* Icon */
+     , (24302,  22, 0x34000021) /* PhysicsEffectTable */
      , (24302,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24302, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24302, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24302, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24302, 8040, 1665597924, 47.67146, -208.6992, -18, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (24302, 8040, 0x634701E4, 47.67146, -208.6992, -18, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x634701E4 [47.671460 -208.699200 -18.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24302, 8000, 3354821414) /* PCAPRecordedObjectIID */;
+VALUES (24302, 8000, 0xC7F68326) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24302,   1, 310, 0, 0) /* Strength */
@@ -58,6 +58,7 @@ VALUES (24302,   1,   255, 0, 0, 410) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24302, 2, 48994,  1, 0, 0, False) /* Create Frost Hatchet (48994) for Wield */
+     , (24302, 2,  5769,  1, 0, 0, False) /* Create Iceball (5769) for Wield */
      , (24302, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */
      , (24302, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
      , (24302, 9, 20480,  0, 0, 0, False) /* Create Scroll of Storm's Boon (20480) for ContainTreasure */
@@ -939,7 +940,8 @@ VALUES (24302, 2, 48994,  1, 0, 0, False) /* Create Frost Hatchet (48994) for Wi
      , (24302, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */
      , (24302, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
      , (24302, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (24302, 9, 20410,  0, 0, 0, False) /* Create Scroll of Tattercoat (20410) for ContainTreasure */;
+     , (24302, 9, 20410,  0, 0, 0, False) /* Create Scroll of Tattercoat (20410) for ContainTreasure */
+     , (24302, 9,  3777,  0, 0, 0, False) /* Create Frost Dabus (3777) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24302, 67113317, 0, 0);

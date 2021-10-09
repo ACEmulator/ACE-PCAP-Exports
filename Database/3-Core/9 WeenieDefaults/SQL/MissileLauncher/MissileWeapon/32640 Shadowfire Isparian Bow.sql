@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32640,   1,        256) /* ItemType - MissileWeapon */
      , (32640,   5,        950) /* EncumbranceVal */
      , (32640,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (32640,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (32640,  16,          1) /* ItemUseable - No */
      , (32640,  18,          1) /* UiEffects - Magical */
      , (32640,  19,      10000) /* Value */
@@ -18,7 +17,7 @@ VALUES (32640,   1,        256) /* ItemType - MissileWeapon */
      , (32640,  48,         47) /* WeaponSkill - MissileWeapons */
      , (32640,  49,          1) /* WeaponTime */
      , (32640,  50,          1) /* AmmoType - Arrow */
-     , (32640,  51,          2) /* CombatUse - Missle */
+     , (32640,  51,          2) /* CombatUse - Missile */
      , (32640,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32640, 114,          1) /* Attuned - Attuned */
      , (32640, 151,          2) /* HookType - Wall */
@@ -33,6 +32,7 @@ VALUES (32640,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32640,  22, True ) /* Inscribable */
+     , (32640,  23, True ) /* DestroyOnSell */
      , (32640,  69, False) /* IsSellable */
      , (32640,  99, True ) /* Ivoryable */;
 
@@ -51,23 +51,23 @@ VALUES (32640,   1, 'Shadowfire Isparian Bow') /* Name */
      , (32640,  16, 'A Perfect Isparian Bow, infused with the power of the Shadowfire Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32640,   1,   33559818) /* Setup */
-     , (32640,   3,  536870932) /* SoundTable */
-     , (32640,   6,   67111919) /* PaletteBase */
-     , (32640,   8,  100688561) /* Icon */
-     , (32640,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32640,   1, 0x0200150A) /* Setup */
+     , (32640,   3, 0x20000014) /* SoundTable */
+     , (32640,   6, 0x04000BEF) /* PaletteBase */
+     , (32640,   8, 0x060062B1) /* Icon */
+     , (32640,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32640, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (32640, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32640, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (32640, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32640, 8040, 3465871413, 145.2052, 103.027, 19.93, -0.6686643, 0, 0, -0.7435644) /* PCAPRecordedLocation */
+VALUES (32640, 8040, 0xCE950035, 145.2052, 103.027, 19.93, -0.668664, 0, 0, -0.743564) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [145.205200 103.027000 19.930000] -0.668664 0.000000 0.000000 -0.743564 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32640, 8000, 2183220701) /* PCAPRecordedObjectIID */
-     , (32640, 8008, 1343288375) /* PCAPRecordedParentIID */;
+VALUES (32640, 8000, 0x82214DDD) /* PCAPRecordedObjectIID */
+     , (32640, 8008, 0x5010F437) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32640, 67111927, 0, 0);

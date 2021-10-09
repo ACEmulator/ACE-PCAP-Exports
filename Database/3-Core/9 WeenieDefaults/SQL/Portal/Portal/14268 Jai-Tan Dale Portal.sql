@@ -22,16 +22,16 @@ VALUES (14268,   1, 'Jai-Tan Dale Portal') /* Name */
      , (14268, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14268,   1,   33554867) /* Setup */
-     , (14268,   2,  150994947) /* MotionTable */
-     , (14268,   8,  100667499) /* Icon */
+VALUES (14268,   1, 0x020001B3) /* Setup */
+     , (14268,   2, 0x09000003) /* MotionTable */
+     , (14268,   8, 0x0600106B) /* Icon */
      , (14268, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14268, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14268, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14268, 8040, 3460300855, 150.224, 160.973, 61.04125, -0.9106935, 0, 0, 0.4130827) /* PCAPRecordedLocation */
+VALUES (14268, 8040, 0xCE400037, 150.224, 160.973, 61.04125, -0.910694, 0, 0, 0.413083) /* PCAPRecordedLocation */
 /* @teleloc 0xCE400037 [150.224000 160.973000 61.041250] -0.910694 0.000000 0.000000 0.413083 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14268, 8000, 2095316995) /* PCAPRecordedObjectIID */;
+VALUES (14268, 8000, 0x7CE40003) /* PCAPRecordedObjectIID */;

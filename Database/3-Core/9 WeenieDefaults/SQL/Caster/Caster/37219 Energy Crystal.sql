@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37219,   1,      32768) /* ItemType - Caster */
      , (37219,   5,         50) /* EncumbranceVal */
      , (37219,   9,   16777216) /* ValidLocations - Held */
-     , (37219,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (37219,  16,    6291461) /* ItemUseable - No, SourceWieldedTargetRemoteNeverWalk */
      , (37219,  18,         65) /* UiEffects - Magical, Lightning */
      , (37219,  19,      14184) /* Value */
      , (37219,  45,         64) /* DamageType - Electric */
+     , (37219,  46,        512) /* DefaultCombatStyle - Magic */
      , (37219,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37219,  94,         16) /* TargetType - Creature */
      , (37219, 105,          7) /* ItemWorkmanship */
@@ -52,13 +52,13 @@ VALUES (37219,   1, 'Energy Crystal') /* Name */
      , (37219,  40, 'Photo II') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37219,   1,   33557374) /* Setup */
-     , (37219,   3,  536870932) /* SoundTable */
-     , (37219,   8,  100672184) /* Icon */
-     , (37219,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37219,   1, 0x02000B7E) /* Setup */
+     , (37219,   3, 0x20000014) /* SoundTable */
+     , (37219,   8, 0x060022B8) /* Icon */
+     , (37219,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37219,  28,       2146) /* Spell - WhirlingBlade7 */
-     , (37219,  50,  100689143) /* IconOverlay */
-     , (37219,  52,  100676440) /* IconUnderlay */
+     , (37219,  50, 0x060064F7) /* IconOverlay */
+     , (37219,  52, 0x06003358) /* IconUnderlay */
      , (37219, 8001, 3513483416) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, IconOverlay, MaterialType */
      , (37219, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (37219, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -66,16 +66,16 @@ VALUES (37219,   1,   33557374) /* Setup */
      , (37219, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37219, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (37219, 8040, 0x016C01BC, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37219, 8000, 3434234849) /* PCAPRecordedObjectIID */
-     , (37219, 8008, 1343479616) /* PCAPRecordedParentIID */;
+VALUES (37219, 8000, 0xCCB243E1) /* PCAPRecordedObjectIID */
+     , (37219, 8008, 0x5013DF40) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37219,  2117,      2)  /* HermeticLinkSelf7 */
-     , (37219,  2287,      2)  /* ManaMasterySelf7 */
      , (37219,  2520,      2)  /* CANTRIPLIFEMAGICAPTITUDE2 */
+     , (37219,  2287,      2)  /* ManaMasterySelf7 */
      , (37219,  3259,      2)  /* SpiritDrinkerSelf7 */
      , (37219,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */;

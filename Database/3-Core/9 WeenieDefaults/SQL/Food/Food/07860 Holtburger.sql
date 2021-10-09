@@ -30,13 +30,13 @@ VALUES (7860,   1, 'Holtburger') /* Name */
      , (7860,  20, 'Holtburgers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7860,   1,   33556680) /* Setup */
-     , (7860,   3,  536870932) /* SoundTable */
-     , (7860,   8,  100670859) /* Icon */
-     , (7860,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7860,   1, 0x020008C8) /* Setup */
+     , (7860,   3, 0x20000014) /* SoundTable */
+     , (7860,   8, 0x06001D8B) /* Icon */
+     , (7860,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7860, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (7860, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (7860, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7860, 8000, 3709849235) /* PCAPRecordedObjectIID */;
+VALUES (7860, 8000, 0xDD1FCE93) /* PCAPRecordedObjectIID */;

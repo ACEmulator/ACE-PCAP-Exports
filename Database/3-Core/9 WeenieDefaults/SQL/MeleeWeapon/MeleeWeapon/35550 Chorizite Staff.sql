@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35550,   1,          1) /* ItemType - MeleeWeapon */
      , (35550,   5,        450) /* EncumbranceVal */
      , (35550,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (35550,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (35550,  16,          1) /* ItemUseable - No */
      , (35550,  19,          0) /* Value */
      , (35550,  33,         -1) /* Bonded - Slippery */
@@ -23,7 +22,6 @@ VALUES (35550,   1,          1) /* ItemType - MeleeWeapon */
      , (35550, 114,          0) /* Attuned - Normal */
      , (35550, 263,          4) /* ResistanceModifierType */
      , (35550, 267,      10800) /* Lifespan */
-     , (35550, 268,      10071) /* RemainingLifespan */
      , (35550, 353,          7) /* WeaponType - Staff */
      , (35550, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (35550, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
@@ -51,12 +49,12 @@ VALUES (35550,   1, 'Chorizite Staff') /* Name */
      , (35550,  16, 'This modest staff seems to be constructed primarily out of the enigmatic anti-magic ore known as chorizite.  However, the staff holds more powerful enchantments than should ordinarily be possible on chorizite weapons.  It seems to have crystallized out of a mysterious essence that has shown itself to be quite thirsty for the mana that runs through the blood of magically trained humans. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35550,   1,   33556647) /* Setup */
-     , (35550,   3,  536870932) /* SoundTable */
-     , (35550,   6,   67111919) /* PaletteBase */
-     , (35550,   8,  100669105) /* Icon */
-     , (35550,  22,  872415275) /* PhysicsEffectTable */
-     , (35550,  52,  100689403) /* IconUnderlay */
+VALUES (35550,   1, 0x020008A7) /* Setup */
+     , (35550,   3, 0x20000014) /* SoundTable */
+     , (35550,   6, 0x04000BEF) /* PaletteBase */
+     , (35550,   8, 0x060016B1) /* Icon */
+     , (35550,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35550,  52, 0x060065FB) /* IconUnderlay */
      , (35550,  55,       2078) /* ProcSpell - ManaDrainOther7 */
      , (35550, 8001,    2327056) /* PCAPRecordedWeenieHeader - Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (35550, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
@@ -65,12 +63,12 @@ VALUES (35550,   1,   33556647) /* Setup */
      , (35550, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35550, 8040, 2847146009, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */
+VALUES (35550, 8040, 0xA9B40019, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.055479, -0.055479) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [84.024690 7.096089 93.929010] 0.704927 0.704927 -0.055479 -0.055479 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35550, 8000, 3622505523) /* PCAPRecordedObjectIID */
-     , (35550, 8008, 1343750345) /* PCAPRecordedParentIID */;
+VALUES (35550, 8000, 0xD7EB0C33) /* PCAPRecordedObjectIID */
+     , (35550, 8008, 0x501800C9) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35550, 67111919, 0, 0);

@@ -54,18 +54,18 @@ VALUES (31791,   1, 'Flaming Stick') /* Name */
      , (31791,  16, 'Flaming Stick of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31791,   1,   33559648) /* Setup */
-     , (31791,   3,  536870932) /* SoundTable */
-     , (31791,   6,   67116700) /* PaletteBase */
-     , (31791,   8,  100688107) /* Icon */
-     , (31791,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31791,   1, 0x02001460) /* Setup */
+     , (31791,   3, 0x20000014) /* SoundTable */
+     , (31791,   6, 0x04001E9C) /* PaletteBase */
+     , (31791,   8, 0x060060EB) /* Icon */
+     , (31791,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31791,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (31791, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31791, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31791, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31791, 8000, 3689912974) /* PCAPRecordedObjectIID */;
+VALUES (31791, 8000, 0xDBEF9A8E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31791,  1615,      2)  /* BloodDrinkerSelf5 */;

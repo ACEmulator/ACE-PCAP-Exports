@@ -19,11 +19,11 @@ VALUES (44760,   1, 'Remoran') /* Name */
      , (44760,  16, 'These mysterious deep-sea dwellers are able to glide effortlessly through both air and water via unknown means. First seen following the appearance and defeat of an enormous Remoran known as the Leviathan, they are found exclusively on Vissidal and Dark Isle. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44760,   1,   33561360) /* Setup */
-     , (44760,   8,  100668115) /* Icon */
+VALUES (44760,   1, 0x02001B10) /* Setup */
+     , (44760,   8, 0x060012D3) /* Icon */
      , (44760, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44760, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44760, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44760, 8000, 2151959413) /* PCAPRecordedObjectIID */;
+VALUES (44760, 8000, 0x80444B75) /* PCAPRecordedObjectIID */;

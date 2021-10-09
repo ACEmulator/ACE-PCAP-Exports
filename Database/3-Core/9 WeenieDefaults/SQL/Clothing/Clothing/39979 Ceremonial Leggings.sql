@@ -8,7 +8,6 @@ VALUES (39979,   1,          4) /* ItemType - Clothing */
      , (39979,   4,         22) /* ClothingPriority - UnderwearUpperLegs, UnderwearLowerLegs, UnderwearAbdomen */
      , (39979,   5,         50) /* EncumbranceVal */
      , (39979,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
-     , (39979,  10,        196) /* CurrentWieldedLocation - AbdomenWear, UpperLegWear, LowerLegWear */
      , (39979,  16,          1) /* ItemUseable - No */
      , (39979,  19,         15) /* Value */
      , (39979,  28,        220) /* ArmorLevel */
@@ -42,21 +41,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39979,   1, 'Ceremonial Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39979,   1,   33554653) /* Setup */
-     , (39979,   3,  536870932) /* SoundTable */
-     , (39979,   6,   67108990) /* PaletteBase */
-     , (39979,   8,  100682344) /* Icon */
-     , (39979,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39979,   1, 0x020000DD) /* Setup */
+     , (39979,   3, 0x20000014) /* SoundTable */
+     , (39979,   6, 0x0400007E) /* PaletteBase */
+     , (39979,   8, 0x06004A68) /* Icon */
+     , (39979,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39979, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (39979, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39979, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39979, 8000, 2282857816) /* PCAPRecordedObjectIID */;
+VALUES (39979, 8000, 0x8811A558) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39979,  2611,      2)  /* CANTRIPFLAMEWARD2 */
-     , (39979,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */;
+VALUES (39979,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
+     , (39979,  2611,      2)  /* CANTRIPFLAMEWARD2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39979, 67115698, 72, 8)

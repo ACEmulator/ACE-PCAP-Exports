@@ -23,13 +23,13 @@ VALUES (10868,   1, 'Canescent Mattekar Pelt') /* Name */
      , (10868,  15, 'A pelt of the Canescent Mattekar.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10868,   1,   33554817) /* Setup */
-     , (10868,   3,  536870932) /* SoundTable */
-     , (10868,   8,  100672038) /* Icon */
-     , (10868,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10868,   1, 0x02000181) /* Setup */
+     , (10868,   3, 0x20000014) /* SoundTable */
+     , (10868,   8, 0x06002226) /* Icon */
+     , (10868,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10868, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (10868, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10868, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10868, 8000, 3036995763) /* PCAPRecordedObjectIID */;
+VALUES (10868, 8000, 0xB504E0B3) /* PCAPRecordedObjectIID */;

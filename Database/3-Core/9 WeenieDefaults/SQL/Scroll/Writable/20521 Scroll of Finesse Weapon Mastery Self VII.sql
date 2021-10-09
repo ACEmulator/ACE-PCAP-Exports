@@ -24,13 +24,13 @@ VALUES (20521,   1, 'Scroll of Finesse Weapon Mastery Self VII') /* Name */
 Increases the caster''s Finesse Weapons skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20521,   1,   33554826) /* Setup */
-     , (20521,   8,  100692250) /* Icon */
-     , (20521,  22,  872415275) /* PhysicsEffectTable */
-     , (20521,  28,       2223) /* Spell - DaggerMasterySelf7 */
+VALUES (20521,   1, 0x0200018A) /* Setup */
+     , (20521,   8, 0x0600711A) /* Icon */
+     , (20521,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20521,  28,       2223) /* Spell - FinesseWeaponsMasterySelf7 */
      , (20521, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20521, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20521, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20521, 8000, 2629102235) /* PCAPRecordedObjectIID */;
+VALUES (20521, 8000, 0x9CB4EA9B) /* PCAPRecordedObjectIID */;

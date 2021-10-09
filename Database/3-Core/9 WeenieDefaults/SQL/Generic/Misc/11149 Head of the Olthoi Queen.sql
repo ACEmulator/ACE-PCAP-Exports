@@ -22,12 +22,12 @@ VALUES (11149,   1, 'Head of the Olthoi Queen') /* Name */
      , (11149,  16, 'The head of the Olthoi Queen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11149,   1,   33557148) /* Setup */
-     , (11149,   3,  536870932) /* SoundTable */
-     , (11149,   8,  100671782) /* Icon */
+VALUES (11149,   1, 0x02000A9C) /* Setup */
+     , (11149,   3, 0x20000014) /* SoundTable */
+     , (11149,   8, 0x06002126) /* Icon */
      , (11149, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (11149, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11149, 8005,     133121) /* PCAPRecordedPhysicsDesc - CSetup, STable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11149, 8000, 2192304904) /* PCAPRecordedObjectIID */;
+VALUES (11149, 8000, 0x82ABEB08) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (2851,   1, 'Scroll of Leaden Weapon VI') /* Name */
 Worsens a weapon''s speed by 60 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2851,   1,   33554826) /* Setup */
-     , (2851,   8,  100676662) /* Icon */
-     , (2851,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2851,   1, 0x0200018A) /* Setup */
+     , (2851,   8, 0x06003436) /* Icon */
+     , (2851,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2851,  28,       1633) /* Spell - LeadenWeapon6 */
      , (2851, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2851, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2851, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2851, 8000, 3706738990) /* PCAPRecordedObjectIID */;
+VALUES (2851, 8000, 0xDCF0592E) /* PCAPRecordedObjectIID */;

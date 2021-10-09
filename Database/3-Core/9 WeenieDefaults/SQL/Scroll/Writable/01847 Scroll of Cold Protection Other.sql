@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1847,   1, 'Scroll of Cold Protection Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1847,   1,   33554826) /* Setup */
-     , (1847,   8,  100676950) /* Icon */
-     , (1847,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1847,   1, 0x0200018A) /* Setup */
+     , (1847,   8, 0x06003556) /* Icon */
+     , (1847,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1847,  28,       1036) /* Spell - ColdProtectionOther1 */
      , (1847, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1847, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1847, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1847, 8000, 2930930209) /* PCAPRecordedObjectIID */;
+VALUES (1847, 8000, 0xAEB27221) /* PCAPRecordedObjectIID */;

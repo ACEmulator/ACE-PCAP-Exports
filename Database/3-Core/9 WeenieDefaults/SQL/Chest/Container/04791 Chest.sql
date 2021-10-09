@@ -31,21 +31,21 @@ VALUES (4791,   1, 'Chest') /* Name */
      , (4791, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4791,   1,   33554556) /* Setup */
-     , (4791,   2,  150994948) /* MotionTable */
-     , (4791,   3,  536870945) /* SoundTable */
-     , (4791,   8,  100667424) /* Icon */
-     , (4791,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4791,   1, 0x0200007C) /* Setup */
+     , (4791,   2, 0x09000004) /* MotionTable */
+     , (4791,   3, 0x20000021) /* SoundTable */
+     , (4791,   8, 0x06001020) /* Icon */
+     , (4791,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4791, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (4791, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4791, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4791, 8040, 23396676, 19.8987, -36.2534, 0, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (4791, 8040, 0x01650144, 19.8987, -36.2534, 0, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01650144 [19.898700 -36.253400 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4791, 8000, 1880510481) /* PCAPRecordedObjectIID */;
+VALUES (4791, 8000, 0x70165011) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4791, -1, 8738, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Rithwic Town Stamp (8738) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -21,11 +21,11 @@ VALUES (22848,   1, 'Sho Floor Pillow') /* Name */
      , (22848,  15, 'A beautifully sewn Sho pillow.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22848,   1,   33558153) /* Setup */
-     , (22848,   8,  100673915) /* Icon */
+VALUES (22848,   1, 0x02000E89) /* Setup */
+     , (22848,   8, 0x0600297B) /* Icon */
      , (22848, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (22848, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22848, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22848, 8000, 2622805862) /* PCAPRecordedObjectIID */;
+VALUES (22848, 8000, 0x9C54D766) /* PCAPRecordedObjectIID */;

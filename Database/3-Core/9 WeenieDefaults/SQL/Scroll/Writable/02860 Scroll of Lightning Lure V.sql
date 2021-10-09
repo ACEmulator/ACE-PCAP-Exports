@@ -24,13 +24,13 @@ VALUES (2860,   1, 'Scroll of Lightning Lure V') /* Name */
 Decreases a shield or piece of armor''s resistance to electric damage by 100%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2860,   1,   33554826) /* Setup */
-     , (2860,   8,  100676668) /* Icon */
-     , (2860,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2860,   1, 0x0200018A) /* Setup */
+     , (2860,   8, 0x0600343C) /* Icon */
+     , (2860,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2860,  28,       1533) /* Spell - LightningLure5 */
      , (2860, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2860, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2860, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2860, 8000, 2925030639) /* PCAPRecordedObjectIID */;
+VALUES (2860, 8000, 0xAE586CEF) /* PCAPRecordedObjectIID */;

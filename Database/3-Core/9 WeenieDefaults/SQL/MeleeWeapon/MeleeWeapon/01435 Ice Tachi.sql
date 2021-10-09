@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1435,   1,          1) /* ItemType - MeleeWeapon */
      , (1435,   5,        450) /* EncumbranceVal */
      , (1435,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (1435,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (1435,  16,          1) /* ItemUseable - No */
      , (1435,  18,        128) /* UiEffects - Frost */
      , (1435,  19,       1300) /* Value */
@@ -45,29 +44,29 @@ VALUES (1435,   1, 'Ice Tachi') /* Name */
      , (1435,  15, 'An icy sword, its hilt inlaid with ivory and lapis lazuli.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1435,   1,   33555754) /* Setup */
-     , (1435,   6,   67111919) /* PaletteBase */
-     , (1435,   8,  100668916) /* Icon */
-     , (1435,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1435,   1, 0x0200052A) /* Setup */
+     , (1435,   6, 0x04000BEF) /* PaletteBase */
+     , (1435,   8, 0x060015F4) /* Icon */
+     , (1435,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1435, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (1435, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1435, 8005,     167969) /* PCAPRecordedPhysicsDesc - CSetup, Parent, PeTable, Position, AnimationFrame */
      , (1435, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1435, 8040, 23200208, 63.53141, -3.360832, 11.929, -0.02956501, -0.02956501, -0.7064884, -0.7064884) /* PCAPRecordedLocation */
+VALUES (1435, 8040, 0x016201D0, 63.53141, -3.360832, 11.929, -0.029565, -0.029565, -0.706488, -0.706488) /* PCAPRecordedLocation */
 /* @teleloc 0x016201D0 [63.531410 -3.360832 11.929000] -0.029565 -0.029565 -0.706488 -0.706488 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1435, 8000, 3622515865) /* PCAPRecordedObjectIID */
-     , (1435, 8008, 1343737031) /* PCAPRecordedParentIID */;
+VALUES (1435, 8000, 0xD7EB3499) /* PCAPRecordedObjectIID */
+     , (1435, 8008, 0x5017CCC7) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1435,    49,      2)  /* SwiftKillerSelf1 */
+VALUES (1435,  1601,      2)  /* DefenderSelf2 */
      , (1435,  1032,      2)  /* ColdProtectionSelf3 */
-     , (1435,  1588,      2)  /* HeartSeekerSelf2 */
-     , (1435,  1601,      2)  /* DefenderSelf2 */
-     , (1435,  1612,      2)  /* BloodDrinkerSelf2 */;
+     , (1435,  1612,      2)  /* BloodDrinkerSelf2 */
+     , (1435,    49,      2)  /* SwiftKillerSelf1 */
+     , (1435,  1588,      2)  /* HeartSeekerSelf2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1435, 67111920, 0, 0);

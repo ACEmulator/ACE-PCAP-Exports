@@ -27,21 +27,21 @@ VALUES (27245,   1, 'Chest') /* Name */
      , (27245, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27245,   1,   33554556) /* Setup */
-     , (27245,   2,  150994948) /* MotionTable */
-     , (27245,   3,  536870945) /* SoundTable */
-     , (27245,   8,  100667424) /* Icon */
-     , (27245,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27245,   1, 0x0200007C) /* Setup */
+     , (27245,   2, 0x09000004) /* MotionTable */
+     , (27245,   3, 0x20000021) /* SoundTable */
+     , (27245,   8, 0x06001020) /* Icon */
+     , (27245,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27245, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (27245, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (27245, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27245, 8040, 31785478, 71.9199, -97.8163, 0, 0.7036272, 0, 0, -0.7105693) /* PCAPRecordedLocation */
+VALUES (27245, 8040, 0x01E50206, 71.9199, -97.8163, 0, 0.703627, 0, 0, -0.710569) /* PCAPRecordedLocation */
 /* @teleloc 0x01E50206 [71.919900 -97.816300 0.000000] 0.703627 0.000000 0.000000 -0.710569 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27245, 8000, 1881034918) /* PCAPRecordedObjectIID */;
+VALUES (27245, 8000, 0x701E50A6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27245, -1, 148, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Cup (148) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

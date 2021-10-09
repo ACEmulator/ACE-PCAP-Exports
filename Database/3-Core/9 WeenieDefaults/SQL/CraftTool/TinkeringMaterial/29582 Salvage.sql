@@ -35,21 +35,21 @@ VALUES (29582,   1, 'Salvage') /* Name */
      , (29582,  15, 'Chips of sunstone material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29582,   1,   33554817) /* Setup */
-     , (29582,   3,  536870932) /* SoundTable */
-     , (29582,   6,   67111919) /* PaletteBase */
-     , (29582,   8,  100677144) /* Icon */
-     , (29582,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29582,   1, 0x02000181) /* Setup */
+     , (29582,   3, 0x20000014) /* SoundTable */
+     , (29582,   6, 0x04000BEF) /* PaletteBase */
+     , (29582,   8, 0x06003618) /* Icon */
+     , (29582,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29582, 8001, 2435333144) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, TargetType, Burden, Workmanship, HookType, MaterialType */
      , (29582, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29582, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29582, 8040, 23855554, 55.16236, -27.68048, -0.002499998, -0.02748624, 0, 0, -0.9996222) /* PCAPRecordedLocation */
+VALUES (29582, 8040, 0x016C01C2, 55.16236, -27.68048, -0.0025, -0.027486, 0, 0, -0.999622) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.162360 -27.680480 -0.002500] -0.027486 0.000000 0.000000 -0.999622 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29582, 8000, 3250160099) /* PCAPRecordedObjectIID */;
+VALUES (29582, 8000, 0xC1B981E3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29582, 67111918, 0, 0);

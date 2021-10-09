@@ -22,13 +22,13 @@ VALUES (14903,   1, 'Symbol of Marriage') /* Name */
      , (14903,  16, 'Marriage is a sacred commitment not to be taken lightly.  One must be willing to love, honor and cherish the members of this blessed union. Fully willing to provide the friendship and companionship necessary for this commitment.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14903,   1,   33557613) /* Setup */
-     , (14903,   3,  536870932) /* SoundTable */
-     , (14903,   8,  100672704) /* Icon */
-     , (14903,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14903,   1, 0x02000C6D) /* Setup */
+     , (14903,   3, 0x20000014) /* SoundTable */
+     , (14903,   8, 0x060024C0) /* Icon */
+     , (14903,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14903, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (14903, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14903, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14903, 8000, 3658159444) /* PCAPRecordedObjectIID */;
+VALUES (14903, 8000, 0xDA0B1554) /* PCAPRecordedObjectIID */;

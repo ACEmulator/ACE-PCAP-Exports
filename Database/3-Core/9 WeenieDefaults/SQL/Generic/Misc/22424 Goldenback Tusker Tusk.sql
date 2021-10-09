@@ -15,6 +15,7 @@ VALUES (22424,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22424,  22, True ) /* Inscribable */
+     , (22424,  23, True ) /* DestroyOnSell */
      , (22424,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,13 +23,13 @@ VALUES (22424,   1, 'Goldenback Tusker Tusk') /* Name */
      , (22424,  15, 'A tusk plucked from a dead Goldenback Tusker. Brighteyes, the tailor at 2.2N 95.6E in Oolatanga''s Refuge on Aphus Lassel collects these.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22424,   1,   33557838) /* Setup */
-     , (22424,   3,  536870932) /* SoundTable */
-     , (22424,   8,  100673056) /* Icon */
-     , (22424,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22424,   1, 0x02000D4E) /* Setup */
+     , (22424,   3, 0x20000014) /* SoundTable */
+     , (22424,   8, 0x06002620) /* Icon */
+     , (22424,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22424, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (22424, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22424, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22424, 8000, 2924785668) /* PCAPRecordedObjectIID */;
+VALUES (22424, 8000, 0xAE54B004) /* PCAPRecordedObjectIID */;

@@ -49,17 +49,17 @@ VALUES (4192,   1, 'Acid Cestus') /* Name */
      , (4192,  16, 'Acid Cestus of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4192,   1,   33555992) /* Setup */
-     , (4192,   3,  536870932) /* SoundTable */
-     , (4192,   8,  100670025) /* Icon */
-     , (4192,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4192,   1, 0x02000618) /* Setup */
+     , (4192,   3, 0x20000014) /* SoundTable */
+     , (4192,   8, 0x06001A49) /* Icon */
+     , (4192,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4192,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (4192, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (4192, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4192, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4192, 8000, 3701072128) /* PCAPRecordedObjectIID */;
+VALUES (4192, 8000, 0xDC99E100) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (4192,  1602,      2)  /* DefenderSelf3 */

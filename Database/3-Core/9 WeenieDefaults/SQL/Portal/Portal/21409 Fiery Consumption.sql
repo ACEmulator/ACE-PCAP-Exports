@@ -24,16 +24,16 @@ VALUES (21409,   1, 'Fiery Consumption') /* Name */
      , (21409, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21409,   1,   33555926) /* Setup */
-     , (21409,   2,  150994947) /* MotionTable */
-     , (21409,   8,  100667499) /* Icon */
+VALUES (21409,   1, 0x020005D6) /* Setup */
+     , (21409,   2, 0x09000003) /* MotionTable */
+     , (21409,   8, 0x0600106B) /* Icon */
      , (21409, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (21409, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (21409, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21409, 8040, 1448280484, 23.013, -6.763, 47.937, -0.9999998, 0, 0, -0.0007069999) /* PCAPRecordedLocation */
+VALUES (21409, 8040, 0x565301A4, 23.013, -6.763, 47.937, -1, 0, 0, -0.000707) /* PCAPRecordedLocation */
 /* @teleloc 0x565301A4 [23.013000 -6.763000 47.937000] -1.000000 0.000000 0.000000 -0.000707 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21409, 8000, 1969565711) /* PCAPRecordedObjectIID */;
+VALUES (21409, 8000, 0x7565300F) /* PCAPRecordedObjectIID */;

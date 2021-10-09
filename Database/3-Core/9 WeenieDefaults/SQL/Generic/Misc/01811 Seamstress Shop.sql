@@ -18,18 +18,18 @@ VALUES (1811,   1, 'Seamstress Shop') /* Name */
      , (1811,  16, 'Seamstress Shop') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1811,   1,   33555909) /* Setup */
-     , (1811,   8,  100668115) /* Icon */
+VALUES (1811,   1, 0x020005C5) /* Setup */
+     , (1811,   8, 0x060012D3) /* Icon */
      , (1811, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (1811, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1811, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1811, 8040, 2724134957, 137.684, 99.9386, 23.1352, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (1811, 8040, 0xA25F002D, 137.684, 99.9386, 23.1352, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xA25F002D [137.684000 99.938600 23.135200] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1811, 8000, 2049306649) /* PCAPRecordedObjectIID */;
+VALUES (1811, 8000, 0x7A25F019) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (1811, 0, 83892071, 83892181);

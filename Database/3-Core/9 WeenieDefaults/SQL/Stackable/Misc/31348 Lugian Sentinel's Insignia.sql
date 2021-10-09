@@ -17,18 +17,21 @@ VALUES (31348,   1,        128) /* ItemType - Misc */
      , (31348, 114,          1) /* Attuned - Attuned */
      , (31348, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31348,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31348,   1, 'Lugian Sentinel''s Insignia') /* Name */
      , (31348,  16, 'The insignia badge from a high ranking Tukora Sentinel. This Lugian must have been held in high regard to carry a trinket such as this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31348,   1,   33554817) /* Setup */
-     , (31348,   3,  536870932) /* SoundTable */
-     , (31348,   8,  100687706) /* Icon */
-     , (31348,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31348,   1, 0x02000181) /* Setup */
+     , (31348,   3, 0x20000014) /* SoundTable */
+     , (31348,   8, 0x06005F5A) /* Icon */
+     , (31348,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31348, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (31348, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31348, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31348, 8000, 2207306672) /* PCAPRecordedObjectIID */;
+VALUES (31348, 8000, 0x8390D3B0) /* PCAPRecordedObjectIID */;

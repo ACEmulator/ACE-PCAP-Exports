@@ -45,19 +45,19 @@ VALUES (1481,   1, 'Quarter Staff of Fire') /* Name */
      , (1481,  16, 'A flaming staff wrestled from the grasp of a treacherous banderling bandit.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1481,   1,   33558066) /* Setup */
-     , (1481,   8,  100667602) /* Icon */
-     , (1481,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1481,   1, 0x02000E32) /* Setup */
+     , (1481,   8, 0x060010D2) /* Icon */
+     , (1481,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1481, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (1481, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1481, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1481, 8000, 2186220514) /* PCAPRecordedObjectIID */;
+VALUES (1481, 8000, 0x824F13E2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1481,   836,      2)  /* FireProtectionOther3 */
-     , (1481,  1589,      2)  /* HeartSeekerSelf3 */
-     , (1481,  1602,      2)  /* DefenderSelf3 */
+VALUES (1481,  1602,      2)  /* DefenderSelf3 */
+     , (1481,   836,      2)  /* FireProtectionOther3 */
      , (1481,  1613,      2)  /* BloodDrinkerSelf3 */
-     , (1481,  1624,      2)  /* SwiftKillerSelf3 */;
+     , (1481,  1624,      2)  /* SwiftKillerSelf3 */
+     , (1481,  1589,      2)  /* HeartSeekerSelf3 */;

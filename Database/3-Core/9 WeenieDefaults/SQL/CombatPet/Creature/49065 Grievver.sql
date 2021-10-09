@@ -32,12 +32,12 @@ VALUES (49065,   1, 'Grievver') /* Name */
      , (49065, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49065,   1,   33556698) /* Setup */
-     , (49065,   2,  150995098) /* MotionTable */
-     , (49065,   3,  536871009) /* SoundTable */
-     , (49065,   6,   67112927) /* PaletteBase */
-     , (49065,   8,  100670960) /* Icon */
-     , (49065,  22,  872415364) /* PhysicsEffectTable */
+VALUES (49065,   1, 0x020008DA) /* Setup */
+     , (49065,   2, 0x0900009A) /* MotionTable */
+     , (49065,   3, 0x20000061) /* SoundTable */
+     , (49065,   6, 0x04000FDF) /* PaletteBase */
+     , (49065,   8, 0x06001DF0) /* Icon */
+     , (49065,  22, 0x34000084) /* PhysicsEffectTable */
      , (49065,  30,         87) /* PhysicsScript - BreatheLightning */
      , (49065, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49065, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
@@ -45,11 +45,11 @@ VALUES (49065,   1,   33556698) /* Setup */
      , (49065, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49065, 8040, 2392915988, 57.49592, 83.16639, 94.13728, -0.9992963, 0, 0, -0.03750842) /* PCAPRecordedLocation */
+VALUES (49065, 8040, 0x8EA10014, 57.49592, 83.16639, 94.13728, -0.999296, 0, 0, -0.037508) /* PCAPRecordedLocation */
 /* @teleloc 0x8EA10014 [57.495920 83.166390 94.137280] -0.999296 0.000000 0.000000 -0.037508 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49065, 8000, 2930383696) /* PCAPRecordedObjectIID */;
+VALUES (49065, 8000, 0xAEAA1B50) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49065,   1, 210, 0, 0) /* Strength */

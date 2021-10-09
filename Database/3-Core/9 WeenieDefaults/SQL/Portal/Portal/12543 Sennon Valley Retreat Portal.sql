@@ -22,16 +22,16 @@ VALUES (12543,   1, 'Sennon Valley Retreat Portal') /* Name */
      , (12543, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12543,   1,   33554867) /* Setup */
-     , (12543,   2,  150994947) /* MotionTable */
-     , (12543,   8,  100667499) /* Icon */
+VALUES (12543,   1, 0x020001B3) /* Setup */
+     , (12543,   2, 0x09000003) /* MotionTable */
+     , (12543,   8, 0x0600106B) /* Icon */
      , (12543, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12543, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12543, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12543, 8040, 3383230509, 127.477, 116.546, 49.31392, -0.1888259, 0, 0, 0.9820106) /* PCAPRecordedLocation */
+VALUES (12543, 8040, 0xC9A8002D, 127.477, 116.546, 49.31392, -0.188826, 0, 0, 0.982011) /* PCAPRecordedLocation */
 /* @teleloc 0xC9A8002D [127.477000 116.546000 49.313920] -0.188826 0.000000 0.000000 0.982011 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12543, 8000, 2090500099) /* PCAPRecordedObjectIID */;
+VALUES (12543, 8000, 0x7C9A8003) /* PCAPRecordedObjectIID */;

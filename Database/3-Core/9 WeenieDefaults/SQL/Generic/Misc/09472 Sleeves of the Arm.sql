@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9472,   1, 'Sleeves of the Arm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9472,   1,   33554655) /* Setup */
-     , (9472,   3,  536870932) /* SoundTable */
-     , (9472,   6,   67108990) /* PaletteBase */
-     , (9472,   8,  100671496) /* Icon */
-     , (9472,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9472,   1, 0x020000DF) /* Setup */
+     , (9472,   3, 0x20000014) /* SoundTable */
+     , (9472,   6, 0x0400007E) /* PaletteBase */
+     , (9472,   8, 0x06002008) /* Icon */
+     , (9472,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9472, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (9472, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9472, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9472, 8000, 2368838016) /* PCAPRecordedObjectIID */;
+VALUES (9472, 8000, 0x8D319980) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9472, 67110386, 40, 24);

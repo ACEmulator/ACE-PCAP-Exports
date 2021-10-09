@@ -39,23 +39,23 @@ VALUES (36048,   1, 'Visage of the Shadow Virindi') /* Name */
      , (36048,  16, 'This mask was fashioned for its wielder from the defeated essence of Aerbax left within Claude the Archmage. While it lacks in physical form, it radiates magical power beyond most articles of clothing or armor you have encountered.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36048,   1,   33560396) /* Setup */
-     , (36048,   3,  536870932) /* SoundTable */
-     , (36048,   6,   67108990) /* PaletteBase */
-     , (36048,   8,  100689660) /* Icon */
-     , (36048,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36048,   1, 0x0200174C) /* Setup */
+     , (36048,   3, 0x20000014) /* SoundTable */
+     , (36048,   6, 0x0400007E) /* PaletteBase */
+     , (36048,   8, 0x060066FC) /* Icon */
+     , (36048,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36048, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (36048, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36048, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36048, 8000, 2919771216) /* PCAPRecordedObjectIID */;
+VALUES (36048, 8000, 0xAE082C50) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36048,  2059,      2)  /* CoordinationSelf7 */
+     , (36048,  2574,      2)  /* CANTRIPFOCUS2 */
      , (36048,  2067,      2)  /* FocusSelf7 */
      , (36048,  2287,      2)  /* ManaMasterySelf7 */
-     , (36048,  2574,      2)  /* CANTRIPFOCUS2 */
      , (36048,  4215,      2)  /* ShadowArmor */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

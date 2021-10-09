@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (47907,   1,          1) /* ItemType - MeleeWeapon */
      , (47907,   5,        135) /* EncumbranceVal */
      , (47907,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (47907,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (47907,  16,          1) /* ItemUseable - No */
      , (47907,  19,        155) /* Value */
      , (47907,  51,          1) /* CombatUse - Melee */
@@ -16,33 +15,29 @@ VALUES (47907,   1,          1) /* ItemType - MeleeWeapon */
      , (47907, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47907,  22, True ) /* Inscribable */
-     , (47907,  69, False) /* IsSellable */
-     , (47907,  99, False) /* Ivoryable */;
+VALUES (47907,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47907,   1, 'Nekode') /* Name */
-     , (47907,  14, 'Use this gem to summon the weapon it is bound to.') /* Use */
-     , (47907,  16, 'A gem, seemingly made of congealed portal energy.  You know that using this gem will summon forth the weapon known as the Chimeric Bow of the Quiddity.  Once summoned, the weapon will only remain in the world for 3 hours.  ( BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out.  2 - Have a free space in your main pack when you use this gem. 3 - You must be at least level 120 to wield the weapon summoned by this gem)') /* LongDesc */;
+VALUES (47907,   1, 'Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47907,   1,   33555996) /* Setup */
-     , (47907,   3,  536870932) /* SoundTable */
-     , (47907,   6,   67111919) /* PaletteBase */
-     , (47907,   8,  100670027) /* Icon */
-     , (47907,  22,  872415275) /* PhysicsEffectTable */
+VALUES (47907,   1, 0x0200061C) /* Setup */
+     , (47907,   3, 0x20000014) /* SoundTable */
+     , (47907,   6, 0x04000BEF) /* PaletteBase */
+     , (47907,   8, 0x06001A4B) /* Icon */
+     , (47907,  22, 0x3400002B) /* PhysicsEffectTable */
      , (47907, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (47907, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (47907, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (47907, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (47907, 8040, 1604190213, 20.24322, 98.31895, 14.43826, 0.6532815, 0.6532815, -0.2705981, -0.2705981) /* PCAPRecordedLocation */
+VALUES (47907, 8040, 0x5F9E0005, 20.24322, 98.31895, 14.43826, 0.653282, 0.653282, -0.270598, -0.270598) /* PCAPRecordedLocation */
 /* @teleloc 0x5F9E0005 [20.243220 98.318950 14.438260] 0.653282 0.653282 -0.270598 -0.270598 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47907, 8000, 3686228012) /* PCAPRecordedObjectIID */
-     , (47907, 8008, 3686178233) /* PCAPRecordedParentIID */;
+VALUES (47907, 8000, 0xDBB7602C) /* PCAPRecordedObjectIID */
+     , (47907, 8008, 0xDBB69DB9) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (47907, 67111920, 0, 0);

@@ -45,18 +45,18 @@ VALUES (25640,   1, 'Leather Cowl') /* Name */
      , (25640,  16, 'Leather Cowl') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25640,   1,   33555048) /* Setup */
-     , (25640,   3,  536870932) /* SoundTable */
-     , (25640,   6,   67108990) /* PaletteBase */
-     , (25640,   8,  100675167) /* Icon */
-     , (25640,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25640,   1, 0x02000268) /* Setup */
+     , (25640,   3, 0x20000014) /* SoundTable */
+     , (25640,   6, 0x0400007E) /* PaletteBase */
+     , (25640,   8, 0x06002E5F) /* Icon */
+     , (25640,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25640,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (25640, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (25640, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25640, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25640, 8000, 3694165623) /* PCAPRecordedObjectIID */;
+VALUES (25640, 8000, 0xDC307E77) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25640,  1485,      2)  /* Impenetrability5 */

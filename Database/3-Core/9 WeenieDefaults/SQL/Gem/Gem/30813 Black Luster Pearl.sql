@@ -30,18 +30,18 @@ VALUES (30813,   1, 'Black Luster Pearl') /* Name */
      , (30813,  15, 'A large black pearl that appears to come from an unknown creature. Wisps of dark energy flail out from the pearl, compelling you to hold it in your hands.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30813,   1,   33558259) /* Setup */
-     , (30813,   3,  536870932) /* SoundTable */
-     , (30813,   6,   67112870) /* PaletteBase */
-     , (30813,   8,  100675628) /* Icon */
-     , (30813,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30813,   1, 0x02000EF3) /* Setup */
+     , (30813,   3, 0x20000014) /* SoundTable */
+     , (30813,   6, 0x04000FA6) /* PaletteBase */
+     , (30813,   8, 0x0600302C) /* Icon */
+     , (30813,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30813,  28,       3800) /* Spell - BurningSpiritReliquary */
      , (30813, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (30813, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30813, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30813, 8000, 2157927917) /* PCAPRecordedObjectIID */;
+VALUES (30813, 8000, 0x809F5DED) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30813, 67114793, 0, 0);

@@ -17,7 +17,7 @@ VALUES (49321,   1,        128) /* ItemType - Misc */
      , (49321, 105,          8) /* ItemWorkmanship */
      , (49321, 114,          0) /* Attuned - Normal */
      , (49321, 280,        213) /* SharedCooldown */
-     , (49321, 366,         54) /* UseRequiresSkill */
+     , (49321, 366,         54) /* UseRequiresSkill - Summoning */
      , (49321, 367,        475) /* UseRequiresSkillLevel */
      , (49321, 369,        140) /* UseRequiresLevel */
      , (49321, 370,         17) /* GearDamage */
@@ -39,23 +39,20 @@ VALUES (49321,   1, 'Lightning Wisp Essence (150)') /* Name */
      , (49321,  14, 'Use this essence to summon or dismiss your Lightning Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49321,   1,   33554817) /* Setup */
-     , (49321,   3,  536870932) /* SoundTable */
-     , (49321,   6,   67111919) /* PaletteBase */
-     , (49321,   8,  100693035) /* Icon */
-     , (49321,  22,  872415275) /* PhysicsEffectTable */
-     , (49321,  50,  100693030) /* IconOverlay */
-     , (49321,  52,  100693024) /* IconUnderlay */
+VALUES (49321,   1, 0x02000181) /* Setup */
+     , (49321,   3, 0x20000014) /* SoundTable */
+     , (49321,   6, 0x04000BEF) /* PaletteBase */
+     , (49321,   8, 0x0600742B) /* Icon */
+     , (49321,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49321,  50, 0x06007426) /* IconOverlay */
+     , (49321,  52, 0x06007420) /* IconUnderlay */
      , (49321, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49321, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49321, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49321, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49321, 8000, 3137180299) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49321, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+VALUES (49321, 8000, 0xBAFD928B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49321, 67111921, 0, 0);

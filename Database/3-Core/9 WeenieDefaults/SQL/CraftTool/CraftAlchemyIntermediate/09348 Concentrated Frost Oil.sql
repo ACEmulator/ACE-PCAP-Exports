@@ -27,17 +27,17 @@ VALUES (9348,   1, 'Concentrated Frost Oil') /* Name */
      , (9348,  20, 'Vials of Concentrated Frost Oil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9348,   1,   33555967) /* Setup */
-     , (9348,   3,  536870932) /* SoundTable */
-     , (9348,   6,   67111919) /* PaletteBase */
-     , (9348,   8,  100671586) /* Icon */
-     , (9348,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9348,   1, 0x020005FF) /* Setup */
+     , (9348,   3, 0x20000014) /* SoundTable */
+     , (9348,   6, 0x04000BEF) /* PaletteBase */
+     , (9348,   8, 0x06002062) /* Icon */
+     , (9348,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9348, 8001,  268988441) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, HookType */
      , (9348, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9348, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9348, 8000, 2771580914) /* PCAPRecordedObjectIID */;
+VALUES (9348, 8000, 0xA532F7F2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9348, 67111927, 0, 0);

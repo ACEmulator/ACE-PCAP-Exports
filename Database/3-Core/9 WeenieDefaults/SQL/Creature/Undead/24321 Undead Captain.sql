@@ -25,22 +25,22 @@ VALUES (24321,   1, 'Undead Captain') /* Name */
      , (24321, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24321,   1,   33554839) /* Setup */
-     , (24321,   2,  150994967) /* MotionTable */
-     , (24321,   3,  536870934) /* SoundTable */
-     , (24321,   6,   67110722) /* PaletteBase */
-     , (24321,   8,  100667942) /* Icon */
-     , (24321,  22,  872415272) /* PhysicsEffectTable */
+VALUES (24321,   1, 0x02000197) /* Setup */
+     , (24321,   2, 0x09000017) /* MotionTable */
+     , (24321,   3, 0x20000016) /* SoundTable */
+     , (24321,   6, 0x04000742) /* PaletteBase */
+     , (24321,   8, 0x06001226) /* Icon */
+     , (24321,  22, 0x34000028) /* PhysicsEffectTable */
      , (24321, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24321, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24321, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24321, 8040, 1072824366, 134.5254, 136.5062, 2.429142, -0.9513678, 0, 0, -0.3080573) /* PCAPRecordedLocation */
+VALUES (24321, 8040, 0x3FF2002E, 134.5254, 136.5062, 2.429142, -0.951368, 0, 0, -0.308057) /* PCAPRecordedLocation */
 /* @teleloc 0x3FF2002E [134.525400 136.506200 2.429142] -0.951368 0.000000 0.000000 -0.308057 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24321, 8000, 3692663874) /* PCAPRecordedObjectIID */;
+VALUES (24321, 8000, 0xDC199442) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (24321,   1,     0, 0, 0, 740) /* MaxHealth */;
@@ -65,6 +65,7 @@ VALUES (24321, 2, 48018,  1, 0, 0, False) /* Create Acid Ono (48018) for Wield *
      , (24321, 2, 48013,  1, 0, 0, False) /* Create Acid Nekode (48013) for Wield */
      , (24321, 2, 48009,  1, 0, 0, False) /* Create Acid Katar (48009) for Wield */
      , (24321, 2, 48095,  1, 0, 0, False) /* Create Lightning Silifi (48095) for Wield */
+     , (24321, 2, 48011,  1, 0, 0, False) /* Create Lightning Katar (48011) for Wield */
      , (24321, 9, 21159,  0, 0, 0, False) /* Create Covenant Tassets (21159) for ContainTreasure */
      , (24321, 9, 20531,  0, 0, 0, False) /* Create Scroll of Lilitha's Blessing (20531) for ContainTreasure */
      , (24321, 9, 28008,  0, 0, 0, False) /* Create Aura of Infected Spirit Caress Scroll (28008) for ContainTreasure */

@@ -45,17 +45,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20971,   1, 'Deadly Frog Crotch Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20971,   1,   33557434) /* Setup */
-     , (20971,   3,  536870932) /* SoundTable */
-     , (20971,   6,   67111919) /* PaletteBase */
-     , (20971,   8,  100672683) /* Icon */
-     , (20971,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20971,   1, 0x02000BBA) /* Setup */
+     , (20971,   3, 0x20000014) /* SoundTable */
+     , (20971,   6, 0x04000BEF) /* PaletteBase */
+     , (20971,   8, 0x060024AB) /* Icon */
+     , (20971,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20971, 8001,  270627608) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (20971, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (20971, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20971, 8000, 3697703497) /* PCAPRecordedObjectIID */;
+VALUES (20971, 8000, 0xDC667A49) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20971, 67111918, 0, 0);

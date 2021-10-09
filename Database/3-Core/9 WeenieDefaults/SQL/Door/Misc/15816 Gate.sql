@@ -28,18 +28,18 @@ VALUES (15816,   1, 'Gate') /* Name */
      , (15816, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15816,   1,   33557630) /* Setup */
-     , (15816,   2,  150995139) /* MotionTable */
-     , (15816,   3,  536870947) /* SoundTable */
-     , (15816,   8,  100668183) /* Icon */
-     , (15816,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15816,   1, 0x02000C7E) /* Setup */
+     , (15816,   2, 0x090000C3) /* MotionTable */
+     , (15816,   3, 0x20000023) /* SoundTable */
+     , (15816,   8, 0x06001317) /* Icon */
+     , (15816,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15816, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (15816, 8003,       4116) /* PCAPRecordedObjectDesc - Stuck, Attackable, Door */
      , (15816, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15816, 8040, 3346137344, 84.035, 111.527, 40, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (15816, 8040, 0xC7720100, 84.035, 111.527, 40, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC7720100 [84.035000 111.527000 40.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15816, 8000, 2088181771) /* PCAPRecordedObjectIID */;
+VALUES (15816, 8000, 0x7C77200B) /* PCAPRecordedObjectIID */;

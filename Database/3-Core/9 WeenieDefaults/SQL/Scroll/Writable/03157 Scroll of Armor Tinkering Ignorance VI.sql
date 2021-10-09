@@ -24,13 +24,13 @@ VALUES (3157,   1, 'Scroll of Armor Tinkering Ignorance VI') /* Name */
 Decreases the target''s Armor Tinkering skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3157,   1,   33554826) /* Setup */
-     , (3157,   8,  100676477) /* Icon */
-     , (3157,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3157,   1, 0x0200018A) /* Setup */
+     , (3157,   8, 0x0600337D) /* Icon */
+     , (3157,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3157,  28,        725) /* Spell - ArmorIgnoranceOther6 */
      , (3157, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3157, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3157, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3157, 8000, 2874694809) /* PCAPRecordedObjectIID */;
+VALUES (3157, 8000, 0xAB585C99) /* PCAPRecordedObjectIID */;

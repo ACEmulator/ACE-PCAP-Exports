@@ -23,18 +23,18 @@ VALUES (51974,   1, 'Sanctum Warding Crystal') /* Name */
      , (51974, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51974,   1,   33560014) /* Setup */
-     , (51974,   2,  150995261) /* MotionTable */
-     , (51974,   3,  536870933) /* SoundTable */
-     , (51974,   8,  100671183) /* Icon */
-     , (51974,  22,  872415328) /* PhysicsEffectTable */
+VALUES (51974,   1, 0x020015CE) /* Setup */
+     , (51974,   2, 0x0900013D) /* MotionTable */
+     , (51974,   3, 0x20000015) /* SoundTable */
+     , (51974,   8, 0x06001ECF) /* Icon */
+     , (51974,  22, 0x34000060) /* PhysicsEffectTable */
      , (51974, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51974, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (51974, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51974, 8040, 758185992, 4.283, 187.688, 215.05, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51974, 8040, 0x2D310008, 4.283, 187.688, 215.05, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2D310008 [4.283000 187.688000 215.050000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51974, 8000, 3703745259) /* PCAPRecordedObjectIID */;
+VALUES (51974, 8000, 0xDCC2AAEB) /* PCAPRecordedObjectIID */;

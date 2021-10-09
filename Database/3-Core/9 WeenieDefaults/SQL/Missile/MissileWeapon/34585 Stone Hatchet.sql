@@ -17,7 +17,7 @@ VALUES (34585,   1,        256) /* ItemType - MissileWeapon */
      , (34585,  45,          1) /* DamageType - Slash */
      , (34585,  48,         47) /* WeaponSkill - MissileWeapons */
      , (34585,  49,         20) /* WeaponTime */
-     , (34585,  51,          2) /* CombatUse - Missle */
+     , (34585,  51,          2) /* CombatUse - Missile */
      , (34585,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (34585, 151,          2) /* HookType - Wall */
      , (34585, 353,         10) /* WeaponType - Thrown */
@@ -38,13 +38,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34585,   1, 'Stone Hatchet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34585,   1,   33560174) /* Setup */
-     , (34585,   3,  536870932) /* SoundTable */
-     , (34585,   8,  100675762) /* Icon */
-     , (34585,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34585,   1, 0x0200166E) /* Setup */
+     , (34585,   3, 0x20000014) /* SoundTable */
+     , (34585,   8, 0x060030B2) /* Icon */
+     , (34585,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34585, 8001,  270627352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (34585, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34585, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34585, 8000, 3708768549) /* PCAPRecordedObjectIID */;
+VALUES (34585, 8000, 0xDD0F5125) /* PCAPRecordedObjectIID */;

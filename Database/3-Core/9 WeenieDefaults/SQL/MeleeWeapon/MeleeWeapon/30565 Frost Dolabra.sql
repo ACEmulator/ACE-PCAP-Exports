@@ -54,11 +54,11 @@ VALUES (30565,   1, 'Frost Dolabra') /* Name */
      , (30565,  16, 'Frost Dolabra of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30565,   1,   33559454) /* Setup */
-     , (30565,   3,  536870932) /* SoundTable */
-     , (30565,   6,   67115558) /* PaletteBase */
-     , (30565,   8,  100686924) /* Icon */
-     , (30565,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30565,   1, 0x0200139E) /* Setup */
+     , (30565,   3, 0x20000014) /* SoundTable */
+     , (30565,   6, 0x04001A26) /* PaletteBase */
+     , (30565,   8, 0x06005C4C) /* Icon */
+     , (30565,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30565,  30,         88) /* PhysicsScript - Create */
      , (30565,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (30565, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
@@ -66,7 +66,7 @@ VALUES (30565,   1,   33559454) /* Setup */
      , (30565, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30565, 8000, 2930220966) /* PCAPRecordedObjectIID */;
+VALUES (30565, 8000, 0xAEA79FA6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30565,  1616,      2)  /* BloodDrinkerSelf6 */;

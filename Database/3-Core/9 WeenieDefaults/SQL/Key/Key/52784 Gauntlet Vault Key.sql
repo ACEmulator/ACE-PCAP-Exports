@@ -18,6 +18,7 @@ VALUES (52784,   1,      16384) /* ItemType - Key */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52784,  22, True ) /* Inscribable */
+     , (52784,  23, True ) /* DestroyOnSell */
      , (52784,  69, False) /* IsSellable */
      , (52784,  99, False) /* Ivoryable */;
 
@@ -27,12 +28,12 @@ VALUES (52784,   1, 'Gauntlet Vault Key') /* Name */
      , (52784,  16, 'A dark silver Empyrean key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52784,   1,   33554784) /* Setup */
-     , (52784,   8,  100693320) /* Icon */
-     , (52784,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52784,   1, 0x02000160) /* Setup */
+     , (52784,   8, 0x06007548) /* Icon */
+     , (52784,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52784, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (52784, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52784, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52784, 8000, 2342730624) /* PCAPRecordedObjectIID */;
+VALUES (52784, 8000, 0x8BA33B80) /* PCAPRecordedObjectIID */;

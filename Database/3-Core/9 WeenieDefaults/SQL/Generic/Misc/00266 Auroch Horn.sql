@@ -18,11 +18,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (266,   1, 'Auroch Horn') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (266,   1,   33554706) /* Setup */
-     , (266,   8,  100668178) /* Icon */
+VALUES (266,   1, 0x02000112) /* Setup */
+     , (266,   8, 0x06001312) /* Icon */
      , (266, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (266, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (266, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (266, 8000, 3261434810) /* PCAPRecordedObjectIID */;
+VALUES (266, 8000, 0xC2658BBA) /* PCAPRecordedObjectIID */;

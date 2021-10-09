@@ -17,7 +17,7 @@ VALUES (22251,   1,        256) /* ItemType - MissileWeapon */
      , (22251,  45,          4) /* DamageType - Bludgeon */
      , (22251,  48,         47) /* WeaponSkill - MissileWeapons */
      , (22251,  49,         10) /* WeaponTime */
-     , (22251,  51,          2) /* CombatUse - Missle */
+     , (22251,  51,          2) /* CombatUse - Missile */
      , (22251,  93,     134164) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn, Inelastic */
      , (22251, 151,         11) /* HookType - Floor, Wall, Yard */
      , (22251, 353,         10) /* WeaponType - Thrown */
@@ -44,17 +44,17 @@ VALUES (22251,   1, 'Superior Great Jack o'' Lantern') /* Name */
      , (22251,  20, 'Superior Great Jack o'' Lanterns') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22251,   1,   33556812) /* Setup */
-     , (22251,   3,  536870932) /* SoundTable */
-     , (22251,   6,   67112968) /* PaletteBase */
-     , (22251,   8,  100671020) /* Icon */
-     , (22251,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22251,   1, 0x0200094C) /* Setup */
+     , (22251,   3, 0x20000014) /* SoundTable */
+     , (22251,   6, 0x04001008) /* PaletteBase */
+     , (22251,   8, 0x06001E2C) /* Icon */
+     , (22251,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22251, 8001,  270627353) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (22251, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (22251, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22251, 8000, 2981037263) /* PCAPRecordedObjectIID */;
+VALUES (22251, 8000, 0xB1AF04CF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22251, 67112968, 0, 0);

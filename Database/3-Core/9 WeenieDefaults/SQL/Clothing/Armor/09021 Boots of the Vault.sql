@@ -39,17 +39,17 @@ VALUES (9021,   1, 'Boots of the Vault') /* Name */
      , (9021,  16, 'A pair of boots.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9021,   1,   33556683) /* Setup */
-     , (9021,   3,  536870932) /* SoundTable */
-     , (9021,   6,   67108990) /* PaletteBase */
-     , (9021,   8,  100670885) /* Icon */
-     , (9021,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9021,   1, 0x020008CB) /* Setup */
+     , (9021,   3, 0x20000014) /* SoundTable */
+     , (9021,   6, 0x0400007E) /* PaletteBase */
+     , (9021,   8, 0x06001DA5) /* Icon */
+     , (9021,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9021, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (9021, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9021, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9021, 8000, 2879954881) /* PCAPRecordedObjectIID */;
+VALUES (9021, 8000, 0xABA89FC1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9021,   980,      2)  /* JumpingMasteryOther5 */

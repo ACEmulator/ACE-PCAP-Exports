@@ -32,11 +32,11 @@ VALUES (10974,   1, 'Ahruenga Portal Gem') /* Name */
      , (10974,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10974,   1,   33556769) /* Setup */
-     , (10974,   3,  536870932) /* SoundTable */
-     , (10974,   6,   67111919) /* PaletteBase */
-     , (10974,   8,  100670993) /* Icon */
-     , (10974,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10974,   1, 0x02000921) /* Setup */
+     , (10974,   3, 0x20000014) /* SoundTable */
+     , (10974,   6, 0x04000BEF) /* PaletteBase */
+     , (10974,   8, 0x06001E11) /* Icon */
+     , (10974,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10974,  28,        157) /* Spell - SummonPortal1 */
      , (10974, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (10974, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -44,7 +44,7 @@ VALUES (10974,   1,   33556769) /* Setup */
      , (10974, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10974, 8000, 2174519206) /* PCAPRecordedObjectIID */;
+VALUES (10974, 8000, 0x819C87A6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10974, 67111922, 0, 0);

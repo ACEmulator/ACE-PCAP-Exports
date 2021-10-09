@@ -23,17 +23,17 @@ VALUES (769,   1, 'Dragonsblood') /* Name */
      , (769,  20, 'Sacks of Dragonsblood') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (769,   1,   33554817) /* Setup */
-     , (769,   3,  536870932) /* SoundTable */
-     , (769,   6,   67111919) /* PaletteBase */
-     , (769,   8,  100668420) /* Icon */
-     , (769,  22,  872415275) /* PhysicsEffectTable */
+VALUES (769,   1, 0x02000181) /* Setup */
+     , (769,   3, 0x20000014) /* SoundTable */
+     , (769,   6, 0x04000BEF) /* PaletteBase */
+     , (769,   8, 0x06001404) /* Icon */
+     , (769,  22, 0x3400002B) /* PhysicsEffectTable */
      , (769, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (769, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (769, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (769, 8000, 2856726452) /* PCAPRecordedObjectIID */;
+VALUES (769, 8000, 0xAA462FB4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (769, 67111921, 0, 0);

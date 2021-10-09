@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2055,   1, 'Directions to Hunter''s Leap') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2055,   1,   33554773) /* Setup */
-     , (2055,   3,  536870932) /* SoundTable */
-     , (2055,   8,  100675748) /* Icon */
-     , (2055,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2055,   1, 0x02000155) /* Setup */
+     , (2055,   3, 0x20000014) /* SoundTable */
+     , (2055,   8, 0x060030A4) /* Icon */
+     , (2055,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2055, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (2055, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (2055, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2055, 8000, 2240725129) /* PCAPRecordedObjectIID */;
+VALUES (2055, 8000, 0x858EC089) /* PCAPRecordedObjectIID */;

@@ -33,21 +33,21 @@ VALUES (11378,   1, 'Hea Timitea the Bowyer') /* Name */
      , (11378, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11378,   1,   33559550) /* Setup */
-     , (11378,   2,  150994954) /* MotionTable */
-     , (11378,   3,  536870931) /* SoundTable */
-     , (11378,   6,   67116625) /* PaletteBase */
-     , (11378,   8,  100667452) /* Icon */
+VALUES (11378,   1, 0x020013FE) /* Setup */
+     , (11378,   2, 0x0900000A) /* MotionTable */
+     , (11378,   3, 0x20000013) /* SoundTable */
+     , (11378,   6, 0x04001E51) /* PaletteBase */
+     , (11378,   8, 0x0600103C) /* Icon */
      , (11378, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (11378, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (11378, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11378, 8040, 247070986, 89.5952, 61.345, 1.705, -0.9785716, 0, 0, -0.205907) /* PCAPRecordedLocation */
+VALUES (11378, 8040, 0x0EBA010A, 89.5952, 61.345, 1.705, -0.978572, 0, 0, -0.205907) /* PCAPRecordedLocation */
 /* @teleloc 0x0EBA010A [89.595200 61.345000 1.705000] -0.978572 0.000000 0.000000 -0.205907 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11378, 8000, 1894490117) /* PCAPRecordedObjectIID */;
+VALUES (11378, 8000, 0x70EBA005) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11378,   1,  60, 0, 0) /* Strength */

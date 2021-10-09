@@ -36,27 +36,27 @@ VALUES (27248,   1, 'Corin of Stonehold') /* Name */
      , (27248, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27248,   1,   33554433) /* Setup */
-     , (27248,   2,  150994945) /* MotionTable */
-     , (27248,   3,  536870913) /* SoundTable */
-     , (27248,   6,   67108990) /* PaletteBase */
-     , (27248,   8,  100667446) /* Icon */
-     , (27248,   9,   83890480) /* EyesTexture */
-     , (27248,  10,   83890520) /* NoseTexture */
-     , (27248,  11,   83890643) /* MouthTexture */
-     , (27248,  15,   67116981) /* HairPalette */
-     , (27248,  16,   67110065) /* EyesPalette */
-     , (27248,  17,   67109561) /* SkinPalette */
+VALUES (27248,   1, 0x02000001) /* Setup */
+     , (27248,   2, 0x09000001) /* MotionTable */
+     , (27248,   3, 0x20000001) /* SoundTable */
+     , (27248,   6, 0x0400007E) /* PaletteBase */
+     , (27248,   8, 0x06001036) /* Icon */
+     , (27248,   9, 0x05001130) /* EyesTexture */
+     , (27248,  10, 0x05001158) /* NoseTexture */
+     , (27248,  11, 0x050011D3) /* MouthTexture */
+     , (27248,  15, 0x04001FB5) /* HairPalette */
+     , (27248,  16, 0x040004B1) /* EyesPalette */
+     , (27248,  17, 0x040002B9) /* SkinPalette */
      , (27248, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (27248, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (27248, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27248, 8040, 1691680795, 82.2909, 66.7715, 78.005, -0.9969198, 0, 0, -0.07842814) /* PCAPRecordedLocation */
+VALUES (27248, 8040, 0x64D5001B, 82.2909, 66.7715, 78.005, -0.99692, 0, 0, -0.078428) /* PCAPRecordedLocation */
 /* @teleloc 0x64D5001B [82.290900 66.771500 78.005000] -0.996920 0.000000 0.000000 -0.078428 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27248, 8000, 1984778292) /* PCAPRecordedObjectIID */;
+VALUES (27248, 8000, 0x764D5034) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27248,   1,  75, 0, 0) /* Strength */
@@ -73,6 +73,8 @@ VALUES (27248,   1,    90, 0, 0, 130) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27248, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (27248, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (27248, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (27248, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (27248, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
      , (27248, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */

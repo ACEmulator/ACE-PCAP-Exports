@@ -44,17 +44,17 @@ VALUES (2602,   1, 'Loose Breeches') /* Name */
      , (2602,  16, 'Loose Breeches of Cold Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2602,   1,   33554960) /* Setup */
-     , (2602,   3,  536870932) /* SoundTable */
-     , (2602,   6,   67108990) /* PaletteBase */
-     , (2602,   8,  100667367) /* Icon */
-     , (2602,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2602,   1, 0x02000210) /* Setup */
+     , (2602,   3, 0x20000014) /* SoundTable */
+     , (2602,   6, 0x0400007E) /* PaletteBase */
+     , (2602,   8, 0x06000FE7) /* Icon */
+     , (2602,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2602, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (2602, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2602, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2602, 8000, 3695128283) /* PCAPRecordedObjectIID */;
+VALUES (2602, 8000, 0xDC3F2EDB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2602,  1034,      2)  /* ColdProtectionSelf5 */;

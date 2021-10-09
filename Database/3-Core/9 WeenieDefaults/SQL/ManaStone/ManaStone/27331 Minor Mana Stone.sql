@@ -26,11 +26,11 @@ VALUES (27331,   1, 'Minor Mana Stone') /* Name */
      , (27331,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27331,   1,   33555641) /* Setup */
-     , (27331,   8,  100676302) /* Icon */
+VALUES (27331,   1, 0x020004B9) /* Setup */
+     , (27331,   8, 0x060032CE) /* Icon */
      , (27331, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
      , (27331, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27331, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27331, 8000, 3691005779) /* PCAPRecordedObjectIID */;
+VALUES (27331, 8000, 0xDC004753) /* PCAPRecordedObjectIID */;

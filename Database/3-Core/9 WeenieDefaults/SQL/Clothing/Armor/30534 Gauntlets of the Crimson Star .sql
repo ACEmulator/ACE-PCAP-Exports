@@ -50,20 +50,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30534,   1, 'Gauntlets of the Crimson Star ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30534,   1,   33559447) /* Setup */
-     , (30534,   3,  536870932) /* SoundTable */
-     , (30534,   8,  100686911) /* Icon */
-     , (30534,  22,  872415275) /* PhysicsEffectTable */
-     , (30534,  52,  100686604) /* IconUnderlay */
+VALUES (30534,   1, 0x02001397) /* Setup */
+     , (30534,   3, 0x20000014) /* SoundTable */
+     , (30534,   8, 0x06005C3F) /* Icon */
+     , (30534,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30534,  52, 0x06005B0C) /* IconUnderlay */
      , (30534, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (30534, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30534, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30534, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30534, 8000, 3296816260) /* PCAPRecordedObjectIID */;
+VALUES (30534, 8000, 0xC4816C84) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30534,  3963,      2)  /* CANTRIPCOORDINATION3 */
+VALUES (30534,  4694,      2)  /* CANTRIPHEALINGPROWESS3 */
      , (30534,  4407,      2)  /* Impenetrability8 */
-     , (30534,  4694,      2)  /* CANTRIPHEALINGPROWESS3 */;
+     , (30534,  3963,      2)  /* CANTRIPCOORDINATION3 */;

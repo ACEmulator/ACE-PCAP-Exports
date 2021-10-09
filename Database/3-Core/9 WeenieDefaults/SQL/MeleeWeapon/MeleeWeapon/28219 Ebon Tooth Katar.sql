@@ -47,23 +47,23 @@ VALUES (28219,   1, 'Ebon Tooth Katar') /* Name */
      , (28219,  15, 'A katar crafted from the tooth of an ebon gromnie.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28219,   1,   33558831) /* Setup */
-     , (28219,   3,  536870932) /* SoundTable */
-     , (28219,   6,   67112869) /* PaletteBase */
-     , (28219,   8,  100676800) /* Icon */
-     , (28219,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28219,   1, 0x0200112F) /* Setup */
+     , (28219,   3, 0x20000014) /* SoundTable */
+     , (28219,   6, 0x04000FA5) /* PaletteBase */
+     , (28219,   8, 0x060034C0) /* Icon */
+     , (28219,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28219, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (28219, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28219, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28219, 8000, 2192074447) /* PCAPRecordedObjectIID */;
+VALUES (28219, 8000, 0x82A866CF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28219,  1591,      2)  /* HeartSeekerSelf5 */
-     , (28219,  1603,      2)  /* DefenderSelf4 */
+VALUES (28219,  1603,      2)  /* DefenderSelf4 */
      , (28219,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (28219,  1624,      2)  /* SwiftKillerSelf3 */;
+     , (28219,  1624,      2)  /* SwiftKillerSelf3 */
+     , (28219,  1591,      2)  /* HeartSeekerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28219, 67115301, 0, 0);

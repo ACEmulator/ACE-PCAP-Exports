@@ -17,7 +17,8 @@ VALUES (20910,   1,      16384) /* ItemType - Key */
      , (20910, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20910,  22, True ) /* Inscribable */;
+VALUES (20910,  22, True ) /* Inscribable */
+     , (20910,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20910,   1, 'Gaerlan''s Key') /* Name */
@@ -25,17 +26,17 @@ VALUES (20910,   1, 'Gaerlan''s Key') /* Name */
      , (20910,  15, 'A blue key coruscating with foreign energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20910,   1,   33557000) /* Setup */
-     , (20910,   3,  536870932) /* SoundTable */
-     , (20910,   6,   67111346) /* PaletteBase */
-     , (20910,   8,  100673199) /* Icon */
-     , (20910,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20910,   1, 0x02000A08) /* Setup */
+     , (20910,   3, 0x20000014) /* SoundTable */
+     , (20910,   6, 0x040009B2) /* PaletteBase */
+     , (20910,   8, 0x060026AF) /* Icon */
+     , (20910,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20910, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (20910, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20910, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20910, 8000, 3704191087) /* PCAPRecordedObjectIID */;
+VALUES (20910, 8000, 0xDCC9786F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20910, 67113868, 0, 0);

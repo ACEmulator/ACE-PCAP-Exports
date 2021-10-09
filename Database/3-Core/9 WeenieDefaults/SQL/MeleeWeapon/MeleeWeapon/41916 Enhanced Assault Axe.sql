@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41916,   1,          1) /* ItemType - MeleeWeapon */
      , (41916,   5,        600) /* EncumbranceVal */
      , (41916,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (41916,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (41916,  16,          1) /* ItemUseable - No */
      , (41916,  18,          1) /* UiEffects - Magical */
      , (41916,  19,      25000) /* Value */
@@ -55,11 +54,11 @@ October 16th 2012') /* Inscription */
      , (41916,  16, 'A reward for defeating the leaders of the Reedshark Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41916,   1,   33557200) /* Setup */
-     , (41916,   3,  536870932) /* SoundTable */
-     , (41916,   6,   67111919) /* PaletteBase */
-     , (41916,   8,  100671742) /* Icon */
-     , (41916,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41916,   1, 0x02000AD0) /* Setup */
+     , (41916,   3, 0x20000014) /* SoundTable */
+     , (41916,   6, 0x04000BEF) /* PaletteBase */
+     , (41916,   8, 0x060020FE) /* Icon */
+     , (41916,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41916,  30,         88) /* PhysicsScript - Create */
      , (41916, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (41916, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -67,12 +66,12 @@ VALUES (41916,   1,   33557200) /* Setup */
      , (41916, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41916, 8040, 2847146017, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */
+VALUES (41916, 8040, 0xA9B40021, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.055479, -0.055479) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40021 [84.024690 7.096089 93.929010] 0.704927 0.704927 -0.055479 -0.055479 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41916, 8000, 3668240975) /* PCAPRecordedObjectIID */
-     , (41916, 8008, 1343492671) /* PCAPRecordedParentIID */;
+VALUES (41916, 8000, 0xDAA4EA4F) /* PCAPRecordedObjectIID */
+     , (41916, 8008, 0x5014123F) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41916,  2004,      2)  /* WarriorsVitality */

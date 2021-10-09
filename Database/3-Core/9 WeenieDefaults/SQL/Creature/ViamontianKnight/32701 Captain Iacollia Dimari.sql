@@ -23,22 +23,22 @@ VALUES (32701,   1, 'Captain Iacollia Dimari') /* Name */
      , (32701, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32701,   1,   33559125) /* Setup */
-     , (32701,   2,  150995334) /* MotionTable */
-     , (32701,   3,  536871102) /* SoundTable */
-     , (32701,   6,   67115468) /* PaletteBase */
-     , (32701,   8,  100677371) /* Icon */
-     , (32701,  22,  872415269) /* PhysicsEffectTable */
+VALUES (32701,   1, 0x02001255) /* Setup */
+     , (32701,   2, 0x09000186) /* MotionTable */
+     , (32701,   3, 0x200000BE) /* SoundTable */
+     , (32701,   6, 0x040019CC) /* PaletteBase */
+     , (32701,   8, 0x060036FB) /* Icon */
+     , (32701,  22, 0x34000025) /* PhysicsEffectTable */
      , (32701, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (32701, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (32701, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32701, 8040, 1083375638, 59.7268, 128.864, 220.0052, -0.716825, 0, 0, -0.697254) /* PCAPRecordedLocation */
+VALUES (32701, 8040, 0x40930016, 59.7268, 128.864, 220.0052, -0.716825, 0, 0, -0.697254) /* PCAPRecordedLocation */
 /* @teleloc 0x40930016 [59.726800 128.864000 220.005200] -0.716825 0.000000 0.000000 -0.697254 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32701, 8000, 2882603905) /* PCAPRecordedObjectIID */;
+VALUES (32701, 8000, 0xABD10B81) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32701,   1, 260, 0, 0) /* Strength */

@@ -11,6 +11,7 @@ VALUES (41910,   1,      32768) /* ItemType - Caster */
      , (41910,  18,          1) /* UiEffects - Magical */
      , (41910,  19,      20000) /* Value */
      , (41910,  45,          1) /* DamageType - Slash */
+     , (41910,  46,        512) /* DefaultCombatStyle - Magic */
      , (41910,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41910,  94,         16) /* TargetType - Creature */
      , (41910, 106,        400) /* ItemSpellcraft */
@@ -40,18 +41,18 @@ VALUES (41910,   1, 'Enhanced Eye of the Quiddity') /* Name */
      , (41910,  16, 'An orb with a large purple eye in the middle.  Gazing at it makes you dizzy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41910,   1,   33557115) /* Setup */
-     , (41910,   3,  536870932) /* SoundTable */
-     , (41910,   8,  100671692) /* Icon */
-     , (41910,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41910,   1, 0x02000A7B) /* Setup */
+     , (41910,   3, 0x20000014) /* SoundTable */
+     , (41910,   8, 0x060020CC) /* Icon */
+     , (41910,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41910, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (41910, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41910, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41910, 8000, 2187177962) /* PCAPRecordedObjectIID */;
+VALUES (41910, 8000, 0x825DAFEA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41910,   609,      2)  /* LifeMagicMasterySelf5 */
-     , (41910,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
+VALUES (41910,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
+     , (41910,   609,      2)  /* LifeMagicMasterySelf5 */
      , (41910,  2287,      2)  /* ManaMasterySelf7 */;

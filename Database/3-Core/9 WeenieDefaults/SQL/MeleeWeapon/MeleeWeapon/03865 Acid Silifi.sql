@@ -54,19 +54,19 @@ VALUES (3865,   1, 'Acid Silifi') /* Name */
      , (3865,  16, 'Acid Silifi of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3865,   1,   33555773) /* Setup */
-     , (3865,   3,  536870932) /* SoundTable */
-     , (3865,   8,  100668994) /* Icon */
-     , (3865,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3865,   1, 0x0200053D) /* Setup */
+     , (3865,   3, 0x20000014) /* SoundTable */
+     , (3865,   8, 0x06001642) /* Icon */
+     , (3865,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3865,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3865, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3865, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3865, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3865, 8000, 2629326129) /* PCAPRecordedObjectIID */;
+VALUES (3865, 8000, 0x9CB85531) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3865,  1591,      2)  /* HeartSeekerSelf5 */
-     , (3865,  1605,      2)  /* DefenderSelf6 */
-     , (3865,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (3865,  1605,      2)  /* DefenderSelf6 */
+     , (3865,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (3865,  1591,      2)  /* HeartSeekerSelf5 */;

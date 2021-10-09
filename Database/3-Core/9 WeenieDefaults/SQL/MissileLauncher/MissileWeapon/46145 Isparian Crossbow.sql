@@ -16,7 +16,7 @@ VALUES (46145,   1,        256) /* ItemType - MissileWeapon */
      , (46145,  48,         47) /* WeaponSkill - MissileWeapons */
      , (46145,  49,         40) /* WeaponTime */
      , (46145,  50,          2) /* AmmoType - Bolt */
-     , (46145,  51,          2) /* CombatUse - Missle */
+     , (46145,  51,          2) /* CombatUse - Missile */
      , (46145,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46145, 151,          2) /* HookType - Wall */
      , (46145, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
@@ -40,16 +40,16 @@ VALUES (46145,   1, 'Isparian Crossbow') /* Name */
      , (46145,  16, 'This weapon seems tough to master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46145,   1,   33557730) /* Setup */
-     , (46145,   3,  536870932) /* SoundTable */
-     , (46145,   8,  100673020) /* Icon */
-     , (46145,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46145,   1, 0x02000CE2) /* Setup */
+     , (46145,   3, 0x20000014) /* SoundTable */
+     , (46145,   8, 0x060025FC) /* Icon */
+     , (46145,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46145, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46145, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46145, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46145, 8000, 2250900377) /* PCAPRecordedObjectIID */;
+VALUES (46145, 8000, 0x862A0399) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (46145, 0, 83889237, 83889237)

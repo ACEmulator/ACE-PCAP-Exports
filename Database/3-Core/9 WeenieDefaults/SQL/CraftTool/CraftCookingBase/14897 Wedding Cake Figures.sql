@@ -28,13 +28,13 @@ VALUES (14897,   1, 'Wedding Cake Figures') /* Name */
      , (14897,  14, 'Use this item on a cake to create a Wedding Cake.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14897,   1,   33557620) /* Setup */
-     , (14897,   3,  536870932) /* SoundTable */
-     , (14897,   8,  100672733) /* Icon */
-     , (14897,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14897,   1, 0x02000C74) /* Setup */
+     , (14897,   3, 0x20000014) /* SoundTable */
+     , (14897,   8, 0x060024DD) /* Icon */
+     , (14897,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14897, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (14897, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14897, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14897, 8000, 3658159443) /* PCAPRecordedObjectIID */;
+VALUES (14897, 8000, 0xDA0B1553) /* PCAPRecordedObjectIID */;

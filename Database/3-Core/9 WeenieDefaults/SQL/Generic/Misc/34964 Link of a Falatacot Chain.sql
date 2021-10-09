@@ -14,7 +14,8 @@ VALUES (34964,   1,        128) /* ItemType - Misc */
      , (34964, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34964,  22, True ) /* Inscribable */;
+VALUES (34964,  22, True ) /* Inscribable */
+     , (34964,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34964,  39,     1.1) /* DefaultScale */;
@@ -25,17 +26,17 @@ VALUES (34964,   1, 'Link of a Falatacot Chain') /* Name */
      , (34964,  16, 'This link was part of the chain which the Falatacot had been using to bind Burun shamans to the depths of their lower catacomb. An enchantment upon the chain had prevented the shamans from using their magic, but with the breaking of the chain, the enchantment has also been broken.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34964,   1,   33560228) /* Setup */
-     , (34964,   3,  536870932) /* SoundTable */
-     , (34964,   8,  100689407) /* Icon */
-     , (34964,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34964,   1, 0x020016A4) /* Setup */
+     , (34964,   3, 0x20000014) /* SoundTable */
+     , (34964,   8, 0x060065FF) /* Icon */
+     , (34964,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34964, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (34964, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34964, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34964, 8040, 7078298, 110.5022, -298.8741, -18, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34964, 8040, 0x006C019A, 110.5022, -298.8741, -18, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x006C019A [110.502200 -298.874100 -18.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34964, 8000, 3707473982) /* PCAPRecordedObjectIID */;
+VALUES (34964, 8000, 0xDCFB903E) /* PCAPRecordedObjectIID */;

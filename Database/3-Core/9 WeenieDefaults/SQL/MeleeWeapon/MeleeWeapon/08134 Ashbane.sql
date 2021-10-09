@@ -25,7 +25,8 @@ VALUES (8134,   1,          1) /* ItemType - MeleeWeapon */
      , (8134, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8134,  22, True ) /* Inscribable */;
+VALUES (8134,  22, True ) /* Inscribable */
+     , (8134,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8134,  21,       0) /* WeaponLength */
@@ -41,13 +42,13 @@ VALUES (8134,   1, 'Ashbane') /* Name */
      , (8134,  16, 'A flaming sword, wrought from magically-reinforced silver. Its ivory haft is inscribed ''Ashbane,'' and bears the name of Leikotha Arenir. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8134,   1,   33555802) /* Setup */
-     , (8134,   3,  536870932) /* SoundTable */
-     , (8134,   8,  100671001) /* Icon */
-     , (8134,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8134,   1, 0x0200055A) /* Setup */
+     , (8134,   3, 0x20000014) /* SoundTable */
+     , (8134,   8, 0x06001E19) /* Icon */
+     , (8134,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8134, 8001,    2179736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
      , (8134, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8134, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8134, 8000, 2981038670) /* PCAPRecordedObjectIID */;
+VALUES (8134, 8000, 0xB1AF0A4E) /* PCAPRecordedObjectIID */;

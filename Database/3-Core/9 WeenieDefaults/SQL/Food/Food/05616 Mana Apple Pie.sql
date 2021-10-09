@@ -27,13 +27,13 @@ VALUES (5616,   1, 'Mana Apple Pie') /* Name */
      , (5616,  20, 'Mana Apple Pies') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5616,   1,   33555978) /* Setup */
-     , (5616,   3,  536870932) /* SoundTable */
-     , (5616,   8,  100669942) /* Icon */
-     , (5616,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5616,   1, 0x0200060A) /* Setup */
+     , (5616,   3, 0x20000014) /* SoundTable */
+     , (5616,   8, 0x060019F6) /* Icon */
+     , (5616,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5616, 8001,    2125977) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (5616, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (5616, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5616, 8000, 3710966385) /* PCAPRecordedObjectIID */;
+VALUES (5616, 8000, 0xDD30DA71) /* PCAPRecordedObjectIID */;

@@ -37,27 +37,27 @@ VALUES (836,   1, 'Zhofon No the Bowyer') /* Name */
      , (836, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (836,   1,   33554510) /* Setup */
-     , (836,   2,  150994945) /* MotionTable */
-     , (836,   3,  536870914) /* SoundTable */
-     , (836,   6,   67108990) /* PaletteBase */
-     , (836,   8,  100667446) /* Icon */
-     , (836,   9,   83890236) /* EyesTexture */
-     , (836,  10,   83890292) /* NoseTexture */
-     , (836,  11,   83890344) /* MouthTexture */
-     , (836,  15,   67117002) /* HairPalette */
-     , (836,  16,   67110062) /* EyesPalette */
-     , (836,  17,   67110050) /* SkinPalette */
+VALUES (836,   1, 0x0200004E) /* Setup */
+     , (836,   2, 0x09000001) /* MotionTable */
+     , (836,   3, 0x20000002) /* SoundTable */
+     , (836,   6, 0x0400007E) /* PaletteBase */
+     , (836,   8, 0x06001036) /* Icon */
+     , (836,   9, 0x0500103C) /* EyesTexture */
+     , (836,  10, 0x05001074) /* NoseTexture */
+     , (836,  11, 0x050010A8) /* MouthTexture */
+     , (836,  15, 0x04001FCA) /* HairPalette */
+     , (836,  16, 0x040004AE) /* EyesPalette */
+     , (836,  17, 0x040004A2) /* SkinPalette */
      , (836, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (836, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (836, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (836, 8040, 3663003988, 8.03997, 137.28, 18.805, 0.433659, 0, 0, -0.901077) /* PCAPRecordedLocation */
+VALUES (836, 8040, 0xDA550154, 8.03997, 137.28, 18.805, 0.433659, 0, 0, -0.901077) /* PCAPRecordedLocation */
 /* @teleloc 0xDA550154 [8.039970 137.280000 18.805000] 0.433659 0.000000 0.000000 -0.901077 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (836, 8000, 2107985974) /* PCAPRecordedObjectIID */;
+VALUES (836, 8000, 0x7DA55036) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (836,   1,  60, 0, 0) /* Strength */
@@ -111,8 +111,7 @@ VALUES (836, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (836, 4,  3789, -1, 0, 0, False) /* Create Throwing Frost Dart (3789) for Shop */
      , (836, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (836, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
-     , (836, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
-     , (836, 4, 45417, -1, 0, 0, False) /* Create Acid Knife (45417) for Shop */;
+     , (836, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (836, 67109969, 92, 4)

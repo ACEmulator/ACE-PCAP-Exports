@@ -25,13 +25,13 @@ VALUES (34835,   1, 'Green Glow Mushroom') /* Name */
      , (34835,  16, 'A rather small mushroom. It glows faintly green.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34835,   1,   33560206) /* Setup */
-     , (34835,   3,  536870932) /* SoundTable */
-     , (34835,   8,  100689342) /* Icon */
-     , (34835,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34835,   1, 0x0200168E) /* Setup */
+     , (34835,   3, 0x20000014) /* SoundTable */
+     , (34835,   8, 0x060065BE) /* Icon */
+     , (34835,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34835, 8001,    2125976) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (34835, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34835, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34835, 8000, 3707296682) /* PCAPRecordedObjectIID */;
+VALUES (34835, 8000, 0xDCF8DBAA) /* PCAPRecordedObjectIID */;

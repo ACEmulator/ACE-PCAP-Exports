@@ -34,21 +34,21 @@ VALUES (32053,   1, 'Healer Hargurg') /* Name */
      , (32053, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32053,   1,   33554490) /* Setup */
-     , (32053,   2,  150994953) /* MotionTable */
-     , (32053,   3,  536870959) /* SoundTable */
-     , (32053,   6,   67109310) /* PaletteBase */
-     , (32053,   8,  100667449) /* Icon */
+VALUES (32053,   1, 0x0200003A) /* Setup */
+     , (32053,   2, 0x09000009) /* MotionTable */
+     , (32053,   3, 0x2000002F) /* SoundTable */
+     , (32053,   6, 0x040001BE) /* PaletteBase */
+     , (32053,   8, 0x06001039) /* Icon */
      , (32053, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (32053, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (32053, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32053, 8040, 3387097349, 80.1648, 61.9063, 14.27241, -0.6941089, 0, 0, -0.71987) /* PCAPRecordedLocation */
+VALUES (32053, 8040, 0xC9E30105, 80.1648, 61.9063, 14.27241, -0.694109, 0, 0, -0.71987) /* PCAPRecordedLocation */
 /* @teleloc 0xC9E30105 [80.164800 61.906300 14.272410] -0.694109 0.000000 0.000000 -0.719870 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32053, 8000, 2090741765) /* PCAPRecordedObjectIID */;
+VALUES (32053, 8000, 0x7C9E3005) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32053,   1,  20, 0, 0) /* Strength */

@@ -42,13 +42,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4181,   1, 'Acid Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4181,   1,   33555787) /* Setup */
-     , (4181,   3,  536870932) /* SoundTable */
-     , (4181,   8,  100670193) /* Icon */
-     , (4181,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4181,   1, 0x0200054B) /* Setup */
+     , (4181,   3, 0x20000014) /* SoundTable */
+     , (4181,   8, 0x06001AF1) /* Icon */
+     , (4181,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4181, 8001,  270627736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (4181, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (4181, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4181, 8000, 3708942561) /* PCAPRecordedObjectIID */;
+VALUES (4181, 8000, 0xDD11F8E1) /* PCAPRecordedObjectIID */;

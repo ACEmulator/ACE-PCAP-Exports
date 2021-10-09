@@ -20,13 +20,13 @@ VALUES (5347,   1, 'Bundle of Armor Piercing Arrowheads') /* Name */
      , (5347,  20, 'Bundles of Armor Piercing Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5347,   1,   33555958) /* Setup */
-     , (5347,   3,  536870932) /* SoundTable */
-     , (5347,   8,  100670169) /* Icon */
-     , (5347,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5347,   1, 0x020005F6) /* Setup */
+     , (5347,   3, 0x20000014) /* SoundTable */
+     , (5347,   8, 0x06001AD9) /* Icon */
+     , (5347,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5347, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (5347, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5347, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5347, 8000, 3623567823) /* PCAPRecordedObjectIID */;
+VALUES (5347, 8000, 0xD7FB41CF) /* PCAPRecordedObjectIID */;

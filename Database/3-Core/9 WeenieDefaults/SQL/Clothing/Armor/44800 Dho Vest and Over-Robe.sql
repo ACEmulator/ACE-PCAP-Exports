@@ -50,23 +50,23 @@ VALUES (44800,   1, 'Dho Vest and Over-Robe') /* Name */
      , (44800,  16, 'Dho Vest and Over-Robe of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44800,   1,   33554854) /* Setup */
-     , (44800,   3,  536870932) /* SoundTable */
-     , (44800,   6,   67108990) /* PaletteBase */
-     , (44800,   8,  100670368) /* Icon */
-     , (44800,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44800,   1, 0x020001A6) /* Setup */
+     , (44800,   3, 0x20000014) /* SoundTable */
+     , (44800,   6, 0x0400007E) /* PaletteBase */
+     , (44800,   8, 0x06001BA0) /* Icon */
+     , (44800,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44800,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (44800, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (44800, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44800, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44800, 8000, 3696399116) /* PCAPRecordedObjectIID */;
+VALUES (44800, 8000, 0xDC52930C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44800,  1354,      2)  /* EnduranceSelf6 */
-     , (44800,  2108,      2)  /* Impenetrability7 */
-     , (44800,  2572,      2)  /* CANTRIPCOORDINATION2 */;
+     , (44800,  2572,      2)  /* CANTRIPCOORDINATION2 */
+     , (44800,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44800, 67110000, 174, 12)

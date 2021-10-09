@@ -41,24 +41,24 @@ VALUES (29819,   1, 'Kithless Siraluun Headdress') /* Name */
      , (29819,  16, 'A headdress plaited from the plumes of a Kithless Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29819,   1,   33557288) /* Setup */
-     , (29819,   3,  536870932) /* SoundTable */
-     , (29819,   6,   67108990) /* PaletteBase */
-     , (29819,   8,  100671999) /* Icon */
-     , (29819,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29819,   1, 0x02000B28) /* Setup */
+     , (29819,   3, 0x20000014) /* SoundTable */
+     , (29819,   6, 0x0400007E) /* PaletteBase */
+     , (29819,   8, 0x060021FF) /* Icon */
+     , (29819,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29819, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (29819, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29819, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29819, 8000, 2148135350) /* PCAPRecordedObjectIID */;
+VALUES (29819, 8000, 0x8009F1B6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29819,   712,      2)  /* ArmorExpertiseOther5 */
-     , (29819,   736,      2)  /* ItemExpertiseOther5 */
-     , (29819,   760,      2)  /* MagicItemExpertiseOther5 */
      , (29819,   784,      2)  /* WeaponExpertiseOther5 */
-     , (29819,  3510,      2)  /* ArcanumSalvagingOther5 */;
+     , (29819,   736,      2)  /* ItemExpertiseOther5 */
+     , (29819,  3510,      2)  /* ArcanumSalvagingOther5 */
+     , (29819,   760,      2)  /* MagicItemExpertiseOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29819, 67113340, 240, 16);

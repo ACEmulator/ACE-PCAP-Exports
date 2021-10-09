@@ -15,7 +15,7 @@ VALUES (35976,   1,        256) /* ItemType - MissileWeapon */
      , (35976,  48,         47) /* WeaponSkill - MissileWeapons */
      , (35976,  49,         15) /* WeaponTime */
      , (35976,  50,          4) /* AmmoType - Atlatl */
-     , (35976,  51,          2) /* CombatUse - Missle */
+     , (35976,  51,          2) /* CombatUse - Missile */
      , (35976,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35976, 106,        250) /* ItemSpellcraft */
      , (35976, 107,        500) /* ItemCurMana */
@@ -32,6 +32,7 @@ VALUES (35976,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35976,  22, True ) /* Inscribable */
+     , (35976,  23, True ) /* DestroyOnSell */
      , (35976,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -50,25 +51,25 @@ VALUES (35976,   1, 'Composite Atlatl with Handle') /* Name */
      , (35976,   8, 'Mitosis') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35976,   1,   33560354) /* Setup */
-     , (35976,   3,  536870932) /* SoundTable */
-     , (35976,   6,   67112869) /* PaletteBase */
-     , (35976,   8,  100689578) /* Icon */
-     , (35976,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35976,   1, 0x02001722) /* Setup */
+     , (35976,   3, 0x20000014) /* SoundTable */
+     , (35976,   6, 0x04000FA5) /* PaletteBase */
+     , (35976,   8, 0x060066AA) /* Icon */
+     , (35976,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35976,  55,       1492) /* ProcSpell - Brittlemail6 */
      , (35976, 8001,  270615320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (35976, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35976, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35976, 8000, 3697836603) /* PCAPRecordedObjectIID */;
+VALUES (35976, 8000, 0xDC68823B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35976,  1605,      2)  /* DefenderSelf6 */
-     , (35976,  1627,      2)  /* SwiftKillerSelf6 */
      , (35976,  2059,      2)  /* CoordinationSelf7 */
-     , (35976,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (35976,  2207,      2)  /* BowMasterySelf7 */;
+     , (35976,  1627,      2)  /* SwiftKillerSelf6 */
+     , (35976,  2207,      2)  /* MissileWeaponsMasterySelf7 */
+     , (35976,  2096,      2)  /* BloodDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35976, 67112871, 0, 0);

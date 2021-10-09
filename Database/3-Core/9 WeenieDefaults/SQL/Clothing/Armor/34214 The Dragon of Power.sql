@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34214,   1, 'The Dragon of Power') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34214,   1,   33560112) /* Setup */
-     , (34214,   3,  536870932) /* SoundTable */
-     , (34214,   8,  100689200) /* Icon */
-     , (34214,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34214,   1, 0x02001630) /* Setup */
+     , (34214,   3, 0x20000014) /* SoundTable */
+     , (34214,   8, 0x06006530) /* Icon */
+     , (34214,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34214, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (34214, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34214, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34214, 8000, 2158691094) /* PCAPRecordedObjectIID */;
+VALUES (34214, 8000, 0x80AB0316) /* PCAPRecordedObjectIID */;

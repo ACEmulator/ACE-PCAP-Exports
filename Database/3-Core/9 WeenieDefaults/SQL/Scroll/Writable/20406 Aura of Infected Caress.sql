@@ -24,13 +24,13 @@ VALUES (20406,   1, 'Aura of Infected Caress') /* Name */
 Increases a weapon''s damage value by 22 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20406,   1,   33554826) /* Setup */
-     , (20406,   8,  100676655) /* Icon */
-     , (20406,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20406,   1, 0x0200018A) /* Setup */
+     , (20406,   8, 0x0600342F) /* Icon */
+     , (20406,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20406,  28,       2096) /* Spell - BloodDrinkerSelf7 */
      , (20406, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20406, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20406, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20406, 8000, 3680726540) /* PCAPRecordedObjectIID */;
+VALUES (20406, 8000, 0xDB636E0C) /* PCAPRecordedObjectIID */;

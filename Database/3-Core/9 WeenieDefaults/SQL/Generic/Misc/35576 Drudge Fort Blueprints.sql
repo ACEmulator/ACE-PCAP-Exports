@@ -15,20 +15,21 @@ VALUES (35576,   1,        128) /* ItemType - Misc */
      , (35576, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35576,  69, False) /* IsSellable */;
+VALUES (35576,  23, True ) /* DestroyOnSell */
+     , (35576,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35576,   1, 'Drudge Fort Blueprints') /* Name */
      , (35576,  16, 'Blueprints for the Drudge Fort outside of Cragstone. They show a network of caves below the fort.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35576,   1,   33558373) /* Setup */
-     , (35576,   3,  536870932) /* SoundTable */
-     , (35576,   8,  100676719) /* Icon */
-     , (35576,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35576,   1, 0x02000F65) /* Setup */
+     , (35576,   3, 0x20000014) /* SoundTable */
+     , (35576,   8, 0x0600346F) /* Icon */
+     , (35576,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35576, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (35576, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35576, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35576, 8000, 2202793792) /* PCAPRecordedObjectIID */;
+VALUES (35576, 8000, 0x834BF740) /* PCAPRecordedObjectIID */;

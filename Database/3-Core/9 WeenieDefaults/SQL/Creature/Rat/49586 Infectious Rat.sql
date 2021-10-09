@@ -26,23 +26,23 @@ VALUES (49586,   1, 'Infectious Rat') /* Name */
      , (49586, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49586,   1,   33554493) /* Setup */
-     , (49586,   2,  150995356) /* MotionTable */
-     , (49586,   3,  536870927) /* SoundTable */
-     , (49586,   6,   67109300) /* PaletteBase */
-     , (49586,   8,  100667451) /* Icon */
-     , (49586,  22,  872415425) /* PhysicsEffectTable */
+VALUES (49586,   1, 0x0200003D) /* Setup */
+     , (49586,   2, 0x0900019C) /* MotionTable */
+     , (49586,   3, 0x2000000F) /* SoundTable */
+     , (49586,   6, 0x040001B4) /* PaletteBase */
+     , (49586,   8, 0x0600103B) /* Icon */
+     , (49586,  22, 0x340000C1) /* PhysicsEffectTable */
      , (49586,  30,         84) /* PhysicsScript - BreatheFlame */
      , (49586, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49586, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (49586, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49586, 8040, 1499333452, 41.8073, -50, 12.012, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (49586, 8040, 0x595E034C, 41.8073, -50, 12.012, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x595E034C [41.807300 -50.000000 12.012000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49586, 8000, 2883622513) /* PCAPRecordedObjectIID */;
+VALUES (49586, 8000, 0xABE09671) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49586,   1, 320, 0, 0) /* Strength */

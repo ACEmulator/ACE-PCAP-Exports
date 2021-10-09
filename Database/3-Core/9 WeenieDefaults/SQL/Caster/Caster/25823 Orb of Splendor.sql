@@ -9,6 +9,7 @@ VALUES (25823,   1,      32768) /* ItemType - Caster */
      , (25823,   9,   16777216) /* ValidLocations - Held */
      , (25823,  16,          1) /* ItemUseable - No */
      , (25823,  19,       5000) /* Value */
+     , (25823,  46,        512) /* DefaultCombatStyle - Magic */
      , (25823,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25823,  94,         16) /* TargetType - Creature */
      , (25823, 106,        250) /* ItemSpellcraft */
@@ -35,18 +36,18 @@ VALUES (25823,   1, 'Orb of Splendor') /* Name */
      , (25823,  15, 'This orb is a representation of the splendor of the Firebird as realized by the adherents who follow the path of the Firebird.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25823,   1,   33558566) /* Setup */
-     , (25823,   3,  536870932) /* SoundTable */
-     , (25823,   8,  100675650) /* Icon */
-     , (25823,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25823,   1, 0x02001026) /* Setup */
+     , (25823,   3, 0x20000014) /* SoundTable */
+     , (25823,   8, 0x06003042) /* Icon */
+     , (25823,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25823, 8001,  271138840) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, TargetType, Burden, HookType */
      , (25823, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25823, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25823, 8000, 2157269333) /* PCAPRecordedObjectIID */;
+VALUES (25823, 8000, 0x80955155) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25823,   663,      2)  /* ManaMasteryOther5 */
-     , (25823,  1431,      2)  /* FocusOther5 */
-     , (25823,  2581,      2)  /* CANTRIPFOCUS1 */;
+VALUES (25823,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (25823,   663,      2)  /* ManaMasteryOther5 */
+     , (25823,  1431,      2)  /* FocusOther5 */;

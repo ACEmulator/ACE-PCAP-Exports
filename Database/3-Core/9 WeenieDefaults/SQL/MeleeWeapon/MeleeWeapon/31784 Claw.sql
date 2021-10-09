@@ -49,20 +49,20 @@ VALUES (31784,   1, 'Claw') /* Name */
      , (31784,  16, 'Claw of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31784,   1,   33559624) /* Setup */
-     , (31784,   3,  536870932) /* SoundTable */
-     , (31784,   6,   67116700) /* PaletteBase */
-     , (31784,   8,  100688082) /* Icon */
-     , (31784,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31784,   1, 0x02001448) /* Setup */
+     , (31784,   3, 0x20000014) /* SoundTable */
+     , (31784,   6, 0x04001E9C) /* PaletteBase */
+     , (31784,   8, 0x060060D2) /* Icon */
+     , (31784,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31784,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (31784,  52,  100676444) /* IconUnderlay */
+     , (31784,  52, 0x0600335C) /* IconUnderlay */
      , (31784, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31784, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31784, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (31784, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31784, 8000, 2174244924) /* PCAPRecordedObjectIID */;
+VALUES (31784, 8000, 0x8198583C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31784,  1612,      2)  /* BloodDrinkerSelf2 */

@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38809,   1, 'Ancient Emblem of Mhoire') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38809,   1,   33554669) /* Setup */
-     , (38809,   3,  536870932) /* SoundTable */
-     , (38809,   8,  100690255) /* Icon */
-     , (38809,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38809,   1, 0x020000ED) /* Setup */
+     , (38809,   3, 0x20000014) /* SoundTable */
+     , (38809,   8, 0x0600694F) /* Icon */
+     , (38809,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38809, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (38809, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38809, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38809, 8000, 2210528210) /* PCAPRecordedObjectIID */;
+VALUES (38809, 8000, 0x83C1FBD2) /* PCAPRecordedObjectIID */;

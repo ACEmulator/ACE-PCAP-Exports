@@ -19,17 +19,17 @@ VALUES (9259,   1, 'Large Sclavus Hide') /* Name */
      , (9259,  16, 'A Large Sclavus hide.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9259,   1,   33554817) /* Setup */
-     , (9259,   3,  536870932) /* SoundTable */
-     , (9259,   6,   67111919) /* PaletteBase */
-     , (9259,   8,  100671413) /* Icon */
-     , (9259,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9259,   1, 0x02000181) /* Setup */
+     , (9259,   3, 0x20000014) /* SoundTable */
+     , (9259,   6, 0x04000BEF) /* PaletteBase */
+     , (9259,   8, 0x06001FB5) /* Icon */
+     , (9259,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9259, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (9259, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9259, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9259, 8000, 3134878137) /* PCAPRecordedObjectIID */;
+VALUES (9259, 8000, 0xBADA71B9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9259, 67111920, 0, 0);

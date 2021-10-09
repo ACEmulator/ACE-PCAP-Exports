@@ -21,6 +21,7 @@ VALUES (35491,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35491,  22, True ) /* Inscribable */
+     , (35491,  23, True ) /* DestroyOnSell */
      , (35491,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -29,17 +30,17 @@ VALUES (35491,   1, 'Maelstrom of Souls Gem') /* Name */
      , (35491,  16, 'A gem that draws its power from doomed souls. Deep within the gem a maelstrom of elements can be seen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35491,   1,   33554809) /* Setup */
-     , (35491,   3,  536870932) /* SoundTable */
-     , (35491,   6,   67111919) /* PaletteBase */
-     , (35491,   8,  100689503) /* Icon */
-     , (35491,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35491,   1, 0x02000179) /* Setup */
+     , (35491,   3, 0x20000014) /* SoundTable */
+     , (35491,   6, 0x04000BEF) /* PaletteBase */
+     , (35491,   8, 0x0600665F) /* Icon */
+     , (35491,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35491, 8001,    2650264) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (35491, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35491, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35491, 8000, 2151384055) /* PCAPRecordedObjectIID */;
+VALUES (35491, 8000, 0x803B83F7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35491, 67111924, 0, 0);

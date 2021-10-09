@@ -25,22 +25,22 @@ VALUES (52309,   1, 'Pyre Champion') /* Name */
      , (52309, 8006, 'AABAAAEAAABAAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52309,   1,   33560229) /* Setup */
-     , (52309,   2,  150994981) /* MotionTable */
-     , (52309,   3,  536870942) /* SoundTable */
-     , (52309,   6,   67116522) /* PaletteBase */
-     , (52309,   8,  100669124) /* Icon */
-     , (52309,  22,  872415269) /* PhysicsEffectTable */
+VALUES (52309,   1, 0x020016A5) /* Setup */
+     , (52309,   2, 0x09000025) /* MotionTable */
+     , (52309,   3, 0x2000001E) /* SoundTable */
+     , (52309,   6, 0x04001DEA) /* PaletteBase */
+     , (52309,   8, 0x060016C4) /* Icon */
+     , (52309,  22, 0x34000025) /* PhysicsEffectTable */
      , (52309, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (52309, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (52309, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52309, 8040, 1210908684, 24.02069, 80.09135, 6.677029, -0.980121, 0, 0, -0.1984007) /* PCAPRecordedLocation */
+VALUES (52309, 8040, 0x482D000C, 24.02069, 80.09135, 6.677029, -0.980121, 0, 0, -0.198401) /* PCAPRecordedLocation */
 /* @teleloc 0x482D000C [24.020690 80.091350 6.677029] -0.980121 0.000000 0.000000 -0.198401 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52309, 8000, 3700924212) /* PCAPRecordedObjectIID */;
+VALUES (52309, 8000, 0xDC979F34) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (52309,   1,     0, 0, 0, 6831) /* MaxHealth */;
@@ -283,7 +283,13 @@ VALUES (52309, 2, 52142,  1, 0, 0, False) /* Create Round Shield (52142) for Wie
      , (52309, 9,    43,  0, 0, 0, False) /* Create Yoroi Breastplate (43) for ContainTreasure */
      , (52309, 9,   331,  0, 0, 0, False) /* Create Mace (331) for ContainTreasure */
      , (52309, 9, 49309,  0, 0, 0, False) /* Create Blizzard Wisp Essence (49309) for ContainTreasure */
-     , (52309, 9, 35383,  1, 0, 0, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */;
+     , (52309, 9, 35383,  1, 0, 0, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
+     , (52309, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */
+     , (52309, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
+     , (52309, 9, 42751,  0, 0, 0, False) /* Create Haebrean Girth (42751) for ContainTreasure */
+     , (52309, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
+     , (52309, 9, 20575,  0, 0, 0, False) /* Create Scroll of Aura of Resistance (20575) for ContainTreasure */
+     , (52309, 9, 43830,  0, 0, 0, False) /* Create Sedgemail Leather Gauntlets (43830) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52309, 67116525, 0, 0);

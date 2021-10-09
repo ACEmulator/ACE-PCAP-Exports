@@ -47,26 +47,22 @@ VALUES (128,   1, 'Qafiya') /* Name */
      , (128,  16, 'Qafiya of Dual Wield Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (128,   1,   33554652) /* Setup */
-     , (128,   3,  536870932) /* SoundTable */
-     , (128,   6,   67108990) /* PaletteBase */
-     , (128,   8,  100669446) /* Icon */
-     , (128,  22,  872415275) /* PhysicsEffectTable */
+VALUES (128,   1, 0x020000DC) /* Setup */
+     , (128,   3, 0x20000014) /* SoundTable */
+     , (128,   6, 0x0400007E) /* PaletteBase */
+     , (128,   8, 0x06001806) /* Icon */
+     , (128,  22, 0x3400002B) /* PhysicsEffectTable */
      , (128, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (128, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (128, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (128, 8000, 3690335241) /* PCAPRecordedObjectIID */;
+VALUES (128, 8000, 0xDBF60C09) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (128,  1485,      2)  /* Impenetrability5 */
      , (128,  2606,      2)  /* CANTRIPSLASHINGBANE1 */
      , (128,  5808,      2)  /* DualWieldMasterySelf6 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (128, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
-     , (128, 2, 29964,  1, 0, 0, False) /* Create Throwing Axe (29964) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (128, 67110360, 240, 10);

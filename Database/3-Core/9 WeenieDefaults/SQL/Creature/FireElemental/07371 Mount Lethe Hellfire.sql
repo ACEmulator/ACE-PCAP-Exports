@@ -27,21 +27,21 @@ VALUES (7371,   1, 'Mount Lethe Hellfire') /* Name */
      , (7371, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7371,   1,   33556637) /* Setup */
-     , (7371,   2,  150995087) /* MotionTable */
-     , (7371,   3,  536870998) /* SoundTable */
-     , (7371,   8,  100670274) /* Icon */
-     , (7371,  22,  872415363) /* PhysicsEffectTable */
+VALUES (7371,   1, 0x0200089D) /* Setup */
+     , (7371,   2, 0x0900008F) /* MotionTable */
+     , (7371,   3, 0x20000056) /* SoundTable */
+     , (7371,   8, 0x06001B42) /* Icon */
+     , (7371,  22, 0x34000083) /* PhysicsEffectTable */
      , (7371, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7371, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7371, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7371, 8040, 357826580, 58.86273, 79.866, 122.0085, 0.0130949, 0, 0, -0.9999142) /* PCAPRecordedLocation */
+VALUES (7371, 8040, 0x15540014, 58.86273, 79.866, 122.0085, 0.013095, 0, 0, -0.999914) /* PCAPRecordedLocation */
 /* @teleloc 0x15540014 [58.862730 79.866000 122.008500] 0.013095 0.000000 0.000000 -0.999914 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7371, 8000, 3682992669) /* PCAPRecordedObjectIID */;
+VALUES (7371, 8000, 0xDB86021D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7371,   1, 130, 0, 0) /* Strength */

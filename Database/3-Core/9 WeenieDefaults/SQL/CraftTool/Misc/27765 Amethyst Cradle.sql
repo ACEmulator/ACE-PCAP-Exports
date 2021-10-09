@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27765,   1, 'Amethyst Cradle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27765,   1,   33558810) /* Setup */
-     , (27765,   3,  536870932) /* SoundTable */
-     , (27765,   8,  100676627) /* Icon */
-     , (27765,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27765,   1, 0x0200111A) /* Setup */
+     , (27765,   3, 0x20000014) /* SoundTable */
+     , (27765,   8, 0x06003413) /* Icon */
+     , (27765,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27765, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (27765, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27765, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27765, 8000, 3704446505) /* PCAPRecordedObjectIID */;
+VALUES (27765, 8000, 0xDCCD5E29) /* PCAPRecordedObjectIID */;

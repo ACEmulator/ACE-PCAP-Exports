@@ -38,21 +38,17 @@ VALUES (89,   1, 'Studded Leather Pauldrons') /* Name */
      , (89,  16, 'Studded Leather Pauldrons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (89,   1,   33554641) /* Setup */
-     , (89,   3,  536870932) /* SoundTable */
-     , (89,   6,   67108990) /* PaletteBase */
-     , (89,   8,  100669555) /* Icon */
-     , (89,  22,  872415275) /* PhysicsEffectTable */
+VALUES (89,   1, 0x020000D1) /* Setup */
+     , (89,   3, 0x20000014) /* SoundTable */
+     , (89,   6, 0x0400007E) /* PaletteBase */
+     , (89,   8, 0x06001873) /* Icon */
+     , (89,  22, 0x3400002B) /* PhysicsEffectTable */
      , (89, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (89, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (89, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (89, 8000, 2174514712) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (89, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
-     , (89, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */;
+VALUES (89, 8000, 0x819C7618) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (89, 67110359, 128, 8);

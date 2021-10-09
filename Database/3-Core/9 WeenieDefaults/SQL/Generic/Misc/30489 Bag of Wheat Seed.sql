@@ -14,7 +14,8 @@ VALUES (30489,   1,        128) /* ItemType - Misc */
      , (30489, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30489,  22, True ) /* Inscribable */;
+VALUES (30489,  22, True ) /* Inscribable */
+     , (30489,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30489,  39,       2) /* DefaultScale */;
@@ -24,21 +25,21 @@ VALUES (30489,   1, 'Bag of Wheat Seed') /* Name */
      , (30489,  16, 'A bulging bag of wheat seed, stolen from Alfrin the farmer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30489,   1,   33554817) /* Setup */
-     , (30489,   3,  536870932) /* SoundTable */
-     , (30489,   6,   67111919) /* PaletteBase */
-     , (30489,   8,  100667436) /* Icon */
-     , (30489,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30489,   1, 0x02000181) /* Setup */
+     , (30489,   3, 0x20000014) /* SoundTable */
+     , (30489,   6, 0x04000BEF) /* PaletteBase */
+     , (30489,   8, 0x0600102C) /* Icon */
+     , (30489,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30489, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (30489, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30489, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30489, 8040, 27132187, 22.6587, -21.7402, -0.004999995, 0.738252, 0, 0, -0.674525) /* PCAPRecordedLocation */
+VALUES (30489, 8040, 0x019E011B, 22.6587, -21.7402, -0.005, 0.738252, 0, 0, -0.674525) /* PCAPRecordedLocation */
 /* @teleloc 0x019E011B [22.658700 -21.740200 -0.005000] 0.738252 0.000000 0.000000 -0.674525 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30489, 8000, 2924580804) /* PCAPRecordedObjectIID */;
+VALUES (30489, 8000, 0xAE518FC4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30489, 67111922, 0, 0);

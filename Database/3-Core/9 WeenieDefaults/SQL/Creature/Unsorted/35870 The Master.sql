@@ -17,36 +17,15 @@ VALUES (35870,   1,         16) /* ItemType - Creature */
      , (35870,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (35870,  95,          8) /* RadarBlipColor - Yellow */
      , (35870, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (35870, 307,          0) /* DamageRating */
-     , (35870, 308,          0) /* DamageResistRating */
-     , (35870, 313,          0) /* CritRating */
-     , (35870, 314,          0) /* CritDamageRating */
-     , (35870, 315,          0) /* CritResistRating */
-     , (35870, 316,          0) /* CritDamageResistRating */
-     , (35870, 370,          0) /* GearDamage */
-     , (35870, 371,          0) /* GearDamageResist */
-     , (35870, 372,          0) /* GearCrit */
-     , (35870, 373,          0) /* GearCritResist */
-     , (35870, 374,          0) /* GearCritDamage */
-     , (35870, 375,          0) /* GearCritDamageResist */
-     , (35870, 376,          0) /* GearHealingBoost */
-     , (35870, 377,          0) /* GearNetherResist */
-     , (35870, 378,          0) /* GearLifeResist */
-     , (35870, 379,          0) /* GearMaxHealth */
-     , (35870, 381,          0) /* PKDamageRating */
-     , (35870, 382,          0) /* PKDamageResistRating */
-     , (35870, 383,          0) /* GearPKDamageRating */
-     , (35870, 384,          0) /* GearPKDamageResistRating */
-     , (35870, 386,          0) /* Overpower */
-     , (35870, 387,          0) /* OverpowerResist */
-     , (35870, 388,          0) /* GearOverpower */
-     , (35870, 389,          0) /* GearOverpowerResist */
      , (35870, 8007,          0) /* PCAPRecordedAutonomousMovement */
      , (35870, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35870,   1, True ) /* Stuck */
-     , (35870,  19, False) /* Attackable */;
+     , (35870,  19, False) /* Attackable */
+     , (35870,  52, True ) /* AiImmobile */
+     , (35870,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (35870,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35870,  21,       0) /* WeaponLength */
@@ -63,20 +42,20 @@ VALUES (35870,   1, 'The Master') /* Name */
      , (35870, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35870,   1,   33560328) /* Setup */
-     , (35870,   2,  150995397) /* MotionTable */
-     , (35870,   3,  536871052) /* SoundTable */
-     , (35870,   8,  100667446) /* Icon */
+VALUES (35870,   1, 0x02001708) /* Setup */
+     , (35870,   2, 0x090001C5) /* MotionTable */
+     , (35870,   3, 0x2000008C) /* SoundTable */
+     , (35870,   8, 0x06001036) /* Icon */
      , (35870, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (35870, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (35870, 8005,     100547) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35870, 8040, 11469107, 42.5, -70, 0, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (35870, 8040, 0x00AF0133, 42.5, -70, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF0133 [42.500000 -70.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35870, 8000, 3684814103) /* PCAPRecordedObjectIID */;
+VALUES (35870, 8000, 0xDBA1CD17) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35870, 2, 34017,  1, 0, 0, False) /* Create Tachi (34017) for Wield */

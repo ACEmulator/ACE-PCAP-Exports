@@ -20,7 +20,8 @@ VALUES (5126,   1,         32) /* ItemType - Food */
      , (5126, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5126,  22, True ) /* Inscribable */;
+VALUES (5126,  22, True ) /* Inscribable */
+     , (5126,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5126,   1, 'Bottle of Water') /* Name */
@@ -28,13 +29,13 @@ VALUES (5126,   1, 'Bottle of Water') /* Name */
      , (5126,  16, 'A bottle containing what looks like water, except the water somehow smells more refreshing than normal water.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5126,   1,   33554603) /* Setup */
-     , (5126,   3,  536870932) /* SoundTable */
-     , (5126,   8,  100668487) /* Icon */
-     , (5126,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5126,   1, 0x020000AB) /* Setup */
+     , (5126,   3, 0x20000014) /* SoundTable */
+     , (5126,   8, 0x06001447) /* Icon */
+     , (5126,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5126, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (5126, 8003,      32786) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Food */
      , (5126, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5126, 8000, 3326489789) /* PCAPRecordedObjectIID */;
+VALUES (5126, 8000, 0xC64634BD) /* PCAPRecordedObjectIID */;

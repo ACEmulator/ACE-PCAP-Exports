@@ -20,7 +20,8 @@ VALUES (32758,   1,        128) /* ItemType - Misc */
      , (32758, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32758,  22, True ) /* Inscribable */;
+VALUES (32758,  22, True ) /* Inscribable */
+     , (32758,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32758,  39,     1.2) /* DefaultScale */;
@@ -31,17 +32,17 @@ VALUES (32758,   1, 'Prismatic Oil') /* Name */
      , (32758,  16, 'A clear vial of viscous oil with prismatic colors spinning in it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32758,   1,   33555965) /* Setup */
-     , (32758,   3,  536870932) /* SoundTable */
-     , (32758,   6,   67111919) /* PaletteBase */
-     , (32758,   8,  100672867) /* Icon */
-     , (32758,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32758,   1, 0x020005FD) /* Setup */
+     , (32758,   3, 0x20000014) /* SoundTable */
+     , (32758,   6, 0x04000BEF) /* PaletteBase */
+     , (32758,   8, 0x06002563) /* Icon */
+     , (32758,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32758, 8001,    2650256) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (32758, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32758, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32758, 8000, 2210356857) /* PCAPRecordedObjectIID */;
+VALUES (32758, 8000, 0x83BF5E79) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32758, 67111925, 0, 0);

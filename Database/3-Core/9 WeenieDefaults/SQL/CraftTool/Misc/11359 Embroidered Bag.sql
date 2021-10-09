@@ -20,6 +20,7 @@ VALUES (11359,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11359,  22, True ) /* Inscribable */
+     , (11359,  23, True ) /* DestroyOnSell */
      , (11359,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -31,13 +32,13 @@ VALUES (11359,   1, 'Embroidered Bag') /* Name */
      , (11359,  15, 'An embroidered bag filled with four bundles of Siraluun feathers.  It is nearly full.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11359,   1,   33554769) /* Setup */
-     , (11359,   3,  536870932) /* SoundTable */
-     , (11359,   8,  100671838) /* Icon */
-     , (11359,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11359,   1, 0x02000151) /* Setup */
+     , (11359,   3, 0x20000014) /* SoundTable */
+     , (11359,   8, 0x0600215E) /* Icon */
+     , (11359,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11359, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (11359, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11359, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11359, 8000, 2158869148) /* PCAPRecordedObjectIID */;
+VALUES (11359, 8000, 0x80ADBA9C) /* PCAPRecordedObjectIID */;

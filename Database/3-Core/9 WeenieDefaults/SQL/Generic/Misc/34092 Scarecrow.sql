@@ -18,15 +18,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34092,   1, 'Scarecrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34092,   1,   33560111) /* Setup */
-     , (34092,   6,   67112967) /* PaletteBase */
-     , (34092,   8,  100671141) /* Icon */
+VALUES (34092,   1, 0x0200162F) /* Setup */
+     , (34092,   6, 0x04001007) /* PaletteBase */
+     , (34092,   8, 0x06001EA5) /* Icon */
      , (34092, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (34092, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34092, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34092, 8000, 2978131400) /* PCAPRecordedObjectIID */;
+VALUES (34092, 8000, 0xB182ADC8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34092, 67112968, 0, 0);

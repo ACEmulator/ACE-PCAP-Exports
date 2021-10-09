@@ -45,24 +45,24 @@ VALUES (31026,   1, 'Tenassa Breastplate') /* Name */
      , (31026,  16, 'Tenassa Breastplate of Summoning Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31026,   1,   33559340) /* Setup */
-     , (31026,   3,  536870932) /* SoundTable */
-     , (31026,   6,   67108990) /* PaletteBase */
-     , (31026,   8,  100686253) /* Icon */
-     , (31026,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31026,   1, 0x0200132C) /* Setup */
+     , (31026,   3, 0x20000014) /* SoundTable */
+     , (31026,   6, 0x0400007E) /* PaletteBase */
+     , (31026,   8, 0x060059AD) /* Icon */
+     , (31026,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31026, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (31026, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31026, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31026, 8000, 3688283144) /* PCAPRecordedObjectIID */;
+VALUES (31026, 8000, 0xDBD6BC08) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31026,  1486,      2)  /* Impenetrability6 */
+     , (31026,  6121,      2)  /* SummoningMasterySelf6 */
      , (31026,  1515,      2)  /* BludgeonBane5 */
-     , (31026,  2553,      2)  /* CANTRIPJUMPINGPROWESS1 */
      , (31026,  2605,      2)  /* CANTRIPPIERCINGBANE1 */
-     , (31026,  6121,      2)  /* SummoningMasterySelf6 */;
+     , (31026,  2553,      2)  /* CANTRIPJUMPINGPROWESS1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31026, 67116314, 216, 24)

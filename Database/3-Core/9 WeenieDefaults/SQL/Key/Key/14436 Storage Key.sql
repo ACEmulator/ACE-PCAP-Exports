@@ -22,16 +22,16 @@ VALUES (14436,   1, 'Storage Key') /* Name */
      , (14436,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14436,   1,   33554784) /* Setup */
-     , (14436,   3,  536870932) /* SoundTable */
-     , (14436,   8,  100672469) /* Icon */
-     , (14436,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14436,   1, 0x02000160) /* Setup */
+     , (14436,   3, 0x20000014) /* SoundTable */
+     , (14436,   8, 0x060023D5) /* Icon */
+     , (14436,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14436, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (14436, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14436, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14436, 8000, 2780665083) /* PCAPRecordedObjectIID */;
+VALUES (14436, 8000, 0xA5BD94FB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (14436, 0, 83888936, 83893868);

@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23533,   1, 'Siraluun Matihao') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23533,   1,   33557229) /* Setup */
-     , (23533,   3,  536870932) /* SoundTable */
-     , (23533,   8,  100671864) /* Icon */
-     , (23533,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23533,   1, 0x02000AED) /* Setup */
+     , (23533,   3, 0x20000014) /* SoundTable */
+     , (23533,   8, 0x06002178) /* Icon */
+     , (23533,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23533, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23533, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23533, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23533, 8000, 2657345643) /* PCAPRecordedObjectIID */;
+VALUES (23533, 8000, 0x9E63E06B) /* PCAPRecordedObjectIID */;

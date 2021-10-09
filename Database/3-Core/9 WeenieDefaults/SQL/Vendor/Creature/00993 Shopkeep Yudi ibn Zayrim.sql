@@ -36,27 +36,27 @@ VALUES (993,   1, 'Shopkeep Yudi ibn Zayrim') /* Name */
      , (993, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (993,   1,   33554433) /* Setup */
-     , (993,   2,  150994945) /* MotionTable */
-     , (993,   3,  536870913) /* SoundTable */
-     , (993,   6,   67108990) /* PaletteBase */
-     , (993,   8,  100667446) /* Icon */
-     , (993,   9,   83890466) /* EyesTexture */
-     , (993,  10,   83890559) /* NoseTexture */
-     , (993,  11,   83890613) /* MouthTexture */
-     , (993,  15,   67117028) /* HairPalette */
-     , (993,  16,   67110063) /* EyesPalette */
-     , (993,  17,   67109554) /* SkinPalette */
+VALUES (993,   1, 0x02000001) /* Setup */
+     , (993,   2, 0x09000001) /* MotionTable */
+     , (993,   3, 0x20000001) /* SoundTable */
+     , (993,   6, 0x0400007E) /* PaletteBase */
+     , (993,   8, 0x06001036) /* Icon */
+     , (993,   9, 0x05001122) /* EyesTexture */
+     , (993,  10, 0x0500117F) /* NoseTexture */
+     , (993,  11, 0x050011B5) /* MouthTexture */
+     , (993,  15, 0x04001FE4) /* HairPalette */
+     , (993,  16, 0x040004AF) /* EyesPalette */
+     , (993,  17, 0x040002B2) /* SkinPalette */
      , (993, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (993, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (993, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (993, 8040, 2156921122, 67.1094, 102.857, 124.005, -0.815128, 0, 0, -0.5792809) /* PCAPRecordedLocation */
+VALUES (993, 8040, 0x80900122, 67.1094, 102.857, 124.005, -0.815128, 0, 0, -0.579281) /* PCAPRecordedLocation */
 /* @teleloc 0x80900122 [67.109400 102.857000 124.005000] -0.815128 0.000000 0.000000 -0.579281 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (993, 8000, 2013855759) /* PCAPRecordedObjectIID */;
+VALUES (993, 8000, 0x7809000F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (993,   1, 100, 0, 0) /* Strength */
@@ -115,6 +115,8 @@ VALUES (993, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (993, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (993, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (993, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
+     , (993, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (993, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (993, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (993, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (993, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;

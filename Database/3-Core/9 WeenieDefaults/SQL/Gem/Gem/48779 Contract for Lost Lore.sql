@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48779,   1, 'Contract for Lost Lore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48779,   1,   33557625) /* Setup */
-     , (48779,   3,  536870932) /* SoundTable */
-     , (48779,   8,  100691930) /* Icon */
-     , (48779,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48779,   1, 0x02000C79) /* Setup */
+     , (48779,   3, 0x20000014) /* SoundTable */
+     , (48779,   8, 0x06006FDA) /* Icon */
+     , (48779,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48779, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (48779, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (48779, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (48779,   1,   33557625) /* Setup */
      , (48779, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48779, 8000,      48779) /* PCAPRecordedObjectIID */;
+VALUES (48779, 8000, 0x0000BE8B) /* PCAPRecordedObjectIID */;

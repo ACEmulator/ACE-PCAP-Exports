@@ -17,7 +17,8 @@ VALUES (39008,   1,      16384) /* ItemType - Key */
      , (39008, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39008,  22, True ) /* Inscribable */;
+VALUES (39008,  22, True ) /* Inscribable */
+     , (39008,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39008,   1, 'Desolation Sea Invasion Key') /* Name */
@@ -25,12 +26,12 @@ VALUES (39008,   1, 'Desolation Sea Invasion Key') /* Name */
      , (39008,  16, 'An ancient silver key rusted and overgrown with coral.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39008,   1,   33554784) /* Setup */
-     , (39008,   8,  100667485) /* Icon */
-     , (39008,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39008,   1, 0x02000160) /* Setup */
+     , (39008,   8, 0x0600105D) /* Icon */
+     , (39008,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39008, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (39008, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39008, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39008, 8000, 2216504534) /* PCAPRecordedObjectIID */;
+VALUES (39008, 8000, 0x841D2CD6) /* PCAPRecordedObjectIID */;

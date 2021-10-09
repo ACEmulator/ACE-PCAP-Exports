@@ -25,6 +25,7 @@ VALUES (27582,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27582,  22, True ) /* Inscribable */
+     , (27582,  23, True ) /* DestroyOnSell */
      , (27582,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -36,21 +37,21 @@ VALUES (27582,   1, 'Sublime Ring of Piercing Protection') /* Name */
      , (27582,  15, 'A ring of piercing protection, given by Behdo Yii for completing the Warrior quest.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27582,   1,   33554691) /* Setup */
-     , (27582,   3,  536870932) /* SoundTable */
-     , (27582,   6,   67111919) /* PaletteBase */
-     , (27582,   8,  100668662) /* Icon */
-     , (27582,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27582,   1, 0x02000103) /* Setup */
+     , (27582,   3, 0x20000014) /* SoundTable */
+     , (27582,   6, 0x04000BEF) /* PaletteBase */
+     , (27582,   8, 0x060014F6) /* Icon */
+     , (27582,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27582, 8001,  270614672) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (27582, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27582, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27582, 8000, 2274298726) /* PCAPRecordedObjectIID */;
+VALUES (27582, 8000, 0x878F0B66) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27582,   244,      2)  /* InvulnerabilityOther6 */
-     , (27582,  2160,      2)  /* PiercingProtectionOther7 */;
+VALUES (27582,  2160,      2)  /* PiercingProtectionOther7 */
+     , (27582,   244,      2)  /* InvulnerabilityOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27582, 67111919, 0, 0);

@@ -20,21 +20,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24454,   1, 'Artificer''s Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24454,   1,   33554648) /* Setup */
-     , (24454,   3,  536870932) /* SoundTable */
-     , (24454,   6,   67108990) /* PaletteBase */
-     , (24454,   8,  100674341) /* Icon */
-     , (24454,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24454,   1, 0x020000D8) /* Setup */
+     , (24454,   3, 0x20000014) /* SoundTable */
+     , (24454,   6, 0x0400007E) /* PaletteBase */
+     , (24454,   8, 0x06002B25) /* Icon */
+     , (24454,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24454, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (24454, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24454, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24454, 8040, 3332964380, 78.12672, 94.64186, 42, 0.7717315, 0, 0, -0.6359485) /* PCAPRecordedLocation */
+VALUES (24454, 8040, 0xC6A9001C, 78.12672, 94.64186, 42, 0.771732, 0, 0, -0.635949) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [78.126720 94.641860 42.000000] 0.771732 0.000000 0.000000 -0.635949 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24454, 8000, 2538760194) /* PCAPRecordedObjectIID */;
+VALUES (24454, 8000, 0x97526802) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24454, 67114352, 168, 6);

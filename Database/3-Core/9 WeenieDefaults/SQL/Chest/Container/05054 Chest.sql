@@ -28,21 +28,21 @@ VALUES (5054,   1, 'Chest') /* Name */
      , (5054, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5054,   1,   33554556) /* Setup */
-     , (5054,   2,  150994948) /* MotionTable */
-     , (5054,   3,  536870945) /* SoundTable */
-     , (5054,   8,  100667424) /* Icon */
-     , (5054,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5054,   1, 0x0200007C) /* Setup */
+     , (5054,   2, 0x09000004) /* MotionTable */
+     , (5054,   3, 0x20000021) /* SoundTable */
+     , (5054,   8, 0x06001020) /* Icon */
+     , (5054,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5054, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (5054, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (5054, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5054, 8040, 23462208, 110.128, -46.1755, 12, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (5054, 8040, 0x01660140, 110.128, -46.1755, 12, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x01660140 [110.128000 -46.175500 12.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5054, 8000, 1880514579) /* PCAPRecordedObjectIID */;
+VALUES (5054, 8000, 0x70166013) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5054, -1, 8741, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Yanshi Town Stamp (8741) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

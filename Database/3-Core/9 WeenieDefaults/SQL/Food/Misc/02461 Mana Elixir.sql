@@ -23,17 +23,17 @@ VALUES (2461,   1, 'Mana Elixir') /* Name */
      , (2461,  14, 'Use this item to drink it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2461,   1,   33554603) /* Setup */
-     , (2461,   3,  536870932) /* SoundTable */
-     , (2461,   6,   67111919) /* PaletteBase */
-     , (2461,   8,  100676324) /* Icon */
-     , (2461,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2461,   1, 0x020000AB) /* Setup */
+     , (2461,   3, 0x20000014) /* SoundTable */
+     , (2461,   6, 0x04000BEF) /* PaletteBase */
+     , (2461,   8, 0x060032E4) /* Icon */
+     , (2461,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2461, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (2461, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (2461, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2461, 8000, 3688303309) /* PCAPRecordedObjectIID */;
+VALUES (2461, 8000, 0xDBD70ACD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2461, 67111919, 0, 0);

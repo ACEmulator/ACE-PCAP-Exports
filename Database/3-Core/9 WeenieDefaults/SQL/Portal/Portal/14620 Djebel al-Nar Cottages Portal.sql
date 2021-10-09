@@ -21,16 +21,16 @@ VALUES (14620,   1, 'Djebel al-Nar Cottages Portal') /* Name */
      , (14620, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14620,   1,   33554867) /* Setup */
-     , (14620,   2,  150994947) /* MotionTable */
-     , (14620,   8,  100667499) /* Icon */
+VALUES (14620,   1, 0x020001B3) /* Setup */
+     , (14620,   2, 0x09000003) /* MotionTable */
+     , (14620,   8, 0x0600106B) /* Icon */
      , (14620, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14620, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14620, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14620, 8040, 2757754922, 131.389, 36.0168, 32.88609, 0.4595961, 0, 0, -0.888128) /* PCAPRecordedLocation */
+VALUES (14620, 8040, 0xA460002A, 131.389, 36.0168, 32.88609, 0.459596, 0, 0, -0.888128) /* PCAPRecordedLocation */
 /* @teleloc 0xA460002A [131.389000 36.016800 32.886090] 0.459596 0.000000 0.000000 -0.888128 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14620, 8000, 2051407881) /* PCAPRecordedObjectIID */;
+VALUES (14620, 8000, 0x7A460009) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (3275,   1, 'Scroll of Healing Mastery Other IV') /* Name */
 Increases the target''s Healing skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3275,   1,   33554826) /* Setup */
-     , (3275,   8,  100676459) /* Icon */
-     , (3275,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3275,   1, 0x0200018A) /* Setup */
+     , (3275,   8, 0x0600336B) /* Icon */
+     , (3275,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3275,  28,        883) /* Spell - HealingMasteryOther4 */
      , (3275, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3275, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3275, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3275, 8000, 2931308425) /* PCAPRecordedObjectIID */;
+VALUES (3275, 8000, 0xAEB83789) /* PCAPRecordedObjectIID */;

@@ -28,13 +28,13 @@ VALUES (7549,   1, 'Lugian Pick Axe') /* Name */
      , (7549,  14, 'This item is used in mining and is too heavy to wield.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7549,   1,   33554813) /* Setup */
-     , (7549,   3,  536870932) /* SoundTable */
-     , (7549,   8,  100670275) /* Icon */
-     , (7549,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7549,   1, 0x0200017D) /* Setup */
+     , (7549,   3, 0x20000014) /* SoundTable */
+     , (7549,   8, 0x06001B43) /* Icon */
+     , (7549,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7549, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (7549, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7549, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7549, 8000, 3696765375) /* PCAPRecordedObjectIID */;
+VALUES (7549, 8000, 0xDC5829BF) /* PCAPRecordedObjectIID */;

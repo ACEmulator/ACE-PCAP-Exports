@@ -8,7 +8,6 @@ VALUES (24463,   1,          2) /* ItemType - Armor */
      , (24463,   4,      32768) /* ClothingPriority - Hands */
      , (24463,   5,        350) /* EncumbranceVal */
      , (24463,   9,         32) /* ValidLocations - HandWear */
-     , (24463,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (24463,  16,          1) /* ItemUseable - No */
      , (24463,  19,       3500) /* Value */
      , (24463,  28,        420) /* ArmorLevel */
@@ -41,17 +40,17 @@ VALUES (24463,   1, 'Opal Gauntlets') /* Name */
      , (24463,  16, 'These gauntlets have been carved from Opal to fit the human hand. They are mystical in nature.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24463,   1,   33554648) /* Setup */
-     , (24463,   3,  536870932) /* SoundTable */
-     , (24463,   6,   67108990) /* PaletteBase */
-     , (24463,   8,  100674344) /* Icon */
-     , (24463,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24463,   1, 0x020000D8) /* Setup */
+     , (24463,   3, 0x20000014) /* SoundTable */
+     , (24463,   6, 0x0400007E) /* PaletteBase */
+     , (24463,   8, 0x06002B28) /* Icon */
+     , (24463,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24463, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (24463, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24463, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24463, 8000, 2156004652) /* PCAPRecordedObjectIID */;
+VALUES (24463, 8000, 0x8082052C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24463,  1484,      2)  /* Impenetrability4 */

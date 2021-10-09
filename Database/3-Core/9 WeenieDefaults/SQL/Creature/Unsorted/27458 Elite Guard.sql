@@ -20,22 +20,22 @@ VALUES (27458,   1, 'Elite Guard') /* Name */
      , (27458, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27458,   1,   33557003) /* Setup */
-     , (27458,   2,  150994950) /* MotionTable */
-     , (27458,   3,  536870922) /* SoundTable */
-     , (27458,   6,   67113158) /* PaletteBase */
-     , (27458,   8,  100667447) /* Icon */
-     , (27458,  22,  872415262) /* PhysicsEffectTable */
+VALUES (27458,   1, 0x02000A0B) /* Setup */
+     , (27458,   2, 0x09000006) /* MotionTable */
+     , (27458,   3, 0x2000000A) /* SoundTable */
+     , (27458,   6, 0x040010C6) /* PaletteBase */
+     , (27458,   8, 0x06001037) /* Icon */
+     , (27458,  22, 0x3400001E) /* PhysicsEffectTable */
      , (27458, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (27458, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (27458, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27458, 8040, 1648886017, 174.111, -195.772, -29.99, -0.8957803, 0, 0, 0.4444971) /* PCAPRecordedLocation */
+VALUES (27458, 8040, 0x62480101, 174.111, -195.772, -29.99, -0.89578, 0, 0, 0.444497) /* PCAPRecordedLocation */
 /* @teleloc 0x62480101 [174.111000 -195.772000 -29.990000] -0.895780 0.000000 0.000000 0.444497 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27458, 8000, 2877973105) /* PCAPRecordedObjectIID */;
+VALUES (27458, 8000, 0xAB8A6271) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27458, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */

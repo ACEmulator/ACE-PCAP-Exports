@@ -22,16 +22,16 @@ VALUES (4570,   1, 'Destroyed Lytelthorpe Portal') /* Name */
      , (4570, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4570,   1,   33561060) /* Setup */
-     , (4570,   2,  150995314) /* MotionTable */
-     , (4570,   8,  100667499) /* Icon */
+VALUES (4570,   1, 0x020019E4) /* Setup */
+     , (4570,   2, 0x09000172) /* MotionTable */
+     , (4570,   8, 0x0600106B) /* Icon */
      , (4570, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (4570, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (4570, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4570, 8040, 28049664, -2.44275, -7.47773, -0.20983, 0.3826829, 0, 0, -0.9238797) /* PCAPRecordedLocation */
+VALUES (4570, 8040, 0x01AC0100, -2.44275, -7.47773, -0.20983, 0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0x01AC0100 [-2.442750 -7.477730 -0.209830] 0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4570, 8000, 1880801280) /* PCAPRecordedObjectIID */;
+VALUES (4570, 8000, 0x701AC000) /* PCAPRecordedObjectIID */;

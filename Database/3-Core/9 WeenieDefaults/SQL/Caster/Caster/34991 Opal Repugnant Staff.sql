@@ -10,6 +10,7 @@ VALUES (34991,   1,      32768) /* ItemType - Caster */
      , (34991,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (34991,  18,          1) /* UiEffects - Magical */
      , (34991,  19,       2500) /* Value */
+     , (34991,  46,        512) /* DefaultCombatStyle - Magic */
      , (34991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34991,  94,         16) /* TargetType - Creature */
      , (34991, 106,        450) /* ItemSpellcraft */
@@ -37,21 +38,21 @@ VALUES (34991,   1, 'Opal Repugnant Staff') /* Name */
      , (34991,  16, 'This normal Burun staff has had mucor-altered opal applied to it, resulting in a magically enhanced staff with unique magical properties.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34991,   1,   33560177) /* Setup */
-     , (34991,   3,  536870932) /* SoundTable */
-     , (34991,   8,  100677030) /* Icon */
-     , (34991,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34991,   1, 0x02001671) /* Setup */
+     , (34991,   3, 0x20000014) /* SoundTable */
+     , (34991,   8, 0x060035A6) /* Icon */
+     , (34991,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34991,  28,       4067) /* Spell - MucorBolt */
      , (34991, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (34991, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34991, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34991, 8000, 2925597492) /* PCAPRecordedObjectIID */;
+VALUES (34991, 8000, 0xAE611334) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34991,  2101,      2)  /* DefenderSelf7 */
+VALUES (34991,  3200,      2)  /* CantripHermeticLink2 */
      , (34991,  2117,      2)  /* HermeticLinkSelf7 */
-     , (34991,  2287,      2)  /* ManaMasterySelf7 */
      , (34991,  2525,      2)  /* CANTRIPMANACONVERSIONPROWESS2 */
-     , (34991,  3200,      2)  /* CantripHermeticLink2 */;
+     , (34991,  2287,      2)  /* ManaMasterySelf7 */
+     , (34991,  2101,      2)  /* DefenderSelf7 */;

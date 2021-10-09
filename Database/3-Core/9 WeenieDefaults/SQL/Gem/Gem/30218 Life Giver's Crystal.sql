@@ -34,21 +34,21 @@ VALUES (30218,   1, 'Life Giver''s Crystal') /* Name */
      , (30218,  20, 'Life Giver''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30218,   1,   33554809) /* Setup */
-     , (30218,   3,  536870932) /* SoundTable */
-     , (30218,   6,   67111919) /* PaletteBase */
-     , (30218,   8,  100686697) /* Icon */
-     , (30218,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30218,   1, 0x02000179) /* Setup */
+     , (30218,   3, 0x20000014) /* SoundTable */
+     , (30218,   6, 0x04000BEF) /* PaletteBase */
+     , (30218,   8, 0x06005B69) /* Icon */
+     , (30218,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30218,  28,       3717) /* Spell - LifeMagicMasteryRare */
-     , (30218,  50,  100686664) /* IconOverlay */
-     , (30218,  52,  100686604) /* IconUnderlay */
+     , (30218,  50, 0x06005B48) /* IconOverlay */
+     , (30218,  52, 0x06005B0C) /* IconUnderlay */
      , (30218, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30218, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30218, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30218, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30218, 8000, 2728478222) /* PCAPRecordedObjectIID */;
+VALUES (30218, 8000, 0xA2A1460E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30218, 67111919, 0, 0);

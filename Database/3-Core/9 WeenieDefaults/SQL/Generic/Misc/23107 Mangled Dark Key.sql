@@ -24,13 +24,13 @@ VALUES (23107,   1, 'Mangled Dark Key') /* Name */
      , (23107,  15, 'This key looks to have been carved from granite, but it''s been twisted with years of misuse and neglect. With some clever locksmithing, however, and perhaps an intricate carving tool, you may be able to straighten it out.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23107,   1,   33554784) /* Setup */
-     , (23107,   3,  536870932) /* SoundTable */
-     , (23107,   8,  100673959) /* Icon */
-     , (23107,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23107,   1, 0x02000160) /* Setup */
+     , (23107,   3, 0x20000014) /* SoundTable */
+     , (23107,   8, 0x060029A7) /* Icon */
+     , (23107,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23107, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (23107, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23107, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23107, 8000, 3695794209) /* PCAPRecordedObjectIID */;
+VALUES (23107, 8000, 0xDC495821) /* PCAPRecordedObjectIID */;

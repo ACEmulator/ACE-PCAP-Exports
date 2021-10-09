@@ -25,7 +25,7 @@ VALUES (0x75861052, 48720, 0x5861013B, 64.4732, -13.4017, 3.15, -0.777344, 0, 0,
 /* @teleloc 0x5861013B [64.473200 -13.401700 3.150000] -0.777344 0.000000 0.000000 -0.629076 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861053, 48720, 0x5861014C, 65.3002, 4.26079, 3.15, -0.999185, 0, 0, -0.0403581, False, '2019-02-10 00:00:00'); /* Crystal */
+VALUES (0x75861053, 48720, 0x5861014C, 65.3002, 4.26079, 3.15, -0.999185, 0, 0, -0.040358, False, '2019-02-10 00:00:00'); /* Crystal */
 /* @teleloc 0x5861014C [65.300200 4.260790 3.150000] -0.999185 0.000000 0.000000 -0.040358 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -49,9 +49,9 @@ VALUES (0x75861058, 48720, 0x5861014C, 74.6562, 4.33899, 3.15, 1, 0, 0, 0, False
 /* @teleloc 0x5861014C [74.656200 4.338990 3.150000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861073, 48735, 0x5861012F, 53.0294, -29.9331, -0.06299996, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x75861073, 48735, 0x5861012F, 53.0294, -29.9331, -0.063, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x5861012F [53.029400 -29.933100 -0.063000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75861074, 48735, 0x58610179, 86.9632, -29.8529, -0.06299996, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x75861074, 48735, 0x58610179, 86.9632, -29.8529, -0.063, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x58610179 [86.963200 -29.852900 -0.063000] 0.707107 0.000000 0.000000 -0.707107 */

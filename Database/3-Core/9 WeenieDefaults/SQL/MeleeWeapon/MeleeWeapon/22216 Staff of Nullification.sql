@@ -39,13 +39,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22216,   1, 'Staff of Nullification') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22216,   1,   33555407) /* Setup */
-     , (22216,   3,  536870932) /* SoundTable */
-     , (22216,   8,  100667602) /* Icon */
-     , (22216,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22216,   1, 0x020003CF) /* Setup */
+     , (22216,   3, 0x20000014) /* SoundTable */
+     , (22216,   8, 0x060010D2) /* Icon */
+     , (22216,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22216, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (22216, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22216, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22216, 8000, 3658159448) /* PCAPRecordedObjectIID */;
+VALUES (22216, 8000, 0xDA0B1558) /* PCAPRecordedObjectIID */;

@@ -44,21 +44,21 @@ VALUES (43140,   1, 'Shield of the Gold Gear') /* Name */
      , (43140,  16, 'A shield forged in the Gear Knight style.  A minor Gearcrafting effect has been added to further protect its wielder.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43140,   1,   33561096) /* Setup */
-     , (43140,   3,  536870932) /* SoundTable */
-     , (43140,   8,  100691464) /* Icon */
-     , (43140,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43140,   1, 0x02001A08) /* Setup */
+     , (43140,   3, 0x20000014) /* SoundTable */
+     , (43140,   8, 0x06006E08) /* Icon */
+     , (43140,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43140, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (43140, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43140, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43140, 8000, 2224565127) /* PCAPRecordedObjectIID */;
+VALUES (43140, 8000, 0x84982B87) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43140,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */
-     , (43140,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */
-     , (43140,  5141,      2)  /* TrinketDamageReduction1 */;
+VALUES (43140,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */
+     , (43140,  5141,      2)  /* TrinketDamageReduction1 */
+     , (43140,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43140, 0, 83898265, 83898265)

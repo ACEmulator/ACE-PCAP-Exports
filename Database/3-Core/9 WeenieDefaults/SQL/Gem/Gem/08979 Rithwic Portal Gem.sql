@@ -32,11 +32,11 @@ VALUES (8979,   1, 'Rithwic Portal Gem') /* Name */
      , (8979,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8979,   1,   33556769) /* Setup */
-     , (8979,   3,  536870932) /* SoundTable */
-     , (8979,   6,   67111919) /* PaletteBase */
-     , (8979,   8,  100674856) /* Icon */
-     , (8979,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8979,   1, 0x02000921) /* Setup */
+     , (8979,   3, 0x20000014) /* SoundTable */
+     , (8979,   6, 0x04000BEF) /* PaletteBase */
+     , (8979,   8, 0x06002D28) /* Icon */
+     , (8979,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8979,  28,        157) /* Spell - SummonPortal1 */
      , (8979, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (8979, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -44,7 +44,7 @@ VALUES (8979,   1,   33556769) /* Setup */
      , (8979, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8979, 8000, 2554984529) /* PCAPRecordedObjectIID */;
+VALUES (8979, 8000, 0x9849F851) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8979, 67111922, 0, 0);

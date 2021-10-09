@@ -40,26 +40,26 @@ VALUES (5915,   1, 'Faran Creature Master Robe') /* Name */
      , (5915,  16, 'A finely tailored Aluvian robe for master mages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5915,   1,   33554854) /* Setup */
-     , (5915,   3,  536870932) /* SoundTable */
-     , (5915,   6,   67108990) /* PaletteBase */
-     , (5915,   8,  100670348) /* Icon */
-     , (5915,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5915,   1, 0x020001A6) /* Setup */
+     , (5915,   3, 0x20000014) /* SoundTable */
+     , (5915,   6, 0x0400007E) /* PaletteBase */
+     , (5915,   8, 0x06001B8C) /* Icon */
+     , (5915,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5915,  37,         31) /* ItemSkillLimit - CreatureEnchantment */
      , (5915, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (5915, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5915, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5915, 8000, 2995806743) /* PCAPRecordedObjectIID */;
+VALUES (5915, 8000, 0xB2906217) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5915,   566,      2)  /* CreatureEnchantmentMasteryOther4 */
+VALUES (5915,   649,      2)  /* WarMagicIneptitudeOther3 */
+     , (5915,  1484,      2)  /* Impenetrability4 */
      , (5915,   595,      2)  /* ItemEnchantmentIneptitudeOther3 */
-     , (5915,   625,      2)  /* LifeMagicIneptitudeOther3 */
-     , (5915,   649,      2)  /* WarMagicIneptitudeOther3 */
      , (5915,  1453,      2)  /* WillpowerOther3 */
-     , (5915,  1484,      2)  /* Impenetrability4 */;
+     , (5915,   625,      2)  /* LifeMagicIneptitudeOther3 */
+     , (5915,   566,      2)  /* CreatureEnchantmentMasteryOther4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5915, 67110007, 96, 12)

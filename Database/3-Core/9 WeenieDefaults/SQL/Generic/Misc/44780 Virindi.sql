@@ -18,11 +18,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44780,   1, 'Virindi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44780,   1,   33561380) /* Setup */
-     , (44780,   8,  100668115) /* Icon */
+VALUES (44780,   1, 0x02001B24) /* Setup */
+     , (44780,   8, 0x060012D3) /* Icon */
      , (44780, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44780, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44780, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44780, 8000, 2148355597) /* PCAPRecordedObjectIID */;
+VALUES (44780, 8000, 0x800D4E0D) /* PCAPRecordedObjectIID */;

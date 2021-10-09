@@ -26,16 +26,16 @@ VALUES (7827,   1, 'Chocolate Liquor') /* Name */
      , (7827,  20, 'Vials of Chocolate Liquor') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7827,   1,   33555967) /* Setup */
-     , (7827,   3,  536870932) /* SoundTable */
-     , (7827,   8,  100670850) /* Icon */
-     , (7827,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7827,   1, 0x020005FF) /* Setup */
+     , (7827,   3, 0x20000014) /* SoundTable */
+     , (7827,   8, 0x06001D82) /* Icon */
+     , (7827,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7827, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7827, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7827, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7827, 8000, 2461517684) /* PCAPRecordedObjectIID */;
+VALUES (7827, 8000, 0x92B7C774) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (7827, 0, 83890051, 83888794)

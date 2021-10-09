@@ -17,16 +17,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11775,   1, 'Reinforced Serpent Banner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11775,   1,   33557243) /* Setup */
-     , (11775,   3,  536870932) /* SoundTable */
-     , (11775,   8,  100671928) /* Icon */
-     , (11775,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11775,   1, 0x02000AFB) /* Setup */
+     , (11775,   3, 0x20000014) /* SoundTable */
+     , (11775,   8, 0x060021B8) /* Icon */
+     , (11775,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11775, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (11775, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11775, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11775, 8000, 3417106001) /* PCAPRecordedObjectIID */;
+VALUES (11775, 8000, 0xCBACE651) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11775, 0, 83893725, 83893724)

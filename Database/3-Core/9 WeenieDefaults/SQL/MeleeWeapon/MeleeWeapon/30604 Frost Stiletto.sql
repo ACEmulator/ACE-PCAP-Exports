@@ -53,22 +53,22 @@ VALUES (30604,   1, 'Frost Stiletto') /* Name */
      , (30604,  16, 'Frost Stiletto') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30604,   1,   33559490) /* Setup */
-     , (30604,   3,  536870932) /* SoundTable */
-     , (30604,   6,   67116417) /* PaletteBase */
-     , (30604,   8,  100687005) /* Icon */
-     , (30604,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30604,   1, 0x020013C2) /* Setup */
+     , (30604,   3, 0x20000014) /* SoundTable */
+     , (30604,   6, 0x04001D81) /* PaletteBase */
+     , (30604,   8, 0x06005C9D) /* Icon */
+     , (30604,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30604,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (30604, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30604, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30604, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30604, 8000, 2978131524) /* PCAPRecordedObjectIID */;
+VALUES (30604, 8000, 0xB182AE44) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30604,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (30604,  4691,      2)  /* CANTRIPDAGGERAPTITUDE3 */;
+     , (30604,  4691,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30604, 67116425, 0, 0);

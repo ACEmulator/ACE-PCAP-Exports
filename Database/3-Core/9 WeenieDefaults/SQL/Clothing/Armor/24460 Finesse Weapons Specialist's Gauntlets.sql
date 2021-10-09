@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24460,   1, 'Finesse Weapons Specialist''s Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24460,   1,   33554648) /* Setup */
-     , (24460,   3,  536870932) /* SoundTable */
-     , (24460,   6,   67108990) /* PaletteBase */
-     , (24460,   8,  100692281) /* Icon */
-     , (24460,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24460,   1, 0x020000D8) /* Setup */
+     , (24460,   3, 0x20000014) /* SoundTable */
+     , (24460,   6, 0x0400007E) /* PaletteBase */
+     , (24460,   8, 0x06007139) /* Icon */
+     , (24460,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24460, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (24460, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24460, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24460, 8000, 2166144607) /* PCAPRecordedObjectIID */;
+VALUES (24460, 8000, 0x811CBE5F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24460, 67114352, 168, 6);

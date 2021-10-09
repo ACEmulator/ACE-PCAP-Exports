@@ -51,23 +51,23 @@ VALUES (28617,   1, 'Alduressa Helm') /* Name */
      , (28617,  16, 'Alduressa Helm of Invulnerability') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28617,   1,   33559327) /* Setup */
-     , (28617,   3,  536870932) /* SoundTable */
-     , (28617,   6,   67108990) /* PaletteBase */
-     , (28617,   8,  100686001) /* Icon */
-     , (28617,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28617,   1, 0x0200131F) /* Setup */
+     , (28617,   3, 0x20000014) /* SoundTable */
+     , (28617,   6, 0x0400007E) /* PaletteBase */
+     , (28617,   8, 0x060058B1) /* Icon */
+     , (28617,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28617, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (28617, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28617, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28617, 8000, 2165201419) /* PCAPRecordedObjectIID */;
+VALUES (28617, 8000, 0x810E5A0B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28617,   249,      2)  /* InvulnerabilitySelf6 */
-     , (28617,  2094,      2)  /* BladeBane7 */
-     , (28617,  2108,      2)  /* Impenetrability7 */
-     , (28617,  4665,      2)  /* CANTRIPFROSTBANE3 */;
+VALUES (28617,  2094,      2)  /* BladeBane7 */
+     , (28617,  4665,      2)  /* CANTRIPFROSTBANE3 */
+     , (28617,   249,      2)  /* InvulnerabilitySelf6 */
+     , (28617,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28617, 67116103, 250, 6)

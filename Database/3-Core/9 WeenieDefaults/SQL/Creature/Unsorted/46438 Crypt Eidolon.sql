@@ -24,17 +24,17 @@ VALUES (46438,   1, 'Crypt Eidolon') /* Name */
      , (46438, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46438,   1,   33561478) /* Setup */
-     , (46438,   2,  150994945) /* MotionTable */
-     , (46438,   3,  536870942) /* SoundTable */
-     , (46438,   8,  100669124) /* Icon */
+VALUES (46438,   1, 0x02001B86) /* Setup */
+     , (46438,   2, 0x09000001) /* MotionTable */
+     , (46438,   3, 0x2000001E) /* SoundTable */
+     , (46438,   8, 0x060016C4) /* Icon */
      , (46438, 8001,    9437190) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, RadarBlipColor, RadarBehavior */
      , (46438, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (46438, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46438, 8040, 1467024281, 169.995, -108.934, -11.985, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (46438, 8040, 0x57710399, 169.995, -108.934, -11.985, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x57710399 [169.995000 -108.934000 -11.985000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46438, 8000, 3708158516) /* PCAPRecordedObjectIID */;
+VALUES (46438, 8000, 0xDD060234) /* PCAPRecordedObjectIID */;

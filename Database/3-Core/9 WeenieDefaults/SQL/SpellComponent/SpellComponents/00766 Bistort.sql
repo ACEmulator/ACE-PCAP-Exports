@@ -23,17 +23,17 @@ VALUES (766,   1, 'Bistort') /* Name */
      , (766,  20, 'Sacks of Bistort') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (766,   1,   33554817) /* Setup */
-     , (766,   3,  536870932) /* SoundTable */
-     , (766,   6,   67111919) /* PaletteBase */
-     , (766,   8,  100667399) /* Icon */
-     , (766,  22,  872415275) /* PhysicsEffectTable */
+VALUES (766,   1, 0x02000181) /* Setup */
+     , (766,   3, 0x20000014) /* SoundTable */
+     , (766,   6, 0x04000BEF) /* PaletteBase */
+     , (766,   8, 0x06001007) /* Icon */
+     , (766,  22, 0x3400002B) /* PhysicsEffectTable */
      , (766, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (766, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (766, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (766, 8000, 2401546814) /* PCAPRecordedObjectIID */;
+VALUES (766, 8000, 0x8F24B23E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (766, 67111919, 0, 0);

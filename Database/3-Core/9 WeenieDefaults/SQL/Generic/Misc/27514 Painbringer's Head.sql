@@ -14,24 +14,25 @@ VALUES (27514,   1,        128) /* ItemType - Misc */
      , (27514, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27514,  22, True ) /* Inscribable */;
+VALUES (27514,  22, True ) /* Inscribable */
+     , (27514,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27514,   1, 'Painbringer''s Head') /* Name */
      , (27514,  16, 'The severed, bloody head of the Painbringer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27514,   1,   33556826) /* Setup */
-     , (27514,   3,  536870932) /* SoundTable */
-     , (27514,   6,   67113007) /* PaletteBase */
-     , (27514,   8,  100676390) /* Icon */
-     , (27514,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27514,   1, 0x0200095A) /* Setup */
+     , (27514,   3, 0x20000014) /* SoundTable */
+     , (27514,   6, 0x0400102F) /* PaletteBase */
+     , (27514,   8, 0x06003326) /* Icon */
+     , (27514,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27514, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (27514, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27514, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27514, 8000, 3355572147) /* PCAPRecordedObjectIID */;
+VALUES (27514, 8000, 0xC801F7B3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27514, 67113009, 0, 0);

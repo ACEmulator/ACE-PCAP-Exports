@@ -35,20 +35,20 @@ VALUES (36505,   1, 'Mukkir Nest Portal Gem') /* Name */
      , (36505,  16, 'A Viamontian crafted portal gem, keyed to open a Gateway to a hidden nest of Mukkir.  Perhaps something of value can be gathered from this nest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36505,   1,   33556769) /* Setup */
-     , (36505,   3,  536870932) /* SoundTable */
-     , (36505,   6,   67111919) /* PaletteBase */
-     , (36505,   8,  100668364) /* Icon */
-     , (36505,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36505,   1, 0x02000921) /* Setup */
+     , (36505,   3, 0x20000014) /* SoundTable */
+     , (36505,   6, 0x04000BEF) /* PaletteBase */
+     , (36505,   8, 0x060013CC) /* Icon */
+     , (36505,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36505,  28,        157) /* Spell - SummonPortal1 */
-     , (36505,  50,  100676404) /* IconOverlay */
+     , (36505,  50, 0x06003334) /* IconOverlay */
      , (36505, 8001, 1349021720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (36505, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (36505, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (36505, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36505, 8000, 2222088985) /* PCAPRecordedObjectIID */;
+VALUES (36505, 8000, 0x84726319) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36505, 67111924, 0, 0);

@@ -17,7 +17,8 @@ VALUES (44298,   1,        128) /* ItemType - Misc */
      , (44298, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44298,  69, False) /* IsSellable */;
+VALUES (44298,  23, True ) /* DestroyOnSell */
+     , (44298,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44298,  39,     0.5) /* DefaultScale */;
@@ -28,16 +29,13 @@ VALUES (44298,   1, 'Broken Stone Tablet') /* Name */
      , (44298,  15, 'A piece of a stone tablet that looks to be broken off of a larger section.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44298,   1,   33561255) /* Setup */
-     , (44298,   3,  536870932) /* SoundTable */
-     , (44298,   8,  100691956) /* Icon */
-     , (44298,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44298,   1, 0x02001AA7) /* Setup */
+     , (44298,   3, 0x20000014) /* SoundTable */
+     , (44298,   8, 0x06006FF4) /* Icon */
+     , (44298,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44298, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (44298, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44298, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44298, 8000, 2210356889) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44298, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (44298, 8000, 0x83BF5E99) /* PCAPRecordedObjectIID */;

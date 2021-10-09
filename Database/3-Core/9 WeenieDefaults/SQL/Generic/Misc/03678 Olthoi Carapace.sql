@@ -14,7 +14,8 @@ VALUES (3678,   1,        128) /* ItemType - Misc */
      , (3678, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (3678,  22, True ) /* Inscribable */;
+VALUES (3678,  22, True ) /* Inscribable */
+     , (3678,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (3678,  39,     0.4) /* DefaultScale */;
@@ -23,17 +24,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3678,   1, 'Olthoi Carapace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3678,   1,   33554817) /* Setup */
-     , (3678,   3,  536870932) /* SoundTable */
-     , (3678,   6,   67111919) /* PaletteBase */
-     , (3678,   8,  100670055) /* Icon */
-     , (3678,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3678,   1, 0x02000181) /* Setup */
+     , (3678,   3, 0x20000014) /* SoundTable */
+     , (3678,   6, 0x04000BEF) /* PaletteBase */
+     , (3678,   8, 0x06001A67) /* Icon */
+     , (3678,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3678, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (3678, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3678, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3678, 8000, 3679606431) /* PCAPRecordedObjectIID */;
+VALUES (3678, 8000, 0xDB52569F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3678, 67111924, 0, 0);

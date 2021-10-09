@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3890,   1,          1) /* ItemType - MeleeWeapon */
      , (3890,   5,        268) /* EncumbranceVal */
      , (3890,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (3890,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (3890,  16,          1) /* ItemUseable - No */
      , (3890,  18,         64) /* UiEffects - Lightning */
      , (3890,  19,       4267) /* Value */
@@ -54,12 +53,12 @@ VALUES (3890,   1, 'Lightning Tachi') /* Name */
      , (3890,  16, 'Lightning Tachi of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3890,   1,   33555731) /* Setup */
-     , (3890,   3,  536870932) /* SoundTable */
-     , (3890,   8,  100667934) /* Icon */
-     , (3890,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3890,   1, 0x02000513) /* Setup */
+     , (3890,   3, 0x20000014) /* SoundTable */
+     , (3890,   8, 0x0600121E) /* Icon */
+     , (3890,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3890,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (3890,  52,  100676438) /* IconUnderlay */
+     , (3890,  52, 0x06003356) /* IconUnderlay */
      , (3890, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (3890, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (3890, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -67,18 +66,15 @@ VALUES (3890,   1,   33555731) /* Setup */
      , (3890, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3890, 8040, 3465871393, 151.0719, 112.6264, 17.34125, -0.6622602, -0.6622602, -0.2478133, -0.2478133) /* PCAPRecordedLocation */
+VALUES (3890, 8040, 0xCE950021, 151.0719, 112.6264, 17.34125, -0.66226, -0.66226, -0.247813, -0.247813) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950021 [151.071900 112.626400 17.341250] -0.662260 -0.662260 -0.247813 -0.247813 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3890, 8000, 3686914042) /* PCAPRecordedObjectIID */
-     , (3890, 8008, 1342401529) /* PCAPRecordedParentIID */;
+VALUES (3890, 8000, 0xDBC1D7FA) /* PCAPRecordedObjectIID */
+     , (3890, 8008, 0x50036BF9) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3890,  2096,      2)  /* BloodDrinkerSelf7 */
      , (3890,  2101,      2)  /* DefenderSelf7 */
-     , (3890,  2106,      2)  /* HeartSeekerSelf7 */
-     , (3890,  4663,      2)  /* CANTRIPDEFENDER3 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3890, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;
+     , (3890,  4663,      2)  /* CANTRIPDEFENDER3 */
+     , (3890,  2106,      2)  /* HeartSeekerSelf7 */;

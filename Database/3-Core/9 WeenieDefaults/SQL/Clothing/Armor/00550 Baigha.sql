@@ -49,24 +49,24 @@ VALUES (550,   1, 'Baigha') /* Name */
      , (550,  16, 'Baigha') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (550,   1,   33555048) /* Setup */
-     , (550,   3,  536870932) /* SoundTable */
-     , (550,   6,   67108990) /* PaletteBase */
-     , (550,   8,  100669249) /* Icon */
-     , (550,  22,  872415275) /* PhysicsEffectTable */
+VALUES (550,   1, 0x02000268) /* Setup */
+     , (550,   3, 0x20000014) /* SoundTable */
+     , (550,   6, 0x0400007E) /* PaletteBase */
+     , (550,   8, 0x06001741) /* Icon */
+     , (550,  22, 0x3400002B) /* PhysicsEffectTable */
      , (550,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (550, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (550, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (550, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (550, 8000, 2978131483) /* PCAPRecordedObjectIID */;
+VALUES (550, 8000, 0xB182AE1B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (550,  1486,      2)  /* Impenetrability6 */
+     , (550,  2519,      2)  /* CANTRIPLEADERSHIP2 */
      , (550,  1562,      2)  /* BladeBane6 */
-     , (550,  1573,      2)  /* PiercingBane5 */
-     , (550,  2519,      2)  /* CANTRIPLEADERSHIP2 */;
+     , (550,  1573,      2)  /* PiercingBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (550, 67113248, 240, 10);

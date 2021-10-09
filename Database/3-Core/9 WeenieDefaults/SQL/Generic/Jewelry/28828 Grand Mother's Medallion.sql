@@ -20,7 +20,8 @@ VALUES (28828,   1,          8) /* ItemType - Jewelry */
      , (28828, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28828,  22, True ) /* Inscribable */;
+VALUES (28828,  22, True ) /* Inscribable */
+     , (28828,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28828,   5,  -0.049) /* ManaRate */;
@@ -30,21 +31,21 @@ VALUES (28828,   1, 'Grand Mother''s Medallion') /* Name */
      , (28828,  16, 'A beautiful medallion given to you by Grand Mother of Silyun for avenging the death of her grandson.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28828,   1,   33554689) /* Setup */
-     , (28828,   3,  536870932) /* SoundTable */
-     , (28828,   6,   67111919) /* PaletteBase */
-     , (28828,   8,  100686352) /* Icon */
-     , (28828,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28828,   1, 0x02000101) /* Setup */
+     , (28828,   3, 0x20000014) /* SoundTable */
+     , (28828,   6, 0x04000BEF) /* PaletteBase */
+     , (28828,   8, 0x06005A10) /* Icon */
+     , (28828,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28828, 8001,    2179088) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden */
      , (28828, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28828, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28828, 8000, 2153711831) /* PCAPRecordedObjectIID */;
+VALUES (28828, 8000, 0x805F08D7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28828,  1311,      2)  /* ArmorSelf5 */
-     , (28828,  1353,      2)  /* EnduranceSelf5 */
+VALUES (28828,  1353,      2)  /* EnduranceSelf5 */
+     , (28828,  1311,      2)  /* ArmorSelf5 */
      , (28828,  1377,      2)  /* CoordinationSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

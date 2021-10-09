@@ -49,18 +49,18 @@ VALUES (22160,   1, 'Lightning Nabut') /* Name */
      , (22160,  16, 'Lightning Nabut of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22160,   1,   33558075) /* Setup */
-     , (22160,   3,  536870932) /* SoundTable */
-     , (22160,   6,   67111919) /* PaletteBase */
-     , (22160,   8,  100673626) /* Icon */
-     , (22160,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22160,   1, 0x02000E3B) /* Setup */
+     , (22160,   3, 0x20000014) /* SoundTable */
+     , (22160,   6, 0x04000BEF) /* PaletteBase */
+     , (22160,   8, 0x0600285A) /* Icon */
+     , (22160,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22160,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (22160, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (22160, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22160, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22160, 8000, 3684458190) /* PCAPRecordedObjectIID */;
+VALUES (22160, 8000, 0xDB9C5ECE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22160,  1614,      2)  /* BloodDrinkerSelf4 */;

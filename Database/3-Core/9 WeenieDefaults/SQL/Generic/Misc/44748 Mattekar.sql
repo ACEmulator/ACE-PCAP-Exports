@@ -19,11 +19,11 @@ VALUES (44748,   1, 'Mattekar') /* Name */
      , (44748,  16, 'Mattekars are a strange, fur-bearing variety of reed shark found in the snowfields and mountains of Dereth Island. They are also known, among common folk, as "snow sharks." They are huge -- seven feet or taller at the shoulder -- and are found as lone rogues and small family units: the latter will defend one another to the death. They attack with claws, horns and teeth, and are particularly resistant to damage due to cold. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44748,   1,   33561348) /* Setup */
-     , (44748,   8,  100668115) /* Icon */
+VALUES (44748,   1, 0x02001B04) /* Setup */
+     , (44748,   8, 0x060012D3) /* Icon */
      , (44748, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44748, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44748, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44748, 8000, 2249707818) /* PCAPRecordedObjectIID */;
+VALUES (44748, 8000, 0x8617D12A) /* PCAPRecordedObjectIID */;

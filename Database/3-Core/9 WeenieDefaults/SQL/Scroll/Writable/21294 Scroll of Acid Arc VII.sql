@@ -24,16 +24,13 @@ VALUES (21294,   1, 'Scroll of Acid Arc VII') /* Name */
 Shoots a stream of acid at the target. The stream does 115-189 points of acid damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21294,   1,   33554826) /* Setup */
-     , (21294,   8,  100677026) /* Icon */
-     , (21294,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21294,   1, 0x0200018A) /* Setup */
+     , (21294,   8, 0x060035A2) /* Icon */
+     , (21294,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21294,  28,       2717) /* Spell - AcidArc7 */
      , (21294, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (21294, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21294, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21294, 8000, 3691032097) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (21294, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (21294, 8000, 0xDC00AE21) /* PCAPRecordedObjectIID */;

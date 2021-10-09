@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x5854;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75854000, 21915, 0x58540129, 20, -20, 23.99312, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Gaerlan Effect */
+VALUES (0x75854000, 21915, 0x58540129, 20, -20, 23.99312, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Gaerlan Effect */
 /* @teleloc 0x58540129 [20.000000 -20.000000 23.993120] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75854003, 21400, 0x5854012A, 19.9771, -32.172, 23.937, -0.00420373, 0, 0, 0.9999912, False, '2019-02-10 00:00:00'); /* Citadel Apex */
+VALUES (0x75854003, 21400, 0x5854012A, 19.9771, -32.172, 23.937, -0.004204, 0, 0, 0.999991, False, '2019-02-10 00:00:00'); /* Citadel Apex */
 /* @teleloc 0x5854012A [19.977100 -32.172000 23.937000] -0.004204 0.000000 0.000000 0.999991 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

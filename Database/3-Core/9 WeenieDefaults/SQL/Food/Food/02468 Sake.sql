@@ -23,13 +23,13 @@ VALUES (2468,   1, 'Sake') /* Name */
      , (2468,  20, 'Cups of Sake') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2468,   1,   33554662) /* Setup */
-     , (2468,   3,  536870932) /* SoundTable */
-     , (2468,   8,  100667428) /* Icon */
-     , (2468,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2468,   1, 0x020000E6) /* Setup */
+     , (2468,   3, 0x20000014) /* SoundTable */
+     , (2468,   8, 0x06001024) /* Icon */
+     , (2468,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2468, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (2468, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (2468, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2468, 8000, 3695932884) /* PCAPRecordedObjectIID */;
+VALUES (2468, 8000, 0xDC4B75D4) /* PCAPRecordedObjectIID */;

@@ -12,6 +12,7 @@ VALUES (46264,   1,      32768) /* ItemType - Caster */
      , (46264,  19,       8000) /* Value */
      , (46264,  33,          1) /* Bonded - Bonded */
      , (46264,  45,         32) /* DamageType - Acid */
+     , (46264,  46,        512) /* DefaultCombatStyle - Magic */
      , (46264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46264,  94,         16) /* TargetType - Creature */
      , (46264, 106,        350) /* ItemSpellcraft */
@@ -45,25 +46,25 @@ VALUES (46264,   1, 'Enhanced Dissolving Isparian Wand') /* Name */
      , (46264,  25, 'Beale') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46264,   1,   33557783) /* Setup */
-     , (46264,   3,  536870932) /* SoundTable */
-     , (46264,   6,   67111919) /* PaletteBase */
-     , (46264,   8,  100672995) /* Icon */
-     , (46264,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46264,   1, 0x02000D17) /* Setup */
+     , (46264,   3, 0x20000014) /* SoundTable */
+     , (46264,   6, 0x04000BEF) /* PaletteBase */
+     , (46264,   8, 0x060025E3) /* Icon */
+     , (46264,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46264, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (46264, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46264, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46264, 8000, 2150887312) /* PCAPRecordedObjectIID */;
+VALUES (46264, 8000, 0x8033EF90) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46264,  2059,      2)  /* CoordinationSelf7 */
-     , (46264,  2101,      2)  /* DefenderSelf7 */
      , (46264,  2149,      2)  /* AcidProtectionSelf7 */
-     , (46264,  2287,      2)  /* ManaMasterySelf7 */
      , (46264,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (46264,  2287,      2)  /* ManaMasterySelf7 */
      , (46264,  3250,      2)  /* CantripSpiritThirst2 */
+     , (46264,  2101,      2)  /* DefenderSelf7 */
      , (46264,  3259,      2)  /* SpiritDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

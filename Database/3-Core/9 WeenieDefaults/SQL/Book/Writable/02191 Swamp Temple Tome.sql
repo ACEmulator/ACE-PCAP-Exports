@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2191,   1, 'Swamp Temple Tome') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2191,   1,   33554772) /* Setup */
-     , (2191,   3,  536870932) /* SoundTable */
-     , (2191,   8,  100667470) /* Icon */
-     , (2191,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2191,   1, 0x02000154) /* Setup */
+     , (2191,   3, 0x20000014) /* SoundTable */
+     , (2191,   8, 0x0600104E) /* Icon */
+     , (2191,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2191, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (2191, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (2191, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2191, 8040, 27395125, 69.8331, -57.7475, -10.6521, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (2191, 8040, 0x01A20435, 69.8331, -57.7475, -10.6521, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x01A20435 [69.833100 -57.747500 -10.652100] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2191, 8000, 3711239883) /* PCAPRecordedObjectIID */;
+VALUES (2191, 8000, 0xDD3506CB) /* PCAPRecordedObjectIID */;

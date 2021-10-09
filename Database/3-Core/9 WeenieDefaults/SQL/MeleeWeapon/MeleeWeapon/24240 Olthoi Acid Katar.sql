@@ -46,19 +46,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24240,   1, 'Olthoi Acid Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24240,   1,   33558331) /* Setup */
-     , (24240,   3,  536870932) /* SoundTable */
-     , (24240,   8,  100674295) /* Icon */
-     , (24240,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24240,   1, 0x02000F3B) /* Setup */
+     , (24240,   3, 0x20000014) /* SoundTable */
+     , (24240,   8, 0x06002AF7) /* Icon */
+     , (24240,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24240, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24240, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24240, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24240, 8000, 2166048303) /* PCAPRecordedObjectIID */;
+VALUES (24240, 8000, 0x811B462F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24240,  1312,      2)  /* ArmorSelf6 */
-     , (24240,  1605,      2)  /* DefenderSelf6 */
+VALUES (24240,  1605,      2)  /* DefenderSelf6 */
      , (24240,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (24240,  2578,      2)  /* CANTRIPARMOR1 */;
+     , (24240,  2578,      2)  /* CANTRIPARMOR1 */
+     , (24240,  1312,      2)  /* ArmorSelf6 */;

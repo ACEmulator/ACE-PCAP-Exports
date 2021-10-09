@@ -17,7 +17,7 @@ VALUES (21427,   1,        256) /* ItemType - MissileWeapon */
      , (21427,  48,         47) /* WeaponSkill - MissileWeapons */
      , (21427,  49,         50) /* WeaponTime */
      , (21427,  50,          1) /* AmmoType - Arrow */
-     , (21427,  51,          2) /* CombatUse - Missle */
+     , (21427,  51,          2) /* CombatUse - Missile */
      , (21427,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21427, 106,        250) /* ItemSpellcraft */
      , (21427, 107,       1000) /* ItemCurMana */
@@ -54,16 +54,16 @@ VALUES (21427,   1, 'Lautaloi') /* Name */
      , (21427,  25, 'Nadine') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21427,   1,   33557959) /* Setup */
-     , (21427,   3,  536870932) /* SoundTable */
-     , (21427,   8,  100673486) /* Icon */
-     , (21427,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21427,   1, 0x02000DC7) /* Setup */
+     , (21427,   3, 0x20000014) /* SoundTable */
+     , (21427,   8, 0x060027CE) /* Icon */
+     , (21427,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21427, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (21427, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21427, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21427, 8000, 2165920256) /* PCAPRecordedObjectIID */;
+VALUES (21427, 8000, 0x81195200) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21427,   465,      2)  /* BowMasteryOther5 */;
+VALUES (21427,   465,      2)  /* MissileWeaponsMasteryOther5 */;

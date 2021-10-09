@@ -23,18 +23,18 @@ VALUES (5431,   1, 'Forest''s Blessing Bows') /* Name */
      , (5431,  16, 'Forest''s Blessing Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5431,   1,   33555594) /* Setup */
-     , (5431,   8,  100668115) /* Icon */
+VALUES (5431,   1, 0x0200048A) /* Setup */
+     , (5431,   8, 0x060012D3) /* Icon */
      , (5431, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (5431, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (5431, 8005,      32773) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5431, 8040, 3661299746, 116.827, 38.5033, 19.8, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (5431, 8040, 0xDA3B0022, 116.827, 38.5033, 19.8, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xDA3B0022 [116.827000 38.503300 19.800000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5431, 8000, 2107879449) /* PCAPRecordedObjectIID */;
+VALUES (5431, 8000, 0x7DA3B019) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (5431, 0, 83891180, 83891181);

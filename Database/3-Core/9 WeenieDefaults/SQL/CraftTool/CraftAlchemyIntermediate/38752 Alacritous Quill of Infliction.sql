@@ -22,13 +22,13 @@ VALUES (38752,   1, 'Alacritous Quill of Infliction') /* Name */
      , (38752,  20, 'Alacritous Quills of Infliction') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38752,   1,   33559616) /* Setup */
-     , (38752,   8,  100690196) /* Icon */
-     , (38752,  52,  100676440) /* IconUnderlay */
+VALUES (38752,   1, 0x02001440) /* Setup */
+     , (38752,   8, 0x06006914) /* Icon */
+     , (38752,  52, 0x06003358) /* IconUnderlay */
      , (38752, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (38752, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (38752, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (38752, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38752, 8000, 2158698204) /* PCAPRecordedObjectIID */;
+VALUES (38752, 8000, 0x80AB1EDC) /* PCAPRecordedObjectIID */;

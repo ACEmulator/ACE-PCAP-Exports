@@ -25,17 +25,17 @@ VALUES (29180,   1, 'Empty Bottles') /* Name */
      , (29180,  16, 'A pack of empty bottles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29180,   1,   33559132) /* Setup */
-     , (29180,   3,  536870932) /* SoundTable */
-     , (29180,   8,  100686463) /* Icon */
-     , (29180,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29180,   1, 0x0200125C) /* Setup */
+     , (29180,   3, 0x20000014) /* SoundTable */
+     , (29180,   8, 0x06005A7F) /* Icon */
+     , (29180,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29180, 8001,  271069208) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, TargetType, Burden, HookType */
      , (29180, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29180, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29180, 8040, 4095213581, 32.56397, 100.5786, 160, -0.5311717, 0, 0, -0.8472642) /* PCAPRecordedLocation */
+VALUES (29180, 8040, 0xF418000D, 32.56397, 100.5786, 160, -0.531172, 0, 0, -0.847264) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [32.563970 100.578600 160.000000] -0.531172 0.000000 0.000000 -0.847264 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29180, 8000, 2586927783) /* PCAPRecordedObjectIID */;
+VALUES (29180, 8000, 0x9A3162A7) /* PCAPRecordedObjectIID */;

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21023,   1,        256) /* ItemType - MissileWeapon */
      , (21023,   5,        950) /* EncumbranceVal */
      , (21023,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (21023,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (21023,  16,          1) /* ItemUseable - No */
      , (21023,  18,          1) /* UiEffects - Magical */
      , (21023,  19,       8000) /* Value */
@@ -18,7 +17,7 @@ VALUES (21023,   1,        256) /* ItemType - MissileWeapon */
      , (21023,  48,         47) /* WeaponSkill - MissileWeapons */
      , (21023,  49,         40) /* WeaponTime */
      , (21023,  50,          1) /* AmmoType - Arrow */
-     , (21023,  51,          2) /* CombatUse - Missle */
+     , (21023,  51,          2) /* CombatUse - Missile */
      , (21023,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21023, 106,        300) /* ItemSpellcraft */
      , (21023, 107,        454) /* ItemCurMana */
@@ -49,22 +48,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21023,   1, 'Perfect Shimmering Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21023,   1,   33557729) /* Setup */
-     , (21023,   3,  536870932) /* SoundTable */
-     , (21023,   8,  100673205) /* Icon */
-     , (21023,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21023,   1, 0x02000CE1) /* Setup */
+     , (21023,   3, 0x20000014) /* SoundTable */
+     , (21023,   8, 0x060026B5) /* Icon */
+     , (21023,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21023, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (21023, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21023, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (21023, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21023, 8040, 23855554, 58.12363, -28.59009, -0.07000001, -0.222214, 0, 0, -0.9749979) /* PCAPRecordedLocation */
+VALUES (21023, 8040, 0x016C01C2, 58.12363, -28.59009, -0.07, -0.222214, 0, 0, -0.974998) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [58.123630 -28.590090 -0.070000] -0.222214 0.000000 0.000000 -0.974998 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21023, 8000, 3704376917) /* PCAPRecordedObjectIID */
-     , (21023, 8008, 1342800107) /* PCAPRecordedParentIID */;
+VALUES (21023, 8000, 0xDCCC4E55) /* PCAPRecordedObjectIID */
+     , (21023, 8008, 0x500980EB) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21023,  1312,      2)  /* ArmorSelf6 */

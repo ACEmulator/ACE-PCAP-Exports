@@ -18,7 +18,8 @@ VALUES (9046,   1,       2048) /* ItemType - Gem */
      , (9046, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9046,  22, True ) /* Inscribable */;
+VALUES (9046,  22, True ) /* Inscribable */
+     , (9046,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9046,  76,     0.5) /* Translucency */;
@@ -28,17 +29,17 @@ VALUES (9046,   1, 'Sunstone Geode') /* Name */
      , (9046,  16, 'A luminous geode, taken from a Nephol Golem.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9046,   1,   33556947) /* Setup */
-     , (9046,   3,  536870932) /* SoundTable */
-     , (9046,   6,   67111928) /* PaletteBase */
-     , (9046,   8,  100671336) /* Icon */
-     , (9046,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9046,   1, 0x020009D3) /* Setup */
+     , (9046,   3, 0x20000014) /* SoundTable */
+     , (9046,   6, 0x04000BF8) /* PaletteBase */
+     , (9046,   8, 0x06001F68) /* Icon */
+     , (9046,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9046, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (9046, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9046, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9046, 8000, 2880307103) /* PCAPRecordedObjectIID */;
+VALUES (9046, 8000, 0xABADFF9F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9046, 67111921, 0, 0);

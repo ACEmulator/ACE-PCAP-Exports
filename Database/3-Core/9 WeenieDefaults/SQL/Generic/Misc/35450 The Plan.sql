@@ -21,13 +21,13 @@ VALUES (35450,   1, 'The Plan') /* Name */
      , (35450,  16, 'A Drudge painting of The Plan. Crude drawings of Drudges stealing things are depicted.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35450,   1,   33560301) /* Setup */
-     , (35450,   3,  536870932) /* SoundTable */
-     , (35450,   8,  100689478) /* Icon */
-     , (35450,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35450,   1, 0x020016ED) /* Setup */
+     , (35450,   3, 0x20000014) /* SoundTable */
+     , (35450,   8, 0x06006646) /* Icon */
+     , (35450,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35450, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (35450, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35450, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35450, 8000, 2151222050) /* PCAPRecordedObjectIID */;
+VALUES (35450, 8000, 0x80390B22) /* PCAPRecordedObjectIID */;

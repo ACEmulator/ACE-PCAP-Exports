@@ -24,6 +24,7 @@ VALUES (28046,   1,          4) /* ItemType - Clothing */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28046,  22, True ) /* Inscribable */
+     , (28046,  23, True ) /* DestroyOnSell */
      , (28046,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -42,21 +43,21 @@ VALUES (28046,   1, 'Aerfalle''s Supreme Pallium') /* Name */
      , (28046,  16, 'A black robe obtained from the Lady of Aerlinthe''s personal treasure chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28046,   1,   33554854) /* Setup */
-     , (28046,   3,  536870932) /* SoundTable */
-     , (28046,   6,   67108990) /* PaletteBase */
-     , (28046,   8,  100672444) /* Icon */
-     , (28046,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28046,   1, 0x020001A6) /* Setup */
+     , (28046,   3, 0x20000014) /* SoundTable */
+     , (28046,   6, 0x0400007E) /* PaletteBase */
+     , (28046,   8, 0x060023BC) /* Icon */
+     , (28046,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28046, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (28046, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28046, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28046, 8000, 3706545776) /* PCAPRecordedObjectIID */;
+VALUES (28046, 8000, 0xDCED6670) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28046,  2015,      2)  /* AerfallesWard */
-     , (28046,  2066,      2)  /* FocusOther7 */
+VALUES (28046,  2066,      2)  /* FocusOther7 */
+     , (28046,  2015,      2)  /* AerfallesWard */
      , (28046,  2090,      2)  /* WillpowerOther7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

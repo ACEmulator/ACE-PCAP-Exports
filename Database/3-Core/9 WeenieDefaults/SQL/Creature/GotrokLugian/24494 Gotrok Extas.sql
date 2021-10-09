@@ -23,22 +23,22 @@ VALUES (24494,   1, 'Gotrok Extas') /* Name */
      , (24494, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24494,   1,   33557003) /* Setup */
-     , (24494,   2,  150994950) /* MotionTable */
-     , (24494,   3,  536870922) /* SoundTable */
-     , (24494,   6,   67113158) /* PaletteBase */
-     , (24494,   8,  100667447) /* Icon */
-     , (24494,  22,  872415262) /* PhysicsEffectTable */
+VALUES (24494,   1, 0x02000A0B) /* Setup */
+     , (24494,   2, 0x09000006) /* MotionTable */
+     , (24494,   3, 0x2000000A) /* SoundTable */
+     , (24494,   6, 0x040010C6) /* PaletteBase */
+     , (24494,   8, 0x06001037) /* Icon */
+     , (24494,  22, 0x3400001E) /* PhysicsEffectTable */
      , (24494, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24494, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24494, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24494, 8040, 2377056267, 45.05562, 64.6902, 49.40085, 0.2588191, 0, 0, -0.9659258) /* PCAPRecordedLocation */
+VALUES (24494, 8040, 0x8DAF000B, 45.05562, 64.6902, 49.40085, 0.258819, 0, 0, -0.965926) /* PCAPRecordedLocation */
 /* @teleloc 0x8DAF000B [45.055620 64.690200 49.400850] 0.258819 0.000000 0.000000 -0.965926 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24494, 8000, 3685754428) /* PCAPRecordedObjectIID */;
+VALUES (24494, 8000, 0xDBB0263C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24494,   1, 290, 0, 0) /* Strength */
@@ -323,7 +323,11 @@ VALUES (24494, 2, 23748,  1, 0, 0, False) /* Create Rock (23748) for Wield */
      , (24494, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (24494, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
      , (24494, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
-     , (24494, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */;
+     , (24494, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */
+     , (24494, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */
+     , (24494, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (24494, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */
+     , (24494, 9,  3257,  0, 0, 0, False) /* Create Scroll of Faithlessness VI (3257) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24494, 67113162, 0, 0);

@@ -19,15 +19,15 @@ VALUES (5673,   1, 'Charred Sign') /* Name */
      , (5673,  16, 'This sign shows evidence of having been subject to extreme heat. NOTICE TO ALL WORKERS: The opening of the fissures in the lower levels is no cause for alarm, but be cautious in these areas.  As long as you do not jump down into the magma, you will be fine.  If anyone is foolish enough to jump down, the rest of us will be safer without them.  Remember to keep your mind on your work and you wits about you. - Brelax, Foreman, 25th Seedsow') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5673,   1,   33555088) /* Setup */
-     , (5673,   8,  100668115) /* Icon */
+VALUES (5673,   1, 0x02000290) /* Setup */
+     , (5673,   8, 0x060012D3) /* Icon */
      , (5673, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (5673, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (5673, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5673, 8040, 21365405, 68.1217, -29.4294, 0, -0.142954, 0, 0, -0.989729) /* PCAPRecordedLocation */
+VALUES (5673, 8040, 0x0146029D, 68.1217, -29.4294, 0, -0.142954, 0, 0, -0.989729) /* PCAPRecordedLocation */
 /* @teleloc 0x0146029D [68.121700 -29.429400 0.000000] -0.142954 0.000000 0.000000 -0.989729 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5673, 8000, 1880383611) /* PCAPRecordedObjectIID */;
+VALUES (5673, 8000, 0x7014607B) /* PCAPRecordedObjectIID */;

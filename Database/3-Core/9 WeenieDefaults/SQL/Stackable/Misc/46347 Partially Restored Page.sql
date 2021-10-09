@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46347,   1, 'Partially Restored Page') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46347,   1,   33554773) /* Setup */
-     , (46347,   3,  536870932) /* SoundTable */
-     , (46347,   8,  100692695) /* Icon */
-     , (46347,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46347,   1, 0x02000155) /* Setup */
+     , (46347,   3, 0x20000014) /* SoundTable */
+     , (46347,   8, 0x060072D7) /* Icon */
+     , (46347,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46347, 8001,    2125832) /* PCAPRecordedWeenieHeader - Value, StackSize, MaxStackSize, Container, Burden */
      , (46347, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46347, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46347, 8000, 3360511963) /* PCAPRecordedObjectIID */;
+VALUES (46347, 8000, 0xC84D57DB) /* PCAPRecordedObjectIID */;

@@ -26,22 +26,22 @@ VALUES (42029,   1, 'Shade of Ormend') /* Name */
      , (42029, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42029,   1,   33554433) /* Setup */
-     , (42029,   2,  150994945) /* MotionTable */
-     , (42029,   3,  536871094) /* SoundTable */
-     , (42029,   6,   67115251) /* PaletteBase */
-     , (42029,   8,  100676679) /* Icon */
-     , (42029,  22,  872415403) /* PhysicsEffectTable */
+VALUES (42029,   1, 0x02000001) /* Setup */
+     , (42029,   2, 0x09000001) /* MotionTable */
+     , (42029,   3, 0x200000B6) /* SoundTable */
+     , (42029,   6, 0x040018F3) /* PaletteBase */
+     , (42029,   8, 0x06003447) /* Icon */
+     , (42029,  22, 0x340000AB) /* PhysicsEffectTable */
      , (42029, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (42029, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (42029, 8005,     366787) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42029, 8040, 2349008843, 190, 0, 24.006, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42029, 8040, 0x8C0307CB, 190, 0, 24.006, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8C0307CB [190.000000 0.000000 24.006000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42029, 8000, 3683495547) /* PCAPRecordedObjectIID */;
+VALUES (42029, 8000, 0xDB8DAE7B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42029, 2, 35395,  1, 0, 0, False) /* Create House Mhoire Shield (35395) for Wield */

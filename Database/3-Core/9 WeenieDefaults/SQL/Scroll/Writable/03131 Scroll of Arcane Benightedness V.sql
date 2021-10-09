@@ -24,13 +24,13 @@ VALUES (3131,   1, 'Scroll of Arcane Benightedness V') /* Name */
 Decreases the target''s Arcane Lore skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3131,   1,   33554826) /* Setup */
-     , (3131,   8,  100676447) /* Icon */
-     , (3131,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3131,   1, 0x0200018A) /* Setup */
+     , (3131,   8, 0x0600335F) /* Icon */
+     , (3131,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3131,  28,        700) /* Spell - ArcaneBenightednessOther5 */
      , (3131, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3131, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3131, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3131, 8000, 2617536338) /* PCAPRecordedObjectIID */;
+VALUES (3131, 8000, 0x9C046F52) /* PCAPRecordedObjectIID */;

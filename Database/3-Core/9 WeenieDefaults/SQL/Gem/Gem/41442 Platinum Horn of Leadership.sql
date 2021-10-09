@@ -32,10 +32,10 @@ VALUES (41442,   1, 'Platinum Horn of Leadership') /* Name */
      , (41442,  16, 'This horn is eternal. Use this horn to increase the Health of your Fellowship by 10.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41442,   1,   33554809) /* Setup */
-     , (41442,   3,  536870932) /* SoundTable */
-     , (41442,   8,  100690583) /* Icon */
-     , (41442,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41442,   1, 0x02000179) /* Setup */
+     , (41442,   3, 0x20000014) /* SoundTable */
+     , (41442,   8, 0x06006A97) /* Icon */
+     , (41442,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41442,  28,       5122) /* Spell - CallOfLeadership5 */
      , (41442,  37,         35) /* ItemSkillLimit - Leadership */
      , (41442, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
@@ -44,4 +44,4 @@ VALUES (41442,   1,   33554809) /* Setup */
      , (41442, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41442, 8000, 2979050503) /* PCAPRecordedObjectIID */;
+VALUES (41442, 8000, 0xB190B407) /* PCAPRecordedObjectIID */;

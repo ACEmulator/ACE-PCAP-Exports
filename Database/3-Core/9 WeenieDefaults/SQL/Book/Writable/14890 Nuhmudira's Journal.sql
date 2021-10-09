@@ -19,16 +19,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14890,   1, 'Nuhmudira''s Journal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14890,   1,   33556929) /* Setup */
-     , (14890,   3,  536870932) /* SoundTable */
-     , (14890,   8,  100672608) /* Icon */
-     , (14890,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14890,   1, 0x020009C1) /* Setup */
+     , (14890,   3, 0x20000014) /* SoundTable */
+     , (14890,   8, 0x06002460) /* Icon */
+     , (14890,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14890, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (14890, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (14890, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14890, 8000, 2779768936) /* PCAPRecordedObjectIID */;
+VALUES (14890, 8000, 0xA5AFE868) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (14890, 0, 83892962, 83893917)

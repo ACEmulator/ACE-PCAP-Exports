@@ -35,17 +35,17 @@ VALUES (22024,   1, 'Full Mu-miyah Guise') /* Name */
      , (22024,  16, 'A finely crafted mu-miyah costume complete with head. The smell of mold and old dirt lingers despite the glues used to hold the costume together. There is a thin line of padding that has been added to the interior to protect the wearer from touching the aged bandages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22024,   1,   33558022) /* Setup */
-     , (22024,   3,  536870932) /* SoundTable */
-     , (22024,   6,   67108990) /* PaletteBase */
-     , (22024,   8,  100673715) /* Icon */
-     , (22024,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22024,   1, 0x02000E06) /* Setup */
+     , (22024,   3, 0x20000014) /* SoundTable */
+     , (22024,   6, 0x0400007E) /* PaletteBase */
+     , (22024,   8, 0x060028B3) /* Icon */
+     , (22024,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22024, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (22024, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22024, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22024, 8000, 3697676499) /* PCAPRecordedObjectIID */;
+VALUES (22024, 8000, 0xDC6610D3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22024, 67113141, 40, 216);

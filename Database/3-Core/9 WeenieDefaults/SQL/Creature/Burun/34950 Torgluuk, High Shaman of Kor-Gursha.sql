@@ -29,22 +29,22 @@ VALUES (34950,   1, 'Torgluuk, High Shaman of Kor-Gursha') /* Name */
      , (34950, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34950,   1,   33558747) /* Setup */
-     , (34950,   2,  150995272) /* MotionTable */
-     , (34950,   3,  536871083) /* SoundTable */
-     , (34950,   6,   67114919) /* PaletteBase */
-     , (34950,   8,  100675761) /* Icon */
-     , (34950,  22,  872415264) /* PhysicsEffectTable */
+VALUES (34950,   1, 0x020010DB) /* Setup */
+     , (34950,   2, 0x09000148) /* MotionTable */
+     , (34950,   3, 0x200000AB) /* SoundTable */
+     , (34950,   6, 0x040017A7) /* PaletteBase */
+     , (34950,   8, 0x060030B1) /* Icon */
+     , (34950,  22, 0x34000020) /* PhysicsEffectTable */
      , (34950, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (34950, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (34950, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34950, 8040, 10224017, 330.433, -76.4722, -23.95193, -0.06636702, 0, 0, 0.9977953) /* PCAPRecordedLocation */
+VALUES (34950, 8040, 0x009C0191, 330.433, -76.4722, -23.95193, -0.066367, 0, 0, 0.997795) /* PCAPRecordedLocation */
 /* @teleloc 0x009C0191 [330.433000 -76.472200 -23.951930] -0.066367 0.000000 0.000000 0.997795 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34950, 8000, 3708766483) /* PCAPRecordedObjectIID */;
+VALUES (34950, 8000, 0xDD0F4913) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34950,   1, 350, 0, 0) /* Strength */

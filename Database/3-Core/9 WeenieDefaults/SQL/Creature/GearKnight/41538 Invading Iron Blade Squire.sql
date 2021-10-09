@@ -26,21 +26,21 @@ VALUES (41538,   1, 'Invading Iron Blade Squire') /* Name */
      , (41538, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41538,   1,   33560841) /* Setup */
-     , (41538,   2,  150995368) /* MotionTable */
-     , (41538,   3,  536871123) /* SoundTable */
-     , (41538,   8,  100674350) /* Icon */
-     , (41538,  22,  872415269) /* PhysicsEffectTable */
+VALUES (41538,   1, 0x02001909) /* Setup */
+     , (41538,   2, 0x090001A8) /* MotionTable */
+     , (41538,   3, 0x200000D3) /* SoundTable */
+     , (41538,   8, 0x06002B2E) /* Icon */
+     , (41538,  22, 0x34000025) /* PhysicsEffectTable */
      , (41538, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (41538, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (41538, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41538, 8040, 577765377, 8.042219, 4.279298, 164.8736, -0.105266, 0, 0, -0.9944441) /* PCAPRecordedLocation */
+VALUES (41538, 8040, 0x22700001, 8.042219, 4.279298, 164.8736, -0.105266, 0, 0, -0.994444) /* PCAPRecordedLocation */
 /* @teleloc 0x22700001 [8.042219 4.279298 164.873600] -0.105266 0.000000 0.000000 -0.994444 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41538, 8000, 3706483233) /* PCAPRecordedObjectIID */;
+VALUES (41538, 8000, 0xDCEC7221) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41538,   1, 445, 0, 0) /* Strength */

@@ -54,28 +54,28 @@ VALUES (30577,   1, 'Flaming Flamberge') /* Name */
      , (30577,  16, 'Flaming Flamberge of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30577,   1,   33559465) /* Setup */
-     , (30577,   3,  536870932) /* SoundTable */
-     , (30577,   6,   67115557) /* PaletteBase */
-     , (30577,   8,  100686954) /* Icon */
-     , (30577,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30577,   1, 0x020013A9) /* Setup */
+     , (30577,   3, 0x20000014) /* SoundTable */
+     , (30577,   6, 0x04001A25) /* PaletteBase */
+     , (30577,   8, 0x06005C6A) /* Icon */
+     , (30577,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30577,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30577, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30577, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30577, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30577, 8040, 3332964380, 76.80225, 94.91811, 42, 0.7082336, 0, 0, -0.7059782) /* PCAPRecordedLocation */
+VALUES (30577, 8040, 0xC6A9001C, 76.80225, 94.91811, 42, 0.708234, 0, 0, -0.705978) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [76.802250 94.918110 42.000000] 0.708234 0.000000 0.000000 -0.705978 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30577, 8000, 2156287794) /* PCAPRecordedObjectIID */;
+VALUES (30577, 8000, 0x80865732) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30577,  1616,      2)  /* BloodDrinkerSelf6 */
+VALUES (30577,  4417,      2)  /* SwiftKillerSelf8 */
+     , (30577,  1616,      2)  /* BloodDrinkerSelf6 */
      , (30577,  2518,      2)  /* CANTRIPJUMPINGPROWESS2 */
-     , (30577,  4400,      2)  /* DefenderSelf8 */
-     , (30577,  4417,      2)  /* SwiftKillerSelf8 */;
+     , (30577,  4400,      2)  /* DefenderSelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30577, 67116387, 0, 0);

@@ -25,21 +25,21 @@ VALUES (32110,   1, 'Robert Gutsmasher') /* Name */
      , (32110, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32110,   1,   33554433) /* Setup */
-     , (32110,   2,  150994945) /* MotionTable */
-     , (32110,   3,  536870913) /* SoundTable */
-     , (32110,   6,   67108990) /* PaletteBase */
-     , (32110,   8,  100667446) /* Icon */
+VALUES (32110,   1, 0x02000001) /* Setup */
+     , (32110,   2, 0x09000001) /* MotionTable */
+     , (32110,   3, 0x20000001) /* SoundTable */
+     , (32110,   6, 0x0400007E) /* PaletteBase */
+     , (32110,   8, 0x06001036) /* Icon */
      , (32110, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (32110, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (32110, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32110, 8040, 599130426, 46.8945, 40.1646, -3.195, 0.3071991, 0, 0, 0.9516453) /* PCAPRecordedLocation */
+VALUES (32110, 8040, 0x23B6013A, 46.8945, 40.1646, -3.195, 0.307199, 0, 0, 0.951645) /* PCAPRecordedLocation */
 /* @teleloc 0x23B6013A [46.894500 40.164600 -3.195000] 0.307199 0.000000 0.000000 0.951645 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32110, 8000, 3708875268) /* PCAPRecordedObjectIID */;
+VALUES (32110, 8000, 0xDD10F204) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32110, 67109558, 0, 24)

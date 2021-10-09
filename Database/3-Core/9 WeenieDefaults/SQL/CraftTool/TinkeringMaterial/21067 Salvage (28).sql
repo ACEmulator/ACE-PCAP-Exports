@@ -35,18 +35,18 @@ VALUES (21067,   1, 'Salvage (28)') /* Name */
      , (21067,  15, 'A tile of porcelain material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21067,   1,   33554817) /* Setup */
-     , (21067,   3,  536870932) /* SoundTable */
-     , (21067,   6,   67111919) /* PaletteBase */
-     , (21067,   8,  100673217) /* Icon */
-     , (21067,  22,  872415275) /* PhysicsEffectTable */
-     , (21067,  50,  100673290) /* IconOverlay */
+VALUES (21067,   1, 0x02000181) /* Setup */
+     , (21067,   3, 0x20000014) /* SoundTable */
+     , (21067,   6, 0x04000BEF) /* PaletteBase */
+     , (21067,   8, 0x060026C1) /* Icon */
+     , (21067,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21067,  50, 0x0600270A) /* IconOverlay */
      , (21067, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (21067, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21067, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21067, 8000, 2401204513) /* PCAPRecordedObjectIID */;
+VALUES (21067, 8000, 0x8F1F7921) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21067, 67111922, 0, 0);

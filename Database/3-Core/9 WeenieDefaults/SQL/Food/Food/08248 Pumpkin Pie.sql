@@ -26,16 +26,16 @@ VALUES (8248,   1, 'Pumpkin Pie') /* Name */
      , (8248,  15, 'A lightly baked, browned pumpkin pie, thick, savory, sweet.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8248,   1,   33555978) /* Setup */
-     , (8248,   3,  536870932) /* SoundTable */
-     , (8248,   8,  100671010) /* Icon */
-     , (8248,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8248,   1, 0x0200060A) /* Setup */
+     , (8248,   3, 0x20000014) /* SoundTable */
+     , (8248,   8, 0x06001E22) /* Icon */
+     , (8248,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8248, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8248, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (8248, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8248, 8000, 2192311655) /* PCAPRecordedObjectIID */;
+VALUES (8248, 8000, 0x82AC0567) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (8248, 0, 83892147, 83892725);

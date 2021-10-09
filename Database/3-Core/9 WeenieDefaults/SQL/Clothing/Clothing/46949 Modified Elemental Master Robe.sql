@@ -44,25 +44,25 @@ VALUES (46949,   1, 'Modified Elemental Master Robe') /* Name */
      , (46949,  15, 'A red robe trimmed in black, it is lined with an unknown material but feels like the perfect insulator.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46949,   1,   33554854) /* Setup */
-     , (46949,   3,  536870932) /* SoundTable */
-     , (46949,   6,   67108990) /* PaletteBase */
-     , (46949,   8,  100673471) /* Icon */
-     , (46949,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46949,   1, 0x020001A6) /* Setup */
+     , (46949,   3, 0x20000014) /* SoundTable */
+     , (46949,   6, 0x0400007E) /* PaletteBase */
+     , (46949,   8, 0x060027BF) /* Icon */
+     , (46949,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46949, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (46949, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46949, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46949, 8000, 3704178250) /* PCAPRecordedObjectIID */;
+VALUES (46949, 8000, 0xDCC9464A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46949,  2108,      2)  /* Impenetrability7 */
-     , (46949,  2571,      2)  /* CANTRIPARMOR2 */
+VALUES (46949,  2571,      2)  /* CANTRIPARMOR2 */
      , (46949,  2609,      2)  /* CANTRIPACIDWARD2 */
      , (46949,  2611,      2)  /* CANTRIPFLAMEWARD2 */
      , (46949,  2612,      2)  /* CANTRIPFROSTWARD2 */
-     , (46949,  2615,      2)  /* CANTRIPSTORMWARD2 */;
+     , (46949,  2615,      2)  /* CANTRIPSTORMWARD2 */
+     , (46949,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46949, 67114001, 40, 40)

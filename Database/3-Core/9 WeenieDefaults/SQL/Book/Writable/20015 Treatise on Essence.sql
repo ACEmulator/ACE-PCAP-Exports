@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20015,   1, 'Treatise on Essence') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20015,   1,   33554771) /* Setup */
-     , (20015,   3,  536870932) /* SoundTable */
-     , (20015,   8,  100668117) /* Icon */
-     , (20015,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20015,   1, 0x02000153) /* Setup */
+     , (20015,   3, 0x20000014) /* SoundTable */
+     , (20015,   8, 0x060012D5) /* Icon */
+     , (20015,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20015, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (20015, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (20015, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20015, 8000, 2631404666) /* PCAPRecordedObjectIID */;
+VALUES (20015, 8000, 0x9CD80C7A) /* PCAPRecordedObjectIID */;

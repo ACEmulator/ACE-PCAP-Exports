@@ -35,21 +35,21 @@ VALUES (24589,   1, 'Rkos the Armorer') /* Name */
      , (24589, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24589,   1,   33557003) /* Setup */
-     , (24589,   2,  150994950) /* MotionTable */
-     , (24589,   3,  536870922) /* SoundTable */
-     , (24589,   6,   67113158) /* PaletteBase */
-     , (24589,   8,  100667447) /* Icon */
+VALUES (24589,   1, 0x02000A0B) /* Setup */
+     , (24589,   2, 0x09000006) /* MotionTable */
+     , (24589,   3, 0x2000000A) /* SoundTable */
+     , (24589,   6, 0x040010C6) /* PaletteBase */
+     , (24589,   8, 0x06001037) /* Icon */
      , (24589, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (24589, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (24589, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24589, 8040, 722600194, 56.7047, 51.8556, 48.21, 0.1051099, 0, 0, -0.9944606) /* PCAPRecordedLocation */
+VALUES (24589, 8040, 0x2B120102, 56.7047, 51.8556, 48.21, 0.10511, 0, 0, -0.994461) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120102 [56.704700 51.855600 48.210000] 0.105110 0.000000 0.000000 -0.994461 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24589, 8000, 1924210729) /* PCAPRecordedObjectIID */;
+VALUES (24589, 8000, 0x72B12029) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24589,   1, 225, 0, 0) /* Strength */
@@ -110,48 +110,7 @@ VALUES (24589, 2,   542,  1, 0, 0, False) /* Create Lugian Hammer (542) for Wiel
      , (24589, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (24589, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24589, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (24589, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (24589, 4, 37217, -1, 0, 0, False) /* Create Olthoi Alduressa Coat (37217) for Shop */
-     , (24589, 4, 37206, -1, 0, 0, False) /* Create Olthoi Koujia Sleeves (37206) for Shop */
-     , (24589, 4,  6004, -1, 0, 0, False) /* Create Koujia Leggings (6004) for Shop */
-     , (24589, 4,  6043, -1, 0, 0, False) /* Create Celdon Girth (6043) for Shop */
-     , (24589, 4,  6003, -1, 0, 0, False) /* Create Koujia Breastplate (6003) for Shop */
-     , (24589, 4, 25639, -1, 0, 0, False) /* Create Leather Jerkin (25639) for Shop */
-     , (24589, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
-     , (24589, 4,  6005, -1, 0, 0, False) /* Create Koujia Sleeves (6005) for Shop */
-     , (24589, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */
-     , (24589, 4, 37197, -1, 0, 0, False) /* Create Olthoi Celdon Helm (37197) for Shop */
-     , (24589, 4,   134, -1, 0, 0, False) /* Create Tunic (134) for Shop */
-     , (24589, 4, 37200, -1, 0, 0, False) /* Create Olthoi Alduressa Leggings (37200) for Shop */
-     , (24589, 4,   129, -1, 0, 0, False) /* Create Sandals (129) for Shop */
-     , (24589, 4, 25651, -1, 0, 0, False) /* Create Leather Sleeves (25651) for Shop */
-     , (24589, 4, 30950, -1, 0, 0, False) /* Create Alduressa Boots (30950) for Shop */
-     , (24589, 4, 28612, -1, 0, 0, False) /* Create Bandana (28612) for Shop */
-     , (24589, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
-     , (24589, 4, 21155, -1, 0, 0, False) /* Create Covenant Greaves (21155) for Shop */
-     , (24589, 4, 44975, -1, 0, 0, False) /* Create Hood (44975) for Shop */
-     , (24589, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */
-     , (24589, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
-     , (24589, 4, 25641, -1, 0, 0, False) /* Create Leather Cuirass (25641) for Shop */
-     , (24589, 4, 40711, -1, 0, 0, False) /* Create Covenant Helm (40711) for Shop */
-     , (24589, 4, 40705, -1, 0, 0, False) /* Create Covenant Sollerets (40705) for Shop */
-     , (24589, 4, 43832, -1, 0, 0, False) /* Create Sedgemail Leather Shoes (43832) for Shop */
-     , (24589, 4, 25529, -1, 0, 0, False) /* Create Sturdy Reedshark Robe (25529) for Shop */
-     , (24589, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
-     , (24589, 4, 31868, -1, 0, 0, False) /* Create Signet Crown (31868) for Shop */
-     , (24589, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
-     , (24589, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (24589, 4, 21150, -1, 0, 0, False) /* Create Covenant Sollerets (21150) for Shop */
-     , (24589, 4, 43829, -1, 0, 0, False) /* Create Sedgemail Leather Cowl (43829) for Shop */
-     , (24589, 4, 40708, -1, 0, 0, False) /* Create Covenant Gauntlets (40708) for Shop */
-     , (24589, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
-     , (24589, 4, 44854, -1, 0, 0, False) /* Create Halved Cloak (44854) for Shop */
-     , (24589, 4, 40701, -1, 0, 0, False) /* Create Covenant Helm (40701) for Shop */
-     , (24589, 4, 31866, -1, 0, 0, False) /* Create Coronet (31866) for Shop */
-     , (24589, 4,  1457, -1, 0, 0, False) /* Create Superior Shield (1457) for Shop */
-     , (24589, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass (53) for Shop */
-     , (24589, 4,    71, -1, 0, 0, False) /* Create Chainmail Hauberk (71) for Shop */
-     , (24589, 4, 25648, -1, 0, 0, False) /* Create Leather Pauldrons (25648) for Shop */;
+     , (24589, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24589, 67114245, 0, 0);

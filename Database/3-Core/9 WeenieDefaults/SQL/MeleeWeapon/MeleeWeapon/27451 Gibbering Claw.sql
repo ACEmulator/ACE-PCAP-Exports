@@ -48,19 +48,19 @@ VALUES (27451,   1, 'Gibbering Claw') /* Name */
      , (27451,  16, 'The malformed claw of the Gibbering. Its talons look extremely sharp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27451,   1,   33558689) /* Setup */
-     , (27451,   3,  536870932) /* SoundTable */
-     , (27451,   8,  100676421) /* Icon */
-     , (27451,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27451,   1, 0x020010A1) /* Setup */
+     , (27451,   3, 0x20000014) /* SoundTable */
+     , (27451,   8, 0x06003345) /* Icon */
+     , (27451,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27451, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27451, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27451, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27451, 8000, 2401430749) /* PCAPRecordedObjectIID */;
+VALUES (27451, 8000, 0x8F22ECDD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27451,  1591,      2)  /* HeartSeekerSelf5 */
-     , (27451,  1604,      2)  /* DefenderSelf5 */
+VALUES (27451,  1604,      2)  /* DefenderSelf5 */
      , (27451,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (27451,  1624,      2)  /* SwiftKillerSelf3 */;
+     , (27451,  1624,      2)  /* SwiftKillerSelf3 */
+     , (27451,  1591,      2)  /* HeartSeekerSelf5 */;

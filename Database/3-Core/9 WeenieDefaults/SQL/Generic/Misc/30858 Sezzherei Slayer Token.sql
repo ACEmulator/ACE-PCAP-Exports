@@ -14,20 +14,21 @@ VALUES (30858,   1,        128) /* ItemType - Misc */
      , (30858, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30858,  22, True ) /* Inscribable */;
+VALUES (30858,  22, True ) /* Inscribable */
+     , (30858,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30858,   1, 'Sezzherei Slayer Token') /* Name */
      , (30858,  16, 'Give this token to an Agent of the Arcanum so that you may be known to all as Sezzherei Slayer!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30858,   1,   33554769) /* Setup */
-     , (30858,   3,  536870932) /* SoundTable */
-     , (30858,   8,  100677512) /* Icon */
-     , (30858,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30858,   1, 0x02000151) /* Setup */
+     , (30858,   3, 0x20000014) /* SoundTable */
+     , (30858,   8, 0x06003788) /* Icon */
+     , (30858,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30858, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (30858, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30858, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30858, 8000, 3707925745) /* PCAPRecordedObjectIID */;
+VALUES (30858, 8000, 0xDD0274F1) /* PCAPRecordedObjectIID */;

@@ -14,7 +14,7 @@ VALUES (3789,   1,        256) /* ItemType - MissileWeapon */
      , (3789,  16,          1) /* ItemUseable - No */
      , (3789,  18,        128) /* UiEffects - Frost */
      , (3789,  19,          4) /* Value */
-     , (3789,  51,          2) /* CombatUse - Missle */
+     , (3789,  51,          2) /* CombatUse - Missile */
      , (3789,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (3789, 151,          2) /* HookType - Wall */
      , (3789, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -28,18 +28,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3789,   1, 'Throwing Frost Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3789,   1,   33556223) /* Setup */
-     , (3789,   3,  536870932) /* SoundTable */
-     , (3789,   6,   67111928) /* PaletteBase */
-     , (3789,   8,  100667591) /* Icon */
-     , (3789,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3789,   1, 0x020006FF) /* Setup */
+     , (3789,   3, 0x20000014) /* SoundTable */
+     , (3789,   6, 0x04000BF8) /* PaletteBase */
+     , (3789,   8, 0x060010C7) /* Icon */
+     , (3789,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3789, 8001,  270627480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (3789, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (3789, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */
      , (3789, 8044,       5762) /* PCAPPhysicsDIDDataTemplatedFrom - Snowball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3789, 8000,       3789) /* PCAPRecordedObjectIID */;
+VALUES (3789, 8000, 0x00000ECD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3789, 67112640, 0, 0);

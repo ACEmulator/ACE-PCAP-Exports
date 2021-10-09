@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4191,   1,          1) /* ItemType - MeleeWeapon */
      , (4191,   5,         90) /* EncumbranceVal */
      , (4191,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (4191,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (4191,  16,          1) /* ItemUseable - No */
      , (4191,  18,         33) /* UiEffects - Magical, Fire */
      , (4191,  19,       6766) /* Value */
@@ -55,12 +54,12 @@ VALUES (4191,   1, 'Flaming Cestus') /* Name */
      , (4191,  16, 'Flaming Cestus of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4191,   1,   33555993) /* Setup */
-     , (4191,   3,  536870932) /* SoundTable */
-     , (4191,   8,  100670016) /* Icon */
-     , (4191,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4191,   1, 0x02000619) /* Setup */
+     , (4191,   3, 0x20000014) /* SoundTable */
+     , (4191,   8, 0x06001A40) /* Icon */
+     , (4191,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4191,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (4191,  52,  100676441) /* IconUnderlay */
+     , (4191,  52, 0x06003359) /* IconUnderlay */
      , (4191, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (4191, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (4191, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -68,15 +67,15 @@ VALUES (4191,   1,   33555993) /* Setup */
      , (4191, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4191, 8040, 23855555, 56.79909, -39.08367, -0.071, 0.367982, 0.367982, -0.6038123, -0.6038123) /* PCAPRecordedLocation */
+VALUES (4191, 8040, 0x016C01C3, 56.79909, -39.08367, -0.071, 0.367982, 0.367982, -0.603812, -0.603812) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.799090 -39.083670 -0.071000] 0.367982 0.367982 -0.603812 -0.603812 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4191, 8000, 3248496869) /* PCAPRecordedObjectIID */
-     , (4191, 8008, 1343467405) /* PCAPRecordedParentIID */;
+VALUES (4191, 8000, 0xC1A020E5) /* PCAPRecordedObjectIID */
+     , (4191, 8008, 0x5013AF8D) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4191,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (4191,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
-     , (4191,  4299,      2)  /* EnduranceSelf8 */
-     , (4191,  4400,      2)  /* DefenderSelf8 */;
+VALUES (4191,  4299,      2)  /* EnduranceSelf8 */
+     , (4191,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (4191,  4400,      2)  /* DefenderSelf8 */
+     , (4191,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */;

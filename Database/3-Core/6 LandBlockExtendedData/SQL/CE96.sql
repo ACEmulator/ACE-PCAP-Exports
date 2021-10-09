@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0xCE96;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CE96000,  1323, 0xCE960030, 138.775, 173.041, 14.37242, 0.9939126, 0, 0, 0.110171, False, '2019-02-10 00:00:00'); /* Eastham Sewer */
+VALUES (0x7CE96000,  1323, 0xCE960030, 138.775, 173.041, 14.37242, 0.993913, 0, 0, 0.110171, False, '2019-02-10 00:00:00'); /* Eastham Sewer */
 /* @teleloc 0xCE960030 [138.775000 173.041000 14.372420] 0.993913 0.000000 0.000000 0.110171 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

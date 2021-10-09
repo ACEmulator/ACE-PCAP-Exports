@@ -18,15 +18,15 @@ VALUES (14334,   1, 'Villalabar') /* Name */
      , (14334,  16, 'Welcome to Villalabar') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14334,   1,   33557463) /* Setup */
-     , (14334,   8,  100668115) /* Icon */
+VALUES (14334,   1, 0x02000BD7) /* Setup */
+     , (14334,   8, 0x060012D3) /* Icon */
      , (14334, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (14334, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14334, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14334, 8040, 2519924774, 99.6258, 125.079, 40, 0.339737, 0, 0, 0.94052) /* PCAPRecordedLocation */
+VALUES (14334, 8040, 0x96330026, 99.6258, 125.079, 40, 0.339737, 0, 0, 0.94052) /* PCAPRecordedLocation */
 /* @teleloc 0x96330026 [99.625800 125.079000 40.000000] 0.339737 0.000000 0.000000 0.940520 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14334, 8000, 2036543726) /* PCAPRecordedObjectIID */;
+VALUES (14334, 8000, 0x796330EE) /* PCAPRecordedObjectIID */;

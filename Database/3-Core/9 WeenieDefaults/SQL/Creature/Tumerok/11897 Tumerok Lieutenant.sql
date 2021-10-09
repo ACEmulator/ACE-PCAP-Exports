@@ -23,22 +23,22 @@ VALUES (11897,   1, 'Tumerok Lieutenant') /* Name */
      , (11897, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11897,   1,   33559558) /* Setup */
-     , (11897,   2,  150994954) /* MotionTable */
-     , (11897,   3,  536870931) /* SoundTable */
-     , (11897,   6,   67116625) /* PaletteBase */
-     , (11897,   8,  100667452) /* Icon */
-     , (11897,  22,  872415270) /* PhysicsEffectTable */
+VALUES (11897,   1, 0x02001406) /* Setup */
+     , (11897,   2, 0x0900000A) /* MotionTable */
+     , (11897,   3, 0x20000013) /* SoundTable */
+     , (11897,   6, 0x04001E51) /* PaletteBase */
+     , (11897,   8, 0x0600103C) /* Icon */
+     , (11897,  22, 0x34000026) /* PhysicsEffectTable */
      , (11897, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (11897, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (11897, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11897, 8040, 1467417407, 144.897, -170.396, -5.995, -0.95371, 0, 0, -0.300728) /* PCAPRecordedLocation */
+VALUES (11897, 8040, 0x5777033F, 144.897, -170.396, -5.995, -0.95371, 0, 0, -0.300728) /* PCAPRecordedLocation */
 /* @teleloc 0x5777033F [144.897000 -170.396000 -5.995000] -0.953710 0.000000 0.000000 -0.300728 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11897, 8000, 2629408018) /* PCAPRecordedObjectIID */;
+VALUES (11897, 8000, 0x9CB99512) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11897,   1, 100, 0, 0) /* Strength */
@@ -517,7 +517,11 @@ VALUES (11897, 2, 11906,  1, 0, 0, False) /* Create Mace of the Quiddity (11906)
      , (11897, 9, 45427,  0, 0, 0, False) /* Create Acid Jambiya (45427) for ContainTreasure */
      , (11897, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */
      , (11897, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */
-     , (11897, 9, 40761,  0, 0, 0, False) /* Create Acid Nodachi (40761) for ContainTreasure */;
+     , (11897, 9, 40761,  0, 0, 0, False) /* Create Acid Nodachi (40761) for ContainTreasure */
+     , (11897, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (11897, 9,  3140,  0, 0, 0, False) /* Create Scroll of Arcane Enlightenment Self IV (3140) for ContainTreasure */
+     , (11897, 9,  3334,  0, 0, 0, False) /* Create Scroll of Jumping Mastery Other III (3334) for ContainTreasure */
+     , (11897, 9,  4194,  0, 0, 0, False) /* Create Lightning Cestus (4194) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11897, 67116625, 105, 48)

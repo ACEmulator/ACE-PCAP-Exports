@@ -22,25 +22,30 @@ VALUES (32003,   1, 'Worm Feast') /* Name */
      , (32003, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32003,   1,   33559744) /* Setup */
-     , (32003,   2,  150994967) /* MotionTable */
-     , (32003,   3,  536870934) /* SoundTable */
-     , (32003,   6,   67108990) /* PaletteBase */
-     , (32003,   8,  100667942) /* Icon */
-     , (32003,  22,  872415272) /* PhysicsEffectTable */
+VALUES (32003,   1, 0x020014C0) /* Setup */
+     , (32003,   2, 0x09000017) /* MotionTable */
+     , (32003,   3, 0x20000016) /* SoundTable */
+     , (32003,   6, 0x0400007E) /* PaletteBase */
+     , (32003,   8, 0x06001226) /* Icon */
+     , (32003,  22, 0x34000028) /* PhysicsEffectTable */
      , (32003, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (32003, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (32003, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32003, 8040, 3587834190, 179.805, 175.637, 0.007499993, -0.00234587, 0, 0, -0.999997) /* PCAPRecordedLocation */
+VALUES (32003, 8040, 0xD5DA014E, 179.805, 175.637, 0.0075, -0.002346, 0, 0, -0.999997) /* PCAPRecordedLocation */
 /* @teleloc 0xD5DA014E [179.805000 175.637000 0.007500] -0.002346 0.000000 0.000000 -0.999997 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32003, 8000, 3708656415) /* PCAPRecordedObjectIID */;
+VALUES (32003, 8000, 0xDD0D9B1F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (32003,   1,     0, 0, 0, 4035) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32003, 9, 48967,  0, 0, 0, False) /* Create Fire Child Essence (150) (48967) for ContainTreasure */
+     , (32003, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (32003, 9, 32024,  0, 0, 0, False) /* Create Offering to Xik Minru (32024) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32003, 67112728, 0, 128);

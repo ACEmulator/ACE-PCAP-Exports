@@ -36,22 +36,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42416,   1, 'Yoroi Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42416,   1,   33554856) /* Setup */
-     , (42416,   3,  536870932) /* SoundTable */
-     , (42416,   6,   67108990) /* PaletteBase */
-     , (42416,   8,  100667356) /* Icon */
-     , (42416,  22,  872415275) /* PhysicsEffectTable */
-     , (42416,  50,  100667895) /* IconOverlay */
+VALUES (42416,   1, 0x020001A8) /* Setup */
+     , (42416,   3, 0x20000014) /* SoundTable */
+     , (42416,   6, 0x0400007E) /* PaletteBase */
+     , (42416,   8, 0x06000FDC) /* Icon */
+     , (42416,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (42416,  50, 0x060011F7) /* IconOverlay */
      , (42416, 8001, 1076637720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Priority, TargetType, Burden, IconOverlay */
      , (42416, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42416, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42416, 8040, 3332964379, 78.42676, 70.9229, 41.9975, -0.8012834, 0, 0, -0.598285) /* PCAPRecordedLocation */
+VALUES (42416, 8040, 0xC6A9001B, 78.42676, 70.9229, 41.9975, -0.801283, 0, 0, -0.598285) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [78.426760 70.922900 41.997500] -0.801283 0.000000 0.000000 -0.598285 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42416, 8000, 2880498175) /* PCAPRecordedObjectIID */;
+VALUES (42416, 8000, 0xABB0E9FF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42416, 67110017, 136, 16);

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31808,   1,        256) /* ItemType - MissileWeapon */
      , (31808,   5,       1447) /* EncumbranceVal */
      , (31808,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (31808,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (31808,  16,          1) /* ItemUseable - No */
      , (31808,  18,         65) /* UiEffects - Magical, Lightning */
      , (31808,  19,       5127) /* Value */
@@ -16,7 +15,7 @@ VALUES (31808,   1,        256) /* ItemType - MissileWeapon */
      , (31808,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31808,  49,        102) /* WeaponTime */
      , (31808,  50,          2) /* AmmoType - Bolt */
-     , (31808,  51,          2) /* CombatUse - Missle */
+     , (31808,  51,          2) /* CombatUse - Missile */
      , (31808,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31808, 105,          7) /* ItemWorkmanship */
      , (31808, 106,        243) /* ItemSpellcraft */
@@ -57,13 +56,13 @@ VALUES (31808,   1, 'Electric Crossbow') /* Name */
      , (31808,  16, 'Electric Compound Crossbow of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31808,   1,   33559238) /* Setup */
-     , (31808,   3,  536870932) /* SoundTable */
-     , (31808,   6,   67115373) /* PaletteBase */
-     , (31808,   8,  100677446) /* Icon */
-     , (31808,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31808,   1, 0x020012C6) /* Setup */
+     , (31808,   3, 0x20000014) /* SoundTable */
+     , (31808,   6, 0x0400196D) /* PaletteBase */
+     , (31808,   8, 0x06003746) /* Icon */
+     , (31808,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31808,  37,         47) /* ItemSkillLimit - MissileWeapons */
-     , (31808,  52,  100676436) /* IconUnderlay */
+     , (31808,  52, 0x06003354) /* IconUnderlay */
      , (31808, 8001, 2435023768) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (31808, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31808, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
@@ -71,12 +70,12 @@ VALUES (31808,   1,   33559238) /* Setup */
      , (31808, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31808, 8040, 3583574079, 182.3874, 150.8002, 373.93, 0.9737641, 0, 0, 0.2275598) /* PCAPRecordedLocation */
+VALUES (31808, 8040, 0xD599003F, 182.3874, 150.8002, 373.93, 0.973764, 0, 0, 0.22756) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [182.387400 150.800200 373.930000] 0.973764 0.000000 0.000000 0.227560 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31808, 8000, 2441166939) /* PCAPRecordedObjectIID */
-     , (31808, 8008, 1343380192) /* PCAPRecordedParentIID */;
+VALUES (31808, 8000, 0x9181405B) /* PCAPRecordedObjectIID */
+     , (31808, 8008, 0x50125AE0) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31808,  1605,      2)  /* DefenderSelf6 */

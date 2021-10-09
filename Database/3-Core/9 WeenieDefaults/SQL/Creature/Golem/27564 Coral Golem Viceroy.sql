@@ -26,21 +26,21 @@ VALUES (27564,   1, 'Coral Golem Viceroy') /* Name */
      , (27564, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27564,   1,   33556426) /* Setup */
-     , (27564,   2,  150995073) /* MotionTable */
-     , (27564,   3,  536870933) /* SoundTable */
-     , (27564,   8,  100667940) /* Icon */
-     , (27564,  22,  872415321) /* PhysicsEffectTable */
+VALUES (27564,   1, 0x020007CA) /* Setup */
+     , (27564,   2, 0x09000081) /* MotionTable */
+     , (27564,   3, 0x20000015) /* SoundTable */
+     , (27564,   8, 0x06001224) /* Icon */
+     , (27564,  22, 0x34000059) /* PhysicsEffectTable */
      , (27564, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (27564, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (27564, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27564, 8040, 289144883, 159.5443, 48.51797, 17.94674, -0.8799887, 0, 0, -0.4749945) /* PCAPRecordedLocation */
+VALUES (27564, 8040, 0x113C0033, 159.5443, 48.51797, 17.94674, -0.879989, 0, 0, -0.474995) /* PCAPRecordedLocation */
 /* @teleloc 0x113C0033 [159.544300 48.517970 17.946740] -0.879989 0.000000 0.000000 -0.474995 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27564, 8000, 3682416871) /* PCAPRecordedObjectIID */;
+VALUES (27564, 8000, 0xDB7D38E7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27564,   1, 270, 0, 0) /* Strength */

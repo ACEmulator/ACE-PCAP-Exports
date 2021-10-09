@@ -24,13 +24,13 @@ VALUES (21112,   1, 'Scroll of Martyr''s Tenacity IV') /* Name */
 Drains one-quarter of the caster''s stamina into a bolt of energy.  When struck by the bolt, the target''s stamina is reduced by 125% of the amount drained.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21112,   1,   33554826) /* Setup */
-     , (21112,   8,  100676936) /* Icon */
-     , (21112,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21112,   1, 0x0200018A) /* Setup */
+     , (21112,   8, 0x06003548) /* Icon */
+     , (21112,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21112,  28,       2770) /* Spell - StaminaBolt4 */
      , (21112, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (21112, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21112, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21112, 8000, 2629117497) /* PCAPRecordedObjectIID */;
+VALUES (21112, 8000, 0x9CB52639) /* PCAPRecordedObjectIID */;

@@ -26,6 +26,7 @@ VALUES (28068,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28068,  22, True ) /* Inscribable */
+     , (28068,  23, True ) /* DestroyOnSell */
      , (28068,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -44,22 +45,22 @@ VALUES (28068,   1, 'Guardian''s Uniform') /* Name */
      , (28068,  16, 'A reward for your efforts to learn more of the Burun and their treaty with the Renegades.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28068,   1,   33554854) /* Setup */
-     , (28068,   3,  536870932) /* SoundTable */
-     , (28068,   6,   67108990) /* PaletteBase */
-     , (28068,   8,  100672366) /* Icon */
-     , (28068,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28068,   1, 0x020001A6) /* Setup */
+     , (28068,   3, 0x20000014) /* SoundTable */
+     , (28068,   6, 0x0400007E) /* PaletteBase */
+     , (28068,   8, 0x0600236E) /* Icon */
+     , (28068,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28068, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (28068, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28068, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28068, 8000, 2980863041) /* PCAPRecordedObjectIID */;
+VALUES (28068, 8000, 0xB1AC5C41) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28068,   243,      2)  /* InvulnerabilityOther5 */
-     , (28068,   254,      2)  /* ImpregnabilityOther5 */
-     , (28068,  1485,      2)  /* Impenetrability5 */;
+VALUES (28068,  1485,      2)  /* Impenetrability5 */
+     , (28068,   243,      2)  /* InvulnerabilityOther5 */
+     , (28068,   254,      2)  /* ImpregnabilityOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28068, 67110556, 96, 12)

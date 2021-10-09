@@ -46,24 +46,20 @@ VALUES (28609,   1, 'Vest') /* Name */
      , (28609,  16, 'Vest of Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28609,   1,   33554642) /* Setup */
-     , (28609,   3,  536870932) /* SoundTable */
-     , (28609,   6,   67108990) /* PaletteBase */
-     , (28609,   8,  100685847) /* Icon */
-     , (28609,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28609,   1, 0x020000D2) /* Setup */
+     , (28609,   3, 0x20000014) /* SoundTable */
+     , (28609,   6, 0x0400007E) /* PaletteBase */
+     , (28609,   8, 0x06005817) /* Icon */
+     , (28609,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28609, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (28609, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28609, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28609, 8000, 3687429092) /* PCAPRecordedObjectIID */;
+VALUES (28609, 8000, 0xDBC9B3E4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28609,  1311,      2)  /* ArmorSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28609, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */
-     , (28609, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28609, 67115935, 40, 24);

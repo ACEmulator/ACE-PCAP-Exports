@@ -33,17 +33,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2019,   1, 'Trothyr''s Shield') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2019,   1,   33554786) /* Setup */
-     , (2019,   3,  536870932) /* SoundTable */
-     , (2019,   6,   67111919) /* PaletteBase */
-     , (2019,   8,  100668471) /* Icon */
-     , (2019,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2019,   1, 0x02000162) /* Setup */
+     , (2019,   3, 0x20000014) /* SoundTable */
+     , (2019,   6, 0x04000BEF) /* PaletteBase */
+     , (2019,   8, 0x06001437) /* Icon */
+     , (2019,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2019, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (2019, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2019, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2019, 8000, 3684456156) /* PCAPRecordedObjectIID */;
+VALUES (2019, 8000, 0xDB9C56DC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2019, 67111920, 0, 0);

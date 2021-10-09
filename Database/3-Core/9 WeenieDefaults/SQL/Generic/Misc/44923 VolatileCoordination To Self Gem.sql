@@ -17,15 +17,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44923,   1, 'VolatileCoordination To Self Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44923,   1,   33558087) /* Setup */
-     , (44923,   6,   67111919) /* PaletteBase */
-     , (44923,   8,  100673957) /* Icon */
+VALUES (44923,   1, 0x02000E47) /* Setup */
+     , (44923,   6, 0x04000BEF) /* PaletteBase */
+     , (44923,   8, 0x060029A5) /* Icon */
      , (44923, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (44923, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44923, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44923, 8000, 2780449763) /* PCAPRecordedObjectIID */;
+VALUES (44923, 8000, 0xA5BA4BE3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44923, 67111924, 0, 0);

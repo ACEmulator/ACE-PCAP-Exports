@@ -29,17 +29,17 @@ VALUES (9295,   1, 'Intricate Carving Tool') /* Name */
      , (9295,  16, 'A multipurpose tool used to sculpt golem hearts and virindi artifacts. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9295,   1,   33554734) /* Setup */
-     , (9295,   3,  536870932) /* SoundTable */
-     , (9295,   6,   67111919) /* PaletteBase */
-     , (9295,   8,  100671428) /* Icon */
-     , (9295,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9295,   1, 0x0200012E) /* Setup */
+     , (9295,   3, 0x20000014) /* SoundTable */
+     , (9295,   6, 0x04000BEF) /* PaletteBase */
+     , (9295,   8, 0x06001FC4) /* Icon */
+     , (9295,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9295, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (9295, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9295, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9295, 8000, 2274298711) /* PCAPRecordedObjectIID */;
+VALUES (9295, 8000, 0x878F0B57) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9295, 67111922, 0, 0);

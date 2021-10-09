@@ -20,12 +20,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41957,   1, 'Mhoire Castle Treasury Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41957,   1,   33554784) /* Setup */
-     , (41957,   8,  100690864) /* Icon */
-     , (41957,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41957,   1, 0x02000160) /* Setup */
+     , (41957,   8, 0x06006BB0) /* Icon */
+     , (41957,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41957, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (41957, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41957, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41957, 8000, 2150615366) /* PCAPRecordedObjectIID */;
+VALUES (41957, 8000, 0x802FC946) /* PCAPRecordedObjectIID */;

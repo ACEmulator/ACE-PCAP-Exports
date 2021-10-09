@@ -41,22 +41,22 @@ VALUES (28153,   1, 'Lustrous Winged Leggings') /* Name */
      , (28153,  16, 'A pair of winged leggings crafted from the hide of an adolescent ivory gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28153,   1,   33554856) /* Setup */
-     , (28153,   3,  536870932) /* SoundTable */
-     , (28153,   6,   67108990) /* PaletteBase */
-     , (28153,   8,  100676892) /* Icon */
-     , (28153,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28153,   1, 0x020001A8) /* Setup */
+     , (28153,   3, 0x20000014) /* SoundTable */
+     , (28153,   6, 0x0400007E) /* PaletteBase */
+     , (28153,   8, 0x0600351C) /* Icon */
+     , (28153,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28153, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (28153, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28153, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28153, 8000, 2174519225) /* PCAPRecordedObjectIID */;
+VALUES (28153, 8000, 0x819C87B9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28153,  1486,      2)  /* Impenetrability6 */
-     , (28153,  2553,      2)  /* CANTRIPJUMPINGPROWESS1 */
      , (28153,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (28153,  2553,      2)  /* CANTRIPJUMPINGPROWESS1 */
      , (28153,  2618,      2)  /* CANTRIPFLAMEWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

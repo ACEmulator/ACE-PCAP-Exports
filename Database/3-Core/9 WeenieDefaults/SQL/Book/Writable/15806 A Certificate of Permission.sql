@@ -15,6 +15,9 @@ VALUES (15806,   1,       8192) /* ItemType - Writable */
      , (15806, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (15806, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (15806,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15806,  54,       1) /* UseRadius */;
 
@@ -23,22 +26,22 @@ VALUES (15806,   1, 'A Certificate of Permission') /* Name */
      , (15806,  15, 'A certificate granting permission to give the bearer Elysa Strathelar''s Letters') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15806,   1,   33554773) /* Setup */
-     , (15806,   3,  536870932) /* SoundTable */
-     , (15806,   8,  100672829) /* Icon */
-     , (15806,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15806,   1, 0x02000155) /* Setup */
+     , (15806,   3, 0x20000014) /* SoundTable */
+     , (15806,   8, 0x0600253D) /* Icon */
+     , (15806,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15806, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (15806, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (15806, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15806, 8000, 3710731599) /* PCAPRecordedObjectIID */;
+VALUES (15806, 8000, 0xDD2D454F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (15806, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (15806, 0, 4294967295, 'Glysander Cartoth', 'Password is cheese', False, '
+VALUES (15806, 0, 4294967295, 'Glysander Cartoth', 'prewritten', False, '
 Dear Brontynn,
 
 I hereby give the bearer of this note permission to obtain from you any letters from Elysa Strathelar to my sister Lania that you may have in your possession. 

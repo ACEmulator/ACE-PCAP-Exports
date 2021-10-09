@@ -22,16 +22,16 @@ VALUES (4162,   1, 'Dungeon Binar Portal') /* Name */
      , (4162, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4162,   1,   33554867) /* Setup */
-     , (4162,   2,  150994947) /* MotionTable */
-     , (4162,   8,  100667499) /* Icon */
+VALUES (4162,   1, 0x020001B3) /* Setup */
+     , (4162,   2, 0x09000003) /* MotionTable */
+     , (4162,   8, 0x0600106B) /* Icon */
      , (4162, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (4162, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (4162, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4162, 8040, 2557935654, 112.542, 125.408, 31.48633, -0.9588684, 0, 0, -0.2838511) /* PCAPRecordedLocation */
+VALUES (4162, 8040, 0x98770026, 112.542, 125.408, 31.48633, -0.958868, 0, 0, -0.283851) /* PCAPRecordedLocation */
 /* @teleloc 0x98770026 [112.542000 125.408000 31.486330] -0.958868 0.000000 0.000000 -0.283851 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4162, 8000, 2038919172) /* PCAPRecordedObjectIID */;
+VALUES (4162, 8000, 0x79877004) /* PCAPRecordedObjectIID */;

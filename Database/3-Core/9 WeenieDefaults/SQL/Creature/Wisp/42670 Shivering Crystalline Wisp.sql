@@ -22,20 +22,20 @@ VALUES (42670,   1, 'Shivering Crystalline Wisp') /* Name */
      , (42670, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42670,   1,   33557033) /* Setup */
-     , (42670,   2,  150995087) /* MotionTable */
-     , (42670,   3,  536870985) /* SoundTable */
-     , (42670,   8,  100671383) /* Icon */
+VALUES (42670,   1, 0x02000A29) /* Setup */
+     , (42670,   2, 0x0900008F) /* MotionTable */
+     , (42670,   3, 0x20000049) /* SoundTable */
+     , (42670,   8, 0x06001F97) /* Icon */
      , (42670, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (42670, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42670, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42670, 8040, 2298741563, 50, -18, 24.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42670, 8040, 0x8904033B, 50, -18, 24.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8904033B [50.000000 -18.000000 24.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42670, 8000, 3679462652) /* PCAPRecordedObjectIID */;
+VALUES (42670, 8000, 0xDB5024FC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42670,   1, 150, 0, 0) /* Strength */
@@ -165,4 +165,5 @@ VALUES (42670, 9, 49377,  0, 0, 0, False) /* Create Lightning Grievver Essence (
      , (42670, 9,  3817,  0, 0, 0, False) /* Create Frost Kasrullah (3817) for ContainTreasure */
      , (42670, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
      , (42670, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (42670, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */;
+     , (42670, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (42670, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */;

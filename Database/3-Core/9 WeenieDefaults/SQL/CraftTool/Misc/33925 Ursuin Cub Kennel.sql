@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33925,   1, 'Ursuin Cub Kennel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33925,   1,   33554718) /* Setup */
-     , (33925,   3,  536870932) /* SoundTable */
-     , (33925,   8,  100668152) /* Icon */
-     , (33925,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33925,   1, 0x0200011E) /* Setup */
+     , (33925,   3, 0x20000014) /* SoundTable */
+     , (33925,   8, 0x060012F8) /* Icon */
+     , (33925,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33925, 8001,    2637840) /* PCAPRecordedWeenieHeader - Usable, Container, TargetType, Burden */
      , (33925, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33925, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33925, 8000, 2979050444) /* PCAPRecordedObjectIID */;
+VALUES (33925, 8000, 0xB190B3CC) /* PCAPRecordedObjectIID */;

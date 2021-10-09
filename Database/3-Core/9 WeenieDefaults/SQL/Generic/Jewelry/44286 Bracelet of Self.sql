@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44286,   1,          8) /* ItemType - Jewelry */
      , (44286,   5,         60) /* EncumbranceVal */
      , (44286,   9,     196608) /* ValidLocations - WristWear */
-     , (44286,  10,      65536) /* CurrentWieldedLocation - WristWearLeft */
      , (44286,  16,          1) /* ItemUseable - No */
      , (44286,  19,         20) /* Value */
      , (44286,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -32,17 +31,17 @@ VALUES (44286,   1, 'Bracelet of Self') /* Name */
      , (44286,  16, 'This bracelet increases self.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44286,   1,   33554683) /* Setup */
-     , (44286,   3,  536870932) /* SoundTable */
-     , (44286,   6,   67111919) /* PaletteBase */
-     , (44286,   8,  100668625) /* Icon */
-     , (44286,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44286,   1, 0x020000FB) /* Setup */
+     , (44286,   3, 0x20000014) /* SoundTable */
+     , (44286,   6, 0x04000BEF) /* PaletteBase */
+     , (44286,   8, 0x060014D1) /* Icon */
+     , (44286,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44286, 8001,    2326552) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (44286, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44286, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44286, 8000, 2210358224) /* PCAPRecordedObjectIID */;
+VALUES (44286, 8000, 0x83BF63D0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44286,  4227,      2)  /* CANTRIPWILLPOWER3 */

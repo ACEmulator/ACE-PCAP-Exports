@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35915,   1,          1) /* ItemType - MeleeWeapon */
      , (35915,   5,        650) /* EncumbranceVal */
      , (35915,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (35915,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (35915,  16,          1) /* ItemUseable - No */
      , (35915,  18,          1) /* UiEffects - Magical */
      , (35915,  19,      10000) /* Value */
@@ -35,6 +34,7 @@ VALUES (35915,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35915,  22, True ) /* Inscribable */
+     , (35915,  23, True ) /* DestroyOnSell */
      , (35915,  69, False) /* IsSellable */
      , (35915,  99, True ) /* Ivoryable */;
 
@@ -55,11 +55,11 @@ VALUES (35915,   1, 'Paradox-touched Olthoi Spear') /* Name */
      , (35915,  16, 'A spear, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes the weapon naturally deadlier versus normal Olthoi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35915,   1,   33560339) /* Setup */
-     , (35915,   3,  536870932) /* SoundTable */
-     , (35915,   6,   67113236) /* PaletteBase */
-     , (35915,   8,  100689563) /* Icon */
-     , (35915,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35915,   1, 0x02001713) /* Setup */
+     , (35915,   3, 0x20000014) /* SoundTable */
+     , (35915,   6, 0x04001114) /* PaletteBase */
+     , (35915,   8, 0x0600669B) /* Icon */
+     , (35915,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35915,  55,         67) /* ProcSpell - ShockWave4 */
      , (35915, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (35915, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -67,18 +67,18 @@ VALUES (35915,   1,   33560339) /* Setup */
      , (35915, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35915, 8040, 2847146034, 154.5441, 36.19888, 95.92901, 0.03706478, 0.03706478, -0.7061347, -0.7061347) /* PCAPRecordedLocation */
+VALUES (35915, 8040, 0xA9B40032, 154.5441, 36.19888, 95.92901, 0.037065, 0.037065, -0.706135, -0.706135) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40032 [154.544100 36.198880 95.929010] 0.037065 0.037065 -0.706135 -0.706135 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35915, 8000, 3685515525) /* PCAPRecordedObjectIID */
-     , (35915, 8008, 3685821566) /* PCAPRecordedParentIID */;
+VALUES (35915, 8000, 0xDBAC8105) /* PCAPRecordedObjectIID */
+     , (35915, 8008, 0xDBB12C7E) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35915,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (35915,  2116,      2)  /* SwiftKillerSelf7 */
+     , (35915,  2096,      2)  /* BloodDrinkerSelf7 */
      , (35915,  2101,      2)  /* DefenderSelf7 */
-     , (35915,  2106,      2)  /* HeartSeekerSelf7 */
-     , (35915,  2116,      2)  /* SwiftKillerSelf7 */;
+     , (35915,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35915, 67113317, 0, 0);

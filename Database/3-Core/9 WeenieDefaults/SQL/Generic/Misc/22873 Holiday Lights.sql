@@ -27,17 +27,17 @@ VALUES (22873,   1, 'Holiday Lights') /* Name */
      , (22873,  15, 'A small reflective bauble with dancing colored lights around it. Don''t drop it unless you want to lose it. This item will quickly disappear if dropped on the ground -- it will even disappear from inside a pack, if that pack is dropped on the ground.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22873,   1,   33558157) /* Setup */
-     , (22873,   3,  536870932) /* SoundTable */
-     , (22873,   8,  100673908) /* Icon */
-     , (22873,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22873,   1, 0x02000E8D) /* Setup */
+     , (22873,   3, 0x20000014) /* SoundTable */
+     , (22873,   8, 0x06002974) /* Icon */
+     , (22873,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22873, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
      , (22873, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22873, 8005,     432257) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22873, 8040, 3583574079, 176.302, 159.4514, 374, 0.5829473, 0, 0, -0.81251) /* PCAPRecordedLocation */
+VALUES (22873, 8040, 0xD599003F, 176.302, 159.4514, 374, 0.582947, 0, 0, -0.81251) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [176.302000 159.451400 374.000000] 0.582947 0.000000 0.000000 -0.812510 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22873, 8000, 2158477098) /* PCAPRecordedObjectIID */;
+VALUES (22873, 8000, 0x80A7BF2A) /* PCAPRecordedObjectIID */;

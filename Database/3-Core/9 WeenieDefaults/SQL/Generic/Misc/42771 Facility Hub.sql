@@ -18,15 +18,15 @@ VALUES (42771,   1, 'Facility Hub') /* Name */
      , (42771,  16, 'A place where less experienced adventurers can find quests more suited to their skills.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42771,   1,   33560967) /* Setup */
-     , (42771,   8,  100668115) /* Icon */
+VALUES (42771,   1, 0x02001987) /* Setup */
+     , (42771,   8, 0x060012D3) /* Icon */
      , (42771, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42771, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42771, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42771, 8040, 459061, 55.109, -99.9275, 3.014, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42771, 8040, 0x00070135, 55.109, -99.9275, 3.014, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070135 [55.109000 -99.927500 3.014000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42771, 8000, 1879076925) /* PCAPRecordedObjectIID */;
+VALUES (42771, 8000, 0x7000703D) /* PCAPRecordedObjectIID */;

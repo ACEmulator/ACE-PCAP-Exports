@@ -24,17 +24,17 @@ VALUES (41074,   1, 'Journal of Ries Woron') /* Name */
      , (41074,  16, 'A journal of the mysterious Ries Woron.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41074,   1,   33554771) /* Setup */
-     , (41074,   3,  536870932) /* SoundTable */
-     , (41074,   8,  100668117) /* Icon */
-     , (41074,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41074,   1, 0x02000153) /* Setup */
+     , (41074,   3, 0x20000014) /* SoundTable */
+     , (41074,   8, 0x060012D5) /* Icon */
+     , (41074,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41074, 8001,  270532656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden, HookType */
      , (41074, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (41074, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41074, 8040, 3661299995, 158.203, 92.7836, 2.152, -0.999887, 0, 0, -0.0150004) /* PCAPRecordedLocation */
+VALUES (41074, 8040, 0xDA3B011B, 158.203, 92.7836, 2.152, -0.999887, 0, 0, -0.015) /* PCAPRecordedLocation */
 /* @teleloc 0xDA3B011B [158.203000 92.783600 2.152000] -0.999887 0.000000 0.000000 -0.015000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41074, 8000, 3684945358) /* PCAPRecordedObjectIID */;
+VALUES (41074, 8000, 0xDBA3CDCE) /* PCAPRecordedObjectIID */;

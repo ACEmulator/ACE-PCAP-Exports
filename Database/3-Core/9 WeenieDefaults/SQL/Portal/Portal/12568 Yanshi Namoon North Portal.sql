@@ -22,16 +22,16 @@ VALUES (12568,   1, 'Yanshi Namoon North Portal') /* Name */
      , (12568, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12568,   1,   33554867) /* Setup */
-     , (12568,   2,  150994947) /* MotionTable */
-     , (12568,   8,  100667499) /* Icon */
+VALUES (12568,   1, 0x020001B3) /* Setup */
+     , (12568,   2, 0x09000003) /* MotionTable */
+     , (12568,   8, 0x0600106B) /* Icon */
      , (12568, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12568, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12568, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12568, 8040, 3094478877, 87.5928, 114.13, 19.3382, 0.774482, 0, 0, 0.632596) /* PCAPRecordedLocation */
+VALUES (12568, 8040, 0xB872001D, 87.5928, 114.13, 19.3382, 0.774482, 0, 0, 0.632596) /* PCAPRecordedLocation */
 /* @teleloc 0xB872001D [87.592800 114.130000 19.338200] 0.774482 0.000000 0.000000 0.632596 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12568, 8000, 2072453124) /* PCAPRecordedObjectIID */;
+VALUES (12568, 8000, 0x7B872004) /* PCAPRecordedObjectIID */;

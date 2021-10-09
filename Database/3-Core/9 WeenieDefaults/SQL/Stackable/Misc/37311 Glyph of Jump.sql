@@ -20,18 +20,18 @@ VALUES (37311,   1, 'Glyph of Jump') /* Name */
      , (37311,  20, 'Glyphs of Jump') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37311,   1,   33554809) /* Setup */
-     , (37311,   3,  536870932) /* SoundTable */
-     , (37311,   6,   67111919) /* PaletteBase */
-     , (37311,   8,  100690191) /* Icon */
-     , (37311,  22,  872415275) /* PhysicsEffectTable */
-     , (37311,  50,  100686662) /* IconOverlay */
+VALUES (37311,   1, 0x02000179) /* Setup */
+     , (37311,   3, 0x20000014) /* SoundTable */
+     , (37311,   6, 0x04000BEF) /* PaletteBase */
+     , (37311,   8, 0x0600690F) /* Icon */
+     , (37311,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37311,  50, 0x06005B46) /* IconOverlay */
      , (37311, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (37311, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37311, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37311, 8000, 3253676145) /* PCAPRecordedObjectIID */;
+VALUES (37311, 8000, 0xC1EF2871) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37311, 67111924, 0, 0);

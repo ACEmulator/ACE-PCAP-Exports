@@ -33,13 +33,13 @@ VALUES (36354,   1, 'Cow Mask') /* Name */
      , (36354,  16, 'A cow mask') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36354,   1,   33560384) /* Setup */
-     , (36354,   3,  536870932) /* SoundTable */
-     , (36354,   8,  100689623) /* Icon */
-     , (36354,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36354,   1, 0x02001740) /* Setup */
+     , (36354,   3, 0x20000014) /* SoundTable */
+     , (36354,   8, 0x060066D7) /* Icon */
+     , (36354,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36354, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (36354, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36354, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36354, 8000, 2981037295) /* PCAPRecordedObjectIID */;
+VALUES (36354, 8000, 0xB1AF04EF) /* PCAPRecordedObjectIID */;

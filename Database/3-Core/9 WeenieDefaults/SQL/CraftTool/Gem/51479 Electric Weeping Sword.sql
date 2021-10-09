@@ -24,18 +24,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51479,   1, 'Electric Weeping Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51479,   1,   33558472) /* Setup */
-     , (51479,   3,  536870932) /* SoundTable */
-     , (51479,   6,   67114522) /* PaletteBase */
-     , (51479,   8,  100674910) /* Icon */
-     , (51479,  22,  872415275) /* PhysicsEffectTable */
-     , (51479,  50,  100667895) /* IconOverlay */
+VALUES (51479,   1, 0x02000FC8) /* Setup */
+     , (51479,   3, 0x20000014) /* SoundTable */
+     , (51479,   6, 0x0400161A) /* PaletteBase */
+     , (51479,   8, 0x06002D5E) /* Icon */
+     , (51479,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51479,  50, 0x060011F7) /* IconOverlay */
      , (51479, 8001, 1344827416) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType, IconOverlay */
      , (51479, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51479, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51479, 8000, 2248048247) /* PCAPRecordedObjectIID */;
+VALUES (51479, 8000, 0x85FE7E77) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51479, 67114521, 0, 0);

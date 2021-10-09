@@ -8,7 +8,6 @@ VALUES (7752,   1,          2) /* ItemType - Armor */
      , (7752,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (7752,   5,        925) /* EncumbranceVal */
      , (7752,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
-     , (7752,  10,       6144) /* CurrentWieldedLocation - UpperArmArmor, LowerArmArmor */
      , (7752,  16,          1) /* ItemUseable - No */
      , (7752,  19,       1620) /* Value */
      , (7752,  28,        195) /* ArmorLevel */
@@ -20,6 +19,7 @@ VALUES (7752,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7752,  22, True ) /* Inscribable */
+     , (7752,  23, True ) /* DestroyOnSell */
      , (7752,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -38,17 +38,17 @@ VALUES (7752,   1, 'Greater Koujia Sleeves of Flame') /* Name */
      , (7752,   8, 'Cygmus') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7752,   1,   33554655) /* Setup */
-     , (7752,   3,  536870932) /* SoundTable */
-     , (7752,   6,   67108990) /* PaletteBase */
-     , (7752,   8,  100670469) /* Icon */
-     , (7752,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7752,   1, 0x020000DF) /* Setup */
+     , (7752,   3, 0x20000014) /* SoundTable */
+     , (7752,   6, 0x0400007E) /* PaletteBase */
+     , (7752,   8, 0x06001C05) /* Icon */
+     , (7752,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7752, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (7752, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7752, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7752, 8000, 2584296058) /* PCAPRecordedObjectIID */;
+VALUES (7752, 8000, 0x9A093A7A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7752, 67109968, 128, 8)

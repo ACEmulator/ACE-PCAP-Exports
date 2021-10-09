@@ -18,15 +18,15 @@ VALUES (12640,   1, 'North Uziz Settlement') /* Name */
      , (12640,  16, 'Welcome to North Uziz Settlement') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12640,   1,   33557463) /* Setup */
-     , (12640,   8,  100668115) /* Icon */
+VALUES (12640,   1, 0x02000BD7) /* Setup */
+     , (12640,   8, 0x060012D3) /* Icon */
      , (12640, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (12640, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12640, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12640, 8040, 2758017073, 159.617, 22.6615, 18, -0.932521, 0, 0, -0.361117) /* PCAPRecordedLocation */
+VALUES (12640, 8040, 0xA4640031, 159.617, 22.6615, 18, -0.932521, 0, 0, -0.361117) /* PCAPRecordedLocation */
 /* @teleloc 0xA4640031 [159.617000 22.661500 18.000000] -0.932521 0.000000 0.000000 -0.361117 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12640, 8000, 2051424690) /* PCAPRecordedObjectIID */;
+VALUES (12640, 8000, 0x7A4641B2) /* PCAPRecordedObjectIID */;

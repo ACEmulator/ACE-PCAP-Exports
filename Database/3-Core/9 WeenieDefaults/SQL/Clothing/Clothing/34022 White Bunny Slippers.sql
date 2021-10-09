@@ -40,15 +40,15 @@ VALUES (34022,   1, 'White Bunny Slippers') /* Name */
      , (34022,  16, 'A pair of clean white bunny slippers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34022,   1,   33557435) /* Setup */
-     , (34022,   8,  100672393) /* Icon */
-     , (34022,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34022,   1, 0x02000BBB) /* Setup */
+     , (34022,   8, 0x06002389) /* Icon */
+     , (34022,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34022, 8001,  270876688) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (34022, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34022, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34022, 8000, 2166170656) /* PCAPRecordedObjectIID */;
+VALUES (34022, 8000, 0x811D2420) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34022,   975,      2)  /* JumpingMasterySelf6 */

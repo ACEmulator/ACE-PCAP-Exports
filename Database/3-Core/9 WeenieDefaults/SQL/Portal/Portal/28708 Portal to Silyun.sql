@@ -22,16 +22,16 @@ VALUES (28708,   1, 'Portal to Silyun') /* Name */
      , (28708, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28708,   1,   33554867) /* Setup */
-     , (28708,   2,  150994947) /* MotionTable */
-     , (28708,   8,  100667499) /* Icon */
+VALUES (28708,   1, 0x020001B3) /* Setup */
+     , (28708,   2, 0x09000003) /* MotionTable */
+     , (28708,   8, 0x0600106B) /* Icon */
      , (28708, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (28708, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (28708, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28708, 8040, 972423184, 33.7372, 186.893, 1.937, 0.8814508, 0, 0, 0.4722759) /* PCAPRecordedLocation */
+VALUES (28708, 8040, 0x39F60010, 33.7372, 186.893, 1.937, 0.881451, 0, 0, 0.472276) /* PCAPRecordedLocation */
 /* @teleloc 0x39F60010 [33.737200 186.893000 1.937000] 0.881451 0.000000 0.000000 0.472276 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28708, 8000, 1939824640) /* PCAPRecordedObjectIID */;
+VALUES (28708, 8000, 0x739F6000) /* PCAPRecordedObjectIID */;

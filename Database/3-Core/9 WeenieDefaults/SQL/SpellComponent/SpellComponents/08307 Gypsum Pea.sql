@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8307,   1, 'Gypsum Pea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8307,   1,   33555209) /* Setup */
-     , (8307,   3,  536870932) /* SoundTable */
-     , (8307,   6,   67111919) /* PaletteBase */
-     , (8307,   8,  100671040) /* Icon */
-     , (8307,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8307,   1, 0x02000309) /* Setup */
+     , (8307,   3, 0x20000014) /* SoundTable */
+     , (8307,   6, 0x04000BEF) /* PaletteBase */
+     , (8307,   8, 0x06001E40) /* Icon */
+     , (8307,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8307, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8307, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8307, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8307, 8000, 2166168353) /* PCAPRecordedObjectIID */;
+VALUES (8307, 8000, 0x811D1B21) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8307, 67111927, 0, 0);

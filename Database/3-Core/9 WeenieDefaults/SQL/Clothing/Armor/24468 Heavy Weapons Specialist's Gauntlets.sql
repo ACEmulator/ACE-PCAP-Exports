@@ -43,22 +43,22 @@ VALUES (24468,   1, 'Heavy Weapons Specialist''s Gauntlets') /* Name */
      , (24468,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the heavy weapons specialist.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24468,   1,   33554648) /* Setup */
-     , (24468,   3,  536870932) /* SoundTable */
-     , (24468,   6,   67108990) /* PaletteBase */
-     , (24468,   8,  100692282) /* Icon */
-     , (24468,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24468,   1, 0x020000D8) /* Setup */
+     , (24468,   3, 0x20000014) /* SoundTable */
+     , (24468,   6, 0x0400007E) /* PaletteBase */
+     , (24468,   8, 0x0600713A) /* Icon */
+     , (24468,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24468, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (24468, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24468, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24468, 8000, 2461467195) /* PCAPRecordedObjectIID */;
+VALUES (24468, 8000, 0x92B7023B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24468,  1384,      2)  /* CoordinationOther6 */
+VALUES (24468,  2694,      2)  /* ModerateSwordAptitude */
      , (24468,  1485,      2)  /* Impenetrability5 */
-     , (24468,  2694,      2)  /* ModerateSwordAptitude */;
+     , (24468,  1384,      2)  /* CoordinationOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24468, 67114526, 168, 6);

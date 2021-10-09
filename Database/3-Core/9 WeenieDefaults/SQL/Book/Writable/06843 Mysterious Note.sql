@@ -18,20 +18,20 @@ VALUES (6843,   1, 'Mysterious Note') /* Name */
      , (6843,  16, 'A sheet of parchment.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6843,   1,   33554773) /* Setup */
-     , (6843,   3,  536870932) /* SoundTable */
-     , (6843,   8,  100668176) /* Icon */
-     , (6843,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6843,   1, 0x02000155) /* Setup */
+     , (6843,   3, 0x20000014) /* SoundTable */
+     , (6843,   8, 0x06001310) /* Icon */
+     , (6843,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6843, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (6843, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (6843, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6843, 8000, 2401546854) /* PCAPRecordedObjectIID */;
+VALUES (6843, 8000, 0x8F24B266) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6843, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6843, 0, 4294967295, 'Oswald', 'Password is cheese', False, 'Farewell Gertarh. It''s a shame I had to kill you, but the price on your head was too great and my purse too light.
+VALUES (6843, 0, 4294967295, 'Oswald', 'prewritten', False, 'Farewell Gertarh. It''s a shame I had to kill you, but the price on your head was too great and my purse too light.
 ');

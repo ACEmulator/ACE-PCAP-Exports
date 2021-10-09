@@ -37,17 +37,17 @@ VALUES (623,   1, 'Heavy Necklace') /* Name */
      , (623,  16, 'Well-crafted Steel Heavy Necklace of Focus, set with 3 Moonstones') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (623,   1,   33554688) /* Setup */
-     , (623,   3,  536870932) /* SoundTable */
-     , (623,   6,   67111919) /* PaletteBase */
-     , (623,   8,  100668761) /* Icon */
-     , (623,  22,  872415275) /* PhysicsEffectTable */
+VALUES (623,   1, 0x02000100) /* Setup */
+     , (623,   3, 0x20000014) /* SoundTable */
+     , (623,   6, 0x04000BEF) /* PaletteBase */
+     , (623,   8, 0x06001559) /* Icon */
+     , (623,  22, 0x3400002B) /* PhysicsEffectTable */
      , (623, 8001, 2166440088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, Workmanship, MaterialType */
      , (623, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (623, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (623, 8000, 2688386750) /* PCAPRecordedObjectIID */;
+VALUES (623, 8000, 0xA03D86BE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (623,  1421,      2)  /* FocusSelf1 */;

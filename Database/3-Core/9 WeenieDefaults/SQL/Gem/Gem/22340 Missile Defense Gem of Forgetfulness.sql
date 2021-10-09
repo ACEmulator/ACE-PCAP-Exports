@@ -17,16 +17,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22340,   1, 'Missile Defense Gem of Forgetfulness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22340,   1,   33558087) /* Setup */
-     , (22340,   6,   67111919) /* PaletteBase */
-     , (22340,   8,  100673789) /* Icon */
-     , (22340,  50,  100673779) /* IconOverlay */
+VALUES (22340,   1, 0x02000E47) /* Setup */
+     , (22340,   6, 0x04000BEF) /* PaletteBase */
+     , (22340,   8, 0x060028FD) /* Icon */
+     , (22340,  50, 0x060028F3) /* IconOverlay */
      , (22340, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (22340, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22340, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22340, 8000, 2148706102) /* PCAPRecordedObjectIID */;
+VALUES (22340, 8000, 0x8012A736) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22340, 67111924, 0, 0);

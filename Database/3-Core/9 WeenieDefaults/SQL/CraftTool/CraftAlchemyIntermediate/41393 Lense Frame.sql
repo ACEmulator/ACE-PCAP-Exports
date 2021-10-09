@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41393,   1, 'Lense Frame') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41393,   1,   33557280) /* Setup */
-     , (41393,   3,  536870932) /* SoundTable */
-     , (41393,   8,  100690709) /* Icon */
-     , (41393,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41393,   1, 0x02000B20) /* Setup */
+     , (41393,   3, 0x20000014) /* SoundTable */
+     , (41393,   8, 0x06006B15) /* Icon */
+     , (41393,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41393, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (41393, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41393, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41393, 8000, 2885091221) /* PCAPRecordedObjectIID */;
+VALUES (41393, 8000, 0xABF6FF95) /* PCAPRecordedObjectIID */;

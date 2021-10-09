@@ -32,11 +32,11 @@ VALUES (30268,   1, 'Sanamar Portal Gem') /* Name */
      , (30268,  16, 'Use this gem to summon a short-lived portal to Sanamar.  This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30268,   1,   33556769) /* Setup */
-     , (30268,   3,  536870932) /* SoundTable */
-     , (30268,   6,   67111919) /* PaletteBase */
-     , (30268,   8,  100674858) /* Icon */
-     , (30268,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30268,   1, 0x02000921) /* Setup */
+     , (30268,   3, 0x20000014) /* SoundTable */
+     , (30268,   6, 0x04000BEF) /* PaletteBase */
+     , (30268,   8, 0x06002D2A) /* Icon */
+     , (30268,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30268,  28,        157) /* Spell - SummonPortal1 */
      , (30268, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (30268, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -44,7 +44,7 @@ VALUES (30268,   1,   33556769) /* Setup */
      , (30268, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30268, 8000, 2151959818) /* PCAPRecordedObjectIID */;
+VALUES (30268, 8000, 0x80444D0A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30268, 67111922, 0, 0);

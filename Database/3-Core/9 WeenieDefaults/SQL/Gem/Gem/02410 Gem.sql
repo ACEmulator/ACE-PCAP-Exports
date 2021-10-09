@@ -29,21 +29,18 @@ VALUES (2410,   1, 'Gem') /* Name */
      , (2410,  16, 'Gem') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2410,   1,   33554809) /* Setup */
-     , (2410,   3,  536870932) /* SoundTable */
-     , (2410,   6,   67111919) /* PaletteBase */
-     , (2410,   8,  100674731) /* Icon */
-     , (2410,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2410,   1, 0x02000179) /* Setup */
+     , (2410,   3, 0x20000014) /* SoundTable */
+     , (2410,   6, 0x04000BEF) /* PaletteBase */
+     , (2410,   8, 0x06002CAB) /* Icon */
+     , (2410,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2410,  28,       2153) /* Spell - BludgeonProtectionSelf7 */
      , (2410, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
      , (2410, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2410, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2410, 8000, 3690235638) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2410, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (2410, 8000, 0xDBF486F6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2410, 67111923, 0, 0);

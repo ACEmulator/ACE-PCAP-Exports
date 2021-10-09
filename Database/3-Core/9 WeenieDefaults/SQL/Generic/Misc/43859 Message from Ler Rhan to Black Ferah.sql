@@ -14,7 +14,8 @@ VALUES (43859,   1,        128) /* ItemType - Misc */
      , (43859, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43859,  22, True ) /* Inscribable */;
+VALUES (43859,  22, True ) /* Inscribable */
+     , (43859,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43859,  76,     0.5) /* Translucency */;
@@ -24,16 +25,16 @@ VALUES (43859,   1, 'Message from Ler Rhan to Black Ferah') /* Name */
      , (43859,  15, 'An encoded message intended only for the eyes of Black Ferah.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43859,   1,   33556232) /* Setup */
-     , (43859,   3,  536870932) /* SoundTable */
-     , (43859,   8,  100670890) /* Icon */
-     , (43859,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43859,   1, 0x02000708) /* Setup */
+     , (43859,   3, 0x20000014) /* SoundTable */
+     , (43859,   8, 0x06001DAA) /* Icon */
+     , (43859,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43859, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (43859, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43859, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43859, 8000, 2883546717) /* PCAPRecordedObjectIID */;
+VALUES (43859, 8000, 0xABDF6E5D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (43859, 0, 83888868, 83892604);

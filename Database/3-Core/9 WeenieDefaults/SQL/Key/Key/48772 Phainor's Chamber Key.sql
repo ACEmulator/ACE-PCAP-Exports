@@ -17,7 +17,8 @@ VALUES (48772,   1,      16384) /* ItemType - Key */
      , (48772, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48772,  22, True ) /* Inscribable */;
+VALUES (48772,  22, True ) /* Inscribable */
+     , (48772,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48772,   1, 'Phainor''s Chamber Key') /* Name */
@@ -25,13 +26,13 @@ VALUES (48772,   1, 'Phainor''s Chamber Key') /* Name */
      , (48772,  16, 'A key to Phainor''s Chamber. The key is very old and brittle looking.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48772,   1,   33554784) /* Setup */
-     , (48772,   3,  536870932) /* SoundTable */
-     , (48772,   8,  100692984) /* Icon */
-     , (48772,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48772,   1, 0x02000160) /* Setup */
+     , (48772,   3, 0x20000014) /* SoundTable */
+     , (48772,   8, 0x060073F8) /* Icon */
+     , (48772,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48772, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (48772, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48772, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48772, 8000, 3684346030) /* PCAPRecordedObjectIID */;
+VALUES (48772, 8000, 0xDB9AA8AE) /* PCAPRecordedObjectIID */;

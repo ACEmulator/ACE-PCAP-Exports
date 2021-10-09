@@ -22,16 +22,16 @@ VALUES (7204,   1, 'Cursed Swamp Portal') /* Name */
      , (7204, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7204,   1,   33554867) /* Setup */
-     , (7204,   2,  150994947) /* MotionTable */
-     , (7204,   8,  100667499) /* Icon */
+VALUES (7204,   1, 0x020001B3) /* Setup */
+     , (7204,   2, 0x09000003) /* MotionTable */
+     , (7204,   8, 0x0600106B) /* Icon */
      , (7204, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (7204, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (7204, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7204, 8040, 3579641899, 140.661, 58.377, 5.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (7204, 8040, 0xD55D002B, 140.661, 58.377, 5.937, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD55D002B [140.661000 58.377000 5.937000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7204, 8000, 2102775808) /* PCAPRecordedObjectIID */;
+VALUES (7204, 8000, 0x7D55D000) /* PCAPRecordedObjectIID */;

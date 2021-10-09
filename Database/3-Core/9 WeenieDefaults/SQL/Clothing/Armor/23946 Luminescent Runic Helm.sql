@@ -44,29 +44,29 @@ VALUES (23946,   1, 'Luminescent Runic Helm') /* Name */
      , (23946,  25, 'Triumph') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23946,   1,   33558266) /* Setup */
-     , (23946,   3,  536870932) /* SoundTable */
-     , (23946,   6,   67108990) /* PaletteBase */
-     , (23946,   8,  100674141) /* Icon */
-     , (23946,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23946,   1, 0x02000EFA) /* Setup */
+     , (23946,   3, 0x20000014) /* SoundTable */
+     , (23946,   6, 0x0400007E) /* PaletteBase */
+     , (23946,   8, 0x06002A5D) /* Icon */
+     , (23946,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23946, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (23946, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23946, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23946, 8000, 2779768945) /* PCAPRecordedObjectIID */;
+VALUES (23946, 8000, 0xA5AFE871) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23946,  1360,      2)  /* EnduranceOther6 */
+VALUES (23946,  2948,      2)  /* HieroWardGreat */
+     , (23946,  2958,      2)  /* BlessingofthePriestess */
+     , (23946,  1360,      2)  /* EnduranceOther6 */
+     , (23946,  2960,      2)  /* BludgeoningDurance */
+     , (23946,  2961,      2)  /* PiercingDurance */
+     , (23946,  2962,      2)  /* SlashingDurance */
      , (23946,  2350,      2)  /* DecayDurance */
      , (23946,  2351,      2)  /* ConsumptionDurance */
      , (23946,  2352,      2)  /* StasisDurance */
-     , (23946,  2353,      2)  /* StimulationDurance */
-     , (23946,  2948,      2)  /* HieroWardGreat */
-     , (23946,  2958,      2)  /* BlessingofthePriestess */
-     , (23946,  2960,      2)  /* BludgeoningDurance */
-     , (23946,  2961,      2)  /* PiercingDurance */
-     , (23946,  2962,      2)  /* SlashingDurance */;
+     , (23946,  2353,      2)  /* StimulationDurance */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23946, 67114180, 240, 10)

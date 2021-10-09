@@ -15,6 +15,7 @@ VALUES (34364,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34364,  22, True ) /* Inscribable */
+     , (34364,  23, True ) /* DestroyOnSell */
      , (34364,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,13 +23,13 @@ VALUES (34364,   1, 'Folded Missive') /* Name */
      , (34364,  16, 'A sealed letter, containing both a note and a jade medallion, addressed to Ookami Kiri, in Yanshi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34364,   1,   33554773) /* Setup */
-     , (34364,   3,  536870932) /* SoundTable */
-     , (34364,   8,  100689293) /* Icon */
-     , (34364,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34364,   1, 0x02000155) /* Setup */
+     , (34364,   3, 0x20000014) /* SoundTable */
+     , (34364,   8, 0x0600658D) /* Icon */
+     , (34364,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34364, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (34364, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34364, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34364, 8000, 2147632575) /* PCAPRecordedObjectIID */;
+VALUES (34364, 8000, 0x800245BF) /* PCAPRecordedObjectIID */;

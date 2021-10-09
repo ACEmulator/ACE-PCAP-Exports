@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44354,   1, 'Mu-miyah Hunting: Lost City of Neftet (Level 200+)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44354,   1,   33554773) /* Setup */
-     , (44354,   3,  536870932) /* SoundTable */
-     , (44354,   8,  100691928) /* Icon */
-     , (44354,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44354,   1, 0x02000155) /* Setup */
+     , (44354,   3, 0x20000014) /* SoundTable */
+     , (44354,   8, 0x06006FD8) /* Icon */
+     , (44354,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44354, 8001,     553104) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44354, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44354, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44354, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44354, 8000, 3710855045) /* PCAPRecordedObjectIID */;
+VALUES (44354, 8000, 0xDD2F2785) /* PCAPRecordedObjectIID */;

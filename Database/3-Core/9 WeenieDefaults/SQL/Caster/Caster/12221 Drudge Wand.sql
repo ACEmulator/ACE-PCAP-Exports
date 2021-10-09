@@ -10,6 +10,7 @@ VALUES (12221,   1,      32768) /* ItemType - Caster */
      , (12221,  16,          1) /* ItemUseable - No */
      , (12221,  18,          1) /* UiEffects - Magical */
      , (12221,  19,         75) /* Value */
+     , (12221,  46,        512) /* DefaultCombatStyle - Magic */
      , (12221,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12221,  94,         16) /* TargetType - Creature */
      , (12221, 151,          2) /* HookType - Wall */
@@ -28,13 +29,13 @@ VALUES (12221,   1, 'Drudge Wand') /* Name */
      , (12221,  16, 'A wand with a shrunken drudge head on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12221,   1,   33557369) /* Setup */
-     , (12221,   3,  536870932) /* SoundTable */
-     , (12221,   8,  100672179) /* Icon */
-     , (12221,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12221,   1, 0x02000B79) /* Setup */
+     , (12221,   3, 0x20000014) /* SoundTable */
+     , (12221,   8, 0x060022B3) /* Icon */
+     , (12221,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12221, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (12221, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12221, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12221, 8000, 2981039399) /* PCAPRecordedObjectIID */;
+VALUES (12221, 8000, 0xB1AF0D27) /* PCAPRecordedObjectIID */;

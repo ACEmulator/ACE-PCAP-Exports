@@ -18,15 +18,15 @@ VALUES (12620,   1, 'Lithaenean Cottages') /* Name */
      , (12620,  16, 'Welcome to Lithaenean Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12620,   1,   33557463) /* Setup */
-     , (12620,   8,  100668115) /* Icon */
+VALUES (12620,   1, 0x02000BD7) /* Setup */
+     , (12620,   8, 0x060012D3) /* Icon */
      , (12620, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (12620, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12620, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12620, 8040, 1388380190, 88.2505, 136.566, 3.72529E-09, -0.939303, 0, 0, 0.343088) /* PCAPRecordedLocation */
+VALUES (12620, 8040, 0x52C1001E, 88.2505, 136.566, 0, -0.939303, 0, 0, 0.343088) /* PCAPRecordedLocation */
 /* @teleloc 0x52C1001E [88.250500 136.566000 0.000000] -0.939303 0.000000 0.000000 0.343088 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12620, 8000, 1965822169) /* PCAPRecordedObjectIID */;
+VALUES (12620, 8000, 0x752C10D9) /* PCAPRecordedObjectIID */;

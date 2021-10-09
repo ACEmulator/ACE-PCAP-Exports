@@ -50,22 +50,22 @@ VALUES (38463,   1, 'Celestial Hand Breastplate') /* Name */
      , (38463,  16, 'Celestial Hand Breastplate of Fealty') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38463,   1,   33554642) /* Setup */
-     , (38463,   3,  536870932) /* SoundTable */
-     , (38463,   8,  100690164) /* Icon */
-     , (38463,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38463,   1, 0x020000D2) /* Setup */
+     , (38463,   3, 0x20000014) /* SoundTable */
+     , (38463,   8, 0x060068F4) /* Icon */
+     , (38463,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38463, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38463, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38463, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38463, 8000, 3082503137) /* PCAPRecordedObjectIID */;
+VALUES (38463, 8000, 0xB7BB43E1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38463,  2092,      2)  /* AcidBane7 */
+     , (38463,  4407,      2)  /* Impenetrability8 */
      , (38463,  2233,      2)  /* FealtySelf7 */
-     , (38463,  3963,      2)  /* CANTRIPCOORDINATION3 */
-     , (38463,  4407,      2)  /* Impenetrability8 */;
+     , (38463,  3963,      2)  /* CANTRIPCOORDINATION3 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (38463, 0, 16794120);

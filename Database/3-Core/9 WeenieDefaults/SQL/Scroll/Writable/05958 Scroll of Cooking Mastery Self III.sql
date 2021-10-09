@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5958,   1, 'Scroll of Cooking Mastery Self III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5958,   1,   33554826) /* Setup */
-     , (5958,   8,  100676451) /* Icon */
-     , (5958,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5958,   1, 0x0200018A) /* Setup */
+     , (5958,   8, 0x06003363) /* Icon */
+     , (5958,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5958,  28,       1717) /* Spell - CookingMasterySelf3 */
      , (5958, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5958, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5958, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5958, 8000, 3356965779) /* PCAPRecordedObjectIID */;
+VALUES (5958, 8000, 0xC8173B93) /* PCAPRecordedObjectIID */;

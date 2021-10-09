@@ -14,19 +14,22 @@ VALUES (37450,   1,        128) /* ItemType - Misc */
      , (37450, 114,          1) /* Attuned - Attuned */
      , (37450, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (37450,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37450,   1, 'Large Tainted Egg') /* Name */
      , (37450,  14, 'Bring this egg to an expert in the closest settlement.') /* Use */
      , (37450,  16, 'This egg''s shell oozes with an oily, film-like substance which causes the egg to appear gray, almost black.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37450,   1,   33554817) /* Setup */
-     , (37450,   3,  536870932) /* SoundTable */
-     , (37450,   8,  100689466) /* Icon */
-     , (37450,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37450,   1, 0x02000181) /* Setup */
+     , (37450,   3, 0x20000014) /* SoundTable */
+     , (37450,   8, 0x0600663A) /* Icon */
+     , (37450,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37450, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (37450, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37450, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37450, 8000, 2877801695) /* PCAPRecordedObjectIID */;
+VALUES (37450, 8000, 0xAB87C4DF) /* PCAPRecordedObjectIID */;

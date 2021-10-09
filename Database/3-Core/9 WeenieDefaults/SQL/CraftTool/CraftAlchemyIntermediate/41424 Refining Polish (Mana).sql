@@ -23,13 +23,13 @@ VALUES (41424,   1, 'Refining Polish (Mana)') /* Name */
      , (41424,  16, 'A refining polish used on metal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41424,   1,   33554598) /* Setup */
-     , (41424,   3,  536870932) /* SoundTable */
-     , (41424,   8,  100690737) /* Icon */
-     , (41424,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41424,   1, 0x020000A6) /* Setup */
+     , (41424,   3, 0x20000014) /* SoundTable */
+     , (41424,   8, 0x06006B31) /* Icon */
+     , (41424,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41424, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (41424, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41424, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41424, 8000, 2157927912) /* PCAPRecordedObjectIID */;
+VALUES (41424, 8000, 0x809F5DE8) /* PCAPRecordedObjectIID */;

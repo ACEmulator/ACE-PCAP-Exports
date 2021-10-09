@@ -25,22 +25,22 @@ VALUES (19263,   1, 'Gnawer Shreth') /* Name */
      , (19263, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19263,   1,   33555908) /* Setup */
-     , (19263,   2,  150995072) /* MotionTable */
-     , (19263,   3,  536870986) /* SoundTable */
-     , (19263,   6,   67112444) /* PaletteBase */
-     , (19263,   8,  100669720) /* Icon */
-     , (19263,  22,  872415333) /* PhysicsEffectTable */
+VALUES (19263,   1, 0x020005C4) /* Setup */
+     , (19263,   2, 0x09000080) /* MotionTable */
+     , (19263,   3, 0x2000004A) /* SoundTable */
+     , (19263,   6, 0x04000DFC) /* PaletteBase */
+     , (19263,   8, 0x06001918) /* Icon */
+     , (19263,  22, 0x34000065) /* PhysicsEffectTable */
      , (19263, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (19263, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19263, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19263, 8040, 3713269779, 53.2374, 67.94697, 8.334752, -0.09558646, 0, 0, -0.9954211) /* PCAPRecordedLocation */
+VALUES (19263, 8040, 0xDD540013, 53.2374, 67.94697, 8.334752, -0.095586, 0, 0, -0.995421) /* PCAPRecordedLocation */
 /* @teleloc 0xDD540013 [53.237400 67.946970 8.334752] -0.095586 0.000000 0.000000 -0.995421 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19263, 8000, 3685110986) /* PCAPRecordedObjectIID */;
+VALUES (19263, 8000, 0xDBA654CA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19263,   1,  30, 0, 0) /* Strength */
@@ -56,7 +56,8 @@ VALUES (19263,   1,     0, 0, 0, 15) /* MaxHealth */
      , (19263,   5,     0, 0, 0, 15) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19263, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
+VALUES (19263, 2, 47513,  1, 0, 0, False) /* Create Arrow (47513) for Wield */
+     , (19263, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
      , (19263, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
      , (19263, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
      , (19263, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */
@@ -160,6 +161,10 @@ VALUES (19263, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554
      , (19263, 9,  4199,  0, 0, 0, False) /* Create Lightning Nekode (4199) for ContainTreasure */
      , (19263, 9, 49296,  0, 0, 0, False) /* Create Fire K'nath Essence (50) (49296) for ContainTreasure */
      , (19263, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
+     , (19263, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (19263, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (19263, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
+     , (19263, 9,  3153,  0, 0, 0, False) /* Create Scroll of Armor Tinkering Ignorance II (3153) for ContainTreasure */
      , (19263, 9,  2832,  0, 0, 0, False) /* Create Aura of Heartseeker Self II (2832) for ContainTreasure */
      , (19263, 9,  7794,  0, 0, 0, False) /* Create Electric Trident (7794) for ContainTreasure */;
 

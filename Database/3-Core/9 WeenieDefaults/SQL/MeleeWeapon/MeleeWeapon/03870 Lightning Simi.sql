@@ -42,13 +42,13 @@ VALUES (3870,   1, 'Lightning Simi') /* Name */
      , (3870,  16, 'Finely crafted Gold Lightning Simi , set with 1 Zircon') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3870,   1,   33555778) /* Setup */
-     , (3870,   3,  536870932) /* SoundTable */
-     , (3870,   8,  100668164) /* Icon */
-     , (3870,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3870,   1, 0x02000542) /* Setup */
+     , (3870,   3, 0x20000014) /* SoundTable */
+     , (3870,   8, 0x06001304) /* Icon */
+     , (3870,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3870, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3870, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3870, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3870, 8000, 3622072490) /* PCAPRecordedObjectIID */;
+VALUES (3870, 8000, 0xD7E470AA) /* PCAPRecordedObjectIID */;

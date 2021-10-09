@@ -24,13 +24,13 @@ VALUES (29201,   1, 'Full Brew Kettle') /* Name */
      , (29201,  20, 'Full Brew Kettles') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29201,   1,   33559154) /* Setup */
-     , (29201,   3,  536870932) /* SoundTable */
-     , (29201,   8,  100686433) /* Icon */
-     , (29201,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29201,   1, 0x02001272) /* Setup */
+     , (29201,   3, 0x20000014) /* SoundTable */
+     , (29201,   8, 0x06005A61) /* Icon */
+     , (29201,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29201, 8001,  270561297) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (29201, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (29201, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29201, 8000, 3696546276) /* PCAPRecordedObjectIID */;
+VALUES (29201, 8000, 0xDC54D1E4) /* PCAPRecordedObjectIID */;

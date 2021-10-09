@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33205,   1,        256) /* ItemType - MissileWeapon */
      , (33205,   5,        400) /* EncumbranceVal */
      , (33205,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (33205,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (33205,  16,          1) /* ItemUseable - No */
      , (33205,  19,      15000) /* Value */
      , (33205,  44,         10) /* Damage */
@@ -15,7 +14,7 @@ VALUES (33205,   1,        256) /* ItemType - MissileWeapon */
      , (33205,  48,         47) /* WeaponSkill - MissileWeapons */
      , (33205,  49,         50) /* WeaponTime */
      , (33205,  50,          1) /* AmmoType - Arrow */
-     , (33205,  51,          2) /* CombatUse - Missle */
+     , (33205,  51,          2) /* CombatUse - Missile */
      , (33205,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33205, 106,        450) /* ItemSpellcraft */
      , (33205, 107,       5656) /* ItemCurMana */
@@ -49,12 +48,12 @@ VALUES (33205,   1, 'Royal Runed War Bow') /* Name */
      , (33205,  15, 'A war bow crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33205,   1,   33559928) /* Setup */
-     , (33205,   3,  536870932) /* SoundTable */
-     , (33205,   6,   67115555) /* PaletteBase */
-     , (33205,   8,  100687047) /* Icon */
-     , (33205,  22,  872415275) /* PhysicsEffectTable */
-     , (33205,  50,  100688914) /* IconOverlay */
+VALUES (33205,   1, 0x02001578) /* Setup */
+     , (33205,   3, 0x20000014) /* SoundTable */
+     , (33205,   6, 0x04001A23) /* PaletteBase */
+     , (33205,   8, 0x06005CC7) /* Icon */
+     , (33205,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33205,  50, 0x06006412) /* IconOverlay */
      , (33205,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (33205, 8001, 1344504600) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType, IconOverlay */
      , (33205, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -62,17 +61,17 @@ VALUES (33205,   1,   33559928) /* Setup */
      , (33205, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33205, 8040, 23855554, 55.07979, -27.75857, -0.07000001, -0.9926327, 0, 0, 0.1211626) /* PCAPRecordedLocation */
+VALUES (33205, 8040, 0x016C01C2, 55.07979, -27.75857, -0.07, -0.992633, 0, 0, 0.121163) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.079790 -27.758570 -0.070000] -0.992633 0.000000 0.000000 0.121163 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33205, 8000, 2343800412) /* PCAPRecordedObjectIID */
-     , (33205, 8008, 1343396220) /* PCAPRecordedParentIID */;
+VALUES (33205, 8000, 0x8BB38E5C) /* PCAPRecordedObjectIID */
+     , (33205, 8008, 0x5012997C) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33205,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (33205,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33205,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33205,  2101,      2)  /* DefenderSelf7 */
-     , (33205,  2116,      2)  /* SwiftKillerSelf7 */
      , (33205,  2687,      2)  /* ModerateBowAptitude */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

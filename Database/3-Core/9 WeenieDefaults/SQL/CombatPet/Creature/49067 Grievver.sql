@@ -28,12 +28,12 @@ VALUES (49067,   1, 'Grievver') /* Name */
      , (49067, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49067,   1,   33561527) /* Setup */
-     , (49067,   2,  150995098) /* MotionTable */
-     , (49067,   3,  536871009) /* SoundTable */
-     , (49067,   6,   67112927) /* PaletteBase */
-     , (49067,   8,  100670960) /* Icon */
-     , (49067,  22,  872415364) /* PhysicsEffectTable */
+VALUES (49067,   1, 0x02001BB7) /* Setup */
+     , (49067,   2, 0x0900009A) /* MotionTable */
+     , (49067,   3, 0x20000061) /* SoundTable */
+     , (49067,   6, 0x04000FDF) /* PaletteBase */
+     , (49067,   8, 0x06001DF0) /* Icon */
+     , (49067,  22, 0x34000084) /* PhysicsEffectTable */
      , (49067,  30,         84) /* PhysicsScript - BreatheFlame */
      , (49067, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49067, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
@@ -41,11 +41,11 @@ VALUES (49067,   1,   33561527) /* Setup */
      , (49067, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49067, 8040, 1615069548, 9.96415, -57.54706, -18.0009, -0.9995069, 0, 0, -0.03140112) /* PCAPRecordedLocation */
+VALUES (49067, 8040, 0x6044016C, 9.96415, -57.54706, -18.0009, -0.999507, 0, 0, -0.031401) /* PCAPRecordedLocation */
 /* @teleloc 0x6044016C [9.964150 -57.547060 -18.000900] -0.999507 0.000000 0.000000 -0.031401 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49067, 8000, 3690036778) /* PCAPRecordedObjectIID */;
+VALUES (49067, 8000, 0xDBF17E2A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49067,   1, 150, 0, 0) /* Strength */

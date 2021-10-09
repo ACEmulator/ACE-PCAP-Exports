@@ -23,17 +23,17 @@ VALUES (27296,   1, 'Wretched Key') /* Name */
      , (27296,  16, 'This key appears to be used to open a door in the Orphanage.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27296,   1,   33554784) /* Setup */
-     , (27296,   3,  536870932) /* SoundTable */
-     , (27296,   8,  100675676) /* Icon */
-     , (27296,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27296,   1, 0x02000160) /* Setup */
+     , (27296,   3, 0x20000014) /* SoundTable */
+     , (27296,   8, 0x0600305C) /* Icon */
+     , (27296,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27296, 8001,    2624528) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, TargetType, Burden */
      , (27296, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27296, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27296, 8040, 1699218200, 70, -120, 12.024, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (27296, 8040, 0x65480318, 70, -120, 12.024, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x65480318 [70.000000 -120.000000 12.024000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27296, 8000, 3701366054) /* PCAPRecordedObjectIID */;
+VALUES (27296, 8000, 0xDC9E5D26) /* PCAPRecordedObjectIID */;

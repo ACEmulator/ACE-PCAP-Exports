@@ -23,16 +23,16 @@ VALUES (32517,   1, 'Yanshi Upper Undermine') /* Name */
      , (32517, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32517,   1,   33555925) /* Setup */
-     , (32517,   2,  150994947) /* MotionTable */
-     , (32517,   8,  100667499) /* Icon */
+VALUES (32517,   1, 0x020005D5) /* Setup */
+     , (32517,   2, 0x09000003) /* MotionTable */
+     , (32517,   8, 0x0600106B) /* Icon */
      , (32517, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (32517, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (32517, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32517, 8040, 4588094, 324, -370, 11.937, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (32517, 8040, 0x0046023E, 324, -370, 11.937, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0046023E [324.000000 -370.000000 11.937000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32517, 8000, 1879334935) /* PCAPRecordedObjectIID */;
+VALUES (32517, 8000, 0x70046017) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45455,   1, 'Tri-Blade Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45455,   1,   33557067) /* Setup */
-     , (45455,   3,  536870932) /* SoundTable */
-     , (45455,   6,   67111919) /* PaletteBase */
-     , (45455,   8,  100686757) /* Icon */
-     , (45455,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45455,   1, 0x02000A4B) /* Setup */
+     , (45455,   3, 0x20000014) /* SoundTable */
+     , (45455,   6, 0x04000BEF) /* PaletteBase */
+     , (45455,   8, 0x06005BA5) /* Icon */
+     , (45455,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45455,  30,         88) /* PhysicsScript - Create */
-     , (45455,  52,  100686604) /* IconUnderlay */
+     , (45455,  52, 0x06005B0C) /* IconUnderlay */
      , (45455, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (45455, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45455, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,7 +38,7 @@ VALUES (45455,   1,   33557067) /* Setup */
      , (45455, 8044,      35630) /* PCAPPhysicsDIDDataTemplatedFrom - Sickle of Azaxis */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45455, 8000,      45455) /* PCAPRecordedObjectIID */;
+VALUES (45455, 8000, 0x0000B18F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45455, 67111920, 0, 0);

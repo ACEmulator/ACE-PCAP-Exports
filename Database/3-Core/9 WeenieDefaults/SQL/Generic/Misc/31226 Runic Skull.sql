@@ -14,7 +14,8 @@ VALUES (31226,   1,        128) /* ItemType - Misc */
      , (31226, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31226,  22, True ) /* Inscribable */;
+VALUES (31226,  22, True ) /* Inscribable */
+     , (31226,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31226,  39,       2) /* DefaultScale */
@@ -25,13 +26,13 @@ VALUES (31226,   1, 'Runic Skull') /* Name */
      , (31226,  16, 'An unusually large skull. Runes are inscribed on the surface of the skull. The only decipherable runes read, "Undead Temple". Perhaps it''s a key of some sort? ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31226,   1,   33556825) /* Setup */
-     , (31226,   3,  536870932) /* SoundTable */
-     , (31226,   8,  100671032) /* Icon */
-     , (31226,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31226,   1, 0x02000959) /* Setup */
+     , (31226,   3, 0x20000014) /* SoundTable */
+     , (31226,   8, 0x06001E38) /* Icon */
+     , (31226,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31226, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (31226, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31226, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31226, 8000, 2979050414) /* PCAPRecordedObjectIID */;
+VALUES (31226, 8000, 0xB190B3AE) /* PCAPRecordedObjectIID */;

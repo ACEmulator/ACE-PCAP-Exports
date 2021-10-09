@@ -24,13 +24,13 @@ VALUES (45328,   1, 'Scroll of Shield Mastery Self V') /* Name */
 Increases the caster''s Shield skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45328,   1,   33554826) /* Setup */
-     , (45328,   8,  100692252) /* Icon */
-     , (45328,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45328,   1, 0x0200018A) /* Setup */
+     , (45328,   8, 0x0600711C) /* Icon */
+     , (45328,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45328,  28,       5855) /* Spell - ShieldMasterySelf5 */
      , (45328, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45328, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45328, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45328, 8000, 2264331458) /* PCAPRecordedObjectIID */;
+VALUES (45328, 8000, 0x86F6F4C2) /* PCAPRecordedObjectIID */;

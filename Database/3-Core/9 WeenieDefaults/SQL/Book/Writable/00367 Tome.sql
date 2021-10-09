@@ -27,23 +27,23 @@ VALUES (367,   1, 'Tome') /* Name */
      , (367,   8, 'Aziz al-Jamal') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (367,   1,   33554772) /* Setup */
-     , (367,   3,  536870932) /* SoundTable */
-     , (367,   8,  100667470) /* Icon */
-     , (367,  22,  872415275) /* PhysicsEffectTable */
+VALUES (367,   1, 0x02000154) /* Setup */
+     , (367,   3, 0x20000014) /* SoundTable */
+     , (367,   8, 0x0600104E) /* Icon */
+     , (367,  22, 0x3400002B) /* PhysicsEffectTable */
      , (367, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (367, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (367, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (367,   7, 1342426987) /* Scribe */
-     , (367, 8000, 2166234040) /* PCAPRecordedObjectIID */;
+VALUES (367,   7, 0x5003CF6B) /* Scribe */
+     , (367, 8000, 0x811E1BB8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (367, 70, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (367, 0, 1342426987, 'Aziz al-Jamal', 'Password is cheese', False, 'Lin is located around 55s 73e
+VALUES (367, 0, 1342426987, 'Aziz al-Jamal', 'prewritten', False, 'Lin is located around 55s 73e
 Tou-Tou from Lin    54s 73.9e
 Patron''s mule spot in GW 28n 28e
 subway 34.9n 54.5e

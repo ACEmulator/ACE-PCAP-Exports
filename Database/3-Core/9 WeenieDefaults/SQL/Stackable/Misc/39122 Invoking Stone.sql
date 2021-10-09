@@ -19,19 +19,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39122,   1, 'Invoking Stone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39122,   1,   33554669) /* Setup */
-     , (39122,   3,  536870932) /* SoundTable */
-     , (39122,   6,   67111928) /* PaletteBase */
-     , (39122,   8,  100690312) /* Icon */
-     , (39122,  22,  872415275) /* PhysicsEffectTable */
-     , (39122,  52,  100689826) /* IconUnderlay */
+VALUES (39122,   1, 0x020000ED) /* Setup */
+     , (39122,   3, 0x20000014) /* SoundTable */
+     , (39122,   6, 0x04000BF8) /* PaletteBase */
+     , (39122,   8, 0x06006988) /* Icon */
+     , (39122,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (39122,  52, 0x060067A2) /* IconUnderlay */
      , (39122, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (39122, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (39122, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (39122, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39122, 8000, 2155719512) /* PCAPRecordedObjectIID */;
+VALUES (39122, 8000, 0x807DAB58) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39122, 67111920, 0, 0);

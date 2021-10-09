@@ -38,20 +38,17 @@ VALUES (96,   1, 'Chainmail Shirt') /* Name */
      , (96,  16, 'Chainmail Shirt') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (96,   1,   33554883) /* Setup */
-     , (96,   3,  536870932) /* SoundTable */
-     , (96,   6,   67108990) /* PaletteBase */
-     , (96,   8,  100669212) /* Icon */
-     , (96,  22,  872415275) /* PhysicsEffectTable */
+VALUES (96,   1, 0x020001C3) /* Setup */
+     , (96,   3, 0x20000014) /* SoundTable */
+     , (96,   6, 0x0400007E) /* PaletteBase */
+     , (96,   8, 0x0600171C) /* Icon */
+     , (96,  22, 0x3400002B) /* PhysicsEffectTable */
      , (96, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (96, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (96, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (96, 8000, 3692162554) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (96, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+VALUES (96, 8000, 0xDC11EDFA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (96, 67110007, 80, 12)

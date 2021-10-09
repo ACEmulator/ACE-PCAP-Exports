@@ -21,21 +21,21 @@ VALUES (31687,   1, 'Orange Monster Seed') /* Name */
      , (31687,  15, 'This is a large, ugly, hairy seed. What could possibly grow from this monster? Perhaps that kooky old plant lover in Stonehold will know what to do with this thing.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31687,   1,   33559608) /* Setup */
-     , (31687,   3,  536870932) /* SoundTable */
-     , (31687,   6,   67116668) /* PaletteBase */
-     , (31687,   8,  100687928) /* Icon */
-     , (31687,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31687,   1, 0x02001438) /* Setup */
+     , (31687,   3, 0x20000014) /* SoundTable */
+     , (31687,   6, 0x04001E7C) /* PaletteBase */
+     , (31687,   8, 0x06006038) /* Icon */
+     , (31687,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31687, 8001,  270544920) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Burden, HookType */
      , (31687, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31687, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31687, 8040, 2429616134, 5.029962, 135.4148, 277.911, -0.4410482, 0, 0, -0.8974834) /* PCAPRecordedLocation */
+VALUES (31687, 8040, 0x90D10006, 5.029962, 135.4148, 277.911, -0.441048, 0, 0, -0.897483) /* PCAPRecordedLocation */
 /* @teleloc 0x90D10006 [5.029962 135.414800 277.911000] -0.441048 0.000000 0.000000 -0.897483 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31687, 8000, 3691635443) /* PCAPRecordedObjectIID */;
+VALUES (31687, 8000, 0xDC09E2F3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31687, 67116675, 0, 0);

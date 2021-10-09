@@ -32,21 +32,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31238,   1, 'Viamontian Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31238,   1,   33554653) /* Setup */
-     , (31238,   3,  536870932) /* SoundTable */
-     , (31238,   6,   67108990) /* PaletteBase */
-     , (31238,   8,  100682342) /* Icon */
-     , (31238,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31238,   1, 0x020000DD) /* Setup */
+     , (31238,   3, 0x20000014) /* SoundTable */
+     , (31238,   6, 0x0400007E) /* PaletteBase */
+     , (31238,   8, 0x06004A66) /* Icon */
+     , (31238,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31238, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (31238, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31238, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31238, 8040, 23855554, 55.37567, -31.11608, -0.002499998, 0.680315, 0, 0, -0.7329199) /* PCAPRecordedLocation */
+VALUES (31238, 8040, 0x016C01C2, 55.37567, -31.11608, -0.0025, 0.680315, 0, 0, -0.73292) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.375670 -31.116080 -0.002500] 0.680315 0.000000 0.000000 -0.732920 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31238, 8000, 3705974134) /* PCAPRecordedObjectIID */;
+VALUES (31238, 8000, 0xDCE4AD76) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31238, 67110358, 64, 16);

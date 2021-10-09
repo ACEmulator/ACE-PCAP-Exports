@@ -44,25 +44,22 @@ VALUES (25647,   1, 'Leather Pants') /* Name */
      , (25647,  16, 'Leather Pants') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25647,   1,   33554856) /* Setup */
-     , (25647,   3,  536870932) /* SoundTable */
-     , (25647,   6,   67108990) /* PaletteBase */
-     , (25647,   8,  100675299) /* Icon */
-     , (25647,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25647,   1, 0x020001A8) /* Setup */
+     , (25647,   3, 0x20000014) /* SoundTable */
+     , (25647,   6, 0x0400007E) /* PaletteBase */
+     , (25647,   8, 0x06002EE3) /* Icon */
+     , (25647,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25647, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (25647, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25647, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25647, 8000, 2384324219) /* PCAPRecordedObjectIID */;
+VALUES (25647, 8000, 0x8E1DE67B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25647,  1484,      2)  /* Impenetrability4 */
      , (25647,  1497,      2)  /* AcidBane5 */
      , (25647,  1514,      2)  /* BludgeonBane4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25647, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (12196) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25647, 67114600, 72, 24)

@@ -23,13 +23,13 @@ VALUES (9385,   1, 'Virindi Envoy''s Obsidian Shard') /* Name */
      , (9385,  16, 'A piece of obsidian etched with arcane symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9385,   1,   33555391) /* Setup */
-     , (9385,   3,  536870932) /* SoundTable */
-     , (9385,   8,  100671183) /* Icon */
-     , (9385,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9385,   1, 0x020003BF) /* Setup */
+     , (9385,   3, 0x20000014) /* SoundTable */
+     , (9385,   8, 0x06001ECF) /* Icon */
+     , (9385,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9385, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (9385, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (9385, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9385, 8000, 2221328220) /* PCAPRecordedObjectIID */;
+VALUES (9385, 8000, 0x8466C75C) /* PCAPRecordedObjectIID */;

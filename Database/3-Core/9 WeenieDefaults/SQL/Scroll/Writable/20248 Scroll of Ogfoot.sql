@@ -24,13 +24,13 @@ VALUES (20248,   1, 'Scroll of Ogfoot') /* Name */
 Increases the target''s Quickness by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20248,   1,   33554826) /* Setup */
-     , (20248,   8,  100676469) /* Icon */
-     , (20248,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20248,   1, 0x0200018A) /* Setup */
+     , (20248,   8, 0x06003375) /* Icon */
+     , (20248,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20248,  28,       2080) /* Spell - QuicknessOther7 */
      , (20248, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20248, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20248, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20248, 8000, 3699152449) /* PCAPRecordedObjectIID */;
+VALUES (20248, 8000, 0xDC7C9641) /* PCAPRecordedObjectIID */;

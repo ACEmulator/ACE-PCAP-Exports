@@ -21,13 +21,13 @@ VALUES (31903,   1, 'Gold Moarsman Tooth') /* Name */
      , (31903,  16, 'A Gold Moarsman Tooth. Is it gold or just really yellow?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31903,   1,   33554817) /* Setup */
-     , (31903,   3,  536870932) /* SoundTable */
-     , (31903,   8,  100688395) /* Icon */
-     , (31903,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31903,   1, 0x02000181) /* Setup */
+     , (31903,   3, 0x20000014) /* SoundTable */
+     , (31903,   8, 0x0600620B) /* Icon */
+     , (31903,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31903, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (31903, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31903, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31903, 8000, 2325518427) /* PCAPRecordedObjectIID */;
+VALUES (31903, 8000, 0x8A9C985B) /* PCAPRecordedObjectIID */;

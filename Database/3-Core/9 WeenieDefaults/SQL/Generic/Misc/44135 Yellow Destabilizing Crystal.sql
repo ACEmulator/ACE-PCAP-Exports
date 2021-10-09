@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44135,   1, 'Yellow Destabilizing Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44135,   1,   33561099) /* Setup */
-     , (44135,   3,  536870932) /* SoundTable */
-     , (44135,   8,  100691972) /* Icon */
-     , (44135,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44135,   1, 0x02001A0B) /* Setup */
+     , (44135,   3, 0x20000014) /* SoundTable */
+     , (44135,   8, 0x06007004) /* Icon */
+     , (44135,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44135, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (44135, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44135, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44135, 8000, 3632766047) /* PCAPRecordedObjectIID */;
+VALUES (44135, 8000, 0xD8879C5F) /* PCAPRecordedObjectIID */;

@@ -22,22 +22,22 @@ VALUES (2565,   1, 'Shore Armoredillo') /* Name */
      , (2565, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2565,   1,   33554436) /* Setup */
-     , (2565,   2,  150994972) /* MotionTable */
-     , (2565,   3,  536870915) /* SoundTable */
-     , (2565,   6,   67109301) /* PaletteBase */
-     , (2565,   8,  100667935) /* Icon */
-     , (2565,  22,  872415253) /* PhysicsEffectTable */
+VALUES (2565,   1, 0x02000004) /* Setup */
+     , (2565,   2, 0x0900001C) /* MotionTable */
+     , (2565,   3, 0x20000003) /* SoundTable */
+     , (2565,   6, 0x040001B5) /* PaletteBase */
+     , (2565,   8, 0x0600121F) /* Icon */
+     , (2565,  22, 0x34000015) /* PhysicsEffectTable */
      , (2565, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (2565, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (2565, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2565, 8040, 3516203036, 81.05988, 84.67636, 0.01050007, 0.6367885, 0, 0, -0.7710385) /* PCAPRecordedLocation */
+VALUES (2565, 8040, 0xD195001C, 81.05988, 84.67636, 0.0105, 0.636789, 0, 0, -0.771039) /* PCAPRecordedLocation */
 /* @teleloc 0xD195001C [81.059880 84.676360 0.010500] 0.636789 0.000000 0.000000 -0.771039 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2565, 8000, 3692115434) /* PCAPRecordedObjectIID */;
+VALUES (2565, 8000, 0xDC1135EA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2565,   1, 130, 0, 0) /* Strength */
@@ -96,7 +96,10 @@ VALUES (2565, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50
      , (2565, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (2565, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
      , (2565, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
-     , (2565, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */;
+     , (2565, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (2565, 9,  5989,  0, 0, 0, False) /* Create Scroll of Alchemy Mastery Other IV (5989) for ContainTreasure */
+     , (2565, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (2565, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2565, 67115922, 0, 0);

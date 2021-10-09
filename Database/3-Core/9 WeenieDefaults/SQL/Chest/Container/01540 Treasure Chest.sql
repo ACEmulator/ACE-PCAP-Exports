@@ -31,21 +31,21 @@ VALUES (1540,   1, 'Treasure Chest') /* Name */
      , (1540, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1540,   1,   33554556) /* Setup */
-     , (1540,   2,  150994948) /* MotionTable */
-     , (1540,   3,  536870945) /* SoundTable */
-     , (1540,   8,  100667424) /* Icon */
-     , (1540,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1540,   1, 0x0200007C) /* Setup */
+     , (1540,   2, 0x09000004) /* MotionTable */
+     , (1540,   3, 0x20000021) /* SoundTable */
+     , (1540,   8, 0x06001020) /* Icon */
+     , (1540,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1540, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (1540, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1540, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1540, 8040, 28181043, 143.515, 3.30532, -12, 0.712944, 0, 0, -0.701221) /* PCAPRecordedLocation */
+VALUES (1540, 8040, 0x01AE0233, 143.515, 3.30532, -12, 0.712944, 0, 0, -0.701221) /* PCAPRecordedLocation */
 /* @teleloc 0x01AE0233 [143.515000 3.305320 -12.000000] 0.712944 0.000000 0.000000 -0.701221 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1540, 8000, 1880809522) /* PCAPRecordedObjectIID */;
+VALUES (1540, 8000, 0x701AE032) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1540, -1, 297, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ring (297) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

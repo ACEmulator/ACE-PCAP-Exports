@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34576,   1, 'Decorative Stone Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34576,   1,   33560179) /* Setup */
-     , (34576,   3,  536870932) /* SoundTable */
-     , (34576,   8,  100676578) /* Icon */
-     , (34576,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34576,   1, 0x02001673) /* Setup */
+     , (34576,   3, 0x20000014) /* SoundTable */
+     , (34576,   8, 0x060033E2) /* Icon */
+     , (34576,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34576, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (34576, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34576, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34576, 8000, 2622573683) /* PCAPRecordedObjectIID */;
+VALUES (34576, 8000, 0x9C514C73) /* PCAPRecordedObjectIID */;

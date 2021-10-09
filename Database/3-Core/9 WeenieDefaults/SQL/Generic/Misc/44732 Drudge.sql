@@ -19,11 +19,11 @@ VALUES (44732,   1, 'Drudge') /* Name */
      , (44732,  16, 'Drudges are by far the weakest of the humanoid races, and are often kept by their stronger cousins as slaves or grunt warriors. They often scavenge on the fringes of human lands, preying on the weak and defenseless, and also lurk in shallow dungeons. Most of them stand about four feet tall, and fight with their claws; some employ crude weapons like knives and clubs. In combat, they attack in packs, and with little discipline. Be warned: there are a few varieties of Drudges that are more dangerous than the norm. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44732,   1,   33561332) /* Setup */
-     , (44732,   8,  100668115) /* Icon */
+VALUES (44732,   1, 0x02001AF4) /* Setup */
+     , (44732,   8, 0x060012D3) /* Icon */
      , (44732, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44732, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44732, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44732, 8000, 2398480545) /* PCAPRecordedObjectIID */;
+VALUES (44732, 8000, 0x8EF5E8A1) /* PCAPRecordedObjectIID */;

@@ -16,16 +16,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38055,   1, 'Radiant Blood Banner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38055,   1,   33560564) /* Setup */
-     , (38055,   3,  536870932) /* SoundTable */
-     , (38055,   8,  100689890) /* Icon */
+VALUES (38055,   1, 0x020017F4) /* Setup */
+     , (38055,   3, 0x20000014) /* SoundTable */
+     , (38055,   8, 0x060067E2) /* Icon */
      , (38055, 8001,    8388624) /* PCAPRecordedWeenieHeader - Usable, RadarBehavior */
      , (38055, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (38055, 8005,      34817) /* PCAPRecordedPhysicsDesc - CSetup, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38055, 8040, 2315452819, 89.46724, -148.7411, 0, -0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
+VALUES (38055, 8040, 0x8A030193, 89.46724, -148.7411, 0, -0.92388, 0, 0, -0.382684) /* PCAPRecordedLocation */
 /* @teleloc 0x8A030193 [89.467240 -148.741100 0.000000] -0.923880 0.000000 0.000000 -0.382684 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38055, 8000, 3710937461) /* PCAPRecordedObjectIID */;
+VALUES (38055, 8000, 0xDD306975) /* PCAPRecordedObjectIID */;

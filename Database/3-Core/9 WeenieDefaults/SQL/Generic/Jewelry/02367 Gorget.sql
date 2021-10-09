@@ -36,25 +36,21 @@ VALUES (2367,   1, 'Gorget') /* Name */
      , (2367,  16, 'Gorget of Magic Resistance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2367,   1,   33554687) /* Setup */
-     , (2367,   3,  536870932) /* SoundTable */
-     , (2367,   6,   67111919) /* PaletteBase */
-     , (2367,   8,  100668633) /* Icon */
-     , (2367,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2367,   1, 0x020000FF) /* Setup */
+     , (2367,   3, 0x20000014) /* SoundTable */
+     , (2367,   6, 0x04000BEF) /* PaletteBase */
+     , (2367,   8, 0x060014D9) /* Icon */
+     , (2367,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2367, 8001, 2166440088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, Workmanship, MaterialType */
      , (2367, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2367, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2367, 8000, 3687065955) /* PCAPRecordedObjectIID */;
+VALUES (2367, 8000, 0xDBC42963) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2367,   278,      2)  /* MagicResistanceSelf5 */
      , (2367,  2622,      2)  /* CANTRIPSTORMWARD1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2367, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (2367, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2367, 67111920, 0, 0);

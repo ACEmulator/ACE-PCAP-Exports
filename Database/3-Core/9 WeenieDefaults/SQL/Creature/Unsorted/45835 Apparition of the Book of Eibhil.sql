@@ -24,18 +24,18 @@ VALUES (45835,   1, 'Apparition of the Book of Eibhil') /* Name */
      , (45835, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45835,   1,   33559572) /* Setup */
-     , (45835,   2,  150995339) /* MotionTable */
-     , (45835,   3,  536870932) /* SoundTable */
-     , (45835,   8,  100687849) /* Icon */
-     , (45835,  22,  872415369) /* PhysicsEffectTable */
+VALUES (45835,   1, 0x02001414) /* Setup */
+     , (45835,   2, 0x0900018B) /* MotionTable */
+     , (45835,   3, 0x20000014) /* SoundTable */
+     , (45835,   8, 0x06005FE9) /* Icon */
+     , (45835,  22, 0x34000089) /* PhysicsEffectTable */
      , (45835, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
      , (45835, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (45835, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45835, 8040, 1498285197, 139.699, -26.9021, -66, 0.713413, 0, 0, -0.700744) /* PCAPRecordedLocation */
+VALUES (45835, 8040, 0x594E048D, 139.699, -26.9021, -66, 0.713413, 0, 0, -0.700744) /* PCAPRecordedLocation */
 /* @teleloc 0x594E048D [139.699000 -26.902100 -66.000000] 0.713413 0.000000 0.000000 -0.700744 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45835, 8000, 3694802180) /* PCAPRecordedObjectIID */;
+VALUES (45835, 8000, 0xDC3A3504) /* PCAPRecordedObjectIID */;

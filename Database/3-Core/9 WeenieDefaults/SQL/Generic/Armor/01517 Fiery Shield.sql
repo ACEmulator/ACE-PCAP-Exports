@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1517,   1,          2) /* ItemType - Armor */
      , (1517,   5,        650) /* EncumbranceVal */
      , (1517,   9,    2097152) /* ValidLocations - Shield */
-     , (1517,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (1517,  16,          1) /* ItemUseable - No */
      , (1517,  18,         32) /* UiEffects - Fire */
      , (1517,  19,       7500) /* Value */
@@ -43,10 +42,10 @@ VALUES (1517,   1, 'Fiery Shield') /* Name */
      , (1517,  16, 'A fiery shield that seems to give resistance against fire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1517,   1,   33555416) /* Setup */
-     , (1517,   6,   67111459) /* PaletteBase */
-     , (1517,   8,  100668582) /* Icon */
-     , (1517,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1517,   1, 0x020003D8) /* Setup */
+     , (1517,   6, 0x04000A23) /* PaletteBase */
+     , (1517,   8, 0x060014A6) /* Icon */
+     , (1517,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1517,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (1517, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (1517, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -54,17 +53,17 @@ VALUES (1517,   1,   33555416) /* Setup */
      , (1517, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1517, 8040, 459077, 70.0605, -80.0325, -0.07400001, 0.403672, 0.64903, -0.5373489, 0.356462) /* PCAPRecordedLocation */
+VALUES (1517, 8040, 0x00070145, 70.0605, -80.0325, -0.074, 0.403672, 0.64903, -0.537349, 0.356462) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.060500 -80.032500 -0.074000] 0.403672 0.649030 -0.537349 0.356462 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1517, 8000, 3686552526) /* PCAPRecordedObjectIID */
-     , (1517, 8008, 1343493568) /* PCAPRecordedParentIID */;
+VALUES (1517, 8000, 0xDBBC53CE) /* PCAPRecordedObjectIID */
+     , (1517, 8008, 0x501415C0) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1517,   810,      2)  /* FireProtectionOther2 */
-     , (1517,  1483,      2)  /* Impenetrability3 */
-     , (1517,  1550,      2)  /* FlameBane4 */;
+VALUES (1517,  1483,      2)  /* Impenetrability3 */
+     , (1517,  1550,      2)  /* FlameBane4 */
+     , (1517,   810,      2)  /* FireProtectionOther2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1517, 67111919, 0, 0);

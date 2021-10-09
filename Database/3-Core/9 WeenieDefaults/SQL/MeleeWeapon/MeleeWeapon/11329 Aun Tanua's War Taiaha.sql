@@ -29,6 +29,7 @@ VALUES (11329,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11329,  22, True ) /* Inscribable */
+     , (11329,  23, True ) /* DestroyOnSell */
      , (11329,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -48,19 +49,19 @@ VALUES (11329,   1, 'Aun Tanua''s War Taiaha') /* Name */
      , (11329,  16, 'A lovingly carved taiaha, fused to a living figurine. The creature slowly opens its eyes and glares at you.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11329,   1,   33557310) /* Setup */
-     , (11329,   3,  536870932) /* SoundTable */
-     , (11329,   8,  100672030) /* Icon */
-     , (11329,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11329,   1, 0x02000B3E) /* Setup */
+     , (11329,   3, 0x20000014) /* SoundTable */
+     , (11329,   8, 0x0600221E) /* Icon */
+     , (11329,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11329, 8001,    2179736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
      , (11329, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11329, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11329, 8000, 2629462758) /* PCAPRecordedObjectIID */;
+VALUES (11329, 8000, 0x9CBA6AE6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11329,   185,      2)  /* RejuvenationOther3 */
-     , (11329,   294,      2)  /* AxeMasteryOther3 */
-     , (11329,  1613,      2)  /* BloodDrinkerSelf3 */
-     , (11329,  1623,      2)  /* SwiftKillerSelf2 */;
+VALUES (11329,  1613,      2)  /* BloodDrinkerSelf3 */
+     , (11329,  1623,      2)  /* SwiftKillerSelf2 */
+     , (11329,   294,      2)  /* LightWeaponsMasteryOther3 */
+     , (11329,   185,      2)  /* RejuvenationOther3 */;

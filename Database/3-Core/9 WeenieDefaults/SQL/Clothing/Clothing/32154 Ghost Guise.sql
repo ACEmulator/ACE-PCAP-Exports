@@ -32,20 +32,20 @@ VALUES (32154,   1, 'Ghost Guise') /* Name */
      , (32154,  16, 'A gauzy robe that resembles a ghost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32154,   1,   33560104) /* Setup */
-     , (32154,   3,  536870932) /* SoundTable */
-     , (32154,   8,  100687704) /* Icon */
-     , (32154,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32154,   1, 0x02001628) /* Setup */
+     , (32154,   3, 0x20000014) /* SoundTable */
+     , (32154,   8, 0x06005F58) /* Icon */
+     , (32154,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32154, 8001,  270860312) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, HookType */
      , (32154, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32154, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32154, 8040, 23855555, 57.38048, -35.31297, 0.002499998, 0.008558244, 0, 0, -0.9999634) /* PCAPRecordedLocation */
+VALUES (32154, 8040, 0x016C01C3, 57.38048, -35.31297, 0.0025, 0.008558, 0, 0, -0.999963) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [57.380480 -35.312970 0.002500] 0.008558 0.000000 0.000000 -0.999963 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32154, 8000, 2219569119) /* PCAPRecordedObjectIID */;
+VALUES (32154, 8000, 0x844BEFDF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (32154, 0, 16793338)

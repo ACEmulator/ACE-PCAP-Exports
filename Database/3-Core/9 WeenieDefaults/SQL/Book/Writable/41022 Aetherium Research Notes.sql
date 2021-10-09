@@ -16,7 +16,8 @@ VALUES (41022,   1,       8192) /* ItemType - Writable */
      , (41022, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41022,  69, False) /* IsSellable */;
+VALUES (41022,  23, True ) /* DestroyOnSell */
+     , (41022,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41022,  54,       1) /* UseRadius */;
@@ -27,22 +28,22 @@ VALUES (41022,   1, 'Aetherium Research Notes') /* Name */
      , (41022,  20, 'Aetherium Research Notes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41022,   1,   33554773) /* Setup */
-     , (41022,   3,  536870932) /* SoundTable */
-     , (41022,   8,  100686468) /* Icon */
-     , (41022,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41022,   1, 0x02000155) /* Setup */
+     , (41022,   3, 0x20000014) /* SoundTable */
+     , (41022,   8, 0x06005A84) /* Icon */
+     , (41022,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41022, 8001,    2113585) /* PCAPRecordedWeenieHeader - PluralName, Usable, UseRadius, Container, Burden */
      , (41022, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (41022, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41022, 8000, 2883858668) /* PCAPRecordedObjectIID */;
+VALUES (41022, 8000, 0xABE430EC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (41022, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (41022, 0, 4294967295, 'Ned the Clever', 'Password is cheese', False, '
+VALUES (41022, 0, 4294967295, 'Ned the Clever', 'prewritten', False, '
 <A page filled with complex research notes with diagrams.>
 
 ');

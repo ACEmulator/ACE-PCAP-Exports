@@ -24,13 +24,13 @@ VALUES (3096,   1, 'Scroll of Mana Depletion Other V') /* Name */
 Decreases target''s natural mana rate by 41%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3096,   1,   33554826) /* Setup */
-     , (3096,   8,  100676939) /* Icon */
-     , (3096,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3096,   1, 0x0200018A) /* Setup */
+     , (3096,   8, 0x0600354B) /* Icon */
+     , (3096,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3096,  28,        222) /* Spell - ManaDepletionOther5 */
      , (3096, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3096, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3096, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3096, 8000, 3704814717) /* PCAPRecordedObjectIID */;
+VALUES (3096, 8000, 0xDCD2FC7D) /* PCAPRecordedObjectIID */;

@@ -21,13 +21,13 @@ VALUES (11688,   1, 'Little Green Seeds') /* Name */
      , (11688,  15, 'A few small seeds, found on a Shreth. They do not seem to have any apparent use.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11688,   1,   33557130) /* Setup */
-     , (11688,   3,  536870932) /* SoundTable */
-     , (11688,   8,  100671704) /* Icon */
-     , (11688,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11688,   1, 0x02000A8A) /* Setup */
+     , (11688,   3, 0x20000014) /* SoundTable */
+     , (11688,   8, 0x060020D8) /* Icon */
+     , (11688,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11688, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (11688, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11688, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11688, 8000, 2292821524) /* PCAPRecordedObjectIID */;
+VALUES (11688, 8000, 0x88A9AE14) /* PCAPRecordedObjectIID */;

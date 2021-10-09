@@ -24,13 +24,13 @@ VALUES (1839,   1, 'Scroll of Acid Protection Self') /* Name */
 Reduces damage the caster takes from acid by 9%') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1839,   1,   33554826) /* Setup */
-     , (1839,   8,  100676951) /* Icon */
-     , (1839,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1839,   1, 0x0200018A) /* Setup */
+     , (1839,   8, 0x06003557) /* Icon */
+     , (1839,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1839,  28,        515) /* Spell - AcidProtectionSelf1 */
      , (1839, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1839, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1839, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1839, 8000, 2624586501) /* PCAPRecordedObjectIID */;
+VALUES (1839, 8000, 0x9C700305) /* PCAPRecordedObjectIID */;

@@ -46,27 +46,24 @@ VALUES (48,   1, 'Studded Leather Coat') /* Name */
      , (48,  16, 'Studded Leather Coat') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48,   1,   33554644) /* Setup */
-     , (48,   3,  536870932) /* SoundTable */
-     , (48,   6,   67108990) /* PaletteBase */
-     , (48,   8,  100669637) /* Icon */
-     , (48,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48,   1, 0x020000D4) /* Setup */
+     , (48,   3, 0x20000014) /* SoundTable */
+     , (48,   6, 0x0400007E) /* PaletteBase */
+     , (48,   8, 0x060018C5) /* Icon */
+     , (48,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (48, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (48, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48, 8000, 3688174180) /* PCAPRecordedObjectIID */;
+VALUES (48, 8000, 0xDBD51264) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (48,  1484,      2)  /* Impenetrability4 */
-     , (48,  1527,      2)  /* FrostBane5 */
      , (48,  1551,      2)  /* FlameBane5 */
-     , (48,  1572,      2)  /* PiercingBane4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (48, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+     , (48,  1572,      2)  /* PiercingBane4 */
+     , (48,  1527,      2)  /* FrostBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48, 67110365, 72, 8)

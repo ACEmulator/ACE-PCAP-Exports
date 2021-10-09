@@ -14,21 +14,22 @@ VALUES (14424,   1,        128) /* ItemType - Misc */
      , (14424, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14424,  22, True ) /* Inscribable */;
+VALUES (14424,  22, True ) /* Inscribable */
+     , (14424,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14424,   1, 'Glass Spherule') /* Name */
      , (14424,  16, 'A Glass Spherule. A strange substance seems to be swirling inside it. You cannot divine its use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14424,   1,   33556768) /* Setup */
-     , (14424,   8,  100672464) /* Icon */
+VALUES (14424,   1, 0x02000920) /* Setup */
+     , (14424,   8, 0x060023D0) /* Icon */
      , (14424, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (14424, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14424, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14424, 8000, 2780792206) /* PCAPRecordedObjectIID */;
+VALUES (14424, 8000, 0xA5BF858E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (14424, 0, 83888861, 83893866);

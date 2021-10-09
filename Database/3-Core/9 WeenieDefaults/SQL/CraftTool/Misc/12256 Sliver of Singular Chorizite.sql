@@ -26,16 +26,16 @@ VALUES (12256,   1, 'Sliver of Singular Chorizite') /* Name */
      , (12256,  16, 'A sliver of incredibly dense Singular Chorizite, imbued with Virindi magical energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12256,   1,   33557380) /* Setup */
-     , (12256,   3,  536870932) /* SoundTable */
-     , (12256,   8,  100672200) /* Icon */
-     , (12256,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12256,   1, 0x02000B84) /* Setup */
+     , (12256,   3, 0x20000014) /* SoundTable */
+     , (12256,   8, 0x060022C8) /* Icon */
+     , (12256,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12256, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (12256, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12256, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12256, 8000, 2596951362) /* PCAPRecordedObjectIID */;
+VALUES (12256, 8000, 0x9ACA5542) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (12256, 0, 83893820, 83893819);

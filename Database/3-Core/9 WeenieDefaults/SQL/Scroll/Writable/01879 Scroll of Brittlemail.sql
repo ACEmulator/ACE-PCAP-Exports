@@ -24,13 +24,13 @@ VALUES (1879,   1, 'Scroll of Brittlemail') /* Name */
 Worsens a shield or piece of armor''s armor value by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1879,   1,   33554826) /* Setup */
-     , (1879,   8,  100676657) /* Icon */
-     , (1879,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1879,   1, 0x0200018A) /* Setup */
+     , (1879,   8, 0x06003431) /* Icon */
+     , (1879,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1879,  28,       1487) /* Spell - Brittlemail1 */
      , (1879, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1879, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1879, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1879, 8000, 2874731186) /* PCAPRecordedObjectIID */;
+VALUES (1879, 8000, 0xAB58EAB2) /* PCAPRecordedObjectIID */;

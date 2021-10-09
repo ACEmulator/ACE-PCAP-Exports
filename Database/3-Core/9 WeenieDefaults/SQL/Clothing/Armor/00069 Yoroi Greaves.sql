@@ -45,24 +45,24 @@ VALUES (69,   1, 'Yoroi Greaves') /* Name */
      , (69,  16, 'Yoroi Greaves of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (69,   1,   33554641) /* Setup */
-     , (69,   3,  536870932) /* SoundTable */
-     , (69,   6,   67108990) /* PaletteBase */
-     , (69,   8,  100669399) /* Icon */
-     , (69,  22,  872415275) /* PhysicsEffectTable */
+VALUES (69,   1, 0x020000D1) /* Setup */
+     , (69,   3, 0x20000014) /* SoundTable */
+     , (69,   6, 0x0400007E) /* PaletteBase */
+     , (69,   8, 0x060017D7) /* Icon */
+     , (69,  22, 0x3400002B) /* PhysicsEffectTable */
      , (69, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (69, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (69, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (69, 8000, 3655730160) /* PCAPRecordedObjectIID */;
+VALUES (69, 8000, 0xD9E603F0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (69,  1331,      2)  /* StrengthSelf5 */
-     , (69,  1562,      2)  /* BladeBane6 */
-     , (69,  2108,      2)  /* Impenetrability7 */
+VALUES (69,  1562,      2)  /* BladeBane6 */
      , (69,  2590,      2)  /* CANTRIPFROSTBANE2 */
-     , (69,  2618,      2)  /* CANTRIPFLAMEWARD1 */;
+     , (69,  1331,      2)  /* StrengthSelf5 */
+     , (69,  2618,      2)  /* CANTRIPFLAMEWARD1 */
+     , (69,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (69, 67110008, 136, 16);

@@ -54,17 +54,17 @@ VALUES (3880,   1, 'Frost Broad Sword') /* Name */
      , (3880,  16, 'Frost Broad Sword of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3880,   1,   33555788) /* Setup */
-     , (3880,   3,  536870932) /* SoundTable */
-     , (3880,   8,  100669022) /* Icon */
-     , (3880,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3880,   1, 0x0200054C) /* Setup */
+     , (3880,   3, 0x20000014) /* SoundTable */
+     , (3880,   8, 0x0600165E) /* Icon */
+     , (3880,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3880,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3880, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3880, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3880, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3880, 8000, 2931259149) /* PCAPRecordedObjectIID */;
+VALUES (3880, 8000, 0xAEB7770D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3880,  1615,      2)  /* BloodDrinkerSelf5 */;

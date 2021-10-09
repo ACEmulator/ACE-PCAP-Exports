@@ -30,18 +30,18 @@ VALUES (22876,   1, 'Armor Protection Gem') /* Name */
      , (22876,  15, 'A gem of armor protection') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22876,   1,   33554809) /* Setup */
-     , (22876,   3,  536870932) /* SoundTable */
-     , (22876,   6,   67111919) /* PaletteBase */
-     , (22876,   8,  100673898) /* Icon */
-     , (22876,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22876,   1, 0x02000179) /* Setup */
+     , (22876,   3, 0x20000014) /* SoundTable */
+     , (22876,   6, 0x04000BEF) /* PaletteBase */
+     , (22876,   8, 0x0600296A) /* Icon */
+     , (22876,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22876,  28,       1317) /* Spell - ArmorOther6 */
      , (22876, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (22876, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22876, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22876, 8000, 2164419485) /* PCAPRecordedObjectIID */;
+VALUES (22876, 8000, 0x81026B9D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22876, 67111924, 0, 0);

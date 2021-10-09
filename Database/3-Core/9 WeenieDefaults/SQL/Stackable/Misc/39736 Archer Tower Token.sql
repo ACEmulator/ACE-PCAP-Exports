@@ -21,18 +21,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39736,   1, 'Archer Tower Token') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39736,   1,   33556750) /* Setup */
-     , (39736,   3,  536870932) /* SoundTable */
-     , (39736,   6,   67111919) /* PaletteBase */
-     , (39736,   8,  100690334) /* Icon */
-     , (39736,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39736,   1, 0x0200090E) /* Setup */
+     , (39736,   3, 0x20000014) /* SoundTable */
+     , (39736,   6, 0x04000BEF) /* PaletteBase */
+     , (39736,   8, 0x0600699E) /* Icon */
+     , (39736,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39736, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (39736, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (39736, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (39736, 8044,       8644) /* PCAPPhysicsDIDDataTemplatedFrom - Lapyan Plant */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39736, 8000,      39736) /* PCAPRecordedObjectIID */;
+VALUES (39736, 8000, 0x00009B38) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39736, 67111926, 0, 0);

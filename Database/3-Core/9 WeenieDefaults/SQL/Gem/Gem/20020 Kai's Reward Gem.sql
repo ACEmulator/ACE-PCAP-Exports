@@ -18,23 +18,24 @@ VALUES (20020,   1,       2048) /* ItemType - Gem */
      , (20020, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20020,  22, True ) /* Inscribable */;
+VALUES (20020,  22, True ) /* Inscribable */
+     , (20020,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20020,   1, 'Kai''s Reward Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20020,   1,   33554809) /* Setup */
-     , (20020,   3,  536870932) /* SoundTable */
-     , (20020,   6,   67111919) /* PaletteBase */
-     , (20020,   8,  100673039) /* Icon */
-     , (20020,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20020,   1, 0x02000179) /* Setup */
+     , (20020,   3, 0x20000014) /* SoundTable */
+     , (20020,   6, 0x04000BEF) /* PaletteBase */
+     , (20020,   8, 0x0600260F) /* Icon */
+     , (20020,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20020, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (20020, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20020, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20020, 8000, 2282500751) /* PCAPRecordedObjectIID */;
+VALUES (20020, 8000, 0x880C328F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20020, 67111927, 0, 0);

@@ -28,6 +28,7 @@ VALUES (51859,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51859,  22, True ) /* Inscribable */
+     , (51859,  23, True ) /* DestroyOnSell */
      , (51859,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -46,22 +47,22 @@ VALUES (51859,   1, 'Rynthid Sorcerer of Rage''s Mask') /* Name */
      , (51859,  15, 'A mask crafted from the damaged mask of a Rynthid Sorcerer of Rage.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51859,   1,   33561594) /* Setup */
-     , (51859,   3,  536870932) /* SoundTable */
-     , (51859,   8,  100693223) /* Icon */
-     , (51859,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51859,   1, 0x02001BFA) /* Setup */
+     , (51859,   3, 0x20000014) /* SoundTable */
+     , (51859,   8, 0x060074E7) /* Icon */
+     , (51859,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51859, 8001,  270876816) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (51859, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51859, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51859, 8000, 2782136684) /* PCAPRecordedObjectIID */;
+VALUES (51859, 8000, 0xA5D4096C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51859,  4227,      2)  /* CANTRIPWILLPOWER3 */
-     , (51859,  4407,      2)  /* Impenetrability8 */
+     , (51859,  6105,      2)  /* CantripFocus4 */
      , (51859,  6051,      2)  /* CantripFealty4 */
-     , (51859,  6105,      2)  /* CantripFocus4 */;
+     , (51859,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (51859, 0, 16797001);

@@ -24,13 +24,13 @@ VALUES (41956,   1, 'Armor Tailoring Kit') /* Name */
      , (41956,  16, 'A Tailoring Kit used on a piece of armor to take its appearance so it may be applied to another piece of armor. This process will destroy the initial target armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41956,   1,   33555677) /* Setup */
-     , (41956,   3,  536870932) /* SoundTable */
-     , (41956,   8,  100690891) /* Icon */
-     , (41956,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41956,   1, 0x020004DD) /* Setup */
+     , (41956,   3, 0x20000014) /* SoundTable */
+     , (41956,   8, 0x06006BCB) /* Icon */
+     , (41956,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41956, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (41956, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41956, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41956, 8000, 2545892334) /* PCAPRecordedObjectIID */;
+VALUES (41956, 8000, 0x97BF3BEE) /* PCAPRecordedObjectIID */;

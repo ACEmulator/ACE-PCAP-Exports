@@ -7,12 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46941,   1,      32768) /* ItemType - Caster */
      , (46941,   5,        120) /* EncumbranceVal */
      , (46941,   9,   16777216) /* ValidLocations - Held */
-     , (46941,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (46941,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (46941,  18,        256) /* UiEffects - Acid */
      , (46941,  19,       4000) /* Value */
      , (46941,  33,          1) /* Bonded - Bonded */
      , (46941,  45,         32) /* DamageType - Acid */
+     , (46941,  46,        512) /* DefaultCombatStyle - Magic */
      , (46941,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46941,  94,         16) /* TargetType - Creature */
      , (46941, 106,        400) /* ItemSpellcraft */
@@ -30,6 +30,7 @@ VALUES (46941,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46941,  22, True ) /* Inscribable */
+     , (46941,  23, True ) /* DestroyOnSell */
      , (46941,  69, False) /* IsSellable */
      , (46941,  99, True ) /* Ivoryable */;
 
@@ -46,11 +47,11 @@ VALUES (46941,   1, 'Modified Taulandoi') /* Name */
      , (46941,  15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46941,   1,   33557963) /* Setup */
-     , (46941,   3,  536870932) /* SoundTable */
-     , (46941,   6,   67111919) /* PaletteBase */
-     , (46941,   8,  100673490) /* Icon */
-     , (46941,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46941,   1, 0x02000DCB) /* Setup */
+     , (46941,   3, 0x20000014) /* SoundTable */
+     , (46941,   6, 0x04000BEF) /* PaletteBase */
+     , (46941,   8, 0x060027D2) /* Icon */
+     , (46941,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46941,  28,       2781) /* Spell - LesserElementalFuryAcid */
      , (46941, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (46941, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -58,12 +59,12 @@ VALUES (46941,   1,   33557963) /* Setup */
      , (46941, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46941, 8040, 19202342, 30.025, -60, 5.929, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (46941, 8040, 0x01250126, 30.025, -60, 5.929, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x01250126 [30.025000 -60.000000 5.929000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46941, 8000, 3333322247) /* PCAPRecordedObjectIID */
-     , (46941, 8008, 1342592689) /* PCAPRecordedParentIID */;
+VALUES (46941, 8000, 0xC6AE7607) /* PCAPRecordedObjectIID */
+     , (46941, 8008, 0x500656B1) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46941,  4637,      2)  /* WarMagicMasteryOther8 */

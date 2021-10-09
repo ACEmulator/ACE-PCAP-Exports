@@ -27,17 +27,17 @@ VALUES (31198,   1, 'Potion of Healing') /* Name */
      , (31198,  20, 'Potions of Healing') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31198,   1,   33554603) /* Setup */
-     , (31198,   3,  536870932) /* SoundTable */
-     , (31198,   6,   67111919) /* PaletteBase */
-     , (31198,   8,  100676310) /* Icon */
-     , (31198,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31198,   1, 0x020000AB) /* Setup */
+     , (31198,   3, 0x20000014) /* SoundTable */
+     , (31198,   6, 0x04000BEF) /* PaletteBase */
+     , (31198,   8, 0x060032D6) /* Icon */
+     , (31198,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31198, 8001,  270561297) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (31198, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (31198, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31198, 8000, 3687619999) /* PCAPRecordedObjectIID */;
+VALUES (31198, 8000, 0xDBCC9D9F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31198, 67111922, 0, 0);

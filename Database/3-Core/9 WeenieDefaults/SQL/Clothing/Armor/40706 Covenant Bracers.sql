@@ -50,18 +50,18 @@ VALUES (40706,   1, 'Covenant Bracers') /* Name */
      , (40706,  16, 'Covenant Bracers') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40706,   1,   33554641) /* Setup */
-     , (40706,   3,  536870932) /* SoundTable */
-     , (40706,   6,   67108990) /* PaletteBase */
-     , (40706,   8,  100673384) /* Icon */
-     , (40706,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40706,   1, 0x020000D1) /* Setup */
+     , (40706,   3, 0x20000014) /* SoundTable */
+     , (40706,   6, 0x0400007E) /* PaletteBase */
+     , (40706,   8, 0x06002768) /* Icon */
+     , (40706,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40706,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (40706, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40706, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40706, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40706, 8000, 3699121772) /* PCAPRecordedObjectIID */;
+VALUES (40706, 8000, 0xDC7C1E6C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40706,  1486,      2)  /* Impenetrability6 */

@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2823,   1, 'Scroll of Frost Bane III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2823,   1,   33554826) /* Setup */
-     , (2823,   8,  100676652) /* Icon */
-     , (2823,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2823,   1, 0x0200018A) /* Setup */
+     , (2823,   8, 0x0600342C) /* Icon */
+     , (2823,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2823,  28,       1525) /* Spell - FrostBane3 */
      , (2823, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2823, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2823, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2823, 8000, 3358092618) /* PCAPRecordedObjectIID */;
+VALUES (2823, 8000, 0xC8286D4A) /* PCAPRecordedObjectIID */;

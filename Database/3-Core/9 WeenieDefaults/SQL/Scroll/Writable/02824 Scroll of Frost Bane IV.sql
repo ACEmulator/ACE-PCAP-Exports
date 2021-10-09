@@ -24,17 +24,17 @@ VALUES (2824,   1, 'Scroll of Frost Bane IV') /* Name */
 Increases a shield or piece of armor''s resistance to cold damage by 75%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2824,   1,   33554826) /* Setup */
-     , (2824,   8,  100676652) /* Icon */
-     , (2824,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2824,   1, 0x0200018A) /* Setup */
+     , (2824,   8, 0x0600342C) /* Icon */
+     , (2824,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2824,  28,       1526) /* Spell - FrostBane4 */
      , (2824, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (2824, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2824, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2824, 8040, 3562209536, 97.95894, 48.5843, 34.8855, -0.931491, 0, 0, -0.363764) /* PCAPRecordedLocation */
+VALUES (2824, 8040, 0xD4530100, 97.95894, 48.5843, 34.8855, -0.931491, 0, 0, -0.363764) /* PCAPRecordedLocation */
 /* @teleloc 0xD4530100 [97.958940 48.584300 34.885500] -0.931491 0.000000 0.000000 -0.363764 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2824, 8000, 2930227117) /* PCAPRecordedObjectIID */;
+VALUES (2824, 8000, 0xAEA7B7AD) /* PCAPRecordedObjectIID */;

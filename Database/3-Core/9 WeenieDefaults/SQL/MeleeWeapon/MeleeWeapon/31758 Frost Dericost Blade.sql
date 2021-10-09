@@ -54,23 +54,23 @@ VALUES (31758,   1, 'Frost Dericost Blade') /* Name */
      , (31758,  16, 'Frost Dericost Blade of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31758,   1,   33559634) /* Setup */
-     , (31758,   3,  536870932) /* SoundTable */
-     , (31758,   6,   67116700) /* PaletteBase */
-     , (31758,   8,  100688005) /* Icon */
-     , (31758,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31758,   1, 0x02001452) /* Setup */
+     , (31758,   3, 0x20000014) /* SoundTable */
+     , (31758,   6, 0x04001E9C) /* PaletteBase */
+     , (31758,   8, 0x06006085) /* Icon */
+     , (31758,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31758,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (31758, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31758, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31758, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31758, 8000, 3690108698) /* PCAPRecordedObjectIID */;
+VALUES (31758, 8000, 0xDBF2971A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31758,  1605,      2)  /* DefenderSelf6 */
-     , (31758,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (31758,  2519,      2)  /* CANTRIPLEADERSHIP2 */;
+     , (31758,  2519,      2)  /* CANTRIPLEADERSHIP2 */
+     , (31758,  2096,      2)  /* BloodDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31758, 67116700, 1, 100)

@@ -24,23 +24,23 @@ VALUES (24961,   1, 'Olthoi Eviscerator Grub') /* Name */
      , (24961, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24961,   1,   33558333) /* Setup */
-     , (24961,   2,  150995238) /* MotionTable */
-     , (24961,   3,  536871068) /* SoundTable */
-     , (24961,   6,   67114236) /* PaletteBase */
-     , (24961,   8,  100674298) /* Icon */
-     , (24961,  22,  872415396) /* PhysicsEffectTable */
+VALUES (24961,   1, 0x02000F3D) /* Setup */
+     , (24961,   2, 0x09000126) /* MotionTable */
+     , (24961,   3, 0x2000009C) /* SoundTable */
+     , (24961,   6, 0x040014FC) /* PaletteBase */
+     , (24961,   8, 0x06002AFA) /* Icon */
+     , (24961,  22, 0x340000A4) /* PhysicsEffectTable */
      , (24961,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24961, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24961, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24961, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24961, 8040, 1615397122, 660.91, -45.9938, -53.99395, -0.3688929, 0, 0, -0.9294719) /* PCAPRecordedLocation */
+VALUES (24961, 8040, 0x60490102, 660.91, -45.9938, -53.99395, -0.368893, 0, 0, -0.929472) /* PCAPRecordedLocation */
 /* @teleloc 0x60490102 [660.910000 -45.993800 -53.993950] -0.368893 0.000000 0.000000 -0.929472 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24961, 8000, 3710237882) /* PCAPRecordedObjectIID */;
+VALUES (24961, 8000, 0xDD25BCBA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24961, 67114234, 0, 0);

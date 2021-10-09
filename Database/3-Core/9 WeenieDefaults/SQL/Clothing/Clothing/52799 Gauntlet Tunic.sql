@@ -26,6 +26,7 @@ VALUES (52799,   1,          4) /* ItemType - Clothing */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52799,  22, True ) /* Inscribable */
+     , (52799,  23, True ) /* DestroyOnSell */
      , (52799,  69, False) /* IsSellable */
      , (52799,  99, True ) /* Ivoryable */
      , (52799, 100, True ) /* Dyable */;
@@ -46,21 +47,21 @@ VALUES (52799,   1, 'Gauntlet Tunic') /* Name */
      , (52799,  16, 'One piece of the Gauntlet Garb Set.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52799,   1,   33554854) /* Setup */
-     , (52799,   3,  536870932) /* SoundTable */
-     , (52799,   6,   67108990) /* PaletteBase */
-     , (52799,   8,  100685815) /* Icon */
-     , (52799,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52799,   1, 0x020001A6) /* Setup */
+     , (52799,   3, 0x20000014) /* SoundTable */
+     , (52799,   6, 0x0400007E) /* PaletteBase */
+     , (52799,   8, 0x060057F7) /* Icon */
+     , (52799,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52799, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (52799, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52799, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52799, 8000, 3318001674) /* PCAPRecordedObjectIID */;
+VALUES (52799, 8000, 0xC5C4B00A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52799,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
-     , (52799,  6103,      2)  /* CantripCoordination4 */;
+VALUES (52799,  6103,      2)  /* CantripCoordination4 */
+     , (52799,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52799, 67115935, 40, 24);

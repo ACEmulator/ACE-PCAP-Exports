@@ -20,13 +20,13 @@ VALUES (28888,   1, 'Chittick Head') /* Name */
      , (28888,  15, 'The stench emanating from this Chittick head is overwhelming.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28888,   1,   33559014) /* Setup */
-     , (28888,   3,  536870932) /* SoundTable */
-     , (28888,   8,  100677103) /* Icon */
-     , (28888,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28888,   1, 0x020011E6) /* Setup */
+     , (28888,   3, 0x20000014) /* SoundTable */
+     , (28888,   8, 0x060035EF) /* Icon */
+     , (28888,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28888, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (28888, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28888, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28888, 8000, 2629164068) /* PCAPRecordedObjectIID */;
+VALUES (28888, 8000, 0x9CB5DC24) /* PCAPRecordedObjectIID */;

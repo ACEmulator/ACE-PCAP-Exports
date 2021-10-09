@@ -25,22 +25,22 @@ VALUES (34970,   1, 'Falatacot Prison Warden') /* Name */
      , (34970, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34970,   1,   33558436) /* Setup */
-     , (34970,   2,  150994967) /* MotionTable */
-     , (34970,   3,  536870934) /* SoundTable */
-     , (34970,   6,   67114480) /* PaletteBase */
-     , (34970,   8,  100674805) /* Icon */
-     , (34970,  22,  872415272) /* PhysicsEffectTable */
+VALUES (34970,   1, 0x02000FA4) /* Setup */
+     , (34970,   2, 0x09000017) /* MotionTable */
+     , (34970,   3, 0x20000016) /* SoundTable */
+     , (34970,   6, 0x040015F0) /* PaletteBase */
+     , (34970,   8, 0x06002CF5) /* Icon */
+     , (34970,  22, 0x34000028) /* PhysicsEffectTable */
      , (34970, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (34970, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (34970, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34970, 8040, 7078338, 201.463, -68.0795, -17.99025, -0.6856039, 0, 0, -0.7279748) /* PCAPRecordedLocation */
+VALUES (34970, 8040, 0x006C01C2, 201.463, -68.0795, -17.99025, -0.685604, 0, 0, -0.727975) /* PCAPRecordedLocation */
 /* @teleloc 0x006C01C2 [201.463000 -68.079500 -17.990250] -0.685604 0.000000 0.000000 -0.727975 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34970, 8000, 3707242521) /* PCAPRecordedObjectIID */;
+VALUES (34970, 8000, 0xDCF80819) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (34970,   1,     0, 0, 0, 2505) /* MaxHealth */;

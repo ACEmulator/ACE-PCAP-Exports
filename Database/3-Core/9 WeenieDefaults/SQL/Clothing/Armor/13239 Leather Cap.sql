@@ -18,7 +18,8 @@ VALUES (13239,   1,          2) /* ItemType - Armor */
      , (13239, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13239,  22, True ) /* Inscribable */;
+VALUES (13239,  22, True ) /* Inscribable */
+     , (13239,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (13239,  13,       1) /* ArmorModVsSlash */
@@ -35,21 +36,21 @@ VALUES (13239,   1, 'Leather Cap') /* Name */
      , (13239,  16, 'This item is attuned. As such, it cannot be given away. The only way to get rid of an attuned item is to give it to a Town Crier.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13239,   1,   33554643) /* Setup */
-     , (13239,   3,  536870932) /* SoundTable */
-     , (13239,   6,   67108990) /* PaletteBase */
-     , (13239,   8,  100668247) /* Icon */
-     , (13239,  22,  872415275) /* PhysicsEffectTable */
+VALUES (13239,   1, 0x020000D3) /* Setup */
+     , (13239,   3, 0x20000014) /* SoundTable */
+     , (13239,   6, 0x0400007E) /* PaletteBase */
+     , (13239,   8, 0x06001357) /* Icon */
+     , (13239,  22, 0x3400002B) /* PhysicsEffectTable */
      , (13239, 8001,  270860304) /* PCAPRecordedWeenieHeader - Usable, ValidLocations, Priority, Burden, HookType */
      , (13239, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (13239, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13239, 8040, 2248343990, 22.2098, -40.2234, 0.67375, 0.102269, 0, 0, -0.994757) /* PCAPRecordedLocation */
+VALUES (13239, 8040, 0x860301B6, 22.2098, -40.2234, 0.67375, 0.102269, 0, 0, -0.994757) /* PCAPRecordedLocation */
 /* @teleloc 0x860301B6 [22.209800 -40.223400 0.673750] 0.102269 0.000000 0.000000 -0.994757 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13239, 8000, 3692405581) /* PCAPRecordedObjectIID */;
+VALUES (13239, 8000, 0xDC15A34D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (13239, 67110375, 250, 6);

@@ -28,16 +28,16 @@ VALUES (22448,   1, 'Treated Mandrake') /* Name */
      , (22448,  20, 'Bundles of Mandrake') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22448,   1,   33554817) /* Setup */
-     , (22448,   3,  536870932) /* SoundTable */
-     , (22448,   8,  100673804) /* Icon */
-     , (22448,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22448,   1, 0x02000181) /* Setup */
+     , (22448,   3, 0x20000014) /* SoundTable */
+     , (22448,   8, 0x0600290C) /* Icon */
+     , (22448,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22448, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (22448, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (22448, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22448, 8000, 2461517321) /* PCAPRecordedObjectIID */;
+VALUES (22448, 8000, 0x92B7C609) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (22448, 0, 83890064, 83889696);

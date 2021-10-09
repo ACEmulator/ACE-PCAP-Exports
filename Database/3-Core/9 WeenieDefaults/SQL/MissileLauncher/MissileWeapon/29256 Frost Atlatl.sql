@@ -15,7 +15,7 @@ VALUES (29256,   1,        256) /* ItemType - MissileWeapon */
      , (29256,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29256,  49,         18) /* WeaponTime */
      , (29256,  50,          4) /* AmmoType - Atlatl */
-     , (29256,  51,          2) /* CombatUse - Missle */
+     , (29256,  51,          2) /* CombatUse - Missile */
      , (29256,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29256, 105,          7) /* ItemWorkmanship */
      , (29256, 106,        370) /* ItemSpellcraft */
@@ -55,24 +55,24 @@ VALUES (29256,   1, 'Frost Atlatl') /* Name */
      , (29256,  16, 'Frost Atlatl of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29256,   1,   33559243) /* Setup */
-     , (29256,   3,  536870932) /* SoundTable */
-     , (29256,   6,   67115373) /* PaletteBase */
-     , (29256,   8,  100677455) /* Icon */
-     , (29256,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29256,   1, 0x020012CB) /* Setup */
+     , (29256,   3, 0x20000014) /* SoundTable */
+     , (29256,   6, 0x0400196D) /* PaletteBase */
+     , (29256,   8, 0x0600374F) /* Icon */
+     , (29256,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29256,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (29256, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (29256, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29256, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29256, 8000, 3679525723) /* PCAPRecordedObjectIID */;
+VALUES (29256, 8000, 0xDB511B5B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29256,  2059,      2)  /* CoordinationSelf7 */
-     , (29256,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (29256,  5890,      2)  /* CantripRecklessnessProwess2 */
+     , (29256,  2059,      2)  /* CoordinationSelf7 */
      , (29256,  4400,      2)  /* DefenderSelf8 */
-     , (29256,  5890,      2)  /* CantripRecklessnessProwess2 */;
+     , (29256,  2096,      2)  /* BloodDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29256, 67115374, 0, 0);

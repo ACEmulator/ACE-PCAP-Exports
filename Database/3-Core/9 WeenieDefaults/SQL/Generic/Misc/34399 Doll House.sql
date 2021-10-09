@@ -24,17 +24,17 @@ VALUES (34399,   1, 'Doll House') /* Name */
      , (34399,  16, 'A simple doll house crafted like the ones back on Ispar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34399,   1,   33560158) /* Setup */
-     , (34399,   3,  536870932) /* SoundTable */
-     , (34399,   8,  100689310) /* Icon */
-     , (34399,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34399,   1, 0x0200165E) /* Setup */
+     , (34399,   3, 0x20000014) /* SoundTable */
+     , (34399,   8, 0x0600659E) /* Icon */
+     , (34399,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34399, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
      , (34399, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34399, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34399, 8040, 19202318, 27.93727, -28.92978, 0.07054651, 0.7942539, 0, 0, -0.607586) /* PCAPRecordedLocation */
+VALUES (34399, 8040, 0x0125010E, 27.93727, -28.92978, 0.070547, 0.794254, 0, 0, -0.607586) /* PCAPRecordedLocation */
 /* @teleloc 0x0125010E [27.937270 -28.929780 0.070547] 0.794254 0.000000 0.000000 -0.607586 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34399, 8000, 2880567404) /* PCAPRecordedObjectIID */;
+VALUES (34399, 8000, 0xABB1F86C) /* PCAPRecordedObjectIID */;

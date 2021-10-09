@@ -15,6 +15,9 @@ VALUES (23517,   1,       8192) /* ItemType - Writable */
      , (23517, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (23517, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (23517,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23517,  54,       1) /* UseRadius */;
 
@@ -23,17 +26,17 @@ VALUES (23517,   1, 'A Note from Tamian Wilmot') /* Name */
      , (23517,  16, 'A note left by Tamian Wilmot.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23517,   1,   33558173) /* Setup */
-     , (23517,   3,  536870932) /* SoundTable */
-     , (23517,   8,  100674008) /* Icon */
-     , (23517,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23517,   1, 0x02000E9D) /* Setup */
+     , (23517,   3, 0x20000014) /* SoundTable */
+     , (23517,   8, 0x060029D8) /* Icon */
+     , (23517,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23517, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (23517, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (23517, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23517, 8040, 2840789021, 83.702, 107.111, 148.624, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (23517, 8040, 0xA953001D, 83.702, 107.111, 148.624, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xA953001D [83.702000 107.111000 148.624000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23517, 8000, 3326987374) /* PCAPRecordedObjectIID */;
+VALUES (23517, 8000, 0xC64DCC6E) /* PCAPRecordedObjectIID */;

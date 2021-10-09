@@ -18,23 +18,24 @@ VALUES (12709,   1,       2048) /* ItemType - Gem */
      , (12709, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12709,  22, True ) /* Inscribable */;
+VALUES (12709,  22, True ) /* Inscribable */
+     , (12709,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12709,   1, 'Academy Token') /* Name */
      , (12709,  15, 'A brass token stamped with the sigil of the Explorer Society''s Training Academy. Return this item to the Training Master in the Practice Area.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12709,   1,   33557280) /* Setup */
-     , (12709,   3,  536870932) /* SoundTable */
-     , (12709,   8,  100672371) /* Icon */
-     , (12709,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12709,   1, 0x02000B20) /* Setup */
+     , (12709,   3, 0x20000014) /* SoundTable */
+     , (12709,   8, 0x06002373) /* Icon */
+     , (12709,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12709, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (12709, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12709, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12709, 8000, 3692635264) /* PCAPRecordedObjectIID */;
+VALUES (12709, 8000, 0xDC192480) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (12709, 0, 83893723, 83893850)

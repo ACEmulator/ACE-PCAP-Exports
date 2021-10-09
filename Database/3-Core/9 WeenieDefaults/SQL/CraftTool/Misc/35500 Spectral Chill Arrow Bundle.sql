@@ -19,7 +19,8 @@ VALUES (35500,   1,        128) /* ItemType - Misc */
      , (35500, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35500,  69, False) /* IsSellable */;
+VALUES (35500,  23, True ) /* DestroyOnSell */
+     , (35500,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35500,  39,    0.38) /* DefaultScale */;
@@ -29,13 +30,13 @@ VALUES (35500,   1, 'Spectral Chill Arrow Bundle') /* Name */
      , (35500,  16, 'Open the bundle to create a stack of 5000 Spectral Chill Arrows. Striking with the cold of the grave, these arrows are very light and cause 28.3 to 40 frost damage. Your base Bow skill must be at least 270 to use these arrows.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35500,   1,   33555961) /* Setup */
-     , (35500,   3,  536870932) /* SoundTable */
-     , (35500,   8,  100689514) /* Icon */
-     , (35500,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35500,   1, 0x020005F9) /* Setup */
+     , (35500,   3, 0x20000014) /* SoundTable */
+     , (35500,   8, 0x0600666A) /* Icon */
+     , (35500,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35500, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (35500, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35500, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35500, 8000, 2220296593) /* PCAPRecordedObjectIID */;
+VALUES (35500, 8000, 0x84570991) /* PCAPRecordedObjectIID */;

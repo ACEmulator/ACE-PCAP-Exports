@@ -15,6 +15,9 @@ VALUES (5060,   1,       8192) /* ItemType - Writable */
      , (5060, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (5060, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (5060,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5060,  54,       1) /* UseRadius */;
 
@@ -23,22 +26,22 @@ VALUES (5060,   1, 'Writings') /* Name */
      , (5060,  16, 'Jhong Mi''s philosophical musings, hastily written on paper.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5060,   1,   33554773) /* Setup */
-     , (5060,   3,  536870932) /* SoundTable */
-     , (5060,   8,  100668176) /* Icon */
-     , (5060,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5060,   1, 0x02000155) /* Setup */
+     , (5060,   3, 0x20000014) /* SoundTable */
+     , (5060,   8, 0x06001310) /* Icon */
+     , (5060,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5060, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (5060, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (5060, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5060, 8000, 2779768959) /* PCAPRecordedObjectIID */;
+VALUES (5060, 8000, 0xA5AFE87F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5060, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5060, 0, 4294967295, 'Jhong Mi', 'Password is cheese', False, '
+VALUES (5060, 0, 4294967295, 'Jhong Mi', 'prewritten', False, '
 If the mad spinning of the dust devils
 Yields nothing
 Creates nothing

@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45786,   1, 'Geraine''s Decaying Heart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45786,   1,   33554817) /* Setup */
-     , (45786,   3,  536870932) /* SoundTable */
-     , (45786,   8,  100692627) /* Icon */
-     , (45786,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45786,   1, 0x02000181) /* Setup */
+     , (45786,   3, 0x20000014) /* SoundTable */
+     , (45786,   8, 0x06007293) /* Icon */
+     , (45786,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45786, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (45786, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45786, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45786, 8000, 2883347835) /* PCAPRecordedObjectIID */;
+VALUES (45786, 8000, 0xABDC657B) /* PCAPRecordedObjectIID */;

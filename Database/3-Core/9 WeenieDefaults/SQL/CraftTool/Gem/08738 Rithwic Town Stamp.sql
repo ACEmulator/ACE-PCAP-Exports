@@ -19,7 +19,8 @@ VALUES (8738,   1,       2048) /* ItemType - Gem */
      , (8738, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8738,  22, True ) /* Inscribable */;
+VALUES (8738,  22, True ) /* Inscribable */
+     , (8738,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8738,  39,       3) /* DefaultScale */;
@@ -30,13 +31,13 @@ VALUES (8738,   1, 'Rithwic Town Stamp') /* Name */
      , (8738,  16, 'A town stamp of Rithwic to be used on any Red or Gold Letters you come across.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8738,   1,   33556922) /* Setup */
-     , (8738,   3,  536870932) /* SoundTable */
-     , (8738,   8,  100671218) /* Icon */
-     , (8738,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8738,   1, 0x020009BA) /* Setup */
+     , (8738,   3, 0x20000014) /* SoundTable */
+     , (8738,   8, 0x06001EF2) /* Icon */
+     , (8738,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8738, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (8738, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8738, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8738, 8000, 3282055357) /* PCAPRecordedObjectIID */;
+VALUES (8738, 8000, 0xC3A030BD) /* PCAPRecordedObjectIID */;

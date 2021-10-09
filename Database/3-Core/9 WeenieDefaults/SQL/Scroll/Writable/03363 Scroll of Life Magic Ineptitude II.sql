@@ -24,13 +24,13 @@ VALUES (3363,   1, 'Scroll of Life Magic Ineptitude II') /* Name */
 Decreases the target''s Life Magic skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3363,   1,   33554826) /* Setup */
-     , (3363,   8,  100676462) /* Icon */
-     , (3363,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3363,   1, 0x0200018A) /* Setup */
+     , (3363,   8, 0x0600336E) /* Icon */
+     , (3363,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3363,  28,        624) /* Spell - LifeMagicIneptitudeOther2 */
      , (3363, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3363, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3363, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3363, 8000, 2264331465) /* PCAPRecordedObjectIID */;
+VALUES (3363, 8000, 0x86F6F4C9) /* PCAPRecordedObjectIID */;

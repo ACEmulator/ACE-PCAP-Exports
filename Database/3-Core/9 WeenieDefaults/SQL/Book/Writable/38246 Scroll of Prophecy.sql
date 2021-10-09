@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38246,   1, 'Scroll of Prophecy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38246,   1,   33554776) /* Setup */
-     , (38246,   3,  536870932) /* SoundTable */
-     , (38246,   8,  100668176) /* Icon */
-     , (38246,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38246,   1, 0x02000158) /* Setup */
+     , (38246,   3, 0x20000014) /* SoundTable */
+     , (38246,   8, 0x06001310) /* Icon */
+     , (38246,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38246, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (38246, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (38246, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38246, 8000, 2258686844) /* PCAPRecordedObjectIID */;
+VALUES (38246, 8000, 0x86A0D37C) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (1550,   1, 'Scroll of Armor Self') /* Name */
 Increases the caster''s natural armor by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1550,   1,   33554826) /* Setup */
-     , (1550,   8,  100676928) /* Icon */
-     , (1550,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1550,   1, 0x0200018A) /* Setup */
+     , (1550,   8, 0x06003540) /* Icon */
+     , (1550,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1550,  28,         24) /* Spell - ArmorSelf1 */
      , (1550, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1550, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1550, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1550, 8000, 2624668727) /* PCAPRecordedObjectIID */;
+VALUES (1550, 8000, 0x9C714437) /* PCAPRecordedObjectIID */;

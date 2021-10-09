@@ -24,13 +24,13 @@ VALUES (45081,   1, 'Bag of Gumdrops') /* Name */
      , (45081,  16, 'A bag of delicious gumdrops') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45081,   1,   33561405) /* Setup */
-     , (45081,   3,  536870932) /* SoundTable */
-     , (45081,   8,  100692220) /* Icon */
-     , (45081,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45081,   1, 0x02001B3D) /* Setup */
+     , (45081,   3, 0x20000014) /* SoundTable */
+     , (45081,   8, 0x060070FC) /* Icon */
+     , (45081,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45081, 8001,    2637848) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden */
      , (45081, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45081, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45081, 8000, 2214752884) /* PCAPRecordedObjectIID */;
+VALUES (45081, 8000, 0x84027274) /* PCAPRecordedObjectIID */;

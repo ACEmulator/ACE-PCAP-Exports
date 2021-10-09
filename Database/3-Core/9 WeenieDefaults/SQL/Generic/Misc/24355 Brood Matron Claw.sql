@@ -14,7 +14,8 @@ VALUES (24355,   1,        128) /* ItemType - Misc */
      , (24355, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24355,  22, True ) /* Inscribable */;
+VALUES (24355,  22, True ) /* Inscribable */
+     , (24355,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24355,  39,     0.5) /* DefaultScale */;
@@ -24,13 +25,13 @@ VALUES (24355,   1, 'Brood Matron Claw') /* Name */
      , (24355,  16, 'This claw is only the tip of a Brood Matron pincer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24355,   1,   33554817) /* Setup */
-     , (24355,   3,  536870932) /* SoundTable */
-     , (24355,   8,  100674330) /* Icon */
-     , (24355,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24355,   1, 0x02000181) /* Setup */
+     , (24355,   3, 0x20000014) /* SoundTable */
+     , (24355,   8, 0x06002B1A) /* Icon */
+     , (24355,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24355, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (24355, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24355, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24355, 8000, 2157273662) /* PCAPRecordedObjectIID */;
+VALUES (24355, 8000, 0x8095623E) /* PCAPRecordedObjectIID */;

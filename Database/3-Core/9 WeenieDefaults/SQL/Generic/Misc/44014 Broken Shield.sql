@@ -15,7 +15,8 @@ VALUES (44014,   1,        128) /* ItemType - Misc */
      , (44014, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44014,  69, False) /* IsSellable */
+VALUES (44014,  23, True ) /* DestroyOnSell */
+     , (44014,  69, False) /* IsSellable */
      , (44014,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -24,13 +25,13 @@ VALUES (44014,   1, 'Broken Shield') /* Name */
      , (44014,  16, 'A broken shield, bearing the heraldry of Prince Borelean.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44014,   1,   33560949) /* Setup */
-     , (44014,   3,  536870932) /* SoundTable */
-     , (44014,   8,  100690971) /* Icon */
-     , (44014,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44014,   1, 0x02001975) /* Setup */
+     , (44014,   3, 0x20000014) /* SoundTable */
+     , (44014,   8, 0x06006C1B) /* Icon */
+     , (44014,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44014, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (44014, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44014, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44014, 8000, 2151302157) /* PCAPRecordedObjectIID */;
+VALUES (44014, 8000, 0x803A440D) /* PCAPRecordedObjectIID */;

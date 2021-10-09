@@ -27,18 +27,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51456,   1, 'Olthoi Sword') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51456,   1,   33556589) /* Setup */
-     , (51456,   3,  536870932) /* SoundTable */
-     , (51456,   6,   67109311) /* PaletteBase */
-     , (51456,   8,  100670666) /* Icon */
-     , (51456,  22,  872415275) /* PhysicsEffectTable */
-     , (51456,  50,  100667895) /* IconOverlay */
+VALUES (51456,   1, 0x0200086D) /* Setup */
+     , (51456,   3, 0x20000014) /* SoundTable */
+     , (51456,   6, 0x040001BF) /* PaletteBase */
+     , (51456,   8, 0x06001CCA) /* Icon */
+     , (51456,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51456,  50, 0x060011F7) /* IconOverlay */
      , (51456, 8001, 1344827416) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType, IconOverlay */
      , (51456, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51456, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51456, 8000, 2906380979) /* PCAPRecordedObjectIID */;
+VALUES (51456, 8000, 0xAD3BDAB3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51456, 67111335, 0, 0);

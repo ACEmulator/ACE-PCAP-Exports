@@ -47,21 +47,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28494,   1, 'Noble Katar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28494,   1,   33558865) /* Setup */
-     , (28494,   3,  536870932) /* SoundTable */
-     , (28494,   8,  100676979) /* Icon */
-     , (28494,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28494,   1, 0x02001151) /* Setup */
+     , (28494,   3, 0x20000014) /* SoundTable */
+     , (28494,   8, 0x06003573) /* Icon */
+     , (28494,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28494, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (28494, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28494, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28494, 8000, 3042617200) /* PCAPRecordedObjectIID */;
+VALUES (28494, 8000, 0xB55AA770) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28494,   243,      2)  /* InvulnerabilityOther5 */
+VALUES (28494,  1604,      2)  /* DefenderSelf5 */
      , (28494,  1359,      2)  /* EnduranceOther5 */
-     , (28494,  1591,      2)  /* HeartSeekerSelf5 */
-     , (28494,  1604,      2)  /* DefenderSelf5 */
      , (28494,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (28494,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (28494,  1625,      2)  /* SwiftKillerSelf4 */
+     , (28494,   243,      2)  /* InvulnerabilityOther5 */
+     , (28494,  1591,      2)  /* HeartSeekerSelf5 */;

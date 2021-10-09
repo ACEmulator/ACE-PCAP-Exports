@@ -24,13 +24,13 @@ VALUES (3462,   1, 'Scroll of Person Unfamiliarity VI') /* Name */
 Decreases the target''s Assess Person skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3462,   1,   33554826) /* Setup */
-     , (3462,   8,  100676448) /* Icon */
-     , (3462,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3462,   1, 0x0200018A) /* Setup */
+     , (3462,   8, 0x06003360) /* Icon */
+     , (3462,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3462,  28,        848) /* Spell - PersonUnfamiliarityOther6 */
      , (3462, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3462, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3462, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3462, 8000, 3710575157) /* PCAPRecordedObjectIID */;
+VALUES (3462, 8000, 0xDD2AE235) /* PCAPRecordedObjectIID */;

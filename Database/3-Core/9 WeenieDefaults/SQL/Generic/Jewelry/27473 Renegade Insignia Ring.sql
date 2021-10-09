@@ -33,18 +33,18 @@ VALUES (27473,   1, 'Renegade Insignia Ring') /* Name */
      , (27473,  16, 'A ring crafted for use by Commander Kamenua of the Renegade army.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27473,   1,   33554690) /* Setup */
-     , (27473,   3,  536870932) /* SoundTable */
-     , (27473,   8,  100676424) /* Icon */
-     , (27473,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27473,   1, 0x02000102) /* Setup */
+     , (27473,   3, 0x20000014) /* SoundTable */
+     , (27473,   8, 0x06003348) /* Icon */
+     , (27473,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27473, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (27473, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27473, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27473, 8000, 2978131439) /* PCAPRecordedObjectIID */;
+VALUES (27473, 8000, 0xB182ADEF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27473,   466,      2)  /* BowMasteryOther6 */
-     , (27473,   568,      2)  /* CreatureEnchantmentMasteryOther6 */
-     , (27473,  1317,      2)  /* ArmorOther6 */;
+VALUES (27473,   466,      2)  /* MissileWeaponsMasteryOther6 */
+     , (27473,  1317,      2)  /* ArmorOther6 */
+     , (27473,   568,      2)  /* CreatureEnchantmentMasteryOther6 */;

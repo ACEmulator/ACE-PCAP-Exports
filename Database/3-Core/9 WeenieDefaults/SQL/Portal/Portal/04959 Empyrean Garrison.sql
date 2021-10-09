@@ -21,16 +21,16 @@ VALUES (4959,   1, 'Empyrean Garrison') /* Name */
      , (4959, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4959,   1,   33555922) /* Setup */
-     , (4959,   2,  150994947) /* MotionTable */
-     , (4959,   8,  100667499) /* Icon */
+VALUES (4959,   1, 0x020005D2) /* Setup */
+     , (4959,   2, 0x09000003) /* MotionTable */
+     , (4959,   8, 0x0600106B) /* Icon */
      , (4959, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (4959, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (4959, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4959, 8040, 3845849346, 139.597, 108.896, 96.737, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (4959, 8040, 0xE53B0102, 139.597, 108.896, 96.737, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xE53B0102 [139.597000 108.896000 96.737000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4959, 8000, 2119413764) /* PCAPRecordedObjectIID */;
+VALUES (4959, 8000, 0x7E53B004) /* PCAPRecordedObjectIID */;

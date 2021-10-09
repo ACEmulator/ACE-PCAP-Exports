@@ -22,16 +22,16 @@ VALUES (12522,   1, 'Mosswart Place Cottages Portal') /* Name */
      , (12522, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12522,   1,   33554867) /* Setup */
-     , (12522,   2,  150994947) /* MotionTable */
-     , (12522,   8,  100667499) /* Icon */
+VALUES (12522,   1, 0x020001B3) /* Setup */
+     , (12522,   2, 0x09000003) /* MotionTable */
+     , (12522,   8, 0x0600106B) /* Icon */
      , (12522, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12522, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12522, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12522, 8040, 3663200267, 27.5957, 51.9625, 13.63736, 0.4146182, 0, 0, 0.9099955) /* PCAPRecordedLocation */
+VALUES (12522, 8040, 0xDA58000B, 27.5957, 51.9625, 13.63736, 0.414618, 0, 0, 0.909996) /* PCAPRecordedLocation */
 /* @teleloc 0xDA58000B [27.595700 51.962500 13.637360] 0.414618 0.000000 0.000000 0.909996 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12522, 8000, 2107998208) /* PCAPRecordedObjectIID */;
+VALUES (12522, 8000, 0x7DA58000) /* PCAPRecordedObjectIID */;

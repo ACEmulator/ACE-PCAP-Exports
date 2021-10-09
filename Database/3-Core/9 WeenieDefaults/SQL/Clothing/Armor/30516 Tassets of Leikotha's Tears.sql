@@ -8,7 +8,6 @@ VALUES (30516,   1,          2) /* ItemType - Armor */
      , (30516,   4,        256) /* ClothingPriority - OuterwearUpperLegs */
      , (30516,   5,        533) /* EncumbranceVal */
      , (30516,   9,       8192) /* ValidLocations - UpperLegArmor */
-     , (30516,  10,       8192) /* CurrentWieldedLocation - UpperLegArmor */
      , (30516,  16,          1) /* ItemUseable - No */
      , (30516,  17,        221) /* RareId */
      , (30516,  19,      50000) /* Value */
@@ -50,20 +49,20 @@ VALUES (30516,   1, 'Tassets of Leikotha''s Tears') /* Name */
      , (30516,  16, 'Can the undead cry? It is said that after Leikotha, the great warrior of Haebrous, was made undead by the Sand King Nerash, she wept for thirty days and thirty nights. Each tear shed fell onto her armor, infusing Leikotha''s essence into each piece.  Courage, honor, sorrow, wrath and... everlasting death.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30516,   1,   33559432) /* Setup */
-     , (30516,   3,  536870932) /* SoundTable */
-     , (30516,   8,  100686874) /* Icon */
-     , (30516,  22,  872415275) /* PhysicsEffectTable */
-     , (30516,  52,  100686604) /* IconUnderlay */
+VALUES (30516,   1, 0x02001388) /* Setup */
+     , (30516,   3, 0x20000014) /* SoundTable */
+     , (30516,   8, 0x06005C1A) /* Icon */
+     , (30516,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30516,  52, 0x06005B0C) /* IconUnderlay */
      , (30516, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (30516, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30516, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30516, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30516, 8000, 3198019678) /* PCAPRecordedObjectIID */;
+VALUES (30516, 8000, 0xBE9DE85E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30516,  4227,      2)  /* CANTRIPWILLPOWER3 */
-     , (30516,  4407,      2)  /* Impenetrability8 */
-     , (30516,  4681,      2)  /* CANTRIPMANAGAIN3 */;
+     , (30516,  4681,      2)  /* CANTRIPMANAGAIN3 */
+     , (30516,  4407,      2)  /* Impenetrability8 */;

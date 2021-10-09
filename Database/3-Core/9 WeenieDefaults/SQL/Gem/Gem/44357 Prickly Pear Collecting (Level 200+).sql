@@ -26,14 +26,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44357,   1, 'Prickly Pear Collecting (Level 200+)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44357,   1,   33554773) /* Setup */
-     , (44357,   3,  536870932) /* SoundTable */
-     , (44357,   8,  100691928) /* Icon */
-     , (44357,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44357,   1, 0x02000155) /* Setup */
+     , (44357,   3, 0x20000014) /* SoundTable */
+     , (44357,   8, 0x06006FD8) /* Icon */
+     , (44357,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44357, 8001,     553104) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44357, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44357, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44357, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44357, 8000, 3694769203) /* PCAPRecordedObjectIID */;
+VALUES (44357, 8000, 0xDC39B433) /* PCAPRecordedObjectIID */;

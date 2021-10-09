@@ -7,10 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40139,   1,      32768) /* ItemType - Caster */
      , (40139,   5,        175) /* EncumbranceVal */
      , (40139,   9,   16777216) /* ValidLocations - Held */
-     , (40139,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (40139,  16,     655364) /* ItemUseable - 655364 */
      , (40139,  19,         10) /* Value */
      , (40139,  45,         32) /* DamageType - Acid */
+     , (40139,  46,        512) /* DefaultCombatStyle - Magic */
      , (40139,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40139,  94,         16) /* TargetType - Creature */
      , (40139, 106,        460) /* ItemSpellcraft */
@@ -38,11 +38,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40139,   1, 'Tome of Caustics') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40139,   1,   33560705) /* Setup */
-     , (40139,   3,  536870932) /* SoundTable */
-     , (40139,   6,   67115357) /* PaletteBase */
-     , (40139,   8,  100690363) /* Icon */
-     , (40139,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40139,   1, 0x02001881) /* Setup */
+     , (40139,   3, 0x20000014) /* SoundTable */
+     , (40139,   6, 0x0400195D) /* PaletteBase */
+     , (40139,   8, 0x060069BB) /* Icon */
+     , (40139,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40139,  28,       4315) /* Spell - ManaBoostSelf8 */
      , (40139, 8001,  275480600) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (40139, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -50,18 +50,18 @@ VALUES (40139,   1,   33560705) /* Setup */
      , (40139, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40139, 8040, 2847146034, 157.7887, 30.10039, 102.7985, -0.3930089, -0.3930089, -0.5878299, -0.5878299) /* PCAPRecordedLocation */
+VALUES (40139, 8040, 0xA9B40032, 157.7887, 30.10039, 102.7985, -0.393009, -0.393009, -0.58783, -0.58783) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40032 [157.788700 30.100390 102.798500] -0.393009 -0.393009 -0.587830 -0.587830 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40139, 8000, 2156844334) /* PCAPRecordedObjectIID */
-     , (40139, 8008, 1342755655) /* PCAPRecordedParentIID */;
+VALUES (40139, 8000, 0x808ED52E) /* PCAPRecordedObjectIID */
+     , (40139, 8008, 0x5008D347) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40139,  2014,      2)  /* WizardsUltimateIntellect */
-     , (40139,  4493,      2)  /* ManaRenewalOther8 */
-     , (40139,  4601,      2)  /* ManaMasteryOther8 */
-     , (40139,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;
+VALUES (40139,  4493,      2)  /* ManaRenewalOther8 */
+     , (40139,  2014,      2)  /* WizardsUltimateIntellect */
+     , (40139,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
+     , (40139,  4601,      2)  /* ManaMasteryOther8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40139, 67115357, 0, 56)

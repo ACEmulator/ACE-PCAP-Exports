@@ -26,19 +26,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41864,   1, 'Sealed Bag of Salvaged Diamond') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41864,   1,   33556223) /* Setup */
-     , (41864,   3,  536870932) /* SoundTable */
-     , (41864,   6,   67111928) /* PaletteBase */
-     , (41864,   8,  100667436) /* Icon */
-     , (41864,  22,  872415275) /* PhysicsEffectTable */
-     , (41864,  50,  100673270) /* IconOverlay */
+VALUES (41864,   1, 0x020006FF) /* Setup */
+     , (41864,   3, 0x20000014) /* SoundTable */
+     , (41864,   6, 0x04000BF8) /* PaletteBase */
+     , (41864,   8, 0x0600102C) /* Icon */
+     , (41864,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (41864,  50, 0x060026F6) /* IconOverlay */
      , (41864, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (41864, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41864, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (41864, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41864, 8000,      41864) /* PCAPRecordedObjectIID */;
+VALUES (41864, 8000, 0x0000A388) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41864, 67112642, 0, 0);

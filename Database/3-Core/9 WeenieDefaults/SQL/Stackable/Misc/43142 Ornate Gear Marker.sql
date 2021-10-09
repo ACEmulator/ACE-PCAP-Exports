@@ -18,7 +18,8 @@ VALUES (43142,   1,        128) /* ItemType - Misc */
      , (43142, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43142,  69, False) /* IsSellable */;
+VALUES (43142,  23, True ) /* DestroyOnSell */
+     , (43142,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43142,  39,     0.5) /* DefaultScale */;
@@ -29,13 +30,13 @@ VALUES (43142,   1, 'Ornate Gear Marker') /* Name */
      , (43142,  20, 'Ornate Gear Markers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43142,   1,   33557681) /* Setup */
-     , (43142,   3,  536870932) /* SoundTable */
-     , (43142,   8,  100691466) /* Icon */
-     , (43142,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43142,   1, 0x02000CB1) /* Setup */
+     , (43142,   3, 0x20000014) /* SoundTable */
+     , (43142,   8, 0x06006E0A) /* Icon */
+     , (43142,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43142, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (43142, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43142, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43142, 8000, 3706617692) /* PCAPRecordedObjectIID */;
+VALUES (43142, 8000, 0xDCEE7F5C) /* PCAPRecordedObjectIID */;

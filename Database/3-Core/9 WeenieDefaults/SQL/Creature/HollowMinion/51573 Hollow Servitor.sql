@@ -25,22 +25,22 @@ VALUES (51573,   1, 'Hollow Servitor') /* Name */
      , (51573, 8006, 'AAA8AEEAAAA8AAAAwD8AAA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51573,   1,   33556792) /* Setup */
-     , (51573,   2,  150995101) /* MotionTable */
-     , (51573,   3,  536871013) /* SoundTable */
-     , (51573,   6,   67112967) /* PaletteBase */
-     , (51573,   8,  100671140) /* Icon */
-     , (51573,  22,  872415367) /* PhysicsEffectTable */
+VALUES (51573,   1, 0x02000938) /* Setup */
+     , (51573,   2, 0x0900009D) /* MotionTable */
+     , (51573,   3, 0x20000065) /* SoundTable */
+     , (51573,   6, 0x04001007) /* PaletteBase */
+     , (51573,   8, 0x06001EA4) /* Icon */
+     , (51573,  22, 0x34000087) /* PhysicsEffectTable */
      , (51573, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51573, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (51573, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51573, 8040, 1483866494, 132.9783, -190.4563, 0.00274992, -0.2092241, 0, 0, -0.9778677) /* PCAPRecordedLocation */
+VALUES (51573, 8040, 0x5872017E, 132.9783, -190.4563, 0.00275, -0.209224, 0, 0, -0.977868) /* PCAPRecordedLocation */
 /* @teleloc 0x5872017E [132.978300 -190.456300 0.002750] -0.209224 0.000000 0.000000 -0.977868 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51573, 8000, 3695190720) /* PCAPRecordedObjectIID */;
+VALUES (51573, 8000, 0xDC4022C0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (51573,   1,     0, 0, 0, 10000) /* MaxHealth */;

@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12028,   1, 'Serpent''s Fang') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12028,   1,   33557337) /* Setup */
-     , (12028,   3,  536870932) /* SoundTable */
-     , (12028,   8,  100672119) /* Icon */
-     , (12028,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12028,   1, 0x02000B59) /* Setup */
+     , (12028,   3, 0x20000014) /* SoundTable */
+     , (12028,   8, 0x06002277) /* Icon */
+     , (12028,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12028, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (12028, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12028, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12028, 8000, 3351325219) /* PCAPRecordedObjectIID */;
+VALUES (12028, 8000, 0xC7C12A23) /* PCAPRecordedObjectIID */;

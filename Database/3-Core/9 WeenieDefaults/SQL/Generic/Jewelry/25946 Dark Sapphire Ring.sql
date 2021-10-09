@@ -32,22 +32,22 @@ VALUES (25946,   1, 'Dark Sapphire Ring') /* Name */
      , (25946,  16, 'A dark sapphire ring. At the edge of sight you see your shadow twist and gyre in a complex dance of shadow and light.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25946,   1,   33554691) /* Setup */
-     , (25946,   3,  536870932) /* SoundTable */
-     , (25946,   6,   67111919) /* PaletteBase */
-     , (25946,   8,  100675658) /* Icon */
-     , (25946,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25946,   1, 0x02000103) /* Setup */
+     , (25946,   3, 0x20000014) /* SoundTable */
+     , (25946,   6, 0x04000BEF) /* PaletteBase */
+     , (25946,   8, 0x0600304A) /* Icon */
+     , (25946,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25946, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (25946, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25946, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25946, 8000, 3688361092) /* PCAPRecordedObjectIID */;
+VALUES (25946, 8000, 0xDBD7EC84) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25946,   244,      2)  /* InvulnerabilityOther6 */
-     , (25946,  1432,      2)  /* FocusOther6 */
-     , (25946,  2090,      2)  /* WillpowerOther7 */;
+VALUES (25946,  1432,      2)  /* FocusOther6 */
+     , (25946,  2090,      2)  /* WillpowerOther7 */
+     , (25946,   244,      2)  /* InvulnerabilityOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25946, 67111919, 0, 0);

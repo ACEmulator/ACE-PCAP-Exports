@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28521,   1, 'Treated Herbs') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28521,   1,   33554817) /* Setup */
-     , (28521,   3,  536870932) /* SoundTable */
-     , (28521,   6,   67111919) /* PaletteBase */
-     , (28521,   8,  100676967) /* Icon */
-     , (28521,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28521,   1, 0x02000181) /* Setup */
+     , (28521,   3, 0x20000014) /* SoundTable */
+     , (28521,   6, 0x04000BEF) /* PaletteBase */
+     , (28521,   8, 0x06003567) /* Icon */
+     , (28521,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28521, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (28521, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28521, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28521, 8000, 2152182024) /* PCAPRecordedObjectIID */;
+VALUES (28521, 8000, 0x8047B108) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28521, 67111918, 0, 0);

@@ -23,17 +23,17 @@ VALUES (855,   1, 'Altar of Asheron') /* Name */
      , (855, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (855,   1,   33555278) /* Setup */
-     , (855,   2,  150994989) /* MotionTable */
-     , (855,   3,  536870965) /* SoundTable */
-     , (855,   8,  100668239) /* Icon */
+VALUES (855,   1, 0x0200034E) /* Setup */
+     , (855,   2, 0x0900002D) /* MotionTable */
+     , (855,   3, 0x20000035) /* SoundTable */
+     , (855,   8, 0x0600134F) /* Icon */
      , (855, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (855, 8003,       2068) /* PCAPRecordedObjectDesc - Stuck, Attackable, NpkSwitch */
      , (855, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (855, 8040, 33358082, 90, -110, -23.999, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (855, 8040, 0x01FD0102, 90, -110, -23.999, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01FD0102 [90.000000 -110.000000 -23.999000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (855, 8000, 1881133059) /* PCAPRecordedObjectIID */;
+VALUES (855, 8000, 0x701FD003) /* PCAPRecordedObjectIID */;

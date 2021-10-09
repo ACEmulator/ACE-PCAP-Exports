@@ -35,13 +35,13 @@ VALUES (32156,   1, 'Maddened Fiun Mask') /* Name */
      , (32156,  16, 'A mask crafted after the sad and tortured visage of the Maddened Fiun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32156,   1,   33559764) /* Setup */
-     , (32156,   3,  536870932) /* SoundTable */
-     , (32156,   8,  100688432) /* Icon */
-     , (32156,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32156,   1, 0x020014D4) /* Setup */
+     , (32156,   3, 0x20000014) /* SoundTable */
+     , (32156,   8, 0x06006230) /* Icon */
+     , (32156,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32156, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (32156, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32156, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32156, 8000, 2978131528) /* PCAPRecordedObjectIID */;
+VALUES (32156, 8000, 0xB182AE48) /* PCAPRecordedObjectIID */;

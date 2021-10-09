@@ -24,17 +24,17 @@ VALUES (41259,   1, 'Scroll of Two Handed Weapon Mastery Self IV') /* Name */
 Increases the caster''s Two Handed Combat skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41259,   1,   33554826) /* Setup */
-     , (41259,   8,  100690644) /* Icon */
-     , (41259,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41259,   1, 0x0200018A) /* Setup */
+     , (41259,   8, 0x06006AD4) /* Icon */
+     , (41259,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41259,  28,       5102) /* Spell - TwoHandedMasterySelf4 */
      , (41259, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (41259, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41259, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41259, 8040, 28181160, 73.3728, -105.9967, -5.9145, 0.9984533, 0, 0, -0.05559801) /* PCAPRecordedLocation */
+VALUES (41259, 8040, 0x01AE02A8, 73.3728, -105.9967, -5.9145, 0.998453, 0, 0, -0.055598) /* PCAPRecordedLocation */
 /* @teleloc 0x01AE02A8 [73.372800 -105.996700 -5.914500] 0.998453 0.000000 0.000000 -0.055598 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41259, 8000, 2615097896) /* PCAPRecordedObjectIID */;
+VALUES (41259, 8000, 0x9BDF3A28) /* PCAPRecordedObjectIID */;

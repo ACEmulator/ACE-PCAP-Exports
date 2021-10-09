@@ -20,7 +20,8 @@ VALUES (36786,   1,       2048) /* ItemType - Gem */
      , (36786, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36786,  22, True ) /* Inscribable */;
+VALUES (36786,  22, True ) /* Inscribable */
+     , (36786,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36786,   1, 'Elysa''s Hope') /* Name */
@@ -28,17 +29,17 @@ VALUES (36786,   1, 'Elysa''s Hope') /* Name */
      , (36786,  16, 'This purple gem has an image of Elysa swirling within it, her face lit up in hope for the future.  You perceive words inscribed within - the whisper you overheard during the fight with the Olthoi.  The words read, "Seek resolve in the place where the words of the past were found."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36786,   1,   33556769) /* Setup */
-     , (36786,   3,  536870932) /* SoundTable */
-     , (36786,   8,  100689641) /* Icon */
-     , (36786,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36786,   1, 0x02000921) /* Setup */
+     , (36786,   3, 0x20000014) /* SoundTable */
+     , (36786,   8, 0x060066E9) /* Icon */
+     , (36786,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36786, 8001,    2633872) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden */
      , (36786, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36786, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36786, 8040, 2543452175, 32.4608, 167.8029, 38.20629, 0.9921978, 0, 0, 0.124674) /* PCAPRecordedLocation */
+VALUES (36786, 8040, 0x979A000F, 32.4608, 167.8029, 38.20629, 0.992198, 0, 0, 0.124674) /* PCAPRecordedLocation */
 /* @teleloc 0x979A000F [32.460800 167.802900 38.206290] 0.992198 0.000000 0.000000 0.124674 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36786, 8000, 3697110678) /* PCAPRecordedObjectIID */;
+VALUES (36786, 8000, 0xDC5D6E96) /* PCAPRecordedObjectIID */;

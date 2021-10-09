@@ -18,7 +18,8 @@ VALUES (38228,   1,        128) /* ItemType - Misc */
      , (38228, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38228,  69, False) /* IsSellable */;
+VALUES (38228,  23, True ) /* DestroyOnSell */
+     , (38228,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38228,  39,     0.4) /* DefaultScale */;
@@ -29,17 +30,17 @@ VALUES (38228,   1, 'Celestial Hand Commendation Ribbon') /* Name */
      , (38228,  16, 'A commendation ribbon, given to you as a reward for accomplishing goals set to you by those in your Society.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38228,   1,   33554817) /* Setup */
-     , (38228,   3,  536870932) /* SoundTable */
-     , (38228,   6,   67111919) /* PaletteBase */
-     , (38228,   8,  100690174) /* Icon */
-     , (38228,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38228,   1, 0x02000181) /* Setup */
+     , (38228,   3, 0x20000014) /* SoundTable */
+     , (38228,   6, 0x04000BEF) /* PaletteBase */
+     , (38228,   8, 0x060068FE) /* Icon */
+     , (38228,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38228, 8001,      28688) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container */
      , (38228, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38228, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38228, 8000, 3129457114) /* PCAPRecordedObjectIID */;
+VALUES (38228, 8000, 0xBA87B9DA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38228, 67111919, 0, 0);

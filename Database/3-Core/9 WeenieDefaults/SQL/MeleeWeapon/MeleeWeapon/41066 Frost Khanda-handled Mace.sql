@@ -57,20 +57,20 @@ VALUES (41066,   1, 'Frost Khanda-handled Mace') /* Name */
      , (41066,  40, 'Jadefire') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41066,   1,   33560884) /* Setup */
-     , (41066,   3,  536870932) /* SoundTable */
-     , (41066,   6,   67115558) /* PaletteBase */
-     , (41066,   8,  100690648) /* Icon */
-     , (41066,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41066,   1, 0x02001934) /* Setup */
+     , (41066,   3, 0x20000014) /* SoundTable */
+     , (41066,   6, 0x04001A26) /* PaletteBase */
+     , (41066,   8, 0x06006AD8) /* Icon */
+     , (41066,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41066,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
-     , (41066,  52,  100676438) /* IconUnderlay */
+     , (41066,  52, 0x06003356) /* IconUnderlay */
      , (41066, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41066, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (41066, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (41066, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41066, 8000, 2461218086) /* PCAPRecordedObjectIID */;
+VALUES (41066, 8000, 0x92B33526) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41066,  1354,      2)  /* EnduranceSelf6 */

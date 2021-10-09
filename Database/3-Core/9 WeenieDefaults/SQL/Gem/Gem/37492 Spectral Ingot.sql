@@ -15,6 +15,7 @@ VALUES (37492,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37492,  22, True ) /* Inscribable */
+     , (37492,  23, True ) /* DestroyOnSell */
      , (37492,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -23,13 +24,13 @@ VALUES (37492,   1, 'Spectral Ingot') /* Name */
      , (37492,  16, 'A ghostly ingot without much weight or substance. It causes a sensation of pins and needles in your hand, as if it were asleep.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37492,   1,   33555677) /* Setup */
-     , (37492,   8,  100689897) /* Icon */
-     , (37492,  52,  100689404) /* IconUnderlay */
+VALUES (37492,   1, 0x020004DD) /* Setup */
+     , (37492,   8, 0x060067E9) /* Icon */
+     , (37492,  52, 0x060065FC) /* IconUnderlay */
      , (37492, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (37492, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (37492, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (37492, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37492, 8000, 3671151566) /* PCAPRecordedObjectIID */;
+VALUES (37492, 8000, 0xDAD153CE) /* PCAPRecordedObjectIID */;

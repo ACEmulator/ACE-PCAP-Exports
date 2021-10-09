@@ -27,21 +27,21 @@ VALUES (4851,   1, 'Sarcophagus') /* Name */
      , (4851, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4851,   1,   33554638) /* Setup */
-     , (4851,   2,  150994980) /* MotionTable */
-     , (4851,   3,  536870949) /* SoundTable */
-     , (4851,   8,  100668103) /* Icon */
-     , (4851,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4851,   1, 0x020000CE) /* Setup */
+     , (4851,   2, 0x09000024) /* MotionTable */
+     , (4851,   3, 0x20000025) /* SoundTable */
+     , (4851,   8, 0x060012C7) /* Icon */
+     , (4851,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4851, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (4851, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (4851, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4851, 8040, 32702780, 46.3088, -99.5935, 0, 0.6945309, 0, 0, 0.7194629) /* PCAPRecordedLocation */
+VALUES (4851, 8040, 0x01F3013C, 46.3088, -99.5935, 0, 0.694531, 0, 0, 0.719463) /* PCAPRecordedLocation */
 /* @teleloc 0x01F3013C [46.308800 -99.593500 0.000000] 0.694531 0.000000 0.000000 0.719463 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4851, 8000, 1881092118) /* PCAPRecordedObjectIID */;
+VALUES (4851, 8000, 0x701F3016) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4851, -1, 243, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Dinner Plate (243) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -22,22 +22,22 @@ VALUES (1256,   1, 'Braggart Mosswart') /* Name */
      , (1256, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1256,   1,   33557327) /* Setup */
-     , (1256,   2,  150994953) /* MotionTable */
-     , (1256,   3,  536870959) /* SoundTable */
-     , (1256,   6,   67113400) /* PaletteBase */
-     , (1256,   8,  100667449) /* Icon */
-     , (1256,  22,  872415264) /* PhysicsEffectTable */
+VALUES (1256,   1, 0x02000B4F) /* Setup */
+     , (1256,   2, 0x09000009) /* MotionTable */
+     , (1256,   3, 0x2000002F) /* SoundTable */
+     , (1256,   6, 0x040011B8) /* PaletteBase */
+     , (1256,   8, 0x06001039) /* Icon */
+     , (1256,  22, 0x34000020) /* PhysicsEffectTable */
      , (1256, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1256, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1256, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1256, 8040, 31785440, 50, 0, 0.005500019, 0.6406958, 0, 0, -0.7677948) /* PCAPRecordedLocation */
+VALUES (1256, 8040, 0x01E501E0, 50, 0, 0.0055, 0.640696, 0, 0, -0.767795) /* PCAPRecordedLocation */
 /* @teleloc 0x01E501E0 [50.000000 0.000000 0.005500] 0.640696 0.000000 0.000000 -0.767795 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1256, 8000, 3360756167) /* PCAPRecordedObjectIID */;
+VALUES (1256, 8000, 0xC85111C7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1256,   1, 120, 0, 0) /* Strength */
@@ -57,6 +57,9 @@ VALUES (1256, 2,   343,  1, 0, 0, False) /* Create Shouken (343) for Wield */
      , (1256, 2,   348,  1, 0, 0, False) /* Create Spear (348) for Wield */
      , (1256, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */
      , (1256, 2,   315,  1, 0, 0, False) /* Create Throwing Dagger (315) for Wield */
+     , (1256, 2,   308,  1, 0, 0, False) /* Create Budiaq (308) for Wield */
+     , (1256, 2,   316,  1, 0, 0, False) /* Create Throwing Dart (316) for Wield */
+     , (1256, 2,   340,  1, 0, 0, False) /* Create Shamshir (340) for Wield */
      , (1256, 9, 21295,  0, 0, 0, False) /* Create Scroll of Blade Arc I (21295) for ContainTreasure */
      , (1256, 9, 45099,  0, 0, 0, False) /* Create Epee (45099) for ContainTreasure */
      , (1256, 9,   273, 41, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */

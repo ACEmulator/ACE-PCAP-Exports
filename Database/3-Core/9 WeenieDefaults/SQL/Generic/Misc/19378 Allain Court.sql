@@ -18,15 +18,15 @@ VALUES (19378,   1, 'Allain Court') /* Name */
      , (19378,  16, 'Allain Court') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19378,   1,   33557683) /* Setup */
-     , (19378,   8,  100667499) /* Icon */
+VALUES (19378,   1, 0x02000CB3) /* Setup */
+     , (19378,   8, 0x0600106B) /* Icon */
      , (19378, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (19378, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19378, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19378, 8040, 1449001231, 9.977, -56.947, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (19378, 8040, 0x565E010F, 9.977, -56.947, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x565E010F [9.977000 -56.947000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19378, 8000, 1969610759) /* PCAPRecordedObjectIID */;
+VALUES (19378, 8000, 0x7565E007) /* PCAPRecordedObjectIID */;

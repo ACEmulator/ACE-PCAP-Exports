@@ -18,18 +18,18 @@ VALUES (4664,   1, 'Safruya''s Bows') /* Name */
      , (4664,  16, 'Safruya''s Bows') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4664,   1,   33555909) /* Setup */
-     , (4664,   8,  100668115) /* Icon */
+VALUES (4664,   1, 0x020005C5) /* Setup */
+     , (4664,   8, 0x060012D3) /* Icon */
      , (4664, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (4664, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4664, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4664, 8040, 2655256597, 57.9308, 99.453, 73.1261, 0.7038995, 0, 0, -0.7102996) /* PCAPRecordedLocation */
+VALUES (4664, 8040, 0x9E440015, 57.9308, 99.453, 73.1261, 0.7039, 0, 0, -0.7103) /* PCAPRecordedLocation */
 /* @teleloc 0x9E440015 [57.930800 99.453000 73.126100] 0.703900 0.000000 0.000000 -0.710300 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4664, 8000, 2045001744) /* PCAPRecordedObjectIID */;
+VALUES (4664, 8000, 0x79E44010) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (4664, 0, 83892071, 83892188);

@@ -52,17 +52,17 @@ VALUES (3859,   1, 'Flaming Shou-ono') /* Name */
      , (3859,  16, 'Flaming Shou-ono of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3859,   1,   33555714) /* Setup */
-     , (3859,   3,  536870932) /* SoundTable */
-     , (3859,   8,  100670223) /* Icon */
-     , (3859,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3859,   1, 0x02000502) /* Setup */
+     , (3859,   3, 0x20000014) /* SoundTable */
+     , (3859,   8, 0x06001B0F) /* Icon */
+     , (3859,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3859,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3859, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3859, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3859, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3859, 8000, 3685958770) /* PCAPRecordedObjectIID */;
+VALUES (3859, 8000, 0xDBB34472) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3859,  1614,      2)  /* BloodDrinkerSelf4 */;

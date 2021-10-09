@@ -26,6 +26,7 @@ VALUES (36748,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36748,  22, True ) /* Inscribable */
+     , (36748,  23, True ) /* DestroyOnSell */
      , (36748,  69, False) /* IsSellable */
      , (36748,  99, True ) /* Ivoryable */;
 
@@ -45,33 +46,33 @@ VALUES (36748,   1, 'Empowered Breastplate of the Perfect Light') /* Name */
      , (36748,  16, 'A breastplate forged from Thaumaturgic Plate Crystal, and then imbedded with spells by Asheron himself.  This piece of armor resonates with the two other pieces of its set, generating more powerful spells as the pieces are worn together.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36748,   1,   33554642) /* Setup */
-     , (36748,   3,  536870932) /* SoundTable */
-     , (36748,   8,  100689727) /* Icon */
-     , (36748,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36748,   1, 0x020000D2) /* Setup */
+     , (36748,   3, 0x20000014) /* SoundTable */
+     , (36748,   8, 0x0600673F) /* Icon */
+     , (36748,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36748, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
      , (36748, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36748, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36748, 8040, 23855555, 58.03757, -38.19564, -0.004999995, -0.9822173, 0, 0, -0.1877476) /* PCAPRecordedLocation */
+VALUES (36748, 8040, 0x016C01C3, 58.03757, -38.19564, -0.005, -0.982217, 0, 0, -0.187748) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [58.037570 -38.195640 -0.005000] -0.982217 0.000000 0.000000 -0.187748 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36748, 8000, 3681370366) /* PCAPRecordedObjectIID */;
+VALUES (36748, 8000, 0xDB6D40FE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36748,  2350,      2)  /* DecayDurance */
-     , (36748,  2351,      2)  /* ConsumptionDurance */
-     , (36748,  2352,      2)  /* StasisDurance */
-     , (36748,  2353,      2)  /* StimulationDurance */
-     , (36748,  2581,      2)  /* CANTRIPFOCUS1 */
+VALUES (36748,  3978,      2)  /* FocusOtherIncantation */
+     , (36748,  3981,      2)  /* ManarenewalOtherIncantation */
      , (36748,  2960,      2)  /* BludgeoningDurance */
      , (36748,  2961,      2)  /* PiercingDurance */
      , (36748,  2962,      2)  /* SlashingDurance */
-     , (36748,  3978,      2)  /* FocusOtherIncantation */
-     , (36748,  3981,      2)  /* ManarenewalOtherIncantation */
-     , (36748,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */;
+     , (36748,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (36748,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */
+     , (36748,  2350,      2)  /* DecayDurance */
+     , (36748,  2351,      2)  /* ConsumptionDurance */
+     , (36748,  2352,      2)  /* StasisDurance */
+     , (36748,  2353,      2)  /* StimulationDurance */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (36748, 0, 16793750);

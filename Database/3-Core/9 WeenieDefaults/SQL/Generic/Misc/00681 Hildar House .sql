@@ -19,18 +19,18 @@ VALUES (681,   1, 'Hildar House ') /* Name */
      , (681,  16, 'Hildar House') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (681,   1,   33555088) /* Setup */
-     , (681,   8,  100668115) /* Icon */
+VALUES (681,   1, 0x02000290) /* Setup */
+     , (681,   8, 0x060012D3) /* Icon */
      , (681, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (681, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (681, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (681, 8040, 3164536837, 22.1431, 103.561, 70, 0.92751, 0, 0, 0.373797) /* PCAPRecordedLocation */
+VALUES (681, 8040, 0xBC9F0005, 22.1431, 103.561, 70, 0.92751, 0, 0, 0.373797) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F0005 [22.143100 103.561000 70.000000] 0.927510 0.000000 0.000000 0.373797 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (681, 8000, 2076831782) /* PCAPRecordedObjectIID */;
+VALUES (681, 8000, 0x7BC9F026) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (681, 0, 83891055, 83889901);

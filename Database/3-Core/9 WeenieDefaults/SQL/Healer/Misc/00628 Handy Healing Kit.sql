@@ -25,11 +25,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (628,   1, 'Handy Healing Kit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (628,   1,   33555194) /* Setup */
-     , (628,   8,  100676335) /* Icon */
+VALUES (628,   1, 0x020002FA) /* Setup */
+     , (628,   8, 0x060032EF) /* Icon */
      , (628, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (628, 8003,      65554) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer */
      , (628, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (628, 8000, 3655153844) /* PCAPRecordedObjectIID */;
+VALUES (628, 8000, 0xD9DD38B4) /* PCAPRecordedObjectIID */;

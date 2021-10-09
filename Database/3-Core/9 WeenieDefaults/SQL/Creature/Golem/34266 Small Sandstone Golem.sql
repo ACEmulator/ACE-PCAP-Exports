@@ -25,22 +25,22 @@ VALUES (34266,   1, 'Small Sandstone Golem') /* Name */
      , (34266, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34266,   1,   33556426) /* Setup */
-     , (34266,   2,  150995073) /* MotionTable */
-     , (34266,   3,  536870933) /* SoundTable */
-     , (34266,   6,   67112775) /* PaletteBase */
-     , (34266,   8,  100667940) /* Icon */
-     , (34266,  22,  872415329) /* PhysicsEffectTable */
+VALUES (34266,   1, 0x020007CA) /* Setup */
+     , (34266,   2, 0x09000081) /* MotionTable */
+     , (34266,   3, 0x20000015) /* SoundTable */
+     , (34266,   6, 0x04000F47) /* PaletteBase */
+     , (34266,   8, 0x06001224) /* Icon */
+     , (34266,  22, 0x34000061) /* PhysicsEffectTable */
      , (34266, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (34266, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (34266, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34266, 8040, 1879638070, 162.1115, 129.3971, 3.077979, 0.9806938, 0, 0, -0.19555) /* PCAPRecordedLocation */
+VALUES (34266, 8040, 0x70090036, 162.1115, 129.3971, 3.077979, 0.980694, 0, 0, -0.19555) /* PCAPRecordedLocation */
 /* @teleloc 0x70090036 [162.111500 129.397100 3.077979] 0.980694 0.000000 0.000000 -0.195550 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34266, 8000, 3706370581) /* PCAPRecordedObjectIID */;
+VALUES (34266, 8000, 0xDCEABA15) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (34266,   1,     0, 0, 0, 555) /* MaxHealth */;

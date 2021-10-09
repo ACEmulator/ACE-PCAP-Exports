@@ -30,22 +30,22 @@ VALUES (22880,   1, 'Fire Protection Gem') /* Name */
      , (22880,  15, 'A gem of fire protection VI') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22880,   1,   33554809) /* Setup */
-     , (22880,   3,  536870932) /* SoundTable */
-     , (22880,   6,   67111919) /* PaletteBase */
-     , (22880,   8,  100673902) /* Icon */
-     , (22880,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22880,   1, 0x02000179) /* Setup */
+     , (22880,   3, 0x20000014) /* SoundTable */
+     , (22880,   6, 0x04000BEF) /* PaletteBase */
+     , (22880,   8, 0x0600296E) /* Icon */
+     , (22880,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22880,  28,       1096) /* Spell - FireProtectionOther6 */
      , (22880, 8001,    6828184) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell */
      , (22880, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22880, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22880, 8040, 2103705619, 62.76709, 71.89533, 11.999, -0.1343638, 0, 0, -0.990932) /* PCAPRecordedLocation */
+VALUES (22880, 8040, 0x7D640013, 62.76709, 71.89533, 11.999, -0.134364, 0, 0, -0.990932) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640013 [62.767090 71.895330 11.999000] -0.134364 0.000000 0.000000 -0.990932 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22880, 8000, 2610579682) /* PCAPRecordedObjectIID */;
+VALUES (22880, 8000, 0x9B9A48E2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22880, 67111924, 0, 0);

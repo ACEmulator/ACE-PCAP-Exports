@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19424,   1, 'Upper Pipe Three') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19424,   1,   33557836) /* Setup */
-     , (19424,   3,  536870932) /* SoundTable */
-     , (19424,   8,  100673053) /* Icon */
-     , (19424,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19424,   1, 0x02000D4C) /* Setup */
+     , (19424,   3, 0x20000014) /* SoundTable */
+     , (19424,   8, 0x0600261D) /* Icon */
+     , (19424,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19424, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (19424, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19424, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19424, 8000, 3321384675) /* PCAPRecordedObjectIID */;
+VALUES (19424, 8000, 0xC5F84EE3) /* PCAPRecordedObjectIID */;

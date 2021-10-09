@@ -25,22 +25,22 @@ VALUES (38286,   1, 'Maguth Moarsman') /* Name */
      , (38286, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38286,   1,   33556882) /* Setup */
-     , (38286,   2,  150995104) /* MotionTable */
-     , (38286,   3,  536871018) /* SoundTable */
-     , (38286,   6,   67112872) /* PaletteBase */
-     , (38286,   8,  100671185) /* Icon */
-     , (38286,  22,  872415337) /* PhysicsEffectTable */
+VALUES (38286,   1, 0x02000992) /* Setup */
+     , (38286,   2, 0x090000A0) /* MotionTable */
+     , (38286,   3, 0x2000006A) /* SoundTable */
+     , (38286,   6, 0x04000FA8) /* PaletteBase */
+     , (38286,   8, 0x06001ED1) /* Icon */
+     , (38286,  22, 0x34000069) /* PhysicsEffectTable */
      , (38286, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (38286, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (38286, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38286, 8040, 1466237277, 30, -40, -23.9944, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (38286, 8040, 0x5765015D, 30, -40, -23.9944, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5765015D [30.000000 -40.000000 -23.994400] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38286, 8000, 3708052012) /* PCAPRecordedObjectIID */;
+VALUES (38286, 8000, 0xDD04622C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (38286,   1,     0, 0, 0, 1115) /* MaxHealth */;

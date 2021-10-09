@@ -44,24 +44,21 @@ VALUES (6048,   1, 'Celdon Sleeves') /* Name */
      , (6048,  16, 'Celdon Sleeves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6048,   1,   33554655) /* Setup */
-     , (6048,   3,  536870932) /* SoundTable */
-     , (6048,   6,   67108990) /* PaletteBase */
-     , (6048,   8,  100670429) /* Icon */
-     , (6048,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6048,   1, 0x020000DF) /* Setup */
+     , (6048,   3, 0x20000014) /* SoundTable */
+     , (6048,   6, 0x0400007E) /* PaletteBase */
+     , (6048,   8, 0x06001BDD) /* Icon */
+     , (6048,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6048, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (6048, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6048, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6048, 8000, 3687996170) /* PCAPRecordedObjectIID */;
+VALUES (6048, 8000, 0xDBD25B0A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6048,  2108,      2)  /* Impenetrability7 */
-     , (6048,  2578,      2)  /* CANTRIPARMOR1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6048, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
+VALUES (6048,  2578,      2)  /* CANTRIPARMOR1 */
+     , (6048,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6048, 67110007, 108, 8)

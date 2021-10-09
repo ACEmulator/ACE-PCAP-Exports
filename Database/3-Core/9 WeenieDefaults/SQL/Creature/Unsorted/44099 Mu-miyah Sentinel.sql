@@ -23,22 +23,22 @@ VALUES (44099,   1, 'Mu-miyah Sentinel') /* Name */
      , (44099, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44099,   1,   33554433) /* Setup */
-     , (44099,   2,  150994981) /* MotionTable */
-     , (44099,   3,  536870942) /* SoundTable */
-     , (44099,   6,   67108990) /* PaletteBase */
-     , (44099,   8,  100669122) /* Icon */
-     , (44099,  22,  872415272) /* PhysicsEffectTable */
+VALUES (44099,   1, 0x02000001) /* Setup */
+     , (44099,   2, 0x09000025) /* MotionTable */
+     , (44099,   3, 0x2000001E) /* SoundTable */
+     , (44099,   6, 0x0400007E) /* PaletteBase */
+     , (44099,   8, 0x060016C2) /* Icon */
+     , (44099,  22, 0x34000028) /* PhysicsEffectTable */
      , (44099, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44099, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44099, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44099, 8040, 1465254417, 100, -30, 18.006, -0.02919999, 0, 0, -0.9995736) /* PCAPRecordedLocation */
+VALUES (44099, 8040, 0x57560211, 100, -30, 18.006, -0.0292, 0, 0, -0.999574) /* PCAPRecordedLocation */
 /* @teleloc 0x57560211 [100.000000 -30.000000 18.006000] -0.029200 0.000000 0.000000 -0.999574 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44099, 8000, 3632512100) /* PCAPRecordedObjectIID */;
+VALUES (44099, 8000, 0xD883BC64) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44099, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */

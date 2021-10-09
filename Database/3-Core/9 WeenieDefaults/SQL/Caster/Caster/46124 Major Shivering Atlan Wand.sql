@@ -7,10 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (46124,   1,      32768) /* ItemType - Caster */
      , (46124,   5,        150) /* EncumbranceVal */
      , (46124,   9,   16777216) /* ValidLocations - Held */
-     , (46124,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (46124,  16,          1) /* ItemUseable - No */
      , (46124,  18,          1) /* UiEffects - Magical */
      , (46124,  19,       4000) /* Value */
+     , (46124,  46,        512) /* DefaultCombatStyle - Magic */
      , (46124,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46124,  94,         16) /* TargetType - Creature */
      , (46124, 151,          2) /* HookType - Wall */
@@ -23,23 +23,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46124,   1, 'Major Shivering Atlan Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46124,   1,   33557781) /* Setup */
-     , (46124,   3,  536870932) /* SoundTable */
-     , (46124,   6,   67111919) /* PaletteBase */
-     , (46124,   8,  100672989) /* Icon */
-     , (46124,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46124,   1, 0x02000D15) /* Setup */
+     , (46124,   3, 0x20000014) /* SoundTable */
+     , (46124,   6, 0x04000BEF) /* PaletteBase */
+     , (46124,   8, 0x060025DD) /* Icon */
+     , (46124,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46124, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (46124, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46124, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (46124, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46124, 8040, 2513829915, 80.92799, 65.33058, 109.929, 0.5632583, 0.5632583, -0.4274811, -0.4274811) /* PCAPRecordedLocation */
+VALUES (46124, 8040, 0x95D6001B, 80.92799, 65.33058, 109.929, 0.563258, 0.563258, -0.427481, -0.427481) /* PCAPRecordedLocation */
 /* @teleloc 0x95D6001B [80.927990 65.330580 109.929000] 0.563258 0.563258 -0.427481 -0.427481 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46124, 8000, 3693935013) /* PCAPRecordedObjectIID */
-     , (46124, 8008, 1343490674) /* PCAPRecordedParentIID */;
+VALUES (46124, 8000, 0xDC2CF9A5) /* PCAPRecordedObjectIID */
+     , (46124, 8008, 0x50140A72) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46124, 67111919, 0, 0);

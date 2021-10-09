@@ -25,18 +25,18 @@ VALUES (41949,   1, 'Mhoire Castle Great Hall Portal') /* Name */
      , (41949, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41949,   1,   33560901) /* Setup */
-     , (41949,   2,  150995314) /* MotionTable */
-     , (41949,   3,  536871052) /* SoundTable */
-     , (41949,   8,  100667499) /* Icon */
-     , (41949,  22,  872415274) /* PhysicsEffectTable */
+VALUES (41949,   1, 0x02001945) /* Setup */
+     , (41949,   2, 0x09000172) /* MotionTable */
+     , (41949,   3, 0x2000008C) /* SoundTable */
+     , (41949,   8, 0x0600106B) /* Icon */
+     , (41949,  22, 0x3400002A) /* PhysicsEffectTable */
      , (41949, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (41949, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (41949, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41949, 8040, 2349008845, 190, -20, 23.79017, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (41949, 8040, 0x8C0307CD, 190, -20, 23.79017, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8C0307CD [190.000000 -20.000000 23.790170] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41949, 8000, 3683495600) /* PCAPRecordedObjectIID */;
+VALUES (41949, 8000, 0xDB8DAEB0) /* PCAPRecordedObjectIID */;

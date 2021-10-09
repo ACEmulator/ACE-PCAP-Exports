@@ -40,26 +40,26 @@ VALUES (6073,   1, 'Suikan War Apprentice Robe') /* Name */
      , (6073,  16, 'A finely tailored Sho robe for inexperienced mages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6073,   1,   33554854) /* Setup */
-     , (6073,   3,  536870932) /* SoundTable */
-     , (6073,   6,   67108990) /* PaletteBase */
-     , (6073,   8,  100670376) /* Icon */
-     , (6073,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6073,   1, 0x020001A6) /* Setup */
+     , (6073,   3, 0x20000014) /* SoundTable */
+     , (6073,   6, 0x0400007E) /* PaletteBase */
+     , (6073,   8, 0x06001BA8) /* Icon */
+     , (6073,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6073,  37,         34) /* ItemSkillLimit - WarMagic */
      , (6073, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
      , (6073, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6073, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6073, 8040, 23855555, 56.17042, -35.47908, -0.002499998, -0.2467473, 0, 0, 0.9690799) /* PCAPRecordedLocation */
+VALUES (6073, 8040, 0x016C01C3, 56.17042, -35.47908, -0.0025, -0.246747, 0, 0, 0.96908) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.170420 -35.479080 -0.002500] -0.246747 0.000000 0.000000 0.969080 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6073, 8000, 3708270394) /* PCAPRecordedObjectIID */;
+VALUES (6073, 8000, 0xDD07B73A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6073,   635,      2)  /* WarMagicMasteryOther1 */
-     , (6073,  1451,      2)  /* WillpowerOther1 */;
+VALUES (6073,  1451,      2)  /* WillpowerOther1 */
+     , (6073,   635,      2)  /* WarMagicMasteryOther1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6073, 67110026, 96, 12)

@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11008,   1, 'The Stave of Palenqual') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11008,   1,   33554773) /* Setup */
-     , (11008,   3,  536870932) /* SoundTable */
-     , (11008,   8,  100668176) /* Icon */
-     , (11008,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11008,   1, 0x02000155) /* Setup */
+     , (11008,   3, 0x20000014) /* SoundTable */
+     , (11008,   8, 0x06001310) /* Icon */
+     , (11008,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11008, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (11008, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (11008, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11008, 8000, 2967011995) /* PCAPRecordedObjectIID */;
+VALUES (11008, 8000, 0xB0D9029B) /* PCAPRecordedObjectIID */;

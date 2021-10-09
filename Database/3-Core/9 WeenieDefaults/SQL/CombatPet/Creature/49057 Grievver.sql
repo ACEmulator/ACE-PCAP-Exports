@@ -31,12 +31,12 @@ VALUES (49057,   1, 'Grievver') /* Name */
      , (49057, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49057,   1,   33556698) /* Setup */
-     , (49057,   2,  150995098) /* MotionTable */
-     , (49057,   3,  536871009) /* SoundTable */
-     , (49057,   6,   67112927) /* PaletteBase */
-     , (49057,   8,  100670960) /* Icon */
-     , (49057,  22,  872415364) /* PhysicsEffectTable */
+VALUES (49057,   1, 0x020008DA) /* Setup */
+     , (49057,   2, 0x0900009A) /* MotionTable */
+     , (49057,   3, 0x20000061) /* SoundTable */
+     , (49057,   6, 0x04000FDF) /* PaletteBase */
+     , (49057,   8, 0x06001DF0) /* Icon */
+     , (49057,  22, 0x34000084) /* PhysicsEffectTable */
      , (49057,  30,         86) /* PhysicsScript - BreatheAcid */
      , (49057, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49057, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
@@ -44,11 +44,11 @@ VALUES (49057,   1,   33556698) /* Setup */
      , (49057, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49057, 8040, 3583574079, 182.2319, 158.4747, 373.9985, 0.258251, 0, 0, -0.9660779) /* PCAPRecordedLocation */
+VALUES (49057, 8040, 0xD599003F, 182.2319, 158.4747, 373.9985, 0.258251, 0, 0, -0.966078) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [182.231900 158.474700 373.998500] 0.258251 0.000000 0.000000 -0.966078 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49057, 8000, 3711670805) /* PCAPRecordedObjectIID */;
+VALUES (49057, 8000, 0xDD3B9A15) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49057,   1, 210, 0, 0) /* Strength */

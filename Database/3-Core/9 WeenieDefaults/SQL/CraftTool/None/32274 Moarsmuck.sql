@@ -26,17 +26,17 @@ VALUES (32274,   1, 'Moarsmuck') /* Name */
      , (32274,  20, 'Gobs of Moarsmuck') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32274,   1,   33554817) /* Setup */
-     , (32274,   3,  536870932) /* SoundTable */
-     , (32274,   6,   67111919) /* PaletteBase */
-     , (32274,   8,  100688505) /* Icon */
-     , (32274,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32274,   1, 0x02000181) /* Setup */
+     , (32274,   3, 0x20000014) /* SoundTable */
+     , (32274,   6, 0x04000BEF) /* PaletteBase */
+     , (32274,   8, 0x06006279) /* Icon */
+     , (32274,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32274, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (32274, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (32274, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32274, 8000, 3079711296) /* PCAPRecordedObjectIID */;
+VALUES (32274, 8000, 0xB790AA40) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32274, 67111920, 0, 0);

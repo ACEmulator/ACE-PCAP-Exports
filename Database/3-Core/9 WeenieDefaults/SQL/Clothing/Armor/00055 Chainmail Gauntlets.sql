@@ -43,21 +43,21 @@ VALUES (55,   1, 'Chainmail Gauntlets') /* Name */
      , (55,  16, 'Chainmail Gauntlets of Finesse Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (55,   1,   33554648) /* Setup */
-     , (55,   3,  536870932) /* SoundTable */
-     , (55,   6,   67108990) /* PaletteBase */
-     , (55,   8,  100669227) /* Icon */
-     , (55,  22,  872415275) /* PhysicsEffectTable */
+VALUES (55,   1, 0x020000D8) /* Setup */
+     , (55,   3, 0x20000014) /* SoundTable */
+     , (55,   6, 0x0400007E) /* PaletteBase */
+     , (55,   8, 0x0600172B) /* Icon */
+     , (55,  22, 0x3400002B) /* PhysicsEffectTable */
      , (55,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (55, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (55, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (55, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (55, 8000, 2430929620) /* PCAPRecordedObjectIID */;
+VALUES (55, 8000, 0x90E50AD4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (55,   325,      2)  /* DaggerMasterySelf4 */
+VALUES (55,   325,      2)  /* FinesseWeaponsMasterySelf4 */
      , (55,  1485,      2)  /* Impenetrability5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

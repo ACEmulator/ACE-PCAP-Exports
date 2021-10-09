@@ -44,26 +44,23 @@ VALUES (71,   1, 'Chainmail Hauberk') /* Name */
      , (71,  16, 'Chainmail Hauberk') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (71,   1,   33554644) /* Setup */
-     , (71,   6,   67108990) /* PaletteBase */
-     , (71,   8,  100667335) /* Icon */
-     , (71,  22,  872415275) /* PhysicsEffectTable */
+VALUES (71,   1, 0x020000D4) /* Setup */
+     , (71,   6, 0x0400007E) /* PaletteBase */
+     , (71,   8, 0x06000FC7) /* Icon */
+     , (71,  22, 0x3400002B) /* PhysicsEffectTable */
      , (71,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (71, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (71, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (71, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (71, 8000, 3690338208) /* PCAPRecordedObjectIID */;
+VALUES (71, 8000, 0xDBF617A0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (71,  1485,      2)  /* Impenetrability5 */
      , (71,  1496,      2)  /* AcidBane4 */
-     , (71,  1526,      2)  /* FrostBane4 */
-     , (71,  1572,      2)  /* PiercingBane4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (71, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
+     , (71,  1572,      2)  /* PiercingBane4 */
+     , (71,  1526,      2)  /* FrostBane4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (71, 67110019, 80, 12)

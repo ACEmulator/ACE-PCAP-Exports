@@ -36,27 +36,27 @@ VALUES (6858,   1, 'Grocer Nihara bint Umar') /* Name */
      , (6858, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6858,   1,   33554433) /* Setup */
-     , (6858,   2,  150994945) /* MotionTable */
-     , (6858,   3,  536870913) /* SoundTable */
-     , (6858,   6,   67108990) /* PaletteBase */
-     , (6858,   8,  100667365) /* Icon */
-     , (6858,   9,   83890483) /* EyesTexture */
-     , (6858,  10,   83890526) /* NoseTexture */
-     , (6858,  11,   83890600) /* MouthTexture */
-     , (6858,  15,   67116998) /* HairPalette */
-     , (6858,  16,   67110063) /* EyesPalette */
-     , (6858,  17,   67109551) /* SkinPalette */
+VALUES (6858,   1, 0x02000001) /* Setup */
+     , (6858,   2, 0x09000001) /* MotionTable */
+     , (6858,   3, 0x20000001) /* SoundTable */
+     , (6858,   6, 0x0400007E) /* PaletteBase */
+     , (6858,   8, 0x06000FE5) /* Icon */
+     , (6858,   9, 0x05001133) /* EyesTexture */
+     , (6858,  10, 0x0500115E) /* NoseTexture */
+     , (6858,  11, 0x050011A8) /* MouthTexture */
+     , (6858,  15, 0x04001FC6) /* HairPalette */
+     , (6858,  16, 0x040004AF) /* EyesPalette */
+     , (6858,  17, 0x040002AF) /* SkinPalette */
      , (6858, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (6858, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (6858, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6858, 8040, 288620848, 77.5, 155.842, 42.005, 0.7201517, 0, 0, -0.6938167) /* PCAPRecordedLocation */
+VALUES (6858, 8040, 0x11340130, 77.5, 155.842, 42.005, 0.720152, 0, 0, -0.693817) /* PCAPRecordedLocation */
 /* @teleloc 0x11340130 [77.500000 155.842000 42.005000] 0.720152 0.000000 0.000000 -0.693817 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6858, 8000, 3691069463) /* PCAPRecordedObjectIID */;
+VALUES (6858, 8000, 0xDC014017) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6858,   1,  80, 0, 0) /* Strength */
@@ -73,6 +73,11 @@ VALUES (6858,   1,    10, 0, 0, 55) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6858, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (6858, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (6858, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (6858, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (6858, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (6858, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (6858, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (6858, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (6858, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */

@@ -24,13 +24,13 @@ VALUES (45305,   1, 'Scroll of Recklessness Mastery Self VI') /* Name */
 Increases the caster''s Recklessness skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45305,   1,   33554826) /* Setup */
-     , (45305,   8,  100676449) /* Icon */
-     , (45305,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45305,   1, 0x0200018A) /* Setup */
+     , (45305,   8, 0x06003361) /* Icon */
+     , (45305,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45305,  28,       5832) /* Spell - RecklessnessMasterySelf6 */
      , (45305, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45305, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45305, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45305, 8000, 3354357186) /* PCAPRecordedObjectIID */;
+VALUES (45305, 8000, 0xC7EF6DC2) /* PCAPRecordedObjectIID */;

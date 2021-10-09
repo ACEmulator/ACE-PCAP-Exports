@@ -15,7 +15,8 @@ VALUES (5181,   1,       1024) /* ItemType - Useless */
      , (5181, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5181,  22, True ) /* Inscribable */;
+VALUES (5181,  22, True ) /* Inscribable */
+     , (5181,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5181,  39,     0.3) /* DefaultScale */
@@ -26,20 +27,20 @@ VALUES (5181,   1, 'Stone of Humility') /* Name */
      , (5181,  16, 'A small grey stone, smoothed by thousands of years of gently flowing water. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5181,   1,   33556947) /* Setup */
-     , (5181,   3,  536870932) /* SoundTable */
-     , (5181,   8,  100671336) /* Icon */
-     , (5181,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5181,   1, 0x020009D3) /* Setup */
+     , (5181,   3, 0x20000014) /* SoundTable */
+     , (5181,   8, 0x06001F68) /* Icon */
+     , (5181,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5181, 8001,    2097296) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Burden */
      , (5181, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5181, 8005,     432257) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5181, 8040, 22217131, 4.01376, -29.4326, -30, 0.8444769, 0, 0, 0.535592) /* PCAPRecordedLocation */
+VALUES (5181, 8040, 0x015301AB, 4.01376, -29.4326, -30, 0.844477, 0, 0, 0.535592) /* PCAPRecordedLocation */
 /* @teleloc 0x015301AB [4.013760 -29.432600 -30.000000] 0.844477 0.000000 0.000000 0.535592 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5181, 8000, 3630421296) /* PCAPRecordedObjectIID */;
+VALUES (5181, 8000, 0xD863D530) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (5181, 0, 83888861, 83890391);

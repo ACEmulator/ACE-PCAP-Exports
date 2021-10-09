@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (38855,   1,          1) /* ItemType - MeleeWeapon */
      , (38855,   5,        375) /* EncumbranceVal */
      , (38855,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (38855,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (38855,  16,          1) /* ItemUseable - No */
      , (38855,  18,          1) /* UiEffects - Magical */
      , (38855,  33,         -2) /* Bonded - Destroy */
@@ -23,7 +22,8 @@ VALUES (38855,   1,          1) /* ItemType - MeleeWeapon */
      , (38855, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38855,  69, False) /* IsSellable */
+VALUES (38855,  23, True ) /* DestroyOnSell */
+     , (38855,  69, False) /* IsSellable */
      , (38855,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -38,19 +38,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38855,   1, 'Eldrytch Web Blade') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38855,   1,   33559610) /* Setup */
-     , (38855,   3,  536870932) /* SoundTable */
-     , (38855,   8,  100687934) /* Icon */
-     , (38855,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38855,   1, 0x0200143A) /* Setup */
+     , (38855,   3, 0x20000014) /* SoundTable */
+     , (38855,   8, 0x0600603E) /* Icon */
+     , (38855,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38855, 8001,    2327184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (38855, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38855, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
      , (38855, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38855, 8040, 2315452941, 223.0018, -346.9904, -0.071, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (38855, 8040, 0x8A03020D, 223.0018, -346.9904, -0.071, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x8A03020D [223.001800 -346.990400 -0.071000] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38855, 8000, 3694185764) /* PCAPRecordedObjectIID */
-     , (38855, 8008, 3694185763) /* PCAPRecordedParentIID */;
+VALUES (38855, 8000, 0xDC30CD24) /* PCAPRecordedObjectIID */
+     , (38855, 8008, 0xDC30CD23) /* PCAPRecordedParentIID */;

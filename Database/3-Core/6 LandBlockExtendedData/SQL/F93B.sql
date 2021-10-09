@@ -57,23 +57,23 @@ VALUES (0x7F93B00D, 30764, 0xF93B0115, 179.049, 161.912, -124, -0.382683, 0, 0, 
 /* @teleloc 0xF93B0115 [179.049000 161.912000 -124.000000] -0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B074, 43258, 0xF93B03C5, 77.8617, 121.678, -58.063, 0.4189619, 0, 0, -0.9080038, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x7F93B074, 43258, 0xF93B03C5, 77.8617, 121.678, -58.063, 0.418962, 0, 0, -0.908004, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0xF93B03C5 [77.861700 121.678000 -58.063000] 0.418962 0.000000 0.000000 -0.908004 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B07A, 43202, 0xF93B03D5, 54.0046, 145.536, -58.063, -0.9198501, 0, 0, -0.3922701, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x7F93B07A, 43202, 0xF93B03D5, 54.0046, 145.536, -58.063, -0.91985, 0, 0, -0.39227, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0xF93B03D5 [54.004600 145.536000 -58.063000] -0.919850 0.000000 0.000000 -0.392270 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B0F6, 43258, 0xF93B0694, 84.9871, 195.129, -34.063, -0.9238797, 0, 0, 0.3826829, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x7F93B0F6, 43258, 0xF93B0694, 84.9871, 195.129, -34.063, -0.92388, 0, 0, 0.382683, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0xF93B0694 [84.987100 195.129000 -34.063000] -0.923880 0.000000 0.000000 0.382683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B115, 43257, 0xF93B071B, 62.9565, 108.449, -22.063, 0.3831592, 0, 0, -0.9236823, False, '2019-02-10 00:00:00'); /* Mysterious Portal */
+VALUES (0x7F93B115, 43257, 0xF93B071B, 62.9565, 108.449, -22.063, 0.383159, 0, 0, -0.923682, False, '2019-02-10 00:00:00'); /* Mysterious Portal */
 /* @teleloc 0xF93B071B [62.956500 108.449000 -22.063000] 0.383159 0.000000 0.000000 -0.923682 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B11B, 43258, 0xF93B0740, 161.538, 73.7524, -10.063, -0.9085556, 0, 0, 0.4177639, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x7F93B11B, 43258, 0xF93B0740, 161.538, 73.7524, -10.063, -0.908556, 0, 0, 0.417764, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0xF93B0740 [161.538000 73.752400 -10.063000] -0.908556 0.000000 0.000000 0.417764 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -225,7 +225,7 @@ VALUES (0x7F93B148, 48742, 0xF93B0130, 221.375, 195.955, -118, -0.92388, 0, 0, 0
 /* @teleloc 0xF93B0130 [221.375000 195.955000 -118.000000] -0.923880 0.000000 0.000000 0.382683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F93B149, 43258, 0xF93B0131, 228.547, 197.268, -118.063, -0.3826829, 0, 0, -0.9238797, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x7F93B149, 43258, 0xF93B0131, 228.547, 197.268, -118.063, -0.382683, 0, 0, -0.92388, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0xF93B0131 [228.547000 197.268000 -118.063000] -0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

@@ -46,24 +46,24 @@ VALUES (26597,   1, 'Lance of the Bloodletter') /* Name */
      , (26597,  15, 'A lance used to end the life of sacrifices during potent Falatacot blood rites.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26597,   1,   33558594) /* Setup */
-     , (26597,   3,  536870932) /* SoundTable */
-     , (26597,   6,   67114956) /* PaletteBase */
-     , (26597,   8,  100675774) /* Icon */
-     , (26597,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26597,   1, 0x02001042) /* Setup */
+     , (26597,   3, 0x20000014) /* SoundTable */
+     , (26597,   6, 0x040017CC) /* PaletteBase */
+     , (26597,   8, 0x060030BE) /* Icon */
+     , (26597,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26597, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (26597, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26597, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26597, 8000, 2461203305) /* PCAPRecordedObjectIID */;
+VALUES (26597, 8000, 0x92B2FB69) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26597,  1384,      2)  /* CoordinationOther6 */
-     , (26597,  1604,      2)  /* DefenderSelf5 */
+VALUES (26597,  1604,      2)  /* DefenderSelf5 */
+     , (26597,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */
      , (26597,  1616,      2)  /* BloodDrinkerSelf6 */
      , (26597,  1626,      2)  /* SwiftKillerSelf5 */
-     , (26597,  2566,      2)  /* CANTRIPSWORDAPTITUDE1 */;
+     , (26597,  1384,      2)  /* CoordinationOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26597, 67114954, 0, 0);

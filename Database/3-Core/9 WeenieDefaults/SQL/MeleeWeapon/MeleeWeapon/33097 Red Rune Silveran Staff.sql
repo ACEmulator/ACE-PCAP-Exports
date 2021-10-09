@@ -51,22 +51,22 @@ VALUES (33097,   1, 'Red Rune Silveran Staff') /* Name */
      , (33097,  15, 'A staff crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33097,   1,   33559916) /* Setup */
-     , (33097,   3,  536870932) /* SoundTable */
-     , (33097,   8,  100688908) /* Icon */
-     , (33097,  22,  872415275) /* PhysicsEffectTable */
-     , (33097,  50,  100688915) /* IconOverlay */
+VALUES (33097,   1, 0x0200156C) /* Setup */
+     , (33097,   3, 0x20000014) /* SoundTable */
+     , (33097,   8, 0x0600640C) /* Icon */
+     , (33097,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33097,  50, 0x06006413) /* IconOverlay */
      , (33097, 8001, 1344356888) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (33097, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33097, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33097, 8000, 2210356780) /* PCAPRecordedObjectIID */;
+VALUES (33097, 8000, 0x83BF5E2C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33097,  2059,      2)  /* CoordinationSelf7 */
+VALUES (33097,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33097,  2694,      2)  /* ModerateSwordAptitude */
+     , (33097,  2059,      2)  /* CoordinationSelf7 */
      , (33097,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33097,  2101,      2)  /* DefenderSelf7 */
-     , (33097,  2106,      2)  /* HeartSeekerSelf7 */
-     , (33097,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33097,  2694,      2)  /* ModerateSwordAptitude */;
+     , (33097,  2106,      2)  /* HeartSeekerSelf7 */;

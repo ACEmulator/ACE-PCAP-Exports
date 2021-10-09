@@ -26,23 +26,23 @@ VALUES (29332,   1, 'Young Olthoi') /* Name */
      , (29332, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29332,   1,   33557164) /* Setup */
-     , (29332,   2,  150994946) /* MotionTable */
-     , (29332,   3,  536870925) /* SoundTable */
-     , (29332,   6,   67113236) /* PaletteBase */
-     , (29332,   8,  100667623) /* Icon */
-     , (29332,  22,  872415265) /* PhysicsEffectTable */
+VALUES (29332,   1, 0x02000AAC) /* Setup */
+     , (29332,   2, 0x09000002) /* MotionTable */
+     , (29332,   3, 0x2000000D) /* SoundTable */
+     , (29332,   6, 0x04001114) /* PaletteBase */
+     , (29332,   8, 0x060010E7) /* Icon */
+     , (29332,  22, 0x34000021) /* PhysicsEffectTable */
      , (29332,  30,         86) /* PhysicsScript - BreatheAcid */
      , (29332, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (29332, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (29332, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29332, 8040, 2248343887, 140, -200, -6, 0.9689121, 0, 0, 0.247405) /* PCAPRecordedLocation */
+VALUES (29332, 8040, 0x8603014F, 140, -200, -6, 0.968912, 0, 0, 0.247405) /* PCAPRecordedLocation */
 /* @teleloc 0x8603014F [140.000000 -200.000000 -6.000000] 0.968912 0.000000 0.000000 0.247405 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29332, 8000, 3692635740) /* PCAPRecordedObjectIID */;
+VALUES (29332, 8000, 0xDC19265C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29332,   1,  10, 0, 0) /* Strength */

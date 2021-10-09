@@ -54,18 +54,18 @@ VALUES (3875,   1, 'Flaming Spear') /* Name */
      , (3875,  16, 'Flaming Spear of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3875,   1,   33555412) /* Setup */
-     , (3875,   3,  536870932) /* SoundTable */
-     , (3875,   6,   67111919) /* PaletteBase */
-     , (3875,   8,  100669006) /* Icon */
-     , (3875,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3875,   1, 0x020003D4) /* Setup */
+     , (3875,   3, 0x20000014) /* SoundTable */
+     , (3875,   6, 0x04000BEF) /* PaletteBase */
+     , (3875,   8, 0x0600164E) /* Icon */
+     , (3875,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3875,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3875, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3875, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3875, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3875, 8000, 3682606176) /* PCAPRecordedObjectIID */;
+VALUES (3875, 8000, 0xDB801C60) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3875,  1616,      2)  /* BloodDrinkerSelf6 */;

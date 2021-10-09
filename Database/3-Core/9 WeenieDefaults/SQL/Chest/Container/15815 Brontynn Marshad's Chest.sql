@@ -32,21 +32,21 @@ VALUES (15815,   1, 'Brontynn Marshad''s Chest') /* Name */
      , (15815, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15815,   1,   33554556) /* Setup */
-     , (15815,   2,  150994948) /* MotionTable */
-     , (15815,   3,  536870945) /* SoundTable */
-     , (15815,   8,  100667424) /* Icon */
-     , (15815,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15815,   1, 0x0200007C) /* Setup */
+     , (15815,   2, 0x09000004) /* MotionTable */
+     , (15815,   3, 0x20000021) /* SoundTable */
+     , (15815,   8, 0x06001020) /* Icon */
+     , (15815,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15815, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (15815, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (15815, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15815, 8040, 3516006656, 80.7856, 82.9783, 16, -0.7153358, 0, 0, -0.6987808) /* PCAPRecordedLocation */
+VALUES (15815, 8040, 0xD1920100, 80.7856, 82.9783, 16, -0.715336, 0, 0, -0.698781) /* PCAPRecordedLocation */
 /* @teleloc 0xD1920100 [80.785600 82.978300 16.000000] -0.715336 0.000000 0.000000 -0.698781 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15815, 8000, 2098798596) /* PCAPRecordedObjectIID */;
+VALUES (15815, 8000, 0x7D192004) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15815, -1, 15799, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate A Letter of Grief (15799) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

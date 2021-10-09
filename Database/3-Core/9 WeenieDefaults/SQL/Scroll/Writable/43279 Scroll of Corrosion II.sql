@@ -24,17 +24,17 @@ VALUES (43279,   1, 'Scroll of Corrosion II') /* Name */
 Sends a bolt of corrosion towards the target. The bolt does 116 points of damage over 15 seconds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43279,   1,   33554826) /* Setup */
-     , (43279,   8,  100691573) /* Icon */
-     , (43279,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43279,   1, 0x0200018A) /* Setup */
+     , (43279,   8, 0x06006E75) /* Icon */
+     , (43279,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43279,  28,       5388) /* Spell - Corrosion2 */
      , (43279, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (43279, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43279, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43279, 8040, 3062300988, 62.53641, 126.0011, 92.7812, 0.5096673, 0, 0, -0.8603716) /* PCAPRecordedLocation */
+VALUES (43279, 8040, 0xB687013C, 62.53641, 126.0011, 92.7812, 0.509667, 0, 0, -0.860372) /* PCAPRecordedLocation */
 /* @teleloc 0xB687013C [62.536410 126.001100 92.781200] 0.509667 0.000000 0.000000 -0.860372 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43279, 8000, 3361628773) /* PCAPRecordedObjectIID */;
+VALUES (43279, 8000, 0xC85E6265) /* PCAPRecordedObjectIID */;

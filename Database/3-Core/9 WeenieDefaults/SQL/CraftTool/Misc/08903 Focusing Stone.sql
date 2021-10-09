@@ -19,7 +19,8 @@ VALUES (8903,   1,        128) /* ItemType - Misc */
      , (8903, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8903,  22, True ) /* Inscribable */;
+VALUES (8903,  22, True ) /* Inscribable */
+     , (8903,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8903,  39,     0.7) /* DefaultScale */;
@@ -30,17 +31,17 @@ VALUES (8903,   1, 'Focusing Stone') /* Name */
      , (8903,  16, 'A small stone with strange markings on the side.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8903,   1,   33554669) /* Setup */
-     , (8903,   3,  536870932) /* SoundTable */
-     , (8903,   6,   67111928) /* PaletteBase */
-     , (8903,   8,  100671375) /* Icon */
-     , (8903,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8903,   1, 0x020000ED) /* Setup */
+     , (8903,   3, 0x20000014) /* SoundTable */
+     , (8903,   6, 0x04000BF8) /* PaletteBase */
+     , (8903,   8, 0x06001F8F) /* Icon */
+     , (8903,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8903, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (8903, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8903, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8903, 8000, 3330951319) /* PCAPRecordedObjectIID */;
+VALUES (8903, 8000, 0xC68A4897) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8903, 67111920, 0, 0);

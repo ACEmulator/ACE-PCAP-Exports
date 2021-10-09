@@ -21,6 +21,7 @@ VALUES (36618,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36618,  22, True ) /* Inscribable */
+     , (36618,  23, True ) /* DestroyOnSell */
      , (36618,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -28,18 +29,18 @@ VALUES (36618,   1, 'Gladiator''s Defense Armor Augmentation') /* Name */
      , (36618,  14, 'Use this gem on a piece of treasure-generated armor to increase its protection against bludgeon by 0.2. This will not stack with any other Armor Augmentations.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36618,   1,   33554809) /* Setup */
-     , (36618,   3,  536870932) /* SoundTable */
-     , (36618,   6,   67111919) /* PaletteBase */
-     , (36618,   8,  100686475) /* Icon */
-     , (36618,  22,  872415275) /* PhysicsEffectTable */
-     , (36618,  50,  100686637) /* IconOverlay */
+VALUES (36618,   1, 0x02000179) /* Setup */
+     , (36618,   3, 0x20000014) /* SoundTable */
+     , (36618,   6, 0x04000BEF) /* PaletteBase */
+     , (36618,   8, 0x06005A8B) /* Icon */
+     , (36618,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36618,  50, 0x06005B2D) /* IconOverlay */
      , (36618, 8001, 1076392088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (36618, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36618, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36618, 8000, 2560725021) /* PCAPRecordedObjectIID */;
+VALUES (36618, 8000, 0x98A1901D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36618, 67111920, 0, 0);

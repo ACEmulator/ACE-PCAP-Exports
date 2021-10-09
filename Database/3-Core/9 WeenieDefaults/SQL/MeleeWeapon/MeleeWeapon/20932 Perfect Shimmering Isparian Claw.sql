@@ -50,20 +50,20 @@ VALUES (20932,   1, 'Perfect Shimmering Isparian Claw') /* Name */
      , (20932,   8, 'Hecks Revolver') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20932,   1,   33556258) /* Setup */
-     , (20932,   3,  536870932) /* SoundTable */
-     , (20932,   8,  100673200) /* Icon */
-     , (20932,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20932,   1, 0x02000722) /* Setup */
+     , (20932,   3, 0x20000014) /* SoundTable */
+     , (20932,   8, 0x060026B0) /* Icon */
+     , (20932,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20932, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (20932, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20932, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20932, 8000, 2156576590) /* PCAPRecordedObjectIID */;
+VALUES (20932, 8000, 0x808ABF4E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20932,  1312,      2)  /* ArmorSelf6 */
-     , (20932,  2694,      2)  /* ModerateSwordAptitude */;
+VALUES (20932,  2694,      2)  /* ModerateSwordAptitude */
+     , (20932,  1312,      2)  /* ArmorSelf6 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20932, 0, 83889238, 83892492)

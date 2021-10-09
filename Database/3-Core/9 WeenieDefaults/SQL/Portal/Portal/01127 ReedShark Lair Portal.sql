@@ -23,16 +23,16 @@ VALUES (1127,   1, 'ReedShark Lair Portal') /* Name */
      , (1127, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1127,   1,   33555922) /* Setup */
-     , (1127,   2,  150994947) /* MotionTable */
-     , (1127,   8,  100667499) /* Icon */
+VALUES (1127,   1, 0x020005D2) /* Setup */
+     , (1127,   2, 0x09000003) /* MotionTable */
+     , (1127,   8, 0x0600106B) /* Icon */
      , (1127, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (1127, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (1127, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1127, 8040, 3144679473, 150.3, 13.6, 5.837, 0.4461981, 0, 0, -0.8949342) /* PCAPRecordedLocation */
+VALUES (1127, 8040, 0xBB700031, 150.3, 13.6, 5.837, 0.446198, 0, 0, -0.894934) /* PCAPRecordedLocation */
 /* @teleloc 0xBB700031 [150.300000 13.600000 5.837000] 0.446198 0.000000 0.000000 -0.894934 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1127, 8000, 2075590656) /* PCAPRecordedObjectIID */;
+VALUES (1127, 8000, 0x7BB70000) /* PCAPRecordedObjectIID */;

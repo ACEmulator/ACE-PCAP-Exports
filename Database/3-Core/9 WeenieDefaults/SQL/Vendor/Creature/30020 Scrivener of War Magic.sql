@@ -35,20 +35,20 @@ VALUES (30020,   1, 'Scrivener of War Magic') /* Name */
      , (30020, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30020,   1,   33555608) /* Setup */
-     , (30020,   2,  150995048) /* MotionTable */
-     , (30020,   3,  536870977) /* SoundTable */
-     , (30020,   8,  100669120) /* Icon */
+VALUES (30020,   1, 0x02000498) /* Setup */
+     , (30020,   2, 0x09000068) /* MotionTable */
+     , (30020,   3, 0x20000041) /* SoundTable */
+     , (30020,   8, 0x060016C0) /* Icon */
      , (30020, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (30020, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (30020, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30020, 8040, 836108552, 116.686, 141.442, 90, -0.405274, 0, 0, -0.9141952) /* PCAPRecordedLocation */
+VALUES (30020, 8040, 0x31D60108, 116.686, 141.442, 90, -0.405274, 0, 0, -0.914195) /* PCAPRecordedLocation */
 /* @teleloc 0x31D60108 [116.686000 141.442000 90.000000] -0.405274 0.000000 0.000000 -0.914195 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30020, 8000, 1931304974) /* PCAPRecordedObjectIID */;
+VALUES (30020, 8000, 0x731D600E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30020,   1,  90, 0, 0) /* Strength */

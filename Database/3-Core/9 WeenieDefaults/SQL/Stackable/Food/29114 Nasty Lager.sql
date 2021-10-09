@@ -20,17 +20,17 @@ VALUES (29114,   1, 'Nasty Lager') /* Name */
      , (29114,  20, 'Bottles of Nasty Lager') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29114,   1,   33559127) /* Setup */
-     , (29114,   3,  536870932) /* SoundTable */
-     , (29114,   8,  100686472) /* Icon */
-     , (29114,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29114,   1, 0x02001257) /* Setup */
+     , (29114,   3, 0x20000014) /* SoundTable */
+     , (29114,   8, 0x06005A88) /* Icon */
+     , (29114,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29114,  28,       3527) /* Spell - Intoxication1 */
-     , (29114,  50,  100687550) /* IconOverlay */
-     , (29114,  52,  100687547) /* IconUnderlay */
+     , (29114,  50, 0x06005EBE) /* IconOverlay */
+     , (29114,  52, 0x06005EBB) /* IconUnderlay */
      , (29114, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */
      , (29114, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (29114, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (29114, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29114, 8000, 2779733121) /* PCAPRecordedObjectIID */;
+VALUES (29114, 8000, 0xA5AF5C81) /* PCAPRecordedObjectIID */;

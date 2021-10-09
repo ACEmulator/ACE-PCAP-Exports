@@ -36,27 +36,27 @@ VALUES (857,   1, 'Archmage Anyao Zai') /* Name */
      , (857, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (857,   1,   33554433) /* Setup */
-     , (857,   2,  150994945) /* MotionTable */
-     , (857,   3,  536870913) /* SoundTable */
-     , (857,   6,   67108990) /* PaletteBase */
-     , (857,   8,  100667446) /* Icon */
-     , (857,   9,   83890450) /* EyesTexture */
-     , (857,  10,   83890562) /* NoseTexture */
-     , (857,  11,   83890590) /* MouthTexture */
-     , (857,  15,   67117069) /* HairPalette */
-     , (857,  16,   67110062) /* EyesPalette */
-     , (857,  17,   67110054) /* SkinPalette */
+VALUES (857,   1, 0x02000001) /* Setup */
+     , (857,   2, 0x09000001) /* MotionTable */
+     , (857,   3, 0x20000001) /* SoundTable */
+     , (857,   6, 0x0400007E) /* PaletteBase */
+     , (857,   8, 0x06001036) /* Icon */
+     , (857,   9, 0x05001112) /* EyesTexture */
+     , (857,  10, 0x05001182) /* NoseTexture */
+     , (857,  11, 0x0500119E) /* MouthTexture */
+     , (857,  15, 0x0400200D) /* HairPalette */
+     , (857,  16, 0x040004AE) /* EyesPalette */
+     , (857,  17, 0x040004A6) /* SkinPalette */
      , (857, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (857, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (857, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (857, 8040, 3880648963, 86.9182, 153.638, 34.005, -0.4806367, 0, 0, -0.8769198) /* PCAPRecordedLocation */
+VALUES (857, 8040, 0xE74E0103, 86.9182, 153.638, 34.005, -0.480637, 0, 0, -0.87692) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E0103 [86.918200 153.638000 34.005000] -0.480637 0.000000 0.000000 -0.876920 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (857, 8000, 2121588777) /* PCAPRecordedObjectIID */;
+VALUES (857, 8000, 0x7E74E029) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (857,   1,  55, 0, 0) /* Strength */
@@ -170,6 +170,7 @@ VALUES (857, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop *
      , (857, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (857, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (857, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (857, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (857, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (857, 4,  5540, -1, 0, 0, False) /* Create Wand (5540) for Shop */
      , (857, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */

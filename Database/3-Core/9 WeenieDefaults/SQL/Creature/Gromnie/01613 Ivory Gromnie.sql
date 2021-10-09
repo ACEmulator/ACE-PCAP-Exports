@@ -26,23 +26,23 @@ VALUES (1613,   1, 'Ivory Gromnie') /* Name */
      , (1613, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1613,   1,   33554487) /* Setup */
-     , (1613,   2,  150994971) /* MotionTable */
-     , (1613,   3,  536870921) /* SoundTable */
-     , (1613,   6,   67109307) /* PaletteBase */
-     , (1613,   8,  100667938) /* Icon */
-     , (1613,  22,  872415260) /* PhysicsEffectTable */
+VALUES (1613,   1, 0x02000037) /* Setup */
+     , (1613,   2, 0x0900001B) /* MotionTable */
+     , (1613,   3, 0x20000009) /* SoundTable */
+     , (1613,   6, 0x040001BB) /* PaletteBase */
+     , (1613,   8, 0x06001222) /* Icon */
+     , (1613,  22, 0x3400001C) /* PhysicsEffectTable */
      , (1613,  30,         84) /* PhysicsScript - BreatheFlame */
      , (1613, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1613, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1613, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1613, 8040, 3812491301, 118.4017, 116.0216, 165.1402, 0.9537169, 0, 0, -0.3007058) /* PCAPRecordedLocation */
+VALUES (1613, 8040, 0xE33E0025, 118.4017, 116.0216, 165.1402, 0.953717, 0, 0, -0.300706) /* PCAPRecordedLocation */
 /* @teleloc 0xE33E0025 [118.401700 116.021600 165.140200] 0.953717 0.000000 0.000000 -0.300706 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1613, 8000, 3685055463) /* PCAPRecordedObjectIID */;
+VALUES (1613, 8000, 0xDBA57BE7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1613,   1,  75, 0, 0) /* Strength */

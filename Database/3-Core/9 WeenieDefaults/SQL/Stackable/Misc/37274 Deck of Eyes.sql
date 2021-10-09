@@ -22,13 +22,13 @@ VALUES (37274,   1, 'Deck of Eyes') /* Name */
      , (37274,  20, 'Decks of Eyes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37274,   1,   33560546) /* Setup */
-     , (37274,   3,  536870932) /* SoundTable */
-     , (37274,   8,  100689859) /* Icon */
-     , (37274,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37274,   1, 0x020017E2) /* Setup */
+     , (37274,   3, 0x20000014) /* SoundTable */
+     , (37274,   8, 0x060067C3) /* Icon */
+     , (37274,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37274, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
      , (37274, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37274, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37274, 8000, 3362973991) /* PCAPRecordedObjectIID */;
+VALUES (37274, 8000, 0xC872E927) /* PCAPRecordedObjectIID */;

@@ -13,7 +13,7 @@ VALUES (8252,   1,        256) /* ItemType - MissileWeapon */
      , (8252,  15,         40) /* StackUnitValue */
      , (8252,  16,          1) /* ItemUseable - No */
      , (8252,  19,         40) /* Value */
-     , (8252,  51,          2) /* CombatUse - Missle */
+     , (8252,  51,          2) /* CombatUse - Missile */
      , (8252,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (8252, 151,         11) /* HookType - Floor, Wall, Yard */
      , (8252, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -26,17 +26,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8252,   1, 'Jack o'' Lantern') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8252,   1,   33556809) /* Setup */
-     , (8252,   3,  536870932) /* SoundTable */
-     , (8252,   6,   67112968) /* PaletteBase */
-     , (8252,   8,  100671018) /* Icon */
-     , (8252,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8252,   1, 0x02000949) /* Setup */
+     , (8252,   3, 0x20000014) /* SoundTable */
+     , (8252,   6, 0x04001008) /* PaletteBase */
+     , (8252,   8, 0x06001E2A) /* Icon */
+     , (8252,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8252, 8001,  270627352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (8252, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8252, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8252, 8000, 2861563513) /* PCAPRecordedObjectIID */;
+VALUES (8252, 8000, 0xAA8FFE79) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8252, 67112968, 0, 0);

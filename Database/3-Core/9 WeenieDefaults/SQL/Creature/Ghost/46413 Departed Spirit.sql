@@ -25,21 +25,21 @@ VALUES (46413,   1, 'Departed Spirit') /* Name */
      , (46413, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46413,   1,   33558816) /* Setup */
-     , (46413,   2,  150995302) /* MotionTable */
-     , (46413,   3,  536871094) /* SoundTable */
-     , (46413,   6,   67115251) /* PaletteBase */
-     , (46413,   8,  100676679) /* Icon */
+VALUES (46413,   1, 0x02001120) /* Setup */
+     , (46413,   2, 0x09000166) /* MotionTable */
+     , (46413,   3, 0x200000B6) /* SoundTable */
+     , (46413,   6, 0x040018F3) /* PaletteBase */
+     , (46413,   8, 0x06003447) /* Icon */
      , (46413, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46413, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (46413, 8005,     362499) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46413, 8040, 1467024278, 156.539, -199.928, -11.971, 0.6967069, 0, 0, -0.7173559) /* PCAPRecordedLocation */
+VALUES (46413, 8040, 0x57710396, 156.539, -199.928, -11.971, 0.696707, 0, 0, -0.717356) /* PCAPRecordedLocation */
 /* @teleloc 0x57710396 [156.539000 -199.928000 -11.971000] 0.696707 0.000000 0.000000 -0.717356 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46413, 8000, 3707613699) /* PCAPRecordedObjectIID */;
+VALUES (46413, 8000, 0xDCFDB203) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46413,   1, 400, 0, 0) /* Strength */

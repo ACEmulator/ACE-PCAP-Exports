@@ -19,17 +19,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (745,   1, 'Elder Talisman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (745,   1,   33555207) /* Setup */
-     , (745,   3,  536870932) /* SoundTable */
-     , (745,   6,   67111919) /* PaletteBase */
-     , (745,   8,  100668397) /* Icon */
-     , (745,  22,  872415275) /* PhysicsEffectTable */
+VALUES (745,   1, 0x02000307) /* Setup */
+     , (745,   3, 0x20000014) /* SoundTable */
+     , (745,   6, 0x04000BEF) /* PaletteBase */
+     , (745,   8, 0x060013ED) /* Icon */
+     , (745,  22, 0x3400002B) /* PhysicsEffectTable */
      , (745, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (745, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (745, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (745, 8000, 3710973228) /* PCAPRecordedObjectIID */;
+VALUES (745, 8000, 0xDD30F52C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (745, 67111921, 0, 0);

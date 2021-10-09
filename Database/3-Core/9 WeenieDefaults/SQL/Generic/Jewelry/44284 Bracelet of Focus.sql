@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44284,   1,          8) /* ItemType - Jewelry */
      , (44284,   5,         60) /* EncumbranceVal */
      , (44284,   9,     196608) /* ValidLocations - WristWear */
-     , (44284,  10,      65536) /* CurrentWieldedLocation - WristWearLeft */
      , (44284,  16,          1) /* ItemUseable - No */
      , (44284,  19,         20) /* Value */
      , (44284,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -32,21 +31,21 @@ VALUES (44284,   1, 'Bracelet of Focus') /* Name */
      , (44284,  16, 'This bracelet increases focus.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44284,   1,   33554683) /* Setup */
-     , (44284,   3,  536870932) /* SoundTable */
-     , (44284,   6,   67111919) /* PaletteBase */
-     , (44284,   8,  100668625) /* Icon */
-     , (44284,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44284,   1, 0x020000FB) /* Setup */
+     , (44284,   3, 0x20000014) /* SoundTable */
+     , (44284,   6, 0x04000BEF) /* PaletteBase */
+     , (44284,   8, 0x060014D1) /* Icon */
+     , (44284,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44284, 8001,    2326552) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (44284, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44284, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44284, 8000, 2217299808) /* PCAPRecordedObjectIID */;
+VALUES (44284, 8000, 0x84294F60) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44284,  3964,      2)  /* CANTRIPFOCUS3 */
-     , (44284,  4304,      2)  /* FocusOther8 */;
+VALUES (44284,  4304,      2)  /* FocusOther8 */
+     , (44284,  3964,      2)  /* CANTRIPFOCUS3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44284, 67111922, 0, 0);

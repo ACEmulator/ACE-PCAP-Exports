@@ -53,26 +53,26 @@ VALUES (41036,   1, 'Assagai') /* Name */
      , (41036,  16, 'Assagai of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41036,   1,   33560868) /* Setup */
-     , (41036,   3,  536870932) /* SoundTable */
-     , (41036,   6,   67115558) /* PaletteBase */
-     , (41036,   8,  100690623) /* Icon */
-     , (41036,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41036,   1, 0x02001924) /* Setup */
+     , (41036,   3, 0x20000014) /* SoundTable */
+     , (41036,   6, 0x04001A26) /* PaletteBase */
+     , (41036,   8, 0x06006ABF) /* Icon */
+     , (41036,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41036,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41036, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41036, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41036, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41036, 8040, 23855549, 52.06144, -37.12774, 0.05, 0.9189001, 0, 0, -0.3944904) /* PCAPRecordedLocation */
+VALUES (41036, 8040, 0x016C01BD, 52.06144, -37.12774, 0.05, 0.9189, 0, 0, -0.39449) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [52.061440 -37.127740 0.050000] 0.918900 0.000000 0.000000 -0.394490 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41036, 8000, 2238263221) /* PCAPRecordedObjectIID */;
+VALUES (41036, 8000, 0x85692FB5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41036,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (41036,  2059,      2)  /* CoordinationSelf7 */
+VALUES (41036,  2059,      2)  /* CoordinationSelf7 */
+     , (41036,  1616,      2)  /* BloodDrinkerSelf6 */
      , (41036,  3833,      2)  /* CantripSalvaging1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

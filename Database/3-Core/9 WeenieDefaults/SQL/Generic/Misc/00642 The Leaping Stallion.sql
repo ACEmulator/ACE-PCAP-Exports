@@ -19,18 +19,18 @@ VALUES (642,   1, 'The Leaping Stallion') /* Name */
      , (642,  16, 'The Leaping Stallion') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (642,   1,   33555088) /* Setup */
-     , (642,   8,  100668115) /* Icon */
+VALUES (642,   1, 0x02000290) /* Setup */
+     , (642,   8, 0x060012D3) /* Icon */
      , (642, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (642, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (642, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (642, 8040, 3465871389, 94.8, 110.52, 20, 0.71325, 0, 0, 0.700909) /* PCAPRecordedLocation */
+VALUES (642, 8040, 0xCE95001D, 94.8, 110.52, 20, 0.71325, 0, 0, 0.700909) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95001D [94.800000 110.520000 20.000000] 0.713250 0.000000 0.000000 0.700909 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (642, 8000, 2095665196) /* PCAPRecordedObjectIID */;
+VALUES (642, 8000, 0x7CE9502C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (642, 0, 83891055, 83889908);

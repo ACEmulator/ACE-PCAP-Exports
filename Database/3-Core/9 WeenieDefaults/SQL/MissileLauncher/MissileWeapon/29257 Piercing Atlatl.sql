@@ -15,7 +15,7 @@ VALUES (29257,   1,        256) /* ItemType - MissileWeapon */
      , (29257,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29257,  49,         20) /* WeaponTime */
      , (29257,  50,          4) /* AmmoType - Atlatl */
-     , (29257,  51,          2) /* CombatUse - Missle */
+     , (29257,  51,          2) /* CombatUse - Missile */
      , (29257,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29257, 105,          6) /* ItemWorkmanship */
      , (29257, 106,        263) /* ItemSpellcraft */
@@ -55,26 +55,22 @@ VALUES (29257,   1, 'Piercing Atlatl') /* Name */
      , (29257,  16, 'Piercing Atlatl of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29257,   1,   33559242) /* Setup */
-     , (29257,   3,  536870932) /* SoundTable */
-     , (29257,   6,   67115373) /* PaletteBase */
-     , (29257,   8,  100677454) /* Icon */
-     , (29257,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29257,   1, 0x020012CA) /* Setup */
+     , (29257,   3, 0x20000014) /* SoundTable */
+     , (29257,   6, 0x0400196D) /* PaletteBase */
+     , (29257,   8, 0x0600374E) /* Icon */
+     , (29257,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29257,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (29257, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (29257, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29257, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29257, 8000, 3695926297) /* PCAPRecordedObjectIID */;
+VALUES (29257, 8000, 0xDC4B5C19) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29257,  1616,      2)  /* BloodDrinkerSelf6 */
      , (29257,  3833,      2)  /* CantripSalvaging1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29257, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
-     , (29257, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29257, 67115372, 0, 0);

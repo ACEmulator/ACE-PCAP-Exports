@@ -18,17 +18,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51851,   1, 'Spirited Bloodlust Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51851,   1,   33554689) /* Setup */
-     , (51851,   3,  536870932) /* SoundTable */
-     , (51851,   6,   67111919) /* PaletteBase */
-     , (51851,   8,  100693214) /* Icon */
-     , (51851,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51851,   1, 0x02000101) /* Setup */
+     , (51851,   3, 0x20000014) /* SoundTable */
+     , (51851,   6, 0x04000BEF) /* PaletteBase */
+     , (51851,   8, 0x060074DE) /* Icon */
+     , (51851,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51851, 8001,    2179088) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden */
      , (51851, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51851, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51851, 8000, 2153283346) /* PCAPRecordedObjectIID */;
+VALUES (51851, 8000, 0x80587F12) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51851, 67111919, 0, 0);

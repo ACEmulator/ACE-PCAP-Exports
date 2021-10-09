@@ -19,13 +19,13 @@ VALUES (31485,   1, 'Second Half of a Worn Atlatl') /* Name */
      , (31485,  16, 'Half of a worn old atlatl. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31485,   1,   33554817) /* Setup */
-     , (31485,   3,  536870932) /* SoundTable */
-     , (31485,   8,  100687882) /* Icon */
-     , (31485,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31485,   1, 0x02000181) /* Setup */
+     , (31485,   3, 0x20000014) /* SoundTable */
+     , (31485,   8, 0x0600600A) /* Icon */
+     , (31485,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31485, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (31485, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31485, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31485, 8000, 2156008133) /* PCAPRecordedObjectIID */;
+VALUES (31485, 8000, 0x808212C5) /* PCAPRecordedObjectIID */;

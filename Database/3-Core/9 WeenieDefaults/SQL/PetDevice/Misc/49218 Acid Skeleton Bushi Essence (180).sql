@@ -17,7 +17,7 @@ VALUES (49218,   1,        128) /* ItemType - Misc */
      , (49218, 105,          6) /* ItemWorkmanship */
      , (49218, 114,          0) /* Attuned - Normal */
      , (49218, 280,        213) /* SharedCooldown */
-     , (49218, 366,         54) /* UseRequiresSkill */
+     , (49218, 366,         54) /* UseRequiresSkill - Summoning */
      , (49218, 367,        530) /* UseRequiresSkillLevel */
      , (49218, 369,        170) /* UseRequiresLevel */
      , (49218, 371,         10) /* GearDamageResist */
@@ -36,24 +36,20 @@ VALUES (49218,   1, 'Acid Skeleton Bushi Essence (180)') /* Name */
      , (49218,  14, 'Use this essence to summon or dismiss your Acid Skeleton Bushi.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49218,   1,   33554817) /* Setup */
-     , (49218,   3,  536870932) /* SoundTable */
-     , (49218,   6,   67111919) /* PaletteBase */
-     , (49218,   8,  100669124) /* Icon */
-     , (49218,  22,  872415275) /* PhysicsEffectTable */
-     , (49218,  50,  100693031) /* IconOverlay */
-     , (49218,  52,  100693024) /* IconUnderlay */
+VALUES (49218,   1, 0x02000181) /* Setup */
+     , (49218,   3, 0x20000014) /* SoundTable */
+     , (49218,   6, 0x04000BEF) /* PaletteBase */
+     , (49218,   8, 0x060016C4) /* Icon */
+     , (49218,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49218,  50, 0x06007427) /* IconOverlay */
+     , (49218,  52, 0x06007420) /* IconUnderlay */
      , (49218, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49218, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49218, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49218, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49218, 8000, 3359463628) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49218, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (49218, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (49218, 8000, 0xC83D58CC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49218, 67111920, 0, 0);

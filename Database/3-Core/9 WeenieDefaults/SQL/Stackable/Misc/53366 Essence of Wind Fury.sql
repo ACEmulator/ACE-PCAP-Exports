@@ -24,15 +24,15 @@ VALUES (53366,   1, 'Essence of Wind Fury') /* Name */
      , (53366,  16, 'A powerful essence from a champion of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53366,   1,   33561540) /* Setup */
-     , (53366,   3,  536870932) /* SoundTable */
-     , (53366,   8,  100671683) /* Icon */
-     , (53366,  22,  872415275) /* PhysicsEffectTable */
-     , (53366,  52,  100689825) /* IconUnderlay */
+VALUES (53366,   1, 0x02001BC4) /* Setup */
+     , (53366,   3, 0x20000014) /* SoundTable */
+     , (53366,   8, 0x060020C3) /* Icon */
+     , (53366,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53366,  52, 0x060067A1) /* IconUnderlay */
      , (53366, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (53366, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (53366, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (53366, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53366, 8000, 3692278753) /* PCAPRecordedObjectIID */;
+VALUES (53366, 8000, 0xDC13B3E1) /* PCAPRecordedObjectIID */;

@@ -16,7 +16,7 @@ VALUES (43124,   1,         16) /* ItemType - Creature */
      , (43124, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43124, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (43124, 188,          3) /* HeritageGroup - Sho */
-     , (43124, 281,          1) /* Faction1Bits */
+     , (43124, 281,          1) /* Faction1Bits - CelestialHand */
      , (43124, 287,       1001) /* SocietyRankCelhan */
      , (43124, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -33,27 +33,27 @@ VALUES (43124,   1, 'Jin Kyong') /* Name */
      , (43124, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43124,   1,   33554510) /* Setup */
-     , (43124,   2,  150994945) /* MotionTable */
-     , (43124,   3,  536870914) /* SoundTable */
-     , (43124,   6,   67108990) /* PaletteBase */
-     , (43124,   8,  100667446) /* Icon */
-     , (43124,   9,   83890263) /* EyesTexture */
-     , (43124,  10,   83890300) /* NoseTexture */
-     , (43124,  11,   83890351) /* MouthTexture */
-     , (43124,  15,   67117002) /* HairPalette */
-     , (43124,  16,   67109565) /* EyesPalette */
-     , (43124,  17,   67110057) /* SkinPalette */
+VALUES (43124,   1, 0x0200004E) /* Setup */
+     , (43124,   2, 0x09000001) /* MotionTable */
+     , (43124,   3, 0x20000002) /* SoundTable */
+     , (43124,   6, 0x0400007E) /* PaletteBase */
+     , (43124,   8, 0x06001036) /* Icon */
+     , (43124,   9, 0x05001057) /* EyesTexture */
+     , (43124,  10, 0x0500107C) /* NoseTexture */
+     , (43124,  11, 0x050010AF) /* MouthTexture */
+     , (43124,  15, 0x04001FCA) /* HairPalette */
+     , (43124,  16, 0x040002BD) /* EyesPalette */
+     , (43124,  17, 0x040004A9) /* SkinPalette */
      , (43124, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (43124, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (43124, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43124, 8040, 1074528291, 111.88, 63.7981, 0.004999995, -0.7478541, 0, 0, -0.6638631) /* PCAPRecordedLocation */
+VALUES (43124, 8040, 0x400C0023, 111.88, 63.7981, 0.005, -0.747854, 0, 0, -0.663863) /* PCAPRecordedLocation */
 /* @teleloc 0x400C0023 [111.880000 63.798100 0.005000] -0.747854 0.000000 0.000000 -0.663863 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43124, 8000, 3631171263) /* PCAPRecordedObjectIID */;
+VALUES (43124, 8000, 0xD86F46BF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43124,   1, 255, 0, 0) /* Strength */

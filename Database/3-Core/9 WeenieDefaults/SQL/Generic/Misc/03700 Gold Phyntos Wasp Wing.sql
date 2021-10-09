@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3700,   1, 'Gold Phyntos Wasp Wing') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3700,   1,   33558524) /* Setup */
-     , (3700,   3,  536870932) /* SoundTable */
-     , (3700,   6,   67109312) /* PaletteBase */
-     , (3700,   8,  100670059) /* Icon */
-     , (3700,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3700,   1, 0x02000FFC) /* Setup */
+     , (3700,   3, 0x20000014) /* SoundTable */
+     , (3700,   6, 0x040001C0) /* PaletteBase */
+     , (3700,   8, 0x06001A6B) /* Icon */
+     , (3700,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3700, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (3700, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3700, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3700, 8000, 2401204713) /* PCAPRecordedObjectIID */;
+VALUES (3700, 8000, 0x8F1F79E9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3700, 67111658, 0, 0);

@@ -19,7 +19,7 @@ VALUES (44855,   1,          4) /* ItemType - Clothing */
      , (44855, 158,          7) /* WieldRequirements - Level */
      , (44855, 159,          1) /* WieldSkillType - Axe */
      , (44855, 160,         60) /* WieldDifficulty */
-     , (44855, 265,         53) /* EquipmentSetId - CloakAxe */
+     , (44855, 265,         53) /* EquipmentSetId - CloakLightWeapons */
      , (44855, 319,          2) /* ItemMaxLevel */
      , (44855, 320,          2) /* ItemXpStyle - ScalesWithLevel */
      , (44855, 352,          1) /* CloakWeaveProc */
@@ -49,18 +49,18 @@ VALUES (44855,   1, 'Halved Cloak') /* Name */
      , (44855,  16, 'Halved Cloak') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44855,   1,   33561386) /* Setup */
-     , (44855,   3,  536870932) /* SoundTable */
-     , (44855,   8,  100692130) /* Icon */
-     , (44855,  22,  872415275) /* PhysicsEffectTable */
-     , (44855,  50,  100690998) /* IconOverlay */
+VALUES (44855,   1, 0x02001B2A) /* Setup */
+     , (44855,   3, 0x20000014) /* SoundTable */
+     , (44855,   8, 0x060070A2) /* Icon */
+     , (44855,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44855,  50, 0x06006C36) /* IconOverlay */
      , (44855,  55,       5756) /* ProcSpell - CloakMissileDLower */
      , (44855, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
      , (44855, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44855, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44855, 8000, 2174493237) /* PCAPRecordedObjectIID */;
+VALUES (44855, 8000, 0x819C2235) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (44855, 0, 83898657, 83898664);

@@ -41,20 +41,17 @@ VALUES (7788,   1, 'Fire Spiked Club') /* Name */
      , (7788,  16, 'Fire Spiked Club') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7788,   1,   33556672) /* Setup */
-     , (7788,   3,  536870932) /* SoundTable */
-     , (7788,   6,   67111919) /* PaletteBase */
-     , (7788,   8,  100670780) /* Icon */
-     , (7788,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7788,   1, 0x020008C0) /* Setup */
+     , (7788,   3, 0x20000014) /* SoundTable */
+     , (7788,   6, 0x04000BEF) /* PaletteBase */
+     , (7788,   8, 0x06001D3C) /* Icon */
+     , (7788,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7788, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (7788, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7788, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7788, 8000, 3696766274) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7788, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+VALUES (7788, 8000, 0xDC582D42) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7788, 67111926, 0, 0);

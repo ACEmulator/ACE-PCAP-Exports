@@ -32,14 +32,14 @@ VALUES (44819,   1, 'Contract for Aerbax''s Prodigal Monouga') /* Name */
      , (44819,  16, 'Investigate the claims of the drudges having captive monougas.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44819,   1,   33554773) /* Setup */
-     , (44819,   3,  536870932) /* SoundTable */
-     , (44819,   8,  100691932) /* Icon */
-     , (44819,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44819,   1, 0x02000155) /* Setup */
+     , (44819,   3, 0x20000014) /* SoundTable */
+     , (44819,   8, 0x06006FDC) /* Icon */
+     , (44819,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44819, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44819, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44819, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44819, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44819, 8000, 3329447339) /* PCAPRecordedObjectIID */;
+VALUES (44819, 8000, 0xC67355AB) /* PCAPRecordedObjectIID */;

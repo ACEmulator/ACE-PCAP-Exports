@@ -47,13 +47,13 @@ VALUES (45432,   1, 'Acid Khanjar') /* Name */
      , (45432,  16, 'Acid Khanjar') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45432,   1,   33555746) /* Setup */
-     , (45432,   3,  536870932) /* SoundTable */
-     , (45432,   8,  100668942) /* Icon */
-     , (45432,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45432,   1, 0x02000522) /* Setup */
+     , (45432,   3, 0x20000014) /* SoundTable */
+     , (45432,   8, 0x0600160E) /* Icon */
+     , (45432,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45432, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45432, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45432, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45432, 8000, 3354775377) /* PCAPRecordedObjectIID */;
+VALUES (45432, 8000, 0xC7F5CF51) /* PCAPRecordedObjectIID */;

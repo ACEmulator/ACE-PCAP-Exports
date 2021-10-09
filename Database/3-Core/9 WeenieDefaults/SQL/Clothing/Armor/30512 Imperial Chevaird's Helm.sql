@@ -21,18 +21,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30512,   1, 'Imperial Chevaird''s Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30512,   1,   33559428) /* Setup */
-     , (30512,   3,  536870932) /* SoundTable */
-     , (30512,   8,  100686866) /* Icon */
-     , (30512,  22,  872415275) /* PhysicsEffectTable */
-     , (30512,  52,  100686604) /* IconUnderlay */
+VALUES (30512,   1, 0x02001384) /* Setup */
+     , (30512,   3, 0x20000014) /* SoundTable */
+     , (30512,   8, 0x06005C12) /* Icon */
+     , (30512,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30512,  52, 0x06005B0C) /* IconUnderlay */
      , (30512, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (30512, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30512, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30512, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30512, 8000, 2804495222) /* PCAPRecordedObjectIID */;
+VALUES (30512, 8000, 0xA7293376) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (30512, 0, 16792066);

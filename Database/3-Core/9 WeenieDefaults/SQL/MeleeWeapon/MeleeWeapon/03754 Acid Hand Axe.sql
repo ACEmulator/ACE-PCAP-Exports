@@ -54,17 +54,17 @@ VALUES (3754,   1, 'Acid Hand Axe') /* Name */
      , (3754,  16, 'Acid Hand Axe of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3754,   1,   33555702) /* Setup */
-     , (3754,   3,  536870932) /* SoundTable */
-     , (3754,   8,  100670219) /* Icon */
-     , (3754,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3754,   1, 0x020004F6) /* Setup */
+     , (3754,   3, 0x20000014) /* SoundTable */
+     , (3754,   8, 0x06001B0B) /* Icon */
+     , (3754,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3754,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3754, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3754, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3754, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3754, 8000, 3354846593) /* PCAPRecordedObjectIID */;
+VALUES (3754, 8000, 0xC7F6E581) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3754,  1354,      2)  /* EnduranceSelf6 */

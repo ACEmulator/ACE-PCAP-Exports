@@ -47,27 +47,27 @@ VALUES (27094,   1, 'Scepter of Might') /* Name */
      , (27094,  16, 'A large carved scepter, it is made from both stone and gems.  It seems to refract light, magnifying the multifaceted gems into miniature suns.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27094,   1,   33557013) /* Setup */
-     , (27094,   3,  536870932) /* SoundTable */
-     , (27094,   6,   67111919) /* PaletteBase */
-     , (27094,   8,  100671509) /* Icon */
-     , (27094,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27094,   1, 0x02000A15) /* Setup */
+     , (27094,   3, 0x20000014) /* SoundTable */
+     , (27094,   6, 0x04000BEF) /* PaletteBase */
+     , (27094,   8, 0x06002015) /* Icon */
+     , (27094,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27094, 8001,  270598680) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, ValidLocations, Burden, HookType */
      , (27094, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27094, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27094, 8040, 2103705619, 51.6647, 49.25755, 12.12, -0.6262025, 0, 0, -0.7796605) /* PCAPRecordedLocation */
+VALUES (27094, 8040, 0x7D640013, 51.6647, 49.25755, 12.12, -0.626203, 0, 0, -0.779661) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640013 [51.664700 49.257550 12.120000] -0.626203 0.000000 0.000000 -0.779661 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27094, 8000, 2151180417) /* PCAPRecordedObjectIID */;
+VALUES (27094, 8000, 0x80386881) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27094,  1093,      2)  /* FireProtectionSelf5 */
+     , (27094,  1614,      2)  /* BloodDrinkerSelf4 */
      , (27094,  1310,      2)  /* ArmorSelf4 */
-     , (27094,  1330,      2)  /* StrengthSelf4 */
-     , (27094,  1614,      2)  /* BloodDrinkerSelf4 */;
+     , (27094,  1330,      2)  /* StrengthSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27094, 67111924, 0, 0);

@@ -8,7 +8,6 @@ VALUES (29371,   1,          2) /* ItemType - Armor */
      , (29371,   4,      16384) /* ClothingPriority - Head */
      , (29371,   5,        500) /* EncumbranceVal */
      , (29371,   9,          1) /* ValidLocations - HeadWear */
-     , (29371,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (29371,  16,          1) /* ItemUseable - No */
      , (29371,  18,          1) /* UiEffects - Magical */
      , (29371,  19,       4000) /* Value */
@@ -46,25 +45,25 @@ VALUES (29371,   1, 'Blooded Platinum Invader Lord Helm') /* Name */
      , (29371,  16, 'A helm taken from one of the Knights of the Viamontian Platinum Legion and fortified with royal blood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29371,   1,   33559356) /* Setup */
-     , (29371,   3,  536870932) /* SoundTable */
-     , (29371,   8,  100686485) /* Icon */
-     , (29371,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29371,   1, 0x0200133C) /* Setup */
+     , (29371,   3, 0x20000014) /* SoundTable */
+     , (29371,   8, 0x06005A95) /* Icon */
+     , (29371,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29371, 8001,  271024280) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (29371, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29371, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29371, 8000, 2461523191) /* PCAPRecordedObjectIID */;
+VALUES (29371, 8000, 0x92B7DCF7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29371,  2108,      2)  /* Impenetrability7 */
-     , (29371,  2195,      2)  /* ArcaneEnlightenmentSelf7 */
-     , (29371,  2243,      2)  /* ImpregnabilitySelf7 */
+VALUES (29371,  2243,      2)  /* ImpregnabilitySelf7 */
      , (29371,  2245,      2)  /* InvulnerabilitySelf7 */
-     , (29371,  2281,      2)  /* MagicResistanceSelf7 */
      , (29371,  2573,      2)  /* CANTRIPENDURANCE2 */
-     , (29371,  2576,      2)  /* CANTRIPSTRENGTH2 */;
+     , (29371,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (29371,  2195,      2)  /* ArcaneEnlightenmentSelf7 */
+     , (29371,  2281,      2)  /* MagicResistanceSelf7 */
+     , (29371,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (29371, 0, 16791973);

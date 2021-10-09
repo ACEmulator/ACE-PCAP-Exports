@@ -28,18 +28,18 @@ VALUES (45516,   1, 'Lucky White Rabbit''s Foot Gem') /* Name */
      , (45516,  16, 'A magical gem containing a Lucky White Rabbit''s Foot.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45516,   1,   33556769) /* Setup */
-     , (45516,   3,  536870932) /* SoundTable */
-     , (45516,   6,   67111919) /* PaletteBase */
-     , (45516,   8,  100673039) /* Icon */
-     , (45516,  22,  872415275) /* PhysicsEffectTable */
-     , (45516,  50,  100689462) /* IconOverlay */
+VALUES (45516,   1, 0x02000921) /* Setup */
+     , (45516,   3, 0x20000014) /* SoundTable */
+     , (45516,   6, 0x04000BEF) /* PaletteBase */
+     , (45516,   8, 0x0600260F) /* Icon */
+     , (45516,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45516,  50, 0x06006636) /* IconOverlay */
      , (45516, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (45516, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45516, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45516, 8000, 2639828570) /* PCAPRecordedObjectIID */;
+VALUES (45516, 8000, 0x9D58965A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45516, 67111927, 0, 0);

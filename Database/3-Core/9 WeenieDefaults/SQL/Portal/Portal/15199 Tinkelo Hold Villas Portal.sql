@@ -22,16 +22,16 @@ VALUES (15199,   1, 'Tinkelo Hold Villas Portal') /* Name */
      , (15199, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15199,   1,   33554867) /* Setup */
-     , (15199,   2,  150994947) /* MotionTable */
-     , (15199,   8,  100667499) /* Icon */
+VALUES (15199,   1, 0x020001B3) /* Setup */
+     , (15199,   2, 0x09000003) /* MotionTable */
+     , (15199,   8, 0x0600106B) /* Icon */
      , (15199, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (15199, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (15199, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15199, 8040, 3114270746, 81.2602, 41.309, 53.937, -0.4669721, 0, 0, 0.8842721) /* PCAPRecordedLocation */
+VALUES (15199, 8040, 0xB9A0001A, 81.2602, 41.309, 53.937, -0.466972, 0, 0, 0.884272) /* PCAPRecordedLocation */
 /* @teleloc 0xB9A0001A [81.260200 41.309000 53.937000] -0.466972 0.000000 0.000000 0.884272 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15199, 8000, 2073690121) /* PCAPRecordedObjectIID */;
+VALUES (15199, 8000, 0x7B9A0009) /* PCAPRecordedObjectIID */;

@@ -22,16 +22,16 @@ VALUES (12501,   1, 'Glenden Hills East Settlement Portal') /* Name */
      , (12501, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12501,   1,   33554867) /* Setup */
-     , (12501,   2,  150994947) /* MotionTable */
-     , (12501,   8,  100667499) /* Icon */
+VALUES (12501,   1, 0x020001B3) /* Setup */
+     , (12501,   2, 0x09000003) /* MotionTable */
+     , (12501,   8, 0x0600106B) /* Icon */
      , (12501, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12501, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12501, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12501, 8040, 2762080275, 69.2844, 59.6521, 140.7397, -0.7049169, 0, 0, 0.7092899) /* PCAPRecordedLocation */
+VALUES (12501, 8040, 0xA4A20013, 69.2844, 59.6521, 140.7397, -0.704917, 0, 0, 0.70929) /* PCAPRecordedLocation */
 /* @teleloc 0xA4A20013 [69.284400 59.652100 140.739700] -0.704917 0.000000 0.000000 0.709290 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12501, 8000, 2051678208) /* PCAPRecordedObjectIID */;
+VALUES (12501, 8000, 0x7A4A2000) /* PCAPRecordedObjectIID */;

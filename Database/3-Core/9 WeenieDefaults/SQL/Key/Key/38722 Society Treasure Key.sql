@@ -18,6 +18,7 @@ VALUES (38722,   1,      16384) /* ItemType - Key */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38722,  22, True ) /* Inscribable */
+     , (38722,  23, True ) /* DestroyOnSell */
      , (38722,  69, False) /* IsSellable */
      , (38722,  99, False) /* Ivoryable */;
 
@@ -27,12 +28,12 @@ VALUES (38722,   1, 'Society Treasure Key') /* Name */
      , (38722,  16, 'A key authorized by the Quartermaster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38722,   1,   33554784) /* Setup */
-     , (38722,   8,  100668441) /* Icon */
-     , (38722,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38722,   1, 0x02000160) /* Setup */
+     , (38722,   8, 0x06001419) /* Icon */
+     , (38722,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38722, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (38722, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38722, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38722, 8000, 3354414221) /* PCAPRecordedObjectIID */;
+VALUES (38722, 8000, 0xC7F04C8D) /* PCAPRecordedObjectIID */;

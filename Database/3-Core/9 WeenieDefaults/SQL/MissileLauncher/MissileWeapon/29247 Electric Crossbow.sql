@@ -15,7 +15,7 @@ VALUES (29247,   1,        256) /* ItemType - MissileWeapon */
      , (29247,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29247,  49,         91) /* WeaponTime */
      , (29247,  50,          2) /* AmmoType - Bolt */
-     , (29247,  51,          2) /* CombatUse - Missle */
+     , (29247,  51,          2) /* CombatUse - Missile */
      , (29247,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29247, 105,          6) /* ItemWorkmanship */
      , (29247, 106,        315) /* ItemSpellcraft */
@@ -55,25 +55,25 @@ VALUES (29247,   1, 'Electric Crossbow') /* Name */
      , (29247,  16, 'Electric Crossbow of Swift Killer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29247,   1,   33559238) /* Setup */
-     , (29247,   3,  536870932) /* SoundTable */
-     , (29247,   6,   67115373) /* PaletteBase */
-     , (29247,   8,  100677439) /* Icon */
-     , (29247,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29247,   1, 0x020012C6) /* Setup */
+     , (29247,   3, 0x20000014) /* SoundTable */
+     , (29247,   6, 0x0400196D) /* PaletteBase */
+     , (29247,   8, 0x0600373F) /* Icon */
+     , (29247,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29247,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (29247, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (29247, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29247, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29247, 8000, 2659950934) /* PCAPRecordedObjectIID */;
+VALUES (29247, 8000, 0x9E8BA156) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29247,  1627,      2)  /* SwiftKillerSelf6 */
-     , (29247,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (29247,  2572,      2)  /* CANTRIPCOORDINATION2 */
+VALUES (29247,  2572,      2)  /* CANTRIPCOORDINATION2 */
      , (29247,  2582,      2)  /* CANTRIPQUICKNESS1 */
-     , (29247,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */;
+     , (29247,  1627,      2)  /* SwiftKillerSelf6 */
+     , (29247,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */
+     , (29247,  2096,      2)  /* BloodDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29247, 67115368, 0, 0);

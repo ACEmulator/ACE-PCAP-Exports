@@ -26,22 +26,22 @@ VALUES (46815,   1, 'Wight Blade Sorcerer') /* Name */
      , (46815, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46815,   1,   33560225) /* Setup */
-     , (46815,   2,  150994967) /* MotionTable */
-     , (46815,   3,  536870934) /* SoundTable */
-     , (46815,   6,   67110722) /* PaletteBase */
-     , (46815,   8,  100667942) /* Icon */
-     , (46815,  22,  872415272) /* PhysicsEffectTable */
+VALUES (46815,   1, 0x020016A1) /* Setup */
+     , (46815,   2, 0x09000017) /* MotionTable */
+     , (46815,   3, 0x20000016) /* SoundTable */
+     , (46815,   6, 0x04000742) /* PaletteBase */
+     , (46815,   8, 0x06001226) /* Icon */
+     , (46815,  22, 0x34000028) /* PhysicsEffectTable */
      , (46815, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46815, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (46815, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46815, 8040, 1210908702, 85.9222, 130.328, 10.05825, 0.9719456, 0, 0, 0.2352059) /* PCAPRecordedLocation */
+VALUES (46815, 8040, 0x482D001E, 85.9222, 130.328, 10.05825, 0.971946, 0, 0, 0.235206) /* PCAPRecordedLocation */
 /* @teleloc 0x482D001E [85.922200 130.328000 10.058250] 0.971946 0.000000 0.000000 0.235206 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46815, 8000, 2921659874) /* PCAPRecordedObjectIID */;
+VALUES (46815, 8000, 0xAE24FDE2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46815,   1, 240, 0, 0) /* Strength */
@@ -90,7 +90,8 @@ VALUES (46815, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for C
      , (46815, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (46815, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
      , (46815, 9, 37326,  1, 0, 0, False) /* Create Glyph of Person Appraisal (37326) for ContainTreasure */
-     , (46815, 9, 22444,  0, 0, 0, False) /* Create Frost Dirk (22444) for ContainTreasure */;
+     , (46815, 9, 22444,  0, 0, 0, False) /* Create Frost Dirk (22444) for ContainTreasure */
+     , (46815, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46815, 67113362, 0, 0);

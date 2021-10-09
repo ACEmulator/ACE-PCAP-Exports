@@ -24,17 +24,17 @@ VALUES (20427,   1, 'Aura of Mystic''s Blessing') /* Name */
 Increases a magic casting implement''s mana conversion bonus by 70%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20427,   1,   33554826) /* Setup */
-     , (20427,   8,  100676672) /* Icon */
-     , (20427,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20427,   1, 0x0200018A) /* Setup */
+     , (20427,   8, 0x06003440) /* Icon */
+     , (20427,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20427,  28,       2117) /* Spell - HermeticLinkSelf7 */
      , (20427, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (20427, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20427, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (20427, 8040, 4135714858, 141.3305, 46.11932, 57.48257, 0.6959484, 0, 0, -0.7180918) /* PCAPRecordedLocation */
+VALUES (20427, 8040, 0xF682002A, 141.3305, 46.11932, 57.48257, 0.695948, 0, 0, -0.718092) /* PCAPRecordedLocation */
 /* @teleloc 0xF682002A [141.330500 46.119320 57.482570] 0.695948 0.000000 0.000000 -0.718092 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20427, 8000, 3697655219) /* PCAPRecordedObjectIID */;
+VALUES (20427, 8000, 0xDC65BDB3) /* PCAPRecordedObjectIID */;

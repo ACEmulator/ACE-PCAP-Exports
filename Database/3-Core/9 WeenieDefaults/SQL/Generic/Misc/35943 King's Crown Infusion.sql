@@ -15,6 +15,7 @@ VALUES (35943,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35943,  22, True ) /* Inscribable */
+     , (35943,  23, True ) /* DestroyOnSell */
      , (35943,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,17 +23,17 @@ VALUES (35943,   1, 'King''s Crown Infusion') /* Name */
      , (35943,  16, 'An infusion, created by Jilna Fullgood, for the Tusker King, Oolutanga.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35943,   1,   33555965) /* Setup */
-     , (35943,   3,  536870932) /* SoundTable */
-     , (35943,   6,   67111919) /* PaletteBase */
-     , (35943,   8,  100670747) /* Icon */
-     , (35943,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35943,   1, 0x020005FD) /* Setup */
+     , (35943,   3, 0x20000014) /* SoundTable */
+     , (35943,   6, 0x04000BEF) /* PaletteBase */
+     , (35943,   8, 0x06001D1B) /* Icon */
+     , (35943,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35943, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (35943, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35943, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35943, 8000, 2448065433) /* PCAPRecordedObjectIID */;
+VALUES (35943, 8000, 0x91EA8399) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35943, 67111927, 0, 0);

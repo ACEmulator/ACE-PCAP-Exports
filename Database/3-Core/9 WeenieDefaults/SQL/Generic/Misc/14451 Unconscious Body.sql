@@ -21,19 +21,19 @@ VALUES (14451,   1, 'Unconscious Body') /* Name */
      , (14451,  15, 'All your attempts to revive this poor adventurer are to no avail.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14451,   1,   33557477) /* Setup */
-     , (14451,   6,   67108990) /* PaletteBase */
-     , (14451,   8,  100667446) /* Icon */
+VALUES (14451,   1, 0x02000BE5) /* Setup */
+     , (14451,   6, 0x0400007E) /* PaletteBase */
+     , (14451,   8, 0x06001036) /* Icon */
      , (14451, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (14451, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14451, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14451, 8040, 21233965, 66.5912, -7.09688, 0, 0.977517, 0, 0, -0.210856) /* PCAPRecordedLocation */
+VALUES (14451, 8040, 0x0144012D, 66.5912, -7.09688, 0, 0.977517, 0, 0, -0.210856) /* PCAPRecordedLocation */
 /* @teleloc 0x0144012D [66.591200 -7.096880 0.000000] 0.977517 0.000000 0.000000 -0.210856 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14451, 8000, 1880375343) /* PCAPRecordedObjectIID */;
+VALUES (14451, 8000, 0x7014402F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14451, 67113778, 0, 0);

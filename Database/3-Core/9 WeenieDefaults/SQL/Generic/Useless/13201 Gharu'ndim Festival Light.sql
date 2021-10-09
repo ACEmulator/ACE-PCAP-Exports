@@ -19,13 +19,13 @@ VALUES (13201,   1, 'Gharu''ndim Festival Light') /* Name */
      , (13201,  15, 'You can use this item on floor and yard hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13201,   1,   33556231) /* Setup */
-     , (13201,   3,  536870932) /* SoundTable */
-     , (13201,   8,  100672425) /* Icon */
-     , (13201,  22,  872415275) /* PhysicsEffectTable */
+VALUES (13201,   1, 0x02000707) /* Setup */
+     , (13201,   3, 0x20000014) /* SoundTable */
+     , (13201,   8, 0x060023A9) /* Icon */
+     , (13201,  22, 0x3400002B) /* PhysicsEffectTable */
      , (13201, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (13201, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (13201, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13201, 8000, 3658160305) /* PCAPRecordedObjectIID */;
+VALUES (13201, 8000, 0xDA0B18B1) /* PCAPRecordedObjectIID */;

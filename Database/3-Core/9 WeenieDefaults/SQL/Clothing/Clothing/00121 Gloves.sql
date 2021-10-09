@@ -45,27 +45,22 @@ VALUES (121,   1, 'Gloves') /* Name */
      , (121,  16, 'Cloth Gloves of Fletching Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (121,   1,   33554648) /* Setup */
-     , (121,   3,  536870932) /* SoundTable */
-     , (121,   6,   67108990) /* PaletteBase */
-     , (121,   8,  100669143) /* Icon */
-     , (121,  22,  872415275) /* PhysicsEffectTable */
+VALUES (121,   1, 0x020000D8) /* Setup */
+     , (121,   3, 0x20000014) /* SoundTable */
+     , (121,   6, 0x0400007E) /* PaletteBase */
+     , (121,   8, 0x060016D7) /* Icon */
+     , (121,  22, 0x3400002B) /* PhysicsEffectTable */
      , (121, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (121, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (121, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (121, 8000, 2186220388) /* PCAPRecordedObjectIID */;
+VALUES (121, 8000, 0x824F1364) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (121,  1486,      2)  /* Impenetrability6 */
      , (121,  2098,      2)  /* BludgeonBane7 */
      , (121,  2237,      2)  /* FletchingMasterySelf7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (121, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
-     , (121, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
-     , (121, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (121, 67110337, 168, 6);

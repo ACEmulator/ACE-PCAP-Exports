@@ -24,13 +24,13 @@ VALUES (3742,   1, 'Scroll of Infuse Stamina III') /* Name */
 Drains one-quarter of the caster''s Stamina and gives 105% of that to the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3742,   1,   33554826) /* Setup */
-     , (3742,   8,  100676930) /* Icon */
-     , (3742,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3742,   1, 0x0200018A) /* Setup */
+     , (3742,   8, 0x06003542) /* Icon */
+     , (3742,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3742,  28,       1245) /* Spell - InfuseStamina3 */
      , (3742, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3742, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3742, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3742, 8000, 3702825190) /* PCAPRecordedObjectIID */;
+VALUES (3742, 8000, 0xDCB4A0E6) /* PCAPRecordedObjectIID */;

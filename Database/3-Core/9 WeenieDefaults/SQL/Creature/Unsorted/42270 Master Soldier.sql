@@ -20,21 +20,21 @@ VALUES (42270,   1, 'Master Soldier') /* Name */
      , (42270, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42270,   1,   33554433) /* Setup */
-     , (42270,   2,  150994945) /* MotionTable */
-     , (42270,   3,  536870913) /* SoundTable */
-     , (42270,   8,  100667446) /* Icon */
-     , (42270,  22,  872415236) /* PhysicsEffectTable */
+VALUES (42270,   1, 0x02000001) /* Setup */
+     , (42270,   2, 0x09000001) /* MotionTable */
+     , (42270,   3, 0x20000001) /* SoundTable */
+     , (42270,   8, 0x06001036) /* Icon */
+     , (42270,  22, 0x34000004) /* PhysicsEffectTable */
      , (42270, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (42270, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42270, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42270, 8040, 2315452992, 268.0269, -319.9904, 0.004999995, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42270, 8040, 0x8A030240, 268.0269, -319.9904, 0.005, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x8A030240 [268.026900 -319.990400 0.005000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42270, 8000, 3694185881) /* PCAPRecordedObjectIID */;
+VALUES (42270, 8000, 0xDC30CD99) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42270, 2, 38855,  1, 0, 0, False) /* Create Eldrytch Web Blade (38855) for Wield */

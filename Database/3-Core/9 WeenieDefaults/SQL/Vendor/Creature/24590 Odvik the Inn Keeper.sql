@@ -35,21 +35,21 @@ VALUES (24590,   1, 'Odvik the Inn Keeper') /* Name */
      , (24590, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24590,   1,   33557003) /* Setup */
-     , (24590,   2,  150994950) /* MotionTable */
-     , (24590,   3,  536870922) /* SoundTable */
-     , (24590,   6,   67113158) /* PaletteBase */
-     , (24590,   8,  100667447) /* Icon */
+VALUES (24590,   1, 0x02000A0B) /* Setup */
+     , (24590,   2, 0x09000006) /* MotionTable */
+     , (24590,   3, 0x2000000A) /* SoundTable */
+     , (24590,   6, 0x040010C6) /* PaletteBase */
+     , (24590,   8, 0x06001037) /* Icon */
      , (24590, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (24590, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (24590, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24590, 8040, 722534674, 31.0567, 149.394, 48.008, 0.8940667, 0, 0, -0.4479339) /* PCAPRecordedLocation */
+VALUES (24590, 8040, 0x2B110112, 31.0567, 149.394, 48.008, 0.894067, 0, 0, -0.447934) /* PCAPRecordedLocation */
 /* @teleloc 0x2B110112 [31.056700 149.394000 48.008000] 0.894067 0.000000 0.000000 -0.447934 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24590, 8000, 1924206626) /* PCAPRecordedObjectIID */;
+VALUES (24590, 8000, 0x72B11022) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24590,   1, 204, 0, 0) /* Strength */

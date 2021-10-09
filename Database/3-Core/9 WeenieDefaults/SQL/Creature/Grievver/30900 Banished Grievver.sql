@@ -26,23 +26,23 @@ VALUES (30900,   1, 'Banished Grievver') /* Name */
      , (30900, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30900,   1,   33556698) /* Setup */
-     , (30900,   2,  150995098) /* MotionTable */
-     , (30900,   3,  536871009) /* SoundTable */
-     , (30900,   6,   67112927) /* PaletteBase */
-     , (30900,   8,  100670960) /* Icon */
-     , (30900,  22,  872415364) /* PhysicsEffectTable */
+VALUES (30900,   1, 0x020008DA) /* Setup */
+     , (30900,   2, 0x0900009A) /* MotionTable */
+     , (30900,   3, 0x20000061) /* SoundTable */
+     , (30900,   6, 0x04000FDF) /* PaletteBase */
+     , (30900,   8, 0x06001DF0) /* Icon */
+     , (30900,  22, 0x34000084) /* PhysicsEffectTable */
      , (30900,  30,         87) /* PhysicsScript - BreatheLightning */
      , (30900, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (30900, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (30900, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30900, 8040, 3122069546, 141.7938, 41.47866, 143.2089, -0.9204186, 0, 0, -0.3909344) /* PCAPRecordedLocation */
+VALUES (30900, 8040, 0xBA17002A, 141.7938, 41.47866, 143.2089, -0.920419, 0, 0, -0.390934) /* PCAPRecordedLocation */
 /* @teleloc 0xBA17002A [141.793800 41.478660 143.208900] -0.920419 0.000000 0.000000 -0.390934 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30900, 8000, 3684943029) /* PCAPRecordedObjectIID */;
+VALUES (30900, 8000, 0xDBA3C4B5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30900,   1, 250, 0, 0) /* Strength */

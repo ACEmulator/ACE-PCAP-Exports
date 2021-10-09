@@ -43,23 +43,20 @@ VALUES (2589,   1, 'Smock') /* Name */
      , (2589,  16, 'Smock of Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2589,   1,   33554644) /* Setup */
-     , (2589,   3,  536870932) /* SoundTable */
-     , (2589,   6,   67108990) /* PaletteBase */
-     , (2589,   8,  100667376) /* Icon */
-     , (2589,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2589,   1, 0x020000D4) /* Setup */
+     , (2589,   3, 0x20000014) /* SoundTable */
+     , (2589,   6, 0x0400007E) /* PaletteBase */
+     , (2589,   8, 0x06000FF0) /* Icon */
+     , (2589,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2589, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (2589, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2589, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2589, 8000, 2186220518) /* PCAPRecordedObjectIID */;
+VALUES (2589, 8000, 0x824F13E6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2589,  1310,      2)  /* ArmorSelf4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2589, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2589, 67109969, 92, 4)

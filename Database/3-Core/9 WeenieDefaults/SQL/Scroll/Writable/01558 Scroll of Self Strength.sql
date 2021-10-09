@@ -24,13 +24,13 @@ VALUES (1558,   1, 'Scroll of Self Strength') /* Name */
 Increases the caster''s Strength by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1558,   1,   33554826) /* Setup */
-     , (1558,   8,  100676474) /* Icon */
-     , (1558,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1558,   1, 0x0200018A) /* Setup */
+     , (1558,   8, 0x0600337A) /* Icon */
+     , (1558,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1558,  28,          2) /* Spell - StrengthSelf1 */
      , (1558, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1558, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1558, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1558, 8000, 3624692902) /* PCAPRecordedObjectIID */;
+VALUES (1558, 8000, 0xD80C6CA6) /* PCAPRecordedObjectIID */;

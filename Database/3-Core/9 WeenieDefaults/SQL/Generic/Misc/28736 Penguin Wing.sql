@@ -23,13 +23,13 @@ VALUES (28736,   1, 'Penguin Wing') /* Name */
      , (28736,  16, 'A penguin wing burned by the stomach acids of the Eater from whence it came.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28736,   1,   33559137) /* Setup */
-     , (28736,   3,  536870932) /* SoundTable */
-     , (28736,   8,  100686363) /* Icon */
-     , (28736,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28736,   1, 0x02001261) /* Setup */
+     , (28736,   3, 0x20000014) /* SoundTable */
+     , (28736,   8, 0x06005A1B) /* Icon */
+     , (28736,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28736, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (28736, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28736, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28736, 8000, 2981046645) /* PCAPRecordedObjectIID */;
+VALUES (28736, 8000, 0xB1AF2975) /* PCAPRecordedObjectIID */;

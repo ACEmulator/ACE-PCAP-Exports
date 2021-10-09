@@ -22,16 +22,16 @@ VALUES (13134,   1, 'Stoneport Villas Portal') /* Name */
      , (13134, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13134,   1,   33554867) /* Setup */
-     , (13134,   2,  150994947) /* MotionTable */
-     , (13134,   8,  100667499) /* Icon */
+VALUES (13134,   1, 0x020001B3) /* Setup */
+     , (13134,   2, 0x09000003) /* MotionTable */
+     , (13134,   8, 0x0600106B) /* Icon */
      , (13134, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (13134, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (13134, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13134, 8040, 3863674894, 36.3183, 121.916, 31.937, 0.17168, 0, 0, 0.9851528) /* PCAPRecordedLocation */
+VALUES (13134, 8040, 0xE64B000E, 36.3183, 121.916, 31.937, 0.17168, 0, 0, 0.985153) /* PCAPRecordedLocation */
 /* @teleloc 0xE64B000E [36.318300 121.916000 31.937000] 0.171680 0.000000 0.000000 0.985153 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13134, 8000, 2120527878) /* PCAPRecordedObjectIID */;
+VALUES (13134, 8000, 0x7E64B006) /* PCAPRecordedObjectIID */;

@@ -23,16 +23,16 @@ VALUES (8385,   1, 'Direlands Southeast Shore') /* Name */
      , (8385, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8385,   1,   33555926) /* Setup */
-     , (8385,   2,  150994947) /* MotionTable */
-     , (8385,   8,  100667499) /* Icon */
+VALUES (8385,   1, 0x020005D6) /* Setup */
+     , (8385,   2, 0x09000003) /* MotionTable */
+     , (8385,   8, 0x0600106B) /* Icon */
      , (8385, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (8385, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (8385, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8385, 8040, 1487142922, 33.96085, 32.35308, 72.0089, 0.9537169, 0, 0, -0.3007058) /* PCAPRecordedLocation */
+VALUES (8385, 8040, 0x58A4000A, 33.96085, 32.35308, 72.0089, 0.953717, 0, 0, -0.300706) /* PCAPRecordedLocation */
 /* @teleloc 0x58A4000A [33.960850 32.353080 72.008900] 0.953717 0.000000 0.000000 -0.300706 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8385, 8000, 3688001006) /* PCAPRecordedObjectIID */;
+VALUES (8385, 8000, 0xDBD26DEE) /* PCAPRecordedObjectIID */;

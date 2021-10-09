@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22621,   1, 'Tusker Title Token') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22621,   1,   33558119) /* Setup */
-     , (22621,   3,  536870932) /* SoundTable */
-     , (22621,   8,  100673828) /* Icon */
-     , (22621,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22621,   1, 0x02000E67) /* Setup */
+     , (22621,   3, 0x20000014) /* SoundTable */
+     , (22621,   8, 0x06002924) /* Icon */
+     , (22621,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22621, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (22621, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22621, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22621, 8000, 2863277568) /* PCAPRecordedObjectIID */;
+VALUES (22621, 8000, 0xAAAA2600) /* PCAPRecordedObjectIID */;

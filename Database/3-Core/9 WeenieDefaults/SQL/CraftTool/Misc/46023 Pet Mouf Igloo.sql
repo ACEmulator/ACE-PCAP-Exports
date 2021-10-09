@@ -15,6 +15,7 @@ VALUES (46023,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46023,  22, True ) /* Inscribable */
+     , (46023,  23, True ) /* DestroyOnSell */
      , (46023,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -26,13 +27,13 @@ VALUES (46023,   1, 'Pet Mouf Igloo') /* Name */
      , (46023,  16, 'A small igloo that the cookie loving pet penguin Mouf lives in. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46023,   1,   33560149) /* Setup */
-     , (46023,   3,  536870932) /* SoundTable */
-     , (46023,   8,  100689285) /* Icon */
-     , (46023,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46023,   1, 0x02001655) /* Setup */
+     , (46023,   3, 0x20000014) /* SoundTable */
+     , (46023,   8, 0x06006585) /* Icon */
+     , (46023,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46023, 8001,    2637848) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden */
      , (46023, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46023, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46023, 8000, 2199735648) /* PCAPRecordedObjectIID */;
+VALUES (46023, 8000, 0x831D4D60) /* PCAPRecordedObjectIID */;

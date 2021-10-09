@@ -7,12 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24207,   1,      32768) /* ItemType - Caster */
      , (24207,   5,        150) /* EncumbranceVal */
      , (24207,   9,   16777216) /* ValidLocations - Held */
-     , (24207,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (24207,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (24207,  18,          1) /* UiEffects - Magical */
      , (24207,  19,       8000) /* Value */
      , (24207,  33,          1) /* Bonded - Bonded */
      , (24207,  36,       9999) /* ResistMagic */
+     , (24207,  46,        512) /* DefaultCombatStyle - Magic */
      , (24207,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24207,  94,         16) /* TargetType - Creature */
      , (24207, 106,        325) /* ItemSpellcraft */
@@ -30,6 +30,7 @@ VALUES (24207,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24207,  22, True ) /* Inscribable */
+     , (24207,  23, True ) /* DestroyOnSell */
      , (24207,  69, False) /* IsSellable */
      , (24207,  99, True ) /* Ivoryable */;
 
@@ -45,10 +46,10 @@ VALUES (24207,   1, 'Weeping Wand') /* Name */
      , (24207,  15, 'A wand infused with the Heart of the Innocent.The wand appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24207,   1,   33558300) /* Setup */
-     , (24207,   3,  536870932) /* SoundTable */
-     , (24207,   8,  100674265) /* Icon */
-     , (24207,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24207,   1, 0x02000F1C) /* Setup */
+     , (24207,   3, 0x20000014) /* SoundTable */
+     , (24207,   8, 0x06002AD9) /* Icon */
+     , (24207,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24207,  28,       2970) /* Spell - HuntersLash */
      , (24207, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (24207, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -56,16 +57,16 @@ VALUES (24207,   1,   33558300) /* Setup */
      , (24207, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24207, 8040, 23855549, 52.69782, -36.91693, -0.071, -0.4161197, -0.4161197, -0.5717031, -0.5717031) /* PCAPRecordedLocation */
+VALUES (24207, 8040, 0x016C01BD, 52.69782, -36.91693, -0.071, -0.41612, -0.41612, -0.571703, -0.571703) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [52.697820 -36.916930 -0.071000] -0.416120 -0.416120 -0.571703 -0.571703 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24207, 8000, 3686986773) /* PCAPRecordedObjectIID */
-     , (24207, 8008, 1343130362) /* PCAPRecordedParentIID */;
+VALUES (24207, 8000, 0xDBC2F415) /* PCAPRecordedObjectIID */
+     , (24207, 8008, 0x500E8AFA) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24207,   616,      2)  /* LifeMagicMasteryOther6 */
-     , (24207,   640,      2)  /* WarMagicMasteryOther6 */
+VALUES (24207,   640,      2)  /* WarMagicMasteryOther6 */
+     , (24207,  2691,      2)  /* ModerateManaConversionProwess */
      , (24207,  1426,      2)  /* FocusSelf6 */
-     , (24207,  1450,      2)  /* WillpowerSelf6 */
-     , (24207,  2691,      2)  /* ModerateManaConversionProwess */;
+     , (24207,   616,      2)  /* LifeMagicMasteryOther6 */
+     , (24207,  1450,      2)  /* WillpowerSelf6 */;

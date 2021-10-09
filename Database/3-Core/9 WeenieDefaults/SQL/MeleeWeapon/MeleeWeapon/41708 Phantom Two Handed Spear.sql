@@ -24,13 +24,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41708,   1, 'Phantom Two Handed Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41708,   1,   33556653) /* Setup */
-     , (41708,   3,  536870932) /* SoundTable */
-     , (41708,   8,  100690817) /* Icon */
-     , (41708,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41708,   1, 0x020008AD) /* Setup */
+     , (41708,   3, 0x20000014) /* SoundTable */
+     , (41708,   8, 0x06006B81) /* Icon */
+     , (41708,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41708, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (41708, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41708, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41708, 8000, 3351228890) /* PCAPRecordedObjectIID */;
+VALUES (41708, 8000, 0xC7BFB1DA) /* PCAPRecordedObjectIID */;

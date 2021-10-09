@@ -24,13 +24,13 @@ VALUES (2723,   1, 'Scroll of Revitalize Other III') /* Name */
 Restores 30-60 points of the target''s Stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2723,   1,   33554826) /* Setup */
-     , (2723,   8,  100676930) /* Icon */
-     , (2723,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2723,   1, 0x0200018A) /* Setup */
+     , (2723,   8, 0x06003542) /* Icon */
+     , (2723,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2723,  28,       1185) /* Spell - RevitalizeOther3 */
      , (2723, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2723, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2723, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2723, 8000, 2448373948) /* PCAPRecordedObjectIID */;
+VALUES (2723, 8000, 0x91EF38BC) /* PCAPRecordedObjectIID */;

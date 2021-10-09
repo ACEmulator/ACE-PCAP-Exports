@@ -23,17 +23,17 @@ VALUES (781,   1, 'Yarrow') /* Name */
      , (781,  20, 'Sacks of Yarrow') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (781,   1,   33554817) /* Setup */
-     , (781,   3,  536870932) /* SoundTable */
-     , (781,   6,   67111919) /* PaletteBase */
-     , (781,   8,  100668433) /* Icon */
-     , (781,  22,  872415275) /* PhysicsEffectTable */
+VALUES (781,   1, 0x02000181) /* Setup */
+     , (781,   3, 0x20000014) /* SoundTable */
+     , (781,   6, 0x04000BEF) /* PaletteBase */
+     , (781,   8, 0x06001411) /* Icon */
+     , (781,  22, 0x3400002B) /* PhysicsEffectTable */
      , (781, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (781, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (781, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (781, 8000, 2186220474) /* PCAPRecordedObjectIID */;
+VALUES (781, 8000, 0x824F13BA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (781, 67111919, 0, 0);

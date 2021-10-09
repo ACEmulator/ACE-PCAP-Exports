@@ -52,22 +52,22 @@ VALUES (40685,   1, 'Olthoi Gauntlets') /* Name */
      , (40685,  16, 'Olthoi Gauntlets of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40685,   1,   33554648) /* Setup */
-     , (40685,   3,  536870932) /* SoundTable */
-     , (40685,   6,   67108990) /* PaletteBase */
-     , (40685,   8,  100674657) /* Icon */
-     , (40685,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40685,   1, 0x020000D8) /* Setup */
+     , (40685,   3, 0x20000014) /* SoundTable */
+     , (40685,   6, 0x0400007E) /* PaletteBase */
+     , (40685,   8, 0x06002C61) /* Icon */
+     , (40685,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40685, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40685, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40685, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40685, 8000, 3684244856) /* PCAPRecordedObjectIID */;
+VALUES (40685, 8000, 0xDB991D78) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40685,  2059,      2)  /* CoordinationSelf7 */
-     , (40685,  2552,      2)  /* CANTRIPITEMEXPERTISE1 */
-     , (40685,  4407,      2)  /* Impenetrability8 */;
+     , (40685,  4407,      2)  /* Impenetrability8 */
+     , (40685,  2552,      2)  /* CANTRIPITEMEXPERTISE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40685, 67114457, 171, 3)

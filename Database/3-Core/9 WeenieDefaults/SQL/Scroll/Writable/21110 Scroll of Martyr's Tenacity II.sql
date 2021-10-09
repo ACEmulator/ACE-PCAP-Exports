@@ -24,17 +24,17 @@ VALUES (21110,   1, 'Scroll of Martyr''s Tenacity II') /* Name */
 Drains one-quarter of the caster''s stamina into a bolt of energy.  When struck by the bolt, the target''s stamina is reduced by 90% of the amount drained.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21110,   1,   33554826) /* Setup */
-     , (21110,   8,  100676936) /* Icon */
-     , (21110,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21110,   1, 0x0200018A) /* Setup */
+     , (21110,   8, 0x06003548) /* Icon */
+     , (21110,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21110,  28,       2768) /* Spell - StaminaBolt2 */
      , (21110, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (21110, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21110, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21110, 8040, 3097428025, 184.2265, 6.033868, 84.0855, 0.334344, 0, 0, -0.942451) /* PCAPRecordedLocation */
+VALUES (21110, 8040, 0xB89F0039, 184.2265, 6.033868, 84.0855, 0.334344, 0, 0, -0.942451) /* PCAPRecordedLocation */
 /* @teleloc 0xB89F0039 [184.226500 6.033868 84.085500] 0.334344 0.000000 0.000000 -0.942451 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21110, 8000, 3695470133) /* PCAPRecordedObjectIID */;
+VALUES (21110, 8000, 0xDC446635) /* PCAPRecordedObjectIID */;

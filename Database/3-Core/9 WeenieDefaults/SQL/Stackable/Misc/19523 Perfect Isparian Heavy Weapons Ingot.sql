@@ -19,6 +19,7 @@ VALUES (19523,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19523,  22, True ) /* Inscribable */
+     , (19523,  23, True ) /* DestroyOnSell */
      , (19523,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -26,13 +27,13 @@ VALUES (19523,   1, 'Perfect Isparian Heavy Weapons Ingot') /* Name */
      , (19523,  16, 'A diamond infused ingot, enhanced and stamped with a heavy weapons glyph.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19523,   1,   33555677) /* Setup */
-     , (19523,   3,  536870932) /* SoundTable */
-     , (19523,   8,  100672972) /* Icon */
-     , (19523,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19523,   1, 0x020004DD) /* Setup */
+     , (19523,   3, 0x20000014) /* SoundTable */
+     , (19523,   8, 0x060025CC) /* Icon */
+     , (19523,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19523, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (19523, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19523, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19523, 8000, 3704081978) /* PCAPRecordedObjectIID */;
+VALUES (19523, 8000, 0xDCC7CE3A) /* PCAPRecordedObjectIID */;

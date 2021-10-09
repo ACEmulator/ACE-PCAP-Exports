@@ -45,16 +45,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31494,   1, 'Worn Old Cestus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31494,   1,   33559575) /* Setup */
-     , (31494,   3,  536870932) /* SoundTable */
-     , (31494,   8,  100687876) /* Icon */
-     , (31494,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31494,   1, 0x02001417) /* Setup */
+     , (31494,   3, 0x20000014) /* SoundTable */
+     , (31494,   8, 0x06006004) /* Icon */
+     , (31494,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31494, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (31494, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31494, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31494, 8000, 2174519242) /* PCAPRecordedObjectIID */;
+VALUES (31494, 8000, 0x819C87CA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31494,  2096,      2)  /* BloodDrinkerSelf7 */

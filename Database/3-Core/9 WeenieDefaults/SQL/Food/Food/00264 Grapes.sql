@@ -24,17 +24,17 @@ VALUES (264,   1, 'Grapes') /* Name */
      , (264,  20, 'Grape Bunches') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (264,   1,   33554675) /* Setup */
-     , (264,   3,  536870932) /* SoundTable */
-     , (264,   8,  100667462) /* Icon */
-     , (264,  22,  872415275) /* PhysicsEffectTable */
+VALUES (264,   1, 0x020000F3) /* Setup */
+     , (264,   3, 0x20000014) /* SoundTable */
+     , (264,   8, 0x06001046) /* Icon */
+     , (264,  22, 0x3400002B) /* PhysicsEffectTable */
      , (264, 8001,  270544921) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden, HookType */
      , (264, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (264, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (264, 8040, 3094544640, 153.8146, 146.32, 16.8015, -0.968436, 0, 0, -0.249261) /* PCAPRecordedLocation */
+VALUES (264, 8040, 0xB8730100, 153.8146, 146.32, 16.8015, -0.968436, 0, 0, -0.249261) /* PCAPRecordedLocation */
 /* @teleloc 0xB8730100 [153.814600 146.320000 16.801500] -0.968436 0.000000 0.000000 -0.249261 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (264, 8000, 3694262574) /* PCAPRecordedObjectIID */;
+VALUES (264, 8000, 0xDC31F92E) /* PCAPRecordedObjectIID */;

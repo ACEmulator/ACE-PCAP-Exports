@@ -19,6 +19,7 @@ VALUES (35890,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35890,  22, True ) /* Inscribable */
+     , (35890,  23, True ) /* DestroyOnSell */
      , (35890,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -27,16 +28,16 @@ VALUES (35890,   1, 'Paradox-touched Olthoi Weapon Token') /* Name */
      , (35890,  16, 'A token given by Ethan Wintermaine for aiding in the defeat of the Paradox-touched Olthoi Queen.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35890,   1,   33557280) /* Setup */
-     , (35890,   3,  536870932) /* SoundTable */
-     , (35890,   8,  100674709) /* Icon */
-     , (35890,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35890,   1, 0x02000B20) /* Setup */
+     , (35890,   3, 0x20000014) /* SoundTable */
+     , (35890,   8, 0x06002C95) /* Icon */
+     , (35890,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35890, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (35890, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35890, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35890, 8000, 3701615886) /* PCAPRecordedObjectIID */;
+VALUES (35890, 8000, 0xDCA22D0E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (35890, 0, 83893723, 83893850)

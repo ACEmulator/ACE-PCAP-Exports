@@ -23,22 +23,22 @@ VALUES (39512,   1, 'Horrid Remoran') /* Name */
      , (39512, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39512,   1,   33559700) /* Setup */
-     , (39512,   2,  150995342) /* MotionTable */
-     , (39512,   3,  536871103) /* SoundTable */
-     , (39512,   6,   67116726) /* PaletteBase */
-     , (39512,   8,  100667937) /* Icon */
-     , (39512,  22,  872415414) /* PhysicsEffectTable */
+VALUES (39512,   1, 0x02001494) /* Setup */
+     , (39512,   2, 0x0900018E) /* MotionTable */
+     , (39512,   3, 0x200000BF) /* SoundTable */
+     , (39512,   6, 0x04001EB6) /* PaletteBase */
+     , (39512,   8, 0x06001221) /* Icon */
+     , (39512,  22, 0x340000B6) /* PhysicsEffectTable */
      , (39512, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (39512, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (39512, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39512, 8040, 11075925, 70.2123, -19.0841, 0, 0.0575, 0, 0, -0.998345) /* PCAPRecordedLocation */
+VALUES (39512, 8040, 0x00A90155, 70.2123, -19.0841, 0, 0.0575, 0, 0, -0.998345) /* PCAPRecordedLocation */
 /* @teleloc 0x00A90155 [70.212300 -19.084100 0.000000] 0.057500 0.000000 0.000000 -0.998345 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39512, 8000, 3710585269) /* PCAPRecordedObjectIID */;
+VALUES (39512, 8000, 0xDD2B09B5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39512, 67116727, 0, 0);

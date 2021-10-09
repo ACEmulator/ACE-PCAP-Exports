@@ -18,7 +18,8 @@ VALUES (5084,   1,       2048) /* ItemType - Gem */
      , (5084, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5084,  22, True ) /* Inscribable */;
+VALUES (5084,  22, True ) /* Inscribable */
+     , (5084,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5084,  39,     0.5) /* DefaultScale */;
@@ -28,17 +29,17 @@ VALUES (5084,   1, 'Calling Stone') /* Name */
      , (5084,  16, 'This is a Calling Stone that all newcomers arrive with. It is a plain, lightweight gem. Give this item to the Society Greeter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5084,   1,   33554809) /* Setup */
-     , (5084,   3,  536870932) /* SoundTable */
-     , (5084,   6,   67111919) /* PaletteBase */
-     , (5084,   8,  100672482) /* Icon */
-     , (5084,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5084,   1, 0x02000179) /* Setup */
+     , (5084,   3, 0x20000014) /* SoundTable */
+     , (5084,   6, 0x04000BEF) /* PaletteBase */
+     , (5084,   8, 0x060023E2) /* Icon */
+     , (5084,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5084, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (5084, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5084, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5084, 8000, 3658160281) /* PCAPRecordedObjectIID */;
+VALUES (5084, 8000, 0xDA0B1899) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5084, 67111926, 0, 0);

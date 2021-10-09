@@ -26,21 +26,21 @@ VALUES (21168,   1, 'Charge') /* Name */
      , (21168, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21168,   1,   33556140) /* Setup */
-     , (21168,   2,  150995087) /* MotionTable */
-     , (21168,   3,  536871002) /* SoundTable */
-     , (21168,   8,  100670581) /* Icon */
-     , (21168,  22,  872415349) /* PhysicsEffectTable */
+VALUES (21168,   1, 0x020006AC) /* Setup */
+     , (21168,   2, 0x0900008F) /* MotionTable */
+     , (21168,   3, 0x2000005A) /* SoundTable */
+     , (21168,   8, 0x06001C75) /* Icon */
+     , (21168,  22, 0x34000075) /* PhysicsEffectTable */
      , (21168, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (21168, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (21168, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21168, 8040, 2441936930, 114.5201, 31.63063, 26.003, -0.03833324, 0, 0, -0.999265) /* PCAPRecordedLocation */
+VALUES (21168, 8040, 0x918D0022, 114.5201, 31.63063, 26.003, -0.038333, 0, 0, -0.999265) /* PCAPRecordedLocation */
 /* @teleloc 0x918D0022 [114.520100 31.630630 26.003000] -0.038333 0.000000 0.000000 -0.999265 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21168, 8000, 3685849727) /* PCAPRecordedObjectIID */;
+VALUES (21168, 8000, 0xDBB19A7F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (21168,   1, 100, 0, 0) /* Strength */
@@ -110,4 +110,5 @@ VALUES (21168, 9, 45395,  0, 0, 0, False) /* Create Rapier (45395) for ContainTr
      , (21168, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
      , (21168, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
      , (21168, 9,  3022,  0, 0, 0, False) /* Create Scroll of Cold Protection Other VI (3022) for ContainTreasure */
-     , (21168, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */;
+     , (21168, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (21168, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */;

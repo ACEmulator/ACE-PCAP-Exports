@@ -26,22 +26,22 @@ VALUES (24305,   1, 'Olthoi Swarm Warrior') /* Name */
      , (24305, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24305,   1,   33557162) /* Setup */
-     , (24305,   2,  150994946) /* MotionTable */
-     , (24305,   3,  536870925) /* SoundTable */
-     , (24305,   8,  100667623) /* Icon */
-     , (24305,  22,  872415265) /* PhysicsEffectTable */
+VALUES (24305,   1, 0x02000AAA) /* Setup */
+     , (24305,   2, 0x09000002) /* MotionTable */
+     , (24305,   3, 0x2000000D) /* SoundTable */
+     , (24305,   8, 0x060010E7) /* Icon */
+     , (24305,  22, 0x34000021) /* PhysicsEffectTable */
      , (24305,  30,         86) /* PhysicsScript - BreatheAcid */
      , (24305, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24305, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24305, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24305, 8040, 1565327790, 130.25, -415.065, -42, 0.9927928, 0, 0, 0.119843) /* PCAPRecordedLocation */
+VALUES (24305, 8040, 0x5D4D01AE, 130.25, -415.065, -42, 0.992793, 0, 0, 0.119843) /* PCAPRecordedLocation */
 /* @teleloc 0x5D4D01AE [130.250000 -415.065000 -42.000000] 0.992793 0.000000 0.000000 0.119843 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24305, 8000, 2622181289) /* PCAPRecordedObjectIID */;
+VALUES (24305, 8000, 0x9C4B4FA9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24305,   1, 330, 0, 0) /* Strength */
@@ -72,4 +72,6 @@ VALUES (24305, 9, 20549,  0, 0, 0, False) /* Create Scroll of Kwipetian Vision (
      , (24305, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
      , (24305, 9, 43308,  0, 0, 0, False) /* Create Scroll of Nether Bolt VII (43308) for ContainTreasure */
      , (24305, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
-     , (24305, 9,  3915,  0, 0, 0, False) /* Create Flaming Yari (3915) for ContainTreasure */;
+     , (24305, 9,  3915,  0, 0, 0, False) /* Create Flaming Yari (3915) for ContainTreasure */
+     , (24305, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
+     , (24305, 9, 20522,  0, 0, 0, False) /* Create Scroll of Hearts on Sleeves (20522) for ContainTreasure */;

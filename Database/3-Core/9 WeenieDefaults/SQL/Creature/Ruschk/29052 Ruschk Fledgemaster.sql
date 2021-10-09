@@ -25,22 +25,22 @@ VALUES (29052,   1, 'Ruschk Fledgemaster') /* Name */
      , (29052, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29052,   1,   33559104) /* Setup */
-     , (29052,   2,  150994951) /* MotionTable */
-     , (29052,   3,  536871101) /* SoundTable */
-     , (29052,   6,   67115447) /* PaletteBase */
-     , (29052,   8,  100677373) /* Icon */
-     , (29052,  22,  872415364) /* PhysicsEffectTable */
+VALUES (29052,   1, 0x02001240) /* Setup */
+     , (29052,   2, 0x09000007) /* MotionTable */
+     , (29052,   3, 0x200000BD) /* SoundTable */
+     , (29052,   6, 0x040019B7) /* PaletteBase */
+     , (29052,   8, 0x060036FD) /* Icon */
+     , (29052,  22, 0x34000084) /* PhysicsEffectTable */
      , (29052, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (29052, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (29052, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29052, 8040, 887095356, 181.194, 81.2429, -0.4433999, -0.846807, 0, 0, -0.531901) /* PCAPRecordedLocation */
+VALUES (29052, 8040, 0x34E0003C, 181.194, 81.2429, -0.4434, -0.846807, 0, 0, -0.531901) /* PCAPRecordedLocation */
 /* @teleloc 0x34E0003C [181.194000 81.242900 -0.443400] -0.846807 0.000000 0.000000 -0.531901 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29052, 8000, 2617756397) /* PCAPRecordedObjectIID */;
+VALUES (29052, 8000, 0x9C07CAED) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29052,   1, 130, 0, 0) /* Strength */

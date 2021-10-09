@@ -33,20 +33,20 @@ VALUES (30236,   1, 'Thorsten''s Crystal') /* Name */
      , (30236,  20, 'Thorsten''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30236,   1,   33554809) /* Setup */
-     , (30236,   3,  536870932) /* SoundTable */
-     , (30236,   8,  100686697) /* Icon */
-     , (30236,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30236,   1, 0x02000179) /* Setup */
+     , (30236,   3, 0x20000014) /* SoundTable */
+     , (30236,   8, 0x06005B69) /* Icon */
+     , (30236,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30236,  28,       3685) /* Spell - AxeMasteryRare */
-     , (30236,  50,  100692242) /* IconOverlay */
-     , (30236,  52,  100686604) /* IconUnderlay */
+     , (30236,  50, 0x06007112) /* IconOverlay */
+     , (30236,  52, 0x06005B0C) /* IconUnderlay */
      , (30236, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30236, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30236, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30236, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30236, 8000, 2982970091) /* PCAPRecordedObjectIID */;
+VALUES (30236, 8000, 0xB1CC82EB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (30236, 0, 83890391, 83890391);

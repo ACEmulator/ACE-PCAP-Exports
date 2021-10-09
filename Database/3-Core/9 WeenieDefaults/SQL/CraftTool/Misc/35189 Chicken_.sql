@@ -26,13 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35189,   1, 'Chicken?') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35189,   1,   33555874) /* Setup */
-     , (35189,   3,  536870932) /* SoundTable */
-     , (35189,   8,  100674625) /* Icon */
-     , (35189,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35189,   1, 0x020005A2) /* Setup */
+     , (35189,   3, 0x20000014) /* SoundTable */
+     , (35189,   8, 0x06002C41) /* Icon */
+     , (35189,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35189, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (35189, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35189, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35189, 8000, 2924176074) /* PCAPRecordedObjectIID */;
+VALUES (35189, 8000, 0xAE4B62CA) /* PCAPRecordedObjectIID */;

@@ -20,14 +20,14 @@ VALUES (44359,   1, 'Bundle of Greater Deadly Arrowheads') /* Name */
      , (44359,  20, 'Bundles of Greater Deadly Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44359,   1,   33555958) /* Setup */
-     , (44359,   3,  536870932) /* SoundTable */
-     , (44359,   8,  100672676) /* Icon */
-     , (44359,  22,  872415275) /* PhysicsEffectTable */
-     , (44359,  50,  100689661) /* IconOverlay */
+VALUES (44359,   1, 0x020005F6) /* Setup */
+     , (44359,   3, 0x20000014) /* SoundTable */
+     , (44359,   8, 0x060024A4) /* Icon */
+     , (44359,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44359,  50, 0x060066FD) /* IconOverlay */
      , (44359, 8001, 1074294809) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, IconOverlay */
      , (44359, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44359, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44359, 8000, 2148706329) /* PCAPRecordedObjectIID */;
+VALUES (44359, 8000, 0x8012A819) /* PCAPRecordedObjectIID */;

@@ -36,27 +36,27 @@ VALUES (22721,   1, 'Mage') /* Name */
      , (22721, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22721,   1,   33554510) /* Setup */
-     , (22721,   2,  150994945) /* MotionTable */
-     , (22721,   3,  536870914) /* SoundTable */
-     , (22721,   6,   67108990) /* PaletteBase */
-     , (22721,   8,  100667446) /* Icon */
-     , (22721,   9,   83890280) /* EyesTexture */
-     , (22721,  10,   83890294) /* NoseTexture */
-     , (22721,  11,   83890349) /* MouthTexture */
-     , (22721,  15,   67116999) /* HairPalette */
-     , (22721,  16,   67110063) /* EyesPalette */
-     , (22721,  17,   67109551) /* SkinPalette */
+VALUES (22721,   1, 0x0200004E) /* Setup */
+     , (22721,   2, 0x09000001) /* MotionTable */
+     , (22721,   3, 0x20000002) /* SoundTable */
+     , (22721,   6, 0x0400007E) /* PaletteBase */
+     , (22721,   8, 0x06001036) /* Icon */
+     , (22721,   9, 0x05001068) /* EyesTexture */
+     , (22721,  10, 0x05001076) /* NoseTexture */
+     , (22721,  11, 0x050010AD) /* MouthTexture */
+     , (22721,  15, 0x04001FC7) /* HairPalette */
+     , (22721,  16, 0x040004AF) /* EyesPalette */
+     , (22721,  17, 0x040002AF) /* SkinPalette */
      , (22721, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (22721, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (22721, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22721, 8040, 4135715101, 176.619, 44.0991, 63.605, 0.1768022, 0, 0, -0.9842464) /* PCAPRecordedLocation */
+VALUES (22721, 8040, 0xF682011D, 176.619, 44.0991, 63.605, 0.176802, 0, 0, -0.984246) /* PCAPRecordedLocation */
 /* @teleloc 0xF682011D [176.619000 44.099100 63.605000] 0.176802 0.000000 0.000000 -0.984246 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22721, 8000, 2137530377) /* PCAPRecordedObjectIID */;
+VALUES (22721, 8000, 0x7F682009) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22721,   1,  20, 0, 0) /* Strength */
@@ -174,8 +174,7 @@ VALUES (22721, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop *
      , (22721, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (22721, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (22721, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
-     , (22721, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
-     , (22721, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
+     , (22721, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22721, 67109551, 0, 24)

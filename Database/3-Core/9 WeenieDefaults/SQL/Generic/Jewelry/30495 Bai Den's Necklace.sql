@@ -15,24 +15,25 @@ VALUES (30495,   1,          8) /* ItemType - Jewelry */
      , (30495, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30495,  22, True ) /* Inscribable */;
+VALUES (30495,  22, True ) /* Inscribable */
+     , (30495,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30495,   1, 'Bai Den''s Necklace') /* Name */
      , (30495,  16, 'A thin silver chain hung with an ivory charm.  ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30495,   1,   33554689) /* Setup */
-     , (30495,   3,  536870932) /* SoundTable */
-     , (30495,   6,   67111919) /* PaletteBase */
-     , (30495,   8,  100668682) /* Icon */
-     , (30495,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30495,   1, 0x02000101) /* Setup */
+     , (30495,   3, 0x20000014) /* SoundTable */
+     , (30495,   6, 0x04000BEF) /* PaletteBase */
+     , (30495,   8, 0x0600150A) /* Icon */
+     , (30495,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30495, 8001,    2179088) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden */
      , (30495, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30495, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30495, 8000, 2157273445) /* PCAPRecordedObjectIID */;
+VALUES (30495, 8000, 0x80956165) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30495, 67111919, 0, 0);

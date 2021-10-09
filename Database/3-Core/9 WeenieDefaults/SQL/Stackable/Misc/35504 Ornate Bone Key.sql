@@ -18,20 +18,21 @@ VALUES (35504,   1,        128) /* ItemType - Misc */
      , (35504, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35504,  69, False) /* IsSellable */;
+VALUES (35504,  23, True ) /* DestroyOnSell */
+     , (35504,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35504,   1, 'Ornate Bone Key') /* Name */
      , (35504,  15, 'A strange key decorated with swirled grooves and made of bone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35504,   1,   33554784) /* Setup */
-     , (35504,   3,  536870932) /* SoundTable */
-     , (35504,   8,  100675676) /* Icon */
-     , (35504,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35504,   1, 0x02000160) /* Setup */
+     , (35504,   3, 0x20000014) /* SoundTable */
+     , (35504,   8, 0x0600305C) /* Icon */
+     , (35504,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35504, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (35504, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35504, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35504, 8000, 3061873278) /* PCAPRecordedObjectIID */;
+VALUES (35504, 8000, 0xB6807A7E) /* PCAPRecordedObjectIID */;

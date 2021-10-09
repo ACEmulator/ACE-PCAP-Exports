@@ -32,14 +32,14 @@ VALUES (51870,   1, 'Contract for Kill: Empowered Wisps') /* Name */
      , (51870,  16, 'Kill 3 Empowered Wisps.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51870,   1,   33554773) /* Setup */
-     , (51870,   3,  536870932) /* SoundTable */
-     , (51870,   8,  100691928) /* Icon */
-     , (51870,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51870,   1, 0x02000155) /* Setup */
+     , (51870,   3, 0x20000014) /* SoundTable */
+     , (51870,   8, 0x06006FD8) /* Icon */
+     , (51870,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51870, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (51870, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (51870, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (51870, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51870, 8000, 3695290907) /* PCAPRecordedObjectIID */;
+VALUES (51870, 8000, 0xDC41AA1B) /* PCAPRecordedObjectIID */;

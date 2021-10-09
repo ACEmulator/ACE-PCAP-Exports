@@ -26,22 +26,22 @@ VALUES (24278,   1, 'Drudge Cabalist') /* Name */
      , (24278, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24278,   1,   33556445) /* Setup */
-     , (24278,   2,  150994952) /* MotionTable */
-     , (24278,   3,  536870919) /* SoundTable */
-     , (24278,   6,   67112812) /* PaletteBase */
-     , (24278,   8,  100667445) /* Icon */
-     , (24278,  22,  872415258) /* PhysicsEffectTable */
+VALUES (24278,   1, 0x020007DD) /* Setup */
+     , (24278,   2, 0x09000008) /* MotionTable */
+     , (24278,   3, 0x20000007) /* SoundTable */
+     , (24278,   6, 0x04000F6C) /* PaletteBase */
+     , (24278,   8, 0x06001035) /* Icon */
+     , (24278,  22, 0x3400001A) /* PhysicsEffectTable */
      , (24278, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (24278, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24278, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24278, 8040, 808386566, 7.88602, 120.1514, 2.674334, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (24278, 8040, 0x302F0006, 7.88602, 120.1514, 2.674334, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x302F0006 [7.886020 120.151400 2.674334] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24278, 8000, 3690604415) /* PCAPRecordedObjectIID */;
+VALUES (24278, 8000, 0xDBFA277F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24278,   1, 220, 0, 0) /* Strength */
@@ -103,7 +103,9 @@ VALUES (24278, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for 
      , (24278, 9, 49390,  0, 0, 0, False) /* Create Frost Grievver Essence (125) (49390) for ContainTreasure */
      , (24278, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (24278, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
-     , (24278, 9, 30948,  0, 0, 0, False) /* Create Diforsa Hauberk (30948) for ContainTreasure */;
+     , (24278, 9, 30948,  0, 0, 0, False) /* Create Diforsa Hauberk (30948) for ContainTreasure */
+     , (24278, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (24278, 9, 42752,  0, 0, 0, False) /* Create Haebrean Greaves (42752) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24278, 67114275, 0, 0);

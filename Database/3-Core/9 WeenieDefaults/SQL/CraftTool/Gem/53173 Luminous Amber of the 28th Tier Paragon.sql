@@ -25,19 +25,19 @@ VALUES (53173,   1, 'Luminous Amber of the 28th Tier Paragon') /* Name */
      , (53173,  20, 'Luminous Ambers of the 28th Tier Paragon') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (53173,   1,   33554809) /* Setup */
-     , (53173,   3,  536870932) /* SoundTable */
-     , (53173,   6,   67111919) /* PaletteBase */
-     , (53173,   8,  100693327) /* Icon */
-     , (53173,  22,  872415275) /* PhysicsEffectTable */
-     , (53173,  52,  100691593) /* IconUnderlay */
+VALUES (53173,   1, 0x02000179) /* Setup */
+     , (53173,   3, 0x20000014) /* SoundTable */
+     , (53173,   6, 0x04000BEF) /* PaletteBase */
+     , (53173,   8, 0x0600754F) /* Icon */
+     , (53173,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (53173,  52, 0x06006E89) /* IconUnderlay */
      , (53173, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (53173, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (53173, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (53173, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53173, 8000, 3434237456) /* PCAPRecordedObjectIID */;
+VALUES (53173, 8000, 0xCCB24E10) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (53173, 67111921, 0, 0);

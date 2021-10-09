@@ -36,17 +36,17 @@ VALUES (106,   1, 'Yoroi Sleeves') /* Name */
      , (106,  16, 'Yoroi Sleeves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (106,   1,   33554655) /* Setup */
-     , (106,   3,  536870932) /* SoundTable */
-     , (106,   6,   67108990) /* PaletteBase */
-     , (106,   8,  100669406) /* Icon */
-     , (106,  22,  872415275) /* PhysicsEffectTable */
+VALUES (106,   1, 0x020000DF) /* Setup */
+     , (106,   3, 0x20000014) /* SoundTable */
+     , (106,   6, 0x0400007E) /* PaletteBase */
+     , (106,   8, 0x060017DE) /* Icon */
+     , (106,  22, 0x3400002B) /* PhysicsEffectTable */
      , (106, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (106, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (106, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (106, 8000, 3692094488) /* PCAPRecordedObjectIID */;
+VALUES (106, 8000, 0xDC10E418) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (106, 67110548, 96, 12)

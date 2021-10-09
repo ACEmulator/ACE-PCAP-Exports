@@ -21,6 +21,7 @@ VALUES (44636,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44636,  22, True ) /* Inscribable */
+     , (44636,  23, True ) /* DestroyOnSell */
      , (44636,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -29,18 +30,18 @@ VALUES (44636,   1, 'A''nekshay Slayer Stone') /* Name */
      , (44636,  16, 'A gem, empowered to enchant a single weapon against the A''nekshay.  This effect is permanent, but fragile, and therefore cannot be applied to any weapon enhanced by either the Lucky Rabbit''s Foot or the Dark Idol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44636,   1,   33556926) /* Setup */
-     , (44636,   3,  536870932) /* SoundTable */
-     , (44636,   6,   67111919) /* PaletteBase */
-     , (44636,   8,  100692069) /* Icon */
-     , (44636,  22,  872415275) /* PhysicsEffectTable */
-     , (44636,  50,  100692071) /* IconOverlay */
+VALUES (44636,   1, 0x020009BE) /* Setup */
+     , (44636,   3, 0x20000014) /* SoundTable */
+     , (44636,   6, 0x04000BEF) /* PaletteBase */
+     , (44636,   8, 0x06007065) /* Icon */
+     , (44636,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44636,  50, 0x06007067) /* IconOverlay */
      , (44636, 8001, 1076392088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (44636, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44636, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44636, 8000, 3685625930) /* PCAPRecordedObjectIID */;
+VALUES (44636, 8000, 0xDBAE304A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44636, 67111924, 0, 0);

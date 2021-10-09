@@ -22,18 +22,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22215,   1, 'Dark Sarcophagus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22215,   1,   33554638) /* Setup */
-     , (22215,   8,  100668103) /* Icon */
+VALUES (22215,   1, 0x020000CE) /* Setup */
+     , (22215,   8, 0x060012C7) /* Icon */
      , (22215, 8001,   10485776) /* PCAPRecordedWeenieHeader - Usable, Burden, RadarBehavior */
      , (22215, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (22215, 8005,     163969) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22215, 8040, 1448149340, 20, -170, -60, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (22215, 8040, 0x5651015C, 20, -170, -60, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5651015C [20.000000 -170.000000 -60.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22215, 8000, 1969557648) /* PCAPRecordedObjectIID */;
+VALUES (22215, 8000, 0x75651090) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (22215, 0, 83889697, 83893818)

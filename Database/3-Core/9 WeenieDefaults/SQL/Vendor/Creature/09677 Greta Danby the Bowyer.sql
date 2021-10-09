@@ -37,27 +37,27 @@ VALUES (9677,   1, 'Greta Danby the Bowyer') /* Name */
      , (9677, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9677,   1,   33554510) /* Setup */
-     , (9677,   2,  150994945) /* MotionTable */
-     , (9677,   3,  536870914) /* SoundTable */
-     , (9677,   6,   67108990) /* PaletteBase */
-     , (9677,   8,  100667446) /* Icon */
-     , (9677,   9,   83890259) /* EyesTexture */
-     , (9677,  10,   83890312) /* NoseTexture */
-     , (9677,  11,   83890339) /* MouthTexture */
-     , (9677,  15,   67116983) /* HairPalette */
-     , (9677,  16,   67110062) /* EyesPalette */
-     , (9677,  17,   67109562) /* SkinPalette */
+VALUES (9677,   1, 0x0200004E) /* Setup */
+     , (9677,   2, 0x09000001) /* MotionTable */
+     , (9677,   3, 0x20000002) /* SoundTable */
+     , (9677,   6, 0x0400007E) /* PaletteBase */
+     , (9677,   8, 0x06001036) /* Icon */
+     , (9677,   9, 0x05001053) /* EyesTexture */
+     , (9677,  10, 0x05001088) /* NoseTexture */
+     , (9677,  11, 0x050010A3) /* MouthTexture */
+     , (9677,  15, 0x04001FB7) /* HairPalette */
+     , (9677,  16, 0x040004AE) /* EyesPalette */
+     , (9677,  17, 0x040002BA) /* SkinPalette */
      , (9677, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (9677, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (9677, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9677, 8040, 1536950310, 114.075, 138.161, 14.005, -0.2627411, 0, 0, -0.9648663) /* PCAPRecordedLocation */
+VALUES (9677, 8040, 0x5B9C0026, 114.075, 138.161, 14.005, -0.262741, 0, 0, -0.964866) /* PCAPRecordedLocation */
 /* @teleloc 0x5B9C0026 [114.075000 138.161000 14.005000] -0.262741 0.000000 0.000000 -0.964866 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9677, 8000, 1975107585) /* PCAPRecordedObjectIID */;
+VALUES (9677, 8000, 0x75B9C001) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9677,   1,  60, 0, 0) /* Strength */
@@ -117,8 +117,7 @@ VALUES (9677, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
      , (9677, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (9677, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (9677, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
-     , (9677, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
-     , (9677, 4,  3914, -1, 0, 0, False) /* Create Lightning Yari (3914) for Shop */;
+     , (9677, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9677, 67109562, 0, 24)

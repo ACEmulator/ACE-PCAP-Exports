@@ -23,16 +23,16 @@ VALUES (7291,   1, 'Halls of Metos') /* Name */
      , (7291, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7291,   1,   33555923) /* Setup */
-     , (7291,   2,  150994947) /* MotionTable */
-     , (7291,   8,  100667499) /* Icon */
+VALUES (7291,   1, 0x020005D3) /* Setup */
+     , (7291,   2, 0x09000003) /* MotionTable */
+     , (7291,   8, 0x0600106B) /* Icon */
      , (7291, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (7291, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (7291, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7291, 8040, 255393853, 175, 97.5, 38.52034, 0.6817366, 0, 0, -0.7315977) /* PCAPRecordedLocation */
+VALUES (7291, 8040, 0x0F39003D, 175, 97.5, 38.52034, 0.681737, 0, 0, -0.731598) /* PCAPRecordedLocation */
 /* @teleloc 0x0F39003D [175.000000 97.500000 38.520340] 0.681737 0.000000 0.000000 -0.731598 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7291, 8000, 1895010304) /* PCAPRecordedObjectIID */;
+VALUES (7291, 8000, 0x70F39000) /* PCAPRecordedObjectIID */;

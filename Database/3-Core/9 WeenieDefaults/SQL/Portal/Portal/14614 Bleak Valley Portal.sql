@@ -22,16 +22,16 @@ VALUES (14614,   1, 'Bleak Valley Portal') /* Name */
      , (14614, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14614,   1,   33554867) /* Setup */
-     , (14614,   2,  150994947) /* MotionTable */
-     , (14614,   8,  100667499) /* Icon */
+VALUES (14614,   1, 0x020001B3) /* Setup */
+     , (14614,   2, 0x09000003) /* MotionTable */
+     , (14614,   8, 0x0600106B) /* Icon */
      , (14614, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14614, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14614, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14614, 8040, 3383230518, 147.151, 138.09, 47.937, 0.9582729, 0, 0, 0.285855) /* PCAPRecordedLocation */
+VALUES (14614, 8040, 0xC9A80036, 147.151, 138.09, 47.937, 0.958273, 0, 0, 0.285855) /* PCAPRecordedLocation */
 /* @teleloc 0xC9A80036 [147.151000 138.090000 47.937000] 0.958273 0.000000 0.000000 0.285855 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14614, 8000, 2090500105) /* PCAPRecordedObjectIID */;
+VALUES (14614, 8000, 0x7C9A8009) /* PCAPRecordedObjectIID */;

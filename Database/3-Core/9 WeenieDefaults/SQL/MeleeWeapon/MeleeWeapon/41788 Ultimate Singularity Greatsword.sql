@@ -35,6 +35,7 @@ VALUES (41788,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41788,  22, True ) /* Inscribable */
+     , (41788,  23, True ) /* DestroyOnSell */
      , (41788,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -54,23 +55,23 @@ VALUES (41788,   1, 'Ultimate Singularity Greatsword') /* Name */
      , (41788,  15, 'A two handed sword imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41788,   1,   33557319) /* Setup */
-     , (41788,   3,  536870932) /* SoundTable */
-     , (41788,   6,   67111919) /* PaletteBase */
-     , (41788,   8,  100690838) /* Icon */
-     , (41788,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41788,   1, 0x02000B47) /* Setup */
+     , (41788,   3, 0x20000014) /* SoundTable */
+     , (41788,   6, 0x04000BEF) /* PaletteBase */
+     , (41788,   8, 0x06006B96) /* Icon */
+     , (41788,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41788, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (41788, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41788, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41788, 8000, 2149820321) /* PCAPRecordedObjectIID */;
+VALUES (41788, 8000, 0x8023A7A1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41788,  1337,      2)  /* StrengthOther6 */
+VALUES (41788,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (41788,  2583,      2)  /* CANTRIPSTRENGTH1 */
      , (41788,  1592,      2)  /* HeartSeekerSelf6 */
-     , (41788,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (41788,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+     , (41788,  1337,      2)  /* StrengthOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41788, 67111922, 0, 0);

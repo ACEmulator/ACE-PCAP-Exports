@@ -32,11 +32,11 @@ VALUES (26639,   1, 'Xarabydun Portal Summoning Gem') /* Name */
      , (26639,  16, 'This portal summoning gem works best if used outside in a relatively flat area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26639,   1,   33556769) /* Setup */
-     , (26639,   3,  536870932) /* SoundTable */
-     , (26639,   6,   67111919) /* PaletteBase */
-     , (26639,   8,  100674856) /* Icon */
-     , (26639,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26639,   1, 0x02000921) /* Setup */
+     , (26639,   3, 0x20000014) /* SoundTable */
+     , (26639,   6, 0x04000BEF) /* PaletteBase */
+     , (26639,   8, 0x06002D28) /* Icon */
+     , (26639,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26639,  28,        157) /* Spell - SummonPortal1 */
      , (26639, 8001,  275263640) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell, HookType */
      , (26639, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -44,11 +44,11 @@ VALUES (26639,   1,   33556769) /* Setup */
      , (26639, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (26639, 8040, 23855548, 53.42517, -30.02003, -0.001000002, 0.04293058, 0, 0, -0.999078) /* PCAPRecordedLocation */
+VALUES (26639, 8040, 0x016C01BC, 53.42517, -30.02003, -0.001, 0.042931, 0, 0, -0.999078) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [53.425170 -30.020030 -0.001000] 0.042931 0.000000 0.000000 -0.999078 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26639, 8000, 2291999276) /* PCAPRecordedObjectIID */;
+VALUES (26639, 8000, 0x889D222C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26639, 67111918, 0, 0);

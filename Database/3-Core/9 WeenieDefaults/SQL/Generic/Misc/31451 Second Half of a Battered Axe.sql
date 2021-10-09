@@ -21,17 +21,17 @@ VALUES (31451,   1, 'Second Half of a Battered Axe') /* Name */
      , (31451,  16, 'Half of a battered old axe. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31451,   1,   33554817) /* Setup */
-     , (31451,   3,  536870932) /* SoundTable */
-     , (31451,   8,  100687880) /* Icon */
-     , (31451,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31451,   1, 0x02000181) /* Setup */
+     , (31451,   3, 0x20000014) /* SoundTable */
+     , (31451,   8, 0x06006008) /* Icon */
+     , (31451,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31451, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (31451, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31451, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31451, 8040, 23855548, 54.40371, -32.92105, -0.002499998, 0.1420641, 0, 0, -0.9898574) /* PCAPRecordedLocation */
+VALUES (31451, 8040, 0x016C01BC, 54.40371, -32.92105, -0.0025, 0.142064, 0, 0, -0.989857) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [54.403710 -32.921050 -0.002500] 0.142064 0.000000 0.000000 -0.989857 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31451, 8000, 2627480883) /* PCAPRecordedObjectIID */;
+VALUES (31451, 8000, 0x9C9C2D33) /* PCAPRecordedObjectIID */;

@@ -30,18 +30,18 @@ VALUES (34291,   1, 'Gem of Balance') /* Name */
      , (34291,  20, 'Gems of Balance') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34291,   1,   33554809) /* Setup */
-     , (34291,   3,  536870932) /* SoundTable */
-     , (34291,   6,   67111919) /* PaletteBase */
-     , (34291,   8,  100688622) /* Icon */
-     , (34291,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34291,   1, 0x02000179) /* Setup */
+     , (34291,   3, 0x20000014) /* SoundTable */
+     , (34291,   6, 0x04000BEF) /* PaletteBase */
+     , (34291,   8, 0x060062EE) /* Icon */
+     , (34291,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34291,  28,       2659) /* Spell - ModerateCoordination */
      , (34291, 8001,  275280017) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (34291, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34291, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34291, 8000, 2174248256) /* PCAPRecordedObjectIID */;
+VALUES (34291, 8000, 0x81986540) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34291, 67111924, 0, 0);

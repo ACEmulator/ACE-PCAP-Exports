@@ -20,17 +20,17 @@ VALUES (32179,   1, 'Fiun Head') /* Name */
      , (32179,  16, 'The head of a Fiun, its crazed face drawn in madness.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32179,   1,   33559764) /* Setup */
-     , (32179,   3,  536870932) /* SoundTable */
-     , (32179,   8,  100688428) /* Icon */
-     , (32179,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32179,   1, 0x020014D4) /* Setup */
+     , (32179,   3, 0x20000014) /* SoundTable */
+     , (32179,   8, 0x0600622C) /* Icon */
+     , (32179,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32179, 8001,  270532624) /* PCAPRecordedWeenieHeader - Usable, Burden, HookType */
      , (32179, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32179, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32179, 8040, 459059, 60.17163, -71.31196, -0.002499998, -0.9342657, 0, 0, -0.3565775) /* PCAPRecordedLocation */
+VALUES (32179, 8040, 0x00070133, 60.17163, -71.31196, -0.0025, -0.934266, 0, 0, -0.356578) /* PCAPRecordedLocation */
 /* @teleloc 0x00070133 [60.171630 -71.311960 -0.002500] -0.934266 0.000000 0.000000 -0.356578 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32179, 8000, 3005756225) /* PCAPRecordedObjectIID */;
+VALUES (32179, 8000, 0xB3283341) /* PCAPRecordedObjectIID */;

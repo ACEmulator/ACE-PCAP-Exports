@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46173,   1, 'Major Chilling Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46173,   1,   33556384) /* Setup */
-     , (46173,   3,  536870932) /* SoundTable */
-     , (46173,   6,   67111919) /* PaletteBase */
-     , (46173,   8,  100672934) /* Icon */
-     , (46173,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46173,   1, 0x020007A0) /* Setup */
+     , (46173,   3, 0x20000014) /* SoundTable */
+     , (46173,   6, 0x04000BEF) /* PaletteBase */
+     , (46173,   8, 0x060025A6) /* Icon */
+     , (46173,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46173, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46173, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46173, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46173, 8000, 2258712582) /* PCAPRecordedObjectIID */;
+VALUES (46173, 8000, 0x86A13806) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46173, 67111919, 0, 0);

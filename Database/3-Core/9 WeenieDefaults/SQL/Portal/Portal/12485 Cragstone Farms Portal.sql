@@ -22,16 +22,16 @@ VALUES (12485,   1, 'Cragstone Farms Portal') /* Name */
      , (12485, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12485,   1,   33554867) /* Setup */
-     , (12485,   2,  150994947) /* MotionTable */
-     , (12485,   8,  100667499) /* Icon */
+VALUES (12485,   1, 0x020001B3) /* Setup */
+     , (12485,   2, 0x09000003) /* MotionTable */
+     , (12485,   8, 0x0600106B) /* Icon */
      , (12485, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12485, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12485, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12485, 8040, 3114270738, 59.694, 27.2464, 53.937, -0.1692, 0, 0, -0.9855818) /* PCAPRecordedLocation */
+VALUES (12485, 8040, 0xB9A00012, 59.694, 27.2464, 53.937, -0.1692, 0, 0, -0.985582) /* PCAPRecordedLocation */
 /* @teleloc 0xB9A00012 [59.694000 27.246400 53.937000] -0.169200 0.000000 0.000000 -0.985582 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12485, 8000, 2073690112) /* PCAPRecordedObjectIID */;
+VALUES (12485, 8000, 0x7B9A0000) /* PCAPRecordedObjectIID */;

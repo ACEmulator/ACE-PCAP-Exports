@@ -42,17 +42,17 @@ VALUES (21151,   1, 'Covenant Bracers') /* Name */
      , (21151,  16, 'Covenant Bracers') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21151,   1,   33554641) /* Setup */
-     , (21151,   3,  536870932) /* SoundTable */
-     , (21151,   6,   67108990) /* PaletteBase */
-     , (21151,   8,  100673380) /* Icon */
-     , (21151,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21151,   1, 0x020000D1) /* Setup */
+     , (21151,   3, 0x20000014) /* SoundTable */
+     , (21151,   6, 0x0400007E) /* PaletteBase */
+     , (21151,   8, 0x06002764) /* Icon */
+     , (21151,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21151, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (21151, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21151, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21151, 8000, 3694211433) /* PCAPRecordedObjectIID */;
+VALUES (21151, 8000, 0xDC313169) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21151, 67113889, 96, 12);

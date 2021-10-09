@@ -26,22 +26,22 @@ VALUES (30649,   1, 'Drudge Toiler') /* Name */
      , (30649, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30649,   1,   33556445) /* Setup */
-     , (30649,   2,  150994952) /* MotionTable */
-     , (30649,   3,  536870919) /* SoundTable */
-     , (30649,   6,   67112812) /* PaletteBase */
-     , (30649,   8,  100667445) /* Icon */
-     , (30649,  22,  872415258) /* PhysicsEffectTable */
+VALUES (30649,   1, 0x020007DD) /* Setup */
+     , (30649,   2, 0x09000008) /* MotionTable */
+     , (30649,   3, 0x20000007) /* SoundTable */
+     , (30649,   6, 0x04000F6C) /* PaletteBase */
+     , (30649,   8, 0x06001035) /* Icon */
+     , (30649,  22, 0x3400001A) /* PhysicsEffectTable */
      , (30649, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (30649, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (30649, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30649, 8040, 191889446, 105.384, 128.542, 94.0042, -0.9183763, 0, 0, 0.3957081) /* PCAPRecordedLocation */
+VALUES (30649, 8040, 0x0B700026, 105.384, 128.542, 94.0042, -0.918376, 0, 0, 0.395708) /* PCAPRecordedLocation */
 /* @teleloc 0x0B700026 [105.384000 128.542000 94.004200] -0.918376 0.000000 0.000000 0.395708 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30649, 8000, 3695958266) /* PCAPRecordedObjectIID */;
+VALUES (30649, 8000, 0xDC4BD8FA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30649,   1, 210, 0, 0) /* Strength */
@@ -1072,7 +1072,10 @@ VALUES (30649, 2, 47352,  1, 0, 0, False) /* Create Club (47352) for Wield */
      , (30649, 9, 37188,  0, 0, 0, False) /* Create Olthoi Amuli Gauntlets (37188) for ContainTreasure */
      , (30649, 9, 49334,  0, 0, 0, False) /* Create Frost Wisp Essence (125) (49334) for ContainTreasure */
      , (30649, 9, 20514,  0, 0, 0, False) /* Create Scroll of Adja's Boon (20514) for ContainTreasure */
-     , (30649, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */;
+     , (30649, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (30649, 9, 20585,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other VII (20585) for ContainTreasure */
+     , (30649, 9, 45290,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VII (45290) for ContainTreasure */
+     , (30649, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30649, 67112818, 0, 0);

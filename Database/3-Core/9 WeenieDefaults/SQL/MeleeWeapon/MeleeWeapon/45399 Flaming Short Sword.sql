@@ -54,19 +54,19 @@ VALUES (45399,   1, 'Flaming Short Sword') /* Name */
      , (45399,  16, 'Flaming Short Sword of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45399,   1,   33555797) /* Setup */
-     , (45399,   3,  536870932) /* SoundTable */
-     , (45399,   8,  100669042) /* Icon */
-     , (45399,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45399,   1, 0x02000555) /* Setup */
+     , (45399,   3, 0x20000014) /* SoundTable */
+     , (45399,   8, 0x06001672) /* Icon */
+     , (45399,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45399,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45399, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45399, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45399, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45399, 8000, 3681370806) /* PCAPRecordedObjectIID */;
+VALUES (45399, 8000, 0xDB6D42B6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45399,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (45399,  2061,      2)  /* EnduranceSelf7 */
+VALUES (45399,  2061,      2)  /* EnduranceSelf7 */
+     , (45399,  1616,      2)  /* BloodDrinkerSelf6 */
      , (45399,  2596,      2)  /* CANTRIPSWIFTHUNTER2 */;

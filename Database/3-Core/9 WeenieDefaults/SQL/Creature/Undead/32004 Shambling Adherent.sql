@@ -22,22 +22,22 @@ VALUES (32004,   1, 'Shambling Adherent') /* Name */
      , (32004, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32004,   1,   33559744) /* Setup */
-     , (32004,   2,  150994967) /* MotionTable */
-     , (32004,   3,  536870934) /* SoundTable */
-     , (32004,   6,   67108990) /* PaletteBase */
-     , (32004,   8,  100667942) /* Icon */
-     , (32004,  22,  872415272) /* PhysicsEffectTable */
+VALUES (32004,   1, 0x020014C0) /* Setup */
+     , (32004,   2, 0x09000017) /* MotionTable */
+     , (32004,   3, 0x20000016) /* SoundTable */
+     , (32004,   6, 0x0400007E) /* PaletteBase */
+     , (32004,   8, 0x06001226) /* Icon */
+     , (32004,  22, 0x34000028) /* PhysicsEffectTable */
      , (32004, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (32004, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (32004, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32004, 8040, 3587834190, 183.5, 179.67, 0.007499993, -0.437077, 0, 0, -0.899424) /* PCAPRecordedLocation */
+VALUES (32004, 8040, 0xD5DA014E, 183.5, 179.67, 0.0075, -0.437077, 0, 0, -0.899424) /* PCAPRecordedLocation */
 /* @teleloc 0xD5DA014E [183.500000 179.670000 0.007500] -0.437077 0.000000 0.000000 -0.899424 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32004, 8000, 3708656416) /* PCAPRecordedObjectIID */;
+VALUES (32004, 8000, 0xDD0D9B20) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (32004,   1,     0, 0, 0, 2840) /* MaxHealth */;
@@ -55,6 +55,9 @@ VALUES (32004, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wi
      , (32004, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
      , (32004, 2, 48032,  1, 0, 0, False) /* Create Ono (48032) for Wield */
      , (32004, 2, 48026,  1, 0, 0, False) /* Create Nekode (48026) for Wield */
+     , (32004, 2, 48023,  1, 0, 0, False) /* Create Acid Katar (48023) for Wield */
+     , (32004, 2, 48029,  1, 0, 0, False) /* Create Silifi (48029) for Wield */
+     , (32004, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
      , (32004, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

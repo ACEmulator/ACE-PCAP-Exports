@@ -23,18 +23,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45500,   1, 'Missile Defense Weapon Augmentation Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45500,   1,   33556769) /* Setup */
-     , (45500,   3,  536870932) /* SoundTable */
-     , (45500,   6,   67111919) /* PaletteBase */
-     , (45500,   8,  100673039) /* Icon */
-     , (45500,  22,  872415275) /* PhysicsEffectTable */
-     , (45500,  50,  100686676) /* IconOverlay */
+VALUES (45500,   1, 0x02000921) /* Setup */
+     , (45500,   3, 0x20000014) /* SoundTable */
+     , (45500,   6, 0x04000BEF) /* PaletteBase */
+     , (45500,   8, 0x0600260F) /* Icon */
+     , (45500,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45500,  50, 0x06005B54) /* IconOverlay */
      , (45500, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (45500, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45500, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45500, 8000, 2639828569) /* PCAPRecordedObjectIID */;
+VALUES (45500, 8000, 0x9D589659) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45500, 67111927, 0, 0);

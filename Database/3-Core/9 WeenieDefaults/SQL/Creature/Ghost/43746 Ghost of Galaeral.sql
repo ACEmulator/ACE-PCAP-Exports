@@ -29,21 +29,21 @@ VALUES (43746,   1, 'Ghost of Galaeral') /* Name */
      , (43746, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43746,   1,   33560295) /* Setup */
-     , (43746,   2,  150995403) /* MotionTable */
-     , (43746,   3,  536871094) /* SoundTable */
-     , (43746,   8,  100676679) /* Icon */
-     , (43746,  22,  872415403) /* PhysicsEffectTable */
+VALUES (43746,   1, 0x020016E7) /* Setup */
+     , (43746,   2, 0x090001CB) /* MotionTable */
+     , (43746,   3, 0x200000B6) /* SoundTable */
+     , (43746,   8, 0x06003447) /* Icon */
+     , (43746,  22, 0x340000AB) /* PhysicsEffectTable */
      , (43746, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (43746, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (43746, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43746, 8040, 3052405009, 138.154, -93.6048, -81.1935, -0.959525, 0, 0, -0.281624) /* PCAPRecordedLocation */
+VALUES (43746, 8040, 0xB5F00111, 138.154, -93.6048, -81.1935, -0.959525, 0, 0, -0.281624) /* PCAPRecordedLocation */
 /* @teleloc 0xB5F00111 [138.154000 -93.604800 -81.193500] -0.959525 0.000000 0.000000 -0.281624 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43746, 8000, 2630840830) /* PCAPRecordedObjectIID */;
+VALUES (43746, 8000, 0x9CCF71FE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (43746,   1,     0, 0, 0, 200) /* MaxHealth */;

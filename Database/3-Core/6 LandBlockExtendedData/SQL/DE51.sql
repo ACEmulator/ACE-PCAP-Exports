@@ -9,7 +9,7 @@ VALUES (0x7DE51002,  4525, 0xDE510016, 52.407, 121.53, 16, 0.723479, 0, 0, -0.69
 /* @teleloc 0xDE510016 [52.407000 121.530000 16.000000] 0.723479 0.000000 0.000000 -0.690347 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DE51003,  4559, 0xDE51010A, 38.0053, 130.046, 17.605, 0.9999339, 0, 0, -0.0114983, False, '2019-02-10 00:00:00'); /* Oi Ra the Shopkeeper */
+VALUES (0x7DE51003,  4559, 0xDE51010A, 38.0053, 130.046, 17.605, 0.999934, 0, 0, -0.011498, False, '2019-02-10 00:00:00'); /* Oi Ra the Shopkeeper */
 /* @teleloc 0xDE51010A [38.005300 130.046000 17.605000] 0.999934 0.000000 0.000000 -0.011498 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -17,7 +17,7 @@ VALUES (0x7DE51004,  4525, 0xDE51000D, 43.324, 104.188, 16, 0.707107, 0, 0, -0.7
 /* @teleloc 0xDE51000D [43.324000 104.188000 16.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DE51005,   509, 0xDE51000D, 27.1355, 101.376, 17.29071, -0.3211882, 0, 0, -0.9470154, False, '2019-02-10 00:00:00'); /* Life Stone */
+VALUES (0x7DE51005,   509, 0xDE51000D, 27.1355, 101.376, 17.29071, -0.321188, 0, 0, -0.947015, False, '2019-02-10 00:00:00'); /* Life Stone */
 /* @teleloc 0xDE51000D [27.135500 101.376000 17.290710] -0.321188 0.000000 0.000000 -0.947015 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

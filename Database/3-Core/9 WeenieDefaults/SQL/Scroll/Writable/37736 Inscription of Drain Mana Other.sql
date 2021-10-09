@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37736,   1, 'Inscription of Drain Mana Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37736,   1,   33554826) /* Setup */
-     , (37736,   8,  100676932) /* Icon */
-     , (37736,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37736,   1, 0x0200018A) /* Setup */
+     , (37736,   8, 0x06003544) /* Icon */
+     , (37736,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37736,  28,       4644) /* Spell - DrainMana8 */
      , (37736, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (37736, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37736, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37736, 8040, 23855554, 58.50352, -33.12785, 0.0855, -0.9880602, 0, 0, -0.1540681) /* PCAPRecordedLocation */
+VALUES (37736, 8040, 0x016C01C2, 58.50352, -33.12785, 0.0855, -0.98806, 0, 0, -0.154068) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [58.503520 -33.127850 0.085500] -0.988060 0.000000 0.000000 -0.154068 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37736, 8000, 3661899408) /* PCAPRecordedObjectIID */;
+VALUES (37736, 8000, 0xDA442690) /* PCAPRecordedObjectIID */;

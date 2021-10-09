@@ -30,16 +30,16 @@ VALUES (5759,   1, 'Fruitcake') /* Name */
      , (5759,  20, 'Fruitcakes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5759,   1,   33555193) /* Setup */
-     , (5759,   3,  536870932) /* SoundTable */
-     , (5759,   8,  100670293) /* Icon */
-     , (5759,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5759,   1, 0x020002F9) /* Setup */
+     , (5759,   3, 0x20000014) /* SoundTable */
+     , (5759,   8, 0x06001B55) /* Icon */
+     , (5759,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5759, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (5759, 8003,      32786) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Food */
      , (5759, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5759, 8000, 2461713335) /* PCAPRecordedObjectIID */;
+VALUES (5759, 8000, 0x92BAC3B7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (5759, 0, 83888869, 83888868)

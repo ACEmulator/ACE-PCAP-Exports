@@ -24,13 +24,13 @@ VALUES (3057,   1, 'Scroll of Lightning Protection Self VI') /* Name */
 Reduces damage the caster takes from Lightning by 60%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3057,   1,   33554826) /* Setup */
-     , (3057,   8,  100676948) /* Icon */
-     , (3057,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3057,   1, 0x0200018A) /* Setup */
+     , (3057,   8, 0x06003554) /* Icon */
+     , (3057,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3057,  28,       1071) /* Spell - LightningProtectionSelf6 */
      , (3057, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3057, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3057, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3057, 8000, 2925708416) /* PCAPRecordedObjectIID */;
+VALUES (3057, 8000, 0xAE62C480) /* PCAPRecordedObjectIID */;

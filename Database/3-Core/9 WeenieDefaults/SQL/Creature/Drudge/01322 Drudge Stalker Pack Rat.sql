@@ -26,22 +26,22 @@ VALUES (1322,   1, 'Drudge Stalker Pack Rat') /* Name */
      , (1322, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1322,   1,   33556445) /* Setup */
-     , (1322,   2,  150994952) /* MotionTable */
-     , (1322,   3,  536870919) /* SoundTable */
-     , (1322,   6,   67112812) /* PaletteBase */
-     , (1322,   8,  100667445) /* Icon */
-     , (1322,  22,  872415258) /* PhysicsEffectTable */
+VALUES (1322,   1, 0x020007DD) /* Setup */
+     , (1322,   2, 0x09000008) /* MotionTable */
+     , (1322,   3, 0x20000007) /* SoundTable */
+     , (1322,   6, 0x04000F6C) /* PaletteBase */
+     , (1322,   8, 0x06001035) /* Icon */
+     , (1322,  22, 0x3400001A) /* PhysicsEffectTable */
      , (1322, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1322, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1322, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1322, 8040, 30343776, 11.07, -99.4784, 18.00455, -0.3603019, 0, 0, -0.9328358) /* PCAPRecordedLocation */
+VALUES (1322, 8040, 0x01CF0260, 11.07, -99.4784, 18.00455, -0.360302, 0, 0, -0.932836) /* PCAPRecordedLocation */
 /* @teleloc 0x01CF0260 [11.070000 -99.478400 18.004550] -0.360302 0.000000 0.000000 -0.932836 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1322, 8000, 3355819277) /* PCAPRecordedObjectIID */;
+VALUES (1322, 8000, 0xC805BD0D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1322,   1, 220, 0, 0) /* Strength */
@@ -59,6 +59,7 @@ VALUES (1322,   1,    50, 0, 0, 160) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1322, 2,   348,  1, 0, 0, False) /* Create Spear (348) for Wield */
      , (1322, 2,   340,  1, 0, 0, False) /* Create Shamshir (340) for Wield */
+     , (1322, 2,   308,  1, 0, 0, False) /* Create Budiaq (308) for Wield */
      , (1322, 9, 49387,  0, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for ContainTreasure */
      , (1322, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
      , (1322, 9, 30568,  0, 0, 0, False) /* Create Flaming Sabra (30568) for ContainTreasure */

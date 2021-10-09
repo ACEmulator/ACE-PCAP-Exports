@@ -36,21 +36,18 @@ VALUES (2423,   1, 'Gem') /* Name */
      , (2423,  16, 'Gem of Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2423,   1,   33554809) /* Setup */
-     , (2423,   3,  536870932) /* SoundTable */
-     , (2423,   6,   67111919) /* PaletteBase */
-     , (2423,   8,  100674750) /* Icon */
-     , (2423,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2423,   1, 0x02000179) /* Setup */
+     , (2423,   3, 0x20000014) /* SoundTable */
+     , (2423,   6, 0x04000BEF) /* PaletteBase */
+     , (2423,   8, 0x06002CBE) /* Icon */
+     , (2423,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2423,  28,       1312) /* Spell - ArmorSelf6 */
      , (2423, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
      , (2423, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2423, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2423, 8000, 3700264425) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2423, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;
+VALUES (2423, 8000, 0xDC8D8DE9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2423, 67111918, 0, 0);

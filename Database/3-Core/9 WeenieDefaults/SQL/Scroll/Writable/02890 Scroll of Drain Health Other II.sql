@@ -24,13 +24,13 @@ VALUES (2890,   1, 'Scroll of Drain Health Other II') /* Name */
 Drains 25% of the target''s Health and gives 160% of it to the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2890,   1,   33554826) /* Setup */
-     , (2890,   8,  100676934) /* Icon */
-     , (2890,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2890,   1, 0x0200018A) /* Setup */
+     , (2890,   8, 0x06003546) /* Icon */
+     , (2890,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2890,  28,       1238) /* Spell - DrainHealth2 */
      , (2890, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2890, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2890, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2890, 8000, 2874448510) /* PCAPRecordedObjectIID */;
+VALUES (2890, 8000, 0xAB549A7E) /* PCAPRecordedObjectIID */;

@@ -19,11 +19,11 @@ VALUES (22855,   1, 'Divan') /* Name */
      , (22855,  15, 'This item can be used on floor hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22855,   1,   33555304) /* Setup */
-     , (22855,   8,  100673894) /* Icon */
+VALUES (22855,   1, 0x02000368) /* Setup */
+     , (22855,   8, 0x06002966) /* Icon */
      , (22855, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (22855, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22855, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22855, 8000, 2166203173) /* PCAPRecordedObjectIID */;
+VALUES (22855, 8000, 0x811DA325) /* PCAPRecordedObjectIID */;

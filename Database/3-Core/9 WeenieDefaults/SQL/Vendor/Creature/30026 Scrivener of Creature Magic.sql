@@ -35,20 +35,20 @@ VALUES (30026,   1, 'Scrivener of Creature Magic') /* Name */
      , (30026, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30026,   1,   33555608) /* Setup */
-     , (30026,   2,  150995048) /* MotionTable */
-     , (30026,   3,  536870977) /* SoundTable */
-     , (30026,   8,  100669120) /* Icon */
+VALUES (30026,   1, 0x02000498) /* Setup */
+     , (30026,   2, 0x09000068) /* MotionTable */
+     , (30026,   3, 0x20000041) /* SoundTable */
+     , (30026,   8, 0x060016C0) /* Icon */
      , (30026, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (30026, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (30026, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30026, 8040, 836108552, 98.357, 141.558, 90, 0.3478889, 0, 0, -0.9375358) /* PCAPRecordedLocation */
+VALUES (30026, 8040, 0x31D60108, 98.357, 141.558, 90, 0.347889, 0, 0, -0.937536) /* PCAPRecordedLocation */
 /* @teleloc 0x31D60108 [98.357000 141.558000 90.000000] 0.347889 0.000000 0.000000 -0.937536 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30026, 8000, 1931304973) /* PCAPRecordedObjectIID */;
+VALUES (30026, 8000, 0x731D600D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30026,   1,  90, 0, 0) /* Strength */

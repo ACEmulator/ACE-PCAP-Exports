@@ -45,24 +45,21 @@ VALUES (28612,   1, 'Bandana') /* Name */
      , (28612,  16, 'Bandana of Void Magic') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28612,   1,   33559326) /* Setup */
-     , (28612,   3,  536870932) /* SoundTable */
-     , (28612,   6,   67108990) /* PaletteBase */
-     , (28612,   8,  100685872) /* Icon */
-     , (28612,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28612,   1, 0x0200131E) /* Setup */
+     , (28612,   3, 0x20000014) /* SoundTable */
+     , (28612,   6, 0x0400007E) /* PaletteBase */
+     , (28612,   8, 0x06005830) /* Icon */
+     , (28612,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28612, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (28612, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28612, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28612, 8000, 3314293212) /* PCAPRecordedObjectIID */;
+VALUES (28612, 8000, 0xC58C19DC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28612,  1485,      2)  /* Impenetrability5 */
      , (28612,  5415,      2)  /* VoidMagicMasterySelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28612, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28612, 67115979, 240, 16);

@@ -52,18 +52,18 @@ VALUES (30612,   1, 'Lightning Knuckles') /* Name */
      , (30612,  16, 'Lightning Knuckles of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30612,   1,   33559502) /* Setup */
-     , (30612,   3,  536870932) /* SoundTable */
-     , (30612,   6,   67115556) /* PaletteBase */
-     , (30612,   8,  100687033) /* Icon */
-     , (30612,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30612,   1, 0x020013CE) /* Setup */
+     , (30612,   3, 0x20000014) /* SoundTable */
+     , (30612,   6, 0x04001A24) /* PaletteBase */
+     , (30612,   8, 0x06005CB9) /* Icon */
+     , (30612,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30612,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (30612, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30612, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30612, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30612, 8000, 3192575002) /* PCAPRecordedObjectIID */;
+VALUES (30612, 8000, 0xBE4AD41A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30612,  1614,      2)  /* BloodDrinkerSelf4 */

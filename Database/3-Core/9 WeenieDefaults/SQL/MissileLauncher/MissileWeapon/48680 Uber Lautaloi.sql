@@ -11,7 +11,7 @@ VALUES (48680,   1,        256) /* ItemType - MissileWeapon */
      , (48680,  18,          1) /* UiEffects - Magical */
      , (48680,  19,       4000) /* Value */
      , (48680,  50,          1) /* AmmoType - Arrow */
-     , (48680,  51,          2) /* CombatUse - Missle */
+     , (48680,  51,          2) /* CombatUse - Missile */
      , (48680,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48680, 151,          2) /* HookType - Wall */
      , (48680, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48680,   1, 'Uber Lautaloi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48680,   1,   33557959) /* Setup */
-     , (48680,   3,  536870932) /* SoundTable */
-     , (48680,   8,  100673486) /* Icon */
-     , (48680,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48680,   1, 0x02000DC7) /* Setup */
+     , (48680,   3, 0x20000014) /* SoundTable */
+     , (48680,   8, 0x060027CE) /* Icon */
+     , (48680,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48680, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (48680, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48680, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48680, 8000, 2642081389) /* PCAPRecordedObjectIID */;
+VALUES (48680, 8000, 0x9D7AF66D) /* PCAPRecordedObjectIID */;

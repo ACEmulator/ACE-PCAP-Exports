@@ -23,17 +23,17 @@ VALUES (15820,   1, 'Thorsten Cragstone''s Armor') /* Name */
      , (15820,  15, 'Thorsten Cragstone''s suit of armor. You can see a small puncture hole where the Olthoi Queen pierced his heart.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15820,   1,   33557213) /* Setup */
-     , (15820,   3,  536870932) /* SoundTable */
-     , (15820,   8,  100671781) /* Icon */
-     , (15820,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15820,   1, 0x02000ADD) /* Setup */
+     , (15820,   3, 0x20000014) /* SoundTable */
+     , (15820,   8, 0x06002125) /* Icon */
+     , (15820,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15820, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (15820, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (15820, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15820, 8040, 1399456072, 240.365, -350.16, -28.9798, 0.7054729, 0, 0, -0.7087369) /* PCAPRecordedLocation */
+VALUES (15820, 8040, 0x536A0148, 240.365, -350.16, -28.9798, 0.705473, 0, 0, -0.708737) /* PCAPRecordedLocation */
 /* @teleloc 0x536A0148 [240.365000 -350.160000 -28.979800] 0.705473 0.000000 0.000000 -0.708737 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15820, 8000, 1966514227) /* PCAPRecordedObjectIID */;
+VALUES (15820, 8000, 0x7536A033) /* PCAPRecordedObjectIID */;

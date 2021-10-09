@@ -23,16 +23,16 @@ VALUES (35002,   1, 'Lower Catacomb Prison Key') /* Name */
      , (35002,  16, 'This key was found on a Falatacot who was acting as the warden of the lower catacomb prison. You suspect it can be used on the prison doors in the area.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35002,   1,   33554784) /* Setup */
-     , (35002,   3,  536870932) /* SoundTable */
-     , (35002,   8,  100672469) /* Icon */
-     , (35002,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35002,   1, 0x02000160) /* Setup */
+     , (35002,   3, 0x20000014) /* SoundTable */
+     , (35002,   8, 0x060023D5) /* Icon */
+     , (35002,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35002, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (35002, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35002, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35002, 8000, 3708768534) /* PCAPRecordedObjectIID */;
+VALUES (35002, 8000, 0xDD0F5116) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (35002, 0, 83888936, 83893868);

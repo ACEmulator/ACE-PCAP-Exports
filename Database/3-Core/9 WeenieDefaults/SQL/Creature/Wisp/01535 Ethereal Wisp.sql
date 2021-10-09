@@ -23,21 +23,21 @@ VALUES (1535,   1, 'Ethereal Wisp') /* Name */
      , (1535, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1535,   1,   33555866) /* Setup */
-     , (1535,   2,  150994993) /* MotionTable */
-     , (1535,   3,  536870985) /* SoundTable */
-     , (1535,   8,  100668442) /* Icon */
-     , (1535,  22,  872415274) /* PhysicsEffectTable */
+VALUES (1535,   1, 0x0200059A) /* Setup */
+     , (1535,   2, 0x09000031) /* MotionTable */
+     , (1535,   3, 0x20000049) /* SoundTable */
+     , (1535,   8, 0x0600141A) /* Icon */
+     , (1535,  22, 0x3400002A) /* PhysicsEffectTable */
      , (1535, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1535, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1535, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1535, 8040, 2471166313, 150.304, -18.322, -25.6, 0.861637, 0, 0, 0.507525) /* PCAPRecordedLocation */
+VALUES (1535, 8040, 0x934B0169, 150.304, -18.322, -25.6, 0.861637, 0, 0, 0.507525) /* PCAPRecordedLocation */
 /* @teleloc 0x934B0169 [150.304000 -18.322000 -25.600000] 0.861637 0.000000 0.000000 0.507525 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1535, 8000, 3692413305) /* PCAPRecordedObjectIID */;
+VALUES (1535, 8000, 0xDC15C179) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1535,   1,  15, 0, 0) /* Strength */

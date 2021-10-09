@@ -29,21 +29,21 @@ VALUES (3962,   1, 'Chest') /* Name */
      , (3962, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3962,   1,   33554556) /* Setup */
-     , (3962,   2,  150994948) /* MotionTable */
-     , (3962,   3,  536870945) /* SoundTable */
-     , (3962,   8,  100667424) /* Icon */
-     , (3962,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3962,   1, 0x0200007C) /* Setup */
+     , (3962,   2, 0x09000004) /* MotionTable */
+     , (3962,   3, 0x20000021) /* SoundTable */
+     , (3962,   8, 0x06001020) /* Icon */
+     , (3962,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3962, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (3962, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (3962, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3962, 8040, 17367364, 66.1868, -101.65, -6, 0.692986, 0, 0, 0.720951) /* PCAPRecordedLocation */
+VALUES (3962, 8040, 0x01090144, 66.1868, -101.65, -6, 0.692986, 0, 0, 0.720951) /* PCAPRecordedLocation */
 /* @teleloc 0x01090144 [66.186800 -101.650000 -6.000000] 0.692986 0.000000 0.000000 0.720951 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3962, 8000, 1880133649) /* PCAPRecordedObjectIID */;
+VALUES (3962, 8000, 0x70109011) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3962, -1, 25648, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Leather Pauldrons (25648) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

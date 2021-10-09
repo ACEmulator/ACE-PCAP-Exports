@@ -25,27 +25,27 @@ VALUES (29363,   1, 'Viamontian Torturer') /* Name */
      , (29363, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29363,   1,   33554433) /* Setup */
-     , (29363,   2,  150994945) /* MotionTable */
-     , (29363,   3,  536870913) /* SoundTable */
-     , (29363,   8,  100667446) /* Icon */
-     , (29363,   9,   83890516) /* EyesTexture */
-     , (29363,  10,   83890549) /* NoseTexture */
-     , (29363,  11,   83890632) /* MouthTexture */
-     , (29363,  15,   67117100) /* HairPalette */
-     , (29363,  16,   67109564) /* EyesPalette */
-     , (29363,  17,   67115901) /* SkinPalette */
-     , (29363,  22,  872415236) /* PhysicsEffectTable */
+VALUES (29363,   1, 0x02000001) /* Setup */
+     , (29363,   2, 0x09000001) /* MotionTable */
+     , (29363,   3, 0x20000001) /* SoundTable */
+     , (29363,   8, 0x06001036) /* Icon */
+     , (29363,   9, 0x05001154) /* EyesTexture */
+     , (29363,  10, 0x05001175) /* NoseTexture */
+     , (29363,  11, 0x050011C8) /* MouthTexture */
+     , (29363,  15, 0x0400202C) /* HairPalette */
+     , (29363,  16, 0x040002BC) /* EyesPalette */
+     , (29363,  17, 0x04001B7D) /* SkinPalette */
+     , (29363,  22, 0x34000004) /* PhysicsEffectTable */
      , (29363, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (29363, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (29363, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29363, 8040, 48955973, 20.8548, -41.4831, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (29363, 8040, 0x02EB0245, 20.8548, -41.4831, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x02EB0245 [20.854800 -41.483100 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29363, 8000, 3710369131) /* PCAPRecordedObjectIID */;
+VALUES (29363, 8000, 0xDD27BD6B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29363,   1, 140, 0, 0) /* Strength */
@@ -75,4 +75,7 @@ VALUES (29363, 2, 30583,  1, 0, 0, False) /* Create Flaming Mazule (30583) for W
      , (29363, 2, 30602,  1, 0, 0, False) /* Create Lightning Stiletto (30602) for Wield */
      , (29363, 2, 30566,  1, 0, 0, False) /* Create Sabra (30566) for Wield */
      , (29363, 2, 30568,  1, 0, 0, False) /* Create Flaming Sabra (30568) for Wield */
-     , (29363, 2, 30603,  1, 0, 0, False) /* Create Flaming Stiletto (30603) for Wield */;
+     , (29363, 2, 30603,  1, 0, 0, False) /* Create Flaming Stiletto (30603) for Wield */
+     , (29363, 2, 30569,  1, 0, 0, False) /* Create Frost Sabra (30569) for Wield */
+     , (29363, 2, 30592,  1, 0, 0, False) /* Create Flaming Partizan (30592) for Wield */
+     , (29363, 2, 30582,  1, 0, 0, False) /* Create Lightning Mazule (30582) for Wield */;

@@ -15,6 +15,7 @@ VALUES (33927,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33927,  22, True ) /* Inscribable */
+     , (33927,  23, True ) /* DestroyOnSell */
      , (33927,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,13 +26,13 @@ VALUES (33927,   1, 'Letter to Turien Di Furza, from Larinne Kerendova') /* Name
      , (33927,  16, 'A huge closed scroll, stuffed to capacity with paperwork.  It is addressed to the Royal Agent, Turien Di Furza, at 71.8N 61.2W, in Sanamar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33927,   1,   33554776) /* Setup */
-     , (33927,   3,  536870932) /* SoundTable */
-     , (33927,   8,  100667503) /* Icon */
-     , (33927,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33927,   1, 0x02000158) /* Setup */
+     , (33927,   3, 0x20000014) /* SoundTable */
+     , (33927,   8, 0x0600106F) /* Icon */
+     , (33927,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33927, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (33927, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33927, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33927, 8000, 2186220439) /* PCAPRecordedObjectIID */;
+VALUES (33927, 8000, 0x824F1397) /* PCAPRecordedObjectIID */;

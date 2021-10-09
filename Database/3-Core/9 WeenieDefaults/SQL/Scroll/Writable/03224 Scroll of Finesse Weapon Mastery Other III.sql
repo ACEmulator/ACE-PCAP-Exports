@@ -24,13 +24,13 @@ VALUES (3224,   1, 'Scroll of Finesse Weapon Mastery Other III') /* Name */
 Increases the target''s Finesse Weapons skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3224,   1,   33554826) /* Setup */
-     , (3224,   8,  100692250) /* Icon */
-     , (3224,  22,  872415275) /* PhysicsEffectTable */
-     , (3224,  28,        318) /* Spell - DaggerMasteryOther3 */
+VALUES (3224,   1, 0x0200018A) /* Setup */
+     , (3224,   8, 0x0600711A) /* Icon */
+     , (3224,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3224,  28,        318) /* Spell - FinesseWeaponsMasteryOther3 */
      , (3224, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3224, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3224, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3224, 8000, 2618065030) /* PCAPRecordedObjectIID */;
+VALUES (3224, 8000, 0x9C0C8086) /* PCAPRecordedObjectIID */;

@@ -26,6 +26,7 @@ VALUES (8116,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8116,  22, True ) /* Inscribable */
+     , (8116,  23, True ) /* DestroyOnSell */
      , (8116,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -33,18 +34,18 @@ VALUES (8116,   1, 'Fenmalain Portal Gem') /* Name */
      , (8116,  16, 'This is a portal gem attuned to the energies of the Fenmalain Chamber.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8116,   1,   33556769) /* Setup */
-     , (8116,   3,  536870932) /* SoundTable */
-     , (8116,   6,   67111919) /* PaletteBase */
-     , (8116,   8,  100670994) /* Icon */
-     , (8116,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8116,   1, 0x02000921) /* Setup */
+     , (8116,   3, 0x20000014) /* SoundTable */
+     , (8116,   6, 0x04000BEF) /* PaletteBase */
+     , (8116,   8, 0x06001E12) /* Icon */
+     , (8116,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8116,  28,       2001) /* Spell - PortalSendingFenmalain */
      , (8116, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (8116, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8116, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8116, 8000, 2461541121) /* PCAPRecordedObjectIID */;
+VALUES (8116, 8000, 0x92B82301) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8116, 67111922, 0, 0);

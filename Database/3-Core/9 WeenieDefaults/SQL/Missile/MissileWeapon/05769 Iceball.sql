@@ -17,7 +17,7 @@ VALUES (5769,   1,        256) /* ItemType - MissileWeapon */
      , (5769,  45,          8) /* DamageType - Cold */
      , (5769,  48,         47) /* WeaponSkill - MissileWeapons */
      , (5769,  49,         20) /* WeaponTime */
-     , (5769,  51,          2) /* CombatUse - Missle */
+     , (5769,  51,          2) /* CombatUse - Missile */
      , (5769,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5769, 151,          2) /* HookType - Wall */
      , (5769, 353,         10) /* WeaponType - Thrown */
@@ -40,17 +40,17 @@ VALUES (5769,   1, 'Iceball') /* Name */
      , (5769,  16, 'A ball made of densely packed snow, once partially melted and then re-frozen to form a hard ball of ice.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5769,   1,   33556223) /* Setup */
-     , (5769,   3,  536870932) /* SoundTable */
-     , (5769,   6,   67111928) /* PaletteBase */
-     , (5769,   8,  100670279) /* Icon */
-     , (5769,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5769,   1, 0x020006FF) /* Setup */
+     , (5769,   3, 0x20000014) /* SoundTable */
+     , (5769,   6, 0x04000BF8) /* PaletteBase */
+     , (5769,   8, 0x06001B47) /* Icon */
+     , (5769,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5769, 8001,  270627352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (5769, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5769, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5769, 8000, 2186220381) /* PCAPRecordedObjectIID */;
+VALUES (5769, 8000, 0x824F135D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5769, 67112642, 0, 0);

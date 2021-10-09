@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44624,   1, 'Scroll of Nether Blast VI') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44624,   1,   33554826) /* Setup */
-     , (44624,   8,  100691569) /* Icon */
-     , (44624,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44624,   1, 0x0200018A) /* Setup */
+     , (44624,   8, 0x06006E71) /* Icon */
+     , (44624,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44624,  28,       5549) /* Spell - NetherBlast6 */
      , (44624, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (44624, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -31,4 +31,4 @@ VALUES (44624,   1,   33554826) /* Setup */
      , (44624, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44624, 8000,      44624) /* PCAPRecordedObjectIID */;
+VALUES (44624, 8000, 0x0000AE50) /* PCAPRecordedObjectIID */;

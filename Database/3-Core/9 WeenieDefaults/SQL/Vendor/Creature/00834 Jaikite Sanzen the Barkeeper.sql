@@ -36,27 +36,27 @@ VALUES (834,   1, 'Jaikite Sanzen the Barkeeper') /* Name */
      , (834, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (834,   1,   33554433) /* Setup */
-     , (834,   2,  150994945) /* MotionTable */
-     , (834,   3,  536870913) /* SoundTable */
-     , (834,   6,   67108990) /* PaletteBase */
-     , (834,   8,  100667446) /* Icon */
-     , (834,   9,   83890487) /* EyesTexture */
-     , (834,  10,   83890544) /* NoseTexture */
-     , (834,  11,   83890664) /* MouthTexture */
-     , (834,  15,   67116992) /* HairPalette */
-     , (834,  16,   67110063) /* EyesPalette */
-     , (834,  17,   67110055) /* SkinPalette */
+VALUES (834,   1, 0x02000001) /* Setup */
+     , (834,   2, 0x09000001) /* MotionTable */
+     , (834,   3, 0x20000001) /* SoundTable */
+     , (834,   6, 0x0400007E) /* PaletteBase */
+     , (834,   8, 0x06001036) /* Icon */
+     , (834,   9, 0x05001137) /* EyesTexture */
+     , (834,  10, 0x05001170) /* NoseTexture */
+     , (834,  11, 0x050011E8) /* MouthTexture */
+     , (834,  15, 0x04001FC0) /* HairPalette */
+     , (834,  16, 0x040004AF) /* EyesPalette */
+     , (834,  17, 0x040004A7) /* SkinPalette */
      , (834, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (834, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (834, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (834, 8040, 3663004073, 12.36, 55.08, 24.805, 0.9040826, 0, 0, -0.4273578) /* PCAPRecordedLocation */
+VALUES (834, 8040, 0xDA5501A9, 12.36, 55.08, 24.805, 0.904083, 0, 0, -0.427358) /* PCAPRecordedLocation */
 /* @teleloc 0xDA5501A9 [12.360000 55.080000 24.805000] 0.904083 0.000000 0.000000 -0.427358 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (834, 8000, 2107985972) /* PCAPRecordedObjectIID */;
+VALUES (834, 8000, 0x7DA55034) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (834,   1,  55, 0, 0) /* Strength */
@@ -100,6 +100,7 @@ VALUES (834, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop 
      , (834, 4, 26482, -1, 0, 0, False) /* Create Mosswart Temple (26482) for Shop */
      , (834, 4, 26484, -1, 0, 0, False) /* Create Rat Cave (26484) for Shop */
      , (834, 4, 26486, -1, 0, 0, False) /* Create Bulletin (26486) for Shop */
+     , (834, 4, 25999, -1, 0, 0, False) /* Create Caves in the Foothills (25999) for Shop */
      , (834, 4, 26002, -1, 0, 0, False) /* Create Shoushi Drudge Temple (26002) for Shop */
      , (834, 4, 26003, -1, 0, 0, False) /* Create Shoushi Banderling Camp (26003) for Shop */
      , (834, 4, 26644, -1, 0, 0, False) /* Create Skeleton Castle Rumor (26644) for Shop */;

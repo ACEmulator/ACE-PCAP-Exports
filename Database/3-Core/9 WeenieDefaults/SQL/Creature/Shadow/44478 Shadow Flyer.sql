@@ -26,22 +26,22 @@ VALUES (44478,   1, 'Shadow Flyer') /* Name */
      , (44478, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44478,   1,   33561289) /* Setup */
-     , (44478,   2,  150995049) /* MotionTable */
-     , (44478,   3,  536870975) /* SoundTable */
-     , (44478,   6,   67109305) /* PaletteBase */
-     , (44478,   8,  100669123) /* Icon */
-     , (44478,  22,  872415351) /* PhysicsEffectTable */
+VALUES (44478,   1, 0x02001AC9) /* Setup */
+     , (44478,   2, 0x09000069) /* MotionTable */
+     , (44478,   3, 0x2000003F) /* SoundTable */
+     , (44478,   6, 0x040001B9) /* PaletteBase */
+     , (44478,   8, 0x060016C3) /* Icon */
+     , (44478,  22, 0x34000077) /* PhysicsEffectTable */
      , (44478, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44478, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44478, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44478, 8040, 4149936460, 129.54, 56.8046, 70.811, -0.937839, 0, 0, 0.347072) /* PCAPRecordedLocation */
+VALUES (44478, 8040, 0xF75B014C, 129.54, 56.8046, 70.811, -0.937839, 0, 0, 0.347072) /* PCAPRecordedLocation */
 /* @teleloc 0xF75B014C [129.540000 56.804600 70.811000] -0.937839 0.000000 0.000000 0.347072 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44478, 8000, 3685843705) /* PCAPRecordedObjectIID */;
+VALUES (44478, 8000, 0xDBB182F9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44478,   1, 100, 0, 0) /* Strength */
@@ -392,7 +392,22 @@ VALUES (44478, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wiel
      , (44478, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
      , (44478, 9, 37301,  1, 0, 0, False) /* Create Glyph of Flame (37301) for ContainTreasure */
      , (44478, 9, 37348,  1, 0, 0, False) /* Create Glyph of Frost (37348) for ContainTreasure */
-     , (44478, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */;
+     , (44478, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */
+     , (44478, 9, 40702,  0, 0, 0, False) /* Create Covenant Pauldrons (40702) for ContainTreasure */
+     , (44478, 9, 20611,  0, 0, 0, False) /* Create Scroll of Energize Vitality (20611) for ContainTreasure */
+     , (44478, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
+     , (44478, 9, 20572,  0, 0, 0, False) /* Create Scroll of Kaluhc's Blessing (20572) for ContainTreasure */
+     , (44478, 9, 46879,  0, 0, 0, False) /* Create Aura of Blood Drinker Other VII (46879) for ContainTreasure */
+     , (44478, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
+     , (44478, 9, 29242,  0, 0, 0, False) /* Create Frost Bow (29242) for ContainTreasure */
+     , (44478, 9, 37329,  1, 0, 0, False) /* Create Glyph of Run (37329) for ContainTreasure */
+     , (44478, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (44478, 9, 21108,  0, 0, 0, False) /* Create Scroll of Martyr's Blight VII (21108) for ContainTreasure */
+     , (44478, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
+     , (44478, 9, 20575,  0, 0, 0, False) /* Create Scroll of Aura of Resistance (20575) for ContainTreasure */
+     , (44478, 9, 37199,  0, 0, 0, False) /* Create Olthoi Helm (37199) for ContainTreasure */
+     , (44478, 9, 20506,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self VII (20506) for ContainTreasure */
+     , (44478, 9, 20555,  0, 0, 0, False) /* Create Scroll of Fat Fingers (20555) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44478, 67114711, 0, 0);

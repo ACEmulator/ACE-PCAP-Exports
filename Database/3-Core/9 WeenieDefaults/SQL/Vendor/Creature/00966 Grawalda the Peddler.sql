@@ -36,27 +36,27 @@ VALUES (966,   1, 'Grawalda the Peddler') /* Name */
      , (966, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (966,   1,   33554510) /* Setup */
-     , (966,   2,  150994945) /* MotionTable */
-     , (966,   3,  536870914) /* SoundTable */
-     , (966,   6,   67108990) /* PaletteBase */
-     , (966,   8,  100667446) /* Icon */
-     , (966,   9,   83890275) /* EyesTexture */
-     , (966,  10,   83890314) /* NoseTexture */
-     , (966,  11,   83890331) /* MouthTexture */
-     , (966,  15,   67116991) /* HairPalette */
-     , (966,  16,   67110065) /* EyesPalette */
-     , (966,  17,   67109561) /* SkinPalette */
+VALUES (966,   1, 0x0200004E) /* Setup */
+     , (966,   2, 0x09000001) /* MotionTable */
+     , (966,   3, 0x20000002) /* SoundTable */
+     , (966,   6, 0x0400007E) /* PaletteBase */
+     , (966,   8, 0x06001036) /* Icon */
+     , (966,   9, 0x05001063) /* EyesTexture */
+     , (966,  10, 0x0500108A) /* NoseTexture */
+     , (966,  11, 0x0500109B) /* MouthTexture */
+     , (966,  15, 0x04001FBF) /* HairPalette */
+     , (966,  16, 0x040004B1) /* EyesPalette */
+     , (966,  17, 0x040002B9) /* SkinPalette */
      , (966, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (966, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (966, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (966, 8040, 31981862, 29.31, -82.3414, -11.995, 0.8585122, 0, 0, -0.5127931) /* PCAPRecordedLocation */
+VALUES (966, 8040, 0x01E80126, 29.31, -82.3414, -11.995, 0.858512, 0, 0, -0.512793) /* PCAPRecordedLocation */
 /* @teleloc 0x01E80126 [29.310000 -82.341400 -11.995000] 0.858512 0.000000 0.000000 -0.512793 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (966, 8000, 1881047047) /* PCAPRecordedObjectIID */;
+VALUES (966, 8000, 0x701E8007) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (966,   1,     0, 0, 0, 140) /* MaxHealth */;
@@ -67,6 +67,10 @@ VALUES (966, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (966, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (966, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (966, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (966, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (966, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (966, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (966, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (966, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (966, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (966, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
@@ -110,9 +114,7 @@ VALUES (966, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (966, 4,  4590, -1, 0, 0, False) /* Create Revitalize Other II (4590) for Shop */
      , (966, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
      , (966, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
-     , (966, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
-     , (966, 4, 49485, -1, 0, 0, False) /* Create Encapsulated Spirit (49485) for Shop */
-     , (966, 4,   755, -1, 0, 0, False) /* Create Cinnabar (755) for Shop */;
+     , (966, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (966, 67109561, 0, 24)

@@ -27,22 +27,22 @@ VALUES (37452,   1, 'Corrupted Dread') /* Name */
      , (37452, 8006, 'BwA9ADcDLEc13qlCzB23QrwOjMBP7kEAAAAAQAAAAAD//39/zczMPgAAcEEAAAAAyFY0QA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37452,   1,   33558816) /* Setup */
-     , (37452,   2,  150995302) /* MotionTable */
-     , (37452,   3,  536871094) /* SoundTable */
-     , (37452,   6,   67115251) /* PaletteBase */
-     , (37452,   8,  100676679) /* Icon */
-     , (37452,  22,  872415403) /* PhysicsEffectTable */
+VALUES (37452,   1, 0x02001120) /* Setup */
+     , (37452,   2, 0x09000166) /* MotionTable */
+     , (37452,   3, 0x200000B6) /* SoundTable */
+     , (37452,   6, 0x040018F3) /* PaletteBase */
+     , (37452,   8, 0x06003447) /* Icon */
+     , (37452,  22, 0x340000AB) /* PhysicsEffectTable */
      , (37452, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (37452, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (37452, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37452, 8040, 1194066743, 82.66483, 91.05931, -4.376799, 0.9030979, 0, 0, -0.4294348) /* PCAPRecordedLocation */
+VALUES (37452, 8040, 0x472C0337, 82.66483, 91.05931, -4.376799, 0.903098, 0, 0, -0.429435) /* PCAPRecordedLocation */
 /* @teleloc 0x472C0337 [82.664830 91.059310 -4.376799] 0.903098 0.000000 0.000000 -0.429435 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37452, 8000, 3700923883) /* PCAPRecordedObjectIID */;
+VALUES (37452, 8000, 0xDC979DEB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (37452,   1, 490, 0, 0) /* Strength */

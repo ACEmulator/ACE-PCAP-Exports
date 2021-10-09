@@ -18,17 +18,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (144,   1, 'Cistern') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (144,   1,   33554712) /* Setup */
-     , (144,   3,  536870932) /* SoundTable */
-     , (144,   8,  100667466) /* Icon */
-     , (144,  22,  872415275) /* PhysicsEffectTable */
+VALUES (144,   1, 0x02000118) /* Setup */
+     , (144,   3, 0x20000014) /* SoundTable */
+     , (144,   8, 0x0600104A) /* Icon */
+     , (144,  22, 0x3400002B) /* PhysicsEffectTable */
      , (144, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (144, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (144, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (144, 8040, 3646488609, 109.01, 13.1573, 10, 0.1431401, 0, 0, -0.9897025) /* PCAPRecordedLocation */
+VALUES (144, 8040, 0xD9590021, 109.01, 13.1573, 10, 0.14314, 0, 0, -0.989703) /* PCAPRecordedLocation */
 /* @teleloc 0xD9590021 [109.010000 13.157300 10.000000] 0.143140 0.000000 0.000000 -0.989703 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (144, 8000, 2106953732) /* PCAPRecordedObjectIID */;
+VALUES (144, 8000, 0x7D959004) /* PCAPRecordedObjectIID */;

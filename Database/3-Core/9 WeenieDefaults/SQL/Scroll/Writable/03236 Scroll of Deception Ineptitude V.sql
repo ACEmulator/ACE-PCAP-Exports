@@ -24,13 +24,13 @@ VALUES (3236,   1, 'Scroll of Deception Ineptitude V') /* Name */
 Decreases the target''s Deception skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3236,   1,   33554826) /* Setup */
-     , (3236,   8,  100676448) /* Icon */
-     , (3236,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3236,   1, 0x0200018A) /* Setup */
+     , (3236,   8, 0x06003360) /* Icon */
+     , (3236,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3236,  28,        872) /* Spell - DeceptionIneptitudeOther5 */
      , (3236, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3236, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3236, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3236, 8000, 2384324217) /* PCAPRecordedObjectIID */;
+VALUES (3236, 8000, 0x8E1DE679) /* PCAPRecordedObjectIID */;

@@ -41,26 +41,26 @@ VALUES (28147,   1, 'Dusky Winged Coat') /* Name */
      , (28147,  16, 'A winged coat crafted from the hide of an adolescent ash gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28147,   1,   33554854) /* Setup */
-     , (28147,   3,  536870932) /* SoundTable */
-     , (28147,   6,   67108990) /* PaletteBase */
-     , (28147,   8,  100676833) /* Icon */
-     , (28147,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28147,   1, 0x020001A6) /* Setup */
+     , (28147,   3, 0x20000014) /* SoundTable */
+     , (28147,   6, 0x0400007E) /* PaletteBase */
+     , (28147,   8, 0x060034E1) /* Icon */
+     , (28147,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28147, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (28147, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28147, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28147, 8040, 3583574079, 178.0639, 145.7966, 373.9975, 0.9573087, 0, 0, -0.2890678) /* PCAPRecordedLocation */
+VALUES (28147, 8040, 0xD599003F, 178.0639, 145.7966, 373.9975, 0.957309, 0, 0, -0.289068) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [178.063900 145.796600 373.997500] 0.957309 0.000000 0.000000 -0.289068 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28147, 8000, 2174519169) /* PCAPRecordedObjectIID */;
+VALUES (28147, 8000, 0x819C8781) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28147,  1486,      2)  /* Impenetrability6 */
-     , (28147,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */
      , (28147,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (28147,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */
      , (28147,  2622,      2)  /* CANTRIPSTORMWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

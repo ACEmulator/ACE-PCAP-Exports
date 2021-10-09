@@ -18,20 +18,21 @@ VALUES (41934,   1,        128) /* ItemType - Misc */
      , (41934, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41934,  69, False) /* IsSellable */;
+VALUES (41934,  23, True ) /* DestroyOnSell */
+     , (41934,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41934,   1, 'Lord Trimere''s Brand') /* Name */
      , (41934,  15, 'A burning brand with the champion mark of Lord Trimere.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41934,   1,   33554695) /* Setup */
-     , (41934,   3,  536870932) /* SoundTable */
-     , (41934,   8,  100667478) /* Icon */
-     , (41934,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41934,   1, 0x02000107) /* Setup */
+     , (41934,   3, 0x20000014) /* SoundTable */
+     , (41934,   8, 0x06001056) /* Icon */
+     , (41934,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41934, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (41934, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41934, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41934, 8000, 3683452135) /* PCAPRecordedObjectIID */;
+VALUES (41934, 8000, 0xDB8D04E7) /* PCAPRecordedObjectIID */;

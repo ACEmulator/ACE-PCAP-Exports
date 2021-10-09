@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35297,   1,          1) /* ItemType - MeleeWeapon */
      , (35297,   5,        500) /* EncumbranceVal */
      , (35297,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (35297,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (35297,  16,          1) /* ItemUseable - No */
      , (35297,  18,        128) /* UiEffects - Frost */
      , (35297,  19,      40000) /* Value */
@@ -35,7 +34,8 @@ VALUES (35297,   1,          1) /* ItemType - MeleeWeapon */
      , (35297, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35297,  69, False) /* IsSellable */;
+VALUES (35297,  23, True ) /* DestroyOnSell */
+     , (35297,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35297,   5,   -0.05) /* ManaRate */
@@ -51,10 +51,10 @@ VALUES (35297,   1, 'Greatsword of Flame and Light') /* Name */
      , (35297,  16, 'A sword mostly composed of a white-hot flame. Lightning striking between the free floating metal sections that the flames coalesce around.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35297,   1,   33560276) /* Setup */
-     , (35297,   3,  536870932) /* SoundTable */
-     , (35297,   8,  100689459) /* Icon */
-     , (35297,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35297,   1, 0x020016D4) /* Setup */
+     , (35297,   3, 0x20000014) /* SoundTable */
+     , (35297,   8, 0x06006633) /* Icon */
+     , (35297,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35297,  55,       3911) /* ProcSpell - RingHarmOther */
      , (35297, 8001,    2327192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (35297, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
@@ -62,12 +62,12 @@ VALUES (35297,   1,   33560276) /* Setup */
      , (35297, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35297, 8040, 3583574079, 180.025, 155, 373.939, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (35297, 8040, 0xD599003F, 180.025, 155, 373.939, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [180.025000 155.000000 373.939000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35297, 8000, 3692313032) /* PCAPRecordedObjectIID */
-     , (35297, 8008, 3692313033) /* PCAPRecordedParentIID */;
+VALUES (35297, 8000, 0xDC1439C8) /* PCAPRecordedObjectIID */
+     , (35297, 8008, 0xDC1439C9) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35297,  2694,      2)  /* ModerateSwordAptitude */;

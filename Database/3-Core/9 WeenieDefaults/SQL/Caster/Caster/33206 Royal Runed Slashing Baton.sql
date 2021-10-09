@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33206,   1,      32768) /* ItemType - Caster */
      , (33206,   5,        200) /* EncumbranceVal */
      , (33206,   9,   16777216) /* ValidLocations - Held */
-     , (33206,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (33206,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (33206,  18,       1024) /* UiEffects - Slashing */
      , (33206,  19,      15000) /* Value */
      , (33206,  45,          1) /* DamageType - Slash */
+     , (33206,  46,        512) /* DefaultCombatStyle - Magic */
      , (33206,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33206,  94,         16) /* TargetType - Creature */
      , (33206, 106,        450) /* ItemSpellcraft */
@@ -46,31 +46,31 @@ VALUES (33206,   1, 'Royal Runed Slashing Baton') /* Name */
      , (33206,  16, 'A spellcasting baton crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33206,   1,   33559932) /* Setup */
-     , (33206,   3,  536870932) /* SoundTable */
-     , (33206,   6,   67116700) /* PaletteBase */
-     , (33206,   8,  100688016) /* Icon */
-     , (33206,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33206,   1, 0x0200157C) /* Setup */
+     , (33206,   3, 0x20000014) /* SoundTable */
+     , (33206,   6, 0x04001E9C) /* PaletteBase */
+     , (33206,   8, 0x06006090) /* Icon */
+     , (33206,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33206,  28,       2282) /* Spell - MagicYieldOther7 */
-     , (33206,  50,  100688914) /* IconOverlay */
+     , (33206,  50, 0x06006412) /* IconOverlay */
      , (33206, 8001, 1349222552) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType, IconOverlay */
      , (33206, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33206, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (33206, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33206, 8040, 18809102, 34.2425, -29.18434, 2.134, -0.2575423, -0.2575423, -0.6585377, -0.6585377) /* PCAPRecordedLocation */
+VALUES (33206, 8040, 0x011F010E, 34.2425, -29.18434, 2.134, -0.257542, -0.257542, -0.658538, -0.658538) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010E [34.242500 -29.184340 2.134000] -0.257542 -0.257542 -0.658538 -0.658538 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33206, 8000, 3430980694) /* PCAPRecordedObjectIID */
-     , (33206, 8008, 1342976574) /* PCAPRecordedParentIID */;
+VALUES (33206, 8000, 0xCC809C56) /* PCAPRecordedObjectIID */
+     , (33206, 8008, 0x500C323E) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33206,  2101,      2)  /* DefenderSelf7 */
-     , (33206,  2117,      2)  /* HermeticLinkSelf7 */
-     , (33206,  2812,      2)  /* ModerateWarMagicAptitude */
-     , (33206,  3259,      2)  /* SpiritDrinkerSelf7 */;
+VALUES (33206,  2117,      2)  /* HermeticLinkSelf7 */
+     , (33206,  2101,      2)  /* DefenderSelf7 */
+     , (33206,  3259,      2)  /* SpiritDrinkerSelf7 */
+     , (33206,  2812,      2)  /* ModerateWarMagicAptitude */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33206, 67116700, 1, 100)

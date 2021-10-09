@@ -25,18 +25,18 @@ VALUES (41543,   1, 'Pet Pumpkin Golem') /* Name */
      , (41543, 8006, 'AAA9AEAAAAAAAMA/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41543,   1,   33559753) /* Setup */
-     , (41543,   2,  150995073) /* MotionTable */
-     , (41543,   3,  536871065) /* SoundTable */
-     , (41543,   8,  100688453) /* Icon */
-     , (41543,  22,  872415326) /* PhysicsEffectTable */
+VALUES (41543,   1, 0x020014C9) /* Setup */
+     , (41543,   2, 0x09000081) /* MotionTable */
+     , (41543,   3, 0x20000099) /* SoundTable */
+     , (41543,   8, 0x06006245) /* Icon */
+     , (41543,  22, 0x3400005E) /* PhysicsEffectTable */
      , (41543, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (41543, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (41543, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41543, 8040, 3332964388, 102.6897, 90.24416, 42.0045, -0.7264018, 0, 0, -0.6872702) /* PCAPRecordedLocation */
+VALUES (41543, 8040, 0xC6A90024, 102.6897, 90.24416, 42.0045, -0.726402, 0, 0, -0.68727) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90024 [102.689700 90.244160 42.004500] -0.726402 0.000000 0.000000 -0.687270 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41543, 8000, 3709883534) /* PCAPRecordedObjectIID */;
+VALUES (41543, 8000, 0xDD20548E) /* PCAPRecordedObjectIID */;

@@ -25,22 +25,22 @@ VALUES (29345,   1, 'Maniacal Fiun') /* Name */
      , (29345, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29345,   1,   33559202) /* Setup */
-     , (29345,   2,  150995326) /* MotionTable */
-     , (29345,   3,  536871100) /* SoundTable */
-     , (29345,   6,   67115480) /* PaletteBase */
-     , (29345,   8,  100677372) /* Icon */
-     , (29345,  22,  872415412) /* PhysicsEffectTable */
+VALUES (29345,   1, 0x020012A2) /* Setup */
+     , (29345,   2, 0x0900017E) /* MotionTable */
+     , (29345,   3, 0x200000BC) /* SoundTable */
+     , (29345,   6, 0x040019D8) /* PaletteBase */
+     , (29345,   8, 0x060036FC) /* Icon */
+     , (29345,  22, 0x340000B4) /* PhysicsEffectTable */
      , (29345, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (29345, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (29345, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29345, 8040, 1072693262, 27.79974, 130.7178, 13.99459, -0.9979877, 0, 0, -0.06340697) /* PCAPRecordedLocation */
+VALUES (29345, 8040, 0x3FF0000E, 27.79974, 130.7178, 13.99459, -0.997988, 0, 0, -0.063407) /* PCAPRecordedLocation */
 /* @teleloc 0x3FF0000E [27.799740 130.717800 13.994590] -0.997988 0.000000 0.000000 -0.063407 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29345, 8000, 3692755079) /* PCAPRecordedObjectIID */;
+VALUES (29345, 8000, 0xDC1AF887) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29345,   1, 170, 0, 0) /* Strength */
@@ -162,7 +162,8 @@ VALUES (29345, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTr
      , (29345, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */
      , (29345, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
      , (29345, 9,  5997,  0, 0, 0, False) /* Create Scroll of Alchemy Mastery Self VI (5997) for ContainTreasure */
-     , (29345, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */;
+     , (29345, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
+     , (29345, 9, 41064,  0, 0, 0, False) /* Create Lightning Khanda-handled Mace (41064) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29345, 67116331, 0, 0);

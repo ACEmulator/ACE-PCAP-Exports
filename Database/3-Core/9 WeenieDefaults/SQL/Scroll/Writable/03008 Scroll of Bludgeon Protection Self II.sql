@@ -24,13 +24,13 @@ VALUES (3008,   1, 'Scroll of Bludgeon Protection Self II') /* Name */
 Reduces damage the caster takes from Bludgeoning by 20%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3008,   1,   33554826) /* Setup */
-     , (3008,   8,  100676952) /* Icon */
-     , (3008,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3008,   1, 0x0200018A) /* Setup */
+     , (3008,   8, 0x06003558) /* Icon */
+     , (3008,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3008,  28,       1019) /* Spell - BludgeonProtectionSelf2 */
      , (3008, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3008, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3008, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3008, 8000, 3334265318) /* PCAPRecordedObjectIID */;
+VALUES (3008, 8000, 0xC6BCD9E6) /* PCAPRecordedObjectIID */;

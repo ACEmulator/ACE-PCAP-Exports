@@ -22,16 +22,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20936,   1, 'Perfect Shimmering Isparian Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20936,   1,   33557746) /* Setup */
-     , (20936,   3,  536870932) /* SoundTable */
-     , (20936,   8,  100673206) /* Icon */
-     , (20936,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20936,   1, 0x02000CF2) /* Setup */
+     , (20936,   3, 0x20000014) /* SoundTable */
+     , (20936,   8, 0x060026B6) /* Icon */
+     , (20936,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20936, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (20936, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20936, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20936, 8000, 2153220027) /* PCAPRecordedObjectIID */;
+VALUES (20936, 8000, 0x805787BB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20936, 0, 83893927, 83892492)

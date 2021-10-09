@@ -24,13 +24,13 @@ VALUES (20488,   1, 'Scroll of Energy Flux') /* Name */
 Decreases target''s natural mana rate by 60%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20488,   1,   33554826) /* Setup */
-     , (20488,   8,  100676939) /* Icon */
-     , (20488,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20488,   1, 0x0200018A) /* Setup */
+     , (20488,   8, 0x0600354B) /* Icon */
+     , (20488,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20488,  28,       2180) /* Spell - ManaDepletionOther7 */
      , (20488, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20488, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20488, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20488, 8000, 3695927601) /* PCAPRecordedObjectIID */;
+VALUES (20488, 8000, 0xDC4B6131) /* PCAPRecordedObjectIID */;

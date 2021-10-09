@@ -23,22 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7269,   1, 'Acid Stream') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7269,   1,   33556610) /* Setup */
-     , (7269,   3,  536870969) /* SoundTable */
-     , (7269,   8,  100667494) /* Icon */
+VALUES (7269,   1, 0x02000882) /* Setup */
+     , (7269,   3, 0x20000039) /* SoundTable */
+     , (7269,   8, 0x06001066) /* Icon */
      , (7269,  28,         58) /* Spell - AcidStream1 */
      , (7269, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (7269, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (7269, 8005,      35717) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7269, 8040, 3932946707, 199.8858, 261.9984, -44.17044, 0.756296, 0, 0, -0.6542295) /* PCAPRecordedLocation */
+VALUES (7269, 8040, 0xEA6C0113, 199.8858, 261.9984, -44.17044, 0.756296, 0, 0, -0.65423) /* PCAPRecordedLocation */
 /* @teleloc 0xEA6C0113 [199.885800 261.998400 -44.170440] 0.756296 0.000000 0.000000 -0.654230 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7269, 8000, 3699867036) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7269, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
-     , (7269, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (7269, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
+VALUES (7269, 8000, 0xDC877D9C) /* PCAPRecordedObjectIID */;

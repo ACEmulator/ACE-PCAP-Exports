@@ -24,13 +24,13 @@ VALUES (28939,   1, 'Scroll of Arcanum Salvaging VII') /* Name */
 Increases the caster''s Salvaging skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28939,   1,   33554826) /* Setup */
-     , (28939,   8,  100676477) /* Icon */
-     , (28939,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28939,   1, 0x0200018A) /* Setup */
+     , (28939,   8, 0x0600337D) /* Icon */
+     , (28939,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28939,  28,       3505) /* Spell - ArcanumSalvagingSelf7 */
      , (28939, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (28939, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28939, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28939, 8000, 3677703486) /* PCAPRecordedObjectIID */;
+VALUES (28939, 8000, 0xDB354D3E) /* PCAPRecordedObjectIID */;

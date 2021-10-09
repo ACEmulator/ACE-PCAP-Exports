@@ -42,23 +42,23 @@ VALUES (26004,   1, 'Crown of Bone') /* Name */
      , (26004,  16, 'A crown crafted from the fingers of the dead.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26004,   1,   33558577) /* Setup */
-     , (26004,   3,  536870932) /* SoundTable */
-     , (26004,   6,   67108990) /* PaletteBase */
-     , (26004,   8,  100675753) /* Icon */
-     , (26004,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26004,   1, 0x02001031) /* Setup */
+     , (26004,   3, 0x20000014) /* SoundTable */
+     , (26004,   6, 0x0400007E) /* PaletteBase */
+     , (26004,   8, 0x060030A9) /* Icon */
+     , (26004,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26004, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (26004, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26004, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26004, 8000, 3692158773) /* PCAPRecordedObjectIID */;
+VALUES (26004, 8000, 0xDC11DF35) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26004,   513,      2)  /* AcidProtectionOther5 */
-     , (26004,  1040,      2)  /* ColdProtectionOther5 */
      , (26004,  1095,      2)  /* FireProtectionOther5 */
-     , (26004,  1484,      2)  /* Impenetrability4 */;
+     , (26004,  1484,      2)  /* Impenetrability4 */
+     , (26004,  1040,      2)  /* ColdProtectionOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (26004, 67114898, 240, 16);

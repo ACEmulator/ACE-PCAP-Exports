@@ -27,27 +27,27 @@ VALUES (9519,   1, 'Sentinel Statue') /* Name */
      , (9519, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9519,   1,   33557020) /* Setup */
-     , (9519,   2,  150995125) /* MotionTable */
-     , (9519,   3,  536871026) /* SoundTable */
-     , (9519,   6,   67108990) /* PaletteBase */
-     , (9519,   8,  100671531) /* Icon */
+VALUES (9519,   1, 0x02000A1C) /* Setup */
+     , (9519,   2, 0x090000B5) /* MotionTable */
+     , (9519,   3, 0x20000072) /* SoundTable */
+     , (9519,   6, 0x0400007E) /* PaletteBase */
+     , (9519,   8, 0x0600202B) /* Icon */
      , (9519, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
      , (9519, 8003,        276) /* PCAPRecordedObjectDesc - Stuck, Attackable, Book */
      , (9519, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9519, 8040, 3164405775, 36, 154.2, 36.9, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (9519, 8040, 0xBC9D000F, 36, 154.2, 36.9, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9D000F [36.000000 154.200000 36.900000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9519, 8000, 2076823553) /* PCAPRecordedObjectIID */;
+VALUES (9519, 8000, 0x7BC9D001) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9519, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (9519, 0, 4294967295, 'prewritten', 'Password is cheese', False, '
+VALUES (9519, 0, 4294967295, '', 'prewritten', False, '
 
 In memory of those who served the peoples of Ispar in their time of need. A torch held high to hold the night at bay.
 

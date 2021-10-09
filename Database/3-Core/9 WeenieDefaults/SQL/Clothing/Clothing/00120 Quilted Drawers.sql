@@ -8,7 +8,6 @@ VALUES (120,   1,          4) /* ItemType - Clothing */
      , (120,   4,         22) /* ClothingPriority - UnderwearUpperLegs, UnderwearLowerLegs, UnderwearAbdomen */
      , (120,   5,        135) /* EncumbranceVal */
      , (120,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
-     , (120,  10,        196) /* CurrentWieldedLocation - AbdomenWear, UpperLegWear, LowerLegWear */
      , (120,  16,          1) /* ItemUseable - No */
      , (120,  19,         30) /* Value */
      , (120,  28,        200) /* ArmorLevel */
@@ -33,17 +32,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (120,   1, 'Quilted Drawers') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (120,   1,   33554653) /* Setup */
-     , (120,   3,  536870932) /* SoundTable */
-     , (120,   6,   67108990) /* PaletteBase */
-     , (120,   8,  100667366) /* Icon */
-     , (120,  22,  872415275) /* PhysicsEffectTable */
+VALUES (120,   1, 0x020000DD) /* Setup */
+     , (120,   3, 0x20000014) /* SoundTable */
+     , (120,   6, 0x0400007E) /* PaletteBase */
+     , (120,   8, 0x06000FE6) /* Icon */
+     , (120,  22, 0x3400002B) /* PhysicsEffectTable */
      , (120, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (120, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (120, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (120, 8000, 2765058327) /* PCAPRecordedObjectIID */;
+VALUES (120, 8000, 0xA4CF7117) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (120, 67110020, 72, 8)

@@ -22,20 +22,20 @@ VALUES (40484,   1, 'Intense Aggregate Crystalline Wisp') /* Name */
      , (40484, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40484,   1,   33558820) /* Setup */
-     , (40484,   2,  150995087) /* MotionTable */
-     , (40484,   3,  536870985) /* SoundTable */
-     , (40484,   8,  100671683) /* Icon */
+VALUES (40484,   1, 0x02001124) /* Setup */
+     , (40484,   2, 0x0900008F) /* MotionTable */
+     , (40484,   3, 0x20000049) /* SoundTable */
+     , (40484,   8, 0x060020C3) /* Icon */
      , (40484, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40484, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40484, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40484, 8040, 2281898325, 101.468, -117.287, -29.995, -0.004204, 0, 0, -0.9999912) /* PCAPRecordedLocation */
+VALUES (40484, 8040, 0x88030155, 101.468, -117.287, -29.995, -0.004204, 0, 0, -0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x88030155 [101.468000 -117.287000 -29.995000] -0.004204 0.000000 0.000000 -0.999991 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40484, 8000, 3710934762) /* PCAPRecordedObjectIID */;
+VALUES (40484, 8000, 0xDD305EEA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40484,   1, 200, 0, 0) /* Strength */

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1457,   1,          2) /* ItemType - Armor */
      , (1457,   5,        450) /* EncumbranceVal */
      , (1457,   9,    2097152) /* ValidLocations - Shield */
-     , (1457,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (1457,  16,          1) /* ItemUseable - No */
      , (1457,  18,          1) /* UiEffects - Magical */
      , (1457,  19,       3000) /* Value */
@@ -40,10 +39,10 @@ VALUES (1457,   1, 'Superior Shield') /* Name */
      , (1457,  16, 'A magnificent kite shield emblazoned with a shining sword.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1457,   1,   33558413) /* Setup */
-     , (1457,   6,   67114413) /* PaletteBase */
-     , (1457,   8,  100674501) /* Icon */
-     , (1457,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1457,   1, 0x02000F8D) /* Setup */
+     , (1457,   6, 0x040015AD) /* PaletteBase */
+     , (1457,   8, 0x06002BC5) /* Icon */
+     , (1457,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1457,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (1457, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (1457, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -51,20 +50,17 @@ VALUES (1457,   1,   33558413) /* Setup */
      , (1457, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1457, 8040, 3381395496, 113.6981, 190.3195, 21.926, -0.03338251, -0.8388966, -0.07897042, -0.5374959) /* PCAPRecordedLocation */
+VALUES (1457, 8040, 0xC98C0028, 113.6981, 190.3195, 21.926, -0.033383, -0.838897, -0.07897, -0.537496) /* PCAPRecordedLocation */
 /* @teleloc 0xC98C0028 [113.698100 190.319500 21.926000] -0.033383 -0.838897 -0.078970 -0.537496 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1457, 8000, 3687631792) /* PCAPRecordedObjectIID */
-     , (1457, 8008, 1343493591) /* PCAPRecordedParentIID */;
+VALUES (1457, 8000, 0xDBCCCBB0) /* PCAPRecordedObjectIID */
+     , (1457, 8008, 0x501415D7) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1457,   247,      2)  /* InvulnerabilitySelf4 */
-     , (1457,   421,      2)  /* SwordMasterySelf4 */
-     , (1457,  1484,      2)  /* Impenetrability4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1457, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */;
+VALUES (1457,  1484,      2)  /* Impenetrability4 */
+     , (1457,   421,      2)  /* HeavyWeaponsMasterySelf4 */
+     , (1457,   247,      2)  /* InvulnerabilitySelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1457, 67114413, 0, 0);

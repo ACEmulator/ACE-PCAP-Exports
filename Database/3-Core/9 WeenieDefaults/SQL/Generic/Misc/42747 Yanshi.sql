@@ -18,15 +18,15 @@ VALUES (42747,   1, 'Yanshi') /* Name */
      , (42747,  16, 'When the Sho first arrived, they decided to build their first city, Hebian-To, at the mouth of the River Prosper. But some chose instead to settle in the plains northwest of the Blackmire Swamp, almost within Aluvian territory. They found a large, lone rock in a field, and there they settled Yanshi, the Town of the Boulder. Some time later, but before the era of the Lifestones, Tumeroks attacked Yanshi, and the legendary Ben Ten came to the town''s defense. For more on the Battle of Yanshi, head to the Sho library in Hebian-To and read "The Story of Ben Ten and Yanshi." In Verdantine, 13 PY, the Yalaini mage Gaerlan attempted to summon a being known as the Harbinger. His attempt failed, and his summoning chamber, along with the town of Yanshi above it, were destroyed. The Sacred Stone in the center of town survived, as did the will of the people. In Frostfell, 16 PY, Yanshi was rebuilt to the west on a hill near the festival grounds of Leafcull. As part of the reconstruction, a memorial to Antius Blackmoor was built. During Solclaim of 21 PY, Prince Borelean Strathelar and Hoshino Kei were wed in the meadow outside of the town''s walls.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42747,   1,   33560953) /* Setup */
-     , (42747,   8,  100668115) /* Icon */
+VALUES (42747,   1, 0x02001979) /* Setup */
+     , (42747,   8, 0x060012D3) /* Icon */
      , (42747, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42747, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42747, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42747, 8040, 459134, 130.038, -84.896, 3.014, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42747, 8040, 0x0007017E, 130.038, -84.896, 3.014, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0007017E [130.038000 -84.896000 3.014000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42747, 8000, 1879077026) /* PCAPRecordedObjectIID */;
+VALUES (42747, 8000, 0x700070A2) /* PCAPRecordedObjectIID */;

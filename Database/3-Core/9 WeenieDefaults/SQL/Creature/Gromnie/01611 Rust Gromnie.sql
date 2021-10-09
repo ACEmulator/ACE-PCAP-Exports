@@ -26,23 +26,23 @@ VALUES (1611,   1, 'Rust Gromnie') /* Name */
      , (1611, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1611,   1,   33554487) /* Setup */
-     , (1611,   2,  150994971) /* MotionTable */
-     , (1611,   3,  536870921) /* SoundTable */
-     , (1611,   6,   67109307) /* PaletteBase */
-     , (1611,   8,  100667938) /* Icon */
-     , (1611,  22,  872415260) /* PhysicsEffectTable */
+VALUES (1611,   1, 0x02000037) /* Setup */
+     , (1611,   2, 0x0900001B) /* MotionTable */
+     , (1611,   3, 0x20000009) /* SoundTable */
+     , (1611,   6, 0x040001BB) /* PaletteBase */
+     , (1611,   8, 0x06001222) /* Icon */
+     , (1611,  22, 0x3400001C) /* PhysicsEffectTable */
      , (1611,  30,         85) /* PhysicsScript - BreatheFrost */
      , (1611, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1611, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1611, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1611, 8040, 2455699505, 164.8999, 13.78077, 16.22439, -0.9579998, 0, 0, -0.2867688) /* PCAPRecordedLocation */
+VALUES (1611, 8040, 0x925F0031, 164.8999, 13.78077, 16.22439, -0.958, 0, 0, -0.286769) /* PCAPRecordedLocation */
 /* @teleloc 0x925F0031 [164.899900 13.780770 16.224390] -0.958000 0.000000 0.000000 -0.286769 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1611, 8000, 3685831872) /* PCAPRecordedObjectIID */;
+VALUES (1611, 8000, 0xDBB154C0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1611,   1,  75, 0, 0) /* Strength */

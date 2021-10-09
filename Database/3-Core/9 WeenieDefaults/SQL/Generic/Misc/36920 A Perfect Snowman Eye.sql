@@ -23,17 +23,17 @@ VALUES (36920,   1, 'A Perfect Snowman Eye') /* Name */
      , (36920,  16, 'A perfectly formed snowman eye. It swivels around in your hand to look at you.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36920,   1,   33554669) /* Setup */
-     , (36920,   3,  536870932) /* SoundTable */
-     , (36920,   6,   67111928) /* PaletteBase */
-     , (36920,   8,  100689763) /* Icon */
-     , (36920,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36920,   1, 0x020000ED) /* Setup */
+     , (36920,   3, 0x20000014) /* SoundTable */
+     , (36920,   6, 0x04000BF8) /* PaletteBase */
+     , (36920,   8, 0x06006763) /* Icon */
+     , (36920,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36920, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (36920, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36920, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36920, 8000, 2922909462) /* PCAPRecordedObjectIID */;
+VALUES (36920, 8000, 0xAE380F16) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36920, 67111925, 0, 0);

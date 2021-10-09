@@ -23,7 +23,8 @@ VALUES (11466,   1,          1) /* ItemType - MeleeWeapon */
      , (11466, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11466,  22, True ) /* Inscribable */;
+VALUES (11466,  22, True ) /* Inscribable */
+     , (11466,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11466,  21,       0) /* WeaponLength */
@@ -39,16 +40,16 @@ VALUES (11466,   1, 'Taiaha') /* Name */
      , (11466,  16, 'A beautifully carved spear. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11466,   1,   33557236) /* Setup */
-     , (11466,   3,  536870932) /* SoundTable */
-     , (11466,   8,  100672091) /* Icon */
-     , (11466,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11466,   1, 0x02000AF4) /* Setup */
+     , (11466,   3, 0x20000014) /* SoundTable */
+     , (11466,   8, 0x0600225B) /* Icon */
+     , (11466,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11466, 8001,    2179608) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden */
      , (11466, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11466, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11466, 8000, 3704491541) /* PCAPRecordedObjectIID */;
+VALUES (11466, 8000, 0xDCCE0E15) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11466, 0, 83893670, 83893699)

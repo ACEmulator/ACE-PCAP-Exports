@@ -24,13 +24,13 @@ VALUES (3248,   1, 'Scroll of Defenselessness II') /* Name */
 Decreases the target''s Missile Defense skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3248,   1,   33554826) /* Setup */
-     , (3248,   8,  100676468) /* Icon */
-     , (3248,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3248,   1, 0x0200018A) /* Setup */
+     , (3248,   8, 0x06003374) /* Icon */
+     , (3248,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3248,  28,        263) /* Spell - DefenselessnessOther2 */
      , (3248, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3248, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3248, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3248, 8000, 3621583811) /* PCAPRecordedObjectIID */;
+VALUES (3248, 8000, 0xD7DCFBC3) /* PCAPRecordedObjectIID */;

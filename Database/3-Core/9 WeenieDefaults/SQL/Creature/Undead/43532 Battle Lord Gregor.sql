@@ -26,22 +26,22 @@ VALUES (43532,   1, 'Battle Lord Gregor') /* Name */
      , (43532, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43532,   1,   33554433) /* Setup */
-     , (43532,   2,  150994967) /* MotionTable */
-     , (43532,   3,  536870934) /* SoundTable */
-     , (43532,   6,   67108990) /* PaletteBase */
-     , (43532,   8,  100674805) /* Icon */
-     , (43532,  22,  872415272) /* PhysicsEffectTable */
+VALUES (43532,   1, 0x02000001) /* Setup */
+     , (43532,   2, 0x09000017) /* MotionTable */
+     , (43532,   3, 0x20000016) /* SoundTable */
+     , (43532,   6, 0x0400007E) /* PaletteBase */
+     , (43532,   8, 0x06002CF5) /* Icon */
+     , (43532,  22, 0x34000028) /* PhysicsEffectTable */
      , (43532, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (43532, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (43532, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43532, 8040, 2011627901, 54, -80.539, 100.8065, 0.9999912, 0, 0, 0.00420392) /* PCAPRecordedLocation */
+VALUES (43532, 8040, 0x77E7017D, 54, -80.539, 100.8065, 0.999991, 0, 0, 0.004204) /* PCAPRecordedLocation */
 /* @teleloc 0x77E7017D [54.000000 -80.539000 100.806500] 0.999991 0.000000 0.000000 0.004204 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43532, 8000, 3706166089) /* PCAPRecordedObjectIID */;
+VALUES (43532, 8000, 0xDCE79B49) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43532,   1, 600, 0, 0) /* Strength */

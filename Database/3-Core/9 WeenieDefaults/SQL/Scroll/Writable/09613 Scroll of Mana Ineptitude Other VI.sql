@@ -24,13 +24,13 @@ VALUES (9613,   1, 'Scroll of Mana Ineptitude Other VI') /* Name */
 Decreases the target''s Mana Conversion skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9613,   1,   33554826) /* Setup */
-     , (9613,   8,  100676466) /* Icon */
-     , (9613,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9613,   1, 0x0200018A) /* Setup */
+     , (9613,   8, 0x06003372) /* Icon */
+     , (9613,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9613,  28,        677) /* Spell - ManaIneptitudeOther6 */
      , (9613, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (9613, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9613, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9613, 8000, 3688259792) /* PCAPRecordedObjectIID */;
+VALUES (9613, 8000, 0xDBD660D0) /* PCAPRecordedObjectIID */;

@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11862,   1, 'Reedshark Symbol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11862,   1,   33557248) /* Setup */
-     , (11862,   3,  536870932) /* SoundTable */
-     , (11862,   8,  100671967) /* Icon */
-     , (11862,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11862,   1, 0x02000B00) /* Setup */
+     , (11862,   3, 0x20000014) /* SoundTable */
+     , (11862,   8, 0x060021DF) /* Icon */
+     , (11862,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11862, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11862, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11862, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11862, 8000, 3630042780) /* PCAPRecordedObjectIID */;
+VALUES (11862, 8000, 0xD85E0E9C) /* PCAPRecordedObjectIID */;

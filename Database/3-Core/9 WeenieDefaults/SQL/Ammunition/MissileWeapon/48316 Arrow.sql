@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (48316,   1,        256) /* ItemType - MissileWeapon */
      , (48316,   5,          5) /* EncumbranceVal */
      , (48316,   9,    8388608) /* ValidLocations - MissileAmmo */
-     , (48316,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
      , (48316,  11,       1000) /* MaxStackSize */
      , (48316,  12,          1) /* StackSize */
      , (48316,  13,          5) /* StackUnitEncumbrance */
@@ -44,23 +43,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48316,   1, 'Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48316,   1,   33555689) /* Setup */
-     , (48316,   3,  536870932) /* SoundTable */
-     , (48316,   6,   67111919) /* PaletteBase */
-     , (48316,   8,  100670199) /* Icon */
-     , (48316,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48316,   1, 0x020004E9) /* Setup */
+     , (48316,   3, 0x20000014) /* SoundTable */
+     , (48316,   6, 0x04000BEF) /* PaletteBase */
+     , (48316,   8, 0x06001AF7) /* Icon */
+     , (48316,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48316, 8001,  270775192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (48316, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (48316, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
      , (48316, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48316, 8040, 714407942, 16.67143, 140.6513, -0.0735, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
+VALUES (48316, 8040, 0x2A950006, 16.67143, 140.6513, -0.0735, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x2A950006 [16.671430 140.651300 -0.073500] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48316, 8000, 3361642304) /* PCAPRecordedObjectIID */
-     , (48316, 8008, 3361642345) /* PCAPRecordedParentIID */;
+VALUES (48316, 8000, 0xC85E9740) /* PCAPRecordedObjectIID */
+     , (48316, 8008, 0xC85E9769) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48316, 67111927, 0, 0);

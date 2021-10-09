@@ -17,7 +17,8 @@ VALUES (32953,   1,      16384) /* ItemType - Key */
      , (32953, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32953,  22, True ) /* Inscribable */;
+VALUES (32953,  22, True ) /* Inscribable */
+     , (32953,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32953,   1, 'Steward''s Key') /* Name */
@@ -25,13 +26,13 @@ VALUES (32953,   1, 'Steward''s Key') /* Name */
      , (32953,  16, 'An intricate metal key.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32953,   1,   33554784) /* Setup */
-     , (32953,   3,  536870932) /* SoundTable */
-     , (32953,   8,  100676683) /* Icon */
-     , (32953,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32953,   1, 0x02000160) /* Setup */
+     , (32953,   3, 0x20000014) /* SoundTable */
+     , (32953,   8, 0x0600344B) /* Icon */
+     , (32953,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32953, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (32953, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32953, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32953, 8000, 3356664825) /* PCAPRecordedObjectIID */;
+VALUES (32953, 8000, 0xC812A3F9) /* PCAPRecordedObjectIID */;

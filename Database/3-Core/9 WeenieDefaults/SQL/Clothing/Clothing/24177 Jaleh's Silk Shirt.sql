@@ -8,7 +8,6 @@ VALUES (24177,   1,          4) /* ItemType - Clothing */
      , (24177,   4,        104) /* ClothingPriority - UnderwearChest, UnderwearUpperArms, UnderwearLowerArms */
      , (24177,   5,        100) /* EncumbranceVal */
      , (24177,   9,         30) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
-     , (24177,  10,         30) /* CurrentWieldedLocation - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
      , (24177,  16,          1) /* ItemUseable - No */
      , (24177,  19,       4500) /* Value */
      , (24177,  28,          0) /* ArmorLevel */
@@ -19,6 +18,7 @@ VALUES (24177,   1,          4) /* ItemType - Clothing */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24177,  22, True ) /* Inscribable */
+     , (24177,  23, True ) /* DestroyOnSell */
      , (24177,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -36,17 +36,17 @@ VALUES (24177,   1, 'Jaleh''s Silk Shirt') /* Name */
      , (24177,  15, 'This fine silk shirt seems to be very well made, though a small tear along one arms seems to have removed any enchantments that the garment once held.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24177,   1,   33554644) /* Setup */
-     , (24177,   3,  536870932) /* SoundTable */
-     , (24177,   6,   67108990) /* PaletteBase */
-     , (24177,   8,  100674277) /* Icon */
-     , (24177,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24177,   1, 0x020000D4) /* Setup */
+     , (24177,   3, 0x20000014) /* SoundTable */
+     , (24177,   6, 0x0400007E) /* PaletteBase */
+     , (24177,   8, 0x06002AE5) /* Icon */
+     , (24177,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24177, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (24177, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24177, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24177, 8000, 3611344137) /* PCAPRecordedObjectIID */;
+VALUES (24177, 8000, 0xD740BD09) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24177, 67109966, 92, 4)

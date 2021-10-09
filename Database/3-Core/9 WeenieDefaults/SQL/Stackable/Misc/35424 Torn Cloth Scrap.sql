@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35424,   1, 'Torn Cloth Scrap') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35424,   1,   33554773) /* Setup */
-     , (35424,   3,  536870932) /* SoundTable */
-     , (35424,   8,  100689486) /* Icon */
-     , (35424,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35424,   1, 0x02000155) /* Setup */
+     , (35424,   3, 0x20000014) /* SoundTable */
+     , (35424,   8, 0x0600664E) /* Icon */
+     , (35424,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35424, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (35424, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35424, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35424, 8000, 2967766061) /* PCAPRecordedObjectIID */;
+VALUES (35424, 8000, 0xB0E4842D) /* PCAPRecordedObjectIID */;

@@ -25,13 +25,13 @@ VALUES (34405,   1, 'Mr. P. Holiday Pack Doll') /* Name */
      , (34405, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34405,   1,   33560156) /* Setup */
-     , (34405,   2,  150995353) /* MotionTable */
-     , (34405,   8,  100689294) /* Icon */
-     , (34405,  22,  872415410) /* PhysicsEffectTable */
+VALUES (34405,   1, 0x0200165C) /* Setup */
+     , (34405,   2, 0x09000199) /* MotionTable */
+     , (34405,   8, 0x0600658E) /* Icon */
+     , (34405,  22, 0x340000B2) /* PhysicsEffectTable */
      , (34405, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (34405, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34405, 8005,      69763) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34405, 8000, 2192087710) /* PCAPRecordedObjectIID */;
+VALUES (34405, 8000, 0x82A89A9E) /* PCAPRecordedObjectIID */;

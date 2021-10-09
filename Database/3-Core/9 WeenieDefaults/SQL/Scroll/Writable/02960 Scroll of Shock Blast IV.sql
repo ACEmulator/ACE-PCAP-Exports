@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2960,   1, 'Scroll of Shock Blast IV') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2960,   1,   33554826) /* Setup */
-     , (2960,   8,  100677008) /* Icon */
-     , (2960,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2960,   1, 0x0200018A) /* Setup */
+     , (2960,   8, 0x06003590) /* Icon */
+     , (2960,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2960,  28,        104) /* Spell - ShockBlast4 */
      , (2960, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2960, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2960, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2960, 8000, 2626971680) /* PCAPRecordedObjectIID */;
+VALUES (2960, 8000, 0x9C946820) /* PCAPRecordedObjectIID */;

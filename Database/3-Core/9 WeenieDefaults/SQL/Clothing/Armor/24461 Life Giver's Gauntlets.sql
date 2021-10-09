@@ -41,21 +41,21 @@ VALUES (24461,   1, 'Life Giver''s Gauntlets') /* Name */
      , (24461,  16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the life giver.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24461,   1,   33554648) /* Setup */
-     , (24461,   3,  536870932) /* SoundTable */
-     , (24461,   6,   67108990) /* PaletteBase */
-     , (24461,   8,  100674340) /* Icon */
-     , (24461,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24461,   1, 0x020000D8) /* Setup */
+     , (24461,   3, 0x20000014) /* SoundTable */
+     , (24461,   6, 0x0400007E) /* PaletteBase */
+     , (24461,   8, 0x06002B24) /* Icon */
+     , (24461,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24461, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (24461, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24461, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24461, 8000, 2166105372) /* PCAPRecordedObjectIID */;
+VALUES (24461, 8000, 0x811C251C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24461,  1456,      2)  /* WillpowerOther6 */
-     , (24461,  1485,      2)  /* Impenetrability5 */
+VALUES (24461,  1485,      2)  /* Impenetrability5 */
+     , (24461,  1456,      2)  /* WillpowerOther6 */
      , (24461,  2810,      2)  /* ModerateLifeMagicAptitude */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

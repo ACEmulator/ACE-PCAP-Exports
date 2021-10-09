@@ -42,26 +42,26 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43936,   1, 'Amuli Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43936,   1,   33554856) /* Setup */
-     , (43936,   3,  536870932) /* SoundTable */
-     , (43936,   6,   67108990) /* PaletteBase */
-     , (43936,   8,  100670440) /* Icon */
-     , (43936,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43936,   1, 0x020001A8) /* Setup */
+     , (43936,   3, 0x20000014) /* SoundTable */
+     , (43936,   6, 0x0400007E) /* PaletteBase */
+     , (43936,   8, 0x06001BE8) /* Icon */
+     , (43936,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43936, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (43936, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43936, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43936, 8000, 2925714716) /* PCAPRecordedObjectIID */;
+VALUES (43936, 8000, 0xAE62DD1C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43936,  2573,      2)  /* CANTRIPENDURANCE2 */
-     , (43936,  4407,      2)  /* Impenetrability8 */
-     , (43936,  4529,      2)  /* CreatureEnchantmentMasteryOther8 */
      , (43936,  4563,      2)  /* ItemEnchantmentMasteryOther8 */
-     , (43936,  4581,      2)  /* LifeMagicMasteryOther8 */
      , (43936,  4637,      2)  /* WarMagicMasteryOther8 */
-     , (43936,  5410,      2)  /* VoidMagicMasteryOther8 */;
+     , (43936,  5410,      2)  /* VoidMagicMasteryOther8 */
+     , (43936,  4581,      2)  /* LifeMagicMasteryOther8 */
+     , (43936,  4529,      2)  /* CreatureEnchantmentMasteryOther8 */
+     , (43936,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43936, 67110546, 152, 8)

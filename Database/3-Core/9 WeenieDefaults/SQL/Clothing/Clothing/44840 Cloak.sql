@@ -50,18 +50,18 @@ VALUES (44840,   1, 'Cloak') /* Name */
      , (44840,  16, 'Cloak') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44840,   1,   33561386) /* Setup */
-     , (44840,   3,  536870932) /* SoundTable */
-     , (44840,   8,  100692112) /* Icon */
-     , (44840,  22,  872415275) /* PhysicsEffectTable */
-     , (44840,  50,  100690998) /* IconOverlay */
+VALUES (44840,   1, 0x02001B2A) /* Setup */
+     , (44840,   3, 0x20000014) /* SoundTable */
+     , (44840,   8, 0x06007090) /* Icon */
+     , (44840,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44840,  50, 0x06006C36) /* IconOverlay */
      , (44840,  55,       5753) /* ProcSpell - CloakAllSkill */
      , (44840, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
      , (44840, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44840, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44840, 8000, 3680204314) /* PCAPRecordedObjectIID */;
+VALUES (44840, 8000, 0xDB5B761A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (44840, 0, 16795839);

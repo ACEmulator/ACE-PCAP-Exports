@@ -11,7 +11,7 @@ VALUES (42303,   1,        256) /* ItemType - MissileWeapon */
      , (42303,  18,          1) /* UiEffects - Magical */
      , (42303,  19,       6000) /* Value */
      , (42303,  50,          2) /* AmmoType - Bolt */
-     , (42303,  51,          2) /* CombatUse - Missle */
+     , (42303,  51,          2) /* CombatUse - Missile */
      , (42303,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42303, 151,          2) /* HookType - Wall */
      , (42303, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42303,   1, 'Gear Crossbow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42303,   1,   33560917) /* Setup */
-     , (42303,   3,  536870932) /* SoundTable */
-     , (42303,   8,  100690885) /* Icon */
-     , (42303,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42303,   1, 0x02001955) /* Setup */
+     , (42303,   3, 0x20000014) /* SoundTable */
+     , (42303,   8, 0x06006BC5) /* Icon */
+     , (42303,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42303, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (42303, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42303, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42303, 8000, 2176105589) /* PCAPRecordedObjectIID */;
+VALUES (42303, 8000, 0x81B4BC75) /* PCAPRecordedObjectIID */;

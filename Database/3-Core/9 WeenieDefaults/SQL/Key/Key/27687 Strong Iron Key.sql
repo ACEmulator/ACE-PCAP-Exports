@@ -24,13 +24,13 @@ VALUES (27687,   1, 'Strong Iron Key') /* Name */
      , (27687,  16, 'This key looks to have been well-cast on a lugian forge.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27687,   1,   33554784) /* Setup */
-     , (27687,   3,  536870932) /* SoundTable */
-     , (27687,   8,  100676423) /* Icon */
-     , (27687,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27687,   1, 0x02000160) /* Setup */
+     , (27687,   3, 0x20000014) /* SoundTable */
+     , (27687,   8, 0x06003347) /* Icon */
+     , (27687,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27687, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (27687, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27687, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27687, 8000, 2723539099) /* PCAPRecordedObjectIID */;
+VALUES (27687, 8000, 0xA255E89B) /* PCAPRecordedObjectIID */;

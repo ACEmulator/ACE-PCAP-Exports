@@ -47,29 +47,29 @@ VALUES (33209,   1, 'Royal Runed Mazule') /* Name */
      , (33209,  15, 'A mazule crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33209,   1,   33559934) /* Setup */
-     , (33209,   3,  536870932) /* SoundTable */
-     , (33209,   6,   67115559) /* PaletteBase */
-     , (33209,   8,  100686965) /* Icon */
-     , (33209,  22,  872415275) /* PhysicsEffectTable */
-     , (33209,  50,  100688914) /* IconOverlay */
+VALUES (33209,   1, 0x0200157E) /* Setup */
+     , (33209,   3, 0x20000014) /* SoundTable */
+     , (33209,   6, 0x04001A27) /* PaletteBase */
+     , (33209,   8, 0x06005C75) /* Icon */
+     , (33209,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33209,  50, 0x06006412) /* IconOverlay */
      , (33209,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (33209, 8001, 1344340504) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, ValidLocations, Burden, HookType, IconOverlay */
      , (33209, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33209, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33209, 8040, 18809102, 31.54346, -26.68154, 0, -0.4639439, 0, 0, -0.8858646) /* PCAPRecordedLocation */
+VALUES (33209, 8040, 0x011F010E, 31.54346, -26.68154, 0, -0.463944, 0, 0, -0.885865) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010E [31.543460 -26.681540 0.000000] -0.463944 0.000000 0.000000 -0.885865 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33209, 8000, 3666325680) /* PCAPRecordedObjectIID */;
+VALUES (33209, 8000, 0xDA87B0B0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33209,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (33209,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33209,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33209,  2101,      2)  /* DefenderSelf7 */
      , (33209,  2106,      2)  /* HeartSeekerSelf7 */
-     , (33209,  2116,      2)  /* SwiftKillerSelf7 */
      , (33209,  2686,      2)  /* ModerateAxeAptitude */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

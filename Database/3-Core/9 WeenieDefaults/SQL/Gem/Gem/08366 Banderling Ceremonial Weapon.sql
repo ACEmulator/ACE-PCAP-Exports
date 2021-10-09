@@ -15,6 +15,7 @@ VALUES (8366,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8366,  22, True ) /* Inscribable */
+     , (8366,  23, True ) /* DestroyOnSell */
      , (8366,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,15 +23,15 @@ VALUES (8366,   1, 'Banderling Ceremonial Weapon') /* Name */
      , (8366,  15, 'A large and heavy mace, seemingly too unstable to wield. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8366,   1,   33554746) /* Setup */
-     , (8366,   6,   67111919) /* PaletteBase */
-     , (8366,   8,  100671138) /* Icon */
+VALUES (8366,   1, 0x0200013A) /* Setup */
+     , (8366,   6, 0x04000BEF) /* PaletteBase */
+     , (8366,   8, 0x06001EA2) /* Icon */
      , (8366, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (8366, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8366, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8366, 8000, 2617976490) /* PCAPRecordedObjectIID */;
+VALUES (8366, 8000, 0x9C0B26AA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8366, 67111921, 0, 0);

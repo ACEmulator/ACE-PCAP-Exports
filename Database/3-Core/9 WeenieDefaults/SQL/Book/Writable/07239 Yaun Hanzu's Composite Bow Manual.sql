@@ -22,13 +22,13 @@ VALUES (7239,   1, 'Yaun Hanzu''s Composite Bow Manual') /* Name */
      , (7239,  16, 'A book written by Yuan Hanzu regarding composite bows. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7239,   1,   33554771) /* Setup */
-     , (7239,   3,  536870932) /* SoundTable */
-     , (7239,   8,  100668117) /* Icon */
-     , (7239,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7239,   1, 0x02000153) /* Setup */
+     , (7239,   3, 0x20000014) /* SoundTable */
+     , (7239,   8, 0x060012D5) /* Icon */
+     , (7239,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7239, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (7239, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (7239, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7239, 8000, 2221328208) /* PCAPRecordedObjectIID */;
+VALUES (7239, 8000, 0x8466C750) /* PCAPRecordedObjectIID */;

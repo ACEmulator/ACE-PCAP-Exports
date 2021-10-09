@@ -26,13 +26,13 @@ VALUES (15427,   1, 'Wrapped Bundle of Deadly Frog Crotch Arrowheads') /* Name *
      , (15427,  20, 'Wrapped Bundles of Deadly Frog Crotch Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15427,   1,   33557030) /* Setup */
-     , (15427,   3,  536870932) /* SoundTable */
-     , (15427,   8,  100672692) /* Icon */
-     , (15427,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15427,   1, 0x02000A26) /* Setup */
+     , (15427,   3, 0x20000014) /* SoundTable */
+     , (15427,   8, 0x060024B4) /* Icon */
+     , (15427,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15427, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (15427, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15427, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15427, 8000, 2980787171) /* PCAPRecordedObjectIID */;
+VALUES (15427, 8000, 0xB1AB33E3) /* PCAPRecordedObjectIID */;

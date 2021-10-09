@@ -22,16 +22,16 @@ VALUES (14630,   1, 'Fadsahil Settlement Portal') /* Name */
      , (14630, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14630,   1,   33554867) /* Setup */
-     , (14630,   2,  150994947) /* MotionTable */
-     , (14630,   8,  100667499) /* Icon */
+VALUES (14630,   1, 0x020001B3) /* Setup */
+     , (14630,   2, 0x09000003) /* MotionTable */
+     , (14630,   8, 0x0600106B) /* Icon */
      , (14630, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (14630, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (14630, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14630, 8040, 1253572633, 91.5741, 20.0967, 239.937, -0.207806, 0, 0, -0.97817) /* PCAPRecordedLocation */
+VALUES (14630, 8040, 0x4AB80019, 91.5741, 20.0967, 239.937, -0.207806, 0, 0, -0.97817) /* PCAPRecordedLocation */
 /* @teleloc 0x4AB80019 [91.574100 20.096700 239.937000] -0.207806 0.000000 0.000000 -0.978170 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14630, 8000, 1957396493) /* PCAPRecordedObjectIID */;
+VALUES (14630, 8000, 0x74AB800D) /* PCAPRecordedObjectIID */;

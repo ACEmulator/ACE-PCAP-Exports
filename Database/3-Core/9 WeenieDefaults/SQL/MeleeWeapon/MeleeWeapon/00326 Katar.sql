@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (326,   1,          1) /* ItemType - MeleeWeapon */
      , (326,   5,        135) /* EncumbranceVal */
      , (326,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (326,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (326,  16,          1) /* ItemUseable - No */
      , (326,  19,         50) /* Value */
      , (326,  44,         10) /* Damage */
@@ -47,11 +46,11 @@ VALUES (326,   1, 'Katar') /* Name */
      , (326,  16, 'Katar of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (326,   1,   33554743) /* Setup */
-     , (326,   3,  536870932) /* SoundTable */
-     , (326,   6,   67111919) /* PaletteBase */
-     , (326,   8,  100668926) /* Icon */
-     , (326,  22,  872415275) /* PhysicsEffectTable */
+VALUES (326,   1, 0x02000137) /* Setup */
+     , (326,   3, 0x20000014) /* SoundTable */
+     , (326,   6, 0x04000BEF) /* PaletteBase */
+     , (326,   8, 0x060015FE) /* Icon */
+     , (326,  22, 0x3400002B) /* PhysicsEffectTable */
      , (326,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (326, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (326, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -59,17 +58,17 @@ VALUES (326,   1,   33554743) /* Setup */
      , (326, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (326, 8040, 3212837153, 157.1271, 79.25655, 33.929, -0.3171316, -0.3171316, -0.6320028, -0.6320028) /* PCAPRecordedLocation */
+VALUES (326, 8040, 0xBF800121, 157.1271, 79.25655, 33.929, -0.317132, -0.317132, -0.632003, -0.632003) /* PCAPRecordedLocation */
 /* @teleloc 0xBF800121 [157.127100 79.256550 33.929000] -0.317132 -0.317132 -0.632003 -0.632003 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (326, 8000, 2155581193) /* PCAPRecordedObjectIID */
-     , (326, 8008, 2079850528) /* PCAPRecordedParentIID */;
+VALUES (326, 8000, 0x807B8F09) /* PCAPRecordedObjectIID */
+     , (326, 8008, 0x7BF80020) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (326,    49,      2)  /* SwiftKillerSelf1 */
-     , (326,  1612,      2)  /* BloodDrinkerSelf2 */
-     , (326,  2541,      2)  /* CANTRIPCOOKINGPROWESS1 */;
+VALUES (326,  1612,      2)  /* BloodDrinkerSelf2 */
+     , (326,  2541,      2)  /* CANTRIPCOOKINGPROWESS1 */
+     , (326,    49,      2)  /* SwiftKillerSelf1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (326, 67111920, 0, 0);

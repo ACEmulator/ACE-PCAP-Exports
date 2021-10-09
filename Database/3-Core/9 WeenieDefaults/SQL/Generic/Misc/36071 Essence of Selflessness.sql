@@ -18,17 +18,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36071,   1, 'Essence of Selflessness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36071,   1,   33556769) /* Setup */
-     , (36071,   3,  536870932) /* SoundTable */
-     , (36071,   8,  100689641) /* Icon */
-     , (36071,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36071,   1, 0x02000921) /* Setup */
+     , (36071,   3, 0x20000014) /* SoundTable */
+     , (36071,   8, 0x060066E9) /* Icon */
+     , (36071,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36071, 8001,    2097296) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Burden */
      , (36071, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36071, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36071, 8040, 10682756, 68.66213, -161.5097, -18.001, 0.8354678, 0, 0, 0.5495394) /* PCAPRecordedLocation */
+VALUES (36071, 8040, 0x00A30184, 68.66213, -161.5097, -18.001, 0.835468, 0, 0, 0.549539) /* PCAPRecordedLocation */
 /* @teleloc 0x00A30184 [68.662130 -161.509700 -18.001000] 0.835468 0.000000 0.000000 0.549539 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36071, 8000, 3704822134) /* PCAPRecordedObjectIID */;
+VALUES (36071, 8000, 0xDCD31976) /* PCAPRecordedObjectIID */;

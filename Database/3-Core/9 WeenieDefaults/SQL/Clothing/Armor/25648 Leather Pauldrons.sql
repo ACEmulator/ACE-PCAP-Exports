@@ -45,24 +45,21 @@ VALUES (25648,   1, 'Leather Pauldrons') /* Name */
      , (25648,  16, 'Leather Pauldrons') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25648,   1,   33554641) /* Setup */
-     , (25648,   3,  536870932) /* SoundTable */
-     , (25648,   6,   67108990) /* PaletteBase */
-     , (25648,   8,  100675347) /* Icon */
-     , (25648,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25648,   1, 0x020000D1) /* Setup */
+     , (25648,   3, 0x20000014) /* SoundTable */
+     , (25648,   6, 0x0400007E) /* PaletteBase */
+     , (25648,   8, 0x06002F13) /* Icon */
+     , (25648,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25648, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (25648, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25648, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25648, 8000, 3692094489) /* PCAPRecordedObjectIID */;
+VALUES (25648, 8000, 0xDC10E419) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25648,  1485,      2)  /* Impenetrability5 */
-     , (25648,  1538,      2)  /* LightningBane4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25648, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
+VALUES (25648,  1538,      2)  /* LightningBane4 */
+     , (25648,  1485,      2)  /* Impenetrability5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25648, 67114619, 116, 20);

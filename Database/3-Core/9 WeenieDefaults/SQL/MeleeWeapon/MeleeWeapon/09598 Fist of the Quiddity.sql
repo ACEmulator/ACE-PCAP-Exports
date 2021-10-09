@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9598,   1,          1) /* ItemType - MeleeWeapon */
      , (9598,   5,        400) /* EncumbranceVal */
      , (9598,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (9598,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (9598,  16,          1) /* ItemUseable - No */
      , (9598,  18,          1) /* UiEffects - Magical */
      , (9598,  19,       2000) /* Value */
@@ -45,25 +44,25 @@ VALUES (9598,   1, 'Fist of the Quiddity') /* Name */
      , (9598,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9598,   1,   33557109) /* Setup */
-     , (9598,   3,  536870932) /* SoundTable */
-     , (9598,   8,  100671695) /* Icon */
-     , (9598,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9598,   1, 0x02000A75) /* Setup */
+     , (9598,   3, 0x20000014) /* SoundTable */
+     , (9598,   8, 0x060020CF) /* Icon */
+     , (9598,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9598, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (9598, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9598, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (9598, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9598, 8040, 3646292018, 147.0309, 45.38252, 19.929, 0.4285465, 0.4285465, -0.5624481, -0.5624481) /* PCAPRecordedLocation */
+VALUES (9598, 8040, 0xD9560032, 147.0309, 45.38252, 19.929, 0.428547, 0.428547, -0.562448, -0.562448) /* PCAPRecordedLocation */
 /* @teleloc 0xD9560032 [147.030900 45.382520 19.929000] 0.428547 0.428547 -0.562448 -0.562448 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9598, 8000, 2475711078) /* PCAPRecordedObjectIID */
-     , (9598, 8008, 1342701879) /* PCAPRecordedParentIID */;
+VALUES (9598, 8000, 0x93905A66) /* PCAPRecordedObjectIID */
+     , (9598, 8008, 0x50080137) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9598,  1591,      2)  /* HeartSeekerSelf5 */
-     , (9598,  1603,      2)  /* DefenderSelf4 */
+VALUES (9598,  1603,      2)  /* DefenderSelf4 */
      , (9598,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (9598,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (9598,  1625,      2)  /* SwiftKillerSelf4 */
+     , (9598,  1591,      2)  /* HeartSeekerSelf5 */;

@@ -24,13 +24,13 @@ VALUES (43294,   1, 'Scroll of Corruption') /* Name */
 Sends 3 bolts of corruption outward from the caster. Each bolt does 56 points of damage over 30 seconds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43294,   1,   33554826) /* Setup */
-     , (43294,   8,  100691573) /* Icon */
-     , (43294,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43294,   1, 0x0200018A) /* Setup */
+     , (43294,   8, 0x06006E75) /* Icon */
+     , (43294,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43294,  28,       5395) /* Spell - Corruption1 */
      , (43294, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43294, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43294, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43294, 8000, 2624598882) /* PCAPRecordedObjectIID */;
+VALUES (43294, 8000, 0x9C703362) /* PCAPRecordedObjectIID */;

@@ -15,7 +15,8 @@ VALUES (51602,   1,        128) /* ItemType - Misc */
      , (51602, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51602,  22, True ) /* Inscribable */;
+VALUES (51602,  22, True ) /* Inscribable */
+     , (51602,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51602,  39,     0.5) /* DefaultScale */;
@@ -25,17 +26,17 @@ VALUES (51602,   1, 'Focused Splinter of Anger') /* Name */
      , (51602,  15, 'A glowing blue fragment that feels ice-cold to the touch.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51602,   1,   33556769) /* Setup */
-     , (51602,   3,  536870932) /* SoundTable */
-     , (51602,   6,   67111919) /* PaletteBase */
-     , (51602,   8,  100693206) /* Icon */
-     , (51602,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51602,   1, 0x02000921) /* Setup */
+     , (51602,   3, 0x20000014) /* SoundTable */
+     , (51602,   6, 0x04000BEF) /* PaletteBase */
+     , (51602,   8, 0x060074D6) /* Icon */
+     , (51602,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51602, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (51602, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51602, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51602, 8000, 3701300103) /* PCAPRecordedObjectIID */;
+VALUES (51602, 8000, 0xDC9D5B87) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51602, 67111919, 0, 0);

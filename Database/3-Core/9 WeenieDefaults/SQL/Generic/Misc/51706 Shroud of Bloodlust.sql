@@ -16,6 +16,7 @@ VALUES (51706,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51706,  22, True ) /* Inscribable */
+     , (51706,  23, True ) /* DestroyOnSell */
      , (51706,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -23,17 +24,17 @@ VALUES (51706,   1, 'Shroud of Bloodlust') /* Name */
      , (51706,  16, 'A scrap of cloth torn from the Apparition of Bloodlust. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51706,   1,   33554854) /* Setup */
-     , (51706,   3,  536870932) /* SoundTable */
-     , (51706,   6,   67108990) /* PaletteBase */
-     , (51706,   8,  100693210) /* Icon */
-     , (51706,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51706,   1, 0x020001A6) /* Setup */
+     , (51706,   3, 0x20000014) /* SoundTable */
+     , (51706,   6, 0x0400007E) /* PaletteBase */
+     , (51706,   8, 0x060074DA) /* Icon */
+     , (51706,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51706, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (51706, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51706, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51706, 8000, 3632946333) /* PCAPRecordedObjectIID */;
+VALUES (51706, 8000, 0xD88A5C9D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51706, 67110014, 92, 4)

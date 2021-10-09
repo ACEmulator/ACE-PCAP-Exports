@@ -17,7 +17,7 @@ VALUES (46967,   1,        256) /* ItemType - MissileWeapon */
      , (46967,  48,         47) /* WeaponSkill - MissileWeapons */
      , (46967,  49,         45) /* WeaponTime */
      , (46967,  50,          4) /* AmmoType - Atlatl */
-     , (46967,  51,          2) /* CombatUse - Missle */
+     , (46967,  51,          2) /* CombatUse - Missile */
      , (46967,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46967, 106,        450) /* ItemSpellcraft */
      , (46967, 107,       1000) /* ItemCurMana */
@@ -34,6 +34,7 @@ VALUES (46967,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46967,  22, True ) /* Inscribable */
+     , (46967,  23, True ) /* DestroyOnSell */
      , (46967,  69, False) /* IsSellable */
      , (46967,  99, True ) /* Ivoryable */;
 
@@ -51,17 +52,17 @@ VALUES (46967,   1, 'Modified Habraeloi') /* Name */
      , (46967,  15, 'An atlatl constructed from obsidian and cerulean colored stone.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46967,   1,   33557957) /* Setup */
-     , (46967,   3,  536870932) /* SoundTable */
-     , (46967,   8,  100673484) /* Icon */
-     , (46967,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46967,   1, 0x02000DC5) /* Setup */
+     , (46967,   3, 0x20000014) /* SoundTable */
+     , (46967,   8, 0x060027CC) /* Icon */
+     , (46967,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46967,  55,       2228) /* ProcSpell - DefenselessnessOther7 */
      , (46967, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46967, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46967, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46967, 8000, 3706277888) /* PCAPRecordedObjectIID */;
+VALUES (46967, 8000, 0xDCE95000) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46967,  4521,      2)  /* BowMasteryOther8 */;
+VALUES (46967,  4521,      2)  /* MissileWeaponsMasteryOther8 */;

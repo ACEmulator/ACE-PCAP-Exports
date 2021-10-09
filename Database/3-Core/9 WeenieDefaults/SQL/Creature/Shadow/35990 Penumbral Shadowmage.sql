@@ -29,28 +29,28 @@ VALUES (35990,   1, 'Penumbral Shadowmage') /* Name */
      , (35990, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35990,   1,   33556251) /* Setup */
-     , (35990,   2,  150995091) /* MotionTable */
-     , (35990,   3,  536870914) /* SoundTable */
-     , (35990,   6,   67108990) /* PaletteBase */
-     , (35990,   8,  100670398) /* Icon */
-     , (35990,   9,   83890280) /* EyesTexture */
-     , (35990,  10,   83890291) /* NoseTexture */
-     , (35990,  11,   83890349) /* MouthTexture */
-     , (35990,  15,   67116984) /* HairPalette */
-     , (35990,  16,   67109567) /* EyesPalette */
-     , (35990,  17,   67109558) /* SkinPalette */
-     , (35990,  22,  872415331) /* PhysicsEffectTable */
+VALUES (35990,   1, 0x0200071B) /* Setup */
+     , (35990,   2, 0x09000093) /* MotionTable */
+     , (35990,   3, 0x20000002) /* SoundTable */
+     , (35990,   6, 0x0400007E) /* PaletteBase */
+     , (35990,   8, 0x06001BBE) /* Icon */
+     , (35990,   9, 0x05001068) /* EyesTexture */
+     , (35990,  10, 0x05001073) /* NoseTexture */
+     , (35990,  11, 0x050010AD) /* MouthTexture */
+     , (35990,  15, 0x04001FB8) /* HairPalette */
+     , (35990,  16, 0x040002BF) /* EyesPalette */
+     , (35990,  17, 0x040002B6) /* SkinPalette */
+     , (35990,  22, 0x34000063) /* PhysicsEffectTable */
      , (35990, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35990, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35990, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35990, 8040, 151322627, 13.91812, 66.42218, 88.0065, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35990, 8040, 0x09050003, 13.91812, 66.42218, 88.0065, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x09050003 [13.918120 66.422180 88.006500] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35990, 8000, 3360922531) /* PCAPRecordedObjectIID */;
+VALUES (35990, 8000, 0xC8539BA3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35990,   1, 190, 0, 0) /* Strength */
@@ -268,7 +268,8 @@ VALUES (35990, 9, 20499,  0, 0, 0, False) /* Create Scroll of Aliester's Boon (2
      , (35990, 9, 49455,  1, 0, 0, False) /* Create Glyph of Summoning (49455) for ContainTreasure */
      , (35990, 9, 22155,  0, 0, 0, False) /* Create Lightning Jo (22155) for ContainTreasure */
      , (35990, 9, 45370,  1, 0, 0, False) /* Create Glyph of Dirty Fighting (45370) for ContainTreasure */
-     , (35990, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */;
+     , (35990, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (35990, 9, 20562,  0, 0, 0, False) /* Create Scroll of Celdiseth's Blessing (20562) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35990, 67112860, 0, 0);

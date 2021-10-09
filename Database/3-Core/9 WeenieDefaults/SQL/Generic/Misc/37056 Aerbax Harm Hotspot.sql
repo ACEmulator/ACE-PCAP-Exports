@@ -23,16 +23,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37056,   1, 'Aerbax Harm Hotspot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37056,   1,   33560506) /* Setup */
-     , (37056,   3,  536870932) /* SoundTable */
-     , (37056,   8,  100689628) /* Icon */
+VALUES (37056,   1, 0x020017BA) /* Setup */
+     , (37056,   3, 0x20000014) /* SoundTable */
+     , (37056,   8, 0x060066DC) /* Icon */
      , (37056, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (37056, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (37056, 8005,     297089) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, Position, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37056, 8040, 791674923, 132, 60, 125.5755, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (37056, 8040, 0x2F30002B, 132, 60, 125.5755, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2F30002B [132.000000 60.000000 125.575500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37056, 8000, 2931201445) /* PCAPRecordedObjectIID */;
+VALUES (37056, 8000, 0xAEB695A5) /* PCAPRecordedObjectIID */;

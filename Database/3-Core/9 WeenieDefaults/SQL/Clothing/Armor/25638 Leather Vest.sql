@@ -45,22 +45,22 @@ VALUES (25638,   1, 'Leather Vest') /* Name */
      , (25638,  16, 'Leather Vest of Magic Resistance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25638,   1,   33554642) /* Setup */
-     , (25638,   3,  536870932) /* SoundTable */
-     , (25638,   6,   67108990) /* PaletteBase */
-     , (25638,   8,  100675114) /* Icon */
-     , (25638,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25638,   1, 0x020000D2) /* Setup */
+     , (25638,   3, 0x20000014) /* SoundTable */
+     , (25638,   6, 0x0400007E) /* PaletteBase */
+     , (25638,   8, 0x06002E2A) /* Icon */
+     , (25638,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25638, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (25638, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25638, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25638, 8000, 3687288573) /* PCAPRecordedObjectIID */;
+VALUES (25638, 8000, 0xDBC78EFD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25638,   279,      2)  /* MagicResistanceSelf6 */
-     , (25638,  1485,      2)  /* Impenetrability5 */
+VALUES (25638,  1485,      2)  /* Impenetrability5 */
      , (25638,  1552,      2)  /* FlameBane6 */
+     , (25638,   279,      2)  /* MagicResistanceSelf6 */
      , (25638,  1573,      2)  /* PiercingBane5 */
      , (25638,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */;
 

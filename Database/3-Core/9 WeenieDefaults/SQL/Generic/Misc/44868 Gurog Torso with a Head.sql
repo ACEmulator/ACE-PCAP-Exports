@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44868,   1, 'Gurog Torso with a Head') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44868,   1,   33561390) /* Setup */
-     , (44868,   3,  536870932) /* SoundTable */
-     , (44868,   8,  100692168) /* Icon */
-     , (44868,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44868,   1, 0x02001B2E) /* Setup */
+     , (44868,   3, 0x20000014) /* SoundTable */
+     , (44868,   8, 0x060070C8) /* Icon */
+     , (44868,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44868, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (44868, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44868, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44868, 8000, 2150615372) /* PCAPRecordedObjectIID */;
+VALUES (44868, 8000, 0x802FC94C) /* PCAPRecordedObjectIID */;

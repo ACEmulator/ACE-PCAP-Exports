@@ -29,17 +29,17 @@ VALUES (7044,   1, 'Great Mattekar Horn') /* Name */
      , (7044,  16, 'The horn of a departed Great Mattekar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7044,   1,   33556594) /* Setup */
-     , (7044,   3,  536870932) /* SoundTable */
-     , (7044,   6,   67112869) /* PaletteBase */
-     , (7044,   8,  100670733) /* Icon */
-     , (7044,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7044,   1, 0x02000872) /* Setup */
+     , (7044,   3, 0x20000014) /* SoundTable */
+     , (7044,   6, 0x04000FA5) /* PaletteBase */
+     , (7044,   8, 0x06001D0D) /* Icon */
+     , (7044,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7044, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (7044, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7044, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7044, 8000, 2157272822) /* PCAPRecordedObjectIID */;
+VALUES (7044, 8000, 0x80955EF6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7044, 67112871, 0, 0);

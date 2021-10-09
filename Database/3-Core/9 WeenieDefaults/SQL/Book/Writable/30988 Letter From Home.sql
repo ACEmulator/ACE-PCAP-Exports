@@ -23,22 +23,22 @@ VALUES (30988,   1, 'Letter From Home') /* Name */
      , (30988,  16, 'Double-click this note to read it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30988,   1,   33554773) /* Setup */
-     , (30988,   3,  536870932) /* SoundTable */
-     , (30988,   8,  100667503) /* Icon */
-     , (30988,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30988,   1, 0x02000155) /* Setup */
+     , (30988,   3, 0x20000014) /* SoundTable */
+     , (30988,   8, 0x0600106F) /* Icon */
+     , (30988,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30988, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (30988, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (30988, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30988, 8000, 3658160284) /* PCAPRecordedObjectIID */;
+VALUES (30988, 8000, 0xDA0B189C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (30988, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30988, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'The situation in Aluvia grows worse by the day. Our armies do what they can to hold our western border, but the armies of Viamont persist. We have both taken heavy losses, but their ranks seem to grow ever larger while ours grow noticeably weaker. I fear the days of our realm grow short.
+VALUES (30988, 0, 4294967295, '', 'prewritten', False, 'The situation in Aluvia grows worse by the day. Our armies do what they can to hold our western border, but the armies of Viamont persist. We have both taken heavy losses, but their ranks seem to grow ever larger while ours grow noticeably weaker. I fear the days of our realm grow short.
 
 I know not what lies beyond the portal you have chosen to take. Perhaps a life of joy and peace; perhaps not. Whatever lies out there, I wish you luck. This old world is too full of death and pain. You deserve better than that.
 ');

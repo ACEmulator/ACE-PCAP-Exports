@@ -24,17 +24,17 @@ VALUES (34306,   1, 'Altar of Urdhinivix') /* Name */
      , (34306, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34306,   1,   33560147) /* Setup */
-     , (34306,   2,  150995261) /* MotionTable */
-     , (34306,   3,  536870933) /* SoundTable */
-     , (34306,   8,  100675788) /* Icon */
+VALUES (34306,   1, 0x02001653) /* Setup */
+     , (34306,   2, 0x0900013D) /* MotionTable */
+     , (34306,   3, 0x20000015) /* SoundTable */
+     , (34306,   8, 0x060030CC) /* Icon */
      , (34306, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
      , (34306, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (34306, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34306, 8040, 8126772, 72, -30, -18, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (34306, 8040, 0x007C0134, 72, -30, -18, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x007C0134 [72.000000 -30.000000 -18.000000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34306, 8000, 3704046721) /* PCAPRecordedObjectIID */;
+VALUES (34306, 8000, 0xDCC74481) /* PCAPRecordedObjectIID */;

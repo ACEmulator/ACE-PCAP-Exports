@@ -48,25 +48,25 @@ VALUES (6131,   1, 'Peerless Stinging Atlan Staff') /* Name */
      , (6131,   8, 'I Don''t Like Your Face') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6131,   1,   33556371) /* Setup */
-     , (6131,   3,  536870932) /* SoundTable */
-     , (6131,   6,   67111919) /* PaletteBase */
-     , (6131,   8,  100670564) /* Icon */
-     , (6131,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6131,   1, 0x02000793) /* Setup */
+     , (6131,   3, 0x20000014) /* SoundTable */
+     , (6131,   6, 0x04000BEF) /* PaletteBase */
+     , (6131,   8, 0x06001C64) /* Icon */
+     , (6131,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6131, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (6131, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6131, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6131, 8000, 3621243720) /* PCAPRecordedObjectIID */;
+VALUES (6131, 8000, 0xD7D7CB48) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6131,   518,      2)  /* AcidProtectionSelf4 */
-     , (6131,  1376,      2)  /* CoordinationSelf4 */
-     , (6131,  1590,      2)  /* HeartSeekerSelf4 */
-     , (6131,  1603,      2)  /* DefenderSelf4 */
+VALUES (6131,  1603,      2)  /* DefenderSelf4 */
+     , (6131,   518,      2)  /* AcidProtectionSelf4 */
      , (6131,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (6131,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (6131,  1625,      2)  /* SwiftKillerSelf4 */
+     , (6131,  1376,      2)  /* CoordinationSelf4 */
+     , (6131,  1590,      2)  /* HeartSeekerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6131, 67111923, 0, 0);

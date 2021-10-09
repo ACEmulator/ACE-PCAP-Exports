@@ -22,15 +22,15 @@ VALUES (27808,   1, 'Great Elariwood Idol') /* Name */
      , (27808,  16, 'A Great Elariwood idol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27808,   1,   33558779) /* Setup */
-     , (27808,   6,   67112776) /* PaletteBase */
-     , (27808,   8,  100676569) /* Icon */
+VALUES (27808,   1, 0x020010FB) /* Setup */
+     , (27808,   6, 0x04000F48) /* PaletteBase */
+     , (27808,   8, 0x060033D9) /* Icon */
      , (27808, 8001,  270614552) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden, HookType */
      , (27808, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27808, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27808, 8000, 2541837614) /* PCAPRecordedObjectIID */;
+VALUES (27808, 8000, 0x97815D2E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27808, 67115186, 0, 0);

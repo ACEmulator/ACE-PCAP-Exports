@@ -18,15 +18,15 @@ VALUES (42763,   1, 'Qalaba''r') /* Name */
      , (42763,  16, 'The village of Qalaba''r is the most southern of the Gharu''ndim settlements, located beyond the Yushad Ridge on the edge of the Linvak Mountains. Treasure hunters looking to raid the dungeons and citadels of the renegade Gotrok Lugians often use Qalaba''r as a staging ground for their expeditions, as do explorers venturing to the southern landbridge, and the Direlands beyond.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42763,   1,   33560959) /* Setup */
-     , (42763,   8,  100668115) /* Icon */
+VALUES (42763,   1, 0x0200197F) /* Setup */
+     , (42763,   8, 0x060012D3) /* Icon */
      , (42763, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42763, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42763, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42763, 8040, 459032, 29.9854, -55.1061, 3.014, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (42763, 8040, 0x00070118, 29.9854, -55.1061, 3.014, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070118 [29.985400 -55.106100 3.014000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42763, 8000, 1879076885) /* PCAPRecordedObjectIID */;
+VALUES (42763, 8000, 0x70007015) /* PCAPRecordedObjectIID */;

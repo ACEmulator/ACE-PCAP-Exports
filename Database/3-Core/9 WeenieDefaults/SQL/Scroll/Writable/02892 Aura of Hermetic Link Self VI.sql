@@ -24,17 +24,17 @@ VALUES (2892,   1, 'Aura of Hermetic Link Self VI') /* Name */
 Increases a magic casting implement''s mana conversion bonus by 60%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2892,   1,   33554826) /* Setup */
-     , (2892,   8,  100676672) /* Icon */
-     , (2892,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2892,   1, 0x0200018A) /* Setup */
+     , (2892,   8, 0x06003440) /* Icon */
+     , (2892,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2892,  28,       1480) /* Spell - HermeticLinkSelf6 */
      , (2892, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (2892, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2892, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2892, 8040, 3332964379, 83.91006, 66.67138, 42.0855, 0.4344043, 0, 0, -0.900718) /* PCAPRecordedLocation */
+VALUES (2892, 8040, 0xC6A9001B, 83.91006, 66.67138, 42.0855, 0.434404, 0, 0, -0.900718) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [83.910060 66.671380 42.085500] 0.434404 0.000000 0.000000 -0.900718 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2892, 8000, 2243216278) /* PCAPRecordedObjectIID */;
+VALUES (2892, 8000, 0x85B4C396) /* PCAPRecordedObjectIID */;

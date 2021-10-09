@@ -8,7 +8,6 @@ VALUES (23839,   1,          2) /* ItemType - Armor */
      , (23839,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (23839,   5,       2700) /* EncumbranceVal */
      , (23839,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
-     , (23839,  10,      25600) /* CurrentWieldedLocation - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (23839,  16,          1) /* ItemUseable - No */
      , (23839,  18,         32) /* UiEffects - Fire */
      , (23839,  19,       3240) /* Value */
@@ -44,17 +43,17 @@ VALUES (23839,   1, 'Searing Koujia Leggings') /* Name */
      , (23839,   8, 'Cygmus') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23839,   1,   33554856) /* Setup */
-     , (23839,   3,  536870932) /* SoundTable */
-     , (23839,   6,   67108990) /* PaletteBase */
-     , (23839,   8,  100674074) /* Icon */
-     , (23839,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23839,   1, 0x020001A8) /* Setup */
+     , (23839,   3, 0x20000014) /* SoundTable */
+     , (23839,   6, 0x0400007E) /* PaletteBase */
+     , (23839,   8, 0x06002A1A) /* Icon */
+     , (23839,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23839, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (23839, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23839, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23839, 8000, 3611373345) /* PCAPRecordedObjectIID */;
+VALUES (23839, 8000, 0xD7412F21) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23839,  2611,      2)  /* CANTRIPFLAMEWARD2 */;

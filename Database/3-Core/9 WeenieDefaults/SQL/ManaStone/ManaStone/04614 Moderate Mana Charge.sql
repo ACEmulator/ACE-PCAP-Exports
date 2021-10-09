@@ -27,11 +27,11 @@ VALUES (4614,   1, 'Moderate Mana Charge') /* Name */
      , (4614,  14, 'Use on a magic item to give the stone''s stored Mana to that item.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4614,   1,   33555639) /* Setup */
-     , (4614,   8,  100676298) /* Icon */
+VALUES (4614,   1, 0x020004B7) /* Setup */
+     , (4614,   8, 0x060032CA) /* Icon */
      , (4614, 8001,  271073432) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, TargetType, Burden, HookType */
      , (4614, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4614, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4614, 8000, 2166167670) /* PCAPRecordedObjectIID */;
+VALUES (4614, 8000, 0x811D1876) /* PCAPRecordedObjectIID */;

@@ -26,13 +26,13 @@ VALUES (12227,   1, 'Candied Apple') /* Name */
      , (12227,  15, 'An apple coated with sticky, sweet monougat.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12227,   1,   33557383) /* Setup */
-     , (12227,   3,  536870932) /* SoundTable */
-     , (12227,   8,  100672207) /* Icon */
-     , (12227,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12227,   1, 0x02000B87) /* Setup */
+     , (12227,   3, 0x20000014) /* SoundTable */
+     , (12227,   8, 0x060022CF) /* Icon */
+     , (12227,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12227, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (12227, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (12227, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12227, 8000, 2192139781) /* PCAPRecordedObjectIID */;
+VALUES (12227, 8000, 0x82A96605) /* PCAPRecordedObjectIID */;

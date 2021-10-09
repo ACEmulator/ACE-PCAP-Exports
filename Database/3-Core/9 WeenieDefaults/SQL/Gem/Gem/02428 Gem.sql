@@ -28,16 +28,16 @@ VALUES (2428,   1, 'Gem') /* Name */
      , (2428,  16, 'Gem') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2428,   1,   33554809) /* Setup */
-     , (2428,   3,  536870932) /* SoundTable */
-     , (2428,   8,  100674728) /* Icon */
-     , (2428,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2428,   1, 0x02000179) /* Setup */
+     , (2428,   3, 0x20000014) /* SoundTable */
+     , (2428,   8, 0x06002CA8) /* Icon */
+     , (2428,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2428, 8001, 2166386712) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, Workmanship, MaterialType */
      , (2428, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2428, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2428, 8000, 3690337655) /* PCAPRecordedObjectIID */;
+VALUES (2428, 8000, 0xDBF61577) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (2428, 0, 83890391, 83890391);

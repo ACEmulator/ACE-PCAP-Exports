@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27821,   1,        256) /* ItemType - MissileWeapon */
      , (27821,   5,        980) /* EncumbranceVal */
      , (27821,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (27821,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (27821,  16,          1) /* ItemUseable - No */
      , (27821,  18,          1) /* UiEffects - Magical */
      , (27821,  19,          0) /* Value */
@@ -17,7 +16,7 @@ VALUES (27821,   1,        256) /* ItemType - MissileWeapon */
      , (27821,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27821,  49,         50) /* WeaponTime */
      , (27821,  50,          1) /* AmmoType - Arrow */
-     , (27821,  51,          2) /* CombatUse - Missle */
+     , (27821,  51,          2) /* CombatUse - Missile */
      , (27821,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27821, 106,        200) /* ItemSpellcraft */
      , (27821, 107,        955) /* ItemCurMana */
@@ -35,6 +34,7 @@ VALUES (27821,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27821,  22, True ) /* Inscribable */
+     , (27821,  23, True ) /* DestroyOnSell */
      , (27821,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -53,29 +53,29 @@ VALUES (27821,   1, 'Ultimate Singularity Bow') /* Name */
      , (27821,  15, 'A bow imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27821,   1,   33557312) /* Setup */
-     , (27821,   3,  536870932) /* SoundTable */
-     , (27821,   6,   67111919) /* PaletteBase */
-     , (27821,   8,  100672042) /* Icon */
-     , (27821,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27821,   1, 0x02000B40) /* Setup */
+     , (27821,   3, 0x20000014) /* SoundTable */
+     , (27821,   6, 0x04000BEF) /* PaletteBase */
+     , (27821,   8, 0x0600222A) /* Icon */
+     , (27821,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27821, 8001,  270762896) /* PCAPRecordedWeenieHeader - Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (27821, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27821, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (27821, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27821, 8040, 3599958021, 18.409, 113.648, -0.17, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (27821, 8040, 0xD6930005, 18.409, 113.648, -0.17, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD6930005 [18.409000 113.648000 -0.170000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27821, 8000, 2153120919) /* PCAPRecordedObjectIID */
-     , (27821, 8008, 1343276261) /* PCAPRecordedParentIID */;
+VALUES (27821, 8000, 0x80560497) /* PCAPRecordedObjectIID */
+     , (27821, 8008, 0x5010C4E5) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27821,  1384,      2)  /* CoordinationOther6 */
-     , (27821,  1605,      2)  /* DefenderSelf6 */
+VALUES (27821,  1605,      2)  /* DefenderSelf6 */
      , (27821,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (27821,  2579,      2)  /* CANTRIPCOORDINATION1 */;
+     , (27821,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (27821,  1384,      2)  /* CoordinationOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27821, 67111922, 0, 0);

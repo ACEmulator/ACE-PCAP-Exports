@@ -30,6 +30,7 @@ VALUES (21356,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21356,  22, True ) /* Inscribable */
+     , (21356,  23, True ) /* DestroyOnSell */
      , (21356,  69, False) /* IsSellable */
      , (21356,  99, True ) /* Ivoryable */;
 
@@ -47,13 +48,13 @@ VALUES (21356,   1, 'Phantom Mace') /* Name */
      , (21356,  16, 'A mace with a ghostly head crafted from pure chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21356,   1,   33556654) /* Setup */
-     , (21356,   3,  536870932) /* SoundTable */
-     , (21356,   8,  100668955) /* Icon */
-     , (21356,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21356,   1, 0x020008AE) /* Setup */
+     , (21356,   3, 0x20000014) /* SoundTable */
+     , (21356,   8, 0x0600161B) /* Icon */
+     , (21356,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21356, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (21356, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21356, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21356, 8000, 2158812412) /* PCAPRecordedObjectIID */;
+VALUES (21356, 8000, 0x80ACDCFC) /* PCAPRecordedObjectIID */;

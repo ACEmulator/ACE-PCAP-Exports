@@ -24,16 +24,16 @@ VALUES (9480,   1, 'Monty''s High-Stakes Gambling Token') /* Name */
      , (9480,  16, 'A red gambling token from Monty''s Den of Iniquity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9480,   1,   33557006) /* Setup */
-     , (9480,   3,  536870932) /* SoundTable */
-     , (9480,   8,  100671476) /* Icon */
-     , (9480,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9480,   1, 0x02000A0E) /* Setup */
+     , (9480,   3, 0x20000014) /* SoundTable */
+     , (9480,   8, 0x06001FF4) /* Icon */
+     , (9480,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9480, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (9480, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9480, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9480, 8000, 2980942468) /* PCAPRecordedObjectIID */;
+VALUES (9480, 8000, 0xB1AD9284) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (9480, 0, 83893248, 83893252)

@@ -19,11 +19,11 @@ VALUES (44728,   1, 'Chittick') /* Name */
      , (44728,  16, 'The chittick remains a creature of mystery to this day. Little has been discovered about the origin of these creatures or why they arrived on Dereth. One thing that is known, they are a threat at both a distance and close range.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44728,   1,   33561328) /* Setup */
-     , (44728,   8,  100668115) /* Icon */
+VALUES (44728,   1, 0x02001AF0) /* Setup */
+     , (44728,   8, 0x060012D3) /* Icon */
      , (44728, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44728, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44728, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44728, 8000, 2192295264) /* PCAPRecordedObjectIID */;
+VALUES (44728, 8000, 0x82ABC560) /* PCAPRecordedObjectIID */;

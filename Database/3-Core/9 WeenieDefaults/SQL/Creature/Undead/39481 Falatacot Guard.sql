@@ -25,22 +25,22 @@ VALUES (39481,   1, 'Falatacot Guard') /* Name */
      , (39481, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39481,   1,   33558436) /* Setup */
-     , (39481,   2,  150994967) /* MotionTable */
-     , (39481,   3,  536870934) /* SoundTable */
-     , (39481,   6,   67114480) /* PaletteBase */
-     , (39481,   8,  100674805) /* Icon */
-     , (39481,  22,  872415272) /* PhysicsEffectTable */
+VALUES (39481,   1, 0x02000FA4) /* Setup */
+     , (39481,   2, 0x09000017) /* MotionTable */
+     , (39481,   3, 0x20000016) /* SoundTable */
+     , (39481,   6, 0x040015F0) /* PaletteBase */
+     , (39481,   8, 0x06002CF5) /* Icon */
+     , (39481,  22, 0x34000028) /* PhysicsEffectTable */
      , (39481, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (39481, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (39481, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39481, 8040, 1942487076, 101.1873, 89.73836, 96.00825, -0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
+VALUES (39481, 8040, 0x73C80024, 101.1873, 89.73836, 96.00825, -0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
 /* @teleloc 0x73C80024 [101.187300 89.738360 96.008250] -0.923880 0.000000 0.000000 -0.382683 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39481, 8000, 2932218121) /* PCAPRecordedObjectIID */;
+VALUES (39481, 8000, 0xAEC61909) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (39481,   1,     0, 0, 0, 2870) /* MaxHealth */;

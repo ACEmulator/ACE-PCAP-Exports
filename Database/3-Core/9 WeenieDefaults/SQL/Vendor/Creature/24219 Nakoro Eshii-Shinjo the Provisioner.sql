@@ -36,27 +36,27 @@ VALUES (24219,   1, 'Nakoro Eshii-Shinjo the Provisioner') /* Name */
      , (24219, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24219,   1,   33554433) /* Setup */
-     , (24219,   2,  150994945) /* MotionTable */
-     , (24219,   3,  536870913) /* SoundTable */
-     , (24219,   6,   67108990) /* PaletteBase */
-     , (24219,   8,  100667446) /* Icon */
-     , (24219,   9,   83890447) /* EyesTexture */
-     , (24219,  10,   83890562) /* NoseTexture */
-     , (24219,  11,   83890634) /* MouthTexture */
-     , (24219,  15,   67117024) /* HairPalette */
-     , (24219,  16,   67110062) /* EyesPalette */
-     , (24219,  17,   67110050) /* SkinPalette */
+VALUES (24219,   1, 0x02000001) /* Setup */
+     , (24219,   2, 0x09000001) /* MotionTable */
+     , (24219,   3, 0x20000001) /* SoundTable */
+     , (24219,   6, 0x0400007E) /* PaletteBase */
+     , (24219,   8, 0x06001036) /* Icon */
+     , (24219,   9, 0x0500110F) /* EyesTexture */
+     , (24219,  10, 0x05001182) /* NoseTexture */
+     , (24219,  11, 0x050011CA) /* MouthTexture */
+     , (24219,  15, 0x04001FE0) /* HairPalette */
+     , (24219,  16, 0x040004AE) /* EyesPalette */
+     , (24219,  17, 0x040004A2) /* SkinPalette */
      , (24219, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (24219, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (24219, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24219, 8040, 1060241684, 62.1547, 41.5331, 0.004999995, 0.04325371, 0, 0, -0.9990641) /* PCAPRecordedLocation */
+VALUES (24219, 8040, 0x3F320114, 62.1547, 41.5331, 0.005, 0.043254, 0, 0, -0.999064) /* PCAPRecordedLocation */
 /* @teleloc 0x3F320114 [62.154700 41.533100 0.005000] 0.043254 0.000000 0.000000 -0.999064 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24219, 8000, 1945313305) /* PCAPRecordedObjectIID */;
+VALUES (24219, 8000, 0x73F32019) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24219,   1,  75, 0, 0) /* Strength */
@@ -125,6 +125,11 @@ VALUES (24219, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (24219, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
      , (24219, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
      , (24219, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
+     , (24219, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (24219, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (24219, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (24219, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (24219, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (24219, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (24219, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (24219, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */

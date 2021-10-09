@@ -29,21 +29,21 @@ VALUES (23920,   1, 'Storage') /* Name */
      , (23920, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23920,   1,   33557143) /* Setup */
-     , (23920,   2,  150994948) /* MotionTable */
-     , (23920,   3,  536870945) /* SoundTable */
-     , (23920,   8,  100671885) /* Icon */
-     , (23920,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23920,   1, 0x02000A97) /* Setup */
+     , (23920,   2, 0x09000004) /* MotionTable */
+     , (23920,   3, 0x20000021) /* SoundTable */
+     , (23920,   8, 0x0600218D) /* Icon */
+     , (23920,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23920, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (23920, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (23920, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23920, 8040, 1631781152, 19.0905, -5.8805, 0, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (23920, 8040, 0x61430120, 19.0905, -5.8805, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x61430120 [19.090500 -5.880500 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23920, 8000, 1981034537) /* PCAPRecordedObjectIID */;
+VALUES (23920, 8000, 0x76143029) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23920, -1, 2471, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Stout (2471) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

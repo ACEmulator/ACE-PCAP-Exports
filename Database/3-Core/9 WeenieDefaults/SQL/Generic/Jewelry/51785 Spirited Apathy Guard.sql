@@ -24,6 +24,7 @@ VALUES (51785,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51785,  22, True ) /* Inscribable */
+     , (51785,  23, True ) /* DestroyOnSell */
      , (51785,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -34,22 +35,22 @@ VALUES (51785,   1, 'Spirited Apathy Guard') /* Name */
      , (51785,  15, 'A necklace crafted by Rinne Gorber fused with a powerful crystal from deep within the Spirited Halls.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51785,   1,   33554689) /* Setup */
-     , (51785,   3,  536870932) /* SoundTable */
-     , (51785,   6,   67111919) /* PaletteBase */
-     , (51785,   8,  100693212) /* Icon */
-     , (51785,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51785,   1, 0x02000101) /* Setup */
+     , (51785,   3, 0x20000014) /* SoundTable */
+     , (51785,   6, 0x04000BEF) /* PaletteBase */
+     , (51785,   8, 0x060074DC) /* Icon */
+     , (51785,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51785, 8001,    2179088) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden */
      , (51785, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51785, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51785, 8000, 2333649502) /* PCAPRecordedObjectIID */;
+VALUES (51785, 8000, 0x8B18AA5E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51785,  2665,      2)  /* EssenceSluice */
-     , (51785,  4465,      2)  /* ColdProtectionOther8 */
-     , (51785,  6055,      2)  /* CantripInvulnerability4 */;
+VALUES (51785,  6055,      2)  /* CantripInvulnerability4 */
+     , (51785,  2665,      2)  /* EssenceSluice */
+     , (51785,  4465,      2)  /* ColdProtectionOther8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51785, 67111919, 0, 0);

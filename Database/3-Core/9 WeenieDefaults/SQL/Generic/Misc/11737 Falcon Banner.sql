@@ -14,23 +14,24 @@ VALUES (11737,   1,        128) /* ItemType - Misc */
      , (11737, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11737,  22, True ) /* Inscribable */;
+VALUES (11737,  22, True ) /* Inscribable */
+     , (11737,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11737,   1, 'Falcon Banner') /* Name */
      , (11737,  16, 'A banner with a Falcon on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11737,   1,   33557239) /* Setup */
-     , (11737,   3,  536870932) /* SoundTable */
-     , (11737,   8,  100671888) /* Icon */
-     , (11737,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11737,   1, 0x02000AF7) /* Setup */
+     , (11737,   3, 0x20000014) /* SoundTable */
+     , (11737,   8, 0x06002190) /* Icon */
+     , (11737,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11737, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (11737, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11737, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11737, 8000, 2629408221) /* PCAPRecordedObjectIID */;
+VALUES (11737, 8000, 0x9CB995DD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (11737, 0, 83893717, 83893717);

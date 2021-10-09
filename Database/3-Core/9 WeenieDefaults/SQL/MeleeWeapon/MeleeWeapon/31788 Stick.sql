@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31788,   1,          1) /* ItemType - MeleeWeapon */
      , (31788,   5,        238) /* EncumbranceVal */
      , (31788,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (31788,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (31788,  16,          1) /* ItemUseable - No */
      , (31788,  18,          1) /* UiEffects - Magical */
      , (31788,  19,      10549) /* Value */
@@ -55,13 +54,13 @@ VALUES (31788,   1, 'Stick') /* Name */
      , (31788,  16, 'Stick of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31788,   1,   33559625) /* Setup */
-     , (31788,   3,  536870932) /* SoundTable */
-     , (31788,   6,   67116700) /* PaletteBase */
-     , (31788,   8,  100687995) /* Icon */
-     , (31788,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31788,   1, 0x02001449) /* Setup */
+     , (31788,   3, 0x20000014) /* SoundTable */
+     , (31788,   6, 0x04001E9C) /* PaletteBase */
+     , (31788,   8, 0x0600607B) /* Icon */
+     , (31788,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31788,  37,         44) /* ItemSkillLimit - HeavyWeapons */
-     , (31788,  52,  100676442) /* IconUnderlay */
+     , (31788,  52, 0x0600335A) /* IconUnderlay */
      , (31788, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (31788, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31788, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -69,22 +68,17 @@ VALUES (31788,   1,   33559625) /* Setup */
      , (31788, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31788, 8040, 1581581014, 39.65677, -78.29746, -0.071, 0.4062837, 0.4062837, -0.5787345, -0.5787345) /* PCAPRecordedLocation */
+VALUES (31788, 8040, 0x5E4502D6, 39.65677, -78.29746, -0.071, 0.406284, 0.406284, -0.578735, -0.578735) /* PCAPRecordedLocation */
 /* @teleloc 0x5E4502D6 [39.656770 -78.297460 -0.071000] 0.406284 0.406284 -0.578735 -0.578735 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31788, 8000, 2183167588) /* PCAPRecordedObjectIID */
-     , (31788, 8008, 1342789086) /* PCAPRecordedParentIID */;
+VALUES (31788, 8000, 0x82207E64) /* PCAPRecordedObjectIID */
+     , (31788, 8008, 0x500955DE) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31788,  1615,      2)  /* BloodDrinkerSelf5 */
      , (31788,  2580,      2)  /* CANTRIPENDURANCE1 */
      , (31788,  5807,      2)  /* DualWieldMasterySelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31788, 2, 47643,  1, 0, 0, False) /* Create Tachi (47643) for Wield */
-     , (31788, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
-     , (31788, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31788, 67116700, 1, 100)

@@ -23,18 +23,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43907,   1, 'Boxed Small Olthoi Venom Sac') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43907,   1,   33556223) /* Setup */
-     , (43907,   3,  536870932) /* SoundTable */
-     , (43907,   6,   67111928) /* PaletteBase */
-     , (43907,   8,  100691795) /* Icon */
-     , (43907,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43907,   1, 0x020006FF) /* Setup */
+     , (43907,   3, 0x20000014) /* SoundTable */
+     , (43907,   6, 0x04000BF8) /* PaletteBase */
+     , (43907,   8, 0x06006F53) /* Icon */
+     , (43907,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43907, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (43907, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43907, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (43907, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43907, 8000,      43907) /* PCAPRecordedObjectIID */;
+VALUES (43907, 8000, 0x0000AB83) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43907, 67112642, 0, 0);

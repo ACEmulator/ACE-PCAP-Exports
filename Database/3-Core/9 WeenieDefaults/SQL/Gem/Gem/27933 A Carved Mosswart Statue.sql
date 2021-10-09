@@ -22,16 +22,16 @@ VALUES (27933,   1, 'A Carved Mosswart Statue') /* Name */
      , (27933,  16, 'This stone throbs with magical power. To the trained item mage, the magic within the stone appears to be attuned to the School of the Right Hand. Perhaps if one were attuned to Item Magic in some way, they could benefit from using this stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27933,   1,   33558824) /* Setup */
-     , (27933,   3,  536870932) /* SoundTable */
-     , (27933,   8,  100676717) /* Icon */
-     , (27933,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27933,   1, 0x02001128) /* Setup */
+     , (27933,   3, 0x20000014) /* SoundTable */
+     , (27933,   8, 0x0600346D) /* Icon */
+     , (27933,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27933, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (27933, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27933, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27933, 8000, 2147923150) /* PCAPRecordedObjectIID */;
+VALUES (27933, 8000, 0x8006B4CE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (27933, 0, 83893769, 83895470)

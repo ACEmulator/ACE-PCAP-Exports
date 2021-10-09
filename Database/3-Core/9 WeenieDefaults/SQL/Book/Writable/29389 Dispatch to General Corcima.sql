@@ -21,13 +21,13 @@ VALUES (29389,   1, 'Dispatch to General Corcima') /* Name */
      , (29389,  16, 'A blood-stained note to General Corcima from King Varicci II. It appears to be rather old and crumpled.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29389,   1,   33554773) /* Setup */
-     , (29389,   3,  536870932) /* SoundTable */
-     , (29389,   8,  100668176) /* Icon */
-     , (29389,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29389,   1, 0x02000155) /* Setup */
+     , (29389,   3, 0x20000014) /* SoundTable */
+     , (29389,   8, 0x06001310) /* Icon */
+     , (29389,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29389, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (29389, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (29389, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29389, 8000, 2448915643) /* PCAPRecordedObjectIID */;
+VALUES (29389, 8000, 0x91F77CBB) /* PCAPRecordedObjectIID */;

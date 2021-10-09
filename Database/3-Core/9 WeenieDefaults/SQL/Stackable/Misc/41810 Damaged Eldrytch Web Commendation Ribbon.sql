@@ -18,7 +18,8 @@ VALUES (41810,   1,        128) /* ItemType - Misc */
      , (41810, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41810,  69, False) /* IsSellable */;
+VALUES (41810,  23, True ) /* DestroyOnSell */
+     , (41810,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41810,  39,     0.4) /* DefaultScale */;
@@ -29,17 +30,17 @@ VALUES (41810,   1, 'Damaged Eldrytch Web Commendation Ribbon') /* Name */
      , (41810,  16, 'A damaged commendation ribbon lost by a Eldrytch Web agent.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41810,   1,   33554817) /* Setup */
-     , (41810,   3,  536870932) /* SoundTable */
-     , (41810,   6,   67111919) /* PaletteBase */
-     , (41810,   8,  100690846) /* Icon */
-     , (41810,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41810,   1, 0x02000181) /* Setup */
+     , (41810,   3, 0x20000014) /* SoundTable */
+     , (41810,   6, 0x04000BEF) /* PaletteBase */
+     , (41810,   8, 0x06006B9E) /* Icon */
+     , (41810,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41810, 8001,      28688) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container */
      , (41810, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (41810, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41810, 8000, 2627861632) /* PCAPRecordedObjectIID */;
+VALUES (41810, 8000, 0x9CA1FC80) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41810, 67111921, 0, 0);

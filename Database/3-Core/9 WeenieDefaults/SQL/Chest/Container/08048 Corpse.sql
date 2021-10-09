@@ -25,21 +25,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8048,   1, 'Corpse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8048,   1,   33556722) /* Setup */
-     , (8048,   3,  536870932) /* SoundTable */
-     , (8048,   6,   67108990) /* PaletteBase */
-     , (8048,   8,  100667504) /* Icon */
-     , (8048,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8048,   1, 0x020008F2) /* Setup */
+     , (8048,   3, 0x20000014) /* SoundTable */
+     , (8048,   6, 0x0400007E) /* PaletteBase */
+     , (8048,   8, 0x06001070) /* Icon */
+     , (8048,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8048, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (8048, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (8048, 8005,     301057) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8048, 8040, 84803627, 140.517, 60.5646, 22.005, -0.8892142, 0, 0, -0.4574911) /* PCAPRecordedLocation */
+VALUES (8048, 8040, 0x050E002B, 140.517, 60.5646, 22.005, -0.889214, 0, 0, -0.457491) /* PCAPRecordedLocation */
 /* @teleloc 0x050E002B [140.517000 60.564600 22.005000] -0.889214 0.000000 0.000000 -0.457491 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8048, 8000, 1884348424) /* PCAPRecordedObjectIID */;
+VALUES (8048, 8000, 0x7050E008) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8048, -1, 168, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Tankard (168) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

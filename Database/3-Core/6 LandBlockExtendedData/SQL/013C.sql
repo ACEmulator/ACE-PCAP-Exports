@@ -1,7 +1,7 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x013C;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7013C01A,  5605, 0x013C01F2, 219.867, -106.46, -0.06299996, 0.9966641, 0, 0, -0.081613, False, '2019-02-10 00:00:00'); /* Surface Portal */
+VALUES (0x7013C01A,  5605, 0x013C01F2, 219.867, -106.46, -0.063, 0.996664, 0, 0, -0.081613, False, '2019-02-10 00:00:00'); /* Surface Portal */
 /* @teleloc 0x013C01F2 [219.867000 -106.460000 -0.063000] 0.996664 0.000000 0.000000 -0.081613 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

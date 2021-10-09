@@ -21,13 +21,13 @@ VALUES (9121,   1, 'Storytelling') /* Name */
      , (9121,  15, 'The fourth installment of a tale by Martine') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9121,   1,   33554771) /* Setup */
-     , (9121,   3,  536870932) /* SoundTable */
-     , (9121,   8,  100668117) /* Icon */
-     , (9121,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9121,   1, 0x02000153) /* Setup */
+     , (9121,   3, 0x20000014) /* SoundTable */
+     , (9121,   8, 0x060012D5) /* Icon */
+     , (9121,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9121, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (9121, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (9121, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9121, 8000, 3699152742) /* PCAPRecordedObjectIID */;
+VALUES (9121, 8000, 0xDC7C9766) /* PCAPRecordedObjectIID */;

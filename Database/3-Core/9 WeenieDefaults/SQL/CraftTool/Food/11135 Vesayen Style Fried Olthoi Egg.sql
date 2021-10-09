@@ -31,18 +31,18 @@ VALUES (11135,   1, 'Vesayen Style Fried Olthoi Egg') /* Name */
      , (11135,  16, 'A fried Olthoi Egg, made with hot peppers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11135,   1,   33555975) /* Setup */
-     , (11135,   3,  536870932) /* SoundTable */
-     , (11135,   8,  100671980) /* Icon */
-     , (11135,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11135,   1, 0x02000607) /* Setup */
+     , (11135,   3, 0x20000014) /* SoundTable */
+     , (11135,   8, 0x060021EC) /* Icon */
+     , (11135,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11135,  28,       2434) /* Spell - FrostWard */
      , (11135, 8001,    6828184) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell */
      , (11135, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (11135, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11135, 8040, 3316121654, 151.7014, 135.9855, 42.0025, 0.9124489, 0, 0, -0.4091907) /* PCAPRecordedLocation */
+VALUES (11135, 8040, 0xC5A80036, 151.7014, 135.9855, 42.0025, 0.912449, 0, 0, -0.409191) /* PCAPRecordedLocation */
 /* @teleloc 0xC5A80036 [151.701400 135.985500 42.002500] 0.912449 0.000000 0.000000 -0.409191 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11135, 8000, 2147878852) /* PCAPRecordedObjectIID */;
+VALUES (11135, 8000, 0x800607C4) /* PCAPRecordedObjectIID */;

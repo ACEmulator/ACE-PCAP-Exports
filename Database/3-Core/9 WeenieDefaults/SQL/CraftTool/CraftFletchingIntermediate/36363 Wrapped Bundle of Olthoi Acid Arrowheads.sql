@@ -26,14 +26,14 @@ VALUES (36363,   1, 'Wrapped Bundle of Olthoi Acid Arrowheads') /* Name */
      , (36363,  20, 'Wrapped Bundles of Olthoi Acid Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36363,   1,   33557030) /* Setup */
-     , (36363,   3,  536870932) /* SoundTable */
-     , (36363,   8,  100672687) /* Icon */
-     , (36363,  22,  872415275) /* PhysicsEffectTable */
-     , (36363,  50,  100689619) /* IconOverlay */
+VALUES (36363,   1, 0x02000A26) /* Setup */
+     , (36363,   3, 0x20000014) /* SoundTable */
+     , (36363,   8, 0x060024AF) /* Icon */
+     , (36363,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36363,  50, 0x060066D3) /* IconOverlay */
      , (36363, 8001, 1074294809) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, IconOverlay */
      , (36363, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36363, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36363, 8000, 2210356926) /* PCAPRecordedObjectIID */;
+VALUES (36363, 8000, 0x83BF5EBE) /* PCAPRecordedObjectIID */;

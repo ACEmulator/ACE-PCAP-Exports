@@ -46,18 +46,18 @@ VALUES (7897,   1, 'Steel Toed Boots') /* Name */
      , (7897,  16, 'Steel Toed Boots') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7897,   1,   33556683) /* Setup */
-     , (7897,   3,  536870932) /* SoundTable */
-     , (7897,   6,   67108990) /* PaletteBase */
-     , (7897,   8,  100670888) /* Icon */
-     , (7897,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7897,   1, 0x020008CB) /* Setup */
+     , (7897,   3, 0x20000014) /* SoundTable */
+     , (7897,   6, 0x0400007E) /* PaletteBase */
+     , (7897,   8, 0x06001DA8) /* Icon */
+     , (7897,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7897,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (7897, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (7897, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7897, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7897, 8000, 3470776058) /* PCAPRecordedObjectIID */;
+VALUES (7897, 8000, 0xCEDFD6FA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7897,  1528,      2)  /* FrostBane6 */

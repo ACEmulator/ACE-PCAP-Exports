@@ -23,13 +23,13 @@ VALUES (253,   1, 'Stool') /* Name */
      , (253,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (253,   1,   33554723) /* Setup */
-     , (253,   3,  536870932) /* SoundTable */
-     , (253,   8,  100671819) /* Icon */
-     , (253,  22,  872415275) /* PhysicsEffectTable */
+VALUES (253,   1, 0x02000123) /* Setup */
+     , (253,   3, 0x20000014) /* SoundTable */
+     , (253,   8, 0x0600214B) /* Icon */
+     , (253,  22, 0x3400002B) /* PhysicsEffectTable */
      , (253, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (253, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (253, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (253, 8000, 3658163580) /* PCAPRecordedObjectIID */;
+VALUES (253, 8000, 0xDA0B257C) /* PCAPRecordedObjectIID */;

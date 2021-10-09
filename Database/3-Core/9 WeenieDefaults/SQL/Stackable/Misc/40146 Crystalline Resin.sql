@@ -16,11 +16,11 @@ VALUES (40146,   1,        128) /* ItemType - Misc */
      , (40146,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40146,  98, 1485833217) /* CreationTimestamp */
      , (40146, 114,          1) /* Attuned - Attuned */
-     , (40146, 267,        300) /* Lifespan */
-     , (40146, 268,        298) /* RemainingLifespan */;
+     , (40146, 267,        300) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40146,   1, True ) /* Stuck */
+     , (40146,  23, True ) /* DestroyOnSell */
      , (40146,  24, True ) /* UiHidden */
      , (40146,  69, False) /* IsSellable */;
 
@@ -33,21 +33,21 @@ VALUES (40146,   1, 'Crystalline Resin') /* Name */
      , (40146,  16, 'A crystalline shard condensed from the remains of an aggregate crystalline wisp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40146,   1,   33557506) /* Setup */
-     , (40146,   3,  536870932) /* SoundTable */
-     , (40146,   6,   67112808) /* PaletteBase */
-     , (40146,   8,  100690348) /* Icon */
-     , (40146,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40146,   1, 0x02000C02) /* Setup */
+     , (40146,   3, 0x20000014) /* SoundTable */
+     , (40146,   6, 0x04000F68) /* PaletteBase */
+     , (40146,   8, 0x060069AC) /* Icon */
+     , (40146,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40146, 8001,    2109456) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Burden */
      , (40146, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (40146, 8005,     301185) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40146, 8040, 13042576, 100, -70, 0.015, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (40146, 8040, 0x00C70390, 100, -70, 0.015, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00C70390 [100.000000 -70.000000 0.015000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40146, 8000, 2448289162) /* PCAPRecordedObjectIID */;
+VALUES (40146, 8000, 0x91EDED8A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40146, 67112807, 0, 0);

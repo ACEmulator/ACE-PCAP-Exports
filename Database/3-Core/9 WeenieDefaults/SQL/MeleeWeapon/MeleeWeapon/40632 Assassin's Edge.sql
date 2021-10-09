@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40632,   1,          1) /* ItemType - MeleeWeapon */
      , (40632,   5,        150) /* EncumbranceVal */
      , (40632,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (40632,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (40632,  16,          1) /* ItemUseable - No */
      , (40632,  18,          1) /* UiEffects - Magical */
      , (40632,  19,        500) /* Value */
@@ -49,11 +48,11 @@ VALUES (40632,   1, 'Assassin''s Edge') /* Name */
      , (40632,  15, 'A poniard with a keen edge used by Selaina the Subtle the leader of an unnamed fraternity of assassins.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40632,   1,   33559483) /* Setup */
-     , (40632,   3,  536870932) /* SoundTable */
-     , (40632,   6,   67116417) /* PaletteBase */
-     , (40632,   8,  100686996) /* Icon */
-     , (40632,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40632,   1, 0x020013BB) /* Setup */
+     , (40632,   3, 0x20000014) /* SoundTable */
+     , (40632,   6, 0x04001D81) /* PaletteBase */
+     , (40632,   8, 0x06005C94) /* Icon */
+     , (40632,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40632,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (40632,  55,       2074) /* ProcSpell - ImperilOther7 */
      , (40632, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
@@ -62,19 +61,19 @@ VALUES (40632,   1,   33559483) /* Setup */
      , (40632, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40632, 8040, 1925775414, 104.475, 116, 94.59567, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
+VALUES (40632, 8040, 0x72C90036, 104.475, 116, 94.59567, 0, 0, -0.707107, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x72C90036 [104.475000 116.000000 94.595670] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40632, 8000, 2440347228) /* PCAPRecordedObjectIID */
-     , (40632, 8008, 1343103424) /* PCAPRecordedParentIID */;
+VALUES (40632, 8000, 0x9174BE5C) /* PCAPRecordedObjectIID */
+     , (40632, 8008, 0x500E21C0) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40632,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (40632,  2106,      2)  /* HeartSeekerSelf7 */
-     , (40632,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (40632,  2116,      2)  /* SwiftKillerSelf7 */
      , (40632,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
-     , (40632,  2603,      2)  /* CANTRIPHEARTTHIRST1 */;
+     , (40632,  2603,      2)  /* CANTRIPHEARTTHIRST1 */
+     , (40632,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (40632,  2106,      2)  /* HeartSeekerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40632, 67116427, 0, 0);

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29245,   1,        256) /* ItemType - MissileWeapon */
      , (29245,   5,       1184) /* EncumbranceVal */
      , (29245,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (29245,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (29245,  16,          1) /* ItemUseable - No */
      , (29245,  18,        257) /* UiEffects - Magical, Acid */
      , (29245,  19,      10646) /* Value */
@@ -16,7 +15,7 @@ VALUES (29245,   1,        256) /* ItemType - MissileWeapon */
      , (29245,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29245,  49,        106) /* WeaponTime */
      , (29245,  50,          2) /* AmmoType - Bolt */
-     , (29245,  51,          2) /* CombatUse - Missle */
+     , (29245,  51,          2) /* CombatUse - Missile */
      , (29245,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29245, 105,          8) /* ItemWorkmanship */
      , (29245, 131,         57) /* MaterialType - Brass */
@@ -49,12 +48,12 @@ VALUES (29245,   1, 'Acid Crossbow') /* Name */
      , (29245,  16, 'Acid Crossbow') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29245,   1,   33559240) /* Setup */
-     , (29245,   3,  536870932) /* SoundTable */
-     , (29245,   6,   67115373) /* PaletteBase */
-     , (29245,   8,  100677443) /* Icon */
-     , (29245,  22,  872415275) /* PhysicsEffectTable */
-     , (29245,  52,  100676439) /* IconUnderlay */
+VALUES (29245,   1, 0x020012C8) /* Setup */
+     , (29245,   3, 0x20000014) /* SoundTable */
+     , (29245,   6, 0x0400196D) /* PaletteBase */
+     , (29245,   8, 0x06003743) /* Icon */
+     , (29245,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (29245,  52, 0x06003357) /* IconUnderlay */
      , (29245, 8001, 2435023768) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (29245, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (29245, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -62,12 +61,12 @@ VALUES (29245,   1,   33559240) /* Setup */
      , (29245, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29245, 8040, 23855548, 49.21, -31.909, -0.07000001, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (29245, 8040, 0x016C01BC, 49.21, -31.909, -0.07, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.210000 -31.909000 -0.070000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29245, 8000, 2671158941) /* PCAPRecordedObjectIID */
-     , (29245, 8008, 1343461932) /* PCAPRecordedParentIID */;
+VALUES (29245, 8000, 0x9F36A69D) /* PCAPRecordedObjectIID */
+     , (29245, 8008, 0x50139A2C) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29245, 67115372, 0, 0);

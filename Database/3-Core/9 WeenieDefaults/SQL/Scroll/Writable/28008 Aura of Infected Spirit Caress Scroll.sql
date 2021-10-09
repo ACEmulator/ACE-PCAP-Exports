@@ -24,13 +24,13 @@ VALUES (28008,   1, 'Aura of Infected Spirit Caress Scroll') /* Name */
 Increases the elemental damage bonus of an elemental magic caster by 7%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28008,   1,   33554826) /* Setup */
-     , (28008,   8,  100676674) /* Icon */
-     , (28008,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28008,   1, 0x0200018A) /* Setup */
+     , (28008,   8, 0x06003442) /* Icon */
+     , (28008,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28008,  28,       3259) /* Spell - SpiritDrinkerSelf7 */
      , (28008, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (28008, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28008, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28008, 8000, 3327332619) /* PCAPRecordedObjectIID */;
+VALUES (28008, 8000, 0xC653110B) /* PCAPRecordedObjectIID */;

@@ -22,16 +22,16 @@ VALUES (15153,   1, 'Dovetail Valley Villas Portal') /* Name */
      , (15153, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15153,   1,   33554867) /* Setup */
-     , (15153,   2,  150994947) /* MotionTable */
-     , (15153,   8,  100667499) /* Icon */
+VALUES (15153,   1, 0x020001B3) /* Setup */
+     , (15153,   2, 0x09000003) /* MotionTable */
+     , (15153,   8, 0x0600106B) /* Icon */
      , (15153, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (15153, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (15153, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15153, 8040, 2541617153, 12.6995, 14.7048, 29.937, 0.9269427, 0, 0, 0.3752029) /* PCAPRecordedLocation */
+VALUES (15153, 8040, 0x977E0001, 12.6995, 14.7048, 29.937, 0.926943, 0, 0, 0.375203) /* PCAPRecordedLocation */
 /* @teleloc 0x977E0001 [12.699500 14.704800 29.937000] 0.926943 0.000000 0.000000 0.375203 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15153, 8000, 2037899277) /* PCAPRecordedObjectIID */;
+VALUES (15153, 8000, 0x7977E00D) /* PCAPRecordedObjectIID */;

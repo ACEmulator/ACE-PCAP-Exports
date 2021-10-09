@@ -24,23 +24,17 @@ VALUES (8327,   1, 'Gold Pea') /* Name */
      , (8327,  16, 'A concentrated gold pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8327,   1,   33555211) /* Setup */
-     , (8327,   3,  536870932) /* SoundTable */
-     , (8327,   6,   67111919) /* PaletteBase */
-     , (8327,   8,  100671081) /* Icon */
-     , (8327,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8327,   1, 0x0200030B) /* Setup */
+     , (8327,   3, 0x20000014) /* SoundTable */
+     , (8327,   6, 0x04000BEF) /* PaletteBase */
+     , (8327,   8, 0x06001E69) /* Icon */
+     , (8327,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8327, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8327, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8327, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8327, 8000, 2186220448) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8327, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
-     , (8327, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (8327, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (8327, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */;
+VALUES (8327, 8000, 0x824F13A0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8327, 67111920, 0, 0);

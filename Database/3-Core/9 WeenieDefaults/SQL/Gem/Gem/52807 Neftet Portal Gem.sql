@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52807,   1, 'Neftet Portal Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52807,   1,   33557625) /* Setup */
-     , (52807,   3,  536870932) /* SoundTable */
-     , (52807,   8,  100693311) /* Icon */
-     , (52807,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52807,   1, 0x02000C79) /* Setup */
+     , (52807,   3, 0x20000014) /* SoundTable */
+     , (52807,   8, 0x0600753F) /* Icon */
+     , (52807,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52807,  28,        157) /* Spell - SummonPortal1 */
      , (52807, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (52807, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -37,4 +37,4 @@ VALUES (52807,   1,   33557625) /* Setup */
      , (52807, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52807, 8000,      52807) /* PCAPRecordedObjectIID */;
+VALUES (52807, 8000, 0x0000CE47) /* PCAPRecordedObjectIID */;

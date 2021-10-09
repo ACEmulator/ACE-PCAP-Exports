@@ -17,20 +17,21 @@ VALUES (42015,   1,        128) /* ItemType - Misc */
      , (42015, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42015,  69, False) /* IsSellable */;
+VALUES (42015,  23, True ) /* DestroyOnSell */
+     , (42015,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42015,   1, 'Crystallized Blue Flame') /* Name */
      , (42015,  15, 'The crystallized flames from the southeast tower of Mhoire Castle.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42015,   1,   33560191) /* Setup */
-     , (42015,   3,  536870932) /* SoundTable */
-     , (42015,   8,  100677383) /* Icon */
-     , (42015,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42015,   1, 0x0200167F) /* Setup */
+     , (42015,   3, 0x20000014) /* SoundTable */
+     , (42015,   8, 0x06003707) /* Icon */
+     , (42015,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42015, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (42015, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (42015, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42015, 8000, 3683427963) /* PCAPRecordedObjectIID */;
+VALUES (42015, 8000, 0xDB8CA67B) /* PCAPRecordedObjectIID */;

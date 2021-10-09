@@ -26,22 +26,22 @@ VALUES (30646,   1, 'Drudge Laborer') /* Name */
      , (30646, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30646,   1,   33556445) /* Setup */
-     , (30646,   2,  150994952) /* MotionTable */
-     , (30646,   3,  536870919) /* SoundTable */
-     , (30646,   6,   67112812) /* PaletteBase */
-     , (30646,   8,  100667445) /* Icon */
-     , (30646,  22,  872415258) /* PhysicsEffectTable */
+VALUES (30646,   1, 0x020007DD) /* Setup */
+     , (30646,   2, 0x09000008) /* MotionTable */
+     , (30646,   3, 0x20000007) /* SoundTable */
+     , (30646,   6, 0x04000F6C) /* PaletteBase */
+     , (30646,   8, 0x06001035) /* Icon */
+     , (30646,  22, 0x3400001A) /* PhysicsEffectTable */
      , (30646, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (30646, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (30646, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30646, 8040, 191889438, 74.9472, 131.016, 94.00455, -0.9999927, 0, 0, -0.003828239) /* PCAPRecordedLocation */
+VALUES (30646, 8040, 0x0B70001E, 74.9472, 131.016, 94.00455, -0.999993, 0, 0, -0.003828) /* PCAPRecordedLocation */
 /* @teleloc 0x0B70001E [74.947200 131.016000 94.004550] -0.999993 0.000000 0.000000 -0.003828 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30646, 8000, 3695958260) /* PCAPRecordedObjectIID */;
+VALUES (30646, 8000, 0xDC4BD8F4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30646,   1, 210, 0, 0) /* Strength */
@@ -315,7 +315,28 @@ VALUES (30646, 2, 47257,  1, 0, 0, False) /* Create Board with Nail (47257) for 
      , (30646, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
      , (30646, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
      , (30646, 9, 49297,  0, 0, 0, False) /* Create Fire K'nath Essence (80) (49297) for ContainTreasure */
-     , (30646, 9, 41060,  0, 0, 0, False) /* Create Flaming Great Star Mace (41060) for ContainTreasure */;
+     , (30646, 9, 41060,  0, 0, 0, False) /* Create Flaming Great Star Mace (41060) for ContainTreasure */
+     , (30646, 9, 20427,  0, 0, 0, False) /* Create Aura of Mystic's Blessing (20427) for ContainTreasure */
+     , (30646, 9,   340,  0, 0, 0, False) /* Create Shamshir (340) for ContainTreasure */
+     , (30646, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for ContainTreasure */
+     , (30646, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */
+     , (30646, 9,  3818,  0, 0, 0, False) /* Create Acid Katar (3818) for ContainTreasure */
+     , (30646, 9, 20418,  0, 0, 0, False) /* Create Scroll of Brogard's Defiance (20418) for ContainTreasure */
+     , (30646, 9, 20445,  0, 0, 0, False) /* Create Scroll of The Spike (20445) for ContainTreasure */
+     , (30646, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */
+     , (30646, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (30646, 9, 49476,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Self VII (49476) for ContainTreasure */
+     , (30646, 9,  7791,  0, 0, 0, False) /* Create Frost Trident (7791) for ContainTreasure */
+     , (30646, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (30646, 9, 27232,  0, 0, 0, False) /* Create Nariyid Sleeves (27232) for ContainTreasure */
+     , (30646, 9, 20604,  0, 0, 0, False) /* Create Scroll of Cannibalize (20604) for ContainTreasure */
+     , (30646, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (30646, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (30646, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */
+     , (30646, 9, 20548,  0, 0, 0, False) /* Create Scroll of Gears Unwound (20548) for ContainTreasure */
+     , (30646, 9, 20570,  0, 0, 0, False) /* Create Scroll of Ignorance's Bliss (20570) for ContainTreasure */
+     , (30646, 9, 49228,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (80) (49228) for ContainTreasure */
+     , (30646, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30646, 67112818, 0, 0);

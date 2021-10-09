@@ -22,16 +22,16 @@ VALUES (12535,   1, 'North Yanshi Plains Settlement Portal') /* Name */
      , (12535, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12535,   1,   33554867) /* Setup */
-     , (12535,   2,  150994947) /* MotionTable */
-     , (12535,   8,  100667499) /* Icon */
+VALUES (12535,   1, 0x020001B3) /* Setup */
+     , (12535,   2, 0x09000003) /* MotionTable */
+     , (12535,   8, 0x0600106B) /* Icon */
      , (12535, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12535, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12535, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12535, 8040, 3196190738, 68.023, 27.7925, 38.93125, -0.595708, 0, 0, -0.8032011) /* PCAPRecordedLocation */
+VALUES (12535, 8040, 0xBE820012, 68.023, 27.7925, 38.93125, -0.595708, 0, 0, -0.803201) /* PCAPRecordedLocation */
 /* @teleloc 0xBE820012 [68.023000 27.792500 38.931250] -0.595708 0.000000 0.000000 -0.803201 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12535, 8000, 2078810115) /* PCAPRecordedObjectIID */;
+VALUES (12535, 8000, 0x7BE82003) /* PCAPRecordedObjectIID */;

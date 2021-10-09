@@ -53,17 +53,17 @@ VALUES (45116,   1, 'Flaming Hammer') /* Name */
      , (45116,  16, 'Flaming Hammer of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45116,   1,   33555815) /* Setup */
-     , (45116,   3,  536870932) /* SoundTable */
-     , (45116,   8,  100669074) /* Icon */
-     , (45116,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45116,   1, 0x02000567) /* Setup */
+     , (45116,   3, 0x20000014) /* SoundTable */
+     , (45116,   8, 0x06001692) /* Icon */
+     , (45116,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45116,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45116, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45116, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45116, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45116, 8000, 3686833011) /* PCAPRecordedObjectIID */;
+VALUES (45116, 8000, 0xDBC09B73) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45116,  1604,      2)  /* DefenderSelf5 */

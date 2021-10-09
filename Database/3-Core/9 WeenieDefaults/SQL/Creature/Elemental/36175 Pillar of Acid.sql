@@ -22,21 +22,21 @@ VALUES (36175,   1, 'Pillar of Acid') /* Name */
      , (36175, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36175,   1,   33560371) /* Setup */
-     , (36175,   2,  150995290) /* MotionTable */
-     , (36175,   3,  536871001) /* SoundTable */
-     , (36175,   8,  100672513) /* Icon */
-     , (36175,  22,  872415389) /* PhysicsEffectTable */
+VALUES (36175,   1, 0x02001733) /* Setup */
+     , (36175,   2, 0x0900015A) /* MotionTable */
+     , (36175,   3, 0x20000059) /* SoundTable */
+     , (36175,   8, 0x06002401) /* Icon */
+     , (36175,  22, 0x3400009D) /* PhysicsEffectTable */
      , (36175, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (36175, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (36175, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36175, 8040, 12321028, 18.2852, -21.72309, -36.00335, 0.1743105, 0, 0, -0.9846907) /* PCAPRecordedLocation */
+VALUES (36175, 8040, 0x00BC0104, 18.2852, -21.72309, -36.00335, 0.174311, 0, 0, -0.984691) /* PCAPRecordedLocation */
 /* @teleloc 0x00BC0104 [18.285200 -21.723090 -36.003350] 0.174311 0.000000 0.000000 -0.984691 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36175, 8000, 3701351636) /* PCAPRecordedObjectIID */;
+VALUES (36175, 8000, 0xDC9E24D4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36175,   1,  90, 0, 0) /* Strength */

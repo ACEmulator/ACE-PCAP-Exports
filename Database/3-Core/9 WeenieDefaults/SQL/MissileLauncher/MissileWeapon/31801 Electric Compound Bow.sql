@@ -15,7 +15,7 @@ VALUES (31801,   1,        256) /* ItemType - MissileWeapon */
      , (31801,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31801,  49,         33) /* WeaponTime */
      , (31801,  50,          1) /* AmmoType - Arrow */
-     , (31801,  51,          2) /* CombatUse - Missle */
+     , (31801,  51,          2) /* CombatUse - Missile */
      , (31801,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31801, 105,          6) /* ItemWorkmanship */
      , (31801, 106,        267) /* ItemSpellcraft */
@@ -53,22 +53,22 @@ VALUES (31801,   1, 'Electric Compound Bow') /* Name */
      , (31801,  16, 'Electric Compound Bow of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31801,   1,   33559666) /* Setup */
-     , (31801,   3,  536870932) /* SoundTable */
-     , (31801,   6,   67116700) /* PaletteBase */
-     , (31801,   8,  100688042) /* Icon */
-     , (31801,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31801,   1, 0x02001472) /* Setup */
+     , (31801,   3, 0x20000014) /* SoundTable */
+     , (31801,   6, 0x04001E9C) /* PaletteBase */
+     , (31801,   8, 0x060060AA) /* Icon */
+     , (31801,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31801,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (31801, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31801, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31801, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31801, 8000, 3699152444) /* PCAPRecordedObjectIID */;
+VALUES (31801, 8000, 0xDC7C963C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31801,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31801,  2572,      2)  /* CANTRIPCOORDINATION2 */
+VALUES (31801,  2572,      2)  /* CANTRIPCOORDINATION2 */
+     , (31801,  1616,      2)  /* BloodDrinkerSelf6 */
      , (31801,  5784,      2)  /* DirtyFightingMasterySelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

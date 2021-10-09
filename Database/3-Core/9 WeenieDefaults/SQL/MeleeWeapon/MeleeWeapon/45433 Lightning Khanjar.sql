@@ -54,20 +54,20 @@ VALUES (45433,   1, 'Lightning Khanjar') /* Name */
      , (45433,  16, 'Lightning Khanjar of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45433,   1,   33555748) /* Setup */
-     , (45433,   3,  536870932) /* SoundTable */
-     , (45433,   8,  100668936) /* Icon */
-     , (45433,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45433,   1, 0x02000524) /* Setup */
+     , (45433,   3, 0x20000014) /* SoundTable */
+     , (45433,   8, 0x06001608) /* Icon */
+     , (45433,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45433,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (45433, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45433, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45433, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45433, 8000, 2461813521) /* PCAPRecordedObjectIID */;
+VALUES (45433, 8000, 0x92BC4B11) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45433,  2576,      2)  /* CANTRIPSTRENGTH2 */
-     , (45433,  4299,      2)  /* EnduranceSelf8 */
+VALUES (45433,  4299,      2)  /* EnduranceSelf8 */
+     , (45433,  2576,      2)  /* CANTRIPSTRENGTH2 */
      , (45433,  4395,      2)  /* BloodDrinkerSelf8 */
      , (45433,  4661,      2)  /* CANTRIPBLOODTHIRST3 */;

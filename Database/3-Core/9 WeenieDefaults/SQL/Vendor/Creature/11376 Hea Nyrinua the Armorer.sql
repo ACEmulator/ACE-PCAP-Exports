@@ -33,21 +33,21 @@ VALUES (11376,   1, 'Hea Nyrinua the Armorer') /* Name */
      , (11376, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11376,   1,   33559568) /* Setup */
-     , (11376,   2,  150994954) /* MotionTable */
-     , (11376,   3,  536870931) /* SoundTable */
-     , (11376,   6,   67116625) /* PaletteBase */
-     , (11376,   8,  100667452) /* Icon */
+VALUES (11376,   1, 0x02001410) /* Setup */
+     , (11376,   2, 0x0900000A) /* MotionTable */
+     , (11376,   3, 0x20000013) /* SoundTable */
+     , (11376,   6, 0x04001E51) /* PaletteBase */
+     , (11376,   8, 0x0600103C) /* Icon */
      , (11376, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (11376, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (11376, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11376, 8040, 247070986, 87.0768, 67.8836, 1.705, 0.1243611, 0, 0, -0.992237) /* PCAPRecordedLocation */
+VALUES (11376, 8040, 0x0EBA010A, 87.0768, 67.8836, 1.705, 0.124361, 0, 0, -0.992237) /* PCAPRecordedLocation */
 /* @teleloc 0x0EBA010A [87.076800 67.883600 1.705000] 0.124361 0.000000 0.000000 -0.992237 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11376, 8000, 1894490116) /* PCAPRecordedObjectIID */;
+VALUES (11376, 8000, 0x70EBA004) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11376,   1, 120, 0, 0) /* Strength */
@@ -107,6 +107,7 @@ VALUES (11376, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554
      , (11376, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
      , (11376, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
      , (11376, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
+     , (11376, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (11376, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
      , (11376, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
      , (11376, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

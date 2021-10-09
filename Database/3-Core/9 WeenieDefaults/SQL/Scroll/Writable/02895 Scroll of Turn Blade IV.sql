@@ -24,13 +24,13 @@ VALUES (2895,   1, 'Scroll of Turn Blade IV') /* Name */
 Decreases a weapon''s Attack Skill modifier by 10.0 percentage points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2895,   1,   33554826) /* Setup */
-     , (2895,   8,  100676677) /* Icon */
-     , (2895,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2895,   1, 0x0200018A) /* Setup */
+     , (2895,   8, 0x06003445) /* Icon */
+     , (2895,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2895,  28,       1596) /* Spell - TurnBlade4 */
      , (2895, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2895, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2895, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2895, 8000, 2924491241) /* PCAPRecordedObjectIID */;
+VALUES (2895, 8000, 0xAE5031E9) /* PCAPRecordedObjectIID */;

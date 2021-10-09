@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3687,   1, 'Skeleton''s Skull') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3687,   1,   33555205) /* Setup */
-     , (3687,   3,  536870932) /* SoundTable */
-     , (3687,   8,  100667504) /* Icon */
-     , (3687,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3687,   1, 0x02000305) /* Setup */
+     , (3687,   3, 0x20000014) /* SoundTable */
+     , (3687,   8, 0x06001070) /* Icon */
+     , (3687,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3687, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (3687, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3687, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3687, 8000, 3692158733) /* PCAPRecordedObjectIID */;
+VALUES (3687, 8000, 0xDC11DF0D) /* PCAPRecordedObjectIID */;

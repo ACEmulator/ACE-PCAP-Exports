@@ -22,20 +22,20 @@ VALUES (40780,   1, 'Progenitor of Frost') /* Name */
      , (40780, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40780,   1,   33557033) /* Setup */
-     , (40780,   2,  150995087) /* MotionTable */
-     , (40780,   3,  536870985) /* SoundTable */
-     , (40780,   8,  100671383) /* Icon */
+VALUES (40780,   1, 0x02000A29) /* Setup */
+     , (40780,   2, 0x0900008F) /* MotionTable */
+     , (40780,   3, 0x20000049) /* SoundTable */
+     , (40780,   8, 0x06001F97) /* Icon */
      , (40780, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40780, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40780, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40780, 8040, 778830547, -228.042, 106.298, -17.595, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (40780, 8040, 0x2E6C02D3, -228.042, 106.298, -17.595, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2E6C02D3 [-228.042000 106.298000 -17.595000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40780, 8000, 3711129193) /* PCAPRecordedObjectIID */;
+VALUES (40780, 8000, 0xDD335669) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40780,   1, 200, 0, 0) /* Strength */

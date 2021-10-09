@@ -51,22 +51,22 @@ VALUES (28988,   1, 'Burun Slaying War Maul') /* Name */
      , (28988,  25, 'Callaway') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28988,   1,   33558931) /* Setup */
-     , (28988,   3,  536870932) /* SoundTable */
-     , (28988,   8,  100676975) /* Icon */
-     , (28988,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28988,   1, 0x02001193) /* Setup */
+     , (28988,   3, 0x20000014) /* SoundTable */
+     , (28988,   8, 0x0600356F) /* Icon */
+     , (28988,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28988,  30,         88) /* PhysicsScript - Create */
      , (28988, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (28988, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28988, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28988, 8000, 3709254557) /* PCAPRecordedObjectIID */;
+VALUES (28988, 8000, 0xDD16BB9D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28988,   243,      2)  /* InvulnerabilityOther5 */
+VALUES (28988,  1604,      2)  /* DefenderSelf5 */
      , (28988,  1359,      2)  /* EnduranceOther5 */
-     , (28988,  1591,      2)  /* HeartSeekerSelf5 */
-     , (28988,  1604,      2)  /* DefenderSelf5 */
      , (28988,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (28988,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (28988,  1625,      2)  /* SwiftKillerSelf4 */
+     , (28988,   243,      2)  /* InvulnerabilityOther5 */
+     , (28988,  1591,      2)  /* HeartSeekerSelf5 */;

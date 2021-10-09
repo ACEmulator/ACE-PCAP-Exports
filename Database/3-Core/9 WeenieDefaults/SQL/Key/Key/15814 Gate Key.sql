@@ -23,16 +23,16 @@ VALUES (15814,   1, 'Gate Key') /* Name */
      , (15814,  15, 'A crudely fashioned key with strange symbols carved into it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15814,   1,   33554784) /* Setup */
-     , (15814,   3,  536870932) /* SoundTable */
-     , (15814,   8,  100672824) /* Icon */
-     , (15814,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15814,   1, 0x02000160) /* Setup */
+     , (15814,   3, 0x20000014) /* SoundTable */
+     , (15814,   8, 0x06002538) /* Icon */
+     , (15814,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15814, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (15814, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15814, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15814, 8000, 2779730332) /* PCAPRecordedObjectIID */;
+VALUES (15814, 8000, 0xA5AF519C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (15814, 0, 83888936, 83886763);

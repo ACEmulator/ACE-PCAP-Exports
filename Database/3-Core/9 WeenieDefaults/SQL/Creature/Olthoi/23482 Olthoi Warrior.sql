@@ -26,22 +26,22 @@ VALUES (23482,   1, 'Olthoi Warrior') /* Name */
      , (23482, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23482,   1,   33557162) /* Setup */
-     , (23482,   2,  150994946) /* MotionTable */
-     , (23482,   3,  536870925) /* SoundTable */
-     , (23482,   8,  100667623) /* Icon */
-     , (23482,  22,  872415265) /* PhysicsEffectTable */
+VALUES (23482,   1, 0x02000AAA) /* Setup */
+     , (23482,   2, 0x09000002) /* MotionTable */
+     , (23482,   3, 0x2000000D) /* SoundTable */
+     , (23482,   8, 0x060010E7) /* Icon */
+     , (23482,  22, 0x34000021) /* PhysicsEffectTable */
      , (23482,  30,         86) /* PhysicsScript - BreatheAcid */
      , (23482, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (23482, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (23482, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23482, 8040, 1725300742, 5.980905, 121.1128, 75.42574, -0.682228, 0, 0, -0.7311395) /* PCAPRecordedLocation */
+VALUES (23482, 8040, 0x66D60006, 5.980905, 121.1128, 75.42574, -0.682228, 0, 0, -0.73114) /* PCAPRecordedLocation */
 /* @teleloc 0x66D60006 [5.980905 121.112800 75.425740] -0.682228 0.000000 0.000000 -0.731140 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23482, 8000, 3688450627) /* PCAPRecordedObjectIID */;
+VALUES (23482, 8000, 0xDBD94A43) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23482,   1, 330, 0, 0) /* Strength */
@@ -409,4 +409,21 @@ VALUES (23482, 9, 49214,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence
      , (23482, 9, 20235,  0, 0, 0, False) /* Create Scroll of Honed Control (20235) for ContainTreasure */
      , (23482, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
      , (23482, 9, 20555,  0, 0, 0, False) /* Create Scroll of Fat Fingers (20555) for ContainTreasure */
-     , (23482, 9, 20232,  0, 0, 0, False) /* Create Scroll of Synaptic Misfire (20232) for ContainTreasure */;
+     , (23482, 9, 20232,  0, 0, 0, False) /* Create Scroll of Synaptic Misfire (20232) for ContainTreasure */
+     , (23482, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (23482, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
+     , (23482, 9, 20408,  0, 0, 0, False) /* Create Scroll of Tusker's Bane (20408) for ContainTreasure */
+     , (23482, 9, 22157,  0, 0, 0, False) /* Create Frost Jo (22157) for ContainTreasure */
+     , (23482, 9, 30592,  0, 0, 0, False) /* Create Flaming Partizan (30592) for ContainTreasure */
+     , (23482, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
+     , (23482, 9,   362,  0, 0, 0, False) /* Create Yari (362) for ContainTreasure */
+     , (23482, 9, 41058,  0, 0, 0, False) /* Create Acid Great Star Mace (41058) for ContainTreasure */
+     , (23482, 9, 31811,  0, 0, 0, False) /* Create Piercing Compound Crossbow (31811) for ContainTreasure */
+     , (23482, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */
+     , (23482, 9, 30949,  0, 0, 0, False) /* Create Diforsa Sleeves (30949) for ContainTreasure */
+     , (23482, 9, 20404,  0, 0, 0, False) /* Create Scroll of Swordsman's Bane (20404) for ContainTreasure */
+     , (23482, 9, 31797,  0, 0, 0, False) /* Create Flaming Lancet (31797) for ContainTreasure */
+     , (23482, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */
+     , (23482, 9, 20530,  0, 0, 0, False) /* Create Scroll of Lilitha's Boon (20530) for ContainTreasure */
+     , (23482, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */
+     , (23482, 9, 40707,  0, 0, 0, False) /* Create Covenant Breastplate (40707) for ContainTreasure */;

@@ -16,13 +16,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37536,   1, 'Experience Orders') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37536,   1,   33557387) /* Setup */
-     , (37536,   3,  536870932) /* SoundTable */
-     , (37536,   8,  100689882) /* Icon */
-     , (37536,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37536,   1, 0x02000B8B) /* Setup */
+     , (37536,   3, 0x20000014) /* SoundTable */
+     , (37536,   8, 0x060067DA) /* Icon */
+     , (37536,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37536, 8001,      16400) /* PCAPRecordedWeenieHeader - Usable, Container */
      , (37536, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37536, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37536, 8000, 2885145289) /* PCAPRecordedObjectIID */;
+VALUES (37536, 8000, 0xABF7D2C9) /* PCAPRecordedObjectIID */;

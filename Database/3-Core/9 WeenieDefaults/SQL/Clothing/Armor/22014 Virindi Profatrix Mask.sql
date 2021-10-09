@@ -41,22 +41,22 @@ VALUES (22014,   1, 'Virindi Profatrix Mask') /* Name */
      , (22014,  15, 'A black virindi mask taken from the fallen form of a Virindi Profatrix.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22014,   1,   33556827) /* Setup */
-     , (22014,   3,  536870932) /* SoundTable */
-     , (22014,   6,   67108990) /* PaletteBase */
-     , (22014,   8,  100673680) /* Icon */
-     , (22014,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22014,   1, 0x0200095B) /* Setup */
+     , (22014,   3, 0x20000014) /* SoundTable */
+     , (22014,   6, 0x0400007E) /* PaletteBase */
+     , (22014,   8, 0x06002890) /* Icon */
+     , (22014,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22014, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (22014, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22014, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22014, 8000, 2980943601) /* PCAPRecordedObjectIID */;
+VALUES (22014, 8000, 0xB1AD96F1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22014,   249,      2)  /* InvulnerabilitySelf6 */
+VALUES (22014,  1485,      2)  /* Impenetrability5 */
      , (22014,  1312,      2)  /* ArmorSelf6 */
-     , (22014,  1485,      2)  /* Impenetrability5 */;
+     , (22014,   249,      2)  /* InvulnerabilitySelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22014, 67114020, 240, 16);

@@ -47,22 +47,22 @@ VALUES (45,   1, 'Leather Cap') /* Name */
      , (45,  16, 'Leather Cap of Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45,   1,   33554643) /* Setup */
-     , (45,   3,  536870932) /* SoundTable */
-     , (45,   6,   67108990) /* PaletteBase */
-     , (45,   8,  100669171) /* Icon */
-     , (45,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45,   1, 0x020000D3) /* Setup */
+     , (45,   3, 0x20000014) /* SoundTable */
+     , (45,   6, 0x0400007E) /* PaletteBase */
+     , (45,   8, 0x060016F3) /* Icon */
+     , (45,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (45, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (45, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45, 8000, 3699152245) /* PCAPRecordedObjectIID */;
+VALUES (45, 8000, 0xDC7C9575) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45,  1486,      2)  /* Impenetrability6 */
-     , (45,  2053,      2)  /* ArmorSelf7 */
+VALUES (45,  2053,      2)  /* ArmorSelf7 */
+     , (45,  1486,      2)  /* Impenetrability6 */
      , (45,  2542,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

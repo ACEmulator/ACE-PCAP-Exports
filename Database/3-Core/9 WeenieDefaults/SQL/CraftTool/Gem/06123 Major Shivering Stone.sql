@@ -19,24 +19,25 @@ VALUES (6123,   1,       2048) /* ItemType - Gem */
      , (6123, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6123,  22, True ) /* Inscribable */;
+VALUES (6123,  22, True ) /* Inscribable */
+     , (6123,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6123,   1, 'Major Shivering Stone') /* Name */
      , (6123,  14, 'Use this stone on an Empyrean or Isparian weapon or on a piece of Shadow Armor. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6123,   1,   33556407) /* Setup */
-     , (6123,   3,  536870932) /* SoundTable */
-     , (6123,   6,   67111919) /* PaletteBase */
-     , (6123,   8,  100670489) /* Icon */
-     , (6123,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6123,   1, 0x020007B7) /* Setup */
+     , (6123,   3, 0x20000014) /* SoundTable */
+     , (6123,   6, 0x04000BEF) /* PaletteBase */
+     , (6123,   8, 0x06001C19) /* Icon */
+     , (6123,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6123, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (6123, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6123, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6123, 8000, 2280399215) /* PCAPRecordedObjectIID */;
+VALUES (6123, 8000, 0x87EC216F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6123, 67111919, 0, 0);

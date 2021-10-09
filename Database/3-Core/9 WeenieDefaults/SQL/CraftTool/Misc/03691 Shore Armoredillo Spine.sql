@@ -27,17 +27,17 @@ VALUES (3691,   1, 'Shore Armoredillo Spine') /* Name */
      , (3691,  14, 'This spine looks as if it could function as the blade of an axe. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3691,   1,   33554817) /* Setup */
-     , (3691,   3,  536870932) /* SoundTable */
-     , (3691,   6,   67111919) /* PaletteBase */
-     , (3691,   8,  100670072) /* Icon */
-     , (3691,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3691,   1, 0x02000181) /* Setup */
+     , (3691,   3, 0x20000014) /* SoundTable */
+     , (3691,   6, 0x04000BEF) /* PaletteBase */
+     , (3691,   8, 0x06001A78) /* Icon */
+     , (3691,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3691, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (3691, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3691, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3691, 8000, 3072497565) /* PCAPRecordedObjectIID */;
+VALUES (3691, 8000, 0xB722979D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3691, 67111920, 0, 0);

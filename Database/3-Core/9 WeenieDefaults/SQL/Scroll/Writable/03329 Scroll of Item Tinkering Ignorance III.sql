@@ -24,17 +24,17 @@ VALUES (3329,   1, 'Scroll of Item Tinkering Ignorance III') /* Name */
 Decreases the target''s Item Tinkering skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3329,   1,   33554826) /* Setup */
-     , (3329,   8,  100676477) /* Icon */
-     , (3329,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3329,   1, 0x0200018A) /* Setup */
+     , (3329,   8, 0x0600337D) /* Icon */
+     , (3329,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3329,  28,        746) /* Spell - ItemIgnoranceOther3 */
      , (3329, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (3329, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3329, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3329, 8040, 3062300988, 62.00576, 133.3074, 90.0855, -0.6354288, 0, 0, -0.7721595) /* PCAPRecordedLocation */
+VALUES (3329, 8040, 0xB687013C, 62.00576, 133.3074, 90.0855, -0.635429, 0, 0, -0.77216) /* PCAPRecordedLocation */
 /* @teleloc 0xB687013C [62.005760 133.307400 90.085500] -0.635429 0.000000 0.000000 -0.772160 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3329, 8000, 2618317247) /* PCAPRecordedObjectIID */;
+VALUES (3329, 8000, 0x9C1059BF) /* PCAPRecordedObjectIID */;

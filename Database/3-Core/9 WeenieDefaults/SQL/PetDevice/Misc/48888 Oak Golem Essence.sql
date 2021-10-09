@@ -16,7 +16,7 @@ VALUES (48888,   1,        128) /* ItemType - Misc */
      , (48888,  94,         16) /* TargetType - Creature */
      , (48888, 114,          0) /* Attuned - Normal */
      , (48888, 280,        213) /* SharedCooldown */
-     , (48888, 366,         54) /* UseRequiresSkill */
+     , (48888, 366,         54) /* UseRequiresSkill - Summoning */
      , (48888, 367,        370) /* UseRequiresSkillLevel */
      , (48888, 369,         70) /* UseRequiresLevel */
      , (48888, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -34,20 +34,20 @@ VALUES (48888,   1, 'Oak Golem Essence') /* Name */
      , (48888,  14, 'Use this essence to summon or dismiss your Oak Golem.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48888,   1,   33554817) /* Setup */
-     , (48888,   3,  536870932) /* SoundTable */
-     , (48888,   6,   67111919) /* PaletteBase */
-     , (48888,   8,  100693023) /* Icon */
-     , (48888,  22,  872415275) /* PhysicsEffectTable */
-     , (48888,  50,  100693027) /* IconOverlay */
-     , (48888,  52,  100693024) /* IconUnderlay */
+VALUES (48888,   1, 0x02000181) /* Setup */
+     , (48888,   3, 0x20000014) /* SoundTable */
+     , (48888,   6, 0x04000BEF) /* PaletteBase */
+     , (48888,   8, 0x0600741F) /* Icon */
+     , (48888,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (48888,  50, 0x06007423) /* IconOverlay */
+     , (48888,  52, 0x06007420) /* IconUnderlay */
      , (48888, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (48888, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (48888, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (48888, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48888, 8000, 2381523303) /* PCAPRecordedObjectIID */;
+VALUES (48888, 8000, 0x8DF32967) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48888, 67111927, 0, 0);

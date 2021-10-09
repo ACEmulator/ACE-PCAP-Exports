@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44162,   1, 'Contract for Sawato Extortion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44162,   1,   33557625) /* Setup */
-     , (44162,   3,  536870932) /* SoundTable */
-     , (44162,   8,  100691932) /* Icon */
-     , (44162,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44162,   1, 0x02000C79) /* Setup */
+     , (44162,   3, 0x20000014) /* SoundTable */
+     , (44162,   8, 0x06006FDC) /* Icon */
+     , (44162,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44162, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44162, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44162, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (44162,   1,   33557625) /* Setup */
      , (44162, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44162, 8000,      44162) /* PCAPRecordedObjectIID */;
+VALUES (44162, 8000, 0x0000AC82) /* PCAPRecordedObjectIID */;

@@ -44,23 +44,23 @@ VALUES (21377,   1, 'Dauloirae') /* Name */
      , (21377,  15, 'An obsidian shield enhanced to defend against the piercing attacks of olthoi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21377,   1,   33557964) /* Setup */
-     , (21377,   3,  536870932) /* SoundTable */
-     , (21377,   8,  100673491) /* Icon */
-     , (21377,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21377,   1, 0x02000DCC) /* Setup */
+     , (21377,   3, 0x20000014) /* SoundTable */
+     , (21377,   8, 0x060027D3) /* Icon */
+     , (21377,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21377, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (21377, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21377, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21377, 8000, 2554984539) /* PCAPRecordedObjectIID */;
+VALUES (21377, 8000, 0x9849F85B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21377,   243,      2)  /* InvulnerabilityOther5 */
-     , (21377,   514,      2)  /* AcidProtectionOther6 */
-     , (21377,  1119,      2)  /* BladeProtectionOther5 */
-     , (21377,  1144,      2)  /* PiercingProtectionOther6 */
+VALUES (21377,   514,      2)  /* AcidProtectionOther6 */
      , (21377,  1485,      2)  /* Impenetrability5 */
      , (21377,  1496,      2)  /* AcidBane4 */
      , (21377,  1560,      2)  /* BladeBane4 */
-     , (21377,  1572,      2)  /* PiercingBane4 */;
+     , (21377,  1119,      2)  /* BladeProtectionOther5 */
+     , (21377,  1572,      2)  /* PiercingBane4 */
+     , (21377,   243,      2)  /* InvulnerabilityOther5 */
+     , (21377,  1144,      2)  /* PiercingProtectionOther6 */;

@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29276,   1, 'Storm''s Enhancement') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29276,   1,   33554809) /* Setup */
-     , (29276,   3,  536870932) /* SoundTable */
-     , (29276,   8,  100686474) /* Icon */
-     , (29276,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29276,   1, 0x02000179) /* Setup */
+     , (29276,   3, 0x20000014) /* SoundTable */
+     , (29276,   8, 0x06005A8A) /* Icon */
+     , (29276,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29276, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (29276, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29276, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29276, 8000, 3707318680) /* PCAPRecordedObjectIID */;
+VALUES (29276, 8000, 0xDCF93198) /* PCAPRecordedObjectIID */;

@@ -22,16 +22,16 @@ VALUES (13120,   1, 'Qalaba''r Seaside Villas Portal') /* Name */
      , (13120, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13120,   1,   33554867) /* Setup */
-     , (13120,   2,  150994947) /* MotionTable */
-     , (13120,   8,  100667499) /* Icon */
+VALUES (13120,   1, 0x020001B3) /* Setup */
+     , (13120,   2, 0x09000003) /* MotionTable */
+     , (13120,   8, 0x0600106B) /* Icon */
      , (13120, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (13120, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (13120, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13120, 8040, 2501967928, 147.506, 180.852, 121.937, 0.545945, 0, 0, -0.837821) /* PCAPRecordedLocation */
+VALUES (13120, 8040, 0x95210038, 147.506, 180.852, 121.937, 0.545945, 0, 0, -0.837821) /* PCAPRecordedLocation */
 /* @teleloc 0x95210038 [147.506000 180.852000 121.937000] 0.545945 0.000000 0.000000 -0.837821 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13120, 8000, 2035421190) /* PCAPRecordedObjectIID */;
+VALUES (13120, 8000, 0x79521006) /* PCAPRecordedObjectIID */;

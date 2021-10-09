@@ -25,22 +25,22 @@ VALUES (30648,   1, 'Drudge Aviator') /* Name */
      , (30648, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30648,   1,   33556445) /* Setup */
-     , (30648,   2,  150994952) /* MotionTable */
-     , (30648,   3,  536870919) /* SoundTable */
-     , (30648,   6,   67112812) /* PaletteBase */
-     , (30648,   8,  100667445) /* Icon */
-     , (30648,  22,  872415258) /* PhysicsEffectTable */
+VALUES (30648,   1, 0x020007DD) /* Setup */
+     , (30648,   2, 0x09000008) /* MotionTable */
+     , (30648,   3, 0x20000007) /* SoundTable */
+     , (30648,   6, 0x04000F6C) /* PaletteBase */
+     , (30648,   8, 0x06001035) /* Icon */
+     , (30648,  22, 0x3400001A) /* PhysicsEffectTable */
      , (30648, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (30648, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (30648, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30648, 8040, 1048871, 147.707, -9.75788, -29.99545, 0.6871832, 0, 0, 0.7264842) /* PCAPRecordedLocation */
+VALUES (30648, 8040, 0x00100127, 147.707, -9.75788, -29.99545, 0.687183, 0, 0, 0.726484) /* PCAPRecordedLocation */
 /* @teleloc 0x00100127 [147.707000 -9.757880 -29.995450] 0.687183 0.000000 0.000000 0.726484 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30648, 8000, 3695412735) /* PCAPRecordedObjectIID */;
+VALUES (30648, 8000, 0xDC4385FF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (30648,   1,     0, 0, 0, 503) /* MaxHealth */;

@@ -18,18 +18,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5881,   1, 'The Book of Minesh') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5881,   1,   33559084) /* Setup */
-     , (5881,   3,  536870932) /* SoundTable */
-     , (5881,   6,   67112626) /* PaletteBase */
-     , (5881,   8,  100668117) /* Icon */
-     , (5881,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5881,   1, 0x0200122C) /* Setup */
+     , (5881,   3, 0x20000014) /* SoundTable */
+     , (5881,   6, 0x04000EB2) /* PaletteBase */
+     , (5881,   8, 0x060012D5) /* Icon */
+     , (5881,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5881, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (5881, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (5881, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (5881, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5881, 8000,       5881) /* PCAPRecordedObjectIID */;
+VALUES (5881, 8000, 0x000016F9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5881, 67113862, 0, 0);

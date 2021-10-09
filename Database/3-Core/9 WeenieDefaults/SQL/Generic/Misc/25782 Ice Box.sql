@@ -20,17 +20,17 @@ VALUES (25782,   1, 'Ice Box') /* Name */
      , (25782,  16, 'A frozen box that emanates cold. You have no idea what it could be used for other than to keep your house cool during the summer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25782,   1,   33558515) /* Setup */
-     , (25782,   3,  536870932) /* SoundTable */
-     , (25782,   8,  100675519) /* Icon */
-     , (25782,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25782,   1, 0x02000FF3) /* Setup */
+     , (25782,   3, 0x20000014) /* SoundTable */
+     , (25782,   8, 0x06002FBF) /* Icon */
+     , (25782,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25782, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
      , (25782, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25782, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25782, 8040, 23855548, 53.96395, -33.56124, -0.002161026, 0.3291451, 0, 0, -0.9442794) /* PCAPRecordedLocation */
+VALUES (25782, 8040, 0x016C01BC, 53.96395, -33.56124, -0.002161, 0.329145, 0, 0, -0.944279) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [53.963950 -33.561240 -0.002161] 0.329145 0.000000 0.000000 -0.944279 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25782, 8000, 3679207494) /* PCAPRecordedObjectIID */;
+VALUES (25782, 8000, 0xDB4C4046) /* PCAPRecordedObjectIID */;

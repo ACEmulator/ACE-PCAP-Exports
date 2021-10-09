@@ -23,16 +23,16 @@ VALUES (7246,   1, 'Black Spawn Den') /* Name */
      , (7246, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7246,   1,   33555923) /* Setup */
-     , (7246,   2,  150994947) /* MotionTable */
-     , (7246,   8,  100667499) /* Icon */
+VALUES (7246,   1, 0x020005D3) /* Setup */
+     , (7246,   2, 0x09000003) /* MotionTable */
+     , (7246,   8, 0x0600106B) /* Icon */
      , (7246, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (7246, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (7246, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7246, 8040, 926154779, 75.3624, 71.714, 81.3766, 0.9726236, 0, 0, 0.2323859) /* PCAPRecordedLocation */
+VALUES (7246, 8040, 0x3734001B, 75.3624, 71.714, 81.3766, 0.972624, 0, 0, 0.232386) /* PCAPRecordedLocation */
 /* @teleloc 0x3734001B [75.362400 71.714000 81.376600] 0.972624 0.000000 0.000000 0.232386 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7246, 8000, 1936932864) /* PCAPRecordedObjectIID */;
+VALUES (7246, 8000, 0x73734000) /* PCAPRecordedObjectIID */;

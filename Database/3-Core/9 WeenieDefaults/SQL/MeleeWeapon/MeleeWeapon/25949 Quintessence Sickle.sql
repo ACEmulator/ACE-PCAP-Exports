@@ -48,21 +48,21 @@ VALUES (25949,   1, 'Quintessence Sickle') /* Name */
      , (25949,  16, 'A strange glowing sickle that crackles with energy.  Its unusually sharp edge seems as if it could inflict devastating wounds.  (uses Axe skill)') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25949,   1,   33558568) /* Setup */
-     , (25949,   3,  536870932) /* SoundTable */
-     , (25949,   8,  100675660) /* Icon */
-     , (25949,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25949,   1, 0x02001028) /* Setup */
+     , (25949,   3, 0x20000014) /* SoundTable */
+     , (25949,   8, 0x0600304C) /* Icon */
+     , (25949,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25949,  30,         88) /* PhysicsScript - Create */
      , (25949, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (25949, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25949, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25949, 8000, 3681314998) /* PCAPRecordedObjectIID */;
+VALUES (25949, 8000, 0xDB6C68B6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25949,   321,      2)  /* DaggerMasteryOther6 */
-     , (25949,  1592,      2)  /* HeartSeekerSelf6 */
+VALUES (25949,   321,      2)  /* FinesseWeaponsMasteryOther6 */
      , (25949,  1616,      2)  /* BloodDrinkerSelf6 */
      , (25949,  1625,      2)  /* SwiftKillerSelf4 */
-     , (25949,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;
+     , (25949,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (25949,  1592,      2)  /* HeartSeekerSelf6 */;

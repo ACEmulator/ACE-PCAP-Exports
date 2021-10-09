@@ -11,7 +11,7 @@ VALUES (27343,   1,        256) /* ItemType - MissileWeapon */
      , (27343,  18,          1) /* UiEffects - Magical */
      , (27343,  19,      20000) /* Value */
      , (27343,  50,          1) /* AmmoType - Arrow */
-     , (27343,  51,          2) /* CombatUse - Missle */
+     , (27343,  51,          2) /* CombatUse - Missile */
      , (27343,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27343, 151,          2) /* HookType - Wall */
      , (27343, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -23,16 +23,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27343,   1, 'Palenqual''s Panaq of the Vortex') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27343,   1,   33558662) /* Setup */
-     , (27343,   3,  536870932) /* SoundTable */
-     , (27343,   8,  100676380) /* Icon */
-     , (27343,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27343,   1, 0x02001086) /* Setup */
+     , (27343,   3, 0x20000014) /* SoundTable */
+     , (27343,   8, 0x0600331C) /* Icon */
+     , (27343,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27343, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27343, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27343, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27343, 8000, 2283993202) /* PCAPRecordedObjectIID */;
+VALUES (27343, 8000, 0x8822F872) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (27343, 0, 83893670, 83893670)

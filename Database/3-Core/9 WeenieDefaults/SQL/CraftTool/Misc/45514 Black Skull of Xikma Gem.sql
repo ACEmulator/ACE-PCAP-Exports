@@ -23,18 +23,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45514,   1, 'Black Skull of Xikma Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45514,   1,   33556769) /* Setup */
-     , (45514,   3,  536870932) /* SoundTable */
-     , (45514,   6,   67111919) /* PaletteBase */
-     , (45514,   8,  100673039) /* Icon */
-     , (45514,  22,  872415275) /* PhysicsEffectTable */
-     , (45514,  50,  100689143) /* IconOverlay */
+VALUES (45514,   1, 0x02000921) /* Setup */
+     , (45514,   3, 0x20000014) /* SoundTable */
+     , (45514,   6, 0x04000BEF) /* PaletteBase */
+     , (45514,   8, 0x0600260F) /* Icon */
+     , (45514,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45514,  50, 0x060064F7) /* IconOverlay */
      , (45514, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (45514, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45514, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45514, 8000, 2639828573) /* PCAPRecordedObjectIID */;
+VALUES (45514, 8000, 0x9D58965D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45514, 67111927, 0, 0);

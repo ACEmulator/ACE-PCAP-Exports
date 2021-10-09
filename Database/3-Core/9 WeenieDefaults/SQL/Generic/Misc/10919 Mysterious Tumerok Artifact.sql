@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10919,   1, 'Mysterious Tumerok Artifact') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10919,   1,   33558336) /* Setup */
-     , (10919,   3,  536870932) /* SoundTable */
-     , (10919,   8,  100674302) /* Icon */
-     , (10919,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10919,   1, 0x02000F40) /* Setup */
+     , (10919,   3, 0x20000014) /* SoundTable */
+     , (10919,   8, 0x06002AFE) /* Icon */
+     , (10919,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10919, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (10919, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10919, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10919, 8000, 3621813051) /* PCAPRecordedObjectIID */;
+VALUES (10919, 8000, 0xD7E07B3B) /* PCAPRecordedObjectIID */;

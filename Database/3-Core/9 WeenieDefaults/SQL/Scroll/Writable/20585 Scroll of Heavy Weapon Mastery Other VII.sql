@@ -24,13 +24,13 @@ VALUES (20585,   1, 'Scroll of Heavy Weapon Mastery Other VII') /* Name */
 Increases the target''s Heavy Weapons skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20585,   1,   33554826) /* Setup */
-     , (20585,   8,  100692254) /* Icon */
-     , (20585,  22,  872415275) /* PhysicsEffectTable */
-     , (20585,  28,       2308) /* Spell - SwordMasteryOther7 */
+VALUES (20585,   1, 0x0200018A) /* Setup */
+     , (20585,   8, 0x0600711E) /* Icon */
+     , (20585,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20585,  28,       2308) /* Spell - HeavyWeaponsMasteryOther7 */
      , (20585, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20585, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20585, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20585, 8000, 3706743564) /* PCAPRecordedObjectIID */;
+VALUES (20585, 8000, 0xDCF06B0C) /* PCAPRecordedObjectIID */;

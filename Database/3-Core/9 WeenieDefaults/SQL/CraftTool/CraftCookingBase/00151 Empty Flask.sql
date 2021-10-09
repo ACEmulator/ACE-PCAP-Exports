@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (151,   1, 'Empty Flask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (151,   1,   33554603) /* Setup */
-     , (151,   3,  536870932) /* SoundTable */
-     , (151,   6,   67111919) /* PaletteBase */
-     , (151,   8,  100668657) /* Icon */
-     , (151,  22,  872415275) /* PhysicsEffectTable */
+VALUES (151,   1, 0x020000AB) /* Setup */
+     , (151,   3, 0x20000014) /* SoundTable */
+     , (151,   6, 0x04000BEF) /* PaletteBase */
+     , (151,   8, 0x060014F1) /* Icon */
+     , (151,  22, 0x3400002B) /* PhysicsEffectTable */
      , (151, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (151, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (151, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (151, 8000, 3711177792) /* PCAPRecordedObjectIID */;
+VALUES (151, 8000, 0xDD341440) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (151, 67111927, 0, 0);

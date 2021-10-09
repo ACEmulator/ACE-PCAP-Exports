@@ -27,17 +27,17 @@ VALUES (15854,   1, 'Unreadable Tome') /* Name */
      , (15854,  16, 'A tome. The pages of this book have been hastily placed within the binding. The first page shows the picture of an altar, or dias') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15854,   1,   33556929) /* Setup */
-     , (15854,   3,  536870932) /* SoundTable */
-     , (15854,   6,   67113005) /* PaletteBase */
-     , (15854,   8,  100672803) /* Icon */
-     , (15854,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15854,   1, 0x020009C1) /* Setup */
+     , (15854,   3, 0x20000014) /* SoundTable */
+     , (15854,   6, 0x0400102D) /* PaletteBase */
+     , (15854,   8, 0x06002523) /* Icon */
+     , (15854,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15854, 8001,    2637840) /* PCAPRecordedWeenieHeader - Usable, Container, TargetType, Burden */
      , (15854, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15854, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15854, 8000, 3709089726) /* PCAPRecordedObjectIID */;
+VALUES (15854, 8000, 0xDD1437BE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15854, 67111923, 0, 0);

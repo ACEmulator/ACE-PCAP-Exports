@@ -8,7 +8,6 @@ VALUES (4222,   1,          2) /* ItemType - Armor */
      , (4222,   4,       8192) /* ClothingPriority - OuterwearLowerArms */
      , (4222,   5,        420) /* EncumbranceVal */
      , (4222,   9,         16) /* ValidLocations - LowerArmWear */
-     , (4222,  10,         16) /* CurrentWieldedLocation - LowerArmWear */
      , (4222,  16,          1) /* ItemUseable - No */
      , (4222,  19,        150) /* Value */
      , (4222,  28,         50) /* ArmorLevel */
@@ -34,17 +33,17 @@ VALUES (4222,   1, 'Armoredillo Hide Bracers') /* Name */
      , (4222,  15, 'Bracers crafted from the hide of an Armoredillo.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4222,   1,   33554641) /* Setup */
-     , (4222,   3,  536870932) /* SoundTable */
-     , (4222,   6,   67108990) /* PaletteBase */
-     , (4222,   8,  100667364) /* Icon */
-     , (4222,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4222,   1, 0x020000D1) /* Setup */
+     , (4222,   3, 0x20000014) /* SoundTable */
+     , (4222,   6, 0x0400007E) /* PaletteBase */
+     , (4222,   8, 0x06000FE4) /* Icon */
+     , (4222,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4222, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (4222, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4222, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4222, 8000, 2166340514) /* PCAPRecordedObjectIID */;
+VALUES (4222, 8000, 0x811FBBA2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4222, 67110367, 108, 8)

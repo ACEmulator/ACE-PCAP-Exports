@@ -21,13 +21,13 @@ VALUES (36916,   1, 'Snow Drift') /* Name */
      , (36916,  16, 'A bag of magic "no-melt" snow to be piled up anywhere you like.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36916,   1,   33560429) /* Setup */
-     , (36916,   3,  536870932) /* SoundTable */
-     , (36916,   8,  100689794) /* Icon */
-     , (36916,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36916,   1, 0x0200176D) /* Setup */
+     , (36916,   3, 0x20000014) /* SoundTable */
+     , (36916,   8, 0x06006782) /* Icon */
+     , (36916,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36916, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (36916, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36916, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36916, 8000, 2192312332) /* PCAPRecordedObjectIID */;
+VALUES (36916, 8000, 0x82AC080C) /* PCAPRecordedObjectIID */;

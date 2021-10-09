@@ -53,18 +53,18 @@ VALUES (31775,   1, 'Acid Board with Nail') /* Name */
      , (31775,  16, 'Acid Board with Nail of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31775,   1,   33559657) /* Setup */
-     , (31775,   3,  536870932) /* SoundTable */
-     , (31775,   6,   67116700) /* PaletteBase */
-     , (31775,   8,  100688094) /* Icon */
-     , (31775,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31775,   1, 0x02001469) /* Setup */
+     , (31775,   3, 0x20000014) /* SoundTable */
+     , (31775,   6, 0x04001E9C) /* PaletteBase */
+     , (31775,   8, 0x060060DE) /* Icon */
+     , (31775,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31775,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (31775, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31775, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31775, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31775, 8000, 3682577390) /* PCAPRecordedObjectIID */;
+VALUES (31775, 8000, 0xDB7FABEE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31775,  1616,      2)  /* BloodDrinkerSelf6 */;

@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8318,   1, 'Powdered Carnelian Pea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8318,   1,   33555208) /* Setup */
-     , (8318,   3,  536870932) /* SoundTable */
-     , (8318,   6,   67111919) /* PaletteBase */
-     , (8318,   8,  100671073) /* Icon */
-     , (8318,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8318,   1, 0x02000308) /* Setup */
+     , (8318,   3, 0x20000014) /* SoundTable */
+     , (8318,   6, 0x04000BEF) /* PaletteBase */
+     , (8318,   8, 0x06001E61) /* Icon */
+     , (8318,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8318, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8318, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8318, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8318, 8000, 3695853958) /* PCAPRecordedObjectIID */;
+VALUES (8318, 8000, 0xDC4A4186) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8318, 67111922, 0, 0);

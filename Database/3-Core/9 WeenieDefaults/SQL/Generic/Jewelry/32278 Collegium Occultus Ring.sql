@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32278,   1,          8) /* ItemType - Jewelry */
      , (32278,   5,         80) /* EncumbranceVal */
      , (32278,   9,     786432) /* ValidLocations - FingerWear */
-     , (32278,  10,     262144) /* CurrentWieldedLocation - FingerWearLeft */
      , (32278,  16,          1) /* ItemUseable - No */
      , (32278,  18,          1) /* UiEffects - Magical */
      , (32278,  19,       8000) /* Value */
@@ -33,18 +32,18 @@ VALUES (32278,   1, 'Collegium Occultus Ring') /* Name */
      , (32278,  15, 'A ring that once belonged to one of the senior faculty of the Collegium Occultus of the Knorr Lyceum.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32278,   1,   33554691) /* Setup */
-     , (32278,   3,  536870932) /* SoundTable */
-     , (32278,   8,  100688502) /* Icon */
-     , (32278,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32278,   1, 0x02000103) /* Setup */
+     , (32278,   3, 0x20000014) /* SoundTable */
+     , (32278,   8, 0x06006276) /* Icon */
+     , (32278,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32278, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (32278, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32278, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32278, 8000, 2461694618) /* PCAPRecordedObjectIID */;
+VALUES (32278, 8000, 0x92BA7A9A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32278,  2091,      2)  /* WillpowerSelf7 */
-     , (32278,  2281,      2)  /* MagicResistanceSelf7 */
+VALUES (32278,  2281,      2)  /* MagicResistanceSelf7 */
+     , (32278,  2091,      2)  /* WillpowerSelf7 */
      , (32278,  2615,      2)  /* CANTRIPSTORMWARD2 */;

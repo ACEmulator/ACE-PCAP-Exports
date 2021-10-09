@@ -24,13 +24,13 @@ VALUES (3313,   1, 'Scroll of Item Enchantment Mastery Self II') /* Name */
 Increases the caster''s Item Enchantment skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3313,   1,   33554826) /* Setup */
-     , (3313,   8,  100676460) /* Icon */
-     , (3313,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3313,   1, 0x0200018A) /* Setup */
+     , (3313,   8, 0x0600336C) /* Icon */
+     , (3313,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3313,  28,        582) /* Spell - ItemEnchantmentMasterySelf2 */
      , (3313, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3313, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3313, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3313, 8000, 3629569286) /* PCAPRecordedObjectIID */;
+VALUES (3313, 8000, 0xD856D506) /* PCAPRecordedObjectIID */;

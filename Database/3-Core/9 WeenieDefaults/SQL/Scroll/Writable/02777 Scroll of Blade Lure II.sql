@@ -24,13 +24,13 @@ VALUES (2777,   1, 'Scroll of Blade Lure II') /* Name */
 Decreases a shield or piece of armor''s resistance to slashing damage by 25%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2777,   1,   33554826) /* Setup */
-     , (2777,   8,  100676664) /* Icon */
-     , (2777,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2777,   1, 0x0200018A) /* Setup */
+     , (2777,   8, 0x06003438) /* Icon */
+     , (2777,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2777,  28,       1553) /* Spell - BladeLure2 */
      , (2777, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2777, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2777, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2777, 8000, 2624543153) /* PCAPRecordedObjectIID */;
+VALUES (2777, 8000, 0x9C6F59B1) /* PCAPRecordedObjectIID */;

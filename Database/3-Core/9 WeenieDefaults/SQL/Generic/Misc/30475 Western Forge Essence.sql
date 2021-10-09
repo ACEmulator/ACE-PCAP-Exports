@@ -21,13 +21,13 @@ VALUES (30475,   1, 'Western Forge Essence') /* Name */
      , (30475,  16, 'An essence taken from the Western Power Forge.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30475,   1,   33554769) /* Setup */
-     , (30475,   3,  536870932) /* SoundTable */
-     , (30475,   8,  100677348) /* Icon */
-     , (30475,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30475,   1, 0x02000151) /* Setup */
+     , (30475,   3, 0x20000014) /* SoundTable */
+     , (30475,   8, 0x060036E4) /* Icon */
+     , (30475,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30475, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (30475, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30475, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30475, 8000, 2447689555) /* PCAPRecordedObjectIID */;
+VALUES (30475, 8000, 0x91E4C753) /* PCAPRecordedObjectIID */;

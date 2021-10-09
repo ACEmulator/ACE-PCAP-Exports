@@ -25,22 +25,22 @@ VALUES (10810,   1, 'Rampager') /* Name */
      , (10810, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10810,   1,   33556836) /* Setup */
-     , (10810,   2,  150994956) /* MotionTable */
-     , (10810,   3,  536870929) /* SoundTable */
-     , (10810,   6,   67113007) /* PaletteBase */
-     , (10810,   8,  100667443) /* Icon */
-     , (10810,  22,  872415271) /* PhysicsEffectTable */
+VALUES (10810,   1, 0x02000964) /* Setup */
+     , (10810,   2, 0x0900000C) /* MotionTable */
+     , (10810,   3, 0x20000011) /* SoundTable */
+     , (10810,   6, 0x0400102F) /* PaletteBase */
+     , (10810,   8, 0x06001033) /* Icon */
+     , (10810,  22, 0x34000027) /* PhysicsEffectTable */
      , (10810, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (10810, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (10810, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10810, 8040, 2295857187, 115.2661, 51.07009, 139.058, 0.2657082, 0, 0, -0.9640535) /* PCAPRecordedLocation */
+VALUES (10810, 8040, 0x88D80023, 115.2661, 51.07009, 139.058, 0.265708, 0, 0, -0.964054) /* PCAPRecordedLocation */
 /* @teleloc 0x88D80023 [115.266100 51.070090 139.058000] 0.265708 0.000000 0.000000 -0.964054 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10810, 8000, 3685619137) /* PCAPRecordedObjectIID */;
+VALUES (10810, 8000, 0xDBAE15C1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10810,   1, 230, 0, 0) /* Strength */
@@ -249,7 +249,12 @@ VALUES (10810, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTrea
      , (10810, 9, 41037,  0, 0, 0, False) /* Create Acidic Weeping Two Handed Spear (41037) for ContainTreasure */
      , (10810, 9, 21100,  0, 0, 0, False) /* Create Scroll of Martyr's Hecatomb VI (21100) for ContainTreasure */
      , (10810, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
-     , (10810, 9, 41040,  0, 0, 0, False) /* Create Frost Assagai (41040) for ContainTreasure */;
+     , (10810, 9, 41040,  0, 0, 0, False) /* Create Frost Assagai (41040) for ContainTreasure */
+     , (10810, 9, 41042,  0, 0, 0, False) /* Create Acid Magari Yari (41042) for ContainTreasure */
+     , (10810, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (10810, 9, 31768,  0, 0, 0, False) /* Create Frost War Axe (31768) for ContainTreasure */
+     , (10810, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
+     , (10810, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10810, 67113224, 0, 0);

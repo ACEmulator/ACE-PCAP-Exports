@@ -1,19 +1,19 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x5878;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75878000, 51772, 0x58780121, 70, -250, -60.063, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Portal */
+VALUES (0x75878000, 51772, 0x58780121, 70, -250, -60.063, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Portal */
 /* @teleloc 0x58780121 [70.000000 -250.000000 -60.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75878002, 51770, 0x587801BC, 240, -160, -36.063, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Portal */
+VALUES (0x75878002, 51770, 0x587801BC, 240, -160, -36.063, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Portal */
 /* @teleloc 0x587801BC [240.000000 -160.000000 -36.063000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75878005, 51768, 0x58780286, 130, -90, -18.063, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Portal */
+VALUES (0x75878005, 51768, 0x58780286, 130, -90, -18.063, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Portal */
 /* @teleloc 0x58780286 [130.000000 -90.000000 -18.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75878008, 51766, 0x587802F4, 220, -450, -0.06299996, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Portal */
+VALUES (0x75878008, 51766, 0x587802F4, 220, -450, -0.063, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Portal */
 /* @teleloc 0x587802F4 [220.000000 -450.000000 -0.063000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -69,11 +69,11 @@ VALUES (0x7587802F, 51764, 0x58780100, 310, -320, -66.063, 1, 0, 0, 0, False, '2
 /* @teleloc 0x58780100 [310.000000 -320.000000 -66.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587805D, 51764, 0x58780150, 176.964, -240, -60.063, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x7587805D, 51764, 0x58780150, 176.964, -240, -60.063, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x58780150 [176.964000 -240.000000 -60.063000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587806F, 51764, 0x58780205, 290, -13.0404, -36.063, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x7587806F, 51764, 0x58780205, 290, -13.0404, -36.063, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x58780205 [290.000000 -13.040400 -36.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -85,11 +85,11 @@ VALUES (0x75878095,  5624, 0x58780101, 4.75, -270, -60, -0.707107, 0, 0, 0.70710
 /* @teleloc 0x58780101 [4.750000 -270.000000 -60.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75878096,  5624, 0x58780112, 40, -195.25, -60, -1, 0, 0, 4.37114E-08, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x75878096,  5624, 0x58780112, 40, -195.25, -60, -1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x58780112 [40.000000 -195.250000 -60.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75878097,  5624, 0x58780117, 40, -245.25, -60, -1, 0, 0, 4.37114E-08, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x75878097,  5624, 0x58780117, 40, -245.25, -60, -1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x58780117 [40.000000 -245.250000 -60.000000] -1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -117,7 +117,7 @@ VALUES (0x7587809D,  5624, 0x58780133, 85.25, -300, -60, -0.707107, 0, 0, -0.707
 /* @teleloc 0x58780133 [85.250000 -300.000000 -60.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7587809E,  5624, 0x58780138, 100, -184.75, -60, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+VALUES (0x7587809E,  5624, 0x58780138, 100, -184.75, -60, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x58780138 [100.000000 -184.750000 -60.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

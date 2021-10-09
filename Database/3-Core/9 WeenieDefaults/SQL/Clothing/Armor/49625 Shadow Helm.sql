@@ -8,7 +8,6 @@ VALUES (49625,   1,          2) /* ItemType - Armor */
      , (49625,   4,      16384) /* ClothingPriority - Head */
      , (49625,   5,        666) /* EncumbranceVal */
      , (49625,   9,          1) /* ValidLocations - HeadWear */
-     , (49625,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (49625,  16,          1) /* ItemUseable - No */
      , (49625,  19,       1000) /* Value */
      , (49625,  28,        460) /* ArmorLevel */
@@ -39,17 +38,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49625,   1, 'Shadow Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49625,   1,   33555048) /* Setup */
-     , (49625,   3,  536870932) /* SoundTable */
-     , (49625,   6,   67108990) /* PaletteBase */
-     , (49625,   8,  100691726) /* Icon */
-     , (49625,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49625,   1, 0x02000268) /* Setup */
+     , (49625,   3, 0x20000014) /* SoundTable */
+     , (49625,   6, 0x0400007E) /* PaletteBase */
+     , (49625,   8, 0x06006F0E) /* Icon */
+     , (49625,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49625, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (49625, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (49625, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49625, 8000, 2315814824) /* PCAPRecordedObjectIID */;
+VALUES (49625, 8000, 0x8A0887A8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49625, 67112917, 240, 10)

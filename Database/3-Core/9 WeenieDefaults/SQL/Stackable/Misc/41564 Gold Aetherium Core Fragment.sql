@@ -18,7 +18,8 @@ VALUES (41564,   1,        128) /* ItemType - Misc */
      , (41564, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41564,  22, True ) /* Inscribable */;
+VALUES (41564,  22, True ) /* Inscribable */
+     , (41564,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41564,   1, 'Gold Aetherium Core Fragment') /* Name */
@@ -26,13 +27,13 @@ VALUES (41564,   1, 'Gold Aetherium Core Fragment') /* Name */
      , (41564,  16, 'A complicated amalgamation of Aetherium ore and forged metal parts, apparently part of the power core of some kind of mechanical creature.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41564,   1,   33560863) /* Setup */
-     , (41564,   3,  536870932) /* SoundTable */
-     , (41564,   8,  100690568) /* Icon */
-     , (41564,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41564,   1, 0x0200191F) /* Setup */
+     , (41564,   3, 0x20000014) /* SoundTable */
+     , (41564,   8, 0x06006A88) /* Icon */
+     , (41564,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41564, 8001,    2125968) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (41564, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41564, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41564, 8000, 2880967543) /* PCAPRecordedObjectIID */;
+VALUES (41564, 8000, 0xABB81377) /* PCAPRecordedObjectIID */;

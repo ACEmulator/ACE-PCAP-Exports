@@ -14,7 +14,7 @@ VALUES (3787,   1,        256) /* ItemType - MissileWeapon */
      , (3787,  16,          1) /* ItemUseable - No */
      , (3787,  18,         64) /* UiEffects - Lightning */
      , (3787,  19,          4) /* Value */
-     , (3787,  51,          2) /* CombatUse - Missle */
+     , (3787,  51,          2) /* CombatUse - Missile */
      , (3787,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (3787, 151,          2) /* HookType - Wall */
      , (3787, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -28,18 +28,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3787,   1, 'Throwing Lightning Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3787,   1,   33556223) /* Setup */
-     , (3787,   3,  536870932) /* SoundTable */
-     , (3787,   6,   67111928) /* PaletteBase */
-     , (3787,   8,  100667591) /* Icon */
-     , (3787,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3787,   1, 0x020006FF) /* Setup */
+     , (3787,   3, 0x20000014) /* SoundTable */
+     , (3787,   6, 0x04000BF8) /* PaletteBase */
+     , (3787,   8, 0x060010C7) /* Icon */
+     , (3787,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3787, 8001,  270627480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (3787, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (3787, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */
      , (3787, 8044,       5762) /* PCAPPhysicsDIDDataTemplatedFrom - Snowball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3787, 8000,       3787) /* PCAPRecordedObjectIID */;
+VALUES (3787, 8000, 0x00000ECB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3787, 67112640, 0, 0);

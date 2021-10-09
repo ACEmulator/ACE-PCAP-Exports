@@ -21,16 +21,16 @@ VALUES (34011,   1, 'Crypt of Crimson Night') /* Name */
      , (34011, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34011,   1,   33555925) /* Setup */
-     , (34011,   2,  150994947) /* MotionTable */
-     , (34011,   8,  100667499) /* Icon */
+VALUES (34011,   1, 0x020005D5) /* Setup */
+     , (34011,   2, 0x09000003) /* MotionTable */
+     , (34011,   8, 0x0600106B) /* Icon */
      , (34011, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (34011, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (34011, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34011, 8040, 2307784960, 132, 176, 71.592, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34011, 8040, 0x898E0100, 132, 176, 71.592, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x898E0100 [132.000000 176.000000 71.592000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34011, 8000, 2023284736) /* PCAPRecordedObjectIID */;
+VALUES (34011, 8000, 0x7898E000) /* PCAPRecordedObjectIID */;

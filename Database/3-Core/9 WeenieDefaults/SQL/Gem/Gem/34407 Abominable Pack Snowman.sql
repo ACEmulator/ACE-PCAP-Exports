@@ -26,17 +26,17 @@ VALUES (34407,   1, 'Abominable Pack Snowman') /* Name */
      , (34407, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34407,   1,   33559810) /* Setup */
-     , (34407,   2,  150995354) /* MotionTable */
-     , (34407,   8,  100689297) /* Icon */
-     , (34407,  22,  872415346) /* PhysicsEffectTable */
+VALUES (34407,   1, 0x02001502) /* Setup */
+     , (34407,   2, 0x0900019A) /* MotionTable */
+     , (34407,   8, 0x06006591) /* Icon */
+     , (34407,  22, 0x34000072) /* PhysicsEffectTable */
      , (34407, 8001,  271056920) /* PCAPRecordedWeenieHeader - Value, Usable, TargetType, Burden, HookType */
      , (34407, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34407, 8005,     102531) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34407, 8040, 19202318, 32.21521, -26.08177, 0, -0.8056365, 0, 0, -0.5924101) /* PCAPRecordedLocation */
+VALUES (34407, 8040, 0x0125010E, 32.21521, -26.08177, 0, -0.805637, 0, 0, -0.59241) /* PCAPRecordedLocation */
 /* @teleloc 0x0125010E [32.215210 -26.081770 0.000000] -0.805637 0.000000 0.000000 -0.592410 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34407, 8000, 2880567416) /* PCAPRecordedObjectIID */;
+VALUES (34407, 8000, 0xABB1F878) /* PCAPRecordedObjectIID */;

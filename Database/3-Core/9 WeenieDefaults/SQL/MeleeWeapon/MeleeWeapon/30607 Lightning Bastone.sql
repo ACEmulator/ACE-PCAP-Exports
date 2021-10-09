@@ -53,27 +53,27 @@ VALUES (30607,   1, 'Lightning Bastone') /* Name */
      , (30607,  16, 'Lightning Bastone of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30607,   1,   33559497) /* Setup */
-     , (30607,   3,  536870932) /* SoundTable */
-     , (30607,   6,   67116428) /* PaletteBase */
-     , (30607,   8,  100687025) /* Icon */
-     , (30607,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30607,   1, 0x020013C9) /* Setup */
+     , (30607,   3, 0x20000014) /* SoundTable */
+     , (30607,   6, 0x04001D8C) /* PaletteBase */
+     , (30607,   8, 0x06005CB1) /* Icon */
+     , (30607,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30607,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (30607,  52,  100676438) /* IconUnderlay */
+     , (30607,  52, 0x06003356) /* IconUnderlay */
      , (30607, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30607, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30607, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30607, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30607, 8000, 2174255188) /* PCAPRecordedObjectIID */;
+VALUES (30607, 8000, 0x81988054) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30607,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (30607,  4400,      2)  /* DefenderSelf8 */
-     , (30607,  4405,      2)  /* HeartSeekerSelf8 */
+VALUES (30607,  6100,      2)  /* CantripSwiftHunter4 */
      , (30607,  4708,      2)  /* CANTRIPSALVAGING3 */
-     , (30607,  6100,      2)  /* CantripSwiftHunter4 */;
+     , (30607,  4400,      2)  /* DefenderSelf8 */
+     , (30607,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (30607,  4405,      2)  /* HeartSeekerSelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30607, 67116438, 0, 0);

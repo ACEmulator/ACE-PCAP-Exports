@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46236,   1, 'Enhanced Flaming Isparian Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46236,   1,   33556369) /* Setup */
-     , (46236,   3,  536870932) /* SoundTable */
-     , (46236,   6,   67111919) /* PaletteBase */
-     , (46236,   8,  100672931) /* Icon */
-     , (46236,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46236,   1, 0x02000791) /* Setup */
+     , (46236,   3, 0x20000014) /* SoundTable */
+     , (46236,   6, 0x04000BEF) /* PaletteBase */
+     , (46236,   8, 0x060025A3) /* Icon */
+     , (46236,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46236, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46236, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46236, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46236, 8000, 2148597906) /* PCAPRecordedObjectIID */;
+VALUES (46236, 8000, 0x80110092) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46236, 67111924, 0, 0);

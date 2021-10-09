@@ -23,24 +23,24 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23340,   1, 'Fishing Sign') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23340,   1,   33555088) /* Setup */
-     , (23340,   8,  100668115) /* Icon */
+VALUES (23340,   1, 0x02000290) /* Setup */
+     , (23340,   8, 0x060012D3) /* Icon */
      , (23340, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (23340, 8003,        276) /* PCAPRecordedObjectDesc - Stuck, Attackable, Book */
      , (23340, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23340, 8040, 3829202975, 75.0042, 153.852, 120, 0.913668, 0, 0, -0.406461) /* PCAPRecordedLocation */
+VALUES (23340, 8040, 0xE43D001F, 75.0042, 153.852, 120, 0.913668, 0, 0, -0.406461) /* PCAPRecordedLocation */
 /* @teleloc 0xE43D001F [75.004200 153.852000 120.000000] 0.913668 0.000000 0.000000 -0.406461 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23340, 8000, 2118373392) /* PCAPRecordedObjectIID */;
+VALUES (23340, 8000, 0x7E43D010) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (23340, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (23340, 0, 4294967295, ' ', 'Password is cheese', False, '
+VALUES (23340, 0, 4294967295, ' ', 'prewritten', False, '
 Fishing License: C Note  (See TackleMaster)
 
 Fishing Rewards:      (Caught)

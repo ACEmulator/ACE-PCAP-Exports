@@ -24,13 +24,13 @@ VALUES (6002,   1, 'Scroll of Flame Bolt VI') /* Name */
 Shoots a bolt of flame at the target.  The bolt does 84-168 points of fire damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6002,   1,   33554826) /* Setup */
-     , (6002,   8,  100677022) /* Icon */
-     , (6002,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6002,   1, 0x0200018A) /* Setup */
+     , (6002,   8, 0x0600359E) /* Icon */
+     , (6002,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6002,  28,         85) /* Spell - FlameBolt6 */
      , (6002, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (6002, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6002, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6002, 8000, 3354821141) /* PCAPRecordedObjectIID */;
+VALUES (6002, 8000, 0xC7F68215) /* PCAPRecordedObjectIID */;

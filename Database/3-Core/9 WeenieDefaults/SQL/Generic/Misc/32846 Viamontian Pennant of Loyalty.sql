@@ -23,14 +23,14 @@ VALUES (32846,   1, 'Viamontian Pennant of Loyalty') /* Name */
      , (32846,  15, 'A banner of the Viamontian kingdom, given to those who have performed a special service.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32846,   1,   33559833) /* Setup */
-     , (32846,   3,  536870932) /* SoundTable */
-     , (32846,   8,  100672980) /* Icon */
-     , (32846,  22,  872415275) /* PhysicsEffectTable */
-     , (32846,  50,  100688580) /* IconOverlay */
+VALUES (32846,   1, 0x02001519) /* Setup */
+     , (32846,   3, 0x20000014) /* SoundTable */
+     , (32846,   8, 0x060025D4) /* Icon */
+     , (32846,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32846,  50, 0x060062C4) /* IconOverlay */
      , (32846, 8001, 1344356408) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (32846, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (32846, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32846, 8000, 2447961846) /* PCAPRecordedObjectIID */;
+VALUES (32846, 8000, 0x91E8EEF6) /* PCAPRecordedObjectIID */;

@@ -15,7 +15,7 @@ VALUES (29925,   1,        256) /* ItemType - MissileWeapon */
      , (29925,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29925,  49,         45) /* WeaponTime */
      , (29925,  50,          1) /* AmmoType - Arrow */
-     , (29925,  51,          2) /* CombatUse - Missle */
+     , (29925,  51,          2) /* CombatUse - Missile */
      , (29925,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29925, 106,        275) /* ItemSpellcraft */
      , (29925, 107,        605) /* ItemCurMana */
@@ -50,20 +50,20 @@ VALUES (29925,   1, 'Regal Longbow') /* Name */
      , (29925,  25, 'Beale VI') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29925,   1,   33559058) /* Setup */
-     , (29925,   3,  536870932) /* SoundTable */
-     , (29925,   8,  100676976) /* Icon */
-     , (29925,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29925,   1, 0x02001212) /* Setup */
+     , (29925,   3, 0x20000014) /* SoundTable */
+     , (29925,   8, 0x06003570) /* Icon */
+     , (29925,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29925, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (29925, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29925, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29925, 8000, 2164207924) /* PCAPRecordedObjectIID */;
+VALUES (29925, 8000, 0x80FF3134) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29925,   243,      2)  /* InvulnerabilityOther5 */
+VALUES (29925,  1604,      2)  /* DefenderSelf5 */
      , (29925,  1359,      2)  /* EnduranceOther5 */
-     , (29925,  1604,      2)  /* DefenderSelf5 */
      , (29925,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (29925,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (29925,  1625,      2)  /* SwiftKillerSelf4 */
+     , (29925,   243,      2)  /* InvulnerabilityOther5 */;

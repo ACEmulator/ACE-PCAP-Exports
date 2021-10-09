@@ -23,22 +23,22 @@ VALUES (39182,   1, 'Patriarch''s Executioner') /* Name */
      , (39182, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39182,   1,   33558436) /* Setup */
-     , (39182,   2,  150994967) /* MotionTable */
-     , (39182,   3,  536870934) /* SoundTable */
-     , (39182,   6,   67114480) /* PaletteBase */
-     , (39182,   8,  100674805) /* Icon */
-     , (39182,  22,  872415272) /* PhysicsEffectTable */
+VALUES (39182,   1, 0x02000FA4) /* Setup */
+     , (39182,   2, 0x09000017) /* MotionTable */
+     , (39182,   3, 0x20000016) /* SoundTable */
+     , (39182,   6, 0x040015F0) /* PaletteBase */
+     , (39182,   8, 0x06002CF5) /* Icon */
+     , (39182,  22, 0x34000028) /* PhysicsEffectTable */
      , (39182, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (39182, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (39182, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (39182, 8040, 13304102, 40.5605, -27.1472, -29.991, -0.6214839, 0, 0, -0.7834269) /* PCAPRecordedLocation */
+VALUES (39182, 8040, 0x00CB0126, 40.5605, -27.1472, -29.991, -0.621484, 0, 0, -0.783427) /* PCAPRecordedLocation */
 /* @teleloc 0x00CB0126 [40.560500 -27.147200 -29.991000] -0.621484 0.000000 0.000000 -0.783427 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39182, 8000, 3332247635) /* PCAPRecordedObjectIID */;
+VALUES (39182, 8000, 0xC69E1053) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (39182, 2, 25500,  1, 0, 0, False) /* Create Khopesh (25500) for Wield */;

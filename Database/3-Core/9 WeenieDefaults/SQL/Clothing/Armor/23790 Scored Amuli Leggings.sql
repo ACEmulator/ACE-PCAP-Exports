@@ -8,7 +8,6 @@ VALUES (23790,   1,          2) /* ItemType - Armor */
      , (23790,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (23790,   5,       2288) /* EncumbranceVal */
      , (23790,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
-     , (23790,  10,      25600) /* CurrentWieldedLocation - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (23790,  16,          1) /* ItemUseable - No */
      , (23790,  18,        256) /* UiEffects - Acid */
      , (23790,  19,       3040) /* Value */
@@ -42,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23790,   1, 'Scored Amuli Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23790,   1,   33554856) /* Setup */
-     , (23790,   3,  536870932) /* SoundTable */
-     , (23790,   6,   67108990) /* PaletteBase */
-     , (23790,   8,  100674068) /* Icon */
-     , (23790,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23790,   1, 0x020001A8) /* Setup */
+     , (23790,   3, 0x20000014) /* SoundTable */
+     , (23790,   6, 0x0400007E) /* PaletteBase */
+     , (23790,   8, 0x06002A14) /* Icon */
+     , (23790,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23790, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (23790, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23790, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23790, 8000, 3331550891) /* PCAPRecordedObjectIID */;
+VALUES (23790, 8000, 0xC6936EAB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23790,  2609,      2)  /* CANTRIPACIDWARD2 */;

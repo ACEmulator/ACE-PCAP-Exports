@@ -20,17 +20,17 @@ VALUES (15784,   1, 'A Hastily Scrawled Note') /* Name */
      , (15784,  16, 'A note hastily written by Nuhmudira. A strange symbol is scribbled at the bottom.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15784,   1,   33554773) /* Setup */
-     , (15784,   3,  536870932) /* SoundTable */
-     , (15784,   8,  100672795) /* Icon */
-     , (15784,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15784,   1, 0x02000155) /* Setup */
+     , (15784,   3, 0x20000014) /* SoundTable */
+     , (15784,   8, 0x0600251B) /* Icon */
+     , (15784,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15784, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (15784, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15784, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15784, 8040, 1415775349, 68.2742, -97.636, 12.079, -0.9748526, 0, 0, -0.2228509) /* PCAPRecordedLocation */
+VALUES (15784, 8040, 0x54630475, 68.2742, -97.636, 12.079, -0.974853, 0, 0, -0.222851) /* PCAPRecordedLocation */
 /* @teleloc 0x54630475 [68.274200 -97.636000 12.079000] -0.974853 0.000000 0.000000 -0.222851 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15784, 8000, 3709071151) /* PCAPRecordedObjectIID */;
+VALUES (15784, 8000, 0xDD13EF2F) /* PCAPRecordedObjectIID */;

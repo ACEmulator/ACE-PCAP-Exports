@@ -24,24 +24,24 @@ VALUES (5141,   1, 'VIEW CONTROLS ') /* Name */
      , (5141,  16, 'Double-click this sign to read it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5141,   1,   33556014) /* Setup */
-     , (5141,   8,  100668115) /* Icon */
+VALUES (5141,   1, 0x0200062E) /* Setup */
+     , (5141,   8, 0x060012D3) /* Icon */
      , (5141, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (5141, 8003,        276) /* PCAPRecordedObjectDesc - Stuck, Attackable, Book */
      , (5141, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5141, 8040, 2248343985, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414) /* PCAPRecordedLocation */
+VALUES (5141, 8040, 0x860301B1, 22.0097, -29.3625, 0, 0.711769, 0, 0, -0.702414) /* PCAPRecordedLocation */
 /* @teleloc 0x860301B1 [22.009700 -29.362500 0.000000] 0.711769 0.000000 0.000000 -0.702414 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5141, 8000, 2019569706) /* PCAPRecordedObjectIID */;
+VALUES (5141, 8000, 0x7860302A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5141, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (5141, 0, 4294967295, 'Training Master', 'Password is cheese', False, '
+VALUES (5141, 0, 4294967295, 'Training Master', 'prewritten', False, '
 You can hold down the MOUSE WHEEL BUTTON and drag your mouse to change your view.
 
 On your NUMERIC KEYPAD, the [Keypad 0] key resets your view, and [Keypad .] key shifts to a first-person view.

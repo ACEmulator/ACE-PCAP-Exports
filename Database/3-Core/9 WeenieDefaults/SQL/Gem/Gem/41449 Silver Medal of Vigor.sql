@@ -32,10 +32,10 @@ VALUES (41449,   1, 'Silver Medal of Vigor') /* Name */
      , (41449,  16, 'This medal is eternal. Use this medal to increase the Stamina of your Fellowship by 4.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41449,   1,   33554802) /* Setup */
-     , (41449,   3,  536870932) /* SoundTable */
-     , (41449,   8,  100690735) /* Icon */
-     , (41449,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41449,   1, 0x02000172) /* Setup */
+     , (41449,   3, 0x20000014) /* SoundTable */
+     , (41449,   8, 0x06006B2F) /* Icon */
+     , (41449,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41449,  28,       5129) /* Spell - AnswerOfLoyaltyStam2 */
      , (41449,  37,         36) /* ItemSkillLimit - Loyalty */
      , (41449, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
@@ -44,4 +44,4 @@ VALUES (41449,   1,   33554802) /* Setup */
      , (41449, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41449, 8000, 3679319815) /* PCAPRecordedObjectIID */;
+VALUES (41449, 8000, 0xDB4DF707) /* PCAPRecordedObjectIID */;

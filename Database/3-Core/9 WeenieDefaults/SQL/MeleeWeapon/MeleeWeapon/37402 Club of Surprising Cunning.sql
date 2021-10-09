@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37402,   1,          1) /* ItemType - MeleeWeapon */
      , (37402,   5,        600) /* EncumbranceVal */
      , (37402,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (37402,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (37402,  16,          1) /* ItemUseable - No */
      , (37402,  18,          1) /* UiEffects - Magical */
      , (37402,  19,          0) /* Value */
@@ -33,6 +32,7 @@ VALUES (37402,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37402,  22, True ) /* Inscribable */
+     , (37402,  23, True ) /* DestroyOnSell */
      , (37402,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -51,10 +51,10 @@ VALUES (37402,   1, 'Club of Surprising Cunning') /* Name */
      , (37402,  16, 'This heavy club was crafted and once wielded by the Merwart Mundagurg.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37402,   1,   33560551) /* Setup */
-     , (37402,   3,  536870932) /* SoundTable */
-     , (37402,   8,  100689868) /* Icon */
-     , (37402,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37402,   1, 0x020017E7) /* Setup */
+     , (37402,   3, 0x20000014) /* SoundTable */
+     , (37402,   8, 0x060067CC) /* Icon */
+     , (37402,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37402,  55,       1053) /* ProcSpell - BludgeonVulnerabilityOther6 */
      , (37402, 8001,  270762640) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (37402, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -62,15 +62,15 @@ VALUES (37402,   1,   33560551) /* Setup */
      , (37402, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37402, 8040, 288620559, 31.31338, 163.2999, 41.9455, 0.6222193, 0.6222193, -0.3359213, -0.3359213) /* PCAPRecordedLocation */
+VALUES (37402, 8040, 0x1134000F, 31.31338, 163.2999, 41.9455, 0.622219, 0.622219, -0.335921, -0.335921) /* PCAPRecordedLocation */
 /* @teleloc 0x1134000F [31.313380 163.299900 41.945500] 0.622219 0.622219 -0.335921 -0.335921 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37402, 8000, 3691069352) /* PCAPRecordedObjectIID */
-     , (37402, 8008, 3691069351) /* PCAPRecordedParentIID */;
+VALUES (37402, 8000, 0xDC013FA8) /* PCAPRecordedObjectIID */
+     , (37402, 8008, 0xDC013FA7) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37402,  1592,      2)  /* HeartSeekerSelf6 */
-     , (37402,  1605,      2)  /* DefenderSelf6 */
+VALUES (37402,  1605,      2)  /* DefenderSelf6 */
      , (37402,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (37402,  1627,      2)  /* SwiftKillerSelf6 */;
+     , (37402,  1627,      2)  /* SwiftKillerSelf6 */
+     , (37402,  1592,      2)  /* HeartSeekerSelf6 */;

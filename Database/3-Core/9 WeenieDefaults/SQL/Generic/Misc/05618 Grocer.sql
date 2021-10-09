@@ -23,18 +23,18 @@ VALUES (5618,   1, 'Grocer') /* Name */
      , (5618,  16, 'Grocer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5618,   1,   33555593) /* Setup */
-     , (5618,   8,  100668115) /* Icon */
+VALUES (5618,   1, 0x02000489) /* Setup */
+     , (5618,   8, 0x060012D3) /* Icon */
      , (5618, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (5618, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (5618, 8005,      32773) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5618, 8040, 3364618274, 97.5022, 42.8498, 27.6091, 0.689174, 0, 0, -0.724596) /* PCAPRecordedLocation */
+VALUES (5618, 8040, 0xC88C0022, 97.5022, 42.8498, 27.6091, 0.689174, 0, 0, -0.724596) /* PCAPRecordedLocation */
 /* @teleloc 0xC88C0022 [97.502200 42.849800 27.609100] 0.689174 0.000000 0.000000 -0.724596 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5618, 8000, 2089336886) /* PCAPRecordedObjectIID */;
+VALUES (5618, 8000, 0x7C88C036) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (5618, 0, 83889909, 83889906);

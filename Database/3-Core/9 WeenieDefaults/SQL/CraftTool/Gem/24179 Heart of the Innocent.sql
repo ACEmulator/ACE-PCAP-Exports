@@ -19,7 +19,8 @@ VALUES (24179,   1,       2048) /* ItemType - Gem */
      , (24179, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24179,  22, True ) /* Inscribable */;
+VALUES (24179,  22, True ) /* Inscribable */
+     , (24179,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24179,   1, 'Heart of the Innocent') /* Name */
@@ -29,17 +30,17 @@ VALUES (24179,   1, 'Heart of the Innocent') /* Name */
      , (24179,  15, 'This was once the heart of Jaleh al-Thani now it has become a hardened crystal that forever bleeds.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24179,   1,   33556407) /* Setup */
-     , (24179,   3,  536870932) /* SoundTable */
-     , (24179,   6,   67111919) /* PaletteBase */
-     , (24179,   8,  100674286) /* Icon */
-     , (24179,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24179,   1, 0x020007B7) /* Setup */
+     , (24179,   3, 0x20000014) /* SoundTable */
+     , (24179,   6, 0x04000BEF) /* PaletteBase */
+     , (24179,   8, 0x06002AEE) /* Icon */
+     , (24179,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24179, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (24179, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24179, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24179, 8000, 2274298678) /* PCAPRecordedObjectIID */;
+VALUES (24179, 8000, 0x878F0B36) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24179, 67111927, 0, 0);

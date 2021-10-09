@@ -15,7 +15,8 @@ VALUES (38612,   1,        128) /* ItemType - Misc */
      , (38612, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38612,  22, True ) /* Inscribable */;
+VALUES (38612,  22, True ) /* Inscribable */
+     , (38612,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38612,   1, 'Altered Dark Remoran Fin') /* Name */
@@ -23,13 +24,13 @@ VALUES (38612,   1, 'Altered Dark Remoran Fin') /* Name */
      , (38612,  16, 'A fin taken from a Dark Remoran, to all appearances.  However, the assassin who gave it to you maintains that there has been some modification made to it which will harm the Deep.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38612,   1,   33554817) /* Setup */
-     , (38612,   3,  536870932) /* SoundTable */
-     , (38612,   8,  100689031) /* Icon */
-     , (38612,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38612,   1, 0x02000181) /* Setup */
+     , (38612,   3, 0x20000014) /* SoundTable */
+     , (38612,   8, 0x06006487) /* Icon */
+     , (38612,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38612, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (38612, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38612, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38612, 8000, 3359479926) /* PCAPRecordedObjectIID */;
+VALUES (38612, 8000, 0xC83D9876) /* PCAPRecordedObjectIID */;

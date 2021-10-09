@@ -25,13 +25,13 @@ VALUES (32170,   1, 'Ursuin Arm') /* Name */
      , (32170,  16, 'An Ursuin arm.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32170,   1,   33559784) /* Setup */
-     , (32170,   3,  536870932) /* SoundTable */
-     , (32170,   8,  100688469) /* Icon */
-     , (32170,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32170,   1, 0x020014E8) /* Setup */
+     , (32170,   3, 0x20000014) /* SoundTable */
+     , (32170,   8, 0x06006255) /* Icon */
+     , (32170,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32170, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (32170, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32170, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32170, 8000, 3351524959) /* PCAPRecordedObjectIID */;
+VALUES (32170, 8000, 0xC7C4365F) /* PCAPRecordedObjectIID */;

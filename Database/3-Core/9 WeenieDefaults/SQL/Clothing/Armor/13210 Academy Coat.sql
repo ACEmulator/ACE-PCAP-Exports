@@ -8,7 +8,6 @@ VALUES (13210,   1,          2) /* ItemType - Armor */
      , (13210,   4,      15360) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (13210,   5,         30) /* EncumbranceVal */
      , (13210,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
-     , (13210,  10,       7680) /* CurrentWieldedLocation - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (13210,  16,          1) /* ItemUseable - No */
      , (13210,  19,        150) /* Value */
      , (13210,  28,         30) /* ArmorLevel */
@@ -34,17 +33,17 @@ VALUES (13210,   1, 'Academy Coat') /* Name */
      , (13210,  16, 'A fur coat awarded by the Academy to those who complete their training.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13210,   1,   33554644) /* Setup */
-     , (13210,   3,  536870932) /* SoundTable */
-     , (13210,   6,   67108990) /* PaletteBase */
-     , (13210,   8,  100671252) /* Icon */
-     , (13210,  22,  872415275) /* PhysicsEffectTable */
+VALUES (13210,   1, 0x020000D4) /* Setup */
+     , (13210,   3, 0x20000014) /* SoundTable */
+     , (13210,   6, 0x0400007E) /* PaletteBase */
+     , (13210,   8, 0x06001F14) /* Icon */
+     , (13210,  22, 0x3400002B) /* PhysicsEffectTable */
      , (13210, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (13210, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (13210, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13210, 8000, 2779733311) /* PCAPRecordedObjectIID */;
+VALUES (13210, 8000, 0xA5AF5D3F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (13210, 67113091, 80, 12)

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (32615,   1,          8) /* ItemType - Jewelry */
      , (32615,   5,        150) /* EncumbranceVal */
      , (32615,   9,      32768) /* ValidLocations - NeckWear */
-     , (32615,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (32615,  16,          1) /* ItemUseable - No */
      , (32615,  18,          1) /* UiEffects - Magical */
      , (32615,  19,      10000) /* Value */
@@ -41,16 +40,16 @@ VALUES (32615,   1, 'Necklace of the Elemental Adepts') /* Name */
      , (32615,  16, 'A necklace enchanted by Royal Guard Qumasha to provide defense against the elements.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32615,   1,   33554680) /* Setup */
-     , (32615,   3,  536870932) /* SoundTable */
-     , (32615,   8,  100688552) /* Icon */
-     , (32615,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32615,   1, 0x020000F8) /* Setup */
+     , (32615,   3, 0x20000014) /* SoundTable */
+     , (32615,   8, 0x060062A8) /* Icon */
+     , (32615,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32615, 8001,  270762136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (32615, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
      , (32615, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32615, 8000, 2210356997) /* PCAPRecordedObjectIID */;
+VALUES (32615, 8000, 0x83BF5F05) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32615,  2281,      2)  /* MagicResistanceSelf7 */

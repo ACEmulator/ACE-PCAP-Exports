@@ -15,7 +15,7 @@ VALUES (31805,   1,        256) /* ItemType - MissileWeapon */
      , (31805,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31805,  49,         98) /* WeaponTime */
      , (31805,  50,          2) /* AmmoType - Bolt */
-     , (31805,  51,          2) /* CombatUse - Missle */
+     , (31805,  51,          2) /* CombatUse - Missile */
      , (31805,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31805, 105,          6) /* ItemWorkmanship */
      , (31805, 106,        296) /* ItemSpellcraft */
@@ -55,26 +55,23 @@ VALUES (31805,   1, 'Slashing Compound Crossbow') /* Name */
      , (31805,  16, 'Slashing Compound Crossbow of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31805,   1,   33559691) /* Setup */
-     , (31805,   3,  536870932) /* SoundTable */
-     , (31805,   6,   67116700) /* PaletteBase */
-     , (31805,   8,  100688061) /* Icon */
-     , (31805,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31805,   1, 0x0200148B) /* Setup */
+     , (31805,   3, 0x20000014) /* SoundTable */
+     , (31805,   6, 0x04001E9C) /* PaletteBase */
+     , (31805,   8, 0x060060BD) /* Icon */
+     , (31805,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31805,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (31805, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31805, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31805, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31805, 8000, 3683297412) /* PCAPRecordedObjectIID */;
+VALUES (31805, 8000, 0xDB8AA884) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31805,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (31805,  2582,      2)  /* CANTRIPQUICKNESS1 */
      , (31805,  2521,      2)  /* CANTRIPLOCKPICKPROWESS2 */
-     , (31805,  2582,      2)  /* CANTRIPQUICKNESS1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31805, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
+     , (31805,  2096,      2)  /* BloodDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31805, 67116700, 1, 100)

@@ -36,27 +36,27 @@ VALUES (1058,   1, 'Fazlim ibn Masay the Tailor') /* Name */
      , (1058, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1058,   1,   33554433) /* Setup */
-     , (1058,   2,  150994945) /* MotionTable */
-     , (1058,   3,  536870913) /* SoundTable */
-     , (1058,   6,   67108990) /* PaletteBase */
-     , (1058,   8,  100667446) /* Icon */
-     , (1058,   9,   83890497) /* EyesTexture */
-     , (1058,  10,   83890531) /* NoseTexture */
-     , (1058,  11,   83890666) /* MouthTexture */
-     , (1058,  15,   67117018) /* HairPalette */
-     , (1058,  16,   67110063) /* EyesPalette */
-     , (1058,  17,   67109556) /* SkinPalette */
+VALUES (1058,   1, 0x02000001) /* Setup */
+     , (1058,   2, 0x09000001) /* MotionTable */
+     , (1058,   3, 0x20000001) /* SoundTable */
+     , (1058,   6, 0x0400007E) /* PaletteBase */
+     , (1058,   8, 0x06001036) /* Icon */
+     , (1058,   9, 0x05001141) /* EyesTexture */
+     , (1058,  10, 0x05001163) /* NoseTexture */
+     , (1058,  11, 0x050011EA) /* MouthTexture */
+     , (1058,  15, 0x04001FDA) /* HairPalette */
+     , (1058,  16, 0x040004AF) /* EyesPalette */
+     , (1058,  17, 0x040002B4) /* SkinPalette */
      , (1058, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (1058, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (1058, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1058, 8040, 2535588096, 115.47, 55.985, 102.005, -0.966376, 0, 0, -0.257133) /* PCAPRecordedLocation */
+VALUES (1058, 8040, 0x97220100, 115.47, 55.985, 102.005, -0.966376, 0, 0, -0.257133) /* PCAPRecordedLocation */
 /* @teleloc 0x97220100 [115.470000 55.985000 102.005000] -0.966376 0.000000 0.000000 -0.257133 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1058, 8000, 2037522454) /* PCAPRecordedObjectIID */;
+VALUES (1058, 8000, 0x79722016) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1058,   1,  75, 0, 0) /* Strength */
@@ -73,16 +73,22 @@ VALUES (1058,   1,   100, 0, 0, 145) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1058, 4,  2600, -1, 0, 0, False) /* Create Pantaloons (2600) for Shop */
+     , (1058, 4,  2600, -1, 0, 0, False) /* Create Pantaloons (2600) for Shop */
+     , (1058, 4,  2600, -1, 0, 0, False) /* Create Pantaloons (2600) for Shop */
+     , (1058, 4,   124, -1, 0, 0, False) /* Create Jerkin (124) for Shop */
+     , (1058, 4,   124, -1, 0, 0, False) /* Create Jerkin (124) for Shop */
      , (1058, 4,   124, -1, 0, 0, False) /* Create Jerkin (124) for Shop */
      , (1058, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
+     , (1058, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
+     , (1058, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
+     , (1058, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
+     , (1058, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
      , (1058, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
      , (1058, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (1058, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
      , (1058, 4,  8373, -1, 0, 0, False) /* Create Kiyafa Robe (8373) for Shop */
      , (1058, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt (25984) for Shop */
-     , (1058, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */
-     , (1058, 4,  2597, -1, 0, 0, False) /* Create Flared Pants (2597) for Shop */
-     , (1058, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */;
+     , (1058, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1058, 67109556, 0, 24)

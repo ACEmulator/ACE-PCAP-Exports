@@ -16,7 +16,8 @@ VALUES (8722,   1,       8192) /* ItemType - Writable */
      , (8722, 8043,          2) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8722,  69, False) /* IsSellable */;
+VALUES (8722,  23, True ) /* DestroyOnSell */
+     , (8722,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8722,  39,    1.22) /* DefaultScale */;
@@ -26,13 +27,13 @@ VALUES (8722,   1, 'Stamped Old Lytelthorpe Scarlet Red Letter') /* Name */
      , (8722,  15, 'A bright red piece of paper with some writing and a big stamp on it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8722,   1,   33556921) /* Setup */
-     , (8722,   3,  536870932) /* SoundTable */
-     , (8722,   8,  100671216) /* Icon */
-     , (8722,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8722,   1, 0x020009B9) /* Setup */
+     , (8722,   3, 0x20000014) /* SoundTable */
+     , (8722,   8, 0x06001EF0) /* Icon */
+     , (8722,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8722, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (8722, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (8722, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8722, 8000, 2627859571) /* PCAPRecordedObjectIID */;
+VALUES (8722, 8000, 0x9CA1F473) /* PCAPRecordedObjectIID */;

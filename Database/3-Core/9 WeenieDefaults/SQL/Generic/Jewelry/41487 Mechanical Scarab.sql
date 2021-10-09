@@ -36,25 +36,21 @@ VALUES (41487,   1, 'Mechanical Scarab') /* Name */
      , (41487,  16, 'Mechanical Scarab of Lightning Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41487,   1,   33555211) /* Setup */
-     , (41487,   3,  536870932) /* SoundTable */
-     , (41487,   6,   67111919) /* PaletteBase */
-     , (41487,   8,  100690707) /* Icon */
-     , (41487,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41487,   1, 0x0200030B) /* Setup */
+     , (41487,   3, 0x20000014) /* SoundTable */
+     , (41487,   6, 0x04000BEF) /* PaletteBase */
+     , (41487,   8, 0x06006B13) /* Icon */
+     , (41487,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41487, 8001, 2166440088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, Workmanship, MaterialType */
      , (41487, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41487, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41487, 8000, 3682417220) /* PCAPRecordedObjectIID */;
+VALUES (41487, 8000, 0xDB7D3A44) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41487,  1069,      2)  /* LightningProtectionSelf4 */
      , (41487,  2554,      2)  /* CANTRIPLEADERSHIP1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41487, 2, 48501,  1, 0, 0, False) /* Create Flaming Katar (48501) for Wield */
-     , (41487, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41487, 67116820, 0, 0);

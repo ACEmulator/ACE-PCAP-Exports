@@ -36,17 +36,17 @@ VALUES (104,   1, 'Scalemail Sleeves') /* Name */
      , (104,  16, 'Scalemail Sleeves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (104,   1,   33554655) /* Setup */
-     , (104,   3,  536870932) /* SoundTable */
-     , (104,   6,   67108990) /* PaletteBase */
-     , (104,   8,  100669393) /* Icon */
-     , (104,  22,  872415275) /* PhysicsEffectTable */
+VALUES (104,   1, 0x020000DF) /* Setup */
+     , (104,   3, 0x20000014) /* SoundTable */
+     , (104,   6, 0x0400007E) /* PaletteBase */
+     , (104,   8, 0x060017D1) /* Icon */
+     , (104,  22, 0x3400002B) /* PhysicsEffectTable */
      , (104, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (104, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (104, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (104, 8000, 3694325745) /* PCAPRecordedObjectIID */;
+VALUES (104, 8000, 0xDC32EFF1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (104, 67109966, 96, 12)

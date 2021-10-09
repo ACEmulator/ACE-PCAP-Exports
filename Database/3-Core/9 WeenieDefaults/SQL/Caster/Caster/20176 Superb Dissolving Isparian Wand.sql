@@ -10,6 +10,7 @@ VALUES (20176,   1,      32768) /* ItemType - Caster */
      , (20176,  16,          1) /* ItemUseable - No */
      , (20176,  18,          1) /* UiEffects - Magical */
      , (20176,  19,       6000) /* Value */
+     , (20176,  46,        512) /* DefaultCombatStyle - Magic */
      , (20176,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20176,  94,         16) /* TargetType - Creature */
      , (20176, 151,          2) /* HookType - Wall */
@@ -22,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20176,   1, 'Superb Dissolving Isparian Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20176,   1,   33557783) /* Setup */
-     , (20176,   3,  536870932) /* SoundTable */
-     , (20176,   6,   67111919) /* PaletteBase */
-     , (20176,   8,  100672995) /* Icon */
-     , (20176,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20176,   1, 0x02000D17) /* Setup */
+     , (20176,   3, 0x20000014) /* SoundTable */
+     , (20176,   6, 0x04000BEF) /* PaletteBase */
+     , (20176,   8, 0x060025E3) /* Icon */
+     , (20176,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20176, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
      , (20176, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20176, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20176, 8000, 3352977111) /* PCAPRecordedObjectIID */;
+VALUES (20176, 8000, 0xC7DA5ED7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20176, 67111923, 0, 0);

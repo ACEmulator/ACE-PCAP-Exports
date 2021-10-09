@@ -25,21 +25,21 @@ VALUES (52873,   1, 'Lair of Tremb''Orh') /* Name */
      , (52873, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52873,   1,   33561686) /* Setup */
-     , (52873,   2,  150995505) /* MotionTable */
-     , (52873,   3,  536870932) /* SoundTable */
-     , (52873,   6,   67114692) /* PaletteBase */
-     , (52873,   8,  100671420) /* Icon */
+VALUES (52873,   1, 0x02001C56) /* Setup */
+     , (52873,   2, 0x09000231) /* MotionTable */
+     , (52873,   3, 0x20000014) /* SoundTable */
+     , (52873,   6, 0x040016C4) /* PaletteBase */
+     , (52873,   8, 0x06001FBC) /* Icon */
      , (52873, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (52873, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (52873, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52873, 8040, 1500184867, 150, -154.524, 0.000500083, -0.00420404, 0, 0, -0.9999912) /* PCAPRecordedLocation */
+VALUES (52873, 8040, 0x596B0123, 150, -154.524, 0.0005, -0.004204, 0, 0, -0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0123 [150.000000 -154.524000 0.000500] -0.004204 0.000000 0.000000 -0.999991 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52873, 8000, 3694524439) /* PCAPRecordedObjectIID */;
+VALUES (52873, 8000, 0xDC35F817) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52873, 67117145, 0, 0);

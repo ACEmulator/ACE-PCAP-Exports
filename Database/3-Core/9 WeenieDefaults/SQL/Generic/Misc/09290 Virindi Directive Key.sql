@@ -14,7 +14,8 @@ VALUES (9290,   1,        128) /* ItemType - Misc */
      , (9290, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9290,  22, True ) /* Inscribable */;
+VALUES (9290,  22, True ) /* Inscribable */
+     , (9290,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9290,  39,    0.75) /* DefaultScale */;
@@ -24,17 +25,17 @@ VALUES (9290,   1, 'Virindi Directive Key') /* Name */
      , (9290,  16, 'A key that shines with Virindi energy.  You do not seem to be able to understand how it works.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9290,   1,   33557000) /* Setup */
-     , (9290,   3,  536870932) /* SoundTable */
-     , (9290,   6,   67111346) /* PaletteBase */
-     , (9290,   8,  100671458) /* Icon */
-     , (9290,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9290,   1, 0x02000A08) /* Setup */
+     , (9290,   3, 0x20000014) /* SoundTable */
+     , (9290,   6, 0x040009B2) /* PaletteBase */
+     , (9290,   8, 0x06001FE2) /* Icon */
+     , (9290,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9290, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (9290, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9290, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9290, 8000, 3697560888) /* PCAPRecordedObjectIID */;
+VALUES (9290, 8000, 0xDC644D38) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9290, 67113155, 0, 0);

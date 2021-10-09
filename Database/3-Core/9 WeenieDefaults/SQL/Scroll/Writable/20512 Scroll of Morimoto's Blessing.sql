@@ -24,16 +24,13 @@ VALUES (20512,   1, 'Scroll of Morimoto''s Blessing') /* Name */
 Increases the caster''s Cooking skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20512,   1,   33554826) /* Setup */
-     , (20512,   8,  100676451) /* Icon */
-     , (20512,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20512,   1, 0x0200018A) /* Setup */
+     , (20512,   8, 0x06003363) /* Icon */
+     , (20512,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20512,  28,       2211) /* Spell - CookingMasterySelf7 */
      , (20512, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20512, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20512, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20512, 8000, 3706739454) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20512, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
+VALUES (20512, 8000, 0xDCF05AFE) /* PCAPRecordedObjectIID */;

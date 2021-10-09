@@ -18,7 +18,8 @@ VALUES (34567,   1,        128) /* ItemType - Misc */
      , (34567, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34567,  69, False) /* IsSellable */;
+VALUES (34567,  23, True ) /* DestroyOnSell */
+     , (34567,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34567,  39,    0.75) /* DefaultScale */;
@@ -30,13 +31,13 @@ VALUES (34567,   1, 'Tanada Clan Master''s Medallion') /* Name */
      , (34567,  20, 'Tanada Clan Master''s Medallions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34567,   1,   33554688) /* Setup */
-     , (34567,   3,  536870932) /* SoundTable */
-     , (34567,   8,  100689272) /* Icon */
-     , (34567,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34567,   1, 0x02000100) /* Setup */
+     , (34567,   3, 0x20000014) /* SoundTable */
+     , (34567,   8, 0x06006578) /* Icon */
+     , (34567,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34567, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
      , (34567, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34567, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34567, 8000, 2778968701) /* PCAPRecordedObjectIID */;
+VALUES (34567, 8000, 0xA5A3B27D) /* PCAPRecordedObjectIID */;

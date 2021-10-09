@@ -34,20 +34,20 @@ VALUES (30196,   1, 'Wayfarer''s Pearl') /* Name */
      , (30196,  20, 'Wayfarer''s Pearls') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30196,   1,   33554809) /* Setup */
-     , (30196,   3,  536870932) /* SoundTable */
-     , (30196,   8,  100686698) /* Icon */
-     , (30196,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30196,   1, 0x02000179) /* Setup */
+     , (30196,   3, 0x20000014) /* SoundTable */
+     , (30196,   8, 0x06005B6A) /* Icon */
+     , (30196,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30196,  28,       3694) /* Spell - CoordinationRare */
-     , (30196,  50,  100686641) /* IconOverlay */
-     , (30196,  52,  100686604) /* IconUnderlay */
+     , (30196,  50, 0x06005B31) /* IconOverlay */
+     , (30196,  52, 0x06005B0C) /* IconUnderlay */
      , (30196, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30196, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30196, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30196, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30196, 8000, 3580914011) /* PCAPRecordedObjectIID */;
+VALUES (30196, 8000, 0xD570695B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (30196, 0, 83890391, 83890391);

@@ -38,17 +38,17 @@ VALUES (81,   1, 'Leggings') /* Name */
      , (81,  16, '  Leather Leggings ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (81,   1,   33554856) /* Setup */
-     , (81,   3,  536870932) /* SoundTable */
-     , (81,   6,   67108990) /* PaletteBase */
-     , (81,   8,  100669500) /* Icon */
-     , (81,  22,  872415275) /* PhysicsEffectTable */
+VALUES (81,   1, 0x020001A8) /* Setup */
+     , (81,   3, 0x20000014) /* SoundTable */
+     , (81,   6, 0x0400007E) /* PaletteBase */
+     , (81,   8, 0x0600183C) /* Icon */
+     , (81,  22, 0x3400002B) /* PhysicsEffectTable */
      , (81, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (81, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (81, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (81, 8000, 3656750336) /* PCAPRecordedObjectIID */;
+VALUES (81, 8000, 0xD9F59500) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (81, 67110349, 152, 8);

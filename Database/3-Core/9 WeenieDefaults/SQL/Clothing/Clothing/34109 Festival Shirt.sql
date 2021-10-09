@@ -8,7 +8,6 @@ VALUES (34109,   1,          4) /* ItemType - Clothing */
      , (34109,   4,         40) /* ClothingPriority - UnderwearChest, UnderwearUpperArms */
      , (34109,   5,         42) /* EncumbranceVal */
      , (34109,   9,         14) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear */
-     , (34109,  10,         10) /* CurrentWieldedLocation - ChestWear, UpperArmWear */
      , (34109,  16,          1) /* ItemUseable - No */
      , (34109,  19,         16) /* Value */
      , (34109,  28,          0) /* ArmorLevel */
@@ -35,17 +34,17 @@ VALUES (34109,   1, 'Festival Shirt') /* Name */
      , (34109,  16, 'A shirt celebrating the Festival Season.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34109,   1,   33554883) /* Setup */
-     , (34109,   3,  536870932) /* SoundTable */
-     , (34109,   6,   67108990) /* PaletteBase */
-     , (34109,   8,  100667379) /* Icon */
-     , (34109,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34109,   1, 0x020001C3) /* Setup */
+     , (34109,   3, 0x20000014) /* SoundTable */
+     , (34109,   6, 0x0400007E) /* PaletteBase */
+     , (34109,   8, 0x06000FF3) /* Icon */
+     , (34109,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34109, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (34109, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34109, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34109, 8000, 3710969491) /* PCAPRecordedObjectIID */;
+VALUES (34109, 8000, 0xDD30E693) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34109, 67110556, 92, 4)

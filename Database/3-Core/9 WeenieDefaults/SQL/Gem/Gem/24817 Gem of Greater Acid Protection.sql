@@ -21,18 +21,18 @@ VALUES (24817,   1, 'Gem of Greater Acid Protection') /* Name */
      , (24817,  20, 'Gems of Greater Acid Protection') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24817,   1,   33554809) /* Setup */
-     , (24817,   3,  536870932) /* SoundTable */
-     , (24817,   6,   67111919) /* PaletteBase */
-     , (24817,   8,  100674460) /* Icon */
-     , (24817,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24817,   1, 0x02000179) /* Setup */
+     , (24817,   3, 0x20000014) /* SoundTable */
+     , (24817,   6, 0x04000BEF) /* PaletteBase */
+     , (24817,   8, 0x06002B9C) /* Icon */
+     , (24817,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24817,  28,        514) /* Spell - AcidProtectionOther6 */
      , (24817, 8001,    6844561) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (24817, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (24817, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24817, 8000, 2981038705) /* PCAPRecordedObjectIID */;
+VALUES (24817, 8000, 0xB1AF0A71) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24817, 67111924, 0, 0);

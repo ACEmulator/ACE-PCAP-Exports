@@ -40,26 +40,26 @@ VALUES (5912,   1, 'Faran Item Master Robe') /* Name */
      , (5912,  16, 'A finely tailored Aluvian robe for master mages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5912,   1,   33554854) /* Setup */
-     , (5912,   3,  536870932) /* SoundTable */
-     , (5912,   6,   67108990) /* PaletteBase */
-     , (5912,   8,  100670348) /* Icon */
-     , (5912,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5912,   1, 0x020001A6) /* Setup */
+     , (5912,   3, 0x20000014) /* SoundTable */
+     , (5912,   6, 0x0400007E) /* PaletteBase */
+     , (5912,   8, 0x06001B8C) /* Icon */
+     , (5912,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5912,  37,         32) /* ItemSkillLimit - ItemEnchantment */
      , (5912, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (5912, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5912, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5912, 8000, 2164419645) /* PCAPRecordedObjectIID */;
+VALUES (5912, 8000, 0x81026C3D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5912,   571,      2)  /* CreatureEnchantmentIneptitudeOther3 */
+VALUES (5912,   649,      2)  /* WarMagicIneptitudeOther3 */
+     , (5912,  1484,      2)  /* Impenetrability4 */
      , (5912,   590,      2)  /* ItemEnchantmentMasteryOther4 */
-     , (5912,   625,      2)  /* LifeMagicIneptitudeOther3 */
-     , (5912,   649,      2)  /* WarMagicIneptitudeOther3 */
      , (5912,  1453,      2)  /* WillpowerOther3 */
-     , (5912,  1484,      2)  /* Impenetrability4 */;
+     , (5912,   625,      2)  /* LifeMagicIneptitudeOther3 */
+     , (5912,   571,      2)  /* CreatureEnchantmentIneptitudeOther3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5912, 67110340, 80, 12)

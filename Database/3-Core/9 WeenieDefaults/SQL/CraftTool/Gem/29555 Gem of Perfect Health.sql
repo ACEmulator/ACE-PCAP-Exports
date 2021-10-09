@@ -27,17 +27,17 @@ VALUES (29555,   1, 'Gem of Perfect Health') /* Name */
      , (29555,  16, 'This gem can be placed into a piece of Noble Armor. If so, it will imbue the armor with a very potent Endurance Spell that will affect the wearer. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29555,   1,   33554809) /* Setup */
-     , (29555,   3,  536870932) /* SoundTable */
-     , (29555,   6,   67111919) /* PaletteBase */
-     , (29555,   8,  100677134) /* Icon */
-     , (29555,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29555,   1, 0x02000179) /* Setup */
+     , (29555,   3, 0x20000014) /* SoundTable */
+     , (29555,   6, 0x04000BEF) /* PaletteBase */
+     , (29555,   8, 0x0600360E) /* Icon */
+     , (29555,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29555, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (29555, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29555, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29555, 8000, 3351063763) /* PCAPRecordedObjectIID */;
+VALUES (29555, 8000, 0xC7BD2CD3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29555, 67111921, 0, 0);

@@ -20,16 +20,13 @@ VALUES (37353,   1, 'Ink of Formation') /* Name */
      , (37353,  20, 'Inks of Formation') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37353,   1,   33554602) /* Setup */
-     , (37353,   3,  536870932) /* SoundTable */
-     , (37353,   8,  100690183) /* Icon */
-     , (37353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37353,   1, 0x020000AA) /* Setup */
+     , (37353,   3, 0x20000014) /* SoundTable */
+     , (37353,   8, 0x06006907) /* Icon */
+     , (37353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37353, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (37353, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37353, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37353, 8000, 2461826754) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37353, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;
+VALUES (37353, 8000, 0x92BC7EC2) /* PCAPRecordedObjectIID */;

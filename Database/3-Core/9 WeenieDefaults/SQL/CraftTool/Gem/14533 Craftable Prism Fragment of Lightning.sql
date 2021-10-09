@@ -25,16 +25,16 @@ VALUES (14533,   1, 'Craftable Prism Fragment of Lightning') /* Name */
      , (14533,  16, 'A fragment taken from a lightning prism.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14533,   1,   33557506) /* Setup */
-     , (14533,   3,  536870932) /* SoundTable */
-     , (14533,   8,  100672512) /* Icon */
-     , (14533,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14533,   1, 0x02000C02) /* Setup */
+     , (14533,   3, 0x20000014) /* SoundTable */
+     , (14533,   8, 0x06002400) /* Icon */
+     , (14533,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14533, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (14533, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14533, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14533, 8000, 2779733315) /* PCAPRecordedObjectIID */;
+VALUES (14533, 8000, 0xA5AF5D43) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (14533, 0, 83892433, 83892492)

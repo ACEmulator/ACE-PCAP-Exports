@@ -26,22 +26,22 @@ VALUES (44051,   1, 'Tamed Reaper') /* Name */
      , (44051, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44051,   1,   33554489) /* Setup */
-     , (44051,   2,  150994970) /* MotionTable */
-     , (44051,   3,  536870928) /* SoundTable */
-     , (44051,   6,   67109313) /* PaletteBase */
-     , (44051,   8,  100667939) /* Icon */
-     , (44051,  22,  872415268) /* PhysicsEffectTable */
+VALUES (44051,   1, 0x02000039) /* Setup */
+     , (44051,   2, 0x0900001A) /* MotionTable */
+     , (44051,   3, 0x20000010) /* SoundTable */
+     , (44051,   6, 0x040001C1) /* PaletteBase */
+     , (44051,   8, 0x06001223) /* Icon */
+     , (44051,  22, 0x34000024) /* PhysicsEffectTable */
      , (44051, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (44051, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (44051, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (44051, 8040, 2271477814, 146.5158, 142.7772, 0.1102517, 0.150415, 0, 0, -0.988623) /* PCAPRecordedLocation */
+VALUES (44051, 8040, 0x87640036, 146.5158, 142.7772, 0.110252, 0.150415, 0, 0, -0.988623) /* PCAPRecordedLocation */
 /* @teleloc 0x87640036 [146.515800 142.777200 0.110252] 0.150415 0.000000 0.000000 -0.988623 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44051, 8000, 3360236682) /* PCAPRecordedObjectIID */;
+VALUES (44051, 8000, 0xC849248A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44051,   1, 250, 0, 0) /* Strength */
@@ -58,6 +58,7 @@ VALUES (44051,   1,  2500, 0, 0, 2650) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44051, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (44051, 2, 23700,  1, 0, 0, False) /* Create Tachi (23700) for Wield */
      , (44051, 9, 20493,  0, 0, 0, False) /* Create Scroll of Tenaciousness (20493) for ContainTreasure */
      , (44051, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */
      , (44051, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */

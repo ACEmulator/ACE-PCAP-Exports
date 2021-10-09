@@ -32,16 +32,16 @@ VALUES (35590,   1, 'Protective Drudge Charm') /* Name */
      , (35590,  16, 'A powerful charm crafted by Bonecrunch. The charm emanates magical energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35590,   1,   33554683) /* Setup */
-     , (35590,   3,  536870932) /* SoundTable */
-     , (35590,   8,  100674485) /* Icon */
-     , (35590,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35590,   1, 0x020000FB) /* Setup */
+     , (35590,   3, 0x20000014) /* SoundTable */
+     , (35590,   8, 0x06002BB5) /* Icon */
+     , (35590,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35590, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (35590, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35590, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35590, 8000, 2994925864) /* PCAPRecordedObjectIID */;
+VALUES (35590, 8000, 0xB282F128) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35590,  2004,      2)  /* WarriorsVitality */

@@ -25,13 +25,13 @@ VALUES (22256,   1, 'Fishing Pole') /* Name */
      , (22256,  15, 'A pole used to catch fish from fishing holes.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22256,   1,   33558280) /* Setup */
-     , (22256,   3,  536870932) /* SoundTable */
-     , (22256,   8,  100674232) /* Icon */
-     , (22256,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22256,   1, 0x02000F08) /* Setup */
+     , (22256,   3, 0x20000014) /* SoundTable */
+     , (22256,   8, 0x06002AB8) /* Icon */
+     , (22256,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22256, 8001,  270614552) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden, HookType */
      , (22256, 8003,  536870930) /* PCAPRecordedObjectDesc - Inscribable, Attackable, WieldOnUse */
      , (22256, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22256, 8000, 2186220458) /* PCAPRecordedObjectIID */;
+VALUES (22256, 8000, 0x824F13AA) /* PCAPRecordedObjectIID */;

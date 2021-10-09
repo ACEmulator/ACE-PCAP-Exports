@@ -32,17 +32,17 @@ VALUES (27445,   1, 'Shadow Stone Necklace') /* Name */
      , (27445,  16, 'The focus of the Consumed Wraith''s power, the Shadow Stone crackles with abyssal energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27445,   1,   33554680) /* Setup */
-     , (27445,   3,  536870932) /* SoundTable */
-     , (27445,   6,   67111919) /* PaletteBase */
-     , (27445,   8,  100676419) /* Icon */
-     , (27445,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27445,   1, 0x020000F8) /* Setup */
+     , (27445,   3, 0x20000014) /* SoundTable */
+     , (27445,   6, 0x04000BEF) /* PaletteBase */
+     , (27445,   8, 0x06003343) /* Icon */
+     , (27445,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27445, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (27445, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27445, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27445, 8000, 2978131449) /* PCAPRecordedObjectIID */;
+VALUES (27445, 8000, 0xB182ADF9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27445,  2182,      2)  /* ManaRenewalOther7 */

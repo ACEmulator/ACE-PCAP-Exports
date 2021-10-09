@@ -19,7 +19,8 @@ VALUES (31377,   1,       2048) /* ItemType - Gem */
      , (31377, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31377,  22, True ) /* Inscribable */;
+VALUES (31377,  22, True ) /* Inscribable */
+     , (31377,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31377,   1, 'Twilight Fragment') /* Name */
@@ -27,13 +28,13 @@ VALUES (31377,   1, 'Twilight Fragment') /* Name */
      , (31377,  16, 'A fragment of an unknown artifact protected by the Margul Xaa Xiil. Its shape is oddly familiar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31377,   1,   33556743) /* Setup */
-     , (31377,   3,  536870932) /* SoundTable */
-     , (31377,   8,  100687953) /* Icon */
-     , (31377,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31377,   1, 0x02000907) /* Setup */
+     , (31377,   3, 0x20000014) /* SoundTable */
+     , (31377,   8, 0x06006051) /* Icon */
+     , (31377,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31377, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (31377, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31377, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31377, 8000, 2932355086) /* PCAPRecordedObjectIID */;
+VALUES (31377, 8000, 0xAEC8300E) /* PCAPRecordedObjectIID */;

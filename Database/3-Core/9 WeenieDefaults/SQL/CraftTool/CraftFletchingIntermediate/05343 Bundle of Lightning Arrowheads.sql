@@ -20,13 +20,13 @@ VALUES (5343,   1, 'Bundle of Lightning Arrowheads') /* Name */
      , (5343,  20, 'Bundles of Lightning Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5343,   1,   33555958) /* Setup */
-     , (5343,   3,  536870932) /* SoundTable */
-     , (5343,   8,  100670202) /* Icon */
-     , (5343,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5343,   1, 0x020005F6) /* Setup */
+     , (5343,   3, 0x20000014) /* SoundTable */
+     , (5343,   8, 0x06001AFA) /* Icon */
+     , (5343,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5343, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (5343, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5343, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5343, 8000, 2914289577) /* PCAPRecordedObjectIID */;
+VALUES (5343, 8000, 0xADB487A9) /* PCAPRecordedObjectIID */;

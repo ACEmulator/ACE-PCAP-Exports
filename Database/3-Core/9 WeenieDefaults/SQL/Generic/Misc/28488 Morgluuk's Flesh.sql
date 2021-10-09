@@ -14,7 +14,8 @@ VALUES (28488,   1,        128) /* ItemType - Misc */
      , (28488, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28488,  22, True ) /* Inscribable */;
+VALUES (28488,  22, True ) /* Inscribable */
+     , (28488,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28488,  39,     0.5) /* DefaultScale */;
@@ -24,17 +25,17 @@ VALUES (28488,   1, 'Morgluuk''s Flesh') /* Name */
      , (28488,  16, 'This flesh was taken from the hide of the once feared and powerful Burun, Morgluuk. Perhaps if you brought this to one of the Noble Guards stationed in the capital cities you could garner a reward.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28488,   1,   33554817) /* Setup */
-     , (28488,   3,  536870932) /* SoundTable */
-     , (28488,   6,   67111919) /* PaletteBase */
-     , (28488,   8,  100676959) /* Icon */
-     , (28488,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28488,   1, 0x02000181) /* Setup */
+     , (28488,   3, 0x20000014) /* SoundTable */
+     , (28488,   6, 0x04000BEF) /* PaletteBase */
+     , (28488,   8, 0x0600355F) /* Icon */
+     , (28488,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28488, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (28488, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28488, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28488, 8000, 3709195030) /* PCAPRecordedObjectIID */;
+VALUES (28488, 8000, 0xDD15D316) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28488, 67111921, 0, 0);

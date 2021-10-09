@@ -32,14 +32,14 @@ VALUES (44903,   1, 'Contract for Nen Ai''s Pet Drudge') /* Name */
      , (44903,  16, 'Nen Ai needs food for her pet drudge.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44903,   1,   33554773) /* Setup */
-     , (44903,   3,  536870932) /* SoundTable */
-     , (44903,   8,  100691929) /* Icon */
-     , (44903,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44903,   1, 0x02000155) /* Setup */
+     , (44903,   3, 0x20000014) /* SoundTable */
+     , (44903,   8, 0x06006FD9) /* Icon */
+     , (44903,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44903, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44903, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44903, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44903, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44903, 8000, 3628722929) /* PCAPRecordedObjectIID */;
+VALUES (44903, 8000, 0xD849EAF1) /* PCAPRecordedObjectIID */;

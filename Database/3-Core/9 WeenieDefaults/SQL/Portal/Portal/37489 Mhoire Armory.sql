@@ -23,16 +23,16 @@ VALUES (37489,   1, 'Mhoire Armory') /* Name */
      , (37489, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37489,   1,   33555925) /* Setup */
-     , (37489,   2,  150994947) /* MotionTable */
-     , (37489,   8,  100667499) /* Icon */
+VALUES (37489,   1, 0x020005D5) /* Setup */
+     , (37489,   2, 0x09000003) /* MotionTable */
+     , (37489,   8, 0x0600106B) /* Icon */
      , (37489, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (37489, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (37489, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37489, 8040, 1210974528, 16.0681, 82.6739, 3.592, -0.6914063, 0, 0, -0.7224662) /* PCAPRecordedLocation */
+VALUES (37489, 8040, 0x482E0140, 16.0681, 82.6739, 3.592, -0.691406, 0, 0, -0.722466) /* PCAPRecordedLocation */
 /* @teleloc 0x482E0140 [16.068100 82.673900 3.592000] -0.691406 0.000000 0.000000 -0.722466 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37489, 8000, 1954734141) /* PCAPRecordedObjectIID */;
+VALUES (37489, 8000, 0x7482E03D) /* PCAPRecordedObjectIID */;

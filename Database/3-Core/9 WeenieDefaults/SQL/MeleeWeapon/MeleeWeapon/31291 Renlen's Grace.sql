@@ -46,19 +46,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31291,   1, 'Renlen''s Grace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31291,   1,   33559610) /* Setup */
-     , (31291,   3,  536870932) /* SoundTable */
-     , (31291,   8,  100687934) /* Icon */
-     , (31291,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31291,   1, 0x0200143A) /* Setup */
+     , (31291,   3, 0x20000014) /* SoundTable */
+     , (31291,   8, 0x0600603E) /* Icon */
+     , (31291,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31291, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (31291, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31291, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31291, 8000, 2248228468) /* PCAPRecordedObjectIID */;
+VALUES (31291, 8000, 0x86013E74) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31291,   248,      2)  /* InvulnerabilitySelf5 */
-     , (31291,   260,      2)  /* ImpregnabilitySelf5 */
+VALUES (31291,   260,      2)  /* ImpregnabilitySelf5 */
      , (31291,   278,      2)  /* MagicResistanceSelf5 */
-     , (31291,  2544,      2)  /* CANTRIPDAGGERAPTITUDE1 */;
+     , (31291,  2544,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE1 */
+     , (31291,   248,      2)  /* InvulnerabilitySelf5 */;

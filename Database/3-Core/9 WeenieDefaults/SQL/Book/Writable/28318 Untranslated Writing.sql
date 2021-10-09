@@ -21,13 +21,13 @@ VALUES (28318,   1, 'Untranslated Writing') /* Name */
      , (28318,  16, 'A letter scrawled in strange characters.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28318,   1,   33558644) /* Setup */
-     , (28318,   3,  536870932) /* SoundTable */
-     , (28318,   8,  100675924) /* Icon */
-     , (28318,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28318,   1, 0x02001074) /* Setup */
+     , (28318,   3, 0x20000014) /* SoundTable */
+     , (28318,   8, 0x06003154) /* Icon */
+     , (28318,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28318, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (28318, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (28318, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28318, 8000, 2982968654) /* PCAPRecordedObjectIID */;
+VALUES (28318, 8000, 0xB1CC7D4E) /* PCAPRecordedObjectIID */;

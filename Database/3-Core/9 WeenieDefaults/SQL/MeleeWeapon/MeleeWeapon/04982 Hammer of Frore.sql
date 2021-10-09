@@ -40,14 +40,14 @@ VALUES (4982,   1, 'Hammer of Frore') /* Name */
      , (4982,   8, 'Ripley') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4982,   1,   33555820) /* Setup */
-     , (4982,   3,  536870932) /* SoundTable */
-     , (4982,   8,  100667619) /* Icon */
-     , (4982,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4982,   1, 0x0200056C) /* Setup */
+     , (4982,   3, 0x20000014) /* SoundTable */
+     , (4982,   8, 0x060010E3) /* Icon */
+     , (4982,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4982,  30,         88) /* PhysicsScript - Create */
      , (4982, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (4982, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4982, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4982, 8000, 3658160660) /* PCAPRecordedObjectIID */;
+VALUES (4982, 8000, 0xDA0B1A14) /* PCAPRecordedObjectIID */;

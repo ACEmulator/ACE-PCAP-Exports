@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9576,   1, 'Completed Sword Skill Puzzle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9576,   1,   33557028) /* Setup */
-     , (9576,   3,  536870932) /* SoundTable */
-     , (9576,   8,  100671566) /* Icon */
-     , (9576,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9576,   1, 0x02000A24) /* Setup */
+     , (9576,   3, 0x20000014) /* SoundTable */
+     , (9576,   8, 0x0600204E) /* Icon */
+     , (9576,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9576, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (9576, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9576, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9576, 8000, 2447972235) /* PCAPRecordedObjectIID */;
+VALUES (9576, 8000, 0x91E9178B) /* PCAPRecordedObjectIID */;

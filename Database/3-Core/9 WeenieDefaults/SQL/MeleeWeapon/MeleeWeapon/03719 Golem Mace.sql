@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3719,   1, 'Golem Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3719,   1,   33555744) /* Setup */
-     , (3719,   3,  536870932) /* SoundTable */
-     , (3719,   8,  100667599) /* Icon */
-     , (3719,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3719,   1, 0x02000520) /* Setup */
+     , (3719,   3, 0x20000014) /* SoundTable */
+     , (3719,   8, 0x060010CF) /* Icon */
+     , (3719,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3719, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (3719, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3719, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3719, 8000, 2246825767) /* PCAPRecordedObjectIID */;
+VALUES (3719, 8000, 0x85EBD727) /* PCAPRecordedObjectIID */;

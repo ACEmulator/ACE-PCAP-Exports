@@ -15,6 +15,7 @@ VALUES (9315,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9315,  22, True ) /* Inscribable */
+     , (9315,  23, True ) /* DestroyOnSell */
      , (9315,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,13 +26,13 @@ VALUES (9315,   1, 'An Unlocked Tiny Mnemosyne') /* Name */
      , (9315,  16, 'A Mnemosyne, invented by Tennar Portheran, used by the Dericost to preserve their heritage after the chaos wrought by the Fourth Sending.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9315,   1,   33556999) /* Setup */
-     , (9315,   3,  536870932) /* SoundTable */
-     , (9315,   8,  100671427) /* Icon */
-     , (9315,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9315,   1, 0x02000A07) /* Setup */
+     , (9315,   3, 0x20000014) /* SoundTable */
+     , (9315,   8, 0x06001FC3) /* Icon */
+     , (9315,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9315, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (9315, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9315, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9315, 8000, 2628138998) /* PCAPRecordedObjectIID */;
+VALUES (9315, 8000, 0x9CA637F6) /* PCAPRecordedObjectIID */;

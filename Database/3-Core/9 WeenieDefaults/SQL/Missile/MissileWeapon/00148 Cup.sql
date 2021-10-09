@@ -14,7 +14,7 @@ VALUES (148,   1,        256) /* ItemType - MissileWeapon */
      , (148,  45,          4) /* DamageType - Bludgeon */
      , (148,  48,         47) /* WeaponSkill - MissileWeapons */
      , (148,  49,         10) /* WeaponTime */
-     , (148,  51,          2) /* CombatUse - Missle */
+     , (148,  51,          2) /* CombatUse - Missile */
      , (148,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (148, 105,          4) /* ItemWorkmanship */
      , (148, 106,        191) /* ItemSpellcraft */
@@ -49,17 +49,17 @@ VALUES (148,   1, 'Cup') /* Name */
      , (148,  16, 'Cup of Lockpicking') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (148,   1,   33554662) /* Setup */
-     , (148,   3,  536871012) /* SoundTable */
-     , (148,   6,   67111919) /* PaletteBase */
-     , (148,   8,  100668642) /* Icon */
-     , (148,  22,  872415275) /* PhysicsEffectTable */
+VALUES (148,   1, 0x020000E6) /* Setup */
+     , (148,   3, 0x20000064) /* SoundTable */
+     , (148,   6, 0x04000BEF) /* PaletteBase */
+     , (148,   8, 0x060014E2) /* Icon */
+     , (148,  22, 0x3400002B) /* PhysicsEffectTable */
      , (148, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (148, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (148, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (148, 8000, 3690336849) /* PCAPRecordedObjectIID */;
+VALUES (148, 8000, 0xDBF61251) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (148,   924,      2)  /* LockpickMasterySelf3 */

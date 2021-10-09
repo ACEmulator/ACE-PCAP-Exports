@@ -7,10 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30872,   1,      32768) /* ItemType - Caster */
      , (30872,   5,         50) /* EncumbranceVal */
      , (30872,   9,   16777216) /* ValidLocations - Held */
-     , (30872,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (30872,  16,          1) /* ItemUseable - No */
      , (30872,  19,      10000) /* Value */
      , (30872,  45,         64) /* DamageType - Electric */
+     , (30872,  46,        512) /* DefaultCombatStyle - Magic */
      , (30872,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30872,  94,         16) /* TargetType - Creature */
      , (30872, 106,        250) /* ItemSpellcraft */
@@ -36,22 +36,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30872,   1, 'Eye of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30872,   1,   33559279) /* Setup */
-     , (30872,   3,  536870932) /* SoundTable */
-     , (30872,   8,  100677502) /* Icon */
-     , (30872,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30872,   1, 0x020012EF) /* Setup */
+     , (30872,   3, 0x20000014) /* SoundTable */
+     , (30872,   8, 0x0600377E) /* Icon */
+     , (30872,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30872, 8001,  271286296) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (30872, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30872, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
      , (30872, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30872, 8040, 4095213581, 34.75896, 105.2867, 159.929, -0.008775875, -0.008775875, -0.7070524, -0.7070524) /* PCAPRecordedLocation */
+VALUES (30872, 8040, 0xF418000D, 34.75896, 105.2867, 159.929, -0.008776, -0.008776, -0.707052, -0.707052) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [34.758960 105.286700 159.929000] -0.008776 -0.008776 -0.707052 -0.707052 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30872, 8000, 2164075416) /* PCAPRecordedObjectIID */
-     , (30872, 8008, 1342288136) /* PCAPRecordedParentIID */;
+VALUES (30872, 8000, 0x80FD2B98) /* PCAPRecordedObjectIID */
+     , (30872, 8008, 0x5001B108) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30872,  2287,      2)  /* ManaMasterySelf7 */

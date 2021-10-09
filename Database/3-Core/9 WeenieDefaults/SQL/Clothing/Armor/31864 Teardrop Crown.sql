@@ -54,22 +54,22 @@ VALUES (31864,   1, 'Teardrop Crown') /* Name */
      , (31864,  39, 'Misomaniac''s Crafter') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31864,   1,   33559739) /* Setup */
-     , (31864,   3,  536870932) /* SoundTable */
-     , (31864,   6,   67108990) /* PaletteBase */
-     , (31864,   8,  100688239) /* Icon */
-     , (31864,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31864,   1, 0x020014BB) /* Setup */
+     , (31864,   3, 0x20000014) /* SoundTable */
+     , (31864,   6, 0x0400007E) /* PaletteBase */
+     , (31864,   8, 0x0600616F) /* Icon */
+     , (31864,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31864, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (31864, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31864, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31864, 8000, 2167948219) /* PCAPRecordedObjectIID */;
+VALUES (31864, 8000, 0x813843BB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31864,  2053,      2)  /* ArmorSelf7 */
-     , (31864,  2108,      2)  /* Impenetrability7 */
-     , (31864,  2518,      2)  /* CANTRIPJUMPINGPROWESS2 */;
+     , (31864,  2518,      2)  /* CANTRIPJUMPINGPROWESS2 */
+     , (31864,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31864, 67110321, 240, 10)

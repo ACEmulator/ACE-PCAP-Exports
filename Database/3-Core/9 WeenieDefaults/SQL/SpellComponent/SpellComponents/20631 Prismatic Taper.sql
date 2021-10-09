@@ -19,16 +19,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20631,   1, 'Prismatic Taper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20631,   1,   33555445) /* Setup */
-     , (20631,   3,  536870932) /* SoundTable */
-     , (20631,   8,  100673066) /* Icon */
-     , (20631,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20631,   1, 0x020003F5) /* Setup */
+     , (20631,   3, 0x20000014) /* SoundTable */
+     , (20631,   8, 0x0600262A) /* Icon */
+     , (20631,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20631, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (20631, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (20631, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20631, 8000, 3679455434) /* PCAPRecordedObjectIID */;
+VALUES (20631, 8000, 0xDB5008CA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20631, 0, 83890928, 83892492);

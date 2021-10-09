@@ -22,13 +22,13 @@ VALUES (4766,   1, 'Rennet') /* Name */
      , (4766,  20, 'Batches of Rennet') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4766,   1,   33556033) /* Setup */
-     , (4766,   3,  536870932) /* SoundTable */
-     , (4766,   8,  100669969) /* Icon */
-     , (4766,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4766,   1, 0x02000641) /* Setup */
+     , (4766,   3, 0x20000014) /* SoundTable */
+     , (4766,   8, 0x06001A11) /* Icon */
+     , (4766,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4766, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (4766, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (4766, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4766, 8000, 3710937672) /* PCAPRecordedObjectIID */;
+VALUES (4766, 8000, 0xDD306A48) /* PCAPRecordedObjectIID */;

@@ -36,18 +36,18 @@ VALUES (36619,   1, 'Foolproof Aquamarine') /* Name */
      , (36619,  15, 'Chips of aquamarine. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36619,   1,   33554817) /* Setup */
-     , (36619,   3,  536870932) /* SoundTable */
-     , (36619,   6,   67111919) /* PaletteBase */
-     , (36619,   8,  100686616) /* Icon */
-     , (36619,  22,  872415275) /* PhysicsEffectTable */
-     , (36619,  50,  100673262) /* IconOverlay */
+VALUES (36619,   1, 0x02000181) /* Setup */
+     , (36619,   3, 0x20000014) /* SoundTable */
+     , (36619,   6, 0x04000BEF) /* PaletteBase */
+     , (36619,   8, 0x06005B18) /* Icon */
+     , (36619,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36619,  50, 0x060026EE) /* IconOverlay */
      , (36619, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (36619, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36619, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36619, 8000, 2167908632) /* PCAPRecordedObjectIID */;
+VALUES (36619, 8000, 0x8137A918) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36619, 67111920, 0, 0);

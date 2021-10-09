@@ -21,22 +21,22 @@ VALUES (6027,   1, 'Introduction to Devana') /* Name */
      , (6027,  16, 'A letter of introduction to Devana bint Hamudi, who lives near Zaikhal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6027,   1,   33554773) /* Setup */
-     , (6027,   3,  536870932) /* SoundTable */
-     , (6027,   8,  100668176) /* Icon */
-     , (6027,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6027,   1, 0x02000155) /* Setup */
+     , (6027,   3, 0x20000014) /* SoundTable */
+     , (6027,   8, 0x06001310) /* Icon */
+     , (6027,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6027, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (6027, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (6027, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6027, 8000, 2980863430) /* PCAPRecordedObjectIID */;
+VALUES (6027, 8000, 0xB1AC5DC6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6027, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6027, 0, 4294967295, 'Ivory Crafter', 'Password is cheese', False, '
+VALUES (6027, 0, 4294967295, 'Ivory Crafter', 'prewritten', False, '
 Lady Devana, you requested I send to you worthy candidates.  This person has managed to slay one of the great lizards that breathe lightning.  I leave the rest to you.
 
 ');

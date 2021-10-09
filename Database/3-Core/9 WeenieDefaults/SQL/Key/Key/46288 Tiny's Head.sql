@@ -13,20 +13,21 @@ VALUES (46288,   1,      16384) /* ItemType - Key */
      , (46288, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46288,  22, True ) /* Inscribable */;
+VALUES (46288,  22, True ) /* Inscribable */
+     , (46288,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46288,   1, 'Tiny''s Head') /* Name */
      , (46288,  16, 'The head of the vicious penguin Tiny. The eyes appear to be looking towards the door to the east of Tiny''s lair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46288,   1,   33559768) /* Setup */
-     , (46288,   3,  536870932) /* SoundTable */
-     , (46288,   8,  100688477) /* Icon */
-     , (46288,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46288,   1, 0x020014D8) /* Setup */
+     , (46288,   3, 0x20000014) /* SoundTable */
+     , (46288,   8, 0x0600625D) /* Icon */
+     , (46288,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46288, 8001,    2113536) /* PCAPRecordedWeenieHeader - Container, Burden */
      , (46288, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46288, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46288, 8000, 3708402140) /* PCAPRecordedObjectIID */;
+VALUES (46288, 8000, 0xDD09B9DC) /* PCAPRecordedObjectIID */;

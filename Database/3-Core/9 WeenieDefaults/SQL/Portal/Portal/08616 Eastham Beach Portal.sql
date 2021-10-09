@@ -22,16 +22,16 @@ VALUES (8616,   1, 'Eastham Beach Portal') /* Name */
      , (8616, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8616,   1,   33554867) /* Setup */
-     , (8616,   2,  150994947) /* MotionTable */
-     , (8616,   8,  100667499) /* Icon */
+VALUES (8616,   1, 0x020001B3) /* Setup */
+     , (8616,   2, 0x09000003) /* MotionTable */
+     , (8616,   8, 0x0600106B) /* Icon */
      , (8616, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (8616, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (8616, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8616, 8040, 3861118992, 27.8504, 189.678, -0.06299996, 0.9630882, 0, 0, 0.269186) /* PCAPRecordedLocation */
+VALUES (8616, 8040, 0xE6240010, 27.8504, 189.678, -0.063, 0.963088, 0, 0, 0.269186) /* PCAPRecordedLocation */
 /* @teleloc 0xE6240010 [27.850400 189.678000 -0.063000] 0.963088 0.000000 0.000000 0.269186 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8616, 8000, 2120368128) /* PCAPRecordedObjectIID */;
+VALUES (8616, 8000, 0x7E624000) /* PCAPRecordedObjectIID */;

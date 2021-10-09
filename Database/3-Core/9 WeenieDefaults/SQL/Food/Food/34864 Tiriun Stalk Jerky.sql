@@ -24,13 +24,13 @@ VALUES (34864,   1, 'Tiriun Stalk Jerky') /* Name */
      , (34864,  20, 'Strips of Tiriun Stalk Jerky') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34864,   1,   33558400) /* Setup */
-     , (34864,   3,  536870932) /* SoundTable */
-     , (34864,   8,  100689331) /* Icon */
-     , (34864,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34864,   1, 0x02000F80) /* Setup */
+     , (34864,   3, 0x20000014) /* SoundTable */
+     , (34864,   8, 0x060065B3) /* Icon */
+     , (34864,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34864, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (34864, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (34864, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34864, 8000, 2174518771) /* PCAPRecordedObjectIID */;
+VALUES (34864, 8000, 0x819C85F3) /* PCAPRecordedObjectIID */;

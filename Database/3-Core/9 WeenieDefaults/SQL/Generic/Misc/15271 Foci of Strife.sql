@@ -15,6 +15,7 @@ VALUES (15271,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15271,  22, True ) /* Inscribable */
+     , (15271,  23, True ) /* DestroyOnSell */
      , (15271,  69, False) /* IsSellable */
      , (15271,  81, True ) /* RequiresBackpackSlot */;
 
@@ -26,18 +27,18 @@ VALUES (15271,   1, 'Foci of Strife') /* Name */
      , (15271,  15, 'A foci used to cast spells from the School of the Arm.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15271,   1,   33554769) /* Setup */
-     , (15271,   3,  536870932) /* SoundTable */
-     , (15271,   6,   67111919) /* PaletteBase */
-     , (15271,   8,  100671332) /* Icon */
-     , (15271,  22,  872415275) /* PhysicsEffectTable */
-     , (15271,  50,  100671332) /* IconOverlay */
+VALUES (15271,   1, 0x02000151) /* Setup */
+     , (15271,   3, 0x20000014) /* SoundTable */
+     , (15271,   6, 0x04000BEF) /* PaletteBase */
+     , (15271,   8, 0x06001F64) /* Icon */
+     , (15271,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (15271,  50, 0x06001F64) /* IconOverlay */
      , (15271, 8001, 1075855384) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, IconOverlay */
      , (15271, 8003,    8388626) /* PCAPRecordedObjectDesc - Inscribable, Attackable, RequiresPackSlot */
      , (15271, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15271, 8000, 3689585454) /* PCAPRecordedObjectIID */;
+VALUES (15271, 8000, 0xDBEA9B2E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15271, 67111920, 0, 0);

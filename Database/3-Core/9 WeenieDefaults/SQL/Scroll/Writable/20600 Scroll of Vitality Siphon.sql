@@ -24,13 +24,13 @@ VALUES (20600,   1, 'Scroll of Vitality Siphon') /* Name */
 Drains 50% of the target''s Health and gives 50% of it to the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20600,   1,   33554826) /* Setup */
-     , (20600,   8,  100676934) /* Icon */
-     , (20600,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20600,   1, 0x0200018A) /* Setup */
+     , (20600,   8, 0x06003546) /* Icon */
+     , (20600,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20600,  28,       2328) /* Spell - DrainHealth7 */
      , (20600, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20600, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20600, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20600, 8000, 3694321058) /* PCAPRecordedObjectIID */;
+VALUES (20600, 8000, 0xDC32DDA2) /* PCAPRecordedObjectIID */;

@@ -26,20 +26,20 @@ VALUES (29473,   1, 'Corpse') /* Name */
      , (29473,  16, 'The corpse of a recently killed Viamontian, with a clean dagger hole in the back.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29473,   1,   33555323) /* Setup */
-     , (29473,   3,  536870932) /* SoundTable */
-     , (29473,   8,  100667504) /* Icon */
-     , (29473,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29473,   1, 0x0200037B) /* Setup */
+     , (29473,   3, 0x20000014) /* SoundTable */
+     , (29473,   8, 0x06001070) /* Icon */
+     , (29473,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29473, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (29473, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (29473, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29473, 8040, 1900998, 20.6654, -580.926, 12, 0.609927, 0, 0, -0.792458) /* PCAPRecordedLocation */
+VALUES (29473, 8040, 0x001D01C6, 20.6654, -580.926, 12, 0.609927, 0, 0, -0.792458) /* PCAPRecordedLocation */
 /* @teleloc 0x001D01C6 [20.665400 -580.926000 12.000000] 0.609927 0.000000 0.000000 -0.792458 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29473, 8000, 1879166998) /* PCAPRecordedObjectIID */;
+VALUES (29473, 8000, 0x7001D016) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29473, -1, 29477, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Varette's Orders (29477) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

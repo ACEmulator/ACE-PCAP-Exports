@@ -41,19 +41,19 @@ VALUES (9395,   1, 'Crest of Kings') /* Name */
      , (9395,  16, 'A large carved shield, with a detailed picture of a mattekar upon it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9395,   1,   33557014) /* Setup */
-     , (9395,   3,  536870932) /* SoundTable */
-     , (9395,   8,  100671513) /* Icon */
-     , (9395,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9395,   1, 0x02000A16) /* Setup */
+     , (9395,   3, 0x20000014) /* SoundTable */
+     , (9395,   8, 0x06002019) /* Icon */
+     , (9395,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9395,  37,         48) /* ItemSkillLimit - Shield */
      , (9395, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (9395, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9395, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9395, 8000, 2157269235) /* PCAPRecordedObjectIID */;
+VALUES (9395, 8000, 0x809550F3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9395,   517,      2)  /* AcidProtectionSelf3 */
-     , (9395,  1091,      2)  /* FireProtectionSelf3 */
+VALUES (9395,  1091,      2)  /* FireProtectionSelf3 */
+     , (9395,   517,      2)  /* AcidProtectionSelf3 */
      , (9395,  1135,      2)  /* PiercingProtectionSelf3 */;

@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29895,   1, 'Embroidered Bag') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29895,   1,   33554769) /* Setup */
-     , (29895,   3,  536870932) /* SoundTable */
-     , (29895,   8,  100671838) /* Icon */
-     , (29895,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29895,   1, 0x02000151) /* Setup */
+     , (29895,   3, 0x20000014) /* SoundTable */
+     , (29895,   8, 0x0600215E) /* Icon */
+     , (29895,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29895, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (29895, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29895, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29895, 8000, 2153709901) /* PCAPRecordedObjectIID */;
+VALUES (29895, 8000, 0x805F014D) /* PCAPRecordedObjectIID */;

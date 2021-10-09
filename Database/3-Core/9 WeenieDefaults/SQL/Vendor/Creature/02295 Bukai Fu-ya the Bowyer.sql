@@ -37,27 +37,27 @@ VALUES (2295,   1, 'Bukai Fu-ya the Bowyer') /* Name */
      , (2295, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2295,   1,   33554433) /* Setup */
-     , (2295,   2,  150994945) /* MotionTable */
-     , (2295,   3,  536870913) /* SoundTable */
-     , (2295,   6,   67108990) /* PaletteBase */
-     , (2295,   8,  100667446) /* Icon */
-     , (2295,   9,   83890450) /* EyesTexture */
-     , (2295,  10,   83890522) /* NoseTexture */
-     , (2295,  11,   83890635) /* MouthTexture */
-     , (2295,  15,   67117020) /* HairPalette */
-     , (2295,  16,   67110062) /* EyesPalette */
-     , (2295,  17,   67110055) /* SkinPalette */
+VALUES (2295,   1, 0x02000001) /* Setup */
+     , (2295,   2, 0x09000001) /* MotionTable */
+     , (2295,   3, 0x20000001) /* SoundTable */
+     , (2295,   6, 0x0400007E) /* PaletteBase */
+     , (2295,   8, 0x06001036) /* Icon */
+     , (2295,   9, 0x05001112) /* EyesTexture */
+     , (2295,  10, 0x0500115A) /* NoseTexture */
+     , (2295,  11, 0x050011CB) /* MouthTexture */
+     , (2295,  15, 0x04001FDC) /* HairPalette */
+     , (2295,  16, 0x040004AE) /* EyesPalette */
+     , (2295,  17, 0x040004A7) /* SkinPalette */
      , (2295, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2295, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2295, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2295, 8040, 3378184454, 128.664, 138.718, 10.805, 0.02743122, 0, 0, -0.9996237) /* PCAPRecordedLocation */
+VALUES (2295, 8040, 0xC95B0106, 128.664, 138.718, 10.805, 0.027431, 0, 0, -0.999624) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B0106 [128.664000 138.718000 10.805000] 0.027431 0.000000 0.000000 -0.999624 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2295, 8000, 2090184730) /* PCAPRecordedObjectIID */;
+VALUES (2295, 8000, 0x7C95B01A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2295,   1,  70, 0, 0) /* Strength */

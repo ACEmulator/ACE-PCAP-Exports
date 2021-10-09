@@ -40,17 +40,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23320,   1, 'Rusted Dirk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23320,   1,   33558089) /* Setup */
-     , (23320,   3,  536870932) /* SoundTable */
-     , (23320,   6,   67111919) /* PaletteBase */
-     , (23320,   8,  100674223) /* Icon */
-     , (23320,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23320,   1, 0x02000E49) /* Setup */
+     , (23320,   3, 0x20000014) /* SoundTable */
+     , (23320,   6, 0x04000BEF) /* PaletteBase */
+     , (23320,   8, 0x06002AAF) /* Icon */
+     , (23320,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23320, 8001, 2434876944) /* PCAPRecordedWeenieHeader - Usable, CombatUse, Structure, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (23320, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23320, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23320, 8000, 3708842985) /* PCAPRecordedObjectIID */;
+VALUES (23320, 8000, 0xDD1073E9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23320, 67113835, 0, 0);

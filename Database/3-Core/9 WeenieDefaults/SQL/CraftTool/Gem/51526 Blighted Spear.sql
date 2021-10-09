@@ -24,14 +24,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51526,   1, 'Blighted Spear') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51526,   1,   33560674) /* Setup */
-     , (51526,   3,  536870932) /* SoundTable */
-     , (51526,   8,  100690282) /* Icon */
-     , (51526,  22,  872415275) /* PhysicsEffectTable */
-     , (51526,  50,  100667895) /* IconOverlay */
+VALUES (51526,   1, 0x02001862) /* Setup */
+     , (51526,   3, 0x20000014) /* SoundTable */
+     , (51526,   8, 0x0600696A) /* Icon */
+     , (51526,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51526,  50, 0x060011F7) /* IconOverlay */
      , (51526, 8001, 1344827416) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType, IconOverlay */
      , (51526, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51526, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51526, 8000, 2174554117) /* PCAPRecordedObjectIID */;
+VALUES (51526, 8000, 0x819D1005) /* PCAPRecordedObjectIID */;

@@ -24,16 +24,16 @@ VALUES (1448,   1, 'Wheat Bread') /* Name */
      , (1448,  20, 'Loaves of Wheat Bread') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1448,   1,   33554806) /* Setup */
-     , (1448,   8,  100667455) /* Icon */
-     , (1448,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1448,   1, 0x02000176) /* Setup */
+     , (1448,   8, 0x0600103F) /* Icon */
+     , (1448,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1448, 8001,    2109593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Burden */
      , (1448, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (1448, 8005,     167937) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1448, 8040, 2173960240, 127.4872, 174.9934, 124, 0.9693203, 0, 0, -0.2458011) /* PCAPRecordedLocation */
+VALUES (1448, 8040, 0x81940030, 127.4872, 174.9934, 124, 0.96932, 0, 0, -0.245801) /* PCAPRecordedLocation */
 /* @teleloc 0x81940030 [127.487200 174.993400 124.000000] 0.969320 0.000000 0.000000 -0.245801 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1448, 8000, 3708736208) /* PCAPRecordedObjectIID */;
+VALUES (1448, 8000, 0xDD0ED2D0) /* PCAPRecordedObjectIID */;

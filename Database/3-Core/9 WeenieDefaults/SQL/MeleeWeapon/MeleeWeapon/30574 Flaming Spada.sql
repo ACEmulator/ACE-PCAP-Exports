@@ -27,17 +27,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30574,   1, 'Flaming Spada') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30574,   1,   33559461) /* Setup */
-     , (30574,   3,  536870932) /* SoundTable */
-     , (30574,   6,   67115557) /* PaletteBase */
-     , (30574,   8,  100686951) /* Icon */
-     , (30574,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30574,   1, 0x020013A5) /* Setup */
+     , (30574,   3, 0x20000014) /* SoundTable */
+     , (30574,   6, 0x04001A25) /* PaletteBase */
+     , (30574,   8, 0x06005C67) /* Icon */
+     , (30574,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30574, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30574, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30574, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30574, 8000, 2149209710) /* PCAPRecordedObjectIID */;
+VALUES (30574, 8000, 0x801A566E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30574, 67116394, 0, 0);

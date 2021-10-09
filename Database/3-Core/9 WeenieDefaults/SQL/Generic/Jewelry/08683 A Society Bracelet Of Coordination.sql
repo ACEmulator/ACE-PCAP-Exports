@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8683,   1,          8) /* ItemType - Jewelry */
      , (8683,   5,         60) /* EncumbranceVal */
      , (8683,   9,     196608) /* ValidLocations - WristWear */
-     , (8683,  10,      65536) /* CurrentWieldedLocation - WristWearLeft */
      , (8683,  16,          1) /* ItemUseable - No */
      , (8683,  18,          1) /* UiEffects - Magical */
      , (8683,  19,          1) /* Value */
@@ -29,17 +28,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8683,   1, 'A Society Bracelet Of Coordination') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8683,   1,   33554683) /* Setup */
-     , (8683,   3,  536870932) /* SoundTable */
-     , (8683,   6,   67111919) /* PaletteBase */
-     , (8683,   8,  100668622) /* Icon */
-     , (8683,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8683,   1, 0x020000FB) /* Setup */
+     , (8683,   3, 0x20000014) /* SoundTable */
+     , (8683,   6, 0x04000BEF) /* PaletteBase */
+     , (8683,   8, 0x060014CE) /* Icon */
+     , (8683,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8683, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (8683, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8683, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8683, 8000, 2629411145) /* PCAPRecordedObjectIID */;
+VALUES (8683, 8000, 0x9CB9A149) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8683,  1380,      2)  /* CoordinationOther2 */;

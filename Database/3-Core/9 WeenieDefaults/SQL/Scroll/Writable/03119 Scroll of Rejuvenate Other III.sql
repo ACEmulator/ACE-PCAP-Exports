@@ -24,17 +24,17 @@ VALUES (3119,   1, 'Scroll of Rejuvenate Other III') /* Name */
 Increases the rate at which the target regains Stamina by 40%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3119,   1,   33554826) /* Setup */
-     , (3119,   8,  100676940) /* Icon */
-     , (3119,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3119,   1, 0x0200018A) /* Setup */
+     , (3119,   8, 0x0600354C) /* Icon */
+     , (3119,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3119,  28,        185) /* Spell - RejuvenationOther3 */
      , (3119, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (3119, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3119, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3119, 8040, 23200140, 88.39101, -163.0031, 6.0855, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (3119, 8040, 0x0162018C, 88.39101, -163.0031, 6.0855, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0162018C [88.391010 -163.003100 6.085500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3119, 8000, 3354989524) /* PCAPRecordedObjectIID */;
+VALUES (3119, 8000, 0xC7F913D4) /* PCAPRecordedObjectIID */;

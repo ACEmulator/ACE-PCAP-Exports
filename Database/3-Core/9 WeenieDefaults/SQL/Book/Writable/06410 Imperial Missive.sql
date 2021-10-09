@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6410,   1, 'Imperial Missive') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6410,   1,   33554773) /* Setup */
-     , (6410,   3,  536870932) /* SoundTable */
-     , (6410,   8,  100667503) /* Icon */
-     , (6410,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6410,   1, 0x02000155) /* Setup */
+     , (6410,   3, 0x20000014) /* SoundTable */
+     , (6410,   8, 0x0600106F) /* Icon */
+     , (6410,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6410, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (6410, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (6410, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6410, 8000, 3098164665) /* PCAPRecordedObjectIID */;
+VALUES (6410, 8000, 0xB8AA3DB9) /* PCAPRecordedObjectIID */;

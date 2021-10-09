@@ -39,11 +39,11 @@ VALUES (49563,   1, 'Facility Hub Portal Gem') /* Name */
      , (49563,  15, 'A gem teeming with portal energy. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49563,   1,   33556769) /* Setup */
-     , (49563,   3,  536870932) /* SoundTable */
-     , (49563,   6,   67111919) /* PaletteBase */
-     , (49563,   8,  100676422) /* Icon */
-     , (49563,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49563,   1, 0x02000921) /* Setup */
+     , (49563,   3, 0x20000014) /* SoundTable */
+     , (49563,   6, 0x04000BEF) /* PaletteBase */
+     , (49563,   8, 0x06003346) /* Icon */
+     , (49563,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49563,  28,       5175) /* Spell - PortalSendHubNPE */
      , (49563, 8001,    6844560) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (49563, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
@@ -51,7 +51,7 @@ VALUES (49563,   1,   33556769) /* Setup */
      , (49563, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49563, 8000, 3673876821) /* PCAPRecordedObjectIID */;
+VALUES (49563, 8000, 0xDAFAE955) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49563, 67111921, 0, 0);

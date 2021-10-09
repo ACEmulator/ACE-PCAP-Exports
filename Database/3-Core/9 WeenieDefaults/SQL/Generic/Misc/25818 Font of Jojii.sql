@@ -28,16 +28,16 @@ VALUES (25818,   1, 'Font of Jojii') /* Name */
      , (25818,  16, 'A font crafted from objects representative of the teachings of Sho belief.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25818,   1,   33558567) /* Setup */
-     , (25818,   3,  536870937) /* SoundTable */
-     , (25818,   8,  100675653) /* Icon */
+VALUES (25818,   1, 0x02001027) /* Setup */
+     , (25818,   3, 0x20000019) /* SoundTable */
+     , (25818,   8, 0x06003045) /* Icon */
      , (25818, 8001,  270532664) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden, HookType */
      , (25818, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25818, 8005,     165889) /* PCAPRecordedPhysicsDesc - CSetup, STable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25818, 8040, 3332964379, 74.35485, 68.54779, 41.97577, -0.7668632, 0, 0, -0.6418106) /* PCAPRecordedLocation */
+VALUES (25818, 8040, 0xC6A9001B, 74.35485, 68.54779, 41.97577, -0.766863, 0, 0, -0.641811) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [74.354850 68.547790 41.975770] -0.766863 0.000000 0.000000 -0.641811 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25818, 8000, 2243216299) /* PCAPRecordedObjectIID */;
+VALUES (25818, 8000, 0x85B4C3AB) /* PCAPRecordedObjectIID */;

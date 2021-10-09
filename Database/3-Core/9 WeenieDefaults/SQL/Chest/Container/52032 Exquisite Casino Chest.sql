@@ -30,21 +30,21 @@ VALUES (52032,   1, 'Exquisite Casino Chest') /* Name */
      , (52032, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52032,   1,   33557027) /* Setup */
-     , (52032,   2,  150994948) /* MotionTable */
-     , (52032,   3,  536870945) /* SoundTable */
-     , (52032,   8,  100671480) /* Icon */
-     , (52032,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52032,   1, 0x02000A23) /* Setup */
+     , (52032,   2, 0x09000004) /* MotionTable */
+     , (52032,   3, 0x20000021) /* SoundTable */
+     , (52032,   8, 0x06001FF8) /* Icon */
+     , (52032,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52032, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (52032, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (52032, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52032, 8040, 3679715589, 103.34, 128.282, 25.6, -0.7129678, 0, 0, -0.7011968) /* PCAPRecordedLocation */
+VALUES (52032, 8040, 0xDB540105, 103.34, 128.282, 25.6, -0.712968, 0, 0, -0.701197) /* PCAPRecordedLocation */
 /* @teleloc 0xDB540105 [103.340000 128.282000 25.600000] -0.712968 0.000000 0.000000 -0.701197 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52032, 8000, 2109030419) /* PCAPRecordedObjectIID */;
+VALUES (52032, 8000, 0x7DB54013) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52032, -1, 6044, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Celdon Breastplate (6044) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

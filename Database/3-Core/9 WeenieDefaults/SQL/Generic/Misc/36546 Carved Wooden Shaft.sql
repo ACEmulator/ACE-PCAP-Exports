@@ -21,19 +21,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36546,   1, 'Carved Wooden Shaft') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36546,   1,   33554817) /* Setup */
-     , (36546,   3,  536870932) /* SoundTable */
-     , (36546,   6,   67111919) /* PaletteBase */
-     , (36546,   8,  100689658) /* Icon */
-     , (36546,  22,  872415275) /* PhysicsEffectTable */
-     , (36546,  52,  100667860) /* IconUnderlay */
+VALUES (36546,   1, 0x02000181) /* Setup */
+     , (36546,   3, 0x20000014) /* SoundTable */
+     , (36546,   6, 0x04000BEF) /* PaletteBase */
+     , (36546,   8, 0x060066FA) /* Icon */
+     , (36546,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (36546,  52, 0x060011D4) /* IconUnderlay */
      , (36546, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (36546, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (36546, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (36546, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36546, 8000, 3102401636) /* PCAPRecordedObjectIID */;
+VALUES (36546, 8000, 0xB8EAE464) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36546, 67111924, 0, 0);

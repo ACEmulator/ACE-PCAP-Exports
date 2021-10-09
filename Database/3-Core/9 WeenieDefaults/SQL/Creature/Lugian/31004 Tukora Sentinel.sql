@@ -22,22 +22,22 @@ VALUES (31004,   1, 'Tukora Sentinel') /* Name */
      , (31004, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31004,   1,   33557003) /* Setup */
-     , (31004,   2,  150994950) /* MotionTable */
-     , (31004,   3,  536870922) /* SoundTable */
-     , (31004,   6,   67113158) /* PaletteBase */
-     , (31004,   8,  100667447) /* Icon */
-     , (31004,  22,  872415262) /* PhysicsEffectTable */
+VALUES (31004,   1, 0x02000A0B) /* Setup */
+     , (31004,   2, 0x09000006) /* MotionTable */
+     , (31004,   3, 0x2000000A) /* SoundTable */
+     , (31004,   6, 0x040010C6) /* PaletteBase */
+     , (31004,   8, 0x06001037) /* Icon */
+     , (31004,  22, 0x3400001E) /* PhysicsEffectTable */
      , (31004, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (31004, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (31004, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31004, 8040, 2753224, 130.576, -204.319, -11.99, 0.98496, 0, 0, 0.172783) /* PCAPRecordedLocation */
+VALUES (31004, 8040, 0x002A02C8, 130.576, -204.319, -11.99, 0.98496, 0, 0, 0.172783) /* PCAPRecordedLocation */
 /* @teleloc 0x002A02C8 [130.576000 -204.319000 -11.990000] 0.984960 0.000000 0.000000 0.172783 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31004, 8000, 3334664784) /* PCAPRecordedObjectIID */;
+VALUES (31004, 8000, 0xC6C2F250) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (31004,   1,     0, 0, 0, 4670) /* MaxHealth */;

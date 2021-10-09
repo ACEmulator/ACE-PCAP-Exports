@@ -27,14 +27,14 @@ VALUES (32267,   1, 'Keg of Apothecary Zongo''s Stout') /* Name */
      , (32267,  20, 'Kegs of Apothecary Zongo''s Stout') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32267,   1,   33559798) /* Setup */
-     , (32267,   3,  536870932) /* SoundTable */
-     , (32267,   8,  100688500) /* Icon */
-     , (32267,  22,  872415275) /* PhysicsEffectTable */
-     , (32267,  50,  100687554) /* IconOverlay */
+VALUES (32267,   1, 0x020014F6) /* Setup */
+     , (32267,   3, 0x20000014) /* SoundTable */
+     , (32267,   8, 0x06006274) /* Icon */
+     , (32267,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32267,  50, 0x06005EC2) /* IconOverlay */
      , (32267, 8001, 1344303129) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType, IconOverlay */
      , (32267, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (32267, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32267, 8000, 3696489073) /* PCAPRecordedObjectIID */;
+VALUES (32267, 8000, 0xDC53F271) /* PCAPRecordedObjectIID */;

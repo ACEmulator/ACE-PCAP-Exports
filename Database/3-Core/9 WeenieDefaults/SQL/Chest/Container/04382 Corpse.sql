@@ -24,20 +24,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4382,   1, 'Corpse') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4382,   1,   33556619) /* Setup */
-     , (4382,   3,  536870932) /* SoundTable */
-     , (4382,   8,  100667504) /* Icon */
-     , (4382,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4382,   1, 0x0200088B) /* Setup */
+     , (4382,   3, 0x20000014) /* SoundTable */
+     , (4382,   8, 0x06001070) /* Icon */
+     , (4382,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4382, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
      , (4382, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (4382, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4382, 8040, 3779985465, 173.7852, 6.205289, 19.48289, 0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
+VALUES (4382, 8040, 0xE14E0039, 173.7852, 6.205289, 19.48289, 0.92388, 0, 0, -0.382684) /* PCAPRecordedLocation */
 /* @teleloc 0xE14E0039 [173.785200 6.205289 19.482890] 0.923880 0.000000 0.000000 -0.382684 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4382, 8000, 3630350212) /* PCAPRecordedObjectIID */;
+VALUES (4382, 8000, 0xD862BF84) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4382, -1, 5961, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Cooking Mastery Self VI (5961) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

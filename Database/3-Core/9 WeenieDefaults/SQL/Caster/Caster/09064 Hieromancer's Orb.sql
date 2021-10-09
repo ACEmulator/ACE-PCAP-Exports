@@ -7,10 +7,10 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (9064,   1,      32768) /* ItemType - Caster */
      , (9064,   5,         50) /* EncumbranceVal */
      , (9064,   9,   16777216) /* ValidLocations - Held */
-     , (9064,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (9064,  16,          1) /* ItemUseable - No */
      , (9064,  18,          1) /* UiEffects - Magical */
      , (9064,  19,       1000) /* Value */
+     , (9064,  46,        512) /* DefaultCombatStyle - Magic */
      , (9064,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9064,  94,         16) /* TargetType - Creature */
      , (9064, 106,        225) /* ItemSpellcraft */
@@ -33,11 +33,11 @@ VALUES (9064,   1, 'Hieromancer''s Orb') /* Name */
      , (9064,  16, 'An orb of the type carried by the Yalaini Order of Hieromancers, as an emblem of their station.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9064,   1,   33556965) /* Setup */
-     , (9064,   3,  536870932) /* SoundTable */
-     , (9064,   6,   67111919) /* PaletteBase */
-     , (9064,   8,  100671367) /* Icon */
-     , (9064,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9064,   1, 0x020009E5) /* Setup */
+     , (9064,   3, 0x20000014) /* SoundTable */
+     , (9064,   6, 0x04000BEF) /* PaletteBase */
+     , (9064,   8, 0x06001F87) /* Icon */
+     , (9064,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9064,  37,         34) /* ItemSkillLimit - WarMagic */
      , (9064, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (9064, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -45,17 +45,17 @@ VALUES (9064,   1,   33556965) /* Setup */
      , (9064, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9064, 8040, 3583574080, 184.0995, 168.9445, 383.929, -0.06448367, -0.06448367, -0.7041604, -0.7041604) /* PCAPRecordedLocation */
+VALUES (9064, 8040, 0xD5990040, 184.0995, 168.9445, 383.929, -0.064484, -0.064484, -0.70416, -0.70416) /* PCAPRecordedLocation */
 /* @teleloc 0xD5990040 [184.099500 168.944500 383.929000] -0.064484 -0.064484 -0.704160 -0.704160 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9064, 8000, 3687338398) /* PCAPRecordedObjectIID */
-     , (9064, 8008, 1343383817) /* PCAPRecordedParentIID */;
+VALUES (9064, 8000, 0xDBC8519E) /* PCAPRecordedObjectIID */
+     , (9064, 8008, 0x50126909) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9064,   634,      2)  /* WarMagicMasterySelf6 */
-     , (9064,  1426,      2)  /* FocusSelf6 */
-     , (9064,  1450,      2)  /* WillpowerSelf6 */;
+VALUES (9064,  1426,      2)  /* FocusSelf6 */
+     , (9064,  1450,      2)  /* WillpowerSelf6 */
+     , (9064,   634,      2)  /* WarMagicMasterySelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9064, 67111920, 0, 0);

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45461,   1,          1) /* ItemType - MeleeWeapon */
      , (45461,   5,        600) /* EncumbranceVal */
      , (45461,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (45461,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (45461,  16,          1) /* ItemUseable - No */
      , (45461,  17,        241) /* RareId */
      , (45461,  18,        128) /* UiEffects - Frost */
@@ -54,12 +53,12 @@ VALUES (45461,   1, 'Brador''s Frozen Eye') /* Name */
      , (45461,  16, 'Seemingly made from ice, this sword first appeared in a conflict between Milantos and Souia-Vey.  It is said that long ago, the Milantan sorcerer-king Karuz had come to the conclusion that the secret of eternal life lay in the blood of the hardy steppe warriors of Souia-Vey.  The Milantans began to kidnap villagers from the neighboring land so that could tests could be performed.  The Souia-Vey were largely helpless against the depredations of the sorceror''s minions, until the hero Brador appeared.  Armed with a sword that seemed to fend off sorcery, he alone was able to repel the Milantan incursions.  Frustrated by Brador''s defense of the Souia-Vey, Karuz himself appeared to challenge Brador. Some say that the battle lasted for days, others only an instant.  Whatever the outcome, neither Brador nor Karuz were ever seen again.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45461,   1,   33559394) /* Setup */
-     , (45461,   3,  536870932) /* SoundTable */
-     , (45461,   6,   67111919) /* PaletteBase */
-     , (45461,   8,  100686771) /* Icon */
-     , (45461,  22,  872415275) /* PhysicsEffectTable */
-     , (45461,  52,  100686604) /* IconUnderlay */
+VALUES (45461,   1, 0x02001362) /* Setup */
+     , (45461,   3, 0x20000014) /* SoundTable */
+     , (45461,   6, 0x04000BEF) /* PaletteBase */
+     , (45461,   8, 0x06005BB3) /* Icon */
+     , (45461,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45461,  52, 0x06005B0C) /* IconUnderlay */
      , (45461, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (45461, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45461, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -67,22 +66,22 @@ VALUES (45461,   1,   33559394) /* Setup */
      , (45461, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45461, 8040, 23855549, 48.93871, -36.75986, -0.071, 0.04946445, 0.04946445, 0.7053745, 0.7053745) /* PCAPRecordedLocation */
+VALUES (45461, 8040, 0x016C01BD, 48.93871, -36.75986, -0.071, 0.049464, 0.049464, 0.705375, 0.705375) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [48.938710 -36.759860 -0.071000] 0.049464 0.049464 0.705375 0.705375 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45461, 8000, 3555942623) /* PCAPRecordedObjectIID */
-     , (45461, 8008, 1343246130) /* PCAPRecordedParentIID */;
+VALUES (45461, 8000, 0xD3F360DF) /* PCAPRecordedObjectIID */
+     , (45461, 8008, 0x50104F32) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45461,  4325,      2)  /* StrengthSelf8 */
+VALUES (45461,  4676,      2)  /* CANTRIPFROSTWARD3 */
+     , (45461,  4498,      2)  /* RejuvenationSelf8 */
+     , (45461,  4325,      2)  /* StrengthSelf8 */
+     , (45461,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */
      , (45461,  4395,      2)  /* BloodDrinkerSelf8 */
      , (45461,  4466,      2)  /* ColdProtectionSelf8 */
-     , (45461,  4498,      2)  /* RejuvenationSelf8 */
      , (45461,  4596,      2)  /* MagicResistanceSelf8 */
-     , (45461,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45461,  4676,      2)  /* CANTRIPFROSTWARD3 */
-     , (45461,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;
+     , (45461,  4661,      2)  /* CANTRIPBLOODTHIRST3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45461, 67111920, 0, 0);

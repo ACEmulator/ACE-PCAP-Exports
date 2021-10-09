@@ -25,22 +25,22 @@ VALUES (19285,   1, 'Bronze Statue of a Tumerok') /* Name */
      , (19285, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19285,   1,   33559553) /* Setup */
-     , (19285,   2,  150995191) /* MotionTable */
-     , (19285,   3,  536871052) /* SoundTable */
-     , (19285,   6,   67116625) /* PaletteBase */
-     , (19285,   8,  100667452) /* Icon */
-     , (19285,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19285,   1, 0x02001401) /* Setup */
+     , (19285,   2, 0x090000F7) /* MotionTable */
+     , (19285,   3, 0x2000008C) /* SoundTable */
+     , (19285,   6, 0x04001E51) /* PaletteBase */
+     , (19285,   8, 0x0600103C) /* Icon */
+     , (19285,  22, 0x34000075) /* PhysicsEffectTable */
      , (19285, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (19285, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19285, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19285, 8040, 1415053850, 167.528, -122.385, 0.0115, 0.999488, 0, 0, 0.032004) /* PCAPRecordedLocation */
+VALUES (19285, 8040, 0x5458021A, 167.528, -122.385, 0.0115, 0.999488, 0, 0, 0.032004) /* PCAPRecordedLocation */
 /* @teleloc 0x5458021A [167.528000 -122.385000 0.011500] 0.999488 0.000000 0.000000 0.032004 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19285, 8000, 2627701136) /* PCAPRecordedObjectIID */;
+VALUES (19285, 8000, 0x9C9F8990) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (19285,   1,     0, 0, 0, 250) /* MaxHealth */;

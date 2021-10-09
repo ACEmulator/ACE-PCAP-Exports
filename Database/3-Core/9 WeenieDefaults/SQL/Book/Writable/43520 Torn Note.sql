@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43520,   1, 'Torn Note') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43520,   1,   33554773) /* Setup */
-     , (43520,   3,  536870932) /* SoundTable */
-     , (43520,   8,  100667503) /* Icon */
-     , (43520,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43520,   1, 0x02000155) /* Setup */
+     , (43520,   3, 0x20000014) /* SoundTable */
+     , (43520,   8, 0x0600106F) /* Icon */
+     , (43520,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43520, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (43520, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (43520, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43520, 8000, 2404365832) /* PCAPRecordedObjectIID */;
+VALUES (43520, 8000, 0x8F4FB608) /* PCAPRecordedObjectIID */;

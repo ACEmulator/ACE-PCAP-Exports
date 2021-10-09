@@ -8,7 +8,6 @@ VALUES (45971,   1,          2) /* ItemType - Armor */
      , (45971,   4,       4096) /* ClothingPriority - OuterwearUpperArms */
      , (45971,   5,        350) /* EncumbranceVal */
      , (45971,   9,       2048) /* ValidLocations - UpperArmArmor */
-     , (45971,  10,       2048) /* CurrentWieldedLocation - UpperArmArmor */
      , (45971,  16,          1) /* ItemUseable - No */
      , (45971,  19,        100) /* Value */
      , (45971,  28,        480) /* ArmorLevel */
@@ -26,6 +25,7 @@ VALUES (45971,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45971,  22, True ) /* Inscribable */
+     , (45971,  23, True ) /* DestroyOnSell */
      , (45971,  99, True ) /* Ivoryable */
      , (45971, 100, True ) /* Dyable */;
 
@@ -45,25 +45,25 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45971,   1, 'Covenant Pauldrons') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45971,   1,   33554641) /* Setup */
-     , (45971,   3,  536870932) /* SoundTable */
-     , (45971,   6,   67108990) /* PaletteBase */
-     , (45971,   8,  100673451) /* Icon */
-     , (45971,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45971,   1, 0x020000D1) /* Setup */
+     , (45971,   3, 0x20000014) /* SoundTable */
+     , (45971,   6, 0x0400007E) /* PaletteBase */
+     , (45971,   8, 0x060027AB) /* Icon */
+     , (45971,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45971, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (45971, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45971, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45971, 8000, 3041737226) /* PCAPRecordedObjectIID */;
+VALUES (45971, 8000, 0xB54D3A0A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45971,   640,      2)  /* WarMagicMasteryOther6 */
-     , (45971,  1041,      2)  /* ColdProtectionOther6 */
      , (45971,  1486,      2)  /* Impenetrability6 */
-     , (45971,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
+     , (45971,  1041,      2)  /* ColdProtectionOther6 */
+     , (45971,  5408,      2)  /* VoidMagicMasteryOther6 */
      , (45971,  2602,      2)  /* CANTRIPFROSTBANE1 */
-     , (45971,  5408,      2)  /* VoidMagicMasteryOther6 */;
+     , (45971,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45971, 67113958, 116, 12);

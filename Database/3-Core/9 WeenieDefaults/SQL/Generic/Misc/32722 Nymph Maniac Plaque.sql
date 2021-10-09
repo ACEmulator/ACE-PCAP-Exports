@@ -18,19 +18,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32722,   1, 'Nymph Maniac Plaque') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32722,   1,   33559570) /* Setup */
-     , (32722,   3,  536870932) /* SoundTable */
-     , (32722,   6,   67111919) /* PaletteBase */
-     , (32722,   8,  100667623) /* Icon */
-     , (32722,  22,  872415275) /* PhysicsEffectTable */
-     , (32722,  52,  100687686) /* IconUnderlay */
+VALUES (32722,   1, 0x02001412) /* Setup */
+     , (32722,   3, 0x20000014) /* SoundTable */
+     , (32722,   6, 0x04000BEF) /* PaletteBase */
+     , (32722,   8, 0x060010E7) /* Icon */
+     , (32722,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32722,  52, 0x06005F46) /* IconUnderlay */
      , (32722, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (32722, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (32722, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (32722, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32722, 8000, 2981039349) /* PCAPRecordedObjectIID */;
+VALUES (32722, 8000, 0xB1AF0CF5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32722, 67111923, 0, 0);

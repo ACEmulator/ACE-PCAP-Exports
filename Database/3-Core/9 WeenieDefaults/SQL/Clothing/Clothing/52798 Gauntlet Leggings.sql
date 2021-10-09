@@ -26,6 +26,7 @@ VALUES (52798,   1,          4) /* ItemType - Clothing */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52798,  22, True ) /* Inscribable */
+     , (52798,  23, True ) /* DestroyOnSell */
      , (52798,  69, False) /* IsSellable */
      , (52798,  99, True ) /* Ivoryable */
      , (52798, 100, True ) /* Dyable */;
@@ -46,21 +47,21 @@ VALUES (52798,   1, 'Gauntlet Leggings') /* Name */
      , (52798,  16, 'One piece of the Gauntlet Garb Set.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52798,   1,   33554653) /* Setup */
-     , (52798,   3,  536870932) /* SoundTable */
-     , (52798,   6,   67108990) /* PaletteBase */
-     , (52798,   8,  100682344) /* Icon */
-     , (52798,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52798,   1, 0x020000DD) /* Setup */
+     , (52798,   3, 0x20000014) /* SoundTable */
+     , (52798,   6, 0x0400007E) /* PaletteBase */
+     , (52798,   8, 0x06004A68) /* Icon */
+     , (52798,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52798, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (52798, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52798, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52798, 8000, 3318001805) /* PCAPRecordedObjectIID */;
+VALUES (52798, 8000, 0xC5C4B08D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52798,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
-     , (52798,  6106,      2)  /* CantripQuickness4 */;
+VALUES (52798,  6106,      2)  /* CantripQuickness4 */
+     , (52798,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52798, 67115698, 72, 8)

@@ -36,27 +36,27 @@ VALUES (42220,   1, 'Master Enchanter') /* Name */
      , (42220, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42220,   1,   33554433) /* Setup */
-     , (42220,   2,  150994945) /* MotionTable */
-     , (42220,   3,  536870913) /* SoundTable */
-     , (42220,   6,   67108990) /* PaletteBase */
-     , (42220,   8,  100667446) /* Icon */
-     , (42220,   9,   83890457) /* EyesTexture */
-     , (42220,  10,   83890530) /* NoseTexture */
-     , (42220,  11,   83890575) /* MouthTexture */
-     , (42220,  15,   67117079) /* HairPalette */
-     , (42220,  16,   67110063) /* EyesPalette */
-     , (42220,  17,   67109557) /* SkinPalette */
+VALUES (42220,   1, 0x02000001) /* Setup */
+     , (42220,   2, 0x09000001) /* MotionTable */
+     , (42220,   3, 0x20000001) /* SoundTable */
+     , (42220,   6, 0x0400007E) /* PaletteBase */
+     , (42220,   8, 0x06001036) /* Icon */
+     , (42220,   9, 0x05001119) /* EyesTexture */
+     , (42220,  10, 0x05001162) /* NoseTexture */
+     , (42220,  11, 0x0500118F) /* MouthTexture */
+     , (42220,  15, 0x04002017) /* HairPalette */
+     , (42220,  16, 0x040004AF) /* EyesPalette */
+     , (42220,  17, 0x040002B5) /* SkinPalette */
      , (42220, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (42220, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (42220, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42220, 8040, 2315387330, 56.72916, -56.69519, 0.004999995, 0.3826834, 0, 0, -0.9238795) /* PCAPRecordedLocation */
+VALUES (42220, 8040, 0x8A0201C2, 56.72916, -56.69519, 0.005, 0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0x8A0201C2 [56.729160 -56.695190 0.005000] 0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42220, 8000, 3689943598) /* PCAPRecordedObjectIID */;
+VALUES (42220, 8000, 0xDBF0122E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42220,   1, 100, 0, 0) /* Strength */
@@ -94,37 +94,7 @@ VALUES (42220, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sh
      , (42220, 4, 42216, -1, 0, 0, False) /* Create Cold Protection Other IV (42216) for Shop */
      , (42220, 4, 42217, -1, 0, 0, False) /* Create Fire Protection Other IV (42217) for Shop */
      , (42220, 4, 42218, -1, 0, 0, False) /* Create Lightning Protection Other IV (42218) for Shop */
-     , (42220, 4, 42219, -1, 0, 0, False) /* Create Piercing Protection Other IV (42219) for Shop */
-     , (42220, 4, 49421, -1, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for Shop */
-     , (42220, 4, 49428, -1, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for Shop */
-     , (42220, 4, 49213, -1, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for Shop */
-     , (42220, 4, 49435, -1, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for Shop */
-     , (42220, 4, 49331, -1, 0, 0, False) /* Create Frost Wisp Essence (50) (49331) for Shop */
-     , (42220, 4, 49275, -1, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for Shop */
-     , (42220, 4, 49387, -1, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for Shop */
-     , (42220, 4, 49303, -1, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for Shop */
-     , (42220, 4, 49268, -1, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for Shop */
-     , (42220, 4, 49345, -1, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for Shop */
-     , (42220, 4, 49282, -1, 0, 0, False) /* Create Acid K'nath Essence (50) (49282) for Shop */
-     , (42220, 4, 49289, -1, 0, 0, False) /* Create Lightning K'nath Essence (50) (49289) for Shop */
-     , (42220, 4, 49538, -1, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for Shop */
-     , (42220, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */
-     , (42220, 4, 49352, -1, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for Shop */
-     , (42220, 4, 49254, -1, 0, 0, False) /* Create Frost Zombie Essence (50) (49254) for Shop */
-     , (42220, 4, 49220, -1, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for Shop */
-     , (42220, 4, 49380, -1, 0, 0, False) /* Create Fire Grievver Essence (50) (49380) for Shop */
-     , (42220, 4, 49338, -1, 0, 0, False) /* Create Acid Moar Essence (50) (49338) for Shop */
-     , (42220, 4, 49524, -1, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for Shop */
-     , (42220, 4, 49324, -1, 0, 0, False) /* Create Fire Wisp Essence (50) (49324) for Shop */
-     , (42220, 4, 49442, -1, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for Shop */
-     , (42220, 4, 48959, -1, 0, 0, False) /* Create Fire Elemental Essence (50) (48959) for Shop */
-     , (42220, 4, 49317, -1, 0, 0, False) /* Create Lightning Wisp Essence (50) (49317) for Shop */
-     , (42220, 4, 49261, -1, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for Shop */
-     , (42220, 4, 48972, -1, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for Shop */
-     , (42220, 4, 49359, -1, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for Shop */
-     , (42220, 4, 49227, -1, 0, 0, False) /* Create Frost Skeleton Minion Essence (50) (49227) for Shop */
-     , (42220, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */
-     , (42220, 4, 49310, -1, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for Shop */;
+     , (42220, 4, 42219, -1, 0, 0, False) /* Create Piercing Protection Other IV (42219) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (42220, 67109557, 0, 24)

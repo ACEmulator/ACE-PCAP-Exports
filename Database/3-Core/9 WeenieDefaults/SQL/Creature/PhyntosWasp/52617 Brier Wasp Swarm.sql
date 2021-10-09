@@ -26,22 +26,22 @@ VALUES (52617,   1, 'Brier Wasp Swarm') /* Name */
      , (52617, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52617,   1,   33558818) /* Setup */
-     , (52617,   2,  150995304) /* MotionTable */
-     , (52617,   3,  536870926) /* SoundTable */
-     , (52617,   6,   67115262) /* PaletteBase */
-     , (52617,   8,  100667450) /* Icon */
-     , (52617,  22,  872415266) /* PhysicsEffectTable */
+VALUES (52617,   1, 0x02001122) /* Setup */
+     , (52617,   2, 0x09000168) /* MotionTable */
+     , (52617,   3, 0x2000000E) /* SoundTable */
+     , (52617,   6, 0x040018FE) /* PaletteBase */
+     , (52617,   8, 0x0600103A) /* Icon */
+     , (52617,  22, 0x34000022) /* PhysicsEffectTable */
      , (52617, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (52617, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (52617, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52617, 8040, 3024617519, 122.4035, 148.2287, 112.0008, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52617, 8040, 0xB448002F, 122.4035, 148.2287, 112.0008, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB448002F [122.403500 148.228700 112.000800] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52617, 8000, 3684769617) /* PCAPRecordedObjectIID */;
+VALUES (52617, 8000, 0xDBA11F51) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (52617,   1,     0, 0, 0, 10200) /* MaxHealth */;

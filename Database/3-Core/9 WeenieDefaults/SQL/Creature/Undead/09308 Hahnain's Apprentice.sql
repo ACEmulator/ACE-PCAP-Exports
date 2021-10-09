@@ -28,21 +28,21 @@ VALUES (9308,   1, 'Hahnain''s Apprentice') /* Name */
      , (9308, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9308,   1,   33554839) /* Setup */
-     , (9308,   2,  150994967) /* MotionTable */
-     , (9308,   3,  536870934) /* SoundTable */
-     , (9308,   6,   67110722) /* PaletteBase */
-     , (9308,   8,  100667942) /* Icon */
+VALUES (9308,   1, 0x02000197) /* Setup */
+     , (9308,   2, 0x09000017) /* MotionTable */
+     , (9308,   3, 0x20000016) /* SoundTable */
+     , (9308,   6, 0x04000742) /* PaletteBase */
+     , (9308,   8, 0x06001226) /* Icon */
      , (9308, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (9308, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (9308, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9308, 8040, 43843847, 48.3683, -59.943, 0.007499993, 0.691542, 0, 0, -0.722337) /* PCAPRecordedLocation */
+VALUES (9308, 8040, 0x029D0107, 48.3683, -59.943, 0.0075, 0.691542, 0, 0, -0.722337) /* PCAPRecordedLocation */
 /* @teleloc 0x029D0107 [48.368300 -59.943000 0.007500] 0.691542 0.000000 0.000000 -0.722337 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9308, 8000, 2780367559) /* PCAPRecordedObjectIID */;
+VALUES (9308, 8000, 0xA5B90AC7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9308,   1, 200, 0, 0) /* Strength */

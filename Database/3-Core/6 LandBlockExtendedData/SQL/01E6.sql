@@ -25,5 +25,5 @@ VALUES (0x701E600F,  1923, 0x01E60139, 48.25, -124.182, -12, 0, 0, 0, -1, False,
 /* @teleloc 0x01E60139 [48.250000 -124.182000 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701E602F,  1328, 0x01E60255, 145.873, -182.829, 5.937, -0.7668151, 0, 0, -0.6418681, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x701E602F,  1328, 0x01E60255, 145.873, -182.829, 5.937, -0.766815, 0, 0, -0.641868, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x01E60255 [145.873000 -182.829000 5.937000] -0.766815 0.000000 0.000000 -0.641868 */

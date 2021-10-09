@@ -24,13 +24,13 @@ VALUES (9638,   1, 'Scroll of Health to Stamina Self V') /* Name */
 Drains one-half of the caster''s Health and gives 135% of that to his/her Stamina.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9638,   1,   33554826) /* Setup */
-     , (9638,   8,  100676947) /* Icon */
-     , (9638,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9638,   1, 0x0200018A) /* Setup */
+     , (9638,   8, 0x06003553) /* Icon */
+     , (9638,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9638,  28,       1276) /* Spell - HealthToStaminaSelf5 */
      , (9638, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (9638, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9638, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9638, 8000, 3696766236) /* PCAPRecordedObjectIID */;
+VALUES (9638, 8000, 0xDC582D1C) /* PCAPRecordedObjectIID */;

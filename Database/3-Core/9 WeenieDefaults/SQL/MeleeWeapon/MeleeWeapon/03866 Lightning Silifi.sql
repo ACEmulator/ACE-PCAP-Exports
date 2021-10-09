@@ -54,22 +54,19 @@ VALUES (3866,   1, 'Lightning Silifi') /* Name */
      , (3866,  16, 'Lightning Silifi') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3866,   1,   33555781) /* Setup */
-     , (3866,   3,  536870932) /* SoundTable */
-     , (3866,   8,  100668992) /* Icon */
-     , (3866,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3866,   1, 0x02000545) /* Setup */
+     , (3866,   3, 0x20000014) /* SoundTable */
+     , (3866,   8, 0x06001640) /* Icon */
+     , (3866,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3866,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3866, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3866, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3866, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3866, 8000, 3680750841) /* PCAPRecordedObjectIID */;
+VALUES (3866, 8000, 0xDB63CCF9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3866,  1590,      2)  /* HeartSeekerSelf4 */
-     , (3866,  1605,      2)  /* DefenderSelf6 */
-     , (3866,  1615,      2)  /* BloodDrinkerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3866, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (3866,  1605,      2)  /* DefenderSelf6 */
+     , (3866,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (3866,  1590,      2)  /* HeartSeekerSelf4 */;

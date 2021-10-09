@@ -22,16 +22,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22945,   1, 'Gem of Raising Focus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22945,   1,   33558088) /* Setup */
-     , (22945,   6,   67111919) /* PaletteBase */
-     , (22945,   8,  100673788) /* Icon */
-     , (22945,  50,  100673964) /* IconOverlay */
+VALUES (22945,   1, 0x02000E48) /* Setup */
+     , (22945,   6, 0x04000BEF) /* PaletteBase */
+     , (22945,   8, 0x060028FC) /* Icon */
+     , (22945,  50, 0x060029AC) /* IconOverlay */
      , (22945, 8001, 1076391952) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (22945, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22945, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22945, 8000, 2156004654) /* PCAPRecordedObjectIID */;
+VALUES (22945, 8000, 0x8082052E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22945, 67111923, 0, 0);

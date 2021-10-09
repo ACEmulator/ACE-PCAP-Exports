@@ -22,17 +22,17 @@ VALUES (25897,   1, 'Carenzi Fangs') /* Name */
      , (25897,  16, 'The fangs of a corrupted Carenzi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25897,   1,   33554817) /* Setup */
-     , (25897,   3,  536870932) /* SoundTable */
-     , (25897,   6,   67111919) /* PaletteBase */
-     , (25897,   8,  100675629) /* Icon */
-     , (25897,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25897,   1, 0x02000181) /* Setup */
+     , (25897,   3, 0x20000014) /* SoundTable */
+     , (25897,   6, 0x04000BEF) /* PaletteBase */
+     , (25897,   8, 0x0600302D) /* Icon */
+     , (25897,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25897, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (25897, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25897, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25897, 8000, 2448067041) /* PCAPRecordedObjectIID */;
+VALUES (25897, 8000, 0x91EA89E1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25897, 67111918, 0, 0);

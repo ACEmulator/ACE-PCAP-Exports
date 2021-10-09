@@ -22,16 +22,16 @@ VALUES (8576,   1, 'Rumuba''s Hidey-Hole') /* Name */
      , (8576, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8576,   1,   33554867) /* Setup */
-     , (8576,   2,  150994947) /* MotionTable */
-     , (8576,   8,  100667499) /* Icon */
+VALUES (8576,   1, 0x020001B3) /* Setup */
+     , (8576,   2, 0x09000003) /* MotionTable */
+     , (8576,   8, 0x0600106B) /* Icon */
      , (8576, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (8576, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (8576, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8576, 8040, 3995074621, 174.736, 113.311, 19.05183, 0.3826829, 0, 0, -0.9238797) /* PCAPRecordedLocation */
+VALUES (8576, 8040, 0xEE20003D, 174.736, 113.311, 19.05183, 0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0xEE20003D [174.736000 113.311000 19.051830] 0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8576, 8000, 2128740352) /* PCAPRecordedObjectIID */;
+VALUES (8576, 8000, 0x7EE20000) /* PCAPRecordedObjectIID */;

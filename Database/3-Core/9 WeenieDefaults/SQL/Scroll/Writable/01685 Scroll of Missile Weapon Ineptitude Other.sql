@@ -24,13 +24,13 @@ VALUES (1685,   1, 'Scroll of Missile Weapon Ineptitude Other') /* Name */
 Decreases the target''s Missile Weapons skill by 10 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1685,   1,   33554826) /* Setup */
-     , (1685,   8,  100676450) /* Icon */
-     , (1685,  22,  872415275) /* PhysicsEffectTable */
-     , (1685,  28,        473) /* Spell - BowIneptitudeOther1 */
+VALUES (1685,   1, 0x0200018A) /* Setup */
+     , (1685,   8, 0x06003362) /* Icon */
+     , (1685,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (1685,  28,        473) /* Spell - MissileWeaponsIneptitudeOther1 */
      , (1685, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1685, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1685, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1685, 8000, 2874742142) /* PCAPRecordedObjectIID */;
+VALUES (1685, 8000, 0xAB59157E) /* PCAPRecordedObjectIID */;

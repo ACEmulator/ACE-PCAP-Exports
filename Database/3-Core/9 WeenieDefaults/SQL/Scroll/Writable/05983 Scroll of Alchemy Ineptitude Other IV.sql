@@ -24,13 +24,13 @@ VALUES (5983,   1, 'Scroll of Alchemy Ineptitude Other IV') /* Name */
 Decreases the target''s Alchemy skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5983,   1,   33554826) /* Setup */
-     , (5983,   8,  100676480) /* Icon */
-     , (5983,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5983,   1, 0x0200018A) /* Setup */
+     , (5983,   8, 0x06003380) /* Icon */
+     , (5983,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5983,  28,       1772) /* Spell - AlchemyIneptitudeOther4 */
      , (5983, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5983, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5983, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5983, 8000, 3008318947) /* PCAPRecordedObjectIID */;
+VALUES (5983, 8000, 0xB34F4DE3) /* PCAPRecordedObjectIID */;

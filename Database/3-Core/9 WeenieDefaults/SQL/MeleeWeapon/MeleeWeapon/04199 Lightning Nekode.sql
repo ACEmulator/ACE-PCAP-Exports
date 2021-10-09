@@ -51,17 +51,17 @@ VALUES (4199,   1, 'Lightning Nekode') /* Name */
      , (4199,  16, 'Lightning Nekode of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4199,   1,   33555991) /* Setup */
-     , (4199,   3,  536870932) /* SoundTable */
-     , (4199,   8,  100670035) /* Icon */
-     , (4199,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4199,   1, 0x02000617) /* Setup */
+     , (4199,   3, 0x20000014) /* SoundTable */
+     , (4199,   8, 0x06001A53) /* Icon */
+     , (4199,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4199,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (4199, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (4199, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4199, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4199, 8000, 3688220126) /* PCAPRecordedObjectIID */;
+VALUES (4199, 8000, 0xDBD5C5DE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (4199,  1615,      2)  /* BloodDrinkerSelf5 */;

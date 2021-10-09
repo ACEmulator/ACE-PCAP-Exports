@@ -20,17 +20,17 @@ VALUES (4736,   1, 'Mushroom Noodle') /* Name */
      , (4736,  20, 'Bowls of Mushroom Noodle') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4736,   1,   33554668) /* Setup */
-     , (4736,   3,  536870932) /* SoundTable */
-     , (4736,   8,  100670184) /* Icon */
-     , (4736,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4736,   1, 0x020000EC) /* Setup */
+     , (4736,   3, 0x20000014) /* SoundTable */
+     , (4736,   8, 0x06001AE8) /* Icon */
+     , (4736,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4736, 8001,    2109465) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden */
      , (4736, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (4736, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4736, 8040, 20185350, 23.57321, -24.19579, 0.0215, 0.3778268, 0, 0, -0.9258763) /* PCAPRecordedLocation */
+VALUES (4736, 8040, 0x01340106, 23.57321, -24.19579, 0.0215, 0.377827, 0, 0, -0.925876) /* PCAPRecordedLocation */
 /* @teleloc 0x01340106 [23.573210 -24.195790 0.021500] 0.377827 0.000000 0.000000 -0.925876 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4736, 8000, 2321161719) /* PCAPRecordedObjectIID */;
+VALUES (4736, 8000, 0x8A5A1DF7) /* PCAPRecordedObjectIID */;

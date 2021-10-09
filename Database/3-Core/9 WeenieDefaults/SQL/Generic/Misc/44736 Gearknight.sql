@@ -19,11 +19,11 @@ VALUES (44736,   1, 'Gearknight') /* Name */
      , (44736,  16, 'Gear Knights hail from a world that is mostly artificial, appearing to have been crafted in layers over the original world''s surface. Mana flows are surprisingly strong there, but markedly different in nature when compared to Auberean. This is demonstrated by the emergence of Aetheria, a form of coalesced mana which is the main form of sustenance for the Gear Knights. When the Yalaini originally made contact with the Gear Knights, they assumed the metal beings were some type of golem, but this was corrected and the Yalaini research team was told that the Gear Knights were the predominant race of the world. The race is very militaristic by nature, and some Yalaini debated (inconclusively) whether or not they may have originally been created as guardian golems for another race. Though they seem to be animated in a similar manner to Golems, they instead rely on a maze of small interconnected parts and gears, which allows them a far greater level of stability, and far less dependence on any sort of animating magics. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44736,   1,   33561336) /* Setup */
-     , (44736,   8,  100668115) /* Icon */
+VALUES (44736,   1, 0x02001AF8) /* Setup */
+     , (44736,   8, 0x060012D3) /* Icon */
      , (44736, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44736, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44736, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44736, 8000, 2461616459) /* PCAPRecordedObjectIID */;
+VALUES (44736, 8000, 0x92B9494B) /* PCAPRecordedObjectIID */;

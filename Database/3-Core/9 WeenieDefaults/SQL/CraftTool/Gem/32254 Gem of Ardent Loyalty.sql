@@ -21,6 +21,7 @@ VALUES (32254,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32254,  22, True ) /* Inscribable */
+     , (32254,  23, True ) /* DestroyOnSell */
      , (32254,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -29,17 +30,17 @@ VALUES (32254,   1, 'Gem of Ardent Loyalty') /* Name */
      , (32254,  16, 'This gem can be placed into a piece of Noble Armor. If so, it will imbue the armor with very potent Melee Defense and Loyalty Spells that will affect the wearer. The armor will then only be wearable by the crafter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32254,   1,   33554809) /* Setup */
-     , (32254,   3,  536870932) /* SoundTable */
-     , (32254,   6,   67111919) /* PaletteBase */
-     , (32254,   8,  100688417) /* Icon */
-     , (32254,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32254,   1, 0x02000179) /* Setup */
+     , (32254,   3, 0x20000014) /* SoundTable */
+     , (32254,   6, 0x04000BEF) /* PaletteBase */
+     , (32254,   8, 0x06006221) /* Icon */
+     , (32254,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32254, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (32254, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32254, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32254, 8000, 2923115349) /* PCAPRecordedObjectIID */;
+VALUES (32254, 8000, 0xAE3B3355) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32254, 67111921, 0, 0);

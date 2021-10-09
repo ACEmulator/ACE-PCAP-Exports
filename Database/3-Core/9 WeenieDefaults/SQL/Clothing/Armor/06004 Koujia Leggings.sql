@@ -44,26 +44,20 @@ VALUES (6004,   1, 'Koujia Leggings') /* Name */
      , (6004,  16, 'Koujia Leggings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6004,   1,   33554856) /* Setup */
-     , (6004,   3,  536870932) /* SoundTable */
-     , (6004,   6,   67108990) /* PaletteBase */
-     , (6004,   8,  100670459) /* Icon */
-     , (6004,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6004,   1, 0x020001A8) /* Setup */
+     , (6004,   3, 0x20000014) /* SoundTable */
+     , (6004,   6, 0x0400007E) /* PaletteBase */
+     , (6004,   8, 0x06001BFB) /* Icon */
+     , (6004,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6004, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (6004, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6004, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6004, 8000, 3697304737) /* PCAPRecordedObjectIID */;
+VALUES (6004, 8000, 0xDC6064A1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6004,  1485,      2)  /* Impenetrability5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6004, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
-     , (6004, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield */
-     , (6004, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (6004, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6004, 67110020, 136, 16)

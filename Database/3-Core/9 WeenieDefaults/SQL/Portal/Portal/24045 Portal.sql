@@ -21,16 +21,16 @@ VALUES (24045,   1, 'Portal') /* Name */
      , (24045, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24045,   1,   33558262) /* Setup */
-     , (24045,   2,  150994947) /* MotionTable */
-     , (24045,   8,  100667499) /* Icon */
+VALUES (24045,   1, 0x02000EF6) /* Setup */
+     , (24045,   2, 0x09000003) /* MotionTable */
+     , (24045,   8, 0x0600106B) /* Icon */
      , (24045, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (24045, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (24045, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24045, 8040, 1531249104, 210, -150, -84.063, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (24045, 8040, 0x5B4501D0, 210, -150, -84.063, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x5B4501D0 [210.000000 -150.000000 -84.063000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24045, 8000, 1974751274) /* PCAPRecordedObjectIID */;
+VALUES (24045, 8000, 0x75B4502A) /* PCAPRecordedObjectIID */;

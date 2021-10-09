@@ -23,22 +23,22 @@ VALUES (30675,   1, 'Agent of Arcanum List') /* Name */
      , (30675,  16, 'List of items the Agents of Arcanum will take in trade for housing writs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30675,   1,   33554773) /* Setup */
-     , (30675,   3,  536870932) /* SoundTable */
-     , (30675,   8,  100674008) /* Icon */
-     , (30675,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30675,   1, 0x02000155) /* Setup */
+     , (30675,   3, 0x20000014) /* SoundTable */
+     , (30675,   8, 0x060029D8) /* Icon */
+     , (30675,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30675, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (30675, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (30675, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30675, 8000, 2186220440) /* PCAPRecordedObjectIID */;
+VALUES (30675, 8000, 0x824F1398) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (30675, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (30675, 0, 4294967295, 'Agents of Arcanum', 'Password is cheese', False, '
+VALUES (30675, 0, 4294967295, 'Agents of Arcanum', 'prewritten', False, '
 Fragment of the Lightning Prism (2 writs, once only)
 Fragment of the Fire Prism (2 writs, once only)
 Fragment of the Acid Prism (2 writs, once only)
@@ -54,7 +54,7 @@ Northern Forge Essence (1 writ)
 Southern Forge Essence (1 writ)
 Western Forge Essence (1 writ)
 ')
-     , (30675, 1, 4294967295, 'Agents of Arcanum', 'Password is cheese', False, '
+     , (30675, 1, 4294967295, 'Agents of Arcanum', 'prewritten', False, '
 Blood Fang Jewel (1 writ)
 Black Glass Array (1 writ)
 Soul Chalice (1 writ)
@@ -68,7 +68,7 @@ Antiquated Compass (1 writ)
 Black Luster Pearl (2 writs)
 Crate of Fake Niffis Pearls (1 writ)
 ')
-     , (30675, 2, 4294967295, 'Agents of Arcanum', 'Password is cheese', False, '
+     , (30675, 2, 4294967295, 'Agents of Arcanum', 'prewritten', False, '
 Ancient Empyrean Trinket (1 writ)
 Ancient Falatacot Trinket (1 writ)
 Major Smoldering Stone (1 writ)

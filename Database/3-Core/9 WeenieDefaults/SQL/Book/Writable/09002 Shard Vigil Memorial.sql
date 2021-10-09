@@ -24,28 +24,28 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9002,   1, 'Shard Vigil Memorial') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9002,   1,   33556953) /* Setup */
-     , (9002,   8,  100671330) /* Icon */
+VALUES (9002,   1, 0x020009D9) /* Setup */
+     , (9002,   8, 0x06001F62) /* Icon */
      , (9002, 8001,   11534384) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBlipColor, Burden, RadarBehavior */
      , (9002, 8003,        276) /* PCAPRecordedObjectDesc - Stuck, Attackable, Book */
      , (9002, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9002, 8040, 4095213581, 36, 108, 160, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (9002, 8040, 0xF418000D, 36, 108, 160, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [36.000000 108.000000 160.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9002, 8000, 2880118656) /* PCAPRecordedObjectIID */;
+VALUES (9002, 8000, 0xABAB1F80) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9002, 9, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (9002, 0, 4294967295, 'The Vigilant', 'Password is cheese', False, 'Upon this marker may be found the names of the known defenders of the Shard of the Herald, henceforth to be honorably known as The Vigilant. Throughout the month of Leafcull, Portal Year 11, these individuals defended the final Soul Crystal in defiance of the Shadows and their human servants. Regardless of the hour or other demands on their time, they kept their vigil; a flame to keep the night at bay.
+VALUES (9002, 0, 4294967295, 'The Vigilant', 'prewritten', False, 'Upon this marker may be found the names of the known defenders of the Shard of the Herald, henceforth to be honorably known as The Vigilant. Throughout the month of Leafcull, Portal Year 11, these individuals defended the final Soul Crystal in defiance of the Shadows and their human servants. Regardless of the hour or other demands on their time, they kept their vigil; a flame to keep the night at bay.
 
 There were others who assisted in this noble stand against the darkness; their names are unfortunately lost in the mist of time and memory. Bow your heads, and honor them.
 ')
-     , (9002, 1, 4294967295, 'The Vigilant', 'Password is cheese', False, '
+     , (9002, 1, 4294967295, 'The Vigilant', 'prewritten', False, '
                       ~ The Monarchs~
 
                                 Amid
@@ -59,7 +59,7 @@ There were others who assisted in this noble stand against the darkness; their n
                      Tim the Enchantor
                        Wren the Blurry
 ')
-     , (9002, 2, 4294967295, 'The Vigilant', 'Password is cheese', False, 'Acex
+     , (9002, 2, 4294967295, 'The Vigilant', 'prewritten', False, 'Acex
 Aelynn
 Alianna
 Alphalpha''s New Pal
@@ -76,7 +76,7 @@ Calissa
 Cecil the Wise
 Chaqella
 ')
-     , (9002, 3, 4294967295, 'The Vigilant', 'Password is cheese', False, 'Chaton Gato
+     , (9002, 3, 4294967295, 'The Vigilant', 'prewritten', False, 'Chaton Gato
 Child of the Dark
 Clan Arrem
 Corwin of Chaos
@@ -93,7 +93,7 @@ Druuna
 Eaglet the Mage
 Edlund
 ')
-     , (9002, 4, 4294967295, 'The Vigilant', 'Password is cheese', False, 'Fiyo
+     , (9002, 4, 4294967295, 'The Vigilant', 'prewritten', False, 'Fiyo
 Flick-Doh
 Funshine Bear
 Gazra
@@ -110,7 +110,7 @@ Kalen the Mighty
 Kaliel
 Kay''l
 ')
-     , (9002, 5, 4294967295, 'The Vigilant', 'Password is cheese', False, 'Keth al-Sheth
+     , (9002, 5, 4294967295, 'The Vigilant', 'prewritten', False, 'Keth al-Sheth
 Killerwolf
 Kiyomori
 Krimzon
@@ -127,7 +127,7 @@ Ney
 Orion Haspard
 Osian
 ')
-     , (9002, 6, 4294967295, 'The Vigilant', 'Password is cheese', False, 'Othinn
+     , (9002, 6, 4294967295, 'The Vigilant', 'prewritten', False, 'Othinn
 Portent
 Pos the Clumsy
 Rand of Rheny
@@ -144,7 +144,7 @@ Seal
 Shadow Death
 Shanra
 ')
-     , (9002, 7, 4294967295, 'The Vigilant', 'Password is cheese', False, 'Shisho
+     , (9002, 7, 4294967295, 'The Vigilant', 'prewritten', False, 'Shisho
 Shob Sr
 Slash the Warlock
 Solaran
@@ -161,7 +161,7 @@ Teck II
 Tripp
 Uber Caq
 ')
-     , (9002, 8, 4294967295, 'The Vigilant', 'Password is cheese', False, '
+     , (9002, 8, 4294967295, 'The Vigilant', 'prewritten', False, '
 Ultrazen
 Vervain
 Visioth Razorwind

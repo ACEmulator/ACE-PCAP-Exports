@@ -54,27 +54,27 @@ VALUES (31777,   1, 'Fire Board with Nail') /* Name */
      , (31777,  16, 'Fire Board with Nail of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31777,   1,   33559656) /* Setup */
-     , (31777,   3,  536870932) /* SoundTable */
-     , (31777,   6,   67116700) /* PaletteBase */
-     , (31777,   8,  100688088) /* Icon */
-     , (31777,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31777,   1, 0x02001468) /* Setup */
+     , (31777,   3, 0x20000014) /* SoundTable */
+     , (31777,   6, 0x04001E9C) /* PaletteBase */
+     , (31777,   8, 0x060060D8) /* Icon */
+     , (31777,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31777,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (31777,  52,  100676440) /* IconUnderlay */
+     , (31777,  52, 0x06003358) /* IconUnderlay */
      , (31777, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31777, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31777, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
      , (31777, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31777, 8000, 2173747960) /* PCAPRecordedObjectIID */;
+VALUES (31777, 8000, 0x8190C2F8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31777,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (31777,  4417,      2)  /* SwiftKillerSelf8 */
+VALUES (31777,  4417,      2)  /* SwiftKillerSelf8 */
+     , (31777,  5893,      2)  /* CantripDirtyFightingProwess3 */
+     , (31777,  4395,      2)  /* BloodDrinkerSelf8 */
      , (31777,  4911,      2)  /* CANTRIPARMOR3 */
-     , (31777,  5809,      2)  /* DualWieldMasterySelf7 */
-     , (31777,  5893,      2)  /* CantripDirtyFightingProwess3 */;
+     , (31777,  5809,      2)  /* DualWieldMasterySelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31777, 67116700, 0, 101)

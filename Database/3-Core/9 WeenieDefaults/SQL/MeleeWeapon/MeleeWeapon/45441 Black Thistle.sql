@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45441,   1,          1) /* ItemType - MeleeWeapon */
      , (45441,   5,        200) /* EncumbranceVal */
      , (45441,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (45441,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (45441,  16,          1) /* ItemUseable - No */
      , (45441,  17,        259) /* RareId */
      , (45441,  19,      50000) /* Value */
@@ -55,12 +54,12 @@ VALUES (45441,   1, 'Black Thistle') /* Name */
      , (45441,  16, 'This dagger was created by a barbarian hedge wizard in the untamed territory between Milantos and Souia-Vey.  The wizard used it as both a weapon and as a device for channeling his magical power.  Somehow, the dagger ended up in Dereth, and it has developed a unique counter-reaction to the magical energies of the new world.  It acquired the rare and deadly ability to punch through the magical protections afforded by Life Magic.  At the same time, it seems to mark its bearer as a sort of magical lightning rod -- as if the force of the world''s magic itself is taking vengeance against the offender.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45441,   1,   33559380) /* Setup */
-     , (45441,   3,  536870932) /* SoundTable */
-     , (45441,   6,   67111919) /* PaletteBase */
-     , (45441,   8,  100686743) /* Icon */
-     , (45441,  22,  872415275) /* PhysicsEffectTable */
-     , (45441,  52,  100686604) /* IconUnderlay */
+VALUES (45441,   1, 0x02001354) /* Setup */
+     , (45441,   3, 0x20000014) /* SoundTable */
+     , (45441,   6, 0x04000BEF) /* PaletteBase */
+     , (45441,   8, 0x06005B97) /* Icon */
+     , (45441,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45441,  52, 0x06005B0C) /* IconUnderlay */
      , (45441, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (45441, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45441, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -68,21 +67,21 @@ VALUES (45441,   1,   33559380) /* Setup */
      , (45441, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45441, 8040, 23855554, 61.02458, -29.20548, -0.071, -0.2499626, -0.2499626, -0.6614519, -0.6614519) /* PCAPRecordedLocation */
+VALUES (45441, 8040, 0x016C01C2, 61.02458, -29.20548, -0.071, -0.249963, -0.249963, -0.661452, -0.661452) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [61.024580 -29.205480 -0.071000] -0.249963 -0.249963 -0.661452 -0.661452 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45441, 8000, 3556504795) /* PCAPRecordedObjectIID */
-     , (45441, 8008, 1343246130) /* PCAPRecordedParentIID */;
+VALUES (45441, 8000, 0xD3FBF4DB) /* PCAPRecordedObjectIID */
+     , (45441, 8008, 0x50104F32) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45441,  4019,      2)  /* CANTRIPQUICKNESS3 */
+VALUES (45441,  4417,      2)  /* SwiftKillerSelf8 */
+     , (45441,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */
+     , (45441,  4518,      2)  /* LightWeaponsMasterySelf8 */
      , (45441,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (45441,  4417,      2)  /* SwiftKillerSelf8 */
-     , (45441,  4518,      2)  /* AxeMasterySelf8 */
-     , (45441,  4598,      2)  /* MagicYieldSelf8 */
+     , (45441,  4019,      2)  /* CANTRIPQUICKNESS3 */
      , (45441,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45441,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;
+     , (45441,  4598,      2)  /* MagicYieldSelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45441, 67111920, 0, 0);

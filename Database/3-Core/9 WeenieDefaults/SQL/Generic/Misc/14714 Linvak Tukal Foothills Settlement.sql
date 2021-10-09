@@ -17,15 +17,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14714,   1, 'Linvak Tukal Foothills Settlement') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14714,   1,   33557463) /* Setup */
-     , (14714,   8,  100668115) /* Icon */
+VALUES (14714,   1, 0x02000BD7) /* Setup */
+     , (14714,   8, 0x060012D3) /* Icon */
      , (14714, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (14714, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14714, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14714, 8040, 2786590749, 89.9775, 107.867, 150, 0.705792, 0, 0, 0.708419) /* PCAPRecordedLocation */
+VALUES (14714, 8040, 0xA618001D, 89.9775, 107.867, 150, 0.705792, 0, 0, 0.708419) /* PCAPRecordedLocation */
 /* @teleloc 0xA618001D [89.977500 107.867000 150.000000] 0.705792 0.000000 0.000000 0.708419 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14714, 8000, 2053210545) /* PCAPRecordedObjectIID */;
+VALUES (14714, 8000, 0x7A6181B1) /* PCAPRecordedObjectIID */;

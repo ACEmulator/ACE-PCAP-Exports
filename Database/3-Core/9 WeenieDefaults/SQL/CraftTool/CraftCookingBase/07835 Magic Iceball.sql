@@ -26,17 +26,17 @@ VALUES (7835,   1, 'Magic Iceball') /* Name */
      , (7835,  20, 'Magic Iceballs') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7835,   1,   33556223) /* Setup */
-     , (7835,   3,  536870932) /* SoundTable */
-     , (7835,   6,   67111928) /* PaletteBase */
-     , (7835,   8,  100670860) /* Icon */
-     , (7835,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7835,   1, 0x020006FF) /* Setup */
+     , (7835,   3, 0x20000014) /* SoundTable */
+     , (7835,   6, 0x04000BF8) /* PaletteBase */
+     , (7835,   8, 0x06001D8C) /* Icon */
+     , (7835,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7835, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7835, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7835, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7835, 8000, 2186220379) /* PCAPRecordedObjectIID */;
+VALUES (7835, 8000, 0x824F135B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (7835, 67112642, 0, 0);

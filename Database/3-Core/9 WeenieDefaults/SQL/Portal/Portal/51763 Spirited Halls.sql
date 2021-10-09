@@ -23,16 +23,16 @@ VALUES (51763,   1, 'Spirited Halls') /* Name */
      , (51763, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51763,   1,   33555924) /* Setup */
-     , (51763,   2,  150994947) /* MotionTable */
-     , (51763,   8,  100667499) /* Icon */
+VALUES (51763,   1, 0x020005D4) /* Setup */
+     , (51763,   2, 0x09000003) /* MotionTable */
+     , (51763,   8, 0x0600106B) /* Icon */
      , (51763, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (51763, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (51763, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51763, 8040, 741343236, 13.401, 90.0395, 199.987, 0.449129, 0, 0, 0.8934669) /* PCAPRecordedLocation */
+VALUES (51763, 8040, 0x2C300004, 13.401, 90.0395, 199.987, 0.449129, 0, 0, 0.893467) /* PCAPRecordedLocation */
 /* @teleloc 0x2C300004 [13.401000 90.039500 199.987000] 0.449129 0.000000 0.000000 0.893467 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51763, 8000, 1925382206) /* PCAPRecordedObjectIID */;
+VALUES (51763, 8000, 0x72C3003E) /* PCAPRecordedObjectIID */;

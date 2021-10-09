@@ -24,13 +24,13 @@ VALUES (3036,   1, 'Scroll of Fire Protection Other V') /* Name */
 Reduces damage the target takes from fire by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3036,   1,   33554826) /* Setup */
-     , (3036,   8,  100676949) /* Icon */
-     , (3036,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3036,   1, 0x0200018A) /* Setup */
+     , (3036,   8, 0x06003555) /* Icon */
+     , (3036,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3036,  28,       1095) /* Spell - FireProtectionOther5 */
      , (3036, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3036, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3036, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3036, 8000, 3674621124) /* PCAPRecordedObjectIID */;
+VALUES (3036, 8000, 0xDB0644C4) /* PCAPRecordedObjectIID */;

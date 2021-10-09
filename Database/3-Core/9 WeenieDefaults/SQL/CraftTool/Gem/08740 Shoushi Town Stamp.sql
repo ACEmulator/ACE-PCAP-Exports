@@ -19,7 +19,8 @@ VALUES (8740,   1,       2048) /* ItemType - Gem */
      , (8740, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8740,  22, True ) /* Inscribable */;
+VALUES (8740,  22, True ) /* Inscribable */
+     , (8740,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8740,  39,       3) /* DefaultScale */;
@@ -30,13 +31,13 @@ VALUES (8740,   1, 'Shoushi Town Stamp') /* Name */
      , (8740,  16, 'A town stamp of Shoushi to be used on any Red or Gold Letters you come across.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8740,   1,   33556922) /* Setup */
-     , (8740,   3,  536870932) /* SoundTable */
-     , (8740,   8,  100671218) /* Icon */
-     , (8740,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8740,   1, 0x020009BA) /* Setup */
+     , (8740,   3, 0x20000014) /* SoundTable */
+     , (8740,   8, 0x06001EF2) /* Icon */
+     , (8740,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8740, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (8740, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8740, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8740, 8000, 2981039365) /* PCAPRecordedObjectIID */;
+VALUES (8740, 8000, 0xB1AF0D05) /* PCAPRecordedObjectIID */;

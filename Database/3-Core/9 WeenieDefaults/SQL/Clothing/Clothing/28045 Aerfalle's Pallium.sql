@@ -8,7 +8,6 @@ VALUES (28045,   1,          4) /* ItemType - Clothing */
      , (28045,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (28045,   5,        200) /* EncumbranceVal */
      , (28045,   9,      32512) /* ValidLocations - Armor */
-     , (28045,  10,      32512) /* CurrentWieldedLocation - Armor */
      , (28045,  16,          1) /* ItemUseable - No */
      , (28045,  18,          1) /* UiEffects - Magical */
      , (28045,  19,      10710) /* Value */
@@ -25,6 +24,7 @@ VALUES (28045,   1,          4) /* ItemType - Clothing */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28045,  22, True ) /* Inscribable */
+     , (28045,  23, True ) /* DestroyOnSell */
      , (28045,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -43,22 +43,22 @@ VALUES (28045,   1, 'Aerfalle''s Pallium') /* Name */
      , (28045,  16, 'A black robe obtained from the Lady of Aerlinthe''s personal treasure chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28045,   1,   33554854) /* Setup */
-     , (28045,   3,  536870932) /* SoundTable */
-     , (28045,   6,   67108990) /* PaletteBase */
-     , (28045,   8,  100672444) /* Icon */
-     , (28045,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28045,   1, 0x020001A6) /* Setup */
+     , (28045,   3, 0x20000014) /* SoundTable */
+     , (28045,   6, 0x0400007E) /* PaletteBase */
+     , (28045,   8, 0x060023BC) /* Icon */
+     , (28045,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28045, 8001,  271024280) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (28045, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28045, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28045, 8000, 3677522256) /* PCAPRecordedObjectIID */;
+VALUES (28045, 8000, 0xDB328950) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28045,  1432,      2)  /* FocusOther6 */
-     , (28045,  1456,      2)  /* WillpowerOther6 */
-     , (28045,  2015,      2)  /* AerfallesWard */;
+     , (28045,  2015,      2)  /* AerfallesWard */
+     , (28045,  1456,      2)  /* WillpowerOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28045, 67109945, 96, 12)

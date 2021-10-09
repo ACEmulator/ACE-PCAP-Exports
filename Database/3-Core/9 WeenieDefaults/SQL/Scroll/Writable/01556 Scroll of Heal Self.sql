@@ -24,13 +24,13 @@ VALUES (1556,   1, 'Scroll of Heal Self') /* Name */
 Restores 10-25 points of the caster''s Health.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1556,   1,   33554826) /* Setup */
-     , (1556,   8,  100676931) /* Icon */
-     , (1556,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1556,   1, 0x0200018A) /* Setup */
+     , (1556,   8, 0x06003543) /* Icon */
+     , (1556,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1556,  28,          6) /* Spell - HealSelf1 */
      , (1556, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1556, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1556, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1556, 8000, 3696052046) /* PCAPRecordedObjectIID */;
+VALUES (1556, 8000, 0xDC4D474E) /* PCAPRecordedObjectIID */;

@@ -30,21 +30,21 @@ VALUES (40930,   1, 'Lady of Aerlinthe''s Embossed Chest') /* Name */
      , (40930, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40930,   1,   33558394) /* Setup */
-     , (40930,   2,  150994948) /* MotionTable */
-     , (40930,   3,  536870945) /* SoundTable */
-     , (40930,   8,  100676682) /* Icon */
-     , (40930,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40930,   1, 0x02000F7A) /* Setup */
+     , (40930,   2, 0x09000004) /* MotionTable */
+     , (40930,   3, 0x20000021) /* SoundTable */
+     , (40930,   8, 0x0600344A) /* Icon */
+     , (40930,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40930, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (40930, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40930, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40930, 8040, 3052405009, 140.129, -96.675, -81.2, -0.2956039, 0, 0, 0.9553106) /* PCAPRecordedLocation */
+VALUES (40930, 8040, 0xB5F00111, 140.129, -96.675, -81.2, -0.295604, 0, 0, 0.955311) /* PCAPRecordedLocation */
 /* @teleloc 0xB5F00111 [140.129000 -96.675000 -81.200000] -0.295604 0.000000 0.000000 0.955311 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40930, 8000, 2069823503) /* PCAPRecordedObjectIID */;
+VALUES (40930, 8000, 0x7B5F000F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40930, -1, 9010, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Unreadable Scroll (9010) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

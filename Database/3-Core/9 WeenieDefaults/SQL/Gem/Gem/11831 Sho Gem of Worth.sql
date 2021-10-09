@@ -25,18 +25,18 @@ VALUES (11831,   1, 'Sho Gem of Worth') /* Name */
      , (11831,  16, 'This is a gem of significant value and usefulness.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11831,   1,   33554809) /* Setup */
-     , (11831,   3,  536870932) /* SoundTable */
-     , (11831,   6,   67111919) /* PaletteBase */
-     , (11831,   8,  100672150) /* Icon */
-     , (11831,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11831,   1, 0x02000179) /* Setup */
+     , (11831,   3, 0x20000014) /* SoundTable */
+     , (11831,   6, 0x04000BEF) /* PaletteBase */
+     , (11831,   8, 0x06002296) /* Icon */
+     , (11831,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11831,  28,       2483) /* Spell - PORTALTUMEROKWARSHO */
      , (11831, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (11831, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (11831, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11831, 8000, 2153707763) /* PCAPRecordedObjectIID */;
+VALUES (11831, 8000, 0x805EF8F3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11831, 67111924, 0, 0);

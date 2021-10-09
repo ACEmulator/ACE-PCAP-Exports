@@ -15,6 +15,7 @@ VALUES (36680,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36680,  22, True ) /* Inscribable */
+     , (36680,  23, True ) /* DestroyOnSell */
      , (36680,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,16 +23,16 @@ VALUES (36680,   1, 'Spear of Purity') /* Name */
      , (36680,  16, 'Bask in the glow of your purity.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36680,   1,   33557008) /* Setup */
-     , (36680,   8,  100671499) /* Icon */
-     , (36680,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36680,   1, 0x02000A10) /* Setup */
+     , (36680,   8, 0x0600200B) /* Icon */
+     , (36680,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36680, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (36680, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36680, 8005,     167937) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36680, 8040, 10420584, 98.8644, -102.408, -40.95, -0.1562631, 0, 0, -0.9877155) /* PCAPRecordedLocation */
+VALUES (36680, 8040, 0x009F0168, 98.8644, -102.408, -40.95, -0.156263, 0, 0, -0.987716) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0168 [98.864400 -102.408000 -40.950000] -0.156263 0.000000 0.000000 -0.987716 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36680, 8000, 3709598408) /* PCAPRecordedObjectIID */;
+VALUES (36680, 8000, 0xDD1BFAC8) /* PCAPRecordedObjectIID */;

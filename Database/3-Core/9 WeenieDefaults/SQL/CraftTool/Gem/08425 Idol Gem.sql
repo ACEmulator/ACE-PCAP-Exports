@@ -24,17 +24,17 @@ VALUES (8425,   1, 'Idol Gem') /* Name */
      , (8425,  16, 'The glowing eye of a mosswart stone Idol.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8425,   1,   33556903) /* Setup */
-     , (8425,   3,  536870932) /* SoundTable */
-     , (8425,   6,   67111919) /* PaletteBase */
-     , (8425,   8,  100671207) /* Icon */
-     , (8425,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8425,   1, 0x020009A7) /* Setup */
+     , (8425,   3, 0x20000014) /* SoundTable */
+     , (8425,   6, 0x04000BEF) /* PaletteBase */
+     , (8425,   8, 0x06001EE7) /* Icon */
+     , (8425,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8425, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (8425, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8425, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8425, 8000, 3079838805) /* PCAPRecordedObjectIID */;
+VALUES (8425, 8000, 0xB7929C55) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8425, 67111921, 0, 0);

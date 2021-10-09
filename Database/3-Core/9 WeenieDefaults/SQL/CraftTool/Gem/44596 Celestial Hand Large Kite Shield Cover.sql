@@ -27,19 +27,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44596,   1, 'Celestial Hand Large Kite Shield Cover') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44596,   1,   33556223) /* Setup */
-     , (44596,   3,  536870932) /* SoundTable */
-     , (44596,   6,   67111928) /* PaletteBase */
-     , (44596,   8,  100692054) /* Icon */
-     , (44596,  22,  872415275) /* PhysicsEffectTable */
-     , (44596,  50,  100667895) /* IconOverlay */
+VALUES (44596,   1, 0x020006FF) /* Setup */
+     , (44596,   3, 0x20000014) /* SoundTable */
+     , (44596,   6, 0x04000BF8) /* PaletteBase */
+     , (44596,   8, 0x06007056) /* Icon */
+     , (44596,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44596,  50, 0x060011F7) /* IconOverlay */
      , (44596, 8001, 1076654104) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Priority, TargetType, Burden, IconOverlay */
      , (44596, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44596, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (44596, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44596, 8000,      44596) /* PCAPRecordedObjectIID */;
+VALUES (44596, 8000, 0x0000AE34) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44596, 67112642, 0, 0);

@@ -24,13 +24,13 @@ VALUES (49458,   1, 'Scroll of Summoning Ineptitude Other III') /* Name */
 Decreases the target''s Summoning skill by 20 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49458,   1,   33554826) /* Setup */
-     , (49458,   8,  100693008) /* Icon */
-     , (49458,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49458,   1, 0x0200018A) /* Setup */
+     , (49458,   8, 0x06007410) /* Icon */
+     , (49458,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49458,  28,       6131) /* Spell - SummoningIneptitudeOther3 */
      , (49458, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (49458, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (49458, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49458, 8000, 3691249427) /* PCAPRecordedObjectIID */;
+VALUES (49458, 8000, 0xDC03FF13) /* PCAPRecordedObjectIID */;

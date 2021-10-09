@@ -17,7 +17,7 @@ VALUES (49231,   1,        128) /* ItemType - Misc */
      , (49231, 105,          8) /* ItemWorkmanship */
      , (49231, 114,          0) /* Attuned - Normal */
      , (49231, 280,        213) /* SharedCooldown */
-     , (49231, 366,         54) /* UseRequiresSkill */
+     , (49231, 366,         54) /* UseRequiresSkill - Summoning */
      , (49231, 367,        475) /* UseRequiresSkillLevel */
      , (49231, 369,        140) /* UseRequiresLevel */
      , (49231, 370,          8) /* GearDamage */
@@ -38,20 +38,20 @@ VALUES (49231,   1, 'Frost Skeleton Bushi Essence (150)') /* Name */
      , (49231,  14, 'Use this essence to summon or dismiss your Frost Skeleton Bushi.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49231,   1,   33554817) /* Setup */
-     , (49231,   3,  536870932) /* SoundTable */
-     , (49231,   6,   67111919) /* PaletteBase */
-     , (49231,   8,  100669124) /* Icon */
-     , (49231,  22,  872415275) /* PhysicsEffectTable */
-     , (49231,  50,  100693030) /* IconOverlay */
-     , (49231,  52,  100693024) /* IconUnderlay */
+VALUES (49231,   1, 0x02000181) /* Setup */
+     , (49231,   3, 0x20000014) /* SoundTable */
+     , (49231,   6, 0x04000BEF) /* PaletteBase */
+     , (49231,   8, 0x060016C4) /* Icon */
+     , (49231,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49231,  50, 0x06007426) /* IconOverlay */
+     , (49231,  52, 0x06007420) /* IconUnderlay */
      , (49231, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49231, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49231, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49231, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49231, 8000, 3696817979) /* PCAPRecordedObjectIID */;
+VALUES (49231, 8000, 0xDC58F73B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49231, 67111919, 0, 0);

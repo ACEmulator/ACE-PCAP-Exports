@@ -20,18 +20,18 @@ VALUES (37305,   1, 'Glyph of Health') /* Name */
      , (37305,  20, 'Glyphs of Health') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37305,   1,   33554809) /* Setup */
-     , (37305,   3,  536870932) /* SoundTable */
-     , (37305,   6,   67111919) /* PaletteBase */
-     , (37305,   8,  100690191) /* Icon */
-     , (37305,  22,  872415275) /* PhysicsEffectTable */
-     , (37305,  50,  100690194) /* IconOverlay */
+VALUES (37305,   1, 0x02000179) /* Setup */
+     , (37305,   3, 0x20000014) /* SoundTable */
+     , (37305,   6, 0x04000BEF) /* PaletteBase */
+     , (37305,   8, 0x0600690F) /* Icon */
+     , (37305,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37305,  50, 0x06006912) /* IconOverlay */
      , (37305, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (37305, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37305, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37305, 8000, 3054434659) /* PCAPRecordedObjectIID */;
+VALUES (37305, 8000, 0xB60EF963) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37305, 67111924, 0, 0);

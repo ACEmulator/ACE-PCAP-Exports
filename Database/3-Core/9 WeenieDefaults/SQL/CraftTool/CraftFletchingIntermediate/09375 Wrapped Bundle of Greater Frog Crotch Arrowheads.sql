@@ -26,13 +26,13 @@ VALUES (9375,   1, 'Wrapped Bundle of Greater Frog Crotch Arrowheads') /* Name *
      , (9375,  20, 'Wrapped Bundles of Greater Frog Crotch Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9375,   1,   33557030) /* Setup */
-     , (9375,   3,  536870932) /* SoundTable */
-     , (9375,   8,  100671604) /* Icon */
-     , (9375,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9375,   1, 0x02000A26) /* Setup */
+     , (9375,   3, 0x20000014) /* SoundTable */
+     , (9375,   8, 0x06002074) /* Icon */
+     , (9375,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9375, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (9375, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9375, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9375, 8000, 2153709838) /* PCAPRecordedObjectIID */;
+VALUES (9375, 8000, 0x805F010E) /* PCAPRecordedObjectIID */;

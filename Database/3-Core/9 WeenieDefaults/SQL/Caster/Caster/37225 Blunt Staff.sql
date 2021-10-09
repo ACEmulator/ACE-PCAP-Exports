@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37225,   1,      32768) /* ItemType - Caster */
      , (37225,   5,         50) /* EncumbranceVal */
      , (37225,   9,   16777216) /* ValidLocations - Held */
-     , (37225,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (37225,  16,          1) /* ItemUseable - No */
      , (37225,  18,        512) /* UiEffects - Bludgeoning */
      , (37225,  19,      21247) /* Value */
      , (37225,  45,          4) /* DamageType - Bludgeon */
+     , (37225,  46,        512) /* DefaultCombatStyle - Magic */
      , (37225,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37225,  94,         16) /* TargetType - Creature */
      , (37225, 105,          9) /* ItemWorkmanship */
@@ -49,13 +49,13 @@ VALUES (37225,   1, 'Blunt Staff') /* Name */
      , (37225,  40, 'Pillsberry Doughboy') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37225,   1,   33560651) /* Setup */
-     , (37225,   3,  536870932) /* SoundTable */
-     , (37225,   6,   67111919) /* PaletteBase */
-     , (37225,   8,  100690004) /* Icon */
-     , (37225,  22,  872415275) /* PhysicsEffectTable */
-     , (37225,  50,  100689502) /* IconOverlay */
-     , (37225,  52,  100676442) /* IconUnderlay */
+VALUES (37225,   1, 0x0200184B) /* Setup */
+     , (37225,   3, 0x20000014) /* SoundTable */
+     , (37225,   6, 0x04000BEF) /* PaletteBase */
+     , (37225,   8, 0x06006854) /* Icon */
+     , (37225,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37225,  50, 0x0600665E) /* IconOverlay */
+     , (37225,  52, 0x0600335A) /* IconUnderlay */
      , (37225, 8001, 3509289112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (37225, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (37225, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
@@ -63,12 +63,12 @@ VALUES (37225,   1,   33560651) /* Setup */
      , (37225, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37225, 8040, 1692860446, 107.154, 86.636, 58.27, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (37225, 8040, 0x64E7001E, 107.154, 86.636, 58.27, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x64E7001E [107.154000 86.636000 58.270000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37225, 8000, 2587618999) /* PCAPRecordedObjectIID */
-     , (37225, 8008, 1343319664) /* PCAPRecordedParentIID */;
+VALUES (37225, 8000, 0x9A3BEEB7) /* PCAPRecordedObjectIID */
+     , (37225, 8008, 0x50116E70) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37225, 67111921, 0, 0);

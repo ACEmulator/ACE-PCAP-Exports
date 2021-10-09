@@ -44,17 +44,17 @@ VALUES (33824,   1, 'Shield of Truth') /* Name */
      , (33824,  16, '"My teaching is the shield of truth, which, if held by a true seeker, will stop the deadly sword of ignorance."     -Master Jojii') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33824,   1,   33554786) /* Setup */
-     , (33824,   3,  536870932) /* SoundTable */
-     , (33824,   6,   67111919) /* PaletteBase */
-     , (33824,   8,  100668454) /* Icon */
-     , (33824,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33824,   1, 0x02000162) /* Setup */
+     , (33824,   3, 0x20000014) /* SoundTable */
+     , (33824,   6, 0x04000BEF) /* PaletteBase */
+     , (33824,   8, 0x06001426) /* Icon */
+     , (33824,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33824, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (33824, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33824, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33824, 8000, 2174247897) /* PCAPRecordedObjectIID */;
+VALUES (33824, 8000, 0x819863D9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33824,  2585,      2)  /* CANTRIPACIDBANE2 */

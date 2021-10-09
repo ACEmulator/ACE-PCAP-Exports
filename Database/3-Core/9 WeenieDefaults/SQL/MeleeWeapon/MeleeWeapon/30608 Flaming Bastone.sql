@@ -53,25 +53,25 @@ VALUES (30608,   1, 'Flaming Bastone') /* Name */
      , (30608,  16, 'Flaming Bastone of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30608,   1,   33559494) /* Setup */
-     , (30608,   3,  536870932) /* SoundTable */
-     , (30608,   6,   67116428) /* PaletteBase */
-     , (30608,   8,  100687025) /* Icon */
-     , (30608,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30608,   1, 0x020013C6) /* Setup */
+     , (30608,   3, 0x20000014) /* SoundTable */
+     , (30608,   6, 0x04001D8C) /* PaletteBase */
+     , (30608,   8, 0x06005CB1) /* Icon */
+     , (30608,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30608,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (30608,  52,  100676440) /* IconUnderlay */
+     , (30608,  52, 0x06003358) /* IconUnderlay */
      , (30608, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30608, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30608, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30608, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30608, 8000, 2174543062) /* PCAPRecordedObjectIID */;
+VALUES (30608, 8000, 0x819CE4D6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30608,  1377,      2)  /* CoordinationSelf5 */
-     , (30608,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (30608,  1626,      2)  /* SwiftKillerSelf5 */;
+VALUES (30608,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (30608,  1626,      2)  /* SwiftKillerSelf5 */
+     , (30608,  1377,      2)  /* CoordinationSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30608, 67116438, 0, 0);

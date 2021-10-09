@@ -47,13 +47,13 @@ VALUES (40732,   1, 'Flaming Knife') /* Name */
      , (40732,  16, 'Flaming Knife') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40732,   1,   33555751) /* Setup */
-     , (40732,   3,  536870932) /* SoundTable */
-     , (40732,   8,  100667598) /* Icon */
-     , (40732,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40732,   1, 0x02000527) /* Setup */
+     , (40732,   3, 0x20000014) /* SoundTable */
+     , (40732,   8, 0x060010CE) /* Icon */
+     , (40732,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40732, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40732, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40732, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40732, 8000, 2979050500) /* PCAPRecordedObjectIID */;
+VALUES (40732, 8000, 0xB190B404) /* PCAPRecordedObjectIID */;

@@ -26,22 +26,22 @@ VALUES (7112,   1, 'Chomu Sclavus') /* Name */
      , (7112, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7112,   1,   33555608) /* Setup */
-     , (7112,   2,  150995048) /* MotionTable */
-     , (7112,   3,  536870977) /* SoundTable */
-     , (7112,   6,   67111936) /* PaletteBase */
-     , (7112,   8,  100669120) /* Icon */
-     , (7112,  22,  872415280) /* PhysicsEffectTable */
+VALUES (7112,   1, 0x02000498) /* Setup */
+     , (7112,   2, 0x09000068) /* MotionTable */
+     , (7112,   3, 0x20000041) /* SoundTable */
+     , (7112,   6, 0x04000C00) /* PaletteBase */
+     , (7112,   8, 0x060016C0) /* Icon */
+     , (7112,  22, 0x34000030) /* PhysicsEffectTable */
      , (7112, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7112, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7112, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7112, 8040, 772603953, 161.8308, 1.114832, 0.09290266, 0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
+VALUES (7112, 8040, 0x2E0D0031, 161.8308, 1.114832, 0.092903, 0.92388, 0, 0, -0.382684) /* PCAPRecordedLocation */
 /* @teleloc 0x2E0D0031 [161.830800 1.114832 0.092903] 0.923880 0.000000 0.000000 -0.382684 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7112, 8000, 3696520276) /* PCAPRecordedObjectIID */;
+VALUES (7112, 8000, 0xDC546C54) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7112,   1, 180, 0, 0) /* Strength */
@@ -81,6 +81,7 @@ VALUES (7112, 2, 47642,  1, 0, 0, False) /* Create Tachi (47642) for Wield */
      , (7112, 2, 48278,  1, 0, 0, False) /* Create Arrow (48278) for Wield */
      , (7112, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
      , (7112, 2, 48541,  1, 0, 0, False) /* Create Flaming Nekode (48541) for Wield */
+     , (7112, 2, 46373,  1, 0, 0, False) /* Create Spectral Tachi (46373) for Wield */
      , (7112, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
      , (7112, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (7112, 9, 30605,  0, 0, 0, False) /* Create Acid Stiletto (30605) for ContainTreasure */

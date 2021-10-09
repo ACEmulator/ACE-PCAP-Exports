@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1773,   1, 'Scroll of Enfeeble Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1773,   1,   33554826) /* Setup */
-     , (1773,   8,  100676933) /* Icon */
-     , (1773,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1773,   1, 0x0200018A) /* Setup */
+     , (1773,   8, 0x06003545) /* Icon */
+     , (1773,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1773,  28,       1195) /* Spell - EnfeebleOther1 */
      , (1773, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1773, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1773, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1773, 8000, 3358870669) /* PCAPRecordedObjectIID */;
+VALUES (1773, 8000, 0xC8344C8D) /* PCAPRecordedObjectIID */;

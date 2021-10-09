@@ -20,17 +20,17 @@ VALUES (753,   1, 'Brimstone') /* Name */
      , (753,  20, 'Brimstone Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (753,   1,   33555209) /* Setup */
-     , (753,   3,  536870932) /* SoundTable */
-     , (753,   6,   67111919) /* PaletteBase */
-     , (753,   8,  100668375) /* Icon */
-     , (753,  22,  872415275) /* PhysicsEffectTable */
+VALUES (753,   1, 0x02000309) /* Setup */
+     , (753,   3, 0x20000014) /* SoundTable */
+     , (753,   6, 0x04000BEF) /* PaletteBase */
+     , (753,   8, 0x060013D7) /* Icon */
+     , (753,  22, 0x3400002B) /* PhysicsEffectTable */
      , (753, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (753, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (753, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (753, 8000, 2856726425) /* PCAPRecordedObjectIID */;
+VALUES (753, 8000, 0xAA462F99) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (753, 67111920, 0, 0);

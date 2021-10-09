@@ -52,26 +52,26 @@ VALUES (40692,   1, 'Olthoi Tassets') /* Name */
      , (40692,  16, 'Olthoi Tassets of Quickness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40692,   1,   33554656) /* Setup */
-     , (40692,   3,  536870932) /* SoundTable */
-     , (40692,   6,   67108990) /* PaletteBase */
-     , (40692,   8,  100674561) /* Icon */
-     , (40692,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40692,   1, 0x020000E0) /* Setup */
+     , (40692,   3, 0x20000014) /* SoundTable */
+     , (40692,   6, 0x0400007E) /* PaletteBase */
+     , (40692,   8, 0x06002C01) /* Icon */
+     , (40692,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40692, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40692, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40692, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40692, 8040, 23855555, 56.22838, -43.58435, -0.009974971, 0.9963558, 0, 0, -0.08529433) /* PCAPRecordedLocation */
+VALUES (40692, 8040, 0x016C01C3, 56.22838, -43.58435, -0.009975, 0.996356, 0, 0, -0.085294) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.228380 -43.584350 -0.009975] 0.996356 0.000000 0.000000 -0.085294 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40692, 8000, 2905186810) /* PCAPRecordedObjectIID */;
+VALUES (40692, 8000, 0xAD29A1FA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40692,  2108,      2)  /* Impenetrability7 */
+VALUES (40692,  4689,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE3 */
      , (40692,  4319,      2)  /* QuicknessSelf8 */
-     , (40692,  4689,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE3 */;
+     , (40692,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40692, 67116578, 148, 4)

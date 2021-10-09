@@ -18,15 +18,15 @@ VALUES (15705,   1, 'Patron''s Honor Cottages') /* Name */
      , (15705,  16, 'Welcome to Patron''s Honor Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15705,   1,   33557463) /* Setup */
-     , (15705,   8,  100668115) /* Icon */
+VALUES (15705,   1, 0x02000BD7) /* Setup */
+     , (15705,   8, 0x060012D3) /* Icon */
      , (15705, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (15705, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (15705, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15705, 8040, 2715615260, 82.293, 84.8813, 112, -0.964692, 0, 0, 0.26338) /* PCAPRecordedLocation */
+VALUES (15705, 8040, 0xA1DD001C, 82.293, 84.8813, 112, -0.964692, 0, 0, 0.26338) /* PCAPRecordedLocation */
 /* @teleloc 0xA1DD001C [82.293000 84.881300 112.000000] -0.964692 0.000000 0.000000 0.263380 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15705, 8000, 2048774577) /* PCAPRecordedObjectIID */;
+VALUES (15705, 8000, 0x7A1DD1B1) /* PCAPRecordedObjectIID */;

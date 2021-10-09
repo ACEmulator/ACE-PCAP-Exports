@@ -40,20 +40,20 @@ VALUES (8204,   1, 'King''s Helm') /* Name */
      , (8204,  16, 'A finely crafted mask with the features of the legendary high king Pwyll upon it. It is a testament to the skill of its maker -- the features almost look life-like, and it is a comfortable fit on your head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8204,   1,   33556860) /* Setup */
-     , (8204,   3,  536870932) /* SoundTable */
-     , (8204,   8,  100671132) /* Icon */
-     , (8204,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8204,   1, 0x0200097C) /* Setup */
+     , (8204,   3, 0x20000014) /* SoundTable */
+     , (8204,   8, 0x06001E9C) /* Icon */
+     , (8204,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8204, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (8204, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8204, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8204, 8000, 2541837462) /* PCAPRecordedObjectIID */;
+VALUES (8204, 8000, 0x97815C96) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8204,   247,      2)  /* InvulnerabilitySelf4 */
-     , (8204,   325,      2)  /* DaggerMasterySelf4 */;
+VALUES (8204,   325,      2)  /* FinesseWeaponsMasterySelf4 */
+     , (8204,   247,      2)  /* InvulnerabilitySelf4 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (8204, 0, 16785201);

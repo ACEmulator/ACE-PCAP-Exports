@@ -34,16 +34,16 @@ VALUES (36560,   1, 'Night Club Shirt') /* Name */
      , (36560,  16, 'A limited-edition shirt made available in the Night Club dungeon for the 8th anniversary of Asheron''s Call.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36560,   1,   33554883) /* Setup */
-     , (36560,   3,  536870932) /* SoundTable */
-     , (36560,   8,  100689674) /* Icon */
-     , (36560,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36560,   1, 0x020001C3) /* Setup */
+     , (36560,   3, 0x20000014) /* SoundTable */
+     , (36560,   8, 0x0600670A) /* Icon */
+     , (36560,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36560, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (36560, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36560, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36560, 8000, 2186220497) /* PCAPRecordedObjectIID */;
+VALUES (36560, 8000, 0x824F13D1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (36560, 0, 83887061, 83897775)

@@ -19,15 +19,15 @@ VALUES (5070,   1, 'East Lytelthorpe Outpost') /* Name */
      , (5070,  16, 'Welcome to the East Lytelthorpe Outpost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5070,   1,   33555088) /* Setup */
-     , (5070,   8,  100668115) /* Icon */
+VALUES (5070,   1, 0x02000290) /* Setup */
+     , (5070,   8, 0x060012D3) /* Icon */
      , (5070, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (5070, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (5070, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5070, 8040, 3279945742, 30.773, 125.765, 34, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (5070, 8040, 0xC380000E, 30.773, 125.765, 34, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC380000E [30.773000 125.765000 34.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5070, 8000, 2084044819) /* PCAPRecordedObjectIID */;
+VALUES (5070, 8000, 0x7C380013) /* PCAPRecordedObjectIID */;

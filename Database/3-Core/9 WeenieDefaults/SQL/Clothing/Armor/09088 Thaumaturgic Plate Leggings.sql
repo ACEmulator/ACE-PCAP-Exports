@@ -42,21 +42,21 @@ VALUES (9088,   1, 'Thaumaturgic Plate Leggings') /* Name */
      , (9088,  25, 'Bliz Renard') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9088,   1,   33554856) /* Setup */
-     , (9088,   3,  536870932) /* SoundTable */
-     , (9088,   6,   67108990) /* PaletteBase */
-     , (9088,   8,  100671357) /* Icon */
-     , (9088,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9088,   1, 0x020001A8) /* Setup */
+     , (9088,   3, 0x20000014) /* SoundTable */
+     , (9088,   6, 0x0400007E) /* PaletteBase */
+     , (9088,   8, 0x06001F7D) /* Icon */
+     , (9088,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9088,  37,         34) /* ItemSkillLimit - WarMagic */
      , (9088, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (9088, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9088, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9088, 8000, 2164419672) /* PCAPRecordedObjectIID */;
+VALUES (9088, 8000, 0x81026C58) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9088,  1337,      2)  /* StrengthOther6 */
+VALUES (9088,  2379,      2)  /* BeastWhisper */
      , (9088,  2349,      2)  /* HieroWard */
      , (9088,  2350,      2)  /* DecayDurance */
      , (9088,  2351,      2)  /* ConsumptionDurance */
@@ -65,7 +65,7 @@ VALUES (9088,  1337,      2)  /* StrengthOther6 */
      , (9088,  2354,      2)  /* PiercingDuranceLess */
      , (9088,  2355,      2)  /* SlashingDuranceLess */
      , (9088,  2356,      2)  /* BludgeoningDuranceLess */
-     , (9088,  2379,      2)  /* BeastWhisper */;
+     , (9088,  1337,      2)  /* StrengthOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9088, 67113132, 136, 16);

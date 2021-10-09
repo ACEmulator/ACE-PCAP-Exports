@@ -24,13 +24,13 @@ VALUES (3099,   1, 'Scroll of Mana Renewal Other III') /* Name */
 Increases the target''s natural mana rate by 40%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3099,   1,   33554826) /* Setup */
-     , (3099,   8,  100676939) /* Icon */
-     , (3099,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3099,   1, 0x0200018A) /* Setup */
+     , (3099,   8, 0x0600354B) /* Icon */
+     , (3099,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3099,  28,        208) /* Spell - ManaRenewalOther3 */
      , (3099, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3099, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3099, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3099, 8000, 3690336761) /* PCAPRecordedObjectIID */;
+VALUES (3099, 8000, 0xDBF611F9) /* PCAPRecordedObjectIID */;

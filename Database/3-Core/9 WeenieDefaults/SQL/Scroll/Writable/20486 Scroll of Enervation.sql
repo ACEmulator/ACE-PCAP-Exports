@@ -24,13 +24,13 @@ VALUES (20486,   1, 'Scroll of Enervation') /* Name */
 Decreases the rate at which the target regains Stamina by 60%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20486,   1,   33554826) /* Setup */
-     , (20486,   8,  100676940) /* Icon */
-     , (20486,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20486,   1, 0x0200018A) /* Setup */
+     , (20486,   8, 0x0600354C) /* Icon */
+     , (20486,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20486,  28,       2176) /* Spell - ExhaustionOther7 */
      , (20486, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20486, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20486, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20486, 8000, 3683246129) /* PCAPRecordedObjectIID */;
+VALUES (20486, 8000, 0xDB89E031) /* PCAPRecordedObjectIID */;

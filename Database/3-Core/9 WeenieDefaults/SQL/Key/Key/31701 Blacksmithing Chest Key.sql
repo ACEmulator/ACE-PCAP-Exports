@@ -16,18 +16,21 @@ VALUES (31701,   1,      16384) /* ItemType - Key */
      , (31701, 114,          1) /* Attuned - Attuned */
      , (31701, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31701,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31701,   1, 'Blacksmithing Chest Key') /* Name */
      , (31701,  16, 'This icy key appears to open some sort of personal chest or storage device.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31701,   1,   33554784) /* Setup */
-     , (31701,   3,  536870932) /* SoundTable */
-     , (31701,   8,  100667469) /* Icon */
-     , (31701,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31701,   1, 0x02000160) /* Setup */
+     , (31701,   3, 0x20000014) /* SoundTable */
+     , (31701,   8, 0x0600104D) /* Icon */
+     , (31701,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31701, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (31701, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31701, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31701, 8000, 2153692110) /* PCAPRecordedObjectIID */;
+VALUES (31701, 8000, 0x805EBBCE) /* PCAPRecordedObjectIID */;

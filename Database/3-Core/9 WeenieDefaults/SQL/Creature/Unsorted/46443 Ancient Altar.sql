@@ -26,17 +26,17 @@ VALUES (46443,   1, 'Ancient Altar') /* Name */
      , (46443, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46443,   1,   33560418) /* Setup */
-     , (46443,   2,  150995355) /* MotionTable */
-     , (46443,   3,  536870913) /* SoundTable */
-     , (46443,   8,  100668239) /* Icon */
+VALUES (46443,   1, 0x02001762) /* Setup */
+     , (46443,   2, 0x0900019B) /* MotionTable */
+     , (46443,   3, 0x20000001) /* SoundTable */
+     , (46443,   8, 0x0600134F) /* Icon */
      , (46443, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (46443, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (46443, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46443, 8040, 1467024282, 170, -120, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (46443, 8040, 0x5771039A, 170, -120, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5771039A [170.000000 -120.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46443, 8000, 3707613653) /* PCAPRecordedObjectIID */;
+VALUES (46443, 8000, 0xDCFDB1D5) /* PCAPRecordedObjectIID */;

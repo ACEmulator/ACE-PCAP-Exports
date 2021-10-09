@@ -18,15 +18,15 @@ VALUES (19174,   1, 'Gredaline Villas') /* Name */
      , (19174,  16, 'Welcome to Gredaline Villas') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19174,   1,   33557463) /* Setup */
-     , (19174,   8,  100668115) /* Icon */
+VALUES (19174,   1, 0x02000BD7) /* Setup */
+     , (19174,   8, 0x060012D3) /* Icon */
      , (19174, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (19174, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19174, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19174, 8040, 2805202979, 116.292, 64.2254, 73.26588, -0.801284, 0, 0, 0.598284) /* PCAPRecordedLocation */
+VALUES (19174, 8040, 0xA7340023, 116.292, 64.2254, 73.26588, -0.801284, 0, 0, 0.598284) /* PCAPRecordedLocation */
 /* @teleloc 0xA7340023 [116.292000 64.225400 73.265880] -0.801284 0.000000 0.000000 0.598284 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19174, 8000, 2054373851) /* PCAPRecordedObjectIID */;
+VALUES (19174, 8000, 0x7A7341DB) /* PCAPRecordedObjectIID */;

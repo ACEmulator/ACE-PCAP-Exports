@@ -47,23 +47,23 @@ VALUES (11947,   1, 'Assault Spear') /* Name */
      , (11947,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11947,   1,   33557205) /* Setup */
-     , (11947,   3,  536870932) /* SoundTable */
-     , (11947,   6,   67111919) /* PaletteBase */
-     , (11947,   8,  100671747) /* Icon */
-     , (11947,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11947,   1, 0x02000AD5) /* Setup */
+     , (11947,   3, 0x20000014) /* SoundTable */
+     , (11947,   6, 0x04000BEF) /* PaletteBase */
+     , (11947,   8, 0x06002103) /* Icon */
+     , (11947,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11947,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (11947, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (11947, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11947, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11947, 8000, 2461806058) /* PCAPRecordedObjectIID */;
+VALUES (11947, 8000, 0x92BC2DEA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11947,  1311,      2)  /* ArmorSelf5 */
-     , (11947,  1590,      2)  /* HeartSeekerSelf4 */
-     , (11947,  1614,      2)  /* BloodDrinkerSelf4 */;
+VALUES (11947,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (11947,  1311,      2)  /* ArmorSelf5 */
+     , (11947,  1590,      2)  /* HeartSeekerSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11947, 67111924, 0, 0);

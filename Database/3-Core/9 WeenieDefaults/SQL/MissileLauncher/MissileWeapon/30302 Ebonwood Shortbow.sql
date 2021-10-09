@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30302,   1,        256) /* ItemType - MissileWeapon */
      , (30302,   5,        550) /* EncumbranceVal */
      , (30302,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (30302,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (30302,  16,          1) /* ItemUseable - No */
      , (30302,  17,        192) /* RareId */
      , (30302,  19,      50000) /* Value */
@@ -16,7 +15,7 @@ VALUES (30302,   1,        256) /* ItemType - MissileWeapon */
      , (30302,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30302,  49,         35) /* WeaponTime */
      , (30302,  50,          1) /* AmmoType - Arrow */
-     , (30302,  51,          2) /* CombatUse - Missle */
+     , (30302,  51,          2) /* CombatUse - Missile */
      , (30302,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30302, 106,        350) /* ItemSpellcraft */
      , (30302, 107,       1989) /* ItemCurMana */
@@ -57,12 +56,12 @@ VALUES (30302,   1, 'Ebonwood Shortbow') /* Name */
      , (30302,  16, 'At first glance this would be a fairly unremarkable shortbow, except that it is made of ebonwood. This wood hails from the perilous Forest of Shades in Ispar and is prized by bowyers for its exceptional qualities.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30302,   1,   33559366) /* Setup */
-     , (30302,   3,  536870932) /* SoundTable */
-     , (30302,   6,   67111919) /* PaletteBase */
-     , (30302,   8,  100686715) /* Icon */
-     , (30302,  22,  872415275) /* PhysicsEffectTable */
-     , (30302,  52,  100686604) /* IconUnderlay */
+VALUES (30302,   1, 0x02001346) /* Setup */
+     , (30302,   3, 0x20000014) /* SoundTable */
+     , (30302,   6, 0x04000BEF) /* PaletteBase */
+     , (30302,   8, 0x06005B7B) /* Icon */
+     , (30302,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30302,  52, 0x06005B0C) /* IconUnderlay */
      , (30302, 8001,  270762776) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (30302, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30302, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
@@ -70,20 +69,20 @@ VALUES (30302,   1,   33559366) /* Setup */
      , (30302, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30302, 8040, 23855554, 49.21, -31.909, -0.07000001, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (30302, 8040, 0x016C01C2, 49.21, -31.909, -0.07, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [49.210000 -31.909000 -0.070000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30302, 8000, 3637155498) /* PCAPRecordedObjectIID */
-     , (30302, 8008, 1343478737) /* PCAPRecordedParentIID */;
+VALUES (30302, 8000, 0xD8CA96AA) /* PCAPRecordedObjectIID */
+     , (30302, 8008, 0x5013DBD1) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30302,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (30302,  4400,      2)  /* DefenderSelf8 */
-     , (30302,  4522,      2)  /* BowMasterySelf8 */
+VALUES (30302,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */
      , (30302,  4560,      2)  /* InvulnerabilitySelf8 */
-     , (30302,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (30302,  4687,      2)  /* CANTRIPBOWAPTITUDE3 */;
+     , (30302,  4522,      2)  /* MissileWeaponsMasterySelf8 */
+     , (30302,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (30302,  4400,      2)  /* DefenderSelf8 */
+     , (30302,  4661,      2)  /* CANTRIPBLOODTHIRST3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30302, 67111920, 0, 0);

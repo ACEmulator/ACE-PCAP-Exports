@@ -36,27 +36,27 @@ VALUES (795,   1, 'Archmage Yuzai Zhen') /* Name */
      , (795, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (795,   1,   33554510) /* Setup */
-     , (795,   2,  150994945) /* MotionTable */
-     , (795,   3,  536870914) /* SoundTable */
-     , (795,   6,   67108990) /* PaletteBase */
-     , (795,   8,  100667446) /* Icon */
-     , (795,   9,   83890281) /* EyesTexture */
-     , (795,  10,   83890301) /* NoseTexture */
-     , (795,  11,   83890336) /* MouthTexture */
-     , (795,  15,   67117068) /* HairPalette */
-     , (795,  16,   67110062) /* EyesPalette */
-     , (795,  17,   67110056) /* SkinPalette */
+VALUES (795,   1, 0x0200004E) /* Setup */
+     , (795,   2, 0x09000001) /* MotionTable */
+     , (795,   3, 0x20000002) /* SoundTable */
+     , (795,   6, 0x0400007E) /* PaletteBase */
+     , (795,   8, 0x06001036) /* Icon */
+     , (795,   9, 0x05001069) /* EyesTexture */
+     , (795,  10, 0x0500107D) /* NoseTexture */
+     , (795,  11, 0x050010A0) /* MouthTexture */
+     , (795,  15, 0x0400200C) /* HairPalette */
+     , (795,  16, 0x040004AE) /* EyesPalette */
+     , (795,  17, 0x040004A8) /* SkinPalette */
      , (795, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (795, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (795, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (795, 8040, 3862036739, 112.08, 131.04, 30.005, -0.6028609, 0, 0, -0.7978463) /* PCAPRecordedLocation */
+VALUES (795, 8040, 0xE6320103, 112.08, 131.04, 30.005, -0.602861, 0, 0, -0.797846) /* PCAPRecordedLocation */
 /* @teleloc 0xE6320103 [112.080000 131.040000 30.005000] -0.602861 0.000000 0.000000 -0.797846 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (795, 8000, 2120425487) /* PCAPRecordedObjectIID */;
+VALUES (795, 8000, 0x7E63200F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (795,   1,  40, 0, 0) /* Strength */
@@ -185,9 +185,7 @@ VALUES (795, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop *
      , (795, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
      , (795, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
      , (795, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
-     , (795, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
-     , (795, 4, 27330, -1, 0, 0, False) /* Create Moderate Mana Stone (27330) for Shop */
-     , (795, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */;
+     , (795, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (795, 67110056, 0, 24)

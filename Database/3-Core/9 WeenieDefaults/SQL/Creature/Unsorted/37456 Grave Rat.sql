@@ -24,23 +24,23 @@ VALUES (37456,   1, 'Grave Rat') /* Name */
      , (37456, 8006, 'AAA9AEAAAACamZm/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37456,   1,   33554493) /* Setup */
-     , (37456,   2,  150994958) /* MotionTable */
-     , (37456,   3,  536870927) /* SoundTable */
-     , (37456,   6,   67109300) /* PaletteBase */
-     , (37456,   8,  100667451) /* Icon */
-     , (37456,  22,  872415267) /* PhysicsEffectTable */
+VALUES (37456,   1, 0x0200003D) /* Setup */
+     , (37456,   2, 0x0900000E) /* MotionTable */
+     , (37456,   3, 0x2000000F) /* SoundTable */
+     , (37456,   6, 0x040001B4) /* PaletteBase */
+     , (37456,   8, 0x0600103B) /* Icon */
+     , (37456,  22, 0x34000023) /* PhysicsEffectTable */
      , (37456,  30,         86) /* PhysicsScript - BreatheAcid */
      , (37456, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (37456, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (37456, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37456, 8040, 15336289, 122.1537, -120.6135, -41.988, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (37456, 8040, 0x00EA0361, 122.1537, -120.6135, -41.988, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00EA0361 [122.153700 -120.613500 -41.988000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37456, 8000, 3675215613) /* PCAPRecordedObjectIID */;
+VALUES (37456, 8000, 0xDB0F56FD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37456, 67114718, 0, 0);

@@ -28,28 +28,28 @@ VALUES (31280,   1, 'Twisted Shadow') /* Name */
      , (31280, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31280,   1,   33556251) /* Setup */
-     , (31280,   2,  150995091) /* MotionTable */
-     , (31280,   3,  536870914) /* SoundTable */
-     , (31280,   6,   67108990) /* PaletteBase */
-     , (31280,   8,  100670398) /* Icon */
-     , (31280,   9,   83890284) /* EyesTexture */
-     , (31280,  10,   83890315) /* NoseTexture */
-     , (31280,  11,   83890354) /* MouthTexture */
-     , (31280,  15,   67117024) /* HairPalette */
-     , (31280,  16,   67109565) /* EyesPalette */
-     , (31280,  17,   67109561) /* SkinPalette */
-     , (31280,  22,  872415331) /* PhysicsEffectTable */
+VALUES (31280,   1, 0x0200071B) /* Setup */
+     , (31280,   2, 0x09000093) /* MotionTable */
+     , (31280,   3, 0x20000002) /* SoundTable */
+     , (31280,   6, 0x0400007E) /* PaletteBase */
+     , (31280,   8, 0x06001BBE) /* Icon */
+     , (31280,   9, 0x0500106C) /* EyesTexture */
+     , (31280,  10, 0x0500108B) /* NoseTexture */
+     , (31280,  11, 0x050010B2) /* MouthTexture */
+     , (31280,  15, 0x04001FE0) /* HairPalette */
+     , (31280,  16, 0x040002BD) /* EyesPalette */
+     , (31280,  17, 0x040002B9) /* SkinPalette */
+     , (31280,  22, 0x34000063) /* PhysicsEffectTable */
      , (31280, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (31280, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (31280, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31280, 8040, 5636894, 173.735, -189.442, -5.9935, 0.444313, 0, 0, 0.895872) /* PCAPRecordedLocation */
+VALUES (31280, 8040, 0x0056031E, 173.735, -189.442, -5.9935, 0.444313, 0, 0, 0.895872) /* PCAPRecordedLocation */
 /* @teleloc 0x0056031E [173.735000 -189.442000 -5.993500] 0.444313 0.000000 0.000000 0.895872 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31280, 8000, 3678683622) /* PCAPRecordedObjectIID */;
+VALUES (31280, 8000, 0xDB4441E6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (31280,   1,     0, 0, 0, 750) /* MaxHealth */;
@@ -364,7 +364,9 @@ VALUES (31280, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
      , (31280, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
      , (31280, 9, 41058,  0, 0, 0, False) /* Create Acid Great Star Mace (41058) for ContainTreasure */
      , (31280, 9, 45354,  0, 0, 0, False) /* Create Scroll of Sneak Attack Mastery Self VII (45354) for ContainTreasure */
-     , (31280, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */;
+     , (31280, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
+     , (31280, 9,   336,  0, 0, 0, False) /* Create Ono (336) for ContainTreasure */
+     , (31280, 9,  3874,  0, 0, 0, False) /* Create Lightning Spear (3874) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31280, 67112860, 0, 0);

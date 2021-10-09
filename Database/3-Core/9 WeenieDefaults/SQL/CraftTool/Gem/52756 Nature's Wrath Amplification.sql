@@ -24,18 +24,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52756,   1, 'Nature''s Wrath Amplification') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52756,   1,   33554809) /* Setup */
-     , (52756,   3,  536870932) /* SoundTable */
-     , (52756,   6,   67111919) /* PaletteBase */
-     , (52756,   8,  100673218) /* Icon */
-     , (52756,  22,  872415275) /* PhysicsEffectTable */
-     , (52756,  50,  100673274) /* IconOverlay */
+VALUES (52756,   1, 0x02000179) /* Setup */
+     , (52756,   3, 0x20000014) /* SoundTable */
+     , (52756,   6, 0x04000BEF) /* PaletteBase */
+     , (52756,   8, 0x060026C2) /* Icon */
+     , (52756,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (52756,  50, 0x060026FA) /* IconOverlay */
      , (52756, 8001, 1076392088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (52756, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52756, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52756, 8000, 2768634329) /* PCAPRecordedObjectIID */;
+VALUES (52756, 8000, 0xA50601D9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52756, 67111924, 0, 0);

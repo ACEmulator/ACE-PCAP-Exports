@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46460,   1, 'Final Gate Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46460,   1,   33554784) /* Setup */
-     , (46460,   3,  536870932) /* SoundTable */
-     , (46460,   8,  100691954) /* Icon */
-     , (46460,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46460,   1, 0x02000160) /* Setup */
+     , (46460,   3, 0x20000014) /* SoundTable */
+     , (46460,   8, 0x06006FF2) /* Icon */
+     , (46460,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46460, 8001,    2641048) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden */
      , (46460, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46460, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46460, 8000, 2153283026) /* PCAPRecordedObjectIID */;
+VALUES (46460, 8000, 0x80587DD2) /* PCAPRecordedObjectIID */;

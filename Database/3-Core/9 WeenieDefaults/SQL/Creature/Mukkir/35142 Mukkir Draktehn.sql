@@ -26,23 +26,23 @@ VALUES (35142,   1, 'Mukkir Draktehn') /* Name */
      , (35142, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35142,   1,   33559741) /* Setup */
-     , (35142,   2,  150995348) /* MotionTable */
-     , (35142,   3,  536871107) /* SoundTable */
-     , (35142,   6,   67116771) /* PaletteBase */
-     , (35142,   8,  100688542) /* Icon */
-     , (35142,  22,  872415417) /* PhysicsEffectTable */
+VALUES (35142,   1, 0x020014BD) /* Setup */
+     , (35142,   2, 0x09000194) /* MotionTable */
+     , (35142,   3, 0x200000C3) /* SoundTable */
+     , (35142,   6, 0x04001EE3) /* PaletteBase */
+     , (35142,   8, 0x0600629E) /* Icon */
+     , (35142,  22, 0x340000B9) /* PhysicsEffectTable */
      , (35142,  30,         85) /* PhysicsScript - BreatheFrost */
      , (35142, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35142, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35142, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35142, 8040, 11534720, 40.7232, -584.35, 0, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (35142, 8040, 0x00B00180, 40.7232, -584.35, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B00180 [40.723200 -584.350000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35142, 8000, 2447293336) /* PCAPRecordedObjectIID */;
+VALUES (35142, 8000, 0x91DEBB98) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35142,   1, 500, 0, 0) /* Strength */

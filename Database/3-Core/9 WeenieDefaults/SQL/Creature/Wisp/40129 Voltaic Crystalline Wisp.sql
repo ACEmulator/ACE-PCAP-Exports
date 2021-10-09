@@ -22,20 +22,20 @@ VALUES (40129,   1, 'Voltaic Crystalline Wisp') /* Name */
      , (40129, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40129,   1,   33556979) /* Setup */
-     , (40129,   2,  150995087) /* MotionTable */
-     , (40129,   3,  536870985) /* SoundTable */
-     , (40129,   8,  100671612) /* Icon */
+VALUES (40129,   1, 0x020009F3) /* Setup */
+     , (40129,   2, 0x0900008F) /* MotionTable */
+     , (40129,   3, 0x20000049) /* SoundTable */
+     , (40129,   8, 0x0600207C) /* Icon */
      , (40129, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40129, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40129, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40129, 8040, 845938719, 85.27548, 161.9082, 304.005, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (40129, 8040, 0x326C001F, 85.27548, 161.9082, 304.005, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x326C001F [85.275480 161.908200 304.005000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40129, 8000, 3360746828) /* PCAPRecordedObjectIID */;
+VALUES (40129, 8000, 0xC850ED4C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40129,   1, 150, 0, 0) /* Strength */
@@ -51,7 +51,8 @@ VALUES (40129,   1,   620, 0, 0, 720) /* MaxHealth */
      , (40129,   5,   120, 0, 0, 450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40129, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */
+VALUES (40129, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+     , (40129, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */
      , (40129, 9, 20239,  0, 0, 0, False) /* Create Scroll of Self Loathing (20239) for ContainTreasure */
      , (40129, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
      , (40129, 9,  3914,  0, 0, 0, False) /* Create Lightning Yari (3914) for ContainTreasure */
@@ -155,4 +156,6 @@ VALUES (40129, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainT
      , (40129, 9, 43833,  0, 0, 0, False) /* Create Sedgemail Leather Sleeves (43833) for ContainTreasure */
      , (40129, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
      , (40129, 9, 31799,  0, 0, 0, False) /* Create Acid Compound Bow (31799) for ContainTreasure */
-     , (40129, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */;
+     , (40129, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
+     , (40129, 9, 49313,  0, 0, 0, False) /* Create Acid Wisp Essence (125) (49313) for ContainTreasure */
+     , (40129, 9,   342,  0, 0, 0, False) /* Create Shou-ono (342) for ContainTreasure */;

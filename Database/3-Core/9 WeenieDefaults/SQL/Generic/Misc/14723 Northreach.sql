@@ -18,15 +18,15 @@ VALUES (14723,   1, 'Northreach') /* Name */
      , (14723,  16, 'Welcome to Northreach') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14723,   1,   33557463) /* Setup */
-     , (14723,   8,  100668115) /* Icon */
+VALUES (14723,   1, 0x02000BD7) /* Setup */
+     , (14723,   8, 0x060012D3) /* Icon */
      , (14723, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (14723, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14723, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14723, 8040, 2884042780, 88.0167, 90.865, 1.33055, 0.966915, 0, 0, 0.255099) /* PCAPRecordedLocation */
+VALUES (14723, 8040, 0xABE7001C, 88.0167, 90.865, 1.33055, 0.966915, 0, 0, 0.255099) /* PCAPRecordedLocation */
 /* @teleloc 0xABE7001C [88.016700 90.865000 1.330550] 0.966915 0.000000 0.000000 0.255099 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14723, 8000, 2059301243) /* PCAPRecordedObjectIID */;
+VALUES (14723, 8000, 0x7ABE717B) /* PCAPRecordedObjectIID */;

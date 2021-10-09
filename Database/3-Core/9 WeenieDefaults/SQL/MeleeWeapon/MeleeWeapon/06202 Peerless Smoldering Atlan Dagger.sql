@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6202,   1, 'Peerless Smoldering Atlan Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6202,   1,   33556357) /* Setup */
-     , (6202,   3,  536870932) /* SoundTable */
-     , (6202,   6,   67111919) /* PaletteBase */
-     , (6202,   8,  100670525) /* Icon */
-     , (6202,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6202,   1, 0x02000785) /* Setup */
+     , (6202,   3, 0x20000014) /* SoundTable */
+     , (6202,   6, 0x04000BEF) /* PaletteBase */
+     , (6202,   8, 0x06001C3D) /* Icon */
+     , (6202,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6202, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (6202, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6202, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6202, 8000, 2867214240) /* PCAPRecordedObjectIID */;
+VALUES (6202, 8000, 0xAAE637A0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6202, 67111924, 0, 0);

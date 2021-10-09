@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (24202,   1,          1) /* ItemType - MeleeWeapon */
      , (24202,   5,        120) /* EncumbranceVal */
      , (24202,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (24202,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (24202,  16,          1) /* ItemUseable - No */
      , (24202,  18,          1) /* UiEffects - Magical */
      , (24202,  19,       8000) /* Value */
@@ -35,6 +34,7 @@ VALUES (24202,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24202,  22, True ) /* Inscribable */
+     , (24202,  23, True ) /* DestroyOnSell */
      , (24202,  69, False) /* IsSellable */
      , (24202,  99, True ) /* Ivoryable */;
 
@@ -53,22 +53,22 @@ VALUES (24202,   1, 'Weeping Dagger') /* Name */
      , (24202,  15, 'A dagger infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24202,   1,   33558293) /* Setup */
-     , (24202,   3,  536870932) /* SoundTable */
-     , (24202,   8,  100674267) /* Icon */
-     , (24202,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24202,   1, 0x02000F15) /* Setup */
+     , (24202,   3, 0x20000014) /* SoundTable */
+     , (24202,   8, 0x06002ADB) /* Icon */
+     , (24202,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24202, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (24202, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24202, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (24202, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24202, 8040, 4095213581, 27.166, 102.5381, 159.929, 0.4826304, 0.4826304, -0.5167862, -0.5167862) /* PCAPRecordedLocation */
+VALUES (24202, 8040, 0xF418000D, 27.166, 102.5381, 159.929, 0.48263, 0.48263, -0.516786, -0.516786) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [27.166000 102.538100 159.929000] 0.482630 0.482630 -0.516786 -0.516786 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24202, 8000, 2166297036) /* PCAPRecordedObjectIID */
-     , (24202, 8008, 1342274036) /* PCAPRecordedParentIID */;
+VALUES (24202, 8000, 0x811F11CC) /* PCAPRecordedObjectIID */
+     , (24202, 8008, 0x500179F4) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24202,  2686,      2)  /* ModerateAxeAptitude */;

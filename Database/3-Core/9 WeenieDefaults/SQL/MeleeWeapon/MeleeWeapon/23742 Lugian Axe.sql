@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23742,   1,          1) /* ItemType - MeleeWeapon */
      , (23742,   5,       6400) /* EncumbranceVal */
      , (23742,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (23742,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (23742,  16,          1) /* ItemUseable - No */
      , (23742,  19,        750) /* Value */
      , (23742,  33,         -2) /* Bonded - Destroy */
@@ -43,22 +42,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23742,   1, 'Lugian Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23742,   1,   33554726) /* Setup */
-     , (23742,   3,  536870932) /* SoundTable */
-     , (23742,   8,  100667580) /* Icon */
-     , (23742,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23742,   1, 0x02000126) /* Setup */
+     , (23742,   3, 0x20000014) /* SoundTable */
+     , (23742,   8, 0x060010BC) /* Icon */
+     , (23742,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23742, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (23742, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23742, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (23742, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23742, 8040, 2636578870, 154.5179, 138.426, 249.9704, 0.7020857, 0.7020857, -0.08411727, -0.08411727) /* PCAPRecordedLocation */
+VALUES (23742, 8040, 0x9D270036, 154.5179, 138.426, 249.9704, 0.702086, 0.702086, -0.084117, -0.084117) /* PCAPRecordedLocation */
 /* @teleloc 0x9D270036 [154.517900 138.426000 249.970400] 0.702086 0.702086 -0.084117 -0.084117 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23742, 8000, 3689964310) /* PCAPRecordedObjectIID */
-     , (23742, 8008, 3689964327) /* PCAPRecordedParentIID */;
+VALUES (23742, 8000, 0xDBF06316) /* PCAPRecordedObjectIID */
+     , (23742, 8008, 0xDBF06327) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23742,  1614,      2)  /* BloodDrinkerSelf4 */

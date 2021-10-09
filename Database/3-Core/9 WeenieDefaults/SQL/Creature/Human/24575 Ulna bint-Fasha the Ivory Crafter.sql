@@ -31,27 +31,27 @@ VALUES (24575,   1, 'Ulna bint-Fasha the Ivory Crafter') /* Name */
      , (24575, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24575,   1,   33554510) /* Setup */
-     , (24575,   2,  150994945) /* MotionTable */
-     , (24575,   3,  536870914) /* SoundTable */
-     , (24575,   6,   67108990) /* PaletteBase */
-     , (24575,   8,  100667446) /* Icon */
-     , (24575,   9,   83890282) /* EyesTexture */
-     , (24575,  10,   83890290) /* NoseTexture */
-     , (24575,  11,   83890337) /* MouthTexture */
-     , (24575,  15,   67117001) /* HairPalette */
-     , (24575,  16,   67110062) /* EyesPalette */
-     , (24575,  17,   67109554) /* SkinPalette */
+VALUES (24575,   1, 0x0200004E) /* Setup */
+     , (24575,   2, 0x09000001) /* MotionTable */
+     , (24575,   3, 0x20000002) /* SoundTable */
+     , (24575,   6, 0x0400007E) /* PaletteBase */
+     , (24575,   8, 0x06001036) /* Icon */
+     , (24575,   9, 0x0500106A) /* EyesTexture */
+     , (24575,  10, 0x05001072) /* NoseTexture */
+     , (24575,  11, 0x050010A1) /* MouthTexture */
+     , (24575,  15, 0x04001FC9) /* HairPalette */
+     , (24575,  16, 0x040004AE) /* EyesPalette */
+     , (24575,  17, 0x040002B2) /* SkinPalette */
      , (24575, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (24575, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (24575, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24575, 8040, 722534689, 162.059, 163.9114, 47.205, 0.2732241, 0, 0, -0.9619504) /* PCAPRecordedLocation */
+VALUES (24575, 8040, 0x2B110121, 162.059, 163.9114, 47.205, 0.273224, 0, 0, -0.96195) /* PCAPRecordedLocation */
 /* @teleloc 0x2B110121 [162.059000 163.911400 47.205000] 0.273224 0.000000 0.000000 -0.961950 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24575, 8000, 3688978285) /* PCAPRecordedObjectIID */;
+VALUES (24575, 8000, 0xDBE1576D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24575,   1, 178, 0, 0) /* Strength */

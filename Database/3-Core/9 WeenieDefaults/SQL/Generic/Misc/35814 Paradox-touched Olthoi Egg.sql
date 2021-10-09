@@ -15,6 +15,7 @@ VALUES (35814,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35814,  22, True ) /* Inscribable */
+     , (35814,  23, True ) /* DestroyOnSell */
      , (35814,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -23,17 +24,17 @@ VALUES (35814,   1, 'Paradox-touched Olthoi Egg') /* Name */
      , (35814,  16, 'An Olthoi Egg, pulsating with a strange combination of Shadow and Virindi energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35814,   1,   33560326) /* Setup */
-     , (35814,   3,  536870932) /* SoundTable */
-     , (35814,   8,  100671764) /* Icon */
-     , (35814,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35814,   1, 0x02001706) /* Setup */
+     , (35814,   3, 0x20000014) /* SoundTable */
+     , (35814,   8, 0x06002114) /* Icon */
+     , (35814,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35814, 8001,    2097296) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Burden */
      , (35814, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35814, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35814, 8040, 8913238, 70, -50, -72, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35814, 8040, 0x00880156, 70, -50, -72, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00880156 [70.000000 -50.000000 -72.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35814, 8000, 3691610693) /* PCAPRecordedObjectIID */;
+VALUES (35814, 8000, 0xDC098245) /* PCAPRecordedObjectIID */;

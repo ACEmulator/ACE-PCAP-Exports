@@ -22,13 +22,13 @@ VALUES (37242,   1, 'Nine of Hands') /* Name */
      , (37242,  20, 'Nines of Hands') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37242,   1,   33560548) /* Setup */
-     , (37242,   3,  536870932) /* SoundTable */
-     , (37242,   8,  100689856) /* Icon */
-     , (37242,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37242,   1, 0x020017E4) /* Setup */
+     , (37242,   3, 0x20000014) /* SoundTable */
+     , (37242,   8, 0x060067C0) /* Icon */
+     , (37242,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37242, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (37242, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37242, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37242, 8000, 2174553755) /* PCAPRecordedObjectIID */;
+VALUES (37242, 8000, 0x819D0E9B) /* PCAPRecordedObjectIID */;

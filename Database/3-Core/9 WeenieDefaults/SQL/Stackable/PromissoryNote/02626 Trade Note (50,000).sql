@@ -21,13 +21,13 @@ VALUES (2626,   1, 'Trade Note (50,000)') /* Name */
      , (2626,  20, 'Trade Notes (50,000)') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2626,   1,   33554773) /* Setup */
-     , (2626,   3,  536870932) /* SoundTable */
-     , (2626,   8,  100669130) /* Icon */
-     , (2626,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2626,   1, 0x02000155) /* Setup */
+     , (2626,   3, 0x20000014) /* SoundTable */
+     , (2626,   8, 0x060016CA) /* Icon */
+     , (2626,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2626, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (2626, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (2626, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2626, 8000, 3682558876) /* PCAPRecordedObjectIID */;
+VALUES (2626, 8000, 0xDB7F639C) /* PCAPRecordedObjectIID */;

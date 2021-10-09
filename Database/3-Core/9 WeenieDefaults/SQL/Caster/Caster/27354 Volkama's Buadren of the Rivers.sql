@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27354,   1,      32768) /* ItemType - Caster */
      , (27354,   5,         50) /* EncumbranceVal */
      , (27354,   9,   16777216) /* ValidLocations - Held */
-     , (27354,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (27354,  16,          1) /* ItemUseable - No */
      , (27354,  18,          1) /* UiEffects - Magical */
      , (27354,  19,      20000) /* Value */
      , (27354,  33,          1) /* Bonded - Bonded */
+     , (27354,  46,        512) /* DefaultCombatStyle - Magic */
      , (27354,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27354,  94,         16) /* TargetType - Creature */
      , (27354, 106,        250) /* ItemSpellcraft */
@@ -27,6 +27,7 @@ VALUES (27354,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27354,  22, True ) /* Inscribable */
+     , (27354,  23, True ) /* DestroyOnSell */
      , (27354,  69, False) /* IsSellable */
      , (27354,  99, True ) /* Ivoryable */;
 
@@ -41,27 +42,27 @@ VALUES (27354,   1, 'Volkama''s Buadren of the Rivers') /* Name */
      , (27354,  16, 'A buadren fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27354,   1,   33558670) /* Setup */
-     , (27354,   3,  536870932) /* SoundTable */
-     , (27354,   8,  100676360) /* Icon */
-     , (27354,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27354,   1, 0x0200108E) /* Setup */
+     , (27354,   3, 0x20000014) /* SoundTable */
+     , (27354,   8, 0x06003308) /* Icon */
+     , (27354,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27354, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
      , (27354, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27354, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (27354, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27354, 8040, 23855549, 54.95266, -39.65619, -0.071, 0.6974312, 0.6974312, -0.1165748, -0.1165748) /* PCAPRecordedLocation */
+VALUES (27354, 8040, 0x016C01BD, 54.95266, -39.65619, -0.071, 0.697431, 0.697431, -0.116575, -0.116575) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [54.952660 -39.656190 -0.071000] 0.697431 0.697431 -0.116575 -0.116575 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27354, 8000, 3202088980) /* PCAPRecordedObjectIID */
-     , (27354, 8008, 1342436305) /* PCAPRecordedParentIID */;
+VALUES (27354, 8000, 0xBEDC0014) /* PCAPRecordedObjectIID */
+     , (27354, 8008, 0x5003F3D1) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27354,  2470,      2)  /* StillWaterGreater */
-     , (27354,  2473,      2)  /* TorrentGreater */
-     , (27354,  3224,      2)  /* CascadeManaCGreater */;
+VALUES (27354,  3224,      2)  /* CascadeManaCGreater */
+     , (27354,  2470,      2)  /* StillWaterGreater */
+     , (27354,  2473,      2)  /* TorrentGreater */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (27354, 0, 83893670, 83893670)

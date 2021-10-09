@@ -21,22 +21,22 @@ VALUES (29393,   1, 'Dispatch to Captain Argenne') /* Name */
      , (29393,  16, 'A note to Captain Argenne of the Silver Legion from General Corcima. It appears to be rather old and crumpled.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29393,   1,   33554773) /* Setup */
-     , (29393,   3,  536870932) /* SoundTable */
-     , (29393,   8,  100668176) /* Icon */
-     , (29393,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29393,   1, 0x02000155) /* Setup */
+     , (29393,   3, 0x20000014) /* SoundTable */
+     , (29393,   8, 0x06001310) /* Icon */
+     , (29393,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29393, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (29393, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (29393, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29393, 8000, 2149416299) /* PCAPRecordedObjectIID */;
+VALUES (29393, 8000, 0x801D7D6B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29393, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (29393, 0, 4294967295, 'General Corcima', 'Password is cheese', False, 'Captain Argenne,
+VALUES (29393, 0, 4294967295, 'General Corcima', 'prewritten', False, 'Captain Argenne,
 
 All of us from the old Council of Generals remember the effectiveness of your siegecraft when we broke the walls of the city of Tirethas.  In the coming days, you will have a similar mission of engineering.  You are hereby commanded to establish a network of underground fortifications to serve as our immediate base of operations around the desert dwellers'' capital city.  To aid you in this task, our King has negotiated an arrangement with the grey giants, the Lugians.  They, too, are a race of warriors, and worthy of our respect.  You are responsible for the management of our alliance, and for directly supervising the excavations.  I trust you will do a fine job in preparing our tunnels.
 ');

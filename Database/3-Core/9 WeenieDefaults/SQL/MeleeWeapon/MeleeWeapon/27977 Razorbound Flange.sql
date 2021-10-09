@@ -48,25 +48,25 @@ VALUES (27977,   1, 'Razorbound Flange') /* Name */
      , (27977,  16, 'A vile looking mace. Blades have been fashioned to the flange head to allow for the weapon to flay flesh.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27977,   1,   33558753) /* Setup */
-     , (27977,   3,  536870932) /* SoundTable */
-     , (27977,   6,   67114956) /* PaletteBase */
-     , (27977,   8,  100676553) /* Icon */
-     , (27977,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27977,   1, 0x020010E1) /* Setup */
+     , (27977,   3, 0x20000014) /* SoundTable */
+     , (27977,   6, 0x040017CC) /* PaletteBase */
+     , (27977,   8, 0x060033C9) /* Icon */
+     , (27977,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27977, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27977, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27977, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27977, 8000, 2272749356) /* PCAPRecordedObjectIID */;
+VALUES (27977, 8000, 0x8777672C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27977,   188,      2)  /* RejuvenationOther6 */
-     , (27977,  1337,      2)  /* StrengthOther6 */
-     , (27977,  1605,      2)  /* DefenderSelf6 */
+VALUES (27977,  1605,      2)  /* DefenderSelf6 */
+     , (27977,  2694,      2)  /* ModerateSwordAptitude */
      , (27977,  1616,      2)  /* BloodDrinkerSelf6 */
      , (27977,  1627,      2)  /* SwiftKillerSelf6 */
-     , (27977,  2694,      2)  /* ModerateSwordAptitude */;
+     , (27977,  1337,      2)  /* StrengthOther6 */
+     , (27977,   188,      2)  /* RejuvenationOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27977, 67114955, 0, 0);

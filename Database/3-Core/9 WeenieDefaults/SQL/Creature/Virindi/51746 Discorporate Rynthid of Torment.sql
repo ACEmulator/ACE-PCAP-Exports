@@ -25,23 +25,23 @@ VALUES (51746,   1, 'Discorporate Rynthid of Torment') /* Name */
      , (51746, 8006, 'BgA8AHFQDFA9B1RZ2yNSxDkFW0SG6z/B8O9BAHn0uD/NzMw9AADIQgAAgD8AAHBBAAAAAJqZKUA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51746,   1,   33561546) /* Setup */
-     , (51746,   2,  150995487) /* MotionTable */
-     , (51746,   3,  536870930) /* SoundTable */
-     , (51746,   6,   67111346) /* PaletteBase */
-     , (51746,   8,  100667943) /* Icon */
-     , (51746,  22,  872415443) /* PhysicsEffectTable */
+VALUES (51746,   1, 0x02001BCA) /* Setup */
+     , (51746,   2, 0x0900021F) /* MotionTable */
+     , (51746,   3, 0x20000012) /* SoundTable */
+     , (51746,   6, 0x040009B2) /* PaletteBase */
+     , (51746,   8, 0x06001227) /* Icon */
+     , (51746,  22, 0x340000D3) /* PhysicsEffectTable */
      , (51746,  30,         87) /* PhysicsScript - BreatheLightning */
      , (51746, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (51746, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (51746, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51746, 8040, 1498679057, 211.7942, -70.47457, -11.971, 0.7355595, 0, 0, -0.6774601) /* PCAPRecordedLocation */
+VALUES (51746, 8040, 0x59540711, 211.7942, -70.47457, -11.971, 0.73556, 0, 0, -0.67746) /* PCAPRecordedLocation */
 /* @teleloc 0x59540711 [211.794200 -70.474570 -11.971000] 0.735560 0.000000 0.000000 -0.677460 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51746, 8000, 3707337902) /* PCAPRecordedObjectIID */;
+VALUES (51746, 8000, 0xDCF97CAE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (51746,   1,     0, 0, 0, 500) /* MaxHealth */;

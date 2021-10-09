@@ -45,17 +45,17 @@ VALUES (30597,   1, 'Lightning Poniard') /* Name */
      , (30597,  16, 'Lightning Poniard') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30597,   1,   33559487) /* Setup */
-     , (30597,   3,  536870932) /* SoundTable */
-     , (30597,   6,   67116417) /* PaletteBase */
-     , (30597,   8,  100686994) /* Icon */
-     , (30597,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30597,   1, 0x020013BF) /* Setup */
+     , (30597,   3, 0x20000014) /* SoundTable */
+     , (30597,   6, 0x04001D81) /* PaletteBase */
+     , (30597,   8, 0x06005C92) /* Icon */
+     , (30597,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30597, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30597, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30597, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30597, 8000, 3698072396) /* PCAPRecordedObjectIID */;
+VALUES (30597, 8000, 0xDC6C1B4C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30597, 67116425, 0, 0);

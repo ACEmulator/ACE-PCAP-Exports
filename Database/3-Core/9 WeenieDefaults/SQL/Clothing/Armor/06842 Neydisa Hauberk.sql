@@ -31,16 +31,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6842,   1, 'Neydisa Hauberk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6842,   1,   33554644) /* Setup */
-     , (6842,   6,   67108990) /* PaletteBase */
-     , (6842,   8,  100669219) /* Icon */
-     , (6842,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6842,   1, 0x020000D4) /* Setup */
+     , (6842,   6, 0x0400007E) /* PaletteBase */
+     , (6842,   8, 0x06001723) /* Icon */
+     , (6842,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6842, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (6842, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6842, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6842, 8000, 2628150177) /* PCAPRecordedObjectIID */;
+VALUES (6842, 8000, 0x9CA663A1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6842, 67110385, 92, 4)

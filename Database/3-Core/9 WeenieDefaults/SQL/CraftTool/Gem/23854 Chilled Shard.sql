@@ -20,7 +20,8 @@ VALUES (23854,   1,       2048) /* ItemType - Gem */
      , (23854, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23854,  22, True ) /* Inscribable */;
+VALUES (23854,  22, True ) /* Inscribable */
+     , (23854,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23854,   1, 'Chilled Shard') /* Name */
@@ -28,13 +29,13 @@ VALUES (23854,   1, 'Chilled Shard') /* Name */
      , (23854,  16, 'A chilled shard.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23854,   1,   33558194) /* Setup */
-     , (23854,   3,  536870932) /* SoundTable */
-     , (23854,   8,  100674041) /* Icon */
-     , (23854,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23854,   1, 0x02000EB2) /* Setup */
+     , (23854,   3, 0x20000014) /* SoundTable */
+     , (23854,   8, 0x060029F9) /* Icon */
+     , (23854,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23854, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (23854, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23854, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23854, 8000, 2981041659) /* PCAPRecordedObjectIID */;
+VALUES (23854, 8000, 0xB1AF15FB) /* PCAPRecordedObjectIID */;

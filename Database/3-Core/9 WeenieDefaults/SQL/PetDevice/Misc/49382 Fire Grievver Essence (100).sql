@@ -17,7 +17,7 @@ VALUES (49382,   1,        128) /* ItemType - Misc */
      , (49382, 105,          7) /* ItemWorkmanship */
      , (49382, 114,          0) /* Attuned - Normal */
      , (49382, 280,        213) /* SharedCooldown */
-     , (49382, 366,         54) /* UseRequiresSkill */
+     , (49382, 366,         54) /* UseRequiresSkill - Summoning */
      , (49382, 367,        400) /* UseRequiresSkillLevel */
      , (49382, 369,         90) /* UseRequiresLevel */
      , (49382, 372,         16) /* GearCrit */
@@ -38,20 +38,20 @@ VALUES (49382,   1, 'Fire Grievver Essence (100)') /* Name */
      , (49382,  14, 'Use this essence to summon or dismiss your Fire Grievver.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49382,   1,   33554817) /* Setup */
-     , (49382,   3,  536870932) /* SoundTable */
-     , (49382,   6,   67111919) /* PaletteBase */
-     , (49382,   8,  100670960) /* Icon */
-     , (49382,  22,  872415275) /* PhysicsEffectTable */
-     , (49382,  50,  100693028) /* IconOverlay */
-     , (49382,  52,  100693024) /* IconUnderlay */
+VALUES (49382,   1, 0x02000181) /* Setup */
+     , (49382,   3, 0x20000014) /* SoundTable */
+     , (49382,   6, 0x04000BEF) /* PaletteBase */
+     , (49382,   8, 0x06001DF0) /* Icon */
+     , (49382,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49382,  50, 0x06007424) /* IconOverlay */
+     , (49382,  52, 0x06007420) /* IconUnderlay */
      , (49382, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49382, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49382, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49382, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49382, 8000, 2929830356) /* PCAPRecordedObjectIID */;
+VALUES (49382, 8000, 0xAEA1A9D4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49382, 67111923, 0, 0);

@@ -36,23 +36,20 @@ VALUES (41486,   1, 'Puzzle Box') /* Name */
      , (41486,  16, 'Puzzle Box of Deception') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41486,   1,   33554817) /* Setup */
-     , (41486,   3,  536870932) /* SoundTable */
-     , (41486,   6,   67111919) /* PaletteBase */
-     , (41486,   8,  100690665) /* Icon */
-     , (41486,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41486,   1, 0x02000181) /* Setup */
+     , (41486,   3, 0x20000014) /* SoundTable */
+     , (41486,   6, 0x04000BEF) /* PaletteBase */
+     , (41486,   8, 0x06006AE9) /* Icon */
+     , (41486,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41486, 8001, 2166440088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, Workmanship, MaterialType */
      , (41486, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41486, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41486, 8000, 3687017127) /* PCAPRecordedObjectIID */;
+VALUES (41486, 8000, 0xDBC36AA7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41486,   853,      2)  /* DeceptionMasterySelf4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41486, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41486, 67111925, 0, 0);

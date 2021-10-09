@@ -7,12 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43056,   1,      32768) /* ItemType - Caster */
      , (43056,   5,        200) /* EncumbranceVal */
      , (43056,   9,   16777216) /* ValidLocations - Held */
-     , (43056,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (43056,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (43056,  18,          1) /* UiEffects - Magical */
      , (43056,  19,      10000) /* Value */
      , (43056,  33,          1) /* Bonded - Bonded */
      , (43056,  45,          2) /* DamageType - Pierce */
+     , (43056,  46,        512) /* DefaultCombatStyle - Magic */
      , (43056,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43056,  94,         16) /* TargetType - Creature */
      , (43056, 106,        450) /* ItemSpellcraft */
@@ -29,6 +29,7 @@ VALUES (43056,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43056,  22, True ) /* Inscribable */
+     , (43056,  23, True ) /* DestroyOnSell */
      , (43056,  69, False) /* IsSellable */
      , (43056,  91, True ) /* Retained */
      , (43056,  99, True ) /* Ivoryable */;
@@ -46,10 +47,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43056,   1, 'Paradox-touched Olthoi Wand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43056,   1,   33561081) /* Setup */
-     , (43056,   3,  536870932) /* SoundTable */
-     , (43056,   8,  100691347) /* Icon */
-     , (43056,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43056,   1, 0x020019F9) /* Setup */
+     , (43056,   3, 0x20000014) /* SoundTable */
+     , (43056,   8, 0x06006D93) /* Icon */
+     , (43056,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43056,  28,         67) /* Spell - ShockWave4 */
      , (43056, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (43056, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -57,12 +58,12 @@ VALUES (43056,   1,   33561081) /* Setup */
      , (43056, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43056, 8040, 3465871418, 151.0719, 112.6264, 17.34125, -0.6622602, -0.6622602, -0.2478133, -0.2478133) /* PCAPRecordedLocation */
+VALUES (43056, 8040, 0xCE95003A, 151.0719, 112.6264, 17.34125, -0.66226, -0.66226, -0.247813, -0.247813) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95003A [151.071900 112.626400 17.341250] -0.662260 -0.662260 -0.247813 -0.247813 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43056, 8000, 3685316567) /* PCAPRecordedObjectIID */
-     , (43056, 8008, 1342372376) /* PCAPRecordedParentIID */;
+VALUES (43056, 8000, 0xDBA977D7) /* PCAPRecordedObjectIID */
+     , (43056, 8008, 0x5002FA18) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43056,  2101,      2)  /* DefenderSelf7 */

@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33719,   1, 'Black Spear of Shadow Renewal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33719,   1,   33560035) /* Setup */
-     , (33719,   3,  536870932) /* SoundTable */
-     , (33719,   8,  100688902) /* Icon */
-     , (33719,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33719,   1, 0x020015E3) /* Setup */
+     , (33719,   3, 0x20000014) /* SoundTable */
+     , (33719,   8, 0x06006406) /* Icon */
+     , (33719,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33719, 8001,  270549144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, Burden, HookType */
      , (33719, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33719, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33719, 8000, 2166203142) /* PCAPRecordedObjectIID */;
+VALUES (33719, 8000, 0x811DA306) /* PCAPRecordedObjectIID */;

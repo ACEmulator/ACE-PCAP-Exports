@@ -26,16 +26,16 @@ VALUES (5795,   1, 'Hot Sauce') /* Name */
      , (5795,  20, 'Jars of Hot Sauce') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5795,   1,   33555967) /* Setup */
-     , (5795,   3,  536870932) /* SoundTable */
-     , (5795,   8,  100670316) /* Icon */
-     , (5795,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5795,   1, 0x020005FF) /* Setup */
+     , (5795,   3, 0x20000014) /* SoundTable */
+     , (5795,   8, 0x06001B6C) /* Icon */
+     , (5795,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5795, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (5795, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5795, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5795, 8000, 2324909704) /* PCAPRecordedObjectIID */;
+VALUES (5795, 8000, 0x8A934E88) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (5795, 0, 83890051, 83892141);

@@ -38,23 +38,23 @@ VALUES (27407,   1, 'Drudge Championship Belt') /* Name */
      , (27407,  16, 'You Drudge Fight Champion! Now you make wanga on our bigbaddas!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27407,   1,   33558679) /* Setup */
-     , (27407,   3,  536870932) /* SoundTable */
-     , (27407,   6,   67108990) /* PaletteBase */
-     , (27407,   8,  100676409) /* Icon */
-     , (27407,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27407,   1, 0x02001097) /* Setup */
+     , (27407,   3, 0x20000014) /* SoundTable */
+     , (27407,   6, 0x0400007E) /* PaletteBase */
+     , (27407,   8, 0x06003339) /* Icon */
+     , (27407,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27407, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (27407, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27407, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27407, 8000, 2982968695) /* PCAPRecordedObjectIID */;
+VALUES (27407, 8000, 0xB1CC7D77) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27407,  1334,      2)  /* StrengthOther3 */
-     , (27407,  1483,      2)  /* Impenetrability3 */
+VALUES (27407,  1483,      2)  /* Impenetrability3 */
      , (27407,  1997,      2)  /* LifeGiver */
-     , (27407,  2550,      2)  /* CANTRIPINVULNERABILITY1 */;
+     , (27407,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
+     , (27407,  1334,      2)  /* StrengthOther3 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27407, 67115139, 72, 24);

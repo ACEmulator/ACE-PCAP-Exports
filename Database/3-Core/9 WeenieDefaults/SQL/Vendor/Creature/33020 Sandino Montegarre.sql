@@ -24,21 +24,21 @@ VALUES (33020,   1, 'Sandino Montegarre') /* Name */
      , (33020, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33020,   1,   33554433) /* Setup */
-     , (33020,   2,  150994945) /* MotionTable */
-     , (33020,   3,  536870913) /* SoundTable */
-     , (33020,   6,   67108990) /* PaletteBase */
-     , (33020,   8,  100667446) /* Icon */
+VALUES (33020,   1, 0x02000001) /* Setup */
+     , (33020,   2, 0x09000001) /* MotionTable */
+     , (33020,   3, 0x20000001) /* SoundTable */
+     , (33020,   6, 0x0400007E) /* PaletteBase */
+     , (33020,   8, 0x06001036) /* Icon */
      , (33020, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (33020, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (33020, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33020, 8040, 8388917, 90, -60, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33020, 8040, 0x00800135, 90, -60, 0.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00800135 [90.000000 -60.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33020, 8000, 1879572490) /* PCAPRecordedObjectIID */;
+VALUES (33020, 8000, 0x7008000A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33020, 67109969, 92, 4)

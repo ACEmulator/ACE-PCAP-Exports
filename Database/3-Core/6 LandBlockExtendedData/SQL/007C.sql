@@ -17,7 +17,7 @@ VALUES (0x7007C003,  6122, 0x007C0108, 60, -20, -24, 1, 0, 0, 0, False, '2019-02
 /* @teleloc 0x007C0108 [60.000000 -20.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007C004,  6122, 0x007C010E, 60, -30, -24, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Acid */
+VALUES (0x7007C004,  6122, 0x007C010E, 60, -30, -24, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Acid */
 /* @teleloc 0x007C010E [60.000000 -30.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -41,11 +41,11 @@ VALUES (0x7007C009,  6122, 0x007C0122, 80, -30, -24, 1, 0, 0, 0, False, '2019-02
 /* @teleloc 0x007C0122 [80.000000 -30.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007C00A,  6122, 0x007C0123, 80, -40, -24, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Acid */
+VALUES (0x7007C00A,  6122, 0x007C0123, 80, -40, -24, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Acid */
 /* @teleloc 0x007C0123 [80.000000 -40.000000 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007C011, 34319, 0x007C0144, 92, -30, -18.063, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Soul Hunter's Chambers */
+VALUES (0x7007C011, 34319, 0x007C0144, 92, -30, -18.063, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Soul Hunter's Chambers */
 /* @teleloc 0x007C0144 [92.000000 -30.000000 -18.063000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -77,13 +77,13 @@ VALUES (0x7007C03D,  6122, 0x007C0284, 130, -100, -6, 1, 0, 0, 0, False, '2019-0
 /* @teleloc 0x007C0284 [130.000000 -100.000000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007C03E,  6122, 0x007C0285, 131.408, -107.747, -6, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Acid */
+VALUES (0x7007C03E,  6122, 0x007C0285, 131.408, -107.747, -6, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Acid */
 /* @teleloc 0x007C0285 [131.408000 -107.747000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007C046, 34320, 0x007C02B4, 20, -262, -0.06299996, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x7007C046, 34320, 0x007C02B4, 20, -262, -0.063, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x007C02B4 [20.000000 -262.000000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7007C049, 34320, 0x007C02B8, 108, -70, -0.06299996, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x7007C049, 34320, 0x007C02B8, 108, -70, -0.063, 0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0x007C02B8 [108.000000 -70.000000 -0.063000] 0.707107 0.000000 0.000000 -0.707107 */

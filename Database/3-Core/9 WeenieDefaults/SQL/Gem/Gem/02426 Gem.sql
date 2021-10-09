@@ -36,20 +36,17 @@ VALUES (2426,   1, 'Gem') /* Name */
      , (2426,  16, 'Gem of Regeneration') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2426,   1,   33554809) /* Setup */
-     , (2426,   3,  536870932) /* SoundTable */
-     , (2426,   8,  100674734) /* Icon */
-     , (2426,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2426,   1, 0x02000179) /* Setup */
+     , (2426,   3, 0x20000014) /* SoundTable */
+     , (2426,   8, 0x06002CAE) /* Icon */
+     , (2426,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2426,  28,        167) /* Spell - RegenerationSelf3 */
      , (2426, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
      , (2426, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2426, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2426, 8000, 3692336159) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2426, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */;
+VALUES (2426, 8000, 0xDC14941F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (2426, 0, 83890391, 83890391);

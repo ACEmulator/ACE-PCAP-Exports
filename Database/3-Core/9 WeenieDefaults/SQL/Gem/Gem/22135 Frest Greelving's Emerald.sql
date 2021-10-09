@@ -19,23 +19,24 @@ VALUES (22135,   1,       2048) /* ItemType - Gem */
      , (22135, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22135,  22, True ) /* Inscribable */;
+VALUES (22135,  22, True ) /* Inscribable */
+     , (22135,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22135,   1, 'Frest Greelving''s Emerald') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22135,   1,   33554809) /* Setup */
-     , (22135,   3,  536870932) /* SoundTable */
-     , (22135,   6,   67111919) /* PaletteBase */
-     , (22135,   8,  100668362) /* Icon */
-     , (22135,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22135,   1, 0x02000179) /* Setup */
+     , (22135,   3, 0x20000014) /* SoundTable */
+     , (22135,   6, 0x04000BEF) /* PaletteBase */
+     , (22135,   8, 0x060013CA) /* Icon */
+     , (22135,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22135, 8001, 2149609496) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, MaterialType */
      , (22135, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22135, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22135, 8000, 2616014407) /* PCAPRecordedObjectIID */;
+VALUES (22135, 8000, 0x9BED3647) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22135, 67111923, 0, 0);

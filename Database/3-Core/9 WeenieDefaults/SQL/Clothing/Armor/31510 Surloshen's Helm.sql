@@ -40,26 +40,26 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31510,   1, 'Surloshen''s Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31510,   1,   33559597) /* Setup */
-     , (31510,   3,  536870932) /* SoundTable */
-     , (31510,   6,   67108990) /* PaletteBase */
-     , (31510,   8,  100687900) /* Icon */
-     , (31510,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31510,   1, 0x0200142D) /* Setup */
+     , (31510,   3, 0x20000014) /* SoundTable */
+     , (31510,   6, 0x0400007E) /* PaletteBase */
+     , (31510,   8, 0x0600601C) /* Icon */
+     , (31510,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31510, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (31510, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31510, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31510, 8000, 3694170864) /* PCAPRecordedObjectIID */;
+VALUES (31510, 8000, 0xDC3092F0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31510,  2053,      2)  /* ArmorSelf7 */
-     , (31510,  2108,      2)  /* Impenetrability7 */
-     , (31510,  2243,      2)  /* ImpregnabilitySelf7 */
+VALUES (31510,  2243,      2)  /* ImpregnabilitySelf7 */
      , (31510,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (31510,  2053,      2)  /* ArmorSelf7 */
      , (31510,  2281,      2)  /* MagicResistanceSelf7 */
      , (31510,  2609,      2)  /* CANTRIPACIDWARD2 */
-     , (31510,  2811,      2)  /* ModerateMagicResistance */;
+     , (31510,  2811,      2)  /* ModerateMagicResistance */
+     , (31510,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31510, 67116665, 240, 16);

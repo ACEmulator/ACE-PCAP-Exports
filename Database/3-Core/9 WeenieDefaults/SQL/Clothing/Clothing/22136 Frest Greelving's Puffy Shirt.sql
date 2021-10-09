@@ -17,7 +17,8 @@ VALUES (22136,   1,          4) /* ItemType - Clothing */
      , (22136, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22136,  22, True ) /* Inscribable */;
+VALUES (22136,  22, True ) /* Inscribable */
+     , (22136,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22136,  13,     0.8) /* ArmorModVsSlash */
@@ -33,17 +34,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22136,   1, 'Frest Greelving''s Puffy Shirt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22136,   1,   33554644) /* Setup */
-     , (22136,   3,  536870932) /* SoundTable */
-     , (22136,   6,   67108990) /* PaletteBase */
-     , (22136,   8,  100667376) /* Icon */
-     , (22136,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22136,   1, 0x020000D4) /* Setup */
+     , (22136,   3, 0x20000014) /* SoundTable */
+     , (22136,   6, 0x0400007E) /* PaletteBase */
+     , (22136,   8, 0x06000FF0) /* Icon */
+     , (22136,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22136, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (22136, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22136, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22136, 8000, 2614635756) /* PCAPRecordedObjectIID */;
+VALUES (22136, 8000, 0x9BD82CEC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22136, 67109966, 92, 4)

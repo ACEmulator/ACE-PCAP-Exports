@@ -14,6 +14,7 @@ VALUES (36682,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36682,  22, True ) /* Inscribable */
+     , (36682,  23, True ) /* DestroyOnSell */
      , (36682,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -24,11 +25,11 @@ VALUES (36682,   1, 'Sigil of Linvak Tukal') /* Name */
      , (36682,  16, 'A stone etched with the familiar design the Lugians use to represent Linvak Tukal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36682,   1,   33556438) /* Setup */
-     , (36682,   8,  100670227) /* Icon */
+VALUES (36682,   1, 0x020007D6) /* Setup */
+     , (36682,   8, 0x06001B13) /* Icon */
      , (36682, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (36682, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36682, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36682, 8000, 3707482097) /* PCAPRecordedObjectIID */;
+VALUES (36682, 8000, 0xDCFBAFF1) /* PCAPRecordedObjectIID */;

@@ -48,18 +48,18 @@ VALUES (30592,   1, 'Flaming Partizan') /* Name */
      , (30592,  16, 'Flaming Partizan of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30592,   1,   33559479) /* Setup */
-     , (30592,   3,  536870932) /* SoundTable */
-     , (30592,   6,   67115560) /* PaletteBase */
-     , (30592,   8,  100686993) /* Icon */
-     , (30592,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30592,   1, 0x020013B7) /* Setup */
+     , (30592,   3, 0x20000014) /* SoundTable */
+     , (30592,   6, 0x04001A28) /* PaletteBase */
+     , (30592,   8, 0x06005C91) /* Icon */
+     , (30592,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30592,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30592, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30592, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30592, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30592, 8000, 3700025615) /* PCAPRecordedObjectIID */;
+VALUES (30592, 8000, 0xDC89E90F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30592,  1615,      2)  /* BloodDrinkerSelf5 */

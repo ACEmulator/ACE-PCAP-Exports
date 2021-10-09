@@ -20,22 +20,22 @@ VALUES (29489,   1, 'Sir Belfelor') /* Name */
      , (29489, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29489,   1,   33554433) /* Setup */
-     , (29489,   2,  150994945) /* MotionTable */
-     , (29489,   3,  536870913) /* SoundTable */
-     , (29489,   6,   67108990) /* PaletteBase */
-     , (29489,   8,  100667446) /* Icon */
-     , (29489,  22,  872415236) /* PhysicsEffectTable */
+VALUES (29489,   1, 0x02000001) /* Setup */
+     , (29489,   2, 0x09000001) /* MotionTable */
+     , (29489,   3, 0x20000001) /* SoundTable */
+     , (29489,   6, 0x0400007E) /* PaletteBase */
+     , (29489,   8, 0x06001036) /* Icon */
+     , (29489,  22, 0x34000004) /* PhysicsEffectTable */
      , (29489, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (29489, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (29489, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29489, 8040, 2163032, 20, -2, 6.005, -0.00142271, 0, 0, -0.999999) /* PCAPRecordedLocation */
+VALUES (29489, 8040, 0x00210158, 20, -2, 6.005, -0.001423, 0, 0, -0.999999) /* PCAPRecordedLocation */
 /* @teleloc 0x00210158 [20.000000 -2.000000 6.005000] -0.001423 0.000000 0.000000 -0.999999 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29489, 8000, 3705296043) /* PCAPRecordedObjectIID */;
+VALUES (29489, 8000, 0xDCDA54AB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29489, 2, 12083,  1, 0, 0, False) /* Create Bandit Yaoji (12083) for Wield */

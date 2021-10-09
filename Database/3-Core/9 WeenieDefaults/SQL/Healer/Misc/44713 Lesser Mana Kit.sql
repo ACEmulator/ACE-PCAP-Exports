@@ -27,11 +27,11 @@ VALUES (44713,   1, 'Lesser Mana Kit') /* Name */
      , (44713,  15, 'A mana kit which provides resonable restoration.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44713,   1,   33555194) /* Setup */
-     , (44713,   8,  100692114) /* Icon */
+VALUES (44713,   1, 0x020002FA) /* Setup */
+     , (44713,   8, 0x06007092) /* Icon */
      , (44713, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (44713, 8003,      65554) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer */
      , (44713, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44713, 8000, 2155903024) /* PCAPRecordedObjectIID */;
+VALUES (44713, 8000, 0x80807830) /* PCAPRecordedObjectIID */;

@@ -45,23 +45,23 @@ VALUES (129,   1, 'Sandals') /* Name */
      , (129,  16, 'Sandals of Arcane Enlightenment') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (129,   1,   33554654) /* Setup */
-     , (129,   3,  536870932) /* SoundTable */
-     , (129,   6,   67108990) /* PaletteBase */
-     , (129,   8,  100669193) /* Icon */
-     , (129,  22,  872415275) /* PhysicsEffectTable */
+VALUES (129,   1, 0x020000DE) /* Setup */
+     , (129,   3, 0x20000014) /* SoundTable */
+     , (129,   6, 0x0400007E) /* PaletteBase */
+     , (129,   8, 0x06001709) /* Icon */
+     , (129,  22, 0x3400002B) /* PhysicsEffectTable */
      , (129, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (129, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (129, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (129, 8000, 2186220390) /* PCAPRecordedObjectIID */;
+VALUES (129, 8000, 0x824F1366) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (129,   682,      2)  /* ArcaneEnlightenmentSelf5 */
+VALUES (129,  1539,      2)  /* LightningBane5 */
      , (129,  1485,      2)  /* Impenetrability5 */
-     , (129,  1539,      2)  /* LightningBane5 */
-     , (129,  1551,      2)  /* FlameBane5 */;
+     , (129,  1551,      2)  /* FlameBane5 */
+     , (129,   682,      2)  /* ArcaneEnlightenmentSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (129, 67110389, 160, 8);

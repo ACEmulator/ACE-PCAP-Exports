@@ -53,19 +53,19 @@ VALUES (3802,   1, 'Acid Jitte') /* Name */
      , (3802,  16, 'Acid Jitte of Swiftkiller') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3802,   1,   33555726) /* Setup */
-     , (3802,   3,  536870932) /* SoundTable */
-     , (3802,   8,  100668902) /* Icon */
-     , (3802,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3802,   1, 0x0200050E) /* Setup */
+     , (3802,   3, 0x20000014) /* SoundTable */
+     , (3802,   8, 0x060015E6) /* Icon */
+     , (3802,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3802,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3802, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3802, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3802, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3802, 8000, 3682460083) /* PCAPRecordedObjectIID */;
+VALUES (3802, 8000, 0xDB7DE1B3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3802,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (3802,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (3802,  2116,      2)  /* SwiftKillerSelf7 */
+     , (3802,  1616,      2)  /* BloodDrinkerSelf6 */
      , (3802,  2603,      2)  /* CANTRIPHEARTTHIRST1 */;

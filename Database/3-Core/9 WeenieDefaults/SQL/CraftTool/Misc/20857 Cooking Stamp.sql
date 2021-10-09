@@ -24,17 +24,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20857,   1, 'Cooking Stamp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20857,   1,   33556922) /* Setup */
-     , (20857,   3,  536870932) /* SoundTable */
-     , (20857,   8,  100673243) /* Icon */
-     , (20857,  22,  872415275) /* PhysicsEffectTable */
-     , (20857,  50,  100673126) /* IconOverlay */
+VALUES (20857,   1, 0x020009BA) /* Setup */
+     , (20857,   3, 0x20000014) /* SoundTable */
+     , (20857,   8, 0x060026DB) /* Icon */
+     , (20857,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20857,  50, 0x06002666) /* IconOverlay */
      , (20857, 8001, 1344827416) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType, IconOverlay */
      , (20857, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20857, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20857, 8000, 2258805303) /* PCAPRecordedObjectIID */;
+VALUES (20857, 8000, 0x86A2A237) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20857, 0, 83892954, 83893871)

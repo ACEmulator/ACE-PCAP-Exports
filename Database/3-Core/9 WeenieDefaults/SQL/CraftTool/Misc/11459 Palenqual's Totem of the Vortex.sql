@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11459,   1, 'Palenqual''s Totem of the Vortex') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11459,   1,   33557273) /* Setup */
-     , (11459,   3,  536870932) /* SoundTable */
-     , (11459,   8,  100672025) /* Icon */
-     , (11459,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11459,   1, 0x02000B19) /* Setup */
+     , (11459,   3, 0x20000014) /* SoundTable */
+     , (11459,   8, 0x06002219) /* Icon */
+     , (11459,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11459, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11459, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11459, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11459, 8000, 2249709607) /* PCAPRecordedObjectIID */;
+VALUES (11459, 8000, 0x8617D827) /* PCAPRecordedObjectIID */;

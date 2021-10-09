@@ -46,21 +46,21 @@ VALUES (40822,   1, 'Frost Corsesca') /* Name */
      , (40822,  16, 'Frost Corsesca') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40822,   1,   33560790) /* Setup */
-     , (40822,   3,  536870932) /* SoundTable */
-     , (40822,   6,   67115560) /* PaletteBase */
-     , (40822,   8,  100690794) /* Icon */
-     , (40822,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40822,   1, 0x020018D6) /* Setup */
+     , (40822,   3, 0x20000014) /* SoundTable */
+     , (40822,   6, 0x04001A28) /* PaletteBase */
+     , (40822,   8, 0x06006B6A) /* Icon */
+     , (40822,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40822, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40822, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40822, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40822, 8040, 4135714867, 145.4108, 50.27073, 58, -0.9174053, 0, 0, -0.3979541) /* PCAPRecordedLocation */
+VALUES (40822, 8040, 0xF6820033, 145.4108, 50.27073, 58, -0.917405, 0, 0, -0.397954) /* PCAPRecordedLocation */
 /* @teleloc 0xF6820033 [145.410800 50.270730 58.000000] -0.917405 0.000000 0.000000 -0.397954 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40822, 8000, 3698960540) /* PCAPRecordedObjectIID */;
+VALUES (40822, 8000, 0xDC79A89C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40822, 67116414, 0, 0);

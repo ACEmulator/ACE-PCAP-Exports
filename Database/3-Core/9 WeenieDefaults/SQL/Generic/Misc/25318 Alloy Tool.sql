@@ -13,20 +13,21 @@ VALUES (25318,   1,        128) /* ItemType - Misc */
      , (25318, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25318,  22, True ) /* Inscribable */;
+VALUES (25318,  22, True ) /* Inscribable */
+     , (25318,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25318,   1, 'Alloy Tool') /* Name */
      , (25318,  16, 'This mechanism appears to be made of some unknown alloy. Perhaps an Agent of the Arcanum would know what it is?') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25318,   1,   33558439) /* Setup */
-     , (25318,   3,  536870932) /* SoundTable */
-     , (25318,   8,  100674840) /* Icon */
-     , (25318,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25318,   1, 0x02000FA7) /* Setup */
+     , (25318,   3, 0x20000014) /* SoundTable */
+     , (25318,   8, 0x06002D18) /* Icon */
+     , (25318,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25318, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (25318, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25318, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25318, 8000, 2992205158) /* PCAPRecordedObjectIID */;
+VALUES (25318, 8000, 0xB2596D66) /* PCAPRecordedObjectIID */;

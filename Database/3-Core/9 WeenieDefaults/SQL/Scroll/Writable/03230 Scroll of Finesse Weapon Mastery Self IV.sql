@@ -24,17 +24,17 @@ VALUES (3230,   1, 'Scroll of Finesse Weapon Mastery Self IV') /* Name */
 Increases the caster''s Finesse Weapons skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3230,   1,   33554826) /* Setup */
-     , (3230,   8,  100692250) /* Icon */
-     , (3230,  22,  872415275) /* PhysicsEffectTable */
-     , (3230,  28,        325) /* Spell - DaggerMasterySelf4 */
+VALUES (3230,   1, 0x0200018A) /* Setup */
+     , (3230,   8, 0x0600711A) /* Icon */
+     , (3230,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3230,  28,        325) /* Spell - FinesseWeaponsMasterySelf4 */
      , (3230, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (3230, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3230, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3230, 8040, 1994981721, 116.7198, 219.1984, 88.88551, -0.5710939, 0, 0, -0.8208848) /* PCAPRecordedLocation */
+VALUES (3230, 8040, 0x76E90159, 116.7198, 219.1984, 88.88551, -0.571094, 0, 0, -0.820885) /* PCAPRecordedLocation */
 /* @teleloc 0x76E90159 [116.719800 219.198400 88.885510] -0.571094 0.000000 0.000000 -0.820885 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3230, 8000, 3681142103) /* PCAPRecordedObjectIID */;
+VALUES (3230, 8000, 0xDB69C557) /* PCAPRecordedObjectIID */;

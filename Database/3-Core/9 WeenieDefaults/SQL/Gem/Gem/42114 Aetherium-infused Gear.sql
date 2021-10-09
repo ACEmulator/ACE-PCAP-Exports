@@ -19,7 +19,8 @@ VALUES (42114,   1,       2048) /* ItemType - Gem */
      , (42114, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42114,  69, False) /* IsSellable */
+VALUES (42114,  23, True ) /* DestroyOnSell */
+     , (42114,  69, False) /* IsSellable */
      , (42114,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -28,13 +29,13 @@ VALUES (42114,   1, 'Aetherium-infused Gear') /* Name */
      , (42114,  16, 'An Aetherium-infused Gear,  dropped by the Gear Knights in the Gear Knight invasion area in the northern Direlands.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42114,   1,   33557681) /* Setup */
-     , (42114,   3,  536870932) /* SoundTable */
-     , (42114,   8,  100672956) /* Icon */
-     , (42114,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42114,   1, 0x02000CB1) /* Setup */
+     , (42114,   3, 0x20000014) /* SoundTable */
+     , (42114,   8, 0x060025BC) /* Icon */
+     , (42114,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42114, 8001,    2125968) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (42114, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (42114, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42114, 8000, 2210356876) /* PCAPRecordedObjectIID */;
+VALUES (42114, 8000, 0x83BF5E8C) /* PCAPRecordedObjectIID */;

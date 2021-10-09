@@ -18,7 +18,7 @@ VALUES (38690,   1,         16) /* ItemType - Creature */
      , (38690, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38690, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38690, 188,          1) /* HeritageGroup - Aluvian */
-     , (38690, 281,          2) /* Faction1Bits */
+     , (38690, 281,          2) /* Faction1Bits - EldrytchWeb */
      , (38690, 288,        601) /* SocietyRankEldweb */
      , (38690, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -38,27 +38,27 @@ VALUES (38690,   1, 'Shopkeep Gunderson') /* Name */
      , (38690, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38690,   1,   33554433) /* Setup */
-     , (38690,   2,  150994945) /* MotionTable */
-     , (38690,   3,  536870913) /* SoundTable */
-     , (38690,   6,   67108990) /* PaletteBase */
-     , (38690,   8,  100667446) /* Icon */
-     , (38690,   9,   83890509) /* EyesTexture */
-     , (38690,  10,   83890555) /* NoseTexture */
-     , (38690,  11,   83890566) /* MouthTexture */
-     , (38690,  15,   67117022) /* HairPalette */
-     , (38690,  16,   67109567) /* EyesPalette */
-     , (38690,  17,   67109560) /* SkinPalette */
+VALUES (38690,   1, 0x02000001) /* Setup */
+     , (38690,   2, 0x09000001) /* MotionTable */
+     , (38690,   3, 0x20000001) /* SoundTable */
+     , (38690,   6, 0x0400007E) /* PaletteBase */
+     , (38690,   8, 0x06001036) /* Icon */
+     , (38690,   9, 0x0500114D) /* EyesTexture */
+     , (38690,  10, 0x0500117B) /* NoseTexture */
+     , (38690,  11, 0x05001186) /* MouthTexture */
+     , (38690,  15, 0x04001FDE) /* HairPalette */
+     , (38690,  16, 0x040002BF) /* EyesPalette */
+     , (38690,  17, 0x040002B8) /* SkinPalette */
      , (38690, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (38690, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (38690, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38690, 8040, 12059242, 136.773, -32.6153, -17.995, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (38690, 8040, 0x00B8026A, 136.773, -32.6153, -17.995, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026A [136.773000 -32.615300 -17.995000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38690, 8000, 1879801922) /* PCAPRecordedObjectIID */;
+VALUES (38690, 8000, 0x700B8042) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38690,   1,  45, 0, 0) /* Strength */
@@ -159,6 +159,15 @@ VALUES (38690, 4, 46744, -1, 0, 0, False) /* Create Contract for Stipend: Eldryt
      , (38690, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (38690, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (38690, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -23,16 +23,16 @@ VALUES (5447,   1, 'Darktide Festival Stone Portal') /* Name */
      , (5447, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5447,   1,   33555925) /* Setup */
-     , (5447,   2,  150994947) /* MotionTable */
-     , (5447,   8,  100667499) /* Icon */
+VALUES (5447,   1, 0x020005D5) /* Setup */
+     , (5447,   2, 0x09000003) /* MotionTable */
+     , (5447,   8, 0x0600106B) /* Icon */
      , (5447, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (5447, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (5447, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5447, 8040, 359137542, 168.75, -0.480814, -64.063, -0.03281401, 0, 0, -0.9994615) /* PCAPRecordedLocation */
+VALUES (5447, 8040, 0x15680106, 168.75, -0.480814, -64.063, -0.032814, 0, 0, -0.999462) /* PCAPRecordedLocation */
 /* @teleloc 0x15680106 [168.750000 -0.480814 -64.063000] -0.032814 0.000000 0.000000 -0.999462 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5447, 8000, 1901494300) /* PCAPRecordedObjectIID */;
+VALUES (5447, 8000, 0x7156801C) /* PCAPRecordedObjectIID */;

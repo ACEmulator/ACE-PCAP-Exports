@@ -20,13 +20,13 @@ VALUES (7826,   1, 'Roasted Beans') /* Name */
      , (7826,  20, 'Heaps of Roasted Beans') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7826,   1,   33556678) /* Setup */
-     , (7826,   3,  536870932) /* SoundTable */
-     , (7826,   8,  100670851) /* Icon */
-     , (7826,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7826,   1, 0x020008C6) /* Setup */
+     , (7826,   3, 0x20000014) /* SoundTable */
+     , (7826,   8, 0x06001D83) /* Icon */
+     , (7826,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7826, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (7826, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (7826, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7826, 8000, 3709704335) /* PCAPRecordedObjectIID */;
+VALUES (7826, 8000, 0xDD1D988F) /* PCAPRecordedObjectIID */;

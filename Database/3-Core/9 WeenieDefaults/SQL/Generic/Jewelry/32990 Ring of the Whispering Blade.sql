@@ -23,7 +23,8 @@ VALUES (32990,   1,          8) /* ItemType - Jewelry */
      , (32990, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32990,  22, True ) /* Inscribable */;
+VALUES (32990,  22, True ) /* Inscribable */
+     , (32990,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32990,   5,   -0.05) /* ManaRate */
@@ -34,23 +35,23 @@ VALUES (32990,   1, 'Ring of the Whispering Blade') /* Name */
      , (32990,  16, 'This ring signifies the bearer as a member of the secretive Whispering Blade.  It admits the bearer to the chapterhouse at 59.9 S, 87.2 W.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32990,   1,   33554690) /* Setup */
-     , (32990,   3,  536870932) /* SoundTable */
-     , (32990,   8,  100688860) /* Icon */
-     , (32990,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32990,   1, 0x02000102) /* Setup */
+     , (32990,   3, 0x20000014) /* SoundTable */
+     , (32990,   8, 0x060063DC) /* Icon */
+     , (32990,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32990, 8001,    2179216) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, Burden */
      , (32990, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32990, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32990, 8000, 2979050453) /* PCAPRecordedObjectIID */;
+VALUES (32990, 8000, 0xB190B3D5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32990,  2281,      2)  /* MagicResistanceSelf7 */
-     , (32990,  2686,      2)  /* ModerateAxeAptitude */
-     , (32990,  2687,      2)  /* ModerateBowAptitude */
-     , (32990,  2689,      2)  /* ModerateDaggerAptitude */
+VALUES (32990,  2689,      2)  /* ModerateDaggerAptitude */
      , (32990,  2694,      2)  /* ModerateSwordAptitude */
-     , (32990,  2812,      2)  /* ModerateWarMagicAptitude */
      , (32990,  5074,      2)  /* ModerateTwoHandedAptitude */
-     , (32990,  5430,      2)  /* ModerateVoidMagicAptitude */;
+     , (32990,  2281,      2)  /* MagicResistanceSelf7 */
+     , (32990,  5430,      2)  /* ModerateVoidMagicAptitude */
+     , (32990,  2812,      2)  /* ModerateWarMagicAptitude */
+     , (32990,  2686,      2)  /* ModerateAxeAptitude */
+     , (32990,  2687,      2)  /* ModerateBowAptitude */;

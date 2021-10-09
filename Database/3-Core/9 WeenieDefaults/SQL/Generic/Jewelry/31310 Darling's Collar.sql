@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31310,   1,          8) /* ItemType - Jewelry */
      , (31310,   5,         45) /* EncumbranceVal */
      , (31310,   9,      32768) /* ValidLocations - NeckWear */
-     , (31310,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (31310,  16,          1) /* ItemUseable - No */
      , (31310,  19,      10000) /* Value */
      , (31310,  33,          0) /* Bonded - Normal */
@@ -33,20 +32,20 @@ VALUES (31310,   1, 'Darling''s Collar') /* Name */
      , (31310,  16, 'Darling XIV - Property of Xsao Lann') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31310,   1,   33559602) /* Setup */
-     , (31310,   3,  536870932) /* SoundTable */
-     , (31310,   8,  100687915) /* Icon */
-     , (31310,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31310,   1, 0x02001432) /* Setup */
+     , (31310,   3, 0x20000014) /* SoundTable */
+     , (31310,   8, 0x0600602B) /* Icon */
+     , (31310,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31310, 8001,  270762008) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (31310, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31310, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31310, 8000, 3175627017) /* PCAPRecordedObjectIID */;
+VALUES (31310, 8000, 0xBD483909) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31310,  2059,      2)  /* CoordinationSelf7 */
-     , (31310,  2081,      2)  /* QuicknessSelf7 */
-     , (31310,  2233,      2)  /* FealtySelf7 */
+     , (31310,  2575,      2)  /* CANTRIPQUICKNESS2 */
      , (31310,  2511,      2)  /* CANTRIPFEALTY2 */
-     , (31310,  2575,      2)  /* CANTRIPQUICKNESS2 */;
+     , (31310,  2081,      2)  /* QuicknessSelf7 */
+     , (31310,  2233,      2)  /* FealtySelf7 */;

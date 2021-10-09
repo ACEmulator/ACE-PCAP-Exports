@@ -22,13 +22,13 @@ VALUES (34203,   1, '7th Anniversary Night Club Ticket') /* Name */
      , (34203,  16, 'A ticket good for one admittance to the famous Night Club.  Present it to the Night Club Attendant in Cragstone, Hebian-To, Sanamar, or Zaikhal to be transported to the Night Club.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34203,   1,   33554773) /* Setup */
-     , (34203,   3,  536870932) /* SoundTable */
-     , (34203,   8,  100689177) /* Icon */
-     , (34203,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34203,   1, 0x02000155) /* Setup */
+     , (34203,   3, 0x20000014) /* SoundTable */
+     , (34203,   8, 0x06006519) /* Icon */
+     , (34203,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34203, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (34203, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34203, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34203, 8000, 2164447171) /* PCAPRecordedObjectIID */;
+VALUES (34203, 8000, 0x8102D7C3) /* PCAPRecordedObjectIID */;

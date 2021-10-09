@@ -52,23 +52,23 @@ VALUES (344,   1, 'Silifi') /* Name */
      , (344,  16, 'Silifi of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (344,   1,   33554753) /* Setup */
-     , (344,   3,  536870932) /* SoundTable */
-     , (344,   6,   67111919) /* PaletteBase */
-     , (344,   8,  100668994) /* Icon */
-     , (344,  22,  872415275) /* PhysicsEffectTable */
+VALUES (344,   1, 0x02000141) /* Setup */
+     , (344,   3, 0x20000014) /* SoundTable */
+     , (344,   6, 0x04000BEF) /* PaletteBase */
+     , (344,   8, 0x06001642) /* Icon */
+     , (344,  22, 0x3400002B) /* PhysicsEffectTable */
      , (344,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (344, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (344, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (344, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (344, 8000, 3700025638) /* PCAPRecordedObjectIID */;
+VALUES (344, 8000, 0xDC89E926) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (344,  1330,      2)  /* StrengthSelf4 */
-     , (344,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (344,  1625,      2)  /* SwiftKillerSelf4 */;
+VALUES (344,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (344,  1625,      2)  /* SwiftKillerSelf4 */
+     , (344,  1330,      2)  /* StrengthSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (344, 67111926, 0, 0);

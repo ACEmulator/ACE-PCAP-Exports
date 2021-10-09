@@ -25,21 +25,21 @@ VALUES (19241,   1, 'Decorative Bronze Statue ') /* Name */
      , (19241, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19241,   1,   33554433) /* Setup */
-     , (19241,   2,  150995205) /* MotionTable */
-     , (19241,   6,   67108990) /* PaletteBase */
-     , (19241,   8,  100667446) /* Icon */
-     , (19241,  22,  872415349) /* PhysicsEffectTable */
+VALUES (19241,   1, 0x02000001) /* Setup */
+     , (19241,   2, 0x09000105) /* MotionTable */
+     , (19241,   6, 0x0400007E) /* PaletteBase */
+     , (19241,   8, 0x06001036) /* Icon */
+     , (19241,  22, 0x34000075) /* PhysicsEffectTable */
      , (19241, 8001,  271056920) /* PCAPRecordedWeenieHeader - Value, Usable, TargetType, Burden, HookType */
      , (19241, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19241, 8005,     102531) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19241, 8040, 23855555, 59.14829, -37.35219, 0.003499985, 0.9889063, 0, 0, 0.1485409) /* PCAPRecordedLocation */
+VALUES (19241, 8040, 0x016C01C3, 59.14829, -37.35219, 0.0035, 0.988906, 0, 0, 0.148541) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [59.148290 -37.352190 0.003500] 0.988906 0.000000 0.000000 0.148541 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19241, 8000, 2148174041) /* PCAPRecordedObjectIID */;
+VALUES (19241, 8000, 0x800A88D9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19241, 67113845, 0, 0);

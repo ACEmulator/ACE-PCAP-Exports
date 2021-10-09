@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19516,   1, 'Superb Diamond Infused Pyreal Ingot') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19516,   1,   33555677) /* Setup */
-     , (19516,   3,  536870932) /* SoundTable */
-     , (19516,   8,  100672974) /* Icon */
-     , (19516,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19516,   1, 0x020004DD) /* Setup */
+     , (19516,   3, 0x20000014) /* SoundTable */
+     , (19516,   8, 0x060025CE) /* Icon */
+     , (19516,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19516, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (19516, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19516, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19516, 8000, 2183443870) /* PCAPRecordedObjectIID */;
+VALUES (19516, 8000, 0x8224B59E) /* PCAPRecordedObjectIID */;

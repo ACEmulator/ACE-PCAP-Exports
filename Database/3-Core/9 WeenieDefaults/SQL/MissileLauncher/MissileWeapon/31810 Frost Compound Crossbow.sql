@@ -15,7 +15,7 @@ VALUES (31810,   1,        256) /* ItemType - MissileWeapon */
      , (31810,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31810,  49,        110) /* WeaponTime */
      , (31810,  50,          2) /* AmmoType - Bolt */
-     , (31810,  51,          2) /* CombatUse - Missle */
+     , (31810,  51,          2) /* CombatUse - Missile */
      , (31810,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31810, 105,          7) /* ItemWorkmanship */
      , (31810, 131,         63) /* MaterialType - Silver */
@@ -48,17 +48,17 @@ VALUES (31810,   1, 'Frost Compound Crossbow') /* Name */
      , (31810,  16, 'Frost Compound Crossbow') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31810,   1,   33559663) /* Setup */
-     , (31810,   3,  536870932) /* SoundTable */
-     , (31810,   6,   67116700) /* PaletteBase */
-     , (31810,   8,  100688060) /* Icon */
-     , (31810,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31810,   1, 0x0200146F) /* Setup */
+     , (31810,   3, 0x20000014) /* SoundTable */
+     , (31810,   6, 0x04001E9C) /* PaletteBase */
+     , (31810,   8, 0x060060BC) /* Icon */
+     , (31810,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31810, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31810, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31810, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31810, 8000, 3014420527) /* PCAPRecordedObjectIID */;
+VALUES (31810, 8000, 0xB3AC682F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31810, 67116700, 1, 100)

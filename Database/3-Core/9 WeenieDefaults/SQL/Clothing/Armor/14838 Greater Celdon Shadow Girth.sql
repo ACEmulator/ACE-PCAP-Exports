@@ -8,7 +8,6 @@ VALUES (14838,   1,          2) /* ItemType - Armor */
      , (14838,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (14838,   5,       1375) /* EncumbranceVal */
      , (14838,   9,       1024) /* ValidLocations - AbdomenArmor */
-     , (14838,  10,       1024) /* CurrentWieldedLocation - AbdomenArmor */
      , (14838,  16,          1) /* ItemUseable - No */
      , (14838,  19,       1610) /* Value */
      , (14838,  28,        210) /* ArmorLevel */
@@ -37,17 +36,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14838,   1, 'Greater Celdon Shadow Girth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14838,   1,   33554647) /* Setup */
-     , (14838,   3,  536870932) /* SoundTable */
-     , (14838,   6,   67108990) /* PaletteBase */
-     , (14838,   8,  100672615) /* Icon */
-     , (14838,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14838,   1, 0x020000D7) /* Setup */
+     , (14838,   3, 0x20000014) /* SoundTable */
+     , (14838,   6, 0x0400007E) /* PaletteBase */
+     , (14838,   8, 0x06002467) /* Icon */
+     , (14838,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14838, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (14838, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14838, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14838, 8000, 2164419674) /* PCAPRecordedObjectIID */;
+VALUES (14838, 8000, 0x81026C5A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14838, 67113799, 80, 12)

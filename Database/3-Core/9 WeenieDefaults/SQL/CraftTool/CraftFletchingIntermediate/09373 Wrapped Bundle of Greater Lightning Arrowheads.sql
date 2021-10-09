@@ -20,13 +20,13 @@ VALUES (9373,   1, 'Wrapped Bundle of Greater Lightning Arrowheads') /* Name */
      , (9373,  20, 'Wrapped Bundles of Greater Lightning Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9373,   1,   33557030) /* Setup */
-     , (9373,   3,  536870932) /* SoundTable */
-     , (9373,   8,  100671606) /* Icon */
-     , (9373,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9373,   1, 0x02000A26) /* Setup */
+     , (9373,   3, 0x20000014) /* SoundTable */
+     , (9373,   8, 0x06002076) /* Icon */
+     , (9373,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9373, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
      , (9373, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (9373, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9373, 8000, 2166170210) /* PCAPRecordedObjectIID */;
+VALUES (9373, 8000, 0x811D2262) /* PCAPRecordedObjectIID */;

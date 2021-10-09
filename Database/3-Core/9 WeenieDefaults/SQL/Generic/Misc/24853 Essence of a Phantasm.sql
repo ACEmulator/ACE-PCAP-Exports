@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24853,   1, 'Essence of a Phantasm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24853,   1,   33555205) /* Setup */
-     , (24853,   3,  536870932) /* SoundTable */
-     , (24853,   8,  100674487) /* Icon */
-     , (24853,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24853,   1, 0x02000305) /* Setup */
+     , (24853,   3, 0x20000014) /* SoundTable */
+     , (24853,   8, 0x06002BB7) /* Icon */
+     , (24853,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24853, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (24853, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24853, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24853, 8000, 2192761499) /* PCAPRecordedObjectIID */;
+VALUES (24853, 8000, 0x82B2E29B) /* PCAPRecordedObjectIID */;

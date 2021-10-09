@@ -25,21 +25,21 @@ VALUES (45774,   1, 'Apparition of Borelean Strathelar') /* Name */
      , (45774, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45774,   1,   33554433) /* Setup */
-     , (45774,   2,  150994945) /* MotionTable */
-     , (45774,   3,  536870913) /* SoundTable */
-     , (45774,   6,   67108990) /* PaletteBase */
-     , (45774,   8,  100667446) /* Icon */
+VALUES (45774,   1, 0x02000001) /* Setup */
+     , (45774,   2, 0x09000001) /* MotionTable */
+     , (45774,   3, 0x20000001) /* SoundTable */
+     , (45774,   6, 0x0400007E) /* PaletteBase */
+     , (45774,   8, 0x06001036) /* Icon */
      , (45774, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (45774, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (45774, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45774, 8040, 1498285197, 138.5171, -27.09162, -65.995, 0.70817, 0, 0, -0.706042) /* PCAPRecordedLocation */
+VALUES (45774, 8040, 0x594E048D, 138.5171, -27.09162, -65.995, 0.70817, 0, 0, -0.706042) /* PCAPRecordedLocation */
 /* @teleloc 0x594E048D [138.517100 -27.091620 -65.995000] 0.708170 0.000000 0.000000 -0.706042 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45774, 8000, 3695065063) /* PCAPRecordedObjectIID */;
+VALUES (45774, 8000, 0xDC3E37E7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45774, 67109964, 92, 4)

@@ -19,6 +19,7 @@ VALUES (21380,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21380,  22, True ) /* Inscribable */
+     , (21380,  23, True ) /* DestroyOnSell */
      , (21380,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -27,13 +28,13 @@ VALUES (21380,   1, 'Seal Fragment') /* Name */
      , (21380,  15, 'A seal fragment with odd glyphs and sigils.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21380,   1,   33557975) /* Setup */
-     , (21380,   3,  536870932) /* SoundTable */
-     , (21380,   8,  100673505) /* Icon */
-     , (21380,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21380,   1, 0x02000DD7) /* Setup */
+     , (21380,   3, 0x20000014) /* SoundTable */
+     , (21380,   8, 0x060027E1) /* Icon */
+     , (21380,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21380, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (21380, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21380, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21380, 8000, 2938105252) /* PCAPRecordedObjectIID */;
+VALUES (21380, 8000, 0xAF1FEDA4) /* PCAPRecordedObjectIID */;

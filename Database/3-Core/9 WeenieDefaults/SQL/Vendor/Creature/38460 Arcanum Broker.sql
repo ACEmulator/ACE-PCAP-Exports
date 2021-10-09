@@ -36,27 +36,27 @@ VALUES (38460,   1, 'Arcanum Broker') /* Name */
      , (38460, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38460,   1,   33554433) /* Setup */
-     , (38460,   2,  150994945) /* MotionTable */
-     , (38460,   3,  536870913) /* SoundTable */
-     , (38460,   6,   67108990) /* PaletteBase */
-     , (38460,   8,  100667446) /* Icon */
-     , (38460,   9,   83890457) /* EyesTexture */
-     , (38460,  10,   83890541) /* NoseTexture */
-     , (38460,  11,   83890654) /* MouthTexture */
-     , (38460,  15,   67116999) /* HairPalette */
-     , (38460,  16,   67110062) /* EyesPalette */
-     , (38460,  17,   67109552) /* SkinPalette */
+VALUES (38460,   1, 0x02000001) /* Setup */
+     , (38460,   2, 0x09000001) /* MotionTable */
+     , (38460,   3, 0x20000001) /* SoundTable */
+     , (38460,   6, 0x0400007E) /* PaletteBase */
+     , (38460,   8, 0x06001036) /* Icon */
+     , (38460,   9, 0x05001119) /* EyesTexture */
+     , (38460,  10, 0x0500116D) /* NoseTexture */
+     , (38460,  11, 0x050011DE) /* MouthTexture */
+     , (38460,  15, 0x04001FC7) /* HairPalette */
+     , (38460,  16, 0x040004AE) /* EyesPalette */
+     , (38460,  17, 0x040002B0) /* SkinPalette */
      , (38460, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (38460, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (38460, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38460, 8040, 3147759669, 160.67, 111.026, 70.005, 0.6967069, 0, 0, -0.7173559) /* PCAPRecordedLocation */
+VALUES (38460, 8040, 0xBB9F0035, 160.67, 111.026, 70.005, 0.696707, 0, 0, -0.717356) /* PCAPRecordedLocation */
 /* @teleloc 0xBB9F0035 [160.670000 111.026000 70.005000] 0.696707 0.000000 0.000000 -0.717356 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38460, 8000, 2075783183) /* PCAPRecordedObjectIID */;
+VALUES (38460, 8000, 0x7BB9F00F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38460,   1, 290, 0, 0) /* Strength */
@@ -85,21 +85,7 @@ VALUES (38460, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for 
      , (38460, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (38460, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (38460, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (38460, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (38460, 4, 29240, -1, 0, 0, False) /* Create Electric Bow (29240) for Shop */
-     , (38460, 4, 27220, -1, 0, 0, False) /* Create Lorica Boots (27220) for Shop */
-     , (38460, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Shop */
-     , (38460, 4, 45113, -1, 0, 0, False) /* Create Hammer (45113) for Shop */
-     , (38460, 4, 49216, -1, 0, 0, False) /* Create Acid Skeleton Bushi Essence (125) (49216) for Shop */
-     , (38460, 4, 29249, -1, 0, 0, False) /* Create Frost Crossbow (29249) for Shop */
-     , (38460, 4, 40761, -1, 0, 0, False) /* Create Acid Nodachi (40761) for Shop */
-     , (38460, 4, 27228, -1, 0, 0, False) /* Create Nariyid Gauntlets (27228) for Shop */
-     , (38460, 4, 31782, -1, 0, 0, False) /* Create Fire Spine Glaive (31782) for Shop */
-     , (38460, 4, 31777, -1, 0, 0, False) /* Create Fire Board with Nail (31777) for Shop */
-     , (38460, 4, 41486, -1, 0, 0, False) /* Create Puzzle Box (41486) for Shop */
-     , (38460, 4, 40680, -1, 0, 0, False) /* Create Olthoi Helm (40680) for Shop */
-     , (38460, 4, 31805, -1, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for Shop */
-     , (38460, 4, 29247, -1, 0, 0, False) /* Create Electric Crossbow (29247) for Shop */;
+     , (38460, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38460, 67109552, 0, 24)

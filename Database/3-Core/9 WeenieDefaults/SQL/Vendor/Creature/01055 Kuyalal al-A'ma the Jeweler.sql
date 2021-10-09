@@ -36,27 +36,27 @@ VALUES (1055,   1, 'Kuyalal al-A''ma the Jeweler') /* Name */
      , (1055, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1055,   1,   33554433) /* Setup */
-     , (1055,   2,  150994945) /* MotionTable */
-     , (1055,   3,  536870913) /* SoundTable */
-     , (1055,   6,   67108990) /* PaletteBase */
-     , (1055,   8,  100667446) /* Icon */
-     , (1055,   9,   83890516) /* EyesTexture */
-     , (1055,  10,   83890536) /* NoseTexture */
-     , (1055,  11,   83890608) /* MouthTexture */
-     , (1055,  15,   67117073) /* HairPalette */
-     , (1055,  16,   67109567) /* EyesPalette */
-     , (1055,  17,   67109550) /* SkinPalette */
+VALUES (1055,   1, 0x02000001) /* Setup */
+     , (1055,   2, 0x09000001) /* MotionTable */
+     , (1055,   3, 0x20000001) /* SoundTable */
+     , (1055,   6, 0x0400007E) /* PaletteBase */
+     , (1055,   8, 0x06001036) /* Icon */
+     , (1055,   9, 0x05001154) /* EyesTexture */
+     , (1055,  10, 0x05001168) /* NoseTexture */
+     , (1055,  11, 0x050011B0) /* MouthTexture */
+     , (1055,  15, 0x04002011) /* HairPalette */
+     , (1055,  16, 0x040002BF) /* EyesPalette */
+     , (1055,  17, 0x040002AE) /* SkinPalette */
      , (1055, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (1055, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (1055, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1055, 8040, 2535588127, 102.88, 106.78, 102.005, 0.8206509, 0, 0, -0.5714299) /* PCAPRecordedLocation */
+VALUES (1055, 8040, 0x9722011F, 102.88, 106.78, 102.005, 0.820651, 0, 0, -0.57143) /* PCAPRecordedLocation */
 /* @teleloc 0x9722011F [102.880000 106.780000 102.005000] 0.820651 0.000000 0.000000 -0.571430 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1055, 8000, 2037522447) /* PCAPRecordedObjectIID */;
+VALUES (1055, 8000, 0x7972200F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1055,   1,  90, 0, 0) /* Strength */
@@ -91,16 +91,7 @@ VALUES (1055, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) f
      , (1055, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (1055, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (1055, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (1055, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (1055, 4,  2417, -1, 0, 0, False) /* Create Gem (2417) for Shop */
-     , (1055, 4,  2415, -1, 0, 0, False) /* Create Gem (2415) for Shop */
-     , (1055, 4,  2413, -1, 0, 0, False) /* Create Gem (2413) for Shop */
-     , (1055, 4,  2422, -1, 0, 0, False) /* Create Gem (2422) for Shop */
-     , (1055, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (1055, 4, 41487, -1, 0, 0, False) /* Create Mechanical Scarab (41487) for Shop */
-     , (1055, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (1055, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (1055, 4,  2416, -1, 0, 0, False) /* Create Gem (2416) for Shop */;
+     , (1055, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (1055, 67109550, 0, 24)

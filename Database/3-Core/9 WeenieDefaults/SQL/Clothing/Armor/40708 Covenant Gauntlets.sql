@@ -48,24 +48,24 @@ VALUES (40708,   1, 'Covenant Gauntlets') /* Name */
      , (40708,  16, 'Covenant Gauntlets of Light Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40708,   1,   33554648) /* Setup */
-     , (40708,   3,  536870932) /* SoundTable */
-     , (40708,   6,   67108990) /* PaletteBase */
-     , (40708,   8,  100673407) /* Icon */
-     , (40708,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40708,   1, 0x020000D8) /* Setup */
+     , (40708,   3, 0x20000014) /* SoundTable */
+     , (40708,   6, 0x0400007E) /* PaletteBase */
+     , (40708,   8, 0x0600277F) /* Icon */
+     , (40708,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40708,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (40708, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40708, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40708, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40708, 8000, 3694319309) /* PCAPRecordedObjectIID */;
+VALUES (40708, 8000, 0xDC32D6CD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40708,   302,      2)  /* AxeMasterySelf5 */
-     , (40708,  1485,      2)  /* Impenetrability5 */
-     , (40708,  1528,      2)  /* FrostBane6 */
-     , (40708,  2602,      2)  /* CANTRIPFROSTBANE1 */;
+VALUES (40708,  1485,      2)  /* Impenetrability5 */
+     , (40708,  2602,      2)  /* CANTRIPFROSTBANE1 */
+     , (40708,   302,      2)  /* LightWeaponsMasterySelf5 */
+     , (40708,  1528,      2)  /* FrostBane6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40708, 67113892, 168, 6);

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (3841,   1,          1) /* ItemType - MeleeWeapon */
      , (3841,   5,        550) /* EncumbranceVal */
      , (3841,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (3841,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (3841,  16,          1) /* ItemUseable - No */
      , (3841,  18,        129) /* UiEffects - Magical, Frost */
      , (3841,  19,       4249) /* Value */
@@ -52,10 +51,10 @@ VALUES (3841,   1, 'Frost Nabut') /* Name */
      , (3841,  16, 'Oak Frost Nabut , set with 1 Aquamarine') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3841,   1,   33555763) /* Setup */
-     , (3841,   3,  536870932) /* SoundTable */
-     , (3841,   8,  100667602) /* Icon */
-     , (3841,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3841,   1, 0x02000533) /* Setup */
+     , (3841,   3, 0x20000014) /* SoundTable */
+     , (3841,   8, 0x060010D2) /* Icon */
+     , (3841,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3841,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3841, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (3841, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -63,12 +62,12 @@ VALUES (3841,   1,   33555763) /* Setup */
      , (3841, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3841, 8040, 23855549, 54.85237, -39.43012, -0.071, -0.5467112, -0.5467112, -0.4484494, -0.4484494) /* PCAPRecordedLocation */
+VALUES (3841, 8040, 0x016C01BD, 54.85237, -39.43012, -0.071, -0.546711, -0.546711, -0.448449, -0.448449) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [54.852370 -39.430120 -0.071000] -0.546711 -0.546711 -0.448449 -0.448449 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3841, 8000, 3706097715) /* PCAPRecordedObjectIID */
-     , (3841, 8008, 1342675961) /* PCAPRecordedParentIID */;
+VALUES (3841, 8000, 0xDCE69033) /* PCAPRecordedObjectIID */
+     , (3841, 8008, 0x50079BF9) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3841,  1613,      2)  /* BloodDrinkerSelf3 */

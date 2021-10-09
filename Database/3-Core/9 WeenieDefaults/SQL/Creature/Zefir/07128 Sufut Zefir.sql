@@ -25,22 +25,22 @@ VALUES (7128,   1, 'Sufut Zefir') /* Name */
      , (7128, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7128,   1,   33555610) /* Setup */
-     , (7128,   2,  150995049) /* MotionTable */
-     , (7128,   3,  536870975) /* SoundTable */
-     , (7128,   6,   67109305) /* PaletteBase */
-     , (7128,   8,  100669123) /* Icon */
-     , (7128,  22,  872415279) /* PhysicsEffectTable */
+VALUES (7128,   1, 0x0200049A) /* Setup */
+     , (7128,   2, 0x09000069) /* MotionTable */
+     , (7128,   3, 0x2000003F) /* SoundTable */
+     , (7128,   6, 0x040001B9) /* PaletteBase */
+     , (7128,   8, 0x060016C3) /* Icon */
+     , (7128,  22, 0x3400002F) /* PhysicsEffectTable */
      , (7128, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7128, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7128, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7128, 8040, 2519597094, 117.5625, 136.373, 60.80256, -0.5685753, 0, 0, -0.8226312) /* PCAPRecordedLocation */
+VALUES (7128, 8040, 0x962E0026, 117.5625, 136.373, 60.80256, -0.568575, 0, 0, -0.822631) /* PCAPRecordedLocation */
 /* @teleloc 0x962E0026 [117.562500 136.373000 60.802560] -0.568575 0.000000 0.000000 -0.822631 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7128, 8000, 3685860729) /* PCAPRecordedObjectIID */;
+VALUES (7128, 8000, 0xDBB1C579) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7128,   1, 235, 0, 0) /* Strength */

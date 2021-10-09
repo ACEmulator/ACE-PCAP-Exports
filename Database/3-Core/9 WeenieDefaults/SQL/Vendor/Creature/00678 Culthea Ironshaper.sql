@@ -37,27 +37,27 @@ VALUES (678,   1, 'Culthea Ironshaper') /* Name */
      , (678, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (678,   1,   33554510) /* Setup */
-     , (678,   2,  150994945) /* MotionTable */
-     , (678,   3,  536870914) /* SoundTable */
-     , (678,   6,   67108990) /* PaletteBase */
-     , (678,   8,  100667446) /* Icon */
-     , (678,   9,   83890280) /* EyesTexture */
-     , (678,  10,   83890311) /* NoseTexture */
-     , (678,  11,   83890351) /* MouthTexture */
-     , (678,  15,   67117024) /* HairPalette */
-     , (678,  16,   67109565) /* EyesPalette */
-     , (678,  17,   67109561) /* SkinPalette */
+VALUES (678,   1, 0x0200004E) /* Setup */
+     , (678,   2, 0x09000001) /* MotionTable */
+     , (678,   3, 0x20000002) /* SoundTable */
+     , (678,   6, 0x0400007E) /* PaletteBase */
+     , (678,   8, 0x06001036) /* Icon */
+     , (678,   9, 0x05001068) /* EyesTexture */
+     , (678,  10, 0x05001087) /* NoseTexture */
+     , (678,  11, 0x050010AF) /* MouthTexture */
+     , (678,  15, 0x04001FE0) /* HairPalette */
+     , (678,  16, 0x040002BD) /* EyesPalette */
+     , (678,  17, 0x040002B9) /* SkinPalette */
      , (678, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (678, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (678, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (678, 8040, 3164537163, 180.209, 136.185, 32.005, 0.2010781, 0, 0, -0.9795752) /* PCAPRecordedLocation */
+VALUES (678, 8040, 0xBC9F014B, 180.209, 136.185, 32.005, 0.201078, 0, 0, -0.979575) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F014B [180.209000 136.185000 32.005000] 0.201078 0.000000 0.000000 -0.979575 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (678, 8000, 2076831776) /* PCAPRecordedObjectIID */;
+VALUES (678, 8000, 0x7BC9F020) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (678,   1,  70, 0, 0) /* Strength */
@@ -109,19 +109,7 @@ VALUES (678, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (678, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (678, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (678, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (678, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (678, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
-     , (678, 4, 25646, -1, 0, 0, False) /* Create Long Leather Gauntlets (25646) for Shop */
-     , (678, 4, 25639, -1, 0, 0, False) /* Create Leather Jerkin (25639) for Shop */
-     , (678, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
-     , (678, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
-     , (678, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
-     , (678, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
-     , (678, 4,    58, -1, 0, 0, False) /* Create Scalemail Gauntlets (58) for Shop */
-     , (678, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (678, 4, 25651, -1, 0, 0, False) /* Create Leather Sleeves (25651) for Shop */
-     , (678, 4, 25661, -1, 0, 0, False) /* Create Leather Boots (25661) for Shop */
-     , (678, 4, 44801, -1, 0, 0, False) /* Create Suikan Over-robe (44801) for Shop */;
+     , (678, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (678, 67109561, 0, 24)

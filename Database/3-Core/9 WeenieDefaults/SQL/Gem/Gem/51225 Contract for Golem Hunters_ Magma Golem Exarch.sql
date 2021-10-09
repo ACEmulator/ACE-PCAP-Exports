@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51225,   1, 'Contract for Golem Hunters: Magma Golem Exarch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51225,   1,   33557625) /* Setup */
-     , (51225,   3,  536870932) /* SoundTable */
-     , (51225,   8,  100691932) /* Icon */
-     , (51225,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51225,   1, 0x02000C79) /* Setup */
+     , (51225,   3, 0x20000014) /* SoundTable */
+     , (51225,   8, 0x06006FDC) /* Icon */
+     , (51225,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51225, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (51225, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (51225, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (51225,   1,   33557625) /* Setup */
      , (51225, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51225, 8000,      51225) /* PCAPRecordedObjectIID */;
+VALUES (51225, 8000, 0x0000C819) /* PCAPRecordedObjectIID */;

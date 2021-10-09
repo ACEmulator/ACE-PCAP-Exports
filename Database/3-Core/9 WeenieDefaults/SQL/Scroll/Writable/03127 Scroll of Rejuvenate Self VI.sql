@@ -24,12 +24,12 @@ VALUES (3127,   1, 'Scroll of Rejuvenate Self VI') /* Name */
 Increases the rate at which the caster regains Stamina by 85%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3127,   1,   33554826) /* Setup */
-     , (3127,   8,  100676940) /* Icon */
+VALUES (3127,   1, 0x0200018A) /* Setup */
+     , (3127,   8, 0x0600354C) /* Icon */
      , (3127,  28,        193) /* Spell - RejuvenationSelf6 */
      , (3127, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3127, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3127, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3127, 8000, 3682416017) /* PCAPRecordedObjectIID */;
+VALUES (3127, 8000, 0xDB7D3591) /* PCAPRecordedObjectIID */;

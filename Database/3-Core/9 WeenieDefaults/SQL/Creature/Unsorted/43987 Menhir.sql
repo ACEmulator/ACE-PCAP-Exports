@@ -23,18 +23,18 @@ VALUES (43987,   1, 'Menhir') /* Name */
      , (43987, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43987,   1,   33555229) /* Setup */
-     , (43987,   2,  150995395) /* MotionTable */
-     , (43987,   3,  536870932) /* SoundTable */
-     , (43987,   8,  100670227) /* Icon */
-     , (43987,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43987,   1, 0x0200031D) /* Setup */
+     , (43987,   2, 0x090001C3) /* MotionTable */
+     , (43987,   3, 0x20000014) /* SoundTable */
+     , (43987,   8, 0x06001B13) /* Icon */
+     , (43987,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43987, 8001,         54) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius */
      , (43987, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (43987, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43987, 8040, 2338586634, 37.6891, 35.8473, 10.12803, -0.710653, 0, 0, -0.703543) /* PCAPRecordedLocation */
+VALUES (43987, 8040, 0x8B64000A, 37.6891, 35.8473, 10.12803, -0.710653, 0, 0, -0.703543) /* PCAPRecordedLocation */
 /* @teleloc 0x8B64000A [37.689100 35.847300 10.128030] -0.710653 0.000000 0.000000 -0.703543 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43987, 8000, 3709148189) /* PCAPRecordedObjectIID */;
+VALUES (43987, 8000, 0xDD151C1D) /* PCAPRecordedObjectIID */;

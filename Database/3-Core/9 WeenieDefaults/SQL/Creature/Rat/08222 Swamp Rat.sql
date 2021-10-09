@@ -26,23 +26,23 @@ VALUES (8222,   1, 'Swamp Rat') /* Name */
      , (8222, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8222,   1,   33554493) /* Setup */
-     , (8222,   2,  150994958) /* MotionTable */
-     , (8222,   3,  536870927) /* SoundTable */
-     , (8222,   6,   67109300) /* PaletteBase */
-     , (8222,   8,  100667451) /* Icon */
-     , (8222,  22,  872415267) /* PhysicsEffectTable */
+VALUES (8222,   1, 0x0200003D) /* Setup */
+     , (8222,   2, 0x0900000E) /* MotionTable */
+     , (8222,   3, 0x2000000F) /* SoundTable */
+     , (8222,   6, 0x040001B4) /* PaletteBase */
+     , (8222,   8, 0x0600103B) /* Icon */
+     , (8222,  22, 0x34000023) /* PhysicsEffectTable */
      , (8222,  30,         87) /* PhysicsScript - BreatheLightning */
      , (8222, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (8222, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (8222, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8222, 8040, 2471166350, 165.627, 106.564, -25.588, 0.127305, 0, 0, -0.9918636) /* PCAPRecordedLocation */
+VALUES (8222, 8040, 0x934B018E, 165.627, 106.564, -25.588, 0.127305, 0, 0, -0.991864) /* PCAPRecordedLocation */
 /* @teleloc 0x934B018E [165.627000 106.564000 -25.588000] 0.127305 0.000000 0.000000 -0.991864 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8222, 8000, 3692413218) /* PCAPRecordedObjectIID */;
+VALUES (8222, 8000, 0xDC15C122) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8222,   1,  70, 0, 0) /* Strength */

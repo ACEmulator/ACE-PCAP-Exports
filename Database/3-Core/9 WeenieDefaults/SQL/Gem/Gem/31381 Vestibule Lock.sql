@@ -15,7 +15,8 @@ VALUES (31381,   1,       2048) /* ItemType - Gem */
      , (31381, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31381,  22, True ) /* Inscribable */;
+VALUES (31381,  22, True ) /* Inscribable */
+     , (31381,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31381,   1, 'Vestibule Lock') /* Name */
@@ -23,11 +24,11 @@ VALUES (31381,   1, 'Vestibule Lock') /* Name */
      , (31381,  16, 'An ancient looking Shadow artifact. The distinct pattern on the front of the artifact reminds you of something, but you cannot place what exactly that is.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31381,   1,   33556743) /* Setup */
-     , (31381,   8,  100687954) /* Icon */
+VALUES (31381,   1, 0x02000907) /* Setup */
+     , (31381,   8, 0x06006052) /* Icon */
      , (31381, 8001,    2179088) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden */
      , (31381, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31381, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31381, 8000, 3711411048) /* PCAPRecordedObjectIID */;
+VALUES (31381, 8000, 0xDD37A368) /* PCAPRecordedObjectIID */;

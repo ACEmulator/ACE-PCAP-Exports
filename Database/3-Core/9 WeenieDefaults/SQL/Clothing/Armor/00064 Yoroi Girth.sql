@@ -43,18 +43,18 @@ VALUES (64,   1, 'Yoroi Girth') /* Name */
      , (64,  16, 'Yoroi Girth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (64,   1,   33554647) /* Setup */
-     , (64,   3,  536870932) /* SoundTable */
-     , (64,   6,   67108990) /* PaletteBase */
-     , (64,   8,  100669357) /* Icon */
-     , (64,  22,  872415275) /* PhysicsEffectTable */
+VALUES (64,   1, 0x020000D7) /* Setup */
+     , (64,   3, 0x20000014) /* SoundTable */
+     , (64,   6, 0x0400007E) /* PaletteBase */
+     , (64,   8, 0x060017AD) /* Icon */
+     , (64,  22, 0x3400002B) /* PhysicsEffectTable */
      , (64,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (64, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (64, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (64, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (64, 8000, 3685953549) /* PCAPRecordedObjectIID */;
+VALUES (64, 8000, 0xDBB3300D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (64,  1486,      2)  /* Impenetrability6 */

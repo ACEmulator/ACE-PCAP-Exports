@@ -31,21 +31,21 @@ VALUES (37414,   1, 'Coral Encrusted Chest') /* Name */
      , (37414, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37414,   1,   33557143) /* Setup */
-     , (37414,   2,  150994948) /* MotionTable */
-     , (37414,   3,  536870945) /* SoundTable */
-     , (37414,   8,  100671885) /* Icon */
-     , (37414,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37414,   1, 0x02000A97) /* Setup */
+     , (37414,   2, 0x09000004) /* MotionTable */
+     , (37414,   3, 0x20000021) /* SoundTable */
+     , (37414,   8, 0x0600218D) /* Icon */
+     , (37414,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37414, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (37414, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (37414, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37414, 8040, 1105002515, 64, 60, 5, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (37414, 8040, 0x41DD0013, 64, 60, 5, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x41DD0013 [64.000000 60.000000 5.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37414, 8000, 1948110848) /* PCAPRecordedObjectIID */;
+VALUES (37414, 8000, 0x741DD000) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37414, -1, 49388, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Frost Grievver Essence (80) (49388) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

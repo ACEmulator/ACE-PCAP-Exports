@@ -26,13 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35538,   1, '"Assassin''s Dagger" Summoning Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35538,   1,   33556223) /* Setup */
-     , (35538,   3,  536870932) /* SoundTable */
-     , (35538,   6,   67111928) /* PaletteBase */
-     , (35538,   8,  100673039) /* Icon */
-     , (35538,  22,  872415275) /* PhysicsEffectTable */
-     , (35538,  50,  100673763) /* IconOverlay */
-     , (35538,  52,  100689403) /* IconUnderlay */
+VALUES (35538,   1, 0x020006FF) /* Setup */
+     , (35538,   3, 0x20000014) /* SoundTable */
+     , (35538,   6, 0x04000BF8) /* PaletteBase */
+     , (35538,   8, 0x0600260F) /* Icon */
+     , (35538,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35538,  50, 0x060028E3) /* IconOverlay */
+     , (35538,  52, 0x060065FB) /* IconUnderlay */
      , (35538, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (35538, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (35538, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -40,7 +40,7 @@ VALUES (35538,   1,   33556223) /* Setup */
      , (35538, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35538, 8000,      35538) /* PCAPRecordedObjectIID */;
+VALUES (35538, 8000, 0x00008AD2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35538, 67112642, 0, 0);

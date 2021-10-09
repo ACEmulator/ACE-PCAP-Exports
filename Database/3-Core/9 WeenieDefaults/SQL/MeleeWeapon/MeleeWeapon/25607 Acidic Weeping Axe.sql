@@ -34,6 +34,7 @@ VALUES (25607,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25607,  22, True ) /* Inscribable */
+     , (25607,  23, True ) /* DestroyOnSell */
      , (25607,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -56,17 +57,17 @@ The Mystic Rogue says, "he lives a lie"') /* Inscription */
      , (25607,  15, 'An axe infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25607,   1,   33558471) /* Setup */
-     , (25607,   3,  536870932) /* SoundTable */
-     , (25607,   6,   67114522) /* PaletteBase */
-     , (25607,   8,  100674893) /* Icon */
-     , (25607,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25607,   1, 0x02000FC7) /* Setup */
+     , (25607,   3, 0x20000014) /* SoundTable */
+     , (25607,   6, 0x0400161A) /* PaletteBase */
+     , (25607,   8, 0x06002D4D) /* Icon */
+     , (25607,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25607, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (25607, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25607, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25607, 8000, 2581248789) /* PCAPRecordedObjectIID */;
+VALUES (25607, 8000, 0x99DABB15) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25607,  2686,      2)  /* ModerateAxeAptitude */;

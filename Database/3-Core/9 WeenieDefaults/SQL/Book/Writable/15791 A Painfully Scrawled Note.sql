@@ -14,6 +14,9 @@ VALUES (15791,   1,       8192) /* ItemType - Writable */
      , (15791, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (15791, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (15791,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15791,  54,       1) /* UseRadius */;
 
@@ -22,26 +25,26 @@ VALUES (15791,   1, 'A Painfully Scrawled Note') /* Name */
      , (15791,  16, 'A note hastily written by Nuhmudira. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15791,   1,   33554773) /* Setup */
-     , (15791,   3,  536870932) /* SoundTable */
-     , (15791,   8,  100672795) /* Icon */
-     , (15791,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15791,   1, 0x02000155) /* Setup */
+     , (15791,   3, 0x20000014) /* SoundTable */
+     , (15791,   8, 0x0600251B) /* Icon */
+     , (15791,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15791, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (15791, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (15791, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15791, 8040, 1415708942, 21.7749, -1.47583, 0.079, -0.92287, 0, 0, -0.385111) /* PCAPRecordedLocation */
+VALUES (15791, 8040, 0x5462010E, 21.7749, -1.47583, 0.079, -0.92287, 0, 0, -0.385111) /* PCAPRecordedLocation */
 /* @teleloc 0x5462010E [21.774900 -1.475830 0.079000] -0.922870 0.000000 0.000000 -0.385111 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15791, 8000, 3709100778) /* PCAPRecordedObjectIID */;
+VALUES (15791, 8000, 0xDD1462EA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (15791, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (15791, 0, 4294967295, 'Nuhmudira', 'Password is cheese', False, 'They carried the incense to the ritual...
+VALUES (15791, 0, 4294967295, 'Nuhmudira', 'prewritten', False, 'They carried the incense to the ritual...
 They were servitors I see it now...
 When they heeded the call of the voice, it was their servitors the snake-men their creations that stood with them at rituals.
 

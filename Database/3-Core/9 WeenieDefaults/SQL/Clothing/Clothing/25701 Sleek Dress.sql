@@ -34,17 +34,17 @@ VALUES (25701,   1, 'Sleek Dress') /* Name */
      , (25701,  15, 'A dress designed by the Gharu''ndim tailor, Xuut. The fibers of the dress look as though they could withstand the dyeing process.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25701,   1,   33554854) /* Setup */
-     , (25701,   3,  536870932) /* SoundTable */
-     , (25701,   6,   67108990) /* PaletteBase */
-     , (25701,   8,  100675510) /* Icon */
-     , (25701,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25701,   1, 0x020001A6) /* Setup */
+     , (25701,   3, 0x20000014) /* SoundTable */
+     , (25701,   6, 0x0400007E) /* PaletteBase */
+     , (25701,   8, 0x06002FB6) /* Icon */
+     , (25701,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25701, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (25701, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25701, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25701, 8000, 2923140081) /* PCAPRecordedObjectIID */;
+VALUES (25701, 8000, 0xAE3B93F1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25701, 67114667, 174, 66);

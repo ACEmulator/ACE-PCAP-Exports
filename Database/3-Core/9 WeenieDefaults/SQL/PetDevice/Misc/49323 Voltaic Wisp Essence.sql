@@ -17,9 +17,9 @@ VALUES (49323,   1,        128) /* ItemType - Misc */
      , (49323, 105,          7) /* ItemWorkmanship */
      , (49323, 114,          0) /* Attuned - Normal */
      , (49323, 280,        213) /* SharedCooldown */
-     , (49323, 366,         54) /* UseRequiresSkill */
+     , (49323, 366,         54) /* UseRequiresSkill - Summoning */
      , (49323, 367,        570) /* UseRequiresSkillLevel */
-     , (49323, 368,         54) /* UseRequiresSkillSpec */
+     , (49323, 368,         54) /* UseRequiresSkillSpec - Summoning */
      , (49323, 369,        185) /* UseRequiresLevel */
      , (49323, 371,         14) /* GearDamageResist */
      , (49323, 372,         17) /* GearCrit */
@@ -40,24 +40,24 @@ VALUES (49323,   1, 'Voltaic Wisp Essence') /* Name */
      , (49323,  14, 'Use this essence to summon or dismiss your Voltaic Wisp.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49323,   1,   33554817) /* Setup */
-     , (49323,   3,  536870932) /* SoundTable */
-     , (49323,   6,   67111919) /* PaletteBase */
-     , (49323,   8,  100693035) /* Icon */
-     , (49323,  22,  872415275) /* PhysicsEffectTable */
-     , (49323,  50,  100693032) /* IconOverlay */
-     , (49323,  52,  100693024) /* IconUnderlay */
+VALUES (49323,   1, 0x02000181) /* Setup */
+     , (49323,   3, 0x20000014) /* SoundTable */
+     , (49323,   6, 0x04000BEF) /* PaletteBase */
+     , (49323,   8, 0x0600742B) /* Icon */
+     , (49323,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49323,  50, 0x06007428) /* IconOverlay */
+     , (49323,  52, 0x06007420) /* IconUnderlay */
      , (49323, 8001, 1076366488) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, TargetType, Burden, IconOverlay */
      , (49323, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49323, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49323, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49323, 8040, 23855548, 53.34838, -32.67789, -0.0009999946, -0.8511181, 0, 0, -0.5249743) /* PCAPRecordedLocation */
+VALUES (49323, 8040, 0x016C01BC, 53.34838, -32.67789, -0.001, -0.851118, 0, 0, -0.524974) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [53.348380 -32.677890 -0.001000] -0.851118 0.000000 0.000000 -0.524974 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49323, 8000, 2685285251) /* PCAPRecordedObjectIID */;
+VALUES (49323, 8000, 0xA00E3383) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49323, 67111921, 0, 0);

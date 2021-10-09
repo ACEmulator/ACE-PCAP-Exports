@@ -23,17 +23,17 @@ VALUES (5090,   1, 'Bruised Apple') /* Name */
      , (5090,  15, 'This is edible but unappetizing food that no vendors will want to buy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5090,   1,   33554667) /* Setup */
-     , (5090,   3,  536870932) /* SoundTable */
-     , (5090,   8,  100667465) /* Icon */
-     , (5090,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5090,   1, 0x020000EB) /* Setup */
+     , (5090,   3, 0x20000014) /* SoundTable */
+     , (5090,   8, 0x06001049) /* Icon */
+     , (5090,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5090, 8001,    2109456) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Burden */
      , (5090, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (5090, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5090, 8040, 2248343981, 7.739, -30.103, 1.5, 0.702712, 0, 0, -0.711474) /* PCAPRecordedLocation */
+VALUES (5090, 8040, 0x860301AD, 7.739, -30.103, 1.5, 0.702712, 0, 0, -0.711474) /* PCAPRecordedLocation */
 /* @teleloc 0x860301AD [7.739000 -30.103000 1.500000] 0.702712 0.000000 0.000000 -0.711474 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5090, 8000, 3692411303) /* PCAPRecordedObjectIID */;
+VALUES (5090, 8000, 0xDC15B9A7) /* PCAPRecordedObjectIID */;

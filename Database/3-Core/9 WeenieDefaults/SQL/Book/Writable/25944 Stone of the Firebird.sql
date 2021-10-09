@@ -21,22 +21,22 @@ VALUES (25944,   1, 'Stone of the Firebird') /* Name */
      , (25944,  15, 'A well-written note.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25944,   1,   33554773) /* Setup */
-     , (25944,   3,  536870932) /* SoundTable */
-     , (25944,   8,  100668176) /* Icon */
-     , (25944,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25944,   1, 0x02000155) /* Setup */
+     , (25944,   3, 0x20000014) /* SoundTable */
+     , (25944,   8, 0x06001310) /* Icon */
+     , (25944,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25944, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (25944, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (25944, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25944, 8000, 2166184399) /* PCAPRecordedObjectIID */;
+VALUES (25944, 8000, 0x811D59CF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25944, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25944, 0, 4294967295, 'Honshu Takeda', 'Password is cheese', False, 'As I entered this place I questioned whether I would find the splendor that I sought. There in the darkness of the fire hewn halls I questioned if this place of ash and soot could be the home of something so perfect as the splendor that I sought.
+VALUES (25944, 0, 4294967295, 'Honshu Takeda', 'prewritten', False, 'As I entered this place I questioned whether I would find the splendor that I sought. There in the darkness of the fire hewn halls I questioned if this place of ash and soot could be the home of something so perfect as the splendor that I sought.
 
 When I saw the rock formation within the lava, I knew that my journey was complete. For atop the stones sat a perfect sphere.
 

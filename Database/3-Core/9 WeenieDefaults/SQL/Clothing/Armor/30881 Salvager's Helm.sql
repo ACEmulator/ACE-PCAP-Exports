@@ -40,17 +40,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30881,   1, 'Salvager''s Helm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30881,   1,   33555248) /* Setup */
-     , (30881,   3,  536870932) /* SoundTable */
-     , (30881,   6,   67108990) /* PaletteBase */
-     , (30881,   8,  100669413) /* Icon */
-     , (30881,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30881,   1, 0x02000330) /* Setup */
+     , (30881,   3, 0x20000014) /* SoundTable */
+     , (30881,   6, 0x0400007E) /* PaletteBase */
+     , (30881,   8, 0x060017E5) /* Icon */
+     , (30881,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30881, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (30881, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30881, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30881, 8000, 3707926624) /* PCAPRecordedObjectIID */;
+VALUES (30881, 8000, 0xDD027860) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30881,  3809,      2)  /* CantripSalvagingMinor */;

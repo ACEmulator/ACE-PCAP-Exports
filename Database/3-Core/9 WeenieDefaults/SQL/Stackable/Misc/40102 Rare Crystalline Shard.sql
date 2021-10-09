@@ -17,7 +17,8 @@ VALUES (40102,   1,        128) /* ItemType - Misc */
      , (40102, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40102,  69, False) /* IsSellable */;
+VALUES (40102,  23, True ) /* DestroyOnSell */
+     , (40102,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40102,  39,     0.3) /* DefaultScale */;
@@ -27,17 +28,17 @@ VALUES (40102,   1, 'Rare Crystalline Shard') /* Name */
      , (40102,  16, 'A crystalline shard condensed from the remains of an aggregate crystalline wisp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40102,   1,   33557506) /* Setup */
-     , (40102,   3,  536870932) /* SoundTable */
-     , (40102,   6,   67112808) /* PaletteBase */
-     , (40102,   8,  100690348) /* Icon */
-     , (40102,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40102,   1, 0x02000C02) /* Setup */
+     , (40102,   3, 0x20000014) /* SoundTable */
+     , (40102,   6, 0x04000F68) /* PaletteBase */
+     , (40102,   8, 0x060069AC) /* Icon */
+     , (40102,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40102, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (40102, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (40102, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40102, 8000, 2153621444) /* PCAPRecordedObjectIID */;
+VALUES (40102, 8000, 0x805DA7C4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40102, 67112807, 0, 0);

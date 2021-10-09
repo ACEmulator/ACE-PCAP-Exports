@@ -49,21 +49,21 @@ VALUES (43830,   1, 'Sedgemail Leather Gauntlets') /* Name */
      , (43830,  16, 'Sedgemail Leather Gauntlets of Dagger Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43830,   1,   33554648) /* Setup */
-     , (43830,   3,  536870932) /* SoundTable */
-     , (43830,   6,   67108990) /* PaletteBase */
-     , (43830,   8,  100691729) /* Icon */
-     , (43830,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43830,   1, 0x020000D8) /* Setup */
+     , (43830,   3, 0x20000014) /* SoundTable */
+     , (43830,   6, 0x0400007E) /* PaletteBase */
+     , (43830,   8, 0x06006F11) /* Icon */
+     , (43830,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43830,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (43830, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (43830, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43830, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43830, 8000, 2174542733) /* PCAPRecordedObjectIID */;
+VALUES (43830, 8000, 0x819CE38D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43830,   327,      2)  /* DaggerMasterySelf6 */
+VALUES (43830,   327,      2)  /* FinesseWeaponsMasterySelf6 */
      , (43830,  1552,      2)  /* FlameBane6 */
      , (43830,  1574,      2)  /* PiercingBane6 */
      , (43830,  2094,      2)  /* BladeBane7 */

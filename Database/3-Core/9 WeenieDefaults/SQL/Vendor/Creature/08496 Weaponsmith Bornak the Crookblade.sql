@@ -37,27 +37,27 @@ VALUES (8496,   1, 'Weaponsmith Bornak the Crookblade') /* Name */
      , (8496, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8496,   1,   33554433) /* Setup */
-     , (8496,   2,  150994945) /* MotionTable */
-     , (8496,   3,  536870914) /* SoundTable */
-     , (8496,   6,   67108990) /* PaletteBase */
-     , (8496,   8,  100667375) /* Icon */
-     , (8496,   9,   83890495) /* EyesTexture */
-     , (8496,  10,   83890518) /* NoseTexture */
-     , (8496,  11,   83890655) /* MouthTexture */
-     , (8496,  15,   67116990) /* HairPalette */
-     , (8496,  16,   67110062) /* EyesPalette */
-     , (8496,  17,   67109561) /* SkinPalette */
+VALUES (8496,   1, 0x02000001) /* Setup */
+     , (8496,   2, 0x09000001) /* MotionTable */
+     , (8496,   3, 0x20000002) /* SoundTable */
+     , (8496,   6, 0x0400007E) /* PaletteBase */
+     , (8496,   8, 0x06000FEF) /* Icon */
+     , (8496,   9, 0x0500113F) /* EyesTexture */
+     , (8496,  10, 0x05001156) /* NoseTexture */
+     , (8496,  11, 0x050011DF) /* MouthTexture */
+     , (8496,  15, 0x04001FBE) /* HairPalette */
+     , (8496,  16, 0x040004AE) /* EyesPalette */
+     , (8496,  17, 0x040002B9) /* SkinPalette */
      , (8496, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (8496, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (8496, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8496, 8040, 4062314752, 136.117, 138.665, 18.005, 0.9991242, 0, 0, -0.04184171) /* PCAPRecordedLocation */
+VALUES (8496, 8040, 0xF2220100, 136.117, 138.665, 18.005, 0.999124, 0, 0, -0.041842) /* PCAPRecordedLocation */
 /* @teleloc 0xF2220100 [136.117000 138.665000 18.005000] 0.999124 0.000000 0.000000 -0.041842 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8496, 8000, 2132942856) /* PCAPRecordedObjectIID */;
+VALUES (8496, 8000, 0x7F222008) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8496,   1, 240, 0, 0) /* Strength */
@@ -87,6 +87,7 @@ VALUES (8496, 2,   350,  1, 0, 0, False) /* Create Broad Sword (350) for Wield *
      , (8496, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (8496, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (8496, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (8496, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
      , (8496, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
      , (8496, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
      , (8496, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
@@ -99,30 +100,7 @@ VALUES (8496, 2,   350,  1, 0, 0, False) /* Create Broad Sword (350) for Wield *
      , (8496, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (8496, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (8496, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (8496, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (8496, 4, 31778, -1, 0, 0, False) /* Create Frost Spine Glaive (31778) for Shop */
-     , (8496, 4,  2597, -1, 0, 0, False) /* Create Flared Pants (2597) for Shop */
-     , (8496, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (8496, 4, 25650, -1, 0, 0, False) /* Create Leather Shorts (25650) for Shop */
-     , (8496, 4, 44856, -1, 0, 0, False) /* Create Trimmed Cloak (44856) for Shop */
-     , (8496, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
-     , (8496, 4,  2590, -1, 0, 0, False) /* Create Baggy Shirt (2590) for Shop */
-     , (8496, 4,  2596, -1, 0, 0, False) /* Create Doublet (2596) for Shop */
-     , (8496, 4,  2589, -1, 0, 0, False) /* Create Smock (2589) for Shop */
-     , (8496, 4,  2603, -1, 0, 0, False) /* Create Baggy Breeches (2603) for Shop */
-     , (8496, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
-     , (8496, 4,   340, -1, 0, 0, False) /* Create Shamshir (340) for Shop */
-     , (8496, 4,  3896, -1, 0, 0, False) /* Create Frost Takuba (3896) for Shop */
-     , (8496, 4, 30566, -1, 0, 0, False) /* Create Sabra (30566) for Shop */
-     , (8496, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
-     , (8496, 4,   134, -1, 0, 0, False) /* Create Tunic (134) for Shop */
-     , (8496, 4,   150, -1, 0, 0, False) /* Create Flagon (150) for Shop */
-     , (8496, 4,  7791, -1, 0, 0, False) /* Create Frost Trident (7791) for Shop */
-     , (8496, 4, 45113, -1, 0, 0, False) /* Create Hammer (45113) for Shop */
-     , (8496, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
-     , (8496, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
-     , (8496, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */
-     , (8496, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */;
+     , (8496, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8496, 67109561, 0, 24)

@@ -36,27 +36,27 @@ VALUES (11399,   1, 'Leyrale Shalorn the Tailor') /* Name */
      , (11399, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11399,   1,   33554510) /* Setup */
-     , (11399,   2,  150994945) /* MotionTable */
-     , (11399,   3,  536870914) /* SoundTable */
-     , (11399,   6,   67108990) /* PaletteBase */
-     , (11399,   8,  100667446) /* Icon */
-     , (11399,   9,   83890258) /* EyesTexture */
-     , (11399,  10,   83890313) /* NoseTexture */
-     , (11399,  11,   83890346) /* MouthTexture */
-     , (11399,  15,   67117028) /* HairPalette */
-     , (11399,  16,   67109567) /* EyesPalette */
-     , (11399,  17,   67109559) /* SkinPalette */
+VALUES (11399,   1, 0x0200004E) /* Setup */
+     , (11399,   2, 0x09000001) /* MotionTable */
+     , (11399,   3, 0x20000002) /* SoundTable */
+     , (11399,   6, 0x0400007E) /* PaletteBase */
+     , (11399,   8, 0x06001036) /* Icon */
+     , (11399,   9, 0x05001052) /* EyesTexture */
+     , (11399,  10, 0x05001089) /* NoseTexture */
+     , (11399,  11, 0x050010AA) /* MouthTexture */
+     , (11399,  15, 0x04001FE4) /* HairPalette */
+     , (11399,  16, 0x040002BF) /* EyesPalette */
+     , (11399,  17, 0x040002B7) /* SkinPalette */
      , (11399, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (11399, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (11399, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11399, 8040, 397541661, 153.693, 37.4657, 43.705, -0.898376, 0, 0, -0.4392272) /* PCAPRecordedLocation */
+VALUES (11399, 8040, 0x17B2011D, 153.693, 37.4657, 43.705, -0.898376, 0, 0, -0.439227) /* PCAPRecordedLocation */
 /* @teleloc 0x17B2011D [153.693000 37.465700 43.705000] -0.898376 0.000000 0.000000 -0.439227 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11399, 8000, 1903894533) /* PCAPRecordedObjectIID */;
+VALUES (11399, 8000, 0x717B2005) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11399,   1,  30, 0, 0) /* Strength */
@@ -73,8 +73,16 @@ VALUES (11399,   1,    51, 0, 0, 63) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11399, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (11399, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (11399, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (11399, 4,  2595, -1, 0, 0, False) /* Create Baggy Tunic (2595) for Shop */
+     , (11399, 4,  2595, -1, 0, 0, False) /* Create Baggy Tunic (2595) for Shop */
      , (11399, 4,  2595, -1, 0, 0, False) /* Create Baggy Tunic (2595) for Shop */
      , (11399, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (11399, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (11399, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (11399, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
+     , (11399, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
      , (11399, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
      , (11399, 4,  5851, -1, 0, 0, False) /* Create Faran Robe with Hood (5851) for Shop */
      , (11399, 4,  8371, -1, 0, 0, False) /* Create Kireth Gown with Band (8371) for Shop */
@@ -83,8 +91,7 @@ VALUES (11399, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
      , (11399, 4,  8372, -1, 0, 0, False) /* Create Yifan Dress (8372) for Shop */
      , (11399, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (11399, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
-     , (11399, 4,  8373, -1, 0, 0, False) /* Create Kiyafa Robe (8373) for Shop */
-     , (11399, 4, 44850, -1, 0, 0, False) /* Create Chevron Cloak (44850) for Shop */;
+     , (11399, 4,  8373, -1, 0, 0, False) /* Create Kiyafa Robe (8373) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11399, 67109559, 0, 24)

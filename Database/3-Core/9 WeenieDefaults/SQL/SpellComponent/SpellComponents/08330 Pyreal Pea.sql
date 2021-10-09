@@ -24,20 +24,17 @@ VALUES (8330,   1, 'Pyreal Pea') /* Name */
      , (8330,  16, 'A concentrated pyreal pea.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8330,   1,   33555211) /* Setup */
-     , (8330,   3,  536870932) /* SoundTable */
-     , (8330,   6,   67111919) /* PaletteBase */
-     , (8330,   8,  100671084) /* Icon */
-     , (8330,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8330,   1, 0x0200030B) /* Setup */
+     , (8330,   3, 0x20000014) /* SoundTable */
+     , (8330,   6, 0x04000BEF) /* PaletteBase */
+     , (8330,   8, 0x06001E6C) /* Icon */
+     , (8330,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8330, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8330, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8330, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8330, 8000, 2793180113) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8330, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
+VALUES (8330, 8000, 0xA67C8BD1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8330, 67111921, 0, 0);

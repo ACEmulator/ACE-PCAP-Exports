@@ -26,7 +26,8 @@ VALUES (43473,   1,       2048) /* ItemType - Gem */
      , (43473, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43473,  69, False) /* IsSellable */;
+VALUES (43473,  23, True ) /* DestroyOnSell */
+     , (43473,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43473, 167,    3600) /* CooldownDuration */;
@@ -37,21 +38,21 @@ VALUES (43473,   1, 'Luminous Crystal of Surging Strength') /* Name */
      , (43473,  20, 'Luminous Crystals of Surging Strength') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43473,   1,   33554809) /* Setup */
-     , (43473,   3,  536870932) /* SoundTable */
-     , (43473,   6,   67111919) /* PaletteBase */
-     , (43473,   8,  100690568) /* Icon */
-     , (43473,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43473,   1, 0x02000179) /* Setup */
+     , (43473,   3, 0x20000014) /* SoundTable */
+     , (43473,   6, 0x04000BEF) /* PaletteBase */
+     , (43473,   8, 0x06006A88) /* Icon */
+     , (43473,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43473,  28,       5449) /* Spell - LuminanceRewardDamageBoost */
-     , (43473,  50,  100686635) /* IconOverlay */
-     , (43473,  52,  100691593) /* IconUnderlay */
+     , (43473,  50, 0x06005B2B) /* IconOverlay */
+     , (43473,  52, 0x06006E89) /* IconUnderlay */
      , (43473, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (43473, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (43473, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (43473, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43473, 8000, 2147528995) /* PCAPRecordedObjectIID */;
+VALUES (43473, 8000, 0x8000B123) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43473, 67111924, 0, 0);

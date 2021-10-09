@@ -15,6 +15,7 @@ VALUES (35992,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35992,  22, True ) /* Inscribable */
+     , (35992,  23, True ) /* DestroyOnSell */
      , (35992,  69, False) /* IsSellable */
      , (35992,  99, False) /* Ivoryable */;
 
@@ -24,13 +25,13 @@ VALUES (35992,   1, 'Scrap of Shadow Essence') /* Name */
      , (35992,  16, 'A small scrap of Shadow Essence, dropped by the Prodigal Shadow Child. This essence seems strangely permanent, as opposed to fading, like Shadows normally do in death.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35992,   1,   33560278) /* Setup */
-     , (35992,   3,  536870932) /* SoundTable */
-     , (35992,   8,  100689458) /* Icon */
-     , (35992,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35992,   1, 0x020016D6) /* Setup */
+     , (35992,   3, 0x20000014) /* SoundTable */
+     , (35992,   8, 0x06006632) /* Icon */
+     , (35992,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35992, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (35992, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35992, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35992, 8000, 3359479508) /* PCAPRecordedObjectIID */;
+VALUES (35992, 8000, 0xC83D96D4) /* PCAPRecordedObjectIID */;

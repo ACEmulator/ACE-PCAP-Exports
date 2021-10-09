@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40622,   1,          1) /* ItemType - MeleeWeapon */
      , (40622,   5,        392) /* EncumbranceVal */
      , (40622,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (40622,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (40622,  16,          1) /* ItemUseable - No */
      , (40622,  18,        129) /* UiEffects - Magical, Frost */
      , (40622,  19,      14115) /* Value */
@@ -57,13 +56,13 @@ VALUES (40622,   1, 'Frost Nodachi') /* Name */
      , (40622,  40, 'Chef Boyrdee') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40622,   1,   33560767) /* Setup */
-     , (40622,   3,  536870932) /* SoundTable */
-     , (40622,   6,   67111919) /* PaletteBase */
-     , (40622,   8,  100690797) /* Icon */
-     , (40622,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40622,   1, 0x020018BF) /* Setup */
+     , (40622,   3, 0x20000014) /* SoundTable */
+     , (40622,   6, 0x04000BEF) /* PaletteBase */
+     , (40622,   8, 0x06006B6D) /* Icon */
+     , (40622,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40622,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
-     , (40622,  52,  100676435) /* IconUnderlay */
+     , (40622,  52, 0x06003353) /* IconUnderlay */
      , (40622, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (40622, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (40622, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -71,16 +70,16 @@ VALUES (40622,   1,   33560767) /* Setup */
      , (40622, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40622, 8040, 9831201, 73.20856, -41.7978, -0.071, -0.6788502, -0.6788502, -0.1978949, -0.1978949) /* PCAPRecordedLocation */
+VALUES (40622, 8040, 0x00960321, 73.20856, -41.7978, -0.071, -0.67885, -0.67885, -0.197895, -0.197895) /* PCAPRecordedLocation */
 /* @teleloc 0x00960321 [73.208560 -41.797800 -0.071000] -0.678850 -0.678850 -0.197895 -0.197895 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40622, 8000, 3552922446) /* PCAPRecordedObjectIID */
-     , (40622, 8008, 1343489403) /* PCAPRecordedParentIID */;
+VALUES (40622, 8000, 0xD3C54B4E) /* PCAPRecordedObjectIID */
+     , (40622, 8008, 0x5014057B) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40622,  2081,      2)  /* QuicknessSelf7 */
-     , (40622,  2116,      2)  /* SwiftKillerSelf7 */
+VALUES (40622,  2116,      2)  /* SwiftKillerSelf7 */
+     , (40622,  2081,      2)  /* QuicknessSelf7 */
      , (40622,  4395,      2)  /* BloodDrinkerSelf8 */
      , (40622,  4661,      2)  /* CANTRIPBLOODTHIRST3 */;
 

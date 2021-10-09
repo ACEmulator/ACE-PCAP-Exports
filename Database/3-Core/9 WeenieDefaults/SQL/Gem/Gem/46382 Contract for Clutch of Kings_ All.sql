@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46382,   1, 'Contract for Clutch of Kings: All') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46382,   1,   33557625) /* Setup */
-     , (46382,   3,  536870932) /* SoundTable */
-     , (46382,   8,  100691926) /* Icon */
-     , (46382,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46382,   1, 0x02000C79) /* Setup */
+     , (46382,   3, 0x20000014) /* SoundTable */
+     , (46382,   8, 0x06006FD6) /* Icon */
+     , (46382,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46382, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (46382, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (46382, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (46382,   1,   33557625) /* Setup */
      , (46382, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46382, 8000,      46382) /* PCAPRecordedObjectIID */;
+VALUES (46382, 8000, 0x0000B52E) /* PCAPRecordedObjectIID */;

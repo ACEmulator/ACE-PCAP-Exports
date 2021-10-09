@@ -43,26 +43,23 @@ VALUES (63,   1, 'Studded Leather Girth') /* Name */
      , (63,  16, 'Studded Leather Girth of Magic Resistance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (63,   1,   33554647) /* Setup */
-     , (63,   3,  536870932) /* SoundTable */
-     , (63,   6,   67108990) /* PaletteBase */
-     , (63,   8,  100668145) /* Icon */
-     , (63,  22,  872415275) /* PhysicsEffectTable */
+VALUES (63,   1, 0x020000D7) /* Setup */
+     , (63,   3, 0x20000014) /* SoundTable */
+     , (63,   6, 0x0400007E) /* PaletteBase */
+     , (63,   8, 0x060012F1) /* Icon */
+     , (63,  22, 0x3400002B) /* PhysicsEffectTable */
      , (63, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (63, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (63, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (63, 8000, 3685775826) /* PCAPRecordedObjectIID */;
+VALUES (63, 8000, 0xDBB079D2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (63,  1486,      2)  /* Impenetrability6 */
-     , (63,  1516,      2)  /* BludgeonBane6 */
      , (63,  1561,      2)  /* BladeBane5 */
-     , (63,  2281,      2)  /* MagicResistanceSelf7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (63, 2, 26048,  1, 0, 0, False) /* Create Stone Spear (26048) for Wield */;
+     , (63,  2281,      2)  /* MagicResistanceSelf7 */
+     , (63,  1516,      2)  /* BludgeonBane6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (63, 67110023, 80, 12)

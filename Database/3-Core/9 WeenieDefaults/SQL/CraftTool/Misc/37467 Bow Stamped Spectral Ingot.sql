@@ -27,20 +27,20 @@ VALUES (37467,   1, 'Bow Stamped Spectral Ingot') /* Name */
      , (37467,  16, 'A spectral ingot that summons a Spectral Bow when used. Once summoned the weapon will remain in the world for 3 days.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37467,   1,   33556769) /* Setup */
-     , (37467,   3,  536870932) /* SoundTable */
-     , (37467,   6,   67111919) /* PaletteBase */
-     , (37467,   8,  100689897) /* Icon */
-     , (37467,  22,  872415275) /* PhysicsEffectTable */
-     , (37467,  50,  100673759) /* IconOverlay */
-     , (37467,  52,  100689404) /* IconUnderlay */
+VALUES (37467,   1, 0x02000921) /* Setup */
+     , (37467,   3, 0x20000014) /* SoundTable */
+     , (37467,   6, 0x04000BEF) /* PaletteBase */
+     , (37467,   8, 0x060067E9) /* Icon */
+     , (37467,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37467,  50, 0x060028DF) /* IconOverlay */
+     , (37467,  52, 0x060065FC) /* IconUnderlay */
      , (37467, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (37467, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (37467, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (37467, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37467, 8000, 3009106298) /* PCAPRecordedObjectIID */;
+VALUES (37467, 8000, 0xB35B517A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37467, 67111927, 0, 0);

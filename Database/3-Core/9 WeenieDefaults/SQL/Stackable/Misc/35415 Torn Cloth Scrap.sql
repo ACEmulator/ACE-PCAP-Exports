@@ -27,13 +27,13 @@ VALUES (35415,   1, 'Torn Cloth Scrap') /* Name */
      , (35415,  16, 'A scrap of cloth that looks like it belonged to a bigger piece. Child like scrawling cover the cloth, but they have no apparent meaning.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35415,   1,   33554773) /* Setup */
-     , (35415,   3,  536870932) /* SoundTable */
-     , (35415,   8,  100689494) /* Icon */
-     , (35415,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35415,   1, 0x02000155) /* Setup */
+     , (35415,   3, 0x20000014) /* SoundTable */
+     , (35415,   8, 0x06006656) /* Icon */
+     , (35415,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35415, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (35415, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35415, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35415, 8000, 2192312255) /* PCAPRecordedObjectIID */;
+VALUES (35415, 8000, 0x82AC07BF) /* PCAPRecordedObjectIID */;

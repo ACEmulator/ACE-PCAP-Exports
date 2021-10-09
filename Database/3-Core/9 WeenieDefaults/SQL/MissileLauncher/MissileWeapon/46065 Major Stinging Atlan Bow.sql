@@ -11,7 +11,7 @@ VALUES (46065,   1,        256) /* ItemType - MissileWeapon */
      , (46065,  18,       1024) /* UiEffects - Slashing */
      , (46065,  19,        100) /* Value */
      , (46065,  50,          1) /* AmmoType - Arrow */
-     , (46065,  51,          2) /* CombatUse - Missle */
+     , (46065,  51,          2) /* CombatUse - Missile */
      , (46065,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46065, 151,          2) /* HookType - Wall */
      , (46065, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -26,17 +26,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46065,   1, 'Major Stinging Atlan Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46065,   1,   33557754) /* Setup */
-     , (46065,   3,  536870932) /* SoundTable */
-     , (46065,   6,   67111919) /* PaletteBase */
-     , (46065,   8,  100673015) /* Icon */
-     , (46065,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46065,   1, 0x02000CFA) /* Setup */
+     , (46065,   3, 0x20000014) /* SoundTable */
+     , (46065,   6, 0x04000BEF) /* PaletteBase */
+     , (46065,   8, 0x060025F7) /* Icon */
+     , (46065,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46065, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46065, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46065, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46065, 8000, 3711626491) /* PCAPRecordedObjectIID */;
+VALUES (46065, 8000, 0xDD3AECFB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46065, 67111923, 0, 0);

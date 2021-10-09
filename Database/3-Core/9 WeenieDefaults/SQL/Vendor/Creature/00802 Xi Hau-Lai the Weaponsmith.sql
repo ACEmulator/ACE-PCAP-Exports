@@ -37,27 +37,27 @@ VALUES (802,   1, 'Xi Hau-Lai the Weaponsmith') /* Name */
      , (802, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (802,   1,   33554433) /* Setup */
-     , (802,   2,  150994945) /* MotionTable */
-     , (802,   3,  536870913) /* SoundTable */
-     , (802,   6,   67108990) /* PaletteBase */
-     , (802,   8,  100667446) /* Icon */
-     , (802,   9,   83890452) /* EyesTexture */
-     , (802,  10,   83890544) /* NoseTexture */
-     , (802,  11,   83890634) /* MouthTexture */
-     , (802,  15,   67117020) /* HairPalette */
-     , (802,  16,   67110063) /* EyesPalette */
-     , (802,  17,   67110061) /* SkinPalette */
+VALUES (802,   1, 0x02000001) /* Setup */
+     , (802,   2, 0x09000001) /* MotionTable */
+     , (802,   3, 0x20000001) /* SoundTable */
+     , (802,   6, 0x0400007E) /* PaletteBase */
+     , (802,   8, 0x06001036) /* Icon */
+     , (802,   9, 0x05001114) /* EyesTexture */
+     , (802,  10, 0x05001170) /* NoseTexture */
+     , (802,  11, 0x050011CA) /* MouthTexture */
+     , (802,  15, 0x04001FDC) /* HairPalette */
+     , (802,  16, 0x040004AF) /* EyesPalette */
+     , (802,  17, 0x040004AD) /* SkinPalette */
      , (802, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (802, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (802, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (802, 8040, 3862036760, 39.24, 28.32, 28.005, -0.003490604, 0, 0, -0.9999939) /* PCAPRecordedLocation */
+VALUES (802, 8040, 0xE6320118, 39.24, 28.32, 28.005, -0.003491, 0, 0, -0.999994) /* PCAPRecordedLocation */
 /* @teleloc 0xE6320118 [39.240000 28.320000 28.005000] -0.003491 0.000000 0.000000 -0.999994 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (802, 8000, 2120425488) /* PCAPRecordedObjectIID */;
+VALUES (802, 8000, 0x7E632010) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (802,   1,  90, 0, 0) /* Strength */
@@ -93,26 +93,7 @@ VALUES (802, 2,   327,  1, 0, 0, False) /* Create Ken (327) for Wield */
      , (802, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (802, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (802, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (802, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (802, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
-     , (802, 4, 30615, -1, 0, 0, False) /* Create Acid Knuckles (30615) for Shop */
-     , (802, 4, 31794, -1, 0, 0, False) /* Create Lancet (31794) for Shop */
-     , (802, 4, 45424, -1, 0, 0, False) /* Create Flaming Dagger (45424) for Shop */
-     , (802, 4,   243, -1, 0, 0, False) /* Create Dinner Plate (243) for Shop */
-     , (802, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
-     , (802, 4,   148, -1, 0, 0, False) /* Create Cup (148) for Shop */
-     , (802, 4,   254, -1, 0, 0, False) /* Create Stoup (254) for Shop */
-     , (802, 4, 41069, -1, 0, 0, False) /* Create Lightning Shashqa (41069) for Shop */
-     , (802, 4,  7771, -1, 0, 0, False) /* Create Naginata (7771) for Shop */
-     , (802, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
-     , (802, 4, 45122, -1, 0, 0, False) /* Create Frost Hand Wraps (45122) for Shop */
-     , (802, 4,   341, -1, 0, 0, False) /* Create Shouyumi (341) for Shop */
-     , (802, 4,  3908, -1, 0, 0, False) /* Create Frost War Hammer (3908) for Shop */
-     , (802, 4, 45425, -1, 0, 0, False) /* Create Frost Dagger (45425) for Shop */
-     , (802, 4, 31791, -1, 0, 0, False) /* Create Flaming Stick (31791) for Shop */
-     , (802, 4, 45427, -1, 0, 0, False) /* Create Acid Jambiya (45427) for Shop */
-     , (802, 4, 41050, -1, 0, 0, False) /* Create Frost Pike (41050) for Shop */
-     , (802, 4,   150, -1, 0, 0, False) /* Create Flagon (150) for Shop */;
+     , (802, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (802, 67109969, 92, 4)

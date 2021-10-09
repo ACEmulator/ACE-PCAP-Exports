@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52018,   1, 'Contract for Changing Gears') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52018,   1,   33557625) /* Setup */
-     , (52018,   3,  536870932) /* SoundTable */
-     , (52018,   8,  100691928) /* Icon */
-     , (52018,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52018,   1, 0x02000C79) /* Setup */
+     , (52018,   3, 0x20000014) /* SoundTable */
+     , (52018,   8, 0x06006FD8) /* Icon */
+     , (52018,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52018, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (52018, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (52018, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (52018,   1,   33557625) /* Setup */
      , (52018, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52018, 8000,      52018) /* PCAPRecordedObjectIID */;
+VALUES (52018, 8000, 0x0000CB32) /* PCAPRecordedObjectIID */;

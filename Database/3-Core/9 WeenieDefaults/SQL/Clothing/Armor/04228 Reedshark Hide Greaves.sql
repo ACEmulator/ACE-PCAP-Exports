@@ -33,17 +33,17 @@ VALUES (4228,   1, 'Reedshark Hide Greaves') /* Name */
      , (4228,  15, 'Greaves crafted from the hide of a Reed Shark.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4228,   1,   33554641) /* Setup */
-     , (4228,   3,  536870932) /* SoundTable */
-     , (4228,   6,   67108990) /* PaletteBase */
-     , (4228,   8,  100668122) /* Icon */
-     , (4228,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4228,   1, 0x020000D1) /* Setup */
+     , (4228,   3, 0x20000014) /* SoundTable */
+     , (4228,   6, 0x0400007E) /* PaletteBase */
+     , (4228,   8, 0x060012DA) /* Icon */
+     , (4228,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4228, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (4228, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4228, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4228, 8000, 2150584957) /* PCAPRecordedObjectIID */;
+VALUES (4228, 8000, 0x802F527D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4228, 67110367, 152, 8);

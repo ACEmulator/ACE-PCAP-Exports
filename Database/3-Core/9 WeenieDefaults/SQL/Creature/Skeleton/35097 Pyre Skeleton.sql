@@ -23,22 +23,22 @@ VALUES (35097,   1, 'Pyre Skeleton') /* Name */
      , (35097, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35097,   1,   33560230) /* Setup */
-     , (35097,   2,  150994981) /* MotionTable */
-     , (35097,   3,  536870942) /* SoundTable */
-     , (35097,   6,   67116522) /* PaletteBase */
-     , (35097,   8,  100669124) /* Icon */
-     , (35097,  22,  872415269) /* PhysicsEffectTable */
+VALUES (35097,   1, 0x020016A6) /* Setup */
+     , (35097,   2, 0x09000025) /* MotionTable */
+     , (35097,   3, 0x2000001E) /* SoundTable */
+     , (35097,   6, 0x04001DEA) /* PaletteBase */
+     , (35097,   8, 0x060016C4) /* Icon */
+     , (35097,  22, 0x34000025) /* PhysicsEffectTable */
      , (35097, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (35097, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (35097, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35097, 8040, 1210908699, 75.21369, 66.50632, 5.734693, -0.9840798, 0, 0, -0.1777268) /* PCAPRecordedLocation */
+VALUES (35097, 8040, 0x482D001B, 75.21369, 66.50632, 5.734693, -0.98408, 0, 0, -0.177727) /* PCAPRecordedLocation */
 /* @teleloc 0x482D001B [75.213690 66.506320 5.734693] -0.984080 0.000000 0.000000 -0.177727 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35097, 8000, 3701429233) /* PCAPRecordedObjectIID */;
+VALUES (35097, 8000, 0xDC9F53F1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35097,   1, 302, 0, 0) /* Strength */
@@ -216,7 +216,9 @@ VALUES (35097, 2, 35095,  1, 0, 0, False) /* Create Pyre Claw (35095) for Wield 
      , (35097, 9, 37188,  0, 0, 0, False) /* Create Olthoi Amuli Gauntlets (37188) for ContainTreasure */
      , (35097, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
      , (35097, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */
-     , (35097, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */;
+     , (35097, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (35097, 9, 29250,  0, 0, 0, False) /* Create Piercing Crossbow (29250) for ContainTreasure */
+     , (35097, 9, 37200,  0, 0, 0, False) /* Create Olthoi Alduressa Leggings (37200) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35097, 67116525, 0, 0);

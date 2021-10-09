@@ -26,13 +26,13 @@ VALUES (32201,   1, 'Pumpkin Cookie Cutter') /* Name */
      , (32201,  15, 'A pumpkin shaped cookie cutter.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32201,   1,   33559779) /* Setup */
-     , (32201,   3,  536870932) /* SoundTable */
-     , (32201,   8,  100688418) /* Icon */
-     , (32201,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32201,   1, 0x020014E3) /* Setup */
+     , (32201,   3, 0x20000014) /* SoundTable */
+     , (32201,   8, 0x06006222) /* Icon */
+     , (32201,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32201, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (32201, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32201, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32201, 8000, 2186220610) /* PCAPRecordedObjectIID */;
+VALUES (32201, 8000, 0x824F1442) /* PCAPRecordedObjectIID */;

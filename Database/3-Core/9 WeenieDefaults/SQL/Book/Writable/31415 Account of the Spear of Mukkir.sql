@@ -23,13 +23,13 @@ VALUES (31415,   1, 'Account of the Spear of Mukkir') /* Name */
      , (31415,  16, 'A translation of an Unreadable Dericost Tome written by Kuyiza bint Zayi of Zaikhal. The original text was discovered within the ruins of Sepulcher of Nightmares.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31415,   1,   33559593) /* Setup */
-     , (31415,   3,  536870932) /* SoundTable */
-     , (31415,   8,  100688124) /* Icon */
-     , (31415,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31415,   1, 0x02001429) /* Setup */
+     , (31415,   3, 0x20000014) /* SoundTable */
+     , (31415,   8, 0x060060FC) /* Icon */
+     , (31415,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31415, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (31415, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (31415, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31415, 8000, 3314527829) /* PCAPRecordedObjectIID */;
+VALUES (31415, 8000, 0xC58FAE55) /* PCAPRecordedObjectIID */;

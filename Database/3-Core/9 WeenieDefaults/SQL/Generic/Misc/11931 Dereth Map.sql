@@ -20,11 +20,11 @@ VALUES (11931,   1, 'Dereth Map') /* Name */
      , (11931,  15, 'This item can be used on an item hook.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11931,   1,   33557150) /* Setup */
-     , (11931,   8,  100671775) /* Icon */
+VALUES (11931,   1, 0x02000A9E) /* Setup */
+     , (11931,   8, 0x0600211F) /* Icon */
      , (11931, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (11931, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11931, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11931, 8000, 3658160300) /* PCAPRecordedObjectIID */;
+VALUES (11931, 8000, 0xDA0B18AC) /* PCAPRecordedObjectIID */;

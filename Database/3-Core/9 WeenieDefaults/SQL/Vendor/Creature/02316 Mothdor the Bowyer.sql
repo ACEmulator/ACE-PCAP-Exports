@@ -37,27 +37,27 @@ VALUES (2316,   1, 'Mothdor the Bowyer') /* Name */
      , (2316, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2316,   1,   33554433) /* Setup */
-     , (2316,   2,  150994945) /* MotionTable */
-     , (2316,   3,  536870913) /* SoundTable */
-     , (2316,   6,   67108990) /* PaletteBase */
-     , (2316,   8,  100667446) /* Icon */
-     , (2316,   9,   83890511) /* EyesTexture */
-     , (2316,  10,   83890549) /* NoseTexture */
-     , (2316,  11,   83890656) /* MouthTexture */
-     , (2316,  15,   67117017) /* HairPalette */
-     , (2316,  16,   67110064) /* EyesPalette */
-     , (2316,  17,   67109560) /* SkinPalette */
+VALUES (2316,   1, 0x02000001) /* Setup */
+     , (2316,   2, 0x09000001) /* MotionTable */
+     , (2316,   3, 0x20000001) /* SoundTable */
+     , (2316,   6, 0x0400007E) /* PaletteBase */
+     , (2316,   8, 0x06001036) /* Icon */
+     , (2316,   9, 0x0500114F) /* EyesTexture */
+     , (2316,  10, 0x05001175) /* NoseTexture */
+     , (2316,  11, 0x050011E0) /* MouthTexture */
+     , (2316,  15, 0x04001FD9) /* HairPalette */
+     , (2316,  16, 0x040004B0) /* EyesPalette */
+     , (2316,  17, 0x040002B8) /* SkinPalette */
      , (2316, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2316, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2316, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2316, 8040, 629211450, 110.411, 58.8702, 220.005, -0.894837, 0, 0, -0.446393) /* PCAPRecordedLocation */
+VALUES (2316, 8040, 0x2581013A, 110.411, 58.8702, 220.005, -0.894837, 0, 0, -0.446393) /* PCAPRecordedLocation */
 /* @teleloc 0x2581013A [110.411000 58.870200 220.005000] -0.894837 0.000000 0.000000 -0.446393 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2316, 8000, 1918373905) /* PCAPRecordedObjectIID */;
+VALUES (2316, 8000, 0x72581011) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2316,   1,  70, 0, 0) /* Strength */
@@ -117,8 +117,7 @@ VALUES (2316, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (2316, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
      , (2316, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (2316, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
-     , (2316, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
-     , (2316, 4,   154, -1, 0, 0, False) /* Create Goblet (154) for Shop */;
+     , (2316, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2316, 67109560, 0, 24)

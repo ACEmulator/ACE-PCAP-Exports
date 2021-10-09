@@ -24,13 +24,13 @@ VALUES (5969,   1, 'Scroll of Fletching Mastery Other II') /* Name */
 Increases the target''s Fletching skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5969,   1,   33554826) /* Setup */
-     , (5969,   8,  100676457) /* Icon */
-     , (5969,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5969,   1, 0x0200018A) /* Setup */
+     , (5969,   8, 0x06003369) /* Icon */
+     , (5969,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5969,  28,       1734) /* Spell - FletchingMasteryOther2 */
      , (5969, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5969, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5969, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5969, 8000, 3361413987) /* PCAPRecordedObjectIID */;
+VALUES (5969, 8000, 0xC85B1B63) /* PCAPRecordedObjectIID */;

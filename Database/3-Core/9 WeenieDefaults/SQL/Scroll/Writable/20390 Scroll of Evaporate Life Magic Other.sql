@@ -24,13 +24,13 @@ VALUES (20390,   1, 'Scroll of Evaporate Life Magic Other') /* Name */
 Dispels 3-6 negative Life Magic enchantments of level 1 from the target.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20390,   1,   33554826) /* Setup */
-     , (20390,   8,  100676935) /* Icon */
-     , (20390,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20390,   1, 0x0200018A) /* Setup */
+     , (20390,   8, 0x06003547) /* Icon */
+     , (20390,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20390,  28,       1957) /* Spell - DispelLifeBadOther1 */
      , (20390, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20390, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20390, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20390, 8000, 2925092495) /* PCAPRecordedObjectIID */;
+VALUES (20390, 8000, 0xAE595E8F) /* PCAPRecordedObjectIID */;

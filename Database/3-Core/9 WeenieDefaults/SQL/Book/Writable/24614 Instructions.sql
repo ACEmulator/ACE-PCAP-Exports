@@ -20,33 +20,33 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24614,   1, 'Instructions') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24614,   1,   33554773) /* Setup */
-     , (24614,   3,  536870932) /* SoundTable */
-     , (24614,   8,  100668176) /* Icon */
-     , (24614,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24614,   1, 0x02000155) /* Setup */
+     , (24614,   3, 0x20000014) /* SoundTable */
+     , (24614,   8, 0x06001310) /* Icon */
+     , (24614,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24614, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (24614, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (24614, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24614, 8040, 23855554, 58.51724, -30.36178, 0.09638, 0.2360346, 0, 0, -0.9717447) /* PCAPRecordedLocation */
+VALUES (24614, 8040, 0x016C01C2, 58.51724, -30.36178, 0.09638, 0.236035, 0, 0, -0.971745) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [58.517240 -30.361780 0.096380] 0.236035 0.000000 0.000000 -0.971745 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24614, 8000, 3648559292) /* PCAPRecordedObjectIID */;
+VALUES (24614, 8000, 0xD97898BC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (24614, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (24614, 0, 4294967295, 'Instructions', 'Password is cheese', False, '
+VALUES (24614, 0, 4294967295, 'Instructions', 'prewritten', False, '
 First, the components of his binding must be gathered. 
 
 Journey to the Empyrean Cloister, located almost directly east of Yaraq along the boundary of warning stones set out for younger adventurers, and retrieve the Skull of Avoren Palacost. 
 
 Journey to the Shade Stronghold, located northwest of Crater Lake and directly east of the Essence of Strife, and retrieve the Heart of Shadow. 
 ')
-     , (24614, 1, 4294967295, 'Instructions', 'Password is cheese', False, '
+     , (24614, 1, 4294967295, 'Instructions', 'prewritten', False, '
 Journey to the Chakron Flux, on the northern rim of the Obsidian Plains, and retrieve the Fragment of the Singularity.
 
 Combine these powerful relics into a Dark Crucible, and return the Crucible to the Chosen of Asheron. The Chosen will provide you with a way into the Sepulcher. 

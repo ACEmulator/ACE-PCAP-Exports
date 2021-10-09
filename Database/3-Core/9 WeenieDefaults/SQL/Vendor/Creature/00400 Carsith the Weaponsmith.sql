@@ -37,27 +37,27 @@ VALUES (400,   1, 'Carsith the Weaponsmith') /* Name */
      , (400, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (400,   1,   33554433) /* Setup */
-     , (400,   2,  150994945) /* MotionTable */
-     , (400,   3,  536870913) /* SoundTable */
-     , (400,   6,   67108990) /* PaletteBase */
-     , (400,   8,  100667446) /* Icon */
-     , (400,   9,   83890495) /* EyesTexture */
-     , (400,  10,   83890554) /* NoseTexture */
-     , (400,  11,   83890663) /* MouthTexture */
-     , (400,  15,   67116981) /* HairPalette */
-     , (400,  16,   67110064) /* EyesPalette */
-     , (400,  17,   67109560) /* SkinPalette */
+VALUES (400,   1, 0x02000001) /* Setup */
+     , (400,   2, 0x09000001) /* MotionTable */
+     , (400,   3, 0x20000001) /* SoundTable */
+     , (400,   6, 0x0400007E) /* PaletteBase */
+     , (400,   8, 0x06001036) /* Icon */
+     , (400,   9, 0x0500113F) /* EyesTexture */
+     , (400,  10, 0x0500117A) /* NoseTexture */
+     , (400,  11, 0x050011E7) /* MouthTexture */
+     , (400,  15, 0x04001FB5) /* HairPalette */
+     , (400,  16, 0x040004B0) /* EyesPalette */
+     , (400,  17, 0x040002B8) /* SkinPalette */
      , (400, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (400, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (400, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (400, 8040, 3332964642, 32.0211, 82.9593, 42.005, 0.1269318, 0, 0, -0.9919115) /* PCAPRecordedLocation */
+VALUES (400, 8040, 0xC6A90122, 32.0211, 82.9593, 42.005, 0.126932, 0, 0, -0.991912) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90122 [32.021100 82.959300 42.005000] 0.126932 0.000000 0.000000 -0.991912 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (400, 8000, 2087358503) /* PCAPRecordedObjectIID */;
+VALUES (400, 8000, 0x7C6A9027) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (400,   1, 100, 0, 0) /* Strength */
@@ -97,82 +97,7 @@ VALUES (400, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
      , (400, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (400, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (400, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (400, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (400, 4, 21158, -1, 0, 0, False) /* Create Covenant Shield (21158) for Shop */
-     , (400, 4,  3890, -1, 0, 0, False) /* Create Lightning Tachi (3890) for Shop */
-     , (400, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
-     , (400, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (400, 4, 24557, -1, 0, 0, False) /* Create Quadruple-bladed Axe (24557) for Shop */
-     , (400, 4,  6005, -1, 0, 0, False) /* Create Koujia Sleeves (6005) for Shop */
-     , (400, 4, 25661, -1, 0, 0, False) /* Create Leather Boots (25661) for Shop */
-     , (400, 4,  7897, -1, 0, 0, False) /* Create Steel Toed Boots (7897) for Shop */
-     , (400, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
-     , (400, 4, 28610, -1, 0, 0, False) /* Create Loafers (28610) for Shop */
-     , (400, 4, 41068, -1, 0, 0, False) /* Create Acid Shashqa (41068) for Shop */
-     , (400, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
-     , (400, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
-     , (400, 4,   142, -1, 0, 0, False) /* Create Chalice (142) for Shop */
-     , (400, 4, 22167, -1, 0, 0, False) /* Create Frost Quarter Staff (22167) for Shop */
-     , (400, 4, 25642, -1, 0, 0, False) /* Create Leather Gauntlets (25642) for Shop */
-     , (400, 4, 31866, -1, 0, 0, False) /* Create Coronet (31866) for Shop */
-     , (400, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
-     , (400, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate (42) for Shop */
-     , (400, 4, 40705, -1, 0, 0, False) /* Create Covenant Sollerets (40705) for Shop */
-     , (400, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
-     , (400, 4,  6046, -1, 0, 0, False) /* Create Amuli Coat (6046) for Shop */
-     , (400, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
-     , (400, 4,   134, -1, 0, 0, False) /* Create Tunic (134) for Shop */
-     , (400, 4,   105, -1, 0, 0, False) /* Create Studded Leather Sleeves (105) for Shop */
-     , (400, 4, 40699, -1, 0, 0, False) /* Create Covenant Girth (40699) for Shop */
-     , (400, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
-     , (400, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
-     , (400, 4, 44802, -1, 0, 0, False) /* Create Vestiri Over-robe (44802) for Shop */
-     , (400, 4, 37215, -1, 0, 0, False) /* Create Olthoi Koujia Breastplate (37215) for Shop */
-     , (400, 4, 37188, -1, 0, 0, False) /* Create Olthoi Amuli Gauntlets (37188) for Shop */
-     , (400, 4, 37208, -1, 0, 0, False) /* Create Olthoi Amuli Sollerets (37208) for Shop */
-     , (400, 4, 43831, -1, 0, 0, False) /* Create Sedgemail Leather Pants (43831) for Shop */
-     , (400, 4,  6004, -1, 0, 0, False) /* Create Koujia Leggings (6004) for Shop */
-     , (400, 4, 25643, -1, 0, 0, False) /* Create Leather Girth (25643) for Shop */
-     , (400, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
-     , (400, 4, 42753, -1, 0, 0, False) /* Create Haebrean Helm (42753) for Shop */
-     , (400, 4,    88, -1, 0, 0, False) /* Create Scalemail Pauldrons (88) for Shop */
-     , (400, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Shop */
-     , (400, 4,  3908, -1, 0, 0, False) /* Create Frost War Hammer (3908) for Shop */
-     , (400, 4, 37360, -1, 0, 0, False) /* Create Ink of Conveyance (37360) for Shop */
-     , (400, 4,    91, -1, 0, 0, False) /* Create Kite Shield (91) for Shop */
-     , (400, 4, 31796, -1, 0, 0, False) /* Create Lightning Lancet (31796) for Shop */
-     , (400, 4, 29238, -1, 0, 0, False) /* Create Acid Bow (29238) for Shop */
-     , (400, 4, 25640, -1, 0, 0, False) /* Create Leather Cowl (25640) for Shop */
-     , (400, 4, 31026, -1, 0, 0, False) /* Create Tenassa Breastplate (31026) for Shop */
-     , (400, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
-     , (400, 4,    71, -1, 0, 0, False) /* Create Chainmail Hauberk (71) for Shop */
-     , (400, 4, 44977, -1, 0, 0, False) /* Create Lyceum Hood (44977) for Shop */
-     , (400, 4, 27225, -1, 0, 0, False) /* Create Lorica Sleeves (27225) for Shop */
-     , (400, 4, 31807, -1, 0, 0, False) /* Create Blunt Compound Crossbow (31807) for Shop */
-     , (400, 4, 42750, -1, 0, 0, False) /* Create Haebrean Gauntlets (42750) for Shop */
-     , (400, 4, 43830, -1, 0, 0, False) /* Create Sedgemail Leather Gauntlets (43830) for Shop */
-     , (400, 4, 44800, -1, 0, 0, False) /* Create Dho Vest and Over-Robe (44800) for Shop */
-     , (400, 4, 25645, -1, 0, 0, False) /* Create Leather Leggings (25645) for Shop */
-     , (400, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
-     , (400, 4, 41042, -1, 0, 0, False) /* Create Acid Magari Yari (41042) for Shop */
-     , (400, 4, 45118, -1, 0, 0, False) /* Create Hand Wraps (45118) for Shop */
-     , (400, 4, 37196, -1, 0, 0, False) /* Create Olthoi Amuli Helm (37196) for Shop */
-     , (400, 4,    72, -1, 0, 0, False) /* Create Platemail Hauberk (72) for Shop */
-     , (400, 4, 28605, -1, 0, 0, False) /* Create Beret (28605) for Shop */
-     , (400, 4,  2601, -1, 0, 0, False) /* Create Loose Pants (2601) for Shop */
-     , (400, 4, 40690, -1, 0, 0, False) /* Create Olthoi Shield (40690) for Shop */
-     , (400, 4, 45121, -1, 0, 0, False) /* Create Flaming Hand Wraps (45121) for Shop */
-     , (400, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
-     , (400, 4, 25650, -1, 0, 0, False) /* Create Leather Shorts (25650) for Shop */
-     , (400, 4, 49229, -1, 0, 0, False) /* Create Frost Skeleton Minion Essence (100) (49229) for Shop */
-     , (400, 4, 49286, -1, 0, 0, False) /* Create Acid K'nath Essence (150) (49286) for Shop */
-     , (400, 4, 44850, -1, 0, 0, False) /* Create Chevron Cloak (44850) for Shop */
-     , (400, 4, 44855, -1, 0, 0, False) /* Create Halved Cloak (44855) for Shop */
-     , (400, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */
-     , (400, 4,  3724, -1, 0, 0, False) /* Create Olthoi Sword (3724) for Shop */
-     , (400, 4, 22013, -1, 0, 0, False) /* Create Olthoi Helm (22013) for Shop */
-     , (400, 4, 25525, -1, 0, 0, False) /* Create Mutilator Helm (25525) for Shop */
-     , (400, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */;
+     , (400, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (400, 67109560, 0, 24)

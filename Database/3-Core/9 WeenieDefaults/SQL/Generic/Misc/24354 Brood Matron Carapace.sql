@@ -14,7 +14,8 @@ VALUES (24354,   1,        128) /* ItemType - Misc */
      , (24354, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24354,  22, True ) /* Inscribable */;
+VALUES (24354,  22, True ) /* Inscribable */
+     , (24354,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24354,  39,     0.5) /* DefaultScale */;
@@ -24,13 +25,13 @@ VALUES (24354,   1, 'Brood Matron Carapace') /* Name */
      , (24354,  16, 'This carapace was taken from the chest of a fallen Brood Matron.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24354,   1,   33554817) /* Setup */
-     , (24354,   3,  536870932) /* SoundTable */
-     , (24354,   8,  100674329) /* Icon */
-     , (24354,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24354,   1, 0x02000181) /* Setup */
+     , (24354,   3, 0x20000014) /* SoundTable */
+     , (24354,   8, 0x06002B19) /* Icon */
+     , (24354,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24354, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (24354, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24354, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24354, 8000, 3029920560) /* PCAPRecordedObjectIID */;
+VALUES (24354, 8000, 0xB498EB30) /* PCAPRecordedObjectIID */;

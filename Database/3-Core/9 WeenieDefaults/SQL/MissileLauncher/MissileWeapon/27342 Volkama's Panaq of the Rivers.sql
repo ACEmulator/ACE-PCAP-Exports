@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (27342,   1,        256) /* ItemType - MissileWeapon */
      , (27342,   5,        800) /* EncumbranceVal */
      , (27342,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (27342,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (27342,  16,          1) /* ItemUseable - No */
      , (27342,  18,          1) /* UiEffects - Magical */
      , (27342,  19,      20000) /* Value */
@@ -17,7 +16,7 @@ VALUES (27342,   1,        256) /* ItemType - MissileWeapon */
      , (27342,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27342,  49,          0) /* WeaponTime */
      , (27342,  50,          1) /* AmmoType - Arrow */
-     , (27342,  51,          2) /* CombatUse - Missle */
+     , (27342,  51,          2) /* CombatUse - Missile */
      , (27342,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27342, 106,        250) /* ItemSpellcraft */
      , (27342, 107,        805) /* ItemCurMana */
@@ -34,6 +33,7 @@ VALUES (27342,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27342,  22, True ) /* Inscribable */
+     , (27342,  23, True ) /* DestroyOnSell */
      , (27342,  69, False) /* IsSellable */
      , (27342,  99, True ) /* Ivoryable */;
 
@@ -53,27 +53,27 @@ VALUES (27342,   1, 'Volkama''s Panaq of the Rivers') /* Name */
      , (27342,  16, 'A panaq fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27342,   1,   33558662) /* Setup */
-     , (27342,   3,  536870932) /* SoundTable */
-     , (27342,   8,  100676376) /* Icon */
-     , (27342,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27342,   1, 0x02001086) /* Setup */
+     , (27342,   3, 0x20000014) /* SoundTable */
+     , (27342,   8, 0x06003318) /* Icon */
+     , (27342,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27342, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (27342, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27342, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (27342, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27342, 8040, 3482648578, 18.48532, 27.36357, 17.93, -0.9423787, 0, 0, 0.3345481) /* PCAPRecordedLocation */
+VALUES (27342, 8040, 0xCF950002, 18.48532, 27.36357, 17.93, -0.942379, 0, 0, 0.334548) /* PCAPRecordedLocation */
 /* @teleloc 0xCF950002 [18.485320 27.363570 17.930000] -0.942379 0.000000 0.000000 0.334548 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27342, 8000, 2149138323) /* PCAPRecordedObjectIID */
-     , (27342, 8008, 1342425633) /* PCAPRecordedParentIID */;
+VALUES (27342, 8000, 0x80193F93) /* PCAPRecordedObjectIID */
+     , (27342, 8008, 0x5003CA21) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27342,  2470,      2)  /* StillWaterGreater */
-     , (27342,  2473,      2)  /* TorrentGreater */
-     , (27342,  3221,      2)  /* CascadeBowGreater */;
+VALUES (27342,  3221,      2)  /* CascadeBowGreater */
+     , (27342,  2470,      2)  /* StillWaterGreater */
+     , (27342,  2473,      2)  /* TorrentGreater */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (27342, 0, 83893670, 83893670)

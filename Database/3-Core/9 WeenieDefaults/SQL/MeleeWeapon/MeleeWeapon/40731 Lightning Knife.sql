@@ -27,13 +27,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40731,   1, 'Lightning Knife') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40731,   1,   33555798) /* Setup */
-     , (40731,   3,  536870932) /* SoundTable */
-     , (40731,   8,  100667598) /* Icon */
-     , (40731,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40731,   1, 0x02000556) /* Setup */
+     , (40731,   3, 0x20000014) /* SoundTable */
+     , (40731,   8, 0x060010CE) /* Icon */
+     , (40731,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40731, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40731, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40731, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40731, 8000, 2624395213) /* PCAPRecordedObjectIID */;
+VALUES (40731, 8000, 0x9C6D17CD) /* PCAPRecordedObjectIID */;

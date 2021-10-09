@@ -46,17 +46,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15430,   1, 'Deadly Acid Arrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15430,   1,   33555787) /* Setup */
-     , (15430,   3,  536870932) /* SoundTable */
-     , (15430,   6,   67111919) /* PaletteBase */
-     , (15430,   8,  100672658) /* Icon */
-     , (15430,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15430,   1, 0x0200054B) /* Setup */
+     , (15430,   3, 0x20000014) /* SoundTable */
+     , (15430,   6, 0x04000BEF) /* PaletteBase */
+     , (15430,   8, 0x06002492) /* Icon */
+     , (15430,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15430, 8001,  270627736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (15430, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15430, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15430, 8000, 2153688250) /* PCAPRecordedObjectIID */;
+VALUES (15430, 8000, 0x805EACBA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15430, 67111922, 0, 0);

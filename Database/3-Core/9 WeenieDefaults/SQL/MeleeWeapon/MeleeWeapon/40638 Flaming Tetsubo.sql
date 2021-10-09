@@ -46,17 +46,17 @@ VALUES (40638,   1, 'Flaming Tetsubo') /* Name */
      , (40638,  16, 'Flaming Tetsubo') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40638,   1,   33560731) /* Setup */
-     , (40638,   3,  536870932) /* SoundTable */
-     , (40638,   6,   67116700) /* PaletteBase */
-     , (40638,   8,  100690499) /* Icon */
-     , (40638,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40638,   1, 0x0200189B) /* Setup */
+     , (40638,   3, 0x20000014) /* SoundTable */
+     , (40638,   6, 0x04001E9C) /* PaletteBase */
+     , (40638,   8, 0x06006A43) /* Icon */
+     , (40638,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40638, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40638, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40638, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40638, 8000, 3706646816) /* PCAPRecordedObjectIID */;
+VALUES (40638, 8000, 0xDCEEF120) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40638, 67116700, 1, 100)

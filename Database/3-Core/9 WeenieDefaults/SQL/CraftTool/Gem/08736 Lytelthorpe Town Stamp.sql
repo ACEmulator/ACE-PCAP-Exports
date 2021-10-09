@@ -19,7 +19,8 @@ VALUES (8736,   1,       2048) /* ItemType - Gem */
      , (8736, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8736,  22, True ) /* Inscribable */;
+VALUES (8736,  22, True ) /* Inscribable */
+     , (8736,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8736,  39,       3) /* DefaultScale */;
@@ -30,13 +31,13 @@ VALUES (8736,   1, 'Lytelthorpe Town Stamp') /* Name */
      , (8736,  16, 'A town stamp of Lytelthorpe to be used on any Red or Gold Letters you come across.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8736,   1,   33556922) /* Setup */
-     , (8736,   3,  536870932) /* SoundTable */
-     , (8736,   8,  100671218) /* Icon */
-     , (8736,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8736,   1, 0x020009BA) /* Setup */
+     , (8736,   3, 0x20000014) /* SoundTable */
+     , (8736,   8, 0x06001EF2) /* Icon */
+     , (8736,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8736, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (8736, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8736, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8736, 8000, 2420202851) /* PCAPRecordedObjectIID */;
+VALUES (8736, 8000, 0x90415D63) /* PCAPRecordedObjectIID */;

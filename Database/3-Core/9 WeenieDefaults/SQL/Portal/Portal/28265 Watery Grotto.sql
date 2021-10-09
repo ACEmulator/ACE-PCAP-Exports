@@ -21,16 +21,16 @@ VALUES (28265,   1, 'Watery Grotto') /* Name */
      , (28265, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28265,   1,   33555926) /* Setup */
-     , (28265,   2,  150994947) /* MotionTable */
-     , (28265,   8,  100667499) /* Icon */
+VALUES (28265,   1, 0x020005D6) /* Setup */
+     , (28265,   2, 0x09000003) /* MotionTable */
+     , (28265,   8, 0x0600106B) /* Icon */
      , (28265, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (28265, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (28265, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28265, 8040, 3126919424, 75.8117, 131.897, -0.5079998, 0.711665, 0, 0, -0.702519) /* PCAPRecordedLocation */
+VALUES (28265, 8040, 0xBA610100, 75.8117, 131.897, -0.508, 0.711665, 0, 0, -0.702519) /* PCAPRecordedLocation */
 /* @teleloc 0xBA610100 [75.811700 131.897000 -0.508000] 0.711665 0.000000 0.000000 -0.702519 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28265, 8000, 2074480644) /* PCAPRecordedObjectIID */;
+VALUES (28265, 8000, 0x7BA61004) /* PCAPRecordedObjectIID */;

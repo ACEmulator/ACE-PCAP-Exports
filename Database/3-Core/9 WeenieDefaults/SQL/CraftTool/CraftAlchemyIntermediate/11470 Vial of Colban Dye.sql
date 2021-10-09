@@ -27,17 +27,17 @@ VALUES (11470,   1, 'Vial of Colban Dye') /* Name */
      , (11470,  20, 'Vials of Colban Dye') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11470,   1,   33556751) /* Setup */
-     , (11470,   3,  536870932) /* SoundTable */
-     , (11470,   6,   67111919) /* PaletteBase */
-     , (11470,   8,  100670953) /* Icon */
-     , (11470,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11470,   1, 0x0200090F) /* Setup */
+     , (11470,   3, 0x20000014) /* SoundTable */
+     , (11470,   6, 0x04000BEF) /* PaletteBase */
+     , (11470,   8, 0x06001DE9) /* Icon */
+     , (11470,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11470, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (11470, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (11470, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11470, 8000, 3318693136) /* PCAPRecordedObjectIID */;
+VALUES (11470, 8000, 0xC5CF3D10) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11470, 67111918, 0, 0);

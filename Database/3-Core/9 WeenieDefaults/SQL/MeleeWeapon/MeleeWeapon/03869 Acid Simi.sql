@@ -26,13 +26,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3869,   1, 'Acid Simi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3869,   1,   33555775) /* Setup */
-     , (3869,   3,  536870932) /* SoundTable */
-     , (3869,   8,  100668164) /* Icon */
-     , (3869,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3869,   1, 0x0200053F) /* Setup */
+     , (3869,   3, 0x20000014) /* SoundTable */
+     , (3869,   8, 0x06001304) /* Icon */
+     , (3869,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3869, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3869, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3869, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3869, 8000, 3709820582) /* PCAPRecordedObjectIID */;
+VALUES (3869, 8000, 0xDD1F5EA6) /* PCAPRecordedObjectIID */;

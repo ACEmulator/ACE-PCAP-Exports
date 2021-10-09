@@ -14,7 +14,8 @@ VALUES (32024,   1,       2048) /* ItemType - Gem */
      , (32024, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32024,  22, True ) /* Inscribable */;
+VALUES (32024,  22, True ) /* Inscribable */
+     , (32024,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32024,   1, 'Offering to Xik Minru') /* Name */
@@ -22,13 +23,13 @@ VALUES (32024,   1, 'Offering to Xik Minru') /* Name */
      , (32024,  16, 'An offering brought by the undead to pay tribute to High Priestess Xik Minru') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32024,   1,   33554769) /* Setup */
-     , (32024,   3,  536870932) /* SoundTable */
-     , (32024,   8,  100674094) /* Icon */
-     , (32024,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32024,   1, 0x02000151) /* Setup */
+     , (32024,   3, 0x20000014) /* SoundTable */
+     , (32024,   8, 0x06002A2E) /* Icon */
+     , (32024,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32024, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (32024, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32024, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32024, 8000, 2288386063) /* PCAPRecordedObjectIID */;
+VALUES (32024, 8000, 0x8866000F) /* PCAPRecordedObjectIID */;

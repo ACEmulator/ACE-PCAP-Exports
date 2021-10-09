@@ -23,18 +23,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6893,   1, 'Miyako''s Moonstone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6893,   1,   33554809) /* Setup */
-     , (6893,   3,  536870932) /* SoundTable */
-     , (6893,   6,   67111919) /* PaletteBase */
-     , (6893,   8,  100668365) /* Icon */
-     , (6893,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6893,   1, 0x02000179) /* Setup */
+     , (6893,   3, 0x20000014) /* SoundTable */
+     , (6893,   6, 0x04000BEF) /* PaletteBase */
+     , (6893,   8, 0x060013CD) /* Icon */
+     , (6893,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6893,  28,       1310) /* Spell - ArmorSelf4 */
      , (6893, 8001,    6320280) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell */
      , (6893, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6893, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6893, 8000, 2448058034) /* PCAPRecordedObjectIID */;
+VALUES (6893, 8000, 0x91EA66B2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6893, 67111920, 0, 0);

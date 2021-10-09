@@ -41,20 +41,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22884,   1, 'Neydisa Hauberk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22884,   1,   33554644) /* Setup */
-     , (22884,   6,   67108990) /* PaletteBase */
-     , (22884,   8,  100669219) /* Icon */
-     , (22884,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22884,   1, 0x020000D4) /* Setup */
+     , (22884,   6, 0x0400007E) /* PaletteBase */
+     , (22884,   8, 0x06001723) /* Icon */
+     , (22884,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22884, 8001,  270860440) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, HookType */
      , (22884, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22884, 8005,     167937) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22884, 8040, 18809101, 28.37951, -24.23678, -0.004999995, 0.0886373, 0, 0, -0.9960639) /* PCAPRecordedLocation */
+VALUES (22884, 8040, 0x011F010D, 28.37951, -24.23678, -0.005, 0.088637, 0, 0, -0.996064) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010D [28.379510 -24.236780 -0.005000] 0.088637 0.000000 0.000000 -0.996064 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22884, 8000, 3704733898) /* PCAPRecordedObjectIID */;
+VALUES (22884, 8000, 0xDCD1C0CA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22884,  1401,      2)  /* QuicknessSelf5 */;

@@ -30,20 +30,20 @@ VALUES (38207,   1, 'Obsidian Node Golem') /* Name */
      , (38207, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38207,   1,   33558367) /* Setup */
-     , (38207,   2,  150994945) /* MotionTable */
-     , (38207,   3,  536870933) /* SoundTable */
-     , (38207,   8,  100674350) /* Icon */
+VALUES (38207,   1, 0x02000F5F) /* Setup */
+     , (38207,   2, 0x09000001) /* MotionTable */
+     , (38207,   3, 0x20000015) /* SoundTable */
+     , (38207,   8, 0x06002B2E) /* Icon */
      , (38207, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (38207, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (38207, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38207, 8040, 824836140, 127.99, 72.714, 66.0075, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (38207, 8040, 0x312A002C, 127.99, 72.714, 66.0075, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x312A002C [127.990000 72.714000 66.007500] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38207, 8000, 3629190773) /* PCAPRecordedObjectIID */;
+VALUES (38207, 8000, 0xD8510E75) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38207,   1, 980, 0, 0) /* Strength */

@@ -54,17 +54,17 @@ VALUES (3893,   1, 'Acid Takuba') /* Name */
      , (3893,  16, 'Acid Takuba of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3893,   1,   33555828) /* Setup */
-     , (3893,   3,  536870932) /* SoundTable */
-     , (3893,   8,  100669052) /* Icon */
-     , (3893,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3893,   1, 0x02000574) /* Setup */
+     , (3893,   3, 0x20000014) /* SoundTable */
+     , (3893,   8, 0x0600167C) /* Icon */
+     , (3893,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3893,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3893, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3893, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3893, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3893, 8000, 3694261189) /* PCAPRecordedObjectIID */;
+VALUES (3893, 8000, 0xDC31F3C5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3893,  1604,      2)  /* DefenderSelf5 */

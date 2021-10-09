@@ -26,22 +26,22 @@ VALUES (30647,   1, 'Drudge Ballast') /* Name */
      , (30647, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30647,   1,   33556445) /* Setup */
-     , (30647,   2,  150994952) /* MotionTable */
-     , (30647,   3,  536870919) /* SoundTable */
-     , (30647,   6,   67112812) /* PaletteBase */
-     , (30647,   8,  100667445) /* Icon */
-     , (30647,  22,  872415258) /* PhysicsEffectTable */
+VALUES (30647,   1, 0x020007DD) /* Setup */
+     , (30647,   2, 0x09000008) /* MotionTable */
+     , (30647,   3, 0x20000007) /* SoundTable */
+     , (30647,   6, 0x04000F6C) /* PaletteBase */
+     , (30647,   8, 0x06001035) /* Icon */
+     , (30647,  22, 0x3400001A) /* PhysicsEffectTable */
      , (30647, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (30647, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (30647, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30647, 8040, 191889445, 107.078, 98.8333, 94.00455, -0.6857671, 0, 0, 0.7278211) /* PCAPRecordedLocation */
+VALUES (30647, 8040, 0x0B700025, 107.078, 98.8333, 94.00455, -0.685767, 0, 0, 0.727821) /* PCAPRecordedLocation */
 /* @teleloc 0x0B700025 [107.078000 98.833300 94.004550] -0.685767 0.000000 0.000000 0.727821 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30647, 8000, 3695959879) /* PCAPRecordedObjectIID */;
+VALUES (30647, 8000, 0xDC4BDF47) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30647,   1, 210, 0, 0) /* Strength */
@@ -540,7 +540,32 @@ VALUES (30647, 2, 47276,  1, 0, 0, False) /* Create Electric Board with Nail (47
      , (30647, 9, 34015,  0, 0, 0, False) /* Create Golden Shuriken of Tanada (34015) for ContainTreasure */
      , (30647, 9,  2470,  1, 0, 0, False) /* Create Stamina Elixir (2470) for ContainTreasure */
      , (30647, 9,   113,  0, 0, 0, False) /* Create Yoroi Tassets (113) for ContainTreasure */
-     , (30647, 9, 49263,  0, 0, 0, False) /* Create Acid Elemental Essence (100) (49263) for ContainTreasure */;
+     , (30647, 9, 49263,  0, 0, 0, False) /* Create Acid Elemental Essence (100) (49263) for ContainTreasure */
+     , (30647, 9, 20249,  0, 0, 0, False) /* Create Scroll of Hastening (20249) for ContainTreasure */
+     , (30647, 9, 28627,  0, 0, 0, False) /* Create Diforsa Bracers (28627) for ContainTreasure */
+     , (30647, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */
+     , (30647, 9, 45108,  0, 0, 0, False) /* Create Schlager (45108) for ContainTreasure */
+     , (30647, 9, 28621,  0, 0, 0, False) /* Create Diforsa Leggings (28621) for ContainTreasure */
+     , (30647, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
+     , (30647, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */
+     , (30647, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */
+     , (30647, 9, 43316,  0, 0, 0, False) /* Create Scroll of Nether Streak VII (43316) for ContainTreasure */
+     , (30647, 9, 30610,  0, 0, 0, False) /* Create Acid Bastone (30610) for ContainTreasure */
+     , (30647, 9, 20424,  0, 0, 0, False) /* Create Scroll of Archer Bait (20424) for ContainTreasure */
+     , (30647, 9,  3882,  0, 0, 0, False) /* Create Stormwood Sword (3882) for ContainTreasure */
+     , (30647, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
+     , (30647, 9, 29265,  0, 0, 0, False) /* Create Winter Orb (29265) for ContainTreasure */
+     , (30647, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (30647, 9, 41058,  0, 0, 0, False) /* Create Acid Great Star Mace (41058) for ContainTreasure */
+     , (30647, 9, 40619,  0, 0, 0, False) /* Create Acid Spadone (40619) for ContainTreasure */
+     , (30647, 9,  7788,  0, 0, 0, False) /* Create Fire Spiked Club (7788) for ContainTreasure */
+     , (30647, 9, 22167,  0, 0, 0, False) /* Create Frost Quarter Staff (22167) for ContainTreasure */
+     , (30647, 9, 45417,  0, 0, 0, False) /* Create Acid Knife (45417) for ContainTreasure */
+     , (30647, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (30647, 9, 30566,  0, 0, 0, False) /* Create Sabra (30566) for ContainTreasure */
+     , (30647, 9,   340,  0, 0, 0, False) /* Create Shamshir (340) for ContainTreasure */
+     , (30647, 9,   793,  0, 0, 0, False) /* Create Scalemail Coif (793) for ContainTreasure */
+     , (30647, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30647, 67114280, 0, 0);

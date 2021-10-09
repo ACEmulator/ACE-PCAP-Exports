@@ -24,13 +24,13 @@ VALUES (20594,   1, 'Scroll of Wrath of the Hieromancer') /* Name */
 Decreases the target''s War Magic skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20594,   1,   33554826) /* Setup */
-     , (20594,   8,  100676479) /* Icon */
-     , (20594,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20594,   1, 0x0200018A) /* Setup */
+     , (20594,   8, 0x0600337F) /* Icon */
+     , (20594,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20594,  28,       2320) /* Spell - WarMagicIneptitudeOther7 */
      , (20594, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20594, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20594, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20594, 8000, 3706740832) /* PCAPRecordedObjectIID */;
+VALUES (20594, 8000, 0xDCF06060) /* PCAPRecordedObjectIID */;

@@ -23,13 +23,13 @@ VALUES (43149,   1, 'Crate of Gear Blade Slashing Arrowheads') /* Name */
      , (43149,  20, 'Crates of Gear Blade Slashing Arrowheads') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43149,   1,   33554718) /* Setup */
-     , (43149,   3,  536870932) /* SoundTable */
-     , (43149,   8,  100691470) /* Icon */
-     , (43149,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43149,   1, 0x0200011E) /* Setup */
+     , (43149,   3, 0x20000014) /* SoundTable */
+     , (43149,   8, 0x06006E0E) /* Icon */
+     , (43149,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43149, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (43149, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43149, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43149, 8000, 2163456618) /* PCAPRecordedObjectIID */;
+VALUES (43149, 8000, 0x80F3BA6A) /* PCAPRecordedObjectIID */;

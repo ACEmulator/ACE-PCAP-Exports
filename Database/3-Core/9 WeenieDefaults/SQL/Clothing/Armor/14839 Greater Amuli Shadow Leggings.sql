@@ -35,17 +35,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14839,   1, 'Greater Amuli Shadow Leggings') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14839,   1,   33554856) /* Setup */
-     , (14839,   3,  536870932) /* SoundTable */
-     , (14839,   6,   67108990) /* PaletteBase */
-     , (14839,   8,  100670441) /* Icon */
-     , (14839,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14839,   1, 0x020001A8) /* Setup */
+     , (14839,   3, 0x20000014) /* SoundTable */
+     , (14839,   6, 0x0400007E) /* PaletteBase */
+     , (14839,   8, 0x06001BE9) /* Icon */
+     , (14839,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14839, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (14839, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14839, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14839, 8000, 2401430639) /* PCAPRecordedObjectIID */;
+VALUES (14839, 8000, 0x8F22EC6F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14839, 67110375, 136, 16)

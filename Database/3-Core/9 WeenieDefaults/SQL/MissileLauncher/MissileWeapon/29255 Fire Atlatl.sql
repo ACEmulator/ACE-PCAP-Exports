@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29255,   1,        256) /* ItemType - MissileWeapon */
      , (29255,   5,        236) /* EncumbranceVal */
      , (29255,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (29255,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (29255,  16,          1) /* ItemUseable - No */
      , (29255,  18,         33) /* UiEffects - Magical, Fire */
      , (29255,  19,      42281) /* Value */
@@ -16,7 +15,7 @@ VALUES (29255,   1,        256) /* ItemType - MissileWeapon */
      , (29255,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29255,  49,         19) /* WeaponTime */
      , (29255,  50,          4) /* AmmoType - Atlatl */
-     , (29255,  51,          2) /* CombatUse - Missle */
+     , (29255,  51,          2) /* CombatUse - Missile */
      , (29255,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29255, 105,          8) /* ItemWorkmanship */
      , (29255, 106,        264) /* ItemSpellcraft */
@@ -57,14 +56,14 @@ VALUES (29255,   1, 'Fire Atlatl') /* Name */
      , (29255,  16, 'Fire Atlatl of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29255,   1,   33559244) /* Setup */
-     , (29255,   3,  536870932) /* SoundTable */
-     , (29255,   6,   67115373) /* PaletteBase */
-     , (29255,   8,  100677454) /* Icon */
-     , (29255,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29255,   1, 0x020012CC) /* Setup */
+     , (29255,   3, 0x20000014) /* SoundTable */
+     , (29255,   6, 0x0400196D) /* PaletteBase */
+     , (29255,   8, 0x0600374E) /* Icon */
+     , (29255,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29255,  37,         47) /* ItemSkillLimit - MissileWeapons */
-     , (29255,  50,  100689143) /* IconOverlay */
-     , (29255,  52,  100676441) /* IconUnderlay */
+     , (29255,  50, 0x060064F7) /* IconOverlay */
+     , (29255,  52, 0x06003359) /* IconUnderlay */
      , (29255, 8001, 3508765592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (29255, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (29255, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
@@ -72,18 +71,18 @@ VALUES (29255,   1,   33559244) /* Setup */
      , (29255, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29255, 8040, 306577452, 121.4102, 87.52589, 51.929, -0.6255705, -0.6255705, 0.3296385, 0.3296385) /* PCAPRecordedLocation */
+VALUES (29255, 8040, 0x1246002C, 121.4102, 87.52589, 51.929, -0.625571, -0.625571, 0.329639, 0.329639) /* PCAPRecordedLocation */
 /* @teleloc 0x1246002C [121.410200 87.525890 51.929000] -0.625571 -0.625571 0.329639 0.329639 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29255, 8000, 2149259120) /* PCAPRecordedObjectIID */
-     , (29255, 8008, 1343239842) /* PCAPRecordedParentIID */;
+VALUES (29255, 8000, 0x801B1770) /* PCAPRecordedObjectIID */
+     , (29255, 8008, 0x501036A2) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29255,  1378,      2)  /* CoordinationSelf6 */
-     , (29255,  1605,      2)  /* DefenderSelf6 */
+VALUES (29255,  1605,      2)  /* DefenderSelf6 */
      , (29255,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (29255,  1627,      2)  /* SwiftKillerSelf6 */;
+     , (29255,  1627,      2)  /* SwiftKillerSelf6 */
+     , (29255,  1378,      2)  /* CoordinationSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29255, 67115372, 0, 0);

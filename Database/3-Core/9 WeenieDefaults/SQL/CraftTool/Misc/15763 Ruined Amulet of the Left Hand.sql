@@ -19,7 +19,8 @@ VALUES (15763,   1,        128) /* ItemType - Misc */
      , (15763, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15763,  22, True ) /* Inscribable */;
+VALUES (15763,  22, True ) /* Inscribable */
+     , (15763,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15763,  39,    0.67) /* DefaultScale */;
@@ -30,17 +31,17 @@ VALUES (15763,   1, 'Ruined Amulet of the Left Hand') /* Name */
      , (15763,  16, 'An Amulet crafted in pyreal that bears the symbol of creature enchantment. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15763,   1,   33554680) /* Setup */
-     , (15763,   3,  536870932) /* SoundTable */
-     , (15763,   6,   67111919) /* PaletteBase */
-     , (15763,   8,  100672808) /* Icon */
-     , (15763,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15763,   1, 0x020000F8) /* Setup */
+     , (15763,   3, 0x20000014) /* SoundTable */
+     , (15763,   6, 0x04000BEF) /* PaletteBase */
+     , (15763,   8, 0x06002528) /* Icon */
+     , (15763,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15763, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (15763, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15763, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15763, 8000, 3261430921) /* PCAPRecordedObjectIID */;
+VALUES (15763, 8000, 0xC2657C89) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15763, 67111922, 0, 0);

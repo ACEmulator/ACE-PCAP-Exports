@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28358,   1, 'Emblem of Serpent''s Hold') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28358,   1,   33555194) /* Setup */
-     , (28358,   3,  536870932) /* SoundTable */
-     , (28358,   6,   67111092) /* PaletteBase */
-     , (28358,   8,  100676992) /* Icon */
-     , (28358,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28358,   1, 0x020002FA) /* Setup */
+     , (28358,   3, 0x20000014) /* SoundTable */
+     , (28358,   6, 0x040008B4) /* PaletteBase */
+     , (28358,   8, 0x06003580) /* Icon */
+     , (28358,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28358, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (28358, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28358, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28358, 8000, 2264603742) /* PCAPRecordedObjectIID */;
+VALUES (28358, 8000, 0x86FB1C5E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28358, 67111921, 0, 0);

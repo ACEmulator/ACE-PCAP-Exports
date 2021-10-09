@@ -14,7 +14,8 @@ VALUES (42108,   1,        128) /* ItemType - Misc */
      , (42108, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42108,  22, True ) /* Inscribable */;
+VALUES (42108,  22, True ) /* Inscribable */
+     , (42108,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42108,  39,     0.5) /* DefaultScale */;
@@ -25,13 +26,13 @@ VALUES (42108,   1, 'Shadow Gem') /* Name */
      , (42108,  15, 'The inside of this gem seems to flow and glow stronger as you hold it.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42108,   1,   33554665) /* Setup */
-     , (42108,   3,  536870932) /* SoundTable */
-     , (42108,   8,  100690876) /* Icon */
-     , (42108,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42108,   1, 0x020000E9) /* Setup */
+     , (42108,   3, 0x20000014) /* SoundTable */
+     , (42108,   8, 0x06006BBC) /* Icon */
+     , (42108,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42108, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (42108, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (42108, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42108, 8000, 3676511427) /* PCAPRecordedObjectIID */;
+VALUES (42108, 8000, 0xDB231CC3) /* PCAPRecordedObjectIID */;

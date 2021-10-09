@@ -20,13 +20,13 @@ VALUES (37354,   1, 'Ink of Nullification') /* Name */
      , (37354,  20, 'Inks of Nullification') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37354,   1,   33554602) /* Setup */
-     , (37354,   3,  536870932) /* SoundTable */
-     , (37354,   8,  100690182) /* Icon */
-     , (37354,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37354,   1, 0x020000AA) /* Setup */
+     , (37354,   3, 0x20000014) /* SoundTable */
+     , (37354,   8, 0x06006906) /* Icon */
+     , (37354,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37354, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (37354, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37354, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37354, 8000, 2461826764) /* PCAPRecordedObjectIID */;
+VALUES (37354, 8000, 0x92BC7ECC) /* PCAPRecordedObjectIID */;

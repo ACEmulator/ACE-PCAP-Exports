@@ -25,22 +25,22 @@ VALUES (40775,   1, 'Ancient Golem') /* Name */
      , (40775, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40775,   1,   33559702) /* Setup */
-     , (40775,   2,  150995344) /* MotionTable */
-     , (40775,   3,  536870933) /* SoundTable */
-     , (40775,   6,   67116739) /* PaletteBase */
-     , (40775,   8,  100667940) /* Icon */
-     , (40775,  22,  872415332) /* PhysicsEffectTable */
+VALUES (40775,   1, 0x02001496) /* Setup */
+     , (40775,   2, 0x09000190) /* MotionTable */
+     , (40775,   3, 0x20000015) /* SoundTable */
+     , (40775,   6, 0x04001EC3) /* PaletteBase */
+     , (40775,   8, 0x06001224) /* Icon */
+     , (40775,  22, 0x34000064) /* PhysicsEffectTable */
      , (40775, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40775, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40775, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40775, 8040, 778830183, -218, 87, -35.592, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (40775, 8040, 0x2E6C0167, -218, 87, -35.592, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x2E6C0167 [-218.000000 87.000000 -35.592000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40775, 8000, 3711129242) /* PCAPRecordedObjectIID */;
+VALUES (40775, 8000, 0xDD33569A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40775,   1, 290, 0, 0) /* Strength */
@@ -98,7 +98,8 @@ VALUES (40775, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for 
      , (40775, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
      , (40775, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
      , (40775, 9, 45108,  0, 0, 0, False) /* Create Schlager (45108) for ContainTreasure */
-     , (40775, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */;
+     , (40775, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (40775, 9, 22154,  0, 0, 0, False) /* Create Acid Jo (22154) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40775, 67116746, 0, 0);

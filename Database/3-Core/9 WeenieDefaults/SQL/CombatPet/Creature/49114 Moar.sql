@@ -30,12 +30,12 @@ VALUES (49114,   1, 'Moar') /* Name */
      , (49114, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49114,   1,   33561528) /* Setup */
-     , (49114,   2,  150995346) /* MotionTable */
-     , (49114,   3,  536871018) /* SoundTable */
-     , (49114,   6,   67116748) /* PaletteBase */
-     , (49114,   8,  100671185) /* Icon */
-     , (49114,  22,  872415415) /* PhysicsEffectTable */
+VALUES (49114,   1, 0x02001BB8) /* Setup */
+     , (49114,   2, 0x09000192) /* MotionTable */
+     , (49114,   3, 0x2000006A) /* SoundTable */
+     , (49114,   6, 0x04001ECC) /* PaletteBase */
+     , (49114,   8, 0x06001ED1) /* Icon */
+     , (49114,  22, 0x340000B7) /* PhysicsEffectTable */
      , (49114,  30,         86) /* PhysicsScript - BreatheAcid */
      , (49114, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49114, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
@@ -43,11 +43,11 @@ VALUES (49114,   1,   33561528) /* Setup */
      , (49114, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49114, 8040, 11927851, 222.6465, -319.1766, -11.859, 0.6357615, 0, 0, -0.7718856) /* PCAPRecordedLocation */
+VALUES (49114, 8040, 0x00B6012B, 222.6465, -319.1766, -11.859, 0.635762, 0, 0, -0.771886) /* PCAPRecordedLocation */
 /* @teleloc 0x00B6012B [222.646500 -319.176600 -11.859000] 0.635762 0.000000 0.000000 -0.771886 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49114, 8000, 2930039887) /* PCAPRecordedObjectIID */;
+VALUES (49114, 8000, 0xAEA4DC4F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49114,   1, 210, 0, 0) /* Strength */

@@ -28,13 +28,13 @@ VALUES (5780,   1, 'Cinnamon Bark') /* Name */
      , (5780,  20, 'Pieces of Cinnamon Bark') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5780,   1,   33554698) /* Setup */
-     , (5780,   3,  536870932) /* SoundTable */
-     , (5780,   8,  100670296) /* Icon */
-     , (5780,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5780,   1, 0x0200010A) /* Setup */
+     , (5780,   3, 0x20000014) /* SoundTable */
+     , (5780,   8, 0x06001B58) /* Icon */
+     , (5780,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5780, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (5780, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5780, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5780, 8000, 2192144125) /* PCAPRecordedObjectIID */;
+VALUES (5780, 8000, 0x82A976FD) /* PCAPRecordedObjectIID */;

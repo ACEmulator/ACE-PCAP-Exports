@@ -30,17 +30,17 @@ VALUES (42707,   1, 'Slice of Royal Wedding Cake') /* Name */
      , (42707,  20, 'Slices of Royal Wedding Cake') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42707,   1,   33555193) /* Setup */
-     , (42707,   3,  536870932) /* SoundTable */
-     , (42707,   8,  100672705) /* Icon */
-     , (42707,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42707,   1, 0x020002F9) /* Setup */
+     , (42707,   3, 0x20000014) /* SoundTable */
+     , (42707,   8, 0x060024C1) /* Icon */
+     , (42707,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42707,  28,       3204) /* Spell - GolemHunterHealthHigh */
      , (42707, 8001,    6844441) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (42707, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (42707, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42707, 8000, 3704135028) /* PCAPRecordedObjectIID */;
+VALUES (42707, 8000, 0xDCC89D74) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (42707, 0, 83888869, 83888869)

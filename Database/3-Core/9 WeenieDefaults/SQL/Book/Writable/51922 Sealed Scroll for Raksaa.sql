@@ -14,20 +14,21 @@ VALUES (51922,   1,       8192) /* ItemType - Writable */
      , (51922, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51922,  22, True ) /* Inscribable */;
+VALUES (51922,  22, True ) /* Inscribable */
+     , (51922,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51922,   1, 'Sealed Scroll for Raksaa') /* Name */
      , (51922,  16, 'A sealed scroll given to you by Commander Presk. Deliver this to Raksaa located on the Obsidian Plains.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51922,   1,   33554776) /* Setup */
-     , (51922,   3,  536870932) /* SoundTable */
-     , (51922,   8,  100667503) /* Icon */
-     , (51922,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51922,   1, 0x02000158) /* Setup */
+     , (51922,   3, 0x20000014) /* SoundTable */
+     , (51922,   8, 0x0600106F) /* Icon */
+     , (51922,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51922, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (51922, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
      , (51922, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51922, 8000, 3695102394) /* PCAPRecordedObjectIID */;
+VALUES (51922, 8000, 0xDC3EC9BA) /* PCAPRecordedObjectIID */;

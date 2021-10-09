@@ -18,7 +18,7 @@ VALUES (38576,   1,         16) /* ItemType - Creature */
      , (38576, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38576, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38576, 188,          2) /* HeritageGroup - Gharundim */
-     , (38576, 281,          4) /* Faction1Bits */
+     , (38576, 281,          4) /* Faction1Bits - RadiantBlood */
      , (38576, 289,       1001) /* SocietyRankRadblo */
      , (38576, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -38,28 +38,28 @@ VALUES (38576,   1, 'Radiant Blood Quartermaster') /* Name */
      , (38576, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38576,   1,   33554433) /* Setup */
-     , (38576,   2,  150994945) /* MotionTable */
-     , (38576,   3,  536870913) /* SoundTable */
-     , (38576,   6,   67108990) /* PaletteBase */
-     , (38576,   8,  100667446) /* Icon */
-     , (38576,   9,   83890485) /* EyesTexture */
-     , (38576,  10,   83890561) /* NoseTexture */
-     , (38576,  11,   83890617) /* MouthTexture */
-     , (38576,  15,   67117000) /* HairPalette */
-     , (38576,  16,   67110062) /* EyesPalette */
-     , (38576,  17,   67109554) /* SkinPalette */
+VALUES (38576,   1, 0x02000001) /* Setup */
+     , (38576,   2, 0x09000001) /* MotionTable */
+     , (38576,   3, 0x20000001) /* SoundTable */
+     , (38576,   6, 0x0400007E) /* PaletteBase */
+     , (38576,   8, 0x06001036) /* Icon */
+     , (38576,   9, 0x05001135) /* EyesTexture */
+     , (38576,  10, 0x05001181) /* NoseTexture */
+     , (38576,  11, 0x050011B9) /* MouthTexture */
+     , (38576,  15, 0x04001FC8) /* HairPalette */
+     , (38576,  16, 0x040004AE) /* EyesPalette */
+     , (38576,  17, 0x040002B2) /* SkinPalette */
      , (38576,  57,      38236) /* AlternateCurrency - Radiant Blood Trade Token */
      , (38576, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (38576, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (38576, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38576, 8040, 12124779, 136.582, -36.1403, -17.995, -0.3097079, 0, 0, -0.9508318) /* PCAPRecordedLocation */
+VALUES (38576, 8040, 0x00B9026B, 136.582, -36.1403, -17.995, -0.309708, 0, 0, -0.950832) /* PCAPRecordedLocation */
 /* @teleloc 0x00B9026B [136.582000 -36.140300 -17.995000] -0.309708 0.000000 0.000000 -0.950832 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38576, 8000, 1879805999) /* PCAPRecordedObjectIID */;
+VALUES (38576, 8000, 0x700B902F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38576,   1, 220, 0, 0) /* Strength */

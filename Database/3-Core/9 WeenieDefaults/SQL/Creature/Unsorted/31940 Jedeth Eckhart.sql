@@ -25,21 +25,24 @@ VALUES (31940,   1, 'Jedeth Eckhart') /* Name */
      , (31940, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31940,   1,   33554433) /* Setup */
-     , (31940,   2,  150994945) /* MotionTable */
-     , (31940,   3,  536870913) /* SoundTable */
-     , (31940,   6,   67108990) /* PaletteBase */
-     , (31940,   8,  100667446) /* Icon */
+VALUES (31940,   1, 0x02000001) /* Setup */
+     , (31940,   2, 0x09000001) /* MotionTable */
+     , (31940,   3, 0x20000001) /* SoundTable */
+     , (31940,   6, 0x0400007E) /* PaletteBase */
+     , (31940,   8, 0x06001036) /* Icon */
      , (31940, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (31940, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (31940, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31940, 8040, 599130423, 48.5756, 34.5981, -3.195, -0.8980037, 0, 0, -0.4399879) /* PCAPRecordedLocation */
+VALUES (31940, 8040, 0x23B60137, 48.5756, 34.5981, -3.195, -0.898004, 0, 0, -0.439988) /* PCAPRecordedLocation */
 /* @teleloc 0x23B60137 [48.575600 34.598100 -3.195000] -0.898004 0.000000 0.000000 -0.439988 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31940, 8000, 3708875283) /* PCAPRecordedObjectIID */;
+VALUES (31940, 8000, 0xDD10F213) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (31940, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31940, 67109558, 0, 24)

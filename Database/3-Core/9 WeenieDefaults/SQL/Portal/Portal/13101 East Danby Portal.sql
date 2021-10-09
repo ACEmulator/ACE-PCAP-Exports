@@ -22,16 +22,16 @@ VALUES (13101,   1, 'East Danby Portal') /* Name */
      , (13101, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (13101,   1,   33554867) /* Setup */
-     , (13101,   2,  150994947) /* MotionTable */
-     , (13101,   8,  100667499) /* Icon */
+VALUES (13101,   1, 0x020001B3) /* Setup */
+     , (13101,   2, 0x09000003) /* MotionTable */
+     , (13101,   8, 0x0600106B) /* Icon */
      , (13101, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (13101, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (13101, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (13101, 8040, 2106523666, 53.1425, 42.6957, 123.937, -0.0633413, 0, 0, -0.9979919) /* PCAPRecordedLocation */
+VALUES (13101, 8040, 0x7D8F0012, 53.1425, 42.6957, 123.937, -0.063341, 0, 0, -0.997992) /* PCAPRecordedLocation */
 /* @teleloc 0x7D8F0012 [53.142500 42.695700 123.937000] -0.063341 0.000000 0.000000 -0.997992 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13101, 8000, 2010705927) /* PCAPRecordedObjectIID */;
+VALUES (13101, 8000, 0x77D8F007) /* PCAPRecordedObjectIID */;

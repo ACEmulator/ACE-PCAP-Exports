@@ -27,18 +27,18 @@ VALUES (32793,   1, 'Rare Red Pack Idol') /* Name */
      , (32793, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32793,   1,   33556892) /* Setup */
-     , (32793,   2,  150995119) /* MotionTable */
-     , (32793,   8,  100688661) /* Icon */
-     , (32793,  22,  872415369) /* PhysicsEffectTable */
-     , (32793,  52,  100686604) /* IconUnderlay */
+VALUES (32793,   1, 0x0200099C) /* Setup */
+     , (32793,   2, 0x090000AF) /* MotionTable */
+     , (32793,   8, 0x06006315) /* Icon */
+     , (32793,  22, 0x34000089) /* PhysicsEffectTable */
+     , (32793,  52, 0x06005B0C) /* IconUnderlay */
      , (32793, 8001,  271073296) /* PCAPRecordedWeenieHeader - Usable, Container, TargetType, Burden, HookType */
      , (32793, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (32793, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (32793, 8005,      69763) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32793, 8000, 2978131466) /* PCAPRecordedObjectIID */;
+VALUES (32793, 8000, 0xB182AE0A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (32793, 0, 83892904, 83897437)

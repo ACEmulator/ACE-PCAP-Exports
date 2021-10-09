@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2922,   1, 'Scroll of Bludgeoning Volley IV') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2922,   1,   33554826) /* Setup */
-     , (2922,   8,  100677008) /* Icon */
-     , (2922,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2922,   1, 0x0200018A) /* Setup */
+     , (2922,   8, 0x06003590) /* Icon */
+     , (2922,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2922,  28,        132) /* Spell - BludgeoningVolley4 */
      , (2922, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2922, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -31,4 +31,4 @@ VALUES (2922,   1,   33554826) /* Setup */
      , (2922, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2922, 8000,       2922) /* PCAPRecordedObjectIID */;
+VALUES (2922, 8000, 0x00000B6A) /* PCAPRecordedObjectIID */;

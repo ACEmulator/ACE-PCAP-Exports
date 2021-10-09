@@ -15,6 +15,7 @@ VALUES (28177,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28177,  22, True ) /* Inscribable */
+     , (28177,  23, True ) /* DestroyOnSell */
      , (28177,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,14 +26,14 @@ VALUES (28177,   1, 'Brass Gromnie Tooth Pick') /* Name */
      , (28177,  16, 'A pick made from the tooth of a brass gromnie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28177,   1,   33554817) /* Setup */
-     , (28177,   8,  100676790) /* Icon */
+VALUES (28177,   1, 0x02000181) /* Setup */
+     , (28177,   8, 0x060034B6) /* Icon */
      , (28177, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (28177, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28177, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28177, 8000, 2153441674) /* PCAPRecordedObjectIID */;
+VALUES (28177, 8000, 0x805AE98A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (28177, 0, 83890064, 83890069);

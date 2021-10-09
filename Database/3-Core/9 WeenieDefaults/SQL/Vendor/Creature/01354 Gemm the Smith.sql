@@ -37,27 +37,27 @@ VALUES (1354,   1, 'Gemm the Smith') /* Name */
      , (1354, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1354,   1,   33554433) /* Setup */
-     , (1354,   2,  150994945) /* MotionTable */
-     , (1354,   3,  536870913) /* SoundTable */
-     , (1354,   6,   67108990) /* PaletteBase */
-     , (1354,   8,  100667446) /* Icon */
-     , (1354,   9,   83890511) /* EyesTexture */
-     , (1354,  10,   83890561) /* NoseTexture */
-     , (1354,  11,   83890589) /* MouthTexture */
-     , (1354,  15,   67117020) /* HairPalette */
-     , (1354,  16,   67110062) /* EyesPalette */
-     , (1354,  17,   67109559) /* SkinPalette */
+VALUES (1354,   1, 0x02000001) /* Setup */
+     , (1354,   2, 0x09000001) /* MotionTable */
+     , (1354,   3, 0x20000001) /* SoundTable */
+     , (1354,   6, 0x0400007E) /* PaletteBase */
+     , (1354,   8, 0x06001036) /* Icon */
+     , (1354,   9, 0x0500114F) /* EyesTexture */
+     , (1354,  10, 0x05001181) /* NoseTexture */
+     , (1354,  11, 0x0500119D) /* MouthTexture */
+     , (1354,  15, 0x04001FDC) /* HairPalette */
+     , (1354,  16, 0x040004AE) /* EyesPalette */
+     , (1354,  17, 0x040002B7) /* SkinPalette */
      , (1354, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (1354, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (1354, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1354, 8040, 30736721, 11.6922, -19.5103, 36.005, -0.1526621, 0, 0, -0.9882784) /* PCAPRecordedLocation */
+VALUES (1354, 8040, 0x01D50151, 11.6922, -19.5103, 36.005, -0.152662, 0, 0, -0.988278) /* PCAPRecordedLocation */
 /* @teleloc 0x01D50151 [11.692200 -19.510300 36.005000] -0.152662 0.000000 0.000000 -0.988278 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1354, 8000, 1880969222) /* PCAPRecordedObjectIID */;
+VALUES (1354, 8000, 0x701D5006) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1354,   1, 112, 0, 0) /* Strength */
@@ -89,6 +89,7 @@ VALUES (1354, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */
      , (1354, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (1354, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (1354, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (1354, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
      , (1354, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
      , (1354, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
      , (1354, 4,   352, -1, 0, 0, False) /* Create Short Sword (352) for Shop */

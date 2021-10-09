@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33983,   1, 'Superb Bone Handle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33983,   1,   33556603) /* Setup */
-     , (33983,   3,  536870932) /* SoundTable */
-     , (33983,   8,  100689103) /* Icon */
-     , (33983,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33983,   1, 0x0200087B) /* Setup */
+     , (33983,   3, 0x20000014) /* SoundTable */
+     , (33983,   8, 0x060064CF) /* Icon */
+     , (33983,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33983, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (33983, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (33983, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33983, 8000, 2613931681) /* PCAPRecordedObjectIID */;
+VALUES (33983, 8000, 0x9BCD6EA1) /* PCAPRecordedObjectIID */;

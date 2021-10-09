@@ -22,16 +22,16 @@ VALUES (20016,   1, 'Silk') /* Name */
      , (20016,  16, 'A fluffy wad of silk taken from a grievver.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20016,   1,   33554669) /* Setup */
-     , (20016,   3,  536870932) /* SoundTable */
-     , (20016,   8,  100672976) /* Icon */
-     , (20016,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20016,   1, 0x020000ED) /* Setup */
+     , (20016,   3, 0x20000014) /* SoundTable */
+     , (20016,   8, 0x060025D0) /* Icon */
+     , (20016,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20016, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (20016, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20016, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20016, 8000, 2596953949) /* PCAPRecordedObjectIID */;
+VALUES (20016, 8000, 0x9ACA5F5D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (20016, 0, 83888861, 83894095);

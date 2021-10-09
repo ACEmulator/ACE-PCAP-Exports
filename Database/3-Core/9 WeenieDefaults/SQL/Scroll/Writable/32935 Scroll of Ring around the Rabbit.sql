@@ -24,13 +24,13 @@ VALUES (32935,   1, 'Scroll of Ring around the Rabbit') /* Name */
 Shoots eight rabbits outward from the caster. Each rabbit does 40-80 points of slashing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32935,   1,   33554826) /* Setup */
-     , (32935,   8,  100688872) /* Icon */
-     , (32935,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32935,   1, 0x0200018A) /* Setup */
+     , (32935,   8, 0x060063E8) /* Icon */
+     , (32935,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32935,  28,       3902) /* Spell - RabbitRing */
      , (32935, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (32935, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32935, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32935, 8000, 3698960725) /* PCAPRecordedObjectIID */;
+VALUES (32935, 8000, 0xDC79A955) /* PCAPRecordedObjectIID */;

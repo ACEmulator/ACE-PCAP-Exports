@@ -24,22 +24,22 @@ VALUES (52585,   1, 'A''nekshen Storm Reaver') /* Name */
      , (52585, 8006, 'BwA9AA8ASLYW19JBWT8hQ5AC6EJP7kEAAAAAQAAAAAD//39/zczMPgAAcEEAAAAAVVU1QA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52585,   1,   33561624) /* Setup */
-     , (52585,   2,  150994945) /* MotionTable */
-     , (52585,   3,  536870933) /* SoundTable */
-     , (52585,   6,   67108990) /* PaletteBase */
-     , (52585,   8,  100670274) /* Icon */
-     , (52585,  22,  872415269) /* PhysicsEffectTable */
+VALUES (52585,   1, 0x02001C18) /* Setup */
+     , (52585,   2, 0x09000001) /* MotionTable */
+     , (52585,   3, 0x20000015) /* SoundTable */
+     , (52585,   6, 0x0400007E) /* PaletteBase */
+     , (52585,   8, 0x06001B42) /* Icon */
+     , (52585,  22, 0x34000025) /* PhysicsEffectTable */
      , (52585, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (52585, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (52585, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52585, 8040, 3058171919, 24.04908, 161.2475, 116.005, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (52585, 8040, 0xB648000F, 24.04908, 161.2475, 116.005, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xB648000F [24.049080 161.247500 116.005000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52585, 8000, 3684770270) /* PCAPRecordedObjectIID */;
+VALUES (52585, 8000, 0xDBA121DE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (52585,   1,     0, 0, 0, 8200) /* MaxHealth */;

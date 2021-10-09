@@ -41,25 +41,25 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29541,   1, 'Noble Leggings of Might') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29541,   1,   33554856) /* Setup */
-     , (29541,   3,  536870932) /* SoundTable */
-     , (29541,   6,   67108990) /* PaletteBase */
-     , (29541,   8,  100677217) /* Icon */
-     , (29541,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29541,   1, 0x020001A8) /* Setup */
+     , (29541,   3, 0x20000014) /* SoundTable */
+     , (29541,   6, 0x0400007E) /* PaletteBase */
+     , (29541,   8, 0x06003661) /* Icon */
+     , (29541,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29541, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (29541, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29541, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29541, 8000, 2980863042) /* PCAPRecordedObjectIID */;
+VALUES (29541, 8000, 0xB1AC5C42) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29541,   568,      2)  /* CreatureEnchantmentMasteryOther6 */
+VALUES (29541,   640,      2)  /* WarMagicMasteryOther6 */
      , (29541,   592,      2)  /* ItemEnchantmentMasteryOther6 */
      , (29541,   616,      2)  /* LifeMagicMasteryOther6 */
-     , (29541,   640,      2)  /* WarMagicMasteryOther6 */
-     , (29541,  2108,      2)  /* Impenetrability7 */
-     , (29541,  3573,      2)  /* InnerMight */;
+     , (29541,  3573,      2)  /* InnerMight */
+     , (29541,   568,      2)  /* CreatureEnchantmentMasteryOther6 */
+     , (29541,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29541, 67115398, 72, 24)

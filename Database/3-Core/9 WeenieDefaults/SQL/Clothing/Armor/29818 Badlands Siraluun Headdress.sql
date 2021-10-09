@@ -41,28 +41,28 @@ VALUES (29818,   1, 'Badlands Siraluun Headdress') /* Name */
      , (29818,  16, 'A headdress plaited from the plumes of a Badlands Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29818,   1,   33557288) /* Setup */
-     , (29818,   3,  536870932) /* SoundTable */
-     , (29818,   6,   67108990) /* PaletteBase */
-     , (29818,   8,  100677287) /* Icon */
-     , (29818,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29818,   1, 0x02000B28) /* Setup */
+     , (29818,   3, 0x20000014) /* SoundTable */
+     , (29818,   6, 0x0400007E) /* PaletteBase */
+     , (29818,   8, 0x060036A7) /* Icon */
+     , (29818,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29818, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (29818, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29818, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29818, 8000, 2771304319) /* PCAPRecordedObjectIID */;
+VALUES (29818, 8000, 0xA52EBF7F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29818,   713,      2)  /* ArmorExpertiseOther6 */
-     , (29818,   737,      2)  /* ItemExpertiseOther6 */
-     , (29818,   761,      2)  /* MagicItemExpertiseOther6 */
-     , (29818,   785,      2)  /* WeaponExpertiseOther6 */
-     , (29818,  2538,      2)  /* CANTRIPARMOREXPERTISE1 */
-     , (29818,  2552,      2)  /* CANTRIPITEMEXPERTISE1 */
-     , (29818,  2558,      2)  /* CANTRIPMAGICITEMEXPERTISE1 */
      , (29818,  2570,      2)  /* CANTRIPWEAPONEXPERTISE1 */
-     , (29818,  3511,      2)  /* ArcanumSalvagingOther6 */;
+     , (29818,   785,      2)  /* WeaponExpertiseOther6 */
+     , (29818,   737,      2)  /* ItemExpertiseOther6 */
+     , (29818,  2538,      2)  /* CANTRIPARMOREXPERTISE1 */
+     , (29818,  3511,      2)  /* ArcanumSalvagingOther6 */
+     , (29818,  2552,      2)  /* CANTRIPITEMEXPERTISE1 */
+     , (29818,   761,      2)  /* MagicItemExpertiseOther6 */
+     , (29818,  2558,      2)  /* CANTRIPMAGICITEMEXPERTISE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29818, 67115441, 240, 16);

@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52303,   1, 'Contract for Kill: Tou-Tou Shadows') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52303,   1,   33557625) /* Setup */
-     , (52303,   3,  536870932) /* SoundTable */
-     , (52303,   8,  100691928) /* Icon */
-     , (52303,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52303,   1, 0x02000C79) /* Setup */
+     , (52303,   3, 0x20000014) /* SoundTable */
+     , (52303,   8, 0x06006FD8) /* Icon */
+     , (52303,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52303, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (52303, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (52303, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (52303,   1,   33557625) /* Setup */
      , (52303, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52303, 8000,      52303) /* PCAPRecordedObjectIID */;
+VALUES (52303, 8000, 0x0000CC4F) /* PCAPRecordedObjectIID */;

@@ -14,6 +14,7 @@ VALUES (36200,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36200,  22, True ) /* Inscribable */
+     , (36200,  23, True ) /* DestroyOnSell */
      , (36200,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -21,17 +22,17 @@ VALUES (36200,   1, 'Elemental Talisman') /* Name */
      , (36200,  16, 'A small diamond shaped talisman of stone with four gems set into it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36200,   1,   33557973) /* Setup */
-     , (36200,   3,  536870932) /* SoundTable */
-     , (36200,   8,  100673500) /* Icon */
-     , (36200,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36200,   1, 0x02000DD5) /* Setup */
+     , (36200,   3, 0x20000014) /* SoundTable */
+     , (36200,   8, 0x060027DC) /* Icon */
+     , (36200,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36200, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (36200, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36200, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36200, 8040, 15532653, 360.16, -187.847, -11.958, 0.5591558, 0, 0, 0.8290626) /* PCAPRecordedLocation */
+VALUES (36200, 8040, 0x00ED026D, 360.16, -187.847, -11.958, 0.559156, 0, 0, 0.829063) /* PCAPRecordedLocation */
 /* @teleloc 0x00ED026D [360.160000 -187.847000 -11.958000] 0.559156 0.000000 0.000000 0.829063 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36200, 8000, 3700432417) /* PCAPRecordedObjectIID */;
+VALUES (36200, 8000, 0xDC901E21) /* PCAPRecordedObjectIID */;

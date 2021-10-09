@@ -33,9 +33,9 @@ VALUES (0x75C4B05A,   568, 0x5C4B02F8, 190, -14, -12, -0.004206, 0, 0, -0.999991
 /* @teleloc 0x5C4B02F8 [190.000000 -14.000000 -12.000000] -0.004206 0.000000 0.000000 -0.999991 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75C4B062, 24071, 0x5C4B0311, 250, -20, -12.063, 1, 0, 0, -4.37114E-08, False, '2019-02-10 00:00:00'); /* Exit */
+VALUES (0x75C4B062, 24071, 0x5C4B0311, 250, -20, -12.063, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Exit */
 /* @teleloc 0x5C4B0311 [250.000000 -20.000000 -12.063000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75C4B06B, 24071, 0x5C4B036C, 59.9731, -246.357, -0.06299996, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Exit */
+VALUES (0x75C4B06B, 24071, 0x5C4B036C, 59.9731, -246.357, -0.063, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Exit */
 /* @teleloc 0x5C4B036C [59.973100 -246.357000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */

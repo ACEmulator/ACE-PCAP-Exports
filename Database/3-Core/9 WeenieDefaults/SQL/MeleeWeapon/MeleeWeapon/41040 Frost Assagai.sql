@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41040,   1,          1) /* ItemType - MeleeWeapon */
      , (41040,   5,        491) /* EncumbranceVal */
      , (41040,   9,   33554432) /* ValidLocations - TwoHanded */
-     , (41040,  10,   33554432) /* CurrentWieldedLocation - TwoHanded */
      , (41040,  16,          1) /* ItemUseable - No */
      , (41040,  18,        129) /* UiEffects - Magical, Frost */
      , (41040,  19,      15602) /* Value */
@@ -56,13 +55,13 @@ VALUES (41040,   1, 'Frost Assagai') /* Name */
      , (41040,  16, 'Frost Assagai of Recklessness') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41040,   1,   33560872) /* Setup */
-     , (41040,   3,  536870932) /* SoundTable */
-     , (41040,   6,   67115558) /* PaletteBase */
-     , (41040,   8,  100690628) /* Icon */
-     , (41040,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41040,   1, 0x02001928) /* Setup */
+     , (41040,   3, 0x20000014) /* SoundTable */
+     , (41040,   6, 0x04001A26) /* PaletteBase */
+     , (41040,   8, 0x06006AC4) /* Icon */
+     , (41040,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41040,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
-     , (41040,  52,  100676435) /* IconUnderlay */
+     , (41040,  52, 0x06003353) /* IconUnderlay */
      , (41040, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
      , (41040, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (41040, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
@@ -70,18 +69,18 @@ VALUES (41040,   1,   33560872) /* Setup */
      , (41040, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41040, 8040, 43058012, 208.7965, -157.2297, -0.071, -0.1014951, -0.1014951, -0.6997848, -0.6997848) /* PCAPRecordedLocation */
+VALUES (41040, 8040, 0x0291035C, 208.7965, -157.2297, -0.071, -0.101495, -0.101495, -0.699785, -0.699785) /* PCAPRecordedLocation */
 /* @teleloc 0x0291035C [208.796500 -157.229700 -0.071000] -0.101495 -0.101495 -0.699785 -0.699785 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41040, 8000, 2147672673) /* PCAPRecordedObjectIID */
-     , (41040, 8008, 1343489356) /* PCAPRecordedParentIID */;
+VALUES (41040, 8000, 0x8002E261) /* PCAPRecordedObjectIID */
+     , (41040, 8008, 0x5014054C) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41040,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (41040,  2578,      2)  /* CANTRIPARMOR1 */
+VALUES (41040,  5833,      2)  /* RecklessnessMasterySelf7 */
      , (41040,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */
-     , (41040,  5833,      2)  /* RecklessnessMasterySelf7 */;
+     , (41040,  2578,      2)  /* CANTRIPARMOR1 */
+     , (41040,  2096,      2)  /* BloodDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41040, 67116384, 0, 0);

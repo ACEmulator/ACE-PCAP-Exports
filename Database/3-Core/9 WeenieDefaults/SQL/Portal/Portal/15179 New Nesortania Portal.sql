@@ -22,16 +22,16 @@ VALUES (15179,   1, 'New Nesortania Portal') /* Name */
      , (15179, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15179,   1,   33554867) /* Setup */
-     , (15179,   2,  150994947) /* MotionTable */
-     , (15179,   8,  100667499) /* Icon */
+VALUES (15179,   1, 0x020001B3) /* Setup */
+     , (15179,   2, 0x09000003) /* MotionTable */
+     , (15179,   8, 0x0600106B) /* Icon */
      , (15179, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (15179, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (15179, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15179, 8040, 2446458890, 39.9552, 30.4903, 320.3259, -0.140539, 0, 0, 0.9900751) /* PCAPRecordedLocation */
+VALUES (15179, 8040, 0x91D2000A, 39.9552, 30.4903, 320.3259, -0.140539, 0, 0, 0.990075) /* PCAPRecordedLocation */
 /* @teleloc 0x91D2000A [39.955200 30.490300 320.325900] -0.140539 0.000000 0.000000 0.990075 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15179, 8000, 2031951886) /* PCAPRecordedObjectIID */;
+VALUES (15179, 8000, 0x791D200E) /* PCAPRecordedObjectIID */;

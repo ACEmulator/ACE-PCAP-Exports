@@ -10,30 +10,6 @@ VALUES (38258,   1,         16) /* ItemType - Creature */
      , (38258,  16,         32) /* ItemUseable - Remote */
      , (38258,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (38258,  95,          3) /* RadarBlipColor - White */
-     , (38258, 307,          0) /* DamageRating */
-     , (38258, 308,          0) /* DamageResistRating */
-     , (38258, 313,          0) /* CritRating */
-     , (38258, 314,          0) /* CritDamageRating */
-     , (38258, 315,          0) /* CritResistRating */
-     , (38258, 316,          0) /* CritDamageResistRating */
-     , (38258, 370,          0) /* GearDamage */
-     , (38258, 371,          0) /* GearDamageResist */
-     , (38258, 372,          0) /* GearCrit */
-     , (38258, 373,          0) /* GearCritResist */
-     , (38258, 374,          0) /* GearCritDamage */
-     , (38258, 375,          0) /* GearCritDamageResist */
-     , (38258, 376,          0) /* GearHealingBoost */
-     , (38258, 377,          0) /* GearNetherResist */
-     , (38258, 378,          0) /* GearLifeResist */
-     , (38258, 379,          0) /* GearMaxHealth */
-     , (38258, 381,          0) /* PKDamageRating */
-     , (38258, 382,          0) /* PKDamageResistRating */
-     , (38258, 383,          0) /* GearPKDamageRating */
-     , (38258, 384,          0) /* GearPKDamageResistRating */
-     , (38258, 386,          0) /* Overpower */
-     , (38258, 387,          0) /* OverpowerResist */
-     , (38258, 388,          0) /* GearOverpower */
-     , (38258, 389,          0) /* GearOverpowerResist */
      , (38258, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,18 +24,18 @@ VALUES (38258,   1, 'Shrine of the Finger Bone of Mishfain') /* Name */
      , (38258, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38258,   1,   33558607) /* Setup */
-     , (38258,   2,  150995279) /* MotionTable */
-     , (38258,   3,  536871052) /* SoundTable */
-     , (38258,   8,  100675788) /* Icon */
-     , (38258,  22,  872415274) /* PhysicsEffectTable */
+VALUES (38258,   1, 0x0200104F) /* Setup */
+     , (38258,   2, 0x0900014F) /* MotionTable */
+     , (38258,   3, 0x2000008C) /* SoundTable */
+     , (38258,   8, 0x060030CC) /* Icon */
+     , (38258,  22, 0x3400002A) /* PhysicsEffectTable */
      , (38258, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
      , (38258, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (38258, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38258, 8040, 1057620015, 132, 156, 2.94674, -0.721984, 0, 0, -0.69191) /* PCAPRecordedLocation */
+VALUES (38258, 8040, 0x3F0A002F, 132, 156, 2.94674, -0.721984, 0, 0, -0.69191) /* PCAPRecordedLocation */
 /* @teleloc 0x3F0A002F [132.000000 156.000000 2.946740] -0.721984 0.000000 0.000000 -0.691910 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38258, 8000, 2447714906) /* PCAPRecordedObjectIID */;
+VALUES (38258, 8000, 0x91E52A5A) /* PCAPRecordedObjectIID */;

@@ -23,16 +23,16 @@ VALUES (14248,   1, 'Cottage') /* Name */
      , (14248, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14248,   1,   33557167) /* Setup */
-     , (14248,   2,  150995128) /* MotionTable */
-     , (14248,   8,  100671884) /* Icon */
+VALUES (14248,   1, 0x02000AAF) /* Setup */
+     , (14248,   2, 0x090000B8) /* MotionTable */
+     , (14248,   8, 0x0600218C) /* Icon */
      , (14248, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
      , (14248, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14248, 8005,      98435) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14248, 8040, 2487484467, 152.747, 62.9491, 12, 0.314976, 0, 0, -0.9491) /* PCAPRecordedLocation */
+VALUES (14248, 8040, 0x94440033, 152.747, 62.9491, 12, 0.314976, 0, 0, -0.9491) /* PCAPRecordedLocation */
 /* @teleloc 0x94440033 [152.747000 62.949100 12.000000] 0.314976 0.000000 0.000000 -0.949100 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14248, 8000, 2034516399) /* PCAPRecordedObjectIID */;
+VALUES (14248, 8000, 0x794441AF) /* PCAPRecordedObjectIID */;

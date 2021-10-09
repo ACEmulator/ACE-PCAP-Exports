@@ -35,22 +35,22 @@ VALUES (21054,   1, 'Salvage (100)') /* Name */
      , (21054,  15, 'Chips of imperial topaz material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21054,   1,   33554817) /* Setup */
-     , (21054,   3,  536870932) /* SoundTable */
-     , (21054,   6,   67111919) /* PaletteBase */
-     , (21054,   8,  100673220) /* Icon */
-     , (21054,  22,  872415275) /* PhysicsEffectTable */
-     , (21054,  50,  100673278) /* IconOverlay */
+VALUES (21054,   1, 0x02000181) /* Setup */
+     , (21054,   3, 0x20000014) /* SoundTable */
+     , (21054,   6, 0x04000BEF) /* PaletteBase */
+     , (21054,   8, 0x060026C4) /* Icon */
+     , (21054,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21054,  50, 0x060026FE) /* IconOverlay */
      , (21054, 8001, 3509074968) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (21054, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21054, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21054, 8040, 23855555, 58.86084, -38.7207, -0.002499998, 0.3233095, 0, 0, -0.9462932) /* PCAPRecordedLocation */
+VALUES (21054, 8040, 0x016C01C3, 58.86084, -38.7207, -0.0025, 0.32331, 0, 0, -0.946293) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [58.860840 -38.720700 -0.002500] 0.323310 0.000000 0.000000 -0.946293 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21054, 8000, 3644018554) /* PCAPRecordedObjectIID */;
+VALUES (21054, 8000, 0xD9334F7A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21054, 67111920, 0, 0);

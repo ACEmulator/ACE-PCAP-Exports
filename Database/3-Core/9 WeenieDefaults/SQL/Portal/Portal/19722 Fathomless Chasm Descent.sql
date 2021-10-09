@@ -24,16 +24,16 @@ VALUES (19722,   1, 'Fathomless Chasm Descent') /* Name */
      , (19722, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19722,   1,   33556212) /* Setup */
-     , (19722,   2,  150994947) /* MotionTable */
-     , (19722,   8,  100667499) /* Icon */
+VALUES (19722,   1, 0x020006F4) /* Setup */
+     , (19722,   2, 0x09000003) /* MotionTable */
+     , (19722,   8, 0x0600106B) /* Icon */
      , (19722, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (19722, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (19722, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19722, 8040, 1415446916, 30.1345, -113.88, -6.063, 0.9999756, 0, 0, 0.006988947) /* PCAPRecordedLocation */
+VALUES (19722, 8040, 0x545E0184, 30.1345, -113.88, -6.063, 0.999976, 0, 0, 0.006989) /* PCAPRecordedLocation */
 /* @teleloc 0x545E0184 [30.134500 -113.880000 -6.063000] 0.999976 0.000000 0.000000 0.006989 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19722, 8000, 1967513628) /* PCAPRecordedObjectIID */;
+VALUES (19722, 8000, 0x7545E01C) /* PCAPRecordedObjectIID */;

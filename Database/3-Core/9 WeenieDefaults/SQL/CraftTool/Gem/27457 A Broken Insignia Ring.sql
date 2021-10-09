@@ -25,13 +25,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27457,   1, 'A Broken Insignia Ring') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27457,   1,   33554690) /* Setup */
-     , (27457,   3,  536870932) /* SoundTable */
-     , (27457,   8,  100676425) /* Icon */
-     , (27457,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27457,   1, 0x02000102) /* Setup */
+     , (27457,   3, 0x20000014) /* SoundTable */
+     , (27457,   8, 0x06003349) /* Icon */
+     , (27457,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27457, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (27457, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27457, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27457, 8000, 2967011970) /* PCAPRecordedObjectIID */;
+VALUES (27457, 8000, 0xB0D90282) /* PCAPRecordedObjectIID */;

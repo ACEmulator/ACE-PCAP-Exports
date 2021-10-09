@@ -30,20 +30,20 @@ VALUES (34442,   1, 'Colosseum Ticket Vendor') /* Name */
      , (34442, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34442,   1,   33558367) /* Setup */
-     , (34442,   2,  150994945) /* MotionTable */
-     , (34442,   3,  536870933) /* SoundTable */
-     , (34442,   8,  100674350) /* Icon */
+VALUES (34442,   1, 0x02000F5F) /* Setup */
+     , (34442,   2, 0x09000001) /* MotionTable */
+     , (34442,   3, 0x20000015) /* SoundTable */
+     , (34442,   8, 0x06002B2E) /* Icon */
      , (34442, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (34442, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (34442, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34442, 8040, 11469113, 50, -13, 0.006500006, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
+VALUES (34442, 8040, 0x00AF0139, 50, -13, 0.0065, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF0139 [50.000000 -13.000000 0.006500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34442, 8000, 3684814933) /* PCAPRecordedObjectIID */;
+VALUES (34442, 8000, 0xDBA1D055) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34442,   1, 680, 0, 0) /* Strength */

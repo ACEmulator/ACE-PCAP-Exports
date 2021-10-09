@@ -21,7 +21,8 @@ VALUES (42490,   1,       2048) /* ItemType - Gem */
      , (42490, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42490,  22, True ) /* Inscribable */;
+VALUES (42490,  22, True ) /* Inscribable */
+     , (42490,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42490, 167,      10) /* CooldownDuration */;
@@ -31,14 +32,14 @@ VALUES (42490,   1, 'Enchanted Mana Stone') /* Name */
      , (42490,  16, 'A normal looking mana stone enchanted to pick up energy from the environment on use, but won''t hold a charge.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42490,   1,   33555641) /* Setup */
-     , (42490,   3,  536870932) /* SoundTable */
-     , (42490,   8,  100676308) /* Icon */
-     , (42490,  22,  872415275) /* PhysicsEffectTable */
+VALUES (42490,   1, 0x020004B9) /* Setup */
+     , (42490,   3, 0x20000014) /* SoundTable */
+     , (42490,   8, 0x060032D4) /* Icon */
+     , (42490,  22, 0x3400002B) /* PhysicsEffectTable */
      , (42490, 8001,     553104) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (42490, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (42490, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (42490, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42490, 8000, 2979050530) /* PCAPRecordedObjectIID */;
+VALUES (42490, 8000, 0xB190B422) /* PCAPRecordedObjectIID */;

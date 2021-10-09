@@ -26,21 +26,21 @@ VALUES (46278,   1, 'Cowardly Snowman') /* Name */
      , (46278, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46278,   1,   33556222) /* Setup */
-     , (46278,   2,  150995088) /* MotionTable */
-     , (46278,   3,  536871000) /* SoundTable */
-     , (46278,   8,  100669125) /* Icon */
-     , (46278,  22,  872415346) /* PhysicsEffectTable */
+VALUES (46278,   1, 0x020006FE) /* Setup */
+     , (46278,   2, 0x09000090) /* MotionTable */
+     , (46278,   3, 0x20000058) /* SoundTable */
+     , (46278,   8, 0x060016C5) /* Icon */
+     , (46278,  22, 0x34000072) /* PhysicsEffectTable */
      , (46278, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46278, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (46278, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46278, 8040, 1481441615, 159.912, -74.5594, -18, 0.02351199, 0, 0, 0.9997236) /* PCAPRecordedLocation */
+VALUES (46278, 8040, 0x584D014F, 159.912, -74.5594, -18, 0.023512, 0, 0, 0.999724) /* PCAPRecordedLocation */
 /* @teleloc 0x584D014F [159.912000 -74.559400 -18.000000] 0.023512 0.000000 0.000000 0.999724 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46278, 8000, 3708402163) /* PCAPRecordedObjectIID */;
+VALUES (46278, 8000, 0xDD09B9F3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46278,   1, 490, 0, 0) /* Strength */

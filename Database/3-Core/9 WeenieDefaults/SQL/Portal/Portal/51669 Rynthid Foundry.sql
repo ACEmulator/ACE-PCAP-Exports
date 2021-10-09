@@ -23,16 +23,16 @@ VALUES (51669,   1, 'Rynthid Foundry') /* Name */
      , (51669, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51669,   1,   33555924) /* Setup */
-     , (51669,   2,  150994947) /* MotionTable */
-     , (51669,   8,  100667499) /* Icon */
+VALUES (51669,   1, 0x020005D4) /* Setup */
+     , (51669,   2, 0x09000003) /* MotionTable */
+     , (51669,   8, 0x0600106B) /* Icon */
      , (51669, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (51669, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (51669, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51669, 8040, 758186043, 188.051, 65.8611, 175.1155, -0.4930212, 0, 0, -0.8700173) /* PCAPRecordedLocation */
+VALUES (51669, 8040, 0x2D31003B, 188.051, 65.8611, 175.1155, -0.493021, 0, 0, -0.870017) /* PCAPRecordedLocation */
 /* @teleloc 0x2D31003B [188.051000 65.861100 175.115500] -0.493021 0.000000 0.000000 -0.870017 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51669, 8000, 1926434859) /* PCAPRecordedObjectIID */;
+VALUES (51669, 8000, 0x72D3102B) /* PCAPRecordedObjectIID */;

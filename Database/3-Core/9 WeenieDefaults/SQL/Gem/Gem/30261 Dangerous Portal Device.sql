@@ -22,13 +22,13 @@ VALUES (30261,   1, 'Dangerous Portal Device') /* Name */
      , (30261,  16, 'This device was fashioned by Shoyanen Kenchu under the direction of High Queen Elysa Strathelar. The magic of the device can only be activated if placed on a mansion hook. The magic has yet to be perfected so the device may deliver the user to one of three locations: Center of the Obsidian Plains, Valley of Death or Western Aphus Lassel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30261,   1,   33559074) /* Setup */
-     , (30261,   3,  536870932) /* SoundTable */
-     , (30261,   8,  100677182) /* Icon */
-     , (30261,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30261,   1, 0x02001222) /* Setup */
+     , (30261,   3, 0x20000014) /* SoundTable */
+     , (30261,   8, 0x0600363E) /* Icon */
+     , (30261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30261, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (30261, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30261, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30261, 8000, 2166154564) /* PCAPRecordedObjectIID */;
+VALUES (30261, 8000, 0x811CE544) /* PCAPRecordedObjectIID */;

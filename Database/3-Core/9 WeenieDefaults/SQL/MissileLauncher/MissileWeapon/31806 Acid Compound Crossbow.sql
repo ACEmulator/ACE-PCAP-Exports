@@ -15,7 +15,7 @@ VALUES (31806,   1,        256) /* ItemType - MissileWeapon */
      , (31806,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31806,  49,        109) /* WeaponTime */
      , (31806,  50,          2) /* AmmoType - Bolt */
-     , (31806,  51,          2) /* CombatUse - Missle */
+     , (31806,  51,          2) /* CombatUse - Missile */
      , (31806,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31806, 105,         10) /* ItemWorkmanship */
      , (31806, 106,        243) /* ItemSpellcraft */
@@ -56,26 +56,26 @@ VALUES (31806,   1, 'Acid Compound Crossbow') /* Name */
      , (31806,  16, 'Acid Compound Crossbow of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31806,   1,   33559665) /* Setup */
-     , (31806,   3,  536870932) /* SoundTable */
-     , (31806,   6,   67116700) /* PaletteBase */
-     , (31806,   8,  100688061) /* Icon */
-     , (31806,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31806,   1, 0x02001471) /* Setup */
+     , (31806,   3, 0x20000014) /* SoundTable */
+     , (31806,   6, 0x04001E9C) /* PaletteBase */
+     , (31806,   8, 0x060060BD) /* Icon */
+     , (31806,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31806,  37,         47) /* ItemSkillLimit - MissileWeapons */
-     , (31806,  52,  100676437) /* IconUnderlay */
+     , (31806,  52, 0x06003355) /* IconUnderlay */
      , (31806, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31806, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (31806, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (31806, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31806, 8000, 2167794221) /* PCAPRecordedObjectIID */;
+VALUES (31806, 8000, 0x8135EA2D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31806,  1332,      2)  /* StrengthSelf6 */
-     , (31806,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (31806,  2541,      2)  /* CANTRIPCOOKINGPROWESS1 */
+VALUES (31806,  1616,      2)  /* BloodDrinkerSelf6 */
      , (31806,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (31806,  2541,      2)  /* CANTRIPCOOKINGPROWESS1 */
+     , (31806,  1332,      2)  /* StrengthSelf6 */
      , (31806,  2620,      2)  /* CANTRIPPIERCINGWARD1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

@@ -24,13 +24,13 @@ VALUES (1892,   1, 'Scroll of Piercing Bane') /* Name */
 Increases a shield or piece of armor''s resistance to piercing damage by 10%. Target yourself to cast this spell on all of your equipped armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1892,   1,   33554826) /* Setup */
-     , (1892,   8,  100676654) /* Icon */
-     , (1892,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1892,   1, 0x0200018A) /* Setup */
+     , (1892,   8, 0x0600342E) /* Icon */
+     , (1892,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1892,  28,       1569) /* Spell - PiercingBane1 */
      , (1892, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1892, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1892, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1892, 8000, 2448374016) /* PCAPRecordedObjectIID */;
+VALUES (1892, 8000, 0x91EF3900) /* PCAPRecordedObjectIID */;

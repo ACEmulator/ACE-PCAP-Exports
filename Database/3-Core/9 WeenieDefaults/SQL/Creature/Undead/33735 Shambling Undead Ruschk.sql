@@ -23,21 +23,21 @@ VALUES (33735,   1, 'Shambling Undead Ruschk') /* Name */
      , (33735, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33735,   1,   33560013) /* Setup */
-     , (33735,   2,  150994951) /* MotionTable */
-     , (33735,   3,  536871101) /* SoundTable */
-     , (33735,   8,  100677373) /* Icon */
-     , (33735,  22,  872415364) /* PhysicsEffectTable */
+VALUES (33735,   1, 0x020015CD) /* Setup */
+     , (33735,   2, 0x09000007) /* MotionTable */
+     , (33735,   3, 0x200000BD) /* SoundTable */
+     , (33735,   8, 0x060036FD) /* Icon */
+     , (33735,  22, 0x34000084) /* PhysicsEffectTable */
      , (33735, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33735, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33735, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33735, 8040, 3337224240, 121.8731, 189.0531, -0.09450001, -0.2551175, 0, 0, -0.9669101) /* PCAPRecordedLocation */
+VALUES (33735, 8040, 0xC6EA0030, 121.8731, 189.0531, -0.0945, -0.255118, 0, 0, -0.96691) /* PCAPRecordedLocation */
 /* @teleloc 0xC6EA0030 [121.873100 189.053100 -0.094500] -0.255118 0.000000 0.000000 -0.966910 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33735, 8000, 3353627030) /* PCAPRecordedObjectIID */;
+VALUES (33735, 8000, 0xC7E44996) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33735,   1, 310, 0, 0) /* Strength */

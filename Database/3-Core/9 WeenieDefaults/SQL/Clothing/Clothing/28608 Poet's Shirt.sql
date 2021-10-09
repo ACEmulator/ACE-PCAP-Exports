@@ -46,24 +46,20 @@ VALUES (28608,   1, 'Poet''s Shirt') /* Name */
      , (28608,  16, 'Poet''s Shirt of Acid Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28608,   1,   33554854) /* Setup */
-     , (28608,   3,  536870932) /* SoundTable */
-     , (28608,   6,   67108990) /* PaletteBase */
-     , (28608,   8,  100682377) /* Icon */
-     , (28608,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28608,   1, 0x020001A6) /* Setup */
+     , (28608,   3, 0x20000014) /* SoundTable */
+     , (28608,   6, 0x0400007E) /* PaletteBase */
+     , (28608,   8, 0x06004A89) /* Icon */
+     , (28608,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28608, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (28608, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28608, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28608, 8000, 2174536647) /* PCAPRecordedObjectIID */;
+VALUES (28608, 8000, 0x819CCBC7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28608,  2149,      2)  /* AcidProtectionSelf7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28608, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (28608, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28608, 67115783, 44, 20)

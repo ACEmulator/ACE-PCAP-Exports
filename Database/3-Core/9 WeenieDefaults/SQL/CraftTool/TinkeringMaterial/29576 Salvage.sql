@@ -35,17 +35,17 @@ VALUES (29576,   1, 'Salvage') /* Name */
      , (29576,  15, 'A brick of granite material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29576,   1,   33554817) /* Setup */
-     , (29576,   3,  536870932) /* SoundTable */
-     , (29576,   6,   67111919) /* PaletteBase */
-     , (29576,   8,  100677150) /* Icon */
-     , (29576,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29576,   1, 0x02000181) /* Setup */
+     , (29576,   3, 0x20000014) /* SoundTable */
+     , (29576,   6, 0x04000BEF) /* PaletteBase */
+     , (29576,   8, 0x0600361E) /* Icon */
+     , (29576,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29576, 8001, 2435349528) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, MaterialType */
      , (29576, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29576, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29576, 8000, 2461815114) /* PCAPRecordedObjectIID */;
+VALUES (29576, 8000, 0x92BC514A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29576, 67111920, 0, 0);

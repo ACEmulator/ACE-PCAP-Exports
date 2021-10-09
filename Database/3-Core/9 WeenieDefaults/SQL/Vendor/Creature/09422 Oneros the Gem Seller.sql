@@ -34,21 +34,21 @@ VALUES (9422,   1, 'Oneros the Gem Seller') /* Name */
      , (9422, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9422,   1,   33557003) /* Setup */
-     , (9422,   2,  150994950) /* MotionTable */
-     , (9422,   3,  536870922) /* SoundTable */
-     , (9422,   6,   67113158) /* PaletteBase */
-     , (9422,   8,  100667447) /* Icon */
+VALUES (9422,   1, 0x02000A0B) /* Setup */
+     , (9422,   2, 0x09000006) /* MotionTable */
+     , (9422,   3, 0x2000000A) /* SoundTable */
+     , (9422,   6, 0x040010C6) /* PaletteBase */
+     , (9422,   8, 0x06001037) /* Icon */
      , (9422, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (9422, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (9422, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9422, 8040, 3663003677, 75.5066, 116.917, 20.01, 0.287496, 0, 0, -0.9577819) /* PCAPRecordedLocation */
+VALUES (9422, 8040, 0xDA55001D, 75.5066, 116.917, 20.01, 0.287496, 0, 0, -0.957782) /* PCAPRecordedLocation */
 /* @teleloc 0xDA55001D [75.506600 116.917000 20.010000] 0.287496 0.000000 0.000000 -0.957782 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9422, 8000, 2107986013) /* PCAPRecordedObjectIID */;
+VALUES (9422, 8000, 0x7DA5505D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9422,   1, 240, 0, 0) /* Strength */
@@ -72,9 +72,7 @@ VALUES (9422, 4,  9425, -1, 0, 0, False) /* Create Acid Emerald (9425) for Shop 
      , (9422, 4,  9430, -1, 0, 0, False) /* Create Lightning Sapphire (9430) for Shop */
      , (9422, 4,  9431, -1, 0, 0, False) /* Create Thorned Garnet (9431) for Shop */
      , (9422, 4,  9432, -1, 0, 0, False) /* Create Sharp Topaz (9432) for Shop */
-     , (9422, 4,  9474, -1, 0, 0, False) /* Create Calm Strength (9474) for Shop */
-     , (9422, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
-     , (9422, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */;
+     , (9422, 4,  9474, -1, 0, 0, False) /* Create Calm Strength (9474) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9422, 67113162, 0, 0);

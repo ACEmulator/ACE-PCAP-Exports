@@ -46,23 +46,23 @@ VALUES (25590,   1, 'Staff of Coercion') /* Name */
      , (25590,  16, 'A staff made of exceptionally strong, yet pliant, wood. It vibrates with some inner force.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25590,   1,   33558501) /* Setup */
-     , (25590,   3,  536870932) /* SoundTable */
-     , (25590,   6,   67111919) /* PaletteBase */
-     , (25590,   8,  100675047) /* Icon */
-     , (25590,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25590,   1, 0x02000FE5) /* Setup */
+     , (25590,   3, 0x20000014) /* SoundTable */
+     , (25590,   6, 0x04000BEF) /* PaletteBase */
+     , (25590,   8, 0x06002DE7) /* Icon */
+     , (25590,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25590, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (25590, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25590, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25590, 8000, 2174237381) /* PCAPRecordedObjectIID */;
+VALUES (25590, 8000, 0x81983AC5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25590,  1591,      2)  /* HeartSeekerSelf5 */
+VALUES (25590,  2509,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE2 */
      , (25590,  1616,      2)  /* BloodDrinkerSelf6 */
      , (25590,  1627,      2)  /* SwiftKillerSelf6 */
-     , (25590,  2509,      2)  /* CANTRIPDAGGERAPTITUDE2 */;
+     , (25590,  1591,      2)  /* HeartSeekerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25590, 67111919, 0, 0);

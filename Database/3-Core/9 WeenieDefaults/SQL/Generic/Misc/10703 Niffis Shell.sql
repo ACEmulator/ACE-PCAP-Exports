@@ -22,17 +22,17 @@ VALUES (10703,   1, 'Niffis Shell') /* Name */
      , (10703,  16, 'A large Niffis shell.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10703,   1,   33557044) /* Setup */
-     , (10703,   3,  536870932) /* SoundTable */
-     , (10703,   6,   67112937) /* PaletteBase */
-     , (10703,   8,  100671650) /* Icon */
-     , (10703,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10703,   1, 0x02000A34) /* Setup */
+     , (10703,   3, 0x20000014) /* SoundTable */
+     , (10703,   6, 0x04000FE9) /* PaletteBase */
+     , (10703,   8, 0x060020A2) /* Icon */
+     , (10703,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10703, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (10703, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10703, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10703, 8000, 2982947026) /* PCAPRecordedObjectIID */;
+VALUES (10703, 8000, 0xB1CC28D2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10703, 67112940, 0, 0);

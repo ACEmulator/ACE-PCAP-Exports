@@ -26,22 +26,22 @@ VALUES (4216,   1, 'Diamond Golem') /* Name */
      , (4216, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4216,   1,   33556439) /* Setup */
-     , (4216,   2,  150995073) /* MotionTable */
-     , (4216,   3,  536870933) /* SoundTable */
-     , (4216,   6,   67112808) /* PaletteBase */
-     , (4216,   8,  100667940) /* Icon */
-     , (4216,  22,  872415322) /* PhysicsEffectTable */
+VALUES (4216,   1, 0x020007D7) /* Setup */
+     , (4216,   2, 0x09000081) /* MotionTable */
+     , (4216,   3, 0x20000015) /* SoundTable */
+     , (4216,   6, 0x04000F68) /* PaletteBase */
+     , (4216,   8, 0x06001224) /* Icon */
+     , (4216,  22, 0x3400005A) /* PhysicsEffectTable */
      , (4216, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (4216, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4216, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4216, 8040, 2295922700, 28.85278, 73.69087, 148.3961, 0.5, 0, 0, -0.8660254) /* PCAPRecordedLocation */
+VALUES (4216, 8040, 0x88D9000C, 28.85278, 73.69087, 148.3961, 0.5, 0, 0, -0.866025) /* PCAPRecordedLocation */
 /* @teleloc 0x88D9000C [28.852780 73.690870 148.396100] 0.500000 0.000000 0.000000 -0.866025 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4216, 8000, 3685945890) /* PCAPRecordedObjectIID */;
+VALUES (4216, 8000, 0xDBB31222) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4216,   1, 250, 0, 0) /* Strength */
@@ -58,6 +58,8 @@ VALUES (4216,   1,   430, 0, 0, 555) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4216, 2, 47735,  1, 0, 0, False) /* Create Spear (47735) for Wield */
+     , (4216, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */
+     , (4216, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
      , (4216, 9, 20466,  0, 0, 0, False) /* Create Scroll of Caustic Blessing (20466) for ContainTreasure */
      , (4216, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
      , (4216, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
@@ -367,7 +369,8 @@ VALUES (4216, 2, 47735,  1, 0, 0, False) /* Create Spear (47735) for Wield */
      , (4216, 9,  3730,  0, 0, 0, False) /* Create Scroll of Drain Stamina Other VI (3730) for ContainTreasure */
      , (4216, 9, 22156,  0, 0, 0, False) /* Create Flaming Jo (22156) for ContainTreasure */
      , (4216, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
-     , (4216, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */;
+     , (4216, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */
+     , (4216, 9, 43283,  0, 0, 0, False) /* Create Scroll of Corrosion VI (43283) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4216, 67112807, 0, 0);

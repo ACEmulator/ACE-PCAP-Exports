@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (5313,   1,        256) /* ItemType - MissileWeapon */
      , (5313,   5,          5) /* EncumbranceVal */
      , (5313,   9,    8388608) /* ValidLocations - MissileAmmo */
-     , (5313,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
      , (5313,  11,       1000) /* MaxStackSize */
      , (5313,  12,          1) /* StackSize */
      , (5313,  13,          5) /* StackUnitEncumbrance */
@@ -54,29 +53,23 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5313,   1, 'Greater Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5313,   1,   33554730) /* Setup */
-     , (5313,   3,  536870932) /* SoundTable */
-     , (5313,   6,   67111919) /* PaletteBase */
-     , (5313,   8,  100670247) /* Icon */
-     , (5313,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5313,   1, 0x0200012A) /* Setup */
+     , (5313,   3, 0x20000014) /* SoundTable */
+     , (5313,   6, 0x04000BEF) /* PaletteBase */
+     , (5313,   8, 0x06001B27) /* Icon */
+     , (5313,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5313, 8001,  270775064) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (5313, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5313, 8005,     170913) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
      , (5313, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5313, 8040, 1486880827, 183.8807, 60.10794, 13.9295, 0.7013692, 0.7013692, -0.08989541, -0.08989541) /* PCAPRecordedLocation */
+VALUES (5313, 8040, 0x58A0003B, 183.8807, 60.10794, 13.9295, 0.701369, 0.701369, -0.089895, -0.089895) /* PCAPRecordedLocation */
 /* @teleloc 0x58A0003B [183.880700 60.107940 13.929500] 0.701369 0.701369 -0.089895 -0.089895 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5313, 8000, 3685193177) /* PCAPRecordedObjectIID */
-     , (5313, 8008, 3685633258) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5313, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
-     , (5313, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194) for Wield */
-     , (5313, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */
-     , (5313, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (12196) for Wield */;
+VALUES (5313, 8000, 0xDBA795D9) /* PCAPRecordedObjectIID */
+     , (5313, 8008, 0xDBAE4CEA) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5313, 67111919, 0, 0);

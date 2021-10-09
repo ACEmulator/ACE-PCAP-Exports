@@ -27,17 +27,17 @@ VALUES (32944,   1, 'Glyph of Alteration') /* Name */
      , (32944,  16, 'A small glyph representing change.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32944,   1,   33556438) /* Setup */
-     , (32944,   3,  536870932) /* SoundTable */
-     , (32944,   8,  100688855) /* Icon */
-     , (32944,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32944,   1, 0x020007D6) /* Setup */
+     , (32944,   3, 0x20000014) /* SoundTable */
+     , (32944,   8, 0x060063D7) /* Icon */
+     , (32944,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32944, 8001,    2633752) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, TargetType, Burden */
      , (32944, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32944, 8005,      39041) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32944, 8040, 9109958, 125.143, -224.361, 0, 0.9030673, 0, 0, 0.4294991) /* PCAPRecordedLocation */
+VALUES (32944, 8040, 0x008B01C6, 125.143, -224.361, 0, 0.903067, 0, 0, 0.429499) /* PCAPRecordedLocation */
 /* @teleloc 0x008B01C6 [125.143000 -224.361000 0.000000] 0.903067 0.000000 0.000000 0.429499 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32944, 8000, 3356428263) /* PCAPRecordedObjectIID */;
+VALUES (32944, 8000, 0xC80F07E7) /* PCAPRecordedObjectIID */;

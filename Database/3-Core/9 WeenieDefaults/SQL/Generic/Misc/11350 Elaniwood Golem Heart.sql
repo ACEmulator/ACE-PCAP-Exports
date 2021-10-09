@@ -21,17 +21,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11350,   1, 'Elaniwood Golem Heart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11350,   1,   33554817) /* Setup */
-     , (11350,   3,  536870932) /* SoundTable */
-     , (11350,   6,   67111919) /* PaletteBase */
-     , (11350,   8,  100671839) /* Icon */
-     , (11350,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11350,   1, 0x02000181) /* Setup */
+     , (11350,   3, 0x20000014) /* SoundTable */
+     , (11350,   6, 0x04000BEF) /* PaletteBase */
+     , (11350,   8, 0x0600215F) /* Icon */
+     , (11350,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11350, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (11350, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11350, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11350, 8000, 2157269327) /* PCAPRecordedObjectIID */;
+VALUES (11350, 8000, 0x8095514F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11350, 67111924, 0, 0);

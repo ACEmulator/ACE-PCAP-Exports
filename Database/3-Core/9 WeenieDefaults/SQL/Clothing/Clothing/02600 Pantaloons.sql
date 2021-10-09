@@ -44,17 +44,17 @@ VALUES (2600,   1, 'Pantaloons') /* Name */
      , (2600,  16, 'Pantaloons of Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2600,   1,   33554653) /* Setup */
-     , (2600,   3,  536870932) /* SoundTable */
-     , (2600,   6,   67108990) /* PaletteBase */
-     , (2600,   8,  100667370) /* Icon */
-     , (2600,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2600,   1, 0x020000DD) /* Setup */
+     , (2600,   3, 0x20000014) /* SoundTable */
+     , (2600,   6, 0x0400007E) /* PaletteBase */
+     , (2600,   8, 0x06000FEA) /* Icon */
+     , (2600,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2600, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (2600, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2600, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2600, 8000, 2164984862) /* PCAPRecordedObjectIID */;
+VALUES (2600, 8000, 0x810B0C1E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2600,  1311,      2)  /* ArmorSelf5 */;

@@ -30,18 +30,18 @@ VALUES (9431,   1, 'Thorned Garnet') /* Name */
      , (9431,  15, 'A gem of piercing protection.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9431,   1,   33554809) /* Setup */
-     , (9431,   3,  536870932) /* SoundTable */
-     , (9431,   6,   67111919) /* PaletteBase */
-     , (9431,   8,  100668364) /* Icon */
-     , (9431,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9431,   1, 0x02000179) /* Setup */
+     , (9431,   3, 0x20000014) /* SoundTable */
+     , (9431,   6, 0x04000BEF) /* PaletteBase */
+     , (9431,   8, 0x060013CC) /* Icon */
+     , (9431,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9431,  28,       2399) /* Spell - PiercingShield */
      , (9431, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (9431, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9431, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9431, 8000, 2568029326) /* PCAPRecordedObjectIID */;
+VALUES (9431, 8000, 0x9911048E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9431, 67111924, 0, 0);

@@ -17,7 +17,7 @@ VALUES (49225,   1,        128) /* ItemType - Misc */
      , (49225, 105,          8) /* ItemWorkmanship */
      , (49225, 114,          0) /* Attuned - Normal */
      , (49225, 280,        213) /* SharedCooldown */
-     , (49225, 366,         54) /* UseRequiresSkill */
+     , (49225, 366,         54) /* UseRequiresSkill - Summoning */
      , (49225, 367,        530) /* UseRequiresSkillLevel */
      , (49225, 369,        170) /* UseRequiresLevel */
      , (49225, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -35,20 +35,20 @@ VALUES (49225,   1, 'Lightning Skeleton Bushi Essence (180)') /* Name */
      , (49225,  14, 'Use this essence to summon or dismiss your Lightning Skeleton Bushi.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49225,   1,   33554817) /* Setup */
-     , (49225,   3,  536870932) /* SoundTable */
-     , (49225,   6,   67111919) /* PaletteBase */
-     , (49225,   8,  100669124) /* Icon */
-     , (49225,  22,  872415275) /* PhysicsEffectTable */
-     , (49225,  50,  100693031) /* IconOverlay */
-     , (49225,  52,  100693024) /* IconUnderlay */
+VALUES (49225,   1, 0x02000181) /* Setup */
+     , (49225,   3, 0x20000014) /* SoundTable */
+     , (49225,   6, 0x04000BEF) /* PaletteBase */
+     , (49225,   8, 0x060016C4) /* Icon */
+     , (49225,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49225,  50, 0x06007427) /* IconOverlay */
+     , (49225,  52, 0x06007420) /* IconUnderlay */
      , (49225, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
      , (49225, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49225, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49225, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49225, 8000, 3312723323) /* PCAPRecordedObjectIID */;
+VALUES (49225, 8000, 0xC574257B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49225, 67111921, 0, 0);

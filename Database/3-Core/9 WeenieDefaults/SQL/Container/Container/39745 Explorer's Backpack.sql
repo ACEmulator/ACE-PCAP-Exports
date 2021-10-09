@@ -18,6 +18,7 @@ VALUES (39745,   1,        512) /* ItemType - Container */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39745,   2, False) /* Open */
      , (39745,  22, True ) /* Inscribable */
+     , (39745,  23, True ) /* DestroyOnSell */
      , (39745,  34, False) /* DefaultOpen */
      , (39745,  69, False) /* IsSellable */
      , (39745,  99, False) /* Ivoryable */;
@@ -34,20 +35,20 @@ VALUES (39745,   1, 'Explorer''s Backpack') /* Name */
      , (39745,  16, 'An excellent backpack with extra storage for long hauls.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39745,   1,   33554769) /* Setup */
-     , (39745,   3,  536870932) /* SoundTable */
-     , (39745,   6,   67111919) /* PaletteBase */
-     , (39745,   8,  100670388) /* Icon */
-     , (39745,  22,  872415275) /* PhysicsEffectTable */
-     , (39745,  50,  100690552) /* IconOverlay */
-     , (39745,  52,  100689664) /* IconUnderlay */
+VALUES (39745,   1, 0x02000151) /* Setup */
+     , (39745,   3, 0x20000014) /* SoundTable */
+     , (39745,   6, 0x04000BEF) /* PaletteBase */
+     , (39745,   8, 0x06001BB4) /* Icon */
+     , (39745,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (39745,  50, 0x06006A78) /* IconOverlay */
+     , (39745,  52, 0x06006700) /* IconUnderlay */
      , (39745, 8001, 1075855538) /* PCAPRecordedWeenieHeader - ItemsCapacity, Usable, UseRadius, UiEffects, Container, Burden, IconOverlay */
      , (39745, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (39745, 8003,   67108883) /* PCAPRecordedObjectDesc - Openable, Inscribable, Attackable, IncludesSecondHeader */
      , (39745, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39745, 8000, 2210356918) /* PCAPRecordedObjectIID */;
+VALUES (39745, 8000, 0x83BF5EB6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39745, 67111927, 0, 0);

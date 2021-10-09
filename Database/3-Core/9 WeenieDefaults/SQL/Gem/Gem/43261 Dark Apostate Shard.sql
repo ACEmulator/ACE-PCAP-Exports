@@ -19,7 +19,8 @@ VALUES (43261,   1,       2048) /* ItemType - Gem */
      , (43261, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43261,  22, True ) /* Inscribable */;
+VALUES (43261,  22, True ) /* Inscribable */
+     , (43261,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43261,   1, 'Dark Apostate Shard') /* Name */
@@ -27,17 +28,17 @@ VALUES (43261,   1, 'Dark Apostate Shard') /* Name */
      , (43261,  16, 'A darkened shard of congealed energy, attuned to one of the Apostate Nexi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43261,   1,   33554809) /* Setup */
-     , (43261,   3,  536870932) /* SoundTable */
-     , (43261,   6,   67111919) /* PaletteBase */
-     , (43261,   8,  100691482) /* Icon */
-     , (43261,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43261,   1, 0x02000179) /* Setup */
+     , (43261,   3, 0x20000014) /* SoundTable */
+     , (43261,   6, 0x04000BEF) /* PaletteBase */
+     , (43261,   8, 0x06006E1A) /* Icon */
+     , (43261,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43261, 8001,     552976) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType */
      , (43261, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43261, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43261, 8000, 2629736295) /* PCAPRecordedObjectIID */;
+VALUES (43261, 8000, 0x9CBE9767) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43261, 67111922, 0, 0);

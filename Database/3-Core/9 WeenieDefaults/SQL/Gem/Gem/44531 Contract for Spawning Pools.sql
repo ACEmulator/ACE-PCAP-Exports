@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44531,   1, 'Contract for Spawning Pools') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44531,   1,   33557625) /* Setup */
-     , (44531,   3,  536870932) /* SoundTable */
-     , (44531,   8,  100691930) /* Icon */
-     , (44531,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44531,   1, 0x02000C79) /* Setup */
+     , (44531,   3, 0x20000014) /* SoundTable */
+     , (44531,   8, 0x06006FDA) /* Icon */
+     , (44531,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44531, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44531, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44531, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (44531,   1,   33557625) /* Setup */
      , (44531, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44531, 8000,      44531) /* PCAPRecordedObjectIID */;
+VALUES (44531, 8000, 0x0000ADF3) /* PCAPRecordedObjectIID */;

@@ -28,16 +28,16 @@ VALUES (41619,   1, 'Two Handed Weapons Glyph') /* Name */
      , (41619,  16, 'A glyph used in the construction of Atlan and Isparian weapons.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41619,   1,   33556438) /* Setup */
-     , (41619,   3,  536870932) /* SoundTable */
-     , (41619,   8,  100672877) /* Icon */
-     , (41619,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41619,   1, 0x020007D6) /* Setup */
+     , (41619,   3, 0x20000014) /* SoundTable */
+     , (41619,   8, 0x0600256D) /* Icon */
+     , (41619,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41619, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (41619, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41619, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41619, 8000, 3704082208) /* PCAPRecordedObjectIID */;
+VALUES (41619, 8000, 0xDCC7CF20) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (41619, 0, 83890737, 83886518);

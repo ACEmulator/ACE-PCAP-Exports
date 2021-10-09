@@ -51,22 +51,22 @@ VALUES (38483,   1, 'Radiant Blood Girth') /* Name */
      , (38483,  16, 'Radiant Blood Girth of Regeneration') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38483,   1,   33554647) /* Setup */
-     , (38483,   3,  536870932) /* SoundTable */
-     , (38483,   8,  100690224) /* Icon */
-     , (38483,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38483,   1, 0x020000D7) /* Setup */
+     , (38483,   3, 0x20000014) /* SoundTable */
+     , (38483,   8, 0x06006930) /* Icon */
+     , (38483,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38483, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38483, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38483, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38483, 8000, 3665217053) /* PCAPRecordedObjectIID */;
+VALUES (38483, 8000, 0xDA76C61D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38483,  2108,      2)  /* Impenetrability7 */
-     , (38483,  2185,      2)  /* RegenerationSelf7 */
-     , (38483,  3964,      2)  /* CANTRIPFOCUS3 */
+VALUES (38483,  2185,      2)  /* RegenerationSelf7 */
      , (38483,  4409,      2)  /* LightningBane8 */
+     , (38483,  2108,      2)  /* Impenetrability7 */
+     , (38483,  3964,      2)  /* CANTRIPFOCUS3 */
      , (38483,  6079,      2)  /* CantripStormWard4 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)

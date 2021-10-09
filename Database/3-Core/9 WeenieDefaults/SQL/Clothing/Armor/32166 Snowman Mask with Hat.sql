@@ -33,13 +33,13 @@ VALUES (32166,   1, 'Snowman Mask with Hat') /* Name */
      , (32166,  16, 'A Snowman Mask accessorized with a stylish hat.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32166,   1,   33559774) /* Setup */
-     , (32166,   3,  536870932) /* SoundTable */
-     , (32166,   8,  100688438) /* Icon */
-     , (32166,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32166,   1, 0x020014DE) /* Setup */
+     , (32166,   3, 0x20000014) /* SoundTable */
+     , (32166,   8, 0x06006236) /* Icon */
+     , (32166,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32166, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (32166, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32166, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32166, 8000, 2166217664) /* PCAPRecordedObjectIID */;
+VALUES (32166, 8000, 0x811DDBC0) /* PCAPRecordedObjectIID */;

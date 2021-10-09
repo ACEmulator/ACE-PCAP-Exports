@@ -41,20 +41,17 @@ VALUES (40711,   1, 'Covenant Helm') /* Name */
      , (40711,  16, 'Covenant Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40711,   1,   33557884) /* Setup */
-     , (40711,   3,  536870932) /* SoundTable */
-     , (40711,   6,   67108990) /* PaletteBase */
-     , (40711,   8,  100673442) /* Icon */
-     , (40711,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40711,   1, 0x02000D7C) /* Setup */
+     , (40711,   3, 0x20000014) /* SoundTable */
+     , (40711,   6, 0x0400007E) /* PaletteBase */
+     , (40711,   8, 0x060027A2) /* Icon */
+     , (40711,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40711, 8001, 2435137560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (40711, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40711, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40711, 8000, 3691171444) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40711, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
+VALUES (40711, 8000, 0xDC02CE74) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40711, 67113958, 240, 10);

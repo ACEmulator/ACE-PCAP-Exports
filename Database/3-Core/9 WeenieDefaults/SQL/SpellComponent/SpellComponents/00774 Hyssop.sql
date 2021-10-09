@@ -23,17 +23,17 @@ VALUES (774,   1, 'Hyssop') /* Name */
      , (774,  20, 'Sacks of Hyssop') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (774,   1,   33554817) /* Setup */
-     , (774,   3,  536870932) /* SoundTable */
-     , (774,   6,   67111919) /* PaletteBase */
-     , (774,   8,  100668426) /* Icon */
-     , (774,  22,  872415275) /* PhysicsEffectTable */
+VALUES (774,   1, 0x02000181) /* Setup */
+     , (774,   3, 0x20000014) /* SoundTable */
+     , (774,   6, 0x04000BEF) /* PaletteBase */
+     , (774,   8, 0x0600140A) /* Icon */
+     , (774,  22, 0x3400002B) /* PhysicsEffectTable */
      , (774, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (774, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (774, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (774, 8000, 2856726448) /* PCAPRecordedObjectIID */;
+VALUES (774, 8000, 0xAA462FB0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (774, 67111927, 0, 0);

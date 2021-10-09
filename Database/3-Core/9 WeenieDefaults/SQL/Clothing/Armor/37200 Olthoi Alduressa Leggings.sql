@@ -46,24 +46,24 @@ VALUES (37200,   1, 'Olthoi Alduressa Leggings') /* Name */
      , (37200,  16, 'Olthoi Alduressa Leggings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37200,   1,   33559329) /* Setup */
-     , (37200,   3,  536870932) /* SoundTable */
-     , (37200,   6,   67108990) /* PaletteBase */
-     , (37200,   8,  100690140) /* Icon */
-     , (37200,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37200,   1, 0x02001321) /* Setup */
+     , (37200,   3, 0x20000014) /* SoundTable */
+     , (37200,   6, 0x0400007E) /* PaletteBase */
+     , (37200,   8, 0x060068DC) /* Icon */
+     , (37200,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37200, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (37200, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37200, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37200, 8000, 3485450047) /* PCAPRecordedObjectIID */;
+VALUES (37200, 8000, 0xCFBFBF3F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37200,  1574,      2)  /* PiercingBane6 */
-     , (37200,  2108,      2)  /* Impenetrability7 */
+     , (37200,  6055,      2)  /* CantripInvulnerability4 */
      , (37200,  4391,      2)  /* AcidBane8 */
      , (37200,  4393,      2)  /* BladeBane8 */
-     , (37200,  6055,      2)  /* CantripInvulnerability4 */;
+     , (37200,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37200, 67116552, 72, 12)

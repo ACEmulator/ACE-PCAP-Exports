@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (10867,   1, 'Treated Canescent Mattekar Pelt') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10867,   1,   33554817) /* Setup */
-     , (10867,   3,  536870932) /* SoundTable */
-     , (10867,   8,  100672039) /* Icon */
-     , (10867,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10867,   1, 0x02000181) /* Setup */
+     , (10867,   3, 0x20000014) /* SoundTable */
+     , (10867,   8, 0x06002227) /* Icon */
+     , (10867,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10867, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (10867, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10867, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10867, 8000, 3029920509) /* PCAPRecordedObjectIID */;
+VALUES (10867, 8000, 0xB498EAFD) /* PCAPRecordedObjectIID */;

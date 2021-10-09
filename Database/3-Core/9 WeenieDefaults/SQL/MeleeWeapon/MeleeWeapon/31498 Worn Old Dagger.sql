@@ -45,16 +45,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31498,   1, 'Worn Old Dagger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31498,   1,   33559580) /* Setup */
-     , (31498,   3,  536870932) /* SoundTable */
-     , (31498,   8,  100687870) /* Icon */
-     , (31498,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31498,   1, 0x0200141C) /* Setup */
+     , (31498,   3, 0x20000014) /* SoundTable */
+     , (31498,   8, 0x06005FFE) /* Icon */
+     , (31498,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31498, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (31498, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31498, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31498, 8000, 2883763558) /* PCAPRecordedObjectIID */;
+VALUES (31498, 8000, 0xABE2BD66) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31498,  2096,      2)  /* BloodDrinkerSelf7 */

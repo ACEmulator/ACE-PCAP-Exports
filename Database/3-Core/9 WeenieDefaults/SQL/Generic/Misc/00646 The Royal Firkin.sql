@@ -19,18 +19,18 @@ VALUES (646,   1, 'The Royal Firkin') /* Name */
      , (646,  16, 'The Royal Firkin') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (646,   1,   33555088) /* Setup */
-     , (646,   8,  100668115) /* Icon */
+VALUES (646,   1, 0x02000290) /* Setup */
+     , (646,   8, 0x060012D3) /* Icon */
      , (646, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (646, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (646, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (646, 8040, 3364618247, 22.2643, 157.444, 22, 0.692773, 0, 0, 0.721156) /* PCAPRecordedLocation */
+VALUES (646, 8040, 0xC88C0007, 22.2643, 157.444, 22, 0.692773, 0, 0, 0.721156) /* PCAPRecordedLocation */
 /* @teleloc 0xC88C0007 [22.264300 157.444000 22.000000] 0.692773 0.000000 0.000000 0.721156 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (646, 8000, 2089336877) /* PCAPRecordedObjectIID */;
+VALUES (646, 8000, 0x7C88C02D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (646, 0, 83891055, 83891060);

@@ -29,14 +29,14 @@ VALUES (30798,   1, 'Black Marrow Tea') /* Name */
      , (30798,  15, 'A thick, black tea made by Samuel of Eastham. The tea does not look like a very healthy drink.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30798,   1,   33554663) /* Setup */
-     , (30798,   3,  536870932) /* SoundTable */
-     , (30798,   8,  100677488) /* Icon */
-     , (30798,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30798,   1, 0x020000E7) /* Setup */
+     , (30798,   3, 0x20000014) /* SoundTable */
+     , (30798,   8, 0x06003770) /* Icon */
+     , (30798,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30798,  28,       3799) /* Spell - BlackMarrowBliss */
      , (30798, 8001,    6844440) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (30798, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30798, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30798, 8000, 2448144588) /* PCAPRecordedObjectIID */;
+VALUES (30798, 8000, 0x91EBB8CC) /* PCAPRecordedObjectIID */;

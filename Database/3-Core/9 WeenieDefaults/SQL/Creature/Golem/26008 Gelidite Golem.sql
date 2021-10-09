@@ -26,21 +26,21 @@ VALUES (26008,   1, 'Gelidite Golem') /* Name */
      , (26008, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26008,   1,   33556439) /* Setup */
-     , (26008,   2,  150995073) /* MotionTable */
-     , (26008,   3,  536870933) /* SoundTable */
-     , (26008,   8,  100667940) /* Icon */
-     , (26008,  22,  872415322) /* PhysicsEffectTable */
+VALUES (26008,   1, 0x020007D7) /* Setup */
+     , (26008,   2, 0x09000081) /* MotionTable */
+     , (26008,   3, 0x20000015) /* SoundTable */
+     , (26008,   8, 0x06001224) /* Icon */
+     , (26008,  22, 0x3400005A) /* PhysicsEffectTable */
      , (26008, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (26008, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (26008, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (26008, 8040, 22872340, 178.8833, -17.18692, -29.99, -0.039913, 0, 0, -0.9992031) /* PCAPRecordedLocation */
+VALUES (26008, 8040, 0x015D0114, 178.8833, -17.18692, -29.99, -0.039913, 0, 0, -0.999203) /* PCAPRecordedLocation */
 /* @teleloc 0x015D0114 [178.883300 -17.186920 -29.990000] -0.039913 0.000000 0.000000 -0.999203 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26008, 8000, 3681202924) /* PCAPRecordedObjectIID */;
+VALUES (26008, 8000, 0xDB6AB2EC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26008,   1, 250, 0, 0) /* Strength */

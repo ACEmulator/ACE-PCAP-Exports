@@ -23,17 +23,17 @@ VALUES (784,   1, 'Powdered Azurite') /* Name */
      , (784,  20, 'Powdered Azurites') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (784,   1,   33555208) /* Setup */
-     , (784,   3,  536870932) /* SoundTable */
-     , (784,   6,   67111919) /* PaletteBase */
-     , (784,   8,  100669703) /* Icon */
-     , (784,  22,  872415275) /* PhysicsEffectTable */
+VALUES (784,   1, 0x02000308) /* Setup */
+     , (784,   3, 0x20000014) /* SoundTable */
+     , (784,   6, 0x04000BEF) /* PaletteBase */
+     , (784,   8, 0x06001907) /* Icon */
+     , (784,  22, 0x3400002B) /* PhysicsEffectTable */
      , (784, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (784, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (784, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (784, 8000, 3711225213) /* PCAPRecordedObjectIID */;
+VALUES (784, 8000, 0xDD34CD7D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (784, 67111919, 0, 0);

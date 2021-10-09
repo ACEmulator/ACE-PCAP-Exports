@@ -53,17 +53,17 @@ VALUES (3823,   1, 'Lightning Ken') /* Name */
      , (3823,  16, 'Lightning Ken of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3823,   1,   33555701) /* Setup */
-     , (3823,   3,  536870932) /* SoundTable */
-     , (3823,   8,  100669016) /* Icon */
-     , (3823,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3823,   1, 0x020004F5) /* Setup */
+     , (3823,   3, 0x20000014) /* SoundTable */
+     , (3823,   8, 0x06001658) /* Icon */
+     , (3823,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3823,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3823, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3823, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3823, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3823, 8000, 3698624489) /* PCAPRecordedObjectIID */;
+VALUES (3823, 8000, 0xDC7487E9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3823,  1605,      2)  /* DefenderSelf6 */

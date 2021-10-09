@@ -44,20 +44,17 @@ VALUES (31781,   1, 'Electric Spine Glaive') /* Name */
      , (31781,  16, 'Electric Spine Glaive') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31781,   1,   33559650) /* Setup */
-     , (31781,   3,  536870932) /* SoundTable */
-     , (31781,   6,   67116700) /* PaletteBase */
-     , (31781,   8,  100688104) /* Icon */
-     , (31781,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31781,   1, 0x02001462) /* Setup */
+     , (31781,   3, 0x20000014) /* SoundTable */
+     , (31781,   6, 0x04001E9C) /* PaletteBase */
+     , (31781,   8, 0x060060E8) /* Icon */
+     , (31781,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31781, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31781, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31781, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31781, 8000, 3705368130) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31781, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
+VALUES (31781, 8000, 0xDCDB6E42) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31781, 67116700, 1, 100)

@@ -23,17 +23,17 @@ VALUES (789,   1, 'Powdered Moonstone') /* Name */
      , (789,  20, 'Powdered Moonstones') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (789,   1,   33555208) /* Setup */
-     , (789,   3,  536870932) /* SoundTable */
-     , (789,   6,   67111919) /* PaletteBase */
-     , (789,   8,  100668386) /* Icon */
-     , (789,  22,  872415275) /* PhysicsEffectTable */
+VALUES (789,   1, 0x02000308) /* Setup */
+     , (789,   3, 0x20000014) /* SoundTable */
+     , (789,   6, 0x04000BEF) /* PaletteBase */
+     , (789,   8, 0x060013E2) /* Icon */
+     , (789,  22, 0x3400002B) /* PhysicsEffectTable */
      , (789, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (789, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (789, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (789, 8000, 2186220567) /* PCAPRecordedObjectIID */;
+VALUES (789, 8000, 0x824F1417) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (789, 67111927, 0, 0);

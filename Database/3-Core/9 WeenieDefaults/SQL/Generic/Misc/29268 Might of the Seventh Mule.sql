@@ -17,20 +17,21 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29268,   3, 1000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29268,  22, True ) /* Inscribable */;
+VALUES (29268,  22, True ) /* Inscribable */
+     , (29268,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29268,   1, 'Might of the Seventh Mule') /* Name */
      , (29268,  16, 'Using this gem will give you 20% more burden-carrying capacity for each gem used.  You can augment yourself five times in this way, but you will need a new gem for each augmentation.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29268,   1,   33554809) /* Setup */
-     , (29268,   3,  536870932) /* SoundTable */
-     , (29268,   8,  100686474) /* Icon */
-     , (29268,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29268,   1, 0x02000179) /* Setup */
+     , (29268,   3, 0x20000014) /* SoundTable */
+     , (29268,   8, 0x06005A8A) /* Icon */
+     , (29268,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29268, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (29268, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29268, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29268, 8000, 3231350413) /* PCAPRecordedObjectIID */;
+VALUES (29268, 8000, 0xC09A7E8D) /* PCAPRecordedObjectIID */;

@@ -18,7 +18,8 @@ VALUES (44267,   1,        128) /* ItemType - Misc */
      , (44267, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44267,  69, False) /* IsSellable */;
+VALUES (44267,  23, True ) /* DestroyOnSell */
+     , (44267,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44267,   1, 'Engraved A''nekshay Bracers') /* Name */
@@ -26,20 +27,17 @@ VALUES (44267,   1, 'Engraved A''nekshay Bracers') /* Name */
      , (44267,  20, 'Engraved A''nekshay Bracers') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44267,   1,   33554683) /* Setup */
-     , (44267,   3,  536870932) /* SoundTable */
-     , (44267,   6,   67111919) /* PaletteBase */
-     , (44267,   8,  100691961) /* Icon */
-     , (44267,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44267,   1, 0x020000FB) /* Setup */
+     , (44267,   3, 0x20000014) /* SoundTable */
+     , (44267,   6, 0x04000BEF) /* PaletteBase */
+     , (44267,   8, 0x06006FF9) /* Icon */
+     , (44267,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44267, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (44267, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44267, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44267, 8000, 2466941495) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44267, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (44267, 8000, 0x930A8A37) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44267, 67111921, 0, 0);

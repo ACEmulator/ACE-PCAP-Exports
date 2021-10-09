@@ -20,13 +20,13 @@ VALUES (246,   1, 'Hearth') /* Name */
      , (246,  15, 'You can use this item on floor hooks.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (246,   1,   33557448) /* Setup */
-     , (246,   3,  536870932) /* SoundTable */
-     , (246,   8,  100672429) /* Icon */
-     , (246,  22,  872415275) /* PhysicsEffectTable */
+VALUES (246,   1, 0x02000BC8) /* Setup */
+     , (246,   3, 0x20000014) /* SoundTable */
+     , (246,   8, 0x060023AD) /* Icon */
+     , (246,  22, 0x3400002B) /* PhysicsEffectTable */
      , (246, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (246, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (246, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (246, 8000, 2148135215) /* PCAPRecordedObjectIID */;
+VALUES (246, 8000, 0x8009F12F) /* PCAPRecordedObjectIID */;

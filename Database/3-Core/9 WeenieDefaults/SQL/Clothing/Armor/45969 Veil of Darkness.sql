@@ -8,7 +8,6 @@ VALUES (45969,   1,          2) /* ItemType - Armor */
      , (45969,   4,      16384) /* ClothingPriority - Head */
      , (45969,   5,        330) /* EncumbranceVal */
      , (45969,   9,          1) /* ValidLocations - HeadWear */
-     , (45969,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (45969,  16,          1) /* ItemUseable - No */
      , (45969,  19,        100) /* Value */
      , (45969,  28,        480) /* ArmorLevel */
@@ -27,6 +26,7 @@ VALUES (45969,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45969,  22, True ) /* Inscribable */
+     , (45969,  23, True ) /* DestroyOnSell */
      , (45969,  99, True ) /* Ivoryable */
      , (45969, 100, False) /* Dyable */;
 
@@ -45,25 +45,25 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45969,   1, 'Veil of Darkness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45969,   1,   33557385) /* Setup */
-     , (45969,   3,  536870932) /* SoundTable */
-     , (45969,   8,  100672217) /* Icon */
-     , (45969,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45969,   1, 0x02000B89) /* Setup */
+     , (45969,   3, 0x20000014) /* SoundTable */
+     , (45969,   8, 0x060022D9) /* Icon */
+     , (45969,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45969, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (45969, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45969, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45969, 8000, 3042026467) /* PCAPRecordedObjectIID */;
+VALUES (45969, 8000, 0xB551A3E3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45969,   244,      2)  /* InvulnerabilityOther6 */
-     , (45969,   255,      2)  /* ImpregnabilityOther6 */
+VALUES (45969,  1486,      2)  /* Impenetrability6 */
      , (45969,   273,      2)  /* MagicResistanceOther6 */
-     , (45969,   568,      2)  /* CreatureEnchantmentMasteryOther6 */
-     , (45969,  1486,      2)  /* Impenetrability6 */
+     , (45969,   244,      2)  /* InvulnerabilityOther6 */
      , (45969,  2549,      2)  /* CANTRIPIMPREGNABILITY1 */
-     , (45969,  2550,      2)  /* CANTRIPINVULNERABILITY1 */;
+     , (45969,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
+     , (45969,   568,      2)  /* CreatureEnchantmentMasteryOther6 */
+     , (45969,   255,      2)  /* ImpregnabilityOther6 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (45969, 0, 16787408);

@@ -21,11 +21,11 @@ VALUES (22254,   1, 'Gharu''ndim Rug') /* Name */
      , (22254,  15, 'A beautifully hand crafted Gharu''ndim rug.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22254,   1,   33558154) /* Setup */
-     , (22254,   8,  100673907) /* Icon */
+VALUES (22254,   1, 0x02000E8A) /* Setup */
+     , (22254,   8, 0x06002973) /* Icon */
      , (22254, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (22254, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22254, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22254, 8000, 2166106116) /* PCAPRecordedObjectIID */;
+VALUES (22254, 8000, 0x811C2804) /* PCAPRecordedObjectIID */;

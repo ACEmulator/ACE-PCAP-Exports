@@ -22,21 +22,21 @@ VALUES (36177,   1, 'Pillar of Lightning') /* Name */
      , (36177, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36177,   1,   33560373) /* Setup */
-     , (36177,   2,  150995290) /* MotionTable */
-     , (36177,   3,  536871001) /* SoundTable */
-     , (36177,   8,  100670581) /* Icon */
-     , (36177,  22,  872415389) /* PhysicsEffectTable */
+VALUES (36177,   1, 0x02001735) /* Setup */
+     , (36177,   2, 0x0900015A) /* MotionTable */
+     , (36177,   3, 0x20000059) /* SoundTable */
+     , (36177,   8, 0x06001C75) /* Icon */
+     , (36177,  22, 0x3400009D) /* PhysicsEffectTable */
      , (36177, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (36177, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (36177, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36177, 8040, 12321031, 29.57717, -15.43706, -36.00335, -0.8896, 0, 0, -0.4567405) /* PCAPRecordedLocation */
+VALUES (36177, 8040, 0x00BC0107, 29.57717, -15.43706, -36.00335, -0.8896, 0, 0, -0.456741) /* PCAPRecordedLocation */
 /* @teleloc 0x00BC0107 [29.577170 -15.437060 -36.003350] -0.889600 0.000000 0.000000 -0.456741 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36177, 8000, 3701990950) /* PCAPRecordedObjectIID */;
+VALUES (36177, 8000, 0xDCA7E626) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36177,   1,  90, 0, 0) /* Strength */

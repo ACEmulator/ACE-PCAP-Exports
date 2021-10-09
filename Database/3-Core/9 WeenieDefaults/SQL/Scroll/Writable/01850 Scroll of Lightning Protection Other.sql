@@ -24,13 +24,13 @@ VALUES (1850,   1, 'Scroll of Lightning Protection Other') /* Name */
 Reduces damage the target takes from Lightning by 9%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1850,   1,   33554826) /* Setup */
-     , (1850,   8,  100676948) /* Icon */
-     , (1850,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1850,   1, 0x0200018A) /* Setup */
+     , (1850,   8, 0x06003554) /* Icon */
+     , (1850,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1850,  28,       1072) /* Spell - LightningProtectionOther1 */
      , (1850, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (1850, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1850, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1850, 8000, 2628973011) /* PCAPRecordedObjectIID */;
+VALUES (1850, 8000, 0x9CB2F1D3) /* PCAPRecordedObjectIID */;

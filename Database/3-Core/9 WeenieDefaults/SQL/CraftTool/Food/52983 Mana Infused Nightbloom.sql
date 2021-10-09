@@ -19,7 +19,8 @@ VALUES (52983,   1,         32) /* ItemType - Food */
      , (52983, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52983,  69, False) /* IsSellable */;
+VALUES (52983,  23, True ) /* DestroyOnSell */
+     , (52983,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52983,  39,     0.9) /* DefaultScale */;
@@ -31,13 +32,13 @@ VALUES (52983,   1, 'Mana Infused Nightbloom') /* Name */
      , (52983,  20, 'Mana Infused Nightblooms') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52983,   1,   33560322) /* Setup */
-     , (52983,   3,  536870932) /* SoundTable */
-     , (52983,   8,  100689548) /* Icon */
-     , (52983,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52983,   1, 0x02001702) /* Setup */
+     , (52983,   3, 0x20000014) /* SoundTable */
+     , (52983,   8, 0x0600668C) /* Icon */
+     , (52983,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52983, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (52983, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (52983, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52983, 8000, 2147529026) /* PCAPRecordedObjectIID */;
+VALUES (52983, 8000, 0x8000B142) /* PCAPRecordedObjectIID */;

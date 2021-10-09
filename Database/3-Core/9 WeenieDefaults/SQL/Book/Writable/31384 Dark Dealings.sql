@@ -21,13 +21,13 @@ VALUES (31384,   1, 'Dark Dealings') /* Name */
      , (31384,  16, 'A note that describes a task suitable for level 90 or greater characters.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31384,   1,   33554773) /* Setup */
-     , (31384,   3,  536870932) /* SoundTable */
-     , (31384,   8,  100675746) /* Icon */
-     , (31384,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31384,   1, 0x02000155) /* Setup */
+     , (31384,   3, 0x20000014) /* SoundTable */
+     , (31384,   8, 0x060030A2) /* Icon */
+     , (31384,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31384, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (31384, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (31384, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31384, 8000, 2161047749) /* PCAPRecordedObjectIID */;
+VALUES (31384, 8000, 0x80CEF8C5) /* PCAPRecordedObjectIID */;

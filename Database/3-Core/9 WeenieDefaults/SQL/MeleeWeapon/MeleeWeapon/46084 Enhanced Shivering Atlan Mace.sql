@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46084,   1, 'Enhanced Shivering Atlan Mace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46084,   1,   33556382) /* Setup */
-     , (46084,   3,  536870932) /* SoundTable */
-     , (46084,   6,   67111919) /* PaletteBase */
-     , (46084,   8,  100670538) /* Icon */
-     , (46084,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46084,   1, 0x0200079E) /* Setup */
+     , (46084,   3, 0x20000014) /* SoundTable */
+     , (46084,   6, 0x04000BEF) /* PaletteBase */
+     , (46084,   8, 0x06001C4A) /* Icon */
+     , (46084,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46084, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (46084, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46084, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46084, 8000, 2148597918) /* PCAPRecordedObjectIID */;
+VALUES (46084, 8000, 0x8011009E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46084, 67111919, 0, 0);

@@ -18,7 +18,7 @@ VALUES (30498,   1,        256) /* ItemType - MissileWeapon */
      , (30498,  45,          2) /* DamageType - Pierce */
      , (30498,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30498,  49,         10) /* WeaponTime */
-     , (30498,  51,          2) /* CombatUse - Missle */
+     , (30498,  51,          2) /* CombatUse - Missile */
      , (30498,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30498, 114,          1) /* Attuned - Attuned */
      , (30498, 353,         10) /* WeaponType - Thrown */
@@ -26,7 +26,8 @@ VALUES (30498,   1,        256) /* ItemType - MissileWeapon */
      , (30498, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30498,  22, True ) /* Inscribable */;
+VALUES (30498,  22, True ) /* Inscribable */
+     , (30498,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30498,  21,       0) /* WeaponLength */
@@ -41,13 +42,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30498,   1, 'Lou Ka''s Shouken') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30498,   1,   33554752) /* Setup */
-     , (30498,   3,  536870932) /* SoundTable */
-     , (30498,   8,  100667605) /* Icon */
-     , (30498,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30498,   1, 0x02000140) /* Setup */
+     , (30498,   3, 0x20000014) /* SoundTable */
+     , (30498,   8, 0x060010D5) /* Icon */
+     , (30498,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30498, 8001,    2191896) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden */
      , (30498, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30498, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30498, 8000, 2157273441) /* PCAPRecordedObjectIID */;
+VALUES (30498, 8000, 0x80956161) /* PCAPRecordedObjectIID */;

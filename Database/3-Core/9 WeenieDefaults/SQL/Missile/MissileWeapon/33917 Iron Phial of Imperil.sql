@@ -13,7 +13,7 @@ VALUES (33917,   1,        256) /* ItemType - MissileWeapon */
      , (33917,  15,         25) /* StackUnitValue */
      , (33917,  16,          1) /* ItemUseable - No */
      , (33917,  19,         25) /* Value */
-     , (33917,  51,          2) /* CombatUse - Missle */
+     , (33917,  51,          2) /* CombatUse - Missile */
      , (33917,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (33917, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
@@ -27,18 +27,18 @@ VALUES (33917,   1, 'Iron Phial of Imperil') /* Name */
      , (33917,  20, 'Iron Phials of Imperil') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33917,   1,   33560312) /* Setup */
-     , (33917,   3,  536870932) /* SoundTable */
-     , (33917,   6,   67111919) /* PaletteBase */
-     , (33917,   8,  100689522) /* Icon */
-     , (33917,  22,  872415275) /* PhysicsEffectTable */
-     , (33917,  50,  100689523) /* IconOverlay */
+VALUES (33917,   1, 0x020016F8) /* Setup */
+     , (33917,   3, 0x20000014) /* SoundTable */
+     , (33917,   6, 0x04000BEF) /* PaletteBase */
+     , (33917,   8, 0x06006672) /* Icon */
+     , (33917,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (33917,  50, 0x06006673) /* IconOverlay */
      , (33917, 8001, 1075933721) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, IconOverlay */
      , (33917, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (33917, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33917, 8000, 3655664277) /* PCAPRecordedObjectIID */;
+VALUES (33917, 8000, 0xD9E50295) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33917, 67111927, 0, 0);

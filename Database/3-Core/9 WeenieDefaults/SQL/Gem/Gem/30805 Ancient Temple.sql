@@ -31,20 +31,20 @@ VALUES (30805,   1, 'Ancient Temple') /* Name */
      , (30805,  14, 'Double click this gem to summon a portal to the Falatacot Temple and seek out the Living Tome.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30805,   1,   33556769) /* Setup */
-     , (30805,   3,  536870932) /* SoundTable */
-     , (30805,   6,   67111919) /* PaletteBase */
-     , (30805,   8,  100668364) /* Icon */
-     , (30805,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30805,   1, 0x02000921) /* Setup */
+     , (30805,   3, 0x20000014) /* SoundTable */
+     , (30805,   6, 0x04000BEF) /* PaletteBase */
+     , (30805,   8, 0x060013CC) /* Icon */
+     , (30805,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30805,  28,        157) /* Spell - SummonPortal1 */
-     , (30805,  50,  100676404) /* IconOverlay */
+     , (30805,  50, 0x06003334) /* IconOverlay */
      , (30805, 8001, 1349021720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30805, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (30805, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (30805, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30805, 8000, 2164009039) /* PCAPRecordedObjectIID */;
+VALUES (30805, 8000, 0x80FC284F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30805, 67111924, 0, 0);

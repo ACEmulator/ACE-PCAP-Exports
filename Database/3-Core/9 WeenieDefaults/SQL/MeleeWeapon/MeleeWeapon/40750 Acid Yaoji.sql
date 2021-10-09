@@ -53,20 +53,20 @@ VALUES (40750,   1, 'Acid Yaoji') /* Name */
      , (40750,  16, 'Acid Yaoji of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40750,   1,   33555804) /* Setup */
-     , (40750,   3,  536870932) /* SoundTable */
-     , (40750,   8,  100667621) /* Icon */
-     , (40750,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40750,   1, 0x0200055C) /* Setup */
+     , (40750,   3, 0x20000014) /* SoundTable */
+     , (40750,   8, 0x060010E5) /* Icon */
+     , (40750,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40750,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (40750, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40750, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40750, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40750, 8000, 2624395253) /* PCAPRecordedObjectIID */;
+VALUES (40750, 8000, 0x9C6D17F5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40750,  1354,      2)  /* EnduranceSelf6 */
-     , (40750,  2101,      2)  /* DefenderSelf7 */
-     , (40750,  2116,      2)  /* SwiftKillerSelf7 */
-     , (40750,  4395,      2)  /* BloodDrinkerSelf8 */;
+VALUES (40750,  2116,      2)  /* SwiftKillerSelf7 */
+     , (40750,  1354,      2)  /* EnduranceSelf6 */
+     , (40750,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (40750,  2101,      2)  /* DefenderSelf7 */;

@@ -18,7 +18,8 @@ VALUES (43908,   1,        128) /* ItemType - Misc */
      , (43908, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43908,  69, False) /* IsSellable */;
+VALUES (43908,  23, True ) /* DestroyOnSell */
+     , (43908,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43908,  39,     0.5) /* DefaultScale */;
@@ -30,13 +31,13 @@ VALUES (43908,   1, 'Box Of Ten Small Olthoi Venom Sacs') /* Name */
      , (43908,  20, 'Boxes Of Ten Small Olthoi Venom Sacs') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43908,   1,   33554718) /* Setup */
-     , (43908,   3,  536870932) /* SoundTable */
-     , (43908,   8,  100691796) /* Icon */
-     , (43908,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43908,   1, 0x0200011E) /* Setup */
+     , (43908,   3, 0x20000014) /* SoundTable */
+     , (43908,   8, 0x06006F54) /* Icon */
+     , (43908,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43908, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (43908, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43908, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43908, 8000, 2885046686) /* PCAPRecordedObjectIID */;
+VALUES (43908, 8000, 0xABF6519E) /* PCAPRecordedObjectIID */;

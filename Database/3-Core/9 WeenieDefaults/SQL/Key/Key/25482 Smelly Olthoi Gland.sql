@@ -27,16 +27,16 @@ VALUES (25482,   1, 'Smelly Olthoi Gland') /* Name */
      , (25482,  16, 'A smelly, slimy olthoi gland.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25482,   1,   33556232) /* Setup */
-     , (25482,   3,  536870932) /* SoundTable */
-     , (25482,   8,  100674711) /* Icon */
-     , (25482,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25482,   1, 0x02000708) /* Setup */
+     , (25482,   3, 0x20000014) /* SoundTable */
+     , (25482,   8, 0x06002C97) /* Icon */
+     , (25482,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25482, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (25482, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25482, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25482, 8000, 3708905814) /* PCAPRecordedObjectIID */;
+VALUES (25482, 8000, 0xDD116956) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (25482, 0, 83888868, 83892604);

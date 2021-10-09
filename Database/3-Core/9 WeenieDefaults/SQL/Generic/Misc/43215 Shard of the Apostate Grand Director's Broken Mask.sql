@@ -14,7 +14,8 @@ VALUES (43215,   1,        128) /* ItemType - Misc */
      , (43215, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43215,  22, True ) /* Inscribable */;
+VALUES (43215,  22, True ) /* Inscribable */
+     , (43215,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43215,  39,     0.5) /* DefaultScale */;
@@ -24,17 +25,17 @@ VALUES (43215,   1, 'Shard of the Apostate Grand Director''s Broken Mask') /* Na
      , (43215,  15, 'This broken mask shard was taken from the Grand Director at the heart of the Apostate Nexi.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43215,   1,   33561077) /* Setup */
-     , (43215,   3,  536870932) /* SoundTable */
-     , (43215,   6,   67108990) /* PaletteBase */
-     , (43215,   8,  100691484) /* Icon */
-     , (43215,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43215,   1, 0x020019F5) /* Setup */
+     , (43215,   3, 0x20000014) /* SoundTable */
+     , (43215,   6, 0x0400007E) /* PaletteBase */
+     , (43215,   8, 0x06006E1C) /* Icon */
+     , (43215,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43215, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (43215, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43215, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43215, 8000, 3707038790) /* PCAPRecordedObjectIID */;
+VALUES (43215, 8000, 0xDCF4EC46) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43215, 67116923, 240, 16);

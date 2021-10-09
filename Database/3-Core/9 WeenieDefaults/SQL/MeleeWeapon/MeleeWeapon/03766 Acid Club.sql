@@ -54,20 +54,20 @@ VALUES (3766,   1, 'Acid Club') /* Name */
      , (3766,  16, 'Acid Club of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3766,   1,   33555727) /* Setup */
-     , (3766,   3,  536870932) /* SoundTable */
-     , (3766,   8,  100668855) /* Icon */
-     , (3766,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3766,   1, 0x0200050F) /* Setup */
+     , (3766,   3, 0x20000014) /* SoundTable */
+     , (3766,   8, 0x060015B7) /* Icon */
+     , (3766,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3766,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3766, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3766, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3766, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3766, 8000, 3701027319) /* PCAPRecordedObjectIID */;
+VALUES (3766, 8000, 0xDC9931F7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3766,  1591,      2)  /* HeartSeekerSelf5 */
-     , (3766,  1604,      2)  /* DefenderSelf5 */
+VALUES (3766,  1604,      2)  /* DefenderSelf5 */
      , (3766,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (3766,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;
+     , (3766,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (3766,  1591,      2)  /* HeartSeekerSelf5 */;

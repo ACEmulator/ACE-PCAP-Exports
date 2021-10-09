@@ -54,25 +54,22 @@ VALUES (31765,   1, 'Acid Lugian Hammer') /* Name */
      , (31765,  16, 'Acid Lugian Hammer of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31765,   1,   33559673) /* Setup */
-     , (31765,   3,  536870932) /* SoundTable */
-     , (31765,   6,   67116700) /* PaletteBase */
-     , (31765,   8,  100688030) /* Icon */
-     , (31765,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31765,   1, 0x02001479) /* Setup */
+     , (31765,   3, 0x20000014) /* SoundTable */
+     , (31765,   6, 0x04001E9C) /* PaletteBase */
+     , (31765,   8, 0x0600609E) /* Icon */
+     , (31765,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31765,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (31765, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (31765, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31765, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31765, 8000, 3690298018) /* PCAPRecordedObjectIID */;
+VALUES (31765, 8000, 0xDBF57AA2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31765,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (31765,  2521,      2)  /* CANTRIPLOCKPICKPROWESS2 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31765, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
+VALUES (31765,  2521,      2)  /* CANTRIPLOCKPICKPROWESS2 */
+     , (31765,  2096,      2)  /* BloodDrinkerSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31765, 67116700, 1, 100)

@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40257,   1, 'Journal of Failed Vengeance') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40257,   1,   33554771) /* Setup */
-     , (40257,   3,  536870932) /* SoundTable */
-     , (40257,   8,  100668117) /* Icon */
-     , (40257,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40257,   1, 0x02000153) /* Setup */
+     , (40257,   3, 0x20000014) /* SoundTable */
+     , (40257,   8, 0x060012D5) /* Icon */
+     , (40257,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40257, 8001,  270549040) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden, HookType */
      , (40257, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (40257, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40257, 8000, 3685087723) /* PCAPRecordedObjectIID */;
+VALUES (40257, 8000, 0xDBA5F9EB) /* PCAPRecordedObjectIID */;

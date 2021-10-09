@@ -24,12 +24,12 @@ VALUES (1451,   1, 'Special Cheese') /* Name */
      , (1451,  20, 'Pieces of Special Cheese') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1451,   1,   33554672) /* Setup */
-     , (1451,   8,  100667458) /* Icon */
-     , (1451,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1451,   1, 0x020000F0) /* Setup */
+     , (1451,   8, 0x06001042) /* Icon */
+     , (1451,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1451, 8001,    2125977) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (1451, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (1451, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1451, 8000, 2192740957) /* PCAPRecordedObjectIID */;
+VALUES (1451, 8000, 0x82B2925D) /* PCAPRecordedObjectIID */;

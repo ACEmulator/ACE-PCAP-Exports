@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (11355,   1,          8) /* ItemType - Jewelry */
      , (11355,   5,        100) /* EncumbranceVal */
      , (11355,   9,      32768) /* ValidLocations - NeckWear */
-     , (11355,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (11355,  16,          1) /* ItemUseable - No */
      , (11355,  19,        150) /* Value */
      , (11355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
@@ -24,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11355,   1, 'Aun Pendant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11355,   1,   33557219) /* Setup */
-     , (11355,   3,  536870932) /* SoundTable */
-     , (11355,   8,  100671832) /* Icon */
-     , (11355,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11355,   1, 0x02000AE3) /* Setup */
+     , (11355,   3, 0x20000014) /* SoundTable */
+     , (11355,   8, 0x06002158) /* Icon */
+     , (11355,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11355, 8001,  270762008) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (11355, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11355, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11355, 8000, 2906759023) /* PCAPRecordedObjectIID */;
+VALUES (11355, 8000, 0xAD419F6F) /* PCAPRecordedObjectIID */;

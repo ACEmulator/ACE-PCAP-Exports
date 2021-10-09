@@ -24,13 +24,13 @@ VALUES (3283,   1, 'Scroll of Impregnability Other II') /* Name */
 Increases the target''s Missile Defense skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3283,   1,   33554826) /* Setup */
-     , (3283,   8,  100676468) /* Icon */
-     , (3283,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3283,   1, 0x0200018A) /* Setup */
+     , (3283,   8, 0x06003374) /* Icon */
+     , (3283,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3283,  28,        251) /* Spell - ImpregnabilityOther2 */
      , (3283, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3283, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3283, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3283, 8000, 3692420388) /* PCAPRecordedObjectIID */;
+VALUES (3283, 8000, 0xDC15DD24) /* PCAPRecordedObjectIID */;

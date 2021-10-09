@@ -17,7 +17,7 @@ VALUES (32642,   1,        256) /* ItemType - MissileWeapon */
      , (32642,  48,         47) /* WeaponSkill - MissileWeapons */
      , (32642,  49,         20) /* WeaponTime */
      , (32642,  50,          2) /* AmmoType - Bolt */
-     , (32642,  51,          2) /* CombatUse - Missle */
+     , (32642,  51,          2) /* CombatUse - Missile */
      , (32642,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32642, 114,          1) /* Attuned - Attuned */
      , (32642, 151,          2) /* HookType - Wall */
@@ -32,6 +32,7 @@ VALUES (32642,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32642,  22, True ) /* Inscribable */
+     , (32642,  23, True ) /* DestroyOnSell */
      , (32642,  69, False) /* IsSellable */
      , (32642,  99, True ) /* Ivoryable */;
 
@@ -51,17 +52,17 @@ VALUES (32642,   1, 'Shadowfire Isparian Crossbow') /* Name */
      , (32642,  16, 'A Perfect Isparian Crossbow, infused with the power of the Shadowfire Stone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32642,   1,   33559820) /* Setup */
-     , (32642,   3,  536870932) /* SoundTable */
-     , (32642,   6,   67111919) /* PaletteBase */
-     , (32642,   8,  100688563) /* Icon */
-     , (32642,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32642,   1, 0x0200150C) /* Setup */
+     , (32642,   3, 0x20000014) /* SoundTable */
+     , (32642,   6, 0x04000BEF) /* PaletteBase */
+     , (32642,   8, 0x060062B3) /* Icon */
+     , (32642,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32642, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (32642, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32642, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32642, 8000, 2208818557) /* PCAPRecordedObjectIID */;
+VALUES (32642, 8000, 0x83A7E57D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32642, 67111927, 0, 0);

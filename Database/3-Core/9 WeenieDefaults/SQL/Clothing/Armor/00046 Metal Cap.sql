@@ -33,20 +33,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46,   1, 'Metal Cap') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46,   1,   33554643) /* Setup */
-     , (46,   3,  536870932) /* SoundTable */
-     , (46,   6,   67108990) /* PaletteBase */
-     , (46,   8,  100668166) /* Icon */
-     , (46,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46,   1, 0x020000D3) /* Setup */
+     , (46,   3, 0x20000014) /* SoundTable */
+     , (46,   6, 0x0400007E) /* PaletteBase */
+     , (46,   8, 0x06001306) /* Icon */
+     , (46,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (46, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46, 8000, 3698459841) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+VALUES (46, 8000, 0xDC7204C1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (46, 67110015, 250, 6);

@@ -8,7 +8,6 @@ VALUES (41200,   1,          2) /* ItemType - Armor */
      , (41200,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (41200,   5,       2000) /* EncumbranceVal */
      , (41200,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
-     , (41200,  10,      25600) /* CurrentWieldedLocation - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (41200,  19,          0) /* Value */
      , (41200,  28,        660) /* ArmorLevel */
      , (41200,  33,          1) /* Bonded - Bonded */
@@ -42,28 +41,28 @@ VALUES (41200,   1, 'Leggings of Darkness') /* Name */
      , (41200,  16, 'This piece of armor once belonged to the unknown warrior. Touching this armor fills your head with chaotic thoughts.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41200,   1,   33559329) /* Setup */
-     , (41200,   3,  536870932) /* SoundTable */
-     , (41200,   6,   67108990) /* PaletteBase */
-     , (41200,   8,  100690132) /* Icon */
-     , (41200,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41200,   1, 0x02001321) /* Setup */
+     , (41200,   3, 0x20000014) /* SoundTable */
+     , (41200,   6, 0x0400007E) /* PaletteBase */
+     , (41200,   8, 0x060068D4) /* Icon */
+     , (41200,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41200, 8001,    2588672) /* PCAPRecordedWeenieHeader - Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (41200, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41200, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41200, 8000, 2460691367) /* PCAPRecordedObjectIID */;
+VALUES (41200, 8000, 0x92AB2BA7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41200,  2092,      2)  /* AcidBane7 */
+VALUES (41200,  2113,      2)  /* PiercingBane7 */
+     , (41200,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */
+     , (41200,  2092,      2)  /* AcidBane7 */
      , (41200,  2094,      2)  /* BladeBane7 */
      , (41200,  2098,      2)  /* BludgeonBane7 */
      , (41200,  2102,      2)  /* FlameBane7 */
      , (41200,  2104,      2)  /* FrostBane7 */
      , (41200,  2108,      2)  /* Impenetrability7 */
-     , (41200,  2110,      2)  /* LightningBane7 */
-     , (41200,  2113,      2)  /* PiercingBane7 */
-     , (41200,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */;
+     , (41200,  2110,      2)  /* LightningBane7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41200, 67114452, 72, 12)

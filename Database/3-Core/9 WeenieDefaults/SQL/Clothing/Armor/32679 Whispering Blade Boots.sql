@@ -42,18 +42,18 @@ VALUES (32679,   1, 'Whispering Blade Boots') /* Name */
      , (32679,  16, 'Well-crafted armored boots, known to be worn by members of the mysterious Whispering Blade.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32679,   1,   33559834) /* Setup */
-     , (32679,   3,  536870932) /* SoundTable */
-     , (32679,   8,  100688591) /* Icon */
-     , (32679,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32679,   1, 0x0200151A) /* Setup */
+     , (32679,   3, 0x20000014) /* SoundTable */
+     , (32679,   8, 0x060062CF) /* Icon */
+     , (32679,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32679, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (32679, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32679, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32679, 8000, 2149206085) /* PCAPRecordedObjectIID */;
+VALUES (32679, 8000, 0x801A4845) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32679,  1402,      2)  /* QuicknessSelf6 */
-     , (32679,  2108,      2)  /* Impenetrability7 */
-     , (32679,  2662,      2)  /* ModerateQuickness */;
+VALUES (32679,  2662,      2)  /* ModerateQuickness */
+     , (32679,  1402,      2)  /* QuicknessSelf6 */
+     , (32679,  2108,      2)  /* Impenetrability7 */;

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19572,   1,          8) /* ItemType - Jewelry */
      , (19572,   5,        150) /* EncumbranceVal */
      , (19572,   9,      32768) /* ValidLocations - NeckWear */
-     , (19572,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (19572,  16,          1) /* ItemUseable - No */
      , (19572,  18,          1) /* UiEffects - Magical */
      , (19572,  19,       5000) /* Value */
@@ -26,6 +25,7 @@ VALUES (19572,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19572,  22, True ) /* Inscribable */
+     , (19572,  23, True ) /* DestroyOnSell */
      , (19572,  69, False) /* IsSellable */
      , (19572,  94, True ) /* AppraisalHasAllowedActivator */
      , (19572,  99, True ) /* Ivoryable */;
@@ -40,17 +40,17 @@ VALUES (19572,   1, 'Nuhmudira''s Bestowment of Coordination and Slash Defense')
      , (19572,  25, 'Turak') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19572,   1,   33554687) /* Setup */
-     , (19572,   3,  536870932) /* SoundTable */
-     , (19572,   6,   67111919) /* PaletteBase */
-     , (19572,   8,  100672963) /* Icon */
-     , (19572,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19572,   1, 0x020000FF) /* Setup */
+     , (19572,   3, 0x20000014) /* SoundTable */
+     , (19572,   6, 0x04000BEF) /* PaletteBase */
+     , (19572,   8, 0x060025C3) /* Icon */
+     , (19572,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19572, 8001,  270762136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (19572, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19572, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19572, 8000, 2771304883) /* PCAPRecordedObjectIID */;
+VALUES (19572, 8000, 0xA52EC1B3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (19572,  1119,      2)  /* BladeProtectionOther5 */

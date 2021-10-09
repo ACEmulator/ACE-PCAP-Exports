@@ -20,13 +20,13 @@ VALUES (23327,   1, 'Simple Dried Rations') /* Name */
      , (23327,  20, 'Simple Dried Rations') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23327,   1,   33554817) /* Setup */
-     , (23327,   3,  536870932) /* SoundTable */
-     , (23327,   8,  100674003) /* Icon */
-     , (23327,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23327,   1, 0x02000181) /* Setup */
+     , (23327,   3, 0x20000014) /* SoundTable */
+     , (23327,   8, 0x060029D3) /* Icon */
+     , (23327,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23327, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (23327, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (23327, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23327, 8000, 2253986830) /* PCAPRecordedObjectIID */;
+VALUES (23327, 8000, 0x86591C0E) /* PCAPRecordedObjectIID */;

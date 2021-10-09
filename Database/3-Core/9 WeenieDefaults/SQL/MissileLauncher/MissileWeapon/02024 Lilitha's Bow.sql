@@ -14,7 +14,7 @@ VALUES (2024,   1,        256) /* ItemType - MissileWeapon */
      , (2024,  48,         47) /* WeaponSkill - MissileWeapons */
      , (2024,  49,         50) /* WeaponTime */
      , (2024,  50,          1) /* AmmoType - Arrow */
-     , (2024,  51,          2) /* CombatUse - Missle */
+     , (2024,  51,          2) /* CombatUse - Missile */
      , (2024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2024, 151,          2) /* HookType - Wall */
      , (2024, 353,          8) /* WeaponType - Bow */
@@ -38,17 +38,17 @@ VALUES (2024,   1, 'Lilitha''s Bow') /* Name */
      , (2024,   8, 'Cyberkiller') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2024,   1,   33554729) /* Setup */
-     , (2024,   3,  536870932) /* SoundTable */
-     , (2024,   6,   67111919) /* PaletteBase */
-     , (2024,   8,  100668830) /* Icon */
-     , (2024,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2024,   1, 0x02000129) /* Setup */
+     , (2024,   3, 0x20000014) /* SoundTable */
+     , (2024,   6, 0x04000BEF) /* PaletteBase */
+     , (2024,   8, 0x0600159E) /* Icon */
+     , (2024,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2024, 8001,  270615320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (2024, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2024, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2024, 8000, 3621497350) /* PCAPRecordedObjectIID */;
+VALUES (2024, 8000, 0xD7DBAA06) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2024, 67111927, 0, 0);

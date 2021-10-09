@@ -21,6 +21,7 @@ VALUES (45997,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45997,  22, True ) /* Inscribable */
+     , (45997,  23, True ) /* DestroyOnSell */
      , (45997,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -31,21 +32,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45997,   1, 'Seasoned Explorer Bracelet Of Coordination') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45997,   1,   33554683) /* Setup */
-     , (45997,   3,  536870932) /* SoundTable */
-     , (45997,   6,   67111919) /* PaletteBase */
-     , (45997,   8,  100675473) /* Icon */
-     , (45997,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45997,   1, 0x020000FB) /* Setup */
+     , (45997,   3, 0x20000014) /* SoundTable */
+     , (45997,   6, 0x04000BEF) /* PaletteBase */
+     , (45997,   8, 0x06002F91) /* Icon */
+     , (45997,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45997, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (45997, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45997, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45997, 8000, 3042064949) /* PCAPRecordedObjectIID */;
+VALUES (45997, 8000, 0xB5523A35) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45997,  1384,      2)  /* CoordinationOther6 */
-     , (45997,  2579,      2)  /* CANTRIPCOORDINATION1 */;
+VALUES (45997,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (45997,  1384,      2)  /* CoordinationOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45997, 67111919, 0, 0);

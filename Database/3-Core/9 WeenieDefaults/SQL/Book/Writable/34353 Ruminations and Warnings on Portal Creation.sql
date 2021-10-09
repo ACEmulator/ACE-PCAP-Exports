@@ -18,22 +18,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34353,   1, 'Ruminations and Warnings on Portal Creation') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34353,   1,   33554773) /* Setup */
-     , (34353,   3,  536870932) /* SoundTable */
-     , (34353,   8,  100668176) /* Icon */
-     , (34353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34353,   1, 0x02000155) /* Setup */
+     , (34353,   3, 0x20000014) /* SoundTable */
+     , (34353,   8, 0x06001310) /* Icon */
+     , (34353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34353, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (34353, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (34353, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34353, 8000, 3703381504) /* PCAPRecordedObjectIID */;
+VALUES (34353, 8000, 0xDCBD1E00) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (34353, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (34353, 0, 4294967295, 'Asheron Realaidain', 'Password is cheese', False, 'To create this particular portal, it seems that the number three shall be very integral. Coincidentally, in fetching the last inactive golem from Metos''s workshop, I find that he has three workshops located on three ley lines. Attuning my ritual to these three locations should be relatively trivial and work well.
+VALUES (34353, 0, 4294967295, 'Asheron Realaidain', 'prewritten', False, 'To create this particular portal, it seems that the number three shall be very integral. Coincidentally, in fetching the last inactive golem from Metos''s workshop, I find that he has three workshops located on three ley lines. Attuning my ritual to these three locations should be relatively trivial and work well.
 
 I believe that three locations in the north are also of necessity. Otherwise, there is no central point. However, introducing three more locations may disrupt some of the power I am attempting to harness This must be addressed.
 

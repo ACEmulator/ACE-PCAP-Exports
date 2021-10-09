@@ -17,7 +17,8 @@ VALUES (32934,   1,      16384) /* ItemType - Key */
      , (32934, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32934,  22, True ) /* Inscribable */;
+VALUES (32934,  22, True ) /* Inscribable */
+     , (32934,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32934,   1, 'Rabbit Hutch Key') /* Name */
@@ -25,13 +26,13 @@ VALUES (32934,   1, 'Rabbit Hutch Key') /* Name */
      , (32934,  16, 'A simple key with lots of little nibble marks on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32934,   1,   33554784) /* Setup */
-     , (32934,   3,  536870932) /* SoundTable */
-     , (32934,   8,  100675676) /* Icon */
-     , (32934,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32934,   1, 0x02000160) /* Setup */
+     , (32934,   3, 0x20000014) /* SoundTable */
+     , (32934,   8, 0x0600305C) /* Icon */
+     , (32934,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32934, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (32934, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32934, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32934, 8000, 3698956216) /* PCAPRecordedObjectIID */;
+VALUES (32934, 8000, 0xDC7997B8) /* PCAPRecordedObjectIID */;

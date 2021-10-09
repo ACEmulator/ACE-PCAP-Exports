@@ -54,18 +54,18 @@ VALUES (41070,   1, 'Flaming Shashqa') /* Name */
      , (41070,  16, 'Flaming Shashqa of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41070,   1,   33560825) /* Setup */
-     , (41070,   3,  536870932) /* SoundTable */
-     , (41070,   6,   67115557) /* PaletteBase */
-     , (41070,   8,  100690519) /* Icon */
-     , (41070,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41070,   1, 0x020018F9) /* Setup */
+     , (41070,   3, 0x20000014) /* SoundTable */
+     , (41070,   6, 0x04001A25) /* PaletteBase */
+     , (41070,   8, 0x06006A57) /* Icon */
+     , (41070,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41070,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41070, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41070, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41070, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41070, 8000, 3690712338) /* PCAPRecordedObjectIID */;
+VALUES (41070, 8000, 0xDBFBCD12) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41070,  1615,      2)  /* BloodDrinkerSelf5 */

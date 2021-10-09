@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8028,   1,          2) /* ItemType - Armor */
      , (8028,   5,        690) /* EncumbranceVal */
      , (8028,   9,    2097152) /* ValidLocations - Shield */
-     , (8028,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (8028,  16,          1) /* ItemUseable - No */
      , (8028,  18,          1) /* UiEffects - Magical */
      , (8028,  19,       2000) /* Value */
@@ -25,6 +24,7 @@ VALUES (8028,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8028,  22, True ) /* Inscribable */
+     , (8028,  23, True ) /* DestroyOnSell */
      , (8028,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -45,11 +45,11 @@ VALUES (8028,   1, 'Caulnalain Crystal Shield') /* Name */
      , (8028,  16, 'A shield imbued with the power of the Caulnalain Crystal.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8028,   1,   33554786) /* Setup */
-     , (8028,   3,  536870932) /* SoundTable */
-     , (8028,   6,   67111919) /* PaletteBase */
-     , (8028,   8,  100670974) /* Icon */
-     , (8028,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8028,   1, 0x02000162) /* Setup */
+     , (8028,   3, 0x20000014) /* SoundTable */
+     , (8028,   6, 0x04000BEF) /* PaletteBase */
+     , (8028,   8, 0x06001DFE) /* Icon */
+     , (8028,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8028,  37,         48) /* ItemSkillLimit - Shield */
      , (8028, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (8028, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -57,17 +57,17 @@ VALUES (8028,   1,   33554786) /* Setup */
      , (8028, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8028, 8040, 23855548, 49.1735, -31.9955, -0.07400001, 0.5374959, 0.07897042, -0.8388966, -0.03338251) /* PCAPRecordedLocation */
+VALUES (8028, 8040, 0x016C01BC, 49.1735, -31.9955, -0.074, 0.537496, 0.07897, -0.838897, -0.033383) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.173500 -31.995500 -0.074000] 0.537496 0.078970 -0.838897 -0.033383 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8028, 8000, 2291307556) /* PCAPRecordedObjectIID */
-     , (8028, 8008, 1342326118) /* PCAPRecordedParentIID */;
+VALUES (8028, 8000, 0x88929424) /* PCAPRecordedObjectIID */
+     , (8028, 8008, 0x50024566) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8028,   247,      2)  /* InvulnerabilitySelf4 */
-     , (8028,  2004,      2)  /* WarriorsVitality */
-     , (8028,  2008,      2)  /* WarriorsVigor */;
+VALUES (8028,  2004,      2)  /* WarriorsVitality */
+     , (8028,  2008,      2)  /* WarriorsVigor */
+     , (8028,   247,      2)  /* InvulnerabilitySelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8028, 67111923, 0, 0);

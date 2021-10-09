@@ -20,15 +20,15 @@ VALUES (15855,   1, 'Gelidite Dais') /* Name */
      , (15855,  16, 'A raised dais forged during the Gelidite age. A feeling of near sentience is emitted from the stone atop the dais.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15855,   1,   33555061) /* Setup */
-     , (15855,   8,  100668129) /* Icon */
-     , (15855,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15855,   1, 0x02000275) /* Setup */
+     , (15855,   8, 0x060012E1) /* Icon */
+     , (15855,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15855, 8001,      16432) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container */
      , (15855, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15855, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15855, 8000, 2980771309) /* PCAPRecordedObjectIID */;
+VALUES (15855, 8000, 0xB1AAF5ED) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (15855, 0, 83889697, 83892058)

@@ -15,6 +15,7 @@ VALUES (9584,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9584,  22, True ) /* Inscribable */
+     , (9584,  23, True ) /* DestroyOnSell */
      , (9584,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,16 +26,16 @@ VALUES (9584,   1, 'Item Enchantment Skill Puzzle Piece') /* Name */
      , (9584,  16, 'An Item Enchantment skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Item Enchantment skill to assemble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9584,   1,   33554669) /* Setup */
-     , (9584,   3,  536870932) /* SoundTable */
-     , (9584,   8,  100671544) /* Icon */
-     , (9584,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9584,   1, 0x020000ED) /* Setup */
+     , (9584,   3, 0x20000014) /* SoundTable */
+     , (9584,   8, 0x06002038) /* Icon */
+     , (9584,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9584, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (9584, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9584, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9584, 8000, 3629959889) /* PCAPRecordedObjectIID */;
+VALUES (9584, 8000, 0xD85CCAD1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (9584, 0, 83888861, 83890936);

@@ -22,20 +22,20 @@ VALUES (36769,   1, 'Quiddity Seed') /* Name */
      , (36769, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36769,   1,   33560432) /* Setup */
-     , (36769,   2,  150995121) /* MotionTable */
-     , (36769,   3,  536871023) /* SoundTable */
-     , (36769,   8,  100672199) /* Icon */
+VALUES (36769,   1, 0x02001770) /* Setup */
+     , (36769,   2, 0x090000B1) /* MotionTable */
+     , (36769,   3, 0x2000006F) /* SoundTable */
+     , (36769,   8, 0x060022C7) /* Icon */
      , (36769, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (36769, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (36769, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36769, 8040, 14025806, 60, -30, 66, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (36769, 8040, 0x00D6044E, 60, -30, 66, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00D6044E [60.000000 -30.000000 66.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36769, 8000, 3694809063) /* PCAPRecordedObjectIID */;
+VALUES (36769, 8000, 0xDC3A4FE7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (36769, 0, 83893820, 83893819);

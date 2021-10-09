@@ -25,13 +25,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21357,   1, 'Phantom Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21357,   1,   33556652) /* Setup */
-     , (21357,   3,  536870932) /* SoundTable */
-     , (21357,   8,  100669105) /* Icon */
-     , (21357,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21357,   1, 0x020008AC) /* Setup */
+     , (21357,   3, 0x20000014) /* SoundTable */
+     , (21357,   8, 0x060016B1) /* Icon */
+     , (21357,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21357, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (21357, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21357, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21357, 8000, 2929111697) /* PCAPRecordedObjectIID */;
+VALUES (21357, 8000, 0xAE96B291) /* PCAPRecordedObjectIID */;

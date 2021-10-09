@@ -25,22 +25,22 @@ VALUES (49637,   1, 'Elemental Protector') /* Name */
      , (49637, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49637,   1,   33559884) /* Setup */
-     , (49637,   2,  150995087) /* MotionTable */
-     , (49637,   3,  536871002) /* SoundTable */
-     , (49637,   6,   67114014) /* PaletteBase */
-     , (49637,   8,  100670581) /* Icon */
-     , (49637,  22,  872415349) /* PhysicsEffectTable */
+VALUES (49637,   1, 0x0200154C) /* Setup */
+     , (49637,   2, 0x0900008F) /* MotionTable */
+     , (49637,   3, 0x2000005A) /* SoundTable */
+     , (49637,   6, 0x0400141E) /* PaletteBase */
+     , (49637,   8, 0x06001C75) /* Icon */
+     , (49637,  22, 0x34000075) /* PhysicsEffectTable */
      , (49637, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49637, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (49637, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49637, 8040, 1483145536, 174.9345, -119.6794, -59.9955, 0.9783253, 0, 0, -0.207074) /* PCAPRecordedLocation */
+VALUES (49637, 8040, 0x58670140, 174.9345, -119.6794, -59.9955, 0.978325, 0, 0, -0.207074) /* PCAPRecordedLocation */
 /* @teleloc 0x58670140 [174.934500 -119.679400 -59.995500] 0.978325 0.000000 0.000000 -0.207074 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49637, 8000, 2885349487) /* PCAPRecordedObjectIID */;
+VALUES (49637, 8000, 0xABFAF06F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (49637,   1,     0, 0, 0, 1700) /* MaxHealth */;

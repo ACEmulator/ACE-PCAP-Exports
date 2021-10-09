@@ -23,16 +23,16 @@ VALUES (2331,   1, 'Tumerok Mine') /* Name */
      , (2331, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2331,   1,   33555926) /* Setup */
-     , (2331,   2,  150994947) /* MotionTable */
-     , (2331,   8,  100667499) /* Icon */
+VALUES (2331,   1, 0x020005D6) /* Setup */
+     , (2331,   2, 0x09000003) /* MotionTable */
+     , (2331,   8, 0x0600106B) /* Icon */
      , (2331, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (2331, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (2331, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2331, 8040, 847839284, 159.594, 75.3067, 25.937, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (2331, 8040, 0x32890034, 159.594, 75.3067, 25.937, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x32890034 [159.594000 75.306700 25.937000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2331, 8000, 1932038155) /* PCAPRecordedObjectIID */;
+VALUES (2331, 8000, 0x7328900B) /* PCAPRecordedObjectIID */;

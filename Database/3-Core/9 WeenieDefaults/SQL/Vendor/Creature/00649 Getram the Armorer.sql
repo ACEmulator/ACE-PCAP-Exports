@@ -37,27 +37,27 @@ VALUES (649,   1, 'Getram the Armorer') /* Name */
      , (649, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (649,   1,   33554433) /* Setup */
-     , (649,   2,  150994945) /* MotionTable */
-     , (649,   3,  536870913) /* SoundTable */
-     , (649,   6,   67108990) /* PaletteBase */
-     , (649,   8,  100667446) /* Icon */
-     , (649,   9,   83890506) /* EyesTexture */
-     , (649,  10,   83890555) /* NoseTexture */
-     , (649,  11,   83890638) /* MouthTexture */
-     , (649,  15,   67116978) /* HairPalette */
-     , (649,  16,   67109566) /* EyesPalette */
-     , (649,  17,   67109562) /* SkinPalette */
+VALUES (649,   1, 0x02000001) /* Setup */
+     , (649,   2, 0x09000001) /* MotionTable */
+     , (649,   3, 0x20000001) /* SoundTable */
+     , (649,   6, 0x0400007E) /* PaletteBase */
+     , (649,   8, 0x06001036) /* Icon */
+     , (649,   9, 0x0500114A) /* EyesTexture */
+     , (649,  10, 0x0500117B) /* NoseTexture */
+     , (649,  11, 0x050011CE) /* MouthTexture */
+     , (649,  15, 0x04001FB2) /* HairPalette */
+     , (649,  16, 0x040002BE) /* EyesPalette */
+     , (649,  17, 0x040002BA) /* SkinPalette */
      , (649, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (649, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (649, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (649, 8040, 3465871678, 156, 39, 20.005, -0.6018381, 0, 0, -0.7986181) /* PCAPRecordedLocation */
+VALUES (649, 8040, 0xCE95013E, 156, 39, 20.005, -0.601838, 0, 0, -0.798618) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95013E [156.000000 39.000000 20.005000] -0.601838 0.000000 0.000000 -0.798618 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (649, 8000, 2095665182) /* PCAPRecordedObjectIID */;
+VALUES (649, 8000, 0x7CE9501E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (649,   1,  60, 0, 0) /* Strength */
@@ -107,15 +107,7 @@ VALUES (649, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
      , (649, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (649, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (649, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (649, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (649, 4, 29050, -1, 0, 0, False) /* Create Ruschk Hunter Leggings (29050) for Shop */
-     , (649, 4, 28153, -1, 0, 0, False) /* Create Lustrous Winged Leggings (28153) for Shop */
-     , (649, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
-     , (649, 4, 41059, -1, 0, 0, False) /* Create Lightning Great Star Mace (41059) for Shop */
-     , (649, 4, 43833, -1, 0, 0, False) /* Create Sedgemail Leather Sleeves (43833) for Shop */
-     , (649, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
-     , (649, 4, 43068, -1, 0, 0, False) /* Create Knorr Academy Helm (43068) for Shop */
-     , (649, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */;
+     , (649, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (649, 67109562, 0, 24)

@@ -17,7 +17,8 @@ VALUES (29480,   1,      16384) /* ItemType - Key */
      , (29480, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29480,  22, True ) /* Inscribable */;
+VALUES (29480,  22, True ) /* Inscribable */
+     , (29480,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29480,   1, 'Prison Warden''s Key') /* Name */
@@ -25,13 +26,13 @@ VALUES (29480,   1, 'Prison Warden''s Key') /* Name */
      , (29480,  16, 'A key to the Royal Prison Warden''s chest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29480,   1,   33554784) /* Setup */
-     , (29480,   3,  536870932) /* SoundTable */
-     , (29480,   8,  100668441) /* Icon */
-     , (29480,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29480,   1, 0x02000160) /* Setup */
+     , (29480,   3, 0x20000014) /* SoundTable */
+     , (29480,   8, 0x06001419) /* Icon */
+     , (29480,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29480, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (29480, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29480, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29480, 8000, 3691604226) /* PCAPRecordedObjectIID */;
+VALUES (29480, 8000, 0xDC096902) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (2840,   1, 'Scroll of Hermetic Void V') /* Name */
 Decreases a magic casting implement''s mana conversion bonus by 50%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2840,   1,   33554826) /* Setup */
-     , (2840,   8,  100676671) /* Icon */
-     , (2840,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2840,   1, 0x0200018A) /* Setup */
+     , (2840,   8, 0x0600343F) /* Icon */
+     , (2840,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2840,  28,       1473) /* Spell - HermeticVoid5 */
      , (2840, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2840, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2840, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2840, 8000, 3686586633) /* PCAPRecordedObjectIID */;
+VALUES (2840, 8000, 0xDBBCD909) /* PCAPRecordedObjectIID */;

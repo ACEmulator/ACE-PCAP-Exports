@@ -35,18 +35,18 @@ VALUES (20981,   1, 'Salvaged  (100)') /* Name */
      , (20981,  15, 'A strip of armoredillo hide material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20981,   1,   33554817) /* Setup */
-     , (20981,   3,  536870932) /* SoundTable */
-     , (20981,   6,   67111919) /* PaletteBase */
-     , (20981,   8,  100673219) /* Icon */
-     , (20981,  22,  872415275) /* PhysicsEffectTable */
-     , (20981,  50,  100673224) /* IconOverlay */
+VALUES (20981,   1, 0x02000181) /* Setup */
+     , (20981,   3, 0x20000014) /* SoundTable */
+     , (20981,   6, 0x04000BEF) /* PaletteBase */
+     , (20981,   8, 0x060026C3) /* Icon */
+     , (20981,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (20981,  50, 0x060026C8) /* IconOverlay */
      , (20981, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (20981, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20981, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20981, 8000, 2982947096) /* PCAPRecordedObjectIID */;
+VALUES (20981, 8000, 0xB1CC2918) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (20981, 67111923, 0, 0);

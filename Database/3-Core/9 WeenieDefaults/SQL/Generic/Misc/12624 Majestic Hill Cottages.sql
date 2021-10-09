@@ -18,15 +18,15 @@ VALUES (12624,   1, 'Majestic Hill Cottages') /* Name */
      , (12624,  16, 'Welcome to Majestic Hill Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12624,   1,   33557463) /* Setup */
-     , (12624,   8,  100668115) /* Icon */
+VALUES (12624,   1, 0x02000BD7) /* Setup */
+     , (12624,   8, 0x060012D3) /* Icon */
      , (12624, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (12624, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (12624, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12624, 8040, 2326134825, 139.991, 13.0954, 100, 0.99986, 0, 0, -0.0167431) /* PCAPRecordedLocation */
+VALUES (12624, 8040, 0x8AA60029, 139.991, 13.0954, 100, 0.99986, 0, 0, -0.016743) /* PCAPRecordedLocation */
 /* @teleloc 0x8AA60029 [139.991000 13.095400 100.000000] 0.999860 0.000000 0.000000 -0.016743 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12624, 8000, 2024431746) /* PCAPRecordedObjectIID */;
+VALUES (12624, 8000, 0x78AA6082) /* PCAPRecordedObjectIID */;

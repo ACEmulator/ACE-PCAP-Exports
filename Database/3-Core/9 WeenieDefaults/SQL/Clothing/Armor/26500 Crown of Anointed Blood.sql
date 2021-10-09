@@ -41,17 +41,17 @@ VALUES (26500,   1, 'Crown of Anointed Blood') /* Name */
      , (26500,  15, 'This veiled crown was likely used during the rites of the Falatacot.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26500,   1,   33558591) /* Setup */
-     , (26500,   3,  536870932) /* SoundTable */
-     , (26500,   6,   67108990) /* PaletteBase */
-     , (26500,   8,  100675772) /* Icon */
-     , (26500,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26500,   1, 0x0200103F) /* Setup */
+     , (26500,   3, 0x20000014) /* SoundTable */
+     , (26500,   6, 0x0400007E) /* PaletteBase */
+     , (26500,   8, 0x060030BC) /* Icon */
+     , (26500,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26500, 8001,  270876680) /* PCAPRecordedWeenieHeader - Value, Container, ValidLocations, Priority, Burden, HookType */
      , (26500, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26500, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26500, 8000, 2979050354) /* PCAPRecordedObjectIID */;
+VALUES (26500, 8000, 0xB190B372) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26500,  3034,      2)  /* BenedictionImmortality */

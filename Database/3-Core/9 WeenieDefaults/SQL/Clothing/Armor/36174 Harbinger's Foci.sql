@@ -43,33 +43,33 @@ VALUES (36174,   1, 'Harbinger''s Foci') /* Name */
      , (36174,  16, 'Four foci taken from the Prodigal Harbinger. When worn on the head they focus the wearer''s energies.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36174,   1,   33560370) /* Setup */
-     , (36174,   3,  536870932) /* SoundTable */
-     , (36174,   8,  100689608) /* Icon */
-     , (36174,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36174,   1, 0x02001732) /* Setup */
+     , (36174,   3, 0x20000014) /* SoundTable */
+     , (36174,   8, 0x060066C8) /* Icon */
+     , (36174,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36174,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (36174, 8001,  270860296) /* PCAPRecordedWeenieHeader - Value, ValidLocations, Priority, Burden, HookType */
      , (36174, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36174, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36174, 8040, 306577453, 135.6958, 97.14782, 51.94676, -0.4898461, 0, 0, -0.8718089) /* PCAPRecordedLocation */
+VALUES (36174, 8040, 0x1246002D, 135.6958, 97.14782, 51.94676, -0.489846, 0, 0, -0.871809) /* PCAPRecordedLocation */
 /* @teleloc 0x1246002D [135.695800 97.147820 51.946760] -0.489846 0.000000 0.000000 -0.871809 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36174, 8000, 3700359270) /* PCAPRecordedObjectIID */;
+VALUES (36174, 8000, 0xDC8F0066) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36174,  2108,      2)  /* Impenetrability7 */
-     , (36174,  2281,      2)  /* MagicResistanceSelf7 */
-     , (36174,  3978,      2)  /* FocusOtherIncantation */
-     , (36174,  3979,      2)  /* StrengthOtherIncantation */
+VALUES (36174,  3978,      2)  /* FocusOtherIncantation */
      , (36174,  4170,      2)  /* HarbingerCantripCoordination3 */
+     , (36174,  3979,      2)  /* StrengthOtherIncantation */
      , (36174,  4171,      2)  /* HarbingerCantripEndurance3 */
      , (36174,  4172,      2)  /* HarbingerCantripFocus3 */
      , (36174,  4173,      2)  /* HarbingerCantripQuickness3 */
      , (36174,  4174,      2)  /* HarbingerCantripStrength3 */
-     , (36174,  4175,      2)  /* HarbingerCantripWillpower3 */;
+     , (36174,  4175,      2)  /* HarbingerCantripWillpower3 */
+     , (36174,  2281,      2)  /* MagicResistanceSelf7 */
+     , (36174,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (36174, 0, 16793693);

@@ -27,16 +27,16 @@ VALUES (44717,   1, 'High-Stakes Gambling Token') /* Name */
      , (44717,  16, 'A gambling token accepted by all High-Stakes Gamemasters.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44717,   1,   33557006) /* Setup */
-     , (44717,   3,  536870932) /* SoundTable */
-     , (44717,   8,  100671476) /* Icon */
-     , (44717,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44717,   1, 0x02000A0E) /* Setup */
+     , (44717,   3, 0x20000014) /* SoundTable */
+     , (44717,   8, 0x06001FF4) /* Icon */
+     , (44717,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44717, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (44717, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44717, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44717, 8000, 2223913539) /* PCAPRecordedObjectIID */;
+VALUES (44717, 8000, 0x848E3A43) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (44717, 0, 83893248, 83893252)

@@ -22,13 +22,13 @@ VALUES (4585,   1, 'Bundle of Arrowshafts') /* Name */
      , (4585,  20, 'Bundles of Arrowshafts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4585,   1,   33555959) /* Setup */
-     , (4585,   3,  536870932) /* SoundTable */
-     , (4585,   8,  100670015) /* Icon */
-     , (4585,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4585,   1, 0x020005F7) /* Setup */
+     , (4585,   3, 0x20000014) /* SoundTable */
+     , (4585,   8, 0x06001A3F) /* Icon */
+     , (4585,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4585, 8001,      28681) /* PCAPRecordedWeenieHeader - PluralName, Value, StackSize, MaxStackSize, Container */
      , (4585, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (4585, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4585, 8000, 2157267135) /* PCAPRecordedObjectIID */;
+VALUES (4585, 8000, 0x809548BF) /* PCAPRecordedObjectIID */;

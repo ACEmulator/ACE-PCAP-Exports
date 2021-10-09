@@ -27,18 +27,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51521,   1, 'Enhanced Assault Axe') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51521,   1,   33557200) /* Setup */
-     , (51521,   3,  536870932) /* SoundTable */
-     , (51521,   6,   67111919) /* PaletteBase */
-     , (51521,   8,  100671742) /* Icon */
-     , (51521,  22,  872415275) /* PhysicsEffectTable */
-     , (51521,  50,  100667895) /* IconOverlay */
+VALUES (51521,   1, 0x02000AD0) /* Setup */
+     , (51521,   3, 0x20000014) /* SoundTable */
+     , (51521,   6, 0x04000BEF) /* PaletteBase */
+     , (51521,   8, 0x060020FE) /* Icon */
+     , (51521,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51521,  50, 0x060011F7) /* IconOverlay */
      , (51521, 8001, 1344827416) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType, IconOverlay */
      , (51521, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51521, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51521, 8000, 3077779855) /* PCAPRecordedObjectIID */;
+VALUES (51521, 8000, 0xB773318F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51521, 67111924, 0, 0);

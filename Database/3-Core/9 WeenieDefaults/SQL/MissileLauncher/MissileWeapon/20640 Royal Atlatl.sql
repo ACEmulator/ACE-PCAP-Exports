@@ -15,7 +15,7 @@ VALUES (20640,   1,        256) /* ItemType - MissileWeapon */
      , (20640,  48,         47) /* WeaponSkill - MissileWeapons */
      , (20640,  49,         22) /* WeaponTime */
      , (20640,  50,          4) /* AmmoType - Atlatl */
-     , (20640,  51,          2) /* CombatUse - Missle */
+     , (20640,  51,          2) /* CombatUse - Missile */
      , (20640,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20640, 105,          6) /* ItemWorkmanship */
      , (20640, 106,        202) /* ItemSpellcraft */
@@ -54,18 +54,18 @@ VALUES (20640,   1, 'Royal Atlatl') /* Name */
      , (20640,  16, 'Royal Atlatl of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20640,   1,   33557857) /* Setup */
-     , (20640,   3,  536870932) /* SoundTable */
-     , (20640,   6,   67111919) /* PaletteBase */
-     , (20640,   8,  100673251) /* Icon */
-     , (20640,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20640,   1, 0x02000D61) /* Setup */
+     , (20640,   3, 0x20000014) /* SoundTable */
+     , (20640,   6, 0x04000BEF) /* PaletteBase */
+     , (20640,   8, 0x060026E3) /* Icon */
+     , (20640,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20640,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (20640, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (20640, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20640, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20640, 8000, 3692261610) /* PCAPRecordedObjectIID */;
+VALUES (20640, 8000, 0xDC1370EA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20640,  1615,      2)  /* BloodDrinkerSelf5 */

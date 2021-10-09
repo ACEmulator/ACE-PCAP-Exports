@@ -38,23 +38,23 @@ VALUES (14505,   1, 'Incalescent Bracelet') /* Name */
      , (14505,  25, 'Juliana Bravehart') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14505,   1,   33554683) /* Setup */
-     , (14505,   3,  536870932) /* SoundTable */
-     , (14505,   6,   67111919) /* PaletteBase */
-     , (14505,   8,  100672504) /* Icon */
-     , (14505,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14505,   1, 0x020000FB) /* Setup */
+     , (14505,   3, 0x20000014) /* SoundTable */
+     , (14505,   6, 0x04000BEF) /* PaletteBase */
+     , (14505,   8, 0x060023F8) /* Icon */
+     , (14505,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14505, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
      , (14505, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (14505, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14505, 8000, 2657343783) /* PCAPRecordedObjectIID */;
+VALUES (14505, 8000, 0x9E63D927) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14505,   271,      2)  /* MagicResistanceOther4 */
-     , (14505,  1095,      2)  /* FireProtectionOther5 */
-     , (14505,  2583,      2)  /* CANTRIPSTRENGTH1 */
-     , (14505,  2640,      2)  /* Devourer */;
+VALUES (14505,  1095,      2)  /* FireProtectionOther5 */
+     , (14505,   271,      2)  /* MagicResistanceOther4 */
+     , (14505,  2640,      2)  /* Devourer */
+     , (14505,  2583,      2)  /* CANTRIPSTRENGTH1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (14505, 67111924, 0, 0);

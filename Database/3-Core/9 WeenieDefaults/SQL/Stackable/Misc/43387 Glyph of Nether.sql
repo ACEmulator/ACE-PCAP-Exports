@@ -20,18 +20,18 @@ VALUES (43387,   1, 'Glyph of Nether') /* Name */
      , (43387,  20, 'Glyphs of Nether') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43387,   1,   33554809) /* Setup */
-     , (43387,   3,  536870932) /* SoundTable */
-     , (43387,   6,   67111919) /* PaletteBase */
-     , (43387,   8,  100690191) /* Icon */
-     , (43387,  22,  872415275) /* PhysicsEffectTable */
-     , (43387,  50,  100691577) /* IconOverlay */
+VALUES (43387,   1, 0x02000179) /* Setup */
+     , (43387,   3, 0x20000014) /* SoundTable */
+     , (43387,   6, 0x04000BEF) /* PaletteBase */
+     , (43387,   8, 0x0600690F) /* Icon */
+     , (43387,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (43387,  50, 0x06006E79) /* IconOverlay */
      , (43387, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (43387, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43387, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43387, 8000, 3106110859) /* PCAPRecordedObjectIID */;
+VALUES (43387, 8000, 0xB9237D8B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43387, 67111924, 0, 0);

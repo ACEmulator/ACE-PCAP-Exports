@@ -25,22 +25,22 @@ VALUES (23479,   1, 'Banderling Scalper') /* Name */
      , (23479, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23479,   1,   33558024) /* Setup */
-     , (23479,   2,  150994951) /* MotionTable */
-     , (23479,   3,  536870917) /* SoundTable */
-     , (23479,   6,   67114021) /* PaletteBase */
-     , (23479,   8,  100667453) /* Icon */
-     , (23479,  22,  872415255) /* PhysicsEffectTable */
+VALUES (23479,   1, 0x02000E08) /* Setup */
+     , (23479,   2, 0x09000007) /* MotionTable */
+     , (23479,   3, 0x20000005) /* SoundTable */
+     , (23479,   6, 0x04001425) /* PaletteBase */
+     , (23479,   8, 0x0600103D) /* Icon */
+     , (23479,  22, 0x34000017) /* PhysicsEffectTable */
      , (23479, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (23479, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (23479, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23479, 8040, 1072627774, 186.9117, 136.3728, 0.4303043, 0.78395, 0, 0, -0.620824) /* PCAPRecordedLocation */
+VALUES (23479, 8040, 0x3FEF003E, 186.9117, 136.3728, 0.430304, 0.78395, 0, 0, -0.620824) /* PCAPRecordedLocation */
 /* @teleloc 0x3FEF003E [186.911700 136.372800 0.430304] 0.783950 0.000000 0.000000 -0.620824 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23479, 8000, 3692754984) /* PCAPRecordedObjectIID */;
+VALUES (23479, 8000, 0xDC1AF828) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23479,   1, 245, 0, 0) /* Strength */
@@ -211,7 +211,9 @@ VALUES (23479, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68)
      , (23479, 9, 41036,  0, 0, 0, False) /* Create Assagai (41036) for ContainTreasure */
      , (23479, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
      , (23479, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
-     , (23479, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */;
+     , (23479, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
+     , (23479, 9, 20522,  0, 0, 0, False) /* Create Scroll of Hearts on Sleeves (20522) for ContainTreasure */
+     , (23479, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23479, 67114266, 0, 0);

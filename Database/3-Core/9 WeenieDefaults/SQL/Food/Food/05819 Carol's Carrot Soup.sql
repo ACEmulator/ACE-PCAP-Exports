@@ -27,13 +27,13 @@ VALUES (5819,   1, 'Carol''s Carrot Soup') /* Name */
      , (5819,  20, 'Bowls of Carol''s Carrot Soup') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5819,   1,   33554668) /* Setup */
-     , (5819,   3,  536870932) /* SoundTable */
-     , (5819,   8,  100670311) /* Icon */
-     , (5819,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5819,   1, 0x020000EC) /* Setup */
+     , (5819,   3, 0x20000014) /* SoundTable */
+     , (5819,   8, 0x06001B67) /* Icon */
+     , (5819,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5819, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (5819, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (5819, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5819, 8000, 2929184061) /* PCAPRecordedObjectIID */;
+VALUES (5819, 8000, 0xAE97CD3D) /* PCAPRecordedObjectIID */;

@@ -25,13 +25,13 @@ VALUES (41396,   1, 'Handle Mold') /* Name */
      , (41396,  16, 'A mold used to form handles.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41396,   1,   33556961) /* Setup */
-     , (41396,   3,  536870932) /* SoundTable */
-     , (41396,   8,  100690723) /* Icon */
-     , (41396,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41396,   1, 0x020009E1) /* Setup */
+     , (41396,   3, 0x20000014) /* SoundTable */
+     , (41396,   8, 0x06006B23) /* Icon */
+     , (41396,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41396, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (41396, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41396, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41396, 8000, 2885101020) /* PCAPRecordedObjectIID */;
+VALUES (41396, 8000, 0xABF725DC) /* PCAPRecordedObjectIID */;

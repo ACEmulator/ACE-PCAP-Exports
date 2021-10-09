@@ -35,20 +35,20 @@ VALUES (27392,   1, 'Oubliette') /* Name */
      , (27392,  16, 'Deliver all non-viable test subjects to the oubliette for disposal. This stone is imprinted with the location. The Director also requests a status report on the one surviving subject there. Its tenacity is of interest.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27392,   1,   33556769) /* Setup */
-     , (27392,   3,  536870932) /* SoundTable */
-     , (27392,   6,   67111919) /* PaletteBase */
-     , (27392,   8,  100668364) /* Icon */
-     , (27392,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27392,   1, 0x02000921) /* Setup */
+     , (27392,   3, 0x20000014) /* SoundTable */
+     , (27392,   6, 0x04000BEF) /* PaletteBase */
+     , (27392,   8, 0x060013CC) /* Icon */
+     , (27392,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27392,  28,        157) /* Spell - SummonPortal1 */
-     , (27392,  50,  100676404) /* IconOverlay */
+     , (27392,  50, 0x06003334) /* IconOverlay */
      , (27392, 8001, 1349021720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (27392, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (27392, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (27392, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27392, 8000, 2164447134) /* PCAPRecordedObjectIID */;
+VALUES (27392, 8000, 0x8102D79E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27392, 67111924, 0, 0);

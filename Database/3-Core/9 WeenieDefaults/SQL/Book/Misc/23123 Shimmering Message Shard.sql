@@ -23,17 +23,17 @@ VALUES (23123,   1, 'Shimmering Message Shard') /* Name */
      , (23123,  16, 'A piece of obsidian etched with arcane symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23123,   1,   33555391) /* Setup */
-     , (23123,   3,  536870932) /* SoundTable */
-     , (23123,   8,  100671183) /* Icon */
-     , (23123,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23123,   1, 0x020003BF) /* Setup */
+     , (23123,   3, 0x20000014) /* SoundTable */
+     , (23123,   8, 0x06001ECF) /* Icon */
+     , (23123,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23123, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (23123, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (23123, 8005,     301185) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23123, 8040, 1615331600, 100.232, -173.72, -23.981, -0.7895479, 0, 0, 0.6136889) /* PCAPRecordedLocation */
+VALUES (23123, 8040, 0x60480110, 100.232, -173.72, -23.981, -0.789548, 0, 0, 0.613689) /* PCAPRecordedLocation */
 /* @teleloc 0x60480110 [100.232000 -173.720000 -23.981000] -0.789548 0.000000 0.000000 0.613689 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23123, 8000, 3688360526) /* PCAPRecordedObjectIID */;
+VALUES (23123, 8000, 0xDBD7EA4E) /* PCAPRecordedObjectIID */;

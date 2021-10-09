@@ -21,14 +21,14 @@ VALUES (25350,   1, 'Living Tome') /* Name */
      , (25350, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25350,   1,   33558443) /* Setup */
-     , (25350,   2,  150995251) /* MotionTable */
-     , (25350,   3,  536870942) /* SoundTable */
-     , (25350,   8,  100674847) /* Icon */
-     , (25350,  22,  872415269) /* PhysicsEffectTable */
+VALUES (25350,   1, 0x02000FAB) /* Setup */
+     , (25350,   2, 0x09000133) /* MotionTable */
+     , (25350,   3, 0x2000001E) /* SoundTable */
+     , (25350,   8, 0x06002D1F) /* Icon */
+     , (25350,  22, 0x34000025) /* PhysicsEffectTable */
      , (25350, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (25350, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25350, 8005,      71683) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25350, 8000, 2192118847) /* PCAPRecordedObjectIID */;
+VALUES (25350, 8000, 0x82A9143F) /* PCAPRecordedObjectIID */;

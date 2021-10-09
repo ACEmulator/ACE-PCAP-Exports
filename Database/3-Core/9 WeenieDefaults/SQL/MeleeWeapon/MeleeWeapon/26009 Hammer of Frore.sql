@@ -46,19 +46,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (26009,   1, 'Hammer of Frore') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (26009,   1,   33558574) /* Setup */
-     , (26009,   3,  536870932) /* SoundTable */
-     , (26009,   8,  100675713) /* Icon */
-     , (26009,  22,  872415275) /* PhysicsEffectTable */
+VALUES (26009,   1, 0x0200102E) /* Setup */
+     , (26009,   3, 0x20000014) /* SoundTable */
+     , (26009,   8, 0x06003081) /* Icon */
+     , (26009,  22, 0x3400002B) /* PhysicsEffectTable */
      , (26009,  30,         88) /* PhysicsScript - Create */
      , (26009, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (26009, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (26009, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26009, 8000, 3671606282) /* PCAPRecordedObjectIID */;
+VALUES (26009, 8000, 0xDAD8440A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26009,  1035,      2)  /* ColdProtectionSelf6 */
-     , (26009,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (26009,  2694,      2)  /* ModerateSwordAptitude */;
+VALUES (26009,  2694,      2)  /* ModerateSwordAptitude */
+     , (26009,  1035,      2)  /* ColdProtectionSelf6 */
+     , (26009,  1615,      2)  /* BloodDrinkerSelf5 */;

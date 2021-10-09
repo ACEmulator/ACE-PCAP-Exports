@@ -24,13 +24,13 @@ VALUES (2661,   1, 'Scroll of Endurance Self IV') /* Name */
 Increases the caster''s Endurance by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2661,   1,   33554826) /* Setup */
-     , (2661,   8,  100676456) /* Icon */
-     , (2661,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2661,   1, 0x0200018A) /* Setup */
+     , (2661,   8, 0x06003368) /* Icon */
+     , (2661,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2661,  28,       1352) /* Spell - EnduranceSelf4 */
      , (2661, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2661, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2661, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2661, 8000, 2884260601) /* PCAPRecordedObjectIID */;
+VALUES (2661, 8000, 0xABEA52F9) /* PCAPRecordedObjectIID */;

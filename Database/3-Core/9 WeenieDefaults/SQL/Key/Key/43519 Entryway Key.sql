@@ -22,13 +22,13 @@ VALUES (43519,   1, 'Entryway Key') /* Name */
      , (43519,  14, 'Use this key on the prison cells.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43519,   1,   33554784) /* Setup */
-     , (43519,   3,  536870932) /* SoundTable */
-     , (43519,   8,  100667485) /* Icon */
-     , (43519,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43519,   1, 0x02000160) /* Setup */
+     , (43519,   3, 0x20000014) /* SoundTable */
+     , (43519,   8, 0x0600105D) /* Icon */
+     , (43519,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43519, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (43519, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43519, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43519, 8000, 3154989897) /* PCAPRecordedObjectIID */;
+VALUES (43519, 8000, 0xBC0D5349) /* PCAPRecordedObjectIID */;

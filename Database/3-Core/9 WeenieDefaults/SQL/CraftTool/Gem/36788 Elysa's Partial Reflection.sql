@@ -23,13 +23,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36788,   1, 'Elysa''s Partial Reflection') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36788,   1,   33556769) /* Setup */
-     , (36788,   3,  536870932) /* SoundTable */
-     , (36788,   8,  100689641) /* Icon */
-     , (36788,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36788,   1, 0x02000921) /* Setup */
+     , (36788,   3, 0x20000014) /* SoundTable */
+     , (36788,   8, 0x060066E9) /* Icon */
+     , (36788,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36788, 8001,    2650256) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (36788, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36788, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36788, 8000, 3697124204) /* PCAPRecordedObjectIID */;
+VALUES (36788, 8000, 0xDC5DA36C) /* PCAPRecordedObjectIID */;

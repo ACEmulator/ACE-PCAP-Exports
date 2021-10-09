@@ -18,15 +18,15 @@ VALUES (15237,   1, 'Mattekar Slopes Cottages') /* Name */
      , (15237,  16, 'Welcome to Mattekar Slopes Cottages') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15237,   1,   33557463) /* Setup */
-     , (15237,   8,  100668115) /* Icon */
+VALUES (15237,   1, 0x02000BD7) /* Setup */
+     , (15237,   8, 0x060012D3) /* Icon */
      , (15237, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (15237, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (15237, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (15237, 8040, 2770927661, 129.549, 113.79, 182.4085, -0.667126, 0, 0, -0.744945) /* PCAPRecordedLocation */
+VALUES (15237, 8040, 0xA529002D, 129.549, 113.79, 182.4085, -0.667126, 0, 0, -0.744945) /* PCAPRecordedLocation */
 /* @teleloc 0xA529002D [129.549000 113.790000 182.408500] -0.667126 0.000000 0.000000 -0.744945 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15237, 8000, 2052231601) /* PCAPRecordedObjectIID */;
+VALUES (15237, 8000, 0x7A5291B1) /* PCAPRecordedObjectIID */;

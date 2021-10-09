@@ -21,14 +21,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52745,   1, 'Exquisite Casino Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52745,   1,   33554784) /* Setup */
-     , (52745,   3,  536870932) /* SoundTable */
-     , (52745,   8,  100671519) /* Icon */
-     , (52745,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52745,   1, 0x02000160) /* Setup */
+     , (52745,   3, 0x20000014) /* SoundTable */
+     , (52745,   8, 0x0600201F) /* Icon */
+     , (52745,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52745, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (52745, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52745, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
      , (52745, 8044,       2200) /* PCAPPhysicsDIDDataTemplatedFrom - Copy of Witshire's Key */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52745, 8000,      52745) /* PCAPRecordedObjectIID */;
+VALUES (52745, 8000, 0x0000CE09) /* PCAPRecordedObjectIID */;

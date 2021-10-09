@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43032,   1, 'Engraved Ashen Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43032,   1,   33554784) /* Setup */
-     , (43032,   3,  536870932) /* SoundTable */
-     , (43032,   8,  100676683) /* Icon */
-     , (43032,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43032,   1, 0x02000160) /* Setup */
+     , (43032,   3, 0x20000014) /* SoundTable */
+     , (43032,   8, 0x0600344B) /* Icon */
+     , (43032,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43032, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (43032, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43032, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43032, 8000, 3361306289) /* PCAPRecordedObjectIID */;
+VALUES (43032, 8000, 0xC85976B1) /* PCAPRecordedObjectIID */;

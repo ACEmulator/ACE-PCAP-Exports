@@ -34,21 +34,21 @@ VALUES (30182,   1, 'Olthoi''s Jewel') /* Name */
      , (30182,  20, 'Olthoi''s Jewels') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30182,   1,   33554809) /* Setup */
-     , (30182,   3,  536870932) /* SoundTable */
-     , (30182,   6,   67111919) /* PaletteBase */
-     , (30182,   8,  100686696) /* Icon */
-     , (30182,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30182,   1, 0x02000179) /* Setup */
+     , (30182,   3, 0x20000014) /* SoundTable */
+     , (30182,   6, 0x04000BEF) /* PaletteBase */
+     , (30182,   8, 0x06005B68) /* Icon */
+     , (30182,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30182,  28,       3680) /* Spell - AcidProtectionRare */
-     , (30182,  50,  100686625) /* IconOverlay */
-     , (30182,  52,  100686604) /* IconUnderlay */
+     , (30182,  50, 0x06005B21) /* IconOverlay */
+     , (30182,  52, 0x06005B0C) /* IconUnderlay */
      , (30182, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30182, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30182, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30182, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30182, 8000, 2166055631) /* PCAPRecordedObjectIID */;
+VALUES (30182, 8000, 0x811B62CF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30182, 67111923, 0, 0);

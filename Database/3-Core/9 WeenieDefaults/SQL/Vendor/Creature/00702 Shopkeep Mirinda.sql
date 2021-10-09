@@ -36,27 +36,27 @@ VALUES (702,   1, 'Shopkeep Mirinda') /* Name */
      , (702, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (702,   1,   33554510) /* Setup */
-     , (702,   2,  150994945) /* MotionTable */
-     , (702,   3,  536870914) /* SoundTable */
-     , (702,   6,   67108990) /* PaletteBase */
-     , (702,   8,  100667446) /* Icon */
-     , (702,   9,   83890276) /* EyesTexture */
-     , (702,  10,   83890295) /* NoseTexture */
-     , (702,  11,   83890326) /* MouthTexture */
-     , (702,  15,   67117025) /* HairPalette */
-     , (702,  16,   67109566) /* EyesPalette */
-     , (702,  17,   67109562) /* SkinPalette */
+VALUES (702,   1, 0x0200004E) /* Setup */
+     , (702,   2, 0x09000001) /* MotionTable */
+     , (702,   3, 0x20000002) /* SoundTable */
+     , (702,   6, 0x0400007E) /* PaletteBase */
+     , (702,   8, 0x06001036) /* Icon */
+     , (702,   9, 0x05001064) /* EyesTexture */
+     , (702,  10, 0x05001077) /* NoseTexture */
+     , (702,  11, 0x05001096) /* MouthTexture */
+     , (702,  15, 0x04001FE1) /* HairPalette */
+     , (702,  16, 0x040002BE) /* EyesPalette */
+     , (702,  17, 0x040002BA) /* SkinPalette */
      , (702, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (702, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (702, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (702, 8040, 3332964679, 41.3214, 30.3128, 42.005, 0.6733691, 0, 0, -0.7393065) /* PCAPRecordedLocation */
+VALUES (702, 8040, 0xC6A90147, 41.3214, 30.3128, 42.005, 0.673369, 0, 0, -0.739307) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90147 [41.321400 30.312800 42.005000] 0.673369 0.000000 0.000000 -0.739307 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (702, 8000, 2087358513) /* PCAPRecordedObjectIID */;
+VALUES (702, 8000, 0x7C6A9031) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (702,   1,  30, 0, 0) /* Strength */
@@ -115,21 +115,7 @@ VALUES (702, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (702, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (702, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (702, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (702, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
-     , (702, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */
-     , (702, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
-     , (702, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
-     , (702, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
-     , (702, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
-     , (702, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
-     , (702, 4, 31785, -1, 0, 0, False) /* Create Acid Claw (31785) for Shop */
-     , (702, 4, 31798, -1, 0, 0, False) /* Create Slashing Compound Bow (31798) for Shop */
-     , (702, 4, 21156, -1, 0, 0, False) /* Create Covenant Helm (21156) for Shop */
-     , (702, 4,   129, -1, 0, 0, False) /* Create Sandals (129) for Shop */
-     , (702, 4,   142, -1, 0, 0, False) /* Create Chalice (142) for Shop */
-     , (702, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (702, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
-     , (702, 4, 47196, -1, 0, 0, False) /* Create Translated Orders for Zrikux (47196) for Shop */;
+     , (702, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (702, 67109562, 0, 24)

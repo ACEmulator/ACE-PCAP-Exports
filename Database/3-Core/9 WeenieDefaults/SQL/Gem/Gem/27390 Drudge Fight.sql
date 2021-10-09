@@ -35,20 +35,20 @@ VALUES (27390,   1, 'Drudge Fight') /* Name */
      , (27390,  16, 'Yes, drudge brother, you are invited to the biggest event of the year! The final Knock-Out fight between Kerthump, the Ear Taker, and Baktak the Human Slayer. A no claws death-match for the prized Drudge Championship Belt. Do not talk about Drudge Fight.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27390,   1,   33556769) /* Setup */
-     , (27390,   3,  536870932) /* SoundTable */
-     , (27390,   6,   67111919) /* PaletteBase */
-     , (27390,   8,  100668362) /* Icon */
-     , (27390,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27390,   1, 0x02000921) /* Setup */
+     , (27390,   3, 0x20000014) /* SoundTable */
+     , (27390,   6, 0x04000BEF) /* PaletteBase */
+     , (27390,   8, 0x060013CA) /* Icon */
+     , (27390,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27390,  28,        157) /* Spell - SummonPortal1 */
-     , (27390,  50,  100676404) /* IconOverlay */
+     , (27390,  50, 0x06003334) /* IconOverlay */
      , (27390, 8001, 1349021720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (27390, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (27390, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (27390, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27390, 8000, 2982947206) /* PCAPRecordedObjectIID */;
+VALUES (27390, 8000, 0xB1CC2986) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27390, 67111923, 0, 0);

@@ -10,6 +10,7 @@ VALUES (2031,   1,      32768) /* ItemType - Caster */
      , (2031,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (2031,  18,          1) /* UiEffects - Magical */
      , (2031,  19,       1500) /* Value */
+     , (2031,  46,        512) /* DefaultCombatStyle - Magic */
      , (2031,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2031,  94,         16) /* TargetType - Creature */
      , (2031, 106,        200) /* ItemSpellcraft */
@@ -35,10 +36,10 @@ VALUES (2031,   1, 'Branith''s Staff') /* Name */
      , (2031,  16, 'A simple but functional sunstone casting staff.  There are suspicious scorch marks on one end.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2031,   1,   33558283) /* Setup */
-     , (2031,   3,  536870932) /* SoundTable */
-     , (2031,   8,  100674234) /* Icon */
-     , (2031,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2031,   1, 0x02000F0B) /* Setup */
+     , (2031,   3, 0x20000014) /* SoundTable */
+     , (2031,   8, 0x06002ABA) /* Icon */
+     , (2031,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2031,  28,       2742) /* Spell - FlameArc4 */
      , (2031,  37,         34) /* ItemSkillLimit - WarMagic */
      , (2031, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
@@ -46,9 +47,9 @@ VALUES (2031,   1,   33558283) /* Setup */
      , (2031, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2031, 8000, 3683069711) /* PCAPRecordedObjectIID */;
+VALUES (2031, 8000, 0xDB872F0F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2031,   215,      2)  /* ManaRenewalSelf4 */
-     , (2031,   632,      2)  /* WarMagicMasterySelf4 */
-     , (2031,   656,      2)  /* ManaMasterySelf4 */;
+VALUES (2031,   656,      2)  /* ManaMasterySelf4 */
+     , (2031,   215,      2)  /* ManaRenewalSelf4 */
+     , (2031,   632,      2)  /* WarMagicMasterySelf4 */;

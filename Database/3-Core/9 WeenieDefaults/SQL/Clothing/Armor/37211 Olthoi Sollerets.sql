@@ -50,26 +50,26 @@ VALUES (37211,   1, 'Olthoi Sollerets') /* Name */
      , (37211,  16, 'Olthoi Sollerets of Two Handed Combat Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37211,   1,   33554654) /* Setup */
-     , (37211,   3,  536870932) /* SoundTable */
-     , (37211,   6,   67108990) /* PaletteBase */
-     , (37211,   8,  100674542) /* Icon */
-     , (37211,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37211,   1, 0x020000DE) /* Setup */
+     , (37211,   3, 0x20000014) /* SoundTable */
+     , (37211,   6, 0x0400007E) /* PaletteBase */
+     , (37211,   8, 0x06002BEE) /* Icon */
+     , (37211,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37211, 8001, 2166685720) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (37211, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37211, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37211, 8040, 23855473, 19.86197, -64.6851, -0.0006459951, 0.8307009, 0, 0, -0.5567189) /* PCAPRecordedLocation */
+VALUES (37211, 8040, 0x016C0171, 19.86197, -64.6851, -0.000646, 0.830701, 0, 0, -0.556719) /* PCAPRecordedLocation */
 /* @teleloc 0x016C0171 [19.861970 -64.685100 -0.000646] 0.830701 0.000000 0.000000 -0.556719 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37211, 8000, 3510146747) /* PCAPRecordedObjectIID */;
+VALUES (37211, 8000, 0xD13896BB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37211,  2108,      2)  /* Impenetrability7 */
+VALUES (37211,  6105,      2)  /* CantripFocus4 */
      , (37211,  5096,      2)  /* TwoHandedMasteryOther6 */
-     , (37211,  6105,      2)  /* CantripFocus4 */;
+     , (37211,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37211, 67116560, 164, 4)

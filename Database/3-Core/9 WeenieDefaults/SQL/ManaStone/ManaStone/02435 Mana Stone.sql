@@ -26,14 +26,11 @@ VALUES (2435,   1, 'Mana Stone') /* Name */
      , (2435,  14, 'Use on a magic item to destroy that item and drain its Mana.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2435,   1,   33555641) /* Setup */
-     , (2435,   8,  100676304) /* Icon */
+VALUES (2435,   1, 0x020004B9) /* Setup */
+     , (2435,   8, 0x060032D0) /* Icon */
      , (2435, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
      , (2435, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2435, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2435, 8000, 3688298038) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2435, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;
+VALUES (2435, 8000, 0xDBD6F636) /* PCAPRecordedObjectIID */;

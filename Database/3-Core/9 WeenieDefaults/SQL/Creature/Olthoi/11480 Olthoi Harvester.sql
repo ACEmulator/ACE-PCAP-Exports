@@ -26,23 +26,23 @@ VALUES (11480,   1, 'Olthoi Harvester') /* Name */
      , (11480, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11480,   1,   33557164) /* Setup */
-     , (11480,   2,  150994946) /* MotionTable */
-     , (11480,   3,  536870925) /* SoundTable */
-     , (11480,   6,   67113236) /* PaletteBase */
-     , (11480,   8,  100667623) /* Icon */
-     , (11480,  22,  872415265) /* PhysicsEffectTable */
+VALUES (11480,   1, 0x02000AAC) /* Setup */
+     , (11480,   2, 0x09000002) /* MotionTable */
+     , (11480,   3, 0x2000000D) /* SoundTable */
+     , (11480,   6, 0x04001114) /* PaletteBase */
+     , (11480,   8, 0x060010E7) /* Icon */
+     , (11480,  22, 0x34000021) /* PhysicsEffectTable */
      , (11480,  30,         86) /* PhysicsScript - BreatheAcid */
      , (11480, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (11480, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (11480, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11480, 8040, 42205741, 50.6088, -24.7961, 0, 0.546983, 0, 0, 0.837144) /* PCAPRecordedLocation */
+VALUES (11480, 8040, 0x0284022D, 50.6088, -24.7961, 0, 0.546983, 0, 0, 0.837144) /* PCAPRecordedLocation */
 /* @teleloc 0x0284022D [50.608800 -24.796100 0.000000] 0.546983 0.000000 0.000000 0.837144 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11480, 8000, 2924756834) /* PCAPRecordedObjectIID */;
+VALUES (11480, 8000, 0xAE543F62) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11480,   1, 190, 0, 0) /* Strength */
@@ -58,7 +58,9 @@ VALUES (11480,   1,    25, 0, 0, 100) /* MaxHealth */
      , (11480,   5,     0, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11480, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
+VALUES (11480, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (11480, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
+     , (11480, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
      , (11480, 9,   273, 186, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (11480, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
      , (11480, 9, 10845,  0, 0, 0, False) /* Create Harvester Pincer (10845) for ContainTreasure */

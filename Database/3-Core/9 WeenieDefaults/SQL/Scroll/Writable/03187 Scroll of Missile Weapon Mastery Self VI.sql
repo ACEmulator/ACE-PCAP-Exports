@@ -24,13 +24,13 @@ VALUES (3187,   1, 'Scroll of Missile Weapon Mastery Self VI') /* Name */
 Increases the caster''s Missile Weapons skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3187,   1,   33554826) /* Setup */
-     , (3187,   8,  100676450) /* Icon */
-     , (3187,  22,  872415275) /* PhysicsEffectTable */
-     , (3187,  28,        472) /* Spell - BowMasterySelf6 */
+VALUES (3187,   1, 0x0200018A) /* Setup */
+     , (3187,   8, 0x06003362) /* Icon */
+     , (3187,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (3187,  28,        472) /* Spell - MissileWeaponsMasterySelf6 */
      , (3187, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3187, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3187, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3187, 8000, 2874282669) /* PCAPRecordedObjectIID */;
+VALUES (3187, 8000, 0xAB5212AD) /* PCAPRecordedObjectIID */;

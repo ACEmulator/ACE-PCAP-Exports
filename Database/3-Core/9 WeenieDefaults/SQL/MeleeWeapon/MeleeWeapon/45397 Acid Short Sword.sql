@@ -61,19 +61,19 @@ VALUES (45397,   1, 'Acid Short Sword') /* Name */
      , (45397,  40, 'Trader Dagger') /* ImbuerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45397,   1,   33555793) /* Setup */
-     , (45397,   3,  536870932) /* SoundTable */
-     , (45397,   8,  100669036) /* Icon */
-     , (45397,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45397,   1, 0x02000551) /* Setup */
+     , (45397,   3, 0x20000014) /* SoundTable */
+     , (45397,   8, 0x0600166C) /* Icon */
+     , (45397,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45397,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (45397,  52,  100676437) /* IconUnderlay */
+     , (45397,  52, 0x06003355) /* IconUnderlay */
      , (45397, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45397, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45397, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (45397, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45397, 8000, 2173690719) /* PCAPRecordedObjectIID */;
+VALUES (45397, 8000, 0x818FE35F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45397,  4395,      2)  /* BloodDrinkerSelf8 */

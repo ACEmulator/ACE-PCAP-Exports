@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30676,   1,        256) /* ItemType - MissileWeapon */
      , (30676,   5,        600) /* EncumbranceVal */
      , (30676,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (30676,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (30676,  16,          1) /* ItemUseable - No */
      , (30676,  19,       6000) /* Value */
      , (30676,  33,          1) /* Bonded - Bonded */
@@ -16,7 +15,7 @@ VALUES (30676,   1,        256) /* ItemType - MissileWeapon */
      , (30676,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30676,  49,          0) /* WeaponTime */
      , (30676,  50,          1) /* AmmoType - Arrow */
-     , (30676,  51,          2) /* CombatUse - Missle */
+     , (30676,  51,          2) /* CombatUse - Missile */
      , (30676,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30676, 106,        300) /* ItemSpellcraft */
      , (30676, 107,       2999) /* ItemCurMana */
@@ -32,6 +31,7 @@ VALUES (30676,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30676,  22, True ) /* Inscribable */
+     , (30676,  23, True ) /* DestroyOnSell */
      , (30676,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -49,22 +49,22 @@ VALUES (30676,   1, 'Barren Bow') /* Name */
      , (30676,  16, 'This bow appears to be made from the withered flesh of some sort of creature.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30676,   1,   33559216) /* Setup */
-     , (30676,   3,  536870932) /* SoundTable */
-     , (30676,   8,  100677401) /* Icon */
-     , (30676,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30676,   1, 0x020012B0) /* Setup */
+     , (30676,   3, 0x20000014) /* SoundTable */
+     , (30676,   8, 0x06003719) /* Icon */
+     , (30676,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30676, 8001,  270762776) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (30676, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30676, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (30676, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30676, 8040, 437452861, 181.9755, 100.6879, -0.07000001, 0.9568624, 0, 0, -0.2905415) /* PCAPRecordedLocation */
+VALUES (30676, 8040, 0x1A13003D, 181.9755, 100.6879, -0.07, 0.956862, 0, 0, -0.290542) /* PCAPRecordedLocation */
 /* @teleloc 0x1A13003D [181.975500 100.687900 -0.070000] 0.956862 0.000000 0.000000 -0.290542 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30676, 8000, 3683297672) /* PCAPRecordedObjectIID */
-     , (30676, 8008, 1343470464) /* PCAPRecordedParentIID */;
+VALUES (30676, 8000, 0xDB8AA988) /* PCAPRecordedObjectIID */
+     , (30676, 8008, 0x5013BB80) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30676,  1616,      2)  /* BloodDrinkerSelf6 */;

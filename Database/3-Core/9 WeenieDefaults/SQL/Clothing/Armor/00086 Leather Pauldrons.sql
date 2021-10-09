@@ -35,21 +35,21 @@ VALUES (86,   1, 'Leather Pauldrons') /* Name */
      , (86,   8, 'Spqr') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (86,   1,   33554641) /* Setup */
-     , (86,   3,  536870932) /* SoundTable */
-     , (86,   6,   67108990) /* PaletteBase */
-     , (86,   8,  100669532) /* Icon */
-     , (86,  22,  872415275) /* PhysicsEffectTable */
+VALUES (86,   1, 0x020000D1) /* Setup */
+     , (86,   3, 0x20000014) /* SoundTable */
+     , (86,   6, 0x0400007E) /* PaletteBase */
+     , (86,   8, 0x0600185C) /* Icon */
+     , (86,  22, 0x3400002B) /* PhysicsEffectTable */
      , (86, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (86, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (86, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (86, 8040, 2847146241, 79.26196, 132.5645, 69.49725, 0.2568298, 0, 0, -0.9664567) /* PCAPRecordedLocation */
+VALUES (86, 8040, 0xA9B40101, 79.26196, 132.5645, 69.49725, 0.25683, 0, 0, -0.966457) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40101 [79.261960 132.564500 69.497250] 0.256830 0.000000 0.000000 -0.966457 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (86, 8000, 3700505872) /* PCAPRecordedObjectIID */;
+VALUES (86, 8000, 0xDC913D10) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (86, 67113077, 128, 8);

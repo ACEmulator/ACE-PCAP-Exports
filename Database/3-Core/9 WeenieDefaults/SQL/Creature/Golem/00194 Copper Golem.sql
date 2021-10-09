@@ -23,22 +23,22 @@ VALUES (194,   1, 'Copper Golem') /* Name */
      , (194, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (194,   1,   33556426) /* Setup */
-     , (194,   2,  150995073) /* MotionTable */
-     , (194,   3,  536870933) /* SoundTable */
-     , (194,   6,   67112772) /* PaletteBase */
-     , (194,   8,  100667940) /* Icon */
-     , (194,  22,  872415321) /* PhysicsEffectTable */
+VALUES (194,   1, 0x020007CA) /* Setup */
+     , (194,   2, 0x09000081) /* MotionTable */
+     , (194,   3, 0x20000015) /* SoundTable */
+     , (194,   6, 0x04000F44) /* PaletteBase */
+     , (194,   8, 0x06001224) /* Icon */
+     , (194,  22, 0x34000059) /* PhysicsEffectTable */
      , (194, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (194, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (194, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (194, 8040, 2553872392, 9.512936, 181.4133, 51.18583, -0.6924555, 0, 0, -0.7214606) /* PCAPRecordedLocation */
+VALUES (194, 8040, 0x98390008, 9.512936, 181.4133, 51.18583, -0.692456, 0, 0, -0.721461) /* PCAPRecordedLocation */
 /* @teleloc 0x98390008 [9.512936 181.413300 51.185830] -0.692456 0.000000 0.000000 -0.721461 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (194, 8000, 3685862592) /* PCAPRecordedObjectIID */;
+VALUES (194, 8000, 0xDBB1CCC0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (194,   1, 120, 0, 0) /* Strength */
@@ -54,7 +54,8 @@ VALUES (194,   1,    70, 0, 0, 150) /* MaxHealth */
      , (194,   5,   200, 0, 0, 310) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (194, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+VALUES (194, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (194, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
      , (194, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (194, 9,   273, 397, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (194, 9,  2836,  0, 0, 0, False) /* Create Aura of Heartseeker Self VI (2836) for ContainTreasure */
@@ -308,7 +309,8 @@ VALUES (194, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure 
      , (194, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
      , (194, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
      , (194, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
-     , (194, 9, 46884,  0, 0, 0, False) /* Create Aura of Hermetic Link Other VII (46884) for ContainTreasure */;
+     , (194, 9, 46884,  0, 0, 0, False) /* Create Aura of Hermetic Link Other VII (46884) for ContainTreasure */
+     , (194, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (194, 67112772, 0, 0);

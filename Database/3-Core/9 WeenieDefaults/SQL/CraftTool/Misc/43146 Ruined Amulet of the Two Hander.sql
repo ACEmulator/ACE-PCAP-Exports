@@ -19,7 +19,8 @@ VALUES (43146,   1,        128) /* ItemType - Misc */
      , (43146, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43146,  22, True ) /* Inscribable */;
+VALUES (43146,  22, True ) /* Inscribable */
+     , (43146,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43146,  39,    0.67) /* DefaultScale */;
@@ -30,17 +31,17 @@ VALUES (43146,   1, 'Ruined Amulet of the Two Hander') /* Name */
      , (43146,  16, 'An Amulet crafted in pyreal that bears the symbol of a two handed sword. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43146,   1,   33554680) /* Setup */
-     , (43146,   3,  536870932) /* SoundTable */
-     , (43146,   6,   67111919) /* PaletteBase */
-     , (43146,   8,  100691469) /* Icon */
-     , (43146,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43146,   1, 0x020000F8) /* Setup */
+     , (43146,   3, 0x20000014) /* SoundTable */
+     , (43146,   6, 0x04000BEF) /* PaletteBase */
+     , (43146,   8, 0x06006E0D) /* Icon */
+     , (43146,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43146, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (43146, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43146, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43146, 8000, 3360094190) /* PCAPRecordedObjectIID */;
+VALUES (43146, 8000, 0xC846F7EE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43146, 67111922, 0, 0);

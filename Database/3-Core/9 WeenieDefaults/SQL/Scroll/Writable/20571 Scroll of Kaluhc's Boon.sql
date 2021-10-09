@@ -24,13 +24,13 @@ VALUES (20571,   1, 'Scroll of Kaluhc''s Boon') /* Name */
 Increases the target''s Assess Person skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20571,   1,   33554826) /* Setup */
-     , (20571,   8,  100676448) /* Icon */
-     , (20571,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20571,   1, 0x0200018A) /* Setup */
+     , (20571,   8, 0x06003360) /* Icon */
+     , (20571,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20571,  28,       2292) /* Spell - PersonAttunementOther7 */
      , (20571, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20571, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20571, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20571, 8000, 3695706550) /* PCAPRecordedObjectIID */;
+VALUES (20571, 8000, 0xDC4801B6) /* PCAPRecordedObjectIID */;

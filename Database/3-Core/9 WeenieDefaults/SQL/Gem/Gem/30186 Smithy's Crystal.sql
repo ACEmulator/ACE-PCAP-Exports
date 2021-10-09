@@ -34,21 +34,21 @@ VALUES (30186,   1, 'Smithy''s Crystal') /* Name */
      , (30186,  20, 'Smithy''s Crystals') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30186,   1,   33554809) /* Setup */
-     , (30186,   3,  536870932) /* SoundTable */
-     , (30186,   6,   67111919) /* PaletteBase */
-     , (30186,   8,  100686697) /* Icon */
-     , (30186,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30186,   1, 0x02000179) /* Setup */
+     , (30186,   3, 0x20000014) /* SoundTable */
+     , (30186,   6, 0x04000BEF) /* PaletteBase */
+     , (30186,   8, 0x06005B69) /* Icon */
+     , (30186,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30186,  28,       3683) /* Spell - ArmorExpertiseRare */
-     , (30186,  50,  100686630) /* IconOverlay */
-     , (30186,  52,  100686604) /* IconUnderlay */
+     , (30186,  50, 0x06005B26) /* IconOverlay */
+     , (30186,  52, 0x06005B0C) /* IconUnderlay */
      , (30186, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (30186, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30186, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
      , (30186, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30186, 8000, 2912566972) /* PCAPRecordedObjectIID */;
+VALUES (30186, 8000, 0xAD9A3EBC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30186, 67111919, 0, 0);

@@ -22,13 +22,13 @@ VALUES (28731,   1, 'Identification Plate') /* Name */
      , (28731,  16, 'An identification plate from the province of Celdon. This would have once been attached to a merchant''s cart. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28731,   1,   33559135) /* Setup */
-     , (28731,   3,  536870932) /* SoundTable */
-     , (28731,   8,  100686357) /* Icon */
-     , (28731,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28731,   1, 0x0200125F) /* Setup */
+     , (28731,   3, 0x20000014) /* SoundTable */
+     , (28731,   8, 0x06005A15) /* Icon */
+     , (28731,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28731, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (28731, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28731, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28731, 8000, 2631404685) /* PCAPRecordedObjectIID */;
+VALUES (28731, 8000, 0x9CD80C8D) /* PCAPRecordedObjectIID */;

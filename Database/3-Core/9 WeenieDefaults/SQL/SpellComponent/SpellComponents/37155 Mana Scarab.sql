@@ -22,19 +22,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37155,   1, 'Mana Scarab') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37155,   1,   33555211) /* Setup */
-     , (37155,   3,  536870932) /* SoundTable */
-     , (37155,   8,  100689829) /* Icon */
-     , (37155,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37155,   1, 0x0200030B) /* Setup */
+     , (37155,   3, 0x20000014) /* SoundTable */
+     , (37155,   8, 0x060067A5) /* Icon */
+     , (37155,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37155, 8001,  270561432) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, HookType */
      , (37155, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37155, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37155, 8000, 3680460203) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37155, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
+VALUES (37155, 8000, 0xDB5F5DAB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (37155, 0, 83890047, 83890047);

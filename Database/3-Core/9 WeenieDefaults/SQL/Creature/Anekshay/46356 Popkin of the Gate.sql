@@ -29,22 +29,22 @@ VALUES (46356,   1, 'Popkin of the Gate') /* Name */
      , (46356, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46356,   1,   33561252) /* Setup */
-     , (46356,   2,  150994945) /* MotionTable */
-     , (46356,   3,  536870933) /* SoundTable */
-     , (46356,   6,   67108990) /* PaletteBase */
-     , (46356,   8,  100670274) /* Icon */
-     , (46356,  22,  872415236) /* PhysicsEffectTable */
+VALUES (46356,   1, 0x02001AA4) /* Setup */
+     , (46356,   2, 0x09000001) /* MotionTable */
+     , (46356,   3, 0x20000015) /* SoundTable */
+     , (46356,   6, 0x0400007E) /* PaletteBase */
+     , (46356,   8, 0x06001B42) /* Icon */
+     , (46356,  22, 0x34000004) /* PhysicsEffectTable */
      , (46356, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (46356, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (46356, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46356, 8040, 3131048193, 59.0658, 38.5595, 53.705, 0.15787, 0, 0, -0.9874599) /* PCAPRecordedLocation */
+VALUES (46356, 8040, 0xBAA00101, 59.0658, 38.5595, 53.705, 0.15787, 0, 0, -0.98746) /* PCAPRecordedLocation */
 /* @teleloc 0xBAA00101 [59.065800 38.559500 53.705000] 0.157870 0.000000 0.000000 -0.987460 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46356, 8000, 3691991146) /* PCAPRecordedObjectIID */;
+VALUES (46356, 8000, 0xDC0F506A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46356,   1, 200, 0, 0) /* Strength */

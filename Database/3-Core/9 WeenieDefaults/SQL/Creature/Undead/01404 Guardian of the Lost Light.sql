@@ -26,22 +26,22 @@ VALUES (1404,   1, 'Guardian of the Lost Light') /* Name */
      , (1404, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1404,   1,   33554839) /* Setup */
-     , (1404,   2,  150994967) /* MotionTable */
-     , (1404,   3,  536870934) /* SoundTable */
-     , (1404,   6,   67110722) /* PaletteBase */
-     , (1404,   8,  100667942) /* Icon */
-     , (1404,  22,  872415272) /* PhysicsEffectTable */
+VALUES (1404,   1, 0x02000197) /* Setup */
+     , (1404,   2, 0x09000017) /* MotionTable */
+     , (1404,   3, 0x20000016) /* SoundTable */
+     , (1404,   6, 0x04000742) /* PaletteBase */
+     , (1404,   8, 0x06001226) /* Icon */
+     , (1404,  22, 0x34000028) /* PhysicsEffectTable */
      , (1404, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1404, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1404, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1404, 8040, 30277918, 50.0295, -41.6697, -17.99175, -0.2699699, 0, 0, -0.9628688) /* PCAPRecordedLocation */
+VALUES (1404, 8040, 0x01CE011E, 50.0295, -41.6697, -17.99175, -0.26997, 0, 0, -0.962869) /* PCAPRecordedLocation */
 /* @teleloc 0x01CE011E [50.029500 -41.669700 -17.991750] -0.269970 0.000000 0.000000 -0.962869 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1404, 8000, 3701225485) /* PCAPRecordedObjectIID */;
+VALUES (1404, 8000, 0xDC9C380D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1404,   1, 175, 0, 0) /* Strength */

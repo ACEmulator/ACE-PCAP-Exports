@@ -26,20 +26,20 @@ VALUES (24001,   1, 'Arikas, Warden of Knorr') /* Name */
      , (24001, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24001,   1,   33558367) /* Setup */
-     , (24001,   2,  150994945) /* MotionTable */
-     , (24001,   3,  536870933) /* SoundTable */
-     , (24001,   8,  100674350) /* Icon */
+VALUES (24001,   1, 0x02000F5F) /* Setup */
+     , (24001,   2, 0x09000001) /* MotionTable */
+     , (24001,   3, 0x20000015) /* SoundTable */
+     , (24001,   8, 0x06002B2E) /* Icon */
      , (24001, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (24001, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (24001, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24001, 8040, 1682178371, 90, -288, -23.99, 0, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (24001, 8040, 0x64440143, 90, -288, -23.99, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x64440143 [90.000000 -288.000000 -23.990000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24001, 8000, 3695690371) /* PCAPRecordedObjectIID */;
+VALUES (24001, 8000, 0xDC47C283) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (24001, 0, 83894477, 83892492)

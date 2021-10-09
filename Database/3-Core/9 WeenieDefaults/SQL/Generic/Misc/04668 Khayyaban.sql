@@ -19,15 +19,15 @@ VALUES (4668,   1, 'Khayyaban') /* Name */
      , (4668,  16, 'Welcome to the town of Khayyaban.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4668,   1,   33556195) /* Setup */
-     , (4668,   8,  100668115) /* Icon */
+VALUES (4668,   1, 0x020006E3) /* Setup */
+     , (4668,   8, 0x060012D3) /* Icon */
      , (4668, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (4668, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4668, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4668, 8040, 2672033810, 66.27, 28.433, 31.89192, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (4668, 8040, 0x9F440012, 66.27, 28.433, 31.89192, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x9F440012 [66.270000 28.433000 31.891920] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4668, 8000, 2046050304) /* PCAPRecordedObjectIID */;
+VALUES (4668, 8000, 0x79F44000) /* PCAPRecordedObjectIID */;

@@ -54,18 +54,18 @@ VALUES (3795,   1, 'Lightning Jambiya') /* Name */
      , (3795,  16, 'Lightning Jambiya of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3795,   1,   33555728) /* Setup */
-     , (3795,   3,  536870932) /* SoundTable */
-     , (3795,   8,  100667592) /* Icon */
-     , (3795,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3795,   1, 0x02000510) /* Setup */
+     , (3795,   3, 0x20000014) /* SoundTable */
+     , (3795,   8, 0x060010C8) /* Icon */
+     , (3795,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3795,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3795, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3795, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3795, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3795, 8000, 2368837964) /* PCAPRecordedObjectIID */;
+VALUES (3795, 8000, 0x8D31994C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3795,  1332,      2)  /* StrengthSelf6 */
-     , (3795,  2096,      2)  /* BloodDrinkerSelf7 */;
+VALUES (3795,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (3795,  1332,      2)  /* StrengthSelf6 */;

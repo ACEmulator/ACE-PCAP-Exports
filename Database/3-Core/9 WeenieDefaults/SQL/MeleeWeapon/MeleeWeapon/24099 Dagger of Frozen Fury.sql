@@ -46,19 +46,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24099,   1, 'Dagger of Frozen Fury') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24099,   1,   33558264) /* Setup */
-     , (24099,   3,  536870932) /* SoundTable */
-     , (24099,   8,  100674255) /* Icon */
-     , (24099,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24099,   1, 0x02000EF8) /* Setup */
+     , (24099,   3, 0x20000014) /* SoundTable */
+     , (24099,   8, 0x06002ACF) /* Icon */
+     , (24099,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24099, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24099, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24099, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24099, 8000, 3699139957) /* PCAPRecordedObjectIID */;
+VALUES (24099, 8000, 0xDC7C6575) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24099,  1040,      2)  /* ColdProtectionOther5 */
-     , (24099,  1591,      2)  /* HeartSeekerSelf5 */
-     , (24099,  1604,      2)  /* DefenderSelf5 */
-     , (24099,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (24099,  1604,      2)  /* DefenderSelf5 */
+     , (24099,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (24099,  1040,      2)  /* ColdProtectionOther5 */
+     , (24099,  1591,      2)  /* HeartSeekerSelf5 */;

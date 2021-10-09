@@ -46,13 +46,13 @@ VALUES (45114,   1, 'Acid Hammer') /* Name */
      , (45114,  16, 'Acid Hammer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45114,   1,   33555827) /* Setup */
-     , (45114,   3,  536870932) /* SoundTable */
-     , (45114,   8,  100669074) /* Icon */
-     , (45114,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45114,   1, 0x02000573) /* Setup */
+     , (45114,   3, 0x20000014) /* SoundTable */
+     , (45114,   8, 0x06001692) /* Icon */
+     , (45114,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45114, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (45114, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45114, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45114, 8000, 3692258648) /* PCAPRecordedObjectIID */;
+VALUES (45114, 8000, 0xDC136558) /* PCAPRecordedObjectIID */;

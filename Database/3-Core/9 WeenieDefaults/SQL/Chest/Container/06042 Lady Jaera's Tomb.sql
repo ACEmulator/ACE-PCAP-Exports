@@ -29,19 +29,19 @@ VALUES (6042,   1, 'Lady Jaera''s Tomb') /* Name */
      , (6042, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6042,   1,   33554638) /* Setup */
-     , (6042,   2,  150994980) /* MotionTable */
-     , (6042,   3,  536870949) /* SoundTable */
-     , (6042,   8,  100668103) /* Icon */
-     , (6042,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6042,   1, 0x020000CE) /* Setup */
+     , (6042,   2, 0x09000024) /* MotionTable */
+     , (6042,   3, 0x20000025) /* SoundTable */
+     , (6042,   8, 0x060012C7) /* Icon */
+     , (6042,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6042,  28,       2074) /* Spell - ImperilOther7 */
      , (6042, 8001,    6291518) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden, Spell */
      , (6042, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (6042, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6042, 8040, 20513302, 80, -20, -42, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (6042, 8040, 0x01390216, 80, -20, -42, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01390216 [80.000000 -20.000000 -42.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6042, 8000, 1880330309) /* PCAPRecordedObjectIID */;
+VALUES (6042, 8000, 0x70139045) /* PCAPRecordedObjectIID */;

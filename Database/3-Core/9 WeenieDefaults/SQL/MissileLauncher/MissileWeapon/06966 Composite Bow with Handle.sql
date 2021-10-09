@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6966,   1,        256) /* ItemType - MissileWeapon */
      , (6966,   5,        980) /* EncumbranceVal */
      , (6966,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (6966,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (6966,  16,          1) /* ItemUseable - No */
      , (6966,  18,          1) /* UiEffects - Magical */
      , (6966,  19,        400) /* Value */
@@ -17,7 +16,7 @@ VALUES (6966,   1,        256) /* ItemType - MissileWeapon */
      , (6966,  48,         47) /* WeaponSkill - MissileWeapons */
      , (6966,  49,         35) /* WeaponTime */
      , (6966,  50,          1) /* AmmoType - Arrow */
-     , (6966,  51,          2) /* CombatUse - Missle */
+     , (6966,  51,          2) /* CombatUse - Missile */
      , (6966,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6966, 106,        200) /* ItemSpellcraft */
      , (6966, 107,          0) /* ItemCurMana */
@@ -31,6 +30,7 @@ VALUES (6966,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6966,  22, True ) /* Inscribable */
+     , (6966,  23, True ) /* DestroyOnSell */
      , (6966,  69, False) /* IsSellable */
      , (6966,  99, True ) /* Ivoryable */;
 
@@ -50,27 +50,27 @@ VALUES (6966,   1, 'Composite Bow with Handle') /* Name */
      , (6966,   8, 'Goober Nut') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6966,   1,   33556600) /* Setup */
-     , (6966,   3,  536870932) /* SoundTable */
-     , (6966,   6,   67112869) /* PaletteBase */
-     , (6966,   8,  100670670) /* Icon */
-     , (6966,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6966,   1, 0x02000878) /* Setup */
+     , (6966,   3, 0x20000014) /* SoundTable */
+     , (6966,   6, 0x04000FA5) /* PaletteBase */
+     , (6966,   8, 0x06001CCE) /* Icon */
+     , (6966,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6966, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (6966, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6966, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (6966, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6966, 8040, 23855555, 64.06312, -42.4776, 0.4424986, -0.9414667, 0, 0, -0.337106) /* PCAPRecordedLocation */
+VALUES (6966, 8040, 0x016C01C3, 64.06312, -42.4776, 0.442499, -0.941467, 0, 0, -0.337106) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [64.063120 -42.477600 0.442499] -0.941467 0.000000 0.000000 -0.337106 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6966, 8000, 3422750706) /* PCAPRecordedObjectIID */
-     , (6966, 8008, 1342467484) /* PCAPRecordedParentIID */;
+VALUES (6966, 8000, 0xCC0307F2) /* PCAPRecordedObjectIID */
+     , (6966, 8008, 0x50046D9C) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6966,   465,      2)  /* BowMasteryOther5 */
-     , (6966,  1615,      2)  /* BloodDrinkerSelf5 */;
+VALUES (6966,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (6966,   465,      2)  /* MissileWeaponsMasteryOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6966, 67112871, 0, 0);

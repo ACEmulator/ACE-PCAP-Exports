@@ -15,7 +15,7 @@ VALUES (23911,   1,        256) /* ItemType - MissileWeapon */
      , (23911,  48,         47) /* WeaponSkill - MissileWeapons */
      , (23911,  49,         60) /* WeaponTime */
      , (23911,  50,          2) /* AmmoType - Bolt */
-     , (23911,  51,          2) /* CombatUse - Missle */
+     , (23911,  51,          2) /* CombatUse - Missile */
      , (23911,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (23911, 106,        400) /* ItemSpellcraft */
      , (23911, 107,        600) /* ItemCurMana */
@@ -49,19 +49,19 @@ VALUES (23911,   1, 'Assault Crossbow') /* Name */
      , (23911,  16, 'A reward for defeating the leaders of the Reedshark Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23911,   1,   33558210) /* Setup */
-     , (23911,   3,  536870932) /* SoundTable */
-     , (23911,   8,  100671750) /* Icon */
-     , (23911,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23911,   1, 0x02000EC2) /* Setup */
+     , (23911,   3, 0x20000014) /* SoundTable */
+     , (23911,   8, 0x06002106) /* Icon */
+     , (23911,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23911,  30,         88) /* PhysicsScript - Create */
      , (23911, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23911, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23911, 8005,     161921) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23911, 8000, 2192305055) /* PCAPRecordedObjectIID */;
+VALUES (23911, 8000, 0x82ABEB9F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23911,  1377,      2)  /* CoordinationSelf5 */
-     , (23911,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (23911,  2004,      2)  /* WarriorsVitality */;
+VALUES (23911,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (23911,  2004,      2)  /* WarriorsVitality */
+     , (23911,  1377,      2)  /* CoordinationSelf5 */;

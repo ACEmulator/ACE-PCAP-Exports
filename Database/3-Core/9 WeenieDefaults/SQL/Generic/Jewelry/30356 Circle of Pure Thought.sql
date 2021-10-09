@@ -23,19 +23,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30356,   1, 'Circle of Pure Thought') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30356,   1,   33554683) /* Setup */
-     , (30356,   3,  536870932) /* SoundTable */
-     , (30356,   6,   67111919) /* PaletteBase */
-     , (30356,   8,  100686818) /* Icon */
-     , (30356,  22,  872415275) /* PhysicsEffectTable */
-     , (30356,  52,  100686604) /* IconUnderlay */
+VALUES (30356,   1, 0x020000FB) /* Setup */
+     , (30356,   3, 0x20000014) /* SoundTable */
+     , (30356,   6, 0x04000BEF) /* PaletteBase */
+     , (30356,   8, 0x06005BE2) /* Icon */
+     , (30356,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30356,  52, 0x06005B0C) /* IconUnderlay */
      , (30356, 8001,  270614552) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden, HookType */
      , (30356, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30356, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30356, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30356, 8000, 2171543652) /* PCAPRecordedObjectIID */;
+VALUES (30356, 8000, 0x816F2064) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30356, 67111919, 0, 0);

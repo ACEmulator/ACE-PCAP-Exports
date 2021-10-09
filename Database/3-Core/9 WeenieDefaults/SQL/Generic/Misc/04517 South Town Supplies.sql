@@ -18,15 +18,15 @@ VALUES (4517,   1, 'South Town Supplies') /* Name */
      , (4517,  16, 'South Town Supplies') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4517,   1,   33555594) /* Setup */
-     , (4517,   8,  100668115) /* Icon */
+VALUES (4517,   1, 0x0200048A) /* Setup */
+     , (4517,   8, 0x060012D3) /* Icon */
      , (4517, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (4517, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4517, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4517, 8040, 3845980222, 179.816, 140.054, 97.824, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (4517, 8040, 0xE53D003E, 179.816, 140.054, 97.824, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xE53D003E [179.816000 140.054000 97.824000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4517, 8000, 2119421961) /* PCAPRecordedObjectIID */;
+VALUES (4517, 8000, 0x7E53D009) /* PCAPRecordedObjectIID */;

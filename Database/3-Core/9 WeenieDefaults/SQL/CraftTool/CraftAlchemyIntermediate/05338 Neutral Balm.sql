@@ -23,13 +23,13 @@ VALUES (5338,   1, 'Neutral Balm') /* Name */
      , (5338,  20, 'Neutral Balms') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5338,   1,   33555963) /* Setup */
-     , (5338,   3,  536870932) /* SoundTable */
-     , (5338,   8,  100670004) /* Icon */
-     , (5338,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5338,   1, 0x020005FB) /* Setup */
+     , (5338,   3, 0x20000014) /* SoundTable */
+     , (5338,   8, 0x06001A34) /* Icon */
+     , (5338,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5338, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (5338, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5338, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5338, 8000, 2981038736) /* PCAPRecordedObjectIID */;
+VALUES (5338, 8000, 0xB1AF0A90) /* PCAPRecordedObjectIID */;

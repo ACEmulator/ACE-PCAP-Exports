@@ -26,23 +26,23 @@ VALUES (1624,   1, 'Swamp Rat') /* Name */
      , (1624, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1624,   1,   33554493) /* Setup */
-     , (1624,   2,  150994958) /* MotionTable */
-     , (1624,   3,  536870927) /* SoundTable */
-     , (1624,   6,   67109300) /* PaletteBase */
-     , (1624,   8,  100667451) /* Icon */
-     , (1624,  22,  872415267) /* PhysicsEffectTable */
+VALUES (1624,   1, 0x0200003D) /* Setup */
+     , (1624,   2, 0x0900000E) /* MotionTable */
+     , (1624,   3, 0x2000000F) /* SoundTable */
+     , (1624,   6, 0x040001B4) /* PaletteBase */
+     , (1624,   8, 0x0600103B) /* Icon */
+     , (1624,  22, 0x34000023) /* PhysicsEffectTable */
      , (1624,  30,         87) /* PhysicsScript - BreatheLightning */
      , (1624, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1624, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1624, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1624, 8040, 32899578, 88.028, -58.4401, -5.988, 0.4757321, 0, 0, -0.8795902) /* PCAPRecordedLocation */
+VALUES (1624, 8040, 0x01F601FA, 88.028, -58.4401, -5.988, 0.475732, 0, 0, -0.87959) /* PCAPRecordedLocation */
 /* @teleloc 0x01F601FA [88.028000 -58.440100 -5.988000] 0.475732 0.000000 0.000000 -0.879590 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1624, 8000, 3701144581) /* PCAPRecordedObjectIID */;
+VALUES (1624, 8000, 0xDC9AFC05) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1624,   1,  70, 0, 0) /* Strength */

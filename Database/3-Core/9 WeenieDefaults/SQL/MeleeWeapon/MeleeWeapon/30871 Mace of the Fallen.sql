@@ -45,16 +45,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30871,   1, 'Mace of the Fallen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30871,   1,   33559271) /* Setup */
-     , (30871,   3,  536870932) /* SoundTable */
-     , (30871,   8,  100677503) /* Icon */
-     , (30871,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30871,   1, 0x020012E7) /* Setup */
+     , (30871,   3, 0x20000014) /* SoundTable */
+     , (30871,   8, 0x0600377F) /* Icon */
+     , (30871,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30871, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (30871, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30871, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30871, 8000, 2807507456) /* PCAPRecordedObjectIID */;
+VALUES (30871, 8000, 0xA7572A00) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30871,  2096,      2)  /* BloodDrinkerSelf7 */

@@ -21,12 +21,12 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38717,   1, 'Celestial Hand Banner') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38717,   1,   33560562) /* Setup */
-     , (38717,   3,  536870932) /* SoundTable */
-     , (38717,   8,  100689888) /* Icon */
+VALUES (38717,   1, 0x020017F2) /* Setup */
+     , (38717,   3, 0x20000014) /* SoundTable */
+     , (38717,   8, 0x060067E0) /* Icon */
      , (38717, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (38717, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38717, 8005,       2177) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38717, 8000, 2949259201) /* PCAPRecordedObjectIID */;
+VALUES (38717, 8000, 0xAFCA1FC1) /* PCAPRecordedObjectIID */;

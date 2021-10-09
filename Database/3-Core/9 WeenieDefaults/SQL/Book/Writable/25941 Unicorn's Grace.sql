@@ -18,22 +18,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25941,   1, 'Unicorn''s Grace') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25941,   1,   33554773) /* Setup */
-     , (25941,   3,  536870932) /* SoundTable */
-     , (25941,   8,  100668176) /* Icon */
-     , (25941,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25941,   1, 0x02000155) /* Setup */
+     , (25941,   3, 0x20000014) /* SoundTable */
+     , (25941,   8, 0x06001310) /* Icon */
+     , (25941,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25941, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (25941, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (25941, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25941, 8000, 2166110837) /* PCAPRecordedObjectIID */;
+VALUES (25941, 8000, 0x811C3A75) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25941, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (25941, 0, 4294967295, 'Honshu Takeda', 'Password is cheese', False, 'My travels have lead me to the town of Sawato, a shining bastion in the dankness of the great swamp of Osteth.
+VALUES (25941, 0, 4294967295, 'Honshu Takeda', 'prewritten', False, 'My travels have lead me to the town of Sawato, a shining bastion in the dankness of the great swamp of Osteth.
 
 I have prayed at this shrine and been enlightened as to the location of a place where crystals beyond beauty are shaped by an underground swell of water. There I am certain to find what shall be representative of the Unicorn''s Grace.
 

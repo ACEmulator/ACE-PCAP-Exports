@@ -46,21 +46,21 @@ VALUES (23539,   1, 'Serpent''s Fang') /* Name */
      , (23539,  16, 'A spear crafted in the semblance of a large snake.  The eyes seem to be crafted from some sort of gems, and acid drips from the fangs.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23539,   1,   33557337) /* Setup */
-     , (23539,   3,  536870932) /* SoundTable */
-     , (23539,   8,  100674087) /* Icon */
-     , (23539,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23539,   1, 0x02000B59) /* Setup */
+     , (23539,   3, 0x20000014) /* SoundTable */
+     , (23539,   8, 0x06002A27) /* Icon */
+     , (23539,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23539, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23539, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23539, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23539, 8000, 2174553928) /* PCAPRecordedObjectIID */;
+VALUES (23539, 8000, 0x819D0F48) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23539,   248,      2)  /* InvulnerabilitySelf5 */
-     , (23539,  1592,      2)  /* HeartSeekerSelf6 */
-     , (23539,  1605,      2)  /* DefenderSelf6 */
+VALUES (23539,  1605,      2)  /* DefenderSelf6 */
      , (23539,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (23539,  2005,      2)  /* WarriorsGreaterVitality */
      , (23539,  1624,      2)  /* SwiftKillerSelf3 */
-     , (23539,  2005,      2)  /* WarriorsGreaterVitality */;
+     , (23539,  1592,      2)  /* HeartSeekerSelf6 */
+     , (23539,   248,      2)  /* InvulnerabilitySelf5 */;

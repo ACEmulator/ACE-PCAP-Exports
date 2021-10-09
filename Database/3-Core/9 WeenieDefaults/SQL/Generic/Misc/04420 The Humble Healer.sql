@@ -19,18 +19,18 @@ VALUES (4420,   1, 'The Humble Healer') /* Name */
      , (4420,  16, 'The Humble Healer') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4420,   1,   33555088) /* Setup */
-     , (4420,   8,  100668115) /* Icon */
+VALUES (4420,   1, 0x02000290) /* Setup */
+     , (4420,   8, 0x060012D3) /* Icon */
      , (4420, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (4420, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4420, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4420, 8040, 3212836907, 138.105, 49.9141, 34, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (4420, 8040, 0xBF80002B, 138.105, 49.9141, 34, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xBF80002B [138.105000 49.914100 34.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4420, 8000, 2079850546) /* PCAPRecordedObjectIID */;
+VALUES (4420, 8000, 0x7BF80032) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (4420, 0, 83891055, 83889901);

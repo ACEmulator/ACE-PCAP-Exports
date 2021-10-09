@@ -24,18 +24,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51484,   1, 'Rynthid Tentacle Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51484,   1,   33561601) /* Setup */
-     , (51484,   3,  536870932) /* SoundTable */
-     , (51484,   6,   67111919) /* PaletteBase */
-     , (51484,   8,  100693229) /* Icon */
-     , (51484,  22,  872415275) /* PhysicsEffectTable */
-     , (51484,  50,  100667895) /* IconOverlay */
+VALUES (51484,   1, 0x02001C01) /* Setup */
+     , (51484,   3, 0x20000014) /* SoundTable */
+     , (51484,   6, 0x04000BEF) /* PaletteBase */
+     , (51484,   8, 0x060074ED) /* Icon */
+     , (51484,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51484,  50, 0x060011F7) /* IconOverlay */
      , (51484, 8001, 1344827416) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType, IconOverlay */
      , (51484, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51484, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51484, 8000, 2261330522) /* PCAPRecordedObjectIID */;
+VALUES (51484, 8000, 0x86C92A5A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51484, 67111921, 0, 0);

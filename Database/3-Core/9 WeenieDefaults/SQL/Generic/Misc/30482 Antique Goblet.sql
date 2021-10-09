@@ -14,7 +14,8 @@ VALUES (30482,   1,        128) /* ItemType - Misc */
      , (30482, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30482,  22, True ) /* Inscribable */;
+VALUES (30482,  22, True ) /* Inscribable */
+     , (30482,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30482,  39,       2) /* DefaultScale */;
@@ -24,21 +25,21 @@ VALUES (30482,   1, 'Antique Goblet') /* Name */
      , (30482,  16, 'A fine porcelain goblet, painted with delicate Sho designs in indigo. This goblet belonged to Worcer''s mother, June, before she was slain by Tumeroks in the Holtburg Redoubt.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30482,   1,   33554663) /* Setup */
-     , (30482,   3,  536871012) /* SoundTable */
-     , (30482,   6,   67111919) /* PaletteBase */
-     , (30482,   8,  100668672) /* Icon */
-     , (30482,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30482,   1, 0x020000E7) /* Setup */
+     , (30482,   3, 0x20000064) /* SoundTable */
+     , (30482,   6, 0x04000BEF) /* PaletteBase */
+     , (30482,   8, 0x06001500) /* Icon */
+     , (30482,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30482, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (30482, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30482, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (30482, 8040, 23265567, 42.9357, -16.6179, -18.015, -0.8220944, 0, 0, 0.5693513) /* PCAPRecordedLocation */
+VALUES (30482, 8040, 0x0163011F, 42.9357, -16.6179, -18.015, -0.822094, 0, 0, 0.569351) /* PCAPRecordedLocation */
 /* @teleloc 0x0163011F [42.935700 -16.617900 -18.015000] -0.822094 0.000000 0.000000 0.569351 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30482, 8000, 3354644274) /* PCAPRecordedObjectIID */;
+VALUES (30482, 8000, 0xC7F3CF32) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30482, 67111919, 0, 0);

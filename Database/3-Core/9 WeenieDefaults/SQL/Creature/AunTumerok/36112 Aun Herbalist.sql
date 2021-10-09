@@ -26,22 +26,22 @@ VALUES (36112,   1, 'Aun Herbalist') /* Name */
      , (36112, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36112,   1,   33557175) /* Setup */
-     , (36112,   2,  150995136) /* MotionTable */
-     , (36112,   3,  536870931) /* SoundTable */
-     , (36112,   6,   67113280) /* PaletteBase */
-     , (36112,   8,  100671756) /* Icon */
-     , (36112,  22,  872415270) /* PhysicsEffectTable */
+VALUES (36112,   1, 0x02000AB7) /* Setup */
+     , (36112,   2, 0x090000C0) /* MotionTable */
+     , (36112,   3, 0x20000013) /* SoundTable */
+     , (36112,   6, 0x04001140) /* PaletteBase */
+     , (36112,   8, 0x0600210C) /* Icon */
+     , (36112,  22, 0x34000026) /* PhysicsEffectTable */
      , (36112, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (36112, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (36112, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36112, 8040, 415367198, 80.37899, 137.8999, 93.30875, 0.1760902, 0, 0, -0.984374) /* PCAPRecordedLocation */
+VALUES (36112, 8040, 0x18C2001E, 80.37899, 137.8999, 93.30875, 0.17609, 0, 0, -0.984374) /* PCAPRecordedLocation */
 /* @teleloc 0x18C2001E [80.378990 137.899900 93.308750] 0.176090 0.000000 0.000000 -0.984374 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36112, 8000, 3706905769) /* PCAPRecordedObjectIID */;
+VALUES (36112, 8000, 0xDCF2E4A9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (36112,   1,     0, 0, 0, 425) /* MaxHealth */;

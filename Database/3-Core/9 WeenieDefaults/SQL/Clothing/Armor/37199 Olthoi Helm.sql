@@ -55,22 +55,22 @@ VALUES (37199,   1, 'Olthoi Helm') /* Name */
      , (37199,  16, 'Olthoi Helm of Magic Resistance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37199,   1,   33558419) /* Setup */
-     , (37199,   3,  536870932) /* SoundTable */
-     , (37199,   6,   67108990) /* PaletteBase */
-     , (37199,   8,  100674620) /* Icon */
-     , (37199,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37199,   1, 0x02000F93) /* Setup */
+     , (37199,   3, 0x20000014) /* SoundTable */
+     , (37199,   6, 0x0400007E) /* PaletteBase */
+     , (37199,   8, 0x06002C3C) /* Icon */
+     , (37199,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37199, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (37199, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37199, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37199, 8000, 3690475952) /* PCAPRecordedObjectIID */;
+VALUES (37199, 8000, 0xDBF831B0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37199,  2108,      2)  /* Impenetrability7 */
+VALUES (37199,  4706,      2)  /* CANTRIPMONSTERATTUNEMENT3 */
      , (37199,  4596,      2)  /* MagicResistanceSelf8 */
-     , (37199,  4706,      2)  /* CANTRIPMONSTERATTUNEMENT3 */;
+     , (37199,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37199, 67116570, 250, 6)

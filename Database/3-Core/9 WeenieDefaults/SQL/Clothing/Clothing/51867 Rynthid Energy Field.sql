@@ -31,6 +31,7 @@ VALUES (51867,   4, 1338395980) /* ItemTotalXp */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51867,  22, True ) /* Inscribable */
+     , (51867,  23, True ) /* DestroyOnSell */
      , (51867,  99, True ) /* Ivoryable */
      , (51867, 100, False) /* Dyable */;
 
@@ -48,18 +49,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51867,   1, 'Rynthid Energy Field') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51867,   1,   33561386) /* Setup */
-     , (51867,   3,  536870932) /* SoundTable */
-     , (51867,   8,  100693224) /* Icon */
-     , (51867,  22,  872415275) /* PhysicsEffectTable */
-     , (51867,  50,  100690999) /* IconOverlay */
+VALUES (51867,   1, 0x02001B2A) /* Setup */
+     , (51867,   3, 0x20000014) /* SoundTable */
+     , (51867,   8, 0x060074E8) /* Icon */
+     , (51867,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (51867,  50, 0x06006C37) /* IconOverlay */
      , (51867,  55,       6151) /* ProcSpell - LightningRingRed */
      , (51867, 8001, 1076183192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, IconOverlay */
      , (51867, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51867, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51867, 8000, 2153074325) /* PCAPRecordedObjectIID */;
+VALUES (51867, 8000, 0x80554E95) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (51867, 0, 16797044);

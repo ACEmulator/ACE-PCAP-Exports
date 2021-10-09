@@ -24,13 +24,13 @@ VALUES (5848,   1, 'Partial Rune Transcription') /* Name */
      , (5848,  16, 'Written transcription of Dericostian runes discovered on Standing Stones near Bandit and Neydisa Castles. The two inscriptions fit together perfectly, although it still appears that some of the runes are still missing.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5848,   1,   33554773) /* Setup */
-     , (5848,   3,  536870932) /* SoundTable */
-     , (5848,   8,  100667493) /* Icon */
-     , (5848,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5848,   1, 0x02000155) /* Setup */
+     , (5848,   3, 0x20000014) /* SoundTable */
+     , (5848,   8, 0x06001065) /* Icon */
+     , (5848,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5848, 8001,    2125832) /* PCAPRecordedWeenieHeader - Value, StackSize, MaxStackSize, Container, Burden */
      , (5848, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5848, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5848, 8000, 3680728695) /* PCAPRecordedObjectIID */;
+VALUES (5848, 8000, 0xDB637677) /* PCAPRecordedObjectIID */;

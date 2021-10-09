@@ -20,6 +20,7 @@ VALUES (30459,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30459,  22, True ) /* Inscribable */
+     , (30459,  23, True ) /* DestroyOnSell */
      , (30459,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -30,17 +31,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30459,   1, 'Ring of Shielding') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30459,   1,   33554691) /* Setup */
-     , (30459,   3,  536870932) /* SoundTable */
-     , (30459,   6,   67111919) /* PaletteBase */
-     , (30459,   8,  100668662) /* Icon */
-     , (30459,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30459,   1, 0x02000103) /* Setup */
+     , (30459,   3, 0x20000014) /* SoundTable */
+     , (30459,   6, 0x04000BEF) /* PaletteBase */
+     , (30459,   8, 0x060014F6) /* Icon */
+     , (30459,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30459, 8001,    2179096) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Burden */
      , (30459, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30459, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30459, 8000, 2247015540) /* PCAPRecordedObjectIID */;
+VALUES (30459, 8000, 0x85EEBC74) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30459,   278,      2)  /* MagicResistanceSelf5 */

@@ -22,16 +22,16 @@ VALUES (12488,   1, 'Dunes End Cottages Portal') /* Name */
      , (12488, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12488,   1,   33554867) /* Setup */
-     , (12488,   2,  150994947) /* MotionTable */
-     , (12488,   8,  100667499) /* Icon */
+VALUES (12488,   1, 0x020001B3) /* Setup */
+     , (12488,   2, 0x09000003) /* MotionTable */
+     , (12488,   8, 0x0600106B) /* Icon */
      , (12488, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12488, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12488, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12488, 8040, 2671837245, 181.523, 117.524, 109.7307, 0.00246341, 0, 0, -0.999997) /* PCAPRecordedLocation */
+VALUES (12488, 8040, 0x9F41003D, 181.523, 117.524, 109.7307, 0.002463, 0, 0, -0.999997) /* PCAPRecordedLocation */
 /* @teleloc 0x9F41003D [181.523000 117.524000 109.730700] 0.002463 0.000000 0.000000 -0.999997 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12488, 8000, 2046038016) /* PCAPRecordedObjectIID */;
+VALUES (12488, 8000, 0x79F41000) /* PCAPRecordedObjectIID */;

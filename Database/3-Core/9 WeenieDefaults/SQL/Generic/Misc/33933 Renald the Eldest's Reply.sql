@@ -15,6 +15,7 @@ VALUES (33933,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33933,  22, True ) /* Inscribable */
+     , (33933,  23, True ) /* DestroyOnSell */
      , (33933,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -25,13 +26,13 @@ VALUES (33933,   1, 'Renald the Eldest''s Reply') /* Name */
      , (33933,  16, 'A closed scroll, addressed to Larinne Kerendova, located at 35.2N 39.4E, between Holtburg and Cragstone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33933,   1,   33554776) /* Setup */
-     , (33933,   3,  536870932) /* SoundTable */
-     , (33933,   8,  100667503) /* Icon */
-     , (33933,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33933,   1, 0x02000158) /* Setup */
+     , (33933,   3, 0x20000014) /* SoundTable */
+     , (33933,   8, 0x0600106F) /* Icon */
+     , (33933,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33933, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (33933, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33933, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33933, 8000, 2149098825) /* PCAPRecordedObjectIID */;
+VALUES (33933, 8000, 0x8018A549) /* PCAPRecordedObjectIID */;

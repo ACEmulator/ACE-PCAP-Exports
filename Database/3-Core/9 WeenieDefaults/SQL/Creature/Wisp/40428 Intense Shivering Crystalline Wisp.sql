@@ -22,20 +22,20 @@ VALUES (40428,   1, 'Intense Shivering Crystalline Wisp') /* Name */
      , (40428, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40428,   1,   33557033) /* Setup */
-     , (40428,   2,  150995087) /* MotionTable */
-     , (40428,   3,  536870985) /* SoundTable */
-     , (40428,   8,  100671383) /* Icon */
+VALUES (40428,   1, 0x02000A29) /* Setup */
+     , (40428,   2, 0x0900008F) /* MotionTable */
+     , (40428,   3, 0x20000049) /* SoundTable */
+     , (40428,   8, 0x06001F97) /* Icon */
      , (40428, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40428, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40428, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40428, 8040, 2265187310, 7.15985, -56.9502, 0.004999995, -0.702864, 0, 0, -0.711324) /* PCAPRecordedLocation */
+VALUES (40428, 8040, 0x870403EE, 7.15985, -56.9502, 0.005, -0.702864, 0, 0, -0.711324) /* PCAPRecordedLocation */
 /* @teleloc 0x870403EE [7.159850 -56.950200 0.005000] -0.702864 0.000000 0.000000 -0.711324 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40428, 8000, 3711042489) /* PCAPRecordedObjectIID */;
+VALUES (40428, 8000, 0xDD3203B9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40428,   1, 200, 0, 0) /* Strength */
@@ -490,4 +490,25 @@ VALUES (40428, 9, 45409,  0, 0, 0, False) /* Create Flaming Yaoji (45409) for Co
      , (40428, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
      , (40428, 9, 27220,  0, 0, 0, False) /* Create Lorica Boots (27220) for ContainTreasure */
      , (40428, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (40428, 9,  2871,  0, 0, 0, False) /* Create Scroll of Piercing Bane VI (2871) for ContainTreasure */;
+     , (40428, 9,  2871,  0, 0, 0, False) /* Create Scroll of Piercing Bane VI (2871) for ContainTreasure */
+     , (40428, 9, 29250,  0, 0, 0, False) /* Create Piercing Crossbow (29250) for ContainTreasure */
+     , (40428, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (40428, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
+     , (40428, 9, 43381,  0, 0, 0, False) /* Create Nether Sceptre (43381) for ContainTreasure */
+     , (40428, 9, 41057,  0, 0, 0, False) /* Create Great Star Mace (41057) for ContainTreasure */
+     , (40428, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (40428, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (40428, 9,  3874,  0, 0, 0, False) /* Create Lightning Spear (3874) for ContainTreasure */
+     , (40428, 9, 45330,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self VII (45330) for ContainTreasure */
+     , (40428, 9, 49327,  0, 0, 0, False) /* Create Fire Wisp Essence (125) (49327) for ContainTreasure */
+     , (40428, 9, 40696,  0, 0, 0, False) /* Create Covenant Bracers (40696) for ContainTreasure */
+     , (40428, 9,    67,  0, 0, 0, False) /* Create Scalemail Greaves (67) for ContainTreasure */
+     , (40428, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (40428, 9, 27229,  0, 0, 0, False) /* Create Nariyid Girth (27229) for ContainTreasure */
+     , (40428, 9, 20455,  0, 0, 0, False) /* Create Scroll of Alset's Coil (20455) for ContainTreasure */
+     , (40428, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (40428, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */
+     , (40428, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (40428, 9, 20539,  0, 0, 0, False) /* Create Scroll of Wrath of Celcynd (20539) for ContainTreasure */
+     , (40428, 9, 31768,  0, 0, 0, False) /* Create Frost War Axe (31768) for ContainTreasure */
+     , (40428, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */;

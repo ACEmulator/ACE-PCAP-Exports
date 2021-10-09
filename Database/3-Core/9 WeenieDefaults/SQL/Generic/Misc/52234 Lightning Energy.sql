@@ -16,15 +16,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52234,   1, 'Lightning Energy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52234,   1,   33560373) /* Setup */
-     , (52234,   8,  100671324) /* Icon */
+VALUES (52234,   1, 0x02001735) /* Setup */
+     , (52234,   8, 0x06001F5C) /* Icon */
      , (52234, 8001,         16) /* PCAPRecordedWeenieHeader - Usable */
      , (52234, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (52234, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52234, 8040, 1499333227, 222.758, -77.2202, -0.003342986, -0.2805886, 0, 0, -0.9598281) /* PCAPRecordedLocation */
+VALUES (52234, 8040, 0x595E026B, 222.758, -77.2202, -0.003343, -0.280589, 0, 0, -0.959828) /* PCAPRecordedLocation */
 /* @teleloc 0x595E026B [222.758000 -77.220200 -0.003343] -0.280589 0.000000 0.000000 -0.959828 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52234, 8000, 2883201275) /* PCAPRecordedObjectIID */;
+VALUES (52234, 8000, 0xABDA28FB) /* PCAPRecordedObjectIID */;

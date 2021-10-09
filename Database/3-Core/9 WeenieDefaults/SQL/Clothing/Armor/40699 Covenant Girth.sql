@@ -48,22 +48,22 @@ VALUES (40699,   1, 'Covenant Girth') /* Name */
      , (40699,  16, 'Covenant Girth') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40699,   1,   33554647) /* Setup */
-     , (40699,   3,  536870932) /* SoundTable */
-     , (40699,   6,   67108990) /* PaletteBase */
-     , (40699,   8,  100673399) /* Icon */
-     , (40699,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40699,   1, 0x020000D7) /* Setup */
+     , (40699,   3, 0x20000014) /* SoundTable */
+     , (40699,   6, 0x0400007E) /* PaletteBase */
+     , (40699,   8, 0x06002777) /* Icon */
+     , (40699,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40699,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (40699, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (40699, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40699, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40699, 8000, 3690726662) /* PCAPRecordedObjectIID */;
+VALUES (40699, 8000, 0xDBFC0506) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40699,  1486,      2)  /* Impenetrability6 */
-     , (40699,  1540,      2)  /* LightningBane6 */;
+VALUES (40699,  1540,      2)  /* LightningBane6 */
+     , (40699,  1486,      2)  /* Impenetrability6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40699, 67113982, 80, 12);

@@ -28,20 +28,20 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27394,   1, 'Resting Place') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27394,   1,   33556769) /* Setup */
-     , (27394,   3,  536870932) /* SoundTable */
-     , (27394,   6,   67111919) /* PaletteBase */
-     , (27394,   8,  100676445) /* Icon */
-     , (27394,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27394,   1, 0x02000921) /* Setup */
+     , (27394,   3, 0x20000014) /* SoundTable */
+     , (27394,   6, 0x04000BEF) /* PaletteBase */
+     , (27394,   8, 0x0600335D) /* Icon */
+     , (27394,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27394,  28,        157) /* Spell - SummonPortal1 */
-     , (27394,  50,  100676404) /* IconOverlay */
+     , (27394,  50, 0x06003334) /* IconOverlay */
      , (27394, 8001, 1349021720) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
      , (27394, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (27394, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (27394, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27394, 8000, 2149248895) /* PCAPRecordedObjectIID */;
+VALUES (27394, 8000, 0x801AEF7F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27394, 67111921, 0, 0);

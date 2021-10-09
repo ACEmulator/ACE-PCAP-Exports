@@ -22,17 +22,17 @@ VALUES (22924,   1, 'Asylum Key') /* Name */
      , (22924,  14, 'Use this item on a locked door or chest to unlock it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22924,   1,   33557000) /* Setup */
-     , (22924,   3,  536870932) /* SoundTable */
-     , (22924,   6,   67111346) /* PaletteBase */
-     , (22924,   8,  100671457) /* Icon */
-     , (22924,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22924,   1, 0x02000A08) /* Setup */
+     , (22924,   3, 0x20000014) /* SoundTable */
+     , (22924,   6, 0x040009B2) /* PaletteBase */
+     , (22924,   8, 0x06001FE1) /* Icon */
+     , (22924,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22924, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (22924, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22924, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22924, 8000, 2794468877) /* PCAPRecordedObjectIID */;
+VALUES (22924, 8000, 0xA690360D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22924, 67113157, 0, 0);

@@ -13,18 +13,21 @@ VALUES (31872,   1,        128) /* ItemType - Misc */
      , (31872, 114,          1) /* Attuned - Attuned */
      , (31872, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31872,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31872,   1, 'Watcher Token') /* Name */
      , (31872,  16, 'Give this token to one of the Watchers on Aerlinthe in exchange for passage to the Ruined or Devastated Falatacot Temple.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31872,   1,   33554817) /* Setup */
-     , (31872,   3,  536870932) /* SoundTable */
-     , (31872,   8,  100687773) /* Icon */
-     , (31872,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31872,   1, 0x02000181) /* Setup */
+     , (31872,   3, 0x20000014) /* SoundTable */
+     , (31872,   8, 0x06005F9D) /* Icon */
+     , (31872,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31872, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (31872, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31872, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31872, 8000, 2593826943) /* PCAPRecordedObjectIID */;
+VALUES (31872, 8000, 0x9A9AA87F) /* PCAPRecordedObjectIID */;

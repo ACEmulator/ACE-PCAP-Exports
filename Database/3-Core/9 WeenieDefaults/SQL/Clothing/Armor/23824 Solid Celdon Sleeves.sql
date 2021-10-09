@@ -43,17 +43,17 @@ VALUES (23824,   1, 'Solid Celdon Sleeves') /* Name */
      , (23824,   8, 'Butcher of Samsur') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23824,   1,   33554655) /* Setup */
-     , (23824,   3,  536870932) /* SoundTable */
-     , (23824,   6,   67108990) /* PaletteBase */
-     , (23824,   8,  100674072) /* Icon */
-     , (23824,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23824,   1, 0x020000DF) /* Setup */
+     , (23824,   3, 0x20000014) /* SoundTable */
+     , (23824,   6, 0x0400007E) /* PaletteBase */
+     , (23824,   8, 0x06002A18) /* Icon */
+     , (23824,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23824, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (23824, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23824, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23824, 8000, 2461233895) /* PCAPRecordedObjectIID */;
+VALUES (23824, 8000, 0x92B372E7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23824,  2614,      2)  /* CANTRIPSLASHINGWARD2 */;

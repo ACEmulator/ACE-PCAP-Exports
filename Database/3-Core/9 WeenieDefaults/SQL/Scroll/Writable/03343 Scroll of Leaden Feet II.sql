@@ -24,13 +24,13 @@ VALUES (3343,   1, 'Scroll of Leaden Feet II') /* Name */
 Decreases the target''s Run skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3343,   1,   33554826) /* Setup */
-     , (3343,   8,  100676470) /* Icon */
-     , (3343,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3343,   1, 0x0200018A) /* Setup */
+     , (3343,   8, 0x06003376) /* Icon */
+     , (3343,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3343,  28,       1001) /* Spell - LeadenFeetOther2 */
      , (3343, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3343, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3343, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3343, 8000, 2618759805) /* PCAPRecordedObjectIID */;
+VALUES (3343, 8000, 0x9C171A7D) /* PCAPRecordedObjectIID */;

@@ -27,22 +27,22 @@ VALUES (46932,   1, 'Ancient Luminary Knight') /* Name */
      , (46932, 8006, 'AAE8AMEAAAA8AAAAwL9pAAsAAAAAQAAA4yURUA==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46932,   1,   33559685) /* Setup */
-     , (46932,   2,  150994945) /* MotionTable */
-     , (46932,   3,  536871066) /* SoundTable */
-     , (46932,   6,   67116522) /* PaletteBase */
-     , (46932,   8,  100670274) /* Icon */
-     , (46932,  22,  872415363) /* PhysicsEffectTable */
+VALUES (46932,   1, 0x02001485) /* Setup */
+     , (46932,   2, 0x09000001) /* MotionTable */
+     , (46932,   3, 0x2000009A) /* SoundTable */
+     , (46932,   6, 0x04001DEA) /* PaletteBase */
+     , (46932,   8, 0x06001B42) /* Icon */
+     , (46932,  22, 0x34000083) /* PhysicsEffectTable */
      , (46932, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (46932, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (46932, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (46932, 8040, 1481638218, 49.67328, -3.407445, 6.00325, -0.8517215, 0, 0, -0.5239947) /* PCAPRecordedLocation */
+VALUES (46932, 8040, 0x5850014A, 49.67328, -3.407445, 6.00325, -0.851722, 0, 0, -0.523995) /* PCAPRecordedLocation */
 /* @teleloc 0x5850014A [49.673280 -3.407445 6.003250] -0.851722 0.000000 0.000000 -0.523995 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46932, 8000, 3699766757) /* PCAPRecordedObjectIID */;
+VALUES (46932, 8000, 0xDC85F5E5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46932,   1, 210, 0, 0) /* Strength */

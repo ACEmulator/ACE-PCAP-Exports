@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6406,   1, 'Atlan''s Treatise') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6406,   1,   33554771) /* Setup */
-     , (6406,   3,  536870932) /* SoundTable */
-     , (6406,   8,  100668117) /* Icon */
-     , (6406,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6406,   1, 0x02000153) /* Setup */
+     , (6406,   3, 0x20000014) /* SoundTable */
+     , (6406,   8, 0x060012D5) /* Icon */
+     , (6406,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6406, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (6406, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (6406, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6406, 8000, 3098585666) /* PCAPRecordedObjectIID */;
+VALUES (6406, 8000, 0xB8B0AA42) /* PCAPRecordedObjectIID */;

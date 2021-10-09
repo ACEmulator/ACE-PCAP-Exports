@@ -16,6 +16,7 @@ VALUES (51784,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51784,  22, True ) /* Inscribable */
+     , (51784,  23, True ) /* DestroyOnSell */
      , (51784,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -23,17 +24,17 @@ VALUES (51784,   1, 'Spirit Crystal') /* Name */
      , (51784,  16, 'A small multi-colored crystal from deep within the Spirited Halls. Rinne Gorber will be very interested in this item.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51784,   1,   33554854) /* Setup */
-     , (51784,   3,  536870932) /* SoundTable */
-     , (51784,   6,   67108990) /* PaletteBase */
-     , (51784,   8,  100693211) /* Icon */
-     , (51784,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51784,   1, 0x020001A6) /* Setup */
+     , (51784,   3, 0x20000014) /* SoundTable */
+     , (51784,   6, 0x0400007E) /* PaletteBase */
+     , (51784,   8, 0x060074DB) /* Icon */
+     , (51784,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51784, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (51784, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (51784, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51784, 8000, 3633113117) /* PCAPRecordedObjectIID */;
+VALUES (51784, 8000, 0xD88CE81D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (51784, 67110014, 92, 4)

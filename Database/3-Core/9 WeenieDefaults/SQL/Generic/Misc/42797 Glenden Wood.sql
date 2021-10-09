@@ -18,15 +18,15 @@ VALUES (42797,   1, 'Glenden Wood') /* Name */
      , (42797,  16, 'Glenden Wood is an Aluvian town nestled in the Tiofor Woods west of Cragstone. It was a peaceful town until Thistledown, 16 PY when the army of New Viamont invaded. Although the war between Viamontians and New Aluvia has been fought to a standstill and both sides have come to a wary truce, King Varicci''s forces maintain their siege of the city.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42797,   1,   33560993) /* Setup */
-     , (42797,   8,  100668115) /* Icon */
+VALUES (42797,   1, 0x020019A1) /* Setup */
+     , (42797,   8, 0x060012D3) /* Icon */
      , (42797, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42797, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42797, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42797, 8040, 459054, 55.1063, -9.95868, 3.014, -0.707107, 0, 0, 0.707107) /* PCAPRecordedLocation */
+VALUES (42797, 8040, 0x0007012E, 55.1063, -9.95868, 3.014, -0.707107, 0, 0, 0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0007012E [55.106300 -9.958680 3.014000] -0.707107 0.000000 0.000000 0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42797, 8000, 1879076914) /* PCAPRecordedObjectIID */;
+VALUES (42797, 8000, 0x70007032) /* PCAPRecordedObjectIID */;

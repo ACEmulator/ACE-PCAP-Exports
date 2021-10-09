@@ -56,24 +56,24 @@ VALUES (38467,   1, 'Celestial Hand Helm') /* Name */
      , (38467,  39, 'Straharik') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38467,   1,   33560112) /* Setup */
-     , (38467,   3,  536870932) /* SoundTable */
-     , (38467,   8,  100690167) /* Icon */
-     , (38467,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38467,   1, 0x02001630) /* Setup */
+     , (38467,   3, 0x20000014) /* SoundTable */
+     , (38467,   8, 0x060068F7) /* Icon */
+     , (38467,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38467,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (38467, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (38467, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38467, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38467, 8000, 2174457691) /* PCAPRecordedObjectIID */;
+VALUES (38467, 8000, 0x819B975B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38467,  1516,      2)  /* BludgeonBane6 */
+VALUES (38467,  4393,      2)  /* BladeBane8 */
+     , (38467,  1516,      2)  /* BludgeonBane6 */
      , (38467,  2108,      2)  /* Impenetrability7 */
-     , (38467,  2110,      2)  /* LightningBane7 */
      , (38467,  3965,      2)  /* CANTRIPSTRENGTH3 */
-     , (38467,  4393,      2)  /* BladeBane8 */;
+     , (38467,  2110,      2)  /* LightningBane7 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (38467, 0, 16794128);

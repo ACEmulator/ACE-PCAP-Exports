@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (690,   1, 'Pyreal Scarab') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (690,   1,   33555211) /* Setup */
-     , (690,   3,  536870932) /* SoundTable */
-     , (690,   6,   67111919) /* PaletteBase */
-     , (690,   8,  100668392) /* Icon */
-     , (690,  22,  872415275) /* PhysicsEffectTable */
+VALUES (690,   1, 0x0200030B) /* Setup */
+     , (690,   3, 0x20000014) /* SoundTable */
+     , (690,   6, 0x04000BEF) /* PaletteBase */
+     , (690,   8, 0x060013E8) /* Icon */
+     , (690,  22, 0x3400002B) /* PhysicsEffectTable */
      , (690, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
      , (690, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (690, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (690, 8000, 2186220582) /* PCAPRecordedObjectIID */;
+VALUES (690, 8000, 0x824F1426) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (690, 67111921, 0, 0);

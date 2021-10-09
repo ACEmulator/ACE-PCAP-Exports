@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31232,   1, 'The Viamontian Conflict') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31232,   1,   33554773) /* Setup */
-     , (31232,   3,  536870932) /* SoundTable */
-     , (31232,   8,  100675747) /* Icon */
-     , (31232,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31232,   1, 0x02000155) /* Setup */
+     , (31232,   3, 0x20000014) /* SoundTable */
+     , (31232,   8, 0x060030A3) /* Icon */
+     , (31232,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31232, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (31232, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (31232, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31232, 8000, 2153691989) /* PCAPRecordedObjectIID */;
+VALUES (31232, 8000, 0x805EBB55) /* PCAPRecordedObjectIID */;

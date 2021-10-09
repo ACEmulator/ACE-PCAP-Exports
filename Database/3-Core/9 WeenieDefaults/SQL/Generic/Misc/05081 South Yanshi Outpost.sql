@@ -18,15 +18,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5081,   1, 'South Yanshi Outpost') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5081,   1,   33555088) /* Setup */
-     , (5081,   8,  100668115) /* Icon */
+VALUES (5081,   1, 0x02000290) /* Setup */
+     , (5081,   8, 0x060012D3) /* Icon */
      , (5081, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (5081, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (5081, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5081, 8040, 3110797352, 96.3095, 182.48, 6, -0.750114, 0, 0, -0.661309) /* PCAPRecordedLocation */
+VALUES (5081, 8040, 0xB96B0028, 96.3095, 182.48, 6, -0.750114, 0, 0, -0.661309) /* PCAPRecordedLocation */
 /* @teleloc 0xB96B0028 [96.309500 182.480000 6.000000] -0.750114 0.000000 0.000000 -0.661309 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5081, 8000, 2073473038) /* PCAPRecordedObjectIID */;
+VALUES (5081, 8000, 0x7B96B00E) /* PCAPRecordedObjectIID */;

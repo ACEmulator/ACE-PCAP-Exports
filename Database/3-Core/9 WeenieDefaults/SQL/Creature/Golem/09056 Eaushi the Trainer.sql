@@ -29,22 +29,22 @@ VALUES (9056,   1, 'Eaushi the Trainer') /* Name */
      , (9056, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9056,   1,   33556439) /* Setup */
-     , (9056,   2,  150995109) /* MotionTable */
-     , (9056,   3,  536870933) /* SoundTable */
-     , (9056,   6,   67112808) /* PaletteBase */
-     , (9056,   8,  100667940) /* Icon */
-     , (9056,  22,  872415322) /* PhysicsEffectTable */
+VALUES (9056,   1, 0x020007D7) /* Setup */
+     , (9056,   2, 0x090000A5) /* MotionTable */
+     , (9056,   3, 0x20000015) /* SoundTable */
+     , (9056,   6, 0x04000F68) /* PaletteBase */
+     , (9056,   8, 0x06001224) /* Icon */
+     , (9056,  22, 0x3400005A) /* PhysicsEffectTable */
      , (9056, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (9056, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (9056, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9056, 8040, 3155230740, 68.9851, 80.1956, 240.008, -0.842357, 0, 0, -0.538919) /* PCAPRecordedLocation */
+VALUES (9056, 8040, 0xBC110014, 68.9851, 80.1956, 240.008, -0.842357, 0, 0, -0.538919) /* PCAPRecordedLocation */
 /* @teleloc 0xBC110014 [68.985100 80.195600 240.008000] -0.842357 0.000000 0.000000 -0.538919 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9056, 8000, 2879765437) /* PCAPRecordedObjectIID */;
+VALUES (9056, 8000, 0xABA5BBBD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9056,   1, 360, 0, 0) /* Strength */

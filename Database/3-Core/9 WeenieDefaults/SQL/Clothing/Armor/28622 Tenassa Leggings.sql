@@ -43,18 +43,18 @@ VALUES (28622,   1, 'Tenassa Leggings') /* Name */
      , (28622,  16, 'Tenassa Leggings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28622,   1,   33559331) /* Setup */
-     , (28622,   3,  536870932) /* SoundTable */
-     , (28622,   6,   67108990) /* PaletteBase */
-     , (28622,   8,  100686082) /* Icon */
-     , (28622,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28622,   1, 0x02001323) /* Setup */
+     , (28622,   3, 0x20000014) /* SoundTable */
+     , (28622,   6, 0x0400007E) /* PaletteBase */
+     , (28622,   8, 0x06005902) /* Icon */
+     , (28622,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28622,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (28622, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (28622, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28622, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28622, 8000, 3688213672) /* PCAPRecordedObjectIID */;
+VALUES (28622, 8000, 0xDBD5ACA8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28622,  1485,      2)  /* Impenetrability5 */

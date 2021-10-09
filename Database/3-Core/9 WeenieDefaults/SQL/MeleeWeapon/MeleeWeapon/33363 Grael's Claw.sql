@@ -45,13 +45,13 @@ VALUES (33363,   1, 'Grael''s Claw') /* Name */
      , (33363,  16, 'A claw infused with the rage of Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33363,   1,   33560012) /* Setup */
-     , (33363,   3,  536870932) /* SoundTable */
-     , (33363,   8,  100688983) /* Icon */
-     , (33363,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33363,   1, 0x020015CC) /* Setup */
+     , (33363,   3, 0x20000014) /* SoundTable */
+     , (33363,   8, 0x06006457) /* Icon */
+     , (33363,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33363, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (33363, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33363, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33363, 8000, 2460938541) /* PCAPRecordedObjectIID */;
+VALUES (33363, 8000, 0x92AEF12D) /* PCAPRecordedObjectIID */;

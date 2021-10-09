@@ -25,28 +25,29 @@ VALUES (10708,   1, 'Northern Black Claw Leader') /* Name */
      , (10708, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10708,   1,   33556445) /* Setup */
-     , (10708,   2,  150994952) /* MotionTable */
-     , (10708,   3,  536870919) /* SoundTable */
-     , (10708,   6,   67112812) /* PaletteBase */
-     , (10708,   8,  100667445) /* Icon */
-     , (10708,  22,  872415258) /* PhysicsEffectTable */
+VALUES (10708,   1, 0x020007DD) /* Setup */
+     , (10708,   2, 0x09000008) /* MotionTable */
+     , (10708,   3, 0x20000007) /* SoundTable */
+     , (10708,   6, 0x04000F6C) /* PaletteBase */
+     , (10708,   8, 0x06001035) /* Icon */
+     , (10708,  22, 0x3400001A) /* PhysicsEffectTable */
      , (10708, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (10708, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (10708, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10708, 8040, 43451074, 110.371, -78.3125, 0.00454998, 0.0505235, 0, 0, -0.9987229) /* PCAPRecordedLocation */
+VALUES (10708, 8040, 0x029702C2, 110.371, -78.3125, 0.00455, 0.050524, 0, 0, -0.998723) /* PCAPRecordedLocation */
 /* @teleloc 0x029702C2 [110.371000 -78.312500 0.004550] 0.050524 0.000000 0.000000 -0.998723 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10708, 8000, 2880415684) /* PCAPRecordedObjectIID */;
+VALUES (10708, 8000, 0xABAFA7C4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (10708,   1,     0, 0, 0, 258) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (10708, 9, 49352,  0, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for ContainTreasure */
+VALUES (10708, 2, 47255,  1, 0, 0, False) /* Create Board with Nail (47255) for Wield */
+     , (10708, 9, 49352,  0, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for ContainTreasure */
      , (10708, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */
      , (10708, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
      , (10708, 9, 10712,  1, 0, 0, False) /* Create Northern Quiddity Fragment (10712) for ContainTreasure */;

@@ -48,27 +48,27 @@ VALUES (37208,   1, 'Olthoi Amuli Sollerets') /* Name */
      , (37208,  16, 'Olthoi Amuli Sollerets of Heavy Weapon Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37208,   1,   33554654) /* Setup */
-     , (37208,   3,  536870932) /* SoundTable */
-     , (37208,   6,   67108990) /* PaletteBase */
-     , (37208,   8,  100674697) /* Icon */
-     , (37208,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37208,   1, 0x020000DE) /* Setup */
+     , (37208,   3, 0x20000014) /* SoundTable */
+     , (37208,   6, 0x0400007E) /* PaletteBase */
+     , (37208,   8, 0x06002C89) /* Icon */
+     , (37208,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37208,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (37208, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (37208, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37208, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37208, 8040, 23855554, 57.08819, -30.15677, -0.0006459951, -0.1065593, 0, 0, -0.9943063) /* PCAPRecordedLocation */
+VALUES (37208, 8040, 0x016C01C2, 57.08819, -30.15677, -0.000646, -0.106559, 0, 0, -0.994306) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [57.088190 -30.156770 -0.000646] -0.106559 0.000000 0.000000 -0.994306 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37208, 8000, 3605602513) /* PCAPRecordedObjectIID */;
+VALUES (37208, 8000, 0xD6E920D1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37208,   423,      2)  /* SwordMasterySelf6 */
-     , (37208,  2108,      2)  /* Impenetrability7 */
-     , (37208,  4697,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE3 */;
+VALUES (37208,  4697,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE3 */
+     , (37208,   423,      2)  /* HeavyWeaponsMasterySelf6 */
+     , (37208,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37208, 67116584, 160, 4)

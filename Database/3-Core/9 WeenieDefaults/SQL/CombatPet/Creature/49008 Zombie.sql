@@ -26,23 +26,23 @@ VALUES (49008,   1, 'Zombie') /* Name */
      , (49008, 8006, 'AAA+AAEAAAA+AAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49008,   1,   33561238) /* Setup */
-     , (49008,   2,  150994945) /* MotionTable */
-     , (49008,   3,  536870934) /* SoundTable */
-     , (49008,   6,   67108990) /* PaletteBase */
-     , (49008,   8,  100667942) /* Icon */
-     , (49008,  22,  872415272) /* PhysicsEffectTable */
+VALUES (49008,   1, 0x02001A96) /* Setup */
+     , (49008,   2, 0x09000001) /* MotionTable */
+     , (49008,   3, 0x20000016) /* SoundTable */
+     , (49008,   6, 0x0400007E) /* PaletteBase */
+     , (49008,   8, 0x06001226) /* Icon */
+     , (49008,  22, 0x34000028) /* PhysicsEffectTable */
      , (49008, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (49008, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
      , (49008, 8003,   67108884) /* PCAPRecordedObjectDesc - Stuck, Attackable, IncludesSecondHeader */
      , (49008, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49008, 8040, 561382024, 126.3694, 116.114, 126.1064, 0.4384703, 0, 0, 0.8987457) /* PCAPRecordedLocation */
+VALUES (49008, 8040, 0x21760288, 126.3694, 116.114, 126.1064, 0.43847, 0, 0, 0.898746) /* PCAPRecordedLocation */
 /* @teleloc 0x21760288 [126.369400 116.114000 126.106400] 0.438470 0.000000 0.000000 0.898746 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49008, 8000, 3706664413) /* PCAPRecordedObjectIID */;
+VALUES (49008, 8000, 0xDCEF35DD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49008,   1, 210, 0, 0) /* Strength */
@@ -58,7 +58,8 @@ VALUES (49008,   1,  1250, 0, 0, 1370) /* MaxHealth */
      , (49008,   5,   900, 0, 0, 1070) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49008, 2, 48977,  1, 0, 0, False) /* Create Acid Hatchet (48977) for Wield */;
+VALUES (49008, 2, 48977,  1, 0, 0, False) /* Create Acid Hatchet (48977) for Wield */
+     , (49008, 2, 20153,  1, 0, 0, False) /* Create Perfect Chilling Isparian Wand (20153) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49008, 67109965, 128, 8)

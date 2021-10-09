@@ -26,22 +26,22 @@ VALUES (40311,   1, 'Siessa Sclavus Soldier') /* Name */
      , (40311, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40311,   1,   33560595) /* Setup */
-     , (40311,   2,  150995048) /* MotionTable */
-     , (40311,   3,  536870977) /* SoundTable */
-     , (40311,   6,   67111936) /* PaletteBase */
-     , (40311,   8,  100669120) /* Icon */
-     , (40311,  22,  872415280) /* PhysicsEffectTable */
+VALUES (40311,   1, 0x02001813) /* Setup */
+     , (40311,   2, 0x09000068) /* MotionTable */
+     , (40311,   3, 0x20000041) /* SoundTable */
+     , (40311,   6, 0x04000C00) /* PaletteBase */
+     , (40311,   8, 0x060016C0) /* Icon */
+     , (40311,  22, 0x34000030) /* PhysicsEffectTable */
      , (40311, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40311, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40311, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40311, 8040, 4163960869, 101.4581, 114.6558, 56.44535, -0.593882, 0, 0, -0.8045521) /* PCAPRecordedLocation */
+VALUES (40311, 8040, 0xF8310025, 101.4581, 114.6558, 56.44535, -0.593882, 0, 0, -0.804552) /* PCAPRecordedLocation */
 /* @teleloc 0xF8310025 [101.458100 114.655800 56.445350] -0.593882 0.000000 0.000000 -0.804552 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40311, 8000, 2922119238) /* PCAPRecordedObjectIID */;
+VALUES (40311, 8000, 0xAE2C0046) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40311,   1, 250, 0, 0) /* Strength */
@@ -78,7 +78,10 @@ VALUES (40311, 2, 46402,  1, 0, 0, False) /* Create T'thuun Dagger (46402) for W
      , (40311, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (40311, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (40311, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */
-     , (40311, 9, 45103,  0, 0, 0, False) /* Create Frost Epee (45103) for ContainTreasure */;
+     , (40311, 9, 45103,  0, 0, 0, False) /* Create Frost Epee (45103) for ContainTreasure */
+     , (40311, 9, 49440,  0, 0, 0, False) /* Create Fire Spectre Essence (180) (49440) for ContainTreasure */
+     , (40311, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (40311, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40311, 67113361, 0, 0);

@@ -13,7 +13,8 @@ VALUES (32967,   1,        128) /* ItemType - Misc */
      , (32967, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32967,  22, True ) /* Inscribable */;
+VALUES (32967,  22, True ) /* Inscribable */
+     , (32967,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32967,  39,     0.3) /* DefaultScale */;
@@ -23,21 +24,21 @@ VALUES (32967,   1, 'Reflective Shard') /* Name */
      , (32967,  16, 'A small reflective shard dropped by the Reflection of the Harbinger.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32967,   1,   33557506) /* Setup */
-     , (32967,   3,  536870932) /* SoundTable */
-     , (32967,   6,   67112808) /* PaletteBase */
-     , (32967,   8,  100688869) /* Icon */
-     , (32967,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32967,   1, 0x02000C02) /* Setup */
+     , (32967,   3, 0x20000014) /* SoundTable */
+     , (32967,   6, 0x04000F68) /* PaletteBase */
+     , (32967,   8, 0x060063E5) /* Icon */
+     , (32967,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32967, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (32967, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32967, 8005,      39041) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32967, 8040, 3111059477, 67.32328, 114.1945, 10.015, -0.2153345, 0, 0, -0.9765403) /* PCAPRecordedLocation */
+VALUES (32967, 8040, 0xB96F0015, 67.32328, 114.1945, 10.015, -0.215335, 0, 0, -0.97654) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F0015 [67.323280 114.194500 10.015000] -0.215335 0.000000 0.000000 -0.976540 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32967, 8000, 3361217437) /* PCAPRecordedObjectIID */;
+VALUES (32967, 8000, 0xC8581B9D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32967, 67112807, 0, 0);

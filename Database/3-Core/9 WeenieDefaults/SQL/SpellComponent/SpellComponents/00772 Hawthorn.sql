@@ -23,17 +23,17 @@ VALUES (772,   1, 'Hawthorn') /* Name */
      , (772,  20, 'Sacks of Hawthorn') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (772,   1,   33554817) /* Setup */
-     , (772,   3,  536870932) /* SoundTable */
-     , (772,   6,   67111919) /* PaletteBase */
-     , (772,   8,  100668424) /* Icon */
-     , (772,  22,  872415275) /* PhysicsEffectTable */
+VALUES (772,   1, 0x02000181) /* Setup */
+     , (772,   3, 0x20000014) /* SoundTable */
+     , (772,   6, 0x04000BEF) /* PaletteBase */
+     , (772,   8, 0x06001408) /* Icon */
+     , (772,  22, 0x3400002B) /* PhysicsEffectTable */
      , (772, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (772, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (772, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (772, 8000, 2856726446) /* PCAPRecordedObjectIID */;
+VALUES (772, 8000, 0xAA462FAE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (772, 67111920, 0, 0);

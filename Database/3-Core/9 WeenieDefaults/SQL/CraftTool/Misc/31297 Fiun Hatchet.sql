@@ -19,13 +19,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31297,   1, 'Fiun Hatchet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31297,   1,   33554817) /* Setup */
-     , (31297,   3,  536870932) /* SoundTable */
-     , (31297,   8,  100687711) /* Icon */
-     , (31297,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31297,   1, 0x02000181) /* Setup */
+     , (31297,   3, 0x20000014) /* SoundTable */
+     , (31297,   8, 0x06005F5F) /* Icon */
+     , (31297,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31297, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (31297, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (31297, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31297, 8000, 2532493418) /* PCAPRecordedObjectIID */;
+VALUES (31297, 8000, 0x96F2C86A) /* PCAPRecordedObjectIID */;

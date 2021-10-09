@@ -24,11 +24,11 @@ VALUES (22117,   1, 'Evil Couch') /* Name */
      , (22117,  15, 'A comfortable couch that makes you uncomfortable.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22117,   1,   33558039) /* Setup */
-     , (22117,   8,  100673560) /* Icon */
+VALUES (22117,   1, 0x02000E17) /* Setup */
+     , (22117,   8, 0x06002818) /* Icon */
      , (22117, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (22117, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22117, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22117, 8000, 3658159472) /* PCAPRecordedObjectIID */;
+VALUES (22117, 8000, 0xDA0B1570) /* PCAPRecordedObjectIID */;

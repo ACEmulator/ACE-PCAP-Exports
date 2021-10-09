@@ -19,7 +19,8 @@ VALUES (9125,   1,        128) /* ItemType - Misc */
      , (9125, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9125,  22, True ) /* Inscribable */;
+VALUES (9125,  22, True ) /* Inscribable */
+     , (9125,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9125,   1, 'Virindi Essence') /* Name */
@@ -27,13 +28,13 @@ VALUES (9125,   1, 'Virindi Essence') /* Name */
      , (9125,  16, 'This is the soul of a Virindi who thought he owned me.  Do not make the same mistake.  Martine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9125,   1,   33556975) /* Setup */
-     , (9125,   3,  536870932) /* SoundTable */
-     , (9125,   8,  100671373) /* Icon */
-     , (9125,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9125,   1, 0x020009EF) /* Setup */
+     , (9125,   3, 0x20000014) /* SoundTable */
+     , (9125,   8, 0x06001F8D) /* Icon */
+     , (9125,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9125, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (9125, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9125, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9125, 8000, 2461542894) /* PCAPRecordedObjectIID */;
+VALUES (9125, 8000, 0x92B829EE) /* PCAPRecordedObjectIID */;

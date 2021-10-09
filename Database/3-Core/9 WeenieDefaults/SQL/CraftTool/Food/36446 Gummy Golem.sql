@@ -37,18 +37,18 @@ VALUES (36446,   1, 'Gummy Golem') /* Name */
      , (36446, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36446,   1,   33556426) /* Setup */
-     , (36446,   2,  150995144) /* MotionTable */
-     , (36446,   3,  536870932) /* SoundTable */
-     , (36446,   8,  100689669) /* Icon */
-     , (36446,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36446,   1, 0x020007CA) /* Setup */
+     , (36446,   2, 0x090000C8) /* MotionTable */
+     , (36446,   3, 0x20000014) /* SoundTable */
+     , (36446,   8, 0x06006705) /* Icon */
+     , (36446,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36446,  28,       4209) /* Spell - GummyShield */
      , (36446, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
      , (36446, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36446, 8005,     333955) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36446, 8000, 2981045115) /* PCAPRecordedObjectIID */;
+VALUES (36446, 8000, 0xB1AF237B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (36446, 0, 83892410, 83892401)

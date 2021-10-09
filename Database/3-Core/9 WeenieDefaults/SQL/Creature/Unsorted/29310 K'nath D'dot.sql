@@ -23,21 +23,21 @@ VALUES (29310,   1, 'K''nath D''dot') /* Name */
      , (29310, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29310,   1,   33555630) /* Setup */
-     , (29310,   2,  150994994) /* MotionTable */
-     , (29310,   3,  536870984) /* SoundTable */
-     , (29310,   8,  100668443) /* Icon */
-     , (29310,  22,  872415261) /* PhysicsEffectTable */
+VALUES (29310,   1, 0x020004AE) /* Setup */
+     , (29310,   2, 0x09000032) /* MotionTable */
+     , (29310,   3, 0x20000048) /* SoundTable */
+     , (29310,   8, 0x0600141B) /* Icon */
+     , (29310,  22, 0x3400001D) /* PhysicsEffectTable */
      , (29310, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (29310, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (29310, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29310, 8040, 26411282, 340, -40, -11.982, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (29310, 8040, 0x01930112, 340, -40, -11.982, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01930112 [340.000000 -40.000000 -11.982000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29310, 8000, 3709193208) /* PCAPRecordedObjectIID */;
+VALUES (29310, 8000, 0xDD15CBF8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29310, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */

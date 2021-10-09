@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24358,   1, 'Olthoi Resurgent') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24358,   1,   33558378) /* Setup */
-     , (24358,   3,  536870932) /* SoundTable */
-     , (24358,   8,  100674407) /* Icon */
-     , (24358,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24358,   1, 0x02000F6A) /* Setup */
+     , (24358,   3, 0x20000014) /* SoundTable */
+     , (24358,   8, 0x06002B67) /* Icon */
+     , (24358,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24358, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
      , (24358, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (24358, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24358, 8000, 2191609539) /* PCAPRecordedObjectIID */;
+VALUES (24358, 8000, 0x82A14EC3) /* PCAPRecordedObjectIID */;

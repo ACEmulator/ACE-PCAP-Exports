@@ -33,13 +33,13 @@ VALUES (31826,   1, 'Black Marrow Keyring') /* Name */
      , (31826,  16, 'A glittering keyring roughly carved out of a gold golem heart. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31826,   1,   33554790) /* Setup */
-     , (31826,   3,  536870932) /* SoundTable */
-     , (31826,   8,  100688146) /* Icon */
-     , (31826,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31826,   1, 0x02000166) /* Setup */
+     , (31826,   3, 0x20000014) /* SoundTable */
+     , (31826,   8, 0x06006112) /* Icon */
+     , (31826,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31826, 8001,  271088664) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (31826, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31826, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31826, 8000, 2988455310) /* PCAPRecordedObjectIID */;
+VALUES (31826, 8000, 0xB220358E) /* PCAPRecordedObjectIID */;

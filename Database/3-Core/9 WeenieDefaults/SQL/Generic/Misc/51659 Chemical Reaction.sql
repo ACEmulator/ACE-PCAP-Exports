@@ -18,15 +18,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51659,   1, 'Chemical Reaction') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51659,   1,   33556091) /* Setup */
-     , (51659,   8,  100690568) /* Icon */
+VALUES (51659,   1, 0x0200067B) /* Setup */
+     , (51659,   8, 0x06006A88) /* Icon */
      , (51659, 8001,    3145744) /* PCAPRecordedWeenieHeader - Usable, RadarBlipColor, Burden */
      , (51659, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (51659, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51659, 8040, 1484128670, 263.665, -159.973, -17, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (51659, 8040, 0x5876019E, 263.665, -159.973, -17, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5876019E [263.665000 -159.973000 -17.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51659, 8000, 3694593262) /* PCAPRecordedObjectIID */;
+VALUES (51659, 8000, 0xDC3704EE) /* PCAPRecordedObjectIID */;

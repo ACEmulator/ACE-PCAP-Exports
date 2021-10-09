@@ -23,17 +23,17 @@ VALUES (2218,   1, 'Beautiful key') /* Name */
      , (2218,  16, 'A beautifully crafted golden key that is used in the Underground City.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2218,   1,   33554784) /* Setup */
-     , (2218,   3,  536870932) /* SoundTable */
-     , (2218,   8,  100667486) /* Icon */
-     , (2218,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2218,   1, 0x02000160) /* Setup */
+     , (2218,   3, 0x20000014) /* SoundTable */
+     , (2218,   8, 0x0600105E) /* Icon */
+     , (2218,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2218, 8001,    2624536) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, TargetType, Burden */
      , (2218, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2218, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2218, 8040, 32048042, 101.271, -119.746, 0.024, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (2218, 8040, 0x01E903AA, 101.271, -119.746, 0.024, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01E903AA [101.271000 -119.746000 0.024000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2218, 8000, 3361134275) /* PCAPRecordedObjectIID */;
+VALUES (2218, 8000, 0xC856D6C3) /* PCAPRecordedObjectIID */;

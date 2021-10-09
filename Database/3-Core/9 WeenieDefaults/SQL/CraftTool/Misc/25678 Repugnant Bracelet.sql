@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25678,   1, 'Repugnant Bracelet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25678,   1,   33554682) /* Setup */
-     , (25678,   3,  536870932) /* SoundTable */
-     , (25678,   8,  100675478) /* Icon */
-     , (25678,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25678,   1, 0x020000FA) /* Setup */
+     , (25678,   3, 0x20000014) /* SoundTable */
+     , (25678,   8, 0x06002F96) /* Icon */
+     , (25678,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25678, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (25678, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25678, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25678, 8000, 2166059881) /* PCAPRecordedObjectIID */;
+VALUES (25678, 8000, 0x811B7369) /* PCAPRecordedObjectIID */;

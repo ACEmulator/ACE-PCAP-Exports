@@ -25,21 +25,21 @@ VALUES (38806,   1, 'Corrupted Pyre Spark') /* Name */
      , (38806, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38806,   1,   33556131) /* Setup */
-     , (38806,   2,  150995087) /* MotionTable */
-     , (38806,   3,  536870998) /* SoundTable */
-     , (38806,   8,  100670274) /* Icon */
-     , (38806,  22,  872415363) /* PhysicsEffectTable */
+VALUES (38806,   1, 0x020006A3) /* Setup */
+     , (38806,   2, 0x0900008F) /* MotionTable */
+     , (38806,   3, 0x20000056) /* SoundTable */
+     , (38806,   8, 0x06001B42) /* Icon */
+     , (38806,  22, 0x34000083) /* PhysicsEffectTable */
      , (38806, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (38806, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (38806, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38806, 8040, 1194065939, 58.72304, 52.6284, 7.108913, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (38806, 8040, 0x472C0013, 58.72304, 52.6284, 7.108913, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x472C0013 [58.723040 52.628400 7.108913] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38806, 8000, 3332841700) /* PCAPRecordedObjectIID */;
+VALUES (38806, 8000, 0xC6A720E4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (38806,   1,     0, 0, 0, 150) /* MaxHealth */;

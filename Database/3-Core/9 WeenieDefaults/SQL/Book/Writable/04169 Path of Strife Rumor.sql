@@ -18,18 +18,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4169,   1, 'Path of Strife Rumor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4169,   1,   33559084) /* Setup */
-     , (4169,   3,  536870932) /* SoundTable */
-     , (4169,   6,   67112626) /* PaletteBase */
-     , (4169,   8,  100668176) /* Icon */
-     , (4169,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4169,   1, 0x0200122C) /* Setup */
+     , (4169,   3, 0x20000014) /* SoundTable */
+     , (4169,   6, 0x04000EB2) /* PaletteBase */
+     , (4169,   8, 0x06001310) /* Icon */
+     , (4169,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4169, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (4169, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (4169, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */
      , (4169, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4169, 8000,       4169) /* PCAPRecordedObjectIID */;
+VALUES (4169, 8000, 0x00001049) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (4169, 67113862, 0, 0);

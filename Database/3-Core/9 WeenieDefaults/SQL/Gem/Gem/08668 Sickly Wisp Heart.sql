@@ -26,17 +26,17 @@ VALUES (8668,   1, 'Sickly Wisp Heart') /* Name */
      , (8668,  16, 'A sickly wisp heart that seems to contain a small amount of energy.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8668,   1,   33556931) /* Setup */
-     , (8668,   3,  536870932) /* SoundTable */
-     , (8668,   6,   67111919) /* PaletteBase */
-     , (8668,   8,  100671243) /* Icon */
-     , (8668,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8668,   1, 0x020009C3) /* Setup */
+     , (8668,   3, 0x20000014) /* SoundTable */
+     , (8668,   6, 0x04000BEF) /* PaletteBase */
+     , (8668,   8, 0x06001F0B) /* Icon */
+     , (8668,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8668, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (8668, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8668, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8668, 8000, 2989504992) /* PCAPRecordedObjectIID */;
+VALUES (8668, 8000, 0xB23039E0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8668, 67111919, 0, 0);

@@ -25,22 +25,22 @@ VALUES (36795,   1, 'Thorsten Cragstone') /* Name */
      , (36795, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36795,   1,   33554433) /* Setup */
-     , (36795,   2,  150994945) /* MotionTable */
-     , (36795,   3,  536870913) /* SoundTable */
-     , (36795,   6,   67108990) /* PaletteBase */
-     , (36795,   8,  100667446) /* Icon */
-     , (36795,  22,  872415236) /* PhysicsEffectTable */
+VALUES (36795,   1, 0x02000001) /* Setup */
+     , (36795,   2, 0x09000001) /* MotionTable */
+     , (36795,   3, 0x20000001) /* SoundTable */
+     , (36795,   6, 0x0400007E) /* PaletteBase */
+     , (36795,   8, 0x06001036) /* Icon */
+     , (36795,  22, 0x34000004) /* PhysicsEffectTable */
      , (36795, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (36795, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (36795, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36795, 8040, 2543452176, 26.21062, 169.4927, 37.88061, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (36795, 8040, 0x979A0010, 26.21062, 169.4927, 37.88061, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x979A0010 [26.210620 169.492700 37.880610] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36795, 8000, 3697014081) /* PCAPRecordedObjectIID */;
+VALUES (36795, 8000, 0xDC5BF541) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36795, 67110024, 160, 8)

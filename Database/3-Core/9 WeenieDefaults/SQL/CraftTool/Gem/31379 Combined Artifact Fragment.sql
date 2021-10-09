@@ -19,7 +19,8 @@ VALUES (31379,   1,       2048) /* ItemType - Gem */
      , (31379, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31379,  22, True ) /* Inscribable */;
+VALUES (31379,  22, True ) /* Inscribable */
+     , (31379,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31379,   1, 'Combined Artifact Fragment') /* Name */
@@ -27,13 +28,13 @@ VALUES (31379,   1, 'Combined Artifact Fragment') /* Name */
      , (31379,  16, 'Pieces of a Twilight Fragment and a Raven Fragment combined. In the back of your head, the shape reminds you of something, but you are not yet certain of what.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31379,   1,   33556743) /* Setup */
-     , (31379,   3,  536870932) /* SoundTable */
-     , (31379,   8,  100687951) /* Icon */
-     , (31379,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31379,   1, 0x02000907) /* Setup */
+     , (31379,   3, 0x20000014) /* SoundTable */
+     , (31379,   8, 0x0600604F) /* Icon */
+     , (31379,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31379, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (31379, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31379, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31379, 8000, 3711443900) /* PCAPRecordedObjectIID */;
+VALUES (31379, 8000, 0xDD3823BC) /* PCAPRecordedObjectIID */;

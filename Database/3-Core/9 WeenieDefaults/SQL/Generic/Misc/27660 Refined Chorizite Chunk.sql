@@ -20,17 +20,17 @@ VALUES (27660,   1, 'Refined Chorizite Chunk') /* Name */
      , (27660,  16, 'This large chunk of refined chorizite has already been treated for use. It looks as though you can grind this into usable ground chorizite.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27660,   1,   33554817) /* Setup */
-     , (27660,   3,  536870932) /* SoundTable */
-     , (27660,   6,   67111919) /* PaletteBase */
-     , (27660,   8,  100676520) /* Icon */
-     , (27660,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27660,   1, 0x02000181) /* Setup */
+     , (27660,   3, 0x20000014) /* SoundTable */
+     , (27660,   6, 0x04000BEF) /* PaletteBase */
+     , (27660,   8, 0x060033A8) /* Icon */
+     , (27660,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27660, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (27660, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27660, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27660, 8000, 3709709812) /* PCAPRecordedObjectIID */;
+VALUES (27660, 8000, 0xDD1DADF4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27660, 67111924, 0, 0);

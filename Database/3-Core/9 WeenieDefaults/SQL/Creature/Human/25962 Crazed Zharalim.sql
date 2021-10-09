@@ -24,28 +24,28 @@ VALUES (25962,   1, 'Crazed Zharalim') /* Name */
      , (25962, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25962,   1,   33554510) /* Setup */
-     , (25962,   2,  150994945) /* MotionTable */
-     , (25962,   3,  536870914) /* SoundTable */
-     , (25962,   6,   67108990) /* PaletteBase */
-     , (25962,   8,  100667446) /* Icon */
-     , (25962,   9,   83890258) /* EyesTexture */
-     , (25962,  10,   83890293) /* NoseTexture */
-     , (25962,  11,   83890335) /* MouthTexture */
-     , (25962,  15,   67117021) /* HairPalette */
-     , (25962,  16,   67110062) /* EyesPalette */
-     , (25962,  17,   67109552) /* SkinPalette */
-     , (25962,  22,  872415236) /* PhysicsEffectTable */
+VALUES (25962,   1, 0x0200004E) /* Setup */
+     , (25962,   2, 0x09000001) /* MotionTable */
+     , (25962,   3, 0x20000002) /* SoundTable */
+     , (25962,   6, 0x0400007E) /* PaletteBase */
+     , (25962,   8, 0x06001036) /* Icon */
+     , (25962,   9, 0x05001052) /* EyesTexture */
+     , (25962,  10, 0x05001075) /* NoseTexture */
+     , (25962,  11, 0x0500109F) /* MouthTexture */
+     , (25962,  15, 0x04001FDD) /* HairPalette */
+     , (25962,  16, 0x040004AE) /* EyesPalette */
+     , (25962,  17, 0x040002B0) /* SkinPalette */
+     , (25962,  22, 0x34000004) /* PhysicsEffectTable */
      , (25962, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (25962, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (25962, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25962, 8040, 1682572039, 140.0612, -30.16159, -11.995, -0.9618842, 0, 0, -0.2734571) /* PCAPRecordedLocation */
+VALUES (25962, 8040, 0x644A0307, 140.0612, -30.16159, -11.995, -0.961884, 0, 0, -0.273457) /* PCAPRecordedLocation */
 /* @teleloc 0x644A0307 [140.061200 -30.161590 -11.995000] -0.961884 0.000000 0.000000 -0.273457 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25962, 8000, 2881362508) /* PCAPRecordedObjectIID */;
+VALUES (25962, 8000, 0xABBE1A4C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25962,   1, 210, 0, 0) /* Strength */
@@ -324,7 +324,10 @@ VALUES (25962, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
      , (25962, 9,  3107,  0, 0, 0, False) /* Create Scroll of Mana Renewal Self VI (3107) for ContainTreasure */
      , (25962, 9, 28628,  0, 0, 0, False) /* Create Diforsa Breastplate (28628) for ContainTreasure */
      , (25962, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */
-     , (25962, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */;
+     , (25962, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (25962, 9,  3047,  0, 0, 0, False) /* Create Scroll of Fire Vulnerability Other VI (3047) for ContainTreasure */
+     , (25962, 9,  9613,  0, 0, 0, False) /* Create Scroll of Mana Ineptitude Other VI (9613) for ContainTreasure */
+     , (25962, 9, 49247,  0, 0, 0, False) /* Create Fire Zombie Essence (50) (49247) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25962, 67109552, 0, 24)

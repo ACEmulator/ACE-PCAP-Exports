@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (359,   1,          1) /* ItemType - MeleeWeapon */
      , (359,   5,        575) /* EncumbranceVal */
      , (359,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (359,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (359,  16,          1) /* ItemUseable - No */
      , (359,  19,        210) /* Value */
      , (359,  44,         32) /* Damage */
@@ -52,11 +51,11 @@ VALUES (359,   1, 'War Hammer') /* Name */
      , (359,  16, 'War Hammer of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (359,   1,   33554766) /* Setup */
-     , (359,   3,  536870932) /* SoundTable */
-     , (359,   6,   67111919) /* PaletteBase */
-     , (359,   8,  100669066) /* Icon */
-     , (359,  22,  872415275) /* PhysicsEffectTable */
+VALUES (359,   1, 0x0200014E) /* Setup */
+     , (359,   3, 0x20000014) /* SoundTable */
+     , (359,   6, 0x04000BEF) /* PaletteBase */
+     , (359,   8, 0x0600168A) /* Icon */
+     , (359,  22, 0x3400002B) /* PhysicsEffectTable */
      , (359,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (359, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (359, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -64,19 +63,16 @@ VALUES (359,   1,   33554766) /* Setup */
      , (359, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (359, 8040, 3332964642, 31.9969, 82.953, 41.929, 0.08975437, 0.08975437, -0.7013873, -0.7013873) /* PCAPRecordedLocation */
+VALUES (359, 8040, 0xC6A90122, 31.9969, 82.953, 41.929, 0.089754, 0.089754, -0.701387, -0.701387) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90122 [31.996900 82.953000 41.929000] 0.089754 0.089754 -0.701387 -0.701387 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (359, 8000, 2155136957) /* PCAPRecordedObjectIID */
-     , (359, 8008, 2087358503) /* PCAPRecordedParentIID */;
+VALUES (359, 8000, 0x8074C7BD) /* PCAPRecordedObjectIID */
+     , (359, 8008, 0x7C6A9027) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (359,  1591,      2)  /* HeartSeekerSelf5 */
-     , (359,  1615,      2)  /* BloodDrinkerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (359, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;
+VALUES (359,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (359,  1591,      2)  /* HeartSeekerSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (359, 67111920, 0, 0);

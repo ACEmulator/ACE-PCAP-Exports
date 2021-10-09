@@ -17,18 +17,21 @@ VALUES (38438,   1,        128) /* ItemType - Misc */
      , (38438, 114,          1) /* Attuned - Attuned */
      , (38438, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38438,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38438,   1, 'Giant Jungle Phyntos Wasp Stinger') /* Name */
      , (38438,  16, 'A perfectly intact stinger from a Giant Jungle Phyntos Wasp.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38438,   1,   33554817) /* Setup */
-     , (38438,   3,  536870932) /* SoundTable */
-     , (38438,   8,  100687693) /* Icon */
-     , (38438,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38438,   1, 0x02000181) /* Setup */
+     , (38438,   3, 0x20000014) /* SoundTable */
+     , (38438,   8, 0x06005F4D) /* Icon */
+     , (38438,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38438, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (38438, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (38438, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38438, 8000, 2627897298) /* PCAPRecordedObjectIID */;
+VALUES (38438, 8000, 0x9CA287D2) /* PCAPRecordedObjectIID */;

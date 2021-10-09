@@ -24,13 +24,13 @@ VALUES (3353,   1, 'Scroll of Leadership Mastery Other II') /* Name */
 Increases the target''s Leadership skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3353,   1,   33554826) /* Setup */
-     , (3353,   8,  100676446) /* Icon */
-     , (3353,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3353,   1, 0x0200018A) /* Setup */
+     , (3353,   8, 0x0600335E) /* Icon */
+     , (3353,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3353,  28,        905) /* Spell - LeadershipMasteryOther2 */
      , (3353, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3353, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3353, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3353, 8000, 2447916634) /* PCAPRecordedObjectIID */;
+VALUES (3353, 8000, 0x91E83E5A) /* PCAPRecordedObjectIID */;

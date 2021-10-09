@@ -25,16 +25,16 @@ VALUES (32235,   1, 'Mistress Halmera''s Dig') /* Name */
      , (32235, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32235,   1,   33555924) /* Setup */
-     , (32235,   2,  150994947) /* MotionTable */
-     , (32235,   8,  100667499) /* Icon */
+VALUES (32235,   1, 0x020005D4) /* Setup */
+     , (32235,   2, 0x09000003) /* MotionTable */
+     , (32235,   8, 0x0600106B) /* Icon */
      , (32235, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (32235, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (32235, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32235, 8040, 915013642, 33.9626, 31.8078, 83.937, -0.6716859, 0, 0, 0.740836) /* PCAPRecordedLocation */
+VALUES (32235, 8040, 0x368A000A, 33.9626, 31.8078, 83.937, -0.671686, 0, 0, 0.740836) /* PCAPRecordedLocation */
 /* @teleloc 0x368A000A [33.962600 31.807800 83.937000] -0.671686 0.000000 0.000000 0.740836 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32235, 8000, 1936236544) /* PCAPRecordedObjectIID */;
+VALUES (32235, 8000, 0x7368A000) /* PCAPRecordedObjectIID */;

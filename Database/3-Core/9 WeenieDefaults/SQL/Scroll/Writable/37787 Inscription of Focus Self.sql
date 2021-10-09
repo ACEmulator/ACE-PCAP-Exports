@@ -24,13 +24,13 @@ VALUES (37787,   1, 'Inscription of Focus Self') /* Name */
 Increases the caster''s Focus by 45 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37787,   1,   33554826) /* Setup */
-     , (37787,   8,  100676458) /* Icon */
-     , (37787,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37787,   1, 0x0200018A) /* Setup */
+     , (37787,   8, 0x0600336A) /* Icon */
+     , (37787,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37787,  28,       4305) /* Spell - FocusSelf8 */
      , (37787, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (37787, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37787, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37787, 8000, 2150584905) /* PCAPRecordedObjectIID */;
+VALUES (37787, 8000, 0x802F5249) /* PCAPRecordedObjectIID */;

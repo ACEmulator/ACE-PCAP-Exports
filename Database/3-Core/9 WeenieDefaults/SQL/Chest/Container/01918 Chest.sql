@@ -27,21 +27,21 @@ VALUES (1918,   1, 'Chest') /* Name */
      , (1918, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1918,   1,   33554556) /* Setup */
-     , (1918,   2,  150994948) /* MotionTable */
-     , (1918,   3,  536870945) /* SoundTable */
-     , (1918,   8,  100667424) /* Icon */
-     , (1918,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1918,   1, 0x0200007C) /* Setup */
+     , (1918,   2, 0x09000004) /* MotionTable */
+     , (1918,   3, 0x20000021) /* SoundTable */
+     , (1918,   8, 0x06001020) /* Icon */
+     , (1918,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1918, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (1918, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (1918, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1918, 8040, 3398697003, 124.4315, 65.10334, 26, 0.9990482, 0, 0, -0.04361939) /* PCAPRecordedLocation */
+VALUES (1918, 8040, 0xCA94002B, 124.4315, 65.10334, 26, 0.999048, 0, 0, -0.043619) /* PCAPRecordedLocation */
 /* @teleloc 0xCA94002B [124.431500 65.103340 26.000000] 0.999048 0.000000 0.000000 -0.043619 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1918, 8000, 3694289551) /* PCAPRecordedObjectIID */;
+VALUES (1918, 8000, 0xDC32628F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1918, -1, 7940, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Empty Flask (7940) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

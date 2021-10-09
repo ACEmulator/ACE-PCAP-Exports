@@ -22,13 +22,13 @@ VALUES (29609,   1, 'Citadels Portal Device') /* Name */
      , (29609,  16, 'This device was fashioned by Shoyanen Kenchu under the direction of High Queen Elysa Strathelar. The magic of the device can only be activated if placed on a mansion hook. The magic has yet to be perfected so the device may deliver the user to one of three locations: Ridge Citadel, Hills Citadel or Wilderness Citadel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29609,   1,   33559075) /* Setup */
-     , (29609,   3,  536870932) /* SoundTable */
-     , (29609,   8,  100677183) /* Icon */
-     , (29609,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29609,   1, 0x02001223) /* Setup */
+     , (29609,   3, 0x20000014) /* SoundTable */
+     , (29609,   8, 0x0600363F) /* Icon */
+     , (29609,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29609, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (29609, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29609, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29609, 8000, 2148264637) /* PCAPRecordedObjectIID */;
+VALUES (29609, 8000, 0x800BEABD) /* PCAPRecordedObjectIID */;

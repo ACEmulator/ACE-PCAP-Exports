@@ -23,17 +23,17 @@ VALUES (29075,   1, 'The Thrungus - Part IV') /* Name */
      , (29075,  16, 'From the journal of Sir Binwas Loc - the fourth of four passages concerning the mysterious creature known as ''The Thrungus.'' This portion was found in the Moist Hovel.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29075,   1,   33554771) /* Setup */
-     , (29075,   3,  536870932) /* SoundTable */
-     , (29075,   8,  100668117) /* Icon */
-     , (29075,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29075,   1, 0x02000153) /* Setup */
+     , (29075,   3, 0x20000014) /* SoundTable */
+     , (29075,   8, 0x060012D5) /* Icon */
+     , (29075,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29075, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
      , (29075, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (29075, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29075, 8040, 45678930, 130, -65.8005, -11.943, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (29075, 8040, 0x02B90152, 130, -65.8005, -11.943, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x02B90152 [130.000000 -65.800500 -11.943000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29075, 8000, 3703154962) /* PCAPRecordedObjectIID */;
+VALUES (29075, 8000, 0xDCB9A912) /* PCAPRecordedObjectIID */;

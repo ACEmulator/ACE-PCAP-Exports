@@ -21,13 +21,13 @@ VALUES (5172,   1, 'Thank You Note') /* Name */
      , (5172,  16, 'A note from Mara al Luq outside Yaraq, for delivery to Ahyara in the East Yaraq Outpost.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5172,   1,   33554773) /* Setup */
-     , (5172,   3,  536870932) /* SoundTable */
-     , (5172,   8,  100668176) /* Icon */
-     , (5172,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5172,   1, 0x02000155) /* Setup */
+     , (5172,   3, 0x20000014) /* SoundTable */
+     , (5172,   8, 0x06001310) /* Icon */
+     , (5172,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5172, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (5172, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (5172, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5172, 8000, 2927368710) /* PCAPRecordedObjectIID */;
+VALUES (5172, 8000, 0xAE7C1A06) /* PCAPRecordedObjectIID */;

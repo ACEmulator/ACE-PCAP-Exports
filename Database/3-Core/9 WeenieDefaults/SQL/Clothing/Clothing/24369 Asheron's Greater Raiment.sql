@@ -41,25 +41,25 @@ VALUES (24369,   1, 'Asheron''s Greater Raiment') /* Name */
      , (24369,  16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24369,   1,   33554854) /* Setup */
-     , (24369,   3,  536870932) /* SoundTable */
-     , (24369,   6,   67108990) /* PaletteBase */
-     , (24369,   8,  100674396) /* Icon */
-     , (24369,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24369,   1, 0x020001A6) /* Setup */
+     , (24369,   3, 0x20000014) /* SoundTable */
+     , (24369,   6, 0x0400007E) /* PaletteBase */
+     , (24369,   8, 0x06002B5C) /* Icon */
+     , (24369,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24369, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (24369, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24369, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24369, 8040, 18809102, 34.07681, -25.01986, -0.002499998, -0.7261729, 0, 0, -0.6875122) /* PCAPRecordedLocation */
+VALUES (24369, 8040, 0x011F010E, 34.07681, -25.01986, -0.0025, -0.726173, 0, 0, -0.687512) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010E [34.076810 -25.019860 -0.002500] -0.726173 0.000000 0.000000 -0.687512 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24369, 8000, 3702550348) /* PCAPRecordedObjectIID */;
+VALUES (24369, 8000, 0xDCB06F4C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24369,  2086,      2)  /* StrengthOther7 */
-     , (24369,  2148,      2)  /* AcidProtectionOther7 */
+VALUES (24369,  2148,      2)  /* AcidProtectionOther7 */
+     , (24369,  2086,      2)  /* StrengthOther7 */
      , (24369,  2663,      2)  /* ModerateStrength */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

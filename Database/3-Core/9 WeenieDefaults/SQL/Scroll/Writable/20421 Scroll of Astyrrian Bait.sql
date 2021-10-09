@@ -24,13 +24,13 @@ VALUES (20421,   1, 'Scroll of Astyrrian Bait') /* Name */
 Decreases a shield or piece of armor''s resistance to electric damage by 170%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20421,   1,   33554826) /* Setup */
-     , (20421,   8,  100676668) /* Icon */
-     , (20421,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20421,   1, 0x0200018A) /* Setup */
+     , (20421,   8, 0x0600343C) /* Icon */
+     , (20421,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20421,  28,       2111) /* Spell - LightningLure7 */
      , (20421, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20421, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20421, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20421, 8000, 3692350718) /* PCAPRecordedObjectIID */;
+VALUES (20421, 8000, 0xDC14CCFE) /* PCAPRecordedObjectIID */;

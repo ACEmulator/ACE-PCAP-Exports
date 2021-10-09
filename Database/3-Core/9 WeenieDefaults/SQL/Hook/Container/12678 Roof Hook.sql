@@ -27,16 +27,16 @@ VALUES (12678,   1, 'Roof Hook') /* Name */
 A banner depicting the heraldry of the Society of the Celestial Hand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12678,   1,   33557133) /* Setup */
-     , (12678,   8,  100671680) /* Icon */
-     , (12678,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12678,   1, 0x02000A8D) /* Setup */
+     , (12678,   8, 0x060020C0) /* Icon */
+     , (12678,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12678, 8001,  840958010) /* PCAPRecordedWeenieHeader - ItemsCapacity, Value, Usable, UseRadius, Burden, HouseOwner, HookType, HookItemTypes */
      , (12678, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (12678, 8005,      36993) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12678, 8040, 2519466036, 158.669, 83.9153, 49.9, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (12678, 8040, 0x962C0034, 158.669, 83.9153, 49.9, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x962C0034 [158.669000 83.915300 49.900000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12678, 8000, 2036514912) /* PCAPRecordedObjectIID */;
+VALUES (12678, 8000, 0x7962C060) /* PCAPRecordedObjectIID */;

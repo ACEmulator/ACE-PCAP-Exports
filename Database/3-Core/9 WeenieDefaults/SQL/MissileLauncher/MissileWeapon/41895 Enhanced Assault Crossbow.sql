@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41895,   1,        256) /* ItemType - MissileWeapon */
      , (41895,   5,        600) /* EncumbranceVal */
      , (41895,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (41895,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (41895,  16,          1) /* ItemUseable - No */
      , (41895,  18,          1) /* UiEffects - Magical */
      , (41895,  19,      25000) /* Value */
@@ -16,7 +15,7 @@ VALUES (41895,   1,        256) /* ItemType - MissileWeapon */
      , (41895,  48,         47) /* WeaponSkill - MissileWeapons */
      , (41895,  49,         60) /* WeaponTime */
      , (41895,  50,          2) /* AmmoType - Bolt */
-     , (41895,  51,          2) /* CombatUse - Missle */
+     , (41895,  51,          2) /* CombatUse - Missile */
      , (41895,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41895, 106,        400) /* ItemSpellcraft */
      , (41895, 107,        550) /* ItemCurMana */
@@ -52,10 +51,10 @@ VALUES (41895,   1, 'Enhanced Assault Crossbow') /* Name */
      , (41895,  16, 'A reward for defeating the leaders of the Reedshark Clan.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41895,   1,   33558210) /* Setup */
-     , (41895,   3,  536870932) /* SoundTable */
-     , (41895,   8,  100671750) /* Icon */
-     , (41895,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41895,   1, 0x02000EC2) /* Setup */
+     , (41895,   3, 0x20000014) /* SoundTable */
+     , (41895,   8, 0x06002106) /* Icon */
+     , (41895,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41895,  30,         88) /* PhysicsScript - Create */
      , (41895, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (41895, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -63,14 +62,14 @@ VALUES (41895,   1,   33558210) /* Setup */
      , (41895, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41895, 8040, 2847146034, 152.6441, 41.73085, 93.93001, 0.03650517, 0, 0, -0.9993334) /* PCAPRecordedLocation */
+VALUES (41895, 8040, 0xA9B40032, 152.6441, 41.73085, 93.93001, 0.036505, 0, 0, -0.999333) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40032 [152.644100 41.730850 93.930010] 0.036505 0.000000 0.000000 -0.999333 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41895, 8000, 3651548940) /* PCAPRecordedObjectIID */
-     , (41895, 8008, 1343484113) /* PCAPRecordedParentIID */;
+VALUES (41895, 8000, 0xD9A6370C) /* PCAPRecordedObjectIID */
+     , (41895, 8008, 0x5013F0D1) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41895,  2004,      2)  /* WarriorsVitality */
-     , (41895,  2059,      2)  /* CoordinationSelf7 */
+VALUES (41895,  2059,      2)  /* CoordinationSelf7 */
+     , (41895,  2004,      2)  /* WarriorsVitality */
      , (41895,  2096,      2)  /* BloodDrinkerSelf7 */;

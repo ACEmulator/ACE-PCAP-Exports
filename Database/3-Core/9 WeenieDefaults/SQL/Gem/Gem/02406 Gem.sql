@@ -35,17 +35,17 @@ VALUES (2406,   1, 'Gem') /* Name */
      , (2406,  16, 'Gem of Regeneration') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2406,   1,   33554809) /* Setup */
-     , (2406,   3,  536870932) /* SoundTable */
-     , (2406,   6,   67111919) /* PaletteBase */
-     , (2406,   8,  100674712) /* Icon */
-     , (2406,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2406,   1, 0x02000179) /* Setup */
+     , (2406,   3, 0x20000014) /* SoundTable */
+     , (2406,   6, 0x04000BEF) /* PaletteBase */
+     , (2406,   8, 0x06002C98) /* Icon */
+     , (2406,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2406, 8001, 2166386712) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, Workmanship, MaterialType */
      , (2406, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2406, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2406, 8000, 3688303312) /* PCAPRecordedObjectIID */;
+VALUES (2406, 8000, 0xDBD70AD0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2406,   169,      2)  /* RegenerationSelf5 */;

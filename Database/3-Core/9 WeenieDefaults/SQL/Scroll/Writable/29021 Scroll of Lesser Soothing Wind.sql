@@ -20,13 +20,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29021,   1, 'Scroll of Lesser Soothing Wind') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29021,   1,   33554826) /* Setup */
-     , (29021,   8,  100676941) /* Icon */
-     , (29021,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29021,   1, 0x0200018A) /* Setup */
+     , (29021,   8, 0x0600354D) /* Icon */
+     , (29021,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29021,  28,       3474) /* Spell - RegenerationFellowship4 */
      , (29021, 8001,    6307856) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, Spell */
      , (29021, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29021, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29021, 8000, 2159174344) /* PCAPRecordedObjectIID */;
+VALUES (29021, 8000, 0x80B262C8) /* PCAPRecordedObjectIID */;

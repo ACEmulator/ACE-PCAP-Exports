@@ -18,15 +18,15 @@ VALUES (43014,   1, 'Annex') /* Name */
      , (43014,  16, 'The Annex contains portals from several different races.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43014,   1,   33561072) /* Setup */
-     , (43014,   8,  100668115) /* Icon */
+VALUES (43014,   1, 0x020019F0) /* Setup */
+     , (43014,   8, 0x060012D3) /* Icon */
      , (43014, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (43014, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (43014, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43014, 8040, 459077, 69.9771, -84.8987, 3.068, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (43014, 8040, 0x00070145, 69.9771, -84.8987, 3.068, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [69.977100 -84.898700 3.068000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43014, 8000, 1879076949) /* PCAPRecordedObjectIID */;
+VALUES (43014, 8000, 0x70007055) /* PCAPRecordedObjectIID */;

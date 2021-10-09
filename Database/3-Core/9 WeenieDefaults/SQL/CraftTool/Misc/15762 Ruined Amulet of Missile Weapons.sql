@@ -19,7 +19,8 @@ VALUES (15762,   1,        128) /* ItemType - Misc */
      , (15762, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15762,  22, True ) /* Inscribable */;
+VALUES (15762,  22, True ) /* Inscribable */
+     , (15762,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15762,  39,    0.67) /* DefaultScale */;
@@ -30,17 +31,17 @@ VALUES (15762,   1, 'Ruined Amulet of Missile Weapons') /* Name */
      , (15762,  16, 'An Amulet crafted in pyreal that bears the symbol of missile weapons. The amulet is damaged, seemingly beyond repair.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15762,   1,   33554680) /* Setup */
-     , (15762,   3,  536870932) /* SoundTable */
-     , (15762,   6,   67111919) /* PaletteBase */
-     , (15762,   8,  100672807) /* Icon */
-     , (15762,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15762,   1, 0x020000F8) /* Setup */
+     , (15762,   3, 0x20000014) /* SoundTable */
+     , (15762,   6, 0x04000BEF) /* PaletteBase */
+     , (15762,   8, 0x06002527) /* Icon */
+     , (15762,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15762, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (15762, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (15762, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15762, 8000, 3039657276) /* PCAPRecordedObjectIID */;
+VALUES (15762, 8000, 0xB52D7D3C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15762, 67111922, 0, 0);

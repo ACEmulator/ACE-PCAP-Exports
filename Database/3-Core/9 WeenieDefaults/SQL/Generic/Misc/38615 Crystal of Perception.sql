@@ -15,7 +15,8 @@ VALUES (38615,   1,        128) /* ItemType - Misc */
      , (38615, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38615,  22, True ) /* Inscribable */;
+VALUES (38615,  22, True ) /* Inscribable */
+     , (38615,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38615,   1, 'Crystal of Perception') /* Name */
@@ -24,17 +25,17 @@ VALUES (38615,   1, 'Crystal of Perception') /* Name */
      , (38615,  20, 'Crystals of Perception') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38615,   1,   33558524) /* Setup */
-     , (38615,   3,  536870932) /* SoundTable */
-     , (38615,   6,   67109312) /* PaletteBase */
-     , (38615,   8,  100671360) /* Icon */
-     , (38615,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38615,   1, 0x02000FFC) /* Setup */
+     , (38615,   3, 0x20000014) /* SoundTable */
+     , (38615,   6, 0x040001C0) /* PaletteBase */
+     , (38615,   8, 0x06001F80) /* Icon */
+     , (38615,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38615, 8001,    2113681) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, Container, Burden */
      , (38615, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38615, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38615, 8000, 2210356875) /* PCAPRecordedObjectIID */;
+VALUES (38615, 8000, 0x83BF5E8B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38615, 67112898, 0, 0);

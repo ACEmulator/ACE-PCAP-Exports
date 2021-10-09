@@ -17,7 +17,7 @@ VALUES (32484,   1,        256) /* ItemType - MissileWeapon */
      , (32484,  45,          8) /* DamageType - Cold */
      , (32484,  48,         47) /* WeaponSkill - MissileWeapons */
      , (32484,  49,         20) /* WeaponTime */
-     , (32484,  51,          2) /* CombatUse - Missle */
+     , (32484,  51,          2) /* CombatUse - Missile */
      , (32484,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (32484, 151,          2) /* HookType - Wall */
      , (32484, 353,         10) /* WeaponType - Thrown */
@@ -43,21 +43,21 @@ VALUES (32484,   1, 'A Huge Lump of Coal') /* Name */
      , (32484,  16, 'You have no apparent use for this rock. Perhaps a Snowman might find it useful.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32484,   1,   33554669) /* Setup */
-     , (32484,   3,  536870932) /* SoundTable */
-     , (32484,   6,   67111928) /* PaletteBase */
-     , (32484,   8,  100673875) /* Icon */
-     , (32484,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32484,   1, 0x020000ED) /* Setup */
+     , (32484,   3, 0x20000014) /* SoundTable */
+     , (32484,   6, 0x04000BF8) /* PaletteBase */
+     , (32484,   8, 0x06002953) /* Icon */
+     , (32484,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32484, 8001,  270610968) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, ValidLocations, Burden, HookType */
      , (32484, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32484, 8005,     170753) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32484, 8040, 3583574079, 178.5295, 159.3499, 374, 0.09011006, 0, 0, -0.9959318) /* PCAPRecordedLocation */
+VALUES (32484, 8040, 0xD599003F, 178.5295, 159.3499, 374, 0.09011, 0, 0, -0.995932) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [178.529500 159.349900 374.000000] 0.090110 0.000000 0.000000 -0.995932 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32484, 8000, 2677504716) /* PCAPRecordedObjectIID */;
+VALUES (32484, 8000, 0x9F977ACC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32484, 67111925, 0, 0);

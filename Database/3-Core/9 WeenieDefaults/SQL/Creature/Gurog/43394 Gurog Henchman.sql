@@ -25,21 +25,21 @@ VALUES (43394,   1, 'Gurog Henchman') /* Name */
      , (43394, 8006, 'AAA9AEAAAAAAAMC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43394,   1,   33561130) /* Setup */
-     , (43394,   2,  150995368) /* MotionTable */
-     , (43394,   3,  536871125) /* SoundTable */
-     , (43394,   8,  100674350) /* Icon */
-     , (43394,  22,  872415437) /* PhysicsEffectTable */
+VALUES (43394,   1, 0x02001A2A) /* Setup */
+     , (43394,   2, 0x090001A8) /* MotionTable */
+     , (43394,   3, 0x200000D5) /* SoundTable */
+     , (43394,   8, 0x06002B2E) /* Icon */
+     , (43394,  22, 0x340000CD) /* PhysicsEffectTable */
      , (43394, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (43394, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (43394, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43394, 8040, 2028535857, 147.2748, 11.92528, 147.1105, -0.8668611, 0, 0, -0.4985497) /* PCAPRecordedLocation */
+VALUES (43394, 8040, 0x78E90031, 147.2748, 11.92528, 147.1105, -0.866861, 0, 0, -0.49855) /* PCAPRecordedLocation */
 /* @teleloc 0x78E90031 [147.274800 11.925280 147.110500] -0.866861 0.000000 0.000000 -0.498550 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43394, 8000, 3696924414) /* PCAPRecordedObjectIID */;
+VALUES (43394, 8000, 0xDC5A96FE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43394,   1, 550, 0, 0) /* Strength */

@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44498,   1, 'Contract for Moarsman High Priest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44498,   1,   33557625) /* Setup */
-     , (44498,   3,  536870932) /* SoundTable */
-     , (44498,   8,  100691930) /* Icon */
-     , (44498,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44498,   1, 0x02000C79) /* Setup */
+     , (44498,   3, 0x20000014) /* SoundTable */
+     , (44498,   8, 0x06006FDA) /* Icon */
+     , (44498,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44498, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44498, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44498, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (44498,   1,   33557625) /* Setup */
      , (44498, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44498, 8000,      44498) /* PCAPRecordedObjectIID */;
+VALUES (44498, 8000, 0x0000ADD2) /* PCAPRecordedObjectIID */;

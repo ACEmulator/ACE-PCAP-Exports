@@ -24,13 +24,13 @@ VALUES (45290,   1, 'Scroll of Recklessness Ineptitude Other VII') /* Name */
 Decreases the target''s Recklessness skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45290,   1,   33554826) /* Setup */
-     , (45290,   8,  100676449) /* Icon */
-     , (45290,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45290,   1, 0x0200018A) /* Setup */
+     , (45290,   8, 0x06003361) /* Icon */
+     , (45290,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45290,  28,       5817) /* Spell - RecklessnessIneptitudeOther7 */
      , (45290, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45290, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45290, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45290, 8000, 3692185762) /* PCAPRecordedObjectIID */;
+VALUES (45290, 8000, 0xDC1248A2) /* PCAPRecordedObjectIID */;

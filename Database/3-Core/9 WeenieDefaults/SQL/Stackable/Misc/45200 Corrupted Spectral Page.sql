@@ -19,15 +19,15 @@ VALUES (45200,   1, 'Corrupted Spectral Page') /* Name */
      , (45200,  20, 'Corrupted Spectral Pages') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45200,   1,   33554826) /* Setup */
-     , (45200,   3,  536870932) /* SoundTable */
-     , (45200,   8,  100674008) /* Icon */
-     , (45200,  22,  872415275) /* PhysicsEffectTable */
-     , (45200,  52,  100689403) /* IconUnderlay */
+VALUES (45200,   1, 0x0200018A) /* Setup */
+     , (45200,   3, 0x20000014) /* SoundTable */
+     , (45200,   8, 0x060029D8) /* Icon */
+     , (45200,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45200,  52, 0x060065FB) /* IconUnderlay */
      , (45200, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
      , (45200, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (45200, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
      , (45200, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45200, 8000, 3630786482) /* PCAPRecordedObjectIID */;
+VALUES (45200, 8000, 0xD86967B2) /* PCAPRecordedObjectIID */;

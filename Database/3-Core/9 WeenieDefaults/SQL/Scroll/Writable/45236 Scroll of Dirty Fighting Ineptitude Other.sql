@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45236,   1, 'Scroll of Dirty Fighting Ineptitude Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45236,   1,   33554826) /* Setup */
-     , (45236,   8,  100692255) /* Icon */
-     , (45236,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45236,   1, 0x0200018A) /* Setup */
+     , (45236,   8, 0x0600711F) /* Icon */
+     , (45236,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45236,  28,       5763) /* Spell - DirtyFightingIneptitudeOther1 */
      , (45236, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45236, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45236, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45236, 8000, 3628767762) /* PCAPRecordedObjectIID */;
+VALUES (45236, 8000, 0xD84A9A12) /* PCAPRecordedObjectIID */;

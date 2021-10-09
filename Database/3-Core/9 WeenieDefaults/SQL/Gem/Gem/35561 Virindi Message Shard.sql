@@ -18,6 +18,7 @@ VALUES (35561,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35561,  22, True ) /* Inscribable */
+     , (35561,  23, True ) /* DestroyOnSell */
      , (35561,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -29,13 +30,13 @@ VALUES (35561,   1, 'Virindi Message Shard') /* Name */
      , (35561,  16, 'A message shard retrieved from the corpse of the Virindi Archivist.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35561,   1,   33555391) /* Setup */
-     , (35561,   3,  536870932) /* SoundTable */
-     , (35561,   8,  100671395) /* Icon */
-     , (35561,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35561,   1, 0x020003BF) /* Setup */
+     , (35561,   3, 0x20000014) /* SoundTable */
+     , (35561,   8, 0x06001FA3) /* Icon */
+     , (35561,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35561, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (35561, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35561, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35561, 8000, 2447925539) /* PCAPRecordedObjectIID */;
+VALUES (35561, 8000, 0x91E86123) /* PCAPRecordedObjectIID */;

@@ -39,22 +39,22 @@ VALUES (8787,   1, 'Shadow Captain''s Heaume') /* Name */
      , (8787,  16, 'A magical heaume taken from a Shadow in the Heart of Darkness dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8787,   1,   33556883) /* Setup */
-     , (8787,   3,  536870932) /* SoundTable */
-     , (8787,   6,   67108990) /* PaletteBase */
-     , (8787,   8,  100671250) /* Icon */
-     , (8787,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8787,   1, 0x02000993) /* Setup */
+     , (8787,   3, 0x20000014) /* SoundTable */
+     , (8787,   6, 0x0400007E) /* PaletteBase */
+     , (8787,   8, 0x06001F12) /* Icon */
+     , (8787,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8787, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (8787, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8787, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8787, 8000, 3701788743) /* PCAPRecordedObjectIID */;
+VALUES (8787, 8000, 0xDCA4D047) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8787,   242,      2)  /* InvulnerabilityOther4 */
-     , (8787,   253,      2)  /* ImpregnabilityOther4 */
-     , (8787,  1486,      2)  /* Impenetrability6 */;
+VALUES (8787,  1486,      2)  /* Impenetrability6 */
+     , (8787,   242,      2)  /* InvulnerabilityOther4 */
+     , (8787,   253,      2)  /* ImpregnabilityOther4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8787, 67110556, 240, 10);

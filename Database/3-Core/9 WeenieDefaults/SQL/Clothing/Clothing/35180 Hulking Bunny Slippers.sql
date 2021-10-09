@@ -8,7 +8,6 @@ VALUES (35180,   1,          4) /* ItemType - Clothing */
      , (35180,   4,      65536) /* ClothingPriority - Feet */
      , (35180,   5,        500) /* EncumbranceVal */
      , (35180,   9,        256) /* ValidLocations - FootWear */
-     , (35180,  10,        256) /* CurrentWieldedLocation - FootWear */
      , (35180,  16,          1) /* ItemUseable - No */
      , (35180,  19,          0) /* Value */
      , (35180,  28,         50) /* ArmorLevel */
@@ -42,21 +41,21 @@ VALUES (35180,   1, 'Hulking Bunny Slippers') /* Name */
      , (35180,  16, 'A pair of hulking bunny slippers.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35180,   1,   33557435) /* Setup */
-     , (35180,   6,   67108990) /* PaletteBase */
-     , (35180,   8,  100672378) /* Icon */
-     , (35180,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35180,   1, 0x02000BBB) /* Setup */
+     , (35180,   6, 0x0400007E) /* PaletteBase */
+     , (35180,   8, 0x0600237A) /* Icon */
+     , (35180,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35180, 8001,  271024144) /* PCAPRecordedWeenieHeader - Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (35180, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35180, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35180, 8000, 2909425848) /* PCAPRecordedObjectIID */;
+VALUES (35180, 8000, 0xAD6A50B8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35180,  2257,      2)  /* JumpingMasterySelf7 */
-     , (35180,  2301,      2)  /* SprintSelf7 */
-     , (35180,  2529,      2)  /* CANTRIPSPRINT2 */;
+     , (35180,  2529,      2)  /* CANTRIPSPRINT2 */
+     , (35180,  2301,      2)  /* SprintSelf7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35180, 67113750, 160, 8);

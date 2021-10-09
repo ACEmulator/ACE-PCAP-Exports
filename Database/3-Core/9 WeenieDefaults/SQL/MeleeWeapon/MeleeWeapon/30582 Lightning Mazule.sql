@@ -48,18 +48,18 @@ VALUES (30582,   1, 'Lightning Mazule') /* Name */
      , (30582,  16, 'Lightning Mazule of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30582,   1,   33559473) /* Setup */
-     , (30582,   3,  536870932) /* SoundTable */
-     , (30582,   6,   67115559) /* PaletteBase */
-     , (30582,   8,  100686973) /* Icon */
-     , (30582,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30582,   1, 0x020013B1) /* Setup */
+     , (30582,   3, 0x20000014) /* SoundTable */
+     , (30582,   6, 0x04001A27) /* PaletteBase */
+     , (30582,   8, 0x06005C7D) /* Icon */
+     , (30582,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30582,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30582, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30582, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30582, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30582, 8000, 3622385853) /* PCAPRecordedObjectIID */;
+VALUES (30582, 8000, 0xD7E938BD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30582,  1613,      2)  /* BloodDrinkerSelf3 */;

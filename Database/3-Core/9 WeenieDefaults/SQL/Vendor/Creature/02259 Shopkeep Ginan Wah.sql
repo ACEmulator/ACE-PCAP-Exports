@@ -36,27 +36,27 @@ VALUES (2259,   1, 'Shopkeep Ginan Wah') /* Name */
      , (2259, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2259,   1,   33554510) /* Setup */
-     , (2259,   2,  150994945) /* MotionTable */
-     , (2259,   3,  536870914) /* SoundTable */
-     , (2259,   6,   67108990) /* PaletteBase */
-     , (2259,   8,  100667446) /* Icon */
-     , (2259,   9,   83890236) /* EyesTexture */
-     , (2259,  10,   83890310) /* NoseTexture */
-     , (2259,  11,   83890348) /* MouthTexture */
-     , (2259,  15,   67117070) /* HairPalette */
-     , (2259,  16,   67110063) /* EyesPalette */
-     , (2259,  17,   67110054) /* SkinPalette */
+VALUES (2259,   1, 0x0200004E) /* Setup */
+     , (2259,   2, 0x09000001) /* MotionTable */
+     , (2259,   3, 0x20000002) /* SoundTable */
+     , (2259,   6, 0x0400007E) /* PaletteBase */
+     , (2259,   8, 0x06001036) /* Icon */
+     , (2259,   9, 0x0500103C) /* EyesTexture */
+     , (2259,  10, 0x05001086) /* NoseTexture */
+     , (2259,  11, 0x050010AC) /* MouthTexture */
+     , (2259,  15, 0x0400200E) /* HairPalette */
+     , (2259,  16, 0x040004AF) /* EyesPalette */
+     , (2259,  17, 0x040004A6) /* SkinPalette */
      , (2259, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (2259, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (2259, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2259, 8040, 3443589390, 138.283, 134.095, 54.005, -0.0002261837, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (2259, 8040, 0xCD41010E, 138.283, 134.095, 54.005, -0.000226, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xCD41010E [138.283000 134.095000 54.005000] -0.000226 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2259, 8000, 2094272553) /* PCAPRecordedObjectIID */;
+VALUES (2259, 8000, 0x7CD41029) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2259,   1,  75, 0, 0) /* Strength */
@@ -116,8 +116,7 @@ VALUES (2259, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (2259, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (2259, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (2259, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (2259, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
-     , (2259, 4, 31868, -1, 0, 0, False) /* Create Signet Crown (31868) for Shop */;
+     , (2259, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2259, 67110054, 0, 24)

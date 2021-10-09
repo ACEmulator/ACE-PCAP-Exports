@@ -45,24 +45,24 @@ VALUES (31865,   1, 'Circlet') /* Name */
      , (31865,  16, 'Circlet of Magic Resistance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31865,   1,   33559736) /* Setup */
-     , (31865,   3,  536870932) /* SoundTable */
-     , (31865,   6,   67108990) /* PaletteBase */
-     , (31865,   8,  100688202) /* Icon */
-     , (31865,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31865,   1, 0x020014B8) /* Setup */
+     , (31865,   3, 0x20000014) /* SoundTable */
+     , (31865,   6, 0x0400007E) /* PaletteBase */
+     , (31865,   8, 0x0600614A) /* Icon */
+     , (31865,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31865, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (31865, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31865, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31865, 8000, 3690367363) /* PCAPRecordedObjectIID */;
+VALUES (31865, 8000, 0xDBF68983) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31865,   279,      2)  /* MagicResistanceSelf6 */
-     , (31865,  1485,      2)  /* Impenetrability5 */
-     , (31865,  1515,      2)  /* BludgeonBane5 */
+VALUES (31865,  1485,      2)  /* Impenetrability5 */
+     , (31865,   279,      2)  /* MagicResistanceSelf6 */
+     , (31865,  2585,      2)  /* CANTRIPACIDBANE2 */
      , (31865,  1573,      2)  /* PiercingBane5 */
-     , (31865,  2585,      2)  /* CANTRIPACIDBANE2 */;
+     , (31865,  1515,      2)  /* BludgeonBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (31865, 67110017, 240, 10)

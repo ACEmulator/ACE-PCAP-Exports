@@ -18,15 +18,15 @@ VALUES (42798,   1, 'Dryreach') /* Name */
      , (42798,  16, 'A fortress forever besieged by Hea Tumeroks, Dryreach can be a dangerous location for an inexperienced adventurer. The Hea Tumeroks use this fortress as a training ground for their warriors, ensuring that the stalemate involving this fortress will never be resolved. Be careful on wandering out the front gates without a key, as they are locked to prevent the Tumerok from gaining entry. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42798,   1,   33560994) /* Setup */
-     , (42798,   8,  100668115) /* Icon */
+VALUES (42798,   1, 0x020019A2) /* Setup */
+     , (42798,   8, 0x060012D3) /* Icon */
      , (42798, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42798, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42798, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42798, 8040, 459089, 84.8989, -9.998, 3.014, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (42798, 8040, 0x00070151, 84.8989, -9.998, 3.014, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070151 [84.898900 -9.998000 3.014000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42798, 8000, 1879076955) /* PCAPRecordedObjectIID */;
+VALUES (42798, 8000, 0x7000705B) /* PCAPRecordedObjectIID */;

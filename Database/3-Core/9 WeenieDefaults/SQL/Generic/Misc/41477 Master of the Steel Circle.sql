@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41477,   1, 'Master of the Steel Circle') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41477,   1,   33554809) /* Setup */
-     , (41477,   3,  536870932) /* SoundTable */
-     , (41477,   8,  100686474) /* Icon */
-     , (41477,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41477,   1, 0x02000179) /* Setup */
+     , (41477,   3, 0x20000014) /* SoundTable */
+     , (41477,   8, 0x06005A8A) /* Icon */
+     , (41477,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41477, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (41477, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41477, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41477, 8000, 2881973916) /* PCAPRecordedObjectIID */;
+VALUES (41477, 8000, 0xABC76E9C) /* PCAPRecordedObjectIID */;

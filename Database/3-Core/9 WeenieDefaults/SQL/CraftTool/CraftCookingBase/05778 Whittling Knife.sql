@@ -27,13 +27,13 @@ VALUES (5778,   1, 'Whittling Knife') /* Name */
      , (5778,  20, 'Whittling Knives') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5778,   1,   33555971) /* Setup */
-     , (5778,   3,  536870932) /* SoundTable */
-     , (5778,   8,  100670317) /* Icon */
-     , (5778,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5778,   1, 0x02000603) /* Setup */
+     , (5778,   3, 0x20000014) /* SoundTable */
+     , (5778,   8, 0x06001B6D) /* Icon */
+     , (5778,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5778, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (5778, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5778, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5778, 8000, 2981037233) /* PCAPRecordedObjectIID */;
+VALUES (5778, 8000, 0xB1AF04B1) /* PCAPRecordedObjectIID */;

@@ -46,24 +46,21 @@ VALUES (114,   1, 'Platemail Vambraces') /* Name */
      , (114,  16, 'Platemail Vambraces of Magic Resistance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (114,   1,   33554641) /* Setup */
-     , (114,   3,  536870932) /* SoundTable */
-     , (114,   6,   67108990) /* PaletteBase */
-     , (114,   8,  100669643) /* Icon */
-     , (114,  22,  872415275) /* PhysicsEffectTable */
+VALUES (114,   1, 0x020000D1) /* Setup */
+     , (114,   3, 0x20000014) /* SoundTable */
+     , (114,   6, 0x0400007E) /* PaletteBase */
+     , (114,   8, 0x060018CB) /* Icon */
+     , (114,  22, 0x3400002B) /* PhysicsEffectTable */
      , (114, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (114, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (114, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (114, 8000, 3701088717) /* PCAPRecordedObjectIID */;
+VALUES (114, 8000, 0xDC9A21CD) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (114,   277,      2)  /* MagicResistanceSelf4 */
-     , (114,  1485,      2)  /* Impenetrability5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (114, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (114,  1485,      2)  /* Impenetrability5 */
+     , (114,   277,      2)  /* MagicResistanceSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (114, 67110538, 96, 12);

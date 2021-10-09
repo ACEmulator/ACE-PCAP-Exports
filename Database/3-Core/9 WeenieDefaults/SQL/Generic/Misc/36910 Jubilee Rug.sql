@@ -21,11 +21,11 @@ VALUES (36910,   1, 'Jubilee Rug') /* Name */
      , (36910,  16, 'A holiday rug imbedded with tiny jewels.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36910,   1,   33560430) /* Setup */
-     , (36910,   8,  100689761) /* Icon */
+VALUES (36910,   1, 0x0200176E) /* Setup */
+     , (36910,   8, 0x06006761) /* Icon */
      , (36910, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (36910, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36910, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36910, 8000, 2192312348) /* PCAPRecordedObjectIID */;
+VALUES (36910, 8000, 0x82AC081C) /* PCAPRecordedObjectIID */;

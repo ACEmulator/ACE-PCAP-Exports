@@ -14,7 +14,8 @@ VALUES (25498,   1,        128) /* ItemType - Misc */
      , (25498, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25498,  22, True ) /* Inscribable */;
+VALUES (25498,  22, True ) /* Inscribable */
+     , (25498,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25498,  39,     0.4) /* DefaultScale */;
@@ -24,17 +25,17 @@ VALUES (25498,   1, 'Olthoi Chitin') /* Name */
      , (25498,  16, 'A small piece of olthoi carapace.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25498,   1,   33554817) /* Setup */
-     , (25498,   3,  536870932) /* SoundTable */
-     , (25498,   6,   67111919) /* PaletteBase */
-     , (25498,   8,  100674809) /* Icon */
-     , (25498,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25498,   1, 0x02000181) /* Setup */
+     , (25498,   3, 0x20000014) /* SoundTable */
+     , (25498,   6, 0x04000BEF) /* PaletteBase */
+     , (25498,   8, 0x06002CF9) /* Icon */
+     , (25498,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25498, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (25498, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25498, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25498, 8000, 3710238010) /* PCAPRecordedObjectIID */;
+VALUES (25498, 8000, 0xDD25BD3A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25498, 67111921, 0, 0);

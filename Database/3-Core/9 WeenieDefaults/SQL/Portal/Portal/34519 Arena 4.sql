@@ -20,15 +20,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34519,   1, 'Arena 4') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34519,   1,   33560143) /* Setup */
-     , (34519,   8,  100677070) /* Icon */
+VALUES (34519,   1, 0x0200164F) /* Setup */
+     , (34519,   8, 0x060035CE) /* Icon */
      , (34519, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (34519, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (34519, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34519, 8040, 11796835, 30, -1366, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (34519, 8040, 0x00B40163, 30, -1366, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00B40163 [30.000000 -1366.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34519, 8000, 3703763778) /* PCAPRecordedObjectIID */;
+VALUES (34519, 8000, 0xDCC2F342) /* PCAPRecordedObjectIID */;

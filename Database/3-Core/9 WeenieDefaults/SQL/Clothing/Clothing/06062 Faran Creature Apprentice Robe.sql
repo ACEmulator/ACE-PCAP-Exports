@@ -8,7 +8,6 @@ VALUES (6062,   1,          4) /* ItemType - Clothing */
      , (6062,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (6062,   5,        200) /* EncumbranceVal */
      , (6062,   9,      32512) /* ValidLocations - Armor */
-     , (6062,  10,      32512) /* CurrentWieldedLocation - Armor */
      , (6062,  16,          1) /* ItemUseable - No */
      , (6062,  18,          1) /* UiEffects - Magical */
      , (6062,  19,       1120) /* Value */
@@ -41,22 +40,22 @@ VALUES (6062,   1, 'Faran Creature Apprentice Robe') /* Name */
      , (6062,  16, 'A finely tailored Aluvian robe for inexperienced mages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6062,   1,   33554854) /* Setup */
-     , (6062,   3,  536870932) /* SoundTable */
-     , (6062,   6,   67108990) /* PaletteBase */
-     , (6062,   8,  100670349) /* Icon */
-     , (6062,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6062,   1, 0x020001A6) /* Setup */
+     , (6062,   3, 0x20000014) /* SoundTable */
+     , (6062,   6, 0x0400007E) /* PaletteBase */
+     , (6062,   8, 0x06001B8D) /* Icon */
+     , (6062,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6062,  37,         31) /* ItemSkillLimit - CreatureEnchantment */
      , (6062, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (6062, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6062, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6062, 8000, 2776705411) /* PCAPRecordedObjectIID */;
+VALUES (6062, 8000, 0xA5812983) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6062,   563,      2)  /* CreatureEnchantmentMasteryOther1 */
-     , (6062,  1451,      2)  /* WillpowerOther1 */;
+VALUES (6062,  1451,      2)  /* WillpowerOther1 */
+     , (6062,   563,      2)  /* CreatureEnchantmentMasteryOther1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6062, 67110026, 96, 12)

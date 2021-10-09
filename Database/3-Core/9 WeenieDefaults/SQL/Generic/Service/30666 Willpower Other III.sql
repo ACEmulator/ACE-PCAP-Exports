@@ -17,10 +17,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30666,   1, 'Willpower Other III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30666,   1,   33554680) /* Setup */
-     , (30666,   3,  536870932) /* SoundTable */
-     , (30666,   8,  100668296) /* Icon */
-     , (30666,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30666,   1, 0x020000F8) /* Setup */
+     , (30666,   3, 0x20000014) /* SoundTable */
+     , (30666,   8, 0x06001388) /* Icon */
+     , (30666,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30666,  28,       1453) /* Spell - WillpowerOther3 */
      , (30666, 8001,    4210712) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Spell */
      , (30666, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
@@ -28,4 +28,4 @@ VALUES (30666,   1,   33554680) /* Setup */
      , (30666, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30666, 8000,      30666) /* PCAPRecordedObjectIID */;
+VALUES (30666, 8000, 0x000077CA) /* PCAPRecordedObjectIID */;

@@ -26,13 +26,13 @@ VALUES (31421,   1, 'Ursuin Toy') /* Name */
      , (31421,  16, 'A large stuffed Ursuin.  There appear to be large chew marks on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31421,   1,   33559601) /* Setup */
-     , (31421,   3,  536870932) /* SoundTable */
-     , (31421,   8,  100687914) /* Icon */
-     , (31421,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31421,   1, 0x02001431) /* Setup */
+     , (31421,   3, 0x20000014) /* SoundTable */
+     , (31421,   8, 0x0600602A) /* Icon */
+     , (31421,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31421, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (31421, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31421, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31421, 8000, 2978131427) /* PCAPRecordedObjectIID */;
+VALUES (31421, 8000, 0xB182ADE3) /* PCAPRecordedObjectIID */;

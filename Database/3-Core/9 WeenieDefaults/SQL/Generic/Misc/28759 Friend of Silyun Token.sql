@@ -14,20 +14,21 @@ VALUES (28759,   1,        128) /* ItemType - Misc */
      , (28759, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28759,  22, True ) /* Inscribable */;
+VALUES (28759,  22, True ) /* Inscribable */
+     , (28759,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28759,   1, 'Friend of Silyun Token') /* Name */
      , (28759,  16, 'Give this token to the Grand Mother of Silyun and she will change your title to Friend of Silyun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28759,   1,   33554817) /* Setup */
-     , (28759,   3,  536870932) /* SoundTable */
-     , (28759,   8,  100686367) /* Icon */
-     , (28759,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28759,   1, 0x02000181) /* Setup */
+     , (28759,   3, 0x20000014) /* SoundTable */
+     , (28759,   8, 0x06005A1F) /* Icon */
+     , (28759,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28759, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (28759, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28759, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28759, 8000, 2627311205) /* PCAPRecordedObjectIID */;
+VALUES (28759, 8000, 0x9C999665) /* PCAPRecordedObjectIID */;

@@ -1,11 +1,11 @@
 DELETE FROM `landblock_instance` WHERE `landblock` = 0x3D0B;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73D0B000, 38581, 0x3D0B014B, 36, 132, 12.537, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acolyte's Chamber */
+VALUES (0x73D0B000, 38581, 0x3D0B014B, 36, 132, 12.537, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Acolyte's Chamber */
 /* @teleloc 0x3D0B014B [36.000000 132.000000 12.537000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73D0B001, 38584, 0x3D0B0113, 132, 132, 12.537, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Chamber of the High Priest's Third */
+VALUES (0x73D0B001, 38584, 0x3D0B0113, 132, 132, 12.537, 0, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Chamber of the High Priest's Third */
 /* @teleloc 0x3D0B0113 [132.000000 132.000000 12.537000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

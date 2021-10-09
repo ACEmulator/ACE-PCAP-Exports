@@ -33,21 +33,21 @@ VALUES (9416,   1, 'Omerik the Bowyer') /* Name */
      , (9416, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9416,   1,   33557003) /* Setup */
-     , (9416,   2,  150994950) /* MotionTable */
-     , (9416,   3,  536870922) /* SoundTable */
-     , (9416,   6,   67113158) /* PaletteBase */
-     , (9416,   8,  100667447) /* Icon */
+VALUES (9416,   1, 0x02000A0B) /* Setup */
+     , (9416,   2, 0x09000006) /* MotionTable */
+     , (9416,   3, 0x2000000A) /* SoundTable */
+     , (9416,   6, 0x040010C6) /* PaletteBase */
+     , (9416,   8, 0x06001037) /* Icon */
      , (9416, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (9416, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (9416, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9416, 8040, 2719875488, 141.253, 114.643, 585.01, -0.3489132, 0, 0, -0.9371551) /* PCAPRecordedLocation */
+VALUES (9416, 8040, 0xA21E01A0, 141.253, 114.643, 585.01, -0.348913, 0, 0, -0.937155) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E01A0 [141.253000 114.643000 585.010000] -0.348913 0.000000 0.000000 -0.937155 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9416, 8000, 2049040392) /* PCAPRecordedObjectIID */;
+VALUES (9416, 8000, 0x7A21E008) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9416,   1, 310, 0, 0) /* Strength */

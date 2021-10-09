@@ -51,32 +51,28 @@ VALUES (27222,   1, 'Lorica Gauntlets') /* Name */
      , (27222,  16, 'Lorica Gauntlets of Coordination') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27222,   1,   33554648) /* Setup */
-     , (27222,   3,  536870932) /* SoundTable */
-     , (27222,   6,   67108990) /* PaletteBase */
-     , (27222,   8,  100676113) /* Icon */
-     , (27222,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27222,   1, 0x020000D8) /* Setup */
+     , (27222,   3, 0x20000014) /* SoundTable */
+     , (27222,   6, 0x0400007E) /* PaletteBase */
+     , (27222,   8, 0x06003211) /* Icon */
+     , (27222,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27222, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (27222, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27222, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27222, 8040, 23855549, 54.89859, -39.01816, 0, 0.9784861, 0, 0, -0.2063128) /* PCAPRecordedLocation */
+VALUES (27222, 8040, 0x016C01BD, 54.89859, -39.01816, 0, 0.978486, 0, 0, -0.206313) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [54.898590 -39.018160 0.000000] 0.978486 0.000000 0.000000 -0.206313 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27222, 8000, 3406724237) /* PCAPRecordedObjectIID */;
+VALUES (27222, 8000, 0xCB0E7C8D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27222,  2108,      2)  /* Impenetrability7 */
-     , (27222,  4297,      2)  /* CoordinationSelf8 */
+VALUES (27222,  4297,      2)  /* CoordinationSelf8 */
      , (27222,  4397,      2)  /* BludgeonBane8 */
      , (27222,  4403,      2)  /* FrostBane8 */
+     , (27222,  2108,      2)  /* Impenetrability7 */
      , (27222,  4671,      2)  /* CANTRIPSTORMBANE3 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27222, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (27222, 2, 40616,  1, 0, 0, False) /* Create Fire Spadone (40616) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27222, 67115027, 168, 6);

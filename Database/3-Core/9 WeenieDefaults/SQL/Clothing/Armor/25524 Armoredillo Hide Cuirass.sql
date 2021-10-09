@@ -33,17 +33,17 @@ VALUES (25524,   1, 'Armoredillo Hide Cuirass') /* Name */
      , (25524,  15, 'This cuirass has been crafted from the tanned and treated hide of a Plate Armoredillo.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25524,   1,   33554854) /* Setup */
-     , (25524,   3,  536870932) /* SoundTable */
-     , (25524,   6,   67108990) /* PaletteBase */
-     , (25524,   8,  100674986) /* Icon */
-     , (25524,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25524,   1, 0x020001A6) /* Setup */
+     , (25524,   3, 0x20000014) /* SoundTable */
+     , (25524,   6, 0x0400007E) /* PaletteBase */
+     , (25524,   8, 0x06002DAA) /* Icon */
+     , (25524,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25524, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (25524, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25524, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25524, 8000, 2157272711) /* PCAPRecordedObjectIID */;
+VALUES (25524, 8000, 0x80955E87) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (25524, 67114574, 72, 20)

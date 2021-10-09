@@ -52,24 +52,24 @@ VALUES (24604,   1, 'Sword of Lost Hope') /* Name */
      , (24604,  25, 'Ripley') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24604,   1,   33558420) /* Setup */
-     , (24604,   3,  536870932) /* SoundTable */
-     , (24604,   8,  100671325) /* Icon */
-     , (24604,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24604,   1, 0x02000F94) /* Setup */
+     , (24604,   3, 0x20000014) /* SoundTable */
+     , (24604,   8, 0x06001F5D) /* Icon */
+     , (24604,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24604, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24604, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24604, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24604, 8000, 3701921600) /* PCAPRecordedObjectIID */;
+VALUES (24604, 8000, 0xDCA6D740) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24604,   423,      2)  /* SwordMasterySelf6 */
-     , (24604,  1312,      2)  /* ArmorSelf6 */
-     , (24604,  1332,      2)  /* StrengthSelf6 */
-     , (24604,  1378,      2)  /* CoordinationSelf6 */
-     , (24604,  1592,      2)  /* HeartSeekerSelf6 */
-     , (24604,  1605,      2)  /* DefenderSelf6 */
+VALUES (24604,  1605,      2)  /* DefenderSelf6 */
+     , (24604,  2694,      2)  /* ModerateSwordAptitude */
      , (24604,  1616,      2)  /* BloodDrinkerSelf6 */
      , (24604,  1624,      2)  /* SwiftKillerSelf3 */
-     , (24604,  2694,      2)  /* ModerateSwordAptitude */;
+     , (24604,  1312,      2)  /* ArmorSelf6 */
+     , (24604,  1378,      2)  /* CoordinationSelf6 */
+     , (24604,   423,      2)  /* HeavyWeaponsMasterySelf6 */
+     , (24604,  1332,      2)  /* StrengthSelf6 */
+     , (24604,  1592,      2)  /* HeartSeekerSelf6 */;

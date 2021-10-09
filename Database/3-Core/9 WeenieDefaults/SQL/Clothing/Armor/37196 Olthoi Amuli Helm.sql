@@ -50,25 +50,25 @@ VALUES (37196,   1, 'Olthoi Amuli Helm') /* Name */
      , (37196,  16, 'Olthoi Amuli Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37196,   1,   33558419) /* Setup */
-     , (37196,   3,  536870932) /* SoundTable */
-     , (37196,   6,   67108990) /* PaletteBase */
-     , (37196,   8,  100690070) /* Icon */
-     , (37196,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37196,   1, 0x02000F93) /* Setup */
+     , (37196,   3, 0x20000014) /* SoundTable */
+     , (37196,   6, 0x0400007E) /* PaletteBase */
+     , (37196,   8, 0x06006896) /* Icon */
+     , (37196,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37196,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (37196, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (37196, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37196, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37196, 8000, 2174502533) /* PCAPRecordedObjectIID */;
+VALUES (37196, 8000, 0x819C4685) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37196,  2108,      2)  /* Impenetrability7 */
-     , (37196,  2110,      2)  /* LightningBane7 */
+VALUES (37196,  4391,      2)  /* AcidBane8 */
+     , (37196,  4393,      2)  /* BladeBane8 */
      , (37196,  2612,      2)  /* CANTRIPFROSTWARD2 */
-     , (37196,  4391,      2)  /* AcidBane8 */
-     , (37196,  4393,      2)  /* BladeBane8 */;
+     , (37196,  2108,      2)  /* Impenetrability7 */
+     , (37196,  2110,      2)  /* LightningBane7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37196, 67116548, 250, 6)

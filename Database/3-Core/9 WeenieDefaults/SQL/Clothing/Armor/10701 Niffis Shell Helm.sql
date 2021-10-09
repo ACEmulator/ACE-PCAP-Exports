@@ -33,21 +33,21 @@ VALUES (10701,   1, 'Niffis Shell Helm') /* Name */
      , (10701,  16, 'A Niffis Shell Helmet.  It is unusally light, and very well ventilated.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (10701,   1,   33556883) /* Setup */
-     , (10701,   3,  536870932) /* SoundTable */
-     , (10701,   6,   67108990) /* PaletteBase */
-     , (10701,   8,  100671658) /* Icon */
-     , (10701,  22,  872415275) /* PhysicsEffectTable */
+VALUES (10701,   1, 0x02000993) /* Setup */
+     , (10701,   3, 0x20000014) /* SoundTable */
+     , (10701,   6, 0x0400007E) /* PaletteBase */
+     , (10701,   8, 0x060020AA) /* Icon */
+     , (10701,  22, 0x3400002B) /* PhysicsEffectTable */
      , (10701, 8001,  270860312) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, HookType */
      , (10701, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (10701, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (10701, 8040, 3583574079, 188.0847, 159.2639, 373.9975, 0.9999062, 0, 0, -0.01369561) /* PCAPRecordedLocation */
+VALUES (10701, 8040, 0xD599003F, 188.0847, 159.2639, 373.9975, 0.999906, 0, 0, -0.013696) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [188.084700 159.263900 373.997500] 0.999906 0.000000 0.000000 -0.013696 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10701, 8000, 2169558820) /* PCAPRecordedObjectIID */;
+VALUES (10701, 8000, 0x8150D724) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (10701, 67113203, 250, 6)

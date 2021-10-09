@@ -49,10 +49,10 @@ VALUES (28528,   1, 'Well-Balanced Lugian Axe') /* Name */
      , (28528,  16, 'Crafted for Gorak.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28528,   1,   33558379) /* Setup */
-     , (28528,   3,  536870932) /* SoundTable */
-     , (28528,   8,  100674408) /* Icon */
-     , (28528,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28528,   1, 0x02000F6B) /* Setup */
+     , (28528,   3, 0x20000014) /* SoundTable */
+     , (28528,   8, 0x06002B68) /* Icon */
+     , (28528,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28528,  30,         88) /* PhysicsScript - Create */
      , (28528,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (28528, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
@@ -60,9 +60,9 @@ VALUES (28528,   1,   33558379) /* Setup */
      , (28528, 8005,     161921) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28528, 8000, 3331121694) /* PCAPRecordedObjectIID */;
+VALUES (28528, 8000, 0xC68CE21E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28528,  1591,      2)  /* HeartSeekerSelf5 */
-     , (28528,  1604,      2)  /* DefenderSelf5 */
-     , (28528,  1616,      2)  /* BloodDrinkerSelf6 */;
+VALUES (28528,  1604,      2)  /* DefenderSelf5 */
+     , (28528,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (28528,  1591,      2)  /* HeartSeekerSelf5 */;

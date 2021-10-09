@@ -25,22 +25,22 @@ VALUES (215,   1, 'Blue Phyntos Wasp') /* Name */
      , (215, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (215,   1,   33558817) /* Setup */
-     , (215,   2,  150995303) /* MotionTable */
-     , (215,   3,  536870926) /* SoundTable */
-     , (215,   6,   67115262) /* PaletteBase */
-     , (215,   8,  100667450) /* Icon */
-     , (215,  22,  872415266) /* PhysicsEffectTable */
+VALUES (215,   1, 0x02001121) /* Setup */
+     , (215,   2, 0x09000167) /* MotionTable */
+     , (215,   3, 0x2000000E) /* SoundTable */
+     , (215,   6, 0x040018FE) /* PaletteBase */
+     , (215,   8, 0x0600103A) /* Icon */
+     , (215,  22, 0x34000022) /* PhysicsEffectTable */
      , (215, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (215, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (215, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (215, 8040, 3863937049, 77.19625, 3.384878, 10.5359, 0.6237598, 0, 0, -0.7816161) /* PCAPRecordedLocation */
+VALUES (215, 8040, 0xE64F0019, 77.19625, 3.384878, 10.5359, 0.62376, 0, 0, -0.781616) /* PCAPRecordedLocation */
 /* @teleloc 0xE64F0019 [77.196250 3.384878 10.535900] 0.623760 0.000000 0.000000 -0.781616 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (215, 8000, 3684964188) /* PCAPRecordedObjectIID */;
+VALUES (215, 8000, 0xDBA4175C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (215,   1,  35, 0, 0) /* Strength */
@@ -56,7 +56,8 @@ VALUES (215,   1,     5, 0, 0, 35) /* MaxHealth */
      , (215,   5,     0, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (215, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+VALUES (215, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
+     , (215, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (215, 9,   273,  5, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (215, 9,  3699,  0, 0, 0, False) /* Create Blue Phyntos Wasp Wing (3699) for ContainTreasure */
      , (215, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
@@ -126,7 +127,8 @@ VALUES (215, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasur
      , (215, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
      , (215, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
      , (215, 9,   331,  0, 0, 0, False) /* Create Mace (331) for ContainTreasure */
-     , (215, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */;
+     , (215, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
+     , (215, 9,  1780,  0, 0, 0, False) /* Create Scroll of Quickness Other (1780) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (215, 67115263, 0, 0);

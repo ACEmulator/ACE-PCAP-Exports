@@ -27,13 +27,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3808,   1, 'Flaming Jo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3808,   1,   33555407) /* Setup */
-     , (3808,   3,  536870932) /* SoundTable */
-     , (3808,   8,  100667602) /* Icon */
-     , (3808,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3808,   1, 0x020003CF) /* Setup */
+     , (3808,   3, 0x20000014) /* SoundTable */
+     , (3808,   8, 0x060010D2) /* Icon */
+     , (3808,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3808, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3808, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3808, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3808, 8000, 3623567998) /* PCAPRecordedObjectIID */;
+VALUES (3808, 8000, 0xD7FB427E) /* PCAPRecordedObjectIID */;

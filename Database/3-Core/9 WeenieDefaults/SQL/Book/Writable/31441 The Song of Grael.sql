@@ -23,36 +23,36 @@ VALUES (31441,   1, 'The Song of Grael') /* Name */
      , (31441,  16, 'A translation of the Song of Grael.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31441,   1,   33559593) /* Setup */
-     , (31441,   3,  536870932) /* SoundTable */
-     , (31441,   8,  100687891) /* Icon */
-     , (31441,  22,  872415275) /* PhysicsEffectTable */
+VALUES (31441,   1, 0x02001429) /* Setup */
+     , (31441,   3, 0x20000014) /* SoundTable */
+     , (31441,   8, 0x06006013) /* Icon */
+     , (31441,  22, 0x3400002B) /* PhysicsEffectTable */
      , (31441, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
      , (31441, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (31441, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31441, 8000, 2153709800) /* PCAPRecordedObjectIID */;
+VALUES (31441, 8000, 0x805F00E8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (31441, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31441, 0, 4294967295, 'Unknown author', 'Password is cheese', False, 'Grael was once a Spear of the Mukkir
+VALUES (31441, 0, 4294967295, 'Unknown author', 'prewritten', False, 'Grael was once a Spear of the Mukkir
 He was a Blood-Warrior of Chief Daemal
 His arm was the strongest of the Blood-Warriors
 His beads of victory were many
 He took many wives and many slaves
 He fought at the Chief''s left hand as they sang songs of rage
 ')
-     , (31441, 1, 4294967295, 'Unknown author', 'Password is cheese', False, 'Grael failed Chief Daemal
+     , (31441, 1, 4294967295, 'Unknown author', 'prewritten', False, 'Grael failed Chief Daemal
 The Shining Ones from the south attacked the Mukkir
 Chief Daemal led the Blood-Warriors to battle
 Grael was overwhelmed by sorcerous light
 He failed to protect the back of his Chief
 He saw his Chief fall, singing a song of rage
 ')
-     , (31441, 2, 4294967295, 'Unknown author', 'Password is cheese', False, 'Grael became a prisoner of the Shining Ones
+     , (31441, 2, 4294967295, 'Unknown author', 'prewritten', False, 'Grael became a prisoner of the Shining Ones
 In their Great Circle, his war became their sport
 Every day, he raged for the fall of his Chief
 He slew all who came before him

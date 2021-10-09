@@ -33,7 +33,8 @@ VALUES (41789,   1,          1) /* ItemType - MeleeWeapon */
      , (41789, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41789,  22, True ) /* Inscribable */;
+VALUES (41789,  22, True ) /* Inscribable */
+     , (41789,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41789,   5,  -0.033) /* ManaRate */
@@ -52,22 +53,22 @@ VALUES (41789,   1, 'Singularity Greatsword') /* Name */
      , (41789,  15, 'A two handed sword imbued with Singularity energy.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41789,   1,   33556969) /* Setup */
-     , (41789,   3,  536870932) /* SoundTable */
-     , (41789,   6,   67111919) /* PaletteBase */
-     , (41789,   8,  100690839) /* Icon */
-     , (41789,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41789,   1, 0x020009E9) /* Setup */
+     , (41789,   3, 0x20000014) /* SoundTable */
+     , (41789,   6, 0x04000BEF) /* PaletteBase */
+     , (41789,   8, 0x06006B97) /* Icon */
+     , (41789,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41789, 8001,    2179728) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
      , (41789, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41789, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41789, 8000, 3699151866) /* PCAPRecordedObjectIID */;
+VALUES (41789, 8000, 0xDC7C93FA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41789,  1337,      2)  /* StrengthOther6 */
+VALUES (41789,  1616,      2)  /* BloodDrinkerSelf6 */
      , (41789,  1592,      2)  /* HeartSeekerSelf6 */
-     , (41789,  1616,      2)  /* BloodDrinkerSelf6 */;
+     , (41789,  1337,      2)  /* StrengthOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41789, 67111927, 0, 0);

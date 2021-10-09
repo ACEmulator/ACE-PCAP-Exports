@@ -32,14 +32,14 @@ VALUES (44898,   1, 'Contract for Under Cove Crypt') /* Name */
      , (44898,  16, 'Ma''yad ibn Ibsar is searching for her lost brother.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44898,   1,   33554773) /* Setup */
-     , (44898,   3,  536870932) /* SoundTable */
-     , (44898,   8,  100691929) /* Icon */
-     , (44898,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44898,   1, 0x02000155) /* Setup */
+     , (44898,   3, 0x20000014) /* SoundTable */
+     , (44898,   8, 0x06006FD9) /* Icon */
+     , (44898,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44898, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44898, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44898, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44898, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44898, 8000, 2159531656) /* PCAPRecordedObjectIID */;
+VALUES (44898, 8000, 0x80B7D688) /* PCAPRecordedObjectIID */;

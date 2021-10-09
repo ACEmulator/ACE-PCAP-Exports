@@ -16,7 +16,7 @@ VALUES (38268,   1,         16) /* ItemType - Creature */
      , (38268, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38268, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38268, 188,          3) /* HeritageGroup - Sho */
-     , (38268, 281,          2) /* Faction1Bits */
+     , (38268, 281,          2) /* Faction1Bits - EldrytchWeb */
      , (38268, 288,       1001) /* SocietyRankEldweb */
      , (38268, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -33,27 +33,27 @@ VALUES (38268,   1, 'Chiyo') /* Name */
      , (38268, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38268,   1,   33554510) /* Setup */
-     , (38268,   2,  150994945) /* MotionTable */
-     , (38268,   3,  536870914) /* SoundTable */
-     , (38268,   6,   67108990) /* PaletteBase */
-     , (38268,   8,  100667446) /* Icon */
-     , (38268,   9,   83890281) /* EyesTexture */
-     , (38268,  10,   83890317) /* NoseTexture */
-     , (38268,  11,   83890318) /* MouthTexture */
-     , (38268,  15,   67116991) /* HairPalette */
-     , (38268,  16,   67109565) /* EyesPalette */
-     , (38268,  17,   67110059) /* SkinPalette */
+VALUES (38268,   1, 0x0200004E) /* Setup */
+     , (38268,   2, 0x09000001) /* MotionTable */
+     , (38268,   3, 0x20000002) /* SoundTable */
+     , (38268,   6, 0x0400007E) /* PaletteBase */
+     , (38268,   8, 0x06001036) /* Icon */
+     , (38268,   9, 0x05001069) /* EyesTexture */
+     , (38268,  10, 0x0500108D) /* NoseTexture */
+     , (38268,  11, 0x0500108E) /* MouthTexture */
+     , (38268,  15, 0x04001FBF) /* HairPalette */
+     , (38268,  16, 0x040002BD) /* EyesPalette */
+     , (38268,  17, 0x040004AB) /* SkinPalette */
      , (38268, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (38268, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (38268, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38268, 8040, 12059247, 157.094, -35.8791, -17.995, -0.651594, 0, 0, -0.758568) /* PCAPRecordedLocation */
+VALUES (38268, 8040, 0x00B8026F, 157.094, -35.8791, -17.995, -0.651594, 0, 0, -0.758568) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026F [157.094000 -35.879100 -17.995000] -0.651594 0.000000 0.000000 -0.758568 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38268, 8000, 2921673248) /* PCAPRecordedObjectIID */;
+VALUES (38268, 8000, 0xAE253220) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38268,   1, 255, 0, 0) /* Strength */

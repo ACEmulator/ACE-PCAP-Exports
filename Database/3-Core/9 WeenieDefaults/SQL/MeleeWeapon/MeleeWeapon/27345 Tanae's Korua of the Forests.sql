@@ -54,16 +54,16 @@ VALUES (27345,   1, 'Tanae''s Korua of the Forests') /* Name */
      , (27345,  25, 'Stasis X') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27345,   1,   33558664) /* Setup */
-     , (27345,   3,  536870932) /* SoundTable */
-     , (27345,   8,  100676370) /* Icon */
-     , (27345,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27345,   1, 0x02001088) /* Setup */
+     , (27345,   3, 0x20000014) /* SoundTable */
+     , (27345,   8, 0x06003312) /* Icon */
+     , (27345,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27345, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27345, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27345, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27345, 8000, 2776700167) /* PCAPRecordedObjectIID */;
+VALUES (27345, 8000, 0xA5811507) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27345,  2446,      2)  /* GrowthGreater */

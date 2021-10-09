@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19976,   1, 'Superb Dissolving Isparian Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19976,   1,   33556371) /* Setup */
-     , (19976,   3,  536870932) /* SoundTable */
-     , (19976,   6,   67111919) /* PaletteBase */
-     , (19976,   8,  100672940) /* Icon */
-     , (19976,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19976,   1, 0x02000793) /* Setup */
+     , (19976,   3, 0x20000014) /* SoundTable */
+     , (19976,   6, 0x04000BEF) /* PaletteBase */
+     , (19976,   8, 0x060025AC) /* Icon */
+     , (19976,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19976, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (19976, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19976, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19976, 8000, 3352977049) /* PCAPRecordedObjectIID */;
+VALUES (19976, 8000, 0xC7DA5E99) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19976, 67111923, 0, 0);

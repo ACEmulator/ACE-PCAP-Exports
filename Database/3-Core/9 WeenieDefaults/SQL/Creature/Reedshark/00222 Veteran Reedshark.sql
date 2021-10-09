@@ -25,21 +25,21 @@ VALUES (222,   1, 'Veteran Reedshark') /* Name */
      , (222, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (222,   1,   33554489) /* Setup */
-     , (222,   2,  150994970) /* MotionTable */
-     , (222,   3,  536870928) /* SoundTable */
-     , (222,   8,  100667939) /* Icon */
-     , (222,  22,  872415268) /* PhysicsEffectTable */
+VALUES (222,   1, 0x02000039) /* Setup */
+     , (222,   2, 0x0900001A) /* MotionTable */
+     , (222,   3, 0x20000010) /* SoundTable */
+     , (222,   8, 0x06001223) /* Icon */
+     , (222,  22, 0x34000024) /* PhysicsEffectTable */
      , (222, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (222, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (222, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (222, 8040, 3747217459, 150.3332, 68.61875, 14.0014, 0.9537169, 0, 0, -0.3007058) /* PCAPRecordedLocation */
+VALUES (222, 8040, 0xDF5A0033, 150.3332, 68.61875, 14.0014, 0.953717, 0, 0, -0.300706) /* PCAPRecordedLocation */
 /* @teleloc 0xDF5A0033 [150.333200 68.618750 14.001400] 0.953717 0.000000 0.000000 -0.300706 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (222, 8000, 3685964195) /* PCAPRecordedObjectIID */;
+VALUES (222, 8000, 0xDBB359A3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (222,   1,  75, 0, 0) /* Strength */

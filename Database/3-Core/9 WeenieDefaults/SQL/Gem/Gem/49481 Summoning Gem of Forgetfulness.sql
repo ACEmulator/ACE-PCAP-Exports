@@ -14,23 +14,24 @@ VALUES (49481,   1,       2048) /* ItemType - Gem */
      , (49481, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49481,  22, True ) /* Inscribable */;
+VALUES (49481,  22, True ) /* Inscribable */
+     , (49481,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49481,   1, 'Summoning Gem of Forgetfulness') /* Name */
      , (49481,  14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return four skill credits when used to unspecialize or eight skill credits when used to untrain the Summoning skill. ') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49481,   1,   33558087) /* Setup */
-     , (49481,   6,   67111919) /* PaletteBase */
-     , (49481,   8,  100673789) /* Icon */
-     , (49481,  50,  100693010) /* IconOverlay */
+VALUES (49481,   1, 0x02000E47) /* Setup */
+     , (49481,   6, 0x04000BEF) /* PaletteBase */
+     , (49481,   8, 0x060028FD) /* Icon */
+     , (49481,  50, 0x06007412) /* IconOverlay */
      , (49481, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (49481, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (49481, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49481, 8000, 2448210966) /* PCAPRecordedObjectIID */;
+VALUES (49481, 8000, 0x91ECBC16) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49481, 67111924, 0, 0);

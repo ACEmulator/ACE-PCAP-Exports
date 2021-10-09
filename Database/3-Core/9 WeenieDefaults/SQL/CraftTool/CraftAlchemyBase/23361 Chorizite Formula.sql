@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23361,   1, 'Chorizite Formula') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23361,   1,   33555965) /* Setup */
-     , (23361,   3,  536870932) /* SoundTable */
-     , (23361,   6,   67111919) /* PaletteBase */
-     , (23361,   8,  100670737) /* Icon */
-     , (23361,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23361,   1, 0x020005FD) /* Setup */
+     , (23361,   3, 0x20000014) /* SoundTable */
+     , (23361,   6, 0x04000BEF) /* PaletteBase */
+     , (23361,   8, 0x06001D11) /* Icon */
+     , (23361,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23361, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (23361, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23361, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23361, 8000, 3630483692) /* PCAPRecordedObjectIID */;
+VALUES (23361, 8000, 0xD864C8EC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23361, 67111918, 0, 0);

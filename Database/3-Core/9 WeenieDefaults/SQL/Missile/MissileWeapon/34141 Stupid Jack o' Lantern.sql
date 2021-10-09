@@ -17,7 +17,7 @@ VALUES (34141,   1,        256) /* ItemType - MissileWeapon */
      , (34141,  45,          4) /* DamageType - Bludgeon */
      , (34141,  48,         47) /* WeaponSkill - MissileWeapons */
      , (34141,  49,          5) /* WeaponTime */
-     , (34141,  51,          2) /* CombatUse - Missle */
+     , (34141,  51,          2) /* CombatUse - Missile */
      , (34141,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (34141, 151,         11) /* HookType - Floor, Wall, Yard */
      , (34141, 353,         10) /* WeaponType - Thrown */
@@ -42,17 +42,17 @@ VALUES (34141,   1, 'Stupid Jack o'' Lantern') /* Name */
      , (34141,  16, 'A superbly crafted jack o'' lantern, made with a whittling knife.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34141,   1,   33556809) /* Setup */
-     , (34141,   3,  536870932) /* SoundTable */
-     , (34141,   6,   67112968) /* PaletteBase */
-     , (34141,   8,  100689207) /* Icon */
-     , (34141,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34141,   1, 0x02000949) /* Setup */
+     , (34141,   3, 0x20000014) /* SoundTable */
+     , (34141,   6, 0x04001008) /* PaletteBase */
+     , (34141,   8, 0x06006537) /* Icon */
+     , (34141,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34141, 8001,  270627352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (34141, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34141, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34141, 8000, 2461792432) /* PCAPRecordedObjectIID */;
+VALUES (34141, 8000, 0x92BBF8B0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34141, 67112976, 0, 0);

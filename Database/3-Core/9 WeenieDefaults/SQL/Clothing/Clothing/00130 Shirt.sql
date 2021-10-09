@@ -44,29 +44,25 @@ VALUES (130,   1, 'Shirt') /* Name */
      , (130,  16, 'Shirt of Piercing Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (130,   1,   33554644) /* Setup */
-     , (130,   3,  536870932) /* SoundTable */
-     , (130,   6,   67108990) /* PaletteBase */
-     , (130,   8,  100667376) /* Icon */
-     , (130,  22,  872415275) /* PhysicsEffectTable */
+VALUES (130,   1, 0x020000D4) /* Setup */
+     , (130,   3, 0x20000014) /* SoundTable */
+     , (130,   6, 0x0400007E) /* PaletteBase */
+     , (130,   8, 0x06000FF0) /* Icon */
+     , (130,  22, 0x3400002B) /* PhysicsEffectTable */
      , (130, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (130, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (130, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (130, 8040, 23527780, 55.88512, -14.21301, 5.995, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (130, 8040, 0x01670164, 55.88512, -14.21301, 5.995, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01670164 [55.885120 -14.213010 5.995000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (130, 8000, 3685458472) /* PCAPRecordedObjectIID */;
+VALUES (130, 8000, 0xDBABA228) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (130,  1138,      2)  /* PiercingProtectionSelf6 */
      , (130,  2618,      2)  /* CANTRIPFLAMEWARD1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (130, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wield */
-     , (130, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (130, 67109966, 92, 4)

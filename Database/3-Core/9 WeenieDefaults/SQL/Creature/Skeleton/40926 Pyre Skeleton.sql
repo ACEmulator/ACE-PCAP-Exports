@@ -23,22 +23,22 @@ VALUES (40926,   1, 'Pyre Skeleton') /* Name */
      , (40926, 8006, 'BgA+ANhRDVCcAvC1fhE2QxJhSsKuxwTC8O9BAAewBUDNzMw9AADIQmZmZj8AAHBBAAAAAD3UM0A=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40926,   1,   33558396) /* Setup */
-     , (40926,   2,  150994981) /* MotionTable */
-     , (40926,   3,  536870942) /* SoundTable */
-     , (40926,   6,   67116522) /* PaletteBase */
-     , (40926,   8,  100669124) /* Icon */
-     , (40926,  22,  872415269) /* PhysicsEffectTable */
+VALUES (40926,   1, 0x02000F7C) /* Setup */
+     , (40926,   2, 0x09000025) /* MotionTable */
+     , (40926,   3, 0x2000001E) /* SoundTable */
+     , (40926,   6, 0x04001DEA) /* PaletteBase */
+     , (40926,   8, 0x060016C4) /* Icon */
+     , (40926,  22, 0x34000025) /* PhysicsEffectTable */
      , (40926, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40926, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40926, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40926, 8040, 3052405382, 177.6532, -77.12003, -33.1975, 0.9800313, 0, 0, -0.1988436) /* PCAPRecordedLocation */
+VALUES (40926, 8040, 0xB5F00286, 177.6532, -77.12003, -33.1975, 0.980031, 0, 0, -0.198844) /* PCAPRecordedLocation */
 /* @teleloc 0xB5F00286 [177.653200 -77.120030 -33.197500] 0.980031 0.000000 0.000000 -0.198844 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40926, 8000, 2631053716) /* PCAPRecordedObjectIID */;
+VALUES (40926, 8000, 0x9CD2B194) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40926,   1, 302, 0, 0) /* Strength */

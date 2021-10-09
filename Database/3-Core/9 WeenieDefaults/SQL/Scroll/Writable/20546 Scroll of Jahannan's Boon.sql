@@ -24,13 +24,13 @@ VALUES (20546,   1, 'Scroll of Jahannan''s Boon') /* Name */
 Increases the target''s Jump skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20546,   1,   33554826) /* Setup */
-     , (20546,   8,  100676461) /* Icon */
-     , (20546,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20546,   1, 0x0200018A) /* Setup */
+     , (20546,   8, 0x0600336D) /* Icon */
+     , (20546,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20546,  28,       2256) /* Spell - JumpingMasteryOther7 */
      , (20546, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20546, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20546, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20546, 8000, 3690558732) /* PCAPRecordedObjectIID */;
+VALUES (20546, 8000, 0xDBF9750C) /* PCAPRecordedObjectIID */;

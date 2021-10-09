@@ -26,23 +26,23 @@ VALUES (52779,   1, 'Pike Grievver') /* Name */
      , (52779, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52779,   1,   33556698) /* Setup */
-     , (52779,   2,  150995098) /* MotionTable */
-     , (52779,   3,  536871009) /* SoundTable */
-     , (52779,   6,   67112927) /* PaletteBase */
-     , (52779,   8,  100670960) /* Icon */
-     , (52779,  22,  872415364) /* PhysicsEffectTable */
+VALUES (52779,   1, 0x020008DA) /* Setup */
+     , (52779,   2, 0x0900009A) /* MotionTable */
+     , (52779,   3, 0x20000061) /* SoundTable */
+     , (52779,   6, 0x04000FDF) /* PaletteBase */
+     , (52779,   8, 0x06001DF0) /* Icon */
+     , (52779,  22, 0x34000084) /* PhysicsEffectTable */
      , (52779,  30,         86) /* PhysicsScript - BreatheAcid */
      , (52779, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (52779, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (52779, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52779, 8040, 1499529504, 175.5614, -21.72237, -0.00150001, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52779, 8040, 0x59610120, 175.5614, -21.72237, -0.0015, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59610120 [175.561400 -21.722370 -0.001500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52779, 8000, 3696381691) /* PCAPRecordedObjectIID */;
+VALUES (52779, 8000, 0xDC524EFB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (52779,   1,     0, 0, 0, 19750) /* MaxHealth */;

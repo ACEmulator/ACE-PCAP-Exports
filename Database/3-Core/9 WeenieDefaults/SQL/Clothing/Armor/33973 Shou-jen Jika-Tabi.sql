@@ -42,29 +42,29 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33973,   1, 'Shou-jen Jika-Tabi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33973,   1,   33556683) /* Setup */
-     , (33973,   3,  536870932) /* SoundTable */
-     , (33973,   8,  100689121) /* Icon */
-     , (33973,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33973,   1, 0x020008CB) /* Setup */
+     , (33973,   3, 0x20000014) /* SoundTable */
+     , (33973,   8, 0x060064E1) /* Icon */
+     , (33973,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33973, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (33973, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33973, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33973, 8000, 2192746564) /* PCAPRecordedObjectIID */;
+VALUES (33973, 8000, 0x82B2A844) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33973,  2081,      2)  /* QuicknessSelf7 */
+VALUES (33973,  2113,      2)  /* PiercingBane7 */
+     , (33973,  2081,      2)  /* QuicknessSelf7 */
+     , (33973,  2529,      2)  /* CANTRIPSPRINT2 */
      , (33973,  2092,      2)  /* AcidBane7 */
      , (33973,  2094,      2)  /* BladeBane7 */
      , (33973,  2098,      2)  /* BludgeonBane7 */
      , (33973,  2102,      2)  /* FlameBane7 */
      , (33973,  2104,      2)  /* FrostBane7 */
      , (33973,  2108,      2)  /* Impenetrability7 */
-     , (33973,  2110,      2)  /* LightningBane7 */
-     , (33973,  2113,      2)  /* PiercingBane7 */
      , (33973,  2301,      2)  /* SprintSelf7 */
-     , (33973,  2529,      2)  /* CANTRIPSPRINT2 */;
+     , (33973,  2110,      2)  /* LightningBane7 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (33973, 0, 16793198)

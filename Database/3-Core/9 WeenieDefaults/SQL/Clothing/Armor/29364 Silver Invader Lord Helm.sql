@@ -45,22 +45,22 @@ VALUES (29364,   1, 'Silver Invader Lord Helm') /* Name */
      , (29364,  16, 'A helm taken from one of the Knights of the Viamontian Silver Legion.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29364,   1,   33559353) /* Setup */
-     , (29364,   3,  536870932) /* SoundTable */
-     , (29364,   8,  100686476) /* Icon */
-     , (29364,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29364,   1, 0x02001339) /* Setup */
+     , (29364,   3, 0x20000014) /* SoundTable */
+     , (29364,   8, 0x06005A8C) /* Icon */
+     , (29364,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29364, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (29364, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29364, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29364, 8000, 3703355042) /* PCAPRecordedObjectIID */;
+VALUES (29364, 8000, 0xDCBCB6A2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29364,   248,      2)  /* InvulnerabilitySelf5 */
-     , (29364,   260,      2)  /* ImpregnabilitySelf5 */
+VALUES (29364,   260,      2)  /* ImpregnabilitySelf5 */
+     , (29364,  1485,      2)  /* Impenetrability5 */
      , (29364,   278,      2)  /* MagicResistanceSelf5 */
-     , (29364,  1485,      2)  /* Impenetrability5 */;
+     , (29364,   248,      2)  /* InvulnerabilitySelf5 */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (29364, 0, 16792538);

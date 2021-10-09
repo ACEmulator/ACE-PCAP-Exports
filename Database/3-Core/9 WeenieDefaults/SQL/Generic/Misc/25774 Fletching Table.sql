@@ -21,11 +21,11 @@ VALUES (25774,   1, 'Fletching Table') /* Name */
      , (25774,  16, 'A table with various fletching supplies and tools on it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25774,   1,   33558528) /* Setup */
-     , (25774,   8,  100675553) /* Icon */
+VALUES (25774,   1, 0x02001000) /* Setup */
+     , (25774,   8, 0x06002FE1) /* Icon */
      , (25774, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (25774, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25774, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25774, 8000, 2622689429) /* PCAPRecordedObjectIID */;
+VALUES (25774, 8000, 0x9C531095) /* PCAPRecordedObjectIID */;

@@ -53,19 +53,19 @@ VALUES (3843,   1, 'Lightning Ono') /* Name */
      , (3843,  16, 'Lightning Ono of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3843,   1,   33555704) /* Setup */
-     , (3843,   3,  536870932) /* SoundTable */
-     , (3843,   8,  100667606) /* Icon */
-     , (3843,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3843,   1, 0x020004F8) /* Setup */
+     , (3843,   3, 0x20000014) /* SoundTable */
+     , (3843,   8, 0x060010D6) /* Icon */
+     , (3843,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3843,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3843, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3843, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3843, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3843, 8000, 2541837651) /* PCAPRecordedObjectIID */;
+VALUES (3843, 8000, 0x97815D53) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3843,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (3843,  2101,      2)  /* DefenderSelf7 */
-     , (3843,  4661,      2)  /* CANTRIPBLOODTHIRST3 */;
+     , (3843,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
+     , (3843,  2101,      2)  /* DefenderSelf7 */;

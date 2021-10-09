@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52513,   1, 'Whirlwind') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52513,   1,   33561633) /* Setup */
-     , (52513,   3,  536871109) /* SoundTable */
-     , (52513,   8,  100670704) /* Icon */
+VALUES (52513,   1, 0x02001C21) /* Setup */
+     , (52513,   3, 0x200000C5) /* SoundTable */
+     , (52513,   8, 0x06001CF0) /* Icon */
      , (52513,  28,       3903) /* Spell - WhirlwindRing */
      , (52513, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (52513, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (52513, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52513, 8040, 3041460266, 125.1861, 38.50743, 118.5348, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (52513, 8040, 0xB549002A, 125.1861, 38.50743, 118.5348, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB549002A [125.186100 38.507430 118.534800] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52513, 8000, 2885551709) /* PCAPRecordedObjectIID */;
+VALUES (52513, 8000, 0xABFE065D) /* PCAPRecordedObjectIID */;

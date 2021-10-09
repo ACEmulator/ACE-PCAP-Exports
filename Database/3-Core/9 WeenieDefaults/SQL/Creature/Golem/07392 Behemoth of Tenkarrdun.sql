@@ -25,21 +25,21 @@ VALUES (7392,   1, 'Behemoth of Tenkarrdun') /* Name */
      , (7392, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7392,   1,   33556427) /* Setup */
-     , (7392,   2,  150995073) /* MotionTable */
-     , (7392,   3,  536870933) /* SoundTable */
-     , (7392,   8,  100667940) /* Icon */
-     , (7392,  22,  872415325) /* PhysicsEffectTable */
+VALUES (7392,   1, 0x020007CB) /* Setup */
+     , (7392,   2, 0x09000081) /* MotionTable */
+     , (7392,   3, 0x20000015) /* SoundTable */
+     , (7392,   8, 0x06001224) /* Icon */
+     , (7392,  22, 0x3400005D) /* PhysicsEffectTable */
      , (7392, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (7392, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (7392, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (7392, 8040, 3119448087, 66.30805, 161.2572, 105.0235, 0.0373048, 0, 0, -0.9993039) /* PCAPRecordedLocation */
+VALUES (7392, 8040, 0xB9EF0017, 66.30805, 161.2572, 105.0235, 0.037305, 0, 0, -0.999304) /* PCAPRecordedLocation */
 /* @teleloc 0xB9EF0017 [66.308050 161.257200 105.023500] 0.037305 0.000000 0.000000 -0.999304 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7392, 8000, 3682768377) /* PCAPRecordedObjectIID */;
+VALUES (7392, 8000, 0xDB8295F9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7392,   1, 400, 0, 0) /* Strength */

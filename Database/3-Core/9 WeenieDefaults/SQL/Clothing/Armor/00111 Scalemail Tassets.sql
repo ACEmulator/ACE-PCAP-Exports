@@ -45,27 +45,24 @@ VALUES (111,   1, 'Scalemail Tassets') /* Name */
      , (111,  16, 'Scalemail Tassets') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (111,   1,   33554656) /* Setup */
-     , (111,   3,  536870932) /* SoundTable */
-     , (111,   6,   67108990) /* PaletteBase */
-     , (111,   8,  100673349) /* Icon */
-     , (111,  22,  872415275) /* PhysicsEffectTable */
+VALUES (111,   1, 0x020000E0) /* Setup */
+     , (111,   3, 0x20000014) /* SoundTable */
+     , (111,   6, 0x0400007E) /* PaletteBase */
+     , (111,   8, 0x06002745) /* Icon */
+     , (111,  22, 0x3400002B) /* PhysicsEffectTable */
      , (111,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (111, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (111, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (111, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (111, 8000, 3701170528) /* PCAPRecordedObjectIID */;
+VALUES (111, 8000, 0xDC9B6160) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (111,  1486,      2)  /* Impenetrability6 */
      , (111,  1497,      2)  /* AcidBane5 */
      , (111,  1574,      2)  /* PiercingBane6 */
      , (111,  2545,      2)  /* CANTRIPDECEPTIONPROWESS1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (111, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (111, 67110023, 136, 16);

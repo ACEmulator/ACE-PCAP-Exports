@@ -27,13 +27,13 @@ VALUES (14770,   1, 'Peppermint Hot Chocolate') /* Name */
      , (14770,  20, 'Cups of Peppermint Hot Chocolate') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14770,   1,   33554662) /* Setup */
-     , (14770,   3,  536870932) /* SoundTable */
-     , (14770,   8,  100672556) /* Icon */
-     , (14770,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14770,   1, 0x020000E6) /* Setup */
+     , (14770,   3, 0x20000014) /* SoundTable */
+     , (14770,   8, 0x0600242C) /* Icon */
+     , (14770,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14770, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (14770, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (14770, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14770, 8000, 3709820985) /* PCAPRecordedObjectIID */;
+VALUES (14770, 8000, 0xDD1F6039) /* PCAPRecordedObjectIID */;

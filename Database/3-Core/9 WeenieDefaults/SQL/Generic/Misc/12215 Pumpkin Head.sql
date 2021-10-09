@@ -20,16 +20,16 @@ VALUES (12215,   1, 'Pumpkin Head') /* Name */
      , (12215,  16, 'An odd looking, faintly sour pumpkin head.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12215,   1,   33557361) /* Setup */
-     , (12215,   3,  536870932) /* SoundTable */
-     , (12215,   8,  100672168) /* Icon */
-     , (12215,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12215,   1, 0x02000B71) /* Setup */
+     , (12215,   3, 0x20000014) /* SoundTable */
+     , (12215,   8, 0x060022A8) /* Icon */
+     , (12215,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12215, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (12215, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12215, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12215, 8000, 2234604907) /* PCAPRecordedObjectIID */;
+VALUES (12215, 8000, 0x85315D6B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (12215, 0, 83892725, 83892725);

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (40407,   1,          1) /* ItemType - MeleeWeapon */
      , (40407,   5,        450) /* EncumbranceVal */
      , (40407,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (40407,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (40407,  16,          1) /* ItemUseable - No */
      , (40407,  18,          1) /* UiEffects - Magical */
      , (40407,  19,      20000) /* Value */
@@ -35,6 +34,7 @@ VALUES (40407,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40407,  22, True ) /* Inscribable */
+     , (40407,  23, True ) /* DestroyOnSell */
      , (40407,  69, False) /* IsSellable */
      , (40407,  99, True ) /* Ivoryable */;
 
@@ -55,22 +55,22 @@ VALUES (40407,   1, 'Renegade Hoeroa of the Mountains') /* Name */
      , (40407,  16, 'A hoeroa fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40407,   1,   33557237) /* Setup */
-     , (40407,   3,  536870932) /* SoundTable */
-     , (40407,   8,  100672094) /* Icon */
-     , (40407,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40407,   1, 0x02000AF5) /* Setup */
+     , (40407,   3, 0x20000014) /* SoundTable */
+     , (40407,   8, 0x0600225E) /* Icon */
+     , (40407,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40407, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (40407, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40407, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
      , (40407, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40407, 8040, 13501100, 6.992339, -117.7792, -0.07049998, 0.6598416, 0.6598416, -0.2541831, -0.2541831) /* PCAPRecordedLocation */
+VALUES (40407, 8040, 0x00CE02AC, 6.992339, -117.7792, -0.0705, 0.659842, 0.659842, -0.254183, -0.254183) /* PCAPRecordedLocation */
 /* @teleloc 0x00CE02AC [6.992339 -117.779200 -0.070500] 0.659842 0.659842 -0.254183 -0.254183 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40407, 8000, 3705818749) /* PCAPRecordedObjectIID */
-     , (40407, 8008, 1343488604) /* PCAPRecordedParentIID */;
+VALUES (40407, 8000, 0xDCE24E7D) /* PCAPRecordedObjectIID */
+     , (40407, 8008, 0x5014025C) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40407,  2437,      2)  /* RockslideGreater */

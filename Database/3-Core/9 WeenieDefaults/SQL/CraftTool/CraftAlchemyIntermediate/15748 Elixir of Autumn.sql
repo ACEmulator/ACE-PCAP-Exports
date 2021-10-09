@@ -22,17 +22,17 @@ VALUES (15748,   1, 'Elixir of Autumn') /* Name */
      , (15748,  20, 'Elixirs of Autumn') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15748,   1,   33555965) /* Setup */
-     , (15748,   3,  536870932) /* SoundTable */
-     , (15748,   6,   67111919) /* PaletteBase */
-     , (15748,   8,  100672787) /* Icon */
-     , (15748,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15748,   1, 0x020005FD) /* Setup */
+     , (15748,   3, 0x20000014) /* SoundTable */
+     , (15748,   6, 0x04000BEF) /* PaletteBase */
+     , (15748,   8, 0x06002513) /* Icon */
+     , (15748,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15748, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (15748, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15748, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15748, 8000, 2153705574) /* PCAPRecordedObjectIID */;
+VALUES (15748, 8000, 0x805EF066) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (15748, 67111925, 0, 0);

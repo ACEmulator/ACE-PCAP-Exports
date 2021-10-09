@@ -36,21 +36,21 @@ VALUES (2401,   1, 'Gem') /* Name */
      , (2401,  16, 'Gem of Blade Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2401,   1,   33554809) /* Setup */
-     , (2401,   3,  536870932) /* SoundTable */
-     , (2401,   8,  100674726) /* Icon */
-     , (2401,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2401,   1, 0x02000179) /* Setup */
+     , (2401,   3, 0x20000014) /* SoundTable */
+     , (2401,   8, 0x06002CA6) /* Icon */
+     , (2401,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2401,  28,       1111) /* Spell - BladeProtectionSelf3 */
      , (2401, 8001, 2170564760) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Burden, Spell, Workmanship, MaterialType */
      , (2401, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2401, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2401, 8040, 31981875, 47.43344, -83.7218, -12.001, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (2401, 8040, 0x01E80133, 47.43344, -83.7218, -12.001, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x01E80133 [47.433440 -83.721800 -12.001000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2401, 8000, 3700425752) /* PCAPRecordedObjectIID */;
+VALUES (2401, 8000, 0xDC900418) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (2401, 0, 83890391, 83890391);

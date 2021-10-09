@@ -24,22 +24,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22879,   1, 'Cold Protection Gem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22879,   1,   33554809) /* Setup */
-     , (22879,   3,  536870932) /* SoundTable */
-     , (22879,   6,   67111919) /* PaletteBase */
-     , (22879,   8,  100673901) /* Icon */
-     , (22879,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22879,   1, 0x02000179) /* Setup */
+     , (22879,   3, 0x20000014) /* SoundTable */
+     , (22879,   6, 0x04000BEF) /* PaletteBase */
+     , (22879,   8, 0x0600296D) /* Icon */
+     , (22879,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22879,  28,       1041) /* Spell - ColdProtectionOther6 */
      , (22879, 8001,    6828184) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell */
      , (22879, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22879, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22879, 8040, 2103705620, 63.96355, 76.22613, 11.999, -0.1343638, 0, 0, -0.990932) /* PCAPRecordedLocation */
+VALUES (22879, 8040, 0x7D640014, 63.96355, 76.22613, 11.999, -0.134364, 0, 0, -0.990932) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640014 [63.963550 76.226130 11.999000] -0.134364 0.000000 0.000000 -0.990932 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22879, 8000, 2610579683) /* PCAPRecordedObjectIID */;
+VALUES (22879, 8000, 0x9B9A48E3) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22879, 67111924, 0, 0);

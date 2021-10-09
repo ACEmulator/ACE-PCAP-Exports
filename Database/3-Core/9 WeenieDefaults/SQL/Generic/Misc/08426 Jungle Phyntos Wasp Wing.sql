@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8426,   1, 'Jungle Phyntos Wasp Wing') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8426,   1,   33558524) /* Setup */
-     , (8426,   3,  536870932) /* SoundTable */
-     , (8426,   6,   67109312) /* PaletteBase */
-     , (8426,   8,  100670061) /* Icon */
-     , (8426,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8426,   1, 0x02000FFC) /* Setup */
+     , (8426,   3, 0x20000014) /* SoundTable */
+     , (8426,   6, 0x040001C0) /* PaletteBase */
+     , (8426,   8, 0x06001A6D) /* Icon */
+     , (8426,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8426, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (8426, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8426, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8426, 8000, 3080983179) /* PCAPRecordedObjectIID */;
+VALUES (8426, 8000, 0xB7A4128B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8426, 67113046, 0, 0);

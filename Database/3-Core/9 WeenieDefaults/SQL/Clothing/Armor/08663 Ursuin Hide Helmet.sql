@@ -33,17 +33,17 @@ VALUES (8663,   1, 'Ursuin Hide Helmet') /* Name */
      , (8663,  16, 'A helmet adorned and reinforced with Ursuin hide and bone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8663,   1,   33556942) /* Setup */
-     , (8663,   3,  536870932) /* SoundTable */
-     , (8663,   6,   67108990) /* PaletteBase */
-     , (8663,   8,  100671301) /* Icon */
-     , (8663,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8663,   1, 0x020009CE) /* Setup */
+     , (8663,   3, 0x20000014) /* SoundTable */
+     , (8663,   6, 0x0400007E) /* PaletteBase */
+     , (8663,   8, 0x06001F45) /* Icon */
+     , (8663,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8663, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (8663, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8663, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8663, 8000, 2981037225) /* PCAPRecordedObjectIID */;
+VALUES (8663, 8000, 0xB1AF04A9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8663, 67113115, 240, 10)

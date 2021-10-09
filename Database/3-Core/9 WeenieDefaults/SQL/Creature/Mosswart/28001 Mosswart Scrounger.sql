@@ -25,22 +25,22 @@ VALUES (28001,   1, 'Mosswart Scrounger') /* Name */
      , (28001, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28001,   1,   33557327) /* Setup */
-     , (28001,   2,  150994953) /* MotionTable */
-     , (28001,   3,  536870959) /* SoundTable */
-     , (28001,   6,   67113400) /* PaletteBase */
-     , (28001,   8,  100667449) /* Icon */
-     , (28001,  22,  872415264) /* PhysicsEffectTable */
+VALUES (28001,   1, 0x02000B4F) /* Setup */
+     , (28001,   2, 0x09000009) /* MotionTable */
+     , (28001,   3, 0x2000002F) /* SoundTable */
+     , (28001,   6, 0x040011B8) /* PaletteBase */
+     , (28001,   8, 0x06001039) /* Icon */
+     , (28001,  22, 0x34000020) /* PhysicsEffectTable */
      , (28001, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (28001, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (28001, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28001, 8040, 45417168, 130.877, -218.932, 0.006600022, 0.496599, 0, 0, -0.86798) /* PCAPRecordedLocation */
+VALUES (28001, 8040, 0x02B502D0, 130.877, -218.932, 0.0066, 0.496599, 0, 0, -0.86798) /* PCAPRecordedLocation */
 /* @teleloc 0x02B502D0 [130.877000 -218.932000 0.006600] 0.496599 0.000000 0.000000 -0.867980 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28001, 8000, 2629157818) /* PCAPRecordedObjectIID */;
+VALUES (28001, 8000, 0x9CB5C3BA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (28001,   1,     0, 0, 0, 490) /* MaxHealth */;
@@ -49,6 +49,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (28001, 2, 47548,  1, 0, 0, False) /* Create Javelin (47548) for Wield */
      , (28001, 2, 47529,  1, 0, 0, False) /* Create Acid Javelin (47529) for Wield */
      , (28001, 2, 47733,  1, 0, 0, False) /* Create Spear (47733) for Wield */
+     , (28001, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
      , (28001, 9, 45418,  0, 0, 0, False) /* Create Lightning Knife (45418) for ContainTreasure */
      , (28001, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
      , (28001, 9,    40,  0, 0, 0, False) /* Create Platemail Breastplate (40) for ContainTreasure */

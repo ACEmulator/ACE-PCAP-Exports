@@ -24,6 +24,7 @@ VALUES (19704,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19704,  22, True ) /* Inscribable */
+     , (19704,  23, True ) /* DestroyOnSell */
      , (19704,  69, False) /* IsSellable */
      , (19704,  94, True ) /* AppraisalHasAllowedActivator */;
 
@@ -38,21 +39,21 @@ VALUES (19704,   1, 'Nuhmudira''s Bestowment of Quickness') /* Name */
      , (19704,  25, 'Fizzle Brokenwand') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19704,   1,   33554687) /* Setup */
-     , (19704,   3,  536870932) /* SoundTable */
-     , (19704,   6,   67111919) /* PaletteBase */
-     , (19704,   8,  100672963) /* Icon */
-     , (19704,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19704,   1, 0x020000FF) /* Setup */
+     , (19704,   3, 0x20000014) /* SoundTable */
+     , (19704,   6, 0x04000BEF) /* PaletteBase */
+     , (19704,   8, 0x060025C3) /* Icon */
+     , (19704,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19704, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (19704, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19704, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19704, 8000, 2165983109) /* PCAPRecordedObjectIID */;
+VALUES (19704, 8000, 0x811A4785) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19704,  1407,      2)  /* QuicknessOther5 */
-     , (19704,  2669,      2)  /* NuhmudirasBestowment */;
+VALUES (19704,  2669,      2)  /* NuhmudirasBestowment */
+     , (19704,  1407,      2)  /* QuicknessOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (19704, 67111918, 0, 0);

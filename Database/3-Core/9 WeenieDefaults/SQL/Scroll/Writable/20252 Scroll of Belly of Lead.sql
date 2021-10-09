@@ -24,13 +24,13 @@ VALUES (20252,   1, 'Scroll of Belly of Lead') /* Name */
 Decreases the target''s Quickness by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20252,   1,   33554826) /* Setup */
-     , (20252,   8,  100676469) /* Icon */
-     , (20252,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20252,   1, 0x0200018A) /* Setup */
+     , (20252,   8, 0x06003375) /* Icon */
+     , (20252,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20252,  28,       2084) /* Spell - SlownessOther7 */
      , (20252, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20252, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20252, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20252, 8000, 3694325098) /* PCAPRecordedObjectIID */;
+VALUES (20252, 8000, 0xDC32ED6A) /* PCAPRecordedObjectIID */;

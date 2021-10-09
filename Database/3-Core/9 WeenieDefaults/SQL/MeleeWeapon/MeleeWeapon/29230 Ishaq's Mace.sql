@@ -47,24 +47,24 @@ VALUES (29230,   1, 'Ishaq''s Mace') /* Name */
      , (29230,  16, 'This mace was received as a reward for helping Ishaq the Natural Philosopher recover his lost key, thus allowing him to continue work on his manuscript, Volume 12 of "The Peculiar Nature and Behavior of Derethian Fauna with Especial Emphasis on Cross-World Speciation".') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29230,   1,   33559118) /* Setup */
-     , (29230,   3,  536870932) /* SoundTable */
-     , (29230,   6,   67111919) /* PaletteBase */
-     , (29230,   8,  100677363) /* Icon */
-     , (29230,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29230,   1, 0x0200124E) /* Setup */
+     , (29230,   3, 0x20000014) /* SoundTable */
+     , (29230,   6, 0x04000BEF) /* PaletteBase */
+     , (29230,   8, 0x060036F3) /* Icon */
+     , (29230,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29230, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (29230, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29230, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29230, 8000, 2192134789) /* PCAPRecordedObjectIID */;
+VALUES (29230, 8000, 0x82A95285) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29230,  1592,      2)  /* HeartSeekerSelf6 */
-     , (29230,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (29230,  2588,      2)  /* CANTRIPDEFENDER2 */
+VALUES (29230,  2588,      2)  /* CANTRIPDEFENDER2 */
      , (29230,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
-     , (29230,  2603,      2)  /* CANTRIPHEARTTHIRST1 */;
+     , (29230,  2603,      2)  /* CANTRIPHEARTTHIRST1 */
+     , (29230,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (29230,  1592,      2)  /* HeartSeekerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29230, 67111919, 0, 0);

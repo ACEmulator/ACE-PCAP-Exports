@@ -23,15 +23,15 @@ VALUES (880,   1, 'West Wind Tower') /* Name */
      , (880,  16, 'West Wind Tower') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (880,   1,   33555594) /* Setup */
-     , (880,   8,  100668115) /* Icon */
+VALUES (880,   1, 0x0200048A) /* Setup */
+     , (880,   8, 0x060012D3) /* Icon */
      , (880, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (880, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (880, 8005,      32773) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (880, 8040, 3880648735, 81.6924, 147.781, 35.4706, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
+VALUES (880, 8040, 0xE74E001F, 81.6924, 147.781, 35.4706, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E001F [81.692400 147.781000 35.470600] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (880, 8000, 2121588800) /* PCAPRecordedObjectIID */;
+VALUES (880, 8000, 0x7E74E040) /* PCAPRecordedObjectIID */;

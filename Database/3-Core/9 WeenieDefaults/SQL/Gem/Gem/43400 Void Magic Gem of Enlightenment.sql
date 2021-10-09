@@ -17,16 +17,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43400,   1, 'Void Magic Gem of Enlightenment') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43400,   1,   33558088) /* Setup */
-     , (43400,   6,   67111919) /* PaletteBase */
-     , (43400,   8,  100673788) /* Icon */
-     , (43400,  50,  100691568) /* IconOverlay */
+VALUES (43400,   1, 0x02000E48) /* Setup */
+     , (43400,   6, 0x04000BEF) /* PaletteBase */
+     , (43400,   8, 0x060028FC) /* Icon */
+     , (43400,  50, 0x06006E70) /* IconOverlay */
      , (43400, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
      , (43400, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43400, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43400, 8000, 2164447179) /* PCAPRecordedObjectIID */;
+VALUES (43400, 8000, 0x8102D7CB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43400, 67111923, 0, 0);

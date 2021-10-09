@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29262,   1,      32768) /* ItemType - Caster */
      , (29262,   5,         50) /* EncumbranceVal */
      , (29262,   9,   16777216) /* ValidLocations - Held */
-     , (29262,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (29262,  16,    6291461) /* ItemUseable - No, SourceWieldedTargetRemoteNeverWalk */
      , (29262,  18,         33) /* UiEffects - Magical, Fire */
      , (29262,  19,      28489) /* Value */
      , (29262,  45,         16) /* DamageType - Fire */
+     , (29262,  46,        512) /* DefaultCombatStyle - Magic */
      , (29262,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29262,  94,         16) /* TargetType - Creature */
      , (29262, 105,          6) /* ItemWorkmanship */
@@ -41,14 +41,14 @@ VALUES (29262,   1, 'Fire Sceptre') /* Name */
      , (29262,  39, 'Forty-Two') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29262,   1,   33559228) /* Setup */
-     , (29262,   3,  536870932) /* SoundTable */
-     , (29262,   6,   67115357) /* PaletteBase */
-     , (29262,   8,  100677432) /* Icon */
-     , (29262,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29262,   1, 0x020012BC) /* Setup */
+     , (29262,   3, 0x20000014) /* SoundTable */
+     , (29262,   6, 0x0400195D) /* PaletteBase */
+     , (29262,   8, 0x06003738) /* Icon */
+     , (29262,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29262,  28,       2140) /* Spell - LightningBolt7 */
-     , (29262,  50,  100689143) /* IconOverlay */
-     , (29262,  52,  100676441) /* IconUnderlay */
+     , (29262,  50, 0x060064F7) /* IconOverlay */
+     , (29262,  52, 0x06003359) /* IconUnderlay */
      , (29262, 8001, 3513483416) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, IconOverlay, MaterialType */
      , (29262, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (29262, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -56,12 +56,12 @@ VALUES (29262,   1,   33559228) /* Setup */
      , (29262, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29262, 8040, 1676148781, 132.5456, 100.5979, 130.4047, -0.4816509, -0.4816509, -0.5176992, -0.5176992) /* PCAPRecordedLocation */
+VALUES (29262, 8040, 0x63E8002D, 132.5456, 100.5979, 130.4047, -0.481651, -0.481651, -0.517699, -0.517699) /* PCAPRecordedLocation */
 /* @teleloc 0x63E8002D [132.545600 100.597900 130.404700] -0.481651 -0.481651 -0.517699 -0.517699 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29262, 8000, 3377664675) /* PCAPRecordedObjectIID */
-     , (29262, 8008, 1342799792) /* PCAPRecordedParentIID */;
+VALUES (29262, 8000, 0xC95312A3) /* PCAPRecordedObjectIID */
+     , (29262, 8008, 0x50097FB0) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29262, 67115359, 56, 200)

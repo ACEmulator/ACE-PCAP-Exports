@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32158,   1, 'Homunculus Mask') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32158,   1,   33559766) /* Setup */
-     , (32158,   3,  536870932) /* SoundTable */
-     , (32158,   8,  100688434) /* Icon */
-     , (32158,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32158,   1, 0x020014D6) /* Setup */
+     , (32158,   3, 0x20000014) /* SoundTable */
+     , (32158,   8, 0x06006232) /* Icon */
+     , (32158,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32158, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (32158, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32158, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32158, 8000, 3363432033) /* PCAPRecordedObjectIID */;
+VALUES (32158, 8000, 0xC879E661) /* PCAPRecordedObjectIID */;

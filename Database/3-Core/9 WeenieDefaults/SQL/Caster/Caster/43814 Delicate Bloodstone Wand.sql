@@ -7,12 +7,12 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43814,   1,      32768) /* ItemType - Caster */
      , (43814,   5,        200) /* EncumbranceVal */
      , (43814,   9,   16777216) /* ValidLocations - Held */
-     , (43814,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (43814,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (43814,  18,          1) /* UiEffects - Magical */
      , (43814,  19,      10000) /* Value */
      , (43814,  33,          1) /* Bonded - Bonded */
      , (43814,  45,         32) /* DamageType - Acid */
+     , (43814,  46,        512) /* DefaultCombatStyle - Magic */
      , (43814,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43814,  94,         16) /* TargetType - Creature */
      , (43814, 106,        450) /* ItemSpellcraft */
@@ -31,6 +31,7 @@ VALUES (43814,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43814,  22, True ) /* Inscribable */
+     , (43814,  23, True ) /* DestroyOnSell */
      , (43814,  69, False) /* IsSellable */
      , (43814,  91, True ) /* Retained */
      , (43814,  99, False) /* Ivoryable */;
@@ -48,11 +49,11 @@ VALUES (43814,   1, 'Delicate Bloodstone Wand') /* Name */
      , (43814,  16, 'A wand, crafted from the delicate remains of the shattered Master Bloodstone.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43814,   1,   33561162) /* Setup */
-     , (43814,   3,  536870932) /* SoundTable */
-     , (43814,   6,   67111919) /* PaletteBase */
-     , (43814,   8,  100672995) /* Icon */
-     , (43814,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43814,   1, 0x02001A4A) /* Setup */
+     , (43814,   3, 0x20000014) /* SoundTable */
+     , (43814,   6, 0x04000BEF) /* PaletteBase */
+     , (43814,   8, 0x060025E3) /* Icon */
+     , (43814,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43814,  28,       5531) /* Spell - BloodstoneBolt7 */
      , (43814, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (43814, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -60,17 +61,17 @@ VALUES (43814,   1,   33561162) /* Setup */
      , (43814, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43814, 8040, 2062024706, 5.386024, 36.11996, 119.93, -0.2398696, -0.2398696, -0.6651786, -0.6651786) /* PCAPRecordedLocation */
+VALUES (43814, 8040, 0x7AE80002, 5.386024, 36.11996, 119.93, -0.23987, -0.23987, -0.665179, -0.665179) /* PCAPRecordedLocation */
 /* @teleloc 0x7AE80002 [5.386024 36.119960 119.930000] -0.239870 -0.239870 -0.665179 -0.665179 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43814, 8000, 3681272950) /* PCAPRecordedObjectIID */
-     , (43814, 8008, 3681272962) /* PCAPRecordedParentIID */;
+VALUES (43814, 8000, 0xDB6BC476) /* PCAPRecordedObjectIID */
+     , (43814, 8008, 0xDB6BC482) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43814,  4400,      2)  /* DefenderSelf8 */
-     , (43814,  4414,      2)  /* SpiritDrinkerSelf8 */
-     , (43814,  4582,      2)  /* LifeMagicMasterySelf8 */;
+VALUES (43814,  4582,      2)  /* LifeMagicMasterySelf8 */
+     , (43814,  4400,      2)  /* DefenderSelf8 */
+     , (43814,  4414,      2)  /* SpiritDrinkerSelf8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43814, 67111923, 0, 0);

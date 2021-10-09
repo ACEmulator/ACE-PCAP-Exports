@@ -27,21 +27,21 @@ VALUES (1922,   1, 'Chest') /* Name */
      , (1922, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1922,   1,   33554556) /* Setup */
-     , (1922,   2,  150994948) /* MotionTable */
-     , (1922,   3,  536870945) /* SoundTable */
-     , (1922,   8,  100667424) /* Icon */
-     , (1922,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1922,   1, 0x0200007C) /* Setup */
+     , (1922,   2, 0x09000004) /* MotionTable */
+     , (1922,   3, 0x20000021) /* SoundTable */
+     , (1922,   8, 0x06001020) /* Icon */
+     , (1922,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1922, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (1922, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (1922, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1922, 8040, 4045930559, 172.919, 149.339, 0, -0.44716, 0, 0, -0.894454) /* PCAPRecordedLocation */
+VALUES (1922, 8040, 0xF128003F, 172.919, 149.339, 0, -0.44716, 0, 0, -0.894454) /* PCAPRecordedLocation */
 /* @teleloc 0xF128003F [172.919000 149.339000 0.000000] -0.447160 0.000000 0.000000 -0.894454 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1922, 8000, 2131918857) /* PCAPRecordedObjectIID */;
+VALUES (1922, 8000, 0x7F128009) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1922, -1, 20488, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Energy Flux (20488) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

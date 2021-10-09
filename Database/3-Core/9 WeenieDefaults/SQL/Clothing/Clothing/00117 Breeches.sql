@@ -32,21 +32,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (117,   1, 'Breeches') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (117,   1,   33554960) /* Setup */
-     , (117,   3,  536870932) /* SoundTable */
-     , (117,   6,   67108990) /* PaletteBase */
-     , (117,   8,  100667367) /* Icon */
-     , (117,  22,  872415275) /* PhysicsEffectTable */
+VALUES (117,   1, 0x02000210) /* Setup */
+     , (117,   3, 0x20000014) /* SoundTable */
+     , (117,   6, 0x0400007E) /* PaletteBase */
+     , (117,   8, 0x06000FE7) /* Icon */
+     , (117,  22, 0x3400002B) /* PhysicsEffectTable */
      , (117, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (117, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (117, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (117, 8040, 23855555, 55.0998, -40.40979, -0.002499998, -0.4767624, 0, 0, -0.8790322) /* PCAPRecordedLocation */
+VALUES (117, 8040, 0x016C01C3, 55.0998, -40.40979, -0.0025, -0.476762, 0, 0, -0.879032) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [55.099800 -40.409790 -0.002500] -0.476762 0.000000 0.000000 -0.879032 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (117, 8000, 3657044792) /* PCAPRecordedObjectIID */;
+VALUES (117, 8000, 0xD9FA1338) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (117, 67110026, 72, 8)

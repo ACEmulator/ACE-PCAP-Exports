@@ -20,22 +20,22 @@ VALUES (9381,   1, 'Esard the Legate') /* Name */
      , (9381, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9381,   1,   33554497) /* Setup */
-     , (9381,   2,  150994984) /* MotionTable */
-     , (9381,   3,  536870930) /* SoundTable */
-     , (9381,   6,   67111346) /* PaletteBase */
-     , (9381,   8,  100667943) /* Icon */
-     , (9381,  22,  872415273) /* PhysicsEffectTable */
+VALUES (9381,   1, 0x02000041) /* Setup */
+     , (9381,   2, 0x09000028) /* MotionTable */
+     , (9381,   3, 0x20000012) /* SoundTable */
+     , (9381,   6, 0x040009B2) /* PaletteBase */
+     , (9381,   8, 0x06001227) /* Icon */
+     , (9381,  22, 0x34000029) /* PhysicsEffectTable */
      , (9381, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (9381, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (9381, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9381, 8040, 43712770, 9.4809, -285.482, -41.971, -0.05683498, 0, 0, -0.9983836) /* PCAPRecordedLocation */
+VALUES (9381, 8040, 0x029B0102, 9.4809, -285.482, -41.971, -0.056835, 0, 0, -0.998384) /* PCAPRecordedLocation */
 /* @teleloc 0x029B0102 [9.480900 -285.482000 -41.971000] -0.056835 0.000000 0.000000 -0.998384 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9381, 8000, 2780667836) /* PCAPRecordedObjectIID */;
+VALUES (9381, 8000, 0xA5BD9FBC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9381, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */

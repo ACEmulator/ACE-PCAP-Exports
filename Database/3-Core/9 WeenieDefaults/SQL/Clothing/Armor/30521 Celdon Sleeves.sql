@@ -8,7 +8,6 @@ VALUES (30521,   1,          2) /* ItemType - Armor */
      , (30521,   4,       4096) /* ClothingPriority - OuterwearUpperArms */
      , (30521,   5,        450) /* EncumbranceVal */
      , (30521,   9,       2048) /* ValidLocations - UpperArmArmor */
-     , (30521,  10,       2048) /* CurrentWieldedLocation - UpperArmArmor */
      , (30521,  16,          1) /* ItemUseable - No */
      , (30521,  17,        226) /* RareId */
      , (30521,  19,      50000) /* Value */
@@ -53,24 +52,24 @@ VALUES (30521,   1, 'Celdon Sleeves') /* Name */
      , (30521,   8, 'Meretricious of Morningthaw') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30521,   1,   33554655) /* Setup */
-     , (30521,   3,  536870932) /* SoundTable */
-     , (30521,   6,   67108990) /* PaletteBase */
-     , (30521,   8,  100670430) /* Icon */
-     , (30521,  22,  872415275) /* PhysicsEffectTable */
-     , (30521,  52,  100686604) /* IconUnderlay */
+VALUES (30521,   1, 0x020000DF) /* Setup */
+     , (30521,   3, 0x20000014) /* SoundTable */
+     , (30521,   6, 0x0400007E) /* PaletteBase */
+     , (30521,   8, 0x06001BDE) /* Icon */
+     , (30521,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30521,  52, 0x06005B0C) /* IconUnderlay */
      , (30521, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
      , (30521, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30521, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30521, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30521, 8000, 3499562029) /* PCAPRecordedObjectIID */;
+VALUES (30521, 8000, 0xD097142D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30521,  4407,      2)  /* Impenetrability8 */
-     , (30521,  4680,      2)  /* CANTRIPHEALTHGAIN3 */
-     , (30521,  4684,      2)  /* CANTRIPARCANEPROWESS3 */;
+VALUES (30521,  4680,      2)  /* CANTRIPHEALTHGAIN3 */
+     , (30521,  4684,      2)  /* CANTRIPARCANEPROWESS3 */
+     , (30521,  4407,      2)  /* Impenetrability8 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30521, 67109965, 96, 12)

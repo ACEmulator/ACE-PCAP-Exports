@@ -33,21 +33,21 @@ VALUES (9415,   1, 'Krage the Blacksmith') /* Name */
      , (9415, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9415,   1,   33557003) /* Setup */
-     , (9415,   2,  150994950) /* MotionTable */
-     , (9415,   3,  536870922) /* SoundTable */
-     , (9415,   6,   67113158) /* PaletteBase */
-     , (9415,   8,  100667447) /* Icon */
+VALUES (9415,   1, 0x02000A0B) /* Setup */
+     , (9415,   2, 0x09000006) /* MotionTable */
+     , (9415,   3, 0x2000000A) /* SoundTable */
+     , (9415,   6, 0x040010C6) /* PaletteBase */
+     , (9415,   8, 0x06001037) /* Icon */
      , (9415, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (9415, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (9415, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (9415, 8040, 2719875369, 39.3598, 23.1267, 561.01, 0.9998628, 0, 0, -0.01656055) /* PCAPRecordedLocation */
+VALUES (9415, 8040, 0xA21E0129, 39.3598, 23.1267, 561.01, 0.999863, 0, 0, -0.016561) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E0129 [39.359800 23.126700 561.010000] 0.999863 0.000000 0.000000 -0.016561 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9415, 8000, 2049040388) /* PCAPRecordedObjectIID */;
+VALUES (9415, 8000, 0x7A21E004) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9415,   1, 310, 0, 0) /* Strength */

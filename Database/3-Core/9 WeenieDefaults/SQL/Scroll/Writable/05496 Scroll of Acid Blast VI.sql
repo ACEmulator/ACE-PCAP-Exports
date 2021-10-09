@@ -21,9 +21,9 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5496,   1, 'Scroll of Acid Blast VI') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5496,   1,   33554826) /* Setup */
-     , (5496,   8,  100677026) /* Icon */
-     , (5496,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5496,   1, 0x0200018A) /* Setup */
+     , (5496,   8, 0x060035A2) /* Icon */
+     , (5496,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5496,  28,        102) /* Spell - AcidBlast6 */
      , (5496, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5496, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -31,4 +31,4 @@ VALUES (5496,   1,   33554826) /* Setup */
      , (5496, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5496, 8000,       5496) /* PCAPRecordedObjectIID */;
+VALUES (5496, 8000, 0x00001578) /* PCAPRecordedObjectIID */;

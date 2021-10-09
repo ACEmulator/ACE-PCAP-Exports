@@ -26,22 +26,22 @@ VALUES (8673,   1, 'Risen Knight') /* Name */
      , (8673, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8673,   1,   33554839) /* Setup */
-     , (8673,   2,  150994967) /* MotionTable */
-     , (8673,   3,  536870934) /* SoundTable */
-     , (8673,   6,   67110722) /* PaletteBase */
-     , (8673,   8,  100667942) /* Icon */
-     , (8673,  22,  872415272) /* PhysicsEffectTable */
+VALUES (8673,   1, 0x02000197) /* Setup */
+     , (8673,   2, 0x09000017) /* MotionTable */
+     , (8673,   3, 0x20000016) /* SoundTable */
+     , (8673,   6, 0x04000742) /* PaletteBase */
+     , (8673,   8, 0x06001226) /* Icon */
+     , (8673,  22, 0x34000028) /* PhysicsEffectTable */
      , (8673, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (8673, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (8673, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8673, 8040, 2554068994, 11.53873, 39.52431, 105.3019, 0.7966241, 0, 0, -0.604475) /* PCAPRecordedLocation */
+VALUES (8673, 8040, 0x983C0002, 11.53873, 39.52431, 105.3019, 0.796624, 0, 0, -0.604475) /* PCAPRecordedLocation */
 /* @teleloc 0x983C0002 [11.538730 39.524310 105.301900] 0.796624 0.000000 0.000000 -0.604475 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8673, 8000, 3685862335) /* PCAPRecordedObjectIID */;
+VALUES (8673, 8000, 0xDBB1CBBF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8673,   1, 100, 0, 0) /* Strength */
@@ -286,7 +286,8 @@ VALUES (8673, 2, 47920,  1, 0, 0, False) /* Create Katar (47920) for Wield */
      , (8673, 9,  3186,  0, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Self V (3186) for ContainTreasure */
      , (8673, 9,   303,  0, 0, 0, False) /* Create Hand Axe (303) for ContainTreasure */
      , (8673, 9, 49442,  0, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for ContainTreasure */
-     , (8673, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */;
+     , (8673, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (8673, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8673, 67111342, 0, 0);

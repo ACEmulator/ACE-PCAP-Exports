@@ -53,24 +53,24 @@ VALUES (3916,   1, 'Frost Yari') /* Name */
      , (3916,  16, 'Frost Yari of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3916,   1,   33555823) /* Setup */
-     , (3916,   3,  536870932) /* SoundTable */
-     , (3916,   6,   67111919) /* PaletteBase */
-     , (3916,   8,  100669094) /* Icon */
-     , (3916,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3916,   1, 0x0200056F) /* Setup */
+     , (3916,   3, 0x20000014) /* SoundTable */
+     , (3916,   6, 0x04000BEF) /* PaletteBase */
+     , (3916,   8, 0x060016A6) /* Icon */
+     , (3916,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3916,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3916, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3916, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3916, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3916, 8000, 3687824859) /* PCAPRecordedObjectIID */;
+VALUES (3916, 8000, 0xDBCFBDDB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3916,  1401,      2)  /* QuicknessSelf5 */
-     , (3916,  1604,      2)  /* DefenderSelf5 */
+VALUES (3916,  1604,      2)  /* DefenderSelf5 */
      , (3916,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (3916,  2582,      2)  /* CANTRIPQUICKNESS1 */;
+     , (3916,  2582,      2)  /* CANTRIPQUICKNESS1 */
+     , (3916,  1401,      2)  /* QuicknessSelf5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3916, 67111926, 0, 0);

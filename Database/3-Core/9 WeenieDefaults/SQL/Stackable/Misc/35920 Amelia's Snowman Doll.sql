@@ -16,11 +16,11 @@ VALUES (35920,   1,        128) /* ItemType - Misc */
      , (35920,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35920,  98, 1483945733) /* CreationTimestamp */
      , (35920, 114,          1) /* Attuned - Attuned */
-     , (35920, 267,       3600) /* Lifespan */
-     , (35920, 268,       3599) /* RemainingLifespan */;
+     , (35920, 267,       3600) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35920,  69, False) /* IsSellable */;
+VALUES (35920,  23, True ) /* DestroyOnSell */
+     , (35920,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35920,  39,     0.5) /* DefaultScale */;
@@ -30,13 +30,13 @@ VALUES (35920,   1, 'Amelia''s Snowman Doll') /* Name */
      , (35920,  15, 'A snowman doll. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35920,   1,   33557444) /* Setup */
-     , (35920,   3,  536870932) /* SoundTable */
-     , (35920,   8,  100672418) /* Icon */
-     , (35920,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35920,   1, 0x02000BC4) /* Setup */
+     , (35920,   3, 0x20000014) /* SoundTable */
+     , (35920,   8, 0x060023A2) /* Icon */
+     , (35920,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35920, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (35920, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35920, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35920, 8000, 3683444720) /* PCAPRecordedObjectIID */;
+VALUES (35920, 8000, 0xDB8CE7F0) /* PCAPRecordedObjectIID */;

@@ -35,22 +35,22 @@ VALUES (21049,   1, 'Salvaged  (100)') /* Name */
      , (21049,  15, 'Chips of fire opal material salvaged from old items.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21049,   1,   33554817) /* Setup */
-     , (21049,   3,  536870932) /* SoundTable */
-     , (21049,   6,   67111919) /* PaletteBase */
-     , (21049,   8,  100673214) /* Icon */
-     , (21049,  22,  872415275) /* PhysicsEffectTable */
-     , (21049,  50,  100673273) /* IconOverlay */
+VALUES (21049,   1, 0x02000181) /* Setup */
+     , (21049,   3, 0x20000014) /* SoundTable */
+     , (21049,   6, 0x04000BEF) /* PaletteBase */
+     , (21049,   8, 0x060026BE) /* Icon */
+     , (21049,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (21049,  50, 0x060026F9) /* IconOverlay */
      , (21049, 8001, 3509074968) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
      , (21049, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21049, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (21049, 8040, 3332964379, 83.45251, 66.46255, 41.9975, 0.6269416, 0, 0, -0.7790663) /* PCAPRecordedLocation */
+VALUES (21049, 8040, 0xC6A9001B, 83.45251, 66.46255, 41.9975, 0.626942, 0, 0, -0.779066) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [83.452510 66.462550 41.997500] 0.626942 0.000000 0.000000 -0.779066 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21049, 8000, 2243216314) /* PCAPRecordedObjectIID */;
+VALUES (21049, 8000, 0x85B4C3BA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21049, 67111918, 0, 0);

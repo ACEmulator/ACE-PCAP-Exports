@@ -27,17 +27,17 @@ VALUES (29560,   1, 'Gem of Inner Might') /* Name */
      , (29560,  16, 'This gem can be placed into a piece of Noble Armor. If so, it will imbue the armor with a very potent Strength Spell that will affect the wearer. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29560,   1,   33554809) /* Setup */
-     , (29560,   3,  536870932) /* SoundTable */
-     , (29560,   6,   67111919) /* PaletteBase */
-     , (29560,   8,  100677139) /* Icon */
-     , (29560,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29560,   1, 0x02000179) /* Setup */
+     , (29560,   3, 0x20000014) /* SoundTable */
+     , (29560,   6, 0x04000BEF) /* PaletteBase */
+     , (29560,   8, 0x06003613) /* Icon */
+     , (29560,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29560, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (29560, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29560, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29560, 8000, 2149164344) /* PCAPRecordedObjectIID */;
+VALUES (29560, 8000, 0x8019A538) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (29560, 67111921, 0, 0);

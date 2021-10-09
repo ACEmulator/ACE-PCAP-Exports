@@ -23,17 +23,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11460,   1, 'Palenqual''s Totem of the Heights') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11460,   1,   33557274) /* Setup */
-     , (11460,   3,  536870932) /* SoundTable */
-     , (11460,   8,  100672018) /* Icon */
-     , (11460,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11460,   1, 0x02000B1A) /* Setup */
+     , (11460,   3, 0x20000014) /* SoundTable */
+     , (11460,   8, 0x06002212) /* Icon */
+     , (11460,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11460, 8001,  271069200) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, TargetType, Burden, HookType */
      , (11460, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11460, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11460, 8040, 2847146026, 131.3603, 29.46785, 94.024, 0.7940621, 0, 0, -0.6078367) /* PCAPRecordedLocation */
+VALUES (11460, 8040, 0xA9B4002A, 131.3603, 29.46785, 94.024, 0.794062, 0, 0, -0.607837) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [131.360300 29.467850 94.024000] 0.794062 0.000000 0.000000 -0.607837 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11460, 8000, 2215730506) /* PCAPRecordedObjectIID */;
+VALUES (11460, 8000, 0x84115D4A) /* PCAPRecordedObjectIID */;

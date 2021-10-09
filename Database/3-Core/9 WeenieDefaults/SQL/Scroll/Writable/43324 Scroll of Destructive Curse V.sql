@@ -24,13 +24,13 @@ VALUES (43324,   1, 'Scroll of Destructive Curse V') /* Name */
 The target loses 189 points of health over 30 seconds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43324,   1,   33554826) /* Setup */
-     , (43324,   8,  100691570) /* Icon */
-     , (43324,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43324,   1, 0x0200018A) /* Setup */
+     , (43324,   8, 0x06006E72) /* Icon */
+     , (43324,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43324,  28,       5343) /* Spell - CurseDestructionOther5 */
      , (43324, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43324, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43324, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43324, 8000, 2779979769) /* PCAPRecordedObjectIID */;
+VALUES (43324, 8000, 0xA5B31FF9) /* PCAPRecordedObjectIID */;

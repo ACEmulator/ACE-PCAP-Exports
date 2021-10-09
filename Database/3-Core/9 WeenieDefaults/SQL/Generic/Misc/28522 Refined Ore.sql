@@ -14,7 +14,8 @@ VALUES (28522,   1,        128) /* ItemType - Misc */
      , (28522, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28522,  22, True ) /* Inscribable */;
+VALUES (28522,  22, True ) /* Inscribable */
+     , (28522,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28522,  39,     0.5) /* DefaultScale */;
@@ -24,17 +25,17 @@ VALUES (28522,   1, 'Refined Ore') /* Name */
      , (28522,  16, 'This sack is not overly heavy but you sense that the material within is worth a great deal to the recipient. Captain K''rank has charged you with delivering this to Feruza ibn Salaq at the Beach Fort west of Stonehold.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28522,   1,   33554817) /* Setup */
-     , (28522,   3,  536870932) /* SoundTable */
-     , (28522,   6,   67111919) /* PaletteBase */
-     , (28522,   8,  100676966) /* Icon */
-     , (28522,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28522,   1, 0x02000181) /* Setup */
+     , (28522,   3, 0x20000014) /* SoundTable */
+     , (28522,   6, 0x04000BEF) /* PaletteBase */
+     , (28522,   8, 0x06003566) /* Icon */
+     , (28522,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28522, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (28522, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28522, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28522, 8000, 3704209835) /* PCAPRecordedObjectIID */;
+VALUES (28522, 8000, 0xDCC9C1AB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28522, 67111918, 0, 0);

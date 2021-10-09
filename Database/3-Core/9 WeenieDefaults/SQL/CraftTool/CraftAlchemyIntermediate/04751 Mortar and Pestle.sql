@@ -24,13 +24,13 @@ VALUES (4751,   1, 'Mortar and Pestle') /* Name */
      , (4751,  20, 'Sets of Mortar and Pestle') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4751,   1,   33555966) /* Setup */
-     , (4751,   3,  536870932) /* SoundTable */
-     , (4751,   8,  100670116) /* Icon */
-     , (4751,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4751,   1, 0x020005FE) /* Setup */
+     , (4751,   3, 0x20000014) /* SoundTable */
+     , (4751,   8, 0x06001AA4) /* Icon */
+     , (4751,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4751, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (4751, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (4751, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4751, 8000, 2186220463) /* PCAPRecordedObjectIID */;
+VALUES (4751, 8000, 0x824F13AF) /* PCAPRecordedObjectIID */;

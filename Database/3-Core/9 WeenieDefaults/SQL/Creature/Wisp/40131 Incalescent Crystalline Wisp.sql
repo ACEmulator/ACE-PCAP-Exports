@@ -22,21 +22,21 @@ VALUES (40131,   1, 'Incalescent Crystalline Wisp') /* Name */
      , (40131, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40131,   1,   33556955) /* Setup */
-     , (40131,   2,  150995087) /* MotionTable */
-     , (40131,   3,  536870985) /* SoundTable */
-     , (40131,   8,  100671332) /* Icon */
-     , (40131,  22,  872415274) /* PhysicsEffectTable */
+VALUES (40131,   1, 0x020009DB) /* Setup */
+     , (40131,   2, 0x0900008F) /* MotionTable */
+     , (40131,   3, 0x20000049) /* SoundTable */
+     , (40131,   8, 0x06001F64) /* Icon */
+     , (40131,  22, 0x3400002A) /* PhysicsEffectTable */
      , (40131, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (40131, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (40131, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (40131, 8040, 845938719, 88.09494, 161.6832, 304.005, 0.9848077, 0, 0, -0.1736482) /* PCAPRecordedLocation */
+VALUES (40131, 8040, 0x326C001F, 88.09494, 161.6832, 304.005, 0.984808, 0, 0, -0.173648) /* PCAPRecordedLocation */
 /* @teleloc 0x326C001F [88.094940 161.683200 304.005000] 0.984808 0.000000 0.000000 -0.173648 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40131, 8000, 3360869240) /* PCAPRecordedObjectIID */;
+VALUES (40131, 8000, 0xC852CB78) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40131,   1, 150, 0, 0) /* Strength */
@@ -140,4 +140,6 @@ VALUES (40131, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreas
      , (40131, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */
      , (40131, 9, 29239,  0, 0, 0, False) /* Create Bone Bow (29239) for ContainTreasure */
      , (40131, 9, 42751,  0, 0, 0, False) /* Create Haebrean Girth (42751) for ContainTreasure */
-     , (40131, 9, 40713,  0, 0, 0, False) /* Create Covenant Shield (40713) for ContainTreasure */;
+     , (40131, 9, 40713,  0, 0, 0, False) /* Create Covenant Shield (40713) for ContainTreasure */
+     , (40131, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
+     , (40131, 9, 31771,  0, 0, 0, False) /* Create Lightning War Axe (31771) for ContainTreasure */;

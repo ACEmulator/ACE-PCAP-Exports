@@ -23,16 +23,16 @@ VALUES (1447,   1, 'Tart Apple') /* Name */
      , (1447,  14, 'Use this item to eat it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1447,   1,   33554667) /* Setup */
-     , (1447,   8,  100667465) /* Icon */
-     , (1447,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1447,   1, 0x020000EB) /* Setup */
+     , (1447,   8, 0x06001049) /* Icon */
+     , (1447,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1447, 8001,    2109592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Burden */
      , (1447, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (1447, 8005,     167937) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1447, 8040, 3316121654, 155.1201, 134.8582, 42.024, 0.0007705981, 0, 0, 0.9999997) /* PCAPRecordedLocation */
+VALUES (1447, 8040, 0xC5A80036, 155.1201, 134.8582, 42.024, 0.000771, 0, 0, 1) /* PCAPRecordedLocation */
 /* @teleloc 0xC5A80036 [155.120100 134.858200 42.024000] 0.000771 0.000000 0.000000 1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1447, 8000, 3706849418) /* PCAPRecordedObjectIID */;
+VALUES (1447, 8000, 0xDCF2088A) /* PCAPRecordedObjectIID */;

@@ -33,16 +33,16 @@ VALUES (52201,   1, 'Accursed Scarecrow Mask') /* Name */
      , (52201,  16, 'A hollowed out pumpkin that, oddly enough, fits right over your head!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52201,   1,   33557361) /* Setup */
-     , (52201,   3,  536870932) /* SoundTable */
-     , (52201,   8,  100672162) /* Icon */
-     , (52201,  22,  872415275) /* PhysicsEffectTable */
+VALUES (52201,   1, 0x02000B71) /* Setup */
+     , (52201,   3, 0x20000014) /* SoundTable */
+     , (52201,   8, 0x060022A2) /* Icon */
+     , (52201,  22, 0x3400002B) /* PhysicsEffectTable */
      , (52201, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (52201, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (52201, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52201, 8000, 2343279691) /* PCAPRecordedObjectIID */;
+VALUES (52201, 8000, 0x8BAB9C4B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (52201, 0, 16794936);

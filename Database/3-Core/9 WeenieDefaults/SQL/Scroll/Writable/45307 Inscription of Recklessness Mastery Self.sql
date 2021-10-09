@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45307,   1, 'Inscription of Recklessness Mastery Self') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45307,   1,   33554826) /* Setup */
-     , (45307,   8,  100676449) /* Icon */
-     , (45307,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45307,   1, 0x0200018A) /* Setup */
+     , (45307,   8, 0x06003361) /* Icon */
+     , (45307,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45307,  28,       5834) /* Spell - RecklessnessMasterySelf8 */
      , (45307, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (45307, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45307, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45307, 8000, 3634801180) /* PCAPRecordedObjectIID */;
+VALUES (45307, 8000, 0xD8A6AA1C) /* PCAPRecordedObjectIID */;

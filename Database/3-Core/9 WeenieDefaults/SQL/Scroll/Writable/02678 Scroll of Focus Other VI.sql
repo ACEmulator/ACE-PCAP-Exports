@@ -24,13 +24,13 @@ VALUES (2678,   1, 'Scroll of Focus Other VI') /* Name */
 Increases the target''s Focus by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2678,   1,   33554826) /* Setup */
-     , (2678,   8,  100676458) /* Icon */
-     , (2678,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2678,   1, 0x0200018A) /* Setup */
+     , (2678,   8, 0x0600336A) /* Icon */
+     , (2678,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2678,  28,       1432) /* Spell - FocusOther6 */
      , (2678, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2678, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2678, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2678, 8000, 2980942517) /* PCAPRecordedObjectIID */;
+VALUES (2678, 8000, 0xB1AD92B5) /* PCAPRecordedObjectIID */;

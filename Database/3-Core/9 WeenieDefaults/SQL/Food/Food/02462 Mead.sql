@@ -20,13 +20,13 @@ VALUES (2462,   1, 'Mead') /* Name */
      , (2462,  20, 'Mugs of Mead') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2462,   1,   33554665) /* Setup */
-     , (2462,   3,  536870932) /* SoundTable */
-     , (2462,   8,  100667432) /* Icon */
-     , (2462,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2462,   1, 0x020000E9) /* Setup */
+     , (2462,   3, 0x20000014) /* SoundTable */
+     , (2462,   8, 0x06001028) /* Icon */
+     , (2462,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2462, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (2462, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (2462, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2462, 8000, 2931253180) /* PCAPRecordedObjectIID */;
+VALUES (2462, 8000, 0xAEB75FBC) /* PCAPRecordedObjectIID */;

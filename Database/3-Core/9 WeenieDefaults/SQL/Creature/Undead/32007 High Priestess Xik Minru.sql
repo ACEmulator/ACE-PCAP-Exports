@@ -26,22 +26,22 @@ VALUES (32007,   1, 'High Priestess Xik Minru') /* Name */
      , (32007, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32007,   1,   33559744) /* Setup */
-     , (32007,   2,  150994967) /* MotionTable */
-     , (32007,   3,  536870934) /* SoundTable */
-     , (32007,   6,   67108990) /* PaletteBase */
-     , (32007,   8,  100667942) /* Icon */
-     , (32007,  22,  872415236) /* PhysicsEffectTable */
+VALUES (32007,   1, 0x020014C0) /* Setup */
+     , (32007,   2, 0x09000017) /* MotionTable */
+     , (32007,   3, 0x20000016) /* SoundTable */
+     , (32007,   6, 0x0400007E) /* PaletteBase */
+     , (32007,   8, 0x06001226) /* Icon */
+     , (32007,  22, 0x34000004) /* PhysicsEffectTable */
      , (32007, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (32007, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (32007, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (32007, 8040, 3587833893, 110.589, 113.21, 116.0098, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (32007, 8040, 0xD5DA0025, 110.589, 113.21, 116.0098, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD5DA0025 [110.589000 113.210000 116.009800] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32007, 8000, 3708656353) /* PCAPRecordedObjectIID */;
+VALUES (32007, 8000, 0xDD0D9AE1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32007,   1, 500, 0, 0) /* Strength */
@@ -57,7 +57,10 @@ VALUES (32007,   1, 49695, 0, 0, 50000) /* MaxHealth */
      , (32007,   5,  1500, 0, 0, 2000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32007, 2, 31997,  1, 0, 0, False) /* Create Vaikiakvi (31997) for Wield */;
+VALUES (32007, 2, 31997,  1, 0, 0, False) /* Create Vaikiakvi (31997) for Wield */
+     , (32007, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (32007, 9, 31983,  0, 0, 0, False) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
+     , (32007, 9, 32014,  0, 0, 0, False) /* Create Aurulent Key (32014) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32007, 67112745, 0, 128);

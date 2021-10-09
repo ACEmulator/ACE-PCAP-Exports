@@ -21,16 +21,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4235,   1, 'Thin Gromnie Hide') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4235,   1,   33554817) /* Setup */
-     , (4235,   3,  536870932) /* SoundTable */
-     , (4235,   8,  100676745) /* Icon */
-     , (4235,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4235,   1, 0x02000181) /* Setup */
+     , (4235,   3, 0x20000014) /* SoundTable */
+     , (4235,   8, 0x06003489) /* Icon */
+     , (4235,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4235, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (4235, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4235, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4235, 8000, 3692812571) /* PCAPRecordedObjectIID */;
+VALUES (4235, 8000, 0xDC1BD91B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (4235, 0, 83890064, 83890069);

@@ -26,23 +26,23 @@ VALUES (31008,   1, 'Olthoi Slayer') /* Name */
      , (31008, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31008,   1,   33557164) /* Setup */
-     , (31008,   2,  150994946) /* MotionTable */
-     , (31008,   3,  536870925) /* SoundTable */
-     , (31008,   6,   67113236) /* PaletteBase */
-     , (31008,   8,  100667623) /* Icon */
-     , (31008,  22,  872415265) /* PhysicsEffectTable */
+VALUES (31008,   1, 0x02000AAC) /* Setup */
+     , (31008,   2, 0x09000002) /* MotionTable */
+     , (31008,   3, 0x2000000D) /* SoundTable */
+     , (31008,   6, 0x04001114) /* PaletteBase */
+     , (31008,   8, 0x060010E7) /* Icon */
+     , (31008,  22, 0x34000021) /* PhysicsEffectTable */
      , (31008,  30,         86) /* PhysicsScript - BreatheAcid */
      , (31008, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (31008, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (31008, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31008, 8040, 1631978248, 142.3087, -147.857, -6, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (31008, 8040, 0x61460308, 142.3087, -147.857, -6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x61460308 [142.308700 -147.857000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31008, 8000, 3359331913) /* PCAPRecordedObjectIID */;
+VALUES (31008, 8000, 0xC83B5649) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31008,   1, 370, 0, 0) /* Strength */

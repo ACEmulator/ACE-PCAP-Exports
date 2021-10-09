@@ -32,22 +32,22 @@ VALUES (6776,   1, 'Laboratory Supply Chest') /* Name */
      , (6776, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6776,   1,   33554556) /* Setup */
-     , (6776,   2,  150994948) /* MotionTable */
-     , (6776,   3,  536870945) /* SoundTable */
-     , (6776,   8,  100667424) /* Icon */
-     , (6776,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6776,   1, 0x0200007C) /* Setup */
+     , (6776,   2, 0x09000004) /* MotionTable */
+     , (6776,   3, 0x20000021) /* SoundTable */
+     , (6776,   8, 0x06001020) /* Icon */
+     , (6776,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6776,  28,       1089) /* Spell - LightningVulnerabilityOther6 */
      , (6776, 8001,    6291518) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden, Spell */
      , (6776, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (6776, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6776, 8040, 30867715, 46.01, -16.0366, -36, -0.7176712, 0, 0, -0.6963822) /* PCAPRecordedLocation */
+VALUES (6776, 8040, 0x01D70103, 46.01, -16.0366, -36, -0.717671, 0, 0, -0.696382) /* PCAPRecordedLocation */
 /* @teleloc 0x01D70103 [46.010000 -16.036600 -36.000000] -0.717671 0.000000 0.000000 -0.696382 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6776, 8000, 1880977417) /* PCAPRecordedObjectIID */;
+VALUES (6776, 8000, 0x701D7009) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6776, -1, 7897, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Steel Toed Boots (7897) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

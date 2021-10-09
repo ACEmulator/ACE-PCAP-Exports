@@ -24,13 +24,13 @@ VALUES (5961,   1, 'Scroll of Cooking Mastery Self VI') /* Name */
 Increases the caster''s Cooking skill by 35 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5961,   1,   33554826) /* Setup */
-     , (5961,   8,  100676451) /* Icon */
-     , (5961,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5961,   1, 0x0200018A) /* Setup */
+     , (5961,   8, 0x06003363) /* Icon */
+     , (5961,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5961,  28,       1720) /* Spell - CookingMasterySelf6 */
      , (5961, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5961, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5961, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5961, 8000, 3698461009) /* PCAPRecordedObjectIID */;
+VALUES (5961, 8000, 0xDC720951) /* PCAPRecordedObjectIID */;

@@ -45,21 +45,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30880,   1, 'Banished Staff') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30880,   1,   33559260) /* Setup */
-     , (30880,   3,  536870932) /* SoundTable */
-     , (30880,   6,   67111919) /* PaletteBase */
-     , (30880,   8,  100677477) /* Icon */
-     , (30880,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30880,   1, 0x020012DC) /* Setup */
+     , (30880,   3, 0x20000014) /* SoundTable */
+     , (30880,   6, 0x04000BEF) /* PaletteBase */
+     , (30880,   8, 0x06003765) /* Icon */
+     , (30880,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30880, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (30880, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30880, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30880, 8000, 2174553926) /* PCAPRecordedObjectIID */;
+VALUES (30880, 8000, 0x819D0F46) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30880,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (30880,  2566,      2)  /* CANTRIPSWORDAPTITUDE1 */;
+VALUES (30880,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */
+     , (30880,  1616,      2)  /* BloodDrinkerSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30880, 67111919, 0, 0);

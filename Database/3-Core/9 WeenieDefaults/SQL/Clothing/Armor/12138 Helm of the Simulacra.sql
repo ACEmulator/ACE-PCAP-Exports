@@ -27,6 +27,7 @@ VALUES (12138,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12138,  22, True ) /* Inscribable */
+     , (12138,  23, True ) /* DestroyOnSell */
      , (12138,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -45,22 +46,22 @@ VALUES (12138,   1, 'Helm of the Simulacra') /* Name */
      , (12138,  16, 'A helm enchanted with powerful magic, taken from the Southern Infiltrator Keep dungeon.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12138,   1,   33556883) /* Setup */
-     , (12138,   3,  536870932) /* SoundTable */
-     , (12138,   6,   67108990) /* PaletteBase */
-     , (12138,   8,  100672134) /* Icon */
-     , (12138,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12138,   1, 0x02000993) /* Setup */
+     , (12138,   3, 0x20000014) /* SoundTable */
+     , (12138,   6, 0x0400007E) /* PaletteBase */
+     , (12138,   8, 0x06002286) /* Icon */
+     , (12138,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12138, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (12138, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12138, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12138, 8000, 2158691053) /* PCAPRecordedObjectIID */;
+VALUES (12138, 8000, 0x80AB02ED) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12138,   249,      2)  /* InvulnerabilitySelf6 */
-     , (12138,   261,      2)  /* ImpregnabilitySelf6 */
-     , (12138,  1486,      2)  /* Impenetrability6 */;
+VALUES (12138,   261,      2)  /* ImpregnabilitySelf6 */
+     , (12138,  1486,      2)  /* Impenetrability6 */
+     , (12138,   249,      2)  /* InvulnerabilitySelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (12138, 67113391, 240, 10)

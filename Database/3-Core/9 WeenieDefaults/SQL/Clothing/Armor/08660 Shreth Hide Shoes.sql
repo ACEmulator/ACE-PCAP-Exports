@@ -34,21 +34,21 @@ VALUES (8660,   1, 'Shreth Hide Shoes') /* Name */
      , (8660,  16, 'Shoes reinforced with the hide of a shreth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8660,   1,   33554654) /* Setup */
-     , (8660,   3,  536870932) /* SoundTable */
-     , (8660,   6,   67108990) /* PaletteBase */
-     , (8660,   8,  100671303) /* Icon */
-     , (8660,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8660,   1, 0x020000DE) /* Setup */
+     , (8660,   3, 0x20000014) /* SoundTable */
+     , (8660,   6, 0x0400007E) /* PaletteBase */
+     , (8660,   8, 0x06001F47) /* Icon */
+     , (8660,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8660, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
      , (8660, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8660, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8660, 8040, 459059, 60.6625, -70, -0.0006459951, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (8660, 8040, 0x00070133, 60.6625, -70, -0.000646, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070133 [60.662500 -70.000000 -0.000646] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8660, 8000, 3005756154) /* PCAPRecordedObjectIID */;
+VALUES (8660, 8000, 0xB32832FA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8660, 67110540, 160, 8);

@@ -54,10 +54,10 @@ VALUES (3753,   1, 'Frost Battle Axe') /* Name */
      , (3753,  16, 'Frost Battle Axe of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3753,   1,   33555692) /* Setup */
-     , (3753,   3,  536870932) /* SoundTable */
-     , (3753,   8,  100668994) /* Icon */
-     , (3753,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3753,   1, 0x020004EC) /* Setup */
+     , (3753,   3, 0x20000014) /* SoundTable */
+     , (3753,   8, 0x06001642) /* Icon */
+     , (3753,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3753,  30,         88) /* PhysicsScript - Create */
      , (3753,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3753, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
@@ -65,10 +65,10 @@ VALUES (3753,   1,   33555692) /* Setup */
      , (3753, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3753, 8000, 3354734214) /* PCAPRecordedObjectIID */;
+VALUES (3753, 8000, 0xC7F52E86) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3753,  1377,      2)  /* CoordinationSelf5 */
+VALUES (3753,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */
      , (3753,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (3753,  2566,      2)  /* CANTRIPSWORDAPTITUDE1 */
-     , (3753,  2580,      2)  /* CANTRIPENDURANCE1 */;
+     , (3753,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (3753,  1377,      2)  /* CoordinationSelf5 */;

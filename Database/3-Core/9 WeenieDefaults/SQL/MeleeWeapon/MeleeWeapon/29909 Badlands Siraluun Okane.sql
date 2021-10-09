@@ -49,19 +49,19 @@ VALUES (29909,   1, 'Badlands Siraluun Okane') /* Name */
      , (29909,  16, 'A beautifully detailed okane crafted from the claw of a Badlands Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29909,   1,   33559109) /* Setup */
-     , (29909,   3,  536870932) /* SoundTable */
-     , (29909,   8,  100677336) /* Icon */
-     , (29909,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29909,   1, 0x02001245) /* Setup */
+     , (29909,   3, 0x20000014) /* SoundTable */
+     , (29909,   8, 0x060036D8) /* Icon */
+     , (29909,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29909, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (29909, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (29909, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29909, 8000, 2629411103) /* PCAPRecordedObjectIID */;
+VALUES (29909, 8000, 0x9CB9A11F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29909,  1592,      2)  /* HeartSeekerSelf6 */
-     , (29909,  1604,      2)  /* DefenderSelf5 */
+VALUES (29909,  1604,      2)  /* DefenderSelf5 */
      , (29909,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (29909,  1624,      2)  /* SwiftKillerSelf3 */;
+     , (29909,  1624,      2)  /* SwiftKillerSelf3 */
+     , (29909,  1592,      2)  /* HeartSeekerSelf6 */;

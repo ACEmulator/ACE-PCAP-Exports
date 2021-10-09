@@ -22,17 +22,17 @@ VALUES (22060,   1, 'Mu-miyah Torso with a Head') /* Name */
      , (22060,  15, 'A musty mummy ribcage with the head still attached.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22060,   1,   33558018) /* Setup */
-     , (22060,   3,  536870932) /* SoundTable */
-     , (22060,   6,   67108990) /* PaletteBase */
-     , (22060,   8,  100673686) /* Icon */
-     , (22060,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22060,   1, 0x02000E02) /* Setup */
+     , (22060,   3, 0x20000014) /* SoundTable */
+     , (22060,   6, 0x0400007E) /* PaletteBase */
+     , (22060,   8, 0x06002896) /* Icon */
+     , (22060,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22060, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (22060, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22060, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22060, 8000, 3658159476) /* PCAPRecordedObjectIID */;
+VALUES (22060, 8000, 0xDA0B1574) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22060, 67111828, 40, 216);

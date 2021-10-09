@@ -23,17 +23,17 @@ VALUES (28451,   1, 'Morgluuk''s Trophy Head') /* Name */
      , (28451,  16, 'This is Morgluuk''s head. It has been mounted to commemorate a great victory over the vile Burun who threatened to usurp Dereth with the aid of his brother, Torgluuk.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28451,   1,   33558856) /* Setup */
-     , (28451,   3,  536870932) /* SoundTable */
-     , (28451,   6,   67114919) /* PaletteBase */
-     , (28451,   8,  100676960) /* Icon */
-     , (28451,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28451,   1, 0x02001148) /* Setup */
+     , (28451,   3, 0x20000014) /* SoundTable */
+     , (28451,   6, 0x040017A7) /* PaletteBase */
+     , (28451,   8, 0x06003560) /* Icon */
+     , (28451,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28451, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (28451, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28451, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28451, 8000, 2192119921) /* PCAPRecordedObjectIID */;
+VALUES (28451, 8000, 0x82A91871) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28451, 67114922, 0, 0);

@@ -22,18 +22,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8296,   1, 'Mugwort Pea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8296,   1,   33555211) /* Setup */
-     , (8296,   3,  536870932) /* SoundTable */
-     , (8296,   6,   67111919) /* PaletteBase */
-     , (8296,   8,  100671055) /* Icon */
-     , (8296,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8296,   1, 0x0200030B) /* Setup */
+     , (8296,   3, 0x20000014) /* SoundTable */
+     , (8296,   6, 0x04000BEF) /* PaletteBase */
+     , (8296,   8, 0x06001E4F) /* Icon */
+     , (8296,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8296, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8296, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8296, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (8296, 8044,       8328) /* PCAPPhysicsDIDDataTemplatedFrom - Iron Pea */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8296, 8000,       8296) /* PCAPRecordedObjectIID */;
+VALUES (8296, 8000, 0x00002068) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8296, 67111927, 0, 0);

@@ -17,7 +17,7 @@ VALUES (20080,   1,        256) /* ItemType - MissileWeapon */
      , (20080,  48,         47) /* WeaponSkill - MissileWeapons */
      , (20080,  49,         40) /* WeaponTime */
      , (20080,  50,          1) /* AmmoType - Arrow */
-     , (20080,  51,          2) /* CombatUse - Missle */
+     , (20080,  51,          2) /* CombatUse - Missile */
      , (20080,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20080, 106,        100) /* ItemSpellcraft */
      , (20080, 107,        140) /* ItemCurMana */
@@ -47,16 +47,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20080,   1, 'Perfect Isparian Bow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20080,   1,   33557729) /* Setup */
-     , (20080,   3,  536870932) /* SoundTable */
-     , (20080,   8,  100673010) /* Icon */
-     , (20080,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20080,   1, 0x02000CE1) /* Setup */
+     , (20080,   3, 0x20000014) /* SoundTable */
+     , (20080,   8, 0x060025F2) /* Icon */
+     , (20080,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20080, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
      , (20080, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20080, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20080, 8000, 2164417099) /* PCAPRecordedObjectIID */;
+VALUES (20080, 8000, 0x8102624B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20080,  2687,      2)  /* ModerateBowAptitude */;

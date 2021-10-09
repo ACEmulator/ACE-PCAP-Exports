@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11232,   1, 'Timaru Totem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11232,   1,   33555677) /* Setup */
-     , (11232,   3,  536870932) /* SoundTable */
-     , (11232,   6,   67111919) /* PaletteBase */
-     , (11232,   8,  100671984) /* Icon */
-     , (11232,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11232,   1, 0x020004DD) /* Setup */
+     , (11232,   3, 0x20000014) /* SoundTable */
+     , (11232,   6, 0x04000BEF) /* PaletteBase */
+     , (11232,   8, 0x060021F0) /* Icon */
+     , (11232,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11232, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (11232, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11232, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11232, 8000, 2147980658) /* PCAPRecordedObjectIID */;
+VALUES (11232, 8000, 0x80079572) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (11232, 67111919, 0, 0);

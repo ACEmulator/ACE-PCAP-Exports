@@ -23,16 +23,16 @@ VALUES (51325,   1, 'Hive Warrior Mound') /* Name */
      , (51325, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51325,   1,   33555925) /* Setup */
-     , (51325,   2,  150994947) /* MotionTable */
-     , (51325,   8,  100667499) /* Icon */
+VALUES (51325,   1, 0x020005D5) /* Setup */
+     , (51325,   2, 0x09000003) /* MotionTable */
+     , (51325,   8, 0x0600106B) /* Icon */
      , (51325, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (51325, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (51325, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (51325, 8040, 431751223, 162.575, 156.565, 137.8882, 0.162745, 0, 0, 0.9866682) /* PCAPRecordedLocation */
+VALUES (51325, 8040, 0x19BC0037, 162.575, 156.565, 137.8882, 0.162745, 0, 0, 0.986668) /* PCAPRecordedLocation */
 /* @teleloc 0x19BC0037 [162.575000 156.565000 137.888200] 0.162745 0.000000 0.000000 0.986668 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51325, 8000, 1906032641) /* PCAPRecordedObjectIID */;
+VALUES (51325, 8000, 0x719BC001) /* PCAPRecordedObjectIID */;

@@ -25,22 +25,22 @@ VALUES (19297,   1, 'Bronze Statue of a Reedshark') /* Name */
      , (19297, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19297,   1,   33554489) /* Setup */
-     , (19297,   2,  150995188) /* MotionTable */
-     , (19297,   3,  536871052) /* SoundTable */
-     , (19297,   6,   67109313) /* PaletteBase */
-     , (19297,   8,  100667939) /* Icon */
-     , (19297,  22,  872415386) /* PhysicsEffectTable */
+VALUES (19297,   1, 0x02000039) /* Setup */
+     , (19297,   2, 0x090000F4) /* MotionTable */
+     , (19297,   3, 0x2000008C) /* SoundTable */
+     , (19297,   6, 0x040001C1) /* PaletteBase */
+     , (19297,   8, 0x06001223) /* Icon */
+     , (19297,  22, 0x3400009A) /* PhysicsEffectTable */
      , (19297, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (19297, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (19297, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (19297, 8040, 1415184723, 38.1623, -35.5484, 6.003, 0.5694671, 0, 0, 0.8220141) /* PCAPRecordedLocation */
+VALUES (19297, 8040, 0x545A0153, 38.1623, -35.5484, 6.003, 0.569467, 0, 0, 0.822014) /* PCAPRecordedLocation */
 /* @teleloc 0x545A0153 [38.162300 -35.548400 6.003000] 0.569467 0.000000 0.000000 0.822014 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19297, 8000, 2172631522) /* PCAPRecordedObjectIID */;
+VALUES (19297, 8000, 0x817FB9E2) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19297,   1,  90, 0, 0) /* Strength */

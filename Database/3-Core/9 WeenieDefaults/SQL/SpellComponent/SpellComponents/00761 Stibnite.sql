@@ -20,17 +20,17 @@ VALUES (761,   1, 'Stibnite') /* Name */
      , (761,  20, 'Stibnite Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (761,   1,   33555209) /* Setup */
-     , (761,   3,  536870932) /* SoundTable */
-     , (761,   6,   67111919) /* PaletteBase */
-     , (761,   8,  100669700) /* Icon */
-     , (761,  22,  872415275) /* PhysicsEffectTable */
+VALUES (761,   1, 0x02000309) /* Setup */
+     , (761,   3, 0x20000014) /* SoundTable */
+     , (761,   6, 0x04000BEF) /* PaletteBase */
+     , (761,   8, 0x06001904) /* Icon */
+     , (761,  22, 0x3400002B) /* PhysicsEffectTable */
      , (761, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (761, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (761, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (761, 8000, 2186220603) /* PCAPRecordedObjectIID */;
+VALUES (761, 8000, 0x824F143B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (761, 67111921, 0, 0);

@@ -53,28 +53,24 @@ VALUES (30596,   1, 'Poniard') /* Name */
      , (30596,  16, 'Poniard of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30596,   1,   33559483) /* Setup */
-     , (30596,   3,  536870932) /* SoundTable */
-     , (30596,   6,   67116417) /* PaletteBase */
-     , (30596,   8,  100687001) /* Icon */
-     , (30596,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30596,   1, 0x020013BB) /* Setup */
+     , (30596,   3, 0x20000014) /* SoundTable */
+     , (30596,   6, 0x04001D81) /* PaletteBase */
+     , (30596,   8, 0x06005C99) /* Icon */
+     , (30596,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30596,  37,         46) /* ItemSkillLimit - FinesseWeapons */
-     , (30596,  52,  100676444) /* IconUnderlay */
+     , (30596,  52, 0x0600335C) /* IconUnderlay */
      , (30596, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30596, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30596, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30596, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30596, 8000, 2174543172) /* PCAPRecordedObjectIID */;
+VALUES (30596, 8000, 0x819CE544) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30596,  1616,      2)  /* BloodDrinkerSelf6 */
      , (30596,  1626,      2)  /* SwiftKillerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30596, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (30596, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30596, 67116422, 0, 0);

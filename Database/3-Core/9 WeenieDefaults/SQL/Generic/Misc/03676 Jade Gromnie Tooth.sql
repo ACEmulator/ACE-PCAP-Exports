@@ -21,21 +21,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3676,   1, 'Jade Gromnie Tooth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3676,   1,   33554817) /* Setup */
-     , (3676,   3,  536870932) /* SoundTable */
-     , (3676,   6,   67111919) /* PaletteBase */
-     , (3676,   8,  100676760) /* Icon */
-     , (3676,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3676,   1, 0x02000181) /* Setup */
+     , (3676,   3, 0x20000014) /* SoundTable */
+     , (3676,   6, 0x04000BEF) /* PaletteBase */
+     , (3676,   8, 0x06003498) /* Icon */
+     , (3676,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3676, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (3676, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3676, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (3676, 8040, 2103705619, 57.36667, 48.95541, 11.999, -0.06190361, 0, 0, -0.9980822) /* PCAPRecordedLocation */
+VALUES (3676, 8040, 0x7D640013, 57.36667, 48.95541, 11.999, -0.061904, 0, 0, -0.998082) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640013 [57.366670 48.955410 11.999000] -0.061904 0.000000 0.000000 -0.998082 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3676, 8000, 2624345612) /* PCAPRecordedObjectIID */;
+VALUES (3676, 8000, 0x9C6C560C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (3676, 67111920, 0, 0);

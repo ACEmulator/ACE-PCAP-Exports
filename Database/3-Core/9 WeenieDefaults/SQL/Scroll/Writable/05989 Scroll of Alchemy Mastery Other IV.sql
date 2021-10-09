@@ -24,13 +24,13 @@ VALUES (5989,   1, 'Scroll of Alchemy Mastery Other IV') /* Name */
 Increases the target''s Alchemy skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5989,   1,   33554826) /* Setup */
-     , (5989,   8,  100676480) /* Icon */
-     , (5989,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5989,   1, 0x0200018A) /* Setup */
+     , (5989,   8, 0x06003380) /* Icon */
+     , (5989,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5989,  28,       1760) /* Spell - AlchemyMasteryOther4 */
      , (5989, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (5989, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5989, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5989, 8000, 2618386299) /* PCAPRecordedObjectIID */;
+VALUES (5989, 8000, 0x9C11677B) /* PCAPRecordedObjectIID */;

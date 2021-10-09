@@ -22,16 +22,16 @@ VALUES (8458,   1, 'Slithis Pit') /* Name */
      , (8458, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8458,   1,   33554867) /* Setup */
-     , (8458,   2,  150994947) /* MotionTable */
-     , (8458,   8,  100667499) /* Icon */
+VALUES (8458,   1, 0x020001B3) /* Setup */
+     , (8458,   2, 0x09000003) /* MotionTable */
+     , (8458,   8, 0x0600106B) /* Icon */
      , (8458, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (8458, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (8458, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8458, 8040, 4112973846, 66.1479, 136.829, 21.82709, -0.3328091, 0, 0, 0.9429942) /* PCAPRecordedLocation */
+VALUES (8458, 8040, 0xF5270016, 66.1479, 136.829, 21.82709, -0.332809, 0, 0, 0.942994) /* PCAPRecordedLocation */
 /* @teleloc 0xF5270016 [66.147900 136.829000 21.827090] -0.332809 0.000000 0.000000 0.942994 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8458, 8000, 2136109056) /* PCAPRecordedObjectIID */;
+VALUES (8458, 8000, 0x7F527000) /* PCAPRecordedObjectIID */;

@@ -52,18 +52,18 @@ VALUES (41053,   1, 'Acid Greataxe') /* Name */
      , (41053,  16, 'Acid Greataxe') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41053,   1,   33560803) /* Setup */
-     , (41053,   3,  536870932) /* SoundTable */
-     , (41053,   6,   67115558) /* PaletteBase */
-     , (41053,   8,  100690774) /* Icon */
-     , (41053,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41053,   1, 0x020018E3) /* Setup */
+     , (41053,   3, 0x20000014) /* SoundTable */
+     , (41053,   6, 0x04001A26) /* PaletteBase */
+     , (41053,   8, 0x06006B56) /* Icon */
+     , (41053,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41053,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41053, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41053, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41053, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41053, 8000, 3086912943) /* PCAPRecordedObjectIID */;
+VALUES (41053, 8000, 0xB7FE8DAF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41053,  1616,      2)  /* BloodDrinkerSelf6 */;

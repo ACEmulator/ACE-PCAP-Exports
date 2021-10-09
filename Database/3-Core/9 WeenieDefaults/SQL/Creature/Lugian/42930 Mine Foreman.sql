@@ -30,21 +30,21 @@ VALUES (42930,   1, 'Mine Foreman') /* Name */
      , (42930, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42930,   1,   33557003) /* Setup */
-     , (42930,   2,  150994950) /* MotionTable */
-     , (42930,   3,  536870922) /* SoundTable */
-     , (42930,   6,   67113158) /* PaletteBase */
-     , (42930,   8,  100667447) /* Icon */
+VALUES (42930,   1, 0x02000A0B) /* Setup */
+     , (42930,   2, 0x09000006) /* MotionTable */
+     , (42930,   3, 0x2000000A) /* SoundTable */
+     , (42930,   6, 0x040010C6) /* PaletteBase */
+     , (42930,   8, 0x06001037) /* Icon */
      , (42930, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (42930, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (42930, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42930, 8040, 537856560, 46.368, 4.6464, -35.59, -0.9991389, 0, 0, 0.0414902) /* PCAPRecordedLocation */
+VALUES (42930, 8040, 0x200F0A30, 46.368, 4.6464, -35.59, -0.999139, 0, 0, 0.04149) /* PCAPRecordedLocation */
 /* @teleloc 0x200F0A30 [46.368000 4.646400 -35.590000] -0.999139 0.000000 0.000000 0.041490 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42930, 8000, 3706592158) /* PCAPRecordedObjectIID */;
+VALUES (42930, 8000, 0xDCEE1B9E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42930,   1, 400, 0, 0) /* Strength */

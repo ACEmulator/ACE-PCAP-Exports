@@ -31,14 +31,14 @@ VALUES (22445,   1, 'Soft Bandages') /* Name */
      , (22445,  20, 'Bundles of Soft Bandages') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22445,   1,   33555194) /* Setup */
-     , (22445,   8,  100673814) /* Icon */
+VALUES (22445,   1, 0x020002FA) /* Setup */
+     , (22445,   8, 0x06002916) /* Icon */
      , (22445, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (22445, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (22445, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22445, 8000, 2461518113) /* PCAPRecordedObjectIID */;
+VALUES (22445, 8000, 0x92B7C921) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (22445, 0, 83889681, 83890932)

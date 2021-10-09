@@ -14,7 +14,8 @@ VALUES (38043,   1,        128) /* ItemType - Misc */
      , (38043, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38043,  22, True ) /* Inscribable */;
+VALUES (38043,  22, True ) /* Inscribable */
+     , (38043,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38043,   1, 'Diplomatic Message from Harlune') /* Name */
@@ -22,13 +23,13 @@ VALUES (38043,   1, 'Diplomatic Message from Harlune') /* Name */
      , (38043,  16, 'This official diplomatic message from Harlune is written in three languages.  Two versions are in what you''d guess to be Empyrean and Ancient Falatacot, but the third is in Roulean...unfortunately.  You''ve never seen a cruder, irreverent, more spiteful letter in your life.  This letter was designed by a master to anger whoever it is addressed to.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38043,   1,   33554773) /* Setup */
-     , (38043,   3,  536870932) /* SoundTable */
-     , (38043,   8,  100668176) /* Icon */
-     , (38043,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38043,   1, 0x02000155) /* Setup */
+     , (38043,   3, 0x20000014) /* SoundTable */
+     , (38043,   8, 0x06001310) /* Icon */
+     , (38043,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38043, 8001,      16400) /* PCAPRecordedWeenieHeader - Usable, Container */
      , (38043, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38043, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38043, 8000, 2210356883) /* PCAPRecordedObjectIID */;
+VALUES (38043, 8000, 0x83BF5E93) /* PCAPRecordedObjectIID */;

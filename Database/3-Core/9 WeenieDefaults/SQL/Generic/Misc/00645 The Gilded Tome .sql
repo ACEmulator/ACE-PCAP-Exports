@@ -19,18 +19,18 @@ VALUES (645,   1, 'The Gilded Tome ') /* Name */
      , (645,  16, 'The Gilded Tome') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (645,   1,   33555088) /* Setup */
-     , (645,   8,  100668115) /* Icon */
+VALUES (645,   1, 0x02000290) /* Setup */
+     , (645,   8, 0x060012D3) /* Icon */
      , (645, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (645, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (645, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (645, 8040, 3364618270, 75.06, 134.482, 22, 0.677918, 0, 0, -0.735137) /* PCAPRecordedLocation */
+VALUES (645, 8040, 0xC88C001E, 75.06, 134.482, 22, 0.677918, 0, 0, -0.735137) /* PCAPRecordedLocation */
 /* @teleloc 0xC88C001E [75.060000 134.482000 22.000000] 0.677918 0.000000 0.000000 -0.735137 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (645, 8000, 2089336876) /* PCAPRecordedObjectIID */;
+VALUES (645, 8000, 0x7C88C02C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (645, 0, 83891055, 83889905);

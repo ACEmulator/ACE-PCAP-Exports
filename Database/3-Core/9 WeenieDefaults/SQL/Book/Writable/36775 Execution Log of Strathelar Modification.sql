@@ -20,17 +20,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36775,   1, 'Execution Log of Strathelar Modification') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36775,   1,   33556994) /* Setup */
-     , (36775,   3,  536870932) /* SoundTable */
-     , (36775,   8,  100671418) /* Icon */
-     , (36775,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36775,   1, 0x02000A02) /* Setup */
+     , (36775,   3, 0x20000014) /* SoundTable */
+     , (36775,   8, 0x06001FBA) /* Icon */
+     , (36775,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36775, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (36775, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (36775, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36775, 8040, 32376360, 100.908, -199.999, 42, -0.8854162, 0, 0, 0.4647991) /* PCAPRecordedLocation */
+VALUES (36775, 8040, 0x01EE0628, 100.908, -199.999, 42, -0.885416, 0, 0, 0.464799) /* PCAPRecordedLocation */
 /* @teleloc 0x01EE0628 [100.908000 -199.999000 42.000000] -0.885416 0.000000 0.000000 0.464799 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36775, 8000, 3696893324) /* PCAPRecordedObjectIID */;
+VALUES (36775, 8000, 0xDC5A1D8C) /* PCAPRecordedObjectIID */;

@@ -21,13 +21,13 @@ VALUES (14793,   1, 'Stemless Mushroom') /* Name */
      , (14793,  20, 'Stemless Mushrooms') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14793,   1,   33557501) /* Setup */
-     , (14793,   3,  536870932) /* SoundTable */
-     , (14793,   8,  100672563) /* Icon */
-     , (14793,  22,  872415275) /* PhysicsEffectTable */
+VALUES (14793,   1, 0x02000BFD) /* Setup */
+     , (14793,   3, 0x20000014) /* SoundTable */
+     , (14793,   8, 0x06002433) /* Icon */
+     , (14793,  22, 0x3400002B) /* PhysicsEffectTable */
      , (14793, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (14793, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (14793, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14793, 8000, 3709706536) /* PCAPRecordedObjectIID */;
+VALUES (14793, 8000, 0xDD1DA128) /* PCAPRecordedObjectIID */;

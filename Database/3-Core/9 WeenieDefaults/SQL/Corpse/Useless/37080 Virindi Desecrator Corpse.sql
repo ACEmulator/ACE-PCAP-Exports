@@ -20,20 +20,20 @@ VALUES (37080,   1, 'Virindi Desecrator Corpse') /* Name */
      , (37080, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37080,   1,   33558343) /* Setup */
-     , (37080,   2,  150995427) /* MotionTable */
-     , (37080,   6,   67114250) /* PaletteBase */
-     , (37080,   8,  100674323) /* Icon */
+VALUES (37080,   1, 0x02000F47) /* Setup */
+     , (37080,   2, 0x090001E3) /* MotionTable */
+     , (37080,   6, 0x0400150A) /* PaletteBase */
+     , (37080,   8, 0x06002B13) /* Icon */
      , (37080, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (37080, 8003,       8341) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable, UiHidden, Corpse */
      , (37080, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37080, 8040, 12583368, 97.0583, -128.198, 0.02899997, 0.3878188, 0, 0, 0.9217356) /* PCAPRecordedLocation */
+VALUES (37080, 8040, 0x00C001C8, 97.0583, -128.198, 0.029, 0.387819, 0, 0, 0.921736) /* PCAPRecordedLocation */
 /* @teleloc 0x00C001C8 [97.058300 -128.198000 0.029000] 0.387819 0.000000 0.000000 0.921736 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37080, 8000, 1879834646) /* PCAPRecordedObjectIID */;
+VALUES (37080, 8000, 0x700C0016) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37080, 67114252, 0, 0);

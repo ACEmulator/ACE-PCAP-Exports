@@ -22,16 +22,16 @@ VALUES (8476,   1, 'Moarsmen Muck') /* Name */
      , (8476, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8476,   1,   33555923) /* Setup */
-     , (8476,   2,  150994947) /* MotionTable */
-     , (8476,   8,  100667499) /* Icon */
+VALUES (8476,   1, 0x020005D3) /* Setup */
+     , (8476,   2, 0x09000003) /* MotionTable */
+     , (8476,   8, 0x0600106B) /* Icon */
      , (8476, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (8476, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (8476, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8476, 8040, 1665860724, 63.0112, -90.7442, -0.05799997, 0.6960842, 0, 0, -0.7179602) /* PCAPRecordedLocation */
+VALUES (8476, 8040, 0x634B0474, 63.0112, -90.7442, -0.058, 0.696084, 0, 0, -0.71796) /* PCAPRecordedLocation */
 /* @teleloc 0x634B0474 [63.011200 -90.744200 -0.058000] 0.696084 0.000000 0.000000 -0.717960 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8476, 8000, 1983164608) /* PCAPRecordedObjectIID */;
+VALUES (8476, 8000, 0x7634B0C0) /* PCAPRecordedObjectIID */;

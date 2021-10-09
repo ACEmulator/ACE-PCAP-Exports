@@ -32,22 +32,22 @@ VALUES (21394,   1, 'Ring of Intellect') /* Name */
      , (21394,  15, 'An obsidian ring with a precious sapphire set within.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21394,   1,   33554690) /* Setup */
-     , (21394,   3,  536870932) /* SoundTable */
-     , (21394,   6,   67111919) /* PaletteBase */
-     , (21394,   8,  100673499) /* Icon */
-     , (21394,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21394,   1, 0x02000102) /* Setup */
+     , (21394,   3, 0x20000014) /* SoundTable */
+     , (21394,   6, 0x04000BEF) /* PaletteBase */
+     , (21394,   8, 0x060027DB) /* Icon */
+     , (21394,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21394, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
      , (21394, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21394, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21394, 8000, 2164423612) /* PCAPRecordedObjectIID */;
+VALUES (21394, 8000, 0x81027BBC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21394,   663,      2)  /* ManaMasteryOther5 */
-     , (21394,  1455,      2)  /* WillpowerOther5 */
-     , (21394,  2691,      2)  /* ModerateManaConversionProwess */;
+VALUES (21394,  2691,      2)  /* ModerateManaConversionProwess */
+     , (21394,   663,      2)  /* ManaMasteryOther5 */
+     , (21394,  1455,      2)  /* WillpowerOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21394, 67111927, 0, 0);

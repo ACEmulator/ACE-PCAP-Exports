@@ -24,13 +24,13 @@ VALUES (3456,   1, 'Scroll of Person Attunement Self V') /* Name */
 Increases the caster''s Assess Person skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3456,   1,   33554826) /* Setup */
-     , (3456,   8,  100676448) /* Icon */
-     , (3456,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3456,   1, 0x0200018A) /* Setup */
+     , (3456,   8, 0x06003360) /* Icon */
+     , (3456,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3456,  28,        828) /* Spell - PersonAttunementSelf5 */
      , (3456, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3456, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3456, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3456, 8000, 3627642894) /* PCAPRecordedObjectIID */;
+VALUES (3456, 8000, 0xD839700E) /* PCAPRecordedObjectIID */;

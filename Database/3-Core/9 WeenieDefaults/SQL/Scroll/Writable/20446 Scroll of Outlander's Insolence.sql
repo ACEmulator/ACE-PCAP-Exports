@@ -24,13 +24,13 @@ VALUES (20446,   1, 'Scroll of Outlander''s Insolence') /* Name */
 Sends a bolt of force streaking towards the target. The bolt does 42-84 points of piercing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20446,   1,   33554826) /* Setup */
-     , (20446,   8,  100677019) /* Icon */
-     , (20446,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20446,   1, 0x0200018A) /* Setup */
+     , (20446,   8, 0x0600359B) /* Icon */
+     , (20446,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20446,  28,       2133) /* Spell - ForceStreak7 */
      , (20446, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20446, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20446, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20446, 8000, 3676920410) /* PCAPRecordedObjectIID */;
+VALUES (20446, 8000, 0xDB295A5A) /* PCAPRecordedObjectIID */;

@@ -41,22 +41,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39980,   1, 'Ceremonial Tunic') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39980,   1,   33554854) /* Setup */
-     , (39980,   3,  536870932) /* SoundTable */
-     , (39980,   6,   67108990) /* PaletteBase */
-     , (39980,   8,  100685815) /* Icon */
-     , (39980,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39980,   1, 0x020001A6) /* Setup */
+     , (39980,   3, 0x20000014) /* SoundTable */
+     , (39980,   6, 0x0400007E) /* PaletteBase */
+     , (39980,   8, 0x060057F7) /* Icon */
+     , (39980,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39980, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
      , (39980, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39980, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39980, 8000, 2151421546) /* PCAPRecordedObjectIID */;
+VALUES (39980, 8000, 0x803C166A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39980,  2612,      2)  /* CANTRIPFROSTWARD2 */
-     , (39980,  4495,      2)  /* RegenerationOther8 */
-     , (39980,  4497,      2)  /* RejuvenationOther8 */;
+VALUES (39980,  4495,      2)  /* RegenerationOther8 */
+     , (39980,  4497,      2)  /* RejuvenationOther8 */
+     , (39980,  2612,      2)  /* CANTRIPFROSTWARD2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (39980, 67115935, 40, 24);

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (6292,   1,          1) /* ItemType - MeleeWeapon */
      , (6292,   5,        450) /* EncumbranceVal */
      , (6292,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (6292,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (6292,  16,          1) /* ItemUseable - No */
      , (6292,  18,          1) /* UiEffects - Magical */
      , (6292,  19,       5000) /* Value */
@@ -49,31 +48,31 @@ VALUES (6292,   1, 'Peerless Shivering Atlan Sword') /* Name */
      , (6292,   8, 'Galapas Tobolsun') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6292,   1,   33556385) /* Setup */
-     , (6292,   3,  536870932) /* SoundTable */
-     , (6292,   6,   67111919) /* PaletteBase */
-     , (6292,   8,  100670568) /* Icon */
-     , (6292,  22,  872415275) /* PhysicsEffectTable */
+VALUES (6292,   1, 0x020007A1) /* Setup */
+     , (6292,   3, 0x20000014) /* SoundTable */
+     , (6292,   6, 0x04000BEF) /* PaletteBase */
+     , (6292,   8, 0x06001C68) /* Icon */
+     , (6292,  22, 0x3400002B) /* PhysicsEffectTable */
      , (6292, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (6292, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (6292, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
      , (6292, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6292, 8040, 3332964361, 46.83, 4.219, 41.929, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
+VALUES (6292, 8040, 0xC6A90009, 46.83, 4.219, 41.929, 0.707107, 0.707107, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90009 [46.830000 4.219000 41.929000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6292, 8000, 2148398833) /* PCAPRecordedObjectIID */
-     , (6292, 8008, 1342363218) /* PCAPRecordedParentIID */;
+VALUES (6292, 8000, 0x800DF6F1) /* PCAPRecordedObjectIID */
+     , (6292, 8008, 0x5002D652) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6292,  1033,      2)  /* ColdProtectionSelf4 */
-     , (6292,  1400,      2)  /* QuicknessSelf4 */
-     , (6292,  1590,      2)  /* HeartSeekerSelf4 */
-     , (6292,  1603,      2)  /* DefenderSelf4 */
+VALUES (6292,  1603,      2)  /* DefenderSelf4 */
+     , (6292,  1033,      2)  /* ColdProtectionSelf4 */
      , (6292,  1614,      2)  /* BloodDrinkerSelf4 */
-     , (6292,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (6292,  1625,      2)  /* SwiftKillerSelf4 */
+     , (6292,  1590,      2)  /* HeartSeekerSelf4 */
+     , (6292,  1400,      2)  /* QuicknessSelf4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (6292, 67111919, 0, 0);

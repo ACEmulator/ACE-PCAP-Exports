@@ -23,17 +23,17 @@ VALUES (780,   1, 'Wormwood') /* Name */
      , (780,  20, 'Sacks of Wormwood') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (780,   1,   33554817) /* Setup */
-     , (780,   3,  536870932) /* SoundTable */
-     , (780,   6,   67111919) /* PaletteBase */
-     , (780,   8,  100668432) /* Icon */
-     , (780,  22,  872415275) /* PhysicsEffectTable */
+VALUES (780,   1, 0x02000181) /* Setup */
+     , (780,   3, 0x20000014) /* SoundTable */
+     , (780,   6, 0x04000BEF) /* PaletteBase */
+     , (780,   8, 0x06001410) /* Icon */
+     , (780,  22, 0x3400002B) /* PhysicsEffectTable */
      , (780, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (780, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (780, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (780, 8000, 2856726447) /* PCAPRecordedObjectIID */;
+VALUES (780, 8000, 0xAA462FAF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (780, 67111927, 0, 0);

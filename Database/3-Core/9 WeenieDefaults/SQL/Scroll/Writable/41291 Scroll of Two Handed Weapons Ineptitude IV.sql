@@ -24,13 +24,13 @@ VALUES (41291,   1, 'Scroll of Two Handed Weapons Ineptitude IV') /* Name */
 Decreases the target''s Two Handed Combat skill by 25 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41291,   1,   33554826) /* Setup */
-     , (41291,   8,  100690644) /* Icon */
-     , (41291,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41291,   1, 0x0200018A) /* Setup */
+     , (41291,   8, 0x06006AD4) /* Icon */
+     , (41291,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41291,  28,       5078) /* Spell - TwoHandedIneptitude4 */
      , (41291, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (41291, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41291, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41291, 8000, 3699664530) /* PCAPRecordedObjectIID */;
+VALUES (41291, 8000, 0xDC846692) /* PCAPRecordedObjectIID */;

@@ -28,22 +28,22 @@ VALUES (33962,   1, 'Pet Baby Drudge') /* Name */
      , (33962, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33962,   1,   33556445) /* Setup */
-     , (33962,   2,  150994952) /* MotionTable */
-     , (33962,   3,  536870919) /* SoundTable */
-     , (33962,   6,   67112812) /* PaletteBase */
-     , (33962,   8,  100667445) /* Icon */
-     , (33962,  22,  872415258) /* PhysicsEffectTable */
+VALUES (33962,   1, 0x020007DD) /* Setup */
+     , (33962,   2, 0x09000008) /* MotionTable */
+     , (33962,   3, 0x20000007) /* SoundTable */
+     , (33962,   6, 0x04000F6C) /* PaletteBase */
+     , (33962,   8, 0x06001035) /* Icon */
+     , (33962,  22, 0x3400001A) /* PhysicsEffectTable */
      , (33962, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
      , (33962, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (33962, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33962, 8040, 2963996940, 113.336, 87.3303, 61.00228, 0.7787, 0, 0, 0.627396) /* PCAPRecordedLocation */
+VALUES (33962, 8040, 0xB0AB010C, 113.336, 87.3303, 61.00228, 0.7787, 0, 0, 0.627396) /* PCAPRecordedLocation */
 /* @teleloc 0xB0AB010C [113.336000 87.330300 61.002280] 0.778700 0.000000 0.000000 0.627396 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33962, 8000, 3710889743) /* PCAPRecordedObjectIID */;
+VALUES (33962, 8000, 0xDD2FAF0F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (33962,   1,     0, 0, 0, 20) /* MaxHealth */;

@@ -21,17 +21,17 @@ VALUES (22845,   1, 'Log Table') /* Name */
      , (22845,  15, 'A big log that can be used as a table.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22845,   1,   33558141) /* Setup */
-     , (22845,   3,  536870932) /* SoundTable */
-     , (22845,   8,  100673881) /* Icon */
-     , (22845,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22845,   1, 0x02000E7D) /* Setup */
+     , (22845,   3, 0x20000014) /* SoundTable */
+     , (22845,   8, 0x06002959) /* Icon */
+     , (22845,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22845, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
      , (22845, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22845, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22845, 8040, 23855555, 58.1614, -37.30812, 0.05000001, -0.2371271, 0, 0, -0.9714786) /* PCAPRecordedLocation */
+VALUES (22845, 8040, 0x016C01C3, 58.1614, -37.30812, 0.05, -0.237127, 0, 0, -0.971479) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [58.161400 -37.308120 0.050000] -0.237127 0.000000 0.000000 -0.971479 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22845, 8000, 3321353080) /* PCAPRecordedObjectIID */;
+VALUES (22845, 8000, 0xC5F7D378) /* PCAPRecordedObjectIID */;

@@ -22,16 +22,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37376,   1, 'Arcane Death') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37376,   1,   33555469) /* Setup */
-     , (37376,   8,  100689841) /* Icon */
+VALUES (37376,   1, 0x0200040D) /* Setup */
+     , (37376,   8, 0x060067B1) /* Icon */
      , (37376,  28,       4264) /* Spell - ArcaneDeath */
      , (37376, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
      , (37376, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (37376, 8005,      33541) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (37376, 8040, 4181394348, 89.27393, 59.53822, -56.37167, -0.3826834, 0, 0, -0.9238796) /* PCAPRecordedLocation */
+VALUES (37376, 8040, 0xF93B03AC, 89.27393, 59.53822, -56.37167, -0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0xF93B03AC [89.273930 59.538220 -56.371670] -0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37376, 8000, 2629806544) /* PCAPRecordedObjectIID */;
+VALUES (37376, 8000, 0x9CBFA9D0) /* PCAPRecordedObjectIID */;

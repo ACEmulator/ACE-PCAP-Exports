@@ -25,13 +25,13 @@ VALUES (8369,   1, 'Crystal Nodule') /* Name */
      , (8369,  16, 'A geode found in the Knath''tead grottos beneath Xarabydun. There appears to be a small Knath growing inside it.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8369,   1,   33556851) /* Setup */
-     , (8369,   3,  536870932) /* SoundTable */
-     , (8369,   8,  100671117) /* Icon */
-     , (8369,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8369,   1, 0x02000973) /* Setup */
+     , (8369,   3, 0x20000014) /* SoundTable */
+     , (8369,   8, 0x06001E8D) /* Icon */
+     , (8369,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8369, 8001,  270549144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, Burden, HookType */
      , (8369, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8369, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8369, 8000, 2981041666) /* PCAPRecordedObjectIID */;
+VALUES (8369, 8000, 0xB1AF1602) /* PCAPRecordedObjectIID */;

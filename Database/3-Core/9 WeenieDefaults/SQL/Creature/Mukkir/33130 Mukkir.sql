@@ -25,23 +25,23 @@ VALUES (33130,   1, 'Mukkir') /* Name */
      , (33130, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33130,   1,   33559741) /* Setup */
-     , (33130,   2,  150995348) /* MotionTable */
-     , (33130,   3,  536871107) /* SoundTable */
-     , (33130,   6,   67116771) /* PaletteBase */
-     , (33130,   8,  100688542) /* Icon */
-     , (33130,  22,  872415417) /* PhysicsEffectTable */
+VALUES (33130,   1, 0x020014BD) /* Setup */
+     , (33130,   2, 0x09000194) /* MotionTable */
+     , (33130,   3, 0x200000C3) /* SoundTable */
+     , (33130,   6, 0x04001EE3) /* PaletteBase */
+     , (33130,   8, 0x0600629E) /* Icon */
+     , (33130,  22, 0x340000B9) /* PhysicsEffectTable */
      , (33130,  30,         86) /* PhysicsScript - BreatheAcid */
      , (33130, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33130, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33130, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33130, 8040, 5506179, 61.3137, -418.889, -30, 0.6967069, 0, 0, 0.7173559) /* PCAPRecordedLocation */
+VALUES (33130, 8040, 0x00540483, 61.3137, -418.889, -30, 0.696707, 0, 0, 0.717356) /* PCAPRecordedLocation */
 /* @teleloc 0x00540483 [61.313700 -418.889000 -30.000000] 0.696707 0.000000 0.000000 0.717356 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33130, 8000, 2885392163) /* PCAPRecordedObjectIID */;
+VALUES (33130, 8000, 0xABFB9723) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33130,   1, 400, 0, 0) /* Strength */

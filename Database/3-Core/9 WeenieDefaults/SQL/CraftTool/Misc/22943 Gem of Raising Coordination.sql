@@ -22,16 +22,16 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22943,   1, 'Gem of Raising Coordination') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22943,   1,   33558088) /* Setup */
-     , (22943,   6,   67111919) /* PaletteBase */
-     , (22943,   8,  100673788) /* Icon */
-     , (22943,  50,  100673962) /* IconOverlay */
+VALUES (22943,   1, 0x02000E48) /* Setup */
+     , (22943,   6, 0x04000BEF) /* PaletteBase */
+     , (22943,   8, 0x060028FC) /* Icon */
+     , (22943,  50, 0x060029AA) /* IconOverlay */
      , (22943, 8001, 1076391952) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (22943, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22943, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22943, 8000, 2292874506) /* PCAPRecordedObjectIID */;
+VALUES (22943, 8000, 0x88AA7D0A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22943, 67111923, 0, 0);

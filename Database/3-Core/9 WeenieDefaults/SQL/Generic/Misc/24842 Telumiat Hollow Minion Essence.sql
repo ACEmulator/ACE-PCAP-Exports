@@ -19,17 +19,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24842,   1, 'Telumiat Hollow Minion Essence') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24842,   1,   33555205) /* Setup */
-     , (24842,   3,  536870932) /* SoundTable */
-     , (24842,   8,  100674488) /* Icon */
-     , (24842,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24842,   1, 0x02000305) /* Setup */
+     , (24842,   3, 0x20000014) /* SoundTable */
+     , (24842,   8, 0x06002BB8) /* Icon */
+     , (24842,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24842, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
      , (24842, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24842, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24842, 8040, 18809101, 28.44799, -22.99574, 0.5175, 0.05374185, 0, 0, -0.9985549) /* PCAPRecordedLocation */
+VALUES (24842, 8040, 0x011F010D, 28.44799, -22.99574, 0.5175, 0.053742, 0, 0, -0.998555) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010D [28.447990 -22.995740 0.517500] 0.053742 0.000000 0.000000 -0.998555 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24842, 8000, 3681661269) /* PCAPRecordedObjectIID */;
+VALUES (24842, 8000, 0xDB71B155) /* PCAPRecordedObjectIID */;

@@ -18,21 +18,24 @@ VALUES (46729,   1,        128) /* ItemType - Misc */
      , (46729, 114,          1) /* Attuned - Attuned */
      , (46729, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (46729,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46729,   1, 'Tanada Neophyte''s Mask') /* Name */
      , (46729,  16, 'A mask taken from a young Tanada Nanjou in training. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46729,   1,   33560096) /* Setup */
-     , (46729,   3,  536870932) /* SoundTable */
-     , (46729,   8,  100689101) /* Icon */
-     , (46729,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46729,   1, 0x02001620) /* Setup */
+     , (46729,   3, 0x20000014) /* SoundTable */
+     , (46729,   8, 0x060064CD) /* Icon */
+     , (46729,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46729, 8001,    2191384) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, ValidLocations, Burden */
      , (46729, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (46729, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46729, 8000, 2389423501) /* PCAPRecordedObjectIID */;
+VALUES (46729, 8000, 0x8E6BB58D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
 VALUES (46729, 0, 16793224);

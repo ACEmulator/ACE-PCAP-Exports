@@ -36,17 +36,17 @@ VALUES (27225,   1, 'Lorica Sleeves') /* Name */
      , (27225,  16, 'Lorica Sleeves') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27225,   1,   33554655) /* Setup */
-     , (27225,   3,  536870932) /* SoundTable */
-     , (27225,   6,   67108990) /* PaletteBase */
-     , (27225,   8,  100676134) /* Icon */
-     , (27225,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27225,   1, 0x020000DF) /* Setup */
+     , (27225,   3, 0x20000014) /* SoundTable */
+     , (27225,   6, 0x0400007E) /* PaletteBase */
+     , (27225,   8, 0x06003226) /* Icon */
+     , (27225,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27225, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (27225, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27225, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27225, 8000, 3705344040) /* PCAPRecordedObjectIID */;
+VALUES (27225, 8000, 0xDCDB1028) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27225, 67115030, 96, 8)

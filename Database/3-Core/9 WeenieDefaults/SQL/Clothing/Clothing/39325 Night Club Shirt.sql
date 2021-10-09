@@ -8,7 +8,6 @@ VALUES (39325,   1,          4) /* ItemType - Clothing */
      , (39325,   4,         40) /* ClothingPriority - UnderwearChest, UnderwearUpperArms */
      , (39325,   5,         60) /* EncumbranceVal */
      , (39325,   9,         14) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear */
-     , (39325,  10,         10) /* CurrentWieldedLocation - ChestWear, UpperArmWear */
      , (39325,  16,          1) /* ItemUseable - No */
      , (39325,  19,       2449) /* Value */
      , (39325,  28,          0) /* ArmorLevel */
@@ -35,16 +34,16 @@ VALUES (39325,   1, 'Night Club Shirt') /* Name */
      , (39325,  16, 'A limited-edition shirt made available in the Night Club dungeon for the 9th anniversary of Asheron''s Call.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (39325,   1,   33554883) /* Setup */
-     , (39325,   3,  536870932) /* SoundTable */
-     , (39325,   8,  100690302) /* Icon */
-     , (39325,  22,  872415275) /* PhysicsEffectTable */
+VALUES (39325,   1, 0x020001C3) /* Setup */
+     , (39325,   3, 0x20000014) /* SoundTable */
+     , (39325,   8, 0x0600697E) /* Icon */
+     , (39325,  22, 0x3400002B) /* PhysicsEffectTable */
      , (39325, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (39325, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (39325, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39325, 8000, 3710965705) /* PCAPRecordedObjectIID */;
+VALUES (39325, 8000, 0xDD30D7C9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (39325, 0, 83887061, 83897974)

@@ -14,7 +14,8 @@ VALUES (36785,   1,        128) /* ItemType - Misc */
      , (36785, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36785,  22, True ) /* Inscribable */;
+VALUES (36785,  22, True ) /* Inscribable */
+     , (36785,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36785,  39,     0.9) /* DefaultScale */
@@ -26,21 +27,21 @@ VALUES (36785,   1, 'Head of the Apparition Olthoi Queen ') /* Name */
      , (36785,  16, 'This is a distant reflection of the head of the Olthoi Queen, sundered from reality by Aerbax in his attempt to put humanity back under the rule of the Olthoi.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36785,   1,   33560334) /* Setup */
-     , (36785,   3,  536870932) /* SoundTable */
-     , (36785,   6,   67113288) /* PaletteBase */
-     , (36785,   8,  100689564) /* Icon */
-     , (36785,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36785,   1, 0x0200170E) /* Setup */
+     , (36785,   3, 0x20000014) /* SoundTable */
+     , (36785,   6, 0x04001148) /* PaletteBase */
+     , (36785,   8, 0x0600669C) /* Icon */
+     , (36785,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36785, 8001,    2097296) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Burden */
      , (36785, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36785, 8005,     301185) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (36785, 8040, 32376026, 99.50688, -201.967, -6, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (36785, 8040, 0x01EE04DA, 99.50688, -201.967, -6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x01EE04DA [99.506880 -201.967000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36785, 8000, 3696975085) /* PCAPRecordedObjectIID */;
+VALUES (36785, 8000, 0xDC5B5CED) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (36785, 67114477, 0, 0);

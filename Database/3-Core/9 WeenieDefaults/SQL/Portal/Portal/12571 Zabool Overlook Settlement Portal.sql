@@ -22,16 +22,16 @@ VALUES (12571,   1, 'Zabool Overlook Settlement Portal') /* Name */
      , (12571, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12571,   1,   33554867) /* Setup */
-     , (12571,   2,  150994947) /* MotionTable */
-     , (12571,   8,  100667499) /* Icon */
+VALUES (12571,   1, 0x020001B3) /* Setup */
+     , (12571,   2, 0x09000003) /* MotionTable */
+     , (12571,   8, 0x0600106B) /* Icon */
      , (12571, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12571, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12571, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12571, 8040, 2762080275, 68.9415, 51.0403, 141.4288, -0.445552, 0, 0, 0.895256) /* PCAPRecordedLocation */
+VALUES (12571, 8040, 0xA4A20013, 68.9415, 51.0403, 141.4288, -0.445552, 0, 0, 0.895256) /* PCAPRecordedLocation */
 /* @teleloc 0xA4A20013 [68.941500 51.040300 141.428800] -0.445552 0.000000 0.000000 0.895256 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12571, 8000, 2051678210) /* PCAPRecordedObjectIID */;
+VALUES (12571, 8000, 0x7A4A2002) /* PCAPRecordedObjectIID */;

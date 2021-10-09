@@ -24,13 +24,13 @@ VALUES (8929,   1, 'Scroll of Force Streak') /* Name */
 Sends a bolt of force streaking towards the target. The bolt does 16-31 points of piercing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8929,   1,   33554826) /* Setup */
-     , (8929,   8,  100677019) /* Icon */
-     , (8929,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8929,   1, 0x0200018A) /* Setup */
+     , (8929,   8, 0x0600359B) /* Icon */
+     , (8929,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8929,  28,       1802) /* Spell - ForceStreak1 */
      , (8929, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (8929, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8929, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8929, 8000, 2624636191) /* PCAPRecordedObjectIID */;
+VALUES (8929, 8000, 0x9C70C51F) /* PCAPRecordedObjectIID */;

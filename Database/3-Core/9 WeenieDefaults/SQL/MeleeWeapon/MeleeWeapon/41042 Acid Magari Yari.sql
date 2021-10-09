@@ -44,20 +44,17 @@ VALUES (41042,   1, 'Acid Magari Yari') /* Name */
      , (41042,  16, 'Acid Magari Yari') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41042,   1,   33560796) /* Setup */
-     , (41042,   3,  536870932) /* SoundTable */
-     , (41042,   6,   67115558) /* PaletteBase */
-     , (41042,   8,  100690511) /* Icon */
-     , (41042,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41042,   1, 0x020018DC) /* Setup */
+     , (41042,   3, 0x20000014) /* SoundTable */
+     , (41042,   6, 0x04001A26) /* PaletteBase */
+     , (41042,   8, 0x06006A4F) /* Icon */
+     , (41042,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41042, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (41042, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41042, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41042, 8000, 2150841370) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41042, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
+VALUES (41042, 8000, 0x80333C1A) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (41042, 67116384, 0, 0);

@@ -48,21 +48,18 @@ VALUES (3906,   1, 'Lightning War Hammer') /* Name */
      , (3906,  16, 'Lightning War Hammer of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3906,   1,   33555829) /* Setup */
-     , (3906,   3,  536870932) /* SoundTable */
-     , (3906,   8,  100669074) /* Icon */
-     , (3906,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3906,   1, 0x02000575) /* Setup */
+     , (3906,   3, 0x20000014) /* SoundTable */
+     , (3906,   8, 0x06001692) /* Icon */
+     , (3906,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3906,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3906, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3906, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3906, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3906, 8000, 3701225638) /* PCAPRecordedObjectIID */;
+VALUES (3906, 8000, 0xDC9C38A6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3906,  1590,      2)  /* HeartSeekerSelf4 */
-     , (3906,  1614,      2)  /* BloodDrinkerSelf4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3906, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
+VALUES (3906,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (3906,  1590,      2)  /* HeartSeekerSelf4 */;

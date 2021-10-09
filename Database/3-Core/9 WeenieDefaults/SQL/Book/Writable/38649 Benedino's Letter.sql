@@ -21,13 +21,13 @@ VALUES (38649,   1, 'Benedino''s Letter') /* Name */
      , (38649,  16, 'A letter from the spy Benedino to his Master.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38649,   1,   33554773) /* Setup */
-     , (38649,   3,  536870932) /* SoundTable */
-     , (38649,   8,  100668176) /* Icon */
-     , (38649,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38649,   1, 0x02000155) /* Setup */
+     , (38649,   3, 0x20000014) /* SoundTable */
+     , (38649,   8, 0x06001310) /* Icon */
+     , (38649,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38649, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
      , (38649, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (38649, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38649, 8000, 2626146175) /* PCAPRecordedObjectIID */;
+VALUES (38649, 8000, 0x9C87CF7F) /* PCAPRecordedObjectIID */;

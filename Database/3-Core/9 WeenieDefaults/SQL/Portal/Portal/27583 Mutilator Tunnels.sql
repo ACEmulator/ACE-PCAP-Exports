@@ -23,16 +23,16 @@ VALUES (27583,   1, 'Mutilator Tunnels') /* Name */
      , (27583, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27583,   1,   33555925) /* Setup */
-     , (27583,   2,  150994947) /* MotionTable */
-     , (27583,   8,  100667499) /* Icon */
+VALUES (27583,   1, 0x020005D5) /* Setup */
+     , (27583,   2, 0x09000003) /* MotionTable */
+     , (27583,   8, 0x0600106B) /* Icon */
      , (27583, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (27583, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (27583, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (27583, 8040, 499187764, 152.062, 93.4297, 74.60883, -0.02414891, 0, 0, -0.9997084) /* PCAPRecordedLocation */
+VALUES (27583, 8040, 0x1DC10034, 152.062, 93.4297, 74.60883, -0.024149, 0, 0, -0.999708) /* PCAPRecordedLocation */
 /* @teleloc 0x1DC10034 [152.062000 93.429700 74.608830] -0.024149 0.000000 0.000000 -0.999708 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27583, 8000, 1910247424) /* PCAPRecordedObjectIID */;
+VALUES (27583, 8000, 0x71DC1000) /* PCAPRecordedObjectIID */;

@@ -20,7 +20,8 @@ VALUES (36782,   1,       2048) /* ItemType - Gem */
      , (36782, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36782,  22, True ) /* Inscribable */;
+VALUES (36782,  22, True ) /* Inscribable */
+     , (36782,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36782,   1, 'Elysa''s Incomplete Reflection') /* Name */
@@ -28,13 +29,13 @@ VALUES (36782,   1, 'Elysa''s Incomplete Reflection') /* Name */
      , (36782,  16, 'This purple gem has three images of Elysa swirling in it, but still feels incomplete.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36782,   1,   33556769) /* Setup */
-     , (36782,   3,  536870932) /* SoundTable */
-     , (36782,   8,  100689641) /* Icon */
-     , (36782,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36782,   1, 0x02000921) /* Setup */
+     , (36782,   3, 0x20000014) /* SoundTable */
+     , (36782,   8, 0x060066E9) /* Icon */
+     , (36782,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36782, 8001,    2650256) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (36782, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (36782, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36782, 8000, 3697126755) /* PCAPRecordedObjectIID */;
+VALUES (36782, 8000, 0xDC5DAD63) /* PCAPRecordedObjectIID */;

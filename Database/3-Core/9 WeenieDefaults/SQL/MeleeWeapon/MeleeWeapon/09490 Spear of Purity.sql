@@ -46,9 +46,9 @@ VALUES (9490,   1, 'Spear of Purity') /* Name */
      , (9490,  15, 'Bask in the glow of your purity. [Note: You must have Spear specialized to use the magic on this item, in addition to the other requirements]') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9490,   1,   33557008) /* Setup */
-     , (9490,   8,  100671499) /* Icon */
-     , (9490,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9490,   1, 0x02000A10) /* Setup */
+     , (9490,   8, 0x0600200B) /* Icon */
+     , (9490,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9490,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (9490,  41,         44) /* ItemSpecializedOnly - HeavyWeapons */
      , (9490, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
@@ -56,7 +56,7 @@ VALUES (9490,   1,   33557008) /* Setup */
      , (9490, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9490, 8000, 2461428865) /* PCAPRecordedObjectIID */;
+VALUES (9490, 8000, 0x92B66C81) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9490,  2387,      2)  /* Determination */

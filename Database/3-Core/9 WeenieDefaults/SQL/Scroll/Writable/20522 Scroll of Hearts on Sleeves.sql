@@ -24,13 +24,13 @@ VALUES (20522,   1, 'Scroll of Hearts on Sleeves') /* Name */
 Decreases the target''s Deception skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20522,   1,   33554826) /* Setup */
-     , (20522,   8,  100676448) /* Icon */
-     , (20522,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20522,   1, 0x0200018A) /* Setup */
+     , (20522,   8, 0x06003360) /* Icon */
+     , (20522,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20522,  28,       2224) /* Spell - DeceptionIneptitudeOther7 */
      , (20522, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20522, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20522, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20522, 8000, 3706390735) /* PCAPRecordedObjectIID */;
+VALUES (20522, 8000, 0xDCEB08CF) /* PCAPRecordedObjectIID */;

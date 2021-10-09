@@ -22,21 +22,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24844,   1, 'Insidious Monouga Idol') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24844,   1,   33556903) /* Setup */
-     , (24844,   3,  536870932) /* SoundTable */
-     , (24844,   6,   67111919) /* PaletteBase */
-     , (24844,   8,  100674496) /* Icon */
-     , (24844,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24844,   1, 0x020009A7) /* Setup */
+     , (24844,   3, 0x20000014) /* SoundTable */
+     , (24844,   6, 0x04000BEF) /* PaletteBase */
+     , (24844,   8, 0x06002BC0) /* Icon */
+     , (24844,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24844, 8001,    2109464) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Burden */
      , (24844, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24844, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24844, 8040, 2392915988, 49.53096, 84.07317, 93.986, 0.7721938, 0, 0, -0.6353871) /* PCAPRecordedLocation */
+VALUES (24844, 8040, 0x8EA10014, 49.53096, 84.07317, 93.986, 0.772194, 0, 0, -0.635387) /* PCAPRecordedLocation */
 /* @teleloc 0x8EA10014 [49.530960 84.073170 93.986000] 0.772194 0.000000 0.000000 -0.635387 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24844, 8000, 2233985477) /* PCAPRecordedObjectIID */;
+VALUES (24844, 8000, 0x8527E9C5) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24844, 67111921, 0, 0);

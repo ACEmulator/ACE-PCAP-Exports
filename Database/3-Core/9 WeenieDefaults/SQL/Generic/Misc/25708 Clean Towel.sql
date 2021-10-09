@@ -15,6 +15,7 @@ VALUES (25708,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25708,  22, True ) /* Inscribable */
+     , (25708,  23, True ) /* DestroyOnSell */
      , (25708,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -22,13 +23,13 @@ VALUES (25708,   1, 'Clean Towel') /* Name */
      , (25708,  15, 'A clean towel. This was given to me by Dame Brinna O''Shea. It must have a use, but for the moment, what that use is, remains a mystery.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25708,   1,   33554647) /* Setup */
-     , (25708,   3,  536870932) /* SoundTable */
-     , (25708,   8,  100671664) /* Icon */
-     , (25708,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25708,   1, 0x020000D7) /* Setup */
+     , (25708,   3, 0x20000014) /* SoundTable */
+     , (25708,   8, 0x060020B0) /* Icon */
+     , (25708,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25708, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (25708, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25708, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25708, 8000, 2916266140) /* PCAPRecordedObjectIID */;
+VALUES (25708, 8000, 0xADD2B09C) /* PCAPRecordedObjectIID */;

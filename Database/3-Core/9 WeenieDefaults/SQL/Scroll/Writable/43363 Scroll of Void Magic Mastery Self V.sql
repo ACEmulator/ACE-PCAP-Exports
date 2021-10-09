@@ -24,13 +24,13 @@ VALUES (43363,   1, 'Scroll of Void Magic Mastery Self V') /* Name */
 Increases the caster''s Void Magic skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43363,   1,   33554826) /* Setup */
-     , (43363,   8,  100691548) /* Icon */
-     , (43363,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43363,   1, 0x0200018A) /* Setup */
+     , (43363,   8, 0x06006E5C) /* Icon */
+     , (43363,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43363,  28,       5415) /* Spell - VoidMagicMasterySelf5 */
      , (43363, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (43363, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43363, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43363, 8000, 3688233663) /* PCAPRecordedObjectIID */;
+VALUES (43363, 8000, 0xDBD5FABF) /* PCAPRecordedObjectIID */;

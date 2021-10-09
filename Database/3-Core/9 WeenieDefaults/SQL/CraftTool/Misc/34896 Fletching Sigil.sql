@@ -26,19 +26,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34896,   1, 'Fletching Sigil') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34896,   1,   33556223) /* Setup */
-     , (34896,   3,  536870932) /* SoundTable */
-     , (34896,   6,   67111928) /* PaletteBase */
-     , (34896,   8,  100689348) /* Icon */
-     , (34896,  22,  872415275) /* PhysicsEffectTable */
-     , (34896,  50,  100673765) /* IconOverlay */
+VALUES (34896,   1, 0x020006FF) /* Setup */
+     , (34896,   3, 0x20000014) /* SoundTable */
+     , (34896,   6, 0x04000BF8) /* PaletteBase */
+     , (34896,   8, 0x060065C4) /* Icon */
+     , (34896,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (34896,  50, 0x060028E5) /* IconOverlay */
      , (34896, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
      , (34896, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (34896, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (34896, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34896, 8000,      34896) /* PCAPRecordedObjectIID */;
+VALUES (34896, 8000, 0x00008850) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34896, 67112642, 0, 0);

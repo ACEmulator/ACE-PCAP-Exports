@@ -18,13 +18,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8075,   1, 'The D00dz') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8075,   1,   33554771) /* Setup */
-     , (8075,   3,  536870932) /* SoundTable */
-     , (8075,   8,  100670970) /* Icon */
-     , (8075,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8075,   1, 0x02000153) /* Setup */
+     , (8075,   3, 0x20000014) /* SoundTable */
+     , (8075,   8, 0x06001DFA) /* Icon */
+     , (8075,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8075, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
      , (8075, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (8075, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8075, 8000, 3697346775) /* PCAPRecordedObjectIID */;
+VALUES (8075, 8000, 0xDC6108D7) /* PCAPRecordedObjectIID */;

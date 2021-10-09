@@ -21,16 +21,16 @@ VALUES (12570,   1, 'Yushad Ridge Cottages Portal') /* Name */
      , (12570, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12570,   1,   33554867) /* Setup */
-     , (12570,   2,  150994947) /* MotionTable */
-     , (12570,   8,  100667499) /* Icon */
+VALUES (12570,   1, 0x020001B3) /* Setup */
+     , (12570,   2, 0x09000003) /* MotionTable */
+     , (12570,   8, 0x0600106B) /* Icon */
      , (12570, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12570, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12570, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12570, 8040, 2541617163, 34.2368, 67.9712, 29.937, 0.126919, 0, 0, -0.9919131) /* PCAPRecordedLocation */
+VALUES (12570, 8040, 0x977E000B, 34.2368, 67.9712, 29.937, 0.126919, 0, 0, -0.991913) /* PCAPRecordedLocation */
 /* @teleloc 0x977E000B [34.236800 67.971200 29.937000] 0.126919 0.000000 0.000000 -0.991913 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12570, 8000, 2037899266) /* PCAPRecordedObjectIID */;
+VALUES (12570, 8000, 0x7977E002) /* PCAPRecordedObjectIID */;

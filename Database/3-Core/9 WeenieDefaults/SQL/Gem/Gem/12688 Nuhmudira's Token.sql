@@ -18,23 +18,24 @@ VALUES (12688,   1,       2048) /* ItemType - Gem */
      , (12688, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12688,  22, True ) /* Inscribable */;
+VALUES (12688,  22, True ) /* Inscribable */
+     , (12688,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12688,   1, 'Nuhmudira''s Token') /* Name */
      , (12688,  15, 'A token from Nuhmudira to be given either to an Arcanum Agent for a Writ of Refuge or an Arcanum Envoy for access to items for your home.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12688,   1,   33557280) /* Setup */
-     , (12688,   3,  536870932) /* SoundTable */
-     , (12688,   8,  100672348) /* Icon */
-     , (12688,  22,  872415275) /* PhysicsEffectTable */
+VALUES (12688,   1, 0x02000B20) /* Setup */
+     , (12688,   3, 0x20000014) /* SoundTable */
+     , (12688,   8, 0x0600235C) /* Icon */
+     , (12688,  22, 0x3400002B) /* PhysicsEffectTable */
      , (12688, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (12688, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (12688, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12688, 8000, 2149416199) /* PCAPRecordedObjectIID */;
+VALUES (12688, 8000, 0x801D7D07) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (12688, 0, 83893723, 83892225)

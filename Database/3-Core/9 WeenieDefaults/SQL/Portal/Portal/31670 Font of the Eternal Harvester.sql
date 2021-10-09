@@ -23,16 +23,16 @@ VALUES (31670,   1, 'Font of the Eternal Harvester') /* Name */
      , (31670, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31670,   1,   33555925) /* Setup */
-     , (31670,   2,  150994947) /* MotionTable */
-     , (31670,   8,  100667499) /* Icon */
+VALUES (31670,   1, 0x020005D5) /* Setup */
+     , (31670,   2, 0x09000003) /* MotionTable */
+     , (31670,   8, 0x0600106B) /* Icon */
      , (31670, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (31670, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (31670, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (31670, 8040, 1162477826, 62, 12, 5.137, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (31670, 8040, 0x454A0102, 62, 12, 5.137, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x454A0102 [62.000000 12.000000 5.137000] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31670, 8000, 1951703040) /* PCAPRecordedObjectIID */;
+VALUES (31670, 8000, 0x7454A000) /* PCAPRecordedObjectIID */;

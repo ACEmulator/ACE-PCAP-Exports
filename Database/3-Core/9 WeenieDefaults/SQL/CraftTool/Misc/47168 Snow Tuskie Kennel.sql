@@ -22,13 +22,13 @@ VALUES (47168,   1, 'Snow Tuskie Kennel') /* Name */
      , (47168,  14, 'Use this kennel to summon or dismiss your Pet Snow Tuskie.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (47168,   1,   33554718) /* Setup */
-     , (47168,   3,  536870932) /* SoundTable */
-     , (47168,   8,  100668152) /* Icon */
-     , (47168,  22,  872415275) /* PhysicsEffectTable */
+VALUES (47168,   1, 0x0200011E) /* Setup */
+     , (47168,   3, 0x20000014) /* SoundTable */
+     , (47168,   8, 0x060012F8) /* Icon */
+     , (47168,  22, 0x3400002B) /* PhysicsEffectTable */
      , (47168, 8001,    2637840) /* PCAPRecordedWeenieHeader - Usable, Container, TargetType, Burden */
      , (47168, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (47168, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47168, 8000, 2153283214) /* PCAPRecordedObjectIID */;
+VALUES (47168, 8000, 0x80587E8E) /* PCAPRecordedObjectIID */;

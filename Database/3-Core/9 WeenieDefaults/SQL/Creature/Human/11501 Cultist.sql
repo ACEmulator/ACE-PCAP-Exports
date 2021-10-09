@@ -25,28 +25,28 @@ VALUES (11501,   1, 'Cultist') /* Name */
      , (11501, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11501,   1,   33554433) /* Setup */
-     , (11501,   2,  150994945) /* MotionTable */
-     , (11501,   3,  536870913) /* SoundTable */
-     , (11501,   6,   67108990) /* PaletteBase */
-     , (11501,   8,  100667446) /* Icon */
-     , (11501,   9,   83890514) /* EyesTexture */
-     , (11501,  10,   83890562) /* NoseTexture */
-     , (11501,  11,   83890613) /* MouthTexture */
-     , (11501,  15,   67116993) /* HairPalette */
-     , (11501,  16,   67109567) /* EyesPalette */
-     , (11501,  17,   67109558) /* SkinPalette */
-     , (11501,  22,  872415236) /* PhysicsEffectTable */
+VALUES (11501,   1, 0x02000001) /* Setup */
+     , (11501,   2, 0x09000001) /* MotionTable */
+     , (11501,   3, 0x20000001) /* SoundTable */
+     , (11501,   6, 0x0400007E) /* PaletteBase */
+     , (11501,   8, 0x06001036) /* Icon */
+     , (11501,   9, 0x05001152) /* EyesTexture */
+     , (11501,  10, 0x05001182) /* NoseTexture */
+     , (11501,  11, 0x050011B5) /* MouthTexture */
+     , (11501,  15, 0x04001FC1) /* HairPalette */
+     , (11501,  16, 0x040002BF) /* EyesPalette */
+     , (11501,  17, 0x040002B6) /* SkinPalette */
+     , (11501,  22, 0x34000004) /* PhysicsEffectTable */
      , (11501, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (11501, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (11501, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11501, 8040, 633012233, 30.76831, 18.00847, 136.6099, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (11501, 8040, 0x25BB0009, 30.76831, 18.00847, 136.6099, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x25BB0009 [30.768310 18.008470 136.609900] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11501, 8000, 2929210343) /* PCAPRecordedObjectIID */;
+VALUES (11501, 8000, 0xAE9833E7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11501,   1, 190, 0, 0) /* Strength */
@@ -95,6 +95,7 @@ VALUES (11501, 2, 12061,  1, 0, 0, False) /* Create Bandit Acid Khanjar (12061) 
      , (11501, 2, 12059,  1, 0, 0, False) /* Create Bandit Flaming Jambiya (12059) for Wield */
      , (11501, 2, 12058,  1, 0, 0, False) /* Create Bandit Lightning Jambiya (12058) for Wield */
      , (11501, 2, 12081,  1, 0, 0, False) /* Create Bandit Frost Short Sword (12081) for Wield */
+     , (11501, 2, 12057,  1, 0, 0, False) /* Create Bandit Jambiya (12057) for Wield */
      , (11501, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
      , (11501, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (11501, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */

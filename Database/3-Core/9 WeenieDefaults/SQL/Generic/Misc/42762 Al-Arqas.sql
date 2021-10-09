@@ -18,15 +18,15 @@ VALUES (42762,   1, 'Al-Arqas') /* Name */
      , (42762,  16, 'The A''mun Desert is a hostile place, reminiscent of the trackless Naqut on Ispar. The dunes stretch beneath the sweltering sun for mile upon mile, with little water or hope of shelter. Even within such harsh lands, however, there are rare islands of succor: oases where fresh water miraculously bubbles forth, creating motes of greenery amid the wastes. Such a place is Al-Arqas (literally, "The Haven"), which sprang into being not long before 10 PY, when Gharu''ndim desert-walkers discovered a hitherto unknown spring in the A''mun''s southern expanses.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (42762,   1,   33560958) /* Setup */
-     , (42762,   8,  100668115) /* Icon */
+VALUES (42762,   1, 0x0200197E) /* Setup */
+     , (42762,   8, 0x060012D3) /* Icon */
      , (42762, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (42762, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (42762, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (42762, 8040, 459034, 29.9709, -84.8921, 3.014, -1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (42762, 8040, 0x0007011A, 29.9709, -84.8921, 3.014, -1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0007011A [29.970900 -84.892100 3.014000] -1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42762, 8000, 1879076887) /* PCAPRecordedObjectIID */;
+VALUES (42762, 8000, 0x70007017) /* PCAPRecordedObjectIID */;

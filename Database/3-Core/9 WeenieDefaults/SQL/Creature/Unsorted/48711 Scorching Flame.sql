@@ -23,22 +23,22 @@ VALUES (48711,   1, 'Scorching Flame') /* Name */
      , (48711, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48711,   1,   33559883) /* Setup */
-     , (48711,   2,  150995087) /* MotionTable */
-     , (48711,   3,  536871002) /* SoundTable */
-     , (48711,   6,   67114014) /* PaletteBase */
-     , (48711,   8,  100670274) /* Icon */
-     , (48711,  22,  872415363) /* PhysicsEffectTable */
+VALUES (48711,   1, 0x0200154B) /* Setup */
+     , (48711,   2, 0x0900008F) /* MotionTable */
+     , (48711,   3, 0x2000005A) /* SoundTable */
+     , (48711,   6, 0x0400141E) /* PaletteBase */
+     , (48711,   8, 0x06001B42) /* Icon */
+     , (48711,  22, 0x34000083) /* PhysicsEffectTable */
      , (48711, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (48711, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (48711, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (48711, 8040, 1482752356, 67.78657, -197.8763, 0.004500031, 0.01656999, 0, 0, -0.9998627) /* PCAPRecordedLocation */
+VALUES (48711, 8040, 0x58610164, 67.78657, -197.8763, 0.0045, 0.01657, 0, 0, -0.999863) /* PCAPRecordedLocation */
 /* @teleloc 0x58610164 [67.786570 -197.876300 0.004500] 0.016570 0.000000 0.000000 -0.999863 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48711, 8000, 3709111853) /* PCAPRecordedObjectIID */;
+VALUES (48711, 8000, 0xDD148E2D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (48711, 67114014, 0, 0);

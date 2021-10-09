@@ -13,13 +13,13 @@ VALUES (40523,   1,       8192) /* ItemType - Writable */
      , (40523,  98, 1485370426) /* CreationTimestamp */
      , (40523, 114,          1) /* Attuned - Attuned */
      , (40523, 267,        600) /* Lifespan */
-     , (40523, 268,        569) /* RemainingLifespan */
      , (40523, 8041,        101) /* PCAPRecordedPlacement - Resting */
      , (40523, 8042,          1) /* PCAPRecordedAppraisalPages */
      , (40523, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40523,  69, True ) /* IsSellable */;
+VALUES (40523,  23, True ) /* DestroyOnSell */
+     , (40523,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40523,  54,       1) /* UseRadius */;
@@ -29,13 +29,13 @@ VALUES (40523,   1, 'Contact Instructions') /* Name */
      , (40523,  15, 'This message will soon self destruct! Commit it to memory. You have less than a week to make contact before this will become invalid. You''ll want to bring MMD trade notes if you''re interested in purchasing any services. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40523,   1,   33554773) /* Setup */
-     , (40523,   3,  536870932) /* SoundTable */
-     , (40523,   8,  100688999) /* Icon */
-     , (40523,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40523,   1, 0x02000155) /* Setup */
+     , (40523,   3, 0x20000014) /* SoundTable */
+     , (40523,   8, 0x06006467) /* Icon */
+     , (40523,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40523, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (40523, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (40523, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40523, 8000, 3709631005) /* PCAPRecordedObjectIID */;
+VALUES (40523, 8000, 0xDD1C7A1D) /* PCAPRecordedObjectIID */;

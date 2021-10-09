@@ -37,27 +37,27 @@ VALUES (5833,   1, 'Shi Ki-Yong the Armorer') /* Name */
      , (5833, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5833,   1,   33554510) /* Setup */
-     , (5833,   2,  150994945) /* MotionTable */
-     , (5833,   3,  536870914) /* SoundTable */
-     , (5833,   6,   67108990) /* PaletteBase */
-     , (5833,   8,  100667446) /* Icon */
-     , (5833,   9,   83890263) /* EyesTexture */
-     , (5833,  10,   83890285) /* NoseTexture */
-     , (5833,  11,   83890345) /* MouthTexture */
-     , (5833,  15,   67116997) /* HairPalette */
-     , (5833,  16,   67110062) /* EyesPalette */
-     , (5833,  17,   67110061) /* SkinPalette */
+VALUES (5833,   1, 0x0200004E) /* Setup */
+     , (5833,   2, 0x09000001) /* MotionTable */
+     , (5833,   3, 0x20000002) /* SoundTable */
+     , (5833,   6, 0x0400007E) /* PaletteBase */
+     , (5833,   8, 0x06001036) /* Icon */
+     , (5833,   9, 0x05001057) /* EyesTexture */
+     , (5833,  10, 0x0500106D) /* NoseTexture */
+     , (5833,  11, 0x050010A9) /* MouthTexture */
+     , (5833,  15, 0x04001FC5) /* HairPalette */
+     , (5833,  16, 0x040004AE) /* EyesPalette */
+     , (5833,  17, 0x040004AD) /* SkinPalette */
      , (5833, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (5833, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (5833, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (5833, 8040, 3184656429, 135.098, 104.511, 186.005, 0.382683, 0, 0, -0.9238797) /* PCAPRecordedLocation */
+VALUES (5833, 8040, 0xBDD2002D, 135.098, 104.511, 186.005, 0.382683, 0, 0, -0.92388) /* PCAPRecordedLocation */
 /* @teleloc 0xBDD2002D [135.098000 104.511000 186.005000] 0.382683 0.000000 0.000000 -0.923880 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5833, 8000, 2078089224) /* PCAPRecordedObjectIID */;
+VALUES (5833, 8000, 0x7BDD2008) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5833,   1, 100, 0, 0) /* Strength */
@@ -86,6 +86,7 @@ VALUES (5833, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield *
      , (5833, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
      , (5833, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
      , (5833, 4,   101, -1, 0, 0, False) /* Create Chainmail Sleeves (101) for Shop */
+     , (5833, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
      , (5833, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
      , (5833, 4,    77, -1, 0, 0, False) /* Create Kabuton (77) for Shop */
      , (5833, 4,    78, -1, 0, 0, False) /* Create Kote (78) for Shop */

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (41204,   1,          2) /* ItemType - Armor */
      , (41204,   5,        350) /* EncumbranceVal */
      , (41204,   9,    2097152) /* ValidLocations - Shield */
-     , (41204,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (41204,  16,          1) /* ItemUseable - No */
      , (41204,  18,          1) /* UiEffects - Magical */
      , (41204,  19,      10000) /* Value */
@@ -51,27 +50,27 @@ VALUES (41204,   1, 'Gear Shield') /* Name */
      , (41204,   8, 'Azrakin') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (41204,   1,   33560776) /* Setup */
-     , (41204,   3,  536870932) /* SoundTable */
-     , (41204,   8,  100690543) /* Icon */
-     , (41204,  22,  872415275) /* PhysicsEffectTable */
+VALUES (41204,   1, 0x020018C8) /* Setup */
+     , (41204,   3, 0x20000014) /* SoundTable */
+     , (41204,   8, 0x06006A6F) /* Icon */
+     , (41204,  22, 0x3400002B) /* PhysicsEffectTable */
      , (41204, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (41204, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (41204, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
      , (41204, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (41204, 8040, 462422061, 122.5675, 111.7395, 29.926, 0.5374959, 0.07897042, -0.8388966, -0.03338251) /* PCAPRecordedLocation */
+VALUES (41204, 8040, 0x1B90002D, 122.5675, 111.7395, 29.926, 0.537496, 0.07897, -0.838897, -0.033383) /* PCAPRecordedLocation */
 /* @teleloc 0x1B90002D [122.567500 111.739500 29.926000] 0.537496 0.078970 -0.838897 -0.033383 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41204, 8000, 2183220850) /* PCAPRecordedObjectIID */
-     , (41204, 8008, 1343288375) /* PCAPRecordedParentIID */;
+VALUES (41204, 8000, 0x82214E72) /* PCAPRecordedObjectIID */
+     , (41204, 8008, 0x5010F437) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41204,  4391,      2)  /* AcidBane8 */
+VALUES (41204,  4558,      2)  /* ImpregnabilitySelf8 */
+     , (41204,  4560,      2)  /* InvulnerabilitySelf8 */
+     , (41204,  4391,      2)  /* AcidBane8 */
      , (41204,  4407,      2)  /* Impenetrability8 */
      , (41204,  4409,      2)  /* LightningBane8 */
-     , (41204,  4558,      2)  /* ImpregnabilitySelf8 */
-     , (41204,  4560,      2)  /* InvulnerabilitySelf8 */
      , (41204,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */;

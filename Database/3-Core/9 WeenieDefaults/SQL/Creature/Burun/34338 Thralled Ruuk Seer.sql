@@ -26,22 +26,22 @@ VALUES (34338,   1, 'Thralled Ruuk Seer') /* Name */
      , (34338, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34338,   1,   33558582) /* Setup */
-     , (34338,   2,  150995272) /* MotionTable */
-     , (34338,   3,  536871083) /* SoundTable */
-     , (34338,   6,   67114919) /* PaletteBase */
-     , (34338,   8,  100675761) /* Icon */
-     , (34338,  22,  872415402) /* PhysicsEffectTable */
+VALUES (34338,   1, 0x02001036) /* Setup */
+     , (34338,   2, 0x09000148) /* MotionTable */
+     , (34338,   3, 0x200000AB) /* SoundTable */
+     , (34338,   6, 0x040017A7) /* PaletteBase */
+     , (34338,   8, 0x060030B1) /* Icon */
+     , (34338,  22, 0x340000AA) /* PhysicsEffectTable */
      , (34338, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (34338, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (34338, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34338, 8040, 1095434265, 88.4986, 19.4444, 4.723289, -0.8915323, 0, 0, 0.4529572) /* PCAPRecordedLocation */
+VALUES (34338, 8040, 0x414B0019, 88.4986, 19.4444, 4.723289, -0.891532, 0, 0, 0.452957) /* PCAPRecordedLocation */
 /* @teleloc 0x414B0019 [88.498600 19.444400 4.723289] -0.891532 0.000000 0.000000 0.452957 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34338, 8000, 2878006559) /* PCAPRecordedObjectIID */;
+VALUES (34338, 8000, 0xAB8AE51F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34338,   1, 180, 0, 0) /* Strength */

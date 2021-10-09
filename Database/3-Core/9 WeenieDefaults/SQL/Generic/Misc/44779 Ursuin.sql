@@ -20,11 +20,11 @@ VALUES (44779,   1, 'Ursuin') /* Name */
      , (44779,  16, 'The Ursuin are stocky, four-legged creatures that travel together in small packs. They stand anywhere from three to seven feet tall at the shoulder, though there are rumored to be even larger species. It is thought that these carnivores pursued some other form of fauna through a portal and ended up in Dereth. The Ursuin are natives of Ispar; however, this does not curb their aggressive tendencies towards other Isparians... or anything else for that matter.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44779,   1,   33561379) /* Setup */
-     , (44779,   8,  100668115) /* Icon */
+VALUES (44779,   1, 0x02001B23) /* Setup */
+     , (44779,   8, 0x060012D3) /* Icon */
      , (44779, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44779, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44779, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44779, 8000, 2153689481) /* PCAPRecordedObjectIID */;
+VALUES (44779, 8000, 0x805EB189) /* PCAPRecordedObjectIID */;

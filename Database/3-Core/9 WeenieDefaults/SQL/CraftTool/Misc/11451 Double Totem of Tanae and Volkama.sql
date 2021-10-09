@@ -29,17 +29,17 @@ VALUES (11451,   1, 'Double Totem of Tanae and Volkama') /* Name */
      , (11451,  16, 'A double totem representing two of the animas found on Palenqual. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11451,   1,   33557267) /* Setup */
-     , (11451,   3,  536870932) /* SoundTable */
-     , (11451,   8,  100671989) /* Icon */
-     , (11451,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11451,   1, 0x02000B13) /* Setup */
+     , (11451,   3, 0x20000014) /* SoundTable */
+     , (11451,   8, 0x060021F5) /* Icon */
+     , (11451,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11451, 8001,  271069200) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, TargetType, Burden, HookType */
      , (11451, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11451, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11451, 8040, 3027173406, 81.59232, 133.233, 36.23066, -0.292349, 0, 0, -0.9563117) /* PCAPRecordedLocation */
+VALUES (11451, 8040, 0xB46F001E, 81.59232, 133.233, 36.23066, -0.292349, 0, 0, -0.956312) /* PCAPRecordedLocation */
 /* @teleloc 0xB46F001E [81.592320 133.233000 36.230660] -0.292349 0.000000 0.000000 -0.956312 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11451, 8000, 2329671519) /* PCAPRecordedObjectIID */;
+VALUES (11451, 8000, 0x8ADBF75F) /* PCAPRecordedObjectIID */;

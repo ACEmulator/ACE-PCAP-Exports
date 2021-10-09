@@ -21,6 +21,7 @@ VALUES (28510,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28510,  22, True ) /* Inscribable */
+     , (28510,  23, True ) /* DestroyOnSell */
      , (28510,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -29,13 +30,13 @@ VALUES (28510,   1, 'Armoredillo Hide Collection Bag') /* Name */
      , (28510,  16, 'A large Lugian sack meant to collect the hides of several armoredillo. Currently the sack is empty, but you were told that collecting a small armoredillo hide should be your first order of business.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28510,   1,   33554930) /* Setup */
-     , (28510,   3,  536870932) /* SoundTable */
-     , (28510,   8,  100676968) /* Icon */
-     , (28510,  22,  872415275) /* PhysicsEffectTable */
+VALUES (28510,   1, 0x020001F2) /* Setup */
+     , (28510,   3, 0x20000014) /* SoundTable */
+     , (28510,   8, 0x06003568) /* Icon */
+     , (28510,  22, 0x3400002B) /* PhysicsEffectTable */
      , (28510, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (28510, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (28510, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28510, 8000, 2780185682) /* PCAPRecordedObjectIID */;
+VALUES (28510, 8000, 0xA5B64452) /* PCAPRecordedObjectIID */;

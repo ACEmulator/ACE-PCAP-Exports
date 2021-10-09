@@ -14,7 +14,8 @@ VALUES (27590,   1,        128) /* ItemType - Misc */
      , (27590, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27590,  22, True ) /* Inscribable */;
+VALUES (27590,  22, True ) /* Inscribable */
+     , (27590,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27590,  39,     0.5) /* DefaultScale */;
@@ -24,13 +25,13 @@ VALUES (27590,   1, 'Warrior Pincer') /* Name */
      , (27590,  16, 'The pincer off of an Olthoi Warrior, desired by Behdo Yii, in Redspire.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27590,   1,   33554817) /* Setup */
-     , (27590,   3,  536870932) /* SoundTable */
-     , (27590,   8,  100672037) /* Icon */
-     , (27590,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27590,   1, 0x02000181) /* Setup */
+     , (27590,   3, 0x20000014) /* SoundTable */
+     , (27590,   8, 0x06002225) /* Icon */
+     , (27590,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27590, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (27590, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27590, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27590, 8000, 3356290635) /* PCAPRecordedObjectIID */;
+VALUES (27590, 8000, 0xC80CEE4B) /* PCAPRecordedObjectIID */;

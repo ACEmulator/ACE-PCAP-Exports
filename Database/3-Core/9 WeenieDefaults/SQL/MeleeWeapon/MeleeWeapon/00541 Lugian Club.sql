@@ -24,11 +24,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (541,   1, 'Lugian Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (541,   1,   33557067) /* Setup */
-     , (541,   3,  536870932) /* SoundTable */
-     , (541,   6,   67111919) /* PaletteBase */
-     , (541,   8,  100668855) /* Icon */
-     , (541,  22,  872415275) /* PhysicsEffectTable */
+VALUES (541,   1, 0x02000A4B) /* Setup */
+     , (541,   3, 0x20000014) /* SoundTable */
+     , (541,   6, 0x04000BEF) /* PaletteBase */
+     , (541,   8, 0x060015B7) /* Icon */
+     , (541,  22, 0x3400002B) /* PhysicsEffectTable */
      , (541,  30,         88) /* PhysicsScript - Create */
      , (541, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (541, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -36,7 +36,7 @@ VALUES (541,   1,   33557067) /* Setup */
      , (541, 8044,      35630) /* PCAPPhysicsDIDDataTemplatedFrom - Sickle of Azaxis */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (541, 8000,        541) /* PCAPRecordedObjectIID */;
+VALUES (541, 8000, 0x0000021D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (541, 67111920, 0, 0);

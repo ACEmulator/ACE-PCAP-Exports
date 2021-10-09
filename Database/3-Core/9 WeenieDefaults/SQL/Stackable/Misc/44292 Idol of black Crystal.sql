@@ -17,13 +17,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44292,   1, 'Idol of black Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44292,   1,   33560170) /* Setup */
-     , (44292,   3,  536870932) /* SoundTable */
-     , (44292,   8,  100674496) /* Icon */
-     , (44292,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44292,   1, 0x0200166A) /* Setup */
+     , (44292,   3, 0x20000014) /* SoundTable */
+     , (44292,   8, 0x06002BC0) /* Icon */
+     , (44292,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44292, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (44292, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44292, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44292, 8000, 3694794345) /* PCAPRecordedObjectIID */;
+VALUES (44292, 8000, 0xDC3A1669) /* PCAPRecordedObjectIID */;

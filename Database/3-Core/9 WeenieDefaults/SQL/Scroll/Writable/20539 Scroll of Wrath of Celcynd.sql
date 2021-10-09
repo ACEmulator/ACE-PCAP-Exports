@@ -24,13 +24,13 @@ VALUES (20539,   1, 'Scroll of Wrath of Celcynd') /* Name */
 Decreases the target''s Item Enchantment skill by 40 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20539,   1,   33554826) /* Setup */
-     , (20539,   8,  100676460) /* Icon */
-     , (20539,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20539,   1, 0x0200018A) /* Setup */
+     , (20539,   8, 0x0600336C) /* Icon */
+     , (20539,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20539,  28,       2246) /* Spell - ItemEnchantmentIneptitudeOther7 */
      , (20539, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20539, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20539, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20539, 8000, 3679276313) /* PCAPRecordedObjectIID */;
+VALUES (20539, 8000, 0xDB4D4D19) /* PCAPRecordedObjectIID */;

@@ -25,17 +25,17 @@ VALUES (33014,   1, 'Broken Seal of the Elder Spirits') /* Name */
      , (33014, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33014,   1,   33555402) /* Setup */
-     , (33014,   2,  150995261) /* MotionTable */
-     , (33014,   3,  536870933) /* SoundTable */
-     , (33014,   8,  100688623) /* Icon */
+VALUES (33014,   1, 0x020003CA) /* Setup */
+     , (33014,   2, 0x0900013D) /* MotionTable */
+     , (33014,   3, 0x20000015) /* SoundTable */
+     , (33014,   8, 0x060062EF) /* Icon */
      , (33014, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (33014, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (33014, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33014, 8040, 8258114, 200, -320, -24, 0.999687, 0, 0, 0.024997) /* PCAPRecordedLocation */
+VALUES (33014, 8040, 0x007E0242, 200, -320, -24, 0.999687, 0, 0, 0.024997) /* PCAPRecordedLocation */
 /* @teleloc 0x007E0242 [200.000000 -320.000000 -24.000000] 0.999687 0.000000 0.000000 0.024997 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33014, 8000, 3359408772) /* PCAPRecordedObjectIID */;
+VALUES (33014, 8000, 0xC83C8284) /* PCAPRecordedObjectIID */;

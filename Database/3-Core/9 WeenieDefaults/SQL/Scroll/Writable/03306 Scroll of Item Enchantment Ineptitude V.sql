@@ -24,13 +24,13 @@ VALUES (3306,   1, 'Scroll of Item Enchantment Ineptitude V') /* Name */
 Decreases the target''s Item Enchantment skill by 30 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3306,   1,   33554826) /* Setup */
-     , (3306,   8,  100676460) /* Icon */
-     , (3306,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3306,   1, 0x0200018A) /* Setup */
+     , (3306,   8, 0x0600336C) /* Icon */
+     , (3306,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3306,  28,        597) /* Spell - ItemEnchantmentIneptitudeOther5 */
      , (3306, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3306, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3306, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3306, 8000, 2618120457) /* PCAPRecordedObjectIID */;
+VALUES (3306, 8000, 0x9C0D5909) /* PCAPRecordedObjectIID */;

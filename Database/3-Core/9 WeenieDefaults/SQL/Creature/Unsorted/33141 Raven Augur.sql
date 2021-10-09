@@ -20,28 +20,29 @@ VALUES (33141,   1, 'Raven Augur') /* Name */
      , (33141, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33141,   1,   33554433) /* Setup */
-     , (33141,   2,  150994945) /* MotionTable */
-     , (33141,   3,  536870913) /* SoundTable */
-     , (33141,   6,   67108990) /* PaletteBase */
-     , (33141,   8,  100667446) /* Icon */
-     , (33141,  22,  872415236) /* PhysicsEffectTable */
+VALUES (33141,   1, 0x02000001) /* Setup */
+     , (33141,   2, 0x09000001) /* MotionTable */
+     , (33141,   3, 0x20000001) /* SoundTable */
+     , (33141,   6, 0x0400007E) /* PaletteBase */
+     , (33141,   8, 0x06001036) /* Icon */
+     , (33141,  22, 0x34000004) /* PhysicsEffectTable */
      , (33141, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (33141, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33141, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33141, 8040, 3537109698, 121.996, 173.416, -41.595, 0.020795, 0, 0, -0.9997838) /* PCAPRecordedLocation */
+VALUES (33141, 8040, 0xD2D402C2, 121.996, 173.416, -41.595, 0.020795, 0, 0, -0.999784) /* PCAPRecordedLocation */
 /* @teleloc 0xD2D402C2 [121.996000 173.416000 -41.595000] 0.020795 0.000000 0.000000 -0.999784 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33141, 8000, 2877455788) /* PCAPRecordedObjectIID */;
+VALUES (33141, 8000, 0xAB827DAC) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33141, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
      , (33141, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
      , (33141, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
-     , (33141, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */;
+     , (33141, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (33141, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33141, 67109561, 0, 24)

@@ -17,7 +17,7 @@ VALUES (23281,   1,        256) /* ItemType - MissileWeapon */
      , (23281,  45,          2) /* DamageType - Pierce */
      , (23281,  48,         47) /* WeaponSkill - MissileWeapons */
      , (23281,  49,         10) /* WeaponTime */
-     , (23281,  51,          2) /* CombatUse - Missle */
+     , (23281,  51,          2) /* CombatUse - Missile */
      , (23281,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23281, 151,          2) /* HookType - Wall */
      , (23281, 353,         10) /* WeaponType - Thrown */
@@ -41,17 +41,17 @@ VALUES (23281,   1, 'Red Minnow') /* Name */
      , (23281,  20, 'Red Minnows') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23281,   1,   33554674) /* Setup */
-     , (23281,   3,  536870932) /* SoundTable */
-     , (23281,   6,   67114188) /* PaletteBase */
-     , (23281,   8,  100674206) /* Icon */
-     , (23281,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23281,   1, 0x020000F2) /* Setup */
+     , (23281,   3, 0x20000014) /* SoundTable */
+     , (23281,   6, 0x040014CC) /* PaletteBase */
+     , (23281,   8, 0x06002A9E) /* Icon */
+     , (23281,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23281, 8001,  270627345) /* PCAPRecordedWeenieHeader - PluralName, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (23281, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (23281, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23281, 8000, 3708840112) /* PCAPRecordedObjectIID */;
+VALUES (23281, 8000, 0xDD1068B0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23281, 67114197, 7, 125);

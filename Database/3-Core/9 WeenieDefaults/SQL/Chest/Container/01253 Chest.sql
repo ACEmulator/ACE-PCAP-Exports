@@ -30,21 +30,21 @@ VALUES (1253,   1, 'Chest') /* Name */
      , (1253, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1253,   1,   33554556) /* Setup */
-     , (1253,   2,  150994948) /* MotionTable */
-     , (1253,   3,  536870945) /* SoundTable */
-     , (1253,   8,  100667426) /* Icon */
-     , (1253,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1253,   1, 0x0200007C) /* Setup */
+     , (1253,   2, 0x09000004) /* MotionTable */
+     , (1253,   3, 0x20000021) /* SoundTable */
+     , (1253,   8, 0x06001022) /* Icon */
+     , (1253,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1253, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (1253, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1253, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1253, 8040, 31785437, 42.4431, -132.259, 0, 0.2717561, 0, 0, -0.9623662) /* PCAPRecordedLocation */
+VALUES (1253, 8040, 0x01E501DD, 42.4431, -132.259, 0, 0.271756, 0, 0, -0.962366) /* PCAPRecordedLocation */
 /* @teleloc 0x01E501DD [42.443100 -132.259000 0.000000] 0.271756 0.000000 0.000000 -0.962366 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1253, 8000, 1881034805) /* PCAPRecordedObjectIID */;
+VALUES (1253, 8000, 0x701E5035) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1253, -1, 2599, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Trousers (2599) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

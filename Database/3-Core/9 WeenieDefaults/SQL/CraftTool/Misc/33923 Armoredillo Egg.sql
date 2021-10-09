@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33923,   1, 'Armoredillo Egg') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33923,   1,   33554673) /* Setup */
-     , (33923,   3,  536870932) /* SoundTable */
-     , (33923,   8,  100667460) /* Icon */
-     , (33923,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33923,   1, 0x020000F1) /* Setup */
+     , (33923,   3, 0x20000014) /* SoundTable */
+     , (33923,   8, 0x06001044) /* Icon */
+     , (33923,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33923, 8001,    2637840) /* PCAPRecordedWeenieHeader - Usable, Container, TargetType, Burden */
      , (33923, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33923, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33923, 8000, 2981038725) /* PCAPRecordedObjectIID */;
+VALUES (33923, 8000, 0xB1AF0A85) /* PCAPRecordedObjectIID */;

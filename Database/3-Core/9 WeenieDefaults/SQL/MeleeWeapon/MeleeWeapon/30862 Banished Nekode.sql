@@ -44,17 +44,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30862,   1, 'Banished Nekode') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30862,   1,   33559254) /* Setup */
-     , (30862,   3,  536870932) /* SoundTable */
-     , (30862,   8,  100677484) /* Icon */
-     , (30862,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30862,   1, 0x020012D6) /* Setup */
+     , (30862,   3, 0x20000014) /* SoundTable */
+     , (30862,   8, 0x0600376C) /* Icon */
+     , (30862,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30862, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (30862, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30862, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30862, 8000, 2174553855) /* PCAPRecordedObjectIID */;
+VALUES (30862, 8000, 0x819D0EFF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30862,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (30862,  2544,      2)  /* CANTRIPDAGGERAPTITUDE1 */;
+     , (30862,  2544,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE1 */;

@@ -47,13 +47,13 @@ VALUES (3810,   1, 'Acid Kaskara') /* Name */
      , (3810,  16, 'Acid Kaskara') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3810,   1,   33555791) /* Setup */
-     , (3810,   3,  536870932) /* SoundTable */
-     , (3810,   8,  100669026) /* Icon */
-     , (3810,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3810,   1, 0x0200054F) /* Setup */
+     , (3810,   3, 0x20000014) /* SoundTable */
+     , (3810,   8, 0x06001662) /* Icon */
+     , (3810,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3810, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3810, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3810, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3810, 8000, 3701412560) /* PCAPRecordedObjectIID */;
+VALUES (3810, 8000, 0xDC9F12D0) /* PCAPRecordedObjectIID */;

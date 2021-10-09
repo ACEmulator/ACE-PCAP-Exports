@@ -24,12 +24,12 @@ VALUES (1446,   1, 'Fire Auroch Meat') /* Name */
      , (1446,  20, 'Fire Auroch Steaks') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1446,   1,   33554678) /* Setup */
-     , (1446,   8,  100667464) /* Icon */
-     , (1446,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1446,   1, 0x020000F6) /* Setup */
+     , (1446,   8, 0x06001048) /* Icon */
+     , (1446,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1446, 8001,    2125977) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
      , (1446, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (1446, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1446, 8000, 2992590030) /* PCAPRecordedObjectIID */;
+VALUES (1446, 8000, 0xB25F4CCE) /* PCAPRecordedObjectIID */;

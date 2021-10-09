@@ -53,17 +53,17 @@ VALUES (25613,   1, 'Flaming Weeping Claw') /* Name */
      , (25613,  25, 'Callaway') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25613,   1,   33558463) /* Setup */
-     , (25613,   3,  536870932) /* SoundTable */
-     , (25613,   6,   67114522) /* PaletteBase */
-     , (25613,   8,  100674890) /* Icon */
-     , (25613,  22,  872415275) /* PhysicsEffectTable */
+VALUES (25613,   1, 0x02000FBF) /* Setup */
+     , (25613,   3, 0x20000014) /* SoundTable */
+     , (25613,   6, 0x0400161A) /* PaletteBase */
+     , (25613,   8, 0x06002D4A) /* Icon */
+     , (25613,  22, 0x3400002B) /* PhysicsEffectTable */
      , (25613, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (25613, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (25613, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25613, 8000, 3679560793) /* PCAPRecordedObjectIID */;
+VALUES (25613, 8000, 0xDB51A459) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25613,  2694,      2)  /* ModerateSwordAptitude */;

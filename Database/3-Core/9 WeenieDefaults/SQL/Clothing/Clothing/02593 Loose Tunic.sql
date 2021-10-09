@@ -36,20 +36,17 @@ VALUES (2593,   1, 'Loose Tunic') /* Name */
      , (2593,  16, 'Loose Tunic') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2593,   1,   33554883) /* Setup */
-     , (2593,   3,  536870932) /* SoundTable */
-     , (2593,   6,   67108990) /* PaletteBase */
-     , (2593,   8,  100667373) /* Icon */
-     , (2593,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2593,   1, 0x020001C3) /* Setup */
+     , (2593,   3, 0x20000014) /* SoundTable */
+     , (2593,   6, 0x0400007E) /* PaletteBase */
+     , (2593,   8, 0x06000FED) /* Icon */
+     , (2593,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2593, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (2593, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2593, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2593, 8000, 3688235430) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2593, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
+VALUES (2593, 8000, 0xDBD601A6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2593, 67110365, 40, 24)

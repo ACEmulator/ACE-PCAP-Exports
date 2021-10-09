@@ -25,22 +25,22 @@ VALUES (6640,   1, 'Olthoi Soldier') /* Name */
      , (6640, 8006, 'AAA9AIAAAABRAAEAAACAPw==') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (6640,   1,   33557162) /* Setup */
-     , (6640,   2,  150994946) /* MotionTable */
-     , (6640,   3,  536870925) /* SoundTable */
-     , (6640,   8,  100667623) /* Icon */
-     , (6640,  22,  872415265) /* PhysicsEffectTable */
+VALUES (6640,   1, 0x02000AAA) /* Setup */
+     , (6640,   2, 0x09000002) /* MotionTable */
+     , (6640,   3, 0x2000000D) /* SoundTable */
+     , (6640,   8, 0x060010E7) /* Icon */
+     , (6640,  22, 0x34000021) /* PhysicsEffectTable */
      , (6640,  30,         86) /* PhysicsScript - BreatheAcid */
      , (6640, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (6640, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (6640, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (6640, 8040, 549388298, 33.61736, 40.56426, 82, 0.8952387, 0, 0, -0.4455869) /* PCAPRecordedLocation */
+VALUES (6640, 8040, 0x20BF000A, 33.61736, 40.56426, 82, 0.895239, 0, 0, -0.445587) /* PCAPRecordedLocation */
 /* @teleloc 0x20BF000A [33.617360 40.564260 82.000000] 0.895239 0.000000 0.000000 -0.445587 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6640, 8000, 2929448023) /* PCAPRecordedObjectIID */;
+VALUES (6640, 8000, 0xAE9BD457) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6640,   1, 280, 0, 0) /* Strength */
@@ -54,3 +54,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (6640,   1,    50, 0, 0, 190) /* MaxHealth */
      , (6640,   3,   150, 0, 0, 430) /* MaxStamina */
      , (6640,   5,     0, 0, 0, 30) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (6640, 2, 46605,  1, 0, 0, False) /* Create Magari Yari (46605) for Wield */;

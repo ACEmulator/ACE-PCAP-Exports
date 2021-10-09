@@ -41,17 +41,17 @@ VALUES (23547,   1, 'Fang Mace') /* Name */
      , (23547,  16, 'A mace carved from the canine of a Dire Ursuin.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23547,   1,   33556993) /* Setup */
-     , (23547,   3,  536870932) /* SoundTable */
-     , (23547,   8,  100671417) /* Icon */
-     , (23547,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23547,   1, 0x02000A01) /* Setup */
+     , (23547,   3, 0x20000014) /* SoundTable */
+     , (23547,   8, 0x06001FB9) /* Icon */
+     , (23547,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23547, 8001,  270598680) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, ValidLocations, Burden, HookType */
      , (23547, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23547, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23547, 8040, 2847146034, 148.8814, 29.02943, 94.1, -0.7912, 0, 0, -0.6115575) /* PCAPRecordedLocation */
+VALUES (23547, 8040, 0xA9B40032, 148.8814, 29.02943, 94.1, -0.7912, 0, 0, -0.611558) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40032 [148.881400 29.029430 94.100000] -0.791200 0.000000 0.000000 -0.611558 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23547, 8000, 2883970455) /* PCAPRecordedObjectIID */;
+VALUES (23547, 8000, 0xABE5E597) /* PCAPRecordedObjectIID */;

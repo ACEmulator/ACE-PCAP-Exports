@@ -52,19 +52,19 @@ VALUES (3814,   1, 'Acid Kasrullah') /* Name */
      , (3814,  16, 'Acid Kasrullah of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3814,   1,   33555729) /* Setup */
-     , (3814,   3,  536870932) /* SoundTable */
-     , (3814,   8,  100668907) /* Icon */
-     , (3814,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3814,   1, 0x02000511) /* Setup */
+     , (3814,   3, 0x20000014) /* SoundTable */
+     , (3814,   8, 0x060015EB) /* Icon */
+     , (3814,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3814,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (3814, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (3814, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3814, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3814, 8000, 3694318484) /* PCAPRecordedObjectIID */;
+VALUES (3814, 8000, 0xDC32D394) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3814,  1591,      2)  /* HeartSeekerSelf5 */
+VALUES (3814,  2570,      2)  /* CANTRIPWEAPONEXPERTISE1 */
      , (3814,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (3814,  2570,      2)  /* CANTRIPWEAPONEXPERTISE1 */;
+     , (3814,  1591,      2)  /* HeartSeekerSelf5 */;

@@ -20,17 +20,17 @@ VALUES (755,   1, 'Cinnabar') /* Name */
      , (755,  20, 'Cinnabar Potions') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (755,   1,   33555209) /* Setup */
-     , (755,   3,  536870932) /* SoundTable */
-     , (755,   6,   67111919) /* PaletteBase */
-     , (755,   8,  100668373) /* Icon */
-     , (755,  22,  872415275) /* PhysicsEffectTable */
+VALUES (755,   1, 0x02000309) /* Setup */
+     , (755,   3, 0x20000014) /* SoundTable */
+     , (755,   6, 0x04000BEF) /* PaletteBase */
+     , (755,   8, 0x060013D5) /* Icon */
+     , (755,  22, 0x3400002B) /* PhysicsEffectTable */
      , (755, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (755, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (755, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (755, 8000, 2186220597) /* PCAPRecordedObjectIID */;
+VALUES (755, 8000, 0x824F1435) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (755, 67111922, 0, 0);

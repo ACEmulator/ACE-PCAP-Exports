@@ -53,23 +53,23 @@ VALUES (30606,   1, 'Bastone') /* Name */
      , (30606,  16, 'Bastone of Endurance') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30606,   1,   33559493) /* Setup */
-     , (30606,   3,  536870932) /* SoundTable */
-     , (30606,   6,   67116428) /* PaletteBase */
-     , (30606,   8,  100687025) /* Icon */
-     , (30606,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30606,   1, 0x020013C5) /* Setup */
+     , (30606,   3, 0x20000014) /* SoundTable */
+     , (30606,   6, 0x04001D8C) /* PaletteBase */
+     , (30606,   8, 0x06005CB1) /* Icon */
+     , (30606,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30606,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (30606, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30606, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30606, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30606, 8000, 3697986667) /* PCAPRecordedObjectIID */;
+VALUES (30606, 8000, 0xDC6ACC6B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30606,  1354,      2)  /* EnduranceSelf6 */
      , (30606,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (30606,  2544,      2)  /* CANTRIPDAGGERAPTITUDE1 */
+     , (30606,  2544,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE1 */
      , (30606,  2552,      2)  /* CANTRIPITEMEXPERTISE1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)

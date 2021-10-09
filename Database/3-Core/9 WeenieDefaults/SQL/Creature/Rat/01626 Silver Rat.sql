@@ -26,23 +26,23 @@ VALUES (1626,   1, 'Silver Rat') /* Name */
      , (1626, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1626,   1,   33554493) /* Setup */
-     , (1626,   2,  150994958) /* MotionTable */
-     , (1626,   3,  536870927) /* SoundTable */
-     , (1626,   6,   67109300) /* PaletteBase */
-     , (1626,   8,  100667451) /* Icon */
-     , (1626,  22,  872415267) /* PhysicsEffectTable */
+VALUES (1626,   1, 0x0200003D) /* Setup */
+     , (1626,   2, 0x0900000E) /* MotionTable */
+     , (1626,   3, 0x2000000F) /* SoundTable */
+     , (1626,   6, 0x040001B4) /* PaletteBase */
+     , (1626,   8, 0x0600103B) /* Icon */
+     , (1626,  22, 0x34000023) /* PhysicsEffectTable */
      , (1626,  30,         86) /* PhysicsScript - BreatheAcid */
      , (1626, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (1626, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (1626, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (1626, 8040, 2519728190, 180.9852, 141.2461, 133.2331, 0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
+VALUES (1626, 8040, 0x9630003E, 180.9852, 141.2461, 133.2331, 0.92388, 0, 0, -0.382684) /* PCAPRecordedLocation */
 /* @teleloc 0x9630003E [180.985200 141.246100 133.233100] 0.923880 0.000000 0.000000 -0.382684 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1626, 8000, 3685860990) /* PCAPRecordedObjectIID */;
+VALUES (1626, 8000, 0xDBB1C67E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1626,   1, 100, 0, 0) /* Strength */
@@ -58,7 +58,8 @@ VALUES (1626,   1,    30, 0, 0, 90) /* MaxHealth */
      , (1626,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1626, 9, 49261,  0, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for ContainTreasure */
+VALUES (1626, 2, 48031,  1, 0, 0, False) /* Create Lightning Silifi (48031) for Wield */
+     , (1626, 9, 49261,  0, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for ContainTreasure */
      , (1626, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
      , (1626, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (1626, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */

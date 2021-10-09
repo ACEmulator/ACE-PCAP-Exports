@@ -17,15 +17,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22241,   1, 'Triumphal Gardens') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22241,   1,   33558055) /* Setup */
-     , (22241,   8,  100667499) /* Icon */
+VALUES (22241,   1, 0x02000E27) /* Setup */
+     , (22241,   8, 0x0600106B) /* Icon */
      , (22241, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (22241, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (22241, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22241, 8040, 1448083843, 76.2991, -49.9886, 0, 0.698448, 0, 0, -0.715661) /* PCAPRecordedLocation */
+VALUES (22241, 8040, 0x56500183, 76.2991, -49.9886, 0, 0.698448, 0, 0, -0.715661) /* PCAPRecordedLocation */
 /* @teleloc 0x56500183 [76.299100 -49.988600 0.000000] 0.698448 0.000000 0.000000 -0.715661 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22241, 8000, 1969553453) /* PCAPRecordedObjectIID */;
+VALUES (22241, 8000, 0x7565002D) /* PCAPRecordedObjectIID */;

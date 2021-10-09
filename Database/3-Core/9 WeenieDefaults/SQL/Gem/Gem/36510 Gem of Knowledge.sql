@@ -21,13 +21,13 @@ VALUES (36510,   1, 'Gem of Knowledge') /* Name */
      , (36510,  20, 'Gems of Knowledge') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36510,   1,   33554809) /* Setup */
-     , (36510,   3,  536870932) /* SoundTable */
-     , (36510,   8,  100689653) /* Icon */
-     , (36510,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36510,   1, 0x02000179) /* Setup */
+     , (36510,   3, 0x20000014) /* SoundTable */
+     , (36510,   8, 0x060066F5) /* Icon */
+     , (36510,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36510, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (36510, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36510, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36510, 8000, 2880358376) /* PCAPRecordedObjectIID */;
+VALUES (36510, 8000, 0xABAEC7E8) /* PCAPRecordedObjectIID */;

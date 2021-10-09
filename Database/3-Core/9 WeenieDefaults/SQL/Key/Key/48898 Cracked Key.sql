@@ -23,13 +23,13 @@ VALUES (48898,   1, 'Cracked Key') /* Name */
      , (48898,  16, 'A key dropped by Janthef''s Golem Guardian.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (48898,   1,   33554784) /* Setup */
-     , (48898,   3,  536870932) /* SoundTable */
-     , (48898,   8,  100668441) /* Icon */
-     , (48898,  22,  872415275) /* PhysicsEffectTable */
+VALUES (48898,   1, 0x02000160) /* Setup */
+     , (48898,   3, 0x20000014) /* SoundTable */
+     , (48898,   8, 0x06001419) /* Icon */
+     , (48898,  22, 0x3400002B) /* PhysicsEffectTable */
      , (48898, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (48898, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (48898, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48898, 8000, 3710370929) /* PCAPRecordedObjectIID */;
+VALUES (48898, 8000, 0xDD27C471) /* PCAPRecordedObjectIID */;

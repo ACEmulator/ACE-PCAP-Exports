@@ -24,13 +24,13 @@ VALUES (20490,   1, 'Scroll of Battlemage''s Blessing') /* Name */
 Increases the caster''s natural mana rate by 115%.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20490,   1,   33554826) /* Setup */
-     , (20490,   8,  100676939) /* Icon */
-     , (20490,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20490,   1, 0x0200018A) /* Setup */
+     , (20490,   8, 0x0600354B) /* Icon */
+     , (20490,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20490,  28,       2183) /* Spell - ManaRenewalSelf7 */
      , (20490, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20490, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20490, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20490, 8000, 3682421432) /* PCAPRecordedObjectIID */;
+VALUES (20490, 8000, 0xDB7D4AB8) /* PCAPRecordedObjectIID */;

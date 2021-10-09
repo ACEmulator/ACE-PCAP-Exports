@@ -17,7 +17,8 @@ VALUES (35403,   1,      16384) /* ItemType - Key */
      , (35403, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35403,  22, True ) /* Inscribable */;
+VALUES (35403,  22, True ) /* Inscribable */
+     , (35403,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35403,   1, 'Lady Tairla Mhoire''s Key') /* Name */
@@ -25,12 +26,12 @@ VALUES (35403,   1, 'Lady Tairla Mhoire''s Key') /* Name */
      , (35403,  16, 'An ancient silver key scarred and covered with ash.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35403,   1,   33554784) /* Setup */
-     , (35403,   8,  100667485) /* Icon */
-     , (35403,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35403,   1, 0x02000160) /* Setup */
+     , (35403,   8, 0x0600105D) /* Icon */
+     , (35403,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35403, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (35403, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35403, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35403, 8000, 3455188086) /* PCAPRecordedObjectIID */;
+VALUES (35403, 8000, 0xCDF1FC76) /* PCAPRecordedObjectIID */;

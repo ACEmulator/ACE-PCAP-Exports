@@ -23,13 +23,13 @@ VALUES (30914,   1, 'Halaetan Magic Page 9') /* Name */
      , (30914,  16, 'A portion of Carlo di Cenza''s journal. This is the ninth of ten pages.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30914,   1,   33554773) /* Setup */
-     , (30914,   3,  536870932) /* SoundTable */
-     , (30914,   8,  100668176) /* Icon */
-     , (30914,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30914,   1, 0x02000155) /* Setup */
+     , (30914,   3, 0x20000014) /* SoundTable */
+     , (30914,   8, 0x06001310) /* Icon */
+     , (30914,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30914, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (30914, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (30914, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30914, 8000, 2975612905) /* PCAPRecordedObjectIID */;
+VALUES (30914, 8000, 0xB15C3FE9) /* PCAPRecordedObjectIID */;

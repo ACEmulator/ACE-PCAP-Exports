@@ -31,22 +31,22 @@ VALUES (4842,   1, 'Sarcophagus') /* Name */
      , (4842, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4842,   1,   33554638) /* Setup */
-     , (4842,   2,  150994980) /* MotionTable */
-     , (4842,   3,  536870949) /* SoundTable */
-     , (4842,   8,  100668103) /* Icon */
-     , (4842,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4842,   1, 0x020000CE) /* Setup */
+     , (4842,   2, 0x09000024) /* MotionTable */
+     , (4842,   3, 0x20000025) /* SoundTable */
+     , (4842,   8, 0x060012C7) /* Icon */
+     , (4842,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4842,  30,         88) /* PhysicsScript - Create */
      , (4842, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (4842, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4842, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4842, 8040, 32899404, 52.0773, -97.5858, -12, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (4842, 8040, 0x01F6014C, 52.0773, -97.5858, -12, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01F6014C [52.077300 -97.585800 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4842, 8000, 1881104415) /* PCAPRecordedObjectIID */;
+VALUES (4842, 8000, 0x701F601F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4842, -1, 128, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Qafiya (128) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

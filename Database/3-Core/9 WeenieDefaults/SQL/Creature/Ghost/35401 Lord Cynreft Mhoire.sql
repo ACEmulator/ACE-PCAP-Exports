@@ -31,22 +31,22 @@ VALUES (35401,   1, 'Lord Cynreft Mhoire') /* Name */
      , (35401, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35401,   1,   33554433) /* Setup */
-     , (35401,   2,  150994945) /* MotionTable */
-     , (35401,   3,  536871094) /* SoundTable */
-     , (35401,   6,   67108990) /* PaletteBase */
-     , (35401,   8,  100676679) /* Icon */
-     , (35401,  22,  872415403) /* PhysicsEffectTable */
+VALUES (35401,   1, 0x02000001) /* Setup */
+     , (35401,   2, 0x09000001) /* MotionTable */
+     , (35401,   3, 0x200000B6) /* SoundTable */
+     , (35401,   6, 0x0400007E) /* PaletteBase */
+     , (35401,   8, 0x06003447) /* Icon */
+     , (35401,  22, 0x340000AB) /* PhysicsEffectTable */
      , (35401, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (35401, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (35401, 8005,     366787) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (35401, 8040, 9765133, 20.5, -27, 0.006500006, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (35401, 8040, 0x0095010D, 20.5, -27, 0.0065, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0095010D [20.500000 -27.000000 0.006500] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35401, 8000, 3681526017) /* PCAPRecordedObjectIID */;
+VALUES (35401, 8000, 0xDB6FA101) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (35401,   1,     0, 0, 0, 200250) /* MaxHealth */;

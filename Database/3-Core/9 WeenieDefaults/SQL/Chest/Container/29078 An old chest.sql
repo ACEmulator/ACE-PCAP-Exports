@@ -27,21 +27,21 @@ VALUES (29078,   1, 'An old chest') /* Name */
      , (29078, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29078,   1,   33554556) /* Setup */
-     , (29078,   2,  150994948) /* MotionTable */
-     , (29078,   3,  536870945) /* SoundTable */
-     , (29078,   8,  100667426) /* Icon */
-     , (29078,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29078,   1, 0x0200007C) /* Setup */
+     , (29078,   2, 0x09000004) /* MotionTable */
+     , (29078,   3, 0x20000021) /* SoundTable */
+     , (29078,   8, 0x06001022) /* Icon */
+     , (29078,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29078, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (29078, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (29078, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29078, 8040, 18088319, 10.3459, -109.065, 0, -0.9998987, 0, 0, -0.014235) /* PCAPRecordedLocation */
+VALUES (29078, 8040, 0x0114017F, 10.3459, -109.065, 0, -0.999899, 0, 0, -0.014235) /* PCAPRecordedLocation */
 /* @teleloc 0x0114017F [10.345900 -109.065000 0.000000] -0.999899 0.000000 0.000000 -0.014235 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29078, 8000, 1880178695) /* PCAPRecordedObjectIID */;
+VALUES (29078, 8000, 0x70114007) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29078, -1, 29089, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Stolen Ewer (29089) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

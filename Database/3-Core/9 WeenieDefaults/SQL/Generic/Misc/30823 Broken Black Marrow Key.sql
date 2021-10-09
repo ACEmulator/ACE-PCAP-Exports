@@ -14,7 +14,8 @@ VALUES (30823,   1,        128) /* ItemType - Misc */
      , (30823, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30823,  22, True ) /* Inscribable */;
+VALUES (30823,  22, True ) /* Inscribable */
+     , (30823,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30823,  39,    0.75) /* DefaultScale */;
@@ -24,16 +25,13 @@ VALUES (30823,   1, 'Broken Black Marrow Key') /* Name */
      , (30823,  15, 'A collection of fragments that appears to have once been a key. Use an intricate carving tool to reassemble the pieces.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30823,   1,   33554784) /* Setup */
-     , (30823,   3,  536870932) /* SoundTable */
-     , (30823,   8,  100677500) /* Icon */
-     , (30823,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30823,   1, 0x02000160) /* Setup */
+     , (30823,   3, 0x20000014) /* SoundTable */
+     , (30823,   8, 0x0600377C) /* Icon */
+     , (30823,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30823, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (30823, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30823, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30823, 8000, 3683073139) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30823, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
+VALUES (30823, 8000, 0xDB873C73) /* PCAPRecordedObjectIID */;

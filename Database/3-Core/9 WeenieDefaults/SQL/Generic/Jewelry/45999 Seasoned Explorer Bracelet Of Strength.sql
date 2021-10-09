@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (45999,   1,          8) /* ItemType - Jewelry */
      , (45999,   5,         60) /* EncumbranceVal */
      , (45999,   9,     196608) /* ValidLocations - WristWear */
-     , (45999,  10,      65536) /* CurrentWieldedLocation - WristWearLeft */
      , (45999,  16,          1) /* ItemUseable - No */
      , (45999,  18,          1) /* UiEffects - Magical */
      , (45999,  19,        100) /* Value */
@@ -22,6 +21,7 @@ VALUES (45999,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45999,  22, True ) /* Inscribable */
+     , (45999,  23, True ) /* DestroyOnSell */
      , (45999,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -32,21 +32,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45999,   1, 'Seasoned Explorer Bracelet Of Strength') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45999,   1,   33554683) /* Setup */
-     , (45999,   3,  536870932) /* SoundTable */
-     , (45999,   6,   67111919) /* PaletteBase */
-     , (45999,   8,  100675472) /* Icon */
-     , (45999,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45999,   1, 0x020000FB) /* Setup */
+     , (45999,   3, 0x20000014) /* SoundTable */
+     , (45999,   6, 0x04000BEF) /* PaletteBase */
+     , (45999,   8, 0x06002F90) /* Icon */
+     , (45999,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45999, 8001,    2326680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (45999, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45999, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45999, 8000, 3041734283) /* PCAPRecordedObjectIID */;
+VALUES (45999, 8000, 0xB54D2E8B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45999,  1337,      2)  /* StrengthOther6 */
-     , (45999,  2583,      2)  /* CANTRIPSTRENGTH1 */;
+VALUES (45999,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (45999,  1337,      2)  /* StrengthOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45999, 67111919, 0, 0);

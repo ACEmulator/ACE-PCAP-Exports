@@ -41,24 +41,24 @@ VALUES (30832,   1, 'Doppelganger Robe') /* Name */
      , (30832,  16, 'A robe looted from the corpse of the Shadow Lugian Urleg.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30832,   1,   33554854) /* Setup */
-     , (30832,   3,  536870932) /* SoundTable */
-     , (30832,   6,   67108990) /* PaletteBase */
-     , (30832,   8,  100677472) /* Icon */
-     , (30832,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30832,   1, 0x020001A6) /* Setup */
+     , (30832,   3, 0x20000014) /* SoundTable */
+     , (30832,   6, 0x0400007E) /* PaletteBase */
+     , (30832,   8, 0x06003760) /* Icon */
+     , (30832,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30832, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (30832, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30832, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30832, 8000, 2982968673) /* PCAPRecordedObjectIID */;
+VALUES (30832, 8000, 0xB1CC7D61) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30832,  1023,      2)  /* BludgeonProtectionSelf6 */
-     , (30832,  1114,      2)  /* BladeProtectionSelf6 */
-     , (30832,  1138,      2)  /* PiercingProtectionSelf6 */
+VALUES (30832,  1114,      2)  /* BladeProtectionSelf6 */
      , (30832,  3802,      2)  /* CantripShadowReek */
-     , (30832,  3803,      2)  /* CantripShadowShot */;
+     , (30832,  3803,      2)  /* CantripShadowShot */
+     , (30832,  1138,      2)  /* PiercingProtectionSelf6 */
+     , (30832,  1023,      2)  /* BludgeonProtectionSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30832, 67115506, 174, 82);

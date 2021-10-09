@@ -27,18 +27,18 @@ VALUES (27259,   1, 'Priceless Ore') /* Name */
      , (27259,  16, 'A chunk of Crystaline Ore. It seems to shimmer and feels warm to the touch.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27259,   1,   33554817) /* Setup */
-     , (27259,   3,  536870932) /* SoundTable */
-     , (27259,   6,   67111919) /* PaletteBase */
-     , (27259,   8,  100676396) /* Icon */
-     , (27259,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27259,   1, 0x02000181) /* Setup */
+     , (27259,   3, 0x20000014) /* SoundTable */
+     , (27259,   6, 0x04000BEF) /* PaletteBase */
+     , (27259,   8, 0x0600332C) /* Icon */
+     , (27259,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27259,  28,       3207) /* Spell - GolemHunterManaLow */
      , (27259, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
      , (27259, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (27259, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27259, 8000, 2174242700) /* PCAPRecordedObjectIID */;
+VALUES (27259, 8000, 0x81984F8C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27259, 67111927, 0, 0);

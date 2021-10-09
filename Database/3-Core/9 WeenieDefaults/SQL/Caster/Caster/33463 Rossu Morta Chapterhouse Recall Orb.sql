@@ -7,11 +7,11 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33463,   1,      32768) /* ItemType - Caster */
      , (33463,   5,         50) /* EncumbranceVal */
      , (33463,   9,   16777216) /* ValidLocations - Held */
-     , (33463,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (33463,  16,     655364) /* ItemUseable - 655364 */
      , (33463,  18,          1) /* UiEffects - Magical */
      , (33463,  19,       5000) /* Value */
      , (33463,  33,          1) /* Bonded - Bonded */
+     , (33463,  46,        512) /* DefaultCombatStyle - Magic */
      , (33463,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (33463,  94,         16) /* TargetType - Creature */
      , (33463, 106,        400) /* ItemSpellcraft */
@@ -27,7 +27,8 @@ VALUES (33463,   1,      32768) /* ItemType - Caster */
      , (33463, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33463,  22, True ) /* Inscribable */;
+VALUES (33463,  22, True ) /* Inscribable */
+     , (33463,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33463,  29,       1) /* WeaponDefense */
@@ -39,11 +40,11 @@ VALUES (33463,   1, 'Rossu Morta Chapterhouse Recall Orb') /* Name */
      , (33463,  16, 'A spellcasting orb used to recall to the Rossu Morta Chapterhouse.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33463,   1,   33554669) /* Setup */
-     , (33463,   3,  536870932) /* SoundTable */
-     , (33463,   6,   67111928) /* PaletteBase */
-     , (33463,   8,  100668722) /* Icon */
-     , (33463,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33463,   1, 0x020000ED) /* Setup */
+     , (33463,   3, 0x20000014) /* SoundTable */
+     , (33463,   6, 0x04000BF8) /* PaletteBase */
+     , (33463,   8, 0x06001532) /* Icon */
+     , (33463,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33463,  28,       3929) /* Spell - RecallRossuMorta */
      , (33463, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
      , (33463, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -51,12 +52,12 @@ VALUES (33463,   1,   33554669) /* Setup */
      , (33463, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33463, 8040, 2847146009, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */
+VALUES (33463, 8040, 0xA9B40019, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.055479, -0.055479) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [84.024690 7.096089 93.929010] 0.704927 0.704927 -0.055479 -0.055479 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33463, 8000, 3260351668) /* PCAPRecordedObjectIID */
-     , (33463, 8008, 1343838479) /* PCAPRecordedParentIID */;
+VALUES (33463, 8000, 0xC25504B4) /* PCAPRecordedObjectIID */
+     , (33463, 8008, 0x5019590F) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (33463, 67111919, 0, 0);

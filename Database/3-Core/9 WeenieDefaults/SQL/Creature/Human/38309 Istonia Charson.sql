@@ -16,7 +16,7 @@ VALUES (38309,   1,         16) /* ItemType - Creature */
      , (38309, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38309, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38309, 188,          1) /* HeritageGroup - Aluvian */
-     , (38309, 281,          2) /* Faction1Bits */
+     , (38309, 281,          2) /* Faction1Bits - EldrytchWeb */
      , (38309, 288,        601) /* SocietyRankEldweb */
      , (38309, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
@@ -33,27 +33,27 @@ VALUES (38309,   1, 'Istonia Charson') /* Name */
      , (38309, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38309,   1,   33554510) /* Setup */
-     , (38309,   2,  150994945) /* MotionTable */
-     , (38309,   3,  536870914) /* SoundTable */
-     , (38309,   6,   67108990) /* PaletteBase */
-     , (38309,   8,  100667446) /* Icon */
-     , (38309,   9,   83890283) /* EyesTexture */
-     , (38309,  10,   83890316) /* NoseTexture */
-     , (38309,  11,   83890356) /* MouthTexture */
-     , (38309,  15,   67117079) /* HairPalette */
-     , (38309,  16,   67110065) /* EyesPalette */
-     , (38309,  17,   67109562) /* SkinPalette */
+VALUES (38309,   1, 0x0200004E) /* Setup */
+     , (38309,   2, 0x09000001) /* MotionTable */
+     , (38309,   3, 0x20000002) /* SoundTable */
+     , (38309,   6, 0x0400007E) /* PaletteBase */
+     , (38309,   8, 0x06001036) /* Icon */
+     , (38309,   9, 0x0500106B) /* EyesTexture */
+     , (38309,  10, 0x0500108C) /* NoseTexture */
+     , (38309,  11, 0x050010B4) /* MouthTexture */
+     , (38309,  15, 0x04002017) /* HairPalette */
+     , (38309,  16, 0x040004B1) /* EyesPalette */
+     , (38309,  17, 0x040002BA) /* SkinPalette */
      , (38309, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (38309, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (38309, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38309, 8040, 12059245, 147.607, -43.2072, -17.995, -0.998481, 0, 0, -0.0551035) /* PCAPRecordedLocation */
+VALUES (38309, 8040, 0x00B8026D, 147.607, -43.2072, -17.995, -0.998481, 0, 0, -0.055104) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026D [147.607000 -43.207200 -17.995000] -0.998481 0.000000 0.000000 -0.055104 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38309, 8000, 2921673185) /* PCAPRecordedObjectIID */;
+VALUES (38309, 8000, 0xAE2531E1) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38309,   1, 255, 0, 0) /* Strength */

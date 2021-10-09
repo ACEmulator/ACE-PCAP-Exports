@@ -32,6 +32,7 @@ VALUES (24171,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24171,  22, True ) /* Inscribable */
+     , (24171,  23, True ) /* DestroyOnSell */
      , (24171,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
@@ -49,21 +50,21 @@ VALUES (24171,   1, 'Oswald''s Dirk') /* Name */
      , (24171,  15, 'A very sharp and light dirk capable of multiple blows at once.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24171,   1,   33558325) /* Setup */
-     , (24171,   3,  536870932) /* SoundTable */
-     , (24171,   8,  100674287) /* Icon */
-     , (24171,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24171,   1, 0x02000F35) /* Setup */
+     , (24171,   3, 0x20000014) /* SoundTable */
+     , (24171,   8, 0x06002AEF) /* Icon */
+     , (24171,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24171, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (24171, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24171, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24171, 8000, 2150770453) /* PCAPRecordedObjectIID */;
+VALUES (24171, 8000, 0x80322715) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24171,  1408,      2)  /* QuicknessOther6 */
-     , (24171,  1592,      2)  /* HeartSeekerSelf6 */
      , (24171,  1604,      2)  /* DefenderSelf5 */
      , (24171,  1616,      2)  /* BloodDrinkerSelf6 */
      , (24171,  1625,      2)  /* SwiftKillerSelf4 */
-     , (24171,  2521,      2)  /* CANTRIPLOCKPICKPROWESS2 */;
+     , (24171,  2521,      2)  /* CANTRIPLOCKPICKPROWESS2 */
+     , (24171,  1592,      2)  /* HeartSeekerSelf6 */;

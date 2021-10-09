@@ -24,18 +24,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45683,   1, 'Left-hand Tether') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45683,   1,   33556223) /* Setup */
-     , (45683,   3,  536870932) /* SoundTable */
-     , (45683,   6,   67111928) /* PaletteBase */
-     , (45683,   8,  100692359) /* Icon */
-     , (45683,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45683,   1, 0x020006FF) /* Setup */
+     , (45683,   3, 0x20000014) /* SoundTable */
+     , (45683,   6, 0x04000BF8) /* PaletteBase */
+     , (45683,   8, 0x06007187) /* Icon */
+     , (45683,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45683, 8001,    2650264) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (45683, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (45683, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (45683, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45683, 8000,      45683) /* PCAPRecordedObjectIID */;
+VALUES (45683, 8000, 0x0000B273) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45683, 67112642, 0, 0);

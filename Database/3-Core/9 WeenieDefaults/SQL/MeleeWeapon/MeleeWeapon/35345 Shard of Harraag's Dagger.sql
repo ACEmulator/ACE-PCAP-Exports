@@ -34,6 +34,7 @@ VALUES (35345,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35345,  22, True ) /* Inscribable */
+     , (35345,  23, True ) /* DestroyOnSell */
      , (35345,  69, False) /* IsSellable */
      , (35345,  99, True ) /* Ivoryable */;
 
@@ -54,17 +55,17 @@ VALUES (35345,   1, 'Shard of Harraag''s Dagger') /* Name */
      , (35345,  16, 'A crystalline dagger, crafted from a shard of the dagger carried by the strangely altered Banderling, Harraag.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35345,   1,   33560291) /* Setup */
-     , (35345,   3,  536870932) /* SoundTable */
-     , (35345,   8,  100671865) /* Icon */
-     , (35345,  22,  872415275) /* PhysicsEffectTable */
+VALUES (35345,   1, 0x020016E3) /* Setup */
+     , (35345,   3, 0x20000014) /* SoundTable */
+     , (35345,   8, 0x06002179) /* Icon */
+     , (35345,  22, 0x3400002B) /* PhysicsEffectTable */
      , (35345,  55,       1788) /* ProcSpell - LightningRing */
      , (35345, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (35345, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (35345, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35345, 8000, 3354559908) /* PCAPRecordedObjectIID */;
+VALUES (35345, 8000, 0xC7F285A4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35345,  2686,      2)  /* ModerateAxeAptitude */;

@@ -21,11 +21,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4613,   1, 'Small Mana Charge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4613,   1,   33555639) /* Setup */
-     , (4613,   8,  100676297) /* Icon */
+VALUES (4613,   1, 0x020004B7) /* Setup */
+     , (4613,   8, 0x060032C9) /* Icon */
      , (4613, 8001,  271073432) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, TargetType, Burden, HookType */
      , (4613, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (4613, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4613, 8000, 3707118815) /* PCAPRecordedObjectIID */;
+VALUES (4613, 8000, 0xDCF624DF) /* PCAPRecordedObjectIID */;

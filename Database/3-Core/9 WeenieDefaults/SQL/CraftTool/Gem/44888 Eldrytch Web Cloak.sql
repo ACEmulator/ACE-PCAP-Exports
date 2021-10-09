@@ -27,19 +27,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44888,   1, 'Eldrytch Web Cloak') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44888,   1,   33556223) /* Setup */
-     , (44888,   3,  536870932) /* SoundTable */
-     , (44888,   6,   67111928) /* PaletteBase */
-     , (44888,   8,  100692135) /* Icon */
-     , (44888,  22,  872415275) /* PhysicsEffectTable */
-     , (44888,  50,  100667895) /* IconOverlay */
+VALUES (44888,   1, 0x020006FF) /* Setup */
+     , (44888,   3, 0x20000014) /* SoundTable */
+     , (44888,   6, 0x04000BF8) /* PaletteBase */
+     , (44888,   8, 0x060070A7) /* Icon */
+     , (44888,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44888,  50, 0x060011F7) /* IconOverlay */
      , (44888, 8001, 1076654104) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Priority, TargetType, Burden, IconOverlay */
      , (44888, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44888, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (44888, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44888, 8000,      44888) /* PCAPRecordedObjectIID */;
+VALUES (44888, 8000, 0x0000AF58) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44888, 67112642, 0, 0);

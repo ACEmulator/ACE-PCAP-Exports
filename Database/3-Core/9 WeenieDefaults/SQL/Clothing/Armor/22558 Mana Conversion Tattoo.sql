@@ -20,22 +20,22 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22558,   1, 'Mana Conversion Tattoo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22558,   1,   33554641) /* Setup */
-     , (22558,   3,  536870932) /* SoundTable */
-     , (22558,   6,   67108990) /* PaletteBase */
-     , (22558,   8,  100673847) /* Icon */
-     , (22558,  22,  872415275) /* PhysicsEffectTable */
-     , (22558,  50,  100673777) /* IconOverlay */
+VALUES (22558,   1, 0x020000D1) /* Setup */
+     , (22558,   3, 0x20000014) /* SoundTable */
+     , (22558,   6, 0x0400007E) /* PaletteBase */
+     , (22558,   8, 0x06002937) /* Icon */
+     , (22558,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (22558,  50, 0x060028F1) /* IconOverlay */
      , (22558, 8001, 1076166680) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, IconOverlay */
      , (22558, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22558, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22558, 8040, 23855554, 58.36778, -31.54819, -0.002499998, 0.6865274, 0, 0, 0.7271039) /* PCAPRecordedLocation */
+VALUES (22558, 8040, 0x016C01C2, 58.36778, -31.54819, -0.0025, 0.686527, 0, 0, 0.727104) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [58.367780 -31.548190 -0.002500] 0.686527 0.000000 0.000000 0.727104 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22558, 8000, 2693914079) /* PCAPRecordedObjectIID */;
+VALUES (22558, 8000, 0xA091DDDF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (22558, 67114077, 96, 20);

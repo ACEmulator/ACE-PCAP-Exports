@@ -36,21 +36,21 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (319,   1, 'Jambiya') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (319,   1,   33554887) /* Setup */
-     , (319,   3,  536870932) /* SoundTable */
-     , (319,   6,   67111919) /* PaletteBase */
-     , (319,   8,  100668886) /* Icon */
-     , (319,  22,  872415275) /* PhysicsEffectTable */
+VALUES (319,   1, 0x020001C7) /* Setup */
+     , (319,   3, 0x20000014) /* SoundTable */
+     , (319,   6, 0x04000BEF) /* PaletteBase */
+     , (319,   8, 0x060015D6) /* Icon */
+     , (319,  22, 0x3400002B) /* PhysicsEffectTable */
      , (319, 8001,  270598680) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, ValidLocations, Burden, HookType */
      , (319, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (319, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (319, 8040, 2931294468, 14.21532, 79.89211, 99.05099, -0.627878, 0, 0, -0.778311) /* PCAPRecordedLocation */
+VALUES (319, 8040, 0xAEB80104, 14.21532, 79.89211, 99.05099, -0.627878, 0, 0, -0.778311) /* PCAPRecordedLocation */
 /* @teleloc 0xAEB80104 [14.215320 79.892110 99.050990] -0.627878 0.000000 0.000000 -0.778311 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (319, 8000, 3334264853) /* PCAPRecordedObjectIID */;
+VALUES (319, 8000, 0xC6BCD815) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (319, 67111920, 0, 0);

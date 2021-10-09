@@ -27,20 +27,17 @@ VALUES (34449,   1, 'Colosseum Ticket') /* Name */
      , (34449,  16, 'This ticket gives access for one fellowship to the Colosseum''s Arenas. Prepare your fellowship before handing this ticket into the Arbitrator since you will be unable to change your fellowship without disbanding it and losing your access to the Colosseum.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34449,   1,   33554773) /* Setup */
-     , (34449,   3,  536870932) /* SoundTable */
-     , (34449,   8,  100689371) /* Icon */
-     , (34449,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34449,   1, 0x02000155) /* Setup */
+     , (34449,   3, 0x20000014) /* SoundTable */
+     , (34449,   8, 0x060065DB) /* Icon */
+     , (34449,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34449, 8001,    2109464) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Burden */
      , (34449, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (34449, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34449, 8040, 23855554, 55.16236, -27.68048, 0.05293, -0.02748624, 0, 0, -0.9996222) /* PCAPRecordedLocation */
+VALUES (34449, 8040, 0x016C01C2, 55.16236, -27.68048, 0.05293, -0.027486, 0, 0, -0.999622) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.162360 -27.680480 0.052930] -0.027486 0.000000 0.000000 -0.999622 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34449, 8000, 3251231728) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34449, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */;
+VALUES (34449, 8000, 0xC1C9DBF0) /* PCAPRecordedObjectIID */;

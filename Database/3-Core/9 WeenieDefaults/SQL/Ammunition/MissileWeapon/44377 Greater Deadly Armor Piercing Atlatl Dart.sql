@@ -28,18 +28,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44377,   1, 'Greater Deadly Armor Piercing Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44377,   1,   33557434) /* Setup */
-     , (44377,   3,  536870932) /* SoundTable */
-     , (44377,   6,   67111919) /* PaletteBase */
-     , (44377,   8,  100672678) /* Icon */
-     , (44377,  22,  872415275) /* PhysicsEffectTable */
-     , (44377,  50,  100689661) /* IconOverlay */
+VALUES (44377,   1, 0x02000BBA) /* Setup */
+     , (44377,   3, 0x20000014) /* SoundTable */
+     , (44377,   6, 0x04000BEF) /* PaletteBase */
+     , (44377,   8, 0x060024A6) /* Icon */
+     , (44377,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44377,  50, 0x060066FD) /* IconOverlay */
      , (44377, 8001, 1344369432) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType, IconOverlay */
      , (44377, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44377, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44377, 8000, 3708510558) /* PCAPRecordedObjectIID */;
+VALUES (44377, 8000, 0xDD0B615E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44377, 67111924, 0, 0);

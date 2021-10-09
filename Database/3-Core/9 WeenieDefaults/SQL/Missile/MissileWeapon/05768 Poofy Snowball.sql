@@ -17,7 +17,7 @@ VALUES (5768,   1,        256) /* ItemType - MissileWeapon */
      , (5768,  45,          8) /* DamageType - Cold */
      , (5768,  48,         47) /* WeaponSkill - MissileWeapons */
      , (5768,  49,         20) /* WeaponTime */
-     , (5768,  51,          2) /* CombatUse - Missle */
+     , (5768,  51,          2) /* CombatUse - Missile */
      , (5768,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (5768, 151,          2) /* HookType - Wall */
      , (5768, 353,         10) /* WeaponType - Thrown */
@@ -40,17 +40,17 @@ VALUES (5768,   1, 'Poofy Snowball') /* Name */
      , (5768,  16, 'A lightweight ball made of clean, extra fluffy snow.  Harmless fun for light Player Killer play.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5768,   1,   33556225) /* Setup */
-     , (5768,   3,  536870932) /* SoundTable */
-     , (5768,   6,   67111928) /* PaletteBase */
-     , (5768,   8,  100670281) /* Icon */
-     , (5768,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5768,   1, 0x02000701) /* Setup */
+     , (5768,   3, 0x20000014) /* SoundTable */
+     , (5768,   6, 0x04000BF8) /* PaletteBase */
+     , (5768,   8, 0x06001B49) /* Icon */
+     , (5768,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5768, 8001,  270627352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (5768, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (5768, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5768, 8000, 2186220521) /* PCAPRecordedObjectIID */;
+VALUES (5768, 8000, 0x824F13E9) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5768, 67112640, 0, 0);

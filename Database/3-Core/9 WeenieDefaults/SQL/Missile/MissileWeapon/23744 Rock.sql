@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (23744,   1,        256) /* ItemType - MissileWeapon */
      , (23744,   5,        500) /* EncumbranceVal */
      , (23744,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (23744,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (23744,  11,         30) /* MaxStackSize */
      , (23744,  12,          1) /* StackSize */
      , (23744,  13,        500) /* StackUnitEncumbrance */
@@ -19,7 +18,7 @@ VALUES (23744,   1,        256) /* ItemType - MissileWeapon */
      , (23744,  45,          4) /* DamageType - Bludgeon */
      , (23744,  48,         47) /* WeaponSkill - MissileWeapons */
      , (23744,  49,         20) /* WeaponTime */
-     , (23744,  51,          2) /* CombatUse - Missle */
+     , (23744,  51,          2) /* CombatUse - Missile */
      , (23744,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23744, 307,          5) /* DamageRating */
      , (23744, 313,          0) /* CritRating */
@@ -48,26 +47,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23744,   1, 'Rock') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23744,   1,   33555863) /* Setup */
-     , (23744,   3,  536871003) /* SoundTable */
-     , (23744,   8,  100667500) /* Icon */
-     , (23744,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23744,   1, 0x02000597) /* Setup */
+     , (23744,   3, 0x2000005B) /* SoundTable */
+     , (23744,   8, 0x0600106C) /* Icon */
+     , (23744,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23744, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
      , (23744, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (23744, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
      , (23744, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (23744, 8040, 2519334933, 65.86094, 104.8754, 99.44846, 0.6532815, 0.6532815, -0.2705981, -0.2705981) /* PCAPRecordedLocation */
+VALUES (23744, 8040, 0x962A0015, 65.86094, 104.8754, 99.44846, 0.653282, 0.653282, -0.270598, -0.270598) /* PCAPRecordedLocation */
 /* @teleloc 0x962A0015 [65.860940 104.875400 99.448460] 0.653282 0.653282 -0.270598 -0.270598 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23744, 8000, 3685859808) /* PCAPRecordedObjectIID */
-     , (23744, 8008, 3685859806) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23744, 2, 23664,  1, 0, 0, False) /* Create Heavy Crossbow (23664) for Wield */
-     , (23744, 2, 12189,  1, 0, 0, False) /* Create Assassin's Lightning Jambiya (12189) for Wield */
-     , (23744, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */
-     , (23744, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
-     , (23744, 2, 47521,  1, 0, 0, False) /* Create Acid Javelin (47521) for Wield */;
+VALUES (23744, 8000, 0xDBB1C1E0) /* PCAPRecordedObjectIID */
+     , (23744, 8008, 0xDBB1C1DE) /* PCAPRecordedParentIID */;

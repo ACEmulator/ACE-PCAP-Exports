@@ -19,18 +19,18 @@ VALUES (2274,   1, 'Ginan''s Goods') /* Name */
      , (2274,  16, 'Ginan''s Goods') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2274,   1,   33555088) /* Setup */
-     , (2274,   8,  100668115) /* Icon */
+VALUES (2274,   1, 0x02000290) /* Setup */
+     , (2274,   8, 0x060012D3) /* Icon */
      , (2274, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (2274, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (2274, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (2274, 8040, 3443589166, 136.089, 130.153, 54, 0.654527, 0, 0, 0.756039) /* PCAPRecordedLocation */
+VALUES (2274, 8040, 0xCD41002E, 136.089, 130.153, 54, 0.654527, 0, 0, 0.756039) /* PCAPRecordedLocation */
 /* @teleloc 0xCD41002E [136.089000 130.153000 54.000000] 0.654527 0.000000 0.000000 0.756039 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2274, 8000, 2094272556) /* PCAPRecordedObjectIID */;
+VALUES (2274, 8000, 0x7CD4102C) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (2274, 0, 83891055, 83889906);

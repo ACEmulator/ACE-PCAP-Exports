@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2698,   1, 'Scroll of Heal Self III') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2698,   1,   33554826) /* Setup */
-     , (2698,   8,  100676931) /* Icon */
-     , (2698,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2698,   1, 0x0200018A) /* Setup */
+     , (2698,   8, 0x06003543) /* Icon */
+     , (2698,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2698,  28,       1158) /* Spell - HealSelf3 */
      , (2698, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (2698, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2698, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2698, 8000, 3631022488) /* PCAPRecordedObjectIID */;
+VALUES (2698, 8000, 0xD86D0198) /* PCAPRecordedObjectIID */;

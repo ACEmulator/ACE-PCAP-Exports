@@ -44,25 +44,25 @@ VALUES (5901,   1, 'Kasa') /* Name */
      , (5901,  16, 'Kasa of Dual Wield Mastery') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5901,   1,   33556236) /* Setup */
-     , (5901,   3,  536870932) /* SoundTable */
-     , (5901,   6,   67108990) /* PaletteBase */
-     , (5901,   8,  100670334) /* Icon */
-     , (5901,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5901,   1, 0x0200070C) /* Setup */
+     , (5901,   3, 0x20000014) /* SoundTable */
+     , (5901,   6, 0x0400007E) /* PaletteBase */
+     , (5901,   8, 0x06001B7E) /* Icon */
+     , (5901,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5901, 8001, 2435137560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (5901, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (5901, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5901, 8000, 3685960528) /* PCAPRecordedObjectIID */;
+VALUES (5901, 8000, 0xDBB34B50) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5901,  1485,      2)  /* Impenetrability5 */
-     , (5901,  1527,      2)  /* FrostBane5 */
      , (5901,  1551,      2)  /* FlameBane5 */
-     , (5901,  1561,      2)  /* BladeBane5 */
      , (5901,  2583,      2)  /* CANTRIPSTRENGTH1 */
-     , (5901,  5808,      2)  /* DualWieldMasterySelf6 */;
+     , (5901,  1561,      2)  /* BladeBane5 */
+     , (5901,  5808,      2)  /* DualWieldMasterySelf6 */
+     , (5901,  1527,      2)  /* FrostBane5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (5901, 67110328, 250, 6)

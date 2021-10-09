@@ -27,21 +27,21 @@ VALUES (4819,   1, 'Sarcophagus') /* Name */
      , (4819, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4819,   1,   33554638) /* Setup */
-     , (4819,   2,  150994980) /* MotionTable */
-     , (4819,   3,  536870949) /* SoundTable */
-     , (4819,   8,  100668103) /* Icon */
-     , (4819,  22,  872415275) /* PhysicsEffectTable */
+VALUES (4819,   1, 0x020000CE) /* Setup */
+     , (4819,   2, 0x09000024) /* MotionTable */
+     , (4819,   3, 0x20000025) /* SoundTable */
+     , (4819,   8, 0x060012C7) /* Icon */
+     , (4819,  22, 0x3400002B) /* PhysicsEffectTable */
      , (4819, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (4819, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
      , (4819, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4819, 8040, 20775324, 59.9057, -188.438, -42, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
+VALUES (4819, 8040, 0x013D019C, 59.9057, -188.438, -42, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x013D019C [59.905700 -188.438000 -42.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4819, 8000, 1880346639) /* PCAPRecordedObjectIID */;
+VALUES (4819, 8000, 0x7013D00F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4819, -1, 2589, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Smock (2589) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

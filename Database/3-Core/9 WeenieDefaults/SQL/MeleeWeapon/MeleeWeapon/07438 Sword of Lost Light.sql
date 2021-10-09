@@ -46,21 +46,21 @@ VALUES (7438,   1, 'Sword of Lost Light') /* Name */
      , (7438,  16, 'The Sword of Lost Light, infused with blue fire from Mount Lethe and white fire from Mount Esper.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (7438,   1,   33555927) /* Setup */
-     , (7438,   3,  536870932) /* SoundTable */
-     , (7438,   8,  100669772) /* Icon */
-     , (7438,  22,  872415275) /* PhysicsEffectTable */
+VALUES (7438,   1, 0x020005D7) /* Setup */
+     , (7438,   3, 0x20000014) /* SoundTable */
+     , (7438,   8, 0x0600194C) /* Icon */
+     , (7438,  22, 0x3400002B) /* PhysicsEffectTable */
      , (7438,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (7438, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (7438, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (7438, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7438, 8000, 2150466687) /* PCAPRecordedObjectIID */;
+VALUES (7438, 8000, 0x802D847F) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7438,  1335,      2)  /* StrengthOther4 */
-     , (7438,  1358,      2)  /* EnduranceOther4 */
-     , (7438,  1406,      2)  /* QuicknessOther4 */
+VALUES (7438,  1358,      2)  /* EnduranceOther4 */
      , (7438,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (7438,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (7438,  1625,      2)  /* SwiftKillerSelf4 */
+     , (7438,  1335,      2)  /* StrengthOther4 */
+     , (7438,  1406,      2)  /* QuicknessOther4 */;

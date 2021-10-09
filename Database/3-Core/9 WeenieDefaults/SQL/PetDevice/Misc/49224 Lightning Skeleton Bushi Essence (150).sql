@@ -17,7 +17,7 @@ VALUES (49224,   1,        128) /* ItemType - Misc */
      , (49224, 105,          8) /* ItemWorkmanship */
      , (49224, 114,          0) /* Attuned - Normal */
      , (49224, 280,        213) /* SharedCooldown */
-     , (49224, 366,         54) /* UseRequiresSkill */
+     , (49224, 366,         54) /* UseRequiresSkill - Summoning */
      , (49224, 367,        475) /* UseRequiresSkillLevel */
      , (49224, 369,        140) /* UseRequiresLevel */
      , (49224, 373,         12) /* GearCritResist */
@@ -37,27 +37,24 @@ VALUES (49224,   1, 'Lightning Skeleton Bushi Essence (150)') /* Name */
      , (49224,  14, 'Use this essence to summon or dismiss your Lightning Skeleton Bushi.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49224,   1,   33554817) /* Setup */
-     , (49224,   3,  536870932) /* SoundTable */
-     , (49224,   6,   67111919) /* PaletteBase */
-     , (49224,   8,  100669124) /* Icon */
-     , (49224,  22,  872415275) /* PhysicsEffectTable */
-     , (49224,  50,  100693030) /* IconOverlay */
-     , (49224,  52,  100693024) /* IconUnderlay */
+VALUES (49224,   1, 0x02000181) /* Setup */
+     , (49224,   3, 0x20000014) /* SoundTable */
+     , (49224,   6, 0x04000BEF) /* PaletteBase */
+     , (49224,   8, 0x060016C4) /* Icon */
+     , (49224,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (49224,  50, 0x06007426) /* IconOverlay */
+     , (49224,  52, 0x06007420) /* IconUnderlay */
      , (49224, 8001, 1076366488) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, TargetType, Burden, IconOverlay */
      , (49224, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
      , (49224, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (49224, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (49224, 8040, 3332964379, 75.82326, 71.14075, 41.999, 0.9136969, 0, 0, -0.4063963) /* PCAPRecordedLocation */
+VALUES (49224, 8040, 0xC6A9001B, 75.82326, 71.14075, 41.999, 0.913697, 0, 0, -0.406396) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [75.823260 71.140750 41.999000] 0.913697 0.000000 0.000000 -0.406396 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49224, 8000, 2924796144) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49224, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
+VALUES (49224, 8000, 0xAE54D8F0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (49224, 67111921, 0, 0);

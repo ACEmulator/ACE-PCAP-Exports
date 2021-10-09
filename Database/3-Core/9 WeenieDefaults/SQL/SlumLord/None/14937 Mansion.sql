@@ -32,19 +32,19 @@ Restricted to characters of allegiance rank 6 or greater.
      , (14937, 8006, 'AAA9AAIAAAALAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14937,   1,   33557167) /* Setup */
-     , (14937,   2,  150995128) /* MotionTable */
-     , (14937,   8,  100671884) /* Icon */
+VALUES (14937,   1, 0x02000AAF) /* Setup */
+     , (14937,   2, 0x090000B8) /* MotionTable */
+     , (14937,   8, 0x0600218C) /* Icon */
      , (14937, 8001,   33554480) /* PCAPRecordedWeenieHeader - Usable, UseRadius, HouseOwner */
      , (14937, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14937, 8005,      98435) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14937, 8040, 1118175267, 96.9039, 53.7365, 80, 0.999891, 0, 0, 0.014732) /* PCAPRecordedLocation */
+VALUES (14937, 8040, 0x42A60023, 96.9039, 53.7365, 80, 0.999891, 0, 0, 0.014732) /* PCAPRecordedLocation */
 /* @teleloc 0x42A60023 [96.903900 53.736500 80.000000] 0.999891 0.000000 0.000000 0.014732 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14937, 8000, 1948934208) /* PCAPRecordedObjectIID */;
+VALUES (14937, 8000, 0x742A6040) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14937, 16,   273, 10000000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */

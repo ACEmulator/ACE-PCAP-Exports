@@ -65,5 +65,5 @@ VALUES (0x702C503B,  8421, 0x02C502C0, 150.803, -120.09, -5.86108, -0.632896, 0,
 /* @teleloc 0x02C502C0 [150.803000 -120.090000 -5.861080] -0.632896 0.000000 0.000000 -0.774237 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702C503D,  8443, 0x02C502C8, 152.983, -90.4689, -0.06299996, 0.99998, 0, 0, -0.006316001, False, '2019-02-10 00:00:00'); /* Surface Portal */
+VALUES (0x702C503D,  8443, 0x02C502C8, 152.983, -90.4689, -0.063, 0.99998, 0, 0, -0.006316, False, '2019-02-10 00:00:00'); /* Surface Portal */
 /* @teleloc 0x02C502C8 [152.983000 -90.468900 -0.063000] 0.999980 0.000000 0.000000 -0.006316 */

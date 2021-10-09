@@ -47,24 +47,24 @@ VALUES (37202,   1, 'Olthoi Celdon Leggings') /* Name */
      , (37202,  16, 'Olthoi Celdon Leggings') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37202,   1,   33554856) /* Setup */
-     , (37202,   3,  536870932) /* SoundTable */
-     , (37202,   6,   67108990) /* PaletteBase */
-     , (37202,   8,  100674677) /* Icon */
-     , (37202,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37202,   1, 0x020001A8) /* Setup */
+     , (37202,   3, 0x20000014) /* SoundTable */
+     , (37202,   6, 0x0400007E) /* PaletteBase */
+     , (37202,   8, 0x06002C75) /* Icon */
+     , (37202,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37202,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (37202, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (37202, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37202, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37202, 8000, 2174542366) /* PCAPRecordedObjectIID */;
+VALUES (37202, 8000, 0x819CE21E) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37202,  1540,      2)  /* LightningBane6 */
-     , (37202,  2108,      2)  /* Impenetrability7 */
-     , (37202,  2544,      2)  /* CANTRIPDAGGERAPTITUDE1 */
-     , (37202,  4708,      2)  /* CANTRIPSALVAGING3 */;
+     , (37202,  4708,      2)  /* CANTRIPSALVAGING3 */
+     , (37202,  2544,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE1 */
+     , (37202,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (37202, 67116562, 136, 12)

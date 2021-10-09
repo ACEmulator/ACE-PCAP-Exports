@@ -26,7 +26,6 @@ VALUES (35551,   1,          1) /* ItemType - MeleeWeapon */
      , (35551, 114,          0) /* Attuned - Normal */
      , (35551, 263,          2) /* ResistanceModifierType */
      , (35551, 267,      10800) /* Lifespan */
-     , (35551, 268,      10798) /* RemainingLifespan */
      , (35551, 353,          5) /* WeaponType - Spear */
      , (35551, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
      , (35551, 8041,        101) /* PCAPRecordedPlacement - Resting */;
@@ -53,12 +52,12 @@ VALUES (35551,   1, 'Bloodletter') /* Name */
      , (35551,  16, 'This spear bears the design of the broadhead infantry spears often used by the legions of Viamont.  It is endowed with a suite of spells that make it a truly devastating melee weapon.  However, the magic is so powerful and so strange, the spear seems to be on the verge of imploding, and the chaotic magic contained within it seems to make it resist any form of human enchantment. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35551,   1,   33559320) /* Setup */
-     , (35551,   3,  536870932) /* SoundTable */
-     , (35551,   6,   67115560) /* PaletteBase */
-     , (35551,   8,  100686986) /* Icon */
-     , (35551,  22,  872415275) /* PhysicsEffectTable */
-     , (35551,  52,  100689403) /* IconUnderlay */
+VALUES (35551,   1, 0x02001318) /* Setup */
+     , (35551,   3, 0x20000014) /* SoundTable */
+     , (35551,   6, 0x04001A28) /* PaletteBase */
+     , (35551,   8, 0x06005C8A) /* Icon */
+     , (35551,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (35551,  52, 0x060065FB) /* IconUnderlay */
      , (35551,  55,       2070) /* ProcSpell - HarmOther7 */
      , (35551, 8001,    2179728) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
      , (35551, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
@@ -66,11 +65,11 @@ VALUES (35551,   1,   33559320) /* Setup */
      , (35551, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35551, 8000, 3633432153) /* PCAPRecordedObjectIID */;
+VALUES (35551, 8000, 0xD891C659) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35551,  2308,      2)  /* SwordMasteryOther7 */
-     , (35551,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */;
+VALUES (35551,  2308,      2)  /* HeavyWeaponsMasteryOther7 */
+     , (35551,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (35551, 67116409, 0, 0);

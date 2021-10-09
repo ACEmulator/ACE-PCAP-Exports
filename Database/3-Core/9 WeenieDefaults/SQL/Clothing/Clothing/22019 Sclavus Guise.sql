@@ -33,13 +33,13 @@ VALUES (22019,   1, 'Sclavus Guise') /* Name */
      , (22019,  16, 'A finely crafted sclavus costume that is only missing the head.  The inside is padded so that the rough skin of the sclavus does not rub up against the wearer.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22019,   1,   33558003) /* Setup */
-     , (22019,   3,  536870932) /* SoundTable */
-     , (22019,   8,  100673717) /* Icon */
-     , (22019,  22,  872415275) /* PhysicsEffectTable */
+VALUES (22019,   1, 0x02000DF3) /* Setup */
+     , (22019,   3, 0x20000014) /* SoundTable */
+     , (22019,   8, 0x060028B5) /* Icon */
+     , (22019,  22, 0x3400002B) /* PhysicsEffectTable */
      , (22019, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (22019, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (22019, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22019, 8000, 2156005091) /* PCAPRecordedObjectIID */;
+VALUES (22019, 8000, 0x808206E3) /* PCAPRecordedObjectIID */;

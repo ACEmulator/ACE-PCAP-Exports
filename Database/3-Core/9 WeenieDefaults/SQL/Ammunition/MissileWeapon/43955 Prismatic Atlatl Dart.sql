@@ -28,17 +28,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43955,   1, 'Prismatic Atlatl Dart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43955,   1,   33561224) /* Setup */
-     , (43955,   3,  536870932) /* SoundTable */
-     , (43955,   6,   67111919) /* PaletteBase */
-     , (43955,   8,  100691916) /* Icon */
-     , (43955,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43955,   1, 0x02001A88) /* Setup */
+     , (43955,   3, 0x20000014) /* SoundTable */
+     , (43955,   6, 0x04000BEF) /* PaletteBase */
+     , (43955,   8, 0x06006FCC) /* Icon */
+     , (43955,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43955, 8001,  270627736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
      , (43955, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (43955, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43955, 8000, 3705108840) /* PCAPRecordedObjectIID */;
+VALUES (43955, 8000, 0xDCD77968) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43955, 67111920, 0, 0);

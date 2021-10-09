@@ -48,17 +48,17 @@ VALUES (32773,   1, 'Spinning Staff of Death') /* Name */
      , (32773,  16, 'The core of this staff is made of bone and the outside is plated with the skin of a Titanium Armoredillo. Despite its weight, it feels light -- as if it seeks to whirl away on its own, slashing the very air to ribbons. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32773,   1,   33559847) /* Setup */
-     , (32773,   3,  536870932) /* SoundTable */
-     , (32773,   8,  100688662) /* Icon */
-     , (32773,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32773,   1, 0x02001527) /* Setup */
+     , (32773,   3, 0x20000014) /* SoundTable */
+     , (32773,   8, 0x06006316) /* Icon */
+     , (32773,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32773,  55,       1784) /* ProcSpell - BladeRing */
      , (32773, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (32773, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32773, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32773, 8000, 2174514874) /* PCAPRecordedObjectIID */;
+VALUES (32773, 8000, 0x819C76BA) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32773,  2096,      2)  /* BloodDrinkerSelf7 */

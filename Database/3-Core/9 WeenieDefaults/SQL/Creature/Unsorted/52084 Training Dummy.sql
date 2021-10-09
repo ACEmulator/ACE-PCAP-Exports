@@ -16,29 +16,6 @@ VALUES (52084,   1,         16) /* ItemType - Creature */
      , (52084,  49,         -1) /* WeaponTime */
      , (52084,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (52084, 307,        225) /* DamageRating */
-     , (52084, 308,          0) /* DamageResistRating */
-     , (52084, 313,          0) /* CritRating */
-     , (52084, 314,          0) /* CritDamageRating */
-     , (52084, 315,          0) /* CritResistRating */
-     , (52084, 316,          0) /* CritDamageResistRating */
-     , (52084, 370,          0) /* GearDamage */
-     , (52084, 371,          0) /* GearDamageResist */
-     , (52084, 372,          0) /* GearCrit */
-     , (52084, 373,          0) /* GearCritResist */
-     , (52084, 374,          0) /* GearCritDamage */
-     , (52084, 375,          0) /* GearCritDamageResist */
-     , (52084, 376,          0) /* GearHealingBoost */
-     , (52084, 377,          0) /* GearNetherResist */
-     , (52084, 378,          0) /* GearLifeResist */
-     , (52084, 379,          0) /* GearMaxHealth */
-     , (52084, 381,          0) /* PKDamageRating */
-     , (52084, 382,          0) /* PKDamageResistRating */
-     , (52084, 383,          0) /* GearPKDamageRating */
-     , (52084, 384,          0) /* GearPKDamageResistRating */
-     , (52084, 386,          0) /* Overpower */
-     , (52084, 387,          0) /* OverpowerResist */
-     , (52084, 388,          0) /* GearOverpower */
-     , (52084, 389,          0) /* GearOverpowerResist */
      , (52084, 8007,          0) /* PCAPRecordedAutonomousMovement */
      , (52084, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
 
@@ -59,21 +36,21 @@ VALUES (52084,   1, 'Training Dummy') /* Name */
      , (52084, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (52084,   1,   33554433) /* Setup */
-     , (52084,   2,  150995397) /* MotionTable */
-     , (52084,   3,  536870913) /* SoundTable */
-     , (52084,   6,   67108990) /* PaletteBase */
-     , (52084,   8,  100667446) /* Icon */
+VALUES (52084,   1, 0x02000001) /* Setup */
+     , (52084,   2, 0x090001C5) /* MotionTable */
+     , (52084,   3, 0x20000001) /* SoundTable */
+     , (52084,   6, 0x0400007E) /* PaletteBase */
+     , (52084,   8, 0x06001036) /* Icon */
      , (52084, 8001,         54) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius */
      , (52084, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (52084, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (52084, 8040, 1484390865, 480, -170, 0.004999995, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+VALUES (52084, 8040, 0x587A01D1, 480, -170, 0.005, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x587A01D1 [480.000000 -170.000000 0.005000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52084, 8000, 3695644423) /* PCAPRecordedObjectIID */;
+VALUES (52084, 8000, 0xDC470F07) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52084, 2, 12056,  1, 0, 0, False) /* Create Bandit Acid Jambiya (12056) for Wield */
@@ -82,7 +59,8 @@ VALUES (52084, 2, 12056,  1, 0, 0, False) /* Create Bandit Acid Jambiya (12056) 
      , (52084, 2, 12070,  1, 0, 0, False) /* Create Bandit Frost Knife (12070) for Wield */
      , (52084, 2, 12055,  1, 0, 0, False) /* Create Bandit Frost Dagger (12055) for Wield */
      , (52084, 2, 12079,  1, 0, 0, False) /* Create Bandit Lightning Short Sword (12079) for Wield */
-     , (52084, 2, 12051,  1, 0, 0, False) /* Create Bandit Acid Dagger (12051) for Wield */;
+     , (52084, 2, 12051,  1, 0, 0, False) /* Create Bandit Acid Dagger (12051) for Wield */
+     , (52084, 2, 12059,  1, 0, 0, False) /* Create Bandit Flaming Jambiya (12059) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (52084, 67109559, 0, 24)

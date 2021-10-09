@@ -54,26 +54,23 @@ VALUES (30614,   1, 'Frost Knuckles') /* Name */
      , (30614,  16, 'Frost Knuckles of Defender') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30614,   1,   33559500) /* Setup */
-     , (30614,   3,  536870932) /* SoundTable */
-     , (30614,   6,   67115556) /* PaletteBase */
-     , (30614,   8,  100687035) /* Icon */
-     , (30614,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30614,   1, 0x020013CC) /* Setup */
+     , (30614,   3, 0x20000014) /* SoundTable */
+     , (30614,   6, 0x04001A24) /* PaletteBase */
+     , (30614,   8, 0x06005CBB) /* Icon */
+     , (30614,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30614,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (30614, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (30614, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30614, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30614, 8000, 3692262253) /* PCAPRecordedObjectIID */;
+VALUES (30614, 8000, 0xDC13736D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30614,  1604,      2)  /* DefenderSelf5 */
      , (30614,  1615,      2)  /* BloodDrinkerSelf5 */
      , (30614,  1626,      2)  /* SwiftKillerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30614, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (30614, 67116448, 0, 0);

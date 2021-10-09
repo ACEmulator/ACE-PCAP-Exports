@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30657,   1, 'Drudge Key') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30657,   1,   33554784) /* Setup */
-     , (30657,   3,  536870932) /* SoundTable */
-     , (30657,   8,  100677395) /* Icon */
-     , (30657,  22,  872415275) /* PhysicsEffectTable */
+VALUES (30657,   1, 0x02000160) /* Setup */
+     , (30657,   3, 0x20000014) /* SoundTable */
+     , (30657,   8, 0x06003713) /* Icon */
+     , (30657,  22, 0x3400002B) /* PhysicsEffectTable */
      , (30657, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (30657, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (30657, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30657, 8000, 2164416859) /* PCAPRecordedObjectIID */;
+VALUES (30657, 8000, 0x8102615B) /* PCAPRecordedObjectIID */;

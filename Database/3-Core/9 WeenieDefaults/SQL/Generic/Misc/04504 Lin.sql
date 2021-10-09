@@ -19,15 +19,15 @@ VALUES (4504,   1, 'Lin') /* Name */
      , (4504,  16, 'Welcome to the forest town of Lin. Enjoy your stay.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4504,   1,   33556185) /* Setup */
-     , (4504,   8,  100668115) /* Icon */
+VALUES (4504,   1, 0x020006D9) /* Setup */
+     , (4504,   8, 0x060012D3) /* Icon */
      , (4504, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (4504, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (4504, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4504, 8040, 3694723079, 3.22424, 157.865, 14, -0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
+VALUES (4504, 8040, 0xDC390007, 3.22424, 157.865, 14, -0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
 /* @teleloc 0xDC390007 [3.224240 157.865000 14.000000] -0.923880 0.000000 0.000000 -0.382683 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4504, 8000, 2109968388) /* PCAPRecordedObjectIID */;
+VALUES (4504, 8000, 0x7DC39004) /* PCAPRecordedObjectIID */;

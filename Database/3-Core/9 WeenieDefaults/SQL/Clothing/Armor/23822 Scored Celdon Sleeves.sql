@@ -41,17 +41,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23822,   1, 'Scored Celdon Sleeves') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23822,   1,   33554655) /* Setup */
-     , (23822,   3,  536870932) /* SoundTable */
-     , (23822,   6,   67108990) /* PaletteBase */
-     , (23822,   8,  100674072) /* Icon */
-     , (23822,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23822,   1, 0x020000DF) /* Setup */
+     , (23822,   3, 0x20000014) /* SoundTable */
+     , (23822,   6, 0x0400007E) /* PaletteBase */
+     , (23822,   8, 0x06002A18) /* Icon */
+     , (23822,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23822, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (23822, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23822, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23822, 8000, 3326955712) /* PCAPRecordedObjectIID */;
+VALUES (23822, 8000, 0xC64D50C0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23822,  2609,      2)  /* CANTRIPACIDWARD2 */;

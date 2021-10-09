@@ -34,21 +34,21 @@ VALUES (11403,   1, 'Aun Paikitea the Bowyer') /* Name */
      , (11403, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11403,   1,   33557117) /* Setup */
-     , (11403,   2,  150994954) /* MotionTable */
-     , (11403,   3,  536870931) /* SoundTable */
-     , (11403,   6,   67113280) /* PaletteBase */
-     , (11403,   8,  100671756) /* Icon */
+VALUES (11403,   1, 0x02000A7D) /* Setup */
+     , (11403,   2, 0x0900000A) /* MotionTable */
+     , (11403,   3, 0x20000013) /* SoundTable */
+     , (11403,   6, 0x04001140) /* PaletteBase */
+     , (11403,   8, 0x0600210C) /* Icon */
      , (11403, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (11403, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (11403, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (11403, 8040, 515244038, 10.8492, 130.524, 120.007, -0.9754996, 0, 0, -0.220001) /* PCAPRecordedLocation */
+VALUES (11403, 8040, 0x1EB60006, 10.8492, 130.524, 120.007, -0.9755, 0, 0, -0.220001) /* PCAPRecordedLocation */
 /* @teleloc 0x1EB60006 [10.849200 130.524000 120.007000] -0.975500 0.000000 0.000000 -0.220001 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11403, 8000, 1911250964) /* PCAPRecordedObjectIID */;
+VALUES (11403, 8000, 0x71EB6014) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11403,   1,  60, 0, 0) /* Strength */

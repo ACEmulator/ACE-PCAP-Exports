@@ -24,13 +24,13 @@ VALUES (38764,   1, 'Inscription of Piercing Protection Self') /* Name */
 Reduces damage the caster takes from Piercing by 68%') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38764,   1,   33554826) /* Setup */
-     , (38764,   8,  100676953) /* Icon */
-     , (38764,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38764,   1, 0x0200018A) /* Setup */
+     , (38764,   8, 0x06003559) /* Icon */
+     , (38764,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38764,  28,       4472) /* Spell - PiercingProtectionSelf8 */
      , (38764, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (38764, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38764, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38764, 8000, 2150584894) /* PCAPRecordedObjectIID */;
+VALUES (38764, 8000, 0x802F523E) /* PCAPRecordedObjectIID */;

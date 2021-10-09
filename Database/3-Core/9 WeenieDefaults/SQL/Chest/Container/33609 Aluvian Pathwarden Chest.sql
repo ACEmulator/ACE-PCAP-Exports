@@ -30,21 +30,21 @@ VALUES (33609,   1, 'Aluvian Pathwarden Chest') /* Name */
      , (33609, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33609,   1,   33554556) /* Setup */
-     , (33609,   2,  150994948) /* MotionTable */
-     , (33609,   3,  536870945) /* SoundTable */
-     , (33609,   8,  100667424) /* Icon */
-     , (33609,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33609,   1, 0x0200007C) /* Setup */
+     , (33609,   2, 0x09000004) /* MotionTable */
+     , (33609,   3, 0x20000021) /* SoundTable */
+     , (33609,   8, 0x06001020) /* Icon */
+     , (33609,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33609, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
      , (33609, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (33609, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (33609, 8040, 2847146018, 99, 29.5, 94, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (33609, 8040, 0xA9B40022, 99, 29.5, 94, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40022 [99.000000 29.500000 94.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33609, 8000, 2056994930) /* PCAPRecordedObjectIID */;
+VALUES (33609, 8000, 0x7A9B4072) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33609, -1, 41513, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Pathwarden Trinket (41513) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

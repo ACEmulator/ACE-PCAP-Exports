@@ -27,19 +27,19 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44980,   1, 'Society Breastplate Restorer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44980,   1,   33556223) /* Setup */
-     , (44980,   3,  536870932) /* SoundTable */
-     , (44980,   6,   67111928) /* PaletteBase */
-     , (44980,   8,  100690891) /* Icon */
-     , (44980,  22,  872415275) /* PhysicsEffectTable */
-     , (44980,  50,  100667895) /* IconOverlay */
+VALUES (44980,   1, 0x020006FF) /* Setup */
+     , (44980,   3, 0x20000014) /* SoundTable */
+     , (44980,   6, 0x04000BF8) /* PaletteBase */
+     , (44980,   8, 0x06006BCB) /* Icon */
+     , (44980,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (44980,  50, 0x060011F7) /* IconOverlay */
      , (44980, 8001, 1076654104) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Priority, TargetType, Burden, IconOverlay */
      , (44980, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (44980, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (44980, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44980, 8000,      44980) /* PCAPRecordedObjectIID */;
+VALUES (44980, 8000, 0x0000AFB4) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (44980, 67112642, 0, 0);

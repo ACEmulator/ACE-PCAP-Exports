@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (8964,   1,          1) /* ItemType - MeleeWeapon */
      , (8964,   5,        450) /* EncumbranceVal */
      , (8964,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (8964,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (8964,  16,          1) /* ItemUseable - No */
      , (8964,  18,          1) /* UiEffects - Magical */
      , (8964,  19,          0) /* Value */
@@ -53,11 +52,11 @@ VALUES (8964,   1, 'Sword of Lost Hope') /* Name */
      , (8964,  25, 'Aloria') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8964,   1,   33556949) /* Setup */
-     , (8964,   3,  536870932) /* SoundTable */
-     , (8964,   6,   67111919) /* PaletteBase */
-     , (8964,   8,  100671325) /* Icon */
-     , (8964,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8964,   1, 0x020009D5) /* Setup */
+     , (8964,   3, 0x20000014) /* SoundTable */
+     , (8964,   6, 0x04000BEF) /* PaletteBase */
+     , (8964,   8, 0x06001F5D) /* Icon */
+     , (8964,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8964,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (8964, 8001,  270762640) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (8964, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -65,20 +64,20 @@ VALUES (8964,   1,   33556949) /* Setup */
      , (8964, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (8964, 8040, 3332964380, 80.74062, 93.23186, 41.929, 0.6113259, 0.6113259, -0.3553599, -0.3553599) /* PCAPRecordedLocation */
+VALUES (8964, 8040, 0xC6A9001C, 80.74062, 93.23186, 41.929, 0.611326, 0.611326, -0.35536, -0.35536) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [80.740620 93.231860 41.929000] 0.611326 0.611326 -0.355360 -0.355360 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8964, 8000, 3003358586) /* PCAPRecordedObjectIID */
-     , (8964, 8008, 1342273059) /* PCAPRecordedParentIID */;
+VALUES (8964, 8000, 0xB3039D7A) /* PCAPRecordedObjectIID */
+     , (8964, 8008, 0x50017623) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8964,   415,      2)  /* SwordMasteryOther4 */
-     , (8964,  1335,      2)  /* StrengthOther4 */
-     , (8964,  1358,      2)  /* EnduranceOther4 */
-     , (8964,  1406,      2)  /* QuicknessOther4 */
+VALUES (8964,  1358,      2)  /* EnduranceOther4 */
      , (8964,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (8964,  1625,      2)  /* SwiftKillerSelf4 */;
+     , (8964,  1625,      2)  /* SwiftKillerSelf4 */
+     , (8964,   415,      2)  /* HeavyWeaponsMasteryOther4 */
+     , (8964,  1335,      2)  /* StrengthOther4 */
+     , (8964,  1406,      2)  /* QuicknessOther4 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8964, 67111920, 0, 0);

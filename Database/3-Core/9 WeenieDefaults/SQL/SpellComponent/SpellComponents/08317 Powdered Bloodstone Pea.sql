@@ -22,18 +22,18 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8317,   1, 'Powdered Bloodstone Pea') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8317,   1,   33555211) /* Setup */
-     , (8317,   3,  536870932) /* SoundTable */
-     , (8317,   6,   67111919) /* PaletteBase */
-     , (8317,   8,  100671070) /* Icon */
-     , (8317,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8317,   1, 0x0200030B) /* Setup */
+     , (8317,   3, 0x20000014) /* SoundTable */
+     , (8317,   6, 0x04000BEF) /* PaletteBase */
+     , (8317,   8, 0x06001E5E) /* Icon */
+     , (8317,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8317, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
      , (8317, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (8317, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */
      , (8317, 8044,       8328) /* PCAPPhysicsDIDDataTemplatedFrom - Iron Pea */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8317, 8000,       8317) /* PCAPRecordedObjectIID */;
+VALUES (8317, 8000, 0x0000207D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (8317, 67111927, 0, 0);

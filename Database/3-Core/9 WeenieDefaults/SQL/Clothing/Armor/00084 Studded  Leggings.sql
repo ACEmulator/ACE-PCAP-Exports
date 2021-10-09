@@ -8,7 +8,6 @@ VALUES (84,   1,          2) /* ItemType - Armor */
      , (84,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (84,   5,        900) /* EncumbranceVal */
      , (84,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
-     , (84,  10,      24576) /* CurrentWieldedLocation - UpperLegArmor, LowerLegArmor */
      , (84,  16,          1) /* ItemUseable - No */
      , (84,  19,        391) /* Value */
      , (84,  28,         64) /* ArmorLevel */
@@ -37,20 +36,17 @@ VALUES (84,   1, 'Studded  Leggings') /* Name */
      , (84,  16, 'Studded Leather Leggings ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (84,   1,   33554856) /* Setup */
-     , (84,   3,  536870932) /* SoundTable */
-     , (84,   6,   67108990) /* PaletteBase */
-     , (84,   8,  100667931) /* Icon */
-     , (84,  22,  872415275) /* PhysicsEffectTable */
+VALUES (84,   1, 0x020001A8) /* Setup */
+     , (84,   3, 0x20000014) /* SoundTable */
+     , (84,   6, 0x0400007E) /* PaletteBase */
+     , (84,   8, 0x0600121B) /* Icon */
+     , (84,  22, 0x3400002B) /* PhysicsEffectTable */
      , (84, 8001, 2166849560) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, Workmanship, MaterialType */
      , (84, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (84, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (84, 8000, 2856726487) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (84, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
+VALUES (84, 8000, 0xAA462FD7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (84, 67110014, 136, 16)

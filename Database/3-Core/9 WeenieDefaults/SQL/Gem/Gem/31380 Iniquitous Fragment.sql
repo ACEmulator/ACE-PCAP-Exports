@@ -15,7 +15,8 @@ VALUES (31380,   1,       2048) /* ItemType - Gem */
      , (31380, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31380,  22, True ) /* Inscribable */;
+VALUES (31380,  22, True ) /* Inscribable */
+     , (31380,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31380,   1, 'Iniquitous Fragment') /* Name */
@@ -23,11 +24,11 @@ VALUES (31380,   1, 'Iniquitous Fragment') /* Name */
      , (31380,  16, 'A fragment of an unknown artifact protected by a Greater Penumbral Horror. Its shape is oddly familiar.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (31380,   1,   33556743) /* Setup */
-     , (31380,   8,  100687955) /* Icon */
+VALUES (31380,   1, 0x02000907) /* Setup */
+     , (31380,   8, 0x06006053) /* Icon */
      , (31380, 8001,    2179088) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden */
      , (31380, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (31380, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31380, 8000, 3711450280) /* PCAPRecordedObjectIID */;
+VALUES (31380, 8000, 0xDD383CA8) /* PCAPRecordedObjectIID */;

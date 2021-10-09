@@ -14,11 +14,11 @@ VALUES (38322,   1,        128) /* ItemType - Misc */
      , (38322,  98, 1485759462) /* CreationTimestamp */
      , (38322, 114,          1) /* Attuned - Attuned */
      , (38322, 267,       3600) /* Lifespan */
-     , (38322, 268,       3590) /* RemainingLifespan */
      , (38322, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38322,  22, True ) /* Inscribable */;
+VALUES (38322,  22, True ) /* Inscribable */
+     , (38322,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38322,  39,     0.6) /* DefaultScale */;
@@ -29,17 +29,17 @@ VALUES (38322,   1, 'Kothmox''s Staff') /* Name */
      , (38322,  16, 'A staff smoothed by years of ocean and sand.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38322,   1,   33558596) /* Setup */
-     , (38322,   3,  536870932) /* SoundTable */
-     , (38322,   6,   67114956) /* PaletteBase */
-     , (38322,   8,  100675776) /* Icon */
-     , (38322,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38322,   1, 0x02001044) /* Setup */
+     , (38322,   3, 0x20000014) /* SoundTable */
+     , (38322,   6, 0x040017CC) /* PaletteBase */
+     , (38322,   8, 0x060030C0) /* Icon */
+     , (38322,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38322, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
      , (38322, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38322, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38322, 8000, 2629627656) /* PCAPRecordedObjectIID */;
+VALUES (38322, 8000, 0x9CBCEF08) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (38322, 67114955, 0, 0);

@@ -54,24 +54,24 @@ VALUES (40763,   1, 'Flaming Nodachi') /* Name */
      , (40763,  16, 'Flaming Nodachi of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40763,   1,   33560766) /* Setup */
-     , (40763,   3,  536870932) /* SoundTable */
-     , (40763,   6,   67111919) /* PaletteBase */
-     , (40763,   8,  100690798) /* Icon */
-     , (40763,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40763,   1, 0x020018BE) /* Setup */
+     , (40763,   3, 0x20000014) /* SoundTable */
+     , (40763,   6, 0x04000BEF) /* PaletteBase */
+     , (40763,   8, 0x06006B6E) /* Icon */
+     , (40763,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40763,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (40763, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40763, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (40763, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40763, 8000, 3690119701) /* PCAPRecordedObjectIID */;
+VALUES (40763, 8000, 0xDBF2C215) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40763,  1616,      2)  /* BloodDrinkerSelf6 */
      , (40763,  1627,      2)  /* SwiftKillerSelf6 */
-     , (40763,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
-     , (40763,  6126,      2)  /* CantripSummoningProwess2 */;
+     , (40763,  6126,      2)  /* CantripSummoningProwess2 */
+     , (40763,  2550,      2)  /* CANTRIPINVULNERABILITY1 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40763, 67111920, 0, 0);

@@ -27,10 +27,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44655,   1, 'Contract for Gear Knight Excavation') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44655,   1,   33557625) /* Setup */
-     , (44655,   3,  536870932) /* SoundTable */
-     , (44655,   8,  100691930) /* Icon */
-     , (44655,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44655,   1, 0x02000C79) /* Setup */
+     , (44655,   3, 0x20000014) /* SoundTable */
+     , (44655,   8, 0x06006FDA) /* Icon */
+     , (44655,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44655, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44655, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44655, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
@@ -38,4 +38,4 @@ VALUES (44655,   1,   33557625) /* Setup */
      , (44655, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44655, 8000,      44655) /* PCAPRecordedObjectIID */;
+VALUES (44655, 8000, 0x0000AE6F) /* PCAPRecordedObjectIID */;

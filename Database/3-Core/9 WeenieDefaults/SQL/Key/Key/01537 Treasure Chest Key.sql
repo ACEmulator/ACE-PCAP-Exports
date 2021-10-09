@@ -17,7 +17,8 @@ VALUES (1537,   1,      16384) /* ItemType - Key */
      , (1537, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1537,  22, True ) /* Inscribable */;
+VALUES (1537,  22, True ) /* Inscribable */
+     , (1537,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1537,   1, 'Treasure Chest Key') /* Name */
@@ -25,13 +26,13 @@ VALUES (1537,   1, 'Treasure Chest Key') /* Name */
      , (1537,  16, 'This well crafted key opens the Baron''s treasure chest in the Colier Mine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (1537,   1,   33554784) /* Setup */
-     , (1537,   3,  536870932) /* SoundTable */
-     , (1537,   8,  100668439) /* Icon */
-     , (1537,  22,  872415275) /* PhysicsEffectTable */
+VALUES (1537,   1, 0x02000160) /* Setup */
+     , (1537,   3, 0x20000014) /* SoundTable */
+     , (1537,   8, 0x06001417) /* Icon */
+     , (1537,  22, 0x3400002B) /* PhysicsEffectTable */
      , (1537, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (1537, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (1537, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1537, 8000, 2614045964) /* PCAPRecordedObjectIID */;
+VALUES (1537, 8000, 0x9BCF2D0C) /* PCAPRecordedObjectIID */;

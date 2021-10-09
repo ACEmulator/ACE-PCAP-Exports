@@ -10,6 +10,7 @@ VALUES (32359,   1,      32768) /* ItemType - Caster */
      , (32359,  16,     655364) /* ItemUseable - 655364 */
      , (32359,  18,          1) /* UiEffects - Magical */
      , (32359,  19,       1000) /* Value */
+     , (32359,  46,        512) /* DefaultCombatStyle - Magic */
      , (32359,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (32359,  94,         16) /* TargetType - Creature */
      , (32359, 106,        200) /* ItemSpellcraft */
@@ -36,18 +37,18 @@ VALUES (32359,   1, 'Glenden Wood Recall Orb') /* Name */
      , (32359,  16, 'A simple orb used to recall to Glenden Wood.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32359,   1,   33554669) /* Setup */
-     , (32359,   3,  536870932) /* SoundTable */
-     , (32359,   6,   67111928) /* PaletteBase */
-     , (32359,   8,  100668722) /* Icon */
-     , (32359,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32359,   1, 0x020000ED) /* Setup */
+     , (32359,   3, 0x20000014) /* SoundTable */
+     , (32359,   6, 0x04000BF8) /* PaletteBase */
+     , (32359,   8, 0x06001532) /* Icon */
+     , (32359,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32359,  28,       3865) /* Spell - GlendenWoodRecall */
      , (32359, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
      , (32359, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (32359, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32359, 8000, 3681397362) /* PCAPRecordedObjectIID */;
+VALUES (32359, 8000, 0xDB6DAA72) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (32359, 67111919, 0, 0);

@@ -26,21 +26,21 @@ VALUES (43393,   1, 'Gurog Soldier') /* Name */
      , (43393, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43393,   1,   33561132) /* Setup */
-     , (43393,   2,  150995368) /* MotionTable */
-     , (43393,   3,  536871125) /* SoundTable */
-     , (43393,   8,  100674350) /* Icon */
-     , (43393,  22,  872415437) /* PhysicsEffectTable */
+VALUES (43393,   1, 0x02001A2C) /* Setup */
+     , (43393,   2, 0x090001A8) /* MotionTable */
+     , (43393,   3, 0x200000D5) /* SoundTable */
+     , (43393,   8, 0x06002B2E) /* Icon */
+     , (43393,  22, 0x340000CD) /* PhysicsEffectTable */
      , (43393, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (43393, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (43393, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (43393, 8040, 2028470286, 43.67384, 125.3044, 106.0065, 0.9863101, 0, 0, -0.164901) /* PCAPRecordedLocation */
+VALUES (43393, 8040, 0x78E8000E, 43.67384, 125.3044, 106.0065, 0.98631, 0, 0, -0.164901) /* PCAPRecordedLocation */
 /* @teleloc 0x78E8000E [43.673840 125.304400 106.006500] 0.986310 0.000000 0.000000 -0.164901 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43393, 8000, 3696708087) /* PCAPRecordedObjectIID */;
+VALUES (43393, 8000, 0xDC5749F7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43393,   1, 550, 0, 0) /* Strength */

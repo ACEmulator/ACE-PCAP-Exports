@@ -31,30 +31,33 @@ VALUES (34062,   1, 'Arialle du Bellenesse') /* Name */
      , (34062, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34062,   1,   33554510) /* Setup */
-     , (34062,   2,  150994945) /* MotionTable */
-     , (34062,   3,  536870914) /* SoundTable */
-     , (34062,   6,   67108990) /* PaletteBase */
-     , (34062,   8,  100667377) /* Icon */
-     , (34062,   9,   83890278) /* EyesTexture */
-     , (34062,  10,   83890312) /* NoseTexture */
-     , (34062,  11,   83890356) /* MouthTexture */
-     , (34062,  15,   67117019) /* HairPalette */
-     , (34062,  16,   67110063) /* EyesPalette */
-     , (34062,  17,   67115901) /* SkinPalette */
+VALUES (34062,   1, 0x0200004E) /* Setup */
+     , (34062,   2, 0x09000001) /* MotionTable */
+     , (34062,   3, 0x20000002) /* SoundTable */
+     , (34062,   6, 0x0400007E) /* PaletteBase */
+     , (34062,   8, 0x06000FF1) /* Icon */
+     , (34062,   9, 0x05001066) /* EyesTexture */
+     , (34062,  10, 0x05001088) /* NoseTexture */
+     , (34062,  11, 0x050010B4) /* MouthTexture */
+     , (34062,  15, 0x04001FDB) /* HairPalette */
+     , (34062,  16, 0x040004AF) /* EyesPalette */
+     , (34062,  17, 0x04001B7D) /* SkinPalette */
      , (34062, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
      , (34062, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
      , (34062, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (34062, 8040, 1139998736, 34.6594, 186.564, 158.6814, -0.7739638, 0, 0, 0.6332299) /* PCAPRecordedLocation */
+VALUES (34062, 8040, 0x43F30010, 34.6594, 186.564, 158.6814, -0.773964, 0, 0, 0.63323) /* PCAPRecordedLocation */
 /* @teleloc 0x43F30010 [34.659400 186.564000 158.681400] -0.773964 0.000000 0.000000 0.633230 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34062, 8000, 2883702834) /* PCAPRecordedObjectIID */;
+VALUES (34062, 8000, 0xABE1D032) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (34062,   1,     0, 0, 0, 255) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34062, 2, 32782,  1, 0, 0, False) /* Create Shield of Sanamar (32782) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (34062, 67110063, 32, 8)

@@ -36,17 +36,17 @@ VALUES (2400,   1, 'Gem') /* Name */
      , (2400,  16, 'Gem of Protection') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2400,   1,   33554809) /* Setup */
-     , (2400,   3,  536870932) /* SoundTable */
-     , (2400,   8,  100674724) /* Icon */
-     , (2400,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2400,   1, 0x02000179) /* Setup */
+     , (2400,   3, 0x20000014) /* SoundTable */
+     , (2400,   8, 0x06002CA4) /* Icon */
+     , (2400,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2400,  28,        170) /* Spell - RegenerationSelf6 */
      , (2400, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
      , (2400, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2400, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2400, 8000, 3690337041) /* PCAPRecordedObjectIID */;
+VALUES (2400, 8000, 0xDBF61311) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2400,  1311,      2)  /* ArmorSelf5 */;

@@ -24,13 +24,13 @@ VALUES (20407,   1, 'Scroll of Pacification') /* Name */
 Decreases a weapon''s damage value by 22 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (20407,   1,   33554826) /* Setup */
-     , (20407,   8,  100676656) /* Icon */
-     , (20407,  22,  872415275) /* PhysicsEffectTable */
+VALUES (20407,   1, 0x0200018A) /* Setup */
+     , (20407,   8, 0x06003430) /* Icon */
+     , (20407,  22, 0x3400002B) /* PhysicsEffectTable */
      , (20407,  28,       2097) /* Spell - BloodLoather7 */
      , (20407, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (20407, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (20407, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20407, 8000, 3682608177) /* PCAPRecordedObjectIID */;
+VALUES (20407, 8000, 0xDB802431) /* PCAPRecordedObjectIID */;

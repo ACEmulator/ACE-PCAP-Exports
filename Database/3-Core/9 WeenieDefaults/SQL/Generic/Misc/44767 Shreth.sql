@@ -19,11 +19,11 @@ VALUES (44767,   1, 'Shreth') /* Name */
      , (44767,  16, 'A squat carnivore with bony spikes jutting from its back, it passes through several growth spurts during its life, growing larger and stronger at every stage. Its natural habitat is not yet known, but some have taken to dwelling in dungeons, where they like to feast on carrion and rats. The Shreth attacks with its spikes, hooves, and savage teeth. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44767,   1,   33561367) /* Setup */
-     , (44767,   8,  100668115) /* Icon */
+VALUES (44767,   1, 0x02001B17) /* Setup */
+     , (44767,   8, 0x060012D3) /* Icon */
      , (44767, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44767, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44767, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44767, 8000, 2192196258) /* PCAPRecordedObjectIID */;
+VALUES (44767, 8000, 0x82AA42A2) /* PCAPRecordedObjectIID */;

@@ -18,18 +18,18 @@ VALUES (24581,   1, 'Lady Dain''s Tower (Archmagus)') /* Name */
      , (24581,  16, 'Rabble will be thrown out, unfortunately you probably can''t read this sign. -Talira Dain') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24581,   1,   33555909) /* Setup */
-     , (24581,   8,  100668115) /* Icon */
+VALUES (24581,   1, 0x020005C5) /* Setup */
+     , (24581,   8, 0x060012D3) /* Icon */
      , (24581, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (24581, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (24581, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24581, 8040, 722599947, 24.0339, 71.91, 56.2079, 0.9238797, 0, 0, -0.3826829) /* PCAPRecordedLocation */
+VALUES (24581, 8040, 0x2B12000B, 24.0339, 71.91, 56.2079, 0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
 /* @teleloc 0x2B12000B [24.033900 71.910000 56.207900] 0.923880 0.000000 0.000000 -0.382683 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24581, 8000, 1924210733) /* PCAPRecordedObjectIID */;
+VALUES (24581, 8000, 0x72B1202D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (24581, 0, 83892071, 83892184);

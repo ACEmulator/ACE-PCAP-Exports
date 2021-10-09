@@ -17,10 +17,10 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8180,   1, 'Evaporate All Magic Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8180,   1,   33554680) /* Setup */
-     , (8180,   3,  536870932) /* SoundTable */
-     , (8180,   8,  100670799) /* Icon */
-     , (8180,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8180,   1, 0x020000F8) /* Setup */
+     , (8180,   3, 0x20000014) /* SoundTable */
+     , (8180,   8, 0x06001D4F) /* Icon */
+     , (8180,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8180,  28,       1847) /* Spell - DispelAllNeutralOther1 */
      , (8180, 8001,    4210712) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Spell */
      , (8180, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
@@ -28,4 +28,4 @@ VALUES (8180,   1,   33554680) /* Setup */
      , (8180, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8180, 8000,       8180) /* PCAPRecordedObjectIID */;
+VALUES (8180, 8000, 0x00001FF4) /* PCAPRecordedObjectIID */;

@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (29908,   1,          1) /* ItemType - MeleeWeapon */
      , (29908,   5,        675) /* EncumbranceVal */
      , (29908,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (29908,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (29908,  16,          1) /* ItemUseable - No */
      , (29908,  18,          1) /* UiEffects - Magical */
      , (29908,  19,       1800) /* Value */
@@ -45,10 +44,10 @@ VALUES (29908,   1, 'Tidal Siraluun Tewhate') /* Name */
      , (29908,  16, 'A beautifully detailed tewhate crafted from the claw of a Tidal Siraluun.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (29908,   1,   33559110) /* Setup */
-     , (29908,   3,  536870932) /* SoundTable */
-     , (29908,   8,  100677334) /* Icon */
-     , (29908,  22,  872415275) /* PhysicsEffectTable */
+VALUES (29908,   1, 0x02001246) /* Setup */
+     , (29908,   3, 0x20000014) /* SoundTable */
+     , (29908,   8, 0x060036D6) /* Icon */
+     , (29908,  22, 0x3400002B) /* PhysicsEffectTable */
      , (29908,  30,         88) /* PhysicsScript - Create */
      , (29908, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (29908, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
@@ -56,14 +55,14 @@ VALUES (29908,   1,   33559110) /* Setup */
      , (29908, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (29908, 8040, 3281977371, 79.29439, 67.96032, 7.928999, -0.5637438, -0.5637438, -0.4268407, -0.4268407) /* PCAPRecordedLocation */
+VALUES (29908, 8040, 0xC39F001B, 79.29439, 67.96032, 7.928999, -0.563744, -0.563744, -0.426841, -0.426841) /* PCAPRecordedLocation */
 /* @teleloc 0xC39F001B [79.294390 67.960320 7.928999] -0.563744 -0.563744 -0.426841 -0.426841 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29908, 8000, 2150585045) /* PCAPRecordedObjectIID */
-     , (29908, 8008, 1343049018) /* PCAPRecordedParentIID */;
+VALUES (29908, 8000, 0x802F52D5) /* PCAPRecordedObjectIID */
+     , (29908, 8008, 0x500D4D3A) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29908,   293,      2)  /* AxeMasteryOther2 */
-     , (29908,  1588,      2)  /* HeartSeekerSelf2 */
-     , (29908,  1612,      2)  /* BloodDrinkerSelf2 */;
+VALUES (29908,  1612,      2)  /* BloodDrinkerSelf2 */
+     , (29908,   293,      2)  /* LightWeaponsMasteryOther2 */
+     , (29908,  1588,      2)  /* HeartSeekerSelf2 */;

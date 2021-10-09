@@ -21,13 +21,13 @@ VALUES (34500,   1, 'Western Vault Notes') /* Name */
      , (34500,  16, 'A note containing a scouting report from Ardry the Dubious') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (34500,   1,   33554773) /* Setup */
-     , (34500,   3,  536870932) /* SoundTable */
-     , (34500,   8,  100668176) /* Icon */
-     , (34500,  22,  872415275) /* PhysicsEffectTable */
+VALUES (34500,   1, 0x02000155) /* Setup */
+     , (34500,   3, 0x20000014) /* SoundTable */
+     , (34500,   8, 0x06001310) /* Icon */
+     , (34500,  22, 0x3400002B) /* PhysicsEffectTable */
      , (34500, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
      , (34500, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
      , (34500, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34500, 8000, 2166089896) /* PCAPRecordedObjectIID */;
+VALUES (34500, 8000, 0x811BE8A8) /* PCAPRecordedObjectIID */;

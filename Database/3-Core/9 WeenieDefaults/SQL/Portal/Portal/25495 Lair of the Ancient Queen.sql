@@ -22,16 +22,16 @@ VALUES (25495,   1, 'Lair of the Ancient Queen') /* Name */
      , (25495, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (25495,   1,   33554867) /* Setup */
-     , (25495,   2,  150994947) /* MotionTable */
-     , (25495,   8,  100667499) /* Icon */
+VALUES (25495,   1, 0x020001B3) /* Setup */
+     , (25495,   2, 0x09000003) /* MotionTable */
+     , (25495,   8, 0x0600106B) /* Icon */
      , (25495, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (25495, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (25495, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (25495, 8040, 2156855328, 88.787, 179.86, 123.937, -0.9264662, 0, 0, -0.3763781) /* PCAPRecordedLocation */
+VALUES (25495, 8040, 0x808F0020, 88.787, 179.86, 123.937, -0.926466, 0, 0, -0.376378) /* PCAPRecordedLocation */
 /* @teleloc 0x808F0020 [88.787000 179.860000 123.937000] -0.926466 0.000000 0.000000 -0.376378 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25495, 8000, 2013851649) /* PCAPRecordedObjectIID */;
+VALUES (25495, 8000, 0x7808F001) /* PCAPRecordedObjectIID */;

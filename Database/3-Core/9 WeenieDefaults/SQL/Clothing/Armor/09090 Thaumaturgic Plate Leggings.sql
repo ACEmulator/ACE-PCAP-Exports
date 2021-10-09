@@ -42,21 +42,21 @@ VALUES (9090,   1, 'Thaumaturgic Plate Leggings') /* Name */
      , (9090,  25, 'Ragarnok') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9090,   1,   33554856) /* Setup */
-     , (9090,   3,  536870932) /* SoundTable */
-     , (9090,   6,   67108990) /* PaletteBase */
-     , (9090,   8,  100671359) /* Icon */
-     , (9090,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9090,   1, 0x020001A8) /* Setup */
+     , (9090,   3, 0x20000014) /* SoundTable */
+     , (9090,   6, 0x0400007E) /* PaletteBase */
+     , (9090,   8, 0x06001F7F) /* Icon */
+     , (9090,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9090,  37,         34) /* ItemSkillLimit - WarMagic */
      , (9090, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (9090, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9090, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9090, 8000, 2925380343) /* PCAPRecordedObjectIID */;
+VALUES (9090, 8000, 0xAE5DC2F7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9090,  1337,      2)  /* StrengthOther6 */
+VALUES (9090,  2379,      2)  /* BeastWhisper */
      , (9090,  2349,      2)  /* HieroWard */
      , (9090,  2350,      2)  /* DecayDurance */
      , (9090,  2351,      2)  /* ConsumptionDurance */
@@ -65,7 +65,7 @@ VALUES (9090,  1337,      2)  /* StrengthOther6 */
      , (9090,  2354,      2)  /* PiercingDuranceLess */
      , (9090,  2355,      2)  /* SlashingDuranceLess */
      , (9090,  2356,      2)  /* BludgeoningDuranceLess */
-     , (9090,  2379,      2)  /* BeastWhisper */;
+     , (9090,  1337,      2)  /* StrengthOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (9090, 67113130, 136, 16);

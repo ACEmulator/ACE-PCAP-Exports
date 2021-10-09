@@ -18,15 +18,15 @@ VALUES (14332,   1, 'Tattered Ridge') /* Name */
      , (14332,  16, 'Welcome to Tattered Ridge') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (14332,   1,   33557463) /* Setup */
-     , (14332,   8,  100668115) /* Icon */
+VALUES (14332,   1, 0x02000BD7) /* Setup */
+     , (14332,   8, 0x060012D3) /* Icon */
      , (14332, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
      , (14332, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (14332, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (14332, 8040, 3056861236, 155.587, 78.2032, 170.8967, 0.655744, 0, 0, 0.754983) /* PCAPRecordedLocation */
+VALUES (14332, 8040, 0xB6340034, 155.587, 78.2032, 170.8967, 0.655744, 0, 0, 0.754983) /* PCAPRecordedLocation */
 /* @teleloc 0xB6340034 [155.587000 78.203200 170.896700] 0.655744 0.000000 0.000000 0.754983 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14332, 8000, 2070102255) /* PCAPRecordedObjectIID */;
+VALUES (14332, 8000, 0x7B6340EF) /* PCAPRecordedObjectIID */;

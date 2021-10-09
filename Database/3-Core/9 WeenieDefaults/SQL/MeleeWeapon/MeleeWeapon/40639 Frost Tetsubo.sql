@@ -55,25 +55,25 @@ VALUES (40639,   1, 'Frost Tetsubo') /* Name */
      , (40639,  16, 'Frost Tetsubo of Blood Drinker') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (40639,   1,   33560732) /* Setup */
-     , (40639,   3,  536870932) /* SoundTable */
-     , (40639,   6,   67116700) /* PaletteBase */
-     , (40639,   8,  100690501) /* Icon */
-     , (40639,  22,  872415275) /* PhysicsEffectTable */
+VALUES (40639,   1, 0x0200189C) /* Setup */
+     , (40639,   3, 0x20000014) /* SoundTable */
+     , (40639,   6, 0x04001E9C) /* PaletteBase */
+     , (40639,   8, 0x06006A45) /* Icon */
+     , (40639,  22, 0x3400002B) /* PhysicsEffectTable */
      , (40639,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
-     , (40639,  52,  100676435) /* IconUnderlay */
+     , (40639,  52, 0x06003353) /* IconUnderlay */
      , (40639, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
      , (40639, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (40639, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (40639, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40639, 8000, 3697211714) /* PCAPRecordedObjectIID */;
+VALUES (40639, 8000, 0xDC5EF942) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40639,  1378,      2)  /* CoordinationSelf6 */
-     , (40639,  1615,      2)  /* BloodDrinkerSelf5 */
-     , (40639,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */;
+VALUES (40639,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (40639,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */
+     , (40639,  1378,      2)  /* CoordinationSelf6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (40639, 67116700, 1, 100)

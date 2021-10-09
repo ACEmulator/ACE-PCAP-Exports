@@ -27,14 +27,14 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44149,   1, 'Contract for Defense of Zaikhal (Gold)') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44149,   1,   33554773) /* Setup */
-     , (44149,   3,  536870932) /* SoundTable */
-     , (44149,   8,  100691926) /* Icon */
-     , (44149,  22,  872415275) /* PhysicsEffectTable */
+VALUES (44149,   1, 0x02000155) /* Setup */
+     , (44149,   3, 0x20000014) /* SoundTable */
+     , (44149,   8, 0x06006FD6) /* Icon */
+     , (44149,  22, 0x3400002B) /* PhysicsEffectTable */
      , (44149, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
      , (44149, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
      , (44149, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (44149, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44149, 8000, 2776665658) /* PCAPRecordedObjectIID */;
+VALUES (44149, 8000, 0xA5808E3A) /* PCAPRecordedObjectIID */;

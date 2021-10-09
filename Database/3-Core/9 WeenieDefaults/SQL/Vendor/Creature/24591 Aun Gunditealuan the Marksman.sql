@@ -36,21 +36,21 @@ VALUES (24591,   1, 'Aun Gunditealuan the Marksman') /* Name */
      , (24591, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24591,   1,   33557117) /* Setup */
-     , (24591,   2,  150994954) /* MotionTable */
-     , (24591,   3,  536870931) /* SoundTable */
-     , (24591,   6,   67113280) /* PaletteBase */
-     , (24591,   8,  100671756) /* Icon */
+VALUES (24591,   1, 0x02000A7D) /* Setup */
+     , (24591,   2, 0x0900000A) /* MotionTable */
+     , (24591,   3, 0x20000013) /* SoundTable */
+     , (24591,   6, 0x04001140) /* PaletteBase */
+     , (24591,   8, 0x0600210C) /* Icon */
      , (24591, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
      , (24591, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
      , (24591, 8005,     100547) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24591, 8040, 722600234, 149.886, 6.8133, 48.007, 0.9990788, 0, 0, -0.04291499) /* PCAPRecordedLocation */
+VALUES (24591, 8040, 0x2B12012A, 149.886, 6.8133, 48.007, 0.999079, 0, 0, -0.042915) /* PCAPRecordedLocation */
 /* @teleloc 0x2B12012A [149.886000 6.813300 48.007000] 0.999079 0.000000 0.000000 -0.042915 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24591, 8000, 1924210726) /* PCAPRecordedObjectIID */;
+VALUES (24591, 8000, 0x72B12026) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24591,   1, 193, 0, 0) /* Strength */
@@ -105,9 +105,7 @@ VALUES (24591, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
      , (24591, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (24591, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (24591, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
-     , (24591, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
-     , (24591, 4, 45099, -1, 0, 0, False) /* Create Epee (45099) for Shop */
-     , (24591, 4, 30588, -1, 0, 0, False) /* Create Lightning Flanged Mace (30588) for Shop */;
+     , (24591, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (24591, 67113366, 0, 0);

@@ -14,7 +14,8 @@ VALUES (38798,   1,        128) /* ItemType - Misc */
      , (38798, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38798,  22, True ) /* Inscribable */;
+VALUES (38798,  22, True ) /* Inscribable */
+     , (38798,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38798,  39,     0.5) /* DefaultScale */;
@@ -24,13 +25,13 @@ VALUES (38798,   1, 'Imprinted Archaeologist''s Paper') /* Name */
      , (38798,  16, 'This sheet of paper has been imprinted with the relief of an ancient stone carving.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38798,   1,   33554826) /* Setup */
-     , (38798,   3,  536870932) /* SoundTable */
-     , (38798,   8,  100690209) /* Icon */
-     , (38798,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38798,   1, 0x0200018A) /* Setup */
+     , (38798,   3, 0x20000014) /* SoundTable */
+     , (38798,   8, 0x06006921) /* Icon */
+     , (38798,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38798, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (38798, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38798, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38798, 8000, 2920521302) /* PCAPRecordedObjectIID */;
+VALUES (38798, 8000, 0xAE139E56) /* PCAPRecordedObjectIID */;

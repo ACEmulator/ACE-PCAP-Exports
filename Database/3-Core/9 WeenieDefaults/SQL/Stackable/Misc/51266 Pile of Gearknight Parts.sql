@@ -17,7 +17,8 @@ VALUES (51266,   1,        128) /* ItemType - Misc */
      , (51266, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51266,  69, False) /* IsSellable */;
+VALUES (51266,  23, True ) /* DestroyOnSell */
+     , (51266,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51266,   1, 'Pile of Gearknight Parts') /* Name */
@@ -25,13 +26,13 @@ VALUES (51266,   1, 'Pile of Gearknight Parts') /* Name */
      , (51266,  20, 'Piles of Gearknight Parts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (51266,   1,   33561545) /* Setup */
-     , (51266,   3,  536870932) /* SoundTable */
-     , (51266,   8,  100690544) /* Icon */
-     , (51266,  22,  872415275) /* PhysicsEffectTable */
+VALUES (51266,   1, 0x02001BC9) /* Setup */
+     , (51266,   3, 0x20000014) /* SoundTable */
+     , (51266,   8, 0x06006A70) /* Icon */
+     , (51266,  22, 0x3400002B) /* PhysicsEffectTable */
      , (51266, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
      , (51266, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (51266, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51266, 8000, 2476250674) /* PCAPRecordedObjectIID */;
+VALUES (51266, 8000, 0x93989632) /* PCAPRecordedObjectIID */;

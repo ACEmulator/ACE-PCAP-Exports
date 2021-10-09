@@ -24,13 +24,13 @@ VALUES (9657,   1, 'Scroll of Stamina to Mana Self IV') /* Name */
 Drains one-half of the caster''s Stamina and gives 120% of that to his/her Mana (maximum of 200).') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9657,   1,   33554826) /* Setup */
-     , (9657,   8,  100676944) /* Icon */
-     , (9657,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9657,   1, 0x0200018A) /* Setup */
+     , (9657,   8, 0x06003550) /* Icon */
+     , (9657,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9657,  28,       1679) /* Spell - StaminaToManaSelf4 */
      , (9657, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (9657, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9657, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9657, 8000, 3621824578) /* PCAPRecordedObjectIID */;
+VALUES (9657, 8000, 0xD7E0A842) /* PCAPRecordedObjectIID */;

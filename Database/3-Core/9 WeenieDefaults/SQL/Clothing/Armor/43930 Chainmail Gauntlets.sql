@@ -22,17 +22,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43930,   1, 'Chainmail Gauntlets') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43930,   1,   33554648) /* Setup */
-     , (43930,   3,  536870932) /* SoundTable */
-     , (43930,   6,   67108990) /* PaletteBase */
-     , (43930,   8,  100669223) /* Icon */
-     , (43930,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43930,   1, 0x020000D8) /* Setup */
+     , (43930,   3, 0x20000014) /* SoundTable */
+     , (43930,   6, 0x0400007E) /* PaletteBase */
+     , (43930,   8, 0x06001727) /* Icon */
+     , (43930,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43930, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (43930, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43930, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43930, 8000, 2925569568) /* PCAPRecordedObjectIID */;
+VALUES (43930, 8000, 0xAE60A620) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43930, 67110546, 168, 6);

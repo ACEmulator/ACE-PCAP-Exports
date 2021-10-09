@@ -43,26 +43,26 @@ VALUES (21527,   1, 'Saelgauloi') /* Name */
      , (21527,  15, 'A black breastplate carved out of obsidian.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21527,   1,   33554642) /* Setup */
-     , (21527,   3,  536870932) /* SoundTable */
-     , (21527,   6,   67108990) /* PaletteBase */
-     , (21527,   8,  100673389) /* Icon */
-     , (21527,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21527,   1, 0x020000D2) /* Setup */
+     , (21527,   3, 0x20000014) /* SoundTable */
+     , (21527,   6, 0x0400007E) /* PaletteBase */
+     , (21527,   8, 0x0600276D) /* Icon */
+     , (21527,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21527, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (21527, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (21527, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21527, 8000, 2629411168) /* PCAPRecordedObjectIID */;
+VALUES (21527, 8000, 0x9CB9A160) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21527,   254,      2)  /* ImpregnabilityOther5 */
-     , (21527,  1317,      2)  /* ArmorOther6 */
-     , (21527,  1485,      2)  /* Impenetrability5 */
+VALUES (21527,  1485,      2)  /* Impenetrability5 */
+     , (21527,  2578,      2)  /* CANTRIPARMOR1 */
      , (21527,  1496,      2)  /* AcidBane4 */
      , (21527,  1560,      2)  /* BladeBane4 */
      , (21527,  1572,      2)  /* PiercingBane4 */
-     , (21527,  2578,      2)  /* CANTRIPARMOR1 */;
+     , (21527,  1317,      2)  /* ArmorOther6 */
+     , (21527,   254,      2)  /* ImpregnabilityOther5 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21527, 67113891, 174, 66);

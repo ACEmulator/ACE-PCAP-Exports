@@ -22,16 +22,16 @@ VALUES (22929,   1, 'Caul Sanatorium') /* Name */
      , (22929, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (22929,   1,   33558569) /* Setup */
-     , (22929,   2,  150994947) /* MotionTable */
-     , (22929,   8,  100667499) /* Icon */
+VALUES (22929,   1, 0x02001029) /* Setup */
+     , (22929,   2, 0x09000003) /* MotionTable */
+     , (22929,   8, 0x0600106B) /* Icon */
      , (22929, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (22929, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (22929, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (22929, 8040, 1615200960, 63.8942, -49.6683, 17.937, -0.6852933, 0, 0, 0.7282673) /* PCAPRecordedLocation */
+VALUES (22929, 8040, 0x604602C0, 63.8942, -49.6683, 17.937, -0.685293, 0, 0, 0.728267) /* PCAPRecordedLocation */
 /* @teleloc 0x604602C0 [63.894200 -49.668300 17.937000] -0.685293 0.000000 0.000000 0.728267 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22929, 8000, 1979998301) /* PCAPRecordedObjectIID */;
+VALUES (22929, 8000, 0x7604605D) /* PCAPRecordedObjectIID */;

@@ -18,15 +18,15 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4379,   1, 'Bones') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (4379,   1,   33555405) /* Setup */
-     , (4379,   8,  100667504) /* Icon */
+VALUES (4379,   1, 0x020003CD) /* Setup */
+     , (4379,   8, 0x06001070) /* Icon */
      , (4379, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
      , (4379, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
      , (4379, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (4379, 8040, 2468937736, 9.591327, 175.1402, 104.369, 1, 0, 0, 0) /* PCAPRecordedLocation */
+VALUES (4379, 8040, 0x93290008, 9.591327, 175.1402, 104.369, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x93290008 [9.591327 175.140200 104.369000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4379, 8000, 3685474899) /* PCAPRecordedObjectIID */;
+VALUES (4379, 8000, 0xDBABE253) /* PCAPRecordedObjectIID */;

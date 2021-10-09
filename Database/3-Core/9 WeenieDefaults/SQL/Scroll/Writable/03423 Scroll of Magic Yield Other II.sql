@@ -24,13 +24,13 @@ VALUES (3423,   1, 'Scroll of Magic Yield Other II') /* Name */
 Decreases the target''s Magic Defense skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (3423,   1,   33554826) /* Setup */
-     , (3423,   8,  100676465) /* Icon */
-     , (3423,  22,  872415275) /* PhysicsEffectTable */
+VALUES (3423,   1, 0x0200018A) /* Setup */
+     , (3423,   8, 0x06003371) /* Icon */
+     , (3423,  22, 0x3400002B) /* PhysicsEffectTable */
      , (3423,  28,        281) /* Spell - MagicYieldOther2 */
      , (3423, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (3423, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (3423, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3423, 8000, 2884076844) /* PCAPRecordedObjectIID */;
+VALUES (3423, 8000, 0xABE7852C) /* PCAPRecordedObjectIID */;

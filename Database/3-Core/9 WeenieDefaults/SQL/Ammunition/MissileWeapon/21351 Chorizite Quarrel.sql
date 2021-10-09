@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (21351,   1,        256) /* ItemType - MissileWeapon */
      , (21351,   5,          5) /* EncumbranceVal */
      , (21351,   9,    8388608) /* ValidLocations - MissileAmmo */
-     , (21351,  10,    8388608) /* CurrentWieldedLocation - MissileAmmo */
      , (21351,  11,       1000) /* MaxStackSize */
      , (21351,  12,          1) /* StackSize */
      , (21351,  13,          5) /* StackUnitEncumbrance */
@@ -57,17 +56,17 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21351,   1, 'Chorizite Quarrel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (21351,   1,   33558046) /* Setup */
-     , (21351,   3,  536870932) /* SoundTable */
-     , (21351,   6,   67111919) /* PaletteBase */
-     , (21351,   8,  100673588) /* Icon */
-     , (21351,  22,  872415275) /* PhysicsEffectTable */
+VALUES (21351,   1, 0x02000E1E) /* Setup */
+     , (21351,   3, 0x20000014) /* SoundTable */
+     , (21351,   6, 0x04000BEF) /* PaletteBase */
+     , (21351,   8, 0x06002834) /* Icon */
+     , (21351,  22, 0x3400002B) /* PhysicsEffectTable */
      , (21351, 8001,  270775064) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
      , (21351, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (21351, 8005,     400257) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame, Translucency */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21351, 8000, 3621524446) /* PCAPRecordedObjectIID */;
+VALUES (21351, 8000, 0xD7DC13DE) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (21351, 67111923, 0, 0);

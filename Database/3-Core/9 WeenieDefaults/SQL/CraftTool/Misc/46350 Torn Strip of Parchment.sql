@@ -19,7 +19,8 @@ VALUES (46350,   1,        128) /* ItemType - Misc */
      , (46350, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46350,  22, True ) /* Inscribable */;
+VALUES (46350,  22, True ) /* Inscribable */
+     , (46350,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46350,   1, 'Torn Strip of Parchment') /* Name */
@@ -27,13 +28,13 @@ VALUES (46350,   1, 'Torn Strip of Parchment') /* Name */
      , (46350,  16, 'The right strip of a torn page. What little can be seen of the text looks to be written in ancient Falatacot symbols.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46350,   1,   33554773) /* Setup */
-     , (46350,   3,  536870932) /* SoundTable */
-     , (46350,   8,  100692698) /* Icon */
-     , (46350,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46350,   1, 0x02000155) /* Setup */
+     , (46350,   3, 0x20000014) /* SoundTable */
+     , (46350,   8, 0x060072DA) /* Icon */
+     , (46350,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46350, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (46350, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46350, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46350, 8000, 3359459022) /* PCAPRecordedObjectIID */;
+VALUES (46350, 8000, 0xC83D46CE) /* PCAPRecordedObjectIID */;

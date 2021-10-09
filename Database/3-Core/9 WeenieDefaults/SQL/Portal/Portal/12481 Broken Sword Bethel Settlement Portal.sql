@@ -21,16 +21,16 @@ VALUES (12481,   1, 'Broken Sword Bethel Settlement Portal') /* Name */
      , (12481, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12481,   1,   33554867) /* Setup */
-     , (12481,   2,  150994947) /* MotionTable */
-     , (12481,   8,  100667499) /* Icon */
+VALUES (12481,   1, 0x020001B3) /* Setup */
+     , (12481,   2, 0x09000003) /* MotionTable */
+     , (12481,   8, 0x0600106B) /* Icon */
      , (12481, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12481, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12481, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12481, 8040, 2757754924, 125.615, 79.3686, 32.25879, 0.9659138, 0, 0, -0.2588639) /* PCAPRecordedLocation */
+VALUES (12481, 8040, 0xA460002C, 125.615, 79.3686, 32.25879, 0.965914, 0, 0, -0.258864) /* PCAPRecordedLocation */
 /* @teleloc 0xA460002C [125.615000 79.368600 32.258790] 0.965914 0.000000 0.000000 -0.258864 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12481, 8000, 2051407875) /* PCAPRecordedObjectIID */;
+VALUES (12481, 8000, 0x7A460003) /* PCAPRecordedObjectIID */;

@@ -32,17 +32,17 @@ VALUES (32272,   1, 'Hunter''s Stock Amber') /* Name */
      , (32272,  20, 'Bottles of Hunter''s Stock Amber') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32272,   1,   33559128) /* Setup */
-     , (32272,   3,  536870932) /* SoundTable */
-     , (32272,   8,  100688499) /* Icon */
-     , (32272,  22,  872415275) /* PhysicsEffectTable */
+VALUES (32272,   1, 0x02001258) /* Setup */
+     , (32272,   3, 0x20000014) /* SoundTable */
+     , (32272,   8, 0x06006273) /* Icon */
+     , (32272,  22, 0x3400002B) /* PhysicsEffectTable */
      , (32272,  28,       3863) /* Spell - HunterHardiness */
-     , (32272,  50,  100687554) /* IconOverlay */
-     , (32272,  52,  100687547) /* IconUnderlay */
+     , (32272,  50, 0x06005EC2) /* IconOverlay */
+     , (32272,  52, 0x06005EBB) /* IconUnderlay */
      , (32272, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */
      , (32272, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (32272, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (32272, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32272, 8000, 3041952747) /* PCAPRecordedObjectIID */;
+VALUES (32272, 8000, 0xB55083EB) /* PCAPRecordedObjectIID */;

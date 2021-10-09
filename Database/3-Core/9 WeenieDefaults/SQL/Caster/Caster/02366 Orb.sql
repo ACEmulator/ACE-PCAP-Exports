@@ -10,6 +10,7 @@ VALUES (2366,   1,      32768) /* ItemType - Caster */
      , (2366,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (2366,  18,          1) /* UiEffects - Magical */
      , (2366,  19,       1362) /* Value */
+     , (2366,  46,        512) /* DefaultCombatStyle - Magic */
      , (2366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2366,  94,         16) /* TargetType - Creature */
      , (2366, 105,          3) /* ItemWorkmanship */
@@ -39,24 +40,21 @@ VALUES (2366,   1, 'Orb') /* Name */
      , (2366,  16, 'Orb of Strength') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (2366,   1,   33554669) /* Setup */
-     , (2366,   3,  536870932) /* SoundTable */
-     , (2366,   6,   67111928) /* PaletteBase */
-     , (2366,   8,  100668731) /* Icon */
-     , (2366,  22,  872415275) /* PhysicsEffectTable */
+VALUES (2366,   1, 0x020000ED) /* Setup */
+     , (2366,   3, 0x20000014) /* SoundTable */
+     , (2366,   6, 0x04000BF8) /* PaletteBase */
+     , (2366,   8, 0x0600153B) /* Icon */
+     , (2366,  22, 0x3400002B) /* PhysicsEffectTable */
      , (2366,  28,          1) /* Spell - StrengthOther1 */
      , (2366, 8001, 2439594136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
      , (2366, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (2366, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2366, 8000, 2186220608) /* PCAPRecordedObjectIID */;
+VALUES (2366, 8000, 0x824F1440) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2366,   605,      2)  /* LifeMagicMasterySelf1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2366, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (2366, 67111926, 0, 0);

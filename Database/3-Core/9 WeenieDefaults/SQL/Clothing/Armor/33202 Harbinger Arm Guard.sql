@@ -22,13 +22,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33202,   1, 'Harbinger Arm Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (33202,   1,   33559964) /* Setup */
-     , (33202,   3,  536870932) /* SoundTable */
-     , (33202,   8,  100673483) /* Icon */
-     , (33202,  22,  872415275) /* PhysicsEffectTable */
+VALUES (33202,   1, 0x0200159C) /* Setup */
+     , (33202,   3, 0x20000014) /* SoundTable */
+     , (33202,   8, 0x060027CB) /* Icon */
+     , (33202,  22, 0x3400002B) /* PhysicsEffectTable */
      , (33202, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
      , (33202, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (33202, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33202, 8000, 2148065223) /* PCAPRecordedObjectIID */;
+VALUES (33202, 8000, 0x8008DFC7) /* PCAPRecordedObjectIID */;

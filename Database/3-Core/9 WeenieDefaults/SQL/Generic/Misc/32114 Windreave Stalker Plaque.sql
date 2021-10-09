@@ -16,6 +16,7 @@ VALUES (32114,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32114,  22, True ) /* Inscribable */
+     , (32114,  23, True ) /* DestroyOnSell */
      , (32114,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
@@ -23,15 +24,15 @@ VALUES (32114,   1, 'Windreave Stalker Plaque') /* Name */
      , (32114,  16, 'The owner of this plaque is a verified "Windreave Stalker"!') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (32114,   1,   33559570) /* Setup */
-     , (32114,   3,  536870932) /* SoundTable */
-     , (32114,   8,  100667452) /* Icon */
-     , (32114,  22,  872415275) /* PhysicsEffectTable */
-     , (32114,  52,  100687685) /* IconUnderlay */
+VALUES (32114,   1, 0x02001412) /* Setup */
+     , (32114,   3, 0x20000014) /* SoundTable */
+     , (32114,   8, 0x0600103C) /* Icon */
+     , (32114,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (32114,  52, 0x06005F45) /* IconUnderlay */
      , (32114, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
      , (32114, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (32114, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (32114, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32114, 8000, 2981039355) /* PCAPRecordedObjectIID */;
+VALUES (32114, 8000, 0xB1AF0CFB) /* PCAPRecordedObjectIID */;

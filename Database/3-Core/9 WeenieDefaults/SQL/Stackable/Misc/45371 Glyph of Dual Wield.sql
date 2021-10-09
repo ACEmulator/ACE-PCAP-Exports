@@ -20,18 +20,18 @@ VALUES (45371,   1, 'Glyph of Dual Wield') /* Name */
      , (45371,  20, 'Glyphs of Dual Wield') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45371,   1,   33554809) /* Setup */
-     , (45371,   3,  536870932) /* SoundTable */
-     , (45371,   6,   67111919) /* PaletteBase */
-     , (45371,   8,  100690191) /* Icon */
-     , (45371,  22,  872415275) /* PhysicsEffectTable */
-     , (45371,  50,  100692245) /* IconOverlay */
+VALUES (45371,   1, 0x02000179) /* Setup */
+     , (45371,   3, 0x20000014) /* SoundTable */
+     , (45371,   6, 0x04000BEF) /* PaletteBase */
+     , (45371,   8, 0x0600690F) /* Icon */
+     , (45371,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (45371,  50, 0x06007115) /* IconOverlay */
      , (45371, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
      , (45371, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (45371, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45371, 8000, 3208479968) /* PCAPRecordedObjectIID */;
+VALUES (45371, 8000, 0xBF3D84E0) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (45371, 67111924, 0, 0);

@@ -27,13 +27,13 @@ VALUES (24684,   1, 'Crucible') /* Name */
      , (24684,  20, 'Crucible') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24684,   1,   33555966) /* Setup */
-     , (24684,   3,  536870932) /* SoundTable */
-     , (24684,   8,  100674472) /* Icon */
-     , (24684,  22,  872415275) /* PhysicsEffectTable */
+VALUES (24684,   1, 0x020005FE) /* Setup */
+     , (24684,   3, 0x20000014) /* SoundTable */
+     , (24684,   8, 0x06002BA8) /* Icon */
+     , (24684,  22, 0x3400002B) /* PhysicsEffectTable */
      , (24684, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (24684, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (24684, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24684, 8000, 2981037234) /* PCAPRecordedObjectIID */;
+VALUES (24684, 8000, 0xB1AF04B2) /* PCAPRecordedObjectIID */;

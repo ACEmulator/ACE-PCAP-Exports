@@ -19,14 +19,14 @@ VALUES (5088,   1, 'Stale Bread') /* Name */
      , (5088,  20, 'Loaves of Stale Bread') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (5088,   1,   33556220) /* Setup */
-     , (5088,   3,  536870932) /* SoundTable */
-     , (5088,   8,  100667455) /* Icon */
-     , (5088,  22,  872415275) /* PhysicsEffectTable */
+VALUES (5088,   1, 0x020006FC) /* Setup */
+     , (5088,   3, 0x20000014) /* SoundTable */
+     , (5088,   8, 0x0600103F) /* Icon */
+     , (5088,  22, 0x3400002B) /* PhysicsEffectTable */
      , (5088, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
      , (5088, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
      , (5088, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */
      , (5088, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5088, 8000,       5088) /* PCAPRecordedObjectIID */;
+VALUES (5088, 8000, 0x000013E0) /* PCAPRecordedObjectIID */;

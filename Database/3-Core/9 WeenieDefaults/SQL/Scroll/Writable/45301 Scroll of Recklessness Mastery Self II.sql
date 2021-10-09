@@ -24,17 +24,17 @@ VALUES (45301,   1, 'Scroll of Recklessness Mastery Self II') /* Name */
 Increases the caster''s Recklessness skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (45301,   1,   33554826) /* Setup */
-     , (45301,   8,  100676449) /* Icon */
-     , (45301,  22,  872415275) /* PhysicsEffectTable */
+VALUES (45301,   1, 0x0200018A) /* Setup */
+     , (45301,   8, 0x06003361) /* Icon */
+     , (45301,  22, 0x3400002B) /* PhysicsEffectTable */
      , (45301,  28,       5828) /* Spell - RecklessnessMasterySelf2 */
      , (45301, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
      , (45301, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (45301, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (45301, 8040, 3062300988, 61.08239, 131.9139, 90.0855, -0.9338744, 0, 0, -0.3576013) /* PCAPRecordedLocation */
+VALUES (45301, 8040, 0xB687013C, 61.08239, 131.9139, 90.0855, -0.933874, 0, 0, -0.357601) /* PCAPRecordedLocation */
 /* @teleloc 0xB687013C [61.082390 131.913900 90.085500] -0.933874 0.000000 0.000000 -0.357601 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45301, 8000, 3709706772) /* PCAPRecordedObjectIID */;
+VALUES (45301, 8000, 0xDD1DA214) /* PCAPRecordedObjectIID */;

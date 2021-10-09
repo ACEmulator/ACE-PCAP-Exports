@@ -17,7 +17,8 @@ VALUES (11320,   1,      16384) /* ItemType - Key */
      , (11320, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11320,  22, True ) /* Inscribable */;
+VALUES (11320,  22, True ) /* Inscribable */
+     , (11320,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11320,   1, 'Vault Key') /* Name */
@@ -25,13 +26,13 @@ VALUES (11320,   1, 'Vault Key') /* Name */
      , (11320,  16, 'The key to the Tumerok Figurine Vault') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (11320,   1,   33554784) /* Setup */
-     , (11320,   3,  536870932) /* SoundTable */
-     , (11320,   8,  100668437) /* Icon */
-     , (11320,  22,  872415275) /* PhysicsEffectTable */
+VALUES (11320,   1, 0x02000160) /* Setup */
+     , (11320,   3, 0x20000014) /* SoundTable */
+     , (11320,   8, 0x06001415) /* Icon */
+     , (11320,  22, 0x3400002B) /* PhysicsEffectTable */
      , (11320, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (11320, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (11320, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11320, 8000, 3708417452) /* PCAPRecordedObjectIID */;
+VALUES (11320, 8000, 0xDD09F5AC) /* PCAPRecordedObjectIID */;

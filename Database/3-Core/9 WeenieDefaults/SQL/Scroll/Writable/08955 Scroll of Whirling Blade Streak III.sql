@@ -24,13 +24,13 @@ VALUES (8955,   1, 'Scroll of Whirling Blade Streak III') /* Name */
 Sends a magical blade streaking towards the target. The bolt does 21-42 points of slashing damage to the first thing it hits.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8955,   1,   33554826) /* Setup */
-     , (8955,   8,  100677028) /* Icon */
-     , (8955,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8955,   1, 0x0200018A) /* Setup */
+     , (8955,   8, 0x060035A4) /* Icon */
+     , (8955,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8955,  28,       1828) /* Spell - WhirlingBladeStreak3 */
      , (8955, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (8955, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8955, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8955, 8000, 2617980166) /* PCAPRecordedObjectIID */;
+VALUES (8955, 8000, 0x9C0B3506) /* PCAPRecordedObjectIID */;

@@ -34,6 +34,7 @@ VALUES (23022,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23022,  22, True ) /* Inscribable */
+     , (23022,  23, True ) /* DestroyOnSell */
      , (23022,  69, False) /* IsSellable */
      , (23022,  99, True ) /* Ivoryable */;
 
@@ -56,22 +57,22 @@ VALUES (23022,   1, 'Silifi of Crimson Night') /* Name */
      , (23022,  16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Plate Armoredillo. It is fitted with the rubies Al-Shajar, Mahwan, and Yujazik.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23022,   1,   33556553) /* Setup */
-     , (23022,   3,  536870932) /* SoundTable */
-     , (23022,   6,   67111919) /* PaletteBase */
-     , (23022,   8,  100670613) /* Icon */
-     , (23022,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23022,   1, 0x02000849) /* Setup */
+     , (23022,   3, 0x20000014) /* SoundTable */
+     , (23022,   6, 0x04000BEF) /* PaletteBase */
+     , (23022,   8, 0x06001C95) /* Icon */
+     , (23022,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23022, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
      , (23022, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23022, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23022, 8000, 2273394407) /* PCAPRecordedObjectIID */;
+VALUES (23022, 8000, 0x87813EE7) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23022,  1077,      2)  /* LightningProtectionOther6 */
+VALUES (23022,  1605,      2)  /* DefenderSelf6 */
      , (23022,  1096,      2)  /* FireProtectionOther6 */
-     , (23022,  1605,      2)  /* DefenderSelf6 */;
+     , (23022,  1077,      2)  /* LightningProtectionOther6 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (23022, 67111921, 0, 0);

@@ -47,29 +47,29 @@ VALUES (37111,   1, 'Empowered Girth of the Perfect Light') /* Name */
      , (37111,  25, 'Azrakin') /* CraftsmanName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37111,   1,   33554647) /* Setup */
-     , (37111,   3,  536870932) /* SoundTable */
-     , (37111,   8,  100689817) /* Icon */
-     , (37111,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37111,   1, 0x020000D7) /* Setup */
+     , (37111,   3, 0x20000014) /* SoundTable */
+     , (37111,   8, 0x06006799) /* Icon */
+     , (37111,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37111, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
      , (37111, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (37111, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37111, 8000, 2461841159) /* PCAPRecordedObjectIID */;
+VALUES (37111, 8000, 0x92BCB707) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37111,  2350,      2)  /* DecayDurance */
+VALUES (37111,  2960,      2)  /* BludgeoningDurance */
+     , (37111,  2961,      2)  /* PiercingDurance */
+     , (37111,  2962,      2)  /* SlashingDurance */
+     , (37111,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (37111,  4061,      2)  /* WillpowerOtherIncantation */
+     , (37111,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */
+     , (37111,  2350,      2)  /* DecayDurance */
      , (37111,  2351,      2)  /* ConsumptionDurance */
      , (37111,  2352,      2)  /* StasisDurance */
      , (37111,  2353,      2)  /* StimulationDurance */
-     , (37111,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
-     , (37111,  2584,      2)  /* CANTRIPWILLPOWER1 */
-     , (37111,  2960,      2)  /* BludgeoningDurance */
-     , (37111,  2961,      2)  /* PiercingDurance */
-     , (37111,  2962,      2)  /* SlashingDurance */
-     , (37111,  4061,      2)  /* WillpowerOtherIncantation */
-     , (37111,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */;
+     , (37111,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (37111, 0, 83889072, 83897828)

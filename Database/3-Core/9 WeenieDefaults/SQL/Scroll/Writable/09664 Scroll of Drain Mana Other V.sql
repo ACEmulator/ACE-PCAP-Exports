@@ -24,13 +24,13 @@ VALUES (9664,   1, 'Scroll of Drain Mana Other V') /* Name */
 Drains 30% of the target''s Mana and gives it to the caster.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9664,   1,   33554826) /* Setup */
-     , (9664,   8,  100676932) /* Icon */
-     , (9664,  22,  872415275) /* PhysicsEffectTable */
+VALUES (9664,   1, 0x0200018A) /* Setup */
+     , (9664,   8, 0x06003544) /* Icon */
+     , (9664,  22, 0x3400002B) /* PhysicsEffectTable */
      , (9664,  28,       1264) /* Spell - DrainMana5 */
      , (9664, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (9664, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9664, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9664, 8000, 2629529267) /* PCAPRecordedObjectIID */;
+VALUES (9664, 8000, 0x9CBB6EB3) /* PCAPRecordedObjectIID */;

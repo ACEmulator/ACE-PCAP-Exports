@@ -17,19 +17,22 @@ VALUES (36867,   1,        128) /* ItemType - Misc */
      , (36867, 114,          1) /* Attuned - Attuned */
      , (36867, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (36867,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36867,   1, 'Dire Champion Token') /* Name */
      , (36867,  14, 'Hand this to the Game Warden, Aun Javhalrea, in Ayan Baqur for a reward.') /* Use */
      , (36867,  16, 'A coin imprinted with the mark of the Colosseum.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (36867,   1,   33554802) /* Setup */
-     , (36867,   3,  536870932) /* SoundTable */
-     , (36867,   8,  100689744) /* Icon */
-     , (36867,  22,  872415275) /* PhysicsEffectTable */
+VALUES (36867,   1, 0x02000172) /* Setup */
+     , (36867,   3, 0x20000014) /* SoundTable */
+     , (36867,   8, 0x06006750) /* Icon */
+     , (36867,  22, 0x3400002B) /* PhysicsEffectTable */
      , (36867, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (36867, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (36867, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36867, 8000, 3682991813) /* PCAPRecordedObjectIID */;
+VALUES (36867, 8000, 0xDB85FEC5) /* PCAPRecordedObjectIID */;

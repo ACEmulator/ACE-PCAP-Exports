@@ -8,7 +8,6 @@ VALUES (23781,   1,          2) /* ItemType - Armor */
      , (23781,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (23781,   5,       1600) /* EncumbranceVal */
      , (23781,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
-     , (23781,  10,       6656) /* CurrentWieldedLocation - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (23781,  16,          1) /* ItemUseable - No */
      , (23781,  18,          1) /* UiEffects - Magical */
      , (23781,  19,       2610) /* Value */
@@ -45,17 +44,17 @@ VALUES (23781,   1, 'Plated Amuli Coat') /* Name */
      , (23781,   8, 'Ignignokt') /* ScribeName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23781,   1,   33554854) /* Setup */
-     , (23781,   3,  536870932) /* SoundTable */
-     , (23781,   6,   67108990) /* PaletteBase */
-     , (23781,   8,  100674067) /* Icon */
-     , (23781,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23781,   1, 0x020001A6) /* Setup */
+     , (23781,   3, 0x20000014) /* SoundTable */
+     , (23781,   6, 0x0400007E) /* PaletteBase */
+     , (23781,   8, 0x06002A13) /* Icon */
+     , (23781,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23781, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
      , (23781, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
      , (23781, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23781, 8000, 2461693251) /* PCAPRecordedObjectIID */;
+VALUES (23781, 8000, 0x92BA7543) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23781,  2610,      2)  /* CANTRIPBLUDGEONINGWARD2 */;

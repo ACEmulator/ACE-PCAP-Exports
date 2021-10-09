@@ -17,11 +17,11 @@ VALUES (35921,   1,        128) /* ItemType - Misc */
      , (35921,  98, 1483945802) /* CreationTimestamp */
      , (35921, 114,          1) /* Attuned - Attuned */
      , (35921, 267,       3600) /* Lifespan */
-     , (35921, 268,       3600) /* RemainingLifespan */
      , (35921, 8007,          0) /* PCAPRecordedAutonomousMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35921,  69, False) /* IsSellable */;
+VALUES (35921,  23, True ) /* DestroyOnSell */
+     , (35921,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35921,  39,     0.4) /* DefaultScale */;
@@ -32,17 +32,17 @@ VALUES (35921,   1, 'Amelia''s Golem Doll') /* Name */
      , (35921, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (35921,   1,   33560282) /* Setup */
-     , (35921,   2,  150995206) /* MotionTable */
-     , (35921,   3,  536870933) /* SoundTable */
-     , (35921,   8,  100674350) /* Icon */
-     , (35921,  22,  872415269) /* PhysicsEffectTable */
+VALUES (35921,   1, 0x020016DA) /* Setup */
+     , (35921,   2, 0x09000106) /* MotionTable */
+     , (35921,   3, 0x20000015) /* SoundTable */
+     , (35921,   8, 0x06002B2E) /* Icon */
+     , (35921,  22, 0x34000025) /* PhysicsEffectTable */
      , (35921, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
      , (35921, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (35921, 8005,      71811) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35921, 8000, 3683060845) /* PCAPRecordedObjectIID */;
+VALUES (35921, 8000, 0xDB870C6D) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (35921, 0, 83894477, 83892492)

@@ -47,18 +47,18 @@ VALUES (27593,   1, 'Sharpened Virindi Scalpel') /* Name */
      , (27593,  16, 'A small, flimsy looking blade for precision slicing. It appears to be made of pure diamond. As you peer at it, a swathe of tiny, three-dimensional geometric shapes briefly flash violet within the hilt, and a hollow voice in your mind intones, "Puppet, this reconfiguration has been specially prepared and left for your use. Use on captured meat beings to peel their artificial exoskeletons away."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27593,   1,   33557231) /* Setup */
-     , (27593,   3,  536870932) /* SoundTable */
-     , (27593,   8,  100671865) /* Icon */
-     , (27593,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27593,   1, 0x02000AEF) /* Setup */
+     , (27593,   3, 0x20000014) /* SoundTable */
+     , (27593,   8, 0x06002179) /* Icon */
+     , (27593,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27593, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
      , (27593, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27593, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27593, 8000, 2148071112) /* PCAPRecordedObjectIID */;
+VALUES (27593, 8000, 0x8008F6C8) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27593,   297,      2)  /* AxeMasteryOther6 */
+VALUES (27593,  1616,      2)  /* BloodDrinkerSelf6 */
      , (27593,  1384,      2)  /* CoordinationOther6 */
-     , (27593,  1616,      2)  /* BloodDrinkerSelf6 */;
+     , (27593,   297,      2)  /* LightWeaponsMasteryOther6 */;

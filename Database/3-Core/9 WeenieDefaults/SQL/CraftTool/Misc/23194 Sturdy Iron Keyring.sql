@@ -33,13 +33,13 @@ VALUES (23194,   1, 'Sturdy Iron Keyring') /* Name */
      , (23194,  16, 'A crude keyring roughly carved out of a granite golem heart. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (23194,   1,   33554790) /* Setup */
-     , (23194,   3,  536870932) /* SoundTable */
-     , (23194,   8,  100674001) /* Icon */
-     , (23194,  22,  872415275) /* PhysicsEffectTable */
+VALUES (23194,   1, 0x02000166) /* Setup */
+     , (23194,   3, 0x20000014) /* SoundTable */
+     , (23194,   8, 0x060029D1) /* Icon */
+     , (23194,  22, 0x3400002B) /* PhysicsEffectTable */
      , (23194, 8001,  271088664) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
      , (23194, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (23194, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23194, 8000, 2174514668) /* PCAPRecordedObjectIID */;
+VALUES (23194, 8000, 0x819C75EC) /* PCAPRecordedObjectIID */;

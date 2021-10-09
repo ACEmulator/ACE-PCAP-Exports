@@ -14,7 +14,8 @@ VALUES (8530,   1,       8192) /* ItemType - Writable */
      , (8530, 8041,        101) /* PCAPRecordedPlacement - Resting */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8530,  22, True ) /* Inscribable */;
+VALUES (8530,  22, True ) /* Inscribable */
+     , (8530,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8530,  39,     1.5) /* DefaultScale */;
@@ -26,13 +27,13 @@ VALUES (8530,   1, 'Scroll of Sanctuary Recall') /* Name */
 Transports the caster to the Ithaenc Cathedral.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (8530,   1,   33554826) /* Setup */
-     , (8530,   8,  100669876) /* Icon */
-     , (8530,  22,  872415275) /* PhysicsEffectTable */
+VALUES (8530,   1, 0x0200018A) /* Setup */
+     , (8530,   8, 0x060019B4) /* Icon */
+     , (8530,  22, 0x3400002B) /* PhysicsEffectTable */
      , (8530,  28,       2023) /* Spell - SanctuaryRecall */
      , (8530, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (8530, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (8530, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8530, 8000, 2912912605) /* PCAPRecordedObjectIID */;
+VALUES (8530, 8000, 0xAD9F84DD) /* PCAPRecordedObjectIID */;

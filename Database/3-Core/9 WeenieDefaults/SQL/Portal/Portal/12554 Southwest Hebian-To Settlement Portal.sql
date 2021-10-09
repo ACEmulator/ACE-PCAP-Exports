@@ -22,16 +22,16 @@ VALUES (12554,   1, 'Southwest Hebian-To Settlement Portal') /* Name */
      , (12554, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (12554,   1,   33554867) /* Setup */
-     , (12554,   2,  150994947) /* MotionTable */
-     , (12554,   8,  100667499) /* Icon */
+VALUES (12554,   1, 0x020001B3) /* Setup */
+     , (12554,   2, 0x09000003) /* MotionTable */
+     , (12554,   8, 0x0600106B) /* Icon */
      , (12554, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (12554, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (12554, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (12554, 8040, 3863674893, 45.6773, 107.489, 31.937, -0.71062, 0, 0, 0.703576) /* PCAPRecordedLocation */
+VALUES (12554, 8040, 0xE64B000D, 45.6773, 107.489, 31.937, -0.71062, 0, 0, 0.703576) /* PCAPRecordedLocation */
 /* @teleloc 0xE64B000D [45.677300 107.489000 31.937000] -0.710620 0.000000 0.000000 0.703576 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12554, 8000, 2120527873) /* PCAPRecordedObjectIID */;
+VALUES (12554, 8000, 0x7E64B001) /* PCAPRecordedObjectIID */;

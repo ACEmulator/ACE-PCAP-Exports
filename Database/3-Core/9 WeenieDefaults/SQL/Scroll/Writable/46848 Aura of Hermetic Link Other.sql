@@ -21,13 +21,13 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46848,   1, 'Aura of Hermetic Link Other') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (46848,   1,   33554826) /* Setup */
-     , (46848,   8,  100676672) /* Icon */
-     , (46848,  22,  872415275) /* PhysicsEffectTable */
+VALUES (46848,   1, 0x0200018A) /* Setup */
+     , (46848,   8, 0x06003440) /* Icon */
+     , (46848,  22, 0x3400002B) /* PhysicsEffectTable */
      , (46848,  28,       5982) /* Spell - HermeticLinkOther1 */
      , (46848, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (46848, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (46848, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46848, 8000, 3623997110) /* PCAPRecordedObjectIID */;
+VALUES (46848, 8000, 0xD801CEB6) /* PCAPRecordedObjectIID */;

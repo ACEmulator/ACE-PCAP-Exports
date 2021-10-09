@@ -19,11 +19,11 @@ VALUES (44765,   1, 'Shadow') /* Name */
      , (44765,  16, 'The tale of the Shadows is long and still unclear in many respects. Three thousand years ago, an Empyrean named Ilservian Palacost gave himself over in service to an ancient, nameless power of darkness and madness. He became known as Bael''Zharon, the "Slayer of Hope" in the language of Asheron''s people. Ilservian''s followers were changed into Shadows. The first Shadows, then, were Empyrean, corrupted by the same force of chaos that empowered Bael''Zharon. These Shadows fought a vicious war against the ancient Empyrean and nearly destroyed them. Only the actions of the Yalain Mage Council and Asheron saved the race from absorption or destruction. Since then, the Shadows have captured and corrupted many humans into members of their ranks. It is known from historical records that in the last war, the Shadows similarly twisted several Gromnatross -- the adult form of Dereth''s Gromnies -- into the Shadow Spires.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (44765,   1,   33561365) /* Setup */
-     , (44765,   8,  100668115) /* Icon */
+VALUES (44765,   1, 0x02001B15) /* Setup */
+     , (44765,   8, 0x060012D3) /* Icon */
      , (44765, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
      , (44765, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (44765, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44765, 8000, 2629411060) /* PCAPRecordedObjectIID */;
+VALUES (44765, 8000, 0x9CB9A0F4) /* PCAPRecordedObjectIID */;

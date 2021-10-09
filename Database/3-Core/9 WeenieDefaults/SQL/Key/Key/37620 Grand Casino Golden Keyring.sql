@@ -22,15 +22,15 @@ VALUES (37620,   1, 'Grand Casino Golden Keyring') /* Name */
      , (37620,  16, 'This key will open the Grand Casino Chest in any of the casinos. The employee who dropped this is certainly in a heap of trouble.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37620,   1,   33557005) /* Setup */
-     , (37620,   3,  536870932) /* SoundTable */
-     , (37620,   8,  100686707) /* Icon */
-     , (37620,  22,  872415275) /* PhysicsEffectTable */
-     , (37620,  52,  100686604) /* IconUnderlay */
+VALUES (37620,   1, 0x02000A0D) /* Setup */
+     , (37620,   3, 0x20000014) /* SoundTable */
+     , (37620,   8, 0x06005B73) /* Icon */
+     , (37620,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (37620,  52, 0x06005B0C) /* IconUnderlay */
      , (37620, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
      , (37620, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (37620, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (37620, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37620, 8000, 2461687931) /* PCAPRecordedObjectIID */;
+VALUES (37620, 8000, 0x92BA607B) /* PCAPRecordedObjectIID */;

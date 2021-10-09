@@ -22,21 +22,21 @@ VALUES (38297,   1, 'Coral Tower') /* Name */
      , (38297, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38297,   1,   33560643) /* Setup */
-     , (38297,   2,  150995431) /* MotionTable */
-     , (38297,   3,  536871052) /* SoundTable */
-     , (38297,   8,  100689931) /* Icon */
-     , (38297,  22,  872415274) /* PhysicsEffectTable */
+VALUES (38297,   1, 0x02001843) /* Setup */
+     , (38297,   2, 0x090001E7) /* MotionTable */
+     , (38297,   3, 0x2000008C) /* SoundTable */
+     , (38297,   8, 0x0600680B) /* Icon */
+     , (38297,  22, 0x3400002A) /* PhysicsEffectTable */
      , (38297, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (38297, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (38297, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (38297, 8040, 1057685532, 82.3129, 83.7778, 0, 0.6846882, 0, 0, -0.7288362) /* PCAPRecordedLocation */
+VALUES (38297, 8040, 0x3F0B001C, 82.3129, 83.7778, 0, 0.684688, 0, 0, -0.728836) /* PCAPRecordedLocation */
 /* @teleloc 0x3F0B001C [82.312900 83.777800 0.000000] 0.684688 0.000000 0.000000 -0.728836 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38297, 8000, 2447949361) /* PCAPRecordedObjectIID */;
+VALUES (38297, 8000, 0x91E8BE31) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38297,   1,   1, 0, 0) /* Strength */

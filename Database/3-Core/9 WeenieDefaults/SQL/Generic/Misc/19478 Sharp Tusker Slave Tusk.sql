@@ -20,13 +20,13 @@ VALUES (19478,   1, 'Sharp Tusker Slave Tusk') /* Name */
      , (19478,  16, 'The long, sharp tusk of a departed Tusker.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (19478,   1,   33557838) /* Setup */
-     , (19478,   3,  536870932) /* SoundTable */
-     , (19478,   8,  100673056) /* Icon */
-     , (19478,  22,  872415275) /* PhysicsEffectTable */
+VALUES (19478,   1, 0x02000D4E) /* Setup */
+     , (19478,   3, 0x20000014) /* SoundTable */
+     , (19478,   8, 0x06002620) /* Icon */
+     , (19478,  22, 0x3400002B) /* PhysicsEffectTable */
      , (19478, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
      , (19478, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (19478, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19478, 8000, 2981039427) /* PCAPRecordedObjectIID */;
+VALUES (19478, 8000, 0xB1AF0D43) /* PCAPRecordedObjectIID */;

@@ -24,13 +24,13 @@ VALUES (49471,   1, 'Scroll of Summoning Mastery Self II') /* Name */
 Increases the caster''s Summoning skill by 15 points.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (49471,   1,   33554826) /* Setup */
-     , (49471,   8,  100693008) /* Icon */
-     , (49471,  22,  872415275) /* PhysicsEffectTable */
+VALUES (49471,   1, 0x0200018A) /* Setup */
+     , (49471,   8, 0x06007410) /* Icon */
+     , (49471,  22, 0x3400002B) /* PhysicsEffectTable */
      , (49471,  28,       6117) /* Spell - SummoningMasterySelf2 */
      , (49471, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
      , (49471, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (49471, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49471, 8000, 2617975284) /* PCAPRecordedObjectIID */;
+VALUES (49471, 8000, 0x9C0B21F4) /* PCAPRecordedObjectIID */;

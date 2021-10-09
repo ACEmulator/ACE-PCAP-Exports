@@ -51,21 +51,21 @@ VALUES (38468,   1, 'Celestial Hand Pauldrons') /* Name */
      , (38468,  39, 'Tiesto') /* TinkerName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (38468,   1,   33554641) /* Setup */
-     , (38468,   3,  536870932) /* SoundTable */
-     , (38468,   8,  100690168) /* Icon */
-     , (38468,  22,  872415275) /* PhysicsEffectTable */
+VALUES (38468,   1, 0x020000D1) /* Setup */
+     , (38468,   3, 0x20000014) /* SoundTable */
+     , (38468,   8, 0x060068F8) /* Icon */
+     , (38468,  22, 0x3400002B) /* PhysicsEffectTable */
      , (38468,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (38468, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
      , (38468, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (38468, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38468, 8000, 2932881686) /* PCAPRecordedObjectIID */;
+VALUES (38468, 8000, 0xAED03916) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38468,  2108,      2)  /* Impenetrability7 */
-     , (38468,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */;
+VALUES (38468,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */
+     , (38468,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
 VALUES (38468, 0, 83886788, 83897921);

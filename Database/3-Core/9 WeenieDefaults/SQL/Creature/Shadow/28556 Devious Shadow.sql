@@ -28,28 +28,28 @@ VALUES (28556,   1, 'Devious Shadow') /* Name */
      , (28556, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (28556,   1,   33554433) /* Setup */
-     , (28556,   2,  150994945) /* MotionTable */
-     , (28556,   3,  536871090) /* SoundTable */
-     , (28556,   6,   67108990) /* PaletteBase */
-     , (28556,   8,  100670397) /* Icon */
-     , (28556,   9,   83890514) /* EyesTexture */
-     , (28556,  10,   83890553) /* NoseTexture */
-     , (28556,  11,   83890635) /* MouthTexture */
-     , (28556,  15,   67116983) /* HairPalette */
-     , (28556,  16,   67110063) /* EyesPalette */
-     , (28556,  17,   67109562) /* SkinPalette */
-     , (28556,  22,  872415331) /* PhysicsEffectTable */
+VALUES (28556,   1, 0x02000001) /* Setup */
+     , (28556,   2, 0x09000001) /* MotionTable */
+     , (28556,   3, 0x200000B2) /* SoundTable */
+     , (28556,   6, 0x0400007E) /* PaletteBase */
+     , (28556,   8, 0x06001BBD) /* Icon */
+     , (28556,   9, 0x05001152) /* EyesTexture */
+     , (28556,  10, 0x05001179) /* NoseTexture */
+     , (28556,  11, 0x050011CB) /* MouthTexture */
+     , (28556,  15, 0x04001FB7) /* HairPalette */
+     , (28556,  16, 0x040004AF) /* EyesPalette */
+     , (28556,  17, 0x040002BA) /* SkinPalette */
+     , (28556,  22, 0x34000063) /* PhysicsEffectTable */
      , (28556, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
      , (28556, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
      , (28556, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (28556, 8040, 47907506, 154.731, -162.65, -5.997, -0.858004, 0, 0, -0.513643) /* PCAPRecordedLocation */
+VALUES (28556, 8040, 0x02DB02B2, 154.731, -162.65, -5.997, -0.858004, 0, 0, -0.513643) /* PCAPRecordedLocation */
 /* @teleloc 0x02DB02B2 [154.731000 -162.650000 -5.997000] -0.858004 0.000000 0.000000 -0.513643 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28556, 8000, 2884539567) /* PCAPRecordedObjectIID */;
+VALUES (28556, 8000, 0xABEE94AF) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28556,   1,  70, 0, 0) /* Strength */
@@ -437,7 +437,13 @@ VALUES (28556, 2, 47637,  1, 0, 0, False) /* Create Tachi (47637) for Wield */
      , (28556, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
      , (28556, 9, 41064,  0, 0, 0, False) /* Create Lightning Khanda-handled Mace (41064) for ContainTreasure */
      , (28556, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (28556, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */;
+     , (28556, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (28556, 9,   324,  0, 0, 0, False) /* Create Kaskara (324) for ContainTreasure */
+     , (28556, 9,  3121,  0, 0, 0, False) /* Create Scroll of Rejuvenate Other V (3121) for ContainTreasure */
+     , (28556, 9, 45279,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Self IV (45279) for ContainTreasure */
+     , (28556, 9,  9641,  0, 0, 0, False) /* Create Scroll of Mana to Health Self III (9641) for ContainTreasure */
+     , (28556, 9, 31792,  0, 0, 0, False) /* Create Frost Stick (31792) for ContainTreasure */
+     , (28556, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (28556, 67112860, 0, 0);

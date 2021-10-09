@@ -23,16 +23,16 @@ VALUES (24914,   1, 'Olthoi Brood Hive') /* Name */
      , (24914, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (24914,   1,   33556212) /* Setup */
-     , (24914,   2,  150994947) /* MotionTable */
-     , (24914,   8,  100667499) /* Icon */
+VALUES (24914,   1, 0x020006F4) /* Setup */
+     , (24914,   2, 0x09000003) /* MotionTable */
+     , (24914,   8, 0x0600106B) /* Icon */
      , (24914, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
      , (24914, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
      , (24914, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
-VALUES (24914, 8040, 3318743081, 131.105, 20.2223, 111.8068, -0.9986932, 0, 0, -0.05110661) /* PCAPRecordedLocation */
+VALUES (24914, 8040, 0xC5D00029, 131.105, 20.2223, 111.8068, -0.998693, 0, 0, -0.051107) /* PCAPRecordedLocation */
 /* @teleloc 0xC5D00029 [131.105000 20.222300 111.806800] -0.998693 0.000000 0.000000 -0.051107 */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24914, 8000, 2086469632) /* PCAPRecordedObjectIID */;
+VALUES (24914, 8000, 0x7C5D0000) /* PCAPRecordedObjectIID */;

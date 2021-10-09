@@ -51,24 +51,24 @@ VALUES (27230,   1, 'Nariyid Helm') /* Name */
      , (27230,  16, 'Nariyid Helm') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (27230,   1,   33555248) /* Setup */
-     , (27230,   3,  536870932) /* SoundTable */
-     , (27230,   6,   67108990) /* PaletteBase */
-     , (27230,   8,  100676210) /* Icon */
-     , (27230,  22,  872415275) /* PhysicsEffectTable */
+VALUES (27230,   1, 0x02000330) /* Setup */
+     , (27230,   3, 0x20000014) /* SoundTable */
+     , (27230,   6, 0x0400007E) /* PaletteBase */
+     , (27230,   8, 0x06003272) /* Icon */
+     , (27230,  22, 0x3400002B) /* PhysicsEffectTable */
      , (27230,  37,          7) /* ItemSkillLimit - MissileDefense */
      , (27230, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (27230, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (27230, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27230, 8000, 2174518571) /* PCAPRecordedObjectIID */;
+VALUES (27230, 8000, 0x819C852B) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27230,  2092,      2)  /* AcidBane7 */
+VALUES (27230,  6104,      2)  /* CantripEndurance4 */
+     , (27230,  2092,      2)  /* AcidBane7 */
      , (27230,  2094,      2)  /* BladeBane7 */
-     , (27230,  2108,      2)  /* Impenetrability7 */
-     , (27230,  6104,      2)  /* CantripEndurance4 */;
+     , (27230,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (27230, 67115062, 250, 6)

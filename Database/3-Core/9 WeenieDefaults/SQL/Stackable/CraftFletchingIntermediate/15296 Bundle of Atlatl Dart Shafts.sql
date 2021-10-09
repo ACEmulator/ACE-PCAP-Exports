@@ -22,13 +22,13 @@ VALUES (15296,   1, 'Bundle of Atlatl Dart Shafts') /* Name */
      , (15296,  20, 'Bundles of Atlatl Dart Shafts') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (15296,   1,   33557603) /* Setup */
-     , (15296,   3,  536870932) /* SoundTable */
-     , (15296,   8,  100672599) /* Icon */
-     , (15296,  22,  872415275) /* PhysicsEffectTable */
+VALUES (15296,   1, 0x02000C63) /* Setup */
+     , (15296,   3, 0x20000014) /* SoundTable */
+     , (15296,   8, 0x06002457) /* Icon */
+     , (15296,  22, 0x3400002B) /* PhysicsEffectTable */
      , (15296, 8001,      28681) /* PCAPRecordedWeenieHeader - PluralName, Value, StackSize, MaxStackSize, Container */
      , (15296, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (15296, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15296, 8000, 2461816397) /* PCAPRecordedObjectIID */;
+VALUES (15296, 8000, 0x92BC564D) /* PCAPRecordedObjectIID */;

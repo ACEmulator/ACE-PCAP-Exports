@@ -50,20 +50,20 @@ VALUES (30519,   1, 'Gelidite Breastplate') /* Name */
      , (30519,  16, 'After the destruction of the Great Work, some human mages who followed the  Gelidite agenda returned to Frore in hopes of reviving the project. Finding only shattered fragments of the Great Work, they attempted to rebuild it by using the shards as a foundation. Years later, they had achieved little success, and the project was soon abandoned. Not wanting to waste their efforts, they took the remaining crystals and fashioned great suits of armor. This is one piece of one such suit of armor.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (30519,   1,   33559435) /* Setup */
-     , (30519,   3,  536870932) /* SoundTable */
-     , (30519,   8,  100686880) /* Icon */
-     , (30519,  22,  872415275) /* PhysicsEffectTable */
-     , (30519,  52,  100686604) /* IconUnderlay */
+VALUES (30519,   1, 0x0200138B) /* Setup */
+     , (30519,   3, 0x20000014) /* SoundTable */
+     , (30519,   8, 0x06005C20) /* Icon */
+     , (30519,  22, 0x3400002B) /* PhysicsEffectTable */
+     , (30519,  52, 0x06005B0C) /* IconUnderlay */
      , (30519, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
      , (30519, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
      , (30519, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
      , (30519, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30519, 8000, 3141454246) /* PCAPRecordedObjectIID */;
+VALUES (30519, 8000, 0xBB3EC9A6) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30519,  4226,      2)  /* CANTRIPENDURANCE3 */
-     , (30519,  4407,      2)  /* Impenetrability8 */
-     , (30519,  4695,      2)  /* CANTRIPIMPREGNABILITY3 */;
+     , (30519,  4695,      2)  /* CANTRIPIMPREGNABILITY3 */
+     , (30519,  4407,      2)  /* Impenetrability8 */;

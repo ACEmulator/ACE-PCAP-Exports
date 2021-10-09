@@ -25,13 +25,13 @@ VALUES (9179,   1, 'Pack Golem') /* Name */
      , (9179, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (9179,   1,   33556428) /* Setup */
-     , (9179,   2,  150995144) /* MotionTable */
-     , (9179,   8,  100667940) /* Icon */
-     , (9179,  22,  872415326) /* PhysicsEffectTable */
+VALUES (9179,   1, 0x020007CC) /* Setup */
+     , (9179,   2, 0x090000C8) /* MotionTable */
+     , (9179,   8, 0x06001224) /* Icon */
+     , (9179,  22, 0x3400005E) /* PhysicsEffectTable */
      , (9179, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
      , (9179, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (9179, 8005,      69763) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, Movement */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9179, 8000, 3658163630) /* PCAPRecordedObjectIID */;
+VALUES (9179, 8000, 0xDA0B25AE) /* PCAPRecordedObjectIID */;

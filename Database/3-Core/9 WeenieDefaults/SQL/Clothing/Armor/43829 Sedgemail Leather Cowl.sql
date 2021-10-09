@@ -50,27 +50,24 @@ VALUES (43829,   1, 'Sedgemail Leather Cowl') /* Name */
      , (43829,  16, 'Sedgemail Leather Cowl of Weapon Expertise') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (43829,   1,   33555048) /* Setup */
-     , (43829,   3,  536870932) /* SoundTable */
-     , (43829,   6,   67108990) /* PaletteBase */
-     , (43829,   8,  100691727) /* Icon */
-     , (43829,  22,  872415275) /* PhysicsEffectTable */
+VALUES (43829,   1, 0x02000268) /* Setup */
+     , (43829,   3, 0x20000014) /* SoundTable */
+     , (43829,   6, 0x0400007E) /* PaletteBase */
+     , (43829,   8, 0x06006F0F) /* Icon */
+     , (43829,  22, 0x3400002B) /* PhysicsEffectTable */
      , (43829,  37,          6) /* ItemSkillLimit - MeleeDefense */
      , (43829, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
      , (43829, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
      , (43829, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43829, 8000, 3010480363) /* PCAPRecordedObjectIID */;
+VALUES (43829, 8000, 0xB37048EB) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43829,  2104,      2)  /* FrostBane7 */
-     , (43829,  2108,      2)  /* Impenetrability7 */
-     , (43829,  2325,      2)  /* WeaponExpertiseSelf7 */
-     , (43829,  6125,      2)  /* CantripSummoningProwess4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43829, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+VALUES (43829,  2325,      2)  /* WeaponExpertiseSelf7 */
+     , (43829,  6125,      2)  /* CantripSummoningProwess4 */
+     , (43829,  2104,      2)  /* FrostBane7 */
+     , (43829,  2108,      2)  /* Impenetrability7 */;
 
 INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
 VALUES (43829, 67110324, 240, 10)

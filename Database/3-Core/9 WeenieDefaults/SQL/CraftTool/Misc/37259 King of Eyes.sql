@@ -20,13 +20,13 @@ VALUES (37259,   1, 'King of Eyes') /* Name */
      , (37259,  20, 'Kings of Eyes') /* PluralName */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
-VALUES (37259,   1,   33560547) /* Setup */
-     , (37259,   3,  536870932) /* SoundTable */
-     , (37259,   8,  100689855) /* Icon */
-     , (37259,  22,  872415275) /* PhysicsEffectTable */
+VALUES (37259,   1, 0x020017E3) /* Setup */
+     , (37259,   3, 0x20000014) /* SoundTable */
+     , (37259,   8, 0x060067BF) /* Icon */
+     , (37259,  22, 0x3400002B) /* PhysicsEffectTable */
      , (37259, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
      , (37259, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
      , (37259, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37259, 8000, 3069579999) /* PCAPRecordedObjectIID */;
+VALUES (37259, 8000, 0xB6F612DF) /* PCAPRecordedObjectIID */;
